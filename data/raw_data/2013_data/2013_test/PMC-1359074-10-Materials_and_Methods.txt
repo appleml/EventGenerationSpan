@@ -1,0 +1,35 @@
+Quantitation of globin mRNA.
+
+RNA was first reverse transcribed to cDNA.
+
+Primers for cDNA PCR amplification of globin genes were obtained from Primerbank [51].
+
+All primers were searched against the NCBI database to confirm specificity.
+
+For epsilony globin: MHB1666, 5'TGGCCTGTGGAGTAAGGTCAA3'; and MHB1667, 5'GAAGCAGAGGACAAGTTCCCA3'.
+# T1 Protein S5 4 19 239 254 epsilony globin
+
+For zeta globin: MHB1668, 5'CTACCCCCAGACGAAGACCTA3'; and MHB1669, 5'CTTAACCGCATCCCCTACGG3'.
+# T2 Protein S6 4 15 336 347 zeta globin
+
+For betaH1 globin: MHB1672, 5'TGGACAACCTCAAGGAGACC3'; and MHB1673, 5'ACCTCTGGGGTGAATTCCTT3'.
+# T3 Protein S7 4 17 428 441 betaH1 globin
+
+For betamaj/min globin: MHB1674: 5'ATGGCCTGAATCACTTGGAC3'; and MHB1675, 5'ACGATCATATTGCCCAGGAG3'.
+# T4 Protein S8 4 11 521 528 betamaj
+# T5 Protein S8 12 22 529 539 min globin
+
+Using the SYBR green supermix kit with ROX (Bio-Rad, Hercules, California, United States), PCR amplification was run on an ABI7000 (Applied Biosystems, Foster City, California, United States) at the University of Arizona core facility.
+
+All PCR was performed in a 25-mul reaction with 12.5 mul SYBR green supermix.
+
+GAPDH mRNA levels were used as control for input RNA.
+# T6 Protein S11 0 5 929 934 GAPDH
+
+Standard curve analyses were performed to test the efficiency of the amplifications.
+
+Triplicates were done for each PCR reaction.
+
+Relative quantitative values were calculated in the ABI Prism 7000 SDS Software (Applied Biosystems) and normalized to GAPDH in Microsoft Excel (Redmond, Washington, United States).
+# T7 Protein S14 119 124 1232 1237 GAPDH
+

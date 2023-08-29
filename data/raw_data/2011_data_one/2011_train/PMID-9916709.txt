@@ -1,0 +1,115 @@
+T cell priming enhances IL-4 gene expression by increasing nuclear factor of activated T cells.
+# T1 Protein S1 24 28 24 28 IL-4
+$ T1 Protein S1 24 28 24 28 IL-4
+@ T24 Positive_regulation S1 15 23 15 23 enhances
+@ T25 Gene_expression S1 34 44 34 44 expression
+% E1 Positive_regulation:T24 Theme:E2
+% E2 Gene_expression:T25 Theme:T1
+
+The repetitive activation of T cells (priming) enhances the expression of many cytokines, such as IL-4, but not others, such as IL-2.
+# T2 Protein S2 98 102 195 199 IL-4
+# T3 Protein S2 128 132 225 229 IL-2
+$ T2 Protein S2 98 102 195 199 IL-4
+$ T3 Protein S2 128 132 225 229 IL-2
+@ T26 Positive_regulation S2 47 55 144 152 enhances
+@ T27 Gene_expression S2 60 70 157 167 expression
+% E3 Positive_regulation:T26 Theme:E6
+% E4 Positive_regulation:T26 Theme:E5
+% E5 Gene_expression:T27 Theme:T2
+% E6 Gene_expression:T27 Theme:T3
+
+Molecular mechanisms underlying selective expression of cytokines by T cells remain poorly understood.
+
+Here we show that priming of CD4 T cells selectively enhances IL-4 expression relative to IL-2 expression by a transcriptional mechanism involving nuclear factor of activated T cells (NFAT) proteins.
+# T4 Protein S4 29 32 363 366 CD4
+# T5 Protein S4 62 66 396 400 IL-4
+# T6 Protein S4 90 94 424 428 IL-2
+$ T6 Protein S4 90 94 424 428 IL-2
+@ T28 Gene_expression S4 95 105 429 439 expression
+% E7 Gene_expression:T28 Theme:T6
+
+As detected by in vivo footprinting, priming markedly increases the activation-dependent engagement of the P0 and P1 NFAT-binding elements of the IL-4 promoter.
+# T7 Protein S5 146 150 680 684 IL-4
+$ T7 Protein S5 146 150 680 684 IL-4
+@ T29 Positive_regulation S5 54 63 588 597 increases
+@ T30 Positive_regulation S5 68 78 602 612 activation
+@ T31 Regulation S5 79 88 613 622 dependent
+@ T32 Binding S5 89 99 623 633 engagement
+@ T33 Entity S5 107 109 641 643 P0
+@ T34 Entity S5 114 138 648 672 P1 NFAT-binding elements
+@ T35 Entity S5 151 159 685 693 promoter
+% E8 Positive_regulation:T29 Theme:E14
+% E9 Positive_regulation:T29 Theme:E13
+% E10 Positive_regulation:T30 Theme:T7 Site:T35
+% E11 Regulation:T31 Theme:E13 Cause:E10
+% E12 Regulation:T31 Theme:E14 Cause:E10
+% E13 Binding:T32 Theme:T7 Site:T34
+% E14 Binding:T32 Theme:T7 Site:T33
+
+Moreover, each proximal P element is essential for optimal IL-4 promoter activity.
+# T8 Protein S6 59 63 754 758 IL-4
+$ T8 Protein S6 59 63 754 758 IL-4
+@ T36 Positive_regulation S6 37 46 732 741 essential
+@ T37 Entity S6 64 72 759 767 promoter
+% E15 Positive_regulation:T36 Theme:T8 Cause:T7 Site:T37 CSite:T34
+% E16 Positive_regulation:T36 Theme:T8 Cause:T7 Site:T37 CSite:T33
+
+Activated primed CD4 T cells contain more NFAT1 and support greater NFAT-directed transcription than unprimed CD4 T cells, while activator protein 1 binding and activator protein 1-mediated transcription by both cell types is similar.
+# T9 Protein S7 17 20 795 798 CD4
+# T10 Protein S7 42 47 820 825 NFAT1
+# T11 Protein S7 110 113 888 891 CD4
+$ T10 Protein S7 42 47 820 825 NFAT1
+@ T38 Gene_expression S7 29 36 807 814 contain
+@ T39 Positive_regulation S7 37 41 815 819 more
+% E17 Gene_expression:T38 Theme:T10
+% E18 Positive_regulation:T39 Theme:E17
+
+Increased expression of wild-type NFAT1 substantially increases IL-4 promoter activity in unprimed CD4 T cells, suggesting NFAT1 may be limiting for IL-4 gene expression in this cell type.
+# T12 Protein S8 34 39 1047 1052 NFAT1
+# T13 Protein S8 64 68 1077 1081 IL-4
+# T14 Protein S8 99 102 1112 1115 CD4
+# T15 Protein S8 123 128 1136 1141 NFAT1
+# T16 Protein S8 149 153 1162 1166 IL-4
+$ T12 Protein S8 34 39 1047 1052 NFAT1
+$ T13 Protein S8 64 68 1077 1081 IL-4
+$ T15 Protein S8 123 128 1136 1141 NFAT1
+@ T40 Gene_expression S8 10 20 1023 1033 expression
+@ T41 Positive_regulation S8 54 63 1067 1076 increases
+@ T42 Entity S8 69 77 1082 1090 promoter
+@ T43 Negative_regulation S8 136 144 1149 1157 limiting
+@ T44 Gene_expression S8 154 169 1167 1182 gene expression
+% E19 Gene_expression:T40 Theme:T12
+% E20 Positive_regulation:T41 Theme:T13 Cause:E19 Site:T42
+% E21 Negative_regulation:T43 Theme:E22 Cause:T15
+% E22 Gene_expression:T44 Theme:T13
+
+Furthermore, a truncated form of NFAT1 acts as a dominant-negative, reducing IL-4 promoter activity in primed CD4 T cells and confirming the importance of endogenous NFAT to increased IL-4 gene expression by effector T cells.
+# T17 Protein S9 33 38 1235 1240 NFAT1
+# T18 Protein S9 77 81 1279 1283 IL-4
+# T19 Protein S9 110 113 1312 1315 CD4
+# T20 Protein S9 184 188 1386 1390 IL-4
+$ T18 Protein S9 77 81 1279 1283 IL-4
+$ T20 Protein S9 184 188 1386 1390 IL-4
+@ T45 Negative_regulation S9 68 76 1270 1278 reducing
+@ T46 Entity S9 82 90 1284 1292 promoter
+@ T47 Regulation S9 141 151 1343 1353 importance
+@ T48 Positive_regulation S9 174 183 1376 1385 increased
+@ T49 Gene_expression S9 189 204 1391 1406 gene expression
+% E23 Negative_regulation:T45 Theme:T18 Site:T46
+% E24 Regulation:T47 Theme:E25
+% E25 Positive_regulation:T48 Theme:E26
+% E26 Gene_expression:T49 Theme:T20
+
+NFAT1 appears to be the major NFAT family member responsible for the initial increased expression of IL-4 by primed CD4 T cells.
+# T21 Protein S10 0 5 1428 1433 NFAT1
+# T22 Protein S10 101 105 1529 1533 IL-4
+# T23 Protein S10 116 119 1544 1547 CD4
+$ T21 Protein S10 0 5 1428 1433 NFAT1
+$ T22 Protein S10 101 105 1529 1533 IL-4
+@ T50 Regulation S10 49 60 1477 1488 responsible
+@ T51 Positive_regulation S10 77 86 1505 1514 increased
+@ T52 Gene_expression S10 87 97 1515 1525 expression
+% E27 Regulation:T50 Theme:E28 Cause:T21
+% E28 Positive_regulation:T51 Theme:E29
+% E29 Gene_expression:T52 Theme:T22
+

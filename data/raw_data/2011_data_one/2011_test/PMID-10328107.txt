@@ -1,0 +1,39 @@
+Apoptosis and growth inhibition in malignant lymphocytes after treatment with arsenic trioxide at clinically achievable concentrations [see comments]
+
+BACKGROUND: Arsenic trioxide (As2O3) can induce clinical remission in patients with acute promyelocytic leukemia via induction of differentiation and programmed cell death (apoptosis).
+
+We investigated the effects of As2O3 on a panel of malignant lymphocytes to determine whether growth-inhibitory and apoptotic effects of As2O3 can be observed in these cells at clinically achievable concentrations.
+
+METHODS: Eight malignant lymphocytic cell lines and primary cultures of lymphocytic leukemia and lymphoma cells were treated with As2O3, with or without dithiothreitol (DTT) or buthionine sulfoximine (BSO) (an inhibitor of glutathione synthesis).
+
+Apoptosis was assessed by cell morphology, flow cytometry, annexin V protein level, and terminal deoxynucleotidyl transferase labeling of DNA fragments.
+# T1 Protein S5 59 68 857 866 annexin V
+# T2 Protein S5 88 125 886 923 terminal deoxynucleotidyl transferase
+
+Cellular proliferation was determined by 5-bromo-2'-deoxyuridine incorporation into DNA and flow cytometry and by use of a mitotic arrest assay.
+
+Mitochondrial transmembrane potential (delta psi(m)) was measured by means of rhodamine 123 staining and flow cytometry.
+
+Protein expression was assessed by western blot analysis or immunofluorescence.
+
+RESULTS: Therapeutic concentrations of As2O3 (1-2 microM) had dual effects on malignant lymphocytes: 1) inhibition of growth through adenosine triphosphate (ATP) depletion and prolongation of cell cycle time and 2) induction of apoptosis.
+
+As2O3-induced apoptosis was preceded by delta psi(m) collapse.
+
+DTT antagonized and BSO enhanced As2O3-induced ATP depletion, delta psi(m) collapse, and apoptosis.
+
+Caspase-3 activation, usually resulting from delta psi(m) collapse, was not always associated with As2O3-induced apoptosis.
+# T3 Protein S12 0 9 1699 1708 Caspase-3
+
+As2O3 induced PML (promyelocytic leukemia) protein degradation but did not modulate expression of cell cycle-related proteins, including c-myc, retinoblastoma protein, cyclin-dependent kinase 4, cyclin D1, and p53, or expression of differentiation-related antigens.
+# T4 Protein S13 14 17 1837 1840 PML
+# T5 Protein S13 137 142 1960 1965 c-myc
+# T6 Protein S13 144 166 1967 1989 retinoblastoma protein
+# T7 Protein S13 168 193 1991 2016 cyclin-dependent kinase 4
+# T8 Protein S13 195 204 2018 2027 cyclin D1
+# T9 Protein S13 210 213 2033 2036 p53
+
+CONCLUSIONS: Substantial growth inhibition and apoptosis without evidence of differentiation were induced in most malignant lymphocytic cells treated with 1-2 microM As2O3.
+
+As2O3 may prove useful in the treatment of malignant lymphoproliferative disorders.
+

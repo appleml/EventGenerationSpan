@@ -1,0 +1,40 @@
+Characterization of the human immunodeficiency virus type 1 enhancer-binding proteins from the human T-cell line Jurkat.
+
+The transcription of the human immunodeficiency virus type 1 (HIV-1) is under the control of cellular proteins that bind to the viral long terminal repeat (LTR).
+
+Among the protein-binding regions of the HIV-1 LTR is the transcription-enhancer region.
+
+We show that at least one inducible, C1, and one constitutive, C2, protein can bind to the HIV enhancer in Jurkat cells.
+# T1 Protein S4 37 39 410 412 C1
+# T2 Protein S4 63 65 436 438 C2
+$ T1 Protein S4 37 39 410 412 C1
+$ T2 Protein S4 63 65 436 438 C2
+@ T7 Binding S4 79 83 452 456 bind
+% E1 Binding:T7 Theme:T1
+% E2 Binding:T7 Theme:T2
+
+The two proteins differ in their surface charge, since they are separable by anion-exchange chromatography.
+
+Bivalent cations such as Mg2+ and Zn2+ differentially affect their binding to oligonucleotides which contain the HIV-enhancer domain.
+@ T8 Regulation S6 54 60 656 662 affect
+@ T9 Binding S6 67 74 669 676 binding
+% E3 Regulation:T8 Theme:E6
+% E4 Regulation:T8 Theme:E5
+% E5 Binding:T9 Theme:T2
+% E6 Binding:T9 Theme:T1
+
+Both C1 and C2 proteins also bind to a similar sequence found in the interleukin-2-receptor alpha-subunit enhancer.
+# T3 Protein S7 5 7 741 743 C1
+# T4 Protein S7 12 14 748 750 C2
+# T5 Protein S7 69 105 805 841 interleukin-2-receptor alpha-subunit
+$ T4 Protein S7 12 14 748 750 C2
+$ T5 Protein S7 69 105 805 841 interleukin-2-receptor alpha-subunit
+$ T3 Protein S7 5 7 741 743 C1
+@ T10 Binding S7 29 33 765 769 bind
+@ T11 Entity S7 106 114 842 850 enhancer
+% E7 Binding:T10 Theme:T4 Theme2:T5 Site2:T11
+% E8 Binding:T10 Theme:T3 Theme2:T5 Site2:T11
+
+The inducible C1 protein was partially purified by three chromatographic steps and characterized by u.v. cross-linking as a 47 kDa protein.
+# T6 Protein S8 14 16 866 868 C1
+

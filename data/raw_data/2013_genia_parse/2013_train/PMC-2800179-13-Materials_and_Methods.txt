@@ -1,0 +1,44 @@
+Statistical	JJ	B-NP	O	Other	No	No	Other	Other	###	1	Statistical	Statistical	JJ	JJ	_	2	amod	_	_
+Analysis	NN	I-NP	O	Other	No	No	Other	Other	###	2	Analysis	Analysis	NN	NN	_	0	root	_	_
+
+The	DT	B-NP	O	Other	No	No	Other	Other	###	1	The	The	DT	DT	_	2	det	_	_
+results	NNS	I-NP	O	Other	No	No	Other	Other	###	2	results	results	NNS	NNS	_	4	nsubjpass	_	_
+were	VBD	B-VP	O	Other	No	No	Other	Other	###	3	were	were	VBD	VBD	_	4	auxpass	_	_
+expressed	VBN	I-VP	O	Other	No	No	Other	Other	###	4	expressed	expressed	VBN	VBN	_	0	root	_	_
+as	IN	B-PP	O	Other	No	No	Other	Other	###	5	as	as	IN	IN	_	8	case	_	_
+the	DT	B-NP	O	Other	No	No	Other	Other	###	6	the	the	DT	DT	_	8	det	_	_
+mean	JJ	I-NP	O	Other	No	No	Other	Other	###	7	mean	mean	JJ	JJ	_	8	amod	_	_
+value	NN	I-NP	O	Other	No	No	Other	Other	###	8	value	value	NN	NN	_	4	nmod	_	_
++/-	SYM	B-NP	O	Other	No	No	Other	Other	###	9	+/-	+/-	SYM	SYM	_	8	cc	_	_
+S.E.M	NN	I-NP	O	Other	No	No	Other	Other	###	10	S.E.M	S.E.M	NN	NN	_	8	conj	_	_
+.	.	O	O	Other	No	No	Other	Other	###	11	.	.	.	.	_	8	punct	_	_
+of	IN	B-PP	O	Other	No	No	Other	Other	###	12	of	of	IN	IN	_	14	case	_	_
+individual	JJ	B-NP	O	Other	No	No	Other	Other	###	13	individual	individual	JJ	JJ	_	14	amod	_	_
+experiments	NNS	I-NP	O	Other	No	No	Other	Other	###	14	experiments	experiments	NNS	NNS	_	8	nmod	_	_
+.	.	O	O	Other	No	No	Other	Other	###	15	.	.	.	.	_	4	punct	_	_
+
+The	DT	B-NP	O	Other	No	No	Other	Other	###	1	The	The	DT	DT	_	3	det	_	_
+statistical	JJ	I-NP	O	Other	No	No	Other	Other	###	2	statistical	statistical	JJ	JJ	_	3	amod	_	_
+significance	NN	I-NP	O	Other	No	No	Other	Other	###	3	significance	significance	NN	NN	_	11	nsubjpass	_	_
+of	IN	B-PP	O	Other	No	No	Other	Other	###	4	of	of	IN	IN	_	6	case	_	_
+the	DT	B-NP	O	Other	No	No	Other	Other	###	5	the	the	DT	DT	_	6	det	_	_
+differences	NNS	I-NP	O	Other	No	No	Other	Other	###	6	differences	differences	NNS	NNS	_	3	nmod	_	_
+between	IN	B-PP	O	Other	No	No	Other	Other	###	7	between	between	IN	IN	_	9	case	_	_
+mean	JJ	B-NP	O	Other	No	No	Other	Other	###	8	mean	mean	JJ	JJ	_	9	amod	_	_
+values	NNS	I-NP	O	Other	No	No	Other	Other	###	9	values	values	NNS	NNS	_	6	nmod	_	_
+was	VBD	B-VP	O	Other	No	No	Other	Other	###	10	was	was	VBD	VBD	_	11	auxpass	_	_
+assessed	VBN	I-VP	O	Other	No	No	Other	Other	###	11	assessed	assessed	VBN	VBN	_	0	root	_	_
+by	IN	B-PP	O	Other	No	No	Other	Other	###	12	by	by	IN	IN	_	16	case	_	_
+the	DT	B-NP	O	Other	No	No	Other	Other	###	13	the	the	DT	DT	_	14	det	_	_
+Student	NNP	I-NP	O	Other	No	No	Other	Other	###	14	Student	Student	NNP	NNP	_	16	nmod:poss	_	_
+'s	POS	B-NP	O	Other	No	No	Other	Other	###	15	's	's	POS	POS	_	14	case	_	_
+t-test	NN	I-NP	O	Other	No	No	Other	Other	###	16	t-test	t-test	NN	NN	_	11	nmod	_	_
+and	CC	I-NP	O	Other	No	No	Other	Other	###	17	and	and	CC	CC	_	16	cc	_	_
+analysis	NN	I-NP	O	Other	No	No	Other	Other	###	18	analysis	analysis	NN	NN	_	16	conj	_	_
+of	IN	B-PP	O	Other	No	No	Other	Other	###	19	of	of	IN	IN	_	20	case	_	_
+variance	NN	B-NP	O	Other	No	No	Other	Other	###	20	variance	variance	NN	NN	_	18	nmod	_	_
+(	(	O	O	Other	No	No	Other	Other	###	21	(	(	(	(	_	22	punct	_	_
+ANOVA	NN	B-NP	B-protein	Other	No	No	Other	Other	###	22	ANOVA	ANOVA	NN	NN	_	20	appos	_	_
+)	)	O	O	Other	No	No	Other	Other	###	23	)	)	)	)	_	22	punct	_	_
+.	.	O	O	Other	No	No	Other	Other	###	24	.	.	.	.	_	11	punct	_	_
+

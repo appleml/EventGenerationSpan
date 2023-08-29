@@ -1,0 +1,68 @@
+Functional characterization of the murine homolog of the B cell-specific coactivator BOB.1/OBF.1.
+# T1 Protein S1 85 90 85 90 BOB.1
+# T2 Protein S1 91 96 91 96 OBF.1
+
+B cell-specific transcriptional promoter activity mediated by the octamer motif requires the Oct1 or Oct2 protein and additional B cell-restricted cofactors.
+# T3 Protein S2 93 97 192 196 Oct1
+# T4 Protein S2 101 105 200 204 Oct2
+
+One such cofactor, BOB.1/OBF.1, was recently isolated from human B cells.
+# T5 Protein S3 19 24 276 281 BOB.1
+# T6 Protein S3 25 30 282 287 OBF.1
+
+Here, we describe the isolation and detailed characterization of the murine homolog.
+
+Full-length cDNAs and genomic clones were isolated, and the gene structure was determined.
+
+Comparison of the deduced amino acids shows 88% sequence identity between mouse and human BOB.1/OBF.1.
+# T7 Protein S6 90 95 597 602 BOB.1
+# T8 Protein S6 96 101 603 608 OBF.1
+
+The NH2-terminal 126 amino acids of BOB.1/OBF.1 are both essential and sufficient for interaction with the POU domains of either Oct1 or Oct2.
+# T9 Protein S7 36 41 646 651 BOB.1
+# T10 Protein S7 42 47 652 657 OBF.1
+# T11 Protein S7 129 133 739 743 Oct1
+# T12 Protein S7 137 141 747 751 Oct2
+$ T9 Protein S7 36 41 646 651 BOB.1
+$ T11 Protein S7 129 133 739 743 Oct1
+$ T12 Protein S7 137 141 747 751 Oct2
+@ T27 Entity S7 4 32 614 642 NH2-terminal 126 amino acids
+@ T28 Positive_regulation S7 57 81 667 691 essential and sufficient
+@ T29 Binding S7 86 97 696 707 interaction
+@ T30 Entity S7 107 118 717 728 POU domains
+% E1 Positive_regulation:T28 Theme:E4 Cause:T9 CSite:T27
+% E2 Positive_regulation:T28 Theme:E3 Cause:T9 CSite:T27
+% E3 Binding:T29 Theme:T9 Theme2:T11 Site2:T30
+% E4 Binding:T29 Theme:T9 Theme2:T12 Site2:T30
+
+This protein-protein interaction does not require the simultaneous binding of Oct proteins to DNA, and high resolution footprinting of the Oct-DNA interaction reveals that binding of BOB.1/OBF.1 to Oct1 or Oct2 does not alter the interaction with DNA.
+# T13 Protein S8 183 188 936 941 BOB.1
+# T14 Protein S8 189 194 942 947 OBF.1
+# T15 Protein S8 198 202 951 955 Oct1
+# T16 Protein S8 206 210 959 963 Oct2
+$ T13 Protein S8 183 188 936 941 BOB.1
+$ T15 Protein S8 198 202 951 955 Oct1
+$ T16 Protein S8 206 210 959 963 Oct2
+@ T31 Positive_regulation S8 42 49 795 802 require
+@ T32 Binding S8 172 179 925 932 binding
+% E5 Positive_regulation:T31 Theme:E4
+% E6 Positive_regulation:T31 Theme:E3
+% E7 Binding:T32 Theme:T13 Theme2:T15
+% E8 Binding:T32 Theme:T13 Theme2:T16
+
+BOB.1/OBF.1 can efficiently activate octamer-dependent promoters in fibroblasts; however, it fails to stimulate octamer-dependent enhancer activity.
+# T17 Protein S9 0 5 1005 1010 BOB.1
+# T18 Protein S9 6 11 1011 1016 OBF.1
+
+Fusion of subdomains of BOB.1/OBF.1 with the GAL4 DNA binding domain reveals that both NH2- and COOH-terminal domains of BOB.1/OBF.1 contribute to full transactivation function, the COOH-terminal domain is more efficient in this transactivation assay.
+# T19 Protein S10 24 29 1178 1183 BOB.1
+# T20 Protein S10 30 35 1184 1189 OBF.1
+# T21 Protein S10 45 49 1199 1203 GAL4
+# T22 Protein S10 121 126 1275 1280 BOB.1
+# T23 Protein S10 127 132 1281 1286 OBF.1
+
+Consistent with the failure of full-length BOB.1/OBF.1 to stimulate octamer-dependent enhancer elements in non B cells, the GAL4 fusions likewise only stimulate from a promoter-proximal position.
+# T24 Protein S11 43 48 1449 1454 BOB.1
+# T25 Protein S11 49 54 1455 1460 OBF.1
+# T26 Protein S11 124 128 1530 1534 GAL4
+

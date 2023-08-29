@@ -1,0 +1,57 @@
+Granulocyte colony-stimulating factor activates a 72-kDa isoform of STAT3 in human neutrophils.
+# T1 Protein S1 0 37 0 37 Granulocyte colony-stimulating factor
+# T2 Protein S1 68 73 68 73 STAT3
+
+Granulocyte colony-stimulating factor (G-CSF) signaling involves activation of STATs, proteins that serve the dual function of signal transduction and activation of transcription.
+# T3 Protein S2 0 37 97 134 Granulocyte colony-stimulating factor
+# T4 Protein S2 39 44 136 141 G-CSF
+
+We previously demonstrated that G-CSF activated a distinct Stat3-like protein in immature and mature normal myeloid cells, StatG.
+# T5 Protein S3 32 37 309 314 G-CSF
+# T6 Protein S3 59 64 336 341 Stat3
+# T7 Protein S3 123 128 400 405 StatG
+$ T7 Protein S3 123 128 400 405 StatG
+$ T5 Protein S3 32 37 309 314 G-CSF
+@ T22 Positive_regulation S3 38 47 315 324 activated
+% E1 Positive_regulation:T22 Theme:T7 Cause:T5
+
+StatG in normal immature human myeloid cells, i.e. adult CD34+ bone marrow cells, was composed of Stat3beta.
+# T8 Protein S4 0 5 407 412 StatG
+# T9 Protein S4 57 61 464 468 CD34
+# T10 Protein S4 98 107 505 514 Stat3beta
+
+This investigation was undertaken to determine the composition of StatG in mature normal human myeloid cells, i.e. polymorphonuclear neutrophilic granulocytes (PMN).
+# T11 Protein S5 66 71 582 587 StatG
+
+These studies revealed that the major protein in extracts of PMN activated by G-CSF to bind the high-affinity serum-inducible element (hSIE) is a 72-kDa protein that cross-reacts with Stat3 monoclonal antibody, which we have designated Stat3gamma.
+# T12 Protein S6 78 83 760 765 G-CSF
+# T13 Protein S6 184 189 866 871 Stat3
+# T14 Protein S6 236 246 918 928 Stat3gamma
+$ T14 Protein S6 236 246 918 928 Stat3gamma
+@ T23 Binding S6 166 178 848 860 cross-reacts
+% E2 Binding:T23 Theme:T14
+
+Stat3gamma is derived from Stat3alpha by limited proteolysis and lacks the carboxyl-terminal portion of Stat3alpha.
+# T15 Protein S7 0 10 930 940 Stat3gamma
+# T16 Protein S7 27 37 957 967 Stat3alpha
+# T17 Protein S7 104 114 1034 1044 Stat3alpha
+$ T15 Protein S7 0 10 930 940 Stat3gamma
+$ T16 Protein S7 27 37 957 967 Stat3alpha
+@ T24 Positive_regulation S7 14 21 944 951 derived
+@ T25 Protein_catabolism S7 49 60 979 990 proteolysis
+% E3 Positive_regulation:T24 Theme:T15 Cause:E4
+% E4 Protein_catabolism:T25 Theme:T16
+
+Because this region of Stat3alpha is involved in transcriptional activation, our findings suggest the possibility that Stat3gamma may be transcriptionally inactive and may compete with Stat3alpha for Stat3 binding sites in these terminally differentiated myeloid cells.
+# T18 Protein S8 23 33 1069 1079 Stat3alpha
+# T19 Protein S8 119 129 1165 1175 Stat3gamma
+# T20 Protein S8 185 195 1231 1241 Stat3alpha
+# T21 Protein S8 200 205 1246 1251 Stat3
+$ T20 Protein S8 185 195 1231 1241 Stat3alpha
+$ T19 Protein S8 119 129 1165 1175 Stat3gamma
+@ T26 Negative_regulation S8 172 179 1218 1225 compete
+@ T27 Binding S8 206 213 1252 1259 binding
+% E5 Negative_regulation:T26 Theme:T20
+% E6 Binding:T27 Theme:T19
+% E7 Binding:T27 Theme:T20
+

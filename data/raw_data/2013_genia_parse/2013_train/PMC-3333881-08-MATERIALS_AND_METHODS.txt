@@ -1,0 +1,43 @@
+Immunoprecipitation	NN	B-NP	O	Other	No	No	Other	Other	###	1	Immunoprecipitation	Immunoprecipitation	NN	NN	_	2	compound	_	_
+assay	NN	I-NP	O	Other	No	No	Other	Other	###	2	assay	assay	NN	NN	_	0	root	_	_
+and	CC	O	O	Other	No	No	Other	Other	###	3	and	and	CC	CC	_	2	cc	_	_
+GST	NN	B-NP	B-protein	B-Protein	No	No	Other	Other	###	4	GST	GST	NN	NN	_	6	compound	_	_
+-	-	O	O	Other	No	No	Other	Other	###	5	-	-	-	-	_	4	punct	_	_
+pull	NN	B-NP	O	Other	No	No	Other	Other	###	6	pull	pull	NN	NN	_	2	conj	_	_
+down	RP	B-PRT	O	Other	No	No	Other	Other	###	7	down	down	RP	RP	_	2	punct	_	_
+
+Immunoprecipitation	NN	B-NP	O	Other	No	No	Other	Other	###	1	Immunoprecipitation	Immunoprecipitation	NN	NN	_	19	nsubjpass	_	_
+,	,	O	O	Other	No	No	Other	Other	###	2	,	,	,	,	_	1	punct	_	_
+GST	NN	B-NP	B-protein	B-Protein	Yes	No	Other	Other	###	3	GST	GST	NN	NN	_	1	conj	_	_
+-	-	O	O	Other	No	No	Other	Other	###	4	-	-	-	-	_	3	punct	_	_
+pull	NN	B-NP	O	Other	No	No	Other	Other	###	5	pull	pull	NN	NN	_	3	dep	_	_
+down	IN	B-PRT	O	Other	No	No	Other	Other	###	6	down	down	IN	IN	_	3	dep	_	_
+,	,	O	O	Other	No	No	Other	Other	###	7	,	,	,	,	_	1	punct	_	_
+and	CC	O	O	Other	No	No	Other	Other	###	8	and	and	CC	CC	_	1	cc	_	_
+production	NN	B-NP	O	Other	No	No	Other	Other	###	9	production	production	NN	NN	_	1	conj	_	_
+of	IN	B-PP	O	Other	No	No	Other	Other	###	10	of	of	IN	IN	_	12	case	_	_
+GST	NN	B-NP	B-protein	B-Protein	Yes	No	Other	Other	###	11	GST	GST	NN	NN	_	12	compound	_	_
+proteins	NNS	I-NP	I-protein	Other	No	No	Other	Other	###	12	proteins	proteins	NNS	NNS	_	9	nmod	_	_
+in	IN	B-PP	O	Other	No	No	Other	Other	###	13	in	in	IN	IN	_	17	case	_	_
+Escherichia	FW	B-NP	O	Other	No	No	Other	Other	###	14	Escherichia	Escherichia	FW	FW	_	17	compound	_	_
+coli	FW	I-NP	O	Other	No	No	Other	Other	###	15	coli	coli	FW	FW	_	17	compound	_	_
+strain	NN	I-NP	O	Other	No	No	Other	Other	###	16	strain	strain	NN	NN	_	17	compound	_	_
+BL21	NN	I-NP	O	Other	No	No	Other	Other	###	17	BL21	BL21	NN	NN	_	1	nmod	_	_
+were	VBD	B-VP	O	Other	No	No	Other	Other	###	18	were	were	VBD	VBD	_	19	auxpass	_	_
+performed	VBN	I-VP	O	Other	No	No	Other	Other	###	19	performed	performed	VBN	VBN	_	0	root	_	_
+as	IN	B-SBAR	O	Other	No	No	Other	Other	###	20	as	as	IN	IN	_	22	mark	_	_
+previously	RB	B-ADVP	O	Other	No	No	Other	Other	###	21	previously	previously	RB	RB	_	22	advmod	_	_
+reported	VBN	B-VP	O	Other	No	No	Other	Other	###	22	reported	reported	VBN	VBN	_	19	advcl	_	_
+(	(	O	O	Other	No	No	Other	Other	###	23	(	(	(	(	_	24	punct	_	_
+50	CD	B-NP	O	Other	No	No	Other	Other	###	24	50	50	CD	CD	_	22	dep	_	_
+)	)	O	O	Other	No	No	Other	Other	###	25	)	)	)	)	_	24	punct	_	_
+.	.	O	O	Other	No	No	Other	Other	###	26	.	.	.	.	_	19	punct	_	_
+
+Details	NNS	B-NP	O	Other	No	No	Other	Other	###	1	Details	Details	NNS	NNS	_	3	nsubjpass	_	_
+are	VBP	B-VP	O	Other	No	No	Other	Other	###	2	are	are	VBP	VBP	_	3	auxpass	_	_
+described	VBN	I-VP	O	Other	No	No	Other	Other	###	3	described	described	VBN	VBN	_	0	root	_	_
+in	IN	B-PP	O	Other	No	No	Other	Other	###	4	in	in	IN	IN	_	6	case	_	_
+Supplementary	NNP	B-NP	O	Other	No	No	Other	Other	###	5	Supplementary	Supplementary	NNP	NNP	_	6	compound	_	_
+Data	NNP	I-NP	O	Other	No	No	Other	Other	###	6	Data	Data	NNP	NNP	_	3	nmod	_	_
+.	.	O	O	Other	No	No	Other	Other	###	7	.	.	.	.	_	3	punct	_	_
+

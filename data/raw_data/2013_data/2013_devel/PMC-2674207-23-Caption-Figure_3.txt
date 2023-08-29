@@ -1,0 +1,61 @@
+Fluticasone propionate-mediated inhibition of p38 MAP kinase phosphorylation and activation is associated with a marked down-regulation of GATA-3 serine phosphorylation.
+# T1 Protein S1 139 145 139 145 GATA-3
+$ T1 Protein S1 139 145 139 145 GATA-3
+@ T7 Regulation S1 95 105 95 105 associated
+@ T8 Negative_regulation S1 120 135 120 135 down-regulation
+@ T9 Entity S1 146 152 146 152 serine
+@ T10 Phosphorylation S1 153 168 153 168 phosphorylation
+% E1 Regulation:T7 Theme:E2
+% E2 Negative_regulation:T8 Theme:E3
+% E3 Phosphorylation:T10 Theme:T1 Site:T9
+
+(A) Western blot analysis shows that FP (10-8 M, 30 min) treatment reduced dual phosphorylation (threonine-180 and tyrosine-182) of p38 MAPK in anti-CD3/CD28-co-stimulated HuT-78 cells.
+
+(B) Time course of the effect of FP (10-8 M) on phosphorylation of activated transcription factor 2 (ATF-2), a measure of p38 MAPK activity.
+# T2 Protein S3 67 99 423 455 activated transcription factor 2
+# T3 Protein S3 101 106 457 462 ATF-2
+$ T2 Protein S3 67 99 423 455 activated transcription factor 2
+@ T11 Regulation S3 23 29 379 385 effect
+@ T12 Phosphorylation S3 48 63 404 419 phosphorylation
+% E4 Regulation:T11 Theme:E5
+% E5 Phosphorylation:T12 Theme:T2
+
+(C) FP-induced inhibition of p38 MAPK activity is associated with the decrease of anti-CD3/CD28 co-stimulation-induced serine phosphorylation (P-Ser) of GATA-3.
+# T4 Protein S4 153 159 650 656 GATA-3
+$ T4 Protein S4 153 159 650 656 GATA-3
+@ T13 Negative_regulation S4 70 78 567 575 decrease
+@ T14 Positive_regulation S4 111 118 608 615 induced
+@ T15 Entity S4 119 125 616 622 serine
+@ T16 Phosphorylation S4 126 141 623 638 phosphorylation
+% E6 Negative_regulation:T13 Theme:E7
+% E8 Positive_regulation:T14 Theme:E7
+% E7 Phosphorylation:T16 Theme:T4 Site:T15
+
+For (A-C), quantification of the densitometry data is also shown.
+
+Each bar represents mean+/-SEM of at least three independent experiments.
+
+###p<0.001 compared to control, ***p<0.001 compared to alphaCD3/CD28-stimulated cells.
+
+(D) FP induced MKP-1 mRNA in a concentration-dependent manner.
+# T5 Protein S8 15 20 900 905 MKP-1
+$ T5 Protein S8 15 20 900 905 MKP-1
+@ T17 Positive_regulation S8 7 14 892 899 induced
+@ T18 Regulation S8 45 54 930 939 dependent
+% E9 Positive_regulation:T17 Theme:T5
+% E10 Regulation:T18 Theme:E9
+
+All results are representative of at least three independent experiments and where appropriate expressed as means+/-SEM, *p<0.05.
+
+(E) FP induces MKP-1 mRNA in a time-dependent manner.
+# T6 Protein S10 15 20 1093 1098 MKP-1
+$ T6 Protein S10 15 20 1093 1098 MKP-1
+@ T19 Positive_regulation S10 7 14 1085 1092 induces
+@ T20 Regulation S10 36 45 1114 1123 dependent
+% E11 Positive_regulation:T19 Theme:T6
+% E12 Regulation:T20 Theme:E11
+
+Results are representative of two independent experiments.
+
+All data except (E) were analysed by ANOVA followed by Newman-Keuls post-test.
+

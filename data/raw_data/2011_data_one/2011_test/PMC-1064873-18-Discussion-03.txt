@@ -1,0 +1,132 @@
+STAT3 activation has been implicated in the pathogenesis of RA.
+# T1 Protein S1 0 5 0 5 STAT3
+
+Active STAT3 is constitutively expressed in synovial fluid mononuclear cells from RA patients [36].
+# T2 Protein S2 7 12 71 76 STAT3
+
+IL-6 is the major STAT3-activating factor present in synovial fluid, which has a crucial role in the activation of monocyte functions such as gene expression of the Fc gamma receptor type I and type III and of HLA-DR [31].
+# T3 Protein S3 0 4 164 168 IL-6
+# T4 Protein S3 18 23 182 187 STAT3
+# T5 Protein S3 35 41 199 205 factor
+# T6 Protein S3 69 74 233 238 which
+# T7 Protein S3 165 189 329 353 Fc gamma receptor type I
+# T8 Protein S3 194 202 358 366 type III
+
+More recently, high levels of activated STAT3, thought to be induced mainly by IL-6, have been detected in the ST, and STAT3 activation has been shown to be involved in synovial fibroblast proliferation and IL-6 production [37].
+# T9 Protein S4 40 45 427 432 STAT3
+# T10 Protein S4 79 83 466 470 IL-6
+# T11 Protein S4 119 124 506 511 STAT3
+# T12 Protein S4 207 211 594 598 IL-6
+
+In this regard, STAT3 is critical in the survival and expansion of growth factor-dependent synovial fibroblasts [38].
+# T13 Protein S5 16 21 632 637 STAT3
+
+Furthermore, the significance of persistent STAT3 signaling in Th1-cell-dominated autoimmune arthritis has been suggested by studies of the gp130F759/F759 mice, in which the Src homology phosphatase-2 binding site of gp130 (the transmembrane glycoprotein beta subunit of the IL-6 family cytokine receptor), tyrosine 759, was mutated to phenylalanine [39].
+# T14 Protein S6 44 49 778 783 STAT3
+# T15 Protein S6 140 145 874 879 gp130
+# T16 Protein S6 217 222 951 956 gp130
+# T17 Protein S6 228 304 962 1038 transmembrane glycoprotein beta subunit of the IL-6 family cytokine receptor
+
+In the gp130F759/F759 mice, T cells, particularly the CD4+ T-cell subset, are chronically activated and resistant to activation-induced cell death through gp130-mediated STAT3 activation.
+# T18 Protein S7 7 12 1097 1102 gp130
+# T19 Protein S7 54 57 1144 1147 CD4
+# T20 Protein S7 155 160 1245 1250 gp130
+# T21 Protein S7 170 175 1260 1265 STAT3
+
+The longevity of cytokine signals transduced by the JAK-STAT pathway is regulated by the SOCS family proteins [7].
+
+We found that CD4+ T cells from patients with active RA expressed higher levels of SOCS1, but lower levels of SOCS3, compared with normal CD4+ T cells.
+# T22 Protein S9 14 17 1408 1411 CD4
+# T23 Protein S9 83 88 1477 1482 SOCS1
+# T24 Protein S9 110 115 1504 1509 SOCS3
+# T25 Protein S9 138 141 1532 1535 CD4
+
+SOCS1 prevents activation of JAK by directly binding to JAK, and SOCS3 inhibits the action of JAK by binding to the Src homology phosphatase-2-binding domain of receptors such as gp130 [40].
+# T26 Protein S10 0 5 1546 1551 SOCS1
+# T27 Protein S10 65 70 1611 1616 SOCS3
+# T28 Protein S10 161 170 1707 1716 receptors
+# T29 Protein S10 179 184 1725 1730 gp130
+
+SOCS1 and SOCS3 are induced by various cytokines, including IL-6 and IL-10, as mediators of negative feedback and crosstalk inhibition [7].
+# T30 Protein S11 0 5 1737 1742 SOCS1
+# T31 Protein S11 10 15 1747 1752 SOCS3
+# T32 Protein S11 31 48 1768 1785 various cytokines
+# T33 Protein S11 60 64 1797 1801 IL-6
+# T34 Protein S11 69 74 1806 1811 IL-10
+
+Recent studies with mice lacking SOCS3 or SOCS1 revealed that SOCS3 is a negative regulator of IL-6 signaling but not of IL-10 signaling.
+# T35 Protein S12 33 38 1910 1915 SOCS3
+# T36 Protein S12 42 47 1919 1924 SOCS1
+# T37 Protein S12 62 67 1939 1944 SOCS3
+# T38 Protein S12 95 99 1972 1976 IL-6
+# T39 Protein S12 121 126 1998 2003 IL-10
+
+Studies of conditional SOCS3-deficient mice have shown that SOCS3 deficiency, but not SOCS1 deficiency, results in sustained activation of STAT3 in response to IL-6 [8,41].
+# T40 Protein S13 23 28 2038 2043 SOCS3
+# T41 Protein S13 60 65 2075 2080 SOCS3
+# T42 Protein S13 86 91 2101 2106 SOCS1
+# T43 Protein S13 139 144 2154 2159 STAT3
+# T44 Protein S13 160 164 2175 2179 IL-6
+
+The analysis of SOCS3-deficient macrophages has indicated that SOCS3 is a crucial inhibitor of the IL-6-induced transcriptional response [42].
+# T45 Protein S14 16 21 2204 2209 SOCS3
+# T46 Protein S14 63 68 2251 2256 SOCS3
+# T47 Protein S14 99 103 2287 2291 IL-6
+
+However, SOCS3 is dispensable for both the negative feedback inhibition and the immunoregulatory action of IL-10 in macrophages [41].
+# T48 Protein S15 9 14 2340 2345 SOCS3
+# T49 Protein S15 107 112 2438 2443 IL-10
+
+On the contrary, SOCS1 was found to directly inhibit IL-10-mediated signaling [43].
+# T50 Protein S16 17 22 2482 2487 SOCS1
+# T51 Protein S16 53 58 2518 2523 IL-10
+
+Increased SOCS1 expression in RA CD4+ T cells may therefore be associated with both the impaired responsiveness to IL-10 and to IL-10-mediated STAT3 activation, and defective SOCS3 expression may be responsible for persistent STAT3 activation in response to serum IL-6.
+# T52 Protein S17 10 15 2559 2564 SOCS1
+# T53 Protein S17 33 36 2582 2585 CD4
+# T54 Protein S17 115 120 2664 2669 IL-10
+# T55 Protein S17 128 133 2677 2682 IL-10
+# T56 Protein S17 143 148 2692 2697 STAT3
+# T57 Protein S17 175 180 2724 2729 SOCS3
+# T58 Protein S17 226 231 2775 2780 STAT3
+# T59 Protein S17 264 268 2813 2817 IL-6
+
+There is a possibility that SOCS1 induction may be associated with the ability of CD4+ T cells to produce IFN-gamma, because CD4+ T cells from active RA could produce high levels of IFN-gamma in the presence of IL-10, and because IFN-gamma has been known as a potent inducer of SOCS1 [32].
+# T60 Protein S18 28 33 2848 2853 SOCS1
+# T61 Protein S18 82 85 2902 2905 CD4
+# T62 Protein S18 106 115 2926 2935 IFN-gamma
+# T63 Protein S18 125 128 2945 2948 CD4
+# T64 Protein S18 182 191 3002 3011 IFN-gamma
+# T65 Protein S18 211 216 3031 3036 IL-10
+# T66 Protein S18 230 239 3050 3059 IFN-gamma
+# T67 Protein S18 278 283 3098 3103 SOCS1
+
+It is of interest in this regard to indicate that polarized Th1 and Th2 cells express high levels of SOCS1 and SOCS3 mRNA, respectively [44].
+# T68 Protein S19 101 106 3211 3216 SOCS1
+# T69 Protein S19 111 116 3221 3226 SOCS3
+
+IL-12-induced STAT4 activation is inhibited by SOCS3 induction in Th2 cells, whereas IL-4-induced STAT6 signaling is diminished by SOCS1 induction in Th1 cells.
+# T70 Protein S20 0 5 3252 3257 IL-12
+# T71 Protein S20 14 19 3266 3271 STAT4
+# T72 Protein S20 47 52 3299 3304 SOCS3
+# T73 Protein S20 85 89 3337 3341 IL-4
+# T74 Protein S20 98 103 3350 3355 STAT6
+# T75 Protein S20 131 136 3383 3388 SOCS1
+
+SOCS1 and SOCS3 may thus have important roles as Th1-specific and Th2-specific, mutually exclusive, cross-talk repressors of the IL-4-STAT6 and the IL-12-STAT4 signaling pathways, respectively.
+# T76 Protein S21 0 5 3413 3418 SOCS1
+# T77 Protein S21 10 15 3423 3428 SOCS3
+# T78 Protein S21 129 133 3542 3546 IL-4
+# T79 Protein S21 134 139 3547 3552 STAT6
+# T80 Protein S21 148 153 3561 3566 IL-12
+# T81 Protein S21 154 159 3567 3572 STAT4
+
+Consistent with this notion, PB T cells from patients with allergic diseases significantly express high levels of SOCS3 transcripts, and the SOCS3 expression correlates well with serum IgE levels and disease pathology [45].
+# T82 Protein S22 114 119 3721 3726 SOCS3
+# T83 Protein S22 141 146 3748 3753 SOCS3
+
+Higher SOCS1 expression with lower SOCS3 expression in PB CD4+ T cells from RA patients, compared with healthy controls, is therefore probably consistent with their systemic bias towards a Th1 phenotype, as has previously been demonstrated [46-49].
+# T84 Protein S23 7 12 3838 3843 SOCS1
+# T85 Protein S23 35 40 3866 3871 SOCS3
+# T86 Protein S23 58 61 3889 3892 CD4
+

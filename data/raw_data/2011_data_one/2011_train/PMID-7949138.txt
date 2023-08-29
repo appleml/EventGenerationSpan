@@ -1,0 +1,66 @@
+Distinct DNase-I hypersensitive sites are associated with TAL-1 transcription in erythroid and T-cell lines.
+# T1 Protein S1 9 16 9 16 DNase-I
+# T2 Protein S1 58 63 58 63 TAL-1
+$ T2 Protein S1 58 63 58 63 TAL-1
+@ T16 Transcription S1 64 77 64 77 transcription
+% E1 Transcription:T16 Theme:T2
+
+The tal-1 gene, frequently activated in human T-cell acute lymphoblastic leukemia (T-ALL), is expressed in the erythroid, megakaryocytic, and mast cell lineages during normal hematopoiesis.
+# T3 Protein S2 4 9 114 119 tal-1
+$ T3 Protein S2 4 9 114 119 tal-1
+@ T17 Positive_regulation S2 27 36 137 146 activated
+@ T18 Gene_expression S2 94 103 204 213 expressed
+% E2 Positive_regulation:T17 Theme:T3
+% E3 Gene_expression:T18 Theme:T3
+
+To gain further insight into the molecular mechanisms that control tal-1 expression, we investigated tal-1 chromatin structure in erythroid/megakaryocytic cell lines and in T-cell lines either with or without tal-1 rearrangements.
+# T4 Protein S3 67 72 367 372 tal-1
+# T5 Protein S3 101 106 401 406 tal-1
+# T6 Protein S3 209 214 509 514 tal-1
+$ T4 Protein S3 67 72 367 372 tal-1
+@ T19 Regulation S3 59 66 359 366 control
+@ T20 Gene_expression S3 73 83 373 383 expression
+% E4 Regulation:T19 Theme:E5
+% E5 Gene_expression:T20 Theme:T4
+
+Tal-1 transcription was shown to be monoallelic in Jurkat, a T-cell line that expresses tal-1 in the absence of apparent genomic alteration of the locus.
+# T7 Protein S4 0 5 531 536 Tal-1
+# T8 Protein S4 88 93 619 624 tal-1
+$ T7 Protein S4 0 5 531 536 Tal-1
+$ T8 Protein S4 88 93 619 624 tal-1
+@ T21 Transcription S4 6 19 537 550 transcription
+@ T22 Gene_expression S4 78 87 609 618 expresses
+% E6 Transcription:T21 Theme:T7
+% E7 Gene_expression:T22 Theme:T8
+
+Methylation studies indicated that the tal-15' GC-rich region behaves like a CpG island, hypomethylated in normal cells, and methylated de novo on transcriptionally inactive alleles in established cell lines.
+# T9 Protein S5 39 44 724 729 tal-1
+
+Five major DNase-I hypersensitive sites (HS) were mapped in the tal-1 locus.
+# T10 Protein S6 11 18 905 912 DNase-I
+# T11 Protein S6 64 69 958 963 tal-1
+
+HS I, IV, and V were exclusively observed in the erythroid/megakaryocytic cell lines that express tal-1 from the promoters 1a and 1b.
+# T12 Protein S7 98 103 1069 1074 tal-1
+$ T12 Protein S7 98 103 1069 1074 tal-1
+@ T23 Gene_expression S7 90 97 1061 1068 express
+@ T24 Positive_regulation S7 104 108 1075 1079 from
+% E8 Gene_expression:T23 Theme:T12
+% E9 Positive_regulation:T24 Theme:E8
+
+HS II was weak in hematopoietic cell lines, absent in Hela, and greatly enhanced in Jurkat, suggesting that this region might be implicated in the cis-activation of tal-1 promoter 1b in this cell line.
+# T13 Protein S8 165 170 1270 1275 tal-1
+$ T13 Protein S8 165 170 1270 1275 tal-1
+@ T25 Positive_regulation S8 147 161 1252 1266 cis-activation
+@ T26 Entity S8 171 182 1276 1287 promoter 1b
+% E10 Positive_regulation:T25 Theme:T13 Site:T26
+
+HS III was weak in HEL and Jurkat, and greatly enhanced in DU528, a T-cell line that bears a t (1;14) and initiates tal-1 transcription within exon 4.
+# T14 Protein S9 116 121 1423 1428 tal-1
+$ T14 Protein S9 116 121 1423 1428 tal-1
+@ T27 Transcription S9 122 135 1429 1442 transcription
+% E11 Transcription:T27 Theme:T14
+
+These results suggest that distinct regulatory elements are associated with the use of the different tal-1 promoters.
+# T15 Protein S10 101 106 1559 1564 tal-1
+

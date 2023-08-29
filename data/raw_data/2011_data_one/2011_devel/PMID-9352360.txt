@@ -1,0 +1,23 @@
+Suppression of MHC class II expression by human class II trans-activator constructs lacking the N-terminal domain.
+
+The class II trans-activator (CIITA) is a bi- or multi-functional domain protein which plays a critical role in the expression of MHC class II genes.
+# T1 Protein S2 4 28 120 144 class II trans-activator
+# T2 Protein S2 30 35 146 151 CIITA
+
+We report that removal of the N-terminal 151 amino acids, encompassing all of the acidic domain but leaving intact the proline/serine/threonine-rich domain, results in a mutant protein with potent suppressive properties for MHC class II expression.
+
+HeLa cells stably or transiently transfected with mutant CIITA constructs showed up to 99% suppression of MHC class II antigen induction by IFN-gamma and marked suppression of HLA-DRA mRNA expression.
+# T3 Protein S4 57 62 572 577 CIITA
+# T4 Protein S4 140 149 655 664 IFN-gamma
+$ T3 Protein S4 57 62 572 577 CIITA
+@ T5 Positive_regulation S4 33 44 548 559 transfected
+@ T6 Gene_expression S4 33 44 548 559 transfected
+% E1 Positive_regulation:T5 Theme:E2
+% E2 Gene_expression:T6 Theme:T3
+
+Transient transfection of a B lymphoma line resulted in up to 89% reduction of constitutive MHC class II expression within 5 days and suppression of HLA-DRA mRNA synthesis.
+@ T7 Gene_expression S5 10 22 726 738 transfection
+@ T8 Positive_regulation S5 10 22 726 738 transfection
+% E3 Gene_expression:T7 Theme:T3
+% E4 Positive_regulation:T8 Theme:E3
+

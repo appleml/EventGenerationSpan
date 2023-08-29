@@ -1,0 +1,61 @@
+Human monocyte binding to fibronectin enhances IFN-gamma-induced early signaling events.
+# T1 Protein S1 26 37 26 37 fibronectin
+# T2 Protein S1 47 56 47 56 IFN-gamma
+
+Leukocyte integrins are fundamentally important in modulating adhesion to extracellular matrix components and to other cells.
+
+This integrin-mediated adhesion controls leukocyte arrest and extravasation during the onset of inflammatory responses.
+
+Moreover, integrin-ligand interactions trigger signaling pathways that may influence leukocyte phenotype and function at sites of inflammation.
+
+In the current studies, we evaluated the combinatorial effects of monocyte adhesion and IFN-gamma on intracellular signaling pathways.
+# T3 Protein S5 88 97 568 577 IFN-gamma
+
+IFN-gamma triggers a well-defined signal transduction pathway, which although not directly stimulated by monocyte adherence to fibronectin or arginine-glycine-aspartate (RGD)-coated substrata, was enhanced significantly in these matrix-adherent cells.
+# T4 Protein S6 0 9 615 624 IFN-gamma
+# T5 Protein S6 127 138 742 753 fibronectin
+
+Compared with monocytes in suspension or adherent on plastic surfaces, monocytes adherent to fibronectin or RGD exhibited a greater than threefold increase in steady state levels of IFN-gamma-induced mRNA for the high affinity Fc gammaRI receptor.
+# T6 Protein S7 93 104 960 971 fibronectin
+# T7 Protein S7 182 191 1049 1058 IFN-gamma
+# T8 Protein S7 213 246 1080 1113 high affinity Fc gammaRI receptor
+$ T8 Protein S7 213 246 1080 1113 high affinity Fc gammaRI receptor
+$ T7 Protein S7 182 191 1049 1058 IFN-gamma
+@ T13 Positive_regulation S7 147 155 1014 1022 increase
+@ T14 Transcription S7 172 178 1039 1045 levels
+@ T15 Positive_regulation S7 192 199 1059 1066 induced
+% E1 Positive_regulation:T13 Theme:E2
+% E2 Transcription:T14 Theme:T8
+% E3 Positive_regulation:T15 Theme:E2 Cause:T7
+
+By electrophoretic mobility shift assays, this increase in mRNA was associated with a 5- to 10-fold increase in the STAT1-containing DNA-binding complex that binds to Fc gammaRI promoter elements.
+# T9 Protein S8 116 121 1231 1236 STAT1
+$ T9 Protein S8 116 121 1231 1236 STAT1
+@ T16 Positive_regulation S8 47 55 1162 1170 increase
+@ T17 Positive_regulation S8 100 108 1215 1223 increase
+@ T18 Binding S8 137 152 1252 1267 binding complex
+@ T19 Binding S8 158 163 1273 1278 binds
+% E4 Positive_regulation:T16 Theme:T8
+% E5 Positive_regulation:T17 Theme:T9
+% E6 Binding:T18 Theme:T9
+% E7 Binding:T19 Theme:T9
+
+Furthermore, the tyrosine phosphorylation of STAT1 and the tyrosine kinases JAK1 and JAK2 was enhanced significantly in RGD-adherent monocytes compared with control cells.
+# T10 Protein S9 45 50 1357 1362 STAT1
+# T11 Protein S9 76 80 1388 1392 JAK1
+# T12 Protein S9 85 89 1397 1401 JAK2
+$ T10 Protein S9 45 50 1357 1362 STAT1
+$ T12 Protein S9 85 89 1397 1401 JAK2
+$ T11 Protein S9 76 80 1388 1392 JAK1
+@ T20 Entity S9 17 25 1329 1337 tyrosine
+@ T21 Phosphorylation S9 26 41 1338 1353 phosphorylation
+@ T22 Positive_regulation S9 94 102 1406 1414 enhanced
+% E8 Phosphorylation:T21 Theme:T10 Site:T20
+% E9 Phosphorylation:T21 Theme:T12 Site:T20
+% E10 Phosphorylation:T21 Theme:T11 Site:T20
+% E11 Positive_regulation:T22 Theme:E8
+% E12 Positive_regulation:T22 Theme:E10
+% E13 Positive_regulation:T22 Theme:E9
+
+These results suggest a novel mechanism by which integrin-mediated cell adhesion can modulate the magnitude of cytokine-induced signal transduction pathways, thereby amplifying cellular events leading to monocyte activation and inflammation.
+

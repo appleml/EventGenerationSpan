@@ -1,0 +1,92 @@
+HOIL-1L Interacting Protein (HOIP) Is Essential for CD40 Signaling
+# T1 Protein S1 0 27 0 27 HOIL-1L Interacting Protein
+# T2 Protein S1 29 33 29 33 HOIP
+# T3 Protein S1 52 56 52 56 CD40
+
+CD40 is a cell surface receptor important in the activation of antigen-presenting cells during immune responses.
+# T4 Protein S2 0 4 67 71 CD40
+
+In macrophages and dendritic cells, engagement of CD40 by its ligand CD154 provides signals critical for anti-microbial and T cell-mediated immune responses, respectively.
+# T5 Protein S3 50 54 230 234 CD40
+# T6 Protein S3 62 68 242 248 ligand
+# T7 Protein S3 69 74 249 254 CD154
+$ T5 Protein S3 50 54 230 234 CD40
+$ T7 Protein S3 69 74 249 254 CD154
+@ T28 Binding S3 36 46 216 226 engagement
+% E1 Binding:T28 Theme:T5 Theme2:T7
+
+In B cells, CD40 signaling has a major role in regulating cell proliferation, antibody production, and memory B cell development.
+# T8 Protein S4 12 16 364 368 CD40
+
+CD40 engagement results in the formation of a receptor-associated complex that mediates activation of NF-kappaB, stress-activated protein kinases, and other signaling molecules.
+# T9 Protein S5 0 4 482 486 CD40
+$ T9 Protein S5 0 4 482 486 CD40
+@ T29 Binding S5 5 15 487 497 engagement
+% E2 Binding:T29 Theme:T9
+
+However, the mechanisms that link CD40 to these signaling events have been only partially characterized.
+# T10 Protein S6 34 38 694 698 CD40
+
+Known components of the CD40 signaling complex include members of the TNF receptor-associated factor (TRAF) family of proteins.
+
+We previously showed that the TRAF family member TRAF2 mediates recruitment of HOIL-1L-interacting protein (HOIP) to the cytoplasmic domain of CD40, suggesting that HOIP has a role in the CD40 signaling pathway.
+# T11 Protein S8 49 54 942 947 TRAF2
+# T12 Protein S8 79 106 972 999 HOIL-1L-interacting protein
+# T13 Protein S8 108 112 1001 1005 HOIP
+# T14 Protein S8 143 147 1036 1040 CD40
+# T15 Protein S8 165 169 1058 1062 HOIP
+# T16 Protein S8 188 192 1081 1085 CD40
+$ T11 Protein S8 49 54 942 947 TRAF2
+$ T12 Protein S8 79 106 972 999 HOIL-1L-interacting protein
+$ T14 Protein S8 143 147 1036 1040 CD40
+@ T30 Positive_regulation S8 55 63 948 956 mediates
+@ T31 Binding S8 64 75 957 968 recruitment
+@ T32 Entity S8 121 139 1014 1032 cytoplasmic domain
+% E3 Positive_regulation:T30 Theme:E4 Cause:T11
+% E4 Binding:T31 Theme:T12 Theme2:T14 Site2:T32
+
+To determine the role of HOIP in CD40 signaling, we used somatic cell gene targeting to generate mouse B cell lines deficient in HOIP.
+# T17 Protein S9 25 29 1130 1134 HOIP
+# T18 Protein S9 33 37 1138 1142 CD40
+# T19 Protein S9 129 133 1234 1238 HOIP
+$ T19 Protein S9 129 133 1234 1238 HOIP
+@ T33 Negative_regulation S9 116 125 1221 1230 deficient
+% E5 Negative_regulation:T33 Theme:T19
+
+We found that the CD40-induced upregulation of CD80 and activation of germline immunoglobulin epsilon transcription were defective in HOIP-deficient cells.
+# T20 Protein S10 18 22 1258 1262 CD40
+# T21 Protein S10 47 51 1287 1291 CD80
+# T22 Protein S10 134 138 1374 1378 HOIP
+$ T20 Protein S10 18 22 1258 1262 CD40
+$ T21 Protein S10 47 51 1287 1291 CD80
+$ T22 Protein S10 134 138 1374 1378 HOIP
+@ T34 Positive_regulation S10 23 30 1263 1270 induced
+@ T35 Positive_regulation S10 31 43 1271 1283 upregulation
+@ T36 Negative_regulation S10 121 130 1361 1370 defective
+@ T37 Negative_regulation S10 139 148 1379 1388 deficient
+% E6 Positive_regulation:T34 Theme:E7 Cause:T20
+% E7 Positive_regulation:T35 Theme:T21
+% E8 Negative_regulation:T36 Theme:E6
+% E9 Negative_regulation:T37 Theme:T22
+
+We also found that the CD40-mediated activation of NF-kappaB and c-Jun kinase was impaired.
+# T23 Protein S11 23 27 1419 1423 CD40
+
+Recruitment of IkappaB kinase proteins to the CD40 signaling complex was undetectable in HOIP-deficient cells, potentially explaining the defect in NF-kappaB activation.
+# T24 Protein S12 89 93 1577 1581 HOIP
+$ T24 Protein S12 89 93 1577 1581 HOIP
+@ T38 Negative_regulation S12 94 103 1582 1591 deficient
+% E10 Negative_regulation:T38 Theme:T24
+
+Restoration of HOIP expression reversed the defects in cellular activation and signaling.
+# T25 Protein S13 15 19 1673 1677 HOIP
+$ T25 Protein S13 15 19 1673 1677 HOIP
+@ T39 Positive_regulation S13 0 11 1658 1669 Restoration
+@ T40 Gene_expression S13 20 30 1678 1688 expression
+% E11 Positive_regulation:T39 Theme:E12
+% E12 Gene_expression:T40 Theme:T25
+
+These results reveal HOIP as a key component of the CD40 signaling pathway.
+# T26 Protein S14 21 25 1769 1773 HOIP
+# T27 Protein S14 52 56 1800 1804 CD40
+

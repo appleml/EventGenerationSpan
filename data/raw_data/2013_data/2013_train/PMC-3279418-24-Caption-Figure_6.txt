@@ -1,0 +1,20 @@
+Inhibition of NF-kappaB signaling in cpdm BMDC.
+
+WT and cpdm BMDC (2x106 cells in 0.5 mL complete medium) were stimulated with 100 ng/mL LPS (A) or 25 microg/mL poly I:C (B).
+
+At 0, 15, 30, and 60 minutes, whole-cell lysates were obtained and subject to immunoblots with antibodies against proteins involved in NF-kappaB, TBK1/IRF3, ERK1/2, and p38 signaling pathways.
+# T1 Protein S3 146 150 320 324 TBK1
+# T2 Protein S3 151 155 325 329 IRF3
+# T3 Protein S3 157 161 331 335 ERK1
+# T4 Protein S3 162 163 336 337 2
+
+Beta-actin was used as loading control.
+# T5 Protein S4 0 10 367 377 Beta-actin
+
+(C) Cellular levels of p-IKK1/2 and p-IkappaBalpha in LPS- or poly I:C-stimulated BMDC were quantitated with ImageJ (NIH) and presented as trend lines.
+# T6 Protein S5 25 29 432 436 IKK1
+# T7 Protein S5 30 31 437 438 2
+# T8 Protein S5 38 50 445 457 IkappaBalpha
+
+Results are representative of at least two independent experiments.
+

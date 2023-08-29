@@ -1,0 +1,49 @@
+An active v-abl protein tyrosine kinase blocks immunoglobulin light-chain gene rearrangement.
+# T1 Protein S1 10 15 10 15 v-abl
+
+Lymphoid cells transformed by Abelson murine leukemia virus have provided one of the classic models for study of early B-cell development and immunoglobulin rearrangement.
+
+Most of these cells have rearranged their heavy-chain locus but not their light chain genes, suggesting that an active v-abl protein interferes with this differentiation step.
+# T2 Protein S3 119 124 386 391 v-abl
+
+To test this hypothesis, light-chain gene structure was examined in pre-B cells transformed by temperature-sensitive mutants of the Abelson virus and in derivatives that survive at the nonpermissive temperature because they express a human BCL-2 gene.
+# T3 Protein S4 240 245 683 688 BCL-2
+$ T3 Protein S4 240 245 683 688 BCL-2
+@ T12 Gene_expression S4 224 231 667 674 express
+% E1 Gene_expression:T12 Theme:T3
+
+Our studies reveal that inactivation of the v-abl protein tyrosine kinase triggers high-frequency rearrangement of kappa and lambda light-chain genes.
+# T4 Protein S5 44 49 739 744 v-abl
+# T5 Protein S5 115 120 810 815 kappa
+# T6 Protein S5 125 143 820 838 lambda light-chain
+$ T4 Protein S5 44 49 739 744 v-abl
+@ T13 Negative_regulation S5 24 36 719 731 inactivation
+% E2 Negative_regulation:T13 Theme:T4
+
+These events are accompanied by marked increases in the expression of RAG-1 and RAG-2 RNAs.
+# T7 Protein S6 70 75 916 921 RAG-1
+# T8 Protein S6 80 85 926 931 RAG-2
+$ T7 Protein S6 70 75 916 921 RAG-1
+$ T8 Protein S6 80 85 926 931 RAG-2
+@ T14 Positive_regulation S6 39 48 885 894 increases
+@ T15 Transcription S6 56 66 902 912 expression
+% E3 Positive_regulation:T14 Theme:E6
+% E4 Positive_regulation:T14 Theme:E5
+% E5 Transcription:T15 Theme:T7
+% E6 Transcription:T15 Theme:T8
+
+These increases occur in the absence of protein synthesis but are dependent on inactivation of the v-abl protein tyrosine kinase.
+# T9 Protein S7 99 104 1037 1042 v-abl
+$ T9 Protein S7 99 104 1037 1042 v-abl
+@ T16 Positive_regulation S7 66 75 1004 1013 dependent
+@ T17 Negative_regulation S7 79 91 1017 1029 inactivation
+% E7 Positive_regulation:T16 Theme:E3 Cause:E9
+% E8 Positive_regulation:T16 Theme:E4 Cause:E9
+% E9 Negative_regulation:T17 Theme:T9
+
+As documented in the accompanying paper (Klug et al., this issue), an active v-abl protein also suppresses the activity of NF-kappa B/rel and expression controlled by the kappa intron enhancer.
+# T10 Protein S8 77 82 1145 1150 v-abl
+
+Together these data demonstrate that the v-abl protein specifically interferes with light-chain gene rearrangement by suppressing at least two pathways essential for this stage of B-cell differentiation and suggest that tyrosine phosphorylation is important in regulating RAG gene expression.
+# T11 Protein S9 41 46 1303 1308 v-abl
+

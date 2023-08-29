@@ -1,0 +1,90 @@
+STAT1 activation during monocyte to macrophage maturation: role of adhesion molecules.
+# T1 Protein S1 0 5 0 5 STAT1
+$ T1 Protein S1 0 5 0 5 STAT1
+@ T18 Positive_regulation S1 6 16 6 16 activation
+@ T19 Positive_regulation S1 59 63 59 63 role
+% E1 Positive_regulation:T18 Theme:T1
+% E2 Positive_regulation:T19 Theme:E1
+
+Human monocytes isolated from peripheral blood of healthy donors show a time-dependent differentiation into macrophages upon in vitro cultivation, closely mimicking their in vivo migration and maturation into extravascular tissues.
+
+The mediator(s) of this maturation process has not been yet defined.
+
+We investigated the involvement of signal transducers and activators of transcription (STAT) factors in this phenomenon and reported the specific, time-dependent, activation of STAT1 protein starting at day 0/1 of cultivation and maximally expressed at day 5.
+# T2 Protein S4 177 182 566 571 STAT1
+$ T2 Protein S4 177 182 566 571 STAT1
+@ T20 Positive_regulation S4 163 173 552 562 activation
+@ T21 Positive_regulation S4 230 249 619 638 maximally expressed
+% E3 Positive_regulation:T20 Theme:T2
+% E4 Positive_regulation:T21 Theme:E3
+
+STAT1 activity was evident on the STAT binding sequences (SBE) present in the promoters of genes which are up-regulated during monocyte to macrophage maturation such as FcgammaRI and ICAM-1, and in the promoter of the transcription factor IFN regulatory factor-1.
+# T3 Protein S5 0 5 649 654 STAT1
+# T4 Protein S5 169 178 818 827 FcgammaRI
+# T5 Protein S5 183 189 832 838 ICAM-1
+# T6 Protein S5 239 262 888 911 IFN regulatory factor-1
+$ T3 Protein S5 0 5 649 654 STAT1
+$ T5 Protein S5 183 189 832 838 ICAM-1
+$ T4 Protein S5 169 178 818 827 FcgammaRI
+@ T22 Binding S5 39 46 688 695 binding
+@ T23 Positive_regulation S5 107 119 756 768 up-regulated
+% E5 Binding:T22 Theme:T3
+% E6 Positive_regulation:T23 Theme:T5
+% E7 Positive_regulation:T23 Theme:T4
+
+Moreover, the effect of cell adhesion to fibronectin or laminin was studied to investigate mechanisms involved in STAT1 activation.
+# T7 Protein S6 41 52 954 965 fibronectin
+# T8 Protein S6 114 119 1027 1032 STAT1
+$ T8 Protein S6 114 119 1027 1032 STAT1
+@ T24 Positive_regulation S6 120 130 1033 1043 activation
+% E8 Positive_regulation:T24 Theme:T8
+
+Compared with monocytes adherent on plastic surfaces, freshly isolated cells allowed to adhere either to fibronectin- or laminin-coated flasks exhibited an increased STAT1 binding activity both in control and in IFN-gamma-treated cells.
+# T9 Protein S7 105 116 1150 1161 fibronectin
+# T10 Protein S7 166 171 1211 1216 STAT1
+# T11 Protein S7 212 221 1257 1266 IFN-gamma
+$ T10 Protein S7 166 171 1211 1216 STAT1
+@ T25 Positive_regulation S7 156 165 1201 1210 increased
+@ T26 Binding S7 172 188 1217 1233 binding activity
+% E9 Positive_regulation:T25 Theme:E10
+% E10 Binding:T26 Theme:T10
+
+The molecular events leading to enhanced STAT1 activation and cytokine responsiveness concerned both Y701 and S727 STAT1 phosphorylation.
+# T12 Protein S8 41 46 1323 1328 STAT1
+# T13 Protein S8 115 120 1397 1402 STAT1
+$ T12 Protein S8 41 46 1323 1328 STAT1
+$ T13 Protein S8 115 120 1397 1402 STAT1
+@ T27 Positive_regulation S8 32 40 1314 1322 enhanced
+@ T28 Positive_regulation S8 47 57 1329 1339 activation
+@ T29 Entity S8 101 105 1383 1387 Y701
+@ T30 Entity S8 110 114 1392 1396 S727
+@ T31 Phosphorylation S8 121 136 1403 1418 phosphorylation
+% E11 Positive_regulation:T27 Theme:E12
+% E12 Positive_regulation:T28 Theme:T12
+% E13 Phosphorylation:T31 Theme:T13 Site:T30
+% E14 Phosphorylation:T31 Theme:T13 Site:T29
+
+Exogenous addition of transforming growth factor-beta, which exerts an inhibitory effect on some monocytic differentiation markers, inhibited macrophage maturation, integrin expression and STAT1 binding activity.
+# T14 Protein S9 189 194 1609 1614 STAT1
+$ T14 Protein S9 189 194 1609 1614 STAT1
+@ T32 Negative_regulation S9 132 141 1552 1561 inhibited
+@ T33 Binding S9 195 211 1615 1631 binding activity
+% E15 Negative_regulation:T32 Theme:E16
+% E16 Binding:T33 Theme:T14
+
+Taken together these results indicate that STAT1 plays a pivotal role in the differentiation/maturation process of monocytes as an early transcription factor initially activated by adherence and then able to modulate the expression of functional genes, such as ICAM-1 and FcgammaRI.
+# T15 Protein S10 43 48 1676 1681 STAT1
+# T16 Protein S10 261 267 1894 1900 ICAM-1
+# T17 Protein S10 272 281 1905 1914 FcgammaRI
+$ T15 Protein S10 43 48 1676 1681 STAT1
+$ T17 Protein S10 272 281 1905 1914 FcgammaRI
+$ T16 Protein S10 261 267 1894 1900 ICAM-1
+@ T34 Positive_regulation S10 168 177 1801 1810 activated
+@ T35 Regulation S10 208 216 1841 1849 modulate
+@ T36 Gene_expression S10 221 231 1854 1864 expression
+% E17 Positive_regulation:T34 Theme:T15
+% E18 Regulation:T35 Theme:E21 Cause:E17
+% E19 Regulation:T35 Theme:E20 Cause:E17
+% E20 Gene_expression:T36 Theme:T17
+% E21 Gene_expression:T36 Theme:T16
+

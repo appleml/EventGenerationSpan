@@ -1,0 +1,6 @@
+{"trigger": ["Flow cytometric analysis for <extra_id_0> IL-10R1 <extra_id_2> Protein <extra_id_1> expression", ""], "relation": []}
+{"trigger": ["A sample of 5 x 105 cells of PBMC was resuspended in PBS with 1 % FCS .", ""], "relation": []}
+{"trigger": ["PBMC were incubated with saturating concentrations of anti - <extra_id_0> IL-10R1 <extra_id_2> Protein <extra_id_1> mAb ( IgG1 ; R & D systems , Minneapolis , MN , USA ) or with isotype-matched control mAb ( Immunotech ) , followed by incubation with FITC-conjugated goat anti-mouse IgG1 polyclonal antibody ( Santa Cruz Biotechnologies , Santa Cruz , CA , USA ) .", ""], "relation": []}
+{"trigger": ["Cells were then incubated with phycoerythrin-conjugated anti - <extra_id_0> CD4 <extra_id_2> Protein <extra_id_1> mAb ( Becton Dickinson ) .", ""], "relation": []}
+{"trigger": ["Cells were washed well with 1 % FCS / PBS between incubations .", ""], "relation": []}
+{"trigger": ["Analysis was performed on a FACScan flow cytometer ( Becton Dickinson ) .", ""], "relation": []}

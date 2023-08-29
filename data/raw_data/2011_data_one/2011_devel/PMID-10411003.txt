@@ -1,0 +1,61 @@
+Regulatory effects of interleukin-11 during acute lung inflammatory injury.
+# T1 Protein S1 22 36 22 36 interleukin-11
+
+The role of interleukin-11 (IL-11) was evaluated in the IgG immune complex model of acute lung injury in rats.
+# T2 Protein S2 12 26 89 103 interleukin-11
+# T3 Protein S2 28 33 105 110 IL-11
+
+IL-11 mRNA and protein were both up-regulated during the course of this inflammatory response.
+# T4 Protein S3 0 5 188 193 IL-11
+$ T4 Protein S3 0 5 188 193 IL-11
+@ T18 Positive_regulation S3 33 45 221 233 up-regulated
+% E1 Positive_regulation:T18 Theme:T4
+
+Exogenously administered IL-11 substantially reduced, in a dose-dependent manner, the intrapulmonary accumulation of neutrophils and the lung vascular leak of albumin.
+# T5 Protein S4 25 30 308 313 IL-11
+
+These in vivo anti-inflammatory effects of IL-11 were associated with reduced NF-kappaB activation in lung, reduced levels of tumor necrosis factor alpha (TNF-alpha) in bronchoalveolar lavage (BAL) fluids, and diminished up-regulation of lung vascular ICAM-1.
+# T6 Protein S5 43 48 494 499 IL-11
+# T7 Protein S5 126 153 577 604 tumor necrosis factor alpha
+# T8 Protein S5 155 164 606 615 TNF-alpha
+# T9 Protein S5 252 258 703 709 ICAM-1
+$ T8 Protein S5 155 164 606 615 TNF-alpha
+$ T9 Protein S5 252 258 703 709 ICAM-1
+@ T19 Negative_regulation S5 108 122 559 573 reduced levels
+@ T20 Negative_regulation S5 210 220 661 671 diminished
+@ T21 Positive_regulation S5 221 234 672 685 up-regulation
+% E2 Negative_regulation:T19 Theme:T8
+% E3 Negative_regulation:T20 Theme:E4
+% E4 Positive_regulation:T21 Theme:T9
+
+It is interesting that IL-11 did not affect BAL fluid content of the CXC chemokines, macrophage inflammatory protein-2 (MIP-2) and cytokine-inducible neutrophil chemoattractant (CINC); the presence of IL-11 did not affect these chemokines.
+# T10 Protein S6 23 28 734 739 IL-11
+# T11 Protein S6 85 118 796 829 macrophage inflammatory protein-2
+# T12 Protein S6 120 125 831 836 MIP-2
+# T13 Protein S6 201 206 912 917 IL-11
+$ T12 Protein S6 120 125 831 836 MIP-2
+$ T10 Protein S6 23 28 734 739 IL-11
+$ T13 Protein S6 201 206 912 917 IL-11
+@ T22 Regulation S6 37 43 748 754 affect
+@ T23 Regulation S6 215 221 926 932 affect
+% E5 Regulation:T22 Theme:T12 Cause:T10
+% E6 Regulation:T23 Theme:T12 Cause:T13
+
+However, BAL content of C5a was reduced by IL-11.
+# T14 Protein S7 43 48 994 999 IL-11
+
+These data indicate that IL-11 is a regulatory cytokine in the lung and that, like other members of this family, its anti-inflammatory properties appear to be linked to its suppression of NF-kappaB activation, diminished production of TNF-alpha, and reduced up-regulation of lung vascular ICAM-1.
+# T15 Protein S8 25 30 1026 1031 IL-11
+# T16 Protein S8 235 244 1236 1245 TNF-alpha
+# T17 Protein S8 289 295 1290 1296 ICAM-1
+$ T16 Protein S8 235 244 1236 1245 TNF-alpha
+$ T17 Protein S8 289 295 1290 1296 ICAM-1
+@ T24 Negative_regulation S8 210 220 1211 1221 diminished
+@ T25 Gene_expression S8 221 231 1222 1232 production
+@ T26 Negative_regulation S8 250 257 1251 1258 reduced
+@ T27 Positive_regulation S8 258 271 1259 1272 up-regulation
+% E7 Negative_regulation:T24 Theme:E8
+% E8 Gene_expression:T25 Theme:T16
+% E9 Negative_regulation:T26 Theme:E10
+% E10 Positive_regulation:T27 Theme:T17
+

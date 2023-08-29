@@ -1,0 +1,41 @@
+Dimethyldithiocarbamate inhibits in vitro activation of primary human CD4+ T lymphocytes.
+# T1 Protein S1 70 73 70 73 CD4
+
+Dithiocarbamates (DTC), a diverse group of industrial and therapeutic chemicals, have been reported to inhibit, enhance or have no effect on the immune system.
+
+These apparent inconsistencies reflect the complexity of the DTCs biological activities and are probably due in part to differences in dose, route of exposure, animal species used and/or specific compound tested.
+
+The studies described herein were undertaken to investigate the immunotoxicity of one member of this family, dimethyldithiocarbamate (DMDTC).
+
+We demonstrate that 0.1-0.5 microM DMDTC inhibits TNF-alpha-induced activation of NF-kappaB in primary human CD4+ T cells.
+# T2 Protein S5 50 59 656 665 TNF-alpha
+# T3 Protein S5 109 112 715 718 CD4
+
+This inhibition is not accompanied by a loss in viability, and DMDTC-treated T cells retain other active signaling pathways throughout the exposure duration.
+
+The inhibition of NF-kappaB is apparently permanent as DMDTC-treated T cells did not regain normal TNF-alpha activation, even after 72 h in culture.
+# T4 Protein S7 99 108 986 995 TNF-alpha
+$ T4 Protein S7 99 108 986 995 TNF-alpha
+@ T7 Positive_regulation S7 85 91 972 978 regain
+@ T8 Positive_regulation S7 109 119 996 1006 activation
+% E1 Positive_regulation:T7 Theme:E2
+% E2 Positive_regulation:T8 Theme:T4
+
+DMDTC does not appear to alter NF-kappaB directly as pre-incubation of nuclear extracts with DMDTC does not diminish binding activity of this protein.
+
+We further demonstrate that 0.1-0.5 microM DMDTC inhibits intracellular IL-2 production and decreases surface expression of CD25 (the alpha subunit of the IL-2 receptor) in T cells stimulated with phorbol ester.
+# T5 Protein S9 72 76 1259 1263 IL-2
+# T6 Protein S9 124 128 1311 1315 CD25
+$ T5 Protein S9 72 76 1259 1263 IL-2
+$ T6 Protein S9 124 128 1311 1315 CD25
+@ T9 Negative_regulation S9 49 57 1236 1244 inhibits
+@ T10 Gene_expression S9 77 87 1264 1274 production
+@ T11 Negative_regulation S9 92 101 1279 1288 decreases
+@ T12 Gene_expression S9 110 120 1297 1307 expression
+% E3 Negative_regulation:T9 Theme:E4
+% E4 Gene_expression:T10 Theme:T5
+% E5 Negative_regulation:T11 Theme:E6
+% E6 Gene_expression:T12 Theme:T6
+
+These data demonstrate that DMDTC is a potent immunosuppressive compound in vitro.
+

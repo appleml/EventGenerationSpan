@@ -1,0 +1,31 @@
+Oncogenicity of human papillomavirus- or adenovirus-transformed cells correlates with resistance to lysis by natural killer cells.
+
+The reasons for the dissimilar oncogenicities of human adenoviruses and human papillomaviruses (HPV) in humans are unknown but may relate to differences in the capacities of the E1A and E7 proteins to target cells for rejection by the host natural killer (NK) cell response.
+# T1 Protein S2 178 181 310 313 E1A
+# T2 Protein S2 186 188 318 320 E7
+
+As one test of this hypothesis, we compared the abilities of E1A- and E7-expressing human fibroblastic or keratinocyte-derived human cells to be selectively killed by either unstimulated or interferon (IFN)-activated NK cells.
+# T3 Protein S3 61 64 468 471 E1A
+# T4 Protein S3 70 72 477 479 E7
+
+Cells expressing the E1A oncoprotein were selectively killed by unstimulated NK cells, while the same parental cells but expressing the HPV type 16 (HPV-16) or HPV-18 E7 oncoprotein were resistant to NK cell lysis.
+# T5 Protein S4 21 24 655 658 E1A
+# T6 Protein S4 167 169 801 803 E7
+
+The ability of IFN-activated NK cells to selectively kill virally transformed cells depends on IFN's ability to induce resistance to NK cell lysis in normal (i.e., non-viral oncogene-expressing) but not virally transformed cells.
+
+E1A blocked IFN's induction of cytolytic resistance, resulting in the selective lysis of adenovirus-transformed cells by IFN-activated NK cells.
+# T7 Protein S6 0 3 1079 1082 E1A
+
+The extent of IFN-induced NK cell killing of E1A-expressing cells was proportional to the level of E1A expression and correlated with the ability of E1A to block IFN-stimulated gene expression in target cells.
+# T8 Protein S7 45 48 1269 1272 E1A
+# T9 Protein S7 99 102 1323 1326 E1A
+# T10 Protein S7 149 152 1373 1376 E1A
+
+In contrast, E7 blocked neither IFN-stimulated gene expression nor IFN's induction of cytolytic resistance, thereby precluding the selective lysis of HPV-transformed cells by IFN-activated NK cells.
+# T11 Protein S8 13 15 1447 1449 E7
+
+In conclusion, E1A expression marks cells for destruction by the host NK cell response, whereas the E7 oncoprotein lacks this activity.
+# T12 Protein S9 15 18 1648 1651 E1A
+# T13 Protein S9 100 102 1733 1735 E7
+

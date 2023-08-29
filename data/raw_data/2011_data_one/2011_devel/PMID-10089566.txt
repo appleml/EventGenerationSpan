@@ -1,0 +1,86 @@
+Involvement of adenylate cyclase and p70(S6)-kinase activation in IL-10 up-regulation in human monocytes by gp41 envelope protein of human immunodeficiency virus type 1.
+# T1 Protein S1 37 51 37 51 p70(S6)-kinase
+# T2 Protein S1 66 71 66 71 IL-10
+# T3 Protein S1 108 112 108 112 gp41
+$ T1 Protein S1 37 51 37 51 p70(S6)-kinase
+$ T2 Protein S1 66 71 66 71 IL-10
+$ T3 Protein S1 108 112 108 112 gp41
+@ T19 Regulation S1 0 11 0 11 Involvement
+@ T20 Positive_regulation S1 52 62 52 62 activation
+@ T21 Positive_regulation S1 72 85 72 85 up-regulation
+% E1 Regulation:T19 Theme:E3 Cause:E2
+% E2 Positive_regulation:T20 Theme:T1
+% E3 Positive_regulation:T21 Theme:T2 Cause:T3
+
+Our previous results show that recombinant gp41 (aa565-647), the extracellular domain of HIV-1 transmembrane glycoprotein, stimulates interleukin-10 (IL-10) production in human monocytes.
+# T4 Protein S2 43 47 214 218 gp41
+# T5 Protein S2 134 148 305 319 interleukin-10
+# T6 Protein S2 150 155 321 326 IL-10
+$ T6 Protein S2 150 155 321 326 IL-10
+@ T22 Positive_regulation S2 123 133 294 304 stimulates
+@ T23 Gene_expression S2 157 167 328 338 production
+% E4 Positive_regulation:T22 Theme:E5
+% E5 Gene_expression:T23 Theme:T6
+
+The signal cascade transducing this effect is not yet clear.
+
+In this study, we examined whether gp41-induced IL-10 up-regulation is mediated by the previously described synergistic activation of cAMP and NF-kappaB pathways.
+# T7 Protein S4 35 39 455 459 gp41
+# T8 Protein S4 48 53 468 473 IL-10
+$ T7 Protein S4 35 39 455 459 gp41
+$ T8 Protein S4 48 53 468 473 IL-10
+@ T24 Positive_regulation S4 40 47 460 467 induced
+@ T25 Positive_regulation S4 54 67 474 487 up-regulation
+@ T26 Positive_regulation S4 71 79 491 499 mediated
+% E6 Positive_regulation:T24 Theme:E7 Cause:T7
+% E7 Positive_regulation:T25 Theme:T8
+% E8 Positive_regulation:T26 Theme:E6
+
+gp41 induced cAMP accumulation in monocytes in a time- and concentration-dependent manner and the adenylate cyclase inhibitor SQ 22536 suppressed gp41-induced IL-10 production in monocytes.
+# T9 Protein S5 0 4 583 587 gp41
+# T10 Protein S5 146 150 729 733 gp41
+# T11 Protein S5 159 164 742 747 IL-10
+$ T10 Protein S5 146 150 729 733 gp41
+$ T11 Protein S5 159 164 742 747 IL-10
+@ T27 Negative_regulation S5 135 145 718 728 suppressed
+@ T28 Positive_regulation S5 151 158 734 741 induced
+@ T29 Gene_expression S5 165 175 748 758 production
+% E9 Negative_regulation:T27 Theme:E10
+% E10 Positive_regulation:T28 Theme:E11 Cause:T10
+% E11 Gene_expression:T29 Theme:T11
+
+In contrast, gp41 failed to stimulate NF-kappaB binding activity in as much as no NF-kappaB bound to the main NF-kappaB-binding site 2 of the IL-10 promoter after addition of gp41.
+# T12 Protein S6 13 17 786 790 gp41
+# T13 Protein S6 142 147 915 920 IL-10
+# T14 Protein S6 175 179 948 952 gp41
+$ T13 Protein S6 142 147 915 920 IL-10
+@ T30 Binding S6 92 97 865 870 bound
+@ T31 Entity S6 105 134 878 907 main NF-kappaB-binding site 2
+% E12 Binding:T30 Theme:T13 Site:T31
+
+We also examined the involvement of other signal transduction pathways.
+
+Specific inhibitors of p70(S6)-kinase (rapamycin), and Gi protein (pertussis toxin), prevented induction of IL-10 production by gp41 in monocytes, while inhibitors of the phosphatidylinositol 3-kinase (PI 3-kinase) (wortmannin) and mitogen-activated protein kinase (MAPK) pathway (PD 98059) did not.
+# T15 Protein S8 108 113 1134 1139 IL-10
+# T16 Protein S8 128 132 1154 1158 gp41
+$ T16 Protein S8 128 132 1154 1158 gp41
+$ T15 Protein S8 108 113 1134 1139 IL-10
+@ T32 Negative_regulation S8 85 94 1111 1120 prevented
+@ T33 Positive_regulation S8 95 104 1121 1130 induction
+@ T34 Gene_expression S8 114 124 1140 1150 production
+% E13 Negative_regulation:T32 Theme:E14
+% E14 Positive_regulation:T33 Theme:E15 Cause:T16
+% E15 Gene_expression:T34 Theme:T15
+
+Thus HIV-1 gp41-induced IL-10 up-regulation in monocytes may not involve NF-kappaB, MAPK, or PI 3-kinase activation, but rather may operate through activation of adenylate cyclase and pertussis-toxin-sensitive Gi/Go protein to effect p70(S6)-kinase activation.
+# T17 Protein S9 11 15 1337 1341 gp41
+# T18 Protein S9 24 29 1350 1355 IL-10
+$ T17 Protein S9 11 15 1337 1341 gp41
+$ T18 Protein S9 24 29 1350 1355 IL-10
+@ T35 Positive_regulation S9 16 23 1342 1349 induced
+@ T36 Positive_regulation S9 30 43 1356 1369 up-regulation
+@ T37 Positive_regulation S9 132 139 1458 1465 operate
+% E16 Positive_regulation:T35 Theme:E17 Cause:T17
+% E17 Positive_regulation:T36 Theme:T18
+% E18 Positive_regulation:T37 Theme:E16
+

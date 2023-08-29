@@ -1,0 +1,23 @@
+A conserved motif in the promoters of several cytokines expressed by human Th2-type lymphocytes.
+
+We have recently found a novel conserved motif in the promoters of several T-cell-expressed cytokines [human interleukin-2, -4, -5 and -13 and human and mouse granulocyte/macrophage-colony stimulating factor (GM-CSF)].
+# T1 Protein S2 109 122 207 220 interleukin-2
+# T2 Protein S2 124 126 222 224 -4
+# T3 Protein S2 128 130 226 228 -5
+# T4 Protein S2 135 138 233 236 -13
+# T5 Protein S2 159 207 257 305 granulocyte/macrophage-colony stimulating factor
+# T6 Protein S2 209 215 307 313 GM-CSF
+
+It contains a core sequence CTTGG ... CCAAG which is present as part of larger palindromic sequences in each gene.
+
+This suggest that they may interact with a new family of trans-acting factors.
+
+In transfection assays, the human GM-CSF element has a strong positive effect on the expression of a reporter gene by the human T cell line Jurkat J6 upon stimulation.
+# T7 Protein S5 34 40 545 551 GM-CSF
+
+In DNA mobility shift assays, this sequence can give either six different specific bands which are competed out by different parts of the sequence or one specific band which is competed out by each of the inverted repeats, depending on the reconstitution conditions.
+
+In different genes, the core sequences are separated by integer numbers of helical turns.
+
+Considering the strong positive regulatory effect of this element and its presence in several T-cell-expressed cytokine genes, it may be crucial to the coordinated expression of these cytokines in T helper cells.
+

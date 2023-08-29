@@ -1,0 +1,37 @@
+Ethics	NNS	B-NP	O	Other	###	1	Ethics	Ethics	NNS	NNS	_	0	root	_	_
+Statement	NN	I-NP	O	Other	###	2	Statement	Statement	NN	NN	_	1	punct	_	_
+
+All	DT	B-NP	O	Other	###	1	All	All	DT	DT	_	2	det	_	_
+experiments	NNS	I-NP	O	Other	###	2	experiments	experiments	NNS	NNS	_	4	nsubjpass	_	_
+were	VBD	B-VP	O	Other	###	3	were	were	VBD	VBD	_	4	auxpass	_	_
+approved	VBN	I-VP	O	Other	###	4	approved	approved	VBN	VBN	_	0	root	_	_
+and	CC	O	O	Other	###	5	and	and	CC	CC	_	4	cc	_	_
+carried	VBN	B-VP	O	Other	###	6	carried	carried	VBN	VBN	_	4	conj	_	_
+out	RP	B-PRT	O	Other	###	7	out	out	RP	RP	_	6	compound:prt	_	_
+according	VBG	B-PP	O	Other	###	8	according	according	VBG	VBG	_	11	case	_	_
+to	TO	B-PP	O	Other	###	9	to	to	TO	TO	_	8	mwe	_	_
+the	DT	B-NP	O	Other	###	10	the	the	DT	DT	_	11	det	_	_
+Guide	NNP	I-NP	O	Other	###	11	Guide	Guide	NNP	NNP	_	4	nmod	_	_
+for	IN	B-PP	O	Other	###	12	for	for	IN	IN	_	14	case	_	_
+the	DT	B-NP	O	Other	###	13	the	the	DT	DT	_	14	det	_	_
+Care	NNP	I-NP	O	Other	###	14	Care	Care	NNP	NNP	_	11	nmod	_	_
+and	CC	I-NP	O	Other	###	15	and	and	CC	CC	_	11	cc	_	_
+Use	NNP	I-NP	O	Other	###	16	Use	Use	NNP	NNP	_	11	conj	_	_
+of	IN	B-PP	O	Other	###	17	of	of	IN	IN	_	18	case	_	_
+Animals	NNP	B-NP	O	Other	###	18	Animals	Animals	NNP	NNP	_	16	nmod	_	_
+[	(	O	O	Other	###	19	[	[	(	(	_	11	acl	_	_
+Animal	NNP	B-NP	O	Other	###	20	Animal	Animal	NNP	NNP	_	22	compound	_	_
+Care	NNP	I-NP	O	Other	###	21	Care	Care	NNP	NNP	_	22	compound	_	_
+Committee	NNP	I-NP	O	Other	###	22	Committee	Committee	NNP	NNP	_	19	dobj	_	_
+of	IN	B-PP	O	Other	###	23	of	of	IN	IN	_	30	case	_	_
+Chungbuk	NNP	B-NP	O	Other	###	24	Chungbuk	Chungbuk	NNP	NNP	_	28	compound	_	_
+National	NNP	I-NP	O	Other	###	25	National	National	NNP	NNP	_	28	compound	_	_
+University	NNP	I-NP	O	Other	###	26	University	University	NNP	NNP	_	28	compound	_	_
+,	,	O	O	Other	###	27	,	,	,	,	_	30	punct	_	_
+Korea	NNP	B-NP	O	Other	###	28	Korea	Korea	NNP	NNP	_	30	compound	_	_
+(	(	O	O	Other	###	29	(	(	(	(	_	30	punct	_	_
+CBNUA-045-0902-01	NN	B-NP	O	Other	###	30	CBNUA-045-0902-01	CBNUA-045-0902-01	NN	NN	_	22	nmod	_	_
+)	)	O	O	Other	###	31	)	)	)	)	_	30	punct	_	_
+]	)	O	O	Other	###	32	]	]	)	)	_	22	nmod	_	_
+.	.	O	O	Other	###	33	.	.	.	.	_	4	punct	_	_
+

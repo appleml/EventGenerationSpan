@@ -1,0 +1,95 @@
+Aspirin inhibits nuclear factor-kappa B mobilization and monocyte adhesion in stimulated human endothelial cells.
+
+BACKGROUND: The induction of vascular cell adhesion molecule-1 (VCAM-1) and E-selectin by tumor necrosis factor-alpha (TNF) is mediated by mobilization of the transcription factor nuclear factor-kappa B (NF-kappa B).
+# T1 Protein S2 29 62 144 177 vascular cell adhesion molecule-1
+# T2 Protein S2 64 70 179 185 VCAM-1
+# T3 Protein S2 76 86 191 201 E-selectin
+# T4 Protein S2 90 117 205 232 tumor necrosis factor-alpha
+# T5 Protein S2 119 122 234 237 TNF
+$ T3 Protein S2 76 86 191 201 E-selectin
+$ T5 Protein S2 119 122 234 237 TNF
+$ T2 Protein S2 64 70 179 185 VCAM-1
+@ T21 Positive_regulation S2 16 25 131 140 induction
+@ T22 Positive_regulation S2 127 135 242 250 mediated
+% E1 Positive_regulation:T21 Theme:T3 Cause:T5
+% E2 Positive_regulation:T21 Theme:T2 Cause:T5
+% E3 Positive_regulation:T22 Theme:E2
+% E4 Positive_regulation:T22 Theme:E1
+
+Since salicylates have been reported to inhibit NF-kappa B activation by preventing the degradation of its inhibitor I kappa B, we studied a potential inhibition of this pathway by acetylsalicylate (aspirin) in human umbilical vein endothelial cells (HUVECs).
+
+METHODS AND RESULTS: Gel-shift analyses demonstrated dose-dependent inhibition of TNF-induced NF-kappa B mobilization by aspirin at concentrations ranging from 1 to 10 mmol/L.
+# T6 Protein S4 82 85 674 677 TNF
+
+Induction of VCAM-1 and E-selectin surface expression by TNF was dose-dependently reduced by aspirin over the same range, while induction of intercellular adhesion molecule-1 (ICAM-1) was hardly affected.
+# T7 Protein S5 13 19 781 787 VCAM-1
+# T8 Protein S5 24 34 792 802 E-selectin
+# T9 Protein S5 57 60 825 828 TNF
+# T10 Protein S5 141 174 909 942 intercellular adhesion molecule-1
+# T11 Protein S5 176 182 944 950 ICAM-1
+$ T9 Protein S5 57 60 825 828 TNF
+$ T8 Protein S5 24 34 792 802 E-selectin
+$ T7 Protein S5 13 19 781 787 VCAM-1
+$ T11 Protein S5 176 182 944 950 ICAM-1
+@ T23 Positive_regulation S5 0 9 768 777 Induction
+@ T24 Entity S5 35 42 803 810 surface
+@ T25 Localization S5 43 53 811 821 expression
+@ T26 Negative_regulation S5 82 89 850 857 reduced
+@ T27 Positive_regulation S5 128 137 896 905 induction
+@ T28 Regulation S5 195 203 963 971 affected
+% E5 Positive_regulation:T23 Theme:E8 Cause:T9
+% E6 Positive_regulation:T23 Theme:E7 Cause:T9
+% E7 Localization:T25 Theme:T8 AtLoc:T24
+% E8 Localization:T25 Theme:T7 AtLoc:T24
+% E9 Negative_regulation:T26 Theme:E6
+% E10 Negative_regulation:T26 Theme:E5
+% E11 Positive_regulation:T27 Theme:T11
+% E12 Regulation:T28 Theme:E11
+
+Aspirin appeared to prevent VCAM-1 transcription, since it dose-dependently inhibited induction of VCAM-1 mRNA by TNF.
+# T12 Protein S6 28 34 1001 1007 VCAM-1
+# T13 Protein S6 99 105 1072 1078 VCAM-1
+# T14 Protein S6 114 117 1087 1090 TNF
+$ T12 Protein S6 28 34 1001 1007 VCAM-1
+$ T13 Protein S6 99 105 1072 1078 VCAM-1
+$ T14 Protein S6 114 117 1087 1090 TNF
+@ T29 Negative_regulation S6 20 27 993 1000 prevent
+@ T30 Transcription S6 35 48 1008 1021 transcription
+@ T31 Negative_regulation S6 76 85 1049 1058 inhibited
+@ T32 Positive_regulation S6 86 95 1059 1068 induction
+% E13 Negative_regulation:T29 Theme:E14
+% E14 Transcription:T30 Theme:T12
+% E15 Negative_regulation:T31 Theme:E16
+% E16 Positive_regulation:T32 Theme:T13 Cause:T14
+
+As a functional consequence, adhesion of U937 monocytes to TNF-stimulated HUVECs was markedly reduced by aspirin due to suppression of VCAM-1 and E-selectin upregulation.
+# T15 Protein S7 59 62 1151 1154 TNF
+# T16 Protein S7 135 141 1227 1233 VCAM-1
+# T17 Protein S7 146 156 1238 1248 E-selectin
+$ T16 Protein S7 135 141 1227 1233 VCAM-1
+$ T17 Protein S7 146 156 1238 1248 E-selectin
+@ T33 Negative_regulation S7 120 131 1212 1223 suppression
+@ T34 Positive_regulation S7 157 169 1249 1261 upregulation
+% E17 Negative_regulation:T33 Theme:E19
+% E18 Negative_regulation:T33 Theme:E20
+% E19 Positive_regulation:T34 Theme:T16
+% E20 Positive_regulation:T34 Theme:T17
+
+These effects of aspirin were not related to the inhibition of cyclooxygenase activity, since indomethacin was ineffective.
+@ T35 Regulation S8 111 122 1374 1385 ineffective
+% E21 Regulation:T35 Theme:E17
+% E22 Regulation:T35 Theme:E18
+
+CONCLUSIONS: Our data suggest that aspirin inhibits NF-kappa B mobilization, induction of VCAM-1 and E-selectin, and subsequent monocyte adhesion in endothelial cells stimulated by TNF, thereby providing an additional mechanism for therapeutic effects of aspirin.
+# T18 Protein S9 90 96 1477 1483 VCAM-1
+# T19 Protein S9 101 111 1488 1498 E-selectin
+# T20 Protein S9 181 184 1568 1571 TNF
+$ T18 Protein S9 90 96 1477 1483 VCAM-1
+$ T19 Protein S9 101 111 1488 1498 E-selectin
+@ T36 Negative_regulation S9 43 51 1430 1438 inhibits
+@ T37 Positive_regulation S9 77 86 1464 1473 induction
+% E23 Negative_regulation:T36 Theme:E25
+% E24 Negative_regulation:T36 Theme:E26
+% E25 Positive_regulation:T37 Theme:T18
+% E26 Positive_regulation:T37 Theme:T19
+

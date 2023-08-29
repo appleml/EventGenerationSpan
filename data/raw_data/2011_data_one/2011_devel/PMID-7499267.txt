@@ -1,0 +1,99 @@
+Triggering of the human interleukin-6 gene by interferon-gamma and tumor necrosis factor-alpha in monocytic cells involves cooperation between interferon regulatory factor-1, NF kappa B, and Sp1 transcription factors.
+# T1 Protein S1 24 37 24 37 interleukin-6
+# T2 Protein S1 46 62 46 62 interferon-gamma
+# T3 Protein S1 67 94 67 94 tumor necrosis factor-alpha
+# T4 Protein S1 143 173 143 173 interferon regulatory factor-1
+# T5 Protein S1 191 194 191 194 Sp1
+$ T1 Protein S1 24 37 24 37 interleukin-6
+$ T2 Protein S1 46 62 46 62 interferon-gamma
+$ T3 Protein S1 67 94 67 94 tumor necrosis factor-alpha
+$ T5 Protein S1 191 194 191 194 Sp1
+$ T4 Protein S1 143 173 143 173 interferon regulatory factor-1
+@ T29 Positive_regulation S1 0 10 0 10 Triggering
+@ T30 Regulation S1 114 134 114 134 involves cooperation
+% E1 Positive_regulation:T29 Theme:T1 Cause:T2
+% E2 Positive_regulation:T29 Theme:T1 Cause:T3
+% E3 Regulation:T30 Theme:E2 Cause:T5
+% E4 Regulation:T30 Theme:E1 Cause:T4
+
+We investigated the molecular basis of the synergistic induction by interferon-gamma (IFN-gamma)/tumor necrosis factor-alpha (TNF-alpha) of human interleukin-6 (IL-6) gene in THP-1 monocytic cells, and compared it with the basis of this induction by lipopolysaccharide (LPS).
+# T6 Protein S2 68 84 287 303 interferon-gamma
+# T7 Protein S2 86 95 305 314 IFN-gamma
+# T8 Protein S2 97 124 316 343 tumor necrosis factor-alpha
+# T9 Protein S2 126 135 345 354 TNF-alpha
+# T10 Protein S2 146 159 365 378 interleukin-6
+# T11 Protein S2 161 165 380 384 IL-6
+$ T11 Protein S2 161 165 380 384 IL-6
+$ T7 Protein S2 86 95 305 314 IFN-gamma
+$ T9 Protein S2 126 135 345 354 TNF-alpha
+@ T31 Positive_regulation S2 55 64 274 283 induction
+@ T32 Positive_regulation S2 237 246 456 465 induction
+% E5 Positive_regulation:T31 Theme:T11 Cause:T7
+% E6 Positive_regulation:T31 Theme:T11 Cause:T9
+% E7 Positive_regulation:T32 Theme:T11
+
+Functional studies with IL-6 promoter demonstrated that three regions are the targets of the IFN-gamma and/or TNF-alpha action, whereas only one of these regions seemed to be implicated in LPS activation.
+# T12 Protein S3 24 28 519 523 IL-6
+# T13 Protein S3 93 102 588 597 IFN-gamma
+# T14 Protein S3 110 119 605 614 TNF-alpha
+$ T12 Protein S3 24 28 519 523 IL-6
+$ T13 Protein S3 93 102 588 597 IFN-gamma
+$ T14 Protein S3 110 119 605 614 TNF-alpha
+@ T33 Entity S3 29 37 524 532 promoter
+@ T34 Regulation S3 120 126 615 621 action
+% E8 Regulation:T34 Theme:T12 Cause:T13 Site:T33
+% E9 Regulation:T34 Theme:T12 Cause:T14 Site:T33
+
+The three regions concerned are: 1) a region between -73 and -36, which is the minimal element inducible by LPS or TNF-alpha; 2) an element located between -181 and -73, which appeared to regulate the response to IFN-gamma and TNF-alpha negatively; and 3) a distal element upstream of -224, which was inducible by IFN-gamma alone.
+# T15 Protein S4 115 124 815 824 TNF-alpha
+# T16 Protein S4 213 222 913 922 IFN-gamma
+# T17 Protein S4 227 236 927 936 TNF-alpha
+# T18 Protein S4 314 323 1014 1023 IFN-gamma
+
+LPS signaling was found to involve NF kappa B activation by the p50/p65 heterodimers.
+# T19 Protein S5 64 67 1095 1098 p50
+# T20 Protein S5 68 71 1099 1102 p65
+$ T20 Protein S5 68 71 1099 1102 p65
+$ T19 Protein S5 64 67 1095 1098 p50
+@ T35 Positive_regulation S5 46 56 1077 1087 activation
+% E10 Positive_regulation:T35 Theme:T20
+% E11 Positive_regulation:T35 Theme:T19
+
+Synergistic induction of the IL-6 gene by IFN-gamma and TNF-alpha, in monocytic cells, involved cooperation between the IRF-1 and NF kappa B p65 homodimers with concomitant removal of the negative effect of the retinoblastoma control element present in the IL-6 promoter.
+# T21 Protein S6 29 33 1146 1150 IL-6
+# T22 Protein S6 42 51 1159 1168 IFN-gamma
+# T23 Protein S6 56 65 1173 1182 TNF-alpha
+# T24 Protein S6 120 125 1237 1242 IRF-1
+# T25 Protein S6 141 144 1258 1261 p65
+# T26 Protein S6 257 261 1374 1378 IL-6
+$ T21 Protein S6 29 33 1146 1150 IL-6
+$ T22 Protein S6 42 51 1159 1168 IFN-gamma
+$ T23 Protein S6 56 65 1173 1182 TNF-alpha
+$ T25 Protein S6 141 144 1258 1261 p65
+$ T24 Protein S6 120 125 1237 1242 IRF-1
+@ T36 Positive_regulation S6 12 21 1129 1138 induction
+@ T37 Positive_regulation S6 87 95 1204 1212 involved
+% E12 Positive_regulation:T36 Theme:T21 Cause:T22
+% E13 Positive_regulation:T36 Theme:T21 Cause:T23
+% E14 Positive_regulation:T37 Theme:E12 Cause:T25
+% E15 Positive_regulation:T37 Theme:E13 Cause:T25
+% E16 Positive_regulation:T37 Theme:E13 Cause:T24
+% E17 Positive_regulation:T37 Theme:E12 Cause:T24
+
+This removal occurred by activation of the constitutive Sp1 factor, whose increased binding activity and phosphorylation were mediated by IFN-gamma.
+# T27 Protein S7 56 59 1445 1448 Sp1
+# T28 Protein S7 138 147 1527 1536 IFN-gamma
+$ T27 Protein S7 56 59 1445 1448 Sp1
+$ T28 Protein S7 138 147 1527 1536 IFN-gamma
+@ T38 Positive_regulation S7 25 35 1414 1424 activation
+@ T39 Positive_regulation S7 74 83 1463 1472 increased
+@ T40 Binding S7 84 100 1473 1489 binding activity
+@ T41 Phosphorylation S7 105 120 1494 1509 phosphorylation
+@ T42 Positive_regulation S7 126 134 1515 1523 mediated
+% E18 Positive_regulation:T38 Theme:T27
+% E19 Positive_regulation:T39 Theme:E20
+% E20 Binding:T40 Theme:T27
+% E21 Phosphorylation:T41 Theme:T27
+% E22 Positive_regulation:T42 Theme:E21 Cause:T28
+% E23 Positive_regulation:T42 Theme:E19 Cause:T28
+

@@ -1,0 +1,46 @@
+EBV Latent Membrane Protein 1 Activates Akt, NFkappaB, and Stat3 in B Cell Lymphomas
+# T1 Protein S1 4 29 4 29 Latent Membrane Protein 1
+# T2 Protein S1 40 43 40 43 Akt
+# T3 Protein S1 59 64 59 64 Stat3
+$ T2 Protein S1 40 43 40 43 Akt
+$ T1 Protein S1 4 29 4 29 Latent Membrane Protein 1
+$ T3 Protein S1 59 64 59 64 Stat3
+@ T16 Positive_regulation S1 30 39 30 39 Activates
+% E1 Positive_regulation:T16 Theme:T2 Cause:T1
+% E2 Positive_regulation:T16 Theme:T3 Cause:T1
+
+Latent membrane protein 1 (LMP1) is the major oncoprotein of Epstein-Barr virus (EBV).
+# T4 Protein S2 0 25 85 110 Latent membrane protein 1
+# T5 Protein S2 27 31 112 116 LMP1
+
+In transgenic mice, LMP1 promotes increased lymphoma development by 12 mo of age.
+# T6 Protein S3 20 24 192 196 LMP1
+
+This study reveals that lymphoma develops in B-1a lymphocytes, a population that is associated with transformation in older mice.
+
+The lymphoma cells have deregulated cell cycle markers, and inhibitors of Akt, NFkappaB, and Stat3 block the enhanced viability of LMP1 transgenic lymphocytes and lymphoma cells in vitro.
+# T7 Protein S5 74 77 458 461 Akt
+# T8 Protein S5 93 98 477 482 Stat3
+# T9 Protein S5 131 135 515 519 LMP1
+$ T7 Protein S5 74 77 458 461 Akt
+$ T8 Protein S5 93 98 477 482 Stat3
+@ T17 Negative_regulation S5 60 70 444 454 inhibitors
+% E3 Negative_regulation:T17 Theme:T7
+% E4 Negative_regulation:T17 Theme:T8
+
+Lymphoma cells are independent of IL4/Stat6 signaling for survival and proliferation, but have constitutively activated Stat3 signaling.
+# T10 Protein S6 34 37 606 609 IL4
+# T11 Protein S6 38 43 610 615 Stat6
+# T12 Protein S6 120 125 692 697 Stat3
+
+These same targets are also deregulated in wild-type B-1a lymphomas that arise spontaneously through age predisposition.
+@ T15 Anaphora S7 0 18 709 727 These same targets
+@ T18 Regulation S7 28 39 737 748 deregulated
+% E5 Regulation:T18 Theme:T10
+% E6 Regulation:T18 Theme:T11
+% E7 Regulation:T18 Theme:T12
+
+These results suggest that Akt, NFkappaB, and Stat3 pathways may serve as effective targets in the treatment of EBV-associated B cell lymphomas.
+# T13 Protein S8 27 30 857 860 Akt
+# T14 Protein S8 46 51 876 881 Stat3
+

@@ -1,0 +1,48 @@
+T cell-specific negative regulation of transcription of the human cytokine IL-4.
+# T1 Protein S1 75 79 75 79 IL-4
+$ T1 Protein S1 75 79 75 79 IL-4
+@ T9 Negative_regulation S1 16 35 16 35 negative regulation
+@ T10 Transcription S1 39 52 39 52 transcription
+% E1 Negative_regulation:T9 Theme:E2
+% E2 Transcription:T10 Theme:T1
+
+IL-4 secreted by activated T cells is a pleiotropic cytokine affecting growth and differentiation of diverse cell types such as T cells, B cells, and mast cells.
+# T2 Protein S2 0 4 82 86 IL-4
+$ T2 Protein S2 0 4 82 86 IL-4
+@ T11 Localization S2 5 13 87 95 secreted
+% E3 Localization:T11 Theme:T2
+
+We investigated the upstream regulatory elements of the human IL-4 promoter.
+# T3 Protein S3 62 66 306 310 IL-4
+
+A novel T cell-specific negative regulatory element (NRE) composed of two protein-binding sites were mapped in the 5' flanking region of the IL-4 gene: -311CTCCCTTCT-303 (NRE-I) and -288CTTTTTGCTT-TGC-300 (NRE-II).
+# T4 Protein S4 141 145 462 466 IL-4
+
+A T cell-specific protein Neg-1 and a ubiquitous protein Neg-2 binding to NRE-I and NRE-II, respectively, were identified.
+# T5 Protein S5 26 31 562 567 Neg-1
+# T6 Protein S5 57 62 593 598 Neg-2
+$ T6 Protein S5 57 62 593 598 Neg-2
+$ T5 Protein S5 26 31 562 567 Neg-1
+@ T12 Binding S5 63 70 599 606 binding
+% E4 Binding:T12 Theme:T6
+% E5 Binding:T12 Theme:T5
+
+Furthermore, a positive regulatory element was found 45 bp downstream of the NRE.
+
+The enhancer activity of the PRE was completely suppressed when the NRE was present.
+
+These data suggest that IL-4 promoter activity is normally down-regulated by an NRE via repression of the enhancer positive regulatory element.
+# T7 Protein S8 24 28 850 854 IL-4
+$ T7 Protein S8 24 28 850 854 IL-4
+@ T13 Entity S8 29 37 855 863 promoter
+@ T14 Negative_regulation S8 59 73 885 899 down-regulated
+% E6 Negative_regulation:T14 Theme:T7 Site:T13
+
+These data may have implications for the stringent control of IL-4 expression in T cells.
+# T8 Protein S9 62 66 1032 1036 IL-4
+$ T8 Protein S9 62 66 1032 1036 IL-4
+@ T15 Regulation S9 51 58 1021 1028 control
+@ T16 Gene_expression S9 67 77 1037 1047 expression
+% E7 Regulation:T15 Theme:E8
+% E8 Gene_expression:T16 Theme:T8
+

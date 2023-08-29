@@ -1,0 +1,34 @@
+The human TCF-1 gene encodes a nuclear DNA-binding protein uniquely expressed in normal and neoplastic T-lineage lymphocytes.
+# T1 Protein S1 10 15 10 15 TCF-1
+
+The TCF-1 gene encodes a putative transcription factor with affinity for a sequence motif occurring in a number of T-cell enhancers.
+# T2 Protein S2 4 9 131 136 TCF-1
+
+TCF-1 mRNA was originally found to be expressed in a T cell-specific fashion within a set of human and mouse cell lines.
+# T3 Protein S3 0 5 260 265 TCF-1
+
+In contrast, expression reportedly occurs in multiple nonlymphoid tissues during murine embryogenesis.
+
+We have now raised a monoclonal antibody to document expression and biochemistry of the human TCF-1 protein.
+# T4 Protein S5 94 99 578 583 TCF-1
+
+As expected, the TCF-1 protein was detectable only in cell lines of T lineage.
+# T5 Protein S6 17 22 610 615 TCF-1
+
+Its expression was always restricted to the nucleus.
+
+Immunohistochemistry on a panel of human tissues revealed that the TCF-1 protein was found exclusively in thymocytes and in CD3+ T cells in peripheral lymphoid tissues.
+# T6 Protein S8 67 72 792 797 TCF-1
+
+Western blotting yielded a set of bands ranging from 25 kD to 55 kD, resulting from extensive alternative splicing.
+
+The TCF-1 protein was detectable in all samples of a set of 22 T-cell malignancies of various stages of maturation, but was absent from a large number of other hematologic neoplasms.
+# T7 Protein S10 4 9 1014 1019 TCF-1
+
+These observations imply a T cell-specific function for TCF-1, a notion corroborated by recent observations on Tcf-1 knock-out mice.
+# T8 Protein S11 56 61 1249 1254 TCF-1
+# T9 Protein S11 111 116 1304 1309 Tcf-1
+
+In addition, these results indicate that nuclear TCF-1 expression can serve as a pan-T-lineage marker in the diagnosis of lymphoid malignancies.
+# T10 Protein S12 49 54 1375 1380 TCF-1
+

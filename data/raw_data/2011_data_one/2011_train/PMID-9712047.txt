@@ -1,0 +1,52 @@
+Cyclosporin A-resistant transactivation of the IL-2 promoter requires activity of okadaic acid-sensitive serine/threonine phosphatases.
+# T1 Protein S1 47 51 47 51 IL-2
+$ T1 Protein S1 47 51 47 51 IL-2
+@ T6 Regulation S1 14 23 14 23 resistant
+@ T7 Positive_regulation S1 24 39 24 39 transactivation
+@ T8 Entity S1 52 60 52 60 promoter
+@ T9 Positive_regulation S1 61 69 61 69 requires
+% E1 Regulation:T6 Theme:E2
+% E2 Positive_regulation:T7 Theme:T1 Site:T8
+% E3 Positive_regulation:T9 Theme:E2
+
+Expression of the IL-2 gene requires activation of T cells through stimulation of the TCR and costimulation through accessory receptors.
+# T2 Protein S2 18 22 155 159 IL-2
+$ T2 Protein S2 18 22 155 159 IL-2
+@ T10 Gene_expression S2 0 10 137 147 Expression
+@ T11 Positive_regulation S2 28 36 165 173 requires
+% E4 Gene_expression:T10 Theme:T2
+% E5 Positive_regulation:T11 Theme:E4
+
+We have found recently that okadaic acid-sensitive Ser/Thr phosphatases are involved in a cyclosporin A-insensitive pathway that selectively transmits costimulatory signals.
+
+In this study, we analyzed whether activities of these phosphatases are necessary for the expression of the IL-2 gene.
+# T3 Protein S4 108 112 556 560 IL-2
+$ T3 Protein S4 108 112 556 560 IL-2
+@ T12 Positive_regulation S4 72 81 520 529 necessary
+@ T13 Gene_expression S4 90 100 538 548 expression
+% E6 Positive_regulation:T12 Theme:E7
+% E7 Gene_expression:T13 Theme:T3
+
+In both activated peripheral blood T lymphocytes and activated tumorigenic T cell lines, IL-2 gene expression was blocked at the transcriptional level by okadaic acid.
+# T4 Protein S5 89 93 656 660 IL-2
+$ T4 Protein S5 89 93 656 660 IL-2
+@ T14 Negative_regulation S5 114 121 681 688 blocked
+@ T15 Transcription S5 122 150 689 717 at the transcriptional level
+% E8 Negative_regulation:T14 Theme:E9
+% E9 Transcription:T15 Theme:T4
+
+The transcription factors active at the IL-2 promoter were differentially influenced: upon down-modulation of okadaic acid-sensitive phosphatases, transactivation by octamer, NF-kappa B, and NF of activated T cells proteins was abrogated, while transactivation by AP-1 proteins was even enhanced.
+# T5 Protein S6 40 44 775 779 IL-2
+$ T5 Protein S6 40 44 775 779 IL-2
+@ T16 Binding S6 33 35 768 770 at
+@ T17 Entity S6 45 53 780 788 promoter
+@ T18 Positive_regulation S6 147 162 882 897 transactivation
+@ T19 Negative_regulation S6 228 237 963 972 abrogated
+@ T20 Positive_regulation S6 245 260 980 995 transactivation
+@ T21 Positive_regulation S6 287 295 1022 1030 enhanced
+% E10 Binding:T16 Theme:T5 Site:T17
+% E11 Positive_regulation:T18 Theme:T5 Site:T17
+% E12 Negative_regulation:T19 Theme:E11
+% E13 Positive_regulation:T20 Theme:T5 Site:T17
+% E14 Positive_regulation:T21 Theme:E13
+

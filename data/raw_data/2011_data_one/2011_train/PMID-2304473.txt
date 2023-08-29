@@ -1,0 +1,35 @@
+The ubiquitous octamer-binding protein(s) is sufficient for transcription of immunoglobulin genes.
+
+All immunoglobulin genes contain a conserved octanucleotide promoter element, ATGCAAAT, which has been shown to be required for their normal B-cell-specific transcription.
+
+Proteins that bind this octamer have been purified, and cDNAs encoding octamer-binding proteins have been cloned.
+
+Some of these proteins (referred to as OTF-2) are lymphoid specific, whereas at least one other, and possibly more (referred to as OTF-1), is found ubiquitously in all cell types.
+# T1 Protein S4 39 44 425 430 OTF-2
+# T2 Protein S4 131 136 517 522 OTF-1
+
+The exact role of these different proteins in directing the tissue-specific expression of immunoglobulin genes is unclear.
+
+We have identified two human pre-B-cell lines that contain extremely low levels of OTF-2 yet still express high levels of steady-state immunoglobulin heavy-chain mRNA in vivo and efficiently transcribe an immunoglobulin gene in vitro.
+# T3 Protein S6 83 88 772 777 OTF-2
+
+Addition of a highly enriched preparation of OTF-1 made from one of these pre-B cells or from HeLa cells specifically stimulated in vitro transcription of an immunoglobulin gene.
+# T4 Protein S7 45 50 969 974 OTF-1
+$ T4 Protein S7 45 50 969 974 OTF-1
+@ T10 Gene_expression S7 51 55 975 979 made
+% E1 Gene_expression:T10 Theme:T4
+
+Furthermore, OFT-1 appeared to have approximately the same transactivation ability as OTF-2 when normalized for binding activity.
+# T5 Protein S8 13 18 1116 1121 OFT-1
+# T6 Protein S8 86 91 1189 1194 OTF-2
+$ T5 Protein S8 13 18 1116 1121 OFT-1
+$ T6 Protein S8 86 91 1189 1194 OTF-2
+@ T11 Positive_regulation S8 59 74 1162 1177 transactivation
+% E2 Positive_regulation:T11 Theme:T5
+% E3 Positive_regulation:T11 Theme:T6
+
+These results suggest that OTF-1, without OTF-2, is sufficient for transcription of immunoglobulin genes and that OTF-2 alone is not responsible for the B-cell-specific regulation of immunoglobulin gene expression.
+# T7 Protein S9 27 32 1260 1265 OTF-1
+# T8 Protein S9 42 47 1275 1280 OTF-2
+# T9 Protein S9 114 119 1347 1352 OTF-2
+

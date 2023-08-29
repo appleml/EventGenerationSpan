@@ -1,0 +1,59 @@
+A negative role for phosphoinositide 3-kinase in T-cell antigen receptor function.
+# T1 Protein S1 20 45 20 45 phosphoinositide 3-kinase
+
+BACKGROUND: A delicate balance between positive and negative regulatory mechanisms during T-cell activation determines the specificity and magnitude of an immune response.
+
+Phosphoinositide 3-kinase (PI 3-kinase) is activated by a diverse set of receptors that determine T-cell function, including the T-cell antigen receptor (TCR), the costimulatory receptor CD28, and negative regulators of T-cell activation such as CTLA-4.
+# T2 Protein S3 0 25 256 281 Phosphoinositide 3-kinase
+# T3 Protein S3 27 38 283 294 PI 3-kinase
+# T4 Protein S3 187 191 443 447 CD28
+# T5 Protein S3 246 252 502 508 CTLA-4
+$ T3 Protein S3 27 38 283 294 PI 3-kinase
+$ T4 Protein S3 187 191 443 447 CD28
+$ T5 Protein S3 246 252 502 508 CTLA-4
+@ T19 Positive_regulation S3 43 52 299 308 activated
+@ T20 Negative_regulation S3 197 216 453 472 negative regulators
+% E1 Positive_regulation:T19 Theme:T3 Cause:T4
+% E2 Positive_regulation:T19 Theme:T3
+% E3 Positive_regulation:T19 Theme:T3 Cause:T5
+% E4 Negative_regulation:T20 Theme:E3 Cause:T5
+
+PI 3-kinase is also regulated by the haematopoietic cytokines that determine T-cell differentiation and lymphocyte proliferation.
+# T6 Protein S4 0 11 510 521 PI 3-kinase
+$ T6 Protein S4 0 11 510 521 PI 3-kinase
+@ T21 Regulation S4 20 29 530 539 regulated
+% E5 Regulation:T21 Theme:T6
+
+PI 3-kinase can thus dynamically influence the outcome of the immune reactions at various stages.
+# T7 Protein S5 0 11 640 651 PI 3-kinase
+
+In this study, we investigated the importance of PI 3-kinase in TCR-directed T-cell activation using activated or inhibitory versions of PI 3-kinase.
+# T8 Protein S6 49 60 787 798 PI 3-kinase
+# T9 Protein S6 137 148 875 886 PI 3-kinase
+
+RESULTS: Certain aspects of TCR responses such as the induction of transcriptional activity of AP1 and serum response factor were not affected by expression of the mutant forms of PI 3-kinase.
+# T10 Protein S7 180 191 1068 1079 PI 3-kinase
+$ T10 Protein S7 180 191 1068 1079 PI 3-kinase
+@ T22 Gene_expression S7 146 156 1034 1044 expression
+% E6 Gene_expression:T22 Theme:T10
+
+We found, however, that PI 3-kinase profoundly influenced the transactivation capacity of 'nuclear factor of activated T cells' (NF-AT) elicited by the TCR: expression of an activated form of PI 3-kinase inhibited TCR-mediated NF-AT responses, whereas expression of a dominant negative mutant of PI 3-kinase potently enhanced TCR-controlled NF-AT induction.
+# T11 Protein S8 24 35 1105 1116 PI 3-kinase
+# T12 Protein S8 192 203 1273 1284 PI 3-kinase
+# T13 Protein S8 296 307 1377 1388 PI 3-kinase
+$ T12 Protein S8 192 203 1273 1284 PI 3-kinase
+@ T23 Gene_expression S8 157 167 1238 1248 expression
+% E7 Gene_expression:T23 Theme:T12
+
+These effects of PI 3-kinase were not mediated by previously identified PI 3-kinase effectors, such as protein kinase B, a positive regulator of PI 3-kinase, or the GTPase Rac, and are therefore likely to involve a novel, as yet unknown, effector molecule.
+# T14 Protein S9 17 28 1456 1467 PI 3-kinase
+# T15 Protein S9 72 83 1511 1522 PI 3-kinase
+# T16 Protein S9 145 156 1584 1595 PI 3-kinase
+$ T16 Protein S9 145 156 1584 1595 PI 3-kinase
+@ T24 Positive_regulation S9 123 141 1562 1580 positive regulator
+% E8 Positive_regulation:T24 Theme:T16
+
+CONCLUSIONS: Our results establish that PI 3-kinase can both positively and negatively regulate T-cell function, and uncover a previously unrecognized function for PI 3-kinase in T cells as a selective negative regulator of TCR-signalling events and therefore as a determinant of T-cell homeostasis.
+# T17 Protein S10 40 51 1736 1747 PI 3-kinase
+# T18 Protein S10 164 175 1860 1871 PI 3-kinase
+

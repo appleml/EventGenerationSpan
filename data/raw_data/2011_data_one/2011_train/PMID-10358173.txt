@@ -1,0 +1,105 @@
+IL-12 induces IFN regulating factor-1 (IRF-1) gene expression in human NK and T cells.
+# T1 Protein S1 14 37 14 37 IFN regulating factor-1
+# T2 Protein S1 39 44 39 44 IRF-1
+$ T2 Protein S1 39 44 39 44 IRF-1
+@ T26 Positive_regulation S1 6 13 6 13 induces
+@ T27 Gene_expression S1 51 61 51 61 expression
+% E1 Positive_regulation:T26 Theme:E2
+% E2 Gene_expression:T27 Theme:T2
+
+IL-12 is a critical immunoregulatory cytokine that promotes cell-mediated immune responses and the differentiation of naive CD4+ cells to Th1 cells; however, relatively few IL-12 target genes have been identified.
+# T3 Protein S2 124 127 212 215 CD4
+
+To better clarify the molecular basis of IL-12 action, we set out to characterize genes up-regulated by IL-12, first by contrasting IL-12- and IFN-alpha-inducible genes.
+
+We identified several genes up-regulated by IL-12, namely, MIP-1alpha, MIP-1beta, IL-1RA, and IFN regulatory factor-1 (IRF-1).
+# T4 Protein S4 59 69 531 541 MIP-1alpha
+# T5 Protein S4 71 80 543 552 MIP-1beta
+# T6 Protein S4 82 88 554 560 IL-1RA
+# T7 Protein S4 94 117 566 589 IFN regulatory factor-1
+# T8 Protein S4 119 124 591 596 IRF-1
+$ T8 Protein S4 119 124 591 596 IRF-1
+$ T5 Protein S4 71 80 543 552 MIP-1beta
+$ T6 Protein S4 82 88 554 560 IL-1RA
+$ T4 Protein S4 59 69 531 541 MIP-1alpha
+@ T28 Positive_regulation S4 28 40 500 512 up-regulated
+% E3 Positive_regulation:T28 Theme:T8
+% E4 Positive_regulation:T28 Theme:T5
+% E5 Positive_regulation:T28 Theme:T6
+% E6 Positive_regulation:T28 Theme:T4
+
+IRF-1 is a transcription factor regulated by IFNs that is also essential for Th1 responses.
+# T9 Protein S5 0 5 599 604 IRF-1
+$ T9 Protein S5 0 5 599 604 IRF-1
+@ T29 Regulation S5 32 41 631 640 regulated
+% E7 Regulation:T29 Theme:T9
+
+We demonstrated that IL-12 directly up-regulates IRF-1 to the same extent as IFN-alpha in normal human T cells and in NK cells.
+# T10 Protein S6 49 54 740 745 IRF-1
+$ T10 Protein S6 49 54 740 745 IRF-1
+@ T30 Positive_regulation S6 36 48 727 739 up-regulates
+% E8 Positive_regulation:T30 Theme:T10
+
+We showed that IL-12 had a direct effect on IRF-1, an effect not mediated indirectly by the induction of IFN-gamma production.
+# T11 Protein S7 44 49 863 868 IRF-1
+# T12 Protein S7 105 114 924 933 IFN-gamma
+$ T11 Protein S7 44 49 863 868 IRF-1
+$ T12 Protein S7 105 114 924 933 IFN-gamma
+@ T31 Regulation S7 34 40 853 859 effect
+@ T32 Positive_regulation S7 65 73 884 892 mediated
+@ T33 Positive_regulation S7 92 101 911 920 induction
+@ T34 Gene_expression S7 115 125 934 944 production
+% E9 Regulation:T31 Theme:T11
+% E10 Positive_regulation:T32 Theme:E9 Cause:E11
+% E11 Positive_regulation:T33 Theme:E12
+% E12 Gene_expression:T34 Theme:T12
+
+Furthermore, IL-2 and IL-12 synergistically induced IRF-1, whereas IFN-alpha and IL-12 did not.
+# T13 Protein S8 52 57 998 1003 IRF-1
+$ T13 Protein S8 52 57 998 1003 IRF-1
+@ T35 Positive_regulation S8 28 51 974 997 synergistically induced
+% E13 Positive_regulation:T35 Theme:T13
+
+The participation of STAT4 in the regulation of IRF-1 was demonstrated in two ways.
+# T14 Protein S9 21 26 1063 1068 STAT4
+# T15 Protein S9 48 53 1090 1095 IRF-1
+$ T14 Protein S9 21 26 1063 1068 STAT4
+$ T15 Protein S9 48 53 1090 1095 IRF-1
+@ T36 Regulation S9 4 17 1046 1059 participation
+@ T37 Regulation S9 34 44 1076 1086 regulation
+% E14 Regulation:T36 Theme:E15 Cause:T14
+% E15 Regulation:T37 Theme:T15
+
+First, STAT4 was required for the IL-12-dependent transactivation of an IRF-1 reporter construct, and second, STAT4 binding to the IRF-1 promoter was shown using EMSA.
+# T16 Protein S10 7 12 1133 1138 STAT4
+# T17 Protein S10 72 77 1198 1203 IRF-1
+# T18 Protein S10 110 115 1236 1241 STAT4
+# T19 Protein S10 131 136 1257 1262 IRF-1
+$ T18 Protein S10 110 115 1236 1241 STAT4
+$ T19 Protein S10 131 136 1257 1262 IRF-1
+@ T38 Binding S10 116 123 1242 1249 binding
+@ T39 Entity S10 137 145 1263 1271 promoter
+% E16 Binding:T38 Theme:T18 Theme2:T19 Site2:T39
+
+In contrast to IL-12, no up-regulation of IRF-1 was found in IL-4-stimulated cells, and IL-4 did not block IL-12-dependent up-regulation of IRF-1.
+# T20 Protein S11 42 47 1336 1341 IRF-1
+# T21 Protein S11 61 65 1355 1359 IL-4
+# T22 Protein S11 88 92 1382 1386 IL-4
+# T23 Protein S11 140 145 1434 1439 IRF-1
+$ T20 Protein S11 42 47 1336 1341 IRF-1
+$ T22 Protein S11 88 92 1382 1386 IL-4
+$ T23 Protein S11 140 145 1434 1439 IRF-1
+@ T40 Positive_regulation S11 25 38 1319 1332 up-regulation
+@ T41 Negative_regulation S11 101 106 1395 1400 block
+@ T42 Positive_regulation S11 123 136 1417 1430 up-regulation
+% E17 Positive_regulation:T40 Theme:T20
+% E18 Negative_regulation:T41 Theme:E19 Cause:T22
+% E19 Positive_regulation:T42 Theme:T23
+
+Therefore, IRF-1 may be an important contributor to IL-12 signaling, and we speculate that the defective IL-12 responses seen in IRF-1-/- mice might be attributable, in part, to the absence of this transcription factor.
+# T24 Protein S12 11 16 1452 1457 IRF-1
+# T25 Protein S12 129 134 1570 1575 IRF-1
+$ T24 Protein S12 11 16 1452 1457 IRF-1
+@ T43 Positive_regulation S12 182 189 1623 1630 absence
+% E20 Positive_regulation:T43 Theme:T24
+

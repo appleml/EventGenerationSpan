@@ -1,0 +1,52 @@
+Expression of transcription factor genes after influenza A virus infection.
+
+Infection of human monocytes with influenza A virus induces a broad range of proinflammatory cytokines and mononuclear cell attracting chemokines before the infected cells undergo apoptosis.
+
+The underlying mechanisms by which the corresponding genes are transcriptionally initiated after virus infection are still poorly understood.
+
+Activation of NF-kappa B seems to play an important role in the regulation of many proinflammatory cytokine genes, but cannot be the only mechanism, since several cytokine genes lack respective binding sites in their promoter regions.
+
+Therefore, we additionally investigated other transcription factors of possible importance such as CREB, CTF, OTF-1, and OTF-2.
+# T1 Protein S5 105 108 750 753 CTF
+# T2 Protein S5 110 115 755 760 OTF-1
+# T3 Protein S5 121 126 766 771 OTF-2
+$ T3 Protein S5 121 126 766 771 OTF-2
+$ T1 Protein S5 105 108 750 753 CTF
+$ T2 Protein S5 110 115 755 760 OTF-1
+@ T9 Regulation S5 80 90 725 735 importance
+% E1 Regulation:T9 Theme:T3
+% E2 Regulation:T9 Theme:T1
+% E3 Regulation:T9 Theme:T2
+
+To explore long-term regulatory mechanisms, we investigated the induction of transcription factors on the gene expression level which may be important to substitute for metabolized transcription factor proteins after their activation.
+
+We identified a cell-type-specific differential response: CREB, CTF, OTF-1, OFT-2, and NF-kappa B genes were strongly induced 1 to 4 hours after influenza A virus infection in the monocytic cell line Mono Mac 6, while in freshly prepared human monocytes no significant changes were detected.
+# T4 Protein S7 64 67 1072 1075 CTF
+# T5 Protein S7 69 74 1077 1082 OTF-1
+# T6 Protein S7 76 81 1084 1089 OFT-2
+$ T6 Protein S7 76 81 1084 1089 OFT-2
+$ T5 Protein S7 69 74 1077 1082 OTF-1
+$ T4 Protein S7 64 67 1072 1075 CTF
+@ T10 Positive_regulation S7 118 125 1126 1133 induced
+@ T11 Positive_regulation S7 269 276 1277 1284 changes
+% E4 Positive_regulation:T10 Theme:T6
+% E5 Positive_regulation:T10 Theme:T5
+% E6 Positive_regulation:T10 Theme:T4
+% E7 Positive_regulation:T11 Theme:T6
+% E8 Positive_regulation:T11 Theme:T4
+% E9 Positive_regulation:T11 Theme:T5
+
+In infected monocytes, which die by apoptosis, the expression of CREB, CTF, and OTF-2 was rather suppressed 8 hours after infection.
+# T7 Protein S8 71 74 1371 1374 CTF
+# T8 Protein S8 80 85 1380 1385 OTF-2
+$ T8 Protein S8 80 85 1380 1385 OTF-2
+$ T7 Protein S8 71 74 1371 1374 CTF
+@ T12 Gene_expression S8 51 61 1351 1361 expression
+@ T13 Negative_regulation S8 97 107 1397 1407 suppressed
+% E10 Gene_expression:T12 Theme:T8
+% E11 Gene_expression:T12 Theme:T7
+% E12 Negative_regulation:T13 Theme:E11
+% E13 Negative_regulation:T13 Theme:E10
+
+In conclusion, the long-term regulation of transcription factor gene expression in non-proliferating cells seems to be of minor importance after influenza infection since in apoptosisprone cells an immediate availability of transcription factor proteins is required.
+

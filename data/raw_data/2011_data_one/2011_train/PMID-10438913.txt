@@ -1,0 +1,53 @@
+IL-2-independent activation and proliferation in human T cells induced by CD28.
+# T1 Protein S1 0 4 0 4 IL-2
+# T2 Protein S1 74 78 74 78 CD28
+
+Although the role of CD28 in T cell costimulation is firmly established, the mechanisms by which it exerts its costimulatory actions are less clear.
+# T3 Protein S2 21 25 102 106 CD28
+
+In many circumstances it is difficult to distinguish the effects of CD28 from subsequent actions of cytokines, such as IL-2, on T cell proliferation.
+# T4 Protein S3 68 72 298 302 CD28
+# T5 Protein S3 119 123 349 353 IL-2
+
+Here, we report a model of CD28 costimulation using PMA plus the natural ligand CD80 that resulted in very limited stimulation of IL-2, as evidenced by both cytokine production and IL-2 promoter stimulation.
+# T6 Protein S4 27 31 407 411 CD28
+# T7 Protein S4 80 84 460 464 CD80
+# T8 Protein S4 130 134 510 514 IL-2
+# T9 Protein S4 181 185 561 565 IL-2
+$ T8 Protein S4 130 134 510 514 IL-2
+$ T9 Protein S4 181 185 561 565 IL-2
+@ T20 Positive_regulation S4 90 98 470 478 resulted
+@ T21 Positive_regulation S4 115 126 495 506 stimulation
+@ T22 Entity S4 186 194 566 574 promoter
+@ T23 Positive_regulation S4 195 206 575 586 stimulation
+% E2 Positive_regulation:T20 Theme:E4
+% E3 Positive_regulation:T21 Theme:T8
+% E4 Positive_regulation:T23 Theme:T9 Site:T22
+
+Promoter assays revealed CD28-dependent effects on both NF-kappaB and AP-1, but not on NF-AT or the intact IL-2 promoter.
+# T10 Protein S5 25 29 613 617 CD28
+# T11 Protein S5 107 111 695 699 IL-2
+$ T11 Protein S5 107 111 695 699 IL-2
+$ T10 Protein S5 25 29 613 617 CD28
+@ T24 Regulation S5 40 47 628 635 effects
+@ T25 Entity S5 112 120 700 708 promoter
+% E5 Regulation:T24 Theme:T11 Cause:T10 Site:T25
+
+In addition, T cell proliferation was completely resistant to the actions of the immunosuppressant cyclosporin A (CsA).
+
+Moreover T cell proliferation was unaffected by the addition of blocking Abs to both IL-2 and the IL-2 receptor, demonstrating that this form of costimulation by CD28 was independent of IL-2.
+# T12 Protein S7 85 89 915 919 IL-2
+# T13 Protein S7 162 166 992 996 CD28
+# T14 Protein S7 186 190 1016 1020 IL-2
+$ T12 Protein S7 85 89 915 919 IL-2
+@ T26 Negative_regulation S7 64 72 894 902 blocking
+% E6 Negative_regulation:T26 Theme:T12
+
+We also investigated the effects of stimulating T cell blasts with CD80 alone and found that there was a limited requirement for IL-2 in this system.
+# T15 Protein S8 67 71 1089 1093 CD80
+# T16 Protein S8 129 133 1151 1155 IL-2
+
+We conclude that CD28 costimulation can cause substantial T cell proliferation in the absence of IL-2, which is driven by a soluble factor independent of NF-AT transactivation.
+# T17 Protein S9 17 21 1189 1193 CD28
+# T18 Protein S9 97 101 1269 1273 IL-2
+

@@ -1,0 +1,78 @@
+Sequence analysis and expression in cultured lymphocytes of the human FOSB gene (G0S3).
+# T1 Protein S1 70 74 70 74 FOSB
+# T2 Protein S1 81 85 81 85 G0S3
+$ T1 Protein S1 70 74 70 74 FOSB
+@ T17 Gene_expression S1 22 32 22 32 expression
+% E1 Gene_expression:T17 Theme:T1
+
+G0S3 is a member of a set of putative G0/G1 switch regulatory genes (G0S genes) selected by screening cDNA libraries prepared from human blood mononuclear cells cultured for 2 hr with lectin and cycloheximide.
+# T3 Protein S2 0 4 89 93 G0S3
+$ T3 Protein S2 0 4 89 93 G0S3
+@ T18 Gene_expression S2 80 88 169 177 selected
+% E2 Gene_expression:T18 Theme:T3
+
+The sequence shows high homology with the murine FOSB gene, which encodes a component of the AP1 transcriptional regulator.
+# T4 Protein S3 49 53 348 352 FOSB
+
+Comparison of cDNA and genomic sequences reveals a 4-exon structure characteristic of the FOS family of genes.
+
+Freshly isolated cells show high levels of FOSB/G0S3 and FOS/G0S7 mRNAs, which decline rapidly during incubation in culture medium.
+# T5 Protein S5 43 47 577 581 FOSB
+# T6 Protein S5 48 52 582 586 G0S3
+# T7 Protein S5 57 60 591 594 FOS
+# T8 Protein S5 61 65 595 599 G0S7
+$ T5 Protein S5 43 47 577 581 FOSB
+$ T7 Protein S5 57 60 591 594 FOS
+@ T19 Transcription S5 33 39 567 573 levels
+% E3 Transcription:T19 Theme:T5
+% E4 Transcription:T19 Theme:T7
+
+The kinetics of expression suggest that the high initial levels are caused by the isolation procedure, and do not reflect constitutive expression.
+
+In cells preincubated for a day, levels of FOS mRNA reach a maximum 20 min after the addition of lectin and decline to control levels over the next 3 hr.
+# T9 Protein S7 43 46 856 859 FOS
+$ T9 Protein S7 43 46 856 859 FOS
+@ T20 Transcription S7 33 39 846 852 levels
+@ T21 Positive_regulation S7 52 67 865 880 reach a maximum
+% E5 Transcription:T20 Theme:T9
+% E6 Positive_regulation:T21 Theme:E5
+
+Levels of FOSB mRNA reach a maximum 40 min after the addition of lectin and decline to control levels over the next 6 hr.
+# T10 Protein S8 10 14 977 981 FOSB
+$ T10 Protein S8 10 14 977 981 FOSB
+@ T22 Transcription S8 0 6 967 973 Levels
+@ T23 Positive_regulation S8 20 35 987 1002 reach a maximum
+% E7 Transcription:T22 Theme:T10
+% E8 Positive_regulation:T23 Theme:E7
+
+In freshly isolated cells, both FOS and FOSB mRNAs increase dramatically in response to the protein synthesis inhibitor cycloheximide.
+# T11 Protein S9 32 35 1121 1124 FOS
+# T12 Protein S9 40 44 1129 1133 FOSB
+$ T11 Protein S9 32 35 1121 1124 FOS
+$ T12 Protein S9 40 44 1129 1133 FOSB
+@ T24 Positive_regulation S9 51 59 1140 1148 increase
+% E9 Positive_regulation:T24 Theme:T11
+% E10 Positive_regulation:T24 Theme:T12
+
+In preincubated cells, the cycloheximide response is decreased, especially in the case of FOSB.
+# T13 Protein S10 90 94 1314 1318 FOSB
+@ T25 Negative_regulation S10 53 62 1277 1286 decreased
+% E11 Negative_regulation:T25 Theme:E9
+% E12 Negative_regulation:T25 Theme:E10
+
+These differences in expression of FOS and FOSB suggest different roles and regulation.
+# T14 Protein S11 35 38 1355 1358 FOS
+# T15 Protein S11 43 47 1363 1367 FOSB
+$ T15 Protein S11 43 47 1363 1367 FOSB
+$ T14 Protein S11 35 38 1355 1358 FOS
+@ T26 Gene_expression S11 21 31 1341 1351 expression
+% E13 Gene_expression:T26 Theme:T15
+% E14 Gene_expression:T26 Theme:T14
+
+Regions of low base order-dependent stem-loop potential in the region of the gene are defined.
+
+These indicate where base order has been adapted for purposes other than stem-loop stability (e.g., encoding proteins or gene regulation).
+
+Regions of low potential in a 68.5-kb genomic segment containing the FOSB gene suggest that the potential may help locate genes in uncharted DNA sequences.
+# T16 Protein S14 69 73 1711 1715 FOSB
+

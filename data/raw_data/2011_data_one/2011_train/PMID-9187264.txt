@@ -1,0 +1,100 @@
+Histamine modulates the expression of c-fos through cyclic AMP production via the H2 receptor in the human promonocytic cell line U937.
+# T1 Protein S1 38 43 38 43 c-fos
+# T2 Protein S1 82 93 82 93 H2 receptor
+$ T2 Protein S1 82 93 82 93 H2 receptor
+$ T1 Protein S1 38 43 38 43 c-fos
+@ T16 Regulation S1 10 19 10 19 modulates
+@ T17 Gene_expression S1 24 34 24 34 expression
+% E1 Regulation:T16 Theme:T2
+% E2 Regulation:T16 Theme:E3
+% E3 Gene_expression:T17 Theme:T1
+
+We examined the effects of histamine and its agonists on the expression of the c-fos and c-myc proto-oncogenes at the transcriptional and translational levels in the human promonocytic U937 cell line.
+# T3 Protein S2 79 84 216 221 c-fos
+# T4 Protein S2 89 94 226 231 c-myc
+$ T4 Protein S2 89 94 226 231 c-myc
+$ T3 Protein S2 79 84 216 221 c-fos
+@ T18 Regulation S2 16 23 153 160 effects
+@ T19 Transcription S2 118 133 255 270 transcriptional
+% E4 Regulation:T18 Theme:E6
+% E5 Regulation:T18 Theme:E7
+% E6 Transcription:T19 Theme:T4
+% E7 Transcription:T19 Theme:T3
+
+Histamine transiently increased cAMP and c-fos expression through H2 receptors.
+# T5 Protein S3 41 46 379 384 c-fos
+# T6 Protein S3 66 78 404 416 H2 receptors
+$ T6 Protein S3 66 78 404 416 H2 receptors
+$ T5 Protein S3 41 46 379 384 c-fos
+@ T20 Positive_regulation S3 22 31 360 369 increased
+@ T21 Gene_expression S3 47 57 385 395 expression
+% E8 Positive_regulation:T20 Theme:E10 Cause:E9
+% E9 Positive_regulation:T20 Theme:T6
+% E10 Gene_expression:T21 Theme:T5
+
+Dibutyryl cAMP also increased c-fos mRNA and protein, and levels remained elevated even after 12 hr of treatment.
+# T7 Protein S4 30 35 448 453 c-fos
+$ T7 Protein S4 30 35 448 453 c-fos
+@ T22 Positive_regulation S4 20 29 438 447 increased
+@ T23 Positive_regulation S4 65 82 483 500 remained elevated
+% E11 Positive_regulation:T22 Theme:T7
+% E12 Positive_regulation:T23 Theme:T7
+
+Dose-dependence studies using histamine and dimaprit showed that the EC50 values for cAMP production and c-fos increase were similar, suggesting that cAMP might be involved in c-fos induction via H2 receptors.
+# T8 Protein S5 105 110 637 642 c-fos
+# T9 Protein S5 176 181 708 713 c-fos
+# T10 Protein S5 196 208 728 740 H2 receptors
+$ T8 Protein S5 105 110 637 642 c-fos
+$ T9 Protein S5 176 181 708 713 c-fos
+$ T10 Protein S5 196 208 728 740 H2 receptors
+@ T24 Regulation S5 69 80 601 612 EC50 values
+@ T25 Positive_regulation S5 111 119 643 651 increase
+@ T26 Positive_regulation S5 182 191 714 723 induction
+% E13 Regulation:T24 Theme:E14
+% E14 Positive_regulation:T25 Theme:T8
+% E15 Positive_regulation:T26 Theme:T9 Cause:T10
+
+Furthermore, studies carried out using H7, a protein kinase A/protein kinase C inhibitor, blocked c-fos induction, whereas no effect was observed with bisindolylmaleimide, a specific protein kinase C inhibitor.
+# T11 Protein S6 98 103 840 845 c-fos
+$ T11 Protein S6 98 103 840 845 c-fos
+@ T27 Negative_regulation S6 90 97 832 839 blocked
+@ T28 Positive_regulation S6 104 113 846 855 induction
+@ T29 Regulation S6 126 132 868 874 effect
+% E16 Negative_regulation:T27 Theme:E17
+% E17 Positive_regulation:T28 Theme:T11
+% E18 Regulation:T29 Theme:E17
+
+No modification of c-myc expression could be detected on treatment with histamine or its analogues.
+# T12 Protein S7 19 24 972 977 c-myc
+$ T12 Protein S7 19 24 972 977 c-myc
+@ T30 Regulation S7 3 15 956 968 modification
+@ T31 Gene_expression S7 25 35 978 988 expression
+% E19 Regulation:T30 Theme:E20
+% E20 Gene_expression:T31 Theme:T12
+
+Nevertheless, dibutyryl cAMP induced a down-regulation of the levels of this proto-oncogene.
+@ T32 Negative_regulation S8 29 54 1082 1107 induced a down-regulation
+% E21 Negative_regulation:T32 Theme:T12
+
+In addition, dibutyryl cAMP inhibited cell growth in a dose-dependent manner, whereas histamine failed to affect proliferation and differentiation of U937 cells.
+
+Cells pretreated with dimaprit showed a decrease in the cAMP response to subsequent addition of H2 agonists, whereas the cAMP response to prostaglandin E2 remained unaltered.
+
+This homologous mechanism of H2 receptor desensitization was time dependent.
+# T13 Protein S11 29 40 1512 1523 H2 receptor
+$ T13 Protein S11 29 40 1512 1523 H2 receptor
+@ T33 Negative_regulation S11 41 56 1524 1539 desensitization
+% E22 Negative_regulation:T33 Theme:T13
+
+These results indicate that histamine activates several mechanisms involved in the induction of differentiation, such as cAMP and c-fos production, but fails to promote differentiation of U937 cells, apparently due to the rapid desensitization of H2 receptors.
+# T14 Protein S12 130 135 1690 1695 c-fos
+# T15 Protein S12 247 259 1807 1819 H2 receptors
+$ T14 Protein S12 130 135 1690 1695 c-fos
+$ T15 Protein S12 247 259 1807 1819 H2 receptors
+@ T34 Positive_regulation S12 38 47 1598 1607 activates
+@ T35 Gene_expression S12 136 146 1696 1706 production
+@ T36 Negative_regulation S12 228 243 1788 1803 desensitization
+% E23 Positive_regulation:T34 Theme:E24
+% E24 Gene_expression:T35 Theme:T14
+% E25 Negative_regulation:T36 Theme:T15
+

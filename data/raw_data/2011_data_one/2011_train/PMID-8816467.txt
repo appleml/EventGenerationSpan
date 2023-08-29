@@ -1,0 +1,118 @@
+Induction of bcl-2 expression by phosphorylated CREB proteins during B-cell activation and rescue from apoptosis.
+# T1 Protein S1 13 18 13 18 bcl-2
+$ T1 Protein S1 13 18 13 18 bcl-2
+@ T13 Positive_regulation S1 0 9 0 9 Induction
+@ T14 Gene_expression S1 19 29 19 29 expression
+% E1 Positive_regulation:T13 Theme:E2
+% E2 Gene_expression:T14 Theme:T1
+
+Engagement of surface immunoglobulin on mature B cells leads to rescue from apoptosis and to proliferation.
+
+Levels of bcl-2 mRNA and protein increase with cross-linking of surface immunoglobulin.
+# T2 Protein S3 10 15 233 238 bcl-2
+$ T2 Protein S3 10 15 233 238 bcl-2
+@ T15 Transcription S3 0 6 223 229 Levels
+@ T16 Gene_expression S3 0 6 223 229 Levels
+@ T17 Positive_regulation S3 33 41 256 264 increase
+@ T18 Binding S3 47 60 270 283 cross-linking
+% E3 Transcription:T15 Theme:T2
+% E4 Gene_expression:T16 Theme:T2
+% E5 Positive_regulation:T17 Theme:E3
+% E6 Positive_regulation:T17 Theme:E4 Cause:E7
+% E7 Binding:T18 Theme:T2
+
+We have located the major positive regulatory region for control of bcl-2 expression in B cells in the 5'-flanking region.
+# T3 Protein S4 68 73 379 384 bcl-2
+$ T3 Protein S4 68 73 379 384 bcl-2
+@ T19 Regulation S4 26 45 337 356 positive regulatory
+@ T20 Regulation S4 57 64 368 375 control
+@ T21 Gene_expression S4 74 84 385 395 expression
+% E8 Regulation:T19 Theme:E9
+% E9 Regulation:T20 Theme:E10
+% E10 Gene_expression:T21 Theme:T3
+
+The positive region can be divided into an upstream and a downstream regulatory region.
+
+The downstream regulatory region contains a cyclic AMP-responsive element (CRE).
+
+We show by antibody supershift experiments and UV cross-linking followed by denaturing polyacrylamide gel electrophoresis that both CREB and ATF family members bind to this region in vitro.
+
+Mutations of the CRE site that result in loss of CREB binding also lead to loss of functional activity of the bcl-2 promoter in transient-transfection assays.
+# T4 Protein S8 110 115 903 908 bcl-2
+$ T4 Protein S8 110 115 903 908 bcl-2
+@ T22 Negative_regulation S8 75 79 868 872 loss
+@ T23 Positive_regulation S8 83 102 876 895 functional activity
+@ T24 Entity S8 116 124 909 917 promoter
+% E11 Negative_regulation:T22 Theme:E12
+% E12 Positive_regulation:T23 Theme:T4 Site:T24
+
+The presence of an active CRE site in the bcl-2 promoter implies that the regulation of bcl-2 expression is linked to a signal transduction pathway in B cells.
+# T5 Protein S9 42 47 994 999 bcl-2
+# T6 Protein S9 88 93 1040 1045 bcl-2
+$ T6 Protein S9 88 93 1040 1045 bcl-2
+@ T25 Regulation S9 74 84 1026 1036 regulation
+@ T26 Gene_expression S9 94 104 1046 1056 expression
+% E13 Regulation:T25 Theme:E14
+% E14 Gene_expression:T26 Theme:T6
+
+Treatment of the mature B-cell line BAL-17 with either anti-immunoglobulin M or phorbol 12-myristate 13-acetate leads to an increase in bcl-2 expression that is mediated by the CRE site.
+# T7 Protein S10 136 141 1248 1253 bcl-2
+$ T7 Protein S10 136 141 1248 1253 bcl-2
+@ T27 Positive_regulation S10 124 132 1236 1244 increase
+@ T28 Gene_expression S10 142 152 1254 1264 expression
+@ T29 Positive_regulation S10 161 169 1273 1281 mediated
+% E15 Positive_regulation:T27 Theme:E16
+% E16 Gene_expression:T28 Theme:T7
+% E17 Positive_regulation:T29 Theme:E16
+
+Treatment of the more immature B-cell line, Ramos, with phorbol esters rescues the cells from calcium-dependent apoptosis.
+
+bcl-2 expression is increased following phorbol ester treatment, and the increased expression is dependent on the CRE site.
+# T8 Protein S12 0 5 1422 1427 bcl-2
+$ T8 Protein S12 0 5 1422 1427 bcl-2
+@ T30 Gene_expression S12 6 16 1428 1438 expression
+@ T31 Positive_regulation S12 20 29 1442 1451 increased
+@ T32 Positive_regulation S12 97 106 1519 1528 dependent
+% E18 Gene_expression:T30 Theme:T8
+% E19 Positive_regulation:T31 Theme:E18
+% E20 Positive_regulation:T32 Theme:E18
+
+These stimuli result in phosphorylation of CREB at serine 133.
+
+The phosphorylation of CREB that results in activation is mediated by protein kinase C rather than by protein kinase A. Although the CRE site is necessary, optimal induction of bcl-2 expression requires participation of the upstream regulatory element, suggesting that phosphorylation of CREB alters its interaction with the upstream regulatory element.
+# T9 Protein S14 177 182 1786 1791 bcl-2
+$ T9 Protein S14 177 182 1786 1791 bcl-2
+@ T33 Positive_regulation S14 145 154 1754 1763 necessary
+@ T34 Positive_regulation S14 156 173 1765 1782 optimal induction
+@ T35 Gene_expression S14 183 193 1792 1802 expression
+@ T36 Positive_regulation S14 194 202 1803 1811 requires
+% E21 Positive_regulation:T33 Theme:E22
+% E22 Positive_regulation:T34 Theme:E23
+% E23 Gene_expression:T35 Theme:T9
+% E24 Positive_regulation:T36 Theme:E22
+
+The CRE site in the bcl-2 promoter appears to play a major role in the induction of bcl-2 expression during the activation of mature B cells and during the rescue of immature B cells from apoptosis.
+# T10 Protein S15 20 25 1983 1988 bcl-2
+# T11 Protein S15 84 89 2047 2052 bcl-2
+$ T10 Protein S15 20 25 1983 1988 bcl-2
+$ T11 Protein S15 84 89 2047 2052 bcl-2
+@ T37 Entity S15 4 12 1967 1975 CRE site
+@ T38 Positive_regulation S15 59 63 2022 2026 role
+@ T39 Positive_regulation S15 71 80 2034 2043 induction
+@ T40 Gene_expression S15 90 100 2053 2063 expression
+% E25 Positive_regulation:T38 Theme:E26 Cause:T10 CSite:T37
+% E26 Positive_regulation:T39 Theme:E27
+% E27 Gene_expression:T40 Theme:T11
+
+It is possible that the CRE site is responsible for induction of bcl-2 expression in other cell types, particularly those in which protein kinase C is involved.
+# T12 Protein S16 65 70 2227 2232 bcl-2
+$ T12 Protein S16 65 70 2227 2232 bcl-2
+@ T41 Regulation S16 36 47 2198 2209 responsible
+@ T42 Positive_regulation S16 52 61 2214 2223 induction
+@ T43 Gene_expression S16 71 81 2233 2243 expression
+@ T44 Regulation S16 151 159 2313 2321 involved
+% E28 Regulation:T41 Theme:E29
+% E29 Positive_regulation:T42 Theme:E30
+% E30 Gene_expression:T43 Theme:T12
+% E31 Regulation:T44 Theme:E28
+

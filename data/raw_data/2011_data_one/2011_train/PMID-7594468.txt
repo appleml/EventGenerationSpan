@@ -1,0 +1,111 @@
+Regulation of IkB alpha phosphorylation by PKC- and Ca(2+)-dependent signal transduction pathways.
+# T1 Protein S1 14 23 14 23 IkB alpha
+$ T1 Protein S1 14 23 14 23 IkB alpha
+@ T13 Regulation S1 0 10 0 10 Regulation
+@ T14 Phosphorylation S1 24 39 24 39 phosphorylation
+% E1 Regulation:T13 Theme:E2
+% E2 Phosphorylation:T14 Theme:T1
+
+The Ca(2+)-dependent phosphatase calcineurin, a target of FK506 and CsA, synergizes with PKC-induced activation of nuclear factor (NF)-kappa B in T cell lines.
+
+We have investigated whether this synergy is present in other cell types and the mechanism(s) by which these two pathways lead to NF-kappa B activation.
+
+While this synergy is present in other cell types, in the monocytic cell line U937 calcineurin is also sufficient to activate NF-kappa B. Having previously shown that Ca(2+)- and PKC-dependent pathways synergize by accelerating the degradation of IkB alpha, we focused on the regulation of IkB alpha phosphorylation.
+# T2 Protein S4 247 256 660 669 IkB alpha
+# T3 Protein S4 290 299 703 712 IkB alpha
+$ T2 Protein S4 247 256 660 669 IkB alpha
+$ T3 Protein S4 290 299 703 712 IkB alpha
+@ T15 Positive_regulation S4 193 211 606 624 pathways synergize
+@ T16 Positive_regulation S4 215 227 628 640 accelerating
+@ T17 Protein_catabolism S4 232 243 645 656 degradation
+@ T18 Regulation S4 276 286 689 699 regulation
+@ T19 Phosphorylation S4 300 315 713 728 phosphorylation
+% E3 Positive_regulation:T15 Theme:E4
+% E4 Positive_regulation:T16 Theme:E5
+% E5 Protein_catabolism:T17 Theme:T2
+% E6 Regulation:T18 Theme:E7
+% E7 Phosphorylation:T19 Theme:T3
+
+While PKC-dependent pathways sequentially result in the phosphorylation and in an incomplete degradation of IkB alpha in T cell lines, co-activation of Ca(2+)-dependent pathways accelerates the rate of IkB alpha phosphorylation and results in its complete degradation.
+# T4 Protein S5 108 117 838 847 IkB alpha
+# T5 Protein S5 202 211 932 941 IkB alpha
+$ T4 Protein S5 108 117 838 847 IkB alpha
+$ T5 Protein S5 202 211 932 941 IkB alpha
+@ T20 Positive_regulation S5 42 48 772 778 result
+@ T21 Phosphorylation S5 56 71 786 801 phosphorylation
+@ T22 Protein_catabolism S5 93 104 823 834 degradation
+@ T23 Positive_regulation S5 178 189 908 919 accelerates
+@ T24 Phosphorylation S5 212 227 942 957 phosphorylation
+@ T25 Negative_regulation S5 232 239 962 969 results
+@ T26 Protein_catabolism S5 247 267 977 997 complete degradation
+% E8 Positive_regulation:T20 Theme:E11
+% E9 Positive_regulation:T20 Theme:E10
+% E10 Phosphorylation:T21 Theme:T4
+% E11 Protein_catabolism:T22 Theme:T4
+% E12 Positive_regulation:T23 Theme:E13
+% E13 Phosphorylation:T24 Theme:T5
+% E14 Negative_regulation:T25 Theme:E15
+% E15 Protein_catabolism:T26 Theme:T5
+
+Activation of Ca(2+)-dependent pathways alone do not result in the phosphorylation and/or degradation of IkB alpha in Jurkat T or in U937 cells.
+# T6 Protein S6 105 114 1104 1113 IkB alpha
+$ T6 Protein S6 105 114 1104 1113 IkB alpha
+@ T27 Positive_regulation S6 53 59 1052 1058 result
+@ T28 Phosphorylation S6 67 82 1066 1081 phosphorylation
+@ T29 Protein_catabolism S6 90 101 1089 1100 degradation
+% E16 Positive_regulation:T27 Theme:E19
+% E17 Positive_regulation:T27 Theme:E18
+% E18 Phosphorylation:T28 Theme:T6
+% E19 Protein_catabolism:T29 Theme:T6
+
+Treatment of T cells with the selective PKC inhibitor GF109203X abrogates the PMA-induced IkB alpha phosphorylation/degradation irrespective of activation of Ca(2+)-dependent pathways, but not the phosphorylation and degradation of IkB alpha induced by TNF-alpha, a PKC-independent stimulus.
+# T7 Protein S7 90 99 1234 1243 IkB alpha
+# T8 Protein S7 232 241 1376 1385 IkB alpha
+# T9 Protein S7 253 262 1397 1406 TNF-alpha
+$ T7 Protein S7 90 99 1234 1243 IkB alpha
+$ T8 Protein S7 232 241 1376 1385 IkB alpha
+$ T9 Protein S7 253 262 1397 1406 TNF-alpha
+@ T30 Negative_regulation S7 64 73 1208 1217 abrogates
+@ T31 Positive_regulation S7 82 89 1226 1233 induced
+@ T32 Phosphorylation S7 100 115 1244 1259 phosphorylation
+@ T33 Protein_catabolism S7 116 127 1260 1271 degradation
+@ T34 Phosphorylation S7 197 212 1341 1356 phosphorylation
+@ T35 Protein_catabolism S7 217 228 1361 1372 degradation
+@ T36 Positive_regulation S7 242 249 1386 1393 induced
+% E20 Negative_regulation:T30 Theme:E30
+% E21 Negative_regulation:T30 Theme:E31
+% E22 Negative_regulation:T30 Theme:E24
+% E23 Negative_regulation:T30 Theme:E25
+% E24 Positive_regulation:T31 Theme:E27
+% E25 Positive_regulation:T31 Theme:E26
+% E26 Phosphorylation:T32 Theme:T7
+% E27 Protein_catabolism:T33 Theme:T7
+% E28 Phosphorylation:T34 Theme:T8
+% E29 Protein_catabolism:T35 Theme:T8
+% E30 Positive_regulation:T36 Theme:E28 Cause:T9
+% E31 Positive_regulation:T36 Theme:E29 Cause:T9
+
+Contrary to the interaction with PKC, Ca(2+)-dependent pathways synergize with TNF-alpha not at the level of IkB alpha phosphorylation, but at the level of its degradation.
+# T10 Protein S8 79 88 1515 1524 TNF-alpha
+# T11 Protein S8 109 118 1545 1554 IkB alpha
+$ T10 Protein S8 79 88 1515 1524 TNF-alpha
+$ T11 Protein S8 109 118 1545 1554 IkB alpha
+@ T37 Positive_regulation S8 64 73 1500 1509 synergize
+@ T38 Phosphorylation S8 119 134 1555 1570 phosphorylation
+@ T39 Protein_catabolism S8 160 171 1596 1607 degradation
+% E32 Positive_regulation:T37 Theme:E34 Cause:T10
+% E33 Positive_regulation:T37 Theme:E35 Cause:T10
+% E34 Phosphorylation:T38 Theme:T11
+% E35 Protein_catabolism:T39 Theme:T11
+
+These results indicate that Ca(2+)-dependent pathways, including the phosphatase calcineurin, participate in the regulation of NF-kappa B in a cell specific fashion and synergize with PKC-dependent and -independent pathways at the level of IkB alpha phosphorylation and degradation.
+# T12 Protein S9 240 249 1849 1858 IkB alpha
+$ T12 Protein S9 240 249 1849 1858 IkB alpha
+@ T40 Positive_regulation S9 169 178 1778 1787 synergize
+@ T41 Phosphorylation S9 250 265 1859 1874 phosphorylation
+@ T42 Protein_catabolism S9 270 281 1879 1890 degradation
+% E36 Positive_regulation:T40 Theme:E38
+% E37 Positive_regulation:T40 Theme:E39
+% E38 Phosphorylation:T41 Theme:T12
+% E39 Protein_catabolism:T42 Theme:T12
+

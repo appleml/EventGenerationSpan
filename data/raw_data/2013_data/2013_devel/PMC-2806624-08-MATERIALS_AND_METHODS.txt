@@ -1,0 +1,40 @@
+Mice.
+
+CbfbF/F CD4-cre and Foxp3GFP mice have previously been described (Bettelli et al., 2006; Naoe et al., 2007).
+# T1 Protein S2 0 4 6 10 Cbfb
+# T2 Protein S2 8 11 14 17 CD4
+# T3 Protein S2 12 15 18 21 cre
+# T4 Protein S2 20 25 26 31 Foxp3
+# T5 Protein S2 25 28 31 34 GFP
+
+Cd45.1 and Rag2-/- mice were purchased from Jackson ImmunoResearch Laboratories and Taconic, respectively.
+# T6 Protein S3 0 6 115 121 Cd45.1
+# T7 Protein S3 11 15 126 130 Rag2
+
+For the in vivo Foxp3 conversion assay, naive CD4+ T cells from Cbfb CD4-cre or control mice (harboring a Foxp3-IRES-GFP allele) were adoptively transferred into Rag-deficient mice.
+# T8 Protein S4 16 21 238 243 Foxp3
+# T9 Protein S4 46 49 268 271 CD4
+# T10 Protein S4 64 68 286 290 Cbfb
+# T11 Protein S4 69 72 291 294 CD4
+# T12 Protein S4 73 76 295 298 cre
+# T13 Protein S4 106 111 328 333 Foxp3
+# T14 Protein S4 117 120 339 342 GFP
+# T15 Protein S4 162 165 384 387 Rag
+$ T15 Protein S4 162 165 384 387 Rag
+@ T19 Negative_regulation S4 166 175 388 397 deficient
+% E1 Negative_regulation:T19 Theme:T15
+
+5 x 106 cells were used per transfer.
+
+6 wk later, TCRbeta+CD4+ gated cells from the spleen, mesenteric lymph node (MLN), and lamina propria of the small intestine were analyzed for Foxp3-GFP expression.
+# T16 Protein S6 12 19 454 461 TCRbeta
+# T17 Protein S6 20 23 462 465 CD4
+# T18 Protein S6 143 152 585 594 Foxp3-GFP
+$ T18 Protein S6 143 152 585 594 Foxp3-GFP
+@ T20 Gene_expression S6 153 163 595 605 expression
+% E2 Gene_expression:T20 Theme:T18
+
+All analyses and experiments were performed on animals at 6-8 wk of age.
+
+Animals were housed under specific pathogen-free conditions at the animal facility of the Skirball Institute, and experiments were performed in accordance with approved protocols for the New York University Institutional Animal Care and Usage Committee.
+

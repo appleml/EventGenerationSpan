@@ -1,0 +1,76 @@
+The promoter and 5' flanking sequences controlling human B29 gene expression.
+# T1 Protein S1 57 60 57 60 B29
+$ T1 Protein S1 57 60 57 60 B29
+@ T17 Regulation S1 39 50 39 50 controlling
+@ T18 Gene_expression S1 66 76 66 76 expression
+% E1 Regulation:T17 Theme:E2
+% E2 Gene_expression:T18 Theme:T1
+
+The product of the B-cell-specific B29 gene (B29, Ig beta, CD79b) is essential for Ig-mediated B-cell activation via the B-cell antigen receptor complex (BCR) on human and murine B lymphocytes.
+# T2 Protein S2 35 38 114 117 B29
+# T3 Protein S2 45 48 124 127 B29
+# T4 Protein S2 50 57 129 136 Ig beta
+# T5 Protein S2 59 64 138 143 CD79b
+
+To better understand the regulation of this pivotal gene, we have analyzed the human genomic DNA sequence upstream of the B29 ATG start codon for transcriptional control activity.
+# T6 Protein S3 122 125 395 398 B29
+$ T6 Protein S3 122 125 395 398 B29
+@ T19 Regulation S3 25 35 298 308 regulation
+% E3 Regulation:T19 Theme:T6
+
+The human B29 gene lacks either a TATA or a CAAT box and transcription is initiated at multiple sites.
+# T7 Protein S4 10 13 463 466 B29
+$ T7 Protein S4 10 13 463 466 B29
+@ T20 Transcription S4 74 83 527 536 initiated
+% E4 Transcription:T20 Theme:T7
+
+The minimal promoter of the human B29 gene is contained within a 193-bp region 5' of these multiple start sites.
+# T8 Protein S5 34 37 590 593 B29
+
+This minimal promoter exhibits B-cell-specific activity and contains SP1, ETS, OCT, and IKAROS/LYF-1 transcription factor motifs.
+
+All these motifs are strikingly conserved in sequence and placement relative to the previously characterized murine B29 promoter.
+# T9 Protein S7 116 119 915 918 B29
+
+Additional upstream gene segments dramatically affected B29 minimal promoter activity.
+# T10 Protein S8 56 59 985 988 B29
+$ T10 Protein S8 56 59 985 988 B29
+@ T21 Regulation S8 47 55 976 984 affected
+@ T22 Entity S8 60 76 989 1005 minimal promoter
+% E5 Regulation:T21 Theme:T10 Site:T22
+
+A newly identified motif called the B29 conserved sequence (BCS), found upstream of both human and murine B29 promoters, appears to stimulate B29 transcription through a novel mechanism.
+# T11 Protein S9 36 39 1052 1055 B29
+# T12 Protein S9 106 109 1122 1125 B29
+# T13 Protein S9 142 145 1158 1161 B29
+$ T11 Protein S9 36 39 1052 1055 B29
+$ T13 Protein S9 142 145 1158 1161 B29
+@ T23 Regulation S9 132 141 1148 1157 stimulate
+@ T24 Transcription S9 146 159 1162 1175 transcription
+% E6 Regulation:T23 Theme:E7 Cause:T11
+% E7 Transcription:T24 Theme:T13
+
+A single BCS had little effect either on the minimal B29 promoter or on a heterologous promoter.
+# T14 Protein S10 53 56 1256 1259 B29
+$ T14 Protein S10 53 56 1256 1259 B29
+@ T25 Regulation S10 24 30 1227 1233 effect
+@ T26 Entity S10 57 65 1260 1268 promoter
+% E8 Regulation:T25 Theme:T14 Site:T26
+
+Instead, the BCS stimulated transcription by counteracting 5' negative regulatory DNA sequences that block the activity of the B29 minimal promoter in its absence.
+# T15 Protein S11 127 130 1427 1430 B29
+$ T15 Protein S11 127 130 1427 1430 B29
+@ T27 Positive_regulation S11 17 27 1317 1327 stimulated
+@ T28 Negative_regulation S11 101 106 1401 1406 block
+@ T29 Entity S11 131 147 1431 1447 minimal promoter
+% E9 Positive_regulation:T27 Theme:E7
+% E10 Negative_regulation:T28 Theme:T15 Site:T29
+
+These findings indicate that B29 gene expression is controlled by the complex interplay of positive and negative regulatory elements.
+# T16 Protein S12 29 32 1493 1496 B29
+$ T16 Protein S12 29 32 1493 1496 B29
+@ T30 Gene_expression S12 38 48 1502 1512 expression
+@ T31 Regulation S12 52 62 1516 1526 controlled
+% E11 Gene_expression:T30 Theme:T16
+% E12 Regulation:T31 Theme:E11
+

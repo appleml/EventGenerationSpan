@@ -1,0 +1,35 @@
+Modulation of E2F complexes during G0 to S phase transition in human primary B-lymphocytes.
+
+The pocket protein-E2F complexes are convergence points for cell cycle signaling.
+
+In the present report, we identified and monitored the pocket protein-E2F complexes in human primary B-lymphocytes after activation by phorbol 12-myristate 13-acetate.
+
+Consistent with previous data from human and mouse fibroblasts and T-lymphocytes, E2F4 and DP1 form the predominant E2F heterodimers both in G0 and G1 phases of the human B-lymphocyte cell cycle, whereas E2F1 and -3 are first detected in late G1, and their expression levels increase towards S phase.
+# T1 Protein S4 82 86 425 429 E2F4
+# T2 Protein S4 91 94 434 437 DP1
+# T3 Protein S4 204 208 547 551 E2F1
+# T4 Protein S4 213 215 556 558 -3
+
+Intriguingly, the major E2F complex that we detected in quiescent human B-lymphocytes is consisted of pRB, E2F4, and DP1.
+# T5 Protein S5 102 105 746 749 pRB
+# T6 Protein S5 107 111 751 755 E2F4
+# T7 Protein S5 117 120 761 764 DP1
+
+Though the levels of DP1 and -2 increase when cells progress from G0 to S, the proportion of DP1 to DP2 remains relatively constant during the cell cycle.
+# T8 Protein S6 21 24 787 790 DP1
+# T9 Protein S6 29 31 795 797 -2
+# T10 Protein S6 93 96 859 862 DP1
+# T11 Protein S6 100 103 866 869 DP2
+
+We also observed an increase in electrophoretic mobility of the predominant E2F components, DP1 and E2F4, as B-lymphocytes progressed from G0 into early G1.
+# T12 Protein S7 92 95 1013 1016 DP1
+# T13 Protein S7 100 104 1021 1025 E2F4
+
+This increase in mobility was attributable to dephosphorylation, as lambda phosphatase treatment could convert the slower migrating forms into the corresponding faster mobility forms.
+
+We further demonstrated that this change in phosphorylation status correlates with a decrease in DNA binding activity.
+
+This modulation of DNA binding activity mediated through the dephosphorylation of DP1 and E2F4 could help to explain the lack of in vivo DNA footprinting in late G1 and S phases of gene promoters negatively regulated through E2F sites and suggests a novel mechanism for controlling E2F transcriptional activity during the transition from quiescence to proliferation.
+# T14 Protein S10 82 85 1463 1466 DP1
+# T15 Protein S10 90 94 1471 1475 E2F4
+

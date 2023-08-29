@@ -1,0 +1,49 @@
+Association between expression of intercellular adhesion molecule-1 and integration of human T-cell-leukemia virus type 1 in adult T-cell leukemia cells.
+# T1 Protein S1 34 67 34 67 intercellular adhesion molecule-1
+$ T1 Protein S1 34 67 34 67 intercellular adhesion molecule-1
+@ T10 Gene_expression S1 20 30 20 30 expression
+% E1 Gene_expression:T10 Theme:T1
+
+It is known that the expression levels of intercellular adhesion molecule-1 (ICAM-1) in adult T cell leukemia(ATL) cells are high, whereas those in T-lymphoid cells are not.
+# T2 Protein S2 42 75 197 230 intercellular adhesion molecule-1
+# T3 Protein S2 77 83 232 238 ICAM-1
+$ T3 Protein S2 77 83 232 238 ICAM-1
+@ T11 Gene_expression S2 21 31 176 186 expression
+% E2 Gene_expression:T11 Theme:T3
+
+In order to investigate the factors that influence the induction of ICAM-1 molecules, Northern blot analysis to measure the expression level of ICAM-1 mRNAs and Southern blot hybridization to analyze the integration of human T-cell-leukemia virus type 1 (HTLV-1) provirus were done.
+# T4 Protein S3 68 74 397 403 ICAM-1
+# T5 Protein S3 144 150 473 479 ICAM-1
+$ T4 Protein S3 68 74 397 403 ICAM-1
+$ T5 Protein S3 144 150 473 479 ICAM-1
+@ T12 Regulation S3 41 50 370 379 influence
+@ T13 Positive_regulation S3 55 64 384 393 induction
+@ T14 Transcription S3 124 134 453 463 expression
+% E3 Regulation:T12 Theme:E4
+% E4 Positive_regulation:T13 Theme:T4
+% E5 Transcription:T14 Theme:T5
+
+The levels of ICAM-1 mRNA expression of ATL cells were generally higher than those of T-lymphoid cells.
+# T6 Protein S4 14 20 626 632 ICAM-1
+$ T6 Protein S4 14 20 626 632 ICAM-1
+@ T15 Transcription S4 26 36 638 648 expression
+% E6 Transcription:T15 Theme:T6
+
+However, ILT-mat cells and ATL16T(-) cells, although they were ATL cells, showed rather low surface ICAM-1 expression and ICAM-1 mRNA expression.
+# T7 Protein S5 100 106 816 822 ICAM-1
+# T8 Protein S5 122 128 838 844 ICAM-1
+$ T7 Protein S5 100 106 816 822 ICAM-1
+$ T8 Protein S5 122 128 838 844 ICAM-1
+@ T16 Gene_expression S5 107 117 823 833 expression
+@ T17 Transcription S5 134 144 850 860 expression
+% E7 Gene_expression:T16 Theme:T7
+% E8 Transcription:T17 Theme:T8
+
+Southern blot hybridization showed that only two and four bands were found in ILT-mat and ATL16T(-) cells, respectively, whereas > 10 bands were detected in other ATL cells.
+
+These results suggest that monoclonal integration of HTLV-1 provirus to the genome of T cell, especially the number of integration sites, is one of the factors for induction of ICAM-1 molecules.
+# T9 Protein S7 177 183 1213 1219 ICAM-1
+$ T9 Protein S7 177 183 1213 1219 ICAM-1
+@ T18 Positive_regulation S7 164 173 1200 1209 induction
+% E9 Positive_regulation:T18 Theme:T9
+

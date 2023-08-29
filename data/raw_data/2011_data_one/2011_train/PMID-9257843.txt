@@ -1,0 +1,72 @@
+Differential interaction of nuclear factors with the leukocyte-specific pp52 promoter in B and T cells.
+# T1 Protein S1 72 76 72 76 pp52
+
+The leukocyte-specific, cytoskeleton-binding pp52 (LSP-1, WP-34) protein is widely expressed in multiple leukocyte lineages, including B and T lymphocytes, granulocytes, and macrophages.
+# T2 Protein S2 45 49 150 154 pp52
+# T3 Protein S2 51 56 156 161 LSP-1
+# T4 Protein S2 58 63 163 168 WP-34
+$ T3 Protein S2 51 56 156 161 LSP-1
+@ T15 Gene_expression S2 83 92 188 197 expressed
+% E1 Gene_expression:T15 Theme:T3
+
+We previously detected a tissue-specific promoter preceding the exon encoding the N terminus of the pp52 leukocyte protein.
+# T5 Protein S3 100 122 392 414 pp52 leukocyte protein
+
+Here we describe the functional characterization of this promoter and identification of the factors in B and T cells that regulate its activity.
+
+The pp52 promoter contains an initiator specifying the unique 5' terminus of pp52 mRNA, tandem pairs of Ets and SP1 motifs, and a lone C/EBP motif.
+# T6 Protein S5 4 8 565 569 pp52
+# T7 Protein S5 77 81 638 642 pp52
+$ T7 Protein S5 77 81 638 642 pp52
+$ T6 Protein S5 4 8 565 569 pp52
+@ T16 Entity S5 9 17 570 578 promoter
+@ T17 Entity S5 30 39 591 600 initiator
+@ T18 Regulation S5 40 50 601 611 specifying
+@ T19 Entity S5 62 73 623 634 5' terminus
+@ T20 Entity S5 135 146 696 707 C/EBP motif
+% E2 Regulation:T18 Theme:T7 Cause:T6 Site:T19 CSite:T17
+
+All these motifs are essential and collectively control transcriptional activity.
+
+DNA binding studies and Ab supershift assays revealed that different combinations of factors interact with these motifs in B cells vs T cells.
+@ T21 Binding S7 93 101 884 892 interact
+% E3 Binding:T21 Theme:T6 Site:T20
+% E4 Binding:T21 Theme:T6 Site:T17
+
+The Ets motifs are preferentially bound by PU-1 in B cell extracts from all stages of development, whereas a different Ets family member reacts with these motifs in T cell extracts.
+# T8 Protein S8 43 47 977 981 PU-1
+$ T8 Protein S8 43 47 977 981 PU-1
+@ T22 Binding S8 34 39 968 973 bound
+% E5 Binding:T22 Theme:T8
+
+The C/EBP motif is bound by Ig/EBP-1 in pre-B cell and T cell extracts, but is replaced by nuclear factor-IL-6beta or a nuclear factor-IL-6beta-Ig/EBP-1 heterodimer in plasmacytoma cell extracts.
+# T9 Protein S9 28 36 1144 1152 Ig/EBP-1
+# T10 Protein S9 91 114 1207 1230 nuclear factor-IL-6beta
+# T11 Protein S9 120 143 1236 1259 nuclear factor-IL-6beta
+# T12 Protein S9 144 152 1260 1268 Ig/EBP-1
+$ T9 Protein S9 28 36 1144 1152 Ig/EBP-1
+$ T10 Protein S9 91 114 1207 1230 nuclear factor-IL-6beta
+$ T11 Protein S9 120 143 1236 1259 nuclear factor-IL-6beta
+$ T12 Protein S9 144 152 1260 1268 Ig/EBP-1
+@ T23 Binding S9 19 24 1135 1140 bound
+@ T24 Binding S9 79 87 1195 1203 replaced
+% E6 Binding:T23 Theme:T9
+% E7 Binding:T24 Theme:T10
+% E8 Binding:T24 Theme:T11
+% E9 Binding:T24 Theme:T12
+
+Despite its reported role as a negative regulator of transcription, Ig/EBP-1 appears to exert a stimulatory effect on this promoter.
+# T13 Protein S10 68 76 1380 1388 Ig/EBP-1
+$ T13 Protein S10 68 76 1380 1388 Ig/EBP-1
+@ T25 Positive_regulation S10 88 114 1400 1426 exert a stimulatory effect
+% E10 Positive_regulation:T25 Theme:T6 Cause:T13 Site:T16
+
+These findings reveal the features controlling the pp52 promoter in B and T cells and provide the foundation for determining the regulation of this promoter in other leukocyte lineages.
+# T14 Protein S11 51 55 1496 1500 pp52
+$ T14 Protein S11 51 55 1496 1500 pp52
+@ T26 Regulation S11 35 46 1480 1491 controlling
+@ T27 Entity S11 56 64 1501 1509 promoter
+@ T28 Regulation S11 129 139 1574 1584 regulation
+% E11 Regulation:T26 Theme:T14 Site:T27
+% E12 Regulation:T28 Theme:T14 Site:T27
+

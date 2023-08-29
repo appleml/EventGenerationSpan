@@ -1,0 +1,29 @@
+Isolation of mRNA and real-time PCR
+
+Total cellular RNA was extracted from PB CD4+ T cells using an RNA isolation kit (RNeasy Mini kit; Qiagen, Valencia, CA, USA), according to the manufacturer's instructions.
+# T1 Protein S2 41 44 77 80 CD4
+
+cDNA was synthesized from total RNA with Molony murine leukemia virus reverse transcriptase (US Biochemical, Cleveland, OH, USA) and oligo-(dT)15 primers (Promega, Madison, WI, USA).
+
+Real-time PCR was performed with the LightCycler Instrument (Roche Diagnostics, Penzberg, Germany) in glass capillaries.
+
+The reaction mix containing Taq DNA polymerase and DNA double-strand-specific SYBR Green I dye (Lightcycler FastStart DNA Master SYBR Green I; Roche Diagnostics) and specific primers were added to cDNA dilutions.
+# T2 Protein S5 28 31 541 544 Taq
+
+The cDNA samples were denatured at 95degrees C for 10 min, and were then amplified for 40-50 cycles: at 95degrees C (10 s), at 65degrees C (15 s), and 72degrees C (22 s) for beta-actin; at 95degrees C (10 s), at 62degrees C (15 s), and at 72degrees C (10 s) for SOCS1; and at 96degrees C (10 s), at 68degrees C (15 s), and at 72degrees C (15 s) for SOCS3.
+# T3 Protein S6 174 184 901 911 beta-actin
+# T4 Protein S6 262 267 989 994 SOCS1
+# T5 Protein S6 349 354 1076 1081 SOCS3
+
+Amplification curves of the fluorescence values versus cycle number were obtained, and a melting curve analysis was then performed.
+
+The levels of SOCS1 and SOCS3 expression were determined by normalizing relative to beta-actin expression.
+# T6 Protein S8 14 19 1229 1234 SOCS1
+# T7 Protein S8 24 29 1239 1244 SOCS3
+# T8 Protein S8 84 94 1299 1309 beta-actin
+
+The forward and reverse primers were as follows: for beta-actin, 5'-GTGGGGCGCCCCAGGCACCA-3' and 5'-CTCCTTAATGTCACGCACGATTTC-3' ; for SOCS1, 5'-AGACCCCTTCTCACCTCTTG-3' and 5'-GCACAGCAGAAAAATAAAGC-3' ; and for SOCS3, 5'-CCCGCCGGCACCTTTCTG-3' and 5'-AGGGGCCGGCTCAACACC-3'.
+# T9 Protein S9 53 63 1375 1385 beta-actin
+# T10 Protein S9 133 138 1455 1460 SOCS1
+# T11 Protein S9 208 213 1530 1535 SOCS3
+

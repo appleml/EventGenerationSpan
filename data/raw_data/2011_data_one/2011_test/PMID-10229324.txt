@@ -1,0 +1,34 @@
+Differences in phosphorylation of the IL-2R associated JAK/STAT proteins between HTLV-I(+), IL-2-independent and IL-2-dependent cell lines and uncultured leukemic cells from patients with adult T-cell lymphoma/leukemia.
+# T1 Protein S1 92 96 92 96 IL-2
+# T2 Protein S1 113 117 113 117 IL-2
+
+To determine activation status of the IL-2R-associated (Jak/STAT) pathway in the HTLV-I infected cells, we examined tyrosine phosphorylation of Jak3, STAT3, and STAT5 in several HTLV-I(+) T-cell lines and in uncultured leukemic T cells isolated from patients with adult T-cell lymphoma/leukemia (ATLL).
+# T3 Protein S2 144 148 365 369 Jak3
+# T4 Protein S2 150 155 371 376 STAT3
+
+Constitutive basal phosphorylation of Jak3 and, usually, STAT3 and STAT5 was detected in all four IL-2-independent cell lines tested, but in none of the three IL-2-dependent cell lines.
+# T5 Protein S3 38 42 562 566 Jak3
+# T6 Protein S3 57 62 581 586 STAT3
+# T7 Protein S3 98 102 622 626 IL-2
+# T8 Protein S3 159 163 683 687 IL-2
+
+Similarly, there was no detectable basal phosphorylation of Jak3 and STAT5 in the leukemic cells from ATLL patients (0/8 and 0/3, respectively).
+# T9 Protein S4 60 64 770 774 Jak3
+
+However, stimulation with IL-2 resulted in Jak3 and STAT5 phosphorylation in both leukemic ATLL cells and IL-2-dependent lines.
+# T10 Protein S5 26 30 881 885 IL-2
+# T11 Protein S5 43 47 898 902 Jak3
+# T12 Protein S5 106 110 961 965 IL-2
+
+Furthermore, expression of SHP-1 phosphatase which is a negative regulator of cytokine receptor signaling, was lost in most IL-2 independent cell lines (3/4) but not in the leukemic ATLL cells (0/3).
+# T13 Protein S6 27 44 1010 1027 SHP-1 phosphatase
+# T14 Protein S6 124 128 1107 1111 IL-2
+
+Finally, the HTLV-I(+) T-cell lines (313) but not the control, HTLV-I(-) T-cell lines were resistant to rapamycin and its novel analog RAD.
+
+We conclude that (1) HTLV-I infection per se does not result in a constitutive phosphorylation of the Jak3, STAT3, and STAT5 proteins; (2) malignant transformation in at least some cases of ATLL does not require the constitutive, but may require IL-2-induced, activation of the IL-2R Jak/STAT pathway; and (3) there are major differences in T-cell immortalization mechanism(s) which appear to involve SHP-1 and target molecules for rapamycin and RAD.
+# T15 Protein S8 102 106 1425 1429 Jak3
+# T16 Protein S8 108 113 1431 1436 STAT3
+# T17 Protein S8 246 250 1569 1573 IL-2
+# T18 Protein S8 401 406 1724 1729 SHP-1
+

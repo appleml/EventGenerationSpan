@@ -1,0 +1,59 @@
+In the present study, IL-6 release was found to be associated with NF-kappaB activity while CXCL8 release more closely correlated with AP-1 activity.
+# T1 Protein S1 22 26 22 26 IL-6
+# T2 Protein S1 92 97 92 97 CXCL8
+$ T1 Protein S1 22 26 22 26 IL-6
+$ T2 Protein S1 92 97 92 97 CXCL8
+@ T11 Localization S1 27 34 27 34 release
+@ T12 Localization S1 98 105 98 105 release
+% E1 Localization:T11 Theme:T1
+% E2 Localization:T12 Theme:T2
+
+Treatment of Jurkat T-cells with PMA was more potent than HK E. coli at elevating the CXCL8 levels.
+# T3 Protein S2 86 91 236 241 CXCL8
+$ T3 Protein S2 86 91 236 241 CXCL8
+@ T13 Positive_regulation S2 72 81 222 231 elevating
+% E3 Positive_regulation:T13 Theme:T3
+
+PMA induced AP-1 activation and down-regulated NF-kappaB while HK E. coli up-regulated NF-kappaB without affecting AP-1 activity.
+
+In addition, the temporal induction pattern of AP-1 correlated to the release of CXCL8 while IL-6 followed the NF-kappaB activity.
+# T4 Protein S4 81 86 461 466 CXCL8
+# T5 Protein S4 93 97 473 477 IL-6
+$ T4 Protein S4 81 86 461 466 CXCL8
+@ T14 Localization S4 70 77 450 457 release
+% E4 Localization:T14 Theme:T4
+
+Likewise, blocking NF-kappaB activation resulted in a complete inhibition of IL-6 while the CXCL8 levels remained elevated as shown both at the protein and mRNA level.
+# T6 Protein S5 77 81 588 592 IL-6
+# T7 Protein S5 92 97 603 608 CXCL8
+$ T6 Protein S5 77 81 588 592 IL-6
+$ T7 Protein S5 92 97 603 608 CXCL8
+@ T15 Positive_regulation S5 40 48 551 559 resulted
+@ T16 Negative_regulation S5 63 73 574 584 inhibition
+@ T17 Negative_regulation S5 105 113 616 624 remained
+@ T18 Positive_regulation S5 114 122 625 633 elevated
+% E5 Positive_regulation:T15 Theme:E6
+% E6 Negative_regulation:T16 Theme:T6
+% E7 Negative_regulation:T17 Theme:E8
+% E8 Positive_regulation:T18 Theme:T7
+
+Furthermore, the CXCL8 release was down-regulated by inhibition of JNK activity.
+# T8 Protein S6 17 22 696 701 CXCL8
+$ T8 Protein S6 17 22 696 701 CXCL8
+@ T19 Localization S6 23 30 702 709 release
+@ T20 Negative_regulation S6 35 49 714 728 down-regulated
+% E9 Localization:T19 Theme:T8
+% E10 Negative_regulation:T20 Theme:E9
+
+The present study indicates that in Jurkat T-cells, IL-6 is regulated through NF-kappaB while CXCL8 regulation is independent of NF-kappaB and closely associated with AP-1 activation.
+# T9 Protein S7 52 56 812 816 IL-6
+# T10 Protein S7 94 99 854 859 CXCL8
+$ T9 Protein S7 52 56 812 816 IL-6
+$ T10 Protein S7 94 99 854 859 CXCL8
+@ T21 Regulation S7 60 69 820 829 regulated
+@ T22 Regulation S7 100 110 860 870 regulation
+@ T23 Regulation S7 114 125 874 885 independent
+% E11 Regulation:T21 Theme:T9
+% E12 Regulation:T22 Theme:T10
+% E13 Regulation:T23 Theme:E12
+

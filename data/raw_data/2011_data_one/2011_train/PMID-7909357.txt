@@ -1,0 +1,63 @@
+ERP, a new member of the ets transcription factor/oncoprotein family: cloning, characterization, and differential expression during B-lymphocyte development.
+# T1 Protein S1 0 3 0 3 ERP
+$ T1 Protein S1 0 3 0 3 ERP
+@ T14 Gene_expression S1 114 124 114 124 expression
+% E1 Gene_expression:T14 Theme:T1
+
+The ets gene family encodes a group of proteins which function as transcription factors under physiological conditions and, if aberrantly expressed, can cause cellular transformation.
+
+We have recently identified two regulatory elements in the murine immunoglobulin heavy-chain (IgH) enhancer, pi and microB, which exhibit striking similarity to binding sites for ets-related proteins.
+
+To identify ets-related transcriptional regulators expressed in pre-B lymphocytes that may interact with either the pi or the microB site, we have used a PCR approach with degenerate oligonucleotides encoding conserved sequences in all members of the ets family.
+
+We have cloned the gene for a new ets-related transcription factor, ERP (ets-related protein), from the murine pre-B cell line BASC 6C2 and from mouse lung tissue.
+# T2 Protein S5 68 71 875 878 ERP
+# T3 Protein S5 73 92 880 899 ets-related protein
+
+The ERP protein contains a region of high homology with the ETS DNA-binding domain common to all members of the ets transcription factor/oncoprotein family.
+# T4 Protein S6 4 7 975 978 ERP
+
+Three additional smaller regions show homology to the ELK-1 and SAP-1 genes, a subgroup of the ets gene family that interacts with the serum response factor.
+# T5 Protein S7 54 59 1182 1187 ELK-1
+# T6 Protein S7 64 69 1192 1197 SAP-1
+# T7 Protein S7 135 156 1263 1284 serum response factor
+$ T5 Protein S7 54 59 1182 1187 ELK-1
+$ T7 Protein S7 135 156 1263 1284 serum response factor
+$ T6 Protein S7 64 69 1192 1197 SAP-1
+@ T15 Binding S7 116 125 1244 1253 interacts
+% E2 Binding:T15 Theme:T5 Theme2:T7
+% E3 Binding:T15 Theme:T6 Theme2:T7
+
+Full-length ERP expresses only negligible DNA-binding activity by itself.
+# T8 Protein S8 12 15 1298 1301 ERP
+$ T8 Protein S8 12 15 1298 1301 ERP
+@ T16 Binding S8 46 62 1332 1348 binding activity
+% E4 Binding:T16 Theme:T8
+
+Removal of the carboxy terminus enables ERP to interact with a variety of ets-binding sites including the E74 site, the IgH enhancer pi site, and the lck promoter ets site, suggesting a carboxy-terminal negative regulatory domain.
+# T9 Protein S9 40 43 1400 1403 ERP
+# T10 Protein S9 150 153 1510 1513 lck
+$ T9 Protein S9 40 43 1400 1403 ERP
+$ T10 Protein S9 150 153 1510 1513 lck
+@ T17 Positive_regulation S9 32 39 1392 1399 enables
+@ T18 Binding S9 47 55 1407 1415 interact
+@ T19 Entity S9 154 171 1514 1531 promoter ets site
+% E5 Positive_regulation:T17 Theme:E7
+% E6 Positive_regulation:T17 Theme:E8
+% E7 Binding:T18 Theme:T9
+% E8 Binding:T18 Theme:T9 Theme2:T10 Site2:T19
+
+At least three ERP-related transcripts are expressed in a variety of tissues.
+# T11 Protein S10 15 18 1606 1609 ERP
+
+However, within the B-cell lineage, ERP is highly expressed primarily at early stages of B-lymphocyte development, and expression declines drastically upon B-cell maturation, correlating with the enhancer activity of the IgH pi site.
+# T12 Protein S11 36 39 1705 1708 ERP
+$ T12 Protein S11 36 39 1705 1708 ERP
+@ T20 Gene_expression S11 50 59 1719 1728 expressed
+@ T21 Negative_regulation S11 130 138 1799 1807 declines
+% E9 Gene_expression:T20 Theme:T12
+% E10 Negative_regulation:T21 Theme:E9
+
+These data suggest that ERP might play a role in B-cell development and in IgH gene regulation.
+# T13 Protein S12 24 27 1927 1930 ERP
+

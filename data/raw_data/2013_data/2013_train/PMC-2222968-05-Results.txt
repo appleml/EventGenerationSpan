@@ -1,0 +1,142 @@
+The Role of TGF-beta in T Cell Differentiation
+# T1 Protein S1 12 20 12 20 TGF-beta
+
+Although TGF-beta-reduced CD25, IL-4 expression, and CD25 expression (Figure 6B), IL-4 significantly inhibited TGF-beta-mediated induction of FOXP3 in naive T cells driven toward FOXP3+ T cells, as shown by FACS analysis (Figure 6A).
+# T2 Protein S2 9 17 56 64 TGF-beta
+# T3 Protein S2 26 30 73 77 CD25
+# T4 Protein S2 32 36 79 83 IL-4
+# T5 Protein S2 53 57 100 104 CD25
+# T6 Protein S2 82 86 129 133 IL-4
+# T7 Protein S2 111 119 158 166 TGF-beta
+# T8 Protein S2 142 147 189 194 FOXP3
+# T9 Protein S2 179 184 226 231 FOXP3
+$ T2 Protein S2 9 17 56 64 TGF-beta
+$ T3 Protein S2 26 30 73 77 CD25
+$ T4 Protein S2 32 36 79 83 IL-4
+$ T5 Protein S2 53 57 100 104 CD25
+$ T6 Protein S2 82 86 129 133 IL-4
+$ T8 Protein S2 142 147 189 194 FOXP3
+$ T7 Protein S2 111 119 158 166 TGF-beta
+@ T46 Negative_regulation S2 18 25 65 72 reduced
+@ T47 Gene_expression S2 37 47 84 94 expression
+@ T48 Gene_expression S2 58 68 105 115 expression
+@ T49 Negative_regulation S2 101 110 148 157 inhibited
+@ T50 Positive_regulation S2 129 138 176 185 induction
+% E1 Negative_regulation:T46 Theme:E2 Cause:T2
+% E3 Negative_regulation:T46 Theme:E4 Cause:T2
+% E5 Negative_regulation:T46 Theme:E6 Cause:T2
+% E2 Gene_expression:T47 Theme:T3
+% E4 Gene_expression:T47 Theme:T4
+% E6 Gene_expression:T48 Theme:T5
+% E7 Negative_regulation:T49 Theme:E8 Cause:T6
+% E8 Positive_regulation:T50 Theme:T8 Cause:T7
+
+It is known that IL-4 is a potent growth factor and may therefore favor the proliferation of FOXP3- cells and thus decrease the relative percentage of FOXP3+ cells.
+# T10 Protein S3 17 21 298 302 IL-4
+# T11 Protein S3 93 98 374 379 FOXP3
+# T12 Protein S3 151 156 432 437 FOXP3
+
+However, analysis of cell division kinetics by CFSE-labeling demonstrated that IL-4 did not differentially promote cell growth of FOXP3+ over that of FOXP3-.
+# T13 Protein S4 79 83 525 529 IL-4
+# T14 Protein S4 130 135 576 581 FOXP3
+# T15 Protein S4 150 155 596 601 FOXP3
+
+In fact both populations showed similarly enhanced proliferation (Figure 6A).
+
+Furthermore the TGF-beta-mediated induction of FOXP3 expression was not caused by overgrowth of a CD25-FOXP3+ minority, since the number of FOXP3+ cells was low/absent in the purified CD4+CD45RA+ T cells (between 0% and 1%), and the FOXP3+ cells were not confined to the highly divided cells.
+# T16 Protein S6 16 24 698 706 TGF-beta
+# T17 Protein S6 47 52 729 734 FOXP3
+# T18 Protein S6 98 102 780 784 CD25
+# T19 Protein S6 103 108 785 790 FOXP3
+# T20 Protein S6 140 145 822 827 FOXP3
+# T21 Protein S6 184 187 866 869 CD4
+# T22 Protein S6 188 194 870 876 CD45RA
+# T23 Protein S6 233 238 915 920 FOXP3
+$ T16 Protein S6 16 24 698 706 TGF-beta
+$ T17 Protein S6 47 52 729 734 FOXP3
+@ T51 Positive_regulation S6 34 43 716 725 induction
+@ T52 Gene_expression S6 53 63 735 745 expression
+@ T53 Positive_regulation S6 72 78 754 760 caused
+% E9 Positive_regulation:T51 Theme:E10 Cause:T16
+% E10 Gene_expression:T52 Theme:T17
+% E11 Positive_regulation:T53 Theme:E9
+
+CD25 was down-regulated in TGF-beta-treated cells compare to activated T cells, which was even more pronounced in cells cultured with TGF-beta and IL-4.
+# T24 Protein S7 0 4 975 979 CD25
+# T25 Protein S7 27 32 1002 1007 TGF-b
+# T26 Protein S7 134 142 1109 1117 TGF-beta
+# T27 Protein S7 147 151 1122 1126 IL-4
+$ T24 Protein S7 0 4 975 979 CD25
+$ T25 Protein S7 27 32 1002 1007 TGF-b
+$ T27 Protein S7 147 151 1122 1126 IL-4
+@ T54 Negative_regulation S7 9 23 984 998 down-regulated
+@ T55 Positive_regulation S7 100 110 1075 1085 pronounced
+% E12 Negative_regulation:T54 Theme:T24 Cause:T25
+% E13 Positive_regulation:T55 Theme:E12 Cause:T27
+
+The addition of IL-4 to iTreg-driving conditions decreased the number of FOXP3+ cells (Figure 6B).
+# T28 Protein S8 16 20 1144 1148 IL-4
+# T29 Protein S8 73 78 1201 1206 FOXP3
+
+In line with the previous findings, the IL-4-producing cells and the FOXP3 expressing cells are nonoverlapping populations.
+# T30 Protein S9 40 44 1267 1271 IL-4
+# T31 Protein S9 69 74 1296 1301 FOXP3
+$ T30 Protein S9 40 44 1267 1271 IL-4
+$ T31 Protein S9 69 74 1296 1301 FOXP3
+@ T56 Gene_expression S9 45 54 1272 1281 producing
+@ T57 Gene_expression S9 75 85 1302 1312 expressing
+% E14 Gene_expression:T56 Theme:T30
+% E15 Gene_expression:T57 Theme:T31
+
+Since FOXP3 is known to act as a repressor of cytokine expression [20], we therefore analyzed GATA3 and FOXP3 expression.
+# T32 Protein S10 6 11 1357 1362 FOXP3
+# T33 Protein S10 94 99 1445 1450 GATA3
+# T34 Protein S10 104 109 1455 1460 FOXP3
+$ T33 Protein S10 94 99 1445 1450 GATA3
+$ T34 Protein S10 104 109 1455 1460 FOXP3
+@ T58 Gene_expression S10 110 120 1461 1471 expression
+% E16 Gene_expression:T58 Theme:T33
+% E17 Gene_expression:T58 Theme:T34
+
+The expression kinetic of naive T cells exposed to IL-4 and TGF-beta demonstrated that GATA3 and FOXP3 are initially found in separate populations (day 2), but transiently co-express both factors (days 4-8), before establishing separate populations at the end of the differentiation process (day 10; Figure 6C), suggesting that GATA3 inhibits the development of iTreg cells by repressing FOXP3.
+# T35 Protein S11 51 55 1524 1528 IL-4
+# T36 Protein S11 60 68 1533 1541 TGF-beta
+# T37 Protein S11 87 92 1560 1565 GATA3
+# T38 Protein S11 97 102 1570 1575 FOXP3
+# T39 Protein S11 328 333 1801 1806 GATA3
+# T40 Protein S11 388 393 1861 1866 FOXP3
+$ T35 Protein S11 51 55 1524 1528 IL-4
+$ T36 Protein S11 60 68 1533 1541 TGF-beta
+$ T37 Protein S11 87 92 1560 1565 GATA3
+$ T38 Protein S11 97 102 1570 1575 FOXP3
+$ T40 Protein S11 388 393 1861 1866 FOXP3
+$ T39 Protein S11 328 333 1801 1806 GATA3
+@ T59 Positive_regulation S11 69 81 1542 1554 demonstrated
+@ T60 Gene_expression S11 172 182 1645 1655 co-express
+@ T45 Anaphora S11 183 195 1656 1668 both factors
+@ T61 Negative_regulation S11 377 387 1850 1860 repressing
+% E18 Positive_regulation:T59 Theme:E19 Cause:T35
+% E20 Positive_regulation:T59 Theme:E19 Cause:T36
+% E21 Positive_regulation:T59 Theme:E22 Cause:T35
+% E23 Positive_regulation:T59 Theme:E22 Cause:T36
+% E19 Gene_expression:T60 Theme:T37
+% E22 Gene_expression:T60 Theme:T38
+% E24 Negative_regulation:T61 Theme:T40 Cause:T39
+
+These results showed that IL-4 acts in vitro as an inhibitor of FOXP3 expression, without interfering with TGF-beta signaling, probably acting at the level of transcription factors, and possibly by a GATA3-dependent mechanism.
+# T41 Protein S12 26 30 1894 1898 IL-4
+# T42 Protein S12 64 69 1932 1937 FOXP3
+# T43 Protein S12 107 115 1975 1983 TGF-beta
+# T44 Protein S12 200 205 2068 2073 GATA3
+$ T41 Protein S12 26 30 1894 1898 IL-4
+$ T42 Protein S12 64 69 1932 1937 FOXP3
+$ T44 Protein S12 200 205 2068 2073 GATA3
+@ T62 Negative_regulation S12 31 60 1899 1928 acts in vitro as an inhibitor
+@ T63 Gene_expression S12 70 80 1938 1948 expression
+@ T64 Positive_regulation S12 136 142 2004 2010 acting
+@ T65 Regulation S12 206 215 2074 2083 dependent
+% E25 Negative_regulation:T62 Theme:E26 Cause:T41
+% E26 Gene_expression:T63 Theme:T42
+% E27 Positive_regulation:T64 Theme:E25 Cause:E28
+% E28 Regulation:T65 Theme:T44 Cause:T41
+

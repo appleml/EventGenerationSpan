@@ -1,0 +1,53 @@
+Activation of lymphokine genes in T cells: role of cis-acting DNA elements that respond to T cell activation signals.
+
+Activation of T cells is initiated by the recognition of antigen on antigen presenting cells to exert the effector functions in immune and inflammatory responses.
+
+Two types of helper T cell (Th) clones (Th1 and Th2) are defined on the basis of different patterns of cytokine (lymphokine) secretion.
+
+They determine the outcome of an antigenic response toward humoral or cell-mediated immunity.
+
+Although lymphokine genes are coordinately regulated upon antigen stimulation, they are regulated by the mechanisms common to all as well as those which are unique to each gene.
+
+For most lymphokine genes, a combination of phorbol esters (phorbol 12-myristate 13 acetate, PMA) and calcium ionophores (A23187) is required for their maximal induction.
+
+Yet phorbol ester alone or calcium ionophore alone produce several lymphokines.
+
+The production of the granulocyte-macrophage colony stimulating factor (GM-CSF) is completely dependent on the two signals.
+# T1 Protein S8 22 70 963 1011 granulocyte-macrophage colony stimulating factor
+# T2 Protein S8 72 78 1013 1019 GM-CSF
+$ T2 Protein S8 72 78 1013 1019 GM-CSF
+@ T9 Gene_expression S8 4 14 945 955 production
+@ T10 Positive_regulation S8 94 103 1035 1044 dependent
+% E1 Gene_expression:T9 Theme:T2
+% E2 Positive_regulation:T10 Theme:E1
+
+We have previously found a cis-acting region spanning the GM-CSF promoter region (positions -95 to +27) that confers inducibility to reporter genes in transient transfection assays.
+# T3 Protein S9 58 64 1123 1129 GM-CSF
+
+Further analysis identified three elements required for efficient induction, referred to as GM2, GC-box and conserved lymphokine element (CLE0).
+
+GM2 defines a binding site for protein(s) whose binding is inducible by PMA.
+
+One protein, NF-GM2 is similar to the transcription factor NF-kB.
+
+GC-box is a binding site for constitutively bound proteins.
+
+CLEO defines a binding site for protein(s) whose optimum binding is stimulated by PMA and A23187.
+
+Viral trans-activators such as Tax (human T cell leukemia virus-1, HTLV-1) and E2 (bovine papilloma virus, BPV) proteins are other agents which activate lymphokine gene expression by bypassing T cell receptor (TCR) mediated signaling.
+# T4 Protein S15 31 34 1724 1727 Tax
+# T5 Protein S15 79 81 1772 1774 E2
+
+The trans-activation domain of E2 and Tax is interchangeable although they have no obvious sequence homology between them.
+# T6 Protein S16 31 33 1959 1961 E2
+# T7 Protein S16 38 41 1966 1969 Tax
+
+The viral trans-activators appear to target specific DNA binding protein such as NF-kB and Sp1 to cis-acting DNA site and promote lymphokine gene expression without TCR-mediated stimulation.
+# T8 Protein S17 91 94 2142 2145 Sp1
+$ T8 Protein S17 91 94 2142 2145 Sp1
+@ T11 Binding S17 37 43 2088 2094 target
+@ T12 Positive_regulation S17 37 43 2088 2094 target
+% E3 Binding:T11 Theme:T8
+% E4 Positive_regulation:T12 Theme:E3 Cause:T4
+% E5 Positive_regulation:T12 Theme:E3 Cause:T5
+

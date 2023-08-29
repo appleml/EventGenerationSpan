@@ -1,0 +1,27 @@
+Lineage- and stage-specific expression of runt box polypeptides in primitive and definitive hematopoiesis.
+# T1 Protein S1 42 46 42 46 runt
+
+Translocations involving the human CBFA2 locus have been associated with leukemia.
+# T2 Protein S2 35 40 143 148 CBFA2
+
+This gene, originally named AML1, is a human homologue of the Drosophila gene runt that controls early events in fly embryogenesis.
+# T3 Protein S3 28 32 219 223 AML1
+# T4 Protein S3 78 82 269 273 runt
+
+To clarify the role of mammalian runt products in normal and leukemic hematopoiesis, we have studied their pattern of expression in mouse hematopoietic tissues in the adult and during ontogeny using an anti-runt box antiserum.
+# T5 Protein S4 33 37 356 360 runt
+
+In the adult bone marrow, we found expression of runt polypeptides in differentiating myeloid cells and in B lymphocytes.
+
+Within the erythroid lineage, runt expression is biphasic, clearly present in the erythroblasts of early blood islands and of the fetal liver, but absent in the adult.
+# T6 Protein S6 30 34 702 706 runt
+$ T6 Protein S6 30 34 702 706 runt
+@ T7 Gene_expression S6 35 45 707 717 expression
+@ T8 Gene_expression S6 147 153 819 825 absent
+% E1 Gene_expression:T7 Theme:T6
+% E2 Gene_expression:T8 Theme:T6
+
+Biochemical analysis by Western blotting of fetal and adult hematopoietic populations shows several runt isoforms.
+
+At least one of them appears to be myeloid specific.
+

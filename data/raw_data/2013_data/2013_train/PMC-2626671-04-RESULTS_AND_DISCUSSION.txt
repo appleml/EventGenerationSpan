@@ -1,0 +1,140 @@
+Distinct kinetics of T-bet and Eomes expression during CTL differentiation
+# T1 Protein S1 21 26 21 26 T-bet
+# T2 Protein S1 31 36 31 36 Eomes
+$ T1 Protein S1 21 26 21 26 T-bet
+$ T2 Protein S1 31 36 31 36 Eomes
+@ T34 Gene_expression S1 37 47 37 47 expression
+% E1 Gene_expression:T34 Theme:T1
+% E2 Gene_expression:T34 Theme:T2
+
+The T-box transcription factors T-bet and Eomes have been linked to the regulation of genes encoding effector cytokines (e.g., Ifng) and genes important for cytolytic function (e.g., Prf1 and GzmB) (20).
+# T3 Protein S2 32 37 107 112 T-bet
+# T4 Protein S2 42 47 117 122 Eomes
+# T5 Protein S2 127 131 202 206 Ifng
+# T6 Protein S2 183 187 258 262 Prf1
+# T7 Protein S2 192 196 267 271 GzmB
+$ T3 Protein S2 32 37 107 112 T-bet
+$ T4 Protein S2 42 47 117 122 Eomes
+$ T5 Protein S2 127 131 202 206 Ifng
+$ T6 Protein S2 183 187 258 262 Prf1
+$ T7 Protein S2 192 196 267 271 GzmB
+@ T35 Regulation S2 58 64 133 139 linked
+@ T36 Regulation S2 72 82 147 157 regulation
+@ T29 Anaphora S2 86 91 161 166 genes
+@ T30 Anaphora S2 137 142 212 217 genes
+% E3 Regulation:T35 Theme:E4 Cause:T3
+% E5 Regulation:T35 Theme:E4 Cause:T4
+% E6 Regulation:T35 Theme:E7 Cause:T3
+% E8 Regulation:T35 Theme:E7 Cause:T4
+% E9 Regulation:T35 Theme:E10 Cause:T3
+% E11 Regulation:T35 Theme:E10 Cause:T4
+% E4 Regulation:T36 Theme:T5
+% E7 Regulation:T36 Theme:T6
+% E10 Regulation:T36 Theme:T7
+
+We investigated the kinetics of expression of these transcription factors in our in vitro cultures (Fig. 1, A-D).
+@ T37 Gene_expression S3 32 42 311 321 expression
+@ T31 Anaphora S3 46 73 325 352 these transcription factors
+% E12 Gene_expression:T37 Theme:T3
+% E13 Gene_expression:T37 Theme:T4
+
+T-bet mRNA and protein were not detectable in naive CD8+ T cells, but were strongly induced upon TCR priming (day 2) and remained expressed through day 6 of differentiation (Fig. 1, A and C; quantified in Fig. 1, B and D).
+# T8 Protein S4 0 5 393 398 T-bet
+# T9 Protein S4 52 55 445 448 CD8
+$ T8 Protein S4 0 5 393 398 T-bet
+@ T38 Gene_expression S4 32 42 425 435 detectable
+@ T39 Positive_regulation S4 84 91 477 484 induced
+@ T40 Positive_regulation S4 121 129 514 522 remained
+@ T41 Gene_expression S4 130 139 523 532 expressed
+% E14 Gene_expression:T38 Theme:T8
+% E15 Positive_regulation:T39 Theme:T8
+% E16 Positive_regulation:T40 Theme:E17
+% E17 Gene_expression:T41 Theme:T8
+
+In contrast, Eomes expression was low or undetectable at both the mRNA and protein levels in naive CD8+ T cells, and TCR priming in culture had only a modest effect on its expression at day 2 (Fig. 1, A and C).
+# T10 Protein S5 13 18 629 634 Eomes
+# T11 Protein S5 99 102 715 718 CD8
+$ T10 Protein S5 13 18 629 634 Eomes
+@ T42 Gene_expression S5 19 29 635 645 expression
+@ T43 Positive_regulation S5 34 53 650 669 low or undetectable
+@ T44 Regulation S5 158 164 774 780 effect
+@ T32 Anaphora S5 168 171 784 787 its
+@ T45 Gene_expression S5 172 182 788 798 expression
+% E18 Gene_expression:T42 Theme:T10
+% E19 Positive_regulation:T43 Theme:E18
+% E20 Regulation:T44 Theme:E21
+% E21 Gene_expression:T45 Theme:T10
+
+Strong induction of Eomes mRNA and protein was only observed at day 4 and later (Fig. 1, A and C).
+# T12 Protein S6 20 25 847 852 Eomes
+$ T12 Protein S6 20 25 847 852 Eomes
+@ T46 Positive_regulation S6 7 16 834 843 induction
+% E22 Positive_regulation:T46 Theme:T12
+
+T-bet mRNA expression slightly preceded the expression of GzmB mRNA; similarly, Eomes mRNA and protein were expressed ~1 d ahead of the reexpression of perforin mRNA and protein, respectively (Fig. 1, B and D).
+# T13 Protein S7 0 5 926 931 T-bet
+# T14 Protein S7 58 62 984 988 GzmB
+# T15 Protein S7 80 85 1006 1011 Eomes
+# T16 Protein S7 152 160 1078 1086 perforin
+$ T13 Protein S7 0 5 926 931 T-bet
+$ T14 Protein S7 58 62 984 988 GzmB
+$ T15 Protein S7 80 85 1006 1011 Eomes
+$ T16 Protein S7 152 160 1078 1086 perforin
+@ T47 Transcription S7 6 21 932 947 mRNA expression
+@ T48 Gene_expression S7 44 54 970 980 expression
+@ T49 Gene_expression S7 108 117 1034 1043 expressed
+@ T50 Gene_expression S7 136 148 1062 1074 reexpression
+% E23 Transcription:T47 Theme:T13
+% E24 Gene_expression:T48 Theme:T14
+% E25 Gene_expression:T49 Theme:T15
+% E26 Gene_expression:T50 Theme:T16
+
+This detailed kinetic analysis suggested that, under our culture conditions, T-bet and Eomes contribute to distinct aspects of gene transcription during CTL differentiation.
+# T17 Protein S8 77 82 1214 1219 T-bet
+# T18 Protein S8 87 92 1224 1229 Eomes
+
+T-bet is required early for IFN-gamma production, and our data suggested that Eomes might not function during this early period but rather might contribute later to the control of perforin expression.
+# T19 Protein S9 0 5 1311 1316 T-bet
+# T20 Protein S9 28 37 1339 1348 IFN-gamma
+# T21 Protein S9 78 83 1389 1394 Eomes
+# T22 Protein S9 180 188 1491 1499 perforin
+$ T19 Protein S9 0 5 1311 1316 T-bet
+$ T20 Protein S9 28 37 1339 1348 IFN-gamma
+$ T21 Protein S9 78 83 1389 1394 Eomes
+$ T22 Protein S9 180 188 1491 1499 perforin
+@ T51 Positive_regulation S9 9 17 1320 1328 required
+@ T52 Gene_expression S9 38 48 1349 1359 production
+@ T53 Positive_regulation S9 145 155 1456 1466 contribute
+@ T54 Regulation S9 169 176 1480 1487 control
+@ T55 Gene_expression S9 189 199 1500 1510 expression
+% E27 Positive_regulation:T51 Theme:E28 Cause:T19
+% E28 Gene_expression:T52 Theme:T20
+% E29 Positive_regulation:T53 Theme:E30 Cause:T21
+% E30 Regulation:T54 Theme:E31
+% E31 Gene_expression:T55 Theme:T22
+
+Our data seemed most consistent with a model in which TCR signals induce T-bet, which in turn induces IFN-gamma (17) and possibly granzyme B; subsequently, Eomes is induced during the period of clonal expansion in IL-2 and activates perforin expression.
+# T23 Protein S10 73 78 1585 1590 T-bet
+# T24 Protein S10 102 111 1614 1623 IFN-gamma
+# T25 Protein S10 130 140 1642 1652 granzyme B
+# T26 Protein S10 156 161 1668 1673 Eomes
+# T27 Protein S10 214 218 1726 1730 IL-2
+# T28 Protein S10 233 241 1745 1753 perforin
+$ T23 Protein S10 73 78 1585 1590 T-bet
+$ T24 Protein S10 102 111 1614 1623 IFN-gamma
+$ T25 Protein S10 130 140 1642 1652 granzyme B
+$ T26 Protein S10 156 161 1668 1673 Eomes
+$ T28 Protein S10 233 241 1745 1753 perforin
+@ T56 Positive_regulation S10 66 72 1578 1584 induce
+@ T33 Anaphora S10 80 85 1592 1597 which
+@ T57 Positive_regulation S10 94 101 1606 1613 induces
+@ T58 Positive_regulation S10 165 172 1677 1684 induced
+@ T59 Positive_regulation S10 223 232 1735 1744 activates
+@ T60 Gene_expression S10 242 252 1754 1764 expression
+% E32 Positive_regulation:T56 Theme:T23
+% E33 Positive_regulation:T57 Theme:T24 Cause:T23
+% E34 Positive_regulation:T57 Theme:T25 Cause:T23
+% E35 Positive_regulation:T58 Theme:T26
+% E36 Positive_regulation:T59 Theme:E37 Cause:T26
+% E37 Gene_expression:T60 Theme:T28
+

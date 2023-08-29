@@ -1,0 +1,47 @@
+Human neutrophils express GH-N gene transcripts and the pituitary transcription factor Pit-1b.
+# T1 Protein S1 26 30 26 30 GH-N
+# T2 Protein S1 87 93 87 93 Pit-1b
+$ T2 Protein S1 87 93 87 93 Pit-1b
+$ T1 Protein S1 26 30 26 30 GH-N
+@ T11 Gene_expression S1 18 25 18 25 express
+@ T12 Transcription S1 18 25 18 25 express
+% E1 Gene_expression:T11 Theme:T2
+% E2 Transcription:T12 Theme:T1
+
+Since GH stimulates the development and function of granulocytes, we investigated the expression of GH in granulocyte subsets.
+# T3 Protein S2 6 8 102 104 GH
+# T4 Protein S2 100 102 196 198 GH
+$ T4 Protein S2 100 102 196 198 GH
+@ T13 Gene_expression S2 86 96 182 192 expression
+% E3 Gene_expression:T13 Theme:T4
+
+By immunocytochemistry, 25 +/- 7% of the human neutrophils were shown to express immunoreactive GH, whereas eosinophils were negative.
+# T5 Protein S3 96 98 319 321 GH
+$ T5 Protein S3 96 98 319 321 GH
+@ T14 Gene_expression S3 73 80 296 303 express
+@ T15 Gene_expression S3 125 133 348 356 negative
+% E4 Gene_expression:T14 Theme:T5
+% E5 Gene_expression:T15 Theme:T5
+
+Reversed transcription (RT)-PCR analysis demonstrated GH mRNA in neutrophils.
+# T6 Protein S4 54 56 412 414 GH
+$ T6 Protein S4 54 56 412 414 GH
+@ T16 Transcription S4 41 53 399 411 demonstrated
+% E6 Transcription:T16 Theme:T6
+
+Restriction analysis revealed that neutrophils express the GH-N gene but not the GH-V gene.
+# T7 Protein S5 59 63 495 499 GH-N
+# T8 Protein S5 81 85 517 521 GH-V
+$ T7 Protein S5 59 63 495 499 GH-N
+$ T8 Protein S5 81 85 517 521 GH-V
+@ T17 Gene_expression S5 47 54 483 490 express
+% E7 Gene_expression:T17 Theme:T7
+% E8 Gene_expression:T17 Theme:T8
+
+Furthermore, we demonstrated by western blot analysis that neutrophils express an alternatively spliced variant of the pituitary transcription factor Pit-1, designated Pit-1b.
+# T9 Protein S6 150 155 678 683 Pit-1
+# T10 Protein S6 168 174 696 702 Pit-1b
+$ T10 Protein S6 168 174 696 702 Pit-1b
+@ T18 Gene_expression S6 71 78 599 606 express
+% E9 Gene_expression:T18 Theme:T10
+

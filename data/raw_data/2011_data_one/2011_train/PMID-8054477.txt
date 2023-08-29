@@ -1,0 +1,77 @@
+Positive and negative regulation of IL-2 gene expression: role of multiple regulatory sites.
+# T1 Protein S1 36 40 36 40 IL-2
+$ T1 Protein S1 36 40 36 40 IL-2
+@ T12 Positive_regulation S1 0 8 0 8 Positive
+@ T13 Negative_regulation S1 13 32 13 32 negative regulation
+@ T14 Gene_expression S1 46 56 46 56 expression
+@ T15 Regulation S1 58 62 58 62 role
+% E1 Positive_regulation:T12 Theme:E3
+% E2 Negative_regulation:T13 Theme:E3
+% E3 Gene_expression:T14 Theme:T1
+% E4 Regulation:T15 Theme:E1
+% E5 Regulation:T15 Theme:E2
+
+Interleukin 2 (IL-2) is an important lymphokine required in the process of T cell activation, proliferation, clonal expansion and differentiation.
+# T2 Protein S2 0 13 94 107 Interleukin 2
+# T3 Protein S2 15 19 109 113 IL-2
+
+The IL-2 gene displays both T cell specific and inducible expression: it is only expressed in CD4+ T cells after antigenic or mitogenic stimulation.
+# T4 Protein S3 4 8 245 249 IL-2
+# T5 Protein S3 94 97 335 338 CD4
+$ T4 Protein S3 4 8 245 249 IL-2
+@ T16 Positive_regulation S3 48 57 289 298 inducible
+@ T17 Gene_expression S3 58 68 299 309 expression
+@ T18 Positive_regulation S3 81 90 322 331 expressed
+% E6 Positive_regulation:T16 Theme:E7
+% E7 Gene_expression:T17 Theme:T4
+% E8 Positive_regulation:T18 Theme:T4
+
+Several cis-acting regulatory sites are required for induction of the IL-2 gene after stimulation.
+# T6 Protein S4 70 74 460 464 IL-2
+$ T6 Protein S4 70 74 460 464 IL-2
+@ T19 Positive_regulation S4 40 48 430 438 required
+@ T20 Positive_regulation S4 53 62 443 452 induction
+% E9 Positive_regulation:T19 Theme:E10
+% E10 Positive_regulation:T20 Theme:T6
+
+In this study, we have analysed the function of these cis-acting regulatory sites in the context of the native IL-2 enhancer and promoter sequence.
+# T7 Protein S5 111 115 600 604 IL-2
+
+The results of this study suggest that the NFAT (-276 to -261), the distal octamer (-256 to -248) and the proximal octamer (-75 to -66) sites not only act as enhancers of IL-2 gene transcription in the presence of cellular stimulation, but also have a silencing effect on IL-2 gene expression in resting cells.
+# T8 Protein S6 171 175 808 812 IL-2
+# T9 Protein S6 272 276 909 913 IL-2
+$ T8 Protein S6 171 175 808 812 IL-2
+$ T9 Protein S6 272 276 909 913 IL-2
+@ T21 Positive_regulation S6 151 167 788 804 act as enhancers
+@ T22 Transcription S6 181 194 818 831 transcription
+@ T23 Positive_regulation S6 195 213 832 850 in the presence of
+@ T24 Negative_regulation S6 245 268 882 905 have a silencing effect
+@ T25 Gene_expression S6 282 292 919 929 expression
+% E11 Positive_regulation:T21 Theme:E13
+% E12 Transcription:T22 Theme:T8
+% E13 Positive_regulation:T23 Theme:E12
+% E14 Negative_regulation:T24 Theme:E15
+% E15 Gene_expression:T25 Theme:T9
+
+Two other sites display disparate effects on IL-2 gene expression in different T leukemia cell lines: the distal purine box (-291 to -277) and the proximal purine box sites (-145 to -128).
+# T10 Protein S7 45 49 993 997 IL-2
+$ T10 Protein S7 45 49 993 997 IL-2
+@ T26 Regulation S7 16 41 964 989 display disparate effects
+@ T27 Gene_expression S7 55 65 1003 1013 expression
+% E16 Regulation:T26 Theme:E17
+% E17 Gene_expression:T27 Theme:T10
+
+Finally, the AP-1 (-186 to -176) and the kappa B sites (-206 to -195) respond to different cellular activation in EL4 cells.
+
+The AP-1 site mediated the response to PMA stimulation while the kappa B site responded to IL-1 stimulation.
+
+These data suggest that the regulation of IL-2 gene expression is a complex process and multiple cis-acting regulatory sites interact to exert different effects in T cells representative of alternative stages of differentiation.
+# T11 Protein S10 42 46 1413 1417 IL-2
+$ T11 Protein S10 42 46 1413 1417 IL-2
+@ T28 Regulation S10 28 38 1399 1409 regulation
+@ T29 Gene_expression S10 52 62 1423 1433 expression
+@ T30 Regulation S10 125 160 1496 1531 interact to exert different effects
+% E18 Regulation:T28 Theme:E19
+% E19 Gene_expression:T29 Theme:T11
+% E20 Regulation:T30 Theme:E18
+

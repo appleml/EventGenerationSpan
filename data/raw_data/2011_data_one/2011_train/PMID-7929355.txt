@@ -1,0 +1,135 @@
+Protease inhibitors block lipopolysaccharide induction of tissue factor gene expression in human monocytic cells by preventing activation of c-Rel/p65 heterodimers.
+# T1 Protein S1 141 146 141 146 c-Rel
+# T2 Protein S1 147 150 147 150 p65
+$ T1 Protein S1 141 146 141 146 c-Rel
+$ T2 Protein S1 147 150 147 150 p65
+@ T23 Negative_regulation S1 116 126 116 126 preventing
+@ T24 Positive_regulation S1 127 137 127 137 activation
+% E1 Negative_regulation:T23 Theme:E3
+% E2 Negative_regulation:T23 Theme:E4
+% E3 Positive_regulation:T24 Theme:T1
+% E4 Positive_regulation:T24 Theme:T2
+
+Tissue factor (TF) is expressed rapidly by human monocytes exposed to bacterial endotoxin (lipopolysaccharide, or LPS).
+# T3 Protein S2 0 13 166 179 Tissue factor
+# T4 Protein S2 15 17 181 183 TF
+$ T4 Protein S2 15 17 181 183 TF
+@ T25 Gene_expression S2 22 31 188 197 expressed
+@ T26 Positive_regulation S2 59 66 225 232 exposed
+% E5 Gene_expression:T25 Theme:T4
+% E6 Positive_regulation:T26 Theme:E5
+
+Transcriptional regulation is mediated by binding of c-Rel/p65 heterodimers to a kappa B-like site in the TF promoter.
+# T5 Protein S3 53 58 339 344 c-Rel
+# T6 Protein S3 59 62 345 348 p65
+# T7 Protein S3 106 108 392 394 TF
+$ T5 Protein S3 53 58 339 344 c-Rel
+$ T7 Protein S3 106 108 392 394 TF
+$ T6 Protein S3 59 62 345 348 p65
+@ T27 Binding S3 42 49 328 335 binding
+@ T28 Entity S3 81 98 367 384 kappa B-like site
+% E7 Binding:T27 Theme:T5 Theme2:T7 Site2:T28
+% E8 Binding:T27 Theme:T6 Theme2:T7 Site2:T28
+
+Nuclear translocation of cytosolic c-Rel/p65 heterodimers and other members of the NF-kappa B/Rel family requires dissociation and proteolytic degradation of the inhibitor protein, I kappa B alpha.
+# T8 Protein S4 35 40 440 445 c-Rel
+# T9 Protein S4 41 44 446 449 p65
+# T10 Protein S4 181 196 586 601 I kappa B alpha
+$ T8 Protein S4 35 40 440 445 c-Rel
+$ T9 Protein S4 41 44 446 449 p65
+$ T10 Protein S4 181 196 586 601 I kappa B alpha
+@ T29 Entity S4 0 7 405 412 Nuclear
+@ T30 Localization S4 8 21 413 426 translocation
+@ T31 Positive_regulation S4 105 113 510 518 requires
+@ T32 Protein_catabolism S4 131 154 536 559 proteolytic degradation
+% E9 Localization:T30 Theme:T8 ToLoc:T29
+% E10 Localization:T30 Theme:T9 ToLoc:T29
+% E11 Positive_regulation:T31 Theme:E10
+% E12 Positive_regulation:T31 Theme:E9 Cause:E15
+% E13 Positive_regulation:T31 Theme:E10 Cause:E15
+% E14 Positive_regulation:T31 Theme:E9
+% E15 Protein_catabolism:T32 Theme:T10
+
+The protease inhibitors N alpha-tosylphenylalanyl chloromethyl ketone (TPCK) and N alpha-tosyl-L-lysine chloromethyl ketone (TLCK) block activation of NF-kappa B/Rel proteins by preventing degradation of I kappa B alpha.
+# T11 Protein S5 204 219 807 822 I kappa B alpha
+$ T11 Protein S5 204 219 807 822 I kappa B alpha
+@ T33 Negative_regulation S5 178 188 781 791 preventing
+@ T34 Protein_catabolism S5 189 200 792 803 degradation
+% E16 Negative_regulation:T33 Theme:E17
+% E17 Protein_catabolism:T34 Theme:T11
+
+To determine if TPCK and TLCK inhibited LPS induction of TF expression, freshly isolated human monocytes and monocytic THP-1 cells were pretreated with these inhibitors for 30 min before LPS stimulation.
+# T12 Protein S6 57 59 881 883 TF
+$ T12 Protein S6 57 59 881 883 TF
+@ T35 Negative_regulation S6 30 39 854 863 inhibited
+@ T36 Positive_regulation S6 44 53 868 877 induction
+@ T37 Gene_expression S6 60 70 884 894 expression
+% E18 Negative_regulation:T35 Theme:E19
+% E19 Positive_regulation:T36 Theme:E20
+% E20 Gene_expression:T37 Theme:T12
+
+Both TPCK and TLCK inhibited LPS induction of TF protein, TF mRNA and TF promoter activity in a dose-dependent manner.
+# T13 Protein S7 46 48 1074 1076 TF
+# T14 Protein S7 58 60 1086 1088 TF
+# T15 Protein S7 70 72 1098 1100 TF
+$ T14 Protein S7 58 60 1086 1088 TF
+$ T15 Protein S7 70 72 1098 1100 TF
+$ T13 Protein S7 46 48 1074 1076 TF
+@ T38 Negative_regulation S7 19 28 1047 1056 inhibited
+@ T39 Positive_regulation S7 33 42 1061 1070 induction
+@ T40 Entity S7 73 81 1101 1109 promoter
+% E21 Negative_regulation:T38 Theme:E26
+% E22 Negative_regulation:T38 Theme:E25
+% E23 Negative_regulation:T38 Theme:E24
+% E24 Positive_regulation:T39 Theme:T14
+% E25 Positive_regulation:T39 Theme:T15 Site:T40
+% E26 Positive_regulation:T39 Theme:T13
+
+These inhibitors specifically prevented degradation of I kappa B alpha and nuclear translocation of c-Rel/p65 heterodimers.
+# T16 Protein S8 55 70 1202 1217 I kappa B alpha
+# T17 Protein S8 100 105 1247 1252 c-Rel
+# T18 Protein S8 106 109 1253 1256 p65
+$ T16 Protein S8 55 70 1202 1217 I kappa B alpha
+$ T17 Protein S8 100 105 1247 1252 c-Rel
+$ T18 Protein S8 106 109 1253 1256 p65
+@ T41 Negative_regulation S8 30 39 1177 1186 prevented
+@ T42 Protein_catabolism S8 40 51 1187 1198 degradation
+@ T43 Entity S8 75 82 1222 1229 nuclear
+@ T44 Localization S8 83 96 1230 1243 translocation
+% E27 Negative_regulation:T41 Theme:E32
+% E28 Negative_regulation:T41 Theme:E30
+% E29 Negative_regulation:T41 Theme:E31
+% E30 Protein_catabolism:T42 Theme:T16
+% E31 Localization:T44 Theme:T17 ToLoc:T43
+% E32 Localization:T44 Theme:T18 ToLoc:T43
+
+In contrast, TPCK and TLCK did not block induction of an immediate-early gene encoding the transcription factor, Egr-1.
+# T19 Protein S9 113 118 1384 1389 Egr-1
+$ T19 Protein S9 113 118 1384 1389 Egr-1
+@ T45 Negative_regulation S9 35 40 1306 1311 block
+@ T46 Positive_regulation S9 41 50 1312 1321 induction
+% E33 Negative_regulation:T45 Theme:E34
+% E34 Positive_regulation:T46 Theme:T19
+
+Taken together, these data indicated that inhibiting nuclear translocation of c-Rel/p65 heterodimers prevented LPS induction of TF gene transcription in monocytic cells.
+# T20 Protein S10 78 83 1469 1474 c-Rel
+# T21 Protein S10 84 87 1475 1478 p65
+# T22 Protein S10 128 130 1519 1521 TF
+$ T21 Protein S10 84 87 1475 1478 p65
+$ T20 Protein S10 78 83 1469 1474 c-Rel
+$ T22 Protein S10 128 130 1519 1521 TF
+@ T47 Negative_regulation S10 42 52 1433 1443 inhibiting
+@ T48 Entity S10 53 60 1444 1451 nuclear
+@ T49 Localization S10 61 74 1452 1465 translocation
+@ T50 Negative_regulation S10 101 110 1492 1501 prevented
+@ T51 Positive_regulation S10 115 124 1506 1515 induction
+@ T52 Transcription S10 136 149 1527 1540 transcription
+% E35 Negative_regulation:T47 Theme:E37
+% E36 Negative_regulation:T47 Theme:E38
+% E37 Localization:T49 Theme:T21 ToLoc:T48
+% E38 Localization:T49 Theme:T20 ToLoc:T48
+% E39 Negative_regulation:T50 Theme:E41 Cause:E35
+% E40 Negative_regulation:T50 Theme:E41 Cause:E36
+% E41 Positive_regulation:T51 Theme:E42
+% E42 Transcription:T52 Theme:T22
+

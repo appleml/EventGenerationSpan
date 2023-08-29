@@ -1,0 +1,36 @@
+Functions of glutathione and glutathione disulfide in immunology and immunopathology.
+
+Even a moderate increase in the cellular cysteine supply elevates the intracellular glutathione (GSH) and glutathione disulfide (GSSG) levels and potentiates immunological functions of lymphocytes in vitro.
+
+At low GSSG levels, T cells cannot optimally activate the immunologically important transcription factor NF kappa B, whereas high GSSG levels inhibit the DNA binding activity of NF kappa B.
+
+The effects of GSSG are antagonized by reduced thioredoxin (TRX).
+# T1 Protein S4 47 58 531 542 thioredoxin
+# T2 Protein S4 60 63 544 547 TRX
+
+As the protein tyrosine kinase activities p56lck and p59fyn are activated in intact cells by hydrogen peroxide, they are likely targets for GSSG action.
+# T3 Protein S5 42 48 592 598 p56lck
+# T4 Protein S5 53 59 603 609 p59fyn
+$ T3 Protein S5 42 48 592 598 p56lck
+$ T4 Protein S5 53 59 603 609 p59fyn
+@ T8 Positive_regulation S5 64 73 614 623 activated
+@ T9 Regulation S5 128 135 678 685 targets
+% E1 Positive_regulation:T8 Theme:T3
+% E2 Positive_regulation:T8 Theme:T4
+% E3 Regulation:T9 Theme:T3
+% E4 Regulation:T9 Theme:T4
+
+These redox-regulated enzymes trigger signal cascades for NF kappa B activation and transduce signals from the T cell antigen receptor, from CD4 and CD8 molecules, and from the IL-2 receptor beta-chain.
+# T5 Protein S6 141 144 844 847 CD4
+# T6 Protein S6 177 201 880 904 IL-2 receptor beta-chain
+@ T10 Positive_regulation S6 30 53 733 756 trigger signal cascades
+% E5 Positive_regulation:T10 Theme:T3
+% E6 Positive_regulation:T10 Theme:T4
+
+The effector phase of cytotoxic T cell responses and IL-2-dependent functions are inhibited even by a partial depletion of the intracellular GSH pool.
+# T7 Protein S7 53 57 959 963 IL-2
+
+As signal transduction is facilitated by prooxidant conditions, we propose that the well-known immunological consequences of GSH depletion ultimately may be results of the accompanying GSSG deficiency.
+
+As HIV-infected patients and SIV-infected rhesus macaques have, on the average, significantly decreased plasma cyst(e)ine and intracellular GSH levels, we also hypothesize that AIDS may be the consequence of a GSSG deficiency as well.
+

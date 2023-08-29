@@ -1,0 +1,62 @@
+Neuronal (type I) nitric oxide synthase regulates nuclear factor kappaB activity and immunologic (type II) nitric oxide synthase expression.
+# T1 Protein S1 0 39 0 39 Neuronal (type I) nitric oxide synthase
+# T2 Protein S1 85 128 85 128 immunologic (type II) nitric oxide synthase
+$ T1 Protein S1 0 39 0 39 Neuronal (type I) nitric oxide synthase
+$ T2 Protein S1 85 128 85 128 immunologic (type II) nitric oxide synthase
+@ T18 Regulation S1 40 49 40 49 regulates
+@ T19 Gene_expression S1 129 139 129 139 expression
+% E1 Regulation:T18 Theme:E2 Cause:T1
+% E2 Gene_expression:T19 Theme:T2
+
+Nitric oxide subserves diverse physiologic roles in the nervous system.
+
+NO is produced from at least three different NO synthase (NOS) isoforms: neuronal NOS (nNOS), endothelial NOS, and immunologic NOS (iNOS).
+# T3 Protein S3 73 85 287 299 neuronal NOS
+# T4 Protein S3 87 91 301 305 nNOS
+# T5 Protein S3 94 109 308 323 endothelial NOS
+# T6 Protein S3 115 130 329 344 immunologic NOS
+# T7 Protein S3 132 136 346 350 iNOS
+
+We show that nNOS is the predominant isoform constitutively expressed in glia.
+# T8 Protein S4 13 17 366 370 nNOS
+$ T8 Protein S4 13 17 366 370 nNOS
+@ T20 Gene_expression S4 60 69 413 422 expressed
+% E3 Gene_expression:T20 Theme:T8
+
+NO derived from nNOS in glia inhibits the transcription factor nuclear factor kappaB (NF kappaB) as NOS inhibitors enhance basal NF kappaB activation.
+# T9 Protein S5 16 20 448 452 nNOS
+
+Pyrrolidine dithiocarbamate (PDTC) is an inhibitor of NF kappaB in most cells; however, we show that PDTC is also a potent scavenger of NO through formation of mononitrosyl iron complexes with PDTC.
+
+In Jurkat cells, a human T-cell lymphoma cell line, tumor necrosis factor-alpha (TNF-alpha) induces NF kappaB activation that is inhibited by PDTC.
+# T10 Protein S7 52 79 834 861 tumor necrosis factor-alpha
+# T11 Protein S7 81 90 863 872 TNF-alpha
+
+Contrary to the results in Jurkat cells, PDTC did not inhibit tumor necrosis factor-alpha-induced NF kappaB activation in astrocytes; instead PDTC itself induces NF kappaB activation in astrocytes, and this may be related to scavenging of endogenously produced NO by the PDTC iron complex.
+# T12 Protein S8 62 89 992 1019 tumor necrosis factor-alpha
+
+In astrocytes PDTC also dramatically induces the NF kappaB-dependent enzyme, iNOS, supporting the physiologic relevance of endogenous NO regulation of NF kappaB.
+# T13 Protein S9 77 81 1297 1301 iNOS
+$ T13 Protein S9 77 81 1297 1301 iNOS
+@ T21 Positive_regulation S9 37 44 1257 1264 induces
+@ T22 Positive_regulation S9 59 68 1279 1288 dependent
+% E4 Positive_regulation:T21 Theme:T13
+% E5 Positive_regulation:T22 Theme:T13
+
+NF kappaB activation in glia from mice lacking nNOS responds more rapidly to PDTC compared with astrocytes from wild-type mice.
+# T14 Protein S10 47 51 1429 1433 nNOS
+$ T14 Protein S10 47 51 1429 1433 nNOS
+@ T23 Negative_regulation S10 39 46 1421 1428 lacking
+% E6 Negative_regulation:T23 Theme:T14
+
+Our data suggest that nNOS in astrocytes regulates NF kappaB activity and iNOS expression, and indicate a novel regulatory role for nNOS in tonically suppressing central nervous system, NF kappaB-regulated genes.
+# T15 Protein S11 22 26 1532 1536 nNOS
+# T16 Protein S11 74 78 1584 1588 iNOS
+# T17 Protein S11 132 136 1642 1646 nNOS
+$ T15 Protein S11 22 26 1532 1536 nNOS
+$ T16 Protein S11 74 78 1584 1588 iNOS
+@ T24 Regulation S11 41 50 1551 1560 regulates
+@ T25 Gene_expression S11 79 89 1589 1599 expression
+% E7 Regulation:T24 Theme:E8 Cause:T15
+% E8 Gene_expression:T25 Theme:T16
+

@@ -1,0 +1,58 @@
+Activation of protein kinase C and elevation of cAMP interact synergistically to raise c-Fos and AP-1 activity in Jurkat cells.
+# T1 Protein S1 87 92 87 92 c-Fos
+$ T1 Protein S1 87 92 87 92 c-Fos
+@ T11 Positive_regulation S1 53 86 53 86 interact synergistically to raise
+% E1 Positive_regulation:T11 Theme:T1
+
+We have earlier found that in Jurkat cells activation of protein kinase C (PKC) enhances the cyclic adenosine monophosphate (cAMP) accumulation induced by adenosine receptor stimulation or activation of Gs.
+
+Here we have therefore examined the effect of the phorbol ester PMA (phorbol 12-myristate 13-acetate) which stimulates PKC and a combination of the adenosine receptor agonist NECA (5'-(N-ethyl)-carboxamido adenosine) and forskolin to raise cAMP, on the levels of c-Fos and Jun and on the binding and transcriptional activity of the transcription factor, activator protein-1 (AP-1).
+# T2 Protein S3 119 122 455 458 PKC
+# T3 Protein S3 263 268 599 604 c-Fos
+# T4 Protein S3 273 276 609 612 Jun
+$ T2 Protein S3 119 122 455 458 PKC
+$ T3 Protein S3 263 268 599 604 c-Fos
+$ T4 Protein S3 273 276 609 612 Jun
+@ T12 Regulation S3 36 42 372 378 effect
+@ T13 Positive_regulation S3 108 118 444 454 stimulates
+@ T14 Positive_regulation S3 253 259 589 595 levels
+% E2 Regulation:T12 Theme:E5
+% E3 Regulation:T12 Theme:E6
+% E4 Positive_regulation:T13 Theme:T2
+% E5 Positive_regulation:T14 Theme:T3
+% E6 Positive_regulation:T14 Theme:T4
+
+PMA treatment caused a concentration- and time-dependent increase in both c-Fos and Jun immunoreactivity in contrast to cAMP elevation that had only a slight effect.
+# T5 Protein S4 74 79 792 797 c-Fos
+# T6 Protein S4 84 87 802 805 Jun
+$ T6 Protein S4 84 87 802 805 Jun
+$ T5 Protein S4 74 79 792 797 c-Fos
+@ T15 Positive_regulation S4 57 65 775 783 increase
+@ T16 Regulation S4 88 104 806 822 immunoreactivity
+@ T17 Positive_regulation S4 140 164 858 882 had only a slight effect
+% E7 Positive_regulation:T15 Theme:E10
+% E8 Positive_regulation:T15 Theme:E9
+% E9 Regulation:T16 Theme:T6
+% E10 Regulation:T16 Theme:T5
+% E11 Positive_regulation:T17 Theme:E9
+% E12 Positive_regulation:T17 Theme:E10
+
+Both PMA and the combination of NECA and forskolin acted together either to increase (c-Fos) or decrease (Jun) protein levels as well as increasing AP-1 binding, as judged by gel-shift assay, and AP-1 transcriptional activity.
+# T7 Protein S5 86 91 970 975 c-Fos
+# T8 Protein S5 106 109 990 993 Jun
+$ T7 Protein S5 86 91 970 975 c-Fos
+$ T8 Protein S5 106 109 990 993 Jun
+@ T18 Positive_regulation S5 76 84 960 968 increase
+@ T19 Negative_regulation S5 96 104 980 988 decrease
+% E13 Positive_regulation:T18 Theme:T7
+% E14 Negative_regulation:T19 Theme:T8
+
+Furthermore there was a clear-cut synergy between the PKC stimulator and the cAMP elevating agents.
+# T9 Protein S6 54 57 1165 1168 PKC
+
+The results demonstrate that the simultaneous activation of PKC and elevation of cAMP leads to an enhanced AP-1 transcriptional activity in a T-leukemia cell line, suggesting that the previously observed interaction between the parallel signal transduction pathways may have functional consequences at the level of gene transcription.
+# T10 Protein S7 60 63 1271 1274 PKC
+$ T10 Protein S7 60 63 1271 1274 PKC
+@ T20 Positive_regulation S7 46 56 1257 1267 activation
+% E15 Positive_regulation:T20 Theme:T10
+

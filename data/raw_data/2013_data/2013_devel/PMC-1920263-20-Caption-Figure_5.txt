@@ -1,0 +1,34 @@
+A GC-box mediates transcriptional activity of the 180 bp core promoter.
+
+(A) A3.01 T cells were transfected with reporter plasmid pGL3-Basic containing 180, 150 or 120 bp of the A3G promoter.
+# T1 Protein S2 105 108 177 180 A3G
+
+The two G-to-T substitutions introduced into the GC-box of the 180 bp fragment (180mut) are specified.
+
+After 48 h, cells were harvested for luciferase assay.
+# T2 Protein S4 37 47 331 341 luciferase
+
+Firefly luciferase activities were normalized to coexpressed renilla luciferase activities.
+# T3 Protein S5 8 18 357 367 luciferase
+# T4 Protein S5 69 79 418 428 luciferase
+$ T3 Protein S5 8 18 357 367 luciferase
+$ T4 Protein S5 69 79 418 428 luciferase
+@ T7 Gene_expression S5 49 60 398 409 coexpressed
+% E1 Gene_expression:T7 Theme:T3
+% E2 Gene_expression:T7 Theme:T4
+
+Mean values (+/-SD) of a representative experiment performed in triplicate are shown.
+
+(B) pGL3-Promoter reporter plasmids containing the regions E1 or E2 (see Figure 1) upstream of the SV40 promoter were transfected into A3.01 T cells.
+
+Firefly luciferase activities after 48 h were normalized to coexpressed renilla luciferase activities.
+# T5 Protein S8 8 18 685 695 luciferase
+# T6 Protein S8 80 90 757 767 luciferase
+$ T5 Protein S8 8 18 685 695 luciferase
+$ T6 Protein S8 80 90 757 767 luciferase
+@ T8 Gene_expression S8 60 71 737 748 coexpressed
+% E3 Gene_expression:T8 Theme:T5
+% E4 Gene_expression:T8 Theme:T6
+
+Mean values (+/-SD) of a representative experiment performed in triplicate are shown.
+

@@ -1,0 +1,104 @@
+Functional characterization of novel IL-2 transcriptional inhibitors.
+# T1 Protein S1 37 41 37 41 IL-2
+$ T1 Protein S1 37 41 37 41 IL-2
+@ T21 Negative_regulation S1 42 68 42 68 transcriptional inhibitors
+% E1 Negative_regulation:T21 Theme:T1
+
+IL-2-mediated T cell proliferation is a critical early event in the inflammatory process.
+# T2 Protein S2 0 4 71 75 IL-2
+
+Formation of the NFAT-1 transcriptional complex on the IL-2 promoter is essential for IL-2 transcription.
+# T3 Protein S3 17 23 178 184 NFAT-1
+# T4 Protein S3 55 59 216 220 IL-2
+# T5 Protein S3 86 90 247 251 IL-2
+$ T3 Protein S3 17 23 178 184 NFAT-1
+$ T4 Protein S3 55 59 216 220 IL-2
+$ T5 Protein S3 86 90 247 251 IL-2
+@ T22 Binding S3 40 47 201 208 complex
+@ T23 Entity S3 60 68 221 229 promoter
+@ T24 Positive_regulation S3 72 81 233 242 essential
+@ T25 Transcription S3 91 104 252 265 transcription
+% E2 Binding:T22 Theme:T3 Theme2:T4 Site2:T23
+% E3 Positive_regulation:T24 Theme:E4 Cause:E2
+% E4 Transcription:T25 Theme:T5
+
+Using a cell line that is stably transfected with a trimer of the NFAT-1 regulatory element linked to a lac-Z reporter gene, we screened for inhibitors of NFAT-1-mediated beta-galactosidase activity.
+# T6 Protein S4 66 72 333 339 NFAT-1
+# T7 Protein S4 104 109 371 376 lac-Z
+# T8 Protein S4 155 161 422 428 NFAT-1
+# T9 Protein S4 171 189 438 456 beta-galactosidase
+$ T9 Protein S4 171 189 438 456 beta-galactosidase
+$ T8 Protein S4 155 161 422 428 NFAT-1
+@ T26 Positive_regulation S4 128 136 395 403 screened
+@ T27 Negative_regulation S4 141 151 408 418 inhibitors
+@ T28 Positive_regulation S4 162 170 429 437 mediated
+% E5 Positive_regulation:T26 Theme:E6
+% E6 Negative_regulation:T27 Theme:T9
+% E7 Positive_regulation:T28 Theme:T9 Cause:T8
+
+WIN 61058 and WIN 53071 were identified as microM inhibitors.
+@ T29 Negative_regulation S5 50 60 517 527 inhibitors
+% E8 Negative_regulation:T29 Theme:T9
+
+These compounds also inhibited beta-galactosidase mRNA levels.
+# T10 Protein S6 31 49 560 578 beta-galactosidase
+$ T10 Protein S6 31 49 560 578 beta-galactosidase
+@ T30 Negative_regulation S6 21 30 550 559 inhibited
+@ T31 Transcription S6 55 61 584 590 levels
+% E9 Negative_regulation:T30 Theme:E10
+% E10 Transcription:T31 Theme:T10
+
+Similar inhibition of NFAT-1-mediated gene expression was observed in a second cell line, which is stably transfected with NFAT-1 regulatory elements linked to the reporter gene for sCD8.
+# T11 Protein S7 22 28 614 620 NFAT-1
+# T12 Protein S7 123 129 715 721 NFAT-1
+$ T12 Protein S7 123 129 715 721 NFAT-1
+@ T32 Gene_expression S7 106 117 698 709 transfected
+@ T33 Positive_regulation S7 106 117 698 709 transfected
+% E11 Gene_expression:T32 Theme:T12
+% E12 Positive_regulation:T33 Theme:E11
+
+At 10 microM, both compounds inhibited IL-2 mRNA and protein levels in the NFAT-1-linked lac-Z transfectants, and in human lymphocytes.
+# T13 Protein S8 39 43 819 823 IL-2
+# T14 Protein S8 75 81 855 861 NFAT-1
+# T15 Protein S8 89 94 869 874 lac-Z
+$ T13 Protein S8 39 43 819 823 IL-2
+@ T34 Negative_regulation S8 29 38 809 818 inhibited
+@ T35 Transcription S8 61 67 841 847 levels
+@ T36 Gene_expression S8 61 67 841 847 levels
+% E13 Negative_regulation:T34 Theme:E16
+% E14 Negative_regulation:T34 Theme:E15
+% E15 Transcription:T35 Theme:T13
+% E16 Gene_expression:T36 Theme:T13
+
+Both compounds inhibited the mixed lymphocyte reaction, and this inhibition was reversed by exogenous IL-2.
+# T16 Protein S9 102 106 1018 1022 IL-2
+
+WIN 53071 inhibited IL-2 production induced in the calcium-dependent PMA and ionomycin pathway.
+# T17 Protein S10 20 24 1044 1048 IL-2
+$ T17 Protein S10 20 24 1044 1048 IL-2
+@ T37 Negative_regulation S10 10 19 1034 1043 inhibited
+@ T38 Gene_expression S10 25 35 1049 1059 production
+@ T39 Positive_regulation S10 36 43 1060 1067 induced
+% E17 Negative_regulation:T37 Theme:E18
+% E18 Gene_expression:T38 Theme:T17
+% E19 Positive_regulation:T39 Theme:E18
+
+Conversely, calcium-independent anti-CD28 Ab and PMA-induced IL-2 production was resistant.
+# T18 Protein S11 61 65 1181 1185 IL-2
+$ T18 Protein S11 61 65 1181 1185 IL-2
+@ T40 Positive_regulation S11 53 60 1173 1180 induced
+@ T41 Gene_expression S11 66 76 1186 1196 production
+% E20 Positive_regulation:T40 Theme:E21
+% E21 Gene_expression:T41 Theme:T18
+
+Both compounds altered the NFAT-1 transcriptional complex, causing its retarded mobility on gels.
+# T19 Protein S12 27 33 1239 1245 NFAT-1
+$ T19 Protein S12 27 33 1239 1245 NFAT-1
+@ T42 Regulation S12 15 22 1227 1234 altered
+@ T43 Binding S12 34 57 1246 1269 transcriptional complex
+% E22 Regulation:T42 Theme:E23
+% E23 Binding:T43 Theme:T19
+
+By these functional criteria, we believe we have identified two structurally distinct, novel inhibitors of NFAT-1-mediated transcription.
+# T20 Protein S13 107 113 1417 1423 NFAT-1
+

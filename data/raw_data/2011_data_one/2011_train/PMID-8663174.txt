@@ -1,0 +1,71 @@
+Multiple transcription factors are required for activation of human interleukin 9 gene in T cells.
+# T1 Protein S1 68 81 68 81 interleukin 9
+$ T1 Protein S1 68 81 68 81 interleukin 9
+@ T12 Positive_regulation S1 35 43 35 43 required
+@ T13 Positive_regulation S1 48 58 48 58 activation
+% E1 Positive_regulation:T12 Theme:E2
+% E2 Positive_regulation:T13 Theme:T1
+
+The genetic elements and regulatory mechanisms responsible for human interleukin 9 (IL-9) gene expression in a human T cell leukemia virus type I-transformed human T cell line, C5MJ2, were investigated.
+# T2 Protein S2 69 82 169 182 interleukin 9
+# T3 Protein S2 84 88 184 188 IL-9
+$ T2 Protein S2 69 82 169 182 interleukin 9
+@ T14 Positive_regulation S2 47 58 147 158 responsible
+@ T15 Gene_expression S2 95 105 195 205 expression
+% E3 Positive_regulation:T14 Theme:E4
+% E4 Gene_expression:T15 Theme:T2
+
+We demonstrated that IL-9 gene expression is controlled, at least in part, by transcriptional activation.
+# T4 Protein S3 21 25 324 328 IL-9
+$ T4 Protein S3 21 25 324 328 IL-9
+@ T16 Gene_expression S3 31 41 334 344 expression
+@ T17 Regulation S3 45 55 348 358 controlled
+% E5 Gene_expression:T16 Theme:T4
+% E6 Regulation:T17 Theme:E5
+
+Transient expression of the luciferase reporter gene linked to serially deleted sequences of the 5'-flanking region of the IL-9 gene has revealed several positive and negative regulatory elements involved in the basal and inducible expression of the IL-9 gene in C5MJ2 cells.
+# T5 Protein S4 123 127 532 536 IL-9
+# T6 Protein S4 250 254 659 663 IL-9
+$ T6 Protein S4 250 254 659 663 IL-9
+@ T18 Gene_expression S4 232 242 641 651 expression
+% E7 Gene_expression:T18 Theme:T6
+
+An AP-1 site at -146 to -140 was shown to be involved in the expression of the IL-9 gene.
+# T7 Protein S5 79 83 764 768 IL-9
+$ T7 Protein S5 79 83 764 768 IL-9
+@ T19 Gene_expression S5 61 71 746 756 expression
+% E8 Gene_expression:T19 Theme:T7
+
+A proximal region between -46 and -80 was identified as the minimum sequence for the basal and inducible expression of the IL-9 gene in C5MJ2 cells.
+# T8 Protein S6 123 127 898 902 IL-9
+$ T8 Protein S6 123 127 898 902 IL-9
+@ T20 Positive_regulation S6 53 76 828 851 as the minimum sequence
+@ T21 Gene_expression S6 105 115 880 890 expression
+% E9 Positive_regulation:T20 Theme:E10
+% E10 Gene_expression:T21 Theme:T8
+
+Within this region, an NF-kappaB site at -59 to -50 and its adjacent 20-base pair upstream sequence were demonstrated to play a critical role for the IL-9 promoter activity.
+# T9 Protein S7 150 154 1074 1078 IL-9
+$ T9 Protein S7 150 154 1074 1078 IL-9
+@ T22 Positive_regulation S7 121 141 1045 1065 play a critical role
+@ T23 Entity S7 155 163 1079 1087 promoter
+% E11 Positive_regulation:T22 Theme:T9 Site:T23
+
+DNA-protein binding studies indicated that NF-kappaB, c-Jun, and potentially novel proteins (around 35 kDa) can bind to this important sequence.
+# T10 Protein S8 54 59 1152 1157 c-Jun
+$ T10 Protein S8 54 59 1152 1157 c-Jun
+@ T24 Binding S8 112 116 1210 1214 bind
+% E12 Binding:T24 Theme:T10
+
+Mutations at different sites within this proximal promoter region abolished the promoter activity as well as the DNA binding.
+@ T25 Negative_regulation S9 66 75 1309 1318 abolished
+% E13 Negative_regulation:T25 Theme:E12
+
+Taken together, these results suggest that the cooperation of different transcription factors is essential for IL-9 gene expression in T cells.
+# T11 Protein S10 111 115 1480 1484 IL-9
+$ T11 Protein S10 111 115 1480 1484 IL-9
+@ T26 Positive_regulation S10 97 106 1466 1475 essential
+@ T27 Gene_expression S10 121 131 1490 1500 expression
+% E14 Positive_regulation:T26 Theme:E15 Cause:T10
+% E15 Gene_expression:T27 Theme:T11
+

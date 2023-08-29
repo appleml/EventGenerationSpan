@@ -1,0 +1,42 @@
+Identification of a novel factor that interacts with an immunoglobulin heavy-chain promoter and stimulates transcription in conjunction with the lymphoid cell-specific factor OTF2.
+# T1 Protein S1 175 179 175 179 OTF2
+
+The tissue-specific expression of the MOPC 141 immunoglobulin heavy-chain gene was studied by using in vitro transcription.
+
+B-cell-specific transcription of this gene was dependent on the octamer element 5'-ATGCAAAG-3', located in the upstream region of this promoter and in the promoters of all other immunoglobulin heavy- and light-chain genes.
+
+The interaction of purified octamer transcription factors 1 and 2 (OTF1 and OTF2) with the MOPC 141 promoter was studied by using electrophoretic mobility shift assays and DNase I footprinting.
+# T2 Protein S4 28 59 557 588 octamer transcription factors 1
+# T3 Protein S4 64 65 593 594 2
+# T4 Protein S4 67 71 596 600 OTF1
+# T5 Protein S4 76 80 605 609 OTF2
+
+Purified OTF1 from HeLa cells and OTF1 and OTF2 from B cells bound to identical sequences within the heavy-chain promoter.
+# T6 Protein S5 9 13 732 736 OTF1
+# T7 Protein S5 34 38 757 761 OTF1
+# T8 Protein S5 43 47 766 770 OTF2
+$ T6 Protein S5 9 13 732 736 OTF1
+$ T8 Protein S5 43 47 766 770 OTF2
+$ T7 Protein S5 34 38 757 761 OTF1
+@ T10 Binding S5 61 66 784 789 bound
+% E1 Binding:T10 Theme:T6
+% E2 Binding:T10 Theme:T8
+% E3 Binding:T10 Theme:T7
+
+The OTF interactions we observed extended over the heptamer element 5'-CTCAGGA-3', and it seems likely that the binding of the purified factors involves cooperation between octamer and heptamer sites in this promoter.
+@ T11 Binding S6 112 119 958 965 binding
+@ T12 Regulation S6 144 152 990 998 involves
+% E4 Binding:T11 Theme:T5
+% E5 Binding:T11 Theme:T4
+% E6 Regulation:T12 Theme:E4
+% E7 Regulation:T12 Theme:E5
+
+In addition to these elements, we identified a second regulatory element, the N element with the sequence 5'-GGAACCTCCCCC-3'.
+
+The N element could independently mediate low levels of transcription in both B-cell and HeLa-cell extracts, and, in conjunction with the octamer element, it can promote high levels of transcription in B-cell extracts.
+
+The N element bound a transcription factor, NTF, that is ubiquitous in cell-type distribution, and NTF was distinct from any of the previously described proteins that bind to similar sequences.
+
+Based on these results, we propose that NTF and OTF2 interactions (both with their cognate DNA elements and possibly at the protein-protein level) may be critical to B-cell-specific expression and that these interactions provide additional pathways for regulating gene expression.
+# T9 Protein S10 48 52 1651 1655 OTF2
+

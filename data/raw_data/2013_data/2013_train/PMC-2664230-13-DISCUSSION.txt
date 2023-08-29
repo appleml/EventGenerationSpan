@@ -1,0 +1,257 @@
+The exposure of inflammatory cells to a variety of extracellular stimuli results in the initiation of transcriptional and posttranscriptional events, which culminate in the production of pro-inflammatory mediators.11-14 TNF-alpha is released very early following shock and is considered an important mediator of the inflammatory cascade, since it regulates the synthesis of several other critical cytokines and chemokines.15 A clear relationship between increased TNF-alpha synthesis and the development of shock and multiple organ dysfunction has been observed in animal models of sepsis.15-17
+# T1 Protein S1 220 229 220 229 TNF-alpha
+# T2 Protein S1 464 473 464 473 TNF-alpha
+$ T1 Protein S1 220 229 220 229 TNF-alpha
+$ T2 Protein S1 464 473 464 473 TNF-alpha
+@ T22 Localization S1 233 241 233 241 released
+@ T23 Positive_regulation S1 253 262 253 262 following
+@ T24 Positive_regulation S1 454 463 454 463 increased
+@ T25 Gene_expression S1 474 483 474 483 synthesis
+% E1 Localization:T22 Theme:T1
+% E2 Positive_regulation:T23 Theme:E1
+% E3 Positive_regulation:T24 Theme:E4
+% E4 Gene_expression:T25 Theme:T2
+
+Because of its importance in orchestrating multiple steps of the inflammatory response, strategies aimed at decreasing TNF-alpha levels or attenuating its production seem attractive.
+# T3 Protein S2 119 128 714 723 TNF-alpha
+$ T3 Protein S2 119 128 714 723 TNF-alpha
+@ T26 Negative_regulation S2 108 118 703 713 decreasing
+@ T27 Negative_regulation S2 139 150 734 745 attenuating
+@ T21 Anaphora S2 151 154 746 749 its
+@ T28 Gene_expression S2 155 165 750 760 production
+% E5 Negative_regulation:T26 Theme:T3
+% E6 Negative_regulation:T27 Theme:E7
+% E7 Gene_expression:T28 Theme:T3
+
+PDE inhibitors have been shown to downregulate TNF-alpha production in distinct human cell populations.
+# T4 Protein S3 47 56 825 834 TNF-alpha
+$ T4 Protein S3 47 56 825 834 TNF-alpha
+@ T29 Negative_regulation S3 34 46 812 824 downregulate
+@ T30 Gene_expression S3 57 67 835 845 production
+% E8 Negative_regulation:T29 Theme:E9
+% E9 Gene_expression:T30 Theme:T4
+
+We have previously shown that, in general, TNF-alpha levels continue to increase after LPS exposure and that concomitant infusion of phosphodiesterase inhibitors can markedly decrease TNF-alpha levels.18-19 In this in vitro study, we verified the sustained attenuation of LPS-induced TNF-alpha expression over time in an isolated human mononuclear cell population.
+# T5 Protein S4 43 52 925 934 TNF-alpha
+# T6 Protein S4 184 193 1066 1075 TNF-alpha
+# T7 Protein S4 284 293 1166 1175 TNF-alpha
+$ T5 Protein S4 43 52 925 934 TNF-alpha
+$ T6 Protein S4 184 193 1066 1075 TNF-alpha
+$ T7 Protein S4 284 293 1166 1175 TNF-alpha
+@ T31 Positive_regulation S4 72 80 954 962 increase
+@ T32 Negative_regulation S4 175 183 1057 1065 decrease
+@ T33 Negative_regulation S4 257 268 1139 1150 attenuation
+@ T34 Positive_regulation S4 276 283 1158 1165 induced
+@ T35 Gene_expression S4 294 304 1176 1186 expression
+% E10 Positive_regulation:T31 Theme:T5
+% E11 Negative_regulation:T32 Theme:T6
+% E12 Negative_regulation:T33 Theme:E13
+% E13 Positive_regulation:T34 Theme:E14
+% E14 Gene_expression:T35 Theme:T7
+
+The mechanisms by which PTX, a non-specific phosphodiesterase inhibitor, significantly and consistently decreases TNF-alpha production have not been completely elucidated.
+# T8 Protein S5 114 123 1361 1370 TNF-alpha
+$ T8 Protein S5 114 123 1361 1370 TNF-alpha
+@ T36 Negative_regulation S5 104 113 1351 1360 decreases
+@ T37 Gene_expression S5 124 134 1371 1381 production
+% E15 Negative_regulation:T36 Theme:E16
+% E16 Gene_expression:T37 Theme:T8
+
+It has been postulated that drugs that increase intracellular cAMP exert their anti-inflammatory effects through the activation of PKA.
+
+This classic pathway has been challenged as the sole mechanism involved in the modulation of inflammation by cAMP-enhancing drugs, and alternative mechanisms involving PKA-independent pathways have been proposed.6-8 In this series of experiments, we observed a significant attenuation of TNF-alpha production in LPS-stimulated human mononuclear cells following PTX administration, independent of PKA activation.
+# T9 Protein S7 288 297 1843 1852 TNF-alpha
+$ T9 Protein S7 288 297 1843 1852 TNF-alpha
+@ T38 Negative_regulation S7 273 284 1828 1839 attenuation
+@ T39 Gene_expression S7 298 308 1853 1863 production
+@ T40 Positive_regulation S7 351 360 1906 1915 following
+@ T41 Regulation S7 381 392 1936 1947 independent
+% E17 Negative_regulation:T38 Theme:E18
+% E18 Gene_expression:T39 Theme:T9
+% E19 Positive_regulation:T40 Theme:E17
+% E20 Regulation:T41 Theme:E17
+
+We used a nonspecific phosphodiesterase inhibitor, PTX, in the present study because it has been used clinically in the treatment of a variety of conditions in which inflammation is an important component of the pathophysiology of the disease process.19 Additionally, the use of PTX in sepsis as an adjunct to other treatments to maintain adequate organ function has been explored based upon its effects on TNF-alpha synthesis.
+# T10 Protein S8 407 416 2374 2383 TNF-alpha
+$ T10 Protein S8 407 416 2374 2383 TNF-alpha
+@ T42 Regulation S8 396 403 2363 2370 effects
+@ T43 Gene_expression S8 417 426 2384 2393 synthesis
+% E21 Regulation:T42 Theme:E22
+% E22 Gene_expression:T43 Theme:T10
+
+However, the reported beneficial effects of PTX are not only related to the downregulation of TNF-alphabut also to PTX's hemorrheologic properties, its ability to reduce neutrophil activation, and its beneficial effects on microcirculation, cardiac performance, and organ injury.20-25 Herein, we demonstrated that the downregulatory effects of PTX in human mononuclear cells involves modulation of pathways that involve NF-kappaB and CREB, two major transcription factors involved in the inflammatory cascade.
+# T11 Protein S9 94 103 2489 2498 TNF-alpha
+$ T11 Protein S9 94 103 2489 2498 TNF-alpha
+@ T44 Negative_regulation S9 76 90 2471 2485 downregulation
+% E23 Negative_regulation:T44 Theme:T11
+
+NF-kappaB/Rel constitutes a family of transcriptional factors involved in the regulation of numerous cytokine genes and immune responses in different cell populations.
+
+The most abundant form of NF-kappaB is the p50-p65 heterodimer.26 The inactive form of NF-kappaB exists in the cytoplasm bound to an inhibitory complex containing I-kappaBalpha.
+# T12 Protein S11 43 46 3116 3119 p50
+# T13 Protein S11 47 50 3120 3123 p65
+# T14 Protein S11 163 176 3236 3249 I-kappaBalpha
+
+Following cellular stimulation with LPS and chemotactic factors, NF-kappaB inducible kinase phosphorylates and activates the I-kappaB kinase (IKK) complex consisting of IKK-1 and IKK-2, which in turn phosphorylates the I-kappaBalpha subunit.
+# T15 Protein S12 169 174 3420 3425 IKK-1
+# T16 Protein S12 179 184 3430 3435 IKK-2
+# T17 Protein S12 219 232 3470 3483 I-kappaBalpha
+$ T17 Protein S12 219 232 3470 3483 I-kappaBalpha
+@ T45 Phosphorylation S12 200 214 3451 3465 phosphorylates
+% E24 Phosphorylation:T45 Theme:T17
+
+Phosphorylation, ubiquitination, and subsequent degradation of I-kappaBalpha results in NF-kappaB nuclear translocation.
+# T18 Protein S13 63 76 3556 3569 I-kappaBalpha
+$ T18 Protein S13 63 76 3556 3569 I-kappaBalpha
+@ T46 Phosphorylation S13 0 15 3493 3508 Phosphorylation
+@ T47 Ubiquitination S13 17 31 3510 3524 ubiquitination
+@ T48 Protein_catabolism S13 48 59 3541 3552 degradation
+% E25 Phosphorylation:T46 Theme:T18
+% E26 Ubiquitination:T47 Theme:T18
+% E27 Protein_catabolism:T48 Theme:T18
+
+This allows the transcription factor to bind to promoter regions of specific pro-inflammatory genes and influence transcription.27,28 Because a number of potential kappaB sites are present in the nucleotide sequences of the TNF-alpha gene, NF-kappaB is considered to be a critical transcriptional factor involved in TNF-alpha gene expression and protein synthesis.29,30
+# T19 Protein S14 224 233 3838 3847 TNF-alpha
+# T20 Protein S14 316 325 3930 3939 TNF-alpha
+$ T20 Protein S14 316 325 3930 3939 TNF-alpha
+@ T49 Regulation S14 304 312 3918 3926 involved
+@ T50 Gene_expression S14 326 341 3940 3955 gene expression
+% E28 Regulation:T49 Theme:E29
+% E29 Gene_expression:T50 Theme:T20
+
+In this set of experiments, we demonstrated that PTX downregulates cytoplasmic I-kappaBalpha phosphorylation, nuclear NF-kappaB p65 phosphorylation/translocation, as well as NF-kappaB DNA-binding after LPS stimulation, suggesting that PTX exerts its function proximal to or at the level of I-kappaBalpha phosphorylation.
+# T51 Protein S15 79 92 4063 4076 I-kappaBalpha
+# T52 Protein S15 128 131 4112 4115 p65
+# T53 Protein S15 290 303 4274 4287 I-kappaBalpha
+$ T51 Protein S15 79 92 4063 4076 I-kappaBalpha
+$ T52 Protein S15 128 131 4112 4115 p65
+$ T53 Protein S15 290 303 4274 4287 I-kappaBalpha
+@ T72 Negative_regulation S15 53 66 4037 4050 downregulates
+@ T73 Phosphorylation S15 93 108 4077 4092 phosphorylation
+@ T74 Phosphorylation S15 132 147 4116 4131 phosphorylation
+@ T75 Localization S15 148 161 4132 4145 translocation
+@ T76 Phosphorylation S15 304 319 4288 4303 phosphorylation
+% E30 Negative_regulation:T72 Theme:E31
+% E32 Negative_regulation:T72 Theme:E33
+% E34 Negative_regulation:T72 Theme:E35
+% E31 Phosphorylation:T73 Theme:T51
+% E33 Phosphorylation:T74 Theme:T52
+% E35 Localization:T75 Theme:T52
+% E36 Phosphorylation:T76 Theme:T53
+
+Previous studies that have evaluated the effects of cAMP-elevating drugs on I-kappaBalpha and NF-kappaB have reported conflicting results.
+# T54 Protein S16 76 89 4381 4394 I-kappaBalpha
+$ T54 Protein S16 76 89 4381 4394 I-kappaBalpha
+@ T77 Regulation S16 41 48 4346 4353 effects
+% E37 Regulation:T77 Theme:T54
+
+Haddad et al. reported results similar to ours with respect to the effects of PTX on I-kappaBalpha and NF-kappaB in pulmonary epithelial cells.31 Conversely, Neumann et al. proposed that increased intracellular cAMP stabilizes the interaction between I-kappaBalpha and NF-kappaB, therefore reducing NF-kappaB activation.32 In contrast, Takahashi et al. showed no difference in I-kappaBalpha degradation in Jurkat T-lymphocytes in the presence and absence of forskolin, an alternative cAMP inducing compound.
+# T55 Protein S17 85 98 4529 4542 I-kappaBalpha
+# T56 Protein S17 251 264 4695 4708 I-kappaBalpha
+# T57 Protein S17 377 390 4821 4834 I-kappaBalpha
+$ T55 Protein S17 85 98 4529 4542 I-kappaBalpha
+$ T56 Protein S17 251 264 4695 4708 I-kappaBalpha
+$ T57 Protein S17 377 390 4821 4834 I-kappaBalpha
+@ T78 Regulation S17 67 74 4511 4518 effects
+@ T79 Regulation S17 216 226 4660 4670 stabilizes
+@ T80 Binding S17 231 242 4675 4686 interaction
+@ T81 Protein_catabolism S17 391 402 4835 4846 degradation
+@ T82 Regulation S17 434 442 4878 4886 presence
+@ T83 Regulation S17 447 454 4891 4898 absence
+% E38 Regulation:T78 Theme:T55
+% E39 Regulation:T79 Theme:E40
+% E40 Binding:T80 Theme:T56
+% E41 Protein_catabolism:T81 Theme:T57
+% E42 Regulation:T82 Theme:E41
+% E43 Regulation:T83 Theme:E41
+
+This group also demonstrated that forskolin did not inhibit the DNA-binding activity of NF-kappaB and that CREB was not involved in forskolin-induced decrease in p65 transcriptional activity.33 Similar results were reported by Ollivier et al. using THP-1 cells and endothelial cells treated with forskolin or dibutyryl cAMP, two agents known to function through cAMP elevation and subsequent PKA activation.9 The differences between our results and those mentioned above may be explained by the use of different cell types and exogenous stimulants.
+# T58 Protein S18 162 165 5114 5117 p65
+
+It is also possible that PTX exerts its anti-inflammatory effects on the NF-kappaB pathway independent of PKA, as suggested by the continued attenuation of LPS-induced TNF-alpha production by PTX in the presence or absence of PKA inhibition observed in this study.
+# T59 Protein S19 168 177 5669 5678 TNF-alpha
+$ T59 Protein S19 168 177 5669 5678 TNF-alpha
+@ T84 Negative_regulation S19 141 152 5642 5653 attenuation
+@ T85 Positive_regulation S19 160 167 5661 5668 induced
+@ T86 Gene_expression S19 178 188 5679 5689 production
+@ T87 Regulation S19 203 222 5704 5723 presence or absence
+% E44 Negative_regulation:T84 Theme:E45
+% E45 Positive_regulation:T85 Theme:E46
+% E46 Gene_expression:T86 Theme:T59
+% E47 Regulation:T87 Theme:E44
+
+This hypothesis is currently under investigation in our laboratory.
+
+Furthermore, we utilized a broad PKA inhibitor in this study in addition to H89, but did not examine the effect of specific inhibition of various PKA isoforms.
+
+This information may yield more insight into the mechanism by which PTX exerts its down-regulatory effects.
+
+PDE inhibitors may also downregulate NF-kappaB transcriptional activity by altering the competitive binding of CREB and NF-kappaB to the promoter regions of pro-inflammatory genes.
+
+Herein, we showed that the activation and DNA binding activity of CREB is upregulated in a dose-dependent manner by PTX.
+
+Of note, the increase in CREB activity was slightly alleviated by the addition of LPS, suggesting competition between PTX-induced CREB-associated gene transcription and those factors, such as NF-kappaB, which may be upregulated by LPS exposure.
+
+This competition has been postulated to involve the recruitment of the co-activator CBP and its homologue p30034, suggesting an alternative mechanism that may be involved in the anti-inflammatory actions of PTX.
+# T60 Protein S26 84 87 6733 6736 CBP
+# T61 Protein S26 106 110 6755 6759 p300
+
+Future studies are planned to delineate the validity of this potential mechanism.
+
+The effects of PTX on other transcription factors, such as AP-1, c-fos, and c-jun, cannot be ruled out by our experiments.
+# T62 Protein S28 65 70 7008 7013 c-fos
+# T63 Protein S28 76 81 7019 7024 c-jun
+
+Activation of AP-1 and its components (c-fos and c-jun) by agents that enhance mononuclear cell activity has been implicated in TNF-alpha expression.
+# T64 Protein S29 39 44 7105 7110 c-fos
+# T65 Protein S29 49 54 7115 7120 c-jun
+# T66 Protein S29 128 137 7194 7203 TNF-alpha
+$ T64 Protein S29 39 44 7105 7110 c-fos
+$ T65 Protein S29 49 54 7115 7120 c-jun
+$ T66 Protein S29 128 137 7194 7203 TNF-alpha
+@ T88 Positive_regulation S29 0 10 7066 7076 Activation
+@ T71 Anaphora S29 23 37 7089 7103 its components
+@ T89 Regulation S29 114 124 7180 7190 implicated
+@ T90 Gene_expression S29 138 148 7204 7214 expression
+% E48 Positive_regulation:T88 Theme:T64
+% E49 Positive_regulation:T88 Theme:T65
+% E50 Regulation:T89 Theme:E51
+% E51 Gene_expression:T90 Theme:T66
+
+Moreover, AP-1 and CREB recognize a similar DNA binding sequence in the promoter region of the TNF-alpha gene35.
+# T67 Protein S30 95 104 7311 7320 TNF-alpha
+$ T67 Protein S30 95 104 7311 7320 TNF-alpha
+@ T91 Binding S30 24 33 7240 7249 recognize
+@ T92 Entity S30 44 64 7260 7280 DNA binding sequence
+% E52 Binding:T91 Theme:T67 Site:T92
+
+Given these relationships, it is conceivable that PTX may exert some of its anti-inflammatory actions by affecting AP-1 activation and favoring CREB binding, thus inhibiting TNF-alpha gene transcription.
+# T68 Protein S31 174 183 7503 7512 TNF-alpha
+$ T68 Protein S31 174 183 7503 7512 TNF-alpha
+@ T93 Negative_regulation S31 163 173 7492 7502 inhibiting
+@ T94 Transcription S31 189 202 7518 7531 transcription
+% E53 Negative_regulation:T93 Theme:E54
+% E54 Transcription:T94 Theme:T68
+
+Additional studies are necessary to elucidate the complex interactions between CREB, NF-kappaB, and AP-1 following LPS exposure and PDE inhibition.
+
+Furthermore, the effect of PTX on the cGMP pathway after LPS stimulation has not been explored, although we plan to do so in the future.
+
+In summary, we have demonstrated that PDE inhibition of human mononuclear cells downregulates TNF-alpha production, at least in part, through a PKA-independent mechanism.
+# T69 Protein S34 94 103 7912 7921 TNF-alpha
+$ T69 Protein S34 94 103 7912 7921 TNF-alpha
+@ T95 Negative_regulation S34 80 93 7898 7911 downregulates
+@ T96 Gene_expression S34 104 114 7922 7932 production
+@ T97 Regulation S34 148 159 7966 7977 independent
+% E55 Negative_regulation:T95 Theme:E56
+% E56 Gene_expression:T96 Theme:T69
+% E57 Regulation:T97 Theme:E55
+
+In addition, PTX attenuates the activity of NF-B while upregulating CREB activation after LPS stimulation, which may result in modulation of pro-inflammatory mediator synthesis.
+
+Therefore, PTX may serve as a potential adjunct therapeutic for the treatment of conditions in which TNF-alpha production plays a significant role.
+# T70 Protein S36 101 110 8268 8277 TNF-alpha
+$ T70 Protein S36 101 110 8268 8277 TNF-alpha
+@ T98 Gene_expression S36 111 121 8278 8288 production
+% E58 Gene_expression:T98 Theme:T70
+

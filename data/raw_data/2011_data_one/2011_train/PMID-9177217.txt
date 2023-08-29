@@ -1,0 +1,79 @@
+Specific complex formation between the type II bare lymphocyte syndrome-associated transactivators CIITA and RFX5.
+# T1 Protein S1 99 104 99 104 CIITA
+# T2 Protein S1 109 113 109 113 RFX5
+$ T1 Protein S1 99 104 99 104 CIITA
+$ T2 Protein S1 109 113 109 113 RFX5
+@ T21 Binding S1 9 26 9 26 complex formation
+% E1 Binding:T21 Theme:T1 Theme2:T2
+
+Two of the genes defective in the five complementation groups identified in the class II-negative bare lymphocyte syndrome or corresponding laboratory mutants have been cloned.
+@ T22 Negative_regulation S2 17 26 133 142 defective
+% E2 Negative_regulation:T22 Theme:T1
+% E3 Negative_regulation:T22 Theme:T2
+
+One gene encodes a protein, RFX5, that is a member of the RFX family of DNA binding proteins.
+# T3 Protein S3 28 32 321 325 RFX5
+
+The other, CIITA, encodes a large protein with a defined acidic transcriptional activation domain; this protein does not interact with DNA.
+# T4 Protein S4 11 16 398 403 CIITA
+$ T4 Protein S4 11 16 398 403 CIITA
+@ T23 Binding S4 121 129 508 516 interact
+% E4 Binding:T23 Theme:T4
+
+Expression plasmids encoding regions of RFX5 fused to the GAL4 DNA binding domain activated transcription from a reporter construct containing GAL4 sites in a cotransfection assay in the Raji human B cell line.
+# T5 Protein S5 40 44 567 571 RFX5
+# T6 Protein S5 58 62 585 589 GAL4
+# T7 Protein S5 143 147 670 674 GAL4
+
+However, these plasmids produced transcriptional activity in HeLa cells only in conjunction with interferon gamma stimulation, a condition in which expression of both CIITA and class II major histocompatibility complex surface proteins are induced.
+# T8 Protein S6 97 113 835 851 interferon gamma
+# T9 Protein S6 167 172 905 910 CIITA
+$ T9 Protein S6 167 172 905 910 CIITA
+@ T24 Gene_expression S6 148 158 886 896 expression
+@ T25 Positive_regulation S6 240 247 978 985 induced
+% E5 Gene_expression:T24 Theme:T9
+% E6 Positive_regulation:T25 Theme:E5
+
+Furthermore, these plasmids were not active in RJ2.2.5, an in vitro mutagenized derivative of Raji in which both copies of CIITA are defective.
+# T10 Protein S7 123 128 1110 1115 CIITA
+$ T10 Protein S7 123 128 1110 1115 CIITA
+@ T26 Negative_regulation S7 133 142 1120 1129 defective
+% E7 Negative_regulation:T26 Theme:T10
+
+Transcriptional activation by the RFX5 fusion protein could be restored in RJ2.2.5 by cotransfection with a CIITA expression plasmid.
+# T11 Protein S8 34 38 1165 1169 RFX5
+# T12 Protein S8 108 113 1239 1244 CIITA
+$ T12 Protein S8 108 113 1239 1244 CIITA
+@ T27 Positive_regulation S8 86 100 1217 1231 cotransfection
+@ T28 Gene_expression S8 114 124 1245 1255 expression
+% E8 Positive_regulation:T27 Theme:E9
+% E9 Gene_expression:T28 Theme:T12
+
+Finally, a direct interaction between RFX5 and CIITA was detected with the yeast two-hybrid and far-Western blot assays.
+# T13 Protein S9 38 42 1303 1307 RFX5
+# T14 Protein S9 47 52 1312 1317 CIITA
+$ T13 Protein S9 38 42 1303 1307 RFX5
+$ T14 Protein S9 47 52 1312 1317 CIITA
+@ T29 Binding S9 18 29 1283 1294 interaction
+% E10 Binding:T29 Theme:T13 Theme2:T14
+
+Thus, RFX5 can activate transcription only in cooperation with CIITA.
+# T15 Protein S10 6 10 1392 1396 RFX5
+# T16 Protein S10 63 68 1449 1454 CIITA
+
+RFX5 and CIITA associate to form a complex capable of activating transcription from class II major histocompatibility complex promoters.
+# T17 Protein S11 0 4 1456 1460 RFX5
+# T18 Protein S11 9 14 1465 1470 CIITA
+$ T17 Protein S11 0 4 1456 1460 RFX5
+$ T18 Protein S11 9 14 1465 1470 CIITA
+@ T30 Binding S11 15 42 1471 1498 associate to form a complex
+% E11 Binding:T30 Theme:T17 Theme2:T18
+
+In this complex, promoter specificity is determined by the DNA binding domain of RFX5 and the general transcription apparatus is recruited by the acidic activation domain of CIITA.
+# T19 Protein S12 81 85 1674 1678 RFX5
+# T20 Protein S12 174 179 1767 1772 CIITA
+$ T19 Protein S12 81 85 1674 1678 RFX5
+@ T31 Binding S12 26 37 1619 1630 specificity
+@ T32 Entity S12 59 77 1652 1670 DNA binding domain
+% E12 Binding:T31 Theme:T19 Site:T32
+

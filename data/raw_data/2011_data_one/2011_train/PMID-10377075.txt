@@ -1,0 +1,94 @@
+PPARalpha activators inhibit cytokine-induced vascular cell adhesion molecule-1 expression in human endothelial cells.
+# T1 Protein S1 46 79 46 79 vascular cell adhesion molecule-1
+$ T1 Protein S1 46 79 46 79 vascular cell adhesion molecule-1
+@ T20 Negative_regulation S1 21 28 21 28 inhibit
+@ T21 Positive_regulation S1 38 45 38 45 induced
+@ T22 Gene_expression S1 80 90 80 90 expression
+% E1 Negative_regulation:T20 Theme:E2
+% E2 Positive_regulation:T21 Theme:E3
+% E3 Gene_expression:T22 Theme:T1
+
+BACKGROUND: Adhesion molecule expression on the endothelial cell (EC) surface is critical for leukocyte recruitment to atherosclerotic lesions.
+
+Better understanding of transcriptional regulation of adhesion molecules in ECs may provide important insight into plaque formation.
+
+Peroxisome proliferator-activated receptor-alpha (PPARalpha), a member of the nuclear receptor family, regulates gene expression in response to certain fatty acids and fibric acid derivatives.
+# T2 Protein S4 0 48 397 445 Peroxisome proliferator-activated receptor-alpha
+# T3 Protein S4 50 59 447 456 PPARalpha
+$ T3 Protein S4 50 59 447 456 PPARalpha
+@ T23 Regulation S4 129 143 526 540 in response to
+% E4 Regulation:T23 Theme:T3
+
+The present study investigated PPARalpha expression in human ECs and their regulation of vascular cell adhesion molecule-1 (VCAM-1).
+# T4 Protein S5 31 40 621 630 PPARalpha
+# T5 Protein S5 89 122 679 712 vascular cell adhesion molecule-1
+# T6 Protein S5 124 130 714 720 VCAM-1
+$ T4 Protein S5 31 40 621 630 PPARalpha
+$ T6 Protein S5 124 130 714 720 VCAM-1
+@ T24 Gene_expression S5 41 51 631 641 expression
+@ T25 Regulation S5 75 85 665 675 regulation
+% E5 Gene_expression:T24 Theme:T4
+% E6 Regulation:T25 Theme:T6 Cause:T4
+
+METHODS AND RESULTS: Immunohistochemistry revealed that human carotid artery ECs express PPARalpha.
+# T7 Protein S6 89 98 812 821 PPARalpha
+$ T7 Protein S6 89 98 812 821 PPARalpha
+@ T26 Gene_expression S6 81 88 804 811 express
+% E7 Gene_expression:T26 Theme:T7
+
+Pretreatment of cultured human ECs with the PPARalpha activators fenofibrate or WY14643 inhibited TNF-alpha-induced VCAM-1 in a time- and concentration-dependent manner, an effect not seen with PPARgamma activators.
+# T8 Protein S7 44 53 867 876 PPARalpha
+# T9 Protein S7 98 107 921 930 TNF-alpha
+# T10 Protein S7 116 122 939 945 VCAM-1
+# T11 Protein S7 194 203 1017 1026 PPARgamma
+$ T8 Protein S7 44 53 867 876 PPARalpha
+$ T10 Protein S7 116 122 939 945 VCAM-1
+$ T9 Protein S7 98 107 921 930 TNF-alpha
+@ T27 Positive_regulation S7 54 64 877 887 activators
+@ T28 Negative_regulation S7 88 97 911 920 inhibited
+@ T29 Positive_regulation S7 108 115 931 938 induced
+% E8 Positive_regulation:T27 Theme:T8
+% E9 Negative_regulation:T28 Theme:E10
+% E10 Positive_regulation:T29 Theme:T10 Cause:T9
+
+Both PPARalpha activators decreased cytokine-induced VCAM-1 mRNA expression without altering its mRNA half-life.
+# T12 Protein S8 5 14 1044 1053 PPARalpha
+# T13 Protein S8 53 59 1092 1098 VCAM-1
+$ T13 Protein S8 53 59 1092 1098 VCAM-1
+@ T30 Negative_regulation S8 26 35 1065 1074 decreased
+@ T31 Positive_regulation S8 45 52 1084 1091 induced
+@ T32 Transcription S8 60 75 1099 1114 mRNA expression
+@ T33 Regulation S8 84 92 1123 1131 altering
+% E11 Negative_regulation:T30 Theme:E12
+% E12 Positive_regulation:T31 Theme:E13
+% E13 Transcription:T32 Theme:T13
+% E14 Regulation:T33 Theme:T13
+
+Transient transfection of deletional VCAM-1 promoter constructs and electrophoretic mobility shift assays suggest that fenofibrate inhibits VCAM-1 transcription in part by inhibiting NF-kappaB.
+# T14 Protein S9 37 43 1189 1195 VCAM-1
+# T15 Protein S9 140 146 1292 1298 VCAM-1
+$ T15 Protein S9 140 146 1292 1298 VCAM-1
+@ T34 Transcription S9 147 160 1299 1312 transcription
+% E15 Transcription:T34 Theme:T15
+
+Finally, PPARalpha activators significantly reduced adhesion of U937 cells to cultured human ECs.
+# T16 Protein S10 9 18 1355 1364 PPARalpha
+
+CONCLUSIONS: Human ECs express PPARalpha, a potentially important regulator of atherogenesis through its transcriptional control of VCAM-1 gene expression.
+# T17 Protein S11 31 40 1475 1484 PPARalpha
+# T18 Protein S11 132 138 1576 1582 VCAM-1
+$ T17 Protein S11 31 40 1475 1484 PPARalpha
+$ T18 Protein S11 132 138 1576 1582 VCAM-1
+@ T35 Gene_expression S11 23 30 1467 1474 express
+@ T36 Regulation S11 105 128 1549 1572 transcriptional control
+@ T37 Gene_expression S11 144 154 1588 1598 expression
+% E16 Gene_expression:T35 Theme:T17
+% E17 Regulation:T36 Theme:E18 Cause:T17
+% E18 Gene_expression:T37 Theme:T18
+
+Such findings also have implications regarding the clinical use of lipid-lowering agents, like fibric acids, which can activate PPARalpha.
+# T19 Protein S12 128 137 1728 1737 PPARalpha
+$ T19 Protein S12 128 137 1728 1737 PPARalpha
+@ T38 Positive_regulation S12 119 127 1719 1727 activate
+% E19 Positive_regulation:T38 Theme:T19
+

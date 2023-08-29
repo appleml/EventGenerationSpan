@@ -1,0 +1,66 @@
+NF-kappa B-dependent induction of the NF-kappa B p50 subunit gene promoter underlies self-perpetuation of human immunodeficiency virus transcription in monocytic cells.
+# T1 Protein S1 49 52 49 52 p50
+$ T1 Protein S1 49 52 49 52 p50
+@ T11 Positive_regulation S1 21 30 21 30 induction
+@ T12 Entity S1 66 74 66 74 promoter
+@ T13 Regulation S1 75 84 75 84 underlies
+@ T14 Positive_regulation S1 90 102 90 102 perpetuation
+@ T15 Transcription S1 135 148 135 148 transcription
+% E1 Positive_regulation:T11 Theme:T1 Site:T12
+% E2 Regulation:T13 Theme:E3 Cause:E1
+% E3 Positive_regulation:T14 Theme:E4
+% E4 Transcription:T15 Theme:T1
+
+The molecular mechanisms underlying the sustained nuclear translocation of NF-kappa B observed in U937 monocytic cells chronically infected with human immunodeficiency virus (HIV) were studied.
+
+The activity of the promoter regulating the synthesis of the p105 precursor of the NF-kappa B p50 subunit was enhanced in these cells.
+# T2 Protein S3 61 65 425 429 p105
+# T3 Protein S3 94 97 458 461 p50
+$ T2 Protein S3 61 65 425 429 p105
+@ T16 Regulation S3 29 39 393 403 regulating
+@ T17 Gene_expression S3 44 53 408 417 synthesis
+@ T18 Positive_regulation S3 110 118 474 482 enhanced
+% E5 Regulation:T16 Theme:E6
+% E6 Gene_expression:T17 Theme:T2
+% E7 Positive_regulation:T18 Theme:E5
+
+Deletions in this promoter indicated that this upregulation was mediated through the NF-kappa B- but not the AP-1-binding motif, by bona fide p50/p65 heterodimers.
+# T4 Protein S4 142 145 641 644 p50
+# T5 Protein S4 146 149 645 648 p65
+$ T5 Protein S4 146 149 645 648 p65
+$ T4 Protein S4 142 145 641 644 p50
+@ T19 Regulation S4 64 72 563 571 mediated
+% E8 Regulation:T19 Theme:E7
+% E9 Regulation:T19 Theme:E7 Cause:T5
+% E10 Regulation:T19 Theme:E7 Cause:T4
+
+Analysis of cytosolic extracts indicated that NF-kappa B levels were increased in HIV-infected cells.
+
+In contrast to the transient NF-kappa B activation induced by phorbol ester, the permanent NF-kappa B translocation induced by HIV infection was not dependent on PKC isoenzymes alpha and beta as shown by the use of a specific inhibitor (GF 109203X).
+# T6 Protein S6 162 182 927 947 PKC isoenzymes alpha
+# T7 Protein S6 187 191 952 956 beta
+$ T7 Protein S6 187 191 952 956 beta
+$ T6 Protein S6 162 182 927 947 PKC isoenzymes alpha
+@ T20 Negative_regulation S6 226 235 991 1000 inhibitor
+% E11 Negative_regulation:T20 Theme:T7
+% E12 Negative_regulation:T20 Theme:T6
+
+These observations indicate that during chronic HIV infection of U937 cells, continuous NF-kappa B (p50/p65) translocation results in p105 promoter upregulation with subsequent cytosolic NF-kappa B accumulation, ready for further translocation.
+# T8 Protein S7 100 103 1115 1118 p50
+# T9 Protein S7 104 107 1119 1122 p65
+# T10 Protein S7 134 138 1149 1153 p105
+$ T8 Protein S7 100 103 1115 1118 p50
+$ T9 Protein S7 104 107 1119 1122 p65
+$ T10 Protein S7 134 138 1149 1153 p105
+@ T21 Localization S7 109 122 1124 1137 translocation
+@ T22 Positive_regulation S7 123 130 1138 1145 results
+@ T23 Entity S7 139 147 1154 1162 promoter
+@ T24 Positive_regulation S7 148 160 1163 1175 upregulation
+% E13 Localization:T21 Theme:T8
+% E14 Localization:T21 Theme:T9
+% E15 Positive_regulation:T22 Theme:E17 Cause:E14
+% E16 Positive_regulation:T22 Theme:E17 Cause:E13
+% E17 Positive_regulation:T24 Theme:T10 Site:T23
+
+This HIV-mediated mechanism results in a self-perpetuating loop of NF-kappa B production.
+

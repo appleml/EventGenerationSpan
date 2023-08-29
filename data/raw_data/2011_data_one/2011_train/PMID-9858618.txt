@@ -1,0 +1,48 @@
+Interactions between the class II transactivator and CREB binding protein increase transcription of major histocompatibility complex class II genes.
+# T1 Protein S1 25 48 25 48 class II transactivator
+# T2 Protein S1 53 73 53 73 CREB binding protein
+$ T1 Protein S1 25 48 25 48 class II transactivator
+$ T2 Protein S1 53 73 53 73 CREB binding protein
+@ T15 Binding S1 0 12 0 12 Interactions
+% E1 Binding:T15 Theme:T1 Theme2:T2
+
+Class II major histocompatibility (class II) genes are regulated in a B-cell-specific and gamma interferon-inducible fashion.
+# T3 Protein S2 90 106 240 256 gamma interferon
+
+The master switch for the expression of these genes is the class II transactivator (CIITA).
+# T4 Protein S3 59 82 335 358 class II transactivator
+# T5 Protein S3 84 89 360 365 CIITA
+
+In this report, we demonstrate that one of the functions of CIITA is to recruit the CREB binding protein (CBP) to class II promoters.
+# T6 Protein S4 60 65 428 433 CIITA
+# T7 Protein S4 84 104 452 472 CREB binding protein
+# T8 Protein S4 106 109 474 477 CBP
+$ T6 Protein S4 60 65 428 433 CIITA
+$ T8 Protein S4 106 109 474 477 CBP
+@ T16 Positive_regulation S4 47 56 415 424 functions
+@ T17 Binding S4 72 79 440 447 recruit
+% E2 Positive_regulation:T16 Theme:E3 Cause:T6
+% E3 Binding:T17 Theme:T8
+
+Not only functional but also specific binding interactions between CIITA and CBP were demonstrated.
+# T9 Protein S5 67 72 569 574 CIITA
+# T10 Protein S5 77 80 579 582 CBP
+$ T9 Protein S5 67 72 569 574 CIITA
+$ T10 Protein S5 77 80 579 582 CBP
+@ T18 Binding S5 38 58 540 560 binding interactions
+% E4 Binding:T18 Theme:T9 Theme2:T10
+
+Moreover, a dominant negative form of CBP decreased the activity of class II promoters and levels of class II determinants on the surface of cells.
+# T11 Protein S6 38 41 640 643 CBP
+
+Finally, the inhibition of class II gene expression by the glucocorticoid hormone could be attributed to the squelching of CBP by the glucocorticoid receptor.
+# T12 Protein S7 123 126 873 876 CBP
+# T13 Protein S7 134 157 884 907 glucocorticoid receptor
+$ T12 Protein S7 123 126 873 876 CBP
+$ T13 Protein S7 134 157 884 907 glucocorticoid receptor
+@ T19 Negative_regulation S7 109 119 859 869 squelching
+% E5 Negative_regulation:T19 Theme:T12 Cause:T13
+
+We conclude that CBP, a histone acetyltransferase, plays an important role in the transcription of class II genes.
+# T14 Protein S8 17 20 926 929 CBP
+

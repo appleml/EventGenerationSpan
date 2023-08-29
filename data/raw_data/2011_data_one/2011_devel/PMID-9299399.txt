@@ -1,0 +1,31 @@
+Genomic organization, sequence, and transcriptional regulation of the human eotaxin gene.
+# T1 Protein S1 76 83 76 83 eotaxin
+$ T1 Protein S1 76 83 76 83 eotaxin
+@ T7 Regulation S1 0 20 0 20 Genomic organization
+@ T8 Regulation S1 36 62 36 62 transcriptional regulation
+% E1 Regulation:T7 Theme:T1
+% E2 Regulation:T8 Theme:T1
+
+Eotaxin is an eosinophil specific beta-chemokine assumed to be involved in eosinophilic inflammatory diseases such as atopic dermatitis, allergic rhinitis, asthma and parasitic infections.
+# T2 Protein S2 0 7 91 98 Eotaxin
+
+Its expression is stimulus- and cell-specific.
+@ T9 Gene_expression S3 4 14 284 294 expression
+% E3 Gene_expression:T9 Theme:T2
+
+We here describe the genomic organisation (3 exons of 132, 112 and 542 bp and 2 introns of 1211 and 378 bp) and sequence including 3 kb of DNA from the immediate 5' upstream region of the human eotaxin gene.
+# T3 Protein S4 194 201 521 528 eotaxin
+
+Among the regulatory promoter elements potentially regulating eotaxin gene expression and/or mediating the effects of anti-inflammatory drugs we identified consensus sequences known to interact with nuclear factors like NF-IL6, AP-1, a NF-kappa-B like consensus sequence and gamma-interferon- as well as glucocorticoid response elements.
+# T4 Protein S5 62 69 597 604 eotaxin
+# T5 Protein S5 220 226 755 761 NF-IL6
+# T6 Protein S5 275 291 810 826 gamma-interferon
+$ T4 Protein S5 62 69 597 604 eotaxin
+$ T5 Protein S5 220 226 755 761 NF-IL6
+@ T10 Regulation S5 51 61 586 596 regulating
+@ T11 Gene_expression S5 75 85 610 620 expression
+@ T12 Binding S5 185 193 720 728 interact
+% E4 Regulation:T10 Theme:E5
+% E5 Gene_expression:T11 Theme:T4
+% E6 Binding:T12 Theme:T5
+

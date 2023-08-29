@@ -1,0 +1,197 @@
+Epstein-Barr virus (EBV) is a ubiquitous gamma-herpesvirus that infects humans predominantly at an early age with greater than 90% of the adult population infected with EBV [1].
+
+EBV is linked to the development of both B lymphocyte and epithelial cell malignancies, including Burkitt lymphoma, Hodgkin disease (HD), and nasopharyngeal carcinoma (NPC), and cancers linked to immunosuppression, including post-transplant lymphoma and AIDS-associated lymphomas [2,3].
+
+In vitro infection of B lymphocytes with EBV induces permanent growth transformation, and this ability to affect cell growth regulation likely contributes to the development of cancer.
+
+Many of the viral proteins expressed in transformed cells, including the EBV nuclear antigens and latent membrane proteins, have profound effects on cell growth regulation and are required for EBV latent infection and B cell transformation [1].
+
+Latent membrane protein 1 (LMP1) is considered the major oncoprotein of EBV, as it transforms rodent fibroblasts to tumorigenicity in nude mice and is expressed in HD, NPC, and immunosuppression-associated tumors [4-8].
+# T1 Protein S5 0 25 895 920 Latent membrane protein 1
+# T2 Protein S5 27 31 922 926 LMP1
+$ T1 Protein S5 0 25 895 920 Latent membrane protein 1
+@ T58 Anaphora S5 80 82 975 977 it
+@ T60 Gene_expression S5 151 160 1046 1055 expressed
+% E1 Gene_expression:T60 Theme:T1
+
+In B lymphocytes, LMP1 mimics CD40 signaling, and both LMP1 and CD40 are essential for EBV-mediated B cell transformation [9-11].
+# T3 Protein S6 18 22 1133 1137 LMP1
+# T4 Protein S6 30 34 1145 1149 CD40
+# T5 Protein S6 55 59 1170 1174 LMP1
+# T6 Protein S6 64 68 1179 1183 CD40
+
+While CD40 interacts with CD40 ligand expressed on activated T cells to induce B cell activation and differentiation, LMP1 acts as a constitutive signal through ligand-independent oligomerization.
+# T7 Protein S7 6 10 1251 1255 CD40
+# T8 Protein S7 26 37 1271 1282 CD40 ligand
+# T9 Protein S7 118 122 1363 1367 LMP1
+$ T7 Protein S7 6 10 1251 1255 CD40
+$ T8 Protein S7 26 37 1271 1282 CD40 ligand
+$ T9 Protein S7 118 122 1363 1367 LMP1
+@ T61 Binding S7 11 20 1256 1265 interacts
+@ T62 Gene_expression S7 38 47 1283 1292 expressed
+@ T63 Binding S7 180 195 1425 1440 oligomerization
+% E2 Binding:T61 Theme:T7 Theme2:T8
+% E3 Gene_expression:T62 Theme:T8
+% E4 Binding:T63 Theme:T9
+
+LMP1 and CD40 interact with the same tumor necrosis factor receptor-associated factors (TRAFs) leading to activation of NFkappaB, c-Jun N terminal kinase (JNK), and p38 MAPK signaling pathways [12-16].
+# T10 Protein S8 0 4 1442 1446 LMP1
+# T11 Protein S8 9 13 1451 1455 CD40
+# T12 Protein S8 37 58 1479 1500 tumor necrosis factor
+# T13 Protein S8 130 135 1572 1577 c-Jun
+$ T10 Protein S8 0 4 1442 1446 LMP1
+$ T11 Protein S8 9 13 1451 1455 CD40
+@ T64 Binding S8 14 22 1456 1464 interact
+% E5 Binding:T64 Theme:T10
+% E6 Binding:T64 Theme:T11
+
+Activation of NFkappaB is required for EBV-induced B cell transformation and its inhibition rapidly results in cell death [17,18].
+
+Recent studies indicate that LMP1 also activates phosphatidylinositol 3 kinase (PI3K)/Akt signaling and that this activation is required for LMP1-mediated transformation of rodent fibroblasts [5,19].
+# T14 Protein S10 29 33 1804 1808 LMP1
+# T15 Protein S10 86 89 1861 1864 Akt
+# T16 Protein S10 141 145 1916 1920 LMP1
+
+In vitro, primary B cells can be maintained by CD40 ligation in combination with IL4 treatment.
+# T17 Protein S11 47 51 2022 2026 CD40
+# T18 Protein S11 81 84 2056 2059 IL4
+$ T17 Protein S11 47 51 2022 2026 CD40
+@ T65 Binding S11 52 60 2027 2035 ligation
+% E7 Binding:T65 Theme:T17
+
+In vivo, CD40 signaling is necessary for germinal center (GC) formation such that mice deficient for CD40 or CD40L are unable to form GCs in response to T cell-dependent antigens [20,21].
+# T19 Protein S12 9 13 2080 2084 CD40
+# T20 Protein S12 101 105 2172 2176 CD40
+# T21 Protein S12 109 114 2180 2185 CD40L
+$ T20 Protein S12 101 105 2172 2176 CD40
+$ T21 Protein S12 109 114 2180 2185 CD40L
+@ T66 Negative_regulation S12 87 96 2158 2167 deficient
+% E8 Negative_regulation:T66 Theme:T20
+% E9 Negative_regulation:T66 Theme:T21
+
+Both the membrane proximal and distal cytoplasmic regions of CD40 that bind TRAF6 and TRAFs2/3/5, respectively, are necessary for GC formation, but either region is sufficient to induce extrafollicular B cell differentiation and restore low affinity antibody production [22].
+# T22 Protein S13 61 65 2320 2324 CD40
+# T23 Protein S13 76 81 2335 2340 TRAF6
+# T24 Protein S13 86 92 2345 2351 TRAFs2
+# T25 Protein S13 93 94 2352 2353 3
+# T26 Protein S13 95 96 2354 2355 5
+$ T22 Protein S13 61 65 2320 2324 CD40
+$ T23 Protein S13 76 81 2335 2340 TRAF6
+$ T24 Protein S13 86 92 2345 2351 TRAFs2
+$ T25 Protein S13 93 94 2352 2353 3
+$ T26 Protein S13 95 96 2354 2355 5
+@ T67 Entity S13 9 26 2268 2285 membrane proximal
+@ T68 Entity S13 31 57 2290 2316 distal cytoplasmic regions
+@ T69 Binding S13 71 75 2330 2334 bind
+% E10 Binding:T69 Theme:T22 Theme2:T23 Site:T67
+% E11 Binding:T69 Theme:T22 Theme2:T24 Site:T68
+% E12 Binding:T69 Theme:T22 Theme2:T25 Site:T68
+% E13 Binding:T69 Theme:T22 Theme2:T26 Site:T68
+
+Functionally, LMP1 can rescue CD40-deficient mice and restore immunoglobulin (Ig) class switching, most likely because LMP1 recruits similar TRAF molecules, TRAFs 1/2/3/5 and TRAF6, through the C-terminal activation regions 1 and 2 domains, respectively.
+# T27 Protein S14 14 18 2549 2553 LMP1
+# T28 Protein S14 30 34 2565 2569 CD40
+# T29 Protein S14 119 123 2654 2658 LMP1
+# T30 Protein S14 157 164 2692 2699 TRAFs 1
+# T31 Protein S14 165 166 2700 2701 2
+# T32 Protein S14 167 168 2702 2703 3
+# T33 Protein S14 169 170 2704 2705 5
+# T34 Protein S14 175 180 2710 2715 TRAF6
+$ T28 Protein S14 30 34 2565 2569 CD40
+$ T29 Protein S14 119 123 2654 2658 LMP1
+$ T30 Protein S14 157 164 2692 2699 TRAFs 1
+$ T31 Protein S14 165 166 2700 2701 2
+$ T32 Protein S14 167 168 2702 2703 3
+$ T33 Protein S14 169 170 2704 2705 5
+$ T34 Protein S14 175 180 2710 2715 TRAF6
+@ T70 Negative_regulation S14 23 29 2558 2564 rescue
+@ T71 Negative_regulation S14 35 44 2570 2579 deficient
+@ T72 Binding S14 124 132 2659 2667 recruits
+@ T73 Entity S14 194 225 2729 2760 C-terminal activation regions 1
+@ T74 Entity S14 230 239 2765 2774 2 domains
+% E14 Negative_regulation:T70 Theme:E15
+% E15 Negative_regulation:T71 Theme:T28
+% E16 Binding:T72 Theme:T29 Theme2:T30 Site:T73
+% E17 Binding:T72 Theme:T29 Theme2:T31 Site:T73
+% E18 Binding:T72 Theme:T29 Theme2:T32 Site:T73
+% E19 Binding:T72 Theme:T29 Theme2:T33 Site:T73
+% E20 Binding:T72 Theme:T29 Theme2:T34 Site:T74
+
+However, LMP1 is unable to restore affinity maturation and GC formation [23].
+# T35 Protein S15 9 13 2799 2803 LMP1
+
+Several EBV transforming proteins have been studied in transgenic mouse models, however, only LMP1 induces tumor development when expressed under the control of the Ig heavy chain promoter and enhancer [24-26].
+# T36 Protein S16 94 98 2962 2966 LMP1
+$ T36 Protein S16 94 98 2962 2966 LMP1
+@ T75 Gene_expression S16 130 139 2998 3007 expressed
+@ T76 Positive_regulation S16 140 157 3008 3025 under the control
+% E21 Gene_expression:T75 Theme:T36
+% E22 Positive_regulation:T76 Theme:E21
+
+The LMP1 transgenic mice (IgLMP1) express LMP1 in B lymphocytes, and in mice older than 12 mo, lymphoma develops with increased incidence (40%-50%) compared to wild-type control mice (11%), suggesting that LMP1 contributes to tumor development [26].
+# T37 Protein S17 4 8 3083 3087 LMP1
+# T38 Protein S17 42 46 3121 3125 LMP1
+# T39 Protein S17 206 210 3285 3289 LMP1
+$ T38 Protein S17 42 46 3121 3125 LMP1
+@ T77 Gene_expression S17 34 41 3113 3120 express
+% E23 Gene_expression:T77 Theme:T38
+
+The LMP1 lymphomas have rearranged Ig genes and have activated Akt, JNK, p38, and NFkappaB, with specific activation of the NFkappaB family member cRel [27].
+# T40 Protein S18 4 8 3333 3337 LMP1
+# T41 Protein S18 63 66 3392 3395 Akt
+# T42 Protein S18 147 151 3476 3480 cRel
+$ T41 Protein S18 63 66 3392 3395 Akt
+$ T42 Protein S18 147 151 3476 3480 cRel
+@ T78 Positive_regulation S18 53 62 3382 3391 activated
+@ T79 Positive_regulation S18 106 116 3435 3445 activation
+% E24 Positive_regulation:T78 Theme:T41
+% E25 Positive_regulation:T79 Theme:T42
+
+In this study, the LMP1 transgenic lymphocytes and lymphomas were further characterized and their growth properties in vitro were determined.
+# T43 Protein S19 19 23 3506 3510 LMP1
+
+To obtain pure populations of malignant lymphocytes and to enable more detailed biochemical analyses, examples of primary lymphomas were inoculated and passaged in SCID mice.
+
+Interestingly, lymphoma development was restricted to B-1a lymphocytes, a self-replenishing population of cells that are prone to malignancy [28,29].
+
+LMP1 transgenic lymphocytes had increased viability in vitro and viability was increased by the addition of IL4.
+# T44 Protein S22 0 4 3954 3958 LMP1
+# T45 Protein S22 108 111 4062 4065 IL4
+
+In contrast, both LMP1-positive and -negative lymphoma cells were independent of IL4 co-stimulation for survival and proliferation in vitro with a complete absence of activated Stat6, the IL4 target.
+# T46 Protein S23 18 22 4085 4089 LMP1
+# T47 Protein S23 81 84 4148 4151 IL4
+# T48 Protein S23 177 182 4244 4249 Stat6
+# T49 Protein S23 188 191 4255 4258 IL4
+$ T48 Protein S23 177 182 4244 4249 Stat6
+$ T49 Protein S23 188 191 4255 4258 IL4
+@ T80 Negative_regulation S23 156 163 4223 4230 absence
+@ T81 Positive_regulation S23 167 176 4234 4243 activated
+@ T82 Regulation S23 192 198 4259 4265 target
+% E26 Negative_regulation:T80 Theme:E27
+% E27 Positive_regulation:T81 Theme:T48
+% E28 Regulation:T82 Theme:T48 Cause:T49
+
+The lymphomas were also distinguished by constitutive activation of Stat3 and deregulation of the Rb cell cycle pathway.
+# T50 Protein S24 68 73 4335 4340 Stat3
+# T51 Protein S24 98 100 4365 4367 Rb
+$ T50 Protein S24 68 73 4335 4340 Stat3
+@ T83 Positive_regulation S24 54 64 4321 4331 activation
+% E29 Positive_regulation:T83 Theme:T50
+
+Inhibition of the PI3K/Akt, NFkappaB, and Stat3 signaling pathways blocked the enhanced growth of both LMP1 transgenic and malignant lymphocytes, suggesting that these pathways are required for their growth and survival.
+# T52 Protein S25 23 26 4411 4414 Akt
+# T53 Protein S25 42 47 4430 4435 Stat3
+# T54 Protein S25 103 107 4491 4495 LMP1
+
+These appear to be the same targets that are deregulated in wild-type B-1a lymphomas that arise spontaneously through age predisposition.
+@ T59 Anaphora S26 19 35 4628 4644 the same targets
+@ T84 Regulation S26 45 56 4654 4665 deregulated
+% E30 Regulation:T84 Theme:T52
+% E31 Regulation:T84 Theme:T53
+
+This study reveals that LMP1 promotes malignancy in cells with the inherent ability to proliferate and that the Akt, NFkappaB, and Stat3 signaling pathways are required for its growth stimulatory effects.
+# T55 Protein S27 24 28 4771 4775 LMP1
+# T56 Protein S27 112 115 4859 4862 Akt
+# T57 Protein S27 131 136 4878 4883 Stat3
+

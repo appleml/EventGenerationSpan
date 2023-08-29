@@ -1,0 +1,48 @@
+Role of cellular tumor necrosis factor receptor-associated factors in NF-kappaB activation and lymphocyte transformation by herpesvirus Saimiri STP.
+
+The STP oncoproteins of the herpesvirus saimiri (HVS) subgroup A strain 11 and subgroup C strain 488 are now found to be stably associated with tumor necrosis factor receptor-associated factor (TRAF) 1, 2, or 3.
+# T1 Protein S2 144 201 294 351 tumor necrosis factor receptor-associated factor (TRAF) 1
+# T2 Protein S2 203 204 353 354 2
+# T3 Protein S2 209 210 359 360 3
+$ T3 Protein S2 209 210 359 360 3
+$ T2 Protein S2 203 204 353 354 2
+$ T1 Protein S2 144 201 294 351 tumor necrosis factor receptor-associated factor (TRAF) 1
+@ T12 Binding S2 128 138 278 288 associated
+% E1 Binding:T12 Theme:T3
+% E2 Binding:T12 Theme:T2
+% E3 Binding:T12 Theme:T1
+
+Mutational analyses identified residues of PXQXT/S in STP-A11 as critical for TRAF association.
+# T4 Protein S3 54 61 416 423 STP-A11
+$ T4 Protein S3 54 61 416 423 STP-A11
+@ T13 Binding S3 83 94 445 456 association
+% E4 Binding:T13 Theme:T4
+
+In addition, a somewhat divergent region of STP-C488 is critical for TRAF association.
+# T5 Protein S4 44 52 502 510 STP-C488
+$ T5 Protein S4 44 52 502 510 STP-C488
+@ T14 Binding S4 74 85 532 543 association
+% E5 Binding:T14 Theme:T5
+
+Mutational analysis also revealed that STP-C488 induced NF-kappaB activation that was correlated with its ability to associate with TRAFs.
+# T6 Protein S5 39 47 584 592 STP-C488
+$ T6 Protein S5 39 47 584 592 STP-C488
+@ T15 Binding S5 117 126 662 671 associate
+% E6 Binding:T15 Theme:T6
+
+The HVS STP-C488 P10-->R mutant was deficient in human T-lymphocyte transformation to interleukin-2-independent growth but showed wild-type phenotype for marmoset T-lymphocyte transformation in vitro and in vivo.
+# T7 Protein S6 8 16 692 700 STP-C488
+# T8 Protein S6 86 99 770 783 interleukin-2
+$ T7 Protein S6 8 16 692 700 STP-C488
+@ T16 Positive_regulation S6 176 190 860 874 transformation
+% E7 Positive_regulation:T16 Theme:E1 Cause:T7
+
+The STP-C488 P10-->R mutant was also defective in Rat-1 fibroblast transformation, and fibroblast cell transformation was blocked by a TRAF2 dominant-negative mutant.
+# T9 Protein S7 4 12 901 909 STP-C488
+# T10 Protein S7 135 140 1032 1037 TRAF2
+
+These data implicate TRAFs in STP-C488-mediated transformation of human lymphocytes and rodent fibroblasts.
+# T11 Protein S8 30 38 1094 1102 STP-C488
+
+Other factors are implicated in immortalization of common marmoset T lymphocytes and may also be critical in the transformation of human lymphocytes and rodent fibroblasts.
+

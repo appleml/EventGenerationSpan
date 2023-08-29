@@ -1,0 +1,35 @@
+Tap: a novel cellular protein that interacts with tip of herpesvirus saimiri and induces lymphocyte aggregation.
+
+Tip of herpesvirus saimiri associates with Lck and down-regulates Lck-mediated activation.
+# T1 Protein S2 43 46 157 160 Lck
+# T2 Protein S2 66 69 180 183 Lck
+$ T1 Protein S2 43 46 157 160 Lck
+@ T6 Binding S2 27 37 141 151 associates
+% E1 Binding:T6 Theme:T1
+
+We identified a novel cellular Tip-associated protein (Tap) by a yeast two-hybrid screen.
+
+Tap associated with Tip following transient expression in COS-1 cells and stable expression in human Jurkat-T cells.
+
+Expression of Tip and Tap in Jurkat-T cells induced dramatic cell aggregation.
+
+Aggregation was likely caused by the up-regulated surface expression of adhesion molecules including integrin alpha, L-selectin, ICAM-3, and H-CAM.
+# T3 Protein S6 117 127 608 618 L-selectin
+# T4 Protein S6 129 135 620 626 ICAM-3
+# T5 Protein S6 141 146 632 637 H-CAM
+$ T5 Protein S6 141 146 632 637 H-CAM
+$ T3 Protein S6 117 127 608 618 L-selectin
+$ T4 Protein S6 129 135 620 626 ICAM-3
+@ T7 Positive_regulation S6 37 49 528 540 up-regulated
+@ T8 Gene_expression S6 58 68 549 559 expression
+% E2 Positive_regulation:T7 Theme:E7
+% E3 Positive_regulation:T7 Theme:E6
+% E4 Positive_regulation:T7 Theme:E5
+% E5 Gene_expression:T8 Theme:T5
+% E6 Gene_expression:T8 Theme:T3
+% E7 Gene_expression:T8 Theme:T4
+
+Furthermore, NF-kappaB transcriptional factor of aggregated cells had approximately 40-fold higher activity than that of parental cells.
+
+Thus, Tap is likely to be an important cellular mediator of Tip function in T cell transformation by herpesvirus saimiri.
+

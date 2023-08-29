@@ -1,0 +1,143 @@
+Macrophages are key mediators of the innate immune response, and consequently provide the first line of defense against pathogens.
+
+Pro-inflammatory stimuli, such as the bacterial endotoxin LPS, stimulate macrophages to mount an anti-pathogenic response which involves massive induction of the pro-survival factor SerpinB2.
+# T1 Protein S2 182 190 313 321 SerpinB2
+
+SerpinB2 is transcriptionally induced by cross talk between the IKKbeta/NF-kappaB and p38MAPK signaling modules in response to LPS [16].
+# T2 Protein S3 0 8 323 331 SerpinB2
+# T3 Protein S3 64 71 387 394 IKKbeta
+
+Here we report that SerpinB2 gene transcription in response to LPS is conferred by the SerpinB2 proximal promoter and is greatly dependent upon C/EBP-beta.
+# T4 Protein S4 20 28 480 488 SerpinB2
+# T5 Protein S4 87 95 547 555 SerpinB2
+# T6 Protein S4 144 154 604 614 C/EBP-beta
+
+LPS-induced C/EBP-beta was shown to specifically bind the C/EBP response element in the SerpinB2 proximal promoter in vitro and in vivo, and loss of C/EBP-beta abrogates constitutive SerpinB2 gene transcription and the response to LPS.
+# T7 Protein S5 12 22 628 638 C/EBP-beta
+# T8 Protein S5 88 96 704 712 SerpinB2
+# T9 Protein S5 149 159 765 775 C/EBP-beta
+# T10 Protein S5 183 191 799 807 SerpinB2
+
+The murine SerpinB2 proximal promoter region between nucleotides -539 and +92 mediated both PMA- and LPS-inducible gene transcription, with induction by PMA being less intense and more transient than that by LPS.
+# T11 Protein S6 11 19 863 871 SerpinB2
+
+Inspection of the murine SerpinB2 proximal promoter sequence shows that a CRE and two AP-1-like elements, demonstrated to mediate PMA-stimulated transcription of the human SERPINB2 gene [37], also are present in the murine SerpinB2 proximal promoter between nucleotides -189 and -87.
+# T12 Protein S7 25 33 1090 1098 SerpinB2
+# T13 Protein S7 172 180 1237 1245 SERPINB2
+# T14 Protein S7 223 231 1288 1296 SerpinB2
+
+These sites may therefore also play a role in mediating PMA-inducible transcription of the murine SerpinB2 gene.
+# T15 Protein S8 98 106 1447 1455 SerpinB2
+
+In contrast to the pattern of incremental increases in PMA-induced transcriptional activity conferred by regions of the murine SerpinB2 promoter containing these sites, most of the LPS-inducible response is dependent upon cis-acting regulatory sequences in the region between nucleotides -189 and -539.
+# T16 Protein S9 127 135 1589 1597 SerpinB2
+
+LPS responsiveness absolutely required the C/EBP binding site located in the region between nucleotides -189 and -539, with the downstream CRE and AP-1-like elements also being critical.
+
+Of note, there are previous reports of combinatorial interactions between C/EBP-beta and CRE binding proteins (CREB) and AP-1 [63], and C/EBP-beta has been reported to physically interact with AP-1, and NF-kappaB to promote gene expression of inflammatory mediators [63]; [66].
+# T17 Protein S11 74 84 2026 2036 C/EBP-beta
+# T18 Protein S11 136 146 2088 2098 C/EBP-beta
+
+Additionally, CREB has been shown to control transcription of the C/EBP-beta gene [67].
+# T19 Protein S12 66 76 2296 2306 C/EBP-beta
+
+In this study, C/EBP-beta was found to be a major requirement for both constitutive and LPS-induced SerpinB2 gene transcription.
+# T20 Protein S13 15 25 2333 2343 C/EBP-beta
+# T21 Protein S13 100 108 2418 2426 SerpinB2
+
+In a previous microarray expression profiling study, SerpinB2 was identified as gene whose induction in C/EBP-beta-deficient peritoneal macrophages by LPS and IFNgamma was severely impaired compared to wild-type macrophages [68].
+# T22 Protein S14 53 61 2500 2508 SerpinB2
+# T23 Protein S14 80 84 2527 2531 gene
+# T24 Protein S14 104 114 2551 2561 C/EBP-beta
+# T25 Protein S14 159 167 2606 2614 IFNgamma
+
+Our qPCR results validate this finding, as we found that both constitutive and LPS-inducible SerpinB2 mRNA expression is significantly abrogated in C/EBP-beta-shRNA transduced peritoneal macrophages, emphasizing the link between C/EBP-beta and SerpinB2 gene transcription.
+# T26 Protein S15 93 101 2770 2778 SerpinB2
+# T27 Protein S15 229 239 2906 2916 C/EBP-beta
+# T28 Protein S15 244 252 2921 2929 SerpinB2
+
+While C/EBP proteins can act as either homodimers or heterodimers [63], we identified C/EBP-beta as the only LPS-inducible C/EBP isoform to bind the SerpinB2 C/EBP response element, suggesting a predominant role for C/EBP-beta in LPS-induced SerpinB2 gene expression.
+# T29 Protein S16 86 96 3036 3046 C/EBP-beta
+# T30 Protein S16 149 157 3099 3107 SerpinB2
+# T31 Protein S16 216 226 3166 3176 C/EBP-beta
+# T32 Protein S16 242 250 3192 3200 SerpinB2
+
+C/EBP-beta, like SerpinB2, plays an important role in inflammation, as it is upregulated by LPS and a host of other inflammatory cytokines [59]; [62].
+# T33 Protein S17 0 10 3218 3228 C/EBP-beta
+# T34 Protein S17 17 25 3235 3243 SerpinB2
+
+Furthermore, C/EBP-beta-null mice are susceptible to bacterial infection [69]; [70] and SerpinB2 has been demonstrated to protect from bacterial and viral-induced cell death [14]-[16]; [25].
+# T35 Protein S18 13 23 3382 3392 C/EBP-beta
+# T36 Protein S18 88 96 3457 3465 SerpinB2
+
+Thus the regulation of SerpinB2 gene expression by C/EBP-beta is consistent with its functional role in inflammation.
+# T37 Protein S19 23 31 3583 3591 SerpinB2
+# T38 Protein S19 51 61 3611 3621 C/EBP-beta
+
+Phosphorylation of C/EBP-beta at several different amino acid residues has been shown to modulate transactivation of its target genes [63]; .
+# T100 Protein S20 19 29 3697 3707 C/EBP-beta
+
+C/EBP-beta phosphorylated on T217 has been reported to rescue macrophages from apoptosis induced by Bacillus anthracis lethal toxin (LT) [65], an activity that has also been attributed to SerpinB2 [16].
+# T101 Protein S21 0 10 3820 3830 C/EBP-beta
+# T102 Protein S21 188 196 4008 4016 SerpinB2
+
+However, expression of a C/EBP-beta phospho-acceptor site mutant, C/EBPbetaT217A, in Cebpb-/- MEFs did not increase SerpinB2 proximal promoter activity over that of wild-type C/EBP-beta, even though recruitment of C/EBP-betaT217 to the SerpinB2 promoter was observed to decrease following LPS stimulation of RAW264.7 cells.
+# T103 Protein S22 25 64 4048 4087 C/EBP-beta phospho-acceptor site mutant
+# T104 Protein S22 66 80 4089 4103 C/EBPbetaT217A
+# T105 Protein S22 85 90 4108 4113 Cebpb
+# T106 Protein S22 116 124 4139 4147 SerpinB2
+# T107 Protein S22 175 185 4198 4208 C/EBP-beta
+# T108 Protein S22 236 244 4259 4267 SerpinB2
+
+These data indicate that the T217 phospho-acceptor site is not important for the regulation of SerpinB2 gene expression.
+# T109 Protein S23 95 103 4442 4450 SerpinB2
+
+Similarly, expression of the C/EBP-beta phospho-acceptor site mutant, C/EBP-betaT188A, did not affect SerpinB2 promoter activity differently from that of wild-type.
+# T110 Protein S24 29 68 4497 4536 C/EBP-beta phospho-acceptor site mutant
+# T111 Protein S24 70 85 4538 4553 C/EBP-betaT188A
+# T112 Protein S24 102 110 4570 4578 SerpinB2
+
+In contrast, expression of C/EBP-betaS64A significantly enhanced LPS-induced SerpinB2 promoter activity, indicating that phosphorylation of C/EBP-beta at S64 negatively regulates LPS-induced SerpinB2 promoter activity.
+# T113 Protein S25 27 41 4660 4674 C/EBP-betaS64A
+# T114 Protein S25 77 85 4710 4718 SerpinB2
+# T115 Protein S25 140 150 4773 4783 C/EBP-beta
+# T116 Protein S25 191 199 4824 4832 SerpinB2
+
+Since C/EBP-beta S64 is constitutively phosphorylated in both RAW264.7 cells and MEFs [73], it is likely that dephosphorylation at this site may be a critical event during LPS-induced transcription of SerpinB2 to increase its promoter activity.
+# T117 Protein S26 6 16 4858 4868 C/EBP-beta
+# T118 Protein S26 201 209 5053 5061 SerpinB2
+
+Roy and colleagues demonstrated that Mixed lineage kinase-3 (MLK3)-driven dephosphorylation of C/EBP-beta S64 was important for IFNgamma-regulated signaling pathways [73].
+# T119 Protein S27 37 59 5134 5156 Mixed lineage kinase-3
+# T120 Protein S27 61 65 5158 5162 MLK3
+# T121 Protein S27 95 105 5192 5202 C/EBP-beta
+# T122 Protein S27 128 136 5225 5233 IFNgamma
+
+Our data suggest that MLK3-driven dephosphorylation of S64 may also be involved in LPS-signaling pathways.
+# T123 Protein S28 22 26 5291 5295 MLK3
+
+In recent years it has become apparent that persistent infection is integrally linked to chronic inflammation and cancer, and immune cells such as macrophages can either promote or attenuate cancer progression [2]; [74]-[76].
+
+SerpinB2 expression has been associated with both inflammation and cancer, and is a favorable or unfavorable prognostic indicator depending on cancer type [77].
+# T124 Protein S30 0 8 5602 5610 SerpinB2
+
+The presence of SerpinB2 has been shown to modulate cytokine profiles which can affect immune cell polarization [27]; [28]; [77]; [78].
+# T125 Protein S31 16 24 5779 5787 SerpinB2
+
+Interestingly C/EBP-beta has also been shown to modulate cytokine secretion from immune cells, thereby modifying their phenotype [27]; [79]-[81].
+# T126 Protein S32 14 24 5913 5923 C/EBP-beta
+
+Our study has demonstrated that C/EBP-beta plays an important role in mediating both constitutive and LPS-induced transcription of the SerpinB2 gene, which may have implications for the inflammatory phenotype of infiltrating immune cells in the tumor microenvironment.
+# T127 Protein S33 32 42 6077 6087 C/EBP-beta
+# T128 Protein S33 135 143 6180 6188 SerpinB2
+
+In summary, our studies show that the C/EBP site (-203/-195) in the murine SerpinB2 proximal promoter is necessary to support both constitutive and LPS-induced SerpinB2 gene expression.
+# T129 Protein S34 75 83 6389 6397 SerpinB2
+# T130 Protein S34 160 168 6474 6482 SerpinB2
+
+Importantly, we were able to uncover a previously unknown role for C/EBP-betaS64 in negatively regulating SerpinB2 promoter activity.
+# T131 Protein S35 106 114 6606 6614 SerpinB2
+
+Taken together these data provide new insight into the regulation of inflammation-associated SerpinB2 gene expression.
+# T132 Protein S36 93 101 6727 6735 SerpinB2
+

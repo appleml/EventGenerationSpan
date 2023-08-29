@@ -1,0 +1,50 @@
+Cross-linking of CD30 induces HIV expression in chronically infected T cells.
+# T1 Protein S1 17 21 17 21 CD30
+$ T1 Protein S1 17 21 17 21 CD30
+@ T14 Binding S1 0 13 0 13 Cross-linking
+% E1 Binding:T14 Theme:T1
+
+CD30, a member of the tumor necrosis factor (TNF) receptor family, is expressed constitutively on the surface of the human T cell line ACH-2, which is chronically infected with human immunodeficiency virus type-1 (HIV)-1.
+# T2 Protein S2 0 4 79 83 CD30
+$ T2 Protein S2 0 4 79 83 CD30
+@ T15 Gene_expression S2 70 79 149 158 expressed
+% E2 Gene_expression:T15 Theme:T2
+
+We demonstrate that cross-linking CD30 with an anti-CD30-specific monoclonal antibody, which mimics the described biological activities of the CD30 ligand (CD30L), results in HIV expression.
+# T3 Protein S3 34 38 335 339 CD30
+# T4 Protein S3 52 56 353 357 CD30
+# T5 Protein S3 143 154 444 455 CD30 ligand
+# T6 Protein S3 156 161 457 462 CD30L
+$ T3 Protein S3 34 38 335 339 CD30
+$ T6 Protein S3 156 161 457 462 CD30L
+@ T16 Binding S3 20 33 321 334 cross-linking
+% E3 Binding:T16 Theme:T3 Theme2:T6
+% E4 Binding:T16 Theme:T3
+
+CD30 cross-linking does not alter proliferation of ACH-2 cells and the induction of HIV expression is not mediated by endogenous TNF alpha/beta.
+# T7 Protein S4 0 4 492 496 CD30
+# T8 Protein S4 129 138 621 630 TNF alpha
+# T9 Protein S4 139 143 631 635 beta
+$ T7 Protein S4 0 4 492 496 CD30
+@ T17 Binding S4 5 18 497 510 cross-linking
+% E5 Binding:T17 Theme:T7
+
+Furthermore, cross-linking of CD30 leads to NF-kappa B activation and enhanced HIV transcription.
+# T10 Protein S5 30 34 667 671 CD30
+$ T10 Protein S5 30 34 667 671 CD30
+@ T18 Binding S5 13 26 650 663 cross-linking
+% E6 Binding:T18 Theme:T10
+
+Thus, CD30-CD30L interactions mediate the induction of HIV expression by a kappa B-dependent pathway that is independent of TNF.
+# T11 Protein S6 6 10 741 745 CD30
+# T12 Protein S6 11 16 746 751 CD30L
+$ T11 Protein S6 6 10 741 745 CD30
+$ T12 Protein S6 11 16 746 751 CD30L
+@ T19 Binding S6 17 29 752 764 interactions
+% E7 Binding:T19 Theme:T11 Theme2:T12
+
+This mechanism may be important in the activation of HIV expression from latently infected CD4+ T cells, especially in lymphoid organs where cell to cell contact is conducive to receptor-ligand interactions.
+# T13 Protein S7 91 94 955 958 CD4
+@ T20 Binding S7 194 206 1058 1070 interactions
+% E8 Binding:T20 Theme:T11 Theme2:T12
+

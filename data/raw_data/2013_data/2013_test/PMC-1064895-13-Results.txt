@@ -1,0 +1,21 @@
+Increased IL-17 production in PBMC of patients with RA by anti-CD3 and/or anti-CD28, and PHA
+# T1 Protein S1 10 15 10 15 IL-17
+# T2 Protein S1 79 83 79 83 CD28
+# T3 Protein S1 89 92 89 92 PHA
+
+Because IL-17 was already known from earlier reports to be produced mainly by activated T cells, we investigated the effect of different concentrations of anti-CD3 (1, 5 and 10 mug/ml) as a T cell activation, which showed a dose-dependent increase in IL-17 levels (data not shown).
+# T4 Protein S2 8 13 101 106 IL-17
+# T5 Protein S2 251 256 344 349 IL-17
+
+On the basis of this, we chose 10 mug/ml as a stimulation concentration for anti-CD3.
+
+As shown in Table 1, anti-CD3 significantly upregulated IL-17 production up to 3.7-fold, and the combination of anti-CD28 and anti-CD3 produced more IL-17 (approximately 1.3-1.5-fold) than anti-CD3 alone.
+# T6 Protein S4 56 61 517 522 IL-17
+# T7 Protein S4 117 121 578 582 CD28
+# T8 Protein S4 149 154 610 615 IL-17
+
+Furthermore, when incubated with T cell mitogens such as PHA, increased IL-17 production was more pronounced than with anti-CD3 and anti-CD28 (588 +/- 85 versus 211 +/- 1 pg/ml; P < 0.05).
+# T9 Protein S5 57 60 723 726 PHA
+# T10 Protein S5 72 77 738 743 IL-17
+# T11 Protein S5 137 141 803 807 CD28
+

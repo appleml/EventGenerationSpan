@@ -1,0 +1,126 @@
+Viruses are a class of highly diverse pathogens which depend on the host cell for their replication.
+
+The initiation of a protective innate antiviral immune response involves the action of specialized pattern recognition receptors (PRR), which detect conserved molecular structures of the invading pathogen.
+
+Triggering of PRRs induces the production of host proinflammatory cytokines (e.g. TNF, IL-6 and IL-1) and type I interferons (interferon-alpha (IFN-alpha) and IFN-beta) through activation of downstream signaling pathways that control various transcription factors such as NF-kappaB, AP-1, IRF3 and IRF7 [1], [2].
+# T1 Protein S3 82 85 389 392 TNF
+# T2 Protein S3 87 91 394 398 IL-6
+# T3 Protein S3 96 100 403 407 IL-1
+# T4 Protein S3 126 142 433 449 interferon-alpha
+# T5 Protein S3 144 153 451 460 IFN-alpha
+# T6 Protein S3 159 167 466 474 IFN-beta
+# T7 Protein S3 289 293 596 600 IRF3
+# T8 Protein S3 298 302 605 609 IRF7
+
+The presence of viral nucleic acids, such as viral RNA and DNA, viral replication intermediates and viral transcription products, can be sensed by specific intracellular PRRs [3].
+
+Endosomal Toll-like receptors (TLRs) and cytoplasmic RNA helicase RIG-I-like receptors (RLRs) or Nod-like receptors (NLRs) detect the presence of viral single stranded (TLR7, TLR8, Nod2) or double stranded RNA (TLR3, RIG-I, MDA5).
+# T9 Protein S5 169 173 969 973 TLR7
+# T10 Protein S5 175 179 975 979 TLR8
+# T11 Protein S5 181 185 981 985 Nod2
+# T12 Protein S5 211 215 1011 1015 TLR3
+# T13 Protein S5 217 222 1017 1022 RIG-I
+# T14 Protein S5 224 228 1024 1028 MDA5
+
+Intracellular DNA sensors that mediate antiviral immune responses to DNA viruses include TLR9, DAI [4] and the PYHIN domain containing proteins AIM2 [5], [6], [7] and IFI16 [8].
+# T15 Protein S6 89 93 1120 1124 TLR9
+# T16 Protein S6 95 98 1126 1129 DAI
+# T17 Protein S6 144 148 1175 1179 AIM2
+# T18 Protein S6 167 172 1198 1203 IFI16
+
+TLR mediated antiviral responses are restricted to specialized type I IFN producing plasmacytoid dendritic cells (pDC), while most other cell types, including conventional DC (cDC), macrophages and fibroblasts, depend on the cytosolic RNA and DNA sensors for the production of antiviral proteins [9].
+
+Influenza A virus (IAV) is the etiological agent of a contagious acute respiratory disease that causes considerable mortality, which is generally believed to be due to an excessive host inflammatory response.
+
+Emergence of drug-resistant strains of influenza viruses with pandemic potential underscores the importance of developing novel antiviral strategies.
+
+In this context, understanding of the mechanisms that regulate IAV-induced immune responses is critical.
+
+IAV infection leads to the exposure in the host cell of single-stranded genomic RNA and double stranded RNA, the latter being an intermediate of viral replication.
+
+TLR3 and RIG-I have been implicated as sensors of IAV infection [10]-[12].
+# T19 Protein S12 0 4 2138 2142 TLR3
+# T20 Protein S12 9 14 2147 2152 RIG-I
+
+Both receptors contribute to the proinflammatory response to IAV, but the initiation of the innate antiviral immune response largely depends on RIG-I mediated signaling [13].
+# T21 Protein S13 144 149 2357 2362 RIG-I
+
+Interestingly, RIG-I deficient mice are highly susceptible to IAV [14], [15], whereas TLR3 deficient mice have a survival advantage to acute infection [16].
+# T22 Protein S14 15 20 2403 2408 RIG-I
+# T23 Protein S14 86 90 2474 2478 TLR3
+
+These results indicate that an imbalance between the beneficial and harmful effects of mediators released by immune cells is likely to contribute to the pathogenesis of influenza.
+
+RIG-I contains a C-terminal DExD/H box helicase domain, which is required for ligand recognition, and two N-terminal CARD domains.
+# T26 Protein S16 0 5 2725 2730 RIG-I
+
+Upon ligand binding, the CARD domains of RIG-I associate with the CARD domain of the MAVS (also termed IPS-1, VISA, Cardif) adaptor protein, which subsequently translocates to and inserts in the outer mitochondrial membrane via its C-terminal transmembrane domain [17]-[20].
+# T27 Protein S17 41 46 2897 2902 RIG-I
+# T28 Protein S17 85 89 2941 2945 MAVS
+# T29 Protein S17 103 108 2959 2964 IPS-1
+# T30 Protein S17 110 114 2966 2970 VISA
+# T31 Protein S17 116 122 2972 2978 Cardif
+
+Signaling downstream of MAVS requires the action of various ubiquitin modifying enzymes, which both positively and negatively regulate RIG-I mediated signal transduction [21].
+# T32 Protein S18 24 28 3155 3159 MAVS
+# T33 Protein S18 135 140 3266 3271 RIG-I
+
+K63-specific ubiquitin ligases (E3s), such as TRIM25 [22] and Riplet [23], [24], have been shown to directly promote RIG-I activation.
+# T34 Protein S19 46 52 3353 3359 TRIM25
+# T35 Protein S19 62 68 3369 3375 Riplet
+# T36 Protein S19 117 122 3424 3429 RIG-I
+
+In addition, well characterized ubiquitin ligases such as TRAF6 [25], [26] and TRAF3 [27] mediate respectively NF-kappaB and IRF3 activation upon RIG-I stimulation.
+# T37 Protein S20 58 63 3500 3505 TRAF6
+# T38 Protein S20 79 84 3521 3526 TRAF3
+# T39 Protein S20 125 129 3567 3571 IRF3
+# T40 Protein S20 146 151 3588 3593 RIG-I
+
+On the other hand, deubiquitinating enzymes (DUBs), such as DUBA [28], CYLD [29], [30] and OTUB1/2 [31] have been shown to negatively regulate RLR signaling by specifically removing K63-linked polyubiquitin chains from several signaling molecules.
+# T41 Protein S21 60 64 3667 3671 DUBA
+# T42 Protein S21 71 75 3678 3682 CYLD
+# T43 Protein S21 143 146 3750 3753 RLR
+
+Furthermore, various K48-specific ubiquitin ligases, such as AIP4 [32] and TRIAD3A [33] mark respectively MAVS and TRAF3 for proteasome mediated degradation, thus inhibiting further downstream signaling.
+# T44 Protein S22 61 65 3916 3920 AIP4
+# T45 Protein S22 75 82 3930 3937 TRIAD3A
+# T46 Protein S22 106 110 3961 3965 MAVS
+# T47 Protein S22 115 120 3970 3975 TRAF3
+
+Additionally, the attachment of K48-specific polyubiquitin chains to the IRF3 and IRF7 transcription factors by E3s such as RAUL [34], TRIM21 [35] and RBCK1 [36] further dampens antiviral signal transduction.
+# T48 Protein S23 73 77 4132 4136 IRF3
+# T49 Protein S23 82 86 4141 4145 IRF7
+# T50 Protein S23 124 128 4183 4187 RAUL
+# T51 Protein S23 135 141 4194 4200 TRIM21
+# T52 Protein S23 151 156 4210 4215 RBCK1
+
+A20 is an ubiquitin-editing enzyme belonging to the OTU-domain family of DUBs.
+
+Interestingly, A20 also harbors atypical zinc finger dependent K48-specific E3 ubiquitin ligase activity.
+
+Both catalytic and noncatalytic mechanisms were previously shown to be involved in the negative regulation of proinflammatory signaling by A20 in response to multiple receptors such as TNF receptor I [37]-[39], TLR4 [40], and IL-1R [41].
+# T53 Protein S26 185 199 4638 4652 TNF receptor I
+# T54 Protein S26 211 215 4664 4668 TLR4
+# T55 Protein S26 226 231 4679 4684 IL-1R
+
+The anti-inflammatory role of A20 is clearly demonstrated by the fact that A20 deficient mice die early after birth due to severe multi-organ inflammation and cachexia [37].
+
+More recently, gene targeting of A20 in specific cell types was shown to be associated with autoimmunity and chronic inflammation [42]-[48], further illustrating that A20 is an important brake on the inflammatory response.
+
+The relevance of these findings for human disease has recently been illustrated through the identification of polymorphisms in the A20 locus that are associated with several autoimmune diseases and chronic inflammation [45].
+
+In contrast to its well established function in the regulation of proinflammatory responses, the role of A20 in the regulation of antiviral immune responses is less well described and limited to a number of in vitro studies using overexpression or silencing in specific cell lines, indicating that A20 may regulate RIG-I- and TLR3-induced signaling to NF-kappaB and IRF-3 [49]-[52].
+# T56 Protein S30 315 320 5628 5633 RIG-I
+# T57 Protein S30 326 330 5639 5643 TLR3
+# T58 Protein S30 366 371 5679 5684 IRF-3
+
+However, the precise in vivo role of A20 in the response to viral infection remains to be clarified.
+
+Using myeloid cell specific A20 knockout mice (A20myel-KO) that were recently generated in our lab and primary cells derived of these mice, we here provide evidence that A20 is a crucial negative regulator of IAV-induced proinflammatory and antiviral signaling in macrophages.
+
+Interestingly, A20myel-KO mice show enhanced survival and reduced morbidity in response to IAV lung infection compared to wild type mice.
+
+Protection against IAV in A20myel-KO mice is associated with increased cytokine and chemokine production, augmented recruitment of innate immune cells such as neutophils and alveolar macrophages, and enhanced viral clearance.
+
+These results suggest that boosting the innate immune response to IAV by targeting A20 activity in myeloid cells might have therapeutic potential.
+

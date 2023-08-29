@@ -1,0 +1,128 @@
+Impaired cytokine production by cpdm BMDC is correlated with selective defects in NF-kappaB signaling
+
+There are a number of possible explanations for the defective cytokine secretion in stimulated cpdm BMDC, including 1) reduced surface expression of the LPS receptor complex, 2) increased production of anti-inflammatory mediators, 3) increased expression of negative regulators of TLR pathways, and 4) impaired TLR-induced signaling activation.
+
+We determined the surface expression of the LPS receptor complex that comprises TLR4, the accessory proteins CD14 and myeloid differentiation factor 2 (MD2/LY96) [19].
+# T1 Protein S3 80 84 527 531 TLR4
+# T2 Protein S3 109 113 556 560 CD14
+# T3 Protein S3 118 150 565 597 myeloid differentiation factor 2
+# T4 Protein S3 152 155 599 602 MD2
+# T5 Protein S3 156 160 603 607 LY96
+
+Flow cytometric analysis shows that the expression levels of CD14 and TLR4/MD2 between WT and cpdm BMDC were similar (Fig. 5A).
+# T6 Protein S4 61 65 676 680 CD14
+# T7 Protein S4 70 74 685 689 TLR4
+# T8 Protein S4 75 78 690 693 MD2
+$ T6 Protein S4 61 65 676 680 CD14
+$ T7 Protein S4 70 74 685 689 TLR4
+$ T8 Protein S4 75 78 690 693 MD2
+@ T39 Gene_expression S4 40 50 655 665 expression
+% E1 Gene_expression:T39 Theme:T6
+% E2 Gene_expression:T39 Theme:T7
+% E3 Gene_expression:T39 Theme:T8
+
+We then quantified the secretion of the suppressive cytokines IL10 that can inhibit IL12 secretion in an autocrine manner [20], [21].
+# T9 Protein S5 62 66 805 809 IL10
+$ T9 Protein S5 62 66 805 809 IL10
+@ T40 Gene_expression S5 23 32 766 775 secretion
+% E4 Gene_expression:T40 Theme:T9
+
+The supernatants from LPS-stimulated cpdm BMDC contained significantly lower levels of IL10 than stimulated WT BMDC (Fig. 5B), suggesting that IL10 was not responsible for decreased secretion of IL12P70 by cpdm BMDC.
+# T10 Protein S6 87 91 964 968 IL10
+# T11 Protein S6 143 147 1020 1024 IL10
+$ T10 Protein S6 87 91 964 968 IL10
+@ T41 Positive_regulation S6 71 76 948 953 lower
+@ T42 Gene_expression S6 77 83 954 960 levels
+% E5 Positive_regulation:T41 Theme:E6
+% E6 Gene_expression:T42 Theme:T10
+
+Increased expression of a negative regulator of TLR signaling such as A20 [22] may also suppress cytokine secretion.
+# T12 Protein S7 70 73 1164 1167 A20
+$ T12 Protein S7 70 73 1164 1167 A20
+@ T43 Positive_regulation S7 0 9 1094 1103 Increased
+@ T44 Gene_expression S7 10 20 1104 1114 expression
+% E7 Positive_regulation:T43 Theme:E8
+% E8 Gene_expression:T44 Theme:T12
+
+However, the transcript level of A20 was lower in LPS-activated cpdm BMDC than WT controls (Fig. 5C), thereby ruling out overexpression of A20 as a factor in the reduced cytokine production.
+# T13 Protein S8 33 36 1244 1247 A20
+# T14 Protein S8 139 142 1350 1353 A20
+$ T13 Protein S8 33 36 1244 1247 A20
+$ T14 Protein S8 139 142 1350 1353 A20
+@ T45 Transcription S8 13 29 1224 1240 transcript level
+@ T46 Positive_regulation S8 41 46 1252 1257 lower
+@ T47 Positive_regulation S8 121 135 1332 1346 overexpression
+% E9 Transcription:T45 Theme:T13
+% E10 Positive_regulation:T46 Theme:E9
+% E11 Positive_regulation:T47 Theme:T14
+
+The transcription of TLR3/4-induced proinflammatory intermediates is tightly regulated by cellular signaling pathways, in particular NF-kappaB, TBK1/IRF3, and MAPK [23]-[27].
+# T15 Protein S9 21 25 1423 1427 TLR3
+# T16 Protein S9 26 27 1428 1429 4
+# T17 Protein S9 144 148 1546 1550 TBK1
+# T18 Protein S9 149 153 1551 1555 IRF3
+
+We next determined if disrupted NF-kappaB, TBK1/IRF3, and/or MAPK signaling may underlie the impaired cytokine production from stimulated Sharpin-deficient BMDC.
+# T19 Protein S10 43 47 1620 1624 TBK1
+# T20 Protein S10 48 52 1625 1629 IRF3
+# T21 Protein S10 138 145 1715 1722 Sharpin
+$ T21 Protein S10 138 145 1715 1722 Sharpin
+@ T48 Negative_regulation S10 146 155 1723 1732 deficient
+% E12 Negative_regulation:T48 Theme:T21
+
+Stimulus-induced phosphorylation of the IkappaB kinase (IKK1/2) is an essential step in NF-kappaB signaling, allowing phosphorylation and proteasome-mediated degradation of the NF-kappaB inhibitor IkappaBalpha to release the NF-kappaB transcription factors into the nucleus.
+# T22 Protein S11 56 60 1795 1799 IKK1
+# T23 Protein S11 61 62 1800 1801 2
+# T24 Protein S11 197 209 1936 1948 IkappaBalpha
+$ T24 Protein S11 197 209 1936 1948 IkappaBalpha
+@ T49 Positive_regulation S11 109 117 1848 1856 allowing
+@ T50 Phosphorylation S11 118 133 1857 1872 phosphorylation
+@ T51 Positive_regulation S11 149 157 1888 1896 mediated
+@ T52 Protein_catabolism S11 158 169 1897 1908 degradation
+% E13 Positive_regulation:T49 Theme:E14
+% E15 Positive_regulation:T49 Theme:E16
+% E14 Phosphorylation:T50 Theme:T24
+% E17 Positive_regulation:T51 Theme:E16
+% E16 Protein_catabolism:T52 Theme:T24
+
+The amount of phosphorylated IKK1/2 (p-IKK1/2) and IkappaBalpha (p-IkappaBalpha) following incubation with LPS or poly I:C was severely decreased in cpdm BMDC as compared with WT controls (Fig. 6).
+# T25 Protein S12 29 33 2043 2047 IKK1
+# T26 Protein S12 34 35 2048 2049 2
+# T27 Protein S12 39 43 2053 2057 IKK1
+# T28 Protein S12 44 45 2058 2059 2
+# T29 Protein S12 51 63 2065 2077 IkappaBalpha
+# T30 Protein S12 67 79 2081 2093 IkappaBalpha
+$ T25 Protein S12 29 33 2043 2047 IKK1
+$ T26 Protein S12 34 35 2048 2049 2
+$ T29 Protein S12 51 63 2065 2077 IkappaBalpha
+@ T53 Phosphorylation S12 14 28 2028 2042 phosphorylated
+@ T54 Negative_regulation S12 136 145 2150 2159 decreased
+% E18 Phosphorylation:T53 Theme:T25
+% E19 Phosphorylation:T53 Theme:T26
+% E20 Phosphorylation:T53 Theme:T29
+% E21 Negative_regulation:T54 Theme:E18
+% E22 Negative_regulation:T54 Theme:E19
+% E23 Negative_regulation:T54 Theme:E20
+
+The cpdm BMDC exhibited similar levels of TBK1, ERK1/2, and p38 phosphorylation to those of WT cells (Fig. 6).
+# T31 Protein S13 42 46 2254 2258 TBK1
+# T32 Protein S13 48 52 2260 2264 ERK1
+# T33 Protein S13 53 54 2265 2266 2
+$ T31 Protein S13 42 46 2254 2258 TBK1
+$ T32 Protein S13 48 52 2260 2264 ERK1
+$ T33 Protein S13 53 54 2265 2266 2
+@ T55 Phosphorylation S13 64 79 2276 2291 phosphorylation
+% E24 Phosphorylation:T55 Theme:T31
+% E25 Phosphorylation:T55 Theme:T32
+% E26 Phosphorylation:T55 Theme:T33
+
+These results indicate that the absence of functional SHARPIN decreased NF-kappaB activation but did not affect TBK1/IRF3, ERK1/2, and p38 signaling in BMDC.
+# T34 Protein S14 54 61 2377 2384 SHARPIN
+# T35 Protein S14 112 116 2435 2439 TBK1
+# T36 Protein S14 117 121 2440 2444 IRF3
+# T37 Protein S14 123 127 2446 2450 ERK1
+# T38 Protein S14 128 129 2451 2452 2
+$ T34 Protein S14 54 61 2377 2384 SHARPIN
+@ T56 Negative_regulation S14 32 39 2355 2362 absence
+% E27 Negative_regulation:T56 Theme:T34
+

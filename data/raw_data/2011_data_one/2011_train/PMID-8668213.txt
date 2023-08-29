@@ -1,0 +1,59 @@
+Recombinant NFAT1 (NFATp) is regulated by calcineurin in T cells and mediates transcription of several cytokine genes.
+# T1 Protein S1 12 17 12 17 NFAT1
+# T2 Protein S1 19 24 19 24 NFATp
+
+Transcription factors of the NFAT family play a key role in the transcription of cytokine genes and other genes during the immune response.
+
+We have identified two new isoforms of the transcription factor NFAT1 (previously termed NFATp) that are the predominant isoforms expressed in murine and human T cells.
+# T3 Protein S3 64 69 324 329 NFAT1
+# T4 Protein S3 89 94 349 354 NFATp
+
+When expressed in Jurkat T cells, recombinant NFAT1 is regulated, as expected, by the calmodulin-dependent phosphatase calcineurin, and its function is inhibited by the immunosuppressive agent cyclosporin A (CsA).
+# T5 Protein S4 46 51 475 480 NFAT1
+# T6 Protein S4 86 96 515 525 calmodulin
+
+Transactivation by recombinant NFAT1 in Jurkat T cells requires dual stimulation with ionomycin and phorbol 12-myristate 13-acetate; this activity is potentiated by coexpression of constitutively active calcineurin and is inhibited by CsA.
+# T7 Protein S5 31 36 674 679 NFAT1
+
+Immunocytochemical analysis indicates that recombinant NFAT1 localizes in the cytoplasm of transiently transfected T cells and translocates into the nucleus in a CsA-sensitive manner following ionomycin stimulation.
+# T8 Protein S6 55 60 938 943 NFAT1
+
+When expressed in COS cells, however, NFAT1 is capable of transactivation, but it is not regulated correctly: its subcellular localization and transcriptional function are not affected by stimulation of the COS cells with ionomycin and phorbol 12-myristate 13-acetate.
+# T9 Protein S7 38 43 1137 1142 NFAT1
+$ T9 Protein S7 38 43 1137 1142 NFAT1
+@ T16 Gene_expression S7 5 14 1104 1113 expressed
+% E1 Gene_expression:T16 Theme:T9
+
+Recombinant NFAT1 can mediate transcription of the interleukin-2, interleukin-4, tumor necrosis factor alpha, and granulocyte-macrophage colony-stimulating factor promoters in T cells, suggesting that NFAT1 contributes to the CsA-sensitive transcription of these genes during the immune response.
+# T10 Protein S8 12 17 1380 1385 NFAT1
+# T11 Protein S8 51 64 1419 1432 interleukin-2
+# T12 Protein S8 66 79 1434 1447 interleukin-4
+# T13 Protein S8 81 108 1449 1476 tumor necrosis factor alpha
+# T14 Protein S8 114 162 1482 1530 granulocyte-macrophage colony-stimulating factor
+# T15 Protein S8 201 206 1569 1574 NFAT1
+$ T14 Protein S8 114 162 1482 1530 granulocyte-macrophage colony-stimulating factor
+$ T12 Protein S8 66 79 1434 1447 interleukin-4
+$ T13 Protein S8 81 108 1449 1476 tumor necrosis factor alpha
+$ T11 Protein S8 51 64 1419 1432 interleukin-2
+$ T15 Protein S8 201 206 1569 1574 NFAT1
+@ T17 Positive_regulation S8 22 29 1390 1397 mediate
+@ T18 Transcription S8 30 43 1398 1411 transcription
+@ T19 Positive_regulation S8 207 218 1575 1586 contributes
+@ T20 Transcription S8 240 253 1608 1621 transcription
+% E2 Positive_regulation:T17 Theme:E8
+% E3 Positive_regulation:T17 Theme:E7
+% E4 Positive_regulation:T17 Theme:E9
+% E5 Positive_regulation:T17 Theme:E6
+% E6 Transcription:T18 Theme:T14
+% E7 Transcription:T18 Theme:T12
+% E8 Transcription:T18 Theme:T13
+% E9 Transcription:T18 Theme:T11
+% E10 Positive_regulation:T19 Theme:E17 Cause:T15
+% E11 Positive_regulation:T19 Theme:E15 Cause:T15
+% E12 Positive_regulation:T19 Theme:E16 Cause:T15
+% E13 Positive_regulation:T19 Theme:E14 Cause:T15
+% E14 Transcription:T20 Theme:T14
+% E15 Transcription:T20 Theme:T12
+% E16 Transcription:T20 Theme:T13
+% E17 Transcription:T20 Theme:T11
+

@@ -1,0 +1,77 @@
+Negative transcriptional regulation of human interleukin 2 (IL-2) gene by glucocorticoids through interference with nuclear transcription factors AP-1 and NF-AT.
+# T1 Protein S1 45 58 45 58 interleukin 2
+# T2 Protein S1 60 64 60 64 IL-2
+$ T2 Protein S1 60 64 60 64 IL-2
+@ T12 Negative_regulation S1 0 35 0 35 Negative transcriptional regulation
+% E1 Negative_regulation:T12 Theme:T2
+
+IL-2 gene transcription is affected by several nuclear proteins.
+# T3 Protein S2 0 4 163 167 IL-2
+$ T3 Protein S2 0 4 163 167 IL-2
+@ T13 Transcription S2 10 23 173 186 transcription
+@ T14 Regulation S2 27 35 190 198 affected
+% E2 Transcription:T13 Theme:T3
+% E3 Regulation:T14 Theme:E2
+
+We asked whether dexamethasone (Dex) and cyclosporin A (CsA) inhibit IL-2 gene transcription by interfering with the activity of nuclear proteins that bind to the IL-2 promoter.
+# T4 Protein S3 69 73 297 301 IL-2
+# T5 Protein S3 163 167 391 395 IL-2
+$ T4 Protein S3 69 73 297 301 IL-2
+$ T5 Protein S3 163 167 391 395 IL-2
+@ T15 Negative_regulation S3 61 68 289 296 inhibit
+@ T16 Transcription S3 79 92 307 320 transcription
+@ T17 Binding S3 151 155 379 383 bind
+@ T18 Entity S3 168 176 396 404 promoter
+% E4 Negative_regulation:T15 Theme:E5
+% E5 Transcription:T16 Theme:T4
+% E6 Binding:T17 Theme:T5 Site:T18
+
+Nuclear extracts from primary human T lymphocytes were analyzed by electrophoretic DNA mobility shift assays.
+
+Both Dex and CsA inhibited the binding of transcription factors AP-1 and NF-AT, but not of NF-kB and OCT-1/OAF, to their corresponding sites on the IL-2 gene promoter.
+# T6 Protein S5 148 152 664 668 IL-2
+$ T6 Protein S5 148 152 664 668 IL-2
+@ T19 Negative_regulation S5 17 26 533 542 inhibited
+@ T20 Binding S5 31 38 547 554 binding
+@ T21 Entity S5 115 140 631 656 their corresponding sites
+% E7 Negative_regulation:T19 Theme:E8
+% E8 Binding:T20 Theme:T6 Site:T21
+
+To correlate changes in nuclear factor binding in vitro with transcriptional activity in vivo and define the structural requirements for IL-2 promoter repression, we used transient DNA transfections.
+# T7 Protein S6 137 141 821 825 IL-2
+$ T7 Protein S6 137 141 821 825 IL-2
+@ T22 Positive_regulation S6 120 132 804 816 requirements
+@ T23 Entity S6 142 150 826 834 promoter
+@ T24 Negative_regulation S6 151 161 835 845 repression
+% E9 Positive_regulation:T22 Theme:E10
+% E10 Negative_regulation:T24 Theme:T7 Site:T23
+
+Jurkat cells were transfected with plasmids containing either the intact IL-2 promoter or its AP-1, NF-AT, and NF-kB motifs.
+# T8 Protein S7 73 77 957 961 IL-2
+
+Dex inhibited the IL-2 promoter and the AP-1, but not the NF-AT and NF-kB plasmids.
+# T9 Protein S8 18 22 1027 1031 IL-2
+$ T9 Protein S8 18 22 1027 1031 IL-2
+@ T25 Negative_regulation S8 4 13 1013 1022 inhibited
+% E11 Negative_regulation:T25 Theme:T9
+
+In contrast, CsA inhibited the IL-2 promoter and the NF-AT, but not the AP-1 and NF-kB plasmids.
+# T10 Protein S9 31 35 1124 1128 IL-2
+$ T10 Protein S9 31 35 1124 1128 IL-2
+@ T26 Negative_regulation S9 17 26 1110 1119 inhibited
+% E12 Negative_regulation:T26 Theme:T10
+
+These results suggest that in human T lymphocytes both Dex and CsA inhibited IL-2 gene transcription through interference with transcription factors AP-1 and NF-AT.
+# T11 Protein S10 77 81 1267 1271 IL-2
+$ T11 Protein S10 77 81 1267 1271 IL-2
+@ T27 Negative_regulation S10 67 76 1257 1266 inhibited
+@ T28 Transcription S10 87 100 1277 1290 transcription
+% E13 Negative_regulation:T27 Theme:E14
+% E14 Transcription:T28 Theme:T11
+
+We propose that, while maximum inhibition may involve interaction with both transcription factors, AP-1 is the primary target of Dex.
+@ T29 Negative_regulation S11 31 41 1386 1396 inhibition
+@ T30 Positive_regulation S11 46 53 1401 1408 involve
+% E15 Negative_regulation:T29 Theme:E14
+% E16 Positive_regulation:T30 Theme:E15
+

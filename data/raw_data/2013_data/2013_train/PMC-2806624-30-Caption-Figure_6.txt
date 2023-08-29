@@ -1,0 +1,77 @@
+CbfbF/F CD4-cre mouse cells and iT reg cells generated from human naive CD4+ T cells undergoing siRNA-mediated RUNX1 and RUNX3 knock down show a diminished suppressive activity.
+# T1 Protein S1 0 4 0 4 Cbfb
+# T2 Protein S1 8 15 8 15 CD4-cre
+# T3 Protein S1 72 75 72 75 CD4
+# T4 Protein S1 111 116 111 116 RUNX1
+# T5 Protein S1 121 126 121 126 RUNX3
+$ T4 Protein S1 111 116 111 116 RUNX1
+$ T5 Protein S1 121 126 121 126 RUNX3
+@ T39 Positive_regulation S1 102 110 102 110 mediated
+@ T40 Negative_regulation S1 127 137 127 137 knock down
+% E1 Positive_regulation:T39 Theme:E2
+% E3 Positive_regulation:T39 Theme:E4
+% E2 Negative_regulation:T40 Theme:T4
+% E4 Negative_regulation:T40 Theme:T5
+
+Experimental setup (A) and results of the mouse suppression assay (B), FACS-purified naive CD4+8- T cells from CbfbF/F CD4-cre (left) and control CbfbF/+ CD4-cre mice (Cd45.2; right) were activated in vitro with anti-CD3/28 mAb, 50 U/ml IL-2, and 2.5 ng/ml TGF-beta.
+# T6 Protein S2 91 94 269 272 CD4
+# T7 Protein S2 95 96 273 274 8
+# T8 Protein S2 111 115 289 293 Cbfb
+# T9 Protein S2 119 126 297 304 CD4-cre
+# T10 Protein S2 146 150 324 328 Cbfb
+# T11 Protein S2 154 161 332 339 CD4-cre
+# T12 Protein S2 168 174 346 352 Cd45.2
+# T13 Protein S2 217 220 395 398 CD3
+# T14 Protein S2 221 223 399 401 28
+# T15 Protein S2 237 241 415 419 IL-2
+# T16 Protein S2 257 265 435 443 TGF-beta
+
+After 3 d, Foxp3-GFP+ cells were FACS-sorted and mixed with CFSE-loaded naive CD45.1+ CD4+ cells at the indicated ratios.
+# T17 Protein S3 11 20 456 465 Foxp3-GFP
+# T18 Protein S3 78 84 523 529 CD45.1
+# T19 Protein S3 86 89 531 534 CD4
+
+These were then incubated with inactivated splenocytes and anti-CD3 mAb.
+# T20 Protein S4 64 67 631 634 CD3
+
+After a further 4 d, CD45.1+ cells were analyzed for CFSE dilution.
+# T21 Protein S5 21 27 661 667 CD45.1
+
+(C) As a control, CbfbF/+ CD4-cre CD4+ T cells activated in absence of TGF-beta were mixed with CFSE-loaded naive CD45.1+ CD4+ cells at the indicated ratios.
+# T22 Protein S6 18 22 726 730 Cbfb
+# T23 Protein S6 26 33 734 741 CD4-cre
+# T24 Protein S6 34 37 742 745 CD4
+# T25 Protein S6 71 79 779 787 TGF-beta
+# T26 Protein S6 114 120 822 828 CD45.1
+# T27 Protein S6 122 125 830 833 CD4
+
+Four days later CD45.1+ cells were analyzed for CFSE dilution.
+# T28 Protein S7 16 22 882 888 CD45.1
+
+The median division number (of the naive CD45.1+ CD4+ cells in the cultures containing Foxp3-GFP+ cells) is indicated in each of the histograms.
+# T29 Protein S8 41 47 970 976 CD45.1
+# T30 Protein S8 49 52 978 981 CD4
+# T31 Protein S8 87 96 1016 1025 Foxp3-GFP
+
+One of three experiments is shown.
+
+(D) Human naive CD4+ T cells, transfected with RUNX1 and RUNX3 siRNA and cultured under iT reg differentiating conditions were used in an in vitro suppression assay, cultured together with autologous CFSE-labeled CD4+ T cells, and stimulated with anti-CD3 mAb.
+# T32 Protein S10 16 19 1125 1128 CD4
+# T33 Protein S10 47 52 1156 1161 RUNX1
+# T34 Protein S10 57 62 1166 1171 RUNX3
+# T35 Protein S10 213 216 1322 1325 CD4
+# T36 Protein S10 252 255 1361 1364 CD3
+$ T33 Protein S10 47 52 1156 1161 RUNX1
+$ T34 Protein S10 57 62 1166 1171 RUNX3
+@ T41 Negative_regulation S10 63 68 1172 1177 siRNA
+% E5 Negative_regulation:T41 Theme:T33
+% E6 Negative_regulation:T41 Theme:T34
+
+The CFSE dilution of the CD4+ T cell responder cells was analyzed after 5 d by flow cytometry.
+# T37 Protein S11 25 28 1395 1398 CD4
+
+The T reg/responder CD4+ T cell ratios used were 1:20, 1:10, and 1:5.
+# T38 Protein S12 20 23 1485 1488 CD4
+
+One of two experiments is shown.
+

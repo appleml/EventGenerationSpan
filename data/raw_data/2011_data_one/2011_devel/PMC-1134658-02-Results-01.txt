@@ -1,0 +1,46 @@
+BMP-6 inhibits anti-IgM induced proliferation of human B cells
+# T1 Protein S1 0 5 0 5 BMP-6
+
+The effects of BMP-6 on normal and neoplastic hematopoietic cells prompted us to investigate the effects of BMP-6 on normal human B cells.
+# T2 Protein S2 15 20 78 83 BMP-6
+# T3 Protein S2 108 113 171 176 BMP-6
+
+All experiments in this study were performed under serum-free conditions as FCS has been shown to interfere with BMP-signalling [14](own observations).
+
+To study the effect of BMP-6 on proliferation, B-cells from healthy volunteers were stimulated with anti-IgM and/or CD40L in the presence or absence of BMP-6 for three days.
+# T4 Protein S4 23 28 377 382 BMP-6
+# T5 Protein S4 116 121 470 475 CD40L
+# T6 Protein S4 152 157 506 511 BMP-6
+
+We found that BMP-6 led to a 35% mean reduction of anti-IgM- induced DNA synthesis (n = 8; p </= 0.0002, Figure 1A).
+# T7 Protein S5 14 19 542 547 BMP-6
+
+Similar results were obtained for B cells treated with anti-IgM and CD40L (26% mean reduction, n = 6; p </= 0.023).
+# T8 Protein S6 68 73 713 718 CD40L
+
+The BMP-6-induced inhibition of proliferation was dose-dependent in both peripheral B cells (Figure 1B) and the Burkitt lymphoma cell line Ramos (40% reduction of DNA synthesis, Figure 1C).
+# T9 Protein S7 4 9 765 770 BMP-6
+
+The BMP-6 effects could be reversed by addition of the extracellular inhibitor Noggin (Figure 1D).
+# T10 Protein S8 4 9 955 960 BMP-6
+# T11 Protein S8 79 85 1030 1036 Noggin
+
+Similarly, a combination of the soluble BMP receptors BMP-RIB-Fc and BMP-RII-Fc also neutralized the effects of BMP-6 (data not shown).
+# T12 Protein S9 54 61 1104 1111 BMP-RIB
+# T13 Protein S9 69 76 1119 1126 BMP-RII
+# T14 Protein S9 112 117 1162 1167 BMP-6
+
+Next, we wanted to test whether BMP-6 had different effect on naive and memory B cells.
+# T15 Protein S10 32 37 1218 1223 BMP-6
+
+Naive (CD19+CD27-) and memory (CD19+CD27+) B cells were isolated from peripheral blood by cell sorting of immunobead-isolated CD19+ B cells [15], and tested for their capacity to proliferate in the presence of BMP-6.
+# T16 Protein S11 7 11 1281 1285 CD19
+# T17 Protein S11 12 16 1286 1290 CD27
+# T18 Protein S11 31 35 1305 1309 CD19
+# T19 Protein S11 36 40 1310 1314 CD27
+# T20 Protein S11 126 130 1400 1404 CD19
+# T21 Protein S11 210 215 1484 1489 BMP-6
+
+However, BMP-6 inhibited anti-IgM induced DNA synthesis in the two subpopulations to a similar extent, with a mean reduction of DNA-synthesis of 45% (n = 5; p </= 0,004) for naive B cells and 48% (n = 5; p </= 0,001) for memory B cells (Figure 1E).
+# T22 Protein S12 9 14 1500 1505 BMP-6
+

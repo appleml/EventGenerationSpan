@@ -1,0 +1,102 @@
+Inactivation of IkappaBbeta by the tax protein of human T-cell leukemia virus type 1: a potential mechanism for constitutive induction of NF-kappaB.
+# T1 Protein S1 16 27 16 27 IkappaBbeta
+# T2 Protein S1 35 38 35 38 tax
+$ T1 Protein S1 16 27 16 27 IkappaBbeta
+$ T2 Protein S1 35 38 35 38 tax
+@ T24 Negative_regulation S1 0 12 0 12 Inactivation
+% E1 Negative_regulation:T24 Theme:T1 Cause:T2
+
+In resting T lymphocytes, the transcription factor NF-kappaB is sequestered in the cytoplasm via interactions with members of the I kappa B family of inhibitors, including IkappaBalpha and IkappaBbeta.
+# T3 Protein S2 172 184 322 334 IkappaBalpha
+# T4 Protein S2 189 200 339 350 IkappaBbeta
+$ T3 Protein S2 172 184 322 334 IkappaBalpha
+$ T4 Protein S2 189 200 339 350 IkappaBbeta
+@ T25 Binding S2 97 109 247 259 interactions
+% E2 Binding:T25 Theme:T3
+% E3 Binding:T25 Theme:T4
+
+During normal T-cell activation, IkappaBalpha is rapidly phosphorylated, ubiquitinated, and degraded by the 26S proteasome, thus permitting the release of functional NF-kappaB.
+# T5 Protein S3 33 45 385 397 IkappaBalpha
+$ T5 Protein S3 33 45 385 397 IkappaBalpha
+@ T26 Phosphorylation S3 57 71 409 423 phosphorylated
+@ T27 Protein_catabolism S3 92 100 444 452 degraded
+@ T28 Positive_regulation S3 101 103 453 455 by
+% E4 Phosphorylation:T26 Theme:T5
+% E5 Protein_catabolism:T27 Theme:T5
+% E6 Positive_regulation:T28 Theme:E5
+
+In contrast to its transient pattern of nuclear induction during an immune response, NF-kappaB is constitutively activated in cells expressing the Tax transforming protein of human T-cell leukemia virus type I (HTLV-1).
+# T6 Protein S4 147 150 676 679 Tax
+$ T6 Protein S4 147 150 676 679 Tax
+@ T29 Gene_expression S4 132 142 661 671 expressing
+% E7 Gene_expression:T29 Theme:T6
+
+Recent studies indicate that HTLV-1 Tax targets IkappaBalpha to the ubiquitin-proteasome pathway.
+# T7 Protein S5 36 39 785 788 Tax
+# T8 Protein S5 48 60 797 809 IkappaBalpha
+$ T7 Protein S5 36 39 785 788 Tax
+$ T8 Protein S5 48 60 797 809 IkappaBalpha
+@ T30 Positive_regulation S5 40 47 789 796 targets
+@ T31 Protein_catabolism S5 68 96 817 845 ubiquitin-proteasome pathway
+% E8 Positive_regulation:T30 Theme:E9 Cause:T7
+% E9 Protein_catabolism:T31 Theme:T8
+
+However, it remains unclear how this viral protein induces a persistent rather than transient NF-kappaB response.
+
+In this report, we provide evidence that in addition to acting on IkappaBalpha, Tax stimulates the turnover Of IkappaBbeta via a related targeting mechanism.
+# T9 Protein S7 66 78 1027 1039 IkappaBalpha
+# T10 Protein S7 80 83 1041 1044 Tax
+# T11 Protein S7 111 122 1072 1083 IkappaBbeta
+$ T9 Protein S7 66 78 1027 1039 IkappaBalpha
+$ T10 Protein S7 80 83 1041 1044 Tax
+@ T32 Regulation S7 56 62 1017 1023 acting
+% E10 Regulation:T32 Theme:T9 Cause:T10
+
+Like IkappaBalpha, Tax-mediated breakdown of IkappaBbeta in transfected T lymphocytes is blocked either by cell-permeable proteasome inhibitors or by mutation Of IkappaBbeta at two serine residues present within its N-terminal region.
+# T12 Protein S8 5 17 1124 1136 IkappaBalpha
+# T13 Protein S8 19 22 1138 1141 Tax
+# T14 Protein S8 45 56 1164 1175 IkappaBbeta
+# T15 Protein S8 162 173 1281 1292 IkappaBbeta
+$ T13 Protein S8 19 22 1138 1141 Tax
+$ T14 Protein S8 45 56 1164 1175 IkappaBbeta
+@ T33 Positive_regulation S8 23 31 1142 1150 mediated
+@ T34 Protein_catabolism S8 32 41 1151 1160 breakdown
+@ T35 Gene_expression S8 60 71 1179 1190 transfected
+@ T36 Positive_regulation S8 60 71 1179 1190 transfected
+@ T37 Negative_regulation S8 89 96 1208 1215 blocked
+% E11 Positive_regulation:T33 Theme:E12 Cause:T13
+% E12 Protein_catabolism:T34 Theme:T14
+% E13 Gene_expression:T35 Theme:T13
+% E14 Positive_regulation:T36 Theme:E13
+% E15 Negative_regulation:T37 Theme:E13
+
+Despite the dual specificity of HTLV-1 Tax for IkappaBalpha and IkappaBbeta at the protein level, Tax selectively stimulates NF-kappaB-directed transcription of the IkappaBalpha gene.
+# T16 Protein S9 39 42 1393 1396 Tax
+# T17 Protein S9 47 59 1401 1413 IkappaBalpha
+# T18 Protein S9 64 75 1418 1429 IkappaBbeta
+# T19 Protein S9 98 101 1452 1455 Tax
+# T20 Protein S9 165 177 1519 1531 IkappaBalpha
+$ T19 Protein S9 98 101 1452 1455 Tax
+$ T20 Protein S9 165 177 1519 1531 IkappaBalpha
+@ T38 Positive_regulation S9 114 124 1468 1478 stimulates
+@ T39 Positive_regulation S9 135 143 1489 1497 directed
+@ T40 Transcription S9 144 157 1498 1511 transcription
+% E16 Positive_regulation:T38 Theme:E17 Cause:T19
+% E17 Positive_regulation:T39 Theme:E18
+% E18 Transcription:T40 Theme:T20
+
+Consequently, IkappaBbeta protein expression is chronically downregulated in HTLV-1-infected T lymphocytes.
+# T21 Protein S10 14 25 1552 1563 IkappaBbeta
+$ T21 Protein S10 14 25 1552 1563 IkappaBbeta
+@ T41 Gene_expression S10 34 44 1572 1582 expression
+@ T42 Negative_regulation S10 60 73 1598 1611 downregulated
+% E19 Gene_expression:T41 Theme:T21
+% E20 Negative_regulation:T42 Theme:E19
+
+These findings with IkappaBbeta provide a potential mechanism for the constitutive activation of NF-kappaB in Tax-expressing cells.
+# T22 Protein S11 20 31 1666 1677 IkappaBbeta
+# T23 Protein S11 110 113 1756 1759 Tax
+$ T23 Protein S11 110 113 1756 1759 Tax
+@ T43 Gene_expression S11 114 124 1760 1770 expressing
+% E21 Gene_expression:T43 Theme:T23
+

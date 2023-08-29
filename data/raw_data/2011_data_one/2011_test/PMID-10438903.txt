@@ -1,0 +1,35 @@
+Cutting edge: TCR stimulation by antibody and bacterial superantigen induces Stat3 activation in human T cells.
+# T1 Protein S1 77 82 77 82 Stat3
+
+Recent data show that TCR/CD3 stimulation induces activation of Stat5 in murine T cells.
+# T2 Protein S2 64 69 177 182 Stat5
+
+Here, we show that CD3 ligation by mAb and Staphylococcal enterotoxin (SE) induce a rapid, gradually accumulating, long-lasting tyrosine, and serine phosphorylation of Stat3 (but not Stat5) in allogen-specific human CD4+ T cell lines.
+# T3 Protein S3 168 173 370 375 Stat3
+# T4 Protein S3 183 188 385 390 Stat5
+
+In contrast, IL-2 induces a rapid and transient tyrosine and serine phosphorylation of Stat3.
+# T5 Protein S4 13 17 450 454 IL-2
+# T6 Protein S4 87 92 524 529 Stat3
+
+Compared with IL-2, CD3 ligation induces a delayed Stat3 binding to oligonucleotide probes from the ICAM-1 and IL-2R alpha promoter.
+# T7 Protein S5 14 18 545 549 IL-2
+# T8 Protein S5 20 23 551 554 CD3
+# T9 Protein S5 51 56 582 587 Stat3
+# T10 Protein S5 100 106 631 637 ICAM-1
+# T11 Protein S5 111 122 642 653 IL-2R alpha
+
+CD3-mediated activation of Stat3 is almost completely inhibited by a Src kinase inhibitor (PP1), whereas IL-2-induced Stat3 activation is unaffected.
+# T12 Protein S6 0 3 664 667 CD3
+# T13 Protein S6 27 32 691 696 Stat3
+# T14 Protein S6 105 109 769 773 IL-2
+# T15 Protein S6 118 123 782 787 Stat3
+
+In conclusion, we show that CD3 ligation by mAb and SE triggers a rapid, PP1-sensitive tyrosine and serine phosphorylation of Stat3 in human CD4+ T cells.
+# T16 Protein S7 28 31 842 845 CD3
+# T17 Protein S7 126 131 940 945 Stat3
+
+Moreover, we provide evidence that TCR/CD3 and IL-2 induce Stat3 activation via distinct signaling pathways.
+# T18 Protein S8 47 51 1016 1020 IL-2
+# T19 Protein S8 59 64 1028 1033 Stat3
+

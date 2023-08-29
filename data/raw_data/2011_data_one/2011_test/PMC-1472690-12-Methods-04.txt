@@ -1,0 +1,17 @@
+Oligonucleotides (Oligos) and 5'-32-P-Labeling
+
+The complementary double-stranded (ds) oligonucleotides (oligos) from the TNFalpha, IL-8, IFNgamma and IL-6 promoters were synthesised from single stranded (ss) oligos (illustrated in Table 1), (TIB Molbiol, Berlin, Germany) and 32P-labeled with 5'gamma-P-ATP (3,000 Ci/mmol, Amersham, Braunschweig, Germany) using the Ready-To-Go-Polynucleotide-Kinase Kit (PNK Kit, Pharmacia LKB, Freiburg, Germany) according to the manufacturer's instructions.
+# T1 Protein S2 74 82 121 129 TNFalpha
+# T2 Protein S2 84 88 131 135 IL-8
+# T3 Protein S2 90 98 137 145 IFNgamma
+# T4 Protein S2 103 107 150 154 IL-6
+
+To test the binding specificity of the oligos, mutated oligos were used as an additional control.
+
+Mutations in the P2 site of the IFNgamma promoter [29] and in the kappa consensus sequence of the TNFalpha promoter [55] have been reported to interfere with sequences, which seem to be crucial for the binding of NFAT and NFkappaB proteins, respectively.
+# T5 Protein S4 32 40 624 632 IFNgamma
+# T6 Protein S4 98 106 690 698 TNFalpha
+# T7 Protein S4 213 217 805 809 NFAT
+
+Afterwards, the ds oligos were purified via gel filtration using Probe Quant G-50 Micro Columns (Pharmacia) according to the manufacturer's instructions.
+

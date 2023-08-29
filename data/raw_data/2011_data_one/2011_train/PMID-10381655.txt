@@ -1,0 +1,32 @@
+NF-kappaB functions as both a proapoptotic and antiapoptotic regulatory factor within a single cell type.
+
+Recently NF-kappaB has been shown to have both proapoptotic and antiapoptotic functions.
+
+In T cell hybridomas, both T cell activators and glucocorticoids induce apoptosis.
+
+Here we show that blockade of NF-kappaB activity, using a dominant negative IkappaBalpha, has opposite effects on these two apoptotic signals.
+# T1 Protein S4 76 88 355 367 IkappaBalpha
+
+Treatment with PMA plus ionomycin (P/I) results in the upregulation of Fas Ligand (FasL) and induction of apoptosis.
+# T2 Protein S5 71 81 493 503 Fas Ligand
+# T3 Protein S5 83 87 505 509 FasL
+$ T3 Protein S5 83 87 505 509 FasL
+@ T5 Positive_regulation S5 55 67 477 489 upregulation
+% E1 Positive_regulation:T5 Theme:T3
+
+Inhibition of NF-kappaB activity inhibits the P/I mediated induction of FasL mRNA and decreases the level of apoptosis in these cultures, thus establishing NF-kappaB as a proapoptotic factor in this context.
+# T4 Protein S6 72 76 611 615 FasL
+$ T4 Protein S6 72 76 611 615 FasL
+@ T6 Negative_regulation S6 33 41 572 580 inhibits
+@ T7 Positive_regulation S6 50 58 589 597 mediated
+@ T8 Transcription S6 59 68 598 607 induction
+% E2 Negative_regulation:T6 Theme:E4
+% E3 Positive_regulation:T7 Theme:E4
+% E4 Transcription:T8 Theme:T4
+
+Conversely, inhibition of NF-kappaB confers a tenfold increase in glucocorticoid mediated apoptosis, establishing that NF-kappaB also functions as an antiapoptotic factor.
+
+We conclude that NF-kappaB is a context-dependent apoptosis regulator.
+
+Our data suggests that NF-kappaB may function as an antiapoptotic factor in thymocytes while functioning as a proapoptotic factor in mature peripheral T cells.
+

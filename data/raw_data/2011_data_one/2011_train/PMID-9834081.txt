@@ -1,0 +1,68 @@
+Signaling pathways mediated by the TNF- and cytokine-receptor families target a common cis-element of the IFN regulatory factor 1 promoter.
+# T1 Protein S1 106 129 106 129 IFN regulatory factor 1
+$ T1 Protein S1 106 129 106 129 IFN regulatory factor 1
+@ T21 Regulation S1 71 77 71 77 target
+@ T22 Entity S1 130 138 130 138 promoter
+% E1 Regulation:T21 Theme:T1 Site:T22
+
+CD40 activation of B cells is strongly influenced by the presence of cytokines.
+# T2 Protein S2 0 4 141 145 CD40
+
+However, the molecular basis for the interplay between these distinct stimuli is not clearly delineated.
+
+IFN regulatory factor 1 (IRF-1) is a transcription factor activated by either CD40 or cytokines.
+# T3 Protein S4 0 23 326 349 IFN regulatory factor 1
+# T4 Protein S4 25 30 351 356 IRF-1
+# T5 Protein S4 78 82 404 408 CD40
+$ T4 Protein S4 25 30 351 356 IRF-1
+$ T5 Protein S4 78 82 404 408 CD40
+@ T23 Positive_regulation S4 58 67 384 393 activated
+% E2 Positive_regulation:T23 Theme:T4 Cause:T5
+% E3 Positive_regulation:T23 Theme:T4
+
+We have found that these different sets of signals target a common cis-acting element in the promoter of this gene, the IRF-1 gamma-activated site (GAS).
+# T6 Protein S5 120 125 543 548 IRF-1
+
+Targeting of the IRF-1 GAS is not confined to activation via CD40 but extends to other stimuli that mimic the CD40 signaling cascade, like TNF-alpha and EBV.
+# T7 Protein S6 17 22 594 599 IRF-1
+# T8 Protein S6 61 65 638 642 CD40
+# T9 Protein S6 110 114 687 691 CD40
+# T10 Protein S6 139 148 716 725 TNF-alpha
+$ T8 Protein S6 61 65 638 642 CD40
+$ T10 Protein S6 139 148 716 725 TNF-alpha
+@ T24 Positive_regulation S6 46 56 623 633 activation
+% E4 Positive_regulation:T24 Theme:T4
+% E5 Positive_regulation:T24 Theme:T4 Cause:T8
+% E6 Positive_regulation:T24 Theme:T4 Cause:T10
+
+In contrast to induction of STATs by cytokines, the IRF-1 GAS-binding complex activated by CD40, TNF-alpha, or EBV contains Rel proteins, specifically p50 and p65.
+# T11 Protein S7 52 57 787 792 IRF-1
+# T12 Protein S7 91 95 826 830 CD40
+# T13 Protein S7 97 106 832 841 TNF-alpha
+# T14 Protein S7 151 154 886 889 p50
+# T15 Protein S7 159 162 894 897 p65
+$ T11 Protein S7 52 57 787 792 IRF-1
+$ T13 Protein S7 97 106 832 841 TNF-alpha
+$ T12 Protein S7 91 95 826 830 CD40
+$ T14 Protein S7 151 154 886 889 p50
+$ T15 Protein S7 159 162 894 897 p65
+@ T25 Positive_regulation S7 78 87 813 822 activated
+@ T26 Binding S7 115 123 850 858 contains
+% E7 Positive_regulation:T25 Theme:T11
+% E8 Positive_regulation:T25 Theme:T11 Cause:T13
+% E9 Positive_regulation:T25 Theme:T11 Cause:T12
+% E10 Binding:T26 Theme:T14
+% E11 Binding:T26 Theme:T15
+
+In this system, simultaneous exposure to CD40L together with either IL-4 or IFN-gamma does not lead to the activation of novel Rel/STAT complexes.
+# T16 Protein S8 41 46 940 945 CD40L
+# T17 Protein S8 68 72 967 971 IL-4
+# T18 Protein S8 76 85 975 984 IFN-gamma
+
+Given the importance of IRF-1 in a variety of biologic functions from proliferation to apoptosis, our findings support the notion that modulation of IRF-1 levels may be a critical control point in B cell activation.
+# T19 Protein S9 24 29 1070 1075 IRF-1
+# T20 Protein S9 149 154 1195 1200 IRF-1
+$ T20 Protein S9 149 154 1195 1200 IRF-1
+@ T27 Regulation S9 135 145 1181 1191 modulation
+% E12 Regulation:T27 Theme:T20
+

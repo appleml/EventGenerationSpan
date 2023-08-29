@@ -1,0 +1,88 @@
+The hematopoietic transcription factor PU.1 is downregulated in human multiple myeloma cell lines.
+# T1 Protein S1 39 43 39 43 PU.1
+$ T1 Protein S1 39 43 39 43 PU.1
+@ T12 Negative_regulation S1 47 60 47 60 downregulated
+% E1 Negative_regulation:T12 Theme:T1
+
+PU.1 is a hematopoietic transcription factor belonging to the Ets-family.
+# T2 Protein S2 0 4 100 104 PU.1
+
+It is identical to the Spi-1 oncogene, which is implicated in spleen focus-forming virus-induced murine erythroleukemias.
+# T3 Protein S3 23 28 197 202 Spi-1
+
+PU.1 seems to be required for early development of multiple hematopoietic lineages, but its expression in mature cells is preferentially observed in cells of the B-cell-and monocyte/macrophage-differentiation lineage.
+# T4 Protein S4 0 4 296 300 PU.1
+$ T4 Protein S4 0 4 296 300 PU.1
+@ T13 Gene_expression S4 92 102 388 398 expression
+% E2 Gene_expression:T13 Theme:T4
+
+It binds the so-called Pu box, an important tissue-specific regulatory DNA element present in a number of genes expressed in these cell lineages.
+@ T14 Binding S5 3 8 517 522 binds
+% E3 Binding:T14 Theme:T4
+
+We have analyzed the expression and activity of PU.1 during human B-cell development using a panel of B-cell lines representing different stages of maturation, from early precursors to differentiated plasma cells.
+# T5 Protein S6 48 52 708 712 PU.1
+$ T5 Protein S6 48 52 708 712 PU.1
+@ T15 Gene_expression S6 21 31 681 691 expression
+@ T16 Positive_regulation S6 36 44 696 704 activity
+% E4 Gene_expression:T15 Theme:T5
+% E5 Positive_regulation:T16 Theme:T5
+
+PU.1 mRNA expression and PU.1 DNA binding activity, as measured by Northern blot analysis and electrophoretic mobility shift assay, respectively, were evident in cell lines representing pro-B, pre-B, and mature B cells.
+# T6 Protein S7 0 4 874 878 PU.1
+# T7 Protein S7 25 29 899 903 PU.1
+$ T6 Protein S7 0 4 874 878 PU.1
+$ T7 Protein S7 25 29 899 903 PU.1
+@ T17 Transcription S7 10 20 884 894 expression
+@ T18 Binding S7 34 50 908 924 binding activity
+% E6 Transcription:T17 Theme:T6
+% E7 Binding:T18 Theme:T7
+
+We could also show Pu box-dependent transactivation of a reporter gene in transient transfections in these cell lines.
+
+In contrast, in a number of multiple myeloma cell lines, representing differentiated, plasma cell-like B cells, PU.1 DNA binding activity, mRNA expression, and Pu box-dependent transactivation were absent or detectable at a very low level.
+# T8 Protein S9 112 116 1325 1329 PU.1
+@ T19 Negative_regulation S9 198 238 1411 1451 absent or detectable at a very low level
+% E8 Negative_regulation:T19 Theme:E6
+% E9 Negative_regulation:T19 Theme:E7
+
+In lymphoblastoid cell lines, which exemplify an intermediate stage of B-cell differentiation, a reduced expression and activity were observed.
+@ T20 Negative_regulation S10 97 104 1550 1557 reduced
+@ T21 Gene_expression S10 105 115 1558 1568 expression
+@ T22 Positive_regulation S10 120 128 1573 1581 activity
+% E10 Negative_regulation:T20 Theme:E12
+% E11 Negative_regulation:T20 Theme:E13
+% E12 Gene_expression:T21 Theme:T8
+% E13 Positive_regulation:T22 Theme:T8
+
+The findings in the human multiple myeloma cell lines represent the first examples of B cells with downregulated PU.1 expression and apparently contradict observations in the murine system in which PU.1 is expressed and active in plasmacytoma cell lines.
+# T9 Protein S11 113 117 1710 1714 PU.1
+# T10 Protein S11 198 202 1795 1799 PU.1
+$ T9 Protein S11 113 117 1710 1714 PU.1
+$ T10 Protein S11 198 202 1795 1799 PU.1
+@ T23 Negative_regulation S11 99 112 1696 1709 downregulated
+@ T24 Gene_expression S11 118 128 1715 1725 expression
+@ T25 Gene_expression S11 206 215 1803 1812 expressed
+@ T26 Positive_regulation S11 220 226 1817 1823 active
+% E14 Negative_regulation:T23 Theme:E15
+% E15 Gene_expression:T24 Theme:T9
+% E16 Gene_expression:T25 Theme:T10
+% E17 Positive_regulation:T26 Theme:T10
+
+At present, it is unclear whether the lack of PU.1 expression and activity in human multiple myeloma cell lines represents a malignancy-associated defect in these cells or exemplifies a normal developmental regulation in terminally differentiated B cells.
+# T11 Protein S12 46 50 1898 1902 PU.1
+$ T11 Protein S12 46 50 1898 1902 PU.1
+@ T27 Negative_regulation S12 38 42 1890 1894 lack
+@ T28 Gene_expression S12 51 61 1903 1913 expression
+@ T29 Positive_regulation S12 66 74 1918 1926 activity
+@ T30 Regulation S12 136 146 1988 1998 associated
+@ T31 Regulation S12 193 217 2045 2069 developmental regulation
+% E18 Negative_regulation:T27 Theme:E21
+% E19 Negative_regulation:T27 Theme:E20
+% E20 Gene_expression:T28 Theme:T11
+% E21 Positive_regulation:T29 Theme:T11
+% E22 Regulation:T30 Theme:E18
+% E23 Regulation:T30 Theme:E19
+% E24 Regulation:T31 Theme:E19
+% E25 Regulation:T31 Theme:E18
+

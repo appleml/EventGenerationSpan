@@ -1,0 +1,42 @@
+Modulation of the expression of the IFN-gamma receptor beta-chain controls responsiveness to IFN-gamma in human peripheral blood T cells.
+# T1 Protein S1 36 65 36 65 IFN-gamma receptor beta-chain
+# T2 Protein S1 93 102 93 102 IFN-gamma
+$ T1 Protein S1 36 65 36 65 IFN-gamma receptor beta-chain
+@ T14 Regulation S1 0 10 0 10 Modulation
+@ T15 Gene_expression S1 18 28 18 28 expression
+% E1 Regulation:T14 Theme:E2
+% E2 Gene_expression:T15 Theme:T1
+
+IFN-gamma has potent antiproliferative and apoptotic effects in T cells that are important in determining T cell development and polarized differentiation.
+# T3 Protein S2 0 9 139 148 IFN-gamma
+
+Therefore, any event that enables T cells to become less responsive to IFN- gamma may potentially alter immune responsiveness to Ag.
+# T4 Protein S3 71 81 366 376 IFN- gamma
+
+In this work, we show that human peripheral blood T cells that are stimulated through the TCR and expanded with IL-2 are unresponsive to IFN-gamma, as determined by a lack of activation of jak kinases and the transcription factor, STAT1(alpha), a signal transducer and activator of transcription.
+# T5 Protein S4 112 116 540 544 IL-2
+# T6 Protein S4 137 146 565 574 IFN-gamma
+# T7 Protein S4 231 243 659 671 STAT1(alpha)
+$ T7 Protein S4 231 243 659 671 STAT1(alpha)
+@ T16 Positive_regulation S4 175 185 603 613 activation
+% E3 Positive_regulation:T16 Theme:T7
+
+This nonresponsiveness occurs because of a lack of expression of the beta- chain (accessory factor) of the IFN-gamma receptor, while at the same time maintaining IFN-gamma receptor alpha-chain expression.
+# T8 Protein S5 162 192 887 917 IFN-gamma receptor alpha-chain
+$ T8 Protein S5 162 192 887 917 IFN-gamma receptor alpha-chain
+@ T17 Gene_expression S5 193 203 918 928 expression
+% E4 Gene_expression:T17 Theme:T8
+
+Expression of the beta-chain can be restored by secondary TCR ligation or PMA treatment.
+
+T cell blasts treated with PMA are now responsive to IFN-gamma.
+# T9 Protein S7 53 62 1072 1081 IFN-gamma
+
+When freshly isolated, highly enriched (>98%) T cells are examined for IFN-gamma responsiveness; these cells can respond to IFN-gamma and express beta-chain.
+# T10 Protein S8 71 80 1154 1163 IFN-gamma
+# T11 Protein S8 124 133 1207 1216 IFN-gamma
+
+Therefore, as T cells progress from primary TCR activation through IL-2-dependent proliferation, followed by secondary TCR stimulation, their responsiveness to IFN-gamma varies, and this may affect their ability to participate in an ongoing immune response.
+# T12 Protein S9 67 71 1308 1312 IL-2
+# T13 Protein S9 160 169 1401 1410 IFN-gamma
+

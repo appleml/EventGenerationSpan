@@ -1,0 +1,8 @@
+Accession Numbers
+
+The GenBank (http://www.ncbi.nlm.nih.gov/Genbank/) accession number for the EBV genome sequence is AJ507799.
+
+The gene identifier for LMP1 is BNLF1.
+# T1 Protein S3 24 28 151 155 LMP1
+# T2 Protein S3 32 37 159 164 BNLF1
+

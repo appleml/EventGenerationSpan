@@ -1,0 +1,56 @@
+Schematic diagrams of WWOX structure and its role in signaling.
+# T1 Protein S1 22 26 22 26 WWOX
+
+WWOX contains two N-terminal WW domains, a C-terminal short-chain alcohol dehydrogenase/reductase (SDR) domain, and a D3 region.
+# T2 Protein S2 0 4 64 68 WWOX
+
+A nuclear localization signal (NLS) is in between the WW domains (Chang et al., 2003, 2007; Del Mare et al., 2011; Salah et al., 2012; Su et al., 2012; reviews).
+
+The SDR domain possesses a mitochondria-binding region.
+
+There are two conserved tyrosine phosphorylation sites, Tyr33 and Tyr287.
+
+Other phosphorylation sites predicted by NetPhos 2.0 Server are Tyr6, Thr12, Ser14, Tyr61, Tyr293, and Thr3B3, respectively.
+
+Upon stress stimulation, WWOX is phosphorylated in Tyr33 and binds p53.
+# T3 Protein S7 25 29 635 639 WWOX
+# T4 Protein S7 67 70 677 680 p53
+
+The WWOX/p53 complex then translocates to mitochondria or nucleus to induce apoptosis.
+
+WWOX also binds PPxY motif-containing transcription factors, such as RUNX2, c-Jun, and ERBB4, via its first WW domain, and the binding blocks the activity of these proteins by retaining them in the cytoplasm.
+# T5 Protein S9 0 4 769 773 WWOX
+# T6 Protein S9 69 74 838 843 RUNX2
+# T7 Protein S9 76 81 845 850 c-Jun
+# T8 Protein S9 87 92 856 861 ERBB4
+
+WWOX binds Tau via its SDR domain.
+# T9 Protein S10 0 4 978 982 WWOX
+# T10 Protein S10 11 14 989 992 Tau
+
+WWOX participates in the Wnt/beta-catenin signal pathway by binding Dvl and inhibiting its nuclear import.
+# T11 Protein S11 0 4 1013 1017 WWOX
+
+Phorbol ester stimulates the dissociation of MEK/WWOX complex in Jurkat T cell, and the released WWOX translocates to the mitochondria for causing cell death.
+# T12 Protein S12 97 101 1217 1221 WWOX
+
+WWOX is recruited to the membrane area by association with Hyal-2 and phospho-Ezrin.
+# T13 Protein S13 0 4 1279 1283 WWOX
+# T14 Protein S13 59 65 1338 1344 Hyal-2
+# T15 Protein S13 78 83 1357 1362 Ezrin
+
+Hyal-2 is an alternative receptor for TGF-beta1.
+# T16 Protein S14 0 6 1364 1370 Hyal-2
+# T17 Protein S14 38 47 1402 1411 TGF-beta1
+
+In response to TGF-beta1, WWOX binds Hyal-2 and forms a complex, followed by relocating to the nucleus and enhancing the SMAD-driven promoter activity.
+# T18 Protein S15 15 24 1428 1437 TGF-beta1
+# T19 Protein S15 26 30 1439 1443 WWOX
+# T20 Protein S15 37 43 1450 1456 Hyal-2
+
+Ack1, activated Cdc42-associated kinase 1; Hyal-2, hyaluronoglucosaminidase 2; CKI, casein kinase; GSK, glycogen synthase kinase; PKA, protein kinase A.
+# T21 Protein S16 0 4 1565 1569 Ack1
+# T22 Protein S16 6 41 1571 1606 activated Cdc42-associated kinase 1
+# T23 Protein S16 43 49 1608 1614 Hyal-2
+# T24 Protein S16 51 77 1616 1642 hyaluronoglucosaminidase 2
+

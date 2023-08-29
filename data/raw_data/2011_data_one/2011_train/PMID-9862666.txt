@@ -1,0 +1,76 @@
+Nuclear factor of activated T cells and AP-1 are insufficient for IL-2 promoter activation: requirement for CD28 up-regulation of RE/AP.
+# T1 Protein S1 66 70 66 70 IL-2
+# T2 Protein S1 108 112 108 112 CD28
+$ T1 Protein S1 66 70 66 70 IL-2
+@ T11 Positive_regulation S1 49 61 49 61 insufficient
+@ T12 Entity S1 71 79 71 79 promoter
+@ T13 Positive_regulation S1 80 90 80 90 activation
+@ T14 Positive_regulation S1 92 103 92 103 requirement
+% E1 Positive_regulation:T11 Theme:E2
+% E2 Positive_regulation:T13 Theme:T1 Site:T12
+% E3 Positive_regulation:T14 Theme:E2
+
+IL-2 gene transcription in T cells requires both TCR and costimulatory signals.
+# T3 Protein S2 0 4 138 142 IL-2
+$ T3 Protein S2 0 4 138 142 IL-2
+@ T15 Transcription S2 10 23 148 161 transcription
+@ T16 Positive_regulation S2 35 43 173 181 requires
+% E4 Transcription:T15 Theme:T3
+% E5 Positive_regulation:T16 Theme:E4
+
+IL-2 promoter activation in Jurkat T cells stimulated with superantigen presented by Raji B cells requires CD28 activation.
+# T4 Protein S3 0 4 218 222 IL-2
+# T5 Protein S3 107 111 325 329 CD28
+$ T4 Protein S3 0 4 218 222 IL-2
+$ T5 Protein S3 107 111 325 329 CD28
+@ T17 Entity S3 5 13 223 231 promoter
+@ T18 Positive_regulation S3 14 24 232 242 activation
+@ T19 Positive_regulation S3 98 106 316 324 requires
+@ T20 Positive_regulation S3 112 122 330 340 activation
+% E6 Positive_regulation:T18 Theme:T4 Site:T17
+% E7 Positive_regulation:T19 Theme:E6 Cause:E8
+% E8 Positive_regulation:T20 Theme:T5
+
+The addition of rCTLA4Ig, which blocks CD28 binding to its ligand, to the cultures decreased IL-2 promoter activation by >80%.
+# T6 Protein S4 39 43 381 385 CD28
+# T7 Protein S4 93 97 435 439 IL-2
+$ T6 Protein S4 39 43 381 385 CD28
+$ T7 Protein S4 93 97 435 439 IL-2
+@ T21 Negative_regulation S4 32 38 374 380 blocks
+@ T22 Binding S4 44 51 386 393 binding
+@ T23 Negative_regulation S4 83 92 425 434 decreased
+@ T24 Entity S4 98 106 440 448 promoter
+@ T25 Positive_regulation S4 107 117 449 459 activation
+% E9 Negative_regulation:T21 Theme:E10
+% E10 Binding:T22 Theme:T6
+% E11 Negative_regulation:T23 Theme:E12
+% E12 Positive_regulation:T25 Theme:T7 Site:T24
+
+Interestingly, CTLA4Ig did not significantly inhibit the activation of either NF of activated T cells (NFAT) or AP-1 reporters.
+
+Therefore, activation of NFAT and AP-1 is insufficient for IL-2 promoter activation.
+# T8 Protein S6 59 63 656 660 IL-2
+$ T8 Protein S6 59 63 656 660 IL-2
+@ T26 Positive_regulation S6 42 54 639 651 insufficient
+@ T27 Entity S6 64 72 661 669 promoter
+@ T28 Positive_regulation S6 73 83 670 680 activation
+% E13 Positive_regulation:T26 Theme:E14
+% E14 Positive_regulation:T28 Theme:T8 Site:T27
+
+In contrast, an RE/AP reporter was blocked by CTLA4Ig by >90%.
+
+Thus, the requirement for CD28 in IL-2 promoter activation appears to be due to RE/AP and not the NFAT or AP-1 sites.
+# T9 Protein S8 26 30 771 775 CD28
+# T10 Protein S8 34 38 779 783 IL-2
+$ T9 Protein S8 26 30 771 775 CD28
+$ T10 Protein S8 34 38 779 783 IL-2
+@ T29 Positive_regulation S8 10 21 755 766 requirement
+@ T30 Entity S8 39 47 784 792 promoter
+@ T31 Positive_regulation S8 48 58 793 803 activation
+@ T32 Regulation S8 73 76 818 821 due
+% E15 Positive_regulation:T29 Theme:E16 Cause:T9
+% E16 Positive_regulation:T31 Theme:T10 Site:T30
+% E17 Regulation:T32 Theme:E15
+
+In addition, these data suggest that transcriptional activation of RE/AP is not mediated by NFAT, because activation of a NFAT reporter is not affected by the addition of CTLA4Ig.
+

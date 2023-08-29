@@ -1,0 +1,54 @@
+A thiol antioxidant regulates IgE isotype switching by inhibiting activation of nuclear factor-kappaB.
+
+The binding site for nuclear factor-kappaB (NF-kappaB) is present at the promoter region of the germline Cepsilon gene, but there is little information on whether this factor is involved in regulating IgE synthesis by human B cells.
+
+Accordingly, we studied the role of NF-kappaB in germline Cepsilon transcription by using two human Burkitt's lymphoma B cell lines, DND39 and DG75.
+
+In both cell lines, n-acetyl-L-cysteine (NAC), a potent thiol antioxidant, inhibited the triggering of the nuclear expression of NF-kappaB by IL-4 and by anti-CD40 monoclonal antibody.
+# T1 Protein S4 142 146 628 632 IL-4
+# T2 Protein S4 159 163 645 649 CD40
+
+Although IL-4 activated signal transducers and activators of transcription (STAT) 6 in addition to NF-kappaB, NAC treatment or the transfection of decoy oligodeoxynucleotides for NF-kappaB or STAT6 only partly blocked IL-4-induced germline Cepsilon transcription.
+# T3 Protein S5 9 13 680 684 IL-4
+# T4 Protein S5 24 83 695 754 signal transducers and activators of transcription (STAT) 6
+# T5 Protein S5 192 197 863 868 STAT6
+# T6 Protein S5 218 222 889 893 IL-4
+$ T4 Protein S5 24 83 695 754 signal transducers and activators of transcription (STAT) 6
+$ T3 Protein S5 9 13 680 684 IL-4
+@ T18 Positive_regulation S5 14 23 685 694 activated
+% E1 Positive_regulation:T18 Theme:T4 Cause:T3
+
+However, these two decoy oligodeoxynucleotides together almost completely abrogated IL-4-induced germline Cepsilon transcription.
+# T7 Protein S6 84 88 1019 1023 IL-4
+
+Of note, CD40-mediated enhancement of IL-4-driven germline Cepsilon transcription was markedly decreased by NAC or by a decoy oligodeoxynucleotide for NF-kappaB.
+# T8 Protein S7 9 13 1074 1078 CD40
+# T9 Protein S7 38 42 1103 1107 IL-4
+
+The effect of NAC was also examined on deletional switch recombination underlying the isotype switch to IgE.
+
+NAC inhibited the generation of Smu/Sepsilon switch fragments in normal human B cells costimulated with IL-4 and anti-CD40 monoclonal antibody.
+# T10 Protein S9 104 108 1440 1444 IL-4
+# T11 Protein S9 118 122 1454 1458 CD40
+
+It also abolished IL-4-induced upregulation of CD40 but promoted upregulation of CD23.
+# T12 Protein S10 18 22 1498 1502 IL-4
+# T13 Protein S10 47 51 1527 1531 CD40
+# T14 Protein S10 81 85 1561 1565 CD23
+$ T13 Protein S10 47 51 1527 1531 CD40
+$ T12 Protein S10 18 22 1498 1502 IL-4
+$ T14 Protein S10 81 85 1561 1565 CD23
+@ T19 Negative_regulation S10 8 17 1488 1497 abolished
+@ T20 Positive_regulation S10 31 43 1511 1523 upregulation
+@ T21 Positive_regulation S10 56 64 1536 1544 promoted
+@ T22 Positive_regulation S10 65 77 1545 1557 upregulation
+% E2 Negative_regulation:T19 Theme:E3
+% E3 Positive_regulation:T20 Theme:T13 Cause:T12
+% E4 Positive_regulation:T21 Theme:E5 Cause:T12
+% E5 Positive_regulation:T22 Theme:T14
+
+These results suggest that coordination of NF-kappaB and STAT6 may be required for induction of germline Cepsilon transcription by IL-4, and that CD40-mediated NF-kappaB activation may be important in regulating both enhancement of germline Cepsilon transcription and class switching to IgE.
+# T15 Protein S11 57 62 1624 1629 STAT6
+# T16 Protein S11 131 135 1698 1702 IL-4
+# T17 Protein S11 146 150 1713 1717 CD40
+

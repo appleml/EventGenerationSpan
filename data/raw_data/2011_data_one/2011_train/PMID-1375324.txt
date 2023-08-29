@@ -1,0 +1,59 @@
+The promoter of the CD19 gene is a target for the B-cell-specific transcription factor BSAP.
+# T1 Protein S1 20 24 20 24 CD19
+# T2 Protein S1 87 91 87 91 BSAP
+$ T1 Protein S1 20 24 20 24 CD19
+$ T2 Protein S1 87 91 87 91 BSAP
+@ T17 Entity S1 4 12 4 12 promoter
+@ T18 Binding S1 35 41 35 41 target
+% E1 Binding:T18 Theme:T1 Theme2:T2 Site:T17
+
+The CD19 protein is expressed on the surface of all B-lymphoid cells with the exception of terminally differentiated plasma cells and has been implicated as a signal-transducing receptor in the control of proliferation and differentiation.
+# T3 Protein S2 4 8 98 102 CD19
+$ T3 Protein S2 4 8 98 102 CD19
+@ T19 Gene_expression S2 20 29 114 123 expressed
+% E2 Gene_expression:T19 Theme:T3
+
+Here we demonstrate complete correlation between the expression pattern of the CD19 gene and the B-cell-specific transcription factor BSAP in a large panel of B-lymphoid cell lines.
+# T4 Protein S3 79 83 413 417 CD19
+# T5 Protein S3 134 138 468 472 BSAP
+$ T4 Protein S3 79 83 413 417 CD19
+@ T20 Gene_expression S3 53 63 387 397 expression
+% E3 Gene_expression:T20 Theme:T4
+
+The human CD19 gene has been cloned, and several BSAP-binding sites have been mapped by in vitro protein-DNA binding studies.
+# T6 Protein S4 10 14 526 530 CD19
+# T7 Protein S4 49 53 565 569 BSAP
+
+In particular, a high-affinity BSAP-binding site instead of a TATA sequence is located in the -30 promoter region upstream of a cluster of heterogeneous transcription start sites.
+# T8 Protein S5 31 35 673 677 BSAP
+
+Moreover, this site is occupied by BSAP in vivo in a CD19-expressing B-cell line but not in plasma or HeLa cells.
+# T9 Protein S6 35 39 857 861 BSAP
+# T10 Protein S6 53 57 875 879 CD19
+$ T9 Protein S6 35 39 857 861 BSAP
+@ T21 Binding S6 23 31 845 853 occupied
+% E4 Binding:T21 Theme:T9
+
+This high-affinity site has been conserved in the promoters of both human and mouse CD19 genes and was furthermore shown to confer B-cell specificity to a beta-globin reporter gene in transient transfection experiments.
+# T11 Protein S7 84 88 1020 1024 CD19
+# T12 Protein S7 155 175 1091 1111 beta-globin reporter
+
+In addition, BSAP was found to be the only abundant DNA-binding activity of B-cell nuclear extracts that interacts with the CD19 promoter.
+# T13 Protein S8 13 17 1169 1173 BSAP
+# T14 Protein S8 124 128 1280 1284 CD19
+$ T13 Protein S8 13 17 1169 1173 BSAP
+$ T14 Protein S8 124 128 1280 1284 CD19
+@ T22 Binding S8 56 63 1212 1219 binding
+@ T23 Binding S8 105 114 1261 1270 interacts
+@ T24 Entity S8 129 137 1285 1293 promoter
+% E5 Binding:T22 Theme:T13
+% E6 Binding:T23 Theme:T13 Theme2:T14 Site2:T24
+
+Together, this evidence strongly implicates BSAP in the regulation of the CD19 gene.
+# T15 Protein S9 44 48 1339 1343 BSAP
+# T16 Protein S9 74 78 1369 1373 CD19
+$ T16 Protein S9 74 78 1369 1373 CD19
+$ T15 Protein S9 44 48 1339 1343 BSAP
+@ T25 Regulation S9 56 66 1351 1361 regulation
+% E7 Regulation:T25 Theme:T16 Cause:T15
+

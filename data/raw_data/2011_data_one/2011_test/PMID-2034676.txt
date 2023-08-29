@@ -1,0 +1,38 @@
+The rhombotin family of cysteine-rich LIM-domain oncogenes: distinct members are involved in T-cell translocations to human chromosomes 11p15 and 11p13.
+
+A chromosomal translocation in a T-cell leukemia involving the short arm of human chromosome 11 at band 11p15 disrupts the rhombotin gene.
+# T1 Protein S2 123 132 277 286 rhombotin
+
+This gene encodes a protein with duplicated cysteine-rich regions called LIM domains, which show homology to zinc-binding proteins and to iron-sulfur centers of ferredoxins.
+
+Two homologues of the rhombotin gene have now been isolated.
+# T2 Protein S4 22 31 489 498 rhombotin
+
+One of these, designated Rhom-2, is located on human chromosome 11 at band 11p13, where a cluster of T-cell leukemia-specific translocations occur; all translocation breakpoints at 11p13 are upstream of the Rhom-2 gene.
+# T3 Protein S5 25 31 553 559 Rhom-2
+# T4 Protein S5 207 213 735 741 Rhom-2
+
+Human and mouse Rhom-2 are highly conserved and, like rhombotin, encode two tandem cysteine-rich LIM domains.
+# T5 Protein S6 16 22 764 770 Rhom-2
+# T6 Protein S6 54 63 802 811 rhombotin
+
+Rhom-2 mRNA is expressed in early mouse development in central nervous system, lung, kidney, liver, and spleen but only very low levels occur in thymus.
+# T7 Protein S7 0 6 858 864 Rhom-2
+
+The other gene, designated Rhom-3, is not on chromosome 11 but also retains homology to the LIM domain of rhombotin.
+# T8 Protein S8 27 33 1038 1044 Rhom-3
+# T9 Protein S8 106 115 1117 1126 rhombotin
+
+Since the Rhom-2 gene is such a common site of chromosomal damage in T-cell tumors, the consistency of translocations near the rhombotin gene was further examined.
+# T10 Protein S9 10 16 1138 1144 Rhom-2
+# T11 Protein S9 127 136 1255 1264 rhombotin
+
+A second translocation adjacent to rhombotin was found and at the same position as in the previous example.
+# T12 Protein S10 35 44 1327 1336 rhombotin
+
+Therefore, chromosome bands 11p15 (rhombotin) and 11p13 (Rhom-2) are consistent sites of chromosome translocation in T-cell leukemia, with the 11p15 target more rarely involved.
+# T13 Protein S11 35 44 1435 1444 rhombotin
+# T14 Protein S11 57 63 1457 1463 Rhom-2
+
+The results define the rhombotin gene family as a class of T-cell oncogenes with duplicated cysteine-rich LIM domains.
+

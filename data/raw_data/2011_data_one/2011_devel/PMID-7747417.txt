@@ -1,0 +1,40 @@
+The retinoblastoma gene product negatively regulates transcriptional activation mediated by the human cytomegalovirus IE2 protein.
+# T1 Protein S1 118 121 118 121 IE2
+
+The IE2 gene product of human cytomegalovirus (HCMV) is one of a few viral regulatory proteins expressed immediately upon infection of the host cell.
+# T2 Protein S2 4 7 136 139 IE2
+$ T2 Protein S2 4 7 136 139 IE2
+@ T12 Gene_expression S2 95 104 227 236 expressed
+@ T13 Positive_regulation S2 117 121 249 253 upon
+% E1 Gene_expression:T12 Theme:T2
+% E2 Positive_regulation:T13 Theme:E1
+
+It is a potent transcriptional activator of many viral and cellular promoters.
+
+We found that the retinoblastoma susceptibility gene product (Rb) dramatically suppressed this IE2 transactivation of various promoters.
+# T3 Protein S4 62 64 423 425 Rb
+# T4 Protein S4 95 98 456 459 IE2
+
+However, unlike another tumor suppressor protein, p53, Rb did not have any significant effect on basal levels of transcription, suggesting that Rb specifically interacts with IE2 rather than other cellular factors involved in the general transcription machinery.
+# T5 Protein S5 50 53 548 551 p53
+# T6 Protein S5 55 57 553 555 Rb
+# T7 Protein S5 144 146 642 644 Rb
+# T8 Protein S5 175 178 673 676 IE2
+$ T7 Protein S5 144 146 642 644 Rb
+$ T8 Protein S5 175 178 673 676 IE2
+@ T14 Binding S5 160 169 658 667 interacts
+% E3 Binding:T14 Theme:T7 Theme2:T8
+
+We found by protein-affinity chromatography that Rb in nuclear extracts or produced by in vitro translation directly bound to IE2.
+# T9 Protein S6 49 51 810 812 Rb
+# T10 Protein S6 126 129 887 890 IE2
+$ T9 Protein S6 49 51 810 812 Rb
+$ T10 Protein S6 126 129 887 890 IE2
+@ T15 Binding S6 117 122 878 883 bound
+% E4 Binding:T15 Theme:T9 Theme2:T10
+
+Our results suggest that Rb may regulate the life cycle of HCMV, which is endemic in the human population.
+# T11 Protein S7 25 27 917 919 Rb
+
+Furthermore, these data may provide new insights into the slow rate of HCMV DNA replication in cells and the possible involvement of HCMV in tumorigenesis.
+

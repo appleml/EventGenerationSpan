@@ -1,0 +1,446 @@
+Discussion
+
+The current study reveals that FOXP3 induction, an important step in iTreg commitment, is inhibited by GATA3, which is the key regulator for polarization toward Th2 cells.
+# T1 Protein S2 31 36 42 47 FOXP3
+# T2 Protein S2 103 108 114 119 GATA3
+$ T1 Protein S2 31 36 42 47 FOXP3
+$ T2 Protein S2 103 108 114 119 GATA3
+@ T121 Positive_regulation S2 37 46 48 57 induction
+@ T122 Negative_regulation S2 90 99 101 110 inhibited
+% E1 Positive_regulation:T121 Theme:T1
+% E2 Negative_regulation:T122 Theme:E1 Cause:T2
+
+After differentiation, the effector Th2 cells become refractory to conversion into a FOXP3+ phenotype.
+# T3 Protein S3 85 90 268 273 FOXP3
+
+In accordance with other studies, we found that CD4+CD25- cells were able to up-regulate FOXP3 [12,27].
+# T4 Protein S4 48 51 335 338 CD4
+# T5 Protein S4 52 56 339 343 CD25
+# T6 Protein S4 89 94 376 381 FOXP3
+$ T6 Protein S4 89 94 376 381 FOXP3
+@ T123 Positive_regulation S4 77 88 364 375 up-regulate
+% E3 Positive_regulation:T123 Theme:T6
+
+Already-committed cells such as memory T cells and Th1 cells showed only moderate and transient FOXP3 induction, which is not sufficient to change the phenotype toward a regulatory T cell profile.
+# T7 Protein S5 96 101 487 492 FOXP3
+$ T7 Protein S5 96 101 487 492 FOXP3
+@ T124 Positive_regulation S5 102 111 493 502 induction
+% E4 Positive_regulation:T124 Theme:T7
+
+In contrast, naive T cells could efficiently up-regulate FOXP3 when treated with TGF-beta to induce iTreg cells [10,28-34], suggesting that FOXP3 plays an important role in the early differentiation process and may act in a way similar to that known for the Th1/Th2 decision factors T-bet and GATA3.
+# T8 Protein S6 57 62 645 650 FOXP3
+# T9 Protein S6 81 89 669 677 TGF-beta
+# T10 Protein S6 140 145 728 733 FOXP3
+# T11 Protein S6 283 288 871 876 T-bet
+# T12 Protein S6 293 298 881 886 GATA3
+$ T8 Protein S6 57 62 645 650 FOXP3
+$ T9 Protein S6 81 89 669 677 TGF-beta
+@ T125 Positive_regulation S6 45 56 633 644 up-regulate
+% E5 Positive_regulation:T125 Theme:T8 Cause:T9
+
+This commitment is characterized by competitive expression of these factors [35,36], which we also observed in differentiating FOXP3+ iTreg cells including a phase of co-expression, which turns into nonoverlapping expression upon completed differentiation.
+# T13 Protein S7 127 132 1015 1020 FOXP3
+@ T126 Gene_expression S7 48 58 936 946 expression
+@ T127 Gene_expression S7 167 180 1055 1068 co-expression
+@ T128 Gene_expression S7 214 224 1102 1112 expression
+% E6 Gene_expression:T126 Theme:T11
+% E7 Gene_expression:T126 Theme:T12
+% E8 Gene_expression:T127 Theme:T11
+% E9 Gene_expression:T127 Theme:T12
+% E10 Gene_expression:T128 Theme:T11
+% E11 Gene_expression:T128 Theme:T12
+
+In this competitive process TGF-beta appeared to be mandatory for the induction of FOXP3, possibly by keeping the expression of GATA3 and T-bet low [37,38].
+# T14 Protein S8 28 36 1173 1181 TGF-beta
+# T15 Protein S8 83 88 1228 1233 FOXP3
+# T16 Protein S8 128 133 1273 1278 GATA3
+# T17 Protein S8 138 143 1283 1288 T-bet
+$ T16 Protein S8 128 133 1273 1278 GATA3
+$ T17 Protein S8 138 143 1283 1288 T-bet
+$ T14 Protein S8 28 36 1173 1181 TGF-beta
+@ T129 Gene_expression S8 114 124 1259 1269 expression
+@ T130 Negative_regulation S8 144 147 1289 1292 low
+% E12 Gene_expression:T129 Theme:T16
+% E13 Gene_expression:T129 Theme:T17
+% E14 Negative_regulation:T130 Theme:E12 Cause:T14
+% E15 Negative_regulation:T130 Theme:E13 Cause:T14
+
+In contrast, differentiating naive T cells in the absence of polarization factors (Th0) such as IL-4, IL-12, or TGF-beta showed only a transient FOXP3 expression and failed to generate a population of FOXP3-expressing cells, but GATA3 and T-bet were up-regulated (unpublished data).
+# T18 Protein S9 96 100 1398 1402 IL-4
+# T19 Protein S9 102 107 1404 1409 IL-12
+# T20 Protein S9 112 120 1414 1422 TGF-beta
+# T21 Protein S9 145 150 1447 1452 FOXP3
+# T22 Protein S9 201 206 1503 1508 FOXP3
+# T23 Protein S9 229 234 1531 1536 GATA3
+# T24 Protein S9 239 244 1541 1546 T-bet
+$ T18 Protein S9 96 100 1398 1402 IL-4
+$ T19 Protein S9 102 107 1404 1409 IL-12
+$ T20 Protein S9 112 120 1414 1422 TGF-beta
+$ T21 Protein S9 145 150 1447 1452 FOXP3
+$ T22 Protein S9 201 206 1503 1508 FOXP3
+$ T23 Protein S9 229 234 1531 1536 GATA3
+$ T24 Protein S9 239 244 1541 1546 T-bet
+@ T131 Negative_regulation S9 50 57 1352 1359 absence
+@ T132 Gene_expression S9 151 161 1453 1463 expression
+@ T133 Gene_expression S9 207 217 1509 1519 expressing
+@ T134 Positive_regulation S9 250 262 1552 1564 up-regulated
+% E16 Negative_regulation:T131 Theme:T18
+% E17 Negative_regulation:T131 Theme:T19
+% E18 Negative_regulation:T131 Theme:T20
+% E19 Gene_expression:T132 Theme:T21
+% E20 Gene_expression:T133 Theme:T22
+% E21 Positive_regulation:T134 Theme:T23
+% E22 Positive_regulation:T134 Theme:T24
+
+Interestingly, as we and others previously described, FOXP3-promoting factors, such as dexamethasone [39], CTLA-4 [40], and estrogens [41], are also known as inhibitors of GATA3 expression [42-45].
+# T25 Protein S10 54 59 1639 1644 FOXP3
+# T26 Protein S10 107 113 1692 1698 CTLA-4
+# T27 Protein S10 172 177 1757 1762 GATA3
+$ T25 Protein S10 54 59 1639 1644 FOXP3
+$ T26 Protein S10 107 113 1692 1698 CTLA-4
+$ T27 Protein S10 172 177 1757 1762 GATA3
+@ T135 Positive_regulation S10 60 69 1645 1654 promoting
+@ T136 Negative_regulation S10 158 168 1743 1753 inhibitors
+@ T137 Gene_expression S10 178 188 1763 1773 expression
+% E23 Positive_regulation:T135 Theme:T25 Cause:T26
+% E24 Negative_regulation:T136 Theme:E25 Cause:T26
+% E25 Gene_expression:T137 Theme:T27
+
+Therefore GATA3 not only induces differentiation into Th2 cells but also inhibits FOXP3 expression and commitment into iTreg cells.
+# T28 Protein S11 10 15 1793 1798 GATA3
+# T29 Protein S11 82 87 1865 1870 FOXP3
+$ T28 Protein S11 10 15 1793 1798 GATA3
+$ T29 Protein S11 82 87 1865 1870 FOXP3
+@ T138 Negative_regulation S11 73 81 1856 1864 inhibits
+@ T139 Gene_expression S11 88 98 1871 1881 expression
+% E26 Negative_regulation:T138 Theme:E27 Cause:T28
+% E27 Gene_expression:T139 Theme:T29
+
+The Th2 cytokine IL-4 but not IL-13 (unpublished data) was able to inhibit TGF-beta-mediated FOXP3 induction and therefore prevented conversion into the regulatory phenotype.
+# T30 Protein S12 17 21 1933 1937 IL-4
+# T31 Protein S12 30 35 1946 1951 IL-13
+# T32 Protein S12 75 83 1991 1999 TGF-beta
+# T33 Protein S12 93 98 2009 2014 FOXP3
+$ T30 Protein S12 17 21 1933 1937 IL-4
+$ T31 Protein S12 30 35 1946 1951 IL-13
+$ T33 Protein S12 93 98 2009 2014 FOXP3
+$ T32 Protein S12 75 83 1991 1999 TGF-beta
+@ T140 Negative_regulation S12 67 74 1983 1990 inhibit
+@ T141 Positive_regulation S12 99 108 2015 2024 induction
+% E28 Negative_regulation:T140 Theme:E29 Cause:T30
+% E30 Negative_regulation:T140 Theme:E29 Cause:T31
+% E29 Positive_regulation:T141 Theme:T33 Cause:T32
+
+To prove the inhibitory effect of IL-4 on inducible or natural Treg commitment in vivo, we treated mice with IL-4 and anti-IL-4.
+# T34 Protein S13 34 38 2125 2129 IL-4
+# T35 Protein S13 109 113 2200 2204 IL-4
+# T36 Protein S13 123 127 2214 2218 IL-4
+
+This has been shown to increase the effect of the cytokine in vivo [19].
+
+Only the IL-4/IL-4 mAb complex resulted in a decrease of the amount of natural or inducible Treg (CD25+ and Foxp3+) cells 7 d after treatment.
+# T37 Protein S15 9 13 2302 2306 IL-4
+# T38 Protein S15 14 18 2307 2311 IL-4
+# T39 Protein S15 98 102 2391 2395 CD25
+# T40 Protein S15 108 113 2401 2406 Foxp3
+
+Our results suggest that IL-4 is only interfering with the differentiation of naive T cells into iTreg cells.
+# T41 Protein S16 25 29 2461 2465 IL-4
+
+But since a distinction of nTreg and iTreg cells is currently not possible, because iTreg cells also transiently express CD25 after activation, we cannot exclude that IL-4 may also inhibit Foxp3 expression in nTreg cells in vivo or that additional effects may contribute to the observed drop in Foxp3 expression.
+# T42 Protein S17 121 125 2667 2671 CD25
+# T43 Protein S17 167 171 2713 2717 IL-4
+# T44 Protein S17 189 194 2735 2740 Foxp3
+# T45 Protein S17 295 300 2841 2846 Foxp3
+$ T42 Protein S17 121 125 2667 2671 CD25
+$ T44 Protein S17 189 194 2735 2740 Foxp3
+$ T45 Protein S17 295 300 2841 2846 Foxp3
+@ T142 Gene_expression S17 113 120 2659 2666 express
+@ T143 Negative_regulation S17 181 188 2727 2734 inhibit
+@ T144 Gene_expression S17 195 205 2741 2751 expression
+@ T145 Positive_regulation S17 260 270 2806 2816 contribute
+@ T146 Negative_regulation S17 287 291 2833 2837 drop
+@ T147 Gene_expression S17 301 311 2847 2857 expression
+% E31 Gene_expression:T142 Theme:T42
+% E32 Negative_regulation:T143 Theme:E33 Cause:E31
+% E33 Gene_expression:T144 Theme:T44
+% E34 Positive_regulation:T145 Theme:E35
+% E35 Negative_regulation:T146 Theme:E36
+% E36 Gene_expression:T147 Theme:T45
+
+IL-4 has already been shown to negatively regulate the development of naive T cells into Th1 or the IL-17-producing T cells (Th17) [46,47].
+# T46 Protein S18 0 4 2859 2863 IL-4
+# T47 Protein S18 100 105 2959 2964 IL-17
+$ T47 Protein S18 100 105 2959 2964 IL-17
+@ T148 Gene_expression S18 106 115 2965 2974 producing
+% E37 Gene_expression:T148 Theme:T47
+
+Similar effects have been recently described for IL-6, which, combined with TGF-beta, inhibits the generation of iTreg cells and induces differentiation into the Th17 cells by an unknown mechanism [48,49].
+# T48 Protein S19 49 53 3048 3052 IL-6
+# T49 Protein S19 76 84 3075 3083 TGF-beta
+
+Thus the polarization into iTreg cells is negatively regulated by the effector cytokines IL-4 and IL-6.
+# T50 Protein S20 89 93 3294 3298 IL-4
+# T51 Protein S20 98 102 3303 3307 IL-6
+
+IL-4 has been previously shown to induce the generation of FOXP3+ Treg cells out of CD4+CD25- [50].
+# T52 Protein S21 0 4 3310 3314 IL-4
+# T53 Protein S21 59 64 3369 3374 FOXP3
+# T54 Protein S21 84 87 3394 3397 CD4
+# T55 Protein S21 88 92 3398 3402 CD25
+
+In those experiments, the concentrations of IL-4 used were low, and as we also observed, IL-4 at low concentration slightly enhanced FOXP3 expression.
+# T56 Protein S22 44 48 3454 3458 IL-4
+# T57 Protein S22 89 93 3499 3503 IL-4
+# T58 Protein S22 133 138 3543 3548 FOXP3
+$ T57 Protein S22 89 93 3499 3503 IL-4
+$ T58 Protein S22 133 138 3543 3548 FOXP3
+@ T149 Positive_regulation S22 124 132 3534 3542 enhanced
+@ T150 Gene_expression S22 139 149 3549 3559 expression
+% E38 Positive_regulation:T149 Theme:E39 Cause:T57
+% E39 Gene_expression:T150 Theme:T58
+
+Importantly, these concentrations were not sufficient to induce GATA3 expression.
+# T59 Protein S23 64 69 3625 3630 GATA3
+$ T59 Protein S23 64 69 3625 3630 GATA3
+@ T151 Positive_regulation S23 57 63 3618 3624 induce
+@ T152 Gene_expression S23 70 80 3631 3641 expression
+% E40 Positive_regulation:T151 Theme:E41 Cause:T57
+% E41 Gene_expression:T152 Theme:T59
+
+IL-4 may favor proliferation of nTreg cells [47] or directly regulate FOXP3 expression in a STAT-dependent fashion [51].
+# T60 Protein S24 0 4 3643 3647 IL-4
+# T61 Protein S24 70 75 3713 3718 FOXP3
+$ T61 Protein S24 70 75 3713 3718 FOXP3
+@ T153 Regulation S24 61 69 3704 3712 regulate
+@ T154 Gene_expression S24 76 86 3719 3729 expression
+% E42 Regulation:T153 Theme:E43
+% E43 Gene_expression:T154 Theme:T61
+
+Since IL-13 does not effectively reduce FOXP3 and fails to induce GATA3, we hypothesized that the IL-4-dependent inhibition of FOXP3 could be mediated by GATA3.
+# T62 Protein S25 6 11 3771 3776 IL-13
+# T63 Protein S25 40 45 3805 3810 FOXP3
+# T64 Protein S25 66 71 3831 3836 GATA3
+# T65 Protein S25 98 102 3863 3867 IL-4
+# T66 Protein S25 127 132 3892 3897 FOXP3
+# T67 Protein S25 154 159 3919 3924 GATA3
+$ T63 Protein S25 40 45 3805 3810 FOXP3
+$ T62 Protein S25 6 11 3771 3776 IL-13
+$ T64 Protein S25 66 71 3831 3836 GATA3
+$ T66 Protein S25 127 132 3892 3897 FOXP3
+$ T65 Protein S25 98 102 3863 3867 IL-4
+$ T67 Protein S25 154 159 3919 3924 GATA3
+@ T155 Negative_regulation S25 33 39 3798 3804 reduce
+@ T156 Positive_regulation S25 59 65 3824 3830 induce
+@ T157 Negative_regulation S25 113 123 3878 3888 inhibition
+@ T158 Positive_regulation S25 142 150 3907 3915 mediated
+% E44 Negative_regulation:T155 Theme:T63 Cause:T62
+% E45 Positive_regulation:T156 Theme:T64 Cause:T62
+% E46 Negative_regulation:T157 Theme:T66 Cause:T65
+% E47 Positive_regulation:T158 Theme:E46 Cause:T67
+
+In fact, GATA3-inducing IL-4 concentrations repressed TGF-beta-mediated FOXP3 expression, whereas IL-4 as well as TGF-beta signaling were intact.
+# T68 Protein S26 9 14 3935 3940 GATA3
+# T69 Protein S26 24 28 3950 3954 IL-4
+# T70 Protein S26 54 62 3980 3988 TGF-beta
+# T71 Protein S26 72 77 3998 4003 FOXP3
+# T72 Protein S26 98 102 4024 4028 IL-4
+# T73 Protein S26 114 122 4040 4048 TGF-beta
+$ T69 Protein S26 24 28 3950 3954 IL-4
+$ T68 Protein S26 9 14 3935 3940 GATA3
+$ T70 Protein S26 54 62 3980 3988 TGF-beta
+$ T71 Protein S26 72 77 3998 4003 FOXP3
+@ T159 Positive_regulation S26 15 23 3941 3949 inducing
+@ T160 Negative_regulation S26 44 53 3970 3979 repressed
+@ T161 Positive_regulation S26 63 71 3989 3997 mediated
+@ T162 Gene_expression S26 78 88 4004 4014 expression
+% E48 Positive_regulation:T159 Theme:T69 Cause:T68
+% E49 Negative_regulation:T160 Theme:E50 Cause:E48
+% E50 Positive_regulation:T161 Theme:E51 Cause:T70
+% E51 Gene_expression:T162 Theme:T71
+
+This result suggested a competitive mechanism between GATA3 and FOXP3 transcription factors in determining lineage commitment during the early phase of differentiation.
+# T74 Protein S27 54 59 4126 4131 GATA3
+# T75 Protein S27 64 69 4136 4141 FOXP3
+
+Accordingly, we investigated naturally high GATA3-expressing cells and confirmed the absence of FOXP3.
+# T76 Protein S28 44 49 4285 4290 GATA3
+# T77 Protein S28 96 101 4337 4342 FOXP3
+$ T76 Protein S28 44 49 4285 4290 GATA3
+$ T77 Protein S28 96 101 4337 4342 FOXP3
+@ T163 Positive_regulation S28 39 43 4280 4284 high
+@ T164 Gene_expression S28 50 60 4291 4301 expressing
+@ T165 Negative_regulation S28 85 92 4326 4333 absence
+% E52 Positive_regulation:T163 Theme:E53
+% E53 Gene_expression:T164 Theme:T76
+% E54 Negative_regulation:T165 Theme:T77
+
+Protein transduction of GATA3 into naive T cells inhibited FOXP3 induction in human, differentiating, naive T cells.
+# T78 Protein S29 24 29 4368 4373 GATA3
+# T79 Protein S29 59 64 4403 4408 FOXP3
+$ T78 Protein S29 24 29 4368 4373 GATA3
+$ T79 Protein S29 59 64 4403 4408 FOXP3
+@ T166 Negative_regulation S29 49 58 4393 4402 inhibited
+@ T167 Positive_regulation S29 65 74 4409 4418 induction
+% E55 Negative_regulation:T166 Theme:E56 Cause:T78
+% E56 Positive_regulation:T167 Theme:T79
+
+This inhibitory effect of GATA3 was further confirmed in BALB/c transgenic mice, expressing GATA3 in T cells (DO11.10:CD2-GATA3 transgenic mice).
+# T80 Protein S30 26 31 4487 4492 GATA3
+# T81 Protein S30 92 97 4553 4558 GATA3
+# T82 Protein S30 118 121 4579 4582 CD2
+# T83 Protein S30 122 127 4583 4588 GATA3
+$ T81 Protein S30 92 97 4553 4558 GATA3
+@ T168 Gene_expression S30 81 91 4542 4552 expressing
+% E57 Gene_expression:T168 Theme:T81
+
+In line with the transient overexpression of GATA3 in human T cells, cells of these mice failed to induce FOXP3 expression upon exposure with antigen in the presence of TGF-beta.
+# T84 Protein S31 45 50 4652 4657 GATA3
+# T85 Protein S31 106 111 4713 4718 FOXP3
+# T86 Protein S31 169 177 4776 4784 TGF-beta
+$ T84 Protein S31 45 50 4652 4657 GATA3
+$ T85 Protein S31 106 111 4713 4718 FOXP3
+@ T169 Positive_regulation S31 27 41 4634 4648 overexpression
+@ T170 Negative_regulation S31 89 95 4696 4702 failed
+@ T171 Positive_regulation S31 99 105 4706 4712 induce
+@ T172 Gene_expression S31 112 122 4719 4729 expression
+% E58 Positive_regulation:T169 Theme:T84
+% E59 Negative_regulation:T170 Theme:E60 Cause:E58
+% E60 Positive_regulation:T171 Theme:E61
+% E61 Gene_expression:T172 Theme:T85
+
+Strikingly, the DO11.10:CD2-GATA3 mice do have peripheral FOXP3+ cells, which however displayed a 10%-25% lower frequency compared to wild-type DO11.10 mice.
+# T87 Protein S32 24 27 4810 4813 CD2
+# T88 Protein S32 28 33 4814 4819 GATA3
+# T89 Protein S32 58 63 4844 4849 FOXP3
+
+Thus GATA3 restrains the development of certain Treg subsets, presumably the inducible, peripheral population and not those of thymic origin.
+# T90 Protein S33 5 10 4949 4954 GATA3
+
+Thymic T cells undergo a different maturation process, which may explain the insensitivity of nTreg to GATA3 overexpression [52].
+# T91 Protein S34 103 108 5189 5194 GATA3
+$ T91 Protein S34 103 108 5189 5194 GATA3
+@ T173 Positive_regulation S34 109 123 5195 5209 overexpression
+% E62 Positive_regulation:T173 Theme:T91
+
+In contrast to the Th2-differentiating and iTreg-inhibiting function of GATA3 in peripheral T cells, GATA3 acts in the thymus together with other transcription factors such as the Repressor of GATA3 (ROG) in the differentiation process toward CD8 cells [53,54] or participates in complex transcriptional feedback network to regulate sympathoadrenal differentiation [55].
+# T92 Protein S35 72 77 5288 5293 GATA3
+# T93 Protein S35 101 106 5317 5322 GATA3
+# T94 Protein S35 180 198 5396 5414 Repressor of GATA3
+# T95 Protein S35 200 203 5416 5419 ROG
+# T96 Protein S35 243 246 5459 5462 CD8
+
+Therefore, the role of GATA3 appears to be tissue specific and cannot be generalized.
+# T97 Protein S36 23 28 5610 5615 GATA3
+
+Our study demonstrates that GATA3 repressed FOXP3 expression directly by binding to the FOXP3 promoter region.
+# T98 Protein S37 28 33 5702 5707 GATA3
+# T99 Protein S37 44 49 5718 5723 FOXP3
+# T100 Protein S37 88 93 5762 5767 FOXP3
+$ T99 Protein S37 44 49 5718 5723 FOXP3
+$ T98 Protein S37 28 33 5702 5707 GATA3
+$ T100 Protein S37 88 93 5762 5767 FOXP3
+@ T174 Negative_regulation S37 34 43 5708 5717 repressed
+@ T175 Gene_expression S37 50 60 5724 5734 expression
+@ T176 Binding S37 73 80 5747 5754 binding
+@ T177 Entity S37 94 109 5768 5783 promoter region
+% E63 Negative_regulation:T174 Theme:E64 Cause:E65
+% E64 Gene_expression:T175 Theme:T99
+% E65 Binding:T176 Theme:T98 Theme2:T100 Site2:T177
+
+A palindromic GATA-site is located 303 bp upstream of the TSS in a highly conserved region, which we have previously identified as the FOXP3 promoter [24].
+# T101 Protein S38 135 140 5920 5925 FOXP3
+@ T178 Entity S38 2 23 5787 5808 palindromic GATA-site
+
+Site-specific mutation of this site increased the activity of the promoter constructs, thus revealing the repressive nature of this GATA element in memory T cells, which naturally express GATA3, whereas no difference was seen in naive T cells, which do not express GATA3.
+# T102 Protein S39 188 193 6129 6134 GATA3
+# T103 Protein S39 265 270 6206 6211 GATA3
+$ T102 Protein S39 188 193 6129 6134 GATA3
+$ T103 Protein S39 265 270 6206 6211 GATA3
+@ T179 Gene_expression S39 180 187 6121 6128 express
+@ T180 Gene_expression S39 257 264 6198 6205 express
+% E66 Gene_expression:T179 Theme:T102
+% E67 Gene_expression:T180 Theme:T103
+
+This palindromic GATA element is bound by GATA3 protein as proven with pull-down experiments.
+# T104 Protein S40 42 47 6255 6260 GATA3
+$ T104 Protein S40 42 47 6255 6260 GATA3
+@ T181 Binding S40 33 38 6246 6251 bound
+% E68 Binding:T181 Theme:T104
+
+Furthermore, it is shown by ChIP that GATA3 binds this element also in intact cells.
+# T105 Protein S41 38 43 6345 6350 GATA3
+$ T105 Protein S41 38 43 6345 6350 GATA3
+@ T182 Binding S41 44 49 6351 6356 binds
+% E69 Binding:T182 Theme:T101 Theme2:T105 Site:T178
+
+It is known that GATA3 can induce transcription by chromatin remodeling [56], by directly transactivating promoters [36], or, as shown in the current study, acts as a repressor of gene expression [21,57-59].
+# T106 Protein S42 17 22 6409 6414 GATA3
+
+Therefore keeping GATA3 expression low might be required to induce efficient FOXP3+ iTreg cell generation.
+# T107 Protein S43 18 23 6618 6623 GATA3
+# T108 Protein S43 77 82 6677 6682 FOXP3
+$ T107 Protein S43 18 23 6618 6623 GATA3
+@ T183 Gene_expression S43 24 34 6624 6634 expression
+@ T184 Negative_regulation S43 35 38 6635 6638 low
+% E70 Gene_expression:T183 Theme:T107
+% E71 Negative_regulation:T184 Theme:E70
+
+The molecular interactions enabling GATA3 to inhibit FOXP3 are not identified yet, but the GATA-binding site is located adjacent to positive, inducing sites, composed of AP-1-NFATc2 sites [24], and GATA3 may compete with the binding of AP-1/NFAT to the promoter (unpublished observations).
+# T109 Protein S44 36 41 6744 6749 GATA3
+# T110 Protein S44 53 58 6761 6766 FOXP3
+# T111 Protein S44 198 203 6906 6911 GATA3
+# T112 Protein S44 236 240 6944 6948 AP-1
+# T113 Protein S44 241 245 6949 6953 NFAT
+$ T110 Protein S44 53 58 6761 6766 FOXP3
+$ T109 Protein S44 36 41 6744 6749 GATA3
+$ T111 Protein S44 198 203 6906 6911 GATA3
+$ T112 Protein S44 236 240 6944 6948 AP-1
+$ T113 Protein S44 241 245 6949 6953 NFAT
+@ T185 Negative_regulation S44 45 52 6753 6760 inhibit
+@ T186 Negative_regulation S44 208 215 6916 6923 compete
+@ T187 Binding S44 225 232 6933 6940 binding
+@ T188 Entity S44 253 261 6961 6969 promoter
+% E72 Negative_regulation:T185 Theme:T110 Cause:T109
+% E73 Negative_regulation:T186 Theme:E74 Cause:T111
+% E75 Negative_regulation:T186 Theme:E76 Cause:T111
+% E74 Binding:T187 Theme:T110 Theme2:T112 Site:T188
+% E76 Binding:T187 Theme:T110 Theme2:T113 Site:T188
+
+In summary, we demonstrated that FOXP3 is negatively regulated by cytokines such as IL-4.
+# T114 Protein S45 33 38 7032 7037 FOXP3
+# T115 Protein S45 84 88 7083 7087 IL-4
+$ T114 Protein S45 33 38 7032 7037 FOXP3
+$ T115 Protein S45 84 88 7083 7087 IL-4
+@ T189 Negative_regulation S45 42 62 7041 7061 negatively regulated
+% E77 Negative_regulation:T189 Theme:T114 Cause:T115
+
+GATA3 acts as an inhibitor of FOXP3 expression in early T cell differentiation, as well as in differentiated Th2 cells by directly binding and repressing the FOXP3 promoter.
+# T116 Protein S46 0 5 7089 7094 GATA3
+# T117 Protein S46 30 35 7119 7124 FOXP3
+# T118 Protein S46 158 163 7247 7252 FOXP3
+$ T116 Protein S46 0 5 7089 7094 GATA3
+$ T117 Protein S46 30 35 7119 7124 FOXP3
+$ T118 Protein S46 158 163 7247 7252 FOXP3
+@ T190 Negative_regulation S46 6 26 7095 7115 acts as an inhibitor
+@ T191 Gene_expression S46 36 46 7125 7135 expression
+@ T192 Binding S46 131 138 7220 7227 binding
+@ T193 Negative_regulation S46 143 153 7232 7242 repressing
+@ T194 Entity S46 164 172 7253 7261 promoter
+% E78 Negative_regulation:T190 Theme:E79 Cause:T116
+% E79 Gene_expression:T191 Theme:T117
+% E80 Binding:T192 Theme:T116 Theme2:T118 Site2:T194
+% E81 Negative_regulation:T193 Theme:T118 Cause:T116 Site:T194
+
+We therefore describe a new mechanism of how Il-4 avoids tolerance induction by repressing FOXP3 expression.
+# T119 Protein S47 45 49 7308 7312 Il-4
+# T120 Protein S47 91 96 7354 7359 FOXP3
+$ T119 Protein S47 45 49 7308 7312 Il-4
+$ T120 Protein S47 91 96 7354 7359 FOXP3
+@ T195 Negative_regulation S47 80 90 7343 7353 repressing
+@ T196 Gene_expression S47 97 107 7360 7370 expression
+% E82 Negative_regulation:T195 Theme:E83 Cause:T119
+% E83 Gene_expression:T196 Theme:T120
+
+These findings will give new perspectives toward understanding molecular mechanisms of iTreg induction and thus pathways of peripheral tolerance induction, particularly in allergy and asthma.
+

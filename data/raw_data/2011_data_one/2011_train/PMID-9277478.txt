@@ -1,0 +1,70 @@
+alpha-Tocopheryl succinate inhibits monocytic cell adhesion to endothelial cells by suppressing NF-kappa B mobilization.
+
+The adherence of monocytes to activated endothelium is an early event in atherogenesis.
+
+Because antioxidants have been considered to be of antiatherosclerotic potential, we investigated the effects of alpha-tocopherol (TCP) and its acetate and succinate esters on monocyte adhesion to cytokine-stimulated human umbilical vein endothelial cells (HUVEC).
+
+Endothelial cells were treated with TCP, alpha-tocopherol acetate (TCP acetate), or alpha-tocopheryl succinate (TCP succinate) before stimulation with tumor necrosis factor-alpha (TNF-alpha; 10 U/ml, 6 h) or interleukin-1 beta (IL-1 beta; 10 U/ml, 6 h).
+# T1 Protein S4 151 178 626 653 tumor necrosis factor-alpha
+# T2 Protein S4 180 189 655 664 TNF-alpha
+# T3 Protein S4 208 226 683 701 interleukin-1 beta
+# T4 Protein S4 228 237 703 712 IL-1 beta
+
+Cytokine-stimulated cell surface expression of vascular cell adhesion molecule-1 (VCAM-1, CD106) and E-selectin (ELAM-1, CD62E), but not of intercellular adhesion molecule-1 (ICAM-1, CD54), was time- and dose-dependently inhibited by TCP succinate but not by TCP or TCP acetate.
+# T5 Protein S5 47 80 776 809 vascular cell adhesion molecule-1
+# T6 Protein S5 82 88 811 817 VCAM-1
+# T7 Protein S5 90 95 819 824 CD106
+# T8 Protein S5 101 111 830 840 E-selectin
+# T9 Protein S5 113 119 842 848 ELAM-1
+# T10 Protein S5 121 126 850 855 CD62E
+# T11 Protein S5 140 173 869 902 intercellular adhesion molecule-1
+# T12 Protein S5 175 181 904 910 ICAM-1
+# T13 Protein S5 183 187 912 916 CD54
+$ T9 Protein S5 113 119 842 848 ELAM-1
+$ T6 Protein S5 82 88 811 817 VCAM-1
+$ T12 Protein S5 175 181 904 910 ICAM-1
+@ T19 Positive_regulation S5 9 19 738 748 stimulated
+@ T20 Gene_expression S5 33 43 762 772 expression
+@ T21 Negative_regulation S5 221 230 950 959 inhibited
+% E1 Positive_regulation:T19 Theme:E3
+% E2 Gene_expression:T20 Theme:T9
+% E3 Gene_expression:T20 Theme:T6
+% E4 Gene_expression:T20 Theme:T12
+% E5 Negative_regulation:T21 Theme:E2
+% E6 Negative_regulation:T21 Theme:E3
+% E7 Negative_regulation:T21 Theme:E4
+
+TCP succinate (200 microM, 24 h) reduced TNF-induced VCAM-1 and E-selectin expression from a specific mean fluorescence intensity of 151 +/- 28 to 12 +/- 4 channels and from 225 +/- 38 to 79 +/- 21 channels, respectively.
+# T14 Protein S6 53 59 1061 1067 VCAM-1
+# T15 Protein S6 64 74 1072 1082 E-selectin
+$ T14 Protein S6 53 59 1061 1067 VCAM-1
+$ T15 Protein S6 64 74 1072 1082 E-selectin
+@ T22 Negative_regulation S6 33 40 1041 1048 reduced
+@ T23 Positive_regulation S6 45 52 1053 1060 induced
+@ T24 Gene_expression S6 75 85 1083 1093 expression
+% E8 Negative_regulation:T22 Theme:E10
+% E9 Negative_regulation:T22 Theme:E11
+% E10 Positive_regulation:T23 Theme:E12
+% E11 Positive_regulation:T23 Theme:E13
+% E12 Gene_expression:T24 Theme:T14
+% E13 Gene_expression:T24 Theme:T15
+
+Succinate alone had no effect.
+@ T25 Regulation S7 23 29 1253 1259 effect
+% E14 Regulation:T25 Theme:E13
+% E15 Regulation:T25 Theme:E12
+
+Decreased adhesion molecule expression was associated with a reduction of monocytic cell adhesion.
+@ T26 Negative_regulation S8 0 9 1261 1270 Decreased
+% E16 Negative_regulation:T26 Theme:E13
+% E17 Negative_regulation:T26 Theme:E12
+
+TCP succinate (20 microM, 72 h), but not TCP (200 microM, 72 h), reduced U-937 cell adhesion to TNF-alpha-stimulated (10 U/ml, 6 h) HUVEC by 30% (P < 0.025) and to IL-1 beta-stimulated HUVEC by 56% (P < 0.010).
+# T16 Protein S9 96 105 1456 1465 TNF-alpha
+# T17 Protein S9 164 173 1524 1533 IL-1 beta
+
+Electrophoretic mobility-shift assays of HUVEC nuclear proteins revealed a decrease in TNF-alpha-stimulated nuclear factor-kappa B (NF-kappa B) activation after pretreatment of HUVEC with TCP succinate but not with TCP, TCP acetate, or succinate alone.
+# T18 Protein S10 87 96 1658 1667 TNF-alpha
+
+In conclusion, we demonstrate that the vitamin E derivative TCP succinate prevents monocytic cell adhesion to cytokine-stimulated endothelial cells by inhibiting the activation of NF-kappa B, further emphasizing the antiatherosclerotic potential of lipid soluble antioxidants.
+

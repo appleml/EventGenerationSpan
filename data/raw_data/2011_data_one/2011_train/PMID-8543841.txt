@@ -1,0 +1,46 @@
+IL-10 cooperates with TNF-alpha to activate HIV-1 from latently and acutely infected cells of monocyte/macrophage lineage.
+# T1 Protein S1 0 5 0 5 IL-10
+# T2 Protein S1 22 31 22 31 TNF-alpha
+
+IL-10 is elevated in HIV-1-infected individuals and has been implicated in disease progression.
+# T3 Protein S2 0 5 124 129 IL-10
+$ T3 Protein S2 0 5 124 129 IL-10
+@ T21 Positive_regulation S2 9 17 133 141 elevated
+% E1 Positive_regulation:T21 Theme:T3
+
+In this study, we investigated the effects of IL-10 on the activation of HIV-1 from infected monocytes and macrophages.
+# T4 Protein S3 46 51 266 271 IL-10
+
+Although IL-10 alone did not induce HIV-1 replication, in the presence of TNF-alpha, IL-10 markedly enhanced virion production from a chronically infected promonocytic cell line (U1) and in acutely infected monocyte-derived macrophages.
+# T5 Protein S4 9 14 349 354 IL-10
+# T6 Protein S4 74 83 414 423 TNF-alpha
+# T7 Protein S4 85 90 425 430 IL-10
+
+Neutralizing mAbs to IL-10 and TNF-alpha indicated that both cytokines were essential for the induction and were required to generate a synergistic increase in virus expression.
+# T8 Protein S5 21 26 598 603 IL-10
+# T9 Protein S5 31 40 608 617 TNF-alpha
+
+The effects of the two cytokines were distinguishable functionally since pretreatment with TNF-alpha attenuated the cytokine cooperativity, while pretreatment with IL-10 potentiated their cooperativity, suggesting that IL-10 and TNF-alpha play different roles in the activation of virus.
+# T10 Protein S6 91 100 846 855 TNF-alpha
+# T11 Protein S6 164 169 919 924 IL-10
+# T12 Protein S6 219 224 974 979 IL-10
+# T13 Protein S6 229 238 984 993 TNF-alpha
+
+Northern blot analysis as well as Ab blocking and cytokine secretion studies indicated that the induction of either endogenous TNF-alpha or IL-10 was not involved in the cooperativity, nor was an up-regulation of TNF-alpha receptors.
+# T14 Protein S7 127 136 1170 1179 TNF-alpha
+# T15 Protein S7 140 145 1183 1188 IL-10
+$ T15 Protein S7 140 145 1183 1188 IL-10
+$ T14 Protein S7 127 136 1170 1179 TNF-alpha
+@ T22 Positive_regulation S7 96 105 1139 1148 induction
+% E2 Positive_regulation:T22 Theme:T15
+% E3 Positive_regulation:T22 Theme:T14
+
+In combination with TNF-alpha, IL-10 stimulated activating protein-1 (AP-1) and nuclear factor (NF)-kappa B binding activities and cooperated to increase HIV-1 steady-state mRNA levels and enhance long terminal repeat-directed transcription through activation of the NF-kappa B binding sites, suggesting the IL-10 effect occurs at least in part at the transcriptional level.
+# T16 Protein S8 20 29 1297 1306 TNF-alpha
+# T17 Protein S8 31 36 1308 1313 IL-10
+# T18 Protein S8 308 313 1585 1590 IL-10
+
+These results indicate that IL-10, in addition to down-regulating the cellular immune response to HIV-1, may also play a role in TNF-alpha-mediated activation of HIV-1 replication in the monocyte/macrophage lineage.
+# T19 Protein S9 28 33 1680 1685 IL-10
+# T20 Protein S9 129 138 1781 1790 TNF-alpha
+

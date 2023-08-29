@@ -1,0 +1,77 @@
+Bcl-6 expression in reactive follicular hyperplasia, follicular lymphoma, and angioimmunoblastic T-cell lymphoma with hyperplastic germinal centers: heterogeneity of intrafollicular T-cells and their altered distribution in the pathogenesis of angioimmunoblastic T-cell lymphoma.
+# T1 Protein S1 0 5 0 5 Bcl-6
+
+BACKGROUND: The Bcl-6 gene product, a nuclear phosphoprotein, is expressed independently of Bcl-6 gene rearrangement.
+# T2 Protein S2 16 21 297 302 Bcl-6
+# T3 Protein S2 92 97 373 378 Bcl-6
+
+In lymph nodes, expression of Bcl-6 protein is restricted to germinal center (GC) B-cells and 10% to 15% of CD3/CD4+ intrafollicular T cells.
+# T4 Protein S3 30 35 429 434 Bcl-6
+# T5 Protein S3 112 115 511 514 CD4
+
+Interfollicular cells are negative for Bcl-6 protein, except for rare CD3+/CD4+ T cells.
+# T6 Protein S4 39 44 580 585 Bcl-6
+# T7 Protein S4 75 78 616 619 CD4
+
+Recently, we reported cases of angioimmunoblastic T-cell lymphoma (AITL) with hyperplastic GCs (AITL/GC), and observed that borders of enlarged GCs were ill defined, with features suggestive of an outward migration of GC cells to surrounding interfollicular zones.
+
+This prompted a study of follicular borders with Bcl-6 staining in reactive follicular hyperplasias and follicular lymphomas to compare with AITL/GC.
+# T8 Protein S6 49 54 944 949 Bcl-6
+
+MATERIALS AND METHODS: Formalin-fixed paraffin sections were used for immunostaining of Bcl-6.
+# T9 Protein S7 88 93 1133 1138 Bcl-6
+
+Six cases of AITL/GC, 12 nonspecific reactive follicular hyperplasia (FH), 7 HIV adenopathy, 10 follicular lymphoma (FL), and 8 typical AITL (ie, AITL without GC) were studied.
+
+Double staining for Bcl-6/CD20, Bcl-6/CD3, and Bcl-6/CD57 was performed in selected cases.
+# T10 Protein S9 20 25 1337 1342 Bcl-6
+# T11 Protein S9 26 30 1343 1347 CD20
+# T12 Protein S9 32 37 1349 1354 Bcl-6
+# T13 Protein S9 47 52 1364 1369 Bcl-6
+# T14 Protein S9 53 57 1370 1374 CD57
+
+RESULTS: In FH and HIV adenopathy, staining for Bcl-6 revealed densely populated GCs with well-defined and regular GC borders, whereas Bcl-6+ cells were rare in the interfollicular areas.
+# T15 Protein S10 48 53 1456 1461 Bcl-6
+# T16 Protein S10 135 140 1543 1548 Bcl-6
+
+An occasional GC with an ill-defined border was invariably surrounded by a broad mantle zone; those with indistinct mantle zones had well-defined, regular borders.
+
+In FL, follicles were densely populated, and their borders were irregular, with some Bcl-6+ cells in the interfollicular zones.
+# T17 Protein S12 85 90 1845 1850 Bcl-6
+
+In AITL/GC, GCs were less dense, GC borders were ill defined and irregular, and the number of interfollicular Bcl-6+ cells was markedly increased.
+# T18 Protein S13 110 115 1998 2003 Bcl-6
+
+Double staining revealed that these interfollicular Bcl-6+ cells in AITL/GC were Bcl6+/CD3+/CD20-/CD57- T cells.
+# T19 Protein S14 52 57 2087 2092 Bcl-6
+# T20 Protein S14 81 85 2116 2120 Bcl6
+# T21 Protein S14 92 96 2127 2131 CD20
+# T22 Protein S14 98 102 2133 2137 CD57
+
+Moreover, CD3+ intrafollicular T cells were depleted in AITL/GC, whereas they were abundant in FH.
+
+Intrafollicular CD57+ cells did not stain for Bcl-6, and were also depleted in AITL/GC.
+# T23 Protein S16 16 20 2263 2267 CD57
+# T24 Protein S16 46 51 2293 2298 Bcl-6
+
+In typical AITL, some neoplastic cells were positive for Bcl-6, showing variable degrees of staining.
+# T25 Protein S17 57 62 2392 2397 Bcl-6
+
+CONCLUSIONS: (1) GCs of AITL/GC differed from those of other reactive follicular hyperplasias and follicular lymphomas, and staining for Bcl-6 was useful to discern them.
+# T26 Protein S18 137 142 2574 2579 Bcl-6
+
+(2) Intrafollicular CD3+ T cells, many of which were also positive for Bcl-6, were markedly depleted in AITL/GC, with increased interfollicular Bcl-6+/CD3+ cells, suggesting an outward migration of intrafollicular T cells in this condition.
+# T27 Protein S19 71 76 2679 2684 Bcl-6
+# T28 Protein S19 144 149 2752 2757 Bcl-6
+
+(3) Interfollicular Bcl-6+/CD3+ cells in AITL/GC were too numerous to be accounted for by migration alone, suggesting local proliferation.
+# T29 Protein S20 20 25 2869 2874 Bcl-6
+
+(4) Intrafollicular CD57+ cells were negative for Bcl-6, indicating heterogeneity of the intrafollicular T-cell population.
+# T30 Protein S21 20 24 3008 3012 CD57
+# T31 Protein S21 50 55 3038 3043 Bcl-6
+
+(5) Some neoplastic cells in AITL stained for Bcl-6, suggesting up-regulation of Bcl-6 expression in this tumor.
+# T32 Protein S22 46 51 3158 3163 Bcl-6
+# T33 Protein S22 81 86 3193 3198 Bcl-6
+

@@ -1,0 +1,94 @@
+A novel lipopolysaccharide-induced transcription factor regulating tumor necrosis factor alpha gene expression: molecular cloning, sequencing, characterization, and chromosomal assignment.
+# T1 Protein S1 67 94 67 94 tumor necrosis factor alpha
+$ T1 Protein S1 67 94 67 94 tumor necrosis factor alpha
+@ T17 Regulation S1 56 66 56 66 regulating
+@ T18 Gene_expression S1 95 110 95 110 gene expression
+% E1 Regulation:T17 Theme:E2
+% E2 Gene_expression:T18 Theme:T1
+
+Lipopolysaccharide (LPS) is a potent stimulator of monocytes and macrophages, causing secretion of tumor necrosis factor alpha (TNF-alpha) and other inflammatory mediators.
+# T2 Protein S2 99 126 289 316 tumor necrosis factor alpha
+# T3 Protein S2 128 137 318 327 TNF-alpha
+$ T3 Protein S2 128 137 318 327 TNF-alpha
+@ T19 Positive_regulation S2 78 85 268 275 causing
+@ T20 Localization S2 86 95 276 285 secretion
+% E3 Positive_regulation:T19 Theme:E4
+% E4 Localization:T20 Theme:T3
+
+Given the deleterious effects to the host of TNF-alpha, it has been postulated that TNF-alpha gene expression must be tightly regulated.
+# T4 Protein S3 45 54 408 417 TNF-alpha
+# T5 Protein S3 84 93 447 456 TNF-alpha
+$ T5 Protein S3 84 93 447 456 TNF-alpha
+@ T21 Gene_expression S3 94 109 457 472 gene expression
+@ T22 Regulation S3 126 135 489 498 regulated
+% E5 Gene_expression:T21 Theme:T5
+% E6 Regulation:T22 Theme:E5
+
+The nature of the nuclear factor(s) that control TNF-alpha gene transcription in humans remains obscure, although NF-kappaB has been suggested.
+# T6 Protein S4 49 58 549 558 TNF-alpha
+$ T6 Protein S4 49 58 549 558 TNF-alpha
+@ T23 Regulation S4 41 48 541 548 control
+@ T24 Transcription S4 59 77 559 577 gene transcription
+% E7 Regulation:T23 Theme:E8
+% E8 Transcription:T24 Theme:T6
+
+Our previous studies pertaining to macrophage response to LPS identified a novel DNA-binding domain located from -550 to -487 in the human TNF-alpha promoter that contains transcriptional activity, but lacks any known NF-kappaB-binding sites.
+# T7 Protein S5 139 148 783 792 TNF-alpha
+@ T25 Entity S5 81 99 725 743 DNA-binding domain
+
+We have used this DNA fragment to isolate and purify a 60-kDa protein binding to this fragment and obtained its amino-terminal sequence, which was used to design degenerate probes to screen a cDNA library from THP-1 cells.
+@ T26 Binding S6 70 77 957 964 binding
+% E9 Binding:T26 Theme:T7 Site:T25
+
+A novel cDNA clone (1.8 kb) was isolated and fully sequenced.
+
+Characterization of this cDNA clone revealed that its induction was dependent on LPS activation of THP-1 cells; hence, the name LPS-induced TNF-alpha factor (LITAF).
+# T8 Protein S8 128 156 1300 1328 LPS-induced TNF-alpha factor
+# T9 Protein S8 158 163 1330 1335 LITAF
+$ T9 Protein S8 158 163 1330 1335 LITAF
+@ T27 Positive_regulation S8 54 63 1226 1235 induction
+@ T28 Regulation S8 68 77 1240 1249 dependent
+% E10 Positive_regulation:T27 Theme:T9
+% E11 Regulation:T28 Theme:E10
+
+Inhibition of LITAF mRNA expression in THP-1 cells resulted in a reduction of TNF-alpha transcripts.
+# T10 Protein S9 14 19 1352 1357 LITAF
+# T11 Protein S9 78 87 1416 1425 TNF-alpha
+$ T10 Protein S9 14 19 1352 1357 LITAF
+$ T11 Protein S9 78 87 1416 1425 TNF-alpha
+@ T29 Negative_regulation S9 0 10 1338 1348 Inhibition
+@ T30 Transcription S9 25 35 1363 1373 expression
+@ T31 Negative_regulation S9 51 74 1389 1412 resulted in a reduction
+@ T32 Transcription S9 88 99 1426 1437 transcripts
+% E12 Negative_regulation:T29 Theme:E13
+% E13 Transcription:T30 Theme:T10
+% E14 Negative_regulation:T31 Theme:E15 Cause:E12
+% E15 Transcription:T32 Theme:T11
+
+In addition, high level of expression of LITAF mRNA was observed predominantly in the placenta, peripheral blood leukocytes, lymph nodes, and the spleen.
+# T12 Protein S10 41 46 1480 1485 LITAF
+$ T12 Protein S10 41 46 1480 1485 LITAF
+@ T33 Positive_regulation S10 13 23 1452 1462 high level
+@ T34 Transcription S10 27 37 1466 1476 expression
+% E16 Positive_regulation:T33 Theme:E17
+% E17 Transcription:T34 Theme:T12
+
+Finally, chromosomal localization using fluorescence in situ hybridization revealed that LITAF mapped to chromosome 16p12-16p13.3.
+# T13 Protein S11 89 94 1682 1687 LITAF
+
+Together, these findings suggest that LITAF plays an important role in the activation of the human TNF-alpha gene and proposes a new mechanism to control TNF-alpha gene expression.
+# T14 Protein S12 38 43 1762 1767 LITAF
+# T15 Protein S12 99 108 1823 1832 TNF-alpha
+# T16 Protein S12 154 163 1878 1887 TNF-alpha
+$ T14 Protein S12 38 43 1762 1767 LITAF
+$ T15 Protein S12 99 108 1823 1832 TNF-alpha
+$ T16 Protein S12 154 163 1878 1887 TNF-alpha
+@ T35 Regulation S12 63 67 1787 1791 role
+@ T36 Positive_regulation S12 75 85 1799 1809 activation
+@ T37 Regulation S12 146 153 1870 1877 control
+@ T38 Gene_expression S12 164 179 1888 1903 gene expression
+% E18 Regulation:T35 Theme:E19 Cause:T14
+% E19 Positive_regulation:T36 Theme:T15
+% E20 Regulation:T37 Theme:E21 Cause:T14
+% E21 Gene_expression:T38 Theme:T16
+

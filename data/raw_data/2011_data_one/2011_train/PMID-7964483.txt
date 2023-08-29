@@ -1,0 +1,33 @@
+One gene, two transcripts: isolation of an alternative transcript encoding for the autoantigen La/SS-B from a cDNA library of a patient with primary Sjogrens' syndrome.
+# T1 Protein S1 83 97 83 97 autoantigen La
+# T2 Protein S1 98 102 98 102 SS-B
+
+A cDNA library was prepared from peripheral blood lymphocytes of an autoimmune patient with primary Sjogrens' syndrome.
+
+The cDNA library was screened with the patients own autoimmune serum being monospecific for the nuclear autoantigen La/SS-B.
+# T3 Protein S3 104 118 394 408 autoantigen La
+# T4 Protein S3 119 123 409 413 SS-B
+
+Thereby an alternative type of La mRNA was identified that differed from the known La mRNA due to an exchange of the exon 1.
+# T5 Protein S4 31 33 446 448 La
+# T6 Protein S4 83 85 498 500 La
+
+Sequencing of the genomic region between the exons 1 and 2 showed that the alternative 5'-end is a part of the intron.
+
+In addition, the presence of an alternative promoter site, which exists within the intron downstream of the exon 1, became evident.
+
+In consequence, the alternative La mRNA is the result of a promoter switching combined with an alternative splicing mechanism.
+# T7 Protein S7 32 34 823 825 La
+$ T7 Protein S7 32 34 823 825 La
+@ T10 Positive_regulation S7 47 53 838 844 result
+% E1 Positive_regulation:T10 Theme:T7
+
+In the intron, further transcription factor binding sites, including a NF-kappa B element, were identified leading to the suggestion that the expression of the gene encoding for the nuclear autoantigen La/SS-B alters in dependence on disease conditions.
+# T8 Protein S8 190 204 1108 1122 autoantigen La
+# T9 Protein S8 205 209 1123 1127 SS-B
+$ T8 Protein S8 190 204 1108 1122 autoantigen La
+@ T11 Gene_expression S8 142 152 1060 1070 expression
+@ T12 Regulation S8 210 216 1128 1134 alters
+% E2 Gene_expression:T11 Theme:T8
+% E3 Regulation:T12 Theme:E2
+

@@ -1,0 +1,48 @@
+Induction of Sp1 phosphorylation and NF-kappa B-independent HIV promoter domain activity in T lymphocytes stimulated by okadaic acid.
+# T1 Protein S1 13 16 13 16 Sp1
+$ T1 Protein S1 13 16 13 16 Sp1
+@ T11 Positive_regulation S1 0 9 0 9 Induction
+@ T12 Phosphorylation S1 17 32 17 32 phosphorylation
+% E1 Positive_regulation:T11 Theme:E2
+% E2 Phosphorylation:T12 Theme:T1
+
+In contrast to the purely enhancer-dependent effect of cytokines such as TNF on the activity of the HIV regulatory region (LTR), we observed that okadaic acid (OKA) activates HIV transcription through both the enhancer, responding to the factor NF-kappa B, and the promoter domain of the LTR.
+
+The inducibility of HIV LTR-driven luciferase expression constructs in lymphoblastoid cells stimulated by OKA depended on both functional Sp1 binding elements and the ability of the TATA box to bind the protein TBP.
+# T2 Protein S3 138 141 566 569 Sp1
+
+In both transformed and normal lymphocytes, OKA stimulation induced intense phosphorylation of the constitutively expressed Sp1 protein in the nucleus, a property of OKA not shared by TNF, phorbol ester, or PHA and interleukin 2.
+# T3 Protein S4 124 127 768 771 Sp1
+# T4 Protein S4 207 210 851 854 PHA
+# T5 Protein S4 215 228 859 872 interleukin 2
+$ T3 Protein S4 124 127 768 771 Sp1
+@ T13 Positive_regulation S4 60 67 704 711 induced
+@ T14 Phosphorylation S4 76 91 720 735 phosphorylation
+% E3 Positive_regulation:T13 Theme:E4
+% E4 Phosphorylation:T14 Theme:T3
+
+Responsiveness of LTR constructs deleted of kappa B elements to HIV Tat expression was increased upon OKA but not TNF stimulation.
+# T6 Protein S5 68 71 942 945 Tat
+$ T6 Protein S5 68 71 942 945 Tat
+@ T15 Gene_expression S5 72 82 946 956 expression
+% E5 Gene_expression:T15 Theme:T6
+
+Our results suggest that SP1 phosphorylation induced by OKA, a selective inhibitor of the serine-threonine phosphatase PP2A, facilitates the formation of a transcription complex involving general transcription factors, HIV Tat, and Sp1 proteins.
+# T7 Protein S6 25 28 1030 1033 SP1
+# T8 Protein S6 119 123 1124 1128 PP2A
+# T9 Protein S6 223 226 1228 1231 Tat
+# T10 Protein S6 232 235 1237 1240 Sp1
+$ T7 Protein S6 25 28 1030 1033 SP1
+$ T9 Protein S6 223 226 1228 1231 Tat
+$ T10 Protein S6 232 235 1237 1240 Sp1
+@ T16 Phosphorylation S6 29 44 1034 1049 phosphorylation
+@ T17 Positive_regulation S6 45 52 1050 1057 induced
+@ T18 Positive_regulation S6 125 136 1130 1141 facilitates
+@ T19 Binding S6 170 177 1175 1182 complex
+% E6 Phosphorylation:T16 Theme:T7
+% E7 Positive_regulation:T17 Theme:E6
+% E8 Positive_regulation:T18 Theme:E9 Cause:E7
+% E9 Binding:T19 Theme:T9 Theme2:T10
+
+The formation of this complex would increase, independently of an in synergy with NF-kappa B, the low basal activity of the HIV LTR observed in normal T lymphocytes.
+

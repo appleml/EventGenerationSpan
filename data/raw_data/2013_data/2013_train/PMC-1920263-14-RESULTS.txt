@@ -1,0 +1,57 @@
+Silencing of Sp1 and Sp3 reduces A3G promoter activity
+# T1 Protein S1 13 16 13 16 Sp1
+# T2 Protein S1 21 24 21 24 Sp3
+# T3 Protein S1 33 36 33 36 A3G
+$ T1 Protein S1 13 16 13 16 Sp1
+$ T2 Protein S1 21 24 21 24 Sp3
+@ T18 Negative_regulation S1 0 9 0 9 Silencing
+% E1 Negative_regulation:T18 Theme:T1
+% E2 Negative_regulation:T18 Theme:T2
+
+To confirm the role of Sp1 and Sp3 in regulation of A3G promoter activity, we silenced their translation via RNA interference.
+# T4 Protein S2 23 26 78 81 Sp1
+# T5 Protein S2 31 34 86 89 Sp3
+# T6 Protein S2 52 55 107 110 A3G
+
+Functionality of the siRNAs directed against Sp1 or Sp3 was confirmed by western blot analysis: protein levels of Sp1 as well as the long and short isoforms of Sp3 were strongly reduced in the presence of 150 or 300 ng specific siRNA (Figure 7A).
+# T7 Protein S3 45 48 227 230 Sp1
+# T8 Protein S3 52 55 234 237 Sp3
+# T9 Protein S3 114 117 296 299 Sp1
+# T10 Protein S3 160 163 342 345 Sp3
+$ T9 Protein S3 114 117 296 299 Sp1
+$ T10 Protein S3 160 163 342 345 Sp3
+@ T19 Gene_expression S3 96 110 278 292 protein levels
+@ T20 Negative_regulation S3 178 185 360 367 reduced
+% E3 Gene_expression:T19 Theme:T9
+% E4 Gene_expression:T19 Theme:T10
+% E5 Negative_regulation:T20 Theme:E3
+% E6 Negative_regulation:T20 Theme:E4
+
+An unspecific control siRNA had no influence (Figure 7A).
+
+We then cotransfected the luciferase reporter plasmid containing the 180 bp A3G promoter together with 100 ng siRNA using an optimized protocol for the cotransfection of plasmid plus siRNA.
+# T11 Protein S5 26 88 513 575 luciferase reporter plasmid containing the 180 bp A3G promoter
+$ T11 Protein S5 26 88 513 575 luciferase reporter plasmid containing the 180 bp A3G promoter
+@ T21 Gene_expression S5 8 21 495 508 cotransfected
+% E7 Gene_expression:T21 Theme:T11
+
+This resulted in a 31-43% reduction of luciferase activity in the presence of Sp1- or Sp3-specific siRNA compared to the control siRNA.
+# T12 Protein S6 78 81 755 758 Sp1
+# T13 Protein S6 86 89 763 766 Sp3
+$ T12 Protein S6 78 81 755 758 Sp1
+$ T13 Protein S6 86 89 763 766 Sp3
+@ T22 Negative_regulation S6 26 35 703 712 reduction
+@ T17 Anaphora S6 39 49 716 726 luciferase
+@ T23 Negative_regulation S6 99 104 776 781 siRNA
+% E8 Negative_regulation:T22 Theme:T11 Cause:E9
+% E10 Negative_regulation:T22 Theme:T11 Cause:E11
+% E9 Negative_regulation:T23 Theme:T12
+% E11 Negative_regulation:T23 Theme:T13
+
+In contrast, no influence on transcriptional activity of the 150 bp fragment, which does not contain the Sp1/Sp3-binding motif, was observed.
+
+Thus, both Sp1 and Sp3 factors are mediating transcriptional activity of the A3G promoter.
+# T14 Protein S8 11 14 966 969 Sp1
+# T15 Protein S8 19 22 974 977 Sp3
+# T16 Protein S8 77 80 1032 1035 A3G
+

@@ -1,0 +1,51 @@
+Engagement of natural cytotoxicity programs regulates AP-1 expression in the NKL human NK cell line.
+
+NK cell cytotoxicity is a fast and efficient mechanism of target cell lysis.
+
+Using transcription analysis, such as multiplex messenger assays, we show here that natural cytotoxicity exerted by the human NKL cell line correlates with mRNA accumulation of very early activator protein (AP)-1 transcription factor genes such as JunB, FosB and c-Fos.
+# T1 Protein S3 248 252 427 431 JunB
+# T2 Protein S3 254 258 433 437 FosB
+# T3 Protein S3 263 268 442 447 c-Fos
+$ T3 Protein S3 263 268 442 447 c-Fos
+$ T1 Protein S3 248 252 427 431 JunB
+$ T2 Protein S3 254 258 433 437 FosB
+@ T10 Positive_regulation S3 156 173 335 352 mRNA accumulation
+% E1 Positive_regulation:T10 Theme:T3
+% E2 Positive_regulation:T10 Theme:T1
+% E3 Positive_regulation:T10 Theme:T2
+
+In addition, DNA-binding activities of Jun-Fos heterodimers were observed by electrophoretic mobility shift assays during the course of natural cytotoxicity.
+
+Interaction between immunoglobulin-like transcript-2/leukocyte Ig-like receptor 1 on NKL cells and HLA-B27 on target cells leads to an impairment of NKL natural cytotoxicity, which correlates with an absence of JunB, FosB, and c-Fos transcription, as well as an absence of their DNA-binding activity.
+# T4 Protein S5 20 52 627 659 immunoglobulin-like transcript-2
+# T5 Protein S5 53 81 660 688 leukocyte Ig-like receptor 1
+# T6 Protein S5 99 106 706 713 HLA-B27
+# T7 Protein S5 211 215 818 822 JunB
+# T8 Protein S5 217 221 824 828 FosB
+# T9 Protein S5 227 232 834 839 c-Fos
+$ T4 Protein S5 20 52 627 659 immunoglobulin-like transcript-2
+$ T6 Protein S5 99 106 706 713 HLA-B27
+$ T7 Protein S5 211 215 818 822 JunB
+$ T9 Protein S5 227 232 834 839 c-Fos
+$ T8 Protein S5 217 221 824 828 FosB
+@ T11 Binding S5 0 11 607 618 Interaction
+@ T12 Negative_regulation S5 200 207 807 814 absence
+@ T13 Transcription S5 233 246 840 853 transcription
+@ T14 Negative_regulation S5 262 269 869 876 absence
+@ T15 Binding S5 283 299 890 906 binding activity
+% E4 Binding:T11 Theme:T4 Theme2:T6
+% E5 Negative_regulation:T12 Theme:E8
+% E6 Negative_regulation:T12 Theme:E10
+% E7 Negative_regulation:T12 Theme:E9
+% E8 Transcription:T13 Theme:T7
+% E9 Transcription:T13 Theme:T9
+% E10 Transcription:T13 Theme:T8
+% E11 Negative_regulation:T14 Theme:E15
+% E12 Negative_regulation:T14 Theme:E14
+% E13 Negative_regulation:T14 Theme:E16
+% E14 Binding:T15 Theme:T8
+% E15 Binding:T15 Theme:T7
+% E16 Binding:T15 Theme:T9
+
+Our studies thus indicate that, despite the rapidity of NK cell-mediated lysis, AP-1 transcription factor is activated during the early stage of NK cell cytolytic programs and that engagement of NK cell inhibitory receptors for MHC class I molecules impairs the very early activation of AP-1.
+

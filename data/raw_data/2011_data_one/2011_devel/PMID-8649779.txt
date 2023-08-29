@@ -1,0 +1,68 @@
+Inhibition of p105 processing by NF-kappaB proteins in transiently transfected cells.
+# T1 Protein S1 14 18 14 18 p105
+
+Regulation of the transcription factor NF-kappaB involves proteasome-mediated processing of the NF-kappaB1 p105 precursor protein, which generates the p50 subunit of NF-kappaB.
+# T2 Protein S2 96 106 183 193 NF-kappaB1
+# T3 Protein S2 107 111 194 198 p105
+# T4 Protein S2 151 154 238 241 p50
+$ T4 Protein S2 151 154 238 241 p50
+@ T19 Positive_regulation S2 137 146 224 233 generates
+% E1 Positive_regulation:T19 Theme:T4
+
+The processing of p105 occurs constitutively in vivo but can be markedly enhanced by various cellular activation agents, although the underlying regulatory mechanism is not yet clear.
+# T5 Protein S3 18 22 282 286 p105
+
+In the present study, we demonstrate that signal-mediated induction of p105 processing in human T cells is associated with de novo synthesis of this precursor protein.
+# T6 Protein S4 71 75 519 523 p105
+
+Transient transfection studies performed in COS7 cells revealed that the newly synthesized p105 protein appears to be more rapidly processed compared to its accumulated form that is already associated with the processed product p50.
+# T7 Protein S5 91 95 707 711 p105
+# T8 Protein S5 228 231 844 847 p50
+$ T8 Protein S5 228 231 844 847 p50
+@ T20 Binding S5 190 200 806 816 associated
+% E2 Binding:T20 Theme:T8
+
+Interestingly, the processing rate of p105 is markedly inhibited in cells co-transfected with p50 or other NF-kappaB subunits, including RelA and c-Rel, that physically interact with p105.
+# T9 Protein S6 38 42 887 891 p105
+# T10 Protein S6 94 97 943 946 p50
+# T11 Protein S6 137 141 986 990 RelA
+# T12 Protein S6 146 151 995 1000 c-Rel
+# T13 Protein S6 183 187 1032 1036 p105
+$ T10 Protein S6 94 97 943 946 p50
+$ T13 Protein S6 183 187 1032 1036 p105
+$ T11 Protein S6 137 141 986 990 RelA
+$ T12 Protein S6 146 151 995 1000 c-Rel
+@ T21 Binding S6 169 177 1018 1026 interact
+% E3 Binding:T21 Theme:T10 Theme2:T13
+% E4 Binding:T21 Theme:T11 Theme2:T13
+% E5 Binding:T21 Theme:T12 Theme2:T13
+
+These findings suggest that the processing of p105 is subject to negative regulation by the various NF-kappaB subunits.
+# T14 Protein S7 46 50 1084 1088 p105
+
+We further demonstrate that p105 undergoes degradation in lipopolysaccharide-stimulated human monocytic cells.
+# T15 Protein S8 28 32 1186 1190 p105
+$ T15 Protein S8 28 32 1186 1190 p105
+@ T22 Positive_regulation S8 33 42 1191 1200 undergoes
+@ T23 Protein_catabolism S8 43 54 1201 1212 degradation
+% E6 Positive_regulation:T22 Theme:E7
+% E7 Protein_catabolism:T23 Theme:T15
+
+However, the inducible degradation of p105 is not coupled with the generation of p50.
+# T16 Protein S9 38 42 1307 1311 p105
+# T17 Protein S9 81 84 1350 1353 p50
+$ T16 Protein S9 38 42 1307 1311 p105
+$ T17 Protein S9 81 84 1350 1353 p50
+@ T24 Protein_catabolism S9 23 34 1292 1303 degradation
+@ T25 Gene_expression S9 67 77 1336 1346 generation
+% E8 Protein_catabolism:T24 Theme:T16
+% E9 Gene_expression:T25 Theme:T17
+
+Together, these studies demonstrate that the processing and inducible degradation of p105 are differentially regulated.
+# T18 Protein S10 85 89 1440 1444 p105
+$ T18 Protein S10 85 89 1440 1444 p105
+@ T26 Protein_catabolism S10 70 81 1425 1436 degradation
+@ T27 Regulation S10 94 118 1449 1473 differentially regulated
+% E10 Protein_catabolism:T26 Theme:T18
+% E11 Regulation:T27 Theme:E10
+

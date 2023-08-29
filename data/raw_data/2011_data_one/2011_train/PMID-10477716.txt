@@ -1,0 +1,91 @@
+Nuclear factor-kappaB-dependent induction of interleukin-8 gene expression by tumor necrosis factor alpha: evidence for an antioxidant sensitive activating pathway distinct from nuclear translocation.
+# T1 Protein S1 45 58 45 58 interleukin-8
+# T2 Protein S1 78 105 78 105 tumor necrosis factor alpha
+$ T2 Protein S1 78 105 78 105 tumor necrosis factor alpha
+$ T1 Protein S1 45 58 45 58 interleukin-8
+@ T20 Regulation S1 22 31 22 31 dependent
+@ T21 Positive_regulation S1 32 41 32 41 induction
+@ T22 Gene_expression S1 59 74 59 74 gene expression
+@ T23 Regulation S1 135 144 135 144 sensitive
+@ T24 Positive_regulation S1 145 163 145 163 activating pathway
+@ T25 Entity S1 178 185 178 185 nuclear
+@ T26 Localization S1 186 199 186 199 translocation
+% E1 Regulation:T20 Theme:E2
+% E2 Positive_regulation:T21 Theme:E3 Cause:T2
+% E3 Gene_expression:T22 Theme:T1
+% E4 Regulation:T23 Theme:E5
+% E5 Positive_regulation:T24 Theme:T1
+% E6 Localization:T26 Theme:T1 ToLoc:T25
+
+Tumor necrosis factor alpha (TNFalpha) is a pluripotent activator of inflammation by inducing a proinflammatory cytokine cascade.
+# T3 Protein S2 0 27 202 229 Tumor necrosis factor alpha
+# T4 Protein S2 29 37 231 239 TNFalpha
+
+This phenomenon is mediated, in part, through inducible expression of the CXC chemokine, interleukin-8 (IL-8).
+# T5 Protein S3 89 102 421 434 interleukin-8
+# T6 Protein S3 104 108 436 440 IL-8
+$ T6 Protein S3 104 108 436 440 IL-8
+@ T27 Positive_regulation S3 46 55 378 387 inducible
+@ T28 Gene_expression S3 56 66 388 398 expression
+% E7 Positive_regulation:T27 Theme:E8
+% E8 Gene_expression:T28 Theme:T6
+
+In this study, we investigate the role of TNFalpha-inducible reactive oxygen species (ROS) in IL-8 expression by "monocyte-like" U937 histiocytic lymphoma cells.
+# T7 Protein S4 42 50 485 493 TNFalpha
+# T8 Protein S4 94 98 537 541 IL-8
+$ T8 Protein S4 94 98 537 541 IL-8
+@ T29 Regulation S4 34 38 477 481 role
+@ T30 Gene_expression S4 99 109 542 552 expression
+% E9 Regulation:T29 Theme:E10
+% E10 Gene_expression:T30 Theme:T8
+
+TNFalpha is a rapid activator of IL-8 gene expression by U937, producing a 50-fold induction of mRNA within 1 hour of treatment.
+# T9 Protein S5 0 8 605 613 TNFalpha
+# T10 Protein S5 33 37 638 642 IL-8
+$ T9 Protein S5 0 8 605 613 TNFalpha
+$ T10 Protein S5 33 37 638 642 IL-8
+@ T31 Positive_regulation S5 20 29 625 634 activator
+@ T32 Gene_expression S5 38 53 643 658 gene expression
+@ T33 Positive_regulation S5 63 72 668 677 producing
+@ T34 Transcription S5 83 92 688 697 induction
+% E11 Positive_regulation:T31 Theme:E12 Cause:T9
+% E12 Gene_expression:T32 Theme:T10
+% E13 Positive_regulation:T33 Theme:E14 Cause:T9
+% E14 Transcription:T34 Theme:T10
+
+In gene transfection assays, the effect of TNFalpha requires the presence of an inducible nuclear factor-kappaB (NF-kappaB) (Rel A) binding site in the IL-8 promoter.
+# T11 Protein S6 43 51 777 785 TNFalpha
+# T12 Protein S6 125 130 859 864 Rel A
+# T13 Protein S6 152 156 886 890 IL-8
+
+TNFalpha treatment induces a rapid translocation of the 65 kD transcriptional activator NF-kappaB subunit, Rel A, whose binding in the nucleus occurs before changes in intracellular ROS.
+# T14 Protein S7 0 8 901 909 TNFalpha
+# T15 Protein S7 107 112 1008 1013 Rel A
+$ T14 Protein S7 0 8 901 909 TNFalpha
+$ T15 Protein S7 107 112 1008 1013 Rel A
+@ T35 Positive_regulation S7 19 26 920 927 induces
+@ T36 Localization S7 35 48 936 949 translocation
+@ T37 Binding S7 120 127 1021 1028 binding
+% E15 Positive_regulation:T35 Theme:E16 Cause:T14
+% E16 Localization:T36 Theme:T15
+% E17 Binding:T37 Theme:T15
+
+Pretreatment (or up to 15 minutes posttreatment) relative to TNFalpha with the antioxidant dimethyl sulfoxide (DMSO) (2% [vol/vol]) blocks 80% of NF-kappaB-dependent transcription.
+# T16 Protein S8 61 69 1149 1157 TNFalpha
+
+Surprisingly, however, DMSO has no effect on inducible Rel A binding.
+# T17 Protein S9 55 60 1324 1329 Rel A
+$ T17 Protein S9 55 60 1324 1329 Rel A
+@ T38 Regulation S9 35 41 1304 1310 effect
+@ T39 Binding S9 61 68 1330 1337 binding
+% E18 Regulation:T38 Theme:E19
+% E19 Binding:T39 Theme:T17
+
+Similar selective effects on NF-kappaB transcription are seen with the unrelated antioxidants, N-acetylcysteine (NAC) and vitamin C.
+
+These data indicate that TNFalpha induces a delayed ROS-dependent signalling pathway that is required for NF-kappaB transcriptional activation and is separable from that required for its nuclear translocation.
+# T18 Protein S11 25 33 1497 1505 TNFalpha
+
+Further definition of this pathway will yield new insights into inflammation initiated by TNFalpha signalling.
+# T19 Protein S12 90 98 1772 1780 TNFalpha
+

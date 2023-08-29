@@ -1,0 +1,28 @@
+Activated p53 mediates apoptosis, cell cycle arrest, senescence, DNA repair, or metabolism (Lane and Levine, 2010).
+# T1 Protein S1 10 13 10 13 p53
+
+The primary structures of p53 and its isoforms are depicted (Figure 2).
+# T2 Protein S2 26 29 142 145 p53
+
+p53 induces cell cycle arrest by transactivating genes such as cyclin-dependent kinase inhibitor p21, or microRNA miR34.
+# T3 Protein S3 0 3 188 191 p53
+# T4 Protein S3 97 100 285 288 p21
+# T5 Protein S3 114 119 302 307 miR34
+
+p53 induces apoptosis by transactivating proapoptotic genes such as BAX, PUMA, SCOTIN, and FAS, and inhibiting the antiapoptotic gene BCL-2 (Lane and Levine, 2010).
+# T6 Protein S4 0 3 309 312 p53
+# T7 Protein S4 68 71 377 380 BAX
+# T8 Protein S4 73 77 382 386 PUMA
+# T9 Protein S4 79 85 388 394 SCOTIN
+# T10 Protein S4 91 94 400 403 FAS
+# T11 Protein S4 134 139 443 448 BCL-2
+
+p53 triggers pro-survival or cell death response, depending upon cell types, the intensity of the stress signal, and the extent of cellular damage (Menendez et al., 2009).
+# T12 Protein S5 0 3 474 477 p53
+
+Also, p53 plays a role in controlling cell motility via regulating the expression of smooth muscle alpha-actin (Comer et al., 1998), collagens IIalpha1 and VIalpha1 (Sun et al., 1999), and many others.
+# T13 Protein S6 6 9 652 655 p53
+# T14 Protein S6 85 110 731 756 smooth muscle alpha-actin
+# T15 Protein S6 133 151 779 797 collagens IIalpha1
+# T16 Protein S6 156 164 802 810 VIalpha1
+

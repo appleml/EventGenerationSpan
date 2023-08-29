@@ -1,0 +1,134 @@
+Transcription-independent turnover of I kappa B alpha during monocyte adherence: implications for a translational component regulating I kappa B alpha/MAD-3 mRNA levels.
+# T1 Protein S1 38 53 38 53 I kappa B alpha
+# T2 Protein S1 135 150 135 150 I kappa B alpha
+# T3 Protein S1 151 156 151 156 MAD-3
+$ T2 Protein S1 135 150 135 150 I kappa B alpha
+@ T38 Regulation S1 124 134 124 134 regulating
+% E1 Regulation:T38 Theme:T2
+
+We identified I kappa B alpha/MAD-3 as an immediate-early gene in human monocytes that is expressed in response to a variety of signals, including adhesion, lipopolysaccharide, and phorbol myristate acetate.
+# T4 Protein S2 14 29 185 200 I kappa B alpha
+# T5 Protein S2 30 35 201 206 MAD-3
+$ T4 Protein S2 14 29 185 200 I kappa B alpha
+@ T39 Gene_expression S2 90 99 261 270 expressed
+@ T40 Positive_regulation S2 100 114 271 285 in response to
+% E2 Gene_expression:T39 Theme:T4
+% E3 Positive_regulation:T40 Theme:E2
+
+Within 5 min of monocyte adhesion, the level of the I kappa B alpha protein is markedly diminished but is rapidly replaced in a cycloheximide-sensitive manner within 20 min.
+# T6 Protein S3 52 67 431 446 I kappa B alpha
+$ T6 Protein S3 52 67 431 446 I kappa B alpha
+@ T41 Negative_regulation S3 88 98 467 477 diminished
+@ T42 Negative_regulation S3 114 122 493 501 replaced
+@ T43 Regulation S3 142 151 521 530 sensitive
+% E4 Negative_regulation:T41 Theme:T6
+% E5 Negative_regulation:T42 Theme:E4
+% E6 Regulation:T43 Theme:E5
+
+Accompanying the rapid turnover of the I kappa B alpha protein is simultaneous translocation of NF-kappa B-related transcription factors to nuclei of adhered monocytes.
+# T7 Protein S4 39 54 592 607 I kappa B alpha
+
+The demonstration that NF-kappa B can regulate I kappa B alpha/MAD-3 gene transcription in other cell types suggested that the rapid increase in steady-state I kappa B alpha/MAD-3 mRNA levels we observed within 30 min of monocyte adherence would result from NF-kappa B-dependent transcriptional stimulation of the I kappa B alpha/MAD-3 gene.
+# T8 Protein S5 47 62 769 784 I kappa B alpha
+# T9 Protein S5 63 68 785 790 MAD-3
+# T10 Protein S5 158 173 880 895 I kappa B alpha
+# T11 Protein S5 174 179 896 901 MAD-3
+# T12 Protein S5 314 329 1036 1051 I kappa B alpha
+# T13 Protein S5 330 335 1052 1057 MAD-3
+$ T8 Protein S5 47 62 769 784 I kappa B alpha
+$ T10 Protein S5 158 173 880 895 I kappa B alpha
+$ T12 Protein S5 314 329 1036 1051 I kappa B alpha
+@ T44 Regulation S5 38 46 760 768 regulate
+@ T45 Transcription S5 74 87 796 809 transcription
+@ T46 Positive_regulation S5 133 141 855 863 increase
+@ T47 Positive_regulation S5 279 306 1001 1028 transcriptional stimulation
+% E7 Regulation:T44 Theme:E8
+% E8 Transcription:T45 Theme:T8
+% E9 Positive_regulation:T46 Theme:T10
+% E10 Positive_regulation:T47 Theme:T12
+
+Nuclear run-on analyses indicated that, instead, while several immediate-early cytokine genes, such as the interleukin 1 beta (IL-1 beta) gene, were transcriptionally activated during monocyte adhesion, the rate of I kappa B alpha/MAD-3 gene transcription remained constant.
+# T14 Protein S6 107 125 1171 1189 interleukin 1 beta
+# T15 Protein S6 127 136 1191 1200 IL-1 beta
+# T16 Protein S6 215 230 1279 1294 I kappa B alpha
+# T17 Protein S6 231 236 1295 1300 MAD-3
+$ T15 Protein S6 127 136 1191 1200 IL-1 beta
+$ T16 Protein S6 215 230 1279 1294 I kappa B alpha
+@ T48 Positive_regulation S6 149 176 1213 1240 transcriptionally activated
+@ T49 Transcription S6 242 255 1306 1319 transcription
+@ T50 Positive_regulation S6 256 273 1320 1337 remained constant
+% E11 Positive_regulation:T48 Theme:T15
+% E12 Transcription:T49 Theme:T16
+% E13 Positive_regulation:T50 Theme:E12
+
+The adherence-dependent increase in I kappa B alpha/MAD-3 mRNA levels was also not a consequence of mRNA stabilization events.
+# T18 Protein S7 36 51 1375 1390 I kappa B alpha
+# T19 Protein S7 52 57 1391 1396 MAD-3
+$ T18 Protein S7 36 51 1375 1390 I kappa B alpha
+@ T51 Positive_regulation S7 24 32 1363 1371 increase
+@ T52 Positive_regulation S7 85 96 1424 1435 consequence
+@ T53 Positive_regulation S7 105 118 1444 1457 stabilization
+% E14 Positive_regulation:T51 Theme:T18
+% E15 Positive_regulation:T52 Theme:E14 Cause:E16
+% E16 Positive_regulation:T53 Theme:T18
+
+Interestingly, while increases in both IL-1 beta and I kappa B alpha/MAD-3 mRNA levels were detected in nuclei of adherent monocytes, cytoplasmic levels of IL-1 beta mRNA increased during adherence whereas those of I kappa B alpha/MAD-3 mRNA did not.
+# T20 Protein S8 39 48 1505 1514 IL-1 beta
+# T21 Protein S8 53 68 1519 1534 I kappa B alpha
+# T22 Protein S8 69 74 1535 1540 MAD-3
+# T23 Protein S8 156 165 1622 1631 IL-1 beta
+# T24 Protein S8 215 230 1681 1696 I kappa B alpha
+# T25 Protein S8 231 236 1697 1702 MAD-3
+$ T21 Protein S8 53 68 1519 1534 I kappa B alpha
+$ T20 Protein S8 39 48 1505 1514 IL-1 beta
+$ T23 Protein S8 156 165 1622 1631 IL-1 beta
+$ T24 Protein S8 215 230 1681 1696 I kappa B alpha
+@ T54 Positive_regulation S8 21 30 1487 1496 increases
+@ T55 Positive_regulation S8 171 180 1637 1646 increased
+% E17 Positive_regulation:T54 Theme:T21
+% E18 Positive_regulation:T54 Theme:T20
+% E19 Positive_regulation:T55 Theme:T23
+% E20 Positive_regulation:T55 Theme:T24
+
+Taken together, our data suggest that two interactive mechanisms regulate monocytic I kappa B alpha/MAD-3 mRNA levels.
+# T26 Protein S9 84 99 1801 1816 I kappa B alpha
+# T27 Protein S9 100 105 1817 1822 MAD-3
+$ T26 Protein S9 84 99 1801 1816 I kappa B alpha
+@ T56 Regulation S9 65 73 1782 1790 regulate
+% E21 Regulation:T56 Theme:T26
+
+We propose that adherent monocytes regulate nuclear processing (or decay) of I kappa B alpha/MAD-3 mRNA, thereby increasing mRNA levels without stimulating I kappa B alpha/MAD-3 gene transcription.
+# T28 Protein S10 77 92 1913 1928 I kappa B alpha
+# T29 Protein S10 93 98 1929 1934 MAD-3
+# T30 Protein S10 156 171 1992 2007 I kappa B alpha
+# T31 Protein S10 172 177 2008 2013 MAD-3
+$ T28 Protein S10 77 92 1913 1928 I kappa B alpha
+$ T30 Protein S10 156 171 1992 2007 I kappa B alpha
+@ T57 Positive_regulation S10 113 123 1949 1959 increasing
+@ T58 Positive_regulation S10 136 155 1972 1991 without stimulating
+@ T59 Transcription S10 183 196 2019 2032 transcription
+% E22 Positive_regulation:T57 Theme:T28
+% E23 Positive_regulation:T58 Theme:E24
+% E24 Transcription:T59 Theme:T30
+
+Moreover, since inhibition of protein synthesis leads to accumulation of I kappa B alpha/MAD-3 mRNA without stimulating I kappa B alpha/MAD-3 gene transcription, we suggest that low cytoplasmic levels of I kappa B alpha/MAD-3 mRNA are maintained by a translation-dependent degradation mechanism.
+# T32 Protein S11 73 88 2107 2122 I kappa B alpha
+# T33 Protein S11 89 94 2123 2128 MAD-3
+# T34 Protein S11 120 135 2154 2169 I kappa B alpha
+# T35 Protein S11 136 141 2170 2175 MAD-3
+# T36 Protein S11 204 219 2238 2253 I kappa B alpha
+# T37 Protein S11 220 225 2254 2259 MAD-3
+$ T32 Protein S11 73 88 2107 2122 I kappa B alpha
+$ T34 Protein S11 120 135 2154 2169 I kappa B alpha
+$ T36 Protein S11 204 219 2238 2253 I kappa B alpha
+@ T60 Positive_regulation S11 48 53 2082 2087 leads
+@ T61 Positive_regulation S11 57 69 2091 2103 accumulation
+@ T62 Positive_regulation S11 108 119 2142 2153 stimulating
+@ T63 Transcription S11 147 160 2181 2194 transcription
+@ T64 Negative_regulation S11 235 245 2269 2279 maintained
+% E25 Positive_regulation:T60 Theme:E26
+% E26 Positive_regulation:T61 Theme:T32
+% E27 Positive_regulation:T62 Theme:E28
+% E28 Transcription:T63 Theme:T34
+% E29 Negative_regulation:T64 Theme:T36
+

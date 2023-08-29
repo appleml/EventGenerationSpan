@@ -1,0 +1,46 @@
+Interaction of transcription factors RFX1 and MIBP1 with the gamma motif of the negative regulatory element of the hepatitis B virus core promoter.
+# T1 Protein S1 37 41 37 41 RFX1
+# T2 Protein S1 46 51 46 51 MIBP1
+$ T2 Protein S1 46 51 46 51 MIBP1
+$ T1 Protein S1 37 41 37 41 RFX1
+@ T12 Binding S1 0 11 0 11 Interaction
+% E1 Binding:T12 Theme:T2
+% E2 Binding:T12 Theme:T1
+
+The negative regulatory element (NRE) of the hepatitis B virus (HBV) core promoter contains three subregions which act synergistically to suppress core promoter activity.
+
+One of these subregions, NRE gamma, is active in both HeLa cervical carcinoma cells and Huh7 hepatoma cells and was found to be bound by a protein factor present in both cell types.
+
+Here we show that the transcription factor RFX1 can bind to NRE gamma and transactivate the core promoter through this site.
+# T3 Protein S4 43 47 545 549 RFX1
+$ T3 Protein S4 43 47 545 549 RFX1
+@ T13 Binding S4 52 56 554 558 bind
+% E3 Binding:T13 Theme:T3
+
+Mutations which abrogated the gene-suppressive activity of NRE gamma prevented RFX1 from binding to NRE gamma.
+# T4 Protein S5 79 83 706 710 RFX1
+$ T4 Protein S5 79 83 706 710 RFX1
+@ T14 Negative_regulation S5 69 78 696 705 prevented
+@ T15 Binding S5 89 96 716 723 binding
+% E4 Negative_regulation:T14 Theme:E5
+% E5 Binding:T15 Theme:T4
+
+In addition, RFX1 can bind simultaneously, most likely as a heterodimer, with the transcription factor MIBP1 to NRE gamma.
+# T5 Protein S6 13 17 751 755 RFX1
+# T6 Protein S6 103 108 841 846 MIBP1
+$ T5 Protein S6 13 17 751 755 RFX1
+$ T6 Protein S6 103 108 841 846 MIBP1
+@ T16 Binding S6 22 26 760 764 bind
+@ T17 Binding S6 60 71 798 809 heterodimer
+% E6 Binding:T16 Theme:T5
+% E7 Binding:T17 Theme:T5 Theme2:T6
+
+In the absence of a cloned MIBP1 gene for further studies, we hypothesize that RFX1 acts with MIBP1 to negatively regulate the core promoter activity through the NRE gamma site.
+# T7 Protein S7 27 32 888 893 MIBP1
+# T8 Protein S7 79 83 940 944 RFX1
+# T9 Protein S7 94 99 955 960 MIBP1
+
+The ability of RFX1 to transactivate the core promoter raises the possibility that RFX1 may play a dual role in regulating HBV gene expression.
+# T10 Protein S8 15 19 1054 1058 RFX1
+# T11 Protein S8 83 87 1122 1126 RFX1
+

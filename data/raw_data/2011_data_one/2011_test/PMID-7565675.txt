@@ -1,0 +1,38 @@
+The DNA-binding properties of two heat shock factors, HSF1 and HSF3, are induced in the avian erythroblast cell line HD6.
+# T1 Protein S1 54 58 54 58 HSF1
+# T2 Protein S1 63 67 63 67 HSF3
+
+Avian cells express three heat shock transcription factor (HSF) genes corresponding to a novel factor, HSF3, and homologs of mouse and human HSF1 and HSF2.
+# T3 Protein S2 103 107 226 230 HSF3
+# T4 Protein S2 141 145 264 268 HSF1
+# T5 Protein S2 150 154 273 277 HSF2
+
+Analysis of the biochemical and cell biological properties of these HSFs reveals that HSF3 has properties in common with both HSF1 and HSF2 and yet has features which are distinct from both.
+# T6 Protein S3 86 90 365 369 HSF3
+# T7 Protein S3 126 130 405 409 HSF1
+# T8 Protein S3 135 139 414 418 HSF2
+
+HSF3 is constitutively expressed in the erythroblast cell line HD6, the lymphoblast cell line MSB, and embryo fibroblasts, and yet its DNA-binding activity is induced only upon exposure of HD6 cells to heat shock.
+# T9 Protein S4 0 4 470 474 HSF3
+
+Acquisition of HSF3 DNA-binding activity in HD6 cells is accompanied by oligomerization from a non-DNA-binding dimer to a DNA-binding trimer, whereas the effect of heat shock on HSF1 is oligomerization of an inert monomer to a DNA-binding trimer.
+# T10 Protein S5 15 19 699 703 HSF3
+# T11 Protein S5 178 182 862 866 HSF1
+
+Induction of HSF3 DNA-binding activity is delayed compared with that of HSF1.
+# T12 Protein S6 13 17 944 948 HSF3
+# T13 Protein S6 72 76 1003 1007 HSF1
+
+As occurs for HSF1, heat shock leads to the translocation of HSF3 to the nucleus.
+# T14 Protein S7 14 18 1023 1027 HSF1
+# T15 Protein S7 61 65 1070 1074 HSF3
+
+HSF exhibits the properties of a transcriptional activator, as judged from the stimulatory activity of transiently overexpressed HSF3 measured by using a heat shock element-containing reporter construct and as independently assayed by the activity of a chimeric GAL4-HSF3 protein on a GAL4 reporter construct.
+# T16 Protein S8 129 133 1220 1224 HSF3
+# T17 Protein S8 262 266 1353 1357 GAL4
+# T18 Protein S8 267 271 1358 1362 HSF3
+# T19 Protein S8 285 289 1376 1380 GAL4
+
+These results reveal that HSF3 is negatively regulated in avian cells and acquires DNA-binding activity in certain cells upon heat shock.
+# T20 Protein S9 26 30 1427 1431 HSF3
+

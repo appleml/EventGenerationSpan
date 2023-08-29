@@ -1,0 +1,22 @@
+Synopsis
+
+Over the past several years, mounting evidence has shown that immune tolerance in healthy individuals can be maintained by a population of T lymphocytes known as regulatory T cells (Tregs).
+
+As a component of this system, a protein known as Foxp3 has been shown to be absolutely required for the development and function of Tregs.
+# T1 Protein S3 50 55 249 254 Foxp3
+
+While Foxp3 plays an important role in maintaining immune tolerance by blocking T cell proliferation and production of inflammatory proteins known as cytokines, little is known about the molecular mechanisms that are used by Foxp3 to accomplish these events.
+# T2 Protein S4 6 11 345 350 Foxp3
+# T3 Protein S4 225 230 564 569 Foxp3
+
+The present study expands our understanding of how Foxp3 maintains a check on inappropriate immune responses by demonstrating that Foxp3 can block activation of key inducible proteins such as nuclear factor kappaB (NF-kappaB) and cAMP-responsive element binding protein (CREB).
+# T4 Protein S5 51 56 649 654 Foxp3
+# T5 Protein S5 131 136 729 734 Foxp3
+
+Since NF-kappaB and CREB are integrally involved in controlling cell cycle progression, inflammatory cytokine production, and the replication of numerous viruses at the level of transcription, understanding the mechanisms by which Foxp3 functions to regulate cellular and viral gene expression may aid in the discovery of therapeutic approaches designed to rescue the expression and/or function of Foxp3, which have been found to be deficient in several autoimmune diseases and virus-induced disorders.
+# T6 Protein S6 231 236 1107 1112 Foxp3
+# T7 Protein S6 398 403 1274 1279 Foxp3
+$ T7 Protein S6 398 403 1274 1279 Foxp3
+@ T8 Gene_expression S6 368 378 1244 1254 expression
+% E1 Gene_expression:T8 Theme:T7
+

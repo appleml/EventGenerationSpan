@@ -1,0 +1,38 @@
+FOXP3 Induction During the Differentiation Process
+# T1 Protein S1 0 5 0 5 FOXP3
+$ T1 Protein S1 0 5 0 5 FOXP3
+@ T14 Positive_regulation S1 6 15 6 15 Induction
+% E1 Positive_regulation:T14 Theme:T1
+
+(A) Human CD4+CD45RA+ T cells were activated with plate-bound anti-CD3/CD28 in the presence of TGF-beta (5 ng/ml) or IL-4 (25 ng/ml).
+# T2 Protein S2 10 13 61 64 CD4
+# T3 Protein S2 14 20 65 71 CD45RA
+# T4 Protein S2 67 70 118 121 CD3
+# T5 Protein S2 71 75 122 126 CD28
+# T6 Protein S2 95 103 146 154 TGF-beta
+# T7 Protein S2 117 121 168 172 IL-4
+
+The cells were harvested at different time points, and mRNA was quantified by real-time PCR for FOXP3 and GATA3 expression.
+# T8 Protein S3 96 101 281 286 FOXP3
+# T9 Protein S3 106 111 291 296 GATA3
+$ T8 Protein S3 96 101 281 286 FOXP3
+$ T9 Protein S3 106 111 291 296 GATA3
+@ T15 Gene_expression S3 112 122 297 307 expression
+% E2 Gene_expression:T15 Theme:T8
+% E3 Gene_expression:T15 Theme:T9
+
+Bars show the mean +/- SD of three independent experiments.
+
+(B) Intracellular GATA3 and FOXP3 staining is shown after exposure of CD4+CD45RA+ T cells to differentiating conditions as in part A of the figure.
+# T10 Protein S5 18 23 387 392 GATA3
+# T11 Protein S5 28 33 397 402 FOXP3
+# T12 Protein S5 70 73 439 442 CD4
+# T13 Protein S5 74 80 443 449 CD45RA
+$ T10 Protein S5 18 23 387 392 GATA3
+$ T11 Protein S5 28 33 397 402 FOXP3
+@ T16 Gene_expression S5 34 42 403 411 staining
+% E4 Gene_expression:T16 Theme:T10
+% E5 Gene_expression:T16 Theme:T11
+
+Data are representative of three independent experiments.
+

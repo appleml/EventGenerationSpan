@@ -1,0 +1,38 @@
+Altered DNA-binding specificity mutants of EKLF and Sp1 show that EKLF is an activator of the beta-globin locus control region in vivo.
+# T1 Protein S1 43 47 43 47 EKLF
+# T2 Protein S1 52 55 52 55 Sp1
+# T3 Protein S1 66 70 66 70 EKLF
+# T4 Protein S1 94 105 94 105 beta-globin
+$ T2 Protein S1 52 55 52 55 Sp1
+$ T1 Protein S1 43 47 43 47 EKLF
+@ T10 Binding S1 12 31 12 31 binding specificity
+% E1 Binding:T10 Theme:T2
+% E2 Binding:T10 Theme:T1
+
+The locus control region of the beta-globin cluster contains five DNase I hypersensitive sites (5'HS1-5) required for locus activation.
+# T5 Protein S2 32 43 169 180 beta-globin
+$ T5 Protein S2 32 43 169 180 beta-globin
+@ T11 Positive_regulation S2 105 113 242 250 required
+@ T12 Positive_regulation S2 124 134 261 271 activation
+% E3 Positive_regulation:T11 Theme:E4
+% E4 Positive_regulation:T12 Theme:T5
+
+5'HS3 contains six G-rich motifs that are essential for its activity.
+@ T13 Positive_regulation S3 42 51 315 324 essential
+% E5 Positive_regulation:T13 Theme:E4
+
+Members of a protein family, characterized by three zinc fingers highly homologous to those found in transcription factor Sp1, interact with these motifs.
+# T6 Protein S4 122 125 465 468 Sp1
+$ T6 Protein S4 122 125 465 468 Sp1
+@ T14 Binding S4 127 135 470 478 interact
+% E6 Binding:T14 Theme:T6
+
+Because point mutagenesis cannot distinguish between family members, it is not known which protein activates 5'HS3.
+
+We show that the function of such closely related proteins can be distinguished in vivo by matching point mutations in 5'HS3 with amino acid changes in the zinc fingers of Sp1 and EKLF.
+# T7 Protein S6 172 175 786 789 Sp1
+# T8 Protein S6 180 184 794 798 EKLF
+
+Testing their activity in transgenic mice shows that EKLF is a direct activator of 5'HS3.
+# T9 Protein S7 53 57 853 857 EKLF
+

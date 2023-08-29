@@ -1,0 +1,27 @@
+Degraded CGN stimulated ICAM-1 and TNF-alpha gene expression in monocytes.
+# T1 Protein S1 24 30 24 30 ICAM-1
+# T2 Protein S1 35 44 35 44 TNF-alpha
+$ T1 Protein S1 24 30 24 30 ICAM-1
+$ T2 Protein S1 35 44 35 44 TNF-alpha
+@ T6 Positive_regulation S1 13 23 13 23 stimulated
+@ T7 Gene_expression S1 50 60 50 60 expression
+% E1 Positive_regulation:T6 Theme:E2
+% E3 Positive_regulation:T6 Theme:E4
+% E2 Gene_expression:T7 Theme:T1
+% E4 Gene_expression:T7 Theme:T2
+
+Representative samples of RT-PCR analysis showing over expression of ICAM-1 and TNF-alpha after stimulation of monocytes with 1 g/l of degraded CGN.
+# T3 Protein S2 69 75 144 150 ICAM-1
+# T4 Protein S2 80 89 155 164 TNF-alpha
+$ T3 Protein S2 69 75 144 150 ICAM-1
+$ T4 Protein S2 80 89 155 164 TNF-alpha
+@ T8 Gene_expression S2 55 65 130 140 expression
+% E5 Gene_expression:T8 Theme:T3
+% E6 Gene_expression:T8 Theme:T4
+
+beta-actin expression was used as normalization gene.
+# T5 Protein S3 0 10 224 234 beta-actin
+$ T5 Protein S3 0 10 224 234 beta-actin
+@ T9 Gene_expression S3 11 21 235 245 expression
+% E7 Gene_expression:T9 Theme:T5
+

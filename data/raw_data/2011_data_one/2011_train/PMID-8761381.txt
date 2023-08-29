@@ -1,0 +1,46 @@
+Transcriptional analysis of Epstein-Barr virus gene expression in EBV-positive gastric carcinoma: unique viral latency in the tumour cells.
+
+Although case-oriented evidence for an association of Epstein-Barr virus (EBV) with gastric carcinoma has been accumulating recently, the interaction(s) between EBV and gastric epithelial cells is/are largely unknown.
+
+In this study, we examined seven EBV-positive gastric carcinoma tissues for viral gene expression at the mRNA level, from which studies on the EBV oncogenicity in human epithelial cells will benefit.
+
+Reverse transcription-PCR analysis showed that all seven EBV-positive tumour tissues constitutively expressed EBV nuclear antigen (EBNA) 1 mRNA, but not EBNA2 mRNA.
+# T1 Protein S4 110 138 669 697 EBV nuclear antigen (EBNA) 1
+# T2 Protein S4 153 158 712 717 EBNA2
+$ T2 Protein S4 153 158 712 717 EBNA2
+$ T1 Protein S4 110 138 669 697 EBV nuclear antigen (EBNA) 1
+@ T8 Transcription S4 100 109 659 668 expressed
+% E1 Transcription:T8 Theme:T2
+% E2 Transcription:T8 Theme:T1
+
+The EBNA transcription was initiated from one of three EBNA promoters, Qp: by contrast, both Cp and Wp were silent, thus resulting in the lack of EBNA2 mRNA.
+# T3 Protein S5 146 151 870 875 EBNA2
+$ T3 Protein S5 146 151 870 875 EBNA2
+@ T9 Positive_regulation S5 121 130 845 854 resulting
+@ T10 Transcription S5 138 142 862 866 lack
+% E3 Positive_regulation:T9 Theme:E4
+% E4 Transcription:T10 Theme:T3
+
+Latent membrane protein (LMP) 2A mRNA was detected in three of seven cases; however, neither LMP1 nor LMP2B mRNA was detected in any of the tumours tested.
+# T4 Protein S6 0 32 882 914 Latent membrane protein (LMP) 2A
+# T5 Protein S6 93 97 975 979 LMP1
+# T6 Protein S6 102 107 984 989 LMP2B
+$ T4 Protein S6 0 32 882 914 Latent membrane protein (LMP) 2A
+$ T5 Protein S6 93 97 975 979 LMP1
+$ T6 Protein S6 102 107 984 989 LMP2B
+@ T11 Transcription S6 42 50 924 932 detected
+@ T12 Transcription S6 117 125 999 1007 detected
+% E5 Transcription:T11 Theme:T4
+% E6 Transcription:T12 Theme:T5
+% E7 Transcription:T12 Theme:T6
+
+Transcripts from the BamHI-A region of the viral genome were detectable in all cases.
+
+BZLF1 mRNA and the product, an immediate-early gene for EBV replication, was not expressed in any of them, thereby suggesting that the tumour cells carried EBV genomes in a tightly latent form.
+# T7 Protein S8 0 5 1124 1129 BZLF1
+$ T7 Protein S8 0 5 1124 1129 BZLF1
+@ T13 Transcription S8 81 90 1205 1214 expressed
+% E8 Transcription:T13 Theme:T7
+
+These findings further extended our previous data regarding EBV latency in gastric carcinoma cells at the protein level, and have affirmed that the programme of viral gene expression in the tumour more closely resembles 'latency I' represented by Burkitt's lymphoma than 'latency II' represented by the majority of nasopharyngeal carcinomas.
+

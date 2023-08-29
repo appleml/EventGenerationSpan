@@ -1,0 +1,76 @@
+Differential nuclear localization of p50, p52, and RelB proteins in human accessory cells of the immune response in situ.
+# T1 Protein S1 37 40 37 40 p50
+# T2 Protein S1 42 45 42 45 p52
+# T3 Protein S1 51 55 51 55 RelB
+
+The Rel/NF-kappa B proteins, p50, p52, p65, c-Rel, and RelB, constitute a family of transcription factors involved in the positive regulation of a variety of genes during the immune response.
+# T4 Protein S2 29 32 152 155 p50
+# T5 Protein S2 34 37 157 160 p52
+# T6 Protein S2 39 42 162 165 p65
+# T7 Protein S2 44 49 167 172 c-Rel
+# T8 Protein S2 55 59 178 182 RelB
+
+Recently, it has been shown that RelB knockout mice have no dendritic cells (DC).
+# T9 Protein S3 33 37 348 352 RelB
+
+An overexpression of p50 has been described in follicular dendritic cells (FDC).
+# T10 Protein S4 21 24 418 421 p50
+
+A constitutive NF-kappa B activity has been reported in mature macrophages.
+
+This led to the hypothesis that some of the Rel/NF-kappa B proteins were key nuclear factors in functions of accessory cells of the immune response.
+
+Therefore, we investigated in situ the nuclear localization of Rel/NF-kappa B proteins in accessory cells of the immune system by immunohistochemistry and double labeling by immunofluorescence from five normal human tonsils and five lymph nodes with follicular hyperplasia.
+
+Nuclear p65 and c-Rel proteins were found in all cell types including lymphocytes.
+# T11 Protein S8 8 11 985 988 p65
+# T12 Protein S8 16 21 993 998 c-Rel
+
+In germinal centers GC, p50, p52, and RelB were found in the nuclei of FDC only and were not detected in the nuclei of CD68+ cells.
+# T13 Protein S9 24 27 1084 1087 p50
+# T14 Protein S9 29 32 1089 1092 p52
+# T15 Protein S9 38 42 1098 1102 RelB
+# T16 Protein S9 119 123 1179 1183 CD68
+
+In T cell areas, p50, p52, and RelB were found in the nuclei of HLA-DR+ cells with an antigen-presenting cell (APC) morphology.
+# T17 Protein S10 17 20 1209 1212 p50
+# T18 Protein S10 22 25 1214 1217 p52
+# T19 Protein S10 31 35 1223 1227 RelB
+# T20 Protein S10 64 70 1256 1262 HLA-DR
+
+p52 and RelB were detected in the nuclei in both CD1a+ and CD68+ cells from the T cell area, whereas p50 was found only in CD68- and CD1a- cells.
+# T21 Protein S11 0 3 1320 1323 p52
+# T22 Protein S11 8 12 1328 1332 RelB
+# T23 Protein S11 49 53 1369 1373 CD1a
+# T24 Protein S11 59 63 1379 1383 CD68
+# T25 Protein S11 101 104 1421 1424 p50
+# T26 Protein S11 123 127 1443 1447 CD68
+# T27 Protein S11 133 137 1453 1457 CD1a
+
+Cells with nuclear p50 were negative for the CD38, CD20 and CD2 markers.
+# T28 Protein S12 19 22 1485 1488 p50
+# T29 Protein S12 45 49 1511 1515 CD38
+# T30 Protein S12 51 55 1517 1521 CD20
+# T31 Protein S12 60 63 1526 1529 CD2
+
+These results show that, physiologically, high levels of nuclear of p50, p52 and RelB are restricted to accessory cells of the immune system, which include FDC in GC, and DC and macrophages in the T cell zone, that specialized scavenger macrophages from GC do not have detectable levels of p52 and RelB, whereas macrophages from the T cell area, known to present the antigen to T cells, do have both nuclear p52 and RelB, and that in the T cell zone, p52 and RelB are located in nuclei of both CD1a+, CD68+ or both, cells APC, whereas p50 is restricted to CD1a- and CD68- APC.
+# T32 Protein S13 68 71 1607 1610 p50
+# T33 Protein S13 73 76 1612 1615 p52
+# T34 Protein S13 81 85 1620 1624 RelB
+# T35 Protein S13 290 293 1829 1832 p52
+# T36 Protein S13 298 302 1837 1841 RelB
+# T37 Protein S13 408 411 1947 1950 p52
+# T38 Protein S13 416 420 1955 1959 RelB
+# T39 Protein S13 451 454 1990 1993 p52
+# T40 Protein S13 459 463 1998 2002 RelB
+# T41 Protein S13 494 498 2033 2037 CD1a
+# T42 Protein S13 501 505 2040 2044 CD68
+# T43 Protein S13 535 538 2074 2077 p50
+# T44 Protein S13 556 560 2095 2099 CD1a
+# T45 Protein S13 566 570 2105 2109 CD68
+
+The different patterns of p50, p52 and RelB protein nuclear localization may provide insight into their different roles during the immune response in vivo.
+# T46 Protein S14 26 29 2142 2145 p50
+# T47 Protein S14 31 34 2147 2150 p52
+# T48 Protein S14 39 43 2155 2159 RelB
+

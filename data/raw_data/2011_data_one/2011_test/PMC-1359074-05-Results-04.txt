@@ -1,0 +1,28 @@
+The Persistent Expression of epsilony Globin in Sox6-Deficient Mice Is Due to a Defect in the epsilony-Gene-Silencing Mechanism in Definitive Erythroid Cells
+# T1 Protein S1 29 44 29 44 epsilony Globin
+# T2 Protein S1 48 52 48 52 Sox6
+# T3 Protein S1 94 102 94 102 epsilony
+
+Normally, the epsilony globin gene is exclusively expressed in primitive erythrocytes and silenced in definitive erythrocytes.
+# T4 Protein S2 14 29 172 187 epsilony globin
+
+To determine whether the persistent expression of epsilony globin is due to residual primitive erythrocytes or is due to ectopic expression of epsilony globin in definitive erythrocytes, we examined the spatial pattern of epsilony globin transcripts in mouse embryos by in situ hybridization (Figure 5).
+# T5 Protein S3 50 65 335 350 epsilony globin
+# T6 Protein S3 143 158 428 443 epsilony globin
+# T7 Protein S3 222 237 507 522 epsilony globin
+
+As expected, epsilony globin is not expressed in the WT 14.5-dpc liver, the site of definitive erythropoiesis in the fetus.
+# T8 Protein S4 13 28 602 617 epsilony globin
+
+In contrast, abundant ectopic epsilony mRNA expression is seen in the liver of 14.5-dpc mutants (Figure 5 A-D).
+# T9 Protein S5 30 38 743 751 epsilony
+
+However, the expression of betamaj/min globin is equally abundant in both WT and p100H mutant mice (Figure 5 E and F).
+# T10 Protein S6 27 34 852 859 betamaj
+# T11 Protein S6 35 45 860 870 min globin
+
+These data demonstrate that the persistent high levels of epsilony are due to ectopic expression in the definitive erythroid cells that mature in the fetal liver, suggesting that there is an intrinsic defect of the epsilony silencing mechanism in Sox6-null mice.
+# T12 Protein S7 58 66 1002 1010 epsilony
+# T13 Protein S7 215 223 1159 1167 epsilony
+# T14 Protein S7 247 251 1191 1195 Sox6
+

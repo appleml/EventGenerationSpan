@@ -1,0 +1,12 @@
+TNF Activity Bioassay
+# T1 Protein S1 0 3 0 3 TNF
+
+Monocytes or THP-1 cells were cultured with or without different concentrations of CGNs or LPS (Salmonella typhosa, Sigma) for 24 h or the indicated time.
+
+Biologically active TNF-alpha/beta in tissue culture supernatant was measured using the WEHI 164 clone 13-cell killing assay [29].
+# T2 Protein S3 20 29 197 206 TNF-alpha
+# T3 Protein S3 30 34 207 211 beta
+
+TNF concentrations are expressed as pg/ml.
+# T4 Protein S4 0 3 308 311 TNF
+

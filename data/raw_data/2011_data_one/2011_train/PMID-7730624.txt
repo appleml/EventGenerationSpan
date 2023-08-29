@@ -1,0 +1,40 @@
+Activation of transcription by binding of NF-E1 (YY1) to a newly identified element in the first exon of the human DR alpha gene.
+# T1 Protein S1 42 47 42 47 NF-E1
+# T2 Protein S1 49 52 49 52 YY1
+# T3 Protein S1 115 123 115 123 DR alpha
+$ T1 Protein S1 42 47 42 47 NF-E1
+$ T3 Protein S1 115 123 115 123 DR alpha
+@ T13 Binding S1 31 38 31 38 binding
+% E1 Binding:T13 Theme:T1 Theme2:T3
+
+A previously unrecognized element, located downstream of the start site of transcription in the first exon of the DR alpha gene, has been defined that enhances promoter activity up to eightfold in a position-dependent manner.
+# T4 Protein S2 114 122 245 253 DR alpha
+
+Mutations in this DNA-binding site abolished binding of a nuclear factor in human B cell nuclear extract and decreased the activity of the DR alpha promoter to a basal level.
+# T5 Protein S3 139 147 496 504 DR alpha
+$ T5 Protein S3 139 147 496 504 DR alpha
+@ T14 Negative_regulation S3 109 118 466 475 decreased
+@ T15 Entity S3 148 156 505 513 promoter
+% E2 Negative_regulation:T14 Theme:T5 Site:T15
+
+Significant sequence homology of this element was found in the DNA of the DR beta, DP alpha and -beta, and DQ alpha genes, always located downstream of the transcriptional start site.
+# T6 Protein S4 74 81 606 613 DR beta
+# T7 Protein S4 107 115 639 647 DQ alpha
+
+The nuclear factor binds to the DR alpha and DP alpha element but not to the element in the DQ alpha gene.
+# T8 Protein S5 32 40 748 756 DR alpha
+# T9 Protein S5 45 53 761 769 DP alpha
+# T10 Protein S5 92 100 808 816 DQ alpha
+$ T10 Protein S5 92 100 808 816 DQ alpha
+@ T16 Binding S5 19 24 735 740 binds
+@ T17 Entity S5 77 84 793 800 element
+% E3 Binding:T16 Theme:T10 Site:T17
+
+It was identified as NF-E1 (YY1).
+# T11 Protein S6 21 26 844 849 NF-E1
+# T12 Protein S6 28 31 851 854 YY1
+
+This protein, previously identified by its binding to the Ig kappa 3' enhancer and the Ig heavy chain mu E1 site, thus also appears to be quite important in the regulation of MHC class II gene expression.
+@ T18 Binding S7 43 50 900 907 binding
+% E4 Binding:T18 Theme:T11
+

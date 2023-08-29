@@ -1,0 +1,113 @@
+Regulation of interleukin-2 receptor alpha chain expression and nuclear factor.kappa B activation by protein kinase C in T lymphocytes.
+# T1 Protein S1 14 48 14 48 interleukin-2 receptor alpha chain
+$ T1 Protein S1 14 48 14 48 interleukin-2 receptor alpha chain
+@ T24 Regulation S1 0 10 0 10 Regulation
+@ T25 Gene_expression S1 49 59 49 59 expression
+% E1 Regulation:T24 Theme:E2
+% E2 Gene_expression:T25 Theme:T1
+
+Autocrine role of tumor necrosis factor alpha.
+# T2 Protein S2 18 45 154 181 tumor necrosis factor alpha
+
+The regulation of interleukin-2 receptor alpha chain (IL-2R alpha) expression and nuclear factor (NF) activation by protein kinase C (PKC) in resting T cells, has been studied.
+# T3 Protein S3 18 52 202 236 interleukin-2 receptor alpha chain
+# T4 Protein S3 54 65 238 249 IL-2R alpha
+$ T4 Protein S3 54 65 238 249 IL-2R alpha
+@ T26 Regulation S3 4 14 188 198 regulation
+@ T27 Gene_expression S3 67 77 251 261 expression
+% E3 Regulation:T26 Theme:E4
+% E4 Gene_expression:T27 Theme:T4
+
+Treatment of human resting T cells with phorbol esters strongly induced the expression of IL-2R alpha and the activation of NF.kappa B.
+# T5 Protein S4 90 101 451 462 IL-2R alpha
+$ T5 Protein S4 90 101 451 462 IL-2R alpha
+@ T28 Positive_regulation S4 64 71 425 432 induced
+@ T29 Gene_expression S4 76 86 437 447 expression
+% E5 Positive_regulation:T28 Theme:E6
+% E6 Gene_expression:T29 Theme:T5
+
+This activation was due to the translocation of p65 and c-Rel NF.kappa B proteins from cytoplasmic stores to the nucleus, where they bound the kappa B sequence of the IL-2R alpha promoter either as p50.p65 or as p50.c-Rel heterodimers.
+# T6 Protein S5 48 51 545 548 p65
+# T7 Protein S5 56 61 553 558 c-Rel
+# T8 Protein S5 167 178 664 675 IL-2R alpha
+# T9 Protein S5 198 201 695 698 p50
+# T10 Protein S5 202 205 699 702 p65
+# T11 Protein S5 212 215 709 712 p50
+# T12 Protein S5 216 221 713 718 c-Rel
+$ T6 Protein S5 48 51 545 548 p65
+$ T7 Protein S5 56 61 553 558 c-Rel
+$ T8 Protein S5 167 178 664 675 IL-2R alpha
+$ T9 Protein S5 198 201 695 698 p50
+$ T10 Protein S5 202 205 699 702 p65
+$ T11 Protein S5 212 215 709 712 p50
+$ T12 Protein S5 216 221 713 718 c-Rel
+@ T30 Localization S5 31 44 528 541 translocation
+@ T31 Entity S5 113 120 610 617 nucleus
+@ T32 Binding S5 133 138 630 635 bound
+@ T33 Binding S5 222 234 719 731 heterodimers
+% E7 Localization:T30 Theme:T6 ToLoc:T31
+% E8 Localization:T30 Theme:T7 ToLoc:T31
+% E9 Binding:T32 Theme:T7 Theme2:T8
+% E10 Binding:T32 Theme:T6 Theme2:T8
+% E11 Binding:T33 Theme:T9 Theme2:T10
+% E12 Binding:T33 Theme:T11 Theme2:T12
+
+Interestingly, all of those events were largely indirect and mediated by endogenously secreted tumor necrosis factor alpha (TNF alpha), as they were strongly inhibited by a neutralizing anti-TNF alpha monoclonal antibody.
+# T13 Protein S6 95 122 828 855 tumor necrosis factor alpha
+# T14 Protein S6 124 133 857 866 TNF alpha
+# T15 Protein S6 191 200 924 933 TNF alpha
+$ T14 Protein S6 124 133 857 866 TNF alpha
+@ T34 Positive_regulation S6 61 69 794 802 mediated
+@ T35 Localization S6 86 94 819 827 secreted
+@ T36 Negative_regulation S6 158 167 891 900 inhibited
+% E13 Positive_regulation:T34 Theme:E9 Cause:T14
+% E14 Positive_regulation:T34 Theme:E8 Cause:T14
+% E15 Positive_regulation:T34 Theme:E7 Cause:T14
+% E16 Positive_regulation:T34 Theme:E10 Cause:T14
+% E17 Localization:T35 Theme:T14
+% E18 Negative_regulation:T36 Theme:E9
+% E19 Negative_regulation:T36 Theme:E10
+% E20 Negative_regulation:T36 Theme:E8
+
+Furthermore, cyclosporin A, which blocked TNF alpha production induced by PKC, strongly inhibited IL-2R alpha and NF.kappa B activation.
+# T16 Protein S7 42 51 997 1006 TNF alpha
+# T17 Protein S7 98 109 1053 1064 IL-2R alpha
+$ T16 Protein S7 42 51 997 1006 TNF alpha
+$ T17 Protein S7 98 109 1053 1064 IL-2R alpha
+@ T37 Negative_regulation S7 34 41 989 996 blocked
+@ T38 Gene_expression S7 52 62 1007 1017 production
+@ T39 Positive_regulation S7 63 70 1018 1025 induced
+@ T40 Negative_regulation S7 88 97 1043 1052 inhibited
+@ T41 Positive_regulation S7 125 135 1080 1090 activation
+% E21 Negative_regulation:T37 Theme:E23
+% E22 Gene_expression:T38 Theme:T16
+% E23 Positive_regulation:T39 Theme:E22
+% E24 Negative_regulation:T40 Theme:E25
+% E25 Positive_regulation:T41 Theme:T17
+
+The addition of either TNF alpha or IL-2 partially recovered cyclosporin A-induced IL-2R alpha inhibition, but only TNF alpha completely recovered NF.kappa B activation.
+# T18 Protein S8 23 32 1115 1124 TNF alpha
+# T19 Protein S8 36 40 1128 1132 IL-2
+# T20 Protein S8 83 94 1175 1186 IL-2R alpha
+# T21 Protein S8 116 125 1208 1217 TNF alpha
+$ T18 Protein S8 23 32 1115 1124 TNF alpha
+$ T19 Protein S8 36 40 1128 1132 IL-2
+$ T20 Protein S8 83 94 1175 1186 IL-2R alpha
+@ T42 Negative_regulation S8 51 60 1143 1152 recovered
+@ T43 Negative_regulation S8 95 105 1187 1197 inhibition
+% E26 Negative_regulation:T42 Theme:E28 Cause:T19
+% E27 Negative_regulation:T42 Theme:E28 Cause:T18
+% E28 Negative_regulation:T43 Theme:T20
+
+Those results indicate that, in resting T cells, PKC activation has only a triggering role, whereas the endogenously secreted TNF alpha plays an essential role in the quantitative control of the expression of IL-2R alpha chain or NF.kappa B activation.
+# T22 Protein S9 126 135 1388 1397 TNF alpha
+# T23 Protein S9 209 226 1471 1488 IL-2R alpha chain
+$ T22 Protein S9 126 135 1388 1397 TNF alpha
+$ T23 Protein S9 209 226 1471 1488 IL-2R alpha chain
+@ T44 Localization S9 117 125 1379 1387 secreted
+@ T45 Regulation S9 180 187 1442 1449 control
+@ T46 Gene_expression S9 195 205 1457 1467 expression
+% E29 Localization:T44 Theme:T22
+% E30 Regulation:T45 Theme:E31 Cause:T22
+% E31 Gene_expression:T46 Theme:T23
+

@@ -1,0 +1,46 @@
+This study was approved by the Human Research Protections Program and the Institutional Review Board.
+
+Written consent to participate in the study was obtained from all volunteers prior to blood donation.Heparinized Vacutainers were purchased from Becton Dickinson (San Jose, CA).
+
+1.5-mL Eppendorf centrifuge tubes were purchased from Fisher Scientific (Pittsburg, PA).
+
+Hank's balanced salt solution (HBSS) and RPMI 1640 were obtained from Irvine Scientific (Santa Ana, CA).
+
+LPS fromEscherichia coliserotype 0111:B4 and PTX were purchased from Sigma (St. Louis, MO).
+
+The PKA inhibitor, N-[2-((p-bromocinnamyl)amino)ethyl]-5-isoguinolinesulfonamide-2HCl] (H89), was purchased from Calbiochem (La Jolla, CA).
+
+Antibodies for phosphorylated CREB (serine 133), phosphorylated I-kappaBalpha (serines 32 and 36), phosphorylated NF-kappaB p65 subunit (serine 276), and secondary antibodies were purchased from Cell Signaling (Beverly, MA).
+# T1 Protein S7 30 34 736 740 CREB
+# T2 Protein S7 64 77 770 783 I-kappaBalpha
+# T3 Protein S7 124 127 830 833 p65
+$ T1 Protein S7 30 34 736 740 CREB
+$ T2 Protein S7 64 77 770 783 I-kappaBalpha
+$ T3 Protein S7 124 127 830 833 p65
+@ T5 Phosphorylation S7 15 29 721 735 phosphorylated
+@ T6 Entity S7 36 46 742 752 serine 133
+@ T7 Phosphorylation S7 49 63 755 769 phosphorylated
+@ T8 Entity S7 79 89 785 795 serines 32
+@ T9 Entity S7 94 96 800 802 36
+@ T10 Phosphorylation S7 99 113 805 819 phosphorylated
+@ T11 Entity S7 137 147 843 853 serine 276
+% E1 Phosphorylation:T5 Theme:T1 Site:T6
+% E2 Phosphorylation:T7 Theme:T2 Site:T8
+% E3 Phosphorylation:T7 Theme:T2 Site:T9
+% E4 Phosphorylation:T10 Theme:T3 Site:T11
+
+Dextran T500 and Percoll were received from GE Healthcare/Amersham Biosciences (Piscataway, NJ).
+
+The enzyme-linked immunosorbent assay (ELISA) for TNF-alpha was obtained from Quantikine R&D Systems (Minneapolis, MN).
+# T4 Protein S9 50 59 1077 1086 TNF-alpha
+
+Tris-glycine and DNA retardation gels, nitrocellulose membranes, and western blot running buffers were obtained from Invitrogen (Carlsbad, CA).
+
+NE-PER(R)nuclear and cytoplasmic extraction reagents, the BCA protein reagent kit, the Supersignal West Pico Chemiluminescent Kit, and the LightShift Chemiluminescent EMSA Kit were purchased from Pierce (Rockland, IL).
+
+CREB and NF-kappaB DNA oligonucleotide probes were synthesized by IDT (Coralville, IA).
+
+Nylon membranes were purchased from Roche Applied Sciences (Indianapolis, IN).
+
+Western blot band quantification was performed with the UN-SCAN-IT Gel Digitizing software (Silk Scientific, Orem, UT).
+

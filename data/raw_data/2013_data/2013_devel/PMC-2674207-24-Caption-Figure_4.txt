@@ -1,0 +1,82 @@
+Fluticasone propionate competes with phospho-GATA-3 for importin-alpha.
+# T1 Protein S1 45 51 45 51 GATA-3
+$ T1 Protein S1 45 51 45 51 GATA-3
+@ T14 Phosphorylation S1 37 44 37 44 phospho
+% E1 Phosphorylation:T14 Theme:T1
+
+(A) schematic representation of the in vitro binding competition assay.
+
+(B) GR isolated from FP (10-8 M) stimulated cells enhances GR-importin-alpha binding in the presence (*) and absence (==blacksquare, square, filled==) of activated GATA-3.
+# T2 Protein S3 4 6 148 150 GR
+# T3 Protein S3 59 61 203 205 GR
+# T4 Protein S3 164 170 308 314 GATA-3
+$ T2 Protein S3 4 6 148 150 GR
+$ T3 Protein S3 59 61 203 205 GR
+@ T15 Positive_regulation S3 50 58 194 202 enhances
+@ T16 Binding S3 77 84 221 228 binding
+% E2 Positive_regulation:T15 Theme:E3 Cause:T2
+% E3 Binding:T16 Theme:T3
+
+* p<0.05 compared to no activated GR.
+# T5 Protein S4 34 36 350 352 GR
+$ T5 Protein S4 34 36 350 352 GR
+@ T17 Positive_regulation S4 24 33 340 349 activated
+% E4 Positive_regulation:T17 Theme:T5
+
+(C) GATA-3 isolated from anti-CD3/CD28-stimulated cells does not attenuate GR-importin-alpha association.
+# T6 Protein S5 4 10 358 364 GATA-3
+# T7 Protein S5 75 77 429 431 GR
+$ T6 Protein S5 4 10 358 364 GATA-3
+$ T7 Protein S5 75 77 429 431 GR
+@ T18 Negative_regulation S5 65 74 419 428 attenuate
+@ T19 Binding S5 93 104 447 458 association
+% E5 Negative_regulation:T18 Theme:E6 Cause:T6
+% E6 Binding:T19 Theme:T7
+
+*p<0.05 compared to control.
+
+(D) Activated GR blocks the ability of purified phospho-GATA-3 isolated from anti-CD3/CD28-stimulated cells interacting with immobilised importin-alpha in an in vitro binding assay.
+# T8 Protein S7 14 16 503 505 GR
+# T9 Protein S7 56 62 545 551 GATA-3
+$ T8 Protein S7 14 16 503 505 GR
+$ T9 Protein S7 56 62 545 551 GATA-3
+@ T20 Positive_regulation S7 4 13 493 502 Activated
+@ T21 Negative_regulation S7 17 23 506 512 blocks
+@ T22 Phosphorylation S7 48 55 537 544 phospho
+@ T23 Binding S7 108 119 597 608 interacting
+% E7 Positive_regulation:T20 Theme:T8
+% E8 Negative_regulation:T21 Theme:E9 Cause:T8
+% E9 Binding:T23 Theme:T9
+% E10 Phosphorylation:T22 Theme:T9
+
+*p<0.05 compared to GATA-3 isolated from unstimulated cells.
+# T10 Protein S8 20 26 691 697 GATA-3
+
+#p<0.05 compared to stimulated GATA-3-importin binding.
+# T11 Protein S9 31 37 763 769 GATA-3
+$ T11 Protein S9 31 37 763 769 GATA-3
+@ T24 Positive_regulation S9 20 30 752 762 stimulated
+@ T25 Binding S9 47 54 779 786 binding
+% E11 Positive_regulation:T24 Theme:E12
+% E12 Binding:T25 Theme:T11
+
+(E) The effect of activated (*) versus unstimulated (o) GR on attenuation of GATA-3-importin-alpha association was concentration-dependent.
+# T12 Protein S10 56 58 844 846 GR
+# T13 Protein S10 77 83 865 871 GATA-3
+$ T12 Protein S10 56 58 844 846 GR
+$ T13 Protein S10 77 83 865 871 GATA-3
+@ T26 Positive_regulation S10 18 27 806 815 activated
+@ T27 Positive_regulation S10 39 51 827 839 unstimulated
+@ T28 Negative_regulation S10 62 73 850 861 attenuation
+@ T29 Binding S10 99 110 887 898 association
+@ T30 Regulation S10 129 138 917 926 dependent
+% E13 Positive_regulation:T26 Theme:T12
+% E14 Positive_regulation:T27 Theme:T12
+% E15 Negative_regulation:T28 Theme:E16 Cause:T12
+% E16 Binding:T29 Theme:T13
+% E17 Regulation:T30 Theme:E15
+
+*p<0.05, **p<0.01 between groups.
+
+All results are expressed as mean+/-SEM of three independent experiments and analysed by ANOVA followed by Newman-Keuls post-test.
+

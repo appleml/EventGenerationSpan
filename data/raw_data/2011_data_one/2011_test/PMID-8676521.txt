@@ -1,0 +1,17 @@
+Epstein-Barr virus nuclear antigen 2 and latent membrane protein independently transactivate p53 through induction of NF-kappaB activity.
+# T1 Protein S1 19 36 19 36 nuclear antigen 2
+# T2 Protein S1 93 96 93 96 p53
+
+B-cell immortalization by Epstein-Barr virus (EBV) is dependent on permanent control of the cellular processes which normally regulate cell division and apoptosis, functions possessed by p53 in a number of normal cell types.
+# T3 Protein S2 187 190 326 329 p53
+
+In studies initiated to evaluate relationships between EBV latent genes and p53, p53 levels were found to increase approximately 10-fold 4 to 5 days after EBV infection of purified resting human B cells; the induced p53 was transcriptionally active.
+# T4 Protein S3 76 79 440 443 p53
+# T5 Protein S3 81 84 445 448 p53
+# T6 Protein S3 216 219 580 583 p53
+
+Latent membrane protein 1 and, to a lesser extent, EBV nuclear antigen 2 mediated the increase in p53 levels via activation of the NF-kappaB transcription factor.
+# T7 Protein S4 0 25 614 639 Latent membrane protein 1
+# T8 Protein S4 55 72 669 686 nuclear antigen 2
+# T9 Protein S4 98 101 712 715 p53
+

@@ -1,0 +1,105 @@
+Cobalt chloride-induced signaling in endothelium leading to the augmented adherence of sickle red blood cells and transendothelial migration of monocyte-like HL-60 cells is blocked by PAF-receptor antagonist.
+# T1 Protein S1 184 196 184 196 PAF-receptor
+
+In response to hypoxia, sickle red blood cells (SS RBC) and leukocytes exhibit increased adherence to the vascular endothelium, while diapedesis of leukocytes through the blood vessel increases.
+
+However, the cellular signaling pathway(s) caused by hypoxia is poorly understood.
+
+We utilized CoCl2 as a mimetic molecule for hypoxia to study cellular signaling pathways.
+
+We found that in human umbilical vein endothelial cells (HUVEC), CoCl2 at 2 mM concentration induced the surface expression of a subset of CAMs (VCAM-1) and activation of transcription factor NF-kappaB in the nuclear extracts of HUVEC.
+# T2 Protein S5 145 151 723 729 VCAM-1
+$ T2 Protein S5 145 151 723 729 VCAM-1
+@ T15 Positive_regulation S5 93 100 671 678 induced
+@ T16 Gene_expression S5 113 123 691 701 expression
+% E1 Positive_regulation:T15 Theme:E2
+% E2 Gene_expression:T16 Theme:T2
+
+Furthermore, CoCl2 also caused time-dependent tyrosine phosphorylation of mitogen-activated protein (MAP) kinase isoform ERK2 without significantly affecting ERK1, indicating ERK2 is the preferred substrate for upstream kinase of the MAPK pathway.
+# T3 Protein S6 121 125 935 939 ERK2
+# T4 Protein S6 158 162 972 976 ERK1
+# T5 Protein S6 175 179 989 993 ERK2
+$ T3 Protein S6 121 125 935 939 ERK2
+$ T4 Protein S6 158 162 972 976 ERK1
+@ T17 Positive_regulation S6 24 30 838 844 caused
+@ T18 Entity S6 46 54 860 868 tyrosine
+@ T19 Phosphorylation S6 55 70 869 884 phosphorylation
+@ T20 Regulation S6 148 157 962 971 affecting
+@ T21 Positive_regulation S6 207 210 1021 1024 for
+% E3 Positive_regulation:T17 Theme:E4
+% E4 Phosphorylation:T19 Theme:T3 Site:T18
+% E5 Regulation:T20 Theme:T4
+% E6 Positive_regulation:T21 Theme:E4
+
+Inhibitors of MAP kinase (PD98059) or platelet-activating factor (PAF)- receptor antagonist (CV3988) inhibited the CoCl2-induced NF-kappaB activation and VCAM-1 expression.
+# T6 Protein S7 154 160 1216 1222 VCAM-1
+$ T6 Protein S7 154 160 1216 1222 VCAM-1
+@ T22 Negative_regulation S7 101 110 1163 1172 inhibited
+@ T23 Positive_regulation S7 121 128 1183 1190 induced
+@ T24 Gene_expression S7 161 171 1223 1233 expression
+% E7 Negative_regulation:T22 Theme:E8
+% E8 Positive_regulation:T23 Theme:E9
+% E9 Gene_expression:T24 Theme:T6
+
+Augmented expression of VCAM-1 led to increased SS RBC adhesion, inhibitable by a VCAM-1 antibody.
+# T7 Protein S8 24 30 1259 1265 VCAM-1
+# T8 Protein S8 82 88 1317 1323 VCAM-1
+$ T7 Protein S8 24 30 1259 1265 VCAM-1
+@ T25 Positive_regulation S8 0 9 1235 1244 Augmented
+@ T26 Gene_expression S8 10 20 1245 1255 expression
+% E10 Positive_regulation:T25 Theme:E11
+% E11 Gene_expression:T26 Theme:T7
+
+Additionally, CoCl2 caused a two- to threefold increase in the rate of transendothelial migration of monocyte-like HL-60 cells and a twentyfold increase in phosphorylation of platelet endothelial cell adhesion molecules (PECAM-1).
+# T9 Protein S9 221 228 1555 1562 PECAM-1
+$ T9 Protein S9 221 228 1555 1562 PECAM-1
+@ T27 Positive_regulation S9 20 26 1354 1360 caused
+@ T28 Positive_regulation S9 144 152 1478 1486 increase
+@ T29 Phosphorylation S9 156 171 1490 1505 phosphorylation
+% E12 Positive_regulation:T27 Theme:E13
+% E13 Positive_regulation:T28 Theme:E14
+% E14 Phosphorylation:T29 Theme:T9
+
+The transendothelial migration of monocytes was inhibited by an antibody to PECAM-1.
+# T10 Protein S10 76 83 1641 1648 PECAM-1
+
+Both phosphorylation of PECAM-1 and transendothelial migration of monocytes in response to CoCl2 were inhibited by protein kinase inhibitor (GF109203X) and augmented by protein phosphatase inhibitor (Calyculin A).
+# T11 Protein S11 24 31 1674 1681 PECAM-1
+$ T11 Protein S11 24 31 1674 1681 PECAM-1
+@ T30 Phosphorylation S11 5 20 1655 1670 phosphorylation
+@ T31 Positive_regulation S11 76 87 1726 1737 in response
+@ T32 Negative_regulation S11 102 111 1752 1761 inhibited
+@ T33 Positive_regulation S11 156 165 1806 1815 augmented
+% E15 Phosphorylation:T30 Theme:T11
+% E16 Positive_regulation:T31 Theme:E15
+% E17 Negative_regulation:T32 Theme:E15
+% E18 Positive_regulation:T33 Theme:E15
+
+Our data suggests that CoCl2-induced cellular signals directing increased expression of VCAM-1 in HUVEC involve downstream activation of MAP kinase and NF-kappaB, while the phosphorylation of PECAM-1 occurs as a result of activation of PKC.
+# T12 Protein S12 88 94 1952 1958 VCAM-1
+# T13 Protein S12 192 199 2056 2063 PECAM-1
+$ T12 Protein S12 88 94 1952 1958 VCAM-1
+$ T13 Protein S12 192 199 2056 2063 PECAM-1
+@ T34 Positive_regulation S12 29 36 1893 1900 induced
+@ T35 Positive_regulation S12 54 63 1918 1927 directing
+@ T36 Positive_regulation S12 64 73 1928 1937 increased
+@ T37 Gene_expression S12 74 84 1938 1948 expression
+@ T38 Phosphorylation S12 173 188 2037 2052 phosphorylation
+@ T39 Positive_regulation S12 200 206 2064 2070 occurs
+% E19 Positive_regulation:T34 Theme:E20
+% E20 Positive_regulation:T35 Theme:E21
+% E21 Positive_regulation:T36 Theme:E22
+% E22 Gene_expression:T37 Theme:T12
+% E23 Phosphorylation:T38 Theme:T13
+% E24 Positive_regulation:T39 Theme:E23
+
+We conclude that PAF-receptor antagonist inhibits the CoCl2- or hypoxia-induced increase in the adhesion of SS RBC, PECAM-1 phosphorylation, and the concomitant transendothelial migration of monocytes.
+# T14 Protein S13 116 123 2221 2228 PECAM-1
+$ T14 Protein S13 116 123 2221 2228 PECAM-1
+@ T40 Negative_regulation S13 41 49 2146 2154 inhibits
+@ T41 Positive_regulation S13 80 88 2185 2193 increase
+@ T42 Phosphorylation S13 124 139 2229 2244 phosphorylation
+% E25 Negative_regulation:T40 Theme:E26
+% E26 Positive_regulation:T41 Theme:E27
+% E27 Phosphorylation:T42 Theme:T14
+

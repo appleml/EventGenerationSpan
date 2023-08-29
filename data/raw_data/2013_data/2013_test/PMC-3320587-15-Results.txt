@@ -1,0 +1,22 @@
+Specific disruption of NFAT5 binding impairs LTR-driven transcription in THP-1 cells in response to MTb stimulation
+# T1 Protein S1 23 28 23 28 NFAT5
+
+Although the transcription factor NFAT5 binds to a core NF-kappaB binding motif in the HIV-1 LTR enhancer region of subtype B, when two thymines (TT) are changed to cytosines (CC) in the proximal NF-kappaB binding motif (named N5-Mut) (bottom of Figure 1B), the binding of NFAT5 can be disrupted while leaving binding of NF-kappaB unperturbed [31].
+# T2 Protein S2 34 39 150 155 NFAT5
+# T3 Protein S2 273 278 389 394 NFAT5
+
+We examined the requirement of NFAT5 for MTb-induced LTR activity by transfecting a wild-type and NFAT5 mutant LTR reporter construct into THP-1 cells, followed by stimulation with an MTb lysate.
+# T4 Protein S3 31 36 496 501 NFAT5
+
+As shown in Figure 1B, in the absence of MTb lysate stimulation the activity of the NFAT5 binding site-mutant LTR was significantly reduced (p<0.05) in comparison to the wild-type LTR.
+
+When the NFAT5 binding site-mutant LTR was examined in THP-1 cells stimulated with the MTb lysate, its activity was reduced to an even more significant extent (p<0.01).
+
+To determine whether MTb lysate stimulation directly enhances NFAT5 expression in THP-1 cells, we stimulated cells for 8 or 24 hours or left them unstimulated and examined NFAT5 protein levels by western blot.
+# T5 Protein S6 62 67 1077 1082 NFAT5
+# T6 Protein S6 172 177 1187 1192 NFAT5
+
+As shown in Figure 1C, we found that NFAT5 protein levels steadily increased in response to MTb lysate stimulation, revealing that TLR engagement by MTb results in enhanced levels of NFAT5, consistent with its playing a role in MTb-induced activation of the HIV-1 LTR.
+# T7 Protein S7 37 42 1262 1267 NFAT5
+# T8 Protein S7 183 188 1408 1413 NFAT5
+

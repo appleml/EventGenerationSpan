@@ -1,0 +1,27 @@
+BCL-6 and the molecular pathogenesis of B-cell lymphoma.
+# T1 Protein S1 0 5 0 5 BCL-6
+
+The results presented identify the first genetic lesion associated with DLCL, the most clinically relevant form of NHL.
+
+Although no proof yet exists of a role for these lesions in DLCL pathogenesis, the feature of the BCL-6 gene product, its specific pattern of expression in B cells, and the clustering of lesions disrupting its regulatory domain strongly suggest that deregulation of BCL-6 expression may contribute to DLCL development.
+# T2 Protein S3 98 103 276 281 BCL-6
+# T3 Protein S3 266 271 444 449 BCL-6
+
+A more precise definition of the role of BCL-6 in normal and neoplastic B-cell development is the goal of ongoing study of transgenic mice engineered either to express BCL-6 under heterologous promoters or lacking BCL-6 function due to targeted deletions.
+# T4 Protein S4 41 46 538 543 BCL-6
+# T5 Protein S4 168 173 665 670 BCL-6
+# T6 Protein S4 214 219 711 716 BCL-6
+
+In addition to contributing to the understanding of DLCL pathogenesis, the identification of BCL-6 lesions may have relevant clinical implications.
+# T7 Protein S5 93 98 846 851 BCL-6
+
+DLCL represent a heterogeneous group of neoplasms which are treated homogeneously despite the fact that only 50% of patients experience long-term disease-free survival (Schneider et al. 1990).
+
+The fact that BCL-6 rearrangements identify biologically and clinically distinct subsets of DLCL suggests that these lesions may be useful as markers in selection of differential therapeutic strategies based on different risk groups.
+# T8 Protein S7 14 19 1108 1113 BCL-6
+
+Furthermore, the BCL-6 rearrangements can be used to identify and monitor the malignant clone with sensitive PCR-based techniques.
+# T9 Protein S8 17 22 1345 1350 BCL-6
+
+Since clinical remission has been observed in a significant fraction of DLCL cases, these markers may serve as critical tools for sensitive monitoring of minimal residual disease and early diagnosis of relapse (Gribben et al. 1993).
+

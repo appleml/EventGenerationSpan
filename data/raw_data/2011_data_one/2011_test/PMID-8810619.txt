@@ -1,0 +1,25 @@
+Tyloxapol inhibits NF-kappa B and cytokine release, scavenges HOCI, and reduces viscosity of cystic fibrosis sputum.
+
+Cystic fibrosis (CF) patients develop progressive cytokine-mediated inflammatory lung disease, with abundant production of thick, tenacious, protease- and oxidant-rich purulent airway secretions that are difficult to clear even with physiotherapy.
+
+In the search for a potential treatment, we have tested tyloxapol, an alkylaryl polyether alcohol polymer detergent previously used as a mucolytic agent in adult chronic bronchitis.
+
+Tyloxapol inhibits activation of the transcription factor nuclear factor-kappa B (NK-kappa B), reduces resting secretion of the cytokine interleukin-8 (IL-8) in cultured human monocytes, and inhibits lipopolysaccharide (LPS)-stimulated release of tumor necrosis factor-alpha (TNF-alpha), IL-1 beta, IL-6, IL-8, granulocyte-macrophage colony-stimulating factor (GM-CSF), and the eiconsanoids thromboxane A2 and leukotriene B4 (LTB4).
+# T1 Protein S4 137 150 685 698 interleukin-8
+# T2 Protein S4 152 156 700 704 IL-8
+# T3 Protein S4 247 274 795 822 tumor necrosis factor-alpha
+# T4 Protein S4 276 285 824 833 TNF-alpha
+# T5 Protein S4 288 297 836 845 IL-1 beta
+# T6 Protein S4 299 303 847 851 IL-6
+# T7 Protein S4 305 309 853 857 IL-8
+# T8 Protein S4 311 359 859 907 granulocyte-macrophage colony-stimulating factor
+# T9 Protein S4 361 367 909 915 GM-CSF
+
+We have previously shown that tyloxapol is a potent antioxidant for hydroxyl radicals ( OH).
+
+Tyloxapol (0.05 to 0.1% wt/vol) effectively scavenges the oxidant hypochlorous acid (HOCl; 1 to 7.5 mM) in vitro, and protects from HOCl-mediated lung injury in rats.
+
+Tyloxapol also reduces the viscosity of CF sputum (from 463 +/- 133 to 128 +/- 52 centipoise).
+
+We conclude that tyloxapol is potentially useful as a new antiinflammatory therapy for CF lung disease, and could possibly promote clearance of secretions in the CF airway.
+

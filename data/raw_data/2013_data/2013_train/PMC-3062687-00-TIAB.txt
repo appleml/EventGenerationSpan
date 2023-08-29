@@ -1,0 +1,69 @@
+IKKbeta phosphorylation regulates RPS3 nuclear translocation and NF-kappaB function duringEscherichia coliO157:H7 infection
+# T1 Protein S1 0 7 0 7 IKKbeta
+# T2 Protein S1 34 38 34 38 RPS3
+$ T1 Protein S1 0 7 0 7 IKKbeta
+$ T2 Protein S1 34 38 34 38 RPS3
+@ T13 Phosphorylation S1 8 23 8 23 phosphorylation
+@ T14 Regulation S1 24 33 24 33 regulates
+@ T15 Entity S1 39 46 39 46 nuclear
+@ T16 Localization S1 47 60 47 60 translocation
+% E1 Phosphorylation:T13 Theme:T1
+% E2 Regulation:T14 Theme:E3 Cause:E1
+% E3 Localization:T16 Theme:T2 ToLoc:T15
+
+NF-kappaB is a major gene regulator in immune responses and ribosomal protein S3 (RPS3) is an NF-kappaB subunit that directs specific gene transcription.
+# T3 Protein S2 60 80 184 204 ribosomal protein S3
+# T4 Protein S2 82 86 206 210 RPS3
+
+However, it is unknown how RPS3 nuclear translocation is regulated.
+# T5 Protein S3 27 31 305 309 RPS3
+$ T5 Protein S3 27 31 305 309 RPS3
+@ T17 Entity S3 32 39 310 317 nuclear
+@ T18 Localization S3 40 53 318 331 translocation
+@ T19 Regulation S3 57 66 335 344 regulated
+% E4 Localization:T18 Theme:T5 ToLoc:T17
+% E5 Regulation:T19 Theme:E4
+
+Here we report that IKKbeta phosphorylation of serine 209 (S209) was crucial for RPS3 nuclear localization in response to activating stimuli.
+# T6 Protein S4 20 27 366 373 IKKbeta
+# T7 Protein S4 81 85 427 431 RPS3
+$ T6 Protein S4 20 27 366 373 IKKbeta
+$ T7 Protein S4 81 85 427 431 RPS3
+@ T20 Phosphorylation S4 28 43 374 389 phosphorylation
+@ T21 Entity S4 47 57 393 403 serine 209
+@ T22 Positive_regulation S4 69 76 415 422 crucial
+@ T23 Entity S4 86 93 432 439 nuclear
+@ T24 Localization S4 94 106 440 452 localization
+@ T25 Positive_regulation S4 107 121 453 467 in response to
+@ T26 Positive_regulation S4 122 132 468 478 activating
+% E6 Phosphorylation:T20 Theme:T6 Site:T21
+% E7 Positive_regulation:T22 Theme:E8 Cause:E6
+% E9 Localization:T24 Theme:T7 ToLoc:T23
+% E8 Positive_regulation:T25 Theme:E9 Cause:E10
+% E10 Positive_regulation:T26 Theme:T7
+
+Moreover, the foodborne pathogen Escherichia coli O157:H7 virulence protein NleH1 specifically inhibited RPS3 S209 phosphorylation and blocked RPS3 function, thereby promoting bacterial colonization and diarrhea but decreasing mortality in a gnotobiotic piglet infection model.
+# T8 Protein S5 76 81 564 569 NleH1
+# T9 Protein S5 105 109 593 597 RPS3
+# T10 Protein S5 143 147 631 635 RPS3
+$ T8 Protein S5 76 81 564 569 NleH1
+$ T9 Protein S5 105 109 593 597 RPS3
+$ T10 Protein S5 143 147 631 635 RPS3
+@ T27 Negative_regulation S5 95 104 583 592 inhibited
+@ T28 Entity S5 110 114 598 602 S209
+@ T29 Phosphorylation S5 115 130 603 618 phosphorylation
+@ T30 Negative_regulation S5 135 142 623 630 blocked
+% E11 Negative_regulation:T27 Theme:E12 Cause:T8
+% E12 Phosphorylation:T29 Theme:T9 Site:T28
+% E13 Negative_regulation:T30 Theme:T10 Cause:E11
+
+Thus, the IKKbeta-dependent modification of a specific amino acid in RPS3 promotes specific NF-kappaB functions that underlie the molecular pathogenetic mechanisms of E. coli O157:H7.
+# T11 Protein S6 10 17 776 783 IKKbeta
+# T12 Protein S6 69 73 835 839 RPS3
+$ T11 Protein S6 10 17 776 783 IKKbeta
+$ T12 Protein S6 69 73 835 839 RPS3
+@ T31 Regulation S6 18 27 784 793 dependent
+@ T32 Protein_modification S6 28 40 794 806 modification
+% E14 Regulation:T31 Theme:E15 Cause:T11
+% E15 Protein_modification:T32 Theme:T12
+

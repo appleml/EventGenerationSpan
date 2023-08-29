@@ -1,0 +1,39 @@
+Astrocytes and glioblastoma cells express novel octamer-DNA binding proteins distinct from the ubiquitous Oct-1 and B cell type Oct-2 proteins.
+# T1 Protein S1 106 111 106 111 Oct-1
+# T2 Protein S1 128 133 128 133 Oct-2
+
+The 'octamer' sequence, ATGCAAAT or its complement ATTTGCAT, is a key element for the transcriptional regulation of immunoglobulin genes in B-lymphocytes as well as a number of housekeeping genes in all cell types.
+
+In lymphocytes, the octamer-binding protein Oct-2A and variants thereof are thought to contribute to the B-cell specific gene expression, while the ubiquitous protein Oct-1 seems to control general octamer site-dependent transcription.
+# T3 Protein S3 44 50 404 410 Oct-2A
+# T4 Protein S3 167 172 527 532 Oct-1
+
+Various other genes, for example interleukin-1 and MHC class II genes, contain an octamer sequence in the promoter and are expressed in cells of both the immune and nervous systems.
+
+This prompted us to analyze the octamer-binding proteins in the latter cells.
+
+Using the electrophoretic mobility shift assay, at least six novel octamer binding proteins were detected in nuclear extracts of cultured mouse astrocytes.
+
+These proteins are differentially expressed in human glioblastoma and neuroblastoma cell lines.
+
+The nervous system-derived (N-Oct) proteins bound to the octamer DNA sequence in a manner which is indistinguishable from the Oct-1 and Oct-2A proteins.
+# T5 Protein S8 126 131 1234 1239 Oct-1
+# T6 Protein S8 136 142 1244 1250 Oct-2A
+
+The relationship of the N-Oct proteins to Oct-1 and Oct-2A was analyzed by proteolytic clipping bandshift assays and by their reactivity towards antisera raised against recombinant Oct-1 and Oct-2A proteins.
+# T7 Protein S9 42 47 1303 1308 Oct-1
+# T8 Protein S9 52 58 1313 1319 Oct-2A
+# T9 Protein S9 181 186 1442 1447 Oct-1
+# T10 Protein S9 191 197 1452 1458 Oct-2A
+
+On the basis of these assays, all N-Oct-factors were found to be distinct from the ubiquitous Oct-1 and the lymphoid-specific Oct-2A proteins.
+# T11 Protein S10 94 99 1563 1568 Oct-1
+# T12 Protein S10 126 132 1595 1601 Oct-2A
+
+In melanoma cells that contain the N-Oct-3 factor, a transfected lymphocyte-specific promoter was neither activated nor was it repressed upon contransfection with an Oct-2A expression vector.
+# T13 Protein S11 35 42 1647 1654 N-Oct-3
+# T14 Protein S11 166 172 1778 1784 Oct-2A
+
+We therefore speculate that N-Oct-3 and other N-Oct factors have a specific role in gene expression in cells of the nervous system.
+# T15 Protein S12 28 35 1832 1839 N-Oct-3
+

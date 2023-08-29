@@ -1,0 +1,24 @@
+Interleukin-7 can induce the activation of Jak 1, Jak 3 and STAT 5 proteins in murine T cells.
+# T1 Protein S1 0 13 0 13 Interleukin-7
+# T2 Protein S1 43 48 43 48 Jak 1
+# T3 Protein S1 50 55 50 55 Jak 3
+# T4 Protein S1 60 66 60 66 STAT 5
+
+The activation of Janus protein tyrosine kinases (Jak) and STAT (signal transducer and activator of transcription) proteins has recently been linked to the signal transduction mechanism of several cytokines.
+
+IL-7 was observed to induce a rapid and dose-dependent tyrosine phosphorylation of Jak 1 and Jak 3 and concomitantly, the tyrosine phosphorylation and DNA binding activity of multiple STAT proteins.
+# T5 Protein S3 0 4 304 308 IL-7
+# T6 Protein S3 83 88 387 392 Jak 1
+# T7 Protein S3 93 98 397 402 Jak 3
+
+The STAT proteins utilized by IL-7 were identical to those induced by IL-2 and could be identified as various STAT 5 isoforms.
+# T8 Protein S4 30 34 533 537 IL-7
+# T9 Protein S4 70 74 573 577 IL-2
+
+Moreover, the induction of both Jak 1 and 3, and STAT 5 activity strongly correlated with the growth-promoting effects of IL-7, suggesting that this signal transduction mechanism may play a key role in IL-7-induced proliferation.
+# T10 Protein S5 32 37 662 667 Jak 1
+# T11 Protein S5 42 43 672 673 3
+# T12 Protein S5 49 55 679 685 STAT 5
+# T13 Protein S5 122 126 752 756 IL-7
+# T14 Protein S5 202 206 832 836 IL-7
+

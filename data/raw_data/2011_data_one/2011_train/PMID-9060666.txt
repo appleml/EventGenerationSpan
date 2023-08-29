@@ -1,0 +1,35 @@
+Alteration of a single serine in the basic domain of the Epstein-Barr virus ZEBRA protein separates its functions of transcriptional activation and disruption of latency.
+# T1 Protein S1 76 81 76 81 ZEBRA
+
+The ZEBRA protein from Epstein-Barr virus (EBV) activates a switch from the latent to the lytic expression program of the virus.
+# T2 Protein S2 4 9 176 181 ZEBRA
+
+ZEBRA, a member of the bZIP family of DNA-binding proteins, is a transcriptional activator capable of inducing expression from viral lytic cycle promoters.
+# T3 Protein S3 0 5 301 306 ZEBRA
+
+It had previously been thought that ZEBRA's capacity to disrupt EBV latency resided primarily in its ability to activate transcription of genes that encode products required for lytic replication.
+# T4 Protein S4 36 41 493 498 ZEBRA
+
+We generated a point mutant of ZEBRA, Z(S186A), that was not impaired in its ability to activate transcription; however, this mutation abolished its ability to initiate the viral lytic cascade.
+# T5 Protein S5 31 36 685 690 ZEBRA
+
+The mutant, containing a serine-to-alanine substitution in the DNA-binding domain of the protein, bound to several known ZEBRA-binding sites and activated transcription from reporters bearing known ZEBRA-responsive promoters but did not disrupt latency in EBV-infected cell lines.
+# T6 Protein S6 121 126 969 974 ZEBRA
+# T7 Protein S6 198 203 1046 1051 ZEBRA
+
+Therefore, initiation of the EBV lytic cycle by the ZEBRA protein requires a function in addition to transcriptional activation; a change of serine 186 to alanine in the DNA-binding domain of ZEBRA abolished this additional function and uncovered a new role for the ZEBRA protein in disruption of EBV latency.
+# T8 Protein S7 52 57 1181 1186 ZEBRA
+# T9 Protein S7 192 197 1321 1326 ZEBRA
+# T10 Protein S7 266 271 1395 1400 ZEBRA
+
+The additional function that is required for initiation of the lytic viral life cycle is likely to require phosphorylation of serine 186 of the ZEBRA protein, which may influence either DNA recognition or transcriptional activation of lytic viral promoters in a chromatinized viral episome.
+# T11 Protein S8 144 149 1583 1588 ZEBRA
+$ T11 Protein S8 144 149 1583 1588 ZEBRA
+@ T12 Phosphorylation S8 107 122 1546 1561 phosphorylation
+@ T13 Entity S8 126 136 1565 1575 serine 186
+@ T14 Regulation S8 169 178 1608 1617 influence
+@ T15 Binding S8 190 201 1629 1640 recognition
+% E1 Phosphorylation:T12 Theme:T11 Site:T13
+% E2 Regulation:T14 Theme:E3 Cause:E1
+% E3 Binding:T15 Theme:T11
+

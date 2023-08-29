@@ -1,0 +1,31 @@
+The role of NFATp in cyclosporin A-sensitive tumor necrosis factor-alpha gene transcription.
+# T1 Protein S1 12 17 12 17 NFATp
+# T2 Protein S1 45 72 45 72 tumor necrosis factor-alpha
+
+The tumor necrosis factor-alpha (TNF alpha) gene is an immediate early gene in activated T cells, in that it is rapidly induced without a requirement for protein synthesis.
+# T3 Protein S2 4 31 98 125 tumor necrosis factor-alpha
+# T4 Protein S2 33 42 127 136 TNF alpha
+
+Maximal induction of TNF alpha mRNA can be induced by treatment of T cells with calcium ionophores alone, via a calcineurin-dependent process that is blocked by cyclosporin A.
+# T5 Protein S3 21 30 288 297 TNF alpha
+
+We have previously identified a promoter element, kappa 3, that is required for calcium-stimulated, cyclosporin A-sensitive induction of the TNF alpha gene in activated T cells.
+# T6 Protein S4 141 150 584 593 TNF alpha
+
+Here, we demonstrate that the kappa 3 binding factor contains NFATp, a cyclosporin-sensitive DNA-binding protein required for interleukin-2 gene transcription.
+# T7 Protein S5 62 67 683 688 NFATp
+# T8 Protein S5 126 139 747 760 interleukin-2
+
+NFATp binds to two sites within the kappa 3 element, and occupancy of both sites is required for TNF alpha gene induction.
+# T9 Protein S6 0 5 781 786 NFATp
+# T10 Protein S6 97 106 878 887 TNF alpha
+
+Thus, although the kappa 3 element has little sequence similarity to other NFATp-binding sites, it appears to function as a cyclosporin-sensitive promoter element in T cells by virtue of its ability to bind NFATp.
+# T11 Protein S7 75 80 979 984 NFATp
+# T12 Protein S7 207 212 1111 1116 NFATp
+
+The involvement of NFATp in transcriptional activation of both the interleukin-2 and TNF alpha genes suggests that this factor plays an important role in the coordinate induction of multiple cytokine genes, starting at the earliest stages of T cell activation.
+# T13 Protein S8 19 24 1137 1142 NFATp
+# T14 Protein S8 67 80 1185 1198 interleukin-2
+# T15 Protein S8 85 94 1203 1212 TNF alpha
+

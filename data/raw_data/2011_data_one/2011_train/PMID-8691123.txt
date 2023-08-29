@@ -1,0 +1,44 @@
+Activation protein 1-dependent transcriptional activation of interleukin 2 gene by Ca2+/calmodulin kinase type IV/Gr.
+# T1 Protein S1 61 74 61 74 interleukin 2
+# T2 Protein S1 83 116 83 116 Ca2+/calmodulin kinase type IV/Gr
+$ T1 Protein S1 61 74 61 74 interleukin 2
+$ T2 Protein S1 83 116 83 116 Ca2+/calmodulin kinase type IV/Gr
+@ T12 Positive_regulation S1 21 30 21 30 dependent
+@ T13 Positive_regulation S1 31 57 31 57 transcriptional activation
+% E1 Positive_regulation:T12 Theme:E2
+% E2 Positive_regulation:T13 Theme:T1 Cause:T2
+
+The Ca2+/calmodulin-dependent protein kinase (CaMK) type IV/Gr is selectively expressed in T lymphocytes and is activated after signaling via the T cell antigen receptor (TCR), indicating that it mediates some of the Ca(2+)-dependent transcriptional events that follow TCR engagement.
+# T3 Protein S2 4 62 123 181 Ca2+/calmodulin-dependent protein kinase (CaMK) type IV/Gr
+$ T3 Protein S2 4 62 123 181 Ca2+/calmodulin-dependent protein kinase (CaMK) type IV/Gr
+@ T14 Gene_expression S2 78 87 197 206 expressed
+@ T15 Positive_regulation S2 112 121 231 240 activated
+% E3 Gene_expression:T14 Theme:T3
+% E4 Positive_regulation:T15 Theme:E3
+
+Here we show that CaMKIV/Gr induces the transcription factor activation protein 1 (AP-1) alone or in synergy with T cell mitogens and with the p21ras oncoprotein.
+# T4 Protein S3 18 27 422 431 CaMKIV/Gr
+# T5 Protein S3 143 149 547 553 p21ras
+
+CaMKIV/ Gr signaling is associated with transcriptional activation of c-fos but is independent of p21ras or calcineurin.
+# T6 Protein S4 0 10 567 577 CaMKIV/ Gr
+# T7 Protein S4 70 75 637 642 c-fos
+# T8 Protein S4 98 104 665 671 p21ras
+$ T7 Protein S4 70 75 637 642 c-fos
+@ T16 Positive_regulation S4 40 66 607 633 transcriptional activation
+% E5 Positive_regulation:T16 Theme:T7
+
+AP-1 is an integral component of the nuclear factor of activated T cells (NFAT) transcriptional complex, which is required for interleukin 2 gene expression in T cells.
+# T9 Protein S5 127 140 815 828 interleukin 2
+$ T9 Protein S5 127 140 815 828 interleukin 2
+@ T17 Positive_regulation S5 114 122 802 810 required
+@ T18 Gene_expression S5 146 156 834 844 expression
+% E6 Positive_regulation:T17 Theme:E7
+% E7 Gene_expression:T18 Theme:T9
+
+We demonstrate that CaMKIV/Gr reconstitutes the capacity of the cytosolic component of NFAT to direct transcription from NFAT sites in non-T cells.
+# T10 Protein S6 20 29 877 886 CaMKIV/Gr
+
+These results reveal a central role for CaMKIV/Gr as a Ca(2+)-regulated activator of gene transcription in T lymphocytes.
+# T11 Protein S7 40 49 1045 1054 CaMKIV/Gr
+

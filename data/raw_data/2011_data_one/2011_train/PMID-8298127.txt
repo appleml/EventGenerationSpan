@@ -1,0 +1,50 @@
+Retinoic acid downmodulates erythroid differentiation and GATA1 expression in purified adult-progenitor culture.
+# T1 Protein S1 58 63 58 63 GATA1
+$ T1 Protein S1 58 63 58 63 GATA1
+@ T15 Gene_expression S1 64 74 64 74 expression
+% E1 Gene_expression:T15 Theme:T1
+
+All-trans retinoic acid (RA) is an important morphogen in vertebrate development, a normal constituent in human adult blood and is also involved in the control of cell growth and differentiation in acute promyelocytic leukemia.
+
+We have examined the effects of RA on normal hematopoiesis by using early hematopoietic progenitor cells (HPC) stringently purified from adult peripheral blood.
+
+In clonogenetic fetal calf serum-supplemented (FCS+) or -nonsupplemented (FCS-) culture treated with saturating levels of interleukin-3 (IL-3) granulocyte-macrophage colony-stimulating factor (GM-CSF) and erythropoietin (Ep) (combined with c-kit ligand in FCS(-)-culture conditions), RA induces a dramatic dose-dependent shift from erythroid to granulomonocytic colony formation, the latter colonies being essentially represented by granulocytic clones.
+# T2 Protein S4 122 135 625 638 interleukin-3
+# T3 Protein S4 137 141 640 644 IL-3
+# T4 Protein S4 143 191 646 694 granulocyte-macrophage colony-stimulating factor
+# T5 Protein S4 193 199 696 702 GM-CSF
+# T6 Protein S4 205 219 708 722 erythropoietin
+# T7 Protein S4 221 223 724 726 Ep
+# T8 Protein S4 240 252 743 755 c-kit ligand
+
+This shift is apparently not caused by a recruitment phenomenon, because in FCS+ culture, the total number of colonies is not significantly modified by RA addition.
+
+In FCS- liquid-suspension culture supplemented with saturating Ep level and low-dose IL-3/GM-CSF, adult HPC undergo unilineage erythropoietic differentiation: Here again, treatment with high-dose RA induces a shift from the erythroid to granulocytic differentiation pathway.
+# T9 Protein S6 63 65 1185 1187 Ep
+# T10 Protein S6 85 89 1207 1211 IL-3
+# T11 Protein S6 90 96 1212 1218 GM-CSF
+
+Studies on RA time-response or pulse treatment in semisolid or liquid culture show that early RA addition is most effective, thus indicating that early but not late HPC are sensitive to its action.
+
+We then analyzed the expression of the master GATA1 gene, which encodes a finger transcription factor required for normal erythroid development; addition of RA to HPC stimulated into unilineage erythropoietic differentiation in liquid culture caused a virtually complete inhibition of GATA1 mRNA induction.
+# T12 Protein S8 46 51 1641 1646 GATA1
+# T13 Protein S8 285 290 1880 1885 GATA1
+$ T12 Protein S8 46 51 1641 1646 GATA1
+$ T13 Protein S8 285 290 1880 1885 GATA1
+@ T16 Gene_expression S8 21 31 1616 1626 expression
+@ T17 Negative_regulation S8 271 281 1866 1876 inhibition
+@ T18 Positive_regulation S8 296 305 1891 1900 induction
+% E2 Gene_expression:T16 Theme:T12
+% E3 Negative_regulation:T17 Theme:E4
+% E4 Positive_regulation:T18 Theme:T13
+
+These results indicate that RA directly inhibits the erythroid differentiation program at the level of early adult HPC, and may lead to a shift from the erythroid to granulocytic differentiation pathway.
+
+This phenomenon is correlated with inhibition of GATA1 induction in the early stages of erythropoietic differentiation.
+# T14 Protein S10 49 54 2155 2160 GATA1
+$ T14 Protein S10 49 54 2155 2160 GATA1
+@ T19 Negative_regulation S10 35 45 2141 2151 inhibition
+@ T20 Positive_regulation S10 55 64 2161 2170 induction
+% E5 Negative_regulation:T19 Theme:E6
+% E6 Positive_regulation:T20 Theme:T14
+

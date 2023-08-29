@@ -1,0 +1,400 @@
+NleH1 steers the IKKbeta substrate specificities
+# T1 Protein S1 0 5 0 5 NleH1
+# T2 Protein S1 17 24 17 24 IKKbeta
+
+NleH1 is an autophosphorylated serine-threonine kinase, which depends on the lysine 159 (K159)9.
+# T3 Protein S2 0 5 49 54 NleH1
+$ T3 Protein S2 0 5 49 54 NleH1
+@ T89 Phosphorylation S2 12 30 61 79 autophosphorylated
+@ T90 Regulation S2 62 69 111 118 depends
+@ T91 Entity S2 77 87 126 136 lysine 159
+% E1 Phosphorylation:T89 Theme:T3
+% E2 Regulation:T90 Theme:E1 Cause:T3 CSite:T91
+
+To explore the mechanism by which NleH1 inhibits RPS3 S209 phosphorylation, we first performed an in vitro kinase assay with purified wild-type His-NleH1 protein and a mutant His-NleH1 (K159A) protein, confirming that NleH1 is autophosphorylated and the K159A is an NleH1 kinase-dead mutant (Fig. 7a).
+# T4 Protein S3 34 39 180 185 NleH1
+# T5 Protein S3 49 53 195 199 RPS3
+# T6 Protein S3 144 153 290 299 His-NleH1
+# T7 Protein S3 175 184 321 330 His-NleH1
+# T8 Protein S3 218 223 364 369 NleH1
+# T9 Protein S3 266 271 412 417 NleH1
+$ T4 Protein S3 34 39 180 185 NleH1
+$ T5 Protein S3 49 53 195 199 RPS3
+$ T8 Protein S3 218 223 364 369 NleH1
+$ T9 Protein S3 266 271 412 417 NleH1
+@ T92 Negative_regulation S3 40 48 186 194 inhibits
+@ T93 Entity S3 54 58 200 204 S209
+@ T94 Phosphorylation S3 59 74 205 220 phosphorylation
+@ T95 Phosphorylation S3 227 245 373 391 autophosphorylated
+@ T96 Entity S3 254 259 400 405 K159A
+@ T97 Negative_regulation S3 272 283 418 429 kinase-dead
+% E3 Negative_regulation:T92 Theme:E4 Cause:T4
+% E4 Phosphorylation:T94 Theme:T5 Site:T93
+% E5 Phosphorylation:T95 Theme:T8
+% E6 Negative_regulation:T97 Theme:T9 Cause:T9 CSite:T96
+
+To examine whether the kinase activity is required for NleH1 to inhibit IKKbeta phosphorlyation of RPS3 on S209, we ectopically expressing either wild-type or K159A NleH1 in 293T cells.
+# T10 Protein S4 55 60 503 508 NleH1
+# T11 Protein S4 72 79 520 527 IKKbeta
+# T12 Protein S4 99 103 547 551 RPS3
+# T13 Protein S4 165 170 613 618 NleH1
+$ T12 Protein S4 99 103 547 551 RPS3
+@ T98 Regulation S4 42 50 490 498 required
+@ T99 Negative_regulation S4 64 71 512 519 inhibit
+@ T100 Phosphorylation S4 80 95 528 543 phosphorlyation
+@ T101 Entity S4 107 111 555 559 S209
+% E7 Regulation:T98 Theme:E8
+% E8 Negative_regulation:T99 Theme:E9
+% E9 Phosphorylation:T100 Theme:T12 Site:T101
+
+Wild-type NleH1 expression significantly reduced TNF-induced RPS3 S209 phosphorylation, whereas the K159A mutant failed to do so (Fig. 7b).
+# T14 Protein S5 10 15 644 649 NleH1
+# T15 Protein S5 61 65 695 699 RPS3
+$ T14 Protein S5 10 15 644 649 NleH1
+$ T15 Protein S5 61 65 695 699 RPS3
+@ T102 Gene_expression S5 16 26 650 660 expression
+@ T103 Negative_regulation S5 41 48 675 682 reduced
+@ T104 Positive_regulation S5 53 60 687 694 induced
+@ T105 Entity S5 66 70 700 704 S209
+@ T106 Phosphorylation S5 71 86 705 720 phosphorylation
+@ T107 Negative_regulation S5 113 119 747 753 failed
+@ T86 Anaphora S5 123 125 757 759 do
+% E10 Gene_expression:T102 Theme:T14
+% E11 Negative_regulation:T103 Theme:E12 Cause:E10
+% E12 Positive_regulation:T104 Theme:E13
+% E13 Phosphorylation:T106 Theme:T15 Site:T105
+% E14 Negative_regulation:T107 Theme:E11
+
+Thus NleH1 kinase activity is required to protect RPS3 from IKKbeta-mediated phosphorylation.
+# T16 Protein S6 5 10 779 784 NleH1
+# T17 Protein S6 50 54 824 828 RPS3
+# T18 Protein S6 60 67 834 841 IKKbeta
+$ T18 Protein S6 60 67 834 841 IKKbeta
+$ T17 Protein S6 50 54 824 828 RPS3
+@ T108 Positive_regulation S6 30 38 804 812 required
+@ T109 Negative_regulation S6 42 49 816 823 protect
+@ T110 Positive_regulation S6 68 76 842 850 mediated
+@ T111 Phosphorylation S6 77 92 851 866 phosphorylation
+% E15 Positive_regulation:T108 Theme:E16
+% E16 Negative_regulation:T109 Theme:E17
+% E17 Positive_regulation:T110 Theme:E18 Cause:T18
+% E18 Phosphorylation:T111 Theme:T17
+
+Citrobacter rodentium is a mouse pathogen that shares pathogenic strategies with E. coli 39, most notably for our investigation, C. rodentium NleH inhibited RPS3 nuclear translocation and RPS3-dependent NF-kappaB luciferase activity to an extent equivalent to E. coli NleH1 (ref.
+# T19 Protein S7 142 146 1010 1014 NleH
+# T20 Protein S7 157 161 1025 1029 RPS3
+# T21 Protein S7 188 192 1056 1060 RPS3
+# T22 Protein S7 213 223 1081 1091 luciferase
+# T23 Protein S7 268 273 1136 1141 NleH1
+$ T19 Protein S7 142 146 1010 1014 NleH
+$ T20 Protein S7 157 161 1025 1029 RPS3
+$ T21 Protein S7 188 192 1056 1060 RPS3
+$ T22 Protein S7 213 223 1081 1091 luciferase
+@ T112 Negative_regulation S7 147 156 1015 1024 inhibited
+@ T113 Entity S7 162 169 1030 1037 nuclear
+@ T114 Localization S7 170 183 1038 1051 translocation
+@ T115 Regulation S7 193 202 1061 1070 dependent
+@ T116 Positive_regulation S7 224 232 1092 1100 activity
+% E19 Negative_regulation:T112 Theme:E20 Cause:T19
+% E21 Negative_regulation:T112 Theme:E22 Cause:T19
+% E20 Localization:T114 Theme:T20 ToLoc:T113
+% E22 Regulation:T115 Theme:E23 Cause:T21
+% E23 Positive_regulation:T116 Theme:T22
+
+9).
+
+We assayed RPS3 S209 phosphorylation in HeLa cells infected with different C. rodentium strains.
+# T24 Protein S9 11 15 1163 1167 RPS3
+$ T24 Protein S9 11 15 1163 1167 RPS3
+@ T117 Entity S9 16 20 1168 1172 S209
+@ T118 Phosphorylation S9 21 36 1173 1188 phosphorylation
+% E24 Phosphorylation:T118 Theme:T24 Site:T117
+
+In uninfected cells, TNF-treatment stimulated a ~3.5-fold increase in RPS3 S209 phosphorylation (Fig. 7c).
+# T25 Protein S10 70 74 1319 1323 RPS3
+$ T25 Protein S10 70 74 1319 1323 RPS3
+@ T119 Positive_regulation S10 58 66 1307 1315 increase
+@ T120 Entity S10 75 79 1324 1328 S209
+@ T121 Phosphorylation S10 80 95 1329 1344 phosphorylation
+% E25 Positive_regulation:T119 Theme:E26
+% E26 Phosphorylation:T121 Theme:T25 Site:T120
+
+Such augmentation of RPS3 phosphorylation was reduced by about 60% by wild-type C. rodentium infection (Fig. 7c).
+# T26 Protein S11 21 25 1377 1381 RPS3
+$ T26 Protein S11 21 25 1377 1381 RPS3
+@ T122 Positive_regulation S11 5 17 1361 1373 augmentation
+@ T123 Phosphorylation S11 26 41 1382 1397 phosphorylation
+@ T124 Negative_regulation S11 46 53 1402 1409 reduced
+% E27 Positive_regulation:T122 Theme:E28
+% E28 Phosphorylation:T123 Theme:T26
+% E29 Negative_regulation:T124 Theme:E27
+
+However, RPS3 phosphorylation was enhanced when cells were infected with a C. rodentium strain lacking NleH (Fig. 7c, deltanleH).
+# T27 Protein S12 9 13 1479 1483 RPS3
+# T28 Protein S12 103 107 1573 1577 NleH
+# T29 Protein S12 118 127 1588 1597 deltanleH
+$ T27 Protein S12 9 13 1479 1483 RPS3
+$ T28 Protein S12 103 107 1573 1577 NleH
+@ T125 Phosphorylation S12 14 29 1484 1499 phosphorylation
+@ T126 Positive_regulation S12 34 42 1504 1512 enhanced
+@ T127 Negative_regulation S12 95 102 1565 1572 lacking
+% E30 Phosphorylation:T125 Theme:T27
+% E31 Positive_regulation:T126 Theme:E30 Cause:E32
+% E32 Negative_regulation:T127 Theme:T28
+
+We further examined the role of NleH1 kinase activity using the C. rodentium deltanleH strain as a background on which to express either wild-type or K159A E. coli NleH1.
+# T30 Protein S13 32 37 1632 1637 NleH1
+# T31 Protein S13 77 86 1677 1686 deltanleH
+# T32 Protein S13 164 169 1764 1769 NleH1
+$ T32 Protein S13 164 169 1764 1769 NleH1
+@ T128 Gene_expression S13 122 129 1722 1729 express
+% E33 Gene_expression:T128 Theme:T32
+
+Complementing deltanleH mutant with wild-type NleH1 almost abolished TNF-induced RPS3 S209 phosphorylation whereas complementing with K159A failed to inhibit RPS3 phosphorylation (Fig. 7c).
+# T33 Protein S14 14 23 1785 1794 deltanleH
+# T34 Protein S14 46 51 1817 1822 NleH1
+# T35 Protein S14 69 72 1840 1843 TNF
+# T36 Protein S14 81 85 1852 1856 RPS3
+# T37 Protein S14 158 162 1929 1933 RPS3
+$ T34 Protein S14 46 51 1817 1822 NleH1
+$ T35 Protein S14 69 72 1840 1843 TNF
+$ T36 Protein S14 81 85 1852 1856 RPS3
+$ T37 Protein S14 158 162 1929 1933 RPS3
+@ T129 Negative_regulation S14 59 68 1830 1839 abolished
+@ T130 Positive_regulation S14 73 80 1844 1851 induced
+@ T131 Entity S14 86 90 1857 1861 S209
+@ T132 Phosphorylation S14 91 106 1862 1877 phosphorylation
+@ T133 Negative_regulation S14 150 157 1921 1928 inhibit
+@ T134 Phosphorylation S14 163 178 1934 1949 phosphorylation
+% E34 Negative_regulation:T129 Theme:E35 Cause:T34
+% E35 Positive_regulation:T130 Theme:E36 Cause:T35
+% E36 Phosphorylation:T132 Theme:T36 Site:T131
+% E37 Negative_regulation:T133 Theme:E38
+% E38 Phosphorylation:T134 Theme:T37
+
+Collectively, these results demonstrate that NleH1 kinase activity is required to block RPS3 S209 phosphorylation.
+# T38 Protein S15 45 50 2006 2011 NleH1
+# T39 Protein S15 88 92 2049 2053 RPS3
+$ T39 Protein S15 88 92 2049 2053 RPS3
+@ T135 Positive_regulation S15 70 78 2031 2039 required
+@ T136 Negative_regulation S15 82 87 2043 2048 block
+@ T137 Entity S15 93 97 2054 2058 S209
+@ T138 Phosphorylation S15 98 113 2059 2074 phosphorylation
+% E39 Positive_regulation:T135 Theme:E40
+% E40 Negative_regulation:T136 Theme:E41
+% E41 Phosphorylation:T138 Theme:T39 Site:T137
+
+We next examined whether the inhibitory activity of NleH1 is sufficiently robust to impair the strong nuclear translocation of RPS3 trigged by the constitutively-active IKKbeta (IKKbeta [SSEE]) (Fig. 2d).
+# T40 Protein S16 52 57 2128 2133 NleH1
+# T41 Protein S16 127 131 2203 2207 RPS3
+# T42 Protein S16 169 176 2245 2252 IKKbeta
+# T43 Protein S16 178 185 2254 2261 IKKbeta
+$ T41 Protein S16 127 131 2203 2207 RPS3
+$ T42 Protein S16 169 176 2245 2252 IKKbeta
+$ T43 Protein S16 178 185 2254 2261 IKKbeta
+@ T87 Anaphora S16 29 48 2105 2124 inhibitory activity
+@ T139 Negative_regulation S16 84 90 2160 2166 impair
+@ T140 Entity S16 102 109 2178 2185 nuclear
+@ T141 Localization S16 110 123 2186 2199 translocation
+@ T142 Positive_regulation S16 132 139 2208 2215 trigged
+@ T143 Positive_regulation S16 147 168 2223 2244 constitutively-active
+@ T144 Positive_regulation S16 187 191 2263 2267 SSEE
+% E42 Negative_regulation:T139 Theme:E43 Cause:E40
+% E44 Localization:T141 Theme:T41 ToLoc:T140
+% E43 Positive_regulation:T142 Theme:E44 Cause:T42
+% E45 Positive_regulation:T143 Theme:T42
+% E46 Positive_regulation:T144 Theme:T43
+
+We found that ectopically expressing either wild-type or SSEE IKKbeta proteins, triggered more RPS3 nuclear translocation than the kinase-dead IKKbeta (SSAA) protein (Fig. 7d).
+# T44 Protein S17 57 69 2338 2350 SSEE IKKbeta
+# T45 Protein S17 95 99 2376 2380 RPS3
+# T46 Protein S17 143 150 2424 2431 IKKbeta
+$ T44 Protein S17 57 69 2338 2350 SSEE IKKbeta
+$ T45 Protein S17 95 99 2376 2380 RPS3
+$ T46 Protein S17 143 150 2424 2431 IKKbeta
+@ T145 Positive_regulation S17 80 89 2361 2370 triggered
+@ T146 Entity S17 100 107 2381 2388 nuclear
+@ T147 Localization S17 108 121 2389 2402 translocation
+@ T148 Negative_regulation S17 131 142 2412 2423 kinase-dead
+@ T149 Negative_regulation S17 152 156 2433 2437 SSAA
+% E47 Positive_regulation:T145 Theme:E48 Cause:T44
+% E48 Localization:T147 Theme:T45 ToLoc:T146
+% E49 Negative_regulation:T148 Theme:T46
+% E50 Negative_regulation:T149 Theme:T46
+
+RPS3 nuclear accumulation was substantially retarded by infecting cells with wild-type E. coli O157:H7 (Fig. 7d).
+# T47 Protein S18 0 4 2458 2462 RPS3
+$ T47 Protein S18 0 4 2458 2462 RPS3
+@ T150 Entity S18 5 12 2463 2470 nuclear
+@ T151 Localization S18 13 25 2471 2483 accumulation
+@ T152 Negative_regulation S18 44 52 2502 2510 retarded
+% E51 Localization:T151 Theme:T47 ToLoc:T150
+% E52 Negative_regulation:T152 Theme:E51
+
+In contrast, infecting with either deltanleH1 or deltaescN strains only slightly impaired RPS3 nuclear translocation in either IKKbeta- or IKKbeta (SSEE)-expressing cells (Fig. 7d).
+# T48 Protein S19 35 45 2607 2617 deltanleH1
+# T49 Protein S19 49 58 2621 2630 deltaescN
+# T50 Protein S19 90 94 2662 2666 RPS3
+# T51 Protein S19 127 134 2699 2706 IKKbeta
+# T52 Protein S19 139 146 2711 2718 IKKbeta
+$ T50 Protein S19 90 94 2662 2666 RPS3
+$ T52 Protein S19 139 146 2711 2718 IKKbeta
+$ T51 Protein S19 127 134 2699 2706 IKKbeta
+@ T153 Entity S19 95 102 2667 2674 nuclear
+@ T154 Localization S19 103 116 2675 2688 translocation
+@ T155 Positive_regulation S19 148 152 2720 2724 SSEE
+@ T156 Gene_expression S19 154 164 2726 2736 expressing
+% E53 Localization:T154 Theme:T50 ToLoc:T153
+% E54 Positive_regulation:T155 Theme:T52
+% E55 Gene_expression:T156 Theme:T51
+% E56 Gene_expression:T156 Theme:T52
+
+As expected, E. coli infections did not affect the RPS3 nuclear translocation in IKKbeta (SSAA)-expressing cells, where NF-kappaB signaling was low (Fig. 7d).
+# T53 Protein S20 51 55 2805 2809 RPS3
+# T54 Protein S20 81 88 2835 2842 IKKbeta
+$ T53 Protein S20 51 55 2805 2809 RPS3
+$ T54 Protein S20 81 88 2835 2842 IKKbeta
+@ T157 Regulation S20 40 46 2794 2800 affect
+@ T158 Entity S20 56 63 2810 2817 nuclear
+@ T159 Localization S20 64 77 2818 2831 translocation
+@ T160 Negative_regulation S20 90 94 2844 2848 SSAA
+@ T161 Gene_expression S20 96 106 2850 2860 expressing
+% E57 Regulation:T157 Theme:E58
+% E58 Localization:T159 Theme:T53 ToLoc:T158
+% E59 Negative_regulation:T160 Theme:T54
+% E60 Gene_expression:T161 Theme:T54
+
+Thus, during infection NleH1 is sufficiently potent to inhibit RPS3 nuclear translocation even in cells expressing constitutively-activated IKKbeta.
+# T55 Protein S21 23 28 2936 2941 NleH1
+# T56 Protein S21 63 67 2976 2980 RPS3
+# T57 Protein S21 140 147 3053 3060 IKKbeta
+$ T55 Protein S21 23 28 2936 2941 NleH1
+$ T56 Protein S21 63 67 2976 2980 RPS3
+$ T57 Protein S21 140 147 3053 3060 IKKbeta
+@ T162 Negative_regulation S21 55 62 2968 2975 inhibit
+@ T163 Entity S21 68 75 2981 2988 nuclear
+@ T164 Localization S21 76 89 2989 3002 translocation
+@ T165 Gene_expression S21 104 114 3017 3027 expressing
+@ T166 Positive_regulation S21 130 139 3043 3052 activated
+% E61 Negative_regulation:T162 Theme:E62 Cause:T55
+% E62 Localization:T164 Theme:T56 ToLoc:T163
+% E63 Gene_expression:T165 Theme:T57
+% E64 Positive_regulation:T166 Theme:T57
+
+We examined whether NleH1 could directly phosphorylate IKKbeta thus inhibiting IKKbeta-mediated RPS3 S209 phosphorylation.
+# T58 Protein S22 20 25 3082 3087 NleH1
+# T59 Protein S22 55 62 3117 3124 IKKbeta
+# T60 Protein S22 79 86 3141 3148 IKKbeta
+# T61 Protein S22 96 100 3158 3162 RPS3
+$ T59 Protein S22 55 62 3117 3124 IKKbeta
+$ T58 Protein S22 20 25 3082 3087 NleH1
+$ T60 Protein S22 79 86 3141 3148 IKKbeta
+$ T61 Protein S22 96 100 3158 3162 RPS3
+@ T167 Phosphorylation S22 41 54 3103 3116 phosphorylate
+@ T168 Positive_regulation S22 63 67 3125 3129 thus
+@ T169 Negative_regulation S22 68 78 3130 3140 inhibiting
+@ T170 Positive_regulation S22 87 95 3149 3157 mediated
+@ T171 Entity S22 101 105 3163 3167 S209
+@ T172 Phosphorylation S22 106 121 3168 3183 phosphorylation
+% E65 Phosphorylation:T167 Theme:T59
+% E66 Positive_regulation:T168 Theme:E67 Cause:E65
+% E67 Negative_regulation:T169 Theme:E68 Cause:T58
+% E68 Positive_regulation:T170 Theme:E69 Cause:T60
+% E69 Phosphorylation:T172 Theme:T61 Site:T171
+
+We performed in vitro kinase assays using immunoprecipitated Flag-IKKbeta (K44A) as substrate and recombinant His-NleH1 as kinase, so that IKKbeta autophosphorylation would not obscure NleH1-induced phosphorylation.
+# T62 Protein S23 61 80 3246 3265 Flag-IKKbeta (K44A)
+# T63 Protein S23 110 119 3295 3304 His-NleH1
+# T64 Protein S23 139 146 3324 3331 IKKbeta
+# T65 Protein S23 185 190 3370 3375 NleH1
+$ T64 Protein S23 139 146 3324 3331 IKKbeta
+@ T173 Phosphorylation S23 147 166 3332 3351 autophosphorylation
+@ T174 Phosphorylation S23 199 214 3384 3399 phosphorylation
+% E70 Phosphorylation:T173 Theme:T64
+% E71 Phosphorylation:T174 Theme:T64
+
+However, we did not observe any detectable 32P incorporation in IKKbeta (Supplementary Fig. 13), thus ruling out this possibility.
+# T66 Protein S24 64 71 3465 3472 IKKbeta
+$ T66 Protein S24 64 71 3465 3472 IKKbeta
+@ T175 Phosphorylation S24 43 60 3444 3461 32P incorporation
+% E72 Phosphorylation:T175 Theme:T66
+
+We then tested the hypothesis that NleH1 could alter the IKKbeta substrate specificities.
+# T67 Protein S25 35 40 3567 3572 NleH1
+# T68 Protein S25 57 64 3589 3596 IKKbeta
+
+To this end, we performed in vitro kinase assays using both CK2 and IKK substrates for IKKbeta.
+# T69 Protein S26 87 94 3709 3716 IKKbeta
+
+As expected, IKKbeta phosphorylated RPS3 (Fig. 7e, lane 7) and GST-IkappaBalpha (1-54) protein (Fig. 7e, lane 9), demonstrating it harbors either CK2 or IKK substrate specificity.
+# T70 Protein S27 13 20 3731 3738 IKKbeta
+# T71 Protein S27 36 40 3754 3758 RPS3
+# T72 Protein S27 63 79 3781 3797 GST-IkappaBalpha
+$ T71 Protein S27 36 40 3754 3758 RPS3
+$ T70 Protein S27 13 20 3731 3738 IKKbeta
+$ T72 Protein S27 63 79 3781 3797 GST-IkappaBalpha
+@ T176 Phosphorylation S27 21 35 3739 3753 phosphorylated
+@ T88 Anaphora S27 128 130 3846 3848 it
+@ T177 Regulation S27 157 178 3875 3896 substrate specificity
+% E73 Phosphorylation:T176 Theme:T71 Cause:T70
+% E74 Phosphorylation:T176 Theme:T72 Cause:T70
+% E75 Regulation:T177 Theme:T71
+
+Preincubation of IKKbeta with NleH1 reduced IKKbeta-mediated RPS3 phosphorylation, i.e. the CK2 kinase specificity, but not IKKbeta-mediated GST-IkappaBalpha phosphorylation, i.e. the IKK kinase specificity (Fig. 7e).
+# T73 Protein S28 17 24 3915 3922 IKKbeta
+# T74 Protein S28 30 35 3928 3933 NleH1
+# T75 Protein S28 44 51 3942 3949 IKKbeta
+# T76 Protein S28 61 65 3959 3963 RPS3
+# T77 Protein S28 124 131 4022 4029 IKKbeta
+# T78 Protein S28 141 157 4039 4055 GST-IkappaBalpha
+$ T74 Protein S28 30 35 3928 3933 NleH1
+$ T75 Protein S28 44 51 3942 3949 IKKbeta
+$ T76 Protein S28 61 65 3959 3963 RPS3
+$ T77 Protein S28 124 131 4022 4029 IKKbeta
+$ T78 Protein S28 141 157 4039 4055 GST-IkappaBalpha
+@ T178 Negative_regulation S28 36 43 3934 3941 reduced
+@ T179 Positive_regulation S28 52 60 3950 3958 mediated
+@ T180 Phosphorylation S28 66 81 3964 3979 phosphorylation
+@ T181 Positive_regulation S28 132 140 4030 4038 mediated
+@ T182 Phosphorylation S28 158 173 4056 4071 phosphorylation
+% E76 Negative_regulation:T178 Theme:E77 Cause:T74
+% E78 Negative_regulation:T178 Theme:E79 Cause:T74
+% E77 Positive_regulation:T179 Theme:E80 Cause:T75
+% E80 Phosphorylation:T180 Theme:T76
+% E79 Positive_regulation:T181 Theme:E81 Cause:T77
+% E81 Phosphorylation:T182 Theme:T78
+
+Control experiments revealed no NleH1-mediated phosphorylation or autophosphorylation of RPS3 or GST-IkappaBalpha (Fig. 7e).
+# T79 Protein S29 32 37 4148 4153 NleH1
+# T80 Protein S29 89 93 4205 4209 RPS3
+# T81 Protein S29 97 113 4213 4229 GST-IkappaBalpha
+$ T79 Protein S29 32 37 4148 4153 NleH1
+$ T80 Protein S29 89 93 4205 4209 RPS3
+$ T81 Protein S29 97 113 4213 4229 GST-IkappaBalpha
+@ T183 Positive_regulation S29 38 46 4154 4162 mediated
+@ T184 Phosphorylation S29 47 62 4163 4178 phosphorylation
+@ T185 Phosphorylation S29 66 85 4182 4201 autophosphorylation
+% E82 Positive_regulation:T183 Theme:E83 Cause:T79
+% E84 Positive_regulation:T183 Theme:E85 Cause:T79
+% E86 Positive_regulation:T183 Theme:E87 Cause:T79
+% E88 Positive_regulation:T183 Theme:E89 Cause:T79
+% E83 Phosphorylation:T184 Theme:T80
+% E85 Phosphorylation:T184 Theme:T81
+% E87 Phosphorylation:T185 Theme:T80
+% E89 Phosphorylation:T185 Theme:T81
+
+Taken together, NleH1 blocks the CK2 substrate specificity of IKKbeta thus inhibiting the IKKbeta-mediated RPS3 S209 phosphorylation thus representing a novel strategy by E. coli O157:H7 to alter the host innate immune response.
+# T82 Protein S30 16 21 4257 4262 NleH1
+# T83 Protein S30 62 69 4303 4310 IKKbeta
+# T84 Protein S30 90 97 4331 4338 IKKbeta
+# T85 Protein S30 107 111 4348 4352 RPS3
+$ T84 Protein S30 90 97 4331 4338 IKKbeta
+$ T85 Protein S30 107 111 4348 4352 RPS3
+@ T186 Negative_regulation S30 75 85 4316 4326 inhibiting
+@ T187 Positive_regulation S30 98 106 4339 4347 mediated
+@ T188 Entity S30 112 116 4353 4357 S209
+@ T189 Phosphorylation S30 117 132 4358 4373 phosphorylation
+% E90 Negative_regulation:T186 Theme:E91
+% E91 Positive_regulation:T187 Theme:E92 Cause:T84
+% E92 Phosphorylation:T189 Theme:T85 Site:T188
+

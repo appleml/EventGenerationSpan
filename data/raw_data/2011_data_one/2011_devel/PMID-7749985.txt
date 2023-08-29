@@ -1,0 +1,46 @@
+Human MHC class II gene transcription directed by the carboxyl terminus of CIITA, one of the defective genes in type II MHC combined immune deficiency.
+# T1 Protein S1 75 80 75 80 CIITA
+
+Type II major histocompatibility complex combined immune deficiency (type II MHC CID or bare lymphocyte syndrome) is a congenital immunodeficiency disease characterized by absent MHC class II expression.
+
+Four distinct complementation groups have been identified.
+
+Recently, the defective gene in group II type II MHC CID has been isolated and termed CIITA.
+# T2 Protein S4 86 91 502 507 CIITA
+
+Here, we demonstrate that CIITA is an MHC class II gene-specific transcription activator.
+# T3 Protein S5 26 31 535 540 CIITA
+
+The transcription activation function is provided by the N-terminal acidic domain (amino acids 26-137), which is experimentally exchangeable with a heterologous viral transcription-activating domain.
+
+The specificity of CIITA for three major MHC class II genes, DR, DQ and DP, is mediated by its remaining C-terminal residues (amino acids 317-1130).
+# T4 Protein S7 19 24 818 823 CIITA
+
+The transactivation of multiple cis elements, especially S and X2, of the DR alpha proximal promoter in group II CID cells is CIITA dependent.
+# T5 Protein S8 74 82 1022 1030 DR alpha
+# T6 Protein S8 126 131 1074 1079 CIITA
+$ T5 Protein S8 74 82 1022 1030 DR alpha
+$ T6 Protein S8 126 131 1074 1079 CIITA
+@ T9 Positive_regulation S8 4 19 952 967 transactivation
+@ T10 Entity S8 57 58 1005 1006 S
+@ T11 Entity S8 63 65 1011 1013 X2
+@ T12 Regulation S8 132 141 1080 1089 dependent
+% E1 Positive_regulation:T9 Theme:T5 Site:T10
+% E2 Positive_regulation:T9 Theme:T5 Site:T11
+% E3 Regulation:T12 Theme:E1 Cause:T6
+% E4 Regulation:T12 Theme:E2 Cause:T6
+
+Since CIITA overexpression in normal cells did not increase class II expression, we propose that initiation of CIITA expression serves as the on-off switch, while availability of downstream interactor(s) limits transcription.
+# T7 Protein S9 6 11 1097 1102 CIITA
+# T8 Protein S9 111 116 1202 1207 CIITA
+$ T7 Protein S9 6 11 1097 1102 CIITA
+$ T8 Protein S9 111 116 1202 1207 CIITA
+@ T13 Gene_expression S9 12 26 1103 1117 overexpression
+@ T14 Positive_regulation S9 12 26 1103 1117 overexpression
+@ T15 Positive_regulation S9 97 107 1188 1198 initiation
+@ T16 Gene_expression S9 117 127 1208 1218 expression
+% E5 Gene_expression:T13 Theme:T7
+% E6 Positive_regulation:T14 Theme:E5
+% E7 Positive_regulation:T15 Theme:E8
+% E8 Gene_expression:T16 Theme:T8
+

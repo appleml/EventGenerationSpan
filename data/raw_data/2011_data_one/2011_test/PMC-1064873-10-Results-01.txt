@@ -1,0 +1,63 @@
+Resistance to IL-10 inhibition of IFN-gamma production in RA CD4+ T cells
+# T1 Protein S1 14 19 14 19 IL-10
+# T2 Protein S1 34 43 34 43 IFN-gamma
+# T3 Protein S1 61 64 61 64 CD4
+
+The CD28 costimulatory pathway is crucial for effective antigen-specific T-cell cytokine production, and IL-10 can directly suppress this response by inhibiting CD28 tyrosine phosphorylation and binding of phosphatidylinositol 3-kinase [24].
+# T4 Protein S2 4 8 78 82 CD28
+# T5 Protein S2 105 110 179 184 IL-10
+# T6 Protein S2 161 165 235 239 CD28
+
+To evaluate the responsiveness of RA CD4+ T cells to IL-10, purified PB CD4+ T cells from three patients with active RA and from three healthy controls were stimulated by immobilized anti-CD3 antibody and anti-CD28 antibody with or without diluted concentrations of IL-10 for 36 hours, and IFN-gamma production was measured by ELISA.
+# T7 Protein S3 37 40 353 356 CD4
+# T8 Protein S3 53 58 369 374 IL-10
+# T9 Protein S3 72 75 388 391 CD4
+# T10 Protein S3 188 191 504 507 CD3
+# T11 Protein S3 210 214 526 530 CD28
+# T12 Protein S3 266 271 582 587 IL-10
+# T13 Protein S3 290 299 606 615 IFN-gamma
+
+As shown in Fig. 1, IFN-gamma production by activated normal CD4+ T cells was mostly inhibited at concentrations as low as 1 ng/ml IL-10.
+# T14 Protein S4 20 29 670 679 IFN-gamma
+# T15 Protein S4 61 64 711 714 CD4
+# T16 Protein S4 131 136 781 786 IL-10
+
+However, RA CD4+ T cells were able to produce significant amounts of IFN-gamma in the presence of 1 ng/ml IL-10, and the maximal but not complete inhibition by IL-10 was obtained at 10-100 ng/ml.
+# T17 Protein S5 12 15 800 803 CD4
+# T18 Protein S5 69 78 857 866 IFN-gamma
+# T19 Protein S5 106 111 894 899 IL-10
+# T20 Protein S5 160 165 948 953 IL-10
+
+We thus compared the levels of IFN-gamma production by CD4+ T cells after CD3 and CD28 costimulation in the presence of 1 ng/ml IL-10 in RA patients with active disease (multiple inflammatory joints, CRP level >/= 10 mg/l) and inactive disease (in remission, CRP level < 10 mg/l) [26] and in healthy controls.
+# T21 Protein S6 31 40 1016 1025 IFN-gamma
+# T22 Protein S6 55 58 1040 1043 CD4
+# T23 Protein S6 74 77 1059 1062 CD3
+# T24 Protein S6 82 86 1067 1071 CD28
+# T25 Protein S6 128 133 1113 1118 IL-10
+
+There were no statistically significant differences in IFN-gamma production without IL-10 among these three groups (Fig. 2a), but the inhibitory effect of IL-10 on IFN-gamma production was significantly limited in the active RA group as compared with the inactive RA group and healthy controls (percentage decrease: active RA, 2.9 +/- 14.4%; inactive RA, 45.6 +/- 14.4%; controls, 65.8 +/- 7.9%) (Fig. 2b).
+# T26 Protein S7 55 64 1350 1359 IFN-gamma
+# T27 Protein S7 84 89 1379 1384 IL-10
+# T28 Protein S7 155 160 1450 1455 IL-10
+# T29 Protein S7 164 173 1459 1468 IFN-gamma
+
+As a consequence, CD4+ T cells from active RA patients produced higher levels of IFN-gamma in the presence of 1 ng/ml IL-10 than did normal CD4+ T cells (Fig. 2a).
+# T30 Protein S8 18 21 1720 1723 CD4
+# T31 Protein S8 81 90 1783 1792 IFN-gamma
+# T32 Protein S8 118 123 1820 1825 IL-10
+# T33 Protein S8 140 143 1842 1845 CD4
+
+In addition, we compared IL-2 production by CD4+ T cells after CD3 and CD28 costimulation in the presence of IL-10 in active RA patients and in healthy controls.
+# T34 Protein S9 25 29 1892 1896 IL-2
+# T35 Protein S9 44 47 1911 1914 CD4
+# T36 Protein S9 71 75 1938 1942 CD28
+# T37 Protein S9 109 114 1976 1981 IL-10
+
+Similarly, IL-2 production was not affected by 1 ng/ml IL-10 in RA patients (percentage decrease, -2.1 +/- 13.8%), while it was significantly reduced in healthy controls (61.1 +/- 13.7%; P < 0.05).
+# T38 Protein S10 11 15 2040 2044 IL-2
+# T39 Protein S10 55 60 2084 2089 IL-10
+
+Taken together, these results indicate that RA CD4+ T cells become less susceptible to the immunoregulatory effect of IL-10 during the active phase.
+# T40 Protein S11 47 50 2274 2277 CD4
+# T41 Protein S11 118 123 2345 2350 IL-10
+

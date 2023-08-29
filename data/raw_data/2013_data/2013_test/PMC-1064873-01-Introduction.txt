@@ -1,0 +1,125 @@
+IL-10 is a key cytokine in regulating inflammatory responses, mainly by inhibiting the production and function of proinflammatory cytokines.
+# T1 Protein S1 1 5 1 5 L-10
+
+IL-10 binds to the IL-10 receptor (IL-10R) complex that is composed of two subunits, the primary ligand-binding component type 1 IL-10R (IL-10R1) and the accessory component type 2 IL-10R [1].
+# T2 Protein S2 0 5 141 146 IL-10
+# T3 Protein S2 19 33 160 174 IL-10 receptor
+# T4 Protein S2 35 41 176 182 IL-10R
+# T5 Protein S2 122 135 263 276 type 1 IL-10R
+# T6 Protein S2 137 144 278 285 IL-10R1
+# T7 Protein S2 174 187 315 328 type 2 IL-10R
+
+The interaction of IL-10 and IL-10R engages the Janus kinase (JAK) family tyrosine kinases Jak1 and Tyk2, which are constitutively associated with IL-10R1 and type 2 IL-10R, respectively [2].
+# T8 Protein S3 19 24 353 358 IL-10
+# T9 Protein S3 29 35 363 369 IL-10R
+# T10 Protein S3 91 95 425 429 Jak1
+# T11 Protein S3 100 104 434 438 Tyk2
+# T12 Protein S3 147 154 481 488 IL-10R1
+# T13 Protein S3 159 172 493 506 type 2 IL-10R
+
+IL-10 induces tyrosine phosphorylation and activation of the latent transcriptional factors signal transducer and activator of transcription (STAT) 3 and STAT1 [3].
+# T14 Protein S4 0 5 526 531 IL-10
+# T15 Protein S4 92 149 618 675 signal transducer and activator of transcription (STAT) 3
+# T16 Protein S4 154 159 680 685 STAT1
+
+Upon phosphorylation, STAT1 and STAT3 proteins form homodimers or heterodimers, rapidly translocate into the nucleus, and modulate gene transcription.
+# T17 Protein S5 22 27 713 718 STAT1
+# T18 Protein S5 32 37 723 728 STAT3
+
+Intriguingly, STAT3 is indispensable for both IL-10-derived anti-inflammatory and IL-6-derived proinflammatory responses [4].
+# T19 Protein S6 14 19 856 861 STAT3
+# T20 Protein S6 46 51 888 893 IL-10
+# T21 Protein S6 82 86 924 928 IL-6
+
+Studies of cell-type-specific STAT3-deficient mice have shown that STAT3 activation is essential for IL-10-mediated anti-inflammatory reactions in macrophages and neutrophils [5], but is responsible for IL-6-mediated prevention of apoptosis in T cells [6].
+# T22 Protein S7 30 35 998 1003 STAT3
+# T23 Protein S7 67 72 1035 1040 STAT3
+# T24 Protein S7 101 106 1069 1074 IL-10
+# T25 Protein S7 203 207 1171 1175 IL-6
+
+The suppressor of cytokine signaling (SOCS) proteins have been identified as a family of endogenous JAK kinase inhibitors that can act in classic feedback inhibition loops, but their roles as the mediators of crosstalk inhibition by opposing cytokine signaling pathways have been clarified [7].
+
+Recent studies indicate that SOCS3 plays a key role in regulating the divergent action of IL-10 and IL-6, by specifically blocking STAT3 activation induced by IL-6 but not that induced by IL-10 [8,9].
+# T26 Protein S9 29 34 1549 1554 SOCS3
+# T27 Protein S9 90 95 1610 1615 IL-10
+# T28 Protein S9 100 104 1620 1624 IL-6
+# T29 Protein S9 131 136 1651 1656 STAT3
+# T30 Protein S9 159 163 1679 1683 IL-6
+# T31 Protein S9 188 193 1708 1713 IL-10
+
+The synovial membrane of rheumatoid arthritis (RA) is characterized by an infiltrate of a variety of inflammatory cells, such as lymphocytes, macrophages, and dendritic cells, together with proliferation of synovial fibroblast-like cells.
+
+Numerous cytokines are overproduced in the inflamed joint, and macrophages and synovial fibroblasts are an important source of proinflammatory cytokines.
+
+Tumor necrosis factor alpha (TNF-alpha) and IL-1, two major macrophage products, are crucial in the process of chronic inflammation and joint destruction, and they give rise to effector components, including other inflammatory cytokines, chemokines, growth factors, matrix proteases, nitric oxide, and reactive oxygen species [10].
+# T32 Protein S12 0 27 2114 2141 Tumor necrosis factor alpha
+# T33 Protein S12 29 38 2143 2152 TNF-alpha
+# T34 Protein S12 44 48 2158 2162 IL-1
+
+IL-6 is a pleiotropic cytokine produced substantially by activated fibroblasts, and its proinflammatory actions include simulating the acute-phase response, B-cell maturation into plasma cells, T-cell functions, and hematopoietic precursor cell differentiation [11].
+# T35 Protein S13 0 4 2446 2450 IL-6
+# T36 Protein S13 10 30 2456 2476 pleiotropic cytokine
+
+However, anti-inflammatory cytokines and cytokine inhibitors are also present in large quantities in RA joints.
+
+IL-10, produced by macrophages and partly by T cells in the synovial tissue (ST), is best known as a negative regulator for macrophage and Th1 cells, but the expression level is insufficient to counterbalance the cascade of proinflammatory events [12].
+# T37 Protein S15 0 5 2825 2830 IL-10
+
+In addition, the anti-inflammatory action of IL-10 appears to be modulated at the level of signal transduction during chronic inflammation.
+# T38 Protein S16 45 50 3123 3128 IL-10
+
+IL-10 signaling is impaired in macrophages upon chronic exposure to proinflammatory cytokines such as TNF-alpha and IL-1 and immune complexes [13,14].
+# T39 Protein S17 0 5 3218 3223 IL-10
+# T40 Protein S17 102 111 3320 3329 TNF-alpha
+# T41 Protein S17 116 120 3334 3338 IL-1
+
+Cell surface expression of IL-10R1 is decreased in synovial fluid dendritic cells due to the presence of TNF-alpha, IL-1, and granulocyte-macrophage colony-stimulating factor [15].
+# T42 Protein S18 27 34 3396 3403 IL-10R1
+# T43 Protein S18 105 114 3474 3483 TNF-alpha
+# T44 Protein S18 116 120 3485 3489 IL-1
+# T45 Protein S18 126 174 3495 3543 granulocyte-macrophage colony-stimulating factor
+
+CD4+ T cells may be activated by arthritogenic antigens, in conjunction with CD28-mediated costimulatory signaling, in RA.
+# T46 Protein S19 0 3 3550 3553 CD4
+# T47 Protein S19 77 81 3627 3631 CD28
+
+The significance of this autoimmune process has been supported by the linkage of the MHC class II antigens HLA-DRB1*0404 and HLA-DRB1*0401 with disease susceptibility and severity [16,17], and by the high-level expression of MHC class II molecules and both CD28 ligands, CD80 and CD86, in the inflamed ST [18-20].
+# T48 Protein S20 107 120 3780 3793 HLA-DRB1*0404
+# T49 Protein S20 125 138 3798 3811 HLA-DRB1*0401
+# T50 Protein S20 257 261 3930 3934 CD28
+# T51 Protein S20 271 275 3944 3948 CD80
+# T52 Protein S20 280 284 3953 3957 CD86
+
+The continuing emergence of activated CD4+ T cells, even though few in number, may be crucial in sustaining the activation of macrophages and synovial fibroblasts through cell surface signaling by means of cell surface CD69 and CD11, as well as the release of proinflammatory Th1 cytokines such as interferon gamma (IFN)-gamma and IL-17 [21,22].
+# T53 Protein S21 38 41 4025 4028 CD4
+# T54 Protein S21 219 223 4206 4210 CD69
+# T55 Protein S21 228 232 4215 4219 CD11
+# T56 Protein S21 298 314 4285 4301 interferon gamma
+# T57 Protein S21 315 326 4302 4313 (IFN)-gamma
+# T58 Protein S21 331 336 4318 4323 IL-17
+
+In addition, CD4+ T cells could stimulate B-cell production of autoantibodies such as rheumatoid factor and osteoclast-mediated bone destruction.
+# T59 Protein S22 13 16 4346 4349 CD4
+
+Their obligatory role in RA synovitis was recently proved by successful treatment of active disease by selective inhibition of T-cell activation with fusion protein of cytotoxic T-cell-associated antigen 4 (CD152)-IgG, which can block the engagement of CD28 on T cells by binding to CD80 and CD86 with high avidity [23].
+# T60 Protein S23 168 217 4647 4696 cytotoxic T-cell-associated antigen 4 (CD152)-IgG
+# T61 Protein S23 253 257 4732 4736 CD28
+# T62 Protein S23 283 287 4762 4766 CD80
+# T63 Protein S23 292 296 4771 4775 CD86
+
+IL-10 efficiently blocks the antigen-specific T-cell cytokine response by inhibiting the CD28 signaling pathway [24], as well as indirectly by downregulating the function of antigen-presenting cells.
+# T64 Protein S24 0 5 4800 4805 IL-10
+# T65 Protein S24 89 93 4889 4893 CD28
+
+To elucidate the resistance of CD4+ T cells to this direct inhibition in RA, we investigated the production of IFN-gamma after CD3 and CD28 costimulation in the presence of IL-10, the induction of STAT1 and STAT3 phosphorylation by IL-10, and the expression of SOCS1 and SOCS3 mRNA in peripheral blood (PB) CD4+ T cells from RA patients.
+# T66 Protein S25 31 34 5031 5034 CD4
+# T67 Protein S25 111 120 5111 5120 IFN-gamma
+# T68 Protein S25 135 139 5135 5139 CD28
+# T69 Protein S25 173 178 5173 5178 IL-10
+# T70 Protein S25 197 202 5197 5202 STAT1
+# T71 Protein S25 207 212 5207 5212 STAT3
+# T72 Protein S25 232 237 5232 5237 IL-10
+# T73 Protein S25 261 266 5261 5266 SOCS1
+# T74 Protein S25 271 276 5271 5276 SOCS3
+# T75 Protein S25 307 310 5307 5310 CD4
+

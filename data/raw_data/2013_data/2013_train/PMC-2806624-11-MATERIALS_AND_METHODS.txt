@@ -1,0 +1,32 @@
+Immunohistochemistry.
+
+Human tonsils were obtained from tonsillectomy samples of hypertrophic and obstructive tonsils without a current infection.
+
+Ethical permission was obtained from Cantonal Ethics Commission, and informed consent was obtained from patients.
+
+Paraformaldehyde-fixed tonsil cryosections were stained with unconjugated rabbit IgG polyclonal antibody to human RUNX1 (Santa Cruz Biotechnology, Inc.) or unconjugated mouse IgG1 mAb to human RUNX3 (Abcam).
+# T1 Protein S4 114 119 374 379 RUNX1
+# T2 Protein S4 193 198 453 458 RUNX3
+
+After a washing step, the sections were stained with the corresponding secondary antibodies.
+
+RUNX1-binding antibodies were detected by using Alexa Fluor 633-conjugated goat anti-rabbit IgG and RUNX3-binding antibodies were detected by using Alexa Fluor 532-conjugated goat anti-mouse IgG1.
+# T3 Protein S6 0 5 561 566 RUNX1
+# T4 Protein S6 100 105 661 666 RUNX3
+$ T3 Protein S6 0 5 561 566 RUNX1
+$ T4 Protein S6 100 105 661 666 RUNX3
+@ T7 Binding S6 6 13 567 574 binding
+@ T8 Binding S6 106 113 667 674 binding
+% E1 Binding:T7 Theme:T3
+% E2 Binding:T8 Theme:T4
+
+Afterward, the sections were washed and in the case of RUNX3 staining a blocking step with an unconjugated mouse IgG1 mAb was used.
+# T5 Protein S7 55 60 813 818 RUNX3
+
+Finally, the sections were stained with Alexa Fluor 488-conjugated mouse IgG1 mAb to human FOXP3 (eBioscience) or the corresponding isotype control.
+# T6 Protein S8 91 96 981 986 FOXP3
+
+Tissue sections were stained with DAPI for the demonstration of nuclei and mounted with Prolong antifade (Invitrogen).
+
+Images were acquired and analyzed using the confocal microscope DMI 4000B and the TCS SPE system (both from Leica).
+

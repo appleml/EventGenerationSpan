@@ -1,0 +1,44 @@
+Identification of a human LIM-Hox gene, hLH-2, aberrantly expressed in chronic myelogenous leukaemia and located on 9q33-34.1.
+# T1 Protein S1 40 45 40 45 hLH-2
+$ T1 Protein S1 40 45 40 45 hLH-2
+@ T13 Gene_expression S1 58 67 58 67 expressed
+% E1 Gene_expression:T13 Theme:T1
+
+We describe the isolation of human LH-2, a putative transcription factor containing two cysteine-rich regions (LIM domains) and a homeobox (Hox) DNA-binding domain.
+# T2 Protein S2 35 39 163 167 LH-2
+
+High levels of hLH-2 expression were observed in all cases of chronic myelogenous leukaemia (CML) tested, regardless of disease status.
+# T3 Protein S3 15 20 308 313 hLH-2
+$ T3 Protein S3 15 20 308 313 hLH-2
+@ T14 Positive_regulation S3 0 11 293 304 High levels
+@ T15 Gene_expression S3 21 31 314 324 expression
+% E2 Positive_regulation:T14 Theme:E3
+% E3 Gene_expression:T15 Theme:T3
+
+hLH-2 was mapped to chromosome 9Q33-34.1, in the same region as the reciprocal translocation that creates the BCR-ABL chimera of the Philadelphia chromosome (Ph'), the hallmark of CML; hLH-2 was retained on the derivative 9 chromosome and is therefore centromeric of c-ABL.
+# T4 Protein S4 0 5 429 434 hLH-2
+# T5 Protein S4 110 113 539 542 BCR
+# T6 Protein S4 114 117 543 546 ABL
+# T7 Protein S4 185 190 614 619 hLH-2
+# T8 Protein S4 267 272 696 701 c-ABL
+
+The proximity of hLH-2 to the breakpoint on chromosome 9 raises the possibility of cis-activation by the t(9;22)(q34;q11) translocation.
+# T9 Protein S5 17 22 720 725 hLH-2
+$ T9 Protein S5 17 22 720 725 hLH-2
+@ T16 Positive_regulation S5 83 97 786 800 cis-activation
+% E4 Positive_regulation:T16 Theme:T9
+
+In addition to finding hLH-2 expression in all cases of CML, expression was observed in lymphoid malignancies and myeloid cell lines, but not in primary cases of acute myelogenous leukaemia.
+# T10 Protein S6 23 28 863 868 hLH-2
+$ T10 Protein S6 23 28 863 868 hLH-2
+@ T17 Gene_expression S6 29 39 869 879 expression
+@ T18 Gene_expression S6 61 71 901 911 expression
+% E5 Gene_expression:T17 Theme:T10
+% E6 Gene_expression:T18 Theme:T10
+
+The role of hLH-2 in the development or progression of leukaemia is not known.
+# T11 Protein S7 12 17 1043 1048 hLH-2
+
+However, hLH-2 may prove useful as a marker of CML for monitoring residual disease.
+# T12 Protein S8 9 14 1119 1124 hLH-2
+

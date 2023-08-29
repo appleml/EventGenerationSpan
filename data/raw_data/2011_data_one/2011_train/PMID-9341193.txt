@@ -1,0 +1,119 @@
+The tax protein of human T-cell leukemia virus type 1 mediates the transactivation of the c-sis/platelet-derived growth factor-B promoter through interactions with the zinc finger transcription factors Sp1 and NGFI-A/Egr-1.
+# T1 Protein S1 4 7 4 7 tax
+# T2 Protein S1 90 95 90 95 c-sis
+# T3 Protein S1 96 128 96 128 platelet-derived growth factor-B
+# T4 Protein S1 202 205 202 205 Sp1
+# T5 Protein S1 210 216 210 216 NGFI-A
+# T6 Protein S1 217 222 217 222 Egr-1
+$ T2 Protein S1 90 95 90 95 c-sis
+$ T1 Protein S1 4 7 4 7 tax
+$ T4 Protein S1 202 205 202 205 Sp1
+$ T5 Protein S1 210 216 210 216 NGFI-A
+@ T43 Positive_regulation S1 67 82 67 82 transactivation
+@ T44 Entity S1 129 137 129 137 promoter
+@ T45 Binding S1 146 158 146 158 interactions
+% E1 Positive_regulation:T43 Theme:T2 Cause:E4 Site:T44
+% E2 Positive_regulation:T43 Theme:T2 Cause:E3 Site:T44
+% E3 Binding:T45 Theme:T1 Theme2:T4
+% E4 Binding:T45 Theme:T1 Theme2:T5
+
+Transcriptional up-regulation of the c-sis/platelet-derived growth factor-B (PDGF-B) proto-oncogene by the Tax protein of human T-cell leukemia virus type 1 has been implicated as one possible mechanism of cellular transformation by human T-cell leukemia virus type 1.
+# T7 Protein S2 37 42 262 267 c-sis
+# T8 Protein S2 43 75 268 300 platelet-derived growth factor-B
+# T9 Protein S2 77 83 302 308 PDGF-B
+# T10 Protein S2 107 110 332 335 Tax
+$ T7 Protein S2 37 42 262 267 c-sis
+$ T10 Protein S2 107 110 332 335 Tax
+@ T46 Positive_regulation S2 0 29 225 254 Transcriptional up-regulation
+% E5 Positive_regulation:T46 Theme:T7 Cause:T10
+
+In previous work, we identified an essential site in the c-sis/PDGF-B promoter, Tax-responsive element 1 (TRE1), necessary for transactivation by Tax.
+# T11 Protein S3 57 62 551 556 c-sis
+# T12 Protein S3 63 69 557 563 PDGF-B
+# T13 Protein S3 80 83 574 577 Tax
+# T14 Protein S3 146 149 640 643 Tax
+
+We also identified Sp1, Sp3, and NGFI-A/Egr-1 as the primary nuclear transcription factors binding to TRE1 which mediate Tax responsiveness.
+# T15 Protein S4 19 22 664 667 Sp1
+# T16 Protein S4 24 27 669 672 Sp3
+# T17 Protein S4 33 39 678 684 NGFI-A
+# T18 Protein S4 40 45 685 690 Egr-1
+# T19 Protein S4 121 124 766 769 Tax
+$ T15 Protein S4 19 22 664 667 Sp1
+$ T16 Protein S4 24 27 669 672 Sp3
+$ T17 Protein S4 33 39 678 684 NGFI-A
+@ T47 Binding S4 91 98 736 743 binding
+% E6 Binding:T47 Theme:T15
+% E7 Binding:T47 Theme:T16
+% E8 Binding:T47 Theme:T17
+
+In the present work, we have investigated the mechanism(s) whereby Tax transactivates the c-sis/PDGF-B proto-oncogene.
+# T20 Protein S5 67 70 853 856 Tax
+# T21 Protein S5 90 95 876 881 c-sis
+# T22 Protein S5 96 102 882 888 PDGF-B
+$ T21 Protein S5 90 95 876 881 c-sis
+$ T20 Protein S5 67 70 853 856 Tax
+@ T48 Positive_regulation S5 71 85 857 871 transactivates
+% E9 Positive_regulation:T48 Theme:T21 Cause:T20
+
+In vitro transcription assays showed that Tax was able to significantly increase the transcriptional activity of a template containing the -257 to +74 region of the c-sis/PDGF-B promoter.
+# T23 Protein S6 42 45 947 950 Tax
+# T24 Protein S6 165 170 1070 1075 c-sis
+# T25 Protein S6 171 177 1076 1082 PDGF-B
+$ T23 Protein S6 42 45 947 950 Tax
+$ T24 Protein S6 165 170 1070 1075 c-sis
+@ T49 Positive_regulation S6 72 80 977 985 increase
+@ T50 Transcription S6 85 109 990 1014 transcriptional activity
+% E10 Positive_regulation:T49 Theme:E11 Cause:T23
+% E11 Transcription:T50 Theme:T24
+
+Electrophoretic mobility shift assay analysis showed that Tax increased the DNA binding activity of both Sp1 and NGFI-A/Egr-1 using a TRE1 probe.
+# T26 Protein S7 58 61 1151 1154 Tax
+# T27 Protein S7 105 108 1198 1201 Sp1
+# T28 Protein S7 113 119 1206 1212 NGFI-A
+# T29 Protein S7 120 125 1213 1218 Egr-1
+$ T26 Protein S7 58 61 1151 1154 Tax
+$ T28 Protein S7 113 119 1206 1212 NGFI-A
+$ T27 Protein S7 105 108 1198 1201 Sp1
+@ T51 Positive_regulation S7 62 71 1155 1164 increased
+@ T52 Binding S7 80 96 1173 1189 binding activity
+% E12 Positive_regulation:T51 Theme:E15 Cause:T26
+% E13 Positive_regulation:T51 Theme:E14 Cause:T26
+% E14 Binding:T52 Theme:T28
+% E15 Binding:T52 Theme:T27
+
+Analysis of Tax mutants showed that two mutants, IEXC29S and IEXL320G, were unable to significantly transactivate the c-sis/PDGF-B promoter.
+# T30 Protein S8 12 15 1251 1254 Tax
+# T31 Protein S8 118 123 1357 1362 c-sis
+# T32 Protein S8 124 130 1363 1369 PDGF-B
+$ T31 Protein S8 118 123 1357 1362 c-sis
+@ T53 Positive_regulation S8 100 113 1339 1352 transactivate
+@ T54 Entity S8 131 139 1370 1378 promoter
+% E16 Positive_regulation:T53 Theme:T31 Site:T54
+
+Finally, co-immunoprecipitation analysis revealed that Tax is able to stably bind to both Sp1 and NGFI-A/Egr-1.
+# T33 Protein S9 55 58 1435 1438 Tax
+# T34 Protein S9 90 93 1470 1473 Sp1
+# T35 Protein S9 98 104 1478 1484 NGFI-A
+# T36 Protein S9 105 110 1485 1490 Egr-1
+$ T33 Protein S9 55 58 1435 1438 Tax
+$ T34 Protein S9 90 93 1470 1473 Sp1
+$ T35 Protein S9 98 104 1478 1484 NGFI-A
+@ T55 Binding S9 77 81 1457 1461 bind
+% E17 Binding:T55 Theme:T33 Theme2:T34
+% E18 Binding:T55 Theme:T33 Theme2:T35
+
+Interestingly, co-immunoprecipitation analysis also revealed that Tax mutant IEXC29S is unable to interact with NGFI-A/Egr-1, whereas Tax mutant IEXL320G is able to interact with NGFI-A/Egr-1.
+# T37 Protein S10 66 69 1558 1561 Tax
+# T38 Protein S10 112 118 1604 1610 NGFI-A
+# T39 Protein S10 119 124 1611 1616 Egr-1
+# T40 Protein S10 134 137 1626 1629 Tax
+# T41 Protein S10 179 185 1671 1677 NGFI-A
+# T42 Protein S10 186 191 1678 1683 Egr-1
+$ T38 Protein S10 112 118 1604 1610 NGFI-A
+$ T42 Protein S10 186 191 1678 1683 Egr-1
+@ T56 Binding S10 98 106 1590 1598 interact
+@ T57 Binding S10 165 173 1657 1665 interact
+% E19 Binding:T56 Theme:T38
+% E20 Binding:T57 Theme:T42
+

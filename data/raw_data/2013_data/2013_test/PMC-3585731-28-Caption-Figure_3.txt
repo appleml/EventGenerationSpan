@@ -1,0 +1,13 @@
+RIP1 kinase-dependent phosphorylation of Akt and JNK during necroptosis.
+# T1 Protein S1 0 4 0 4 RIP1
+
+(A) L929 cells were treated with zVAD.fmk or TNFalpha for 9 hr, followed by western blotting with indicated antibodies.
+# T2 Protein S2 45 53 118 126 TNFalpha
+
+(B,C) L929 cells were treated with zVAD.fmk (B) or bFGF/zVAD.fmk (serum free conditions, C) and samples were collected at the indicated time points for western blot.
+# T3 Protein S3 51 55 244 248 bFGF
+
+(D) Nec-1 was added to the cells stimulated with bFGF or bFGF/zVAD (serum free conditions) for 15 min or 9 hr followed by western blot with the indicated antibodies.
+# T4 Protein S4 49 53 408 412 bFGF
+# T5 Protein S4 57 61 416 420 bFGF
+

@@ -1,0 +1,59 @@
+Thrombopoietin supports in vitro erythroid differentiation via its specific receptor c-Mpl in a human leukemia cell line.
+# T1 Protein S1 0 14 0 14 Thrombopoietin
+# T2 Protein S1 85 90 85 90 c-Mpl
+$ T1 Protein S1 0 14 0 14 Thrombopoietin
+$ T2 Protein S1 85 90 85 90 c-Mpl
+@ T18 Binding S1 63 84 63 84 its specific receptor
+% E1 Binding:T18 Theme:T1 Theme2:T2
+
+Thrombopoietin (TPO) acts on megakaryopoiesis and erythropoiesis in vitro and in vivo.
+# T3 Protein S2 0 14 123 137 Thrombopoietin
+# T4 Protein S2 16 19 139 142 TPO
+
+We isolated a novel subline, UT-7/GMT, from the human leukemia cell line UT-7/GM (N. Komatsu, et al., Blood, 89: 4021-4033, 1997).
+
+A small population of UT-7/GM cells positively stained for hemoglobin (Hb) after a 7-day exposure to TPO.
+# T5 Protein S4 101 104 442 445 TPO
+
+More than 50% of TPO-treated UT-7/GMT cells positively stained for Hb.
+# T6 Protein S5 17 20 464 467 TPO
+
+Using UT-7/GMT cells, we examined how TPO promotes hemoglobinization.
+# T7 Protein S6 38 41 556 559 TPO
+
+TPO induced tyrosine phosphorylation of the TPO receptor but not the erythropoietin (EPO) receptor.
+# T8 Protein S7 0 3 588 591 TPO
+# T9 Protein S7 44 56 632 644 TPO receptor
+# T10 Protein S7 69 98 657 686 erythropoietin (EPO) receptor
+$ T8 Protein S7 0 3 588 591 TPO
+$ T9 Protein S7 44 56 632 644 TPO receptor
+$ T10 Protein S7 69 98 657 686 erythropoietin (EPO) receptor
+@ T19 Positive_regulation S7 4 11 592 599 induced
+@ T20 Entity S7 12 20 600 608 tyrosine
+@ T21 Phosphorylation S7 21 36 609 624 phosphorylation
+% E2 Positive_regulation:T19 Theme:E4 Cause:T8
+% E3 Positive_regulation:T19 Theme:E5 Cause:T8
+% E4 Phosphorylation:T21 Theme:T9 Site:T20
+% E5 Phosphorylation:T21 Theme:T10 Site:T20
+
+There was no competition between TPO and EPO for binding to EPO receptor.
+# T11 Protein S8 33 36 721 724 TPO
+# T12 Protein S8 41 44 729 732 EPO
+# T13 Protein S8 60 72 748 760 EPO receptor
+$ T11 Protein S8 33 36 721 724 TPO
+$ T13 Protein S8 60 72 748 760 EPO receptor
+$ T12 Protein S8 41 44 729 732 EPO
+@ T22 Binding S8 49 56 737 744 binding
+% E6 Binding:T22 Theme:T11 Theme2:T13
+% E7 Binding:T22 Theme:T12 Theme2:T13
+
+These findings suggest that TPO has a direct effect on hemoglobinization via a specific receptor on UT-7/GMT cells.
+# T14 Protein S9 28 31 790 793 TPO
+
+Isoelectric focusing demonstrated that TPO induced fetal and adult Hb synthesis, whereas EPO induced embryonic, fetal, and adult Hb synthesis.
+# T15 Protein S10 39 42 917 920 TPO
+# T16 Protein S10 89 92 967 970 EPO
+
+Thus, our data suggest that TPO has a distinct action on erythropoiesis.
+# T17 Protein S11 28 31 1049 1052 TPO
+

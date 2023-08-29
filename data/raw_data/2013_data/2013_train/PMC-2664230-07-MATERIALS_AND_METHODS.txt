@@ -1,0 +1,37 @@
+Role of PKA on LPS-induced mononuclear cell TNF-alpha production
+# T1 Protein S1 44 53 44 53 TNF-alpha
+$ T1 Protein S1 44 53 44 53 TNF-alpha
+@ T5 Regulation S1 0 4 0 4 Role
+@ T6 Positive_regulation S1 19 26 19 26 induced
+@ T7 Gene_expression S1 54 64 54 64 production
+% E1 Regulation:T5 Theme:E2
+% E2 Positive_regulation:T6 Theme:E3
+% E3 Gene_expression:T7 Theme:T1
+
+To evaluate the role of PKA on TNF-alpha production in mononuclear cells and its involvement in the attenuation of LPS-induced TNF-alpha production observed following PTX treatment, H89, a specific PKA inhibitor, was utilized.
+# T2 Protein S2 31 40 96 105 TNF-alpha
+# T3 Protein S2 127 136 192 201 TNF-alpha
+$ T2 Protein S2 31 40 96 105 TNF-alpha
+$ T3 Protein S2 127 136 192 201 TNF-alpha
+@ T8 Regulation S2 16 20 81 85 role
+@ T9 Gene_expression S2 41 51 106 116 production
+@ T10 Regulation S2 81 92 146 157 involvement
+@ T11 Negative_regulation S2 100 111 165 176 attenuation
+@ T12 Positive_regulation S2 119 126 184 191 induced
+@ T13 Gene_expression S2 137 147 202 212 production
+% E4 Regulation:T8 Theme:E5
+% E5 Gene_expression:T9 Theme:T2
+% E6 Regulation:T10 Theme:E7
+% E7 Negative_regulation:T11 Theme:E8
+% E8 Positive_regulation:T12 Theme:E9
+% E9 Gene_expression:T13 Theme:T3
+
+Isolated mononuclear cells were incubated according to the treatment groups described above in the presence and absence of pretreatment with H89 (10 muM) for 1 hour at 37degreesC.
+
+The dose of H89 was chosen based on previous work which demonstrated specific and complete inhibition of PKA at this concentration.10 Since the activity of this inhibitor is both specific and consistent at this specified dose, we did not include experiments with additional PKA inhibitors with this set of experiments.
+
+The TNF-alpha concentration in the supernatant was measured quantitatively by ELISA.
+# T4 Protein S5 4 13 795 804 TNF-alpha
+
+The results are expressed in pg/mL.
+

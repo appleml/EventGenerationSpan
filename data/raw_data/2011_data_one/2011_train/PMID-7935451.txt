@@ -1,0 +1,83 @@
+Human T-cell leukemia virus type I Tax activation of NF-kappa B/Rel involves phosphorylation and degradation of I kappa B alpha and RelA (p65)-mediated induction of the c-rel gene.
+# T1 Protein S1 35 38 35 38 Tax
+# T2 Protein S1 112 127 112 127 I kappa B alpha
+# T3 Protein S1 132 136 132 136 RelA
+# T4 Protein S1 138 141 138 141 p65
+$ T2 Protein S1 112 127 112 127 I kappa B alpha
+@ T20 Phosphorylation S1 77 92 77 92 phosphorylation
+@ T21 Protein_catabolism S1 97 108 97 108 degradation
+% E1 Phosphorylation:T20 Theme:T2
+% E2 Protein_catabolism:T21 Theme:T2
+
+The tax gene product of human T-cell leukemia virus type I (HTLV-I) is a potent transcriptional activator that both stimulates viral gene expression and activates an array of cellular genes involved in T-cell growth.
+# T5 Protein S2 4 7 186 189 tax
+
+Tax acts indirectly by inducing or modifying the action of various host transcription factors, including members of the NF-kappa B/Rel family of enhancer-binding proteins.
+# T6 Protein S3 0 3 399 402 Tax
+
+In resting T cells, many of these NF-kappa B/Rel factors are sequestered in the cytoplasm by various ankyrin-rich inhibitory proteins, including I kappa B alpha.
+# T7 Protein S4 145 160 716 731 I kappa B alpha
+
+HTLV-I Tax expression leads to the constitutive nuclear expression of biologically active NF-kappa B and c-Rel complexes; however, the biochemical mechanism(s) underlying this response remains poorly understood.
+# T8 Protein S5 7 10 740 743 Tax
+# T9 Protein S5 105 110 838 843 c-Rel
+$ T8 Protein S5 7 10 740 743 Tax
+$ T9 Protein S5 105 110 838 843 c-Rel
+@ T22 Gene_expression S5 11 21 744 754 expression
+@ T23 Positive_regulation S5 22 27 755 760 leads
+@ T24 Gene_expression S5 56 66 789 799 expression
+% E3 Gene_expression:T22 Theme:T8
+% E4 Positive_regulation:T23 Theme:E5 Cause:E3
+% E5 Gene_expression:T24 Theme:T9
+
+In this study, we demonstrate that Tax-stimulated nuclear expression of NF-kappa B in both HTLV-I-infected and Tax-transfected human T cells is associated with the phosphorylation and rapid proteolytic degradation of I kappa B alpha.
+# T10 Protein S6 35 38 980 983 Tax
+# T11 Protein S6 111 114 1056 1059 Tax
+# T12 Protein S6 217 232 1162 1177 I kappa B alpha
+$ T12 Protein S6 217 232 1162 1177 I kappa B alpha
+@ T25 Phosphorylation S6 164 179 1109 1124 phosphorylation
+@ T26 Protein_catabolism S6 202 213 1147 1158 degradation
+% E6 Phosphorylation:T25 Theme:T12
+% E7 Protein_catabolism:T26 Theme:T12
+
+In contrast to prior in vitro studies, at least a fraction of the phosphorylated form of I kappa B alpha remains physically associated with the NF-kappa B complex in vivo but is subject to rapid degradation, thereby promoting the nuclear translocation of the active NF-kappa B complex.
+# T13 Protein S7 89 104 1268 1283 I kappa B alpha
+$ T13 Protein S7 89 104 1268 1283 I kappa B alpha
+@ T27 Binding S7 124 134 1303 1313 associated
+@ T28 Protein_catabolism S7 195 206 1374 1385 degradation
+% E8 Binding:T27 Theme:T13
+% E9 Protein_catabolism:T28 Theme:T13
+
+We further demonstrate that Tax induction of nuclear c-Rel expression is activated by the RelA (p65) subunit of NF-kappa B, which activates transcription of the c-rel gene through an intrinsic kappa B enhancer element.
+# T14 Protein S8 28 31 1493 1496 Tax
+# T15 Protein S8 53 58 1518 1523 c-Rel
+# T16 Protein S8 90 94 1555 1559 RelA
+# T17 Protein S8 96 99 1561 1564 p65
+# T18 Protein S8 161 166 1626 1631 c-rel
+$ T14 Protein S8 28 31 1493 1496 Tax
+$ T15 Protein S8 53 58 1518 1523 c-Rel
+$ T17 Protein S8 96 99 1561 1564 p65
+$ T18 Protein S8 161 166 1626 1631 c-rel
+@ T29 Positive_regulation S8 32 41 1497 1506 induction
+@ T30 Gene_expression S8 59 69 1524 1534 expression
+@ T31 Positive_regulation S8 73 82 1538 1547 activated
+@ T32 Positive_regulation S8 130 139 1595 1604 activates
+@ T33 Transcription S8 140 153 1605 1618 transcription
+% E10 Positive_regulation:T29 Theme:E11 Cause:T14
+% E11 Gene_expression:T30 Theme:T15
+% E12 Positive_regulation:T31 Theme:E10 Cause:T17
+% E13 Positive_regulation:T32 Theme:E14 Cause:T18
+% E14 Transcription:T33 Theme:T18
+
+In normal cells, the subsequent accumulation of nuclear c-Rel acts to inhibit its own continued production, indicating the presence of an autoregulatory loop.
+# T19 Protein S9 56 61 1740 1745 c-Rel
+$ T19 Protein S9 56 61 1740 1745 c-Rel
+@ T34 Positive_regulation S9 32 44 1716 1728 accumulation
+@ T35 Negative_regulation S9 70 77 1754 1761 inhibit
+@ T36 Gene_expression S9 96 106 1780 1790 production
+% E15 Positive_regulation:T34 Theme:T19
+% E16 Negative_regulation:T35 Theme:E17 Cause:E15
+% E17 Gene_expression:T36 Theme:T19
+
+(ABSTRACT TRUNCATED AT 250 WORDS)
+

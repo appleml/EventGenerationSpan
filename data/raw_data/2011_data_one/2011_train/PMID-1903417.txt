@@ -1,0 +1,81 @@
+Transforming growth factor-beta suppresses human B lymphocyte Ig production by inhibiting synthesis and the switch from the membrane form to the secreted form of Ig mRNA.
+
+Transforming growth factor-beta (TGF-beta) inhibits B cell Ig secretion and reduces B cell membrane Ig expression.
+
+The addition of TGF-beta to human B lymphocyte cultures stimulated with Staphylococcus aureus Cowan strain I and IL-2 completely inhibited B cell Ig secretion (greater than 90%) and decreased B cell surface IgM, IgD, kappa L chain, and lambda L chain expression.
+# T1 Protein S3 113 117 400 404 IL-2
+# T2 Protein S3 217 230 504 517 kappa L chain
+# T3 Protein S3 236 250 523 537 lambda L chain
+$ T2 Protein S3 217 230 504 517 kappa L chain
+$ T3 Protein S3 236 250 523 537 lambda L chain
+@ T16 Negative_regulation S3 182 191 469 478 decreased
+@ T17 Gene_expression S3 251 261 538 548 expression
+% E1 Negative_regulation:T16 Theme:E3
+% E2 Negative_regulation:T16 Theme:E4
+% E3 Gene_expression:T17 Theme:T2
+% E4 Gene_expression:T17 Theme:T3
+
+In contrast, TGF-beta had only minimal effects on two other B cell membrane proteins, HLA-DR and CD20.
+# T4 Protein S4 97 101 647 651 CD20
+$ T4 Protein S4 97 101 647 651 CD20
+@ T18 Regulation S4 39 46 589 596 effects
+% E5 Regulation:T18 Theme:T4
+
+Internal labeling with [35S]methionine and immunoprecipitation with anti-IgM, anti-kappa, and anti-lambda antibodies revealed a striking reduction in kappa L chain in the presence of TGF-beta.
+# T5 Protein S5 83 88 736 741 kappa
+# T6 Protein S5 99 105 752 758 lambda
+# T7 Protein S5 150 163 803 816 kappa L chain
+$ T7 Protein S5 150 163 803 816 kappa L chain
+@ T19 Negative_regulation S5 137 146 790 799 reduction
+% E6 Negative_regulation:T19 Theme:T7
+
+A less pronounced reduction in lambda L chain and microH chain was also noted.
+# T8 Protein S6 31 45 877 891 lambda L chain
+$ T8 Protein S6 31 45 877 891 lambda L chain
+@ T20 Negative_regulation S6 18 27 864 873 reduction
+% E7 Negative_regulation:T20 Theme:T8
+
+Northern blot analysis of RNA purified from B cells treated with TGF-beta for varying time intervals revealed a significant decrease in steady state kappa and lambda L chain mRNA levels.
+# T9 Protein S7 149 154 1074 1079 kappa
+# T10 Protein S7 159 173 1084 1098 lambda L chain
+$ T9 Protein S7 149 154 1074 1079 kappa
+$ T10 Protein S7 159 173 1084 1098 lambda L chain
+@ T21 Negative_regulation S7 179 185 1104 1110 levels
+% E8 Negative_regulation:T21 Theme:T9
+% E9 Negative_regulation:T21 Theme:T10
+
+Furthermore, a significant decrease in the switch from the membrane forms of mu and gamma to their respective secreted forms was noted in the presence of TGF-beta.
+
+Nuclear run-on experiments demonstrated decreased transcription of kappa L chain.
+# T11 Protein S9 67 80 1343 1356 kappa L chain
+$ T11 Protein S9 67 80 1343 1356 kappa L chain
+@ T22 Negative_regulation S9 40 49 1316 1325 decreased
+@ T23 Transcription S9 50 63 1326 1339 transcription
+% E10 Negative_regulation:T22 Theme:E11
+% E11 Transcription:T23 Theme:T11
+
+The effects of TGF-beta on two transcriptional regulatory factors, Oct-2 and nuclear factor (NF) kappa B, known to be important in Ig gene transcription were examined.
+# T12 Protein S10 67 72 1425 1430 Oct-2
+$ T12 Protein S10 67 72 1425 1430 Oct-2
+@ T24 Regulation S10 4 11 1362 1369 effects
+% E12 Regulation:T24 Theme:T12
+
+Oct-2 mRNA levels and both Oct-2 and NF-kappa B proteins in nuclear extracts were not altered by treatment with TGF-beta.
+# T13 Protein S11 0 5 1526 1531 Oct-2
+# T14 Protein S11 27 32 1553 1558 Oct-2
+$ T14 Protein S11 27 32 1553 1558 Oct-2
+@ T25 Regulation S11 86 93 1612 1619 altered
+% E13 Regulation:T25 Theme:T14
+
+In contrast, levels of the transcriptional factor AP-1, which is not known to be important in B cell Ig production, were reduced by TGF-beta.
+
+These findings demonstrate that TGF-beta decreases B lymphocyte Ig secretion by inhibiting the synthesis of Ig mRNA and inhibiting the switch from the membrane form to the secreted forms of mu and gamma mRNA.
+
+The mechanism by which TGF-beta inhibits Ig chain synthesis is unclear although it does not involve inhibition of the binding of NF-kappa B or Oct-2 to their respective target sequences.
+# T15 Protein S14 143 148 2142 2147 Oct-2
+$ T15 Protein S14 143 148 2142 2147 Oct-2
+@ T26 Negative_regulation S14 100 110 2099 2109 inhibition
+@ T27 Binding S14 118 125 2117 2124 binding
+% E14 Negative_regulation:T26 Theme:E15
+% E15 Binding:T27 Theme:T15
+

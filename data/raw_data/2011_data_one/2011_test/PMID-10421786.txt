@@ -1,0 +1,27 @@
+Activation of STAT5 by IL-4 relies on Janus kinase function but not on receptor tyrosine phosphorylation, and can contribute to both cell proliferation and gene regulation.
+# T1 Protein S1 23 27 23 27 IL-4
+
+We have investigated mechanisms and consequences of STAT5 activation through the human IL-4 receptor (IL-4R).
+# T2 Protein S2 87 91 261 265 IL-4
+
+By functionally expressing receptor mutants in the murine pro-B cell line Ba/F3, we could show that phosphorylated tyrosine residues within the IL-4R alpha chain are dispensable for IL-4-induced STAT5 activity.
+# T3 Protein S3 144 161 428 445 IL-4R alpha chain
+# T4 Protein S3 182 186 466 470 IL-4
+
+However, disruption of a membrane-proximal proline-rich sequence motif ('box1') in either subunit of the bipartite IL-4R abolished not only ligand-induced tyrosine phosphorylation of Janus kinases JAK1 and JAK3, but also IL-4-triggered activation of STAT5 and concomitant cell proliferation.
+# T5 Protein S4 197 201 692 696 JAK1
+# T6 Protein S4 206 210 701 705 JAK3
+# T7 Protein S4 221 225 716 720 IL-4
+
+A dominant-negative version of STAT5b, but not of STAT5a, interfered with IL-4-induced DNA synthesis in Ba/F3 cells, suggesting an involvement of STAT5b in the control of cell proliferation through IL-4R.
+# T8 Protein S5 31 37 818 824 STAT5b
+# T9 Protein S5 50 56 837 843 STAT5a
+# T10 Protein S5 74 78 861 865 IL-4
+# T11 Protein S5 146 152 933 939 STAT5b
+
+Reporter gene experiments finally showed that transcription from promoters of STAT5 target genes can be specifically induced by challenging cells with IL-4, and that both STAT5a and STAT5b can contribute to IL-4-triggered transcriptional control.
+# T12 Protein S6 151 155 1143 1147 IL-4
+# T13 Protein S6 171 177 1163 1169 STAT5a
+# T14 Protein S6 182 188 1174 1180 STAT5b
+# T15 Protein S6 207 211 1199 1203 IL-4
+

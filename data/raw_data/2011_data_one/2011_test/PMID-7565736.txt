@@ -1,0 +1,62 @@
+PU.1 (Spi-1) and C/EBP alpha regulate expression of the granulocyte-macrophage colony-stimulating factor receptor alpha gene.
+# T1 Protein S1 0 4 0 4 PU.1
+# T2 Protein S1 6 11 6 11 Spi-1
+# T3 Protein S1 17 28 17 28 C/EBP alpha
+# T4 Protein S1 56 119 56 119 granulocyte-macrophage colony-stimulating factor receptor alpha
+
+Growth factor receptors play an important role in hematopoiesis.
+
+In order to further understand the mechanisms directing the expression of these key regulators of hematopoiesis, we initiated a study investigating the transcription factors activating the expression of the granulocyte-macrophage colony-stimulating factor (GM-CSF) receptor alpha gene.
+# T5 Protein S3 207 279 399 471 granulocyte-macrophage colony-stimulating factor (GM-CSF) receptor alpha
+
+Here, we demonstrate that the human GM-CSF receptor alpha promoter directs reporter gene activity in a tissue-specific fashion in myelomonocytic cells, which correlates with its expression pattern as analyzed by reverse transcription PCR.
+# T6 Protein S4 36 57 514 535 GM-CSF receptor alpha
+
+The GM-CSF receptor alpha promoter contains an important functional site between positions -53 and -41 as identified by deletion analysis of reporter constructs.
+# T7 Protein S5 4 25 721 742 GM-CSF receptor alpha
+
+We show that the myeloid and B cell transcription factor PU.1 binds specifically to this site.
+# T8 Protein S6 57 61 936 940 PU.1
+
+Furthermore, we demonstrate that a CCAAT site located upstream of the PU.1 site between positions -70 and -54 is involved in positive-negative regulation of the GM-CSF receptor alpha promoter activity.
+# T9 Protein S7 70 74 1044 1048 PU.1
+# T10 Protein S7 161 182 1135 1156 GM-CSF receptor alpha
+
+C/EBP alpha is the major CCAAT/enhancer-binding protein (C/EBP) form binding to this site in nuclear extracts of U937 cells.
+# T11 Protein S8 0 11 1176 1187 C/EBP alpha
+
+Point mutations of either the PU.1 site or the C/EBP site that abolish the binding of the respective factors result in a significant decrease of GM-CSF receptor alpha promoter activity in myelomonocytic cells only.
+# T12 Protein S9 30 34 1331 1335 PU.1
+# T13 Protein S9 145 166 1446 1467 GM-CSF receptor alpha
+
+Furthermore, we demonstrate that in myeloid and B cell extracts, PU.1 forms a novel, specific, more slowly migrating complex (PU-SF) when binding the GM-CSF receptor alpha promoter PU.1 site.
+# T14 Protein S10 65 69 1581 1585 PU.1
+# T15 Protein S10 150 171 1666 1687 GM-CSF receptor alpha
+# T16 Protein S10 181 185 1697 1701 PU.1
+
+This is the first demonstration of a specific interaction with PU.1 on a myeloid PU.1 binding site.
+# T17 Protein S11 63 67 1771 1775 PU.1
+# T18 Protein S11 81 85 1789 1793 PU.1
+
+The novel complex is distinct from that described previously as binding to B cell enhancer sites and can be formed by addition of PU.1 to extracts from certain nonmyeloid cell types which do not express PU.1, including T cells and epithelial cells, but not from erythroid cells.
+# T19 Protein S12 130 134 1938 1942 PU.1
+# T20 Protein S12 203 207 2011 2015 PU.1
+
+Furthermore, we demonstrate that the PU-SF complex binds to PU.1 sites found on a number of myeloid promoters, and its formation requires an intact PU.1 site adjacent to a single-stranded region.
+# T21 Protein S13 60 64 2147 2151 PU.1
+# T22 Protein S13 148 152 2235 2239 PU.1
+
+Expression of PU.1 in nonmyeloid cells can activate the GM-CSF receptor alpha promoter.
+# T23 Protein S14 14 18 2297 2301 PU.1
+# T24 Protein S14 56 77 2339 2360 GM-CSF receptor alpha
+
+Deletion of the amino-terminal region of PU.1 results in a failure to form the PU-SF complex and in a concomitant loss of transactivation, suggesting that formation of the PU-SF complex is of functional importance for the activity of the GM-CSF receptor alpha promoter.
+# T25 Protein S15 41 45 2412 2416 PU.1
+# T26 Protein S15 238 259 2609 2630 GM-CSF receptor alpha
+
+Finally, we demonstrate that C/EBP alpha can also active the GM-CSF receptor alpha promoter in nonmyeloid cells.
+# T27 Protein S16 29 40 2670 2681 C/EBP alpha
+# T28 Protein S16 61 82 2702 2723 GM-CSF receptor alpha
+
+(ABSTRACT TRUNCATED AT 400 WORDS)
+

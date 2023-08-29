@@ -1,0 +1,303 @@
+Discussion
+
+In the present study, we show that Foxp3 functions as a potent repressor of NF-kappaB- and CREB-dependent transcriptional activation.
+# T1 Protein S2 35 40 46 51 Foxp3
+
+Furthermore, the carboxyl-terminal FKH domain appears to be dispensable for mediating these effects, at least in T cell populations.
+
+This observation may become important in light of recent reports suggesting that Foxp3 expression in thymic epithelial cells was crucial for directing development of T cells in the thymus [42].
+# T2 Protein S4 81 86 359 364 Foxp3
+$ T2 Protein S4 81 86 359 364 Foxp3
+@ T88 Gene_expression S4 87 97 365 375 expression
+% E1 Gene_expression:T88 Theme:T2
+
+Interestingly, the majority of the genetic mutations associated with IPEX, a severe autoimmune disorder caused by functional inactivation of Foxp3, map to the carboxyl-terminal FKH domain or the leucine zipper domain in the central region of the protein.
+# T3 Protein S5 141 146 613 618 Foxp3
+$ T3 Protein S5 141 146 613 618 Foxp3
+@ T89 Negative_regulation S5 125 137 597 609 inactivation
+% E2 Negative_regulation:T89 Theme:T3
+
+Only one mutation associated with IPEX to date has been mapped to the amino-terminal proline-rich region [43].
+
+It is possible that the FKH domain has a complex tertiary structure that is particularly sensitive to misfolding caused by genetic mutations and that an intact FKH domain is absolutely critical for promoting Foxp3 function in the nucleus, whereas the structure of the amino-terminal proline-rich region may tolerate certain mutations as long as the NF-kappaB/NF-AT binding motif remains unaltered.
+# T4 Protein S7 208 213 1046 1051 Foxp3
+
+This motif may also include the zinc finger domain.
+
+A logical region that may be targeted by the amino-terminal proline-rich region of Foxp3 is the Rel homology domain found in both NF-kappaB and NF-AT family proteins.
+# T5 Protein S9 83 88 1371 1376 Foxp3
+$ T5 Protein S9 83 88 1371 1376 Foxp3
+@ T90 Binding S9 29 37 1317 1325 targeted
+@ T91 Entity S9 45 79 1333 1367 amino-terminal proline-rich region
+% E3 Binding:T90 Theme:T5 Site:T91
+
+A region that may also be important with respect to Foxp3 function is the leucine zipper domain, as demonstrated by the number of mutations associated with IPEX that have been mapped in this region of Foxp3.
+# T6 Protein S10 52 57 1507 1512 Foxp3
+# T7 Protein S10 201 206 1656 1661 Foxp3
+@ T92 Entity S10 74 95 1529 1550 leucine zipper domain
+
+The role of this domain in Foxp3 function remains uncharacterized, but may play a role in dimer formation as it does in other Foxp family members [44].
+# T8 Protein S11 27 32 1690 1695 Foxp3
+$ T8 Protein S11 27 32 1690 1695 Foxp3
+@ T93 Regulation S11 75 86 1738 1749 play a role
+@ T94 Binding S11 90 105 1753 1768 dimer formation
+@ T95 Regulation S11 112 116 1775 1779 does
+% E4 Regulation:T93 Theme:E5 Cause:T6 CSite:T92
+% E5 Binding:T94 Theme:T8
+% E6 Regulation:T95 Theme:E5 Cause:T6 CSite:T92
+
+Because the pathogenesis of a number of retroviral-induced immunologic disorders such as HIV-1/AIDS and HTLV-I/HAM/TSP have been associated with dysregulation of Foxp3 expression [8,45], we also examined the role of Foxp3 in retroviral gene expression.
+# T9 Protein S12 162 167 1978 1983 Foxp3
+# T10 Protein S12 216 221 2032 2037 Foxp3
+$ T9 Protein S12 162 167 1978 1983 Foxp3
+@ T96 Regulation S12 145 158 1961 1974 dysregulation
+@ T97 Gene_expression S12 168 178 1984 1994 expression
+% E7 Regulation:T96 Theme:E8
+% E8 Gene_expression:T97 Theme:T9
+
+HIV-1 LTR activation in CD4+ T cells is critically dependent on two tandem NF-kappaB sites located between nucleotide positions -102 and -81 within the HIV-1 enhancer region, whereas HTLV-I LTR activation in the presence or absence of the HTLV-I-encoded transactivator protein Tax is independent of NF-kappaB [18].
+# T11 Protein S13 24 27 2093 2096 CD4
+# T12 Protein S13 277 280 2346 2349 Tax
+
+To our knowledge for the first time, Foxp3 was shown to have a direct effect on HIV-1 LTR transcription.
+# T13 Protein S14 37 42 2421 2426 Foxp3
+
+Deletion of the NF-kappaB sites within the HIV-1 enhancer region reduced the responsiveness of the HIV-1 LTR to Foxp3-mediated suppression.
+# T14 Protein S15 112 117 2601 2606 Foxp3
+
+In addition, the FKH domain of Foxp3 was required for this inhibitory effect in HEK 293T cells, but not in Jurkat T cells, similar to Foxp3-mediated suppression of a synthetic NF-kappaB reporter.
+# T15 Protein S16 31 36 2660 2665 Foxp3
+# T16 Protein S16 134 139 2763 2768 Foxp3
+
+The direct effect of Foxp3 down-regulating HIV-1 gene expression correlates well with recently reported evidence indicating that higher regulatory activity of CD4+CD25+ T cells from HIV-1-infected patients was associated with lower HIV-1 viral loads in these patients [46].
+# T17 Protein S17 21 26 2846 2851 Foxp3
+# T18 Protein S17 159 162 2984 2987 CD4
+# T19 Protein S17 163 167 2988 2992 CD25
+
+Foxp3 also affected two well-known functions of HTLV-I Tax: transactivation of the NF-kappaB pathway and, most surprisingly, transactivation of the HTLV-I LTR.
+# T20 Protein S18 0 5 3100 3105 Foxp3
+# T21 Protein S18 55 58 3155 3158 Tax
+
+Transactivation of the HTLV-I LTR by Tax involves the interaction of ATF/CREB factors with Tax in the nucleus.
+# T22 Protein S19 37 40 3297 3300 Tax
+# T23 Protein S19 91 94 3351 3354 Tax
+$ T23 Protein S19 91 94 3351 3354 Tax
+@ T98 Binding S19 54 65 3314 3325 interaction
+% E9 Binding:T98 Theme:T23
+
+Binding of Tax enhances ATF/CREB dimerization and promotes assembly of Tax-ATF/CREB complexes onto specific sequences in the viral promoter known as Tax-responsive elements.
+# T24 Protein S20 11 14 3382 3385 Tax
+# T25 Protein S20 71 74 3442 3445 Tax
+$ T24 Protein S20 11 14 3382 3385 Tax
+$ T25 Protein S20 71 74 3442 3445 Tax
+@ T99 Binding S20 0 7 3371 3378 Binding
+@ T100 Positive_regulation S20 50 58 3421 3429 promotes
+@ T101 Binding S20 59 67 3430 3438 assembly
+% E10 Binding:T99 Theme:T24
+% E11 Positive_regulation:T100 Theme:E12 Cause:E10
+% E12 Binding:T101 Theme:T25
+
+This series of steps allows Tax to recruit coactivator proteins CBP/p300 to the viral promoter and facilitate a high level of viral gene expression [24-26].
+# T26 Protein S21 28 31 3573 3576 Tax
+# T27 Protein S21 64 67 3609 3612 CBP
+# T28 Protein S21 68 72 3613 3617 p300
+$ T26 Protein S21 28 31 3573 3576 Tax
+$ T27 Protein S21 64 67 3609 3612 CBP
+$ T28 Protein S21 68 72 3613 3617 p300
+@ T102 Binding S21 35 42 3580 3587 recruit
+% E13 Binding:T102 Theme:T26 Theme2:T27
+% E14 Binding:T102 Theme:T26 Theme2:T28
+
+Transactivation of the NF-kappaB pathway by Tax was inhibited by overexpression of full-length Foxp3, but not DeltaFKH, as seen with basal activation of the HIV-1 LTR and a synthetic NF-kappaB reporter in HEK 293T cells.
+# T29 Protein S22 44 47 3746 3749 Tax
+# T30 Protein S22 95 100 3797 3802 Foxp3
+# T31 Protein S22 110 118 3812 3820 DeltaFKH
+$ T30 Protein S22 95 100 3797 3802 Foxp3
+$ T31 Protein S22 110 118 3812 3820 DeltaFKH
+@ T103 Positive_regulation S22 65 79 3767 3781 overexpression
+% E15 Positive_regulation:T103 Theme:T30
+% E16 Positive_regulation:T103 Theme:T31
+
+However, Tax-mediated transactivation of the HTLV-I LTR was inhibited by overexpression of both full-length Foxp3 as well as DeltaFKH in both HEK 293T cells and CD4+ T cells.
+# T32 Protein S23 9 12 3932 3935 Tax
+# T33 Protein S23 108 113 4031 4036 Foxp3
+# T34 Protein S23 125 133 4048 4056 DeltaFKH
+# T35 Protein S23 161 164 4084 4087 CD4
+$ T33 Protein S23 108 113 4031 4036 Foxp3
+$ T34 Protein S23 125 133 4048 4056 DeltaFKH
+@ T104 Gene_expression S23 73 87 3996 4010 overexpression
+% E17 Gene_expression:T104 Theme:T33
+% E18 Gene_expression:T104 Theme:T34
+
+We demonstrated that Foxp3 did not directly affect the functioning of Tax, but rather Foxp3 targeted the transcription factors required for Tax transactivation (i.e., NF-kappaB and a then-unknown cellular factor, which we identified in this study as CREB).
+# T36 Protein S24 21 26 4119 4124 Foxp3
+# T37 Protein S24 70 73 4168 4171 Tax
+# T38 Protein S24 86 91 4184 4189 Foxp3
+# T39 Protein S24 140 143 4238 4241 Tax
+
+The negative effect of Foxp3 on HTLV-I gene expression was confirmed utilizing an HTLV-I infectious molecular clone.
+# T40 Protein S25 23 28 4378 4383 Foxp3
+
+Importantly, we demonstrated that HTLV-I-infected individuals with the highest levels of Foxp3 protein expression within the CD4+CD25+ T cells population exhibited lower proviral loads than did individuals with the lowest levels of Foxp3 protein expression.
+# T41 Protein S26 89 94 4562 4567 Foxp3
+# T42 Protein S26 125 128 4598 4601 CD4
+# T43 Protein S26 129 133 4602 4606 CD25
+# T44 Protein S26 232 237 4705 4710 Foxp3
+$ T41 Protein S26 89 94 4562 4567 Foxp3
+$ T44 Protein S26 232 237 4705 4710 Foxp3
+@ T105 Positive_regulation S26 71 78 4544 4551 highest
+@ T106 Gene_expression S26 103 113 4576 4586 expression
+@ T107 Negative_regulation S26 215 221 4688 4694 lowest
+@ T108 Gene_expression S26 246 256 4719 4729 expression
+% E19 Positive_regulation:T105 Theme:E20
+% E20 Gene_expression:T106 Theme:T41
+% E21 Negative_regulation:T107 Theme:E22
+% E22 Gene_expression:T108 Theme:T44
+
+Previous studies have demonstrated that the HTLV-I proviral load directly correlates with HTLV-I Tax mRNA load, the frequency of immunopathogenic virus-specific CD8+ T cells, and disease severity in patients with HAM/TSP [47].
+# T45 Protein S27 97 100 4828 4831 Tax
+# T46 Protein S27 161 164 4892 4895 CD8
+
+These results have important implications on the utility of Foxp3 in controlling viral gene expression and thus pathogenesis of HAM/TSP.
+# T47 Protein S28 60 65 5018 5023 Foxp3
+
+Therefore, Foxp3 becomes an attractive target for the development of novel therapeutic applications directed at modulating the expression of this important regulatory protein, especially in light of recent observations that the expression of Foxp3 can also be down-regulated by HTLV-I Tax [8].
+# T48 Protein S29 11 16 5106 5111 Foxp3
+# T49 Protein S29 242 247 5337 5342 Foxp3
+# T50 Protein S29 285 288 5380 5383 Tax
+$ T48 Protein S29 11 16 5106 5111 Foxp3
+$ T49 Protein S29 242 247 5337 5342 Foxp3
+$ T50 Protein S29 285 288 5380 5383 Tax
+@ T109 Regulation S29 112 122 5207 5217 modulating
+@ T110 Gene_expression S29 127 137 5222 5232 expression
+@ T111 Gene_expression S29 228 238 5323 5333 expression
+@ T112 Negative_regulation S29 260 274 5355 5369 down-regulated
+% E23 Regulation:T109 Theme:E24
+% E24 Gene_expression:T110 Theme:T48
+% E25 Gene_expression:T111 Theme:T49
+% E26 Negative_regulation:T112 Theme:E25 Cause:T50
+
+As the activation of the HTLV-I LTR depends primarily on ATF/CREB proteins (whether in the presence or the absence of Tax), we investigated whether Foxp3 could interact with this additional cellular signaling pathway.
+# T51 Protein S30 118 121 5508 5511 Tax
+# T52 Protein S30 148 153 5538 5543 Foxp3
+
+While the DNA-binding activity of CREB is, in most cases, constitutive, the transactivation potential of CREB is regulated by the phosphorylation of CREB and recruitment of CBP/p300 [48].
+# T53 Protein S31 173 176 5781 5784 CBP
+# T54 Protein S31 177 181 5785 5789 p300
+$ T53 Protein S31 173 176 5781 5784 CBP
+$ T54 Protein S31 177 181 5785 5789 p300
+@ T113 Binding S31 158 169 5766 5777 recruitment
+% E27 Binding:T113 Theme:T53
+% E28 Binding:T113 Theme:T54
+
+Our data demonstrate that Foxp3 interferes with the latter of these two processes and that the recruitment of the coactivator protein p300, and resulting transcriptional activation are blocked by Foxp3.
+# T55 Protein S32 26 31 5822 5827 Foxp3
+# T56 Protein S32 134 138 5930 5934 p300
+# T57 Protein S32 196 201 5992 5997 Foxp3
+$ T55 Protein S32 26 31 5822 5827 Foxp3
+$ T56 Protein S32 134 138 5930 5934 p300
+$ T57 Protein S32 196 201 5992 5997 Foxp3
+@ T114 Negative_regulation S32 32 42 5828 5838 interferes
+@ T115 Binding S32 95 106 5891 5902 recruitment
+@ T116 Negative_regulation S32 185 192 5981 5988 blocked
+% E29 Negative_regulation:T114 Theme:E27 Cause:T55
+% E30 Negative_regulation:T114 Theme:E28 Cause:T55
+% E31 Binding:T115 Theme:T56
+% E32 Negative_regulation:T116 Theme:E31 Cause:T57
+
+This may be the result of the physical interaction we detected between Foxp3 and p300.
+# T58 Protein S33 71 76 6070 6075 Foxp3
+# T59 Protein S33 81 85 6080 6084 p300
+$ T58 Protein S33 71 76 6070 6075 Foxp3
+$ T59 Protein S33 81 85 6080 6084 p300
+@ T117 Positive_regulation S33 16 22 6015 6021 result
+@ T118 Binding S33 39 50 6038 6049 interaction
+% E33 Positive_regulation:T117 Theme:E29 Cause:E34
+% E35 Positive_regulation:T117 Theme:E30 Cause:E34
+% E36 Positive_regulation:T117 Theme:E32 Cause:E34
+% E34 Binding:T118 Theme:T58 Theme2:T59
+
+With respect to HTLV-I LTR activity, while full-length Foxp3 inhibited both basal and Tax-dependent transcription by ~50%, DeltaFKH appeared less effective in suppressing basal activation (~25% inhibition) compared to Tax-dependent activation (~50% inhibition).
+# T60 Protein S34 55 60 6141 6146 Foxp3
+# T61 Protein S34 86 89 6172 6175 Tax
+# T62 Protein S34 123 131 6209 6217 DeltaFKH
+# T63 Protein S34 218 221 6304 6307 Tax
+
+The effect of DeltaFKH on basal activation of the HTLV-I LTR in HEK 293T cells was very similar to that shown for a synthetic CREB reporter, suggesting that the FKH domain of Foxp3 is important at some level.
+# T64 Protein S35 14 22 6362 6370 DeltaFKH
+# T65 Protein S35 175 180 6523 6528 Foxp3
+
+As observed with NF-kappaB activation, the Foxp3 mutant lacking the FKH domain was a stronger inhibitor of CREB activation in CD4+ T cells than in HEK 293T epithelial cells.
+# T66 Protein S36 43 48 6600 6605 Foxp3
+# T67 Protein S36 126 129 6683 6686 CD4
+$ T66 Protein S36 43 48 6600 6605 Foxp3
+@ T119 Negative_regulation S36 56 63 6613 6620 lacking
+@ T120 Entity S36 68 78 6625 6635 FKH domain
+% E37 Negative_regulation:T119 Theme:T66 Site:T120
+
+Therefore, it appears that in CD4+ T cells, the FKH domain is dispensable for the proper functioning of Foxp3 with respect to both NF-kappaB and CREB activation.
+# T68 Protein S37 30 33 6761 6764 CD4
+# T69 Protein S37 104 109 6835 6840 Foxp3
+
+In summary, this is, to our knowledge, the first direct evidence implicating a role for the Treg-specific transcription factor Foxp3 in regulating retroviral gene expression.
+# T70 Protein S38 127 132 7021 7026 Foxp3
+
+In addition, we identify the CREB pathway as a molecular target of Foxp3.
+# T71 Protein S39 67 72 7136 7141 Foxp3
+
+Since CREB has been shown to regulate multiple genes involved in transcription (e.g., JunD, c-Fos, signal transducer of activated T cells 3 [STAT3]), cell cycle (e.g., p15INK4b, cyclin A, cyclin D1), and immune regulation (e.g., IL-2, IL-6, T-cell receptor alpha) (reviewed in [48]), the findings presented in this report broaden the potential range of signaling pathways under the control of the regulatory protein Foxp3.
+# T72 Protein S40 86 90 7229 7233 JunD
+# T73 Protein S40 92 97 7235 7240 c-Fos
+# T74 Protein S40 99 139 7242 7282 signal transducer of activated T cells 3
+# T75 Protein S40 141 146 7284 7289 STAT3
+# T76 Protein S40 168 176 7311 7319 p15INK4b
+# T77 Protein S40 178 186 7321 7329 cyclin A
+# T78 Protein S40 188 197 7331 7340 cyclin D1
+# T79 Protein S40 229 233 7372 7376 IL-2
+# T80 Protein S40 235 239 7378 7382 IL-6
+# T81 Protein S40 416 421 7559 7564 Foxp3
+$ T72 Protein S40 86 90 7229 7233 JunD
+$ T73 Protein S40 92 97 7235 7240 c-Fos
+$ T74 Protein S40 99 139 7242 7282 signal transducer of activated T cells 3
+$ T76 Protein S40 168 176 7311 7319 p15INK4b
+$ T77 Protein S40 178 186 7321 7329 cyclin A
+$ T78 Protein S40 188 197 7331 7340 cyclin D1
+$ T79 Protein S40 229 233 7372 7376 IL-2
+$ T80 Protein S40 235 239 7378 7382 IL-6
+@ T121 Regulation S40 29 37 7172 7180 regulate
+% E38 Regulation:T121 Theme:T72
+% E39 Regulation:T121 Theme:T73
+% E40 Regulation:T121 Theme:T74
+% E41 Regulation:T121 Theme:T76
+% E42 Regulation:T121 Theme:T77
+% E43 Regulation:T121 Theme:T78
+% E44 Regulation:T121 Theme:T79
+% E45 Regulation:T121 Theme:T80
+
+Our evidence stresses the importance of Foxp3 expression and Treg function in the development and maintenance of protective immunity against HIV-1 and HTLV-I.
+# T82 Protein S41 40 45 7606 7611 Foxp3
+$ T82 Protein S41 40 45 7606 7611 Foxp3
+@ T122 Gene_expression S41 46 56 7612 7622 expression
+% E46 Gene_expression:T122 Theme:T82
+
+Based on recent findings, Foxp3 may limit HIV-1 and HTLV-I transcription by interfering with activation of NF-kappaB and CREB pathways.
+# T83 Protein S42 26 31 7751 7756 Foxp3
+
+However, observing that this inhibitory effect is not absolute, a low level of viral gene expression may persist in CD4+ T cells (in particular regulatory T cells, which are known reservoirs of HIV-1 and HTLV-I) and result in the accumulation of viral proteins that either stimulate NF-kappaB and/or CREB activation or directly inhibit Foxp3 expression or function.
+# T84 Protein S43 116 119 7977 7980 CD4
+# T85 Protein S43 336 341 8197 8202 Foxp3
+$ T85 Protein S43 336 341 8197 8202 Foxp3
+@ T123 Negative_regulation S43 328 335 8189 8196 inhibit
+@ T124 Gene_expression S43 342 352 8203 8213 expression
+% E47 Negative_regulation:T123 Theme:E48
+% E48 Gene_expression:T124 Theme:T85
+
+The imbalance of NF-kappaB and CREB activation caused by these viral gene products may be a crucial step in the pathogenesis of virus-induced immunological disorders such as AIDS and HAM/TSP.
+
+Future studies will be directed at identifying and characterizing cellular proteins that interact with Foxp3 both in the nucleus and cytoplasm, in order to better address how Foxp3 functions to guide the development and function of regulatory T cells in health and disease.
+# T86 Protein S45 103 108 8522 8527 Foxp3
+# T87 Protein S45 175 180 8594 8599 Foxp3
+$ T86 Protein S45 103 108 8522 8527 Foxp3
+@ T125 Binding S45 89 97 8508 8516 interact
+% E49 Binding:T125 Theme:T86
+

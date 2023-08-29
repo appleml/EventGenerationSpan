@@ -1,0 +1,45 @@
+Isolation of PBMCs, CD4+ T cells, and culture conditions.
+# T1 Protein S1 20 23 20 23 CD4
+
+Human PBMCs were isolated by Ficoll (Biochrom) density gradient centrifugation and CD4+ T cells were then isolated using the Dynal CD4+ Isolation kit (Invitrogen) according to the manufacturer's instructions.
+# T2 Protein S2 83 86 141 144 CD4
+# T3 Protein S2 131 134 189 192 CD4
+# T4 Protein S2 146 149 204 207 kit
+
+The purity of CD4+ T cells was initially tested by flow cytometry and was >=95%.
+# T5 Protein S3 14 17 281 284 CD4
+
+Cells were stimulated with the following combination of mAbs to T cell surface molecules (Meiler et al., 2008): anti-CD2 (clone 4B2 and 6G4; 0.5 microg/ml), anti-CD3 (clone OKT3; 0.5 microg/ml), and anti-CD28 mAb (clone B7G5; 0.5 microg/ml; all from Sanquin) and cultured in serum-free AIM-V medium (Life Technologies) with the addition of 1 nmol/liter IL-2 (Roche).
+# T6 Protein S4 117 120 465 468 CD2
+# T7 Protein S4 162 165 510 513 CD3
+# T8 Protein S4 204 208 552 556 CD28
+# T9 Protein S4 353 357 701 705 IL-2
+
+TGF-beta (R&D Systems) was used at 5 ng/ml, if not stated otherwise.
+# T10 Protein S5 0 8 715 723 TGF-beta
+
+A combination of PMA (25 ng/ml) and ionomycin (1 mg/ml; Sigma-Aldrich) was used.
+
+Human CD4+ CD127- CD25high and CD4+ CD127+ CD25neg cells were purified by flow cytometry using anti-CD127, anti-CD25-PC5 (Beckman Coulter), and anti-CD4-FITC antibodies (Dako).
+# T11 Protein S7 6 9 871 874 CD4
+# T12 Protein S7 11 16 876 881 CD127
+# T13 Protein S7 18 22 883 887 CD25
+# T14 Protein S7 31 34 896 899 CD4
+# T15 Protein S7 36 41 901 906 CD127
+# T16 Protein S7 43 47 908 912 CD25
+# T17 Protein S7 100 105 965 970 CD127
+# T18 Protein S7 112 116 977 981 CD25
+# T19 Protein S7 149 152 1014 1017 CD4
+
+Mouse naive (CD62Lhi44lo25-) CD4+ T cells were purified by flow cytometry and activated in vitro with 5 microg/ml plate-bound anti-CD3 and 1 microg/ml soluble anti-CD28 antibodies (eBioscience) in RPMI supplemented with 10% FCS, 5 mM beta-mercaptoethanol, and antibiotics.
+# T20 Protein S8 13 18 1055 1060 CD62L
+# T21 Protein S8 20 22 1062 1064 44
+# T22 Protein S8 24 26 1066 1068 25
+# T23 Protein S8 29 32 1071 1074 CD4
+# T24 Protein S8 131 134 1173 1176 CD3
+# T25 Protein S8 164 168 1206 1210 CD28
+
+Neutralizing anti-IFN-gamma and anti-IL-4 mAbs (BD) were used at 1 microg/ml concentrations when indicated.
+# T26 Protein S9 18 27 1333 1342 IFN-gamma
+# T27 Protein S9 37 41 1352 1356 IL-4
+

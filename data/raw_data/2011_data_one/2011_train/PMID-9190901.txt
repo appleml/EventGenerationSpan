@@ -1,0 +1,67 @@
+ETS1, NFkappaB and AP1 synergistically transactivate the human GM-CSF promoter.
+# T1 Protein S1 0 4 0 4 ETS1
+# T2 Protein S1 63 69 63 69 GM-CSF
+$ T2 Protein S1 63 69 63 69 GM-CSF
+$ T1 Protein S1 0 4 0 4 ETS1
+@ T14 Positive_regulation S1 23 52 23 52 synergistically transactivate
+@ T15 Entity S1 70 78 70 78 promoter
+% E1 Positive_regulation:T14 Theme:T2 Cause:T1 Site:T15
+
+Activation of helper T cells results in coordinate expression of a number of cytokines involved in differentiation, proliferation and activation of the haematopoietic system.
+
+Granulocyte-macrophage colony stimulating factor (GM-CSF) is one such cytokine, whose increased expression results mostly from increases in transcription.
+# T3 Protein S3 0 48 256 304 Granulocyte-macrophage colony stimulating factor
+# T4 Protein S3 50 56 306 312 GM-CSF
+$ T4 Protein S3 50 56 306 312 GM-CSF
+@ T16 Positive_regulation S3 86 95 342 351 increased
+@ T17 Gene_expression S3 96 106 352 362 expression
+@ T18 Positive_regulation S3 127 136 383 392 increases
+@ T19 Transcription S3 140 153 396 409 transcription
+% E2 Positive_regulation:T16 Theme:E3 Cause:E4
+% E3 Gene_expression:T17 Theme:T4
+% E4 Positive_regulation:T18 Theme:E5
+% E5 Transcription:T19 Theme:T4
+
+Cis-acting elements with NFkappaB, AP1 and ETS-like binding motifs have been identified in the promoter region of the GM-CSF gene, and are important or essential for transcriptional activity following T cell activation.
+# T5 Protein S4 118 124 529 535 GM-CSF
+$ T5 Protein S4 118 124 529 535 GM-CSF
+@ T20 Entity S4 0 19 411 430 Cis-acting elements
+@ T21 Positive_regulation S4 139 161 550 572 important or essential
+@ T22 Transcription S4 166 190 577 601 transcriptional activity
+@ T23 Positive_regulation S4 191 200 602 611 following
+% E6 Positive_regulation:T21 Theme:E8 Cause:T5 CSite:T20
+% E7 Transcription:T22 Theme:T5
+% E8 Positive_regulation:T23 Theme:E7
+
+ETS1 is a transcription factor of the ETS family that is expressed in T cells.
+# T6 Protein S5 0 4 631 635 ETS1
+$ T6 Protein S5 0 4 631 635 ETS1
+@ T24 Gene_expression S5 57 66 688 697 expressed
+% E9 Gene_expression:T24 Theme:T6
+
+We have previously shown that ETS1 can transactivate GM-CSF in Jurkat T cells, but only after the cells have been stimulated by treatment with PMA and ionomycin, agents that mimic T cell activation.
+# T7 Protein S6 30 34 740 744 ETS1
+# T8 Protein S6 53 59 763 769 GM-CSF
+$ T8 Protein S6 53 59 763 769 GM-CSF
+$ T7 Protein S6 30 34 740 744 ETS1
+@ T25 Positive_regulation S6 39 52 749 762 transactivate
+% E10 Positive_regulation:T25 Theme:T8 Cause:T7
+
+Thus we proposed that ETS1, which is expressed constitutively in Jurkat cells, may act in concert with PMA/ionomycin inducible factors.
+# T9 Protein S7 22 26 931 935 ETS1
+$ T9 Protein S7 22 26 931 935 ETS1
+@ T26 Gene_expression S7 37 46 946 955 expressed
+% E11 Gene_expression:T26 Theme:T9
+
+Here we show that ETS1 can transactivate a GM-CSF reporter construct in unstimulated Jurkat cells, providing that either NFkappaB or AP1 transcription factors are supplied by co-transfection.
+# T10 Protein S8 18 22 1063 1067 ETS1
+# T11 Protein S8 43 49 1088 1094 GM-CSF
+
+We confirm that binding of endogenous NFkappaB and AP1 is induced following PMA/ionomycin treatment of T cells.
+
+Transactivation by ETS1, NFkappaB and AP1 is synergistic, and mutation of the individual binding sites reveals that the transcriptional activities of these factors are interdependent.
+# T12 Protein S10 19 23 1368 1372 ETS1
+
+Our results suggest that constitutive ETS1, and inducible NFkappaB and AP1, cooperate as part of a higher order transcriptional complex in activated T cells.
+# T13 Protein S11 38 42 1571 1575 ETS1
+

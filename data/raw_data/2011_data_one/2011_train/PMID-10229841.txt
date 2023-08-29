@@ -1,0 +1,30 @@
+Signaling through the lymphotoxin-beta receptor stimulates HIV-1 replication alone and in cooperation with soluble or membrane-bound TNF-alpha.
+# T1 Protein S1 22 47 22 47 lymphotoxin-beta receptor
+# T2 Protein S1 133 142 133 142 TNF-alpha
+
+The level of ongoing HIV-1 replication within an individual is critical to HIV-1 pathogenesis.
+
+Among host immune factors, the cytokine TNF-alpha has previously been shown to increase HIV-1 replication in various monocyte and T cell model systems.
+# T3 Protein S3 40 49 280 289 TNF-alpha
+
+Here, we demonstrate that signaling through the TNF receptor family member, the lymphotoxin-beta (LT-beta) receptor (LT-betaR), also regulates HIV-1 replication.
+# T4 Protein S4 80 115 472 507 lymphotoxin-beta (LT-beta) receptor
+# T5 Protein S4 117 125 509 517 LT-betaR
+
+Furthermore, HIV-1 replication is cooperatively stimulated when the distinct LT-betaR and TNF receptor systems are simultaneously engaged by their specific ligands.
+# T6 Protein S5 77 85 631 639 LT-betaR
+$ T6 Protein S5 77 85 631 639 LT-betaR
+@ T10 Binding S5 115 137 669 691 simultaneously engaged
+% E1 Binding:T10 Theme:T6
+
+Moreover, in a physiological coculture cellular assay system, we show that membrane-bound TNF-alpha and LT-alpha1beta2 act virtually identically to their soluble forms in the regulation of HIV-1 replication.
+# T7 Protein S6 90 99 809 818 TNF-alpha
+
+Thus, cosignaling via the LT-beta and TNF-alpha receptors is probably involved in the modulation of HIV-1 replication and the subsequent determination of HIV-1 viral burden in monocytes.
+# T8 Protein S7 26 33 953 960 LT-beta
+# T9 Protein S7 38 57 965 984 TNF-alpha receptors
+
+Intriguingly, surface expression of LT-alpha1beta2 is up-regulated on a T cell line acutely infected with HIV-1, suggesting a positive feedback loop between HIV-1 infection, LT-alpha1beta2 expression, and HIV-1 replication.
+
+Given the critical role that LT-alpha1beta2 plays in lymphoid architecture, we speculate that LT-alpha1beta2 may be involved in HIV-associated abnormalities of the lymphoid organs.
+

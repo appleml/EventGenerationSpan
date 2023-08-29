@@ -1,0 +1,54 @@
+Expression of mRNA for the GATA-binding proteins in human eosinophils and basophils: potential role in gene transcription.
+
+The expression of the hematopoietic transcription factors GATA-1, GATA-2, and GATA-3 was studied in eosinophils and basophils.
+# T1 Protein S2 58 64 182 188 GATA-1
+# T2 Protein S2 66 72 190 196 GATA-2
+# T3 Protein S2 78 84 202 208 GATA-3
+$ T2 Protein S2 66 72 190 196 GATA-2
+$ T3 Protein S2 78 84 202 208 GATA-3
+$ T1 Protein S2 58 64 182 188 GATA-1
+@ T12 Gene_expression S2 4 14 128 138 expression
+% E1 Gene_expression:T12 Theme:T2
+% E2 Gene_expression:T12 Theme:T3
+% E3 Gene_expression:T12 Theme:T1
+
+Eosinophils express mRNA for GATA-1, GATA-2, and GATA-3.
+# T4 Protein S3 29 35 280 286 GATA-1
+# T5 Protein S3 37 43 288 294 GATA-2
+# T6 Protein S3 49 55 300 306 GATA-3
+$ T6 Protein S3 49 55 300 306 GATA-3
+$ T5 Protein S3 37 43 288 294 GATA-2
+$ T4 Protein S3 29 35 280 286 GATA-1
+@ T13 Transcription S3 12 24 263 275 express mRNA
+% E4 Transcription:T13 Theme:T6
+% E5 Transcription:T13 Theme:T5
+% E6 Transcription:T13 Theme:T4
+
+Basophils express GATA-2 and GATA-3.
+# T7 Protein S4 18 24 326 332 GATA-2
+# T8 Protein S4 29 35 337 343 GATA-3
+$ T7 Protein S4 18 24 326 332 GATA-2
+$ T8 Protein S4 29 35 337 343 GATA-3
+@ T14 Gene_expression S4 10 17 318 325 express
+% E7 Gene_expression:T14 Theme:T7
+% E8 Gene_expression:T14 Theme:T8
+
+Treatment of HL-60 eosinophilic sublines with either interleukin-5 or butyric acid increased the expression of GATA-1 mRNA concomitant with the expression of eosinophil-specific genes, whereas levels of GATA-2 mRNA remained relatively constant.
+# T9 Protein S5 53 66 398 411 interleukin-5
+# T10 Protein S5 111 117 456 462 GATA-1
+# T11 Protein S5 203 209 548 554 GATA-2
+$ T10 Protein S5 111 117 456 462 GATA-1
+$ T11 Protein S5 203 209 548 554 GATA-2
+@ T15 Positive_regulation S5 83 92 428 437 increased
+@ T16 Transcription S5 97 107 442 452 expression
+@ T17 Positive_regulation S5 235 243 580 588 constant
+% E9 Positive_regulation:T15 Theme:E10
+% E10 Transcription:T16 Theme:T10
+% E11 Positive_regulation:T17 Theme:T11
+
+The presence of mRNA for these proteins in eosinophils and basophils suggests that gene transcription in these lineages may be regulated by GATA-binding proteins.
+@ T18 Localization S6 4 12 594 602 presence
+% E12 Localization:T18 Theme:T6
+% E13 Localization:T18 Theme:T4
+% E14 Localization:T18 Theme:T5
+

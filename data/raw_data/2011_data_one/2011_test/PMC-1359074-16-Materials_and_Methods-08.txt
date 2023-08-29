@@ -1,0 +1,15 @@
+Antibodies.
+
+Sox6 antibodies used in this study were either kindly provided by Dr. Enzo Lalli (Universite Louis Pasteur, France [7]) or commercially obtained (Catalog No.
+# T1 Protein S2 0 4 12 16 Sox6
+
+sc-17332 X, Santa Cruz Biotechnology, Santa Cruz, California, United States).
+
+All Sox6 antibodies generated similar results.
+# T2 Protein S4 4 8 252 256 Sox6
+
+c-Myc antibody was purchased from Invitrogen.
+# T3 Protein S5 0 5 295 300 c-Myc
+
+Normal rabbit IgG antibody was obtained from Upstate Biotechnology (Lake Placid, New York, United States).
+

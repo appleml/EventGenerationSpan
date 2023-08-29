@@ -1,0 +1,50 @@
+c-Maf induces monocytic differentiation and apoptosis in bipotent myeloid progenitors.
+# T1 Protein S1 0 5 0 5 c-Maf
+
+The transcriptional mechanisms that drive colony-forming unit granulocyte-macrophage (CFU-GM) myeloid progenitors to differentiate into cells of either the granulocytic or monocytic lineage are not fully understood.
+
+We have shown that the c-Maf and c-Myb transcription factors physically interact in myeloid cells to form inhibitory complexes that hinder transactivation of c-Myb target genes through direct binding to Myb consensus sites.
+# T2 Protein S3 23 28 327 332 c-Maf
+# T3 Protein S3 33 38 337 342 c-Myb
+# T4 Protein S3 158 163 462 467 c-Myb
+$ T2 Protein S3 23 28 327 332 c-Maf
+$ T3 Protein S3 33 38 337 342 c-Myb
+@ T13 Binding S3 61 80 365 384 physically interact
+% E1 Binding:T13 Theme:T2 Theme2:T3
+
+These complexes arise in a developmentally regulated pattern, peaking at the promyelocyte stage, or in cell model systems, appearing soon after the induction of monocytic differentiation.
+
+We wished to determine if this developmentally related interaction is a consequence of myeloid differentiation or an intrinsic differentiating stimulus.
+
+Because the elevated Myb:Maf status seen in differentiating cells can be recapitulated by overexpression of c-Maf in myeloid cell lines, we inducibly expressed the c-Maf cDNA in 2 bipotent human myeloid progenitor cells.
+# T5 Protein S6 108 113 977 982 c-Maf
+# T6 Protein S6 164 169 1033 1038 c-Maf
+$ T5 Protein S6 108 113 977 982 c-Maf
+@ T14 Positive_regulation S6 90 104 959 973 overexpression
+@ T15 Gene_expression S6 90 104 959 973 overexpression
+% E2 Positive_regulation:T14 Theme:E3
+% E3 Gene_expression:T15 Theme:T5
+
+Elevated levels of c-Maf protein led to marked increases in Myb:Maf complexes and the accumulation of monocyte/macrophage cells, followed by eventual programmed cell death.
+# T7 Protein S7 19 24 1109 1114 c-Maf
+$ T7 Protein S7 19 24 1109 1114 c-Maf
+@ T16 Positive_regulation S7 0 15 1090 1105 Elevated levels
+% E4 Positive_regulation:T16 Theme:T7
+
+Analysis of targets that could mediate these phenotypic changes indicated that c-Maf likely plays a key role in myeloid cell development through dual mechanisms; inhibition of a select set of c-Myb regulated targets, such as Bcl-2 and CD13/APN, coupled with the activation of as yet undefined differentiation-promoting genes.
+# T8 Protein S8 79 84 1342 1347 c-Maf
+# T9 Protein S8 192 197 1455 1460 c-Myb
+# T10 Protein S8 225 230 1488 1493 Bcl-2
+# T11 Protein S8 235 239 1498 1502 CD13
+# T12 Protein S8 240 243 1503 1506 APN
+$ T11 Protein S8 235 239 1498 1502 CD13
+$ T8 Protein S8 79 84 1342 1347 c-Maf
+$ T10 Protein S8 225 230 1488 1493 Bcl-2
+$ T9 Protein S8 192 197 1455 1460 c-Myb
+@ T17 Negative_regulation S8 162 172 1425 1435 inhibition
+@ T18 Regulation S8 198 207 1461 1470 regulated
+% E5 Negative_regulation:T17 Theme:T11 Cause:T8
+% E6 Negative_regulation:T17 Theme:T10 Cause:T8
+% E7 Regulation:T18 Theme:T11 Cause:T9
+% E8 Regulation:T18 Theme:T10 Cause:T9
+

@@ -1,0 +1,353 @@
+Here we have demonstrated, to our knowledge for the first time, that corticosteroids may inhibit GATA-3 function and therefore the transcription of Th2 genes via two distinct but interacting molecular mechanisms.
+# T1 Protein S1 97 103 97 103 GATA-3
+
+Firstly, corticosteroid-activated GR appears to compete with activated GATA-3 for nuclear import via importin-alpha, which is required for the nuclear transport of both GATA-3 and GR.
+# T2 Protein S2 34 36 247 249 GR
+# T3 Protein S2 71 77 284 290 GATA-3
+# T4 Protein S2 169 175 382 388 GATA-3
+# T5 Protein S2 180 182 393 395 GR
+$ T2 Protein S2 34 36 247 249 GR
+$ T3 Protein S2 71 77 284 290 GATA-3
+$ T4 Protein S2 169 175 382 388 GATA-3
+$ T5 Protein S2 180 182 393 395 GR
+@ T51 Positive_regulation S2 24 33 237 246 activated
+@ T52 Negative_regulation S2 48 55 261 268 compete
+@ T53 Positive_regulation S2 61 70 274 283 activated
+@ T54 Entity S2 82 89 295 302 nuclear
+@ T55 Localization S2 90 96 303 309 import
+@ T56 Regulation S2 97 100 310 313 via
+@ T57 Regulation S2 126 134 339 347 required
+@ T58 Entity S2 143 150 356 363 nuclear
+@ T59 Localization S2 151 160 364 373 transport
+% E1 Positive_regulation:T51 Theme:T2
+% E2 Negative_regulation:T52 Theme:T3 Cause:T2
+% E3 Positive_regulation:T53 Theme:T3
+% E4 Localization:T55 Theme:T3 ToLoc:T54
+% E5 Regulation:T56 Theme:E4
+% E6 Regulation:T57 Theme:E7
+% E8 Regulation:T57 Theme:E9
+% E7 Localization:T59 Theme:T4 ToLoc:T58
+% E9 Localization:T59 Theme:T5 ToLoc:T58
+
+Secondly, corticosteroids at higher concentrations increase the expression of MKP-1, a potent inhibitor of p38 MAPK activity and thereby prevent T cell receptor/co-receptor activation of p38 MAPK to prevent the phosphorylation of GATA-3 that is necessary for interaction with importin-alpha and subsequent nuclear import.
+# T6 Protein S3 78 83 475 480 MKP-1
+# T7 Protein S3 230 236 627 633 GATA-3
+$ T6 Protein S3 78 83 475 480 MKP-1
+$ T7 Protein S3 230 236 627 633 GATA-3
+@ T60 Positive_regulation S3 51 59 448 456 increase
+@ T61 Gene_expression S3 64 74 461 471 expression
+@ T62 Negative_regulation S3 199 206 596 603 prevent
+@ T63 Phosphorylation S3 211 226 608 623 phosphorylation
+@ T49 Anaphora S3 237 241 634 638 that
+@ T64 Positive_regulation S3 245 254 642 651 necessary
+@ T65 Binding S3 259 270 656 667 interaction
+@ T66 Positive_regulation S3 295 305 692 702 subsequent
+@ T67 Entity S3 306 313 703 710 nuclear
+@ T68 Localization S3 314 320 711 717 import
+% E10 Positive_regulation:T60 Theme:E11
+% E11 Gene_expression:T61 Theme:T6
+% E12 Negative_regulation:T62 Theme:E13
+% E13 Phosphorylation:T63 Theme:T7
+% E14 Positive_regulation:T64 Theme:E15 Cause:E13
+% E16 Positive_regulation:T64 Theme:E17 Cause:E13
+% E15 Binding:T65 Theme:T7
+% E18 Positive_regulation:T66 Theme:E17 Cause:E15
+% E17 Localization:T68 Theme:T7 ToLoc:T67
+
+We have previously shown that translocation of GATA-3 from the cytoplasm to the nucleus involves the nuclear transporter protein importin-alpha, which interacts with phosphorylated GATA-3 [12].
+# T8 Protein S4 47 53 766 772 GATA-3
+# T9 Protein S4 181 187 900 906 GATA-3
+$ T8 Protein S4 47 53 766 772 GATA-3
+$ T9 Protein S4 181 187 900 906 GATA-3
+@ T69 Localization S4 30 43 749 762 translocation
+@ T70 Entity S4 80 87 799 806 nucleus
+@ T71 Regulation S4 88 96 807 815 involves
+@ T72 Binding S4 151 160 870 879 interacts
+@ T73 Phosphorylation S4 166 180 885 899 phosphorylated
+% E19 Localization:T69 Theme:T8 ToLoc:T70
+% E20 Regulation:T71 Theme:E19
+% E21 Binding:T72 Theme:T9
+% E22 Phosphorylation:T73 Theme:T9
+
+We have also previously reported that GATA-3 knockdown using siRNA results in suppression of anti-CD3/CD28-stimulated IL-4/IL-5 mRNA induction, thus implicating an essential role for GATA-3 in the transcription of these genes [12].
+# T10 Protein S5 38 44 951 957 GATA-3
+# T11 Protein S5 118 122 1031 1035 IL-4
+# T12 Protein S5 123 127 1036 1040 IL-5
+# T13 Protein S5 183 189 1096 1102 GATA-3
+$ T10 Protein S5 38 44 951 957 GATA-3
+$ T11 Protein S5 118 122 1031 1035 IL-4
+$ T12 Protein S5 123 127 1036 1040 IL-5
+$ T13 Protein S5 183 189 1096 1102 GATA-3
+@ T74 Gene_expression S5 45 54 958 967 knockdown
+@ T75 Negative_regulation S5 78 89 991 1002 suppression
+@ T76 Positive_regulation S5 107 117 1020 1030 stimulated
+@ T77 Transcription S5 133 142 1046 1055 induction
+@ T78 Regulation S5 174 178 1087 1091 role
+@ T79 Transcription S5 197 210 1110 1123 transcription
+@ T50 Anaphora S5 214 225 1127 1138 these genes
+% E23 Gene_expression:T74 Theme:T10
+% E24 Negative_regulation:T75 Theme:E25 Cause:E23
+% E26 Negative_regulation:T75 Theme:E27 Cause:E23
+% E25 Positive_regulation:T76 Theme:E28
+% E27 Positive_regulation:T76 Theme:E29
+% E28 Transcription:T77 Theme:T11
+% E29 Transcription:T77 Theme:T12
+% E30 Regulation:T78 Theme:E31 Cause:T13
+% E32 Regulation:T78 Theme:E33 Cause:T13
+% E31 Transcription:T79 Theme:T11
+% E33 Transcription:T79 Theme:T12
+
+We now confirm, in human T cells, that GR also uses the same nuclear import mechanism as GATA-3 [22].
+# T14 Protein S6 39 41 1184 1186 GR
+# T15 Protein S6 89 95 1234 1240 GATA-3
+$ T14 Protein S6 39 41 1184 1186 GR
+@ T80 Entity S6 61 68 1206 1213 nuclear
+@ T81 Localization S6 69 75 1214 1220 import
+% E34 Localization:T81 Theme:T14 ToLoc:T80
+
+We therefore propose that there is competition between ligand-activated GR and phospho-GATA-3 for nuclear import.
+# T16 Protein S7 72 74 1319 1321 GR
+# T17 Protein S7 87 93 1334 1340 GATA-3
+$ T16 Protein S7 72 74 1319 1321 GR
+$ T17 Protein S7 87 93 1334 1340 GATA-3
+@ T82 Negative_regulation S7 35 46 1282 1293 competition
+@ T83 Phosphorylation S7 79 86 1326 1333 phospho
+@ T84 Entity S7 98 105 1345 1352 nuclear
+@ T85 Localization S7 106 112 1353 1359 import
+% E35 Negative_regulation:T82 Theme:E36 Cause:T16
+% E37 Phosphorylation:T83 Theme:T17
+% E36 Localization:T85 Theme:T17 ToLoc:T84
+
+Furthermore, we have shown that there is preferential binding of importin-alpha to activated GR over phospho-GATA-3, so that corticosteroids would preferentially reduce GATA-3 entry and thus rapidly switch off Th2 gene transcription without any need for any intermediate steps.
+# T18 Protein S8 93 95 1454 1456 GR
+# T19 Protein S8 109 115 1470 1476 GATA-3
+# T20 Protein S8 169 175 1530 1536 GATA-3
+$ T18 Protein S8 93 95 1454 1456 GR
+$ T19 Protein S8 109 115 1470 1476 GATA-3
+$ T20 Protein S8 169 175 1530 1536 GATA-3
+@ T86 Binding S8 54 61 1415 1422 binding
+@ T87 Positive_regulation S8 83 92 1444 1453 activated
+@ T88 Phosphorylation S8 101 108 1462 1469 phospho
+@ T89 Negative_regulation S8 162 168 1523 1529 reduce
+@ T90 Localization S8 176 181 1537 1542 entry
+% E38 Binding:T86 Theme:T18
+% E39 Binding:T86 Theme:T19
+% E40 Positive_regulation:T87 Theme:T18
+% E41 Phosphorylation:T88 Theme:T19
+% E42 Negative_regulation:T89 Theme:E43
+% E43 Localization:T90 Theme:T20
+
+Furthermore, there was some degree of specificity for GATA-3, as nuclear translocation of the p65 subunit of NF-kappaB was not affected by corticosteroid exposure.
+# T21 Protein S9 54 60 1693 1699 GATA-3
+# T22 Protein S9 94 97 1733 1736 p65
+$ T22 Protein S9 94 97 1733 1736 p65
+@ T91 Entity S9 65 72 1704 1711 nuclear
+@ T92 Localization S9 73 86 1712 1725 translocation
+@ T93 Regulation S9 127 135 1766 1774 affected
+% E44 Localization:T92 Theme:T22 ToLoc:T91
+% E45 Regulation:T93 Theme:E44
+
+We tested some alternative explanations for this effect of FP on GATA-3 nuclear exclusion and failed to show that FP either enhances GATA-3 nuclear export directly or induces GATA-3 degradation.
+# T23 Protein S10 65 71 1868 1874 GATA-3
+# T24 Protein S10 133 139 1936 1942 GATA-3
+# T25 Protein S10 175 181 1978 1984 GATA-3
+$ T23 Protein S10 65 71 1868 1874 GATA-3
+$ T24 Protein S10 133 139 1936 1942 GATA-3
+$ T25 Protein S10 175 181 1978 1984 GATA-3
+@ T94 Negative_regulation S10 44 55 1847 1858 this effect
+@ T95 Entity S10 72 79 1875 1882 nuclear
+@ T96 Localization S10 80 89 1883 1892 exclusion
+@ T97 Positive_regulation S10 124 132 1927 1935 enhances
+@ T98 Entity S10 140 147 1943 1950 nuclear
+@ T99 Localization S10 148 154 1951 1957 export
+@ T100 Positive_regulation S10 167 174 1970 1977 induces
+@ T101 Protein_catabolism S10 182 193 1985 1996 degradation
+% E46 Negative_regulation:T94 Theme:E47
+% E47 Localization:T96 Theme:T23 ToLoc:T95
+% E48 Positive_regulation:T97 Theme:E49
+% E49 Localization:T99 Theme:T24 ToLoc:T98
+% E50 Positive_regulation:T100 Theme:E51
+% E51 Protein_catabolism:T101 Theme:T25
+
+The evidence from the in vitro competition assays does, however, suggest that purified activated GR can clearly attenuate purified phospho-GATA-3-importin-alpha association and that the converse does not occur.
+# T26 Protein S11 97 99 2095 2097 GR
+# T27 Protein S11 139 145 2137 2143 GATA-3
+$ T26 Protein S11 97 99 2095 2097 GR
+$ T27 Protein S11 139 145 2137 2143 GATA-3
+@ T102 Positive_regulation S11 87 96 2085 2094 activated
+@ T103 Negative_regulation S11 112 121 2110 2119 attenuate
+@ T104 Phosphorylation S11 131 138 2129 2136 phospho
+@ T105 Binding S11 161 172 2159 2170 association
+% E52 Positive_regulation:T102 Theme:T26
+% E53 Negative_regulation:T103 Theme:E54 Cause:T26
+% E55 Phosphorylation:T104 Theme:T27
+% E54 Binding:T105 Theme:T27
+
+Furthermore, we have shown that only phospho-GATA-3 can associate with importin-alpha.
+# T28 Protein S12 45 51 2254 2260 GATA-3
+$ T28 Protein S12 45 51 2254 2260 GATA-3
+@ T106 Phosphorylation S12 37 44 2246 2253 phospho
+@ T107 Binding S12 56 65 2265 2274 associate
+% E56 Phosphorylation:T106 Theme:T28
+% E57 Binding:T107 Theme:T28
+
+This mechanism is sensitive to very low concentrations of corticosteroid and would be rapid in onset as no changes in protein synthesis are required.
+
+This acute mechanism may also contribute to the reduction in GATA-3 nuclear import and may play a major role at low corticosteroid concentrations and/or at early time points prior to MKP-1 induction.
+# T29 Protein S14 61 67 2507 2513 GATA-3
+# T30 Protein S14 183 188 2629 2634 MKP-1
+$ T29 Protein S14 61 67 2507 2513 GATA-3
+$ T30 Protein S14 183 188 2629 2634 MKP-1
+@ T108 Positive_regulation S14 30 40 2476 2486 contribute
+@ T109 Negative_regulation S14 48 57 2494 2503 reduction
+@ T110 Entity S14 68 75 2514 2521 nuclear
+@ T111 Localization S14 76 82 2522 2528 import
+@ T112 Regulation S14 104 108 2550 2554 role
+@ T113 Gene_expression S14 189 198 2635 2644 induction
+% E58 Positive_regulation:T108 Theme:E59
+% E59 Negative_regulation:T109 Theme:E60
+% E60 Localization:T111 Theme:T29 ToLoc:T110
+% E61 Regulation:T112 Theme:E62
+% E62 Gene_expression:T113 Theme:T30
+
+Corticosteroids can modulate p38 MAPK activity through the induction of MKP-1, a potent endogenous inhibitor of MAPK function [38],[39].
+# T31 Protein S15 72 77 2718 2723 MKP-1
+$ T31 Protein S15 72 77 2718 2723 MKP-1
+@ T114 Positive_regulation S15 59 68 2705 2714 induction
+% E63 Positive_regulation:T114 Theme:T31
+
+We report here a rapid induction of MKP-1 mRNA following stimulation of cells with relatively high concentrations of FP.
+# T32 Protein S16 36 41 2819 2824 MKP-1
+$ T32 Protein S16 36 41 2819 2824 MKP-1
+@ T115 Gene_expression S16 23 32 2806 2815 induction
+@ T116 Positive_regulation S16 47 56 2830 2839 following
+% E64 Gene_expression:T115 Theme:T32
+% E65 Positive_regulation:T116 Theme:E64
+
+We hypothesize that this rapid induction of MKP-1 can reduce GATA-3 nuclear import by attenuating p38 MAPK activity and subsequent GATA-3 phosphorylation, thus preventing nuclear translocation.
+# T33 Protein S17 44 49 2948 2953 MKP-1
+# T34 Protein S17 61 67 2965 2971 GATA-3
+# T35 Protein S17 131 137 3035 3041 GATA-3
+$ T33 Protein S17 44 49 2948 2953 MKP-1
+$ T34 Protein S17 61 67 2965 2971 GATA-3
+$ T35 Protein S17 131 137 3035 3041 GATA-3
+@ T117 Gene_expression S17 31 40 2935 2944 induction
+@ T118 Negative_regulation S17 54 60 2958 2964 reduce
+@ T119 Entity S17 68 75 2972 2979 nuclear
+@ T120 Localization S17 76 82 2980 2986 import
+@ T121 Negative_regulation S17 86 97 2990 3001 attenuating
+@ T122 Regulation S17 120 130 3024 3034 subsequent
+@ T123 Phosphorylation S17 138 153 3042 3057 phosphorylation
+@ T124 Negative_regulation S17 160 170 3064 3074 preventing
+@ T125 Entity S17 171 178 3075 3082 nuclear
+@ T126 Localization S17 179 192 3083 3096 translocation
+% E66 Gene_expression:T117 Theme:T33
+% E67 Negative_regulation:T118 Theme:E68 Cause:E69
+% E68 Localization:T120 Theme:T34 ToLoc:T119
+% E69 Negative_regulation:T121 Theme:E70 Cause:E66
+% E70 Regulation:T122 Theme:E71
+% E71 Phosphorylation:T123 Theme:T35
+% E72 Negative_regulation:T124 Theme:E73 Cause:E69
+% E73 Localization:T126 Theme:T34 ToLoc:T125
+
+The location of the serine residue(s) of GATA-3 that are phosphorylated by p38 MAPK are currently unknown, but a bioinformatics search (Motif Scanner, http://scansite.mit.edu/motifscan_seq.phtml) indicates at least three potential p38 MAPK-sensitive serine residues.
+# T36 Protein S18 41 47 3139 3145 GATA-3
+$ T36 Protein S18 41 47 3139 3145 GATA-3
+@ T127 Entity S18 20 34 3118 3132 serine residue
+@ T128 Phosphorylation S18 57 71 3155 3169 phosphorylated
+% E74 Phosphorylation:T128 Theme:T36 Site:T127
+
+As predicted from these in vitro data, impairment of GATA-3 nuclear import by FP may, at least in part, underlie the efficacy of corticosteroids in suppressing allergic inflammation.
+# T37 Protein S19 53 59 3418 3424 GATA-3
+$ T37 Protein S19 53 59 3418 3424 GATA-3
+@ T129 Negative_regulation S19 39 49 3404 3414 impairment
+@ T130 Entity S19 60 67 3425 3432 nuclear
+@ T131 Localization S19 68 74 3433 3439 import
+% E75 Negative_regulation:T129 Theme:E76
+% E76 Localization:T131 Theme:T37 ToLoc:T130
+
+Although we did not assess the acute inhibitory effect of FP on the expression of IL-4 mRNA in vivo, a single inhalation of FP (500 microg) may have comparable effects, as it provides plasma levels within a relevant range of concentrations used to suppress IL-4 transcription in our in vitro system [37].
+# T38 Protein S20 82 86 3630 3634 IL-4
+# T39 Protein S20 257 261 3805 3809 IL-4
+$ T38 Protein S20 82 86 3630 3634 IL-4
+$ T39 Protein S20 257 261 3805 3809 IL-4
+@ T132 Negative_regulation S20 37 54 3585 3602 inhibitory effect
+@ T133 Transcription S20 68 78 3616 3626 expression
+@ T134 Negative_regulation S20 248 256 3796 3804 suppress
+@ T135 Transcription S20 262 275 3810 3823 transcription
+% E77 Negative_regulation:T132 Theme:E78
+% E78 Transcription:T133 Theme:T38
+% E79 Negative_regulation:T134 Theme:E80
+% E80 Transcription:T135 Theme:T39
+
+A lower dose of inhaled FP (100 microg) was not effective, but plasma concentrations may be below those required for GATA-3 inhibition.
+# T40 Protein S21 117 123 3970 3976 GATA-3
+$ T40 Protein S21 117 123 3970 3976 GATA-3
+@ T136 Negative_regulation S21 124 134 3977 3987 inhibition
+% E81 Negative_regulation:T136 Theme:T40
+
+However, it is likely that the higher concentrations of FP in the airways after inhaled administration would be effective in inhibiting GATA-3 in airway T cells of asthma patients.
+# T41 Protein S22 136 142 4125 4131 GATA-3
+$ T41 Protein S22 136 142 4125 4131 GATA-3
+@ T137 Negative_regulation S22 125 135 4114 4124 inhibiting
+% E82 Negative_regulation:T137 Theme:T41
+
+The study of PBMCs from asthma patients treated with inhaled corticosteroid therapy clearly demonstrates that these molecular mechanisms are likely to also occur in patients at therapeutic doses of inhaled corticosteroids.
+
+In addition, previous studies have shown that corticosteroids can suppress IL-4 and IL-5 release from peripheral blood cells of asthma patients in vitro and in vivo [40]-[42].
+# T42 Protein S24 75 79 4468 4472 IL-4
+# T43 Protein S24 84 88 4477 4481 IL-5
+$ T42 Protein S24 75 79 4468 4472 IL-4
+$ T43 Protein S24 84 88 4477 4481 IL-5
+@ T138 Negative_regulation S24 66 74 4459 4467 suppress
+@ T139 Localization S24 89 96 4482 4489 release
+% E83 Negative_regulation:T138 Theme:E84
+% E85 Negative_regulation:T138 Theme:E86
+% E84 Localization:T139 Theme:T42
+% E86 Localization:T139 Theme:T43
+
+In summary, our data provide evidence for a novel action of corticosteroids: suppression of allergic inflammation through a rapid inhibitory effect on GATA-3 nuclear translocation by preferential binding to the shared nuclear import protein importin-alpha and by a second mechanism involving increased synthesis of MKP-1, which inhibits p38 MAPK, thus preventing the phosphorylation of GATA-3 that is necessary for nuclear translocation of GATA-3.
+# T44 Protein S25 151 157 4720 4726 GATA-3
+# T45 Protein S25 315 320 4884 4889 MKP-1
+# T46 Protein S25 386 392 4955 4961 GATA-3
+# T47 Protein S25 440 446 5009 5015 GATA-3
+$ T44 Protein S25 151 157 4720 4726 GATA-3
+$ T45 Protein S25 315 320 4884 4889 MKP-1
+$ T46 Protein S25 386 392 4955 4961 GATA-3
+$ T47 Protein S25 440 446 5009 5015 GATA-3
+@ T140 Negative_regulation S25 130 147 4699 4716 inhibitory effect
+@ T141 Entity S25 158 165 4727 4734 nuclear
+@ T142 Localization S25 166 179 4735 4748 translocation
+@ T143 Binding S25 196 203 4765 4772 binding
+@ T144 Positive_regulation S25 292 301 4861 4870 increased
+@ T145 Gene_expression S25 302 311 4871 4880 synthesis
+@ T146 Negative_regulation S25 352 362 4921 4931 preventing
+@ T147 Phosphorylation S25 367 382 4936 4951 phosphorylation
+@ T148 Positive_regulation S25 401 410 4970 4979 necessary
+@ T149 Entity S25 415 422 4984 4991 nuclear
+@ T150 Localization S25 423 436 4992 5005 translocation
+% E87 Negative_regulation:T140 Theme:E88 Cause:E89
+% E90 Negative_regulation:T140 Theme:E88 Cause:E91
+% E88 Localization:T142 Theme:T44 ToLoc:T141
+% E89 Binding:T143 Theme:T44
+% E91 Positive_regulation:T144 Theme:E92
+% E92 Gene_expression:T145 Theme:T45
+% E93 Negative_regulation:T146 Theme:E94 Cause:E91
+% E94 Phosphorylation:T147 Theme:T46
+% E95 Positive_regulation:T148 Theme:E96
+% E96 Localization:T150 Theme:T47 ToLoc:T149
+
+These two mechanisms are likely to be synergistic, accounting for the rapid and potent effect of corticosteroids on allergic inflammation.
+
+This is exemplified by the rapid inhibitory effect of topical corticosteroids on nasal Th2 cytokine release after allergen provocation in individuals with seasonal allergic rhinitis (hay fever) [43].
+
+Prevention of phospho-GATA-3 interaction with importin-alpha may provide a new approach for the development of novel therapies for the treatment of allergic diseases.
+# T48 Protein S28 22 28 5378 5384 GATA-3
+$ T48 Protein S28 22 28 5378 5384 GATA-3
+@ T151 Negative_regulation S28 0 10 5356 5366 Prevention
+@ T152 Phosphorylation S28 14 21 5370 5377 phospho
+@ T153 Binding S28 29 40 5385 5396 interaction
+% E97 Negative_regulation:T151 Theme:E98
+% E99 Phosphorylation:T152 Theme:T48
+% E98 Binding:T153 Theme:T48
+

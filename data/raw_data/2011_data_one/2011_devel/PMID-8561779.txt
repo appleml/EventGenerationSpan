@@ -1,0 +1,49 @@
+Inhibition of NF-AT signal transduction events by a dominant-negative form of calcineurin.
+
+An inhibitory, "dominant-negative," form of the calcineurin catalytic (A) subunit was prepared, which lacks the calmodulin-binding domain, autoinhibitory domain and most of its catalytic core but possesses the regulatory (B) subunit binding domain.
+# T1 Protein S2 48 81 140 173 calcineurin catalytic (A) subunit
+# T2 Protein S2 112 122 204 214 calmodulin
+# T3 Protein S2 210 232 302 324 regulatory (B) subunit
+
+When tested for its ability to block calcineurin-dependent signaling in Jurkat cells, expression of this "B-subunit knock-out" (BKO) construct suppressed reporter gene activity driven by NF-AT, the pivotal promoter element for interleukin (IL)-2 gene induction.
+# T4 Protein S3 227 245 568 586 interleukin (IL)-2
+$ T4 Protein S3 227 245 568 586 interleukin (IL)-2
+@ T10 Regulation S3 206 222 547 563 promoter element
+@ T11 Gene_expression S3 251 260 592 601 induction
+% E1 Regulation:T10 Theme:E2
+% E2 Gene_expression:T11 Theme:T4
+
+Immunoprecipitation of epitope-labeled BKO demonstrated for the formation of a tight complex with endogenous B subunit in Jurkat cells, consistent with an inhibitory mechanism that involves the sequestration of the B subunit.
+# T5 Protein S4 98 118 701 721 endogenous B subunit
+# T6 Protein S4 215 224 818 827 B subunit
+$ T5 Protein S4 98 118 701 721 endogenous B subunit
+$ T6 Protein S4 215 224 818 827 B subunit
+@ T12 Binding S4 64 92 667 695 formation of a tight complex
+@ T13 Negative_regulation S4 155 175 758 778 inhibitory mechanism
+@ T14 Positive_regulation S4 181 189 784 792 involves
+@ T15 Localization S4 194 207 797 810 sequestration
+% E3 Binding:T12 Theme:T5
+% E4 Negative_regulation:T13 Theme:T6
+% E5 Positive_regulation:T14 Theme:E4 Cause:E6
+% E6 Localization:T15 Theme:T6
+
+Furthermore, the sharply reduced NF-AT activity produced by co-transfecting BKO could be "rescued" by overexpression of transfected B subunit, suggesting that depletion of this subunit was responsible for the inhibition.
+# T7 Protein S5 132 141 961 970 B subunit
+$ T7 Protein S5 132 141 961 970 B subunit
+@ T16 Positive_regulation S5 102 116 931 945 overexpression
+@ T17 Gene_expression S5 102 116 931 945 overexpression
+@ T18 Negative_regulation S5 159 168 988 997 depletion
+% E7 Positive_regulation:T16 Theme:E8
+% E8 Gene_expression:T17 Theme:T7
+% E9 Negative_regulation:T18 Theme:T7
+
+These data suggest the potential utility of agents that disrupt calcineurin-mediated signal transduction pathways by blocking formation of the catalytically active dimer of calcineurin A and B subunits.
+# T8 Protein S6 173 186 1223 1236 calcineurin A
+# T9 Protein S6 191 201 1241 1251 B subunits
+$ T8 Protein S6 173 186 1223 1236 calcineurin A
+$ T9 Protein S6 191 201 1241 1251 B subunits
+@ T19 Negative_regulation S6 117 125 1167 1175 blocking
+@ T20 Binding S6 126 169 1176 1219 formation of the catalytically active dimer
+% E10 Negative_regulation:T19 Theme:E11
+% E11 Binding:T20 Theme:T8 Theme2:T9
+

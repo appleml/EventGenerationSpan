@@ -1,0 +1,38 @@
+Human Peripheral Blood Mononuclear Cell Isolation and Stimulation
+
+Human mononuclear cells were isolated from the peripheral blood of four healthy human volunteers.
+
+The sample size was chosen from our previously published work, which demonstrated reliable results.10 Cell isolation and all subsequent experiments were conducted under sterile and pyrogen-free conditions.
+
+Blood collected in heparin tubes was incubated with Dextran T500 and the red cells were sedimented for 40 minutes at room temperature.
+
+The resultant serum was then washed with HBSS and separated by Percoll gradient centrifugation according to the manufacturer's instructions.
+
+Cell viability was assessed by trypan blue dye exclusion, with purity of greater than 95%.
+
+Isolated cells were resuspended in RPMI 1640 supplemented with 10% FBS and 5 mM HEPES at a concentration of 1 x 107cells/mL.
+
+Each subsequent experiment listed below was conducted on samples of 5 x 106 cells per treatment group.
+
+Isolated cells were stimulated with either HBSS as a negative control, LPS (1 mug/mL), PTX (20 mM), or concomitant LPS / PTX, at the above-mentioned concentrations, for 30 minutes at 37degreesC.
+
+Cells were placed on ice for 10 minutes to stop the reaction and the samples were then stored at -70degreesC for further analysis.
+
+The stimulation times and concentrations of LPS and PTX utilized in this study were determined in previous pilot studies done in our laboratory, which examined the effects of increasing concentrations of PTX on LPS-induced TNF-alpha production.
+# T1 Protein S11 223 232 1514 1523 TNF-alpha
+$ T1 Protein S11 223 232 1514 1523 TNF-alpha
+@ T3 Positive_regulation S11 215 222 1506 1513 induced
+@ T4 Gene_expression S11 233 243 1524 1534 production
+% E1 Positive_regulation:T3 Theme:E2
+% E2 Gene_expression:T4 Theme:T1
+
+LPS at a concentration of 1 mug/mL and PTX at a concentration of 20 mM were the minimum concentrations necessary to produce a reproducible and reliable up-regulation and down-regulation in TNF-alpha production, respectively, in quantitative assays (data not shown).
+# T2 Protein S12 189 198 1725 1734 TNF-alpha
+$ T2 Protein S12 189 198 1725 1734 TNF-alpha
+@ T5 Positive_regulation S12 152 165 1688 1701 up-regulation
+@ T6 Negative_regulation S12 170 185 1706 1721 down-regulation
+@ T7 Gene_expression S12 199 209 1735 1745 production
+% E3 Positive_regulation:T5 Theme:E4
+% E5 Negative_regulation:T6 Theme:E4
+% E4 Gene_expression:T7 Theme:T2
+

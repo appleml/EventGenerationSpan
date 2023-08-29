@@ -1,0 +1,58 @@
+Inducible expression and phosphorylation of coactivator BOB.1/OBF.1 in T cells [see comments]
+# T1 Protein S1 56 61 56 61 BOB.1
+# T2 Protein S1 62 67 62 67 OBF.1
+$ T1 Protein S1 56 61 56 61 BOB.1
+@ T13 Positive_regulation S1 0 9 0 9 Inducible
+@ T14 Gene_expression S1 10 20 10 20 expression
+@ T15 Phosphorylation S1 25 40 25 40 phosphorylation
+% E1 Positive_regulation:T13 Theme:E3
+% E2 Positive_regulation:T13 Theme:E4
+% E3 Gene_expression:T14 Theme:T1
+% E4 Phosphorylation:T15 Theme:T1
+
+BOB.1/OBF.1 is a transcriptional coactivator that is constitutively expressed in B cells and interacts with the Oct1 and Oct2 transcription factors.
+# T3 Protein S2 0 5 95 100 BOB.1
+# T4 Protein S2 6 11 101 106 OBF.1
+# T5 Protein S2 112 116 207 211 Oct1
+# T6 Protein S2 121 125 216 220 Oct2
+$ T3 Protein S2 0 5 95 100 BOB.1
+$ T6 Protein S2 121 125 216 220 Oct2
+$ T5 Protein S2 112 116 207 211 Oct1
+@ T16 Gene_expression S2 68 77 163 172 expressed
+@ T17 Binding S2 93 102 188 197 interacts
+% E5 Gene_expression:T16 Theme:T3
+% E6 Binding:T17 Theme:T3 Theme2:T6
+% E7 Binding:T17 Theme:T3 Theme2:T5
+
+Upon activation of Jurkat T cells and primary murine thymocytes with phorbol esters and ionomycin, BOB.1/OBF.1 expression and transactivation function were induced.
+# T7 Protein S3 99 104 343 348 BOB.1
+# T8 Protein S3 105 110 349 354 OBF.1
+$ T7 Protein S3 99 104 343 348 BOB.1
+@ T18 Gene_expression S3 111 121 355 365 expression
+@ T19 Positive_regulation S3 156 163 400 407 induced
+% E8 Gene_expression:T18 Theme:T7
+% E9 Positive_regulation:T19 Theme:E8
+
+BOB.1/OBF.1 was phosphorylated at Ser184 both in vivo and in vitro, and this modification was required for inducible activation.
+# T9 Protein S4 0 5 409 414 BOB.1
+# T10 Protein S4 6 11 415 420 OBF.1
+$ T9 Protein S4 0 5 409 414 BOB.1
+@ T20 Phosphorylation S4 16 30 425 439 phosphorylated
+@ T21 Entity S4 34 40 443 449 Ser184
+@ T22 Positive_regulation S4 94 102 503 511 required
+% E10 Phosphorylation:T20 Theme:T9 Site:T21
+% E11 Positive_regulation:T22 Theme:T9 Cause:E10
+
+Mutation of Ser184 also diminished transactivation function in B cells, suggesting that the activating phosphorylation that is inducible in T cells is constitutively present in B cells.
+@ T23 Positive_regulation S5 92 102 630 640 activating
+@ T24 Positive_regulation S5 127 136 665 674 inducible
+% E12 Positive_regulation:T23 Theme:E10
+% E13 Positive_regulation:T24 Theme:E12
+
+Thus, BOB.1/OBF.1 is a transcriptional coactivator that is critically regulated by posttranslational modifications to mediate cell type-specific gene expression.
+# T11 Protein S6 6 11 730 735 BOB.1
+# T12 Protein S6 12 17 736 741 OBF.1
+$ T11 Protein S6 6 11 730 735 BOB.1
+@ T25 Regulation S6 70 79 794 803 regulated
+% E14 Regulation:T25 Theme:T11
+

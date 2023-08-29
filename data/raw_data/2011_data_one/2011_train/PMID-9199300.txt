@@ -1,0 +1,97 @@
+Comparison of the transactivation domains of Stat5 and Stat6 in lymphoid cells and mammary epithelial cells.
+# T1 Protein S1 45 50 45 50 Stat5
+# T2 Protein S1 55 60 55 60 Stat6
+
+Stat (signal transducers and activators of transcription) and Jak (Janus kinases) proteins are central components in the signal transduction events in hematopoietic and epithelial cells.
+
+They are rapidly activated by various cytokines, hormones, and growth factors.
+
+Upon ligand binding and cytokine receptor dimerization, Stat proteins are phosphorylated on tyrosine residues by Jak kinases.
+
+Activated Stat proteins form homo- or heterodimers, translocate to the nucleus, and induce transcription from responsive genes.
+
+Stat5 and Stat6 are transcription factors active in mammary epithelial cells and immune cells.
+# T3 Protein S6 0 5 630 635 Stat5
+# T4 Protein S6 10 15 640 645 Stat6
+$ T4 Protein S6 10 15 640 645 Stat6
+$ T3 Protein S6 0 5 630 635 Stat5
+@ T26 Positive_regulation S6 42 48 672 678 active
+% E1 Positive_regulation:T26 Theme:T4
+% E2 Positive_regulation:T26 Theme:T3
+
+Prolactin activates Stat5, and interleukin-4 (IL-4) activates Stat6.
+# T5 Protein S7 0 9 725 734 Prolactin
+# T6 Protein S7 20 25 745 750 Stat5
+# T7 Protein S7 31 44 756 769 interleukin-4
+# T8 Protein S7 46 50 771 775 IL-4
+# T9 Protein S7 62 67 787 792 Stat6
+$ T6 Protein S7 20 25 745 750 Stat5
+$ T5 Protein S7 0 9 725 734 Prolactin
+$ T9 Protein S7 62 67 787 792 Stat6
+$ T8 Protein S7 46 50 771 775 IL-4
+@ T27 Positive_regulation S7 10 19 735 744 activates
+@ T28 Positive_regulation S7 52 61 777 786 activates
+% E3 Positive_regulation:T27 Theme:T6 Cause:T5
+% E4 Positive_regulation:T28 Theme:T9 Cause:T8
+
+Both cytokines are able to stimulate cell proliferation, differentiation, and survival.
+
+We investigated the transactivation potential of Stat6 and found that it is not restricted to lymphocytes.
+# T10 Protein S9 49 54 931 936 Stat6
+$ T10 Protein S9 49 54 931 936 Stat6
+@ T29 Positive_regulation S9 20 35 902 917 transactivation
+@ T30 Negative_regulation S9 80 90 962 972 restricted
+% E5 Positive_regulation:T29 Theme:T10
+% E6 Negative_regulation:T30 Theme:E5
+
+IL-4-dependent activation of Stat6 was also observed in HC11 mammary epithelial cells.
+# T11 Protein S10 0 4 989 993 IL-4
+# T12 Protein S10 29 34 1018 1023 Stat6
+$ T12 Protein S10 29 34 1018 1023 Stat6
+$ T11 Protein S10 0 4 989 993 IL-4
+@ T31 Positive_regulation S10 15 25 1004 1014 activation
+% E7 Positive_regulation:T31 Theme:T12 Cause:T11
+
+In these cells, Stat6 activation led to the induction of the beta-casein gene promoter.
+# T13 Protein S11 16 21 1092 1097 Stat6
+$ T13 Protein S11 16 21 1092 1097 Stat6
+@ T32 Positive_regulation S11 22 32 1098 1108 activation
+% E8 Positive_regulation:T32 Theme:T13
+
+The induction of this promoter was confirmed in COS7 cells.
+
+The glucocorticoid receptor was able to further enhance IL-4-induced gene transcription through the action of Stat6.
+# T14 Protein S13 4 27 1228 1251 glucocorticoid receptor
+# T15 Protein S13 56 60 1280 1284 IL-4
+# T16 Protein S13 110 115 1334 1339 Stat6
+$ T16 Protein S13 110 115 1334 1339 Stat6
+$ T14 Protein S13 4 27 1228 1251 glucocorticoid receptor
+@ T33 Positive_regulation S13 48 55 1272 1279 enhance
+% E9 Positive_regulation:T33 Theme:T16 Cause:T14
+
+Deletion analysis of the carboxyl-terminal region of Stat6 and recombination of this region with a heterologous DNA binding domain allowed the delimitation and characterization of the transactivation domain of Stat6.
+# T17 Protein S14 53 58 1394 1399 Stat6
+# T18 Protein S14 210 215 1551 1556 Stat6
+
+The potencies of the transactivation domains of Stat5, Stat6, and viral protein VP16 were compared.
+# T19 Protein S15 48 53 1606 1611 Stat5
+# T20 Protein S15 55 60 1613 1618 Stat6
+# T21 Protein S15 80 84 1638 1642 VP16
+
+Stat6 had a transactivation domain which was about 10-fold stronger than that of Stat5.
+# T22 Protein S16 0 5 1658 1663 Stat6
+# T23 Protein S16 81 86 1739 1744 Stat5
+
+In pre-B cells (Ba/F3), the transactivation domain of Stat6 was IL-4 regulated, independently from its DNA binding function.
+# T24 Protein S17 54 59 1800 1805 Stat6
+# T25 Protein S17 64 68 1810 1814 IL-4
+$ T24 Protein S17 54 59 1800 1805 Stat6
+$ T25 Protein S17 64 68 1810 1814 IL-4
+@ T34 Entity S17 28 50 1774 1796 transactivation domain
+@ T35 Regulation S17 69 78 1815 1824 regulated
+@ T36 Positive_regulation S17 80 93 1826 1839 independently
+@ T37 Binding S17 107 114 1853 1860 binding
+% E10 Regulation:T35 Theme:T24 Cause:T25 Site:T34
+% E11 Positive_regulation:T36 Theme:E10 Cause:E12
+% E12 Binding:T37 Theme:T24 Site:T34
+

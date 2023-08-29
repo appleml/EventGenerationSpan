@@ -1,0 +1,31 @@
+Constructs and transfection
+
+The complementary DNA (cDNA) of the mouse Sharpin gene was cloned and amplified from RAW264.7 RNA extracts.
+# T1 Protein S2 42 49 70 77 Sharpin
+
+The primer sequences were forward, 5'-CC ATG GCG ATG TCG CCG CCC GCC GGC GGT; reverse, 5'- AAG CTT CTA GGT GGA AGC TGC AGC AAG A.
+
+The Sharpin cDNA was cloned into expression vector pFLAG-CMV-2.
+# T2 Protein S4 4 11 270 277 Sharpin
+
+Murine fibroblasts and macrophages were were used to express recombinant SHARPIN protein.
+# T3 Protein S5 73 80 403 410 SHARPIN
+$ T3 Protein S5 73 80 403 410 SHARPIN
+@ T6 Gene_expression S5 53 60 383 390 express
+% E1 Gene_expression:T6 Theme:T3
+
+Cells (2x104) were seeded in 96-well treated plates the day before transfection.
+
+After overnight incubation, 200 ng pFLAG-SHARPIN plasmids were transfected with 0.5 ul Lipofectamine 2000.
+# T4 Protein S7 41 48 542 549 SHARPIN
+
+24 hours later, cells were incubated with fresh culture medium.
+
+After another 24 hours, cells were lysed to confirm the FLAG-SHARPIN expression by immunoblots with anti-FLAG.
+# T5 Protein S9 61 68 733 740 SHARPIN
+$ T5 Protein S9 61 68 733 740 SHARPIN
+@ T7 Gene_expression S9 69 79 741 751 expression
+% E2 Gene_expression:T7 Theme:T5
+
+Cells with no transfection and transfected with empty vector pFLAG-CMV-2 were used as negative control in all transfection experiments.
+

@@ -1,0 +1,40 @@
+HIV-1 Nef leads to inhibition or activation of T cells depending on its intracellular localization.
+# T1 Protein S1 6 9 6 9 Nef
+$ T1 Protein S1 6 9 6 9 Nef
+@ T12 Entity S1 72 85 72 85 intracellular
+@ T13 Localization S1 86 98 86 98 localization
+% E1 Localization:T13 Theme:T1 AtLoc:T12
+
+Nef of primate lentiviruses is required for viremia and progression to AIDS in monkeys.
+# T2 Protein S2 0 3 101 104 Nef
+
+Negative, positive, and no effects of Nef have also been reported on viral replication in cells.
+# T3 Protein S3 38 41 227 230 Nef
+
+To reconcile these observations, we expressed a hybrid CD8-Nef protein in Jurkat cells.
+# T4 Protein S4 59 62 345 348 Nef
+
+Two opposite phenotypes were found, which depended on the intracellular localization of Nef.
+# T5 Protein S5 88 91 462 465 Nef
+$ T5 Protein S5 88 91 462 465 Nef
+@ T14 Entity S5 58 71 432 445 intracellular
+@ T15 Localization S5 72 84 446 458 localization
+% E2 Localization:T15 Theme:T5 AtLoc:T14
+
+Expressed in the cytoplasm or on the cell surface, the chimera inhibited or activated early signaling events from the T cell antigen receptor.
+
+Activated Jurkat cells died by apoptosis, and only cells with mutated nef genes expressing truncated Nefs survived, which rendered Nef nonfunctional.
+# T6 Protein S7 70 73 680 683 nef
+# T7 Protein S7 101 104 711 714 Nef
+# T8 Protein S7 131 134 741 744 Nef
+$ T7 Protein S7 101 104 711 714 Nef
+@ T16 Gene_expression S7 80 90 690 700 expressing
+% E3 Gene_expression:T16 Theme:T7
+
+These mutations paralleled those in other viral strains passaged in vitro.
+
+Not only do these positional effects of Nef reconcile diverse phenotypes of Nef and suggest a role for its N-terminal myristylation, but they also explain effects of Nef in HIV infection and progression to AIDS.
+# T9 Protein S9 40 43 875 878 Nef
+# T10 Protein S9 76 79 911 914 Nef
+# T11 Protein S9 166 169 1001 1004 Nef
+

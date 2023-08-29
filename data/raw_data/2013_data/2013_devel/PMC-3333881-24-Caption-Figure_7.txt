@@ -1,0 +1,44 @@
+Model of MIP-1alpha transcriptional activation by HIV-1 Tat.
+# T1 Protein S1 9 19 9 19 MIP-1alpha
+# T2 Protein S1 56 59 56 59 Tat
+$ T1 Protein S1 9 19 9 19 MIP-1alpha
+$ T2 Protein S1 56 59 56 59 Tat
+@ T9 Transcription S1 20 35 20 35 transcriptional
+@ T10 Positive_regulation S1 36 46 36 46 activation
+% E1 Transcription:T9 Theme:T1
+% E2 Positive_regulation:T10 Theme:E1 Cause:T2
+
+(A) In absence of Tat, IkappaB-alpha occupies the NF-kappaB enhancer of the MIP-1alpha promoter and likely interacts with transcriptional repressors, such as HDACs (65), to inhibit gene transcription.
+# T3 Protein S2 18 21 79 82 Tat
+# T4 Protein S2 23 36 84 97 IkappaB-alpha
+# T5 Protein S2 76 86 137 147 MIP-1alpha
+$ T3 Protein S2 18 21 79 82 Tat
+$ T4 Protein S2 23 36 84 97 IkappaB-alpha
+$ T5 Protein S2 76 86 137 147 MIP-1alpha
+@ T11 Negative_regulation S2 7 14 68 75 absence
+@ T12 Binding S2 37 45 98 106 occupies
+@ T13 Entity S2 50 68 111 129 NF-kappaB enhancer
+@ T14 Binding S2 107 116 168 177 interacts
+% E3 Negative_regulation:T11 Theme:T3
+% E4 Binding:T12 Theme:T4 Theme2:T5 Site2:T13
+% E5 Binding:T14 Theme:T4
+
+(B) Tat activates the MIP-1alpha expression by removing the IkappaB-alpha repressor from the NF-kappaB enhancer, and by increasing the binding of p65 NF-kappaB complex to the NF-kappaB enhancer.
+# T6 Protein S3 4 7 266 269 Tat
+# T7 Protein S3 22 32 284 294 MIP-1alpha
+# T8 Protein S3 60 73 322 335 IkappaB-alpha
+$ T6 Protein S3 4 7 266 269 Tat
+$ T7 Protein S3 22 32 284 294 MIP-1alpha
+$ T8 Protein S3 60 73 322 335 IkappaB-alpha
+@ T15 Positive_regulation S3 8 17 270 279 activates
+@ T16 Gene_expression S3 33 43 295 305 expression
+@ T17 Negative_regulation S3 47 55 309 317 removing
+@ T18 Positive_regulation S3 120 130 382 392 increasing
+@ T19 Binding S3 135 142 397 404 binding
+@ T20 Entity S3 175 193 437 455 NF-kappaB enhancer
+% E6 Positive_regulation:T15 Theme:E7 Cause:T6
+% E7 Gene_expression:T16 Theme:T7
+% E8 Negative_regulation:T17 Theme:T8 Cause:T6
+% E9 Positive_regulation:T18 Theme:E10 Cause:T6
+% E10 Binding:T19 Theme:T7 Site:T20
+

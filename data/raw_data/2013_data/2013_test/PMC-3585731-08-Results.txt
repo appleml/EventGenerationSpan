@@ -1,0 +1,23 @@
+PI3-kinase and PDK1 Mediate the Increase in Akt Thr308 Phosphorylation Under Necroptotic Conditions
+# T1 Protein S1 15 19 15 19 PDK1
+
+Typical regulation of Akt by growth factors involves its recruitment to the plasma membrane, which is mediated by the binding of the pleckstrin homology (PH) domain of Akt to the product of PI3K, phosphatidylinositol-3,4,5-triphosphate (PIP3).
+
+In the membrane, Akt is phosphorylated on Thr308 and Ser473 by 3-phosphoinositide dependent protein kinase-1 (PDK1) and mTORC2 (or DNA-PK), respectively [35].
+# T2 Protein S3 63 108 407 452 3-phosphoinositide dependent protein kinase-1
+# T3 Protein S3 110 114 454 458 PDK1
+
+Since our results showed that only Thr308 Akt phosphorylation is increased during necroptosis, we next examined whether it is still dependent on PI3K and PDK1.
+# T4 Protein S4 154 158 657 661 PDK1
+
+Inhibition of PI3K and PDK1 using the specific inhibitors LY249002 and BX912 [36] resulted in the efficient inhibition of cell death and Akt Thr308 phosphorylation (Fig.
+# T5 Protein S5 23 27 686 690 PDK1
+
+S7A-D).
+
+Likewise, siRNA knockdown of PDK1 protected cells from death and inhibited Akt Thr308 phosphorylation (Fig.
+# T6 Protein S7 29 33 870 874 PDK1
+
+S7E,F) Therefore, PI3K and PDK1 activity is still required for non-canonical Akt activation during necroptosis.
+# T7 Protein S8 27 31 976 980 PDK1
+

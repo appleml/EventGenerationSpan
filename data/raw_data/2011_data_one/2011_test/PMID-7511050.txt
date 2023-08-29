@@ -1,0 +1,48 @@
+Retinoic acid-induced expression of CD38 antigen in myeloid cells is mediated through retinoic acid receptor-alpha.
+# T1 Protein S1 36 40 36 40 CD38
+# T2 Protein S1 86 114 86 114 retinoic acid receptor-alpha
+
+CD38 is a leukocyte differentiation antigen that has been thought to be a phenotypic marker of different subpopulations of T- and B- lymphocytes.
+# T3 Protein S2 0 4 117 121 CD38
+
+In myeloid cells, CD38 is expressed during early stages of differentiation.
+# T4 Protein S3 18 22 281 285 CD38
+
+Virtually no information is available on regulation and functions of CD38.
+# T5 Protein S4 69 73 408 412 CD38
+
+Recently we reported that all-trans-retinoic acid (ATRA) is a potent and highly specific inducer of CD38 expression in human promyelocytic leukemia cells.
+# T6 Protein S5 100 104 514 518 CD38
+
+Here we report that ATRA-induced expression of CD38 antigen in myeloid cells is mediated through retinoic acid-alpha receptor (RAR alpha).
+# T7 Protein S6 47 51 616 620 CD38
+# T8 Protein S6 97 125 666 694 retinoic acid-alpha receptor
+# T9 Protein S6 127 136 696 705 RAR alpha
+
+ATRA failed to induce CD38 expression in a mutant subclone of the HL-60 myeloid leukemia cell line (designated HL-60R) that is relatively resistant to ATRA-induced granulocytic differentiation.
+# T10 Protein S7 22 26 730 734 CD38
+
+Retroviral vector-mediated transduction of RA receptor (RAR alpha) into this HL-60R subclone completely restored the sensitivity of these cells to ATRA in terms of their ability to express CD38.
+# T11 Protein S8 56 65 958 967 RAR alpha
+# T12 Protein S8 189 193 1091 1095 CD38
+
+In contrast, CD38 expression was not inducible by ATRA in HL-60R cells, transfected with a functional RAR beta, RAR gamma, or RXR alpha receptor.
+# T13 Protein S9 13 17 1110 1114 CD38
+# T14 Protein S9 102 110 1199 1207 RAR beta
+# T15 Protein S9 112 121 1209 1218 RAR gamma
+# T16 Protein S9 126 135 1223 1232 RXR alpha
+
+Induction of CD38 in acute promyelocytic and acute myeloblastic leukemia cells was independent of ATRA-induced cytodifferentiation.
+# T17 Protein S10 13 17 1256 1260 CD38
+
+Following culture with ATRA, increased CD38 protein levels were also observed in normal CD34+ bone marrow cells, but not on normal circulating granulocytes.
+# T18 Protein S11 39 43 1414 1418 CD38
+
+From these results, we conclude that CD38 is ATRA inducible in myeloid leukemia cells and normal CD34+ bone marrow cells.
+# T19 Protein S12 37 41 1569 1573 CD38
+
+This effect is independent of differentiation and is mediated by RAR alpha in HL-60 cells, suggesting a similar role for RAR alpha in CD38 expression in other hematopoietic cells.
+# T20 Protein S13 65 74 1719 1728 RAR alpha
+# T21 Protein S13 121 130 1775 1784 RAR alpha
+# T22 Protein S13 134 138 1788 1792 CD38
+

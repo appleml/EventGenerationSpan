@@ -1,0 +1,113 @@
+BMP-6 inhibits growth of mature human B cells; induction of Smad phosphorylation and upregulation of Id1
+# T1 Protein S1 0 5 0 5 BMP-6
+# T2 Protein S1 101 104 101 104 Id1
+$ T2 Protein S1 101 104 101 104 Id1
+@ T30 Positive_regulation S1 85 97 85 97 upregulation
+% E1 Positive_regulation:T30 Theme:T2
+
+Background
+
+Bone morphogenetic proteins (BMPs) belong to the TGF-beta superfamily and are secreted proteins with pleiotropic roles in many different cell types.
+# T3 Protein S3 49 57 165 173 TGF-beta
+
+A potential role of BMP-6 in the immune system has been implied by various studies of malignant and rheumatoid diseases.
+# T4 Protein S4 20 25 285 290 BMP-6
+
+In the present study, we explored the role of BMP-6 in normal human peripheral blood B cells.
+# T5 Protein S5 46 51 432 437 BMP-6
+
+Results
+
+The B cells were found to express BMP type I and type II receptors and BMP-6 rapidly induced phosphorylation of Smad1/5/8.
+# T6 Protein S7 71 76 559 564 BMP-6
+# T7 Protein S7 112 117 600 605 Smad1
+# T8 Protein S7 118 119 606 607 5
+# T9 Protein S7 120 121 608 609 8
+$ T6 Protein S7 71 76 559 564 BMP-6
+$ T7 Protein S7 112 117 600 605 Smad1
+$ T8 Protein S7 118 119 606 607 5
+$ T9 Protein S7 120 121 608 609 8
+@ T31 Positive_regulation S7 85 92 573 580 induced
+@ T32 Phosphorylation S7 93 108 581 596 phosphorylation
+% E2 Positive_regulation:T31 Theme:E3 Cause:T6
+% E4 Positive_regulation:T31 Theme:E5 Cause:T6
+% E6 Positive_regulation:T31 Theme:E7 Cause:T6
+% E3 Phosphorylation:T32 Theme:T7
+% E5 Phosphorylation:T32 Theme:T8
+% E7 Phosphorylation:T32 Theme:T9
+
+Furthermore, Smad-phosphorylation was followed by upregulation of Id1 mRNA and Id1 protein, whereas Id2 and Id3 expression was not affected.
+# T10 Protein S8 13 17 624 628 Smad
+# T11 Protein S8 66 69 677 680 Id1
+# T12 Protein S8 79 82 690 693 Id1
+# T13 Protein S8 100 103 711 714 Id2
+# T14 Protein S8 108 111 719 722 Id3
+$ T10 Protein S8 13 17 624 628 Smad
+$ T11 Protein S8 66 69 677 680 Id1
+$ T12 Protein S8 79 82 690 693 Id1
+$ T13 Protein S8 100 103 711 714 Id2
+$ T14 Protein S8 108 111 719 722 Id3
+@ T33 Phosphorylation S8 18 33 629 644 phosphorylation
+@ T34 Positive_regulation S8 38 46 649 657 followed
+@ T35 Positive_regulation S8 50 62 661 673 upregulation
+@ T36 Gene_expression S8 112 122 723 733 expression
+@ T37 Regulation S8 131 139 742 750 affected
+% E8 Phosphorylation:T33 Theme:T10
+% E9 Positive_regulation:T34 Theme:E10 Cause:E8
+% E11 Positive_regulation:T34 Theme:E12 Cause:E8
+% E10 Positive_regulation:T35 Theme:T11
+% E12 Positive_regulation:T35 Theme:T12
+% E13 Gene_expression:T36 Theme:T13
+% E14 Gene_expression:T36 Theme:T14
+% E15 Regulation:T37 Theme:E13 Cause:E8
+% E16 Regulation:T37 Theme:E14 Cause:E8
+
+Furthermore, we found that BMP-6 had an antiproliferative effect both in naive (CD19+CD27-) and memory B cells (CD19+CD27+) stimulated with anti-IgM alone or the combined action of anti-IgM and CD40L.
+# T15 Protein S9 27 32 779 784 BMP-6
+# T16 Protein S9 80 84 832 836 CD19
+# T17 Protein S9 85 89 837 841 CD27
+# T18 Protein S9 112 116 864 868 CD19
+# T19 Protein S9 117 121 869 873 CD27
+# T20 Protein S9 194 199 946 951 CD40L
+
+Additionally, BMP-6 induced cell death in activated memory B cells.
+# T21 Protein S10 14 19 967 972 BMP-6
+
+Importantly, the antiproliferative effect of BMP-6 in B-cells was completely neutralized by the natural antagonist, noggin.
+# T22 Protein S11 45 50 1066 1071 BMP-6
+# T23 Protein S11 116 122 1137 1143 noggin
+
+Furthermore, B cells were demonstrated to upregulate BMP-6 mRNA upon stimulation with anti-IgM.
+# T24 Protein S12 53 58 1198 1203 BMP-6
+$ T24 Protein S12 53 58 1198 1203 BMP-6
+@ T38 Positive_regulation S12 42 52 1187 1197 upregulate
+% E17 Positive_regulation:T38 Theme:T24
+
+Conclusion
+
+In mature human B cells, BMP-6 inhibited cell growth, and rapidly induced phosphorylation of Smad1/5/8 followed by an upregulation of Id1.
+# T25 Protein S14 25 30 1277 1282 BMP-6
+# T26 Protein S14 93 98 1345 1350 Smad1
+# T27 Protein S14 99 100 1351 1352 5
+# T28 Protein S14 101 102 1353 1354 8
+# T29 Protein S14 134 137 1386 1389 Id1
+$ T25 Protein S14 25 30 1277 1282 BMP-6
+$ T26 Protein S14 93 98 1345 1350 Smad1
+$ T27 Protein S14 99 100 1351 1352 5
+$ T28 Protein S14 101 102 1353 1354 8
+$ T29 Protein S14 134 137 1386 1389 Id1
+@ T39 Positive_regulation S14 66 73 1318 1325 induced
+@ T40 Phosphorylation S14 74 89 1326 1341 phosphorylation
+@ T41 Positive_regulation S14 103 111 1355 1363 followed
+@ T42 Positive_regulation S14 118 130 1370 1382 upregulation
+% E18 Positive_regulation:T39 Theme:E19 Cause:T25
+% E20 Positive_regulation:T39 Theme:E21 Cause:T25
+% E22 Positive_regulation:T39 Theme:E23 Cause:T25
+% E19 Phosphorylation:T40 Theme:T26
+% E21 Phosphorylation:T40 Theme:T27
+% E23 Phosphorylation:T40 Theme:T28
+% E24 Positive_regulation:T41 Theme:E25 Cause:E19
+% E26 Positive_regulation:T41 Theme:E25 Cause:E21
+% E27 Positive_regulation:T41 Theme:E25 Cause:E23
+% E25 Positive_regulation:T42 Theme:T29
+

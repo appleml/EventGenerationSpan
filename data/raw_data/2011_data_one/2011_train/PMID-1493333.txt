@@ -1,0 +1,110 @@
+I kappa B/MAD-3 masks the nuclear localization signal of NF-kappa B p65 and requires the transactivation domain to inhibit NF-kappa B p65 DNA binding.
+# T1 Protein S1 10 15 10 15 MAD-3
+# T2 Protein S1 68 71 68 71 p65
+# T3 Protein S1 134 137 134 137 p65
+$ T2 Protein S1 68 71 68 71 p65
+$ T1 Protein S1 10 15 10 15 MAD-3
+$ T3 Protein S1 134 137 134 137 p65
+@ T27 Negative_regulation S1 16 21 16 21 masks
+@ T28 Entity S1 26 53 26 53 nuclear localization signal
+@ T29 Negative_regulation S1 115 122 115 122 inhibit
+@ T30 Binding S1 142 149 142 149 binding
+% E1 Negative_regulation:T27 Theme:T2 Cause:T1 Site:T28
+% E2 Negative_regulation:T29 Theme:E3 Cause:T1
+% E3 Binding:T30 Theme:T3
+
+The active nuclear form of the NF-kappa B transcription factor complex is composed of two DNA binding subunits, NF-kappa B p65 and NF-kappa B p50, both of which share extensive N-terminal sequence homology with the v-rel oncogene product.
+# T4 Protein S2 123 126 275 278 p65
+# T5 Protein S2 142 145 294 297 p50
+# T6 Protein S2 215 220 367 372 v-rel
+$ T4 Protein S2 123 126 275 278 p65
+$ T5 Protein S2 142 145 294 297 p50
+@ T31 Binding S2 63 70 215 222 complex
+@ T32 Binding S2 94 101 246 253 binding
+% E4 Binding:T31 Theme:T4 Theme2:T5
+% E5 Binding:T32 Theme:T5
+% E6 Binding:T32 Theme:T4
+
+The NF-kappa B p65 subunit provides the transactivation activity in this complex and serves as an intracellular receptor for a cytoplasmic inhibitor of NF-kappa B, termed I kappa B.
+# T7 Protein S3 15 18 406 409 p65
+$ T7 Protein S3 15 18 406 409 p65
+@ T33 Binding S3 112 120 503 511 receptor
+% E7 Binding:T33 Theme:T7
+
+In contrast, NF-kappa B p50 alone fails to stimulate kappa B-directed transcription, and based on prior in vitro studies, is not directly regulated by I kappa B. To investigate the molecular basis for the critical regulatory interaction between NF-kappa B and I kappa B/MAD-3, a series of human NF-kappa B p65 mutants was identified that functionally segregated DNA binding, I kappa B-mediated inhibition, and I kappa B-induced nuclear exclusion of this transcription factor.
+# T8 Protein S4 24 27 597 600 p50
+# T9 Protein S4 270 275 843 848 MAD-3
+# T10 Protein S4 306 309 879 882 p65
+$ T8 Protein S4 24 27 597 600 p50
+@ T34 Regulation S4 138 147 711 720 regulated
+% E8 Regulation:T34 Theme:T8
+
+Results from in vivo expression studies performed with these NF-kappa B p65 mutants revealed the following: 1) I kappa B/MAD-3 completely inhibits NF-kappa B p65-dependent transcriptional activation mediated through the human immunodeficiency virus type 1 kappa B enhancer in human T lymphocytes, 2) the binding of I kappa B/MAD-3 to NF-kappa B p65 is sufficient to retarget NF-kappa B p65 from the nucleus to the cytoplasm, 3) selective deletion of the functional nuclear localization signal present in the Rel homology domain of NF-kappa B p65 disrupts its ability to engage I kappa B/MAD-3, and 4) the unique C-terminus of NF-kappa B p65 attenuates its own nuclear localization and contains sequences that are required for I kappa B-mediated inhibition of NF-kappa B p65 DNA binding activity.
+# T11 Protein S5 72 75 1121 1124 p65
+# T12 Protein S5 121 126 1170 1175 MAD-3
+# T13 Protein S5 158 161 1207 1210 p65
+# T14 Protein S5 325 330 1374 1379 MAD-3
+# T15 Protein S5 345 348 1394 1397 p65
+# T16 Protein S5 386 389 1435 1438 p65
+# T17 Protein S5 542 545 1591 1594 p65
+# T18 Protein S5 587 592 1636 1641 MAD-3
+# T19 Protein S5 637 640 1686 1689 p65
+# T20 Protein S5 770 773 1819 1822 p65
+$ T14 Protein S5 325 330 1374 1379 MAD-3
+$ T15 Protein S5 345 348 1394 1397 p65
+$ T16 Protein S5 386 389 1435 1438 p65
+$ T17 Protein S5 542 545 1591 1594 p65
+$ T18 Protein S5 587 592 1636 1641 MAD-3
+$ T19 Protein S5 637 640 1686 1689 p65
+$ T20 Protein S5 770 773 1819 1822 p65
+@ T35 Binding S5 304 311 1353 1360 binding
+@ T36 Positive_regulation S5 352 362 1401 1411 sufficient
+@ T37 Localization S5 366 374 1415 1423 retarget
+@ T38 Entity S5 414 423 1463 1472 cytoplasm
+@ T39 Negative_regulation S5 438 446 1487 1495 deletion
+@ T40 Entity S5 465 492 1514 1541 nuclear localization signal
+@ T41 Negative_regulation S5 546 554 1595 1603 disrupts
+@ T42 Binding S5 570 576 1619 1625 engage
+@ T43 Entity S5 612 622 1661 1671 C-terminus
+@ T44 Negative_regulation S5 641 651 1690 1700 attenuates
+@ T45 Entity S5 660 667 1709 1716 nuclear
+@ T46 Localization S5 668 680 1717 1729 localization
+@ T47 Positive_regulation S5 713 721 1762 1770 required
+@ T48 Negative_regulation S5 745 755 1794 1804 inhibition
+@ T49 Binding S5 778 785 1827 1834 binding
+% E9 Binding:T35 Theme:T14 Theme2:T15
+% E10 Positive_regulation:T36 Theme:E11 Cause:E9
+% E11 Localization:T37 Theme:T16 ToLoc:T38
+% E12 Negative_regulation:T39 Theme:T17 Site:T40
+% E13 Negative_regulation:T41 Theme:E14 Cause:E12
+% E14 Binding:T42 Theme:T17 Theme2:T18
+% E15 Negative_regulation:T44 Theme:E16 Cause:T19 CSite:T43
+% E16 Localization:T46 Theme:T19 ToLoc:T45
+% E17 Positive_regulation:T47 Theme:E18 Cause:T19 CSite:T43
+% E18 Negative_regulation:T48 Theme:E19
+% E19 Binding:T49 Theme:T20
+
+Together, these findings suggest that the nuclear localization signal and transactivation domain of NF-kappa B p65 constitute a bipartite system that is critically involved in the inhibitory function of I kappa B/MAD-3.
+# T21 Protein S6 111 114 1956 1959 p65
+# T22 Protein S6 213 218 2058 2063 MAD-3
+
+Unexpectedly, our in vivo studies also demonstrate that I kappa B/MAD-3 binds directly to NF-kappa B p50.
+# T23 Protein S7 66 71 2131 2136 MAD-3
+# T24 Protein S7 101 104 2166 2169 p50
+$ T23 Protein S7 66 71 2131 2136 MAD-3
+$ T24 Protein S7 101 104 2166 2169 p50
+@ T50 Binding S7 72 77 2137 2142 binds
+% E20 Binding:T50 Theme:T23 Theme2:T24
+
+This interaction is functional as it leads to retargeting of NF-kappa B p50 from the nucleus to the cytoplasm.
+# T25 Protein S8 72 75 2243 2246 p50
+$ T25 Protein S8 72 75 2243 2246 p50
+@ T51 Positive_regulation S8 37 42 2208 2213 leads
+@ T52 Localization S8 46 57 2217 2228 retargeting
+@ T53 Entity S8 100 109 2271 2280 cytoplasm
+% E21 Positive_regulation:T51 Theme:E22 Cause:E20
+% E22 Localization:T52 Theme:T25 ToLoc:T53
+
+However, no loss of DNA binding activity is observed, presumably reflecting the unique C-terminal domain that is distinct from that present in NF-kappa B p65.
+# T26 Protein S9 154 157 2436 2439 p65
+

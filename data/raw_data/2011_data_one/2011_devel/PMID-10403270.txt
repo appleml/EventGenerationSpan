@@ -1,0 +1,62 @@
+Monoclonal anti-endothelial cell antibodies from a patient with Takayasu arteritis activate endothelial cells from large vessels.
+
+OBJECTIVE: To create monoclonal anti-endothelial cell antibodies (mAECA) from a patient with Takayasu arteritis to evaluate their ability to activate human umbilical vein endothelial cells (HUVEC), and to characterize the mechanism of EC activation.
+
+METHODS: A panel of mAECA was generated from peripheral blood lymphocytes of a patient with Takayasu arteritis, using Epstein-Barr virus transformation.
+
+Activity against macrovascular EC (HUVEC) and microvascular EC (human bone marrow EC immortalized by SV40) antigens was detected by enzyme-linked immunosorbent assay.
+
+Inhibition studies were used to select the monoclonal antibodies (mAECA) which share the same EC epitope binding specificity as the total IgG-AECA from the Takayasu arteritis patient.
+# T1 Protein S5 138 141 839 842 IgG
+
+The binding of the mAECA to human aortic EC was studied by immunohistochemistry.
+
+The secretion levels of interleukin-6 (IL-6) and von Willebrand factor (vWF) were determined, to serve as markers for EC activation.
+# T2 Protein S7 24 37 990 1003 interleukin-6
+# T3 Protein S7 39 43 1005 1009 IL-6
+# T4 Protein S7 49 70 1015 1036 von Willebrand factor
+# T5 Protein S7 72 75 1038 1041 vWF
+$ T3 Protein S7 39 43 1005 1009 IL-6
+$ T5 Protein S7 72 75 1038 1041 vWF
+@ T12 Localization S7 4 13 970 979 secretion
+% E1 Localization:T12 Theme:T3
+% E2 Localization:T12 Theme:T5
+
+The activated EC were examined for the adherence of a monocytic cell line (U937), as well as for expression of vascular cell adhesion molecule 1, intercellular adhesion molecule 1, and E-selectin.
+# T6 Protein S8 111 144 1210 1243 vascular cell adhesion molecule 1
+# T7 Protein S8 146 179 1245 1278 intercellular adhesion molecule 1
+# T8 Protein S8 185 195 1284 1294 E-selectin
+$ T7 Protein S8 146 179 1245 1278 intercellular adhesion molecule 1
+$ T8 Protein S8 185 195 1284 1294 E-selectin
+@ T13 Gene_expression S8 97 107 1196 1206 expression
+% E3 Gene_expression:T13 Theme:T7
+% E4 Gene_expression:T13 Theme:T5
+% E5 Gene_expression:T13 Theme:T8
+
+In addition, nuclear extracts of the mAECA-treated EC were analyzed for the induction of translocation of nuclear factor kappaB (NF-kappaB), using a specific NF-kappaB oligoprobe in an electrophoretic mobility shift assay.
+
+RESULTS: Six mAECA were selected, the mixture of which produced 100% inhibition of binding of the original IgG (from the patient with Takayasu arteritis) to HUVEC.
+
+All mAECA possessed high activity against macrovascular EC, but none had significant antimicrovascular EC activity.
+
+The mAECA, but not normal human IgG, had anti-human aortic EC activity.
+# T9 Protein S12 32 35 1831 1834 IgG
+
+Four of the 6 mAECA activated EC, manifested by increased IL-6 and vWF secretion.
+# T10 Protein S13 58 62 1929 1933 IL-6
+# T11 Protein S13 67 70 1938 1941 vWF
+$ T11 Protein S13 67 70 1938 1941 vWF
+$ T10 Protein S13 58 62 1929 1933 IL-6
+@ T14 Positive_regulation S13 48 57 1919 1928 increased
+@ T15 Localization S13 71 80 1942 1951 secretion
+% E6 Positive_regulation:T14 Theme:E9
+% E7 Positive_regulation:T14 Theme:E8
+% E8 Localization:T15 Theme:T11
+% E9 Localization:T15 Theme:T10
+
+The 4 mAECA induced EC expression of adhesion molecules and increased adhesion of U937 monocytic cells to EC.
+
+In addition, these mAECA stimulated the nuclear translocation of the NF-kappaB transcription factor.
+
+CONCLUSION: Our findings suggest that AECA may directly stimulate EC in Takayasu arteritis through elevation of adhesion molecule expression associated with NF-kappaB activation and adhesion of monocytes, and may therefore play a pathogenic role in the development of the vasculopathy in Takayasu arteritis.
+

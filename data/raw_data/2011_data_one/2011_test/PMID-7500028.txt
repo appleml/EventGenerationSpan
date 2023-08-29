@@ -1,0 +1,30 @@
+Regulation of the balance of cytokine production and the signal transducer and activator of transcription (STAT) transcription factor activity by cytokines and inflammatory synovial fluids.
+
+The balance between type 1 and 2 T helper cell cytokine production plays an important role in several animal models of autoimmunity, and skewed patterns of cytokine expression have been described in human inflammatory diseases.
+
+Many cytokines activate signal transducer and activation of transcription (STAT) transcription factors, which, in turn, activate transcription of inflammatory effector genes.
+
+We used mononuclear cell priming cultures and inflammatory synovial fluids (SFs) derived from arthritis patients to examine the regulation of cytokine production and STAT activity by an inflammatory synovial microenvironment.
+
+Exposure to SFs during priming resulted in an 81% inhibition of interferon (IFN)-gamma, but not interleukin (IL) 4, production by effector cells generated in priming cultures.
+# T1 Protein S5 64 86 884 906 interferon (IFN)-gamma
+# T2 Protein S5 96 114 916 934 interleukin (IL) 4
+
+SF suppression was mediated by IL-4 and IL-10 and inhibition of IL-12 expression, and it was reversed in a dominant fashion by exogenous IL-12.
+# T3 Protein S6 31 35 1027 1031 IL-4
+# T4 Protein S6 40 45 1036 1041 IL-10
+
+SFs blocked the sustained activity of transcription factor Stat1, but not Stat3, during the priming period, and Stat1 activity was differentially regulated by cytokines in parallel with their positive or negative regulation of IFN-gamma production.
+# T5 Protein S7 59 64 1199 1204 Stat1
+# T6 Protein S7 74 79 1214 1219 Stat3
+# T7 Protein S7 112 117 1252 1257 Stat1
+# T8 Protein S7 227 236 1367 1376 IFN-gamma
+
+Active Stat3, but not Stat1, was detected in cells from inflamed joints.
+# T9 Protein S8 7 12 1396 1401 Stat3
+# T10 Protein S8 22 27 1411 1416 Stat1
+
+These results suggest a role for altered balance of Stat1 and Stat3 transcriptional activity in the regulation of T cell differentiation and in the pathogenesis of inflammatory synovitis.
+# T11 Protein S9 52 57 1514 1519 Stat1
+# T12 Protein S9 62 67 1524 1529 Stat3
+

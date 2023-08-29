@@ -1,0 +1,79 @@
+Fluticasone propionate down-regulates Th2 cytokine gene expression and inhibits GATA-3 nuclear import.
+# T1 Protein S1 80 86 80 86 GATA-3
+$ T1 Protein S1 80 86 80 86 GATA-3
+@ T12 Negative_regulation S1 71 79 71 79 inhibits
+@ T13 Entity S1 87 94 87 94 nuclear
+@ T14 Localization S1 95 101 95 101 import
+% E1 Negative_regulation:T12 Theme:E2
+% E2 Localization:T14 Theme:T1 ToLoc:T13
+
+(A) Anti-CD3/CD28 treatment of HuT-78 cells results in translocation of GATA-3 from the cytoplasm to the nucleus within 30 min.
+# T2 Protein S2 72 78 175 181 GATA-3
+$ T2 Protein S2 72 78 175 181 GATA-3
+@ T15 Localization S2 55 68 158 171 translocation
+@ T16 Entity S2 105 112 208 215 nucleus
+% E3 Localization:T15 Theme:T2 ToLoc:T16
+
+(B) Histone H1 and MEK-1 were used to confirm distinct separation of cytoplasmic and nuclear extracts in three separate experiments.
+# T3 Protein S3 19 24 250 255 MEK-1
+
+(C) Western blot analysis of FP-treated HuT-78 cells demonstrated impaired nuclear localization of GATA-3 induced by anti-CD3/CD28 co-stimulation in a time- (at 10-8 M FP) and concentration- (at 60 min after stimulation) dependent manner.
+# T4 Protein S4 99 105 463 469 GATA-3
+$ T4 Protein S4 99 105 463 469 GATA-3
+@ T17 Entity S4 75 82 439 446 nuclear
+@ T18 Localization S4 83 95 447 459 localization
+@ T19 Positive_regulation S4 106 113 470 477 induced
+% E4 Localization:T18 Theme:T4 ToLoc:T17
+% E5 Positive_regulation:T19 Theme:E4
+
+Cells were pretreated with FP for 30 min prior to stimulation.
+
+MEK1 and histone H1 were used to demonstrate equal cytoplasmic and nuclear loading respectively.
+# T5 Protein S6 0 4 666 670 MEK1
+
+Results are presented graphically below as mean+/-SEM of at least three independent experiments.
+
+*** p<0.001 compared to t = 0.
+
+(D) RT-PCR showing that FP inhibits IL-4 and IL-5 mRNA expression in CD3/CD28-costimulated cells.
+# T6 Protein S9 36 40 927 931 IL-4
+# T7 Protein S9 45 49 936 940 IL-5
+# T8 Protein S9 69 72 960 963 CD3
+# T9 Protein S9 73 77 964 968 CD28
+$ T6 Protein S9 36 40 927 931 IL-4
+$ T7 Protein S9 45 49 936 940 IL-5
+$ T8 Protein S9 69 72 960 963 CD3
+$ T9 Protein S9 73 77 964 968 CD28
+@ T20 Negative_regulation S9 27 35 918 926 inhibits
+@ T21 Transcription S9 50 65 941 956 mRNA expression
+@ T22 Regulation S9 78 90 969 981 costimulated
+% E6 Negative_regulation:T20 Theme:E7
+% E8 Negative_regulation:T20 Theme:E9
+% E7 Transcription:T21 Theme:T6
+% E9 Transcription:T21 Theme:T7
+% E10 Regulation:T22 Theme:T8
+% E11 Regulation:T22 Theme:T9
+
+GAPDH was used as a loading control.
+
+Lower panels show graphical analysis of results presented as mean+/-SEM of at least three independent experiments.
+
+###p<0.001 compared to control, ***p<0.001 compared to anti-CD3/CD28-stimulated.
+
+(E) FP (10 nM) reduces the ability of anti-CD3/CD28-stimulated GATA-3 to associate with the native IL-5 promoter 60 min after stimulation.
+# T10 Protein S13 63 69 1285 1291 GATA-3
+# T11 Protein S13 99 103 1321 1325 IL-5
+$ T10 Protein S13 63 69 1285 1291 GATA-3
+$ T11 Protein S13 99 103 1321 1325 IL-5
+@ T23 Negative_regulation S13 15 22 1237 1244 reduces
+@ T24 Positive_regulation S13 52 62 1274 1284 stimulated
+@ T25 Binding S13 73 82 1295 1304 associate
+@ T26 Entity S13 104 112 1326 1334 promoter
+% E12 Negative_regulation:T23 Theme:E13
+% E14 Positive_regulation:T24 Theme:T10
+% E13 Binding:T25 Theme:T10 Theme2:T11 Site2:T26
+
+Data are also shown graphically as mean+/-SEM of three independent experiments.
+
+All data were analysed by ANOVA followed by Newman-Keuls post-test.
+

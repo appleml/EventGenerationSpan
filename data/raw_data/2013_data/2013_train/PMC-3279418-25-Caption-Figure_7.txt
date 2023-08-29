@@ -1,0 +1,31 @@
+Stimulated cpdm BMDC induced Th2-biased cytokine production from naive CD4+ T cells.
+
+WT and cpdm BMDC (5x104 cells in 0.1 mL complete medium; MHC haplotype: H-2b) were incubated with medium, 100 ng/mL LPS, 25 microg/mL poly I:C or 5 microg/mL Pam3CYS.
+
+After 24 hours, cells were washed with PBS and incubated with freshly isolated allogeneic naive CD4+ T cells (2.5x105 cells in 0.1 mL complete medium; MHC haplotype: H-2d).
+
+After 5 days, supernatants were collected and the secretion of IFNgamma, IL4, and IL2 were measured by ELISA.
+# T1 Protein S4 63 71 488 496 IFNgamma
+# T2 Protein S4 73 76 498 501 IL4
+# T3 Protein S4 82 85 507 510 IL2
+$ T1 Protein S4 63 71 488 496 IFNgamma
+$ T2 Protein S4 73 76 498 501 IL4
+$ T3 Protein S4 82 85 507 510 IL2
+@ T5 Gene_expression S4 50 59 475 484 secretion
+% E1 Gene_expression:T5 Theme:T1
+% E2 Gene_expression:T5 Theme:T2
+% E3 Gene_expression:T5 Theme:T3
+
+Negative controls are 1) stimulated BMDC without co-culture with allogeneic CD4+ T cells; 2) allogeneic CD4+ T cells without co-culture with stimulated BMDC.
+
+Samples from both negative controls had no detectable production of the aforementioned cytokines (not shown).
+@ T6 Gene_expression S6 54 64 747 757 production
+@ T4 Anaphora S6 68 96 761 789 the aforementioned cytokines
+% E4 Gene_expression:T6 Theme:T1
+% E5 Gene_expression:T6 Theme:T2
+% E6 Gene_expression:T6 Theme:T3
+
+Results are analyzed based on 2-4 mice per group.
+
+* P<0.05.
+

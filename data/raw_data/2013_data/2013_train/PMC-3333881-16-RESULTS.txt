@@ -1,0 +1,172 @@
+In HIV-1-infected monocytes Tat sustains the NF-kappaB activity and promotes the transcriptional activation of MIP-1alpha by interacting with IkappaB-alpha and p65
+# T1 Protein S1 28 31 28 31 Tat
+# T2 Protein S1 111 121 111 121 MIP-1alpha
+# T3 Protein S1 142 155 142 155 IkappaB-alpha
+# T4 Protein S1 160 163 160 163 p65
+$ T2 Protein S1 111 121 111 121 MIP-1alpha
+$ T1 Protein S1 28 31 28 31 Tat
+$ T3 Protein S1 142 155 142 155 IkappaB-alpha
+@ T45 Positive_regulation S1 68 76 68 76 promotes
+@ T46 Transcription S1 81 96 81 96 transcriptional
+@ T47 Positive_regulation S1 97 107 97 107 activation
+@ T48 Positive_regulation S1 122 124 122 124 by
+@ T49 Binding S1 125 136 125 136 interacting
+% E1 Positive_regulation:T45 Theme:E2
+% E3 Transcription:T46 Theme:T2
+% E2 Positive_regulation:T47 Theme:E3
+% E4 Positive_regulation:T48 Theme:E1 Cause:E5
+% E5 Binding:T49 Theme:T1 Theme2:T3
+
+We next analysed whether Tat affected the NF-kappaB activity and the expression of MIP-1alpha in the course of HIV-1 infection.
+# T5 Protein S2 25 28 189 192 Tat
+# T6 Protein S2 83 93 247 257 MIP-1alpha
+$ T5 Protein S2 25 28 189 192 Tat
+$ T6 Protein S2 83 93 247 257 MIP-1alpha
+@ T50 Regulation S2 29 37 193 201 affected
+@ T51 Gene_expression S2 69 79 233 243 expression
+% E6 Regulation:T50 Theme:E7 Cause:T5
+% E7 Gene_expression:T51 Theme:T6
+
+To detect the Tat protein, we produced HXB2 Env-pseudotyped NL4-3.
+# T7 Protein S3 14 17 306 309 Tat
+# T8 Protein S3 44 47 336 339 Env
+
+FLAG-Tat.
+# T9 Protein S4 0 8 358 366 FLAG-Tat
+
+R-E- virions, which were used in single-round infection of U937, a human monocytic cell line.
+
+Cells were transfected with siRNA Tat, siRNA control or left untransfected to modulate the Tat expression, and then analysed for the kinetic of NF-kappaB activation following viral infection.
+# T10 Protein S6 28 37 489 498 siRNA Tat
+# T11 Protein S6 91 94 552 555 Tat
+$ T11 Protein S6 91 94 552 555 Tat
+@ T52 Regulation S6 78 86 539 547 modulate
+@ T53 Gene_expression S6 95 105 556 566 expression
+% E8 Regulation:T52 Theme:E9
+% E9 Gene_expression:T53 Theme:T11
+
+The expression of Tat and p24 was detected at 3- to 12-h post-infection, while it was barely detected in siRNA Tat-transfected cells (Figure 6A).
+# T12 Protein S7 18 21 671 674 Tat
+# T13 Protein S7 26 29 679 682 p24
+# T14 Protein S7 105 114 758 767 siRNA Tat
+$ T12 Protein S7 18 21 671 674 Tat
+$ T13 Protein S7 26 29 679 682 p24
+$ T14 Protein S7 105 114 758 767 siRNA Tat
+@ T54 Gene_expression S7 4 14 657 667 expression
+@ T43 Anaphora S7 79 81 732 734 it
+@ T55 Negative_regulation S7 93 101 746 754 detected
+% E10 Gene_expression:T54 Theme:T12
+% E11 Gene_expression:T54 Theme:T13
+% E12 Negative_regulation:T55 Theme:E10 Cause:T14
+% E13 Negative_regulation:T55 Theme:E11 Cause:T14
+
+The NF-kappaB activity, as measured by p65 DNA binding, was induced at 3-h post-infection in both Tat-positive (no siRNA and siRNA control) and Tat-negative cells (siRNA Tat), and increased at 12 h only in Tat-positive cells (Figure 6B).
+# T15 Protein S8 39 42 838 841 p65
+# T16 Protein S8 98 101 897 900 Tat
+# T17 Protein S8 144 147 943 946 Tat
+# T18 Protein S8 164 173 963 972 siRNA Tat
+# T19 Protein S8 206 209 1005 1008 Tat
+$ T15 Protein S8 39 42 838 841 p65
+$ T19 Protein S8 206 209 1005 1008 Tat
+@ T56 Binding S8 47 54 846 853 binding
+@ T57 Positive_regulation S8 60 67 859 866 induced
+@ T58 Positive_regulation S8 180 189 979 988 increased
+% E14 Binding:T56 Theme:T15
+% E15 Positive_regulation:T57 Theme:E14
+% E16 Positive_regulation:T58 Theme:E14 Cause:T19
+
+Degradation of IkappaB-alpha was observed at 3-h post-infection, and was followed by de novo synthesis of IkappaB-alpha at 12 h independently of the Tat presence (Figure 6C).
+# T20 Protein S9 15 28 1052 1065 IkappaB-alpha
+# T21 Protein S9 106 119 1143 1156 IkappaB-alpha
+# T22 Protein S9 149 152 1186 1189 Tat
+$ T20 Protein S9 15 28 1052 1065 IkappaB-alpha
+$ T21 Protein S9 106 119 1143 1156 IkappaB-alpha
+$ T22 Protein S9 149 152 1186 1189 Tat
+@ T59 Protein_catabolism S9 0 11 1037 1048 Degradation
+@ T60 Positive_regulation S9 73 81 1110 1118 followed
+@ T61 Gene_expression S9 93 102 1130 1139 synthesis
+@ T62 Regulation S9 128 141 1165 1178 independently
+% E17 Protein_catabolism:T59 Theme:T20
+% E18 Positive_regulation:T60 Theme:E19 Cause:E17
+% E19 Gene_expression:T61 Theme:T21
+% E20 Regulation:T62 Theme:E19 Cause:T22
+
+Consistently, the IKK activity was induced at 3-h post-infection and turned off at 12 h independently of the Tat presence (Figure 6D).
+# T23 Protein S10 109 112 1321 1324 Tat
+
+These results agreed with the kinetic of NF-kappaB activation in single-round HIV-1 infection of Jurkat cells (Figure 1), and further supported the requirement of viral expression to counteract the post-activation turn off of NF-kappaB.
+
+In HIV-1-infected U937 cells, the endogenous Tat was coimmunoprecipitated with IkappaB-alpha and p65 (Figure 6E), and activated the MIP-1alpha expression in a p65-dependent manner, as shown by the lack of effect following RNA interference of Tat or p65 (Figure 6F).
+# T24 Protein S12 45 48 1629 1632 Tat
+# T25 Protein S12 79 92 1663 1676 IkappaB-alpha
+# T26 Protein S12 97 100 1681 1684 p65
+# T27 Protein S12 132 142 1716 1726 MIP-1alpha
+# T28 Protein S12 159 162 1743 1746 p65
+# T29 Protein S12 242 245 1826 1829 Tat
+# T30 Protein S12 249 252 1833 1836 p65
+$ T24 Protein S12 45 48 1629 1632 Tat
+$ T25 Protein S12 79 92 1663 1676 IkappaB-alpha
+$ T28 Protein S12 159 162 1743 1746 p65
+$ T27 Protein S12 132 142 1716 1726 MIP-1alpha
+@ T63 Binding S12 53 73 1637 1657 coimmunoprecipitated
+@ T64 Positive_regulation S12 118 127 1702 1711 activated
+@ T65 Gene_expression S12 143 153 1727 1737 expression
+@ T66 Positive_regulation S12 163 172 1747 1756 dependent
+@ T67 Negative_regulation S12 197 201 1781 1785 lack
+@ T44 Anaphora S12 205 211 1789 1795 effect
+@ T68 Positive_regulation S12 212 221 1796 1805 following
+% E21 Binding:T63 Theme:T24 Theme2:T25
+% E22 Positive_regulation:T64 Theme:T28 Cause:T24
+% E23 Gene_expression:T65 Theme:T27
+% E24 Positive_regulation:T66 Theme:E23 Cause:E22
+% E25 Negative_regulation:T67 Theme:E22
+% E26 Positive_regulation:T68 Theme:E25
+
+Moreover, Tat and p65 were both recruited to the NF-kappaB enhancer of MIP-1alpha, while the p65 occupancy was abolished by siRNA Tat (Figure 6G and H).
+# T31 Protein S13 10 13 1860 1863 Tat
+# T32 Protein S13 18 21 1868 1871 p65
+# T33 Protein S13 71 81 1921 1931 MIP-1alpha
+# T34 Protein S13 93 96 1943 1946 p65
+# T35 Protein S13 124 133 1974 1983 siRNA Tat
+$ T31 Protein S13 10 13 1860 1863 Tat
+$ T33 Protein S13 71 81 1921 1931 MIP-1alpha
+$ T34 Protein S13 93 96 1943 1946 p65
+$ T35 Protein S13 124 133 1974 1983 siRNA Tat
+@ T69 Binding S13 32 41 1882 1891 recruited
+@ T70 Entity S13 49 67 1899 1917 NF-kappaB enhancer
+@ T71 Binding S13 97 106 1947 1956 occupancy
+@ T72 Negative_regulation S13 111 120 1961 1970 abolished
+% E27 Binding:T69 Theme:T31 Theme2:T33 Site2:T70
+% E28 Binding:T71 Theme:T33 Theme2:T34 Site:T70
+% E29 Negative_regulation:T72 Theme:E28 Cause:T35
+
+Altogether these results indicated that in single round HIV-1 infection Tat associated with IkappaB-alpha and p65, and induced the p65-dependent activation of MIP-1alpha expression through occupancy of the MIP-1alpha promoter and increased recruitment of p65.
+# T36 Protein S14 72 75 2075 2078 Tat
+# T37 Protein S14 92 105 2095 2108 IkappaB-alpha
+# T38 Protein S14 110 113 2113 2116 p65
+# T39 Protein S14 131 134 2134 2137 p65
+# T40 Protein S14 159 169 2162 2172 MIP-1alpha
+# T41 Protein S14 206 216 2209 2219 MIP-1alpha
+# T42 Protein S14 255 258 2258 2261 p65
+$ T36 Protein S14 72 75 2075 2078 Tat
+$ T37 Protein S14 92 105 2095 2108 IkappaB-alpha
+$ T39 Protein S14 131 134 2134 2137 p65
+$ T40 Protein S14 159 169 2162 2172 MIP-1alpha
+$ T41 Protein S14 206 216 2209 2219 MIP-1alpha
+$ T42 Protein S14 255 258 2258 2261 p65
+@ T73 Binding S14 76 86 2079 2089 associated
+@ T74 Positive_regulation S14 119 126 2122 2129 induced
+@ T75 Positive_regulation S14 145 155 2148 2158 activation
+@ T76 Gene_expression S14 170 180 2173 2183 expression
+@ T77 Binding S14 189 198 2192 2201 occupancy
+@ T78 Entity S14 217 225 2220 2228 promoter
+@ T79 Positive_regulation S14 230 239 2233 2242 increased
+@ T80 Binding S14 240 251 2243 2254 recruitment
+% E30 Binding:T73 Theme:T36 Theme2:T37
+% E31 Positive_regulation:T74 Theme:E32
+% E32 Positive_regulation:T75 Theme:E33 Cause:T39
+% E33 Gene_expression:T76 Theme:T40
+% E34 Binding:T77 Theme:T36 Theme2:T41 Site2:T78
+% E35 Positive_regulation:T79 Theme:E36 Cause:T36
+% E36 Binding:T80 Theme:T41 Theme2:T42 Site:T78
+

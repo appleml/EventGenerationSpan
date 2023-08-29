@@ -1,0 +1,36 @@
+A polymorphism that affects OCT-1 binding to the TNF promoter region is associated with severe malaria [see comments]
+# T1 Protein S1 28 33 28 33 OCT-1
+# T2 Protein S1 49 52 49 52 TNF
+$ T1 Protein S1 28 33 28 33 OCT-1
+$ T2 Protein S1 49 52 49 52 TNF
+@ T9 Regulation S1 20 27 20 27 affects
+@ T10 Binding S1 34 41 34 41 binding
+@ T11 Entity S1 53 68 53 68 promoter region
+% E1 Regulation:T9 Theme:E2
+% E2 Binding:T10 Theme:T1 Theme2:T2 Site2:T11
+
+Genetic variation in cytokine promoter regions is postulated to influence susceptibility to infection, but the molecular mechanisms by which such polymorphisms might affect gene regulation are unknown.
+
+Through systematic DNA footprinting of the TNF (encoding tumour necrosis factor, TNF) promoter region, we have identified a single nucleotide polymorphism (SNP) that causes the helix-turn-helix transcription factor OCT-1 to bind to a novel region of complex protein-DNA interactions and alters gene expression in human monocytes.
+# T3 Protein S3 43 46 364 367 TNF
+# T4 Protein S3 57 79 378 400 tumour necrosis factor
+# T5 Protein S3 81 84 402 405 TNF
+# T6 Protein S3 215 220 536 541 OCT-1
+$ T6 Protein S3 215 220 536 541 OCT-1
+$ T5 Protein S3 81 84 402 405 TNF
+@ T12 Positive_regulation S3 166 172 487 493 causes
+@ T13 Binding S3 224 228 545 549 bind
+@ T14 Regulation S3 287 293 608 614 alters
+@ T15 Gene_expression S3 299 309 620 630 expression
+% E3 Positive_regulation:T12 Theme:E4
+% E4 Binding:T13 Theme:T6
+% E5 Regulation:T14 Theme:E6
+% E6 Gene_expression:T15 Theme:T5
+
+The OCT-1-binding genotype, found in approximately 5% of Africans, is associated with fourfold increased susceptibility to cerebral malaria in large case-control studies of West African and East African populations, after correction for other known TNF polymorphisms and linked HLA alleles.
+# T7 Protein S4 4 9 655 660 OCT-1
+# T8 Protein S4 249 252 900 903 TNF
+$ T7 Protein S4 4 9 655 660 OCT-1
+@ T16 Binding S4 10 26 661 677 binding genotype
+% E7 Binding:T16 Theme:T2 Theme2:T7 Site:T11
+

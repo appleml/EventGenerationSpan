@@ -1,0 +1,23 @@
+TAT-GATA3 transduction.
+# T1 Protein S1 0 3 0 3 TAT
+# T2 Protein S1 4 9 4 9 GATA3
+
+CD4+CD45RA+ cells were cultured in AIMV medium and transduced with 20 nM, 10 nM, or 500 nM of full-length or truncated GATA3 over the course of 4 h.
+# T3 Protein S2 0 3 24 27 CD4
+# T4 Protein S2 4 10 28 34 CD45RA
+# T5 Protein S2 119 124 143 148 GATA3
+
+After 4 h, the cells were washed and activated with soluble anti-CD3 and anti-CD28 and TGF-beta (10 ng/ml).
+# T6 Protein S3 65 68 238 241 CD3
+# T7 Protein S3 78 82 251 255 CD28
+# T8 Protein S3 87 95 260 268 TGF-beta
+
+Each day, the TAT proteins were freshly added to the medium.
+# T9 Protein S4 14 17 295 298 TAT
+
+FOXP3 expression was measured after 5 d by intracellular staining.
+# T10 Protein S5 0 5 342 347 FOXP3
+$ T10 Protein S5 0 5 342 347 FOXP3
+@ T11 Gene_expression S5 6 16 348 358 expression
+% E1 Gene_expression:T11 Theme:T10
+

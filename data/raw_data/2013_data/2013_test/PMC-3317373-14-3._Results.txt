@@ -1,0 +1,23 @@
+3.4.
+
+Expression and Activity of MMP9 Were Greatly Enhanced in Nrf2 Knockout Astrocytes after Scratch Injury
+# T1 Protein S2 27 31 32 36 MMP9
+
+MMP9 is an important gelatinase to induce or aggravate the inflammation process.
+# T2 Protein S3 0 4 108 112 MMP9
+
+In the present study, we elevated the mRNA, protein levels, and activity of MMP9 in astrocytes at 24 h after scratch injury by RT-PCR, western blot, and gelatine zymography.
+# T3 Protein S4 76 80 265 269 MMP9
+
+Expression of MMP9 was elevated after scratch injury in WT and KO astrocytes as compared with their sham counterparts.
+# T4 Protein S5 14 18 377 381 MMP9
+
+The mRNA level of MMP9 was higher in group KO TBI than in group WT TBI (1.36 +/- 0.090 versus 1.01 +/- 0.068, P < 0.01) (Figures 3(a) and 3(e)).
+# T5 Protein S6 18 22 500 504 MMP9
+
+Significant difference was also discovered in MMP9 protein level by western blot, as 1.44 +/- 0.076 for group KO TBI and 1.13 +/- 0.048 for group WT TBI (P < 0.01) (Figure 5).
+# T6 Protein S7 46 50 673 677 MMP9
+
+Gelatine zymography revealed higher MMP9 activity in group KO TBI than that in group WT TBI too (101.76 +/- 6.343 versus 76.32 +/- 3.388, P < 0.01) (Figure 6).
+# T7 Protein S8 36 40 839 843 MMP9
+

@@ -1,0 +1,81 @@
+IL-12-induced activation of NK and T cells occurs in the absence of immediate-early activation gene expression.
+
+The responses of lymphocytes to IL-2 and IL-12, involving proliferation, differentiation, and cytokine production, are only partially overlapping, and may depend on induced differential expression of specific sets of genes.
+
+Using reverse-transcription PCR differential display, we isolated an mRNA species expressed in IL-2- but not IL-12-stimulated NK cells.
+# T1 Protein S3 95 99 432 436 IL-2
+
+This was identified as the mRNA encoding the transcription factor egr-1, which is expressed with fast kinetics in T and NK cells upon IL-2, but not IL-12, stimulation.
+# T2 Protein S4 66 71 539 544 egr-1
+# T3 Protein S4 134 138 607 611 IL-2
+$ T2 Protein S4 66 71 539 544 egr-1
+@ T19 Gene_expression S4 82 91 555 564 expressed
+% E1 Gene_expression:T19 Theme:T2
+
+Analysis of the accumulation of mRNA-encoding members of the AP-1 transcription factor family demonstrated that c-fos and junB are also expressed upon stimulation of NK and T cells with IL-2, but not IL-12, whereas expression of c-jun and junD is not modified by either cytokine.
+# T4 Protein S5 112 117 753 758 c-fos
+# T5 Protein S5 122 126 763 767 junB
+# T6 Protein S5 186 190 827 831 IL-2
+# T7 Protein S5 229 234 870 875 c-jun
+# T8 Protein S5 239 243 880 884 junD
+$ T4 Protein S5 112 117 753 758 c-fos
+$ T5 Protein S5 122 126 763 767 junB
+$ T8 Protein S5 239 243 880 884 junD
+$ T7 Protein S5 229 234 870 875 c-jun
+$ T6 Protein S5 186 190 827 831 IL-2
+@ T20 Gene_expression S5 136 145 777 786 expressed
+@ T21 Positive_regulation S5 146 150 787 791 upon
+@ T22 Gene_expression S5 215 225 856 866 expression
+@ T23 Positive_regulation S5 251 259 892 900 modified
+% E2 Gene_expression:T20 Theme:T4
+% E3 Gene_expression:T20 Theme:T5
+% E4 Positive_regulation:T21 Theme:E2
+% E5 Positive_regulation:T21 Theme:E3
+% E6 Gene_expression:T22 Theme:T8
+% E7 Gene_expression:T22 Theme:T7
+% E8 Positive_regulation:T23 Theme:E7
+% E9 Positive_regulation:T23 Theme:E6 Cause:T6
+% E10 Positive_regulation:T23 Theme:E7 Cause:T6
+% E11 Positive_regulation:T23 Theme:E6
+
+Accordingly, increased AP-1 DNA-binding activity and AP-1-dependent transcriptional activity were detected exclusively in IL-2-stimulated cells.
+# T9 Protein S6 122 126 1043 1047 IL-2
+
+Analysis of the expression of genes reported to regulate cytokine-induced proliferation demonstrated that both IL-2 and IL-12 induce c-myc mRNA accumulation in NK and T cells, whereas only IL-2 induces bcl-2 expression.
+# T10 Protein S7 111 115 1177 1181 IL-2
+# T11 Protein S7 133 138 1199 1204 c-myc
+# T12 Protein S7 189 193 1255 1259 IL-2
+# T13 Protein S7 202 207 1268 1273 bcl-2
+$ T10 Protein S7 111 115 1177 1181 IL-2
+$ T11 Protein S7 133 138 1199 1204 c-myc
+$ T12 Protein S7 189 193 1255 1259 IL-2
+$ T13 Protein S7 202 207 1268 1273 bcl-2
+@ T24 Positive_regulation S7 126 132 1192 1198 induce
+@ T25 Positive_regulation S7 144 156 1210 1222 accumulation
+@ T26 Positive_regulation S7 194 201 1260 1267 induces
+@ T27 Gene_expression S7 208 218 1274 1284 expression
+% E12 Positive_regulation:T24 Theme:E14 Cause:T10
+% E13 Positive_regulation:T24 Theme:E14
+% E14 Positive_regulation:T25 Theme:T11
+% E15 Positive_regulation:T26 Theme:E16 Cause:T12
+% E16 Gene_expression:T27 Theme:T13
+
+Our data provide the first demonstration that IL-12-mediated activation of T and NK cells does not involve expression of members of the immediate-early activation genes family (egr-1, c-fos, and junB), AP-1 transcriptional activity, or bcl-2 expression.
+# T14 Protein S8 177 182 1463 1468 egr-1
+# T15 Protein S8 184 189 1470 1475 c-fos
+# T16 Protein S8 195 199 1481 1485 junB
+# T17 Protein S8 236 241 1522 1527 bcl-2
+$ T16 Protein S8 195 199 1481 1485 junB
+$ T14 Protein S8 177 182 1463 1468 egr-1
+$ T15 Protein S8 184 189 1470 1475 c-fos
+$ T17 Protein S8 236 241 1522 1527 bcl-2
+@ T28 Gene_expression S8 107 117 1393 1403 expression
+@ T29 Gene_expression S8 242 252 1528 1538 expression
+% E17 Gene_expression:T28 Theme:T16
+% E18 Gene_expression:T28 Theme:T14
+% E19 Gene_expression:T28 Theme:T15
+% E20 Gene_expression:T29 Theme:T17
+
+This indicates that functional differences observed in IL-2- and IL-12-stimulated cells may depend, at least in part, on differential gene regulation.
+# T18 Protein S9 55 59 1595 1599 IL-2
+

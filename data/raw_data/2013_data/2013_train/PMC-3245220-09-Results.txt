@@ -1,0 +1,171 @@
+Identification of PKCalpha as the Upstream Activator of NF-kappaB in Myeloid Cells
+
+Even though the PKC family consists of 10 members, finding that PKCalpha/beta inhibitors and intracellular calcium inhibitors reduced M-CSF-induced NF-kappaB activity, suggested PKCalpha was involved in NF-kappaB activation after M-CSF treatment.
+# T1 Protein S2 64 72 147 155 PKCalpha
+# T2 Protein S2 73 77 156 160 beta
+# T3 Protein S2 178 186 261 269 PKCalpha
+$ T1 Protein S2 64 72 147 155 PKCalpha
+$ T2 Protein S2 73 77 156 160 beta
+@ T37 Negative_regulation S2 78 88 161 171 inhibitors
+% E1 Negative_regulation:T37 Theme:T1
+% E2 Negative_regulation:T37 Theme:T2
+
+To confirm the role of PKCalpha in NF-kappaB activation in macrophages, constructs for either wildtype (WT)-PKCalpha or kinase-deficient (KD)-PKCalpha was co-transfected with the pNF-kappaB-SEAP reporter gene and SEAP secretion was measured.
+# T4 Protein S3 23 31 353 361 PKCalpha
+# T5 Protein S3 108 116 438 446 PKCalpha
+# T6 Protein S3 142 150 472 480 PKCalpha
+$ T6 Protein S3 142 150 472 480 PKCalpha
+$ T5 Protein S3 108 116 438 446 PKCalpha
+@ T38 Negative_regulation S3 120 136 450 466 kinase-deficient
+@ T39 Gene_expression S3 155 169 485 499 co-transfected
+% E3 Negative_regulation:T38 Theme:T6
+% E4 Gene_expression:T39 Theme:T5
+
+As shown in Figure 7A, MDMs co-transfected with pNF-kappaB-SEAP and WT-PKCalpha had a 1.8-fold increase in NF-kappaB transcriptional activity after M-CSF activation compared with NS cells (p = 0.05), similar to M-CSF-treated cells expressing only pNF-kappaB-SEAP.
+# T7 Protein S4 71 79 643 651 PKCalpha
+$ T7 Protein S4 71 79 643 651 PKCalpha
+@ T40 Gene_expression S4 28 42 600 614 co-transfected
+% E5 Gene_expression:T40 Theme:T7
+
+Transfecting human macrophages with the KD-PKCalpha construct significantly reduced M-CSF-induced NF-kappaB activity compared to WT-PKCalpha transfected cells (p = 0.016).
+# T8 Protein S5 43 51 879 887 PKCalpha
+# T9 Protein S5 132 140 968 976 PKCalpha
+$ T8 Protein S5 43 51 879 887 PKCalpha
+$ T9 Protein S5 132 140 968 976 PKCalpha
+@ T41 Negative_regulation S5 40 42 876 878 KD
+@ T42 Gene_expression S5 141 152 977 988 transfected
+% E6 Negative_regulation:T41 Theme:T8
+% E7 Gene_expression:T42 Theme:T9
+
+Similarly, RAW 264.7 cells transfected with WT-PKCalpha had 2.5-fold more NF-kappaB transcriptional activity after M-CSF activation compared to unstimulated RAW 264.7 cells (NS) transfected with WT-PKCalpha (Figure 7B).
+# T10 Protein S6 47 55 1055 1063 PKCalpha
+# T11 Protein S6 198 206 1206 1214 PKCalpha
+$ T10 Protein S6 47 55 1055 1063 PKCalpha
+$ T11 Protein S6 198 206 1206 1214 PKCalpha
+@ T43 Gene_expression S6 27 38 1035 1046 transfected
+@ T44 Gene_expression S6 178 189 1186 1197 transfected
+% E8 Gene_expression:T43 Theme:T10
+% E9 Gene_expression:T44 Theme:T11
+
+Expression of the KD-PKCalpha construct into RAW 264.7 cells reduced M-CSF-induced NF-kappaB activity to 1.5-fold (p = 0.045) compared to cells transfected with WT PKCalpha.
+# T12 Protein S7 21 29 1249 1257 PKCalpha
+# T13 Protein S7 164 172 1392 1400 PKCalpha
+$ T12 Protein S7 21 29 1249 1257 PKCalpha
+$ T13 Protein S7 164 172 1392 1400 PKCalpha
+@ T45 Negative_regulation S7 18 20 1246 1248 KD
+@ T46 Gene_expression S7 144 155 1372 1383 transfected
+% E10 Negative_regulation:T45 Theme:T12
+% E11 Gene_expression:T46 Theme:T13
+
+Cell survival was also examined in MDMs expressing either WT-PKCalpha or KD-PKCalpha constructs by Annexin V-FITC and PI staining.
+# T14 Protein S8 61 69 1463 1471 PKCalpha
+# T15 Protein S8 76 84 1478 1486 PKCalpha
+# T16 Protein S8 99 108 1501 1510 Annexin V
+$ T14 Protein S8 61 69 1463 1471 PKCalpha
+$ T15 Protein S8 76 84 1478 1486 PKCalpha
+@ T47 Gene_expression S8 40 50 1442 1452 expressing
+@ T48 Negative_regulation S8 73 75 1475 1477 KD
+% E12 Gene_expression:T47 Theme:T14
+% E13 Negative_regulation:T48 Theme:T15
+
+As expected, M-CSF increased MDM survival as measured by the percent of Annexin V/PI negative cells.
+# T17 Protein S9 72 81 1605 1614 Annexin V
+$ T17 Protein S9 72 81 1605 1614 Annexin V
+@ T49 Negative_regulation S9 85 93 1618 1626 negative
+% E14 Negative_regulation:T49 Theme:T17
+
+Similarly, expression of WT-PKCalpha protected cells from apoptosis.
+# T18 Protein S10 28 36 1662 1670 PKCalpha
+$ T18 Protein S10 28 36 1662 1670 PKCalpha
+@ T50 Gene_expression S10 11 21 1645 1655 expression
+% E15 Gene_expression:T50 Theme:T18
+
+In contrast, expression of KD-PKCalpha decreased M-CSF-induced cell survival (p<0.01) (Figure 7C).
+# T19 Protein S11 30 38 1733 1741 PKCalpha
+$ T19 Protein S11 30 38 1733 1741 PKCalpha
+@ T51 Negative_regulation S11 27 29 1730 1732 KD
+% E16 Negative_regulation:T51 Theme:T19
+
+Next, we examined the effect of expressing the PKCalpha constructs on NF-kappaB phosphorylation.
+# T20 Protein S12 47 55 1849 1857 PKCalpha
+$ T20 Protein S12 47 55 1849 1857 PKCalpha
+@ T52 Gene_expression S12 32 42 1834 1844 expressing
+% E17 Gene_expression:T52 Theme:T20
+
+As shown in Figure 7D, expression of KD-PKCalpha in RAW 264.7 cells did not affect the constitutive phosphorylation at Ser536 of NF-kappaB p65, but attenuated the phosphorylation at Ser276.
+# T21 Protein S13 40 48 1939 1947 PKCalpha
+# T22 Protein S13 139 142 2038 2041 p65
+$ T21 Protein S13 40 48 1939 1947 PKCalpha
+$ T22 Protein S13 139 142 2038 2041 p65
+@ T53 Negative_regulation S13 37 39 1936 1938 KD
+@ T54 Regulation S13 76 82 1975 1981 affect
+@ T55 Phosphorylation S13 100 115 1999 2014 phosphorylation
+@ T56 Entity S13 119 125 2018 2024 Ser536
+@ T57 Negative_regulation S13 148 158 2047 2057 attenuated
+@ T58 Phosphorylation S13 163 178 2062 2077 phosphorylation
+@ T59 Entity S13 182 188 2081 2087 Ser276
+% E18 Negative_regulation:T53 Theme:T21
+% E19 Regulation:T54 Theme:E20 Cause:E18
+% E20 Phosphorylation:T55 Theme:T22 Site:T56
+% E21 Negative_regulation:T57 Theme:E22 Cause:E18
+% E22 Phosphorylation:T58 Theme:T22 Site:T59
+
+Expression of WT-PKCalpha did not effect the phosphorylation of either residue with or without M-CSF stimulation.
+# T23 Protein S14 17 25 2106 2114 PKCalpha
+$ T23 Protein S14 17 25 2106 2114 PKCalpha
+@ T60 Gene_expression S14 0 10 2089 2099 Expression
+@ T61 Regulation S14 34 40 2123 2129 effect
+@ T62 Phosphorylation S14 45 60 2134 2149 phosphorylation
+@ T36 Anaphora S14 64 78 2153 2167 either residue
+@ T63 Regulation S14 79 94 2168 2183 with or without
+% E23 Gene_expression:T60 Theme:T23
+% E24 Regulation:T61 Theme:E25 Cause:E23
+% E26 Regulation:T61 Theme:E27 Cause:E23
+% E25 Phosphorylation:T62 Theme:T22 Site:T56
+% E27 Phosphorylation:T62 Theme:T22 Site:T59
+% E28 Regulation:T63 Theme:E24
+% E29 Regulation:T63 Theme:E26
+
+These observations demonstrate that PKCalpha is important in M-CSF-regulated cell survival and NF-kappaB activation and likely regulated through phosphorylation of Ser276 of NF-kappaB p65.
+# T24 Protein S15 36 44 2239 2247 PKCalpha
+# T25 Protein S15 184 187 2387 2390 p65
+$ T25 Protein S15 184 187 2387 2390 p65
+@ T64 Phosphorylation S15 145 160 2348 2363 phosphorylation
+@ T65 Entity S15 164 170 2367 2373 Ser276
+% E30 Phosphorylation:T64 Theme:T25 Site:T65
+
+To further validate the impact that PKCalpha played in M-CSF-induced NF-kappaB transcriptional activity, we next employed PKCalpha siRNA treatment of MDM or RAW cells.
+# T26 Protein S16 36 44 2428 2436 PKCalpha
+# T27 Protein S16 122 136 2514 2528 PKCalpha siRNA
+
+A pool of specific PKCalpha siRNA were transfected into MDM or Raw 264.7 cells in the presence or absence or M-CSF.
+# T28 Protein S17 19 33 2579 2593 PKCalpha siRNA
+
+Reducing native PKCalpha expression decreased M-CSF-induced NF-kappaB transcriptional activity in both MDM (Figure 7E) (p = 0.012) and Raw 264.7 cells (Figure 7F) (p = 0.01).
+# T29 Protein S18 16 24 2692 2700 PKCalpha
+$ T29 Protein S18 16 24 2692 2700 PKCalpha
+@ T66 Negative_regulation S18 0 8 2676 2684 Reducing
+@ T67 Gene_expression S18 25 35 2701 2711 expression
+% E31 Negative_regulation:T66 Theme:E32
+% E32 Gene_expression:T67 Theme:T29
+
+We also examined cell survival of the MDMs by Annexin V-FITC and PI staining after PKCalpha siRNA transfection.
+# T30 Protein S19 46 55 2897 2906 Annexin V
+# T31 Protein S19 83 97 2934 2948 PKCalpha siRNA
+
+As shown in Figure 7G, M-CSF-induced MDM survival was reduced in the cells transfected with PKCalpha siRNA compared with cells transfected with control siRNA (p = 0.047).
+# T32 Protein S20 92 106 3055 3069 PKCalpha siRNA
+
+In Figure 7H, we confirmed that PKCalpha siRNA transfection decreased PKCalpha protein expression in both MDM and Raw 264.7 cells.
+# T33 Protein S21 32 46 3166 3180 PKCalpha siRNA
+# T34 Protein S21 70 78 3204 3212 PKCalpha
+$ T33 Protein S21 32 46 3166 3180 PKCalpha siRNA
+$ T34 Protein S21 70 78 3204 3212 PKCalpha
+@ T68 Negative_regulation S21 60 69 3194 3203 decreased
+@ T69 Gene_expression S21 87 97 3221 3231 expression
+% E33 Negative_regulation:T68 Theme:E34 Cause:T33
+% E34 Gene_expression:T69 Theme:T34
+
+Our results indicated that PKCalpha regulated NF-kappaB activation and M-CSF-regulated cell survival.
+# T35 Protein S22 27 35 3292 3300 PKCalpha
+

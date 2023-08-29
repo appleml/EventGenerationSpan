@@ -1,0 +1,101 @@
+Itk, a T cell-specific tyrosine kinase, is required for CD2-mediated interleukin-2 promoter activation in the human T cell line Jurkat.
+# T1 Protein S1 0 3 0 3 Itk
+# T2 Protein S1 56 59 56 59 CD2
+# T3 Protein S1 69 82 69 82 interleukin-2
+$ T1 Protein S1 0 3 0 3 Itk
+$ T3 Protein S1 69 82 69 82 interleukin-2
+$ T2 Protein S1 56 59 56 59 CD2
+@ T22 Positive_regulation S1 43 51 43 51 required
+@ T23 Positive_regulation S1 92 102 92 102 activation
+% E1 Positive_regulation:T22 Theme:E2 Cause:T1
+% E2 Positive_regulation:T23 Theme:T3 Cause:T2
+
+We investigated the functional role of Itk, a member of the cytoplasmic tyrosine kinase Tec family, in T cell activation.
+# T4 Protein S2 39 42 176 179 Itk
+
+Stimulation of either CD2 or T cell receptor (TCR)/CD3 on Tcells by monoclonal antibody-mediated cross-linking induced tyrosine phosphorylation of Itk, which was maximal as early as 1 min after stimulation.
+# T5 Protein S3 22 25 281 284 CD2
+# T6 Protein S3 147 150 406 409 Itk
+$ T5 Protein S3 22 25 281 284 CD2
+$ T6 Protein S3 147 150 406 409 Itk
+@ T24 Positive_regulation S3 0 11 259 270 Stimulation
+@ T25 Binding S3 97 110 356 369 cross-linking
+@ T26 Positive_regulation S3 111 118 370 377 induced
+@ T27 Entity S3 119 127 378 386 tyrosine
+@ T28 Phosphorylation S3 128 143 387 402 phosphorylation
+@ T29 Positive_regulation S3 162 169 421 428 maximal
+% E3 Positive_regulation:T24 Theme:T5 Cause:E4
+% E4 Binding:T25 Theme:T5
+% E5 Positive_regulation:T26 Theme:E7
+% E6 Positive_regulation:T26 Theme:E7 Cause:E3
+% E7 Phosphorylation:T28 Theme:T6 Site:T27
+% E8 Positive_regulation:T29 Theme:E5
+% E9 Positive_regulation:T29 Theme:E6
+
+The tyrosine kinase activity in the anti-Itk immunoprecipitate was significantly activated upon these stimulations.
+# T7 Protein S4 41 44 507 510 Itk
+
+Interleukin-2 (IL-2) promoter activity stimulated by cross-linking of CD2, TCR/CD3, and CD28 with antibodies was significantly reduced by transient expression of an Itk mutant lacking the kinase activity.
+# T8 Protein S5 0 13 582 595 Interleukin-2
+# T9 Protein S5 15 19 597 601 IL-2
+# T10 Protein S5 70 73 652 655 CD2
+# T11 Protein S5 88 92 670 674 CD28
+# T12 Protein S5 165 168 747 750 Itk
+$ T8 Protein S5 0 13 582 595 Interleukin-2
+$ T11 Protein S5 88 92 670 674 CD28
+$ T10 Protein S5 70 73 652 655 CD2
+$ T12 Protein S5 165 168 747 750 Itk
+@ T30 Entity S5 21 29 603 611 promoter
+@ T31 Positive_regulation S5 39 49 621 631 stimulated
+@ T32 Binding S5 53 66 635 648 cross-linking
+@ T33 Negative_regulation S5 127 134 709 716 reduced
+@ T34 Gene_expression S5 148 158 730 740 expression
+% E10 Positive_regulation:T31 Theme:T8 Cause:E13 Site:T30
+% E11 Positive_regulation:T31 Theme:T8 Site:T30
+% E12 Positive_regulation:T31 Theme:T8 Cause:E14 Site:T30
+% E13 Binding:T32 Theme:T11
+% E14 Binding:T32 Theme:T10
+% E15 Negative_regulation:T33 Theme:E10 Cause:E18
+% E16 Negative_regulation:T33 Theme:E12 Cause:E18
+% E17 Negative_regulation:T33 Theme:E11 Cause:E18
+% E18 Gene_expression:T34 Theme:T12
+
+The reduction paralleled a decrease in tyrosine phosphorylation of endogenous wild-type Itk.
+# T13 Protein S6 88 91 875 878 Itk
+$ T13 Protein S6 88 91 875 878 Itk
+@ T35 Negative_regulation S6 27 35 814 822 decrease
+@ T36 Entity S6 39 47 826 834 tyrosine
+@ T37 Phosphorylation S6 48 63 835 850 phosphorylation
+% E19 Negative_regulation:T35 Theme:E20
+% E20 Phosphorylation:T37 Theme:T13 Site:T36
+
+Stimulation of CD2 or TCR/CD3 induced activation of the nuclear factor of activated T cells (NFAT), the binding site of which is included in the IL-2 gene promoter.
+# T14 Protein S7 15 18 895 898 CD2
+# T15 Protein S7 145 149 1025 1029 IL-2
+$ T14 Protein S7 15 18 895 898 CD2
+$ T15 Protein S7 145 149 1025 1029 IL-2
+@ T38 Positive_regulation S7 0 11 880 891 Stimulation
+@ T39 Positive_regulation S7 129 137 1009 1017 included
+@ T40 Entity S7 155 163 1035 1043 promoter
+% E21 Positive_regulation:T38 Theme:T14
+% E22 Positive_regulation:T39 Theme:T15 Site:T40
+
+The activation of NFAT was also impaired by expression of the Itk mutant.
+# T16 Protein S8 62 65 1107 1110 Itk
+$ T16 Protein S8 62 65 1107 1110 Itk
+@ T41 Gene_expression S8 44 54 1089 1099 expression
+% E23 Gene_expression:T41 Theme:T16
+
+These results demonstrate that Itk plays a role in IL-2 production, indicating a critical involvement of Itk in the initial stage of T cell activation by mediating signals from the TCR/CD3 complex, CD2, and CD28.
+# T17 Protein S9 31 34 1150 1153 Itk
+# T18 Protein S9 51 55 1170 1174 IL-2
+# T19 Protein S9 105 108 1224 1227 Itk
+# T20 Protein S9 198 201 1317 1320 CD2
+# T21 Protein S9 207 211 1326 1330 CD28
+$ T17 Protein S9 31 34 1150 1153 Itk
+$ T18 Protein S9 51 55 1170 1174 IL-2
+@ T42 Regulation S9 35 47 1154 1166 plays a role
+@ T43 Gene_expression S9 56 66 1175 1185 production
+% E24 Regulation:T42 Theme:E25 Cause:T17
+% E25 Gene_expression:T43 Theme:T18
+

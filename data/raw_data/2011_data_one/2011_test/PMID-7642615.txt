@@ -1,0 +1,41 @@
+HIV-1 envelope glycoproteins induce activation of activated protein-1 in CD4+ T cells [published erratum appears in J Biol Chem 1995 Dec 1;270(48):29038]
+# T1 Protein S1 73 76 73 76 CD4
+
+Activation of CD4 positive T cells is a primary requirement for human immunodeficiency virus (HIV) entry, efficient HIV replication, and progression to AIDS, Utilizing CD4 positive T cell lines and purified T cells from normal individuals, we have demonstrated that native envelope glycoproteins of HIV, gp 160, can induce activation of transcription factor, activated protein-1 (AP-1).
+# T2 Protein S2 14 17 169 172 CD4
+# T3 Protein S2 168 171 323 326 CD4
+# T4 Protein S2 304 310 459 465 gp 160
+
+The stimulatory effects of gp160 are mediated through the CD4 molecule, since treatment of gp160 with soluble CD4-IgG abrogates its activity, and CD4 negative T cell lines fail to be stimulated with gp160.
+# T5 Protein S3 27 32 569 574 gp160
+# T6 Protein S3 58 61 600 603 CD4
+# T7 Protein S3 91 96 633 638 gp160
+# T8 Protein S3 110 113 652 655 CD4
+# T9 Protein S3 146 149 688 691 CD4
+# T10 Protein S3 199 204 741 746 gp160
+
+Immunoprecipitation of the gp 160-induced nuclear extracts with polyclonal antibodies to Fos and Jun proteins indicates that AP-1 complex is comprised of members of these family of proteins.
+# T11 Protein S4 27 33 775 781 gp 160
+
+The gp160-induced AP-1 complex is dependent upon protein tyrosine phosphorylation and is protein synthesis-independent.
+# T12 Protein S5 4 9 943 948 gp160
+
+This stimulation can also be abolished by inhibitors of protein kinase C, but it is unaffected by calcium channel blocker or cyclosporine A.
+
+This gp160 treatment adversely affects the functional capabilities of T cells: pre-treatment of CD4+ T cells with gp160 for 4 h at 37 degrees C inhibited anti-CD3-induced interleukin-2 secretion.
+# T13 Protein S7 5 10 1205 1210 gp160
+# T14 Protein S7 96 99 1296 1299 CD4
+# T15 Protein S7 114 119 1314 1319 gp160
+# T16 Protein S7 171 184 1371 1384 interleukin-2
+
+Effects similar to gp160 were seen with anti-CD4 mAb.
+# T17 Protein S8 19 24 1415 1420 gp160
+# T18 Protein S8 45 48 1441 1444 CD4
+
+The aberrant activation of AP-1 by gp160 in CD4 positive T cells could result in up-regulation of cytokines containing AP-1 sites, e.g. interleukin-3 and granulocyte macrophage colony-stimulating factor, and concurrently lead to T cell unresponsiveness by inhibiting interleukin-2 secretion.
+# T19 Protein S9 35 40 1485 1490 gp160
+# T20 Protein S9 44 47 1494 1497 CD4
+# T21 Protein S9 136 149 1586 1599 interleukin-3
+# T22 Protein S9 154 202 1604 1652 granulocyte macrophage colony-stimulating factor
+# T23 Protein S9 267 280 1717 1730 interleukin-2
+

@@ -1,0 +1,66 @@
+Apoptosis-resistant T cells have a deficiency in NF-kappaB-mediated induction of Fas ligand transcription.
+# T1 Protein S1 81 91 81 91 Fas ligand
+$ T1 Protein S1 81 91 81 91 Fas ligand
+@ T12 Negative_regulation S1 35 45 35 45 deficiency
+@ T13 Positive_regulation S1 68 77 68 77 induction
+@ T14 Transcription S1 92 105 92 105 transcription
+% E1 Negative_regulation:T12 Theme:E2
+% E2 Positive_regulation:T13 Theme:E3
+% E3 Transcription:T14 Theme:T1
+
+Apoptosis induced through the TCR in CD4+ T cells is mostly mediated by the inducible expression of Fas ligand (FasL) as a primary event leading to the commitment to death.
+# T2 Protein S2 37 40 145 148 CD4
+# T3 Protein S2 100 110 208 218 Fas ligand
+# T4 Protein S2 112 116 220 224 FasL
+$ T4 Protein S2 112 116 220 224 FasL
+@ T15 Positive_regulation S2 76 85 184 193 inducible
+@ T16 Gene_expression S2 86 96 194 204 expression
+% E4 Positive_regulation:T15 Theme:E5
+% E5 Gene_expression:T16 Theme:T4
+
+To gain a better understanding of the transcriptional events that regulate this expression, we took advantage of our previously described mutant Jurkat cells.
+
+These cells are deficient in FasL expression and apoptosis induced upon TCR triggering, although their cytokine (IL-2 and IFN-gamma) production is normal.
+# T5 Protein S4 29 33 469 473 FasL
+# T6 Protein S4 113 117 553 557 IL-2
+# T7 Protein S4 122 131 562 571 IFN-gamma
+$ T5 Protein S4 29 33 469 473 FasL
+$ T7 Protein S4 122 131 562 571 IFN-gamma
+$ T6 Protein S4 113 117 553 557 IL-2
+@ T17 Negative_regulation S4 16 25 456 465 deficient
+@ T18 Gene_expression S4 34 44 474 484 expression
+@ T19 Positive_regulation S4 59 66 499 506 induced
+@ T20 Gene_expression S4 133 143 573 583 production
+@ T21 Negative_regulation S4 147 153 587 593 normal
+% E6 Negative_regulation:T17 Theme:E8
+% E7 Gene_expression:T18 Theme:T5
+% E8 Positive_regulation:T19 Theme:E7
+% E9 Gene_expression:T20 Theme:T7
+% E10 Gene_expression:T20 Theme:T6
+% E11 Negative_regulation:T21 Theme:E9
+% E12 Negative_regulation:T21 Theme:E10
+
+Here we show that both a FasL- and a consensus NF-kappaB- reporter construct are inefficiently induced in these cells compared to wild-type cells.
+# T8 Protein S5 25 29 620 624 FasL
+
+In addition, we demonstrate that the inducible transcriptional activity of the FasL reporter is abolished by specific inhibitors of NF-kappaB activation.
+# T9 Protein S6 79 83 821 825 FasL
+
+Thus, we could trace the deficit of the mutant cells to an inefficient NF-kappaB activation, evidencing a relevant role for NF-kappaB in the regulation of FasL expression in activated T cells.
+# T10 Protein S7 155 159 1051 1055 FasL
+$ T10 Protein S7 155 159 1051 1055 FasL
+@ T22 Regulation S7 115 119 1011 1015 role
+@ T23 Regulation S7 141 151 1037 1047 regulation
+@ T24 Gene_expression S7 160 170 1056 1066 expression
+% E13 Regulation:T22 Theme:E14
+% E14 Regulation:T23 Theme:E15
+% E15 Gene_expression:T24 Theme:T10
+
+Furthermore, our results suggest that the induction of FasL versus cytokine gene expression is differentially sensitive to NF-kappaB deprivation.
+# T11 Protein S8 55 59 1144 1148 FasL
+$ T11 Protein S8 55 59 1144 1148 FasL
+@ T25 Positive_regulation S8 42 51 1131 1140 induction
+@ T26 Gene_expression S8 81 91 1170 1180 expression
+% E16 Positive_regulation:T25 Theme:E17
+% E17 Gene_expression:T26 Theme:T11
+

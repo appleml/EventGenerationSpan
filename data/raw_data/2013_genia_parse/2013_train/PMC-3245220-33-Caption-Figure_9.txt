@@ -1,0 +1,20 @@
+Proposed	VBN	B-NP	O	Other	No	No	Other	Other	###	1	Proposed	Proposed	VBN	VBN	_	2	amod	_	_
+model	NN	I-NP	O	Other	No	No	Other	Other	###	2	model	model	NN	NN	_	0	root	_	_
+for	IN	B-PP	O	Other	No	No	Other	Other	###	3	for	for	IN	IN	_	8	case	_	_
+M-CSF	JJ	B-NP	O	Other	No	No	Other	Other	###	4	M-CSF	M-CSF	JJ	JJ	_	8	amod	_	_
+-	-	O	O	Other	No	No	Other	Other	###	5	-	-	-	-	_	4	punct	_	_
+induced	JJ	B-NP	O	Other	No	No	Other	Other	###	6	induced	induced	JJ	JJ	_	4	dep	_	_
+monocyte	NN	I-NP	O	Other	No	No	Other	Other	###	7	monocyte	monocyte	NN	NN	_	8	compound	_	_
+survival	NN	I-NP	O	Other	No	No	Other	Other	###	8	survival	survival	NN	NN	_	2	nmod	_	_
+via	IN	B-PP	O	Other	No	No	Other	Other	###	9	via	via	IN	IN	_	11	case	_	_
+PKC	NN	B-NP	B-protein	Other	No	No	Other	Other	###	10	PKC	PKC	NN	NN	_	11	compound	_	_
+regulation	NN	I-NP	O	Other	No	No	Other	Other	###	11	regulation	regulation	NN	NN	_	2	nmod	_	_
+by	IN	B-PP	O	Other	No	No	Other	Other	###	12	by	by	IN	IN	_	13	mark	_	_
+activating	VBG	B-VP	O	Other	No	No	Other	B-Positive_regulation	###	13	activating	activating	VBG	VBG	_	2	acl	_	_
+NF-kappaB	NN	B-NP	B-protein	Other	No	No	Other	Other	###	14	NF-kappaB	NF-kappaB	NN	NN	_	16	compound	_	_
+p65	NN	I-NP	O	B-Protein	No	No	B-Protein	Other	###	15	p65	p65	NN	NN	_	16	compound	_	_
+phosphorylation	NN	I-NP	O	Other	No	No	Other	B-Phosphorylation	###	16	phosphorylation	phosphorylation	NN	NN	_	13	dobj	_	_
+at	IN	B-PP	O	Other	No	No	Other	Other	###	17	at	at	IN	IN	_	18	case	_	_
+Ser276	NN	B-NP	O	Other	No	No	Other	Other	###	18	Ser276	Ser276	NN	NN	_	16	nmod	_	_
+.	.	O	O	Other	No	No	Other	Other	###	19	.	.	.	.	_	2	punct	_	_
+

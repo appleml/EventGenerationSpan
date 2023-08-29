@@ -1,0 +1,76 @@
+Interleukin-7 upregulates the interleukin-2-gene expression in activated human T lymphocytes at the transcriptional level by enhancing the DNA binding activities of both nuclear factor of activated T cells and activator protein-1.
+# T1 Protein S1 0 13 0 13 Interleukin-7
+# T2 Protein S1 30 43 30 43 interleukin-2
+$ T2 Protein S1 30 43 30 43 interleukin-2
+@ T20 Positive_regulation S1 14 25 14 25 upregulates
+@ T21 Transcription S1 93 121 93 121 at the transcriptional level
+% E1 Positive_regulation:T20 Theme:E2
+% E2 Transcription:T21 Theme:T2
+
+In the present report, we studied the role of the stromal-derived cytokine interleukin-7 (IL-7) in the IL-2-gene regulation in activated T lymphocytes.
+# T3 Protein S2 75 88 307 320 interleukin-7
+# T4 Protein S2 90 94 322 326 IL-7
+# T5 Protein S2 103 107 335 339 IL-2
+$ T4 Protein S2 90 94 322 326 IL-7
+$ T5 Protein S2 103 107 335 339 IL-2
+@ T22 Regulation S2 38 42 270 274 role
+@ T23 Regulation S2 113 123 345 355 regulation
+% E3 Regulation:T22 Theme:E4 Cause:T4
+% E4 Regulation:T23 Theme:T5
+
+Production of IL-2 requires the formation of transcription factors involved in the IL-2-gene regulation.
+# T6 Protein S3 14 18 398 402 IL-2
+# T7 Protein S3 83 87 467 471 IL-2
+$ T6 Protein S3 14 18 398 402 IL-2
+$ T7 Protein S3 83 87 467 471 IL-2
+@ T24 Gene_expression S3 0 10 384 394 Production
+@ T25 Regulation S3 19 27 403 411 requires
+@ T26 Regulation S3 67 75 451 459 involved
+@ T27 Regulation S3 93 103 477 487 regulation
+% E5 Gene_expression:T24 Theme:T6
+% E6 Regulation:T25 Theme:E5
+% E7 Regulation:T26 Theme:E8
+% E8 Regulation:T27 Theme:T7
+
+T-cell receptor (TCR)/CD3 engagement results in the activation of nuclear factor of activated T cells (NFAT), activator protein-1 (AP-1), and nuclear factor kappaB (NFkappaB), whereas the CD28 responsive complex (CD28RC) is activated in response to the CD28 signal.
+# T8 Protein S4 253 257 742 746 CD28
+
+Costimulation of phytohemagglutinin/anti-CD28 activated T lymphocytes with IL-7 induces a fivefold enhanced IL-2-mRNA accumulation and a 2.5-fold enhanced protein secretion.
+# T9 Protein S5 17 35 772 790 phytohemagglutinin
+# T10 Protein S5 41 45 796 800 CD28
+# T11 Protein S5 75 79 830 834 IL-7
+# T12 Protein S5 108 112 863 867 IL-2
+$ T12 Protein S5 108 112 863 867 IL-2
+@ T28 Positive_regulation S5 99 107 854 862 enhanced
+@ T29 Positive_regulation S5 118 130 873 885 accumulation
+% E9 Positive_regulation:T28 Theme:E10
+% E10 Positive_regulation:T29 Theme:T12
+
+The IL-2-gene transcription rate is increased 3.4-fold, indicating that the effect of IL-7 is in part mediated at the transcriptional level.
+# T13 Protein S6 4 8 933 937 IL-2
+# T14 Protein S6 86 90 1015 1019 IL-7
+$ T13 Protein S6 4 8 933 937 IL-2
+$ T14 Protein S6 86 90 1015 1019 IL-7
+@ T30 Transcription S6 14 27 943 956 transcription
+@ T31 Positive_regulation S6 36 45 965 974 increased
+@ T32 Positive_regulation S6 102 110 1031 1039 mediated
+% E11 Transcription:T30 Theme:T13
+% E12 Positive_regulation:T31 Theme:E11
+% E13 Positive_regulation:T32 Theme:E11 Cause:T14
+
+The molecular mechanisms underlying the IL-7 effect involve the upregulation of the DNA binding activity of NFAT (60%) and AP-1 (120%), without affecting the activities of NFkappaB and CD28RC, which was confirmed by transfection assays.
+# T15 Protein S7 40 44 1110 1114 IL-7
+
+We also show that the IL-7-induced enhancement of the AP-1-DNA binding activity is not cyclosporin A-sensitive.
+# T16 Protein S8 22 26 1329 1333 IL-7
+
+Since AP-1 is part of the NFAT complex, we conclude that the IL-7-signaling pathway is involved in the activation of the fos and jun proteins of which AP-1 consists.
+# T17 Protein S9 61 65 1480 1484 IL-7
+# T18 Protein S9 121 124 1540 1543 fos
+# T19 Protein S9 129 132 1548 1551 jun
+$ T18 Protein S9 121 124 1540 1543 fos
+@ T33 Regulation S9 87 95 1506 1514 involved
+@ T34 Positive_regulation S9 103 113 1522 1532 activation
+% E14 Regulation:T33 Theme:E15
+% E15 Positive_regulation:T34 Theme:T18
+

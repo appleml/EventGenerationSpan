@@ -1,0 +1,27 @@
+High LMP1 Expression Correlates with the Development of Lymphoma
+# T1 Protein S1 5 9 5 9 LMP1
+$ T1 Protein S1 5 9 5 9 LMP1
+@ T6 Positive_regulation S1 0 4 0 4 High
+@ T7 Gene_expression S1 10 20 10 20 Expression
+% E1 Positive_regulation:T6 Theme:E2
+% E2 Gene_expression:T7 Theme:T1
+
+LMP1 expression is shown by (A) immunoblotting of purified B cells (CD19+) and (B) immunohistochemistry staining of spleen tissue from wild-type (WT) and LMP1 transgenic mice.
+# T2 Protein S2 0 4 65 69 LMP1
+# T3 Protein S2 68 72 133 137 CD19
+# T4 Protein S2 154 158 219 223 LMP1
+$ T2 Protein S2 0 4 65 69 LMP1
+@ T8 Gene_expression S2 5 15 70 80 expression
+% E3 Gene_expression:T8 Theme:T2
+
+(A) Lymphomas are identified with a number (1-7).
+
+Arrows indicate the LMP1-specific band and its degradation products as well as a non-specific band.
+# T5 Protein S4 20 24 312 316 LMP1
+
+Actin was used as a loading control.
+
+(B) White and red pulps are shown, but this architecture is lost upon development of lymphoma.
+
+Scale bar, 20 mum.
+

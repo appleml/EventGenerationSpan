@@ -1,0 +1,90 @@
+oriP is essential for EBNA gene promoter activity in Epstein-Barr virus-immortalized lymphoblastoid cell lines.
+# T1 Protein S1 0 4 0 4 oriP
+
+During Epstein-Barr virus latent infection of B lymphocytes in vitro, six viral nuclear antigens (EBNAs) are expressed from one of two promoters, Cp or Wp, whose activities are mutually exclusive.
+# T2 Protein S2 146 148 259 261 Cp
+# T3 Protein S2 152 154 265 267 Wp
+
+Upon infection, Wp is initially active, followed by a switch to Cp for the duration of latency.
+# T4 Protein S3 16 18 326 328 Wp
+# T5 Protein S3 64 66 374 376 Cp
+$ T4 Protein S3 16 18 326 328 Wp
+$ T5 Protein S3 64 66 374 376 Cp
+@ T28 Positive_regulation S3 32 38 342 348 active
+@ T29 Negative_regulation S3 54 60 364 370 switch
+@ T30 Positive_regulation S3 54 60 364 370 switch
+% E1 Positive_regulation:T28 Theme:T4
+% E2 Negative_regulation:T29 Theme:E1
+% E3 Positive_regulation:T30 Theme:T5
+
+In this study, the region upstream of Cp was analyzed for the presence of cis elements involved in regulating the activities of the EBNA gene promoters in established in vitro immortalized lymphoblastoid cell lines (LCLs).
+# T6 Protein S4 38 40 444 446 Cp
+
+It was determined that oriP, the origin for episomal maintenance during latency, is essential for efficient transcription initiation from either Cp or Wp in LCLs, as well as in some Burkitt's lymphoma cell lines.
+# T7 Protein S5 23 27 652 656 oriP
+# T8 Protein S5 145 147 774 776 Cp
+# T9 Protein S5 151 153 780 782 Wp
+
+Deletion of the EBNA2-dependent enhancer located upstream of Cp resulted in a ca.
+# T10 Protein S6 16 21 858 863 EBNA2
+# T11 Protein S6 61 63 903 905 Cp
+
+two- to fivefold reduction in Cp activity in the LCLs assayed.
+# T12 Protein S7 30 32 954 956 Cp
+$ T12 Protein S7 30 32 954 956 Cp
+@ T31 Negative_regulation S7 17 26 941 950 reduction
+% E4 Negative_regulation:T31 Theme:T12
+
+More extensive deletion of sequences upstream of Cp, including the EBNA2-dependent enhancer, resulted in nearly complete loss of Cp activity.
+# T13 Protein S8 49 51 1036 1038 Cp
+# T14 Protein S8 67 72 1054 1059 EBNA2
+# T15 Protein S8 129 131 1116 1118 Cp
+$ T15 Protein S8 129 131 1116 1118 Cp
+@ T32 Negative_regulation S8 121 125 1108 1112 loss
+% E5 Negative_regulation:T32 Theme:T15
+
+This loss of activity was shown to correlate with deletion of two CCAAT boxes, a proximal CCAAT box located at bp -61 to -65 and a distal CCAAT box located at bp -253 to -257, upstream of Cp.
+# T16 Protein S9 188 190 1317 1319 Cp
+
+Site-directed mutagenesis of these cis elements demonstrated that Cp activity is highly dependent on the presence of a properly positioned CCAAT box, with the dependence on the distal CCAAT box apparent only when the proximal CCAAT box was deleted or mutated.
+# T17 Protein S10 66 68 1387 1389 Cp
+$ T17 Protein S10 66 68 1387 1389 Cp
+@ T33 Positive_regulation S10 88 97 1409 1418 dependent
+@ T34 Positive_regulation S10 159 169 1480 1490 dependence
+% E6 Positive_regulation:T33 Theme:T17
+% E7 Positive_regulation:T34 Theme:T17
+
+Deletion of the glucocorticoid response elements located at ca.
+
+bp -850 upstream of Cp did not result in a significant loss in activity.
+# T18 Protein S12 20 22 1665 1667 Cp
+@ T35 Negative_regulation S12 55 59 1700 1704 loss
+% E8 Negative_regulation:T35 Theme:T17
+
+In general, deletions which diminished Cp activity resulted in induction of Wp activity, consistent with suppression of Wp activity by transcriptional interference from Cp.
+# T19 Protein S13 39 41 1757 1759 Cp
+# T20 Protein S13 76 78 1794 1796 Wp
+# T21 Protein S13 120 122 1838 1840 Wp
+# T22 Protein S13 169 171 1887 1889 Cp
+$ T19 Protein S13 39 41 1757 1759 Cp
+$ T20 Protein S13 76 78 1794 1796 Wp
+$ T21 Protein S13 120 122 1838 1840 Wp
+@ T36 Negative_regulation S13 28 38 1746 1756 diminished
+@ T37 Positive_regulation S13 63 72 1781 1790 induction
+@ T38 Negative_regulation S13 105 116 1823 1834 suppression
+% E9 Negative_regulation:T36 Theme:T19
+% E10 Positive_regulation:T37 Theme:T20 Cause:E9
+% E11 Negative_regulation:T38 Theme:T21
+
+The identification of oriP and the EBNA2-dependent enhancer as the major positive cis elements involved in regulating Cp activity in LCL suggests that EBNA gene transcription is largely autoregulated by EBNA 1 and EBNA 2.
+# T23 Protein S14 22 26 1913 1917 oriP
+# T24 Protein S14 35 40 1926 1931 EBNA2
+# T25 Protein S14 118 120 2009 2011 Cp
+# T26 Protein S14 203 209 2094 2100 EBNA 1
+# T27 Protein S14 214 220 2105 2111 EBNA 2
+$ T25 Protein S14 118 120 2009 2011 Cp
+$ T23 Protein S14 22 26 1913 1917 oriP
+@ T39 Regulation S14 107 117 1998 2008 regulating
+% E12 Regulation:T39 Theme:T25
+% E13 Regulation:T39 Theme:T25 Cause:T23
+

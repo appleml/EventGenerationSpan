@@ -1,0 +1,26 @@
+Activation of human monocytic cells by Treponema pallidum and Borrelia burgdorferi lipoproteins and synthetic lipopeptides proceeds via a pathway distinct from that of lipopolysaccharide but involves the transcriptional activator NF-kappa B.
+
+There is increasing evidence that lipoproteins of Treponema pallidum and Borrelia burgdorferi are key inflammatory mediators during syphilis and Lyme disease.
+
+A principal objective of the present study was to identify more precisely similarities and divergences among lipopolysaccharide (LPS)- and lipoprotein-lipopeptide-induced immune cell signaling events.
+
+Like LPS, purified native B. burgdorferi OspA and synthetic analogs of OspA, OspB, and two T. pallidum lipoproteins (Tpp47 and Tpp17) all induced NF-kappa B translocation in THP-1 human monocytoid cells.
+# T1 Protein S4 41 45 644 648 OspA
+# T2 Protein S4 71 75 674 678 OspA
+# T3 Protein S4 117 122 720 725 Tpp47
+# T4 Protein S4 127 132 730 735 Tpp17
+
+Acylation of OspA and the synthetic peptides was requisite for cell activation.
+# T5 Protein S5 13 17 820 824 OspA
+
+Polymyxin B abrogated only the response to LPS.
+
+By using 70Z/3-derived pre-B-cell lines either lacking or expressing human CD14 (the LPS receptor), it was observed that expression of human CD14 imparted responsiveness to LPS but not to OspA or spirochetal lipopeptides (assessed by induction of NF-kappa B and expression of surface immunoglobulin M).
+# T6 Protein S7 75 79 1010 1014 CD14
+# T7 Protein S7 141 145 1076 1080 CD14
+# T8 Protein S7 188 192 1123 1127 OspA
+
+Finally, the biological relevance of the observation that T. pallidum lipoproteins-lipopeptides induce both NF-kappa B and cytokine production in monocytes was supported by the ability of the synthetic analogs to promote human immunodeficiency virus replication in chronically infected U1 monocytoid cells; these observations also suggest a potential mechanism whereby a syphilitic chancre can serve as a cofactor for human immunodeficiency virus transmission.
+
+The combined data lend additional support to the proposal that spirochetal lipoproteins and LPS initiate monocyte activation via different cell surface events but that the signaling pathways ultimately converge to produce qualitatively similar cellular responses.
+

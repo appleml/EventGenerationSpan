@@ -1,0 +1,20 @@
+Constitutively activated Jak-STAT pathway in T cells transformed with HTLV-I.
+
+Human T cell lymphotropic virus I (HTLV-I) is the etiological agent for adult T cell leukemia and tropical spastic paraparesis (also termed HTLV-I-associated myelopathy).
+
+HTLV-I-infected peripheral blood T cells exhibit an initial phase of interleukin-2 (IL-2)-dependent growth; over time, by an unknown mechanism, the cells become IL-2-independent.
+# T1 Protein S3 69 82 319 332 interleukin-2
+# T2 Protein S3 84 88 334 338 IL-2
+# T3 Protein S3 161 165 411 415 IL-2
+
+Whereas the Jak kinases Jak1 and Jak3 and the signal transducer and activator of transcription proteins Stat3 and Stat5 are activated in normal T cells in response to IL-2, this signaling pathway was constitutively activated in HTLV-I-transformed cells.
+# T4 Protein S4 24 28 453 457 Jak1
+# T5 Protein S4 33 37 462 466 Jak3
+# T6 Protein S4 104 109 533 538 Stat3
+# T7 Protein S4 114 119 543 548 Stat5
+# T8 Protein S4 167 171 596 600 IL-2
+
+In HTLV-I-infected cord blood lymphocytes, the transition from IL-2-dependent to IL-2-independent growth correlated with the acquisition of a constitutively activated Jak-STAT pathway, which suggests that this pathway participates in HTLV-I-mediated T cell transformation.
+# T9 Protein S5 63 67 746 750 IL-2
+# T10 Protein S5 81 85 764 768 IL-2
+

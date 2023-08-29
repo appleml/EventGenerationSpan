@@ -1,0 +1,44 @@
+A transcriptional regulatory element is associated with a nuclease-hypersensitive site in the pol gene of human immunodeficiency virus type 1.
+# T1 Protein S1 94 97 94 97 pol
+
+Analysis of the chromatin organization of the integrated human immunodeficiency virus type 1 (HIV-1) genome has previously revealed a major constitutive DNase I-hypersensitive site associated with the pol gene (E. Verdin, J. Virol.
+# T2 Protein S2 201 204 345 348 pol
+
+65:6790-6799, 1991).
+
+In the present report, high-resolution mapping of this site with DNase I and micrococcal nuclease identified a nucleosome-free region centered around nucleotides (nt) 4490 to 4766.
+# T3 Protein S4 65 72 462 469 DNase I
+# T4 Protein S4 77 97 474 494 micrococcal nuclease
+
+A 500-bp fragment encompassing this hypersensitive site (nt 4481 to 4982) exhibited transcription-enhancing activity (two- to threefold) when it was cloned in its natural position with respect to the HIV-1 promoter after transient transfection in U937 and CEM cells.
+
+Using in vitro footprinting and gel shift assays, we have identified four distinct binding sites for nuclear proteins within this positive regulatory element.
+
+Site B (nt 4519 to 4545) specifically bound four distinct nuclear protein complexes: a ubiquitous factor, a T-cell-specific factor, a B-cell-specific factor, and the monocyte/macrophage- and B-cell-specific transcription factor PU.1/Spi-1.
+# T5 Protein S7 228 232 1232 1236 PU.1
+# T6 Protein S7 233 238 1237 1242 Spi-1
+$ T5 Protein S7 228 232 1232 1236 PU.1
+@ T12 Binding S7 38 43 1042 1047 bound
+% E1 Binding:T12 Theme:T5
+
+In most HIV-1 isolates in which this PU box was not conserved, it was replaced by a binding site for the related factor Ets1.
+# T7 Protein S8 120 124 1364 1368 Ets1
+$ T7 Protein S8 120 124 1364 1368 Ets1
+@ T13 Binding S8 84 91 1328 1335 binding
+% E2 Binding:T13 Theme:T7
+
+Factors binding to site C (nt 4681 to 4701) had a DNA-binding specificity similar to that of factors binding to site B, except for PU.1/Spi-1.
+# T8 Protein S9 131 135 1501 1505 PU.1
+# T9 Protein S9 136 141 1506 1511 Spi-1
+
+A GC box containing a binding site for Sp1 was identified (nt 4623 to 4631).
+# T10 Protein S10 39 42 1552 1555 Sp1
+$ T10 Protein S10 39 42 1552 1555 Sp1
+@ T14 Binding S10 9 34 1522 1547 containing a binding site
+% E3 Binding:T14 Theme:T10
+
+Site D (nt 4816 to 4851) specifically bound a ubiquitously expressed factor.
+
+These results identify a transcriptional regulatory element associated with a nuclease-hypersensitive site in the pol gene of HIV-1 and suggest that its activity may be controlled by a complex interplay of cis-regulatory elements.
+# T11 Protein S12 114 117 1781 1784 pol
+

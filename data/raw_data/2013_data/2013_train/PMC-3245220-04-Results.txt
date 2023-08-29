@@ -1,0 +1,41 @@
+NF-kappaB and PKC(s) Mediate Human MDM Survival in Response to M-CSF Stimulation
+
+Since PKC and NF-kappaB are critical in cell survival [37], [38], we hypothesized that M-CSF promoted cell survival through PKC in human MDMs.
+
+To detect apoptosis, the expression of cleaved caspase-3, a marker of apoptosis, was analyzed in the presence or absence of M-CSF and PKC inhibitors.
+# T1 Protein S3 47 56 271 280 caspase-3
+$ T1 Protein S3 47 56 271 280 caspase-3
+@ T6 Positive_regulation S3 25 35 249 259 expression
+@ T7 Protein_catabolism S3 39 46 263 270 cleaved
+% E1 Positive_regulation:T6 Theme:E2
+% E2 Protein_catabolism:T7 Theme:T1
+
+In MDMs pretreated with PKC inhibitors (Ro-31-8220, Go-6976, or BAPTA/AM) and stimulated with M-CSF, cleaved caspase-3 was elevated to levels of cells treated with vehicle alone (Figure 3A).
+# T2 Protein S4 109 118 483 492 caspase-3
+$ T2 Protein S4 109 118 483 492 caspase-3
+@ T8 Protein_catabolism S4 101 108 475 482 cleaved
+@ T9 Positive_regulation S4 123 131 497 505 elevated
+% E3 Protein_catabolism:T8 Theme:T2
+% E4 Positive_regulation:T9 Theme:E3
+
+In contrast, cells incubated with M-CSF and vehicle had less cleaved caspase-3 than cells incubated with vehicle alone or M-CSF with PKC inhibitors.
+# T3 Protein S5 69 78 634 643 caspase-3
+$ T3 Protein S5 69 78 634 643 caspase-3
+@ T10 Negative_regulation S5 56 60 621 625 less
+@ T11 Protein_catabolism S5 61 68 626 633 cleaved
+% E5 Negative_regulation:T10 Theme:E6
+% E6 Protein_catabolism:T11 Theme:T3
+
+These data supported the hypothesis that M-CSF-induced NF-kappaB activity was regulated by conventional PKCs, not novel PKCs.
+
+To confirm that PKC inhibition decreased cell survival, cells were treated with M-CSF in the absence or presence of PKC inhibitors and then also examined for apoptosis by Annexin V/PI staining.
+# T4 Protein S7 171 180 1011 1020 Annexin V
+
+PKC inhibitors in the presence of M-CSF reduced the number of Annexin V/PI negative MDMs compared to cells treated with M-CSF alone (Figure 3B).
+# T5 Protein S8 62 71 1096 1105 Annexin V
+$ T5 Protein S8 62 71 1096 1105 Annexin V
+@ T12 Negative_regulation S8 75 83 1109 1117 negative
+% E7 Negative_regulation:T12 Theme:T5
+
+These observations further suggested that MDM survival is promoted by M-CSF and critically involves conventional PKCs and NF-kappaB activity.
+

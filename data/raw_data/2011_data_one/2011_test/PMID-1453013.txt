@@ -1,0 +1,31 @@
+SCL and related hemopoietic helix-loop-helix transcription factors.
+# T1 Protein S1 0 3 0 3 SCL
+
+The helix-loop-helix (HLH) proteins are a family of transcription factors that include proteins critical to differentiation and development in species ranging from plants to mammals.
+
+Five members of this family (MYC, SCL, TAL-2, LYL-1 and E2A) are implicated in oncogenic events in human lymphoid tumors because of their consistent involvement in chromosomal translocations.
+# T2 Protein S3 34 37 286 289 SCL
+# T3 Protein S3 39 44 291 296 TAL-2
+# T4 Protein S3 46 51 298 303 LYL-1
+# T5 Protein S3 56 59 308 311 E2A
+
+Although activated in T cell leukemias, expression of SCL and LYL-1 is low or undetectable in normal T cell populations.
+# T6 Protein S4 54 57 498 501 SCL
+# T7 Protein S4 62 67 506 511 LYL-1
+
+SCL is expressed in erythroid, megakaryocyte and mast cell populations (the same cell lineages as GATA-1, a zinc-finger transcription factor).
+# T8 Protein S5 0 3 565 568 SCL
+# T9 Protein S5 98 104 663 669 GATA-1
+
+In addition, both SCL and GATA-1 undergo coordinate modulation during chemically induced erythroid differentiation of mouse erythroleukemia cells and are down-modulated during myeloid differentiation of human K562 cells, thus implying a role for SCL in erythroid differentiation events.
+# T10 Protein S6 18 21 726 729 SCL
+# T11 Protein S6 26 32 734 740 GATA-1
+# T12 Protein S6 246 249 954 957 SCL
+
+However, in contrast to GATA-1, SCL is expressed in the developing brain.
+# T13 Protein S7 24 30 1019 1025 GATA-1
+# T14 Protein S7 32 35 1027 1030 SCL
+
+Studies of the function of SCL suggest it is also important in proliferation and self-renewal events in erythroid cells.
+# T15 Protein S8 27 30 1096 1099 SCL
+

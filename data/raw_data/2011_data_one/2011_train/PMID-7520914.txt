@@ -1,0 +1,50 @@
+CD14-mediated translocation of nuclear factor-kappa B induced by lipopolysaccharide does not require tyrosine kinase activity.
+# T1 Protein S1 0 4 0 4 CD14
+
+During the course of serious bacterial infections, lipopolysaccharide (LPS) is believed to interact with macrophage receptors, resulting in the generation of inflammatory mediators and systemic symptoms including hemodynamic instability and shock.
+
+CD14, a glycosylphosphatidylinositol-linked antigen, functions as an LPS signaling receptor.
+# T2 Protein S3 0 4 376 380 CD14
+$ T2 Protein S3 0 4 376 380 CD14
+@ T14 Regulation S3 83 91 459 467 receptor
+% E1 Regulation:T14 Theme:T2
+
+A critical issue concerns the mechanism by which CD14, which has no transmembrane domain, transduces its signal following LPS binding.
+# T3 Protein S4 49 53 518 522 CD14
+$ T3 Protein S4 49 53 518 522 CD14
+@ T15 Binding S4 126 133 595 602 binding
+% E2 Binding:T15 Theme:T3
+
+Recently, investigators have hypothesized that CD14-mediated signaling is effected through a receptor-associated tyrosine kinase (TK), suggesting a multicomponent receptor model of LPS signaling.
+# T4 Protein S5 47 51 651 655 CD14
+
+Wild-type Chinese hamster ovary (CHO)-K1 cells can be activated by endotoxin to release arachidonate following transfection with human CD14 (CHO/CD14).
+# T5 Protein S6 135 139 935 939 CD14
+# T6 Protein S6 145 149 945 949 CD14
+$ T5 Protein S6 135 139 935 939 CD14
+@ T16 Gene_expression S6 111 123 911 923 transfection
+@ T17 Positive_regulation S6 111 123 911 923 transfection
+% E3 Gene_expression:T16 Theme:T5
+% E4 Positive_regulation:T17 Theme:E3
+
+Nuclear translocation of cytosolic NF-kappa B is correlated with a number of LPS-inducible responses.
+
+We sought to determine if this pathway were present in CHO/CD14 cells and to elucidate the relationship of NF-kappa B activation to the CD14 receptor system.
+# T7 Protein S8 59 63 1113 1117 CD14
+# T8 Protein S8 136 140 1190 1194 CD14
+
+LPS-stimulated translocation of NF-kappa B in CHO/CD14 cells resembled the same response in the murine macrophage-like cell line RAW 264.7.
+# T9 Protein S9 50 54 1262 1266 CD14
+
+Protein synthesis inhibitors and corticosteroids, which suppress arachidonate release and the synthesis of proinflammatory cytokines, had no effect on translocation of NF-kappa B in CHO/CD14 or RAW 264.7 cells, demonstrating that NF-kappa B translocation is an early event.
+# T10 Protein S10 186 190 1538 1542 CD14
+
+Although TK activity was consistently observed by immunoblotting extracts from activated RAW 264.7 cells, LPS-induced phosphotyrosine residues were not observed from similarly treated CHO/CD14 cells.
+# T11 Protein S11 188 192 1814 1818 CD14
+
+Furthermore, the TK inhibitors herbimycin A and genistein failed to inhibit translocation of NF-kappa B in CHO/CD14 or RAW 264.7 cells, although both of these agents inhibited LPS-induced TK activity in RAW 264.7 cells.
+# T12 Protein S12 111 115 1937 1941 CD14
+
+These results imply that TK activity is not obligatory for CD14-mediated signal transduction to occur in response to LPS.
+# T13 Protein S13 59 63 2105 2109 CD14
+

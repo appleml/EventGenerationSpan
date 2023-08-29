@@ -1,0 +1,41 @@
+HMG-I binds to GATA motifs: implications for an HPFH syndrome.
+# T1 Protein S1 0 5 0 5 HMG-I
+$ T1 Protein S1 0 5 0 5 HMG-I
+@ T9 Binding S1 6 11 6 11 binds
+% E1 Binding:T9 Theme:T1
+
+We have examined binding of the nuclear protein HMG-I to the human gamma-globin promoter.
+# T2 Protein S2 48 53 112 117 HMG-I
+$ T2 Protein S2 48 53 112 117 HMG-I
+@ T10 Binding S2 17 24 81 88 binding
+% E2 Binding:T10 Theme:T2
+
+We find that HMG-I binds preferentially to the more 3' of a pair of GATA motifs in the gamma-globin promoter; this paired motif is bound by the erythroid factor GATA-1.
+# T3 Protein S3 13 18 167 172 HMG-I
+# T4 Protein S3 161 167 315 321 GATA-1
+$ T3 Protein S3 13 18 167 172 HMG-I
+$ T4 Protein S3 161 167 315 321 GATA-1
+@ T11 Binding S3 19 24 173 178 binds
+@ T12 Binding S3 131 136 285 290 bound
+% E3 Binding:T11 Theme:T3
+% E4 Binding:T12 Theme:T4
+
+A naturally occurring mutation (-175 T-C) in the area bound by HMG-I results in overexpression of gamma-globin in adult red blood cells (HPFH) and up-regulation of the gamma-globin promoter in in vitro expression assays; HMG-I does not bind to this mutant sequence.
+# T5 Protein S4 63 68 386 391 HMG-I
+# T6 Protein S4 221 226 544 549 HMG-I
+$ T5 Protein S4 63 68 386 391 HMG-I
+$ T6 Protein S4 221 226 544 549 HMG-I
+@ T13 Binding S4 54 59 377 382 bound
+@ T14 Binding S4 236 240 559 563 bind
+% E5 Binding:T13 Theme:T5
+% E6 Binding:T14 Theme:T6
+
+A survey of GATA motifs from other globin cis-elements demonstrates HMG-I binding to most of them.
+# T7 Protein S5 68 73 657 662 HMG-I
+$ T7 Protein S5 68 73 657 662 HMG-I
+@ T15 Binding S5 74 81 663 670 binding
+% E7 Binding:T15 Theme:T7
+
+These findings implicate HMG-I in the HPFH phenotype; we speculate that it may participate in the formation of multiprotein complexes that regulate globin gene expression.
+# T8 Protein S6 25 30 713 718 HMG-I
+

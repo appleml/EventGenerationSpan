@@ -1,0 +1,33 @@
+Agonistic activity of a CD40-specific single-chain Fv constructed from the variable regions of mAb G28-5.
+# T1 Protein S1 24 28 24 28 CD40
+
+A single-chain Fv (sFv) was expressed from the variable regions of the CD40-specific mAb G28-5.
+# T2 Protein S2 71 75 178 182 CD40
+
+The molecule bound CD40 with a high affinity (2.2 nM) and was a monomer in solution.
+# T3 Protein S3 19 23 222 226 CD40
+$ T3 Protein S3 19 23 222 226 CD40
+@ T11 Binding S3 13 18 216 221 bound
+% E1 Binding:T11 Theme:T3
+
+Surprisingly, G28-5 sFv was a potent CD40 agonist that rapidly crosslinked CD40 on the cell surface but did not crosslink CD40-Ig in solution.
+# T4 Protein S4 37 41 325 329 CD40
+# T5 Protein S4 75 79 363 367 CD40
+# T6 Protein S4 122 126 410 414 CD40
+$ T5 Protein S4 75 79 363 367 CD40
+$ T6 Protein S4 122 126 410 414 CD40
+@ T12 Binding S4 63 74 351 362 crosslinked
+@ T13 Binding S4 112 121 400 409 crosslink
+% E2 Binding:T12 Theme:T5
+% E3 Binding:T13 Theme:T6
+
+G28-5 sFv was a more potent agonist than G28-5 IgG and was able to stimulate CD40 responses by B cells and monocytes.
+# T7 Protein S5 77 81 508 512 CD40
+
+G28-5 IgG partially blocked, whereas G28-5 sFv augmented CD40 responses during stimulation with natural ligand (gp39-CD8 fusion protein).
+# T8 Protein S6 6 9 555 558 IgG
+# T9 Protein S6 57 61 606 610 CD40
+# T10 Protein S6 112 116 661 665 gp39
+
+These results indicate that the functional activity of ligands built from the binding site of G28-5 is highly dependent upon the size and physical properties of the molecule both in solution and on the cell surfaces.
+

@@ -1,0 +1,93 @@
+MTb induces NFAT5 gene expression via the MyD88-dependent signaling cascade
+# T1 Protein S1 12 17 12 17 NFAT5
+# T2 Protein S1 42 47 42 47 MyD88
+
+To begin to decipher the cellular mechanisms underlying NFAT5-dependent, MTb-induced HIV-1 replication, we next investigated the requirement for specific signaling molecules in the TLR pathway that are required for MTb stimulation of NFAT5 gene expression.
+# T3 Protein S2 56 61 132 137 NFAT5
+# T4 Protein S2 234 239 310 315 NFAT5
+
+We began by examining the requirement of TLR2 ligation in enhancing NFAT5 mRNA levels.
+# T5 Protein S3 41 45 374 378 TLR2
+# T6 Protein S3 68 73 401 406 NFAT5
+
+When THP-1 cells were treated with the TLR2-specific agonist Pam3Cys for 16 hours, NFAT5 mRNA levels were significantly increased in Pam3Cys-stimulated cells as compared to mock-stimulated control cells (Figure 7A).
+# T7 Protein S4 39 43 459 463 TLR2
+# T8 Protein S4 83 88 503 508 NFAT5
+
+As a positive control for this experiment we also infected THP-1 cells with CDC1551 (Figure 7A).
+
+Notably, MTb infection enhanced NFAT5 mRNA levels to a greater extent than Pam3Cys stimulation, suggesting that additional PRRs may be triggered during actual MTb infection, augmenting its stimulatory effect on NFAT5 gene expression (Figure 7A).
+# T9 Protein S6 32 37 765 770 NFAT5
+# T10 Protein S6 211 216 944 949 NFAT5
+
+The adaptor molecule MyD88 transmits signals upon TLR2 ligation (reviewed in [53]).
+# T11 Protein S7 21 26 1000 1005 MyD88
+# T12 Protein S7 50 54 1029 1033 TLR2
+
+To confirm that this protein and, therefore, that this TLR-dependent pathway is important for MTb induction of NFAT5 gene expression, we constructed a THP-1 cell line that constitutively expresses a lentivirally-delivered short hairpin (sh)RNA targeting MyD88.
+# T13 Protein S8 111 116 1174 1179 NFAT5
+# T14 Protein S8 222 243 1285 1306 short hairpin (sh)RNA
+# T15 Protein S8 254 259 1317 1322 MyD88
+
+Real-time PCR analysis demonstrated that MyD88 mRNA levels in these cells were constitutively and significantly reduced in comparison to control THP-1 cells transduced with a lentivirus expressing control GFP shRNA (data not shown).
+# T16 Protein S9 41 46 1365 1370 MyD88
+# T17 Protein S9 205 214 1529 1538 GFP shRNA
+
+These MyD88 knockdown THP-1 cells were then infected with MTb (CDC1551) and NFAT5 mRNA levels were examined.
+# T18 Protein S10 6 11 1563 1568 MyD88
+# T19 Protein S10 76 81 1633 1638 NFAT5
+
+Since TNF is a MyD88-dependent gene [21], [54], [55], as a positive control we measured TNF mRNA levels.
+# T20 Protein S11 6 9 1672 1675 TNF
+# T21 Protein S11 15 20 1681 1686 MyD88
+# T22 Protein S11 88 91 1754 1757 TNF
+
+For a negative control, we measured mRNA levels of the MyD88-independent gene CD86 [55], [56].
+# T23 Protein S12 55 60 1826 1831 MyD88
+# T24 Protein S12 78 82 1849 1853 CD86
+
+As shown in Figure 7B, knockdown of MyD88 specifically inhibited MTb-induced NFAT5 and TNF mRNA levels and had no impact on CD86 mRNA levels.
+# T25 Protein S13 36 41 1902 1907 MyD88
+# T26 Protein S13 77 82 1943 1948 NFAT5
+# T27 Protein S13 87 90 1953 1956 TNF
+# T28 Protein S13 124 128 1990 1994 CD86
+
+Thus, MTb regulation of NFAT5 is dependent upon MyD88.
+# T29 Protein S14 24 29 2032 2037 NFAT5
+# T30 Protein S14 48 53 2056 2061 MyD88
+
+To futher dissect the pathway mediating MTb upregulation of NFAT5 transcription, we also constructed THP-1 cells transduced with lentivirally-delivered shRNAs targeting IRAK1 or TRAF6, two signaling molecules downstream of MyD88.
+# T31 Protein S15 60 65 2123 2128 NFAT5
+# T32 Protein S15 169 174 2232 2237 IRAK1
+# T33 Protein S15 178 183 2241 2246 TRAF6
+# T34 Protein S15 223 228 2286 2291 MyD88
+
+As shown in Figures 7C and 7D, knockdown of both IRAK1 and TRAF6 significantly inhibited MTb induced NFAT5 mRNA levels.
+# T35 Protein S16 49 54 2342 2347 IRAK1
+# T36 Protein S16 59 64 2352 2357 TRAF6
+# T37 Protein S16 101 106 2394 2399 NFAT5
+
+As expected, MTb-induced TNF gene expression was also significantly reduced (Figures 7C-7D), consistent with a role for IRAK1 and TRAF6 in TNF gene expression secondary to MTb infection as previously reported.
+# T38 Protein S17 25 28 2438 2441 TNF
+# T39 Protein S17 120 125 2533 2538 IRAK1
+# T40 Protein S17 130 135 2543 2548 TRAF6
+# T41 Protein S17 139 142 2552 2555 TNF
+
+Although CD86 gene expression did not depend on MyD88 (Figure 7B), abrogation of IRAK1 and TRAF6 gene expression significantly reduced CD86 mRNA levels, indicating that CD86 expression is IRAK1- and TRAF6-dependent, but MyD88-independent in MTb-infected monocytes (Figures 7C-7D).
+# T42 Protein S18 9 13 2632 2636 CD86
+# T43 Protein S18 48 53 2671 2676 MyD88
+# T44 Protein S18 81 86 2704 2709 IRAK1
+# T45 Protein S18 91 96 2714 2719 TRAF6
+# T46 Protein S18 135 139 2758 2762 CD86
+# T47 Protein S18 169 173 2792 2796 CD86
+# T48 Protein S18 188 193 2811 2816 IRAK1
+# T49 Protein S18 199 204 2822 2827 TRAF6
+# T50 Protein S18 220 225 2843 2848 MyD88
+
+Taken together, these results clearly demonstrate that MTb upregulation of NFAT5 gene expression in human monocytic cells requires activation of MyD88 and the MyD88-associated adaptor molecules IRAK1 and TRAF6.
+# T51 Protein S19 75 80 2979 2984 NFAT5
+# T52 Protein S19 145 150 3049 3054 MyD88
+# T53 Protein S19 159 164 3063 3068 MyD88
+# T54 Protein S19 194 199 3098 3103 IRAK1
+# T55 Protein S19 204 209 3108 3113 TRAF6
+

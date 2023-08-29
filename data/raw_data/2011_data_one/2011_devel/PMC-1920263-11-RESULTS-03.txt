@@ -1,0 +1,117 @@
+The A3G promoter is not inducible in T cells
+# T1 Protein S1 4 7 4 7 A3G
+$ T1 Protein S1 4 7 4 7 A3G
+@ T31 Entity S1 8 16 8 16 promoter
+@ T32 Positive_regulation S1 24 33 24 33 inducible
+% E1 Positive_regulation:T32 Theme:T1 Site:T31
+
+According to the current knowledge, APOBEC3G plays a role in the innate defence against pathogens like HIV-1.
+# T2 Protein S2 36 44 81 89 APOBEC3G
+
+The latter has evolved a mechanism to counteract A3G activity by expressing the regulatory protein Vif (4).
+# T3 Protein S3 49 52 204 207 A3G
+# T4 Protein S3 99 102 254 257 Vif
+$ T3 Protein S3 49 52 204 207 A3G
+$ T4 Protein S3 99 102 254 257 Vif
+@ T33 Negative_regulation S3 38 48 193 203 counteract
+@ T34 Gene_expression S3 65 75 220 230 expressing
+% E2 Negative_regulation:T33 Theme:T3 Cause:E3
+% E3 Gene_expression:T34 Theme:T4
+
+Vif induces proteasomal degradation of A3G and additionally inhibits A3G activity by further mechanisms (8, 37-43).
+# T5 Protein S4 0 3 263 266 Vif
+# T6 Protein S4 39 42 302 305 A3G
+# T7 Protein S4 69 72 332 335 A3G
+$ T5 Protein S4 0 3 263 266 Vif
+$ T6 Protein S4 39 42 302 305 A3G
+$ T7 Protein S4 69 72 332 335 A3G
+@ T35 Positive_regulation S4 4 11 267 274 induces
+@ T36 Protein_catabolism S4 24 35 287 298 degradation
+@ T37 Negative_regulation S4 60 68 323 331 inhibits
+% E4 Positive_regulation:T35 Theme:E5 Cause:T5
+% E5 Protein_catabolism:T36 Theme:T6
+% E6 Negative_regulation:T37 Theme:T7 Cause:T5
+
+To investigate whether the overexpression of HIV-1 proteins also influences A3G promoter activity, we either expressed HIV-1 Vif or the HIV-1 Tat protein, the latter has been shown to activate different viral and cellular promoters (44,45).
+# T8 Protein S5 76 79 455 458 A3G
+# T9 Protein S5 125 128 504 507 Vif
+# T10 Protein S5 142 145 521 524 Tat
+$ T9 Protein S5 125 128 504 507 Vif
+$ T10 Protein S5 142 145 521 524 Tat
+@ T38 Gene_expression S5 109 118 488 497 expressed
+% E7 Gene_expression:T38 Theme:T9
+% E8 Gene_expression:T38 Theme:T10
+
+In addition, increasing amounts of the plasmid pNL4-3, containing the full-length genome of HIV-1, were transfected.
+
+These constructs or the empty vector pcDNA3.1 were cotransfected with the 1025 bp construct into A3.01 T cells.
+
+Luciferase assays showed that the transcriptional activity of the A3G promoter was not significantly altered in the presence of Vif, Tat or HIV-1NL4-3 (Figure 4A), suggesting that HIV-1 is not modulating A3G expression on the transcriptional level.
+# T11 Protein S8 0 10 849 859 Luciferase
+# T12 Protein S8 66 69 915 918 A3G
+# T13 Protein S8 128 131 977 980 Vif
+# T14 Protein S8 133 136 982 985 Tat
+# T15 Protein S8 204 207 1053 1056 A3G
+$ T15 Protein S8 204 207 1053 1056 A3G
+@ T39 Regulation S8 193 203 1042 1052 modulating
+@ T40 Gene_expression S8 208 218 1057 1067 expression
+% E9 Regulation:T39 Theme:E10
+% E10 Gene_expression:T40 Theme:T15
+
+It has been shown that the amount of A3G mRNA in T cells is increased in response to mitogenic stimulation with phorbol ester (46-48).
+# T16 Protein S9 37 40 1136 1139 A3G
+$ T16 Protein S9 37 40 1136 1139 A3G
+@ T41 Positive_regulation S9 60 69 1159 1168 increased
+% E11 Positive_regulation:T41 Theme:T16
+
+In addition, interferons have been described to upregulate A3G expression in hepatocytes and macrophages (46,48).
+# T17 Protein S10 59 62 1293 1296 A3G
+$ T17 Protein S10 59 62 1293 1296 A3G
+@ T42 Positive_regulation S10 48 58 1282 1292 upregulate
+@ T43 Gene_expression S10 63 73 1297 1307 expression
+% E12 Positive_regulation:T42 Theme:E13
+% E13 Gene_expression:T43 Theme:T17
+
+To investigate whether these stimuli interfere with A3G promoter activity in T cells, we transfected A3.01 T cells with the 1025 bp promoter or the empty vector pGL3-Basic (vector) and treated the cells with phorbol ester (TPA).
+# T18 Protein S11 52 55 1400 1403 A3G
+
+The luciferase assay showed that the approximately15-fold increased transcriptional activity of the 1025 bp promoter relative to the empty vector was not further enhanced by TPA treatment (Figure 4B), although the functional activity of TPA was confirmed by induction of the SV40 promoter-containing reporter plasmid pGL3-Control (data not shown).
+# T19 Protein S12 4 14 1581 1591 luciferase
+$ T19 Protein S12 4 14 1581 1591 luciferase
+@ T44 Positive_regulation S12 58 67 1635 1644 increased
+@ T45 Transcription S12 68 83 1645 1660 transcriptional
+@ T46 Positive_regulation S12 84 92 1661 1669 activity
+@ T47 Positive_regulation S12 162 170 1739 1747 enhanced
+% E14 Positive_regulation:T44 Theme:E15
+% E15 Transcription:T45 Theme:T19
+% E16 Positive_regulation:T46 Theme:E15
+% E17 Positive_regulation:T47 Theme:E14
+
+Similarly, treatment of A3.01 T cells transfected with the A3G promoter deletion constructs with IFN-alpha or IFN-gamma showed no effect (Figure 4C).
+# T20 Protein S13 59 62 1984 1987 A3G
+# T21 Protein S13 97 106 2022 2031 IFN-alpha
+# T22 Protein S13 110 119 2035 2044 IFN-gamma
+
+Interestingly, a control plasmid (pGL2-CVX) containing twoIFN-responsive GAS ( gamma activated sequence) elements upstream of the luciferase reporter gene was only induced by IFN-alpha in these cells (Figure 4C).
+# T23 Protein S14 130 140 2205 2215 luciferase
+# T24 Protein S14 175 184 2250 2259 IFN-alpha
+
+Since two reports describe A3G upregulation by interferons in hepatocytes (47,48), we additionally performed the experiment in the hepatic cell line HepG2.
+# T25 Protein S15 27 30 2315 2318 A3G
+$ T25 Protein S15 27 30 2315 2318 A3G
+@ T48 Positive_regulation S15 31 43 2319 2331 upregulation
+% E18 Positive_regulation:T48 Theme:T25
+
+In line with these publications, we observed an induction of the A3G promoter by approximately 2-fold after IFN-alpha or IFN-gamma stimulation (Figure 4D) with IFN-gamma being slightly more potent.
+# T26 Protein S16 65 68 2509 2512 A3G
+# T27 Protein S16 108 117 2552 2561 IFN-alpha
+# T28 Protein S16 121 130 2565 2574 IFN-gamma
+# T29 Protein S16 160 169 2604 2613 IFN-gamma
+$ T26 Protein S16 65 68 2509 2512 A3G
+@ T49 Positive_regulation S16 48 57 2492 2501 induction
+@ T50 Entity S16 69 77 2513 2521 promoter
+% E19 Positive_regulation:T49 Theme:T26 Site:T50
+
+For both interferon types, induction of A3G promoter activity was observed for all deletion constructs except for the 60 bp fragment, indicating that the responsible region is located within the 60 nt present in the 120 bp, but not in the 60 bp fragment.
+# T30 Protein S17 40 43 2682 2685 A3G
+

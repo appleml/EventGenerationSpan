@@ -1,0 +1,15 @@
+{"text": "Degraded CGN activated the NF-kB pathway in monocytes .", "event": "<extra_id_0> <extra_id_1>"}
+{"text": "A : THP-1 cells were transfected with a NF-kappaB reporter plasmid driving expression of <extra_id_0> luciferase <extra_id_2> Protein <extra_id_1> .", "event": "<extra_id_0> <extra_id_0> Positive_regulation driving <extra_id_0> Theme expression <extra_id_1> <extra_id_1> <extra_id_0> Gene_expression expression <extra_id_0> Theme luciferase <extra_id_1> <extra_id_1> <extra_id_1>"}
+{"text": "Cells were then treated with various concentrations of 10 kDa ( triangles ) , or 40 kDa dCGN ( squares ) .", "event": "<extra_id_0> <extra_id_1>"}
+{"text": "B : THP-1 cells treated with 1 mg / ml of 10 kDa dCGN ( C10 ) , or with 1 mg / ml of 40 kDa dCGN ( C40 ) were lysed after various periods of time .", "event": "<extra_id_0> <extra_id_1>"}
+{"text": "Proteins in cell extracts were resolved by SDS-PAGE and then Western blotted for <extra_id_0> IkappaBalpha <extra_id_2> Protein <extra_id_1> or alpha-tubulin as loading control .", "event": "<extra_id_0> <extra_id_1>"}
+{"text": "C : Degraded carrageenans ( dCGN ) induced activation of NF-kappaB .", "event": "<extra_id_0> <extra_id_1>"}
+{"text": "THP-1 cells were treated with nothing ( control ) , or with 1 mg / ml of 10 kDa dCGN ( C10 ) , or with 1 mg / ml of 40 kDa dCGN ( C40 ) for 30 minutes at 37degreesC .", "event": "<extra_id_0> <extra_id_1>"}
+{"text": "Nuclei were isolated and lysed .", "event": "<extra_id_0> <extra_id_1>"}
+{"text": "Proteins in nuclear extracts were resolved by SDS-PAGE and then Western blotted for NF-kappaB <extra_id_0> p50 <extra_id_2> Protein <extra_id_1> subunit ( <extra_id_0> p50 <extra_id_2> Protein <extra_id_1> ) or NF-kappaB <extra_id_0> p65 <extra_id_2> Protein <extra_id_1> subunit ( <extra_id_0> p65 <extra_id_2> Protein <extra_id_1> ) .", "event": "<extra_id_0> <extra_id_1>"}
+{"text": "Lower panels show Western blots of nuclear ERK revealing equivalent amount of protein in each sample .", "event": "<extra_id_0> <extra_id_1>"}
+{"text": "Data are representative of three separate experiments .", "event": "<extra_id_0> <extra_id_1>"}
+{"text": "D : Degraded carrageenan ( dCGN ) induced activation of NF-kappaB .", "event": "<extra_id_0> <extra_id_1>"}
+{"text": "Nuclei isolated from THP-1 cells were fluorescence - stained for NF-kappaB <extra_id_0> p50 <extra_id_2> Protein <extra_id_1> subunit or NF-kappaB <extra_id_0> p65 <extra_id_2> Protein <extra_id_1> subunit before ( filled area ) or after cells were treated with 1 mg / ml of 10 kDa dCGN ( C10 ) , or with 1 mg / ml of 40 kDa dCGN ( C40 ) for 30 minutes at 37degreesC .", "event": "<extra_id_0> <extra_id_1>"}
+{"text": "Dashed line corresponds to nuclei stained only with secondary fluorescence antibody .", "event": "<extra_id_0> <extra_id_1>"}
+{"text": "Fluorescence intensity was analyzed by flow cytometry as described .", "event": "<extra_id_0> <extra_id_1>"}

@@ -1,0 +1,43 @@
+RNA expression by BMDC
+
+BMDC were cultured at 106 cells/mL in 10 mL of RPMI-1640 complete medium in the presence or absence of 100 ng/mL LPS or 25 microg/mL poly I:C.
+
+After 1 and 2 hours, RNA was isolated with TRI-reagent (Sigma) according to the manufacturer's instructions.
+
+The expression of Il6, Il12p40, Gmcsf, and Sharpin mRNA was determined by qRT-PCR.
+# T1 Protein S4 18 21 293 296 Il6
+# T2 Protein S4 23 30 298 305 Il12p40
+# T3 Protein S4 32 37 307 312 Gmcsf
+# T4 Protein S4 43 50 318 325 Sharpin
+$ T1 Protein S4 18 21 293 296 Il6
+$ T2 Protein S4 23 30 298 305 Il12p40
+$ T3 Protein S4 32 37 307 312 Gmcsf
+$ T4 Protein S4 43 50 318 325 Sharpin
+@ T13 Transcription S4 4 14 279 289 expression
+% E1 Transcription:T13 Theme:T1
+% E2 Transcription:T13 Theme:T2
+% E3 Transcription:T13 Theme:T3
+% E4 Transcription:T13 Theme:T4
+
+Primers and probes were purchased from Applied Biosystems.
+
+Reverse transcription was performed at 42degreesC for 60 minutes with the final denaturation step at 90degreesC for 5 minutes in 30 microl containing 0.5 microg of total RNA.
+
+dNTPs, oligo(dT)15 primer, recombinant RNasin Ribonuclease Inhibitor, and M-MLV Reverse Transcriptase (all from Promega, Madison, WI) were used according to the manufacturer's instruction.
+# T5 Protein S7 74 101 666 693 M-MLV Reverse Transcriptase
+
+Reverse transcription was done in a PTC-200 Peltier Thermal Cycler (MJ Research, Watertown, MA).
+
+qRT-PCR was performed in ABI Prism 7700 Sequence Detection System with TaqMan(R) Gene Expression Assays (Applied Biosystems, Foster City, CA) for mouse Actb, IL6, IL12p40, Ifnbeta, Gmcsf, and Sharpin according to the manufacturer's protocol.
+# T6 Protein S9 152 156 1030 1034 Actb
+# T7 Protein S9 158 161 1036 1039 IL6
+# T8 Protein S9 163 170 1041 1048 IL12p40
+# T9 Protein S9 172 179 1050 1057 Ifnbeta
+# T10 Protein S9 181 186 1059 1064 Gmcsf
+# T11 Protein S9 192 199 1070 1077 Sharpin
+
+The endogenous standard for normalization of the target gene was beta-actin.
+# T12 Protein S10 65 75 1185 1195 beta-actin
+
+Relative gene expression was calculated using the 2-deltadeltaCt method [56].
+

@@ -1,0 +1,79 @@
+Selective activation and functional significance of p38alpha mitogen-activated protein kinase in lipopolysaccharide-stimulated neutrophils.
+
+Activation of leukocytes by proinflammatory stimuli selectively initiates intracellular signal transduction via sequential phosphorylation of kinases.
+
+Lipopolysaccharide (LPS) stimulation of human neutrophils is known to result in activation of p38 mitogen-activated protein kinase (MAPk); however, the upstream activator(s) of p38 MAPk is unknown, and consequences of p38 MAPk activation remain largely undefined.
+
+We investigated the MAPk kinase (MKK) that activates p38 MAPk in response to LPS, the p38 MAPk isoforms that are activated as part of this pathway, and the functional responses affected by p38 MAPk activation.
+
+Although MKK3, MKK4, and MKK6 all activated p38 MAPk in experimental models, only MKK3 was found to activate recombinant p38 MAPk in LPS-treated neutrophils.
+# T1 Protein S5 9 13 775 779 MKK3
+# T2 Protein S5 15 19 781 785 MKK4
+# T3 Protein S5 25 29 791 795 MKK6
+# T4 Protein S5 82 86 848 852 MKK3
+
+Of p38 MAPk isoforms studied, only p38alpha and p38delta were detected in neutrophils.
+# T5 Protein S6 35 43 959 967 p38alpha
+# T6 Protein S6 48 56 972 980 p38delta
+$ T6 Protein S6 48 56 972 980 p38delta
+$ T5 Protein S6 35 43 959 967 p38alpha
+@ T18 Gene_expression S6 62 70 986 994 detected
+% E1 Gene_expression:T18 Theme:T6
+% E2 Gene_expression:T18 Theme:T5
+
+LPS stimulation selectively activated p38alpha.
+# T7 Protein S7 38 46 1049 1057 p38alpha
+$ T7 Protein S7 38 46 1049 1057 p38alpha
+@ T19 Positive_regulation S7 28 37 1039 1048 activated
+% E3 Positive_regulation:T19 Theme:T7
+
+Specific inhibitors of p38alpha MAPk blocked LPS-induced adhesion, nuclear factor-kappa B (NF-kappaB) activation, and synthesis of tumor necrosis factor-alpha (TNF-alpha).
+# T8 Protein S8 23 36 1082 1095 p38alpha MAPk
+# T9 Protein S8 131 158 1190 1217 tumor necrosis factor-alpha
+# T10 Protein S8 160 169 1219 1228 TNF-alpha
+$ T8 Protein S8 23 36 1082 1095 p38alpha MAPk
+$ T10 Protein S8 160 169 1219 1228 TNF-alpha
+@ T20 Negative_regulation S8 9 19 1068 1078 inhibitors
+@ T21 Negative_regulation S8 37 44 1096 1103 blocked
+@ T22 Gene_expression S8 118 127 1177 1186 synthesis
+% E4 Negative_regulation:T20 Theme:T8
+% E5 Negative_regulation:T21 Theme:E6 Cause:E4
+% E6 Gene_expression:T22 Theme:T10
+
+Inhibition of p38alpha MAPk resulted in a transient decrease in TNF-alpha mRNA accumulation but persistent loss of TNF-alpha synthesis.
+# T11 Protein S9 14 27 1245 1258 p38alpha MAPk
+# T12 Protein S9 64 73 1295 1304 TNF-alpha
+# T13 Protein S9 115 124 1346 1355 TNF-alpha
+$ T11 Protein S9 14 27 1245 1258 p38alpha MAPk
+$ T13 Protein S9 115 124 1346 1355 TNF-alpha
+@ T23 Negative_regulation S9 0 10 1231 1241 Inhibition
+@ T24 Negative_regulation S9 107 111 1338 1342 loss
+@ T25 Gene_expression S9 125 134 1356 1365 synthesis
+% E7 Negative_regulation:T23 Theme:T11
+% E8 Negative_regulation:T24 Theme:E9 Cause:E7
+% E9 Gene_expression:T25 Theme:T13
+
+These findings support a pathway by which LPS stimulation of neutrophils results in activation of MKK3, which in turn activates p38alpha MAPk, ultimately regulating adhesion, NF-kappaB activation, enhanced gene expression of TNF-alpha, and regulation of TNF-alpha synthesis.
+# T14 Protein S10 98 102 1465 1469 MKK3
+# T15 Protein S10 128 141 1495 1508 p38alpha MAPk
+# T16 Protein S10 225 234 1592 1601 TNF-alpha
+# T17 Protein S10 254 263 1621 1630 TNF-alpha
+$ T14 Protein S10 98 102 1465 1469 MKK3
+$ T15 Protein S10 128 141 1495 1508 p38alpha MAPk
+$ T16 Protein S10 225 234 1592 1601 TNF-alpha
+$ T17 Protein S10 254 263 1621 1630 TNF-alpha
+@ T26 Positive_regulation S10 73 80 1440 1447 results
+@ T27 Positive_regulation S10 84 94 1451 1461 activation
+@ T28 Positive_regulation S10 118 127 1485 1494 activates
+@ T29 Positive_regulation S10 197 205 1564 1572 enhanced
+@ T30 Gene_expression S10 211 221 1578 1588 expression
+@ T31 Regulation S10 240 250 1607 1617 regulation
+@ T32 Gene_expression S10 264 273 1631 1640 synthesis
+% E10 Positive_regulation:T26 Theme:E11
+% E11 Positive_regulation:T27 Theme:T14
+% E12 Positive_regulation:T28 Theme:T15 Cause:E10
+% E13 Positive_regulation:T29 Theme:E14 Cause:E12
+% E14 Gene_expression:T30 Theme:T16
+% E15 Regulation:T31 Theme:E16 Cause:E12
+% E16 Gene_expression:T32 Theme:T17
+

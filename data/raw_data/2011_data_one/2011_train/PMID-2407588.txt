@@ -1,0 +1,33 @@
+Octamer transcription factors and the cell type-specificity of immunoglobulin gene expression.
+
+Antibodies are produced exclusively in B lymphocytes.
+
+The expression of the antibody-encoding genes, the immunoglobulin (Ig) genes, is also restricted to B cells.
+
+The octamer sequence ATGCAAAT is present in the promoter and the enhancer of Ig genes, and plays an important role in its tissue-specific expression.
+
+This sequence motif is a binding site for nuclear proteins, the so-called octamer transcription factors (Oct or OTF factors).
+
+The Oct-1 protein is present in all cell types analyzed so far, whereas Oct-2A and Oct-2B are found mainly in B lymphocytes.
+# T1 Protein S6 4 9 539 544 Oct-1
+# T2 Protein S6 72 78 607 613 Oct-2A
+# T3 Protein S6 83 89 618 624 Oct-2B
+$ T1 Protein S6 4 9 539 544 Oct-1
+$ T3 Protein S6 83 89 618 624 Oct-2B
+$ T2 Protein S6 72 78 607 613 Oct-2A
+@ T6 Gene_expression S6 21 28 556 563 present
+@ T7 Gene_expression S6 94 99 629 634 found
+% E1 Gene_expression:T6 Theme:T1
+% E2 Gene_expression:T7 Theme:T3
+% E3 Gene_expression:T7 Theme:T2
+
+All three proteins show the same sequence specificity and binding affinity.
+
+It appears that the B cell-specific expression of Ig genes is mediated at least in part by cell type-specific Oct factors, and that there are both quantitative and qualitative differences between Oct-1 and Oct-2 factors.
+# T4 Protein S8 196 201 932 937 Oct-1
+# T5 Protein S8 206 211 942 947 Oct-2
+
+Recently, a number of other octamer factor variants were identified.
+
+Many of these may be created by alternative splicing of a primary transcript of one Oct factor gene and may serve a specific function in the fine tuning of gene expression.
+

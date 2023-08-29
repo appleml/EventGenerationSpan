@@ -1,0 +1,45 @@
+HIV-1 reactivation in resting peripheral blood mononuclear cells of infected adults upon in vitro CD4 cross-linking by ligands of the CDR2-loop in extracellular domain 1.
+# T1 Protein S1 98 101 98 101 CD4
+$ T1 Protein S1 98 101 98 101 CD4
+@ T9 Binding S1 102 115 102 115 cross-linking
+% E1 Binding:T9 Theme:T1
+
+HIV-1 infects resting peripheral blood mononuclear cells (PBMCs) but remains inactive state until subsequent cell activation.
+
+We have demonstrated that the cross-linking of cell surface CD4 by gp120-anti-gp120 immune complexes or heat-inactivated HIV-1 (iHIV-1) is sufficient to trigger activation signals leading to virus reactivation (9).
+# T2 Protein S3 60 63 358 361 CD4
+$ T2 Protein S3 60 63 358 361 CD4
+@ T10 Binding S3 30 43 328 341 cross-linking
+% E2 Binding:T10 Theme:T2
+
+In this study, we demonstrate that NF-kappaB nuclear translocation and stimulation of virus production by iHIV-1 were strictly linked to the concentrations of viral proteins used as exogenous stimuli.
+
+Moreover, we further investigated the physiologic relevance of these observations.
+
+When submitted to an in vitro CD4 cross-linking by iHIV-1, PBMCs from HIV-1-infected patients were found to produce virus.
+# T3 Protein S6 30 33 827 830 CD4
+$ T3 Protein S6 30 33 827 830 CD4
+@ T11 Binding S6 34 47 831 844 cross-linking
+% E3 Binding:T11 Theme:T3
+
+This viral reactivation was associated with increased NF-kappaB nuclear translocation in patients' PBMCs.
+
+Additionally, virus reactivation in resting PBMCs infected in vitro with HIV-1 was found to be specifically induced by ligands of the CDR2-loop in domain 1 (D1) of CD4 (virus envelope and anti-CD4 monoclonal antibodies).
+# T4 Protein S8 164 167 1190 1193 CD4
+# T5 Protein S8 193 196 1219 1222 CD4
+
+In contrast, virus reactivation was not observed following CD4 oligomerization by antibodies that bind other epitopes in D1, including the D1/CDR3-loop.
+# T6 Protein S9 59 62 1306 1309 CD4
+$ T6 Protein S9 59 62 1306 1309 CD4
+@ T12 Binding S9 63 78 1310 1325 oligomerization
+% E4 Binding:T12 Theme:T6
+
+Finally, soluble CD4 (sCD4) prevented virus reactivation by D1/CDR2-loop ligands.
+# T7 Protein S10 17 20 1417 1420 CD4
+
+Our results indicate that the signaling events initiated in PBMCs by oligomerization of CD4 at the D1/CDR2-loop can trigger HIV-1 upregulation in infected individuals.
+# T8 Protein S11 88 91 1570 1573 CD4
+$ T8 Protein S11 88 91 1570 1573 CD4
+@ T13 Binding S11 69 84 1551 1566 oligomerization
+% E5 Binding:T13 Theme:T8
+

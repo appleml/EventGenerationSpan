@@ -1,0 +1,51 @@
+M-CSF Induces Monocyte Survival by Activating NF-kappaB p65 Phosphorylation at Ser276 via Protein Kinase C
+# T1 Protein S1 56 59 56 59 p65
+$ T1 Protein S1 56 59 56 59 p65
+@ T10 Phosphorylation S1 60 75 60 75 Phosphorylation
+@ T11 Entity S1 79 85 79 85 Ser276
+% E1 Phosphorylation:T10 Theme:T1 Site:T11
+
+Macrophage colony-stimulating factor (M-CSF) promotes mononuclear phagocyte survival and proliferation.
+
+The transcription factor Nuclear Factor-kappaB (NF-kappaB) is a key regulator of genes involved in M-CSF-induced mononuclear phagocyte survival and this study focused at identifying the mechanism of NF-kappaB transcriptional activation.
+
+Here, we demonstrate that M-CSF stimulated NF-kappaB transcriptional activity in human monocyte-derived macrophages (MDMs) and the murine macrophage cell line RAW 264.7.
+
+The general protein kinase C (PKC) inhibitor Ro-31-8220, the conventional PKCalpha/beta inhibitor Go-6976, overexpression of dominant negative PKCalpha constructs and PKCalpha siRNA reduced NF-kappaB activity in response to M-CSF.
+# T2 Protein S5 74 82 692 700 PKCalpha
+# T3 Protein S5 83 87 701 705 beta
+# T4 Protein S5 125 151 743 769 dominant negative PKCalpha
+# T5 Protein S5 167 181 785 799 PKCalpha siRNA
+$ T2 Protein S5 74 82 692 700 PKCalpha
+$ T3 Protein S5 83 87 701 705 beta
+$ T4 Protein S5 125 151 743 769 dominant negative PKCalpha
+@ T12 Negative_regulation S5 88 97 706 715 inhibitor
+@ T13 Gene_expression S5 107 121 725 739 overexpression
+% E2 Negative_regulation:T12 Theme:T2
+% E3 Negative_regulation:T12 Theme:T3
+% E4 Gene_expression:T13 Theme:T4
+
+Interestingly, Ro-31-8220 reduced Ser276 phosphorylation of NF-kappaBp65 leading to decreased M-CSF-induced monocyte survival.
+# T6 Protein S6 69 72 918 921 p65
+$ T6 Protein S6 69 72 918 921 p65
+@ T14 Negative_regulation S6 26 33 875 882 reduced
+@ T15 Entity S6 34 40 883 889 Ser276
+@ T16 Phosphorylation S6 41 56 890 905 phosphorylation
+% E5 Negative_regulation:T14 Theme:E6
+% E6 Phosphorylation:T16 Theme:T6 Site:T15
+
+In this report, we identify conventional PKCs, including PKCalpha as important upstream kinases for M-CSF-induced NF-kappaB transcriptional activation, NF-kappaB-regulated gene expression, NF-kappaB p65 Ser276 phosphorylation, and macrophage survival.
+# T7 Protein S7 57 65 1033 1041 PKCalpha
+# T8 Protein S7 199 202 1175 1178 p65
+$ T8 Protein S7 199 202 1175 1178 p65
+@ T17 Regulation S7 69 78 1045 1054 important
+@ T18 Positive_regulation S7 106 113 1082 1089 induced
+@ T19 Entity S7 203 209 1179 1185 Ser276
+@ T20 Phosphorylation S7 210 225 1186 1201 phosphorylation
+% E7 Regulation:T17 Theme:E8
+% E8 Positive_regulation:T18 Theme:E9
+% E9 Phosphorylation:T20 Theme:T8 Site:T19
+
+Lastly, we find that NF-kappaB p65 Ser276 plays an important role in basal and M-CSF-stimulated NF-kappaB activation in human mononuclear phagocytes.
+# T9 Protein S8 31 34 1259 1262 p65
+

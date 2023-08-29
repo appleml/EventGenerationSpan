@@ -1,0 +1,62 @@
+Soluble tumor necrosis factor receptors inhibit phorbol myristate acetate and cytokine-induced HIV-1 expression chronically infected U1 cells.
+
+Recombinant human tumor necrosis factor (TNF) binding protein-1 (r-h TBP-1) and recombinant human soluble dimeric TNF receptor (rhu TNFR:Fc) were used to determine the relative contributions of TNF to phorbol myristate acetate (PMA) and cytokine-induced human immunodeficiency virus type 1 (HIV-1) replication in chronically infected cell lines.
+
+Treatment of HIV-1-infected promonocytic U1 cells with r-h-TBP-1 or rhu TNFR:Fc reduced PMA-induced HIV-1 p24 antigen production in a concentration-dependent manner, with a maximal inhibition of approximately 90%.
+# T1 Protein S3 106 109 596 599 p24
+$ T1 Protein S3 106 109 596 599 p24
+@ T8 Negative_regulation S3 80 87 570 577 reduced
+@ T9 Positive_regulation S3 92 99 582 589 induced
+@ T10 Gene_expression S3 118 128 608 618 production
+% E1 Negative_regulation:T8 Theme:E2
+% E2 Positive_regulation:T9 Theme:E3
+% E3 Gene_expression:T10 Theme:T1
+
+Maximal inhibition of p24 antigen production in T-lymphocytic ACH-2 cells was 47% with r-hTBP-1 and 42% with rhu TNFR:Fc.
+# T2 Protein S4 22 25 726 729 p24
+$ T2 Protein S4 22 25 726 729 p24
+@ T11 Negative_regulation S4 8 18 712 722 inhibition
+@ T12 Gene_expression S4 34 44 738 748 production
+% E4 Negative_regulation:T11 Theme:E5
+% E5 Gene_expression:T12 Theme:T2
+
+r-hTBP-1 and rhu TNFR:Fc also decreased p24 antigen synthesized by U1 cells in response to other stimuli, including phytohemagglutinin (PHA)-induced supernatant, granulocyte-macrophage colony-stimulating factor, interleukin-6, and TNF.
+# T3 Protein S5 40 43 866 869 p24
+# T4 Protein S5 162 210 988 1036 granulocyte-macrophage colony-stimulating factor
+# T5 Protein S5 212 225 1038 1051 interleukin-6
+$ T3 Protein S5 40 43 866 869 p24
+$ T5 Protein S5 212 225 1038 1051 interleukin-6
+$ T4 Protein S5 162 210 988 1036 granulocyte-macrophage colony-stimulating factor
+@ T13 Negative_regulation S5 30 39 856 865 decreased
+@ T14 Gene_expression S5 52 63 878 889 synthesized
+@ T15 Positive_regulation S5 76 90 902 916 in response to
+% E6 Negative_regulation:T13 Theme:E12
+% E7 Negative_regulation:T13 Theme:E11
+% E8 Negative_regulation:T13 Theme:E10
+% E9 Gene_expression:T14 Theme:T3
+% E10 Positive_regulation:T15 Theme:E9 Cause:T5
+% E11 Positive_regulation:T15 Theme:E9 Cause:T4
+% E12 Positive_regulation:T15 Theme:E9
+
+Addition of r-hTBP-1 to U1 cells during the last 4 h of a 24 h incubation with PMA still inhibited p24 antigen production by 15%.
+# T6 Protein S6 99 102 1161 1164 p24
+$ T6 Protein S6 99 102 1161 1164 p24
+@ T16 Negative_regulation S6 89 98 1151 1160 inhibited
+@ T17 Gene_expression S6 111 121 1173 1183 production
+% E13 Negative_regulation:T16 Theme:E14
+% E14 Gene_expression:T17 Theme:T6
+
+U1 cells stimulated with 10(-7) M PMA released approximately 1 ng/ml endogenous TBP-1 with an initial peak observed at 1 h and a second peak at 24 h after PMA stimulation.
+# T7 Protein S7 80 85 1272 1277 TBP-1
+$ T7 Protein S7 80 85 1272 1277 TBP-1
+@ T18 Localization S7 38 46 1230 1238 released
+@ T19 Positive_regulation S7 149 154 1341 1346 after
+% E15 Localization:T18 Theme:T7
+% E16 Positive_regulation:T19 Theme:E15
+
+r-hTBP-1 also partially reversed inhibition of U1 cellular proliferation caused by PMA.
+
+Both r-hTBP-1 and rhu TNFR:Fc blocked PMA induction of nuclear factor (NK)- kappa B DNA-binding activity in U1 cells in association with decreases in HIV-1 replication.
+
+We conclude that soluble TNF receptors can inhibit stimuli-induced HIV-1 expression and NK- kappa B DNA-binding activity in chronically infected U1 cells.
+

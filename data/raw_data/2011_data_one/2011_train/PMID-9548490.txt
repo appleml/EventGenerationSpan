@@ -1,0 +1,89 @@
+Differential induction of DNA-binding activities following CD19 cross-linking in human B lineage cells.
+# T1 Protein S1 59 63 59 63 CD19
+$ T1 Protein S1 59 63 59 63 CD19
+@ T19 Binding S1 64 77 64 77 cross-linking
+% E1 Binding:T19 Theme:T1
+
+The B cell-specific cell surface molecule CD19 is expressed at all stages of B cell development, including normal plasma cells, and mediates signal transduction via interaction with cytoplasmic effector proteins.
+# T2 Protein S2 42 46 147 151 CD19
+$ T2 Protein S2 42 46 147 151 CD19
+@ T20 Gene_expression S2 50 59 155 164 expressed
+@ T21 Binding S2 165 176 270 281 interaction
+% E2 Gene_expression:T20 Theme:T2
+% E3 Binding:T21 Theme:T2
+
+Cross-linking CD19 on early human B lineage cells induces the formation of a CD19/Vav/phosphatidylinositol-3 kinase complex, tyrosine phosphorylation of CD19 and Vav, and activation of the Ras pathway.
+# T3 Protein S3 14 18 332 336 CD19
+# T4 Protein S3 77 81 395 399 CD19
+# T5 Protein S3 153 157 471 475 CD19
+$ T3 Protein S3 14 18 332 336 CD19
+$ T4 Protein S3 77 81 395 399 CD19
+$ T5 Protein S3 153 157 471 475 CD19
+@ T22 Binding S3 0 13 318 331 Cross-linking
+@ T23 Positive_regulation S3 50 57 368 375 induces
+@ T24 Binding S3 116 123 434 441 complex
+@ T25 Entity S3 125 133 443 451 tyrosine
+@ T26 Phosphorylation S3 134 149 452 467 phosphorylation
+% E4 Binding:T22 Theme:T3
+% E5 Positive_regulation:T23 Theme:E7 Cause:E4
+% E6 Positive_regulation:T23 Theme:E8 Cause:E4
+% E7 Binding:T24 Theme:T4
+% E8 Phosphorylation:T26 Theme:T5 Site:T25
+
+To further explore the ramifications of CD19 signaling, the current study examined whether phosphorylation of Elk-1, activation of activator protein-1 (AP-1), or activation of nuclear factor-kappaB (NF-kappaB) transcription factors occurred following CD19 cross-linking.
+# T6 Protein S4 40 44 560 564 CD19
+# T7 Protein S4 110 115 630 635 Elk-1
+# T8 Protein S4 251 255 771 775 CD19
+$ T7 Protein S4 110 115 630 635 Elk-1
+$ T8 Protein S4 251 255 771 775 CD19
+@ T27 Phosphorylation S4 91 106 611 626 phosphorylation
+@ T28 Positive_regulation S4 241 250 761 770 following
+@ T29 Binding S4 256 269 776 789 cross-linking
+% E9 Phosphorylation:T27 Theme:T7
+% E10 Positive_regulation:T28 Theme:E9 Cause:E11
+% E11 Binding:T29 Theme:T8
+
+The cells used were the BLIN-1 pre-B cell line expressing low levels of cell surface mu heavy chain associated with surrogate light chain and the 1E8 immature B cell line expressing cell surface mu/kappa.
+
+Lysates from CD19 cross-linked 1E8 cells induced robust phosphorylation of an Elk-1 fusion protein in vitro, whereas no phosphorylation of Elk-1 fusion protein occurred using lysates from CD19 cross-linked BLIN-1 cells.
+# T9 Protein S6 13 17 1009 1013 CD19
+# T10 Protein S6 78 83 1074 1079 Elk-1
+# T11 Protein S6 139 144 1135 1140 Elk-1
+# T12 Protein S6 188 192 1184 1188 CD19
+$ T9 Protein S6 13 17 1009 1013 CD19
+$ T10 Protein S6 78 83 1074 1079 Elk-1
+$ T11 Protein S6 139 144 1135 1140 Elk-1
+$ T12 Protein S6 188 192 1184 1188 CD19
+@ T30 Binding S6 18 30 1014 1026 cross-linked
+@ T31 Positive_regulation S6 41 48 1037 1044 induced
+@ T32 Phosphorylation S6 56 71 1052 1067 phosphorylation
+@ T33 Phosphorylation S6 120 135 1116 1131 phosphorylation
+@ T34 Positive_regulation S6 160 168 1156 1164 occurred
+@ T35 Binding S6 193 205 1189 1201 cross-linked
+% E12 Binding:T30 Theme:T9
+% E13 Positive_regulation:T31 Theme:E14 Cause:E12
+% E14 Phosphorylation:T32 Theme:T10
+% E15 Phosphorylation:T33 Theme:T11
+% E16 Positive_regulation:T34 Theme:E15 Cause:E17
+% E17 Binding:T35 Theme:T12
+
+An electrophoretic mobility shift assay employing AP-1 and NF-kappaB consensus oligonucleotides was used to demonstrate that AP-1 -binding activity increased, while constitutive NF-kappaB-binding activity was not enhanced, following 2 h of CD19 cross-linking in 1E8 cells.
+# T13 Protein S7 240 244 1456 1460 CD19
+$ T13 Protein S7 240 244 1456 1460 CD19
+@ T36 Binding S7 245 258 1461 1474 cross-linking
+% E18 Binding:T36 Theme:T13
+
+Supershift experiments revealed that JunD and c-Fos proteins mediated anti-CD19 induced AP-1-binding activity in 1E8 cells.
+# T14 Protein S8 37 41 1526 1530 JunD
+# T15 Protein S8 46 51 1535 1540 c-Fos
+# T16 Protein S8 75 79 1564 1568 CD19
+
+In contrast, CD19 cross-linking in BLIN-1 cells resulted in the induction of NF-kappaB, but had no apparent effect on AP-1-binding activity.
+# T17 Protein S9 13 17 1626 1630 CD19
+$ T17 Protein S9 13 17 1626 1630 CD19
+@ T37 Binding S9 18 31 1631 1644 cross-linking
+% E19 Binding:T37 Theme:T17
+
+These data suggest that CD19-mediated signal transduction activates different transcription factors at juxtaposed stages of B cell development that may culminate in the activation or suppression of distinct sets of genes.
+# T18 Protein S10 24 28 1778 1782 CD19
+

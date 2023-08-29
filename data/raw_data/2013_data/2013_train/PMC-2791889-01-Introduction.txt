@@ -1,0 +1,204 @@
+Interleukin-10 (IL-10) is a cytokine with broad anti-inflammatory properties that inhibits macrophage and dendritic cell (DC) function (Moore et al., 2001).
+# T1 Protein S1 3 14 3 14 erleukin-10
+# T2 Protein S1 16 21 16 21 IL-10
+
+IL-10 limits the immune and inflammatory responses to pathogens and gut flora and prevents damage to the host (Moore et al., 2001; O'Garra and Vieira, 2004), but when dysregulated may result in chronic infection (Brooks et al., 2006; Ejrnaes et al., 2006; Moore et al., 2001).
+# T3 Protein S2 0 5 157 162 IL-10
+
+IL-10 is expressed by T helper 2 (Th2) cells, B cells, DCs, and macrophages (Moore et al., 2001), and also by Th1 cells (Anderson et al., 2007; Assenmacher et al., 1994; Del Prete et al., 1993; Gerosa et al., 1996; Jankovic et al., 2007; Pohl-Koppe et al., 1998) and (reviewed in O'Garra and Vieira, 2007; Trinchieri, 2007), certain regulatory (Treg) T cells (Moore et al., 2001; O'Garra and Vieira, 2004; Roncarolo et al., 2006), and Th17 cells (Awasthi et al., 2007; Fitzgerald et al., 2007; McGeachy et al., 2007; Stumhofer et al., 2007).
+# T4 Protein S3 0 5 434 439 IL-10
+$ T4 Protein S3 0 5 434 439 IL-10
+@ T54 Gene_expression S3 9 18 443 452 expressed
+% E1 Gene_expression:T54 Theme:T4
+
+In vitro human CD4+ and CD8+ T cell clones, or mouse CD4+ T cells that produce both interferon-gamma (IFN-gamma) and IL-10, can be differentiated by T cell receptor (TCR)-stimulation in the presence of IL-12 (Chang et al., 2007; Gerosa et al., 1996; Jeannin et al., 1996; Meyaard et al., 1996; Windhagen et al., 1996).
+# T5 Protein S4 15 18 991 994 CD4
+# T6 Protein S4 24 27 1000 1003 CD8
+# T7 Protein S4 53 56 1029 1032 CD4
+# T8 Protein S4 84 100 1060 1076 interferon-gamma
+# T9 Protein S4 102 111 1078 1087 IFN-gamma
+# T10 Protein S4 117 122 1093 1098 IL-10
+# T11 Protein S4 202 207 1178 1183 IL-12
+$ T8 Protein S4 84 100 1060 1076 interferon-gamma
+$ T10 Protein S4 117 122 1093 1098 IL-10
+@ T55 Gene_expression S4 71 78 1047 1054 produce
+% E2 Gene_expression:T55 Theme:T8
+% E3 Gene_expression:T55 Theme:T10
+
+Furthermore, Th1 cell clones coproducing IFN-gamma and IL-10 have been isolated from bronchoalveolar lavage (BAL) of active pulmonary tuberculosis (TB) patients (Gerosa et al., 1999).
+# T12 Protein S5 41 50 1336 1345 IFN-gamma
+# T13 Protein S5 55 60 1350 1355 IL-10
+$ T12 Protein S5 41 50 1336 1345 IFN-gamma
+$ T13 Protein S5 55 60 1350 1355 IL-10
+@ T56 Gene_expression S5 29 40 1324 1335 coproducing
+% E4 Gene_expression:T56 Theme:T12
+% E5 Gene_expression:T56 Theme:T13
+
+IL-10 production by Th1 cells was also reported in animals infected with Toxoplasma gondii (Jankovic et al., 2002; Shaw et al., 2006) or with Leishmania major (Anderson et al., 2007) and shown to be required for regulation of the immune response in these infections (Anderson et al., 2007; Jankovic et al., 2007).
+# T14 Protein S6 0 5 1479 1484 IL-10
+$ T14 Protein S6 0 5 1479 1484 IL-10
+@ T57 Gene_expression S6 6 16 1485 1495 production
+% E6 Gene_expression:T57 Theme:T14
+
+The relative amounts of IL-10 and IFN-gamma produced by Th1 cells may influence the balance between clearance and persistent infection with certain pathogens (Moore et al., 2001; Trinchieri, 2007), thus determining whether chronic infection or immunopathology ensues.
+# T15 Protein S7 24 29 1817 1822 IL-10
+# T16 Protein S7 34 43 1827 1836 IFN-gamma
+$ T15 Protein S7 24 29 1817 1822 IL-10
+$ T16 Protein S7 34 43 1827 1836 IFN-gamma
+@ T58 Gene_expression S7 44 52 1837 1845 produced
+% E7 Gene_expression:T58 Theme:T15
+% E8 Gene_expression:T58 Theme:T16
+
+Th1, Th2, and Th17 cell responses differentiate along distinct signaling pathways (Glimcher and Murphy, 2000; Ivanov et al., 2007; Stockinger and Veldhoen, 2007).
+
+Th1 cell development requires signal transducer and activator of transcription (STAT)1 activation, induced by type I IFN or IFN-gamma, the transcription factor T-box 21 (T-bet), and IL-12-induced STAT4 signaling, which can couple with IL-18-induced IRAK and NF-kappaB transcription factors to drive the high amounts of IFN-gamma required to eradicate intracellular pathogens (Glimcher and Murphy, 2000).
+# T17 Protein S9 30 86 2254 2310 signal transducer and activator of transcription (STAT)1
+# T18 Protein S9 110 120 2334 2344 type I IFN
+# T19 Protein S9 124 133 2348 2357 IFN-gamma
+# T20 Protein S9 160 168 2384 2392 T-box 21
+# T21 Protein S9 170 175 2394 2399 T-bet
+# T22 Protein S9 182 187 2406 2411 IL-12
+# T23 Protein S9 196 201 2420 2425 STAT4
+# T24 Protein S9 235 240 2459 2464 IL-18
+# T25 Protein S9 249 253 2473 2477 IRAK
+# T26 Protein S9 319 328 2543 2552 IFN-gamma
+$ T17 Protein S9 30 86 2254 2310 signal transducer and activator of transcription (STAT)1
+$ T18 Protein S9 110 120 2334 2344 type I IFN
+$ T19 Protein S9 124 133 2348 2357 IFN-gamma
+$ T25 Protein S9 249 253 2473 2477 IRAK
+$ T24 Protein S9 235 240 2459 2464 IL-18
+$ T26 Protein S9 319 328 2543 2552 IFN-gamma
+@ T59 Positive_regulation S9 87 97 2311 2321 activation
+@ T60 Positive_regulation S9 99 106 2323 2330 induced
+@ T61 Positive_regulation S9 241 248 2465 2472 induced
+@ T62 Positive_regulation S9 293 298 2517 2522 drive
+@ T63 Gene_expression S9 308 315 2532 2539 amounts
+% E9 Positive_regulation:T59 Theme:T17
+% E10 Positive_regulation:T60 Theme:E9 Cause:T18
+% E11 Positive_regulation:T60 Theme:E9 Cause:T19
+% E12 Positive_regulation:T61 Theme:T25 Cause:T24
+% E13 Positive_regulation:T62 Theme:E14 Cause:E9
+% E14 Gene_expression:T63 Theme:T26
+
+Th2 cell development, with expression of IL-4, IL-5, and IL-13, requires IL-4, STAT6, and the transcription factor GATA binding protein (GATA)-3 (Glimcher and Murphy, 2000).
+# T27 Protein S10 41 45 2669 2673 IL-4
+# T28 Protein S10 47 51 2675 2679 IL-5
+# T29 Protein S10 57 62 2685 2690 IL-13
+# T30 Protein S10 73 77 2701 2705 IL-4
+# T31 Protein S10 79 84 2707 2712 STAT6
+# T32 Protein S10 115 144 2743 2772 GATA binding protein (GATA)-3
+$ T27 Protein S10 41 45 2669 2673 IL-4
+$ T28 Protein S10 47 51 2675 2679 IL-5
+$ T29 Protein S10 57 62 2685 2690 IL-13
+$ T30 Protein S10 73 77 2701 2705 IL-4
+$ T31 Protein S10 79 84 2707 2712 STAT6
+$ T32 Protein S10 115 144 2743 2772 GATA binding protein (GATA)-3
+@ T64 Gene_expression S10 27 37 2655 2665 expression
+@ T65 Positive_regulation S10 64 72 2692 2700 requires
+% E15 Gene_expression:T64 Theme:T27
+% E16 Gene_expression:T64 Theme:T28
+% E17 Gene_expression:T64 Theme:T29
+% E18 Positive_regulation:T65 Theme:T27 Cause:T30
+% E19 Positive_regulation:T65 Theme:T27 Cause:T31
+% E20 Positive_regulation:T65 Theme:T27 Cause:T32
+% E21 Positive_regulation:T65 Theme:T28 Cause:T30
+% E22 Positive_regulation:T65 Theme:T28 Cause:T31
+% E23 Positive_regulation:T65 Theme:T28 Cause:T32
+% E24 Positive_regulation:T65 Theme:T29 Cause:T30
+% E25 Positive_regulation:T65 Theme:T29 Cause:T31
+% E26 Positive_regulation:T65 Theme:T29 Cause:T32
+
+The development of Th17 cells requires IL-6, TGF-beta, and the STAT3-dependent expression of the transcription factor RORgammat (Ivanov et al., 2007; Stockinger and Veldhoen, 2007).
+# T33 Protein S11 39 43 2841 2845 IL-6
+# T34 Protein S11 45 53 2847 2855 TGF-beta
+# T35 Protein S11 63 68 2865 2870 STAT3
+# T36 Protein S11 118 127 2920 2929 RORgammat
+$ T35 Protein S11 63 68 2865 2870 STAT3
+$ T36 Protein S11 118 127 2920 2929 RORgammat
+@ T66 Positive_regulation S11 69 78 2871 2880 dependent
+@ T67 Gene_expression S11 79 89 2881 2891 expression
+% E27 Positive_regulation:T66 Theme:E28 Cause:T35
+% E28 Gene_expression:T67 Theme:T36
+
+Th1 and Th2 cell responses can also be induced by varying the dose of antigen presented to the naive T cell by the antigen-presenting cell (APC).
+
+Whereas high doses of antigen, with sustained TCR signaling and extracellular-signal regulated (ERK) mitogen-activated protein kinase (MAPK) phosphorylation, result in Th1 cells producing IFN-gamma via an IL-12-independent mechanism, low doses of antigen, with transient ERK1 and ERK2 activation, favor Th2 responses and IL-4 secretion (Constant et al., 1995; Hosken et al., 1995; Jorritsma et al., 2003; Yamane et al., 2005).
+# T37 Protein S13 188 197 3318 3327 IFN-gamma
+# T38 Protein S13 205 210 3335 3340 IL-12
+# T39 Protein S13 271 275 3401 3405 ERK1
+# T40 Protein S13 280 284 3410 3414 ERK2
+# T41 Protein S13 321 325 3451 3455 IL-4
+$ T37 Protein S13 188 197 3318 3327 IFN-gamma
+$ T38 Protein S13 205 210 3335 3340 IL-12
+$ T39 Protein S13 271 275 3401 3405 ERK1
+$ T40 Protein S13 280 284 3410 3414 ERK2
+$ T41 Protein S13 321 325 3451 3455 IL-4
+@ T68 Positive_regulation S13 158 164 3288 3294 result
+@ T69 Gene_expression S13 178 187 3308 3317 producing
+@ T70 Regulation S13 211 222 3341 3352 independent
+@ T71 Positive_regulation S13 285 295 3415 3425 activation
+@ T72 Positive_regulation S13 297 302 3427 3432 favor
+@ T73 Localization S13 326 335 3456 3465 secretion
+% E29 Positive_regulation:T68 Theme:E30
+% E30 Gene_expression:T69 Theme:T37
+% E31 Regulation:T70 Theme:E30 Cause:T38
+% E32 Positive_regulation:T71 Theme:T39
+% E33 Positive_regulation:T71 Theme:T40
+% E34 Positive_regulation:T72 Theme:E35 Cause:E32
+% E36 Positive_regulation:T72 Theme:E35 Cause:E33
+% E35 Localization:T73 Theme:T41
+
+Because Th1 and Th2 cells cross regulate each other's development and function and can suppress Th17 cell responses, and all differentiate along distinct signaling pathways (Glimcher and Murphy, 2000; Stockinger and Veldhoen, 2007), IL-10 produced by all these Th cells may thus act as a feedback regulator to control the pathology associated with an overexuberant, albeit efficacious, inflammatory response.
+# T42 Protein S14 233 238 3790 3795 IL-10
+$ T42 Protein S14 233 238 3790 3795 IL-10
+@ T74 Gene_expression S14 239 247 3796 3804 produced
+@ T75 Regulation S14 279 306 3836 3863 act as a feedback regulator
+% E37 Gene_expression:T74 Theme:T42
+% E38 Regulation:T75 Theme:E37 Cause:T42
+
+Whether IL-10 production by these different Th cell subsets is induced by independent and/or common mechanisms is unknown.
+# T43 Protein S15 8 13 3974 3979 IL-10
+$ T43 Protein S15 8 13 3974 3979 IL-10
+@ T76 Gene_expression S15 14 24 3980 3990 production
+@ T77 Positive_regulation S15 63 70 4029 4036 induced
+% E39 Gene_expression:T76 Theme:T43
+% E40 Positive_regulation:T77 Theme:E39
+
+Here, we showed that in vitro differentiation of IL-10-producing Th1 cells from naive CD4+ T cells required IL-12-induced STAT4 signaling, strong TCR activation (high antigen dose), and sustained ERK1 and ERK2 phosphorylation.
+# T44 Protein S16 49 54 4138 4143 IL-10
+# T45 Protein S16 86 89 4175 4178 CD4
+# T46 Protein S16 108 113 4197 4202 IL-12
+# T47 Protein S16 122 127 4211 4216 STAT4
+# T48 Protein S16 196 200 4285 4289 ERK1
+# T49 Protein S16 205 209 4294 4298 ERK2
+$ T44 Protein S16 49 54 4138 4143 IL-10
+$ T48 Protein S16 196 200 4285 4289 ERK1
+$ T49 Protein S16 205 209 4294 4298 ERK2
+@ T78 Gene_expression S16 55 64 4144 4153 producing
+@ T79 Phosphorylation S16 210 225 4299 4314 phosphorylation
+% E41 Gene_expression:T78 Theme:T44
+% E42 Phosphorylation:T79 Theme:T48
+% E43 Phosphorylation:T79 Theme:T49
+
+Furthermore, we showed that activation of ERK1 and ERK2 is a requirement for production of IL-10 by Th1, Th2, and Th17 cell subsets.
+# T50 Protein S17 42 46 4358 4362 ERK1
+# T51 Protein S17 51 55 4367 4371 ERK2
+# T52 Protein S17 91 96 4407 4412 IL-10
+$ T50 Protein S17 42 46 4358 4362 ERK1
+$ T51 Protein S17 51 55 4367 4371 ERK2
+$ T52 Protein S17 91 96 4407 4412 IL-10
+@ T80 Positive_regulation S17 28 38 4344 4354 activation
+@ T81 Positive_regulation S17 61 72 4377 4388 requirement
+@ T82 Gene_expression S17 77 87 4393 4403 production
+% E44 Positive_regulation:T80 Theme:T50
+% E45 Positive_regulation:T80 Theme:T51
+% E46 Positive_regulation:T81 Theme:E47 Cause:E44
+% E48 Positive_regulation:T81 Theme:E47 Cause:E45
+% E47 Gene_expression:T82 Theme:T52
+
+This common but highly regulated pathway for IL-10 induction and maintenance ensures its function as a feedback loop to control damage to the host and also allows a protective response to ensue as opposed to chronic infection.
+# T53 Protein S18 45 50 4494 4499 IL-10
+$ T53 Protein S18 45 50 4494 4499 IL-10
+@ T83 Positive_regulation S18 51 60 4500 4509 induction
+% E49 Positive_regulation:T83 Theme:T53
+

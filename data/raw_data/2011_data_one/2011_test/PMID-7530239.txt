@@ -1,0 +1,58 @@
+Induction of ICAM-1 and LFA-3 by Tax1 of human T-cell leukemia virus type 1 and mechanism of down-regulation of ICAM-1 or LFA-1 in adult-T-cell-leukemia cell lines.
+# T1 Protein S1 13 19 13 19 ICAM-1
+# T2 Protein S1 24 29 24 29 LFA-3
+# T3 Protein S1 33 37 33 37 Tax1
+# T4 Protein S1 112 118 112 118 ICAM-1
+
+The present study was undertaken to determine the role of HTLV-I TaxI in the up-regulation of ICAM-I and LFA-3 in human T cells transformed with HTLV-I and the mechanism of down-regulation of ICAM-I and LFA-I in ATL-derived cell lines.
+# T5 Protein S2 65 69 231 235 TaxI
+# T6 Protein S2 94 100 260 266 ICAM-I
+# T7 Protein S2 105 110 271 276 LFA-3
+# T8 Protein S2 192 198 358 364 ICAM-I
+
+Induction of TaxI in a human T-cell line Jurkat carrying the TaxI gene under the metallothionein promoter led to increases in mRNA and surface expression of ICAM-I.
+# T9 Protein S3 13 17 415 419 TaxI
+# T10 Protein S3 61 65 463 467 TaxI
+# T11 Protein S3 157 163 559 565 ICAM-I
+
+The response of LFA-3 to TaxI induction was, on the other hand, relatively slow and weak, and might be indirect.
+# T12 Protein S4 16 21 583 588 LFA-3
+# T13 Protein S4 25 29 592 596 TaxI
+
+Transactivation of the ICAM-I promoter by TaxI was further shown by co-transfection of a CAT reporter construct with the ICAM-I promoter and a plasmid expressing TaxI.
+# T14 Protein S5 23 29 703 709 ICAM-I
+# T15 Protein S5 42 46 722 726 TaxI
+# T16 Protein S5 89 92 769 772 CAT
+# T17 Protein S5 121 127 801 807 ICAM-I
+# T18 Protein S5 162 166 842 846 TaxI
+
+The mechanism of down-regulation of ICAM-I or LFA-I in 4 ATL cell lines was next examined.
+# T19 Protein S6 36 42 884 890 ICAM-I
+
+ICAM-I mRNA was quite low in MT-I, but no genomic changes were found.
+# T20 Protein S7 0 6 939 945 ICAM-I
+
+The CAT reporter with the ICAM-I promoter was inactive in MT-I.
+# T21 Protein S8 4 7 1013 1016 CAT
+# T22 Protein S8 26 32 1035 1041 ICAM-I
+
+Finally, combined treatment of MT-I with 5-azacytidine and IFN-gamma induced re-expression of ICAM-I.
+# T23 Protein S9 59 68 1132 1141 IFN-gamma
+# T24 Protein S9 94 100 1167 1173 ICAM-I
+
+Collectively, (a) transcriptional factor(s) necessary for expression of ICAM-I gene may be repressed in MT-I through DNA methylation.
+# T25 Protein S10 72 78 1247 1253 ICAM-I
+
+Three other ATL cell lines (TL-OmI, H582, HuT102) were found to have little mRNA for the LFA-I beta chain (CD18).
+# T26 Protein S11 89 105 1398 1414 LFA-I beta chain
+# T27 Protein S11 107 111 1416 1420 CD18
+
+H582 and HuT102 were also negative for the LFA-I alpha chain (CDIIa) mRNA.
+# T28 Protein S12 43 60 1466 1483 LFA-I alpha chain
+# T29 Protein S12 62 67 1485 1490 CDIIa
+
+No genomic changes were found, and a CAT reporter gene with the CD18 promoter was inactive in the 3 of them, again suggesting lack of (a) transcriptional factor(s) necessary for CD18 expression.
+# T30 Protein S13 37 40 1535 1538 CAT
+# T31 Protein S13 64 68 1562 1566 CD18
+# T32 Protein S13 178 182 1676 1680 CD18
+

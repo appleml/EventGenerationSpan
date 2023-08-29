@@ -1,0 +1,86 @@
+Transcriptional and post-transcriptional regulation of c-jun expression during monocytic differentiation of human myeloid leukemic cells.
+# T1 Protein S1 55 60 55 60 c-jun
+$ T1 Protein S1 55 60 55 60 c-jun
+@ T13 Gene_expression S1 61 71 61 71 expression
+% E1 Gene_expression:T13 Theme:T1
+
+AP-1, the polypeptide product of c-jun, recognizes and binds to specific DNA sequences and stimulates transcription of genes responsive to certain growth factors and phorbol esters such as 12-O-tetradecanoylphorbol-13-acetate (TPA).
+# T2 Protein S2 33 38 172 177 c-jun
+$ T2 Protein S2 33 38 172 177 c-jun
+@ T14 Binding S2 40 50 179 189 recognizes
+@ T15 Binding S2 55 60 194 199 binds
+% E2 Binding:T14 Theme:T2
+% E3 Binding:T15 Theme:T2
+
+We studied the effects of TPA on the regulation of c-jun gene expression in HL-60 cells during monocytic differentiation.
+# T3 Protein S3 51 56 423 428 c-jun
+$ T3 Protein S3 51 56 423 428 c-jun
+@ T16 Regulation S3 15 22 387 394 effects
+@ T17 Regulation S3 37 47 409 419 regulation
+@ T18 Gene_expression S3 62 72 434 444 expression
+% E4 Regulation:T16 Theme:E5
+% E5 Regulation:T17 Theme:E6
+% E6 Gene_expression:T18 Theme:T3
+
+Low levels of c-jun transcripts were detectable in untreated HL-60 leukemic cells, increased significantly by 6 h, and reached near maximal levels by 24 h of exposure to 32 nM TPA.
+# T4 Protein S4 14 19 508 513 c-jun
+$ T4 Protein S4 14 19 508 513 c-jun
+@ T19 Transcription S4 20 31 514 525 transcripts
+@ T20 Positive_regulation S4 83 92 577 586 increased
+% E7 Transcription:T19 Theme:T4
+% E8 Positive_regulation:T20 Theme:E7
+
+Similar kinetics of c-jun induction by TPA were observed in human U-937 and THP-1 monocytic leukemia cells.
+# T5 Protein S5 20 25 695 700 c-jun
+$ T5 Protein S5 20 25 695 700 c-jun
+@ T21 Positive_regulation S5 26 35 701 710 induction
+% E9 Positive_regulation:T21 Theme:T5
+
+Similar findings were obtained with bryostatin 1 (10 nM), another activator of protein kinase C and inducer of monocytic differentiation.
+
+Furthermore, 1,25-dihydroxyvitamin D3 (0.5 microM), a structurally distinct agent which also induces HL-60 monocytic differentiation, increased c-jun expression.
+# T6 Protein S7 144 149 1065 1070 c-jun
+$ T6 Protein S7 144 149 1065 1070 c-jun
+@ T22 Positive_regulation S7 134 143 1055 1064 increased
+@ T23 Gene_expression S7 150 160 1071 1081 expression
+% E10 Positive_regulation:T22 Theme:E11
+% E11 Gene_expression:T23 Theme:T6
+
+TPA treatment of HL-60 cells in the presence of cycloheximide was associated with superinduction of c-jun transcripts.
+# T7 Protein S8 100 105 1183 1188 c-jun
+$ T7 Protein S8 100 105 1183 1188 c-jun
+@ T24 Positive_regulation S8 66 96 1149 1179 associated with superinduction
+@ T25 Transcription S8 106 117 1189 1200 transcripts
+% E12 Positive_regulation:T24 Theme:E13
+% E13 Transcription:T25 Theme:T7
+
+Run-on analysis demonstrated detectable levels of c-jun gene transcription in untreated HL-60 cells, and that exposure to TPA increases this rate 3.3-fold.
+# T8 Protein S9 50 55 1252 1257 c-jun
+$ T8 Protein S9 50 55 1252 1257 c-jun
+@ T26 Transcription S9 61 74 1263 1276 transcription
+@ T27 Positive_regulation S9 126 135 1328 1337 increases
+% E14 Transcription:T26 Theme:T8
+% E15 Positive_regulation:T27 Theme:E14
+
+Treatment of HL-60 cells with both TPA and cycloheximide had no effect on the rates of c-jun transcription.
+# T9 Protein S10 87 92 1445 1450 c-jun
+$ T9 Protein S10 87 92 1445 1450 c-jun
+@ T28 Positive_regulation S10 64 70 1422 1428 effect
+@ T29 Transcription S10 93 106 1451 1464 transcription
+% E16 Positive_regulation:T28 Theme:E17
+% E17 Transcription:T29 Theme:T9
+
+The half-life of c-jun RNA as determined by treating HL-60 cells with TPA and actinomycin D was 30 min.
+# T10 Protein S11 17 22 1483 1488 c-jun
+
+In contrast, the half-life of c-jun RNA in TPA-treated HL-60 cells exposed to cycloheximide and actinomycin D was greater than 2 h.
+# T11 Protein S12 30 35 1600 1605 c-jun
+
+These findings suggested that the increase in c-jun RNA observed during TPA-induced monocytic differentiation is mediated by both transcriptional and post-transcriptional mechanisms.
+# T12 Protein S13 46 51 1748 1753 c-jun
+$ T12 Protein S13 46 51 1748 1753 c-jun
+@ T30 Positive_regulation S13 34 42 1736 1744 increase
+@ T31 Positive_regulation S13 113 121 1815 1823 mediated
+% E18 Positive_regulation:T30 Theme:T12
+% E19 Positive_regulation:T31 Theme:E18
+

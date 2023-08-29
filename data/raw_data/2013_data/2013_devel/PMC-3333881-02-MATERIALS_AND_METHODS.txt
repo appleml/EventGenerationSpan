@@ -1,0 +1,13 @@
+Plasmids
+
+The plasmids pNL4-3.
+
+Luc.R-E- and pHXB2-env were obtained from the AIDS Research & Reference Reagent Program, Division of AIDS, NIAID, NIH, USA; pkappaBluc and pSV-beta-Gal were purchased from Promega (Madison, WI, USA).
+# T8 Protein S4 19 22 281 284 env
+# T9 Protein S4 143 151 405 413 beta-Gal
+
+FLAG-Tat.
+# T17 Protein S6 5 8 676 679 Tat
+
+R-E- were generated as described in Supplementary Data.
+

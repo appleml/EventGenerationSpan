@@ -1,0 +1,28 @@
+Impaired fetal thymocyte development after efficient adenovirus-mediated inhibition of NF-kappa B activation.
+
+We introduce a new experimental system combining adenovirus-mediated gene transfer and fetal thymic organ culture (FTOC).
+
+This system allowed us to efficiently express in developing thymocytes a mutant form of the NF-kappa B inhibitor I kappa B alpha (mut-I kappa B) and to study the maturation defects occurring when NF-kappa B activation is inhibited during fetal development.
+# T1 Protein S3 113 128 346 361 I kappa B alpha
+# T2 Protein S3 130 143 363 376 mut-I kappa B
+$ T2 Protein S3 130 143 363 376 mut-I kappa B
+@ T7 Gene_expression S3 38 45 271 278 express
+% E1 Gene_expression:T7 Theme:T2
+
+Fetal thymocytes infected with adenovirus containing mut-I kappa B were found to develop normally until the CD44-CD25+, CD4-CD8- double-negative stage, while production of more mature double-positive and single-positive populations was strongly decreased.
+# T3 Protein S4 108 112 598 602 CD44
+# T4 Protein S4 113 117 603 607 CD25
+# T5 Protein S4 120 123 610 613 CD4
+
+Proliferation, as measured by the percentage of cells in cycle appeared normal, as did rearrangement and expression of the TCR beta-chain.
+# T6 Protein S5 123 137 869 883 TCR beta-chain
+$ T6 Protein S5 123 137 869 883 TCR beta-chain
+@ T8 Regulation S5 63 78 809 824 appeared normal
+@ T9 Gene_expression S5 105 115 851 861 expression
+% E2 Regulation:T8 Theme:E3
+% E3 Gene_expression:T9 Theme:T6
+
+However, apoptosis was much higher in FTOC infected with adenovirus containing mut-I kappa B than in FTOC infected with a control virus.
+
+Taken together, these results suggest that NF-kappa B plays a crucial role in ensuring the differentiation and survival of thymocytes in the early stages of their development.
+

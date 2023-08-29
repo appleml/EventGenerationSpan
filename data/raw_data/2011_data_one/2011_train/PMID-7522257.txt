@@ -1,0 +1,92 @@
+Regulation of CD14 expression during monocytic differentiation induced with 1 alpha,25-dihydroxyvitamin D3.
+# T1 Protein S1 14 18 14 18 CD14
+$ T1 Protein S1 14 18 14 18 CD14
+@ T18 Regulation S1 0 10 0 10 Regulation
+@ T19 Gene_expression S1 19 29 19 29 expression
+% E1 Regulation:T18 Theme:E2
+% E2 Gene_expression:T19 Theme:T1
+
+CD14, a monocyte/macrophage receptor for the complex of LPS and LPS binding protein, is a differentiation marker for the monocyte/macrophage lineage.
+# T2 Protein S2 0 4 109 113 CD14
+
+We have analyzed the regulation of CD14 expression during 1 alpha,25-dihydroxyvitamin D3 (VitD3)-induced monocytic differentiation.
+# T3 Protein S3 35 39 294 298 CD14
+$ T3 Protein S3 35 39 294 298 CD14
+@ T20 Regulation S3 21 31 280 290 regulation
+@ T21 Gene_expression S3 40 50 299 309 expression
+% E3 Regulation:T20 Theme:E4
+% E4 Gene_expression:T21 Theme:T3
+
+Using FACS, Northern blotting, and nuclear run-on analyses, we demonstrate that the up-regulation of CD14 expression during monocytic cell maturation is regulated mainly at the level of gene transcription, and that new protein synthesis is required for CD14 induction.
+# T4 Protein S4 101 105 492 496 CD14
+# T5 Protein S4 253 257 644 648 CD14
+$ T4 Protein S4 101 105 492 496 CD14
+$ T5 Protein S4 253 257 644 648 CD14
+@ T22 Positive_regulation S4 84 97 475 488 up-regulation
+@ T23 Gene_expression S4 106 116 497 507 expression
+@ T24 Regulation S4 153 162 544 553 regulated
+@ T25 Positive_regulation S4 177 182 568 573 level
+@ T26 Transcription S4 191 204 582 595 transcription
+@ T27 Positive_regulation S4 240 248 631 639 required
+@ T28 Positive_regulation S4 258 267 649 658 induction
+% E5 Positive_regulation:T22 Theme:E6
+% E6 Gene_expression:T23 Theme:T4
+% E7 Regulation:T24 Theme:E5 Cause:E8
+% E8 Positive_regulation:T25 Theme:E9
+% E9 Transcription:T26 Theme:T4
+% E10 Positive_regulation:T27 Theme:E11
+% E11 Positive_regulation:T28 Theme:T5
+
+We have recently cloned the CD14 5' upstream sequence and demonstrated its tissue-specific promoter activity.
+# T6 Protein S5 28 32 688 692 CD14
+
+Using stable transfection of the monocytoid U937 cell line with a series of deletion mutants of the CD14 5' upstream sequence coupled to a reporter gene construct, we show that bp -128 to -70 is the critical region for the induction of CD14 expression.
+# T7 Protein S6 100 104 870 874 CD14
+# T8 Protein S6 236 240 1006 1010 CD14
+$ T8 Protein S6 236 240 1006 1010 CD14
+@ T29 Positive_regulation S6 223 232 993 1002 induction
+@ T30 Gene_expression S6 241 251 1011 1021 expression
+% E12 Positive_regulation:T29 Theme:E13
+% E13 Gene_expression:T30 Theme:T8
+
+This region contains two binding sites for the Sp1 transcription factor.
+# T9 Protein S7 47 50 1070 1073 Sp1
+$ T9 Protein S7 47 50 1070 1073 Sp1
+@ T31 Binding S7 25 32 1048 1055 binding
+% E14 Binding:T31 Theme:T9
+
+A 3-bp mutation at the distal Sp1-binding site not only eliminates Sp1 interaction, but also abolishes most of the VitD3 induction of CD14 expression.
+# T10 Protein S8 30 33 1126 1129 Sp1
+# T11 Protein S8 67 70 1163 1166 Sp1
+# T12 Protein S8 134 138 1230 1234 CD14
+$ T11 Protein S8 67 70 1163 1166 Sp1
+$ T12 Protein S8 134 138 1230 1234 CD14
+@ T32 Negative_regulation S8 56 66 1152 1162 eliminates
+@ T33 Binding S8 71 82 1167 1178 interaction
+@ T34 Negative_regulation S8 93 102 1189 1198 abolishes
+@ T35 Positive_regulation S8 121 130 1217 1226 induction
+@ T36 Gene_expression S8 139 149 1235 1245 expression
+% E15 Negative_regulation:T32 Theme:E16
+% E16 Binding:T33 Theme:T11
+% E17 Negative_regulation:T34 Theme:E18
+% E18 Positive_regulation:T35 Theme:E19
+% E19 Gene_expression:T36 Theme:T12
+
+Electrophoretic mobility shift analysis does not detect a direct interaction of the CD14 distal Sp1-binding site with the vitamin D3 receptor and its partner, the retinoid X receptor.
+# T13 Protein S9 84 88 1331 1335 CD14
+# T14 Protein S9 96 99 1343 1346 Sp1
+# T15 Protein S9 122 141 1369 1388 vitamin D3 receptor
+$ T15 Protein S9 122 141 1369 1388 vitamin D3 receptor
+@ T37 Binding S9 65 76 1312 1323 interaction
+% E20 Binding:T37 Theme:T15
+
+These data demonstrate that VitD3 induces CD14 indirectly through some intermediary factor, and suggest a critical role for Sp1 in this process.
+# T16 Protein S10 42 46 1473 1477 CD14
+# T17 Protein S10 124 127 1555 1558 Sp1
+$ T16 Protein S10 42 46 1473 1477 CD14
+$ T17 Protein S10 124 127 1555 1558 Sp1
+@ T38 Positive_regulation S10 58 65 1489 1496 through
+@ T39 Positive_regulation S10 106 119 1537 1550 critical role
+% E21 Positive_regulation:T38 Theme:T16
+% E22 Positive_regulation:T39 Theme:T17
+

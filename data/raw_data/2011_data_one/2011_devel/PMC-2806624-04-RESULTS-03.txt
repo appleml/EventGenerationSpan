@@ -1,0 +1,171 @@
+Regulation of FOXP3 promoter activity and FOXP3 protein expression by RUNX1 and RUNX3
+# T1 Protein S1 14 19 14 19 FOXP3
+# T2 Protein S1 42 47 42 47 FOXP3
+# T3 Protein S1 70 75 70 75 RUNX1
+# T4 Protein S1 80 85 80 85 RUNX3
+$ T3 Protein S1 70 75 70 75 RUNX1
+$ T4 Protein S1 80 85 80 85 RUNX3
+$ T1 Protein S1 14 19 14 19 FOXP3
+$ T2 Protein S1 42 47 42 47 FOXP3
+@ T39 Regulation S1 0 10 0 10 Regulation
+@ T40 Entity S1 20 28 20 28 promoter
+@ T41 Positive_regulation S1 29 37 29 37 activity
+@ T42 Gene_expression S1 56 66 56 66 expression
+% E1 Regulation:T39 Theme:E2 Cause:T3
+% E3 Regulation:T39 Theme:E2 Cause:T4
+% E4 Regulation:T39 Theme:E5 Cause:T3
+% E6 Regulation:T39 Theme:E5 Cause:T4
+% E2 Positive_regulation:T41 Theme:T1 Site:T40
+% E5 Gene_expression:T42 Theme:T2
+
+To investigate the effect of RUNX1 and RUNX3 binding to the RUNX binding sites in the FOXP3 promoter, we transfected human peripheral blood CD4+ T cells with a FOXP3 promoter luciferase reporter vector and RUNX1 or RUNX3 expression vectors.
+# T5 Protein S2 29 34 115 120 RUNX1
+# T6 Protein S2 39 44 125 130 RUNX3
+# T7 Protein S2 86 91 172 177 FOXP3
+# T8 Protein S2 140 143 226 229 CD4
+# T9 Protein S2 160 185 246 271 FOXP3 promoter luciferase
+# T10 Protein S2 206 211 292 297 RUNX1
+# T11 Protein S2 215 220 301 306 RUNX3
+$ T5 Protein S2 29 34 115 120 RUNX1
+$ T7 Protein S2 86 91 172 177 FOXP3
+$ T6 Protein S2 39 44 125 130 RUNX3
+$ T9 Protein S2 160 185 246 271 FOXP3 promoter luciferase
+$ T10 Protein S2 206 211 292 297 RUNX1
+$ T11 Protein S2 215 220 301 306 RUNX3
+@ T43 Binding S2 45 52 131 138 binding
+@ T44 Entity S2 60 78 146 164 RUNX binding sites
+@ T45 Positive_regulation S2 105 116 191 202 transfected
+@ T46 Gene_expression S2 221 231 307 317 expression
+% E7 Binding:T43 Theme:T5 Theme2:T7 Site2:T44
+% E8 Binding:T43 Theme:T6 Theme2:T7 Site2:T44
+% E9 Positive_regulation:T45 Theme:E10
+% E11 Positive_regulation:T45 Theme:E12
+% E13 Positive_regulation:T45 Theme:E14
+% E10 Gene_expression:T46 Theme:T9
+% E12 Gene_expression:T46 Theme:T10
+% E14 Gene_expression:T46 Theme:T11
+
+An increase in luciferase activity was observed only when the FOXP3 promoter (-511 to +176) luciferase construct was cotransfected with RUNX1 or RUNX3 expression vectors (Fig. 4 A).
+# T12 Protein S3 15 25 342 352 luciferase
+# T13 Protein S3 62 102 389 429 FOXP3 promoter (-511 to +176) luciferase
+# T14 Protein S3 136 141 463 468 RUNX1
+# T15 Protein S3 145 150 472 477 RUNX3
+$ T12 Protein S3 15 25 342 352 luciferase
+$ T13 Protein S3 62 102 389 429 FOXP3 promoter (-511 to +176) luciferase
+$ T14 Protein S3 136 141 463 468 RUNX1
+$ T15 Protein S3 145 150 472 477 RUNX3
+@ T47 Positive_regulation S3 3 11 330 338 increase
+@ T48 Positive_regulation S3 117 130 444 457 cotransfected
+@ T49 Gene_expression S3 151 161 478 488 expression
+% E15 Positive_regulation:T47 Theme:T12 Cause:E16
+% E17 Positive_regulation:T47 Theme:T12 Cause:E18
+% E19 Positive_regulation:T47 Theme:T12 Cause:E20
+% E16 Positive_regulation:T48 Theme:E21
+% E18 Positive_regulation:T48 Theme:E22
+% E20 Positive_regulation:T48 Theme:E23
+% E21 Gene_expression:T49 Theme:T13
+% E22 Gene_expression:T49 Theme:T14
+% E23 Gene_expression:T49 Theme:T15
+
+The increase in promoter activity was greater upon cotransfection of RUNX3 compared with RUNX1.
+# T16 Protein S4 69 74 578 583 RUNX3
+# T17 Protein S4 89 94 598 603 RUNX1
+$ T16 Protein S4 69 74 578 583 RUNX3
+$ T17 Protein S4 89 94 598 603 RUNX1
+@ T50 Positive_regulation S4 4 12 513 521 increase
+@ T51 Entity S4 16 24 525 533 promoter
+@ T52 Gene_expression S4 51 65 560 574 cotransfection
+% E24 Positive_regulation:T50 Theme:T7 Cause:E25 Site:T51
+% E26 Positive_regulation:T50 Theme:T7 Cause:E27 Site:T51
+% E25 Gene_expression:T52 Theme:T16
+% E27 Gene_expression:T52 Theme:T17
+
+Luciferase expression was abrogated when the Runx binding sites in the FOXP3 promoter (-511 to +176) luciferase construct were mutated (Fig. 4 A).
+# T18 Protein S5 0 10 605 615 Luciferase
+# T19 Protein S5 71 76 676 681 FOXP3
+# T20 Protein S5 101 111 706 716 luciferase
+$ T18 Protein S5 0 10 605 615 Luciferase
+@ T53 Gene_expression S5 11 21 616 626 expression
+@ T54 Negative_regulation S5 26 35 631 640 abrogated
+% E28 Gene_expression:T53 Theme:T18
+% E29 Negative_regulation:T54 Theme:E28
+
+In these experiments, the overexpression of RUNX1 and RUNX3 eliminated the need of TGF-beta for FOXP3 promoter activation and PMA/ionomycin stimulation was sufficient.
+# T21 Protein S6 44 49 796 801 RUNX1
+# T22 Protein S6 54 59 806 811 RUNX3
+# T23 Protein S6 83 91 835 843 TGF-beta
+# T24 Protein S6 96 101 848 853 FOXP3
+$ T21 Protein S6 44 49 796 801 RUNX1
+$ T22 Protein S6 54 59 806 811 RUNX3
+$ T23 Protein S6 83 91 835 843 TGF-beta
+$ T24 Protein S6 96 101 848 853 FOXP3
+@ T55 Gene_expression S6 26 40 778 792 overexpression
+@ T56 Positive_regulation S6 75 79 827 831 need
+@ T57 Entity S6 102 110 854 862 promoter
+@ T58 Positive_regulation S6 111 121 863 873 activation
+% E30 Gene_expression:T55 Theme:T21
+% E31 Gene_expression:T55 Theme:T22
+% E32 Positive_regulation:T56 Theme:E33 Cause:T23
+% E33 Positive_regulation:T58 Theme:T24 Site:T57
+
+To examine the role of each of the three RUNX binding sites for the FOXP3 promoter activity, we mutated each individually or in combination.
+# T25 Protein S7 68 73 989 994 FOXP3
+
+No reduction in luciferase activity was observed when the -53 site was mutated and only a slight reduction when either the -287 or -333 site was mutated (Fig. 4 B).
+# T26 Protein S8 16 26 1078 1088 luciferase
+$ T26 Protein S8 16 26 1078 1088 luciferase
+@ T59 Negative_regulation S8 3 12 1065 1074 reduction
+@ T60 Negative_regulation S8 97 106 1159 1168 reduction
+% E34 Negative_regulation:T59 Theme:T26
+% E35 Negative_regulation:T60 Theme:T26
+
+However, mutating the -53 site in combination with one of the other two sites led to a significant decrease in luciferase activity, with the greatest reduction observed when all three binding sites were mutated (Fig. 4 B), suggesting that the identified binding sites have redundant functions and RUNX binding to more than one site is necessary for the full activation of the FOXP3 promoter.
+# T27 Protein S9 111 121 1338 1348 luciferase
+# T28 Protein S9 297 301 1524 1528 RUNX
+# T29 Protein S9 376 381 1603 1608 FOXP3
+$ T27 Protein S9 111 121 1338 1348 luciferase
+$ T28 Protein S9 297 301 1524 1528 RUNX
+$ T29 Protein S9 376 381 1603 1608 FOXP3
+@ T61 Negative_regulation S9 99 107 1326 1334 decrease
+@ T62 Negative_regulation S9 150 159 1377 1386 reduction
+@ T63 Entity S9 254 267 1481 1494 binding sites
+@ T64 Binding S9 302 309 1529 1536 binding
+@ T65 Positive_regulation S9 335 344 1562 1571 necessary
+@ T66 Positive_regulation S9 358 368 1585 1595 activation
+@ T67 Entity S9 382 390 1609 1617 promoter
+% E36 Negative_regulation:T61 Theme:T27
+% E37 Negative_regulation:T62 Theme:T27
+% E38 Binding:T64 Theme:T28 Theme2:T29 Site2:T63
+% E39 Positive_regulation:T65 Theme:E40 Cause:E38
+% E40 Positive_regulation:T66 Theme:T29 Site:T67
+
+Supporting these findings, the overexpression of RUNX1 in human primary CD4+ T cells resulted in significantly elevated levels of FOXP3 protein measured by flow cytometry after 48 h.
+# T30 Protein S10 49 54 1668 1673 RUNX1
+# T31 Protein S10 72 75 1691 1694 CD4
+# T32 Protein S10 130 135 1749 1754 FOXP3
+$ T30 Protein S10 49 54 1668 1673 RUNX1
+$ T32 Protein S10 130 135 1749 1754 FOXP3
+@ T68 Gene_expression S10 31 45 1650 1664 overexpression
+@ T69 Positive_regulation S10 111 119 1730 1738 elevated
+% E41 Gene_expression:T68 Theme:T30
+% E42 Positive_regulation:T69 Theme:T32 Cause:E41
+
+This was achieved without any requirement for anti-CD3, anti-CD28 stimulation, or the presence of TGF-beta.
+# T33 Protein S11 51 54 1853 1856 CD3
+# T34 Protein S11 61 65 1863 1867 CD28
+# T35 Protein S11 98 106 1900 1908 TGF-beta
+$ T35 Protein S11 98 106 1900 1908 TGF-beta
+@ T70 Positive_regulation S11 30 41 1832 1843 requirement
+% E43 Positive_regulation:T70 Theme:E42 Cause:T35
+
+Although there was a trend, the transfection of CD4+ T cells with RUNX3 did not lead to statistically significant increase in FOXP3 (Fig.S5).
+# T36 Protein S12 48 51 1958 1961 CD4
+# T37 Protein S12 66 71 1976 1981 RUNX3
+# T38 Protein S12 126 131 2036 2041 FOXP3
+$ T37 Protein S12 66 71 1976 1981 RUNX3
+$ T38 Protein S12 126 131 2036 2041 FOXP3
+@ T71 Gene_expression S12 32 44 1942 1954 transfection
+@ T72 Positive_regulation S12 114 122 2024 2032 increase
+% E44 Gene_expression:T71 Theme:T37
+% E45 Positive_regulation:T72 Theme:T38 Cause:E44
+

@@ -1,0 +1,18 @@
+{"text": "Chromatin immunoprecipitation ( ChIP ) assay", "event": "<extra_id_0> <extra_id_1>"}
+{"text": "A3.01 cells were treated with RPMI culture medium containing 1 % formaldehyde for 10 min .", "event": "<extra_id_0> <extra_id_1>"}
+{"text": "at 37degreesC .", "event": "<extra_id_0> <extra_id_1>"}
+{"text": "Cells were washed twice with ice-cold PBS and incubated for 10 min .", "event": "<extra_id_0> <extra_id_1>"}
+{"text": "on ice after resuspension in SDS lysis buffer ( ChIP Assay Kit , Upstate ) .", "event": "<extra_id_0> <extra_id_1>"}
+{"text": "After centrifugation , pellets were resuspended in MNase reaction buffer ( 10 mM Tris-HCl pH 7.5 , 10 mM NaCl , 3 mM MgCl2 , 1 mM CaCl2 , 4 % NP-40 ) .", "event": "<extra_id_0> <extra_id_1>"}
+{"text": "DNA digestion was performed using 50 U <extra_id_0> Micrococcal Nuclease <extra_id_2> Protein <extra_id_1> ( Fermentas ) and 1 x 107 cells per tube in a volume of 1.5 ml .", "event": "<extra_id_0> <extra_id_1>"}
+{"text": "After 2 min , reaction was stopped by adding 30 microl 200 mM EGTA .", "event": "<extra_id_0> <extra_id_1>"}
+{"text": "Further steps were performed using the Chromatin Immunoprecipitation Assay Kit ( Upstate ) according to the manufacturer 's instructions .", "event": "<extra_id_0> <extra_id_1>"}
+{"text": "1 x 107 cells and 2 microg antibody ( <extra_id_0> Sp1 <extra_id_2> Protein <extra_id_1> ( Pep2 ) sc-59 , <extra_id_0> Sp3 <extra_id_2> Protein <extra_id_1> ( D-20 ) sc-644 or <extra_id_0> actin <extra_id_2> Protein <extra_id_1> ( H-196 ) sc-7210 , Santa Cruz Biotechnology ) were used for each immunoprecipitation .", "event": "<extra_id_0> <extra_id_1>"}
+{"text": "All buffers were freshly supplied with protease inhibitors .", "event": "<extra_id_0> <extra_id_1>"}
+{"text": "After phenol / chloroform extraction and ethanol precipitation , DNA was resolved in 16 microl H2O .", "event": "<extra_id_0> <extra_id_1>"}
+{"text": "Immunoprecipitated DNA was detected by nested PCR using 4 microl of the resolved DNA in the first PCR , and 1 microl for the nested PCR .", "event": "<extra_id_0> <extra_id_1>"}
+{"text": "For amplification of the <extra_id_0> A3G <extra_id_2> Protein <extra_id_1> promoter , the following primers were used : ChIP3Gplus 5'-ccacggtggcctccgagggtga-3 ' and ChIP3Gminus : 5'-ctctccaccatcaagacagac-3 ' ( 1 .", "event": "<extra_id_0> <extra_id_1>"}
+{"text": "PCR ) ; ChIP3G2plus : 5'-tactctccctccctgtcccca-3 ' and ChIP3G nested minus : 5'-aggctgatgcctccgcag-3 ' ( nested PCR ) .", "event": "<extra_id_0> <extra_id_1>"}
+{"text": "<extra_id_0> Taq polymerase <extra_id_2> Protein <extra_id_1> ( Qiagen ) was used together with the following cycle conditions : one cycle 94degreesC for 2 min ; 30 cycles 94degreesC for 30 s , 60degreesC for 60 s , 72degreesC for 2 min ; one cycle 72degreesC for 10 min .", "event": "<extra_id_0> <extra_id_1>"}
+{"text": "As a negative control , a region in the <extra_id_0> A3G <extra_id_2> Protein <extra_id_1> gene was targeted using the primers ChIP3Gneg_plus : 5'-taagtaccacccagagatgag-3 ' and ChIP3Gneg_minus : 5'-catgatcttcatggtggcacg-3 ' for both PCR steps .", "event": "<extra_id_0> <extra_id_1>"}
+{"text": "PCR conditions were the same as for the <extra_id_0> A3G <extra_id_2> Protein <extra_id_1> promoter sequence , with the exception that annealing temperature was decreased to 55degreesC .", "event": "<extra_id_0> <extra_id_1>"}

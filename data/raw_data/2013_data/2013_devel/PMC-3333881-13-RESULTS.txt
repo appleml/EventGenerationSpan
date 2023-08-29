@@ -1,0 +1,183 @@
+Tat counteracts the IkappaB-alpha inhibition of p65 by competing the repressor binding
+# T1 Protein S1 0 3 0 3 Tat
+# T2 Protein S1 20 33 20 33 IkappaB-alpha
+# T3 Protein S1 48 51 48 51 p65
+$ T3 Protein S1 48 51 48 51 p65
+$ T2 Protein S1 20 33 20 33 IkappaB-alpha
+$ T1 Protein S1 0 3 0 3 Tat
+@ T56 Negative_regulation S1 4 15 4 15 counteracts
+@ T57 Negative_regulation S1 34 44 34 44 inhibition
+@ T58 Negative_regulation S1 55 64 55 64 competing
+@ T54 Anaphora S1 65 78 65 78 the repressor
+@ T59 Binding S1 79 86 79 86 binding
+% E1 Negative_regulation:T56 Theme:E2 Cause:E3
+% E2 Negative_regulation:T57 Theme:T3 Cause:T2
+% E3 Negative_regulation:T58 Theme:E4 Cause:T1
+% E4 Binding:T59 Theme:T2
+
+We further investigated the physical interaction of Tat with IkappaB-alpha using in vitro translated proteins in coimmunoprecipitation assays.
+# T4 Protein S2 52 55 139 142 Tat
+# T5 Protein S2 61 74 148 161 IkappaB-alpha
+$ T4 Protein S2 52 55 139 142 Tat
+$ T5 Protein S2 61 74 148 161 IkappaB-alpha
+@ T60 Binding S2 37 48 124 135 interaction
+% E5 Binding:T60 Theme:T4 Theme2:T5
+
+For mapping the interaction domains, we used the following Tat mutants: Tat T,N(23,24)A, Tat C(22,25,27)A, Tat K(50,51)A and Tat R(49-57)A (Figure 3A).
+# T6 Protein S3 59 62 289 292 Tat
+# T7 Protein S3 72 87 302 317 Tat T,N(23,24)A
+# T8 Protein S3 89 105 319 335 Tat C(22,25,27)A
+# T9 Protein S3 107 120 337 350 Tat K(50,51)A
+# T10 Protein S3 125 138 355 368 Tat R(49-57)A
+
+IkappaB-alpha coimmunoprecipitated with all Tat proteins, except Tat R(49-57)A (Figure 3B).
+# T11 Protein S4 0 13 382 395 IkappaB-alpha
+# T12 Protein S4 44 47 426 429 Tat
+# T13 Protein S4 65 78 447 460 Tat R(49-57)A
+$ T11 Protein S4 0 13 382 395 IkappaB-alpha
+$ T12 Protein S4 44 47 426 429 Tat
+$ T13 Protein S4 65 78 447 460 Tat R(49-57)A
+@ T61 Binding S4 14 34 396 416 coimmunoprecipitated
+% E6 Binding:T61 Theme:T11 Theme2:T12
+% E7 Binding:T61 Theme:T11 Theme2:T13
+
+These results indicated that the arginine-rich domain of Tat was involved in the binding to IkappaB-alpha, which was consistent with previous observations (50,51).
+# T14 Protein S5 57 60 531 534 Tat
+# T15 Protein S5 92 105 566 579 IkappaB-alpha
+$ T14 Protein S5 57 60 531 534 Tat
+$ T15 Protein S5 92 105 566 579 IkappaB-alpha
+@ T62 Entity S5 33 53 507 527 arginine-rich domain
+@ T63 Positive_regulation S5 65 73 539 547 involved
+@ T64 Binding S5 81 88 555 562 binding
+% E8 Positive_regulation:T63 Theme:E9 Cause:T14 CSite:T62
+% E9 Binding:T64 Theme:T14 Theme2:T15
+
+Moreover, Tat associating with IkappaB-alpha competed the binding of IkappaB-alpha to p65 in a dose-dependent manner (Figure 3C, lanes 3-5), while Tat R(49-57)A, which lacked the binding site for IkappaB-alpha, did not associate with IkappaB-alpha and did not compete the binding of IkappaB-alpha to p65 (Figure 3C, lanes 6-8).
+# T16 Protein S6 10 13 648 651 Tat
+# T17 Protein S6 31 44 669 682 IkappaB-alpha
+# T18 Protein S6 69 82 707 720 IkappaB-alpha
+# T19 Protein S6 86 89 724 727 p65
+# T20 Protein S6 147 160 785 798 Tat R(49-57)A
+# T21 Protein S6 196 209 834 847 IkappaB-alpha
+# T22 Protein S6 234 247 872 885 IkappaB-alpha
+# T23 Protein S6 283 296 921 934 IkappaB-alpha
+# T24 Protein S6 300 303 938 941 p65
+$ T16 Protein S6 10 13 648 651 Tat
+$ T17 Protein S6 31 44 669 682 IkappaB-alpha
+$ T18 Protein S6 69 82 707 720 IkappaB-alpha
+$ T19 Protein S6 86 89 724 727 p65
+$ T21 Protein S6 196 209 834 847 IkappaB-alpha
+$ T20 Protein S6 147 160 785 798 Tat R(49-57)A
+$ T22 Protein S6 234 247 872 885 IkappaB-alpha
+$ T23 Protein S6 283 296 921 934 IkappaB-alpha
+$ T24 Protein S6 300 303 938 941 p65
+@ T65 Binding S6 14 25 652 663 associating
+@ T66 Negative_regulation S6 45 53 683 691 competed
+@ T67 Binding S6 58 65 696 703 binding
+@ T68 Negative_regulation S6 168 174 806 812 lacked
+@ T69 Binding S6 179 186 817 824 binding
+@ T70 Entity S6 187 191 825 829 site
+@ T71 Binding S6 219 228 857 866 associate
+@ T72 Negative_regulation S6 260 267 898 905 compete
+@ T73 Binding S6 272 279 910 917 binding
+% E10 Binding:T65 Theme:T16 Theme2:T17
+% E11 Negative_regulation:T66 Theme:E12 Cause:E10
+% E12 Binding:T67 Theme:T18 Theme2:T19
+% E13 Negative_regulation:T68 Theme:T16 Site:T70
+% E14 Binding:T69 Theme:T16 Theme2:T21 Site:T70
+% E15 Binding:T71 Theme:T20 Theme2:T22
+% E16 Negative_regulation:T72 Theme:E17 Cause:T20
+% E17 Binding:T73 Theme:T23 Theme2:T24
+
+Next, we evaluated whether Tat counteracted the IkappaB-alpha-mediated inhibition of p65 binding to DNA by incubating in vitro translated p65 and IkappaB-alpha proteins with the NF-kappaB probe in presence or absence of Tat followed by EMSA.
+# T25 Protein S7 27 30 993 996 Tat
+# T26 Protein S7 48 61 1014 1027 IkappaB-alpha
+# T27 Protein S7 85 88 1051 1054 p65
+# T28 Protein S7 138 141 1104 1107 p65
+# T29 Protein S7 146 159 1112 1125 IkappaB-alpha
+# T30 Protein S7 220 223 1186 1189 Tat
+$ T25 Protein S7 27 30 993 996 Tat
+$ T26 Protein S7 48 61 1014 1027 IkappaB-alpha
+$ T27 Protein S7 85 88 1051 1054 p65
+@ T74 Negative_regulation S7 31 43 997 1009 counteracted
+@ T75 Negative_regulation S7 71 81 1037 1047 inhibition
+@ T76 Binding S7 89 96 1055 1062 binding
+% E18 Negative_regulation:T74 Theme:E19 Cause:T25
+% E19 Negative_regulation:T75 Theme:E20 Cause:T26
+% E20 Binding:T76 Theme:T27
+
+The p65 DNA binding activity was inhibited by IkappaB-alpha and restored in a dose-dependent manner by wild-type Tat, and not by Tat R(49-57) (Figure 3D).
+# T31 Protein S8 4 7 1212 1215 p65
+# T32 Protein S8 46 59 1254 1267 IkappaB-alpha
+# T33 Protein S8 113 116 1321 1324 Tat
+# T34 Protein S8 129 141 1337 1349 Tat R(49-57)
+$ T31 Protein S8 4 7 1212 1215 p65
+$ T32 Protein S8 46 59 1254 1267 IkappaB-alpha
+$ T33 Protein S8 113 116 1321 1324 Tat
+$ T34 Protein S8 129 141 1337 1349 Tat R(49-57)
+@ T77 Binding S8 12 19 1220 1227 binding
+@ T78 Negative_regulation S8 33 42 1241 1250 inhibited
+@ T79 Negative_regulation S8 64 72 1272 1280 restored
+% E21 Binding:T77 Theme:T31
+% E22 Negative_regulation:T78 Theme:E21 Cause:T32
+% E23 Negative_regulation:T79 Theme:E22 Cause:T33
+% E24 Negative_regulation:T79 Theme:E22 Cause:T34
+
+Further, we analysed the Tat effect on the IkappaB-alpha repression of p65 transcriptional activity by transfecting p50-/-p65-/-MEFs with the NF-kappaB-Luc reporter together with expression vectors of p65 and IkappaB-alpha, in presence or absence of Tat.
+# T35 Protein S9 25 28 1388 1391 Tat
+# T36 Protein S9 43 56 1406 1419 IkappaB-alpha
+# T37 Protein S9 71 74 1434 1437 p65
+# T38 Protein S9 116 119 1479 1482 p50
+# T39 Protein S9 122 125 1485 1488 p65
+# T40 Protein S9 152 155 1515 1518 Luc
+# T41 Protein S9 201 204 1564 1567 p65
+# T42 Protein S9 209 222 1572 1585 IkappaB-alpha
+# T43 Protein S9 250 253 1613 1616 Tat
+
+IkappaB-alpha inhibited the p65-dependent expression of the luciferase gene, which was restored in a dose-dependent manner by wild-type Tat, and not by Tat R(49-57)A (Figure 3E).
+# T44 Protein S10 0 13 1618 1631 IkappaB-alpha
+# T45 Protein S10 28 31 1646 1649 p65
+# T46 Protein S10 60 70 1678 1688 luciferase
+# T47 Protein S10 136 139 1754 1757 Tat
+# T48 Protein S10 152 165 1770 1783 Tat R(49-57)A
+$ T44 Protein S10 0 13 1618 1631 IkappaB-alpha
+$ T45 Protein S10 28 31 1646 1649 p65
+$ T46 Protein S10 60 70 1678 1688 luciferase
+$ T47 Protein S10 136 139 1754 1757 Tat
+$ T48 Protein S10 152 165 1770 1783 Tat R(49-57)A
+@ T80 Negative_regulation S10 14 23 1632 1641 inhibited
+@ T81 Positive_regulation S10 32 41 1650 1659 dependent
+@ T82 Gene_expression S10 42 52 1660 1670 expression
+@ T83 Negative_regulation S10 87 95 1705 1713 restored
+% E25 Negative_regulation:T80 Theme:E26 Cause:T44
+% E26 Positive_regulation:T81 Theme:E27 Cause:T45
+% E27 Gene_expression:T82 Theme:T46
+% E28 Negative_regulation:T83 Theme:E25 Cause:T47
+% E29 Negative_regulation:T83 Theme:E25 Cause:T48
+
+Altogether these results indicated that Tat counteracts the IkappaB-alpha repression of the p65 DNA-binding and transcriptional activity by associating with IkappaB-alpha and competing the repressor binding to p65.
+# T49 Protein S11 40 43 1837 1840 Tat
+# T50 Protein S11 60 73 1857 1870 IkappaB-alpha
+# T51 Protein S11 92 95 1889 1892 p65
+# T52 Protein S11 157 170 1954 1967 IkappaB-alpha
+# T53 Protein S11 210 213 2007 2010 p65
+$ T50 Protein S11 60 73 1857 1870 IkappaB-alpha
+$ T51 Protein S11 92 95 1889 1892 p65
+$ T49 Protein S11 40 43 1837 1840 Tat
+$ T52 Protein S11 157 170 1954 1967 IkappaB-alpha
+$ T53 Protein S11 210 213 2007 2010 p65
+@ T84 Negative_regulation S11 44 55 1841 1852 counteracts
+@ T85 Negative_regulation S11 74 84 1871 1881 repression
+@ T86 Binding S11 100 107 1897 1904 binding
+@ T87 Binding S11 140 151 1937 1948 associating
+@ T88 Negative_regulation S11 175 184 1972 1981 competing
+@ T55 Anaphora S11 185 198 1982 1995 the repressor
+@ T89 Binding S11 199 206 1996 2003 binding
+% E30 Negative_regulation:T84 Theme:E31 Cause:E32
+% E33 Negative_regulation:T84 Theme:E31 Cause:E34
+% E31 Negative_regulation:T85 Theme:E35 Cause:T50
+% E35 Binding:T86 Theme:T51
+% E32 Binding:T87 Theme:T49 Theme2:T52
+% E34 Negative_regulation:T88 Theme:E36 Cause:T49
+% E36 Binding:T89 Theme:T52 Theme2:T53
+

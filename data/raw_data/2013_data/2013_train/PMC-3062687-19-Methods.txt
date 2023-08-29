@@ -1,0 +1,12 @@
+Luciferase Reporter Gene Assays
+
+Luciferase reporter gene assays were performed as previously described6.
+
+Briefly, cells were cotransfected at a ratio of 10:1 with various promoter-driven firefly luciferase constructs to the Renilla luciferase pTKRL plasmid, together with indicated plasmids.
+# T1 Protein S3 90 100 195 205 luciferase
+# T2 Protein S3 127 137 232 242 luciferase
+
+Cells were cultured for 1-2 days and then stimulated in triplicate before harvest.
+
+Lysates were analyzed using the Dual-Luciferase Kit (Promega).
+

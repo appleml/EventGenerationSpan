@@ -1,0 +1,67 @@
+Increased interleukin-17 production via a phosphoinositide 3-kinase/Akt and nuclear factor ?
+# T1 Protein S1 10 24 10 24 interleukin-17
+# T2 Protein S1 68 71 68 71 Akt
+
+B-dependent pathway in patients with rheumatoid arthritis
+
+Inflammatory mediators have been recognized as being important in the pathogenesis of rheumatoid arthritis (RA).
+
+Interleukin (IL)-17 is an important regulator of immune and inflammatory responses, including the induction of proinflammatory cytokines and osteoclastic bone resorption.
+# T3 Protein S4 0 19 263 282 Interleukin (IL)-17
+
+Evidence for the expression and proinflammatory activity of IL-17 has been demonstrated in RA synovium and in animal models of RA.
+# T4 Protein S5 60 65 494 499 IL-17
+
+Although some cytokines (IL-15 and IL-23) have been reported to regulate IL-17 production, the intracellular signaling pathways that regulate IL-17 production remain unknown.
+# T5 Protein S6 25 30 590 595 IL-15
+# T6 Protein S6 35 40 600 605 IL-23
+# T7 Protein S6 73 78 638 643 IL-17
+# T8 Protein S6 142 147 707 712 IL-17
+
+In the present study, we investigated the role of the phosphoinositide 3-kinase (PI3K)/Akt pathway in the regulation of IL-17 production in RA.
+# T9 Protein S7 87 90 827 830 Akt
+# T10 Protein S7 120 125 860 865 IL-17
+
+Peripheral blood mononuclear cells (PBMC) from patients with RA (n = 24) were separated, then stimulated with various agents including anti-CD3, anti-CD28, phytohemagglutinin (PHA) and several inflammatory cytokines and chemokines.
+# T11 Protein S8 150 154 1034 1038 CD28
+# T12 Protein S8 156 174 1040 1058 phytohemagglutinin
+# T13 Protein S8 176 179 1060 1063 PHA
+
+IL-17 levels were determined by sandwich enzyme-linked immunosorbent assay and reverse transcription-polymerase chain reaction.
+# T14 Protein S9 0 5 1116 1121 IL-17
+
+The production of IL-17 was significantly increased in cells treated with anti-CD3 antibody with or without anti-CD28 and PHA (P < 0.05).
+# T15 Protein S10 18 23 1262 1267 IL-17
+# T16 Protein S10 113 117 1357 1361 CD28
+# T17 Protein S10 122 125 1366 1369 PHA
+
+Among tested cytokines and chemokines, IL-15, monocyte chemoattractant protein-1 and IL-6 upregulated IL-17 production (P < 0.05), whereas tumor necrosis factor-alpha, IL-1beta, IL-18 or transforming growth factor-beta did not.
+# T18 Protein S11 39 44 1421 1426 IL-15
+# T19 Protein S11 46 80 1428 1462 monocyte chemoattractant protein-1
+# T20 Protein S11 85 89 1467 1471 IL-6
+# T21 Protein S11 102 107 1484 1489 IL-17
+# T22 Protein S11 139 166 1521 1548 tumor necrosis factor-alpha
+# T23 Protein S11 168 176 1550 1558 IL-1beta
+# T24 Protein S11 178 183 1560 1565 IL-18
+# T25 Protein S11 187 218 1569 1600 transforming growth factor-beta
+
+IL-17 was also detected in the PBMC of patients with osteoarthritis, but their expression levels were much lower than those of RA PBMC.
+# T26 Protein S12 0 5 1610 1615 IL-17
+
+Anti-CD3 antibody activated the PI3K/Akt pathway; activation of this pathway resulted in a pronounced augmentation of nuclear factor kappaB (NF-kappaB) DNA-binding activity.
+# T27 Protein S13 37 40 1783 1786 Akt
+
+IL-17 production by activated RA PBMC is completely or partly blocked in the presence of the NF-kappaB inhibitor pyrrolidine dithiocarbamate and the PI3K/Akt inhibitor wortmannin and LY294002, respectively.
+# T28 Protein S14 0 5 1920 1925 IL-17
+# T29 Protein S14 154 157 2074 2077 Akt
+
+However, inhibition of activator protein-1 and extracellular signal-regulated kinase 1/2 did not affect IL-17 production.
+# T30 Protein S15 23 42 2150 2169 activator protein-1
+# T31 Protein S15 47 86 2174 2213 extracellular signal-regulated kinase 1
+# T32 Protein S15 87 88 2214 2215 2
+# T33 Protein S15 104 109 2231 2236 IL-17
+
+These results suggest that signal transduction pathways dependent on PI3K/Akt and NF-kappaB are involved in the overproduction of the key inflammatory cytokine IL-17 in RA.
+# T34 Protein S16 74 77 2323 2326 Akt
+# T35 Protein S16 160 165 2409 2414 IL-17
+

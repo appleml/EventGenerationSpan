@@ -1,0 +1,35 @@
+Statistical	JJ	B-NP	O	Other	###	1	Statistical	Statistical	JJ	JJ	_	2	amod	_	_
+analysis	NN	I-NP	O	Other	###	2	analysis	analysis	NN	NN	_	0	root	_	_
+
+Data	NNS	B-NP	O	Other	###	1	Data	Data	NNS	NNS	_	3	nsubjpass	_	_
+are	VBP	B-VP	O	Other	###	2	are	are	VBP	VBP	_	3	auxpass	_	_
+expressed	VBN	I-VP	O	Other	###	3	expressed	expressed	VBN	VBN	_	0	root	_	_
+as	IN	B-PP	O	Other	###	4	as	as	IN	IN	_	5	case	_	_
+means	NN	B-NP	O	Other	###	5	means	means	NN	NN	_	3	nmod	_	_
++/-	SYM	I-NP	O	Other	###	6	+/-	+/-	SYM	SYM	_	5	cc	_	_
+SEM	NN	I-NP	O	Other	###	7	SEM	SEM	NN	NN	_	5	conj	_	_
+.	.	O	O	Other	###	8	.	.	.	.	_	3	punct	_	_
+
+Statistical	JJ	B-NP	O	Other	###	1	Statistical	Statistical	JJ	JJ	_	2	amod	_	_
+analysis	NN	I-NP	O	Other	###	2	analysis	analysis	NN	NN	_	4	nsubjpass	_	_
+was	VBD	B-VP	O	Other	###	3	was	was	VBD	VBD	_	4	auxpass	_	_
+performed	VBN	I-VP	O	Other	###	4	performed	performed	VBN	VBN	_	0	root	_	_
+with	IN	B-PP	O	Other	###	5	with	with	IN	IN	_	8	case	_	_
+Student	NN	B-NP	O	Other	###	6	Student	Student	NN	NN	_	8	nmod:poss	_	_
+'s	POS	B-NP	O	Other	###	7	's	's	POS	POS	_	6	case	_	_
+t-test	NN	I-NP	O	Other	###	8	t-test	t-test	NN	NN	_	4	nmod	_	_
+for	IN	B-PP	O	Other	###	9	for	for	IN	IN	_	11	case	_	_
+matched	VBN	B-NP	O	Other	###	10	matched	matched	VBN	VBN	_	11	amod	_	_
+pairs	NNS	I-NP	O	Other	###	11	pairs	pairs	NNS	NNS	_	8	nmod	_	_
+.	.	O	O	Other	###	12	.	.	.	.	_	4	punct	_	_
+
+P	NN	B-NP	O	Other	###	1	P	P	NN	NN	_	2	compound	_	_
+values	NNS	I-NP	O	Other	###	2	values	values	NNS	NNS	_	7	nsubjpass	_	_
+less	JJR	B-NP	O	Other	###	3	less	less	JJR	JJR	_	2	amod	_	_
+than	IN	I-NP	O	Other	###	4	than	than	IN	IN	_	5	case	_	_
+0.05	CD	I-NP	O	Other	###	5	0.05	0.05	CD	CD	_	3	nmod	_	_
+were	VBD	B-VP	O	Other	###	6	were	were	VBD	VBD	_	7	auxpass	_	_
+considered	VBN	I-VP	O	Other	###	7	considered	considered	VBN	VBN	_	0	root	_	_
+significant	JJ	B-ADJP	O	Other	###	8	significant	significant	JJ	JJ	_	7	xcomp	_	_
+.	.	O	O	Other	###	9	.	.	.	.	_	7	punct	_	_
+

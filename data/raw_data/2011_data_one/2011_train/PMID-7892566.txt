@@ -1,0 +1,30 @@
+[Regulation of transcription of the interleukin-2 gene in B-lymphocytes]
+# T1 Protein S1 36 49 36 49 interleukin-2
+$ T1 Protein S1 36 49 36 49 interleukin-2
+@ T6 Regulation S1 1 11 1 11 Regulation
+@ T7 Transcription S1 15 28 15 28 transcription
+% E1 Regulation:T6 Theme:E2
+% E2 Transcription:T7 Theme:T1
+
+Since most B cell clones immortalized with EBV virus can be induced to produce interleukin-2, a typical T cell cytokine, we studied the role of different elements of the IL-2 promoter in such clones by transfection.
+# T2 Protein S2 79 92 153 166 interleukin-2
+# T3 Protein S2 170 174 244 248 IL-2
+$ T2 Protein S2 79 92 153 166 interleukin-2
+@ T8 Positive_regulation S2 60 67 134 141 induced
+@ T9 Gene_expression S2 71 78 145 152 produce
+% E3 Positive_regulation:T8 Theme:E4
+% E4 Gene_expression:T9 Theme:T2
+
+It was found, in particular, that the element TCEd, which binds the transcription factor NF-kB, is very active in all three B clones tested.
+
+This element has no activity in T cells of the Jurkat line.
+
+The NFATd element, which binds the transcription factor NFAT-1 and is very active in T cells, is only weakly active in one B clone and not at all in another.
+# T4 Protein S5 56 62 547 553 NFAT-1
+$ T4 Protein S5 56 62 547 553 NFAT-1
+@ T10 Binding S5 25 30 516 521 binds
+% E5 Binding:T10 Theme:T4
+
+Different elements thus contribute to IL-2 promoter activity in different cells.
+# T5 Protein S6 38 42 687 691 IL-2
+

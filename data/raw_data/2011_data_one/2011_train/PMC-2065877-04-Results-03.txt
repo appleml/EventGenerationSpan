@@ -1,0 +1,102 @@
+LMP1 Promotes B Cell Survival and Proliferation In Vitro
+# T1 Protein S1 0 4 0 4 LMP1
+
+Primary B cell cultures can be maintained through CD40 ligation and supplementation with IL4 [32].
+# T2 Protein S2 50 54 107 111 CD40
+# T3 Protein S2 89 92 146 149 IL4
+$ T2 Protein S2 50 54 107 111 CD40
+@ T35 Binding S2 55 63 112 120 ligation
+% E1 Binding:T35 Theme:T2
+
+To investigate whether LMP1 affects primary B cell survival and proliferation, splenocytes were cultured in the presence or absence of IL4 and analyzed by MTS as a metabolic marker, by ethidium monoazide (EMA) exclusion for viability, and by 5-bromo-2'-deoxy-uridine (BrdU) incorporation for proliferation.
+# T4 Protein S3 23 27 179 183 LMP1
+# T5 Protein S3 135 138 291 294 IL4
+
+In the MTS assay, as expected, splenocytes from wild-type mice did not survive even with the addition of IL4 due to a lack of CD40 ligation (Figure 3A).
+# T6 Protein S4 105 108 568 571 IL4
+# T7 Protein S4 126 130 589 593 CD40
+$ T7 Protein S4 126 130 589 593 CD40
+@ T36 Negative_regulation S4 118 122 581 585 lack
+@ T37 Binding S4 131 139 594 602 ligation
+% E2 Negative_regulation:T36 Theme:E3
+% E3 Binding:T37 Theme:T7
+
+In contrast, LMP1 splenocytes had increased metabolism even in the absence of IL4, which was further enhanced upon addition of IL4.
+# T8 Protein S5 13 17 629 633 LMP1
+# T9 Protein S5 78 81 694 697 IL4
+# T10 Protein S5 127 130 743 746 IL4
+$ T9 Protein S5 78 81 694 697 IL4
+@ T38 Negative_regulation S5 67 74 683 690 absence
+% E4 Negative_regulation:T38 Theme:T9
+
+Wild-type and LMP1 transgenic lymphoma cells had high levels of MTS activity even in the absence of IL4 (Figure 3A).
+# T11 Protein S6 14 18 762 766 LMP1
+# T12 Protein S6 100 103 848 851 IL4
+$ T12 Protein S6 100 103 848 851 IL4
+@ T39 Negative_regulation S6 89 96 837 844 absence
+% E5 Negative_regulation:T39 Theme:T12
+
+The LMP1 transgenic lymphoma cells had approximately 4-fold higher MTS activity than the normal transgenic lymphocytes and were at least 2-fold higher than the control lymphoma.
+# T13 Protein S7 4 8 869 873 LMP1
+
+As previously published, lymphoma usually develops in mice over 12 mo of age and all mice are sacrificed by 18-20 mo.
+
+The ages of the transgenic mice with or without lymphoma ranged between 6 and 20 mo old.
+
+There was no correlation between age and MTS activity.
+
+EMA exclusion of CD19+ gated B cells prepared from two wild-type and two LMP1 transgenic mice indicated a 2-fold increase in viability in the LMP1 transgenic lymphocytes compared to wild-type lymphocytes.
+# T14 Protein S11 17 21 1323 1327 CD19
+# T15 Protein S11 73 77 1379 1383 LMP1
+# T16 Protein S11 142 146 1448 1452 LMP1
+
+Two examples of LMP1 transgenic lymphoma cells had greatly increased viability that was not increased by IL4 treatment, indicating that the lymphoma cells are independent of IL4 co-stimulation (Figure 3B).
+# T17 Protein S12 16 20 1527 1531 LMP1
+# T18 Protein S12 105 108 1616 1619 IL4
+# T19 Protein S12 174 177 1685 1688 IL4
+
+Enhancement in MTS activity was observed in LMP1 transgenic lymphoma cells by the addition of IL4; however, EMA exclusion did not reveal a similar increase.
+# T20 Protein S13 44 48 1761 1765 LMP1
+# T21 Protein S13 94 97 1811 1814 IL4
+
+This could reflect a difference for IL4 requirement in the metabolic activity versus the viability of LMP1 transgenic lymphoma cells.
+# T22 Protein S14 36 39 1910 1913 IL4
+# T23 Protein S14 102 106 1976 1980 LMP1
+
+Although expression of LMP1 could enhance survival of non-malignant primary lymphocytes, BrdU incorporation revealed that LMP1 expression alone was not sufficient to induce proliferation in culture (unpublished data).
+# T24 Protein S15 23 27 2031 2035 LMP1
+# T25 Protein S15 122 126 2130 2134 LMP1
+$ T24 Protein S15 23 27 2031 2035 LMP1
+$ T25 Protein S15 122 126 2130 2134 LMP1
+@ T40 Gene_expression S15 9 19 2017 2027 expression
+@ T41 Gene_expression S15 127 137 2135 2145 expression
+% E6 Gene_expression:T40 Theme:T24
+% E7 Gene_expression:T41 Theme:T25
+
+Only lymphoma cells had detectable levels of BrdU incorporation detected by flow cytometry (Figure 3C).
+
+Interestingly, LMP1 lymphoma cells had significantly higher levels of proliferation in comparison to the spontaneous lymphoma that developed in an LMP1-negative littermate (25% versus 4%).
+# T26 Protein S17 15 19 2345 2349 LMP1
+# T27 Protein S17 147 151 2477 2481 LMP1
+$ T27 Protein S17 147 151 2477 2481 LMP1
+@ T42 Negative_regulation S17 152 160 2482 2490 negative
+% E8 Negative_regulation:T42 Theme:T27
+
+This higher level of proliferation was observed in lymphomas that express both high (Table 1, LMP1-L2 and LMP1-L3) and low (Table 1, LMP1-L5) levels of LMP1, suggesting that even small amounts of LMP1 is sufficient to induce dramatic effects in proliferation.
+# T28 Protein S18 94 98 2613 2617 LMP1
+# T29 Protein S18 106 110 2625 2629 LMP1
+# T30 Protein S18 133 137 2652 2656 LMP1
+# T31 Protein S18 152 156 2671 2675 LMP1
+# T32 Protein S18 196 200 2715 2719 LMP1
+$ T31 Protein S18 152 156 2671 2675 LMP1
+@ T43 Gene_expression S18 66 73 2585 2592 express
+@ T44 Positive_regulation S18 79 83 2598 2602 high
+@ T45 Positive_regulation S18 119 122 2638 2641 low
+% E9 Gene_expression:T43 Theme:T31
+% E10 Positive_regulation:T44 Theme:E9
+% E11 Positive_regulation:T45 Theme:E9
+
+The level of proliferation was not enhanced upon IL4 addition, confirming the IL4 independence observed in the viability studies (Figure 3C; Table1).
+# T33 Protein S19 49 52 2828 2831 IL4
+# T34 Protein S19 78 81 2857 2860 IL4
+

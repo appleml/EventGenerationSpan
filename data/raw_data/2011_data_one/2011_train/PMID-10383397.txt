@@ -1,0 +1,64 @@
+3-deazaadenosine, a S-adenosylhomocysteine hydrolase inhibitor, has dual effects on NF-kappaB regulation.
+# T1 Protein S1 20 52 20 52 S-adenosylhomocysteine hydrolase
+$ T1 Protein S1 20 52 20 52 S-adenosylhomocysteine hydrolase
+@ T11 Negative_regulation S1 53 62 53 62 inhibitor
+% E1 Negative_regulation:T11 Theme:T1
+
+Inhibition of NF-kappaB transcriptional activity and promotion of IkappaBalpha degradation.
+# T2 Protein S2 66 78 172 184 IkappaBalpha
+$ T2 Protein S2 66 78 172 184 IkappaBalpha
+@ T12 Positive_regulation S2 53 62 159 168 promotion
+@ T13 Protein_catabolism S2 79 90 185 196 degradation
+% E2 Positive_regulation:T12 Theme:E3
+% E3 Protein_catabolism:T13 Theme:T2
+
+Previously we reported that 3-deazaadenosine (DZA), a potent inhibitor and substrate for S-adenosylhomocysteine hydrolase inhibits bacterial lipopolysaccharide-induced transcription of tumor necrosis factor-alpha and interleukin-1beta in mouse macrophage RAW 264.7 cells.
+# T3 Protein S3 89 121 288 320 S-adenosylhomocysteine hydrolase
+# T4 Protein S3 185 212 384 411 tumor necrosis factor-alpha
+# T5 Protein S3 217 234 416 433 interleukin-1beta
+$ T4 Protein S3 185 212 384 411 tumor necrosis factor-alpha
+$ T5 Protein S3 217 234 416 433 interleukin-1beta
+@ T14 Negative_regulation S3 122 130 321 329 inhibits
+@ T15 Positive_regulation S3 160 167 359 366 induced
+@ T16 Transcription S3 168 181 367 380 transcription
+% E4 Negative_regulation:T14 Theme:E5
+% E5 Positive_regulation:T15 Theme:E7
+% E6 Positive_regulation:T15 Theme:E8
+% E7 Transcription:T16 Theme:T4
+% E8 Transcription:T16 Theme:T5
+
+In this study, we demonstrate the effects of DZA on nuclear factor-kappaB (NF-kappaB) regulation.
+
+DZA inhibits the transcriptional activity of NF-kappaB through the hindrance of p65 (Rel-A) phosphorylation without reduction of its nuclear translocation and DNA binding activity.
+# T6 Protein S5 80 83 649 652 p65
+# T7 Protein S5 85 90 654 659 Rel-A
+$ T7 Protein S5 85 90 654 659 Rel-A
+@ T17 Negative_regulation S5 67 76 636 645 hindrance
+@ T18 Phosphorylation S5 92 107 661 676 phosphorylation
+% E9 Negative_regulation:T17 Theme:E10
+% E10 Phosphorylation:T18 Theme:T7
+
+The inhibitory effect of DZA on NF-kappaB transcriptional activity is potentiated by the addition of homocysteine.
+
+Taken together, DZA promotes the proteolytic degradation of IkappaBalpha, but not IkappaBbeta, resulting in an increase of DNA binding activity of NF-kappaB in the nucleus in the absence of its transcriptional activity in RAW 264.7 cells.
+# T8 Protein S7 60 72 925 937 IkappaBalpha
+# T9 Protein S7 82 93 947 958 IkappaBbeta
+$ T8 Protein S7 60 72 925 937 IkappaBalpha
+$ T9 Protein S7 82 93 947 958 IkappaBbeta
+@ T19 Positive_regulation S7 20 28 885 893 promotes
+@ T20 Protein_catabolism S7 33 56 898 921 proteolytic degradation
+% E11 Positive_regulation:T19 Theme:E14
+% E12 Positive_regulation:T19 Theme:E13
+% E13 Protein_catabolism:T20 Theme:T8
+% E14 Protein_catabolism:T20 Theme:T9
+
+The reduction of IkappaBalpha by DZA is neither involved in IkappaB kinase complex activation nor modulated by the addition of homocysteine.
+# T10 Protein S8 17 29 1121 1133 IkappaBalpha
+$ T10 Protein S8 17 29 1121 1133 IkappaBalpha
+@ T21 Negative_regulation S8 4 13 1108 1117 reduction
+@ T22 Regulation S8 98 107 1202 1211 modulated
+% E15 Negative_regulation:T21 Theme:T10
+% E16 Regulation:T22 Theme:E15
+
+This study strongly suggests that DZA may be a potent drug for the treatment of diseases in which NF-kappaB plays a central pathogenic role, as well as a useful tool for studying the regulation and physiological functions of NF-kappaB.
+

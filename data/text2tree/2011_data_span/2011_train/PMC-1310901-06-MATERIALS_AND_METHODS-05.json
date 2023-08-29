@@ -1,0 +1,11 @@
+{"text": "Methylation - specific restriction-PCR-assay", "event": "<extra_id_0> <extra_id_1>"}
+{"text": "DNA was extracted with a commercial kit ( Qiagen ) as recommended .", "event": "<extra_id_0> <extra_id_1>"}
+{"text": "Since the restriction ability of several endonucleases is inhibited by methylation of their target sequence , we used methylation - sensitive enzymes HpaII and HaeII-isochizomer Bsp143II and Bsh1236I ( MBI Fermentas , St Leon-Rot , Germany ) ( 20 , 24 ) .", "event": "<extra_id_0> <extra_id_1>"}
+{"text": "As control the methylation - resistant enzyme MspI and an enzyme with no recognition site in the target promoter , EcoRI , were used .", "event": "<extra_id_0> <extra_id_1>"}
+{"text": "DNA ( 0.8 microg ) was digested by 40 U the respective enzyme for 6 h and , to ensure complete cleavage , additional 20 U for 16 h . Thereafter 100 ng of digested DNA was used to a PCR amplification of two fragments ( F1 and F2 ) spanning part of the <extra_id_0> IRF-4 <extra_id_2> Protein <extra_id_1> promoter ( 30 ) ( GenBank U52683 ; see Figure 3A ) .", "event": "<extra_id_0> <extra_id_1>"}
+{"text": "The sequences of the primers were F1-forward : 5'-TTGAGATGGAGTCTTGCTCTGT-3 ' , F1-reverse : ATCACTTCCAGACTTCAGTTCACCT-3 ' ( 341 bp ) ; F2-forward : 5'-AAGGTGAACTGAAGTCTGGAAGTGA-3 ' , F2-reverse : 5'-CCAGGACCTCAGGAGGCCAGTCA-3 ' ( 474 bp ) .", "event": "<extra_id_0> <extra_id_1>"}
+{"text": "The PCR conditions were described elsewhere ( 3 ) .", "event": "<extra_id_0> <extra_id_1>"}
+{"text": "PCR was performed with an annealing temperature of 62degreesC and 35 cycles .", "event": "<extra_id_0> <extra_id_1>"}
+{"text": "When DNA was methylated at specific sites , the sensitive enzymes were not able to digest the DNA and amplification took place ; in case of no methylation , DNA was digested and no product was generated .", "event": "<extra_id_0> <extra_id_1>"}
+{"text": "The PCR products were electrophoresed on a 3 % agarose gel , were stained with ethidium bromide and photographed .", "event": "<extra_id_0> <extra_id_1>"}
+{"text": "PCR products were verified by automated sequencing .", "event": "<extra_id_0> <extra_id_1>"}

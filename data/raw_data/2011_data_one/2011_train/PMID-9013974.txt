@@ -1,0 +1,74 @@
+Inhibitory effect of growth hormone on TNF-alpha secretion and nuclear factor-kappaB translocation in lipopolysaccharide-stimulated human monocytes.
+# T1 Protein S1 39 48 39 48 TNF-alpha
+$ T1 Protein S1 39 48 39 48 TNF-alpha
+@ T9 Negative_regulation S1 0 17 0 17 Inhibitory effect
+@ T10 Localization S1 49 58 49 58 secretion
+% E1 Negative_regulation:T9 Theme:E2
+% E2 Localization:T10 Theme:T1
+
+Several studies have pointed to a link between immune and endocrine systems, including a regulatory function of GH on monocyte activation.
+
+The present study demonstrates that human THP-1 promonocytic cells, engineered by gene transfer to constitutively produce human growth hormone (hGH), secreted depressed amounts of TNF-alpha in response to challenge by LPS.
+# T2 Protein S3 180 189 469 478 TNF-alpha
+$ T2 Protein S3 180 189 469 478 TNF-alpha
+@ T11 Localization S3 150 158 439 447 secreted
+@ T12 Negative_regulation S3 159 176 448 465 depressed amounts
+@ T13 Positive_regulation S3 190 201 479 490 in response
+% E3 Localization:T11 Theme:T2
+% E4 Negative_regulation:T12 Theme:E5
+% E5 Positive_regulation:T13 Theme:E3
+
+The effect of GH appears to occur in an autocrine fashion, since the inhibitory effect on TNF-alpha secretion by constitutive GH production could be abolished in the presence of anti-hGH mAb.
+# T3 Protein S4 90 99 602 611 TNF-alpha
+$ T3 Protein S4 90 99 602 611 TNF-alpha
+@ T14 Negative_regulation S4 69 86 581 598 inhibitory effect
+@ T15 Localization S4 100 109 612 621 secretion
+@ T16 Negative_regulation S4 149 158 661 670 abolished
+% E6 Negative_regulation:T14 Theme:E7
+% E7 Localization:T15 Theme:T3
+% E8 Negative_regulation:T16 Theme:E6
+
+The GH-induced inhibitory effect was also observed using normal human monocytes and monocyte-derived macrophages.
+@ T17 Negative_regulation S5 15 32 719 736 inhibitory effect
+% E9 Negative_regulation:T17 Theme:E7
+
+Inhibition of TNF-alpha production by THP-1-hGH-transfected cells cultured in the presence of LPS is dependent on a selective pathway, since no inhibition of TNF-alpha production was observed when cells were cultured in the presence of PMA.
+# T4 Protein S6 14 23 832 841 TNF-alpha
+# T5 Protein S6 158 167 976 985 TNF-alpha
+$ T4 Protein S6 14 23 832 841 TNF-alpha
+$ T5 Protein S6 158 167 976 985 TNF-alpha
+@ T18 Negative_regulation S6 0 10 818 828 Inhibition
+@ T19 Gene_expression S6 24 34 842 852 production
+@ T20 Regulation S6 101 110 919 928 dependent
+@ T21 Negative_regulation S6 144 154 962 972 inhibition
+@ T22 Gene_expression S6 168 178 986 996 production
+% E10 Negative_regulation:T18 Theme:E11
+% E11 Gene_expression:T19 Theme:T4
+% E12 Regulation:T20 Theme:E10
+% E13 Negative_regulation:T21 Theme:E14
+% E14 Gene_expression:T22 Theme:T5
+
+Inhibition of TNF-alpha secretion by LPS-stimulated THP-1-hGH cells was associated with a decrease in nuclear translocation of nuclear factor-kappaB.
+# T6 Protein S7 14 23 1073 1082 TNF-alpha
+$ T6 Protein S7 14 23 1073 1082 TNF-alpha
+@ T23 Negative_regulation S7 0 10 1059 1069 Inhibition
+@ T24 Localization S7 24 33 1083 1092 secretion
+% E15 Negative_regulation:T23 Theme:E16
+% E16 Localization:T24 Theme:T6
+
+The capacity of GH to inhibit LPS-induced TNF-alpha production by monocytes without altering other pathways leading to TNF-alpha production may be of potential relevance in septic shock, since GH is available for clinical use.
+# T7 Protein S8 42 51 1251 1260 TNF-alpha
+# T8 Protein S8 119 128 1328 1337 TNF-alpha
+$ T7 Protein S8 42 51 1251 1260 TNF-alpha
+$ T8 Protein S8 119 128 1328 1337 TNF-alpha
+@ T25 Negative_regulation S8 19 29 1228 1238 to inhibit
+@ T26 Positive_regulation S8 34 41 1243 1250 induced
+@ T27 Gene_expression S8 52 62 1261 1271 production
+@ T28 Positive_regulation S8 108 115 1317 1324 leading
+@ T29 Gene_expression S8 129 139 1338 1348 production
+% E17 Negative_regulation:T25 Theme:T7
+% E18 Positive_regulation:T26 Theme:E19
+% E19 Gene_expression:T27 Theme:T7
+% E20 Positive_regulation:T28 Theme:E21
+% E21 Gene_expression:T29 Theme:T8
+

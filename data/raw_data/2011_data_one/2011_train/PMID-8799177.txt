@@ -1,0 +1,31 @@
+Epstein-Barr viral latency is disrupted by the immediate-early BRLF1 protein through a cell-specific mechanism.
+# T1 Protein S1 63 68 63 68 BRLF1
+
+Epstein-Barr virus (EBV), the causative agent of infectious mononucleosis, is a human herpesvirus associated with epithelial cell malignancies (nasopharyngeal carcinoma) as well as B-cell malignancies.
+
+Understanding how viral latency is disrupted is a central issue in herpesvirus biology.
+
+Epithelial cells are the major site of lytic EBV replication within the human host, and viral reactivation occurs in EBV-associated nasopharyngeal carcinomas.
+
+It is known that expression of a single viral immediate-early protein, BZLF1, is sufficient to initiate the switch from latent to lytic infection in B cells.
+# T2 Protein S5 71 76 633 638 BZLF1
+$ T2 Protein S5 71 76 633 638 BZLF1
+@ T5 Gene_expression S5 17 27 579 589 expression
+% E1 Gene_expression:T5 Theme:T2
+
+Cellular regulation of BZLF1 transcription is therefore thought to play a key role in regulating the stringency of viral latency.
+# T3 Protein S6 23 28 743 748 BZLF1
+$ T3 Protein S6 23 28 743 748 BZLF1
+@ T6 Regulation S6 9 19 729 739 regulation
+@ T7 Transcription S6 29 42 749 762 transcription
+% E2 Regulation:T6 Theme:E3
+% E3 Transcription:T7 Theme:T3
+
+Here we show that, unexpectedly, expression of another viral immediate-early protein, BRLF1, can disrupt viral latency in an epithelial cell-specific fashion.
+# T4 Protein S7 86 91 936 941 BRLF1
+$ T4 Protein S7 86 91 936 941 BRLF1
+@ T8 Gene_expression S7 33 43 883 893 expression
+% E4 Gene_expression:T8 Theme:T4
+
+Therefore, the mechanisms leading to disruption of EBV latency appear to be cell-type specific.
+

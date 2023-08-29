@@ -1,0 +1,99 @@
+Nitric oxide decreases cytokine-induced endothelial activation.
+
+Nitric oxide selectively reduces endothelial expression of adhesion molecules and proinflammatory cytokines.
+
+To test the hypothesis that nitric oxide (NO) limits endothelial activation, we treated cytokine-stimulated human saphenous vein endothelial cells with several NO donors and assessed their effects on the inducible expression of vascular cell adhesion molecule-1 (VCAM-1).
+# T1 Protein S3 228 261 402 435 vascular cell adhesion molecule-1
+# T2 Protein S3 263 269 437 443 VCAM-1
+$ T2 Protein S3 263 269 437 443 VCAM-1
+@ T18 Regulation S3 189 196 363 370 effects
+@ T19 Positive_regulation S3 204 213 378 387 inducible
+@ T20 Gene_expression S3 214 224 388 398 expression
+% E1 Regulation:T18 Theme:E3
+% E2 Positive_regulation:T19 Theme:E3
+% E3 Gene_expression:T20 Theme:T2
+
+In a concentration-dependent manner, NO inhibited interleukin (IL)-1 alpha-stimulated VCAM-1 expression by 35-55% as determined by cell surface enzyme immunoassays and flow cytometry.
+# T3 Protein S4 50 74 496 520 interleukin (IL)-1 alpha
+# T4 Protein S4 86 92 532 538 VCAM-1
+$ T3 Protein S4 50 74 496 520 interleukin (IL)-1 alpha
+$ T4 Protein S4 86 92 532 538 VCAM-1
+@ T21 Negative_regulation S4 40 49 486 495 inhibited
+@ T22 Positive_regulation S4 75 85 521 531 stimulated
+@ T23 Gene_expression S4 93 103 539 549 expression
+% E4 Negative_regulation:T21 Theme:E5
+% E5 Positive_regulation:T22 Theme:E6 Cause:T3
+% E6 Gene_expression:T23 Theme:T4
+
+This inhibition was paralleled by reduced monocyte adhesion to endothelial monolayers in nonstatic assays, was unaffected by cGMP analogues, and was quantitatively similar after stimulation by either IL-1 alpha, IL-1 beta, IL-4, tumor necrosis factor (TNF alpha), or bacterial lipopolysaccharide.
+# T5 Protein S5 200 210 830 840 IL-1 alpha
+# T6 Protein S5 212 221 842 851 IL-1 beta
+# T7 Protein S5 223 227 853 857 IL-4
+# T8 Protein S5 229 250 859 880 tumor necrosis factor
+# T9 Protein S5 252 261 882 891 TNF alpha
+$ T9 Protein S5 252 261 882 891 TNF alpha
+$ T7 Protein S5 223 227 853 857 IL-4
+$ T5 Protein S5 200 210 830 840 IL-1 alpha
+$ T6 Protein S5 212 221 842 851 IL-1 beta
+@ T24 Negative_regulation S5 5 15 635 645 inhibition
+@ T25 Regulation S5 111 121 741 751 unaffected
+@ T26 Positive_regulation S5 178 189 808 819 stimulation
+% E7 Negative_regulation:T24 Theme:E16
+% E8 Negative_regulation:T24 Theme:E13
+% E9 Negative_regulation:T24 Theme:E15
+% E10 Negative_regulation:T24 Theme:E17
+% E11 Negative_regulation:T24 Theme:E14
+% E12 Regulation:T25 Theme:E4
+% E13 Positive_regulation:T26 Theme:E6 Cause:T9
+% E14 Positive_regulation:T26 Theme:E6 Cause:T7
+% E15 Positive_regulation:T26 Theme:E6 Cause:T5
+% E16 Positive_regulation:T26 Theme:E6
+% E17 Positive_regulation:T26 Theme:E6 Cause:T6
+
+NO also decreased the endothelial expression of other leukocyte adhesion molecules (E-selectin and to a lesser extent, intercellular adhesion molecule-1) and secretable cytokines (IL-6 and IL-8).
+# T10 Protein S6 84 94 1011 1021 E-selectin
+# T11 Protein S6 119 152 1046 1079 intercellular adhesion molecule-1
+# T12 Protein S6 180 184 1107 1111 IL-6
+# T13 Protein S6 189 193 1116 1120 IL-8
+$ T10 Protein S6 84 94 1011 1021 E-selectin
+$ T12 Protein S6 180 184 1107 1111 IL-6
+$ T11 Protein S6 119 152 1046 1079 intercellular adhesion molecule-1
+$ T13 Protein S6 189 193 1116 1120 IL-8
+@ T27 Negative_regulation S6 8 17 935 944 decreased
+@ T28 Gene_expression S6 34 44 961 971 expression
+% E18 Negative_regulation:T27 Theme:E24
+% E19 Negative_regulation:T27 Theme:E23
+% E20 Negative_regulation:T27 Theme:E22
+% E21 Negative_regulation:T27 Theme:E25
+% E22 Gene_expression:T28 Theme:T10
+% E23 Gene_expression:T28 Theme:T12
+% E24 Gene_expression:T28 Theme:T11
+% E25 Gene_expression:T28 Theme:T13
+
+Inhibition of endogenous NO production by L-N-monomethyl-arginine also induced the expression of VCAM-1, but did not augment cytokine-induced VCAM-1 expression.
+# T14 Protein S7 97 103 1220 1226 VCAM-1
+# T15 Protein S7 142 148 1265 1271 VCAM-1
+$ T14 Protein S7 97 103 1220 1226 VCAM-1
+$ T15 Protein S7 142 148 1265 1271 VCAM-1
+@ T29 Positive_regulation S7 71 78 1194 1201 induced
+@ T30 Gene_expression S7 83 93 1206 1216 expression
+@ T31 Positive_regulation S7 117 124 1240 1247 augment
+@ T32 Positive_regulation S7 134 141 1257 1264 induced
+@ T33 Gene_expression S7 149 159 1272 1282 expression
+% E26 Positive_regulation:T29 Theme:E27
+% E27 Gene_expression:T30 Theme:T14
+% E28 Positive_regulation:T31 Theme:E29
+% E29 Positive_regulation:T32 Theme:E30
+% E30 Gene_expression:T33 Theme:T15
+
+Nuclear run-on assays, transfection studies using various VCAM-1 promoter reporter gene constructs, and electrophoretic mobility shift assays indicated that NO represses VCAM-1 gene transcription, in part, by inhibiting NF-kappa B.
+# T16 Protein S8 58 64 1342 1348 VCAM-1
+# T17 Protein S8 170 176 1454 1460 VCAM-1
+$ T17 Protein S8 170 176 1454 1460 VCAM-1
+@ T34 Negative_regulation S8 160 169 1444 1453 represses
+@ T35 Transcription S8 182 195 1466 1479 transcription
+% E31 Negative_regulation:T34 Theme:E32
+% E32 Transcription:T35 Theme:T17
+
+We propose that NO's ability to limit endothelial activation and inhibit monocyte adhesion may contribute to some of its antiatherogenic and antiinflammatory properties within the vessel wall.
+

@@ -1,0 +1,30 @@
+Statistical	JJ	B-NP	O	Other	No	No	Other	Other	###	1	Statistical	Statistical	JJ	JJ	_	2	amod	_	_
+analysis	NN	I-NP	O	Other	No	No	Other	Other	###	2	analysis	analysis	NN	NN	_	0	root	_	_
+
+Data	NNS	B-NP	O	Other	No	No	Other	Other	###	1	Data	Data	NNS	NNS	_	3	nsubjpass	_	_
+are	VBP	B-VP	O	Other	No	No	Other	Other	###	2	are	are	VBP	VBP	_	3	auxpass	_	_
+expressed	VBN	I-VP	O	Other	No	No	Other	Other	###	3	expressed	expressed	VBN	VBN	_	0	root	_	_
+as	IN	B-PP	O	Other	No	No	Other	Other	###	4	as	as	IN	IN	_	5	case	_	_
+mean	NN	B-NP	O	Other	No	No	Other	Other	###	5	mean	mean	NN	NN	_	3	nmod	_	_
++/-	SYM	I-NP	O	Other	No	No	Other	Other	###	6	+/-	+/-	SYM	SYM	_	5	cc	_	_
+SD	NN	I-NP	O	Other	No	No	Other	Other	###	7	SD	SD	NN	NN	_	5	conj	_	_
+.	.	O	O	Other	No	No	Other	Other	###	8	.	.	.	.	_	3	punct	_	_
+
+The	DT	B-NP	O	Other	No	No	Other	Other	###	1	The	The	DT	DT	_	3	det	_	_
+statistical	JJ	I-NP	O	Other	No	No	Other	Other	###	2	statistical	statistical	JJ	JJ	_	3	amod	_	_
+significance	NN	I-NP	O	Other	No	No	Other	Other	###	3	significance	significance	NN	NN	_	12	nsubjpass	_	_
+of	IN	B-PP	O	Other	No	No	Other	Other	###	4	of	of	IN	IN	_	5	case	_	_
+differences	NNS	B-NP	O	Other	No	No	Other	Other	###	5	differences	differences	NNS	NNS	_	3	nmod	_	_
+of	IN	B-PP	O	Other	No	No	Other	Other	###	6	of	of	IN	IN	_	7	case	_	_
+means	NNS	B-NP	O	Other	No	No	Other	Other	###	7	means	means	NNS	NNS	_	5	nmod	_	_
+between	IN	B-PP	O	Other	No	No	Other	Other	###	8	between	between	IN	IN	_	10	case	_	_
+experimental	JJ	B-NP	O	Other	No	No	Other	Other	###	9	experimental	experimental	JJ	JJ	_	10	amod	_	_
+groups	NNS	I-NP	O	Other	No	No	Other	Other	###	10	groups	groups	NNS	NNS	_	7	nmod	_	_
+was	VBD	B-VP	O	Other	No	No	Other	Other	###	11	was	was	VBD	VBD	_	12	auxpass	_	_
+determined	VBN	I-VP	O	Other	No	No	Other	Other	###	12	determined	determined	VBN	VBN	_	0	root	_	_
+by	IN	B-PP	O	Other	No	No	Other	Other	###	13	by	by	IN	IN	_	16	case	_	_
+Students	NNS	B-NP	O	Other	No	No	Other	Other	###	14	Students	Students	NNS	NNS	_	16	nmod:poss	_	_
+'	POS	B-NP	O	Other	No	No	Other	Other	###	15	'	'	POS	POS	_	14	case	_	_
+t-test	NN	I-NP	O	Other	No	No	Other	Other	###	16	t-test	t-test	NN	NN	_	12	nmod	_	_
+.	.	O	O	Other	No	No	Other	Other	###	17	.	.	.	.	_	12	punct	_	_
+

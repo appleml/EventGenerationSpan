@@ -1,0 +1,32 @@
+Human TAFII 105 is a cell type-specific TFIID subunit related to hTAFII130.
+# T1 Protein S1 6 15 6 15 TAFII 105
+# T2 Protein S1 65 74 65 74 hTAFII130
+
+We previously characterized Drosophila and human TAF subunits that make up the core TFIID complex found in all cells.
+
+Here, we report that differentiated B cells contain a novel substoichiometric TAF of 105 kDa not found associated with TFIID isolated from other cell types.
+
+The cDNA encoding hTAFII105 reveals a highly conserved C-terminal domain shared by hTAFII130 and oTAFII110, while the N-terminal coactivator domain has diverged significantly.
+# T3 Protein S4 18 27 370 379 hTAFII105
+# T4 Protein S4 83 92 435 444 hTAFII130
+# T5 Protein S4 97 106 449 458 oTAFII110
+
+All cells tested express TAFII105 mRNA, but only B cells contain significant levels of protein associated with TFIID.
+# T6 Protein S5 25 33 553 561 TAFII105
+$ T6 Protein S5 25 33 553 561 TAFII105
+@ T9 Transcription S5 17 24 545 552 express
+@ T10 Binding S5 95 105 623 633 associated
+% E1 Transcription:T9 Theme:T6
+% E2 Binding:T10 Theme:T6
+
+Transient overexpression of hTAFII105 selectively squelches the transcription of some genes in B cells.
+# T7 Protein S6 28 37 674 683 hTAFII105
+$ T7 Protein S6 28 37 674 683 hTAFII105
+@ T11 Positive_regulation S6 10 24 656 670 overexpression
+@ T12 Gene_expression S6 10 24 656 670 overexpression
+% E3 Positive_regulation:T11 Theme:E4
+% E4 Gene_expression:T12 Theme:T7
+
+These properties suggest that TAFII105 is a cell type-specific subunit of TFIID that may be responsible for mediating transcription by a subset of activators in B cells.
+# T8 Protein S7 30 38 780 788 TAFII105
+

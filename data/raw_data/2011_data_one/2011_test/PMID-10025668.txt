@@ -1,0 +1,33 @@
+Osteoclast markers accumulate on cells developing from human peripheral blood mononuclear precursors.
+
+Recent studies show that human osteoclasts develop in vitro from hematopoietic cells; however, special cultures conditions and/or cytokine mobilized peripheral blood are apparently required.
+
+Here, we report that cells expressing osteoclast markers differentiate from precursors present in nonmobilized peripheral blood mononuclear cells (PBMC), without the addition of stromal cells, growth factors, cytokines or steroids; and characterize their phenotype.
+
+Three days after establishing high-density PBMC cultures (1.5 x 10(6) cells/cm2), in serum-containing medium, small adherent colonies of tartrate resistant acid phosphatase positive (TRAP+) cells emerge, amidst massive monocyte cell death.
+# T1 Protein S4 183 187 743 747 TRAP
+
+These adherent cells have an eccentrically placed, round nucleus, and express low levels of TRAP and sodium fluoride-resistant- alpha-naphthyl-acetate-esterase (NaF-R-NSE).
+# T2 Protein S5 92 96 892 896 TRAP
+
+Over the next week, this cell population accumulates phenotypic markers of osteoclasts (vitronectin receptor [VR], calcitonin receptor, TRAP, cathepsin K protein, and mRNA) with increased nuclearity, covering the entire surface by 15 days.
+# T3 Protein S6 136 140 1109 1113 TRAP
+# T4 Protein S6 142 153 1115 1126 cathepsin K
+
+When cultured on bone, VR+, TRAP+ cells of low multinuclearity appear and cover up to 50% of the surface.
+# T5 Protein S7 28 32 1241 1245 TRAP
+
+Resorption lacunae can be observed by day 22.
+
+Although these pits are not nearly as numerous as the cells of preosteoclast phenotype, they do represent the activity of a subset of osteoclast-like cells that has achieved osteoclastic maturity under these culture conditions.
+
+Transcripts for osteoprotegerin ligand (OPGL), an osteoclast differentiation factor (also known as RANKL and TRANCE) are expressed, likely by adherent cells.
+# T6 Protein S10 16 38 1609 1631 osteoprotegerin ligand
+# T7 Protein S10 40 44 1633 1637 OPGL
+# T8 Protein S10 99 104 1692 1697 RANKL
+# T9 Protein S10 109 115 1702 1708 TRANCE
+
+Thus, an adherent population of cells, with preosteoclast/osteoclast phenotypic properties, arises selectively under simple culture conditions from normal PBMC.
+
+Further characterization of these cells should identify factors involved in the growth, terminal differentiation and activation of osteoclasts.
+

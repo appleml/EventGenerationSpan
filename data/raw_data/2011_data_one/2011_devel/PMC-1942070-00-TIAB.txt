@@ -1,0 +1,22 @@
+Protein kinase D enzymes are dispensable for proliferation, survival and antigen receptor-regulated NFkappaB activity in vertebrate B-cells
+
+Abstract
+
+To investigate the importance of protein kinase D (PKD) enzymes we generated a PKD-null DT40 B-lymphocyte cell line.
+
+Previously we have shown that PKDs have an essential role in regulating class II histone deacetylases in DT40 B-cells [Matthews, S.A., Liu, P., Spitaler, M., Olson, E.N., McKinsey, T.A., Cantrell, D.A. and Scharenberg, A.M. (2006) Essential role for protein kinase D family kinases in the regulation of class II histone deacetylases in B lymphocytes. Mol. Cell Biol. 26, 1569-1577].
+
+We now show that PKDs are also required to regulate HSP27 phosphorylation in DT40 B-cells.
+# T1 Protein S5 52 57 702 707 HSP27
+$ T1 Protein S5 52 57 702 707 HSP27
+@ T2 Positive_regulation S5 31 39 681 689 required
+@ T3 Regulation S5 43 51 693 701 regulate
+@ T4 Phosphorylation S5 58 73 708 723 phosphorylation
+% E1 Positive_regulation:T2 Theme:E2
+% E2 Regulation:T3 Theme:E3
+% E3 Phosphorylation:T4 Theme:T1
+
+However, in contrast to previous observations in other cell types, PKD enzymes do not regulate basic cellular processes such as proliferation or survival responses, nor NFkappaB transcriptional activity downstream of the B cell antigen receptor.
+
+Thus, PKDs have a selective role in DT40 B-cell biology.
+

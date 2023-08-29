@@ -1,0 +1,58 @@
+PTX decreases LPS-induced NF-kappaB activation
+
+Since phosphorylation leads to ubiquitination and degradation of I-kappaBalpha and subsequent nuclear translocation of NF-kappaB, we first examined the effects of PTX on I-kappaBalpha.
+# T1 Protein S2 65 78 112 125 I-kappaBalpha
+# T2 Protein S2 170 183 217 230 I-kappaBalpha
+$ T1 Protein S2 65 78 112 125 I-kappaBalpha
+$ T2 Protein S2 170 183 217 230 I-kappaBalpha
+@ T7 Positive_regulation S2 22 27 69 74 leads
+@ T8 Protein_catabolism S2 50 61 97 108 degradation
+@ T9 Regulation S2 152 159 199 206 effects
+% E1 Positive_regulation:T7 Theme:E2
+% E2 Protein_catabolism:T8 Theme:T1
+% E3 Regulation:T9 Theme:T2
+
+Cytoplasmic I-kappaBalpha phosphorylation was markedly increased following LPS stimulation when compared to control (100 +/- 0 vs. 20 +/- 18; P < 0.05).
+# T3 Protein S3 12 25 244 257 I-kappaBalpha
+$ T3 Protein S3 12 25 244 257 I-kappaBalpha
+@ T10 Phosphorylation S3 26 41 258 273 phosphorylation
+@ T11 Positive_regulation S3 55 64 287 296 increased
+@ T12 Positive_regulation S3 65 74 297 306 following
+% E4 Phosphorylation:T10 Theme:T3
+% E5 Positive_regulation:T11 Theme:E4
+% E6 Positive_regulation:T12 Theme:E5
+
+The addition of PTX significantly downregulated LPS-induced I-kappaBalpha phosphorylation (P = 0.02; Figure 2)
+# T4 Protein S4 60 73 445 458 I-kappaBalpha
+$ T4 Protein S4 60 73 445 458 I-kappaBalpha
+@ T13 Negative_regulation S4 34 47 419 432 downregulated
+@ T14 Positive_regulation S4 52 59 437 444 induced
+@ T15 Phosphorylation S4 74 89 459 474 phosphorylation
+% E7 Negative_regulation:T13 Theme:E8
+% E8 Positive_regulation:T14 Theme:E9
+% E9 Phosphorylation:T15 Theme:T4
+
+In a similar fashion, nuclear NF-kappaB p65 phosphorylation was increased following LPS stimulation (100 +/- 0 vs. 38 +/- 20; P < 0.01).
+# T5 Protein S5 40 43 536 539 p65
+$ T5 Protein S5 40 43 536 539 p65
+@ T16 Phosphorylation S5 44 59 540 555 phosphorylation
+@ T17 Positive_regulation S5 64 73 560 569 increased
+@ T18 Positive_regulation S5 74 83 570 579 following
+% E10 Phosphorylation:T16 Theme:T5
+% E11 Positive_regulation:T17 Theme:E10
+% E12 Positive_regulation:T18 Theme:E11
+
+PTX similarly decreased LPS-induced NF-kappaB p65 nuclear phosphorylation, a marker of NF-kappaB activation and nuclear translocation (100 +/- 0 vs. 40 +/- 6; P =0.03; Figure 3A).
+# T6 Protein S6 46 49 679 682 p65
+$ T6 Protein S6 46 49 679 682 p65
+@ T19 Negative_regulation S6 14 23 647 656 decreased
+@ T20 Positive_regulation S6 28 35 661 668 induced
+@ T21 Phosphorylation S6 58 73 691 706 phosphorylation
+% E13 Negative_regulation:T19 Theme:E14
+% E14 Positive_regulation:T20 Theme:E15
+% E15 Phosphorylation:T21 Theme:T6
+
+EMSAs were then performed to verify the PTX-induced alterations in nuclear phosphorylation resulted in similar effects on the DNA binding activity of NF-kappaB.
+
+The addition of PTX to LPS-stimulated mononuclear cells resulted in comparable downregulation of DNA binding activity, similar to the observed downregulation of NF-kappaB phosphorylation (Figure 3B).
+

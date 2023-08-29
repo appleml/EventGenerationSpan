@@ -1,0 +1,23 @@
+Differentiation-dependent expression of a human carboxylesterase in monocytic cells and transcription factor binding to the promoter.
+
+Carboxylesterases play an important role in defense and clearance mechanisms of the monocyte/macrophage system.
+
+During the differentiation process of cells from the monocytic cell line THP-1 we observed a transient transcriptional upregulation of a human carboxylesterase analyzed by means of Northern blots.
+
+In PMA-treated THP-1 cells we could detect three major transcription initiation sites as revealed by Nuclease Protection Assay carried out with two overlapping antisense RNA probes.
+
+We have recently cloned the carboxylesterase upstream sequence and showed its basal promoter activity in CHO cells.
+
+Using electrophoretic mobility shift analysis we demonstrated that the promoter region spanning base pairs -1 to -275, which contains several putative binding sites for transcription factors, is bound by nuclear factors Sp1 and IRBP but not by C/EBPs.
+# T1 Protein S6 220 223 962 965 Sp1
+# T2 Protein S6 228 232 970 974 IRBP
+$ T2 Protein S6 228 232 970 974 IRBP
+$ T1 Protein S6 220 223 962 965 Sp1
+@ T5 Binding S6 195 200 937 942 bound
+% E1 Binding:T5 Theme:T2
+% E2 Binding:T5 Theme:T1
+
+Taken together these data indicate that carboxylesterase gene transcription in THP-1 cells starts at multiple initiation sites and that Sp1 and IRBP may be critical factors for modulating the differentiation-dependent transcription of this human carboxylesterase gene.
+# T3 Protein S7 136 139 1130 1133 Sp1
+# T4 Protein S7 144 148 1138 1142 IRBP
+

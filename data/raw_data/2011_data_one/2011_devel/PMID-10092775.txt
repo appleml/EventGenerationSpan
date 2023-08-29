@@ -1,0 +1,77 @@
+Evidence for distinct intracellular signaling pathways in CD34+ progenitor to dendritic cell differentiation from a human cell line model.
+# T1 Protein S1 58 62 58 62 CD34
+
+Intracellular signals that mediate differentiation of pluripotent hemopoietic progenitors to dendritic cells (DC) are largely undefined.
+
+We have previously shown that protein kinase C (PKC) activation (with phorbol ester (PMA) alone) specifically induces differentiation of primary human CD34+ hemopoietic progenitor cells (HPC) to mature DC.
+# T2 Protein S3 151 155 428 432 CD34
+
+We now find that cytokine-driven (granulocyte-macrophage CSF and TNF-alpha) CD34+ HPC-->DC differentiation is preferentially blocked by inhibitors of PKC activation.
+# T3 Protein S4 65 74 548 557 TNF-alpha
+# T4 Protein S4 76 80 559 563 CD34
+
+To further identify intracellular signals and downstream events important in CD34+ HPC-->DC differentiation we have characterized a human leukemic cell line model of this process.
+# T5 Protein S5 77 81 726 730 CD34
+
+The CD34+ myelomonocytic cell line KG1 differentiates into dendritic-like cells in response to granulocyte-macrophage CSF plus TNF-alpha, or PMA (with or without the calcium ionophore ionomycin, or TNF-alpha), with different stimuli mediating different aspects of the process.
+# T6 Protein S6 4 8 833 837 CD34
+# T7 Protein S6 95 121 924 950 granulocyte-macrophage CSF
+# T8 Protein S6 127 136 956 965 TNF-alpha
+# T9 Protein S6 198 207 1027 1036 TNF-alpha
+
+Phenotypic DC characteristics of KG1 dendritic-like cells include morphology (loosely adherent cells with long neurite processes), MHC I+/MHC IIbright/CD83+/CD86+/CD14- surface Ag expression, and RelB and DC-CK1 gene expression.
+# T10 Protein S7 151 155 1257 1261 CD83
+# T11 Protein S7 157 161 1263 1267 CD86
+# T12 Protein S7 163 167 1269 1273 CD14
+# T13 Protein S7 196 200 1302 1306 RelB
+# T14 Protein S7 205 211 1311 1317 DC-CK1
+$ T12 Protein S7 163 167 1269 1273 CD14
+$ T11 Protein S7 157 161 1263 1267 CD86
+$ T10 Protein S7 151 155 1257 1261 CD83
+$ T14 Protein S7 205 211 1311 1317 DC-CK1
+$ T13 Protein S7 196 200 1302 1306 RelB
+@ T23 Gene_expression S7 180 190 1286 1296 expression
+@ T24 Gene_expression S7 217 227 1323 1333 expression
+% E1 Gene_expression:T23 Theme:T12
+% E2 Gene_expression:T23 Theme:T11
+% E3 Gene_expression:T23 Theme:T10
+% E4 Gene_expression:T24 Theme:T14
+% E5 Gene_expression:T24 Theme:T13
+
+Functional DC characteristics include fluid phase macromolecule uptake (FITC-dextran) and activation of resting T cells.
+
+Comparison of KG1 to the PMA-unresponsive subline KG1a reveals differences in expression of TNF receptors 1 and 2; PKC isoforms alpha, beta I, beta II, and mu; and RelB, suggesting that these components/pathways are important for DC differentiation.
+# T15 Protein S9 92 107 1548 1563 TNF receptors 1
+# T16 Protein S9 112 113 1568 1569 2
+# T17 Protein S9 115 133 1571 1589 PKC isoforms alpha
+# T18 Protein S9 135 141 1591 1597 beta I
+# T19 Protein S9 143 150 1599 1606 beta II
+# T20 Protein S9 156 158 1612 1614 mu
+# T21 Protein S9 164 168 1620 1624 RelB
+$ T19 Protein S9 143 150 1599 1606 beta II
+$ T16 Protein S9 112 113 1568 1569 2
+$ T20 Protein S9 156 158 1612 1614 mu
+$ T15 Protein S9 92 107 1548 1563 TNF receptors 1
+$ T17 Protein S9 115 133 1571 1589 PKC isoforms alpha
+$ T21 Protein S9 164 168 1620 1624 RelB
+$ T18 Protein S9 135 141 1591 1597 beta I
+@ T25 Gene_expression S9 78 88 1534 1544 expression
+@ T26 Positive_regulation S9 216 225 1672 1681 important
+% E6 Gene_expression:T25 Theme:T19
+% E7 Gene_expression:T25 Theme:T16
+% E8 Gene_expression:T25 Theme:T20
+% E9 Gene_expression:T25 Theme:T15
+% E10 Gene_expression:T25 Theme:T17
+% E11 Gene_expression:T25 Theme:T21
+% E12 Gene_expression:T25 Theme:T18
+% E13 Positive_regulation:T26 Theme:E12 Cause:T20
+% E14 Positive_regulation:T26 Theme:E12 Cause:T17
+% E15 Positive_regulation:T26 Theme:E12 Cause:T21
+% E16 Positive_regulation:T26 Theme:E12 Cause:T18
+% E17 Positive_regulation:T26 Theme:E12 Cause:T15
+% E18 Positive_regulation:T26 Theme:E12 Cause:T19
+% E19 Positive_regulation:T26 Theme:E12 Cause:T16
+
+Together, these findings demonstrate that cytokine or phorbol ester stimulation of KG1 is a model of human CD34+ HPC to DC differentiation and suggest that specific intracellular signaling pathways mediate specific events in DC lineage commitment.
+# T22 Protein S10 107 111 1813 1817 CD34
+

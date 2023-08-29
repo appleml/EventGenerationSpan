@@ -1,0 +1,12 @@
+Multiplex cytokine assay
+
+Quantification of the levels of cytokines IL-2, IL-6, IL-10 and TNF and the chemokine CXCL8 was performed on culture supernatants using multiplexed biomarker immunoassay kits according to manufacturer's instructions (Bio-Rad Laboratories, Hercules, CA).
+# T1 Protein S2 42 46 67 71 IL-2
+# T2 Protein S2 48 52 73 77 IL-6
+# T3 Protein S2 54 59 79 84 IL-10
+# T4 Protein S2 86 91 111 116 CXCL8
+
+A Bio-Plex(TM) 200 readout System was used (Bio-Rad), which utilizes Luminex(R) xMAP(TM) fluorescent bead-based technology (Luminex Corp., Austin).
+
+Levels were automatically calculated from standard curves using Bio-Plex Manager software (v.4.1.1, Bio-Rad).
+

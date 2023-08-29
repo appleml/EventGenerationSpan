@@ -1,0 +1,82 @@
+Regulation of the Ets-related transcription factor Elf-1 by binding to the retinoblastoma protein.
+# T1 Protein S1 51 56 51 56 Elf-1
+# T2 Protein S1 75 97 75 97 retinoblastoma protein
+$ T1 Protein S1 51 56 51 56 Elf-1
+$ T2 Protein S1 75 97 75 97 retinoblastoma protein
+@ T20 Regulation S1 0 10 0 10 Regulation
+@ T21 Binding S1 60 67 60 67 binding
+% E1 Regulation:T20 Theme:T1 Cause:E2
+% E2 Binding:T21 Theme:T2
+
+The retinoblastoma gene product (Rb) is a nuclear phosphoprotein that regulates cell cycle progression.
+# T3 Protein S2 4 18 104 118 retinoblastoma
+# T4 Protein S2 33 35 133 135 Rb
+
+Elf-1 is a lymphoid-specific Ets transcription factor that regulates inducible gene expression during T cell activation.
+# T5 Protein S3 0 5 204 209 Elf-1
+
+In this report, it is demonstrated that Elf-1 contains a sequence motif that is highly related to the Rb binding sites of several viral oncoproteins and binds to the pocket region of Rb both in vitro and in vivo.
+# T6 Protein S4 40 45 365 370 Elf-1
+# T7 Protein S4 102 104 427 429 Rb
+# T8 Protein S4 183 185 508 510 Rb
+$ T6 Protein S4 40 45 365 370 Elf-1
+$ T8 Protein S4 183 185 508 510 Rb
+@ T22 Binding S4 153 158 478 483 binds
+% E3 Binding:T22 Theme:T6 Theme2:T8
+
+Elf-1 binds exclusively to the underphosphorylated form of Rb and fails to bind to Rb mutants derived from patients with retinoblastoma.
+# T9 Protein S5 0 5 538 543 Elf-1
+# T10 Protein S5 59 61 597 599 Rb
+# T11 Protein S5 83 85 621 623 Rb
+$ T9 Protein S5 0 5 538 543 Elf-1
+$ T10 Protein S5 59 61 597 599 Rb
+$ T11 Protein S5 83 85 621 623 Rb
+@ T23 Binding S5 6 11 544 549 binds
+@ T24 Phosphorylation S5 31 50 569 588 underphosphorylated
+@ T25 Negative_regulation S5 31 50 569 588 underphosphorylated
+@ T26 Binding S5 75 79 613 617 bind
+% E4 Binding:T23 Theme:T9 Theme2:T10
+% E5 Phosphorylation:T24 Theme:T10
+% E6 Negative_regulation:T25 Theme:E5
+% E7 Binding:T26 Theme:T9 Theme2:T11
+
+Co-immunoprecipitation experiments demonstrated an association between Elf-1 and Rb in resting normal human T cells.
+# T12 Protein S6 71 76 746 751 Elf-1
+# T13 Protein S6 81 83 756 758 Rb
+$ T12 Protein S6 71 76 746 751 Elf-1
+$ T13 Protein S6 81 83 756 758 Rb
+@ T27 Binding S6 51 62 726 737 association
+% E8 Binding:T27 Theme:T12 Theme2:T13
+
+After T cell activation, the phosphorylation of Rb results in the release of Elf-1, which is correlated temporally with the activation of Elf-1-mediated transcription.
+# T14 Protein S7 48 50 840 842 Rb
+# T15 Protein S7 77 82 869 874 Elf-1
+# T16 Protein S7 138 143 930 935 Elf-1
+$ T14 Protein S7 48 50 840 842 Rb
+$ T15 Protein S7 77 82 869 874 Elf-1
+@ T28 Phosphorylation S7 29 44 821 836 phosphorylation
+@ T29 Positive_regulation S7 51 58 843 850 results
+@ T30 Localization S7 66 73 858 865 release
+% E9 Phosphorylation:T28 Theme:T14
+% E10 Positive_regulation:T29 Theme:E11 Cause:E9
+% E11 Localization:T30 Theme:T15
+
+Overexpression of a phosphorylation-defective form of Rb inhibited Elf-1-dependent transcription during T cell activation.
+# T17 Protein S8 54 56 1014 1016 Rb
+# T18 Protein S8 67 72 1027 1032 Elf-1
+$ T17 Protein S8 54 56 1014 1016 Rb
+@ T31 Gene_expression S8 0 14 960 974 Overexpression
+@ T32 Positive_regulation S8 0 14 960 974 Overexpression
+@ T33 Phosphorylation S8 20 50 980 1010 phosphorylation-defective form
+% E12 Gene_expression:T31 Theme:T17
+% E13 Positive_regulation:T32 Theme:E12
+% E14 Phosphorylation:T33 Theme:T17
+
+These results demonstrate that Rb interacts specifically with a lineage-restricted Ets transcription factor.
+# T19 Protein S9 31 33 1114 1116 Rb
+$ T19 Protein S9 31 33 1114 1116 Rb
+@ T34 Binding S9 34 43 1117 1126 interacts
+% E15 Binding:T34 Theme:T19
+
+This regulated interaction may be important for the coordination of lineage-specific effector functions such as lymphokine production with cell cycle progression in activated T cells.
+

@@ -1,0 +1,46 @@
+Dopamine stimulates expression of the human immunodeficiency virus type 1 via NF-kappaB in cells of the immune system.
+
+Recent studies have reported that lymphocytes produce, transport and bind dopamine present in plasma.
+
+However, the action of dopamine on HIV-1 gene expression in cells of the immune system has not yet been examined.
+
+Here, we have investigated the regulation of HIV-1 expression by dopamine in Jurkat T cells and in primary blood mononuclear cells (PBMC).
+
+HIV-1 replication was increased by dopamine, which correlated with the increased levels of HIV-1 transactivation.
+
+Our transient expression data revealed that dopamine stimulated transcription through the NF-kappaB element present in the long terminal repeat.
+
+The importance of NF-kappaB sites was confirmed by using vectors containing wild-type or mutant kappaB sites in a heterologous promoter.
+
+Consistent with the role of NF-kappaB in mediating dopamine responsiveness, the proteasome inhibitor MG132 abolished dopamine-induced transcriptional activation.
+
+We further explored the effect of dopamine in the presence of phorbol esters or tumor necrosis factor-alpha (TNF-alpha) known to activate NF-kappaB.
+# T1 Protein S9 80 107 1113 1140 tumor necrosis factor-alpha
+# T2 Protein S9 109 118 1142 1151 TNF-alpha
+
+The combination of dopamine and TNF-alpha led to a stimulation of HIV-1 transcription and replication.
+# T3 Protein S10 32 41 1214 1223 TNF-alpha
+
+However, in contrast with TNF-alpha, dopamine treatment did not affect NF-kappaB DNA binding activity nor the concentrations of p50, p65 and IkappaB-alpha proteins, which suggests a distinct NF-kappaB activation mechanism.
+# T4 Protein S11 26 35 1311 1320 TNF-alpha
+# T5 Protein S11 128 131 1413 1416 p50
+# T6 Protein S11 133 136 1418 1421 p65
+# T7 Protein S11 141 154 1426 1439 IkappaB-alpha
+$ T4 Protein S11 26 35 1311 1320 TNF-alpha
+$ T6 Protein S11 133 136 1418 1421 p65
+$ T7 Protein S11 141 154 1426 1439 IkappaB-alpha
+$ T5 Protein S11 128 131 1413 1416 p50
+@ T8 Regulation S11 64 70 1349 1355 affect
+@ T9 Regulation S11 110 124 1395 1409 concentrations
+% E1 Regulation:T8 Theme:E7 Cause:T4
+% E2 Regulation:T8 Theme:E9
+% E3 Regulation:T8 Theme:E9 Cause:T4
+% E4 Regulation:T8 Theme:E7
+% E5 Regulation:T8 Theme:E8 Cause:T4
+% E6 Regulation:T8 Theme:E8
+% E7 Regulation:T9 Theme:T6
+% E8 Regulation:T9 Theme:T7
+% E9 Regulation:T9 Theme:T5
+
+These results reveal a new link between the dopamine system, cytokine signaling pathway and regulation of gene expression via the involvement of NF-kappaB in T cells and PBMC.
+

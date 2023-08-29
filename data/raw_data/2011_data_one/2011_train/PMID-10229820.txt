@@ -1,0 +1,93 @@
+Fibroblast growth factor-1 (FGF-1) enhances IL-2 production and nuclear translocation of NF-kappaB in FGF receptor-bearing Jurkat T cells.
+# T1 Protein S1 0 26 0 26 Fibroblast growth factor-1
+# T2 Protein S1 28 33 28 33 FGF-1
+# T3 Protein S1 44 48 44 48 IL-2
+$ T2 Protein S1 28 33 28 33 FGF-1
+$ T3 Protein S1 44 48 44 48 IL-2
+@ T25 Positive_regulation S1 35 43 35 43 enhances
+@ T26 Gene_expression S1 49 59 49 59 production
+% E1 Positive_regulation:T25 Theme:E2 Cause:T2
+% E2 Gene_expression:T26 Theme:T3
+
+Fibroblast growth factors (FGFs) are heparin-binding proteins crucial to embryogenesis, angiogenesis, and wound healing.
+
+FGF-1 is abundantly expressed in the synovium in rheumatoid arthritis and in rejecting allografts, sites of chronic immune-mediated inflammation.
+# T4 Protein S3 0 5 261 266 FGF-1
+$ T4 Protein S3 0 5 261 266 FGF-1
+@ T27 Gene_expression S3 20 29 281 290 expressed
+% E3 Gene_expression:T27 Theme:T4
+
+The frequency of FGF-1-responsive T cells is increased in the peripheral blood of these disorders, and a high percentage of infiltrating T cells in rheumatoid arthritis synovium express receptors for FGF-1.
+# T5 Protein S4 17 22 424 429 FGF-1
+# T6 Protein S4 200 205 607 612 FGF-1
+
+To understand the action of FGF-1 in T cells, studies were initiated in Jurkat T cells that express the signaling isoform of FGF receptor-1.
+# T7 Protein S5 28 33 642 647 FGF-1
+# T8 Protein S5 125 139 739 753 FGF receptor-1
+$ T8 Protein S5 125 139 739 753 FGF receptor-1
+@ T28 Gene_expression S5 92 99 706 713 express
+% E4 Gene_expression:T28 Theme:T8
+
+These experiments show that FGF-1 stimulation of Jurkat T cells provides a second signal that augments TCR-mediated IL-2 production.
+# T9 Protein S6 28 33 783 788 FGF-1
+# T10 Protein S6 116 120 871 875 IL-2
+$ T10 Protein S6 116 120 871 875 IL-2
+@ T29 Positive_regulation S6 64 72 819 827 provides
+@ T30 Positive_regulation S6 94 102 849 857 augments
+@ T31 Positive_regulation S6 107 115 862 870 mediated
+@ T32 Gene_expression S6 121 131 876 886 production
+% E5 Positive_regulation:T29 Theme:E6
+% E6 Positive_regulation:T30 Theme:E7
+% E7 Positive_regulation:T31 Theme:E8
+% E8 Gene_expression:T32 Theme:T10
+
+Analogous to costimulation via CD28, this activity is mediated through activation of Rel/kappaB, a family of transcription factors known to regulate IL-2 and other activation-inducible proteins.
+# T11 Protein S7 31 35 919 923 CD28
+# T12 Protein S7 149 153 1037 1041 IL-2
+$ T12 Protein S7 149 153 1037 1041 IL-2
+@ T33 Positive_regulation S7 54 62 942 950 mediated
+@ T34 Regulation S7 140 148 1028 1036 regulate
+% E9 Positive_regulation:T33 Theme:E5
+% E10 Regulation:T34 Theme:T12
+
+FGF-1 alone induces modest nuclear translocation of kappaB-binding proteins, and this translocation is enhanced by the combination of anti-CD3 and FGF-1.
+# T13 Protein S8 0 5 1083 1088 FGF-1
+# T14 Protein S8 147 152 1230 1235 FGF-1
+
+This NF-kappaB binding complex is composed of transcriptionally active p65(RelA)/p50 heterodimers and results primarily from the targeted degradation of IkappaB-alpha, an inhibitor that sequesters Rel/kappaB in the cytoplasm.
+# T15 Protein S9 71 74 1308 1311 p65
+# T16 Protein S9 75 79 1312 1316 RelA
+# T17 Protein S9 81 84 1318 1321 p50
+# T18 Protein S9 153 166 1390 1403 IkappaB-alpha
+$ T15 Protein S9 71 74 1308 1311 p65
+$ T16 Protein S9 75 79 1312 1316 RelA
+$ T17 Protein S9 81 84 1318 1321 p50
+$ T18 Protein S9 153 166 1390 1403 IkappaB-alpha
+@ T35 Positive_regulation S9 34 42 1271 1279 composed
+@ T36 Positive_regulation S9 102 109 1339 1346 results
+@ T37 Protein_catabolism S9 138 149 1375 1386 degradation
+% E11 Positive_regulation:T35 Theme:T15
+% E12 Positive_regulation:T35 Theme:T16
+% E13 Positive_regulation:T35 Theme:T17
+% E14 Positive_regulation:T36 Theme:E13 Cause:E17
+% E15 Positive_regulation:T36 Theme:E11 Cause:E17
+% E16 Positive_regulation:T36 Theme:E12 Cause:E17
+% E17 Protein_catabolism:T37 Theme:T18
+
+These data are the first to show a connection between FGF-1 signaling and NF-kappaB activation outside of embryonic development.
+# T19 Protein S10 54 59 1517 1522 FGF-1
+
+The signaling events that link FGF receptor-1 engagement and NF-kappaB activation in Jurkat are probably distinct from the CD28 costimulation pathway, since FGF-1-induced Rel/kappaB binding proteins do not contain significant levels of c-Rel and are not identical with the CD28 response complex.
+# T20 Protein S11 31 45 1623 1637 FGF receptor-1
+# T21 Protein S11 123 127 1715 1719 CD28
+# T22 Protein S11 157 162 1749 1754 FGF-1
+# T23 Protein S11 236 241 1828 1833 c-Rel
+# T24 Protein S11 273 277 1865 1869 CD28
+$ T20 Protein S11 31 45 1623 1637 FGF receptor-1
+$ T23 Protein S11 236 241 1828 1833 c-Rel
+$ T22 Protein S11 157 162 1749 1754 FGF-1
+@ T38 Binding S11 46 56 1638 1648 engagement
+@ T39 Positive_regulation S11 163 170 1755 1762 induced
+% E18 Binding:T38 Theme:T20
+% E19 Positive_regulation:T39 Theme:T23 Cause:T22
+

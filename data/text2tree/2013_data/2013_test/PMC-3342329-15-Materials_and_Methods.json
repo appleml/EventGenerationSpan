@@ -1,0 +1,9 @@
+{"text": "Flow Cytometric Analysis", "event": "<extra_id_0> <extra_id_1>"}
+{"text": "Lymphocytes were obtained from tumor and spleen tissues for phenotype analysis .", "event": "<extra_id_0> <extra_id_1>"}
+{"text": "Spleen and tumor lymphocytes were isolated from fresh spleen and tumor biopsies obtained from three mice per group .", "event": "<extra_id_0> <extra_id_1>"}
+{"text": "Spleen and tumor biopsies were briefly homogenized mechanically in PBS , filtered ( 100 microm cell strainer ; BD PharMingen ) and then placed in lysis buffer ( ACK lysing buffer , LONZA ) to remove red blood cells .", "event": "<extra_id_0> <extra_id_1>"}
+{"text": "One million splenocytes were washed once in PBS containing 1 % bovine serum albumin ( BSA ) and re-suspended in 100 microl of PBS / BSA buffer .", "event": "<extra_id_0> <extra_id_1>"}
+{"text": "Meanwhile , one million cells obtained from tumor tissues were placed in RPMI medium , incubated to obtain suspension cell for 1hour at 37degreesC , centrifuged ( 1200 rpm , 3 min ) and then washed in PBS .", "event": "<extra_id_0> <extra_id_1>"}
+{"text": "Next , the lymphocytes were incubated with various conjugated monoclonal antibodies , including <extra_id_0> CD4 <extra_id_2> Protein <extra_id_1> - APC , CD8-FITC and <extra_id_0> CD19 <extra_id_2> Protein <extra_id_1> - PE for 20min at 4degreesC , washed twice in PBS , and re-suspended in 400 microl of PBS .", "event": "<extra_id_0> <extra_id_1>"}
+{"text": "A flow cytometric analysis was performed on a FACSAria flow cytometry ( BD Biosciences ) , and the data were analyzed using the WinMDI statistical software ( Scripps , La Jolla , CA , USA ) .", "event": "<extra_id_0> <extra_id_1>"}
+{"text": "Forward and side scatter parameters were used to gate on lymphocytes .", "event": "<extra_id_0> <extra_id_1>"}

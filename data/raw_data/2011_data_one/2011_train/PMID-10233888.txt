@@ -1,0 +1,121 @@
+Unicellular-unilineage erythropoietic cultures: molecular analysis of regulatory gene expression at sibling cell level.
+
+In vitro studies on hematopoietic control mechanisms have been hampered by the heterogeneity of the analyzed cell populations, ie, lack of lineage specificity and developmental stage homogeneity of progenitor/precursor cells growing in culture.
+
+We developed unicellular culture systems for unilineage differentiation of purified hematopoietic progenitor cells followed by daughter cell analysis at cellular and molecular level.
+
+In the culture system reported here, (1) the growth factor (GF) stimulus induces cord blood (CB) progenitor cells to proliferate and differentiate/mature exclusively along the erythroid lineage; (2) this erythropoietic wave is characterized by less than 4% apoptotic cells; (3) asymmetric divisions are virtually absent, ie, nonresponsive hematopoietic progenitors with no erythropoietic potential are forced into apoptosis; (4) the system is cell division controlled (cdc), ie, the number of divisions performed by each cell is monitored.
+
+Single-cell reverse transcriptase-polymerase chain reaction (RT-PCR) analysis was applied to this culture system to investigate gene expression of diverse receptors, markers of differentiation, and transcription factors (EKLF, GATA-1, GATA-2, p45 NF-E2, PU.1, and SCL/Tal1) at discrete stages of erythropoietic development.
+# T1 Protein S5 221 225 1310 1314 EKLF
+# T2 Protein S5 227 233 1316 1322 GATA-1
+# T3 Protein S5 235 241 1324 1330 GATA-2
+# T4 Protein S5 243 252 1332 1341 p45 NF-E2
+# T5 Protein S5 254 258 1343 1347 PU.1
+# T6 Protein S5 264 267 1353 1356 SCL
+# T7 Protein S5 268 272 1357 1361 Tal1
+$ T1 Protein S5 221 225 1310 1314 EKLF
+$ T4 Protein S5 243 252 1332 1341 p45 NF-E2
+$ T5 Protein S5 254 258 1343 1347 PU.1
+$ T3 Protein S5 235 241 1324 1330 GATA-2
+$ T6 Protein S5 264 267 1353 1356 SCL
+$ T2 Protein S5 227 233 1316 1322 GATA-1
+@ T36 Gene_expression S5 128 143 1217 1232 gene expression
+% E1 Gene_expression:T36 Theme:T1
+% E2 Gene_expression:T36 Theme:T4
+% E3 Gene_expression:T36 Theme:T5
+% E4 Gene_expression:T36 Theme:T3
+% E5 Gene_expression:T36 Theme:T6
+% E6 Gene_expression:T36 Theme:T2
+
+Freshly isolated CD34(+) cells expressed CD34, c-kit, PU.1, and GATA-2 but did not express CD36, erythropoietin receptor (EpoR), SCL/Tal1, EKLF, NF-E2, GATA-1, or glyocophorin A (GPA).
+# T8 Protein S6 17 21 1430 1434 CD34
+# T9 Protein S6 41 45 1454 1458 CD34
+# T10 Protein S6 47 52 1460 1465 c-kit
+# T11 Protein S6 54 58 1467 1471 PU.1
+# T12 Protein S6 64 70 1477 1483 GATA-2
+# T13 Protein S6 91 95 1504 1508 CD36
+# T14 Protein S6 97 120 1510 1533 erythropoietin receptor
+# T15 Protein S6 122 126 1535 1539 EpoR
+# T16 Protein S6 129 132 1542 1545 SCL
+# T17 Protein S6 133 137 1546 1550 Tal1
+# T18 Protein S6 139 143 1552 1556 EKLF
+# T19 Protein S6 152 158 1565 1571 GATA-1
+# T20 Protein S6 163 177 1576 1590 glyocophorin A
+# T21 Protein S6 179 182 1592 1595 GPA
+$ T9 Protein S6 41 45 1454 1458 CD34
+$ T11 Protein S6 54 58 1467 1471 PU.1
+$ T10 Protein S6 47 52 1460 1465 c-kit
+$ T12 Protein S6 64 70 1477 1483 GATA-2
+$ T16 Protein S6 129 132 1542 1545 SCL
+$ T15 Protein S6 122 126 1535 1539 EpoR
+$ T19 Protein S6 152 158 1565 1571 GATA-1
+$ T18 Protein S6 139 143 1552 1556 EKLF
+$ T13 Protein S6 91 95 1504 1508 CD36
+$ T21 Protein S6 179 182 1592 1595 GPA
+@ T37 Gene_expression S6 31 40 1444 1453 expressed
+@ T38 Gene_expression S6 83 90 1496 1503 express
+% E7 Gene_expression:T37 Theme:T9
+% E8 Gene_expression:T37 Theme:T11
+% E9 Gene_expression:T37 Theme:T10
+% E10 Gene_expression:T37 Theme:T12
+% E11 Gene_expression:T38 Theme:T16
+% E12 Gene_expression:T38 Theme:T15
+% E13 Gene_expression:T38 Theme:T19
+% E14 Gene_expression:T38 Theme:T18
+% E15 Gene_expression:T38 Theme:T13
+% E16 Gene_expression:T38 Theme:T21
+
+In early to intermediate stages of erythroid differentiation we monitored the induction of CD36, Tal1, EKLF, NF-E2, and GATA-1 that preceeded expression of EpoR.
+# T22 Protein S7 91 95 1689 1693 CD36
+# T23 Protein S7 97 101 1695 1699 Tal1
+# T24 Protein S7 103 107 1701 1705 EKLF
+# T25 Protein S7 120 126 1718 1724 GATA-1
+# T26 Protein S7 156 160 1754 1758 EpoR
+$ T22 Protein S7 91 95 1689 1693 CD36
+$ T24 Protein S7 103 107 1701 1705 EKLF
+$ T23 Protein S7 97 101 1695 1699 Tal1
+$ T25 Protein S7 120 126 1718 1724 GATA-1
+$ T26 Protein S7 156 160 1754 1758 EpoR
+@ T39 Positive_regulation S7 78 87 1676 1685 induction
+@ T40 Gene_expression S7 78 87 1676 1685 induction
+@ T41 Gene_expression S7 142 152 1740 1750 expression
+% E17 Positive_regulation:T39 Theme:T22
+% E18 Positive_regulation:T39 Theme:T24
+% E19 Positive_regulation:T39 Theme:T23
+% E20 Gene_expression:T40 Theme:T25
+% E21 Gene_expression:T41 Theme:T26
+
+In late stages of erythroid maturation, GPA was upregulated, whereas CD34, c-kit, PU.1, and GATA-2 were barely or not detected.
+# T27 Protein S8 40 43 1800 1803 GPA
+# T28 Protein S8 69 73 1829 1833 CD34
+# T29 Protein S8 75 80 1835 1840 c-kit
+# T30 Protein S8 82 86 1842 1846 PU.1
+# T31 Protein S8 92 98 1852 1858 GATA-2
+$ T27 Protein S8 40 43 1800 1803 GPA
+$ T30 Protein S8 82 86 1842 1846 PU.1
+$ T29 Protein S8 75 80 1835 1840 c-kit
+$ T28 Protein S8 69 73 1829 1833 CD34
+$ T31 Protein S8 92 98 1852 1858 GATA-2
+@ T42 Positive_regulation S8 48 59 1808 1819 upregulated
+@ T43 Gene_expression S8 118 126 1878 1886 detected
+% E22 Positive_regulation:T42 Theme:T27
+% E23 Gene_expression:T43 Theme:T30
+% E24 Gene_expression:T43 Theme:T29
+% E25 Gene_expression:T43 Theme:T28
+% E26 Gene_expression:T43 Theme:T31
+
+In addition, competitive single-cell RT-PCR was used to assay CD34 mRNA transcripts in sibling CD34(+) CD38(-) cells differentiating in unilineage erythroid cultures: this analysis allowed us to semiquantitate the gradual downmodulation of CD34 mRNA from progenitor cells through their differentiating erythroid progeny.
+# T32 Protein S9 62 66 1950 1954 CD34
+# T33 Protein S9 95 99 1983 1987 CD34
+# T34 Protein S9 103 107 1991 1995 CD38
+# T35 Protein S9 240 244 2128 2132 CD34
+$ T32 Protein S9 62 66 1950 1954 CD34
+$ T35 Protein S9 240 244 2128 2132 CD34
+@ T44 Transcription S9 67 83 1955 1971 mRNA transcripts
+@ T45 Negative_regulation S9 222 236 2110 2124 downmodulation
+% E27 Transcription:T44 Theme:T32
+% E28 Negative_regulation:T45 Theme:T35
+
+It is concluded that this novel culture system, coupled with single-cell RT-PCR analysis, may eliminate the ambiguities intrinsic to molecular studies on heterogeneous populations of hematopoietic progenitors/precursors growing in culture, particularly in the initial stages of development.
+

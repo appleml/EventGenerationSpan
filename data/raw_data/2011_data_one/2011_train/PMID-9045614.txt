@@ -1,0 +1,38 @@
+Immune hyperactivation of HIV-1-infected T cells mediated by Tat and the CD28 pathway.
+# T1 Protein S1 73 77 73 77 CD28
+
+Human immunodeficiency virus-type 1 (HIV-1) infection is characterized by a chronic state of immune hyperactivation in patients.
+
+Infection of human peripheral blood lymphocytes with HIV-1 in vitro resulted in increased interleukin-2 (IL-2) secretion in response to T cell activation via the CD3 and CD28 receptors.
+# T2 Protein S3 90 103 307 320 interleukin-2
+# T3 Protein S3 105 109 322 326 IL-2
+$ T3 Protein S3 105 109 322 326 IL-2
+@ T9 Positive_regulation S3 80 89 297 306 increased
+@ T10 Localization S3 111 120 328 337 secretion
+@ T11 Positive_regulation S3 121 135 338 352 in response to
+% E1 Positive_regulation:T9 Theme:E3
+% E2 Localization:T10 Theme:T3
+% E3 Positive_regulation:T11 Theme:E2
+
+Expression of the HIV-1 transactivator Tat recapitulated this phenotype and was associated with increased IL-2 secretion in response to costimulation with CD3 plus CD28.
+# T4 Protein S4 106 110 509 513 IL-2
+# T5 Protein S4 164 168 567 571 CD28
+$ T5 Protein S4 164 168 567 571 CD28
+$ T4 Protein S4 106 110 509 513 IL-2
+@ T12 Positive_regulation S4 96 105 499 508 increased
+@ T13 Localization S4 111 120 514 523 secretion
+% E4 Positive_regulation:T12 Theme:E5 Cause:T5
+% E5 Localization:T13 Theme:T4
+
+IL-2 superinduction by Tat occurred at the transcriptional level, was mediated by the CD28-responsive element in the IL-2 promoter, and was exclusively dependent on the 29 amino acids encoded by the second exon of Tat.
+# T6 Protein S5 0 4 573 577 IL-2
+# T7 Protein S5 86 90 659 663 CD28
+# T8 Protein S5 117 121 690 694 IL-2
+$ T6 Protein S5 0 4 573 577 IL-2
+@ T14 Positive_regulation S5 5 19 578 592 superinduction
+@ T15 Positive_regulation S5 70 78 643 651 mediated
+@ T16 Positive_regulation S5 152 161 725 734 dependent
+% E6 Positive_regulation:T14 Theme:T6
+% E7 Positive_regulation:T15 Theme:E6
+% E8 Positive_regulation:T16 Theme:E6
+

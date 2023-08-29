@@ -1,0 +1,48 @@
+GLepsilon transcription is defective in CD40-stimulated HOIP-deficient cells.
+# T1 Protein S1 0 9 0 9 GLepsilon
+# T2 Protein S1 40 44 40 44 CD40
+# T3 Protein S1 56 60 56 60 HOIP
+$ T1 Protein S1 0 9 0 9 GLepsilon
+$ T3 Protein S1 56 60 56 60 HOIP
+@ T14 Transcription S1 10 23 10 23 transcription
+@ T15 Negative_regulation S1 27 36 27 36 defective
+@ T16 Negative_regulation S1 61 70 61 70 deficient
+% E1 Transcription:T14 Theme:T1
+% E2 Negative_regulation:T15 Theme:E1
+% E3 Negative_regulation:T16 Theme:T3
+
+A20.2J and HOIP-deficient cells transduced with an empty retroviral vector (A20.2J + pMIP and HOIP-/- + pMIP, respectively), or HOIP-deficient cells transduced with a HOIP-encoding retrovirus (HOIP-/- + HOIP) were cultured overnight with agonistic anti-CD40 or an isotype control antibody (iso), with or without IL-4.
+# T4 Protein S2 11 15 89 93 HOIP
+# T5 Protein S2 94 98 172 176 HOIP
+# T6 Protein S2 128 132 206 210 HOIP
+# T7 Protein S2 167 171 245 249 HOIP
+# T8 Protein S2 193 197 271 275 HOIP
+# T9 Protein S2 203 207 281 285 HOIP
+# T10 Protein S2 312 316 390 394 IL-4
+$ T4 Protein S2 11 15 89 93 HOIP
+$ T6 Protein S2 128 132 206 210 HOIP
+@ T17 Negative_regulation S2 16 25 94 103 deficient
+@ T18 Negative_regulation S2 133 142 211 220 deficient
+% E4 Negative_regulation:T17 Theme:T4
+% E5 Negative_regulation:T18 Theme:T6
+
+RNA was isolated from the cells, reverse-transcribed, and then subjected to quantitative PCR to determine levels of GLepsilon transcripts.
+# T11 Protein S3 116 125 512 521 GLepsilon
+$ T11 Protein S3 116 125 512 521 GLepsilon
+@ T19 Transcription S3 126 137 522 533 transcripts
+% E6 Transcription:T19 Theme:T11
+
+Results were normalized to the levels of Hprt1 transcripts in each sample.
+# T12 Protein S4 41 46 576 581 Hprt1
+$ T12 Protein S4 41 46 576 581 Hprt1
+@ T20 Transcription S4 47 58 582 593 transcripts
+% E7 Transcription:T20 Theme:T12
+
+Symbols indicate the values from duplicate cultures (a line indicates the mean of the two values).
+
+Similar results were obtained in a second experiment and in an additional experiment with a second HOIP-deficient clone.
+# T13 Protein S6 99 103 808 812 HOIP
+$ T13 Protein S6 99 103 808 812 HOIP
+@ T21 Negative_regulation S6 104 113 813 822 deficient
+% E8 Negative_regulation:T21 Theme:T13
+

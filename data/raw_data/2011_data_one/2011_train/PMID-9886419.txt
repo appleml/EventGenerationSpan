@@ -1,0 +1,136 @@
+Regulation of IL-6 synthesis in human peripheral blood mononuclear cells by C3a and C3a(desArg).
+# T1 Protein S1 14 18 14 18 IL-6
+# T2 Protein S1 76 79 76 79 C3a
+# T3 Protein S1 84 95 84 95 C3a(desArg)
+$ T3 Protein S1 84 95 84 95 C3a(desArg)
+$ T2 Protein S1 76 79 76 79 C3a
+$ T1 Protein S1 14 18 14 18 IL-6
+@ T31 Regulation S1 0 10 0 10 Regulation
+@ T32 Gene_expression S1 19 28 19 28 synthesis
+% E1 Regulation:T31 Theme:E3 Cause:T3
+% E2 Regulation:T31 Theme:E3 Cause:T2
+% E3 Gene_expression:T32 Theme:T1
+
+The anaphylatoxin C3a has been reported to have immunomodulatory effects on a number of different cell types.
+# T4 Protein S2 18 21 116 119 C3a
+
+In this study we investigated the effects of C3a and C3a(desArg) on gene expression and protein secretion of IL-6 in human PBMCs, either alone or in combination with LPS or IL-1beta.
+# T5 Protein S3 45 48 253 256 C3a
+# T6 Protein S3 53 64 261 272 C3a(desArg)
+# T7 Protein S3 109 113 317 321 IL-6
+# T8 Protein S3 173 181 381 389 IL-1beta
+$ T8 Protein S3 173 181 381 389 IL-1beta
+$ T6 Protein S3 53 64 261 272 C3a(desArg)
+$ T5 Protein S3 45 48 253 256 C3a
+$ T7 Protein S3 109 113 317 321 IL-6
+@ T33 Regulation S3 34 41 242 249 effects
+@ T34 Gene_expression S3 68 83 276 291 gene expression
+@ T35 Localization S3 88 105 296 313 protein secretion
+% E4 Regulation:T33 Theme:E11 Cause:T8
+% E5 Regulation:T33 Theme:E11 Cause:T6
+% E6 Regulation:T33 Theme:E10 Cause:T8
+% E7 Regulation:T33 Theme:E10 Cause:T6
+% E8 Regulation:T33 Theme:E10 Cause:T5
+% E9 Regulation:T33 Theme:E11 Cause:T5
+% E10 Gene_expression:T34 Theme:T7
+% E11 Localization:T35 Theme:T7
+
+C3a or C3a(desArg) alone exhibited no effect on the expression or secretion of IL-6.
+# T9 Protein S4 0 3 391 394 C3a
+# T10 Protein S4 7 18 398 409 C3a(desArg)
+# T11 Protein S4 79 83 470 474 IL-6
+$ T10 Protein S4 7 18 398 409 C3a(desArg)
+$ T9 Protein S4 0 3 391 394 C3a
+$ T11 Protein S4 79 83 470 474 IL-6
+@ T36 Regulation S4 38 44 429 435 effect
+@ T37 Gene_expression S4 52 62 443 453 expression
+@ T38 Localization S4 66 75 457 466 secretion
+% E12 Regulation:T36 Theme:E17 Cause:T10
+% E13 Regulation:T36 Theme:E17 Cause:T9
+% E14 Regulation:T36 Theme:E16 Cause:T10
+% E15 Regulation:T36 Theme:E16 Cause:T9
+% E16 Gene_expression:T37 Theme:T11
+% E17 Localization:T38 Theme:T11
+
+However, when PBMC were stimulated with LPS or IL-1beta, both C3a and C3a(desArg) were found to enhance IL-6 release by PBMC in a dose-dependent manner.
+# T12 Protein S5 47 55 523 531 IL-1beta
+# T13 Protein S5 62 65 538 541 C3a
+# T14 Protein S5 70 81 546 557 C3a(desArg)
+# T15 Protein S5 104 108 580 584 IL-6
+$ T13 Protein S5 62 65 538 541 C3a
+$ T14 Protein S5 70 81 546 557 C3a(desArg)
+$ T15 Protein S5 104 108 580 584 IL-6
+@ T39 Positive_regulation S5 9 13 485 489 when
+@ T40 Positive_regulation S5 96 103 572 579 enhance
+@ T41 Localization S5 109 116 585 592 release
+% E18 Positive_regulation:T39 Theme:E20
+% E19 Positive_regulation:T39 Theme:E21
+% E20 Positive_regulation:T40 Theme:E22 Cause:T13
+% E21 Positive_regulation:T40 Theme:E22 Cause:T14
+% E22 Localization:T41 Theme:T15
+
+Since C3a has been shown to induce PGE2 production by monocytes, and PGE2 has been shown to influence cytokine production, we investigated the potential role of PGE2 in C3a-mediated enhancement of LPS- and IL-1beta-induced IL-6 production.
+# T16 Protein S6 6 9 635 638 C3a
+# T17 Protein S6 169 172 798 801 C3a
+# T18 Protein S6 206 214 835 843 IL-1beta
+# T19 Protein S6 223 227 852 856 IL-6
+$ T17 Protein S6 169 172 798 801 C3a
+$ T18 Protein S6 206 214 835 843 IL-1beta
+$ T19 Protein S6 223 227 852 856 IL-6
+@ T42 Regulation S6 153 157 782 786 role
+@ T43 Positive_regulation S6 182 193 811 822 enhancement
+@ T44 Positive_regulation S6 215 222 844 851 induced
+@ T45 Gene_expression S6 228 238 857 867 production
+% E23 Regulation:T42 Theme:E24
+% E24 Positive_regulation:T43 Theme:E27 Cause:T17
+% E25 Positive_regulation:T44 Theme:E27 Cause:T18
+% E26 Positive_regulation:T44 Theme:E27
+% E27 Gene_expression:T45 Theme:T19
+
+Indomethacin blocked PGE2 release, but had no influence on the observed effects of C3a, suggesting that the effects of C3a on IL-6 production are independent of PGE2 formation by monocytes.
+# T20 Protein S7 83 86 952 955 C3a
+# T21 Protein S7 119 122 988 991 C3a
+# T22 Protein S7 126 130 995 999 IL-6
+$ T21 Protein S7 119 122 988 991 C3a
+$ T22 Protein S7 126 130 995 999 IL-6
+@ T46 Regulation S7 46 55 915 924 influence
+@ T47 Regulation S7 108 115 977 984 effects
+@ T48 Gene_expression S7 131 141 1000 1010 production
+@ T49 Regulation S7 146 157 1015 1026 independent
+% E28 Regulation:T46 Theme:E24
+% E29 Regulation:T47 Theme:E30 Cause:T21
+% E30 Gene_expression:T48 Theme:T22
+% E31 Regulation:T49 Theme:E29
+
+Northern blot analysis showed that C3a as well as C3a(desArg) enhanced LPS-induced mRNA levels for IL-6.
+# T23 Protein S8 35 38 1094 1097 C3a
+# T24 Protein S8 50 61 1109 1120 C3a(desArg)
+# T25 Protein S8 99 103 1158 1162 IL-6
+$ T24 Protein S8 50 61 1109 1120 C3a(desArg)
+$ T23 Protein S8 35 38 1094 1097 C3a
+$ T25 Protein S8 99 103 1158 1162 IL-6
+@ T50 Positive_regulation S8 62 70 1121 1129 enhanced
+@ T51 Positive_regulation S8 75 82 1134 1141 induced
+% E32 Positive_regulation:T50 Theme:E34 Cause:T24
+% E33 Positive_regulation:T50 Theme:E34 Cause:T23
+% E34 Positive_regulation:T51 Theme:T25
+
+Pretreatment of PBMCs with pertussis toxin blocked the functions of C3a and C3a(desArg), indicating that the actions of these two molecules are mediated by a G protein-coupled pathway.
+# T26 Protein S9 68 71 1232 1235 C3a
+# T27 Protein S9 76 87 1240 1251 C3a(desArg)
+@ T52 Negative_regulation S9 43 50 1207 1214 blocked
+@ T53 Positive_regulation S9 144 152 1308 1316 mediated
+% E35 Negative_regulation:T52 Theme:E33
+% E36 Negative_regulation:T52 Theme:E32
+% E37 Positive_regulation:T53 Theme:E33
+% E38 Positive_regulation:T53 Theme:E32
+
+Furthermore, we investigated the effects of C3a and C3a(desArg) on induction of NF-kappaB and activating protein-1 binding.
+# T28 Protein S10 44 47 1393 1396 C3a
+# T29 Protein S10 52 63 1401 1412 C3a(desArg)
+
+Both molecules enhanced LPS-induced NF-kappaB and activating protein-1 binding activity.
+
+These results demonstrate the capacity of intact C3a and its circulating des-Arg form to exert immunmodulatory effects in vitro.
+# T30 Protein S12 49 52 1611 1614 C3a
+

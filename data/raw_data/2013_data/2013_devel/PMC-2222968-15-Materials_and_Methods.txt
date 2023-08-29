@@ -1,0 +1,16 @@
+Transfections and reporter gene assays.
+
+T cells were rested in serum-free AIM-V medium (Life Technologies) overnight.
+
+3.5 mug of the FOXP3 promoter luciferase reporter vector and 0.5 mug phRL-TK were added to 3 x 106 CD4+ T cells resuspended in 100 muL of Nucleofector solution (Amaxa Biosystems) and electroporated using the U-15 program of the Nucleofector.
+# T1 Protein S3 15 20 133 138 FOXP3
+# T2 Protein S3 30 40 148 158 luciferase
+# T3 Protein S3 99 102 217 220 CD4
+
+After a 24-h culture in serum-free conditions and stimuli as indicated in the figures, luciferase activity was measured by the dual luciferase assay system (Promega Biotech) according to the manufacturer's instructions.
+# T4 Protein S4 87 97 447 457 luciferase
+# T5 Protein S4 132 142 492 502 luciferase
+
+Data were normalized by the activity of renilla luciferase.
+# T6 Protein S5 48 58 628 638 luciferase
+

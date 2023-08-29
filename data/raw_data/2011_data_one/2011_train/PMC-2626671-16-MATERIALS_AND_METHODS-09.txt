@@ -1,0 +1,17 @@
+Online supplemental material.
+
+Fig.
+
+S1 shows the characterization of peripheral CD8+ T cells from Runx3-/- mice.
+# T1 Protein S3 44 47 79 82 CD8
+# T2 Protein S3 62 67 97 102 Runx3
+
+Fig.
+
+S2 shows effector protein expression by Runx3 WT and KO cells at day 4 of in vitro culture.
+# T3 Protein S5 40 45 157 162 Runx3
+
+Primer sequences used for ChIP experiments are shown in Table S1.
+
+Online supplemental material is available at http://www.jem.org/cgi/content/full/jem.20081242/DC1.
+

@@ -1,0 +1,108 @@
+Induction of relA(p65) and I kappa B alpha subunit expression during differentiation of human peripheral blood monocytes to macrophages.
+# T1 Protein S1 13 17 13 17 relA
+# T2 Protein S1 18 21 18 21 p65
+# T3 Protein S1 27 42 27 42 I kappa B alpha
+$ T3 Protein S1 27 42 27 42 I kappa B alpha
+$ T1 Protein S1 13 17 13 17 relA
+@ T24 Positive_regulation S1 0 9 0 9 Induction
+@ T25 Gene_expression S1 51 61 51 61 expression
+% E1 Positive_regulation:T24 Theme:E4
+% E2 Positive_regulation:T24 Theme:E3
+% E3 Gene_expression:T25 Theme:T3
+% E4 Gene_expression:T25 Theme:T1
+
+We evaluated the expression and DNA binding activity of nuclear factor (NF)-kappa B subunits in human peripheral blood monocytes and in monocyte-derived macrophages (MDMs).
+
+Constitutive DNA binding activity consisting of p50 homodimers was detected in nuclear extracts from both cell types.
+# T4 Protein S3 48 51 359 362 p50
+$ T4 Protein S3 48 51 359 362 p50
+@ T26 Binding S3 17 24 328 335 binding
+% E5 Binding:T26 Theme:T4
+
+An additional complex composed of p50/RelA(p65) heterodimers appeared only in nuclear extracts from 7-day MDMs.
+# T5 Protein S4 34 37 463 466 p50
+# T6 Protein S4 38 42 467 471 RelA
+# T7 Protein S4 43 46 472 475 p65
+$ T6 Protein S4 38 42 467 471 RelA
+$ T5 Protein S4 34 37 463 466 p50
+$ T7 Protein S4 43 46 472 475 p65
+@ T27 Gene_expression S4 61 69 490 498 appeared
+% E6 Gene_expression:T27 Theme:T6
+% E7 Gene_expression:T27 Theme:T5
+% E8 Gene_expression:T27 Theme:T7
+
+Immunoblot analysis showed that the p50 subunit was constitutively expressed in monocytes and MDMs.
+# T8 Protein S5 36 39 577 580 p50
+$ T8 Protein S5 36 39 577 580 p50
+@ T28 Gene_expression S5 67 76 608 617 expressed
+% E9 Gene_expression:T28 Theme:T8
+
+In contrast, the RelA(p65) subunit was barely detectable in monocytes, but its level increased markedly in MDMs.
+# T9 Protein S6 17 21 658 662 RelA
+# T10 Protein S6 22 25 663 666 p65
+$ T9 Protein S6 17 21 658 662 RelA
+@ T29 Gene_expression S6 46 56 687 697 detectable
+@ T30 Positive_regulation S6 85 94 726 735 increased
+% E10 Gene_expression:T29 Theme:T9
+% E11 Positive_regulation:T30 Theme:T9
+
+Analysis of RelA(p65) mRNA revealed that the stability of RelA(p65) mRNA was significantly higher in MDMs, compared with monocytes.
+# T11 Protein S7 12 16 766 770 RelA
+# T12 Protein S7 17 20 771 774 p65
+# T13 Protein S7 58 62 812 816 RelA
+# T14 Protein S7 63 66 817 820 p65
+$ T13 Protein S7 58 62 812 816 RelA
+@ T31 Positive_regulation S7 91 97 845 851 higher
+% E12 Positive_regulation:T31 Theme:T13
+
+In MDMs, an upregulation of I kappa B alpha synthesis as well as the appearance of a novel M(r) 40,000 form of I kappa B alpha were also observed.
+# T15 Protein S8 28 43 914 929 I kappa B alpha
+# T16 Protein S8 111 126 997 1012 I kappa B alpha
+$ T15 Protein S8 28 43 914 929 I kappa B alpha
+$ T16 Protein S8 111 126 997 1012 I kappa B alpha
+@ T32 Positive_regulation S8 12 24 898 910 upregulation
+@ T33 Gene_expression S8 44 53 930 939 synthesis
+@ T34 Gene_expression S8 69 79 955 965 appearance
+% E13 Positive_regulation:T32 Theme:E14
+% E14 Gene_expression:T33 Theme:T15
+% E15 Gene_expression:T34 Theme:T16
+
+These results suggest that macrophage differentiation results in the expression of active p50/RelA(p65) heterodimers with the capacity to activate target gene expression.
+# T17 Protein S9 90 93 1123 1126 p50
+# T18 Protein S9 94 98 1127 1131 RelA
+# T19 Protein S9 99 102 1132 1135 p65
+$ T17 Protein S9 90 93 1123 1126 p50
+$ T19 Protein S9 99 102 1132 1135 p65
+$ T18 Protein S9 94 98 1127 1131 RelA
+@ T35 Positive_regulation S9 54 61 1087 1094 results
+@ T36 Gene_expression S9 69 79 1102 1112 expression
+% E16 Positive_regulation:T35 Theme:E19
+% E17 Positive_regulation:T35 Theme:E21
+% E18 Positive_regulation:T35 Theme:E20
+% E19 Gene_expression:T36 Theme:T17
+% E20 Gene_expression:T36 Theme:T19
+% E21 Gene_expression:T36 Theme:T18
+
+The parallel induction of I kappa B alpha synthesis may allow for the continuous presence of a cytoplasmic reservoir of p50/RelA(p65) complexes that are readily available for inducer-mediated stimulation.
+# T20 Protein S10 26 41 1230 1245 I kappa B alpha
+# T21 Protein S10 120 123 1324 1327 p50
+# T22 Protein S10 124 128 1328 1332 RelA
+# T23 Protein S10 129 132 1333 1336 p65
+$ T20 Protein S10 26 41 1230 1245 I kappa B alpha
+$ T23 Protein S10 129 132 1333 1336 p65
+$ T21 Protein S10 120 123 1324 1327 p50
+$ T22 Protein S10 124 128 1328 1332 RelA
+@ T37 Positive_regulation S10 13 22 1217 1226 induction
+@ T38 Gene_expression S10 42 51 1246 1255 synthesis
+@ T39 Positive_regulation S10 56 61 1260 1265 allow
+@ T40 Entity S10 95 106 1299 1310 cytoplasmic
+@ T41 Localization S10 107 116 1311 1320 reservoir
+% E22 Positive_regulation:T37 Theme:E23
+% E23 Gene_expression:T38 Theme:T20
+% E24 Positive_regulation:T39 Theme:E29 Cause:E22
+% E25 Positive_regulation:T39 Theme:E28 Cause:E22
+% E26 Positive_regulation:T39 Theme:E27 Cause:E22
+% E27 Localization:T41 Theme:T23 AtLoc:T40
+% E28 Localization:T41 Theme:T21 AtLoc:T40
+% E29 Localization:T41 Theme:T22 AtLoc:T40
+

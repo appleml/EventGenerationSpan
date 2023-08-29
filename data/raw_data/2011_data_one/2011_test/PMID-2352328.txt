@@ -1,0 +1,61 @@
+Epstein-Barr virus nuclear antigen 2 transactivates latent membrane protein LMP1.
+# T1 Protein S1 0 36 0 36 Epstein-Barr virus nuclear antigen 2
+# T2 Protein S1 76 80 76 80 LMP1
+
+Several lines of evidence are compatible with the hypothesis that Epstein-Barr virus (EBV) nuclear antigen 2 (EBNA-2) or leader protein (EBNA-LP) affects expression of the EBV latent infection membrane protein LMP1.
+# T3 Protein S2 66 108 149 191 Epstein-Barr virus (EBV) nuclear antigen 2
+# T4 Protein S2 110 116 193 199 EBNA-2
+# T5 Protein S2 137 144 220 227 EBNA-LP
+# T6 Protein S2 210 214 293 297 LMP1
+
+We now demonstrate the following.
+
+(i) Acute transfection and expression of EBNA-2 under control of simian virus 40 or Moloney murine leukemia virus promoters resulted in increased LMP1 expression in P3HR-1-infected Burkitt's lymphoma cells and the P3HR-1 or Daudi cell line.
+# T7 Protein S4 41 47 374 380 EBNA-2
+# T8 Protein S4 146 150 479 483 LMP1
+
+(ii) Transfection and expression of EBNA-LP alone had no effect on LMP1 expression and did not act synergistically with EBNA-2 to affect LMP1 expression.
+# T9 Protein S5 36 43 610 617 EBNA-LP
+# T10 Protein S5 67 71 641 645 LMP1
+# T11 Protein S5 120 126 694 700 EBNA-2
+# T12 Protein S5 137 141 711 715 LMP1
+
+(iii) LMP1 expression in Daudi and P3HR-1-infected cells was controlled at the mRNA level, and EBNA-2 expression in Daudi cells increased LMP1 mRNA.
+# T13 Protein S6 6 10 734 738 LMP1
+# T14 Protein S6 95 101 823 829 EBNA-2
+# T15 Protein S6 138 142 866 870 LMP1
+
+(iv) No other EBV genes were required for EBNA-2 transactivation of LMP1 since cotransfection of recombinant EBNA-2 expression vectors and genomic LMP1 DNA fragments enhanced LMP1 expression in the EBV-negative B-lymphoma cell lines BJAB, Louckes, and BL30.
+# T16 Protein S7 42 48 919 925 EBNA-2
+# T17 Protein S7 68 72 945 949 LMP1
+# T18 Protein S7 109 115 986 992 EBNA-2
+# T19 Protein S7 147 151 1024 1028 LMP1
+# T20 Protein S7 175 179 1052 1056 LMP1
+
+(v) An EBNA-2-responsive element was found within the -512 to +40 LMP1 DNA since this DNA linked to a chloramphenicol acetyltransferase reporter gene was transactivated by cotransfection with an EBNA-2 expression vector.
+# T21 Protein S8 7 13 1142 1148 EBNA-2
+# T22 Protein S8 66 70 1201 1205 LMP1
+# T23 Protein S8 102 135 1237 1270 chloramphenicol acetyltransferase
+# T24 Protein S8 195 201 1330 1336 EBNA-2
+
+(vi) The EBV type 2 EBNA-2 transactivated LMP1 as well as the EBV type 1 EBNA-2.
+# T25 Protein S9 20 26 1376 1382 EBNA-2
+# T26 Protein S9 42 46 1398 1402 LMP1
+# T27 Protein S9 73 79 1429 1435 EBNA-2
+
+(vii) Two deletions within the EBNA-2 gene which rendered EBV transformation incompetent did not transactivate LMP1, whereas a transformation-competent EBNA-2 deletion mutant did transactivate LMP1.
+# T28 Protein S10 31 37 1468 1474 EBNA-2
+# T29 Protein S10 111 115 1548 1552 LMP1
+# T30 Protein S10 152 158 1589 1595 EBNA-2
+# T31 Protein S10 193 197 1630 1634 LMP1
+
+LMP1 is a potent effector of B-lymphocyte activation and can act synergistically with EBNA-2 to induce cellular CD23 gene expression.
+# T32 Protein S11 0 4 1636 1640 LMP1
+# T33 Protein S11 86 92 1722 1728 EBNA-2
+# T34 Protein S11 112 116 1748 1752 CD23
+
+Thus, EBNA-2 transactivation of LMP1 amplifies the biological impact of EBNA-2 and underscores its central role in EBV-induced growth transformation.
+# T35 Protein S12 6 12 1776 1782 EBNA-2
+# T36 Protein S12 32 36 1802 1806 LMP1
+# T37 Protein S12 72 78 1842 1848 EBNA-2
+

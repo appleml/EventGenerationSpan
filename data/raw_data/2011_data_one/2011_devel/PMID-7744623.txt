@@ -1,0 +1,57 @@
+Differential induction of the NF-AT complex during restimulation and the induction of T-cell anergy.
+
+Stimulation of human CD4+ T-cell clones through the T-cell receptor (TcR) by high doses of specific peptide results in the induction of a long-lived state of nonresponsiveness that has been called anergy.
+# T1 Protein S2 21 24 123 126 CD4
+
+During the induction of anergy, T cells are phenotypically similar to cells responding to an immunogenic stimulus.
+
+The amount of TcR at the cell surface is downmodulated, whereas the CD2 and CD25 receptors are increased.
+
+When restimulated, however, anergic T cells fail to up-regulate transcription of the IL-2 gene and in consequence do not produce IL-2.
+# T2 Protein S5 85 89 613 617 IL-2
+# T3 Protein S5 129 133 657 661 IL-2
+$ T2 Protein S5 85 89 613 617 IL-2
+$ T3 Protein S5 129 133 657 661 IL-2
+@ T8 Positive_regulation S5 52 63 580 591 up-regulate
+@ T9 Transcription S5 64 77 592 605 transcription
+@ T10 Positive_regulation S5 99 113 627 641 in consequence
+@ T11 Gene_expression S5 121 128 649 656 produce
+% E1 Positive_regulation:T8 Theme:E2
+% E2 Transcription:T9 Theme:T2
+% E3 Positive_regulation:T10 Theme:E4 Cause:E1
+% E4 Gene_expression:T11 Theme:T3
+
+In this study, we have compared the ability of various transcription factors to bind to their appropriate site on DNA.
+
+Factors were isolated from the nuclei of T cells that were in the induction phase of anergy or were undergoing activation.
+
+The pattern of binding activity in restimulated T cells is consistent with the pattern that has previously been shown to regulate T-cell-specific expression of the IL-2 and the beta chain of the TcR genes.
+# T4 Protein S8 164 168 1069 1073 IL-2
+$ T4 Protein S8 164 168 1069 1073 IL-2
+@ T12 Regulation S8 121 129 1026 1034 regulate
+@ T13 Gene_expression S8 146 156 1051 1061 expression
+% E5 Regulation:T12 Theme:E6
+% E6 Gene_expression:T13 Theme:T4
+
+The measured binding to a TCF-1 site is the same in the nuclei of resting, activated, and anergized cells.
+# T5 Protein S9 26 31 1137 1142 TCF-1
+$ T5 Protein S9 26 31 1137 1142 TCF-1
+@ T14 Binding S9 13 20 1124 1131 binding
+% E7 Binding:T14 Theme:T5
+
+The inducible factors NK-kappa B, beta E2, CD28RC, and AP-1 are not expressed in resting cells and are twofold lower in anergized as compared with activated cells.
+# T6 Protein S10 43 49 1261 1267 CD28RC
+$ T6 Protein S10 43 49 1261 1267 CD28RC
+@ T15 Gene_expression S10 68 77 1286 1295 expressed
+% E8 Gene_expression:T15 Theme:T6
+
+In contrast, anergic T cells express approximately eightfold lower amounts of NF-AT, a member of the class of inducible factors that regulates IL-2 gene transcription.
+# T7 Protein S11 143 147 1525 1529 IL-2
+$ T7 Protein S11 143 147 1525 1529 IL-2
+@ T16 Regulation S11 133 142 1515 1524 regulates
+@ T17 Transcription S11 153 166 1535 1548 transcription
+% E9 Regulation:T16 Theme:E10
+% E10 Transcription:T17 Theme:T7
+
+(ABSTRACT TRUNCATED AT 250 WORDS)
+

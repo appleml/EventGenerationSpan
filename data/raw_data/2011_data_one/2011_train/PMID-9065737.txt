@@ -1,0 +1,21 @@
+Activation of the transcription factor NF-kappaB in lipopolysaccharide-stimulated U937 cells.
+
+During the course of serious bacterial infections, lipopolysaccharide (LPS) interacts with monocyte/macrophage receptors, resulting in the generation of inflammatory cytokines.
+
+Transcription factor NF-kappaB is crucial in activating the transcription of genes encoding proinflammatory cytokines.
+
+In this paper, we demonstrate that the activation of NF-kappaB by LPS in a promonocytic cell line (U937) followed a rather slow kinetics, depending on the rate of IkappaB-alpha inhibitor hydrolysis.
+# T1 Protein S4 163 176 554 567 IkappaB-alpha
+
+No degradation of p105 and p100 inhibitors was observed under these conditions.
+
+The transduction pathway leading to NF-kappaB activation in U937 cells involved the intracellular generation of reactive oxygen species (ROS), as demonstrated by the concomitant inhibitory effects of antioxidants on NF-kappaB activation and the emission of a fluorescent probe reacting intracellularly with hydrogen peroxide.
+
+This ROS pathway was also characterized by the use of other inhibitors.
+
+This finding indicates that phospholipase A2 and 5-lipoxygenase are also involved.
+# T2 Protein S8 49 63 1117 1131 5-lipoxygenase
+
+However, the NF-kappaB activation pathway involving the acidic sphingomyelinase of the endolysosomial membrane did not seem to participate in the LPS-induced NF-kappaB activation in U937 cells.
+# T3 Protein S9 56 79 1207 1230 acidic sphingomyelinase
+

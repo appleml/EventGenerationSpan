@@ -1,0 +1,82 @@
+Vitamin D3- and retinoic acid-induced monocytic differentiation: interactions between the endogenous vitamin D3 receptor, retinoic acid receptors, and retinoid X receptors in U-937 cells.
+# T1 Protein S1 101 120 101 120 vitamin D3 receptor
+
+Retinoic acid (RA) and 1,25 alpha-dihydroxycholecalciferol (VitD3) are potent regulators of hematopoletic differentiation.
+
+Yet, little is known as to how the RA and VitD3 receptor network operates in hematopoietic cells, and whether receptor interactions can explain the interplay between the RA- and VitD3-signaling pathways during differentiation.
+
+Therefore, we analyzed the expression, DNA binding, and transcriptional activity of the endogenous RA and VitD3 receptors [retinoic acid receptors (RARs), retinoid X receptors (RXRs), and VitD3 receptor (VDR)] in the U-937 cell line, in which RA and VitD3 induce distinct monocytic differentiation pathways.
+# T2 Protein S4 188 202 727 741 VitD3 receptor
+# T3 Protein S4 204 207 743 746 VDR
+$ T3 Protein S4 204 207 743 746 VDR
+@ T12 Gene_expression S4 27 37 566 576 expression
+@ T13 Binding S4 43 50 582 589 binding
+% E1 Gene_expression:T12 Theme:T3
+% E2 Binding:T13 Theme:T3
+
+VitD3 induction resulted in the formation of VDR/RXR DNA-binding complexes on both VitD3 response elements and RA response elements (RAREs).
+# T4 Protein S5 45 48 892 895 VDR
+$ T4 Protein S5 45 48 892 895 VDR
+@ T14 Positive_regulation S5 16 24 863 871 resulted
+@ T15 Binding S5 32 41 879 888 formation
+% E3 Positive_regulation:T14 Theme:E4
+% E4 Binding:T15 Theme:T4
+
+However, transcriptional activation was only observed from a VitD3 response element-driven reporter construct.
+
+Several DNA-binding complexes were detected on RAREs in undifferentiated cells.
+
+Stimulation by RA resulted in increased RAR beta/RXR DNA binding, activated RARE-dependent transcription, and increased expression of RAR-beta.
+# T5 Protein S8 40 48 1219 1227 RAR beta
+# T6 Protein S8 134 142 1313 1321 RAR-beta
+$ T5 Protein S8 40 48 1219 1227 RAR beta
+$ T6 Protein S8 134 142 1313 1321 RAR-beta
+@ T16 Positive_regulation S8 18 39 1197 1218 resulted in increased
+@ T17 Binding S8 57 64 1236 1243 binding
+@ T18 Positive_regulation S8 110 119 1289 1298 increased
+@ T19 Gene_expression S8 120 130 1299 1309 expression
+% E5 Positive_regulation:T16 Theme:E6
+% E6 Binding:T17 Theme:T5
+% E7 Positive_regulation:T18 Theme:E8
+% E8 Gene_expression:T19 Theme:T6
+
+Concomitant stimulation by VitD3 inhibited the RA-stimulated formation of RAR beta/RXR heterodimers, favoring VDR/RXR binding to the RARE.
+# T7 Protein S9 74 82 1397 1405 RAR beta
+# T8 Protein S9 110 113 1433 1436 VDR
+$ T7 Protein S9 74 82 1397 1405 RAR beta
+$ T8 Protein S9 110 113 1433 1436 VDR
+@ T20 Negative_regulation S9 33 42 1356 1365 inhibited
+@ T21 Positive_regulation S9 50 60 1373 1383 stimulated
+@ T22 Binding S9 87 99 1410 1422 heterodimers
+@ T23 Positive_regulation S9 101 109 1424 1432 favoring
+@ T24 Binding S9 118 125 1441 1448 binding
+% E9 Negative_regulation:T20 Theme:E10
+% E10 Positive_regulation:T21 Theme:E11
+% E11 Binding:T22 Theme:T7
+% E12 Positive_regulation:T23 Theme:E13 Cause:E8
+% E13 Binding:T24 Theme:T8
+
+Also, VitD3 inhibited the expression of CD23 and CD49f, characteristic markers of retinoid-induced U-937 cell differentiation.
+# T9 Protein S10 40 44 1502 1506 CD23
+# T10 Protein S10 49 54 1511 1516 CD49f
+$ T10 Protein S10 49 54 1511 1516 CD49f
+$ T9 Protein S10 40 44 1502 1506 CD23
+@ T25 Negative_regulation S10 12 21 1474 1483 inhibited
+@ T26 Gene_expression S10 26 36 1488 1498 expression
+% E14 Negative_regulation:T25 Theme:E16
+% E15 Negative_regulation:T25 Theme:E17
+% E16 Gene_expression:T26 Theme:T10
+% E17 Gene_expression:T26 Theme:T9
+
+In contrast, neither the RA-stimulated, RARE-mediated transcription nor the induced RAR-beta expression was suppressed by VitD3, suggesting that VitD3 selectively inhibited the retinoid-induced differentiation program but not the RARE-mediated signal.
+# T11 Protein S11 84 92 1673 1681 RAR-beta
+$ T11 Protein S11 84 92 1673 1681 RAR-beta
+@ T27 Positive_regulation S11 76 83 1665 1672 induced
+@ T28 Gene_expression S11 93 103 1682 1692 expression
+@ T29 Negative_regulation S11 108 118 1697 1707 suppressed
+% E18 Positive_regulation:T27 Theme:E19
+% E19 Gene_expression:T28 Theme:T11
+% E20 Negative_regulation:T29 Theme:E19
+
+These results demonstrate a complex role for VitD3 in modifying the retinoid differentiation pathway and may have implications for differentiation-inducing therapy of hematopoietic tumors.
+

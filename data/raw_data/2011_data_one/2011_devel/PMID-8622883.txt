@@ -1,0 +1,121 @@
+The role of p16 in the E2F-dependent thymidine kinase regulation.
+# T1 Protein S1 12 15 12 15 p16
+# T2 Protein S1 37 53 37 53 thymidine kinase
+$ T1 Protein S1 12 15 12 15 p16
+$ T2 Protein S1 37 53 37 53 thymidine kinase
+@ T25 Regulation S1 4 8 4 8 role
+@ T26 Regulation S1 54 64 54 64 regulation
+% E1 Regulation:T25 Theme:E2 Cause:T1
+% E2 Regulation:T26 Theme:T2
+
+The role of alterations of the MTS1 tumor suppressor gene on chromosome 9p21, which encodes p16, the inhibitor of cyclin-dependent-kinase-4 and 6, in tumorigenesis is not yet clear.
+# T3 Protein S2 31 35 98 102 MTS1
+# T4 Protein S2 92 95 159 162 p16
+# T5 Protein S2 114 139 181 206 cyclin-dependent-kinase-4
+# T6 Protein S2 144 145 211 212 6
+$ T3 Protein S2 31 35 98 102 MTS1
+$ T6 Protein S2 144 145 211 212 6
+$ T4 Protein S2 92 95 159 162 p16
+$ T5 Protein S2 114 139 181 206 cyclin-dependent-kinase-4
+@ T27 Regulation S2 12 23 79 90 alterations
+@ T28 Negative_regulation S2 101 110 168 177 inhibitor
+% E3 Regulation:T27 Theme:T3
+% E4 Negative_regulation:T28 Theme:T6 Cause:T4
+% E5 Negative_regulation:T28 Theme:T5 Cause:T4
+
+Phosphorylation of the retinoblastoma protein by cyclin-dependent kinases 4 and 6 prevents its interaction with the transcription factor E2F, which subsequently promotes the expression of S phase regulated genes, such as thymidine kinase.
+# T7 Protein S3 23 45 272 294 retinoblastoma protein
+# T8 Protein S3 49 75 298 324 cyclin-dependent kinases 4
+# T9 Protein S3 80 81 329 330 6
+# T10 Protein S3 221 237 470 486 thymidine kinase
+$ T7 Protein S3 23 45 272 294 retinoblastoma protein
+$ T8 Protein S3 49 75 298 324 cyclin-dependent kinases 4
+$ T9 Protein S3 80 81 329 330 6
+$ T10 Protein S3 221 237 470 486 thymidine kinase
+@ T29 Phosphorylation S3 0 15 249 264 Phosphorylation
+@ T30 Positive_regulation S3 0 15 249 264 Phosphorylation
+@ T31 Negative_regulation S3 82 90 331 339 prevents
+@ T32 Binding S3 95 106 344 355 interaction
+@ T33 Positive_regulation S3 161 169 410 418 promotes
+@ T34 Gene_expression S3 174 184 423 433 expression
+% E6 Phosphorylation:T29 Theme:T7
+% E7 Positive_regulation:T30 Theme:E6 Cause:T8
+% E8 Positive_regulation:T30 Theme:E6 Cause:T9
+% E9 Negative_regulation:T31 Theme:E10 Cause:E6
+% E10 Binding:T32 Theme:T7
+% E11 Positive_regulation:T33 Theme:E12 Cause:E9
+% E12 Gene_expression:T34 Theme:T10
+
+Although a role of p16 in this regulation has been presumed, there is no proof so far that loss of this tumor suppressor gene really affects E2F-mediated regulations.
+# T11 Protein S4 19 22 507 510 p16
+$ T11 Protein S4 19 22 507 510 p16
+@ T35 Regulation S4 11 15 499 503 role
+@ T36 Negative_regulation S4 91 95 579 583 loss
+% E13 Regulation:T35 Theme:E9 Cause:T11
+% E14 Negative_regulation:T36 Theme:T11
+
+We investigated the regulation of thymidine kinase in phytohemagglutinin-stimulated normal human lymphocytes and in the p16-negative human acute lymphoblastic leukemia cell lines, MOLT-4 and CEM.
+# T12 Protein S5 34 50 689 705 thymidine kinase
+# T13 Protein S5 54 72 709 727 phytohemagglutinin
+# T14 Protein S5 120 123 775 778 p16
+$ T14 Protein S5 120 123 775 778 p16
+@ T37 Gene_expression S5 124 132 779 787 negative
+% E15 Gene_expression:T37 Theme:T14
+
+Compared to normal lymphocytes, MOLT-4 and CEM cells exhibited an altered cell cycle regulation of thymidine kinase, a much higher intracellular activity of this enzyme, and higher thymidine kinase mRNA expression.
+# T15 Protein S6 99 115 950 966 thymidine kinase
+# T16 Protein S6 181 197 1032 1048 thymidine kinase
+$ T15 Protein S6 99 115 950 966 thymidine kinase
+$ T16 Protein S6 181 197 1032 1048 thymidine kinase
+@ T38 Positive_regulation S6 85 95 936 946 regulation
+@ T39 Transcription S6 203 213 1054 1064 expression
+% E16 Positive_regulation:T38 Theme:T15
+% E17 Transcription:T39 Theme:T16
+
+Transient expression of p16 in normal human lymphocytes caused arrest in G1, but was without effect on the cell growth of MOLT-4 and CEM cells, although all of them express functional retinoblastoma protein.
+# T17 Protein S7 24 27 1090 1093 p16
+# T18 Protein S7 184 206 1250 1272 retinoblastoma protein
+$ T17 Protein S7 24 27 1090 1093 p16
+$ T18 Protein S7 184 206 1250 1272 retinoblastoma protein
+@ T40 Gene_expression S7 10 20 1076 1086 expression
+@ T41 Gene_expression S7 165 172 1231 1238 express
+% E18 Gene_expression:T40 Theme:T17
+% E19 Gene_expression:T41 Theme:T18
+
+Nevertheless, in the two leukemia cell lines transient overexpression of p16 reestablished the normal regulation of thymidine kinase, paralleled by an increase of the underphosphorylated form of retinoblastoma protein and decrease of free E2F bound to its motif in the thymidine kinase promoter.
+# T19 Protein S8 73 76 1347 1350 p16
+# T20 Protein S8 116 132 1390 1406 thymidine kinase
+# T21 Protein S8 195 217 1469 1491 retinoblastoma protein
+# T22 Protein S8 269 285 1543 1559 thymidine kinase
+$ T19 Protein S8 73 76 1347 1350 p16
+$ T20 Protein S8 116 132 1390 1406 thymidine kinase
+$ T21 Protein S8 195 217 1469 1491 retinoblastoma protein
+$ T22 Protein S8 269 285 1543 1559 thymidine kinase
+@ T42 Positive_regulation S8 55 69 1329 1343 overexpression
+@ T43 Gene_expression S8 55 69 1329 1343 overexpression
+@ T44 Positive_regulation S8 77 90 1351 1364 reestablished
+@ T45 Regulation S8 102 112 1376 1386 regulation
+@ T46 Positive_regulation S8 151 159 1425 1433 increase
+@ T47 Negative_regulation S8 167 191 1441 1465 underphosphorylated form
+@ T48 Phosphorylation S8 167 191 1441 1465 underphosphorylated form
+@ T49 Negative_regulation S8 222 230 1496 1504 decrease
+@ T50 Binding S8 243 248 1517 1522 bound
+@ T51 Entity S8 252 261 1526 1535 its motif
+% E20 Positive_regulation:T42 Theme:E21
+% E21 Gene_expression:T43 Theme:T19
+% E22 Positive_regulation:T44 Theme:E23 Cause:E20
+% E23 Regulation:T45 Theme:T20
+% E24 Positive_regulation:T46 Theme:E25
+% E25 Negative_regulation:T47 Theme:T21
+% E26 Phosphorylation:T48 Theme:T21
+% E27 Negative_regulation:T49 Theme:E28
+% E28 Binding:T50 Theme:T22 Site:T51
+
+We demonstrate that loss of p16 causes upregulation of this DNA precursor pathway enzyme via activation of E2F by a mechanism involving retinoblastoma protein.
+# T23 Protein S9 28 31 1598 1601 p16
+# T24 Protein S9 136 158 1706 1728 retinoblastoma protein
+$ T24 Protein S9 136 158 1706 1728 retinoblastoma protein
+$ T23 Protein S9 28 31 1598 1601 p16
+@ T52 Positive_regulation S9 32 51 1602 1621 causes upregulation
+% E29 Positive_regulation:T52 Theme:T20
+

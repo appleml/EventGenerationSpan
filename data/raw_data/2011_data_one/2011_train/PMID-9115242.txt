@@ -1,0 +1,76 @@
+Transcriptional induction of collagenase-1 in differentiated monocyte-like (U937) cells is regulated by AP-1 and an upstream C/EBP-beta site.
+# T1 Protein S1 29 42 29 42 collagenase-1
+# T2 Protein S1 125 135 125 135 C/EBP-beta
+$ T1 Protein S1 29 42 29 42 collagenase-1
+@ T13 Positive_regulation S1 0 25 0 25 Transcriptional induction
+@ T14 Regulation S1 91 100 91 100 regulated
+% E1 Positive_regulation:T13 Theme:T1
+% E2 Regulation:T14 Theme:E1
+
+In this report, we demonstrate that the AP-1 site and a distal promoter element regulate transcriptional induction of collagenase-1 during monocytic differentiation.
+# T3 Protein S2 118 131 261 274 collagenase-1
+$ T3 Protein S2 118 131 261 274 collagenase-1
+@ T15 Regulation S2 80 88 223 231 regulate
+@ T16 Positive_regulation S2 89 114 232 257 transcriptional induction
+% E3 Regulation:T15 Theme:E4
+% E4 Positive_regulation:T16 Theme:T3
+
+Chloramphenicol acetyltransferase expression constructs containing regions of the human collagenase-1 promoter were stably or transiently transfected into U937 cells, and reporter activity was assessed at various times after the onset of phorbol 12-myristate 13-acetate (PMA)-mediated differentiation.
+# T4 Protein S3 0 33 309 342 Chloramphenicol acetyltransferase
+# T5 Protein S3 88 101 397 410 collagenase-1
+
+Rapid and strong induction of promoter activity was lost in constructs with a mutant AP-1 element; however, at 16-96 h post-PMA, the mutant collagenase-1 promoter displayed AP-1 independent PMA-mediated transactivation.
+# T6 Protein S4 140 153 751 764 collagenase-1
+$ T6 Protein S4 140 153 751 764 collagenase-1
+@ T17 Entity S4 154 162 765 773 promoter
+@ T18 Positive_regulation S4 203 218 814 829 transactivation
+% E5 Positive_regulation:T18 Theme:T6 Site:T17
+
+The AP-1 mutant constructs also showed delayed transcriptional activation in PMA-treated fibroblasts.
+
+Western and supershift analyses indicated that functional Jun and Fos proteins were present in nuclear extracts of PMA-differentiated U937 cells.
+
+Promoter deletion constructs demonstrated the potential role of distal promoter sequences in regulating collagenase-1 transcription.
+# T7 Protein S7 104 117 1183 1196 collagenase-1
+$ T7 Protein S7 104 117 1183 1196 collagenase-1
+@ T19 Positive_regulation S7 46 60 1125 1139 potential role
+@ T20 Regulation S7 93 103 1172 1182 regulating
+@ T21 Transcription S7 118 131 1197 1210 transcription
+% E6 Positive_regulation:T19 Theme:E7
+% E7 Regulation:T20 Theme:E8
+% E8 Transcription:T21 Theme:T7
+
+In particular, Western, supershift, and promoter deletion analyses suggested a role for CCAAT/enhancer-binding protein-beta (C/EBP-beta) binding site between -2010 and -1954 in regulating transcription of collagenase-1 in monocytic cells.
+# T8 Protein S8 88 123 1300 1335 CCAAT/enhancer-binding protein-beta
+# T9 Protein S8 125 135 1337 1347 C/EBP-beta
+# T10 Protein S8 205 218 1417 1430 collagenase-1
+$ T10 Protein S8 205 218 1417 1430 collagenase-1
+@ T22 Positive_regulation S8 79 83 1291 1295 role
+@ T23 Regulation S8 177 187 1389 1399 regulating
+@ T24 Transcription S8 188 201 1400 1413 transcription
+% E9 Positive_regulation:T22 Theme:E10
+% E10 Regulation:T23 Theme:E11
+% E11 Transcription:T24 Theme:T10
+
+Our findings suggest that distinct regulatory elements, acting somewhat independently of each other, control expression of collagenase-1.
+# T11 Protein S9 123 136 1574 1587 collagenase-1
+$ T11 Protein S9 123 136 1574 1587 collagenase-1
+@ T25 Regulation S9 101 108 1552 1559 control
+@ T26 Gene_expression S9 109 119 1560 1570 expression
+% E12 Regulation:T25 Theme:E13
+% E13 Gene_expression:T26 Theme:T11
+
+In addition, our data suggests that the rapid PMA-mediated induction of collagenase-1 transcription is controlled by a mechanism distinct from that regulating the sustained expression of this proteinase in activated macrophages.
+# T12 Protein S10 72 85 1661 1674 collagenase-1
+$ T12 Protein S10 72 85 1661 1674 collagenase-1
+@ T27 Positive_regulation S10 59 68 1648 1657 induction
+@ T28 Transcription S10 86 99 1675 1688 transcription
+@ T29 Regulation S10 103 113 1692 1702 controlled
+@ T30 Regulation S10 129 158 1718 1747 distinct from that regulating
+@ T31 Gene_expression S10 173 183 1762 1772 expression
+% E14 Positive_regulation:T27 Theme:E15
+% E15 Transcription:T28 Theme:T12
+% E16 Regulation:T29 Theme:E14
+% E17 Regulation:T30 Theme:E18
+% E18 Gene_expression:T31 Theme:T12
+

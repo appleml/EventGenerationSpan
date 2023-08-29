@@ -1,0 +1,39 @@
+A role for RanBP1 in the release of CRM1 from the nuclear pore complex in a terminal step of nuclear export.
+# T1 Protein S1 11 17 11 17 RanBP1
+# T2 Protein S1 36 40 36 40 CRM1
+
+We recently developed an assay in which nuclear export of the shuttling transcription factor NFAT (nuclear factor of activated T cells) can be reconstituted in permeabilized cells with the GTPase Ran and the nuclear export receptor CRM1.
+# T3 Protein S2 196 199 306 309 Ran
+# T4 Protein S2 232 236 342 346 CRM1
+
+We have now used this assay to identify another export factor.
+
+After preincubation of permeabilized cells with a Ran mutant that cannot hydrolyze GTP (RanQ69L), cytosol supports NFAT export, but CRM1 and Ran alone do not.
+# T5 Protein S4 50 53 461 464 Ran
+# T6 Protein S4 132 136 543 547 CRM1
+# T7 Protein S4 141 144 552 555 Ran
+
+The RanQ69L preincubation leads to accumulation of CRM1 at the cytoplasmic periphery of the nuclear pore complex (NPC) in association with the p62 complex and Can/Nup214.
+# T8 Protein S5 51 55 621 625 CRM1
+# T9 Protein S5 143 146 713 716 p62
+# T10 Protein S5 159 162 729 732 Can
+# T11 Protein S5 163 169 733 739 Nup214
+
+RanGTP-dependent association of CRM1 with these nucleoporins was reconstituted in vitro.
+# T12 Protein S6 32 36 773 777 CRM1
+
+By biochemical fractionation and reconstitution, we showed that RanBP1 restores nuclear export after the RanQ69L preincubation.
+# T13 Protein S7 64 70 894 900 RanBP1
+
+It also stimulates nuclear export in cells that have not been preincubated with RanQ69L.
+
+RanBP1 as well as Ran-binding domains of the cytoplasmic nucleoporin RanBP2 promote the release of CRM1 from the NPC.
+# T14 Protein S9 0 6 1047 1053 RanBP1
+# T15 Protein S9 18 21 1065 1068 Ran
+# T16 Protein S9 69 75 1116 1122 RanBP2
+# T17 Protein S9 99 103 1146 1150 CRM1
+
+Taken together, our results indicate that RanGTP is important for the targeting of export complexes to the cytoplasmic side of the NPC and that RanBP1 and probably RanBP2 are involved in the dissociation of nuclear export complexes from the NPC in a terminal step of transport.
+# T18 Protein S10 144 150 1309 1315 RanBP1
+# T19 Protein S10 164 170 1329 1335 RanBP2
+

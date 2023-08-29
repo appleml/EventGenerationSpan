@@ -1,0 +1,14 @@
+{"trigger": ["Quantitation of globin mRNA .", ""], "relation": []}
+{"trigger": ["RNA was first reverse transcribed to cDNA .", ""], "relation": []}
+{"trigger": ["Primers for cDNA PCR amplification of globin genes were obtained from Primerbank [ 51 ] .", ""], "relation": []}
+{"trigger": ["All primers were searched against the NCBI database to confirm specificity .", ""], "relation": []}
+{"trigger": ["For <extra_id_0> epsilony globin <extra_id_2> Protein <extra_id_1> : MHB1666 , 5'TGGCCTGTGGAGTAAGGTCAA3 ' ; and MHB1667 , 5'GAAGCAGAGGACAAGTTCCCA3 ' .", ""], "relation": []}
+{"trigger": ["For <extra_id_0> zeta globin <extra_id_2> Protein <extra_id_1> : MHB1668 , 5'CTACCCCCAGACGAAGACCTA3 ' ; and MHB1669 , 5'CTTAACCGCATCCCCTACGG3 ' .", ""], "relation": []}
+{"trigger": ["For <extra_id_0> betaH1 globin <extra_id_2> Protein <extra_id_1> : MHB1672 , 5'TGGACAACCTCAAGGAGACC3 ' ; and MHB1673 , 5'ACCTCTGGGGTGAATTCCTT3 ' .", ""], "relation": []}
+{"trigger": ["For <extra_id_0> betamaj <extra_id_2> Protein <extra_id_1> / <extra_id_0> min globin <extra_id_2> Protein <extra_id_1> : MHB1674 : 5'ATGGCCTGAATCACTTGGAC3 ' ; and MHB1675 , 5'ACGATCATATTGCCCAGGAG3 ' .", ""], "relation": []}
+{"trigger": ["Using the SYBR green supermix kit with ROX ( Bio-Rad , Hercules , California , United States ) , PCR amplification was run on an ABI7000 ( Applied Biosystems , Foster City , California , United States ) at the University of Arizona core facility .", ""], "relation": []}
+{"trigger": ["All PCR was performed in a 25-mul reaction with 12.5 mul SYBR green supermix .", ""], "relation": []}
+{"trigger": ["<extra_id_0> GAPDH <extra_id_2> Protein <extra_id_1> mRNA levels were used as control for input RNA .", ""], "relation": []}
+{"trigger": ["Standard curve analyses were performed to test the efficiency of the amplifications .", ""], "relation": []}
+{"trigger": ["Triplicates were done for each PCR reaction .", ""], "relation": []}
+{"trigger": ["Relative quantitative values were calculated in the ABI Prism 7000 SDS Software ( Applied Biosystems ) and normalized to <extra_id_0> GAPDH <extra_id_2> Protein <extra_id_1> in Microsoft Excel ( Redmond , Washington , United States ) .", ""], "relation": []}

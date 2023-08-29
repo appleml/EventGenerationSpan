@@ -1,0 +1,44 @@
+Characterization of a new isoform of the NFAT (nuclear factor of activated T cells) gene family member NFATc [published erratum appears in J Biol Chem 1996 Dec 27;271(52):33705]
+# T1 Protein S1 103 108 103 108 NFATc
+
+The cyclosporin A (CsA)/FK506-sensitive nuclear factor of activated T cells (NFAT) plays a key role in the inducible expression of cytokine genes in T cells.
+
+Although NFAT has been recently shown to be inducible in several non-T immune cells, the NFAT gene family members characterized to date have been isolated only from T cells.
+
+To further characterize NFAT function in human B cells and to demonstrate cytokine gene specificity of NFAT proteins, we report here the isolation and characterization of a cDNA clone from the Raji B cell line.
+
+The cDNA clone encodes a new isoform, NFATc.beta, of the NFAT gene family member NFATc (designated here NFATc.alpha).
+# T2 Protein S5 38 48 760 770 NFATc.beta
+# T3 Protein S5 81 86 803 808 NFATc
+# T4 Protein S5 104 115 826 837 NFATc.alpha
+
+The amino acid sequence of NFATc.beta differs from that of NFATc.alpha in the first NH2-terminal 29 residues and contains an additional region of 142 residues at the COOH terminus.
+# T5 Protein S6 27 37 867 877 NFATc.beta
+# T6 Protein S6 59 70 899 910 NFATc.alpha
+
+Northern analysis using a probe encompassing a common region of both isoforms showed two mRNA species of 2.7 and 4.5 kilobase pairs, while an NFATc.beta-specific probe detected only the 4.5-kilobase pair mRNA which was preferentially expressed in the spleen.
+# T7 Protein S7 142 152 1163 1173 NFATc.beta
+
+Transient expression of NFATc.beta was capable of activating an interleukin-2 NFAT-driven reporter gene in stimulated Jurkat cells in a CsA-sensitive manner.
+# T8 Protein S8 24 34 1304 1314 NFATc.beta
+# T9 Protein S8 64 77 1344 1357 interleukin-2
+$ T8 Protein S8 24 34 1304 1314 NFATc.beta
+@ T13 Gene_expression S8 10 20 1290 1300 expression
+% E1 Gene_expression:T13 Theme:T8
+
+However, NFATc.beta neither bound to the kappa3 element ( an NFAT-binding site ) in the tumor necrosis factor-alpha promoter nor activated the tumor necrosis factor-alpha promoter in cotransfection assays.
+# T10 Protein S9 9 19 1447 1457 NFATc.beta
+# T11 Protein S9 88 115 1526 1553 tumor necrosis factor-alpha
+# T12 Protein S9 143 170 1581 1608 tumor necrosis factor-alpha
+$ T10 Protein S9 9 19 1447 1457 NFATc.beta
+$ T11 Protein S9 88 115 1526 1553 tumor necrosis factor-alpha
+$ T12 Protein S9 143 170 1581 1608 tumor necrosis factor-alpha
+@ T14 Binding S9 28 33 1466 1471 bound
+@ T15 Entity S9 41 55 1479 1493 kappa3 element
+@ T16 Positive_regulation S9 129 138 1567 1576 activated
+@ T17 Entity S9 171 179 1609 1617 promoter
+% E2 Binding:T14 Theme:T10 Theme2:T11 Site2:T15
+% E3 Positive_regulation:T16 Theme:T12 Cause:T10 Site:T17
+
+These data suggest that different members or isoforms of NFAT gene family may regulate inducible expression of different cytokine genes.
+

@@ -1,0 +1,90 @@
+Cloning and characterization of the beta subunit of human proximal sequence element-binding transcription factor and its involvement in transcription of small nuclear RNA genes by RNA polymerases II and III.
+# T1 Protein S1 153 170 153 170 small nuclear RNA
+$ T1 Protein S1 153 170 153 170 small nuclear RNA
+@ T22 Transcription S1 136 149 136 149 transcription
+@ T23 Positive_regulation S1 177 179 177 179 by
+% E1 Transcription:T22 Theme:T1
+% E2 Positive_regulation:T23 Theme:E1
+
+The proximal sequence element (PSE)-binding transcription factor (PTF), which binds the PSE of both RNA polymerase II- and RNA polymerase III-transcribed mammalian small nuclear RNA (snRNA) genes, is essential for their transcription.
+# T2 Protein S2 164 181 373 390 small nuclear RNA
+# T3 Protein S2 183 188 392 397 snRNA
+$ T3 Protein S2 183 188 392 397 snRNA
+@ T24 Binding S2 78 83 287 292 binds
+@ T25 Transcription S2 142 153 351 362 transcribed
+@ T26 Positive_regulation S2 142 153 351 362 transcribed
+@ T27 Positive_regulation S2 200 209 409 418 essential
+@ T28 Transcription S2 220 233 429 442 transcription
+% E3 Binding:T24 Theme:T3
+% E4 Transcription:T25 Theme:T3
+% E5 Positive_regulation:T26 Theme:E4
+% E6 Positive_regulation:T27 Theme:E7
+% E7 Transcription:T28 Theme:T3
+
+We previously reported the purification of human PTF, a complex of four subunits, and the molecular cloning and characterization of PTF gamma and delta subunits.
+# T4 Protein S3 132 141 576 585 PTF gamma
+# T5 Protein S3 146 160 590 604 delta subunits
+
+Here we describe the isolation and expression of a cDNA encoding PTF beta, as well as functional studies using anti-PTF beta antibodies.
+# T6 Protein S4 65 73 671 679 PTF beta
+# T7 Protein S4 116 124 722 730 PTF beta
+$ T6 Protein S4 65 73 671 679 PTF beta
+@ T29 Gene_expression S4 35 45 641 651 expression
+% E8 Gene_expression:T29 Theme:T6
+
+Native PTF beta, in either protein fractions or a PTF-Oct-1-DNA complex, can be recognized by polyclonal antibodies raised against recombinant PTF beta.
+# T8 Protein S5 7 15 750 758 PTF beta
+# T9 Protein S5 143 151 886 894 PTF beta
+$ T8 Protein S5 7 15 750 758 PTF beta
+@ T30 Binding S5 80 90 823 833 recognized
+% E9 Binding:T30 Theme:T8
+
+Immunodepletion studies show that PTF beta is required for transcription of both classes of snRNA genes in vitro.
+# T10 Protein S6 34 42 930 938 PTF beta
+# T11 Protein S6 92 97 988 993 snRNA
+$ T10 Protein S6 34 42 930 938 PTF beta
+$ T11 Protein S6 92 97 988 993 snRNA
+@ T31 Positive_regulation S6 46 54 942 950 required
+@ T32 Transcription S6 59 72 955 968 transcription
+% E10 Positive_regulation:T31 Theme:E11 Cause:T10
+% E11 Transcription:T32 Theme:T11
+
+In addition, immunoprecipitation analyses demonstrate that substantial and similar molar amounts of TATA-binding protein (TBP) and TFIIIB90 can weakly associate with PTF at low salt conditions, but this association is dramatically reduced at high salt concentrations.
+# T12 Protein S7 100 120 1110 1130 TATA-binding protein
+# T13 Protein S7 122 125 1132 1135 TBP
+# T14 Protein S7 131 139 1141 1149 TFIIIB90
+$ T13 Protein S7 122 125 1132 1135 TBP
+$ T14 Protein S7 131 139 1141 1149 TFIIIB90
+@ T33 Binding S7 151 160 1161 1170 associate
+% E12 Binding:T33 Theme:T13
+% E13 Binding:T33 Theme:T14
+
+Along with our previous demonstration of both physical interactions between PTF gamma/PTF delta and TBP and the involvement of TFIIIB90 in the transcription of class III snRNA genes, these results are consistent with the notion that a TBP-containing complex related to TFIIIB is required for the transcription of class III snRNA genes, and acts through weak interaction with the four-subunit PTF.
+# T15 Protein S8 76 85 1354 1363 PTF gamma
+# T16 Protein S8 86 95 1364 1373 PTF delta
+# T17 Protein S8 100 103 1378 1381 TBP
+# T18 Protein S8 127 135 1405 1413 TFIIIB90
+# T19 Protein S8 170 175 1448 1453 snRNA
+# T20 Protein S8 235 238 1513 1516 TBP
+# T21 Protein S8 323 328 1601 1606 snRNA
+$ T15 Protein S8 76 85 1354 1363 PTF gamma
+$ T17 Protein S8 100 103 1378 1381 TBP
+$ T16 Protein S8 86 95 1364 1373 PTF delta
+$ T19 Protein S8 170 175 1448 1453 snRNA
+$ T21 Protein S8 323 328 1601 1606 snRNA
+$ T20 Protein S8 235 238 1513 1516 TBP
+@ T34 Binding S8 46 67 1324 1345 physical interactions
+@ T35 Transcription S8 143 156 1421 1434 transcription
+@ T36 Positive_regulation S8 279 287 1557 1565 required
+@ T37 Transcription S8 296 309 1574 1587 transcription
+@ T38 Positive_regulation S8 340 344 1618 1622 acts
+@ T39 Binding S8 358 369 1636 1647 interaction
+% E14 Binding:T34 Theme:T15 Theme2:T17
+% E15 Binding:T34 Theme:T16 Theme2:T17
+% E16 Transcription:T35 Theme:T19
+% E17 Positive_regulation:T36 Theme:E18
+% E18 Transcription:T37 Theme:T21
+% E19 Positive_regulation:T38 Theme:E17 Cause:E21
+% E20 Positive_regulation:T38 Theme:E17
+% E21 Binding:T39 Theme:T20
+

@@ -1,0 +1,65 @@
+Activation of E2F-mediated transcription by human T-cell leukemia virus type I Tax protein in a p16(INK4A)-negative T-cell line.
+# T1 Protein S1 79 82 79 82 Tax
+# T2 Protein S1 96 99 96 99 p16
+# T3 Protein S1 100 105 100 105 INK4A
+$ T3 Protein S1 100 105 100 105 INK4A
+@ T22 Gene_expression S1 107 115 107 115 negative
+% E1 Gene_expression:T22 Theme:T3
+
+The human T-cell leukemia virus type I (HTLV-I) is a causative agent of adult T-cell leukemia.
+
+Although the exact mechanism by which HTLV-I contributes to leukemogenesis is still unclear, the Tax protein is thought to play a major role in this process.
+# T4 Protein S3 97 100 322 325 Tax
+
+This 40-kDa polypeptide is able to interact with the tumor suppressor p16(INK4A).
+# T5 Protein S4 70 73 453 456 p16
+# T6 Protein S4 74 79 457 462 INK4A
+$ T6 Protein S4 74 79 457 462 INK4A
+@ T23 Binding S4 35 43 418 426 interact
+% E2 Binding:T23 Theme:T4 Theme2:T6
+
+Consequently, Tax can activate the signaling pathway that lead to the release of E2F that in turn induces expression of factors required for cell cycle progression.
+# T7 Protein S5 14 17 479 482 Tax
+
+In this paper, we demonstrate that Tax can also activate E2F-mediated transcription independently of p16(INK4A).
+# T8 Protein S6 35 38 665 668 Tax
+# T9 Protein S6 101 104 731 734 p16
+# T10 Protein S6 105 110 735 740 INK4A
+
+Indeed, when Tax is coexpressed with the E2F-1 transcription factor in CEM T-cells, which lack expression of p16(INK4A), it strongly potentiates the E2F-dependent activation of a reporter construct driven by a promoter containing E2F binding sites.
+# T11 Protein S7 13 16 756 759 Tax
+# T12 Protein S7 41 46 784 789 E2F-1
+# T13 Protein S7 109 112 852 855 p16
+# T14 Protein S7 113 118 856 861 INK4A
+$ T11 Protein S7 13 16 756 759 Tax
+@ T24 Gene_expression S7 20 31 763 774 coexpressed
+% E3 Gene_expression:T24 Theme:T11
+
+This stimulation is abrogated by mutations affecting the E2F-binding sites.
+
+In addition, Tax also stimulates the transcription of the E2F-1 gene itself.
+# T15 Protein S9 13 16 1081 1084 Tax
+# T16 Protein S9 58 63 1126 1131 E2F-1
+$ T15 Protein S9 13 16 1081 1084 Tax
+$ T16 Protein S9 58 63 1126 1131 E2F-1
+@ T25 Positive_regulation S9 22 32 1090 1100 stimulates
+@ T26 Transcription S9 37 50 1105 1118 transcription
+% E4 Positive_regulation:T25 Theme:E5 Cause:T15
+% E5 Transcription:T26 Theme:T16
+
+Using Tax mutants that fail to activate either ATF- or NF-kappaB-dependent promoters and different 5' truncation mutants of the E2F-1 promoter, we show that the Tax-dependent transcriptional control of the E2F1 gene involves, at least in part, the ATF binding site located in the E2F-1 promoter.
+# T17 Protein S10 6 9 1151 1154 Tax
+# T18 Protein S10 128 133 1273 1278 E2F-1
+# T19 Protein S10 161 164 1306 1309 Tax
+# T20 Protein S10 206 210 1351 1355 E2F1
+# T21 Protein S10 280 285 1425 1430 E2F-1
+$ T18 Protein S10 128 133 1273 1278 E2F-1
+$ T17 Protein S10 6 9 1151 1154 Tax
+$ T20 Protein S10 206 210 1351 1355 E2F1
+$ T19 Protein S10 161 164 1306 1309 Tax
+@ T27 Positive_regulation S10 31 39 1176 1184 activate
+@ T28 Entity S10 134 142 1279 1287 promoter
+@ T29 Regulation S10 175 198 1320 1343 transcriptional control
+% E6 Positive_regulation:T27 Theme:T18 Cause:T17 Site:T28
+% E7 Regulation:T29 Theme:T20 Cause:T19
+

@@ -1,0 +1,11 @@
+Accession Numbers
+
+Accession numbers for the genes and gene products discussed in this paper are betaH1 globin (GenBank NM_008219), betamaj globin (J00413) (in situ), betamaj/min globin (NM_008220) (real time PCR), epsilony globin cDNA (NM_008221) from the Fantom (Functional Annotation of Mouse) database (http://fantom2.gsc.riken.jp), zeta globin (GenBank NM_010405), and mouse Sox6 (U32614).
+# T1 Protein S2 78 91 96 109 betaH1 globin
+# T2 Protein S2 113 127 131 145 betamaj globin
+# T3 Protein S2 148 155 166 173 betamaj
+# T4 Protein S2 156 166 174 184 min globin
+# T5 Protein S2 196 211 214 229 epsilony globin
+# T6 Protein S2 318 329 336 347 zeta globin
+# T7 Protein S2 361 365 379 383 Sox6
+

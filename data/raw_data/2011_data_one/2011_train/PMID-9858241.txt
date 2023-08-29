@@ -1,0 +1,37 @@
+Activation of the human delta-globin gene promoter in primary adult erythroid cells.
+# T1 Protein S1 24 36 24 36 delta-globin
+$ T1 Protein S1 24 36 24 36 delta-globin
+@ T8 Positive_regulation S1 0 10 0 10 Activation
+@ T9 Entity S1 42 50 42 50 promoter
+% E1 Positive_regulation:T8 Theme:T1 Site:T9
+
+Restoration of the CCAAT box or insertion of an erythroid Kruppel-like factor (EKLF) binding site in the delta promoter activates its expression in several erythroid cell lines.
+# T2 Protein S2 48 77 134 163 erythroid Kruppel-like factor
+# T3 Protein S2 79 83 165 169 EKLF
+@ T10 Positive_regulation S2 120 129 206 215 activates
+@ T11 Gene_expression S2 134 144 220 230 expression
+% E2 Positive_regulation:T10 Theme:E3
+% E3 Gene_expression:T11 Theme:T1
+
+We extended these studies using a novel primary human adult erythroid cell (hAEC) system to investigate these effects at the late erythroblast stage.
+
+Restoration of the CCAAT box at -70 bp, or insertion of an EKLF binding site at -85 bp or -95 bp in the promoter significantly increased delta globin gene expression in hAEC.
+# T4 Protein S4 59 63 473 477 EKLF
+# T5 Protein S4 137 149 551 563 delta globin
+$ T5 Protein S4 137 149 551 563 delta globin
+@ T12 Positive_regulation S4 127 136 541 550 increased
+@ T13 Gene_expression S4 155 165 569 579 expression
+% E4 Positive_regulation:T12 Theme:E5
+% E5 Gene_expression:T13 Theme:T5
+
+Our results demonstrate that the altered CCAAT box (CCAAC) and the lack of an EKLF binding site in delta-globin contribute to its low level of expression in the hAEC model as well.
+# T6 Protein S5 78 82 667 671 EKLF
+# T7 Protein S5 99 111 688 700 delta-globin
+$ T7 Protein S5 99 111 688 700 delta-globin
+@ T14 Positive_regulation S5 112 122 701 711 contribute
+@ T15 Negative_regulation S5 130 139 719 728 low level
+@ T16 Gene_expression S5 143 153 732 742 expression
+% E6 Positive_regulation:T14 Theme:E7
+% E7 Negative_regulation:T15 Theme:E8
+% E8 Gene_expression:T16 Theme:T7
+

@@ -1,0 +1,21 @@
+High molecular weight dextran sulfate increases the activity of NF-kappaB-regulated promoter in monocyte-derived macrophages.
+
+It is known that sulfated polysaccharides can mimic the action of common T-cell mitogens.
+
+To investigate the molecular basis of the mitogenic effect of high molecular weight dextran sulfate (HMDS), monocyte-derived macrophages were transfected with recombinant plasmid containing chloramphenicol acetyl transferase (CAT) reporter gene under the control of the HIV-1 long terminal repeat (LTR) promoter, which is regulated by transcription factor NF-kappaB.
+# T1 Protein S3 190 224 407 441 chloramphenicol acetyl transferase
+# T2 Protein S3 226 229 443 446 CAT
+
+We observed that HMDS, similar to bacterial lipopolysaccharide (LPS), increases the expression of CAT reporter gene suggesting increased activity of NF-kappaB.
+# T3 Protein S4 98 101 682 685 CAT
+
+The activation of NF-kappaB correlated with the increased expression of B7.1 molecules.
+# T4 Protein S5 72 76 816 820 B7.1
+$ T4 Protein S5 72 76 816 820 B7.1
+@ T5 Positive_regulation S5 48 57 792 801 increased
+@ T6 Gene_expression S5 58 68 802 812 expression
+% E1 Positive_regulation:T5 Theme:E2
+% E2 Gene_expression:T6 Theme:T4
+
+It was postulated that this NF-kappaB-regulated promoter might play a role in the activation of the accessory cells as well as the rate of replication of HIV-1 in monocyte-derived macrophages.
+

@@ -1,0 +1,33 @@
+BMDC-T cell in vitro interaction
+
+WT and cpdm BMDC (5x104) were stimulated with medium, 1 microg/mL LPS, 25 microg/mL and 5 microg/mL Pam3CYS.
+
+24 hours later, cells were collected and washed with PBS.
+
+Allogeneic naive CD4+ T cells were isolated from spleens of BALB/c mice by negative selection kit (Invitrogen) and were then added at 2.5x105 and co-cultured with activated BMDC.
+
+After 5 days, supernatant was collected and the secretion of IFNgamma, IL4, IL2, and IL17A measured by ELISA.
+# T1 Protein S5 61 69 440 448 IFNgamma
+# T2 Protein S5 71 74 450 453 IL4
+# T3 Protein S5 76 79 455 458 IL2
+# T4 Protein S5 85 90 464 469 IL17A
+$ T1 Protein S5 61 69 440 448 IFNgamma
+$ T2 Protein S5 71 74 450 453 IL4
+$ T3 Protein S5 76 79 455 458 IL2
+$ T4 Protein S5 85 90 464 469 IL17A
+@ T6 Gene_expression S5 48 57 427 436 secretion
+% E1 Gene_expression:T6 Theme:T1
+% E2 Gene_expression:T6 Theme:T2
+% E3 Gene_expression:T6 Theme:T3
+% E4 Gene_expression:T6 Theme:T4
+
+Negative controls are 1) stimulated BMDC without co-culture with allogeneic CD4+ T cells; 2) allogeneic CD4+ T cells without co-culture with stimulated BMDC.
+
+Both negative controls show no production of aforementioned cytokines.
+@ T7 Gene_expression S7 31 41 678 688 production
+@ T5 Anaphora S7 45 69 692 716 aforementioned cytokines
+% E5 Gene_expression:T7 Theme:T1
+% E6 Gene_expression:T7 Theme:T2
+% E7 Gene_expression:T7 Theme:T3
+% E8 Gene_expression:T7 Theme:T4
+

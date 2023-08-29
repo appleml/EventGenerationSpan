@@ -1,0 +1,42 @@
+2.3.
+
+Detection of TLR4 mRNA by the Method of RT-PCR
+# T1 Protein S2 13 17 18 22 TLR4
+
+Briefly, total RNA samples were isolated from peri-hemorrhage regions in left basal ganglia using Simply P Total RNA isolation Kit (BioFlux, HZ, China) according to the manufacturer's instructions.
+
+The quantity of total RNA was determined on a Nanodrop (ND-1000 Spectrophotometer) by measuring optical density at A260 and A280 nm wavelength.
+
+Then, the concentrations of mRNA were adjusted to 1.0 g/mL.
+
+RNA was reverse-transcribed into cDNA in 20 muL reaction system using Superscript First-Strand Synthesis Kit for RT-PCR (promega Inc) under conditions described by the supplier.
+
+One microliter of cDNA was used to amplify the TLR4 gene fragment with 1x PCR buffer, 1.5 mM MgCl2, 200 muM of each dNTP, 200 muM of primers, and 2u Taq DNA polymerase.
+# T2 Protein S7 47 51 679 683 TLR4
+# T3 Protein S7 149 167 781 799 Taq DNA polymerase
+
+The house keep gene (beta-actin) was used as an internal control.
+# T4 Protein S8 0 19 801 820 The house keep gene
+# T5 Protein S8 21 31 822 832 beta-actin
+
+The PCR primer sequences were designed according to the TLR4 and beta-actin gene sequences reported in GenBank.
+# T6 Protein S9 56 60 923 927 TLR4
+# T7 Protein S9 65 75 932 942 beta-actin
+
+TLR4 (145 bp): forward: 5'-AGCTTTGGTCAGTTGGCTCT-3'; reverse: 5'-CAGGATGACACCATTGAAGC-3'; beta-actin (701 bp): forward: 5'-GCCAACCGTGAAAAAGATG-3'; reverse: 5'-CCAGGATAGAGCCACCAAT-3'.
+# T8 Protein S10 0 4 979 983 TLR4
+# T9 Protein S10 89 99 1068 1078 beta-actin
+
+Reaction cycles were performed at the following condition: 94degreesC 2 min, 94degreesC 40 s, 55degreesC 40 s, and 72degreesC 60 s.
+
+The reaction was stopped after 31 cycles.
+
+PCR products were electrophoresed through agarose gel.
+
+Image Acquisition and Analysis software were used to determine band densities.
+
+The abundance of TLR4 mRNA was expressed as the ratio of TLR4 mRNA to beta-actin mRNA.
+# T10 Protein S15 17 21 1486 1490 TLR4
+# T11 Protein S15 57 61 1526 1530 TLR4
+# T12 Protein S15 70 80 1539 1549 beta-actin
+

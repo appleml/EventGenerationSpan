@@ -1,0 +1,86 @@
+Molecular basis of a multiple lymphokine deficiency in a patient with severe combined immunodeficiency.
+
+We have previously reported that the T lymphocytes of a child with severe combined immunodeficiency are defective in the transcription of several lymphokine genes that include IL2, IL3, IL4, and IL5, which encode interleukins 2, 3, 4, and 5 (IL-2, -3, -4, and -5).
+# T1 Protein S2 176 179 281 284 IL2
+# T2 Protein S2 181 184 286 289 IL3
+# T3 Protein S2 186 189 291 294 IL4
+# T4 Protein S2 195 198 300 303 IL5
+# T5 Protein S2 213 227 318 332 interleukins 2
+# T6 Protein S2 229 230 334 335 3
+# T7 Protein S2 232 233 337 338 4
+# T8 Protein S2 239 240 344 345 5
+# T9 Protein S2 242 246 347 351 IL-2
+# T10 Protein S2 248 250 353 355 -3
+# T11 Protein S2 252 254 357 359 -4
+# T12 Protein S2 260 262 365 367 -5
+$ T1 Protein S2 176 179 281 284 IL2
+$ T3 Protein S2 186 189 291 294 IL4
+$ T4 Protein S2 195 198 300 303 IL5
+$ T2 Protein S2 181 184 286 289 IL3
+@ T24 Transcription S2 121 134 226 239 transcription
+% E1 Transcription:T24 Theme:T1
+% E2 Transcription:T24 Theme:T3
+% E3 Transcription:T24 Theme:T4
+% E4 Transcription:T24 Theme:T2
+
+To determine whether the defect in the patient's T lymphocytes involved a trans-acting factor common to the affected lymphokine genes, we examined the ability of nuclear factors from the patient's T lymphocytes to bind response elements present in the regulatory region of IL2.
+# T13 Protein S3 273 276 643 646 IL2
+$ T13 Protein S3 273 276 643 646 IL2
+@ T25 Regulation S3 63 71 433 441 involved
+@ T26 Binding S3 214 218 584 588 bind
+@ T27 Entity S3 219 236 589 606 response elements
+% E5 Regulation:T25 Theme:E4
+% E6 Binding:T26 Theme:T13 Site:T27
+
+Nuclear factor NF-kB, activation protein 1 (AP-1), OCT-1, and NF-IL-2B binding activity were normal.
+# T14 Protein S4 51 56 699 704 OCT-1
+$ T14 Protein S4 51 56 699 704 OCT-1
+@ T28 Binding S4 71 78 719 726 binding
+% E7 Binding:T28 Theme:T13 Site:T27
+% E8 Binding:T28 Theme:T13 Theme2:T14 Site:T27
+
+In contrast, the binding of the nuclear factor of activated T cells (NF-AT) to its response element in the IL2 enhancer and to an NF-AT-like response element present in the IL4 enhancer was abnormal.
+# T15 Protein S5 107 110 856 859 IL2
+# T16 Protein S5 173 176 922 925 IL4
+$ T15 Protein S5 107 110 856 859 IL2
+$ T16 Protein S5 173 176 922 925 IL4
+@ T29 Binding S5 17 24 766 773 binding
+@ T30 Entity S5 111 119 860 868 enhancer
+@ T31 Entity S5 177 185 926 934 enhancer
+% E9 Binding:T29 Theme:T15 Site:T30
+% E10 Binding:T29 Theme:T16 Site:T31
+
+To ascertain whether the abnormal NF-AT binding activity was related to an impaired function, we transfected patient and control T lymphocytes with constructs containing the reporter gene encoding chloramphenicol acetyl transferase (CAT) under the control of the entire IL2 regulatory region or of multimers of individual enhancer sequences.
+# T17 Protein S6 197 231 1146 1180 chloramphenicol acetyl transferase
+# T18 Protein S6 233 236 1182 1185 CAT
+# T19 Protein S6 270 273 1219 1222 IL2
+$ T18 Protein S6 233 236 1182 1185 CAT
+@ T32 Gene_expression S6 97 108 1046 1057 transfected
+@ T33 Positive_regulation S6 97 108 1046 1057 transfected
+@ T34 Regulation S6 238 255 1187 1204 under the control
+% E11 Gene_expression:T32 Theme:T18
+% E12 Positive_regulation:T33 Theme:E11
+% E13 Regulation:T34 Theme:T18
+
+CAT expression directed by the IL2 regulatory region or by a multimer of the NF-AT-binding site was markedly lower in the patient relative to controls.
+# T20 Protein S7 0 3 1291 1294 CAT
+# T21 Protein S7 31 34 1322 1325 IL2
+$ T20 Protein S7 0 3 1291 1294 CAT
+@ T35 Gene_expression S7 4 14 1295 1305 expression
+@ T36 Regulation S7 15 23 1306 1314 directed
+@ T37 Negative_regulation S7 109 114 1400 1405 lower
+% E14 Gene_expression:T35 Theme:T20
+% E15 Regulation:T36 Theme:E14
+% E16 Negative_regulation:T37 Theme:E14
+
+In contrast, CAT gene expression directed by a multimer of the OCT-1 proximal (OCT-1p)-binding site was equivalent in patient and controls.
+# T22 Protein S8 13 16 1456 1459 CAT
+# T23 Protein S8 63 68 1506 1511 OCT-1
+$ T22 Protein S8 13 16 1456 1459 CAT
+@ T38 Gene_expression S8 22 32 1465 1475 expression
+@ T39 Negative_regulation S8 104 114 1547 1557 equivalent
+% E17 Gene_expression:T38 Theme:T22
+% E18 Negative_regulation:T39 Theme:E17
+
+These results indicate that an abnormality of/or influencing NF-AT may underlie the multiple lymphokine deficiency in this patient.
+

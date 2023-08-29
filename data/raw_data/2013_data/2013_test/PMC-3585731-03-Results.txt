@@ -1,0 +1,114 @@
+RIP1 Kinase-dependent Activation of Akt Contributes to Necroptosis
+# T1 Protein S1 0 4 0 4 RIP1
+
+Given our observation that growth factors are important for zVAD.fmk induced death, we examined the contribution of several pathways, including MAPK pathways and Akt, which are known to be activated following growth factor receptor activation (Fig. 2A).
+
+Inhibition of Akt (Akt inhibitor VIII) strongly protected the cells from growth factor-sensitive necroptosis induced by zVAD.fmk [16] as well as cell death triggered by bFGF or IGF-1/zVAD.fmk under serum free conditions (Fig. 2B).
+# T2 Protein S3 169 173 490 494 bFGF
+# T3 Protein S3 177 182 498 503 IGF-1
+
+Inhibition of Akt also protected the cells from growth-factor insensitive death by caused by TNFalpha (Fig. 2A).
+# T4 Protein S4 93 101 645 653 TNFalpha
+
+Consistent with previous reports, the JNK inhibitor SP600125 protected the cells from both zVAD.fmk and TNFalpha induced death (Fig. 2A,B and Fig.
+# T5 Protein S5 104 112 769 777 TNFalpha
+
+S2A) [12], [14].
+
+In contrast, inhibition of two other MAPKs, p38 and ERK, previously reported not to be activated during necroptosis [14], did not protect from either zVAD.fmk or TNFalpha induced death (Fig. 2A).
+# T6 Protein S7 162 170 991 999 TNFalpha
+
+Next, we used two approaches to further validate the role of Akt in necroptotic cell death.
+
+First, two additional Akt inhibitors, a highly specific, allosteric kinase inhibitor MK-2206 [25] and triciribine (TCN) [26], which blocks membrane translocation of Akt, both attenuated cell death (Fig.
+
+S2B).
+
+Secondly, simultaneous knockdown of Akt isoforms Akt1 and Akt2 using siRNAs protected cells from necroptosis induced by both zVAD.fmk and TNFalpha (Fig. 2C).
+# T7 Protein S11 49 53 1375 1379 Akt1
+# T8 Protein S11 58 62 1384 1388 Akt2
+# T9 Protein S11 138 146 1464 1472 TNFalpha
+
+No expression of Akt3 was seen in L929 cells (Fig.
+# T10 Protein S12 17 21 1501 1505 Akt3
+
+S2C) and, consistently, Akt3 siRNA had no additional effect on necroptosis.
+# T11 Protein S13 24 34 1559 1569 Akt3 siRNA
+
+Our results confirmed that Akt plays a key role in necroptosis induced by multiple stimuli in L929 cells.
+
+To understand the activation of Akt and JNK under necroptotic conditions, we examined the changes in Akt and JNK phosphorylation at 9 hrs post zVAD.fmk and TNFalpha stimulation.
+# T12 Protein S15 156 164 1873 1881 TNFalpha
+
+This time point was chosen because it reflects the early stage of cell death in our system (Fig.
+
+S3A, B).
+
+Following stimulation with either zVAD.fmk or TNFalpha we observed a robust increase in Akt phosphorylation at a known major activation site, Thr308 (Fig. 3A).
+# T13 Protein S18 46 54 2047 2055 TNFalpha
+
+Interestingly, we did not observe concomitant phosphorylation changes in the second major activation site of Akt, Ser473.
+
+We also observed an increase in the phosphorylation of both the p46 and p54 isoforms of JNK and its major substrate c-Jun (Fig. 3A).
+# T14 Protein S20 64 67 2347 2350 p46
+# T15 Protein S20 72 75 2355 2358 p54
+# T16 Protein S20 116 121 2399 2404 c-Jun
+
+These data indicate that both Akt and JNK are activated under necroptotic conditions.
+
+The RIP1 kinase inhibitor, Nec-1, completely prevented the increase in Thr308 Akt phosphorylation, while Nec-1i did not (Fig. 3A, Fig.
+# T20 Protein S22 4 8 2506 2510 RIP1
+# T21 Protein S22 78 81 2580 2583 Akt
+
+S1D).
+
+Similarly, Nec-1 prevented the induction of JNK phosphorylation in response to zVAD.fmk and substantially reduced this change after TNFalpha addition.
+# T22 Protein S24 132 140 2775 2783 TNFalpha
+
+We observed some changes in total protein levels of JNK and c-Jun following necroptotic stimulation.
+# T23 Protein S25 60 65 2854 2859 c-Jun
+
+Some of these changes, e.g. zVAD.fmk-induced increase in c-Jun, were also attenuated by Nec-1.
+# T24 Protein S26 57 62 2952 2957 c-Jun
+
+Importantly, Nec-1 did not alter the basal phosphorylation levels of either Akt or JNK (Fig. 3A).
+
+This established that Akt Thr308 and JNK phosphorylation during necroptosis is RIP1 dependent.
+# T25 Protein S28 79 83 3167 3171 RIP1
+
+Interestingly, we discovered that the phosphorylation of Akt Thr308, JNK and Jun are late events following zVAD.fmk stimulation (Fig. 3B) that coincide with the onset of necroptosis at 6 hr post-stimulation (Fig.
+
+S3A).
+
+To better understand the contributions of growth factors and RIP1 kinase to necroptotic regulation of Akt, we next analyzed the time course of these phosphorylation changes under serum free conditions.
+# T26 Protein S31 61 65 3463 3467 RIP1
+
+We found that the addition of bFGF alone or in combination with zVAD.fmk led to a substantial rapid and transient increase in both Thr308 and Ser473 phosphorylation of Akt as well as JNK and c-Jun at 15 minutes, reflecting the expected response to growth factor stimulation (Fig. 3C).
+# T27 Protein S32 30 34 3634 3638 bFGF
+# T28 Protein S32 191 196 3795 3800 c-Jun
+
+Significantly, the combination of bFGF/zVAD.fmk, but not bFGF alone, also caused a robust, second, delayed increase in the phosphorylation of Thr308, but not Ser473, of Akt as well as a delayed increase in the phosphorylation of JNK and Jun.
+# T29 Protein S33 34 38 3923 3927 bFGF
+# T30 Protein S33 57 61 3946 3950 bFGF
+
+Furthermore, Nec-1 had no significant effect on the early increase in both Akt and JNK/c-Jun phosphorylation triggered by both bFGF and bFGF/zVAD, while Nec-1, but not its inactive analog Nec-1i (Fig.
+# T31 Protein S34 87 92 4218 4223 c-Jun
+# T32 Protein S34 127 131 4258 4262 bFGF
+# T33 Protein S34 136 140 4267 4271 bFGF
+
+S1E), efficiently blocked the bFGF/zVAD increase at 6-9 hr (Fig. 3D), suggesting that only the delayed activation of Akt and JNK is specific for necroptosis and dependent on RIP1 kinase activity.
+# T34 Protein S35 30 34 4362 4366 bFGF
+# T35 Protein S35 174 178 4506 4510 RIP1
+
+Similarly, IGF/zVAD, which also promoted cell death under serum free conditions, produced a delayed increase in Thr308 phosphorylation on Akt, while IGF alone caused solely an early, transient increase in phosphorylation (Fig.
+
+S3C).
+
+We confirmed the kinetics of the Akt Thr308 and Ser473 phosphorylation changes using a quantitative ELISA assay, which also showed a robust delayed necroptosis-specific RIP1-dependent increase in Akt Thr308 phosphorylation (Fig.
+# T36 Protein S38 169 173 4930 4934 RIP1
+
+S3D, E).
+
+Taken together, these results indicate that the observed delayed increases in Akt and JNK phosphorylation, preceding the onset of cell death, represent specific consequences of necroptotic signaling downstream from RIP1 kinase.
+# T37 Protein S40 215 219 5214 5218 RIP1
+

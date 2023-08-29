@@ -1,0 +1,39 @@
+Discussion
+
+Protein kinase D serine kinases have been proposed to regulate diverse cellular functions including the phosphorylation and nuclear localisation of class II HDACs and the phosphorylation of HSP27.
+# T1 Protein S2 190 195 201 206 HSP27
+$ T1 Protein S2 190 195 201 206 HSP27
+@ T6 Entity S2 17 23 28 34 serine
+@ T7 Regulation S2 54 62 65 73 regulate
+@ T8 Phosphorylation S2 171 186 182 197 phosphorylation
+% E1 Regulation:T7 Theme:E2
+% E2 Phosphorylation:T8 Theme:T1 Site:T6
+
+It has also been suggested that PKDs act as mitochondrial sensors for oxidative stress and play a role in regulating NFkappaB transcription factors [41].
+
+Most of the data about the function of PKDs has come from experiments that ectopically express active or inhibitory PKD mutants or that use RNAi to reduce PKD expression.
+
+We have used gene targeting to specifically delete PKD alleles in DT40 chicken B cells and can thus use PKD-null DT40 cells to assess the relative contribution of individual PKD isoforms in class II HDAC control versus oxidative stress responses and NFkappaB regulation in lymphocytes.
+
+We have previously used these PKD-null DT40 cells to define an essential role for PKDs in regulation of class II HDACs, the present report now describes an indispensable role for PKDs in regulating the phosphorylation of HSP27 on serine 82, a site previously identified as a target for the p38-MAPKAPK2 signalling cascade [42].
+# T2 Protein S6 221 226 1040 1045 HSP27
+# T3 Protein S6 294 302 1113 1121 MAPKAPK2
+$ T2 Protein S6 221 226 1040 1045 HSP27
+@ T9 Regulation S6 187 197 1006 1016 regulating
+@ T10 Phosphorylation S6 202 217 1021 1036 phosphorylation
+@ T11 Entity S6 230 239 1049 1058 serine 82
+@ T12 Regulation S6 275 281 1094 1100 target
+% E3 Regulation:T9 Theme:E4
+% E4 Phosphorylation:T10 Theme:T2 Site:T11
+% E5 Regulation:T12 Theme:T2 Site:T11
+
+However, studies of PKD-null DT40 cells reveal that PKD family kinases are not essential for oxidative stress survival responses nor are they required for activation of NFkappaB transcription factors.
+
+These latter findings are in striking contrast to previous observations in HeLa and epithelial cell lines where overexpression/RNAi approaches have implicated PKD1/2 in the control of proliferation, survival and NFkappaB activation [20,23].
+# T4 Protein S8 159 163 1507 1511 PKD1
+# T5 Protein S8 164 165 1512 1513 2
+
+Hence, the present report shows that the proposed roles for PKDs as key sensors that modulate survival pathways in response to oxidative stress and regulate cell survival and proliferation are not ubiquitous and may be restricted to certain cell lineages.
+
+Taken together, these data indicate that loss of expression of PKD family members does not globally impact on early BCR-regulated signalling pathways.
+

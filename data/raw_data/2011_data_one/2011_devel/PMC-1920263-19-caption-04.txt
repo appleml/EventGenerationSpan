@@ -1,0 +1,65 @@
+A3G promoter activities after coexpression of HIV-1 proteins or treatment with TPA or interferons.
+# T1 Protein S1 0 3 0 3 A3G
+
+(A) A3.01 T cells were cotransfected with pGL3-Basic reporter plasmid containing the 1025 bp A3G promoter and 1 microg of Vif expression plasmid, 1 microg Tat expression plasmid or increasing amounts of HIV-1NL4-3 (0.1, 0.5 and 1 microg).
+# T2 Protein S2 93 96 192 195 A3G
+# T3 Protein S2 122 125 221 224 Vif
+# T4 Protein S2 155 158 254 257 Tat
+
+After 48 h, cells were harvested for luciferase assay.
+# T5 Protein S3 37 47 375 385 luciferase
+
+Firefly luciferase activities were normalized to coexpressed renilla luciferase activities.
+# T6 Protein S4 8 18 401 411 luciferase
+# T7 Protein S4 69 79 462 472 luciferase
+$ T6 Protein S4 8 18 401 411 luciferase
+$ T7 Protein S4 69 79 462 472 luciferase
+@ T21 Gene_expression S4 49 60 442 453 coexpressed
+% E1 Gene_expression:T21 Theme:T6
+% E2 Gene_expression:T21 Theme:T7
+
+(B) A3.01 T cells were transiently transfected with pGL3-Basic reporter plasmid containing the 1025 bp A3G promoter or with empty vector.
+# T8 Protein S5 103 106 588 591 A3G
+
+Fifteen hour before harvesting for luciferase assay, a subset of the cell culture was stimulated with 20 ng/ml TPA.
+# T9 Protein S6 35 45 658 668 luciferase
+
+Forty-eight hour after transfection, luciferase assay was performed.
+# T10 Protein S7 37 47 776 786 luciferase
+
+Firefly luciferase activities were normalized to coexpressed renilla luciferase activities and the values for the empty vectors (untreated and TPA-stimulated) were set as 1.
+# T11 Protein S8 8 18 816 826 luciferase
+# T12 Protein S8 69 79 877 887 luciferase
+$ T11 Protein S8 8 18 816 826 luciferase
+$ T12 Protein S8 69 79 877 887 luciferase
+@ T22 Gene_expression S8 49 60 857 868 coexpressed
+% E3 Gene_expression:T22 Theme:T11
+% E4 Gene_expression:T22 Theme:T12
+
+(C) A3.01 T cells were transiently transfected with the A3G promoter constructs or with the interferon-responsive reporter plasmid pGL2-CVX (GAS).
+# T13 Protein S9 56 59 1038 1041 A3G
+# T14 Protein S9 92 102 1074 1084 interferon
+
+Fifteen hour before harvesting for luciferase assay, a subset of the cell culture was stimulated with 30 ng/ml IFN-alpha or IFN-gamma.
+# T15 Protein S10 35 45 1164 1174 luciferase
+# T16 Protein S10 111 120 1240 1249 IFN-alpha
+# T17 Protein S10 124 133 1253 1262 IFN-gamma
+
+Forty-eight hour after transfection, luciferase assay was performed.
+# T18 Protein S11 37 47 1301 1311 luciferase
+
+Firefly luciferase activities were normalized to coexpressed renilla luciferase activities.
+# T19 Protein S12 8 18 1341 1351 luciferase
+# T20 Protein S12 69 79 1402 1412 luciferase
+$ T19 Protein S12 8 18 1341 1351 luciferase
+$ T20 Protein S12 69 79 1402 1412 luciferase
+@ T23 Gene_expression S12 49 60 1382 1393 coexpressed
+% E5 Gene_expression:T23 Theme:T19
+% E6 Gene_expression:T23 Theme:T20
+
+(D) HepG2 cells were used for transfection.
+
+The experiment was performed as described in (C).
+
+Mean values (+/-SD) of representative experiments performed in triplicate are shown.
+

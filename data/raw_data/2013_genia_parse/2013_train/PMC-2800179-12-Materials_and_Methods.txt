@@ -1,0 +1,24 @@
+Analysis	NN	B-NP	O	Other	No	No	Other	Other	###	1	Analysis	Analysis	NN	NN	_	0	root	_	_
+of	IN	B-PP	O	Other	No	No	Other	Other	###	2	of	of	IN	IN	_	4	case	_	_
+NF-kappaB	NN	B-NP	B-protein	Other	No	No	Other	Other	###	3	NF-kappaB	NF-kappaB	NN	NN	_	4	compound	_	_
+Activation	NN	I-NP	O	Other	No	No	Other	Other	###	4	Activation	Activation	NN	NN	_	1	nmod	_	_
+by	IN	B-PP	O	Other	No	No	Other	Other	###	5	by	by	IN	IN	_	7	case	_	_
+Flow	NN	B-NP	O	Other	No	No	Other	Other	###	6	Flow	Flow	NN	NN	_	7	compound	_	_
+Cytometry	NN	I-NP	O	Other	No	No	Other	Other	###	7	Cytometry	Cytometry	NN	NN	_	4	nmod	_	_
+
+Nuclear	JJ	B-NP	O	Other	No	No	Other	Other	###	1	Nuclear	Nuclear	JJ	JJ	_	2	amod	_	_
+activation	NN	I-NP	O	Other	No	No	Other	Other	###	2	activation	activation	NN	NN	_	9	nsubjpass	_	_
+of	IN	B-PP	O	Other	No	No	Other	Other	###	3	of	of	IN	IN	_	4	case	_	_
+NF-kappabeta	NN	B-NP	B-protein	Other	No	No	Other	Other	###	4	NF-kappabeta	NF-kappabeta	NN	NN	_	2	nmod	_	_
+by	IN	B-PP	O	Other	No	No	Other	Other	###	5	by	by	IN	IN	_	7	case	_	_
+flow	NN	B-NP	O	Other	No	No	Other	Other	###	6	flow	flow	NN	NN	_	7	compound	_	_
+cytometry	NN	I-NP	O	Other	No	No	Other	Other	###	7	cytometry	cytometry	NN	NN	_	2	nmod	_	_
+was	VBD	B-VP	O	Other	No	No	Other	Other	###	8	was	was	VBD	VBD	_	9	auxpass	_	_
+performed	VBN	I-VP	O	Other	No	No	Other	Other	###	9	performed	performed	VBN	VBN	_	0	root	_	_
+as	IN	B-SBAR	O	Other	No	No	Other	Other	###	10	as	as	IN	IN	_	11	mark	_	_
+described	VBN	B-VP	O	Other	No	No	Other	Other	###	11	described	described	VBN	VBN	_	9	advcl	_	_
+[	(	O	O	Other	No	No	Other	Other	###	12	[	[	(	(	_	9	advcl	_	_
+31	CD	B-NP	O	Other	No	No	Other	Other	###	13	31	31	CD	CD	_	14	nummod	_	_
+]	)	O	O	Other	No	No	Other	Other	###	14	]	]	)	)	_	12	xcomp	_	_
+.	.	O	O	Other	No	No	Other	Other	###	15	.	.	.	.	_	9	punct	_	_
+

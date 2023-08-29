@@ -1,0 +1,25 @@
+Protein-tyrosine kinase activation is required for lipopolysaccharide induction of interleukin 1beta and NFkappaB activation, but not NFkappaB nuclear translocation.
+# T1 Protein S1 83 100 83 100 interleukin 1beta
+
+In human monocytes, interleukin 1beta protein production and steady state mRNA levels are increased in response to lipopolysaccharide, predominantly as a result of increased transcription of the interleukin 1beta gene.
+# T2 Protein S2 20 37 187 204 interleukin 1beta
+# T3 Protein S2 195 212 362 379 interleukin 1beta
+
+Expression of interleukin 1beta and other cytokines, such as interleukin 6 and tumor necrosis factor alpha, has been shown to be dependent on the activation of the transcription factor, NFkappaB.
+# T4 Protein S3 14 31 400 417 interleukin 1beta
+# T5 Protein S3 61 74 447 460 interleukin 6
+# T6 Protein S3 79 106 465 492 tumor necrosis factor alpha
+
+Since recent studies have shown that lipopolysaccharide-induced tyrosine kinase activation is not required for NFkappaB nuclear translocation, we sought to determine whether NFkappaB translocated in the absence of tyrosine kinase activity was active in stimulating transcription.
+
+We have found that, in the human pro-monocytic cell line, THP-1, the lipopolysaccharide-induced expression of interleukin 1beta is dependent on tyrosine kinase activation.
+# T7 Protein S5 110 127 972 989 interleukin 1beta
+
+Tyrosine kinases are not required for lipopolysaccharide-mediated nuclear translocation of NFkappaB.
+
+However, in the absence of tyrosine kinase activity, the ability of NFkappaB to stimulate transcription is impaired.
+
+This inhibition of transcription is specific for NFkappaB; in the absence of tyrosine kinase activity, AP-1-dependent transcription is enhanced.
+
+These results suggest that, while lipopolysaccharide-induced expression of inflammatory mediators requires tyrosine kinase activity, tyrosine kinase activity is not obligatory for lipopolysaccharide signal transduction.
+

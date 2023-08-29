@@ -1,0 +1,33 @@
+An isotype-specific activator of major histocompatibility complex (MHC) class II genes that is independent of class II transactivator.
+# T1 Protein S1 110 133 110 133 class II transactivator
+
+Patients with one type of major histocompatibility complex class II combined immunodeficiency have mutations in a gene termed class II transactivator (CIITA), which coordinately controls the transcription of the three major human class II genes, HLA-DR, -DQ, and -DP.
+# T2 Protein S2 126 149 262 285 class II transactivator
+# T3 Protein S2 151 156 287 292 CIITA
+
+However, the experimentally derived B-lymphoblastoid cell line, clone 13, expresses high levels of HLADQ in the absence of HLA-DR and HLA-DP, despite its mapping by complementation analysis to this group.
+
+It was possible that one of the clone 13 CIITA alleles bore a mutation that allowed HLA-DQ, but not HLA-DR or -DP transcription.
+# T4 Protein S4 41 46 650 655 CIITA
+
+Alternatively, another factor, distinct from CIITA, might control HLA-DQ expression.
+# T5 Protein S5 45 50 783 788 CIITA
+
+We report here that ectopic expression of CIITA cDNAs derived by reverse transcriptase polymerase chain reaction from clone 13 do not restore expression of HLA-DQ in another CIITA-deficient cell line, RJ2.2.5.
+# T6 Protein S6 42 47 865 870 CIITA
+# T7 Protein S6 174 179 997 1002 CIITA
+$ T6 Protein S6 42 47 865 870 CIITA
+@ T10 Gene_expression S6 28 38 851 861 expression
+% E1 Gene_expression:T10 Theme:T6
+
+In addition, no CIITA protein is detectable in clone 13 nuclear extracts.
+# T8 Protein S7 16 21 1049 1054 CIITA
+$ T8 Protein S7 16 21 1049 1054 CIITA
+@ T11 Gene_expression S7 33 43 1066 1076 detectable
+% E2 Gene_expression:T11 Theme:T8
+
+In contrast, somatic cell fusion between clone 13 and RJ2.2.5 restored expression of the HLA-DQ haplotype encoded by the RJ2.2.5 DQB gene.
+
+Taken together, these data demonstrate the existence of an HLA-DQ isotype-specific trans-acting factor, which functions independently of CIITA.
+# T9 Protein S9 137 142 1383 1388 CIITA
+

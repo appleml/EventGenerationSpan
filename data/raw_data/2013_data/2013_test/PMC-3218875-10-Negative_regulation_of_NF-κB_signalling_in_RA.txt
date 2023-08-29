@@ -1,0 +1,64 @@
+microRNAs
+
+miRNAs are recently discovered regulators of gene expression and represent a class of noncoding RNA molecules essential in many cellular and developmental processes, including immune responses and inflammation.
+
+They bind the 3'-UTR of target mRNAs leading to the repression of protein expression and the promotion of target mRNA degradation [77].
+
+miR-146a/b and miR-155 are of particular interest for inflammatory signalling to NF-kappaB, since these miRNAs can be induced by inflammatory stimuli such as IL-1beta, TNF and TLRs [78,79].
+# T1 Protein S4 0 8 357 365 miR-146a
+# T2 Protein S4 9 10 366 367 b
+# T3 Protein S4 15 22 372 379 miR-155
+# T4 Protein S4 158 166 515 523 IL-1beta
+# T5 Protein S4 168 171 525 528 TNF
+
+In addition, miR-146a is an NF-kappaB-dependent gene, and the NF-kappaB signalling molecules IRAK1 and TRAF6 were identified as target genes of miR-146a [78] (Figure 1).
+# T6 Protein S5 13 21 560 568 miR-146a
+# T7 Protein S5 93 98 640 645 IRAK1
+# T8 Protein S5 103 108 650 655 TRAF6
+# T9 Protein S5 144 152 691 699 miR-146a
+
+Similarly, miR-155 was shown to target transcripts for the NF-kappaB signalling molecules IKKepsilon and RIP1 [79,80].
+# T10 Protein S6 11 18 728 735 miR-155
+# T11 Protein S6 90 100 807 817 IKKepsilon
+# T12 Protein S6 105 109 822 826 RIP1
+
+Notably, both miR-146 and miR-155 are expressed at higher levels in RA synovial fibroblasts and synovial tissue [81,82], as well as in peripheral blood mononuclear cells of RA patients [83].
+# T13 Protein S7 26 33 862 869 miR-155
+
+miR-146a is also overexpressed in CD4+ and IL-17-producing T cells from RA patients [84,85].
+# T14 Protein S8 0 8 1027 1035 miR-146a
+# T15 Protein S8 34 37 1061 1064 CD4
+# T16 Protein S8 43 48 1070 1075 IL-17
+
+Interestingly, a polymorphism in the 3'-UTR of the miR-146a target gene was recently shown to be associated with RA susceptibility [86].
+# T17 Protein S9 51 59 1171 1179 miR-146a
+
+miR-155 overexpression in synovial fibroblasts was able to prevent the TLR and cytokine-inducible expression of specific matrix metalloproteinases that mediate tissue destruction in RA [81].
+# T18 Protein S10 0 7 1257 1264 miR-155
+
+Moreover, miR-155 was shown to promote TNF production, a key process in the pathogenesis of RA [87].
+# T19 Protein S11 10 17 1458 1465 miR-155
+# T20 Protein S11 39 42 1487 1490 TNF
+
+miR-146 and miR-155 may therefore be important negative regulators of inflammation in RA and their potential for the development of new treatments is substantial.
+# T21 Protein S12 12 19 1561 1568 miR-155
+
+In addition, their increased expression in RA patients is potentially useful as a marker for disease diagnosis, progression, or treatment efficacy [88], but this will require confirmation using a large and well-defined cohort.
+
+Besides miR-146 and miR-155, a number of other miRNAs with a potential role in the control of NF-kappaB-dependent inflammatory responses in RA pathology were recently identified.
+# T22 Protein S14 20 27 1959 1966 miR-155
+
+In this context, miR-124a - a key regulator of the chemokine monocyte chemoattractant protein 1 - was shown to be decreased in synoviocytes from RA patients [89].
+# T23 Protein S15 17 25 2135 2143 miR-124a
+# T24 Protein S15 61 95 2179 2213 monocyte chemoattractant protein 1
+
+Similarly, elevated levels of miR-203 - leading to increased secretion of matrix metalloproteinase-1 and IL-6 - were detected in RA synovial fibroblasts [90].
+# T25 Protein S16 30 37 2311 2318 miR-203
+# T26 Protein S16 74 100 2355 2381 matrix metalloproteinase-1
+# T27 Protein S16 105 109 2386 2390 IL-6
+
+Finally, miR-16, miR-132, and miR-223 were also shown to have an altered expression in RA patients, indicating their potential as diagnostic biomarkers for pathogenesis [83,88,91].
+# T28 Protein S17 9 15 2449 2455 miR-16
+# T29 Protein S17 17 24 2457 2464 miR-132
+# T30 Protein S17 30 37 2470 2477 miR-223
+

@@ -1,0 +1,17 @@
+An erythroid specific enhancer upstream to the gene encoding the cell-type specific transcription factor GATA-1.
+# T1 Protein S1 105 111 105 111 GATA-1
+
+The transcription factor GATA-1 is expressed in a subset of hemopoietic cells, where it mediates the cell-type specific expression of several genes.
+# T2 Protein S2 25 31 139 145 GATA-1
+$ T2 Protein S2 25 31 139 145 GATA-1
+@ T5 Gene_expression S2 35 44 149 158 expressed
+% E1 Gene_expression:T5 Theme:T2
+
+We have cloned the mouse and human GATA-1 genes.
+
+A region upstream to the first exon, and highly conserved between mouse and man, acts as an erythroid specific enhancer in transient assays, if linked to the GATA-1 or to the SV40 promoter.
+# T3 Protein S4 158 164 470 476 GATA-1
+
+The activity of the enhancer is almost completely dependent on the integrity of a dimeric GATA-1 binding site.
+# T4 Protein S5 90 96 592 598 GATA-1
+

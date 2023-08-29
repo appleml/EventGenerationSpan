@@ -1,0 +1,17 @@
+Regulation of interferon-gamma gene expression.
+# T1 Protein S1 14 30 14 30 interferon-gamma
+
+Interferon-gamma ( IFN-gamma ), also known as type II interferon, is an important immunoregulatory gene that has multiple effects on the development, maturation, and function of the immune system.
+# T2 Protein S2 0 16 49 65 Interferon-gamma
+# T3 Protein S2 19 28 68 77 IFN-gamma
+# T4 Protein S2 46 64 95 113 type II interferon
+
+IFN-gamma mRNA and protein are expressed predominantly by T cells and large granular lymphocytes.
+# T5 Protein S3 0 9 246 255 IFN-gamma
+
+The IFN-gamma mRNA is induced/inhibited in these cell types by a wide variety of extracellular signals, thus implicating a number of diverse, yet convergent signal transduction pathways in its transcriptional control.
+# T6 Protein S4 4 13 348 357 IFN-gamma
+
+In this review, I describe how DNA methylation and specific DNA binding proteins may regulate transcription of the IFN-gamma gene in response to extracellular signals.
+# T7 Protein S5 115 124 677 686 IFN-gamma
+

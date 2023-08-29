@@ -1,0 +1,69 @@
+E3, a hematopoietic-specific transcript directly regulated by the retinoic acid receptor alpha.
+# T1 Protein S1 0 2 0 2 E3
+# T2 Protein S1 66 94 66 94 retinoic acid receptor alpha
+$ T1 Protein S1 0 2 0 2 E3
+$ T2 Protein S1 66 94 66 94 retinoic acid receptor alpha
+@ T14 Transcription S1 29 39 29 39 transcript
+@ T15 Regulation S1 49 58 49 58 regulated
+% E1 Transcription:T14 Theme:T1
+% E2 Regulation:T15 Theme:E1 Cause:T2
+
+Retinoic acid (RA)-induced maturation mediated by the retinoic acid receptor alpha (RAR alpha) has been implicated in myeloid development.
+# T3 Protein S2 54 82 151 179 retinoic acid receptor alpha
+# T4 Protein S2 84 93 181 190 RAR alpha
+
+We have used differential hybridization analysis of a cDNA library constructed from the murine RA-inducible MPRO promyelocyte cell line to identify immediate-early genes induced by RA during granulocytic differentiation.
+
+E3, one of nine sequences identified, was upregulated in an immediate-early manner, with transcript levels peaking after 60 minutes exposure to RA.
+# T5 Protein S4 0 2 457 459 E3
+$ T5 Protein S4 0 2 457 459 E3
+@ T16 Positive_regulation S4 42 53 499 510 upregulated
+@ T17 Transcription S4 89 99 546 556 transcript
+@ T18 Positive_regulation S4 100 114 557 571 levels peaking
+% E3 Positive_regulation:T16 Theme:T5
+% E4 Transcription:T17 Theme:T5
+% E5 Positive_regulation:T18 Theme:E4
+
+E3 transcripts were RA-inducible in HL60 cells, but not in an RA-resistant subclone, HL60R, that harbors a mutated RAR alpha gene.
+# T6 Protein S5 0 2 605 607 E3
+# T7 Protein S5 115 124 720 729 RAR alpha
+$ T6 Protein S5 0 2 605 607 E3
+@ T19 Transcription S5 3 14 608 619 transcripts
+@ T20 Positive_regulation S5 23 32 628 637 inducible
+% E6 Transcription:T19 Theme:T6
+% E7 Positive_regulation:T20 Theme:E6
+
+However, when HL60R cells were transduced with a functional copy of the RAR alpha gene, RA induced a 10-fold increase in E3 mRNA levels.
+# T8 Protein S6 72 81 808 817 RAR alpha
+# T9 Protein S6 121 123 857 859 E3
+$ T9 Protein S6 121 123 857 859 E3
+@ T21 Positive_regulation S6 91 98 827 834 induced
+@ T22 Positive_regulation S6 109 117 845 853 increase
+@ T23 Transcription S6 129 135 865 871 levels
+% E8 Positive_regulation:T21 Theme:E9
+% E9 Positive_regulation:T22 Theme:E10
+% E10 Transcription:T23 Theme:T9
+
+E3 transcripts are present in the myeloid, B-lymphoid, and erythroid lineages, absent in nonhematopoietic cells, and encode a highly hydrophobic, potentially phosphorylated polypeptide of unknown function with significant homology to a putative protein expressed in myeloid cells.
+# T10 Protein S7 0 2 873 875 E3
+$ T10 Protein S7 0 2 873 875 E3
+@ T24 Transcription S7 3 14 876 887 transcripts
+% E11 Transcription:T24 Theme:T10
+
+The murine E3 promoter harbors a single bipartite retinoic acid response element which in transient transfection assays conferred RA sensitivity.
+# T11 Protein S8 11 13 1165 1167 E3
+$ T11 Protein S8 11 13 1165 1167 E3
+@ T25 Entity S8 14 22 1168 1176 promoter
+@ T26 Regulation S8 133 144 1287 1298 sensitivity
+% E12 Regulation:T26 Theme:T11 Site:T25
+
+These results indicate that E3 is a hematopoietic-specific gene that is an immediate target for the activated RAR alpha during myelopoiesis.
+# T12 Protein S9 28 30 1328 1330 E3
+# T13 Protein S9 110 119 1410 1419 RAR alpha
+$ T12 Protein S9 28 30 1328 1330 E3
+$ T13 Protein S9 110 119 1410 1419 RAR alpha
+@ T27 Regulation S9 85 91 1385 1391 target
+@ T28 Positive_regulation S9 100 109 1400 1409 activated
+% E13 Regulation:T27 Theme:T12 Cause:T13
+% E14 Positive_regulation:T28 Theme:T13
+

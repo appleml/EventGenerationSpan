@@ -1,0 +1,152 @@
+PKC is Essential in Regulating NF-kappaB Activity
+
+M-CSF-dependent PKC activity facilitated NF-kappaB p65 phosphorylation at Ser276 but not Ser536.
+# T1 Protein S2 51 54 101 104 p65
+$ T1 Protein S2 51 54 101 104 p65
+@ T39 Positive_regulation S2 29 40 79 90 facilitated
+@ T40 Phosphorylation S2 55 70 105 120 phosphorylation
+@ T41 Entity S2 74 80 124 130 Ser276
+@ T42 Entity S2 89 95 139 145 Ser536
+% E1 Positive_regulation:T39 Theme:E2
+% E3 Positive_regulation:T39 Theme:E4
+% E2 Phosphorylation:T40 Theme:T1 Site:T41
+% E4 Phosphorylation:T40 Theme:T1 Site:T42
+
+To confirm the role of PKC and p65 Ser276 phosphorylation on NF-kappaB activity, we co-transfected the NF-kappaB-SEAP construct with either WT NF-kappaB p65 or NF-kappaB p65 276S/A constructs in Raw 264.7 cells, then treated cells with the PKC inhibitor Ro-31-8220 in the absence or presences of M-CSF.
+# T2 Protein S3 31 34 178 181 p65
+# T3 Protein S3 153 156 300 303 p65
+# T4 Protein S3 170 173 317 320 p65
+$ T2 Protein S3 31 34 178 181 p65
+$ T3 Protein S3 153 156 300 303 p65
+$ T4 Protein S3 170 173 317 320 p65
+@ T43 Entity S3 35 41 182 188 Ser276
+@ T44 Phosphorylation S3 42 57 189 204 phosphorylation
+@ T45 Gene_expression S3 84 98 231 245 co-transfected
+% E5 Phosphorylation:T44 Theme:T2 Site:T43
+% E6 Gene_expression:T45 Theme:T3
+% E7 Gene_expression:T45 Theme:T4
+
+As expected in cells transfected with vector control, inhibiting PKC reduced M-CSF-stimulated NF-kappaB activity compared to cells treated with M-CSF and the vehicle DMSO (p = 0.001) (Figure 8A).
+
+In contrast, expressing WT NF-kappaB p65 (p65 WT) increased NF-kappaB activity, while the general PKC inhibitor Ro-31-8220 decreased this NF-kappaB activity (p = 0.001).
+# T5 Protein S5 37 40 683 686 p65
+# T6 Protein S5 42 45 688 691 p65
+$ T5 Protein S5 37 40 683 686 p65
+@ T46 Gene_expression S5 13 23 659 669 expressing
+% E8 Gene_expression:T46 Theme:T5
+
+Notably, the introduction of NF-kappaB p65 276 S/A construct significantly reduced NF-kappaB activity compared with the WT NF-kappaB p65 construct (p = 0.005) and M-CSF treatment was unable to overcome this inhibition.
+# T7 Protein S6 39 42 855 858 p65
+# T8 Protein S6 133 136 949 952 p65
+$ T7 Protein S6 39 42 855 858 p65
+@ T47 Gene_expression S6 13 25 829 841 introduction
+% E9 Gene_expression:T47 Theme:T7
+
+Furthermore, we co-transfected the NF-kappaB-SEAP construct along with either the WT NF-kappaB p65, NF-kappaB p65 276S/A or NF-kappaB p65 536S/A constructs into a NF-kappaB p65-/- murine fibroblast cell line and measured NF-kappaB activity.
+# T9 Protein S7 95 98 1130 1133 p65
+# T10 Protein S7 110 113 1145 1148 p65
+# T11 Protein S7 134 137 1169 1172 p65
+# T12 Protein S7 173 176 1208 1211 p65
+$ T10 Protein S7 110 113 1145 1148 p65
+$ T11 Protein S7 134 137 1169 1172 p65
+$ T12 Protein S7 173 176 1208 1211 p65
+@ T48 Gene_expression S7 16 30 1051 1065 co-transfected
+@ T49 Gene_expression S7 176 179 1211 1214 -/-
+% E10 Gene_expression:T48 Theme:T10
+% E11 Gene_expression:T48 Theme:T11
+% E12 Gene_expression:T49 Theme:T12
+
+As predicted, expression of WT NF-kappaB p65 (p65 WT) in NF-kappaB p65-/- cell line constitutively activated NF-kappaB compared to cells transfected with vector control without any stimulation (Figure 8B).
+# T13 Protein S8 41 44 1317 1320 p65
+# T14 Protein S8 46 49 1322 1325 p65
+# T15 Protein S8 67 70 1343 1346 p65
+$ T13 Protein S8 41 44 1317 1320 p65
+$ T15 Protein S8 67 70 1343 1346 p65
+@ T50 Gene_expression S8 14 24 1290 1300 expression
+@ T51 Gene_expression S8 70 73 1346 1349 -/-
+% E13 Gene_expression:T50 Theme:T13
+% E14 Gene_expression:T51 Theme:T15
+
+In comparison, transfecting the NF-kappaB p65 276S/A construct reduced NF-kappaB activity by 5-fold (p = 0.006, WT NF-kappaB p65 vs. NF-kappaB p65 276S/A), while expressing the NF-kappaB p65 536S/A construct increased NF-kappaB activity in the p65-/- cells to levels similar to WT NF-kappaB p65 transfected cells.
+# T16 Protein S9 42 45 1524 1527 p65
+# T17 Protein S9 125 128 1607 1610 p65
+# T18 Protein S9 143 146 1625 1628 p65
+# T19 Protein S9 187 190 1669 1672 p65
+# T20 Protein S9 244 247 1726 1729 p65
+# T21 Protein S9 291 294 1773 1776 p65
+$ T16 Protein S9 42 45 1524 1527 p65
+$ T19 Protein S9 187 190 1669 1672 p65
+$ T20 Protein S9 244 247 1726 1729 p65
+$ T21 Protein S9 291 294 1773 1776 p65
+@ T52 Gene_expression S9 15 27 1497 1509 transfecting
+@ T53 Gene_expression S9 162 172 1644 1654 expressing
+@ T54 Gene_expression S9 247 250 1729 1732 -/-
+@ T55 Gene_expression S9 295 306 1777 1788 transfected
+% E15 Gene_expression:T52 Theme:T16
+% E16 Gene_expression:T53 Theme:T19
+% E17 Gene_expression:T54 Theme:T20
+% E18 Gene_expression:T55 Theme:T21
+
+Since M-CSF-induced PKC activation regulated NF-kappaB activity via Ser276 residue of NF-kappaB p65 in primary human MDMs and RAW 264.7 cells, we next examined if this occurred in NF-kappaB p65-/- fibroblasts in response to a native stimulus for these cells, TNFalpha.
+# T22 Protein S10 96 99 1892 1895 p65
+# T23 Protein S10 190 193 1986 1989 p65
+# T24 Protein S10 259 267 2055 2063 TNFalpha
+$ T23 Protein S10 190 193 1986 1989 p65
+@ T56 Gene_expression S10 193 196 1989 1992 -/-
+% E19 Gene_expression:T56 Theme:T23
+
+NF-kappaB activity was measured in the WT NF-kappaB p65 or NF-kappaB p65 276S/A transfected cells treated with TNFalpha in the absence or presence of Ro-31-8220 (Figure 8C).
+# T25 Protein S11 52 55 2117 2120 p65
+# T26 Protein S11 69 72 2134 2137 p65
+# T27 Protein S11 111 119 2176 2184 TNFalpha
+$ T25 Protein S11 52 55 2117 2120 p65
+$ T26 Protein S11 69 72 2134 2137 p65
+@ T57 Gene_expression S11 80 91 2145 2156 transfected
+% E20 Gene_expression:T57 Theme:T25
+% E21 Gene_expression:T57 Theme:T26
+
+As expected, TNFalpha increased NF-kappaB activity in NF-kappaB p65-/- cells expressing WT p65 and (p = 0.001) PKC inhibitors decreased NF-kappaB activity to the non-stimulated (NS) level (p = 0.007).
+# T28 Protein S12 13 21 2252 2260 TNFalpha
+# T29 Protein S12 64 67 2303 2306 p65
+# T30 Protein S12 91 94 2330 2333 p65
+$ T29 Protein S12 64 67 2303 2306 p65
+$ T30 Protein S12 91 94 2330 2333 p65
+@ T58 Gene_expression S12 67 70 2306 2309 -/-
+@ T59 Gene_expression S12 77 87 2316 2326 expressing
+% E22 Gene_expression:T58 Theme:T29
+% E23 Gene_expression:T59 Theme:T30
+
+Introducing NF-kappaB p65 276 S/A constructs significantly reduced NF-kappaB activity compared with the WT NF-kappaB p65 construct (p = 0.001).
+# T31 Protein S13 22 25 2462 2465 p65
+# T32 Protein S13 117 120 2557 2560 p65
+$ T31 Protein S13 22 25 2462 2465 p65
+@ T60 Gene_expression S13 0 11 2440 2451 Introducing
+% E24 Gene_expression:T60 Theme:T31
+
+Notably, TNFalpha failed to increase NF-kappaB activity in the NF-kappaB p65-/- cells expressing NF-kappaB p65 276S/A constructs.
+# T33 Protein S14 9 17 2593 2601 TNFalpha
+# T34 Protein S14 73 76 2657 2660 p65
+# T35 Protein S14 107 110 2691 2694 p65
+$ T34 Protein S14 73 76 2657 2660 p65
+$ T35 Protein S14 107 110 2691 2694 p65
+@ T61 Gene_expression S14 76 79 2660 2663 -/-
+@ T62 Gene_expression S14 86 96 2670 2680 expressing
+% E25 Gene_expression:T61 Theme:T34
+% E26 Gene_expression:T62 Theme:T35
+
+These observations are similar to macrophages overexpressing the NF-kappaB p65 276S/A (Figure 8A).
+# T36 Protein S15 75 78 2789 2792 p65
+$ T36 Protein S15 75 78 2789 2792 p65
+@ T63 Gene_expression S15 46 60 2760 2774 overexpressing
+% E27 Gene_expression:T63 Theme:T36
+
+Our data demonstrate that Ser276 of NF-kappaB p65 is essential in regulating NF-kappaB activity and suggests that PKC regulates NF-kappaB activity by modulating the phosphorylation of NF-kappaB p65 at Ser276 residue.
+# T37 Protein S16 46 49 2859 2862 p65
+# T38 Protein S16 194 197 3007 3010 p65
+$ T38 Protein S16 194 197 3007 3010 p65
+@ T64 Regulation S16 150 160 2963 2973 modulating
+@ T65 Phosphorylation S16 165 180 2978 2993 phosphorylation
+@ T66 Entity S16 201 207 3014 3020 Ser276
+% E28 Regulation:T64 Theme:E29
+% E29 Phosphorylation:T65 Theme:T38 Site:T66
+

@@ -1,0 +1,35 @@
+c-Myc and E1A induced cellular sensitivity to activated NK cells involves cytotoxic granules as death effectors.
+# T1 Protein S1 0 5 0 5 c-Myc
+# T2 Protein S1 10 13 10 13 E1A
+
+The contact of natural killer (NK) cells with foreign cells and with certain virus-infected or tumor cells triggers the cytolytic machinery of NK cells.
+
+This triggering leads to exocytosis of the cytotoxic NK cell granules.
+
+The oncoproteins c-Myc and E1A render cells vulnerable to NK cell mediated cytolysis yet the mechanisms of sensitization are not well understood.
+# T3 Protein S4 17 22 355 360 c-Myc
+# T4 Protein S4 27 30 365 368 E1A
+
+In a model where foreign cells (rat fibroblasts) were cocultured with human IL-2 activated NK cells, we observed that NK cells were capable of efficiently killing their targets only if the cells overexpressed the oncogene c-Myc or E1A.
+# T5 Protein S5 76 80 560 564 IL-2
+# T6 Protein S5 222 227 706 711 c-Myc
+# T7 Protein S5 231 234 715 718 E1A
+
+Both the parental and the oncogene expressing fibroblasts similarly triggered phosphoinositide hydrolysis in the bound NK cells, demonstrating that NK cells were cytolytically activated in contact with both resistant parental and oncogene expressing sensitive target fibroblasts.
+
+The cell death was independent of wild-type p53 and was not inhibited by an anti-apoptotic protein EIB19K.
+# T8 Protein S7 44 47 1044 1047 p53
+# T9 Protein S7 99 105 1099 1105 EIB19K
+
+These results provided evidence that c-Myc and E1A activated the NK cell induced cytolysis at a post-triggering stage of NK cell-target cell interaction.
+# T10 Protein S8 37 42 1144 1149 c-Myc
+# T11 Protein S8 47 50 1154 1157 E1A
+
+In consistence, the c-Myc and E1A overexpressing fibroblasts were more sensitive to the cytolytic effects of isolated NK cell-derived granules than parental cells.
+# T12 Protein S9 20 25 1281 1286 c-Myc
+# T13 Protein S9 30 33 1291 1294 E1A
+
+The data indicate that oncogenes activate the cytotoxicity of NK cell granules.
+
+This mechanism can have a role in directing the cytolytic action of NK cells towards the virus-infected and cancer cells.
+

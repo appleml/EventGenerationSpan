@@ -1,0 +1,69 @@
+Sp1 is a critical factor for the monocytic specific expression of human CD14.
+# T1 Protein S1 0 3 0 3 Sp1
+# T2 Protein S1 72 76 72 76 CD14
+$ T1 Protein S1 0 3 0 3 Sp1
+$ T2 Protein S1 72 76 72 76 CD14
+@ T19 Regulation S1 9 17 9 17 critical
+@ T20 Gene_expression S1 52 62 52 62 expression
+% E1 Regulation:T19 Theme:E2 Cause:T1
+% E2 Gene_expression:T20 Theme:T2
+
+CD14 is a membrane glycoprotein expressed specifically on monocytes and macrophages, and its expression is markedly increased during the process of monocyte differentiation.
+# T3 Protein S2 0 4 79 83 CD14
+$ T3 Protein S2 0 4 79 83 CD14
+@ T21 Gene_expression S2 32 41 111 120 expressed
+@ T22 Positive_regulation S2 116 125 195 204 increased
+% E3 Gene_expression:T21 Theme:T3
+% E4 Positive_regulation:T22 Theme:E3
+
+In order to study CD14 gene regulation, the human CD14 gene was cloned from a partial EcoRI digested chromosome 5 library.
+# T4 Protein S3 18 22 271 275 CD14
+# T5 Protein S3 50 54 303 307 CD14
+# T6 Protein S3 86 91 339 344 EcoRI
+$ T4 Protein S3 18 22 271 275 CD14
+@ T23 Regulation S3 28 38 281 291 regulation
+% E5 Regulation:T23 Theme:T4
+
+A 5.5-kilobase genomic clone contained the full-length CD14 coding sequence and 4.2 kilobases of 5'-upstream sequence.
+# T7 Protein S4 55 59 431 435 CD14
+
+One major and one minor transcription start site were identified 101 and 130 base pairs (bp) upstream, respectively, from the protein translation start ATG.
+
+A DNA fragment containing 128 bp of upstream sequence had strong, monocyte-specific promoter activity in the CD14 positive monocytic cell line Mono Mac 6 as compared to the nonmonocytic cell lines HeLa and REX.
+# T8 Protein S6 109 113 761 765 CD14
+
+Four regions in this DNA fragment interact with nuclear proteins isolated from monocytic cells.
+
+The Sp1 transcription factor bound to three different regions in the CD14 promoter.
+# T9 Protein S8 4 7 963 966 Sp1
+# T10 Protein S8 69 73 1028 1032 CD14
+$ T9 Protein S8 4 7 963 966 Sp1
+$ T10 Protein S8 69 73 1028 1032 CD14
+@ T24 Binding S8 29 34 988 993 bound
+@ T25 Entity S8 74 82 1033 1041 promoter
+% E6 Binding:T24 Theme:T9 Theme2:T10 Site2:T25
+
+Mutation of the major Sp1 binding site (-110 bp) decreased tissue-specific promoter activity, and these results, together with transactivation experiments, demonstrate that Sp1 plays a critical role in the tissue-specific expression of CD14 in monocytic cells.
+# T11 Protein S9 22 25 1065 1068 Sp1
+# T12 Protein S9 173 176 1216 1219 Sp1
+# T13 Protein S9 236 240 1279 1283 CD14
+$ T12 Protein S9 173 176 1216 1219 Sp1
+$ T13 Protein S9 236 240 1279 1283 CD14
+@ T26 Regulation S9 194 198 1237 1241 role
+@ T27 Gene_expression S9 222 232 1265 1275 expression
+% E7 Regulation:T26 Theme:E8 Cause:T12
+% E8 Gene_expression:T27 Theme:T13
+
+CD14 Sp1 site oligonucleotides bound preferentially to a 105-kDa Sp1 species, which is present in higher relative levels in monocytic than non-monocytic cells, suggesting that modification of Sp1, such as phosphorylation, may explain how the Sp1 site mediates monocytic specific promoter activity.
+# T14 Protein S10 0 4 1304 1308 CD14
+# T15 Protein S10 5 8 1309 1312 Sp1
+# T16 Protein S10 65 68 1369 1372 Sp1
+# T17 Protein S10 192 195 1496 1499 Sp1
+# T18 Protein S10 242 245 1546 1549 Sp1
+$ T16 Protein S10 65 68 1369 1372 Sp1
+$ T17 Protein S10 192 195 1496 1499 Sp1
+@ T28 Binding S10 31 36 1335 1340 bound
+@ T29 Phosphorylation S10 205 220 1509 1524 phosphorylation
+% E9 Binding:T28 Theme:T16
+% E10 Phosphorylation:T29 Theme:T17
+

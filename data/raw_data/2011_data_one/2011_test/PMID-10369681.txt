@@ -1,0 +1,37 @@
+Aiolos transcription factor controls cell death in T cells by regulating Bcl-2 expression and its cellular localization.
+# T1 Protein S1 0 6 0 6 Aiolos
+# T2 Protein S1 73 78 73 78 Bcl-2
+
+We searched for proteins that interact with Ras in interleukin (IL)-2-stimulated or IL-2-deprived cells, and found that the transcription factor Aiolos interacts with Ras.
+# T3 Protein S2 51 69 173 191 interleukin (IL)-2
+# T4 Protein S2 84 88 206 210 IL-2
+# T5 Protein S2 145 151 267 273 Aiolos
+
+The Ras-Aiolos interaction was confirmed in vitro and in vivo by co-immunoprecipitation.
+# T6 Protein S3 8 14 302 308 Aiolos
+
+Indirect immunofluorescence shows that IL-2 controls the cellular distribution of Aiolos and induces its tyrosine phosphorylation, required for dissociation from Ras.
+# T7 Protein S4 39 43 422 426 IL-2
+# T8 Protein S4 82 88 465 471 Aiolos
+
+We also identified functional Aiolos-binding sites in the Bcl-2 promoter, which are able to activate the luciferase reporter gene.
+# T9 Protein S5 30 36 580 586 Aiolos
+# T10 Protein S5 58 63 608 613 Bcl-2
+# T11 Protein S5 105 115 655 665 luciferase
+
+Mutation of Aiolos-binding sites within the Bcl-2 promoter inhibits transactivation of the reporter gene luciferase, suggesting direct control of Bcl-2 expression by Aiolos.
+# T12 Protein S6 12 18 693 699 Aiolos
+# T13 Protein S6 44 49 725 730 Bcl-2
+# T14 Protein S6 105 115 786 796 luciferase
+# T15 Protein S6 146 151 827 832 Bcl-2
+# T16 Protein S6 166 172 847 853 Aiolos
+
+Co-transfection experiments confirm that Aiolos induces Bcl-2 expression and prevents apoptosis in IL-2-deprived cells.
+# T17 Protein S7 41 47 896 902 Aiolos
+# T18 Protein S7 56 61 911 916 Bcl-2
+# T19 Protein S7 99 103 954 958 IL-2
+
+We propose a model for the regulation of Bcl-2 expression via Aiolos.
+# T20 Protein S8 41 46 1016 1021 Bcl-2
+# T21 Protein S8 62 68 1037 1043 Aiolos
+

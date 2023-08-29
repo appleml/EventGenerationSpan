@@ -1,0 +1,31 @@
+Inhibition of NF-kappa B activity in human T lymphocytes induces caspase-dependent apoptosis without detectable activation of caspase-1 and -3.
+
+NF-kappa B is involved in the transcriptional control of various genes that act as extrinsic and intrinsic survival factors for T cells.
+
+Our findings show that suppression of NF-kappa B activity with cell-permeable SN50 peptide, which masks the nuclear localization sequence of NF-kappa B1 dimers and prevents their nuclear localization, induces apoptosis in resting normal human PBL.
+
+Inhibition of NF-kappa B resulted in the externalization of phosphatidylserine, induction of DNA breaks, and morphological changes consistent with apoptosis.
+
+DNA fragmentation was efficiently blocked by the caspase inhibitor Z-VAD-fmk and partially blocked by Ac-DEVD-fmk, suggesting that SN50-mediated apoptosis is caspase-dependent.
+
+Interestingly, apoptosis induced by NF-kappa B suppression, in contrast to that induced by TPEN (N,N,N',N'-tetrakis [2-pyridylmethyl]ethylenediamine) or soluble Fas ligand (CD95), was observed in the absence of active death effector proteases caspase-1-like (IL-1 converting enzyme), caspase-3-like (CPP32/Yama/apopain), and caspase-6-like and without cleavage of caspase-3 substrates poly(ADP-ribose) polymerase and DNA fragmentation factor-45.
+# T1 Protein S6 161 171 1026 1036 Fas ligand
+# T2 Protein S6 173 177 1038 1042 CD95
+# T3 Protein S6 243 252 1108 1117 caspase-1
+# T4 Protein S6 284 293 1149 1158 caspase-3
+# T5 Protein S6 300 305 1165 1170 CPP32
+# T6 Protein S6 306 310 1171 1175 Yama
+# T7 Protein S6 311 318 1176 1183 apopain
+# T8 Protein S6 325 334 1190 1199 caspase-6
+# T9 Protein S6 364 373 1229 1238 caspase-3
+# T10 Protein S6 417 444 1282 1309 DNA fragmentation factor-45
+
+These findings suggest either low level of activation is required or that different caspases are involved.
+@ T11 Positive_regulation S7 43 53 1354 1364 activation
+% E1 Positive_regulation:T11 Theme:T8
+% E2 Positive_regulation:T11 Theme:T5
+
+Preactivation of T cells resulting in NF-kappa B nuclear translocation protected cells from SN50-induced apoptosis.
+
+Our findings demonstrate an essential role of NF-kappa B in survival of naive PBL.
+

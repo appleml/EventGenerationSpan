@@ -1,0 +1,55 @@
+Cupric ion blocks NF kappa B activation through inhibiting the signal-induced phosphorylation of I kappa B alpha.
+# T1 Protein S1 97 112 97 112 I kappa B alpha
+$ T1 Protein S1 97 112 97 112 I kappa B alpha
+@ T11 Negative_regulation S1 48 58 48 58 inhibiting
+@ T12 Phosphorylation S1 78 93 78 93 phosphorylation
+% E1 Negative_regulation:T11 Theme:E2
+% E2 Phosphorylation:T12 Theme:T1
+
+A transcription factor NF kappa B, which regulates expression of various cellular genes involved in immune responses and viral genes including HIV, is sequestered in the cytoplasm as a complex with an inhibitory protein I kappa B.
+# T2 Protein S2 201 229 316 344 inhibitory protein I kappa B
+$ T2 Protein S2 201 229 316 344 inhibitory protein I kappa B
+@ T13 Binding S2 185 192 300 307 complex
+% E3 Binding:T13 Theme:T2
+
+Various extracellular signals induce phosphorylation and rapid degradation of I kappa B alpha to release NF kappa B.
+# T3 Protein S3 78 93 424 439 I kappa B alpha
+$ T3 Protein S3 78 93 424 439 I kappa B alpha
+@ T14 Positive_regulation S3 30 36 376 382 induce
+@ T15 Phosphorylation S3 37 52 383 398 phosphorylation
+@ T16 Protein_catabolism S3 63 74 409 420 degradation
+% E4 Positive_regulation:T14 Theme:E6
+% E5 Positive_regulation:T14 Theme:E7 Cause:E4
+% E6 Phosphorylation:T15 Theme:T3
+% E7 Protein_catabolism:T16 Theme:T3
+
+Cu2+ was found to inhibit the activation of NF kappa B induced by TNF-alpha, TPA, or H2O2.
+# T4 Protein S4 66 75 529 538 TNF-alpha
+
+Deoxycholate treatment of the cytoplasmic extract prepared from cells stimulated by TNF-alpha in the presence of Cu2+ resulted in the release of NF kappa B from I kappa B alpha, indicating that Cu2+ interferes with the dissociation of the NF kappa B-I kappa B complex.
+# T5 Protein S5 84 93 638 647 TNF-alpha
+# T6 Protein S5 161 176 715 730 I kappa B alpha
+# T7 Protein S5 250 259 804 813 I kappa B
+
+Neither phosphorylation nor degradation of I kappa B alpha was observed upon TNF-alpha stimulation in the presence of Cu2+.
+# T8 Protein S6 43 58 866 881 I kappa B alpha
+# T9 Protein S6 77 86 900 909 TNF-alpha
+$ T8 Protein S6 43 58 866 881 I kappa B alpha
+@ T17 Phosphorylation S6 8 23 831 846 phosphorylation
+@ T18 Protein_catabolism S6 28 39 851 862 degradation
+@ T19 Positive_regulation S6 99 117 922 940 in the presence of
+% E8 Phosphorylation:T17 Theme:T8
+% E9 Protein_catabolism:T18 Theme:T8
+% E10 Positive_regulation:T19 Theme:E9
+% E11 Positive_regulation:T19 Theme:E8
+
+These results indicate that Cu2+ inhibits the release of NF kappa B by blockade of a signal leading to the phosphorylation of I kappa B alpha.
+# T10 Protein S7 126 141 1073 1088 I kappa B alpha
+$ T10 Protein S7 126 141 1073 1088 I kappa B alpha
+@ T20 Negative_regulation S7 71 79 1018 1026 blockade
+@ T21 Positive_regulation S7 92 99 1039 1046 leading
+@ T22 Phosphorylation S7 107 122 1054 1069 phosphorylation
+% E12 Negative_regulation:T20 Theme:E13
+% E13 Positive_regulation:T21 Theme:E14
+% E14 Phosphorylation:T22 Theme:T10
+

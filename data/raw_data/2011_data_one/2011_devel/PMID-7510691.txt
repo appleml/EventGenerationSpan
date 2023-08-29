@@ -1,0 +1,64 @@
+The interleukin-8 AP-1 and kappa B-like sites are genetic end targets of FK506-sensitive pathway accompanied by calcium mobilization.
+# T1 Protein S1 4 17 4 17 interleukin-8
+$ T1 Protein S1 4 17 4 17 interleukin-8
+@ T18 Entity S1 18 22 18 22 AP-1
+@ T19 Entity S1 27 39 27 39 kappa B-like
+@ T20 Regulation S1 62 69 62 69 targets
+% E1 Regulation:T20 Theme:T1 Site:T19
+% E2 Regulation:T20 Theme:T1 Site:T18
+
+FK506, an immunosuppressant, inhibits the production of several cytokines in T lymphocytes.
+
+We observed that FK506 suppressed the transcription of a chemotactic cytokine, interleukin-8 (IL-8) in a human T cell line, Jurkat cells, activated by phorbol 12-myristate 13-acetate (PMA) and calcium (Ca2+) ionophore (ionomycin).
+# T2 Protein S3 79 92 306 319 interleukin-8
+# T3 Protein S3 94 98 321 325 IL-8
+$ T3 Protein S3 94 98 321 325 IL-8
+@ T21 Negative_regulation S3 23 33 250 260 suppressed
+@ T22 Transcription S3 38 51 265 278 transcription
+% E3 Negative_regulation:T21 Theme:E4
+% E4 Transcription:T22 Theme:T3
+
+By deleted and mutated analysis of the IL-8 promoters, the AP-1 and kappa B-like sites were identified as the responsive elements for PMA and ionomycin.
+# T4 Protein S4 39 43 497 501 IL-8
+
+FK506 suppressed the transcriptions through the AP-1 or kappa B-like sites induced by PMA plus Ca(2+)-mobilizing agents, but not those induced by Ca(2+)-independent stimuli.
+@ T23 Negative_regulation S5 6 16 617 627 suppressed
+@ T24 Positive_regulation S5 36 43 647 654 through
+@ T25 Positive_regulation S5 75 82 686 693 induced
+@ T26 Positive_regulation S5 135 142 746 753 induced
+% E5 Negative_regulation:T23 Theme:E9
+% E6 Negative_regulation:T23 Theme:E8
+% E7 Positive_regulation:T24 Theme:E4
+% E8 Positive_regulation:T25 Theme:E7
+% E9 Positive_regulation:T26 Theme:E7
+
+In gel retardation analysis, FK506 had little effect on the binding to the AP-1 site of PMA/ionomycin-induced nuclear factors, which were recognized with anti-JunD or c-Fos antibody.
+# T5 Protein S6 159 163 944 948 JunD
+# T6 Protein S6 167 172 952 957 c-Fos
+$ T6 Protein S6 167 172 952 957 c-Fos
+@ T27 Binding S6 138 148 923 933 recognized
+% E10 Binding:T27 Theme:T6
+
+In contrast, FK506 or EGTA (Ca2+ chelator) similarly affected the formation of kappa B-like site binding complexes, which were not recognized by any antibodies against the human Rel family proteins (c-Rel, p65, p50, and p49).
+# T7 Protein S7 199 204 1167 1172 c-Rel
+# T8 Protein S7 206 209 1174 1177 p65
+# T9 Protein S7 211 214 1179 1182 p50
+# T10 Protein S7 220 223 1188 1191 p49
+
+Furthermore, we confirmed the previous report that FK506 suppressed the PMA/ionomycin-induced activation through authentic kappa B site of immunoglobulin (Ig) gene, to which NF-kappa B binding was also decreased by FK506, indicating that both IL-8 kappa B-like site and Ig kappa B site are FK506-sensitive in spite of the difference of binding factors.
+# T11 Protein S8 243 247 1437 1441 IL-8
+# T12 Protein S8 270 280 1464 1474 Ig kappa B
+
+Our results indicate that not only the reported IL-2 NF-AT and NFIL-2A sites and Ig kappa B site, but also the IL-8 AP-1 and kappa B-like sites are terminals of FK506-sensitive pathway involving Ca2+ mobilization.
+# T13 Protein S9 48 52 1595 1599 IL-2
+# T14 Protein S9 53 58 1600 1605 NF-AT
+# T15 Protein S9 63 70 1610 1617 NFIL-2A
+# T16 Protein S9 81 91 1628 1638 Ig kappa B
+# T17 Protein S9 111 115 1658 1662 IL-8
+$ T17 Protein S9 111 115 1658 1662 IL-8
+@ T28 Entity S9 116 120 1663 1667 AP-1
+@ T29 Entity S9 125 137 1672 1684 kappa B-like
+@ T30 Regulation S9 148 157 1695 1704 terminals
+% E11 Regulation:T30 Theme:T17 Site:T29
+% E12 Regulation:T30 Theme:T17 Site:T28
+

@@ -1,0 +1,97 @@
+Cytomegalovirus immediate early genes upregulate interleukin-6 gene expression.
+# T1 Protein S1 49 62 49 62 interleukin-6
+$ T1 Protein S1 49 62 49 62 interleukin-6
+@ T25 Positive_regulation S1 38 48 38 48 upregulate
+@ T26 Gene_expression S1 68 78 68 78 expression
+% E1 Positive_regulation:T25 Theme:E2
+% E2 Gene_expression:T26 Theme:T1
+
+BACKGROUND: The immediate early genes (IE) of human cytomegalovirus (CMV) can be expressed in monocytic cells and are known to regulate viral and cellular genes.
+
+Interleukin-6 (IL-6) plays a central role in numerous inflammatory and immune processes.
+# T2 Protein S3 0 13 243 256 Interleukin-6
+# T3 Protein S3 15 19 258 262 IL-6
+
+Interleukin-6 levels are increased in lung transplant patients clinically diagnosed with CMV pneumonitis.
+# T4 Protein S4 0 13 332 345 Interleukin-6
+$ T4 Protein S4 0 13 332 345 Interleukin-6
+@ T27 Positive_regulation S4 25 34 357 366 increased
+% E3 Positive_regulation:T27 Theme:T4
+
+The regulation of IL-6 is dependent on various stimuli that include lipopolysaccharide (LPS), viruses, and other cytokines.
+# T5 Protein S5 18 22 456 460 IL-6
+$ T5 Protein S5 18 22 456 460 IL-6
+@ T28 Regulation S5 4 14 442 452 regulation
+% E4 Regulation:T28 Theme:T5
+
+These studies examined the ability of CMV IE gene products to modulate IL-6 production.
+# T6 Protein S6 71 75 633 637 IL-6
+$ T6 Protein S6 71 75 633 637 IL-6
+@ T29 Regulation S6 62 70 624 632 modulate
+@ T30 Gene_expression S6 76 86 638 648 production
+% E5 Regulation:T29 Theme:E6
+% E6 Gene_expression:T30 Theme:T6
+
+METHODS: THP-1 cells, a monocytic cell line, were transfected with the CMV IE genes.
+
+Interleukin-6 protein and IL-6 mRNA were measured in control and CMV immediate early transfected cells.
+# T7 Protein S8 0 13 735 748 Interleukin-6
+# T8 Protein S8 26 30 761 765 IL-6
+
+Cotransfection of CMV IE genes and IL-6 chloramphenicol acetyl transferase (CAT) or IL-6 luciferase constructs were used to study IL-6 promoter activity.
+# T9 Protein S9 35 39 874 878 IL-6
+# T10 Protein S9 40 74 879 913 chloramphenicol acetyl transferase
+# T11 Protein S9 76 79 915 918 CAT
+# T12 Protein S9 84 88 923 927 IL-6
+# T13 Protein S9 130 134 969 973 IL-6
+
+RESULTS: Interleukin-6 protein and mRNA production were significantly increased in cells transfected with the CMV IE genes and stimulated with LPS compared to LPS-stimulated control cells.
+# T14 Protein S10 9 22 1002 1015 Interleukin-6
+$ T14 Protein S10 9 22 1002 1015 Interleukin-6
+@ T31 Transcription S10 40 50 1033 1043 production
+@ T32 Positive_regulation S10 70 79 1063 1072 increased
+% E7 Transcription:T31 Theme:T14
+% E8 Positive_regulation:T32 Theme:E7
+
+Cytomegalovirus IE gene products significantly enhanced LPS stimulation of IL-6 promoter activity in both IL-6 CAT and IL-6 luciferase assays.
+# T15 Protein S11 75 79 1257 1261 IL-6
+# T16 Protein S11 106 110 1288 1292 IL-6
+# T17 Protein S11 111 114 1293 1296 CAT
+# T18 Protein S11 119 123 1301 1305 IL-6
+$ T15 Protein S11 75 79 1257 1261 IL-6
+@ T33 Positive_regulation S11 47 55 1229 1237 enhanced
+@ T34 Positive_regulation S11 60 71 1242 1253 stimulation
+@ T35 Entity S11 80 88 1262 1270 promoter
+% E9 Positive_regulation:T33 Theme:E10
+% E10 Positive_regulation:T34 Theme:T15 Site:T35
+
+A deletion construct that contains a NF-kappa B site but is missing the multiple response region demonstrated a continued increase in IL-6 luciferase activity in LPS-stimulated CMV transfected cells.
+# T19 Protein S12 134 138 1459 1463 IL-6
+
+CONCLUSION: Cytomegalovirus immediate early gene products significantly enhanced expression of IL-6 in LPS-stimulated cells.
+# T20 Protein S13 95 99 1620 1624 IL-6
+$ T20 Protein S13 95 99 1620 1624 IL-6
+@ T36 Positive_regulation S13 72 80 1597 1605 enhanced
+@ T37 Gene_expression S13 81 91 1606 1616 expression
+% E11 Positive_regulation:T36 Theme:E12
+% E12 Gene_expression:T37 Theme:T20
+
+The increase in IL-6 luciferase activity occurs in the absence of the multiple response region, the area of the IL-6 promoter responsive to IL-1, TNF alpha, cyclic amp, and phorbol 12-myristate 13-acetate.
+# T21 Protein S14 16 20 1666 1670 IL-6
+# T22 Protein S14 112 116 1762 1766 IL-6
+# T23 Protein S14 146 155 1796 1805 TNF alpha
+$ T22 Protein S14 112 116 1762 1766 IL-6
+$ T23 Protein S14 146 155 1796 1805 TNF alpha
+@ T38 Entity S14 117 125 1767 1775 promoter
+@ T39 Regulation S14 126 136 1776 1786 responsive
+% E13 Regulation:T39 Theme:T22 Site:T38
+% E14 Regulation:T39 Theme:T22 Cause:T23 Site:T38
+
+The ability of CMV IE gene products to enhance IL-6 production may play an important role in immune inflammatory states associated with CMV infection.
+# T24 Protein S15 47 51 1903 1907 IL-6
+$ T24 Protein S15 47 51 1903 1907 IL-6
+@ T40 Positive_regulation S15 39 46 1895 1902 enhance
+@ T41 Gene_expression S15 52 62 1908 1918 production
+% E15 Positive_regulation:T40 Theme:E16
+% E16 Gene_expression:T41 Theme:T24
+

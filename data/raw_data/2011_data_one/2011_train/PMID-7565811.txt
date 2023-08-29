@@ -1,0 +1,94 @@
+An interferon-gamma activation sequence mediates the transcriptional regulation of the IgG Fc receptor type IC gene by interferon-gamma.
+# T1 Protein S1 3 19 3 19 interferon-gamma
+# T2 Protein S1 87 110 87 110 IgG Fc receptor type IC
+# T3 Protein S1 119 135 119 135 interferon-gamma
+$ T2 Protein S1 87 110 87 110 IgG Fc receptor type IC
+$ T3 Protein S1 119 135 119 135 interferon-gamma
+@ T28 Positive_regulation S1 40 48 40 48 mediates
+@ T29 Regulation S1 53 79 53 79 transcriptional regulation
+% E1 Positive_regulation:T28 Theme:E2
+% E2 Regulation:T29 Theme:T2 Cause:T3
+
+Expression of the IgG Fc receptor type I (Fc gamma RI) on myeloid cells is dramatically increased by treatment with interferon-gamma (IFN-gamma).
+# T4 Protein S2 18 40 156 178 IgG Fc receptor type I
+# T5 Protein S2 42 53 180 191 Fc gamma RI
+# T6 Protein S2 116 132 254 270 interferon-gamma
+# T7 Protein S2 134 143 272 281 IFN-gamma
+$ T5 Protein S2 42 53 180 191 Fc gamma RI
+@ T30 Gene_expression S2 0 10 138 148 Expression
+@ T31 Positive_regulation S2 88 97 226 235 increased
+% E3 Gene_expression:T30 Theme:T5
+% E4 Positive_regulation:T31 Theme:E3
+
+We observed that Fc gamma RI transcript levels in monoblast-like U937 cells were elevated within 3 hr and peaked 12 hr after exposure to IFN-gamma.
+# T8 Protein S3 17 28 301 312 Fc gamma RI
+# T9 Protein S3 137 146 421 430 IFN-gamma
+$ T8 Protein S3 17 28 301 312 Fc gamma RI
+@ T32 Positive_regulation S3 81 89 365 373 elevated
+% E5 Positive_regulation:T32 Theme:T8
+
+Treatment of U937 with IFN-gamma for 9 hr in the presence of cycloheximide led to super-induction of Fc gamma RI expression.
+# T10 Protein S4 23 32 455 464 IFN-gamma
+# T11 Protein S4 101 112 533 544 Fc gamma RI
+$ T11 Protein S4 101 112 533 544 Fc gamma RI
+@ T33 Positive_regulation S4 75 78 507 510 led
+@ T34 Positive_regulation S4 82 87 514 519 super
+@ T35 Positive_regulation S4 88 97 520 529 induction
+@ T36 Gene_expression S4 113 123 545 555 expression
+% E6 Positive_regulation:T33 Theme:E7
+% E7 Positive_regulation:T34 Theme:E8
+% E8 Positive_regulation:T35 Theme:E9
+% E9 Gene_expression:T36 Theme:T11
+
+Nuclear run-on analysis revealed that the rate of Fc gamma RI transcription was increased by IFN-gamma.
+# T12 Protein S5 50 61 607 618 Fc gamma RI
+# T13 Protein S5 93 102 650 659 IFN-gamma
+$ T12 Protein S5 50 61 607 618 Fc gamma RI
+$ T13 Protein S5 93 102 650 659 IFN-gamma
+@ T37 Transcription S5 62 75 619 632 transcription
+@ T38 Positive_regulation S5 80 89 637 646 increased
+% E10 Transcription:T37 Theme:T12
+% E11 Positive_regulation:T38 Theme:E10 Cause:T13
+
+Genomic sequence upstream of the Fc gamma RIC gene was cloned and subjected to primer extension analysis, which demonstrated a single transcription initiation site without a TATA box.
+# T14 Protein S6 33 45 694 706 Fc gamma RIC
+
+Transient transfections of CAT reporter gene constructs containing various Fc gamma RIC promoter sequences into U937 cells revealed that a 20-bp region surrounding the transcription start site (-7 to +13) was capable of mediating transcription initiation and that an IFN-gamma responsive element (GIRE) was present within 74 bp upstream of the transcription initiation site.
+# T15 Protein S7 27 30 872 875 CAT
+# T16 Protein S7 75 87 920 932 Fc gamma RIC
+# T17 Protein S7 267 276 1112 1121 IFN-gamma
+
+A 17-bp sequence between positions -51 and -35 conferred IFN-gamma responsiveness on a heterologous promoter.
+# T18 Protein S8 57 66 1277 1286 IFN-gamma
+
+Double-stranded GIRE sequence, but not a scrambled sequence, was specifically bound by nuclear proteins from IFN-gamma treated U937 cells.
+# T19 Protein S9 109 118 1439 1448 IFN-gamma
+
+Gel shift experiments further showed that the STAT1 alpha protein bound to the Fc gamma RIC GIRE in response to IFN-gamma treatment of U937 cells.
+# T20 Protein S10 46 57 1515 1526 STAT1 alpha
+# T21 Protein S10 79 91 1548 1560 Fc gamma RIC
+# T22 Protein S10 112 121 1581 1590 IFN-gamma
+$ T20 Protein S10 46 57 1515 1526 STAT1 alpha
+@ T39 Binding S10 66 71 1535 1540 bound
+@ T40 Positive_regulation S10 97 111 1566 1580 in response to
+% E12 Binding:T39 Theme:T20
+% E13 Positive_regulation:T40 Theme:E12
+
+The Fc gamma RIC GIRE is homologous to the IFN-gamma activation sequence (GAS) of the guanylate binding protein and to X box elements of class II MHC genes.
+# T23 Protein S11 4 16 1620 1632 Fc gamma RIC
+# T24 Protein S11 43 52 1659 1668 IFN-gamma
+
+Our results demonstrate that transcriptional regulation of the Fc gamma RIC gene by IFN-gamma involves the binding of STAT1 alpha to a 17-bp GAS homology in the proximal promoter.
+# T25 Protein S12 63 75 1836 1848 Fc gamma RIC
+# T26 Protein S12 84 93 1857 1866 IFN-gamma
+# T27 Protein S12 118 129 1891 1902 STAT1 alpha
+$ T25 Protein S12 63 75 1836 1848 Fc gamma RIC
+$ T26 Protein S12 84 93 1857 1866 IFN-gamma
+$ T27 Protein S12 118 129 1891 1902 STAT1 alpha
+@ T41 Regulation S12 29 55 1802 1828 transcriptional regulation
+@ T42 Regulation S12 94 102 1867 1875 involves
+@ T43 Binding S12 107 114 1880 1887 binding
+% E14 Regulation:T41 Theme:T25 Cause:T26
+% E15 Regulation:T42 Theme:E14 Cause:E16
+% E16 Binding:T43 Theme:T27
+

@@ -1,0 +1,38 @@
+Human T-cell leukemia virus type 1 tax protein abrogates interleukin-2 dependence in a mouse T-cell line.
+# T1 Protein S1 35 38 35 38 tax
+# T2 Protein S1 57 70 57 70 interleukin-2
+
+Human T-cell leukemia virus type 1 (HTLV-1) is the etiologic agent of adult T-cell leukemia.
+
+Tax, the viral protein, is thought to be crucial in the development of the disease, since it transforms healthy T cells in vitro and induces tumors in transgenic animals.
+# T3 Protein S3 0 3 200 203 Tax
+
+We examined the effect of Tax activity on the growth of the interleukin-2 (IL-2)-dependent T-cell line CTLL-2.
+# T4 Protein S4 26 29 397 400 Tax
+# T5 Protein S4 60 73 431 444 interleukin-2
+# T6 Protein S4 75 79 446 450 IL-2
+
+Stable expression of Tax in CTLL-2 transformed cell growth from being IL-2 dependent to IL-2 independent.
+# T7 Protein S5 21 24 503 506 Tax
+# T8 Protein S5 70 74 552 556 IL-2
+# T9 Protein S5 88 92 570 574 IL-2
+$ T7 Protein S5 21 24 503 506 Tax
+@ T18 Gene_expression S5 7 17 489 499 expression
+% E1 Gene_expression:T18 Theme:T7
+
+Tax stimulated transcription through NF-kappaB and the cyclic AMP-responsive element-like sequence in the HTLV-1 promoter.
+# T10 Protein S6 0 3 588 591 Tax
+
+The finding of Tax mutants segregating these two pathways suggested that the NF-kappaB pathway was essential for IL-2-independent growth of CTLL-2 cells while the CRE pathway was unnecessary.
+# T11 Protein S7 15 18 726 729 Tax
+# T12 Protein S7 113 117 824 828 IL-2
+
+However, both pathways were necessary for another transformation-related activity (colony formation in soft agar) of CTLL-2/Tax.
+# T13 Protein S8 124 127 1027 1030 Tax
+
+Our results show that Tax has at least two distinct activities on T cells, and suggest that Tax plays a crucial role in IL-2-independent T-cell transformation induced by HTLV-1, in addition to its well-known IL-2-dependent cell transformation.
+# T14 Protein S9 22 25 1054 1057 Tax
+# T15 Protein S9 92 95 1124 1127 Tax
+# T16 Protein S9 120 124 1152 1156 IL-2
+# T17 Protein S9 208 212 1240 1244 IL-2
+

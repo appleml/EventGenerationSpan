@@ -1,0 +1,58 @@
+Transcription factor activation and functional stimulation of human monocytes.
+
+Activation of expression of genes encoding transcription factors: c-fos and c-jun and formation of AP1 transcriptional complex in human monocytes was investigated.
+# T1 Protein S2 66 71 146 151 c-fos
+# T2 Protein S2 76 81 156 161 c-jun
+$ T1 Protein S2 66 71 146 151 c-fos
+$ T2 Protein S2 76 81 156 161 c-jun
+@ T11 Positive_regulation S2 0 10 80 90 Activation
+@ T12 Gene_expression S2 14 24 94 104 expression
+% E1 Positive_regulation:T11 Theme:E4
+% E2 Positive_regulation:T11 Theme:E3
+% E3 Gene_expression:T12 Theme:T1
+% E4 Gene_expression:T12 Theme:T2
+
+It was found that lipopolysaccharide induced strongly both c-fos and c-jun expression as well as AP1 formation.
+# T3 Protein S3 59 64 303 308 c-fos
+# T4 Protein S3 69 74 313 318 c-jun
+$ T3 Protein S3 59 64 303 308 c-fos
+$ T4 Protein S3 69 74 313 318 c-jun
+@ T13 Positive_regulation S3 37 44 281 288 induced
+@ T14 Gene_expression S3 75 85 319 329 expression
+% E5 Positive_regulation:T13 Theme:E7
+% E6 Positive_regulation:T13 Theme:E8
+% E7 Gene_expression:T14 Theme:T3
+% E8 Gene_expression:T14 Theme:T4
+
+Interferon gamma activated strongly c-fos and weakly c-jun and AP1.
+# T5 Protein S4 0 16 356 372 Interferon gamma
+# T6 Protein S4 36 41 392 397 c-fos
+# T7 Protein S4 53 58 409 414 c-jun
+$ T7 Protein S4 53 58 409 414 c-jun
+$ T5 Protein S4 0 16 356 372 Interferon gamma
+$ T6 Protein S4 36 41 392 397 c-fos
+@ T15 Positive_regulation S4 17 26 373 382 activated
+% E9 Positive_regulation:T15 Theme:T7 Cause:T5
+% E10 Positive_regulation:T15 Theme:T6 Cause:T5
+
+Tumor necrosis factor induced slightly c-fos and had almost no effect on c-jun and AP1.
+# T8 Protein S5 0 21 424 445 Tumor necrosis factor
+# T9 Protein S5 39 44 463 468 c-fos
+# T10 Protein S5 73 78 497 502 c-jun
+$ T9 Protein S5 39 44 463 468 c-fos
+$ T8 Protein S5 0 21 424 445 Tumor necrosis factor
+$ T10 Protein S5 73 78 497 502 c-jun
+@ T16 Positive_regulation S5 22 29 446 453 induced
+@ T17 Regulation S5 63 69 487 493 effect
+% E11 Positive_regulation:T16 Theme:T9 Cause:T8
+% E12 Regulation:T17 Theme:T10 Cause:T8
+
+The data suggest that differences in functional responses elicited in monocytes by all three factors may be dependent on different routes on nuclear signalling employed by the factors.
+@ T18 Positive_regulation S6 108 117 620 629 dependent
+% E13 Positive_regulation:T18 Theme:E11
+% E14 Positive_regulation:T18 Theme:E5
+% E15 Positive_regulation:T18 Theme:E9
+% E16 Positive_regulation:T18 Theme:E6
+% E17 Positive_regulation:T18 Theme:E12
+% E18 Positive_regulation:T18 Theme:E10
+

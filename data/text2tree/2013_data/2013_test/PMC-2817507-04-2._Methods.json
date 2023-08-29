@@ -1,0 +1,15 @@
+{"text": "2.3 .", "event": "<extra_id_0> <extra_id_1>"}
+{"text": "Detection of <extra_id_0> TLR4 <extra_id_2> Protein <extra_id_1> mRNA by the Method of RT-PCR", "event": "<extra_id_0> <extra_id_1>"}
+{"text": "Briefly , total RNA samples were isolated from peri-hemorrhage regions in left basal ganglia using Simply P Total RNA isolation Kit ( BioFlux , HZ , China ) according to the manufacturer 's instructions .", "event": "<extra_id_0> <extra_id_1>"}
+{"text": "The quantity of total RNA was determined on a Nanodrop ( ND-1000 Spectrophotometer ) by measuring optical density at A260 and A280 nm wavelength .", "event": "<extra_id_0> <extra_id_1>"}
+{"text": "Then , the concentrations of mRNA were adjusted to 1.0 g / mL .", "event": "<extra_id_0> <extra_id_1>"}
+{"text": "RNA was reverse-transcribed into cDNA in 20 muL reaction system using Superscript First-Strand Synthesis Kit for RT-PCR ( promega Inc ) under conditions described by the supplier .", "event": "<extra_id_0> <extra_id_1>"}
+{"text": "One microliter of cDNA was used to amplify the <extra_id_0> TLR4 <extra_id_2> Protein <extra_id_1> gene fragment with 1x PCR buffer , 1.5 mM MgCl2 , 200 muM of each dNTP , 200 muM of primers , and 2u <extra_id_0> Taq DNA polymerase <extra_id_2> Protein <extra_id_1> .", "event": "<extra_id_0> <extra_id_1>"}
+{"text": "<extra_id_0> The house keep gene <extra_id_2> Protein <extra_id_1> ( <extra_id_0> beta-actin <extra_id_2> Protein <extra_id_1> ) was used as an internal control .", "event": "<extra_id_0> <extra_id_1>"}
+{"text": "The PCR primer sequences were designed according to the <extra_id_0> TLR4 <extra_id_2> Protein <extra_id_1> and <extra_id_0> beta-actin <extra_id_2> Protein <extra_id_1> gene sequences reported in GenBank .", "event": "<extra_id_0> <extra_id_1>"}
+{"text": "<extra_id_0> TLR4 <extra_id_2> Protein <extra_id_1> ( 145 bp ) : forward : 5'-AGCTTTGGTCAGTTGGCTCT-3 ' ; reverse : 5'-CAGGATGACACCATTGAAGC-3 ' ; <extra_id_0> beta-actin <extra_id_2> Protein <extra_id_1> ( 701 bp ) : forward : 5'-GCCAACCGTGAAAAAGATG-3 ' ; reverse : 5'-CCAGGATAGAGCCACCAAT-3 ' .", "event": "<extra_id_0> <extra_id_1>"}
+{"text": "Reaction cycles were performed at the following condition : 94degreesC 2 min , 94degreesC 40 s , 55degreesC 40 s , and 72degreesC 60 s .", "event": "<extra_id_0> <extra_id_1>"}
+{"text": "The reaction was stopped after 31 cycles .", "event": "<extra_id_0> <extra_id_1>"}
+{"text": "PCR products were electrophoresed through agarose gel .", "event": "<extra_id_0> <extra_id_1>"}
+{"text": "Image Acquisition and Analysis software were used to determine band densities .", "event": "<extra_id_0> <extra_id_1>"}
+{"text": "The abundance of <extra_id_0> TLR4 <extra_id_2> Protein <extra_id_1> mRNA was expressed as the ratio of <extra_id_0> TLR4 <extra_id_2> Protein <extra_id_1> mRNA to <extra_id_0> beta-actin <extra_id_2> Protein <extra_id_1> mRNA .", "event": "<extra_id_0> <extra_id_1>"}

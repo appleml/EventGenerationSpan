@@ -1,0 +1,222 @@
+Effect on MKP-1
+# T1 Protein S1 10 15 10 15 MKP-1
+
+Dexamethasone inhibits p38 MAPK function in a cell type-specific manner through the rapid induction of the dual kinase phosphatase MKP-1 (MAPK phosphatase-1), and this effect lasts for up to 24 h [28].
+# T2 Protein S2 131 136 147 152 MKP-1
+# T3 Protein S2 138 156 154 172 MAPK phosphatase-1
+$ T2 Protein S2 131 136 147 152 MKP-1
+@ T32 Gene_expression S2 90 99 106 115 induction
+% E1 Gene_expression:T32 Theme:T2
+
+FP (10-8 M) treatment of HuT-78 cells activated by anti-CD3/CD28 in vitro significantly decreased p38 MAPK phosphorylation (Figure 3A) and activity measured by phosphorylation of the downstream target ATF-2 (Figure 3B).
+# T4 Protein S3 201 206 419 424 ATF-2
+$ T4 Protein S3 201 206 419 424 ATF-2
+@ T33 Negative_regulation S3 88 97 306 315 decreased
+@ T34 Phosphorylation S3 160 175 378 393 phosphorylation
+@ T35 Binding S3 194 200 412 418 target
+% E2 Negative_regulation:T33 Theme:E3
+% E3 Phosphorylation:T34 Theme:T4
+% E4 Binding:T35 Theme:T4
+
+This effect was detected at 30 min and lasted for at least 14 h (Figure 3B).
+
+FP (10-8 M) also significantly reduced GATA-3 serine phosphorylation induced by anti-CD3/CD28 stimulation in both a time- and concentration-dependent manner (Figure 3C).
+# T5 Protein S5 39 45 554 560 GATA-3
+$ T5 Protein S5 39 45 554 560 GATA-3
+@ T36 Negative_regulation S5 31 38 546 553 reduced
+@ T37 Entity S5 46 52 561 567 serine
+@ T38 Phosphorylation S5 53 68 568 583 phosphorylation
+@ T39 Positive_regulation S5 69 76 584 591 induced
+@ T40 Regulation S5 140 149 655 664 dependent
+% E5 Negative_regulation:T36 Theme:E6
+% E6 Phosphorylation:T38 Theme:T5 Site:T37
+% E7 Positive_regulation:T39 Theme:E6
+% E8 Regulation:T40 Theme:E5
+
+This reduction in GATA-3 phosphorylation was also seen with lower concentrations of FP.
+# T6 Protein S6 18 24 703 709 GATA-3
+$ T6 Protein S6 18 24 703 709 GATA-3
+@ T41 Negative_regulation S6 0 14 685 699 This reduction
+@ T42 Phosphorylation S6 25 40 710 725 phosphorylation
+% E9 Negative_regulation:T41 Theme:E10
+% E10 Phosphorylation:T42 Theme:T6
+
+We found that FP significantly induced MKP-1 mRNA in both a time- and concentration-dependent manner, reaching a plateau at 10-8 M after 10 min (Figure 3D and 3E).
+# T7 Protein S7 39 44 812 817 MKP-1
+$ T7 Protein S7 39 44 812 817 MKP-1
+@ T43 Positive_regulation S7 31 38 804 811 induced
+@ T44 Transcription S7 45 49 818 822 mRNA
+@ T45 Regulation S7 84 93 857 866 dependent
+% E11 Positive_regulation:T43 Theme:E12
+% E12 Transcription:T44 Theme:T7
+% E13 Regulation:T45 Theme:E11
+
+However, the effects of FP on GATA-3 nuclear import, importin-alpha association and IL-4 mRNA expression are seen at 10,000-fold lower concentrations (10-12 M, see Figure 2).
+# T8 Protein S8 30 36 967 973 GATA-3
+# T9 Protein S8 84 88 1021 1025 IL-4
+$ T8 Protein S8 30 36 967 973 GATA-3
+$ T9 Protein S8 84 88 1021 1025 IL-4
+@ T46 Regulation S8 13 20 950 957 effects
+@ T47 Entity S8 37 44 974 981 nuclear
+@ T48 Localization S8 45 51 982 988 import
+@ T49 Binding S8 68 79 1005 1016 association
+@ T50 Transcription S8 89 104 1026 1041 mRNA expression
+% E14 Regulation:T46 Theme:E15
+% E16 Regulation:T46 Theme:E17
+% E18 Regulation:T46 Theme:E19
+% E15 Localization:T48 Theme:T8 ToLoc:T47
+% E17 Binding:T49 Theme:T8
+% E19 Transcription:T50 Theme:T9
+
+Using an in vitro competition assay (Figure 4A) utilizing purified activated GATA-3, importin-alpha, and activated GR, we demonstrated that activated GR significantly increased GR-importin-alpha association in the presence and absence of activated GATA-3 (Figure 4B).
+# T10 Protein S9 77 83 1189 1195 GATA-3
+# T11 Protein S9 115 117 1227 1229 GR
+# T12 Protein S9 150 152 1262 1264 GR
+# T13 Protein S9 177 179 1289 1291 GR
+# T14 Protein S9 248 254 1360 1366 GATA-3
+$ T10 Protein S9 77 83 1189 1195 GATA-3
+$ T11 Protein S9 115 117 1227 1229 GR
+$ T12 Protein S9 150 152 1262 1264 GR
+$ T13 Protein S9 177 179 1289 1291 GR
+$ T14 Protein S9 248 254 1360 1366 GATA-3
+@ T51 Negative_regulation S9 18 29 1130 1141 competition
+@ T52 Positive_regulation S9 67 76 1179 1188 activated
+@ T53 Positive_regulation S9 105 114 1217 1226 activated
+@ T54 Positive_regulation S9 140 149 1252 1261 activated
+@ T55 Positive_regulation S9 167 176 1279 1288 increased
+@ T56 Binding S9 195 206 1307 1318 association
+@ T57 Regulation S9 207 237 1319 1349 in the presence and absence of
+@ T58 Positive_regulation S9 238 247 1350 1359 activated
+% E20 Negative_regulation:T51 Theme:T10
+% E21 Negative_regulation:T51 Theme:T11
+% E22 Positive_regulation:T52 Theme:T10
+% E23 Positive_regulation:T53 Theme:T11
+% E24 Positive_regulation:T54 Theme:T12
+% E25 Positive_regulation:T55 Theme:E26 Cause:T12
+% E26 Binding:T56 Theme:T13
+% E27 Regulation:T57 Theme:E25 Cause:E28
+% E28 Positive_regulation:T58 Theme:T14
+
+This effect is not mutual, since activated GATA-3 did not block GR-importin-alpha association (Figure 4C).
+# T15 Protein S10 43 49 1423 1429 GATA-3
+# T16 Protein S10 64 66 1444 1446 GR
+$ T15 Protein S10 43 49 1423 1429 GATA-3
+$ T16 Protein S10 64 66 1444 1446 GR
+@ T59 Positive_regulation S10 33 42 1413 1422 activated
+@ T60 Negative_regulation S10 58 63 1438 1443 block
+@ T61 Binding S10 82 93 1462 1473 association
+% E29 Positive_regulation:T59 Theme:T15
+% E30 Negative_regulation:T60 Theme:E31 Cause:T15
+% E31 Binding:T61 Theme:T16
+
+These data also suggest that both activated GR and phospho-GATA-3 can directly associate with importin-alpha (Figure 4D) and that activated GR attenuates the phospho-GATA-3/importin-alpha interaction in a concentration-dependent manner (Figure 4E).
+# T17 Protein S11 44 46 1531 1533 GR
+# T18 Protein S11 59 65 1546 1552 GATA-3
+# T19 Protein S11 140 142 1627 1629 GR
+# T20 Protein S11 166 172 1653 1659 GATA-3
+$ T17 Protein S11 44 46 1531 1533 GR
+$ T18 Protein S11 59 65 1546 1552 GATA-3
+$ T19 Protein S11 140 142 1627 1629 GR
+$ T20 Protein S11 166 172 1653 1659 GATA-3
+@ T62 Positive_regulation S11 34 43 1521 1530 activated
+@ T63 Binding S11 79 88 1566 1575 associate
+@ T64 Positive_regulation S11 130 139 1617 1626 activated
+@ T65 Negative_regulation S11 143 153 1630 1640 attenuates
+@ T66 Phosphorylation S11 158 165 1645 1652 phospho
+@ T67 Binding S11 188 199 1675 1686 interaction
+@ T68 Regulation S11 219 228 1706 1715 dependent
+% E32 Positive_regulation:T62 Theme:T17
+% E33 Binding:T63 Theme:T17
+% E34 Binding:T63 Theme:T18
+% E35 Positive_regulation:T64 Theme:T19
+% E36 Negative_regulation:T65 Theme:E37 Cause:T19
+% E38 Phosphorylation:T66 Theme:T20
+% E37 Binding:T67 Theme:T20
+% E39 Regulation:T68 Theme:E36
+
+Together, this suggests that ligand-activated GR may compete with phospho-GATA-3 for importin-alpha and thereby limit GATA-3 nuclear import.
+# T21 Protein S12 46 48 1782 1784 GR
+# T22 Protein S12 74 80 1810 1816 GATA-3
+# T23 Protein S12 118 124 1854 1860 GATA-3
+$ T21 Protein S12 46 48 1782 1784 GR
+$ T22 Protein S12 74 80 1810 1816 GATA-3
+$ T23 Protein S12 118 124 1854 1860 GATA-3
+@ T69 Positive_regulation S12 36 45 1772 1781 activated
+@ T70 Negative_regulation S12 53 60 1789 1796 compete
+@ T71 Binding S12 81 84 1817 1820 for
+@ T72 Negative_regulation S12 112 117 1848 1853 limit
+@ T73 Entity S12 125 132 1861 1868 nuclear
+@ T74 Localization S12 133 139 1869 1875 import
+% E40 Positive_regulation:T69 Theme:T21
+% E41 Negative_regulation:T70 Theme:E42 Cause:T21
+% E42 Binding:T71 Theme:T22
+% E43 Negative_regulation:T72 Theme:E44 Cause:E41
+% E44 Localization:T74 Theme:T23 ToLoc:T73
+
+Other possible interpretations of our results could include an effect of FP on GATA-3 nuclear export and/or degradation.
+# T24 Protein S13 79 85 1956 1962 GATA-3
+$ T24 Protein S13 79 85 1956 1962 GATA-3
+@ T75 Regulation S13 63 69 1940 1946 effect
+@ T76 Entity S13 86 93 1963 1970 nuclear
+@ T77 Localization S13 94 100 1971 1977 export
+@ T78 Protein_catabolism S13 108 119 1985 1996 degradation
+% E45 Regulation:T75 Theme:E46
+% E47 Regulation:T75 Theme:E48
+% E46 Localization:T77 Theme:T24 ToLoc:T76
+% E48 Protein_catabolism:T78 Theme:T24
+
+Leptomycin B, which inhibits nuclear export, did not affect the ability of FP to block GATA-3 nuclear localization (Figure 5A).
+# T25 Protein S14 87 93 2085 2091 GATA-3
+$ T25 Protein S14 87 93 2085 2091 GATA-3
+@ T79 Regulation S14 53 59 2051 2057 affect
+@ T80 Negative_regulation S14 81 86 2079 2084 block
+@ T81 Entity S14 94 101 2092 2099 nuclear
+@ T82 Localization S14 102 114 2100 2112 localization
+% E49 Regulation:T79 Theme:E50
+% E50 Negative_regulation:T80 Theme:E51
+% E51 Localization:T82 Theme:T25 ToLoc:T81
+
+Additionally, FP had no effect on whole cell GATA-3 expression during the time course of these experiments (Figure 5B).
+# T26 Protein S15 45 51 2171 2177 GATA-3
+$ T26 Protein S15 45 51 2171 2177 GATA-3
+@ T83 Regulation S15 24 30 2150 2156 effect
+@ T84 Gene_expression S15 52 62 2178 2188 expression
+% E52 Regulation:T83 Theme:E53
+% E53 Gene_expression:T84 Theme:T26
+
+Nor did addition of FP subsequent to anti-CD3/CD28 nuclear translocation affect GATA-3 nuclear residency (Figure 5C), suggesting that activated GR does not enhance GATA-3 nuclear export.
+# T27 Protein S16 80 86 2326 2332 GATA-3
+# T28 Protein S16 144 146 2390 2392 GR
+# T29 Protein S16 164 170 2410 2416 GATA-3
+$ T27 Protein S16 80 86 2326 2332 GATA-3
+$ T28 Protein S16 144 146 2390 2392 GR
+$ T29 Protein S16 164 170 2410 2416 GATA-3
+@ T85 Regulation S16 73 79 2319 2325 affect
+@ T86 Entity S16 87 94 2333 2340 nuclear
+@ T87 Localization S16 95 104 2341 2350 residency
+@ T88 Positive_regulation S16 134 143 2380 2389 activated
+@ T89 Positive_regulation S16 156 163 2402 2409 enhance
+@ T90 Entity S16 171 178 2417 2424 nuclear
+@ T91 Localization S16 179 185 2425 2431 export
+% E54 Regulation:T85 Theme:E55
+% E55 Localization:T87 Theme:T27 ToLoc:T86
+% E56 Positive_regulation:T88 Theme:T28
+% E57 Positive_regulation:T89 Theme:E58 Cause:T28
+% E58 Localization:T91 Theme:T29 ToLoc:T90
+
+Finally, the effect of FP on GATA-3 nuclear import was not nonspecific, since FP (10-8 M) had no effect on p65 nuclear translocation measured at 60 min (Figure 5D).
+# T30 Protein S17 29 35 2462 2468 GATA-3
+# T31 Protein S17 107 110 2540 2543 p65
+$ T30 Protein S17 29 35 2462 2468 GATA-3
+$ T31 Protein S17 107 110 2540 2543 p65
+@ T92 Regulation S17 13 19 2446 2452 effect
+@ T93 Entity S17 36 43 2469 2476 nuclear
+@ T94 Localization S17 44 50 2477 2483 import
+@ T95 Regulation S17 97 103 2530 2536 effect
+@ T96 Entity S17 111 118 2544 2551 nuclear
+@ T97 Localization S17 119 132 2552 2565 translocation
+% E59 Regulation:T92 Theme:E60
+% E60 Localization:T94 Theme:T30 ToLoc:T93
+% E61 Regulation:T95 Theme:E62
+% E62 Localization:T97 Theme:T31 ToLoc:T96
+

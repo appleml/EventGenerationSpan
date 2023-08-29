@@ -1,0 +1,70 @@
+Involvement of Rel, Fos, and Jun proteins in binding activity to the IL-2 promoter CD28 response element/AP-1 sequence in human T cells.
+# T1 Protein S1 20 23 20 23 Fos
+# T2 Protein S1 29 32 29 32 Jun
+# T3 Protein S1 69 73 69 73 IL-2
+# T4 Protein S1 83 87 83 87 CD28
+
+CD28 is an important costimulatory molecule in the activation of human T cells.
+# T5 Protein S2 0 4 138 142 CD28
+
+Costimulation of T cells through both the Ag receptor and CD28 leads to high level IL-2 production, which is vital to the development of an immune response in vivo.
+# T6 Protein S3 58 62 276 280 CD28
+# T7 Protein S3 83 87 301 305 IL-2
+$ T7 Protein S3 83 87 301 305 IL-2
+@ T21 Positive_regulation S3 63 68 281 286 leads
+@ T22 Positive_regulation S3 72 82 290 300 high level
+@ T23 Gene_expression S3 88 98 306 316 production
+% E1 Positive_regulation:T21 Theme:E2
+% E2 Positive_regulation:T22 Theme:E3
+% E3 Gene_expression:T23 Theme:T7
+
+Previous reports have suggested the CD28 stimulation contributes to the activation of the IL-2 promoter by up-regulating the activity of several transcription factors, including AP-1 and nuclear factor-kappaB (NF-kappaB)/Rel family members as well as an uncharacterized transcription factor called CD28 response complex.
+# T8 Protein S4 36 40 419 423 CD28
+# T9 Protein S4 90 94 473 477 IL-2
+# T10 Protein S4 298 302 681 685 CD28
+$ T9 Protein S4 90 94 473 477 IL-2
+@ T24 Positive_regulation S4 53 64 436 447 contributes
+@ T25 Positive_regulation S4 72 82 455 465 activation
+@ T26 Entity S4 95 103 478 486 promoter
+% E4 Positive_regulation:T24 Theme:E5
+% E5 Positive_regulation:T25 Theme:T9 Site:T26
+
+While several lines of investigation have suggested that NF-kappaB/Rel family members make up the CD28 response complex transcription factor, other work has not supported this conclusion.
+# T11 Protein S5 98 102 802 806 CD28
+
+Recent studies suggest that the CD28 response element (CD28RE) does not function independently but works instead in conjunction with the adjacent promoter proximal AP-1-binding site and this hypothesis is confirmed here.
+# T12 Protein S6 32 36 924 928 CD28
+
+Also in the current study, binding activity to the CD28RE/AP-1 sequence of the IL-2 promoter is evaluated.
+# T13 Protein S7 79 83 1192 1196 IL-2
+$ T13 Protein S7 79 83 1192 1196 IL-2
+@ T27 Binding S7 27 43 1140 1156 binding activity
+@ T28 Entity S7 51 71 1164 1184 CD28RE/AP-1 sequence
+% E6 Binding:T27 Theme:T13 Site:T28
+
+Although four specific complexes can be detected binding to this sequence, only one of these complexes is specific for both the CD28RE and the adjacent AP-1 site.
+@ T29 Binding S8 49 56 1269 1276 binding
+% E7 Binding:T29 Theme:T13 Site:T28
+
+Of the NF-kappaB/Rel family members tested, this CD28RE/AP-1-specific complex contains predominantly c-Rel, despite the fact that both p50 and RelA can efficiently bind to the CD28RE.
+# T14 Protein S9 101 106 1484 1489 c-Rel
+# T15 Protein S9 135 138 1518 1521 p50
+# T16 Protein S9 143 147 1526 1530 RelA
+$ T16 Protein S9 143 147 1526 1530 RelA
+$ T15 Protein S9 135 138 1518 1521 p50
+@ T30 Binding S9 164 168 1547 1551 bind
+% E8 Binding:T30 Theme:T16
+% E9 Binding:T30 Theme:T15
+
+c-Fos and c-Jun are also found in this CD28RE/AP-1-specific complex.
+# T17 Protein S10 0 5 1567 1572 c-Fos
+# T18 Protein S10 10 15 1577 1582 c-Jun
+
+These data indicate that functional complexes encompassing both the CD28RE and the AP-1-binding sites influence IL-2 promoter activity in CD28-costimulated T cells.
+# T19 Protein S11 112 116 1748 1752 IL-2
+# T20 Protein S11 138 142 1774 1778 CD28
+$ T19 Protein S11 112 116 1748 1752 IL-2
+@ T31 Regulation S11 102 111 1738 1747 influence
+@ T32 Entity S11 117 125 1753 1761 promoter
+% E10 Regulation:T31 Theme:T19 Site:T32
+

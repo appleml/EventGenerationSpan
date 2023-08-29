@@ -1,0 +1,30 @@
+Inhibition of transcription factors led to reduced IL-1RA levels
+# T1 Protein S1 51 57 51 57 IL-1RA
+
+Pharmacological inhibitors were used to demonstrate that the transcription factor sites within the IL-1RA promoter are relevant for the induction of IL-1RA by GP.
+# T2 Protein S2 99 105 164 170 IL-1RA
+# T3 Protein S2 149 155 214 220 IL-1RA
+
+As expected, an inhibition of NFkappaB via CAPE [35] and CyA, NFAT via CyA and NFIL-6 via CHX [36] could not be overruled by GP, leading to a down-regulated binding activity of the transcription factors to the IL-1RA sites, and a reduction of IL-1RA mRNA and IL-1RA protein levels (Fig. 7).
+# T4 Protein S3 62 66 290 294 NFAT
+# T5 Protein S3 79 85 307 313 NFIL-6
+# T6 Protein S3 210 216 438 444 IL-1RA
+# T7 Protein S3 243 249 471 477 IL-1RA
+# T8 Protein S3 259 265 487 493 IL-1RA
+
+The extent of reduction in NFATP2/3 binding is exemplarily shown in an autoradiogram (Fig. 7A, left side) and graphically summarized (n = 4, Fig. 7A, right side).
+
+The results for the NFkappaB and NFIL-6 binding sites were similar (data not shown).
+
+Because the highest IL-1RA amount was found at 24 h, mRNA was examined following 1 h inhibition and 18 h of GP.
+# T9 Protein S6 20 26 787 793 IL-1RA
+
+A representative gel demonstrating a decrease in IL-1RA mRNA after inhibition with CAPE, CyA and CHX is displayed in Fig. 7B (n = 4).
+# T10 Protein S7 49 55 928 934 IL-1RA
+
+In addition, corresponding IL-1RA protein levels after 24 h of GP are shown in Fig. 7C (n = 3).
+# T11 Protein S8 27 33 1040 1046 IL-1RA
+
+Altogether, NFkappaB inhibition by CAPE was more pronounced at the binding activity and the transcription, whereas CyA and CHX mainly led to a decreased IL-1RA release.
+# T12 Protein S9 153 159 1262 1268 IL-1RA
+

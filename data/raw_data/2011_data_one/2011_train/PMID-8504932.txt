@@ -1,0 +1,36 @@
+Ectopic expression of a conditional GATA-2/estrogen receptor chimera arrests erythroid differentiation in a hormone-dependent manner.
+# T1 Protein S1 36 42 36 42 GATA-2
+# T2 Protein S1 43 60 43 60 estrogen receptor
+
+The GATA factors are a family of transcriptional regulatory proteins in eukaryotes that share extensive homology in their DNA-binding domains.
+
+One enigmatic aspect of GATA factor expression is that several GATA proteins, which ostensibly share the same DNA-binding site specificity, are coexpressed in erythroid cells.
+
+To elucidate the roles of individual GATA factors in erythropoiesis, conditional alleles of GATA-1, GATA-2, and GATA-3 were prepared by fusing each of the factors to the hormone-binding domain of the human estrogen receptor (ER).
+# T3 Protein S4 92 98 546 552 GATA-1
+# T4 Protein S4 100 106 554 560 GATA-2
+# T5 Protein S4 112 118 566 572 GATA-3
+# T6 Protein S4 206 223 660 677 estrogen receptor
+# T7 Protein S4 225 227 679 681 ER
+
+These GATA/ER chimeric factors were shown to be hormone-inducible trans-activating proteins in transient transfection assays.
+# T8 Protein S5 11 13 695 697 ER
+
+When stably introduced into primary erythroblasts or conditionally transformed erythroid progenitors cells, exogenous GATA-2/ER promoted proliferation and inhibited terminal differentiation in an estrogen-dependent manner.
+# T9 Protein S6 118 124 928 934 GATA-2
+# T10 Protein S6 125 127 935 937 ER
+
+These phenotypic effects are specifically attributable to the action of ectopically expressed GATA-2/ER because erythroblasts expressing exogenous GATA-2 are constitutively arrested in differentiation and because erythroid progenitors expressing either Gal/ER or GATA-3/ER do not display a hormone-responsive block in differentiation.
+# T11 Protein S7 94 100 1127 1133 GATA-2
+# T12 Protein S7 101 103 1134 1136 ER
+# T13 Protein S7 147 153 1180 1186 GATA-2
+# T14 Protein S7 257 259 1290 1292 ER
+# T15 Protein S7 263 269 1296 1302 GATA-3
+# T16 Protein S7 270 272 1303 1305 ER
+$ T13 Protein S7 147 153 1180 1186 GATA-2
+@ T18 Gene_expression S7 126 136 1159 1169 expressing
+% E1 Gene_expression:T18 Theme:T13
+
+Thus, the GATA-2 transcription factor appears to play a role in regulating the self-renewal capacity of early erythroid progenitor cells.
+# T17 Protein S8 10 16 1378 1384 GATA-2
+

@@ -1,0 +1,68 @@
+EBV Latent Membrane Protein 1 Activates Akt, NFkappaB, and Stat3 in B Cell Lymphomas
+# T1 Protein S1 4 29 4 29 Latent Membrane Protein 1
+# T2 Protein S1 40 43 40 43 Akt
+# T3 Protein S1 59 64 59 64 Stat3
+$ T2 Protein S1 40 43 40 43 Akt
+$ T1 Protein S1 4 29 4 29 Latent Membrane Protein 1
+$ T3 Protein S1 59 64 59 64 Stat3
+@ T23 Positive_regulation S1 30 39 30 39 Activates
+% E1 Positive_regulation:T23 Theme:T2 Cause:T1
+% E2 Positive_regulation:T23 Theme:T3 Cause:T1
+
+Latent membrane protein 1 (LMP1) is the major oncoprotein of Epstein-Barr virus (EBV).
+# T4 Protein S2 0 25 86 111 Latent membrane protein 1
+# T5 Protein S2 27 31 113 117 LMP1
+
+In transgenic mice, LMP1 promotes increased lymphoma development by 12 mo of age.
+# T6 Protein S3 20 24 193 197 LMP1
+
+This study reveals that lymphoma develops in B-1a lymphocytes, a population that is associated with transformation in older mice.
+
+The lymphoma cells have deregulated cell cycle markers, and inhibitors of Akt, NFkappaB, and Stat3 block the enhanced viability of LMP1 transgenic lymphocytes and lymphoma cells in vitro.
+# T7 Protein S5 74 77 459 462 Akt
+# T8 Protein S5 93 98 478 483 Stat3
+# T9 Protein S5 131 135 516 520 LMP1
+$ T7 Protein S5 74 77 459 462 Akt
+$ T8 Protein S5 93 98 478 483 Stat3
+@ T24 Negative_regulation S5 60 70 445 455 inhibitors
+% E3 Negative_regulation:T24 Theme:T7
+% E4 Negative_regulation:T24 Theme:T8
+
+Lymphoma cells are independent of IL4/Stat6 signaling for survival and proliferation, but have constitutively activated Stat3 signaling.
+# T10 Protein S6 34 37 607 610 IL4
+# T11 Protein S6 38 43 611 616 Stat6
+# T12 Protein S6 120 125 693 698 Stat3
+
+These same targets are also deregulated in wild-type B-1a lymphomas that arise spontaneously through age predisposition.
+@ T25 Regulation S7 28 39 738 749 deregulated
+% E5 Regulation:T25 Theme:T10
+% E6 Regulation:T25 Theme:T11
+% E7 Regulation:T25 Theme:T12
+
+These results suggest that Akt, NFkappaB, and Stat3 pathways may serve as effective targets in the treatment of EBV-associated B cell lymphomas.
+# T13 Protein S8 27 30 858 861 Akt
+# T14 Protein S8 46 51 877 882 Stat3
+
+Author Summary
+
+Epstein-Barr virus (EBV) is linked to the development of multiple cancers, including post-transplant lymphoma, Hodgkin disease, and nasopharyngeal carcinoma.
+
+Latent membrane protein 1 (LMP1) is expressed in many EBV-associated cancers and is responsible for most of the altered cellular growth properties that are induced by EBV infection.
+# T15 Protein S11 0 25 1150 1175 Latent membrane protein 1
+# T16 Protein S11 27 31 1177 1181 LMP1
+$ T15 Protein S11 0 25 1150 1175 Latent membrane protein 1
+@ T26 Gene_expression S11 36 45 1186 1195 expressed
+% E8 Gene_expression:T26 Theme:T15
+
+This study reveals that LMP1 induces lymphomas in B-1a lymphocytes, a cell type that is susceptible to transformation in aged mice.
+# T17 Protein S12 24 28 1356 1360 LMP1
+
+The lymphomas require Akt, NFkappaB, and Stat3 signaling for enhanced growth and survival.
+# T18 Protein S13 22 25 1486 1489 Akt
+# T19 Protein S13 41 46 1505 1510 Stat3
+
+The activation of the Stat3, Akt, and NFkappaB signaling pathways likely underlies the ability of LMP1 to promote malignant transformation.
+# T20 Protein S14 22 27 1577 1582 Stat3
+# T21 Protein S14 29 32 1584 1587 Akt
+# T22 Protein S14 98 102 1653 1657 LMP1
+

@@ -1,0 +1,61 @@
+ICAM-1 Expression Is Induced by Degraded CGN and Is Responsible for Monocytes Aggregation In Vitro
+# T1 Protein S1 0 6 0 6 ICAM-1
+$ T1 Protein S1 0 6 0 6 ICAM-1
+@ T11 Gene_expression S1 7 17 7 17 Expression
+@ T12 Positive_regulation S1 21 28 21 28 Induced
+% E1 Gene_expression:T11 Theme:T1
+% E2 Positive_regulation:T12 Theme:E1
+
+In order to study the effect of dCGN on the expression of cell surface antigens, PBM and THP-1 cells were incubated for 36 h in the presence and absence of dCGN.
+
+The expression of various cell surface molecules was analyzed by flow cytometry as described in materials and methods.
+
+Both forms of dCGN clearly stimulated expression of ICAM-1 (CD54) on PBM and THP-1 cells (Fig. 4A).
+# T2 Protein S4 52 58 432 438 ICAM-1
+# T3 Protein S4 60 64 440 444 CD54
+$ T2 Protein S4 52 58 432 438 ICAM-1
+@ T13 Positive_regulation S4 27 37 407 417 stimulated
+@ T14 Gene_expression S4 38 48 418 428 expression
+% E3 Positive_regulation:T13 Theme:E4
+% E4 Gene_expression:T14 Theme:T2
+
+The increase in ICAM-1 expression was higher on THP-1 cells treated with 40 kDa dCGN (Fig. 4B).
+# T4 Protein S5 16 22 496 502 ICAM-1
+$ T4 Protein S5 16 22 496 502 ICAM-1
+@ T15 Positive_regulation S5 4 12 484 492 increase
+@ T16 Gene_expression S5 23 33 503 513 expression
+% E5 Positive_regulation:T15 Theme:E6
+% E6 Gene_expression:T16 Theme:T4
+
+Another surface antigen, the lymphocyte function-associated antigen 3 (CD58) was slightly reduced on PBM after treatment with 40 kDa dCGN (Fig. 4B).
+# T5 Protein S6 29 69 605 645 lymphocyte function-associated antigen 3
+# T6 Protein S6 71 75 647 651 CD58
+$ T5 Protein S6 29 69 605 645 lymphocyte function-associated antigen 3
+@ T17 Negative_regulation S6 90 97 666 673 reduced
+% E7 Negative_regulation:T17 Theme:T5
+
+Interestingly, expression of major histocompatibility complex molecules of class I (HLA-ABC) and of class II (HLA-DR), as well as the monocyte marker CD14, seemed to be reduced by treatment with dCGN (Fig. 4B).
+# T7 Protein S7 134 149 859 874 monocyte marker
+# T8 Protein S7 150 154 875 879 CD14
+$ T8 Protein S7 150 154 875 879 CD14
+@ T18 Gene_expression S7 15 25 740 750 expression
+@ T19 Negative_regulation S7 169 176 894 901 reduced
+% E8 Gene_expression:T18 Theme:T8
+% E9 Negative_regulation:T19 Theme:E8
+
+However, these differences were not statistically significant.
+
+Treatment with dCGN also induced a strong aggregation of monocytes, detected by phase contrast inverse microscopy (Fig. 5).
+
+Although this effect was easily observed in monocytes incubated with the 10 kDa dCGN (Fig. 5B), a more robust cell aggregation was observed in monocytes incubated with the 40 kDa dCGN (Fig. 5C).
+
+ICAM-1 has been proposed to be the main adhesion molecule responsible for monocyte aggregation.
+# T9 Protein S11 0 6 1318 1324 ICAM-1
+
+To confirm this, monocytes were incubated with both types of dCGN in the presence of an anti-ICAM-1 antibody, an anti-CD58 antibody and an isotype control IgG1 antibody.
+
+The anti-ICAM-1 antibody effectively blocked the cell aggregates induced by dCGN (Fig. 5D, 5E), strongly suggesting that indeed ICAM-1 is responsible for monocyte aggregation.
+# T10 Protein S13 128 134 1712 1718 ICAM-1
+
+Both the control IgG1 and the anti-CD58 antibody did not modify monocyte aggregation (data not shown).
+

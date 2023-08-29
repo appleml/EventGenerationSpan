@@ -1,0 +1,39 @@
+Tumor necrosis factor-alpha mRNA accumulation in human myelomonocytic cell lines.
+# T1 Protein S1 0 27 0 27 Tumor necrosis factor-alpha
+
+Role of transcriptional regulation by DNA sequence motifs and mRNA stabilization.
+
+The cytokine TNF mediates many of the pathologic signs of cachexia, inflammation, and sepsis.
+# T2 Protein S3 13 16 178 181 TNF
+
+The current work describes the regulation of TNF in human myelomonocytic cell lines after PMA stimulation.
+# T3 Protein S4 45 48 304 307 TNF
+
+The cell lines exhibit a low level of constitutive TNF mRNA expression.
+# T4 Protein S5 51 54 417 420 TNF
+
+Within 2 to 4 h of PMA exposure, steady state levels of TNF mRNA are markedly elevated in all myelomonocytic cell lines studied.
+# T5 Protein S6 56 59 494 497 TNF
+
+This rise is due to increased mRNA stability, which increased by almost twofold, and to an overall increase in transcription, which rises by more than sixfold.
+
+At the level of the genomic TNF gene, a DNase I hypersensitive site is detected within the TNF promoter between -200 to -100 bp relative to the transcription initiation site.
+# T6 Protein S8 28 31 755 758 TNF
+# T7 Protein S8 91 94 818 821 TNF
+
+Although absent in nonexpressing erythroleukemia cell lines, the DNase I site is present in uninduced myelomonocytic cell lines and is not changed after PMA induction.
+
+The PMA induction of c-fos mRNA correlated well with TNF gene induction; expression of genes encoding other proteins in the AP-1 complex (junB and junD) were also induced by PMA.
+# T8 Protein S10 21 26 1091 1096 c-fos
+# T9 Protein S10 53 56 1123 1126 TNF
+# T10 Protein S10 138 142 1208 1212 junB
+# T11 Protein S10 147 151 1217 1221 junD
+
+The nuclear extracts from resting and induced ML-1 cells contain proteins binding specifically to the AP-1, AP-2, and NF kappa B sequence located within the TNF promoter.
+# T12 Protein S11 157 160 1406 1409 TNF
+
+PMA induction increases the level of a number of specific binding complexes relative to the resting cells.
+
+The regulatory mechanisms of the human and murine TNF genes are discussed.
+# T13 Protein S13 50 53 1577 1580 TNF
+

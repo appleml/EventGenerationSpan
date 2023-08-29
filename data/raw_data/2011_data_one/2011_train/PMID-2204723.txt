@@ -1,0 +1,64 @@
+Cell-specific differences in activation of NF-kappa B regulatory elements of human immunodeficiency virus and beta interferon promoters by tumor necrosis factor.
+# T1 Protein S1 139 160 139 160 tumor necrosis factor
+
+Three aspects of the involvement of tumor necrosis factor in human immunodeficiency virus (HIV) pathogenesis were examined.
+# T2 Protein S2 36 57 199 220 tumor necrosis factor
+
+Tumor necrosis factor alpha (TNF-alpha) mRNA production was analyzed by polymerase chain reaction amplification in monocytic U937 cells and in a chronically HIV infected U937 cell line (U9-IIIB).
+# T3 Protein S3 0 27 287 314 Tumor necrosis factor alpha
+# T4 Protein S3 29 38 316 325 TNF-alpha
+$ T4 Protein S3 29 38 316 325 TNF-alpha
+@ T19 Transcription S3 45 55 332 342 production
+% E1 Transcription:T19 Theme:T4
+
+TNF-alpha RNA was undetectable in U937 cells, whereas a low constitutive level was detected in U9-IIIB cells.
+# T5 Protein S4 0 9 483 492 TNF-alpha
+$ T5 Protein S4 0 9 483 492 TNF-alpha
+@ T20 Transcription S4 18 30 501 513 undetectable
+@ T21 Transcription S4 83 91 566 574 detected
+% E2 Transcription:T20 Theme:T5
+% E3 Transcription:T21 Theme:T5
+
+Paramyxovirus infection induced a 5- to 10-fold increase in the steady-state level of TNF-alpha RNA in U9-IIIB cells compared with U937 cells, suggesting that HIV-infected monocytic cells produced higher levels of TNF-alpha than did normal cells after a secondary virus infection.
+# T6 Protein S5 86 95 679 688 TNF-alpha
+# T7 Protein S5 214 223 807 816 TNF-alpha
+$ T6 Protein S5 86 95 679 688 TNF-alpha
+$ T7 Protein S5 214 223 807 816 TNF-alpha
+@ T22 Positive_regulation S5 24 31 617 624 induced
+@ T23 Positive_regulation S5 48 56 641 649 increase
+@ T24 Gene_expression S5 188 196 781 789 produced
+@ T25 Positive_regulation S5 197 210 790 803 higher levels
+% E4 Positive_regulation:T22 Theme:E5
+% E5 Positive_regulation:T23 Theme:T6
+% E6 Gene_expression:T24 Theme:T7
+% E7 Positive_regulation:T25 Theme:E6
+
+The effects of TNF-alpha on gene expression were examined by transient expression assays using reporter chloramphenicol acetyltransferase plasmids linked to regulatory elements from the HIV long terminal repeat (LTR) and the beta interferon promoter.
+# T8 Protein S6 15 24 889 898 TNF-alpha
+# T9 Protein S6 104 137 978 1011 chloramphenicol acetyltransferase
+# T10 Protein S6 225 240 1099 1114 beta interferon
+
+In U937 and Jurkat T lymphoid cells, the inducibility of the different hybrid promoters by TNF-alpha or phorbol ester varied in a cell type- and promoter context-specific manner; the levels of gene activity of NF-kappa B-containing plasmids correlated directly with induction of NF-kappa B DNA-binding activity.
+# T11 Protein S7 91 100 1216 1225 TNF-alpha
+
+Although the intact beta interferon promoter was only weakly stimulated by phorbol ester or TNF-alpha, multimers of the PRDII NF-kappa B-binding domain were inducible by both agents.
+# T12 Protein S8 20 35 1457 1472 beta interferon
+# T13 Protein S8 92 101 1529 1538 TNF-alpha
+$ T12 Protein S8 20 35 1457 1472 beta interferon
+$ T13 Protein S8 92 101 1529 1538 TNF-alpha
+@ T26 Entity S8 36 44 1473 1481 promoter
+@ T27 Positive_regulation S8 61 71 1498 1508 stimulated
+% E8 Positive_regulation:T27 Theme:T12 Site:T26
+% E9 Positive_regulation:T27 Theme:T12 Cause:T13 Site:T26
+
+TNF-alpha was able to increase expression of the HIV LTR in T cells, but in monocytic cells, TNF-alpha did not induce the HIV LTR above a constitutive level of activity.
+# T14 Protein S9 0 9 1620 1629 TNF-alpha
+# T15 Protein S9 93 102 1713 1722 TNF-alpha
+
+This level of NF-kappa B-independent activity appears to be sufficient for virus multiplication, since TNF-alpha treatment had no effect on the kinetics of de novo HIV type 1 (HIV-1) infection and viral RNA production in U937 cells.
+# T16 Protein S10 103 112 1893 1902 TNF-alpha
+
+However, in Jurkat cells, TNF-alpha dramatically enhanced the spread of HIV-1 through the cell population and increased viral RNA synthesis, indicating that in T cells HIV-1 multiplication was stimulated by TNF-alpha treatment.
+# T17 Protein S11 26 35 2049 2058 TNF-alpha
+# T18 Protein S11 207 216 2230 2239 TNF-alpha
+

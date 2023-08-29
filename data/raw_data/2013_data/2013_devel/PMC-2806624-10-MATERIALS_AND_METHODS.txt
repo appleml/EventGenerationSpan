@@ -1,0 +1,46 @@
+In vitro T cell differentiation.
+
+CD4+ CD45RA+ magnetically sorted (CD45RO depletion with AutoMACS; Miltenyi Biotec) cells were stimulated with immobilized plate-bound anti-CD3 (1 microg/ml; OKT3; IgG1) and anti-CD28 (2 microg/ml).
+# T1 Protein S2 0 3 33 36 CD4
+# T2 Protein S2 5 11 38 44 CD45RA
+# T3 Protein S2 34 40 67 73 CD45RO
+# T4 Protein S2 139 142 172 175 CD3
+# T5 Protein S2 178 182 211 215 CD28
+$ T3 Protein S2 34 40 67 73 CD45RO
+@ T28 Negative_regulation S2 41 50 74 83 depletion
+% E1 Negative_regulation:T28 Theme:T3
+
+For Th1 differentiation conditions, cells were stimulated with the following: 40 ng/ml IL-2, 5 microg/ml anti-IL-4, and 25 ng/ml IL-12 (R&D Systems).
+# T6 Protein S3 87 91 318 322 IL-2
+# T7 Protein S3 110 114 341 345 IL-4
+# T8 Protein S3 129 134 360 365 IL-12
+
+For Th2 conditions, cells were stimulated with the following: 40 ng/ml IL-2, 25 ng/ml IL-4, and 5 microg/ml anti-IL-12 (R&D Systems).
+# T9 Protein S4 71 75 452 456 IL-2
+# T10 Protein S4 86 90 467 471 IL-4
+# T11 Protein S4 113 118 494 499 IL-12
+
+For T reg cell conditions, cells were stimulated with the following: 40 ng/ml IL-2, 5 ng/ml TGF-beta, 5 microg/ml anti-IL-12, 5 microg/ml anti-IL-4.
+# T12 Protein S5 78 82 593 597 IL-2
+# T13 Protein S5 92 100 607 615 TGF-beta
+# T14 Protein S5 119 124 634 639 IL-12
+# T15 Protein S5 143 147 658 662 IL-4
+
+For Th17 conditions, cells were stimulated with the following: 40 ng/ml IL-2, 20 ng/ml IL-6, 5 ng/ml TGF-beta, 20 ng/ml IL-23 (Alexis Biochemicals Corp.), 10 ng/ml IL-1beta, 5 microg/ml anti-IL-4, and 5 microg/ml anti-IL-12 were used.
+# T16 Protein S6 72 76 736 740 IL-2
+# T17 Protein S6 87 91 751 755 IL-6
+# T18 Protein S6 101 109 765 773 TGF-beta
+# T19 Protein S6 120 125 784 789 IL-23
+# T20 Protein S6 164 172 828 836 IL-1beta
+# T21 Protein S6 191 195 855 859 IL-4
+# T22 Protein S6 218 223 882 887 IL-12
+
+Proliferating cells were expanded in medium containing IL-2.
+# T23 Protein S7 55 59 954 958 IL-2
+
+The cytokine profile of these cells demonstrated that IFN-gamma is the predominant cytokine in Th1 cells, IL-4 and IL-13 in Th2 cells, and IL-17 in Th17 cells (Akdis et al., 2000; Burgler et al., 2009).
+# T24 Protein S8 54 63 1014 1023 IFN-gamma
+# T25 Protein S8 106 110 1066 1070 IL-4
+# T26 Protein S8 115 120 1075 1080 IL-13
+# T27 Protein S8 139 144 1099 1104 IL-17
+

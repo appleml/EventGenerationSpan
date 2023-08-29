@@ -1,0 +1,10 @@
+Real-time PCR.
+
+Real-time PCR analysis of HTLV-I (Tax) proviral load was performed as previously described [47,50].
+# T1 Protein S2 34 37 49 52 Tax
+
+DNA was extracted from 1 x 106 cells using Puregene DNA Isolation Kit (Gentra, Minneapolis, Minnesota, United States), and 100 ng of the sample DNA solution was analyzed by this system.
+
+The HTLV-I proviral DNA load was calculated by the following formula: copy number of HTLV-I (pX) per 100 cells = (copy number of pX)/(copy number of beta-actin/2) x 100.
+# T2 Protein S4 149 159 450 460 beta-actin
+

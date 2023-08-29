@@ -1,0 +1,32 @@
+Antibodies and reagents.
+
+The following antibodies used for intracellular or surface stains were obtained from eBioscience: anti-IL-2, anti-IFN-gamma, anti-TNF, anti-granzyme B, anti-CD8, anti-CD25, and anti-CD44.
+# T1 Protein S2 103 107 128 132 IL-2
+# T2 Protein S2 114 123 139 148 IFN-gamma
+# T3 Protein S2 130 133 155 158 TNF
+# T4 Protein S2 140 150 165 175 granzyme B
+# T5 Protein S2 157 160 182 185 CD8
+# T6 Protein S2 167 171 192 196 CD25
+# T7 Protein S2 182 186 207 211 CD44
+
+Anti-CD69 was purchased from BD.
+# T8 Protein S3 5 9 218 222 CD69
+
+For ChIP experiments, the anti-Eomes antibody was obtained from Abcam and the anti-Runx3 antibody was produced by the Groner laboratory.
+# T9 Protein S4 31 36 277 282 Eomes
+# T10 Protein S4 83 88 329 334 Runx3
+
+The following antibodies were used for immunoblotting: antiperforin (Abcam), anti-Eomes (Abcam), and anti-Pol-II (Santa Cruz Biotechnology, Inc.).
+# T11 Protein S5 59 67 442 450 perforin
+# T12 Protein S5 82 87 465 470 Eomes
+
+The T-bet antibody was provided by L. Glimcher (Harvard School of Public Health, Boston, MA).
+# T13 Protein S6 4 9 534 539 T-bet
+
+The following reagents were used for the experiments presented in this report: Annexin V-FITC Apoptosis Detection Kit (BD), CD8 Negative Isolation Kit (Invitrogen), CD8 MicroBeads (Miltenyi Biotec), and SYBR Green PCR Core Reagents (Applied Biosystems).
+# T14 Protein S7 79 88 704 713 Annexin V
+# T15 Protein S7 124 127 749 752 CD8
+# T16 Protein S7 165 168 790 793 CD8
+
+The Gp33 peptide (KAVYNFATC) was synthesized by the Tufts University Core Facility, and 10 mM of stock solutions was prepared in DMSO.
+

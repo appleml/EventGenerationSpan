@@ -1,0 +1,141 @@
+Background
+
+Members of the transforming growth factor beta (TGF-beta) superfamily play central roles in controlling cellular proliferation, differentiation, migration and apoptosis [1].
+# T1 Protein S2 15 46 26 57 transforming growth factor beta
+# T2 Protein S2 48 56 59 67 TGF-beta
+
+These cytokines can be divided into three subgroups: TGF-beta, the activins/inhibins, and the bone morphogenetic proteins (BMPs), of which the latter constitute the largest family.
+# T3 Protein S3 53 61 238 247 TGF-beta
+
+BMPs are 30-38 kDa hetero- or homodimeric proteins originally identified by their ability to induce ectopic cartilage and bone formation [2,3].
+
+Several studies have demonstrated an essential role of these proteins during embryogenesis, and more recently, also in adult tissues [1].
+
+TGF-beta has been intensively studied in normal and malignant haematopoietic cells and is one of the most potent endogenous negative regulators known to date.
+# T4 Protein S6 0 8 648 656 TGF-beta
+
+[4].
+
+In contrast, the effect of BMPs in the immune system has not been widely investigated.
+
+In that respect, BMP- 2, -4 and -7 have been found to control differentiation of hematopoietic stem cells [5] and early T cell development [6,7].
+# T5 Protein S9 17 23 916 922 BMP- 2
+# T6 Protein S9 25 27 924 926 -4
+# T7 Protein S9 32 34 931 933 -7
+
+BMP-6 has been reported to reduce the number of cobblestone-area-forming cells of normal human haematopoietic cells [8].
+# T8 Protein S10 0 5 1045 1050 BMP-6
+
+Furthermore, BMP-2, -4, 6 and -7 had an antiproliferative and a proapoptotic effect on multiple myeloma cells [9-11].
+# T9 Protein S11 13 18 1179 1184 BMP-2
+# T10 Protein S11 20 22 1186 1188 -4
+# T11 Protein S11 24 25 1190 1191 6
+# T12 Protein S11 30 32 1196 1198 -7
+
+In addition, by gene expression profiling, BMP-6 significantly increased the predictive value for a multi-gene signature test and was associated with a poor outcome in diffuse large B cell lymphomas (DLBCL) [12].
+# T13 Protein S12 43 48 1327 1332 BMP-6
+$ T13 Protein S12 43 48 1327 1332 BMP-6
+@ T32 Positive_regulation S12 63 72 1347 1356 increased
+% E1 Positive_regulation:T32 Theme:T13
+
+BMP-6, like the other BMP members, signals through ligation and heterodimerzation of BMP type I [activin-like-kinase (ALK)] and type II serine-threonine kinase receptors, which subsequently propagates the signal downstream by phosphorylating Smad proteins.
+# T14 Protein S13 0 5 1498 1503 BMP-6
+$ T14 Protein S13 0 5 1498 1503 BMP-6
+@ T33 Binding S13 51 59 1549 1557 ligation
+@ T34 Binding S13 64 81 1562 1579 heterodimerzation
+% E2 Binding:T33 Theme:T14
+% E3 Binding:T34 Theme:T14
+
+BMP-6 can signal through the ligation of the type I receptors Act-RIA, BMP-RIA, and BMP-RIB and the type II receptors BMP-RII, Act-RIIA and Act-RIIB, which lead to the phosphorylation of the receptor Smads (Smad-1, Smad-5, and Smad-8).
+# T15 Protein S14 0 5 1755 1760 BMP-6
+# T16 Protein S14 62 69 1817 1824 Act-RIA
+# T17 Protein S14 71 78 1826 1833 BMP-RIA
+# T18 Protein S14 84 91 1839 1846 BMP-RIB
+# T19 Protein S14 118 125 1873 1880 BMP-RII
+# T20 Protein S14 127 135 1882 1890 Act-RIIA
+# T21 Protein S14 140 148 1895 1903 Act-RIIB
+# T22 Protein S14 207 213 1962 1968 Smad-1
+# T23 Protein S14 215 221 1970 1976 Smad-5
+# T24 Protein S14 227 233 1982 1988 Smad-8
+$ T15 Protein S14 0 5 1755 1760 BMP-6
+$ T16 Protein S14 62 69 1817 1824 Act-RIA
+$ T17 Protein S14 71 78 1826 1833 BMP-RIA
+$ T18 Protein S14 84 91 1839 1846 BMP-RIB
+$ T19 Protein S14 118 125 1873 1880 BMP-RII
+$ T20 Protein S14 127 135 1882 1890 Act-RIIA
+$ T21 Protein S14 140 148 1895 1903 Act-RIIB
+$ T22 Protein S14 207 213 1962 1968 Smad-1
+$ T23 Protein S14 215 221 1970 1976 Smad-5
+$ T24 Protein S14 227 233 1982 1988 Smad-8
+@ T35 Binding S14 29 37 1784 1792 ligation
+@ T36 Positive_regulation S14 156 160 1911 1915 lead
+@ T37 Phosphorylation S14 168 183 1923 1938 phosphorylation
+% E4 Binding:T35 Theme:T15 Theme2:T16
+% E5 Binding:T35 Theme:T15 Theme2:T17
+% E6 Binding:T35 Theme:T15 Theme2:T18
+% E7 Binding:T35 Theme:T15 Theme2:T19
+% E8 Binding:T35 Theme:T15 Theme2:T20
+% E9 Binding:T35 Theme:T15 Theme2:T21
+% E10 Positive_regulation:T36 Theme:E11 Cause:E4
+% E12 Positive_regulation:T36 Theme:E11 Cause:E5
+% E13 Positive_regulation:T36 Theme:E11 Cause:E6
+% E14 Positive_regulation:T36 Theme:E11 Cause:E7
+% E15 Positive_regulation:T36 Theme:E11 Cause:E8
+% E16 Positive_regulation:T36 Theme:E11 Cause:E9
+% E17 Positive_regulation:T36 Theme:E18 Cause:E4
+% E19 Positive_regulation:T36 Theme:E18 Cause:E5
+% E20 Positive_regulation:T36 Theme:E18 Cause:E6
+% E21 Positive_regulation:T36 Theme:E18 Cause:E7
+% E22 Positive_regulation:T36 Theme:E18 Cause:E8
+% E23 Positive_regulation:T36 Theme:E18 Cause:E9
+% E24 Positive_regulation:T36 Theme:E25 Cause:E4
+% E26 Positive_regulation:T36 Theme:E25 Cause:E5
+% E27 Positive_regulation:T36 Theme:E25 Cause:E6
+% E28 Positive_regulation:T36 Theme:E25 Cause:E7
+% E29 Positive_regulation:T36 Theme:E25 Cause:E8
+% E30 Positive_regulation:T36 Theme:E25 Cause:E9
+% E11 Phosphorylation:T37 Theme:T22
+% E18 Phosphorylation:T37 Theme:T23
+% E25 Phosphorylation:T37 Theme:T24
+
+The R- Smads then form complexes with the co-Smad (Smad4) and are translocated into the nucleus where they exert gene regulation [1,13].
+# T25 Protein S15 51 56 2042 2047 Smad4
+$ T25 Protein S15 51 56 2042 2047 Smad4
+@ T38 Binding S15 18 32 2009 2023 form complexes
+@ T39 Localization S15 66 78 2057 2069 translocated
+@ T40 Entity S15 88 95 2079 2086 nucleus
+% E31 Binding:T38 Theme:T22 Theme2:T25
+% E32 Binding:T38 Theme:T23 Theme2:T25
+% E33 Binding:T38 Theme:T24 Theme2:T25
+% E34 Localization:T39 Theme:T22 ToLoc:T40
+% E35 Localization:T39 Theme:T23 ToLoc:T40
+% E36 Localization:T39 Theme:T24 ToLoc:T40
+
+Given the reported role of BMP-6 in B-cell malignancies and haematopoietic progenitor cells, we wanted to explore its potential role in normal human B cells.
+# T26 Protein S16 27 32 2156 2161 BMP-6
+
+We studied the effects of BMP-6 on proliferation and apoptosis on resting and stimulated B cells.
+# T27 Protein S17 26 31 2313 2318 BMP-6
+
+Furthermore, the expression of BMP receptors and BMP-6 induced activation of the Smad signalling pathway with subsequent regulation of the target genes Id1-Id4, were resolved.
+# T28 Protein S18 49 54 2434 2439 BMP-6
+# T29 Protein S18 152 155 2537 2540 Id1
+# T30 Protein S18 156 159 2541 2544 Id4
+$ T28 Protein S18 49 54 2434 2439 BMP-6
+$ T29 Protein S18 152 155 2537 2540 Id1
+$ T30 Protein S18 156 159 2541 2544 Id4
+@ T41 Gene_expression S18 17 27 2402 2412 expression
+@ T42 Positive_regulation S18 55 62 2440 2447 induced
+@ T43 Regulation S18 121 131 2506 2516 regulation
+% E37 Gene_expression:T41 Theme:T28
+% E38 Positive_regulation:T42 Theme:E39 Cause:E37
+% E40 Positive_regulation:T42 Theme:E41 Cause:E37
+% E39 Regulation:T43 Theme:T29
+% E41 Regulation:T43 Theme:T30
+
+Finally, we investigated whether B cells also were capable of producing BMP-6.
+# T31 Protein S19 72 77 2633 2638 BMP-6
+$ T31 Protein S19 72 77 2633 2638 BMP-6
+@ T44 Gene_expression S19 62 71 2623 2632 producing
+% E42 Gene_expression:T44 Theme:T31
+

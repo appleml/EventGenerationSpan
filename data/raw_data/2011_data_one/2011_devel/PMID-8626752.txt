@@ -1,0 +1,88 @@
+Preassociation of STAT1 with STAT2 and STAT3 in separate signalling complexes prior to cytokine stimulation.
+# T1 Protein S1 18 23 18 23 STAT1
+# T2 Protein S1 29 34 29 34 STAT2
+# T3 Protein S1 39 44 39 44 STAT3
+$ T2 Protein S1 29 34 29 34 STAT2
+$ T3 Protein S1 39 44 39 44 STAT3
+@ T21 Regulation S1 48 56 48 56 separate
+% E1 Regulation:T21 Theme:T2
+% E2 Regulation:T21 Theme:T3
+
+A variety of cytokines and growth factors act through an induction of gene expression mediated by a family of latent transcription factors called STAT (signal transducers and activators of transcription) proteins.
+
+Ligand-induced tyrosine phosphorylation of the STATs promotes their homodimer and heterodimer formation and subsequent nuclear translocation.
+
+We demonstrate here that STAT protein heterocomplexes exist prior to cytokine treatment.
+
+When unstimulated HeLa cells are ruptured in hypotonic buffer without salt or detergent, immunoadsorption of either STAT1 or STAT2 from the resulting cytosol yields coimmunoadsorption of the other STAT protein.
+# T4 Protein S5 116 121 671 676 STAT1
+# T5 Protein S5 125 130 680 685 STAT2
+$ T5 Protein S5 125 130 680 685 STAT2
+$ T4 Protein S5 116 121 671 676 STAT1
+@ T22 Binding S5 158 183 713 738 yields coimmunoadsorption
+% E3 Binding:T22 Theme:T5
+% E4 Binding:T22 Theme:T4
+
+Similarly, STAT1-STAT3 heterocomplexes are coimmunoadsorbed from hypotonic cytosol.
+# T6 Protein S6 11 16 777 782 STAT1
+# T7 Protein S6 17 22 783 788 STAT3
+$ T6 Protein S6 11 16 777 782 STAT1
+$ T7 Protein S6 17 22 783 788 STAT3
+@ T23 Binding S6 23 59 789 825 heterocomplexes are coimmunoadsorbed
+% E5 Binding:T23 Theme:T6 Theme2:T7
+
+STAT1 and STAT2 or STAT1 and STAT3 translated in reticulocyte lysate spontaneously form heterocomplexes when the translation lysates are mixed at 0 degrees C.
+# T8 Protein S7 0 5 850 855 STAT1
+# T9 Protein S7 10 15 860 865 STAT2
+# T10 Protein S7 19 24 869 874 STAT1
+# T11 Protein S7 29 34 879 884 STAT3
+$ T8 Protein S7 0 5 850 855 STAT1
+$ T9 Protein S7 10 15 860 865 STAT2
+$ T10 Protein S7 19 24 869 874 STAT1
+$ T11 Protein S7 29 34 879 884 STAT3
+@ T24 Binding S7 83 103 933 953 form heterocomplexes
+@ T25 Positive_regulation S7 104 108 954 958 when
+% E6 Binding:T24 Theme:T8 Theme2:T9
+% E7 Binding:T24 Theme:T10 Theme2:T11
+% E8 Positive_regulation:T25 Theme:E6
+% E9 Positive_regulation:T25 Theme:E7
+
+Our data suggest that interferon-alpha /beta-induced tyrosine phosphorylation increases the stability of a preexisting, latent, STAT1-STAT2 signaling complex.
+# T12 Protein S8 128 133 1137 1142 STAT1
+# T13 Protein S8 134 139 1143 1148 STAT2
+$ T13 Protein S8 134 139 1143 1148 STAT2
+$ T12 Protein S8 128 133 1137 1142 STAT1
+@ T26 Positive_regulation S8 45 52 1054 1061 induced
+@ T27 Entity S8 53 61 1062 1070 tyrosine
+@ T28 Phosphorylation S8 62 77 1071 1086 phosphorylation
+@ T29 Positive_regulation S8 78 101 1087 1110 increases the stability
+% E10 Positive_regulation:T26 Theme:E13
+% E11 Positive_regulation:T26 Theme:E12
+% E12 Phosphorylation:T28 Theme:T13 Site:T27
+% E13 Phosphorylation:T28 Theme:T12 Site:T27
+% E14 Positive_regulation:T29 Theme:T13 Cause:E11
+% E15 Positive_regulation:T29 Theme:T12 Cause:E11
+% E16 Positive_regulation:T29 Theme:T13 Cause:E10
+% E17 Positive_regulation:T29 Theme:T12 Cause:E10
+
+Newly translated STAT1 binds in equilibrium fashion to STAT2 and STAT3, but we show that STAT2 and STAT3 exist in separate heterocomplexes with STAT1, consistent with a model in which STAT1 contains a common binding site for other STAT proteins.
+# T14 Protein S9 17 22 1185 1190 STAT1
+# T15 Protein S9 55 60 1223 1228 STAT2
+# T16 Protein S9 65 70 1233 1238 STAT3
+# T17 Protein S9 89 94 1257 1262 STAT2
+# T18 Protein S9 99 104 1267 1272 STAT3
+# T19 Protein S9 144 149 1312 1317 STAT1
+# T20 Protein S9 184 189 1352 1357 STAT1
+$ T14 Protein S9 17 22 1185 1190 STAT1
+$ T16 Protein S9 65 70 1233 1238 STAT3
+$ T15 Protein S9 55 60 1223 1228 STAT2
+$ T17 Protein S9 89 94 1257 1262 STAT2
+$ T19 Protein S9 144 149 1312 1317 STAT1
+$ T18 Protein S9 99 104 1267 1272 STAT3
+@ T30 Binding S9 23 28 1191 1196 binds
+@ T31 Binding S9 105 138 1273 1306 exist in separate heterocomplexes
+% E18 Binding:T30 Theme:T14 Theme2:T16
+% E19 Binding:T30 Theme:T14 Theme2:T15
+% E20 Binding:T31 Theme:T17 Theme2:T19
+% E21 Binding:T31 Theme:T18 Theme2:T19
+

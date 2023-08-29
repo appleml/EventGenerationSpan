@@ -1,0 +1,84 @@
+Regulation of cell-type-specific interleukin-2 receptor alpha-chain gene expression: potential role of physical interactions between Elf-1, HMG-I(Y), and NF-kappa B family proteins.
+# T1 Protein S1 33 67 33 67 interleukin-2 receptor alpha-chain
+# T2 Protein S1 133 138 133 138 Elf-1
+# T3 Protein S1 140 148 140 148 HMG-I(Y)
+$ T1 Protein S1 33 67 33 67 interleukin-2 receptor alpha-chain
+$ T2 Protein S1 133 138 133 138 Elf-1
+$ T3 Protein S1 140 148 140 148 HMG-I(Y)
+@ T18 Regulation S1 0 10 0 10 Regulation
+@ T19 Gene_expression S1 73 83 73 83 expression
+@ T20 Binding S1 112 124 112 124 interactions
+% E1 Regulation:T18 Theme:E2
+% E2 Gene_expression:T19 Theme:T1
+% E3 Binding:T20 Theme:T2
+% E4 Binding:T20 Theme:T3
+
+The interleukin 2 receptor alpha-chain (IL-2R alpha) gene is rapidly and potently induced in T cells in response to mitogenic stimuli.
+# T4 Protein S2 4 38 187 221 interleukin 2 receptor alpha-chain
+# T5 Protein S2 40 51 223 234 IL-2R alpha
+$ T5 Protein S2 40 51 223 234 IL-2R alpha
+@ T21 Gene_expression S2 82 89 265 272 induced
+@ T22 Positive_regulation S2 104 112 287 295 response
+% E5 Gene_expression:T21 Theme:T5
+% E6 Positive_regulation:T22 Theme:E5
+
+Previously, an inducible enhancer between nucleotides -299 and -228 that contains NF-kappa B and CArG motifs was identified.
+
+We now report the characterization of a second essential positive regulatory element located between nucleotides -137 and -64 that binds Elf-1 and HMG-I(Y).
+# T6 Protein S4 137 142 580 585 Elf-1
+# T7 Protein S4 147 155 590 598 HMG-I(Y)
+$ T7 Protein S4 147 155 590 598 HMG-I(Y)
+$ T6 Protein S4 137 142 580 585 Elf-1
+@ T23 Binding S4 131 136 574 579 binds
+% E7 Binding:T23 Theme:T7
+% E8 Binding:T23 Theme:T6
+
+This element had maximal activity in lymphoid cells, paralleling the cell type specificity of Elf-1 expression.
+# T8 Protein S5 94 99 694 699 Elf-1
+$ T8 Protein S5 94 99 694 699 Elf-1
+@ T24 Gene_expression S5 100 110 700 710 expression
+% E9 Gene_expression:T24 Theme:T8
+
+Transcription from the IL-2R alpha promoter was inhibited when either the Elf-1 or the HMG-I(Y) binding site was mutated.
+# T9 Protein S6 23 34 735 746 IL-2R alpha
+# T10 Protein S6 74 79 786 791 Elf-1
+# T11 Protein S6 87 95 799 807 HMG-I(Y)
+$ T9 Protein S6 23 34 735 746 IL-2R alpha
+@ T25 Transcription S6 0 13 712 725 Transcription
+@ T26 Positive_regulation S6 14 18 726 730 from
+@ T27 Entity S6 35 43 747 755 promoter
+@ T28 Negative_regulation S6 48 57 760 769 inhibited
+% E10 Transcription:T25 Theme:T9
+% E11 Positive_regulation:T26 Theme:E10 Cause:T9 CSite:T27
+% E12 Negative_regulation:T28 Theme:E11
+
+Coexpression of both proteins activated transcription of the -137 to -64 element in COS-7 cells.
+@ T29 Gene_expression S7 0 12 834 846 Coexpression
+% E13 Gene_expression:T29 Theme:T10
+% E14 Gene_expression:T29 Theme:T11
+
+Elf-1 physically associated with HMG-I and with NF-kappa B p50 and c-Rel in vitro, suggesting that protein-protein interactions might functionally coordinate the actions of the upstream and downstream positive regulatory elements.
+# T12 Protein S8 0 5 931 936 Elf-1
+# T13 Protein S8 33 38 964 969 HMG-I
+# T14 Protein S8 59 62 990 993 p50
+# T15 Protein S8 67 72 998 1003 c-Rel
+$ T12 Protein S8 0 5 931 936 Elf-1
+$ T15 Protein S8 67 72 998 1003 c-Rel
+$ T14 Protein S8 59 62 990 993 p50
+$ T13 Protein S8 33 38 964 969 HMG-I
+@ T30 Binding S8 17 27 948 958 associated
+% E15 Binding:T30 Theme:T12 Theme2:T15
+% E16 Binding:T30 Theme:T12 Theme2:T14
+% E17 Binding:T30 Theme:T12 Theme2:T13
+
+This is the first report of a physical interaction between an Ets family member and NF-kappa B family proteins.
+
+These findings provide significant new insights into the protein-protein and protein-DNA interactions that regulate cell-type-specific and inducible IL-2R alpha gene expression and also have implications for other genes regulated by Elf-1 and NF-kappa B family proteins.
+# T16 Protein S10 149 160 1423 1434 IL-2R alpha
+# T17 Protein S10 233 238 1507 1512 Elf-1
+$ T16 Protein S10 149 160 1423 1434 IL-2R alpha
+@ T31 Regulation S10 107 115 1381 1389 regulate
+@ T32 Gene_expression S10 166 176 1440 1450 expression
+% E18 Regulation:T31 Theme:E19
+% E19 Gene_expression:T32 Theme:T16
+

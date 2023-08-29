@@ -1,0 +1,109 @@
+Defective transcription of the IL-2 gene is associated with impaired expression of c-Fos, FosB, and JunB in anergic T helper 1 cells. 
+# T1 Protein S1 31 35 31 35 IL-2
+# T2 Protein S1 83 88 83 88 c-Fos
+# T3 Protein S1 90 94 90 94 FosB
+# T4 Protein S1 100 104 100 104 JunB
+$ T1 Protein S1 31 35 31 35 IL-2
+$ T2 Protein S1 83 88 83 88 c-Fos
+$ T3 Protein S1 90 94 90 94 FosB
+$ T4 Protein S1 100 104 100 104 JunB
+@ T19 Negative_regulation S1 0 9 0 9 Defective
+@ T20 Transcription S1 10 23 10 23 transcription
+@ T21 Negative_regulation S1 60 68 60 68 impaired
+@ T22 Gene_expression S1 69 79 69 79 expression
+% E1 Negative_regulation:T19 Theme:E2
+% E2 Transcription:T20 Theme:T1
+% E3 Negative_regulation:T21 Theme:E8
+% E4 Negative_regulation:T21 Theme:E7
+% E5 Negative_regulation:T21 Theme:E6
+% E6 Gene_expression:T22 Theme:T2
+% E7 Gene_expression:T22 Theme:T3
+% E8 Gene_expression:T22 Theme:T4
+
+Anergic CD4+ Th cells do not produce IL-2 when challenged with Ag-pulsed accessory cells because of a transcriptional defect.
+# T5 Protein S2 37 41 172 176 IL-2
+$ T5 Protein S2 37 41 172 176 IL-2
+@ T23 Gene_expression S2 29 36 164 171 produce
+@ T24 Positive_regulation S2 47 57 182 192 challenged
+@ T25 Positive_regulation S2 102 117 237 252 transcriptional
+% E9 Gene_expression:T23 Theme:T5
+% E10 Positive_regulation:T24 Theme:E9
+% E11 Positive_regulation:T25 Theme:E10
+
+In this work, we report that these anergic T cells are defective in their ability to up-regulate protein binding and transactivation at two critical IL-2 DNA enhancer elements: NF-AT (nuclear factor of activated T cells; a sequence that binds a heterotrimeric NFATp, Fos, and Jun protein complex) and Activator Protein-1 (AP-1) (that binds Fos and Jun heterodimers).
+# T6 Protein S3 149 153 410 414 IL-2
+# T7 Protein S3 260 265 521 526 NFATp
+# T8 Protein S3 267 270 528 531 Fos
+# T9 Protein S3 276 279 537 540 Jun
+# T10 Protein S3 340 343 601 604 Fos
+# T11 Protein S3 348 351 609 612 Jun
+$ T9 Protein S3 276 279 537 540 Jun
+$ T8 Protein S3 267 270 528 531 Fos
+$ T7 Protein S3 260 265 521 526 NFATp
+$ T11 Protein S3 348 351 609 612 Jun
+$ T10 Protein S3 340 343 601 604 Fos
+@ T26 Binding S3 237 242 498 503 binds
+@ T27 Binding S3 334 339 595 600 binds
+% E12 Binding:T26 Theme:T9
+% E13 Binding:T26 Theme:T8
+% E14 Binding:T26 Theme:T7
+% E15 Binding:T27 Theme:T11
+% E16 Binding:T27 Theme:T10
+
+Western blot analysis of nuclear extracts showed that the impaired DNA-protein interactions in anergic T cells were associated with poor expression of the inducible AP-1 family members c-Fos, FosB, and JunB.
+# T12 Protein S4 185 190 813 818 c-Fos
+# T13 Protein S4 192 196 820 824 FosB
+# T14 Protein S4 202 206 830 834 JunB
+$ T12 Protein S4 185 190 813 818 c-Fos
+$ T13 Protein S4 192 196 820 824 FosB
+$ T14 Protein S4 202 206 830 834 JunB
+@ T28 Negative_regulation S4 132 136 760 764 poor
+@ T29 Gene_expression S4 137 147 765 775 expression
+% E17 Negative_regulation:T28 Theme:E21
+% E18 Negative_regulation:T28 Theme:E20
+% E19 Negative_regulation:T28 Theme:E22
+% E20 Gene_expression:T29 Theme:T12
+% E21 Gene_expression:T29 Theme:T13
+% E22 Gene_expression:T29 Theme:T14
+
+However, the reduced expression of these proteins was not the result of a global TCR/CD3-signaling defect because CD3 cross-linking induced an equivalent increase in intracellular-free calcium ions, as well as NFATp dephosphorylation, translocation to the nucleus, and DNA binding in both normal and anergic T cells.
+# T15 Protein S5 210 215 1046 1051 NFATp
+$ T15 Protein S5 210 215 1046 1051 NFATp
+@ T30 Negative_regulation S5 13 20 849 856 reduced
+@ T31 Gene_expression S5 21 31 857 867 expression
+@ T32 Positive_regulation S5 132 139 968 975 induced
+@ T33 Localization S5 235 248 1071 1084 translocation
+@ T34 Entity S5 256 263 1092 1099 nucleus
+@ T35 Binding S5 273 280 1109 1116 binding
+% E23 Negative_regulation:T30 Theme:E26
+% E24 Negative_regulation:T30 Theme:E25
+% E25 Gene_expression:T31 Theme:T13
+% E26 Gene_expression:T31 Theme:T12
+% E27 Gene_expression:T31 Theme:T14
+% E28 Positive_regulation:T32 Theme:E31
+% E29 Positive_regulation:T32 Theme:E32
+% E30 Positive_regulation:T32 Theme:E32 Cause:E28
+% E31 Localization:T33 Theme:T15 ToLoc:T34
+% E32 Binding:T35 Theme:T15
+
+Thus, defective IL-2 gene transcription appears to be due, at least in part, to a selective block in the expression of the AP-1 Fos and Jun family members in anergic T cells.
+# T16 Protein S6 16 20 1169 1173 IL-2
+# T17 Protein S6 128 131 1281 1284 Fos
+# T18 Protein S6 136 139 1289 1292 Jun
+$ T16 Protein S6 16 20 1169 1173 IL-2
+$ T18 Protein S6 136 139 1289 1292 Jun
+$ T17 Protein S6 128 131 1281 1284 Fos
+@ T36 Negative_regulation S6 6 15 1159 1168 defective
+@ T37 Transcription S6 26 39 1179 1192 transcription
+@ T38 Positive_regulation S6 54 57 1207 1210 due
+@ T39 Negative_regulation S6 92 97 1245 1250 block
+@ T40 Gene_expression S6 105 115 1258 1268 expression
+% E33 Negative_regulation:T36 Theme:E34
+% E34 Transcription:T37 Theme:T16
+% E35 Positive_regulation:T38 Theme:E33 Cause:E37
+% E36 Positive_regulation:T38 Theme:E33 Cause:E38
+% E37 Negative_regulation:T39 Theme:E40
+% E38 Negative_regulation:T39 Theme:E39
+% E39 Gene_expression:T40 Theme:T18
+% E40 Gene_expression:T40 Theme:T17
+

@@ -1,0 +1,24 @@
+Cell	NN	B-NP	O	Other	No	No	Other	Other	###	1	Cell	Cell	NN	NN	_	2	compound	_	_
+Infections	NNS	I-NP	O	Other	No	No	Other	Other	###	2	Infections	Infections	NNS	NNS	_	0	root	_	_
+
+HeLa	NN	B-NP	B-cell_line	Other	No	No	Other	Other	###	1	HeLa	HeLa	NN	NN	_	2	compound	_	_
+cells	NNS	I-NP	I-cell_line	Other	No	No	Other	Other	###	2	cells	cells	NNS	NNS	_	4	nsubjpass	_	_
+were	VBD	B-VP	O	Other	No	No	Other	Other	###	3	were	were	VBD	VBD	_	4	auxpass	_	_
+infected	VBN	I-VP	O	Other	No	No	Other	Other	###	4	infected	infected	VBN	VBN	_	0	root	_	_
+with	IN	B-PP	O	Other	No	No	Other	Other	###	5	with	with	IN	IN	_	9	case	_	_
+E	FW	B-NP	O	Other	No	No	Other	Other	###	6	E	E	FW	FW	_	9	compound	_	_
+.	.	O	O	Other	No	No	Other	Other	###	7	.	.	.	.	_	9	punct	_	_
+coli	FW	I-NP	O	Other	No	No	Other	Other	###	8	coli	coli	FW	FW	_	9	compound	_	_
+O157	NN	I-NP	O	Other	No	No	Other	Other	###	9	O157	O157	NN	NN	_	4	nmod	_	_
+:	:	O	O	Other	No	No	Other	Other	###	10	:	:	:	:	_	4	punct	_	_
+H7	NN	B-NP	O	Other	No	No	Other	Other	###	11	H7	H7	NN	NN	_	4	dep	_	_
+or	CC	I-NP	O	Other	No	No	Other	Other	###	12	or	or	CC	CC	_	11	cc	_	_
+C	NN	I-NP	O	Other	No	No	Other	Other	###	13	C	C	NN	NN	_	11	conj	_	_
+.	.	O	O	Other	No	No	Other	Other	###	14	.	.	.	.	_	16	punct	_	_
+rodentium	NN	I-NP	O	Other	No	No	Other	Other	###	15	rodentium	rodentium	NN	NN	_	16	compound	_	_
+strains	NNS	I-NP	O	Other	No	No	Other	Other	###	16	strains	strains	NNS	NNS	_	11	dep	_	_
+as	IN	B-PP	O	Other	No	No	Other	Other	###	17	as	as	IN	IN	_	19	case	_	_
+described	VBN	B-NP	O	Other	No	No	Other	Other	###	18	described	described	VBN	VBN	_	19	amod	_	_
+previously9	NN	I-NP	O	Other	No	No	Other	Other	###	19	previously9	previously9	NN	NN	_	16	nmod	_	_
+.	.	O	O	Other	No	No	Other	Other	###	20	.	.	.	.	_	4	punct	_	_
+

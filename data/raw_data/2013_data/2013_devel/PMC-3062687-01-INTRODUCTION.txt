@@ -1,0 +1,115 @@
+Nuclear Factor-kappa B (NF-kappaB) regulates crucial cellular functions and diverse stimuli activate this pleiotropic transcription factor, which in turn regulates a vast array of genetic targets1-3.
+
+The best-known mammalian NF-kappaB subunits are Rel proteins, including RelA (p65), RelB, c-Rel, p50, and p52 (refs.
+# T1 Protein S2 72 76 272 276 RelA
+# T2 Protein S2 78 81 278 281 p65
+# T3 Protein S2 84 88 284 288 RelB
+# T4 Protein S2 90 95 290 295 c-Rel
+# T5 Protein S2 97 100 297 300 p50
+# T6 Protein S2 106 109 306 309 p52
+
+4,5).
+
+However, we recently demonstrated that ribosomal protein S3 (RPS3) is a key non-Rel subunit of certain native NF-kappaB complexes6.
+# T7 Protein S4 39 59 362 382 ribosomal protein S3
+# T8 Protein S4 61 65 384 388 RPS3
+# T9 Protein S4 80 83 403 406 Rel
+
+RPS3 is defined as a "specifier" subunit of NF-kappaB, because it facilitates high affinity DNA binding thus determining the regulatory specificity of NF-kappaB for selected target genes7.
+# T10 Protein S5 0 4 455 459 RPS3
+
+RPS3 regulation of NF-kappaB governs key physiological processes, including immunoglobulin kappa light chain gene expression and receptor editing in B cells6,8, cytokine production in T cells6, and in host defense against enterohemorrhagicEscherichia coli(EHEC)9.
+# T11 Protein S6 0 4 644 648 RPS3
+# T12 Protein S6 76 108 720 752 immunoglobulin kappa light chain
+$ T12 Protein S6 76 108 720 752 immunoglobulin kappa light chain
+@ T28 Gene_expression S6 114 124 758 768 expression
+% E1 Gene_expression:T28 Theme:T12
+
+In particular, theE.
+
+coliO157:H7 type III secretion system (T3SS) effector protein NleH1 selectively blocks NF-kappaB target gene transcription by attenuating RPS3 nuclear translocation, without affecting p65 localization9.
+# T13 Protein S8 62 67 991 996 NleH1
+# T14 Protein S8 138 142 1067 1071 RPS3
+# T15 Protein S8 184 187 1113 1116 p65
+$ T13 Protein S8 62 67 991 996 NleH1
+$ T14 Protein S8 138 142 1067 1071 RPS3
+$ T15 Protein S8 184 187 1113 1116 p65
+@ T29 Negative_regulation S8 126 137 1055 1066 attenuating
+@ T30 Entity S8 143 150 1072 1079 nuclear
+@ T31 Localization S8 151 164 1080 1093 translocation
+@ T32 Regulation S8 174 183 1103 1112 affecting
+@ T33 Localization S8 188 200 1117 1129 localization
+% E2 Negative_regulation:T29 Theme:E3 Cause:T13
+% E3 Localization:T31 Theme:T14 ToLoc:T30
+% E4 Regulation:T32 Theme:E5 Cause:T13
+% E5 Localization:T33 Theme:T15
+
+Nonetheless, how specific NF-kappaB activating signals induce RPS3 nuclear translocation is unknown.Extra-ribosomal functions have been ascribed to ribosomal proteins10.
+# T16 Protein S9 62 66 1194 1198 RPS3
+$ T16 Protein S9 62 66 1194 1198 RPS3
+@ T34 Positive_regulation S9 55 61 1187 1193 induce
+@ T35 Entity S9 67 74 1199 1206 nuclear
+@ T36 Localization S9 75 88 1207 1220 translocation
+% E6 Positive_regulation:T34 Theme:E7
+% E7 Localization:T36 Theme:T16 ToLoc:T35
+
+Besides binding RNA within the 40S ribosomal subunit, RPS3 participates in transcription6, DNA repair11,12, and apoptosis13.
+# T17 Protein S10 54 58 1356 1360 RPS3
+$ T17 Protein S10 54 58 1356 1360 RPS3
+@ T37 Binding S10 8 15 1310 1317 binding
+% E8 Binding:T37 Theme:T17
+
+Whether or not RPS3 is phosphorylated had been controversial14-18.
+# T18 Protein S11 15 19 1442 1446 RPS3
+$ T18 Protein S11 15 19 1442 1446 RPS3
+@ T38 Phosphorylation S11 23 37 1450 1464 phosphorylated
+% E9 Phosphorylation:T38 Theme:T18
+
+Since kinase cascades play a critical role in NF-kappaB regulation, we tested whether RPS3 is phosphorylated in the context of NF-kappaB activation and sought to identify the responsible kinase19.
+# T19 Protein S12 86 90 1580 1584 RPS3
+$ T19 Protein S12 86 90 1580 1584 RPS3
+@ T39 Phosphorylation S12 94 108 1588 1602 phosphorylated
+% E10 Phosphorylation:T39 Theme:T19
+
+Additionally, we aimed to define a regulatory role for the C-terminal tail of RPS3 whose function was unknown.Here we show that the Inhibitor of kappaB (IkappaB) kinase beta (IKKbeta) phosphorylated RPS3 at serine 209 (S209).
+# T20 Protein S13 78 82 1769 1773 RPS3
+# T21 Protein S13 132 173 1823 1864 Inhibitor of kappaB (IkappaB) kinase beta
+# T22 Protein S13 175 182 1866 1873 IKKbeta
+# T23 Protein S13 199 203 1890 1894 RPS3
+$ T23 Protein S13 199 203 1890 1894 RPS3
+$ T21 Protein S13 132 173 1823 1864 Inhibitor of kappaB (IkappaB) kinase beta
+@ T40 Phosphorylation S13 184 198 1875 1889 phosphorylated
+@ T41 Entity S13 207 217 1898 1908 serine 209
+% E11 Phosphorylation:T40 Theme:T23 Cause:T21 Site:T41
+
+RPS3 S209 phosphorylation enhanced its association with importin-alpha, mediating RPS3 entry into the karyopherin pathway for nuclear translocation.
+# T24 Protein S14 0 4 1917 1921 RPS3
+# T25 Protein S14 82 86 1999 2003 RPS3
+$ T24 Protein S14 0 4 1917 1921 RPS3
+$ T25 Protein S14 82 86 1999 2003 RPS3
+@ T42 Entity S14 5 9 1922 1926 S209
+@ T43 Phosphorylation S14 10 25 1927 1942 phosphorylation
+@ T44 Positive_regulation S14 26 34 1943 1951 enhanced
+@ T45 Binding S14 39 50 1956 1967 association
+@ T46 Positive_regulation S14 72 81 1989 1998 mediating
+@ T47 Entity S14 126 133 2043 2050 nuclear
+@ T48 Localization S14 134 147 2051 2064 translocation
+% E12 Phosphorylation:T43 Theme:T24 Site:T42
+% E13 Positive_regulation:T44 Theme:E14 Cause:E12
+% E14 Binding:T45 Theme:T24
+% E15 Positive_regulation:T46 Theme:E16 Cause:E13
+% E16 Localization:T48 Theme:T25 ToLoc:T47
+
+Furthermore, theE.
+
+coliNleH1 effector specifically inhibited RPS3 S209 revealing howE.
+# T26 Protein S16 4 9 2089 2094 NleH1
+# T27 Protein S16 42 46 2127 2131 RPS3
+$ T27 Protein S16 42 46 2127 2131 RPS3
+$ T26 Protein S16 4 9 2089 2094 NleH1
+@ T49 Negative_regulation S16 32 41 2117 2126 inhibited
+@ T50 Entity S16 47 51 2132 2136 S209
+% E17 Negative_regulation:T49 Theme:T27 Cause:T26 Site:T50
+
+coliO157:H7 inhibits this important innate immune response mechanism.
+

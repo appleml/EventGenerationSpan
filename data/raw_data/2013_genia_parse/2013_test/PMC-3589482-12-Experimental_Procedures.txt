@@ -1,0 +1,42 @@
+Statistical	JJ	B-NP	O	Other	###	1	Statistical	Statistical	JJ	JJ	_	2	amod	_	_
+Analysis	NN	I-NP	O	Other	###	2	Analysis	Analysis	NN	NN	_	0	root	_	_
+
+Data	NNS	B-NP	O	Other	###	1	Data	Data	NNS	NNS	_	3	nsubjpass	_	_
+are	VBP	B-VP	O	Other	###	2	are	are	VBP	VBP	_	3	auxpass	_	_
+presented	VBN	I-VP	O	Other	###	3	presented	presented	VBN	VBN	_	0	root	_	_
+as	IN	B-PP	O	Other	###	4	as	as	IN	IN	_	5	case	_	_
+mean	NN	B-NP	O	Other	###	5	mean	mean	NN	NN	_	3	nmod	_	_
++/-	CC	I-NP	O	Other	###	6	+/-	+/-	CC	CC	_	5	cc	_	_
+SEM	NN	I-NP	O	Other	###	7	SEM	SEM	NN	NN	_	5	conj	_	_
+per	IN	B-PP	O	Other	###	8	per	per	IN	IN	_	9	case	_	_
+group	NN	B-NP	O	Other	###	9	group	group	NN	NN	_	5	nmod	_	_
+.	.	O	O	Other	###	10	.	.	.	.	_	3	punct	_	_
+
+Results	NNS	B-NP	O	Other	###	1	Results	Results	NNS	NNS	_	3	nsubjpass	_	_
+were	VBD	B-VP	O	Other	###	2	were	were	VBD	VBD	_	3	auxpass	_	_
+analyzed	VBN	I-VP	O	Other	###	3	analyzed	analyzed	VBN	VBN	_	0	root	_	_
+using	VBG	B-VP	O	Other	###	4	using	using	VBG	VBG	_	3	xcomp	_	_
+the	DT	B-NP	O	Other	###	5	the	the	DT	DT	_	6	det	_	_
+analysis	NN	I-NP	O	Other	###	6	analysis	analysis	NN	NN	_	4	dobj	_	_
+of	IN	B-PP	O	Other	###	7	of	of	IN	IN	_	8	case	_	_
+variance	NN	B-NP	O	Other	###	8	variance	variance	NN	NN	_	6	nmod	_	_
+(	(	O	O	Other	###	9	(	(	(	(	_	10	punct	_	_
+ANOVA	NN	B-NP	B-protein	Other	###	10	ANOVA	ANOVA	NN	NN	_	8	appos	_	_
+)	)	O	O	Other	###	11	)	)	)	)	_	10	punct	_	_
+or	CC	O	O	Other	###	12	or	or	CC	CC	_	8	cc	_	_
+Student	NN	B-NP	O	Other	###	13	Student	Student	NN	NN	_	16	nmod:poss	_	_
+'s	POS	B-NP	O	Other	###	14	's	's	POS	POS	_	13	case	_	_
+t	NN	I-NP	O	Other	###	15	t	t	NN	NN	_	16	compound	_	_
+test	NN	I-NP	O	Other	###	16	test	test	NN	NN	_	8	conj	_	_
+where	WRB	B-ADVP	O	Other	###	17	where	where	WRB	WRB	_	18	advmod	_	_
+relevant	JJ	B-ADJP	O	Other	###	18	relevant	relevant	JJ	JJ	_	16	acl:relcl	_	_
+.	.	O	O	Other	###	19	.	.	.	.	_	3	punct	_	_
+
+P-values	NNS	B-NP	O	Other	###	1	P-values	P-values	NNS	NNS	_	5	nsubjpass	_	_
+<	SYM	B-NP	O	Other	###	2	<	<	SYM	SYM	_	1	dep	_	_
+0.05	CD	B-NP	O	Other	###	3	0.05	0.05	CD	CD	_	2	nummod	_	_
+were	VBD	B-VP	O	Other	###	4	were	were	VBD	VBD	_	5	auxpass	_	_
+considered	VBN	I-VP	O	Other	###	5	considered	considered	VBN	VBN	_	0	root	_	_
+significant	JJ	B-ADJP	O	Other	###	6	significant	significant	JJ	JJ	_	5	xcomp	_	_
+.	.	O	O	Other	###	7	.	.	.	.	_	5	punct	_	_
+

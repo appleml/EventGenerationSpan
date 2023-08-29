@@ -1,0 +1,84 @@
+Interferons induce normal and aberrant retinoic-acid receptors type alpha in acute promyelocytic leukemia cells: potentiation of the induction of retinoid-dependent differentiation markers.
+# T1 Protein S1 39 73 39 73 retinoic-acid receptors type alpha
+$ T1 Protein S1 39 73 39 73 retinoic-acid receptors type alpha
+@ T16 Positive_regulation S1 12 18 12 18 induce
+% E1 Positive_regulation:T16 Theme:T1
+
+Treatment of the acute promyelocytic (APL) cell line NB4 with interferon alpha (IFN(alpha)), as well as IFN(beta) and gamma, results in an increased expression of the transcripts coding for retinoic-acid receptor type alpha (RAR(alpha)) and the leukemia-specific retinoic acid receptor PML-RAR.
+# T2 Protein S2 190 223 381 414 retinoic-acid receptor type alpha
+# T3 Protein S2 225 235 416 426 RAR(alpha)
+# T4 Protein S2 245 285 436 476 leukemia-specific retinoic acid receptor
+# T5 Protein S2 286 293 477 484 PML-RAR
+$ T5 Protein S2 286 293 477 484 PML-RAR
+$ T3 Protein S2 225 235 416 426 RAR(alpha)
+@ T17 Positive_regulation S2 125 148 316 339 results in an increased
+@ T18 Transcription S2 149 159 340 350 expression
+% E2 Positive_regulation:T17 Theme:E4
+% E3 Positive_regulation:T17 Theme:E5
+% E4 Transcription:T18 Theme:T5
+% E5 Transcription:T18 Theme:T3
+
+Transcriptional induction of the RAR(alpha) and PML-RAR mRNAs is rapid and it is parallelled by an increase in the corresponding proteins.
+# T6 Protein S3 33 43 519 529 RAR(alpha)
+# T7 Protein S3 48 55 534 541 PML-RAR
+$ T6 Protein S3 33 43 519 529 RAR(alpha)
+$ T7 Protein S3 48 55 534 541 PML-RAR
+@ T19 Positive_regulation S3 0 25 486 511 Transcriptional induction
+@ T20 Positive_regulation S3 81 92 567 578 parallelled
+@ T21 Positive_regulation S3 99 107 585 593 increase
+% E6 Positive_regulation:T19 Theme:T6
+% E7 Positive_regulation:T19 Theme:T7
+% E8 Positive_regulation:T20 Theme:E10 Cause:E6
+% E9 Positive_regulation:T20 Theme:E11 Cause:E7
+% E10 Positive_regulation:T21 Theme:T6
+% E11 Positive_regulation:T21 Theme:T7
+
+Up-regulation of RAR(alpha) and PML-RAR gene expression by IFN(alpha) is accompanied by a strong potentiation in the induction of 2 retinoid-dependent granulocytic markers, i.e., granulocyte-colony-stimulating factor receptor mRNA and leukocyte alkaline phosphatase.
+# T8 Protein S4 17 27 642 652 RAR(alpha)
+# T9 Protein S4 32 39 657 664 PML-RAR
+# T10 Protein S4 179 225 804 850 granulocyte-colony-stimulating factor receptor
+# T11 Protein S4 235 265 860 890 leukocyte alkaline phosphatase
+$ T8 Protein S4 17 27 642 652 RAR(alpha)
+$ T9 Protein S4 32 39 657 664 PML-RAR
+$ T10 Protein S4 179 225 804 850 granulocyte-colony-stimulating factor receptor
+$ T11 Protein S4 235 265 860 890 leukocyte alkaline phosphatase
+@ T22 Positive_regulation S4 0 13 625 638 Up-regulation
+@ T23 Gene_expression S4 45 55 670 680 expression
+@ T24 Positive_regulation S4 117 126 742 751 induction
+@ T25 Positive_regulation S4 141 150 766 775 dependent
+% E12 Positive_regulation:T22 Theme:E15
+% E13 Positive_regulation:T22 Theme:E14
+% E14 Gene_expression:T23 Theme:T8
+% E15 Gene_expression:T23 Theme:T9
+% E16 Positive_regulation:T24 Theme:T10
+% E17 Positive_regulation:T24 Theme:T11
+% E18 Positive_regulation:T25 Theme:T11
+% E19 Positive_regulation:T25 Theme:T10
+
+However, IFN(alpha) does not have any effects on the retinoid-dependent regulation of the myeloid surface markers CD11b and CD33.
+# T12 Protein S5 114 119 1006 1011 CD11b
+# T13 Protein S5 124 128 1016 1020 CD33
+$ T13 Protein S5 124 128 1016 1020 CD33
+$ T12 Protein S5 114 119 1006 1011 CD11b
+@ T26 Regulation S5 38 45 930 937 effects
+@ T27 Regulation S5 72 82 964 974 regulation
+% E20 Regulation:T26 Theme:E23
+% E21 Regulation:T26 Theme:E22
+% E22 Regulation:T27 Theme:T13
+% E23 Regulation:T27 Theme:T12
+
+The IFN-dependent increase in RAR(alpha) levels and the enhancing effect of the cytokine on retinoid-dependent granulocytic markers expression may be a characteristic of PML-RAR positive cells, since the phenomena are not observed in HL-60 promyelocytes.
+# T14 Protein S6 30 40 1052 1062 RAR(alpha)
+# T15 Protein S6 170 177 1192 1199 PML-RAR
+$ T14 Protein S6 30 40 1052 1062 RAR(alpha)
+@ T28 Positive_regulation S6 18 26 1040 1048 increase
+@ T29 Gene_expression S6 41 47 1063 1069 levels
+@ T30 Positive_regulation S6 222 230 1244 1252 observed
+% E24 Positive_regulation:T28 Theme:E25
+% E25 Gene_expression:T29 Theme:T14
+% E26 Positive_regulation:T30 Theme:T14
+
+Interferons as well as retinoids inhibit the growth of NB4 cells, although the 2 classes of compounds do not significantly interact in terms of anti-proliferative activity.
+
+These results suggest the possible use of combinations between IFNs and retinoic acid in the cyto-differentiating treatment of APL patients.
+

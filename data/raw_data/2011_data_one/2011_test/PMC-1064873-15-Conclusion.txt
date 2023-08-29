@@ -1,0 +1,31 @@
+Conclusion
+
+CD4+ T cells from active RA patients are characterized by their resistance to IL-10 inhibition of IFN-gamma production, due to constitutive STAT3 phosphorylation and impaired IL-10-mediated STAT3 activation.
+# T1 Protein S2 0 3 11 14 CD4
+# T2 Protein S2 78 83 89 94 IL-10
+# T3 Protein S2 98 107 109 118 IFN-gamma
+# T4 Protein S2 140 145 151 156 STAT3
+# T5 Protein S2 175 180 186 191 IL-10
+# T6 Protein S2 190 195 201 206 STAT3
+
+The defective STAT3 signaling is possibly associated with SOCS1 predominance over SOCS3.
+# T7 Protein S3 14 19 233 238 STAT3
+# T8 Protein S3 58 63 277 282 SOCS1
+# T9 Protein S3 82 87 301 306 SOCS3
+
+These abnormalities in active RA are thought to be induced mainly after chronic exposure to high concentrations of IL-6.
+# T10 Protein S4 115 119 423 427 IL-6
+
+The limited efficacy of IL-10 treatment of RA patients [50] may be explained in part by the unresponsiveness to IL-10 of inflammatory cells, including T cells.
+# T11 Protein S5 24 29 453 458 IL-10
+# T12 Protein S5 112 117 541 546 IL-10
+
+On the contrary, the therapeutic efficacy of anti-IL-6 receptor antibody has been reported in RA patients [51], and one of the effects of this therapy may be to normalize T cells through the inhibition of IL-6-dependent STAT3 activation.
+# T13 Protein S6 50 63 639 652 IL-6 receptor
+# T14 Protein S6 205 209 794 798 IL-6
+# T15 Protein S6 220 225 809 814 STAT3
+
+More specific therapy targeting STAT3 activation will be awaited; for example, the induction of the SOCS3 gene, the efficacy of which has been demonstrated in animal models [37].
+# T16 Protein S7 32 37 859 864 STAT3
+# T17 Protein S7 100 105 927 932 SOCS3
+

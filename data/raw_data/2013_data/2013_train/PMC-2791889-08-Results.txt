@@ -1,0 +1,225 @@
+c-maf Expression Correlates with IL-10 Production in Th1, Th2, and Th17 Cells
+# T1 Protein S1 0 5 0 5 c-maf
+# T2 Protein S1 33 38 33 38 IL-10
+$ T1 Protein S1 0 5 0 5 c-maf
+$ T2 Protein S1 33 38 33 38 IL-10
+@ T50 Gene_expression S1 6 16 6 16 Expression
+@ T51 Gene_expression S1 39 49 39 49 Production
+% E1 Gene_expression:T50 Theme:T1
+% E2 Gene_expression:T51 Theme:T2
+
+To investigate further the downstream factors involved in regulating IL-10 production, we differentiated DO11.10 CD4+ T cells with increasing doses of OVA, in the presence or absence of IL-12, and quantified the expression of cytokines and transcription factors by real-time RT-PCR.
+# T3 Protein S2 69 74 147 152 IL-10
+# T4 Protein S2 113 116 191 194 CD4
+# T5 Protein S2 151 154 229 232 OVA
+# T6 Protein S2 186 191 264 269 IL-12
+$ T3 Protein S2 69 74 147 152 IL-10
+@ T52 Regulation S2 58 68 136 146 regulating
+@ T53 Gene_expression S2 75 85 153 163 production
+% E3 Regulation:T52 Theme:E4
+% E4 Gene_expression:T53 Theme:T3
+
+Low-dose antigen resulted in transcription of Il4 and this was abrogated by both high antigen doses and IL-12 (Figure 6A).
+# T7 Protein S3 46 49 407 410 Il4
+# T8 Protein S3 104 109 465 470 IL-12
+$ T7 Protein S3 46 49 407 410 Il4
+$ T8 Protein S3 104 109 465 470 IL-12
+@ T54 Positive_regulation S3 17 25 378 386 resulted
+@ T55 Transcription S3 29 42 390 403 transcription
+@ T46 Anaphora S3 54 58 415 419 this
+@ T56 Negative_regulation S3 63 72 424 433 abrogated
+% E5 Positive_regulation:T54 Theme:E6
+% E6 Transcription:T55 Theme:T7
+% E7 Negative_regulation:T56 Theme:E5 Cause:T8
+
+A low amount of transcription of Ifngamma was induced by IL-12 when cells were differentiated with low antigen dose, but this effect of IL-12 was markedly upregulated with increasing doses of antigen (Figure 6A).
+# T9 Protein S4 33 41 517 525 Ifngamma
+# T10 Protein S4 57 62 541 546 IL-12
+# T11 Protein S4 136 141 620 625 IL-12
+$ T9 Protein S4 33 41 517 525 Ifngamma
+$ T10 Protein S4 57 62 541 546 IL-12
+$ T11 Protein S4 136 141 620 625 IL-12
+@ T57 Transcription S4 16 29 500 513 transcription
+@ T58 Positive_regulation S4 46 53 530 537 induced
+@ T59 Positive_regulation S4 121 132 605 616 this effect
+@ T60 Positive_regulation S4 155 166 639 650 upregulated
+% E8 Transcription:T57 Theme:T9
+% E9 Positive_regulation:T58 Theme:E8 Cause:T10
+% E10 Positive_regulation:T59 Theme:E8 Cause:T11
+% E11 Positive_regulation:T60 Theme:E10
+
+A low amount of Il10 transcription was observed at low doses of antigen accompanying Il4 expression (Th2 cell response), and this was abrogated by increased doses of antigen as was Il4 expression (Figure 6A).
+# T12 Protein S5 16 20 713 717 Il10
+# T13 Protein S5 85 88 782 785 Il4
+# T14 Protein S5 181 184 878 881 Il4
+$ T12 Protein S5 16 20 713 717 Il10
+$ T13 Protein S5 85 88 782 785 Il4
+$ T14 Protein S5 181 184 878 881 Il4
+@ T61 Transcription S5 21 34 718 731 transcription
+@ T62 Gene_expression S5 89 99 786 796 expression
+@ T47 Anaphora S5 125 129 822 826 this
+@ T63 Negative_regulation S5 134 143 831 840 abrogated
+@ T64 Gene_expression S5 185 195 882 892 expression
+% E12 Transcription:T61 Theme:T12
+% E13 Gene_expression:T62 Theme:T13
+% E14 Negative_regulation:T63 Theme:E12
+% E15 Negative_regulation:T63 Theme:E16
+% E16 Gene_expression:T64 Theme:T14
+
+At low doses of antigen, IL-12 had little effect to increase IL-10 mRNA expression (Figure 6A) in keeping with the protein data (Figure 1A).
+# T15 Protein S6 25 30 931 936 IL-12
+# T16 Protein S6 61 66 967 972 IL-10
+$ T15 Protein S6 25 30 931 936 IL-12
+$ T16 Protein S6 61 66 967 972 IL-10
+@ T65 Regulation S6 42 48 948 954 effect
+@ T66 Positive_regulation S6 52 60 958 966 increase
+@ T67 Transcription S6 67 82 973 988 mRNA expression
+% E17 Regulation:T65 Theme:E18 Cause:T15
+% E18 Positive_regulation:T66 Theme:E19
+% E19 Transcription:T67 Theme:T16
+
+However, IL-12 induced a high amount of Il10 transcription as well as Ifngamma expression with increased antigen doses (Figure 6A), again in keeping with the protein data (Figure 1A).
+# T17 Protein S7 9 14 1056 1061 IL-12
+# T18 Protein S7 40 44 1087 1091 Il10
+# T19 Protein S7 70 78 1117 1125 Ifngamma
+$ T17 Protein S7 9 14 1056 1061 IL-12
+$ T18 Protein S7 40 44 1087 1091 Il10
+$ T19 Protein S7 70 78 1117 1125 Ifngamma
+@ T68 Positive_regulation S7 15 22 1062 1069 induced
+@ T69 Transcription S7 45 58 1092 1105 transcription
+@ T70 Gene_expression S7 79 89 1126 1136 expression
+% E20 Positive_regulation:T68 Theme:E21 Cause:T17
+% E22 Positive_regulation:T68 Theme:E23 Cause:T17
+% E21 Transcription:T69 Theme:T18
+% E23 Gene_expression:T70 Theme:T19
+
+CD4+ T cells differentiated with increasing doses of antigen did not express high amounts of Tbx-21 (T-bet) mRNA, unless they were cocultured with IL-12 (Figure 6B).
+# T20 Protein S8 0 3 1231 1234 CD4
+# T21 Protein S8 93 99 1324 1330 Tbx-21
+# T22 Protein S8 101 106 1332 1337 T-bet
+# T23 Protein S8 147 152 1378 1383 IL-12
+$ T21 Protein S8 93 99 1324 1330 Tbx-21
+@ T71 Transcription S8 69 76 1300 1307 express
+% E24 Transcription:T71 Theme:T21
+
+In contrast, high amounts of GATA-3 mRNA expression were only observed under Th2 cell differentiation conditions (low-dose antigen) (Figure 6B), and this expression was markedly downregulated by both increasing antigen dose and coculture in IL-12 (Figure 6B).
+# T24 Protein S9 29 35 1426 1432 GATA-3
+# T25 Protein S9 241 246 1638 1643 IL-12
+$ T24 Protein S9 29 35 1426 1432 GATA-3
+$ T25 Protein S9 241 246 1638 1643 IL-12
+@ T72 Transcription S9 36 51 1433 1448 mRNA expression
+@ T48 Anaphora S9 149 164 1546 1561 this expression
+@ T73 Negative_regulation S9 178 191 1575 1588 downregulated
+% E25 Transcription:T72 Theme:T24
+% E26 Negative_regulation:T73 Theme:E25 Cause:T25
+
+Differentiation of T cells under low antigen dose led to expression of c-maf, in keeping with the Th2 cell profile (Ho et al., 1996), which was almost completely abrogated by increasing doses of antigen (Figure 6B).
+# T26 Protein S10 71 76 1728 1733 c-maf
+$ T26 Protein S10 71 76 1728 1733 c-maf
+@ T74 Positive_regulation S10 50 53 1707 1710 led
+@ T75 Gene_expression S10 57 67 1714 1724 expression
+@ T49 Anaphora S10 134 139 1791 1796 which
+@ T76 Negative_regulation S10 162 171 1819 1828 abrogated
+% E27 Positive_regulation:T74 Theme:E28
+% E28 Gene_expression:T75 Theme:T26
+% E29 Negative_regulation:T76 Theme:E28
+
+Interestingly, IL-12 sustained the high expression of c-Maf mRNA even at the highest antigen dose (Figure 6B).
+# T27 Protein S11 15 20 1888 1893 IL-12
+# T28 Protein S11 54 59 1927 1932 c-Maf
+$ T27 Protein S11 15 20 1888 1893 IL-12
+$ T28 Protein S11 54 59 1927 1932 c-Maf
+@ T77 Positive_regulation S11 21 30 1894 1903 sustained
+@ T78 Transcription S11 40 50 1913 1923 expression
+% E30 Positive_regulation:T77 Theme:E31 Cause:T27
+% E31 Transcription:T78 Theme:T28
+
+Moreover, IL-12 maintenance of c-maf expression required STAT4 activation (data not shown).
+# T29 Protein S12 10 15 1994 1999 IL-12
+# T30 Protein S12 31 36 2015 2020 c-maf
+# T31 Protein S12 57 62 2041 2046 STAT4
+$ T29 Protein S12 10 15 1994 1999 IL-12
+$ T30 Protein S12 31 36 2015 2020 c-maf
+$ T31 Protein S12 57 62 2041 2046 STAT4
+@ T79 Positive_regulation S12 16 27 2000 2011 maintenance
+@ T80 Gene_expression S12 37 47 2021 2031 expression
+@ T81 Positive_regulation S12 48 56 2032 2040 required
+@ T82 Positive_regulation S12 63 73 2047 2057 activation
+% E32 Positive_regulation:T79 Theme:E33 Cause:T29
+% E33 Gene_expression:T80 Theme:T30
+% E34 Positive_regulation:T81 Theme:E35 Cause:E33
+% E35 Positive_regulation:T82 Theme:T31
+
+In Th17 cells that expressed IL-17a as well as IL-10 mRNA (Figure 6C), T-bet and GATA-3 mRNA were undetectable (data not shown), whereas that of ROR-gammat was high (Figure 6C) (Ivanov et al., 2007).
+# T32 Protein S13 29 35 2105 2111 IL-17a
+# T33 Protein S13 47 52 2123 2128 IL-10
+# T34 Protein S13 71 76 2147 2152 T-bet
+# T35 Protein S13 81 87 2157 2163 GATA-3
+# T36 Protein S13 145 155 2221 2231 ROR-gammat
+$ T32 Protein S13 29 35 2105 2111 IL-17a
+$ T33 Protein S13 47 52 2123 2128 IL-10
+$ T34 Protein S13 71 76 2147 2152 T-bet
+$ T35 Protein S13 81 87 2157 2163 GATA-3
+$ T36 Protein S13 145 155 2221 2231 ROR-gammat
+@ T83 Transcription S13 19 28 2095 2104 expressed
+@ T84 Transcription S13 88 92 2164 2168 mRNA
+@ T85 Negative_regulation S13 98 110 2174 2186 undetectable
+@ T86 Positive_regulation S13 160 164 2236 2240 high
+% E36 Transcription:T83 Theme:T32
+% E37 Transcription:T83 Theme:T33
+% E38 Transcription:T84 Theme:T34
+% E39 Transcription:T84 Theme:T35
+% E40 Negative_regulation:T85 Theme:E38
+% E41 Negative_regulation:T85 Theme:E39
+% E42 Positive_regulation:T86 Theme:T36
+
+Th17 cells also expressed high amounts of c-maf (Figure 6C), confirming a recent report (Bauquet et al., 2009).
+# T37 Protein S14 42 47 2318 2323 c-maf
+$ T37 Protein S14 42 47 2318 2323 c-maf
+@ T87 Gene_expression S14 16 25 2292 2301 expressed
+% E43 Gene_expression:T87 Theme:T37
+
+c-Maf is therefore expressed in all IL-10-expressing T cell populations tested (Figures 6B and 6C) and may not be just a Th2 cell-specific transcription factor as originally thought (Ho et al., 1996).
+# T38 Protein S15 0 5 2388 2393 c-Maf
+# T39 Protein S15 36 41 2424 2429 IL-10
+$ T38 Protein S15 0 5 2388 2393 c-Maf
+$ T39 Protein S15 36 41 2424 2429 IL-10
+@ T88 Gene_expression S15 19 28 2407 2416 expressed
+@ T89 Gene_expression S15 42 52 2430 2440 expressing
+% E44 Gene_expression:T88 Theme:T38
+% E45 Gene_expression:T89 Theme:T39
+
+We showed also that like Il10 expression, c-maf expression was inhibited in Th1 and Th17 cells in the presence of the MEK1 and MEK2 inhibitor (PD184352), whereas T-bet and RORgammat expression was hardly affected (Figure 6D).
+# T40 Protein S16 25 29 2614 2618 Il10
+# T41 Protein S16 42 47 2631 2636 c-maf
+# T42 Protein S16 118 122 2707 2711 MEK1
+# T43 Protein S16 127 131 2716 2720 MEK2
+# T44 Protein S16 162 167 2751 2756 T-bet
+# T45 Protein S16 172 181 2761 2770 RORgammat
+$ T40 Protein S16 25 29 2614 2618 Il10
+$ T41 Protein S16 42 47 2631 2636 c-maf
+$ T42 Protein S16 118 122 2707 2711 MEK1
+$ T43 Protein S16 127 131 2716 2720 MEK2
+$ T44 Protein S16 162 167 2751 2756 T-bet
+$ T45 Protein S16 172 181 2761 2770 RORgammat
+@ T90 Gene_expression S16 30 40 2619 2629 expression
+@ T91 Gene_expression S16 48 58 2637 2647 expression
+@ T92 Negative_regulation S16 63 72 2652 2661 inhibited
+@ T93 Negative_regulation S16 132 141 2721 2730 inhibitor
+@ T94 Gene_expression S16 182 192 2771 2781 expression
+@ T95 Regulation S16 204 212 2793 2801 affected
+% E46 Gene_expression:T90 Theme:T40
+% E47 Gene_expression:T91 Theme:T41
+% E48 Negative_regulation:T92 Theme:E46 Cause:E49
+% E50 Negative_regulation:T92 Theme:E46 Cause:E51
+% E52 Negative_regulation:T92 Theme:E47 Cause:E49
+% E53 Negative_regulation:T92 Theme:E47 Cause:E51
+% E49 Negative_regulation:T93 Theme:T42
+% E51 Negative_regulation:T93 Theme:T43
+% E54 Gene_expression:T94 Theme:T44
+% E55 Gene_expression:T94 Theme:T45
+% E56 Regulation:T95 Theme:E54 Cause:E49
+% E57 Regulation:T95 Theme:E54 Cause:E51
+% E58 Regulation:T95 Theme:E55 Cause:E49
+% E59 Regulation:T95 Theme:E55 Cause:E51
+

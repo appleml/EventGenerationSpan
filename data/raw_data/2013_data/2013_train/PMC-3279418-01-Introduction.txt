@@ -1,0 +1,88 @@
+SHARPIN was originally identified in post-synaptic densities of excitatory synapses in the brain of rats [1], but this protein is widely expressed in a variety of tissues [2].
+# T1 Protein S1 0 7 0 7 SHARPIN
+$ T1 Protein S1 0 7 0 7 SHARPIN
+@ T14 Anaphora S1 114 126 114 126 this protein
+@ T17 Gene_expression S1 137 146 137 146 expressed
+% E1 Gene_expression:T17 Theme:T1
+
+Two allelic, autosomal recessive mutations in the Sharpin gene occurred spontaneously in two inbred strains of mice, C57B/KaLawRij-Sharpincpdm/Sharpincpdm and CBy.Ocb3/Dem-Sharpincpdm-Dem/Sharpincpdm-Dem, resulting in premature termination of mRNA synthesis and absence of a functional protein product [2].
+# T2 Protein S2 50 57 226 233 Sharpin
+$ T2 Protein S2 50 57 226 233 Sharpin
+@ T18 Negative_regulation S2 23 42 199 218 recessive mutations
+@ T19 Positive_regulation S2 205 214 381 390 resulting
+@ T20 Negative_regulation S2 228 239 404 415 termination
+@ T15 Anaphora S2 243 247 419 423 mRNA
+@ T21 Transcription S2 248 257 424 433 synthesis
+@ T22 Negative_regulation S2 262 269 438 445 absence
+@ T16 Anaphora S2 273 301 449 477 a functional protein product
+% E2 Negative_regulation:T18 Theme:T2
+% E3 Positive_regulation:T19 Theme:E4 Cause:E2
+% E5 Positive_regulation:T19 Theme:E6 Cause:E2
+% E4 Negative_regulation:T20 Theme:E7
+% E7 Transcription:T21 Theme:T2
+% E6 Negative_regulation:T22 Theme:T2
+
+Despite different genetic backgrounds, both mutations cause similar inflammatory disease with severe chronic progressive dermatitis and defective development of secondary lymphoid organs [2]-[4].
+
+The dermatitis becomes clinically apparent at about four weeks of age.
+
+There are accumulations of eosinophils, neutrophils and macrophages in the skin of Sharpincpdm/Sharpincpdm mutant mice (hereafter referred to as cpdm mice) associated with increased expression of Th2 cytokines in the skin and in the supernatants of activated splenocytes [5].
+
+The mice have an impaired delayed type hypersensitivity response and decreased secretion of IFNgamma [5], indicating a defect in Th1 immune responses and a bias towards a Th2 immune response.
+# T3 Protein S6 92 100 1118 1126 IFNgamma
+$ T3 Protein S6 92 100 1118 1126 IFNgamma
+@ T23 Negative_regulation S6 69 78 1095 1104 decreased
+@ T24 Gene_expression S6 79 88 1105 1114 secretion
+% E8 Negative_regulation:T23 Theme:E9
+% E9 Gene_expression:T24 Theme:T3
+
+Systemic treatment of cpdm mice with recombinant IL12 caused complete remission of the dermatitis [5].
+
+Neutralization of IL5 by antibody treatment or crosses with IL5-deficient mice reduced the number of circulating and cutaneous eosinophils, but failed to reduce the onset and severity of the dermatitis [6].
+# T4 Protein S8 18 21 1339 1342 IL5
+# T5 Protein S8 60 63 1381 1384 IL5
+$ T4 Protein S8 18 21 1339 1342 IL5
+$ T5 Protein S8 60 63 1381 1384 IL5
+@ T25 Negative_regulation S8 0 14 1321 1335 Neutralization
+@ T26 Negative_regulation S8 64 73 1385 1394 deficient
+% E10 Negative_regulation:T25 Theme:T4
+% E11 Negative_regulation:T26 Theme:T5
+
+Recently, three independent groups identified SHARPIN as an essential component of the linear ubiquitin chain assembly complex (LUBAC) that regulates TNFalpha-induced canonical NF-kappaB signaling [7]-[9].
+# T6 Protein S9 46 53 1574 1581 SHARPIN
+# T7 Protein S9 150 158 1678 1686 TNFalpha
+
+SHARPIN-deficient mouse embryonic fibroblast (MEF) were sensitized to TNFalpha-induced apoptosis and cell death was implicated as a factor in the dermatitis of cpdm mice [7]-[9].
+# T8 Protein S10 0 7 1734 1741 SHARPIN
+# T9 Protein S10 70 78 1804 1812 TNFalpha
+$ T8 Protein S10 0 7 1734 1741 SHARPIN
+@ T27 Negative_regulation S10 8 17 1742 1751 deficient
+% E12 Negative_regulation:T27 Theme:T8
+
+Dendritic cells (DC) have a sentinel role in sensing pathogen or danger signals and initiate and direct activation of the adaptive immune response [10].
+
+Activated and mature DC can carry processed antigenic peptides, migrate to lymphoid organs, and induce T-cell-mediated immune responses or tolerance.
+
+DC direct the differentiation of CD4+ T cells, and hence the type of immune response, through the selective secretion of cytokines.
+
+We hypothesized that defective cytokine secretion by DC contributed to the Th2-biased inflammatory phenotype in SHARPIN-deficient mice.
+# T10 Protein S14 112 119 2460 2467 SHARPIN
+$ T10 Protein S14 112 119 2460 2467 SHARPIN
+@ T28 Negative_regulation S14 120 129 2468 2477 deficient
+% E13 Negative_regulation:T28 Theme:T10
+
+The studies reported here found that lack of SHARPIN protein in BMDC caused defective expression of pro-inflammatory mediators and impaired NF-kappaB activation upon ligand stimulation.
+# T11 Protein S15 45 52 2529 2536 SHARPIN
+$ T11 Protein S15 45 52 2529 2536 SHARPIN
+@ T29 Negative_regulation S15 37 41 2521 2525 lack
+% E14 Negative_regulation:T29 Theme:T11
+
+The ability of cpdm BMDC to stimulate Th1 cytokine production in allogeneic CD4+ T cells was compromised.
+
+Taken together, these results reveal that SHARPIN is a novel regulatory molecule in DC biology and suggest that the dysregulated function of SHARPIN-deficient DC plays a role in the cpdm phenotype.
+# T12 Protein S17 42 49 2818 2825 SHARPIN
+# T13 Protein S17 141 148 2917 2924 SHARPIN
+$ T13 Protein S17 141 148 2917 2924 SHARPIN
+@ T30 Negative_regulation S17 149 158 2925 2934 deficient
+% E15 Negative_regulation:T30 Theme:T13
+

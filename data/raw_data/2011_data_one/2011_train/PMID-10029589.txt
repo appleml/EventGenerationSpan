@@ -1,0 +1,60 @@
+The Megakaryocyte/Platelet-specific enhancer of the alpha2beta1 integrin gene: two tandem AP1 sites and the mitogen-activated protein kinase signaling cascade.
+
+The alpha2beta1 integrin, a collagen receptor on platelets and megakaryocytes, is required for normal platelet function.
+
+Transcriptional regulation of the alpha2 integrin gene in cells undergoing megakaryocytic differentiation requires a core promoter between bp -30 and -92, a silencer between bp -92 and -351, and megakaryocytic enhancers in the distal 5' flank.
+# T1 Protein S3 34 49 316 331 alpha2 integrin
+$ T1 Protein S3 34 49 316 331 alpha2 integrin
+@ T10 Regulation S3 0 26 282 308 Transcriptional regulation
+@ T11 Positive_regulation S3 106 114 388 396 requires
+% E1 Regulation:T10 Theme:T1
+% E2 Positive_regulation:T11 Theme:E1
+
+We have now identified a 229-bp region of the distal 5' flank of the alpha2 integrin gene required for high-level enhancer activity in cells with megakaryocytic features.
+# T2 Protein S4 69 84 595 610 alpha2 integrin
+
+Two tandem AP1 binding sites with dyad symmetry are required for enhancer activity and for DNA-protein complex formation with members of the c-fos/c-jun family.
+# T3 Protein S5 141 146 838 843 c-fos
+# T4 Protein S5 147 152 844 849 c-jun
+$ T3 Protein S5 141 146 838 843 c-fos
+$ T4 Protein S5 147 152 844 849 c-jun
+@ T12 Positive_regulation S5 52 60 749 757 required
+@ T13 Binding S5 103 120 800 817 complex formation
+% E3 Positive_regulation:T12 Theme:E6
+% E4 Positive_regulation:T12 Theme:E5
+% E5 Binding:T13 Theme:T3
+% E6 Binding:T13 Theme:T4
+
+The requirement for AP1 activation suggested a role for the mitogen-activated protein kinase (MAPK) signaling pathway in regulating alpha2 integrin gene expression.
+# T5 Protein S6 132 147 990 1005 alpha2 integrin
+$ T5 Protein S6 132 147 990 1005 alpha2 integrin
+@ T14 Positive_regulation S6 4 15 862 873 requirement
+@ T15 Positive_regulation S6 47 51 905 909 role
+@ T16 Regulation S6 121 131 979 989 regulating
+@ T17 Gene_expression S6 153 163 1011 1021 expression
+% E7 Positive_regulation:T14 Theme:E9
+% E8 Positive_regulation:T15 Theme:E9
+% E9 Regulation:T16 Theme:E10
+% E10 Gene_expression:T17 Theme:T5
+
+Inhibition of the MAP kinase cascade with PD98059, a specific inhibitor of MAPK kinase 1, prevented the expression of the alpha2 integrin subunit in cells induced to become megakaryocytic.
+# T6 Protein S7 75 88 1098 1111 MAPK kinase 1
+# T7 Protein S7 122 137 1145 1160 alpha2 integrin
+$ T6 Protein S7 75 88 1098 1111 MAPK kinase 1
+$ T7 Protein S7 122 137 1145 1160 alpha2 integrin
+@ T18 Negative_regulation S7 62 71 1085 1094 inhibitor
+@ T19 Negative_regulation S7 90 99 1113 1122 prevented
+@ T20 Gene_expression S7 104 114 1127 1137 expression
+% E11 Negative_regulation:T18 Theme:T6
+% E12 Negative_regulation:T19 Theme:E13
+% E13 Gene_expression:T20 Theme:T7
+
+We provide a model of megakaryocytic differentiation in which expression of the alpha2 integrin gene requires signaling via the MAP kinase pathway to activate two tandem AP1 binding sites in the alpha2 integrin enhancer.
+# T8 Protein S8 80 95 1292 1307 alpha2 integrin
+# T9 Protein S8 195 210 1407 1422 alpha2 integrin
+$ T8 Protein S8 80 95 1292 1307 alpha2 integrin
+@ T21 Gene_expression S8 62 72 1274 1284 expression
+@ T22 Positive_regulation S8 101 109 1313 1321 requires
+% E14 Gene_expression:T21 Theme:T8
+% E15 Positive_regulation:T22 Theme:E14
+

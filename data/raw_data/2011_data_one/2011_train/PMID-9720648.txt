@@ -1,0 +1,34 @@
+Nuclear factor-kappaB induction in CD45RO+ and CD45RA+ T cell subsets during aging.
+# T1 Protein S1 35 41 35 41 CD45RO
+# T2 Protein S1 47 53 47 53 CD45RA
+
+An increase in the ratio of memory to naive T cells has been postulated to underlie immune hyporesponsiveness accompanying aging.
+
+Our analyses of the induction of nuclear factor-kappaB (NFkappaB) in activated memory (CD45RO+) and naive (CD45RA+) T cell subsets from young and elderly donors has demonstrated that, regardless of donor age, memory T cells are not significantly altered in their responsiveness to TNF-alpha-mediated induction of NFkappaB.
+# T3 Protein S3 87 93 302 308 CD45RO
+# T4 Protein S3 107 113 322 328 CD45RA
+# T5 Protein S3 281 290 496 505 TNF-alpha
+
+Although treatment with TNF-alpha induced nuclear localization of NFkappaB in both memory and naive T cell subsets, irrespective of the age of the donor, the levels of induced NFkappaB were significantly lower in both subsets of T cells obtained from the elderly, when compared to those in young.
+# T6 Protein S4 24 33 562 571 TNF-alpha
+
+Examination of IkappaB alpha regulation revealed that TNF-alpha-mediated degradation of IkappaB alpha in both memory and naive T cells from the elderly was severely impaired, thus contributing to the lowered induction of the observed NFkappaB.
+# T7 Protein S5 15 28 850 863 IkappaB alpha
+# T8 Protein S5 54 63 889 898 TNF-alpha
+# T9 Protein S5 88 101 923 936 IkappaB alpha
+$ T7 Protein S5 15 28 850 863 IkappaB alpha
+$ T8 Protein S5 54 63 889 898 TNF-alpha
+$ T9 Protein S5 88 101 923 936 IkappaB alpha
+@ T10 Regulation S5 29 39 864 874 regulation
+@ T11 Positive_regulation S5 64 72 899 907 mediated
+@ T12 Protein_catabolism S5 73 84 908 919 degradation
+@ T13 Negative_regulation S5 165 173 1000 1008 impaired
+% E1 Regulation:T10 Theme:T7
+% E2 Positive_regulation:T11 Theme:E3 Cause:T8
+% E3 Protein_catabolism:T12 Theme:T9
+% E4 Negative_regulation:T13 Theme:E3
+
+In addition, this age-related decrease in induction of nuclear NFkappaB correlated with decrease in intracellular IL-2 receptor expression and anti-CD3-induced proliferation of both memory and naive T cells subsets.
+
+Taken together, our results suggest that the age-related hyporesponsiveness cannot be attributed to a skewing of the T cell population towards a memory phenotype in the elderly.
+

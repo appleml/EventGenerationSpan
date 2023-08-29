@@ -1,0 +1,49 @@
+CD30 is a CD40-inducible molecule that negatively regulates CD40-mediated immunoglobulin class switching in non-antigen-selected human B cells.
+# T1 Protein S1 0 4 0 4 CD30
+# T2 Protein S1 10 14 10 14 CD40
+# T3 Protein S1 60 64 60 64 CD40
+$ T1 Protein S1 0 4 0 4 CD30
+$ T2 Protein S1 10 14 10 14 CD40
+@ T16 Positive_regulation S1 15 24 15 24 inducible
+% E1 Positive_regulation:T16 Theme:T1 Cause:T2
+
+We used our monoclonal model of germinal center maturation, CL-01 B cells, to investigate the role of CD30 in human B cell differentiation.
+# T4 Protein S2 102 106 247 251 CD30
+
+CL-01 cells are IgM+ IgD+ CD30+ and switch to IgG, IgA, and IgE when exposed to CD40L and IL-4.
+# T5 Protein S3 26 30 311 315 CD30
+# T6 Protein S3 80 85 365 370 CD40L
+# T7 Protein S3 90 94 375 379 IL-4
+$ T5 Protein S3 26 30 311 315 CD30
+@ T17 Gene_expression S3 30 31 315 316 +
+@ T18 Negative_regulation S3 36 42 321 327 switch
+% E2 Gene_expression:T17 Theme:T5
+% E3 Negative_regulation:T18 Theme:E2
+
+Switching is hampered by CD30 coengagement, possibly through interference with the CD40-mediated NF-kappaB-dependent transcriptional activation of downstream C(H) genes.
+# T8 Protein S4 25 29 406 410 CD30
+# T9 Protein S4 83 87 464 468 CD40
+$ T8 Protein S4 25 29 406 410 CD30
+@ T19 Binding S4 30 42 411 423 coengagement
+% E4 Binding:T19 Theme:T8
+
+The physiological relevance of this phenomenon is emphasized by similar CD30-mediated effects in naive B cells.
+# T10 Protein S5 72 76 623 627 CD30
+
+Expression of CD30 by these cells is induced by CD40L but is inhibited by B cell receptor coengagement and/or exposure to IL-6 and IL-12.
+# T11 Protein S6 14 18 677 681 CD30
+# T12 Protein S6 48 53 711 716 CD40L
+# T13 Protein S6 122 126 785 789 IL-6
+$ T11 Protein S6 14 18 677 681 CD30
+$ T12 Protein S6 48 53 711 716 CD40L
+@ T20 Gene_expression S6 0 10 663 673 Expression
+@ T21 Positive_regulation S6 34 44 697 707 is induced
+@ T22 Negative_regulation S6 61 70 724 733 inhibited
+% E5 Gene_expression:T20 Theme:T11
+% E6 Positive_regulation:T21 Theme:E5 Cause:T12
+% E7 Negative_regulation:T22 Theme:E6
+
+Our data suggest that CD30 critically regulates the CD40-mediated differentiation of non-antigen-selected human B cells.
+# T14 Protein S7 22 26 823 827 CD30
+# T15 Protein S7 52 56 853 857 CD40
+

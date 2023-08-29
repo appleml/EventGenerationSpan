@@ -1,0 +1,21 @@
+Detection of intracellular phosphorylated STAT-1 by flow cytometry.
+# T1 Protein S1 42 48 42 48 STAT-1
+
+We have applied flow cytometry to the investigation of interferon-gamma activation of human monocytes.
+# T2 Protein S2 55 71 124 140 interferon-gamma
+
+This approach uses monoclonal antibodies that distinguish between the native and phosphorylated forms of STAT-1.
+# T3 Protein S3 105 111 277 283 STAT-1
+
+It enables rapid and quantitative assessment of STAT-1 phosphorylation on a discrete cell basis and is both more sensitive and less time consuming than immunoblotting.
+# T4 Protein S4 48 54 333 339 STAT-1
+
+Furthermore, it allows for discrimination between a mixture of cells that differ in their response to interferon-gamma.
+# T5 Protein S5 102 118 555 571 interferon-gamma
+
+This approach should allow for the evaluation of different intracellular signaling pathways using a combination of monoclonal reagents that are specific for native and activation modified proteins.
+
+Application of this form of testing should prove valuable in screening for signaling defects in selected patients with recurrent infections.
+
+In addition, this technique should permit dissection of a full range of cellular signaling pathways at the protein level.
+

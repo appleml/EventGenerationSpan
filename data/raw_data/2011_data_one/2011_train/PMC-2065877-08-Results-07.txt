@@ -1,0 +1,214 @@
+LMP1 Promotes Tumor Growth and Survival through Activation of Akt, NFkappaB, and Stat3 Pathways
+# T1 Protein S1 0 4 0 4 LMP1
+# T2 Protein S1 62 65 62 65 Akt
+# T3 Protein S1 81 86 81 86 Stat3
+
+To explore which pathways were required for the enhanced growth and survival of LMP1-induced lymphomas, splenocytes from wild-type and LMP1 transgenic mice were cultured in the presence of inhibitors for Akt, NFkappaB, Stat3, mTOR, or MAPK and assayed for growth and survival by the MTS assay.
+# T4 Protein S2 80 84 176 180 LMP1
+# T5 Protein S2 135 139 231 235 LMP1
+# T6 Protein S2 204 207 300 303 Akt
+# T7 Protein S2 219 224 315 320 Stat3
+# T8 Protein S2 226 230 322 326 mTOR
+$ T6 Protein S2 204 207 300 303 Akt
+$ T7 Protein S2 219 224 315 320 Stat3
+$ T8 Protein S2 226 230 322 326 mTOR
+@ T57 Negative_regulation S2 189 199 285 295 inhibitors
+% E1 Negative_regulation:T57 Theme:T6
+% E2 Negative_regulation:T57 Theme:T7
+% E3 Negative_regulation:T57 Theme:T8
+
+As previously shown, wild-type lymphocytes were not viable in culture and could not be tested with the inhibitors.
+
+However, the enhanced viability of LMP1 transgenic lymphocytes was effectively blocked by treatment with triciribine, BAY11-7085, cucurbitacin I, and slightly with SB203580, but not by treatment with rapamycin, U0126, or AG490 (Figure 7).
+# T9 Protein S4 35 39 540 544 LMP1
+
+Triciribine inhibits the activation of Akt and at 20 muM has been shown to induce growth arrest in cancer cells with aberrant Akt activity [46].
+# T10 Protein S5 39 42 783 786 Akt
+# T11 Protein S5 126 129 870 873 Akt
+$ T10 Protein S5 39 42 783 786 Akt
+@ T58 Negative_regulation S5 12 20 756 764 inhibits
+@ T59 Positive_regulation S5 25 35 769 779 activation
+% E4 Negative_regulation:T58 Theme:E5
+% E5 Positive_regulation:T59 Theme:T10
+
+The effects of triciribine on cell growth of the transgenic lymphocytes and lymphomas were apparent as low as 1 muM, suggesting that activation of Akt is required for the survival and growth of LMP1 transgenic lymphocytes and lymphoma cells (Figure 7).
+# T12 Protein S6 147 150 1036 1039 Akt
+# T13 Protein S6 194 198 1083 1087 LMP1
+$ T12 Protein S6 147 150 1036 1039 Akt
+@ T60 Positive_regulation S6 133 143 1022 1032 activation
+% E6 Positive_regulation:T60 Theme:T12
+
+The effects of the inhibitors were assessed by identifying phosphorylated Akt, Stat3, and total levels of IkappaBalpha (Figure 8).
+# T14 Protein S7 74 77 1216 1219 Akt
+# T15 Protein S7 79 84 1221 1226 Stat3
+# T16 Protein S7 106 118 1248 1260 IkappaBalpha
+$ T14 Protein S7 74 77 1216 1219 Akt
+$ T15 Protein S7 79 84 1221 1226 Stat3
+@ T61 Phosphorylation S7 59 73 1201 1215 phosphorylated
+% E7 Phosphorylation:T61 Theme:T14
+% E8 Phosphorylation:T61 Theme:T15
+
+Treatment with triciribine effectively blocked phosphorylation of Akt, and phosphorylated Akt was no longer detected past 5 muM.
+# T17 Protein S8 66 69 1339 1342 Akt
+# T18 Protein S8 90 93 1363 1366 Akt
+$ T17 Protein S8 66 69 1339 1342 Akt
+$ T18 Protein S8 90 93 1363 1366 Akt
+@ T62 Negative_regulation S8 39 46 1312 1319 blocked
+@ T63 Phosphorylation S8 47 62 1320 1335 phosphorylation
+@ T64 Phosphorylation S8 75 89 1348 1362 phosphorylated
+@ T65 Positive_regulation S8 108 116 1381 1389 detected
+% E9 Negative_regulation:T62 Theme:E10
+% E10 Phosphorylation:T63 Theme:T17
+% E11 Phosphorylation:T64 Theme:T18
+% E12 Positive_regulation:T65 Theme:E11
+
+Phosphorylated Stat3 and IkappaBalpha were still present at 25 muM.
+# T19 Protein S9 15 20 1417 1422 Stat3
+# T20 Protein S9 25 37 1427 1439 IkappaBalpha
+$ T19 Protein S9 15 20 1417 1422 Stat3
+$ T20 Protein S9 25 37 1427 1439 IkappaBalpha
+@ T66 Phosphorylation S9 0 14 1402 1416 Phosphorylated
+% E13 Phosphorylation:T66 Theme:T19
+% E14 Phosphorylation:T66 Theme:T20
+
+These findings suggest that triciribine specifically targets Akt and that Akt activation is required for the enhanced viability of the transgenic lymphocytes and lymphoma cells.
+# T21 Protein S10 61 64 1531 1534 Akt
+# T22 Protein S10 74 77 1544 1547 Akt
+$ T21 Protein S10 61 64 1531 1534 Akt
+$ T22 Protein S10 74 77 1544 1547 Akt
+@ T67 Regulation S10 53 60 1523 1530 targets
+@ T68 Positive_regulation S10 78 88 1548 1558 activation
+% E15 Regulation:T67 Theme:T21
+% E16 Positive_regulation:T68 Theme:T22
+
+Inhibition of NFkappaB signaling rapidly induces cell death of EBV-transformed lymphocytes [17,18].
+
+BAY11-7085, an inhibitor of NFkappaB signaling, also greatly decreased the viability of the LMP1 transgenic lymphocytes and lymphoma cells at doses as low as 1 muM, and at 5 muM the cells were completely nonviable (Figure 7).
+# T23 Protein S12 92 96 1841 1845 LMP1
+
+This is well within the reported IC50 of 10 muM.
+
+Phosphorylated Akt, Stat3, and total IkappaBalpha were still present up to treatment with 15 muM and then were no longer detected (Figure 8).
+# T24 Protein S14 15 18 2039 2042 Akt
+# T25 Protein S14 20 25 2044 2049 Stat3
+# T26 Protein S14 37 49 2061 2073 IkappaBalpha
+$ T24 Protein S14 15 18 2039 2042 Akt
+$ T25 Protein S14 20 25 2044 2049 Stat3
+$ T26 Protein S14 37 49 2061 2073 IkappaBalpha
+@ T69 Phosphorylation S14 0 14 2024 2038 Phosphorylated
+@ T70 Positive_regulation S14 61 68 2085 2092 present
+@ T71 Positive_regulation S14 121 129 2145 2153 detected
+% E17 Phosphorylation:T69 Theme:T24
+% E18 Phosphorylation:T69 Theme:T25
+% E19 Positive_regulation:T70 Theme:E17
+% E20 Positive_regulation:T70 Theme:E18
+% E21 Positive_regulation:T70 Theme:T26
+% E22 Positive_regulation:T71 Theme:E17
+% E23 Positive_regulation:T71 Theme:E18
+% E24 Positive_regulation:T71 Theme:T26
+
+This finding suggests that inhibition of NFkappaB can induce cell death in LMP1 transgenic lymphocytes and lymphoma cells without significant effects on activation of Akt or Stat3.
+# T27 Protein S15 75 79 2241 2245 LMP1
+# T28 Protein S15 167 170 2333 2336 Akt
+# T29 Protein S15 174 179 2340 2345 Stat3
+$ T28 Protein S15 167 170 2333 2336 Akt
+$ T29 Protein S15 174 179 2340 2345 Stat3
+@ T72 Regulation S15 142 149 2308 2315 effects
+@ T73 Positive_regulation S15 153 163 2319 2329 activation
+% E25 Regulation:T72 Theme:E26
+% E27 Regulation:T72 Theme:E28
+% E26 Positive_regulation:T73 Theme:T28
+% E28 Positive_regulation:T73 Theme:T29
+
+Cucurbitacin I inhibits activation of Stat3 by suppressing the activation of its kinase JAK2.
+# T30 Protein S16 38 43 2386 2391 Stat3
+# T31 Protein S16 88 92 2436 2440 JAK2
+$ T30 Protein S16 38 43 2386 2391 Stat3
+@ T74 Negative_regulation S16 15 23 2363 2371 inhibits
+@ T75 Positive_regulation S16 24 34 2372 2382 activation
+% E29 Negative_regulation:T74 Theme:E30
+% E30 Positive_regulation:T75 Theme:T30
+
+It has been shown to selectively inhibit the growth of tumors with constitutively activated Stat3 [47].
+# T32 Protein S17 92 97 2534 2539 Stat3
+$ T32 Protein S17 92 97 2534 2539 Stat3
+@ T76 Positive_regulation S17 82 91 2524 2533 activated
+% E31 Positive_regulation:T76 Theme:T32
+
+Similarly, LMP1 transgenic lymphocytes and lymphoma cells were susceptible to cucurbitacin I treatment starting at 0.1 muM, a dose that corresponds closely to the reported IC50 of 500 nM (Figure 7) [47].
+# T33 Protein S18 11 15 2557 2561 LMP1
+
+Phosphorylated Akt, Stat3, and total IkappaBalpha were not detectable past 1 muM and at higher doses all protein levels were greatly decreased, indicative of the total loss of viability (Figure 8).
+# T34 Protein S19 15 18 2765 2768 Akt
+# T35 Protein S19 20 25 2770 2775 Stat3
+# T36 Protein S19 37 49 2787 2799 IkappaBalpha
+$ T34 Protein S19 15 18 2765 2768 Akt
+$ T35 Protein S19 20 25 2770 2775 Stat3
+$ T36 Protein S19 37 49 2787 2799 IkappaBalpha
+@ T77 Phosphorylation S19 0 14 2750 2764 Phosphorylated
+@ T78 Positive_regulation S19 59 69 2809 2819 detectable
+@ T79 Negative_regulation S19 133 142 2883 2892 decreased
+% E32 Phosphorylation:T77 Theme:T34
+% E33 Phosphorylation:T77 Theme:T35
+% E34 Positive_regulation:T78 Theme:T34
+% E35 Positive_regulation:T78 Theme:T35
+% E36 Positive_regulation:T78 Theme:T36
+% E37 Negative_regulation:T79 Theme:T34
+% E38 Negative_regulation:T79 Theme:T35
+% E39 Negative_regulation:T79 Theme:T36
+
+A second reported inhibitor of Stat3, AG490, had no effect on growth (Figure 7), but activation of Akt, Stat3, or levels of IkappaBalpha were also not affected (Figure 8).
+# T37 Protein S20 31 36 2979 2984 Stat3
+# T38 Protein S20 99 102 3047 3050 Akt
+# T39 Protein S20 104 109 3052 3057 Stat3
+# T40 Protein S20 124 136 3072 3084 IkappaBalpha
+$ T37 Protein S20 31 36 2979 2984 Stat3
+$ T40 Protein S20 124 136 3072 3084 IkappaBalpha
+@ T80 Negative_regulation S20 18 27 2966 2975 inhibitor
+@ T81 Regulation S20 151 159 3099 3107 affected
+% E40 Negative_regulation:T80 Theme:T37
+% E41 Regulation:T81 Theme:T40
+
+These findings suggest that inhibition of Stat3 can induce cell death in LMP1 transgenic lymphocytes and lymphoma cells, but Stat3 inhibition also has considerable crossover effects on Akt and NFkappaB signaling.
+# T41 Protein S21 42 47 3162 3167 Stat3
+# T42 Protein S21 73 77 3193 3197 LMP1
+# T43 Protein S21 125 130 3245 3250 Stat3
+# T44 Protein S21 185 188 3305 3308 Akt
+$ T41 Protein S21 42 47 3162 3167 Stat3
+$ T43 Protein S21 125 130 3245 3250 Stat3
+@ T82 Negative_regulation S21 28 38 3148 3158 inhibition
+@ T83 Negative_regulation S21 131 141 3251 3261 inhibition
+% E42 Negative_regulation:T82 Theme:T41
+% E43 Negative_regulation:T83 Theme:T43
+
+LMP1 has also been shown to activate JNK and p38 MAPK pathways [13,48], and LMP1 transgenic lymphocytes were mildly susceptible to growth inhibition by SB202190, an inhibitor of p38 MAPK, but not U0126, an inhibitor of MEK1/2 activity.
+# T45 Protein S22 0 4 3334 3338 LMP1
+# T46 Protein S22 76 80 3410 3414 LMP1
+# T47 Protein S22 219 223 3553 3557 MEK1
+# T48 Protein S22 224 225 3558 3559 2
+$ T47 Protein S22 219 223 3553 3557 MEK1
+$ T48 Protein S22 224 225 3558 3559 2
+@ T84 Negative_regulation S22 206 215 3540 3549 inhibitor
+% E44 Negative_regulation:T84 Theme:T47
+% E45 Negative_regulation:T84 Theme:T48
+
+However, effects of SB202190 were only apparent at high doses (>10 muM), much higher than the reported IC50 of 0.35 muM, suggesting that p38 MAPK does not significantly contribute to the enhanced viability in LMP1 transgenic lymphocytes or lymphoma cells (Figure 7).
+# T49 Protein S23 209 213 3779 3783 LMP1
+
+Interestingly, both wild-type and LMP1 transgenic lymphomas were similarly susceptible to triciribine, BAY11-7085, and cucurbitacin I treatments, but not SB202190, AG490, or U0126 treatment, suggesting that activation of Akt, NFkappaB, and Stat3 but not MAPK pathways are characteristics associated with malignant transformation (Figure 7).
+# T50 Protein S24 34 38 3871 3875 LMP1
+# T51 Protein S24 221 224 4058 4061 Akt
+# T52 Protein S24 240 245 4077 4082 Stat3
+
+rapamycin, an inhibitor of mTOR, did not affect the viability of the transgenic lymphocytes or lymphoma cells, confirming that mTOR is not targeted by Akt activation in LMP1 transgenic lymphocytes or malignant lymphoma cells (Figure 7).
+# T53 Protein S25 27 31 4205 4209 mTOR
+# T54 Protein S25 127 131 4305 4309 mTOR
+# T55 Protein S25 151 154 4329 4332 Akt
+# T56 Protein S25 169 173 4347 4351 LMP1
+$ T53 Protein S25 27 31 4205 4209 mTOR
+$ T54 Protein S25 127 131 4305 4309 mTOR
+@ T85 Negative_regulation S25 14 23 4192 4201 inhibitor
+@ T86 Regulation S25 139 147 4317 4325 targeted
+% E46 Negative_regulation:T85 Theme:T53
+% E47 Regulation:T86 Theme:T54
+

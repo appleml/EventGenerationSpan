@@ -1,0 +1,135 @@
+Cytokines and chemokines are important in immune cell recruitment and in regulation of inflammatory responses [1].
+
+T-cells produce a broad range of inflammatory mediators, including IL-2, IL-6, TNF and CXCL8, all of which are important in cell proliferation, differentiation, communication and initiation of inflammatory responses [2].
+# T1 Protein S2 67 71 182 186 IL-2
+# T2 Protein S2 73 77 188 192 IL-6
+# T3 Protein S2 87 92 202 207 CXCL8
+$ T1 Protein S2 67 71 182 186 IL-2
+$ T2 Protein S2 73 77 188 192 IL-6
+$ T3 Protein S2 87 92 202 207 CXCL8
+@ T35 Gene_expression S2 8 15 123 130 produce
+@ T31 Anaphora S2 33 55 148 170 inflammatory mediators
+% E1 Gene_expression:T35 Theme:T1
+% E2 Gene_expression:T35 Theme:T2
+% E3 Gene_expression:T35 Theme:T3
+
+Elevated levels of pro-inflammatory cytokines and chemokines, such as TNF, IL-6 and CXCL8, are associated with several human diseases including cystic fibrosis [3-5], pulmonary fibrosis [6,7] and AIDS [8,9].
+# T4 Protein S3 75 79 411 415 IL-6
+# T5 Protein S3 84 89 420 425 CXCL8
+
+Induction of CXCL8 has been suggested to be mediated through NF-kappaB in cooperation with AP-1 [10,11], however the precise mechanism is not fully elucidated, and treatment strategies aimed at inhibiting CXCL8 have failed [12].
+# T6 Protein S4 13 18 557 562 CXCL8
+# T7 Protein S4 205 210 749 754 CXCL8
+$ T6 Protein S4 13 18 557 562 CXCL8
+$ T7 Protein S4 205 210 749 754 CXCL8
+@ T36 Positive_regulation S4 0 9 544 553 Induction
+@ T37 Positive_regulation S4 44 52 588 596 mediated
+@ T38 Negative_regulation S4 194 204 738 748 inhibiting
+% E4 Positive_regulation:T36 Theme:T6
+% E5 Positive_regulation:T37 Theme:E4
+% E6 Negative_regulation:T38 Theme:T7
+
+Persistent production of IL-6 and CXCL8 leads to chronic inflammation and enhanced survival of lymphocytes increasing serum cytokine/chemokine levels.
+# T8 Protein S5 25 29 798 802 IL-6
+# T9 Protein S5 34 39 807 812 CXCL8
+$ T8 Protein S5 25 29 798 802 IL-6
+$ T9 Protein S5 34 39 807 812 CXCL8
+@ T39 Gene_expression S5 11 21 784 794 production
+% E7 Gene_expression:T39 Theme:T8
+% E8 Gene_expression:T39 Theme:T9
+
+This forms the basis of several autoimmune disorders including plasmacytosis and hyperplasia [13].
+
+To develop viable CXCL8 based treatment strategies, it is necessary to identify the signalling pathways regulating CXCL8 and determine how this is coupled to NF-kappaB, AP-1 and IL-6.
+# T10 Protein S7 18 23 1041 1046 CXCL8
+# T11 Protein S7 115 120 1138 1143 CXCL8
+# T12 Protein S7 178 182 1201 1205 IL-6
+$ T11 Protein S7 115 120 1138 1143 CXCL8
+@ T40 Regulation S7 104 114 1127 1137 regulating
+% E9 Regulation:T40 Theme:T11
+
+The signalling pathways leading to NF-kappaB and AP-1 activation are overlapping, where both are involved in the induction and regulation of cytokines/chemokines.
+
+NF-kappaB is activated in response to stress, such as oxidative stress, bacterial toxins, viruses and UV light [14], and is essential for differentiation, proliferation and survival of many cell types including T-lymphocytes [15].
+
+AP-1 activation requires Fos (c-Fos, FosB, Fra-1, Fra-2) and Jun (c-Jun, v-Jun, JunB, JunD) through the formation of homo- and hetero-dimers [16,17], and regulates transcription of a broad range of genes involved in immune responses [18-21].
+# T13 Protein S10 30 35 1631 1636 c-Fos
+# T14 Protein S10 37 41 1638 1642 FosB
+# T15 Protein S10 43 48 1644 1649 Fra-1
+# T16 Protein S10 50 55 1651 1656 Fra-2
+# T17 Protein S10 66 71 1667 1672 c-Jun
+# T18 Protein S10 73 78 1674 1679 v-Jun
+# T19 Protein S10 80 84 1681 1685 JunB
+# T20 Protein S10 86 90 1687 1691 JunD
+$ T13 Protein S10 30 35 1631 1636 c-Fos
+$ T17 Protein S10 66 71 1667 1672 c-Jun
+$ T18 Protein S10 73 78 1674 1679 v-Jun
+$ T19 Protein S10 80 84 1681 1685 JunB
+$ T20 Protein S10 86 90 1687 1691 JunD
+$ T14 Protein S10 37 41 1638 1642 FosB
+$ T15 Protein S10 43 48 1644 1649 Fra-1
+$ T16 Protein S10 50 55 1651 1656 Fra-2
+@ T32 Anaphora S10 25 28 1626 1629 Fos
+@ T33 Anaphora S10 61 64 1662 1665 Jun
+@ T41 Binding S10 104 140 1705 1741 formation of homo- and hetero-dimers
+% E10 Binding:T41 Theme:T13 Theme2:T17
+% E11 Binding:T41 Theme:T13 Theme2:T18
+% E12 Binding:T41 Theme:T13 Theme2:T19
+% E13 Binding:T41 Theme:T13 Theme2:T20
+% E14 Binding:T41 Theme:T14 Theme2:T17
+% E15 Binding:T41 Theme:T14 Theme2:T18
+% E16 Binding:T41 Theme:T14 Theme2:T19
+% E17 Binding:T41 Theme:T14 Theme2:T20
+% E18 Binding:T41 Theme:T15 Theme2:T17
+% E19 Binding:T41 Theme:T15 Theme2:T18
+% E20 Binding:T41 Theme:T15 Theme2:T19
+% E21 Binding:T41 Theme:T15 Theme2:T20
+% E22 Binding:T41 Theme:T16 Theme2:T17
+% E23 Binding:T41 Theme:T16 Theme2:T18
+% E24 Binding:T41 Theme:T16 Theme2:T19
+% E25 Binding:T41 Theme:T16 Theme2:T20
+
+Both AP-1 and NF-kappaB binding sites have been identified in the promoter region of IL-6 and CXCL8 [12,22], however, the mechanism by which these interleukins are regulated in T-cells is still not clear.
+# T21 Protein S11 85 89 1928 1932 IL-6
+# T22 Protein S11 94 99 1937 1942 CXCL8
+$ T21 Protein S11 85 89 1928 1932 IL-6
+$ T22 Protein S11 94 99 1937 1942 CXCL8
+@ T34 Anaphora S11 141 159 1984 2002 these interleukins
+@ T42 Regulation S11 164 173 2007 2016 regulated
+% E26 Regulation:T42 Theme:T21
+% E27 Regulation:T42 Theme:T22
+
+CXCL8 is a C-X-C chemokine with properties enabling it to recruit T-cells and basophils and to activate neutrophils and monocytes [23].
+# T23 Protein S12 0 5 2048 2053 CXCL8
+
+IL-6 is a cytokine that possesses both pro- and anti-inflammatory characteristics and that plays a key role in haematopoiesis and acute-phase responses [24,25].
+# T24 Protein S13 0 4 2184 2188 IL-6
+
+The present study suggests that the regulation of CXCL8 and IL-6 is uncoupled.
+# T25 Protein S14 50 55 2395 2400 CXCL8
+# T26 Protein S14 60 64 2405 2409 IL-6
+$ T25 Protein S14 50 55 2395 2400 CXCL8
+$ T26 Protein S14 60 64 2405 2409 IL-6
+@ T43 Regulation S14 36 46 2381 2391 regulation
+% E28 Regulation:T43 Theme:T25
+% E29 Regulation:T43 Theme:T26
+
+Using Jurkat T-cells exposed to PMA and heat killed (HK) Escherichia coli MG1655 in combination with inhibitors of NF-kappaB, JNK and PKC, we demonstrated that NF-kappaB regulates IL-6 expression while the regulation of CXCL8 more closely correlated to AP-1 activity.
+# T27 Protein S15 180 184 2604 2608 IL-6
+# T28 Protein S15 220 225 2644 2649 CXCL8
+# T29 Protein S15 253 257 2677 2681 AP-1
+$ T27 Protein S15 180 184 2604 2608 IL-6
+$ T28 Protein S15 220 225 2644 2649 CXCL8
+@ T44 Regulation S15 170 179 2594 2603 regulates
+@ T45 Gene_expression S15 185 195 2609 2619 expression
+@ T46 Regulation S15 206 216 2630 2640 regulation
+% E30 Regulation:T44 Theme:E31
+% E31 Gene_expression:T45 Theme:T27
+% E32 Regulation:T46 Theme:T28
+
+These results indicate that inhibition of NF-kappaB is not an effective strategy in countering the high CXCL8 activities in diseases such as cystic fibrosis, AIDS and pulmonary fibrosis.
+# T30 Protein S16 104 109 2796 2801 CXCL8
+$ T30 Protein S16 104 109 2796 2801 CXCL8
+@ T47 Negative_regulation S16 84 94 2776 2786 countering
+% E33 Negative_regulation:T47 Theme:T30
+

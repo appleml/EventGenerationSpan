@@ -1,0 +1,54 @@
+IL-10 inhibits nuclear factor-kappa B/Rel nuclear activity in CD3-stimulated human peripheral T lymphocytes.
+# T1 Protein S1 0 5 0 5 IL-10
+
+IL-10 markedly reduces nuclear factor (NF)-kappa B/Rel nuclear activity induced in PBMC by stimulation with the anti-CD3 mAb OKT3.
+# T2 Protein S2 0 5 110 115 IL-10
+
+The inhibition is exerted specifically on the NF-kappa B/Rel activation induced by mAb OKT3, and not that produced by PMA.
+
+As judged by supershifting the DNA-protein complexes with Abs recognizing specific components of the NF-kappa B/Rel protein family, the p50/p65 (Rel A) heterodimeric form of NF-kappa B is primarily affected.
+# T3 Protein S4 136 139 500 503 p50
+# T4 Protein S4 140 143 504 507 p65
+# T5 Protein S4 145 150 509 514 Rel A
+$ T3 Protein S4 136 139 500 503 p50
+$ T4 Protein S4 140 143 504 507 p65
+@ T16 Negative_regulation S4 198 206 562 570 affected
+% E1 Negative_regulation:T16 Theme:T3
+% E2 Negative_regulation:T16 Theme:T4
+
+The maximal effect is observed at the IL-10 concentration of 20 U/ml.
+# T6 Protein S5 38 43 610 615 IL-10
+
+IL-10 inhibitory activity is exerted on T lymphocytes and is mediated by monocytes.
+# T7 Protein S6 0 5 642 647 IL-10
+
+Indeed, monocytes pretreated with IL-10 are able so inhibit NF-kappa B nuclear activity in purified T lymphocytes stimulated with OKT3.
+# T8 Protein S7 34 39 760 765 IL-10
+
+Soluble factors do not appear to be involved in the mechanism of inhibition.
+
+On the other hand, the up-regulation of CD80 Ag, found on monocytes obtained from PBMC incubated with OKT3, is not detected after addition of IL-10, and the anti-CD28 mAb CLB-CD28/1 restores the NF-kappa B/Rel nuclear activity in IL-10-inhibited lymphocytes.
+# T9 Protein S9 40 47 979 986 CD80 Ag
+# T10 Protein S9 142 147 1081 1086 IL-10
+# T11 Protein S9 162 166 1101 1105 CD28
+# T12 Protein S9 230 235 1169 1174 IL-10
+$ T9 Protein S9 40 47 979 986 CD80 Ag
+$ T10 Protein S9 142 147 1081 1086 IL-10
+@ T17 Positive_regulation S9 23 36 962 975 up-regulation
+@ T18 Positive_regulation S9 115 123 1054 1062 detected
+% E3 Positive_regulation:T17 Theme:T9
+% E4 Positive_regulation:T18 Theme:E3 Cause:T10
+
+Therefore, the NF-kappa B/Rel inhibition might be ascribed to a lack of cooperation between accessory cells and T lymphocytes, resulting from down-regulation of a costimulatory molecule, such as CD80, produced by IL-10 on activated monocytes.
+# T13 Protein S10 195 199 1393 1397 CD80
+# T14 Protein S10 213 218 1411 1416 IL-10
+$ T13 Protein S10 195 199 1393 1397 CD80
+$ T14 Protein S10 213 218 1411 1416 IL-10
+@ T19 Negative_regulation S10 142 157 1340 1355 down-regulation
+% E5 Negative_regulation:T19 Theme:T13 Cause:T14
+
+Our results demonstrate that IL-10 can inhibit the induction of NF-kappa B/Rel nuclear activity in CD3-stimulated T lymphocytes.
+# T15 Protein S11 29 34 1470 1475 IL-10
+
+Since inappropriate activation of kappa B-driven genes has a physiopathologic role in a number of diseases, such as HIV infection, our findings support the possibility of using this cytokine to suppress an undesirable activation of these transcription factors.
+

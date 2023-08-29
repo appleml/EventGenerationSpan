@@ -1,0 +1,38 @@
+MIP-2 expression
+# T1 Protein S1 0 5 0 5 MIP-2
+
+MIP-2 is a powerful chemokine that contributes to recruitment of neutrophils [27].
+# T2 Protein S2 0 5 17 22 MIP-2
+# T3 Protein S2 20 29 37 46 chemokine
+
+MIP-2 is undetectable or present at low levels under physiological conditions, and shows transient increases under pathological conditions via TNF-alpha and/or interleukin-1beta (IL-1beta)-dependent mechanisms [14].
+# T4 Protein S3 0 5 100 105 MIP-2
+# T5 Protein S3 143 152 243 252 TNF-alpha
+# T6 Protein S3 160 177 260 277 interleukin-1beta
+# T7 Protein S3 179 187 279 287 IL-1beta
+
+Thus, it would be plausible that TNF-alpha-mediated MIP-2 expression may provoke SE-induced neutrophil infiltrations.
+# T8 Protein S4 33 42 349 358 TNF-alpha
+# T9 Protein S4 52 57 368 373 MIP-2
+
+To confirm this hypothesis, we investigated MIP-2 expression in the PC.
+# T10 Protein S5 44 49 478 483 MIP-2
+
+Consistent with our previous study [20], some MIP-2-positive astrocytes were observed in the core and periphery of the vasogenic edema lesions, but not in the non-vasogenic edema region (Figure 6B and 6C).
+# T11 Protein S6 46 51 552 557 MIP-2
+
+Although the number of MIP-2 positive cells per unit area in the PC region of sTNFp55R-infused animals was significantly lower than that of the saline-infused group due to reduction of the area of vasogenic edema, there was no difference in the number of MIP-2 positive cells per unit area of vasogenic edema between sTNFp55R-infused animals and saline-infused animals (Figure 6F).
+# T12 Protein S7 23 28 735 740 MIP-2
+# T13 Protein S7 79 86 791 798 TNFp55R
+# T14 Protein S7 255 260 967 972 MIP-2
+# T15 Protein S7 318 325 1030 1037 TNFp55R
+
+Furthermore, the number of MIP-2-positive cells showed a direct proportion to the unit area of vasogenic edema with a linear coefficient of correlation of 0.682 (p < 0.05, Figure 6G).
+# T16 Protein S8 27 32 1121 1126 MIP-2
+
+Therefore, together with reduction in neutrophil infiltration in the PC region of sTNFp55R-infused animals, our findings provide evidence that TNF-alpha may regulate SE-induced neutrophil infiltration at least in the PC via vasogenic edema formation and not via direct TNF-alpha-mediated MIP-2 expression in astrocytes.
+# T17 Protein S9 83 90 1361 1368 TNFp55R
+# T18 Protein S9 143 152 1421 1430 TNF-alpha
+# T19 Protein S9 269 278 1547 1556 TNF-alpha
+# T20 Protein S9 288 293 1566 1571 MIP-2
+

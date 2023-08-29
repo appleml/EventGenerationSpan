@@ -1,0 +1,38 @@
+Genetic evidence for an additional factor required for erythropoietin-induced signal transduction.
+# T1 Protein S1 55 69 55 69 erythropoietin
+
+Erythropoietin (EPO) and its receptor (EPOR) are required for the development of mature erythrocytes.
+# T2 Protein S2 0 14 100 114 Erythropoietin
+# T3 Protein S2 16 19 116 119 EPO
+# T4 Protein S2 39 43 139 143 EPOR
+
+After binding of ligand, the EPOR activates a variety of signaling pathways that ultimately control cellular proliferation, survival, and specific gene expression.
+# T5 Protein S3 29 33 231 235 EPOR
+
+Although erythroid progenitors appear to be the principal EPO-responsive cell type in vivo due to the restricted expression of the EPOR, many growth factor-dependent cell lines expressing the EPOR can respond to EPO by activating many or all of these pathways.
+# T6 Protein S4 58 61 424 427 EPO
+# T7 Protein S4 131 135 497 501 EPOR
+# T8 Protein S4 192 196 558 562 EPOR
+# T9 Protein S4 212 215 578 581 EPO
+
+In the present study, we have identified a cellular context (the interleukin-2 [IL-2]-dependent HT-2 line) in which the EPO stimulation of the EPOR fails to support cellular proliferation, STAT-5 induction, or MAPK activation, despite efficient phosphorylation of the EPOR and JAK2 and inhibition of apoptosis after withdrawal of IL-2.
+# T10 Protein S5 65 78 692 705 interleukin-2
+# T11 Protein S5 80 84 707 711 IL-2
+# T12 Protein S5 120 123 747 750 EPO
+# T13 Protein S5 143 147 770 774 EPOR
+# T14 Protein S5 189 195 816 822 STAT-5
+# T15 Protein S5 268 272 895 899 EPOR
+# T16 Protein S5 277 281 904 908 JAK2
+# T17 Protein S5 330 334 957 961 IL-2
+
+Interestingly, when we fused HT-2 cells expressing the EPOR with Ba/F3 cells in a complementation assay, the resulting hybridomas proliferated and potently activated STAT-5 and MAPK in response to EPO.
+# T18 Protein S6 55 59 1018 1022 EPOR
+# T19 Protein S6 166 172 1129 1135 STAT-5
+# T20 Protein S6 197 200 1160 1163 EPO
+
+These data indicate that an unidentified cellular factor is needed to mediate signaling by the EPOR.
+# T21 Protein S7 95 99 1260 1264 EPOR
+
+Moreover, Ba/F3 cells apparently express this factor(s) and somatic fusions can, therefore, confer EPO-responsiveness to HT-2 cells that lack this factor.
+# T22 Protein S8 99 102 1365 1368 EPO
+

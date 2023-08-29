@@ -1,0 +1,50 @@
+Molecular mechanisms of anoxia/reoxygenation-induced neutrophil adherence to cultured endothelial cells.
+
+The objectives of this study were to (1) determine the time course of neutrophil adhesion to monolayers of human umbilical vein endothelial cells (HUVECs) that were exposed to 60 minutes of anoxia followed by 30 to 600 minutes of reoxygenation and (2) define the mechanisms responsible for both the early (minutes) and late (hours) hyperadhesivity of postanoxic HUVECs to human neutrophils.
+
+The results clearly demonstrate that anoxia/reoxygenation (A/R) leads to a biphasic increase in neutrophil adhesion to HUVECs, with peak responses occurring at 30 minutes (phase 1) and 240 minutes (phase 2) after reoxygenation.
+
+Oxypurinol and catalase inhibited phase-1 adhesion, suggesting a role for xanthine oxidase and H2O2.
+# T1 Protein S4 15 23 740 748 catalase
+# T2 Protein S4 74 90 799 815 xanthine oxidase
+
+In comparison, platelet activating factor (PAF) contributed to both phases of neutrophil adhesion.
+
+Anti-intercellular adhesion molecule-1 (ICAM-1) and anti-P-selectin antibodies (monoclonal antibodies [mAbs]) attenuated phase-1 neutrophil adhesion, consistent with roles for constitutively expressed ICAM-1 and enhanced surface expression of preformed P-selectin.
+# T3 Protein S6 5 38 930 963 intercellular adhesion molecule-1
+# T4 Protein S6 40 46 965 971 ICAM-1
+# T5 Protein S6 57 67 982 992 P-selectin
+# T6 Protein S6 201 207 1126 1132 ICAM-1
+# T7 Protein S6 253 263 1178 1188 P-selectin
+$ T6 Protein S6 201 207 1126 1132 ICAM-1
+$ T7 Protein S6 253 263 1178 1188 P-selectin
+@ T13 Regulation S6 166 171 1091 1096 roles
+@ T14 Gene_expression S6 191 200 1116 1125 expressed
+@ T15 Positive_regulation S6 212 220 1137 1145 enhanced
+@ T16 Gene_expression S6 229 239 1154 1164 expression
+% E1 Regulation:T13 Theme:E3
+% E2 Regulation:T13 Theme:E4
+% E3 Gene_expression:T14 Theme:T6
+% E4 Positive_regulation:T15 Theme:E5
+% E5 Gene_expression:T16 Theme:T7
+
+Phase-2 neutrophil adhesion was attenuated by an anti-E-selectin mAb, indicating a dominant role of this adhesion molecule in the late phase response.
+# T8 Protein S7 54 64 1244 1254 E-selectin
+
+Pretreatment with actinomycin D and cycloheximide or with competing ds-oligonucleotides containing the nuclear factor-kappa B or activator protein-1 cognate DNA sequences significantly attenuated phase-2 response, suggesting a role for de novo macromolecule synthesis.
+# T9 Protein S8 129 148 1470 1489 activator protein-1
+
+Surface expression of ICAM-1, P-selectin, and E-selectin on HUVECs correlated with the phase-1 and -2 neutrophil adhesion responses.
+# T10 Protein S9 22 28 1632 1638 ICAM-1
+# T11 Protein S9 30 40 1640 1650 P-selectin
+# T12 Protein S9 46 56 1656 1666 E-selectin
+$ T12 Protein S9 46 56 1656 1666 E-selectin
+$ T11 Protein S9 30 40 1640 1650 P-selectin
+$ T10 Protein S9 22 28 1632 1638 ICAM-1
+@ T17 Gene_expression S9 8 18 1618 1628 expression
+% E6 Gene_expression:T17 Theme:T12
+% E7 Gene_expression:T17 Theme:T11
+% E8 Gene_expression:T17 Theme:T10
+
+Collectively, these findings indicate that A/R elicits a two-phase neutrophil-endothelial cell adhesion response that involves transcription-independent and transcription-dependent surface expression of different endothelial cell adhesion molecules.
+

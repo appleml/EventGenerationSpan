@@ -1,0 +1,34 @@
+Disruption of CFTR activity does not increase IL-1beta production in PBMCs and THP-1 cells
+# T1 Protein S1 46 54 46 54 IL-1beta
+$ T1 Protein S1 46 54 46 54 IL-1beta
+@ T5 Positive_regulation S1 37 45 37 45 increase
+@ T6 Gene_expression S1 55 65 55 65 production
+% E1 Positive_regulation:T5 Theme:E2
+% E2 Gene_expression:T6 Theme:T1
+
+A previous study has indicated a role for chloride ion concentration in suppression of NLRP3 inflammasome activation [34].
+
+To determine whether CFTR dysfunction alters IL-1beta production, THP-1 cells and PBMCs from CF patients and healthy controls were treated with the CFTR inhibitor, CFTRinh172, prior to simulation with live P. aeruginosa.
+# T2 Protein S3 45 53 259 267 IL-1beta
+$ T2 Protein S3 45 53 259 267 IL-1beta
+@ T7 Regulation S3 38 44 252 258 alters
+@ T8 Gene_expression S3 54 64 268 278 production
+% E3 Regulation:T7 Theme:E4
+% E4 Gene_expression:T8 Theme:T2
+
+Treatment with CFTRinh172 did not alter IL-1beta or IL-8 production in control subjects or CF patients (Fig. 8a-b).
+# T3 Protein S4 40 48 475 483 IL-1beta
+$ T3 Protein S4 40 48 475 483 IL-1beta
+@ T9 Regulation S4 34 39 469 474 alter
+@ T10 Gene_expression S4 57 67 492 502 production
+% E5 Regulation:T9 Theme:E6
+% E6 Gene_expression:T10 Theme:T3
+
+Similarly, IL-1beta production was not different in monocyte-derived macrophages or THP-1 reporter cells treated with CFTRinh172 (Fig. 8c-d).
+# T4 Protein S5 11 19 562 570 IL-1beta
+$ T4 Protein S5 11 19 562 570 IL-1beta
+@ T11 Gene_expression S5 20 30 571 581 production
+% E7 Gene_expression:T11 Theme:T4
+
+IL-8 (Fig. 8e) and NF-kappaB activity (Fig. 8f) were also unchanged in CFTRinh172-treated THP-1 reporter cells.
+

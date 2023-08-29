@@ -1,0 +1,28 @@
+Th2 Cells Cannot Induce FOXP3 Expression
+# T1 Protein S1 24 29 24 29 FOXP3
+$ T1 Protein S1 24 29 24 29 FOXP3
+@ T10 Positive_regulation S1 17 23 17 23 Induce
+@ T11 Gene_expression S1 30 40 30 40 Expression
+% E1 Positive_regulation:T10 Theme:E2
+% E2 Gene_expression:T11 Theme:T1
+
+(A) Human T cells were activated with plate-bound anti-CD3/CD28 with or without TGF-beta as indicated on the x-axis of (B).
+# T2 Protein S2 55 58 96 99 CD3
+# T3 Protein S2 59 63 100 104 CD28
+# T4 Protein S2 80 88 121 129 TGF-beta
+
+Cells were harvested after 5 days and FOXP3 mRNA was quantified by real-time PCR.
+# T5 Protein S3 38 43 203 208 FOXP3
+
+Bars show the mean +/- SD of 4 independent experiments.
+
+(B) In vitro differentiated Th1, Th2, or iTreg cells were activated with anti-CD3/CD28, TGF-beta, or anti-IL-4 as indicated.
+# T6 Protein S5 78 81 381 384 CD3
+# T7 Protein S5 82 86 385 389 CD28
+# T8 Protein S5 88 96 391 399 TGF-beta
+# T9 Protein S5 106 110 409 413 IL-4
+
+The phenotype of these cells was confirmed by FACS and proliferation analysis (Figure S1).
+
+Bars show the mean +/- SD of four independent experiments.
+

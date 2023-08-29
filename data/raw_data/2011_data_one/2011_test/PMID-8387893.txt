@@ -1,0 +1,30 @@
+Mice deficient for the 55 kd tumor necrosis factor receptor are resistant to endotoxic shock, yet succumb to L. monocytogenes infection.
+# T1 Protein S1 23 59 23 59 55 kd tumor necrosis factor receptor
+
+The multiple biological activities of tumor necrosis factor (TNF) are mediated by two distinct cell surface receptors of 55 kd (TNFRp55) and 75 kd (TNFRp75).
+# T2 Protein S2 128 135 266 273 TNFRp55
+# T3 Protein S2 148 155 286 293 TNFRp75
+
+Using gene targeting, we generated a TNFRp55-deficient mouse strain.
+# T4 Protein S3 37 44 333 340 TNFRp55
+
+Cells from TNFRp55-/-mutant mice lack expression of TNFRp55 but display normal numbers of high affinity TNFRp75 molecules.
+# T5 Protein S4 11 18 376 383 TNFRp55
+# T6 Protein S4 52 59 417 424 TNFRp55
+# T7 Protein S4 104 111 469 476 TNFRp75
+
+Thymocyte development and lymphocyte populations are unaltered, and clonal deletion of potentially self-reactive T cells is not impaired.
+
+However, TNF signaling is largely abolished, as judged by the failure of TNF to induce NF-kappa B in T lymphocytes from TNFRp55-deficient mice.
+# T8 Protein S6 120 127 746 753 TNFRp55
+
+The loss of TNFRp55 function renders mice resistant to lethal dosages of either lipopolysaccharides or S. aureus enterotoxin B.
+# T9 Protein S7 12 19 782 789 TNFRp55
+# T10 Protein S7 113 126 883 896 enterotoxin B
+
+In contrast, TNFRp55-deficient mice are severely impaired to clear L. monocytogenes and readily succumb to infection.
+# T11 Protein S8 13 20 911 918 TNFRp55
+
+Thus, the 55 kd TNFR plays a decisive role in the host's defense against microorganisms and their pathogenic factors.
+# T12 Protein S9 10 20 1026 1036 55 kd TNFR
+

@@ -1,0 +1,135 @@
+Supporting Information
+
+Phenotype of In Vitro Differentiated T Cells
+
+After two round of differentiation cultures, T cells were stimulated by plate-immobilized anti-CD3/CD28 and 3H-thymidine incorporation as measurement of proliferation was analyzed after 3 d of culture (A).
+# T1 Protein S3 95 98 163 166 CD3
+# T2 Protein S3 99 103 167 171 CD28
+
+In parallel, T cells were analyzed for Treg relevant surface receptor expression as indicated on the x-axis (B).
+
+(1.0 MB AI).
+
+Click here for additional data file.
+
+In Vivo Treatment of Mice with IL-4 Antibody-Cytokine Complexes
+# T3 Protein S7 31 35 471 475 IL-4
+
+B6 mice were given every other day ip injections of phosphate-buffered saline (PBS), recombinant mouse IL-4 (rmIL-4), anti-IL-4 mAb (anti-IL-4 mAb, 11B11, or MAB404), or a mixture of rmIL-4 plus anti-IL-4 mAbs (11B11 or MAB404).
+# T4 Protein S8 103 107 607 611 IL-4
+# T5 Protein S8 123 127 627 631 IL-4
+# T6 Protein S8 138 142 642 646 IL-4
+# T7 Protein S8 185 189 689 693 IL-4
+# T8 Protein S8 200 204 704 708 IL-4
+
+Mice were analyzed on day 7 by flow cytometry for CD3, CD4, and CD25 expression.
+# T9 Protein S9 50 53 783 786 CD3
+# T10 Protein S9 55 58 788 791 CD4
+# T11 Protein S9 64 68 797 801 CD25
+$ T9 Protein S9 50 53 783 786 CD3
+$ T10 Protein S9 55 58 788 791 CD4
+$ T11 Protein S9 64 68 797 801 CD25
+@ T52 Gene_expression S9 69 79 802 812 expression
+% E1 Gene_expression:T52 Theme:T9
+% E2 Gene_expression:T52 Theme:T10
+% E3 Gene_expression:T52 Theme:T11
+
+Shown is CD25 versus CD4 expression in CD3+ CD4+ spleen cells (A-F).
+# T12 Protein S10 9 13 823 827 CD25
+# T13 Protein S10 21 24 835 838 CD4
+# T14 Protein S10 39 42 853 856 CD3
+# T15 Protein S10 44 47 858 861 CD4
+$ T12 Protein S10 9 13 823 827 CD25
+$ T13 Protein S10 21 24 835 838 CD4
+@ T53 Gene_expression S10 25 35 839 849 expression
+% E4 Gene_expression:T53 Theme:T12
+% E5 Gene_expression:T53 Theme:T13
+
+Numbers indicate percentages of CD4+ CD25high CD3+ cells.
+# T16 Protein S11 32 35 915 918 CD4
+# T17 Protein S11 37 41 920 924 CD25
+# T18 Protein S11 46 49 929 932 CD3
+
+Total cell counts (G) of CD4+ CD25high cells in spleen from mice in (A-F) are shown as mean +/- SD.
+# T19 Protein S12 25 28 966 969 CD4
+# T20 Protein S12 30 34 971 975 CD25
+
+The data are representative of three independent experiments.
+
+(369 KB AI).
+
+Click here for additional data file.
+
+Effect of IL-4 on Already Existing Natural or Inducible Treg Cells
+# T21 Protein S16 10 14 1166 1170 IL-4
+
+(A) CD4+CD25high nTreg cells were FACS-sorted and activated with plate-bound anti-CD3/CD28 plus IL-2 during 3 d and in the presence or absence of IL-4 (100 ng/ml) and harvested for real-time PCR analysis.
+# T22 Protein S17 4 7 1227 1230 CD4
+# T23 Protein S17 8 12 1231 1235 CD25
+# T24 Protein S17 82 85 1305 1308 CD3
+# T25 Protein S17 86 90 1309 1313 CD28
+# T26 Protein S17 96 100 1319 1323 IL-2
+# T27 Protein S17 146 150 1369 1373 IL-4
+
+The results shown represent the mean +/- SD of three independent experiments.
+
+(B) iTreg cells were induced in vitro.
+
+FOXP3 espression was assessed by real-time PCR analysis in resting cells, in cells re-stimulated with plate-bound anti-CD3/CD28, with or without TGF-beta, plus IL-2 during 3 d and in the presence (black bar) or absence (white bar) of IL-4 (100 ng/ml).
+# T28 Protein S20 0 5 1546 1551 FOXP3
+# T29 Protein S20 119 122 1665 1668 CD3
+# T30 Protein S20 123 127 1669 1673 CD28
+# T31 Protein S20 145 153 1691 1699 TGF-beta
+# T32 Protein S20 160 164 1706 1710 IL-2
+# T33 Protein S20 234 238 1780 1784 IL-4
+$ T28 Protein S20 0 5 1546 1551 FOXP3
+@ T54 Gene_expression S20 6 16 1552 1562 espression
+% E6 Gene_expression:T54 Theme:T28
+
+(C) Activation dramatically increases CD4+CD25+ Treg cells suppressive capacity of CD4+CD25+ nTreg cells.
+# T34 Protein S21 38 41 1837 1840 CD4
+# T35 Protein S21 42 46 1841 1845 CD25
+# T36 Protein S21 83 86 1882 1885 CD4
+# T37 Protein S21 87 91 1886 1890 CD25
+
+CD4+CD25+ nTreg cells were preactivated during 2 d in the presence or absence of an increasing IL-4 concentration.
+# T38 Protein S22 0 3 1905 1908 CD4
+# T39 Protein S22 4 8 1909 1913 CD25
+# T40 Protein S22 95 99 2000 2004 IL-4
+$ T40 Protein S22 95 99 2000 2004 IL-4
+@ T55 Positive_regulation S22 84 94 1989 1999 increasing
+% E7 Positive_regulation:T55 Theme:T40
+
+After vigorous washing, their suppressive capacity on responder CD4+CD25- was tested.
+# T41 Protein S23 64 67 2084 2087 CD4
+# T42 Protein S23 68 72 2088 2092 CD25
+
+IL-4 pretreatment did not affect the suppressive capacity of FACS-sorted CD4+CD25high cells.
+# T43 Protein S24 0 4 2106 2110 IL-4
+# T44 Protein S24 73 76 2179 2182 CD4
+# T45 Protein S24 77 81 2183 2187 CD25
+
+1 x 104 CD4+CD25+ nTreg cells were added to 5 x 104 CD4+CD25- and 5 x 104 irradiated PBMCs.
+# T46 Protein S25 8 11 2207 2210 CD4
+# T47 Protein S25 12 16 2211 2215 CD25
+# T48 Protein S25 52 55 2251 2254 CD4
+# T49 Protein S25 56 60 2255 2259 CD25
+
+The results are representative of three independent experiments.
+
+(269 KB AI).
+
+Click here for additional data file.
+
+Schematic Structure of the FOXP3 Gene and Location of the GATA3 Sites
+# T50 Protein S29 27 32 2436 2441 FOXP3
+# T51 Protein S29 58 63 2467 2472 GATA3
+
+The scheme shows the location of the 11 exons spaced by a large intron (6000 bp) from the 5'untranslated region (UTR).
+
+Human, murine, and rat sequences are aligned and transcription start site (TSS) is indicated with an arrow.
+
+(529 KB AI).
+
+Click here for additional data file.
+

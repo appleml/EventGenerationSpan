@@ -1,0 +1,46 @@
+Involvement of an SAF-like transcription factor in the activation of serum amyloid A gene in monocyte/macrophage cells by lipopolysaccharide.
+# T1 Protein S1 69 84 69 84 serum amyloid A
+$ T1 Protein S1 69 84 69 84 serum amyloid A
+@ T8 Regulation S1 0 11 0 11 Involvement
+@ T9 Positive_regulation S1 55 65 55 65 activation
+% E1 Regulation:T8 Theme:E2
+% E2 Positive_regulation:T9 Theme:T1
+
+Serum amyloid A (SAA) has been linked to atherosclerosis because of its ability to remodel high-density lipoprotein by the depletion of apolipoprotein A1, its ability to bind cholesterol, and its presence in the atherosclerotic plaques of coronary and carotid arteries.
+# T2 Protein S2 0 15 143 158 Serum amyloid A
+# T3 Protein S2 17 20 160 163 SAA
+$ T3 Protein S2 17 20 160 163 SAA
+@ T10 Binding S2 31 37 174 180 linked
+@ T11 Binding S2 170 174 313 317 bind
+% E3 Binding:T10 Theme:T3
+% E4 Binding:T11 Theme:T3
+
+In the present study, we investigated the induction mechanism of SAA gene in THP-1 monocyte/macrophage cells which play a critical role in the development of atherosclerotic fatty streak and plaque formation.
+# T4 Protein S3 65 68 478 481 SAA
+$ T4 Protein S3 65 68 478 481 SAA
+@ T12 Positive_regulation S3 42 51 455 464 induction
+% E5 Positive_regulation:T12 Theme:T4
+
+We and others have shown that SAA gene is induced in monocyte/macrophage cells by lipopolysaccharide (LPS).
+# T5 Protein S4 30 33 652 655 SAA
+$ T5 Protein S4 30 33 652 655 SAA
+@ T13 Positive_regulation S4 42 49 664 671 induced
+% E6 Positive_regulation:T13 Theme:T5
+
+By promoter function analysis, we show that the SAA promoter sequence between -280 and -226 can confer LPS responsiveness.
+# T6 Protein S5 48 51 778 781 SAA
+$ T6 Protein S5 48 51 778 781 SAA
+@ T14 Entity S5 52 69 782 799 promoter sequence
+@ T15 Regulation S5 107 121 837 851 responsiveness
+% E7 Regulation:T15 Theme:T6 Site:T14
+
+Gel electrophoretic mobility shift assay detected an induced DNA-binding activity in these cells in response to LPS.
+
+Characterization of the DNA-binding protein by UV cross-linking, Southwestern blot, and antibody ablation/supershift assays revealed that it is similar to a recently reported nuclear factor designated SAF.
+
+These results demonstrated that LPS-mediated SAA gene induction in monocyte/macrophage cells is primarily due to the induction of SAF activity.
+# T7 Protein S8 45 48 1221 1224 SAA
+$ T7 Protein S8 45 48 1221 1224 SAA
+@ T16 Positive_regulation S8 54 63 1230 1239 induction
+% E8 Positive_regulation:T16 Theme:T7
+

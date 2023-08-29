@@ -1,0 +1,30 @@
+Akt and mTORC1 Control the Activation of JNK during Necroptosis
+
+JNK is a well-established regulator of TNFalpha synthesis in a variety of systems [13], [14], [15], [34].
+# T1 Protein S2 39 47 103 111 TNFalpha
+
+Therefore, the ability of Akt and mTORC1 inhibitors to block the increase in TNFalpha mRNA lead us to examine their role in the activation of JNK during necroptosis.
+# T2 Protein S3 77 85 247 255 TNFalpha
+
+Knockdown of Akt isoforms Akt1 and Akt2 or inhibition of Akt prominently suppressed the necroptosis dependent increase in JNK and c-Jun phosphorylation (Fig. 6E, S6D,E) suggesting that Akt may provide a link between RIP1 and JNK activation.
+# T3 Protein S4 26 30 362 366 Akt1
+# T4 Protein S4 35 39 371 375 Akt2
+# T5 Protein S4 130 135 466 471 c-Jun
+# T6 Protein S4 216 220 552 556 RIP1
+
+Importantly, inhibition of Akt only inhibited the delayed, but not the early, increase in bFGF/zVAD.fmk induced JNK and c-Jun phosphorylation (Fig.
+# T7 Protein S5 90 94 667 671 bFGF
+# T8 Protein S5 120 125 697 702 c-Jun
+
+S6F).
+
+Knockdown of mTOR, rapamycin and the p70S6K inhibitor PF-4708671 also attenuated the necroptosis-associated increase in JNK and c-Jun phosphorylation (Fig. 6F, S6E,G, Fig.
+# T9 Protein S7 37 43 768 774 p70S6K
+# T10 Protein S7 128 133 859 864 c-Jun
+
+S5D).
+
+Overall, these data suggested that the Akt-mTORC1-S6K axis, acting downstream from RIP1 kinase, is required for the increase in JNK activity during necroptosis in L929 cells.
+# T11 Protein S9 50 53 959 962 S6K
+# T12 Protein S9 83 87 992 996 RIP1
+

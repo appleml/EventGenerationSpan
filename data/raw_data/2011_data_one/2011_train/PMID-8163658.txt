@@ -1,0 +1,65 @@
+Hypoxic induction of interleukin-8 gene expression in human endothelial cells.
+# T1 Protein S1 21 34 21 34 interleukin-8
+$ T1 Protein S1 21 34 21 34 interleukin-8
+@ T13 Positive_regulation S1 8 17 8 17 induction
+@ T14 Gene_expression S1 40 50 40 50 expression
+% E1 Positive_regulation:T13 Theme:E2
+% E2 Gene_expression:T14 Theme:T1
+
+Because leukocyte-mediated tissue damage is an important component of the pathologic picture in ischemia/reperfusion, we have sought mechanisms by which PMNs are directed into hypoxic tissue.
+
+Incubation of human endothelial cells (ECs) in hypoxia, PO2 approximately 14-18 Torr, led to time-dependent release of IL-8 antigen into the conditioned medium; this was accompanied by increased chemotactic activity for PMNs, blocked by antibody to IL-8.
+# T2 Protein S3 119 123 391 395 IL-8
+# T3 Protein S3 249 253 521 525 IL-8
+$ T2 Protein S3 119 123 391 395 IL-8
+@ T15 Positive_regulation S3 86 89 358 361 led
+@ T16 Localization S3 108 115 380 387 release
+% E3 Positive_regulation:T15 Theme:E4
+% E4 Localization:T16 Theme:T2
+
+Production of IL-8 by hypoxic ECs occurred concomitantly with both increased levels of IL-8 mRNA, based on polymerase chain reaction analysis, and increased IL-8 transcription, based on nuclear run-on assays.
+# T4 Protein S4 14 18 541 545 IL-8
+# T5 Protein S4 87 91 614 618 IL-8
+# T6 Protein S4 157 161 684 688 IL-8
+$ T4 Protein S4 14 18 541 545 IL-8
+$ T5 Protein S4 87 91 614 618 IL-8
+$ T6 Protein S4 157 161 684 688 IL-8
+@ T17 Positive_regulation S4 0 10 527 537 Production
+@ T18 Positive_regulation S4 67 76 594 603 increased
+@ T19 Positive_regulation S4 147 156 674 683 increased
+@ T20 Transcription S4 162 175 689 702 transcription
+% E5 Positive_regulation:T17 Theme:T4
+% E6 Positive_regulation:T18 Theme:T5
+% E7 Positive_regulation:T19 Theme:E8
+% E8 Transcription:T20 Theme:T6
+
+Northern analysis of mRNA from hypoxic ECs also demonstrated increased levels of mRNA for macrophage chemotactic protein-1, another member of the chemokine superfamily of proinflammatory cytokines.
+# T7 Protein S5 90 122 826 858 macrophage chemotactic protein-1
+$ T7 Protein S5 90 122 826 858 macrophage chemotactic protein-1
+@ T21 Positive_regulation S5 61 70 797 806 increased
+% E9 Positive_regulation:T21 Theme:T7
+
+IL-8 gene induction was associated with the presence of increased binding activity in nuclear extracts from hypoxic ECs for the NF-kB site.
+# T8 Protein S6 0 4 934 938 IL-8
+$ T8 Protein S6 0 4 934 938 IL-8
+@ T22 Positive_regulation S6 10 19 944 953 induction
+% E10 Positive_regulation:T22 Theme:T8
+
+Studies with human umbilical vein segments exposed to hypoxia also demonstrated increased elaboration of IL-8 antigen compared with normoxic controls.
+# T9 Protein S7 105 109 1179 1183 IL-8
+$ T9 Protein S7 105 109 1179 1183 IL-8
+@ T23 Positive_regulation S7 80 89 1154 1163 increased
+% E11 Positive_regulation:T23 Theme:T9
+
+In mice exposed to hypoxia (PO2 approximately 30-40 Torr), there was increased pulmonary leukostasis, as evidenced by increased myeloperoxidase activity in tissue homogenates.
+# T10 Protein S8 128 143 1353 1368 myeloperoxidase
+
+In parallel, increased levels of transcripts for IP-10, a murine homologue in the chemokine family related to IL-8, were observed in hypoxic lung tissue.
+# T11 Protein S9 49 54 1450 1455 IP-10
+# T12 Protein S9 110 114 1511 1515 IL-8
+$ T11 Protein S9 49 54 1450 1455 IP-10
+@ T24 Positive_regulation S9 13 22 1414 1423 increased
+% E12 Positive_regulation:T24 Theme:T11
+
+Taken together, these data suggest that hypoxia constitutes a stimulus for leukocyte chemotaxis and tissue leukostasis.
+

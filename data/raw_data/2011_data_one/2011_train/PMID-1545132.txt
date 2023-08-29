@@ -1,0 +1,58 @@
+Human T cell activation through the activation-inducer molecule/CD69 enhances the activity of transcription factor AP-1.
+# T1 Protein S1 36 63 36 63 activation-inducer molecule
+# T2 Protein S1 64 68 64 68 CD69
+
+The induction of the AP-1 transcription factor has been ascribed to the early events leading to T cell differentiation and activation.
+
+We have studied the regulation of AP-1 activity in human peripheral blood T lymphocytes stimulated through the activation inducer molecule (AIM)/CD69 activation pathway.
+# T3 Protein S3 111 138 368 395 activation inducer molecule
+# T4 Protein S3 140 143 397 400 AIM
+# T5 Protein S3 145 149 402 406 CD69
+
+Phorbol esters are required to induce AIM/CD69 cell-surface expression as well as for triggering the proliferation of T cells in conjunction with anti-AIM mAb.
+# T6 Protein S4 38 41 465 468 AIM
+# T7 Protein S4 42 46 469 473 CD69
+# T8 Protein S4 151 154 578 581 AIM
+$ T7 Protein S4 42 46 469 473 CD69
+@ T18 Positive_regulation S4 19 37 446 464 required to induce
+@ T19 Entity S4 47 59 474 486 cell-surface
+@ T20 Localization S4 60 70 487 497 expression
+% E1 Positive_regulation:T18 Theme:E2
+% E2 Localization:T20 Theme:T7 AtLoc:T19
+
+Mobility shift assays showed that addition of anti-AIM mAb to PMA-treated T lymphocytes markedly enhanced the binding activity of AP-1 to its cognate sequence, the phorbol ester response element.
+# T9 Protein S5 51 54 638 641 AIM
+
+In contrast, anti-AIM mAb did not induce any change in the binding activity of NF-kappa B, a transcription factor whose activity is also regulated by protein kinase C.
+# T10 Protein S6 18 21 801 804 AIM
+
+The increase in AP-1-binding activity was accompanied by the marked stimulation of the transcription of c-fos but not that of c-jun.
+# T11 Protein S7 104 109 1055 1060 c-fos
+# T12 Protein S7 126 131 1077 1082 c-jun
+$ T11 Protein S7 104 109 1055 1060 c-fos
+$ T12 Protein S7 126 131 1077 1082 c-jun
+@ T21 Positive_regulation S7 68 79 1019 1030 stimulation
+@ T22 Transcription S7 87 100 1038 1051 transcription
+% E3 Positive_regulation:T21 Theme:E6
+% E4 Positive_regulation:T21 Theme:E5
+% E5 Transcription:T22 Theme:T11
+% E6 Transcription:T22 Theme:T12
+
+Blockade of the DNA-binding complexes with an anti-Fos mAb demonstrated a direct participation of c-Fos in the AP-1 complexes induced by anti-AIM mAb.
+# T13 Protein S8 51 54 1135 1138 Fos
+# T14 Protein S8 98 103 1182 1187 c-Fos
+# T15 Protein S8 142 145 1226 1229 AIM
+$ T14 Protein S8 98 103 1182 1187 c-Fos
+@ T23 Binding S8 81 94 1165 1178 participation
+@ T24 Positive_regulation S8 126 133 1210 1217 induced
+% E7 Binding:T23 Theme:T14
+% E8 Positive_regulation:T24 Theme:E7
+
+Most of the AP-1 activity could be eliminated when the anti-AIM mAb was added to the culture medium in the presence of cycloheximide, suggesting that de novo protein synthesis is crucial for the induction of AP-1-binding activity.
+# T16 Protein S9 60 63 1295 1298 AIM
+
+These data provide the evidence that activation of human peripheral blood T cells through the AIM activation pathway regulate the activity of AP-1.
+# T17 Protein S10 94 97 1560 1563 AIM
+
+Therefore, this pathway appears as a crucial step in the initiation of early T cell activation events.
+

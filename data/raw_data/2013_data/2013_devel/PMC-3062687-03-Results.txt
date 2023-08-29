@@ -1,0 +1,74 @@
+RPS3 and IKKbeta interaction
+# T1 Protein S1 0 4 0 4 RPS3
+# T2 Protein S1 9 16 9 16 IKKbeta
+$ T1 Protein S1 0 4 0 4 RPS3
+$ T2 Protein S1 9 16 9 16 IKKbeta
+@ T21 Binding S1 17 28 17 28 interaction
+% E1 Binding:T21 Theme:T1 Theme2:T2
+
+The activation of the inhibitor of kappaB kinase (IKK), consisting of a regulatory subunit IKKgamma and two catalytic subunits, IKKalpha and IKKbeta, is critical for the phosphorylation and dispatch of the inhibitory IkappaBs and the liberation of NF-kappaB20-22.
+# T3 Protein S2 91 99 120 128 IKKgamma
+# T4 Protein S2 128 136 157 165 IKKalpha
+# T5 Protein S2 141 148 170 177 IKKbeta
+
+Given that RPS3 can be found in the cytoplasmic p65-p50-IkappaBalpha inhibitory complex in resting cells6, we hypothesized that activated IKKbeta might also bind to and phosphorylate RPS3.
+# T6 Protein S3 11 15 304 308 RPS3
+# T7 Protein S3 48 51 341 344 p65
+# T8 Protein S3 52 55 345 348 p50
+# T9 Protein S3 56 68 349 361 IkappaBalpha
+# T10 Protein S3 138 145 431 438 IKKbeta
+# T11 Protein S3 183 187 476 480 RPS3
+$ T10 Protein S3 138 145 431 438 IKKbeta
+$ T11 Protein S3 183 187 476 480 RPS3
+@ T22 Positive_regulation S3 128 137 421 430 activated
+@ T23 Binding S3 157 161 450 454 bind
+@ T24 Phosphorylation S3 169 182 462 475 phosphorylate
+% E2 Positive_regulation:T22 Theme:T10
+% E3 Binding:T23 Theme:T10 Theme2:T11
+% E4 Phosphorylation:T24 Theme:T11
+
+First, we found that ectopically expressed IKKbeta and RPS3 interacted (Fig. 1c).
+# T12 Protein S4 43 50 525 532 IKKbeta
+# T13 Protein S4 55 59 537 541 RPS3
+$ T12 Protein S4 43 50 525 532 IKKbeta
+$ T13 Protein S4 55 59 537 541 RPS3
+@ T25 Gene_expression S4 33 42 515 524 expressed
+@ T26 Binding S4 60 70 542 552 interacted
+% E5 Gene_expression:T25 Theme:T12
+% E6 Binding:T26 Theme:T12 Theme2:T13
+
+We next examined resting Jurkat cells and detected a modest endogenous IKKbeta-RPS3 interaction (Fig. 1d), potentially accounting for the basal NF-kappaB transcription required for cell proliferation and survival.
+# T14 Protein S5 71 78 635 642 IKKbeta
+# T15 Protein S5 79 83 643 647 RPS3
+$ T14 Protein S5 71 78 635 642 IKKbeta
+$ T15 Protein S5 79 83 643 647 RPS3
+@ T27 Binding S5 84 95 648 659 interaction
+% E7 Binding:T27 Theme:T14 Theme2:T15
+
+RPS3-IKKbeta association was clearly augmented upon TNF stimulation, peaking at 10 min.
+# T16 Protein S6 0 4 778 782 RPS3
+# T17 Protein S6 5 12 783 790 IKKbeta
+$ T16 Protein S6 0 4 778 782 RPS3
+$ T17 Protein S6 5 12 783 790 IKKbeta
+@ T28 Binding S6 13 24 791 802 association
+@ T29 Positive_regulation S6 37 46 815 824 augmented
+% E8 Binding:T28 Theme:T16 Theme2:T17
+% E9 Positive_regulation:T29 Theme:E8
+
+(Fig. 1d), following similar kinetics to RPS3 serine phosphorylation (Fig. 1b).
+# T18 Protein S7 41 45 907 911 RPS3
+$ T18 Protein S7 41 45 907 911 RPS3
+@ T30 Positive_regulation S7 11 20 877 886 following
+@ T31 Entity S7 46 52 912 918 serine
+@ T32 Phosphorylation S7 53 68 919 934 phosphorylation
+% E10 Positive_regulation:T30 Theme:E11 Cause:E9
+% E11 Phosphorylation:T32 Theme:T18 Site:T31
+
+By contrast, there was no detectable interaction between RPS3 and IKKalpha (Fig. 1d).
+# T19 Protein S8 57 61 1003 1007 RPS3
+# T20 Protein S8 66 74 1012 1020 IKKalpha
+$ T19 Protein S8 57 61 1003 1007 RPS3
+$ T20 Protein S8 66 74 1012 1020 IKKalpha
+@ T33 Binding S8 37 48 983 994 interaction
+% E12 Binding:T33 Theme:T19 Theme2:T20
+

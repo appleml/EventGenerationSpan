@@ -1,0 +1,18 @@
+Transcriptional regulation during T-cell development: the alpha TCR gene as a molecular model.
+# T1 Protein S1 58 67 58 67 alpha TCR
+$ T1 Protein S1 58 67 58 67 alpha TCR
+@ T3 Transcription S1 0 15 0 15 Transcriptional
+@ T4 Regulation S1 16 26 16 26 regulation
+% E1 Transcription:T3 Theme:T1
+% E2 Regulation:T4 Theme:E1
+
+The regulation of gene expression during lymphocyte differentiation is a complex process involving interactions between multiple positive and negative transcriptional regulatory elements.
+
+In this article, transcriptional regulation of the archetypal T-cell-specific gene, alpha TCR, is discussed.
+# T2 Protein S3 84 93 368 377 alpha TCR
+$ T2 Protein S3 84 93 368 377 alpha TCR
+@ T5 Regulation S3 17 43 301 327 transcriptional regulation
+% E3 Regulation:T5 Theme:T2
+
+Major recent developments, including the identification of novel families of transcription factors that regulate multiple T-cell genes during thymocyte ontogeny and T-cell activation, are described.
+

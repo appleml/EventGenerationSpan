@@ -1,0 +1,57 @@
+The DNA binding domain of the A-MYB transcription factor is responsible for its B cell-specific activity and binds to a B cell 110-kDa nuclear protein.
+# T1 Protein S1 30 35 30 35 A-MYB
+$ T1 Protein S1 30 35 30 35 A-MYB
+@ T10 Entity S1 4 22 4 22 DNA binding domain
+@ T11 Binding S1 109 114 109 114 binds
+% E1 Binding:T11 Theme:T1 Site:T10
+
+Expression studies as well as the use of transgenic animals have demonstrated that the A-MYB transcription factor plays central and specific role in the regulation of mature B cell proliferation and/or differentiation.
+# T2 Protein S2 87 92 240 245 A-MYB
+
+Furthermore, it is highly expressed in Burkitt's lymphoma cells and may participate in the pathogenesis of this disease.
+@ T12 Gene_expression S3 26 35 398 407 expressed
+% E2 Gene_expression:T12 Theme:T2
+
+We have therefore investigated the transcriptional activity of A-MYB and its regulation in several human lymphoid cell lines using co-transfection assays and show that A-MYB is transcriptionally active in all the B cell lines studied, but not in T cells.
+# T3 Protein S4 63 68 556 561 A-MYB
+# T4 Protein S4 168 173 661 666 A-MYB
+$ T3 Protein S4 63 68 556 561 A-MYB
+$ T4 Protein S4 168 173 661 666 A-MYB
+@ T13 Regulation S4 77 87 570 580 regulation
+@ T14 Positive_regulation S4 177 201 670 694 transcriptionally active
+% E3 Regulation:T13 Theme:T3
+% E4 Positive_regulation:T14 Theme:T4
+
+In particular the best responder cell line was the Burkitt's cell line Namalwa.
+@ T15 Positive_regulation S5 23 32 771 780 responder
+% E5 Positive_regulation:T15 Theme:T4
+
+The activity of A-MYB in B and not T cells was observed when either an artificial construct or the c-MYC promoter was used as a reporter.
+# T5 Protein S6 16 21 844 849 A-MYB
+# T6 Protein S6 99 104 927 932 c-MYC
+$ T5 Protein S6 16 21 844 849 A-MYB
+@ T16 Positive_regulation S6 47 55 875 883 observed
+% E6 Positive_regulation:T16 Theme:T5
+
+Furthermore, the functional domains responsible for DNA binding, transactivation, and negative regulation, previously characterized in a fibroblast context, were found to have similar activity in B cells.
+@ T17 Binding S7 56 63 1022 1029 binding
+@ T18 Negative_regulation S7 86 105 1052 1071 negative regulation
+% E7 Binding:T17 Theme:T5
+% E8 Negative_regulation:T18 Theme:T5
+
+The region of A-MYB responsible for the B cell specific activity was defined to be the N-terminal 218 amino acids containing the DNA binding domain.
+# T7 Protein S8 14 19 1185 1190 A-MYB
+
+Finally, a 110-kDa protein has been identified in the nuclei of all the B, but not T, cell lines that specifically binds to this A-MYB N-terminal domain.
+# T8 Protein S9 129 134 1449 1454 A-MYB
+$ T8 Protein S9 129 134 1449 1454 A-MYB
+@ T19 Binding S9 115 120 1435 1440 binds
+@ T20 Entity S9 135 152 1455 1472 N-terminal domain
+% E9 Binding:T19 Theme:T8 Site:T20
+
+We hypothesize that this 110-kDa protein may be a functionally important B cell-specific co-activator of A-MYB.
+# T9 Protein S10 105 110 1579 1584 A-MYB
+$ T9 Protein S10 105 110 1579 1584 A-MYB
+@ T21 Positive_regulation S10 89 101 1563 1575 co-activator
+% E10 Positive_regulation:T21 Theme:T9
+

@@ -1,0 +1,19 @@
+Expression of erythroid-specific genes in megakaryoblastic disorders.
+
+Currently available data indicate that erythroid and megakaryocytic differentiation pathways are closely related to each other, and there may exist progenitor cells common to those two lineages may exist.
+
+Acute megakaryoblastic leukemia (AML-M7) and transient myeloproliferative disorder in Down's syndrome (TMD) are characterized by rapid growth of abnormal blast cells which express megakaryocytic markers.
+
+These blast cells express lineage-specific transcription factors such as GATA-1 common to these lineages and frequently express erythroid-specific mRNAs such as gamma-globin and erythroid delta-aminolevulinate synthase (ALAS-E), indicating that most of the blasts in M7 and TMD cases have erythroid and megakaryocytic phenotypes.
+# T1 Protein S4 73 79 553 559 GATA-1
+# T2 Protein S4 178 218 658 698 erythroid delta-aminolevulinate synthase
+# T3 Protein S4 220 226 700 706 ALAS-E
+$ T1 Protein S4 73 79 553 559 GATA-1
+$ T3 Protein S4 220 226 700 706 ALAS-E
+@ T4 Gene_expression S4 18 25 498 505 express
+@ T5 Transcription S4 120 127 600 607 express
+% E1 Gene_expression:T4 Theme:T1
+% E2 Transcription:T5 Theme:T3
+
+These results suggest that blasts in M7 and TMD may correspond to progenitors of both erythroid and megakaryocytic lineages.
+

@@ -1,0 +1,19 @@
+Inhibition of NF-kappa B by sodium salicylate and aspirin [see comments]
+
+The transcription factor nuclear factor-kappa B (NF-kappa B) is critical for the inducible expression of multiple cellular and viral genes involved in inflammation and infection including interleukin-1 (IL-1), IL-6, and adhesion molecules.
+# T1 Protein S2 210 214 284 288 IL-6
+
+The anti-inflammatory drugs sodium salicylate and aspirin inhibited the activation of NF-kappa B, which further explains the mechanism of action of these drugs.
+
+This inhibition prevented the degradation of the NF-kappa B inhibitor, I kappa B, and therefore NF-kappa B was retained in the cytosol.
+
+Sodium salicylate and aspirin also inhibited NF-kappa B-dependent transcription from the Ig kappa enhancer and the human immunodeficiency virus (HIV) long terminal repeat (LTR) in transfected T cells.
+# T2 Protein S5 89 97 700 708 Ig kappa
+$ T2 Protein S5 89 97 700 708 Ig kappa
+@ T3 Negative_regulation S5 35 44 646 655 inhibited
+@ T4 Positive_regulation S5 56 65 667 676 dependent
+@ T5 Transcription S5 66 79 677 690 transcription
+% E1 Negative_regulation:T3 Theme:E2
+% E2 Positive_regulation:T4 Theme:E3
+% E3 Transcription:T5 Theme:T2
+

@@ -1,0 +1,99 @@
+Regulation of transcription of the human erythropoietin receptor gene by proteins binding to GATA-1 and Sp1 motifs.
+# T1 Protein S1 41 64 41 64 erythropoietin receptor
+# T2 Protein S1 93 99 93 99 GATA-1
+# T3 Protein S1 104 107 104 107 Sp1
+$ T1 Protein S1 41 64 41 64 erythropoietin receptor
+@ T30 Regulation S1 0 10 0 10 Regulation
+@ T31 Transcription S1 14 27 14 27 transcription
+% E1 Regulation:T30 Theme:E2
+% E2 Transcription:T31 Theme:T1
+
+Erythropoietin (Epo), the primary regulator of the production of erythroid cells, acts by binding to a cell surface receptor (EpoR) on erythroid progenitors.
+# T4 Protein S2 0 14 117 131 Erythropoietin
+# T5 Protein S2 16 19 133 136 Epo
+# T6 Protein S2 126 130 243 247 EpoR
+$ T5 Protein S2 16 19 133 136 Epo
+$ T6 Protein S2 126 130 243 247 EpoR
+@ T32 Binding S2 90 97 207 214 binding
+% E3 Binding:T32 Theme:T5 Theme2:T6
+
+We used deletion analysis and transfection assays with reporter gene constructs to examine the transcription control elements in the 5' flanking region of the human EpoR gene.
+# T7 Protein S3 165 169 440 444 EpoR
+
+In erythroid cells most of the transcription activity was contained in a 150 bp promoter fragment with binding sites for transcription factors AP2, Sp1 and the erythroid-specific GATA-1.
+# T8 Protein S4 148 151 599 602 Sp1
+# T9 Protein S4 179 185 630 636 GATA-1
+
+The 150 bp hEpoR promoter exhibited high and low activity in erythroid OCIM1 and K562 cells, respectively, reflecting the high and low levels of constitutive hEpoR expression.
+# T10 Protein S5 11 16 649 654 hEpoR
+# T11 Protein S5 158 163 796 801 hEpoR
+$ T11 Protein S5 158 163 796 801 hEpoR
+@ T33 Gene_expression S5 164 174 802 812 expression
+% E4 Gene_expression:T33 Theme:T11
+
+The GATA-1 and Sp1 binding sites in this promoter lacking a TATA sequence were necessary for a high level of transcription activation.
+# T12 Protein S6 4 10 818 824 GATA-1
+# T13 Protein S6 15 18 829 832 Sp1
+
+Protein-DNA binding studies suggested that Sp1 and two other CCGCCC binding proteins from erythroid and non-erythroid cells could bind to the Sp1 binding motif.
+# T14 Protein S7 43 46 992 995 Sp1
+# T15 Protein S7 142 145 1091 1094 Sp1
+$ T14 Protein S7 43 46 992 995 Sp1
+@ T34 Binding S7 130 134 1079 1083 bind
+% E5 Binding:T34 Theme:T14
+
+By increasing GATA-1 levels via co-transfection, we were able to transactivate the hEpoR promoter in K562 cells and non-erythroid cells, but not in the highly active OCIM1 cells, although GATA-1 mRNA levels were comparable in OCIM1 and K562.
+# T16 Protein S8 14 20 1124 1130 GATA-1
+# T17 Protein S8 83 88 1193 1198 hEpoR
+# T18 Protein S8 188 194 1298 1304 GATA-1
+$ T16 Protein S8 14 20 1124 1130 GATA-1
+$ T17 Protein S8 83 88 1193 1198 hEpoR
+@ T35 Positive_regulation S8 3 13 1113 1123 increasing
+@ T36 Positive_regulation S8 65 78 1175 1188 transactivate
+@ T37 Entity S8 89 97 1199 1207 promoter
+% E6 Positive_regulation:T35 Theme:T16
+% E7 Positive_regulation:T36 Theme:T17 Cause:E6 Site:T37
+
+Interestingly, when we mutated the Sp1 site, resulting in a marked decrease in hEpoR promoter activity, we could restore transactivation by increasing GATA-1 levels in OCIM1 cells.
+# T19 Protein S9 35 38 1387 1390 Sp1
+# T20 Protein S9 79 84 1431 1436 hEpoR
+# T21 Protein S9 151 157 1503 1509 GATA-1
+$ T20 Protein S9 79 84 1431 1436 hEpoR
+@ T38 Positive_regulation S9 45 54 1397 1406 resulting
+@ T39 Negative_regulation S9 67 75 1419 1427 decrease
+@ T40 Entity S9 85 93 1437 1445 promoter
+@ T41 Positive_regulation S9 113 120 1465 1472 restore
+% E8 Positive_regulation:T38 Theme:E9
+% E9 Negative_regulation:T39 Theme:T20 Site:T40
+% E10 Positive_regulation:T41 Theme:T20 Site:T40
+
+These data suggest that while GATA-1 can transactivate the EpoR promoter, the level of hEpoR gene expression does not depend on GATA-1 alone.
+# T22 Protein S10 30 36 1563 1569 GATA-1
+# T23 Protein S10 59 63 1592 1596 EpoR
+# T24 Protein S10 87 92 1620 1625 hEpoR
+# T25 Protein S10 128 134 1661 1667 GATA-1
+$ T23 Protein S10 59 63 1592 1596 EpoR
+$ T22 Protein S10 30 36 1563 1569 GATA-1
+$ T24 Protein S10 87 92 1620 1625 hEpoR
+$ T25 Protein S10 128 134 1661 1667 GATA-1
+@ T42 Positive_regulation S10 41 54 1574 1587 transactivate
+@ T43 Entity S10 64 72 1597 1605 promoter
+@ T44 Gene_expression S10 98 108 1631 1641 expression
+@ T45 Positive_regulation S10 118 124 1651 1657 depend
+% E11 Positive_regulation:T42 Theme:T23 Cause:T22 Site:T43
+% E12 Gene_expression:T44 Theme:T24
+% E13 Positive_regulation:T45 Theme:E12 Cause:T25
+
+Rather, hEpoR transcription activity depends on coordination between Sp1 and GATA-1 with other cell-specific factors, including possibly other Sp1-like binding proteins, to provide high level, tissue-specific expression.
+# T26 Protein S11 8 13 1683 1688 hEpoR
+# T27 Protein S11 69 72 1744 1747 Sp1
+# T28 Protein S11 77 83 1752 1758 GATA-1
+# T29 Protein S11 143 146 1818 1821 Sp1
+$ T26 Protein S11 8 13 1683 1688 hEpoR
+@ T46 Transcription S11 14 27 1689 1702 transcription
+@ T47 Positive_regulation S11 37 44 1712 1719 depends
+@ T48 Positive_regulation S11 173 191 1848 1866 provide high level
+% E14 Transcription:T46 Theme:T26
+% E15 Positive_regulation:T47 Theme:E14
+% E16 Positive_regulation:T48 Theme:E12
+

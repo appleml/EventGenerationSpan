@@ -1,0 +1,45 @@
+Signal transduction pathways in normal human monocytes stimulated by cytokines and mediators: comparative study with normal human neutrophils or transformed cells and the putative roles in functionality and cell biology.
+
+Granulocyte-macrophage colony-stimulating factor (GM-CSF) and interleukin (IL) -3 induced tyrosine phosphorylation of 92-kDa protein in normal human monocytes.
+# T1 Protein S2 0 48 222 270 Granulocyte-macrophage colony-stimulating factor
+# T2 Protein S2 50 56 272 278 GM-CSF
+# T3 Protein S2 62 81 284 303 interleukin (IL) -3
+
+We identified this 92-kDa protein as STAT5, but not as STATs1, 3, and 6 nor c-fes and vav protooncogene products, and demonstrated its translocation to the nucleus, enhancement of specific DNA binding capacity, and potentiation of trancriptional activity by GM-CSF.
+# T4 Protein S3 37 42 419 424 STAT5
+# T5 Protein S3 55 61 437 443 STATs1
+# T6 Protein S3 63 64 445 446 3
+# T7 Protein S3 70 71 452 453 6
+# T8 Protein S3 76 81 458 463 c-fes
+# T9 Protein S3 86 89 468 471 vav
+# T10 Protein S3 258 264 640 646 GM-CSF
+
+N-formyl-methionyl-leucyl-phenylalanine (FMLP) and phorbol myristate acetate (PMA) induced tyrosine phosphorylation of 42- and 44-kDa proteins, which were identified as extracellular signal-regulated kinase (ERK), in human monocytes.
+
+In marked contrast to neutrophils and MO7e cells, GM-CSF did not induce tyrosine phosphorylation and activation of ERK in monocytes.
+# T11 Protein S5 50 56 932 938 GM-CSF
+
+Among upstream signaling molecules of ERK, Shc was constitutively associated with Grb2 and was not tyrosine-phosphorylated by GM-CSF and FMLP, and Sos1 and c-Raf-1 were not phosphorylated by GM-CSF, IL-3, TNF, and FMLP in monocytes, whereas all these signaling molecules were affected and/or utilized by GM-CSF in MO7e cells.
+# T12 Protein S6 43 46 1058 1061 Shc
+# T13 Protein S6 82 86 1097 1101 Grb2
+# T14 Protein S6 126 132 1141 1147 GM-CSF
+# T15 Protein S6 147 151 1162 1166 Sos1
+# T16 Protein S6 156 163 1171 1178 c-Raf-1
+# T17 Protein S6 191 197 1206 1212 GM-CSF
+# T18 Protein S6 199 203 1214 1218 IL-3
+# T19 Protein S6 205 208 1220 1223 TNF
+# T20 Protein S6 304 310 1319 1325 GM-CSF
+
+In contrast to neutrophils, p38 was constitutively phosphorylated and agonist-dependent phosphorylation and activation was not detected in human monocytes.
+
+Superoxide release stimulated by FMLP was inhibited partially by PD98059 or SB203580, a specific inhibitor of ERK or p38 pathway, and was almost completely inhibited by the combination of both inhibitors, whereas PMA-induced superoxide release was resistant to these two inhibitors in monocytes.
+
+PD98059 inhibited GM-CSF-dependent proliferation of MO7e cells.
+# T21 Protein S9 18 24 1811 1817 GM-CSF
+
+Present results indicate trancriptional roles of STAT5 and functional roles of ERK and/or p38 in normal human monocytes stimulated by physiological receptor-mediated agonists GM-CSF and FMLP.
+# T22 Protein S10 49 54 1906 1911 STAT5
+# T23 Protein S10 175 181 2032 2038 GM-CSF
+
+Possible roles of ERK in proliferation of transformed cells were also suggested.
+

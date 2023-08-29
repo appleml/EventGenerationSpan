@@ -1,0 +1,67 @@
+Regulation of NF-kappa B, AP-1, NFAT, and STAT1 nuclear import in T lymphocytes by noninvasive delivery of peptide carrying the nuclear localization sequence of NF-kappa B p50.
+# T1 Protein S1 42 47 42 47 STAT1
+# T2 Protein S1 172 175 172 175 p50
+$ T1 Protein S1 42 47 42 47 STAT1
+@ T9 Regulation S1 0 10 0 10 Regulation
+@ T10 Entity S1 48 55 48 55 nuclear
+@ T11 Localization S1 56 62 56 62 import
+% E1 Regulation:T9 Theme:E2
+% E2 Localization:T11 Theme:T1 ToLoc:T10
+
+Activation of T lymphocytes by Ags or cytokines results in translocation of the transcription factors NF-kappa B, AP-1, NFAT, and STAT from the cytoplasm into the nucleus.
+
+The first step in the nuclear import process is recognition of a nuclear localization sequence (NLS) within the karyophilic protein by a cytoplasmic receptor such as the importin (karyopherin)-alpha subunit.
+
+The NLSs of NF-kappa B, AP-1, and NFAT differ and the NLS of STAT1 has not yet been identified.
+
+Herein we demonstrate that the inducible nuclear import of NF-kappa B, AP-1, NFAT, and STAT1 in Jurkat T lymphocytes is significantly inhibited by a cell-permeable peptide carrying the NLS of the NF-kappa B p50 subunit.
+# T3 Protein S5 87 92 741 746 STAT1
+# T4 Protein S5 207 210 861 864 p50
+$ T3 Protein S5 87 92 741 746 STAT1
+@ T12 Positive_regulation S5 31 40 685 694 inducible
+@ T13 Entity S5 41 48 695 702 nuclear
+@ T14 Localization S5 49 55 703 709 import
+@ T15 Negative_regulation S5 134 143 788 797 inhibited
+% E3 Positive_regulation:T12 Theme:E4
+% E4 Localization:T14 Theme:T3 ToLoc:T13
+% E5 Negative_regulation:T15 Theme:E4
+
+NLS peptide-mediated disruption of the nuclear import of these transcription factors results in inhibition of I kappa B alpha and IL-2 gene expression, processes dependent on NF-kappa B or the combination of NF-kappa B, AP-1, and NFAT.
+# T5 Protein S6 110 125 984 999 I kappa B alpha
+# T6 Protein S6 130 134 1004 1008 IL-2
+$ T6 Protein S6 130 134 1004 1008 IL-2
+$ T5 Protein S6 110 125 984 999 I kappa B alpha
+@ T16 Negative_regulation S6 21 31 895 905 disruption
+@ T17 Entity S6 39 46 913 920 nuclear
+@ T18 Localization S6 47 53 921 927 import
+@ T19 Negative_regulation S6 96 106 970 980 inhibition
+@ T20 Gene_expression S6 140 150 1014 1024 expression
+@ T21 Regulation S6 162 171 1036 1045 dependent
+% E6 Negative_regulation:T16 Theme:E7
+% E7 Localization:T18 Theme:T3 ToLoc:T17
+% E8 Negative_regulation:T19 Theme:E13 Cause:E6
+% E9 Negative_regulation:T19 Theme:E12
+% E10 Negative_regulation:T19 Theme:E12 Cause:E6
+% E11 Negative_regulation:T19 Theme:E13
+% E12 Gene_expression:T20 Theme:T6
+% E13 Gene_expression:T20 Theme:T5
+% E14 Regulation:T21 Theme:E12
+% E15 Regulation:T21 Theme:E13
+
+Further, we show that inhibitory NLS peptide interacts in vitro with a cytoplasmic NLS receptor complex comprised of the Rch1/importin (karyopherin)-beta heterodimer expressed in Jurkat T cells.
+# T7 Protein S7 121 125 1231 1235 Rch1
+$ T7 Protein S7 121 125 1231 1235 Rch1
+@ T22 Gene_expression S7 166 175 1276 1285 expressed
+% E16 Gene_expression:T22 Theme:T7
+
+Taken together, these data indicate that the inducible nuclear import of NF-kappa B, AP-1, NFAT, and STAT1 in Jurkat T cells can be regulated by NLS peptide delivered noninvasively to the cytoplasm of Jurkat T cells to target members of the importin (karyopherin)-alpha beta NLS receptor complex.
+# T8 Protein S8 101 106 1406 1411 STAT1
+$ T8 Protein S8 101 106 1406 1411 STAT1
+@ T23 Positive_regulation S8 45 54 1350 1359 inducible
+@ T24 Entity S8 55 62 1360 1367 nuclear
+@ T25 Localization S8 63 69 1368 1374 import
+@ T26 Regulation S8 132 141 1437 1446 regulated
+% E17 Positive_regulation:T23 Theme:E18
+% E18 Localization:T25 Theme:T8 ToLoc:T24
+% E19 Regulation:T26 Theme:E18
+

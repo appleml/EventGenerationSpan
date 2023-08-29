@@ -1,0 +1,51 @@
+Paternal expression of WT1 in human fibroblasts and lymphocytes.
+# T1 Protein S1 23 26 23 26 WT1
+$ T1 Protein S1 23 26 23 26 WT1
+@ T9 Gene_expression S1 0 19 0 19 Paternal expression
+% E1 Gene_expression:T9 Theme:T1
+
+The Wilms' tumor suppressor gene ( WT1 ) was previously identified as being imprinted, with frequent maternal expression in human placentae and fetal brains.
+# T2 Protein S2 35 38 101 104 WT1
+$ T2 Protein S2 35 38 101 104 WT1
+@ T10 Gene_expression S2 101 120 167 186 maternal expression
+% E2 Gene_expression:T10 Theme:T2
+
+We examined the allele-specific expression of WT1 in cultured human fibroblasts from 15 individuals.
+# T3 Protein S3 46 49 270 273 WT1
+$ T3 Protein S3 46 49 270 273 WT1
+@ T11 Gene_expression S3 16 42 240 266 allele-specific expression
+% E3 Gene_expression:T11 Theme:T3
+
+Seven of 15 fibroblast lines were heterozygous for polymorphic alleles, and the expression patterns were variable, i.e., equal, unequal or monoallelic paternal expression in three, two and two cases, respectively.
+@ T12 Gene_expression S4 80 90 405 415 expression
+% E4 Gene_expression:T12 Theme:T3
+
+Exclusive paternal expression of WT1 was also shown in non-cultured peripheral lymphocytes from the latter two individuals.
+# T4 Protein S5 33 36 572 575 WT1
+$ T4 Protein S5 33 36 572 575 WT1
+@ T13 Gene_expression S5 10 29 549 568 paternal expression
+% E5 Gene_expression:T13 Theme:T4
+
+The allele-specific expression profiles of other imprinted genes, IGF2 and H19, on human chromosome 11 were constant and consistent with those in other tissues.
+# T5 Protein S6 66 70 729 733 IGF2
+# T6 Protein S6 75 78 738 741 H19
+$ T6 Protein S6 75 78 738 741 H19
+$ T5 Protein S6 66 70 729 733 IGF2
+@ T14 Gene_expression S6 4 30 667 693 allele-specific expression
+% E6 Gene_expression:T14 Theme:T6
+% E7 Gene_expression:T14 Theme:T5
+
+Our unexpected observations of paternal or biallelic expression of WT1 in fibroblasts and lymphocytes, together with the previous findings of maternal or biallelic expression in placentae and brains, suggest that the allele-specific regulatory system of WT1 is unique and may be controlled by a putative tissue- and individual-specific modifier.
+# T7 Protein S7 67 70 891 894 WT1
+# T8 Protein S7 254 257 1078 1081 WT1
+$ T7 Protein S7 67 70 891 894 WT1
+$ T8 Protein S7 254 257 1078 1081 WT1
+@ T16 Gene_expression S7 53 63 877 887 expression
+@ T18 Gene_expression S7 164 174 988 998 expression
+@ T19 Regulation S7 217 243 1041 1067 allele-specific regulatory
+@ T20 Regulation S7 279 289 1103 1113 controlled
+% E9 Gene_expression:T16 Theme:T7
+% E11 Gene_expression:T18 Theme:T7
+% E12 Regulation:T19 Theme:T8
+% E13 Regulation:T20 Theme:E12
+

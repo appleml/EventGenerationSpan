@@ -1,0 +1,49 @@
+RP1, a new member of the adenomatous polyposis coli-binding EB1-like gene family, is differentially expressed in activated T cells.
+# T1 Protein S1 0 3 0 3 RP1
+$ T1 Protein S1 0 3 0 3 RP1
+@ T13 Gene_expression S1 100 109 100 109 expressed
+% E1 Gene_expression:T13 Theme:T1
+
+Cross-linking of the CD3 and CD28 molecules on T lymphocytes represents one of the most effective signals for T lymphocyte activation and triggering of their cytotoxic effector function.
+# T2 Protein S2 29 33 162 166 CD28
+$ T2 Protein S2 29 33 162 166 CD28
+@ T14 Binding S2 0 13 133 146 Cross-linking
+% E2 Binding:T14 Theme:T2
+
+To identify genes that are expressed in T cells after stimulation, mRNA from T lymphocytes that had been activated by the simultaneous stimulation of the CD3 and CD28 trigger molecules was transcribed for a differential mRNA display analysis into cDNA and was compared with cDNA from CD28- or CD3-activated or resting lymphocytes.
+# T3 Protein S3 162 166 482 486 CD28
+# T4 Protein S3 284 288 604 608 CD28
+
+Differential expression was confirmed subsequently by Northern blot analysis.
+
+One of the cDNA fragments expressed specifically in CD3- and CD28-activated T cells was designated RP1.
+# T5 Protein S5 61 65 790 794 CD28
+
+The predictive protein-coding region of RP1 had a significant homology to members of the recently found adenomatous polyposis coli (APC) protein-binding EB1 gene family, which codes for yet unknown protein(s).
+# T6 Protein S6 40 43 873 876 RP1
+# T7 Protein S6 104 144 937 977 adenomatous polyposis coli (APC) protein
+# T8 Protein S6 153 156 986 989 EB1
+
+Bacterially expressed RP1 protein revealed specific binding to wild-type but not to mutated APC protein.
+# T9 Protein S7 22 25 1065 1068 RP1
+# T10 Protein S7 92 95 1135 1138 APC
+$ T9 Protein S7 22 25 1065 1068 RP1
+$ T10 Protein S7 92 95 1135 1138 APC
+@ T15 Gene_expression S7 12 21 1055 1064 expressed
+@ T16 Binding S7 52 59 1095 1102 binding
+% E3 Gene_expression:T15 Theme:T9
+% E4 Binding:T16 Theme:T9
+% E5 Binding:T16 Theme:T9 Theme2:T10
+
+The rapid up-regulation of RP1 mRNA in properly activated T cells suggests that this gene might belong to the immediate/early gene family, which controls the signal transduction cascade downstream of the TCR.
+# T11 Protein S8 27 30 1175 1178 RP1
+$ T11 Protein S8 27 30 1175 1178 RP1
+@ T17 Positive_regulation S8 10 23 1158 1171 up-regulation
+% E6 Positive_regulation:T17 Theme:T11
+
+As the expression level of the RP1 gene in activated T cells and a spectrum of tumor-derived cell lines correlates with the proliferative status of the cells, members of the EB1-like gene family may not only be involved in the tumorigenesis of colorectal cancers but may also play a role in the proliferative control of normal cells.
+# T12 Protein S9 31 34 1388 1391 RP1
+$ T12 Protein S9 31 34 1388 1391 RP1
+@ T18 Gene_expression S9 7 17 1364 1374 expression
+% E7 Gene_expression:T18 Theme:T12
+

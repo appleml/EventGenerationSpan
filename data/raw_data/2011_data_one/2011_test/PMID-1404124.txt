@@ -1,0 +1,15 @@
+Glucocorticoid receptor in patients with lupus nephritis: relationship between receptor levels in mononuclear leukocytes and effect of glucocorticoid therapy.
+# T1 Protein S1 0 23 0 23 Glucocorticoid receptor
+
+We investigated the clinical significance of glucocorticoid receptor determination in 20 patients with systemic lupus erythematosus (SLE) who afterwards developed nephrotic syndrome.
+# T2 Protein S2 45 68 205 228 glucocorticoid receptor
+
+Glucocorticoid receptor concentrations in mononuclear leukocytes (MNL) in these patients were comparable with those in both other patients with SLE and healthy persons.
+# T3 Protein S3 0 23 343 366 Glucocorticoid receptor
+
+Improvement in urinary protein excretion and in disease activity, which was scored according to the SLE Disease Activity Index system of the University of Toronto, closely related to the glucocorticoid receptor concentrations in MNL isolated from the corresponding patients.
+# T4 Protein S4 187 210 699 722 glucocorticoid receptor
+
+In summary, glucocorticoid receptor determination in patients with lupus nephritis may be a predictive clue for assessing responsiveness to glucocorticoid therapy.
+# T5 Protein S5 12 35 799 822 glucocorticoid receptor
+

@@ -1,0 +1,53 @@
+Suppression of signals required for activation of transcription factor NF-kappa B in cells constitutively expressing the HTLV-I Tax protein.
+# T1 Protein S1 128 131 128 131 Tax
+$ T1 Protein S1 128 131 128 131 Tax
+@ T10 Gene_expression S1 106 116 106 116 expressing
+% E1 Gene_expression:T10 Theme:T1
+
+Transient short-term expression of the Tax protein of human T-cell leukemia virus type-I (HTLV-I) leads to activation of the pleiotropic transcription factor NF-kappa B. Consistent with findings obtained with transient expression assays, we observed marked accumulation of the transcription factor NF-kappa B in the nucleus of Namalwa B lymphoid cells, which constitutively express Tax.
+# T2 Protein S2 39 42 181 184 Tax
+# T3 Protein S2 382 385 524 527 Tax
+$ T2 Protein S2 39 42 181 184 Tax
+$ T3 Protein S2 382 385 524 527 Tax
+@ T11 Gene_expression S2 21 31 163 173 expression
+@ T12 Gene_expression S2 374 381 516 523 express
+% E2 Gene_expression:T11 Theme:T2
+% E3 Gene_expression:T12 Theme:T3
+
+In contrast, NF-kappa B activity was not detected in the nucleus following long-term expression of Tax in Jurkat T lymphocytes.
+# T4 Protein S3 99 102 628 631 Tax
+$ T4 Protein S3 99 102 628 631 Tax
+@ T13 Gene_expression S3 85 95 614 624 expression
+% E4 Gene_expression:T13 Theme:T4
+
+The ability of both mitogens and cytokines to activate NF-kappa B was also blocked in Jurkat cells constitutively expressing Tax.
+# T5 Protein S4 125 128 782 785 Tax
+$ T5 Protein S4 125 128 782 785 Tax
+@ T14 Gene_expression S4 114 124 771 781 expressing
+% E5 Gene_expression:T14 Theme:T5
+
+However, the activation of other mitogen-inducible transcription factors, such as Fos and Jun, was unaffected.
+# T6 Protein S5 82 85 869 872 Fos
+# T7 Protein S5 90 93 877 880 Jun
+$ T6 Protein S5 82 85 869 872 Fos
+$ T7 Protein S5 90 93 877 880 Jun
+@ T15 Positive_regulation S5 13 23 800 810 activation
+@ T16 Negative_regulation S5 99 109 886 896 unaffected
+% E6 Positive_regulation:T15 Theme:T6
+% E7 Positive_regulation:T15 Theme:T7
+% E8 Negative_regulation:T16 Theme:E7 Cause:E5
+% E9 Negative_regulation:T16 Theme:E6 Cause:E5
+
+Thus, depending on the cellular environment, the short- and long-term effects of Tax expression can be quite different.
+# T8 Protein S6 81 84 979 982 Tax
+$ T8 Protein S6 81 84 979 982 Tax
+@ T17 Regulation S6 6 15 904 913 depending
+@ T18 Gene_expression S6 85 95 983 993 expression
+% E10 Regulation:T17 Theme:E11
+% E11 Gene_expression:T18 Theme:T8
+
+Consequently, one function of Tax in cells infected with HTLV-I might involve cell-type-specific suppression, as opposed to activation, of distinct signal pathways.
+# T9 Protein S7 30 33 1048 1051 Tax
+
+The cells lines described here should be useful for the delineation of signaling pathways utilized in the selective regulation of gene expression.
+

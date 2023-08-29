@@ -1,0 +1,107 @@
+Regulation of c-jun expression during induction of monocytic differentiation by okadaic acid.
+# T1 Protein S1 14 19 14 19 c-jun
+$ T1 Protein S1 14 19 14 19 c-jun
+@ T17 Regulation S1 0 10 0 10 Regulation
+@ T18 Gene_expression S1 20 30 20 30 expression
+% E1 Regulation:T17 Theme:E2
+% E2 Gene_expression:T18 Theme:T1
+
+The present work has examined the effects of okadaic acid, an inhibitor of type 1 and 2A protein phosphatases, on the regulation of c-jun expression during monocytic differentiation of U-937 leukemia cells.
+# T2 Protein S2 75 81 170 176 type 1
+# T3 Protein S2 86 109 181 204 2A protein phosphatases
+# T4 Protein S2 132 137 227 232 c-jun
+$ T3 Protein S2 86 109 181 204 2A protein phosphatases
+$ T2 Protein S2 75 81 170 176 type 1
+$ T4 Protein S2 132 137 227 232 c-jun
+@ T19 Regulation S2 34 41 129 136 effects
+@ T20 Negative_regulation S2 62 71 157 166 inhibitor
+@ T21 Regulation S2 118 128 213 223 regulation
+@ T22 Gene_expression S2 138 148 233 243 expression
+% E3 Regulation:T19 Theme:E6
+% E4 Negative_regulation:T20 Theme:T3
+% E5 Negative_regulation:T20 Theme:T2
+% E6 Regulation:T21 Theme:E7
+% E7 Gene_expression:T22 Theme:T4
+
+The results demonstrate that okadaic acid treatment is associated with induction of a differentiated monocyte phenotype characterized by: (a) growth arrest; (b) increases in Mac-1 cell surface antigen expression; (c) down-regulation of c-myc transcripts; and (d) induction of tumor necrosis factor gene expression.
+# T5 Protein S3 174 200 476 502 Mac-1 cell surface antigen
+# T6 Protein S3 236 241 538 543 c-myc
+$ T5 Protein S3 174 200 476 502 Mac-1 cell surface antigen
+$ T6 Protein S3 236 241 538 543 c-myc
+@ T23 Positive_regulation S3 71 80 373 382 induction
+@ T24 Positive_regulation S3 161 170 463 472 increases
+@ T25 Gene_expression S3 201 211 503 513 expression
+@ T26 Negative_regulation S3 217 232 519 534 down-regulation
+@ T27 Transcription S3 242 253 544 555 transcripts
+% E8 Positive_regulation:T23 Theme:E12
+% E9 Positive_regulation:T23 Theme:E10
+% E10 Positive_regulation:T24 Theme:E11
+% E11 Gene_expression:T25 Theme:T5
+% E12 Negative_regulation:T26 Theme:E13
+% E13 Transcription:T27 Theme:T6
+
+This induction of monocytic differentiation was associated with transient increases in c-jun mRNA levels, which were maximal at 6 h. Similar effects were obtained for the c-fos gene.
+# T7 Protein S4 87 92 704 709 c-jun
+# T8 Protein S4 171 176 788 793 c-fos
+$ T7 Protein S4 87 92 704 709 c-jun
+$ T8 Protein S4 171 176 788 793 c-fos
+@ T28 Positive_regulation S4 74 83 691 700 increases
+@ T29 Transcription S4 98 104 715 721 levels
+@ T30 Positive_regulation S4 133 148 750 765 Similar effects
+% E14 Positive_regulation:T28 Theme:E15
+% E15 Transcription:T29 Theme:T7
+% E16 Positive_regulation:T30 Theme:T8
+
+Run-on analysis demonstrated detectable levels of c-jun transcription in U-937 cells and that this rate is increased approximately 40-fold following okadaic acid exposure.
+# T9 Protein S5 50 55 850 855 c-jun
+$ T9 Protein S5 50 55 850 855 c-jun
+@ T31 Transcription S5 56 69 856 869 transcription
+@ T32 Positive_regulation S5 107 116 907 916 increased
+% E17 Transcription:T31 Theme:T9
+% E18 Positive_regulation:T32 Theme:E17
+
+c-jun mRNA levels were superinduced in cells treated with both okadaic acid and cycloheximide, whereas inhibition of protein synthesis had little, if any, effect on okadaic acid-induced c-jun transcription.
+# T10 Protein S6 0 5 972 977 c-jun
+# T11 Protein S6 186 191 1158 1163 c-jun
+$ T10 Protein S6 0 5 972 977 c-jun
+$ T11 Protein S6 186 191 1158 1163 c-jun
+@ T33 Transcription S6 11 17 983 989 levels
+@ T34 Positive_regulation S6 23 35 995 1007 superinduced
+@ T35 Regulation S6 135 161 1107 1133 had little, if any, effect
+@ T36 Positive_regulation S6 178 185 1150 1157 induced
+@ T37 Transcription S6 192 205 1164 1177 transcription
+% E19 Transcription:T33 Theme:T10
+% E20 Positive_regulation:T34 Theme:E19
+% E21 Positive_regulation:T34 Theme:E20
+% E22 Regulation:T35 Theme:E23
+% E23 Positive_regulation:T36 Theme:E24
+% E24 Transcription:T37 Theme:T11
+
+The half-life of c-jun mRNA was similar (45-50 min) in both untreated and okadaic acid-induced cells.
+# T12 Protein S7 17 22 1196 1201 c-jun
+
+In contrast, treatment with both okadaic acid and cycloheximide was associated with stabilization (t 1/2 = 90 min) of c-jun transcripts.
+# T13 Protein S8 118 123 1399 1404 c-jun
+$ T13 Protein S8 118 123 1399 1404 c-jun
+@ T38 Positive_regulation S8 84 97 1365 1378 stabilization
+% E25 Positive_regulation:T38 Theme:T13
+
+Taken together, these findings indicate that the induction of c-jun transcription by okadaic acid is controlled primarily by a transcriptional mechanism.
+# T14 Protein S9 62 67 1480 1485 c-jun
+$ T14 Protein S9 62 67 1480 1485 c-jun
+@ T39 Positive_regulation S9 49 58 1467 1476 induction
+@ T40 Transcription S9 68 81 1486 1499 transcription
+@ T41 Regulation S9 101 111 1519 1529 controlled
+% E26 Positive_regulation:T39 Theme:E27
+% E27 Transcription:T40 Theme:T14
+% E28 Regulation:T41 Theme:E26
+
+Since previous studies have demonstrated that the c-jun gene is autoinduced by Jun/AP-1, we also studied transcription of c-jun promoter (positions -132/+170)-reporter gene constructs with and without a mutated AP-1 element.
+# T15 Protein S10 50 55 1622 1627 c-jun
+# T16 Protein S10 122 127 1694 1699 c-jun
+$ T15 Protein S10 50 55 1622 1627 c-jun
+@ T42 Positive_regulation S10 64 75 1636 1647 autoinduced
+% E29 Positive_regulation:T42 Theme:T15
+
+(ABSTRACT TRUNCATED AT 250 WORDS)
+

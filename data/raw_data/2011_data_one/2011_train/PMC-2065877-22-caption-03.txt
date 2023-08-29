@@ -1,0 +1,25 @@
+LMP1 Promotes B Cell Survival and Proliferation In Vitro
+# T1 Protein S1 0 4 0 4 LMP1
+
+(A) MTS assay of splenocytes from WT and LMP1 transgenic mice.
+# T2 Protein S2 41 45 98 102 LMP1
+
+Splenocytes were cultured in the presence (grey bars) or absence (black bars) of IL4 for 3 d.
+# T3 Protein S3 81 84 201 204 IL4
+
+The results are the mean +/- SEM of triplicate samples averaged from multiple mice where "n" the number of mice analyzed is as follows: n = 2 for WT lymphocytes and WT lymphomas, n = 11 for LMP1 transgenic lymphocytes, and n = 13 for LMP1 transgenic lymphomas.
+# T4 Protein S4 190 194 404 408 LMP1
+# T5 Protein S4 234 238 448 452 LMP1
+
+(B) EMA exclusion of CD19+ gated splenocytes from WT and LMP1 transgenic mice showing percentage of viable B cells cultured with (white bars) or without (black bars) IL4 for 2 d.
+# T6 Protein S5 21 25 497 501 CD19
+# T7 Protein S5 57 61 533 537 LMP1
+# T8 Protein S5 166 169 642 645 IL4
+
+(C) Flow cytometry analysis for incorporated BrdU in WT and LMP1 transgenic lymphoma cells cultured with or without IL4 for 2 d. Shown are the results from WT lymphoma 1 and LMP1 transgenic lymphoma 2.
+# T9 Protein S6 60 64 716 720 LMP1
+# T10 Protein S6 116 119 772 775 IL4
+# T11 Protein S6 174 178 830 834 LMP1
+
+Percentages of cells in each quadrant are shown.
+

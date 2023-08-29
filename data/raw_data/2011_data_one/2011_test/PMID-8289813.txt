@@ -1,0 +1,38 @@
+Human T-cell leukemia virus type I Tax associates with and is negatively regulated by the NF-kappa B2 p100 gene product: implications for viral latency.
+# T1 Protein S1 35 38 35 38 Tax
+# T2 Protein S1 90 101 90 101 NF-kappa B2
+# T3 Protein S1 102 106 102 106 p100
+
+Human T-cell leukemia virus type I (HTLV-I) is the etiologic agent of the adult T-cell leukemia, an aggressive and often fatal malignancy of activated human CD4 T cells.
+# T4 Protein S2 157 160 311 314 CD4
+
+HTLV-I encodes an essential 40-kDa protein termed Tax that not only transactivates the long terminal repeat of this retrovirus but also induces an array of cellular genes.
+# T5 Protein S3 50 53 374 377 Tax
+
+Tax-mediated transformation of T cells likely involves the deregulated expression of various cellular genes that normally regulate lymphocyte growth produced by altered activity of various endogenous host transcription factors.
+# T6 Protein S4 0 3 496 499 Tax
+
+In particular, Tax is capable of modulating the expression or activity of various host transcription factors, including members of the NF-kappa B/Rel and CREB/ATF families, as well as the cellular factors HEB-1 and p67SRF.
+# T7 Protein S5 15 18 739 742 Tax
+# T8 Protein S5 215 221 939 945 p67SRF
+
+An additional distinguishing characteristic of HTLV-I infection is the profound state of viral latency that is present in circulating primary leukemic T cells.
+
+In this study, we demonstrate that HTLV-I Tax can physically associate with p100, the product of the Rel-related NF-kappa B2 gene, both in transfected cells and in HTLV-I-infected leukemic T-cell lines.
+# T9 Protein S7 42 45 1149 1152 Tax
+# T10 Protein S7 76 80 1183 1187 p100
+# T11 Protein S7 113 124 1220 1231 NF-kappa B2
+
+Furthermore, the physical interaction of Tax with p100 leads to the inhibition of Tax-induced activation of the HTLV-I and human immunodeficiency virus type 1 long terminal repeats, reflecting p100-mediated cytoplasmic sequestration of the normally nuclearly expressed Tax protein.
+# T12 Protein S8 41 44 1351 1354 Tax
+# T13 Protein S8 50 54 1360 1364 p100
+# T14 Protein S8 82 85 1392 1395 Tax
+# T15 Protein S8 193 197 1503 1507 p100
+# T16 Protein S8 269 272 1579 1582 Tax
+
+In contrast, a mutant of Tax that selectively fails to activate nuclear NF-kappa B expression does not associate with p100.
+# T17 Protein S9 25 28 1617 1620 Tax
+# T18 Protein S9 118 122 1710 1714 p100
+
+(ABSTRACT TRUNCATED AT 250 WORDS)
+

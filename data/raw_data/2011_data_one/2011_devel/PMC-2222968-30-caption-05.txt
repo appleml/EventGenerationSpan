@@ -1,0 +1,62 @@
+Effect of IL-4 on FOXP3 Induction
+# T1 Protein S1 10 14 10 14 IL-4
+# T2 Protein S1 18 23 18 23 FOXP3
+$ T1 Protein S1 10 14 10 14 IL-4
+$ T2 Protein S1 18 23 18 23 FOXP3
+@ T24 Regulation S1 0 6 0 6 Effect
+@ T25 Positive_regulation S1 24 33 24 33 Induction
+% E1 Regulation:T24 Theme:E2 Cause:T1
+% E2 Positive_regulation:T25 Theme:T2
+
+(A) A statistical analysis was performed with six donors on day 5 (TGF-beta (10 ng/ml) and with or without IL-4 (100 ng/ml)); Shown is the mean, and error bars indicated the SD of six donors.
+# T3 Protein S2 67 75 101 109 TGF-beta
+# T4 Protein S2 107 111 141 145 IL-4
+
+Statistical analysis was performed using the Dunnett test.
+
+Statistical significance is indicated by asterisks (*p </= 0.05, **p </= 0.01, Dunnett).
+
+(B) CD4+CD45RA+ cells were activated in the presence of a constant concentration of TGF-beta (5 ng/ml) with an increasing concentration of IL-4, as indicated.
+# T5 Protein S5 4 7 379 382 CD4
+# T6 Protein S5 8 14 383 389 CD45RA
+# T7 Protein S5 84 92 459 467 TGF-beta
+# T8 Protein S5 139 143 514 518 IL-4
+$ T8 Protein S5 139 143 514 518 IL-4
+@ T26 Positive_regulation S5 111 121 486 496 increasing
+% E3 Positive_regulation:T26 Theme:T8
+
+Cells were harvested for mRNA quantification after 5 d.
+
+(C) CD4+CD45RA+ cells were stimulated in vitro with plate-bound anti-CD3/CD28, TGF-beta (10ng/ml), and IL-4 (100 ng/ml) as indicated.
+# T9 Protein S7 4 7 595 598 CD4
+# T10 Protein S7 8 14 599 605 CD45RA
+# T11 Protein S7 69 72 660 663 CD3
+# T12 Protein S7 73 77 664 668 CD28
+# T13 Protein S7 79 87 670 678 TGF-beta
+# T14 Protein S7 103 107 694 698 IL-4
+
+After 1 h, cell lysates were prepared and analyzed by Western blot for phosphorylated SMAD2 and STAT6.
+# T15 Protein S8 86 91 811 816 SMAD2
+# T16 Protein S8 96 101 821 826 STAT6
+$ T15 Protein S8 86 91 811 816 SMAD2
+$ T16 Protein S8 96 101 821 826 STAT6
+@ T27 Phosphorylation S8 71 85 796 810 phosphorylated
+% E4 Phosphorylation:T27 Theme:T15
+% E5 Phosphorylation:T27 Theme:T16
+
+Total STAT6 and GAPDH served as internal control.
+# T17 Protein S9 6 11 834 839 STAT6
+# T18 Protein S9 16 21 844 849 GAPDH
+
+(D) Intracellular GATA3 and FOXP3 staining are shown after exposure of CD4+CD45RA+ T cells to IL-4 as described for panel B. Data are representative of three independent experiments.
+# T19 Protein S10 18 23 897 902 GATA3
+# T20 Protein S10 28 33 907 912 FOXP3
+# T21 Protein S10 71 74 950 953 CD4
+# T22 Protein S10 75 81 954 960 CD45RA
+# T23 Protein S10 94 98 973 977 IL-4
+$ T19 Protein S10 18 23 897 902 GATA3
+$ T20 Protein S10 28 33 907 912 FOXP3
+@ T28 Gene_expression S10 34 42 913 921 staining
+% E6 Gene_expression:T28 Theme:T19
+% E7 Gene_expression:T28 Theme:T20
+

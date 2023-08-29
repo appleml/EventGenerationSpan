@@ -1,0 +1,160 @@
+In the present study, we found that tumor weight and volume were much smaller in the CCR5-/- mice compared to the CCR5+/+ mice inoculated with B16 melanoma cells (Figure 1A and 1B).
+# T1 Protein S1 85 89 85 89 CCR5
+# T2 Protein S1 114 118 114 118 CCR5
+
+The tumor growth inhibition in the CCR5-/- mice was associated with the inhibition of constitutively activated NF-kappaB and elevation of IL-1Ra in the tumor tissue.
+# T3 Protein S2 35 39 217 221 CCR5
+# T4 Protein S2 138 144 320 326 IL-1Ra
+
+This anti-tumor activity was also associated with decreased expression of NF-kappaB target anti-apoptotic, cell proliferative, and tumor promoting genes (Bcl-2 and C-IAP1) but with increased expression of their target apoptotic genes; cleaved caspase-3 and 9, and Bax (Figure 3A-D).
+# T5 Protein S3 164 170 512 518 C-IAP1
+
+In the tumor and the spleen, the number of cytotoxic CD8+ T cells, CD57+ natural killer cells, and the levels of IL-1Ra were increased (Figure 4 and 5).
+# T6 Protein S4 113 119 744 750 IL-1Ra
+
+These findings suggest that melanoma growth was inhibited in the CCR5-/- mice, and that the elevation of IL-1Ra, accompanied with decreased NF-kappaB, is significant in the inhibition of melanoma growth in CCR5-/- mice.
+# T7 Protein S5 65 69 849 853 CCR5
+# T8 Protein S5 105 111 889 895 IL-1Ra
+# T9 Protein S5 206 210 990 994 CCR5
+
+NF-kappaB regulates the expression of over 200 genes that control the immune system, cancer cell growth and inflammation [39].
+
+Because of its abilities to induce the expression of a large array of inflammatory mediators and its roles as core transcription factors in diverse immune responses, NF-kappaB has been recognized as a major factor responsible for cytokine-associated cancer development or anti-tumor immunity.
+
+In the melanoma tumor tissues of the CCR5-/- mice, the expression of NF-kappaB target cell death genes (Bax, caspase-3 and 9) and the DNA binding activity of NF-kappaB, were significantly inhibited, but the expression of cell death inhibitory NF-kappaB target genes, such as Bcl-2 and cIAP were enhanced.
+# T10 Protein S8 37 41 1461 1465 CCR5
+
+In addition, CCR5-/- prevented the phosphorylation of IkappaB, accompanied with the inhibition of the p50 and p65 translocation into the nucleus (Figure 2A-C).
+# T11 Protein S9 13 17 1742 1746 CCR5
+# T12 Protein S9 102 105 1831 1834 p50
+# T13 Protein S9 110 113 1839 1842 p65
+
+Many tumors, including melanoma, have increased levels of NF-kappaB [40], which is likely acting as a survival factor for melanoma growth.
+
+Thus, the inhibitions of NF-kappaB activity and the expression of target genes are critical in the inhibition of tumor growth in CCR5-/- mice.
+# T14 Protein S11 129 133 2157 2161 CCR5
+
+Although the mechanism is not clear as to how CCR5-/- downregulates NF-kappaB, it is noteworthy that NF-kappaB is activated or inactivated by many cytokines.
+# T15 Protein S12 46 50 2217 2221 CCR5
+
+Numerous studies showed that cytokine affect tumor growth by regulating NF-kappaB.
+
+Inflammatory cytokines, including IL-1, IL-6 and IL-8, activate NF-kappaB pathways in tumor cells [41].
+# T16 Protein S14 40 44 2452 2456 IL-6
+
+The interleukin 10 (IL-10) is well known as an anti-tumor factor as well as an anti-inflammatory factor [42], [43].
+# T17 Protein S15 4 18 2520 2534 interleukin 10
+# T18 Protein S15 20 25 2536 2541 IL-10
+
+IL-10 inhibits constitutively activated NF-kappaB both in vitro [44] and in vivo [45].
+# T19 Protein S16 0 5 2632 2637 IL-10
+
+Inhibition of NF-kappaB by the IL-10 contributes to the anti-tumor effects through the activation of caspase-3 and apoptosis in Colon26-bearing mice [43].
+# T20 Protein S17 31 36 2750 2755 IL-10
+
+Similarly, several studies have demonstrated the ability of IL-1Ra to abrogate the proinflammatory effects of IL-1 [46].
+# T21 Protein S18 60 66 2934 2940 IL-1Ra
+
+It has been reported that IL-1 induces the activation of NF-kappaB in several cancers, and increases cell cycle progression, and the suppression of apoptotic cell death leading to tumor promotion.
+
+The results of various studies over the past 10 years indicate that the major function of IL-1Ra is to regulate the pleiotropic effects of IL-1 by competitively blocking its functions [47].
+# T22 Protein S20 90 96 3282 3288 IL-1Ra
+
+The ability of IL-1 to induce its own antagonist is of interest in understanding the regulation and dysregulation of IL-1 signaling in normal and diseased tissue.
+
+Up-regulation of the receptor antagonist represents a mechanism for turning off IL-1 signaling and creating a temporary state of refractoriness.
+
+The elevated expression of IL-1Ra, without any change of IL-1 in tumors, suggests that the IL-1-signaling system may be dysregulated by IL-1Ra in tumors.
+# T23 Protein S23 27 33 3717 3723 IL-1Ra
+# T24 Protein S23 136 142 3826 3832 IL-1Ra
+
+IL-1Ra has been shown to inhibit tumor progression in prostate, breast, and skin cancer [14], [15], [16].
+
+Intracellular IL-1Ra (icIL-1Ra) inhibits IL-6 and IL-8 production in Caco-2 cells by blocking NF-kappaB pathways [37].
+# T25 Protein S25 0 20 3950 3970 Intracellular IL-1Ra
+# T26 Protein S25 22 30 3972 3980 icIL-1Ra
+# T27 Protein S25 41 45 3991 3995 IL-6
+
+We found that the levels of IL-1Ra were significantly elevated in the tumor tissues of CCR5-/- mice inoculated with B16 melanoma cells.
+# T28 Protein S26 28 34 4097 4103 IL-1Ra
+# T29 Protein S26 87 91 4156 4160 CCR5
+
+Taken together, these data indicate IL-1Ra could be critically involved in the tumor growth inhibition of CCR5-/- mice through the inactivation of NF-kappaB in the present study.
+# T30 Protein S27 36 42 4241 4247 IL-1Ra
+# T31 Protein S27 106 110 4311 4315 CCR5
+
+CCR5 increases tumor growth in a local model and inhibits the efficacy of a dendrite cell vaccine in CCR5+/+ mice compared with CCR5-/- mice [10].
+# T52 Protein S28 0 4 4384 4388 CCR5
+# T53 Protein S28 101 105 4485 4489 CCR5
+# T54 Protein S28 128 132 4512 4516 CCR5
+
+Cheng J and Sung RS examined the effect of CCR5 on the immune response to adenovirus vectors and graft function in an islet transplant model.
+# T55 Protein S29 43 47 4574 4578 CCR5
+
+They found that CCR5 absence does not prevent the local immune response to adenovirus transduction [48].
+# T56 Protein S30 16 20 4689 4693 CCR5
+
+Additionally, Tan MC et al. suggested that disruption of CCR5/CCL5 signaling, either by reducing CCL5 production by tumor cells or by systemic administration of a CCR5 inhibitor (TAK-779), reduced Treg (regulatory T cells) migration to tumors so that tumors are smaller in control mice [9].
+# T57 Protein S31 57 61 4835 4839 CCR5
+# T58 Protein S31 62 66 4840 4844 CCL5
+# T59 Protein S31 97 101 4875 4879 CCL5
+# T60 Protein S31 163 167 4941 4945 CCR5
+
+These data support the important premise that inhibition of tumor growth in CCR5-/- mice could be related with the inhibition of immune escape.
+# T61 Protein S32 76 80 5145 5149 CCR5
+
+Similar to this finding, we found that the CCR5+/+ mice injected with melanoma cells apparently have a lower number of cytotoxic T cells (CD8+positive T Lymphocytes cells) and natural killer cells (CD57 positive NK cells), as well as dendrite cells, in spleen tissues compared to those without melanoma cells.
+# T62 Protein S33 43 47 5256 5260 CCR5
+
+But the lymphocytes of the CCR5-/- mice did not decrease when injected with melanoma cells.
+# T63 Protein S34 27 31 5550 5554 CCR5
+
+These differences of the immune response between the CCR5+/+ mice and the CCR5-/- mice, involving tumor immune tolerance, may be connected with the inhibition of cancer progression.
+# T64 Protein S35 53 57 5668 5672 CCR5
+# T65 Protein S35 74 78 5689 5693 CCR5
+
+Taken together, in the cytokine array experiment, the level of MIP-1alpha (which has a potent activity of T cell and B cell migration) was increased in the CCR5-/- mice compared with those in the CCR5+/+ mice.
+# T66 Protein S36 63 73 5860 5870 MIP-1alpha
+# T67 Protein S36 156 160 5953 5957 CCR5
+# T68 Protein S36 196 200 5993 5997 CCR5
+
+Thus, relatively increased tumor associated cytotoxic lymphocytes could play an important role in inhibiting the tumor growth in CCR5-/- mice.
+# T69 Protein S37 129 133 6136 6140 CCR5
+
+Activation of NF-kappaB could modulate subcellular localization of NK cells and pathogenesis [49].
+
+Inhibition of NF-kappaB activity prevented NK cell depletion, and thus increased anti-tumor activity by decreasing IL-6 production [50].
+# T70 Protein S39 115 119 6364 6368 IL-6
+
+Thus, the decreased NF-kappaB and elevated IL-1Ra could also be associated in the infiltration of cytotoxic lymphocytes into tumor, resulting in tumor growth inhibition.
+# T71 Protein S40 43 49 6429 6435 IL-1Ra
+
+In contrast, IL-23, a tumor growth promoting cytokine, increased NF-kappaB and immune cell infiltration in oral tumor [51].
+
+These data indicate that NF-kappaB could be involved in the cytokine mediated anti-tumor activities of immune cells.
+
+It is also noteworthy that IL-1Ra inhibited melanoma tumor growth by increasing the number of myeloid suppressor cells in tumor [25].
+# T72 Protein S43 27 33 6824 6830 IL-1Ra
+
+The 3-methylcholatrene-induced tumor incidence was reduced in IL-1alpha knockout mice, but increased in IL-1Ra mice with concomitant maturation of NK cells and anti-tumor immunity [52].
+# T73 Protein S44 62 71 6993 7002 IL-1alpha
+# T74 Protein S44 104 110 7035 7041 IL-1Ra
+
+These data indicate that the decrease of NF-kappaB, and thus increase of IL-1Ra could be significant in tumor growth inhibition of CCR5-/- mice.
+# T75 Protein S45 73 79 7190 7196 IL-1Ra
+# T76 Protein S45 131 135 7248 7252 CCR5
+
+Our data thus show significant clinical implications of CCR5, because CCR5 is a G protein-coupled receptor and it is amenable to use as a small molecule for the inhibition of CCR5.
+# T77 Protein S46 56 60 7318 7322 CCR5
+# T78 Protein S46 70 74 7332 7336 CCR5
+# T79 Protein S46 175 179 7437 7441 CCR5
+
+Several such compounds have already been shown to be safe in clinical trials for use in certain diseases such as HIV [53].
+
+Thus, we believe CCR5 is a cancer target that warrants continued investigation.
+# T80 Protein S48 17 21 7583 7587 CCR5
+
+In summary, this study showed that melanoma cells growth was inhibited via modulation of NF-kappaB/IL-1Ra pathways in CCR5-/- mice.
+# T81 Protein S49 99 105 7745 7751 IL-1Ra
+# T82 Protein S49 118 122 7764 7768 CCR5
+

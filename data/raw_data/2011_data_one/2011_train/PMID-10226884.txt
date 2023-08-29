@@ -1,0 +1,40 @@
+Molecular regulation of cytokine gene expression during the immune response.
+
+Cytokine expression by immune system cells plays an important role in the regulation of the immune response.
+
+On first encounter with antigen, naive CD4+ T helper (Th) cells differentiate into cytokine-producing effector cells.
+# T1 Protein S3 39 42 226 229 CD4
+
+Two types of effector cells characterized by their distinct expression of cytokine profiles have been described.
+
+Th1 cells produce IL-2 and IFN-gamma, whereas Th2 cells produce IL-4, IL-5, IL-6, IL-10, and IL-13.
+# T2 Protein S5 18 22 436 440 IL-2
+# T3 Protein S5 27 36 445 454 IFN-gamma
+# T4 Protein S5 64 68 482 486 IL-4
+# T5 Protein S5 70 74 488 492 IL-5
+# T6 Protein S5 76 80 494 498 IL-6
+# T7 Protein S5 82 87 500 505 IL-10
+# T8 Protein S5 93 98 511 516 IL-13
+$ T2 Protein S5 18 22 436 440 IL-2
+$ T3 Protein S5 27 36 445 454 IFN-gamma
+$ T6 Protein S5 76 80 494 498 IL-6
+$ T4 Protein S5 64 68 482 486 IL-4
+$ T5 Protein S5 70 74 488 492 IL-5
+$ T8 Protein S5 93 98 511 516 IL-13
+$ T7 Protein S5 82 87 500 505 IL-10
+@ T9 Gene_expression S5 10 17 428 435 produce
+@ T10 Gene_expression S5 56 63 474 481 produce
+% E1 Gene_expression:T9 Theme:T2
+% E2 Gene_expression:T9 Theme:T3
+% E3 Gene_expression:T10 Theme:T6
+% E4 Gene_expression:T10 Theme:T4
+% E5 Gene_expression:T10 Theme:T5
+% E6 Gene_expression:T10 Theme:T8
+% E7 Gene_expression:T10 Theme:T7
+
+In many pathological situations, the balance between Th1 and Th2 immune responses determines the outcome of diverse immunologically mediated clinical syndromes including infectious, autoimmune, and allergic diseases.
+
+However, the molecular basis for the tissue-specific expression of Th1/Th2-like cytokines has remained elusive.
+
+In this review we evaluate the possible in vivo role of different transcription factors and transcriptional mechanisms in T cell differentiation and the immune response.
+

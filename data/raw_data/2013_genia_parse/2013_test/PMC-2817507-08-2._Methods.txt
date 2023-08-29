@@ -1,0 +1,52 @@
+2.7	CD	B-NP	O	Other	###	1	2.7	2.7	CD	CD	_	0	root	_	_
+.	.	O	O	Other	###	2	.	.	.	.	_	1	punct	_	_
+
+Statistical	JJ	B-NP	O	Other	###	1	Statistical	Statistical	JJ	JJ	_	2	amod	_	_
+Analysis	NN	I-NP	O	Other	###	2	Analysis	Analysis	NN	NN	_	0	root	_	_
+
+All	DT	B-NP	O	Other	###	1	All	All	DT	DT	_	2	det	_	_
+data	NNS	I-NP	O	Other	###	2	data	data	NNS	NNS	_	4	nsubjpass	_	_
+were	VBD	B-VP	O	Other	###	3	were	were	VBD	VBD	_	4	auxpass	_	_
+presented	VBN	I-VP	O	Other	###	4	presented	presented	VBN	VBN	_	0	root	_	_
+as	IN	B-PP	O	Other	###	5	as	as	IN	IN	_	6	case	_	_
+mean	NN	B-NP	O	Other	###	6	mean	mean	NN	NN	_	4	nmod	_	_
++/-	SYM	I-NP	O	Other	###	7	+/-	+/-	SYM	SYM	_	6	cc	_	_
+SEM	NN	I-NP	O	Other	###	8	SEM	SEM	NN	NN	_	6	conj	_	_
+.	.	O	O	Other	###	9	.	.	.	.	_	4	punct	_	_
+
+The	DT	B-NP	O	Other	###	1	The	The	DT	DT	_	2	det	_	_
+measurements	NNS	I-NP	O	Other	###	2	measurements	measurements	NNS	NNS	_	4	nsubjpass	_	_
+were	VBD	B-VP	O	Other	###	3	were	were	VBD	VBD	_	4	auxpass	_	_
+analyzed	VBN	I-VP	O	Other	###	4	analyzed	analyzed	VBN	VBN	_	0	root	_	_
+by	IN	B-PP	O	Other	###	5	by	by	IN	IN	_	9	case	_	_
+one	JJ	B-NP	O	Other	###	6	one	one	JJ	JJ	_	9	nummod	_	_
+-	-	O	O	Other	###	7	-	-	-	-	_	9	punct	_	_
+way	JJ	B-NP	O	Other	###	8	way	way	JJ	JJ	_	9	amod	_	_
+analysis	NN	I-NP	O	Other	###	9	analysis	analysis	NN	NN	_	4	nmod	_	_
+of	IN	B-PP	O	Other	###	10	of	of	IN	IN	_	11	case	_	_
+variance	NN	B-NP	O	Other	###	11	variance	variance	NN	NN	_	9	nmod	_	_
+(	(	O	O	Other	###	12	(	(	(	(	_	13	punct	_	_
+ANOVA	NN	B-NP	B-protein	Other	###	13	ANOVA	ANOVA	NN	NN	_	11	appos	_	_
+)	)	O	O	Other	###	14	)	)	)	)	_	13	punct	_	_
+or	CC	O	O	Other	###	15	or	or	CC	CC	_	11	cc	_	_
+Student	NN	B-NP	O	Other	###	16	Student	Student	NN	NN	_	18	nmod:poss	_	_
+'s	POS	B-NP	O	Other	###	17	's	's	POS	POS	_	16	case	_	_
+t-test	NN	I-NP	O	Other	###	18	t-test	t-test	NN	NN	_	11	conj	_	_
+.	.	O	O	Other	###	19	.	.	.	.	_	4	punct	_	_
+
+The	DT	B-NP	O	Other	###	1	The	The	DT	DT	_	5	det	_	_
+P	NN	I-NP	O	Other	###	2	P	P	NN	NN	_	5	compound	_	_
+<	JJR	I-NP	O	Other	###	3	<	<	JJR	JJR	_	5	amod	_	_
+.05	CD	I-NP	O	Other	###	4	.05	.05	CD	CD	_	5	nummod	_	_
+level	NN	I-NP	O	Other	###	5	level	level	NN	NN	_	9	nsubjpass	_	_
+of	IN	B-PP	O	Other	###	6	of	of	IN	IN	_	7	case	_	_
+probability	NN	B-NP	O	Other	###	7	probability	probability	NN	NN	_	5	nmod	_	_
+was	VBD	B-VP	O	Other	###	8	was	was	VBD	VBD	_	9	auxpass	_	_
+used	VBN	I-VP	O	Other	###	9	used	used	VBN	VBN	_	0	root	_	_
+as	IN	B-PP	O	Other	###	10	as	as	IN	IN	_	12	case	_	_
+the	DT	B-NP	O	Other	###	11	the	the	DT	DT	_	12	det	_	_
+criteria	NNS	I-NP	O	Other	###	12	criteria	criteria	NNS	NNS	_	9	nmod	_	_
+of	IN	B-PP	O	Other	###	13	of	of	IN	IN	_	14	case	_	_
+significance	NN	B-NP	O	Other	###	14	significance	significance	NN	NN	_	12	nmod	_	_
+.	.	O	O	Other	###	15	.	.	.	.	_	9	punct	_	_
+

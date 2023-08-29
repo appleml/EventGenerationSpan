@@ -1,0 +1,38 @@
+Prolactin and interleukin-2 receptors in T lymphocytes signal through a MGF-STAT5-like transcription factor.
+# T1 Protein S1 0 9 0 9 Prolactin
+
+The cell surface receptors for PRL and interleukin-2 (IL-2) are structurally distinct, but share regulatory tasks in T lymphocytes.
+# T2 Protein S2 31 34 141 144 PRL
+# T3 Protein S2 39 52 149 162 interleukin-2
+# T4 Protein S2 54 58 164 168 IL-2
+
+They can stimulate proliferation and activate transcription of over-lapping sets of genes of T cells.
+
+PRL and IL-2 receptor activation are both linked to the Jak/Stat (signal transducer and activator of transcription) pathway.
+
+We investigated the ability of PRL and IL-2 to activate Stat proteins in different T cell lines.
+# T5 Protein S5 31 34 500 503 PRL
+# T6 Protein S5 39 43 508 512 IL-2
+
+The DNA binding specificities, the reactivities toward Stat-specific antisera, and the mol wt of IL-2- and PRL-induced DNA-binding proteins in Nb2 and C196 T cell lines were investigated.
+# T7 Protein S6 97 101 663 667 IL-2
+# T8 Protein S6 107 110 673 676 PRL
+
+A comparison with the Stat proteins induced by interferon-gamma, PRL, and IL-6 in T47D mammary tumor cells was made.
+# T9 Protein S7 47 63 801 817 interferon-gamma
+# T10 Protein S7 65 68 819 822 PRL
+# T11 Protein S7 74 78 828 832 IL-6
+
+We found that these parameters were indistinguishable for one of the PRL- and IL-2-induced factors.
+# T12 Protein S8 69 72 940 943 PRL
+# T13 Protein S8 78 82 949 953 IL-2
+
+A transcription factor closely related to mammary gland factor-Stat5 is rapidly activated upon interaction of IL-2 and PRL with their respective receptors.
+# T14 Protein S9 110 114 1081 1085 IL-2
+# T15 Protein S9 119 122 1090 1093 PRL
+
+Activation of a second protein related to Stat1 was also observed.
+
+Our results emphasize the role of PRL as a regulator of the immune response and indicate that the Stat factors mammary gland factor-Stat5 and Stat1 play a role in the regulation of gene expression during T cell development.
+# T16 Protein S11 34 37 1228 1231 PRL
+

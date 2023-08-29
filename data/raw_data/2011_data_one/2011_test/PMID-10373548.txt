@@ -1,0 +1,61 @@
+SOCS-3 is tyrosine phosphorylated in response to interleukin-2 and suppresses STAT5 phosphorylation and lymphocyte proliferation.
+# T1 Protein S1 0 6 0 6 SOCS-3
+# T2 Protein S1 49 62 49 62 interleukin-2
+# T3 Protein S1 78 83 78 83 STAT5
+
+Members of the recently discovered SOCS/CIS/SSI family have been proposed as regulators of cytokine signaling, and while targets and mechanisms have been suggested for some family members, the precise role of these proteins remains to be defined.
+
+To date no SOCS proteins have been specifically implicated in interleukin-2 (IL-2) signaling in T cells.
+# T4 Protein S3 62 75 440 453 interleukin-2
+# T5 Protein S3 77 81 455 459 IL-2
+
+Here we report SOCS-3 expression in response to IL-2 in both T-cell lines and human peripheral blood lymphocytes.
+# T6 Protein S4 15 21 498 504 SOCS-3
+# T7 Protein S4 48 52 531 535 IL-2
+
+SOCS-3 protein was detectable as early as 30 min following IL-2 stimulation, while CIS was seen only at low levels after 2 h. Unlike CIS, SOCS-3 was rapidly tyrosine phosphorylated in response to IL-2.
+# T8 Protein S5 0 6 597 603 SOCS-3
+# T9 Protein S5 59 63 656 660 IL-2
+# T10 Protein S5 83 86 680 683 CIS
+# T11 Protein S5 133 136 730 733 CIS
+# T12 Protein S5 138 144 735 741 SOCS-3
+# T13 Protein S5 196 200 793 797 IL-2
+
+Tyrosine phosphorylation of SOCS-3 was observed upon coexpression with Jak1 and Jak2 but only weakly with Jak3.
+# T14 Protein S6 28 34 827 833 SOCS-3
+# T15 Protein S6 71 75 870 874 Jak1
+# T16 Protein S6 80 84 879 883 Jak2
+# T17 Protein S6 106 110 905 909 Jak3
+
+In these experiments, SOCS-3 associated with Jak1 and inhibited Jak1 phosphorylation, and this inhibition was markedly enhanced by the presence of IL-2 receptor beta chain (IL-2Rbeta).
+# T18 Protein S7 22 28 933 939 SOCS-3
+# T19 Protein S7 45 49 956 960 Jak1
+# T20 Protein S7 64 68 975 979 Jak1
+# T21 Protein S7 147 171 1058 1082 IL-2 receptor beta chain
+# T22 Protein S7 173 182 1084 1093 IL-2Rbeta
+
+Moreover, following IL-2 stimulation of T cells, SOCS-3 was able to interact with the IL-2 receptor complex, and in particular tyrosine phosphorylated Jak1 and IL-2Rbeta.
+# T23 Protein S8 20 24 1116 1120 IL-2
+# T24 Protein S8 49 55 1145 1151 SOCS-3
+# T25 Protein S8 86 90 1182 1186 IL-2
+# T26 Protein S8 151 155 1247 1251 Jak1
+# T27 Protein S8 160 169 1256 1265 IL-2Rbeta
+
+Additionally, in lymphocytes expressing SOCS-3 but not CIS, IL-2-induced tyrosine phosphorylation of STAT5b was markedly reduced, while there was only a weak effect on IL-3-mediated STAT5b tyrosine phosphorylation.
+# T28 Protein S9 40 46 1307 1313 SOCS-3
+# T29 Protein S9 55 58 1322 1325 CIS
+# T30 Protein S9 60 64 1327 1331 IL-2
+# T31 Protein S9 101 107 1368 1374 STAT5b
+# T32 Protein S9 168 172 1435 1439 IL-3
+# T33 Protein S9 182 188 1449 1455 STAT5b
+
+Finally, proliferation induced by both IL-2- and IL-3 was significantly inhibited in the presence of SOCS-3.
+# T34 Protein S10 39 43 1521 1525 IL-2
+# T35 Protein S10 49 53 1531 1535 IL-3
+# T36 Protein S10 101 107 1583 1589 SOCS-3
+
+The findings suggest that when SOCS-3 is rapidly induced by IL-2 in T cells, it acts to inhibit IL-2 responses in a classical negative feedback loop.
+# T37 Protein S11 31 37 1622 1628 SOCS-3
+# T38 Protein S11 60 64 1651 1655 IL-2
+# T39 Protein S11 96 100 1687 1691 IL-2
+

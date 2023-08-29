@@ -1,0 +1,167 @@
+Inhibition of IL-4-inducible gene expression in human monocytes by type I and type II interferons.
+# T1 Protein S1 14 18 14 18 IL-4
+
+The Th2-type cytokines, interleukin-4 (IL-4) and interleukin-13 (IL-13), induce expression of a distinct subset of genes in human monocytes, including FcepsilonRIIb (CD23), 15-lipoxygenase, IL-1 receptor antagonist (IL-1ra), and type I and type II IL-1 receptors (IL-1R).
+# T2 Protein S2 24 37 124 137 interleukin-4
+# T3 Protein S2 39 43 139 143 IL-4
+# T4 Protein S2 49 63 149 163 interleukin-13
+# T5 Protein S2 65 70 165 170 IL-13
+# T6 Protein S2 151 164 251 264 FcepsilonRIIb
+# T7 Protein S2 166 170 266 270 CD23
+# T8 Protein S2 173 188 273 288 15-lipoxygenase
+# T9 Protein S2 190 214 290 314 IL-1 receptor antagonist
+# T10 Protein S2 216 222 316 322 IL-1ra
+$ T4 Protein S2 49 63 149 163 interleukin-13
+$ T2 Protein S2 24 37 124 137 interleukin-4
+$ T10 Protein S2 216 222 316 322 IL-1ra
+$ T7 Protein S2 166 170 266 270 CD23
+$ T8 Protein S2 173 188 273 288 15-lipoxygenase
+@ T38 Positive_regulation S2 73 79 173 179 induce
+@ T39 Gene_expression S2 80 90 180 190 expression
+% E1 Positive_regulation:T38 Theme:E9 Cause:T4
+% E2 Positive_regulation:T38 Theme:E8 Cause:T2
+% E3 Positive_regulation:T38 Theme:E8 Cause:T4
+% E4 Positive_regulation:T38 Theme:E7 Cause:T2
+% E5 Positive_regulation:T38 Theme:E9 Cause:T2
+% E6 Positive_regulation:T38 Theme:E7 Cause:T4
+% E7 Gene_expression:T39 Theme:T10
+% E8 Gene_expression:T39 Theme:T7
+% E9 Gene_expression:T39 Theme:T8
+
+Type I interferons (IFN-alpha and IFN-beta) and type II interferon (IFN-gamma) inhibit induction of these genes by IL-4 and IL-13.
+# T11 Protein S3 34 42 406 414 IFN-beta
+# T12 Protein S3 68 77 440 449 IFN-gamma
+# T13 Protein S3 115 119 487 491 IL-4
+# T14 Protein S3 124 129 496 501 IL-13
+$ T12 Protein S3 68 77 440 449 IFN-gamma
+$ T11 Protein S3 34 42 406 414 IFN-beta
+$ T13 Protein S3 115 119 487 491 IL-4
+$ T14 Protein S3 124 129 496 501 IL-13
+@ T40 Negative_regulation S3 79 86 451 458 inhibit
+@ T41 Positive_regulation S3 87 96 459 468 induction
+% E10 Negative_regulation:T40 Theme:E31
+% E11 Negative_regulation:T40 Theme:E30 Cause:T12
+% E12 Negative_regulation:T40 Theme:E28 Cause:T12
+% E13 Negative_regulation:T40 Theme:E32 Cause:T11
+% E14 Negative_regulation:T40 Theme:E33 Cause:T11
+% E15 Negative_regulation:T40 Theme:E31 Cause:T11
+% E16 Negative_regulation:T40 Theme:E32 Cause:T12
+% E17 Negative_regulation:T40 Theme:E30
+% E18 Negative_regulation:T40 Theme:E29 Cause:T11
+% E19 Negative_regulation:T40 Theme:E29
+% E20 Negative_regulation:T40 Theme:E32
+% E21 Negative_regulation:T40 Theme:E28
+% E22 Negative_regulation:T40 Theme:E28 Cause:T11
+% E23 Negative_regulation:T40 Theme:E33 Cause:T12
+% E24 Negative_regulation:T40 Theme:E33
+% E25 Negative_regulation:T40 Theme:E31 Cause:T12
+% E26 Negative_regulation:T40 Theme:E30 Cause:T11
+% E27 Negative_regulation:T40 Theme:E29 Cause:T12
+% E28 Positive_regulation:T41 Theme:T7 Cause:T13
+% E29 Positive_regulation:T41 Theme:T8 Cause:T14
+% E30 Positive_regulation:T41 Theme:T10 Cause:T14
+% E31 Positive_regulation:T41 Theme:T7 Cause:T14
+% E32 Positive_regulation:T41 Theme:T8 Cause:T13
+% E33 Positive_regulation:T41 Theme:T10 Cause:T13
+
+However, the mechanism by which IFNs mediate this inhibition has not been defined.
+@ T42 Positive_regulation S4 37 44 540 547 mediate
+% E34 Positive_regulation:T42 Theme:E14
+% E35 Positive_regulation:T42 Theme:E10
+% E36 Positive_regulation:T42 Theme:E15
+% E37 Positive_regulation:T42 Theme:E12
+% E38 Positive_regulation:T42 Theme:E16
+% E39 Positive_regulation:T42 Theme:E11
+% E40 Positive_regulation:T42 Theme:E13
+% E41 Positive_regulation:T42 Theme:E17
+% E42 Positive_regulation:T42 Theme:E20
+% E43 Positive_regulation:T42 Theme:E21
+% E44 Positive_regulation:T42 Theme:E27
+% E45 Positive_regulation:T42 Theme:E24
+% E46 Positive_regulation:T42 Theme:E26
+% E47 Positive_regulation:T42 Theme:E25
+% E48 Positive_regulation:T42 Theme:E22
+% E49 Positive_regulation:T42 Theme:E23
+% E50 Positive_regulation:T42 Theme:E19
+% E51 Positive_regulation:T42 Theme:E18
+
+In this overview, we discuss the role of the transcription factor, STAT6 (signal transducer and activator of transcription-6) in mediating IL-4- and IL-13-induced gene expression in monocytes.
+# T15 Protein S5 67 72 653 658 STAT6
+# T16 Protein S5 74 124 660 710 signal transducer and activator of transcription-6
+# T17 Protein S5 139 143 725 729 IL-4
+# T18 Protein S5 149 154 735 740 IL-13
+
+We also discuss our recent findings that type I and type II IFNs suppress IL-4/IL-13-inducible gene expression by inhibiting tyrosine phosphorylation and nuclear translocation of STAT6.
+# T19 Protein S6 74 78 853 857 IL-4
+# T20 Protein S6 79 84 858 863 IL-13
+# T21 Protein S6 179 184 958 963 STAT6
+$ T21 Protein S6 179 184 958 963 STAT6
+@ T43 Negative_regulation S6 114 124 893 903 inhibiting
+@ T44 Entity S6 125 133 904 912 tyrosine
+@ T45 Phosphorylation S6 134 149 913 928 phosphorylation
+@ T46 Entity S6 154 161 933 940 nuclear
+@ T47 Localization S6 162 175 941 954 translocation
+% E52 Negative_regulation:T43 Theme:E53
+% E53 Phosphorylation:T45 Theme:T21 Site:T44
+% E54 Localization:T47 Theme:T21 ToLoc:T46
+
+The ability of type I and type II IFNs to inhibit IL-4/IL-13-induced STAT6 activity is dose- and time-dependent, and is not unique to monocytes because IFNs induce the same effects in fibroblasts.
+# T22 Protein S7 50 54 1015 1019 IL-4
+# T23 Protein S7 55 60 1020 1025 IL-13
+# T24 Protein S7 69 74 1034 1039 STAT6
+$ T24 Protein S7 69 74 1034 1039 STAT6
+$ T22 Protein S7 50 54 1015 1019 IL-4
+$ T23 Protein S7 55 60 1020 1025 IL-13
+@ T48 Negative_regulation S7 42 49 1007 1014 inhibit
+@ T49 Positive_regulation S7 61 68 1026 1033 induced
+% E55 Negative_regulation:T48 Theme:E57
+% E56 Negative_regulation:T48 Theme:E58
+% E57 Positive_regulation:T49 Theme:T24 Cause:T22
+% E58 Positive_regulation:T49 Theme:T24 Cause:T23
+
+Inhibition of STAT6 activity is not evident unless cells are preincubated with IFN for at least 1 h before IL-4 stimulation.
+# T25 Protein S8 14 19 1176 1181 STAT6
+# T26 Protein S8 107 111 1269 1273 IL-4
+$ T25 Protein S8 14 19 1176 1181 STAT6
+@ T50 Negative_regulation S8 0 10 1162 1172 Inhibition
+% E59 Negative_regulation:T50 Theme:T25
+
+Furthermore, inhibition can be blocked by actinomycin D, indicating a requirement for de novo transcription.
+@ T51 Negative_regulation S9 31 38 1318 1325 blocked
+@ T52 Positive_regulation S9 70 81 1357 1368 requirement
+% E60 Negative_regulation:T51 Theme:E59
+% E61 Positive_regulation:T52 Theme:E59
+
+We propose a model in which stimulation of monocytes by IFN activates de novo synthesis of an inhibitory factor, possibly one or more members of the SOCS/ SSI/CIS gene family, capable of suppressing activation of STAT6 by IL-4 and IL-13.
+# T27 Protein S10 213 218 1609 1614 STAT6
+# T28 Protein S10 222 226 1618 1622 IL-4
+# T29 Protein S10 231 236 1627 1632 IL-13
+$ T27 Protein S10 213 218 1609 1614 STAT6
+$ T28 Protein S10 222 226 1618 1622 IL-4
+$ T29 Protein S10 231 236 1627 1632 IL-13
+@ T53 Negative_regulation S10 187 198 1583 1594 suppressing
+@ T54 Positive_regulation S10 199 209 1595 1605 activation
+% E62 Negative_regulation:T53 Theme:E65
+% E63 Negative_regulation:T53 Theme:E64
+% E64 Positive_regulation:T54 Theme:T27 Cause:T28
+% E65 Positive_regulation:T54 Theme:T27 Cause:T29
+
+Because STAT6 activation plays an essential role in IL-4/IL-13-induced gene expression, the ability of IFN-beta and IFN-gamma to inhibit STAT6 activity provides an explanation for how IFNs can suppress IL-4/IL-13-inducible gene expression.
+# T30 Protein S11 8 13 1642 1647 STAT6
+# T31 Protein S11 52 56 1686 1690 IL-4
+# T32 Protein S11 57 62 1691 1696 IL-13
+# T33 Protein S11 103 111 1737 1745 IFN-beta
+# T34 Protein S11 116 125 1750 1759 IFN-gamma
+# T35 Protein S11 137 142 1771 1776 STAT6
+# T36 Protein S11 202 206 1836 1840 IL-4
+# T37 Protein S11 207 212 1841 1846 IL-13
+$ T30 Protein S11 8 13 1642 1647 STAT6
+$ T35 Protein S11 137 142 1771 1776 STAT6
+$ T33 Protein S11 103 111 1737 1745 IFN-beta
+$ T34 Protein S11 116 125 1750 1759 IFN-gamma
+@ T55 Positive_regulation S11 14 24 1648 1658 activation
+@ T56 Negative_regulation S11 129 136 1763 1770 inhibit
+% E66 Positive_regulation:T55 Theme:T30
+% E67 Negative_regulation:T56 Theme:T35 Cause:T33
+% E68 Negative_regulation:T56 Theme:T35 Cause:T34
+

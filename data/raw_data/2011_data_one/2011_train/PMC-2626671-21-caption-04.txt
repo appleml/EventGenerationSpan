@@ -1,0 +1,149 @@
+Runx3 controls Eomes, perforin, granzyme B, and IFN-gamma expression in effector CTLs.
+# T1 Protein S1 0 5 0 5 Runx3
+# T2 Protein S1 15 20 15 20 Eomes
+# T3 Protein S1 22 30 22 30 perforin
+# T4 Protein S1 32 42 32 42 granzyme B
+# T5 Protein S1 48 57 48 57 IFN-gamma
+$ T1 Protein S1 0 5 0 5 Runx3
+$ T2 Protein S1 15 20 15 20 Eomes
+$ T3 Protein S1 22 30 22 30 perforin
+$ T4 Protein S1 32 42 32 42 granzyme B
+$ T5 Protein S1 48 57 48 57 IFN-gamma
+@ T41 Regulation S1 6 14 6 14 controls
+@ T42 Gene_expression S1 58 68 58 68 expression
+% E1 Regulation:T41 Theme:E2 Cause:T1
+% E3 Regulation:T41 Theme:E4 Cause:T1
+% E5 Regulation:T41 Theme:E6 Cause:T1
+% E7 Regulation:T41 Theme:E8 Cause:T1
+% E2 Gene_expression:T42 Theme:T2
+% E4 Gene_expression:T42 Theme:T3
+% E6 Gene_expression:T42 Theme:T4
+% E8 Gene_expression:T42 Theme:T5
+
+Runx3+/+ or Runx3-/- CD8+ T cells were activated and transduced with retroviruses bearing an empty IRES-GFP cassette (GFP) or also encoding Eomes-VP16 (Eo-VP16) or Myc-Runx3 (Runx3).
+# T6 Protein S2 0 5 87 92 Runx3
+# T7 Protein S2 12 17 99 104 Runx3
+# T8 Protein S2 21 24 108 111 CD8
+# T9 Protein S2 104 107 191 194 GFP
+# T10 Protein S2 140 150 227 237 Eomes-VP16
+# T11 Protein S2 152 159 239 246 Eo-VP16
+# T12 Protein S2 164 167 251 254 Myc
+# T13 Protein S2 168 173 255 260 Runx3
+# T14 Protein S2 175 180 262 267 Runx3
+
+The frequency of transduced cells in the cultures was equivalent for all constructs (approximately75-90% GFP+ cells; not depicted).
+
+(A) Protein expression in whole-cell extracts (day 6) was analyzed by immunoblotting.
+
+Overexpression of Eomes-VP16 cannot be detected with the Eomes antibody, as the C-terminal epitope is within the region that has been replaced with the VP16 transactivation domain.
+# T15 Protein S5 18 28 506 516 Eomes-VP16
+# T16 Protein S5 57 62 545 550 Eomes
+# T17 Protein S5 152 156 640 644 VP16
+$ T15 Protein S5 18 28 506 516 Eomes-VP16
+@ T43 Positive_regulation S5 0 14 488 502 Overexpression
+% E9 Positive_regulation:T43 Theme:T15
+
+(B) Expression of granzyme B and IFN-gamma after culture for 6 d and restimulation for 4 h with PMA and ionomycin was determined by intracellular staining.
+# T18 Protein S6 18 28 687 697 granzyme B
+# T19 Protein S6 33 42 702 711 IFN-gamma
+$ T18 Protein S6 18 28 687 697 granzyme B
+$ T19 Protein S6 33 42 702 711 IFN-gamma
+@ T44 Gene_expression S6 4 14 673 683 Expression
+% E10 Gene_expression:T44 Theme:T18
+% E11 Gene_expression:T44 Theme:T19
+
+The percentage of positively stained cells is shown above the gate; the mean fluorescence intensity (MFI) of granzyme B staining for the total population is shown below the gate.
+# T20 Protein S7 109 119 934 944 granzyme B
+$ T20 Protein S7 109 119 934 944 granzyme B
+@ T45 Gene_expression S7 120 128 945 953 staining
+% E12 Gene_expression:T45 Theme:T20
+
+The vertical gray lines indicate the MFI for WT GFP+ cells.
+# T21 Protein S8 48 51 1052 1055 GFP
+
+Results are representative of at least two independent experiments.
+
+(C) Schematic diagram of the transcriptional network involving Runx3 and T-box factors.
+# T22 Protein S10 63 68 1195 1200 Runx3
+
+T-bet is induced by TCR signals and is essential for early IFN-gamma expression.
+# T23 Protein S11 0 5 1220 1225 T-bet
+# T24 Protein S11 59 68 1279 1288 IFN-gamma
+$ T23 Protein S11 0 5 1220 1225 T-bet
+$ T24 Protein S11 59 68 1279 1288 IFN-gamma
+@ T46 Positive_regulation S11 9 16 1229 1236 induced
+@ T47 Positive_regulation S11 39 48 1259 1268 essential
+@ T48 Gene_expression S11 69 79 1289 1299 expression
+% E13 Positive_regulation:T46 Theme:T23
+% E14 Positive_regulation:T47 Theme:E15 Cause:T23
+% E15 Gene_expression:T48 Theme:T24
+
+Runx3 is present in naive CD8+ T cells and represses Runx1 and induces Eomes, perforin, granzyme B, and IFN-gamma expression.
+# T25 Protein S12 0 5 1301 1306 Runx3
+# T26 Protein S12 26 29 1327 1330 CD8
+# T27 Protein S12 53 58 1354 1359 Runx1
+# T28 Protein S12 71 76 1372 1377 Eomes
+# T29 Protein S12 78 86 1379 1387 perforin
+# T30 Protein S12 88 98 1389 1399 granzyme B
+# T31 Protein S12 104 113 1405 1414 IFN-gamma
+$ T25 Protein S12 0 5 1301 1306 Runx3
+$ T27 Protein S12 53 58 1354 1359 Runx1
+$ T28 Protein S12 71 76 1372 1377 Eomes
+$ T29 Protein S12 78 86 1379 1387 perforin
+$ T30 Protein S12 88 98 1389 1399 granzyme B
+$ T31 Protein S12 104 113 1405 1414 IFN-gamma
+@ T49 Gene_expression S12 9 16 1310 1317 present
+@ T50 Negative_regulation S12 43 52 1344 1353 represses
+@ T51 Positive_regulation S12 63 70 1364 1371 induces
+@ T52 Gene_expression S12 114 124 1415 1425 expression
+% E16 Gene_expression:T49 Theme:T25
+% E17 Negative_regulation:T50 Theme:T27 Cause:T25
+% E18 Positive_regulation:T51 Theme:E19 Cause:T25
+% E20 Positive_regulation:T51 Theme:E21 Cause:T25
+% E22 Positive_regulation:T51 Theme:E23 Cause:T25
+% E24 Positive_regulation:T51 Theme:E25 Cause:T25
+% E19 Gene_expression:T52 Theme:T28
+% E21 Gene_expression:T52 Theme:T29
+% E23 Gene_expression:T52 Theme:T30
+% E25 Gene_expression:T52 Theme:T31
+
+Eomes may participate in sustaining late IFN-gamma expression, whereas Runx3 and Eomes (but not T-bet) may cooperate to activate perforin expression.
+# T32 Protein S13 0 5 1427 1432 Eomes
+# T33 Protein S13 41 50 1468 1477 IFN-gamma
+# T34 Protein S13 71 76 1498 1503 Runx3
+# T35 Protein S13 81 86 1508 1513 Eomes
+# T36 Protein S13 96 101 1523 1528 T-bet
+# T37 Protein S13 129 137 1556 1564 perforin
+$ T32 Protein S13 0 5 1427 1432 Eomes
+$ T33 Protein S13 41 50 1468 1477 IFN-gamma
+$ T34 Protein S13 71 76 1498 1503 Runx3
+$ T35 Protein S13 81 86 1508 1513 Eomes
+$ T36 Protein S13 96 101 1523 1528 T-bet
+$ T37 Protein S13 129 137 1556 1564 perforin
+@ T53 Regulation S13 10 21 1437 1448 participate
+@ T54 Gene_expression S13 51 61 1478 1488 expression
+@ T55 Positive_regulation S13 120 128 1547 1555 activate
+@ T56 Gene_expression S13 138 148 1565 1575 expression
+% E26 Regulation:T53 Theme:E27 Cause:T32
+% E27 Gene_expression:T54 Theme:T33
+% E28 Positive_regulation:T55 Theme:E29 Cause:T34
+% E30 Positive_regulation:T55 Theme:E29 Cause:T35
+% E31 Positive_regulation:T55 Theme:E29 Cause:T36
+% E29 Gene_expression:T56 Theme:T37
+
+The dotted line indicates the partial effect of T-bet deficiency on Gzmb mRNA but not granzyme B protein expression.
+# T38 Protein S14 48 53 1625 1630 T-bet
+# T39 Protein S14 68 72 1645 1649 Gzmb
+# T40 Protein S14 86 96 1663 1673 granzyme B
+$ T38 Protein S14 48 53 1625 1630 T-bet
+$ T39 Protein S14 68 72 1645 1649 Gzmb
+$ T40 Protein S14 86 96 1663 1673 granzyme B
+@ T57 Regulation S14 38 44 1615 1621 effect
+@ T58 Negative_regulation S14 54 64 1631 1641 deficiency
+@ T59 Gene_expression S14 105 115 1682 1692 expression
+% E32 Regulation:T57 Theme:E33 Cause:E34
+% E35 Regulation:T57 Theme:E36 Cause:E34
+% E34 Negative_regulation:T58 Theme:T38
+% E33 Gene_expression:T59 Theme:T39
+% E36 Gene_expression:T59 Theme:T40
+

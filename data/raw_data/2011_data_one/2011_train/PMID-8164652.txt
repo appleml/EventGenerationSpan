@@ -1,0 +1,58 @@
+Function of NF-kappa B/Rel binding sites in the major histocompatibility complex class II invariant chain promoter is dependent on cell-specific binding of different NF-kappa B/Rel subunits.
+# T1 Protein S1 48 105 48 105 major histocompatibility complex class II invariant chain
+$ T1 Protein S1 48 105 48 105 major histocompatibility complex class II invariant chain
+@ T14 Regulation S1 0 8 0 8 Function
+@ T15 Entity S1 106 114 106 114 promoter
+@ T16 Regulation S1 118 127 118 127 dependent
+% E1 Regulation:T14 Theme:T1 Site:T15
+% E2 Regulation:T16 Theme:E1
+
+The promoter of the human major histocompatibility complex class II-associated invariant-chain gene (Ii) contains two NF-kappa B/Rel binding sites located at -109 to -118 (Ii kappa B-1) and -163 to -172 (Ii kappa B-2) from the transcription start site.
+# T2 Protein S2 32 94 224 286 histocompatibility complex class II-associated invariant-chain
+
+We report here that the differential function of each of these NF-kappa B/Rel sites in several distinct cell types depends on cell-specific binding of NF-kappa B/Rel transcription factors.
+
+Ii kappa B-1 is a positive regulatory element in B-cell lines and in the Ii-expressing T-cell line, H9, but acts as a negative regulatory element in myelomonocytic and glia cell lines.
+
+In vivo protein-DNA contacts are detectable at Ii kappa B-1 in cell lines in which this site is functional as either a positive or negative regulator.
+
+Electrophoretic mobility supershift assays determine that members of the NF-kappa B/Rel family of transcription factors can bind to this site in vitro and that DNA-binding complexes that contain p50, p52, p65, and cRel correlate with positive regulation whereas the presence of p50 correlates with negative regulation.
+# T3 Protein S6 195 198 1165 1168 p50
+# T4 Protein S6 200 203 1170 1173 p52
+# T5 Protein S6 205 208 1175 1178 p65
+# T6 Protein S6 214 218 1184 1188 cRel
+# T7 Protein S6 278 281 1248 1251 p50
+$ T3 Protein S6 195 198 1165 1168 p50
+$ T4 Protein S6 200 203 1170 1173 p52
+$ T5 Protein S6 205 208 1175 1178 p65
+$ T6 Protein S6 214 218 1184 1188 cRel
+$ T7 Protein S6 278 281 1248 1251 p50
+@ T17 Binding S6 164 181 1134 1151 binding complexes
+@ T18 Binding S6 266 274 1236 1244 presence
+% E3 Binding:T17 Theme:T3 Theme2:T4 Theme3:T5 Theme4:T6
+% E4 Binding:T18 Theme:T7
+
+Ii kappa B-2 is a site of positive regulation in B-cell lines and a site of negative regulation in H9 T cells, myelomonocytic, and glial cell lines.
+
+In vivo occupancy of this site is observed only in the H9 T-cell line.
+
+Again, in vitro supershift studies indicate that the presence of p50, p52, p65, and cRel correlates with positive function whereas the presence of only p50 and p52 correlates with negative function.
+# T8 Protein S9 65 68 1574 1577 p50
+# T9 Protein S9 70 73 1579 1582 p52
+# T10 Protein S9 75 78 1584 1587 p65
+# T11 Protein S9 84 88 1593 1597 cRel
+# T12 Protein S9 152 155 1661 1664 p50
+# T13 Protein S9 160 163 1669 1672 p52
+$ T8 Protein S9 65 68 1574 1577 p50
+$ T9 Protein S9 70 73 1579 1582 p52
+$ T10 Protein S9 75 78 1584 1587 p65
+$ T11 Protein S9 84 88 1593 1597 cRel
+$ T12 Protein S9 152 155 1661 1664 p50
+$ T13 Protein S9 160 163 1669 1672 p52
+@ T19 Binding S9 53 61 1562 1570 presence
+@ T20 Binding S9 135 143 1644 1652 presence
+% E5 Binding:T19 Theme:T8 Theme2:T9 Theme3:T10 Theme4:T11
+% E6 Binding:T20 Theme:T12 Theme2:T13
+
+This differential binding of specific NF-kappa B/Rel subunits is likely to mediate the disparate functions of these two NF-kappa B/Rel binding sites.
+

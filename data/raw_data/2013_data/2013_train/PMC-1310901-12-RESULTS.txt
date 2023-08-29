@@ -1,0 +1,71 @@
+Specific CpG sites in the IRF-4 promoter are methylated in hematopoietic cells
+# T1 Protein S1 26 31 26 31 IRF-4
+
+In order to exactly map the methylation sites within the IRF-4 promoter, we treated DNA of Jurkat, CML-T1, U-937, K-562 and EM-2 cells as well as of SD-1, RPMI-8226 and BV-173 control cells with bisulfite, which chemically converts unmethylated cytosine to uracil, whereas it has no effect on methylated cytosine, i.e. in CpG (34).
+# T2 Protein S2 57 62 136 141 IRF-4
+
+This technique is especially useful for detection of unknown methylation patterns.
+
+PCR amplification, cloning and sequencing of the bisulfite-treated DNA showed a specific methylation pattern of the analyzed 62 CpG sites in all cell lines (Figure 4 and Table 1).
+
+In general, the methylational status ranged from one cell line with a nearly non-methylated IRF-4 promoter (SD-1, IRF-4-positive) to a completely methylated IRF-4 promoter in CML-T1 (IRF-4-negative).
+# T3 Protein S5 92 97 766 771 IRF-4
+# T4 Protein S5 114 119 788 793 IRF-4
+# T5 Protein S5 157 162 831 836 IRF-4
+# T6 Protein S5 183 188 857 862 IRF-4
+$ T4 Protein S5 114 119 788 793 IRF-4
+$ T6 Protein S5 183 188 857 862 IRF-4
+@ T16 Gene_expression S5 120 128 794 802 positive
+@ T17 Gene_expression S5 189 197 863 871 negative
+% E1 Gene_expression:T16 Theme:T4
+% E2 Gene_expression:T17 Theme:T6
+
+Interestingly, the percentage of CpG methylation in the IRF-4 promoter from IRF-4-positive cells was very low (mean 24%) as compared with IRF-4-negative cells (mean 94%) (Figure 4A and Table 1).
+# T7 Protein S6 56 61 930 935 IRF-4
+# T8 Protein S6 76 81 950 955 IRF-4
+# T9 Protein S6 138 143 1012 1017 IRF-4
+$ T8 Protein S6 76 81 950 955 IRF-4
+$ T9 Protein S6 138 143 1012 1017 IRF-4
+@ T18 Gene_expression S6 82 90 956 964 positive
+@ T19 Gene_expression S6 144 152 1018 1026 negative
+% E3 Gene_expression:T18 Theme:T8
+% E4 Gene_expression:T19 Theme:T9
+
+A 5'-region (R1) with 13 hypermethylated CpG sites (mean number of methylated clones 5.5 of 8 with 77% methylated CpGs) was found in most cells (except SD-1 and RPMI-8226) and a 3'-region (R3) of 6 hypomethylated CpG sites (mean number of methylated clones 1.7 of 8 with 33% methylated CpGs) was found in most cells (except CML-T1 and U-937) (Figure 4A and Table 1).
+
+Intriguingly, a stretch of 13 CpG sites (#10-22; R2) was detected in between these regions, which were highly methylated in IRF-4-negative (mean number of methylated clones 7.1 of 8 with 89% methylated CpGs) but totally non-methylated in IRF-4-positive cells (Figure 4A and B).
+# T10 Protein S8 124 129 1560 1565 IRF-4
+# T11 Protein S8 238 243 1674 1679 IRF-4
+$ T10 Protein S8 124 129 1560 1565 IRF-4
+$ T11 Protein S8 238 243 1674 1679 IRF-4
+@ T20 Gene_expression S8 130 138 1566 1574 negative
+@ T21 Gene_expression S8 244 252 1680 1688 positive
+% E5 Gene_expression:T20 Theme:T10
+% E6 Gene_expression:T21 Theme:T11
+
+Furthermore, three CpG sites at the 5' end (#54, 56, 58) and two CpG motifs at the 3' end (#1, 2) showed this direct correlation between high methylation status and absence of IRF-4 expression.
+# T12 Protein S9 176 181 1890 1895 IRF-4
+$ T12 Protein S9 176 181 1890 1895 IRF-4
+@ T22 Negative_regulation S9 165 172 1879 1886 absence
+@ T23 Gene_expression S9 182 192 1896 1906 expression
+% E7 Negative_regulation:T22 Theme:E8
+% E8 Gene_expression:T23 Theme:T12
+
+In addition, two CpG sites located in a NFkappaB (#48) and a SP1 element (#45) are less methylated in IRF-4-positive than in IRF-4-negative cells (mean number of methylated clones: 1/8 versus 8/8).
+# T13 Protein S10 102 107 2010 2015 IRF-4
+# T14 Protein S10 125 130 2033 2038 IRF-4
+$ T13 Protein S10 102 107 2010 2015 IRF-4
+$ T14 Protein S10 125 130 2033 2038 IRF-4
+@ T24 Gene_expression S10 108 116 2016 2024 positive
+@ T25 Gene_expression S10 131 139 2039 2047 negative
+% E9 Gene_expression:T24 Theme:T13
+% E10 Gene_expression:T25 Theme:T14
+
+These results indicate the involvement of CpG methylation in the regulation of IRF-4 expression in leukemic cells.
+# T15 Protein S11 79 84 2185 2190 IRF-4
+$ T15 Protein S11 79 84 2185 2190 IRF-4
+@ T26 Regulation S11 65 75 2171 2181 regulation
+@ T27 Gene_expression S11 85 95 2191 2201 expression
+% E11 Regulation:T26 Theme:E12
+% E12 Gene_expression:T27 Theme:T15
+

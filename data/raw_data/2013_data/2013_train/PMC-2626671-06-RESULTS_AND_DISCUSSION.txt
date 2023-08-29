@@ -1,0 +1,389 @@
+Runx3 controls multiple aspects of the CTL differentiation program, in part through induction of Eomes
+# T1 Protein S1 0 5 0 5 Runx3
+# T2 Protein S1 97 102 97 102 Eomes
+$ T2 Protein S1 97 102 97 102 Eomes
+$ T1 Protein S1 0 5 0 5 Runx3
+@ T117 Positive_regulation S1 84 93 84 93 induction
+% E1 Positive_regulation:T117 Theme:T2 Cause:T1
+
+Because Runx3 is highly expressed in peripheral CD8+ T cells, and because of the T-bet-Runx3 cooperation we observed earlier in CD4+ T cells (15), we examined the role of Runx3 in effector CTL differentiation.
+# T3 Protein S2 8 13 111 116 Runx3
+# T4 Protein S2 48 51 151 154 CD8
+# T5 Protein S2 81 86 184 189 T-bet
+# T6 Protein S2 87 92 190 195 Runx3
+# T7 Protein S2 128 131 231 234 CD4
+# T8 Protein S2 171 176 274 279 Runx3
+$ T3 Protein S2 8 13 111 116 Runx3
+@ T118 Gene_expression S2 24 33 127 136 expressed
+% E2 Gene_expression:T118 Theme:T3
+
+We isolated CD8+ T cells from Runx3-/- (KO) mice of the outbred ICR background and their WT Runx3+/+ littermates by positive selection with anti-CD8 magnetic beads (Figs.
+# T9 Protein S3 12 15 325 328 CD8
+# T10 Protein S3 30 35 343 348 Runx3
+# T11 Protein S3 92 97 405 410 Runx3
+# T12 Protein S3 145 148 458 461 CD8
+
+S1 and S2, available at http://www.jem.org/cgi/content/full/jem.20081242/DC1).
+
+Strikingly, Runx3-/- CD8+ T cells were strongly impaired in their ability to differentiate into effector CTLs, as judged by expression of perforin, granzyme B, and IFN-gamma (Fig. 3).
+# T13 Protein S5 12 17 575 580 Runx3
+# T14 Protein S5 21 24 584 587 CD8
+# T15 Protein S5 138 146 701 709 perforin
+# T16 Protein S5 148 158 711 721 granzyme B
+# T17 Protein S5 164 173 727 736 IFN-gamma
+$ T15 Protein S5 138 146 701 709 perforin
+$ T16 Protein S5 148 158 711 721 granzyme B
+$ T17 Protein S5 164 173 727 736 IFN-gamma
+@ T119 Gene_expression S5 124 134 687 697 expression
+% E3 Gene_expression:T119 Theme:T15
+% E4 Gene_expression:T119 Theme:T16
+% E5 Gene_expression:T119 Theme:T17
+
+Compared with WT T cells, perforin mRNA and protein expression were essentially undetectable in Runx3-/- T cells at day 6 of culture (Fig. 3, A and B).
+# T18 Protein S6 26 34 773 781 perforin
+# T19 Protein S6 96 101 843 848 Runx3
+$ T18 Protein S6 26 34 773 781 perforin
+@ T120 Gene_expression S6 52 62 799 809 expression
+@ T121 Positive_regulation S6 80 92 827 839 undetectable
+% E6 Gene_expression:T120 Theme:T18
+% E7 Positive_regulation:T121 Theme:E6
+
+Runx3-/- T cells also had no detectable Eomes expression; in contrast, T-bet expression was unimpaired (Fig. 3 A).
+# T20 Protein S7 0 5 899 904 Runx3
+# T21 Protein S7 40 45 939 944 Eomes
+# T22 Protein S7 71 76 970 975 T-bet
+$ T21 Protein S7 40 45 939 944 Eomes
+$ T22 Protein S7 71 76 970 975 T-bet
+@ T122 Gene_expression S7 46 56 945 955 expression
+@ T123 Gene_expression S7 77 87 976 986 expression
+@ T124 Negative_regulation S7 92 102 991 1001 unimpaired
+% E8 Gene_expression:T122 Theme:T21
+% E9 Gene_expression:T123 Theme:T22
+% E10 Negative_regulation:T124 Theme:E9
+
+Furthermore, Runx3 was required for maximal production of IFN-gamma, but not TNF or IL-2, by CD8+ T cells restimulated at day 6 (Fig. 3 C).
+# T23 Protein S8 13 18 1027 1032 Runx3
+# T24 Protein S8 58 67 1072 1081 IFN-gamma
+# T25 Protein S8 77 80 1091 1094 TNF
+# T26 Protein S8 84 88 1098 1102 IL-2
+# T27 Protein S8 93 96 1107 1110 CD8
+$ T23 Protein S8 13 18 1027 1032 Runx3
+$ T24 Protein S8 58 67 1072 1081 IFN-gamma
+$ T25 Protein S8 77 80 1091 1094 TNF
+$ T26 Protein S8 84 88 1098 1102 IL-2
+@ T125 Positive_regulation S8 23 31 1037 1045 required
+@ T126 Gene_expression S8 44 54 1058 1068 production
+% E11 Positive_regulation:T125 Theme:E12 Cause:T23
+% E13 Positive_regulation:T125 Theme:E14 Cause:T23
+% E15 Positive_regulation:T125 Theme:E16 Cause:T23
+% E12 Gene_expression:T126 Theme:T24
+% E14 Gene_expression:T126 Theme:T25
+% E16 Gene_expression:T126 Theme:T26
+
+We previously reported that Th1 cell differentiation was regulated through a feed-forward loop in which T-bet is up-regulated early and induces Runx3, after which T-bet and Runx3 cooperate to induce IFN-gamma and silence IL-4, thus promoting stable differentiation toward the Th1 lineage (15, 22).
+# T28 Protein S9 104 109 1258 1263 T-bet
+# T29 Protein S9 144 149 1298 1303 Runx3
+# T30 Protein S9 163 168 1317 1322 T-bet
+# T31 Protein S9 173 178 1327 1332 Runx3
+# T32 Protein S9 199 208 1353 1362 IFN-gamma
+# T33 Protein S9 221 225 1375 1379 IL-4
+$ T28 Protein S9 104 109 1258 1263 T-bet
+$ T29 Protein S9 144 149 1298 1303 Runx3
+$ T32 Protein S9 199 208 1353 1362 IFN-gamma
+$ T30 Protein S9 163 168 1317 1322 T-bet
+$ T31 Protein S9 173 178 1327 1332 Runx3
+$ T33 Protein S9 221 225 1375 1379 IL-4
+@ T127 Positive_regulation S9 113 125 1267 1279 up-regulated
+@ T128 Positive_regulation S9 136 143 1290 1297 induces
+@ T129 Positive_regulation S9 192 198 1346 1352 induce
+@ T130 Negative_regulation S9 213 220 1367 1374 silence
+% E17 Positive_regulation:T127 Theme:T28
+% E18 Positive_regulation:T128 Theme:T29
+% E19 Positive_regulation:T129 Theme:T32 Cause:T30
+% E20 Positive_regulation:T129 Theme:T32 Cause:T31
+% E21 Negative_regulation:T130 Theme:T33 Cause:T30
+% E22 Negative_regulation:T130 Theme:T33 Cause:T31
+
+Because (a) Runx3 appeared necessary for Eomes induction (Fig. 3 A), (b) the kinetics of Eomes expression paralleled those of perforin expression (Fig. 2), and (c) overexpression of Eo-VP16 in either WT or T-bet-deficient T cells led to an increase in both perforin and IFN-gamma expression (Fig. 2, B and D), we asked whether CTL differentiation was also potentially regulated by a feed-forward loop involving these same two classes of Runx and T-box transcription factors.
+# T34 Protein S10 12 17 1464 1469 Runx3
+# T35 Protein S10 41 46 1493 1498 Eomes
+# T36 Protein S10 89 94 1541 1546 Eomes
+# T37 Protein S10 126 134 1578 1586 perforin
+# T38 Protein S10 182 189 1634 1641 Eo-VP16
+# T39 Protein S10 206 211 1658 1663 T-bet
+# T40 Protein S10 257 265 1709 1717 perforin
+# T41 Protein S10 270 279 1722 1731 IFN-gamma
+$ T34 Protein S10 12 17 1464 1469 Runx3
+$ T35 Protein S10 41 46 1493 1498 Eomes
+$ T36 Protein S10 89 94 1541 1546 Eomes
+$ T37 Protein S10 126 134 1578 1586 perforin
+$ T38 Protein S10 182 189 1634 1641 Eo-VP16
+$ T39 Protein S10 206 211 1658 1663 T-bet
+$ T40 Protein S10 257 265 1709 1717 perforin
+$ T41 Protein S10 270 279 1722 1731 IFN-gamma
+@ T131 Positive_regulation S10 27 36 1479 1488 necessary
+@ T132 Positive_regulation S10 47 56 1499 1508 induction
+@ T133 Gene_expression S10 95 105 1547 1557 expression
+@ T134 Gene_expression S10 135 145 1587 1597 expression
+@ T135 Positive_regulation S10 164 178 1616 1630 overexpression
+@ T136 Negative_regulation S10 212 221 1664 1673 deficient
+@ T137 Positive_regulation S10 230 233 1682 1685 led
+@ T138 Positive_regulation S10 240 248 1692 1700 increase
+@ T139 Gene_expression S10 280 290 1732 1742 expression
+% E23 Positive_regulation:T131 Theme:E24 Cause:T34
+% E24 Positive_regulation:T132 Theme:T35
+% E25 Gene_expression:T133 Theme:T36
+% E26 Gene_expression:T134 Theme:T37
+% E27 Positive_regulation:T135 Theme:T38
+% E28 Negative_regulation:T136 Theme:T39
+% E29 Positive_regulation:T137 Theme:E30 Cause:E27
+% E31 Positive_regulation:T137 Theme:E32 Cause:E27
+% E30 Positive_regulation:T138 Theme:E33
+% E32 Positive_regulation:T138 Theme:E34
+% E33 Gene_expression:T139 Theme:T40
+% E34 Gene_expression:T139 Theme:T41
+
+Specifically, we asked whether Runx3, which was necessary for Eomes induction, then cooperated with Eomes to regulate transcription of the effector CTL markers perforin, IFN-gamma, and granzyme B.
+# T42 Protein S11 31 36 1958 1963 Runx3
+# T43 Protein S11 62 67 1989 1994 Eomes
+# T44 Protein S11 100 105 2027 2032 Eomes
+# T45 Protein S11 160 168 2087 2095 perforin
+# T46 Protein S11 170 179 2097 2106 IFN-gamma
+# T47 Protein S11 185 195 2112 2122 granzyme B
+$ T42 Protein S11 31 36 1958 1963 Runx3
+$ T43 Protein S11 62 67 1989 1994 Eomes
+$ T44 Protein S11 100 105 2027 2032 Eomes
+$ T45 Protein S11 160 168 2087 2095 perforin
+$ T46 Protein S11 170 179 2097 2106 IFN-gamma
+$ T47 Protein S11 185 195 2112 2122 granzyme B
+@ T140 Positive_regulation S11 48 57 1975 1984 necessary
+@ T141 Positive_regulation S11 68 77 1995 2004 induction
+@ T142 Regulation S11 109 117 2036 2044 regulate
+@ T143 Transcription S11 118 131 2045 2058 transcription
+% E35 Positive_regulation:T140 Theme:E36 Cause:T42
+% E36 Positive_regulation:T141 Theme:T43
+% E37 Regulation:T142 Theme:E38 Cause:T42
+% E39 Regulation:T142 Theme:E38 Cause:T44
+% E40 Regulation:T142 Theme:E41 Cause:T42
+% E42 Regulation:T142 Theme:E41 Cause:T44
+% E43 Regulation:T142 Theme:E44 Cause:T42
+% E45 Regulation:T142 Theme:E44 Cause:T44
+% E38 Transcription:T143 Theme:T45
+% E41 Transcription:T143 Theme:T46
+% E44 Transcription:T143 Theme:T47
+
+To test this hypothesis, we used chromatin immunoprecipitation (ChIP) assays to ask whether Eomes and Runx3 bound regulatory regions of the Prf1, Ifng, and Gzmb genes (Fig. 3 D).
+# T48 Protein S12 92 97 2216 2221 Eomes
+# T49 Protein S12 102 107 2226 2231 Runx3
+# T50 Protein S12 140 144 2264 2268 Prf1
+# T51 Protein S12 146 150 2270 2274 Ifng
+# T52 Protein S12 156 160 2280 2284 Gzmb
+$ T48 Protein S12 92 97 2216 2221 Eomes
+$ T50 Protein S12 140 144 2264 2268 Prf1
+$ T51 Protein S12 146 150 2270 2274 Ifng
+$ T52 Protein S12 156 160 2280 2284 Gzmb
+$ T49 Protein S12 102 107 2226 2231 Runx3
+@ T144 Binding S12 108 113 2232 2237 bound
+@ T145 Entity S12 114 132 2238 2256 regulatory regions
+% E46 Binding:T144 Theme:T48 Theme2:T50 Site2:T145
+% E47 Binding:T144 Theme:T48 Theme2:T51 Site2:T145
+% E48 Binding:T144 Theme:T48 Theme2:T52 Site2:T145
+% E49 Binding:T144 Theme:T49 Theme2:T50 Site2:T145
+% E50 Binding:T144 Theme:T49 Theme2:T51 Site2:T145
+% E51 Binding:T144 Theme:T49 Theme2:T52 Site2:T145
+
+Both proteins associated with gene regulatory regions in differentiated CTLs.
+@ T113 Anaphora S13 0 13 2303 2316 Both proteins
+@ T146 Binding S13 14 24 2317 2327 associated
+% E52 Binding:T146 Theme:T48
+% E53 Binding:T146 Theme:T49
+
+Runx3 bound to the Prf1 and Gzmb transcription start sites (TSS); to a known IL-2 responsive enhancer located near -1 kb of the Prf1 gene (23); to the distal CTL-specific DNase I hypersensitive site 9 in the Prf1 locus (24); to the Ifng promoter near the TSS, as previously reported for Th1 cells (10); and to several DNase I hypersensitive sites in the Ifng locus (Fig. 3 D and not depicted) (25).
+# T53 Protein S14 0 5 2381 2386 Runx3
+# T54 Protein S14 19 23 2400 2404 Prf1
+# T55 Protein S14 28 32 2409 2413 Gzmb
+# T56 Protein S14 128 132 2509 2513 Prf1
+# T57 Protein S14 208 212 2589 2593 Prf1
+# T58 Protein S14 232 236 2613 2617 Ifng
+# T59 Protein S14 354 358 2735 2739 Ifng
+$ T53 Protein S14 0 5 2381 2386 Runx3
+$ T54 Protein S14 19 23 2400 2404 Prf1
+$ T55 Protein S14 28 32 2409 2413 Gzmb
+@ T147 Binding S14 6 11 2387 2392 bound
+@ T148 Entity S14 33 58 2414 2439 transcription start sites
+% E54 Binding:T147 Theme:T53 Theme2:T54 Site2:T148
+% E55 Binding:T147 Theme:T53 Theme2:T55 Site2:T148
+
+Eomes bound primarily to the Prf1 TSS and the -1 kb enhancer; this binding was substantially greater than that observed at the promoter of the Il2rb gene, a known direct target of Eomes (8), and comparable to that observed at the Ifng TSS, a known target of T-box proteins in both Th1 and CD8+ T cells (Fig. 3 D) (17).
+# T60 Protein S15 0 5 2780 2785 Eomes
+# T61 Protein S15 29 33 2809 2813 Prf1
+# T62 Protein S15 143 148 2923 2928 Il2rb
+# T63 Protein S15 180 185 2960 2965 Eomes
+# T64 Protein S15 230 234 3010 3014 Ifng
+# T65 Protein S15 289 292 3069 3072 CD8
+$ T60 Protein S15 0 5 2780 2785 Eomes
+$ T61 Protein S15 29 33 2809 2813 Prf1
+$ T62 Protein S15 143 148 2923 2928 Il2rb
+$ T63 Protein S15 180 185 2960 2965 Eomes
+$ T64 Protein S15 230 234 3010 3014 Ifng
+@ T149 Binding S15 6 11 2786 2791 bound
+@ T150 Entity S15 34 37 2814 2817 TSS
+@ T151 Entity S15 46 60 2826 2840 -1 kb enhancer
+@ T152 Binding S15 106 110 2886 2890 that
+@ T153 Entity S15 127 135 2907 2915 promoter
+@ T154 Binding S15 170 176 2950 2956 target
+@ T155 Binding S15 209 213 2989 2993 that
+@ T156 Entity S15 235 238 3015 3018 TSS
+@ T157 Binding S15 248 254 3028 3034 target
+% E56 Binding:T149 Theme:T60 Theme2:T61 Site2:T150
+% E57 Binding:T149 Theme:T60 Theme2:T61 Site2:T151
+% E58 Binding:T152 Theme:T60 Theme2:T62 Site2:T153
+% E59 Binding:T154 Theme:T62 Theme2:T63 Site:T153
+% E60 Binding:T155 Theme:T60 Theme2:T64 Site2:T156
+% E61 Binding:T157 Theme:T64 Site:T156
+
+To determine whether Runx3 controlled the expression of CTL effector genes through its induction of Eomes, we retrovirally expressed Runx3 and Eo-VP16 in CD8+ T cells from Runx3-/- mice.
+# T66 Protein S16 21 26 3120 3125 Runx3
+# T67 Protein S16 100 105 3199 3204 Eomes
+# T68 Protein S16 133 138 3232 3237 Runx3
+# T69 Protein S16 143 150 3242 3249 Eo-VP16
+# T70 Protein S16 154 157 3253 3256 CD8
+# T71 Protein S16 172 177 3271 3276 Runx3
+$ T67 Protein S16 100 105 3199 3204 Eomes
+$ T66 Protein S16 21 26 3120 3125 Runx3
+$ T68 Protein S16 133 138 3232 3237 Runx3
+$ T69 Protein S16 143 150 3242 3249 Eo-VP16
+@ T158 Positive_regulation S16 87 96 3186 3195 induction
+@ T159 Gene_expression S16 123 132 3222 3231 expressed
+% E62 Positive_regulation:T158 Theme:T67 Cause:T66
+% E63 Gene_expression:T159 Theme:T68
+% E64 Gene_expression:T159 Theme:T69
+
+Because of the limited number of CD8+ T cells in these mice, and because we saw no difference between Runx3-/- CD8+CD4- SP and CD8+CD4+ DP cells in our previous experiments, we used total Runx3-/- CD8+ T cells without further fractionation as recipients for retroviral transduction.
+# T72 Protein S17 33 36 3319 3322 CD8
+# T73 Protein S17 102 107 3388 3393 Runx3
+# T74 Protein S17 111 114 3397 3400 CD8
+# T75 Protein S17 115 118 3401 3404 CD4
+# T76 Protein S17 127 130 3413 3416 CD8
+# T77 Protein S17 131 134 3417 3420 CD4
+# T78 Protein S17 188 193 3474 3479 Runx3
+# T79 Protein S17 197 200 3483 3486 CD8
+
+Reconstitution of Runx3-/- CD8+ T cells with Runx3 restored expression of Eomes as well as perforin, granzyme B, and IFN-gamma (Fig. 4, A and B).
+# T80 Protein S18 18 23 3587 3592 Runx3
+# T81 Protein S18 27 30 3596 3599 CD8
+# T82 Protein S18 45 50 3614 3619 Runx3
+# T83 Protein S18 74 79 3643 3648 Eomes
+# T84 Protein S18 91 99 3660 3668 perforin
+# T85 Protein S18 101 111 3670 3680 granzyme B
+# T86 Protein S18 117 126 3686 3695 IFN-gamma
+$ T82 Protein S18 45 50 3614 3619 Runx3
+$ T83 Protein S18 74 79 3643 3648 Eomes
+$ T84 Protein S18 91 99 3660 3668 perforin
+$ T85 Protein S18 101 111 3670 3680 granzyme B
+$ T86 Protein S18 117 126 3686 3695 IFN-gamma
+@ T160 Positive_regulation S18 51 59 3620 3628 restored
+@ T161 Gene_expression S18 60 70 3629 3639 expression
+% E65 Positive_regulation:T160 Theme:E66 Cause:T82
+% E67 Positive_regulation:T160 Theme:E68 Cause:T82
+% E69 Positive_regulation:T160 Theme:E70 Cause:T82
+% E71 Positive_regulation:T160 Theme:E72 Cause:T82
+% E66 Gene_expression:T161 Theme:T83
+% E68 Gene_expression:T161 Theme:T84
+% E70 Gene_expression:T161 Theme:T85
+% E72 Gene_expression:T161 Theme:T86
+
+In addition, Runx3-/- T cells showed a compensatory up-regulation of Runx1, which was suppressed upon reconstitution with Runx3, indicating that Runx1 is a target of repression by Runx3.
+# T87 Protein S19 13 18 3728 3733 Runx3
+# T88 Protein S19 69 74 3784 3789 Runx1
+# T89 Protein S19 122 127 3837 3842 Runx3
+# T90 Protein S19 145 150 3860 3865 Runx1
+# T91 Protein S19 180 185 3895 3900 Runx3
+$ T88 Protein S19 69 74 3784 3789 Runx1
+$ T89 Protein S19 122 127 3837 3842 Runx3
+$ T90 Protein S19 145 150 3860 3865 Runx1
+$ T91 Protein S19 180 185 3895 3900 Runx3
+@ T162 Positive_regulation S19 52 65 3767 3780 up-regulation
+@ T114 Anaphora S19 76 81 3791 3796 which
+@ T163 Negative_regulation S19 86 96 3801 3811 suppressed
+@ T164 Negative_regulation S19 166 176 3881 3891 repression
+% E73 Positive_regulation:T162 Theme:T88
+% E74 Negative_regulation:T163 Theme:T88 Cause:T89
+% E75 Negative_regulation:T164 Theme:T90 Cause:T91
+
+Notably, Eo-VP16 did not up-regulate perforin expression when expressed in Runx3-/- cells, even though it restored the capacity to induce IFN-gamma expression upon TCR restimulation (Fig. 4, A and B).
+# T92 Protein S20 9 16 3911 3918 Eo-VP16
+# T93 Protein S20 37 45 3939 3947 perforin
+# T94 Protein S20 75 80 3977 3982 Runx3
+# T95 Protein S20 138 147 4040 4049 IFN-gamma
+$ T92 Protein S20 9 16 3911 3918 Eo-VP16
+$ T93 Protein S20 37 45 3939 3947 perforin
+$ T95 Protein S20 138 147 4040 4049 IFN-gamma
+@ T165 Positive_regulation S20 25 36 3927 3938 up-regulate
+@ T166 Gene_expression S20 46 56 3948 3958 expression
+@ T167 Gene_expression S20 62 71 3964 3973 expressed
+@ T115 Anaphora S20 103 105 4005 4007 it
+@ T168 Positive_regulation S20 106 114 4008 4016 restored
+@ T169 Positive_regulation S20 131 137 4033 4039 induce
+@ T170 Gene_expression S20 148 158 4050 4060 expression
+% E76 Positive_regulation:T165 Theme:E77 Cause:T92
+% E77 Gene_expression:T166 Theme:T93
+% E78 Gene_expression:T167 Theme:T92
+% E79 Positive_regulation:T168 Theme:E80 Cause:T92
+% E80 Positive_regulation:T169 Theme:E81
+% E81 Gene_expression:T170 Theme:T95
+
+This result suggests strongly that perforin expression requires Runx3 and Eomes.
+# T96 Protein S21 35 43 4138 4146 perforin
+# T97 Protein S21 64 69 4167 4172 Runx3
+# T98 Protein S21 74 79 4177 4182 Eomes
+$ T96 Protein S21 35 43 4138 4146 perforin
+$ T97 Protein S21 64 69 4167 4172 Runx3
+$ T98 Protein S21 74 79 4177 4182 Eomes
+@ T171 Gene_expression S21 44 54 4147 4157 expression
+@ T172 Positive_regulation S21 55 63 4158 4166 requires
+% E82 Gene_expression:T171 Theme:T96
+% E83 Positive_regulation:T172 Theme:E82 Cause:T97
+% E84 Positive_regulation:T172 Theme:E82 Cause:T98
+
+As expected from their defect in perforin and granzyme B expression, Runx3-/- CD8+ T cells showed defective cytolytic activity in a mixed lymphocyte reaction (12).
+# T99 Protein S22 33 41 4217 4225 perforin
+# T100 Protein S22 46 56 4230 4240 granzyme B
+# T101 Protein S22 69 74 4253 4258 Runx3
+# T102 Protein S22 78 81 4262 4265 CD8
+$ T99 Protein S22 33 41 4217 4225 perforin
+$ T100 Protein S22 46 56 4230 4240 granzyme B
+@ T116 Anaphora S22 17 22 4201 4206 their
+@ T173 Positive_regulation S22 23 29 4207 4213 defect
+@ T174 Gene_expression S22 57 67 4241 4251 expression
+% E85 Positive_regulation:T173 Theme:E86 Cause:T97
+% E87 Positive_regulation:T173 Theme:E86 Cause:T98
+% E88 Positive_regulation:T173 Theme:E89 Cause:T97
+% E90 Positive_regulation:T173 Theme:E89 Cause:T98
+% E86 Gene_expression:T174 Theme:T99
+% E89 Gene_expression:T174 Theme:T100
+
+However, TCR-stimulated Runx3-/- CD8+ cells were as effective as WT cells in killing tumor cells in a redirected CTL assay (12).
+# T103 Protein S23 24 29 4372 4377 Runx3
+# T104 Protein S23 33 36 4381 4384 CD8
+
+Furthermore, CD8+ cells from the peritoneal cavity of Runx3-/- mice immunized with certain tumor cells effectively killed these targets (13).
+# T105 Protein S24 13 16 4490 4493 CD8
+# T106 Protein S24 54 59 4531 4536 Runx3
+
+Therefore, although activation of the perforin/granzyme B machinery is defective in Runx3-/- CD8+ cells, these cells are not entirely devoid of cytolytic activity and could still effectively kill targets, possibly by alternative mechanisms such as the Fas-Fas ligand pathway.
+# T107 Protein S25 38 46 4657 4665 perforin
+# T108 Protein S25 47 57 4666 4676 granzyme B
+# T109 Protein S25 84 89 4703 4708 Runx3
+# T110 Protein S25 93 96 4712 4715 CD8
+# T111 Protein S25 252 255 4871 4874 Fas
+# T112 Protein S25 256 266 4875 4885 Fas ligand
+$ T107 Protein S25 38 46 4657 4665 perforin
+$ T108 Protein S25 47 57 4666 4676 granzyme B
+@ T175 Positive_regulation S25 20 30 4639 4649 activation
+@ T176 Negative_regulation S25 71 80 4690 4699 defective
+% E91 Positive_regulation:T175 Theme:T107
+% E92 Positive_regulation:T175 Theme:T108
+% E93 Negative_regulation:T176 Theme:E91
+% E94 Negative_regulation:T176 Theme:E92
+

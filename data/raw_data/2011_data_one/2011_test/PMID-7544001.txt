@@ -1,0 +1,37 @@
+Interleukin 2 signaling involves the phosphorylation of Stat proteins.
+# T1 Protein S1 0 13 0 13 Interleukin 2
+
+One of the most important cytokines involved in immune response regulation is interleukin 2 (IL-2), a potent activator of the proliferation and function of T lymphocytes and natural killer cells.
+# T2 Protein S2 78 91 150 163 interleukin 2
+# T3 Protein S2 93 97 165 169 IL-2
+
+The mechanisms by which the effects of IL-2 are propagated within cells are not understood.
+# T4 Protein S3 39 43 307 311 IL-2
+
+While the binding of IL-2 to its receptor was recently shown to lead to the activation of two kinases, Jak-1 and Jak-3, subsequent steps in the signaling pathway to the nucleus that lead to the activation of specific genes had not been characterized.
+# T5 Protein S4 21 25 381 385 IL-2
+# T6 Protein S4 103 108 463 468 Jak-1
+# T7 Protein S4 113 118 473 478 Jak-3
+
+Since many cytokines that activate Jak kinases also lead to the tyrosine phosphorylation and activation of members of the Stat family of transcription factors, the ability of IL-2 to trigger Stat phosphorylation was examined.
+# T8 Protein S5 175 179 786 790 IL-2
+
+Exposure of activated human T lymphocytes or of a natural killer cell line (NKL) to IL-2 leads to the phosphorylation of Stat1 alpha, Stat1 beta, and Stat3, as well as of two Stat-related proteins, p94 and p95.
+# T9 Protein S6 84 88 921 925 IL-2
+# T10 Protein S6 121 132 958 969 Stat1 alpha
+# T11 Protein S6 134 144 971 981 Stat1 beta
+# T12 Protein S6 150 155 987 992 Stat3
+# T13 Protein S6 198 201 1035 1038 p94
+# T14 Protein S6 206 209 1043 1046 p95
+
+p94 and p95 share homology with Stat1 at the phosphorylation site and in the Src homology 2 (SH2) domain, but otherwise are immunologically distinct from Stat1.
+# T15 Protein S7 0 3 1048 1051 p94
+# T16 Protein S7 8 11 1056 1059 p95
+# T17 Protein S7 32 37 1080 1085 Stat1
+# T18 Protein S7 154 159 1202 1207 Stat1
+
+These Stat proteins were found to translocate to the nucleus and to bind to a specific DNA sequence.
+
+These findings suggest a mechanism by which IL-2 binding to its receptor may activate specific genes involved in immune cell function.
+# T19 Protein S9 44 48 1354 1358 IL-2
+

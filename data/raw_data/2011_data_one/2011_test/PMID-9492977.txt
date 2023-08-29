@@ -1,0 +1,11 @@
+Genes that regulate interleukin-4 expression in T cells.
+# T1 Protein S1 20 33 20 33 interleukin-4
+
+Interleukin-4 is an immunomodulatory cytokine which plays a central role in the regulation of allergic and atopic immune responses.
+# T2 Protein S2 0 13 58 71 Interleukin-4
+
+Significant progress has been made in gaining a detailed understanding of the transcriptional regulation of the interleukin-4 gene.
+# T3 Protein S3 112 125 302 315 interleukin-4
+
+The recent identification and characterization of several key transcription factors has helped to elucidate the molecular mechanisms of T helper cell cytokine gene expression.
+

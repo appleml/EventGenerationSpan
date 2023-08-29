@@ -1,0 +1,60 @@
+Inducible nitric oxide: an autoregulatory feedback inhibitor of vascular inflammation.
+
+Inducible nitric oxide (iNO) is produced at sites of vascular inflammation by resident and nonresident vascular wall cells, but its role in the inflammatory process is not known.
+
+In this study, we show that a novel function of iNO is to terminate inflammatory processes.
+
+We find that iNO produced by murine macrophage-like cells, RAW264.7, can inhibit cytokine-induced endothelial cell activation in a separated and mixed endothelial-RAW264.7 coculture system.
+
+Both iNO production and endothelial VCAM-1 expression were induced simultaneously with bacterial LPS and murine-specific IFN-gamma.
+# T1 Protein S5 36 42 585 591 VCAM-1
+# T2 Protein S5 121 130 670 679 IFN-gamma
+$ T1 Protein S5 36 42 585 591 VCAM-1
+$ T2 Protein S5 121 130 670 679 IFN-gamma
+@ T13 Gene_expression S5 43 53 592 602 expression
+@ T14 Positive_regulation S5 59 66 608 615 induced
+% E1 Gene_expression:T13 Theme:T1
+% E2 Positive_regulation:T14 Theme:E1 Cause:T2
+% E3 Positive_regulation:T14 Theme:E1
+
+Inhibition of iNO synthase (iNOS) activity with N omega-monomethyl-L-arginine in endothelial-RAW264.7 cocultures, stimulated with murine-specific IFN-gamma and LPS, decreased iNO production by 86%, augmented VCAM-1 and iNOS expression in endothelial and RAW264.7 cells, respectively, and increased monocyte adhesion to the endothelial cell surface.
+# T3 Protein S6 14 26 695 707 iNO synthase
+# T4 Protein S6 28 32 709 713 iNOS
+# T5 Protein S6 146 155 827 836 IFN-gamma
+# T6 Protein S6 208 214 889 895 VCAM-1
+# T7 Protein S6 219 223 900 904 iNOS
+$ T4 Protein S6 28 32 709 713 iNOS
+$ T7 Protein S6 219 223 900 904 iNOS
+$ T6 Protein S6 208 214 889 895 VCAM-1
+@ T15 Negative_regulation S6 0 10 681 691 Inhibition
+@ T16 Positive_regulation S6 198 207 879 888 augmented
+@ T17 Gene_expression S6 224 234 905 915 expression
+% E4 Negative_regulation:T15 Theme:T4
+% E5 Positive_regulation:T16 Theme:E8 Cause:E4
+% E6 Positive_regulation:T16 Theme:E7 Cause:E4
+% E7 Gene_expression:T17 Theme:T7
+% E8 Gene_expression:T17 Theme:T6
+
+Transient transfection studies using various VCAM-1 promoter constructs demonstrated that inhibitory effects of iNO on VCAM-1 gene transcription were mediated, in part, by inhibitory effects of iNO on kappa B cis-acting elements.
+# T8 Protein S7 45 51 1075 1081 VCAM-1
+# T9 Protein S7 119 125 1149 1155 VCAM-1
+$ T9 Protein S7 119 125 1149 1155 VCAM-1
+@ T18 Negative_regulation S7 90 108 1120 1138 inhibitory effects
+@ T19 Transcription S7 131 144 1161 1174 transcription
+@ T20 Positive_regulation S7 150 158 1180 1188 mediated
+% E9 Negative_regulation:T18 Theme:E10
+% E10 Transcription:T19 Theme:T9
+% E11 Positive_regulation:T20 Theme:E9
+
+Immunofluorescence studies using an Ab to the RelA (p65) subunit of nuclear factor-kappa B revealed that iNO inhibited the activation of nuclear factor-kappa B.
+# T10 Protein S8 46 50 1306 1310 RelA
+# T11 Protein S8 52 55 1312 1315 p65
+
+These studies indicate that iNO attenuates iNOS expression in macrophages and inhibits monocyte adhesion to endothelial cells, and suggest that endogenously derived iNO may be an important autoregulatory inhibitor of vascular inflammation.
+# T12 Protein S9 43 47 1464 1468 iNOS
+$ T12 Protein S9 43 47 1464 1468 iNOS
+@ T21 Negative_regulation S9 32 42 1453 1463 attenuates
+@ T22 Gene_expression S9 48 58 1469 1479 expression
+% E12 Negative_regulation:T21 Theme:E13
+% E13 Gene_expression:T22 Theme:T12
+

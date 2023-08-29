@@ -1,0 +1,89 @@
+In HIV-1 infection Tat sustains the NF-kappaB activity and enhances the MIP-1alpha expression via interaction with IkappaB-alpha and p65.
+# T1 Protein S1 19 22 19 22 Tat
+# T2 Protein S1 72 82 72 82 MIP-1alpha
+# T3 Protein S1 115 128 115 128 IkappaB-alpha
+# T4 Protein S1 133 136 133 136 p65
+$ T2 Protein S1 72 82 72 82 MIP-1alpha
+$ T1 Protein S1 19 22 19 22 Tat
+$ T3 Protein S1 115 128 115 128 IkappaB-alpha
+@ T22 Positive_regulation S1 59 67 59 67 enhances
+@ T23 Gene_expression S1 83 93 83 93 expression
+@ T24 Binding S1 98 109 98 109 interaction
+% E1 Positive_regulation:T22 Theme:E2 Cause:E3
+% E2 Gene_expression:T23 Theme:T2
+% E3 Binding:T24 Theme:T1 Theme2:T3
+
+U937 cells (5 x 107) were transfected with siRNA Tat, siRNA control (2 nmol), or left untransfected; 24 h later cells were infected with HXB2-pseudotyped NL4-3.
+# T5 Protein S2 43 52 181 190 siRNA Tat
+
+FLAG-Tat.
+# T6 Protein S3 0 8 298 306 FLAG-Tat
+
+R-E- virions (500 ng of p24) and harvested at the indicated time.
+# T7 Protein S4 24 27 331 334 p24
+
+(A) Real-time PCR of total RNA measured the Tat expression; ELISA measured the amount of p24 in whole cell extracts.
+# T8 Protein S5 44 47 417 420 Tat
+# T9 Protein S5 89 92 462 465 p24
+$ T8 Protein S5 44 47 417 420 Tat
+@ T25 Gene_expression S5 48 58 421 431 expression
+% E4 Gene_expression:T25 Theme:T8
+
+(B) The binding of p65 to the NF-kappaB double-stranded oligonucleotide was measured in nuclear extracts (10 microg) using the NF-kappaB Transcription Factor ELISA assay kit (Cayman).
+# T10 Protein S6 19 22 509 512 p65
+$ T10 Protein S6 19 22 509 512 p65
+@ T26 Binding S6 8 15 498 505 binding
+% E5 Binding:T26 Theme:T10
+
+(C) The IkappaB-alpha content was analysed by 12% SDS-PAGE and western blotting of cytosolic extracts (20 microg) using anti-IkappaB-alpha antibody.
+# T11 Protein S7 8 21 682 695 IkappaB-alpha
+
+Densitometry values (D) of the bands were expressed as fold increase above the control (mock).
+
+(D) IKK activity was measured in cytosolic cell extracts (100 microg) using HTScan IKK Kinase Assay (Cell Signaling Technology).
+
+(E) U937 cells (5 x 107) were infected with HXB2-pseudotyped NL4-3.
+
+FLAG-Tat.
+# T12 Protein S11 0 8 1114 1122 FLAG-Tat
+
+R-E- virions, or left uninfected.
+
+Twenty-four-hour post-infection, cell extracts (1 mg) were immunoprecipitated with protein G-Sepharose-coupled anti-FLAG antibody.
+# T13 Protein S13 83 92 1240 1249 protein G
+
+Immunocomplexes were separated by 12% SDS-PAGE and analysed by western blotting with anti-p65, anti-FLAG and anti-IkappaB-alpha antibodies.
+
+(F) U937 cells (5 x 107) were transfected with siRNA Tat, siRNA p65, siRNA control (2 nmol), or left untransfected; 24 h later, cells were infected with HXB2-pseudotyped NL4-3.
+# T14 Protein S15 47 56 1475 1484 siRNA Tat
+# T15 Protein S15 58 67 1486 1495 siRNA p65
+
+FLAG-Tat.
+# T16 Protein S16 0 8 1604 1612 FLAG-Tat
+
+R-E- virions, or left uninfected.
+
+Twenty-four-hour post-infection, total RNA was analysed for MIP-1alpha expression by real-time PCR.
+# T17 Protein S18 60 70 1707 1717 MIP-1alpha
+$ T17 Protein S18 60 70 1707 1717 MIP-1alpha
+@ T27 Gene_expression S18 71 81 1718 1728 expression
+% E6 Gene_expression:T27 Theme:T17
+
+(G and H) U937 cells (5 x 107) were transfected with siRNA Tat or siRNA control (2 nmol), or left untransfected; 24 h later, cells were infected with HXB2-pseudotyped NL4-3.
+# T18 Protein S19 53 62 1800 1809 siRNA Tat
+
+FLAG-Tat.
+# T19 Protein S20 0 8 1920 1928 FLAG-Tat
+
+R-E- virions, or left uninfected.
+
+Twenty-four-hour post-infection, ChIP was performed with anti-p65 (G) or anti-FLAG (H).
+
+Real-time PCR was performed with primers specific for MIP-1alpha and GAPDH promoters.
+# T20 Protein S23 54 64 2105 2115 MIP-1alpha
+# T21 Protein S23 69 74 2120 2125 GAPDH
+
+Values (mean +/- SE, n = 3) are shown.
+
+The asterisks indicate statistically significant differences compared to the control (mock), according to the Student's t-test (P < 0.05).
+

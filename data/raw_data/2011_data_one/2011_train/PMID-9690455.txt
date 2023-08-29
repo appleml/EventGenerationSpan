@@ -1,0 +1,71 @@
+Ex vivo activation of tumor-draining lymph node T cells reverses defects in signal transduction molecules.
+
+The adoptive transfer of tumor-draining lymph node (LN) T cells activated ex vivo with anti-CD3 and interleukin 2 (IL-2) mediates the regression of the poorly immunogenic murine melanoma D5.
+# T1 Protein S2 100 113 208 221 interleukin 2
+# T2 Protein S2 115 119 223 227 IL-2
+
+The efficacy of the activated LN cells is augmented when the sensitizing tumor is a genetically modified variant (designated D5G6) that secretes granulocyte/macrophage-colony-stimulating factor.
+# T3 Protein S3 145 193 444 492 granulocyte/macrophage-colony-stimulating factor
+$ T3 Protein S3 145 193 444 492 granulocyte/macrophage-colony-stimulating factor
+@ T16 Localization S3 136 144 435 443 secretes
+% E1 Localization:T16 Theme:T3
+
+In contrast to anti-CD3/IL-2-activated LN cells, adoptive transfer of freshly isolated tumor-draining LN T cells has no therapeutic activity.
+# T4 Protein S4 24 28 518 522 IL-2
+
+To determine whether the acquisition of antitumor function during ex vivo activation is associated with modifications in signal transduction capacity, the protein tyrosine kinases p56lck and p59fyn and proteins of the NF-kappaB family were analyzed in tumor-draining LN T cells.
+# T5 Protein S5 180 186 816 822 p56lck
+# T6 Protein S5 191 197 827 833 p59fyn
+$ T6 Protein S5 191 197 827 833 p59fyn
+$ T5 Protein S5 180 186 816 822 p56lck
+@ T17 Gene_expression S5 240 248 876 884 analyzed
+% E2 Gene_expression:T17 Theme:T6
+% E3 Gene_expression:T17 Theme:T5
+
+The levels of p56lck and p59fyn were lower in tumor-draining than in normal LN T cells and production of tyrosine-phosphorylated substrates was markedly depressed following anti-CD3 stimulation.
+# T7 Protein S6 14 20 929 935 p56lck
+# T8 Protein S6 25 31 940 946 p59fyn
+$ T8 Protein S6 25 31 940 946 p59fyn
+$ T7 Protein S6 14 20 929 935 p56lck
+@ T18 Gene_expression S6 4 10 919 925 levels
+% E4 Gene_expression:T18 Theme:T8
+% E5 Gene_expression:T18 Theme:T7
+
+After 5-day anti-CD3/IL-2 activation, levels of p56lck and p59fyn and protein tyrosine kinase activity increased.
+# T9 Protein S7 21 25 1131 1135 IL-2
+# T10 Protein S7 48 54 1158 1164 p56lck
+# T11 Protein S7 59 65 1169 1175 p59fyn
+$ T11 Protein S7 59 65 1169 1175 p59fyn
+$ T10 Protein S7 48 54 1158 1164 p56lck
+@ T19 Gene_expression S7 38 44 1148 1154 levels
+@ T20 Positive_regulation S7 103 112 1213 1222 increased
+% E6 Gene_expression:T19 Theme:T11
+% E7 Gene_expression:T19 Theme:T10
+% E8 Positive_regulation:T20 Theme:E7
+% E9 Positive_regulation:T20 Theme:E6
+
+Interestingly, the levels of p56lck, p59fyn, and tyrosine kinase activity were higher in activated T cells derived from LN that drained D5G6 than they were in those from D5 tumors.
+# T12 Protein S8 29 35 1253 1259 p56lck
+# T13 Protein S8 37 43 1261 1267 p59fyn
+$ T13 Protein S8 37 43 1261 1267 p59fyn
+$ T12 Protein S8 29 35 1253 1259 p56lck
+@ T21 Gene_expression S8 19 25 1243 1249 levels
+@ T22 Positive_regulation S8 79 85 1303 1309 higher
+% E10 Gene_expression:T21 Theme:T13
+% E11 Gene_expression:T21 Theme:T12
+% E12 Positive_regulation:T22 Theme:E11
+% E13 Positive_regulation:T22 Theme:E10
+
+In contrast, the cytoplasmic levels of c-Rel and Rel A were normal in freshly isolated tumor-draining LN, as was nuclear kappaB DNA-binding activity induced by anti-CD3 mAb or phorbol myristate acetate.
+# T14 Protein S9 39 44 1444 1449 c-Rel
+# T15 Protein S9 49 54 1454 1459 Rel A
+$ T14 Protein S9 39 44 1444 1449 c-Rel
+$ T15 Protein S9 49 54 1454 1459 Rel A
+@ T23 Gene_expression S9 29 35 1434 1440 levels
+% E14 Gene_expression:T23 Theme:T14
+% E15 Gene_expression:T23 Theme:T15
+
+Stimulation of activated LN cells with D5 tumor cells induced the nuclear translocation of NF-kappaB.
+
+These findings indicate that the recovery of proteins mediating signal transduction through the T cell receptor/CD3 complex in LN T cells activated ex vivo was associated with the acquisition of antitumor function.
+

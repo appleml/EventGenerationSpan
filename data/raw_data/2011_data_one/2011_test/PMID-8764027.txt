@@ -1,0 +1,41 @@
+Chronic human immunodeficiency virus type 1 infection of myeloid cells disrupts the autoregulatory control of the NF-kappaB/Rel pathway via enhanced IkappaBalpha degradation.
+# T1 Protein S1 149 161 149 161 IkappaBalpha
+
+Productive human immunodeficiency virus type 1 (HIV-1) infection causes sustained NF-kappaB DNA-binding activity in chronically infected monocytic cells.
+
+A direct temporal correlation exists between HIV infection and the appearance of NF-kappaB DNA-binding activity in myelomonoblastic PLB-985 cells.
+
+To examine the molecular basis of constitutive NF-kappaB DNA-binding activity in HIV1 -infected cells, we analyzed the phosphorylation and turnover of IkappaBalpha protein, the activity of the double-stranded RNA-dependent protein kinase (PKR) and the intracellular levels of NF-kappaB subunits in the PLB-985 and U937 myeloid cell models.
+# T2 Protein S4 151 163 628 640 IkappaBalpha
+# T3 Protein S4 193 237 670 714 double-stranded RNA-dependent protein kinase
+# T4 Protein S4 239 242 716 719 PKR
+
+HIV-1 infection resulted in constitutive, low-level expression of type 1 interferon (IFN) at the mRNA level.
+
+Constitutive PKR activity was also detected in HIV-1-infected cells as a result of low-level IFN production, since the addition of anti-IFN-alpha/beta antibody to the cells decreased PKR expression.
+# T5 Protein S6 13 16 939 942 PKR
+# T6 Protein S6 183 186 1109 1112 PKR
+
+Furthermore, the analysis of IkappaBalpha turnover demonstrated an increased degradation of IkappaBalpha in HIV-1-infected cells that may account for the constitutive DNA binding activity.
+# T7 Protein S7 29 41 1154 1166 IkappaBalpha
+# T8 Protein S7 92 104 1217 1229 IkappaBalpha
+
+A dramatic increase in the intracellular levels of NF-kappaB subunits c-Rel and NF-kappaB2 p100 and a moderate increase in NF-kappaB2 p52 and RelA(p65) were detected in HIV-1-infected cells, whereas NF-kappaB1 p105/p50 levels were not altered relative to the levels in uninfected cells.
+# T9 Protein S8 70 75 1384 1389 c-Rel
+# T10 Protein S8 80 95 1394 1409 NF-kappaB2 p100
+# T11 Protein S8 123 137 1437 1451 NF-kappaB2 p52
+# T12 Protein S8 142 146 1456 1460 RelA
+# T13 Protein S8 147 150 1461 1464 p65
+# T14 Protein S8 199 214 1513 1528 NF-kappaB1 p105
+# T15 Protein S8 215 218 1529 1532 p50
+
+We suggest that HIV-1 infection of myeloid cells induces IFN production and PKR activity, which in turn contribute to enhanced IkappaBalpha phosphorylation and subsequent degradation.
+# T16 Protein S9 76 79 1677 1680 PKR
+# T17 Protein S9 127 139 1728 1740 IkappaBalpha
+
+Nuclear translocation of NF-kappaB subunits may ultimately increase the intracellular pool of NF-kappaB/IkappaBalpha by an autoregulatory mechanism.
+# T18 Protein S10 104 116 1889 1901 IkappaBalpha
+
+Enhanced turnover of IkappaBalpha and the accumulation of NF-kappaB/Rel proteins may contribute to the chronically activated state of HIV-1-infected cells.
+# T19 Protein S11 21 33 1955 1967 IkappaBalpha
+

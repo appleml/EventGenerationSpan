@@ -1,0 +1,57 @@
+The activation of the Jak-STAT 1 signaling pathway by IL-5 in eosinophils.
+# T1 Protein S1 26 32 26 32 STAT 1
+# T2 Protein S1 54 58 54 58 IL-5
+
+The intracellular signal transduction of IL-5 in eosinophils is unknown.
+# T3 Protein S2 41 45 117 121 IL-5
+
+The objective of this study was to investigate the involvement of the newly discovered Jak-STAT pathway in the IL-5 signal transduction mechanism.
+# T4 Protein S3 111 115 260 264 IL-5
+
+Eosinophils were purified from peripheral blood by discontinuous Percoll gradients and stimulated with IL-5.
+# T5 Protein S4 103 107 399 403 IL-5
+
+The involvement of Jak 2 was investigated by immunoprecipitation followed by immunoblotting for tyrosine phosphorylation.
+# T6 Protein S5 19 24 424 429 Jak 2
+
+The activation of Jak 2 was studied by autophosphorylation of the immunoprecipitated kinase.
+# T7 Protein S6 18 23 545 550 Jak 2
+
+Jak 2 was tyrosine phosphorylated within 1 to 3 min after stimulation of eosinophils with IL-5.
+# T8 Protein S7 0 5 620 625 Jak 2
+# T9 Protein S7 90 94 710 714 IL-5
+
+Further, the immunoprecipitated Jak 2 obtained from IL-5-stimulated cells underwent autophosphorylation.
+# T10 Protein S8 32 37 748 753 Jak 2
+# T11 Protein S8 52 56 768 772 IL-5
+
+Jak 2 coprecipitated with the beta-subunit of the IL-5 receptor, suggesting a physical association of the kinase with the receptor.
+# T12 Protein S9 0 5 821 826 Jak 2
+
+The nuclear factor STAT-1 (p91) was investigated by immunoprecipitation followed by immunoblotting for tyrosine phosphorylation.
+# T13 Protein S10 19 25 972 978 STAT-1
+# T14 Protein S10 27 30 980 983 p91
+
+STAT-1 was tyrosine phosphorylated within 15 min of IL-5 stimulation.
+# T15 Protein S11 0 6 1082 1088 STAT-1
+# T16 Protein S11 52 56 1134 1138 IL-5
+
+The presence of STAT-1 in the nuclear extract was studied by electrophoretic mobility shift assay.
+# T17 Protein S12 16 22 1168 1174 STAT-1
+
+IL-5 induced two proteins that bound to the gamma-activating sequence.
+# T18 Protein S13 0 4 1251 1255 IL-5
+
+In the presence of an anti-STAT-1 Ab, the band was supershifted.
+# T19 Protein S14 27 33 1349 1355 STAT-1
+
+Thus, we demonstrated that IL-5 activated the Jak 2-STAT 1 signaling pathway in eosinophils.
+# T20 Protein S15 27 31 1414 1418 IL-5
+# T21 Protein S15 46 51 1433 1438 Jak 2
+# T22 Protein S15 52 58 1439 1445 STAT 1
+
+We speculate that the Jak 2-STAT 1 pathway may be involved in the activation of IL-5-inducible genes in eosinophils.
+# T23 Protein S16 22 27 1502 1507 Jak 2
+# T24 Protein S16 28 34 1508 1514 STAT 1
+# T25 Protein S16 80 84 1560 1564 IL-5
+

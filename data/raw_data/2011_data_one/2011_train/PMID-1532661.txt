@@ -1,0 +1,56 @@
+An 11-base-pair DNA sequence motif apparently unique to the human interleukin 4 gene confers responsiveness to T-cell activation signals.
+# T1 Protein S1 66 79 66 79 interleukin 4
+
+We have identified a DNA segment that confers responsiveness to antigen stimulation signals on the human interleukin (IL) 4 gene in Jurkat cells.
+# T2 Protein S2 105 123 244 262 interleukin (IL) 4
+$ T2 Protein S2 105 123 244 262 interleukin (IL) 4
+@ T16 Positive_regulation S2 38 45 177 184 confers
+@ T17 Regulation S2 46 60 185 199 responsiveness
+% E1 Positive_regulation:T16 Theme:E2
+% E2 Regulation:T17 Theme:T2
+
+The human IL-4 gene, of 10 kilobases, is composed of four exons and three introns.
+# T3 Protein S3 10 14 295 299 IL-4
+
+A cis-acting element (P sequence) resides in the 5' upstream region; no additional DNA segments with enhancer activity were identified in the human IL-4 gene.
+# T4 Protein S4 148 152 516 520 IL-4
+
+For further mapping purposes, a fusion promoter was constructed with the granulocyte/macrophage colony-stimulating factor basic promoter containing 60 base pairs of sequence upstream from the cap site of the mouse granulocyte/macrophage colony-stimulating factor gene and various lengths of the 5' upstream sequence of the IL-4 gene.
+# T5 Protein S5 73 121 600 648 granulocyte/macrophage colony-stimulating factor
+# T6 Protein S5 214 262 741 789 granulocyte/macrophage colony-stimulating factor
+# T7 Protein S5 323 327 850 854 IL-4
+
+The P sequence was located between positions -79 and -69 relative to the transcription start site of the human IL-4 gene, and this location was confirmed by base-substitution mutations.
+# T8 Protein S6 111 115 972 976 IL-4
+
+The plasmids carrying multiple copies of the P sequence showed higher responsiveness to the stimulation.
+
+The binding protein(s) that recognize the P sequence of the IL-4 gene were identified by DNA-mobility-shift assays.
+# T9 Protein S8 60 64 1212 1216 IL-4
+$ T9 Protein S8 60 64 1212 1216 IL-4
+@ T18 Binding S8 28 37 1180 1189 recognize
+@ T19 Entity S8 42 52 1194 1204 P sequence
+% E3 Binding:T18 Theme:T9 Site:T19
+
+The binding of NF(P) (a DNA binding protein that specifically recognizes the P sequence) to the P sequence was abolished when oligonucleotides carrying base substitutions were used, indicating that the NF(P) interaction is sequence-specific and that binding specificity of the protein paralleled the sequence requirements for IL-4 expression in vivo.
+# T10 Protein S9 326 330 1594 1598 IL-4
+$ T10 Protein S9 326 330 1594 1598 IL-4
+@ T20 Positive_regulation S9 309 321 1577 1589 requirements
+@ T21 Gene_expression S9 331 341 1599 1609 expression
+% E4 Positive_regulation:T20 Theme:E5
+% E5 Gene_expression:T21 Theme:T10
+
+The P sequence does not share homology with the 5' upstream sequence of the IL-2 gene, even though surrounding sequences of the IL-4 gene share high homology with the IL-2 gene.
+# T11 Protein S10 76 80 1695 1699 IL-2
+# T12 Protein S10 128 132 1747 1751 IL-4
+# T13 Protein S10 167 171 1786 1790 IL-2
+
+We conclude that a different set of proteins recognize IL-2 and IL-4 genes.
+# T14 Protein S11 55 59 1852 1856 IL-2
+# T15 Protein S11 64 68 1861 1865 IL-4
+$ T15 Protein S11 64 68 1861 1865 IL-4
+$ T14 Protein S11 55 59 1852 1856 IL-2
+@ T22 Binding S11 45 54 1842 1851 recognize
+% E6 Binding:T22 Theme:T15
+% E7 Binding:T22 Theme:T14
+

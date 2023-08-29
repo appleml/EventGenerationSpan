@@ -1,0 +1,64 @@
+Involvement of NF-kappaB p50/p65 heterodimer in activation of the human pro-interleukin-1beta gene at two subregions of the upstream enhancer element.
+# T1 Protein S1 25 28 25 28 p50
+# T2 Protein S1 29 32 29 32 p65
+# T3 Protein S1 72 93 72 93 pro-interleukin-1beta
+$ T2 Protein S1 29 32 29 32 p65
+$ T1 Protein S1 25 28 25 28 p50
+$ T3 Protein S1 72 93 72 93 pro-interleukin-1beta
+@ T19 Positive_regulation S1 0 11 0 11 Involvement
+@ T20 Positive_regulation S1 48 58 48 58 activation
+% E1 Positive_regulation:T19 Theme:E3 Cause:T2
+% E2 Positive_regulation:T19 Theme:E3 Cause:T1
+% E3 Positive_regulation:T20 Theme:T3
+
+A region between-3134 and -2729 bp upstream from the transcription site of the human pro-interleukin 1beta (proIL-1beta) gene was identified as an LPS-responsive enhancer element.
+# T4 Protein S2 85 106 237 258 pro-interleukin 1beta
+# T5 Protein S2 108 119 260 271 proIL-1beta
+
+In this study, the influence of the sequences located between -3134 and -2987 on the transcriptional activity of the proIL-1beta gene in LPS-stimulated Raw 264.7 cells was examined in detail.
+# T6 Protein S3 117 128 449 460 proIL-1beta
+$ T6 Protein S3 117 128 449 460 proIL-1beta
+@ T21 Regulation S3 19 28 351 360 influence
+@ T22 Transcription S3 85 109 417 441 transcriptional activity
+% E4 Regulation:T21 Theme:E5
+% E5 Transcription:T22 Theme:T6
+
+The results obtained by transient transfection of fos -CAT constructs that contained serial 5'-deletion mutations showed that the region between -3134 and -3059 appears to be required for the induction of transcription by LPS.
+# T7 Protein S4 50 53 574 577 fos
+# T8 Protein S4 55 58 579 582 CAT
+@ T23 Positive_regulation S4 192 201 716 725 induction
+% E6 Positive_regulation:T23 Theme:E5
+
+Gel shift assay studies with synthetic oligonucleotides corresponding to partial sequences of the latter region and nuclear extracts from stimulated cells revealed specific protein binding sites between -3110 and -3090 and between -3079 and -3059.
+
+These specific bindings were time and LPS dose dependent.
+
+The results of supershift analysis using specific antibodies against transcription factors suggested that both binding complexes contained the NF-kappaB components p50 and p65, and did not contain other NF-kappaB proteins (p52, c-Rel, Rel B), AP-1 proteins (c-Fos, C-Jun), CREB or C/EBPbeta (NF-IL6).
+# T9 Protein S7 164 167 1221 1224 p50
+# T10 Protein S7 172 175 1229 1232 p65
+# T11 Protein S7 223 226 1280 1283 p52
+# T12 Protein S7 228 233 1285 1290 c-Rel
+# T13 Protein S7 235 240 1292 1297 Rel B
+# T14 Protein S7 258 263 1315 1320 c-Fos
+# T15 Protein S7 265 270 1322 1327 C-Jun
+# T16 Protein S7 281 290 1338 1347 C/EBPbeta
+# T17 Protein S7 292 298 1349 1355 NF-IL6
+
+Mutation of either of the putative NF-kappaB-binding sites in the enhancer element decreased the LPS-stimulated transcriptional activity.
+@ T24 Negative_regulation S8 83 92 1441 1450 decreased
+@ T25 Positive_regulation S8 101 111 1459 1469 stimulated
+% E7 Negative_regulation:T24 Theme:E8
+% E8 Positive_regulation:T25 Theme:E5
+
+These data indicated that two NF-kappaB-binding sites, which are located between -3134 and -3059, are critical for the activation of proIL-1beta gene transcription.
+# T18 Protein S9 133 144 1629 1640 proIL-1beta
+$ T18 Protein S9 133 144 1629 1640 proIL-1beta
+@ T26 Positive_regulation S9 102 110 1598 1606 critical
+@ T27 Positive_regulation S9 119 129 1615 1625 activation
+@ T28 Transcription S9 150 163 1646 1659 transcription
+% E9 Positive_regulation:T26 Theme:E10
+% E10 Positive_regulation:T27 Theme:E11
+% E11 Transcription:T28 Theme:T18
+
+Copyright 1999 Academic Press.
+

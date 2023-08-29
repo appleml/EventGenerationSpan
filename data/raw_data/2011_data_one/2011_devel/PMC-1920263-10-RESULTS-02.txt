@@ -1,0 +1,37 @@
+The core promoter of A3G is located within the region -114/+66 relative to the TSS
+# T1 Protein S1 21 24 21 24 A3G
+
+For characterization of the A3G promoter, we cloned the 1025 bp located at position -959/+66 relative to the identified transcription start into the promoterless pGL3-Basic luciferase reporter plasmid and designated the plasmid pGL3-Basic-APOprom1025.
+# T2 Protein S2 28 31 111 114 A3G
+# T3 Protein S2 173 183 256 266 luciferase
+
+Similarly, pGL3-APOprom502 (containing sequence -436/+66), pGL3-APOprom225 (containing sequence -159/+66) and further 5' deletion reporter constructs containing 180, 150, 120 or 60 bp upstream of position +65 were generated (Figure 3A).
+
+In order to analyze transcriptional activity, the luciferase reporter plasmids were transiently transfected into A3.01 T cells.
+# T4 Protein S4 50 60 622 632 luciferase
+
+Luciferase assays revealed a approximately20-fold increased transcriptional activity of the 1025 bp sequence as compared to the empty vector, indicating that we had identified an active A3G promoter sequence (Figure 3B).
+# T5 Protein S5 0 10 700 710 Luciferase
+# T6 Protein S5 186 189 886 889 A3G
+$ T6 Protein S5 186 189 886 889 A3G
+$ T5 Protein S5 0 10 700 710 Luciferase
+@ T9 Positive_regulation S5 50 59 750 759 increased
+@ T10 Transcription S5 60 84 760 784 transcriptional activity
+@ T11 Entity S5 92 108 792 808 1025 bp sequence
+% E1 Positive_regulation:T9 Theme:E2 Cause:T6 CSite:T11
+% E2 Transcription:T10 Theme:T5
+
+This transcription rate was not significantly altered by the 5' deletions leading to the 502, 225 and 180 bp fragments (Figure 3B).
+@ T12 Regulation S6 46 53 967 974 altered
+% E3 Regulation:T12 Theme:E1
+
+In contrast, a drop in luciferase activity was observed in the case of the 150 bp fragment.
+# T7 Protein S7 23 33 1076 1086 luciferase
+@ T13 Negative_regulation S7 15 19 1068 1072 drop
+% E4 Negative_regulation:T13 Theme:E2
+
+This construct only retained 28% of the transcriptional activity of the 180 bp promoter in A3.01 T cells and activity of the 120 bp fragment was further reduced.
+
+Comparable reductions relative to the activity of 180 bp fragment were observed in the myeloid cell line U937 and the hepatic cell lines HepG2 and Huh7 (Figure 3C), indicating that the core promoter of A3G is located within the region -114/+66 relative to the TSS.
+# T8 Protein S9 202 205 1509 1512 A3G
+

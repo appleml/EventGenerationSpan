@@ -1,0 +1,84 @@
+Ligand-dependent repression of the erythroid transcription factor GATA-1 by the estrogen receptor.
+# T1 Protein S1 66 72 66 72 GATA-1
+# T2 Protein S1 80 97 80 97 estrogen receptor
+$ T1 Protein S1 66 72 66 72 GATA-1
+$ T2 Protein S1 80 97 80 97 estrogen receptor
+@ T22 Negative_regulation S1 17 27 17 27 repression
+% E1 Negative_regulation:T22 Theme:T1 Cause:T2
+
+High-dose estrogen administration induces anemia in mammals.
+
+In chickens, estrogens stimulate outgrowth of bone marrow-derived erythroid progenitor cells and delay their maturation.
+
+This delay is associated with down-regulation of many erythroid cell-specific genes, including alpha- and beta-globin, band 3, band 4.1, and the erythroid cell-specific histone H5.
+# T3 Protein S4 95 101 377 383 alpha-
+# T4 Protein S4 106 117 388 399 beta-globin
+# T5 Protein S4 177 179 459 461 H5
+$ T5 Protein S4 177 179 459 461 H5
+$ T4 Protein S4 106 117 388 399 beta-globin
+$ T3 Protein S4 95 101 377 383 alpha-
+@ T23 Negative_regulation S4 30 45 312 327 down-regulation
+% E2 Negative_regulation:T23 Theme:T5
+% E3 Negative_regulation:T23 Theme:T4
+% E4 Negative_regulation:T23 Theme:T3
+
+We show here that estrogens also reduce the number of erythroid progenitor cells in primary human bone marrow cultures.
+
+To address potential mechanisms by which estrogens suppress erythropoiesis, we have examined their effects on GATA-1, an erythroid transcription factor that participates in the regulation of the majority of erythroid cell-specific genes and is necessary for full maturation of erythrocytes.
+# T6 Protein S6 110 116 693 699 GATA-1
+$ T6 Protein S6 110 116 693 699 GATA-1
+@ T24 Regulation S6 99 106 682 689 effects
+% E5 Regulation:T24 Theme:T6
+
+We demonstrate that the transcriptional activity of GATA-1 is strongly repressed by the estrogen receptor (ER) in a ligand-dependent manner and that this repression is reversible in the presence of 4-hydroxytamoxifen.
+# T7 Protein S7 52 58 926 932 GATA-1
+# T8 Protein S7 88 105 962 979 estrogen receptor
+# T9 Protein S7 107 109 981 983 ER
+
+ER-mediated repression of GATA-1 activity occurs on an artificial promoter containing a single GATA-binding site, as well as in the context of an intact promoter which is normally regulated by GATA-1.
+# T10 Protein S8 0 2 1092 1094 ER
+# T11 Protein S8 26 32 1118 1124 GATA-1
+# T12 Protein S8 193 199 1285 1291 GATA-1
+
+GATA-1 and ER bind to each other in vitro in the absence of DNA.
+# T13 Protein S9 0 6 1293 1299 GATA-1
+# T14 Protein S9 11 13 1304 1306 ER
+$ T13 Protein S9 0 6 1293 1299 GATA-1
+$ T14 Protein S9 11 13 1304 1306 ER
+@ T25 Binding S9 14 18 1307 1311 bind
+% E6 Binding:T25 Theme:T13 Theme2:T14
+
+In coimmunoprecipitation experiments using transfected COS cells, GATA-1 and ER associate in a ligand-dependent manner.
+# T15 Protein S10 66 72 1424 1430 GATA-1
+# T16 Protein S10 77 79 1435 1437 ER
+$ T15 Protein S10 66 72 1424 1430 GATA-1
+$ T16 Protein S10 77 79 1435 1437 ER
+@ T26 Binding S10 80 89 1438 1447 associate
+@ T27 Regulation S10 102 111 1460 1469 dependent
+% E7 Binding:T26 Theme:T15 Theme2:T16
+% E8 Regulation:T27 Theme:E7
+
+Mapping experiments indicate that GATA-1 and the ER form at least two contacts, which involve the finger region and the N-terminal activation domain of GATA-1.
+# T17 Protein S11 34 40 1512 1518 GATA-1
+# T18 Protein S11 49 51 1527 1529 ER
+# T19 Protein S11 152 158 1630 1636 GATA-1
+$ T17 Protein S11 34 40 1512 1518 GATA-1
+$ T18 Protein S11 49 51 1527 1529 ER
+@ T28 Binding S11 70 78 1548 1556 contacts
+@ T29 Entity S11 98 111 1576 1589 finger region
+@ T30 Entity S11 120 148 1598 1626 N-terminal activation domain
+% E9 Binding:T28 Theme:T17 Theme2:T18 Site:T29
+% E10 Binding:T28 Theme:T17 Theme2:T18 Site:T30
+
+We speculate that estrogens exert effects on erythropoiesis by modulating GATA-1 activity through protein-protein interaction with the ER.
+# T20 Protein S12 74 80 1712 1718 GATA-1
+# T21 Protein S12 135 137 1773 1775 ER
+$ T20 Protein S12 74 80 1712 1718 GATA-1
+$ T21 Protein S12 135 137 1773 1775 ER
+@ T31 Regulation S12 63 73 1701 1711 modulating
+@ T32 Binding S12 114 125 1752 1763 interaction
+% E11 Regulation:T31 Theme:T20
+% E12 Binding:T32 Theme:T20 Theme2:T21
+
+(ABSTRACT TRUNCATED AT 250 WORDS)
+

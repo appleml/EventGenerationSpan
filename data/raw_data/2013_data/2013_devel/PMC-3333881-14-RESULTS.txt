@@ -1,0 +1,165 @@
+Tat increases the p65 affinity binding to DNA through association with p65
+# T1 Protein S1 0 3 0 3 Tat
+# T2 Protein S1 18 21 18 21 p65
+# T3 Protein S1 71 74 71 74 p65
+$ T2 Protein S1 18 21 18 21 p65
+$ T1 Protein S1 0 3 0 3 Tat
+$ T3 Protein S1 71 74 71 74 p65
+@ T51 Positive_regulation S1 4 13 4 13 increases
+@ T52 Binding S1 31 38 31 38 binding
+@ T53 Binding S1 54 65 54 65 association
+% E1 Positive_regulation:T51 Theme:E2 Cause:E3
+% E2 Binding:T52 Theme:T2
+% E3 Binding:T53 Theme:T1 Theme2:T3
+
+We tested whether Tat physically interacted with p65.
+# T4 Protein S2 18 21 93 96 Tat
+# T5 Protein S2 49 52 124 127 p65
+$ T4 Protein S2 18 21 93 96 Tat
+$ T5 Protein S2 49 52 124 127 p65
+@ T54 Binding S2 33 43 108 118 interacted
+% E4 Binding:T54 Theme:T4 Theme2:T5
+
+HeLa cells were transfected with the expression vectors of HA-p65 and FLAG-Tat, and 24 h later Tat was immunoprecipitated from cell extracts.
+# T6 Protein S3 59 65 188 194 HA-p65
+# T7 Protein S3 70 78 199 207 FLAG-Tat
+# T8 Protein S3 95 98 224 227 Tat
+$ T8 Protein S3 95 98 224 227 Tat
+@ T55 Gene_expression S3 103 121 232 250 immunoprecipitated
+% E5 Gene_expression:T55 Theme:T8
+
+The p65 protein was coimmunoprecipitated with wild-type Tat or the mutants Tat T,N(23,24)A, Tat K(50,51)A and Tat R(49-57)A at similar levels, while a significant decrease in coimmunoprecipitation was observed for Tat C(22,25,27)A (Figure 4A).
+# T9 Protein S4 4 7 275 278 p65
+# T10 Protein S4 56 59 327 330 Tat
+# T11 Protein S4 75 90 346 361 Tat T,N(23,24)A
+# T12 Protein S4 92 105 363 376 Tat K(50,51)A
+# T13 Protein S4 110 123 381 394 Tat R(49-57)A
+# T14 Protein S4 214 230 485 501 Tat C(22,25,27)A
+$ T9 Protein S4 4 7 275 278 p65
+$ T10 Protein S4 56 59 327 330 Tat
+$ T14 Protein S4 214 230 485 501 Tat C(22,25,27)A
+@ T56 Binding S4 20 40 291 311 coimmunoprecipitated
+@ T48 Anaphora S4 63 74 334 345 the mutants
+@ T57 Negative_regulation S4 163 171 434 442 decrease
+@ T58 Binding S4 175 196 446 467 coimmunoprecipitation
+% E6 Binding:T56 Theme:T9 Theme2:T10
+% E7 Negative_regulation:T57 Theme:E8 Cause:T14
+% E8 Binding:T58 Theme:T9 Theme2:T14
+
+Consistently, GST-pull down of in vitro translated proteins showed the direct binding of p65 to wild-type Tat, or the mutants Tat T,N(23,24)A, Tat K(50,51)A and Tat R(49-57)A, and lack of binding to Tat C(22,25,27)A (Figure 4B).
+# T15 Protein S5 14 17 529 532 GST
+# T16 Protein S5 89 92 604 607 p65
+# T17 Protein S5 106 109 621 624 Tat
+# T18 Protein S5 126 141 641 656 Tat T,N(23,24)A
+# T19 Protein S5 143 156 658 671 Tat K(50,51)A
+# T20 Protein S5 161 174 676 689 Tat R(49-57)A
+# T21 Protein S5 199 215 714 730 Tat C(22,25,27)A
+$ T16 Protein S5 89 92 604 607 p65
+$ T17 Protein S5 106 109 621 624 Tat
+$ T21 Protein S5 199 215 714 730 Tat C(22,25,27)A
+@ T59 Binding S5 78 85 593 600 binding
+@ T49 Anaphora S5 114 125 629 640 the mutants
+@ T60 Binding S5 188 195 703 710 binding
+% E9 Binding:T59 Theme:T16 Theme2:T17
+% E10 Binding:T60 Theme:T16 Theme2:T21
+
+These results indicated that Tat associated with p65 through the cysteine-rich domain and ruled-out the requirement of bridging proteins to mediate such interaction.
+# T22 Protein S6 29 32 773 776 Tat
+# T23 Protein S6 49 52 793 796 p65
+$ T22 Protein S6 29 32 773 776 Tat
+$ T23 Protein S6 49 52 793 796 p65
+@ T61 Binding S6 33 43 777 787 associated
+@ T62 Entity S6 65 85 809 829 cysteine-rich domain
+@ T63 Positive_regulation S6 140 147 884 891 mediate
+@ T50 Anaphora S6 148 164 892 908 such interaction
+% E11 Binding:T61 Theme:T22 Theme2:T23 Site:T62
+% E12 Positive_regulation:T63 Theme:E11
+
+To identify the p65 domain required for binding to Tat, HeLa cells were transfected with FLAG-Tat together with HA-p65 mutants, which were deleted of the transactivation domain [p65deltaC (1-318)], or the RHD [p65deltaN (122-551)] (Figure 4C).
+# T24 Protein S7 16 19 926 929 p65
+# T25 Protein S7 51 54 961 964 Tat
+# T26 Protein S7 89 97 999 1007 FLAG-Tat
+# T27 Protein S7 112 118 1022 1028 HA-p65
+# T28 Protein S7 178 195 1088 1105 p65deltaC (1-318)
+# T29 Protein S7 210 229 1120 1139 p65deltaN (122-551)
+$ T24 Protein S7 16 19 926 929 p65
+$ T25 Protein S7 51 54 961 964 Tat
+@ T64 Entity S7 20 26 930 936 domain
+@ T65 Positive_regulation S7 27 35 937 945 required
+@ T66 Binding S7 40 47 950 957 binding
+@ T67 Negative_regulation S7 139 146 1049 1056 deleted
+@ T68 Entity S7 154 176 1064 1086 transactivation domain
+@ T69 Entity S7 205 208 1115 1118 RHD
+% E13 Positive_regulation:T65 Theme:E14 Cause:T24 CSite:T64
+% E14 Binding:T66 Theme:T24 Theme2:T25
+% E15 Negative_regulation:T67 Theme:T24 Site:T68
+% E16 Negative_regulation:T67 Theme:T24 Site:T69
+
+Tat coimmunoprecipitated with p65deltaC (1-318), and not with p65deltaN (122-551) (Figure 4D), indicating that the RHD of p65 was involved in the physical interaction with Tat.
+# T30 Protein S8 0 3 1154 1157 Tat
+# T31 Protein S8 30 47 1184 1201 p65deltaC (1-318)
+# T32 Protein S8 62 81 1216 1235 p65deltaN (122-551)
+# T33 Protein S8 122 125 1276 1279 p65
+# T34 Protein S8 172 175 1326 1329 Tat
+$ T30 Protein S8 0 3 1154 1157 Tat
+$ T31 Protein S8 30 47 1184 1201 p65deltaC (1-318)
+$ T33 Protein S8 122 125 1276 1279 p65
+$ T34 Protein S8 172 175 1326 1329 Tat
+@ T70 Binding S8 4 24 1158 1178 coimmunoprecipitated
+@ T71 Entity S8 115 118 1269 1272 RHD
+@ T72 Binding S8 155 166 1309 1320 interaction
+% E17 Binding:T70 Theme:T30 Theme2:T31
+% E18 Binding:T72 Theme:T33 Theme2:T34 Site:T71
+
+To address the effect of Tat on the p65 DNA-binding affinity, purified recombinant p65 protein was incubated with 32P-labeled-NF-kappaB double-stranded oligonucleotide in presence or absence of wild-type Tat or Tat C(22,25,27)A, and p65 DNA-binding was analysed by EMSA.
+# T35 Protein S9 25 28 1356 1359 Tat
+# T36 Protein S9 36 39 1367 1370 p65
+# T37 Protein S9 83 86 1414 1417 p65
+# T38 Protein S9 204 207 1535 1538 Tat
+# T39 Protein S9 211 227 1542 1558 Tat C(22,25,27)A
+# T40 Protein S9 233 236 1564 1567 p65
+$ T35 Protein S9 25 28 1356 1359 Tat
+$ T36 Protein S9 36 39 1367 1370 p65
+$ T40 Protein S9 233 236 1564 1567 p65
+@ T73 Regulation S9 15 21 1346 1352 effect
+@ T74 Binding S9 44 51 1375 1382 binding
+@ T75 Binding S9 241 248 1572 1579 binding
+% E19 Regulation:T73 Theme:E20 Cause:T35
+% E20 Binding:T74 Theme:T36
+% E21 Binding:T75 Theme:T40
+
+Whereas wild-type Tat significantly increased the binding of p65 to DNA, the mutant Tat C(22,25,27)A, lacking the binding site for p65, was ineffective (Figure 4E).
+# T41 Protein S10 18 21 1620 1623 Tat
+# T42 Protein S10 61 64 1663 1666 p65
+# T43 Protein S10 84 100 1686 1702 Tat C(22,25,27)A
+# T44 Protein S10 131 134 1733 1736 p65
+$ T41 Protein S10 18 21 1620 1623 Tat
+$ T42 Protein S10 61 64 1663 1666 p65
+$ T44 Protein S10 131 134 1733 1736 p65
+$ T43 Protein S10 84 100 1686 1702 Tat C(22,25,27)A
+@ T76 Positive_regulation S10 36 45 1638 1647 increased
+@ T77 Binding S10 50 57 1652 1659 binding
+@ T78 Negative_regulation S10 102 109 1704 1711 lacking
+@ T79 Binding S10 114 121 1716 1723 binding
+@ T80 Entity S10 122 126 1724 1728 site
+@ T81 Positive_regulation S10 140 151 1742 1753 ineffective
+% E22 Positive_regulation:T76 Theme:E23 Cause:T41
+% E23 Binding:T77 Theme:T42
+% E24 Negative_regulation:T78 Theme:T41 Site:T80
+% E25 Binding:T79 Theme:T41 Theme2:T44 Site:T80
+% E26 Positive_regulation:T81 Theme:E23 Cause:T43
+
+The p65 binding to DNA was evaluated by competition with increasing amounts of cold competitor NF-kappaB oligonucleotide, which showed that Tat significantly enhanced the p65 affinity binding to DNA (Figure 4E and F).
+# T45 Protein S11 4 7 1771 1774 p65
+# T46 Protein S11 140 143 1907 1910 Tat
+# T47 Protein S11 171 174 1938 1941 p65
+$ T45 Protein S11 4 7 1771 1774 p65
+$ T46 Protein S11 140 143 1907 1910 Tat
+$ T47 Protein S11 171 174 1938 1941 p65
+@ T82 Binding S11 8 15 1775 1782 binding
+@ T83 Positive_regulation S11 158 166 1925 1933 enhanced
+@ T84 Binding S11 184 191 1951 1958 binding
+% E27 Binding:T82 Theme:T45
+% E28 Positive_regulation:T83 Theme:E29 Cause:T46
+% E29 Binding:T84 Theme:T47
+

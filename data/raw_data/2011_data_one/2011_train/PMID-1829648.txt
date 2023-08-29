@@ -1,0 +1,36 @@
+Characterization of an immediate-early gene induced in adherent monocytes that encodes I kappa B-like activity.
+
+We have cloned a group of cDNAs representing mRNAs that are rapidly induced following adherence of human monocytes.
+
+One of the induced transcripts (MAD-3) encodes a protein of 317 amino acids with one domain containing five tandem repeats of the cdc10/ankyrin motif, which is 60% similar (46% identical) to the ankyrin repeat region of the precursor of NF-kappa B/KBF1 p50.
+# T1 Protein S3 32 37 261 266 MAD-3
+# T2 Protein S3 248 252 477 481 KBF1
+# T3 Protein S3 253 256 482 485 p50
+$ T1 Protein S3 32 37 261 266 MAD-3
+@ T11 Positive_regulation S3 11 18 240 247 induced
+% E1 Positive_regulation:T11 Theme:T1
+
+The C-terminus has a putative protein kinase C phosphorylation site.
+
+In vitro translated MAD-3 protein was found to specifically inhibit the DNA-binding activity of the p50/p65 NF-kappa B complex but not that of the p50/p50 KBF1 factor or of other DNA-binding proteins.
+# T4 Protein S5 20 25 576 581 MAD-3
+# T5 Protein S5 100 103 656 659 p50
+# T6 Protein S5 104 107 660 663 p65
+# T7 Protein S5 147 150 703 706 p50
+# T8 Protein S5 151 154 707 710 p50
+# T9 Protein S5 155 159 711 715 KBF1
+$ T6 Protein S5 104 107 660 663 p65
+$ T7 Protein S5 147 150 703 706 p50
+$ T5 Protein S5 100 103 656 659 p50
+@ T12 Negative_regulation S5 60 67 616 623 inhibit
+@ T13 Binding S5 76 92 632 648 binding activity
+% E2 Negative_regulation:T12 Theme:E6
+% E3 Negative_regulation:T12 Theme:E5
+% E4 Negative_regulation:T12 Theme:E7
+% E5 Binding:T13 Theme:T6
+% E6 Binding:T13 Theme:T7
+% E7 Binding:T13 Theme:T5
+
+The MAD-3 cDNA encodes an I kappa B-like protein that is likely to be involved in regulation of transcriptional responses to NF-kappa B, including adhesion-dependent pathways of monocyte activation.
+# T10 Protein S6 4 9 761 766 MAD-3
+

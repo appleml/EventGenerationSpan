@@ -1,0 +1,88 @@
+IL-2 and IL-7 induce heterodimerization of STAT5 isoforms in human peripheral blood T lymphoblasts.
+# T1 Protein S1 0 4 0 4 IL-2
+# T2 Protein S1 9 13 9 13 IL-7
+
+Despite differences in T cell responses induced by interleukin (IL)-2 and IL-7, both cytokines modulate T cell functions by activation of signal transducers and activators of transcription (STAT) proteins.
+# T3 Protein S2 51 69 152 170 interleukin (IL)-2
+# T4 Protein S2 74 78 175 179 IL-7
+
+We examined the contribution of the two isoforms of STAT5, STAT5A and STAT5B, to IL-2- and IL-7-induced activation of human peripheral blood T lymphoblasts.
+# T5 Protein S3 59 65 366 372 STAT5A
+# T6 Protein S3 70 76 377 383 STAT5B
+# T7 Protein S3 81 85 388 392 IL-2
+# T8 Protein S3 91 95 398 402 IL-7
+
+Both cytokines induced assembly of STAT5A and STAT5B containing complexes capable of binding to the interferon-gamma activation sequence (GAS), and these complexes rapidly translocated (within 1 min) into the nucleus of IL-2- or IL-7-treated cells.
+# T9 Protein S4 35 41 499 505 STAT5A
+# T10 Protein S4 46 52 510 516 STAT5B
+# T11 Protein S4 220 224 684 688 IL-2
+# T12 Protein S4 230 233 694 697 L-7
+$ T9 Protein S4 35 41 499 505 STAT5A
+$ T10 Protein S4 46 52 510 516 STAT5B
+$ T11 Protein S4 220 224 684 688 IL-2
+@ T25 Positive_regulation S4 15 22 479 486 induced
+@ T26 Binding S4 64 73 528 537 complexes
+@ T27 Binding S4 85 92 549 556 binding
+@ T28 Localization S4 172 184 636 648 translocated
+@ T29 Entity S4 209 216 673 680 nucleus
+@ T30 Positive_regulation S4 234 241 698 705 treated
+% E1 Positive_regulation:T25 Theme:E3 Cause:T7
+% E2 Positive_regulation:T25 Theme:E3 Cause:T8
+% E3 Binding:T26 Theme:T9 Theme2:T10
+% E4 Binding:T27 Theme:T10
+% E5 Binding:T27 Theme:T9
+% E6 Localization:T28 Theme:T10 ToLoc:T29
+% E7 Localization:T28 Theme:T9 ToLoc:T29
+% E8 Positive_regulation:T30 Theme:E6 Cause:T11
+% E9 Positive_regulation:T30 Theme:E7 Cause:T11
+
+The kinetics of this translocation were delayed in IL-7-treated as compared to IL-2-treated cells.
+# T13 Protein S5 51 55 764 768 IL-7
+# T14 Protein S5 79 83 792 796 IL-2
+
+IL-2 and IL-7 were equivalent in their ability to induce tyrosine phosphorylation of STAT5A and STAT5B and to facilitate binding of these STATs to an immobilized GAS element.
+# T15 Protein S6 0 4 812 816 IL-2
+# T16 Protein S6 9 13 821 825 IL-7
+# T17 Protein S6 85 91 897 903 STAT5A
+# T18 Protein S6 96 102 908 914 STAT5B
+$ T15 Protein S6 0 4 812 816 IL-2
+$ T16 Protein S6 9 13 821 825 IL-7
+$ T17 Protein S6 85 91 897 903 STAT5A
+$ T18 Protein S6 96 102 908 914 STAT5B
+@ T31 Positive_regulation S6 50 56 862 868 induce
+@ T32 Entity S6 57 65 869 877 tyrosine
+@ T33 Phosphorylation S6 66 81 878 893 phosphorylation
+@ T34 Positive_regulation S6 110 120 922 932 facilitate
+@ T35 Binding S6 121 128 933 940 binding
+% E10 Positive_regulation:T31 Theme:E14 Cause:T15
+% E11 Positive_regulation:T31 Theme:E14 Cause:T16
+% E12 Positive_regulation:T31 Theme:E15 Cause:T16
+% E13 Positive_regulation:T31 Theme:E15 Cause:T15
+% E14 Phosphorylation:T33 Theme:T17 Site:T32
+% E15 Phosphorylation:T33 Theme:T18 Site:T32
+% E16 Positive_regulation:T34 Theme:E21 Cause:T15
+% E17 Positive_regulation:T34 Theme:E20 Cause:T15
+% E18 Positive_regulation:T34 Theme:E20 Cause:T16
+% E19 Positive_regulation:T34 Theme:E21 Cause:T16
+% E20 Binding:T35 Theme:T17
+% E21 Binding:T35 Theme:T18
+
+Both IL-2 and IL-7 induced substantial amounts of STAT5A/STAT5B heterodimerization.
+# T19 Protein S7 5 9 992 996 IL-2
+# T20 Protein S7 14 18 1001 1005 IL-7
+# T21 Protein S7 50 56 1037 1043 STAT5A
+# T22 Protein S7 57 63 1044 1050 STAT5B
+$ T21 Protein S7 50 56 1037 1043 STAT5A
+$ T22 Protein S7 57 63 1044 1050 STAT5B
+@ T36 Binding S7 64 82 1051 1069 heterodimerization
+% E22 Binding:T36 Theme:T21 Theme2:T22
+
+Moreover, we observed constitutive association of STAT3 with each STAT5 isomer.
+@ T37 Binding S8 35 46 1106 1117 association
+% E23 Binding:T37 Theme:T21
+% E24 Binding:T37 Theme:T22
+
+These data suggest that IL-2 and IL-7 induce assembly of STAT heterodimers in a similar manner and that subsequent cellular responses may be driven by induction of similar sets of genes.
+# T23 Protein S9 24 28 1175 1179 IL-2
+# T24 Protein S9 33 37 1184 1188 IL-7
+

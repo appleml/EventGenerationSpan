@@ -1,0 +1,80 @@
+Regulation of fas-ligand expression during activation-induced cell death in T lymphocytes via nuclear factor kappaB.
+# T1 Protein S1 14 24 14 24 fas-ligand
+$ T1 Protein S1 14 24 14 24 fas-ligand
+@ T11 Regulation S1 0 10 0 10 Regulation
+@ T12 Gene_expression S1 25 35 25 35 expression
+% E1 Regulation:T11 Theme:E2
+% E2 Gene_expression:T12 Theme:T1
+
+T cell receptor engagement activates transcription factors important for cytokine gene regulation.
+
+Additionally, this signaling pathway also leads to activation-induced apoptosis in T lymphocytes that is dependent on FasL transcription and expression.
+# T2 Protein S3 118 122 335 339 FasL
+$ T2 Protein S3 118 122 335 339 FasL
+@ T13 Transcription S3 123 136 340 353 transcription
+@ T14 Gene_expression S3 141 151 358 368 expression
+% E3 Transcription:T13 Theme:T2
+% E4 Gene_expression:T14 Theme:T2
+
+Here we demonstrate that nuclear factor kappaB (NF-kappaB), which is involved in the transcriptional regulation of many cytokine genes expressed in activated lymphocytes, also plays a role in T cell activation-induced FasL expression.
+# T3 Protein S4 218 222 588 592 FasL
+$ T3 Protein S4 218 222 588 592 FasL
+@ T15 Regulation S4 176 188 546 558 plays a role
+@ T16 Positive_regulation S4 210 217 580 587 induced
+@ T17 Gene_expression S4 223 233 593 603 expression
+% E5 Regulation:T15 Theme:E6
+% E6 Positive_regulation:T16 Theme:E7
+% E7 Gene_expression:T17 Theme:T3
+
+Inhibition of NF-kappaB activity in a T cell hybridoma leads to decreased FasL expression and apoptosis upon T cell receptor stimulation.
+# T4 Protein S5 74 78 679 683 FasL
+$ T4 Protein S5 74 78 679 683 FasL
+@ T18 Positive_regulation S5 55 60 660 665 leads
+@ T19 Negative_regulation S5 64 73 669 678 decreased
+@ T20 Gene_expression S5 79 89 684 694 expression
+% E8 Positive_regulation:T18 Theme:E9
+% E9 Negative_regulation:T19 Theme:E10
+% E10 Gene_expression:T20 Theme:T4
+
+We identified the NF-kappaB site in the FasL promoter that contributes to such regulation.
+# T5 Protein S6 40 44 783 787 FasL
+$ T5 Protein S6 40 44 783 787 FasL
+@ T21 Entity S6 45 53 788 796 promoter
+@ T22 Positive_regulation S6 59 70 802 813 contributes
+% E11 Positive_regulation:T22 Theme:E8 Cause:T5 CSite:T21
+
+Co-expression of p65 (Rel A) with the FasL promoter enhanced its activity, and co-expression of IkappaB dramatically inhibited the inducible promoter activity.
+# T6 Protein S7 17 20 851 854 p65
+# T7 Protein S7 22 27 856 861 Rel A
+# T8 Protein S7 38 42 872 876 FasL
+$ T6 Protein S7 17 20 851 854 p65
+$ T8 Protein S7 38 42 872 876 FasL
+@ T23 Gene_expression S7 0 13 834 847 Co-expression
+@ T24 Entity S7 43 51 877 885 promoter
+@ T25 Positive_regulation S7 52 60 886 894 enhanced
+@ T26 Negative_regulation S7 117 126 951 960 inhibited
+@ T27 Positive_regulation S7 131 140 965 974 inducible
+% E12 Gene_expression:T23 Theme:T6
+% E13 Gene_expression:T23 Theme:T8
+% E14 Positive_regulation:T25 Theme:T8 Cause:E13 Site:T24
+% E15 Positive_regulation:T25 Theme:T8 Cause:E12 Site:T24
+% E16 Negative_regulation:T26 Theme:T8 Site:T24
+% E17 Positive_regulation:T27 Theme:T8 Site:T24
+
+In contrast, the transcription factor AP-1 is not required for activation-induced FasL promoter activity.
+# T9 Protein S8 82 86 1076 1080 FasL
+$ T9 Protein S8 82 86 1076 1080 FasL
+@ T28 Positive_regulation S8 50 58 1044 1052 required
+@ T29 Entity S8 87 95 1081 1089 promoter
+% E18 Positive_regulation:T28 Theme:T9 Site:T29
+
+These results define a role for NF-kappaB in mediating FasL expression during T cell activation.
+# T10 Protein S9 55 59 1155 1159 FasL
+$ T10 Protein S9 55 59 1155 1159 FasL
+@ T30 Regulation S9 23 27 1123 1127 role
+@ T31 Positive_regulation S9 45 54 1145 1154 mediating
+@ T32 Gene_expression S9 60 70 1160 1170 expression
+% E19 Regulation:T30 Theme:E20
+% E20 Positive_regulation:T31 Theme:E21
+% E21 Gene_expression:T32 Theme:T10
+

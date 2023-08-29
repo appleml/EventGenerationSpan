@@ -1,0 +1,11 @@
+{"text": "M-CSF Induces NF-kappaB Transcriptional Activity in Human Monocyte-Derived Macrophages ( MDMs ) and Mouse Macrophage Cell Line , RAW 264.7", "event": "<extra_id_0> <extra_id_1>"}
+{"text": "To determine if M-CSF induced NF-kappaB DNA binding in human macrophages , we performed EMSA analysis on nuclear lysates from M-CSF-treated MDMs .", "event": "<extra_id_0> <extra_id_1>"}
+{"text": "Similar to previous reports [ 11 ] , nuclear NF-kappaB constitutively bound DNA in non - stimulated monocytes ( Figure 1A ) .", "event": "<extra_id_0> <extra_id_1>"}
+{"text": "Interestingly , adding M-CSF did not alter NF-kappaB DNA binding by EMSA .", "event": "<extra_id_0> <extra_id_1>"}
+{"text": "In contrast , after transiently transfecting human MDMs with pNF-kappaB-SEAP constructs containing four NF-kappaB consensus binding sequences , M-CSF treatment of the transfected cells resulted in a 2.3-fold increase in SEAP release in the culture media compared to PBS ( vehicle ) - treated transfected MDMs ( Figure 1B ) .", "event": "<extra_id_0> <extra_id_1>"}
+{"text": "As a control , the pTAL-SEAP construct lacking NF-kappaB binding sites was used .", "event": "<extra_id_0> <extra_id_1>"}
+{"text": "Cells transfected with the pTAL-SEAP construct did not produce SEAP in the absence or presence of M-CSF ( Figure 1B ) .", "event": "<extra_id_0> <extra_id_1>"}
+{"text": "We next investigated whether M-CSF induced NF-kappaB activity in the mouse macrophage cell line , RAW 264.7 .", "event": "<extra_id_0> <extra_id_1>"}
+{"text": "RAW 264.7 cells were transfected with either the NF-kappaB-SEAP reporter or control pTAL-SEAP construct .", "event": "<extra_id_0> <extra_id_1>"}
+{"text": "As shown in Figure 1C , M-CSF treatment of RAW 264.7 cells increased <extra_id_0> NF-kappaB <extra_id_2> Protein <extra_id_1> reporter activity by 2.5-fold over that of non-treated cells .", "event": "<extra_id_0> <extra_id_0> Positive_regulation increased <extra_id_1> <extra_id_0> Theme activity <extra_id_1> <extra_id_0> Positive_regulation activity <extra_id_1> <extra_id_0> Theme NF-kappaB <extra_id_1> <extra_id_1>"}
+{"text": "Together , our data demonstrate that M-CSF induced NF-kappaB transcriptional activity in macrophages .", "event": "<extra_id_0> <extra_id_1>"}

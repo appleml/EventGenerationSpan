@@ -1,0 +1,76 @@
+Statistical	JJ	B-NP	O	Other	No	No	Other	Other	###	1	Statistical	Statistical	JJ	JJ	_	2	amod	_	_
+Analysis	NN	I-NP	O	Other	No	No	Other	Other	###	2	Analysis	Analysis	NN	NN	_	0	root	_	_
+
+The	DT	B-NP	O	Other	No	No	Other	Other	###	1	The	The	DT	DT	_	3	det	_	_
+experimental	JJ	I-NP	O	Other	No	No	Other	Other	###	2	experimental	experimental	JJ	JJ	_	3	amod	_	_
+results	NNS	I-NP	O	Other	No	No	Other	Other	###	3	results	results	NNS	NNS	_	9	nsubjpass	_	_
+obtained	VBN	B-VP	O	Other	No	No	Other	Other	###	4	obtained	obtained	VBN	VBN	_	3	acl	_	_
+in	IN	B-PP	O	Other	No	No	Other	Other	###	5	in	in	IN	IN	_	7	case	_	_
+this	DT	B-NP	O	Other	No	No	Other	Other	###	6	this	this	DT	DT	_	7	det	_	_
+study	NN	I-NP	O	Other	No	No	Other	Other	###	7	study	study	NN	NN	_	4	nmod	_	_
+were	VBD	B-VP	O	Other	No	No	Other	Other	###	8	were	were	VBD	VBD	_	9	auxpass	_	_
+derived	VBN	I-VP	O	Other	No	No	Other	Other	###	9	derived	derived	VBN	VBN	_	0	root	_	_
+from	IN	B-PP	O	Other	No	No	Other	Other	###	10	from	from	IN	IN	_	13	case	_	_
+four	CD	B-NP	O	Other	No	No	Other	Other	###	11	four	four	CD	CD	_	13	nummod	_	_
+separate	JJ	I-NP	O	Other	No	No	Other	Other	###	12	separate	separate	JJ	JJ	_	13	amod	_	_
+experiments	NNS	I-NP	O	Other	No	No	Other	Other	###	13	experiments	experiments	NNS	NNS	_	9	nmod	_	_
+with	IN	B-PP	O	Other	No	No	Other	Other	###	14	with	with	IN	IN	_	17	case	_	_
+healthy	JJ	B-NP	O	Other	No	No	Other	Other	###	15	healthy	healthy	JJ	JJ	_	17	amod	_	_
+volunteer	NN	I-NP	O	Other	No	No	Other	Other	###	16	volunteer	volunteer	NN	NN	_	17	compound	_	_
+donors	NNS	I-NP	O	Other	No	No	Other	Other	###	17	donors	donors	NNS	NNS	_	13	nmod	_	_
+.	.	O	O	Other	No	No	Other	Other	###	18	.	.	.	.	_	9	punct	_	_
+
+Each	DT	B-NP	O	Other	No	No	Other	Other	###	1	Each	Each	DT	DT	_	2	det	_	_
+assay	NN	I-NP	O	Other	No	No	Other	Other	###	2	assay	assay	NN	NN	_	4	nsubjpass	_	_
+was	VBD	B-VP	O	Other	No	No	Other	Other	###	3	was	was	VBD	VBD	_	4	auxpass	_	_
+performed	VBN	I-VP	O	Other	No	No	Other	Other	###	4	performed	performed	VBN	VBN	_	0	root	_	_
+in	IN	B-PP	O	Other	No	No	Other	Other	###	5	in	in	IN	IN	_	6	case	_	_
+duplicate	NN	B-NP	O	Other	No	No	Other	Other	###	6	duplicate	duplicate	NN	NN	_	4	nmod	_	_
+or	CC	O	O	Other	No	No	Other	Other	###	7	or	or	CC	CC	_	6	cc	_	_
+triplicate	VB	B-VP	O	Other	No	No	Other	Other	###	8	triplicate	triplicate	VB	VB	_	6	conj	_	_
+where	WRB	B-ADVP	O	Other	No	No	Other	Other	###	9	where	where	WRB	WRB	_	10	advmod	_	_
+appropriate	JJ	B-ADJP	O	Other	No	No	Other	Other	###	10	appropriate	appropriate	JJ	JJ	_	6	acl:relcl	_	_
+.	.	O	O	Other	No	No	Other	Other	###	11	.	.	.	.	_	4	punct	_	_
+
+Data	NN	B-NP	O	Other	No	No	Other	Other	###	1	Data	Data	NN	NN	_	3	nsubjpass	_	_
+is	VBZ	B-VP	O	Other	No	No	Other	Other	###	2	is	is	VBZ	VBZ	_	3	auxpass	_	_
+presented	VBN	I-VP	O	Other	No	No	Other	Other	###	3	presented	presented	VBN	VBN	_	0	root	_	_
+as	IN	B-PP	O	Other	No	No	Other	Other	###	4	as	as	IN	IN	_	6	case	_	_
+the	DT	B-NP	O	Other	No	No	Other	Other	###	5	the	the	DT	DT	_	6	det	_	_
+mean	NN	I-NP	O	Other	No	No	Other	Other	###	6	mean	mean	NN	NN	_	3	nmod	_	_
++/-	SYM	B-NP	O	Other	No	No	Other	Other	###	7	+/-	+/-	SYM	SYM	_	6	cc	_	_
+SEM	NN	I-NP	O	Other	No	No	Other	Other	###	8	SEM	SEM	NN	NN	_	6	conj	_	_
+.	.	O	O	Other	No	No	Other	Other	###	9	.	.	.	.	_	3	punct	_	_
+
+Statistical	JJ	B-NP	O	Other	No	No	Other	Other	###	1	Statistical	Statistical	JJ	JJ	_	2	amod	_	_
+differences	NNS	I-NP	O	Other	No	No	Other	Other	###	2	differences	differences	NNS	NNS	_	6	nsubjpass	_	_
+between	IN	B-PP	O	Other	No	No	Other	Other	###	3	between	between	IN	IN	_	4	case	_	_
+groups	NNS	B-NP	O	Other	No	No	Other	Other	###	4	groups	groups	NNS	NNS	_	2	nmod	_	_
+were	VBD	B-VP	O	Other	No	No	Other	Other	###	5	were	were	VBD	VBD	_	6	auxpass	_	_
+determined	VBN	I-VP	O	Other	No	No	Other	Other	###	6	determined	determined	VBN	VBN	_	0	root	_	_
+by	IN	B-PP	O	Other	No	No	Other	Other	###	7	by	by	IN	IN	_	11	case	_	_
+one	JJ	B-NP	O	Other	No	No	Other	Other	###	8	one	one	JJ	JJ	_	11	nummod	_	_
+-	-	O	O	Other	No	No	Other	Other	###	9	-	-	-	-	_	11	punct	_	_
+way	JJ	B-NP	O	Other	No	No	Other	Other	###	10	way	way	JJ	JJ	_	11	amod	_	_
+analysis	NN	I-NP	O	Other	No	No	Other	Other	###	11	analysis	analysis	NN	NN	_	6	nmod	_	_
+of	IN	B-PP	O	Other	No	No	Other	Other	###	12	of	of	IN	IN	_	13	case	_	_
+variance	NN	B-NP	O	Other	No	No	Other	Other	###	13	variance	variance	NN	NN	_	11	nmod	_	_
+(	(	O	O	Other	No	No	Other	Other	###	14	(	(	(	(	_	15	punct	_	_
+ANOVA	NN	B-NP	O	Other	No	No	Other	Other	###	15	ANOVA	ANOVA	NN	NN	_	13	appos	_	_
+)	)	O	O	Other	No	No	Other	Other	###	16	)	)	)	)	_	15	punct	_	_
+with	IN	B-PP	O	Other	No	No	Other	Other	###	17	with	with	IN	IN	_	20	case	_	_
+a	DT	B-NP	O	Other	No	No	Other	Other	###	18	a	a	DT	DT	_	20	det	_	_
+Bonferroni	NNP	I-NP	O	Other	No	No	Other	Other	###	19	Bonferroni	Bonferroni	NNP	NNP	_	20	compound	_	_
+correction	NN	I-NP	O	Other	No	No	Other	Other	###	20	correction	correction	NN	NN	_	11	nmod	_	_
+.	.	O	O	Other	No	No	Other	Other	###	21	.	.	.	.	_	6	punct	_	_
+
+Statistical	JJ	B-NP	O	Other	No	No	Other	Other	###	1	Statistical	Statistical	JJ	JJ	_	2	amod	_	_
+significance	NN	I-NP	O	Other	No	No	Other	Other	###	2	significance	significance	NN	NN	_	4	nsubjpass	_	_
+was	VBD	B-VP	O	Other	No	No	Other	Other	###	3	was	was	VBD	VBD	_	4	auxpass	_	_
+defined	VBN	I-VP	O	Other	No	No	Other	Other	###	4	defined	defined	VBN	VBN	_	0	root	_	_
+as	IN	B-PP	O	Other	No	No	Other	Other	###	5	as	as	IN	IN	_	7	case	_	_
+P	NN	B-NP	O	Other	No	No	Other	Other	###	6	P	P	NN	NN	_	7	compound	_	_
+<	SYM	B-VP	O	Other	No	No	Other	Other	###	7	<	<	SYM	SYM	_	4	nmod	_	_
+0.05	CD	B-NP	O	Other	No	No	Other	Other	###	8	0.05	0.05	CD	CD	_	7	nummod	_	_
+.	.	O	O	Other	No	No	Other	Other	###	9	.	.	.	.	_	4	punct	_	_
+

@@ -1,0 +1,80 @@
+Active suppression of the class II transactivator-encoding AIR-1 locus is responsible for the lack of major histocompatibility complex class II gene expression observed during differentiation from B cells to plasma cells.
+# T1 Protein S1 26 49 26 49 class II transactivator
+$ T1 Protein S1 26 49 26 49 class II transactivator
+@ T12 Positive_regulation S1 0 6 0 6 Active
+@ T13 Negative_regulation S1 7 18 7 18 suppression
+% E1 Positive_regulation:T12 Theme:E2
+% E2 Negative_regulation:T13 Theme:T1
+
+In this study the genetic control of major histocompatibility complex (MHC) class II gene expression during the transition from B cell to plasma cell has been analyzed.
+
+Class II molecules are not expressed in plasma cells because of an active suppression resulting in the abrogation of class II gene transcription.
+
+We show here that the plasma cell-specific repressor function, designated SIR (suppressor of immune response genes), does not act directly on the transcription of class II genes, but instead on the transcription of the AIR-1 gene, whose product, the class II transactivator (CIITA), is fundamental for the regulation of the constitutive and inducible expression of MHC class II genes.
+# T2 Protein S4 250 273 788 811 class II transactivator
+# T3 Protein S4 275 280 813 818 CIITA
+$ T3 Protein S4 275 280 813 818 CIITA
+@ T14 Negative_regulation S4 126 129 664 667 act
+@ T15 Transcription S4 198 211 736 749 transcription
+% E3 Negative_regulation:T14 Theme:E4
+% E4 Transcription:T15 Theme:T3
+
+This was unambiguously demonstrated by the fact that plasmacytoma x B cell hybrids carrying an AIR-1 locus derived from CIITA-expressing cells do not express CIITA-specific transcripts.
+# T4 Protein S5 120 125 1043 1048 CIITA
+# T5 Protein S5 158 163 1081 1086 CIITA
+$ T5 Protein S5 158 163 1081 1086 CIITA
+@ T16 Positive_regulation S5 150 157 1073 1080 express
+@ T17 Transcription S5 173 184 1096 1107 transcripts
+% E5 Positive_regulation:T16 Theme:E6
+% E6 Transcription:T17 Theme:T5
+
+Transfection of a cDNA containing the human CIITA coding sequence under the control of an heterologous promoter restores expression of human MHC class II genes in the hybrids and is responsible for de novo expression of mouse MHC class II genes in both the mouse plasmacytoma cell line and the hybrids.
+# T6 Protein S6 44 49 1153 1158 CIITA
+$ T6 Protein S6 44 49 1153 1158 CIITA
+@ T18 Gene_expression S6 0 12 1109 1121 Transfection
+@ T19 Positive_regulation S6 0 12 1109 1121 Transfection
+@ T20 Regulation S6 66 83 1175 1192 under the control
+% E7 Gene_expression:T18 Theme:T6
+% E8 Positive_regulation:T19 Theme:E9
+% E9 Regulation:T20 Theme:E7
+
+These results confirm and extend the notion of the functional conservation of the AIR-1 gene product across species barriers.
+
+Interestingly, in CIITA-transfected cell hybrids, cell surface expression of the human HLA-DQ heterodimer was not observed.
+# T7 Protein S8 18 23 1556 1561 CIITA
+$ T7 Protein S8 18 23 1556 1561 CIITA
+@ T21 Positive_regulation S8 24 35 1562 1573 transfected
+@ T22 Gene_expression S8 24 35 1562 1573 transfected
+% E10 Positive_regulation:T21 Theme:E11
+% E11 Gene_expression:T22 Theme:T7
+
+This result was not attributable to lack of HLA-DQ alpha or -DQ beta transcription, because both transcripts were present in the CIITA-transfected hybrids, although at reduced levels.
+# T8 Protein S9 44 56 1706 1718 HLA-DQ alpha
+# T9 Protein S9 60 68 1722 1730 -DQ beta
+# T10 Protein S9 129 134 1791 1796 CIITA
+$ T8 Protein S9 44 56 1706 1718 HLA-DQ alpha
+$ T9 Protein S9 60 68 1722 1730 -DQ beta
+$ T10 Protein S9 129 134 1791 1796 CIITA
+@ T23 Regulation S9 20 32 1682 1694 attributable
+@ T24 Negative_regulation S9 36 40 1698 1702 lack
+@ T25 Transcription S9 69 82 1731 1744 transcription
+@ T26 Gene_expression S9 114 121 1776 1783 present
+@ T27 Positive_regulation S9 135 146 1797 1808 transfected
+@ T28 Gene_expression S9 135 146 1797 1808 transfected
+@ T29 Negative_regulation S9 168 182 1830 1844 reduced levels
+% E12 Regulation:T23 Theme:E14
+% E13 Regulation:T23 Theme:E15
+% E14 Negative_regulation:T24 Theme:E17
+% E15 Negative_regulation:T24 Theme:E16
+% E16 Transcription:T25 Theme:T8
+% E17 Transcription:T25 Theme:T9
+% E18 Gene_expression:T26 Theme:T8
+% E19 Gene_expression:T26 Theme:T9
+% E20 Positive_regulation:T27 Theme:E21
+% E21 Gene_expression:T28 Theme:T10
+% E22 Negative_regulation:T29 Theme:E17 Cause:E20
+% E23 Negative_regulation:T29 Theme:E16 Cause:E20
+
+These findings further support our previous observations on the distinct regulation of expression of the human HLA-DQ class II subset, which may be thus controlled at the posttranscriptional level by a CIITA-independent mechanism.
+# T11 Protein S10 202 207 2048 2053 CIITA
+

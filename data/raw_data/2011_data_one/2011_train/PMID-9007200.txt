@@ -1,0 +1,93 @@
+V3 loop of human immunodeficiency virus type 1 suppresses interleukin 2-induced T cell growth [published erratum appears in AIDS Res Hum Retroviruses 1997 May 1;13(7):633]
+# T1 Protein S1 58 71 58 71 interleukin 2
+
+We tested the effect of three linear or two loop peptides derived from the V3 region of the HTLV-III BH10 clone or the SF2 strain of human immunodeficiency virus type 1 on IL-2-driven T cell proliferation.
+# T2 Protein S2 172 176 345 349 IL-2
+
+V3-BH10, which consists of 42 amino acids and has a loop structure, suppressed IL-2-driven proliferation of all IL-2-dependent cells [Kit225, ED-40515(+), KT-3, 7-day PHA-blasts, and fresh peripheral blood mononuclear cells] tested, whereas it did not suppress the cell growth of IL-2-independent cell lines (Hut102, Molt-4, and Jurkat).
+# T3 Protein S3 79 83 458 462 IL-2
+# T4 Protein S3 112 116 491 495 IL-2
+# T5 Protein S3 280 284 659 663 IL-2
+
+This suppressive effect was also seen in IL-2-driven cell growth of CD8-positive lymphocytes purified from 7-day PHA-blasts, indicating that CD4 molecules were not required for the suppression.
+# T6 Protein S4 41 45 758 762 IL-2
+# T7 Protein S4 141 144 858 861 CD4
+
+The treatment with anti-V3 loop monoclonal antibody (902 antibody) completely abolished the suppressive effect of V3-BH10.
+
+In addition, V3-BH10 generated the arrest of Kit225 cells and also purified CD8-positive lymphocytes in G1 phase in the presence of IL-2.
+# T8 Protein S6 132 136 1166 1170 IL-2
+
+Neither chromatin condensation nor DNA fragmentation was detected in Kit225 cells cultured with V3-BH10 and IL-2.
+# T9 Protein S7 108 112 1280 1284 IL-2
+
+V3-BH10 neither blocked radiolabeled IL-2 binding to IL-2 receptors nor affected tyrosyl phosphorylation of several cellular proteins (p120, p98, p96, p54, and p38), which is immediately induced by IL-2 stimulation.
+# T10 Protein S8 37 41 1323 1327 IL-2
+# T11 Protein S8 135 139 1421 1425 p120
+# T12 Protein S8 141 144 1427 1430 p98
+# T13 Protein S8 146 149 1432 1435 p96
+# T14 Protein S8 151 154 1437 1440 p54
+# T15 Protein S8 160 163 1446 1449 p38
+# T16 Protein S8 198 202 1484 1488 IL-2
+$ T10 Protein S8 37 41 1323 1327 IL-2
+$ T11 Protein S8 135 139 1421 1425 p120
+$ T12 Protein S8 141 144 1427 1430 p98
+$ T13 Protein S8 146 149 1432 1435 p96
+$ T15 Protein S8 160 163 1446 1449 p38
+$ T14 Protein S8 151 154 1437 1440 p54
+$ T16 Protein S8 198 202 1484 1488 IL-2
+@ T24 Negative_regulation S8 16 23 1302 1309 blocked
+@ T25 Binding S8 42 49 1328 1335 binding
+@ T26 Regulation S8 72 80 1358 1366 affected
+@ T27 Entity S8 81 88 1367 1374 tyrosyl
+@ T28 Phosphorylation S8 89 104 1375 1390 phosphorylation
+@ T29 Positive_regulation S8 187 194 1473 1480 induced
+% E1 Negative_regulation:T24 Theme:E2
+% E2 Binding:T25 Theme:T10
+% E3 Regulation:T26 Theme:E16
+% E4 Regulation:T26 Theme:E15
+% E5 Regulation:T26 Theme:E17
+% E6 Regulation:T26 Theme:E13
+% E7 Regulation:T26 Theme:E14
+% E8 Phosphorylation:T28 Theme:T11 Site:T27
+% E9 Phosphorylation:T28 Theme:T12 Site:T27
+% E10 Phosphorylation:T28 Theme:T13 Site:T27
+% E11 Phosphorylation:T28 Theme:T15 Site:T27
+% E12 Phosphorylation:T28 Theme:T14 Site:T27
+% E13 Positive_regulation:T29 Theme:E9 Cause:T16
+% E14 Positive_regulation:T29 Theme:E10 Cause:T16
+% E15 Positive_regulation:T29 Theme:E11 Cause:T16
+% E16 Positive_regulation:T29 Theme:E12 Cause:T16
+% E17 Positive_regulation:T29 Theme:E8 Cause:T16
+
+However, V3-BH10 enhanced IL-2-induced mRNA expression of c-fos but not c-myc or junB.
+# T17 Protein S9 26 30 1528 1532 IL-2
+# T18 Protein S9 58 63 1560 1565 c-fos
+# T19 Protein S9 72 77 1574 1579 c-myc
+# T20 Protein S9 81 85 1583 1587 junB
+$ T17 Protein S9 26 30 1528 1532 IL-2
+$ T19 Protein S9 72 77 1574 1579 c-myc
+$ T18 Protein S9 58 63 1560 1565 c-fos
+$ T20 Protein S9 81 85 1583 1587 junB
+@ T30 Positive_regulation S9 17 25 1519 1527 enhanced
+@ T31 Positive_regulation S9 31 38 1533 1540 induced
+@ T32 Transcription S9 39 54 1541 1556 mRNA expression
+% E18 Positive_regulation:T30 Theme:E23
+% E19 Positive_regulation:T30 Theme:E21
+% E20 Positive_regulation:T30 Theme:E22
+% E21 Positive_regulation:T31 Theme:E25 Cause:T17
+% E22 Positive_regulation:T31 Theme:E24 Cause:T17
+% E23 Positive_regulation:T31 Theme:E26 Cause:T17
+% E24 Transcription:T32 Theme:T19
+% E25 Transcription:T32 Theme:T18
+% E26 Transcription:T32 Theme:T20
+
+Thus, the binding of V3 loop of gp120 to the cell surface molecule(s) appears to affect intracellular IL-2 signaling, which leads to the suppression of IL-2-induced T cell growth.
+# T21 Protein S10 32 37 1621 1626 gp120
+# T22 Protein S10 102 106 1691 1695 IL-2
+# T23 Protein S10 152 156 1741 1745 IL-2
+$ T21 Protein S10 32 37 1621 1626 gp120
+@ T33 Binding S10 10 17 1599 1606 binding
+@ T34 Entity S10 21 28 1610 1617 V3 loop
+% E27 Binding:T33 Theme:T21 Site:T34
+

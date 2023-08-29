@@ -1,0 +1,30 @@
+Upregulation of IL-1Ra in the Tumor and Spleen of CCR5-/- Mice
+# T1 Protein S1 16 22 16 22 IL-1Ra
+# T2 Protein S1 50 54 50 54 CCR5
+
+To investigate the difference in the cytokine levels between the tumor and spleen tissues of the CCR5+/+ and CCR5-/- mice, we conducted a cytokine array assay using a Mouse Proteome Array (Figure 4A).
+# T3 Protein S2 97 101 160 164 CCR5
+# T4 Protein S2 109 113 172 176 CCR5
+
+Among 40 tested cytokines, the levels of IL-1Ra, MIG, MIP-1alpha increased about 686, 9 and 25-fold respectively, in CCR5-/- mice compared to CCR5+/+ mice.
+# T5 Protein S3 41 47 305 311 IL-1Ra
+# T6 Protein S3 49 52 313 316 MIG
+# T7 Protein S3 54 64 318 328 MIP-1alpha
+# T8 Protein S3 117 121 381 385 CCR5
+# T9 Protein S3 142 146 406 410 CCR5
+
+Using this technique, no other cytokines were found to be different between the CCR5-/- mice and the CCR5+/+ mice (Figure 4B).
+# T10 Protein S4 80 84 500 504 CCR5
+# T11 Protein S4 101 105 521 525 CCR5
+
+Similar altered cytokine levels were found in the spleens of CCR5-/- mice (Figure 4C).
+# T12 Protein S5 61 65 608 612 CCR5
+
+Since the IL-1Ra level was the most significantly elevated, the expression of IL-1Ra in tumor and spleen tissues was analyzed by immunofluorescence and western blotting.
+# T13 Protein S6 10 16 644 650 IL-1Ra
+# T14 Protein S6 78 84 712 718 IL-1Ra
+
+The expression of IL-1Ra was upregulated in tumor and spleen tissues of the CCR5-/- mice (Figure 4D-G).
+# T15 Protein S7 18 24 822 828 IL-1Ra
+# T16 Protein S7 76 80 880 884 CCR5
+

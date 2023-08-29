@@ -1,0 +1,68 @@
+Regulation of Fas ligand expression and cell death by apoptosis-linked gene 4.
+# T1 Protein S1 14 24 14 24 Fas ligand
+# T2 Protein S1 54 77 54 77 apoptosis-linked gene 4
+$ T2 Protein S1 54 77 54 77 apoptosis-linked gene 4
+$ T1 Protein S1 14 24 14 24 Fas ligand
+@ T14 Regulation S1 0 10 0 10 Regulation
+@ T15 Gene_expression S1 25 35 25 35 expression
+% E1 Regulation:T14 Theme:E2 Cause:T2
+% E2 Gene_expression:T15 Theme:T1
+
+Programmed cell death is a process required for the normal development of an organism.
+
+One of the best understood apoptotic pathways occurs in T lymphocytes and is mediated by Fas/Fas ligand (FasL) interaction.
+# T3 Protein S3 89 92 256 259 Fas
+# T4 Protein S3 93 103 260 270 Fas ligand
+# T5 Protein S3 105 109 272 276 FasL
+$ T3 Protein S3 89 92 256 259 Fas
+$ T5 Protein S3 105 109 272 276 FasL
+@ T16 Binding S3 111 122 278 289 interaction
+% E3 Binding:T16 Theme:T3 Theme2:T5
+
+During studies of apoptosis induced by T cell-receptor engagement, we identified ALG-4F, a truncated transcript that prevents T cell-receptor-induced FasL upregulation and cell death.
+# T6 Protein S4 150 154 441 445 FasL
+$ T6 Protein S4 150 154 441 445 FasL
+@ T17 Negative_regulation S4 117 125 408 416 prevents
+@ T18 Positive_regulation S4 142 149 433 440 induced
+@ T19 Positive_regulation S4 155 167 446 458 upregulation
+% E4 Negative_regulation:T17 Theme:E5
+% E5 Positive_regulation:T18 Theme:E6
+% E6 Positive_regulation:T19 Theme:T6
+
+Overexpression of full-length ALG-4 induced transcription of FasL and, consequently, apoptosis.
+# T7 Protein S5 30 35 505 510 ALG-4
+# T8 Protein S5 61 65 536 540 FasL
+$ T7 Protein S5 30 35 505 510 ALG-4
+$ T8 Protein S5 61 65 536 540 FasL
+@ T20 Positive_regulation S5 0 14 475 489 Overexpression
+@ T21 Gene_expression S5 0 14 475 489 Overexpression
+@ T22 Positive_regulation S5 36 43 511 518 induced
+@ T23 Transcription S5 44 57 519 532 transcription
+% E7 Positive_regulation:T20 Theme:E8
+% E8 Gene_expression:T21 Theme:T7
+% E9 Positive_regulation:T22 Theme:E10 Cause:E7
+% E10 Transcription:T23 Theme:T8
+
+These results indicate that ALG-4 is necessary and sufficient for FasL expression.
+# T9 Protein S6 28 33 599 604 ALG-4
+# T10 Protein S6 66 70 637 641 FasL
+$ T9 Protein S6 28 33 599 604 ALG-4
+$ T10 Protein S6 66 70 637 641 FasL
+@ T24 Positive_regulation S6 37 61 608 632 necessary and sufficient
+@ T25 Gene_expression S6 71 81 642 652 expression
+% E11 Positive_regulation:T24 Theme:E12 Cause:T9
+% E12 Gene_expression:T25 Theme:T10
+
+Fas/FasL interaction initiates cell death in many other systems, and its dysregulation is a mechanism by which several pathologic conditions arise.
+# T11 Protein S7 0 3 654 657 Fas
+# T12 Protein S7 4 8 658 662 FasL
+$ T11 Protein S7 0 3 654 657 Fas
+$ T12 Protein S7 4 8 658 662 FasL
+@ T26 Binding S7 9 20 663 674 interaction
+@ T27 Regulation S7 73 86 727 740 dysregulation
+% E13 Binding:T26 Theme:T11 Theme2:T12
+% E14 Regulation:T27 Theme:E13
+
+Understanding the molecular mechanisms of FasL regulation could be very useful in elucidating how these diseases develop and in identifying potential therapeutic targets.
+# T13 Protein S8 42 46 844 848 FasL
+

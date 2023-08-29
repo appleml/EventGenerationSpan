@@ -1,0 +1,45 @@
+In Vivo Treatment of Mice with IL-4 Antibody-Cytokine Complexes
+# T1 Protein S1 31 35 31 35 IL-4
+
+B6 mice were given every other day ip injections of phosphate-buffered saline (PBS), recombinant mouse IL-4 (rmIL-4), anti-IL-4 mAb (anti-IL-4 mAb, 11B11, or MAB404), or a mixture of rmIL-4 plus anti-IL-4 mAbs (11B11 or MAB404).
+# T2 Protein S2 103 107 167 171 IL-4
+# T3 Protein S2 123 127 187 191 IL-4
+# T4 Protein S2 138 142 202 206 IL-4
+# T5 Protein S2 200 204 264 268 IL-4
+
+Mice were analyzed on day 7 by flow cytometry for CD3, CD4, and CD25 expression.
+# T6 Protein S3 50 53 343 346 CD3
+# T7 Protein S3 55 58 348 351 CD4
+# T8 Protein S3 64 68 357 361 CD25
+$ T6 Protein S3 50 53 343 346 CD3
+$ T7 Protein S3 55 58 348 351 CD4
+$ T8 Protein S3 64 68 357 361 CD25
+@ T18 Gene_expression S3 69 79 362 372 expression
+% E1 Gene_expression:T18 Theme:T6
+% E2 Gene_expression:T18 Theme:T7
+% E3 Gene_expression:T18 Theme:T8
+
+Shown is CD25 versus CD4 expression in CD3+ CD4+ spleen cells (A-F).
+# T9 Protein S4 9 13 383 387 CD25
+# T10 Protein S4 21 24 395 398 CD4
+# T11 Protein S4 39 42 413 416 CD3
+# T12 Protein S4 44 47 418 421 CD4
+$ T9 Protein S4 9 13 383 387 CD25
+$ T10 Protein S4 21 24 395 398 CD4
+@ T19 Gene_expression S4 25 35 399 409 expression
+% E4 Gene_expression:T19 Theme:T9
+% E5 Gene_expression:T19 Theme:T10
+
+Numbers indicate percentages of CD4+ CD25high CD3+ cells.
+# T13 Protein S5 32 35 475 478 CD4
+# T14 Protein S5 37 41 480 484 CD25
+# T15 Protein S5 46 49 489 492 CD3
+
+Total cell counts (G) of CD4+ CD25high cells in spleen from mice in (A-F) are shown as mean +/- SD.
+# T16 Protein S6 25 28 526 529 CD4
+# T17 Protein S6 30 34 531 535 CD25
+
+The data are representative of three independent experiments.
+
+(369 KB AI).
+

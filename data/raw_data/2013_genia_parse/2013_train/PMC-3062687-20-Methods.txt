@@ -1,0 +1,42 @@
+Chromatin	NN	B-NP	B-DNA	Other	No	No	Other	Other	###	1	Chromatin	Chromatin	NN	NN	_	2	compound	_	_
+Immunoprecipitation	NN	I-NP	O	Other	No	No	Other	Other	###	2	Immunoprecipitation	Immunoprecipitation	NN	NN	_	0	root	_	_
+(	(	O	O	Other	No	No	Other	Other	###	3	(	(	(	(	_	4	punct	_	_
+ChIP	NN	B-NP	O	Other	No	No	Other	Other	###	4	ChIP	ChIP	NN	NN	_	2	appos	_	_
+)	)	O	O	Other	No	No	Other	Other	###	5	)	)	)	)	_	4	punct	_	_
+
+ChIP	NN	B-NP	O	Other	No	No	Other	Other	###	1	ChIP	ChIP	NN	NN	_	2	compound	_	_
+assays	NNS	I-NP	O	Other	No	No	Other	Other	###	2	assays	assays	NNS	NNS	_	4	nsubjpass	_	_
+was	VBD	B-VP	O	Other	No	No	Other	Other	###	3	was	was	VBD	VBD	_	4	auxpass	_	_
+performed	VBN	I-VP	O	Other	No	No	Other	Other	###	4	performed	performed	VBN	VBN	_	0	root	_	_
+as	IN	B-PP	O	Other	No	No	Other	Other	###	5	as	as	IN	IN	_	7	case	_	_
+previously	RB	B-NP	O	Other	No	No	Other	Other	###	6	previously	previously	RB	RB	_	7	advmod	_	_
+described6	NN	I-NP	O	Other	No	No	Other	Other	###	7	described6	described6	NN	NN	_	4	nmod	_	_
+.	.	O	O	Other	No	No	Other	Other	###	8	.	.	.	.	_	4	punct	_	_
+
+The	DT	B-NP	O	Other	No	No	Other	Other	###	1	The	The	DT	DT	_	2	det	_	_
+primers	NNS	I-NP	O	Other	No	No	Other	Other	###	2	primers	primers	NNS	NNS	_	25	nsubjpass	_	_
+used	VBN	B-VP	O	Other	No	No	Other	Other	###	3	used	used	VBN	VBN	_	2	acl	_	_
+to	TO	B-VP	O	Other	No	No	Other	Other	###	4	to	to	TO	TO	_	5	mark	_	_
+amplify	VB	I-VP	O	Other	No	No	Other	Other	###	5	amplify	amplify	VB	VB	_	3	xcomp	_	_
+the	DT	B-NP	O	Other	No	No	Other	Other	###	6	the	the	DT	DT	_	8	det	_	_
+promoter	NN	I-NP	B-DNA	Other	No	No	Other	Other	###	7	promoter	promoter	NN	NN	_	8	compound	_	_
+region	NN	I-NP	I-DNA	Other	No	No	Other	Other	###	8	region	region	NN	NN	_	5	dobj	_	_
+adjacent	JJ	B-ADJP	O	Other	No	No	Other	Other	###	9	adjacent	adjacent	JJ	JJ	_	8	amod	_	_
+to	TO	B-PP	O	Other	No	No	Other	Other	###	10	to	to	TO	TO	_	13	case	_	_
+the	DT	B-NP	O	Other	No	No	Other	Other	###	11	the	the	DT	DT	_	13	det	_	_
+kappaB	NN	I-NP	B-DNA	Other	No	No	Other	Other	###	12	kappaB	kappaB	NN	NN	_	13	compound	_	_
+sites	NNS	I-NP	I-DNA	Other	No	No	Other	Other	###	13	sites	sites	NNS	NNS	_	9	nmod	_	_
+of	IN	B-PP	O	Other	No	No	Other	Other	###	14	of	of	IN	IN	_	15	case	_	_
+IL8	NN	B-NP	B-protein	B-Protein	No	No	Other	Other	###	15	IL8	IL8	NN	NN	_	13	nmod	_	_
+and	CC	I-NP	O	Other	No	No	Other	Other	###	16	and	and	CC	CC	_	15	cc	_	_
+NFKBIA	NN	I-NP	B-protein	B-Protein	No	No	Other	Other	###	17	NFKBIA	NFKBIA	NN	NN	_	15	conj	_	_
+,	,	O	O	Other	No	No	Other	Other	###	18	,	,	,	,	_	8	punct	_	_
+as	RB	B-CONJP	O	Other	No	No	Other	Other	###	19	as	as	RB	RB	_	15	cc	_	_
+well	RB	I-CONJP	O	Other	No	No	Other	Other	###	20	well	well	RB	RB	_	19	mwe	_	_
+as	IN	I-CONJP	O	Other	No	No	Other	Other	###	21	as	as	IN	IN	_	19	mwe	_	_
+ACTB	NN	B-NP	B-protein	B-Protein	No	No	Other	Other	###	22	ACTB	ACTB	NN	NN	_	15	conj	_	_
+have	VBP	B-VP	O	Other	No	No	Other	Other	###	23	have	have	VBP	VBP	_	25	aux	_	_
+been	VBN	I-VP	O	Other	No	No	Other	Other	###	24	been	been	VBN	VBN	_	25	auxpass	_	_
+described6	NN	B-NP	O	Other	No	No	Other	Other	###	25	described6	described6	NN	NN	_	0	root	_	_
+.	.	O	O	Other	No	No	Other	Other	###	26	.	.	.	.	_	25	punct	_	_
+

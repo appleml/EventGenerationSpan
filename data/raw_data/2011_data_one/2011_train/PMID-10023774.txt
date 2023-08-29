@@ -1,0 +1,50 @@
+RFLAT-1: a new zinc finger transcription factor that activates RANTES gene expression in T lymphocytes.
+# T1 Protein S1 0 7 0 7 RFLAT-1
+# T2 Protein S1 63 69 63 69 RANTES
+$ T1 Protein S1 0 7 0 7 RFLAT-1
+$ T2 Protein S1 63 69 63 69 RANTES
+@ T13 Positive_regulation S1 53 62 53 62 activates
+@ T14 Gene_expression S1 75 85 75 85 expression
+% E1 Positive_regulation:T13 Theme:E2 Cause:T1
+% E2 Gene_expression:T14 Theme:T2
+
+RANTES (Regulated upon Activation, Normal T cell Expressed and Secreted) is a chemoattractant cytokine (chemokine) important in the generation of inflammatory infiltrate and human immunodeficiency virus entry into immune cells.
+# T3 Protein S2 0 6 105 111 RANTES
+# T4 Protein S2 8 71 113 176 Regulated upon Activation, Normal T cell Expressed and Secreted
+
+RANTES is expressed late (3-5 days) after activation in T lymphocytes.
+# T5 Protein S3 0 6 333 339 RANTES
+$ T5 Protein S3 0 6 333 339 RANTES
+@ T15 Gene_expression S3 10 19 343 352 expressed
+% E3 Gene_expression:T15 Theme:T5
+
+Using expression cloning, we identified the first "late" T lymphocyte associated transcription factor and named it "RANTES Factor of Late Activated T Lymphocytes-1" (RFLAT-1).
+# T6 Protein S4 116 163 520 567 RANTES Factor of Late Activated T Lymphocytes-1
+# T7 Protein S4 166 173 570 577 RFLAT-1
+
+RFLAT-1 is a novel, phosphorylated, zinc finger transcription factor that is expressed in T cells 3 days after activation, coincident with RANTES expression.
+# T8 Protein S5 0 7 580 587 RFLAT-1
+# T9 Protein S5 139 145 719 725 RANTES
+$ T8 Protein S5 0 7 580 587 RFLAT-1
+$ T9 Protein S5 139 145 719 725 RANTES
+@ T16 Phosphorylation S5 20 34 600 614 phosphorylated
+@ T17 Gene_expression S5 77 86 657 666 expressed
+@ T18 Gene_expression S5 146 156 726 736 expression
+% E4 Phosphorylation:T16 Theme:T8
+% E5 Gene_expression:T17 Theme:T8
+% E6 Gene_expression:T18 Theme:T9
+
+While Rel proteins play the dominant role in RANTES gene expression in fibroblasts, RFLAT-1 is a strong transactivator for RANTES in T cells.
+# T10 Protein S6 45 51 783 789 RANTES
+# T11 Protein S6 84 91 822 829 RFLAT-1
+# T12 Protein S6 123 129 861 867 RANTES
+$ T10 Protein S6 45 51 783 789 RANTES
+$ T12 Protein S6 123 129 861 867 RANTES
+$ T11 Protein S6 84 91 822 829 RFLAT-1
+@ T19 Positive_regulation S6 28 41 766 779 dominant role
+@ T20 Gene_expression S6 57 67 795 805 expression
+@ T21 Positive_regulation S6 104 118 842 856 transactivator
+% E7 Positive_regulation:T19 Theme:E8
+% E8 Gene_expression:T20 Theme:T10
+% E9 Positive_regulation:T21 Theme:T12 Cause:T11
+

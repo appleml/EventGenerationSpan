@@ -1,0 +1,55 @@
+Degraded Carrageenan Causing Colitis in Rats Induces TNF Secretion and ICAM-1 Upregulation in Monocytes through NF-kappaB Activation
+# T1 Protein S1 53 56 53 56 TNF
+# T2 Protein S1 71 77 71 77 ICAM-1
+$ T1 Protein S1 53 56 53 56 TNF
+$ T2 Protein S1 71 77 71 77 ICAM-1
+@ T7 Positive_regulation S1 45 52 45 52 Induces
+@ T8 Localization S1 57 66 57 66 Secretion
+@ T9 Positive_regulation S1 78 90 78 90 Upregulation
+@ T10 Positive_regulation S1 104 111 104 111 through
+% E1 Positive_regulation:T7 Theme:E2
+% E3 Positive_regulation:T7 Theme:E4
+% E2 Localization:T8 Theme:T1
+% E4 Positive_regulation:T9 Theme:T2
+% E5 Positive_regulation:T10 Theme:E1
+% E6 Positive_regulation:T10 Theme:E3
+
+Carrageenan (CGN) is a high molecular weight sulphated polysaccharide derived from red seaweeds.
+
+In rodents, its degraded forms (dCGN) can induce intestinal inflammation associated with macrophage recruitment and activation.
+
+The aim of this study was: 1) to analyze the size-dependent effects of dCGN on colon inflammation in vivo, and 2) to correlate these effects with monocyte/macrophage proliferation, cytokine production and expression of various cell surface antigens including ICAM-1 adhesion molecule.
+# T3 Protein S4 259 265 617 623 ICAM-1
+# T4 Protein S4 266 283 624 641 adhesion molecule
+
+Peripheral blood monocytes (PBM) and THP-1 monocytic cells were cultured in the presence of either 10 or 40 kDa, dCGN.
+
+The 40 kDa, but not the 10 kDa dCGN, induced colitis in in vivo.
+
+Degraded CGN inhibited THP-1 cell proliferation in vitro, arresting the cells in G1 phase.
+
+In addition, dCGN increased ICAM-1 expression in both PBM and THP-1 cells with a major effect seen after 40 kDa dCGN exposure.
+# T5 Protein S8 28 34 946 952 ICAM-1
+$ T5 Protein S8 28 34 946 952 ICAM-1
+@ T11 Positive_regulation S8 18 27 936 945 increased
+@ T12 Gene_expression S8 35 45 953 963 expression
+% E7 Positive_regulation:T11 Theme:E8
+% E8 Gene_expression:T12 Theme:T5
+
+Also, dCGN stimulated monocyte aggregation in vitro that was prevented by incubation with anti-ICAM-1 antibody.
+
+Finally, dCGN stimulated TNF-alpha expression and secretion by both PBM and THP-1 cells.
+# T6 Protein S10 25 34 1182 1191 TNF-alpha
+$ T6 Protein S10 25 34 1182 1191 TNF-alpha
+@ T13 Positive_regulation S10 14 24 1171 1181 stimulated
+@ T14 Gene_expression S10 35 45 1192 1202 expression
+@ T15 Localization S10 50 59 1207 1216 secretion
+% E9 Positive_regulation:T13 Theme:E10
+% E11 Positive_regulation:T13 Theme:E12
+% E10 Gene_expression:T14 Theme:T6
+% E12 Localization:T15 Theme:T6
+
+All these effects were linked to NF-kappaB activation.
+
+These data strongly suggest that the degraded forms of CGN have a pronounced effect on monocytes, characteristic of an inflammatory phenotype.
+

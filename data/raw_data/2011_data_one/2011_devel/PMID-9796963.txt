@@ -1,0 +1,143 @@
+Signal transduction abnormalities in T lymphocytes from patients with advanced renal carcinoma: clinical relevance and effects of cytokine therapy.
+
+Studies have demonstrated abnormalities of the CD3/T-cell antigen receptor (TCR) and pathways of signal transduction in T lymphocytes from animals and patients with advanced malignancy.
+
+Diminished expression of TCRzeta and p56(lck) that are associated with the TCR and reduced nuclear localization of RelA containing nuclear factor kappaB (NFkappaB) complexes have been noted.
+# T1 Protein S3 25 32 360 367 TCRzeta
+# T2 Protein S3 37 45 372 380 p56(lck)
+# T3 Protein S3 115 119 450 454 RelA
+$ T1 Protein S3 25 32 360 367 TCRzeta
+$ T2 Protein S3 37 45 372 380 p56(lck)
+$ T3 Protein S3 115 119 450 454 RelA
+@ T29 Negative_regulation S3 0 10 335 345 Diminished
+@ T30 Gene_expression S3 11 21 346 356 expression
+@ T31 Binding S3 55 65 390 400 associated
+@ T32 Negative_regulation S3 83 90 418 425 reduced
+@ T33 Entity S3 91 98 426 433 nuclear
+@ T34 Localization S3 99 111 434 446 localization
+% E1 Negative_regulation:T29 Theme:E3
+% E2 Negative_regulation:T29 Theme:E4
+% E3 Gene_expression:T30 Theme:T1
+% E4 Gene_expression:T30 Theme:T2
+% E5 Binding:T31 Theme:T2
+% E6 Binding:T31 Theme:T1
+% E7 Negative_regulation:T32 Theme:E8
+% E8 Localization:T34 Theme:T3 AtLoc:T33
+
+These defects have been described in T cells from patients with malignant melanoma, renal cell carcinoma (RCC), ovarian cancer, and colorectal cancer.
+@ T35 Negative_regulation S4 6 13 532 539 defects
+% E9 Negative_regulation:T35 Theme:E1
+% E10 Negative_regulation:T35 Theme:E2
+% E11 Negative_regulation:T35 Theme:E7
+
+Preliminary observations also indicate possible correlation with clinical variables such as stage in selected instances.
+
+To further characterize altered expression of TCRzeta, p56(lck), and impaired activation of NFkappaB, T lymphocytes were obtained from 65 patients with RCC, the majority of whom were receiving combination cytokine therapy [interleukin (IL)-2, IFN alpha-containing regimens] and 37 control individuals.
+# T4 Protein S6 46 53 844 851 TCRzeta
+# T5 Protein S6 55 63 853 861 p56(lck)
+# T6 Protein S6 223 241 1021 1039 interleukin (IL)-2
+# T7 Protein S6 243 252 1041 1050 IFN alpha
+$ T4 Protein S6 46 53 844 851 TCRzeta
+$ T5 Protein S6 55 63 853 861 p56(lck)
+@ T36 Negative_regulation S6 24 31 822 829 altered
+@ T37 Gene_expression S6 32 42 830 840 expression
+% E12 Negative_regulation:T36 Theme:E14
+% E13 Negative_regulation:T36 Theme:E15
+% E14 Gene_expression:T37 Theme:T4
+% E15 Gene_expression:T37 Theme:T5
+
+In 29 of these patients, levels of TCRzeta and p56(lck) were determined by Western blots of T-cell lysates and semiquantitated using densitometry.
+# T8 Protein S7 35 42 1135 1142 TCRzeta
+# T9 Protein S7 47 55 1147 1155 p56(lck)
+$ T9 Protein S7 47 55 1147 1155 p56(lck)
+$ T8 Protein S7 35 42 1135 1142 TCRzeta
+@ T38 Gene_expression S7 25 31 1125 1131 levels
+% E16 Gene_expression:T38 Theme:T9
+% E17 Gene_expression:T38 Theme:T8
+
+Relative levels were then correlated with a series of clinical variables including response to therapy, performance status, survival, disease sites, age, and others.
+
+In another group of 28 patients (three individuals from the first group), the frequency of abnormal NFkappaB activation was studied using electrophoretic mobility shift assays after activation of T cells with phorbol myristate acetate/ionomycin or anti-CD3 monoclonal antibody.
+
+Changes in these signaling molecules during cytokine treatment were also investigated.
+@ T39 Positive_regulation S10 0 7 1691 1698 Changes
+% E18 Positive_regulation:T39 Theme:T8
+% E19 Positive_regulation:T39 Theme:T9
+
+TCRzeta and p56(lck) were detected in the peripheral blood T cells in 27 of 29 patients, and overall, reduced levels were noted visually in 12 of 29 (41%) and 13 of 29 (45%) individuals, respectively.
+# T10 Protein S11 0 7 1778 1785 TCRzeta
+# T11 Protein S11 12 20 1790 1798 p56(lck)
+$ T10 Protein S11 0 7 1778 1785 TCRzeta
+$ T11 Protein S11 12 20 1790 1798 p56(lck)
+@ T40 Gene_expression S11 26 34 1804 1812 detected
+@ T41 Negative_regulation S11 102 109 1880 1887 reduced
+% E20 Gene_expression:T40 Theme:T10
+% E21 Gene_expression:T40 Theme:T11
+% E22 Negative_regulation:T41 Theme:E20
+
+When levels were semiquantitated using densitometry, significant decreases of TCRzeta (P = 0.029) and p56(lck) (P = 0.029) but not CD3epsilon (P = 0.131), compared with control levels, were found.
+# T12 Protein S12 78 85 2057 2064 TCRzeta
+# T13 Protein S12 102 110 2081 2089 p56(lck)
+# T14 Protein S12 131 141 2110 2120 CD3epsilon
+$ T14 Protein S12 131 141 2110 2120 CD3epsilon
+$ T13 Protein S12 102 110 2081 2089 p56(lck)
+$ T12 Protein S12 78 85 2057 2064 TCRzeta
+@ T42 Negative_regulation S12 65 74 2044 2053 decreases
+% E23 Negative_regulation:T42 Theme:T14
+% E24 Negative_regulation:T42 Theme:T13
+% E25 Negative_regulation:T42 Theme:T12
+
+In patients treated with IL-2/IFN alpha-based therapy, relative levels of TCRzeta increased significantly (P = 0.002) on day 15 of cycle one compared with the baseline.
+# T15 Protein S13 25 29 2201 2205 IL-2
+# T16 Protein S13 30 39 2206 2215 IFN alpha
+# T17 Protein S13 74 81 2250 2257 TCRzeta
+$ T17 Protein S13 74 81 2250 2257 TCRzeta
+@ T43 Positive_regulation S13 82 91 2258 2267 increased
+% E26 Positive_regulation:T43 Theme:T17
+
+Correlations of TCRzeta or p56(lck) levels with response or disease variables, except for lower TCRzeta levels (P < 0.001) in the presence of bone metastases, were not found.
+# T18 Protein S14 16 23 2361 2368 TCRzeta
+# T19 Protein S14 27 35 2372 2380 p56(lck)
+# T20 Protein S14 96 103 2441 2448 TCRzeta
+$ T20 Protein S14 96 103 2441 2448 TCRzeta
+@ T44 Negative_regulation S14 90 95 2435 2440 lower
+% E27 Negative_regulation:T44 Theme:T20
+
+Abnormal NFkappaB activation after stimulation with phorbol myristate acetate/ionomycin and/or anti-CD3 monoclonal antibody was found in 59% of patients (17 of 28) and was not accounted for by the advanced age of the study cohort.
+
+Activation of NFkappaB in peripheral blood T cells was inducible during cytokine therapy in four of six individuals who displayed impaired NFkappaB activity prior to therapy.
+
+Moreover, impaired activation of NFkappaB does not appear linked to a reduction of TCRzeta expression, because in five patients, normal TCRzeta levels were present although kappaB binding was not inducible.
+# T21 Protein S17 83 90 3009 3016 TCRzeta
+# T22 Protein S17 136 143 3062 3069 TCRzeta
+$ T21 Protein S17 83 90 3009 3016 TCRzeta
+@ T45 Negative_regulation S17 70 79 2996 3005 reduction
+@ T46 Gene_expression S17 91 101 3017 3027 expression
+% E28 Negative_regulation:T45 Theme:E29
+% E29 Gene_expression:T46 Theme:T21
+
+In the majority of patients with advanced RCC, peripheral blood T cells express TCRzeta and p56(lck), and in a subset, reduced levels of these TCRzeta associated molecules are seen that may increase during cytokine-based therapy.
+# T23 Protein S18 80 87 3213 3220 TCRzeta
+# T24 Protein S18 92 100 3225 3233 p56(lck)
+# T25 Protein S18 143 150 3276 3283 TCRzeta
+$ T24 Protein S18 92 100 3225 3233 p56(lck)
+$ T23 Protein S18 80 87 3213 3220 TCRzeta
+@ T47 Gene_expression S18 72 79 3205 3212 express
+@ T48 Negative_regulation S18 119 133 3252 3266 reduced levels
+@ T49 Positive_regulation S18 190 198 3323 3331 increase
+% E30 Gene_expression:T47 Theme:T24
+% E31 Gene_expression:T47 Theme:T23
+% E32 Negative_regulation:T48 Theme:T23
+% E33 Negative_regulation:T48 Theme:T24
+% E34 Positive_regulation:T49 Theme:E32
+% E35 Positive_regulation:T49 Theme:E33
+
+Abnormal activation of NFkappaB is also present in >50% of patients and may also revert to normal during IL-2/IFN alpha-based treatment.
+# T26 Protein S19 105 109 3468 3472 IL-2
+# T27 Protein S19 111 119 3474 3482 FN alpha
+
+This alteration in NFkappaB activation occurred in the presence of normal expression of TCRzeta-associated signaling elements.
+# T28 Protein S20 88 95 3588 3595 TCRzeta
+
+The clinical significance of these findings remains unclear.
+

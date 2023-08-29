@@ -1,0 +1,24 @@
+Akt and mTORC1 control autocrine TNFalpha synthesis and JNK activation during necroptosis.
+# T1 Protein S1 33 41 33 41 TNFalpha
+
+(A) Cells were treated under serum free conditions with bFGF or PDGF with or without zVAD.fmk for 9 hr, followed by qRT-PCR analysis of mTNFalpha.
+# T2 Protein S2 56 60 147 151 bFGF
+# T3 Protein S2 136 145 227 236 mTNFalpha
+
+Data was normalized to mouse 18S RNA.
+# T4 Protein S3 29 32 267 270 18S
+
+(B) Necroptosis was induced by zVAD.fmk or TNFalpha in cells treated with Nec-1, rapamycin (rapa), or Akt inh.
+# T5 Protein S4 43 51 319 327 TNFalpha
+
+VIII inh.
+
+followed by qRT-PCR analysis of TNFalpha mRNA levels.
+# T6 Protein S6 32 40 429 437 TNFalpha
+
+(C-F) L929 cells with siRNA knockdown of Akt isoforms (C,E) or mTOR (D,F) were stimulated with zVAD.fmk or TNFalpha for 9 hr, followed by qRT-PCR analysis of mTNFalpha (C,D) or western blot (E,F).
+# T7 Protein S7 107 115 558 566 TNFalpha
+# T8 Protein S7 158 167 609 618 mTNFalpha
+
+In all graphs, average+/-SD was plotted.
+

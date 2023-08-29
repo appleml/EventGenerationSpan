@@ -1,0 +1,181 @@
+IL-4 Inhibits TGF-beta-Mediated iTreg Commitment
+# T1 Protein S1 0 4 0 4 IL-4
+# T2 Protein S1 14 22 14 22 TGF-beta
+
+IL-4 induces differentiation of naive T cells, upon antigen encounter, into the Th2 cell lineage.
+# T3 Protein S2 0 4 49 53 IL-4
+
+We therefore asked whether IL-4 is able to inhibit TGF-beta induction of FOXP3 during the priming of naive T cells.
+# T4 Protein S3 27 31 174 178 IL-4
+# T5 Protein S3 51 59 198 206 TGF-beta
+# T6 Protein S3 73 78 220 225 FOXP3
+$ T4 Protein S3 27 31 174 178 IL-4
+$ T6 Protein S3 73 78 220 225 FOXP3
+$ T5 Protein S3 51 59 198 206 TGF-beta
+@ T60 Negative_regulation S3 43 50 190 197 inhibit
+@ T61 Positive_regulation S3 60 69 207 216 induction
+% E1 Negative_regulation:T60 Theme:E2 Cause:T4
+% E2 Positive_regulation:T61 Theme:T6 Cause:T5
+
+Human CD4+CD45RA+ T cells were activated with plate-bound anti-CD3/CD28 in the presence of TGF-beta and/or IL-4 and harvested after 5 d. IL-4 efficiently repressed the TGF-beta-mediated induction of FOXP3 expression (Figure 5A) in a concentration-dependent manner (Figure 5B).
+# T7 Protein S4 6 9 269 272 CD4
+# T8 Protein S4 10 16 273 279 CD45RA
+# T9 Protein S4 63 66 326 329 CD3
+# T10 Protein S4 67 71 330 334 CD28
+# T11 Protein S4 91 99 354 362 TGF-beta
+# T12 Protein S4 107 111 370 374 IL-4
+# T13 Protein S4 137 141 400 404 IL-4
+# T14 Protein S4 168 176 431 439 TGF-beta
+# T15 Protein S4 199 204 462 467 FOXP3
+$ T13 Protein S4 137 141 400 404 IL-4
+$ T14 Protein S4 168 176 431 439 TGF-beta
+$ T15 Protein S4 199 204 462 467 FOXP3
+@ T62 Negative_regulation S4 154 163 417 426 repressed
+@ T63 Positive_regulation S4 186 195 449 458 induction
+@ T64 Gene_expression S4 205 215 468 478 expression
+% E3 Negative_regulation:T62 Theme:E4 Cause:T13
+% E4 Positive_regulation:T63 Theme:E5 Cause:T14
+% E5 Gene_expression:T64 Theme:T15
+
+Low levels of GATA3 were induced also in the absence of IL-4, as it was previously observed [3].
+# T16 Protein S5 14 19 554 559 GATA3
+# T17 Protein S5 56 60 596 600 IL-4
+$ T16 Protein S5 14 19 554 559 GATA3
+$ T17 Protein S5 56 60 596 600 IL-4
+@ T65 Negative_regulation S5 25 32 565 572 induced
+@ T66 Negative_regulation S5 45 52 585 592 absence
+% E6 Negative_regulation:T65 Theme:T16 Cause:E7
+% E7 Negative_regulation:T66 Theme:T17
+
+However, at low concentration, IL-4 was able to marginally induce FOXP3 expression.
+# T18 Protein S6 31 35 668 672 IL-4
+# T19 Protein S6 66 71 703 708 FOXP3
+$ T18 Protein S6 31 35 668 672 IL-4
+$ T19 Protein S6 66 71 703 708 FOXP3
+@ T67 Positive_regulation S6 59 65 696 702 induce
+@ T68 Gene_expression S6 72 82 709 719 expression
+% E8 Positive_regulation:T67 Theme:E9 Cause:T18
+% E9 Gene_expression:T68 Theme:T19
+
+Of note, GATA3 was also induced in the presence of TGF-beta at high IL-4 concentration (Figure 5A and 5B).
+# T20 Protein S7 9 14 730 735 GATA3
+# T21 Protein S7 51 59 772 780 TGF-beta
+# T22 Protein S7 68 72 789 793 IL-4
+$ T20 Protein S7 9 14 730 735 GATA3
+$ T21 Protein S7 51 59 772 780 TGF-beta
+$ T22 Protein S7 68 72 789 793 IL-4
+@ T69 Positive_regulation S7 24 31 745 752 induced
+% E10 Positive_regulation:T69 Theme:T20 Cause:T21
+% E11 Positive_regulation:T69 Theme:T20 Cause:T22
+
+The IL-4-mediated prevention of FOXP3 expression was not caused by interferences of the receptor signaling, because the phosphorylation of SMAD2 or STAT6 was not affected by the addition of IL-4 and/or TGF-beta, which demonstrates that IL-4 as well as TGF-beta signaling were functional under these conditions (Figure 5C).
+# T23 Protein S8 4 8 832 836 IL-4
+# T24 Protein S8 32 37 860 865 FOXP3
+# T25 Protein S8 139 144 967 972 SMAD2
+# T26 Protein S8 148 153 976 981 STAT6
+# T27 Protein S8 190 194 1018 1022 IL-4
+# T28 Protein S8 202 210 1030 1038 TGF-beta
+# T29 Protein S8 236 240 1064 1068 IL-4
+# T30 Protein S8 252 260 1080 1088 TGF-beta
+$ T23 Protein S8 4 8 832 836 IL-4
+$ T24 Protein S8 32 37 860 865 FOXP3
+$ T25 Protein S8 139 144 967 972 SMAD2
+$ T26 Protein S8 148 153 976 981 STAT6
+$ T27 Protein S8 190 194 1018 1022 IL-4
+$ T28 Protein S8 202 210 1030 1038 TGF-beta
+@ T70 Negative_regulation S8 18 28 846 856 prevention
+@ T71 Gene_expression S8 38 48 866 876 expression
+@ T72 Positive_regulation S8 57 63 885 891 caused
+@ T73 Phosphorylation S8 120 135 948 963 phosphorylation
+@ T74 Regulation S8 162 170 990 998 affected
+% E12 Negative_regulation:T70 Theme:E13 Cause:T23
+% E13 Gene_expression:T71 Theme:T24
+% E14 Positive_regulation:T72 Theme:E12
+% E15 Phosphorylation:T73 Theme:T25
+% E16 Phosphorylation:T73 Theme:T26
+% E17 Regulation:T74 Theme:E15 Cause:T27
+% E18 Regulation:T74 Theme:E15 Cause:T28
+% E19 Regulation:T74 Theme:E16 Cause:T27
+% E20 Regulation:T74 Theme:E16 Cause:T28
+
+Increasing amounts of IL-4 increase intracellular GATA3, whereas FOXP3 decreased, which is consistent with the mRNA analysis (Figure 5D).
+# T31 Protein S9 22 26 1173 1177 IL-4
+# T32 Protein S9 50 55 1201 1206 GATA3
+# T33 Protein S9 65 70 1216 1221 FOXP3
+$ T31 Protein S9 22 26 1173 1177 IL-4
+$ T32 Protein S9 50 55 1201 1206 GATA3
+$ T33 Protein S9 65 70 1216 1221 FOXP3
+@ T75 Positive_regulation S9 0 18 1151 1169 Increasing amounts
+@ T76 Positive_regulation S9 27 35 1178 1186 increase
+@ T77 Negative_regulation S9 71 80 1222 1231 decreased
+% E21 Positive_regulation:T75 Theme:T31
+% E22 Positive_regulation:T76 Theme:T32 Cause:E21
+% E23 Negative_regulation:T77 Theme:T33 Cause:E21
+
+Furthermore, injection of IL-4 into wild-type B6 mice decreased the inducible or natural Treg number in vivo.
+# T34 Protein S10 26 30 1315 1319 IL-4
+
+A distinction of the Treg subsets is not possible, because recently activated iTreg cells also express surface CD25.
+# T35 Protein S11 111 115 1510 1514 CD25
+$ T35 Protein S11 111 115 1510 1514 CD25
+@ T78 Gene_expression S11 95 102 1494 1501 express
+% E24 Gene_expression:T78 Theme:T35
+
+We used complexes of recombinant mouse IL-4 (rmIL-4) plus anti-IL-4 monoclonal antibodies (mAbs), which have been shown to dramatically increase the potency of the cytokine in vivo [19].
+# T36 Protein S12 39 43 1555 1559 IL-4
+# T37 Protein S12 45 51 1561 1567 rmIL-4
+# T38 Protein S12 63 67 1579 1583 IL-4
+
+In these mice, the percentage of CD4+CD25+ and FOXP3+ T cells dramatically decreased when the antibody-cytokine immune complexes were injected (Figure S2).
+# T39 Protein S13 33 36 1736 1739 CD4
+# T40 Protein S13 37 41 1740 1744 CD25
+# T41 Protein S13 47 52 1750 1755 FOXP3
+
+Upon administration of rmIL-4 plus anti-IL-4 mAb complexes, the total number of CD4+CD25+ T cell, as well as the Foxp3+ T cells diminished by half (Figure S2G and S2H), confirming that the lower percentage was not due to an increase in the CD4+CD25- cells, but a real decrease of CD4+CD25+ T cells.
+# T42 Protein S14 23 29 1882 1888 rmIL-4
+# T43 Protein S14 40 44 1899 1903 IL-4
+# T44 Protein S14 80 83 1939 1942 CD4
+# T45 Protein S14 84 88 1943 1947 CD25
+# T46 Protein S14 113 118 1972 1977 Foxp3
+# T47 Protein S14 240 243 2099 2102 CD4
+# T48 Protein S14 244 248 2103 2107 CD25
+# T49 Protein S14 280 283 2139 2142 CD4
+# T50 Protein S14 284 288 2143 2147 CD25
+
+In conclusion, IL-4 negatively regulates the natural or inducible Treg cell turnover not only in vitro but also in vivo.
+# T51 Protein S15 15 19 2173 2177 IL-4
+
+To study the effects of IL-4 on already-existing human natural or inducible Treg cells, we exposed sorted CD25+ T cells (nTreg cells) to IL-4 and analyzed FOXP3 expression and suppressive capacity.
+# T52 Protein S16 24 28 2303 2307 IL-4
+# T53 Protein S16 106 110 2385 2389 CD25
+# T54 Protein S16 137 141 2416 2420 IL-4
+# T55 Protein S16 155 160 2434 2439 FOXP3
+$ T55 Protein S16 155 160 2434 2439 FOXP3
+$ T54 Protein S16 137 141 2416 2420 IL-4
+@ T79 Gene_expression S16 161 171 2440 2450 expression
+@ T80 Negative_regulation S16 176 196 2455 2475 suppressive capacity
+% E25 Gene_expression:T79 Theme:T55
+% E26 Negative_regulation:T80 Theme:E25 Cause:T54
+
+In already-existing Treg cells, IL-4 failed to inhibit FOXP3 expression (Figure S3A), and the suppressive capacity was not altered (Figure S3C).
+# T56 Protein S17 32 36 2509 2513 IL-4
+# T57 Protein S17 55 60 2532 2537 FOXP3
+$ T56 Protein S17 32 36 2509 2513 IL-4
+$ T57 Protein S17 55 60 2532 2537 FOXP3
+@ T81 Negative_regulation S17 47 54 2524 2531 inhibit
+@ T82 Gene_expression S17 61 71 2538 2548 expression
+@ T83 Regulation S17 123 130 2600 2607 altered
+% E27 Negative_regulation:T81 Theme:E28 Cause:T56
+% E28 Gene_expression:T82 Theme:T57
+% E29 Regulation:T83 Theme:E27
+
+Similarly pre-existing iTreg cells did not decrease FOXP3 expression upon IL-4 exposure (Figure S3B).
+# T58 Protein S18 52 57 2674 2679 FOXP3
+# T59 Protein S18 74 78 2696 2700 IL-4
+$ T59 Protein S18 74 78 2696 2700 IL-4
+$ T58 Protein S18 52 57 2674 2679 FOXP3
+@ T84 Negative_regulation S18 43 51 2665 2673 decrease
+@ T85 Gene_expression S18 58 68 2680 2690 expression
+% E30 Negative_regulation:T84 Theme:E31 Cause:T59
+% E31 Gene_expression:T85 Theme:T58
+

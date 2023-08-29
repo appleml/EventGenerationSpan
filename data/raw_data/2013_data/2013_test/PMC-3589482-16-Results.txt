@@ -1,0 +1,26 @@
+A C/EBP, CRE and Two AP-1 Sites in the Murine SerpinB2 Gene Proximal Promoter are Essential for Optimal LPS-inducible Transcription
+# T1 Protein S1 46 54 46 54 SerpinB2
+
+To investigate regulatory elements between -539 and -189 essential for LPS-inducible transcription, several candidate binding sites for transcription factors previously reported to mediate LPS-inducible transcription in other genes [57] were targeted by nucleotide substitution designed to disrupt transcription factor binding to the pGLmP-539 murine SerpinB2 promoter-luciferase reporter gene construct (Fig. 4A).
+# T2 Protein S2 351 393 483 525 SerpinB2 promoter-luciferase reporter gene
+
+As shown in Fig. 4B, mutation of the consensus E box (-538/-533), PU.1 (-412/-407), or the variant Oct-1 (-296/-288) site did not decrease LPS-induced promoter activity.
+
+In contrast, mutation of the C/EBP site (-203/-192) completely eliminated promoter activity, similar to the levels observed for the -189 SerpinB2 promoter deletion construct.
+# T3 Protein S4 137 145 854 862 SerpinB2
+
+Others have also recently implicated this C/EBP site in LPS-induced activation of the SerpinB2 gene [58].
+# T4 Protein S5 86 94 978 986 SerpinB2
+
+Considering the conserved sequence and position of the CRE and two AP-1 sites in the murine SerpinB2 promoter and their demonstrated involvement in the PMA-responsiveness of the human SERPINB2 promoter [37], these sites were also mutated by nucleotide substitution to investigate whether they played a role in the LPS response of the murine SerpinB2 promoter.
+# T5 Protein S6 92 100 1090 1098 SerpinB2
+# T6 Protein S6 184 192 1182 1190 SERPINB2
+# T7 Protein S6 341 349 1339 1347 SerpinB2
+
+As shown in Fig. 4B, mutation of the CRE at -177/-172 or either of the two AP-1 sites at -106/-100 and -94/-88, completely or significantly reduced LPS-inducible luciferase activity from the murine SerpinB2 promoter.
+# T8 Protein S7 162 172 1520 1530 luciferase
+# T9 Protein S7 198 206 1556 1564 SerpinB2
+
+These data show that the C/EBP element, as well as the CRE and both AP-1 cis-acting elements are critical for LPS-inducible transcription from the SerpinB2 proximal promoter.
+# T10 Protein S8 147 155 1722 1730 SerpinB2
+

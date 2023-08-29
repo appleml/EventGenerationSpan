@@ -1,0 +1,40 @@
+The c-rel protooncogene product represses NF-kappa B p65-mediated transcriptional activation of the long terminal repeat of type 1 human immunodeficiency virus.
+# T1 Protein S1 4 9 4 9 c-rel
+# T2 Protein S1 53 56 53 56 p65
+
+The long terminal repeat (LTR) of the type 1 human immunodeficiency virus (HIV-1) and the 5' regulatory region of the gene encoding the interleukin 2 receptor alpha subunit (IL-2R alpha) share functional kappa B enhancer elements involved in the regulation of these inducible transcription units during T-cell activation.
+# T3 Protein S2 136 172 298 334 interleukin 2 receptor alpha subunit
+# T4 Protein S2 174 185 336 347 IL-2R alpha
+
+These kappa B enhancer elements are recognized by a structurally related family of interactive proteins that includes p50, p65, and the product of the c-rel protooncogene (c-Rel).
+# T5 Protein S3 118 121 602 605 p50
+# T6 Protein S3 123 126 607 610 p65
+# T7 Protein S3 151 156 635 640 c-rel
+# T8 Protein S3 172 177 656 661 c-Rel
+
+Recent biochemical studies have shown that p65 and p50 form the prototypical NF-kappa B complex, which is rapidly translocated from the cytoplasm to the nucleus during T-cell activation.
+# T9 Protein S4 43 46 707 710 p65
+# T10 Protein S4 51 54 715 718 p50
+
+This intracellular signaling complex potently stimulates kappa B-directed transcription from either the HIV-1 LTR or the IL-2R alpha promoter via the strong transactivation domain present in p65.
+# T11 Protein S5 121 132 972 983 IL-2R alpha
+# T12 Protein S5 191 194 1042 1045 p65
+
+We now demonstrate that nuclear expression of human c-Rel, which is induced by either phorbol ester or tumor necrosis factor alpha with delayed kinetics relative to p65, markedly represses p65-mediated activation of these transcription units.
+# T13 Protein S6 52 57 1099 1104 c-Rel
+# T14 Protein S6 103 130 1150 1177 tumor necrosis factor alpha
+# T15 Protein S6 165 168 1212 1215 p65
+# T16 Protein S6 189 192 1236 1239 p65
+
+These inhibitory effects of c-Rel correlate with its DNA-binding activity but not with its ability to heterodimerize with p50, suggesting that c-Rel inhibition involves competition with p50/p65 for occupancy of the kappa B enhancer element.
+# T17 Protein S7 28 33 1318 1323 c-Rel
+# T18 Protein S7 122 125 1412 1415 p50
+# T19 Protein S7 143 148 1433 1438 c-Rel
+# T20 Protein S7 186 189 1476 1479 p50
+# T21 Protein S7 190 193 1480 1483 p65
+
+Together, these findings suggest that one function of c-Rel is as a physiologic repressor of the HIV-1 LTR and IL-2R alpha promoters, serving to efficiently counter the strong transcriptional activating effects of p65.
+# T22 Protein S8 54 59 1585 1590 c-Rel
+# T23 Protein S8 111 122 1642 1653 IL-2R alpha
+# T24 Protein S8 214 217 1745 1748 p65
+

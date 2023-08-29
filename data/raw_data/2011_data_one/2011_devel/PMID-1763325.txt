@@ -1,0 +1,44 @@
+Characterization of a cofactor that regulates dimerization of a mammalian homeodomain protein.
+
+Dimerization among transcription factors has become a recurrent theme in the regulation of eukaryotic gene expression.
+
+Hepatocyte nuclear factor-1 alpha (HNF-1 alpha) is a homeodomain-containing protein that functions as a dimer.
+# T1 Protein S3 0 33 215 248 Hepatocyte nuclear factor-1 alpha
+# T2 Protein S3 35 46 250 261 HNF-1 alpha
+
+A dimerization cofactor of HNF-1 alpha (DCoH) was identified that displayed a restricted tissue distribution and did not bind to DNA, but, rather, selectively stabilized HNF-1 alpha dimers.
+# T3 Protein S4 2 38 328 364 dimerization cofactor of HNF-1 alpha
+# T4 Protein S4 40 44 366 370 DCoH
+# T5 Protein S4 170 181 496 507 HNF-1 alpha
+$ T4 Protein S4 40 44 366 370 DCoH
+$ T5 Protein S4 170 181 496 507 HNF-1 alpha
+@ T12 Localization S4 96 108 422 434 distribution
+@ T13 Binding S4 121 125 447 451 bind
+@ T14 Positive_regulation S4 159 169 485 495 stabilized
+% E1 Localization:T12 Theme:T4
+% E2 Binding:T13 Theme:T4
+% E3 Positive_regulation:T14 Theme:T5 Cause:T4
+
+The formation of a stable tetrameric DCoH-HNF-1 alpha complex, which required the dimerization domain of HNF-1 alpha, did not change the DNA binding characteristics of HNF-1 alpha, but enhanced its transcriptional activity.
+# T6 Protein S5 37 41 553 557 DCoH
+# T7 Protein S5 42 53 558 569 HNF-1 alpha
+# T8 Protein S5 105 116 621 632 HNF-1 alpha
+# T9 Protein S5 168 179 684 695 HNF-1 alpha
+$ T6 Protein S5 37 41 553 557 DCoH
+$ T7 Protein S5 42 53 558 569 HNF-1 alpha
+$ T9 Protein S5 168 179 684 695 HNF-1 alpha
+@ T15 Binding S5 54 61 570 577 complex
+@ T16 Positive_regulation S5 69 77 585 593 required
+@ T17 Regulation S5 126 132 642 648 change
+@ T18 Binding S5 141 148 657 664 binding
+% E4 Binding:T15 Theme:T6 Theme2:T7
+% E5 Positive_regulation:T16 Theme:E4
+% E6 Regulation:T17 Theme:E7 Cause:E4
+% E7 Binding:T18 Theme:T9
+
+However, DCoH did not confer transcriptional activation to the GAL4 DNA binding domain.
+# T10 Protein S6 9 13 749 753 DCoH
+
+These results indicate that DCoH regulates formation of transcriptionally active tetrameric complexes and may contribute to the developmental specificity of the complex.
+# T11 Protein S7 28 32 856 860 DCoH
+

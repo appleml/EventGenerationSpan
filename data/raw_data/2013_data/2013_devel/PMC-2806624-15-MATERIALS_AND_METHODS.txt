@@ -1,0 +1,29 @@
+RNA interference.
+
+CD4+ or naive CD4+ T cells were resuspended in 100 microl of Nucleofector solution (Lonza) and electroporated with 2 microM siRNA using the Nucleofector technology program U-14 (Lonza).
+# T1 Protein S2 0 3 18 21 CD4
+# T2 Protein S2 14 17 32 35 CD4
+
+Five different Silencer or Silencer Select Pre-designed siRNAs for RUNX1 (Applied Biosystems) and three Silencer Pre-designed siRNAs for RUNX3 (Applied Biosystems) were tested, and the best was selected for all further experiments.
+# T3 Protein S3 67 72 271 276 RUNX1
+# T4 Protein S3 137 142 341 346 RUNX3
+$ T3 Protein S3 67 72 271 276 RUNX1
+$ T4 Protein S3 137 142 341 346 RUNX3
+@ T10 Negative_regulation S3 56 62 260 266 siRNAs
+@ T11 Negative_regulation S3 126 132 330 336 siRNAs
+% E1 Negative_regulation:T10 Theme:T3
+% E2 Negative_regulation:T11 Theme:T4
+
+The Silencer Negative Control #1 siRNA (Applied Biosystems) was used for normalization.
+
+Cells were then left unstimulated or were stimulated after 12 h with anti-CD2, anti-CD3, and anti-CD28.
+# T5 Protein S5 74 77 598 601 CD2
+# T6 Protein S5 84 87 608 611 CD3
+# T7 Protein S5 98 102 622 626 CD28
+
+Cells were cultured in serum-free AIM-V medium with the addition of 1 nmol/l IL-2 (Roche).
+# T8 Protein S6 34 39 662 667 AIM-V
+# T9 Protein S6 77 81 705 709 IL-2
+
+Cells were harvested for mRNA detection of the target genes after 24 h and for protein detection after 48 h.
+

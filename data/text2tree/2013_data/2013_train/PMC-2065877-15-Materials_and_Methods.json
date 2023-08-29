@@ -1,0 +1,9 @@
+{"text": "Rnase protection assay .", "event": "<extra_id_0> <extra_id_1>"}
+{"text": "Total RNA was isolated from <extra_id_0> CD19 <extra_id_2> Protein <extra_id_1> + MACS-purified B cells using the Rneasy midi purification kit with Dnase treatment , according to the manufacturer 's instructions ( Qiagen ) .", "event": "<extra_id_0> <extra_id_1>"}
+{"text": "The mCK-1 probe template set ( BD Biosciences ) was labeled using the In Vitro Transcription Kit according to the manufacturer 's instructions ( BD Biosciences ) .", "event": "<extra_id_0> <extra_id_1>"}
+{"text": "Briefly , 50 ng of mCK-1 probe set was labeled with [ alpha-32P ] UTP using T7 RNA polymerase and purified using Sephadex G-50 columns ( NucAway Spin column , Ambion ) .", "event": "<extra_id_0> <extra_id_1>"}
+{"text": "The labeled probe was quantitated using a scintillation counter , and 6 x 105 cherenkov cpm was used to hybridize to 4 mug of total RNA using the RPA kit ( BD Biosciences ) .", "event": "<extra_id_0> <extra_id_1>"}
+{"text": "Samples were denatured at 90 degreesC and hybridized at 56 degreesC overnight .", "event": "<extra_id_0> <extra_id_1>"}
+{"text": "Single-stranded RNA was digested with a mixture of <extra_id_0> Rnase A <extra_id_2> Protein <extra_id_1> and <extra_id_0> T1 <extra_id_2> Protein <extra_id_1> , and precipitated using isopropanol .", "event": "<extra_id_0> <extra_id_1>"}
+{"text": "Protected probes were resolved on a denaturing 4.75 % acrylamide gel , dried , and imaged using a phosphorImager ( Molecular Dynamics ) .", "event": "<extra_id_0> <extra_id_1>"}
+{"text": "Densitometry was performed using the ImageQuant TL v2005 software ( GE Healthcare ) .", "event": "<extra_id_0> <extra_id_1>"}

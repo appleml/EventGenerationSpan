@@ -1,0 +1,98 @@
+Human immunodeficiency virus-1 Tat activates NF-kappaB via physical interaction with IkappaB-alpha and p65
+# T1 Protein S1 31 34 31 34 Tat
+# T2 Protein S1 85 98 85 98 IkappaB-alpha
+# T3 Protein S1 103 106 103 106 p65
+$ T1 Protein S1 31 34 31 34 Tat
+$ T2 Protein S1 85 98 85 98 IkappaB-alpha
+@ T26 Binding S1 68 79 68 79 interaction
+% E1 Binding:T26 Theme:T1 Theme2:T2
+
+Nuclear factor (NF)-kappaB is a master regulator of pro-inflammatory genes and is upregulated in human immunodeficiency virus 1 (HIV-1) infection.
+
+Mechanisms underlying the NF-kappaB deregulation by HIV-1 are relevant for immune dysfunction in AIDS.
+
+We report that in single round HIV-1 infection, or single-pulse PMA stimulation, the HIV-1 Tat transactivator activated NF-kappaB by hijacking the inhibitor IkappaB-alpha and by preventing the repressor binding to the NF-kappaB complex.
+# T4 Protein S4 91 94 448 451 Tat
+# T5 Protein S4 157 170 514 527 IkappaB-alpha
+$ T4 Protein S4 91 94 448 451 Tat
+$ T5 Protein S4 157 170 514 527 IkappaB-alpha
+@ T27 Binding S4 133 142 490 499 hijacking
+@ T28 Negative_regulation S4 178 188 535 545 preventing
+@ T25 Anaphora S4 189 202 546 559 the repressor
+@ T29 Binding S4 203 210 560 567 binding
+% E2 Binding:T27 Theme:T4 Theme2:T5
+% E3 Negative_regulation:T28 Theme:E4 Cause:T4
+% E4 Binding:T29 Theme:T5
+
+Moreover, Tat associated with the p65 subunit of NF-kappaB and increased the p65 DNA-binding affinity and transcriptional activity.
+# T6 Protein S5 10 13 604 607 Tat
+# T7 Protein S5 34 37 628 631 p65
+# T8 Protein S5 77 80 671 674 p65
+$ T6 Protein S5 10 13 604 607 Tat
+$ T7 Protein S5 34 37 628 631 p65
+$ T8 Protein S5 77 80 671 674 p65
+@ T30 Binding S5 14 24 608 618 associated
+@ T31 Positive_regulation S5 63 72 657 666 increased
+@ T32 Binding S5 85 92 679 686 binding
+% E5 Binding:T30 Theme:T6 Theme2:T7
+% E6 Positive_regulation:T31 Theme:E7 Cause:T6
+% E7 Binding:T32 Theme:T8
+
+The arginine- and cysteine-rich domains of Tat were required for IkappaB-alpha and p65 association, respectively, and for sustaining the NF-kappaB activity.
+# T9 Protein S6 43 46 769 772 Tat
+# T10 Protein S6 65 78 791 804 IkappaB-alpha
+# T11 Protein S6 83 86 809 812 p65
+$ T10 Protein S6 65 78 791 804 IkappaB-alpha
+$ T11 Protein S6 83 86 809 812 p65
+$ T9 Protein S6 43 46 769 772 Tat
+@ T33 Positive_regulation S6 52 60 778 786 required
+@ T34 Binding S6 87 98 813 824 association
+% E8 Positive_regulation:T33 Theme:T10
+% E9 Positive_regulation:T33 Theme:T11
+% E10 Binding:T34 Theme:T9 Theme2:T10
+
+Among an array of NF-kappaB-responsive genes, Tat mostly activated the MIP-1alpha expression in a p65-dependent manner, and bound to the MIP-1alpha NF-kappaB enhancer thus promoting the recruitment of p65 with displacement of IkappaB-alpha; similar findings were obtained for the NF-kappaB-responsive genes CSF3, LTA, NFKBIA and TLR2.
+# T12 Protein S7 46 49 929 932 Tat
+# T13 Protein S7 71 81 954 964 MIP-1alpha
+# T14 Protein S7 98 101 981 984 p65
+# T15 Protein S7 137 147 1020 1030 MIP-1alpha
+# T16 Protein S7 201 204 1084 1087 p65
+# T17 Protein S7 226 239 1109 1122 IkappaB-alpha
+# T18 Protein S7 307 311 1190 1194 CSF3
+# T19 Protein S7 313 316 1196 1199 LTA
+# T20 Protein S7 318 324 1201 1207 NFKBIA
+# T21 Protein S7 329 333 1212 1216 TLR2
+$ T13 Protein S7 71 81 954 964 MIP-1alpha
+$ T12 Protein S7 46 49 929 932 Tat
+$ T14 Protein S7 98 101 981 984 p65
+$ T15 Protein S7 137 147 1020 1030 MIP-1alpha
+$ T16 Protein S7 201 204 1084 1087 p65
+$ T17 Protein S7 226 239 1109 1122 IkappaB-alpha
+@ T35 Positive_regulation S7 28 38 911 921 responsive
+@ T36 Positive_regulation S7 57 66 940 949 activated
+@ T37 Gene_expression S7 82 92 965 975 expression
+@ T38 Positive_regulation S7 102 111 985 994 dependent
+@ T39 Binding S7 124 129 1007 1012 bound
+@ T40 Entity S7 148 166 1031 1049 NF-kappaB enhancer
+@ T41 Positive_regulation S7 172 181 1055 1064 promoting
+@ T42 Binding S7 186 197 1069 1080 recruitment
+@ T43 Binding S7 210 222 1093 1105 displacement
+% E11 Positive_regulation:T35 Theme:T13
+% E12 Positive_regulation:T36 Theme:E13 Cause:T12
+% E14 Gene_expression:T37 Theme:T13
+% E13 Positive_regulation:T38 Theme:E14 Cause:T14
+% E15 Binding:T39 Theme:T12 Theme2:T15 Site2:T40
+% E16 Positive_regulation:T41 Theme:E17 Cause:E15
+% E18 Positive_regulation:T41 Theme:E19 Cause:E15
+% E17 Binding:T42 Theme:T15 Theme2:T16 Site:T40
+% E19 Binding:T43 Theme:T16 Theme2:T17
+
+Our results support a novel mechanism of NF-kappaB activation via physical interaction of Tat with IkappaB-alpha and p65, and may contribute to further insights into the deregulation of the inflammatory response by HIV-1.
+# T22 Protein S8 90 93 1308 1311 Tat
+# T23 Protein S8 99 112 1317 1330 IkappaB-alpha
+# T24 Protein S8 117 120 1335 1338 p65
+$ T22 Protein S8 90 93 1308 1311 Tat
+$ T23 Protein S8 99 112 1317 1330 IkappaB-alpha
+@ T44 Binding S8 75 86 1293 1304 interaction
+% E20 Binding:T44 Theme:T22 Theme2:T23
+

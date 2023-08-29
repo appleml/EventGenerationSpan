@@ -1,0 +1,46 @@
+Activation of the HIV-1 enhancer by the LEF-1 HMG protein on nucleosome-assembled DNA in vitro.
+# T1 Protein S1 40 45 40 45 LEF-1
+
+Lymphoid enhancer-binding factor 1 (LEF-1) is a regulatory high mobility group (HMG) protein that activates the T cell receptor alpha (TCR alpha) enhancer in a context-restricted manner in T cells.
+# T2 Protein S2 0 34 97 131 Lymphoid enhancer-binding factor 1
+# T3 Protein S2 36 41 133 138 LEF-1
+# T4 Protein S2 112 133 209 230 T cell receptor alpha
+# T5 Protein S2 135 144 232 241 TCR alpha
+
+In this paper we demonstrate that the distal region of the human immunodeficiency virus-1 (HIV-1) enhancer, which contains DNA-binding sites for LEF-1 and Ets-1, also provides a functional context for activation by LEF-1.
+# T6 Protein S3 145 150 440 445 LEF-1
+# T7 Protein S3 155 160 450 455 Ets-1
+# T8 Protein S3 215 220 510 515 LEF-1
+
+First, we show that mutations in the LEF-1-binding site inhibit the activity of multimerized copies of the HIV-1 enhancer in Jurkat T cells, and that LEF-1/GAL4 can activate a GAL4-substituted HIV-1 enhancer 80- to 100-fold in vivo.
+# T9 Protein S4 37 42 554 559 LEF-1
+# T10 Protein S4 150 155 667 672 LEF-1
+# T11 Protein S4 156 160 673 677 GAL4
+# T12 Protein S4 176 180 693 697 GAL4
+
+Second, recombinant LEF-1 is shown to activate HIV-1 transcription on chromatin-assembled DNA in vitro.
+# T13 Protein S5 20 25 770 775 LEF-1
+
+By using a nucleosome-assembly system derived from Drosophila embryos, we find that the packaging of DNA into chromatin in vitro strongly represses HIV-1 transcription and that repression can be counteracted efficiently by preincubation of the DNA with LEF-1 (or LEF-1 and Ets-1) supplemented with fractions containing the promoter-binding protein, Sp1.
+# T14 Protein S6 253 258 1107 1112 LEF-1
+# T15 Protein S6 263 268 1117 1122 LEF-1
+# T16 Protein S6 273 278 1127 1132 Ets-1
+# T17 Protein S6 349 352 1203 1206 Sp1
+
+Addition of TFE-3, which binds to an E-box motif upstream of the LEF-1 and Ets-1 sites, further augments transcription in this system.
+# T18 Protein S7 12 17 1220 1225 TFE-3
+# T19 Protein S7 65 70 1273 1278 LEF-1
+# T20 Protein S7 75 80 1283 1288 Ets-1
+
+Individually or collectively, none of the three enhancer-binding proteins (LEF-1, Ets-1, and TFE-3) could activate transcription in the absence of Sp1.
+# T21 Protein S8 75 80 1418 1423 LEF-1
+# T22 Protein S8 82 87 1425 1430 Ets-1
+# T23 Protein S8 93 98 1436 1441 TFE-3
+# T24 Protein S8 147 150 1490 1493 Sp1
+
+A truncation mutant of LEF-1 (HMG-88), which contains the HMG box but lacks the trans-activation domain, did not activate transcription from nucleosomal DNA, indicating that bending of DNA by the HMG domain is not sufficient to activate transcription in vitro.
+# T25 Protein S9 23 28 1518 1523 LEF-1
+
+We conclude that transcription activation by LEF-1 in vitro is a chromatin-dependent process that requires a functional trans-activation domain in addition to the HMG domain.
+# T26 Protein S10 45 50 1801 1806 LEF-1
+

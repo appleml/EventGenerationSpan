@@ -1,0 +1,65 @@
+Activation of early growth response 1 gene transcription and pp90rsk during induction of monocytic differentiation.
+# T1 Protein S1 14 37 14 37 early growth response 1
+$ T1 Protein S1 14 37 14 37 early growth response 1
+@ T10 Positive_regulation S1 0 10 0 10 Activation
+@ T11 Transcription S1 43 56 43 56 transcription
+% E1 Positive_regulation:T10 Theme:E2
+% E2 Transcription:T11 Theme:T1
+
+The present work has studied mechanisms responsible for induction of early growth response 1 (EGR-1) gene expression during monocytic differentiation of U-937 myeloid leukemia cells.
+# T2 Protein S2 69 92 186 209 early growth response 1
+# T3 Protein S2 94 99 211 216 EGR-1
+$ T3 Protein S2 94 99 211 216 EGR-1
+@ T12 Positive_regulation S2 56 65 173 182 induction
+@ T13 Gene_expression S2 106 116 223 233 expression
+% E3 Positive_regulation:T12 Theme:E4
+% E4 Gene_expression:T13 Theme:T3
+
+Differentiation of U-937 cells with 12-O-tetradecanoylphorbol-13-acetate (TPA), an activator of the serine/threonine protein kinase C, was associated with transcriptional activation of EGR-1 promoter-reporter constructs.
+# T4 Protein S3 185 190 485 490 EGR-1
+
+The EGR-1 promoter contains six CC(A/T)6GG (CArG) motifs.
+# T5 Protein S4 4 9 525 530 EGR-1
+
+The two 5'-most distal CArG sequences conferred TPA inducibility.
+
+In contrast, there was little effect of TPA on EGR-1 transcription in a TPA-resistant U-937 cell variant, designated TUR.
+# T6 Protein S6 47 52 692 697 EGR-1
+$ T6 Protein S6 47 52 692 697 EGR-1
+@ T14 Regulation S6 30 36 675 681 effect
+@ T15 Transcription S6 53 66 698 711 transcription
+% E5 Regulation:T14 Theme:E6
+% E6 Transcription:T15 Theme:T6
+
+Treatment of both U-937 and TUR cells with okadaic acid, an inhibitor of serine/threonine protein phosphatases 1 and 2A, was associated with induction of monocytic differentiation and EGR-1 transcription through the 5'-most CArG element.
+# T7 Protein S7 184 189 951 956 EGR-1
+$ T7 Protein S7 184 189 951 956 EGR-1
+@ T16 Positive_regulation S7 141 150 908 917 induction
+@ T17 Transcription S7 190 203 957 970 transcription
+% E7 Positive_regulation:T16 Theme:E8
+% E8 Transcription:T17 Theme:T7
+
+Since these findings supported the involvement of serine/threonine protein phosphorylation in the regulation of EGR-1 expression, we studied activation of the 40S ribosomal protein S6 serine/threonine kinases, pp70S6K and pp90rsk.
+# T8 Protein S8 112 117 1117 1122 EGR-1
+$ T8 Protein S8 112 117 1117 1122 EGR-1
+@ T18 Regulation S8 98 108 1103 1113 regulation
+@ T19 Gene_expression S8 118 128 1123 1133 expression
+% E9 Regulation:T18 Theme:E10
+% E10 Gene_expression:T19 Theme:T8
+
+Although both kinases participate in regulating cell growth, there was no detectable activation of pp70S6K during TPA- or okadaic acid-induced monocytic differentiation.
+
+Moreover, rapamycin, an inhibitor of pp70S6K activation, had no effect on induction of EGR-1 expression.
+# T9 Protein S10 87 92 1493 1498 EGR-1
+$ T9 Protein S10 87 92 1493 1498 EGR-1
+@ T20 Regulation S10 64 70 1470 1476 effect
+@ T21 Positive_regulation S10 74 83 1480 1489 induction
+@ T22 Gene_expression S10 93 103 1499 1509 expression
+% E11 Regulation:T20 Theme:E12
+% E12 Positive_regulation:T21 Theme:E13
+% E13 Gene_expression:T22 Theme:T9
+
+In contrast, analysis of pp90rsk activity by phosphorylation of a peptide derived from S6 protein demonstrated stimulation of this kinase in TPA-treated U-937, and not TUR, cells.
+
+Okadaic acid treatment of both cell types was associated with activation of pp90rsk.
+

@@ -1,0 +1,77 @@
+Hypoxia causes the activation of nuclear factor kappa B through the phosphorylation of I kappa B alpha on tyrosine residues.
+# T1 Protein S1 87 102 87 102 I kappa B alpha
+$ T1 Protein S1 87 102 87 102 I kappa B alpha
+@ T10 Positive_regulation S1 8 14 8 14 causes
+@ T11 Phosphorylation S1 68 83 68 83 phosphorylation
+% E1 Positive_regulation:T10 Theme:E2
+% E2 Phosphorylation:T11 Theme:T1
+
+The response of mammalian cells to stress is controlled by transcriptional regulatory proteins such as nuclear factor kappa B (NF-kappa B) to induce a wide variety of early response genes.
+
+In this report, we show that exposure of cells to hypoxia (0.02% O2) results in I kappa B alpha degradation, increased NF-kappa B DNA binding activity, and transactivation of a reporter gene construct containing two NF-kappa B DNA binding sites.
+# T2 Protein S3 80 95 395 410 I kappa B alpha
+$ T2 Protein S3 80 95 395 410 I kappa B alpha
+@ T12 Positive_regulation S3 69 76 384 391 results
+@ T13 Protein_catabolism S3 96 107 411 422 degradation
+% E3 Positive_regulation:T12 Theme:E4
+% E4 Protein_catabolism:T13 Theme:T2
+
+Pretreatment of cells with protein tyrosine kinase inhibitors and the dominant negative allele of c-Raf-1 (Raf 301) inhibited I kappa B alpha degradation, NF-kappa B binding, and transactivation of kappa B reporter constructs by hypoxia.
+# T3 Protein S4 126 141 687 702 I kappa B alpha
+$ T3 Protein S4 126 141 687 702 I kappa B alpha
+@ T14 Negative_regulation S4 116 125 677 686 inhibited
+@ T15 Protein_catabolism S4 142 153 703 714 degradation
+@ T16 Positive_regulation S4 226 228 787 789 by
+% E5 Negative_regulation:T14 Theme:E7
+% E6 Protein_catabolism:T15 Theme:T3
+% E7 Positive_regulation:T16 Theme:E6
+
+To demonstrate a direct link between changes in the phosphorylation pattern of I kappa B alpha with NF-kappa B activation, we immunoprecipitated I kappa B alpha after varying times of hypoxic exposure and found that its tyrosine phosphorylation status increased during hypoxic exposure.
+# T4 Protein S5 79 94 878 893 I kappa B alpha
+# T5 Protein S5 145 160 944 959 I kappa B alpha
+$ T4 Protein S5 79 94 878 893 I kappa B alpha
+$ T5 Protein S5 145 160 944 959 I kappa B alpha
+@ T17 Phosphorylation S5 52 67 851 866 phosphorylation
+@ T18 Entity S5 220 228 1019 1027 tyrosine
+@ T19 Phosphorylation S5 229 244 1028 1043 phosphorylation
+@ T20 Positive_regulation S5 252 261 1051 1060 increased
+% E8 Phosphorylation:T17 Theme:T4
+% E9 Phosphorylation:T19 Theme:T5 Site:T18
+% E10 Positive_regulation:T20 Theme:E9
+
+Inhibition of the transfer of tyrosine phosphoryl groups onto I kappa B alpha prevented I kappa B alpha degradation and NF-kappa B binding.
+# T6 Protein S6 62 77 1148 1163 I kappa B alpha
+# T7 Protein S6 88 103 1174 1189 I kappa B alpha
+$ T6 Protein S6 62 77 1148 1163 I kappa B alpha
+$ T7 Protein S6 88 103 1174 1189 I kappa B alpha
+@ T21 Negative_regulation S6 0 10 1086 1096 Inhibition
+@ T22 Phosphorylation S6 18 56 1104 1142 transfer of tyrosine phosphoryl groups
+@ T23 Negative_regulation S6 78 87 1164 1173 prevented
+@ T24 Protein_catabolism S6 104 115 1190 1201 degradation
+% E11 Negative_regulation:T21 Theme:E12
+% E12 Phosphorylation:T22 Theme:T6
+% E13 Negative_regulation:T23 Theme:E14 Cause:E11
+% E14 Protein_catabolism:T24 Theme:T7
+
+In comparison to other activators of NF-kappa B such as phorbol myristate acetate or tumor necrosis factor, we did not detect changes in the tyrosine phosphorylation status of I kappa B alpha following treatment with either of these agents.
+# T8 Protein S7 176 191 1402 1417 I kappa B alpha
+$ T8 Protein S7 176 191 1402 1417 I kappa B alpha
+@ T25 Regulation S7 126 133 1352 1359 changes
+@ T26 Entity S7 141 149 1367 1375 tyrosine
+@ T27 Phosphorylation S7 150 165 1376 1391 phosphorylation
+% E15 Regulation:T25 Theme:E16
+% E16 Phosphorylation:T27 Theme:T8 Site:T26
+
+These results suggest that tyrosine phosphorylation of I kappa B alpha during hypoxia is an important proximal step which precedes its dissociation and degradation from NF-kappa B.
+# T9 Protein S8 55 70 1522 1537 I kappa B alpha
+$ T9 Protein S8 55 70 1522 1537 I kappa B alpha
+@ T28 Entity S8 27 35 1494 1502 tyrosine
+@ T29 Phosphorylation S8 36 51 1503 1518 phosphorylation
+@ T30 Positive_regulation S8 71 77 1538 1544 during
+@ T31 Positive_regulation S8 122 130 1589 1597 precedes
+@ T32 Protein_catabolism S8 152 163 1619 1630 degradation
+% E17 Phosphorylation:T29 Theme:T9 Site:T28
+% E18 Positive_regulation:T30 Theme:E17
+% E19 Positive_regulation:T31 Theme:E20 Cause:E18
+% E20 Protein_catabolism:T32 Theme:T9
+

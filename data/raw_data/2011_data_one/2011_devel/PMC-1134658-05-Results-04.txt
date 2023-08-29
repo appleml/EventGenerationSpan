@@ -1,0 +1,85 @@
+BMP-6 induces phosphorylation of Smad1/5/8
+# T1 Protein S1 0 5 0 5 BMP-6
+# T2 Protein S1 33 38 33 38 Smad1
+# T3 Protein S1 39 40 39 40 5
+# T4 Protein S1 41 42 41 42 8
+$ T1 Protein S1 0 5 0 5 BMP-6
+$ T2 Protein S1 33 38 33 38 Smad1
+$ T3 Protein S1 39 40 39 40 5
+$ T4 Protein S1 41 42 41 42 8
+@ T17 Positive_regulation S1 6 13 6 13 induces
+@ T18 Phosphorylation S1 14 29 14 29 phosphorylation
+% E1 Positive_regulation:T17 Theme:E2 Cause:T1
+% E3 Positive_regulation:T17 Theme:E4 Cause:T1
+% E5 Positive_regulation:T17 Theme:E6 Cause:T1
+% E2 Phosphorylation:T18 Theme:T2
+% E4 Phosphorylation:T18 Theme:T3
+% E6 Phosphorylation:T18 Theme:T4
+
+Upon ligand binding, the type II receptor transphosphorylates and activates the type I receptor.
+
+Type I receptors can signal via several pathways.
+
+We examined the effect of BMP-6 on Smad phosphorylation, as the activation of Smad is considered to be a major signalling pathway for BMPs [17].
+# T5 Protein S4 26 31 216 221 BMP-6
+
+B cells were cultured in serum-free media over night and then treated with BMP-6 for various time points.
+# T6 Protein S5 75 80 410 415 BMP-6
+
+Total protein lysates were prepared, and the amounts of the phosphorylated forms of Smad1/5/8 were determined by western blot analysis.
+# T7 Protein S6 84 89 525 530 Smad1
+# T8 Protein S6 90 91 531 532 5
+# T9 Protein S6 92 93 533 534 8
+$ T7 Protein S6 84 89 525 530 Smad1
+$ T8 Protein S6 90 91 531 532 5
+$ T9 Protein S6 92 93 533 534 8
+@ T19 Phosphorylation S6 60 74 501 515 phosphorylated
+% E7 Phosphorylation:T19 Theme:T7
+% E8 Phosphorylation:T19 Theme:T8
+% E9 Phosphorylation:T19 Theme:T9
+
+Interestingly, treatment with 500 ng/ml BMP-6 induced phosphorylation of Smad.
+# T10 Protein S7 40 45 617 622 BMP-6
+$ T10 Protein S7 40 45 617 622 BMP-6
+@ T20 Positive_regulation S7 46 53 623 630 induced
+@ T21 Phosphorylation S7 54 69 631 646 phosphorylation
+% E10 Positive_regulation:T20 Theme:E11 Cause:T10
+% E12 Positive_regulation:T20 Theme:E13 Cause:T10
+% E14 Positive_regulation:T20 Theme:E15 Cause:T10
+% E11 Phosphorylation:T21 Theme:T7
+% E13 Phosphorylation:T21 Theme:T8
+% E15 Phosphorylation:T21 Theme:T9
+
+The BMP-6 induced phosphorylation was high at the earliest time point tested (15 minutes), and remained high for at least 48 hours (Figure 5).
+# T11 Protein S8 4 9 660 665 BMP-6
+$ T11 Protein S8 4 9 660 665 BMP-6
+@ T22 Positive_regulation S8 10 17 666 673 induced
+@ T23 Phosphorylation S8 18 33 674 689 phosphorylation
+% E16 Positive_regulation:T22 Theme:E17 Cause:T11
+% E18 Positive_regulation:T22 Theme:E19 Cause:T11
+% E20 Positive_regulation:T22 Theme:E21 Cause:T11
+% E17 Phosphorylation:T23 Theme:T7
+% E19 Phosphorylation:T23 Theme:T8
+% E21 Phosphorylation:T23 Theme:T9
+
+A similar phosphorylation was observed in Ramos cells, but not in HL60 cells (Figure 6).
+
+Furthermore, we also tested whether other known downstream signalling pathways of BMP-6 could be triggered by BMP-6 in human B cells.
+# T12 Protein S10 82 87 970 975 BMP-6
+# T13 Protein S10 110 115 998 1003 BMP-6
+
+However, we did not observe any significant changes in the level of phospho-STAT3 or phospho-p38 upon BMP-6 treatment of B cells (data not shown).
+# T14 Protein S11 76 81 1098 1103 STAT3
+# T15 Protein S11 93 96 1115 1118 p38
+# T16 Protein S11 102 107 1124 1129 BMP-6
+$ T16 Protein S11 102 107 1124 1129 BMP-6
+$ T14 Protein S11 76 81 1098 1103 STAT3
+$ T15 Protein S11 93 96 1115 1118 p38
+@ T24 Regulation S11 44 51 1066 1073 changes
+@ T25 Phosphorylation S11 68 75 1090 1097 phospho
+@ T26 Phosphorylation S11 85 92 1107 1114 phospho
+% E22 Regulation:T24 Theme:E23 Cause:T16
+% E24 Regulation:T24 Theme:E25 Cause:T16
+% E23 Phosphorylation:T25 Theme:T14
+% E25 Phosphorylation:T26 Theme:T15
+

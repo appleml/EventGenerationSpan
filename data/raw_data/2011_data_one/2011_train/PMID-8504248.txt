@@ -1,0 +1,20 @@
+Regulation of the beta-globin locus.
+# T1 Protein S1 18 29 18 29 beta-globin
+$ T1 Protein S1 18 29 18 29 beta-globin
+@ T3 Regulation S1 0 10 0 10 Regulation
+% E1 Regulation:T3 Theme:T1
+
+Transcription of the human beta-globin gene cluster depends upon upstream regulatory sequences, which are collectively termed the locus control region.
+# T2 Protein S2 27 38 65 76 beta-globin
+$ T2 Protein S2 27 38 65 76 beta-globin
+@ T4 Transcription S2 0 13 38 51 Transcription
+@ T5 Regulation S2 52 59 90 97 depends
+% E2 Transcription:T4 Theme:T2
+% E3 Regulation:T5 Theme:E2
+
+Recent studies have provided new insights into how the individual genes of the cluster are regulated through development.
+@ T6 Regulation S3 91 100 281 290 regulated
+% E4 Regulation:T6 Theme:T2
+
+The crux of transcriptional activation is how the locus control region communicates with the gene-proximal regulatory elements.
+

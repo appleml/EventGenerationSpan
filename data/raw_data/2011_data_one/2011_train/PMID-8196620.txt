@@ -1,0 +1,118 @@
+Lipopolysaccharide induction of tissue factor gene expression in monocytic cells is mediated by binding of c-Rel/p65 heterodimers to a kappa B-like site.
+# T1 Protein S1 107 112 107 112 c-Rel
+# T2 Protein S1 113 116 113 116 p65
+$ T1 Protein S1 107 112 107 112 c-Rel
+$ T2 Protein S1 113 116 113 116 p65
+@ T33 Binding S1 96 103 96 103 binding
+% E1 Binding:T33 Theme:T1
+% E2 Binding:T33 Theme:T2
+
+Exposure of monocytic cells to bacterial lipopolysaccharide (LPS) activates the NF-kappa B/Rel family of proteins and leads to the rapid induction of inflammatory gene products, including tissue factor (TF).
+# T3 Protein S2 188 201 343 356 tissue factor
+# T4 Protein S2 203 205 358 360 TF
+$ T4 Protein S2 203 205 358 360 TF
+@ T34 Positive_regulation S2 137 146 292 301 induction
+% E3 Positive_regulation:T34 Theme:T4
+
+TF is the primary cellular initiator of the coagulation protease cascades.
+# T5 Protein S3 0 2 363 365 TF
+
+Here we report the characterization of a nuclear complex from human monocytic cells that bound to a kappa B-like site, 5'-CGGAGTTTCC-3', in the 5'-flanking region of the human TF gene.
+# T6 Protein S4 176 178 614 616 TF
+$ T6 Protein S4 176 178 614 616 TF
+@ T35 Binding S4 89 94 527 532 bound
+@ T36 Entity S4 100 117 538 555 kappa B-like site
+% E4 Binding:T35 Theme:T6 Site:T36
+
+This nuclear complex was activated by LPS with kinetics that preceded induction of the TF gene.
+# T7 Protein S5 87 89 710 712 TF
+$ T7 Protein S5 87 89 710 712 TF
+@ T37 Positive_regulation S5 70 79 693 702 induction
+% E5 Positive_regulation:T37 Theme:T7
+
+In vitro binding studies demonstrated that the TF site bound translated c-Rel and p65 homodimers but not p50/p65 heterodimers or p50 homodimers.
+# T8 Protein S6 47 49 766 768 TF
+# T9 Protein S6 72 77 791 796 c-Rel
+# T10 Protein S6 82 85 801 804 p65
+# T11 Protein S6 105 108 824 827 p50
+# T12 Protein S6 109 112 828 831 p65
+# T13 Protein S6 129 132 848 851 p50
+$ T13 Protein S6 129 132 848 851 p50
+$ T9 Protein S6 72 77 791 796 c-Rel
+$ T11 Protein S6 105 108 824 827 p50
+$ T10 Protein S6 82 85 801 804 p65
+$ T12 Protein S6 109 112 828 831 p65
+@ T38 Binding S6 55 60 774 779 bound
+% E6 Binding:T38 Theme:T13
+% E7 Binding:T38 Theme:T9
+% E8 Binding:T38 Theme:T11
+% E9 Binding:T38 Theme:T10
+% E10 Binding:T38 Theme:T12
+
+Base-pair substitutions in the TF site indicated that the presence of a cytosine at position 1 precluded binding of NF-kappa B.
+# T14 Protein S7 31 33 895 897 TF
+
+In fact, under low-ionic-strength conditions, the TF complex did not migrate with translated p50/p65 dimers but instead comigrated with c-Rel/p65 dimers.
+# T15 Protein S8 50 52 1042 1044 TF
+# T16 Protein S8 93 96 1085 1088 p50
+# T17 Protein S8 97 100 1089 1092 p65
+# T18 Protein S8 136 141 1128 1133 c-Rel
+# T19 Protein S8 142 145 1134 1137 p65
+$ T15 Protein S8 50 52 1042 1044 TF
+$ T16 Protein S8 93 96 1085 1088 p50
+$ T17 Protein S8 97 100 1089 1092 p65
+$ T19 Protein S8 142 145 1134 1137 p65
+$ T18 Protein S8 136 141 1128 1133 c-Rel
+@ T39 Binding S8 69 76 1061 1068 migrate
+@ T40 Binding S8 120 130 1112 1122 comigrated
+% E11 Binding:T39 Theme:T15 Theme2:T16
+% E12 Binding:T39 Theme:T15 Theme2:T17
+% E13 Binding:T40 Theme:T15 Theme2:T19
+% E14 Binding:T40 Theme:T15 Theme2:T18
+
+Antibodies against the NF-kappa B and Rel proteins and UV cross-linking studies revealed the presence of c-Rel and p65 and the absence of p50 in the TF complex and further showed that c-Rel/p65 heterodimers selectively bound to the TF kappa B-like site.
+# T20 Protein S9 105 110 1251 1256 c-Rel
+# T21 Protein S9 115 118 1261 1264 p65
+# T22 Protein S9 138 141 1284 1287 p50
+# T23 Protein S9 149 151 1295 1297 TF
+# T24 Protein S9 184 189 1330 1335 c-Rel
+# T25 Protein S9 190 193 1336 1339 p65
+# T26 Protein S9 232 234 1378 1380 TF
+$ T20 Protein S9 105 110 1251 1256 c-Rel
+$ T23 Protein S9 149 151 1295 1297 TF
+$ T21 Protein S9 115 118 1261 1264 p65
+$ T22 Protein S9 138 141 1284 1287 p50
+$ T24 Protein S9 184 189 1330 1335 c-Rel
+$ T25 Protein S9 190 193 1336 1339 p65
+@ T41 Binding S9 93 101 1239 1247 presence
+@ T42 Binding S9 127 134 1273 1280 absence
+@ T43 Binding S9 219 224 1365 1370 bound
+% E15 Binding:T41 Theme:T20 Theme2:T23
+% E16 Binding:T41 Theme:T21 Theme2:T23
+% E17 Binding:T42 Theme:T22 Theme2:T23
+% E18 Binding:T43 Theme:T24
+% E19 Binding:T43 Theme:T25
+
+Functional studies indicated that the TF site conferred LPS inducibility on a heterologous promoter and was transactivated by c-Rel or p65.
+# T27 Protein S10 38 40 1438 1440 TF
+# T28 Protein S10 126 131 1526 1531 c-Rel
+# T29 Protein S10 135 138 1535 1538 p65
+
+Taken together, our results demonstrated that binding of c-Rel/p65 heterodimers to a novel kappa B-like site mediated LPS induction of TF gene expression in monocytic cells.
+# T30 Protein S11 57 62 1597 1602 c-Rel
+# T31 Protein S11 63 66 1603 1606 p65
+# T32 Protein S11 135 137 1675 1677 TF
+$ T31 Protein S11 63 66 1603 1606 p65
+$ T30 Protein S11 57 62 1597 1602 c-Rel
+$ T32 Protein S11 135 137 1675 1677 TF
+@ T44 Binding S11 46 53 1586 1593 binding
+@ T45 Positive_regulation S11 109 117 1649 1657 mediated
+@ T46 Positive_regulation S11 122 131 1662 1671 induction
+@ T47 Gene_expression S11 143 153 1683 1693 expression
+% E20 Binding:T44 Theme:T31
+% E21 Binding:T44 Theme:T30
+% E22 Positive_regulation:T45 Theme:E24 Cause:E21
+% E23 Positive_regulation:T45 Theme:E24 Cause:E20
+% E24 Positive_regulation:T46 Theme:E25
+% E25 Gene_expression:T47 Theme:T32
+

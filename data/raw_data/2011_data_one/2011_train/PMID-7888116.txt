@@ -1,0 +1,63 @@
+The regulation of HIV by retinoic acid correlates with cellular expression of the retinoic acid receptors.
+
+OBJECTIVES: To analyze the effect of retinoic acids (RA) on HIV-1 expression and correlate this effect with expression levels of RA receptors (RARs) in T-lymphoid and monocytoid cell lines.
+
+DESIGN AND METHODS: The effect of all-trans and 9-cis RA on HIV-1 production in T-lymphoid (H9, CEM) and monocytoid (U937,THP-1) cell lines was measured during acute and chronic infection.
+
+The expression levels of human RAR alpha (hRAR alpha, receptor for all-trans RA) and the human retinoid-X receptor alpha (hRXR alpha receptor for 9-cis RA) were determined by Northern blot analysis.
+# T1 Protein S4 31 40 518 527 RAR alpha
+# T2 Protein S4 42 52 529 539 hRAR alpha
+# T3 Protein S4 95 120 582 607 retinoid-X receptor alpha
+# T4 Protein S4 122 132 609 619 hRXR alpha
+$ T1 Protein S4 31 40 518 527 RAR alpha
+$ T4 Protein S4 122 132 609 619 hRXR alpha
+@ T8 Gene_expression S4 4 14 491 501 expression
+@ T9 Binding S4 54 62 541 549 receptor
+@ T10 Binding S4 133 141 620 628 receptor
+% E1 Gene_expression:T8 Theme:T1
+% E2 Gene_expression:T8 Theme:T4
+% E3 Binding:T9 Theme:T1
+% E4 Binding:T10 Theme:T4
+
+RESULTS: Both all-trans and 9-cis RA inhibited virus replication in HIV-1 IIIB-infected monocytoid cells, in the presence and absence of the co-stimulatory agent phorbol myristate acetate (PMA).
+
+The retinoids had weak or no stimulatory effects on HIV production by T-cell lines.
+
+HIV production by PMA-stimulated T-cell lines was inhibited by these retinoids.
+
+The 9-cis RA was generally more effective than all-trans RA in inhibiting HIV production and in combination generally more effective than the single agents alone.
+
+Human RAR alpha was expressed in H9, U937 and THP-1 cells, but almost undetectable in CEM cells.
+
+Human RXR alpha was significantly expressed in U937 and THP-1 cells, weakly expressed in H9 cells and not detectable in CEM cells.
+# T5 Protein S10 6 15 1311 1320 RXR alpha
+$ T5 Protein S10 6 15 1311 1320 RXR alpha
+@ T11 Gene_expression S10 34 43 1339 1348 expressed
+@ T12 Gene_expression S10 76 85 1381 1390 expressed
+@ T13 Gene_expression S10 106 116 1411 1421 detectable
+% E5 Gene_expression:T11 Theme:T5
+% E6 Gene_expression:T12 Theme:T5
+% E7 Gene_expression:T13 Theme:T5
+
+After stimulation by PMA, RXR alpha expression increased in H9 and U937 cells but not in CEM cells.
+# T6 Protein S11 26 35 1462 1471 RXR alpha
+$ T6 Protein S11 26 35 1462 1471 RXR alpha
+@ T14 Gene_expression S11 36 46 1472 1482 expression
+@ T15 Positive_regulation S11 47 56 1483 1492 increased
+% E8 Gene_expression:T14 Theme:T6
+% E9 Positive_regulation:T15 Theme:E8
+
+Human RAR alpha expression was unchanged in H9 and CEM cells, and elevated in U937 cells, after PMA stimulation.
+# T7 Protein S12 6 15 1542 1551 RAR alpha
+$ T7 Protein S12 6 15 1542 1551 RAR alpha
+@ T16 Gene_expression S12 16 26 1552 1562 expression
+@ T17 Regulation S12 31 40 1567 1576 unchanged
+@ T18 Positive_regulation S12 66 74 1602 1610 elevated
+% E10 Gene_expression:T16 Theme:T7
+% E11 Regulation:T17 Theme:E10
+% E12 Positive_regulation:T18 Theme:E10
+
+CONCLUSION: The effect of RA on HIV-1 expression was cell-type-dependent and partially correlated with cellular expression of RARs.
+
+Endogenous or exogenously administered RA may have a significant role in HIV regulation.
+

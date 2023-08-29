@@ -1,0 +1,69 @@
+Rheumatoid arthritis (RA) is characterized by infiltrations of macrophages and T cells into the joint, and synovial hyperplasia.
+
+Proinflammatory cytokines released from these cells are known to be important in the destruction of joints in RA [1].
+
+The favorable clinical benefits obtained with inhibitors of tumor necrosis factor (TNF)-alpha) and interleukin (IL)-1 suggest that the blockade of key inflammatory cytokines has been the important issue in the development of new therapeutic applications [2].
+# T1 Protein S3 60 93 307 340 tumor necrosis factor (TNF)-alpha
+# T2 Protein S3 99 117 346 364 interleukin (IL)-1
+
+A little over a decade ago, the primacy of T cells in the pathogenesis of autoimmune disease such as RA was undisputed because they are the largest cell population infiltrating the synovium.
+
+However, a series of studies demonstrated paucity of T cell-derived cytokines such as IL-2 and interferon-gamma in the joints of RA, whereas macrophage and fibroblast cytokines including IL-1, IL-6, IL-15, IL-18 and TNF-alpha were abundant in rheumatoid synovium.
+# T3 Protein S5 86 90 783 787 IL-2
+# T4 Protein S5 95 111 792 808 interferon-gamma
+# T5 Protein S5 187 191 884 888 IL-1
+# T6 Protein S5 193 197 890 894 IL-6
+# T7 Protein S5 199 204 896 901 IL-15
+# T8 Protein S5 206 211 903 908 IL-18
+# T9 Protein S5 216 225 913 922 TNF-alpha
+
+This paradox has questioned the role of T cells in the pathogenesis of RA [3].
+
+Because we have already demonstrated the enhanced proliferation of antigen specific T cells, especially to type II collagen, and the skewing of T helper type 1 (Th1) cytokines in RA [4], the role of T cells needs to be elucidated in different aspects.
+
+IL-17 is one of the inflammatory cytokines secreted mainly by activated T cells, which can induce IL-6 and IL-8 by fibroblasts [5].
+# T10 Protein S8 0 5 1292 1297 IL-17
+# T11 Protein S8 98 102 1390 1394 IL-6
+# T12 Protein S8 107 111 1399 1403 IL-8
+
+This cytokine is of interest for two major reasons: first, similarly to TNF-alpha and IL-1, IL-17 has proinflammatory properties; second, it is produced by T cells [6].
+# T13 Protein S9 72 81 1496 1505 TNF-alpha
+# T14 Protein S9 86 90 1510 1514 IL-1
+# T15 Protein S9 92 97 1516 1521 IL-17
+
+Recent observations demonstrated that IL-17 can also activate osteoclastic bone resorption by the induction of RANKL (receptor activator of nuclear factor kappaB [NF-kappaB] ligand), which is involved in bony erosion in RA [7].
+# T16 Protein S10 38 43 1631 1636 IL-17
+# T17 Protein S10 111 116 1704 1709 RANKL
+# T18 Protein S10 118 180 1711 1773 receptor activator of nuclear factor kappaB [NF-kappaB] ligand
+
+It also stimulates the production of IL-6 and leukemia inhibitory factor by synoviocytes, and of prostaglandin E2 and nitric oxide by chondrocytes, and has the ability to differentiate and activate the dendritic cells [8-10].
+# T19 Protein S11 37 41 1858 1862 IL-6
+# T20 Protein S11 46 72 1867 1893 leukemia inhibitory factor
+
+Levels of IL-17 in synovial fluids were significantly higher in patients with RA than in patients with osteoarthritis (OA), and it was produced by CD4+ T cells in the synovium [11,12].
+# T21 Protein S12 10 15 2057 2062 IL-17
+# T22 Protein S12 147 150 2194 2197 CD4
+
+IL-15, secreted from activated macrophages, has been reported to be an important trigger of IL-17 production in RA peripheral blood mononuclear cells (PBMC) by cyclosporine and steroid sensitive pathways [13].
+# T23 Protein S13 0 5 2232 2237 IL-15
+# T24 Protein S13 92 97 2324 2329 IL-17
+
+Recently, Happel and colleagues also showed that IL-23 could be an efficient trigger of IL-17 production from both CD4+ and CD8+ T cells [14].
+# T25 Protein S14 49 54 2491 2496 IL-23
+# T26 Protein S14 88 93 2530 2535 IL-17
+# T27 Protein S14 115 118 2557 2560 CD4
+# T28 Protein S14 124 127 2566 2569 CD8
+
+Although the contribution of IL-17 in joint inflammation in RA has been documented in earlier studies [12,15,16], the intracellular signal transduction pathway for IL-17 production remains uncertain.
+# T29 Protein S15 29 34 2614 2619 IL-17
+# T30 Protein S15 164 169 2749 2754 IL-17
+
+In the present study we used various stimuli to investigate IL-17 production in PBMC of patients with RA and its signaling transduction pathway.
+# T31 Protein S16 60 65 2845 2850 IL-17
+
+We found that the intracellular signaling pathway involving phosphoinositide 3-kinase (PI3K)/Akt and NF-kappaB might be involved in the overproduction of the key inflammatory cytokine IL-17 in RA.
+# T32 Protein S17 93 96 3023 3026 Akt
+# T33 Protein S17 184 189 3114 3119 IL-17
+
+These results might provide new insights into the pathogenesis of RA and future directions for new therapeutic strategies in RA.
+

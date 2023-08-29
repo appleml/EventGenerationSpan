@@ -1,0 +1,79 @@
+Foxp3 Suppresses NF-kappaB Dependent Transcriptional Activation
+# T1 Protein S1 0 5 0 5 Foxp3
+
+To ascertain the molecular mechanisms by which Foxp3 functions to promote the regulatory function of CD4+CD25hi T cells, we first confirmed the function of Foxp3 as a repressor of activation of NF-kappaB, previously implicated as a target of other forkhead/winged-helix family transcription factors (e.g., Foxj1 and Foxo3a) [19,20].
+# T2 Protein S2 47 52 111 116 Foxp3
+# T3 Protein S2 101 104 165 168 CD4
+# T4 Protein S2 105 109 169 173 CD25
+# T5 Protein S2 156 161 220 225 Foxp3
+# T6 Protein S2 306 311 370 375 Foxj1
+# T7 Protein S2 316 322 380 386 Foxo3a
+
+We analyzed the effect of Foxp3 overexpression on NF-kappaB activation in HEK 293T cells in dose-response and time course analyses.
+# T8 Protein S3 26 31 423 428 Foxp3
+$ T8 Protein S3 26 31 423 428 Foxp3
+@ T27 Positive_regulation S3 32 46 429 443 overexpression
+% E1 Positive_regulation:T27 Theme:T8
+
+Transfection of HEK 293T cells with an NF-kappaB luciferase reporter vector in the presence or absence of increasing concentrations of a Foxp3 expression vector or a control vector (enhanced green fluorescent protein [EGFP]) was performed, and cells were harvested after 24 h to assay for luciferase activity and Foxp3 mRNA expression.
+# T9 Protein S4 49 59 578 588 luciferase
+# T10 Protein S4 137 142 666 671 Foxp3
+# T11 Protein S4 191 216 720 745 green fluorescent protein
+# T12 Protein S4 289 299 818 828 luciferase
+# T13 Protein S4 313 318 842 847 Foxp3
+$ T10 Protein S4 137 142 666 671 Foxp3
+$ T13 Protein S4 313 318 842 847 Foxp3
+@ T28 Gene_expression S4 143 153 672 682 expression
+@ T29 Transcription S4 319 334 848 863 mRNA expression
+% E2 Gene_expression:T28 Theme:T10
+% E3 Transcription:T29 Theme:T13
+
+Results indicated that as the concentration of Foxp3 transfected into cells increases (from 50 to 2,400 ng), the level of NF-kappaB activation decreases proportionally (Figure 1A).
+# T14 Protein S5 47 52 912 917 Foxp3
+$ T14 Protein S5 47 52 912 917 Foxp3
+@ T30 Gene_expression S5 30 43 895 908 concentration
+@ T31 Positive_regulation S5 76 85 941 950 increases
+% E4 Gene_expression:T30 Theme:T14
+% E5 Positive_regulation:T31 Theme:E4
+
+Foxp3 mRNA was also assayed to monitor activity of the Foxp3 expression vector (Figure 1B).
+# T15 Protein S6 0 5 1046 1051 Foxp3
+# T16 Protein S6 55 60 1101 1106 Foxp3
+$ T16 Protein S6 55 60 1101 1106 Foxp3
+@ T32 Gene_expression S6 61 71 1107 1117 expression
+% E6 Gene_expression:T32 Theme:T16
+
+Since NF-kappaB activation was partially affected by transfection of high concentrations of the control vector, we determined the fold inhibition of NF-kappaB activation by Foxp3 compared to the control vector at each concentration (Figure 1A).
+# T17 Protein S7 173 178 1311 1316 Foxp3
+
+Fold inhibition of NF-kappaB activation was directly proportional to the level of Foxp3 mRNA expression detected by real-time RT-PCR.
+# T18 Protein S8 82 87 1465 1470 Foxp3
+$ T18 Protein S8 82 87 1465 1470 Foxp3
+@ T33 Transcription S8 88 103 1471 1486 mRNA expression
+% E7 Transcription:T33 Theme:T18
+
+To determine the level of Foxp3-mediated suppression of NF-kappaB activation over time, HEK 293T cells were transfected with an NF-kappaB luciferase reporter vector and an expression vector encoding Foxp3 or EGFP (control vector) and harvested over 4 d.
+# T19 Protein S9 26 31 1543 1548 Foxp3
+# T20 Protein S9 138 148 1655 1665 luciferase
+# T21 Protein S9 199 204 1716 1721 Foxp3
+$ T21 Protein S9 199 204 1716 1721 Foxp3
+@ T34 Gene_expression S9 172 182 1689 1699 expression
+% E8 Gene_expression:T34 Theme:T21
+
+As shown in Figure 1C, NF-kappaB activation was suppressed by overexpression of Foxp3 at all time points.
+# T22 Protein S10 80 85 1851 1856 Foxp3
+$ T22 Protein S10 80 85 1851 1856 Foxp3
+@ T35 Positive_regulation S10 62 76 1833 1847 overexpression
+% E9 Positive_regulation:T35 Theme:T22
+
+Extending these results from established, in vitro HEK cell lines to primary human lymphocytes, overexpression of Foxp3 in purified CD4+ T cells from three healthy donors also down-regulated the steady-state level of NF-kappaB activation (Figure 1D).
+# T23 Protein S11 114 119 1991 1996 Foxp3
+# T24 Protein S11 132 135 2009 2012 CD4
+$ T23 Protein S11 114 119 1991 1996 Foxp3
+@ T36 Positive_regulation S11 96 110 1973 1987 overexpression
+% E10 Positive_regulation:T36 Theme:T23
+
+These results recapitulate those from Bettelli and colleagues [15] demonstrating that Foxp3 functions, in part, to block NF-kappaB-dependent transcription in human cell lines as well as in primary human CD4+ T cells.
+# T25 Protein S12 86 91 2214 2219 Foxp3
+# T26 Protein S12 203 206 2331 2334 CD4
+

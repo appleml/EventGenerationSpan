@@ -1,0 +1,29 @@
+Transient Transfection and Luciferase Assays (MEF Cells)
+# T1 Protein S1 27 37 27 37 Luciferase
+
+Cebpb-/- MEFs (1x105) [34] were transfected with the indicated luciferase reporter plasmid (400 ng) along with a beta-actin-beta-galactosidase reporter plasmid (200 ng) by electroporation using the Invitrogen Neon(TM) system (1 pulse, 1350 V, 30 msec).
+# T2 Protein S2 0 5 57 62 Cebpb
+# T3 Protein S2 63 73 120 130 luciferase
+# T4 Protein S2 113 123 170 180 beta-actin
+# T5 Protein S2 124 142 181 199 beta-galactosidase
+
+Transfected cells were transferred to pre-warmed media in 24 well plates and incubated for 48 hrs prior to incubation with LPS (100 ng/ml) for 4 hrs where indicated.
+
+In some experiments, plasmids encoding C/EBP-beta or C/EBP-beta phospho-acceptor mutants (T188A, T217A, S64A) [38]-[40] or control vector were co-transfected (0.6-1.0 microg total DNA).
+# T6 Protein S4 39 49 515 525 C/EBP-beta
+# T7 Protein S4 53 88 529 564 C/EBP-beta phospho-acceptor mutants
+# T8 Protein S4 90 95 566 571 T188A
+# T9 Protein S4 97 102 573 578 T217A
+# T10 Protein S4 104 108 580 584 S64A
+
+Luciferase activity was determined and normalized to that of beta-galactosidase [38] using the Luciferase Assay System and beta-Galactosidase Enzyme Assay System Kits, respectively (Promega).
+# T11 Protein S5 0 10 662 672 Luciferase
+# T12 Protein S5 61 79 723 741 beta-galactosidase
+# T13 Protein S5 95 105 757 767 Luciferase
+# T14 Protein S5 123 141 785 803 beta-Galactosidase
+
+Each experiment was repeated at least three times, and triplicate samples were employed for each sample.
+
+Expression of the C/EBP-beta phospho-acceptor mutant proteins was checked for equal expression by western blot.
+# T15 Protein S7 18 52 977 1011 C/EBP-beta phospho-acceptor mutant
+

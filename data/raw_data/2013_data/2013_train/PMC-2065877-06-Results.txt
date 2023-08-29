@@ -1,0 +1,255 @@
+LMP1 Upregulates IL10 and Constitutively Activates Stat3
+# T1 Protein S1 0 4 0 4 LMP1
+# T2 Protein S1 17 21 17 21 IL10
+# T3 Protein S1 51 56 51 56 Stat3
+$ T2 Protein S1 17 21 17 21 IL10
+$ T1 Protein S1 0 4 0 4 LMP1
+$ T3 Protein S1 51 56 51 56 Stat3
+@ T71 Positive_regulation S1 5 16 5 16 Upregulates
+@ T72 Positive_regulation S1 41 50 41 50 Activates
+% E1 Positive_regulation:T71 Theme:T2 Cause:T1
+% E2 Positive_regulation:T72 Theme:T3 Cause:T1
+
+To identify cytokines that may contribute to the increased survival and growth of lymphomas, the expression levels of a panel of cytokines were screened on CD19+ MACS-purified B cells, using an RPA probe set for IL4, IL5, IL10, IL13, IL15, IL9, IL2, IL6, and IFNgamma.
+# T4 Protein S2 156 160 213 217 CD19
+# T5 Protein S2 212 215 269 272 IL4
+# T6 Protein S2 217 220 274 277 IL5
+# T7 Protein S2 222 226 279 283 IL10
+# T8 Protein S2 228 232 285 289 IL13
+# T9 Protein S2 234 238 291 295 IL15
+# T10 Protein S2 240 243 297 300 IL9
+# T11 Protein S2 245 248 302 305 IL2
+# T12 Protein S2 250 253 307 310 IL6
+# T13 Protein S2 259 267 316 324 IFNgamma
+
+Expression levels were quantified with a phosphorimager and normalized to the ribosomal housekeeping gene L32.
+# T14 Protein S3 106 109 432 435 L32
+
+None of the tested cytokines were detected in wild-type lymphocytes, therefore cytokine:L32 ratios were set to 1 in the mouse B cell lymphoma line 967.
+# T15 Protein S4 88 91 525 528 L32
+@ T69 Anaphora S4 8 28 445 465 the tested cytokines
+@ T73 Gene_expression S4 34 42 471 479 detected
+% E3 Gene_expression:T73 Theme:T5
+% E4 Gene_expression:T73 Theme:T6
+% E5 Gene_expression:T73 Theme:T7
+% E6 Gene_expression:T73 Theme:T8
+% E7 Gene_expression:T73 Theme:T9
+% E8 Gene_expression:T73 Theme:T10
+% E9 Gene_expression:T73 Theme:T11
+% E10 Gene_expression:T73 Theme:T12
+% E11 Gene_expression:T73 Theme:T13
+
+Transcription of IL10, IL15, and IFNgamma were reproducibly detected in LMP1 transgenic lymphocytes and lymphoma cells and was higher than in the B cell lymphoma cell lines 967 and K46mu (Figure 5A).
+# T16 Protein S5 17 21 606 610 IL10
+# T17 Protein S5 23 27 612 616 IL15
+# T18 Protein S5 33 41 622 630 IFNgamma
+# T19 Protein S5 72 76 661 665 LMP1
+$ T16 Protein S5 17 21 606 610 IL10
+$ T17 Protein S5 23 27 612 616 IL15
+$ T18 Protein S5 33 41 622 630 IFNgamma
+@ T74 Transcription S5 0 13 589 602 Transcription
+@ T75 Positive_regulation S5 127 133 716 722 higher
+% E12 Transcription:T74 Theme:T16
+% E13 Transcription:T74 Theme:T17
+% E14 Transcription:T74 Theme:T18
+% E15 Positive_regulation:T75 Theme:E12
+% E16 Positive_regulation:T75 Theme:E13
+% E17 Positive_regulation:T75 Theme:E14
+
+There was no significant difference in the expression of IL15 and IFNgamma between LMP1 transgenic lymphocytes and lymphoma cells, suggesting that upregulation of IL15 and IFNgamma is induced by LMP1 expression in healthy lymphocytes but is not a unique property of malignant lymphocytes.
+# T20 Protein S6 57 61 846 850 IL15
+# T21 Protein S6 66 74 855 863 IFNgamma
+# T22 Protein S6 83 87 872 876 LMP1
+# T23 Protein S6 115 129 904 918 lymphoma cells
+# T24 Protein S6 163 167 952 956 IL15
+# T25 Protein S6 172 180 961 969 IFNgamma
+# T26 Protein S6 195 199 984 988 LMP1
+$ T20 Protein S6 57 61 846 850 IL15
+$ T21 Protein S6 66 74 855 863 IFNgamma
+$ T24 Protein S6 163 167 952 956 IL15
+$ T25 Protein S6 172 180 961 969 IFNgamma
+$ T26 Protein S6 195 199 984 988 LMP1
+@ T76 Gene_expression S6 43 53 832 842 expression
+@ T77 Positive_regulation S6 147 159 936 948 upregulation
+@ T78 Positive_regulation S6 184 191 973 980 induced
+@ T79 Gene_expression S6 200 210 989 999 expression
+% E18 Gene_expression:T76 Theme:T20
+% E19 Gene_expression:T76 Theme:T21
+% E20 Positive_regulation:T77 Theme:T24
+% E21 Positive_regulation:T77 Theme:T25
+% E22 Positive_regulation:T78 Theme:E20 Cause:E23
+% E24 Positive_regulation:T78 Theme:E21 Cause:E23
+% E23 Gene_expression:T79 Theme:T26
+
+Strikingly, IL10, a B lymphocyte stimulatory cytokine, was increased 1.5- to 5-fold in the wild-type and LMP1 transgenic lymphoma cells compared to LMP1 transgenic lymphocytes (Figure 5A).
+# T27 Protein S7 12 16 1090 1094 IL10
+# T28 Protein S7 105 109 1183 1187 LMP1
+# T29 Protein S7 148 152 1226 1230 LMP1
+$ T27 Protein S7 12 16 1090 1094 IL10
+@ T80 Positive_regulation S7 59 68 1137 1146 increased
+% E25 Positive_regulation:T80 Theme:T27
+
+Production of IL15 and IFNgamma has been associated with induction of cytotoxic effector responses in cells latently infected with EBV [33,34].
+# T30 Protein S8 14 18 1281 1285 IL15
+# T31 Protein S8 23 31 1290 1298 IFNgamma
+$ T30 Protein S8 14 18 1281 1285 IL15
+$ T31 Protein S8 23 31 1290 1298 IFNgamma
+@ T81 Gene_expression S8 0 10 1267 1277 Production
+% E26 Gene_expression:T81 Theme:T30
+% E27 Gene_expression:T81 Theme:T31
+
+However, transformation and growth properties induced by EBV are associated with the upregulation of IL10 [35-38]; hence, the effects of IL10 upregulation on the growth properties of the lymphoma cells were further examined.
+# T32 Protein S9 101 105 1512 1516 IL10
+# T33 Protein S9 137 141 1548 1552 IL10
+$ T32 Protein S9 101 105 1512 1516 IL10
+$ T33 Protein S9 137 141 1548 1552 IL10
+@ T82 Positive_regulation S9 85 97 1496 1508 upregulation
+@ T83 Positive_regulation S9 142 154 1553 1565 upregulation
+% E28 Positive_regulation:T82 Theme:T32
+% E29 Positive_regulation:T83 Theme:T33
+
+Immunoblot analysis indicated that LMP1 transgenic lymphocytes and wild-type and LMP1 transgenic lymphoma cells had corresponding increased levels of phosphorylated alpha and beta isoforms of activated Stat3, a target of the IL10 receptor (Figure 5B).
+# T34 Protein S10 35 39 1671 1675 LMP1
+# T35 Protein S10 81 85 1717 1721 LMP1
+# T36 Protein S10 202 207 1838 1843 Stat3
+# T37 Protein S10 225 229 1861 1865 IL10
+$ T36 Protein S10 202 207 1838 1843 Stat3
+@ T84 Positive_regulation S10 130 139 1766 1775 increased
+@ T85 Phosphorylation S10 150 164 1786 1800 phosphorylated
+@ T86 Positive_regulation S10 192 201 1828 1837 activated
+@ T87 Regulation S10 211 217 1847 1853 target
+% E30 Positive_regulation:T84 Theme:E31
+% E31 Phosphorylation:T85 Theme:T36
+% E32 Positive_regulation:T86 Theme:T36
+% E33 Regulation:T87 Theme:T36
+
+However, when comparing the same lymphomas, there was no correlation between the levels of IL10 induction and the levels of Stat3 activation.
+# T38 Protein S11 91 95 1979 1983 IL10
+# T39 Protein S11 124 129 2012 2017 Stat3
+$ T38 Protein S11 91 95 1979 1983 IL10
+$ T39 Protein S11 124 129 2012 2017 Stat3
+@ T88 Regulation S11 57 68 1945 1956 correlation
+@ T89 Positive_regulation S11 96 105 1984 1993 induction
+@ T90 Positive_regulation S11 130 140 2018 2028 activation
+% E34 Regulation:T88 Theme:E35 Cause:E36
+% E36 Positive_regulation:T89 Theme:T38
+% E35 Positive_regulation:T90 Theme:T39
+
+This suggests that the activation of Stat3 is not solely induced by IL10 or that Stat3 activation may be constitutive.
+# T40 Protein S12 37 42 2067 2072 Stat3
+# T41 Protein S12 68 72 2098 2102 IL10
+# T42 Protein S12 81 86 2111 2116 Stat3
+$ T40 Protein S12 37 42 2067 2072 Stat3
+$ T41 Protein S12 68 72 2098 2102 IL10
+@ T91 Positive_regulation S12 23 33 2053 2063 activation
+@ T92 Positive_regulation S12 57 64 2087 2094 induced
+% E37 Positive_regulation:T91 Theme:T40
+% E38 Positive_regulation:T92 Theme:E37 Cause:T41
+
+Additionally, there was no correlation between the levels of LMP1 expression and the levels of IL10 induction (Figures 1A and 5A).
+# T43 Protein S13 61 65 2210 2214 LMP1
+# T44 Protein S13 95 99 2244 2248 IL10
+$ T43 Protein S13 61 65 2210 2214 LMP1
+$ T44 Protein S13 95 99 2244 2248 IL10
+@ T93 Regulation S13 27 38 2176 2187 correlation
+@ T94 Gene_expression S13 66 76 2215 2225 expression
+@ T95 Positive_regulation S13 100 109 2249 2258 induction
+% E39 Regulation:T93 Theme:E40 Cause:E41
+% E41 Gene_expression:T94 Theme:T43
+% E40 Positive_regulation:T95 Theme:T44
+
+This indicates that the induction of IL10 is a general property associated with enhanced survival and may only be indirectly affected by LMP1.
+# T45 Protein S14 37 41 2317 2321 IL10
+# T46 Protein S14 137 141 2417 2421 LMP1
+$ T45 Protein S14 37 41 2317 2321 IL10
+$ T46 Protein S14 137 141 2417 2421 LMP1
+@ T96 Positive_regulation S14 24 33 2304 2313 induction
+@ T97 Regulation S14 125 133 2405 2413 affected
+% E42 Positive_regulation:T96 Theme:T45
+% E43 Regulation:T97 Theme:E42 Cause:T46
+
+Neutralizing antibodies to IL10 did not affect the survival of lymphoma cells as determined by the MTS assay (unpublished data), suggesting constitutive activation of Stat3.
+# T47 Protein S15 27 31 2450 2454 IL10
+# T48 Protein S15 167 172 2590 2595 Stat3
+$ T47 Protein S15 27 31 2450 2454 IL10
+$ T48 Protein S15 167 172 2590 2595 Stat3
+@ T98 Negative_regulation S15 0 12 2423 2435 Neutralizing
+@ T99 Positive_regulation S15 153 163 2576 2586 activation
+% E44 Negative_regulation:T98 Theme:T47
+% E45 Positive_regulation:T99 Theme:T48
+
+This was confirmed by immunoblot analysis such that in the presence of anti-IL10 neutralizing antibodies, pStat3 levels remained activated in lymphoma cells isolated from wild-type and LMP1 transgenic lymphomas (Figure 5C).
+# T49 Protein S16 76 80 2673 2677 IL10
+# T50 Protein S16 106 112 2703 2709 pStat3
+# T51 Protein S16 185 189 2782 2786 LMP1
+$ T50 Protein S16 106 112 2703 2709 pStat3
+@ T100 Positive_regulation S16 129 138 2726 2735 activated
+% E46 Positive_regulation:T100 Theme:T50
+
+Exogenous addition of IL10 enhanced pStat3 activation above constitutive levels, indicating that lymphoma cells are responsive to IL10 treatment (Figure 5C).
+# T52 Protein S17 22 26 2843 2847 IL10
+# T53 Protein S17 36 42 2857 2863 pStat3
+# T54 Protein S17 130 134 2951 2955 IL10
+$ T52 Protein S17 22 26 2843 2847 IL10
+$ T53 Protein S17 36 42 2857 2863 pStat3
+@ T101 Positive_regulation S17 27 35 2848 2856 enhanced
+@ T102 Positive_regulation S17 43 53 2864 2874 activation
+% E47 Positive_regulation:T101 Theme:E48 Cause:T52
+% E48 Positive_regulation:T102 Theme:T53
+
+This means that although the lymphoma cells have constitutive Stat3 activation, it may be further enhanced by IL10 induction.
+# T55 Protein S18 62 67 3041 3046 Stat3
+# T56 Protein S18 110 114 3089 3093 IL10
+$ T55 Protein S18 62 67 3041 3046 Stat3
+@ T103 Positive_regulation S18 68 78 3047 3057 activation
+@ T70 Anaphora S18 80 82 3059 3061 it
+@ T104 Positive_regulation S18 98 106 3077 3085 enhanced
+% E49 Positive_regulation:T103 Theme:T55
+% E50 Positive_regulation:T104 Theme:E49
+
+The neutralizing effect of the anti-IL10 antibody was confirmed by pre-incubation of IL10 with anti-IL10 antibody compared to a rat IgG1 isotype control (Figure 5C).
+# T57 Protein S19 36 40 3141 3145 IL10
+# T58 Protein S19 85 89 3190 3194 IL10
+# T59 Protein S19 100 104 3205 3209 IL10
+$ T57 Protein S19 36 40 3141 3145 IL10
+@ T105 Negative_regulation S19 4 23 3109 3128 neutralizing effect
+% E51 Negative_regulation:T105 Theme:T57
+
+Nuclear translocation of pStat3 is a consequence of activation, and nuclear pStat3 was not detected by immunohistochemistry staining of spleen sections from control mice.
+# T60 Protein S20 25 31 3296 3302 pStat3
+# T61 Protein S20 76 82 3347 3353 pStat3
+$ T60 Protein S20 25 31 3296 3302 pStat3
+$ T61 Protein S20 76 82 3347 3353 pStat3
+@ T106 Entity S20 0 7 3271 3278 Nuclear
+@ T107 Localization S20 8 21 3279 3292 translocation
+@ T108 Positive_regulation S20 37 48 3308 3319 consequence
+@ T109 Positive_regulation S20 52 62 3323 3333 activation
+@ T110 Entity S20 68 75 3339 3346 nuclear
+@ T111 Localization S20 91 99 3362 3370 detected
+% E52 Localization:T107 Theme:T60 ToLoc:T106
+% E53 Positive_regulation:T108 Theme:E52 Cause:E54
+% E54 Positive_regulation:T109 Theme:T60
+% E55 Localization:T111 Theme:T61 ToLoc:T110
+
+However, nuclear pStat3 was detectable in LMP1 transgenic mice and wild-type lymphomas and was detected more homogeneously in LMP1 transgenic lymphomas (Figure 5D).
+# T62 Protein S21 17 23 3459 3465 pStat3
+# T63 Protein S21 42 46 3484 3488 LMP1
+# T64 Protein S21 126 130 3568 3572 LMP1
+$ T62 Protein S21 17 23 3459 3465 pStat3
+@ T112 Entity S21 9 16 3451 3458 nuclear
+@ T113 Localization S21 28 38 3470 3480 detectable
+@ T114 Localization S21 95 103 3537 3545 detected
+% E56 Localization:T113 Theme:T62 ToLoc:T112
+% E57 Localization:T114 Theme:T62 ToLoc:T112
+
+The constitutive activation of pStat3 and abundant nuclear Stat3 suggests that Stat3 signaling contributes to LMP1-mediated lymphoma development.
+# T65 Protein S22 31 37 3638 3644 pStat3
+# T66 Protein S22 59 64 3666 3671 Stat3
+# T67 Protein S22 79 84 3686 3691 Stat3
+# T68 Protein S22 110 114 3717 3721 LMP1
+$ T65 Protein S22 31 37 3638 3644 pStat3
+$ T66 Protein S22 59 64 3666 3671 Stat3
+@ T115 Positive_regulation S22 17 27 3624 3634 activation
+% E58 Positive_regulation:T115 Theme:T65
+% E59 Positive_regulation:T115 Theme:T66
+

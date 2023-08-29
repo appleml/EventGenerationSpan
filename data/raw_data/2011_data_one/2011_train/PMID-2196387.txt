@@ -1,0 +1,29 @@
+Inducible nuclear factor binding to the kappa B elements of the human immunodeficiency virus enhancer in T cells can be blocked by cyclosporin A in a signal-dependent manner.
+
+Cyclosporin A (CsA) is thought to exert its immunosuppressive effects by inhibiting the expression of a distinct set of lymphokine genes which are induced upon T-cell activation, among them the gene coding for interleukin-2.
+# T1 Protein S2 210 223 386 399 interleukin-2
+$ T1 Protein S2 210 223 386 399 interleukin-2
+@ T4 Negative_regulation S2 73 83 249 259 inhibiting
+@ T5 Gene_expression S2 88 98 264 274 expression
+% E1 Negative_regulation:T4 Theme:E2
+% E2 Gene_expression:T5 Theme:T1
+
+In addition, the activation of the human immunodeficiency virus (HIV) is partially suppressed.
+
+To better understand the molecular mechanisms underlying suppression by CsA, we have investigated the effects of this drug on transcription factors in T cells.
+
+Here we report that the formation of two distinct mitogen-inducible DNA-binding complexes, the kappa B complex within the HIV enhancer and the NFAT-1 complex within the interleukin-2 enhancer, is inhibited in the presence of CsA.
+# T2 Protein S5 143 149 799 805 NFAT-1
+# T3 Protein S5 169 182 825 838 interleukin-2
+$ T2 Protein S5 143 149 799 805 NFAT-1
+$ T3 Protein S5 169 182 825 838 interleukin-2
+@ T6 Binding S5 24 33 680 689 formation
+@ T7 Entity S5 183 191 839 847 enhancer
+@ T8 Negative_regulation S5 196 205 852 861 inhibited
+% E3 Binding:T6 Theme:T2 Theme2:T3 Site2:T7
+% E4 Negative_regulation:T8 Theme:E3
+
+The kappa B-binding activity with the HIV enhancer is inhibited only if it is activated via the mitogen phytohemagglutinin whereas phorbol myristate acetate-mediated activation is completely insensitive to the drug.
+
+This suggests a model in which functionally indistinguishable kappa B complexes can be activated via two separate pathways of signal transduction distinguishable by CsA.
+

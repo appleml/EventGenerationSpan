@@ -1,0 +1,37 @@
+Erythropoietin stimulates transcription of the TAL1/SCL gene and phosphorylation of its protein products.
+# T1 Protein S1 0 14 0 14 Erythropoietin
+# T2 Protein S1 47 51 47 51 TAL1
+# T3 Protein S1 52 55 52 55 SCL
+
+Activation of the TAL1 (or SCL) gene, originally identified through its involvement by a recurrent chromosomal translocation, is the most frequent molecular lesion recognized in T-cell acute lymphoblastic leukemia.
+# T4 Protein S2 18 22 125 129 TAL1
+# T5 Protein S2 27 30 134 137 SCL
+
+The protein products of this gene contain the basic-helix-loop-helix motif characteristic of a large family of transcription factors that bind to the canonical DNA sequence CANNTG as protein heterodimers.
+
+TAL1 expression by erythroid cells in vivo and in chemical-induced erythroleukemia cell lines in vivo suggested the gene might regulate aspects of erythroid differentiation.
+# T6 Protein S4 0 4 527 531 TAL1
+
+Since the terminal events of erythropoiesis are controlled by the glycoprotein hormone erythropoietin (Epo), we investigated whether the expression or activity of the TAL1 gene and its protein products were affected by Epo in splenic erythroblasts from mice infected with an anemia-inducing strain of Friend virus (FVA cells).
+# T7 Protein S5 87 101 788 802 erythropoietin
+# T8 Protein S5 103 106 804 807 Epo
+# T9 Protein S5 167 171 868 872 TAL1
+# T10 Protein S5 219 222 920 923 Epo
+
+Epo elicited a rapid, dose-related increase in TAL1 mRNA by increasing transcription of the gene and stabilizing one of its mRNAs.
+# T11 Protein S6 0 3 1028 1031 Epo
+# T12 Protein S6 47 51 1075 1079 TAL1
+
+An Epo-inducible TAL1 DNA binding activity was identified in FVA cell nuclear extracts that subsequently decayed despite accumulating mRNA and protein.
+# T13 Protein S7 3 6 1162 1165 Epo
+# T14 Protein S7 17 21 1176 1180 TAL1
+
+Induction of DNA binding activity was associated temporally with Epo-induced phosphorylation of nuclear TAL1 protein.
+# T15 Protein S8 65 68 1376 1379 Epo
+# T16 Protein S8 104 108 1415 1419 TAL1
+
+These results indicate that Epo acts at both transcriptional and posttranscriptional levels on the TAL1 locus in Friend virus-induced erythroblasts and establish a link between Epo signaling mechanisms and a member of a family of transcription factors involved in the differentiation of diverse cell lineages.
+# T17 Protein S9 28 31 1457 1460 Epo
+# T18 Protein S9 99 103 1528 1532 TAL1
+# T19 Protein S9 177 180 1606 1609 Epo
+

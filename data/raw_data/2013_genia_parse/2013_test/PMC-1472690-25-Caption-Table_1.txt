@@ -1,0 +1,9 @@
+Sense	NN	B-NP	O	Other	###	1	Sense	Sense	NN	NN	_	2	compound	_	_
+strand	NN	I-NP	O	Other	###	2	strand	strand	NN	NN	_	0	root	_	_
+of	IN	B-PP	O	Other	###	3	of	of	IN	IN	_	4	case	_	_
+oligonucleotides	NNS	B-NP	O	Other	###	4	oligonucleotides	oligonucleotides	NNS	NNS	_	2	nmod	_	_
+used	VBN	B-VP	O	Other	###	5	used	used	VBN	VBN	_	4	acl	_	_
+in	IN	B-PP	O	Other	###	6	in	in	IN	IN	_	7	case	_	_
+EMSAs	NNS	B-NP	O	Other	###	7	EMSAs	EMSAs	NNS	NNS	_	5	nmod	_	_
+.	.	O	O	Other	###	8	.	.	.	.	_	2	punct	_	_
+

@@ -1,0 +1,83 @@
+The evolutionarily conserved sequence upstream of the human Ig heavy chain S gamma 3 region is an inducible promoter: synergistic activation by CD40 ligand and IL-4 via cooperative NF-kappa B and STAT-6 binding sites.
+# T1 Protein S1 144 155 144 155 CD40 ligand
+# T2 Protein S1 160 164 160 164 IL-4
+# T3 Protein S1 196 202 196 202 STAT-6
+
+Germline C gamma gene transcription is a crucial event in the process that leads to switch DNA recombination to IgG, but its regulation in the human is poorly understood.
+
+We took advantage of our monoclonal model of germinal center B cell differentiation, IgM+ IgD+ CL-01 cells, to define the role of the I gamma 3 evolutionarily conserved sequence (ECS) in the germline transcriptional activation of the human C gamma 3 gene.
+# T4 Protein S3 134 143 524 533 I gamma 3
+# T5 Protein S3 240 249 630 639 C gamma 3
+$ T5 Protein S3 240 249 630 639 C gamma 3
+@ T32 Regulation S3 122 126 512 516 role
+@ T33 Positive_regulation S3 216 226 606 616 activation
+% E1 Regulation:T32 Theme:E2
+% E2 Positive_regulation:T33 Theme:T5
+
+The I gamma 3 ECS lies upstream of the major I gamma 3 transcription initiation site and displays more than 90% identity with the corresponding human I gamma 1, I gamma 2, and I gamma 4 regions.
+# T6 Protein S4 4 13 650 659 I gamma 3
+# T7 Protein S4 45 54 691 700 I gamma 3
+# T8 Protein S4 150 159 796 805 I gamma 1
+# T9 Protein S4 161 170 807 816 I gamma 2
+# T10 Protein S4 176 185 822 831 I gamma 4
+
+Reporter luciferase gene vectors containing the human gamma 3 ECS were used to transfect CL-01 cells, which have been shown to undergo Smu-->S gamma 3 DNA recombination, upon engagement of CD40 by CD40 ligand (CD40L) and exposure to IL-4.
+# T11 Protein S5 189 193 1030 1034 CD40
+# T12 Protein S5 197 208 1038 1049 CD40 ligand
+# T13 Protein S5 210 215 1051 1056 CD40L
+# T14 Protein S5 233 237 1074 1078 IL-4
+$ T11 Protein S5 189 193 1030 1034 CD40
+$ T12 Protein S5 197 208 1038 1049 CD40 ligand
+@ T34 Binding S5 175 185 1016 1026 engagement
+% E3 Binding:T34 Theme:T11 Theme2:T12
+
+In these transfected CL-01 cells, CD40:CD40L engagement and exposure to IL-4 synergistically induced gamma 3 ECS-dependent luciferase reporter gene activation.
+# T15 Protein S6 34 38 1114 1118 CD40
+# T16 Protein S6 39 44 1119 1124 CD40L
+# T17 Protein S6 72 76 1152 1156 IL-4
+$ T15 Protein S6 34 38 1114 1118 CD40
+$ T16 Protein S6 39 44 1119 1124 CD40L
+@ T35 Binding S6 45 55 1125 1135 engagement
+% E4 Binding:T35 Theme:T15 Theme2:T16
+
+Targeted mutational analysis demonstrated that a tandem NF-kappa B/Rel binding motif is critical for the gamma 3 ECS responsiveness to both CD40L and IL-4, while a STAT-6-binding site is additionally required for IL-4 inducibility.
+# T18 Protein S7 140 145 1380 1385 CD40L
+# T19 Protein S7 150 154 1390 1394 IL-4
+# T20 Protein S7 164 170 1404 1410 STAT-6
+# T21 Protein S7 213 217 1453 1457 IL-4
+$ T21 Protein S7 213 217 1453 1457 IL-4
+@ T36 Positive_regulation S7 218 230 1458 1470 inducibility
+% E5 Positive_regulation:T36 Theme:T21
+
+Electrophoretic mobility shift assays showed that p50/p65/c-Rel and STAT-6 are effectively induced by CD40L and IL-4, respectively, and bind to specific DNA motifs within the ECS.
+# T22 Protein S8 50 53 1522 1525 p50
+# T23 Protein S8 54 57 1526 1529 p65
+# T24 Protein S8 58 63 1530 1535 c-Rel
+# T25 Protein S8 68 74 1540 1546 STAT-6
+# T26 Protein S8 102 107 1574 1579 CD40L
+# T27 Protein S8 112 116 1584 1588 IL-4
+$ T24 Protein S8 58 63 1530 1535 c-Rel
+$ T26 Protein S8 102 107 1574 1579 CD40L
+$ T23 Protein S8 54 57 1526 1529 p65
+$ T25 Protein S8 68 74 1540 1546 STAT-6
+$ T27 Protein S8 112 116 1584 1588 IL-4
+$ T22 Protein S8 50 53 1522 1525 p50
+@ T37 Positive_regulation S8 91 98 1563 1570 induced
+@ T38 Binding S8 136 140 1608 1612 bind
+% E6 Positive_regulation:T37 Theme:T24 Cause:T26
+% E7 Positive_regulation:T37 Theme:T23 Cause:T26
+% E8 Positive_regulation:T37 Theme:T25 Cause:T27
+% E9 Positive_regulation:T37 Theme:T22 Cause:T26
+% E10 Binding:T38 Theme:T24
+% E11 Binding:T38 Theme:T23
+% E12 Binding:T38 Theme:T22
+% E13 Binding:T38 Theme:T25
+
+These partially overlapping CD40L and IL-4 responsive elements are functionally cooperative as the disruption of one of them prevents synergistic promoter activation.
+# T28 Protein S9 28 33 1680 1685 CD40L
+# T29 Protein S9 38 42 1690 1694 IL-4
+
+Thus, the gamma 3 ECS is an inducible promoter containing cis elements that critically mediate CD40L and IL-4-triggered transcriptional activation of the human C gamma 3 gene.
+# T30 Protein S10 95 100 1914 1919 CD40L
+# T31 Protein S10 105 109 1924 1928 IL-4
+

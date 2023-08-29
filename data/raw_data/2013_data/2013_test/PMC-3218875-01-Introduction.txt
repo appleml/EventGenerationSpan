@@ -1,0 +1,43 @@
+Rheumatoid arthritis (RA) is the most common inflammatory arthritis, affecting up to 1% of the adult population.
+
+RA is characterised by a symmetrical polyarthritis in which chronic inflammation of joints is associated with a progressive destruction of cartilage and bone, leading to functional decline and disability.
+
+Infiltration of cells of the innate and adaptive immune system into the joint space drives the local production of proinflammatory T-helper type 1 and T-helper type 17 cytokines, chemokines, and matrix metalloproteinases by infiltrating monocytes and synovial cells.
+
+Proliferation of synovial fibroblasts leads to the formation of pannus tissue, which invades and degrades articular cartilage and subchondral bone.
+
+The aetiology of RA is still not understood, but it is well accepted that activation of NF-kappaB-dependent gene expression plays a key role in the development of RA and many other autoimmune diseases.
+
+NF-kappaB represents a family of structurally related and evolutionarily conserved proteins (p100 or NF-kappaB2, p105 or NF-kappaB1, p65 or RelA, RelB, c-Rel) that function as homodimers or heterodimers [1], and that regulate the expression of a large number of genes - such as TNF, IL-1, IL-6, cyclo-oxygenase-2, chemokines, inducible nitric oxide synthase, and matrix metalloproteinases - that are involved in RA.
+# T1 Protein S6 93 97 1028 1032 p100
+# T2 Protein S6 101 111 1036 1046 NF-kappaB2
+# T3 Protein S6 113 117 1048 1052 p105
+# T4 Protein S6 121 131 1056 1066 NF-kappaB1
+# T5 Protein S6 133 136 1068 1071 p65
+# T6 Protein S6 140 144 1075 1079 RelA
+# T7 Protein S6 146 150 1081 1085 RelB
+# T8 Protein S6 152 157 1087 1092 c-Rel
+# T9 Protein S6 278 281 1213 1216 TNF
+# T10 Protein S6 289 293 1224 1228 IL-6
+# T11 Protein S6 295 312 1230 1247 cyclo-oxygenase-2
+# T12 Protein S6 326 357 1261 1292 inducible nitric oxide synthase
+
+In addition, TNF and IL-1 are themselves very potent activators of NF-kappaB (reviewed in [2,3]).
+# T13 Protein S7 13 16 1364 1367 TNF
+
+NF-kappaB activation can be detected in cultured synovial fibroblasts and synovial tissue from RA patients, and animal models of inflammatory arthritis also demonstrate the active role of NF-kappaB in the development and progression of RA (reviewed in [4]).
+
+The time course of NF-kappaB activation appears to precede the onset of disease, and blockade of NF-kappaB by different means decreases disease severity [5,6].
+
+Next to its role in proinflammatory gene expression, NF-kappaB is also essential for osteoclastogenesis, mainly by mediating the effects of receptor activator of NF-kappaB ligand (RANKL).
+# T14 Protein S10 140 178 2007 2045 receptor activator of NF-kappaB ligand
+# T15 Protein S10 180 185 2047 2052 RANKL
+
+Defects in the regulation of osteoclastogenesis are the major cause of bone erosion in osteolytic diseases such as RA [7].
+
+Finally, recent discoveries revealing a genetic association with several genes relevant to NF-kappaB signalling, including CD40, TRAF1, TNFAIP3, and c-REL, further highlight the importance of NF-kappaB activation in RA pathogenesis [8].
+# T16 Protein S12 123 127 2301 2305 CD40
+# T17 Protein S12 129 134 2307 2312 TRAF1
+# T18 Protein S12 136 143 2314 2321 TNFAIP3
+# T19 Protein S12 149 154 2327 2332 c-REL
+

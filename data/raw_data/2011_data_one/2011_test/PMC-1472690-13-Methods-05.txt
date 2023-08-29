@@ -1,0 +1,17 @@
+Preparation of nuclear extracts and electrophoretic mobility shift assays (EMSA)
+
+Nuclear extracts of purified PBMCs were prepared according to a technique described by Trede et al. [27] and modified for our experimental setup [56].
+
+The intensity of shifted bands was normalized to bands of unstimulated controls.
+
+Competition experiments with labeled and unlabeled mutated oligos of the cytokine promoter binding sites (see above) were carried out in order to prevent non-specific binding to nuclear proteins.
+
+For such experiments, an excess (5-50x) of unlabeled oligos was added to the nuclear extracts.
+
+For specificity of binding, supershift assays for NFkappaB with a combined p65/50 antibody were performed (data not shown).
+# T1 Protein S6 75 78 679 682 p65
+# T2 Protein S6 79 81 683 685 50
+
+To exclude non-specific reactions, a 30-fold molar excess of Oct-1 DNA (unrelated DNA, Table 1) was used, which did not compete with specific binding.
+# T3 Protein S7 61 66 789 794 Oct-1
+

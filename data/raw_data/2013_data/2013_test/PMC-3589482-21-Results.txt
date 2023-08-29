@@ -1,0 +1,24 @@
+C/EBP-beta Promotes LPS-inducible Murine SerpinB2 Proximal Promoter Activity
+# T1 Protein S1 0 10 0 10 C/EBP-beta
+# T2 Protein S1 41 49 41 49 SerpinB2
+
+Since C/EBP-beta binds to the SerpinB2 proximal promoter in an LPS-inducible manner both in vitro and in vivo, we wanted to address the question of whether C/EBP-beta was an essential factor for driving transcription from the SerpinB2 promoter in cells in response to LPS.
+# T3 Protein S2 6 16 83 93 C/EBP-beta
+# T4 Protein S2 30 38 107 115 SerpinB2
+# T5 Protein S2 156 166 233 243 C/EBP-beta
+# T6 Protein S2 226 234 303 311 SerpinB2
+
+The ability of endogenous C/EBP-beta to direct transcription from the SerpinB2 proximal promoter was examined by transfection of the pGLmP-539 murine SerpinB2 luciferase reporter construct into Cebpb+/+ and Cebpb-/- MEFs.
+# T7 Protein S3 26 36 376 386 C/EBP-beta
+# T8 Protein S3 70 78 420 428 SerpinB2
+# T9 Protein S3 150 178 500 528 SerpinB2 luciferase reporter
+# T10 Protein S3 194 199 544 549 Cebpb
+# T11 Protein S3 207 212 557 562 Cebpb
+
+We found that LPS-stimulated SerpinB2 promoter activity was significantly increased in Cebpb+/+ MEFs and abrogated in Cebpb-/- MEFs (Fig. 8A), indicating that endogenous C/EBP-beta is required for LPS-induced SerpinB2 proximal promoter activity.
+# T12 Protein S4 29 37 601 609 SerpinB2
+# T13 Protein S4 87 92 659 664 Cebpb
+# T14 Protein S4 118 123 690 695 Cebpb
+# T15 Protein S4 170 180 742 752 C/EBP-beta
+# T16 Protein S4 209 217 781 789 SerpinB2
+

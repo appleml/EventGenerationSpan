@@ -1,0 +1,29 @@
+BCL-6, a POZ/zinc-finger protein, is a sequence-specific transcriptional repressor.
+# T1 Protein S1 0 5 0 5 BCL-6
+
+Approximately 40% of diffuse large cell lymphoma are associated with chromosomal translocations that deregulate the expression of the BCL6 gene by juxtaposing heterologous promoters to the BCL-6 coding domain.
+# T2 Protein S2 134 138 219 223 BCL6
+# T3 Protein S2 189 194 274 279 BCL-6
+$ T2 Protein S2 134 138 219 223 BCL6
+@ T11 Regulation S2 101 111 186 196 deregulate
+@ T12 Gene_expression S2 116 126 201 211 expression
+% E1 Regulation:T11 Theme:E2
+% E2 Gene_expression:T12 Theme:T2
+
+The BCL6 gene encodes a 95-kDa protein containing six C-terminal zinc-finger motifs and an N-terminal POZ domain, suggesting that it may function as a transcription factor.
+# T4 Protein S3 4 8 299 303 BCL6
+
+By using a DNA sequence selected for its ability to bind recombinant BCL-6 in vitro, we show here that BCL-6 is present in DNA-binding complexes in nuclear extracts from various B-cell lines.
+# T5 Protein S4 69 74 537 542 BCL-6
+# T6 Protein S4 103 108 571 576 BCL-6
+
+In transient transfectin experiments, BCL6 can repress transcription from promoters linked to its DNA target sequence and this activity is dependent upon specific DNA-binding and the presence of an intact N-terminal half of the protein.
+# T7 Protein S5 38 42 698 702 BCL6
+
+We demonstrate that this part of the BCL6 molecule contains an autonomous transrepressor domain and that two noncontiguous regions, including the POZ motif, mediate maximum transrepressive activity.
+# T8 Protein S6 37 41 934 938 BCL6
+
+These results indicate that the BCL-6 protein can function as a sequence-specific transcriptional repressor and have implications for the role of BCL6 in normal lymphoid development and lymphomagenesis.
+# T9 Protein S7 32 37 1128 1133 BCL-6
+# T10 Protein S7 146 150 1242 1246 BCL6
+

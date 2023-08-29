@@ -1,0 +1,70 @@
+AM580, a stable benzoic derivative of retinoic acid, has powerful and selective cyto-differentiating effects on acute promyelocytic leukemia cells.
+
+All-trans retinoic acid (ATRA) is successfully used in the cyto-differentiating treatment of acute promyelocytic leukemia (APL).
+
+Paradoxically, APL cells express PML-RAR, an aberrant form of the retinoic acid receptor type alpha (RAR alpha) derived from the leukemia-specific t(15;17) chromosomal translocation.
+# T1 Protein S3 33 40 311 318 PML-RAR
+# T2 Protein S3 66 99 344 377 retinoic acid receptor type alpha
+# T3 Protein S3 101 110 379 388 RAR alpha
+$ T1 Protein S3 33 40 311 318 PML-RAR
+@ T20 Gene_expression S3 25 32 303 310 express
+@ T21 Positive_regulation S3 112 119 390 397 derived
+% E1 Gene_expression:T20 Theme:T1
+% E2 Positive_regulation:T21 Theme:T1
+
+We show here that AM580, a stable retinobenzoic derivative originally synthesized as a RAR alpha agonist, is a powerful inducer of granulocytic maturation in NB4, an APL-derived cell line, and in freshly isolated APL blasts.
+# T4 Protein S4 87 96 548 557 RAR alpha
+
+After treatment of APL cells with AM580 either alone or in combination with granulocyte colony-stimulating factor (G-CSF), the compound induces granulocytic maturation, as assessed by determination of the levels of leukocyte alkaline phosphatase, CD11b, CD33, and G-CSF receptor mRNA, at concentrations that are 10- to 100-fold lower than those of ATRA necessary to produce similar effects.
+# T5 Protein S5 76 113 762 799 granulocyte colony-stimulating factor
+# T6 Protein S5 115 120 801 806 G-CSF
+# T7 Protein S5 215 245 901 931 leukocyte alkaline phosphatase
+# T8 Protein S5 247 252 933 938 CD11b
+# T9 Protein S5 254 258 940 944 CD33
+# T10 Protein S5 264 278 950 964 G-CSF receptor
+
+By contrast, AM580 is not effective as ATRA in modulating the expression of these differentiation markers in the HL-60 cell line and in freshly isolated granulocytes obtained from the peripheral blood of chronic myelogenous leukemia patients during the stable phase of the disease.
+@ T22 Regulation S6 47 57 1124 1134 modulating
+@ T23 Gene_expression S6 62 72 1139 1149 expression
+% E3 Regulation:T22 Theme:E8
+% E4 Regulation:T22 Theme:E9
+% E5 Regulation:T22 Theme:E7
+% E6 Regulation:T22 Theme:E10
+% E7 Gene_expression:T23 Theme:T7
+% E8 Gene_expression:T23 Theme:T10
+% E9 Gene_expression:T23 Theme:T9
+% E10 Gene_expression:T23 Theme:T8
+
+In NB4 cells, two other synthetic nonselective RAR ligands are capable of inducing LAP as much as AM580, whereas RAR beta- or RAR gamma-specific ligands are totally ineffective.
+# T11 Protein S7 83 86 1442 1445 LAP
+# T12 Protein S7 113 121 1472 1480 RAR beta
+# T13 Protein S7 126 135 1485 1494 RAR gamma
+$ T11 Protein S7 83 86 1442 1445 LAP
+@ T24 Positive_regulation S7 74 82 1433 1441 inducing
+% E11 Positive_regulation:T24 Theme:T11
+
+These results show that AM580 is more powerful than ATRA in modulating the expression of differentiation antigens only in cells in which PML-RAR is present.
+# T14 Protein S8 137 144 1674 1681 PML-RAR
+$ T14 Protein S8 137 144 1674 1681 PML-RAR
+@ T25 Gene_expression S8 148 155 1685 1692 present
+% E12 Gene_expression:T25 Theme:T14
+
+Binding experiments, using COS-7 cells transiently transfected with PML-RAR and the normal RAR alpha, show that AM580 has a lower affinity than ATRA for both receptors.
+# T15 Protein S9 68 75 1762 1769 PML-RAR
+# T16 Protein S9 91 100 1785 1794 RAR alpha
+$ T15 Protein S9 68 75 1762 1769 PML-RAR
+$ T16 Protein S9 91 100 1785 1794 RAR alpha
+@ T26 Binding S9 130 138 1824 1832 affinity
+% E13 Binding:T26 Theme:T15
+% E14 Binding:T26 Theme:T16
+
+However, in the presence of PML-RAR, the synthetic retinoid is a much better transactivator of retinoic acid-responsive element-containing promoters than the natural retinoid, whereas, in the presence of RAR alpha, AM580 and ATRA have similar activity.
+# T17 Protein S10 28 35 1891 1898 PML-RAR
+# T18 Protein S10 204 213 2067 2076 RAR alpha
+
+This may explain the strong cyto-differentiating potential of AM580 in PML-RAR-containing leukemic cells.
+# T19 Protein S11 71 78 2187 2194 PML-RAR
+$ T19 Protein S11 71 78 2187 2194 PML-RAR
+@ T27 Gene_expression S11 79 89 2195 2205 containing
+% E15 Gene_expression:T27 Theme:T19
+

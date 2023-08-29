@@ -1,0 +1,50 @@
+Tissue-specific activity of the gammac chain gene promoter depends upon an Ets binding site and is regulated by GA-binding protein.
+
+The gammac chain is a subunit of multiple cytokine receptors (interleukin (IL)-2, IL-4, IL-7, IL-9, and IL-15), the expression of which is restricted to hematopoietic lineages.
+# T1 Protein S2 4 10 137 143 gammac
+# T2 Protein S2 62 80 195 213 interleukin (IL)-2
+# T3 Protein S2 82 86 215 219 IL-4
+# T4 Protein S2 88 92 221 225 IL-7
+# T5 Protein S2 94 98 227 231 IL-9
+# T6 Protein S2 104 109 237 242 IL-15
+
+A defect in gammac leads to the X-linked severe combined immunodeficiency characterized by a block in T cell differentiation.
+# T7 Protein S3 12 18 322 328 gammac
+$ T7 Protein S3 12 18 322 328 gammac
+@ T15 Negative_regulation S3 2 8 312 318 defect
+% E1 Negative_regulation:T15 Theme:T7
+
+In order to better characterize the human gammac promoter and define the minimal tissue-specific promoter region, progressive 5'-deletion constructs of a segment extending 1053 base pairs upstream of the major transcription start site were generated and tested for promoter activity in various hematopoietic and nonhematopoietic cell types.
+# T8 Protein S4 42 48 478 484 gammac
+
+The -1053/+34 construct allowed promoter activity only in cells of hematopoietic origin, and tissue specificity was conserved in all other constructs tested.
+
+The region downstream of -90 appeared critical for basal promoter activity.
+
+It contains two potential Ets binding sites conserved in the murine gammac promoter gene, one of which was found essential for functional promoter activity as determined by mutational analysis.
+# T9 Protein S7 68 74 1079 1085 gammac
+
+The functional Ets binding site was found to bind Ets family proteins, principally GA-binding protein and Elf-1 and could be transactivated by GABPalpha and -beta synergistically.
+# T10 Protein S8 106 111 1311 1316 Elf-1
+$ T10 Protein S8 106 111 1311 1316 Elf-1
+@ T16 Binding S8 45 49 1250 1254 bind
+% E2 Binding:T16 Theme:T10
+
+These results indicate that, as already reported for the IL2Rbeta promoter, GA-binding protein is an essential component of gammac basal promoter activity.
+# T11 Protein S9 57 65 1442 1450 IL2Rbeta
+# T12 Protein S9 124 130 1509 1515 gammac
+
+Although GABP expression is not restricted to the hematopoietic lineage, its interaction with other specific factors may contribute to the tissue-specific expression of the gammac gene.
+# T13 Protein S10 9 13 1550 1554 GABP
+# T14 Protein S10 173 179 1714 1720 gammac
+$ T13 Protein S10 9 13 1550 1554 GABP
+$ T14 Protein S10 173 179 1714 1720 gammac
+@ T17 Gene_expression S10 14 24 1555 1565 expression
+@ T18 Binding S10 77 88 1618 1629 interaction
+@ T19 Positive_regulation S10 121 131 1662 1672 contribute
+@ T20 Gene_expression S10 155 165 1696 1706 expression
+% E3 Gene_expression:T17 Theme:T13
+% E4 Binding:T18 Theme:T13
+% E5 Positive_regulation:T19 Theme:E6 Cause:E4
+% E6 Gene_expression:T20 Theme:T14
+

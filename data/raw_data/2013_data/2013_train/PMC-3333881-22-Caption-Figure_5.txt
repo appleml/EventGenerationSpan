@@ -1,0 +1,71 @@
+Tat activates the p65-dependent expression of NF-kappaB-responsive genes by occupying the NF-kappaB enhancers and promoting the p65 recruitment with IkappaB-alpha displacement.
+# T1 Protein S1 0 3 0 3 Tat
+# T2 Protein S1 18 21 18 21 p65
+# T3 Protein S1 128 131 128 131 p65
+# T4 Protein S1 149 162 149 162 IkappaB-alpha
+$ T1 Protein S1 0 3 0 3 Tat
+$ T3 Protein S1 128 131 128 131 p65
+$ T4 Protein S1 149 162 149 162 IkappaB-alpha
+@ T23 Binding S1 76 85 76 85 occupying
+@ T24 Positive_regulation S1 114 123 114 123 promoting
+@ T25 Binding S1 132 143 132 143 recruitment
+@ T26 Binding S1 163 175 163 175 displacement
+% E1 Binding:T23 Theme:T1
+% E2 Positive_regulation:T24 Theme:E3 Cause:T1
+% E4 Positive_regulation:T24 Theme:E5 Cause:T1
+% E3 Binding:T25 Theme:T3
+% E5 Binding:T26 Theme:T3 Theme2:T4
+
+HeLa cells (5 x 106) were transfected with p3xFLAG-Tat, p3xFLAG-Tat C(22,25,27), p3xFLAG-Tat R(49-57) or empty vector (10 microg); for p65 RNA interference, cells (5 x 106) were transfected with p3xFLAG-Tat (10 microg) and siRNA p65 or siRNA control (200 pmol).
+# T8 Protein S2 135 138 312 315 p65
+# T9 Protein S2 203 206 380 383 Tat
+# T10 Protein S2 223 232 400 409 siRNA p65
+$ T8 Protein S2 135 138 312 315 p65
+@ T27 Negative_regulation S2 143 155 320 332 interference
+% E6 Negative_regulation:T27 Theme:T8
+
+Twenty-four-hour post-transfection, total RNA was extracted and analysed by real-time PCR to evaluate the expression of MIP-1alpha (A), CSF3 (B), LTA (C), NFKBIA (D), TLR2 (E), GAPDH (F), ACTB (G) genes.
+# T11 Protein S3 120 130 559 569 MIP-1alpha
+# T12 Protein S3 136 140 575 579 CSF3
+# T13 Protein S3 146 149 585 588 LTA
+# T14 Protein S3 155 161 594 600 NFKBIA
+# T15 Protein S3 167 171 606 610 TLR2
+# T16 Protein S3 177 182 616 621 GAPDH
+# T17 Protein S3 188 192 627 631 ACTB
+$ T11 Protein S3 120 130 559 569 MIP-1alpha
+$ T12 Protein S3 136 140 575 579 CSF3
+$ T13 Protein S3 146 149 585 588 LTA
+$ T14 Protein S3 155 161 594 600 NFKBIA
+$ T15 Protein S3 167 171 606 610 TLR2
+$ T16 Protein S3 177 182 616 621 GAPDH
+$ T17 Protein S3 188 192 627 631 ACTB
+@ T28 Gene_expression S3 106 116 545 555 expression
+% E7 Gene_expression:T28 Theme:T11
+% E8 Gene_expression:T28 Theme:T12
+% E9 Gene_expression:T28 Theme:T13
+% E10 Gene_expression:T28 Theme:T14
+% E11 Gene_expression:T28 Theme:T15
+% E12 Gene_expression:T28 Theme:T16
+% E13 Gene_expression:T28 Theme:T17
+
+(H) HeLa cells (5 x 106) were transfected with p3xFLAG-Tat, or empty vector (10 microg) and 48 h later ChIP was performed with anti-p65 antibody.
+# T18 Protein S4 55 58 698 701 Tat
+
+Real-time PCR was performed with primers specific for the indicated promoters.
+
+(I) HeLa cells (5 x 106) were transfected with empty vector, or p3xFLAG-Tat (10 microg) in presence or absence of siRNA p65, or siRNA control (200 pmol); 48 h later, ChIP was performed with anti-FLAG antibody.
+# T19 Protein S6 72 75 940 943 Tat
+# T20 Protein S6 114 123 982 991 siRNA p65
+
+Real-time PCR was performed with primers specific for the indicated promoters.
+
+(J) HeLa cells (5 x 106) were transfected with empty vector, p3xFLAG-Tat (10 microg), or empty vector plus siRNA IkappaB-alpha or siRNA control (200 pmol); 48 h later, ChIP was performed with anti-IkappaB-alpha antibody.
+# T21 Protein S8 69 72 1226 1229 Tat
+# T22 Protein S8 107 126 1264 1283 siRNA IkappaB-alpha
+
+Real-time PCR was performed with primers specific for the indicated promoters.
+
+Values (mean +/- SE, n = 3) are shown.
+
+The asterisks indicate statistically significant differences compared to the control (empty vector) according to the Student's t-test (P < 0.05).
+

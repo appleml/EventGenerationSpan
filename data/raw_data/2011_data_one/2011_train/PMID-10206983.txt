@@ -1,0 +1,51 @@
+Inhibition of T cell signaling by mitogen-activated protein kinase-targeted hematopoietic tyrosine phosphatase (HePTP).
+# T1 Protein S1 76 110 76 110 hematopoietic tyrosine phosphatase
+# T2 Protein S1 112 117 112 117 HePTP
+
+Activation of T lymphocytes to produce cytokines is regulated by the counterbalance of protein-tyrosine kinases and protein-tyrosine phosphatases, many of which have a high degree of substrate specificity because of physical association with their targets.
+
+Overexpression of hematopoietic protein-tyrosine phosphatase (HePTP) results in suppression of T lymphocyte activation as measured by T cell antigen receptor-induced activation of transcription factors binding to the 5' promoter of the interleukin-2 gene.
+# T3 Protein S3 18 60 396 438 hematopoietic protein-tyrosine phosphatase
+# T4 Protein S3 62 67 440 445 HePTP
+# T5 Protein S3 236 249 614 627 interleukin-2
+$ T4 Protein S3 62 67 440 445 HePTP
+$ T5 Protein S3 236 249 614 627 interleukin-2
+@ T13 Gene_expression S3 0 14 378 392 Overexpression
+@ T14 Positive_regulation S3 0 14 378 392 Overexpression
+@ T15 Positive_regulation S3 166 176 544 554 activation
+@ T16 Binding S3 202 209 580 587 binding
+% E1 Gene_expression:T13 Theme:T4
+% E2 Positive_regulation:T14 Theme:T4
+% E3 Positive_regulation:T15 Theme:E4
+% E4 Binding:T16 Theme:T5
+
+Efforts to pinpoint the exact site of action and specificity of HePTP in the signaling cascade revealed that HePTP acts directly on the mitogen-activated protein (MAP) kinases Erk1 and 2 and consequently reduces the magnitude and duration of their catalytic activation in intact T cells.
+# T6 Protein S4 64 69 698 703 HePTP
+# T7 Protein S4 109 114 743 748 HePTP
+# T8 Protein S4 176 180 810 814 Erk1
+# T9 Protein S4 185 186 819 820 2
+$ T9 Protein S4 185 186 819 820 2
+$ T7 Protein S4 109 114 743 748 HePTP
+$ T8 Protein S4 176 180 810 814 Erk1
+@ T17 Regulation S4 115 119 749 753 acts
+@ T18 Negative_regulation S4 204 211 838 845 reduces
+@ T19 Positive_regulation S4 248 268 882 902 catalytic activation
+% E5 Regulation:T17 Theme:T9 Cause:T7
+% E6 Regulation:T17 Theme:T8 Cause:T7
+% E7 Negative_regulation:T18 Theme:E9 Cause:T7
+% E8 Negative_regulation:T18 Theme:E10 Cause:T7
+% E9 Positive_regulation:T19 Theme:T9
+% E10 Positive_regulation:T19 Theme:T8
+
+In contrast, HePTP had no effects on N-terminal c-Jun kinase or on events upstream of the MAP kinases.
+# T10 Protein S5 13 18 935 940 HePTP
+
+The specificity of HePTP correlated with its physical association through its noncatalytic N terminus with Erk and another MAP kinase, p38, but not Jnk or other proteins.
+# T11 Protein S6 19 24 1044 1049 HePTP
+$ T11 Protein S6 19 24 1044 1049 HePTP
+@ T20 Binding S6 45 65 1070 1090 physical association
+% E11 Binding:T20 Theme:T11
+
+We propose that HePTP plays a negative role in antigen receptor signaling by specifically regulating MAP kinases in the cytosol and at early time points of T cell activation before the activation-induced expression of nuclear dual-specific MAP kinase phosphatases.
+# T12 Protein S7 16 21 1212 1217 HePTP
+

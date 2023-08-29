@@ -1,0 +1,24 @@
+Jurkat	NN	B-NP	B-cell_line	Other	No	No	Other	Other	###	1	Jurkat	Jurkat	NN	NN	_	2	compound	_	_
+T-cells	NNS	I-NP	I-cell_line	Other	No	No	Other	Other	###	2	T-cells	T-cells	NNS	NNS	_	4	nsubjpass	_	_
+were	VBD	B-VP	O	Other	No	No	Other	Other	###	3	were	were	VBD	VBD	_	4	auxpass	_	_
+stimulated	VBN	I-VP	O	Other	No	No	Other	Other	###	4	stimulated	stimulated	VBN	VBN	_	0	root	_	_
+with	IN	B-PP	O	Other	No	No	Other	Other	###	5	with	with	IN	IN	_	8	case	_	_
+162	CD	B-NP	O	Other	No	No	Other	Other	###	6	162	162	CD	CD	_	7	compound	_	_
+nM	NN	I-NP	O	Other	No	No	Other	Other	###	7	nM	nM	NN	NN	_	8	amod	_	_
+PMA	NN	I-NP	O	Other	No	No	Other	Other	###	8	PMA	PMA	NN	NN	_	4	nmod	_	_
+and	CC	O	O	Other	No	No	Other	Other	###	9	and	and	CC	CC	_	8	cc	_	_
+5	CD	B-NP	O	Other	No	No	Other	Other	###	10	5	5	CD	CD	_	11	compound	_	_
+x	NN	I-NP	O	Other	No	No	Other	Other	###	11	x	x	NN	NN	_	13	compound	_	_
+107	CD	B-NP	O	Other	No	No	Other	Other	###	12	107	107	CD	CD	_	13	nummod	_	_
+CFU	NNP	I-NP	O	Other	No	No	Other	Other	###	13	CFU	CFU	NNP	NNP	_	8	conj	_	_
+/	/	O	O	Other	No	No	Other	Other	###	14	/	/	/	/	_	19	punct	_	_
+ml	NNP	I-NP	O	Other	No	No	Other	Other	###	15	ml	ml	NNP	NNP	_	19	compound	_	_
+HK	NNP	I-NP	O	Other	No	No	Other	Other	###	16	HK	HK	NNP	NNP	_	19	compound	_	_
+E	NNP	I-NP	O	Other	No	No	Other	Other	###	17	E	E	NNP	NNP	_	19	compound	_	_
+.	.	O	O	Other	No	No	Other	Other	###	18	.	.	.	.	_	19	punct	_	_
+coli	NNP	I-NP	O	Other	No	No	Other	Other	###	19	coli	coli	NNP	NNP	_	8	conj	_	_
+for	IN	B-PP	O	Other	No	No	Other	Other	###	20	for	for	IN	IN	_	22	case	_	_
+24	CD	B-NP	O	Other	No	No	Other	Other	###	21	24	24	CD	CD	_	22	nummod	_	_
+h	NN	I-NP	O	Other	No	No	Other	Other	###	22	h	h	NN	NN	_	4	nmod	_	_
+.	.	O	O	Other	No	No	Other	Other	###	23	.	.	.	.	_	4	punct	_	_
+

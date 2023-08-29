@@ -1,0 +1,16 @@
+Glucocorticoid hormone suppression of human neutrophil-mediated tumor cell cytostasis.
+
+In the present study, we have investigated the effect of glucocorticoid hormones on neutrophil-mediated tumor cell cytostasis and found that hydrocortisone and a synthetic hormone, dexamethasone (Dex), inhibited cytostasis in the presence or absence of tumor necrosis factor-alpha.
+# T1 Protein S2 253 280 341 368 tumor necrosis factor-alpha
+
+The effect of Dex was completely reversed by a glucocorticoid receptor antagonist, RU38486.
+# T2 Protein S3 47 70 417 440 glucocorticoid receptor
+
+To clarify the underlying mechanisms, we examined effects of Dex on the binding avidity of beta2 integrin on the neutrophil surface and how these might in turn affect neutrophil-to-tumor cell binding.
+# T3 Protein S4 91 105 553 567 beta2 integrin
+
+Dex was found to inhibit these neutrophil properties, and RU38486 completely suppressed both forms of Dex inhibition.
+
+Taken together, our findings suggest that glucocorticoid hormone inhibition of neutrophil-mediated tumor cell cytostasis is at least partially due to a lowering of the ligand binding avidity of beta2 integrin on the neutrophil surface.
+# T4 Protein S6 194 208 975 989 beta2 integrin
+

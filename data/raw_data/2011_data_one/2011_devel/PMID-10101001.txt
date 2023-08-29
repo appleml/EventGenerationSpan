@@ -1,0 +1,39 @@
+Essential role of alveolar macrophages in intrapulmonary activation of NF-kappaB.
+
+Acute inflammatory injury in rat lung induced by deposition of immunoglobulin G immune complexes requires expression of cytokines and chemokines as well as activation of the transcription factor nuclear factor (NF)-kappaB.
+
+There is little direct evidence regarding the role of alveolar macrophages in these activation events.
+
+In the present studies, rat lungs were depleted of alveolar macrophages by airway instillation of liposome-encapsulated dichloromethylene diphosphonate.
+
+These procedures, which greatly reduced the number of retrievable alveolar macrophages, suppressed activation of lung NF-kappaB in the inflammatory model.
+
+In addition, bronchoalveolar lavage levels of tumor necrosis factor-alpha (TNF-alpha) and the CXC chemokine, macrophage inflammatory protein-2, were substantially reduced.
+# T1 Protein S6 46 73 763 790 tumor necrosis factor-alpha
+# T2 Protein S6 75 84 792 801 TNF-alpha
+# T3 Protein S6 109 142 826 859 macrophage inflammatory protein-2
+$ T2 Protein S6 75 84 792 801 TNF-alpha
+$ T3 Protein S6 109 142 826 859 macrophage inflammatory protein-2
+@ T7 Negative_regulation S6 163 170 880 887 reduced
+% E1 Negative_regulation:T7 Theme:T2
+% E2 Negative_regulation:T7 Theme:T3
+
+In parallel, upregulation of the lung vascular adhesion molecule, intercellular adhesion molecule-1, was greatly reduced by intrapulmonary instillation of phosphonate-containing liposomes.
+# T4 Protein S7 66 99 955 988 intercellular adhesion molecule-1
+$ T4 Protein S7 66 99 955 988 intercellular adhesion molecule-1
+@ T8 Positive_regulation S7 13 25 902 914 upregulation
+@ T9 Negative_regulation S7 113 120 1002 1009 reduced
+% E3 Positive_regulation:T8 Theme:T4
+% E4 Negative_regulation:T9 Theme:E3
+
+Neutrophil accumulation and development of lung injury were also substantially diminished.
+
+Lung instillation of TNF-alpha in alveolar macrophage-depleted rats restored the NF-kappaB activation response in whole lung.
+# T5 Protein S9 21 30 1190 1199 TNF-alpha
+
+These data suggest that, in this inflammatory model, initial activation of NF-kappaB occurs in alveolar macrophages and the ensuing production of TNF-alpha may propagate NF-kappaB activation to other cell types in the lung.
+# T6 Protein S10 146 155 1441 1450 TNF-alpha
+$ T6 Protein S10 146 155 1441 1450 TNF-alpha
+@ T10 Gene_expression S10 132 142 1427 1437 production
+% E5 Gene_expression:T10 Theme:T6
+

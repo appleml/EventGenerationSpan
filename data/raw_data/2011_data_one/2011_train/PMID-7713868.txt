@@ -1,0 +1,67 @@
+Platelet-activating factor stimulates transcription of the heparin-binding epidermal growth factor-like growth factor in monocytes.
+# T1 Protein S1 59 117 59 117 heparin-binding epidermal growth factor-like growth factor
+$ T1 Protein S1 59 117 59 117 heparin-binding epidermal growth factor-like growth factor
+@ T9 Positive_regulation S1 27 37 27 37 stimulates
+@ T10 Transcription S1 38 51 38 51 transcription
+% E1 Positive_regulation:T9 Theme:E2
+% E2 Transcription:T10 Theme:T1
+
+Correlation with an increased kappa B binding activity.
+
+Human peripheral blood monocytes responded to stimulation of platelet-activating factor (PAF) with up-regulation of the transcript for heparin-binding epidermal growth factor-like growth factor (HB-EGF), a potent mitogen for vascular smooth muscle cells.
+# T2 Protein S3 135 193 324 382 heparin-binding epidermal growth factor-like growth factor
+# T3 Protein S3 195 201 384 390 HB-EGF
+$ T2 Protein S3 135 193 324 382 heparin-binding epidermal growth factor-like growth factor
+@ T11 Positive_regulation S3 99 112 288 301 up-regulation
+% E3 Positive_regulation:T11 Theme:T2
+
+This function of PAF was observed at nanomolar concentrations of the ligand, starting at 30 min after stimulation.
+
+The PAF-induced up-regulation of HB-EGF mRNA was accompanied by an increase in kappa B binding activity.
+# T4 Protein S5 33 39 592 598 HB-EGF
+$ T4 Protein S5 33 39 592 598 HB-EGF
+@ T12 Positive_regulation S5 16 29 575 588 up-regulation
+% E4 Positive_regulation:T12 Theme:T4
+
+These functions of PAF appeared to be mediated through the cell surface PAF receptors, as two PAF receptor antagonists, WEB 2086 and L-659,989, blocked both the up-regulation of HB-EGF mRNA and kappa B binding activity induced by PAF.
+# T5 Protein S6 178 184 842 848 HB-EGF
+$ T5 Protein S6 178 184 842 848 HB-EGF
+@ T13 Positive_regulation S6 38 46 702 710 mediated
+@ T14 Negative_regulation S6 144 151 808 815 blocked
+@ T15 Positive_regulation S6 161 174 825 838 up-regulation
+% E5 Positive_regulation:T13 Theme:E4
+% E6 Negative_regulation:T14 Theme:E7
+% E7 Positive_regulation:T15 Theme:T5
+
+The antagonists, however, had no effect on phorbol ester-induced up-regulation of HB-EGF mRNA and kappa B binding activity.
+# T6 Protein S7 82 88 981 987 HB-EGF
+$ T6 Protein S7 82 88 981 987 HB-EGF
+@ T16 Regulation S7 33 39 932 938 effect
+@ T17 Positive_regulation S7 65 78 964 977 up-regulation
+% E8 Regulation:T16 Theme:E9
+% E9 Positive_regulation:T17 Theme:T6
+
+Pretreatment of monocytes with pertussis toxin inhibited these functions of PAF, whereas cholera toxin had no inhibitory effect.
+@ T18 Negative_regulation S8 47 56 1070 1079 inhibited
+@ T19 Negative_regulation S8 110 127 1133 1150 inhibitory effect
+% E10 Negative_regulation:T18 Theme:E4
+% E11 Negative_regulation:T19 Theme:E4
+
+Pyrrolidine dithiocarbamate, an inhibitor for NF-kappa B activation, markedly reduced PAF-stimulated kappa B binding activity as well as up-regulation of HB-EGF mRNA.
+# T7 Protein S9 154 160 1306 1312 HB-EGF
+$ T7 Protein S9 154 160 1306 1312 HB-EGF
+@ T20 Negative_regulation S9 78 85 1230 1237 reduced
+@ T21 Positive_regulation S9 137 150 1289 1302 up-regulation
+% E12 Negative_regulation:T20 Theme:E13
+% E13 Positive_regulation:T21 Theme:T7
+
+These results suggest a potential role of PAF in HB-EGF expression and provide evidence that this stimulation may occur through increased kappa B binding activity.
+# T8 Protein S10 49 55 1368 1374 HB-EGF
+$ T8 Protein S10 49 55 1368 1374 HB-EGF
+@ T22 Positive_regulation S10 24 38 1343 1357 potential role
+@ T23 Gene_expression S10 56 66 1375 1385 expression
+@ T24 Positive_regulation S10 114 119 1433 1438 occur
+% E14 Positive_regulation:T22 Theme:E15
+% E15 Gene_expression:T23 Theme:T8
+% E16 Positive_regulation:T24 Theme:E14
+

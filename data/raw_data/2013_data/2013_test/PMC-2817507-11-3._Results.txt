@@ -1,0 +1,15 @@
+3.3.
+
+Distribution of TLR4 in Brain Subjected to ICH
+# T1 Protein S2 16 20 21 25 TLR4
+
+To explore the distribution of TLR4 protein, the TLR4 was detected by immunohistochemistry (IHC).
+# T2 Protein S3 31 35 83 87 TLR4
+# T3 Protein S3 49 53 101 105 TLR4
+
+Results showed that TLR4 immunoreactivity was not detectable in brain tissue from normal and sham control.
+# T4 Protein S4 20 24 170 174 TLR4
+
+However, immunoreactivity for TLR4 was consistently demonstrated in peri-hemorrhage areas, the hippocampus, cortex, thalamic nuclei, and some white matter tracts (Figure 3).
+# T5 Protein S5 30 34 287 291 TLR4
+

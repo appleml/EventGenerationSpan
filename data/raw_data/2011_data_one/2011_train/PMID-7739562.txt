@@ -1,0 +1,62 @@
+Coupling of a signal response domain in I kappa B alpha to multiple pathways for NF-kappa B activation.
+# T1 Protein S1 40 55 40 55 I kappa B alpha
+
+The eukaryotic transcription factor NF-kappa B plays a central role in the induced expression of human immunodeficiency virus type 1 and in many aspects of the genetic program mediating normal T-cell activation and growth.
+
+The nuclear activity of NF-kappa B is tightly regulated from the cytoplasmic compartment by an inhibitory subunit called I kappa B alpha.
+# T2 Protein S3 121 136 449 464 I kappa B alpha
+
+This cytoplasmic inhibitor is rapidly phosphorylated and degraded in response to a diverse set of NF-kappa B-inducing agents, including T-cell mitogens, proinflammatory cytokines, and viral transactivators such as the Tax protein of human T-cell leukemia virus type 1.
+# T3 Protein S4 218 221 684 687 Tax
+$ T3 Protein S4 218 221 684 687 Tax
+@ T13 Phosphorylation S4 38 52 504 518 phosphorylated
+@ T14 Protein_catabolism S4 57 65 523 531 degraded
+@ T15 Positive_regulation S4 66 80 532 546 in response to
+% E1 Phosphorylation:T13 Theme:T2
+% E2 Protein_catabolism:T14 Theme:T2
+% E3 Positive_regulation:T15 Theme:E2 Cause:T3
+% E4 Positive_regulation:T15 Theme:E1 Cause:T3
+% E5 Positive_regulation:T15 Theme:E2
+% E6 Positive_regulation:T15 Theme:E1
+
+To explore these I kappa B alpha-dependent mechanisms for NF-kappa B induction, we identified novel mutants of I kappa B alpha that uncouple its inhibitory and signal-transducing functions in human T lymphocytes.
+# T4 Protein S5 17 32 752 767 I kappa B alpha
+# T5 Protein S5 111 126 846 861 I kappa B alpha
+
+Specifically, removal of the N-terminal 36 amino acids of I kappa B alpha failed to disrupt its ability to form latent complexes with NF-kappa B in the cytoplasm.
+# T6 Protein S6 58 73 1006 1021 I kappa B alpha
+
+However, this deletion mutation prevented the induced phosphorylation, degradative loss, and functional release of I kappa B alpha from NF-kappa B in Tax-expressing cells.
+# T7 Protein S7 115 130 1226 1241 I kappa B alpha
+# T8 Protein S7 150 153 1261 1264 Tax
+$ T7 Protein S7 115 130 1226 1241 I kappa B alpha
+@ T16 Negative_regulation S7 32 41 1143 1152 prevented
+@ T17 Positive_regulation S7 46 53 1157 1164 induced
+@ T18 Phosphorylation S7 54 69 1165 1180 phosphorylation
+@ T19 Protein_catabolism S7 71 87 1182 1198 degradative loss
+% E7 Negative_regulation:T16 Theme:E10 Cause:T5
+% E8 Negative_regulation:T16 Theme:E9 Cause:T5
+% E9 Positive_regulation:T17 Theme:E11
+% E10 Positive_regulation:T17 Theme:E12
+% E11 Phosphorylation:T18 Theme:T7
+% E12 Protein_catabolism:T19 Theme:T7
+
+Alanine substitutions introduced at two serine residues positioned within this N-terminal regulatory region of I kappa B alpha also yielded constitutive repressors that escaped from Tax-induced turnover and that potently inhibited immune activation pathways for NF-kappa B induction, including those initiated from antigen and cytokine receptors.
+# T9 Protein S8 111 126 1394 1409 I kappa B alpha
+# T10 Protein S8 182 185 1465 1468 Tax
+
+In contrast, introduction of a phosphoserine mimetic at these sites rectified this functional defect, a finding consistent with a causal linkage between the phosphorylation status and proteolytic stability of this cytoplasmic inhibitor.
+@ T20 Phosphorylation S9 157 172 1787 1802 phosphorylation
+@ T21 Protein_catabolism S9 184 195 1814 1825 proteolytic
+% E13 Phosphorylation:T20 Theme:T7
+% E14 Protein_catabolism:T21 Theme:T7
+
+Together, these in vivo studies define a critical signal response domain in I kappa B alpha that coordinately controls the biologic activities of I kappa B alpha and NF-kappa B in response to viral and immune stimuli.
+# T11 Protein S10 76 91 1943 1958 I kappa B alpha
+# T12 Protein S10 146 161 2013 2028 I kappa B alpha
+$ T12 Protein S10 146 161 2013 2028 I kappa B alpha
+@ T22 Regulation S10 110 118 1977 1985 controls
+@ T23 Positive_regulation S10 177 191 2044 2058 in response to
+% E15 Regulation:T22 Theme:T12
+% E16 Positive_regulation:T23 Theme:E15
+

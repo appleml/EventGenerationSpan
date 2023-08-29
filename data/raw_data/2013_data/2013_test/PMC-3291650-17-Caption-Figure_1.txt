@@ -1,0 +1,38 @@
+A20 inhibits NF-kappaB and IRF3 activation in response to RIG-I stimulation.
+# T1 Protein S1 27 31 27 31 IRF3
+# T2 Protein S1 58 63 58 63 RIG-I
+
+(A) HEK293T cells were transfected with NF-kappaB (left), IRF3 (middle) or IRF7 dependent luciferase reporter (right) plasmids, together with plasmids expressing RIG-I (2CARD), IRF7 (right) and increasing amounts of A20.
+# T3 Protein S2 58 62 135 139 IRF3
+# T4 Protein S2 75 79 152 156 IRF7
+# T5 Protein S2 90 100 167 177 luciferase
+# T6 Protein S2 177 181 254 258 IRF7
+
+Luciferase activity in cell extracts was analyzed in a luminometer.
+
+Numbers are averages +/- SD of 3 samples per set-up.
+
+(B-D) A20myel-KO and wild type (A20myel-WT) BMDM were transfected with LMW poly(I:C) and analyzed at different time points (minutes) after the start of transfection for IkappaBalpha phosphorylation and degradation, and IRF3 phosphorylation by immunoblotting of total cell extracts (B).
+# T7 Protein S5 169 181 588 600 IkappaBalpha
+# T8 Protein S5 219 223 638 642 IRF3
+
+The band that is non-specifically recognized by the anti-IkappaBalpha antibody (indicated by an asterisk) can be used as a loading control.
+
+Nuclear translocation of NF-kappaB (p65) and IRF3 was analyzed by immunoblotting of cytoplasmic or nuclear fractions (C).
+# T9 Protein S7 36 39 881 884 p65
+# T10 Protein S7 45 49 890 894 IRF3
+
+Quantification of band density for nuclear p65 and IRF3 is shown in bar graphs (expressed as relative density compared to the first lane;  = time 0).
+# T11 Protein S8 43 46 1010 1013 p65
+# T12 Protein S8 51 55 1018 1022 IRF3
+
+IL-6, TNF and IFNbeta levels in the supernatant of cells used in (B) were determined by bioassay (IL-6) and ELISA (TNF and IFNbeta) as described in the 'materials and methods' section (D).
+# T13 Protein S9 0 4 1117 1121 IL-6
+# T14 Protein S9 6 9 1123 1126 TNF
+# T15 Protein S9 14 21 1131 1138 IFNbeta
+# T16 Protein S9 98 102 1215 1219 IL-6
+# T17 Protein S9 115 118 1232 1235 TNF
+# T18 Protein S9 123 130 1240 1247 IFNbeta
+
+Data are representative of 2 independent experiments.
+

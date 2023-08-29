@@ -1,0 +1,11 @@
+{"text": "Inhibition of PKC or NF-kappaB induces apoptosis in MDMs .", "event": "<extra_id_0> <extra_id_1>"}
+{"text": "( A ) MDMs were pre-incubated in RPMI medium containing inhibitors ( Ro-31-8220 : 5 microM , Go-6976 : 5 microM , BAPTA / AM : 2.5 microM ) for 30 minutes prior to the addition of M-CSF .", "event": "<extra_id_0> <extra_id_1>"}
+{"text": "As a control , untreated cells were incubated with dimethyl sulfoxide ( DMSO ) .", "event": "<extra_id_0> <extra_id_1>"}
+{"text": "Cell lysates were resolved by SDS-PAGE and immunoblotted with antibody recognizing the active cleaved form of caspase-3 .", "event": "<extra_id_0> <extra_id_1>"}
+{"text": "The blots were reblotted with <extra_id_0> beta-actin <extra_id_2> Protein <extra_id_1> that served as a loading control .", "event": "<extra_id_0> <extra_id_1>"}
+{"text": "The ratio of active <extra_id_0> caspase-3 <extra_id_2> Protein <extra_id_1> bands ( 17 kD and 19 kD ) to <extra_id_0> beta-actin <extra_id_2> Protein <extra_id_1> control was determined by densitometry analysis ( bottom panel ) .", "event": "<extra_id_0> <extra_id_0> Positive_regulation active <extra_id_0> Theme caspase-3 <extra_id_1> <extra_id_1> <extra_id_1>"}
+{"text": "Data represents the mean +/- S.E.M from two independent donors .", "event": "<extra_id_0> <extra_id_1>"}
+{"text": "( B ) Apoptosis of the treated MDMs was also measured by <extra_id_0> Annexin V <extra_id_2> Protein <extra_id_1> - FITC and propidium iodine ( PI ) staining and analyzed by flow cytometry .", "event": "<extra_id_0> <extra_id_1>"}
+{"text": "The percentage of surviving cells ( <extra_id_0> Annexin V <extra_id_2> Protein <extra_id_1> / PI negative ) for the cells treated with vehicle / M-CSF was arbitrarily set as 100 .", "event": "<extra_id_0> <extra_id_0> Negative_regulation negative <extra_id_0> Theme Annexin V <extra_id_1> <extra_id_1> <extra_id_1>"}
+{"text": "Data shown represent the mean +/- S.E.M from three independent experiments .", "event": "<extra_id_0> <extra_id_1>"}
+{"text": "*The p-values of inhibitors / M-CSF compared to vehicle / M-CSF were < =0.05 .", "event": "<extra_id_0> <extra_id_1>"}

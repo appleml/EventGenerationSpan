@@ -1,0 +1,74 @@
+Inhibitory effect of E3330, a novel quinone derivative able to suppress tumor necrosis factor-alpha generation, on activation of nuclear factor-kappa B.
+# T1 Protein S1 72 99 72 99 tumor necrosis factor-alpha
+$ T1 Protein S1 72 99 72 99 tumor necrosis factor-alpha
+@ T15 Negative_regulation S1 63 71 63 71 suppress
+@ T16 Gene_expression S1 100 110 100 110 generation
+% E1 Negative_regulation:T15 Theme:E2
+% E2 Gene_expression:T16 Theme:T1
+
+(2E)-3-[5-(2,3-Dimethoxy-6-methyl-1,4-benzoquinoyl)]-2-nonyl-2- propenoic acid (E3330), is a novel agent with hepatoprotective activity.
+
+We report the effect of E3330 on transcriptional activation of tumor necrosis factor (TNF)-alpha gene and on nuclear factor (NF)-kappa B activation.
+
+Nuclear run-on experiments showed that E3330 decreases transcriptional activation of TNF-alpha gene induced by lipopolysaccharide (LPS) stimulation in human peripheral monocytes.
+
+To investigate the inhibitory mechanisms, we constructed a secreted-type placental alkaline phosphatase (PLAP) reporter gene whose transcription is controlled by a 1.4-kb human TNF-alpha promoter.
+# T2 Protein S5 73 103 692 722 placental alkaline phosphatase
+# T3 Protein S5 105 109 724 728 PLAP
+# T4 Protein S5 177 186 796 805 TNF-alpha
+$ T2 Protein S5 73 103 692 722 placental alkaline phosphatase
+$ T4 Protein S5 177 186 796 805 TNF-alpha
+@ T17 Transcription S5 131 144 750 763 transcription
+@ T18 Regulation S5 148 158 767 777 controlled
+@ T19 Entity S5 187 195 806 814 promoter
+% E3 Transcription:T17 Theme:T2
+% E4 Regulation:T18 Theme:E3 Cause:T4 CSite:T19
+
+A stable transformant of the PLAP reporter gene derived from human monocytic cell line showed very little activity on the promoter before stimulation, whereas LPS stimulation led to a dramatic increase in PLAP activity.
+# T5 Protein S6 29 33 845 849 PLAP
+# T6 Protein S6 205 209 1021 1025 PLAP
+
+E3330 inhibited this induced promoter activity in a dose-dependent manner.
+
+There are four putative NF-kappa B binding sites (kappa B-1, kappa B-2, kappa B-3, kappa B-4) in human TNF-alpha promoter.
+# T7 Protein S8 103 112 1214 1223 TNF-alpha
+
+By using mutated promoter-PLAP plasmids, we established that these NF-kappa B sites were necessary for induction of TNF-alpha transcription on stimulation with LPS.
+# T8 Protein S9 26 30 1260 1264 PLAP
+# T9 Protein S9 116 125 1350 1359 TNF-alpha
+$ T9 Protein S9 116 125 1350 1359 TNF-alpha
+@ T20 Positive_regulation S9 89 98 1323 1332 necessary
+@ T21 Positive_regulation S9 103 112 1337 1346 induction
+@ T22 Transcription S9 126 139 1360 1373 transcription
+% E5 Positive_regulation:T20 Theme:E6
+% E6 Positive_regulation:T21 Theme:E7
+% E7 Transcription:T22 Theme:T9
+
+A gel retardation experiment with synthetic double-stranded oligonucleotides showed that activated NF-kappa B consisting of p50/p65 heterodimer bound to all four putative NF-kappa B DNA probes, suggesting that all four putative NF-kappa B recognition sites play an important role in inducible TNF-alpha expression.
+# T10 Protein S10 124 127 1523 1526 p50
+# T11 Protein S10 128 131 1527 1530 p65
+# T12 Protein S10 293 302 1692 1701 TNF-alpha
+$ T10 Protein S10 124 127 1523 1526 p50
+$ T11 Protein S10 128 131 1527 1530 p65
+$ T12 Protein S10 293 302 1692 1701 TNF-alpha
+@ T23 Binding S10 144 149 1543 1548 bound
+@ T24 Positive_regulation S10 257 279 1656 1678 play an important role
+@ T25 Gene_expression S10 303 313 1702 1712 expression
+% E8 Binding:T23 Theme:T10
+% E9 Binding:T23 Theme:T11
+% E10 Positive_regulation:T24 Theme:E11
+% E11 Gene_expression:T25 Theme:T12
+
+E3330 decreased activated NF-kappa B in nuclei, suggesting that E3330 inhibits NF-kappa B activation and/or translocation of the nuclei.
+
+Western blotting analysis with anti-I kappa B-alpha antibody indicated that E3330 inhibited degradation of I kappa B-alpha, which is an inhibitory protein of NF-kappa B, in LPS-stimulated monocytes.
+# T13 Protein S12 36 51 1887 1902 I kappa B-alpha
+# T14 Protein S12 107 122 1958 1973 I kappa B-alpha
+$ T14 Protein S12 107 122 1958 1973 I kappa B-alpha
+@ T26 Negative_regulation S12 82 91 1933 1942 inhibited
+@ T27 Protein_catabolism S12 92 103 1943 1954 degradation
+% E12 Negative_regulation:T26 Theme:E13
+% E13 Protein_catabolism:T27 Theme:T14
+
+E3330 may suppress the production of active oxygen species serving as common messengers to activate NF-kappa B.
+

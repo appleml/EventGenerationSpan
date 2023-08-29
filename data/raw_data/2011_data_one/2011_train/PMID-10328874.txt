@@ -1,0 +1,121 @@
+Non-steroidal anti-inflammatory drugs inhibit the expression of cytokines and induce HSP70 in human monocytes.
+
+Recent studies have shown that the non-steroidal anti-inflammatory drugs (NSAIDs) activate heat shock transcription factor (HSF1) from a latent cytoplasmic form to a nuclear, DNA binding state.
+# T1 Protein S2 124 128 236 240 HSF1
+$ T1 Protein S2 124 128 236 240 HSF1
+@ T22 Positive_regulation S2 82 90 194 202 activate
+@ T23 Binding S2 179 186 291 298 binding
+% E1 Positive_regulation:T22 Theme:E2
+% E2 Binding:T23 Theme:T1
+
+As HSF1 can function as both an activator of heat shock genes and a repressor of non-heat shock genes such as IL1B and c- fos, we have examined the potential role of HSF1 in the effects of NSAIDs on gene expression in a human monocytic cell line THP-1.
+# T2 Protein S3 3 7 309 313 HSF1
+# T3 Protein S3 110 114 416 420 IL1B
+# T4 Protein S3 119 125 425 431 c- fos
+# T5 Protein S3 166 170 472 476 HSF1
+$ T3 Protein S3 110 114 416 420 IL1B
+$ T2 Protein S3 3 7 309 313 HSF1
+$ T4 Protein S3 119 125 425 431 c- fos
+@ T24 Positive_regulation S3 32 41 338 347 activator
+@ T25 Negative_regulation S3 68 77 374 383 repressor
+% E3 Positive_regulation:T24 Theme:T3 Cause:T2
+% E4 Positive_regulation:T24 Theme:T4 Cause:T2
+% E5 Negative_regulation:T25 Theme:T3 Cause:T2
+% E6 Negative_regulation:T25 Theme:T4 Cause:T2
+
+We found that two members of the NSAIDs, sodium salicylate and sulindac repress the IL1B promoter to similar degree to heat shock or HSF1 overexpression.
+# T6 Protein S4 84 88 643 647 IL1B
+# T7 Protein S4 133 137 692 696 HSF1
+$ T6 Protein S4 84 88 643 647 IL1B
+$ T7 Protein S4 133 137 692 696 HSF1
+@ T26 Negative_regulation S4 72 79 631 638 repress
+@ T27 Entity S4 89 97 648 656 promoter
+@ T29 Gene_expression S4 138 152 701 711 overexpression
+% E7 Negative_regulation:T26 Theme:T6 Site:T27
+% E14 Gene_expression:T29 Theme:T3
+% E15 Gene_expression:T29 Theme:T4
+% E16 Gene_expression:T29 Theme:T7
+
+In addition, sodium salicylate and additional NSAIDs used at concentrations that activate HSF1 also inhibited the expression of other monocytic genes (TNF-alpha, IL-1beta, IL-6, IL-8, IL-10, ICAM-1) activated by exposure to a pro-inflammatory stimulus (lipopolysaccharide, LPS).
+# T8 Protein S5 90 94 803 807 HSF1
+# T9 Protein S5 151 160 864 873 TNF-alpha
+# T10 Protein S5 162 170 875 883 IL-1beta
+# T11 Protein S5 172 176 885 889 IL-6
+# T12 Protein S5 178 182 891 895 IL-8
+# T13 Protein S5 184 189 897 902 IL-10
+# T14 Protein S5 191 197 904 910 ICAM-1
+$ T8 Protein S5 90 94 803 807 HSF1
+$ T12 Protein S5 178 182 891 895 IL-8
+$ T11 Protein S5 172 176 885 889 IL-6
+$ T14 Protein S5 191 197 904 910 ICAM-1
+$ T13 Protein S5 184 189 897 902 IL-10
+$ T9 Protein S5 151 160 864 873 TNF-alpha
+$ T10 Protein S5 162 170 875 883 IL-1beta
+@ T30 Positive_regulation S5 81 89 794 802 activate
+@ T31 Negative_regulation S5 100 109 813 822 inhibited
+@ T32 Gene_expression S5 114 124 827 837 expression
+@ T33 Positive_regulation S5 199 208 912 921 activated
+% E17 Positive_regulation:T30 Theme:T8
+% E18 Negative_regulation:T31 Theme:E30
+% E19 Negative_regulation:T31 Theme:E34
+% E20 Negative_regulation:T31 Theme:E31
+% E21 Negative_regulation:T31 Theme:E32
+% E22 Negative_regulation:T31 Theme:E33
+% E23 Negative_regulation:T31 Theme:E35
+% E24 Gene_expression:T32 Theme:T12
+% E25 Gene_expression:T32 Theme:T11
+% E26 Gene_expression:T32 Theme:T14
+% E27 Gene_expression:T32 Theme:T13
+% E28 Gene_expression:T32 Theme:T9
+% E29 Gene_expression:T32 Theme:T10
+% E30 Positive_regulation:T33 Theme:E29
+% E31 Positive_regulation:T33 Theme:E24
+% E32 Positive_regulation:T33 Theme:E25
+% E33 Positive_regulation:T33 Theme:E26
+% E34 Positive_regulation:T33 Theme:E27
+% E35 Positive_regulation:T33 Theme:E28
+
+At least in the case of the IL1B promoter, repression did not seem to involve another factor whose activity is affected by the NSAIDs, NFkappaB as the IL1B promoter fragment used in our studies is not NFkappaB responsive and binds specifically to HSF1.
+# T15 Protein S6 28 32 1020 1024 IL1B
+# T16 Protein S6 151 155 1143 1147 IL1B
+# T17 Protein S6 247 251 1239 1243 HSF1
+$ T15 Protein S6 28 32 1020 1024 IL1B
+$ T16 Protein S6 151 155 1143 1147 IL1B
+$ T17 Protein S6 247 251 1239 1243 HSF1
+@ T34 Entity S6 33 41 1025 1033 promoter
+@ T35 Negative_regulation S6 43 53 1035 1045 repression
+@ T36 Entity S6 156 164 1148 1156 promoter
+@ T37 Regulation S6 210 220 1202 1212 responsive
+@ T38 Binding S6 225 230 1217 1222 binds
+% E36 Negative_regulation:T35 Theme:T15 Site:T34
+% E37 Regulation:T37 Theme:T16 Site:T36
+% E38 Binding:T38 Theme:T16 Theme2:T17 Site:T36
+
+Exposure to NSAIDs had a complex effect on HSP gene expression and while sulindac activated the stress responsive HSP70B promoter, sodium salicylate did not.
+# T18 Protein S7 114 120 1359 1365 HSP70B
+$ T18 Protein S7 114 120 1359 1365 HSP70B
+@ T39 Positive_regulation S7 82 91 1327 1336 activated
+@ T40 Positive_regulation S7 103 113 1348 1358 responsive
+@ T41 Entity S7 121 129 1366 1374 promoter
+% E39 Positive_regulation:T39 Theme:T18 Site:T41
+% E40 Positive_regulation:T40 Theme:T18 Site:T41
+
+In addition, only a subset of the NSAIDs induced HSP70 mRNA species.
+# T19 Protein S8 49 54 1452 1457 HSP70
+$ T19 Protein S8 49 54 1452 1457 HSP70
+@ T42 Positive_regulation S8 41 48 1444 1451 induced
+% E41 Positive_regulation:T42 Theme:T19
+
+These findings reflect the properties of HSF1 which can be activated to at least two DNA binding forms only one of which activates heat shock promoters and suggest that individual NSAID family members may differentially induce one or other of these forms.
+# T20 Protein S9 41 45 1513 1517 HSF1
+$ T20 Protein S9 41 45 1513 1517 HSF1
+@ T43 Positive_regulation S9 59 68 1531 1540 activated
+@ T44 Binding S9 89 96 1561 1568 binding
+% E42 Positive_regulation:T43 Theme:E43
+% E43 Binding:T44 Theme:T20
+
+Overall therefore, exposure to NSAIDs leads to a profound switch in gene expression in monocytic cells, with suppression of genes involved in macrophage activation and induction of stress genes and HSF1 appears to play a regulatory role in these effects.
+# T21 Protein S10 198 202 1926 1930 HSF1
+
+Copyright 1999 Academic Press.
+

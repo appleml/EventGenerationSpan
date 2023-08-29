@@ -1,0 +1,51 @@
+Nuclear factor kappa B activates proenkephalin transcription in T lymphocytes.
+# T1 Protein S1 33 46 33 46 proenkephalin
+$ T1 Protein S1 33 46 33 46 proenkephalin
+@ T10 Positive_regulation S1 23 32 23 32 activates
+@ T11 Transcription S1 47 60 47 60 transcription
+% E1 Positive_regulation:T10 Theme:E2
+% E2 Transcription:T11 Theme:T1
+
+Upon activation, T lymphocytes accumulate high levels of the neuropeptide enkephalin which correlate with high levels of proenkephalin mRNA in the cells.
+# T2 Protein S2 121 134 201 214 proenkephalin
+
+Here we investigated the transcriptional basis for these changes.
+
+The proenkephalin promoter contains a sequence GGGGACGTCCCC, named B2, which is similar to the kappa B sequence GGGGACTTTCC, the binding site of the transcription factor nuclear factor (NF)-kappa B. Activation of T lymphocytes induces an NF-kappa B-like binding activity to the B2 site, concomitant with activation of the proenkephalin promoter.
+# T3 Protein S4 4 17 304 317 proenkephalin
+# T4 Protein S4 322 335 622 635 proenkephalin
+$ T4 Protein S4 322 335 622 635 proenkephalin
+@ T12 Positive_regulation S4 304 314 604 614 activation
+@ T13 Entity S4 336 344 636 644 promoter
+% E3 Positive_regulation:T12 Theme:T4 Site:T13
+
+Mutations at the B2 site abolish this transcriptional activation.
+@ T14 Negative_regulation S5 25 32 671 678 abolish
+% E4 Negative_regulation:T14 Theme:E3
+
+The purified homodimer (two p50s) of the DNA-binding subunit of NF-kappa B binds the B2 site of proenkephalin relatively better than does the heterotetramer (two p65s plus two p50s) form of the factor.
+# T5 Protein S6 28 31 740 743 p50
+# T6 Protein S6 96 109 808 821 proenkephalin
+# T7 Protein S6 162 165 874 877 p65
+# T8 Protein S6 176 179 888 891 p50
+$ T5 Protein S6 28 31 740 743 p50
+$ T6 Protein S6 96 109 808 821 proenkephalin
+$ T7 Protein S6 162 165 874 877 p65
+$ T8 Protein S6 176 179 888 891 p50
+@ T15 Binding S6 13 22 725 734 homodimer
+@ T16 Binding S6 75 80 787 792 binds
+@ T17 Entity S6 85 92 797 804 B2 site
+@ T18 Binding S6 142 156 854 868 heterotetramer
+% E5 Binding:T15 Theme:T5
+% E6 Binding:T16 Theme:T6 Site:T17
+% E7 Binding:T18 Theme:T7 Theme2:T8
+
+Thus, it appears that the T-cell-specific activation of the proenkephalin promoter is mediated by NF-kappa B. However, as NF-kappa B is ubiquitous and the transcriptional activation through the B2 site is T cell specific, yet another T-cell-specific factor which synergizes with NF-kappa B should be considered.
+# T9 Protein S7 60 73 974 987 proenkephalin
+$ T9 Protein S7 60 73 974 987 proenkephalin
+@ T19 Positive_regulation S7 42 52 956 966 activation
+@ T20 Entity S7 74 82 988 996 promoter
+@ T21 Positive_regulation S7 86 94 1000 1008 mediated
+% E8 Positive_regulation:T19 Theme:T9 Site:T20
+% E9 Positive_regulation:T21 Theme:E8
+

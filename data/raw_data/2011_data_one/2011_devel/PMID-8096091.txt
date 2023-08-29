@@ -1,0 +1,46 @@
+NF-kappa B controls expression of inhibitor I kappa B alpha: evidence for an inducible autoregulatory pathway.
+# T1 Protein S1 44 59 44 59 I kappa B alpha
+$ T1 Protein S1 44 59 44 59 I kappa B alpha
+@ T10 Regulation S1 11 19 11 19 controls
+@ T11 Gene_expression S1 20 30 20 30 expression
+% E1 Regulation:T10 Theme:E2
+% E2 Gene_expression:T11 Theme:T1
+
+The eukaryotic transcription factor nuclear factor-kappa B (NF-kappa B) participates in many parts of the genetic program mediating T lymphocyte activation and growth.
+
+Nuclear expression of NF-kappa B occurs after its induced dissociation from its cytoplasmic inhibitor I kappa B alpha.
+# T2 Protein S3 102 117 382 397 I kappa B alpha
+
+Phorbol ester and tumor necrosis factor-alpha induction of nuclear NF-kappa B is associated with both the degradation of performed I kappa B alpha and the activation of I kappa B alpha gene expression.
+# T3 Protein S4 18 45 417 444 tumor necrosis factor-alpha
+# T4 Protein S4 131 146 530 545 I kappa B alpha
+# T5 Protein S4 169 184 568 583 I kappa B alpha
+$ T4 Protein S4 131 146 530 545 I kappa B alpha
+$ T5 Protein S4 169 184 568 583 I kappa B alpha
+@ T12 Protein_catabolism S4 106 117 505 516 degradation
+@ T13 Positive_regulation S4 155 165 554 564 activation
+@ T14 Gene_expression S4 190 200 589 599 expression
+% E3 Protein_catabolism:T12 Theme:T4
+% E4 Positive_regulation:T13 Theme:E5
+% E5 Gene_expression:T14 Theme:T5
+
+Transfection studies indicate that the I kappa B alpha gene is specifically induced by the 65-kilodalton transactivating subunit of NF-kappa B. Association of the newly synthesized I kappa B alpha with p65 restores intracellular inhibition of NF-kappa B DNA binding activity and prolongs the survival of this labile inhibitor.
+# T6 Protein S5 39 54 640 655 I kappa B alpha
+# T7 Protein S5 181 196 782 797 I kappa B alpha
+# T8 Protein S5 202 205 803 806 p65
+$ T6 Protein S5 39 54 640 655 I kappa B alpha
+$ T7 Protein S5 181 196 782 797 I kappa B alpha
+$ T8 Protein S5 202 205 803 806 p65
+@ T15 Positive_regulation S5 76 83 677 684 induced
+@ T16 Binding S5 144 155 745 756 Association
+% E6 Positive_regulation:T15 Theme:T6
+% E7 Binding:T16 Theme:T7 Theme2:T8
+
+Together, these results show that NF-kappa B controls the expression of I kappa B alpha by means of an inducible autoregulatory pathway.
+# T9 Protein S6 72 87 1000 1015 I kappa B alpha
+$ T9 Protein S6 72 87 1000 1015 I kappa B alpha
+@ T17 Regulation S6 45 53 973 981 controls
+@ T18 Gene_expression S6 58 68 986 996 expression
+% E8 Regulation:T17 Theme:E9
+% E9 Gene_expression:T18 Theme:T9
+

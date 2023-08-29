@@ -1,0 +1,130 @@
+CD28 costimulation augments IL-2 secretion of activated lamina propria T cells by increasing mRNA stability without enhancing IL-2 gene transactivation.
+# T1 Protein S1 0 4 0 4 CD28
+# T2 Protein S1 28 32 28 32 IL-2
+# T3 Protein S1 126 130 126 130 IL-2
+$ T1 Protein S1 0 4 0 4 CD28
+$ T2 Protein S1 28 32 28 32 IL-2
+$ T3 Protein S1 126 130 126 130 IL-2
+@ T26 Positive_regulation S1 5 18 5 18 costimulation
+@ T27 Positive_regulation S1 19 27 19 27 augments
+@ T28 Localization S1 33 42 33 42 secretion
+@ T29 Positive_regulation S1 82 92 82 92 increasing
+@ T30 Positive_regulation S1 116 125 116 125 enhancing
+@ T31 Positive_regulation S1 136 151 136 151 transactivation
+% E1 Positive_regulation:T26 Theme:T1
+% E2 Positive_regulation:T27 Theme:E3 Cause:E4
+% E3 Localization:T28 Theme:T2
+% E4 Positive_regulation:T29 Theme:T3 Cause:E1
+% E5 Positive_regulation:T30 Theme:E6 Cause:E1
+% E6 Positive_regulation:T31 Theme:T3
+
+The pathways leading to activation in lamina propria (LP) T cells are different from peripheral T cells.
+
+LP T cells exhibit enhanced IL-2 secretion when activated through the CD2 pathway.
+# T4 Protein S3 28 32 287 291 IL-2
+$ T4 Protein S3 28 32 287 291 IL-2
+@ T32 Positive_regulation S3 19 27 278 286 enhanced
+@ T33 Localization S3 33 42 292 301 secretion
+% E7 Positive_regulation:T32 Theme:E8
+% E8 Localization:T33 Theme:T4
+
+Coligation of CD28 leads to synergistic enhancement of IL-2 secretion.
+# T5 Protein S4 14 18 356 360 CD28
+# T6 Protein S4 55 59 397 401 IL-2
+$ T5 Protein S4 14 18 356 360 CD28
+$ T6 Protein S4 55 59 397 401 IL-2
+@ T34 Binding S4 0 10 342 352 Coligation
+@ T35 Positive_regulation S4 19 51 361 393 leads to synergistic enhancement
+@ T36 Localization S4 60 69 402 411 secretion
+% E9 Binding:T34 Theme:T5
+% E10 Positive_regulation:T35 Theme:E11 Cause:E9
+% E11 Localization:T36 Theme:T6
+
+Previous studies have characterized the CD28 augmentation of TCR-mediated signaling in peripheral blood T cells through transcriptional activation of an IL-2 promoter CD28 response element (CD28RE), along with enhanced mRNA stability.
+# T7 Protein S5 40 44 453 457 CD28
+# T8 Protein S5 153 157 566 570 IL-2
+# T9 Protein S5 167 171 580 584 CD28
+$ T8 Protein S5 153 157 566 570 IL-2
+@ T37 Positive_regulation S5 210 218 623 631 enhanced
+% E12 Positive_regulation:T37 Theme:T8
+
+This study characterized molecular events involved in CD28 costimulation of IL-2 production in LP mononuclear cells (LPMC).
+# T10 Protein S6 54 58 702 706 CD28
+# T11 Protein S6 76 80 724 728 IL-2
+$ T10 Protein S6 54 58 702 706 CD28
+$ T11 Protein S6 76 80 724 728 IL-2
+@ T38 Regulation S6 42 50 690 698 involved
+@ T39 Positive_regulation S6 59 72 707 720 costimulation
+@ T40 Gene_expression S6 81 91 729 739 production
+% E13 Regulation:T38 Theme:E14
+% E14 Positive_regulation:T39 Theme:E15 Cause:T10
+% E15 Gene_expression:T40 Theme:T11
+
+LPMC exhibited increased IL-2 production in response to CD28 costimulation, compared with cells activated through CD2 alone.
+# T12 Protein S7 25 29 797 801 IL-2
+# T13 Protein S7 56 60 828 832 CD28
+$ T12 Protein S7 25 29 797 801 IL-2
+@ T41 Gene_expression S7 30 40 802 812 production
+@ T42 Positive_regulation S7 41 55 813 827 in response to
+% E16 Gene_expression:T41 Theme:T12
+% E17 Positive_regulation:T42 Theme:E16
+
+IL-2 secretion was paralleled by increased expression of IL-2 mRNA, resulting from enhanced IL-2 mRNA stability.
+# T14 Protein S8 0 4 897 901 IL-2
+# T15 Protein S8 57 61 954 958 IL-2
+# T16 Protein S8 92 96 989 993 IL-2
+$ T14 Protein S8 0 4 897 901 IL-2
+$ T15 Protein S8 57 61 954 958 IL-2
+$ T16 Protein S8 92 96 989 993 IL-2
+@ T43 Localization S8 5 14 902 911 secretion
+@ T44 Positive_regulation S8 33 42 930 939 increased
+@ T45 Transcription S8 43 53 940 950 expression
+@ T46 Positive_regulation S8 68 77 965 974 resulting
+@ T47 Positive_regulation S8 83 91 980 988 enhanced
+% E18 Localization:T43 Theme:T14
+% E19 Positive_regulation:T44 Theme:E20
+% E20 Transcription:T45 Theme:T15
+% E21 Positive_regulation:T46 Theme:E19 Cause:E22
+% E22 Positive_regulation:T47 Theme:T16
+
+In contrast to transcriptional activation in PBMC, EMSA revealed that CD28 coligation of CD2-activated LPMC does not result in increased binding of trans-factors to the CD28RE, nor did Western blots detect changes in I-kappaBalpha or I-kappaBbeta levels following CD28 coligation.
+# T17 Protein S9 70 74 1080 1084 CD28
+# T18 Protein S9 217 230 1227 1240 I-kappaBalpha
+# T19 Protein S9 234 246 1244 1256 I-kappaBbeta
+# T20 Protein S9 264 268 1274 1278 CD28
+$ T17 Protein S9 70 74 1080 1084 CD28
+$ T18 Protein S9 217 230 1227 1240 I-kappaBalpha
+$ T19 Protein S9 234 246 1244 1256 I-kappaBbeta
+$ T20 Protein S9 264 268 1274 1278 CD28
+@ T48 Binding S9 75 85 1085 1095 coligation
+@ T49 Regulation S9 206 213 1216 1223 changes
+@ T50 Gene_expression S9 247 253 1257 1263 levels
+@ T51 Binding S9 269 279 1279 1289 coligation
+% E23 Binding:T48 Theme:T17
+% E24 Regulation:T49 Theme:E27 Cause:E28
+% E25 Regulation:T49 Theme:E26 Cause:E28
+% E26 Gene_expression:T50 Theme:T18
+% E27 Gene_expression:T50 Theme:T19
+% E28 Binding:T51 Theme:T20
+
+Furthermore, CD28 coligation fails to enhance IL-2 promoter-reporter or RE/AP construct expression in CD2-activated LPMC.
+# T21 Protein S10 13 17 1304 1308 CD28
+# T22 Protein S10 46 50 1337 1341 IL-2
+$ T21 Protein S10 13 17 1304 1308 CD28
+@ T52 Binding S10 18 28 1309 1319 coligation
+% E29 Binding:T52 Theme:T21
+
+The results reported herein indicate that the molecular mechanisms involved in CD28 cosignaling and regulation of IL-2 secretion in LP T cells are unique to that compartment and differ from those seen in peripheral blood T cells.
+# T23 Protein S11 79 83 1492 1496 CD28
+# T24 Protein S11 114 118 1527 1531 IL-2
+$ T24 Protein S11 114 118 1527 1531 IL-2
+@ T53 Regulation S11 67 75 1480 1488 involved
+@ T54 Regulation S11 100 110 1513 1523 regulation
+@ T55 Localization S11 119 128 1532 1541 secretion
+% E30 Regulation:T53 Theme:E31
+% E31 Regulation:T54 Theme:E32
+% E32 Localization:T55 Theme:T24
+
+These observations suggest a biological significance for different mechanisms of IL-2 activation in initiation and maintenance of the cytokine repertoire found in the mucosa.
+# T25 Protein S12 81 85 1724 1728 IL-2
+

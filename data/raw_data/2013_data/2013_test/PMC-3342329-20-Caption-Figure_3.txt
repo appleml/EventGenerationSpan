@@ -1,0 +1,38 @@
+Induction of apoptotic cell death in tumor tissues of CCR5 -/- mice.
+# T1 Protein S1 54 58 54 58 CCR5
+
+A, Apoptotic cells in tumor sections were examined by fluorescence microscopy after DAPI and TUNEL staining as described in material and methods.
+
+The apoptotic index was determined as the number of DAPI-stained, TUNEL-positive cells that were counted.
+
+Values are the mean +/- S.D. of four experimental animals.
+
+* indicates statistically significant differences from CCR5+/+ mice.
+# T2 Protein S5 55 59 435 439 CCR5
+
+Scale bar indicates 50 microm.
+
+B and C, Apoptotic protein (cleaved caspase-3 and Bax) in tumor sections were detected by immunofluorescence assay.
+
+The reactive cell number was determined as the number of DAPI-stained, Specific antibody (cleaved caspase-3 and Bax)-positive cells that were counted.
+
+Values are the mean +/- S.D. of four experimental animals.
+
+* indicates statistically significant differences from CCR5+/+ mice.
+# T3 Protein S10 55 59 861 865 CCR5
+
+Scale bar indicates 50 microm.
+
+D, The expression of apoptotic proteins was detected by Western blotting using specific antibodies; cleaved caspase-3, cleaved caspase-9, cleaved PARP, Bax, Bcl-2 and c-IAP1 in the tumor tissues.
+# T4 Protein S12 167 173 1073 1079 c-IAP1
+
+The beta-actin protein was used as an internal control.
+# T5 Protein S13 4 14 1106 1116 beta-actin
+
+Each band is representative of three independent experimental results.
+
+Data are means +/- S.D. of three experimental animals.
+
+* indicates significant difference from CCR5+/+ mice (p<0.05).
+# T6 Protein S16 40 44 1324 1328 CCR5
+

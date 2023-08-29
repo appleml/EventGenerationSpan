@@ -1,0 +1,42 @@
+Transcription of a minimal promoter from the NF-IL6 gene is regulated by CREB/ATF and SP1 proteins in U937 promonocytic cells.
+# T1 Protein S1 45 51 45 51 NF-IL6
+# T2 Protein S1 86 89 86 89 SP1
+
+NF-IL6 is an important transcriptional regulator of genes induced in activated monocytes/macrophages, and NF-IL6 is the only CCAAT/enhancer-binding protein (C/EBP) family member whose steady-state mRNA levels increase upon activation of monocytes (1).
+# T3 Protein S2 0 6 128 134 NF-IL6
+# T4 Protein S2 106 112 234 240 NF-IL6
+$ T4 Protein S2 106 112 234 240 NF-IL6
+@ T10 Positive_regulation S2 209 217 337 345 increase
+% E1 Positive_regulation:T10 Theme:T4
+
+We show that increased transcription of the NF-IL6 gene is responsible, at least in part, for induction of NF-IL6 mRNA following activation of U937 promonocytic cells.
+# T5 Protein S3 44 50 424 430 NF-IL6
+# T6 Protein S3 107 113 487 493 NF-IL6
+$ T5 Protein S3 44 50 424 430 NF-IL6
+$ T6 Protein S3 107 113 487 493 NF-IL6
+@ T11 Positive_regulation S3 13 22 393 402 increased
+@ T12 Transcription S3 23 36 403 416 transcription
+@ T13 Positive_regulation S3 59 70 439 450 responsible
+@ T14 Positive_regulation S3 94 103 474 483 induction
+% E2 Positive_regulation:T11 Theme:E3
+% E3 Transcription:T12 Theme:T5
+% E4 Positive_regulation:T13 Theme:E5 Cause:E2
+% E5 Positive_regulation:T14 Theme:T6
+
+We have identified a 104-bp minimal promoter region of the NF-IL6 gene that is sufficient for basal and activation-dependent induction of transcription in U937 cells.
+# T7 Protein S4 59 65 607 613 NF-IL6
+$ T7 Protein S4 59 65 607 613 NF-IL6
+@ T15 Entity S4 21 51 569 599 104-bp minimal promoter region
+@ T16 Positive_regulation S4 79 89 627 637 sufficient
+@ T17 Positive_regulation S4 125 134 673 682 induction
+@ T18 Transcription S4 138 151 686 699 transcription
+% E6 Positive_regulation:T16 Theme:E7 Cause:T7 CSite:T15
+% E7 Positive_regulation:T17 Theme:E8
+% E8 Transcription:T18 Theme:T7
+
+This region contains binding sites for the cAMP response element-binding protein/activation transcription factor (CREB/ATF) and Sp1 families of transcription factors.
+# T8 Protein S5 128 131 843 846 Sp1
+
+Each site is functionally important and contributes independently to transcription of the NF-IL6 gene in U937 cells.
+# T9 Protein S6 90 96 972 978 NF-IL6
+

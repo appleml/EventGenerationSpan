@@ -1,0 +1,52 @@
+An alternatively spliced isoform of the Spi-B transcription factor.
+# T1 Protein S1 40 45 40 45 Spi-B
+
+Spi-B is an Ets transcription factor related to the oncoprotein Spi-1/PU.1 and highly expressed in B lymphoid cells.
+# T2 Protein S2 0 5 69 74 Spi-B
+# T3 Protein S2 64 69 133 138 Spi-1
+# T4 Protein S2 70 74 139 143 PU.1
+$ T2 Protein S2 0 5 69 74 Spi-B
+@ T15 Gene_expression S2 86 95 155 164 expressed
+% E1 Gene_expression:T15 Theme:T2
+
+The Ets proteins share a conserved Ets domain that mediates specific DNA binding.
+
+Spi-B binds DNA sequences containing a core 5'-GGAA-3' and activates transcription through this motif.
+# T5 Protein S4 0 5 268 273 Spi-B
+$ T5 Protein S4 0 5 268 273 Spi-B
+@ T16 Binding S4 6 11 274 279 binds
+% E2 Binding:T16 Theme:T5
+
+Up to date, the biological function of Spi-B remains unknown.
+# T6 Protein S5 39 44 410 415 Spi-B
+
+Here, we describe the characterization of an alternatively spliced variant of Spi-B, named deltaSpi-B, which has lost the Ets domain.
+# T7 Protein S6 78 83 511 516 Spi-B
+# T8 Protein S6 91 101 524 534 deltaSpi-B
+
+In B lymphoid cells, deltaspi-B and spi-B mRNAs were present simultaneously in a ratio of around 10%.
+# T9 Protein S7 21 31 588 598 deltaspi-B
+# T10 Protein S7 36 41 603 608 spi-B
+$ T10 Protein S7 36 41 603 608 spi-B
+$ T9 Protein S7 21 31 588 598 deltaspi-B
+@ T17 Transcription S7 53 60 620 627 present
+% E3 Transcription:T17 Theme:T10
+% E4 Transcription:T17 Theme:T9
+
+DeltaSpi-B product was not able to bind DNA and was recovered in cytoplasmic cellular extracts.
+# T11 Protein S8 0 10 669 679 DeltaSpi-B
+$ T11 Protein S8 0 10 669 679 DeltaSpi-B
+@ T18 Binding S8 35 39 704 708 bind
+@ T19 Localization S8 52 61 721 730 recovered
+@ T20 Entity S8 65 94 734 763 cytoplasmic cellular extracts
+% E5 Binding:T18 Theme:T11
+% E6 Localization:T19 Theme:T11 AtLoc:T20
+
+We raise the hypothesis that delta Spi-B might affect Spi-B function by recruiting factors involved in Spi-B activity.
+# T12 Protein S9 29 40 794 805 delta Spi-B
+# T13 Protein S9 54 59 819 824 Spi-B
+# T14 Protein S9 103 108 868 873 Spi-B
+$ T13 Protein S9 54 59 819 824 Spi-B
+@ T21 Regulation S9 47 53 812 818 affect
+% E7 Regulation:T21 Theme:T13
+

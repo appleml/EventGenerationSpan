@@ -1,0 +1,55 @@
+Cytokine rescue from glucocorticoid induced apoptosis in T cells is mediated through inhibition of IkappaBalpha.
+# T1 Protein S1 99 111 99 111 IkappaBalpha
+$ T1 Protein S1 99 111 99 111 IkappaBalpha
+@ T11 Negative_regulation S1 85 95 85 95 inhibition
+% E1 Negative_regulation:T11 Theme:T1
+
+We previously reported that dexamethasone (DEX), a synthetic glucocorticoid, causes apoptosis in mature Th cell lines, and that this induction of cell death is prevented by specific cytokines, namely, by IL-2 in Th1 cells and by IL-4 in Th2 cells.
+# T2 Protein S2 204 208 318 322 IL-2
+# T3 Protein S2 229 233 343 347 IL-4
+
+We now show that this differential rescue by specific cytokines in Th cells correlates with the level of IkappaBalpha that is regulated by DEX and cytokines.
+# T4 Protein S3 105 117 467 479 IkappaBalpha
+$ T4 Protein S3 105 117 467 479 IkappaBalpha
+@ T12 Gene_expression S3 96 101 458 463 level
+@ T13 Regulation S3 126 135 488 497 regulated
+% E2 Gene_expression:T12 Theme:T4
+% E3 Regulation:T13 Theme:E2
+
+In both cell types the cellular levels of IkappaBalpha mRNA and protein were evaluated by DEX treatment.
+# T5 Protein S4 42 54 562 574 IkappaBalpha
+$ T5 Protein S4 42 54 562 574 IkappaBalpha
+@ T14 Transcription S4 32 38 552 558 levels
+@ T15 Gene_expression S4 32 38 552 558 levels
+% E4 Transcription:T14 Theme:T5
+% E5 Gene_expression:T15 Theme:T5
+
+Interestingly, the DEX-mediated IkappaBalpha induction was completely inhibited by IL-2, but not IL-4, in Th1 cells, while the reverse profile was seen in Th2 cells.
+# T6 Protein S5 32 44 657 669 IkappaBalpha
+# T7 Protein S5 83 87 708 712 IL-2
+# T8 Protein S5 97 101 722 726 IL-4
+$ T6 Protein S5 32 44 657 669 IkappaBalpha
+$ T7 Protein S5 83 87 708 712 IL-2
+$ T8 Protein S5 97 101 722 726 IL-4
+@ T16 Positive_regulation S5 45 54 670 679 induction
+@ T17 Negative_regulation S5 70 79 695 704 inhibited
+% E6 Positive_regulation:T16 Theme:T6
+% E7 Negative_regulation:T17 Theme:E6 Cause:T7
+% E8 Negative_regulation:T17 Theme:E6 Cause:T8
+
+In both cell types, the cytokine that inhibits the induction of IkappaBalpha by DEX, also rescues these cells from DEX-induced apoptosis, although the rescue cytokine is different in Th1 and Th2 cells.
+# T9 Protein S6 64 76 855 867 IkappaBalpha
+$ T9 Protein S6 64 76 855 867 IkappaBalpha
+@ T18 Negative_regulation S6 38 46 829 837 inhibits
+@ T19 Positive_regulation S6 51 60 842 851 induction
+% E9 Negative_regulation:T18 Theme:E10
+% E10 Positive_regulation:T19 Theme:T9
+
+Our results imply that T cells need to maintain a certain level of NF-kappaB transcriptional activity in order to survive; up- or down-regulation of nuclear NF kappaB through modulation of IkappaBalpha expression by cytokines or DEX may lead to cell survival or cell death, respectively.
+# T10 Protein S7 189 201 1182 1194 IkappaBalpha
+$ T10 Protein S7 189 201 1182 1194 IkappaBalpha
+@ T20 Regulation S7 175 185 1168 1178 modulation
+@ T21 Gene_expression S7 202 212 1195 1205 expression
+% E11 Regulation:T20 Theme:E12
+% E12 Gene_expression:T21 Theme:T10
+

@@ -1,0 +1,98 @@
+CTLA-4-Mediated inhibition of early events of T cell proliferation.
+# T1 Protein S1 0 6 0 6 CTLA-4
+
+CTLA-4 engagement by mAbs inhibits, while CD28 enhances, IL-2 production and proliferation upon T cell activation.
+# T2 Protein S2 0 6 69 75 CTLA-4
+# T3 Protein S2 42 46 111 115 CD28
+# T4 Protein S2 57 61 126 130 IL-2
+$ T2 Protein S2 0 6 69 75 CTLA-4
+$ T3 Protein S2 42 46 111 115 CD28
+$ T4 Protein S2 57 61 126 130 IL-2
+@ T22 Binding S2 7 17 76 86 engagement
+@ T23 Negative_regulation S2 26 34 95 103 inhibits
+@ T24 Positive_regulation S2 47 55 116 124 enhances
+@ T25 Gene_expression S2 62 72 131 141 production
+@ T26 Positive_regulation S2 91 95 160 164 upon
+% E1 Binding:T22 Theme:T2
+% E2 Negative_regulation:T23 Theme:E5 Cause:E1
+% E3 Positive_regulation:T24 Theme:E5 Cause:T3
+% E4 Gene_expression:T25 Theme:T4
+% E5 Positive_regulation:T26 Theme:E4
+
+Here, we have analyzed the mechanisms involved in CTLA-4-mediated inhibition of T cell activation of naive CD4+ T cells using Ab cross-linking.
+# T5 Protein S3 50 56 234 240 CTLA-4
+# T6 Protein S3 107 110 291 294 CD4
+
+CTLA-4 ligation inhibited CD3/CD28-induced IL-2 mRNA accumulation by inhibiting IL-2 transcription, which appears to be mediated in part through decreasing NF-AT accumulation in the nuclei.
+# T7 Protein S4 0 6 328 334 CTLA-4
+# T8 Protein S4 30 34 358 362 CD28
+# T9 Protein S4 43 47 371 375 IL-2
+# T10 Protein S4 80 84 408 412 IL-2
+$ T7 Protein S4 0 6 328 334 CTLA-4
+$ T9 Protein S4 43 47 371 375 IL-2
+$ T8 Protein S4 30 34 358 362 CD28
+$ T10 Protein S4 80 84 408 412 IL-2
+@ T27 Binding S4 7 15 335 343 ligation
+@ T28 Negative_regulation S4 16 25 344 353 inhibited
+@ T29 Positive_regulation S4 53 65 381 393 accumulation
+@ T30 Negative_regulation S4 69 79 397 407 inhibiting
+@ T31 Transcription S4 85 98 413 426 transcription
+@ T32 Positive_regulation S4 120 128 448 456 mediated
+% E6 Binding:T27 Theme:T7
+% E7 Negative_regulation:T28 Theme:E8 Cause:E9
+% E8 Positive_regulation:T29 Theme:T9 Cause:T8
+% E9 Negative_regulation:T30 Theme:E10 Cause:E6
+% E10 Transcription:T31 Theme:T10
+% E11 Positive_regulation:T32 Theme:E9
+
+However, CTLA-4 ligation did not appear to affect the CD28-mediated stabilization of IL-2 mRNA.
+# T11 Protein S5 9 15 527 533 CTLA-4
+# T12 Protein S5 54 58 572 576 CD28
+# T13 Protein S5 85 89 603 607 IL-2
+$ T11 Protein S5 9 15 527 533 CTLA-4
+$ T12 Protein S5 54 58 572 576 CD28
+$ T13 Protein S5 85 89 603 607 IL-2
+@ T33 Binding S5 16 24 534 542 ligation
+@ T34 Regulation S5 43 49 561 567 affect
+@ T35 Positive_regulation S5 59 67 577 585 mediated
+@ T36 Positive_regulation S5 68 81 586 599 stabilization
+% E12 Binding:T33 Theme:T11
+% E13 Regulation:T34 Theme:E14 Cause:E12
+% E14 Positive_regulation:T35 Theme:E15 Cause:T12
+% E15 Positive_regulation:T36 Theme:T13
+
+Further, CTLA-4 engagement inhibited progression through the cell cycle by inhibiting the production of cyclin D3, cyclin-dependent kinase (cdk)4, and cdk6 when the T cells were stimulated with anti-CD3/CD28 and with anti-CD3 alone.
+# T14 Protein S6 9 15 623 629 CTLA-4
+# T15 Protein S6 104 113 718 727 cyclin D3
+# T16 Protein S6 139 145 753 759 (cdk)4
+# T17 Protein S6 151 155 765 769 cdk6
+$ T14 Protein S6 9 15 623 629 CTLA-4
+$ T17 Protein S6 151 155 765 769 cdk6
+$ T15 Protein S6 104 113 718 727 cyclin D3
+$ T16 Protein S6 139 145 753 759 (cdk)4
+@ T37 Binding S6 16 26 630 640 engagement
+@ T38 Negative_regulation S6 75 85 689 699 inhibiting
+@ T39 Gene_expression S6 90 100 704 714 production
+@ T40 Positive_regulation S6 156 160 770 774 when
+% E16 Binding:T37 Theme:T14
+% E17 Negative_regulation:T38 Theme:E21 Cause:E16
+% E18 Negative_regulation:T38 Theme:E20 Cause:E16
+% E19 Negative_regulation:T38 Theme:E22 Cause:E16
+% E20 Gene_expression:T39 Theme:T17
+% E21 Gene_expression:T39 Theme:T15
+% E22 Gene_expression:T39 Theme:T16
+% E23 Positive_regulation:T40 Theme:E22
+% E24 Positive_regulation:T40 Theme:E21
+% E25 Positive_regulation:T40 Theme:E20
+
+These results indicate that CTLA-4 signaling inhibits events early in T cell activation both at IL-2 transcription and at the level of IL-2-independent events of the cell cycle, and does not simply oppose CD28-mediated costimulation.
+# T18 Protein S7 28 34 875 881 CTLA-4
+# T19 Protein S7 96 100 943 947 IL-2
+# T20 Protein S7 135 139 982 986 IL-2
+# T21 Protein S7 205 209 1052 1056 CD28
+$ T19 Protein S7 96 100 943 947 IL-2
+@ T41 Negative_regulation S7 45 53 892 900 inhibits
+@ T42 Transcription S7 101 114 948 961 transcription
+% E26 Negative_regulation:T41 Theme:E27
+% E27 Transcription:T42 Theme:T19
+

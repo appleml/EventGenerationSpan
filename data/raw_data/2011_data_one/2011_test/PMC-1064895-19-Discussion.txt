@@ -1,0 +1,154 @@
+Discussion
+
+IL-17 was first described as a T cell product with proinflammatory properties [5,22].
+# T1 Protein S2 0 5 11 16 IL-17
+
+RA is characterized by hyperplasia of synovial lining cells and an intense infiltration by mononuclear cells [23].
+
+Proinflammatory cytokines such as IL-1 and TNF-alpha are abundant in rheumatoid synovium, whereas the T cell-derived cytokines, especially IL-4 and interferon-gamma, have often proved difficult to detect in RA synovium [24].
+# T2 Protein S4 0 25 212 237 Proinflammatory cytokines
+# T3 Protein S4 34 38 246 250 IL-1
+# T4 Protein S4 43 52 255 264 TNF-alpha
+# T5 Protein S4 102 126 314 338 T cell-derived cytokines
+# T6 Protein S4 139 143 351 355 IL-4
+# T7 Protein S4 148 164 360 376 interferon-gamma
+
+Although T cells may have a role in the augmentation of rheumatoid synovial inflammation, the lack of T cell-derived cytokines has limited its importance.
+
+In this respect, IL-17 is appealing because it has been described as a T cell-derived cytokine with proinflammatory properties.
+# T8 Protein S6 17 22 609 614 IL-17
+
+In our studies, we tried to evaluate how IL-17 production is regulated in RA PBMC, and which signaling pathway it used.
+# T9 Protein S7 41 46 762 767 IL-17
+
+Levels of IL-17 were found to be higher in RA synovial fluid than in OA synovial fluid [15].
+# T10 Protein S8 10 15 851 856 IL-17
+
+However, there are few data available on the agents that stimulate IL-17 production in RA, although the highest level of IL-17 production can be achieved by anti-CD3/anti-CD28 stimulation in healthy individuals [25].
+# T11 Protein S9 67 72 1001 1006 IL-17
+# T12 Protein S9 121 126 1055 1060 IL-17
+# T13 Protein S9 171 175 1105 1109 CD28
+
+In our experiments, PHA as mitogens, as well as anti-CD3/anti-CD28 for signaling through the T cell receptor, increased IL-17 production from RA PBMC in a dose-dependent manner.
+# T14 Protein S10 20 23 1171 1174 PHA
+# T15 Protein S10 62 66 1213 1217 CD28
+# T16 Protein S10 120 125 1271 1276 IL-17
+
+We found, by a cell proliferation assay (data not shown), that this upregulation of IL-17 might be due to increased cellular activity rather than to cellular proliferation.
+# T17 Protein S11 84 89 1413 1418 IL-17
+
+IL-17 is produced mainly by activated CD4+ T cells, especially for Th1/Th0 cells, not the Th2 phenotype [26].
+# T18 Protein S12 0 5 1503 1508 IL-17
+# T19 Protein S12 38 41 1541 1544 CD4
+
+However, it can also be produced by CD8+ T cells via an IL-23 triggering mechanism in Gram-negative pulmonary infection [14].
+# T20 Protein S13 9 11 1622 1624 it
+# T21 Protein S13 36 39 1649 1652 CD8
+# T22 Protein S13 56 61 1669 1674 IL-23
+
+In addition, IL-17 production was significantly augmented by T cells recognizing type II collagen in a collagen-induced arthritis model [27].
+# T23 Protein S14 13 18 1752 1757 IL-17
+
+A complex interaction between cells in inflamed RA joints might produce a variety of proinflammatory cytokines and chemokines, which also activate other cells in the joints.
+
+For example, IL-17 stimulates rheumatoid synoviocytes to secrete several cytokines such as IL-6, IL-8 and tumor necrosis factor-stimulated gene 6 as well as prostaglandin E2 in vitro [12,28,29].
+# T24 Protein S16 13 18 2068 2073 IL-17
+# T25 Protein S16 65 82 2120 2137 several cytokines
+# T26 Protein S16 91 95 2146 2150 IL-6
+# T27 Protein S16 97 101 2152 2156 IL-8
+# T28 Protein S16 106 145 2161 2200 tumor necrosis factor-stimulated gene 6
+
+There are as yet few data available on the agents that stimulate IL-17 production in RA, although some cytokines (IL-15 and IL-23) have been known to regulate IL-17 production [13,14].
+# T29 Protein S17 65 70 2315 2320 IL-17
+# T30 Protein S17 98 112 2348 2362 some cytokines
+# T31 Protein S17 114 119 2364 2369 IL-15
+# T32 Protein S17 124 129 2374 2379 IL-23
+# T33 Protein S17 159 164 2409 2414 IL-17
+
+We therefore investigated the in vitro production of IL-17 in RA PBMC responding to a variety of cytokines/chemokines and mitogens as well as T cell receptor (TCR) ligation using anti-CD3/anti-CD28.
+# T34 Protein S18 53 58 2488 2493 IL-17
+# T35 Protein S18 193 197 2628 2632 CD28
+
+Our studies demonstrated that IL-15 and MCP-1 as well as TCR ligation significantly increased the production of IL-17 in RA PBMC.
+# T36 Protein S19 30 35 2664 2669 IL-15
+# T37 Protein S19 40 45 2674 2679 MCP-1
+# T38 Protein S19 112 117 2746 2751 IL-17
+
+Adding IL-15 or MCP-1 to TCR ligation augmented IL-17 production more markedly.
+# T39 Protein S20 7 12 2771 2776 IL-15
+# T40 Protein S20 16 21 2780 2785 MCP-1
+# T41 Protein S20 48 53 2812 2817 IL-17
+
+In contrast, IL-1 and TNF-alpha, which are known to have proinflammatory properties and to be increased in RA joints, did not affect IL-17 production.
+# T42 Protein S21 13 17 2857 2861 IL-1
+# T43 Protein S21 22 31 2866 2875 TNF-alpha
+# T44 Protein S21 33 38 2877 2882 which
+# T45 Protein S21 133 138 2977 2982 IL-17
+
+Our data were consistent with a recent report that IL-15 triggered in vitro IL-17 production in PBMC, but TNF-alpha did not do so [13].
+# T46 Protein S22 51 56 3046 3051 IL-15
+# T47 Protein S22 76 81 3071 3076 IL-17
+# T48 Protein S22 106 115 3101 3110 TNF-alpha
+
+Although there were no data that MCP-1 directly induces T cell activation, it might exert effects indirectly on T cells through the activation of monocytes/macrophages in PBMC cultures.
+# T49 Protein S23 33 38 3164 3169 MCP-1
+# T50 Protein S23 75 77 3206 3208 it
+
+As reported for normal individuals [25], T cell activation through anti-CD3/anti-CD28 also increases IL-17 induction in RA PBMC.
+# T51 Protein S24 81 85 3398 3402 CD28
+# T52 Protein S24 101 106 3418 3423 IL-17
+
+Although the signaling pathway for the induction of cytokines/chemokines by IL-17 has been documented widely [8,30,31], no data have been available on how IL-17 production can be regulated by certain signaling pathways.
+# T53 Protein S25 76 81 3523 3528 IL-17
+# T54 Protein S25 155 160 3602 3607 IL-17
+
+By using signal transduction inhibitors, we therefore examined which signaling pathway was mainly involved in the induction of IL-17 in RA PBMC.
+# T55 Protein S26 127 132 3794 3799 IL-17
+
+We identified that anti-CD3-induced IL-17 production in RA PBMC was significantly hampered by the PI3K inhibitor LY294002 and the NF-kappaB inhibitor PDTC to comparable levels of basal production without stimulation.
+# T56 Protein S27 24 27 3837 3840 CD3
+# T57 Protein S27 36 41 3849 3854 IL-17
+
+We also found that anti-CD3-induced IL-17 production was downregulated by the addition of SB203580, a p38 MAPK inhibitor.
+# T58 Protein S28 36 41 4066 4071 IL-17
+
+It is interesting that a series of evidence supports crosstalk between NF-kappaB and p38.
+
+In myocytes, IkappaB kinase-beta is activated by p38 [32], and the activated p38 can stimulate NF-kappaB by a mechanism involving histone acetylase p300/CREB-binding protein [33].
+# T59 Protein S30 13 32 4255 4274 IkappaB kinase-beta
+# T60 Protein S30 148 152 4390 4394 p300
+# T61 Protein S30 153 173 4395 4415 CREB-binding protein
+
+Our results revealed that p38 MAPK activation was not affected by LY294002, whereas NF-kappaB binding activity was decreased by LY294002, which provided the evidence for a p38 MAPK pathway independent of PI3K activation.
+
+The direct relationship between p38 and NF-kappaB for IL-17 production needs to be studied in future experiments.
+# T62 Protein S32 54 59 4697 4702 IL-17
+
+The search for a downstream pathway of PI3K seemed to have a maximal response of Akt activation at 1 hour and a gradual loss of activity at 2 hours.
+# T63 Protein S33 81 84 4839 4842 Akt
+
+The fact that Akt is phosphorylated upon anti-CD3 stimulation suggests the possible involvement of PI3K in the induction of IL-17 in RA.
+# T64 Protein S34 14 17 4921 4924 Akt
+# T65 Protein S34 124 129 5031 5036 IL-17
+
+In view of the fact that NF-kappaB was also activated by anti-CD3/anti-CD28, IL-15 or mitogens in our experiments, it is most likely that the NF-kappaB pathway is also actively involved in the induction of IL-17 in RA PBMC.
+# T66 Protein S35 71 75 5115 5119 CD28
+# T67 Protein S35 77 82 5121 5126 IL-15
+# T68 Protein S35 206 211 5250 5255 IL-17
+
+In contrast, the AP-1 signal transduction pathway, another important signaling pathway for cytokines/chemokines, was not activated in our experiments (data not shown).
+# T69 Protein S36 17 21 5285 5289 AP-1
+
+Although PI3K and its downstream kinase Akt in association with NF-kappaB have been reported to deliver activating signals in many cell types, the data on the signal inducing IL-17 are lacking.
+# T70 Protein S37 40 43 5476 5479 Akt
+# T71 Protein S37 175 180 5611 5616 IL-17
+
+Our data clearly demonstrated that PI3K/Akt and resultant NF-kappaB activation could be an important arbitrator of the upregulation of IL-17 in RA, on the basis of our experiments showing simultaneous blocking of NF-kappaB binding activity in the IL-17 promoter by PDTC and LY294002.
+# T72 Protein S38 40 43 5670 5673 Akt
+# T73 Protein S38 135 140 5765 5770 IL-17
+# T74 Protein S38 247 252 5877 5882 IL-17
+
+Considering its proinflammatory activities and successful induction of anti-IL-17 for ameliorating arthritis in animal models [2,6,34-36], understanding the IL-17 signaling pathway is an important element of developing new targeted therapies in RA.
+# T75 Protein S39 76 81 5990 5995 IL-17
+# T76 Protein S39 157 162 6071 6076 IL-17
+

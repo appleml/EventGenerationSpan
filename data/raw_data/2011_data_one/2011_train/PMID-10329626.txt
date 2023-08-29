@@ -1,0 +1,98 @@
+Rel/NF-kappaB can trigger the Notch signaling pathway by inducing the expression of Jagged1, a ligand for Notch receptors.
+# T1 Protein S1 84 91 84 91 Jagged1
+$ T1 Protein S1 84 91 84 91 Jagged1
+@ T20 Positive_regulation S1 57 65 57 65 inducing
+@ T21 Gene_expression S1 70 80 70 80 expression
+% E1 Positive_regulation:T20 Theme:E2
+% E2 Gene_expression:T21 Theme:T1
+
+Jagged1 belongs to the DSL family of ligands for Notch receptors that control the proliferation and differentiation of various cell lineages.
+# T2 Protein S2 0 7 124 131 Jagged1
+
+However, little is known about the transcription factors that regulate its expression.
+@ T22 Regulation S3 62 70 328 336 regulate
+@ T23 Gene_expression S3 75 85 341 351 expression
+% E3 Regulation:T22 Theme:E4
+% E4 Gene_expression:T23 Theme:T2
+
+Here, we show that Jagged1 is a Rel/NF-kappaB-responsive gene.
+# T3 Protein S4 19 26 372 379 Jagged1
+$ T3 Protein S4 19 26 372 379 Jagged1
+@ T24 Regulation S4 46 56 399 409 responsive
+% E5 Regulation:T24 Theme:T3
+
+Both c-Rel and RelA induced jagged1 gene expression, whereas a mutant defective for transactivation did not.
+# T4 Protein S5 5 10 421 426 c-Rel
+# T5 Protein S5 15 19 431 435 RelA
+# T6 Protein S5 28 35 444 451 jagged1
+$ T5 Protein S5 15 19 431 435 RelA
+$ T4 Protein S5 5 10 421 426 c-Rel
+$ T6 Protein S5 28 35 444 451 jagged1
+@ T25 Positive_regulation S5 20 27 436 443 induced
+@ T26 Gene_expression S5 41 51 457 467 expression
+% E6 Positive_regulation:T25 Theme:E9 Cause:T5
+% E7 Positive_regulation:T25 Theme:E9 Cause:T4
+% E8 Positive_regulation:T25 Theme:E9
+% E9 Gene_expression:T26 Theme:T6
+
+Importantly, jagged1 transcripts were also upregulated by endogenous NF-kappaB activation and this effect was inhibited by a dominant mutant of IkappaBalpha, a physiological inhibitor of NF-kappaB.
+# T7 Protein S6 13 20 538 545 jagged1
+# T8 Protein S6 144 156 669 681 IkappaBalpha
+$ T7 Protein S6 13 20 538 545 jagged1
+$ T8 Protein S6 144 156 669 681 IkappaBalpha
+@ T27 Positive_regulation S6 43 54 568 579 upregulated
+@ T28 Negative_regulation S6 110 119 635 644 inhibited
+% E10 Positive_regulation:T27 Theme:T7
+% E11 Negative_regulation:T28 Theme:E10 Cause:T8
+
+Cell surface expression of Jagged1 in c-Rel-expressing cell monolayers led to a functional interaction with lymphocytes expressing the Notch1/TAN-1 receptor.
+# T9 Protein S7 27 34 750 757 Jagged1
+# T10 Protein S7 38 43 761 766 c-Rel
+# T11 Protein S7 135 141 858 864 Notch1
+# T12 Protein S7 142 147 865 870 TAN-1
+$ T9 Protein S7 27 34 750 757 Jagged1
+$ T10 Protein S7 38 43 761 766 c-Rel
+$ T11 Protein S7 135 141 858 864 Notch1
+@ T29 Gene_expression S7 13 23 736 746 expression
+@ T30 Gene_expression S7 44 54 767 777 expressing
+@ T31 Gene_expression S7 120 130 843 853 expressing
+% E12 Gene_expression:T29 Theme:T9
+% E13 Gene_expression:T30 Theme:T10
+% E14 Gene_expression:T31 Theme:T11
+
+This correlated with the initiation of signaling downstream of Notch, as evidenced by increased levels of HES-1 transcripts in co-cultivated T cells and of CD23 transcripts in co-cultivated B cells.
+# T13 Protein S8 106 111 987 992 HES-1
+# T14 Protein S8 156 160 1037 1041 CD23
+$ T13 Protein S8 106 111 987 992 HES-1
+$ T14 Protein S8 156 160 1037 1041 CD23
+@ T32 Positive_regulation S8 86 102 967 983 increased levels
+% E15 Positive_regulation:T32 Theme:T13
+% E16 Positive_regulation:T32 Theme:T14
+
+Consistent with its Rel/NF-kappaB-dependent induction, Jagged1 was found to be highly expressed in splenic B cells where c-Rel is expressed constitutively.
+# T15 Protein S9 55 62 1135 1142 Jagged1
+# T16 Protein S9 121 126 1201 1206 c-Rel
+$ T15 Protein S9 55 62 1135 1142 Jagged1
+$ T16 Protein S9 121 126 1201 1206 c-Rel
+@ T33 Positive_regulation S9 44 53 1124 1133 induction
+@ T34 Positive_regulation S9 79 85 1159 1165 highly
+@ T35 Gene_expression S9 86 95 1166 1175 expressed
+@ T36 Gene_expression S9 130 139 1210 1219 expressed
+% E17 Positive_regulation:T33 Theme:T15
+% E18 Positive_regulation:T34 Theme:E19
+% E19 Gene_expression:T35 Theme:T15
+% E20 Gene_expression:T36 Theme:T16
+
+These results demonstrate that c-Rel can trigger the Notch signaling pathway in neighboring cells by inducing jagged1 gene expression, and suggest a role for Jagged1 in B-cell activation, differentiation or function.
+# T17 Protein S10 31 36 1267 1272 c-Rel
+# T18 Protein S10 110 117 1346 1353 jagged1
+# T19 Protein S10 158 165 1394 1401 Jagged1
+$ T17 Protein S10 31 36 1267 1272 c-Rel
+$ T18 Protein S10 110 117 1346 1353 jagged1
+@ T37 Positive_regulation S10 101 109 1337 1345 inducing
+@ T38 Gene_expression S10 123 133 1359 1369 expression
+% E21 Positive_regulation:T37 Theme:E22 Cause:T17
+% E22 Gene_expression:T38 Theme:T18
+
+These findings also highlight the potential for an interplay between the Notch and NF-kappaB signaling pathways in the immune system.
+

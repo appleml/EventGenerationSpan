@@ -1,0 +1,35 @@
+Akt, NFkappaB, and Stat3 Signaling Are Required for the Growth and Survival of Lymphoma Cells
+# T1 Protein S1 0 3 0 3 Akt
+# T2 Protein S1 19 24 19 24 Stat3
+
+MTS assay of splenocytes from (A and B) WT or (C and D) LMP1 transgenic lymphomas and (E and F) LMP1 transgenic lymphoctyes.
+# T3 Protein S2 56 60 150 154 LMP1
+# T4 Protein S2 96 100 190 194 LMP1
+
+Splenocytes were cultured with or without inhibitors of NFkappaB (BAY11), mTOR (rapamycin), Akt (triciribine), MEK1/2 (U0126), p38 (SB202190), or Stat3 (cucurbitacin I and AG490) at the indicated concentrations.
+# T5 Protein S3 74 78 293 297 mTOR
+# T6 Protein S3 92 95 311 314 Akt
+# T7 Protein S3 111 115 330 334 MEK1
+# T8 Protein S3 116 117 335 336 2
+# T9 Protein S3 146 151 365 370 Stat3
+$ T5 Protein S3 74 78 293 297 mTOR
+$ T6 Protein S3 92 95 311 314 Akt
+$ T7 Protein S3 111 115 330 334 MEK1
+$ T8 Protein S3 116 117 335 336 2
+$ T9 Protein S3 146 151 365 370 Stat3
+@ T13 Negative_regulation S3 42 52 261 271 inhibitors
+% E1 Negative_regulation:T13 Theme:T5
+% E2 Negative_regulation:T13 Theme:T6
+% E3 Negative_regulation:T13 Theme:T7
+% E4 Negative_regulation:T13 Theme:T8
+% E5 Negative_regulation:T13 Theme:T9
+
+The results are the mean +/- SEM of triplicate samples.
+
+Shown are the results for (A and B) WT lymphoma 1, (C and D) LMP1 transgenic lymphoma 2, and (E and F) one out of two LMP1 transgenic mice analyzed.
+# T10 Protein S5 61 65 548 552 LMP1
+# T11 Protein S5 118 122 605 609 LMP1
+
+This analysis was repeated with LMP1 transgenic lymphoma 4 yielding similar results.
+# T12 Protein S6 32 36 668 672 LMP1
+

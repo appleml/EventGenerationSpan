@@ -1,0 +1,72 @@
+Direct interaction of hematopoietic transcription factors PU.1 and GATA-1: functional antagonism in erythroid cells.
+# T1 Protein S1 58 62 58 62 PU.1
+# T2 Protein S1 67 73 67 73 GATA-1
+$ T1 Protein S1 58 62 58 62 PU.1
+$ T2 Protein S1 67 73 67 73 GATA-1
+@ T18 Binding S1 7 18 7 18 interaction
+% E1 Binding:T18 Theme:T1 Theme2:T2
+
+Malignant transformation usually inhibits terminal cell differentiation but the precise mechanisms involved are not understood.
+
+PU.1 is a hematopoietic-specific Ets family transcription factor that is required for development of some lymphoid and myeloid lineages.
+# T3 Protein S3 0 4 246 250 PU.1
+
+PU.1 can also act as an oncoprotein as activation of its expression in erythroid precursors by proviral insertion or transgenesis causes erythroleukemias in mice.
+# T4 Protein S4 0 4 383 387 PU.1
+$ T4 Protein S4 0 4 383 387 PU.1
+@ T19 Positive_regulation S4 39 49 422 432 activation
+@ T20 Gene_expression S4 57 67 440 450 expression
+% E2 Positive_regulation:T19 Theme:E3
+% E3 Gene_expression:T20 Theme:T4
+
+Restoration of terminal differentiation in the mouse erythroleukemia (MEL) cells requires a decline in the level of PU.1, indicating that PU.1 can block erythroid differentiation.
+# T5 Protein S5 116 120 662 666 PU.1
+# T6 Protein S5 138 142 684 688 PU.1
+$ T5 Protein S5 116 120 662 666 PU.1
+@ T21 Negative_regulation S5 92 112 638 658 decline in the level
+% E4 Negative_regulation:T21 Theme:T5
+
+Here we investigate the mechanism by which PU.1 interferes with erythroid differentiation.
+# T7 Protein S6 43 47 769 773 PU.1
+
+We find that PU.1 interacts directly with GATA-1, a zinc finger transcription factor required for erythroid differentiation.
+# T8 Protein S7 13 17 830 834 PU.1
+# T9 Protein S7 42 48 859 865 GATA-1
+$ T8 Protein S7 13 17 830 834 PU.1
+$ T9 Protein S7 42 48 859 865 GATA-1
+@ T22 Binding S7 18 27 835 844 interacts
+% E5 Binding:T22 Theme:T8 Theme2:T9
+
+Interaction between PU.1 and GATA-1 requires intact DNA-binding domains in both proteins.
+# T10 Protein S8 20 24 962 966 PU.1
+# T11 Protein S8 29 35 971 977 GATA-1
+$ T10 Protein S8 20 24 962 966 PU.1
+$ T11 Protein S8 29 35 971 977 GATA-1
+@ T23 Binding S8 0 11 942 953 Interaction
+@ T24 Positive_regulation S8 36 44 978 986 requires
+% E6 Binding:T23 Theme:T10 Theme2:T11
+% E7 Positive_regulation:T24 Theme:E6
+
+PU.1 represses GATA-1-mediated transcriptional activation.
+# T12 Protein S9 0 4 1032 1036 PU.1
+# T13 Protein S9 15 21 1047 1053 GATA-1
+
+Both the DNA binding and transactivation domains of PU.1 are required for repression and both domains are also needed to block terminal differentiation in MEL cells.
+# T14 Protein S10 52 56 1143 1147 PU.1
+
+We also show that ectopic expression of PU.1 in Xenopus embryos is sufficient to block erythropoiesis during normal development.
+# T15 Protein S11 40 44 1297 1301 PU.1
+$ T15 Protein S11 40 44 1297 1301 PU.1
+@ T25 Gene_expression S11 26 36 1283 1293 expression
+% E8 Gene_expression:T25 Theme:T15
+
+Furthermore, introduction of exogenous GATA-1 in both MEL cells and Xenopus embryos and explants relieves the block to erythroid differentiation imposed by PU.1.
+# T16 Protein S12 39 45 1425 1431 GATA-1
+# T17 Protein S12 156 160 1542 1546 PU.1
+
+Our results indicate that the stoichiometry of directly interacting but opposing transcription factors may be a crucial determinant governing processes of normal differentiation and malignant transformation.
+@ T26 Binding S13 56 67 1604 1615 interacting
+@ T27 Negative_regulation S13 72 80 1620 1628 opposing
+% E9 Binding:T26 Theme:T16 Theme2:T17
+% E10 Negative_regulation:T27 Theme:T17 Cause:T16
+

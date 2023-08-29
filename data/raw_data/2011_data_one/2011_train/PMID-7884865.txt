@@ -1,0 +1,80 @@
+LMP-1 activates NF-kappa B by targeting the inhibitory molecule I kappa B alpha.
+# T1 Protein S1 0 5 0 5 LMP-1
+# T2 Protein S1 64 79 64 79 I kappa B alpha
+$ T2 Protein S1 64 79 64 79 I kappa B alpha
+$ T1 Protein S1 0 5 0 5 LMP-1
+@ T20 Regulation S1 30 39 30 39 targeting
+% E1 Regulation:T20 Theme:T2 Cause:T1
+
+LMP-1, an Epstein-Barr virus membrane protein expressed during latent infection, has oncogenic properties, as judged from its ability to transform B lymphocytes and rodent fibroblasts.
+# T3 Protein S2 0 5 82 87 LMP-1
+$ T3 Protein S2 0 5 82 87 LMP-1
+@ T21 Gene_expression S2 46 55 128 137 expressed
+% E2 Gene_expression:T21 Theme:T3
+
+LMP-1 induces the expression of bcl2, an oncogene which protects cells from apoptosis, as well as of genes encoding other proteins involved in cell regulation and growth control.
+# T4 Protein S3 0 5 267 272 LMP-1
+# T5 Protein S3 32 36 299 303 bcl2
+$ T4 Protein S3 0 5 267 272 LMP-1
+$ T5 Protein S3 32 36 299 303 bcl2
+@ T22 Positive_regulation S3 6 13 273 280 induces
+@ T23 Gene_expression S3 18 28 285 295 expression
+% E3 Positive_regulation:T22 Theme:E4 Cause:T4
+% E4 Gene_expression:T23 Theme:T5
+
+The mechanisms by which LMP-1 upregulates these proteins is unknown, but it is plausible that LMP-1 modifies signal transduction pathways that result in the activation of one or more transcription factors that ultimately regulate transcription of oncogenic genes.
+# T6 Protein S4 24 29 470 475 LMP-1
+# T7 Protein S4 94 99 540 545 LMP-1
+$ T6 Protein S4 24 29 470 475 LMP-1
+@ T24 Positive_regulation S4 30 41 476 487 upregulates
+% E5 Positive_regulation:T24 Theme:T5 Cause:T6
+
+NF-kappa B, a transcription factor controlling the expression of genes involved in cell activation and growth control, has been shown to be activated by LMP-1.
+# T8 Protein S5 153 158 863 868 LMP-1
+
+The mechanism(s) regulating this activation remains unknown.
+
+Our data indicate that increased NF-kappa B DNA binding and functional activity are present in B-lymphoid cells stably or transiently expressing LMP-1.
+# T9 Protein S7 145 150 1076 1081 LMP-1
+$ T9 Protein S7 145 150 1076 1081 LMP-1
+@ T25 Gene_expression S7 134 144 1065 1075 expressing
+% E6 Gene_expression:T25 Theme:T9
+
+I kappa B alpha is selectively modified in LMP-1-expressing B cells.
+# T10 Protein S8 0 15 1083 1098 I kappa B alpha
+# T11 Protein S8 43 48 1126 1131 LMP-1
+$ T11 Protein S8 43 48 1126 1131 LMP-1
+@ T26 Gene_expression S8 49 59 1132 1142 expressing
+% E7 Gene_expression:T26 Theme:T11
+
+A phosphorylated form of I kappa B alpha and increased protein turnover-degradation correlate with increased NF-kappa B nuclear translocation.
+# T12 Protein S9 25 40 1177 1192 I kappa B alpha
+$ T12 Protein S9 25 40 1177 1192 I kappa B alpha
+@ T27 Phosphorylation S9 2 21 1154 1173 phosphorylated form
+% E8 Phosphorylation:T27 Theme:T12
+
+This results in increased transcription of NF-kappa B-dependent-genes, including those encoding p105 and I kappa B alpha (MAD3).
+# T13 Protein S10 96 100 1391 1395 p105
+# T14 Protein S10 105 120 1400 1415 I kappa B alpha
+# T15 Protein S10 122 126 1417 1421 MAD3
+$ T13 Protein S10 96 100 1391 1395 p105
+$ T15 Protein S10 122 126 1417 1421 MAD3
+@ T28 Positive_regulation S10 16 25 1311 1320 increased
+@ T29 Transcription S10 26 39 1321 1334 transcription
+% E9 Positive_regulation:T28 Theme:E12
+% E10 Positive_regulation:T28 Theme:E11
+% E11 Transcription:T29 Theme:T15
+% E12 Transcription:T29 Theme:T13
+
+These results indicate that LMP-1 activates NF-kappa B in B-cell lines by targeting I kappa B alpha.
+# T16 Protein S11 28 33 1452 1457 LMP-1
+# T17 Protein S11 84 99 1508 1523 I kappa B alpha
+$ T17 Protein S11 84 99 1508 1523 I kappa B alpha
+$ T16 Protein S11 28 33 1452 1457 LMP-1
+@ T30 Regulation S11 74 83 1498 1507 targeting
+% E13 Regulation:T30 Theme:T17 Cause:T16
+
+Identification of the pathways activated by LMP-1 to result in posttranslational modifications of I kappa B alpha will aid in determining the role of this virus-host cell protein interaction in Epstein-Barr virus-mediated oncogenesis.
+# T18 Protein S12 44 49 1569 1574 LMP-1
+# T19 Protein S12 98 113 1623 1638 I kappa B alpha
+

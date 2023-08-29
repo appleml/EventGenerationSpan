@@ -1,0 +1,81 @@
+Cell-specific bifunctional role of Jun oncogene family members on glucocorticoid receptor-dependent transcription.
+
+Interaction between protein kinase C (PKC)- and glucocorticoid receptor (GR)-mediated signaling is suggested by the ability of the PKC activating phorbol ester 12-O-tetradecanoylphorbol-13-acetate (TPA) to inhibit GR-dependent transcription of the mouse mammary tumor virus (MMTV) long terminal repeat (LTR).
+# T1 Protein S2 48 71 164 187 glucocorticoid receptor
+# T2 Protein S2 73 75 189 191 GR
+# T3 Protein S2 214 216 330 332 GR
+
+Here we report that this interference is cell specific, as TPA augmented dexamethasone-induced transcriptional activation of the MMTV LTR in several T cell lines but was inhibitory in NIH-3T3 fibroblasts.
+
+TPA-GR synergism was determined to have occurred at the GR-responsive element (GRE) level by functional analysis of deletion mutants or synthetic GRE oligonucleotides driving chloramphenicol acetyl-transferase expression.
+# T4 Protein S4 4 6 634 636 GR
+# T5 Protein S4 56 58 686 688 GR
+# T6 Protein S4 175 209 805 839 chloramphenicol acetyl-transferase
+
+Synergism required an intact GR DNA-binding domain, whereas amino- or carboxyl-terminal domains were dispensable.
+# T7 Protein S5 29 31 881 883 GR
+
+The effect was abrogated by the PKC inhibitor staurosporine, suggesting a role for PKC.
+
+Increased c-jun, jun-B, and jun-D expression above basal levels and increased transcriptional activity of AP-1/TPA responsive elements fused to chloramphenicol acetyl-transferase vectors were observed in T cells treated with TPA alone or in combination with dexamethasone.
+# T8 Protein S7 10 15 1064 1069 c-jun
+# T9 Protein S7 17 22 1071 1076 jun-B
+# T10 Protein S7 28 33 1082 1087 jun-D
+# T11 Protein S7 144 178 1198 1232 chloramphenicol acetyl-transferase
+$ T9 Protein S7 17 22 1071 1076 jun-B
+$ T8 Protein S7 10 15 1064 1069 c-jun
+$ T10 Protein S7 28 33 1082 1087 jun-D
+@ T28 Positive_regulation S7 0 9 1054 1063 Increased
+@ T29 Gene_expression S7 34 44 1088 1098 expression
+% E1 Positive_regulation:T28 Theme:E5
+% E2 Positive_regulation:T28 Theme:E4
+% E3 Positive_regulation:T28 Theme:E6
+% E4 Gene_expression:T29 Theme:T9
+% E5 Gene_expression:T29 Theme:T8
+% E6 Gene_expression:T29 Theme:T10
+
+The ability of Jun proteins to cooperate with GR in T cells has been investigated after transfection of c-jun, jun-B, or jun-D expression vectors, which augmented GR-dependent transcription from either MMTV LTR or GRE.
+# T12 Protein S8 46 48 1373 1375 GR
+# T13 Protein S8 104 109 1431 1436 c-jun
+# T14 Protein S8 111 116 1438 1443 jun-B
+# T15 Protein S8 121 126 1448 1453 jun-D
+# T16 Protein S8 163 165 1490 1492 GR
+
+Conversely, c-jun and jun-B transfection blunted GR-dependent transcription in HeLa cells.
+# T17 Protein S9 12 17 1558 1563 c-jun
+# T18 Protein S9 22 27 1568 1573 jun-B
+# T19 Protein S9 49 51 1595 1597 GR
+
+The presence of c-fos had a negative influence on GR function and correlated with the cell-specific synergistic or antagonistic activity of Jun with respect to GR; high basal expression of c-fos as well as AP-1 DNA binding and transcriptional activity were observed in HeLa cells, but not in T cells.
+# T20 Protein S10 16 21 1653 1658 c-fos
+# T21 Protein S10 50 52 1687 1689 GR
+# T22 Protein S10 160 162 1797 1799 GR
+# T23 Protein S10 189 194 1826 1831 c-fos
+$ T21 Protein S10 50 52 1687 1689 GR
+$ T20 Protein S10 16 21 1653 1658 c-fos
+$ T22 Protein S10 160 162 1797 1799 GR
+$ T23 Protein S10 189 194 1826 1831 c-fos
+@ T30 Negative_regulation S10 22 46 1659 1683 had a negative influence
+@ T32 Positive_regulation S10 128 136 1765 1773 activity
+@ T33 Positive_regulation S10 164 168 1801 1805 high
+@ T34 Gene_expression S10 175 185 1812 1822 expression
+% E7 Negative_regulation:T30 Theme:T21 Cause:T20
+% E9 Positive_regulation:T32 Theme:T22
+% E10 Positive_regulation:T33 Theme:E11
+% E11 Gene_expression:T34 Theme:T23
+
+Furthermore overexpression of exogenous c-fos has an inhibitory effect on GR-dependent transcription from GRE in T cells.
+# T24 Protein S11 40 45 1978 1983 c-fos
+# T25 Protein S11 74 76 2012 2014 GR
+$ T24 Protein S11 40 45 1978 1983 c-fos
+@ T35 Gene_expression S11 12 26 1950 1964 overexpression
+@ T36 Positive_regulation S11 12 26 1950 1964 overexpression
+% E12 Gene_expression:T35 Theme:T24
+% E13 Positive_regulation:T36 Theme:E12
+
+We propose that Jun plays a bifunctional role on GR-dependent transcriptional activation of GRE, selecting either synergistic or antagonistic activity depending on the cell-specific microenvironment.
+# T26 Protein S12 49 51 2109 2111 GR
+
+In this regard, intracellular levels of c-fos appear to be influential.
+# T27 Protein S13 40 45 2300 2305 c-fos
+

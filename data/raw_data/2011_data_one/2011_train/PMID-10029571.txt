@@ -1,0 +1,103 @@
+Interleukin-10 inhibits expression of both interferon alpha- and interferon gamma- induced genes by suppressing tyrosine phosphorylation of STAT1.
+# T1 Protein S1 0 14 0 14 Interleukin-10
+# T2 Protein S1 65 81 65 81 interferon gamma
+# T3 Protein S1 140 145 140 145 STAT1
+$ T1 Protein S1 0 14 0 14 Interleukin-10
+$ T3 Protein S1 140 145 140 145 STAT1
+@ T26 Negative_regulation S1 100 111 100 111 suppressing
+@ T27 Entity S1 112 120 112 120 tyrosine
+@ T28 Phosphorylation S1 121 136 121 136 phosphorylation
+% E1 Negative_regulation:T26 Theme:E2 Cause:T1
+% E2 Phosphorylation:T28 Theme:T3 Site:T27
+
+Interleukin-10 (IL-10) helps maintain polarized T-helper cells in a T-helper lymphocyte 2 (Th2) phenotype.
+# T4 Protein S2 0 14 148 162 Interleukin-10
+# T5 Protein S2 16 21 164 169 IL-10
+
+Part of this process involves the prevention of the development of Th1 cells, which are a primary source of interferon gamma (IFNgamma), a potent activator of monocytes and an inhibitor of Th2 proliferation.
+# T6 Protein S3 108 124 363 379 interferon gamma
+# T7 Protein S3 126 134 381 389 IFNgamma
+$ T7 Protein S3 126 134 381 389 IFNgamma
+@ T29 Gene_expression S3 90 104 345 359 primary source
+% E3 Gene_expression:T29 Theme:T7
+
+Because monocytes and macrophages are important mediators of Th1-type responses, such as delayed-type hypersensitivity, we sought to determine if IL-10 could directly mediate inhibition of IFNgamma- and IFNalpha-induced gene expression in these cells.
+# T8 Protein S4 146 151 609 614 IL-10
+# T9 Protein S4 189 197 652 660 IFNgamma
+
+Highly purified monocytes were incubated with IL-10 for 60 to 90 minutes before the addition of IFNgamma or IFNalpha.
+# T10 Protein S5 46 51 761 766 IL-10
+# T11 Protein S5 96 104 811 819 IFNgamma
+
+IL-10 preincubation resulted in the inhibition of gene expression for several IFN-induced genes, such as IP-10, ISG54, and intercellular adhesion molecule-1.
+# T12 Protein S6 0 5 833 838 IL-10
+# T13 Protein S6 105 110 938 943 IP-10
+# T14 Protein S6 112 117 945 950 ISG54
+# T15 Protein S6 123 156 956 989 intercellular adhesion molecule-1
+$ T15 Protein S6 123 156 956 989 intercellular adhesion molecule-1
+$ T14 Protein S6 112 117 945 950 ISG54
+$ T13 Protein S6 105 110 938 943 IP-10
+@ T30 Negative_regulation S6 36 46 869 879 inhibition
+@ T31 Gene_expression S6 55 65 888 898 expression
+@ T32 Positive_regulation S6 82 89 915 922 induced
+% E4 Negative_regulation:T30 Theme:E7
+% E5 Negative_regulation:T30 Theme:E9
+% E6 Negative_regulation:T30 Theme:E8
+% E7 Gene_expression:T31 Theme:T15
+% E8 Gene_expression:T31 Theme:T14
+% E9 Gene_expression:T31 Theme:T13
+% E10 Positive_regulation:T32 Theme:T15
+% E11 Positive_regulation:T32 Theme:T14
+% E12 Positive_regulation:T32 Theme:T13
+
+The reduction in gene expression resulted from the ability of IL-10 to suppress IFN-induced assembly of signal transducer and activator of transcription (STAT) factors to specific promoter motifs on IFNalpha- and IFNgamma-inducible genes.
+# T16 Protein S7 62 67 1053 1058 IL-10
+# T17 Protein S7 213 221 1204 1212 IFNgamma
+@ T33 Positive_regulation S7 33 41 1024 1032 resulted
+% E13 Positive_regulation:T33 Theme:E6
+% E14 Positive_regulation:T33 Theme:E5
+% E15 Positive_regulation:T33 Theme:E4
+
+This was accomplished by preventing the IFN-induced tyrosine phosphorylation of STAT1, a component of both IFNalpha- and IFNgamma-induced DNA binding complexes.
+# T18 Protein S8 80 85 1310 1315 STAT1
+# T19 Protein S8 121 129 1351 1359 IFNgamma
+$ T18 Protein S8 80 85 1310 1315 STAT1
+$ T19 Protein S8 121 129 1351 1359 IFNgamma
+@ T34 Positive_regulation S8 9 21 1239 1251 accomplished
+@ T35 Negative_regulation S8 25 35 1255 1265 preventing
+@ T36 Positive_regulation S8 44 51 1274 1281 induced
+@ T37 Entity S8 52 60 1282 1290 tyrosine
+@ T38 Phosphorylation S8 61 76 1291 1306 phosphorylation
+@ T39 Positive_regulation S8 130 137 1360 1367 induced
+% E16 Positive_regulation:T34 Theme:E13 Cause:E19
+% E17 Positive_regulation:T34 Theme:E15 Cause:E19
+% E18 Positive_regulation:T34 Theme:E14 Cause:E19
+% E19 Negative_regulation:T35 Theme:E20
+% E20 Positive_regulation:T36 Theme:E21
+% E21 Phosphorylation:T38 Theme:T18 Site:T37
+% E22 Positive_regulation:T39 Theme:T18
+% E23 Positive_regulation:T39 Theme:T18 Cause:T19
+
+Therefore, IL-10 can directly inhibit STAT-dependent early response gene expression induced by both IFNalpha and IFNgamma in monocytes by suppressing the tyrosine phosphorylation of STAT1.
+# T20 Protein S9 11 16 1402 1407 IL-10
+# T21 Protein S9 113 121 1504 1512 IFNgamma
+# T22 Protein S9 182 187 1573 1578 STAT1
+$ T20 Protein S9 11 16 1402 1407 IL-10
+$ T22 Protein S9 182 187 1573 1578 STAT1
+@ T40 Negative_regulation S9 138 149 1529 1540 suppressing
+@ T41 Entity S9 154 162 1545 1553 tyrosine
+@ T42 Phosphorylation S9 163 178 1554 1569 phosphorylation
+% E24 Negative_regulation:T40 Theme:E25 Cause:T20
+% E25 Phosphorylation:T42 Theme:T22 Site:T41
+
+This may occur through the ability of IL-10 to induce expression of the gene, suppressor of cytokine signaling 3 (SOCS3).
+# T23 Protein S10 38 43 1618 1623 IL-10
+# T24 Protein S10 78 112 1658 1692 suppressor of cytokine signaling 3
+# T25 Protein S10 114 119 1694 1699 SOCS3
+$ T23 Protein S10 38 43 1618 1623 IL-10
+$ T25 Protein S10 114 119 1694 1699 SOCS3
+@ T43 Positive_regulation S10 47 53 1627 1633 induce
+@ T44 Gene_expression S10 54 64 1634 1644 expression
+% E26 Positive_regulation:T43 Theme:E27 Cause:T23
+% E27 Gene_expression:T44 Theme:T25
+

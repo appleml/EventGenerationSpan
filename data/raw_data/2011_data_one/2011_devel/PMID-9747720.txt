@@ -1,0 +1,57 @@
+NF-kappaB only partially mediates Epstein-Barr virus latent membrane protein 1 activation of B cells.
+# T1 Protein S1 53 78 53 78 latent membrane protein 1
+
+The latent membrane protein 1 (LMP1) of Epstein-Barr virus (EBV) is required for EBV-induced immortalization of human B cells and causes tumorigenic transformation of cell lines.
+# T2 Protein S2 4 29 107 132 latent membrane protein 1
+# T3 Protein S2 31 35 134 138 LMP1
+
+LMP1 expression induces phenotypic changes resembling B cell activation, such as cell size increase and up-regulation of cell surface activation markers.
+# T4 Protein S3 0 4 282 286 LMP1
+$ T4 Protein S3 0 4 282 286 LMP1
+@ T19 Gene_expression S3 5 15 287 297 expression
+% E1 Gene_expression:T19 Theme:T4
+
+LMP1 contains two domains that activate the transcription factor NF-kappaB, one through interactions with TRAF proteins and the other with the TRADD protein.
+# T5 Protein S4 0 4 436 440 LMP1
+
+The purpose of the present study was to investigate the importance of NF-kappaB induction in the up-regulation of the B cell activation markers ICAM-1 and CD71 by LMP1.
+# T6 Protein S5 144 150 738 744 ICAM-1
+# T7 Protein S5 155 159 749 753 CD71
+# T8 Protein S5 163 167 757 761 LMP1
+$ T6 Protein S5 144 150 738 744 ICAM-1
+$ T8 Protein S5 163 167 757 761 LMP1
+$ T7 Protein S5 155 159 749 753 CD71
+@ T20 Regulation S5 56 66 650 660 importance
+@ T21 Positive_regulation S5 97 110 691 704 up-regulation
+% E2 Regulation:T20 Theme:E4
+% E3 Regulation:T20 Theme:E5
+% E4 Positive_regulation:T21 Theme:T6 Cause:T8
+% E5 Positive_regulation:T21 Theme:T7 Cause:T8
+
+This study shows that expression of LMP1 activates transcription from p50/p65- and c-Rel- responsive promoters, and that this activity can be completely inhibited by expression of a dominant inhibitory IkappaB mutant.
+# T9 Protein S6 36 40 799 803 LMP1
+# T10 Protein S6 70 73 833 836 p50
+# T11 Protein S6 74 77 837 840 p65
+# T12 Protein S6 83 88 846 851 c-Rel
+$ T9 Protein S6 36 40 799 803 LMP1
+@ T22 Gene_expression S6 22 32 785 795 expression
+% E6 Gene_expression:T22 Theme:T9
+
+ICAM-1 and CD71 are nevertheless up-regulated by LMP1 in primary B cells and cell lines expressing the dominant IkappaB.
+# T13 Protein S7 0 6 981 987 ICAM-1
+# T14 Protein S7 11 15 992 996 CD71
+# T15 Protein S7 49 53 1030 1034 LMP1
+$ T14 Protein S7 11 15 992 996 CD71
+$ T15 Protein S7 49 53 1030 1034 LMP1
+$ T13 Protein S7 0 6 981 987 ICAM-1
+@ T23 Positive_regulation S7 33 45 1014 1026 up-regulated
+% E7 Positive_regulation:T23 Theme:T14 Cause:T15
+% E8 Positive_regulation:T23 Theme:T13 Cause:T15
+
+Furthermore, LMP1-induced cell size increase of primary B cells was unaffected by IkappaB expression.
+# T16 Protein S8 13 17 1115 1119 LMP1
+
+It was concluded that even when LMP1 is unable to activate NF-kappaB, it is still capable of inducing certain characteristics of activated B cells, strongly suggesting that LMP1 can also activate cells independently of NF-kappaB.
+# T17 Protein S9 32 36 1236 1240 LMP1
+# T18 Protein S9 173 177 1377 1381 LMP1
+

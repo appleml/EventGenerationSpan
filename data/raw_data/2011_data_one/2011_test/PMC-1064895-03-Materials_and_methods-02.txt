@@ -1,0 +1,31 @@
+Reagents
+
+Recombinant IL-17, IL-18, IL-15, monocyte chemoattractant protein-1 (MCP-1), macrophage inflammatory protein (MIP)-1alpha, MIP-1beta, IL-6 and IL-8 were purchased from R & D systems (Minneapolis, MN, USA).
+# T1 Protein S2 12 17 21 26 IL-17
+# T2 Protein S2 19 24 28 33 IL-18
+# T3 Protein S2 26 31 35 40 IL-15
+# T4 Protein S2 33 67 42 76 monocyte chemoattractant protein-1
+# T5 Protein S2 69 74 78 83 MCP-1
+# T6 Protein S2 77 121 86 130 macrophage inflammatory protein (MIP)-1alpha
+# T7 Protein S2 123 132 132 141 MIP-1beta
+# T8 Protein S2 134 138 143 147 IL-6
+# T9 Protein S2 143 147 152 156 IL-8
+
+Recombinant transforming growth factor (TGF)-beta was purchased from Peprotech (London, UK).
+# T10 Protein S3 12 49 227 264 transforming growth factor (TGF)-beta
+
+Recombinant TNF-alpha and IL-1 were purchased from Endogen Inc. (Cambridge, MA, USA).
+# T11 Protein S4 12 21 320 329 TNF-alpha
+# T12 Protein S4 26 30 334 338 IL-1
+
+Cyclosporin A was provided by Sandos Ltd. (Basel, Switzerland).
+
+Phytohemagglutinin (PHA), pyrrolidine dithiocarbamate (PDTC), rapamycin, dexamethasone and curcumin were all obtained from the Sigma Chemical Co. (St Louis, MA, USA).
+# T13 Protein S6 0 18 458 476 Phytohemagglutinin
+# T14 Protein S6 20 23 478 481 PHA
+
+Anti-CD3 monoclonal antibody and anti-CD28 monoclonal antibody were obtained from BD Biosciences (San Diego, CA, USA).
+# T15 Protein S7 38 42 663 667 CD28
+
+LY294002, SB203580, FK506, wortmannin and PD98059 were obtained from Calbiochem (Schwalbach, Germany).
+

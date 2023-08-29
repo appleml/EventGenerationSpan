@@ -1,0 +1,82 @@
+NF-kappaB activation is required for C5a-induced interleukin-8 gene expression in mononuclear cells.
+# T1 Protein S1 49 62 49 62 interleukin-8
+$ T1 Protein S1 49 62 49 62 interleukin-8
+@ T16 Positive_regulation S1 41 48 41 48 induced
+@ T17 Gene_expression S1 68 78 68 78 expression
+% E1 Positive_regulation:T16 Theme:E2
+% E2 Gene_expression:T17 Theme:T1
+
+C5a, a potent peptide chemoattractant, stimulates interleukin-8 (IL-8) secretion from peripheral blood mononuclear cells (PBMC).
+# T2 Protein S2 50 63 152 165 interleukin-8
+# T3 Protein S2 65 69 167 171 IL-8
+$ T3 Protein S2 65 69 167 171 IL-8
+@ T18 Positive_regulation S2 39 49 141 151 stimulates
+@ T19 Localization S2 71 80 173 182 secretion
+% E3 Positive_regulation:T18 Theme:E4
+% E4 Localization:T19 Theme:T3
+
+Experiments were conducted to understand the mechanisms for C5a-induced IL-8 production, which was 14-fold greater than that in unstimulated cells by 2 hours.
+# T4 Protein S3 72 76 303 307 IL-8
+$ T4 Protein S3 72 76 303 307 IL-8
+@ T20 Positive_regulation S3 64 71 295 302 induced
+@ T21 Gene_expression S3 77 87 308 318 production
+% E5 Positive_regulation:T20 Theme:E6
+% E6 Gene_expression:T21 Theme:T4
+
+IL-8 secretion was accompanied by accumulation of IL-8 mRNA in the cytosol and by nuclear expression of a kappaB DNA binding activity within 30 minutes.
+# T5 Protein S4 0 4 390 394 IL-8
+# T6 Protein S4 50 54 440 444 IL-8
+$ T5 Protein S4 0 4 390 394 IL-8
+@ T22 Localization S4 5 14 395 404 secretion
+% E7 Localization:T22 Theme:T5
+
+AP-1 but not NF-IL-6 DNA binding activity was also detected in C5a-stimulated PBMC; however, its delayed expression (maximal at 4 hours) suggested a less important role in the rapid production of IL-8.
+# T7 Protein S5 13 20 556 563 NF-IL-6
+# T8 Protein S5 196 200 739 743 IL-8
+$ T7 Protein S5 13 20 556 563 NF-IL-6
+$ T8 Protein S5 196 200 739 743 IL-8
+@ T23 Binding S5 25 32 568 575 binding
+@ T24 Positive_regulation S5 51 59 594 602 detected
+@ T25 Regulation S5 164 168 707 711 role
+@ T26 Gene_expression S5 182 192 725 735 production
+% E8 Binding:T23 Theme:T7
+% E9 Positive_regulation:T24 Theme:E8
+% E10 Regulation:T25 Theme:E11
+% E11 Gene_expression:T26 Theme:T8
+
+The correlation between C5a-induced kappaB binding activity and IL-8 gene expression was examined in the RAW264.7 macrophage cells using reporter genes directed by the kappaB sequence from IkappaBalpha and IL-8 promoter regions.
+# T9 Protein S6 64 68 809 813 IL-8
+# T10 Protein S6 189 201 934 946 IkappaBalpha
+# T11 Protein S6 206 210 951 955 IL-8
+$ T9 Protein S6 64 68 809 813 IL-8
+@ T27 Gene_expression S6 74 84 819 829 expression
+% E12 Gene_expression:T27 Theme:T9
+
+C5a-induced reporter gene expression was abolished by introducing mutations into the kappaB sites and by coexpression of a dominant negative IkappaBalpha construct resistant to agonist-induced phosphorylation.
+# T12 Protein S7 141 153 1115 1127 IkappaBalpha
+$ T12 Protein S7 141 153 1115 1127 IkappaBalpha
+@ T28 Gene_expression S7 105 117 1079 1091 coexpression
+% E13 Gene_expression:T28 Theme:T12
+
+Pertussis toxin, which ADP-ribosylates the Gi proteins known to couple to the C5a receptor, produced minimal inhibition of C5a-induced IL-8 expression and had little effect on C5a-induced calcium mobilization in RAW264.7 cells.
+# T13 Protein S8 78 90 1262 1274 C5a receptor
+# T14 Protein S8 135 139 1319 1323 IL-8
+$ T13 Protein S8 78 90 1262 1274 C5a receptor
+$ T14 Protein S8 135 139 1319 1323 IL-8
+@ T29 Binding S8 64 70 1248 1254 couple
+@ T30 Negative_regulation S8 109 119 1293 1303 inhibition
+@ T31 Positive_regulation S8 127 134 1311 1318 induced
+@ T32 Gene_expression S8 140 150 1324 1334 expression
+% E14 Binding:T29 Theme:T13
+% E15 Negative_regulation:T30 Theme:E16
+% E16 Positive_regulation:T31 Theme:E17
+% E17 Gene_expression:T32 Theme:T14
+
+These results suggest that NF-kappaB activation is required for C5a-induced IL-8 gene expression and that this response is mediated primarily through a pertussis toxin-insensitive pathway.
+# T15 Protein S9 76 80 1488 1492 IL-8
+$ T15 Protein S9 76 80 1488 1492 IL-8
+@ T33 Positive_regulation S9 68 75 1480 1487 induced
+@ T34 Gene_expression S9 86 96 1498 1508 expression
+% E18 Positive_regulation:T33 Theme:E19
+% E19 Gene_expression:T34 Theme:T15
+

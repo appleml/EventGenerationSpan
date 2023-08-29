@@ -1,0 +1,30 @@
+Transcriptional regulation during myelopoiesis.
+
+The coordinated production of all blood cells from a common stem cell is a highly regulated process involving successive stages of commitment and differentiation.
+
+From analyses of mice deficient in transcription factor genes and from the characterizations of chromosome breakpoints in human leukemias, it has become evident that transcription factors are important regulators of hematopoiesis.
+
+During myelopoiesis, which includes the development of granulocytic and monocytic lineages, transcription factors from several families are active, including AML1/CBF beta, C/EBP, Ets, c-Myb, HOX, and MZF-1.
+# T1 Protein S4 158 162 601 605 AML1
+# T2 Protein S4 163 171 606 614 CBF beta
+# T3 Protein S4 185 190 628 633 c-Myb
+# T4 Protein S4 201 206 644 649 MZF-1
+$ T1 Protein S4 158 162 601 605 AML1
+$ T2 Protein S4 163 171 606 614 CBF beta
+$ T4 Protein S4 201 206 644 649 MZF-1
+$ T3 Protein S4 185 190 628 633 c-Myb
+@ T5 Positive_regulation S4 140 146 583 589 active
+% E1 Positive_regulation:T5 Theme:T1
+% E2 Positive_regulation:T5 Theme:T2
+% E3 Positive_regulation:T5 Theme:T4
+% E4 Positive_regulation:T5 Theme:T3
+
+Few of these factors are expressed exclusively in myeloid cells; instead it appears that they cooperatively regulate transcription of myeloid-specific genes.
+@ T6 Gene_expression S5 25 34 676 685 expressed
+% E5 Gene_expression:T6 Theme:T1
+% E6 Gene_expression:T6 Theme:T4
+% E7 Gene_expression:T6 Theme:T2
+% E8 Gene_expression:T6 Theme:T3
+
+Here we discuss recent advances in transcriptional regulation during myelopoiesis.
+

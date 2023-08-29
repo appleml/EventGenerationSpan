@@ -1,0 +1,109 @@
+Recently, tumor suppressors p53 and WWOX were shown to regulate the apoptosis of glioblastoma cells (Chiang et al., 2012).
+# T1 Protein S1 28 31 28 31 p53
+# T2 Protein S1 36 40 36 40 WWOX
+
+WW domain-containing oxidoreductase, known as WWOX, FOR, or WOX1, is encoded by human or mouse WWOX/Wwox gene.
+# T3 Protein S2 0 35 123 158 WW domain-containing oxidoreductase
+# T4 Protein S2 46 50 169 173 WWOX
+# T5 Protein S2 52 55 175 178 FOR
+# T6 Protein S2 60 64 183 187 WOX1
+# T7 Protein S2 95 99 218 222 WWOX
+# T8 Protein S2 100 104 223 227 Wwox
+
+This gene is located in chromosome 16q23.3-24.1, an area known as the common fragile site FRA16D.
+
+The full-length WWOX protein is composed of two N-terminal WW domains, a C-terminal short-chain alcohol dehydrogenase/reductase (SDR) domain, and a proapoptotic C-terminal tail D3 (Chang et al., 2001, 2007, 2010; Aqeilan et al., 2004, 2007; Hong et al., 2007; Salah et al., 2012) (Figure 1).
+# T9 Protein S4 16 20 348 352 WWOX
+
+WWOX may act as an alternative receptor for sex steroid hormones, since its SDR domain possesses an NSYK motif capable of interacting with androgen and estrogen (Chang et al., 2005a; Su et al., 2012).
+# T10 Protein S5 0 4 624 628 WWOX
+
+Expression of WWOX is either altered or lost from epigenetic modification in multiple malignant cancers, such as non-small cell lung carcinoma (Donati et al., 2007), hematopoietic malignancies (Ishii and Furukawa, 2004), gastric carcinoma (Aqeilan et al., 2004), pancreatic carcinoma (Kuroki et al., 2004), breast carcinoma (Guler et al., 2004; Aqeilan et al., 2007), and glioblastoma multiforme (Kosla et al., 2011).
+# T11 Protein S6 14 18 839 843 WWOX
+
+Restoration of WWOX gene prevents the growth of lung cancer (Fabbri et al., 2005), pancreatic cancer (Nakayama et al., 2008), and prostate cancer (Hong et al., 2009).
+# T12 Protein S7 15 19 1258 1262 WWOX
+
+The first WW domain of WWOX may interact with proteins possessing a PPxY motif(s) such as AP-2gamma, p73, ErbB4, Ezrin, SIMPLE, c-Jun, RUNX4, and many others (Chang et al., 2007; Salah et al., 2012; Su et al., 2012; Figure 1).
+# T13 Protein S8 23 27 1433 1437 WWOX
+# T14 Protein S8 90 99 1500 1509 AP-2gamma
+# T15 Protein S8 101 104 1511 1514 p73
+# T16 Protein S8 106 111 1516 1521 ErbB4
+# T17 Protein S8 113 118 1523 1528 Ezrin
+# T18 Protein S8 120 126 1530 1536 SIMPLE
+# T19 Protein S8 128 133 1538 1543 c-Jun
+# T20 Protein S8 135 140 1545 1550 RUNX4
+
+Transiently overexpressed WWOX binds transcription factors AP-2, p73, and c-Jun and block their nuclear relocation in vitro, which suppresses cancer cell survival (Salah et al., 2012).
+# T21 Protein S9 26 30 1663 1667 WWOX
+# T22 Protein S9 59 63 1696 1700 AP-2
+# T23 Protein S9 65 68 1702 1705 p73
+# T24 Protein S9 74 79 1711 1716 c-Jun
+
+In stark contrast, Wwox co-migrates with proapoptotic and pro-survival transcription factors to the nuclei of neurons upon sciatic nerve axotomy in rats (Li et al., 2009).
+# T25 Protein S10 19 23 1841 1845 Wwox
+
+No blocking of translocation of transcription factors to the nuclei by Wwox was observed.
+# T26 Protein S11 71 75 2065 2069 Wwox
+
+Under stress conditions, WWOX is activated via phosphorylation at Tyr33, and binds proteins independently of the PPxY motif (Chang et al., 2001, 2003, 2005a,b, 2007, 2010).
+# T27 Protein S12 25 29 2109 2113 WWOX
+
+Activated WWOX physically interacts with serine 46-phosphorylated p53 (Figure 1), which stabilizes p53 and its apoptotic function (Chang et al., 2005b).
+# T28 Protein S13 10 14 2267 2271 WWOX
+# T29 Protein S13 66 69 2323 2326 p53
+# T30 Protein S13 99 102 2356 2359 p53
+
+Also, WWOX binds Disheveled proteins (Dvl), which are key components in Wnt/beta-catenin signaling pathway (Figure 1).
+# T31 Protein S14 6 10 2416 2420 WWOX
+# T32 Protein S14 76 88 2486 2498 beta-catenin
+
+No PPxY motif is in Dvl.
+
+Transiently overexpressed WWOX sequesters Dvl-2 in the cytoplasm and thereby blocks Dvl-2-mediated TCF transcriptional activity (Bouteille et al., 2009).
+# T33 Protein S16 26 30 2580 2584 WWOX
+# T34 Protein S16 42 47 2596 2601 Dvl-2
+# T35 Protein S16 84 89 2638 2643 Dvl-2
+
+Overexpressed WWOX induces apoptosis and inhibits proliferation of human hepatic carcinoma cells (Hu et al., 2012) and many cancer cell types (Chang et al., 2007, 2010; Salah et al., 2012; Su et al., 2012).
+# T36 Protein S17 14 18 2722 2726 WWOX
+
+WWOX enhances the cytotoxic function of tumor necrosis factor by down-regulating apoptosis inhibitor Bcl-2 and Bcl-xL and up-regulating apoptotic p53 (Chang et al., 2001).
+# T37 Protein S18 0 4 2915 2919 WWOX
+# T38 Protein S18 40 61 2955 2976 tumor necrosis factor
+# T39 Protein S18 101 106 3016 3021 Bcl-2
+# T40 Protein S18 111 117 3026 3032 Bcl-xL
+# T41 Protein S18 146 149 3061 3064 p53
+
+Also, WWOX mediates cell death synergistically with p53.
+# T42 Protein S19 6 10 3093 3097 WWOX
+# T43 Protein S19 52 55 3139 3142 p53
+
+Upon exposure to chemicals or environmental stress, such as UV irradiation and chemotherapeutic drugs, WWOX undergoes phosphorylation in Tyr33 and probably others sites, followed by relocating to mitochondria or nuclei for inducing apoptosis (Chang et al., 2007, 2010).
+# T44 Protein S20 103 107 3247 3251 WWOX
+
+WWOX binds MEK in Jurkat T cells (Lin et al., 2011).
+# T45 Protein S21 0 4 3414 3418 WWOX
+
+Phorbol myristate acetate (PMA) dissociates the MEK/WWOX complex and induces WWOX to translocate to the mitochondria to induce apoptosis, whereas MEK relocates to the lipid raft.
+# T46 Protein S22 77 81 3544 3548 WWOX
+
+Inhibition of MEK activity increases TMZ-induced suppression of cancer cell growth (Holt et al., 2012).
+
+Ectopic expression of WWOX in A549 cells induces procaspase-3 and procaspase-9 activation and induces cytochrome C releasing from the mitochondria (Zhang et al., 2012a).
+# T47 Protein S24 22 26 3772 3776 WWOX
+# T48 Protein S24 49 61 3799 3811 procaspase-3
+# T49 Protein S24 66 78 3816 3828 procaspase-9
+
+Complement C1q induces ectopic WWOX phosphorylation in Try33 and leads to cell apoptosis independently of the classical complement activation pathway (Hong et al., 2009).
+# T50 Protein S25 31 35 3951 3955 WWOX
+
+A portion of WWOX is anchored in the membrane/cytoskeleton area via binding with hyaluronidase Hyal-2 (Hsu et al., 2009) and Phospho-Ezrin (Jin et al., 2006).
+# T51 Protein S26 13 17 4104 4108 WWOX
+# T52 Protein S26 95 101 4186 4192 Hyal-2
+# T53 Protein S26 133 138 4224 4229 Ezrin
+
+Transforming growth factor beta1 binds Hyal-2 as a cognate receptor to signal the formation of the WWOX/Hyal-2/Smad4 complex to relocate to the nucleus for enhancing the SMAD-driven promoter activity (Hsu et al., 2009).
+# T54 Protein S27 0 32 4250 4282 Transforming growth factor beta1
+# T55 Protein S27 39 45 4289 4295 Hyal-2
+

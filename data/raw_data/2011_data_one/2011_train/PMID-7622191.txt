@@ -1,0 +1,65 @@
+Thapsigargin induces IL-2 receptor alpha-chain in human peripheral and Jurkat T cells via a protein kinase C-independent mechanism.
+# T1 Protein S1 21 46 21 46 IL-2 receptor alpha-chain
+$ T1 Protein S1 21 46 21 46 IL-2 receptor alpha-chain
+@ T11 Positive_regulation S1 13 20 13 20 induces
+@ T12 Entity S1 92 130 92 130 protein kinase C-independent mechanism
+% E1 Positive_regulation:T11 Theme:T1 Cause:E2
+% E2 Positive_regulation:T11 Theme:T1 Site:T12
+
+Thapsigargin (TG), an inhibitor of Ca(2+)-ATPase, depletes intracellular Ca2+ stores and induces a sustained Ca2+ influx without altering phosphatidyl inositol levels.
+
+TG plus phorbol myristate acetate (PMA) but not TG alone induced IL-2 in Jurkat T cells, suggesting that TG had no effect on protein kinase C (PKC).
+# T2 Protein S3 65 69 366 370 IL-2
+$ T2 Protein S3 65 69 366 370 IL-2
+@ T13 Positive_regulation S3 57 64 358 365 induced
+% E3 Positive_regulation:T13 Theme:T2
+
+However, TG induced increases in IL-2R alpha protein as well as IL-2R alpha mRNA in Jurkat T cells in a dose-dependent manner.
+# T3 Protein S4 33 44 483 494 IL-2R alpha
+# T4 Protein S4 64 75 514 525 IL-2R alpha
+$ T3 Protein S4 33 44 483 494 IL-2R alpha
+$ T4 Protein S4 64 75 514 525 IL-2R alpha
+@ T14 Positive_regulation S4 20 29 470 479 increases
+% E4 Positive_regulation:T14 Theme:T3
+% E5 Positive_regulation:T14 Theme:T4
+
+A similar increase in IL-2R alpha by TG was also observed in human peripheral T cells.
+# T5 Protein S5 22 33 599 610 IL-2R alpha
+$ T5 Protein S5 22 33 599 610 IL-2R alpha
+@ T15 Positive_regulation S5 10 18 587 595 increase
+% E6 Positive_regulation:T15 Theme:T5
+
+Further, like PMA, TG markedly induced NF kappa B in Jurkat T cells.
+
+However, TG and PMA exhibited a synergistic action on IL-2R alpha expression, suggesting that TG and PMA induce IL-2R alpha through distinct pathways.
+# T6 Protein S7 54 65 787 798 IL-2R alpha
+# T7 Protein S7 112 123 845 856 IL-2R alpha
+$ T6 Protein S7 54 65 787 798 IL-2R alpha
+$ T7 Protein S7 112 123 845 856 IL-2R alpha
+@ T16 Regulation S7 32 50 765 783 synergistic action
+@ T17 Gene_expression S7 66 76 799 809 expression
+@ T18 Positive_regulation S7 105 111 838 844 induce
+% E7 Regulation:T16 Theme:E8
+% E8 Gene_expression:T17 Theme:T6
+% E9 Positive_regulation:T18 Theme:T7
+
+PMA- but not TG-induced IL-2R alpha is inhibited by the PKC inhibitor H7, whereas TG- but not PMA-induced IL-2R alpha was inhibited by cholera toxin, forskolin and 1,9-dideoxy forskolin.
+# T8 Protein S8 24 35 908 919 IL-2R alpha
+# T9 Protein S8 106 117 990 1001 IL-2R alpha
+$ T8 Protein S8 24 35 908 919 IL-2R alpha
+$ T9 Protein S8 106 117 990 1001 IL-2R alpha
+@ T19 Positive_regulation S8 16 23 900 907 induced
+@ T20 Negative_regulation S8 39 48 923 932 inhibited
+@ T21 Positive_regulation S8 98 105 982 989 induced
+@ T22 Negative_regulation S8 122 131 1006 1015 inhibited
+% E10 Positive_regulation:T19 Theme:T8
+% E11 Negative_regulation:T20 Theme:E10
+% E12 Positive_regulation:T21 Theme:T9
+% E13 Negative_regulation:T22 Theme:E12
+
+In toto, these results suggest that TG induces IL-2R alpha in human T cells through a PKC-independent pathway.
+# T10 Protein S9 47 58 1118 1129 IL-2R alpha
+$ T10 Protein S9 47 58 1118 1129 IL-2R alpha
+@ T23 Positive_regulation S9 39 46 1110 1117 induces
+% E14 Positive_regulation:T23 Theme:T10
+

@@ -1,0 +1,22 @@
+[The role of glucocorticoid receptors and HLA antigens in the pathogenesis of Cushing's syndrome]
+# T1 Protein S1 13 37 13 37 glucocorticoid receptors
+
+Lymphocytic levels of glucocorticoid receptors were evaluated in 114 patients suffering from Icenko-Cushing's syndrome.
+# T2 Protein S2 22 46 121 145 glucocorticoid receptors
+
+Incidence of HLA antigens was determined in 94 of them.
+
+A significant rise of A10 and B27 antigen incidence compared to that in normal subjects allows these antigens to be considered genetic markers of Icenko-Cushing's syndrome.
+# T3 Protein S4 22 25 297 300 A10
+# T4 Protein S4 30 41 305 316 B27 antigen
+
+The levels of glucocorticoid receptors in lymphocytes of the patients are lower than in normal subjects both in the active stage of the disease and following bilateral total adrenalectomy.
+# T5 Protein S5 14 38 462 486 glucocorticoid receptors
+
+The patients carrying B27 antigen had lymphocytic receptor concentrations under the levels of such in patients free of the antigen carriage.
+# T6 Protein S6 22 33 659 670 B27 antigen
+
+Antigen B27 seems to be a cause of lower levels of glucocorticoid receptors in blood lymphocytes.
+# T7 Protein S7 0 11 778 789 Antigen B27
+# T8 Protein S7 51 75 829 853 glucocorticoid receptors
+

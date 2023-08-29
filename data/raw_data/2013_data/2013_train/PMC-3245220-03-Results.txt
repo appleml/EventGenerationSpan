@@ -1,0 +1,48 @@
+PKC Inhibition Reduces NF-kappaB Activity in Human MDMs and RAW 264.7 Cells
+
+Since NF-kappaB is activated by PKC in several cell types [36], we next determined if M-CSF-induced NF-kappaB transcriptional activity was dependent on PKC activation and if calcium, a co-factor for conventional PKC isoform activation, was important.
+
+In addition, because of the number of conventional PKCs existing within mononuclear cells, pharmacological inhibitors of PKC family activation was used to determine the relationship of PKC activation to M-CSF-induced cellular survival.
+
+MDMs were transfected with the pNF-kappaB-SEAP reporter and then treated with the general PKC inhibitor, Ro-31-8220; the conventional PKCalpha/beta inhibitor Go-6976; or the intracellular calcium blocker BAPTA/AM.
+# T1 Protein S4 134 142 697 705 PKCalpha
+# T2 Protein S4 143 147 706 710 beta
+$ T1 Protein S4 134 142 697 705 PKCalpha
+$ T2 Protein S4 143 147 706 710 beta
+@ T7 Negative_regulation S4 148 157 711 720 inhibitor
+% E1 Negative_regulation:T7 Theme:T1
+% E2 Negative_regulation:T7 Theme:T2
+
+Ro-31-8220 significantly suppressed M-CSF-induced NF-kappaB activity compared to cells treated with M-CSF alone (Figure 2A).
+
+In addition, Go-6976 and BAPTA/AM also blocked NF-kappaB activity in M-CSF-treated MDMs.
+
+Trypan blue exclusion analysis did not indicate cell death suggesting that this suppression was not due to non-specific toxicity.
+
+These data indicate that M-CSF mediated NF-kappaB activation through calcium-dependent conventional PKC activation.
+
+We next investigated whether PKC inhibition affected NF-kappaB activity in the mouse macrophage cell line, RAW 264.7.
+
+Similar to MDMs, PKC inhibitors Ro-31-8220, Go-6976 and BAPTA/AM reduced M-CSF-induced NF-kappaB activity in a dose-dependent manner in RAW 264.7 macrophages (Figure 2B).
+
+To ensure that PKC specifically regulated NF-kappaB p65 and not the closely related family member, c-Rel, we co-transfected c-Rel and NF-kappaB-SEAP constructs into the Raw 264.7 cell line and measured NF-kappaB activity in response to M-CSF.
+# T3 Protein S11 52 55 1578 1581 p65
+# T4 Protein S11 99 104 1625 1630 c-Rel
+$ T3 Protein S11 52 55 1578 1581 p65
+$ T4 Protein S11 99 104 1625 1630 c-Rel
+@ T8 Regulation S11 32 41 1558 1567 regulated
+% E3 Regulation:T8 Theme:T3
+% E4 Regulation:T8 Theme:T4
+
+There was no increased NF-kappaB activity in cells expressing c-Rel (Figure S1).
+# T5 Protein S12 62 67 1831 1836 c-Rel
+$ T5 Protein S12 62 67 1831 1836 c-Rel
+@ T9 Gene_expression S12 51 61 1820 1830 expressing
+% E5 Gene_expression:T9 Theme:T5
+
+These observations indicate that PKC functioned upstream of NF-kappaB p65 in MDMs and RAW 264.7 cells.
+# T6 Protein S13 70 73 1920 1923 p65
+$ T6 Protein S13 70 73 1920 1923 p65
+@ T10 Regulation S13 37 47 1887 1897 functioned
+% E6 Regulation:T10 Theme:T6
+

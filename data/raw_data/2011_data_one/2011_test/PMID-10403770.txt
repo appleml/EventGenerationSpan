@@ -1,0 +1,20 @@
+ICSAT overexpression is not sufficient to cause adult T-cell leukemia or multiple myeloma.
+# T1 Protein S1 0 5 0 5 ICSAT
+
+ICSAT (Interferon Consensus Sequence binding protein for Activated T cells) is a lymphocyte-specific member of the interferon regulatory factor (IRF) family of transcription factors, originally identified through Southwestern screening of the ATL(Adult T-cell leukemia)-16T expression library.
+# T2 Protein S2 0 5 92 97 ICSAT
+# T3 Protein S2 7 74 99 166 Interferon Consensus Sequence binding protein for Activated T cells
+
+In this study, we created transgenic mice overexpressing ICSAT in lymphocytes.
+# T4 Protein S3 57 62 443 448 ICSAT
+
+Although spontaneous tumorigenesis was not observed, IL-2 production with Concanavalin A stimulation was significantly increased in transgenic mice overexpressing ICSAT.
+# T5 Protein S4 53 57 518 522 IL-2
+# T6 Protein S4 163 168 628 633 ICSAT
+
+ICSAT overexpression in lymphocytes seems insufficient for the leukemogenesis of ATL or multiple myeloma (MM), however, it may regulate T cell activation and its overexpression may lead to leukemogenesis via controlling IL-2 production.
+# T7 Protein S5 0 5 635 640 ICSAT
+# T8 Protein S5 220 224 855 859 IL-2
+
+Copyright 1999 Academic Press.
+

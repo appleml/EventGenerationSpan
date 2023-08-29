@@ -1,0 +1,89 @@
+Transcriptional regulation of interleukin 3 (IL3) in primary human T lymphocytes.
+# T1 Protein S1 30 43 30 43 interleukin 3
+# T2 Protein S1 45 48 45 48 IL3
+$ T2 Protein S1 45 48 45 48 IL3
+@ T19 Transcription S1 0 15 0 15 Transcriptional
+@ T20 Regulation S1 16 26 16 26 regulation
+% E1 Transcription:T19 Theme:T2
+% E2 Regulation:T20 Theme:E1
+
+Role of AP-1- and octamer-binding proteins in control of IL3 gene expression.
+# T3 Protein S2 57 60 139 142 IL3
+$ T3 Protein S2 57 60 139 142 IL3
+@ T21 Regulation S2 0 4 82 86 Role
+@ T22 Regulation S2 46 53 128 135 control
+@ T23 Gene_expression S2 66 76 148 158 expression
+% E3 Regulation:T21 Theme:E4
+% E4 Regulation:T22 Theme:E5
+% E5 Gene_expression:T23 Theme:T3
+
+We have investigated the molecular and biochemical basis for activation of interleukin 3 (IL3) gene expression in primary human T lymphocytes following CD3 and CD2 receptor stimulation or activation by phytohemagglutinin plus phorbol 12-myristate 13-acetate.
+# T4 Protein S3 75 88 236 249 interleukin 3
+# T5 Protein S3 90 93 251 254 IL3
+# T6 Protein S3 160 163 321 324 CD2
+# T7 Protein S3 202 220 363 381 phytohemagglutinin
+$ T5 Protein S3 90 93 251 254 IL3
+$ T6 Protein S3 160 163 321 324 CD2
+$ T7 Protein S3 202 220 363 381 phytohemagglutinin
+@ T24 Positive_regulation S3 61 71 222 232 activation
+@ T25 Gene_expression S3 100 110 261 271 expression
+@ T26 Positive_regulation S3 173 184 334 345 stimulation
+@ T27 Positive_regulation S3 188 198 349 359 activation
+% E6 Positive_regulation:T24 Theme:E9 Cause:E11
+% E7 Positive_regulation:T24 Theme:E9
+% E8 Positive_regulation:T24 Theme:E9 Cause:E10
+% E9 Gene_expression:T25 Theme:T5
+% E10 Positive_regulation:T26 Theme:T6
+% E11 Positive_regulation:T27 Theme:T7
+
+Using transfection and reporter gene assays specifically designed for primary T lymphocytes in conjunction with gel retardation assays, Western blot analyses and UV cross-linking studies, we found that c-Jun, c-Fos, and octamer-binding proteins play a major role in transcriptional activation of the IL3 gene via their interaction with two specific regions contained within the IL3 5'-flanking sequence.
+# T8 Protein S4 202 207 622 627 c-Jun
+# T9 Protein S4 209 214 629 634 c-Fos
+# T10 Protein S4 300 303 720 723 IL3
+# T11 Protein S4 378 381 798 801 IL3
+$ T10 Protein S4 300 303 720 723 IL3
+$ T9 Protein S4 209 214 629 634 c-Fos
+$ T8 Protein S4 202 207 622 627 c-Jun
+@ T28 Positive_regulation S4 245 262 665 682 play a major role
+@ T29 Transcription S4 266 281 686 701 transcriptional
+@ T30 Positive_regulation S4 282 292 702 712 activation
+@ T31 Binding S4 319 330 739 750 interaction
+% E12 Positive_regulation:T28 Theme:E16
+% E13 Positive_regulation:T28 Theme:E16 Cause:E18
+% E14 Positive_regulation:T28 Theme:E16 Cause:E17
+% E15 Transcription:T29 Theme:T10
+% E16 Positive_regulation:T30 Theme:E15
+% E17 Binding:T31 Theme:T9
+% E18 Binding:T31 Theme:T8
+
+Additionally, the region between bases -107 and -59 of the IL3 promoter containing putative AP-2 and Sp1 binding motifs appears necessary for basal level expression of the IL3 gene.
+# T12 Protein S5 59 62 883 886 IL3
+# T13 Protein S5 101 104 925 928 Sp1
+# T14 Protein S5 172 175 996 999 IL3
+$ T14 Protein S5 172 175 996 999 IL3
+@ T32 Positive_regulation S5 128 137 952 961 necessary
+@ T33 Gene_expression S5 154 164 978 988 expression
+% E19 Positive_regulation:T32 Theme:E20
+% E20 Gene_expression:T33 Theme:T14
+
+The data also indicate that CD2 receptor activation and phytohemagglutinin plus phorbol 12-myristate 13-acetate stimulation augment T cell IL3 gene expression through the same cis- and trans-activating signals.
+# T15 Protein S6 28 31 1034 1037 CD2
+# T16 Protein S6 56 74 1062 1080 phytohemagglutinin
+# T17 Protein S6 139 142 1145 1148 IL3
+$ T15 Protein S6 28 31 1034 1037 CD2
+$ T17 Protein S6 139 142 1145 1148 IL3
+@ T34 Positive_regulation S6 41 51 1047 1057 activation
+@ T35 Positive_regulation S6 124 131 1130 1137 augment
+@ T36 Gene_expression S6 148 158 1154 1164 expression
+% E21 Positive_regulation:T34 Theme:T15
+% E22 Positive_regulation:T35 Theme:E23
+% E23 Gene_expression:T36 Theme:T17
+
+These results should contribute to a better understanding of the regulation of IL3 gene expression in human T lymphocytes.
+# T18 Protein S7 79 82 1296 1299 IL3
+$ T18 Protein S7 79 82 1296 1299 IL3
+@ T37 Regulation S7 65 75 1282 1292 regulation
+@ T38 Gene_expression S7 88 98 1305 1315 expression
+% E24 Regulation:T37 Theme:E25
+% E25 Gene_expression:T38 Theme:T18
+

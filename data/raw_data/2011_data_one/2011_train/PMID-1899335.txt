@@ -1,0 +1,62 @@
+Expression of c-jun, jun B and jun D proto-oncogenes in human peripheral-blood granulocytes.
+# T1 Protein S1 14 19 14 19 c-jun
+# T2 Protein S1 21 26 21 26 jun B
+# T3 Protein S1 31 36 31 36 jun D
+$ T2 Protein S1 21 26 21 26 jun B
+$ T3 Protein S1 31 36 31 36 jun D
+$ T1 Protein S1 14 19 14 19 c-jun
+@ T13 Gene_expression S1 0 10 0 10 Expression
+% E1 Gene_expression:T13 Theme:T2
+% E2 Gene_expression:T13 Theme:T3
+% E3 Gene_expression:T13 Theme:T1
+
+We have found that purified human peripheral-blood granulocytes express constitutively significant levels of proto-oncogenes c-jun, jun B and jun D mRNA.
+# T4 Protein S2 125 130 219 224 c-jun
+# T5 Protein S2 132 137 226 231 jun B
+# T6 Protein S2 142 147 236 241 jun D
+$ T6 Protein S2 142 147 236 241 jun D
+$ T4 Protein S2 125 130 219 224 c-jun
+$ T5 Protein S2 132 137 226 231 jun B
+@ T14 Transcription S2 64 71 158 165 express
+% E4 Transcription:T14 Theme:T6
+% E5 Transcription:T14 Theme:T4
+% E6 Transcription:T14 Theme:T5
+
+Upon functional activation of granulocytes by 4 beta-phorbol 12-myristate 13-acetate (PMA), the levels of c-jun, jun B and jun D transcripts were increased.
+# T7 Protein S3 106 111 354 359 c-jun
+# T8 Protein S3 113 118 361 366 jun B
+# T9 Protein S3 123 128 371 376 jun D
+$ T9 Protein S3 123 128 371 376 jun D
+$ T7 Protein S3 106 111 354 359 c-jun
+$ T8 Protein S3 113 118 361 366 jun B
+@ T15 Transcription S3 96 102 344 350 levels
+@ T16 Positive_regulation S3 146 155 394 403 increased
+% E7 Transcription:T15 Theme:T9
+% E8 Transcription:T15 Theme:T7
+% E9 Transcription:T15 Theme:T8
+% E10 Positive_regulation:T16 Theme:E9
+% E11 Positive_regulation:T16 Theme:E8
+% E12 Positive_regulation:T16 Theme:E7
+
+The three jun genes showed a similar time course in their induction by PMA, maximal mRNA levels being reached after 60 min of induction.
+@ T17 Positive_regulation S4 58 67 463 472 induction
+@ T18 Transcription S4 84 95 489 500 mRNA levels
+% E13 Positive_regulation:T17 Theme:T9
+% E14 Positive_regulation:T17 Theme:T7
+% E15 Positive_regulation:T17 Theme:T8
+% E16 Transcription:T18 Theme:T7
+% E17 Transcription:T18 Theme:T9
+% E18 Transcription:T18 Theme:T8
+
+These results suggest that expression of c-jun, jun B and jun D genes might be involved in terminal granulocyte differentiation or in regulating granulocyte functionality.
+# T10 Protein S5 41 46 583 588 c-jun
+# T11 Protein S5 48 53 590 595 jun B
+# T12 Protein S5 58 63 600 605 jun D
+$ T10 Protein S5 41 46 583 588 c-jun
+$ T11 Protein S5 48 53 590 595 jun B
+$ T12 Protein S5 58 63 600 605 jun D
+@ T19 Gene_expression S5 27 37 569 579 expression
+% E19 Gene_expression:T19 Theme:T10
+% E20 Gene_expression:T19 Theme:T11
+% E21 Gene_expression:T19 Theme:T12
+

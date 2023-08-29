@@ -1,0 +1,177 @@
+The Transactivation Functions of HTLV-I Tax Are Suppressed by Foxp3
+# T1 Protein S1 40 43 40 43 Tax
+# T2 Protein S1 62 67 62 67 Foxp3
+
+Previous studies by Bettelli and colleagues have demonstrated that Foxp3 can repress both the basal levels of NF-kappaB activation as well as tumor necrosis factor-alpha-stimulated NF-kappaB activation [15].
+# T3 Protein S2 67 72 135 140 Foxp3
+# T4 Protein S2 142 169 210 237 tumor necrosis factor-alpha
+
+Our next step was to determine whether Foxp3 could also suppress the activation of NF-kappaB caused by a strong viral transactivator protein.
+# T5 Protein S3 39 44 315 320 Foxp3
+
+HTLV-I encodes a multifunctional transactivator protein, Tax, capable of activating both the NF-kappaB and CREB pathways [24-29].
+# T6 Protein S4 57 60 475 478 Tax
+
+Since the HTLV-I Tax protein can function at multiple levels in both the cytoplasm and the nucleus to stimulate activation of NF-kappaB [28,29], we hypothesized that overexpression of Foxp3 may interfere with this process.
+# T7 Protein S5 17 20 565 568 Tax
+# T8 Protein S5 184 189 732 737 Foxp3
+$ T8 Protein S5 184 189 732 737 Foxp3
+@ T57 Positive_regulation S5 166 180 714 728 overexpression
+% E1 Positive_regulation:T57 Theme:T8
+
+However, since Tax-dependent HTLV-I gene expression is independent of NF-kappaB [18], we also hypothesized that Foxp3 would not affect Tax-dependent activation of the HTLV-I LTR.
+# T9 Protein S6 15 18 786 789 Tax
+# T10 Protein S6 112 117 883 888 Foxp3
+# T11 Protein S6 135 138 906 909 Tax
+
+To test these hypotheses, we overexpressed HTLV-I Tax, full-length Foxp3, and/or DeltaFKH in HEK 293T cells cotransfected with an HTLV-I LTR or NF-kappaB reporter vector.
+# T12 Protein S7 50 53 1000 1003 Tax
+# T13 Protein S7 67 72 1017 1022 Foxp3
+# T14 Protein S7 81 89 1031 1039 DeltaFKH
+$ T12 Protein S7 50 53 1000 1003 Tax
+$ T13 Protein S7 67 72 1017 1022 Foxp3
+$ T14 Protein S7 81 89 1031 1039 DeltaFKH
+@ T58 Positive_regulation S7 29 42 979 992 overexpressed
+% E2 Positive_regulation:T58 Theme:T12
+% E3 Positive_regulation:T58 Theme:T13
+% E4 Positive_regulation:T58 Theme:T14
+
+As shown in Figure 4A, HTLV-I Tax strongly up-regulated NF-kappaB-dependent transcriptional activation (~60-fold).
+# T15 Protein S8 30 33 1151 1154 Tax
+
+Interestingly, overexpression of Foxp3, but not DeltaFKH, suppressed Tax-mediated activation of NF-kappaB-dependent transcription.
+# T16 Protein S9 33 38 1269 1274 Foxp3
+# T17 Protein S9 48 56 1284 1292 DeltaFKH
+# T18 Protein S9 69 72 1305 1308 Tax
+$ T16 Protein S9 33 38 1269 1274 Foxp3
+$ T17 Protein S9 48 56 1284 1292 DeltaFKH
+@ T59 Gene_expression S9 15 29 1251 1265 overexpression
+% E5 Gene_expression:T59 Theme:T16
+% E6 Gene_expression:T59 Theme:T17
+
+These observations further suggest that the carboxyl-terminal FKH domain is required for inhibiting activation of NF-kappaB in the presence of Tax in HEK 293T cells, strikingly similar to the requirements of Foxp3 inhibition of basal NF-kappaB activation shown in Figure 2B.
+# T19 Protein S10 143 146 1510 1513 Tax
+# T20 Protein S10 208 213 1575 1580 Foxp3
+
+Transactivation of the HTLV-I LTR was stimulated about 55-fold by overexpression of Tax (Figure 4B), while transfection of Foxp3 suppressed Tax-dependent HTLV-I LTR activation, although HTLV-I LTR activation in the presence or absence of Tax is independent of NF-kappaB or NF-AT (another transcriptional activator known to interact with Foxp3).
+# T21 Protein S11 84 87 1726 1729 Tax
+# T22 Protein S11 123 128 1765 1770 Foxp3
+# T23 Protein S11 140 143 1782 1785 Tax
+# T24 Protein S11 238 241 1880 1883 Tax
+# T25 Protein S11 337 342 1979 1984 Foxp3
+$ T21 Protein S11 84 87 1726 1729 Tax
+$ T22 Protein S11 123 128 1765 1770 Foxp3
+$ T25 Protein S11 337 342 1979 1984 Foxp3
+@ T60 Positive_regulation S11 66 80 1708 1722 overexpression
+@ T61 Gene_expression S11 107 119 1749 1761 transfection
+@ T62 Binding S11 323 331 1965 1973 interact
+% E7 Positive_regulation:T60 Theme:T21
+% E8 Gene_expression:T61 Theme:T22
+% E9 Binding:T62 Theme:T25
+
+Furthermore, overexpression of DeltaFKH also led to suppression of HTLV-I transactivation by Tax to a similar extent as full-length Foxp3 (Figure 4B).
+# T26 Protein S12 31 39 2018 2026 DeltaFKH
+# T27 Protein S12 93 96 2080 2083 Tax
+# T28 Protein S12 132 137 2119 2124 Foxp3
+$ T26 Protein S12 31 39 2018 2026 DeltaFKH
+@ T63 Positive_regulation S12 13 27 2000 2014 overexpression
+% E10 Positive_regulation:T63 Theme:T26
+
+The suppressive effects shown in Figure 4A and 4B were not the result of Foxp3 down-regulating the expression of the transfected Tax plasmid as determined by real-time RT-PCR (Figure 4C).
+# T29 Protein S13 73 78 2211 2216 Foxp3
+# T30 Protein S13 129 132 2267 2270 Tax
+$ T29 Protein S13 73 78 2211 2216 Foxp3
+$ T30 Protein S13 129 132 2267 2270 Tax
+@ T64 Negative_regulation S13 79 94 2217 2232 down-regulating
+@ T65 Gene_expression S13 99 109 2237 2247 expression
+% E11 Negative_regulation:T64 Theme:E12 Cause:T29
+% E12 Gene_expression:T65 Theme:T30
+
+These results strongly suggest that Foxp3 interacts with transcriptional regulators in addition to NF-kappaB and NF-AT, and that the carboxyl-terminal FKH domain, and therefore localization to the nucleus, are not required for inhibition of Tax-mediated HTLV-I LTR activation (even in HEK 293T cells).
+# T31 Protein S14 36 41 2362 2367 Foxp3
+# T32 Protein S14 241 244 2567 2570 Tax
+$ T31 Protein S14 36 41 2362 2367 Foxp3
+@ T66 Binding S14 42 51 2368 2377 interacts
+@ T67 Localization S14 177 189 2503 2515 localization
+@ T68 Entity S14 197 204 2523 2530 nucleus
+% E13 Binding:T66 Theme:T31
+% E14 Localization:T67 Theme:T31 ToLoc:T68
+
+To determine whether Foxp3 inhibited the transactivation functions of Tax by directly associating with this viral protein, we generated an expression vector in which HTLV-I Tax was fused in-frame to the carboxyl terminus of the Gal4 DNA-binding domain (Gal4-BD).
+# T33 Protein S15 21 26 2650 2655 Foxp3
+# T34 Protein S15 70 73 2699 2702 Tax
+# T35 Protein S15 173 176 2802 2805 Tax
+# T36 Protein S15 228 232 2857 2861 Gal4
+# T37 Protein S15 253 257 2882 2886 Gal4
+$ T33 Protein S15 21 26 2650 2655 Foxp3
+$ T34 Protein S15 70 73 2699 2702 Tax
+@ T69 Binding S15 86 97 2715 2726 associating
+% E15 Binding:T69 Theme:T33 Theme2:T34
+
+This Gal4-BD-Tax fusion protein activated transcription of a synthetic promoter containing five Gal4 binding sites, while Gal4-BD was insufficient to stimulate transcription by itself (Figure 4D).
+# T38 Protein S16 5 16 2897 2908 Gal4-BD-Tax
+# T39 Protein S16 122 126 3014 3018 Gal4
+
+Transactivation of the Gal4-resposive promoter by Gal4-BD-Tax remained relatively unaffected by overexpression of either EGFP (control), Foxp3, or DeltaFKH, suggesting that Foxp3 does not repress Tax transactivation by directly interfacing with the HTLV-I Tax protein.
+# T40 Protein S17 50 61 3139 3150 Gal4-BD-Tax
+# T41 Protein S17 137 142 3226 3231 Foxp3
+# T42 Protein S17 147 155 3236 3244 DeltaFKH
+# T43 Protein S17 173 178 3262 3267 Foxp3
+# T44 Protein S17 196 199 3285 3288 Tax
+# T45 Protein S17 256 259 3345 3348 Tax
+$ T41 Protein S17 137 142 3226 3231 Foxp3
+$ T42 Protein S17 147 155 3236 3244 DeltaFKH
+$ T45 Protein S17 256 259 3345 3348 Tax
+$ T43 Protein S17 173 178 3262 3267 Foxp3
+@ T70 Positive_regulation S17 96 110 3185 3199 overexpression
+@ T71 Negative_regulation S17 228 239 3317 3328 interfacing
+% E16 Positive_regulation:T70 Theme:T41
+% E17 Positive_regulation:T70 Theme:T42
+% E18 Negative_regulation:T71 Theme:T45 Cause:T43
+
+To confirm that Foxp3 had a direct effect on HTLV-I replication, we transfected HEK 293T cells with a well-characterized HTLV-I infectious molecular clone (termed ACH) [30] in the presence of full-length Foxp3, DeltaFKH, or control vector.
+# T46 Protein S18 16 21 3374 3379 Foxp3
+# T47 Protein S18 204 209 3562 3567 Foxp3
+# T48 Protein S18 211 219 3569 3577 DeltaFKH
+
+ACH has been previously shown to direct the expression of viral antigens, produce infectious virus, and transform CD4+ T cells both in vitro and in vivo [31,32].
+# T49 Protein S19 114 117 3712 3715 CD4
+
+After 24 h, the amount of viral antigen expression, in this case Tax mRNA, was detected by a sensitive real-time RT-PCR assay.
+# T50 Protein S20 65 68 3825 3828 Tax
+$ T50 Protein S20 65 68 3825 3828 Tax
+@ T72 Transcription S20 40 50 3800 3810 expression
+% E19 Transcription:T72 Theme:T50
+
+As illustrated in Figure 5, the level of Tax mRNA synthesized from ACH was down-regulated in the presence of Foxp3 compared to the level produced in the presence of the control vector.
+# T51 Protein S21 41 44 3928 3931 Tax
+# T52 Protein S21 109 114 3996 4001 Foxp3
+$ T51 Protein S21 41 44 3928 3931 Tax
+$ T52 Protein S21 109 114 3996 4001 Foxp3
+@ T73 Transcription S21 50 61 3937 3948 synthesized
+@ T74 Negative_regulation S21 75 89 3962 3976 down-regulated
+@ T75 Transcription S21 137 145 4024 4032 produced
+% E20 Transcription:T73 Theme:T51
+% E21 Negative_regulation:T74 Theme:E20 Cause:T52
+% E22 Transcription:T75 Theme:T51
+
+DeltaFKH did not have a discernable affect on Tax expression.
+# T53 Protein S22 0 8 4072 4080 DeltaFKH
+# T54 Protein S22 46 49 4118 4121 Tax
+$ T53 Protein S22 0 8 4072 4080 DeltaFKH
+$ T54 Protein S22 46 49 4118 4121 Tax
+@ T76 Regulation S22 36 42 4108 4114 affect
+@ T77 Gene_expression S22 50 60 4122 4132 expression
+% E23 Regulation:T76 Theme:E24 Cause:T53
+% E24 Gene_expression:T77 Theme:T54
+
+These data indicate that Foxp3 is capable of repressing the expression of Tax from an infectious HTLV-I molecular clone.
+# T55 Protein S23 25 30 4159 4164 Foxp3
+# T56 Protein S23 74 77 4208 4211 Tax
+$ T55 Protein S23 25 30 4159 4164 Foxp3
+$ T56 Protein S23 74 77 4208 4211 Tax
+@ T78 Negative_regulation S23 45 55 4179 4189 repressing
+@ T79 Gene_expression S23 60 70 4194 4204 expression
+% E25 Negative_regulation:T78 Theme:E26 Cause:T55
+% E26 Gene_expression:T79 Theme:T56
+

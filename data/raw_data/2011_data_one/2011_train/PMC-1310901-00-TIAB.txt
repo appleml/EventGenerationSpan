@@ -1,0 +1,80 @@
+Down-regulation of interferon regulatory factor 4 gene expression in leukemic cells due to hypermethylation of CpG motifs in the promoter region
+# T1 Protein S1 19 49 19 49 interferon regulatory factor 4
+$ T1 Protein S1 19 49 19 49 interferon regulatory factor 4
+@ T18 Negative_regulation S1 0 15 0 15 Down-regulation
+@ T19 Gene_expression S1 55 65 55 65 expression
+% E1 Negative_regulation:T18 Theme:E2
+% E2 Gene_expression:T19 Theme:T1
+
+Although the bcr-abl translocation has been shown to be the causative genetic aberration in chronic myeloid leukemia (CML), there is mounting evidence that the deregulation of other genes, such as the transcription factor interferon regulatory factor 4 (IRF-4), is also implicated in the pathogenesis of CML.
+# T2 Protein S2 13 16 159 162 bcr
+# T3 Protein S2 17 20 163 166 abl
+# T4 Protein S2 222 252 368 398 interferon regulatory factor 4
+# T5 Protein S2 254 259 400 405 IRF-4
+$ T4 Protein S2 222 252 368 398 interferon regulatory factor 4
+@ T20 Regulation S2 160 172 306 318 deregulation
+% E3 Regulation:T20 Theme:T4
+
+Promoter methylation of CpG target sites or direct deletions/insertions of genes are mechanisms of a reversible or permanent silencing of gene expression, respectively.
+
+Therefore, we investigated whether IRF-4 promoter methylation or mutation may be involved in the regulation of IRF-4 expression in leukemia cells.
+# T6 Protein S4 35 40 659 664 IRF-4
+# T7 Protein S4 111 116 735 740 IRF-4
+$ T7 Protein S4 111 116 735 740 IRF-4
+@ T21 Regulation S4 97 107 721 731 regulation
+@ T22 Gene_expression S4 117 127 741 751 expression
+% E4 Regulation:T21 Theme:E5
+% E5 Gene_expression:T22 Theme:T7
+
+Whereas promoter mutations or structural rearrangements could be excluded as a cause of altered IRF-4 expression in hematopoietic cells, the IRF-4 promoter methylation status was found to significantly influence IRF-4 transcription.
+# T8 Protein S5 96 101 867 872 IRF-4
+# T9 Protein S5 141 146 912 917 IRF-4
+# T10 Protein S5 212 217 983 988 IRF-4
+$ T8 Protein S5 96 101 867 872 IRF-4
+$ T10 Protein S5 212 217 983 988 IRF-4
+@ T23 Regulation S5 88 95 859 866 altered
+@ T24 Gene_expression S5 102 112 873 883 expression
+@ T25 Regulation S5 202 211 973 982 influence
+@ T26 Transcription S5 218 231 989 1002 transcription
+% E6 Regulation:T23 Theme:E7
+% E7 Gene_expression:T24 Theme:T8
+% E8 Regulation:T25 Theme:E9
+% E9 Transcription:T26 Theme:T10
+
+First, treatment of IRF-4-negative lymphoid, myeloid and monocytic cell lines with the methylation-inhibitor 5-aza-2-deoxycytidine resulted in a time- and concentration-dependent increase of IRF-4 mRNA and protein levels.
+# T11 Protein S6 20 25 1024 1029 IRF-4
+# T12 Protein S6 191 196 1195 1200 IRF-4
+$ T11 Protein S6 20 25 1024 1029 IRF-4
+$ T12 Protein S6 191 196 1195 1200 IRF-4
+@ T27 Gene_expression S6 26 34 1030 1038 negative
+@ T28 Positive_regulation S6 131 139 1135 1143 resulted
+@ T29 Positive_regulation S6 179 187 1183 1191 increase
+% E10 Gene_expression:T27 Theme:T11
+% E11 Positive_regulation:T28 Theme:E12
+% E12 Positive_regulation:T29 Theme:T12
+
+Second, using a restriction-PCR-assay and bisulfite-sequencing we identified specifically methylated CpG sites in IRF-4-negative but not in IRF-4-positive cells.
+# T13 Protein S7 114 119 1340 1345 IRF-4
+# T14 Protein S7 140 145 1366 1371 IRF-4
+$ T13 Protein S7 114 119 1340 1345 IRF-4
+$ T14 Protein S7 140 145 1366 1371 IRF-4
+@ T30 Gene_expression S7 120 128 1346 1354 negative
+@ T31 Gene_expression S7 146 154 1372 1380 positive
+% E13 Gene_expression:T30 Theme:T13
+% E14 Gene_expression:T31 Theme:T14
+
+Third, we clearly determined promoter methylation as a mechanism for IRF-4 down-regulation via reporter gene assays, but did not detect an association of methylational status and mRNA expression of DNA methyltransferases or methyl-CpG-binding proteins.
+# T15 Protein S8 69 74 1457 1462 IRF-4
+$ T15 Protein S8 69 74 1457 1462 IRF-4
+@ T32 Negative_regulation S8 75 90 1463 1478 down-regulation
+% E15 Negative_regulation:T32 Theme:T15
+
+Together, these data suggest CpG site-specific IRF-4 promoter methylation as a putative mechanism of down-regulated IRF-4 expression in leukemia.
+# T16 Protein S9 47 52 1688 1693 IRF-4
+# T17 Protein S9 116 121 1757 1762 IRF-4
+$ T17 Protein S9 116 121 1757 1762 IRF-4
+@ T33 Negative_regulation S9 101 115 1742 1756 down-regulated
+@ T34 Gene_expression S9 122 132 1763 1773 expression
+% E16 Negative_regulation:T33 Theme:E17
+% E17 Gene_expression:T34 Theme:T17
+

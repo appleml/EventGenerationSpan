@@ -1,0 +1,55 @@
+Cross-linking CD40 on B cells rapidly activates nuclear factor-kappa B.
+# T1 Protein S1 14 18 14 18 CD40
+$ T1 Protein S1 14 18 14 18 CD40
+@ T14 Binding S1 0 13 0 13 Cross-linking
+% E1 Binding:T14 Theme:T1
+
+The B cell-associated surface molecule CD40 functions to regulate B cell responses.
+# T2 Protein S2 39 43 112 116 CD40
+
+Cross-linking CD40 on B cells can lead to homotypic cell adhesion, IL-6 production, and, in combination with cytokines, to Ig isotype switching.
+# T3 Protein S3 14 18 171 175 CD40
+# T4 Protein S3 67 71 224 228 IL-6
+$ T3 Protein S3 14 18 171 175 CD40
+$ T4 Protein S3 67 71 224 228 IL-6
+@ T15 Binding S3 0 13 157 170 Cross-linking
+@ T16 Positive_regulation S3 34 38 191 195 lead
+@ T17 Gene_expression S3 72 82 229 239 production
+% E2 Binding:T15 Theme:T3
+% E3 Positive_regulation:T16 Theme:E4 Cause:E2
+% E4 Gene_expression:T17 Theme:T4
+
+Tyrosine kinase activity is increased shortly after engagement of this receptor.
+@ T18 Binding S4 52 62 354 364 engagement
+% E5 Binding:T18 Theme:T3
+
+Little is known about how the very early events induced by CD40 cross-linking link to cellular responses.
+# T5 Protein S5 59 63 442 446 CD40
+$ T5 Protein S5 59 63 442 446 CD40
+@ T19 Binding S5 64 77 447 460 cross-linking
+% E6 Binding:T19 Theme:T5
+
+In this study, we demonstrate that nuclear factor (NF)-kappa B and NF-kappa B-like transcription factors are activated after cross-linking CD40 on resting human tonsillar B cells and on B cell lines.
+# T6 Protein S6 139 143 628 632 CD40
+$ T6 Protein S6 139 143 628 632 CD40
+@ T20 Binding S6 125 138 614 627 cross-linking
+% E7 Binding:T20 Theme:T6
+
+The activation is rapid and is mediated through a tyrosine kinase-dependent pathway.
+
+The complexes detected in electrophoretic mobility shift assays contain p50, p65 (RelA), c-Rel, and most likely other components.
+# T7 Protein S8 72 75 846 849 p50
+# T8 Protein S8 77 80 851 854 p65
+# T9 Protein S8 82 86 856 860 RelA
+# T10 Protein S8 89 94 863 868 c-Rel
+
+By using transient transfection assays, we found that cross-linking CD40 supports NF-kappa B-dependent gene expression.
+# T11 Protein S9 68 72 972 976 CD40
+$ T11 Protein S9 68 72 972 976 CD40
+@ T21 Binding S9 54 67 958 971 cross-linking
+% E8 Binding:T21 Theme:T11
+
+Our results define the NF-kappa B system as an intermediate event in CD40 signaling and suggest that the CD40 pathway can influence the expression of B cell-associated genes with NF-kappa B consensus sites.
+# T12 Protein S10 69 73 1093 1097 CD40
+# T13 Protein S10 105 109 1129 1133 CD40
+

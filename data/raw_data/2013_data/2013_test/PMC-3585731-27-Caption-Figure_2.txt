@@ -1,0 +1,20 @@
+Akt contributes to necroptosis induced by zVAD.fmk and TNFalpha.
+# T1 Protein S1 55 63 55 63 TNFalpha
+
+(A,B) Necroptosis was induced by zVAD.fmk or TNFalpha (full serum, A) or growth factors/zVAD.
+# T2 Protein S2 45 53 110 118 TNFalpha
+
+fmk (serum free, B) in the presence of inhibitors of Akt (Akt inhibitor VIII), JNK (SP600125), p38 (PD169316), and Erk (UO126).
+
+Cell viability was determined after 24 hrs.
+
+(C) L929 cells transfected with Akt1, Akt2, and Akt3 siRNAs for 72 hrs were treated with zVAD.fmk or TNFalpha for 9 hrs.
+# T3 Protein S5 32 36 362 366 Akt1
+# T4 Protein S5 38 42 368 372 Akt2
+# T5 Protein S5 48 59 378 389 Akt3 siRNAs
+# T6 Protein S5 101 109 431 439 TNFalpha
+
+Cell viability and Akt expression levels were determined after 24 hrs.
+
+In all graphs, average+/-SD was plotted.
+

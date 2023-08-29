@@ -1,0 +1,44 @@
+The normal cell cycle activation program is exploited during the infection of quiescent B lymphocytes by Epstein-Barr virus.
+
+B lymphocytes in the peripheral circulation are maintained in a non-proliferative state.
+
+Antigen recognition stimulates limited proliferation, whereas infection with Epstein-Barr virus (EBV) results in continual proliferation and the outgrowth of immortal cell lines.
+
+Because it is not clear at which point in cell cycle the peripheral B lymphocytes are arrested, we characterized the expression of several cell cycle-associated genes in quiescent and stimulated cells.
+
+We show that the expression of four cell genes, cdc-2, cyclin E, CD23, and cyclin D2, are up-regulated approximately 100-fold as a result of EBV-mediated immortalization.
+# T1 Protein S5 48 53 644 649 cdc-2
+# T2 Protein S5 55 63 651 659 cyclin E
+# T3 Protein S5 65 69 661 665 CD23
+# T4 Protein S5 75 84 671 680 cyclin D2
+$ T2 Protein S5 55 63 651 659 cyclin E
+$ T3 Protein S5 65 69 661 665 CD23
+$ T1 Protein S5 48 53 644 649 cdc-2
+$ T4 Protein S5 75 84 671 680 cyclin D2
+@ T7 Gene_expression S5 17 27 613 623 expression
+@ T8 Positive_regulation S5 90 102 686 698 up-regulated
+% E1 Gene_expression:T7 Theme:T2
+% E2 Gene_expression:T7 Theme:T3
+% E3 Gene_expression:T7 Theme:T1
+% E4 Gene_expression:T7 Theme:T4
+% E5 Positive_regulation:T8 Theme:E1
+% E6 Positive_regulation:T8 Theme:E3
+% E7 Positive_regulation:T8 Theme:E4
+% E8 Positive_regulation:T8 Theme:E2
+
+Because these genes play a positive role in cell proliferation, we suggest that this regulatory switch contributes to controlling entry into the cell cycle.
+
+Transient stimulation of quiescent B lymphocytes with either a cocktail of anti-CD40, anti-IgM, and IL4, or EBV results in the rapid expression of the same four genes, suggesting that, after infection, EBV exploits the normal program of B-lymphocyte cell cycle activation.
+# T5 Protein S7 80 84 1004 1008 CD40
+# T6 Protein S7 100 103 1024 1027 IL4
+@ T9 Positive_regulation S7 112 119 1036 1043 results
+@ T10 Gene_expression S7 133 143 1057 1067 expression
+% E9 Positive_regulation:T9 Theme:E16
+% E10 Positive_regulation:T9 Theme:E15
+% E11 Positive_regulation:T9 Theme:E13
+% E12 Positive_regulation:T9 Theme:E14
+% E13 Gene_expression:T10 Theme:T4
+% E14 Gene_expression:T10 Theme:T1
+% E15 Gene_expression:T10 Theme:T2
+% E16 Gene_expression:T10 Theme:T3
+

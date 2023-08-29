@@ -1,0 +1,151 @@
+GATA3 Represses the FOXP3 Promoter
+# T1 Protein S1 0 5 0 5 GATA3
+# T2 Protein S1 20 25 20 25 FOXP3
+$ T2 Protein S1 20 25 20 25 FOXP3
+$ T1 Protein S1 0 5 0 5 GATA3
+@ T42 Negative_regulation S1 6 15 6 15 Represses
+@ T43 Entity S1 26 34 26 34 Promoter
+% E1 Negative_regulation:T42 Theme:T2 Cause:T1 Site:T43
+
+To investigate the molecular mechanism of GATA3-mediated repression of human FOXP3, the human FOXP3 promoter was studied and a palindromic binding site for GATA3 was discovered.
+# T3 Protein S2 42 47 77 82 GATA3
+# T4 Protein S2 77 82 112 117 FOXP3
+# T5 Protein S2 94 99 129 134 FOXP3
+# T6 Protein S2 156 161 191 196 GATA3
+$ T4 Protein S2 77 82 112 117 FOXP3
+$ T3 Protein S2 42 47 77 82 GATA3
+@ T44 Negative_regulation S2 57 67 92 102 repression
+% E2 Negative_regulation:T44 Theme:T4 Cause:T3
+
+The GATA-binding site is located 303 bp upstream from the transcription start site (TSS) [24].
+@ T45 Entity S3 4 21 217 234 GATA-binding site
+
+This site is highly conserved between humans, mice, and rats (Figure S4) and may therefore play an important role in FOXP3 regulation.
+# T7 Protein S4 117 122 425 430 FOXP3
+$ T7 Protein S4 117 122 425 430 FOXP3
+@ T40 Anaphora S4 0 9 308 317 This site
+@ T46 Regulation S4 91 113 399 421 play an important role
+@ T47 Regulation S4 123 133 431 441 regulation
+% E3 Regulation:T46 Theme:E4 Cause:T5 CSite:T45
+% E4 Regulation:T47 Theme:T7
+
+The functional relevance of this site was studied using a FOXP3-promoter construct [24].
+# T8 Protein S5 58 63 501 506 FOXP3
+
+We transfected human primary CD4+ T cells, in vitro differentiated Th2 cells, and Jurkat cells (Jurkat cells are known to constitutively express GATA3 [25,26]), and we measured FOXP3 promoter activity.
+# T9 Protein S6 29 32 561 564 CD4
+# T10 Protein S6 145 150 677 682 GATA3
+# T11 Protein S6 177 182 709 714 FOXP3
+$ T10 Protein S6 145 150 677 682 GATA3
+@ T48 Gene_expression S6 137 144 669 676 express
+@ T49 Entity S6 183 191 715 723 promoter
+% E5 Gene_expression:T48 Theme:T10
+
+The promoter was not active in the GATA3-expressing cell line Jurkat or in the in vitro-differentiated Th2 cells, whereas the construct was active in the CD4 cells, which express a lower amount of GATA3 (Figure 8A).
+# T12 Protein S7 35 40 769 774 GATA3
+# T13 Protein S7 154 157 888 891 CD4
+# T14 Protein S7 197 202 931 936 GATA3
+$ T12 Protein S7 35 40 769 774 GATA3
+$ T14 Protein S7 197 202 931 936 GATA3
+@ T50 Gene_expression S7 41 51 775 785 expressing
+@ T41 Anaphora S7 122 135 856 869 the construct
+@ T51 Positive_regulation S7 140 146 874 880 active
+@ T52 Gene_expression S7 171 178 905 912 express
+% E6 Gene_expression:T50 Theme:T12
+% E7 Positive_regulation:T51 Theme:T11 Cause:E8 Site:T49
+% E8 Gene_expression:T52 Theme:T14
+
+Overexpression of GATA3 in naive T cells diminished luciferase activity of the FOXP3 promoter compared with the control vector (Figure 8B).
+# T15 Protein S8 18 23 968 973 GATA3
+# T16 Protein S8 79 84 1029 1034 FOXP3
+$ T15 Protein S8 18 23 968 973 GATA3
+@ T53 Positive_regulation S8 0 14 950 964 Overexpression
+% E9 Positive_regulation:T53 Theme:T15
+
+To further address the function of the GATA3 site, we inserted a site-specific mutation deleting the GATA3-binding site.
+@ T54 Negative_regulation S9 88 96 1178 1186 deleting
+@ T55 Entity S9 101 119 1191 1209 GATA3-binding site
+% E10 Negative_regulation:T54 Theme:T16 Site:T55
+
+This mutation increased luciferase activity by 3-fold in memory CD4+CD45RO+ T cells, whereas no difference was observed in naive (GATA3-) CD4+CD45RA+ T cells, revealing a repressor activity of GATA3 on the FOXP3 promoter (Figure 8C).
+# T17 Protein S10 64 67 1275 1278 CD4
+# T18 Protein S10 68 74 1279 1285 CD45RO
+# T19 Protein S10 130 135 1341 1346 GATA3
+# T20 Protein S10 138 141 1349 1352 CD4
+# T21 Protein S10 142 148 1353 1359 CD45RA
+# T22 Protein S10 193 198 1404 1409 GATA3
+# T23 Protein S10 206 211 1417 1422 FOXP3
+$ T23 Protein S10 206 211 1417 1422 FOXP3
+$ T22 Protein S10 193 198 1404 1409 GATA3
+@ T56 Negative_regulation S10 171 180 1382 1391 repressor
+@ T57 Entity S10 212 220 1423 1431 promoter
+% E11 Negative_regulation:T56 Theme:T23 Cause:T22 Site:T57
+
+Furthermore GATA3 binds directly to the FOXP3 promoter as investigated by pull-down assay.
+# T24 Protein S11 12 17 1457 1462 GATA3
+# T25 Protein S11 40 45 1485 1490 FOXP3
+$ T24 Protein S11 12 17 1457 1462 GATA3
+$ T25 Protein S11 40 45 1485 1490 FOXP3
+@ T58 Binding S11 18 23 1463 1468 binds
+@ T59 Entity S11 46 54 1491 1499 promoter
+% E12 Binding:T58 Theme:T24 Theme2:T25 Site2:T59
+
+HEK cells were transiently transfected with GATA3 or a control vector, and increasing amounts of lysates were incubated with oligonucleotides containing the GATA3 site of the FOXP3 promoter or a control oligonucleotide with a mutated GATA3-binding site.
+# T26 Protein S12 44 49 1580 1585 GATA3
+# T27 Protein S12 175 180 1711 1716 FOXP3
+
+After the pull-down, GATA3 binding was detected by Western blot.
+# T28 Protein S13 21 26 1811 1816 GATA3
+$ T28 Protein S13 21 26 1811 1816 GATA3
+@ T60 Binding S13 27 34 1817 1824 binding
+% E13 Binding:T60 Theme:T28
+
+Similarly, GATA3-expressing Th2 cells and iTreg cells were subjected to this approach.
+# T29 Protein S14 11 16 1866 1871 GATA3
+$ T29 Protein S14 11 16 1866 1871 GATA3
+@ T61 Gene_expression S14 17 27 1872 1882 expressing
+% E14 Gene_expression:T61 Theme:T29
+
+Only HEK cells overexpressing GATA3 and Th2 cells showed GATA3-binding activity (Figure 8D and 8E).
+# T30 Protein S15 30 35 1972 1977 GATA3
+# T31 Protein S15 57 62 1999 2004 GATA3
+$ T30 Protein S15 30 35 1972 1977 GATA3
+$ T31 Protein S15 57 62 1999 2004 GATA3
+@ T62 Gene_expression S15 15 29 1957 1971 overexpressing
+@ T63 Binding S15 63 70 2005 2012 binding
+% E15 Gene_expression:T62 Theme:T30
+% E16 Binding:T63 Theme:T31
+
+These experiments demonstrated that GATA3 binds the palindromic FOXP3 promoter.
+# T32 Protein S16 36 41 2078 2083 GATA3
+# T33 Protein S16 64 69 2106 2111 FOXP3
+$ T32 Protein S16 36 41 2078 2083 GATA3
+$ T33 Protein S16 64 69 2106 2111 FOXP3
+@ T64 Binding S16 42 47 2084 2089 binds
+@ T65 Entity S16 70 78 2112 2120 promoter
+% E17 Binding:T64 Theme:T32 Theme2:T33 Site2:T65
+
+To gain insights into the in vivo situation, we performed a chromatin immunoprecipitation (ChIP) using an anti-GATA3 antibody and showed that GATA3 binds to the FOXP3 promoter region in Th2 cells, but not in iTreg cells (Figure 7F).
+# T34 Protein S17 111 116 2233 2238 GATA3
+# T35 Protein S17 142 147 2264 2269 GATA3
+# T36 Protein S17 161 166 2283 2288 FOXP3
+$ T35 Protein S17 142 147 2264 2269 GATA3
+$ T36 Protein S17 161 166 2283 2288 FOXP3
+@ T66 Binding S17 148 153 2270 2275 binds
+@ T67 Entity S17 167 182 2289 2304 promoter region
+% E18 Binding:T66 Theme:T35 Theme2:T36 Site2:T67
+
+Taken together these data demonstrate that the GATA3-binding to the FOXP3 promoter is repressing FOXP3 expression.
+# T37 Protein S18 47 52 2402 2407 GATA3
+# T38 Protein S18 68 73 2423 2428 FOXP3
+# T39 Protein S18 97 102 2452 2457 FOXP3
+$ T37 Protein S18 47 52 2402 2407 GATA3
+$ T38 Protein S18 68 73 2423 2428 FOXP3
+$ T39 Protein S18 97 102 2452 2457 FOXP3
+@ T68 Binding S18 53 60 2408 2415 binding
+@ T69 Negative_regulation S18 86 96 2441 2451 repressing
+@ T70 Gene_expression S18 103 113 2458 2468 expression
+% E19 Binding:T68 Theme:T37 Theme2:T38
+% E20 Negative_regulation:T69 Theme:E21 Cause:E19
+% E21 Gene_expression:T70 Theme:T39
+

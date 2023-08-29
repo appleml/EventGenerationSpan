@@ -1,0 +1,48 @@
+Cloning and functional characterization of early B-cell factor, a regulator of lymphocyte-specific gene expression.
+# T1 Protein S1 43 62 43 62 early B-cell factor
+
+Early B-cell factor (EBF) was identified previously as a tissue-specific and differentiation stage-specific DNA-binding protein that participates in the regulation of the pre-B and B lymphocyte-specific mb-1 gene.
+# T2 Protein S2 0 19 117 136 Early B-cell factor
+# T3 Protein S2 21 24 138 141 EBF
+# T4 Protein S2 203 207 320 324 mb-1
+$ T3 Protein S2 21 24 138 141 EBF
+$ T4 Protein S2 203 207 320 324 mb-1
+@ T14 Binding S2 112 127 229 244 binding protein
+@ T15 Regulation S2 133 163 250 280 participates in the regulation
+% E1 Binding:T14 Theme:T3
+% E2 Regulation:T15 Theme:T4 Cause:T3
+
+Partial amino acid sequences obtained from purified EBF were used to isolate cDNA clones, which by multiple criteria encode EBF.
+# T5 Protein S3 52 55 383 386 EBF
+# T6 Protein S3 124 127 455 458 EBF
+
+The recombinant polypeptide formed sequence-specific complexes with the EBF-binding site in the mb-1 promoter.
+# T7 Protein S4 72 75 532 535 EBF
+# T8 Protein S4 96 100 556 560 mb-1
+
+The cDNA hybridized to multiple transcripts in pre-B and B-cell lines, but transcripts were not detected at significant levels in plasmacytoma, T-cell, and nonlymphoid cell lines.
+@ T16 Transcription S5 0 19 571 590 The cDNA hybridized
+@ T17 Transcription S5 96 104 667 675 detected
+% E3 Transcription:T16 Theme:T6
+% E4 Transcription:T17 Theme:T6
+
+Expression of recombinant EBF in transfected nonlymphoid cells strongly activated transcription from reporter plasmids containing functional EBF-binding sites.
+# T9 Protein S6 26 29 777 780 EBF
+# T10 Protein S6 141 144 892 895 EBF
+
+Analysis of DNA binding by deletion mutants of EBF identified an amino-terminal cysteine-rich DNA-binding domain lacking obvious sequence similarity to known transcription factors.
+# T11 Protein S7 47 50 958 961 EBF
+
+DNA-binding assays with cotranslated wild-type and truncated forms of EBF indicated that the protein interacts with its site as a homodimer.
+# T12 Protein S8 70 73 1162 1165 EBF
+$ T12 Protein S8 70 73 1162 1165 EBF
+@ T18 Binding S8 101 110 1193 1202 interacts
+@ T19 Binding S8 130 139 1222 1231 homodimer
+% E5 Binding:T18 Theme:T12
+% E6 Binding:T19 Theme:T12
+
+Deletions delineated a carboxy-terminal dimerization region containing two repeats of 15 amino acids that show similarity with the dimerization domains of basic-helix-loop-helix proteins.
+
+Together, these data suggest that EBF represents a novel regulator of B lymphocyte-specific gene expression.
+# T13 Protein S10 34 37 1455 1458 EBF
+

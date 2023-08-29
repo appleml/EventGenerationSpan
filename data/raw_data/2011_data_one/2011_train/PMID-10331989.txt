@@ -1,0 +1,61 @@
+Different sequence requirements for expression in erythroid and megakaryocytic cells within a regulatory element upstream of the GATA-1 gene.
+# T1 Protein S1 129 135 129 135 GATA-1
+$ T1 Protein S1 129 135 129 135 GATA-1
+@ T14 Positive_regulation S1 19 31 19 31 requirements
+@ T15 Gene_expression S1 36 46 36 46 expression
+% E1 Positive_regulation:T14 Theme:E2
+% E2 Gene_expression:T15 Theme:T1
+
+The lineage-restricted transcription factor GATA-1 is required for differentiation of erythroid and megakaryocytic cells.
+# T2 Protein S2 44 50 187 193 GATA-1
+
+We have localized a 317 base pair cis-acting regulatory element, HS I, associated with a hematopoietic-specific DNase I hypersensitive site, which lies approx. 3.7 kilobases upstream of the murine hematopoietic-specific GATA-1 IE promoter.
+# T3 Protein S3 220 226 485 491 GATA-1
+
+HS I directs high-level expression of reporter GATA-1/lacZ genes to primitive and definitive erythroid cells and megakaryocytes in transgenic mice.
+# T4 Protein S4 47 53 552 558 GATA-1
+# T5 Protein S4 54 58 559 563 lacZ
+$ T5 Protein S4 54 58 559 563 lacZ
+@ T16 Positive_regulation S4 5 12 510 517 directs
+@ T17 Gene_expression S4 24 34 529 539 expression
+% E3 Positive_regulation:T16 Theme:E4
+% E4 Gene_expression:T17 Theme:T5
+
+Comparative sequence analysis of HS I between human and mouse shows approx. 63% nucleotide identity with a more conserved core of 169 base pairs (86% identity).
+
+This core contains a GATA site separated by 10 base pairs from an E-box motif.
+
+The composite motif binds a multi-protein hematopoietic-specific transcription factor complex which includes GATA-1, SCL/tal-1, E2A, Lmo2 and Ldb-1.
+# T6 Protein S7 109 115 1002 1008 GATA-1
+# T7 Protein S7 117 120 1010 1013 SCL
+# T8 Protein S7 121 126 1014 1019 tal-1
+# T9 Protein S7 128 131 1021 1024 E2A
+# T10 Protein S7 133 137 1026 1030 Lmo2
+# T11 Protein S7 142 147 1035 1040 Ldb-1
+$ T6 Protein S7 109 115 1002 1008 GATA-1
+$ T9 Protein S7 128 131 1021 1024 E2A
+$ T7 Protein S7 117 120 1010 1013 SCL
+$ T10 Protein S7 133 137 1026 1030 Lmo2
+$ T11 Protein S7 142 147 1035 1040 Ldb-1
+@ T18 Binding S7 20 25 913 918 binds
+% E5 Binding:T18 Theme:T6
+% E6 Binding:T18 Theme:T9
+% E7 Binding:T18 Theme:T7
+% E8 Binding:T18 Theme:T10
+% E9 Binding:T18 Theme:T11
+
+Point mutations of the GATA site abolishes HS I function, whereas mutation of the E-box motif still allows reporter gene expression in both lineages.
+
+Strict dependence of HS I activity on a GATA site implies that assembly of a protein complex containing a GATA-factor, presumably GATA-1 or GATA-2, is critical to activating or maintaining its function.
+# T12 Protein S9 130 136 1322 1328 GATA-1
+# T13 Protein S9 140 146 1332 1338 GATA-2
+$ T13 Protein S9 140 146 1332 1338 GATA-2
+$ T12 Protein S9 130 136 1322 1328 GATA-1
+@ T19 Binding S9 63 92 1255 1284 assembly of a protein complex
+% E10 Binding:T19 Theme:T13
+% E11 Binding:T19 Theme:T12
+
+Further dissection of the 317 base pair region demonstrates that, whereas all 317 base pairs are required for expression in megakaryocytes, only the 5' 62 base pairs are needed for erythroid-specific reporter expression.
+
+These findings demonstrate differential lineage requirements for expression within the HS I element.
+

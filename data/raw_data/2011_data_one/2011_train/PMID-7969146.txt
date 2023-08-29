@@ -1,0 +1,54 @@
+Identification of a region which directs the monocytic activity of the colony-stimulating factor 1 (macrophage colony-stimulating factor) receptor promoter and binds PEBP2/CBF (AML1).
+# T1 Protein S1 71 146 71 146 colony-stimulating factor 1 (macrophage colony-stimulating factor) receptor
+# T2 Protein S1 177 181 177 181 AML1
+$ T1 Protein S1 71 146 71 146 colony-stimulating factor 1 (macrophage colony-stimulating factor) receptor
+$ T2 Protein S1 177 181 177 181 AML1
+@ T12 Regulation S1 33 40 33 40 directs
+@ T13 Entity S1 147 155 147 155 promoter
+@ T14 Binding S1 160 165 160 165 binds
+% E1 Regulation:T12 Theme:T1 Site:T13
+% E2 Binding:T14 Theme:T2
+
+The receptor for the macrophage colony-stimulating factor (or colony-stimulating factor 1 [CSF-1]) is expressed from different promoters in monocytic cells and placental trophoblasts.
+# T3 Protein S2 21 57 206 242 macrophage colony-stimulating factor
+# T4 Protein S2 62 89 247 274 colony-stimulating factor 1
+# T5 Protein S2 91 96 276 281 CSF-1
+
+We have demonstrated that the monocyte-specific expression of the CSF-1 receptor is regulated at the level of transcription by a tissue-specific promoter whose activity is stimulated by the monocyte/B-cell-specific transcription factor PU.1 (D.-E.Zhang, C.J.Hetherington, H.-M.Chen, and D.G.Tenen, Mol.Cell. Biol.14:373-381, 1994).
+# T6 Protein S3 66 80 435 449 CSF-1 receptor
+# T7 Protein S3 236 240 605 609 PU.1
+$ T6 Protein S3 66 80 435 449 CSF-1 receptor
+@ T15 Gene_expression S3 48 58 417 427 expression
+@ T16 Regulation S3 84 93 453 462 regulated
+% E3 Gene_expression:T15 Theme:T6
+% E4 Regulation:T16 Theme:E3
+
+Here we report that the tissue specificity of this promoter is also mediated by sequences in a region II (bp -88 to - 59), which lies 10 bp upstream from the PU.1-binding site.
+# T8 Protein S4 158 162 859 863 PU.1
+
+When analyzed by DNase footprinting, region II was protected preferentially in monocytic cells.
+
+Electrophoretic mobility shift assays confirmed that region II interacts specifically with nuclear proteins from monocytic cells.
+
+Two gel shift complexes (Mono A and Mono B) were formed with separate sequence elements within this region.
+
+Competition and supershift experiments indicate that Mono B contains a member of the polyomavirus enhancer-binding protein 2/core-binding factor (PEBP2/CBF) family, which includes the AML1 gene product, while Mono A is a distinct complex preferentially expressed in monocytic cells.
+# T9 Protein S8 184 188 1396 1400 AML1
+$ T9 Protein S8 184 188 1396 1400 AML1
+@ T17 Binding S8 60 68 1272 1280 contains
+% E5 Binding:T17 Theme:T9
+
+Promoter constructs with mutations in these sequence elements were no longer expressed specifically in monocytes.
+
+Furthermore, multimerized region II sequence elements enhanced the activity of a heterologous thymidine kinase promoter in monocytic cells but not other cell types tested.
+
+These results indicate that the monocyte/B-cell-specific transcription factor PU.1 and the Mono A and Mono B protein complexes act in concert to regulate monocyte-specific transcription of the CSF-1 receptor.
+# T10 Protein S11 78 82 1859 1863 PU.1
+# T11 Protein S11 193 207 1974 1988 CSF-1 receptor
+$ T10 Protein S11 78 82 1859 1863 PU.1
+$ T11 Protein S11 193 207 1974 1988 CSF-1 receptor
+@ T18 Regulation S11 131 153 1912 1934 in concert to regulate
+@ T19 Transcription S11 172 185 1953 1966 transcription
+% E6 Regulation:T18 Theme:E7 Cause:T10
+% E7 Transcription:T19 Theme:T11
+

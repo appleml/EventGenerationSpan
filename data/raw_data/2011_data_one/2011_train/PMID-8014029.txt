@@ -1,0 +1,99 @@
+Increased interleukin 2 transcription in murine lymphocytes by ciprofloxacin.
+# T1 Protein S1 10 23 10 23 interleukin 2
+$ T1 Protein S1 10 23 10 23 interleukin 2
+@ T21 Positive_regulation S1 0 9 0 9 Increased
+@ T22 Transcription S1 24 37 24 37 transcription
+% E1 Positive_regulation:T21 Theme:E2
+% E2 Transcription:T22 Theme:T1
+
+The fluoroquinolone antibiotic, ciprofloxacin (cipro), induces hyperproduction of interleukin 2 (IL-2) and interferon-gamma (IFN-gamma) in stimulated human peripheral blood lymphocytes.
+# T2 Protein S2 82 95 161 174 interleukin 2
+# T3 Protein S2 97 101 176 180 IL-2
+# T4 Protein S2 107 123 186 202 interferon-gamma
+# T5 Protein S2 125 134 204 213 IFN-gamma
+$ T3 Protein S2 97 101 176 180 IL-2
+$ T5 Protein S2 125 134 204 213 IFN-gamma
+@ T23 Positive_regulation S2 55 62 134 147 induces
+@ T24 Gene_expression S2 63 78 147 157 hyperproduction
+% E3 Positive_regulation:T23 Theme:E6
+% E4 Positive_regulation:T23 Theme:E5
+% E5 Gene_expression:T24 Theme:T3
+% E6 Gene_expression:T24 Theme:T5
+
+In this investigation an enhanced and prolonged IL-2 and IL-2 mRNA response was also detected in both stimulated (T cell mitogens or alloantigens) murine splenocytes and in the stimulated murine T cell line EL-4 in the presence of ciprofloxacin (5-80 micrograms/ml) as compared to control cells without antibiotics.
+# T6 Protein S3 48 52 313 317 IL-2
+# T7 Protein S3 57 61 322 326 IL-2
+$ T6 Protein S3 48 52 313 317 IL-2
+$ T7 Protein S3 57 61 322 326 IL-2
+@ T25 Positive_regulation S3 25 47 290 312 enhanced and prolonged
+@ T26 Regulation S3 67 75 332 340 response
+% E7 Positive_regulation:T25 Theme:E10
+% E8 Positive_regulation:T25 Theme:E9
+% E9 Regulation:T26 Theme:T6
+% E10 Regulation:T26 Theme:T7
+
+However, in contrast to human lymphocytes, IFN-gamma production was inhibited and IFN-gamma mRNA levels were unaffected at 24 h and only slightly upregulated at 48 and 72 h of culture in murine splenocytes incubated with cipro (20 micrograms/ml).
+# T8 Protein S4 43 52 624 633 IFN-gamma
+# T9 Protein S4 82 91 663 672 IFN-gamma
+$ T8 Protein S4 43 52 624 633 IFN-gamma
+$ T9 Protein S4 82 91 663 672 IFN-gamma
+@ T27 Gene_expression S4 53 63 634 644 production
+@ T28 Negative_regulation S4 68 77 649 658 inhibited
+@ T29 Regulation S4 109 119 690 700 unaffected
+@ T30 Positive_regulation S4 146 157 727 738 upregulated
+% E11 Gene_expression:T27 Theme:T8
+% E12 Negative_regulation:T28 Theme:E11
+% E13 Regulation:T29 Theme:T9
+% E14 Positive_regulation:T30 Theme:T9
+
+EL-4 cells were transfected with a plasmid containing the IL-2 promoter and enhancer region linked to the chloramphenicol acetyltransferase (CAT) reporter gene.
+# T10 Protein S5 58 62 886 890 IL-2
+# T11 Protein S5 106 139 934 967 chloramphenicol acetyltransferase
+# T12 Protein S5 141 144 969 972 CAT
+
+Analysis of CAT activity revealed that cipro enhanced IL-2 gene induction.
+# T13 Protein S6 12 15 1001 1004 CAT
+# T14 Protein S6 54 58 1043 1047 IL-2
+$ T14 Protein S6 54 58 1043 1047 IL-2
+@ T31 Positive_regulation S6 45 53 1034 1042 enhanced
+@ T32 Gene_expression S6 64 73 1053 1062 induction
+% E15 Positive_regulation:T31 Theme:E16
+% E16 Gene_expression:T32 Theme:T14
+
+In addition, EL-4 cells incubated with ciprofloxacin showed an early peak and more activated nuclear factor of activated T cells (NFAT-1) as compared to control cells without antibiotics.
+# T15 Protein S7 130 136 1194 1200 NFAT-1
+$ T15 Protein S7 130 136 1194 1200 NFAT-1
+@ T33 Positive_regulation S7 53 92 1117 1156 showed an early peak and more activated
+% E17 Positive_regulation:T33 Theme:T15
+
+Cipro did not affect the nuclear transcription factors AP-1 or NFIL-2A.
+# T16 Protein S8 63 70 1315 1322 NFIL-2A
+$ T16 Protein S8 63 70 1315 1322 NFIL-2A
+@ T34 Regulation S8 14 20 1266 1272 affect
+% E18 Regulation:T34 Theme:T16
+
+Taken together, cipro inhibited IFN-gamma synthesis, but enhanced IL-2 production in murine lymphocytes by means of influencing NFAT-1 and causing an increased IL-2 transcription.
+# T17 Protein S9 32 41 1356 1365 IFN-gamma
+# T18 Protein S9 66 70 1390 1394 IL-2
+# T19 Protein S9 128 134 1452 1458 NFAT-1
+# T20 Protein S9 160 164 1484 1488 IL-2
+$ T17 Protein S9 32 41 1356 1365 IFN-gamma
+$ T18 Protein S9 66 70 1390 1394 IL-2
+$ T19 Protein S9 128 134 1452 1458 NFAT-1
+$ T20 Protein S9 160 164 1484 1488 IL-2
+@ T35 Negative_regulation S9 22 31 1346 1355 inhibited
+@ T36 Gene_expression S9 42 51 1366 1375 synthesis
+@ T37 Positive_regulation S9 57 65 1381 1389 enhanced
+@ T38 Gene_expression S9 71 81 1395 1405 production
+@ T39 Regulation S9 116 127 1440 1451 influencing
+@ T40 Positive_regulation S9 139 159 1463 1483 causing an increased
+@ T41 Transcription S9 165 178 1489 1502 transcription
+% E19 Negative_regulation:T35 Theme:E20
+% E20 Gene_expression:T36 Theme:T17
+% E21 Positive_regulation:T37 Theme:E23 Cause:E24
+% E22 Positive_regulation:T37 Theme:E23 Cause:E25
+% E23 Gene_expression:T38 Theme:T18
+% E24 Regulation:T39 Theme:T19
+% E25 Positive_regulation:T40 Theme:E26 Cause:T20
+% E26 Transcription:T41 Theme:T20
+

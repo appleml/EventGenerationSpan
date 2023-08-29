@@ -1,0 +1,24 @@
+Vitamin D receptor 3'-untranslated region polymorphisms: lack of effect on mRNA stability.
+# T1 Protein S1 0 18 0 18 Vitamin D receptor
+
+Allelic variation at the 3'-end of the vitamin D receptor (VDR) gene has been associated with a 3-5-fold increased risk of developing prostate cancer and with differences in bone mineralization.
+# T2 Protein S2 39 57 131 149 vitamin D receptor
+# T3 Protein S2 59 62 151 154 VDR
+
+This genetic diversity does not alter the VDR protein structurally, but instead may be a marker(s) of other, nearby polymorphisms that influence message stability or translation.
+# T4 Protein S3 42 45 329 332 VDR
+
+The work reported here was instigated to identify additional VDR 3'-UTR polymorphisms that may have functional significance and to then test whether these genetic variants alter message stability.
+# T5 Protein S4 61 64 527 530 VDR
+
+Initially, four novel, frequently occurring sequence variants were identified that associated with two common haplotypes that were described previously.
+
+These common sequence variants were not found within three message-destabilizing elements that we mapped within the 3'-UTR of the vitamin D receptor mRNA.
+# T6 Protein S6 130 148 946 964 vitamin D receptor
+
+Furthermore, the two VDR 3'-UTR haplotypes conferred an identical half-life on a heterologous beta-globin reporter gene, in an in vitro assay.
+# T7 Protein S7 21 24 992 995 VDR
+
+We therefore conclude that common polymorphisms within the VDR 3'-UTR do not influence message stability.
+# T8 Protein S8 59 62 1173 1176 VDR
+

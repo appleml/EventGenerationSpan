@@ -1,0 +1,146 @@
+Interferon-alpha activates multiple STAT proteins and upregulates proliferation-associated IL-2Ralpha, c-myc, and pim-1 genes in human T cells.
+# T1 Protein S1 91 101 91 101 IL-2Ralpha
+# T2 Protein S1 103 108 103 108 c-myc
+# T3 Protein S1 114 119 114 119 pim-1
+$ T3 Protein S1 114 119 114 119 pim-1
+$ T1 Protein S1 91 101 91 101 IL-2Ralpha
+$ T2 Protein S1 103 108 103 108 c-myc
+@ T32 Positive_regulation S1 54 65 54 65 upregulates
+% E1 Positive_regulation:T32 Theme:T3
+% E2 Positive_regulation:T32 Theme:T1
+% E3 Positive_regulation:T32 Theme:T2
+
+Interferon-alpha (IFN-alpha) is a pleiotropic cytokine that has antiviral, antiproliferative, and immunoregulatory functions.
+
+There is increasing evidence that IFN-alpha has an important role in T-cell biology.
+
+We have analyzed the expression of IL-2Ralpha, c-myc, and pim-1 genes in anti-CD3-activated human T lymphocytes.
+# T4 Protein S4 35 45 391 401 IL-2Ralpha
+# T5 Protein S4 47 52 403 408 c-myc
+# T6 Protein S4 58 63 414 419 pim-1
+$ T6 Protein S4 58 63 414 419 pim-1
+$ T4 Protein S4 35 45 391 401 IL-2Ralpha
+$ T5 Protein S4 47 52 403 408 c-myc
+@ T33 Gene_expression S4 21 31 377 387 expression
+% E4 Gene_expression:T33 Theme:T6
+% E5 Gene_expression:T33 Theme:T4
+% E6 Gene_expression:T33 Theme:T5
+
+The induction of these genes is associated with interleukin-2 (IL-2)-induced T-cell proliferation.
+# T7 Protein S5 48 61 517 530 interleukin-2
+# T8 Protein S5 63 67 532 536 IL-2
+@ T34 Positive_regulation S5 4 13 473 482 induction
+% E7 Positive_regulation:T34 Theme:T4
+% E8 Positive_regulation:T34 Theme:T6
+% E9 Positive_regulation:T34 Theme:T5
+
+Treatment of T lymphocytes with IFN-alpha, IL-2, IL-12, and IL-15 upregulated IL-2Ralpha, c-myc, and pim-1 gene expression.
+# T9 Protein S6 43 47 611 615 IL-2
+# T10 Protein S6 60 65 628 633 IL-15
+# T11 Protein S6 78 88 646 656 IL-2Ralpha
+# T12 Protein S6 90 95 658 663 c-myc
+# T13 Protein S6 101 106 669 674 pim-1
+$ T13 Protein S6 101 106 669 674 pim-1
+$ T12 Protein S6 90 95 658 663 c-myc
+$ T11 Protein S6 78 88 646 656 IL-2Ralpha
+@ T35 Positive_regulation S6 66 77 634 645 upregulated
+@ T36 Gene_expression S6 112 122 680 690 expression
+% E10 Positive_regulation:T35 Theme:E14
+% E11 Positive_regulation:T35 Theme:E13
+% E12 Positive_regulation:T35 Theme:E15
+% E13 Gene_expression:T36 Theme:T13
+% E14 Gene_expression:T36 Theme:T12
+% E15 Gene_expression:T36 Theme:T11
+
+IFN-alpha also sensitized T cells to IL-2-induced proliferation, further suggesting that IFN-alpha may be involved in the regulation of T-cell mitogenesis.
+# T14 Protein S7 37 41 729 733 IL-2
+
+When we analyzed the nature of STAT proteins capable of binding to IL-2Ralpha, pim-1, and IRF-1 GAS elements after cytokine stimulation, we observed IFN-alpha-induced binding of STAT1, STAT3, and STAT4, but not STAT5 to all of these elements.
+# T15 Protein S8 67 77 915 925 IL-2Ralpha
+# T16 Protein S8 79 84 927 932 pim-1
+# T17 Protein S8 90 95 938 943 IRF-1
+# T18 Protein S8 178 183 1026 1031 STAT1
+# T19 Protein S8 185 190 1033 1038 STAT3
+# T20 Protein S8 196 201 1044 1049 STAT4
+$ T16 Protein S8 79 84 927 932 pim-1
+$ T15 Protein S8 67 77 915 925 IL-2Ralpha
+$ T17 Protein S8 90 95 938 943 IRF-1
+$ T20 Protein S8 196 201 1044 1049 STAT4
+$ T19 Protein S8 185 190 1033 1038 STAT3
+$ T18 Protein S8 178 183 1026 1031 STAT1
+@ T37 Binding S8 56 63 904 911 binding
+@ T38 Entity S8 96 108 944 956 GAS elements
+@ T39 Positive_regulation S8 159 166 1007 1014 induced
+@ T40 Binding S8 167 174 1015 1022 binding
+% E16 Binding:T37 Theme:T16 Site:T38
+% E17 Binding:T37 Theme:T15 Site:T38
+% E18 Binding:T37 Theme:T17 Site:T38
+% E19 Positive_regulation:T39 Theme:E33
+% E20 Positive_regulation:T39 Theme:E35
+% E21 Positive_regulation:T39 Theme:E34
+% E22 Positive_regulation:T39 Theme:E32
+% E23 Positive_regulation:T39 Theme:E42
+% E24 Positive_regulation:T39 Theme:E38
+% E25 Positive_regulation:T39 Theme:E31
+% E26 Positive_regulation:T39 Theme:E37
+% E27 Positive_regulation:T39 Theme:E39
+% E28 Positive_regulation:T39 Theme:E36
+% E29 Positive_regulation:T39 Theme:E41
+% E30 Positive_regulation:T39 Theme:E40
+% E31 Binding:T40 Theme:T17 Theme2:T20 Site:T38
+% E32 Binding:T40 Theme:T15 Theme2:T19 Site:T38
+% E33 Binding:T40 Theme:T17 Theme2:T19 Site:T38
+% E34 Binding:T40 Theme:T16 Theme2:T20 Site:T38
+% E35 Binding:T40 Theme:T15 Theme2:T18 Site:T38
+% E36 Binding:T40 Theme:T15 Theme2:T20 Site:T38
+% E37 Binding:T40 Theme:T15 Site:T38
+% E38 Binding:T40 Theme:T16 Site:T38
+% E39 Binding:T40 Theme:T17 Theme2:T18 Site:T38
+% E40 Binding:T40 Theme:T16 Theme2:T19 Site:T38
+% E41 Binding:T40 Theme:T17 Site:T38
+% E42 Binding:T40 Theme:T16 Theme2:T18 Site:T38
+
+Yet, IFN-alpha was able to activate binding of STAT5 to the high-affinity IFP53 GAS site.
+# T21 Protein S9 74 79 1165 1170 IFP53
+
+IFN-alpha enhanced tyrosine phosphorylation of STAT1, STAT3, STAT4, STAT5a, and STAT5b.
+# T22 Protein S10 47 52 1228 1233 STAT1
+# T23 Protein S10 54 59 1235 1240 STAT3
+# T24 Protein S10 61 66 1242 1247 STAT4
+# T25 Protein S10 68 74 1249 1255 STAT5a
+# T26 Protein S10 80 86 1261 1267 STAT5b
+$ T22 Protein S10 47 52 1228 1233 STAT1
+$ T23 Protein S10 54 59 1235 1240 STAT3
+$ T25 Protein S10 68 74 1249 1255 STAT5a
+$ T24 Protein S10 61 66 1242 1247 STAT4
+$ T26 Protein S10 80 86 1261 1267 STAT5b
+@ T41 Positive_regulation S10 10 18 1191 1199 enhanced
+@ T42 Entity S10 19 27 1200 1208 tyrosine
+@ T43 Phosphorylation S10 28 43 1209 1224 phosphorylation
+% E43 Positive_regulation:T41 Theme:E49
+% E44 Positive_regulation:T41 Theme:E50
+% E45 Positive_regulation:T41 Theme:E51
+% E46 Positive_regulation:T41 Theme:E48
+% E47 Positive_regulation:T41 Theme:E52
+% E48 Phosphorylation:T43 Theme:T22 Site:T42
+% E49 Phosphorylation:T43 Theme:T23 Site:T42
+% E50 Phosphorylation:T43 Theme:T25 Site:T42
+% E51 Phosphorylation:T43 Theme:T24 Site:T42
+% E52 Phosphorylation:T43 Theme:T26 Site:T42
+
+IL-12 induced STAT4 and IL-2 and IL-15 induced STAT5 binding to the GAS elements.
+# T27 Protein S11 14 19 1283 1288 STAT4
+# T28 Protein S11 24 28 1293 1297 IL-2
+# T29 Protein S11 33 38 1302 1307 IL-15
+$ T27 Protein S11 14 19 1283 1288 STAT4
+@ T44 Positive_regulation S11 6 13 1275 1282 induced
+@ T45 Binding S11 53 60 1322 1329 binding
+% E53 Positive_regulation:T44 Theme:E54
+% E54 Binding:T45 Theme:T27
+
+Taken together, our results suggest that IFN-alpha, IL-2, IL-12, and IL-15 have overlapping activities on human T cells.
+# T30 Protein S12 52 56 1403 1407 IL-2
+# T31 Protein S12 69 74 1420 1425 IL-15
+
+These findings thus emphasize the importance of IFN-alpha as a T-cell regulatory cytokine.
+

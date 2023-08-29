@@ -1,0 +1,46 @@
+Degraded CGN stimulated TNF secretion from monocytes.
+# T1 Protein S1 24 27 24 27 TNF
+$ T1 Protein S1 24 27 24 27 TNF
+@ T7 Positive_regulation S1 13 23 13 23 stimulated
+@ T8 Localization S1 28 37 28 37 secretion
+% E1 Positive_regulation:T7 Theme:E2
+% E2 Localization:T8 Theme:T1
+
+Levels of TNF released from peripheral blood monocytes (A-B) and THP-1 cells (C-D) after stimulation with dCGN.
+# T2 Protein S2 10 13 64 67 TNF
+$ T2 Protein S2 10 13 64 67 TNF
+@ T9 Localization S2 14 22 68 76 released
+% E3 Localization:T9 Theme:T2
+
+A: TNF release induced by native CGN (open bars), 10 kDa dCGN (grey bars), or 40 kDa dCGN (black bars).
+# T3 Protein S3 3 6 169 172 TNF
+$ T3 Protein S3 3 6 169 172 TNF
+@ T10 Localization S3 7 14 173 180 release
+@ T11 Positive_regulation S3 15 22 181 188 induced
+% E4 Localization:T10 Theme:T3
+% E5 Positive_regulation:T11 Theme:E4
+
+B: Kinetics of TNF release induced by nothing (control; black diamonds), 0.1 mg/ml 10 kDa dCGN (black triangles), 0.1 mg/ml 40 kDa dCGN (black squares), or 10 microg/ml LPS (open squares).
+# T4 Protein S4 15 18 285 288 TNF
+$ T4 Protein S4 15 18 285 288 TNF
+@ T12 Localization S4 19 26 289 296 release
+@ T13 Positive_regulation S4 27 34 297 304 induced
+% E6 Localization:T12 Theme:T4
+% E7 Positive_regulation:T13 Theme:E6
+
+C: TNF release induced by nothing (control; open bars), 10 microg/ml LPS (hatched bars), or increasing concentrations of 10 kDa dCGN (grey bars), or 40 kDa dCGN (black bars).
+# T5 Protein S5 3 6 462 465 TNF
+$ T5 Protein S5 3 6 462 465 TNF
+@ T14 Localization S5 7 14 466 473 release
+@ T15 Positive_regulation S5 15 22 474 481 induced
+% E8 Localization:T14 Theme:T5
+% E9 Positive_regulation:T15 Theme:E8
+
+D: Kinetics of TNF release induced by nothing (control; black diamonds), 0.1 mg/ml 10 kDa dCGN (black triangles), 0.1 mg/ml 40 kDa dCGN (black squares), or 10 microg/ml LPS (open squares).
+# T6 Protein S6 15 18 649 652 TNF
+$ T6 Protein S6 15 18 649 652 TNF
+@ T16 Localization S6 19 26 653 660 release
+@ T17 Positive_regulation S6 27 34 661 668 induced
+% E10 Localization:T16 Theme:T6
+% E11 Positive_regulation:T17 Theme:E10
+

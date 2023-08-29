@@ -1,0 +1,86 @@
+Multiple prolactin-responsive elements mediate G1 and S phase expression of the interferon regulatory factor-1 gene.
+# T1 Protein S1 9 18 9 18 prolactin
+# T2 Protein S1 80 110 80 110 interferon regulatory factor-1
+$ T2 Protein S1 80 110 80 110 interferon regulatory factor-1
+@ T29 Positive_regulation S1 39 46 39 46 mediate
+@ T30 Gene_expression S1 62 72 62 72 expression
+% E1 Positive_regulation:T29 Theme:E2
+% E2 Gene_expression:T30 Theme:T2
+
+The interferon regulatory factor-1 (IRF-1) gene is both an immediate-early G1 phase gene and an S phase gene inducible by PRL in rat Nb2 T lymphocytes.
+# T3 Protein S2 4 34 122 152 interferon regulatory factor-1
+# T4 Protein S2 36 41 154 159 IRF-1
+# T5 Protein S2 122 125 240 243 PRL
+$ T4 Protein S2 36 41 154 159 IRF-1
+$ T5 Protein S2 122 125 240 243 PRL
+@ T31 Positive_regulation S2 109 118 227 236 inducible
+% E3 Positive_regulation:T31 Theme:T4 Cause:T5
+
+To understand the mechanism by which PRL regulates the biphasic expression of IRF-1, we cloned the rat IRF-1 gene and functionally characterized the IRF-1 promoter.
+# T6 Protein S3 37 40 307 310 PRL
+# T7 Protein S3 78 83 348 353 IRF-1
+# T8 Protein S3 103 108 373 378 IRF-1
+# T9 Protein S3 149 154 419 424 IRF-1
+$ T6 Protein S3 37 40 307 310 PRL
+$ T8 Protein S3 103 108 373 378 IRF-1
+@ T32 Regulation S3 41 50 311 320 regulates
+@ T33 Gene_expression S3 64 74 334 344 expression
+% E4 Regulation:T32 Theme:E5 Cause:T6
+% E5 Gene_expression:T33 Theme:T8
+
+Upon transfection into Nb2 T cells, 1.7 kilobases (kb) of IRF-1 5'-flanking DNA linked to a chloramphenicol acetyl transferase (CAT) reporter gene mediated a 30-fold induction of CAT enzyme activity in response to 24 h of PRL stimulation.
+# T10 Protein S4 58 63 493 498 IRF-1
+# T11 Protein S4 92 126 527 561 chloramphenicol acetyl transferase
+# T12 Protein S4 128 131 563 566 CAT
+# T13 Protein S4 179 182 614 617 CAT
+# T14 Protein S4 222 225 657 660 PRL
+$ T13 Protein S4 179 182 614 617 CAT
+$ T14 Protein S4 222 225 657 660 PRL
+@ T34 Positive_regulation S4 147 155 582 590 mediated
+@ T35 Positive_regulation S4 166 175 601 610 induction
+% E6 Positive_regulation:T34 Theme:E7
+% E7 Positive_regulation:T35 Theme:T13 Cause:T14
+
+Deletion mutants containing 1.3, 0.6, and 0.2 kb 5'-flanking DNA were incrementally less transcriptionally active, although 0.2 kb still mediated a 12-fold induction by PRL.
+# T15 Protein S5 169 172 843 846 PRL
+
+The sequence between -1.7 and -0.2 kb linked to a heterologous thymidine kinase promoter failed to respond to PRL stimulation, suggesting that the activity of upstream PRL response elements may require an interaction with promoter-proximal elements.
+# T16 Protein S6 110 113 958 961 PRL
+# T17 Protein S6 168 171 1016 1019 PRL
+
+By assaying CAT enzyme activity across a 24-h PRL induction time course, we were able to assign G1 vs. S phase PRL responses of the IRF-1 gene to different regions of the IRF-1 5'-flanking and promoter DNA.
+# T18 Protein S7 12 15 1110 1113 CAT
+# T19 Protein S7 46 49 1144 1147 PRL
+# T20 Protein S7 111 114 1209 1212 PRL
+# T21 Protein S7 132 137 1230 1235 IRF-1
+# T22 Protein S7 171 176 1269 1274 IRF-1
+$ T21 Protein S7 132 137 1230 1235 IRF-1
+$ T20 Protein S7 111 114 1209 1212 PRL
+@ T36 Regulation S7 115 124 1213 1222 responses
+% E8 Regulation:T36 Theme:T21 Cause:T20
+
+The 0.2-kb IRF-CAT construct was induced by PRL stimulation during the G1 phase of the cell cycle.
+# T23 Protein S8 44 47 1349 1352 PRL
+
+In contrast, the 1.7-kb IRF-CAT construct was inducible by PRL during both G1 and S phase of the cell cycle.
+# T24 Protein S9 59 62 1463 1466 PRL
+
+Hence, the PRL-induced biphasic expression of the IRF-1 gene appears to be controlled by separate PRL-responsive elements: elements in the first 0.2 kb of the IRF-1 promoter region act during early activation, and elements between 0.2 and 1.7 kb act in concert with the proximal 0.2-kb region during S phase progression.
+# T25 Protein S10 11 14 1524 1527 PRL
+# T26 Protein S10 50 55 1563 1568 IRF-1
+# T27 Protein S10 98 101 1611 1614 PRL
+# T28 Protein S10 159 164 1672 1677 IRF-1
+$ T25 Protein S10 11 14 1524 1527 PRL
+$ T26 Protein S10 50 55 1563 1568 IRF-1
+$ T28 Protein S10 159 164 1672 1677 IRF-1
+@ T37 Positive_regulation S10 15 22 1528 1535 induced
+@ T38 Gene_expression S10 32 42 1545 1555 expression
+@ T39 Regulation S10 75 85 1588 1598 controlled
+@ T40 Entity S10 165 180 1678 1693 promoter region
+@ T41 Positive_regulation S10 181 184 1694 1697 act
+% E9 Positive_regulation:T37 Theme:E10 Cause:T25
+% E10 Gene_expression:T38 Theme:T26
+% E11 Regulation:T39 Theme:E9 Cause:T28 CSite:T40
+% E12 Regulation:T39 Theme:E9
+% E13 Positive_regulation:T41 Theme:T28 Site:T40
+

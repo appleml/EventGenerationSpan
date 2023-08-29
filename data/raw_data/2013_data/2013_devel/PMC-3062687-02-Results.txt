@@ -1,0 +1,61 @@
+RPS3 phosphorylation in response to NF-kappaB activation
+# T1 Protein S1 0 4 0 4 RPS3
+$ T1 Protein S1 0 4 0 4 RPS3
+@ T10 Phosphorylation S1 5 20 5 20 phosphorylation
+@ T11 Positive_regulation S1 21 35 21 35 in response to
+% E1 Phosphorylation:T10 Theme:T1
+% E2 Positive_regulation:T11 Theme:E1
+
+To test whether RPS3 is phosphorylated during NF-kappaB activation, we performed 32P-labeling experiments in tumor necrosis factor (TNF)-stimulated HEK 293T cells.
+# T2 Protein S2 16 20 73 77 RPS3
+$ T2 Protein S2 16 20 73 77 RPS3
+@ T12 Phosphorylation S2 24 38 81 95 phosphorylated
+% E3 Phosphorylation:T12 Theme:T2
+
+While RPS3 was scarcely phosphorylated in unstimulated cells, we observed a marked increase in 32P-incorporation after TNF stimulation despite no increase in RPS3 protein (Fig. 1a).
+# T3 Protein S3 6 10 227 231 RPS3
+# T4 Protein S3 158 162 379 383 RPS3
+$ T3 Protein S3 6 10 227 231 RPS3
+$ T4 Protein S3 158 162 379 383 RPS3
+@ T13 Phosphorylation S3 24 38 245 259 phosphorylated
+@ T14 Positive_regulation S3 83 91 304 312 increase
+@ T15 Phosphorylation S3 95 112 316 333 32P-incorporation
+@ T16 Positive_regulation S3 146 154 367 375 increase
+% E4 Phosphorylation:T13 Theme:T3
+% E5 Positive_regulation:T14 Theme:E6
+% E6 Phosphorylation:T15 Theme:T4
+% E7 Positive_regulation:T16 Theme:T4
+
+To determine which RPS3 residues were phosphorylated, we immunoprecipitated RPS3 from either resting or stimulated cells and performed immunoblotting with phosphorylation-specific antibodies.
+# T5 Protein S4 19 23 422 426 RPS3
+# T6 Protein S4 76 80 479 483 RPS3
+$ T5 Protein S4 19 23 422 426 RPS3
+@ T17 Entity S4 24 32 427 435 residues
+@ T18 Phosphorylation S4 38 52 441 455 phosphorylated
+% E8 Phosphorylation:T18 Theme:T5 Site:T17
+
+Both TNF and phorbol myristate acetate/ionomycin (PMA+I) stimulated rapid phosphorylation and degradaion of IkappaBalpha within 5 min which was accompanied by RPS3 phosphorylation on serine residues (Fig. 1b and data not shown), similar to the in vivo labeling.
+# T7 Protein S5 108 120 703 715 IkappaBalpha
+# T8 Protein S5 159 163 754 758 RPS3
+$ T7 Protein S5 108 120 703 715 IkappaBalpha
+$ T8 Protein S5 159 163 754 758 RPS3
+@ T19 Positive_regulation S5 57 67 652 662 stimulated
+@ T20 Phosphorylation S5 74 89 669 684 phosphorylation
+@ T21 Protein_catabolism S5 94 104 689 699 degradaion
+@ T22 Phosphorylation S5 164 179 759 774 phosphorylation
+@ T23 Entity S5 183 198 778 793 serine residues
+% E9 Positive_regulation:T19 Theme:E10
+% E11 Positive_regulation:T19 Theme:E12
+% E10 Phosphorylation:T20 Theme:T7
+% E12 Protein_catabolism:T21 Theme:T7
+% E13 Phosphorylation:T22 Theme:T8 Site:T23
+
+We did not detect tyrosine- or threonine-phosphorylation of RPS3 (Fig. 1b).
+# T9 Protein S6 60 64 917 921 RPS3
+$ T9 Protein S6 60 64 917 921 RPS3
+@ T24 Entity S6 18 26 875 883 tyrosine
+@ T25 Entity S6 31 40 888 897 threonine
+@ T26 Phosphorylation S6 41 56 898 913 phosphorylation
+% E14 Phosphorylation:T26 Theme:T9 Site:T24
+% E15 Phosphorylation:T26 Theme:T9 Site:T25
+

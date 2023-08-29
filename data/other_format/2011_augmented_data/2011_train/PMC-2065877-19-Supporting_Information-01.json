@@ -1,0 +1,3 @@
+{"trigger": ["Accession Numbers", "Accession Numbers"], "relation": []}
+{"trigger": ["The GenBank ( http : / / www.ncbi.nlm.nih.gov / Genbank / ) accession number for the EBV genome sequence is AJ507799 .", "The GenBank ( http : / / www.ncbi.nlm.nih.gov / Genbank / ) accession number for the EBV genome sequence is AJ507799 ."], "relation": []}
+{"trigger": ["The gene identifier for <extra_id_0> LMP1 <extra_id_2> Protein <extra_id_1> is <extra_id_0> BNLF1 <extra_id_2> Protein <extra_id_1> .", "The gene identifier for LMP1 is BNLF1 ."], "relation": []}

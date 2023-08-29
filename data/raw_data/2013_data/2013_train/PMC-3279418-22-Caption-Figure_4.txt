@@ -1,0 +1,23 @@
+Decreased mRNA levels of inflammatory cytokines from cpdm BMDC.
+
+Cultured WT and cpdm BMDC (5x105 cells in 0.2 ml complete medium) were washed and stimulated with 100 ng/ml LPS (A,C,E,G) or 25 microg/ml poly I:C (B,D,F,H).
+
+At 0, 1 and 2 hours, total RNA was extracted and subject to qRT-PCR to measure the expression of Il12p40 (A,B), Il6 (C,D), Gmcsf (E,F), and Ifnb (G,H) mRNA.
+# T1 Protein S3 97 104 319 326 Il12p40
+# T2 Protein S3 112 115 334 337 Il6
+# T3 Protein S3 123 128 345 350 Gmcsf
+# T4 Protein S3 140 144 362 366 Ifnb
+$ T1 Protein S3 97 104 319 326 Il12p40
+$ T2 Protein S3 112 115 334 337 Il6
+$ T3 Protein S3 123 128 345 350 Gmcsf
+$ T4 Protein S3 140 144 362 366 Ifnb
+@ T5 Transcription S3 83 93 305 315 expression
+% E1 Transcription:T5 Theme:T1
+% E2 Transcription:T5 Theme:T2
+% E3 Transcription:T5 Theme:T3
+% E4 Transcription:T5 Theme:T4
+
+Bars represent mean +/- SD.
+
+Data are representative of two independent experiments.
+

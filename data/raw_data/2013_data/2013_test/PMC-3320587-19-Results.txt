@@ -1,0 +1,72 @@
+NF-kappaB and NFAT5 binding play independent activating roles in MTb-mediated induction of HIV-1 replication
+# T1 Protein S1 14 19 14 19 NFAT5
+
+We next examined the functional impact of specifically disrupting NF-kappaB or NFAT5 binding on regulation of HIV-1 replication by infecting bulk PBMC from four normal donors with the wild-type or mutant HIV-1Lai/Bal-env molecular clones.
+# T2 Protein S2 79 84 188 193 NFAT5
+# T3 Protein S2 217 220 326 329 env
+
+After overnight infection, cells were co-infected with MTb (CDC1551) or mock-infected and free virus levels were detected by measuring p24 levels in culture supernatants at days 4, 7, and 12 post-HIV-1 infection.
+# T4 Protein S3 135 138 483 486 p24
+
+Replication of each mutant virus was reduced in comparison to wild-type virus in mock- and MTb-co-infected cells at all timepoints examined (Figures 4A-4B).
+
+As depicted in the histograms displayed in Figure 4C, at day 12 post-HIV-1 infection in MTb-co-infected cells there was a significant reduction in levels of HIV-1Lai/Bal-env-kappaB I-Mut, HIV-1Lai/Bal-env-kappaB II-Mut, HIV-1Lai/Bal-env-kappaB I+II-Mut, and HIV-1Lai/Bal-env -N5-Mut in comparison to wild-type virus (Figure 4C).
+# T5 Protein S5 170 173 888 891 env
+# T6 Protein S5 201 204 919 922 env
+# T7 Protein S5 233 236 951 954 env
+# T8 Protein S5 271 274 989 992 env
+
+In the absence of MTb co-infection, p24 levels were also significantly lower in the PBMC cultures infected with HIV-1Lai/Bal-env-kappaB II-Mut, HIV-1Lai/Bal-env-kappaB I+II-Mut and HIV-1Lai/Bal-env-N5-Mut, but not HIV-1Lai/Bal-env-kappaB I-Mut, in comparison to wild-type virus (Figure 4C).
+# T9 Protein S6 36 39 1083 1086 p24
+# T10 Protein S6 125 128 1172 1175 env
+# T11 Protein S6 157 160 1204 1207 env
+# T12 Protein S6 194 197 1241 1244 env
+# T13 Protein S6 227 230 1274 1277 env
+
+None of the mutations completely abolished viral induction by MTb co-infection.
+
+However, the replication of each mutant virus was impaired to a more significant extent in the context of MTb co-infection, consistent with important roles for both NF-kappaB and NFAT5 in MTb-induced HIV-1 replication.
+# T14 Protein S8 179 184 1597 1602 NFAT5
+
+To specifically examine the functional impact of NF-kappaB and NFAT5 binding site usage in MDM, which are efficiently infected by both pathogens, we next isolated MDM from four normal donors and infected these cells with 1000 TCID50 of wild-type HIV-1Lai/Bal-env or with the mutant viral clones HIV-1Lai/Bal-env-kappaB I-Mut, HIV-1Lai/Bal-env-kappaB II-Mut, HIV-1Lai/Bal-env-kappaB I+II-Mut, or HIV-1Lai/Bal-env-N5-Mut.
+# T15 Protein S9 259 262 1896 1899 env
+# T16 Protein S9 308 311 1945 1948 env
+# T17 Protein S9 339 342 1976 1979 env
+# T18 Protein S9 371 374 2008 2011 env
+# T19 Protein S9 408 411 2045 2048 env
+
+After overnight incubation, cell cultures were co-infected with MTb (CDC1551) or left infected with virus alone.
+
+Supernatants were collected at days 4, 7, and 12 post-HIV-1 infection and virus replication was measured.
+
+As shown in Figures 5A and 5C, in the absence of MTb co-infection, replication of mutant viral molecular clones (HIV-1Lai/Bal-env-kappaB I-Mut (p<0.05), HIV-1Lai/Bal-env-kappaB II-Mut (p<0.01), and HIV-1Lai/Bal-env-kappaB I+II-Mut (p<0.01) as well as HIV-1Lai/Bal-env-N5-Mut (p<0.01) were significantly reduced in comparison to the wild-type virus (Figures 5A-5C).
+# T20 Protein S12 126 129 2402 2405 env
+# T21 Protein S12 166 169 2442 2445 env
+# T22 Protein S12 211 214 2487 2490 env
+# T23 Protein S12 264 267 2540 2543 env
+
+When the cultures were co-infected with MTb, p24 levels increased when the cells were infected with either the wild-type or, to lower levels, with the kappaB-I mutant virus (Figure 5B).
+# T24 Protein S13 45 48 2686 2689 p24
+
+However, p24 levels were significantly inhibited in cells infected with HIV-1Lai/Bal-env -N5-Mut (p<0.01) (Figure 5D).
+# T25 Protein S14 9 12 2836 2839 p24
+# T26 Protein S14 85 88 2912 2915 env
+
+Moreover, p24 levels were significantly lower at day 12 in cultures infected with HIV-1Lai/Bal-env-kappaB II-Mut and HIV-1Lai/Bal-env-kappaB I+II-Mut as compared to infection of cells with wild-type virus (Figure 5D).
+# T27 Protein S15 10 13 2956 2959 p24
+# T28 Protein S15 95 98 3041 3044 env
+# T29 Protein S15 130 133 3076 3079 env
+
+Notably, although replication of the mutant virus with the single, proximal NF-kappaB binding site mutation in the shared NFAT5/NF-kappaB element (HIV-1Lai/Bal-env-kappaB I-Mut) was diminished, this was not significant at day 12 (Figures 5B-5D).
+# T30 Protein S16 160 163 3324 3327 env
+
+We note that overall p24 levels were noticeably lower in the cultures co-infected with MTb compared with those infected with HIV-1 alone.
+# T31 Protein S17 21 24 3431 3434 p24
+
+This is consistent with previous observations showing that MTb infection of human primary macrophage cultures ex vivo suppresses HIV-1 infection due to chemokine synthesis and the enhanced expression of cellular inhibitory factors [48]-[50].
+
+Given that NF-kappaB is efficiently activated in primary MDM in response to TLR agonists [51] and as we have shown in Figure 2, NFAT5 gene expression is also induced by TLR agonists, MDM are a suitable experimental system to analyze the effect of NF-kappaB versus NFAT5 binding site mutations on virus replication in isolated MDM in the absence or presence of MTb co-infection.
+# T32 Protein S19 128 133 3918 3923 NFAT5
+
+Taken together, the results from PBMC and MDM co-infection experiments demonstrate that the conserved NFAT5 binding site plays as important a transcriptional role in LTR regulation by MTb as do the NF-kappaB sites.
+

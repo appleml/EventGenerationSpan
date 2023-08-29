@@ -1,0 +1,82 @@
+Low CD3+CD28-induced interleukin-2 production correlates with decreased reactive oxygen intermediate formation in neonatal T cells.
+# T1 Protein S1 8 12 8 12 CD28
+# T2 Protein S1 21 34 21 34 interleukin-2
+$ T1 Protein S1 8 12 8 12 CD28
+$ T2 Protein S1 21 34 21 34 interleukin-2
+@ T18 Positive_regulation S1 13 20 13 20 induced
+@ T19 Gene_expression S1 35 45 35 45 production
+% E1 Positive_regulation:T18 Theme:E2 Cause:T1
+% E2 Gene_expression:T19 Theme:T2
+
+The capacity of neonatal T cells to secrete interleukin-2 (IL-2) has been reported to be variable.
+# T3 Protein S2 44 57 177 190 interleukin-2
+# T4 Protein S2 59 63 192 196 IL-2
+$ T4 Protein S2 59 63 192 196 IL-2
+@ T20 Localization S2 36 43 169 176 secrete
+% E3 Localization:T20 Theme:T4
+
+We analysed IL-2 production in purified neonatal and adult T cells using polyclonal activator phorbol ester + calcium ionophore (PDBu + iono) or receptor-mediated anti-CD3/anti-CD3+ anti-CD28 stimulation.
+# T5 Protein S3 12 16 244 248 IL-2
+# T6 Protein S3 187 191 419 423 CD28
+$ T5 Protein S3 12 16 244 248 IL-2
+@ T21 Gene_expression S3 17 27 249 259 production
+@ T22 Regulation S3 67 72 299 304 using
+% E4 Gene_expression:T21 Theme:T5
+% E5 Regulation:T22 Theme:E4
+
+PDBu + iono induced equally high IL-2 levels in both groups and, when stimulated with plate-bound anti-CD3 monoclonal antibody (mAb), the IL-2 secretion by neonatal cells was undetectable and adult cells produced low amounts of IL-2 (mean 331 +/- 86 pg/ml).
+# T7 Protein S4 33 37 470 474 IL-2
+# T8 Protein S4 138 142 575 579 IL-2
+# T9 Protein S4 228 232 665 669 IL-2
+$ T7 Protein S4 33 37 470 474 IL-2
+$ T8 Protein S4 138 142 575 579 IL-2
+$ T9 Protein S4 228 232 665 669 IL-2
+@ T23 Positive_regulation S4 12 19 449 456 induced
+@ T24 Localization S4 143 152 580 589 secretion
+@ T25 Negative_regulation S4 171 187 608 624 was undetectable
+@ T26 Gene_expression S4 204 212 641 649 produced
+@ T27 Negative_regulation S4 213 224 650 661 low amounts
+% E6 Positive_regulation:T23 Theme:T7
+% E7 Localization:T24 Theme:T8
+% E8 Negative_regulation:T25 Theme:E7
+% E9 Gene_expression:T26 Theme:T9
+% E10 Negative_regulation:T27 Theme:E9
+
+The addition of anti-CD28 mAb to anti-CD3-stimulated cells markedly increased IL-2 production in both cell types, but levels of IL-2 in neonatal T cells remained clearly lower than those of adult T cells (respective mean values: 385 +/- 109 pg/ml and 4494 +/- 1199 pg/ml).
+# T10 Protein S5 21 25 716 720 CD28
+# T11 Protein S5 78 82 773 777 IL-2
+# T12 Protein S5 128 132 823 827 IL-2
+$ T11 Protein S5 78 82 773 777 IL-2
+@ T28 Positive_regulation S5 68 77 763 772 increased
+@ T29 Gene_expression S5 83 93 778 788 production
+% E11 Positive_regulation:T28 Theme:E12
+% E12 Gene_expression:T29 Theme:T11
+
+As NF-kappa B is a critical transcription factor in the control of IL-2 expression, we next analysed its nuclear translocation in neonatal and adult T cells using the electrophoretic mobility shift assay and, because induction of reactive oxygen intermediates (ROI) is required for the activation of NF-kappa B, we also analysed levels of intracellular ROI in these cells using the ROI-reactive fluorochrome DCFH-DA and flow cytometry.
+# T13 Protein S6 67 71 1035 1039 IL-2
+$ T13 Protein S6 67 71 1035 1039 IL-2
+@ T30 Regulation S6 56 63 1024 1031 control
+@ T31 Gene_expression S6 72 82 1040 1050 expression
+% E13 Regulation:T30 Theme:E14
+% E14 Gene_expression:T31 Theme:T13
+
+In neonatal T cells NF-kappa B activation and ROI formation after anti-CD3 stimulation were low compared with adult T cells and, although addition of anti-CD28 mAb increased induction of NF-kappa B and ROI formation, levels similar to those of adults were not achieved.
+# T14 Protein S7 155 159 1559 1563 CD28
+
+After PDBu + iono stimulation, the cells showed similar ROI formation and IL-2 secretion.
+# T15 Protein S8 74 78 1748 1752 IL-2
+$ T15 Protein S8 74 78 1748 1752 IL-2
+@ T32 Localization S8 79 88 1753 1762 secretion
+% E15 Localization:T32 Theme:T15
+
+Our results suggest that reduced IL-2 production by neonatal T cells is specific for anti-CD3 and anti-CD3+ anti-CD28-mediated stimulation and that these activators cannot effectively activate the ROI-NF-kappa B signalling pathway in neonatal T cells.
+# T16 Protein S9 33 37 1797 1801 IL-2
+# T17 Protein S9 113 117 1877 1881 CD28
+$ T16 Protein S9 33 37 1797 1801 IL-2
+@ T33 Negative_regulation S9 25 32 1789 1796 reduced
+@ T34 Gene_expression S9 38 48 1802 1812 production
+@ T35 Regulation S9 72 80 1836 1844 specific
+% E16 Negative_regulation:T33 Theme:E17
+% E17 Gene_expression:T34 Theme:T16
+% E18 Regulation:T35 Theme:E16
+

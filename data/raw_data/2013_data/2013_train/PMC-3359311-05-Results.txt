@@ -1,0 +1,61 @@
+PBMCs from CF patients do not produce increased amounts of IL-1beta upon inflammasome stimulation
+# T1 Protein S1 59 67 59 67 IL-1beta
+$ T1 Protein S1 59 67 59 67 IL-1beta
+@ T9 Gene_expression S1 30 37 30 37 produce
+@ T10 Positive_regulation S1 38 47 38 47 increased
+% E1 Gene_expression:T9 Theme:T1
+% E2 Positive_regulation:T10 Theme:E1
+
+Previous studies have shown that the loss of CFTR results in increased NF-kappaB activity and pro-inflammatory cytokine secretion [4], [5], [32], [36], [37].
+
+To further examine this relationship, PBMCs from CF patients and healthy adult controls were stimulated with PAO1, LPS+ATP, and LPS+Poly(dA:dT), to activate the NLRC4, NLRP3, and AIM2 inflammasomes, respectively.
+
+By 24 hours of stimulation, CF PBMCs did not produce increased amounts of IL-1beta (Fig. 5a) or IL-8 (Fig. 5b) when compared to healthy controls.
+# T2 Protein S4 74 82 543 551 IL-1beta
+$ T2 Protein S4 74 82 543 551 IL-1beta
+@ T11 Gene_expression S4 45 52 514 521 produce
+@ T12 Positive_regulation S4 53 62 522 531 increased
+% E3 Gene_expression:T11 Theme:T2
+% E4 Positive_regulation:T12 Theme:E3
+
+However, we did notice a transient decrease (P<0.001) in the amount of IL-1beta produced by CF cells in response to LPS+ATP at 6 hours (data not shown).
+# T3 Protein S5 71 79 686 694 IL-1beta
+$ T3 Protein S5 71 79 686 694 IL-1beta
+@ T13 Negative_regulation S5 35 43 650 658 decrease
+@ T14 Gene_expression S5 80 88 695 703 produced
+@ T15 Positive_regulation S5 101 115 716 730 in response to
+% E5 Negative_regulation:T13 Theme:E6
+% E6 Gene_expression:T14 Theme:T3
+% E7 Positive_regulation:T15 Theme:E5
+
+Stimulation of PBMCs with P. aeruginosa that lacks exsA (PAO1deltaexsA), a key regulator of type III secretion, produced three-fold less IL-1beta compared to the parental PAO1 strain by 24 hours (Fig. 5a).
+# T4 Protein S6 51 55 819 823 exsA
+# T5 Protein S6 137 145 905 913 IL-1beta
+$ T5 Protein S6 137 145 905 913 IL-1beta
+@ T16 Gene_expression S6 112 120 880 888 produced
+@ T17 Negative_regulation S6 132 136 900 904 less
+% E8 Gene_expression:T16 Theme:T5
+% E9 Negative_regulation:T17 Theme:E8
+
+Inflammasome stimulation without priming did not result in any IL-1beta production in either CF or control PBMCs.
+# T6 Protein S7 63 71 1037 1045 IL-1beta
+$ T6 Protein S7 63 71 1037 1045 IL-1beta
+@ T18 Positive_regulation S7 49 55 1023 1029 result
+@ T19 Gene_expression S7 72 82 1046 1056 production
+% E10 Positive_regulation:T18 Theme:E11
+% E11 Gene_expression:T19 Theme:T6
+
+Contrary to our hypothesis, these results indicate that PBMCs from CF patients do not display increased production of IL-1beta or IL-8 with inflammasome activation nor do they suggest any increased basal or induced NF-kappaB activity.
+# T7 Protein S8 118 126 1206 1214 IL-1beta
+# T8 Protein S8 130 134 1218 1222 IL-8
+$ T7 Protein S8 118 126 1206 1214 IL-1beta
+$ T8 Protein S8 130 134 1218 1222 IL-8
+@ T20 Positive_regulation S8 94 103 1182 1191 increased
+@ T21 Gene_expression S8 104 114 1192 1202 production
+% E12 Positive_regulation:T20 Theme:E13
+% E14 Positive_regulation:T20 Theme:E15
+% E13 Gene_expression:T21 Theme:T7
+% E15 Gene_expression:T21 Theme:T8
+
+These results are consistent with our observation that caspase-1 activity is not different between CF and control PBMCs (Fig. 4).
+

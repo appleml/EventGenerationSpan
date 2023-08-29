@@ -1,0 +1,34 @@
+Flow cytometric analysis of Foxp3 protein expression.
+# T1 Protein S1 28 33 28 33 Foxp3
+$ T1 Protein S1 28 33 28 33 Foxp3
+@ T8 Gene_expression S1 42 52 42 52 expression
+% E1 Gene_expression:T8 Theme:T1
+
+Cryopreserved PBMCs from HAM/TSP patients or HTLV-I-infected ACs were thawed and washed with FACS buffer (1x PBS, 0.1% NaN3, 5% FBS).
+
+Cells (1.5 x 106) were fixed by sequential formaldehyde/methanol fixation as follows.
+
+Cells were carefully resuspended in FACS buffer and fixed with 100 mul of reagent A (Fix & Perm kit; Caltag Laboratories, Burlingame, California, United States) at room temperature for 3 min followed by 2 ml of 70% methanol for 5 min at 4 degreesC.
+
+Cells were washed twice and permeabilized with 100 mul of reagent B (Fix & Perm kit) and stained for intracellular Foxp3 with mouse anti-human Foxp3 monoclonal antibody (0.5 mug of ab22510; Abcam) or the appropriate isotype control for 30 min.
+# T2 Protein S5 115 120 638 643 Foxp3
+# T3 Protein S5 143 148 666 671 Foxp3
+
+Cells were washed twice and stained with Cy5-conjugated goat anti-mouse immunoglobulin F(ab')2 secondary antibody (Caltag Laboratories) for an additional 30 min.
+
+Cells were washed twice and stained for surface CD4 expression with PE-labeled anti-CD4 (BD) and CD25 expression with FITC-labeled anti-CD25 (BD).
+# T4 Protein S7 48 51 977 980 CD4
+# T5 Protein S7 84 87 1013 1016 CD4
+# T6 Protein S7 97 101 1026 1030 CD25
+# T7 Protein S7 136 140 1065 1069 CD25
+$ T4 Protein S7 48 51 977 980 CD4
+$ T6 Protein S7 97 101 1026 1030 CD25
+@ T9 Gene_expression S7 52 62 981 991 expression
+@ T10 Gene_expression S7 102 112 1031 1041 expression
+% E2 Gene_expression:T9 Theme:T4
+% E3 Gene_expression:T10 Theme:T6
+
+Cells were washed twice and analyzed on a FACSCalibur (BD).
+
+Data analysis was performed using FlowJo (Tree Star, Ashland, Oregon, United States).
+

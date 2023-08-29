@@ -1,0 +1,49 @@
+CD40, but not lipopolysaccharide and anti-IgM stimulation of primary B lymphocytes, leads to a persistent nuclear accumulation of RelB.
+# T1 Protein S1 0 4 0 4 CD40
+# T2 Protein S1 42 45 42 45 IgM
+# T3 Protein S1 130 134 130 134 RelB
+
+In this study we analyzed the effect of CD40 stimulation on the activity and nuclear appearance of Rel/nuclear factor kappaB (NF-kappaB) factors in primary murine B lymphocytes.
+# T4 Protein S2 40 44 177 181 CD40
+
+We show that triggering of CD40 signaling pathway(s) by CD40 ligands expressed on L cells led to strong activation of an NF-kappaB-controlled beta-globin reporter gene in primary B lymphocytes from transgenic mice.
+# T5 Protein S3 27 31 342 346 CD40
+# T6 Protein S3 56 60 371 375 CD40
+# T7 Protein S3 142 153 457 468 beta-globin
+
+Analyses of nuclear translocation of individual members of Rel proteins after CD40 induction of primary B cells showed a strong and long-lasting accumulation of RelB and, less pronounced, of c-Rel.
+# T8 Protein S4 78 82 608 612 CD40
+# T9 Protein S4 161 165 691 695 RelB
+# T10 Protein S4 191 196 721 726 c-Rel
+
+LPS stimulation did not give rise to a persistent nuclear accumulation of RelB and c-Rel, whereas nuclear c-Rel, but not RelB, accumulated after B cell receptor stimulation.
+# T11 Protein S5 74 78 802 806 RelB
+# T12 Protein S5 83 88 811 816 c-Rel
+# T13 Protein S5 106 111 834 839 c-Rel
+# T14 Protein S5 121 125 849 853 RelB
+
+CD40 induced not only nuclear translocation but also de novo synthesis of RelB RNA and protein.
+# T15 Protein S6 0 4 902 906 CD40
+# T16 Protein S6 74 78 976 980 RelB
+
+S107 plasmacytoma cells, which express CD40 but are defective for the nuclear appearance of p50/p65-NF-kappaB, do not express RelB after CD40 stimulation.
+# T17 Protein S7 39 43 1037 1041 CD40
+# T18 Protein S7 92 95 1090 1093 p50
+# T19 Protein S7 96 99 1094 1097 p65
+# T20 Protein S7 126 130 1124 1128 RelB
+# T21 Protein S7 137 141 1135 1139 CD40
+
+In S107 cells stably transfected with relB genes, stimulation of nuclear RelB translocation by CD40 was observed.
+# T22 Protein S8 38 42 1191 1195 relB
+# T23 Protein S8 73 77 1226 1230 RelB
+# T24 Protein S8 95 99 1248 1252 CD40
+
+These results indicate that stimulation of CD40 signaling pathways exerts a long-lasting stimulatory effect on both the transcription and nuclear translocation of RelB.
+# T25 Protein S9 43 47 1310 1314 CD40
+# T26 Protein S9 163 167 1430 1434 RelB
+
+Since LPS and anti-IgM were unable to activate RelB, CD40 appears to trigger a special program of gene expression involved in the proliferation and/or differentiation of B lymphocytes.
+# T27 Protein S10 19 22 1455 1458 IgM
+# T28 Protein S10 47 51 1483 1487 RelB
+# T29 Protein S10 53 57 1489 1493 CD40
+

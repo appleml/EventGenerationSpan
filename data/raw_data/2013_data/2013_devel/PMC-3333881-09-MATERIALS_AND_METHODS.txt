@@ -1,0 +1,27 @@
+Real-time PCR
+
+Total RNA was extracted from cells by using the TRIzol reagent (Invitrogen); RNA aliquots (200 ng) were reverse transcribed using Random Examers (Roche) and Superscript III Reverse Transcriptase (Invitrogen), according to the manufacturer's protocol.
+
+Real-time PCR was performed with the iQ Green Super mix (Bio-Rad Laboratories) and carried out with the iCycler iQ Real-Time detection system (Bio-Rad Laboratories) under the following conditions: 95degreesC, 1 min; (94degreesC, 10 s; 60degreesC, 30 s) x40.
+
+Primers for Tat and MIP-1alpha are listed in Supplementary Data.
+# T1 Protein S4 12 15 535 538 Tat
+# T2 Protein S4 20 30 543 553 MIP-1alpha
+
+Real-time PCR of CSF3, LTA, NFKBIA, TLR2, GAPDH and ACTB was performed using the RT2 profiler PCR Array-Human NF-kappaB signaling pathway (QIAGEN Sciences, MD, USA).
+# T3 Protein S5 17 21 605 609 CSF3
+# T4 Protein S5 23 26 611 614 LTA
+# T5 Protein S5 28 34 616 622 NFKBIA
+# T6 Protein S5 36 40 624 628 TLR2
+# T7 Protein S5 42 47 630 635 GAPDH
+# T8 Protein S5 52 56 640 644 ACTB
+
+Reactions were carried out in triplicate, and gene expression levels were calculated relative to GAPDH mRNA levels as endogenous control.
+# T9 Protein S6 97 102 851 856 GAPDH
+$ T9 Protein S6 97 102 851 856 GAPDH
+@ T11 Transcription S6 108 114 862 868 levels
+% E1 Transcription:T11 Theme:T9
+
+Relative expression was calculated as 2(Ct gene under investigation - Ct GAPDH).
+# T10 Protein S7 73 78 965 970 GAPDH
+

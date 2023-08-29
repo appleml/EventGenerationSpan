@@ -1,0 +1,71 @@
+Calcineurin activates transcription from the GM-CSF promoter in synergy with either protein kinase C or NF-kappa B/AP-1 in T cells.
+# T1 Protein S1 45 51 45 51 GM-CSF
+$ T1 Protein S1 45 51 45 51 GM-CSF
+@ T15 Positive_regulation S1 12 21 12 21 activates
+@ T16 Transcription S1 22 35 22 35 transcription
+% E1 Positive_regulation:T15 Theme:E2
+% E2 Transcription:T16 Theme:T1
+
+Two cis-acting elements GM-kappa B/GC-box and CLE0, of the granulocyte-macrophage colony-stimulating factor (GM-CSF) gene are required for maximal induction in Jurkat T cells by costimulation with phorbol-12-myristate acetate (PMA) and Ca2+ ionophore (A23187).
+# T2 Protein S2 59 107 192 240 granulocyte-macrophage colony-stimulating factor
+# T3 Protein S2 109 115 242 248 GM-CSF
+$ T3 Protein S2 109 115 242 248 GM-CSF
+@ T17 Entity S2 24 41 157 174 GM-kappa B/GC-box
+@ T18 Entity S2 46 50 179 183 CLE0
+@ T19 Regulation S2 126 134 259 267 required
+@ T20 Positive_regulation S2 147 156 280 289 induction
+% E3 Regulation:T19 Theme:E5 Cause:T3 CSite:T18
+% E4 Regulation:T19 Theme:E5 Cause:T3 CSite:T17
+% E5 Positive_regulation:T20 Theme:T3
+
+The GM-kappa B sequence is recognized by NF-kappa B, which is mainly induced by PMA.
+
+The CLE0 sequence interacts with factors, related to a PMA-induced AP-1 and a PMA/A23187-induced NF-AT.
+
+We examined whether signal transducing components in T cells can activate transcription of the GM-CSF gene.
+# T4 Protein S5 95 101 678 684 GM-CSF
+$ T4 Protein S5 95 101 678 684 GM-CSF
+@ T21 Positive_regulation S5 65 73 648 656 activate
+@ T22 Transcription S5 74 87 657 670 transcription
+% E6 Positive_regulation:T21 Theme:E7
+% E7 Transcription:T22 Theme:T4
+
+Cotransfection of NF-kappa B (p50/p65)- or AP-1 (c-Jun/c-Fos)- expression vectors into Jurkat cells with a luciferase reporter containing the GM-CSF promoter did not stimulate transcription from the GM-CSF promoter.
+# T5 Protein S6 30 33 721 724 p50
+# T6 Protein S6 34 37 725 728 p65
+# T7 Protein S6 49 54 740 745 c-Jun
+# T8 Protein S6 55 60 746 751 c-Fos
+# T9 Protein S6 142 148 833 839 GM-CSF
+# T10 Protein S6 199 205 890 896 GM-CSF
+$ T7 Protein S6 49 54 740 745 c-Jun
+$ T6 Protein S6 34 37 725 728 p65
+$ T5 Protein S6 30 33 721 724 p50
+$ T8 Protein S6 55 60 746 751 c-Fos
+@ T23 Gene_expression S6 0 14 691 705 Cotransfection
+@ T24 Positive_regulation S6 0 14 691 705 Cotransfection
+% E8 Gene_expression:T23 Theme:T7
+% E10 Gene_expression:T23 Theme:T6
+% E11 Gene_expression:T23 Theme:T5
+% E14 Gene_expression:T23 Theme:T8
+% E9 Positive_regulation:T24 Theme:E10
+% E12 Positive_regulation:T24 Theme:E14
+% E13 Positive_regulation:T24 Theme:E8
+% E15 Positive_regulation:T24 Theme:E11
+
+In contrast, cotransfection with a combination of NF-kappa B and AP-1 significantly augmented transcription from the GM-CSF promoter containing the GM-kappa B/GC-box and the CLE0 (AP-1/NF-AT).
+# T11 Protein S7 117 123 1024 1030 GM-CSF
+
+Expression of a constitutively active calcineurin (CN), a Ca2+/calmodulin-dependent protein phosphatase, potentiated by two fold the transcriptional activation by NF-kappa B/AP-1.
+# T12 Protein S8 58 103 1158 1203 Ca2+/calmodulin-dependent protein phosphatase
+
+Both constitutively active forms of CN and protein kinase C (PKC) synergistically activated transcription from the GM-CSF promoter.
+# T13 Protein S9 115 121 1395 1401 GM-CSF
+
+These results suggest that cooperation among NF-kappa B-, AP-1- and NF-AT-binding sequences is required for induction of the GM-CSF gene through PKC- and Ca2+- signaling pathways downstream of T cell activation.
+# T14 Protein S10 125 131 1537 1543 GM-CSF
+$ T14 Protein S10 125 131 1537 1543 GM-CSF
+@ T25 Positive_regulation S10 95 103 1507 1515 required
+@ T26 Positive_regulation S10 108 117 1520 1529 induction
+% E16 Positive_regulation:T25 Theme:E17
+% E17 Positive_regulation:T26 Theme:T14
+

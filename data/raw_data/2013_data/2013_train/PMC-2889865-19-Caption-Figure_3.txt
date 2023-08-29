@@ -1,0 +1,22 @@
+CXCL8, IL-6 and TNF expression following long-term stimulation with PMA.
+# T1 Protein S1 0 5 0 5 CXCL8
+# T2 Protein S1 7 11 7 11 IL-6
+$ T1 Protein S1 0 5 0 5 CXCL8
+$ T2 Protein S1 7 11 7 11 IL-6
+@ T5 Gene_expression S1 20 30 20 30 expression
+@ T6 Positive_regulation S1 31 40 31 40 following
+% E1 Gene_expression:T5 Theme:T1
+% E2 Gene_expression:T5 Theme:T2
+% E3 Positive_regulation:T6 Theme:E1
+% E4 Positive_regulation:T6 Theme:E2
+
+Jurkat T-cells were either treated with media (white bars) or stimulated with PMA (black bars) and incubated for 1 h, 2 h, 6 h and 24 h. Aged media was added following each centrifugation step representative to the stimulation time (see Materials and methods).
+
+Cytokine levels (A) CXCL8, (B) IL-6 and (C) TNF were detected by ELISA.
+# T3 Protein S3 20 25 354 359 CXCL8
+# T4 Protein S3 31 35 365 369 IL-6
+
+Statistical significance from the control was determined using Student's t-test.
+
+(n = 3).
+

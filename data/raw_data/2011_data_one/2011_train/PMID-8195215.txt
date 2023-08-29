@@ -1,0 +1,86 @@
+An intricate arrangement of binding sites for the Ets family of transcription factors regulates activity of the alpha 4 integrin gene promoter.
+# T1 Protein S1 112 128 112 128 alpha 4 integrin
+$ T1 Protein S1 112 128 112 128 alpha 4 integrin
+@ T13 Regulation S1 86 95 86 95 regulates
+@ T14 Entity S1 134 142 134 142 promoter
+% E1 Regulation:T13 Theme:T1 Site:T14
+
+alpha 4 integrins mediate cell-cell and cell-extracellular matrix interactions that are critical for maturation and function of the immune system as well as differentiation of skeletal muscle.
+# T2 Protein S2 0 17 145 162 alpha 4 integrins
+
+Here we examine molecular mechanisms controlling the pattern of alpha 4 expression.
+# T3 Protein S3 64 71 402 409 alpha 4
+@ T15 Regulation S3 37 48 375 386 controlling
+@ T16 Gene_expression S3 72 82 410 420 expression
+% E2 Regulation:T15 Theme:E3
+% E3 Gene_expression:T16 Theme:T2
+
+The activity of constructs containing 5' deletion mutants of the alpha 4 gene promoter was compared in transfection assays into cell lines that express alpha 4 and cell lines that do not.
+# T4 Protein S4 65 72 487 494 alpha 4
+# T5 Protein S4 152 159 574 581 alpha 4
+@ T17 Entity S4 78 86 500 508 promoter
+@ T18 Gene_expression S4 144 151 566 573 express
+% E4 Gene_expression:T18 Theme:T2
+
+The sequence between position -42 and -76 base pairs (bp) was required for efficient transcription in cells that express alpha 4, but it showed no activity in HeLa cells, which do not express alpha 4.
+# T6 Protein S5 121 128 731 738 alpha 4
+# T7 Protein S5 192 199 802 809 alpha 4
+@ T19 Positive_regulation S5 62 70 672 680 required
+@ T20 Transcription S5 85 98 695 708 transcription
+@ T21 Gene_expression S5 113 120 723 730 express
+@ T22 Positive_regulation S5 147 155 757 765 activity
+@ T23 Gene_expression S5 184 191 794 801 express
+% E5 Positive_regulation:T19 Theme:E6
+% E6 Transcription:T20 Theme:T2
+% E7 Gene_expression:T21 Theme:T2
+% E8 Positive_regulation:T22 Theme:E6
+% E9 Gene_expression:T23 Theme:T2
+
+Three binding sites for the Ets family of transcription factors are found in this region: two adjacent sites at positions -50 and -54 bp and a more 5' site at position -67 bp.
+
+Using a series of constructs containing deletions and mutations in this region, we found that the 3'-most site alone was sufficient for binding GA-binding protein alpha (GABP alpha)/GABP beta and for a low level of transcriptional activation.
+# T8 Protein S7 144 168 1131 1155 GA-binding protein alpha
+# T9 Protein S7 170 180 1157 1167 GABP alpha
+$ T8 Protein S7 144 168 1131 1155 GA-binding protein alpha
+@ T24 Positive_regulation S7 121 131 1108 1118 sufficient
+@ T25 Binding S7 136 143 1108 1130 binding
+@ T26 Positive_regulation S7 215 241 1202 1228 transcriptional activation
+% E10 Positive_regulation:T24 Theme:E12
+% E11 Binding:T25 Theme:T8
+% E12 Positive_regulation:T26 Theme:T4 Site:T17
+
+When all three sites were present, a second complex "a" was detected, which contains an unknown member of the Ets family.
+
+Formation of complex a was cell-type specific and correlated with a high level of transcription.
+@ T27 Positive_regulation S9 68 78 1420 1430 high level
+@ T28 Transcription S9 82 95 1434 1447 transcription
+% E13 Positive_regulation:T27 Theme:E14
+% E14 Transcription:T28 Theme:T2
+
+Deletion of the 5'-most Ets site had no effect on binding to GABP alpha/GABP beta, but it eliminated a. Concomitant with this loss of a, a new Ets-1-containing complex "c" appeared.
+# T10 Protein S10 61 71 1510 1520 GABP alpha
+$ T10 Protein S10 61 71 1510 1520 GABP alpha
+@ T29 Regulation S10 40 46 1489 1495 effect
+@ T30 Binding S10 50 57 1499 1506 binding
+% E15 Regulation:T29 Theme:E16
+% E16 Binding:T30 Theme:T10
+
+Complex c substituted efficiently for complex a in transcriptional activation.
+@ T31 Positive_regulation S11 48 77 1679 1708 in transcriptional activation
+% E17 Positive_regulation:T31 Theme:T2
+
+We conclude that although neither of the two 5'-most Ets sites alone binds nuclear protein, they appear to act as modulators which control the pattern of Ets proteins that bind the alpha 4 gene promoter.
+# T11 Protein S12 181 188 1891 1898 alpha 4
+$ T11 Protein S12 181 188 1891 1898 alpha 4
+@ T32 Binding S12 172 176 1882 1886 bind
+@ T33 Entity S12 194 202 1904 1912 promoter
+% E18 Binding:T32 Theme:T11 Site:T33
+
+This arrangement of Ets sites, coupled with the tissue- and developmental-specific expression of Ets members, likely play a key role in defining the pattern of alpha 4 integrin.
+# T12 Protein S13 160 176 2074 2090 alpha 4 integrin
+$ T12 Protein S13 160 176 2074 2090 alpha 4 integrin
+@ T34 Regulation S13 117 144 2031 2058 play a key role in defining
+@ T35 Gene_expression S13 149 156 2063 2070 pattern
+% E19 Regulation:T34 Theme:E20
+% E20 Gene_expression:T35 Theme:T12
+

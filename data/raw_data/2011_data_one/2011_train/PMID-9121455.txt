@@ -1,0 +1,67 @@
+Control of NFATx1 nuclear translocation by a calcineurin-regulated inhibitory domain.
+# T1 Protein S1 11 17 11 17 NFATx1
+$ T1 Protein S1 11 17 11 17 NFATx1
+@ T9 Regulation S1 0 7 0 7 Control
+@ T10 Entity S1 18 25 18 25 nuclear
+@ T11 Localization S1 26 39 26 39 translocation
+% E1 Regulation:T9 Theme:E2
+% E2 Localization:T11 Theme:T1 ToLoc:T10
+
+The nuclear factor of activated T cells (NFAT) regulates cytokine gene expression in T cells through cis-acting elements located in the promoters of several cytokine genes.
+
+NFATx1, which is preferentially expressed in the thymus and peripheral blood leukocytes, is one of four members of the NFAT family of transcription factors.
+# T2 Protein S3 0 6 260 266 NFATx1
+$ T2 Protein S3 0 6 260 266 NFATx1
+@ T12 Gene_expression S3 32 41 292 301 expressed
+% E3 Gene_expression:T12 Theme:T2
+
+We have performed domain analysis of NFATx1 by examining the effects of deletion mutations.
+# T3 Protein S4 37 43 454 460 NFATx1
+
+We found that NFATx1 DNA binding activity and interaction with AP-1 polypeptides were dependent on its central Rel similarity region and that transcriptional activation was reduced by deletions of either its N-terminal domain or its C-terminal domain, suggesting the presence of intrinsic transcriptional activation motifs in both regions.
+# T4 Protein S5 14 20 523 529 NFATx1
+$ T4 Protein S5 14 20 523 529 NFATx1
+@ T13 Binding S5 25 32 534 541 binding
+@ T14 Positive_regulation S5 86 95 595 604 dependent
+@ T15 Positive_regulation S5 142 168 651 677 transcriptional activation
+@ T16 Negative_regulation S5 173 180 682 689 reduced
+% E4 Binding:T13 Theme:T4
+% E5 Positive_regulation:T14 Theme:E4
+% E6 Positive_regulation:T15 Theme:T4
+% E7 Negative_regulation:T16 Theme:E6
+
+We also identified a potent inhibitory sequence within its N-terminal domain.
+
+We show that the inactivation of the inhibition was dependent on the activity of calcineurin, a calcium-calmodulin-dependent phosphatase.
+
+We also show that calcineurin associated with the N-terminal domain of NFATx1 at multiple docking sites and caused a reduction of size, indicative of dephosphorylation, in NFATx1.
+# T5 Protein S8 71 77 1136 1142 NFATx1
+# T6 Protein S8 172 178 1237 1243 NFATx1
+$ T5 Protein S8 71 77 1136 1142 NFATx1
+@ T17 Binding S8 30 40 1095 1105 associated
+% E8 Binding:T17 Theme:T5
+
+We have mapped the inhibitory activity to less than 60 residues, containing motifs that are conserved in all NFAT proteins.
+
+Finally, we demonstrate that deletion in NFATx1 of the mapped 60 residues leads to its nuclear translocation independent of calcium signaling.
+# T7 Protein S10 41 47 1410 1416 NFATx1
+$ T7 Protein S10 41 47 1410 1416 NFATx1
+@ T18 Positive_regulation S10 74 79 1443 1448 leads
+@ T19 Entity S10 87 94 1456 1463 nuclear
+@ T20 Localization S10 95 108 1464 1477 translocation
+@ T21 Positive_regulation S10 109 120 1478 1489 independent
+% E9 Positive_regulation:T18 Theme:E10
+% E10 Localization:T20 Theme:T7 ToLoc:T19
+% E11 Positive_regulation:T21 Theme:E10
+
+Our results support the model proposing that the N-terminal domain confers calcium-signaling dependence on NFATx1 transactivation activity by regulating its intracellular localization through a protein module that associates with calcineurin and is a target of its phosphatase activity.
+# T8 Protein S11 107 113 1619 1625 NFATx1
+$ T8 Protein S11 107 113 1619 1625 NFATx1
+@ T22 Regulation S11 142 152 1654 1664 regulating
+@ T23 Entity S11 157 170 1669 1682 intracellular
+@ T24 Localization S11 171 183 1683 1695 localization
+@ T25 Regulation S11 184 191 1696 1703 through
+% E12 Regulation:T22 Theme:E13
+% E13 Localization:T24 Theme:T8 AtLoc:T23
+% E14 Regulation:T25 Theme:E12
+

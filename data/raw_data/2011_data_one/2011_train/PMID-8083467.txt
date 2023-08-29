@@ -1,0 +1,128 @@
+Signals and nuclear factors that regulate the expression of interleukin-4 and interleukin-5 genes in helper T cells.
+# T1 Protein S1 60 73 60 73 interleukin-4
+# T2 Protein S1 78 91 78 91 interleukin-5
+$ T2 Protein S1 78 91 78 91 interleukin-5
+$ T1 Protein S1 60 73 60 73 interleukin-4
+@ T23 Regulation S1 33 41 33 41 regulate
+@ T24 Gene_expression S1 46 56 46 56 expression
+% E1 Regulation:T23 Theme:E4
+% E2 Regulation:T23 Theme:E3
+% E3 Gene_expression:T24 Theme:T2
+% E4 Gene_expression:T24 Theme:T1
+
+Mouse thymoma line EL-4 cells produce cytokines such as interleukin (IL)-2, IL-3, IL-4, IL-10, and granulocyte-macrophage colony-stimulating factor in response to phorbol 12-myristate 13-acetate (PMA).
+# T3 Protein S2 56 74 174 192 interleukin (IL)-2
+# T4 Protein S2 76 80 194 198 IL-3
+# T5 Protein S2 82 86 200 204 IL-4
+# T6 Protein S2 88 93 206 211 IL-10
+# T7 Protein S2 99 147 217 265 granulocyte-macrophage colony-stimulating factor
+$ T3 Protein S2 56 74 174 192 interleukin (IL)-2
+$ T4 Protein S2 76 80 194 198 IL-3
+$ T6 Protein S2 88 93 206 211 IL-10
+$ T7 Protein S2 99 147 217 265 granulocyte-macrophage colony-stimulating factor
+$ T5 Protein S2 82 86 200 204 IL-4
+@ T25 Gene_expression S2 30 37 148 155 produce
+@ T26 Positive_regulation S2 148 159 266 277 in response
+% E5 Gene_expression:T25 Theme:T3
+% E6 Gene_expression:T25 Theme:T4
+% E7 Gene_expression:T25 Theme:T6
+% E8 Gene_expression:T25 Theme:T7
+% E9 Gene_expression:T25 Theme:T5
+% E10 Positive_regulation:T26 Theme:E6
+% E11 Positive_regulation:T26 Theme:E8
+% E12 Positive_regulation:T26 Theme:E5
+% E13 Positive_regulation:T26 Theme:E7
+% E14 Positive_regulation:T26 Theme:E9
+
+EL-4 cells also produce low levels of IL-5 when stimulated by PMA alone; however, cAMP greatly augments PMA-dependent IL-5 production.
+# T8 Protein S3 38 42 358 362 IL-5
+# T9 Protein S3 118 122 438 442 IL-5
+$ T8 Protein S3 38 42 358 362 IL-5
+$ T9 Protein S3 118 122 438 442 IL-5
+@ T27 Gene_expression S3 16 23 336 343 produce
+@ T28 Positive_regulation S3 43 47 363 367 when
+@ T29 Positive_regulation S3 95 103 415 423 augments
+@ T30 Positive_regulation S3 108 117 428 437 dependent
+@ T31 Gene_expression S3 123 133 443 453 production
+% E15 Gene_expression:T27 Theme:T8
+% E16 Positive_regulation:T28 Theme:E15
+% E17 Positive_regulation:T29 Theme:E18
+% E18 Positive_regulation:T30 Theme:E19
+% E19 Gene_expression:T31 Theme:T9
+
+A transient transfection assay revealed that two signals, PMA and cAMP, are required for optimal activation of the IL-5 promoter.
+# T10 Protein S4 115 119 570 574 IL-5
+$ T10 Protein S4 115 119 570 574 IL-5
+@ T32 Positive_regulation S4 76 84 531 539 required
+@ T33 Positive_regulation S4 97 107 552 562 activation
+@ T34 Entity S4 120 128 575 583 promoter
+% E20 Positive_regulation:T32 Theme:E21
+% E21 Positive_regulation:T33 Theme:T10 Site:T34
+
+In contrast, cAMP almost completely inhibited the PMA-dependent activation of the endogenous IL-2 gene, as well as the transfected IL-2 promoter.
+# T11 Protein S5 93 97 678 682 IL-2
+# T12 Protein S5 131 135 716 720 IL-2
+$ T11 Protein S5 93 97 678 682 IL-2
+$ T12 Protein S5 131 135 716 720 IL-2
+@ T35 Negative_regulation S5 36 45 621 630 inhibited
+@ T36 Positive_regulation S5 64 74 649 659 activation
+@ T37 Entity S5 136 144 721 729 promoter
+% E22 Negative_regulation:T35 Theme:E24
+% E23 Negative_regulation:T35 Theme:E25
+% E24 Positive_regulation:T36 Theme:T11
+% E25 Positive_regulation:T36 Theme:T12 Site:T37
+
+These results indicate that the IL-5 gene is positively regulated by cAMP in a manner opposite to that for the IL-2 gene.
+# T13 Protein S6 32 36 763 767 IL-5
+# T14 Protein S6 111 115 842 846 IL-2
+$ T13 Protein S6 32 36 763 767 IL-5
+$ T14 Protein S6 111 115 842 846 IL-2
+@ T38 Positive_regulation S6 45 65 776 796 positively regulated
+@ T39 Negative_regulation S6 86 94 817 825 opposite
+% E26 Positive_regulation:T38 Theme:T13
+% E27 Negative_regulation:T39 Theme:T14
+
+One of the nuclear factors (NFs) that regulates the response of the IL-5 promoter to cAMP and PMA has properties similar to NF for activated t cell.
+# T15 Protein S7 68 72 921 925 IL-5
+$ T15 Protein S7 68 72 921 925 IL-5
+@ T40 Regulation S7 38 47 891 900 regulates
+@ T41 Regulation S7 52 60 905 913 response
+@ T42 Entity S7 73 81 926 934 promoter
+% E28 Regulation:T40 Theme:E29
+% E29 Regulation:T41 Theme:T15 Site:T42
+
+The P sequence of the IL-4 gene, defined as a responsive element for PMA and calcium ionophore (A23187), shares sequence similarity with the NF kappa B and the NF-activated T cell binding sites.
+# T16 Protein S8 22 26 1024 1028 IL-4
+$ T16 Protein S8 22 26 1024 1028 IL-4
+@ T43 Entity S8 4 14 1006 1016 P sequence
+@ T44 Regulation S8 33 64 1035 1066 defined as a responsive element
+% E30 Regulation:T44 Theme:T16 Site:T43
+
+We attempted to determine whether NF(P), a nuclear factor specific for the P sequence, is related to NF-kappa B and nuclear factor for activated T cell (NF-AT).
+
+In electromobility shift assays both NF-kappa B (P65 or P65/P50 heterodimer) and NF-AT bound to the P sequence.
+# T17 Protein S10 49 52 1407 1410 P65
+# T18 Protein S10 56 59 1414 1417 P65
+# T19 Protein S10 60 63 1418 1421 P50
+$ T17 Protein S10 49 52 1407 1410 P65
+$ T19 Protein S10 60 63 1418 1421 P50
+$ T18 Protein S10 56 59 1414 1417 P65
+@ T45 Binding S10 87 92 1445 1450 bound
+% E31 Binding:T45 Theme:T17
+% E32 Binding:T45 Theme:T19
+% E33 Binding:T45 Theme:T18
+
+However, sequence specificity of NF-AT was more similar to that of NF(P), and only a small amount of P65 was detected in NF(P).
+# T20 Protein S11 101 104 1571 1574 P65
+
+These results indicate that a component or components of NF-AT have the potential to reconstitute NF(P), whereas NF-kappa B alone does not account for NF(P) in Jurkat crude extract.
+
+Taken together, these results suggest that NF-AT-like factors are involved in the regulation of IL-4 and IL-5 genes.
+# T21 Protein S13 96 100 1876 1880 IL-4
+# T22 Protein S13 105 109 1885 1889 IL-5
+$ T22 Protein S13 105 109 1885 1889 IL-5
+$ T21 Protein S13 96 100 1876 1880 IL-4
+@ T46 Regulation S13 82 92 1862 1872 regulation
+% E34 Regulation:T46 Theme:T22
+% E35 Regulation:T46 Theme:T21
+

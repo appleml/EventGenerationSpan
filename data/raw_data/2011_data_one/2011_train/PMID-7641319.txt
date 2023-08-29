@@ -1,0 +1,81 @@
+Characterization of 5' end of human thromboxane receptor gene.
+# T1 Protein S1 36 56 36 56 thromboxane receptor
+
+Organizational analysis and mapping of protein kinase C--responsive elements regulating expression in platelets.
+@ T19 Regulation S2 77 87 140 150 regulating
+@ T20 Gene_expression S2 88 98 151 161 expression
+% E1 Regulation:T19 Theme:E2
+% E2 Gene_expression:T20 Theme:T1
+
+Platelet thromboxane receptors are acutely and reversibly upregulated after acute myocardial infarction.
+# T2 Protein S3 9 30 186 207 thromboxane receptors
+$ T2 Protein S3 9 30 186 207 thromboxane receptors
+@ T21 Positive_regulation S3 58 69 235 246 upregulated
+% E3 Positive_regulation:T21 Theme:T2
+
+To determine if platelet thromboxane receptors are under transcriptional control, we isolated and characterized human genomic DNA clones containing the 5' flanking region of the thromboxane receptor gene.
+# T3 Protein S4 25 46 307 328 thromboxane receptors
+# T4 Protein S4 178 198 460 480 thromboxane receptor
+$ T3 Protein S4 25 46 307 328 thromboxane receptors
+@ T22 Regulation S4 51 80 333 362 under transcriptional control
+% E4 Regulation:T22 Theme:T3
+
+The exon-intron structure of the 5' portion of the thromboxane receptor gene was determined initially by comparing the nucleotide sequence of the 5' flanking genomic clone with that of a novel human uterine thromboxane receptor cDNA that extended the mRNA 141 bp further upstream than the previously identified human placental cDNA.
+# T5 Protein S5 51 71 538 558 thromboxane receptor
+# T6 Protein S5 207 227 694 714 thromboxane receptor
+$ T6 Protein S5 207 227 694 714 thromboxane receptor
+@ T23 Transcription S5 251 255 738 742 mRNA
+% E5 Transcription:T23 Theme:T6
+
+A major transcription initiation site was located in three human tissues approximately 560 bp upstream from the translation initiation codon and 380 bp upstream from any previously identified transcription initiation site.
+
+The thromboxane receptor gene has neither a TATA nor a CAAT consensus site.
+# T7 Protein S7 4 24 1047 1067 thromboxane receptor
+
+Promoter function of the 5' flanking region of the thromboxane receptor gene was evaluated by transfection of thromboxane receptor gene promoter/chloramphenicol acetyltransferase (CAT) chimera plasmids into platelet-like K562 cells.
+# T8 Protein S8 51 71 1170 1190 thromboxane receptor
+# T9 Protein S8 110 130 1229 1249 thromboxane receptor
+# T10 Protein S8 145 178 1264 1297 chloramphenicol acetyltransferase
+# T11 Protein S8 180 183 1299 1302 CAT
+$ T8 Protein S8 51 71 1170 1190 thromboxane receptor
+@ T24 Positive_regulation S8 0 17 1119 1136 Promoter function
+@ T25 Entity S8 25 43 1144 1162 5' flanking region
+% E6 Positive_regulation:T24 Theme:T8 Site:T25
+
+Thromboxane receptor promoter activity, as assessed by CAT expression, was relatively weak but was significantly enhanced by phorbol ester treatment.
+# T12 Protein S9 0 20 1352 1372 Thromboxane receptor
+# T13 Protein S9 55 58 1407 1410 CAT
+$ T13 Protein S9 55 58 1407 1410 CAT
+$ T12 Protein S9 0 20 1352 1372 Thromboxane receptor
+@ T26 Entity S9 21 29 1373 1381 promoter
+@ T27 Gene_expression S9 59 69 1411 1421 expression
+@ T28 Positive_regulation S9 113 121 1465 1473 enhanced
+% E7 Gene_expression:T27 Theme:T13
+% E8 Positive_regulation:T28 Theme:T12 Site:T26
+
+Functional analysis of 5' deletion constructs in transfected K562 cells and gel mobility shift localized the major phorbol ester-responsive motifs in the thromboxane receptor gene promoter to a cluster of activator protein-2 (AP-2) binding consensus sites located approximately 1.8 kb 5' from the transcription initiation site.
+# T14 Protein S10 154 174 1656 1676 thromboxane receptor
+
+These studies are the first to determine the structure and organization of the 5' end of the thromboxane receptor gene and demonstrate that thromboxane receptor gene expression can be regulated by activation of protein kinase C via induction of an AP-2-like nuclear factor binding to upstream promoter elements.
+# T15 Protein S11 93 113 1923 1943 thromboxane receptor
+# T16 Protein S11 140 160 1970 1990 thromboxane receptor
+$ T16 Protein S11 140 160 1970 1990 thromboxane receptor
+@ T29 Gene_expression S11 166 176 1996 2006 expression
+@ T30 Regulation S11 184 193 2014 2023 regulated
+% E9 Gene_expression:T29 Theme:T16
+% E10 Regulation:T30 Theme:E9
+
+These findings strongly suggest that the mechanism for previously described upregulation of platelet thromboxane receptors after acute myocardial infarction is increased thromboxane receptor gene transcription in platelet-progenitor cells.
+# T17 Protein S12 101 122 2243 2264 thromboxane receptors
+# T18 Protein S12 170 190 2312 2332 thromboxane receptor
+$ T17 Protein S12 101 122 2243 2264 thromboxane receptors
+$ T18 Protein S12 170 190 2312 2332 thromboxane receptor
+@ T31 Positive_regulation S12 41 50 2183 2192 mechanism
+@ T32 Positive_regulation S12 76 88 2218 2230 upregulation
+@ T33 Positive_regulation S12 160 169 2302 2311 increased
+@ T34 Transcription S12 196 209 2338 2351 transcription
+% E11 Positive_regulation:T31 Theme:E12 Cause:E13
+% E12 Positive_regulation:T32 Theme:T17
+% E13 Positive_regulation:T33 Theme:E14
+% E14 Transcription:T34 Theme:T18
+

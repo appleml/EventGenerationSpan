@@ -1,0 +1,109 @@
+Differential cytokine regulation by NF-kappaB and AP-1 in Jurkat T-cells
+
+Background
+
+Activator protein (AP)-1 and nuclear factor (NF)-kappaB largely control T-cell activation, following binding of foreign antigens to the T-cell receptor leading to cytokine secretion.
+
+Elevated levels of pro-inflammatory cytokines and chemokines such as TNF, IL-6 and CXCL8 are associated with several human diseases including cystic fibrosis, pulmonary fibrosis and AIDS.
+# T1 Protein S4 74 78 341 345 IL-6
+# T2 Protein S4 83 88 350 355 CXCL8
+
+The aim of this study was to investigate the role of the transcription factors, AP-1 and NF-kappaB, in IL-6 and CXCL8 regulation in Jurkat T-cells.
+# T3 Protein S5 103 107 558 562 IL-6
+# T4 Protein S5 112 117 567 572 CXCL8
+$ T3 Protein S5 103 107 558 562 IL-6
+$ T4 Protein S5 112 117 567 572 CXCL8
+@ T20 Regulation S5 45 49 500 504 role
+@ T21 Regulation S5 118 128 573 583 regulation
+% E1 Regulation:T20 Theme:E2
+% E3 Regulation:T20 Theme:E4
+% E2 Regulation:T21 Theme:T3
+% E4 Regulation:T21 Theme:T4
+
+Results
+
+Phorbol myristate acetate (PMA) exposure resulted in an up-regulation of AP-1 and down-regulation of NF-kappaB activity, however, exposure to heat killed (HK) Escherichia.
+
+coli MG1655 resulted in a dose-dependent increase in NF-kappaB activity without affecting AP-1.
+
+The cytokine profile revealed an up-regulation of the chemokine CXCL8 and the pro-inflammatory cytokines TNF, IL-2 and IL-6 following treatment with both PMA and HK E. coli, while the levels of the anti-inflammatory cytokine IL-10 were not affected by PMA but were significantly down-regulated by HK E. coli.
+# T5 Protein S9 64 69 943 948 CXCL8
+# T6 Protein S9 110 114 989 993 IL-2
+# T7 Protein S9 119 123 998 1002 IL-6
+# T8 Protein S9 225 230 1104 1109 IL-10
+$ T5 Protein S9 64 69 943 948 CXCL8
+$ T6 Protein S9 110 114 989 993 IL-2
+$ T7 Protein S9 119 123 998 1002 IL-6
+$ T8 Protein S9 225 230 1104 1109 IL-10
+@ T22 Positive_regulation S9 33 46 912 925 up-regulation
+@ T23 Regulation S9 240 248 1119 1127 affected
+@ T24 Negative_regulation S9 279 293 1158 1172 down-regulated
+% E5 Positive_regulation:T22 Theme:T5
+% E6 Positive_regulation:T22 Theme:T6
+% E7 Positive_regulation:T22 Theme:T7
+% E8 Regulation:T23 Theme:T8
+% E9 Negative_regulation:T24 Theme:T8
+
+AP-1 activation was significantly increased 2 h after PMA exposure and continued to increase thereafter.
+
+In contrast, NF-kappaB responded to PMA exposure by a rapid up-regulation followed by a subsequent down-regulation.
+
+Increased intracellular Ca2+ concentrations countered the down-regulation of NF-kappaB by PMA, while similar treatment with calcium ionophore resulted in a reduced NF-kappaB activity following induction with HK E. coli.
+
+In order to further study NF-kappaB activation, we considered two up-stream signalling proteins, PKC and Bcl10.
+# T9 Protein S13 105 110 1734 1739 Bcl10
+
+Phosphorylated-PKC levels increased in response to PMA and HK E. coli, while Bcl10 levels significantly decreased following PMA treatment.
+# T10 Protein S14 77 82 1818 1823 Bcl10
+$ T10 Protein S14 77 82 1818 1823 Bcl10
+@ T25 Negative_regulation S14 104 113 1845 1854 decreased
+% E10 Negative_regulation:T25 Theme:T10
+
+Using an NF-kappaB activation inhibitor, we observed complete inhibition of IL-6 expression while CXCL8 levels only decreased by 40% at the highest concentration.
+# T11 Protein S15 76 80 1956 1960 IL-6
+# T12 Protein S15 98 103 1978 1983 CXCL8
+$ T11 Protein S15 76 80 1956 1960 IL-6
+$ T12 Protein S15 98 103 1978 1983 CXCL8
+@ T26 Negative_regulation S15 62 72 1942 1952 inhibition
+@ T27 Gene_expression S15 81 91 1961 1971 expression
+@ T28 Negative_regulation S15 116 125 1996 2005 decreased
+% E11 Negative_regulation:T26 Theme:E12
+% E12 Gene_expression:T27 Theme:T11
+% E13 Negative_regulation:T28 Theme:T12
+
+Treatment of Jurkat T-cells with PMA in the presence of JNK-inhibitor suppressed both CXCL8 and IL-6 while PKC-inhibitor primarily decreased CXCL8 expression.
+# T13 Protein S16 86 91 2129 2134 CXCL8
+# T14 Protein S16 96 100 2139 2143 IL-6
+# T15 Protein S16 141 146 2184 2189 CXCL8
+$ T13 Protein S16 86 91 2129 2134 CXCL8
+$ T14 Protein S16 96 100 2139 2143 IL-6
+$ T15 Protein S16 141 146 2184 2189 CXCL8
+@ T29 Negative_regulation S16 70 80 2113 2123 suppressed
+@ T30 Negative_regulation S16 131 140 2174 2183 decreased
+@ T31 Gene_expression S16 147 157 2190 2200 expression
+% E14 Negative_regulation:T29 Theme:T13
+% E15 Negative_regulation:T29 Theme:T14
+% E16 Negative_regulation:T30 Theme:E17
+% E17 Gene_expression:T31 Theme:T15
+
+Conclusion
+
+The present study shows that NF-kappaB regulated IL-6 but not CXCL8.
+# T16 Protein S18 49 53 2262 2266 IL-6
+# T17 Protein S18 62 67 2275 2280 CXCL8
+$ T16 Protein S18 49 53 2262 2266 IL-6
+$ T17 Protein S18 62 67 2275 2280 CXCL8
+@ T32 Regulation S18 39 48 2252 2261 regulated
+% E18 Regulation:T32 Theme:T16
+% E19 Regulation:T32 Theme:T17
+
+This complex regulation of CXCL8 suggests that there is a need to further evaluate the signalling pathways in order to develop new treatment for diseases with elevated CXCL8 levels, such as AIDS and autoimmune diseases.
+# T18 Protein S19 27 32 2309 2314 CXCL8
+# T19 Protein S19 168 173 2450 2455 CXCL8
+$ T18 Protein S19 27 32 2309 2314 CXCL8
+$ T19 Protein S19 168 173 2450 2455 CXCL8
+@ T33 Regulation S19 13 23 2295 2305 regulation
+@ T34 Positive_regulation S19 159 167 2441 2449 elevated
+% E20 Regulation:T33 Theme:T18
+% E21 Positive_regulation:T34 Theme:T19
+

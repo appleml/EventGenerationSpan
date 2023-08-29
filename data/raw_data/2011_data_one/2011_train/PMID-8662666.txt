@@ -1,0 +1,85 @@
+DNA triplex formation selectively inhibits granulocyte-macrophage colony-stimulating factor gene expression in human T cells.
+# T1 Protein S1 43 91 43 91 granulocyte-macrophage colony-stimulating factor
+$ T1 Protein S1 43 91 43 91 granulocyte-macrophage colony-stimulating factor
+@ T18 Negative_regulation S1 34 42 34 42 inhibits
+@ T19 Gene_expression S1 97 107 97 107 expression
+% E1 Negative_regulation:T18 Theme:E2
+% E2 Gene_expression:T19 Theme:T1
+
+Granulocyte-macrophage colony-stimulating factor (GM-CSF) is a hemopoietic growth factor that is expressed in activated T cells, fibroblasts, macrophages, and endothelial cells.
+# T2 Protein S2 0 48 127 175 Granulocyte-macrophage colony-stimulating factor
+# T3 Protein S2 50 56 177 183 GM-CSF
+$ T3 Protein S2 50 56 177 183 GM-CSF
+@ T20 Gene_expression S2 97 106 224 233 expressed
+% E3 Gene_expression:T20 Theme:T3
+
+Although GM-CSF does not appear to be essential for normal hemopoiesis, overexpression of GM-CSF has been implicated in the pathogenesis of some diseases such as myeloid leukemia and chronic inflammation.
+# T4 Protein S3 9 15 314 320 GM-CSF
+# T5 Protein S3 90 96 395 401 GM-CSF
+$ T5 Protein S3 90 96 395 401 GM-CSF
+@ T21 Positive_regulation S3 72 86 377 391 overexpression
+@ T22 Gene_expression S3 72 86 377 391 overexpression
+% E4 Positive_regulation:T21 Theme:E5
+% E5 Gene_expression:T22 Theme:T5
+
+An NF-kappaB/Rel binding site within the GM-CSF promoter, termed the kappaB element appears to be important for controlling expression in reporter gene assays in response to a number of stimuli in T cells.
+# T6 Protein S4 41 47 551 557 GM-CSF
+
+We investigated oligonucleotide-directed triple helix formation across this regulatory sequence as a potential tool to inhibit GM-CSF gene transcription.
+# T7 Protein S5 127 133 843 849 GM-CSF
+$ T7 Protein S5 127 133 843 849 GM-CSF
+@ T23 Negative_regulation S5 119 126 835 842 inhibit
+@ T24 Transcription S5 139 152 855 868 transcription
+% E6 Negative_regulation:T23 Theme:E7
+% E7 Transcription:T24 Theme:T7
+
+A 15-base oligonucleotide, GM3, was targeted to a purine-rich region in the GM-CSF proximal promoter, which overlaps the kappaB element.
+# T8 Protein S6 76 82 946 952 GM-CSF
+$ T8 Protein S6 76 82 946 952 GM-CSF
+@ T25 Binding S6 36 44 906 914 targeted
+@ T26 Entity S6 83 100 953 970 proximal promoter
+% E8 Binding:T25 Theme:T8 Site:T26
+
+Gel mobility shift assays and DNase I footprinting demonstrated that GM3 formed a sequence-specific collinear triplex with its double-stranded DNA target.
+# T9 Protein S7 30 37 1037 1044 DNase I
+
+Triplex formation by GM3 blocked recombinant and nuclear NF-kappaB proteins binding to the GM-CSF element.
+# T10 Protein S8 91 97 1253 1259 GM-CSF
+
+GM3 also caused selective inhibition of the human T-cell lymphotrophic virus-1 Tax transactivator-induced luciferase activity from a reporter construct driven by the GM-CSF promoter in Jurkat T cells.
+# T11 Protein S9 79 82 1348 1351 Tax
+# T12 Protein S9 166 172 1435 1441 GM-CSF
+
+Finally, GM3 greatly reduced the concentration of endogenous GM-CSF mRNA induced by different stimuli in Jurkat T cells but did not affect interleukin 3 mRNA levels in the same cells.
+# T13 Protein S10 61 67 1531 1537 GM-CSF
+# T14 Protein S10 139 152 1609 1622 interleukin 3
+$ T13 Protein S10 61 67 1531 1537 GM-CSF
+$ T14 Protein S10 139 152 1609 1622 interleukin 3
+@ T27 Negative_regulation S10 21 28 1491 1498 reduced
+@ T28 Positive_regulation S10 73 80 1543 1550 induced
+@ T29 Regulation S10 132 138 1602 1608 affect
+% E9 Negative_regulation:T27 Theme:E10
+% E10 Positive_regulation:T28 Theme:T13
+% E11 Regulation:T29 Theme:T14
+
+We conclude that the kappaB element in the GM-CSF promoter plays a central role in the transcriptional activation of the endogenous GM-CSF gene.
+# T15 Protein S11 43 49 1697 1703 GM-CSF
+# T16 Protein S11 132 138 1786 1792 GM-CSF
+$ T15 Protein S11 43 49 1697 1703 GM-CSF
+$ T16 Protein S11 132 138 1786 1792 GM-CSF
+@ T30 Entity S11 21 35 1675 1689 kappaB element
+@ T31 Positive_regulation S11 67 79 1721 1733 central role
+@ T32 Positive_regulation S11 87 113 1741 1767 transcriptional activation
+% E12 Positive_regulation:T31 Theme:E13 Cause:T15 CSite:T30
+% E13 Positive_regulation:T32 Theme:T16
+
+Colinear triplex formation acts as a selective transcriptional repressor of the GM-CSF gene and may have potential therapeutic application in cases of undesirable overexpression of this protein.
+# T17 Protein S12 80 86 1879 1885 GM-CSF
+$ T17 Protein S12 80 86 1879 1885 GM-CSF
+@ T33 Negative_regulation S12 47 72 1846 1871 transcriptional repressor
+@ T34 Positive_regulation S12 163 177 1962 1976 overexpression
+@ T35 Gene_expression S12 163 177 1962 1976 overexpression
+% E14 Negative_regulation:T33 Theme:T17
+% E15 Positive_regulation:T34 Theme:E16
+% E16 Gene_expression:T35 Theme:T17
+

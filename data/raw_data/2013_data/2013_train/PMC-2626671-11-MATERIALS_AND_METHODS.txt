@@ -1,0 +1,13 @@
+FACS-based cytotoxicity assay.
+
+To measure cytotoxicity, EL4 thymoma target cells were loaded with 0 or 1 muM Gp33 peptide for 2 h before a 2-h coincubation with P14 CD8+ T cells at the effector-to-target ratios indicated in the figures in 96-well round-bottom plates.
+# T1 Protein S2 134 137 165 168 CD8
+
+After the coincubation period, cells were stained with Annexin V-FITC and anti-CD8-allophycocyanin.
+# T2 Protein S3 55 64 323 332 Annexin V
+# T3 Protein S3 79 82 347 350 CD8
+
+Data analysis was performed with FlowJo software (Tree Star, Inc.); EL4 target cells (CD8-negative events) were gated, and the percentage of Annexin V+ target cells was determined.
+# T4 Protein S4 86 89 454 457 CD8
+# T5 Protein S4 141 150 509 518 Annexin V
+

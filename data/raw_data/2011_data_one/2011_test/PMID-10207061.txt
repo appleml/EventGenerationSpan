@@ -1,0 +1,30 @@
+Retinoid X receptor (RXR) agonist-induced activation of dominant-negative RXR-retinoic acid receptor alpha403 heterodimers is developmentally regulated during myeloid differentiation.
+# T1 Protein S1 78 109 78 109 retinoic acid receptor alpha403
+
+The multiple biologic activities of retinoic acid (RA) are mediated through RAR and retinoid X receptor (RXR) nuclear receptors that interact with specific DNA target sequences as heterodimers (RXR-RAR) or homodimers (RXR-RXR).
+
+RA receptor activation appears critical to regulating important aspects of hematopoiesis, since transducing a COOH-terminally truncated RARalpha exhibiting dominant-negative activity (RARalpha403) into normal mouse bone marrow generates hematopoietic growth factor-dependent cell lines frozen at the multipotent progenitor (EML) or committed promyelocyte (MPRO) stages.
+# T2 Protein S3 136 144 549 557 RARalpha
+# T3 Protein S3 184 195 597 608 RARalpha403
+
+Nevertheless, relatively high, pharmacological concentrations of RA (1 to 10 &mgr;M) overcome these differentiation blocks and induce terminal granulocytic differentiation of the MPRO promyelocytes while potentiating interleukin-3 (IL-3)-induced commitment of EML cells to the granulocyte/monocyte lineage.
+# T4 Protein S4 217 230 1000 1013 interleukin-3
+# T5 Protein S4 232 236 1015 1019 IL-3
+
+In the present study, we utilized RXR- and RAR-specific agonists and antagonists to determine how RA overcomes the dominant-negative activity of the truncated RARalpha in these different myeloid developmental stages.
+# T6 Protein S5 159 167 1249 1257 RARalpha
+
+Unexpectedly, we observed that an RXR-specific, rather than an RAR-specific, agonist induces terminal granulocytic differentiation of MPRO promyelocytes, and this differentiation is associated with activation of DNA response elements corresponding to RAR-RXR heterodimers rather than RXR-RXR homodimers.
+
+This RXR agonist activity is blocked by RAR-specific antagonists, suggesting extensive cross-talk between the partners of the RXR -RARalpha403 heterodimer.
+# T7 Protein S7 131 142 1742 1753 RARalpha403
+
+In contrast, in the more immature, multipotent EML cells we observed that this RXR-specific agonist is inactive either in potentiating IL-3-mediated commitment of EML cells to the granulocyte lineage or in transactivating RAR-RXR response elements.
+# T8 Protein S8 135 139 1902 1906 IL-3
+
+RA- triggered GALdbd-RARalpha hybrid activity in these cells indicates that the multipotent EML cells harbor substantial nuclear hormone receptor coactivator activity.
+# T9 Protein S9 21 29 2037 2045 RARalpha
+
+However, the histone deacetylase (HDAC) inhibitor trichostatin A readily activates an RXR-RAR reporter construct in the multipotent EML cells but not in the committed MPRO promyelocytes, indicating that differences in HDAC-containing repressor complexes in these two closely related but distinct hematopoietic lineages might account for the differential activation of the RXR-RARalpha403 heterodimers that we observed at these different stages of myeloid development.
+# T10 Protein S10 376 387 2560 2571 RARalpha403
+

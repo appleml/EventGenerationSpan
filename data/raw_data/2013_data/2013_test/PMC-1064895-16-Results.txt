@@ -1,0 +1,9 @@
+IL-17 mRNA expression in RA PBMC
+# T1 Protein S1 0 5 0 5 IL-17
+
+To see whether enhanced IL-17 production could be regulated at a transcriptional level, semi-quantatitive reverse transcription-polymerase chain reaction was performed.
+# T2 Protein S2 24 29 57 62 IL-17
+
+We observed a dose-dependent increase in IL-17 mRNA transcripts after stimulation with anti-CD3; this was inhibited by the PI3K inhibitor LY294002 and by the NF-kappaB inhibitor PDTC (Fig. 5).
+# T3 Protein S3 41 46 243 248 IL-17
+

@@ -1,0 +1,39 @@
+Characterization of the murine cyclin-dependent kinase inhibitor gene p27Kip1.
+# T1 Protein S1 70 77 70 77 p27Kip1
+
+The cyclin-dependent kinase inhibitor p27Kip1 plays an important role in regulating cell-cycle progression.
+# T2 Protein S2 38 45 118 125 p27Kip1
+
+p27Kip1 directly inhibits the catalytic activity of cyclin/cdks (cyclin-dependent kinase) complexes and/or interferes physically with cyclin/cdks activation by CAK.
+# T3 Protein S3 0 7 188 195 p27Kip1
+
+Interestingly, the expression level of p27Kip1 mRNA was maximal in resting Go T-cells and rapidly declined following anti-CD3 activation.
+# T4 Protein S4 39 46 392 399 p27Kip1
+$ T4 Protein S4 39 46 392 399 p27Kip1
+@ T10 Transcription S4 19 35 372 388 expression level
+@ T11 Negative_regulation S4 98 106 451 459 declined
+% E1 Transcription:T10 Theme:T4
+% E2 Negative_regulation:T11 Theme:E1
+
+We report here the cloning of p27Kip1 gene from murine genomic DNA and the functional analysis of the promoter of the p27Kip1 gene.
+# T5 Protein S5 30 37 521 528 p27Kip1
+# T6 Protein S5 118 125 609 616 p27Kip1
+
+The gene consists of at least three exons and spans more than 5.6 kb of DNA.
+
+Primer extension and nuclease S1 protection analysis revealed two major transcription initiation sites.
+
+The promoter region lacked a TATA box but contained potential binding sites for the transcriptional factors including two Sp1, CRE, Myb and NFkB located at positions -153, -178, -286, -875, and -1011, respectively.
+# T7 Protein S8 122 125 926 929 Sp1
+# T8 Protein S8 132 135 936 939 Myb
+
+To analyze the regulatory mechanisms controlling p27Kip1 gene expression, we characterized the 5'-flanking region from nt -1609 to +178.
+# T9 Protein S9 49 56 1068 1075 p27Kip1
+$ T9 Protein S9 49 56 1068 1075 p27Kip1
+@ T12 Regulation S9 37 48 1056 1067 controlling
+@ T13 Gene_expression S9 62 72 1081 1091 expression
+% E3 Regulation:T12 Theme:E4
+% E4 Gene_expression:T13 Theme:T9
+
+The -326 to -615 region contained positive regulatory elements.
+

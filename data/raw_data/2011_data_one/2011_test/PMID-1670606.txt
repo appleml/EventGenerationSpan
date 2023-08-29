@@ -1,0 +1,38 @@
+Activation of human CD4 T lymphocytes.
+# T1 Protein S1 20 23 20 23 CD4
+
+Interaction of fibronectin with VLA-5 receptor on CD4 cells induces the AP-1 transcription factor.
+# T2 Protein S2 15 26 54 65 fibronectin
+# T3 Protein S2 32 46 71 85 VLA-5 receptor
+# T4 Protein S2 50 53 89 92 CD4
+
+Fibronectin synergized with anti-CD3 antibody to promote CD4 cell proliferation in a serum-free culture system whereas no proliferation was observed when CD4 cells were cultured with anti-CD3 alone or fibronectin alone.
+# T5 Protein S3 0 11 139 150 Fibronectin
+# T6 Protein S3 57 60 196 199 CD4
+# T7 Protein S3 154 157 293 296 CD4
+# T8 Protein S3 201 212 340 351 fibronectin
+
+In addition, anti-CD29 (integrin beta 1) as well as anti-VLA-5 (human fibronectin receptor) antibodies blocked this CD4 cell activation in this system.
+# T9 Protein S4 18 22 377 381 CD29
+# T10 Protein S4 25 39 384 398 ntegrin beta 1
+# T11 Protein S4 57 62 416 421 VLA-5
+# T12 Protein S4 116 119 475 478 CD4
+
+Although anti-CD3 alone or fibronectin alone cannot induce IL-2 message by CD4 cells, the combination of anti-CD3 plus fibronectin induced IL-2 message by CD4 cells.
+# T13 Protein S5 27 38 538 549 fibronectin
+# T14 Protein S5 59 63 570 574 IL-2
+# T15 Protein S5 75 78 586 589 CD4
+# T16 Protein S5 119 130 630 641 fibronectin
+# T17 Protein S5 139 143 650 654 IL-2
+
+In an analysis of the molecular mechanism by which IL-2 message was generated, we showed that a fibronectin-VLA-5 fibronectin receptor interaction may contribute an independent signal distinct from the CD3 pathway of activation by the induction of an AP-1 transcriptional factor.
+# T18 Protein S6 51 55 728 732 IL-2
+# T19 Protein S6 96 107 773 784 fibronectin
+# T20 Protein S6 108 113 785 790 VLA-5
+# T21 Protein S6 114 125 791 802 fibronectin
+
+Thus the VLA-5 fibronectin receptor on CD4 cells can play a complementary role in CD3-TCR-mediated signal transduction through its interaction with fibronectin.
+# T22 Protein S7 9 35 966 992 VLA-5 fibronectin receptor
+# T23 Protein S7 39 42 996 999 CD4
+# T24 Protein S7 148 159 1105 1116 fibronectin
+

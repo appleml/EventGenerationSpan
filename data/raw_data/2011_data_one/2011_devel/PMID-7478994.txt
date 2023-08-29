@@ -1,0 +1,28 @@
+Tissue-specific regulation of the rabbit 15-lipoxygenase gene in erythroid cells by a transcriptional silencer.
+# T1 Protein S1 41 56 41 56 15-lipoxygenase
+$ T1 Protein S1 41 56 41 56 15-lipoxygenase
+@ T6 Regulation S1 16 26 16 26 regulation
+% E1 Regulation:T6 Theme:T1
+
+The 15-lipoxygenase (lox) gene is expressed in a tissue-specific manner, predominantly in erythroid cells but also in airway epithelial cells and eosinophils.
+# T2 Protein S2 4 19 117 132 15-lipoxygenase
+# T3 Protein S2 21 24 134 137 lox
+$ T3 Protein S2 21 24 134 137 lox
+@ T7 Gene_expression S2 34 43 147 156 expressed
+% E2 Gene_expression:T7 Theme:T3
+
+We demonstrate in this report that the 5' flanking DNA of the 15-lox gene contains sequences which down-regulate its activity in a variety of non-erythroid cell lines but not in two erythroid cell lines.
+# T4 Protein S3 62 68 334 340 15-lox
+$ T4 Protein S3 62 68 334 340 15-lox
+@ T8 Negative_regulation S3 99 112 371 384 down-regulate
+% E3 Negative_regulation:T8 Theme:E2 Cause:T4
+
+The element has characteristics of a transcriptional 'silencer' since it functions in both orientations.
+
+The main activity of the silencer has been mapped to the first 900 bp of 5' flanking DNA, which contains nine binding sites for a nuclear factor present in non-erythroid cells but not in erythroid cells.
+
+These binding sites have similar sequences and multiple copies of the binding sites confer tissue-specific down-regulation when attached to a minimal lox promoter fragment.
+# T5 Protein S6 150 153 935 938 lox
+
+The 5' flanking DNA also contains a cluster of three binding sites for the GATA family of transcription factors.
+

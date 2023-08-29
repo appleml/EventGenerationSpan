@@ -1,0 +1,38 @@
+Reverse transcription quantitative PCR (RT-qPCR)
+
+RT-qPCR was used to determine gene expression levels of il-6 and cxcl8 in response to PMA following inhibition of NF-kappaB, JNK and PKC.
+# T1 Protein S2 56 60 105 109 il-6
+# T2 Protein S2 65 70 114 119 cxcl8
+$ T1 Protein S2 56 60 105 109 il-6
+$ T2 Protein S2 65 70 114 119 cxcl8
+@ T7 Gene_expression S2 35 45 84 94 expression
+@ T8 Positive_regulation S2 71 85 120 134 in response to
+@ T9 Positive_regulation S2 90 99 139 148 following
+% E1 Gene_expression:T7 Theme:T1
+% E2 Gene_expression:T7 Theme:T2
+% E3 Positive_regulation:T8 Theme:E1
+% E4 Positive_regulation:T8 Theme:E2
+% E5 Positive_regulation:T9 Theme:E3
+% E6 Positive_regulation:T9 Theme:E4
+
+The following primer sequences were used, il-6: forward- TGTGAAAGCAGCAAAGAGGCACTG, reverse- ACAGCTCTGGCTTGTTCCTCACTA; cxcl8: forward- ACCACACTGCGCCAACACAGAAAT, reverse- AAACTTCTCCACAACCCTCTGCAC.
+# T3 Protein S3 42 46 229 233 il-6
+# T4 Protein S3 118 123 305 310 cxcl8
+
+Thermocycling conditions for CYBR Green (Quanta, USA) consisted of a denaturation step for 10 min at 95 degreesC followed by 60 cycles of 95degreesC for 1s and 60degreesC for 30s.
+
+Gene expression was analysed using Stratagene (Mx3000p(TM)) (AH diagnostics).
+
+The obtained Ct values were normalized against 18S.
+
+Initially, all measured 18S Ct values were used to calculate a mean Ct value that was used to determine the deltaCt values for each sample.
+
+Gene expression patterns for il-6 and cxcl8 were then normalized with regard to the samples 18S deltaCt.
+# T5 Protein S8 29 33 861 865 il-6
+# T6 Protein S8 38 43 870 875 cxcl8
+$ T5 Protein S8 29 33 861 865 il-6
+$ T6 Protein S8 38 43 870 875 cxcl8
+@ T10 Gene_expression S8 5 15 837 847 expression
+% E7 Gene_expression:T10 Theme:T5
+% E8 Gene_expression:T10 Theme:T6
+

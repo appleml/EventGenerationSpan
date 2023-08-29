@@ -1,0 +1,66 @@
+CD30-dependent degradation of TRAF2: implications for negative regulation of TRAF signaling and the control of cell survival.
+# T1 Protein S1 0 4 0 4 CD30
+# T2 Protein S1 30 35 30 35 TRAF2
+$ T1 Protein S1 0 4 0 4 CD30
+$ T2 Protein S1 30 35 30 35 TRAF2
+@ T23 Regulation S1 5 14 5 14 dependent
+@ T24 Protein_catabolism S1 15 26 15 26 degradation
+% E1 Regulation:T23 Theme:E2 Cause:T1
+% E2 Protein_catabolism:T24 Theme:T2
+
+CD30 is a cell-surface receptor that can augment lymphocyte activation and survival through its ability to induce the transcription factor NF-kappaB.
+# T3 Protein S2 0 4 127 131 CD30
+
+CD30, however, has also been implicated in the induction of apoptotic cell death of lymphocytes.
+# T4 Protein S3 0 4 277 281 CD30
+
+Here we show that one of the effects of CD30 signal transduction is to render cells sensitive to apoptosis induced by the type 1 tumor necrosis factor receptor (TNFR1).
+# T5 Protein S4 40 44 414 418 CD30
+# T6 Protein S4 122 159 496 533 type 1 tumor necrosis factor receptor
+# T7 Protein S4 161 166 535 540 TNFR1
+
+This sensitization is dependent on the TRAF-binding sites within the CD30 cytoplasmic domain.
+# T8 Protein S5 69 73 612 616 CD30
+@ T25 Entity S5 39 57 582 600 TRAF-binding sites
+
+One of the proteins that binds to these sites is TRAF2, a signal transduction molecule that is also utilized by TNFR1 to mediate the activation of several downstream kinases and transcription factors.
+# T9 Protein S6 49 54 686 691 TRAF2
+# T10 Protein S6 112 117 749 754 TNFR1
+$ T9 Protein S6 49 54 686 691 TRAF2
+@ T26 Binding S6 25 30 662 667 binds
+% E3 Binding:T26 Theme:T8 Theme2:T9 Site:T25
+
+During CD30 signal transduction, we found that binding of TRAF2 to the cytoplasmic domain of CD30 results in the rapid depletion of TRAF2 and the associated protein TRAF1 by proteolysis.
+# T11 Protein S7 7 11 845 849 CD30
+# T12 Protein S7 58 63 896 901 TRAF2
+# T13 Protein S7 93 97 931 935 CD30
+# T14 Protein S7 132 137 970 975 TRAF2
+# T15 Protein S7 165 170 1003 1008 TRAF1
+$ T12 Protein S7 58 63 896 901 TRAF2
+$ T13 Protein S7 93 97 931 935 CD30
+$ T14 Protein S7 132 137 970 975 TRAF2
+@ T27 Binding S7 47 54 885 892 binding
+@ T28 Positive_regulation S7 98 105 936 943 results
+@ T29 Protein_catabolism S7 174 185 1012 1023 proteolysis
+% E4 Binding:T27 Theme:T12 Theme2:T13
+% E5 Positive_regulation:T28 Theme:E6 Cause:E4
+% E6 Protein_catabolism:T29 Theme:T14
+
+These data suggest a model in which CD30 limits its own ability to transduce cell survival signals through signal-coupled depletion of TRAF2.
+# T16 Protein S8 36 40 1061 1065 CD30
+# T17 Protein S8 135 140 1160 1165 TRAF2
+
+Depletion of intracellular TRAF2 and its coassociated proteins also increased the sensitivity of the cell to undergoing apoptosis during activation of death-inducing receptors such as TNFR1.
+# T18 Protein S9 27 32 1194 1199 TRAF2
+# T19 Protein S9 184 189 1351 1356 TNFR1
+$ T19 Protein S9 184 189 1351 1356 TNFR1
+@ T30 Positive_regulation S9 137 147 1304 1314 activation
+% E7 Positive_regulation:T30 Theme:T19
+
+Consistent with this hypothesis, expression of a dominant-negative form of TRAF2 was found to potentiate TNFR1-mediated death.
+# T20 Protein S10 75 80 1433 1438 TRAF2
+# T21 Protein S10 105 110 1463 1468 TNFR1
+
+These studies provide a potential mechanism through which CD30, as well as other TRAF-binding members of the TNFR superfamily, can negatively regulate cell survival.
+# T22 Protein S11 58 62 1543 1547 CD30
+

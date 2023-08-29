@@ -1,0 +1,202 @@
+INTRODUCTION
+
+Naive CD8+ T cells differentiate into effector CTLs with the ability to lyse antigen-bearing target cells by exocytosis of lytic granules containing perforin and granzymes, and to produce inflammatory cytokines such as IFN-gamma and TNF upon restimulation through the TCR (1, 2).
+# T1 Protein S2 6 9 19 22 CD8
+# T2 Protein S2 149 157 162 170 perforin
+# T3 Protein S2 219 228 232 241 IFN-gamma
+# T4 Protein S2 233 236 246 249 TNF
+$ T3 Protein S2 219 228 232 241 IFN-gamma
+$ T4 Protein S2 233 236 246 249 TNF
+@ T58 Gene_expression S2 180 187 193 200 produce
+% E1 Gene_expression:T58 Theme:T3
+% E2 Gene_expression:T58 Theme:T4
+
+In vivo experiments have elucidated many critical parameters governing the development and evolution of primary CTL responses (3, 4).
+
+In this study, we have used in vitro systems such as those developed to study CD4+ T cell differentiation to define the molecular basis of effector CTL differentiation (5, 6).
+# T5 Protein S4 78 81 505 508 CD4
+
+The T-box transcription factors Eomesodermin (Eomes) and T-bet are needed for important aspects of effector and memory CTL differentiation (7).
+# T6 Protein S5 32 44 636 648 Eomesodermin
+# T7 Protein S5 46 51 650 655 Eomes
+# T8 Protein S5 57 62 661 666 T-bet
+
+In uninfected mice, compound deletion of the Tbx21 (encoding T-bet) and eomesodermin genes is associated with a selective loss of CD8+ T cells with an IL-2Rbeta-high, memory phenotype (8).
+# T9 Protein S6 45 50 793 798 Tbx21
+# T10 Protein S6 61 66 809 814 T-bet
+# T11 Protein S6 72 84 820 832 eomesodermin
+# T12 Protein S6 130 133 878 881 CD8
+# T13 Protein S6 151 160 899 908 IL-2Rbeta
+$ T9 Protein S6 45 50 793 798 Tbx21
+$ T11 Protein S6 72 84 820 832 eomesodermin
+@ T59 Negative_regulation S6 29 37 777 785 deletion
+% E3 Negative_regulation:T59 Theme:T9
+% E4 Negative_regulation:T59 Theme:T11
+
+Mice deficient for both T-bet and Eomes in T cells have impaired expression of cytolytic mediators, manifest poor cytolytic activity, and fail to control acute lymphocytic choriomeningitis virus infection (9).
+# T14 Protein S7 24 29 961 966 T-bet
+# T15 Protein S7 34 39 971 976 Eomes
+$ T14 Protein S7 24 29 961 966 T-bet
+$ T15 Protein S7 34 39 971 976 Eomes
+@ T60 Negative_regulation S7 5 14 942 951 deficient
+% E5 Negative_regulation:T60 Theme:T14
+% E6 Negative_regulation:T60 Theme:T15
+
+Nevertheless, the specific roles of T-bet and Eomes in clonal expansion and CTL differentiation have not yet been resolved: in particular, it is not known whether these transcription factors function redundantly to control effector CD8+ T cell differentiation, and whether they do so directly by targeting specific effector cytokine and cytolytic genes.
+# T16 Protein S8 36 41 1183 1188 T-bet
+# T17 Protein S8 46 51 1193 1198 Eomes
+# T18 Protein S8 232 235 1379 1382 CD8
+$ T16 Protein S8 36 41 1183 1188 T-bet
+$ T17 Protein S8 46 51 1193 1198 Eomes
+@ T61 Binding S8 296 305 1443 1452 targeting
+% E7 Binding:T61 Theme:T16
+% E8 Binding:T61 Theme:T17
+
+Runx proteins, a family of three DNA-binding transcription factors, control thymocyte differentiation and the CD4/CD8 lineage decision (10-13).
+# T19 Protein S9 110 113 1612 1615 CD4
+# T20 Protein S9 114 117 1616 1619 CD8
+
+Runx3 and perforin mRNA are expressed by double-positive (DP) thymocytes and CD8+ single-positive (SP) thymocytes but not in CD4+ SP cells (14).
+# T21 Protein S10 0 5 1646 1651 Runx3
+# T22 Protein S10 10 18 1656 1664 perforin
+# T23 Protein S10 77 80 1723 1726 CD8
+# T24 Protein S10 125 128 1771 1774 CD4
+$ T21 Protein S10 0 5 1646 1651 Runx3
+$ T22 Protein S10 10 18 1656 1664 perforin
+@ T62 Transcription S10 28 37 1674 1683 expressed
+% E9 Transcription:T62 Theme:T21
+% E10 Transcription:T62 Theme:T22
+
+Although Runx3 is not expressed in naive CD4+ T cells, its expression is up-regulated during Th1 cell differentiation, and Runx3 influences Th1 cell differentiation and function through direct regulation of the Il4 and Ifng cytokine genes (15, 16).
+# T25 Protein S11 9 14 1800 1805 Runx3
+# T26 Protein S11 41 44 1832 1835 CD4
+# T27 Protein S11 123 128 1914 1919 Runx3
+# T28 Protein S11 211 214 2002 2005 Il4
+# T29 Protein S11 219 223 2010 2014 Ifng
+$ T25 Protein S11 9 14 1800 1805 Runx3
+$ T28 Protein S11 211 214 2002 2005 Il4
+$ T27 Protein S11 123 128 1914 1919 Runx3
+$ T29 Protein S11 219 223 2010 2014 Ifng
+@ T63 Gene_expression S11 22 31 1813 1822 expressed
+@ T64 Gene_expression S11 59 69 1850 1860 expression
+@ T65 Positive_regulation S11 73 85 1864 1876 up-regulated
+@ T66 Regulation S11 193 203 1984 1994 regulation
+% E11 Gene_expression:T63 Theme:T25
+% E12 Gene_expression:T64 Theme:T25
+% E13 Positive_regulation:T65 Theme:E12
+% E14 Regulation:T66 Theme:T28 Cause:T27
+% E15 Regulation:T66 Theme:T29 Cause:T27
+
+In contrast, all three Runx proteins are expressed in mature CD8+ T cells (10, 12), and Runx3-deficient CD8+ T cells show reduced cytolytic activity (12, 13).
+# T30 Protein S12 61 64 2101 2104 CD8
+# T31 Protein S12 88 93 2128 2133 Runx3
+# T32 Protein S12 104 107 2144 2147 CD8
+$ T31 Protein S12 88 93 2128 2133 Runx3
+@ T67 Negative_regulation S12 94 103 2134 2143 deficient
+% E16 Negative_regulation:T67 Theme:T31
+
+We therefore tested whether Runx3 influenced cytolytic T cell differentiation.
+# T33 Protein S13 28 33 2227 2232 Runx3
+
+In this report, we show that Runx3 and T-box factors synergistically regulate CTL differentiation and function.
+# T34 Protein S14 29 34 2308 2313 Runx3
+
+T-bet is induced quickly upon TCR stimulation and is required for early programming of cytokine production (17), whereas Eomes is induced later during differentiation and sustains IFN-gamma expression.
+# T35 Protein S15 0 5 2391 2396 T-bet
+# T36 Protein S15 121 126 2512 2517 Eomes
+# T37 Protein S15 180 189 2571 2580 IFN-gamma
+$ T35 Protein S15 0 5 2391 2396 T-bet
+$ T36 Protein S15 121 126 2512 2517 Eomes
+$ T37 Protein S15 180 189 2571 2580 IFN-gamma
+@ T68 Positive_regulation S15 9 16 2400 2407 induced
+@ T69 Positive_regulation S15 130 137 2521 2528 induced
+@ T70 Positive_regulation S15 171 179 2562 2570 sustains
+@ T71 Gene_expression S15 190 200 2581 2591 expression
+% E17 Positive_regulation:T68 Theme:T35
+% E18 Positive_regulation:T69 Theme:T36
+% E19 Positive_regulation:T70 Theme:E20 Cause:T36
+% E20 Gene_expression:T71 Theme:T37
+
+Runx3 is required for Eomes and perforin expression, and both Eomes and Runx3 bind at the Prf1 locus; in contrast, perforin expression is unaffected in T-bet-deficient cells.
+# T38 Protein S16 0 5 2593 2598 Runx3
+# T39 Protein S16 22 27 2615 2620 Eomes
+# T40 Protein S16 32 40 2625 2633 perforin
+# T41 Protein S16 62 67 2655 2660 Eomes
+# T42 Protein S16 72 77 2665 2670 Runx3
+# T43 Protein S16 90 94 2683 2687 Prf1
+# T44 Protein S16 115 123 2708 2716 perforin
+# T45 Protein S16 152 157 2745 2750 T-bet
+$ T38 Protein S16 0 5 2593 2598 Runx3
+$ T39 Protein S16 22 27 2615 2620 Eomes
+$ T40 Protein S16 32 40 2625 2633 perforin
+$ T41 Protein S16 62 67 2655 2660 Eomes
+$ T43 Protein S16 90 94 2683 2687 Prf1
+$ T42 Protein S16 72 77 2665 2670 Runx3
+$ T44 Protein S16 115 123 2708 2716 perforin
+$ T45 Protein S16 152 157 2745 2750 T-bet
+@ T72 Positive_regulation S16 9 17 2602 2610 required
+@ T73 Gene_expression S16 41 51 2634 2644 expression
+@ T74 Binding S16 78 82 2671 2675 bind
+@ T75 Gene_expression S16 124 134 2717 2727 expression
+@ T76 Regulation S16 138 148 2731 2741 unaffected
+@ T77 Negative_regulation S16 158 167 2751 2760 deficient
+% E21 Positive_regulation:T72 Theme:E22 Cause:T38
+% E23 Positive_regulation:T72 Theme:E24 Cause:T38
+% E22 Gene_expression:T73 Theme:T39
+% E24 Gene_expression:T73 Theme:T40
+% E25 Binding:T74 Theme:T41 Theme2:T43
+% E26 Binding:T74 Theme:T42 Theme2:T43
+% E27 Gene_expression:T75 Theme:T44
+% E28 Regulation:T76 Theme:E27 Cause:E29
+% E29 Negative_regulation:T77 Theme:T45
+
+T cells lacking Runx3 show decreased expression of IFN-gamma and granzyme B, and Runx3 also binds the promoter regions of the Ifng and Gzmb genes.
+# T46 Protein S17 16 21 2784 2789 Runx3
+# T47 Protein S17 51 60 2819 2828 IFN-gamma
+# T48 Protein S17 65 75 2833 2843 granzyme B
+# T49 Protein S17 81 86 2849 2854 Runx3
+# T50 Protein S17 126 130 2894 2898 Ifng
+# T51 Protein S17 135 139 2903 2907 Gzmb
+$ T46 Protein S17 16 21 2784 2789 Runx3
+$ T47 Protein S17 51 60 2819 2828 IFN-gamma
+$ T48 Protein S17 65 75 2833 2843 granzyme B
+$ T49 Protein S17 81 86 2849 2854 Runx3
+$ T50 Protein S17 126 130 2894 2898 Ifng
+$ T51 Protein S17 135 139 2903 2907 Gzmb
+@ T78 Negative_regulation S17 8 15 2776 2783 lacking
+@ T79 Negative_regulation S17 27 36 2795 2804 decreased
+@ T80 Gene_expression S17 37 47 2805 2815 expression
+@ T81 Binding S17 92 97 2860 2865 binds
+@ T82 Entity S17 102 118 2870 2886 promoter regions
+% E30 Negative_regulation:T78 Theme:T46
+% E31 Negative_regulation:T79 Theme:E32 Cause:E30
+% E33 Negative_regulation:T79 Theme:E34 Cause:E30
+% E32 Gene_expression:T80 Theme:T47
+% E34 Gene_expression:T80 Theme:T48
+% E35 Binding:T81 Theme:T49 Theme2:T50 Site2:T82
+% E36 Binding:T81 Theme:T49 Theme2:T51 Site2:T82
+
+Collectively, these results provide evidence for a complex transcriptional network in which Runx3 is a primary regulator of Gzmb expression but synergizes with T-bet and Eomes, respectively, to promote transcription of the Ifng and Prf1 genes.
+# T52 Protein S18 92 97 3007 3012 Runx3
+# T53 Protein S18 124 128 3039 3043 Gzmb
+# T54 Protein S18 160 165 3075 3080 T-bet
+# T55 Protein S18 170 175 3085 3090 Eomes
+# T56 Protein S18 223 227 3138 3142 Ifng
+# T57 Protein S18 232 236 3147 3151 Prf1
+$ T52 Protein S18 92 97 3007 3012 Runx3
+$ T53 Protein S18 124 128 3039 3043 Gzmb
+$ T54 Protein S18 160 165 3075 3080 T-bet
+$ T55 Protein S18 170 175 3085 3090 Eomes
+$ T56 Protein S18 223 227 3138 3142 Ifng
+$ T57 Protein S18 232 236 3147 3151 Prf1
+@ T83 Regulation S18 111 120 3026 3035 regulator
+@ T84 Gene_expression S18 129 139 3044 3054 expression
+@ T85 Positive_regulation S18 194 201 3109 3116 promote
+@ T86 Transcription S18 202 215 3117 3130 transcription
+% E37 Regulation:T83 Theme:E38 Cause:T52
+% E38 Gene_expression:T84 Theme:T53
+% E39 Positive_regulation:T85 Theme:E40 Cause:T54
+% E41 Positive_regulation:T85 Theme:E42 Cause:T55
+% E40 Transcription:T86 Theme:T56
+% E42 Transcription:T86 Theme:T57
+

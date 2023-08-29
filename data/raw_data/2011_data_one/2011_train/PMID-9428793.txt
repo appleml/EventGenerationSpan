@@ -1,0 +1,67 @@
+Cyclosporin A inhibits early mRNA expression of G0/G1 switch gene 2 (G0S2) in cultured human blood mononuclear cells.
+# T1 Protein S1 48 67 48 67 G0/G1 switch gene 2
+# T2 Protein S1 69 73 69 73 G0S2
+$ T2 Protein S1 69 73 69 73 G0S2
+@ T15 Negative_regulation S1 14 22 14 22 inhibits
+@ T16 Transcription S1 29 44 29 44 mRNA expression
+% E1 Negative_regulation:T15 Theme:E2
+% E2 Transcription:T16 Theme:T2
+
+Cyclosporin A (CsA) may achieve its immunosuppressive effects by inhibiting the calcium- and calmodulin-dependent phosphatase calcineurin which is required for activation of target genes by members of the NFAT (nuclear factor of activated T cells) transcription factor family.
+
+Among these target genes is the gene encoding interleukin-2 (IL2), a cytokine facilitating progression through the G1 phase of the cell cycle.
+# T3 Protein S3 46 59 442 455 interleukin-2
+# T4 Protein S3 61 64 457 460 IL2
+
+However, IL2 does not reverse CsA inhibition, suggesting that at least one other NFAT-sensitive gene may be involved.
+# T5 Protein S4 9 12 548 551 IL2
+
+The human G0/G1 switch gene, G0S2, has potential NFAT-binding sites in the 5' flank and encodes a small basic potential phosphoprotein of unknown function.
+# T6 Protein S5 10 27 667 684 G0/G1 switch gene
+# T7 Protein S5 29 33 686 690 G0S2
+
+Using a sensitive, reverse transcription-polymerase chain reaction (RT-PCR) assay, G0S2 mRNA levels were assayed in cultured blood mononuclear cells.
+# T8 Protein S6 83 87 896 900 G0S2
+$ T8 Protein S6 83 87 896 900 G0S2
+@ T17 Transcription S6 93 99 906 912 levels
+% E3 Transcription:T17 Theme:T8
+
+Freshly isolated cells contain high levels of G0S2 mRNA which rapidly decline.
+# T9 Protein S7 46 50 1009 1013 G0S2
+$ T9 Protein S7 46 50 1009 1013 G0S2
+@ T18 Positive_regulation S7 31 35 994 998 high
+@ T19 Transcription S7 36 42 999 1005 levels
+% E4 Positive_regulation:T18 Theme:E5
+% E5 Transcription:T19 Theme:T9
+
+This "spontaneous stimulation" is also noted with some other G0S genes and has been attributed to some aspect of the isolation procedure.
+# T10 Protein S8 61 64 1103 1106 G0S
+$ T10 Protein S8 61 64 1103 1106 G0S
+@ T20 Positive_regulation S8 18 29 1060 1071 stimulation
+% E6 Positive_regulation:T20 Theme:T10
+
+In cells that have been preincubated to lower mRNA levels, there is a transient increase in G0S2 mRNA, peaking between 1-2 h, in response to Concanavalin-A (ConA), or to the combination of phorbol ester (TPA), and the calcium ionophore, ionomycin.
+# T11 Protein S9 92 96 1272 1276 G0S2
+$ T11 Protein S9 92 96 1272 1276 G0S2
+@ T21 Positive_regulation S9 80 88 1260 1268 increase
+% E7 Positive_regulation:T21 Theme:T11
+
+Both these responses are inhibited by CsA.
+@ T22 Negative_regulation S10 25 34 1453 1462 inhibited
+% E8 Negative_regulation:T22 Theme:E7
+
+Our results suggest that G0S2 expression is required to commit cells to enter the G1 phase of the cell cycle, and that, while not excluding other possible targets, early inhibition of G0S2 expression by CsA may be important in achieving immunosuppression.
+# T12 Protein S11 25 29 1496 1500 G0S2
+# T13 Protein S11 184 188 1655 1659 G0S2
+$ T12 Protein S11 25 29 1496 1500 G0S2
+$ T13 Protein S11 184 188 1655 1659 G0S2
+@ T23 Gene_expression S11 30 40 1501 1511 expression
+@ T24 Negative_regulation S11 170 180 1641 1651 inhibition
+@ T25 Gene_expression S11 189 199 1660 1670 expression
+% E9 Gene_expression:T23 Theme:T12
+% E10 Negative_regulation:T24 Theme:E11
+% E11 Gene_expression:T25 Theme:T13
+
+G0S2 may be of value as a reporter gene for analyzing the mechanism of action of CsA and its influence on the positive and negative selection of lymphocytes in response to self and not-self antigens.
+# T14 Protein S12 0 4 1727 1731 G0S2
+

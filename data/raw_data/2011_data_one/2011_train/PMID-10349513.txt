@@ -1,0 +1,56 @@
+Targeted remodeling of human beta-globin promoter chromatin structure produces increased expression and decreased silencing.
+# T1 Protein S1 29 40 29 40 beta-globin
+$ T1 Protein S1 29 40 29 40 beta-globin
+@ T12 Positive_regulation S1 79 88 79 88 increased
+@ T13 Gene_expression S1 89 99 89 99 expression
+% E1 Positive_regulation:T12 Theme:E2
+% E2 Gene_expression:T13 Theme:T1
+
+The chromatin structure of the human beta-globin gene locus assumes a transcriptionally-active conformation in erythroid cells.
+# T2 Protein S2 37 48 163 174 beta-globin
+$ T2 Protein S2 37 48 163 174 beta-globin
+@ T14 Transcription S2 70 94 196 220 transcriptionally-active
+% E3 Transcription:T14 Theme:T2
+
+One feature of this chromatin reorganization is the formation of DNase 1 hypersensitive sites in the regions of active globin gene promoters.
+
+This reorganization requires the globin locus control region and is associated with normal expression of the beta-like globin genes.
+
+To determine whether it is possible to artificially enhance the opening of the chromatin structure of a minimal beta-globin promoter, we placed a 101bp, erythroid-specific DNase 1 hypersensitive site-forming element (HSFE) immediately upstream of the beta-globin promoter and gene.
+# T3 Protein S5 112 123 641 652 beta-globin
+# T4 Protein S5 251 262 780 791 beta-globin
+
+This element includes binding sites for NF-E2, AP-1, GATA-1 and Sp-1.
+# T5 Protein S6 53 59 864 870 GATA-1
+# T6 Protein S6 64 68 875 879 Sp-1
+
+Constructs were stably transfected into murine erythroleukemia cells and promoter chromatin structure and gene expression were analyzed.
+
+The HSFE induced an area of enhanced DNase 1 hypersensitivity extending from the transcriptional start site to -300bp of the artificial promoter and significantly increased the proportion of beta-globin promoters in an open chromatin configuration.
+# T7 Protein S8 37 44 1055 1062 DNase 1
+# T8 Protein S8 191 202 1209 1220 beta-globin
+$ T8 Protein S8 191 202 1209 1220 beta-globin
+@ T15 Positive_regulation S8 163 187 1181 1205 increased the proportion
+@ T16 Entity S8 203 212 1221 1230 promoters
+% E4 Positive_regulation:T15 Theme:T8 Site:T16
+
+This remodeling of promoter chromatin structure resulted in 3-fold increases in beta-globin gene transcription and induction, and inhibited long-term beta-globin gene silencing.
+# T9 Protein S9 80 91 1347 1358 beta-globin
+# T10 Protein S9 150 161 1417 1428 beta-globin
+$ T9 Protein S9 80 91 1347 1358 beta-globin
+@ T17 Positive_regulation S9 67 76 1334 1343 increases
+@ T18 Transcription S9 97 110 1364 1377 transcription
+@ T19 Positive_regulation S9 115 124 1382 1391 induction
+% E5 Positive_regulation:T17 Theme:E8
+% E6 Positive_regulation:T17 Theme:E7
+% E7 Transcription:T18 Theme:T9
+% E8 Positive_regulation:T19 Theme:T9
+
+These results indicate that a relatively small cis-acting element is able to enhance remodeling of promoter chromatin structure resulting in increased beta-globin gene expression.
+# T11 Protein S10 151 162 1596 1607 beta-globin
+$ T11 Protein S10 151 162 1596 1607 beta-globin
+@ T20 Positive_regulation S10 141 150 1586 1595 increased
+@ T21 Gene_expression S10 168 178 1613 1623 expression
+% E9 Positive_regulation:T20 Theme:E10
+% E10 Gene_expression:T21 Theme:T11
+

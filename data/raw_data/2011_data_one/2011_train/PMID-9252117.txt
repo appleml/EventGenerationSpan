@@ -1,0 +1,56 @@
+EBF and E47 collaborate to induce expression of the endogenous immunoglobulin surrogate light chain genes.
+# T1 Protein S1 0 3 0 3 EBF
+# T2 Protein S1 8 11 8 11 E47
+
+Early B cell factor (EBF) and E47 participate in the transcriptional control of early B lymphocyte differentiation.
+# T3 Protein S2 0 19 108 127 Early B cell factor
+# T4 Protein S2 21 24 129 132 EBF
+# T5 Protein S2 30 33 138 141 E47
+
+With the aim of identifying genetic targets for these transcription factors, we stably transfected cDNAs encoding EBF or a covalent homodimer of E47, individually or together, into immature hematopoietic Ba/F3 cells, which lack both factors.
+# T6 Protein S3 114 117 338 341 EBF
+# T7 Protein S3 145 148 369 372 E47
+$ T6 Protein S3 114 117 338 341 EBF
+$ T7 Protein S3 145 148 369 372 E47
+@ T18 Gene_expression S3 87 98 311 322 transfected
+@ T19 Positive_regulation S3 87 98 311 322 transfected
+@ T20 Gene_expression S3 223 227 447 451 lack
+% E1 Gene_expression:T18 Theme:T6
+% E2 Gene_expression:T18 Theme:T7
+% E3 Positive_regulation:T19 Theme:E2
+% E4 Positive_regulation:T19 Theme:E1
+% E5 Gene_expression:T20 Theme:T7
+% E6 Gene_expression:T20 Theme:T6
+
+In combination, EBF and E47 induce efficient expression of the endogenous immunoglobulin surrogate light chain genes, lambda5 and VpreB, whereas other pre-B cell-specific genes remain silent.
+# T8 Protein S4 16 19 482 485 EBF
+# T9 Protein S4 24 27 490 493 E47
+# T10 Protein S4 118 125 584 591 lambda5
+# T11 Protein S4 130 135 596 601 VpreB
+$ T8 Protein S4 16 19 482 485 EBF
+$ T9 Protein S4 24 27 490 493 E47
+$ T10 Protein S4 118 125 584 591 lambda5
+$ T11 Protein S4 130 135 596 601 VpreB
+@ T21 Positive_regulation S4 28 34 494 500 induce
+@ T22 Gene_expression S4 45 55 511 521 expression
+% E7 Positive_regulation:T21 Theme:E11 Cause:T8
+% E8 Positive_regulation:T21 Theme:E12 Cause:T9
+% E9 Positive_regulation:T21 Theme:E11 Cause:T9
+% E10 Positive_regulation:T21 Theme:E12 Cause:T8
+% E11 Gene_expression:T22 Theme:T10
+% E12 Gene_expression:T22 Theme:T11
+
+Multiple functionally important EBF and E47 binding sites were identified in the lambda5 promoter/enhancer region, indicating that lambda5 is a direct genetic target for these transcription factors.
+# T12 Protein S5 32 35 690 693 EBF
+# T13 Protein S5 40 43 698 701 E47
+# T14 Protein S5 81 88 739 746 lambda5
+# T15 Protein S5 131 138 789 796 lambda5
+$ T15 Protein S5 131 138 789 796 lambda5
+@ T23 Regulation S5 159 165 817 823 target
+% E13 Regulation:T23 Theme:T15 Cause:T8
+% E14 Regulation:T23 Theme:T15 Cause:T9
+
+Taken together, these data suggest that EBF and E47 synergize to activate expression of a subset of genes that define an early stage of the B cell lineage.
+# T16 Protein S6 40 43 897 900 EBF
+# T17 Protein S6 48 51 905 908 E47
+

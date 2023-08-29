@@ -1,0 +1,106 @@
+In the present study we have investigated the contribution of A20 expression in myeloid cells in the innate immune response to IAV lung infection.
+
+In the pulmonary environment, macrophages populate both lung parenchyma and the alveolar lumen where they are referred to as alveolar macrophages.
+
+Under naive conditions, alveolar macrophages exert important immunomodulatory functions [65], [66].
+
+However, alveolar macrophages are also crucial in the innate immune response against IAV as they are one of the first cells that encounter infectious IAV particles [67], [68].
+
+They are an important source of proinflammatory cytokines and chemokines that attract innate immune cells to the lung during the primary phase of infection [69], and they are the primary producers of type I IFNs [70].
+
+Alveolar macrophages are also known to phagocytose virus infected apoptotic cells and antibody coated viral particles, further contributing to viral clearance.
+
+We could show that BMDM or alveolar macrophages derived from A20myel-KO mice express higher amounts of chemokines, cytokines and type I IFNs compared to wild type mice in response to in vitro infection.
+
+Similarly, in vivo infection with IAV resulted in higher levels of primarily neutrophil attracting chemokines such as KC and MIP-2 and several proinflammatory cytokines such as IL-6, TNF and IL-1beta in the lungs of A20myel-KO mice compared to wild type mice.
+# T1 Protein S8 118 120 1269 1271 KC
+# T2 Protein S8 125 130 1276 1281 MIP-2
+# T3 Protein S8 177 181 1328 1332 IL-6
+# T4 Protein S8 183 186 1334 1337 TNF
+# T5 Protein S8 191 199 1342 1350 IL-1beta
+
+This was associated with a selective enhancement of neutrophil recruitment to the bronchoalveolar compartment, and resulted in improved viral clearance later on during infection.
+
+Although the role of neutrophils during viral infection is still under debate, recent evidence supports a protective function of these cells during IAV infection [71], [72].
+
+MCP-1 levels were not affected by the absence of A20 in myeloid cells, which is consistent with the notion that airway epithelial cells are the primary source of MCP-1 production during IAV infection [73].
+# T6 Protein S11 0 5 1764 1769 MCP-1
+# T7 Protein S11 162 167 1926 1931 MCP-1
+
+Mice deficient for the MCP-1 receptor CCR2, which is expressed on a subset of circulating monocytes, are protected against IAV infection and display reduced signs of immunopathology [74]-[76].
+
+During IAV infection these monocytes develop into inflammatory dendritic cells or proinflammatory macrophages [77] and are considered major contributors to IAV-induced immunopathology [78].
+
+A20myel-KO mice were protected against a lethal IAV infection, which is rather surprising since an excessive proinflammatory cytokine response and an excessive influx of inflammatory cells is generally believed to be associated with increased lethality [64], [79].
+
+However, the selective effect of A20 deficiency on neutrophil recruitment, without altering inflammatory monocyte (Ly6C+ CD11b+) recruitment, further support the idea that monocytes and not neutrophils are major contributors to IAV-associated immunopathology and lethality [78].
+
+We show that A20 deficient BMDM display enhanced NF-kappaB and IRF3 activation in response to RIG-I stimulation by synthetic LMW double stranded RNA.
+# T12 Protein S16 63 67 2960 2964 IRF3
+# T13 Protein S16 94 99 2991 2996 RIG-I
+
+RIG-I has previously been shown to play a key role in the innate immune response to IAV [13], suggesting that the increased immune response of A20myel-KO mice to IAV lung infection reflects enhanced RIG-I signaling.
+# T14 Protein S17 0 5 3047 3052 RIG-I
+# T15 Protein S17 199 204 3246 3251 RIG-I
+
+We propose that A20 inhibits IAV-induced proinflammatory gene expression (as shown in our manuscript for TNF, IL-6, KC, MIP-2, and IFNbeta) by negatively regulating NF-kappaB and IRF3 activation, which are the major pathways controlling these genes.
+# T16 Protein S18 105 108 3368 3371 TNF
+# T17 Protein S18 110 114 3373 3377 IL-6
+# T18 Protein S18 116 118 3379 3381 KC
+# T19 Protein S18 120 125 3383 3388 MIP-2
+# T20 Protein S18 131 138 3394 3401 IFNbeta
+# T21 Protein S18 179 183 3442 3446 IRF3
+
+However, this does not exclude an additional effect of A20 on other signaling pathways that may contribute to proinflammatory gene expression.
+
+A20 is believed to exert its NF-kappaB and IRF3 inhibitory functions by modulating the ubiquitination status of different signaling proteins [80].
+# T22 Protein S20 43 47 3699 3703 IRF3
+
+In this context, it was recently shown that A20 cooperates with the ubiquitin-binding proteins TAX1BP1 and ABIN1 to to disrupt the TRAF3-TBK1-IKKepsilon complex, thereby negatively affecting K63-polyubiquitination of TBK1 and IKKepsilon, and their ability to activity IRF3 [81], [82].
+# T23 Protein S21 107 112 3910 3915 ABIN1
+# T24 Protein S21 217 221 4020 4024 TBK1
+# T25 Protein S21 226 236 4029 4039 IKKepsilon
+# T26 Protein S21 268 272 4071 4075 IRF3
+
+Whether similar mechanisms are involved in the regulation of RIG-I induced NF-kappaB activation is still unclear.
+# T27 Protein S22 61 66 4149 4154 RIG-I
+
+So far we were unable to clearly detect ubiquitination of TBK1 and IKKepsilon in primary macrophages, preventing us from studying the effect of A20 deficiency on their ubiquitination status.
+# T28 Protein S23 58 62 4260 4264 TBK1
+# T29 Protein S23 67 77 4269 4279 IKKepsilon
+
+It cannot be excluded however that A20 also targets other substrates that mediate NF-kappaB and IRF3 activation in myeloid cells.
+# T30 Protein S24 96 100 4489 4493 IRF3
+
+The identification of these substrates will be the topic of future investigations in our laboratory.
+
+Multiple other deubiquitinating enzymes (DUBs), such as DUBA [28], CYLD [29], [30], OTUB1/2 [31], and A20 [49]-[52] have been shown to negatively regulate RIG-I signaling to NF-kappaB and IRF-3, implicating possible redundancy.
+# T31 Protein S26 67 71 4691 4695 CYLD
+# T32 Protein S26 155 160 4779 4784 RIG-I
+# T33 Protein S26 188 193 4812 4817 IRF-3
+
+However, evidence so far was limited to in vitro data and was obtained under non-physiological conditions.
+
+The clear protective phenotype of A20myel-KO mice that we here describe indicates that A20 expression in myeloid cells is a central gatekeeper of RIG-I induced signaling in response to IAV infection and that other DUBs cannot substitute for A20 deficiency under physiological conditions.
+# T34 Protein S28 146 151 5105 5110 RIG-I
+
+If A20 has a similar non-redundant role in other cell types that are implicated in the response to IAV, such as lung epithelial cells, remains to be investigated.
+
+Understanding and controlling the activation of innate antiviral immune responses is an important step toward novel therapies.
+
+About a fifth of world's population is infected by IAV annually, leading to high morbidity and mortality, particularly in infants, the elderly and the immunocompromised.
+
+The high mutation rate of IAV turns all attempts of vaccine and antiviral design into a never ending battle.
+
+In recent years, RNA interference, triggered by synthetic short interfering RNA (siRNA), has rapidly evolved as a potent antiviral regimen.
+
+Properly designed siRNAs have been shown to function as potent inhibitors of influenza virus replication.
+
+Although specificity and tissue delivery remain major bottlenecks in the clinical applications of RNAi in general, intranasal application of siRNA against respiratory viruses including, but not limited to influenza virus, has experienced significant success and optimism [83].
+
+Our results suggest that not only siRNA targeting IAV components, but boosting the antiviral immune response by intranasal administration of siRNA against A20 might be a valid therapeutic approach.
+
+Also small compound inhibitors of A20 might be an interesting alternative.
+
+Finally, similar targeting of A20 might be of interest in the battle against other viral infections including RSV and SARS coronavirus.
+

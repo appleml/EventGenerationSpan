@@ -1,0 +1,94 @@
+The B cell-specific nuclear factor OTF-2 positively regulates transcription of the human class II transplantation gene, DRA.
+# T1 Protein S1 35 40 35 40 OTF-2
+# T2 Protein S1 120 123 120 123 DRA
+$ T1 Protein S1 35 40 35 40 OTF-2
+$ T2 Protein S1 120 123 120 123 DRA
+@ T21 Positive_regulation S1 41 61 41 61 positively regulates
+@ T22 Transcription S1 62 75 62 75 transcription
+% E1 Positive_regulation:T21 Theme:E2 Cause:T1
+% E2 Transcription:T22 Theme:T2
+
+The promoter of the major histocompatibility class II gene DRA contains an octamer element (ATTTGCAT) that is required for efficient DRA expression in B cells.
+# T3 Protein S2 59 62 185 188 DRA
+# T4 Protein S2 133 136 259 262 DRA
+$ T3 Protein S2 59 62 185 188 DRA
+$ T4 Protein S2 133 136 259 262 DRA
+@ T23 Entity S2 92 100 218 226 ATTTGCAT
+@ T24 Positive_regulation S2 110 118 236 244 required
+@ T25 Gene_expression S2 137 147 263 273 expression
+% E3 Positive_regulation:T24 Theme:E4 Cause:T3 CSite:T23
+% E4 Gene_expression:T25 Theme:T4
+
+Several DNA-binding proteins are known to bind this sequence.
+@ T26 Binding S3 42 46 328 332 bind
+% E5 Binding:T26 Theme:T3 Site:T23
+
+The best characterized are the B cell-specific OTF-2 and the ubiquitous OTF-1.
+# T5 Protein S4 47 52 395 400 OTF-2
+# T6 Protein S4 72 77 420 425 OTF-1
+
+This report directly demonstrates that OTF-2 but not OTF-1 regulates the DRA gene.
+# T7 Protein S5 39 44 466 471 OTF-2
+# T8 Protein S5 53 58 480 485 OTF-1
+# T9 Protein S5 73 76 500 503 DRA
+$ T9 Protein S5 73 76 500 503 DRA
+$ T8 Protein S5 53 58 480 485 OTF-1
+$ T7 Protein S5 39 44 466 471 OTF-2
+@ T27 Regulation S5 59 68 486 495 regulates
+% E6 Regulation:T27 Theme:T9 Cause:T8
+% E7 Regulation:T27 Theme:T9 Cause:T7
+
+In vitro transcription analysis using protein fractions enriched for the octamer-binding protein OTF-2 demonstrate a positive functional role for OTF-2 in DRA gene transcription.
+# T10 Protein S6 97 102 607 612 OTF-2
+# T11 Protein S6 146 151 656 661 OTF-2
+# T12 Protein S6 155 158 665 668 DRA
+$ T11 Protein S6 146 151 656 661 OTF-2
+$ T12 Protein S6 155 158 665 668 DRA
+@ T28 Positive_regulation S6 137 141 647 651 role
+@ T29 Transcription S6 164 177 674 687 transcription
+% E8 Positive_regulation:T28 Theme:E9 Cause:T11
+% E9 Transcription:T29 Theme:T12
+
+In contrast, OTF-1-enriched protein fractions did not affect DRA gene transcription although it functionally enhanced the transcription of another gene.
+# T13 Protein S7 13 18 702 707 OTF-1
+# T14 Protein S7 61 64 750 753 DRA
+$ T13 Protein S7 13 18 702 707 OTF-1
+$ T14 Protein S7 61 64 750 753 DRA
+@ T30 Regulation S7 54 60 743 749 affect
+@ T31 Transcription S7 70 83 759 772 transcription
+% E10 Regulation:T30 Theme:E11 Cause:T13
+% E11 Transcription:T31 Theme:T14
+
+Recombinant OTF-2 protein produced by in vitro transcription/translation could also enhance DRA gene transcription in vitro.
+# T15 Protein S8 12 17 854 859 OTF-2
+# T16 Protein S8 92 95 934 937 DRA
+$ T15 Protein S8 12 17 854 859 OTF-2
+$ T16 Protein S8 92 95 934 937 DRA
+@ T32 Transcription S8 47 60 889 902 transcription
+@ T33 Positive_regulation S8 84 91 926 933 enhance
+@ T34 Transcription S8 101 114 943 956 transcription
+% E12 Transcription:T32 Theme:T15
+% E13 Positive_regulation:T33 Theme:E14 Cause:T15
+% E14 Transcription:T34 Theme:T16
+
+In vivo transient transfection studies utilizing an OTF-2 expression vector resulted in similar findings: that OTF-2 protein enhanced DRA gene transcription, and that this effect requires an intact octamer element.
+# T17 Protein S9 52 57 1019 1024 OTF-2
+# T18 Protein S9 111 116 1078 1083 OTF-2
+# T19 Protein S9 134 137 1101 1104 DRA
+$ T18 Protein S9 111 116 1078 1083 OTF-2
+$ T19 Protein S9 134 137 1101 1104 DRA
+@ T35 Positive_regulation S9 125 133 1092 1100 enhanced
+@ T36 Transcription S9 143 156 1110 1123 transcription
+@ T37 Positive_regulation S9 179 187 1146 1154 requires
+% E15 Positive_regulation:T35 Theme:E16 Cause:T18
+% E16 Transcription:T36 Theme:T19
+% E17 Positive_regulation:T37 Theme:E15
+
+Together these results constitute the first direct evidence of a positive role for the lymphoid-specific octamer-binding factor in DRA gene transcription.
+# T20 Protein S10 131 134 1313 1316 DRA
+$ T20 Protein S10 131 134 1313 1316 DRA
+@ T38 Positive_regulation S10 65 78 1247 1260 positive role
+@ T39 Transcription S10 140 153 1322 1335 transcription
+% E18 Positive_regulation:T38 Theme:E19
+% E19 Transcription:T39 Theme:T20
+

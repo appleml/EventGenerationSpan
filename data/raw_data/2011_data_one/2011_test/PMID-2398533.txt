@@ -1,0 +1,47 @@
+The internal methionine codons of human T-cell leukemia virus type II rex gene are not required for p24rex production or virus replication and transformation.
+# T1 Protein S1 70 73 70 73 rex
+# T2 Protein S1 100 106 100 106 p24rex
+
+Human T-cell leukemia virus types I (HTLV-I) and II (HTLV-II) have two nonstructural trans-acting regulatory genes, tax and rex, located in the 3' region of the viral genome.
+# T3 Protein S2 116 119 276 279 tax
+# T4 Protein S2 124 127 284 287 rex
+
+The tax gene product (HTLV-I p40tax and HTLV-II p37tax) is the transcriptional activator of the viral long terminal repeat.
+# T5 Protein S3 4 7 339 342 tax
+# T6 Protein S3 29 35 364 370 p40tax
+# T7 Protein S3 48 54 383 389 p37tax
+
+The rex gene encodes two protein products, p27rex/p21rex and p26rex/p24rex in HTLV-I and HTLV-II, respectively.
+# T8 Protein S4 4 7 463 466 rex
+# T9 Protein S4 43 49 502 508 p27rex
+# T10 Protein S4 50 56 509 515 p21rex
+# T11 Protein S4 61 67 520 526 p26rex
+# T12 Protein S4 68 74 527 533 p24rex
+
+Rex acts posttranscriptionally to facilitate accumulation of full-length gag/pol and singly spliced env mRNA in the cytoplasm of HTLV-infected cells.
+# T13 Protein S5 0 3 571 574 Rex
+# T14 Protein S5 73 76 644 647 gag
+# T15 Protein S5 77 80 648 651 pol
+# T16 Protein S5 100 103 671 674 env
+
+Previous studies showed that the first ATG of the rex gene is critical for Rex production and function.
+# T17 Protein S6 50 53 771 774 rex
+# T18 Protein S6 75 78 796 799 Rex
+
+The importance of the internal ATGs to Rex function is not known.
+# T19 Protein S7 39 42 864 867 Rex
+
+However, in vitro mutagenesis of the HTLV-I rex gene has provided indirect evidence which suggests that p21rex, and by analogy HTLV-II p24rex, results from initiation at an internal AUG of the tax/rex mRNA.
+# T20 Protein S8 44 47 935 938 rex
+# T21 Protein S8 104 110 995 1001 p21rex
+# T22 Protein S8 135 141 1026 1032 p24rex
+# T23 Protein S8 193 200 1084 1091 tax/rex
+
+By using an infectious molecular clone of HTLV-II, we investigated the importance of the internal ATGs of the rex gene on Rex protein production and function.
+# T24 Protein S9 110 113 1208 1211 rex
+# T25 Protein S9 122 125 1220 1223 Rex
+
+Our results indicate that p24rex of HTLV-II is not initiated at an internal AUG and that the internal methionine codons are not crucial to the function of the rex gene and, ultimately, the transforming properties of the virus.
+# T26 Protein S10 26 32 1283 1289 p24rex
+# T27 Protein S10 159 162 1416 1419 rex
+

@@ -1,0 +1,48 @@
+Various modes of basic helix-loop-helix protein-mediated regulation of murine leukemia virus transcription in lymphoid cell lines.
+
+The transcriptionally regulatory regions of the lymphomagenic Akv and SL3-3 murine leukemia retroviruses (MLVs) contain two types of E-box consensus motifs, CAGATG.
+
+One type, EA/S, is located in the upstream promoter region, and the other, E(gre), is located in a tandem repeat with enhancer properties.
+
+We have examined the requirements of the individual E-boxes in MLV transcriptional regulation.
+
+In lymphoid cell lines only, the E(gre)-binding protein complexes included ALF1 or HEB and E2A basic helix-loop-helix proteins.
+# T1 Protein S5 75 79 606 610 ALF1
+# T2 Protein S5 83 86 614 617 HEB
+$ T2 Protein S5 83 86 614 617 HEB
+$ T1 Protein S5 75 79 606 610 ALF1
+@ T9 Binding S5 40 47 571 578 binding
+% E1 Binding:T9 Theme:T2
+% E2 Binding:T9 Theme:T1
+
+Ectopic ALF1 and E2A proteins required intact E(gre) motifs for mediating transcriptional activation.
+# T3 Protein S6 8 12 667 671 ALF1
+
+ALF1 transactivated transcription of Akv MLV through the two E(gre) motifs equally, whereas E2A protein required the promoter-proximal E(gre) motif.
+# T4 Protein S7 0 4 761 765 ALF1
+
+In T- and B-cell lines, the E(gre) motifs were of major importance for Akv MLV transcriptional activity, while the EA/S motif had some effect.
+
+In contrast, neither E(gre) nor EA/S motifs contributed pronouncedly to Akv MLV transcription in NIH 3T3 cells lacking DNA-binding ALF1 or HEB and E2A proteins.
+# T5 Protein S9 131 135 1184 1188 ALF1
+# T6 Protein S9 139 142 1192 1195 HEB
+$ T6 Protein S9 139 142 1192 1195 HEB
+$ T5 Protein S9 131 135 1184 1188 ALF1
+@ T10 Negative_regulation S9 111 118 1164 1171 lacking
+@ T11 Binding S9 123 130 1176 1183 binding
+% E3 Negative_regulation:T10 Theme:E5
+% E4 Negative_regulation:T10 Theme:E6
+% E5 Binding:T11 Theme:T6
+% E6 Binding:T11 Theme:T5
+
+The Id1 protein was found to repress ALF1 activity in vitro and in vivo.
+# T7 Protein S10 4 7 1218 1221 Id1
+
+Moreover, ectopic Id1 repressed E(gre)-directed but not EA/S-directed MLV transcription in lymphoid cell lines.
+# T8 Protein S11 18 21 1305 1308 Id1
+
+In conclusion, E(gre) motifs and interacting basic helix-loop-helix proteins are important determinants for MLV transcriptional activity in lymphocytic cell lines.
+@ T12 Binding S12 33 44 1432 1443 interacting
+% E7 Binding:T12 Theme:T1
+% E8 Binding:T12 Theme:T2
+

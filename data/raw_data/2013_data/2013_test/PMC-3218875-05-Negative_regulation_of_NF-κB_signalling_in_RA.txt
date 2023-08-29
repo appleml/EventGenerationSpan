@@ -1,0 +1,116 @@
+A20 protein
+# T1 Protein S1 0 3 0 3 A20
+
+A20 (also known as TNFAIP3) is a ubiquitin-editing protein that negatively regulates NF-kappaB-dependent gene expression in response to different immune-activating stimuli, including TNF, IL-1 and antigens, and the triggering of TLRs and the nucleotide-binding oligomerisation domain-containing 2 receptor (reviewed in [37]).
+# T2 Protein S2 0 3 12 15 A20
+# T3 Protein S2 19 26 31 38 TNFAIP3
+# T4 Protein S2 33 58 45 70 ubiquitin-editing protein
+# T5 Protein S2 85 94 97 106 NF-kappaB
+# T6 Protein S2 183 186 195 198 TNF
+
+A20 is believed to inhibit NF-kappaB function by deubiquitinating specific NF-kappaB signalling molecules, such as RIP1, RIP2, TRAF6 and MALT1, which disrupts specific protein-protein interactions [38-41] (Figure 1).
+# T7 Protein S3 0 3 338 341 A20
+# T8 Protein S3 115 119 453 457 RIP1
+# T9 Protein S3 121 125 459 463 RIP2
+# T10 Protein S3 127 132 465 470 TRAF6
+# T11 Protein S3 137 142 475 480 MALT1
+
+Recently, the disruption of interactions between E2 ubiquitin conjugating enzymes (Ubc13 and Ubc5hc) and E3 ubiquitin ligases (TRAF6, TRAF2 and cIAP1/2) were described as another important mechanism used by A20 to downregulate NF-kappaB signalling [42].
+# T12 Protein S4 83 88 638 643 Ubc13
+# T13 Protein S4 93 99 648 654 Ubc5hc
+# T14 Protein S4 127 132 682 687 TRAF6
+# T15 Protein S4 134 139 689 694 TRAF2
+# T16 Protein S4 144 149 699 704 cIAP1
+# T17 Protein S4 150 151 705 706 2
+# T18 Protein S4 207 210 762 765 A20
+
+The association of A20 with its targets requires specific ubiquitin-binding adaptor proteins, including A20-binding inhibitor of NF-kappaB (ABIN) 1 and Tax1-binding protein 1 [43-46].
+# T19 Protein S5 19 22 828 831 A20
+# T20 Protein S5 104 147 913 956 A20-binding inhibitor of NF-kappaB (ABIN) 1
+# T21 Protein S5 152 174 961 983 Tax1-binding protein 1
+
+Next to its role in suppressing NF-kappaB activation, A20 is also a strong inhibitor of apoptosis, at least in some cell types.
+# T22 Protein S6 54 57 1047 1050 A20
+
+The mechanisms by which A20 regulates apoptotic signalling, however, are still elusive.
+# T23 Protein S7 24 27 1145 1148 A20
+
+A20-deficient mice spontaneously develop multiorgan inflammation and cachexia and die within 2 weeks of birth, illustrating the potent anti-inflammatory function of this molecule [46].
+# T24 Protein S8 0 3 1209 1212 A20
+
+A20-deficient cells are also more susceptible to TNF-mediated apoptosis, confirming its role as an antiapoptotic protein.
+# T25 Protein S9 0 3 1394 1397 A20
+# T26 Protein S9 49 52 1443 1446 TNF
+
+We recently showed that mice specifically lacking A20 in intestinal epithelial cells exhibit increased susceptibility to experimental colitis due to the hypersensitivity of their intestinal epithelial cells to TNF-induced apoptosis, confirming A20 as a major antiapoptotic protein in the intestinal epithelium [47].
+# T27 Protein S10 50 53 1566 1569 A20
+# T28 Protein S10 210 213 1726 1729 TNF
+# T29 Protein S10 244 247 1760 1763 A20
+
+Two independent studies showed that mice lacking A20 in B cells develop autoimmunity due to hyperactive NF-kappaB responses in B cells leading to unrestricted B-cell survival [48,49].
+# T30 Protein S11 49 52 1881 1884 A20
+
+A20 expression has been observed in several cell types that play important roles in the pathophysiology of RA, such as fibroblasts, synoviocytes and lymphocytes.
+# T31 Protein S12 0 3 2016 2019 A20
+
+Interestingly, A20 expression is itself regulated by NF-kappaB [50], implicating A20 in the negative feedback regulation of NF-kappaB signalling.
+# T32 Protein S13 15 18 2193 2196 A20
+# T33 Protein S13 81 84 2259 2262 A20
+
+Recently, intra-articular injection of an A20-expressing adenovirus was shown to reduce the severity of synovial inflammation and joint destruction in a mouse model of collagen-induced arthritis, even in untreated joints, in both a prophylactic and therapeutic setting.
+# T34 Protein S14 42 45 2366 2369 A20
+
+A20 expression in synovial tissue was associated with inhibition of NF-kappaB activity and decreased levels of TNF, IL-1beta, IL-6, soluble RANKL, monocyte chemo-attractant protein 1, and IL-17, suggesting that A20 induces a protective effect in collagen-induced arthritis mice through suppression of NF-kappaB activation and NF- kappaB-dependent gene expression [51].
+# T35 Protein S15 0 3 2594 2597 A20
+# T36 Protein S15 111 114 2705 2708 TNF
+# T37 Protein S15 116 124 2710 2718 IL-1beta
+# T38 Protein S15 126 130 2720 2724 IL-6
+# T39 Protein S15 140 145 2734 2739 RANKL
+# T40 Protein S15 147 182 2741 2776 monocyte chemo-attractant protein 1
+# T41 Protein S15 211 214 2805 2808 A20
+
+Because TNF and IL-1beta are known to mediate synovitis, pannus formation, and erosion of cartilage and bone in RA, the decreased serum levels of TNF and IL-1beta in A20-transduced mice might explain the beneficial effects in the clinical, pathological, and radiological findings.
+# T42 Protein S16 8 11 2971 2974 TNF
+# T43 Protein S16 16 24 2979 2987 IL-1beta
+# T44 Protein S16 146 149 3109 3112 TNF
+# T45 Protein S16 154 162 3117 3125 IL-1beta
+# T46 Protein S16 166 169 3129 3132 A20
+
+This study also demonstrated that A20 overexpression leads to a decrease in the number of activated osteoclasts in joint tissue.
+# T47 Protein S17 34 37 3278 3281 A20
+
+A20 might therefore minimise joint destruction through decreasing the osteoclast number and activity.
+# T48 Protein S18 0 3 3373 3376 A20
+
+It will be interesting to analyse in future the susceptibility of conditional knockout mice that lack A20 in specific cell types such as synovial fibroblasts, macrophages, dendritic cells, B cells or T cells.
+# T49 Protein S19 102 105 3577 3580 A20
+
+Importantly, several SNPs in the human A20 locus have been associated with increased susceptibility to development of autoimmune pathologies (reviewed in [52]).
+# T50 Protein S20 39 42 3723 3726 A20
+
+Several genome-wide association studies also revealed a clear association between mutations in the A20 locus in the 6q23 chromosome and susceptibility to RA [52].
+# T51 Protein S21 99 102 3944 3947 A20
+
+Although the identified variants are not located in a gene, they are thought to influence A20 as its nearest gene (~150 kb downstream of A20), probably by the presence of potential regulatory DNA elements in this region.
+# T52 Protein S22 90 93 4098 4101 A20
+# T53 Protein S22 137 140 4145 4148 A20
+
+As A20 is required for termination of TNF-induced signals, and TNF is the primary inflammatory cytokine in RA, these findings reveal A20 as a candidate susceptibility locus for RA.
+# T54 Protein S23 3 6 4232 4235 A20
+# T55 Protein S23 38 41 4267 4270 TNF
+# T56 Protein S23 63 66 4292 4295 TNF
+# T57 Protein S23 95 103 4324 4332 cytokine
+# T58 Protein S23 133 136 4362 4365 A20
+
+How these variants affect normal A20 activity and how they cause RA, however, remain unclear.
+# T59 Protein S24 33 36 4443 4446 A20
+
+Recently, Elsby and colleagues functionally evaluated in vitro the regulatory ability of RA-associated SNP variants on A20 promoter activity, and could show repressed A20 transcription for some of the SNPs investigated [53].
+# T60 Protein S25 119 122 4623 4626 A20
+# T61 Protein S25 167 170 4671 4674 A20
+
+It will be of interest to identify the actual causal variants and to elucidate the functional consequences of these variants.
+
+In this context, knockin mice for the corresponding A20 SNPs, combined with mouse models for RA, will be very valuable tools.
+# T62 Protein S27 52 55 4907 4910 A20
+

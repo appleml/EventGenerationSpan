@@ -1,0 +1,25 @@
+Cell activation and apoptosis by bacterial lipoproteins through toll-like receptor-2.
+# T1 Protein S1 64 84 64 84 toll-like receptor-2
+
+Apoptosis is implicated in the generation and resolution of inflammation in response to bacterial pathogens.
+
+All bacterial pathogens produce lipoproteins (BLPs), which trigger the innate immune response.
+
+BLPs were found to induce apoptosis in THP-1 monocytic cells through human Toll-like receptor-2 (hTLR2).
+# T2 Protein S4 69 95 360 386 human Toll-like receptor-2
+# T3 Protein S4 97 102 388 393 hTLR2
+
+BLPs also initiated apoptosis in an epithelial cell line transfected with hTLR2.
+# T4 Protein S5 74 79 470 475 hTLR2
+$ T4 Protein S5 74 79 470 475 hTLR2
+@ T7 Positive_regulation S5 57 68 453 464 transfected
+@ T8 Gene_expression S5 57 68 453 464 transfected
+% E1 Positive_regulation:T7 Theme:E2
+% E2 Gene_expression:T8 Theme:T4
+
+In addition, BLPs stimulated nuclear factor-kappaB, a transcriptional activator of multiple host defense genes, and activated the respiratory burst through hTLR2.
+# T5 Protein S6 156 161 633 638 hTLR2
+
+Thus, hTLR2 is a molecular link between microbial products, apoptosis, and host defense mechanisms.
+# T6 Protein S7 6 11 646 651 hTLR2
+

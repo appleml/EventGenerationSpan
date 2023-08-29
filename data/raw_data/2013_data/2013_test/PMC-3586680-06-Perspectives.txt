@@ -1,0 +1,116 @@
+Whether WWOX affects TMZ sensitivity has never been determined.
+# T1 Protein S1 8 12 8 12 WWOX
+
+Binding proteins for WWOX and/or p53 are likely to affect apoptosis and TMZ sensitivity in GBM cells.
+# T2 Protein S2 21 25 85 89 WWOX
+# T3 Protein S2 33 36 97 100 p53
+
+WWOX binds MEK, and that PMA dissociates this complex for causing apoptosis of T leukemia cells (Lin et al., 2011).
+# T4 Protein S3 0 4 166 170 WWOX
+
+Thus, appropriate chemicals, which break apart the WWOX/MEK complex, are expected to cause GBM cell death.
+
+Preliminary studies from our screening of chemicals have selected certain small molecules that induce apoptosis of many types of cancer cells (Lu et al., unpublished).
+
+Indeed, specific inhibition of MEK by selumetinib enhances TMZ-induced cancer cell death in vivo (Holt et al., 2012).
+
+Serum factors can be utilized for blocking cancer growth.
+
+For example, serum complement C1q induces apoptosis of prostate cancer and neuroblastomas cells without participation of downstream proteins in the classical activation pathway (Hong et al., 2009).
+
+In this event, ectopic WWOX is activated for inducing apoptosis.
+# T5 Protein S9 23 27 954 958 WWOX
+
+Failure of ectopic WWOX in inducing apoptosis of glioma cells possessing wild type p53 is unusual (Chiang et al., 2012).
+# T6 Protein S10 19 23 1015 1019 WWOX
+# T7 Protein S10 83 86 1079 1082 p53
+
+In most cases, we have shown that p53 functionally interacts with WWOX, and both proteins induce apoptosis in a synergistic manner (Chang et al., 2001, 2003, 2005a,b, 2007, 2010, 2012; Su et al., 2012).
+# T8 Protein S11 34 37 1151 1154 p53
+# T9 Protein S11 66 70 1183 1187 WWOX
+
+A likely scenario is that p53-binding proteins, which are present in GBMs, may interfere with the apoptotic function of WWOX and p53.
+# T10 Protein S12 26 29 1346 1349 p53
+# T11 Protein S12 120 124 1440 1444 WWOX
+# T12 Protein S12 129 132 1449 1452 p53
+
+Functional antagonism among tumor suppressors has never been documented in the literature.
+
+However, it is not surprising to find that many tumor suppressor proteins, e.g., p53, WWOX, Smad4, PTEN, PP2A, and etc., are significantly upregulated during the early stage of cancer progression (Lai et al., 2005; Chang et al., unpublished).
+# T13 Protein S14 81 84 1626 1629 p53
+# T14 Protein S14 86 90 1631 1635 WWOX
+# T15 Protein S14 92 97 1637 1642 Smad4
+# T16 Protein S14 99 103 1644 1648 PTEN
+
+Do these proteins act synergistically in blocking cancer progression but lose control eventually?
+
+Or, do they counteract each other's function, thus allowing cancer growth?
+
+Whether endogenous WWOX counteracts with the function of endogenous p53 is unknown and remains to be established.
+# T17 Protein S17 19 23 1980 1984 WWOX
+# T18 Protein S17 68 71 2029 2032 p53
+
+One of the unique characteristics for malignant gliomas is their diffuse infiltration into distant brain tissue.
+
+Signal pathways, involving PI3K, Akt, mTOR, NF-kappaB, and autophagy, are believed to confer these migrating cells resistant to apoptotic death (Lefranc et al., 2005).
+# T19 Protein S19 33 36 2221 2224 Akt
+# T20 Protein S19 38 42 2226 2230 mTOR
+
+Glioma cells possess CD44 as a receptor for interacting with brain matrix hyaluronan (Murai et al., 2004; Yoshida et al., 2012), and secrete hyaluronidases and metalloproteinases to facilitate their migration (Delpech et al., 2002; Junker et al., 2003; Hagemann et al., 2012).
+# T21 Protein S20 21 25 2377 2381 CD44
+
+Also, lack of WWOX expression is expected to enhance cell migration.
+# T22 Protein S21 14 18 2647 2651 WWOX
+
+For example, loss of WWOX facilitates migration of ovarian cancer and osteosarcoma cells (Gourley et al., 2009; Del Mare et al., 2011).
+# T23 Protein S22 21 25 2723 2727 WWOX
+
+Ectopic expression of TIAF1 (TGF-beta-induced antiapoptotic factor), p53, and WWOX suppresses anchorage-independent growth and cell migration and causes apoptosis in cancer cells (Chang et al., 2012).
+# T24 Protein S23 22 27 2860 2865 TIAF1
+# T25 Protein S23 69 72 2907 2910 p53
+# T26 Protein S23 78 82 2916 2920 WWOX
+
+We believe that glioma cells, with stem cell-like properties, migrate individually rather than collectively.
+
+This assumption is based upon our observations that mouse Wwox gene knockout cells (e.g., embryonic fibroblasts) migrate individually and aggressively.
+# T27 Protein S25 58 62 3206 3210 Wwox
+
+In contrast, wild type cells migrate collectively (Chou et al., unpublished).
+
+While a portion of WWOX is anchored on the cell membrane/cytoskeleton, WWOX-negative cells lose recognition by parental WWOX-positive cells, and this increases the mobility of WWOX-negative cells to move away from the WWOX-positive cells.
+# T28 Protein S27 19 23 3397 3401 WWOX
+# T29 Protein S27 71 75 3449 3453 WWOX
+# T30 Protein S27 120 124 3498 3502 WWOX
+# T31 Protein S27 176 180 3554 3558 WWOX
+# T32 Protein S27 218 222 3596 3600 WWOX
+
+Conceivably, WWOX-negative glioma cells migrate individually and turn away from WWOX-expressing brain cells to low WWOX expression areas.
+# T33 Protein S28 13 17 3630 3634 WWOX
+# T34 Protein S28 80 84 3697 3701 WWOX
+# T35 Protein S28 115 119 3732 3736 WWOX
+
+Apparently, the migratory behavior of WWOX-negative glioma cells may account for the diffuse invasion into distant brain tissue (Chou et al., unpublished).
+# T36 Protein S29 38 42 3793 3797 WWOX
+
+Metabolic alterations have been shown in Wwox knockout mice, including postnatal lethality, bone metabolism defects, ataxia, steroidogenesis, and generation of osteosarcomas (Del Mare et al., 2011; Salah et al., 2012).
+# T37 Protein S30 41 45 3952 3956 Wwox
+
+In a Drosophila model, Wwox is shown to participate in pathways involving aerobic metabolism and oxidative stress for generation of ROS (O'Keefe et al., 2011).
+# T38 Protein S31 23 27 4153 4157 Wwox
+
+Under UV stress, functional Wwox gene expression induces ROS production in Drosophila.
+# T39 Protein S32 28 32 4318 4322 Wwox
+
+Cancer cells are known to overly utilize glycolysis for growth advantage - the so-called Warburg (Moncada et al., 2012).
+
+Conceivably, WWOX is likely to override glucose consumption in cancer cells and exerts generation of ROS to curb the cancer cell growth and invasion.
+# T40 Protein S34 13 17 4511 4515 WWOX
+
+In summary, in this perspective article we have discussed the potential role of tumor suppressors p53 and WWOX in regulating TMZ sensitivity in GBM cells.
+# T41 Protein S35 98 101 4746 4749 p53
+# T42 Protein S35 106 110 4754 4758 WWOX
+
+We have shown the role of WWOX in controlling cell migration and metabolic alterations, and discussed the effects of WWOX deficiency and TMZ resistance in cancer cells.
+# T43 Protein S36 26 30 4829 4833 WWOX
+# T44 Protein S36 117 121 4920 4924 WWOX
+

@@ -1,0 +1,94 @@
+Expression of c-fos and c-jun proteins and AP-1 binding activity during cell cycle progression of HL60 cells and phytohemagglutinin-stimulated lymphocytes.
+# T1 Protein S1 14 19 14 19 c-fos
+# T2 Protein S1 24 29 24 29 c-jun
+# T3 Protein S1 113 131 113 131 phytohemagglutinin
+$ T2 Protein S1 24 29 24 29 c-jun
+$ T1 Protein S1 14 19 14 19 c-fos
+@ T26 Gene_expression S1 0 10 0 10 Expression
+% E1 Gene_expression:T26 Theme:T2
+% E2 Gene_expression:T26 Theme:T1
+
+The protein products of the c-fos (p62c-fos) and c-jun (p39c-jun) genes are members of the AP-1 transcription factor family and are thought to play important roles in the regulation of gene expression during the cell cycle.
+# T4 Protein S2 28 33 185 190 c-fos
+# T5 Protein S2 35 43 192 200 p62c-fos
+# T6 Protein S2 49 54 206 211 c-jun
+# T7 Protein S2 56 64 213 221 p39c-jun
+
+Most studies on the expression of these proteins in relation to the cell cycle have been performed at the mRNA level, and therefore do not give direct information about the presence of the proteins during the cell cycle.
+@ T27 Transcription S3 99 116 480 497 at the mRNA level
+@ T28 Gene_expression S3 173 181 554 562 presence
+% E3 Transcription:T27 Theme:T5
+% E4 Transcription:T27 Theme:T7
+% E5 Gene_expression:T28 Theme:T7
+% E6 Gene_expression:T28 Theme:T5
+
+We have used Western blotting to investigate the presence of these proteins during the cell cycles of two different cellular systems: a continuously growing myeloid leukemic cell line, HL60, and normal cells stimulated into cycle, phyto- hemagglutinin (PHA)-stimulated normal human peripheral blood lymphocytes (PBL).
+# T8 Protein S4 231 251 833 853 phyto- hemagglutinin
+# T9 Protein S4 253 256 855 858 PHA
+@ T29 Gene_expression S4 49 57 651 659 presence
+% E7 Gene_expression:T29 Theme:T5
+% E8 Gene_expression:T29 Theme:T7
+
+The binding activity of transcription factor AP-1, which consists of dimers of Fos and Jun family proteins, was also studied using a gel shift assay.
+
+We found nuclear p62c-fos, p39c-jun, and AP-1 binding activity throughout the cell cycle both in HL60 cells and in PHA-stimulated PBL, and we postulate that these proteins are required throughout the cell cycle and not transiently in the G0 to G1 transition as previous mRNA studies have indicated.
+# T10 Protein S6 17 25 1087 1095 p62c-fos
+# T11 Protein S6 27 35 1097 1105 p39c-jun
+# T12 Protein S6 115 118 1185 1188 PHA
+$ T10 Protein S6 17 25 1087 1095 p62c-fos
+$ T11 Protein S6 27 35 1097 1105 p39c-jun
+@ T30 Localization S6 3 8 1073 1078 found
+@ T31 Entity S6 9 16 1079 1086 nuclear
+% E9 Localization:T30 Theme:T10 AtLoc:T31
+% E10 Localization:T30 Theme:T11 AtLoc:T31
+
+We demonstrated an uncoupling of AP-1 binding activity from p62c-fos, and p39c-jun AP-1 activity was expressed more strongly in the G1- and G2/M-phase enriched samples than in the S-phase enriched samples of HL60 cells, while levels of nuclear p62c-fos and p39c-jun were constant.
+# T13 Protein S7 60 68 1429 1437 p62c-fos
+# T14 Protein S7 74 82 1443 1451 p39c-jun
+# T15 Protein S7 244 252 1613 1621 p62c-fos
+# T16 Protein S7 257 265 1626 1634 p39c-jun
+$ T16 Protein S7 257 265 1626 1634 p39c-jun
+$ T15 Protein S7 244 252 1613 1621 p62c-fos
+@ T32 Positive_regulation S7 271 279 1640 1648 constant
+% E11 Positive_regulation:T32 Theme:T16
+% E12 Positive_regulation:T32 Theme:T15
+
+Nuclei of unstimulated PBL from different donors expressed p62c-fos and p39c-jun, but AP-1 was not detected in the majority of samples.
+# T17 Protein S8 59 67 1709 1717 p62c-fos
+# T18 Protein S8 72 80 1722 1730 p39c-jun
+$ T17 Protein S8 59 67 1709 1717 p62c-fos
+$ T18 Protein S8 72 80 1722 1730 p39c-jun
+@ T33 Entity S8 0 6 1650 1656 Nuclei
+@ T34 Localization S8 49 58 1699 1708 expressed
+% E13 Localization:T34 Theme:T17 AtLoc:T33
+% E14 Localization:T34 Theme:T18 AtLoc:T33
+
+Following PHA stimulation of PBL, the increase in AP-1 activity was delayed with respect to the augmentation of p39c-jun expression.
+# T19 Protein S9 10 13 1796 1799 PHA
+# T20 Protein S9 112 120 1898 1906 p39c-jun
+$ T20 Protein S9 112 120 1898 1906 p39c-jun
+@ T35 Positive_regulation S9 96 108 1882 1894 augmentation
+@ T36 Gene_expression S9 121 131 1907 1917 expression
+% E15 Positive_regulation:T35 Theme:E16
+% E16 Gene_expression:T36 Theme:T20
+
+We also observed that cytoplasmic p62c-fos and p39c-jun were present in HL60 cells and PHA-stimulated PBL.
+# T21 Protein S10 34 42 1953 1961 p62c-fos
+# T22 Protein S10 47 55 1966 1974 p39c-jun
+# T23 Protein S10 87 90 2006 2009 PHA
+$ T22 Protein S10 47 55 1966 1974 p39c-jun
+$ T21 Protein S10 34 42 1953 1961 p62c-fos
+@ T37 Gene_expression S10 61 68 1980 1987 present
+% E17 Gene_expression:T37 Theme:T22
+% E18 Gene_expression:T37 Theme:T21
+
+However, no cytoplasmic p62c-fos was detected in unstimulated PBL, although in some cases cytoplasmic p39c-jun was detected, suggesting that subcellular compartmentalization of these proteinsmay occur under certain circumstances.
+# T24 Protein S11 24 32 2050 2058 p62c-fos
+# T25 Protein S11 102 110 2128 2136 p39c-jun
+$ T24 Protein S11 24 32 2050 2058 p62c-fos
+$ T25 Protein S11 102 110 2128 2136 p39c-jun
+@ T38 Gene_expression S11 37 45 2063 2071 detected
+@ T39 Gene_expression S11 115 123 2141 2149 detected
+% E19 Gene_expression:T38 Theme:T24
+% E20 Gene_expression:T39 Theme:T25
+

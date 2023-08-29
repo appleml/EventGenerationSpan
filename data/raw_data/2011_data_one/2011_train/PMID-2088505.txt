@@ -1,0 +1,36 @@
+A novel T-cell trans-activator that recognizes a phorbol ester-inducible element of the interleukin-2 promoter.
+# T1 Protein S1 88 101 88 101 interleukin-2
+$ T1 Protein S1 88 101 88 101 interleukin-2
+@ T10 Binding S1 36 46 36 46 recognizes
+@ T11 Entity S1 49 80 49 80 phorbol ester-inducible element
+% E1 Binding:T10 Theme:T1 Site:T11
+
+The interleukin 2 (IL-2) gene promoter is recognized by several cell-type-specific and ubiquitous transcriptional regulators that integrate information transmitted by various signaling systems leading to IL-2 production and T-cell activation.
+# T2 Protein S2 4 17 117 130 interleukin 2
+# T3 Protein S2 19 23 132 136 IL-2
+# T4 Protein S2 204 208 317 321 IL-2
+$ T2 Protein S2 4 17 117 130 interleukin 2
+$ T4 Protein S2 204 208 317 321 IL-2
+@ T12 Entity S2 30 38 143 151 promoter
+@ T13 Binding S2 42 52 155 165 recognized
+@ T14 Positive_regulation S2 193 200 306 313 leading
+@ T15 Gene_expression S2 209 219 322 332 production
+% E2 Binding:T13 Theme:T2 Site:T12
+% E3 Positive_regulation:T14 Theme:E4
+% E4 Gene_expression:T15 Theme:T4
+
+Using a combination of transfection, protein-DNA binding, and in vitro transcription methods, we have discovered the novel T-cell-specific transcriptional activator TCF-1 (for T-Cell Factor-1), which recognizes a T-cell-specific response element (TCE) located within the IL-2 promoter.
+# T5 Protein S3 165 170 521 526 TCF-1
+# T6 Protein S3 176 191 532 547 T-Cell Factor-1
+# T7 Protein S3 271 275 627 631 IL-2
+$ T5 Protein S3 165 170 521 526 TCF-1
+@ T16 Binding S3 200 210 556 566 recognizes
+% E5 Binding:T16 Theme:T5
+
+Although the TCE is similar in sequence to a consensus NF kappa B site, several criteria indicate that TCF-1 is distinct from NF kappa B. However, like NF kappa B, TCF-1 activity is induced by phorbol esters and other T-cell activators.
+# T8 Protein S4 103 108 745 750 TCF-1
+# T9 Protein S4 164 169 806 811 TCF-1
+$ T9 Protein S4 164 169 806 811 TCF-1
+@ T17 Positive_regulation S4 182 189 824 831 induced
+% E6 Positive_regulation:T17 Theme:T9
+

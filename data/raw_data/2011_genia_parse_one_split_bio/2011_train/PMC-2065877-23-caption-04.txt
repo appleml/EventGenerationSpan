@@ -1,0 +1,11 @@
+Summary	NN	B-NP	O	Other	Other	Other	Other	Other	###	1	Summary	Summary	NN	NN	_	0	root	_	_
+of	IN	B-PP	O	Other	Other	Other	Other	Other	###	2	of	of	IN	IN	_	3	case	_	_
+Analysis	NN	B-NP	O	Other	Other	Other	Other	Other	###	3	Analysis	Analysis	NN	NN	_	1	nmod	_	_
+Performed	VBN	B-VP	O	Other	Other	Other	Other	Other	###	4	Performed	Performed	VBN	VBN	_	3	acl	_	_
+on	IN	B-PP	O	Other	Other	Other	Other	Other	###	5	on	on	IN	IN	_	10	case	_	_
+Wild-Type	NN	B-NP	B-protein	Other	Other	Other	Other	Other	###	6	Wild-Type	Wild-Type	NN	NN	_	4	nmod	_	_
+and	CC	I-NP	O	Other	Other	Other	Other	Other	###	7	and	and	CC	CC	_	6	cc	_	_
+LMP1	NN	I-NP	B-protein	B-Protein	Other	Other	B-Protein	Other	###	8	LMP1	LMP1	NN	NN	_	9	nmod:npmod	_	_
+Transgenic	JJ	I-NP	O	Other	Other	Other	Other	B-Gene_expression	###	9	Transgenic	Transgenic	JJ	JJ	_	6	conj	_	_
+Lymphomas	NNS	I-NP	O	Other	Other	Other	Other	Other	###	10	Lymphomas	Lymphomas	NNS	NNS	_	6	dep	_	_
+

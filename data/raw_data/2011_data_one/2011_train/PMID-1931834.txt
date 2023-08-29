@@ -1,0 +1,37 @@
+Synergism between two distinct elements of the HTLV-I enhancer during activation by the trans-activator of HTLV-I.
+
+We have conducted functional studies of the enhancer elements of human T-cell leukemia virus type I (HTLV-I) using the human T-cell lines Jurkat and MOLT 4, which are negative for HTLV-I, and MT-2 and TL-Mor, which carry the proviral genome of HTLV-I.
+
+Two distinct elements have been implicated in function of the HTLV-I enhancer.
+
+One is the 21-base-pair (bp) core element that is responsible for trans-activation by the HTLV-I trans-activator p40tax and that has the ability to bind to cyclic-AMP responsive element binding factor (CREB)-like factor(s).
+# T1 Protein S4 113 119 560 566 p40tax
+# T2 Protein S4 156 200 603 647 cyclic-AMP responsive element binding factor
+# T3 Protein S4 202 206 649 653 CREB
+$ T3 Protein S4 202 206 649 653 CREB
+@ T11 Binding S4 148 152 595 599 bind
+% E1 Binding:T11 Theme:T3
+
+The other is a region interposed between the 21-bp elements.
+
+In this study we demonstrate that a subfragment (C26) in the region between the 21-bp elements is involved in trans-activation by p40tax, possibly through binding to an NF-kappa B-like nuclear factor or factors.
+# T4 Protein S6 130 136 862 868 p40tax
+
+Formation of the protein-DNA complex with the C26 subfragment was positively affected by p40tax.
+# T5 Protein S7 89 95 1033 1039 p40tax
+
+The C26 element conferred partial responsiveness to p40tax when linked to one copy of the 21-bp element that, by itself, showed little activation in response to p40tax.
+# T6 Protein S8 52 58 1093 1099 p40tax
+# T7 Protein S8 161 167 1202 1208 p40tax
+
+However, the C26 element alone, even when repeated, could not be activated by p40tax, unlike other NF-kappa B-binding elements.
+# T8 Protein S9 78 84 1288 1294 p40tax
+
+In contrast, the C26 element itself was profoundly activated upon stimulation with 12-O-tetradecanoylphorbol-13-acetate.
+
+These findings therefore suggest that the HTLV-I enhancer contains multiple functional elements, including binding sites for at least CREB- and NF-kappa B-like factors, which synergistically cooperate in activation of the HTLV-I enhancer in response to p40tax.
+# T9 Protein S11 134 138 1593 1597 CREB
+# T10 Protein S11 253 259 1712 1718 p40tax
+
+Our results also demonstrate that TPA-dependent activation of the HTLV-I enhancer may be mediated through the C26 element.
+

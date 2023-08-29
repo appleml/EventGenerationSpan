@@ -1,0 +1,59 @@
+Relationship between IkappaBalpha constitutive expression, TNFalpha synthesis, and apoptosis in EBV-infected lymphoblastoid cells.
+# T1 Protein S1 21 33 21 33 IkappaBalpha
+# T2 Protein S1 59 67 59 67 TNFalpha
+$ T1 Protein S1 21 33 21 33 IkappaBalpha
+$ T2 Protein S1 59 67 59 67 TNFalpha
+@ T11 Gene_expression S1 47 57 47 57 expression
+@ T12 Gene_expression S1 68 77 68 77 synthesis
+% E1 Gene_expression:T11 Theme:T1
+% E2 Gene_expression:T12 Theme:T2
+
+In order to understand the role of NF-kappaB in EBV transformation we have established stably transfected IkappaBalpha into lymphoblastoid cells.
+# T3 Protein S2 106 118 238 250 IkappaBalpha
+$ T3 Protein S2 106 118 238 250 IkappaBalpha
+@ T13 Gene_expression S2 87 105 219 237 stably transfected
+@ T14 Positive_regulation S2 87 105 219 237 stably transfected
+% E3 Gene_expression:T13 Theme:T3
+% E4 Positive_regulation:T14 Theme:E3
+
+Two clones were obtained in which the loss of NF-kappaB binding activity correlated with the constitutive expression of the transgenic IkappaBalpha.
+# T4 Protein S3 135 147 413 425 IkappaBalpha
+$ T4 Protein S3 135 147 413 425 IkappaBalpha
+@ T15 Gene_expression S3 93 116 371 394 constitutive expression
+% E5 Gene_expression:T15 Theme:T4
+
+Protein latency expression was determined by immunocytochemistry.
+
+Expression of surface markers, intracytoplasmic content of cytokines cell cycle analysis after BrdU incorporation and DNA staining with propidium iodide were studied by flow cytometry.
+
+Percentage of apoptotic cells was determined by in-situ labelling of DNA strand breaks.
+
+No significative changes in EBV latency nor in cell surface marker expression was found.
+
+In contrast, intracytoplasmic TNFalpha levels were strongly reduced in transfected clones.
+# T5 Protein S8 30 38 885 893 TNFalpha
+$ T5 Protein S8 30 38 885 893 TNFalpha
+@ T16 Negative_regulation S8 60 67 915 922 reduced
+% E6 Negative_regulation:T16 Theme:T5
+
+Furthermore, 30% of IkappaBalpha transfected cells were apoptotic after 8 h of TNFalpha treatment.
+# T6 Protein S9 20 32 966 978 IkappaBalpha
+# T7 Protein S9 79 87 1025 1033 TNFalpha
+$ T6 Protein S9 20 32 966 978 IkappaBalpha
+@ T17 Gene_expression S9 33 44 979 990 transfected
+@ T18 Positive_regulation S9 33 44 979 990 transfected
+% E7 Gene_expression:T17 Theme:T6
+% E8 Positive_regulation:T18 Theme:E7
+
+This correlated with a strong reduction of BrdU incorporation after 24 h of TNFalpha treatment.
+# T8 Protein S10 76 84 1121 1129 TNFalpha
+
+No effect was seen with non transfected cells or with cells transfected with a control plasmid.
+
+Our results suggest that the TNFalpha gene could be one of the targets of NF-kappaB in EBV infected cells and that NF-kappaB protects EBV-infected cells from apoptosis induced by TNFalpha, which may favour the proliferative effect of this cytokine.
+# T9 Protein S12 29 37 1266 1274 TNFalpha
+# T10 Protein S12 179 187 1416 1424 TNFalpha
+$ T9 Protein S12 29 37 1266 1274 TNFalpha
+@ T19 Regulation S12 63 70 1300 1307 targets
+% E9 Regulation:T19 Theme:T9
+

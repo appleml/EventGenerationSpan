@@ -1,0 +1,29 @@
+The Epstein-Barr virus (EBV) BMRF1 promoter for early antigen (EA-D) is regulated by the EBV transactivators, BRLF1 and BZLF1, in a cell-specific manner.
+# T1 Protein S1 29 34 29 34 BMRF1
+# T2 Protein S1 63 67 63 67 EA-D
+# T3 Protein S1 110 115 110 115 BRLF1
+# T4 Protein S1 120 125 120 125 BZLF1
+
+The Epstein-Barr virus early antigen diffuse component (EA-D) is essential for Epstein-Barr virus DNA polymerase activity, and its activity is suppressed during latent infection.
+# T5 Protein S2 56 60 211 215 EA-D
+
+We investigated the regulation of the promoter (BMRF1) for this early gene by studying its responsiveness in vitro to two immediate-early viral transactivators, BZLF1 (Z) and BRLF1 (R), focusing on the differences in response in lymphoid cells and epithelial cells.
+# T6 Protein S3 48 53 382 387 BMRF1
+# T7 Protein S3 161 166 495 500 BZLF1
+# T8 Protein S3 175 180 509 514 BRLF1
+
+In lymphoid cells, Z or R alone produced only small increases in EA-D promoter activity, whereas both transactivators together produced a large stimulatory effect.
+# T9 Protein S4 65 69 665 669 EA-D
+
+In epithelial cells, the Z transactivator alone produced maximal stimulation of the EA-D promoter; the effect of R and Z together was no greater than that of Z alone.
+# T10 Protein S5 84 88 848 852 EA-D
+
+Deletional analysis and site-directed mutagenesis of the EA-D promoter demonstrated that in epithelial cells the potential AP-1 binding site plays an essential role in Z responsiveness, although sequences further upstream are also important.
+# T11 Protein S6 57 61 988 992 EA-D
+
+In lymphoid cells, only the upstream sequences are required for transactivation by the Z/R combination, and the AP-1 site is dispensable.
+
+These data suggest that EA-D (BMRF1) promoter regulation by Z and R is cell type specific and appears to involve different mechanisms in each cell type.
+# T12 Protein S8 24 28 1335 1339 EA-D
+# T13 Protein S8 30 35 1341 1346 BMRF1
+

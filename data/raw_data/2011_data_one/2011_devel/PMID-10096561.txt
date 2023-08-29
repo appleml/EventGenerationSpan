@@ -1,0 +1,109 @@
+Stimulation of CD40 on immunogenic human malignant melanomas augments their cytotoxic T lymphocyte-mediated lysis and induces apoptosis.
+# T1 Protein S1 15 19 15 19 CD40
+$ T1 Protein S1 15 19 15 19 CD40
+@ T31 Positive_regulation S1 0 11 0 11 Stimulation
+% E1 Positive_regulation:T31 Theme:T1
+
+Here, we report the functional expression of CD40 on human malignant melanomas (MMs).
+# T2 Protein S2 45 49 183 187 CD40
+$ T2 Protein S2 45 49 183 187 CD40
+@ T32 Gene_expression S2 31 41 169 179 expression
+% E2 Gene_expression:T32 Theme:T2
+
+Comparison of tumor specimen from MM precursor lesions, primary tumors, and metastases revealed that CD40 surface expression is down-regulated during tumor progression.
+# T3 Protein S3 101 105 325 329 CD40
+$ T3 Protein S3 101 105 325 329 CD40
+@ T33 Gene_expression S3 114 124 338 348 expression
+@ T34 Negative_regulation S3 128 142 352 366 down-regulated
+% E3 Gene_expression:T33 Theme:T3
+% E4 Negative_regulation:T34 Theme:E3
+
+CD40 expression was confirmed in 7 human MM cell lines established from immunogenic primary tumors or metastases, whereas 11 cell lines established from advanced stages were CD40 negative.
+# T4 Protein S4 0 4 393 397 CD40
+# T5 Protein S4 174 178 567 571 CD40
+$ T4 Protein S4 0 4 393 397 CD40
+$ T5 Protein S4 174 178 567 571 CD40
+@ T35 Gene_expression S4 5 15 398 408 expression
+@ T36 Gene_expression S4 179 187 572 580 negative
+% E5 Gene_expression:T35 Theme:T4
+% E6 Gene_expression:T36 Theme:T5
+
+CD40 expression could be enhanced in CD40-positive MM by stimulation with IFN-gamma and tumor necrosis factor-alpha but not by interleukin (IL)-1beta or CD40 triggering.
+# T6 Protein S5 0 4 582 586 CD40
+# T7 Protein S5 37 41 619 623 CD40
+# T8 Protein S5 74 83 656 665 IFN-gamma
+# T9 Protein S5 88 115 670 697 tumor necrosis factor-alpha
+# T10 Protein S5 127 149 709 731 interleukin (IL)-1beta
+# T11 Protein S5 153 157 735 739 CD40
+$ T6 Protein S5 0 4 582 586 CD40
+$ T9 Protein S5 88 115 670 697 tumor necrosis factor-alpha
+$ T10 Protein S5 127 149 709 731 interleukin (IL)-1beta
+$ T11 Protein S5 153 157 735 739 CD40
+$ T8 Protein S5 74 83 656 665 IFN-gamma
+@ T37 Gene_expression S5 5 15 587 597 expression
+@ T38 Positive_regulation S5 25 33 607 615 enhanced
+% E7 Gene_expression:T37 Theme:T6
+% E8 Positive_regulation:T38 Theme:E7 Cause:T9
+% E9 Positive_regulation:T38 Theme:E7 Cause:T10
+% E10 Positive_regulation:T38 Theme:E7 Cause:T11
+% E11 Positive_regulation:T38 Theme:E7 Cause:T8
+
+CD40 ligation on MM by CD40L-transfected murine L-cells or by a soluble CD40L fusion protein up-regulated their expression of intercellular adhesion molecule-1 and MHC class I and class II molecules and their secretion of IL-6, IL-8, tumor necrosis factor-a, and granulocyte macrophage colony-stimulating factor and also induced a rapid activation of the transcription factor nuclear factor kappaB.
+# T12 Protein S6 0 4 752 756 CD40
+# T13 Protein S6 23 28 775 780 CD40L
+# T14 Protein S6 72 77 824 829 CD40L
+# T15 Protein S6 126 159 878 911 intercellular adhesion molecule-1
+# T16 Protein S6 222 226 974 978 IL-6
+# T17 Protein S6 228 232 980 984 IL-8
+# T18 Protein S6 234 257 986 1009 tumor necrosis factor-a
+# T19 Protein S6 263 311 1015 1063 granulocyte macrophage colony-stimulating factor
+$ T12 Protein S6 0 4 752 756 CD40
+$ T14 Protein S6 72 77 824 829 CD40L
+$ T15 Protein S6 126 159 878 911 intercellular adhesion molecule-1
+$ T18 Protein S6 234 257 986 1009 tumor necrosis factor-a
+$ T17 Protein S6 228 232 980 984 IL-8
+$ T19 Protein S6 263 311 1015 1063 granulocyte macrophage colony-stimulating factor
+$ T16 Protein S6 222 226 974 978 IL-6
+@ T39 Binding S6 5 13 757 765 ligation
+@ T40 Positive_regulation S6 93 105 845 857 up-regulated
+@ T41 Gene_expression S6 112 122 864 874 expression
+@ T42 Localization S6 209 218 961 970 secretion
+% E12 Binding:T39 Theme:T12 Theme2:T14
+% E13 Positive_regulation:T40 Theme:E18 Cause:E12
+% E14 Positive_regulation:T40 Theme:E22 Cause:E12
+% E15 Positive_regulation:T40 Theme:E20 Cause:E12
+% E16 Positive_regulation:T40 Theme:E21 Cause:E12
+% E17 Positive_regulation:T40 Theme:E19 Cause:E12
+% E18 Gene_expression:T41 Theme:T15
+% E19 Localization:T42 Theme:T18
+% E20 Localization:T42 Theme:T17
+% E21 Localization:T42 Theme:T19
+% E22 Localization:T42 Theme:T16
+
+Furthermore, CD40 ligation of a HLA-A2+, MelanA/MART1+ MM cell line enhanced its susceptibility to specific lysis by a HLA-A2-restricted, MelanA/MART-1-specific CTL clone.
+# T20 Protein S7 13 17 1164 1168 CD40
+# T21 Protein S7 32 38 1183 1189 HLA-A2
+# T22 Protein S7 41 47 1192 1198 MelanA
+# T23 Protein S7 48 53 1199 1204 MART1
+# T24 Protein S7 119 125 1270 1276 HLA-A2
+# T25 Protein S7 138 144 1289 1295 MelanA
+# T26 Protein S7 145 151 1296 1302 MART-1
+$ T20 Protein S7 13 17 1164 1168 CD40
+@ T43 Binding S7 18 26 1169 1177 ligation
+% E23 Binding:T43 Theme:T20
+
+Finally, CD40 ligation induced growth inhibition and apoptosis in MM.
+# T27 Protein S8 9 13 1332 1336 CD40
+$ T27 Protein S8 9 13 1332 1336 CD40
+@ T44 Binding S8 14 22 1337 1345 ligation
+% E24 Binding:T44 Theme:T27
+
+These results indicate that CD40-CD40L interactions may play an important role in augmenting antitumor immunity and inducing apoptosis in some CD40-positive immunogenic human MMs.
+# T28 Protein S9 28 32 1421 1425 CD40
+# T29 Protein S9 33 38 1426 1431 CD40L
+# T30 Protein S9 143 147 1536 1540 CD40
+$ T28 Protein S9 28 32 1421 1425 CD40
+$ T29 Protein S9 33 38 1426 1431 CD40L
+@ T45 Binding S9 39 51 1432 1444 interactions
+% E25 Binding:T45 Theme:T28 Theme2:T29
+

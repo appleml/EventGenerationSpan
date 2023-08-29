@@ -1,0 +1,37 @@
+Tyrphostin AG-490 inhibits cytokine-mediated JAK3/STAT5a/b signal transduction and cellular proliferation of antigen-activated human T cells.
+# T1 Protein S1 45 49 45 49 JAK3
+# T2 Protein S1 50 56 50 56 STAT5a
+# T3 Protein S1 57 58 57 58 b
+
+Janus kinase 3 (JAK3) is a cytoplasmic tyrosine kinase required for T cell development and activated by cytokines that utilize the interleukin-2 (IL-2) receptor common gamma chain (gamma(c)).
+# T4 Protein S2 0 14 143 157 Janus kinase 3
+# T5 Protein S2 16 20 159 163 JAK3
+# T6 Protein S2 131 179 274 322 interleukin-2 (IL-2) receptor common gamma chain
+# T7 Protein S2 181 189 324 332 gamma(c)
+
+Genetic inactivation of JAK3 is manifested as severe combined immunodeficiency disease (SCID) in humans and mice.
+# T8 Protein S3 24 28 359 363 JAK3
+
+These findings have suggested that JAK3 represents a pharmacological target to control certain lymphoid-derived diseases.
+# T9 Protein S4 35 39 484 488 JAK3
+
+Here we provide novel evidence that AG-490 potently inhibits the autokinase activity of JAK3 and tyrosine phosphorylation and DNA binding of signal transducer and activator of transcription 5a and 5b (STAT5a/b).
+# T10 Protein S5 88 92 659 663 JAK3
+# T11 Protein S5 141 192 712 763 signal transducer and activator of transcription 5a
+# T12 Protein S5 197 199 768 770 5b
+# T13 Protein S5 201 207 772 778 STAT5a
+# T14 Protein S5 208 209 779 780 b
+
+Similar inhibitory effects were observed with other cytokines that use gamma(c).
+# T15 Protein S6 71 79 854 862 gamma(c)
+
+AG-490 also inhibited IL-2-mediated proliferative growth in human T cells with an IC50) = 25 microM that was partially recoverable.
+# T16 Protein S7 22 26 886 890 IL-2
+
+Moreover, we demonstrate that this inhibitor prevented tetanus toxoid antigen-specific T cell proliferation and expansion but failed to block activation of Zap70 or p56Lck after anti-CD3 stimulation of human T cells.
+# T17 Protein S8 156 161 1152 1157 Zap70
+# T18 Protein S8 165 171 1161 1167 p56Lck
+
+Taken together, these findings suggest that AG-490 inhibits the JAK3-mediated Type II signaling pathway but not the T cell receptor-derived Type I pathway and possesses therapeutic potential for T cell-derived pathologies such as graft-versus-host disease, allergy, and autoimmune disorders.
+# T19 Protein S9 64 68 1277 1281 JAK3
+

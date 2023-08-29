@@ -1,0 +1,29 @@
+Regulation of gene expression with double-stranded phosphorothioate oligonucleotides.
+
+Alteration of gene transcription by inhibition of specific transcriptional regulatory proteins is necessary for determining how these factors participate in cellular differentiation.
+
+The functions of these proteins can be antagonized by several methods, each with specific limitations.
+
+Inhibition of sequence-specific DNA-binding proteins was achieved with double-stranded (ds) phosphorothioate oligonucleotides that contained octamer or kappa B consensus sequences.
+
+The phosphorothioate oligonucleotides specifically bound either octamer transcription factor or nuclear factor (NF)-kappa B.
+
+The modified oligonucleotides accumulated in cells more effectively than standard ds oligonucleotides and modulated gene expression in a specific manner.
+
+Octamer-dependent activation of a reporter plasmid or NF-kappa B-dependent activation of the human immunodeficiency virus (HIV) enhancer was inhibited when the appropriate phosphorothioate oligonucleotide was added to a transiently transfected B cell line.
+
+Addition of phosphorothioate oligonucleotides that contained the octamer consensus to Jurkat T leukemia cells inhibited interleukin-2 (IL-2) secretion to a degree similar to that observed with a mutated octamer site in the IL-2 enhancer.
+# T1 Protein S8 120 133 1210 1223 interleukin-2
+# T2 Protein S8 135 139 1225 1229 IL-2
+# T3 Protein S8 223 227 1313 1317 IL-2
+$ T3 Protein S8 223 227 1313 1317 IL-2
+$ T2 Protein S8 135 139 1225 1229 IL-2
+@ T4 Negative_regulation S8 110 119 1200 1209 inhibited
+@ T5 Localization S8 141 150 1231 1240 secretion
+@ T6 Entity S8 195 215 1285 1305 mutated octamer site
+% E1 Negative_regulation:T4 Theme:E3 Cause:T3 CSite:T6
+% E2 Negative_regulation:T4 Theme:E3
+% E3 Localization:T5 Theme:T2
+
+The ds phosphorothioate oligonucleotides probably compete for binding of specific transcription factors and may provide anti-viral, immunosuppressive, or other therapeutic effects.
+

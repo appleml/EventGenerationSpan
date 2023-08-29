@@ -1,0 +1,25 @@
+Culture of CD4+ T cells
+# T1 Protein S1 11 14 11 14 CD4
+
+PB CD4+ T-cell populations were resuspended at a density of 1 x 106 cells/ml in culture medium with 10% FCS, and 0.5 ml cell suspensions were dispensed into the wells of 24-well microtiter plates (Coster) coated with 1 mug/ml anti-CD3 mAb (Immunotech, Marseille, France).
+# T2 Protein S2 3 6 27 30 CD4
+
+The cells were incubated with 1 mug/ml anti-CD28 mAb (Immunotech) in the presence or absence of the indicated concentrations of IL-10 (Becton Dickinson, San Jose, CA, USA) at 37degreesC in a humidified atmosphere containing 5% CO2 [28].
+# T3 Protein S3 44 48 340 344 CD28
+# T4 Protein S3 128 133 424 429 IL-10
+
+Culture supernatants were collected 36 hours later and cell-free samples were stored at -30degreesC until cytokine assay.
+
+To examine the effect of IL-6 on T-cell responsiveness to IL-10, CD4+ T cells from healthy controls were incubated in culture medium with 10% FCS in the presence or absence of 10 ng/ml IL-6 (Becton Dickinson) for 36 hours.
+# T5 Protein S5 25 29 680 684 IL-6
+# T6 Protein S5 58 63 713 718 IL-10
+# T7 Protein S5 65 68 720 723 CD4
+# T8 Protein S5 185 189 840 844 IL-6
+
+Cells were then stimulated for 36 hours with anti-CD3 mAb and anti-CD28 mAb in the presence or absence of 1 ng/ml IL-10.
+# T9 Protein S6 67 71 945 949 CD28
+# T10 Protein S6 114 119 992 997 IL-10
+
+Culture supernatants were measured for IFN-gamma concentrations.
+# T11 Protein S7 39 48 1038 1047 IFN-gamma
+

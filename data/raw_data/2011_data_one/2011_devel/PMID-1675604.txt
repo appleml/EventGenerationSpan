@@ -1,0 +1,79 @@
+Inhibition of transcription factors belonging to the rel/NF-kappa B family by a transdominant negative mutant.
+
+The KBF1 factor, which binds to the enhancer A located in the promoter of the mouse MHC class I gene H-2Kb, is indistinguishable from the p50 DNA binding subunit of the transcription factor NF-kappa B, which regulates a series of genes involved in immune and inflammatory responses.
+# T1 Protein S2 4 8 116 120 KBF1
+# T2 Protein S2 101 106 213 218 H-2Kb
+# T3 Protein S2 138 141 250 253 p50
+$ T1 Protein S2 4 8 116 120 KBF1
+$ T2 Protein S2 101 106 213 218 H-2Kb
+@ T18 Binding S2 23 28 135 140 binds
+@ T19 Entity S2 36 46 148 158 enhancer A
+% E1 Binding:T18 Theme:T1 Theme2:T2 Site2:T19
+
+The KBF1/p50 factor binds as a homodimer but can also form heterodimers with the products of other members of the same family, like the c-rel and v-rel (proto)oncogenes.
+# T4 Protein S3 4 8 399 403 KBF1
+# T5 Protein S3 9 12 404 407 p50
+# T6 Protein S3 136 141 531 536 c-rel
+# T7 Protein S3 146 151 541 546 v-rel
+$ T4 Protein S3 4 8 399 403 KBF1
+$ T5 Protein S3 9 12 404 407 p50
+$ T6 Protein S3 136 141 531 536 c-rel
+$ T7 Protein S3 146 151 541 546 v-rel
+@ T20 Binding S3 20 40 415 435 binds as a homodimer
+@ T21 Binding S3 54 71 449 466 form heterodimers
+% E2 Binding:T20 Theme:T4
+% E3 Binding:T20 Theme:T5
+% E4 Binding:T21 Theme:T4 Theme2:T6
+% E5 Binding:T21 Theme:T5 Theme2:T7
+% E6 Binding:T21 Theme:T5 Theme2:T6
+% E7 Binding:T21 Theme:T4 Theme2:T7
+
+The dimerization domain of KBF1/p50 is contained between amino acids 201 and 367.
+# T8 Protein S4 27 31 592 596 KBF1
+# T9 Protein S4 32 35 597 600 p50
+
+A mutant of KBF1/p50 (delta SP), unable to bind to DNA but able to form homo- or heterodimers, has been constructed.
+# T10 Protein S5 12 16 659 663 KBF1
+# T11 Protein S5 17 20 664 667 p50
+$ T11 Protein S5 17 20 664 667 p50
+$ T10 Protein S5 12 16 659 663 KBF1
+@ T22 Binding S5 43 47 690 694 bind
+@ T23 Binding S5 67 77 714 724 form homo-
+@ T24 Binding S5 81 93 728 740 heterodimers
+% E8 Binding:T22 Theme:T11
+% E9 Binding:T22 Theme:T10
+% E10 Binding:T23 Theme:T11
+% E11 Binding:T23 Theme:T10
+% E12 Binding:T24 Theme:T6 Theme2:T11
+% E13 Binding:T24 Theme:T7 Theme2:T11
+% E14 Binding:T24 Theme:T6 Theme2:T10
+% E15 Binding:T24 Theme:T7 Theme2:T10
+
+This protein reduces or abolishes in vitro the DNA binding activity of wild-type proteins of the same family (KBF1/p50, c- and v-rel).
+# T12 Protein S6 110 114 874 878 KBF1
+# T13 Protein S6 115 118 879 882 p50
+# T14 Protein S6 120 122 884 886 c-
+# T15 Protein S6 127 132 891 896 v-rel
+$ T15 Protein S6 127 132 891 896 v-rel
+$ T13 Protein S6 115 118 879 882 p50
+$ T12 Protein S6 110 114 874 878 KBF1
+$ T14 Protein S6 120 122 884 886 c-
+@ T25 Negative_regulation S6 13 33 777 797 reduces or abolishes
+@ T26 Binding S6 51 58 815 822 binding
+% E16 Negative_regulation:T25 Theme:E22 Cause:T11
+% E17 Negative_regulation:T25 Theme:E21 Cause:T11
+% E18 Negative_regulation:T25 Theme:E20 Cause:T11
+% E19 Negative_regulation:T25 Theme:E23 Cause:T11
+% E20 Binding:T26 Theme:T15
+% E21 Binding:T26 Theme:T13
+% E22 Binding:T26 Theme:T12
+% E23 Binding:T26 Theme:T14
+
+This mutant also functions in vivo as a trans-acting dominant negative regulator: the transcriptional inducibility of the HIV long terminal repeat (which contains two potential NF-kappa B binding sites) by phorbol ester (PMA) is inhibited when it is co-transfected into CD4+ T cells with the delta SP mutant.
+# T16 Protein S7 270 273 1169 1172 CD4
+
+Similarly the basal as well as TNF or IL1-induced activity of the MHC class I H-2Kb promoter can be inhibited by this mutant in two different cell lines.
+# T17 Protein S8 78 83 1286 1291 H-2Kb
+
+These results constitute the first formal demonstration that these genes are regulated by members of the rel/NF-kappa B family.
+

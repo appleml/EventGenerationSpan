@@ -1,0 +1,55 @@
+New immunosuppressive drug PNU156804 blocks IL-2-dependent proliferation and NF-kappa B and AP-1 activation.
+# T1 Protein S1 44 48 44 48 IL-2
+
+We had previously shown that the drug undecylprodigiosin (UP) blocks human lymphocyte proliferation in vitro.
+
+We have now investigated the mechanism of action of a new analogue of UP, PNU156804, which shows a more favorable activity profile than UP in mice.
+
+We demonstrate here that the biological effect of PNU156804 in vitro is indistinguishable from UP: PNU156804 blocks human T cell proliferation in mid-late G1, as determined by cell cycle analysis, expression of cyclins, and cyclin-dependent kinases and retinoblastoma phosphorylation.
+
+In addition, we show that PNU156804 does not block significantly the induction of either IL-2 or IL-2R alpha- and gamma-chains but inhibits IL-2-dependent T cell proliferation.
+# T2 Protein S5 89 93 742 746 IL-2
+# T3 Protein S5 140 144 793 797 IL-2
+$ T2 Protein S5 89 93 742 746 IL-2
+@ T10 Negative_regulation S5 45 50 698 703 block
+@ T11 Positive_regulation S5 69 78 722 731 induction
+% E1 Negative_regulation:T10 Theme:E2
+% E2 Positive_regulation:T11 Theme:T2
+
+We have investigated several molecular pathways that are known to be activated by IL-2 in T cells.
+# T4 Protein S6 82 86 912 916 IL-2
+
+We show that PNU156804 does not inhibit c-myc and bcl-2 mRNA induction.
+# T5 Protein S7 40 45 969 974 c-myc
+# T6 Protein S7 50 55 979 984 bcl-2
+$ T5 Protein S7 40 45 969 974 c-myc
+$ T6 Protein S7 50 55 979 984 bcl-2
+@ T12 Negative_regulation S7 32 39 961 968 inhibit
+@ T13 Positive_regulation S7 61 70 990 999 induction
+% E3 Negative_regulation:T12 Theme:E6
+% E4 Negative_regulation:T12 Theme:E5
+% E5 Positive_regulation:T13 Theme:T5
+% E6 Positive_regulation:T13 Theme:T6
+
+On the other hand, PNU156804 efficiently inhibits the activation of the NF-kappa B and AP-1 transcription factors.
+
+PNU156804 inhibition of NF-kappa B activation is due to the inhibition of the degradation of I kappa B-alpha and I kappa B-beta.
+# T7 Protein S9 93 108 1209 1224 I kappa B-alpha
+# T8 Protein S9 113 127 1229 1243 I kappa B-beta
+$ T8 Protein S9 113 127 1229 1243 I kappa B-beta
+$ T7 Protein S9 93 108 1209 1224 I kappa B-alpha
+@ T14 Negative_regulation S9 60 70 1176 1186 inhibition
+@ T15 Protein_catabolism S9 78 89 1194 1205 degradation
+% E7 Negative_regulation:T14 Theme:E9
+% E8 Negative_regulation:T14 Theme:E10
+% E9 Protein_catabolism:T15 Theme:T8
+% E10 Protein_catabolism:T15 Theme:T7
+
+PNU156804 action is restricted to some signaling pathways; it does not affect NF-kappa B activation by PMA in T cells but blocks that induced by CD40 cross-linking in B lymphocytes.
+# T9 Protein S10 145 149 1390 1394 CD40
+$ T9 Protein S10 145 149 1390 1394 CD40
+@ T16 Binding S10 150 163 1395 1408 cross-linking
+% E11 Binding:T16 Theme:T9
+
+We conclude that the prodigiosin family of immunosuppressants is a new family of molecules that show a novel target specificity clearly distinct from that of other immunosuppressive drugs such as cyclosporin A, FK506, and rapamycin.
+

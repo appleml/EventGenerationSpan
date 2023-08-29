@@ -1,0 +1,18 @@
+Disruption of NF-kappaB or NFAT5 sites in the LTR inhibits MTb-induced HIV-1 replication in MDM.
+
+MDM from four normal donors were infected with 1000 TCID50 of HIV-1Lai/Bal-env-WT or the mutants HIV-1Lai/Bal-env-kappaB I-Mut, HIV-1Lai/Bal-env-kappaB II-Mut, HIV-1Lai/Bal-env-kappaB I+II-Mut, or HIV-1Lai/Bal-env-N5-Mut, and were either (A) left infected with virus alone or (B) co-infected with MTb CDC1551 (1:1 MDM:bacilli).
+# T1 Protein S2 75 78 172 175 env
+# T2 Protein S2 110 113 207 210 env
+# T3 Protein S2 141 144 238 241 env
+# T4 Protein S2 173 176 270 273 env
+# T5 Protein S2 210 213 307 310 env
+
+Viral p24 levels in the culture supernatants were measured at days 4, 7 and 12 post-infection.
+# T6 Protein S3 6 9 431 434 p24
+
+Presentation of viral p24 levels at day 12 in cultures infected with (C) HIV-1 alone or (D) co-infected with MTb are shown as histograms.
+# T7 Protein S4 22 25 542 545 p24
+
+(*, p<0.05; **, p<0.01, as compared to HIV-1Lai/Bal-env-WT).
+# T8 Protein S5 52 55 710 713 env
+

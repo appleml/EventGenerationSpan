@@ -1,0 +1,31 @@
+Lipopolysaccharide induces phosphorylation of MAD3 and activation of c-Rel and related NF-kappa B proteins in human monocytic THP-1 cells.
+# T1 Protein S1 46 50 46 50 MAD3
+# T2 Protein S1 69 74 69 74 c-Rel
+
+Many effects of lipopolysaccharide (LPS) on gene expression, including that of human immunodeficiency virus (HIV), in monocytic cells are mediated by activation of kappa B DNA-binding proteins.
+
+However, the specific members of the NF-kappa B/Rel transcription factor family involved in the LPS response, and the mechanisms through which LPS-generated signals are transduced remain unclear.
+
+Here we show that LPS induces nuclear expression of c-Rel/p50 heterodimers as well as p50/p65 (NF-kappa B) kappa B DNA-binding complexes in human monocytic THP-1 cells.
+# T3 Protein S4 52 57 582 587 c-Rel
+# T4 Protein S4 58 61 588 591 p50
+# T5 Protein S4 86 89 616 619 p50
+# T6 Protein S4 90 93 620 623 p65
+
+Nuclear localization of these proteins occurred concomitantly with a rapid decrease in their cytosolic levels and was independent of phorbol ester-sensitive protein kinase C. Within 24 h following LPS stimulation there was a striking increase in the levels of c-Rel, p105, and p50 in the cytosol.
+# T7 Protein S5 260 265 959 964 c-Rel
+# T8 Protein S5 267 271 966 970 p105
+# T9 Protein S5 277 280 976 979 p50
+
+The increased levels of these proteins correlated with increases in the amounts of their mRNAs during LPS activation of THP-1 cells.
+
+LPS activation of THP-1 cells resulted in phosphorylation of MAD3 (an I kappa B-like protein), a rapid increase in MAD3 mRNA, and an increase in MAD3 protein by 2 h. Thus, LPS activation of human monocytic cells results in nuclear expression of c-Rel/p50 and p50/p65 (NF-kappa B) and induces phosphorylation of MAD3.
+# T10 Protein S7 61 65 1190 1194 MAD3
+# T11 Protein S7 115 119 1244 1248 MAD3
+# T12 Protein S7 145 149 1274 1278 MAD3
+# T13 Protein S7 245 250 1374 1379 c-Rel
+# T14 Protein S7 251 254 1380 1383 p50
+# T15 Protein S7 259 262 1388 1391 p50
+# T16 Protein S7 263 266 1392 1395 p65
+# T17 Protein S7 311 315 1440 1444 MAD3
+

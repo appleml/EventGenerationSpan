@@ -1,0 +1,36 @@
+Sequence Conservation within the Human and Murine SerpinB2 Proximal Promoters
+# T1 Protein S1 50 58 50 58 SerpinB2
+
+To look for potential cis-acting elements that might mediate transcription of the murine SerpinB2 gene and the response to LPS, we aligned the murine and human SerpinB2 5' flanking regions.
+# T2 Protein S2 89 97 167 175 SerpinB2
+# T3 Protein S2 160 168 238 246 SerpinB2
+
+We reasoned that the presence of evolutionarily conserved, potential transcription factor binding sites in this region might play a role in the regulation of SerpinB2 gene expression [52].
+# T4 Protein S3 158 166 426 434 SerpinB2
+
+The presence of several repetitive sequence elements delineated five broadly homologous regions (A-E) between the human and murine promoters (Fig. 2C).
+
+The proximal promoter (Region E), which contains the essential LPS response element, exhibited the greatest homology.
+
+Further analysis of Region E revealed that several of the cis-acting regulatory elements defined in the human SerpinB2 proximal promoter are conserved in the murine SerpinB2 promoter (Fig. 3).
+# T5 Protein S6 110 118 837 845 SerpinB2
+# T6 Protein S6 165 173 892 900 SerpinB2
+
+Specifically, a TATA consensus sequence is located 23 to 29bp upstream from the transcription initiation site, similar to the position of the TATA box of the human SERPINB2 gene [53]; [54].
+# T7 Protein S7 164 172 1084 1092 SERPINB2
+
+A putative CCAAT enhancer binding protein (C/EBP) site is present at -192/-203, two potential activator protein 1 (AP-1) binding sites are found at nucleotides -88/-94 and -100/-106, and a putative cyclic AMP response element (CRE) is present at -172/-177.
+
+Both of the AP-1 sites are identical in sequence to those identified in the human SERPINB2 promoter, and the CRE differs in the identity of a single central nucleotide [37]; [55].
+# T8 Protein S9 82 90 1449 1457 SERPINB2
+
+A consensus E box (-538/-533), as well as potential binding sites for PU.1 (-412/-407) and Oct-1 (-296/-288) were also identified within the proximal promoter region (Fig.
+# T9 Protein S10 70 74 1617 1621 PU.1
+# T10 Protein S10 91 96 1638 1643 Oct-1
+
+S2).
+
+Further upstream, a retinoic acid response element at -1349/-1340, a PAUSE-1 silencer element at -1540/-1528 and a NF-kappaB p65 binding site at -1342/-1351 (Fig.
+
+S2) are also well conserved [16]; [30]; [56].
+

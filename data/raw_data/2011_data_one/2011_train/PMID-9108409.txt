@@ -1,0 +1,76 @@
+Two distinct pathways of interleukin-5 synthesis in allergen-specific human T-cell clones are suppressed by glucocorticoids.
+# T1 Protein S1 25 38 25 38 interleukin-5
+$ T1 Protein S1 25 38 25 38 interleukin-5
+@ T13 Gene_expression S1 39 48 39 48 synthesis
+@ T14 Negative_regulation S1 94 104 94 104 suppressed
+% E1 Gene_expression:T13 Theme:T1
+% E2 Negative_regulation:T14 Theme:E1
+
+Glucocorticoids (GC) have long been used as the most effective agents for the treatment of allergic diseases accompanied by eosinophilia such as chronic asthma and atopic dermatitis.
+
+The development of chronic eosinophilic inflammation is dependent on interleukin-5 (IL-5), a selective eosinophil-activating factor, produced by helper T cells.
+# T2 Protein S3 69 82 378 391 interleukin-5
+# T3 Protein S3 84 88 393 397 IL-5
+$ T3 Protein S3 84 88 393 397 IL-5
+@ T15 Gene_expression S3 133 141 442 450 produced
+% E3 Gene_expression:T15 Theme:T3
+
+To delineate the regulatory mechanisms of human IL-5 synthesis, we established allergen-specific CD4+ T-cell clones from asthmatic patients.
+# T4 Protein S4 48 52 518 522 IL-5
+$ T4 Protein S4 48 52 518 522 IL-5
+@ T16 Regulation S4 17 27 487 497 regulatory
+@ T17 Gene_expression S4 53 62 523 532 synthesis
+% E4 Regulation:T16 Theme:E5
+% E5 Gene_expression:T17 Theme:T4
+
+GC efficiently suppressed IL-5 synthesis of T-cell clones activated via either T-cell receptor (TCR) or IL-2 receptor (IL-2R).
+# T5 Protein S5 26 30 637 641 IL-5
+$ T5 Protein S5 26 30 637 641 IL-5
+@ T18 Negative_regulation S5 15 25 626 636 suppressed
+@ T19 Gene_expression S5 31 40 642 651 synthesis
+% E6 Negative_regulation:T18 Theme:E7
+% E7 Gene_expression:T19 Theme:T5
+
+Induction of IL-5 mRNA upon TCR and IL-2R stimulation was totally inhibited by dexamethasone.
+# T6 Protein S6 13 17 751 755 IL-5
+$ T6 Protein S6 13 17 751 755 IL-5
+@ T20 Positive_regulation S6 0 9 738 747 Induction
+@ T21 Transcription S6 18 22 756 760 mRNA
+@ T22 Negative_regulation S6 66 75 804 813 inhibited
+% E8 Positive_regulation:T20 Theme:E9
+% E9 Transcription:T21 Theme:T6
+% E10 Negative_regulation:T22 Theme:E8
+
+Human IL-5 promoter/enhancer-luciferase gene construct transfected to T-cell clones was transcribed on either TCR or IL-2R stimulation and was clearly downregulated by dexamethasone, indicating that the approximately 500-bp human IL-5 gene segment located 5' upstream of the coding region contains activation-inducible enhancer elements responsible for the regulation by GC.
+# T7 Protein S7 6 10 838 842 IL-5
+# T8 Protein S7 230 234 1062 1066 IL-5
+$ T7 Protein S7 6 10 838 842 IL-5
+@ T23 Transcription S7 88 99 920 931 transcribed
+@ T24 Regulation S7 123 134 955 966 stimulation
+@ T25 Negative_regulation S7 151 164 983 996 downregulated
+% E11 Transcription:T23 Theme:T7
+% E12 Regulation:T24 Theme:E11
+% E13 Negative_regulation:T25 Theme:T7
+
+Electrophoretic mobility shift assay analysis suggested that AP-1 and NF-kappaB are among the possible targets of GC actions on TCR-stimulated T cells.
+
+NF-AT and NF-kappaB were not significantly induced by IL-2 stimulation.
+# T9 Protein S9 54 58 1413 1417 IL-2
+
+Our results showing that GC suppressed IL-5 production by human CD4+ T cells activated by two distinct stimuli, TCR and IL-2R stimulation, underscore the efficacy of GC in the treatment of allergic diseases via suppression of T-cell IL-5 synthesis.
+# T10 Protein S10 39 43 1470 1474 IL-5
+# T11 Protein S10 64 67 1495 1498 CD4
+# T12 Protein S10 233 237 1664 1668 IL-5
+$ T10 Protein S10 39 43 1470 1474 IL-5
+$ T12 Protein S10 233 237 1664 1668 IL-5
+@ T26 Negative_regulation S10 28 38 1459 1469 suppressed
+@ T27 Gene_expression S10 44 54 1475 1485 production
+@ T28 Regulation S10 154 162 1585 1593 efficacy
+@ T29 Negative_regulation S10 211 222 1642 1653 suppression
+@ T30 Gene_expression S10 238 247 1669 1678 synthesis
+% E14 Negative_regulation:T26 Theme:E15
+% E15 Gene_expression:T27 Theme:T10
+% E16 Regulation:T28 Theme:E17
+% E17 Negative_regulation:T29 Theme:E18
+% E18 Gene_expression:T30 Theme:T12
+

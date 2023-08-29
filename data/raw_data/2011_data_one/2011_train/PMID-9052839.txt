@@ -1,0 +1,38 @@
+TRAMP, a novel apoptosis-mediating receptor with sequence homology to tumor necrosis factor receptor 1 and Fas(Apo-1/CD95).
+# T1 Protein S1 0 5 0 5 TRAMP
+# T2 Protein S1 70 102 70 102 tumor necrosis factor receptor 1
+# T3 Protein S1 107 110 107 110 Fas
+# T4 Protein S1 111 116 111 116 Apo-1
+# T5 Protein S1 117 121 117 121 CD95
+
+A novel member of the tumor necrosis factor (TNF) receptor family, designated TRAMP, has been identified.
+# T6 Protein S2 78 83 203 208 TRAMP
+
+The structural organization of the 393 amino acid long human TRAMP is most homologous to TNF receptor 1.
+# T7 Protein S3 61 66 292 297 TRAMP
+# T8 Protein S3 89 103 320 334 TNF receptor 1
+
+TRAMP is abundantly expressed on thymocytes and lymphocytes.
+# T9 Protein S4 0 5 336 341 TRAMP
+$ T9 Protein S4 0 5 336 341 TRAMP
+@ T14 Gene_expression S4 20 29 356 365 expressed
+% E1 Gene_expression:T14 Theme:T9
+
+Its extracellular domain is composed of four cysteine-rich domains, and the cytoplasmic region contains a death domain known to signal apoptosis.
+
+Overexpression of TRAMP leads to two major responses, NF-kappaB activation and apoptosis.
+# T10 Protein S6 18 23 561 566 TRAMP
+$ T10 Protein S6 18 23 561 566 TRAMP
+@ T15 Positive_regulation S6 0 14 543 557 Overexpression
+% E2 Positive_regulation:T15 Theme:T10
+
+TRAMP-induced cell death is inhibited by an inhibitor of ICE-like proteases, but not by Bcl-2.
+# T11 Protein S7 0 5 633 638 TRAMP
+# T12 Protein S7 88 93 721 726 Bcl-2
+
+In addition, TRAMP does not appear to interact with any of the known apoptosis-inducing ligands of the TNF family.
+# T13 Protein S8 13 18 741 746 TRAMP
+$ T13 Protein S8 13 18 741 746 TRAMP
+@ T16 Binding S8 38 46 766 774 interact
+% E3 Binding:T16 Theme:T13
+

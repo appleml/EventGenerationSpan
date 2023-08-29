@@ -1,0 +1,52 @@
+Sp1 and Sp3 regulate basal transcription of the human APOBEC3G gene
+# T1 Protein S1 0 3 0 3 Sp1
+# T2 Protein S1 8 11 8 11 Sp3
+# T3 Protein S1 54 62 54 62 APOBEC3G
+$ T1 Protein S1 0 3 0 3 Sp1
+$ T2 Protein S1 8 11 8 11 Sp3
+$ T3 Protein S1 54 62 54 62 APOBEC3G
+@ T12 Regulation S1 12 20 12 20 regulate
+@ T13 Transcription S1 27 40 27 40 transcription
+% E1 Regulation:T12 Theme:E2 Cause:T1
+% E3 Regulation:T12 Theme:E2 Cause:T2
+% E2 Transcription:T13 Theme:T3
+
+APOBEC3G (A3G), a member of the recently discovered family of human cytidine deaminases, is expressed in peripheral blood lymphocytes and has been shown to be active against HIV-1 and other retroviruses.
+# T4 Protein S2 0 8 69 77 APOBEC3G
+# T5 Protein S2 10 13 79 82 A3G
+$ T4 Protein S2 0 8 69 77 APOBEC3G
+@ T14 Gene_expression S2 92 101 161 170 expressed
+% E4 Gene_expression:T14 Theme:T4
+
+To gain new insights into the transcriptional regulation of this restriction factor, we cloned and characterized the promoter region of A3G.
+# T6 Protein S3 136 139 409 412 A3G
+@ T15 Regulation S3 46 56 319 329 regulation
+% E5 Regulation:T15 Theme:T4
+
+Transcriptional start sites were identified by 5'-rapid amplification of cDNA ends analysis.
+
+Luciferase reporter assays demonstrated that a 1025 bp A3G promoter sequence (from -959 to +66 relative to the major transcriptional start site) displayed constitutive promoter activity.
+# T7 Protein S5 0 10 507 517 Luciferase
+
+In T cells, the A3G promoter was not inducible by mitogenic stimulation, interferon treatment or expression of HIV-1 proteins.
+# T8 Protein S6 16 19 710 713 A3G
+$ T8 Protein S6 16 19 710 713 A3G
+@ T16 Entity S6 20 28 714 722 promoter
+@ T17 Positive_regulation S6 37 46 731 740 inducible
+% E6 Positive_regulation:T17 Theme:T8 Site:T16
+
+Using a series of 5' deletion promoter constructs in luciferase reporter assays, we identified a 180 bp region that was sufficient for full promoter activity.
+# T9 Protein S7 53 63 874 884 luciferase
+
+Transcriptional activity of this A3G core promoter was dependent on a GC-box (located at position -87/-78 relative to the major transcriptional start site) and was abolished after mutation of this DNA element.
+
+Electrophoretic mobility shift assays and chromatin immunoprecipitation assays demonstrated that the identified GC-box represented a binding site for the ubiquitous transcription factors specificity protein (Sp) 1 and Sp3.
+# T10 Protein S9 187 213 1377 1403 specificity protein (Sp) 1
+# T11 Protein S9 218 221 1408 1411 Sp3
+$ T10 Protein S9 187 213 1377 1403 specificity protein (Sp) 1
+$ T11 Protein S9 218 221 1408 1411 Sp3
+@ T18 Entity S9 112 118 1302 1308 GC-box
+@ T19 Binding S9 133 140 1323 1330 binding
+% E7 Binding:T19 Theme:T8 Theme2:T10 Site:T18
+% E8 Binding:T19 Theme:T8 Theme2:T11 Site:T18
+

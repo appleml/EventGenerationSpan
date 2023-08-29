@@ -1,0 +1,123 @@
+INTRODUCTION
+
+Chronic myeloid leukemia (CML) is a clonal myeloproliferative disorder with a typical three phased course (chronic, accelerated and blastic phase) reflecting the loss of differentiation and malignant progress which inevitably leads to death after the blastic phase (1,2).
+
+The hallmark genetic aberration of CML is a reciprocal chromosomal translocation t(9;22) leading to expression of a bcr-abl fusion gene, an aberrant activated tyrosine kinase (2).
+# T1 Protein S3 116 135 401 420 bcr-abl fusion gene
+$ T1 Protein S3 116 135 401 420 bcr-abl fusion gene
+@ T32 Positive_regulation S3 89 96 374 381 leading
+@ T33 Gene_expression S3 100 110 385 395 expression
+% E1 Positive_regulation:T32 Theme:E2
+% E2 Gene_expression:T33 Theme:T1
+
+Treatment with interferon alpha (IFN-alpha) prolongs survival of CML patients and is associated with a complete cytogenetic response in 5-33% of CML patients (1,2).
+# T2 Protein S4 15 31 480 496 interferon alpha
+# T3 Protein S4 33 42 498 507 IFN-alpha
+
+Recently, we described an impaired expression of the interferon regulatory factor 4 (IRF-4) in CML, correlating with poor response to IFN-alpha treatment (3).
+# T4 Protein S5 53 83 683 713 interferon regulatory factor 4
+# T5 Protein S5 85 90 715 720 IRF-4
+# T6 Protein S5 134 143 764 773 IFN-alpha
+$ T4 Protein S5 53 83 683 713 interferon regulatory factor 4
+@ T34 Negative_regulation S5 26 34 656 664 impaired
+@ T35 Gene_expression S5 35 45 665 675 expression
+% E3 Negative_regulation:T34 Theme:E4
+% E4 Gene_expression:T35 Theme:T4
+
+The cause of the silencing of IRF-4 level remained unclear.
+# T7 Protein S6 30 35 819 824 IRF-4
+$ T7 Protein S6 30 35 819 824 IRF-4
+@ T36 Negative_regulation S6 17 26 806 815 silencing
+% E5 Negative_regulation:T36 Theme:T7
+
+Interferon regulatory factors (IRFs) are a family of transcriptional regulators defined by a characteristic homology in their DNA-binding domain.
+
+They play an important role in the regulation of various genes (such as IFNs, interleukins, MHC class I/II), apoptosis and differentiation/maturation (4-6).
+
+IRF-4 (ICSAT/Pip/MUM1/LSIRF) is one member with very restricted expression pattern: Predominately B- and activated T-lymphocytes are IRF-4 positive (7-11).
+# T8 Protein S9 0 5 1153 1158 IRF-4
+# T9 Protein S9 7 12 1160 1165 ICSAT
+# T10 Protein S9 13 16 1166 1169 Pip
+# T11 Protein S9 17 21 1170 1174 MUM1
+# T12 Protein S9 22 27 1175 1180 LSIRF
+# T13 Protein S9 133 138 1286 1291 IRF-4
+$ T8 Protein S9 0 5 1153 1158 IRF-4
+$ T13 Protein S9 133 138 1286 1291 IRF-4
+@ T37 Gene_expression S9 64 74 1217 1227 expression
+@ T38 Gene_expression S9 139 147 1292 1300 positive
+% E6 Gene_expression:T37 Theme:T8
+% E7 Gene_expression:T38 Theme:T13
+
+In contrast to other IRFs, expression of IRF-4 cannot be induced by IFNs, but by antigen stimulation, crosslinking of T- or B-cell receptors or phorbol-myristate-acetate (10,11).
+# T14 Protein S10 41 46 1350 1355 IRF-4
+$ T14 Protein S10 41 46 1350 1355 IRF-4
+@ T39 Gene_expression S10 27 37 1336 1346 expression
+@ T40 Positive_regulation S10 57 64 1366 1373 induced
+% E8 Gene_expression:T39 Theme:T14
+% E9 Positive_regulation:T40 Theme:E8
+
+Consistent with the restriction of expression to immunocompetent cells, mice with deletion of IRF-4 failed to develop mature and functionally active B- and T-lymphocytes (12), and the impaired expression of IRF-4 in CML was predominately found in T-cells (3).
+# T15 Protein S11 94 99 1582 1587 IRF-4
+# T16 Protein S11 207 212 1695 1700 IRF-4
+$ T15 Protein S11 94 99 1582 1587 IRF-4
+$ T16 Protein S11 207 212 1695 1700 IRF-4
+@ T41 Negative_regulation S11 82 90 1570 1578 deletion
+@ T42 Gene_expression S11 193 203 1681 1691 expression
+% E10 Negative_regulation:T41 Theme:T15
+% E11 Gene_expression:T42 Theme:T16
+
+These data suggest a crucial role for IRF-4 in the function of immune cells.
+# T17 Protein S12 38 43 1786 1791 IRF-4
+
+Methylation of dinucleotide cytosine-guanosine motifs (CpG), especially in CpG islands located in promoter regions, is one of the mechanisms of gene regulation in mammals and a common event of gene silencing in human neoplasias (13,14).
+
+As opposed to normal cells, hypermethylation of CpG islands is a frequently observed phenomenon in every cancer type.
+
+De novo DNA methylation of genes such as cell cycle, DNA repair, apoptosis and tumor suppressor genes is therefore thought to be involved in tumorigenesis (15-17).
+
+Examples for such aberrated genes are MGMT, DAPK, p14ARF, p15INK4b, p16INK4a, BRCA1, CDH13 and APAF-1 (17-19).
+# T18 Protein S16 38 42 2383 2387 MGMT
+# T19 Protein S16 44 48 2389 2393 DAPK
+# T20 Protein S16 50 56 2395 2401 p14ARF
+# T21 Protein S16 58 66 2403 2411 p15INK4b
+# T22 Protein S16 68 76 2413 2421 p16INK4a
+# T23 Protein S16 78 83 2423 2428 BRCA1
+# T24 Protein S16 85 90 2430 2435 CDH13
+# T25 Protein S16 95 101 2440 2446 APAF-1
+
+In CML, methylation is known to regulate expression of the c-abl, the bcr gene and others (20-23), and the extent of methylation in the c-abl promoter has been shown to be associated with advanced disease (24).
+# T26 Protein S17 59 64 2515 2520 c-abl
+# T27 Protein S17 70 73 2526 2529 bcr
+# T28 Protein S17 136 141 2592 2597 c-abl
+$ T26 Protein S17 59 64 2515 2520 c-abl
+$ T27 Protein S17 70 73 2526 2529 bcr
+@ T43 Regulation S17 32 40 2488 2496 regulate
+@ T44 Gene_expression S17 41 51 2497 2507 expression
+% E12 Regulation:T43 Theme:E13
+% E14 Regulation:T43 Theme:E15
+% E13 Gene_expression:T44 Theme:T26
+% E15 Gene_expression:T44 Theme:T27
+
+Hypermethylation due to overexpression of DNA methyltransferases (DNMTs) remains one possible explanation for de novo methylation in tumorigenesis.
+
+Recently, DNMTs have been shown to be up-regulated in hematopoietic malignancies (25).
+
+Methyl-CpG-binding proteins (MBPs) are thought to inhibit the binding of transcriptional factors to the promoter and are therefore discussed as one mechanism of transcription inhibition by hypermethylation (26).
+
+In this work, we studied mechanisms of IRF-4 gene expression silencing in leukemic cells.
+# T29 Protein S21 39 44 3154 3159 IRF-4
+$ T29 Protein S21 39 44 3154 3159 IRF-4
+@ T45 Gene_expression S21 50 60 3165 3175 expression
+@ T46 Negative_regulation S21 61 70 3176 3185 silencing
+% E16 Gene_expression:T45 Theme:T29
+% E17 Negative_regulation:T46 Theme:E16
+
+We analyzed the IRF-4 promoter region for genetic aberrations and methylational status in IRF-4-positive and -negative hematopoietic cells.
+# T30 Protein S22 16 21 3221 3226 IRF-4
+# T31 Protein S22 90 95 3295 3300 IRF-4
+$ T31 Protein S22 90 95 3295 3300 IRF-4
+@ T47 Gene_expression S22 96 104 3301 3309 positive
+@ T48 Gene_expression S22 110 118 3315 3323 negative
+% E18 Gene_expression:T47 Theme:T31
+% E19 Gene_expression:T48 Theme:T31
+

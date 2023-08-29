@@ -1,0 +1,34 @@
+p105 and p98 precursor proteins play an active role in NF-kappa B-mediated signal transduction.
+# T1 Protein S1 0 4 0 4 p105
+# T2 Protein S1 9 12 9 12 p98
+
+The Rel/NF-kappa B family of transcription factors is composed of two distinct subgroups, proteins that undergo proteolytic processing and contain SWI6/ankyrin repeats in their carboxyl termini (p105, p98), and those without such repeats that do not require processing (p65, c-Rel, RelB, and Dorsal).
+# T3 Protein S2 195 199 292 296 p105
+# T4 Protein S2 201 204 298 301 p98
+# T5 Protein S2 270 273 367 370 p65
+# T6 Protein S2 275 280 372 377 c-Rel
+# T7 Protein S2 282 286 379 383 RelB
+# T8 Protein S2 292 298 389 395 Dorsal
+
+We demonstrate that the p105 and p98 precursors share functional properties with the I kappa B proteins, which also contain SWI6/ankyrin repeats.
+# T9 Protein S3 24 28 422 426 p105
+# T10 Protein S3 33 36 431 434 p98
+
+Both p105 and p98 were found to form stable complexes with other Rel/NF-kappa B family members, including p65 and c-Rel.
+# T11 Protein S4 5 9 549 553 p105
+# T12 Protein S4 14 17 558 561 p98
+# T13 Protein S4 106 109 650 653 p65
+# T14 Protein S4 114 119 658 663 c-Rel
+
+Association with the precursors is sufficient for cytoplasmic retention of either p65 or c-Rel, both of which are otherwise nuclear.
+# T15 Protein S5 82 85 747 750 p65
+# T16 Protein S5 89 94 754 759 c-Rel
+
+These complexes undergo stimulus-responsive processing to produce active p50/c-Rel and p55/c-Rel complexes.
+# T17 Protein S6 73 76 871 874 p50
+# T18 Protein S6 77 82 875 880 c-Rel
+# T19 Protein S6 87 90 885 888 p55
+# T20 Protein S6 91 96 889 894 c-Rel
+
+These observations suggest a second pathway leading to NF-kappa B induction, in which processing of the precursors rather than phosphorylation of I kappa B plays a major role.
+

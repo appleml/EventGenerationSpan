@@ -1,0 +1,212 @@
+IL-12 and High Doses of Antigen Induce the Development of Th1 Cells Producing IL-10
+# T1 Protein S1 0 5 0 5 IL-12
+# T2 Protein S1 78 83 78 83 IL-10
+$ T2 Protein S1 78 83 78 83 IL-10
+@ T58 Gene_expression S1 68 77 68 77 Producing
+% E1 Gene_expression:T58 Theme:T2
+
+To study the differentiation of Th1 cells coproducing IFN-gamma and IL-10, we cultured purified TCR-transgenic DO11.10 naive CD4+ T cells with purified DCs as APCs and increasing doses of ovalbumin peptide 323-339 (OVA).
+# T3 Protein S2 54 63 138 147 IFN-gamma
+# T4 Protein S2 68 73 152 157 IL-10
+# T5 Protein S2 125 128 209 212 CD4
+# T6 Protein S2 188 197 272 281 ovalbumin
+# T7 Protein S2 215 218 299 302 OVA
+$ T3 Protein S2 54 63 138 147 IFN-gamma
+$ T4 Protein S2 68 73 152 157 IL-10
+@ T59 Gene_expression S2 42 53 126 137 coproducing
+% E2 Gene_expression:T59 Theme:T3
+% E3 Gene_expression:T59 Theme:T4
+
+Culture with high doses of antigen for 7 days gave rise to Th1 cells expressing IFN-gamma upon restimulation (Constant et al., 1995; Hosken et al., 1995), but not IL-10 (Figure S1A available online).
+# T8 Protein S3 80 89 385 394 IFN-gamma
+# T9 Protein S3 163 168 468 473 IL-10
+$ T8 Protein S3 80 89 385 394 IFN-gamma
+$ T9 Protein S3 163 168 468 473 IL-10
+@ T60 Positive_regulation S3 51 55 356 360 rise
+@ T61 Gene_expression S3 69 79 374 384 expressing
+% E4 Positive_regulation:T60 Theme:E5
+% E6 Positive_regulation:T60 Theme:E7
+% E5 Gene_expression:T61 Theme:T8
+% E7 Gene_expression:T61 Theme:T9
+
+Culture with low antigen doses under the same conditions led to the differentiation of Th2 cells, which expressed both IL-4 and IL-10 upon restimulation (Figure S1A).
+# T10 Protein S4 119 123 624 628 IL-4
+# T11 Protein S4 128 133 633 638 IL-10
+$ T10 Protein S4 119 123 624 628 IL-4
+$ T11 Protein S4 128 133 633 638 IL-10
+@ T62 Gene_expression S4 104 113 609 618 expressed
+% E8 Gene_expression:T62 Theme:T10
+% E9 Gene_expression:T62 Theme:T11
+
+Culture of naive CD4+ T cells in an APC-free system by stimulation with anti-CD3 and anti-CD28 antibodies in the presence of IL-12 resulted in IFN-gamma-producing Th1 cells, a proportion of which coproduced IL-10, as did Th2 cells resulting from culture in IL-4 (Figure S1B).
+# T12 Protein S5 17 20 689 692 CD4
+# T13 Protein S5 77 80 749 752 CD3
+# T14 Protein S5 90 94 762 766 CD28
+# T15 Protein S5 125 130 797 802 IL-12
+# T16 Protein S5 143 152 815 824 IFN-gamma
+# T17 Protein S5 207 212 879 884 IL-10
+# T18 Protein S5 257 261 929 933 IL-4
+$ T15 Protein S5 125 130 797 802 IL-12
+$ T16 Protein S5 143 152 815 824 IFN-gamma
+$ T17 Protein S5 207 212 879 884 IL-10
+@ T63 Positive_regulation S5 131 139 803 811 resulted
+@ T64 Gene_expression S5 153 162 825 834 producing
+@ T65 Gene_expression S5 196 206 868 878 coproduced
+% E10 Positive_regulation:T63 Theme:E11 Cause:T15
+% E12 Positive_regulation:T63 Theme:E13 Cause:T15
+% E11 Gene_expression:T64 Theme:T16
+% E13 Gene_expression:T65 Theme:T17
+
+To investigate whether the lack of IL-10 produced by Th1 cells resulted from inhibition of IL-10 production by DCs and high antigen dose or alternatively required IL-12, we cultured naive CD4+ T cells with increasing doses of antigen presented by DC in the presence of IL-12.
+# T19 Protein S6 35 40 983 988 IL-10
+# T20 Protein S6 91 96 1039 1044 IL-10
+# T21 Protein S6 163 168 1111 1116 IL-12
+# T22 Protein S6 188 191 1136 1139 CD4
+# T23 Protein S6 269 274 1217 1222 IL-12
+$ T19 Protein S6 35 40 983 988 IL-10
+$ T20 Protein S6 91 96 1039 1044 IL-10
+@ T66 Negative_regulation S6 27 31 975 979 lack
+@ T67 Gene_expression S6 41 49 989 997 produced
+@ T68 Positive_regulation S6 63 71 1011 1019 resulted
+@ T69 Negative_regulation S6 77 87 1025 1035 inhibition
+@ T70 Gene_expression S6 97 107 1045 1055 production
+% E14 Negative_regulation:T66 Theme:T19
+% E15 Gene_expression:T67 Theme:T19
+% E16 Positive_regulation:T68 Theme:E14 Cause:E17
+% E17 Negative_regulation:T69 Theme:E18
+% E18 Gene_expression:T70 Theme:T20
+
+At low doses of antigen, IL-12 abrogated the development of Th2 cells and induced IFN-gamma expression but only low levels of IL-10 expression, suggesting that IL-12 per se was not sufficient to induce significant IL-10 production in Th1 cells (Figure 1A).
+# T24 Protein S7 25 30 1249 1254 IL-12
+# T25 Protein S7 82 91 1306 1315 IFN-gamma
+# T26 Protein S7 126 131 1350 1355 IL-10
+# T27 Protein S7 160 165 1384 1389 IL-12
+# T28 Protein S7 214 219 1438 1443 IL-10
+$ T24 Protein S7 25 30 1249 1254 IL-12
+$ T25 Protein S7 82 91 1306 1315 IFN-gamma
+$ T26 Protein S7 126 131 1350 1355 IL-10
+$ T27 Protein S7 160 165 1384 1389 IL-12
+$ T28 Protein S7 214 219 1438 1443 IL-10
+@ T71 Positive_regulation S7 74 81 1298 1305 induced
+@ T72 Gene_expression S7 92 102 1316 1326 expression
+@ T73 Gene_expression S7 132 142 1356 1366 expression
+@ T74 Positive_regulation S7 195 201 1419 1425 induce
+@ T75 Gene_expression S7 220 230 1444 1454 production
+% E19 Positive_regulation:T71 Theme:E20 Cause:T24
+% E21 Positive_regulation:T71 Theme:E22 Cause:T24
+% E20 Gene_expression:T72 Theme:T25
+% E22 Gene_expression:T73 Theme:T26
+% E23 Positive_regulation:T74 Theme:E24 Cause:T27
+% E24 Gene_expression:T75 Theme:T28
+
+Strikingly, as the antigen dose was increased, Th1 populations driven with IL-12 now contained higher numbers of IL-10-producing cells (Figure 1A) and produced more IL-10 protein upon restimulation (Figures 1A and 1B).
+# T29 Protein S8 75 80 1556 1561 IL-12
+# T30 Protein S8 113 118 1594 1599 IL-10
+# T31 Protein S8 165 170 1646 1651 IL-10
+$ T30 Protein S8 113 118 1594 1599 IL-10
+$ T31 Protein S8 165 170 1646 1651 IL-10
+@ T76 Gene_expression S8 119 128 1600 1609 producing
+@ T77 Gene_expression S8 151 159 1632 1640 produced
+@ T78 Positive_regulation S8 160 164 1641 1645 more
+% E25 Gene_expression:T76 Theme:T30
+% E26 Gene_expression:T77 Theme:T31
+% E27 Positive_regulation:T78 Theme:E26
+
+Thus, the development of Th1 cells producing IL-10 required both IL-12 and high doses of antigen.
+# T32 Protein S9 45 50 1745 1750 IL-10
+# T33 Protein S9 65 70 1765 1770 IL-12
+$ T32 Protein S9 45 50 1745 1750 IL-10
+$ T33 Protein S9 65 70 1765 1770 IL-12
+@ T79 Gene_expression S9 35 44 1735 1744 producing
+@ T80 Positive_regulation S9 51 59 1751 1759 required
+% E28 Gene_expression:T79 Theme:T32
+% E29 Positive_regulation:T80 Theme:E28 Cause:T33
+
+Th1 cells differentiated to produce large amounts of IL-10 and IFN-gamma and lost their capacity to produce IL-2 (Figure 1B).
+# T34 Protein S10 53 58 1851 1856 IL-10
+# T35 Protein S10 63 72 1861 1870 IFN-gamma
+# T36 Protein S10 108 112 1906 1910 IL-2
+$ T34 Protein S10 53 58 1851 1856 IL-10
+$ T35 Protein S10 63 72 1861 1870 IFN-gamma
+$ T36 Protein S10 108 112 1906 1910 IL-2
+@ T81 Gene_expression S10 28 35 1826 1833 produce
+@ T82 Negative_regulation S10 77 81 1875 1879 lost
+@ T83 Gene_expression S10 100 107 1898 1905 produce
+% E30 Gene_expression:T81 Theme:T34
+% E31 Gene_expression:T81 Theme:T35
+% E32 Negative_regulation:T82 Theme:E33
+% E33 Gene_expression:T83 Theme:T36
+
+Because the presence of IL-12 reduced the proliferation of CD4+ T cells at both high and low antigen doses (Table S1), and only the former showed IL-10 production, the development of high IL-10-producing cells is most likely not related to limited IL-2.
+# T37 Protein S11 24 29 1948 1953 IL-12
+# T38 Protein S11 59 62 1983 1986 CD4
+# T39 Protein S11 146 151 2070 2075 IL-10
+# T40 Protein S11 188 193 2112 2117 IL-10
+# T41 Protein S11 248 252 2172 2176 IL-2
+$ T39 Protein S11 146 151 2070 2075 IL-10
+$ T40 Protein S11 188 193 2112 2117 IL-10
+$ T41 Protein S11 248 252 2172 2176 IL-2
+@ T84 Gene_expression S11 152 162 2076 2086 production
+@ T85 Gene_expression S11 194 203 2118 2127 producing
+@ T86 Negative_regulation S11 240 247 2164 2171 limited
+% E34 Gene_expression:T84 Theme:T39
+% E35 Gene_expression:T85 Theme:T40
+% E36 Negative_regulation:T86 Theme:T41
+
+Naive CD4+ T cells from DO11.10/recombination-activating gene 1 (Rag1)-deficient animals, cultured with high doses of antigen in the presence of IL-12, also resulted in IL-10 expression by Th1 cells, showing that this expression was not dependent on the presence of effector or memory T cells or Treg cells (Figure S2).
+# T42 Protein S12 6 9 2184 2187 CD4
+# T43 Protein S12 32 63 2210 2241 recombination-activating gene 1
+# T44 Protein S12 65 69 2243 2247 Rag1
+# T45 Protein S12 145 150 2323 2328 IL-12
+# T46 Protein S12 169 174 2347 2352 IL-10
+$ T43 Protein S12 32 63 2210 2241 recombination-activating gene 1
+$ T45 Protein S12 145 150 2323 2328 IL-12
+$ T46 Protein S12 169 174 2347 2352 IL-10
+@ T87 Negative_regulation S12 71 80 2249 2258 deficient
+@ T88 Positive_regulation S12 157 165 2335 2343 resulted
+@ T89 Gene_expression S12 175 185 2353 2363 expression
+@ T56 Anaphora S12 213 228 2391 2406 this expression
+@ T90 Positive_regulation S12 237 246 2415 2424 dependent
+% E37 Negative_regulation:T87 Theme:T43
+% E38 Positive_regulation:T88 Theme:E39 Cause:T45
+% E39 Gene_expression:T89 Theme:T46
+% E40 Positive_regulation:T90 Theme:E39
+
+Although it has been suggested that TGF-beta can induce IL-10 in CD4+ T cells (Kitani et al., 2003; Schiott et al., 2000), we found that in developing Th1 and Th2 cells this was not the case (data not shown).
+# T47 Protein S13 36 44 2534 2542 TGF-beta
+# T48 Protein S13 56 61 2554 2559 IL-10
+# T49 Protein S13 65 68 2563 2566 CD4
+$ T48 Protein S13 56 61 2554 2559 IL-10
+$ T47 Protein S13 36 44 2534 2542 TGF-beta
+@ T91 Positive_regulation S13 49 55 2547 2553 induce
+% E41 Positive_regulation:T91 Theme:T48 Cause:T47
+
+In fact, neutralization of TGF-beta led to increased IL-10 production by both T cell subsets (Figure S3).
+# T50 Protein S14 27 35 2734 2742 TGF-beta
+# T51 Protein S14 53 58 2760 2765 IL-10
+$ T50 Protein S14 27 35 2734 2742 TGF-beta
+$ T51 Protein S14 53 58 2760 2765 IL-10
+@ T92 Negative_regulation S14 9 23 2716 2730 neutralization
+@ T93 Positive_regulation S14 43 52 2750 2759 increased
+@ T94 Gene_expression S14 59 69 2766 2776 production
+% E42 Negative_regulation:T92 Theme:T50
+% E43 Positive_regulation:T93 Theme:E44 Cause:E42
+% E44 Gene_expression:T94 Theme:T51
+
+Thus, the development of IL-10-producing Th1 cells only depended on the presence of IL-12 together with high antigen dose and not on other soluble factors such as IL-2 or TGF-beta or on the presence of other T cell types.
+# T52 Protein S15 25 30 2838 2843 IL-10
+# T53 Protein S15 84 89 2897 2902 IL-12
+# T54 Protein S15 163 167 2976 2980 IL-2
+# T55 Protein S15 171 179 2984 2992 TGF-beta
+$ T52 Protein S15 25 30 2838 2843 IL-10
+$ T53 Protein S15 84 89 2897 2902 IL-12
+$ T54 Protein S15 163 167 2976 2980 IL-2
+$ T55 Protein S15 171 179 2984 2992 TGF-beta
+@ T95 Gene_expression S15 31 40 2844 2853 producing
+@ T96 Positive_regulation S15 56 64 2869 2877 depended
+@ T57 Anaphora S15 133 154 2946 2967 other soluble factors
+% E45 Gene_expression:T95 Theme:T52
+% E46 Positive_regulation:T96 Theme:E45 Cause:T53
+% E47 Positive_regulation:T96 Theme:E45 Cause:T54
+% E48 Positive_regulation:T96 Theme:E45 Cause:T55
+

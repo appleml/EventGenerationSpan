@@ -1,0 +1,47 @@
+Studies into the effect of tyrosine phosphatase inhibitor phenylarsine oxide on NFkappaB activation in T lymphocytes during aging: evidence for altered IkappaB-alpha phosphorylation and degradation.
+# T1 Protein S1 152 165 152 165 IkappaB-alpha
+$ T1 Protein S1 152 165 152 165 IkappaB-alpha
+@ T7 Regulation S1 144 151 144 151 altered
+@ T8 Phosphorylation S1 166 181 166 181 phosphorylation
+@ T9 Protein_catabolism S1 186 197 186 197 degradation
+% E1 Regulation:T7 Theme:E4
+% E2 Regulation:T7 Theme:E3
+% E3 Phosphorylation:T8 Theme:T1
+% E4 Protein_catabolism:T9 Theme:T1
+
+Nuclear Factor kappa B (NFkappaB) is a critical regulator of several genes involved in immune and inflammatory responses.
+
+Treatment of T cells with a variety of stimuli, including TNF-alpha, leads to the translocation of the active p65-50 heterodimer to the nucleus, albeit at a lower level in T cells from the elderly.
+# T2 Protein S3 58 67 380 389 TNF-alpha
+
+We demonstrate here that pretreatment with PAO results in the inhibition of NFkappaB induction in TNF-alpha treated T cells, suggesting a role for PAO-sensitive phosphatase in the activation of the NFkappaB via this pathway in human T cells.
+# T3 Protein S4 98 107 618 627 TNF-alpha
+
+Furthermore, it demonstrates that aging does not influence the sensitivity of this phosphatase.
+
+Treatment with DMP prior to treatment with PAO and TNF abolishes the inhibition induced by PAO, in T cells from both young and old donors, alike.
+
+Finally, we demonstrate that a failure to degrade IkappaB-alpha in cytosols of TNF-treated T cells pretreated with PAO is due to its interference with the phosphorylation of IkappaB-alpha and not due to its inhibitory effect on proteasomal degradation.
+# T4 Protein S7 50 63 1054 1067 IkappaB-alpha
+# T5 Protein S7 174 187 1178 1191 IkappaB-alpha
+$ T4 Protein S7 50 63 1054 1067 IkappaB-alpha
+$ T5 Protein S7 174 187 1178 1191 IkappaB-alpha
+@ T10 Protein_catabolism S7 42 49 1046 1053 degrade
+@ T11 Positive_regulation S7 122 125 1126 1129 due
+@ T12 Negative_regulation S7 133 145 1137 1149 interference
+@ T13 Phosphorylation S7 155 170 1159 1174 phosphorylation
+@ T14 Regulation S7 196 199 1200 1203 due
+% E5 Protein_catabolism:T10 Theme:T4
+% E6 Positive_regulation:T11 Theme:E5 Cause:E7
+% E7 Negative_regulation:T12 Theme:E8
+% E8 Phosphorylation:T13 Theme:T5
+% E9 Regulation:T14 Theme:E5
+
+These data collectively suggest that PAO interferes with the phosphorylation and the regulated degradation of IkappaB-alpha, induced by TNF, without affecting the chymotryptic activity of the proteasome, independent of age.
+# T6 Protein S8 110 123 1367 1380 IkappaB-alpha
+$ T6 Protein S8 110 123 1367 1380 IkappaB-alpha
+@ T15 Phosphorylation S8 61 76 1318 1333 phosphorylation
+@ T16 Protein_catabolism S8 95 106 1352 1363 degradation
+% E10 Phosphorylation:T15 Theme:T6
+% E11 Protein_catabolism:T16 Theme:T6
+

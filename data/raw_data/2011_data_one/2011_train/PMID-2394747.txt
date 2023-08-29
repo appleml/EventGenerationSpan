@@ -1,0 +1,54 @@
+Cell type specificity and activation requirements for NFAT-1 (nuclear factor of activated T-cells) transcriptional activity determined by a new method using transgenic mice to assay transcriptional activity of an individual nuclear factor.
+# T1 Protein S1 54 60 54 60 NFAT-1
+
+Nuclear factor of activated T-cells (NFAT-1) is a transcription factor which is considered to be an important regulator in early T-cell activation.
+# T2 Protein S2 37 43 278 284 NFAT-1
+
+We have developed a system to monitor the transcriptional activity of NFAT-1 at the single cell level in whole animals.
+# T3 Protein S3 70 76 459 465 NFAT-1
+
+The system is based on the use of an oligomerized NFAT-1 binding motif that directs transcription of SV40 T-antigen in transgenic mice.
+# T4 Protein S4 50 56 559 565 NFAT-1
+
+This report represents the first demonstration that a multimerized short binding motif can function appropriately in transgenic mice.
+
+NFAT-1 activity had previously been thought to be confined to activated T-lymphocytes upon release of intracellular calcium.
+# T5 Protein S6 0 6 779 785 NFAT-1
+
+By targeting NFAT-1-dependent gene expression in transgenic mice we discovered new sites of NFAT-1 activity.
+# T6 Protein S7 13 19 917 923 NFAT-1
+# T7 Protein S7 92 98 996 1002 NFAT-1
+
+Besides in T-lymphocytes NFAT-1 activity could also be induced in T-lymphocyte-depleted spleen cells and purified B-lymphocytes and requires agents that both release intracellular calcium and activate protein kinase C.
+# T8 Protein S8 25 31 1038 1044 NFAT-1
+$ T8 Protein S8 25 31 1038 1044 NFAT-1
+@ T13 Positive_regulation S8 55 62 1068 1075 induced
+@ T14 Positive_regulation S8 132 140 1145 1153 requires
+% E1 Positive_regulation:T13 Theme:T8
+% E2 Positive_regulation:T14 Theme:T8
+
+A difference in the time course of appearance of NFAT-1 activity between T-lymphocytes and non-T-lymphocytes was revealed.
+# T9 Protein S9 49 55 1281 1287 NFAT-1
+$ T9 Protein S9 49 55 1281 1287 NFAT-1
+@ T15 Positive_regulation S9 35 45 1267 1277 appearance
+% E3 Positive_regulation:T15 Theme:T9
+
+Constitutive expression was observed in a small population of cells in the dermis and some mice have developed skin lesions.
+
+Interestingly, the tissue pattern of expression of the NFAT-1 activity resembles the expression pattern described for HIV-LTR/tat transgenic mice (Vogel, J., Hinrichs, S. H., Reynolds, R. K., Luciw, P. A., and Jay, G. (1988) Nature 335, 606-611).
+# T10 Protein S11 55 61 1535 1541 NFAT-1
+$ T10 Protein S11 55 61 1535 1541 NFAT-1
+@ T16 Entity S11 19 25 1499 1505 tissue
+@ T17 Localization S11 37 47 1517 1527 expression
+@ T18 Localization S11 85 95 1565 1575 expression
+@ T19 Entity S11 118 145 1598 1625 HIV-LTR/tat transgenic mice
+% E4 Localization:T17 Theme:T10 AtLoc:T16
+% E5 Localization:T18 Theme:T10 AtLoc:T19
+
+This similarity in expression and the fact that NFAT-1 has been shown to bind functional sequences in HIV-LTR suggest a role for NFAT-1 in dermal activation of the HIV-LTR.
+# T11 Protein S12 48 54 1775 1781 NFAT-1
+# T12 Protein S12 129 135 1856 1862 NFAT-1
+$ T11 Protein S12 48 54 1775 1781 NFAT-1
+@ T20 Binding S12 73 77 1800 1804 bind
+% E6 Binding:T20 Theme:T11
+

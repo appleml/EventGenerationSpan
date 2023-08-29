@@ -1,0 +1,191 @@
+IKKbeta phosphorylates RPS3 at serine 209
+# T1 Protein S1 0 7 0 7 IKKbeta
+# T2 Protein S1 23 27 23 27 RPS3
+$ T2 Protein S1 23 27 23 27 RPS3
+$ T1 Protein S1 0 7 0 7 IKKbeta
+@ T45 Phosphorylation S1 8 22 8 22 phosphorylates
+@ T46 Entity S1 31 41 31 41 serine 209
+% E1 Phosphorylation:T45 Theme:T2 Cause:T1 Site:T46
+
+Although originally defined as the kinase that phosphorylates IkappaB19, IKKbeta also phosphorylates unrelated substrates including 14-3-3beta and Bcl10, which lack the IKK consensus motif (DpSGYXpS/T)28.
+# T3 Protein S2 73 80 115 122 IKKbeta
+# T4 Protein S2 132 142 174 184 14-3-3beta
+# T5 Protein S2 147 152 189 194 Bcl10
+$ T4 Protein S2 132 142 174 184 14-3-3beta
+$ T3 Protein S2 73 80 115 122 IKKbeta
+$ T5 Protein S2 147 152 189 194 Bcl10
+@ T47 Phosphorylation S2 86 100 128 142 phosphorylates
+% E2 Phosphorylation:T47 Theme:T4 Cause:T3
+% E3 Phosphorylation:T47 Theme:T5 Cause:T3
+
+We therefore hypothesized that IKKbeta could directly phosphorylate RPS3.
+# T6 Protein S3 31 38 278 285 IKKbeta
+# T7 Protein S3 68 72 315 319 RPS3
+$ T7 Protein S3 68 72 315 319 RPS3
+$ T6 Protein S3 31 38 278 285 IKKbeta
+@ T48 Phosphorylation S3 54 67 301 314 phosphorylate
+% E4 Phosphorylation:T48 Theme:T7 Cause:T6
+
+By in vitro kinase assays using recombinant IKK and RPS3 proteins, we observed strong incorporation of 32P in autophosphorylatd IKKalpha and IKKbeta (Fig. 4a, lanes 2-7) as well as phosporylated GST-IkappaBalpha (1-54) (Supplementary Fig. 4), but not the GST protein alone (Fig. 4a, lanes 3 and 6), when either IKKalpha or IKKbeta was used.
+# T8 Protein S4 52 56 373 377 RPS3
+# T9 Protein S4 128 136 449 457 IKKalpha
+# T10 Protein S4 141 148 462 469 IKKbeta
+# T11 Protein S4 195 211 516 532 GST-IkappaBalpha
+# T12 Protein S4 255 258 576 579 GST
+# T13 Protein S4 311 319 632 640 IKKalpha
+# T14 Protein S4 323 330 644 651 IKKbeta
+$ T9 Protein S4 128 136 449 457 IKKalpha
+$ T10 Protein S4 141 148 462 469 IKKbeta
+$ T11 Protein S4 195 211 516 532 GST-IkappaBalpha
+$ T12 Protein S4 255 258 576 579 GST
+@ T49 Phosphorylation S4 86 106 407 427 incorporation of 32P
+@ T50 Phosphorylation S4 110 127 431 448 autophosphorylatd
+@ T51 Phosphorylation S4 181 194 502 515 phosporylated
+% E5 Phosphorylation:T49 Theme:T9
+% E6 Phosphorylation:T49 Theme:T10
+% E7 Phosphorylation:T50 Theme:T9
+% E8 Phosphorylation:T50 Theme:T10
+% E9 Phosphorylation:T51 Theme:T11
+% E10 Phosphorylation:T51 Theme:T12
+
+We discovered that GST-RPS3 could be phosphorylated by IKKbeta, but not IKKalpha, in vitro (Fig. 4a, compare lanes 4 and 7).
+# T15 Protein S5 19 27 681 689 GST-RPS3
+# T16 Protein S5 55 62 717 724 IKKbeta
+# T17 Protein S5 72 80 734 742 IKKalpha
+$ T15 Protein S5 19 27 681 689 GST-RPS3
+$ T16 Protein S5 55 62 717 724 IKKbeta
+$ T17 Protein S5 72 80 734 742 IKKalpha
+@ T52 Phosphorylation S5 37 51 699 713 phosphorylated
+% E11 Phosphorylation:T52 Theme:T15 Cause:T16
+% E12 Phosphorylation:T52 Theme:T15 Cause:T17
+
+To identify the RPS3 amino acid residue(s) phosphorylated by IKKbeta, we performed liquid chromatography-tandem mass spectrometry analyses using in vitro phosphorylated RPS3.
+# T18 Protein S6 16 20 803 807 RPS3
+# T19 Protein S6 61 68 848 855 IKKbeta
+# T20 Protein S6 169 173 956 960 RPS3
+$ T18 Protein S6 16 20 803 807 RPS3
+$ T19 Protein S6 61 68 848 855 IKKbeta
+$ T20 Protein S6 169 173 956 960 RPS3
+@ T53 Entity S6 21 42 808 829 amino acid residue(s)
+@ T54 Phosphorylation S6 43 57 830 844 phosphorylated
+@ T55 Phosphorylation S6 154 168 941 955 phosphorylated
+% E13 Phosphorylation:T54 Theme:T18 Cause:T19 Site:T53
+% E14 Phosphorylation:T55 Theme:T20
+
+The results indicated that IKKbeta phosphorylated S209, located in the RPS3 C-terminus (Fig. 4b).
+# T21 Protein S7 27 34 989 996 IKKbeta
+# T22 Protein S7 71 75 1033 1037 RPS3
+$ T22 Protein S7 71 75 1033 1037 RPS3
+$ T21 Protein S7 27 34 989 996 IKKbeta
+@ T56 Phosphorylation S7 35 49 997 1011 phosphorylated
+@ T57 Entity S7 50 54 1012 1016 S209
+% E15 Phosphorylation:T56 Theme:T22 Cause:T21 Site:T57
+
+RPS3 amino acid sequence alignment revealed that S209 is conserved in many species throughout phylogeny with the exception of Caenorhabditis elegans and Schizosaccharomyces pombe, two organisms that do not possess the NF-kappaB signal pathway (Supplementary Fig. 5).
+# T23 Protein S8 0 4 1060 1064 RPS3
+
+To verify biochemically that S209 is an IKKbeta substrate, we performed 32P-labeling in vitro kinase assays with recombinant wild-type or S209A mutant RPS3 proteins.
+# T24 Protein S9 40 47 1367 1374 IKKbeta
+# T25 Protein S9 94 100 1421 1427 kinase
+# T26 Protein S9 151 155 1478 1482 RPS3
+$ T26 Protein S9 151 155 1478 1482 RPS3
+@ T58 Entity S9 138 143 1465 1470 S209A
+@ T59 Regulation S9 144 150 1471 1477 mutant
+% E16 Regulation:T59 Theme:T26 Site:T58
+
+Compared with the wild-type protein, the S209A mutation reduced IKKbeta-mediated RPS3 phosphorylation (Fig. 4c).
+# T27 Protein S10 64 71 1557 1564 IKKbeta
+# T28 Protein S10 81 85 1574 1578 RPS3
+$ T28 Protein S10 81 85 1574 1578 RPS3
+$ T27 Protein S10 64 71 1557 1564 IKKbeta
+@ T60 Entity S10 41 46 1534 1539 S209A
+@ T61 Regulation S10 47 55 1540 1548 mutation
+@ T62 Negative_regulation S10 56 63 1549 1556 reduced
+@ T63 Positive_regulation S10 72 80 1565 1573 mediated
+@ T64 Phosphorylation S10 86 101 1579 1594 phosphorylation
+% E17 Regulation:T61 Theme:T28 Site:T60
+% E18 Negative_regulation:T62 Theme:E19 Cause:E17
+% E19 Positive_regulation:T63 Theme:E20 Cause:T27
+% E20 Phosphorylation:T64 Theme:T28
+
+There might be alternative phosphorylation site(s) under these conditions given modest residual phosphorylated RPS3 (Fig. 4c).
+# T29 Protein S11 111 115 1717 1721 RPS3
+$ T29 Protein S11 111 115 1717 1721 RPS3
+@ T65 Phosphorylation S11 96 110 1702 1716 phosphorylated
+% E21 Phosphorylation:T65 Theme:T29
+
+RPS3 S209 does not fall within a conventional IKK recognition motif, but rather resides in a sequence motif (XXXpS/TXXE), potentially recognized by casein kinase II (CK2).
+# T30 Protein S12 0 4 1733 1737 RPS3
+$ T30 Protein S12 0 4 1733 1737 RPS3
+@ T66 Entity S12 93 107 1826 1840 sequence motif
+@ T67 Binding S12 134 144 1867 1877 recognized
+% E22 Binding:T67 Theme:T30 Site:T66
+
+Although IKKbeta kinase can display a CK2-like phosphorylation specificity29, no CK2 protein was detectable in our recombinant IKK proteins (Supplementary Fig. 6).
+# T31 Protein S13 9 16 1914 1921 IKKbeta
+
+Thus, RPS3 S209 phosphorylation was due to the alternate specificity of the IKKbeta kinase rather than any trace amount of CK2 bound to IKKs.
+# T32 Protein S14 6 10 2075 2079 RPS3
+# T33 Protein S14 76 83 2145 2152 IKKbeta
+$ T32 Protein S14 6 10 2075 2079 RPS3
+$ T33 Protein S14 76 83 2145 2152 IKKbeta
+@ T68 Entity S14 11 15 2080 2084 S209
+@ T69 Phosphorylation S14 16 31 2085 2100 phosphorylation
+@ T70 Positive_regulation S14 36 39 2105 2108 due
+% E23 Phosphorylation:T69 Theme:T32 Site:T68
+% E24 Positive_regulation:T70 Theme:E23 Cause:T33
+
+To determine whether S209 is the critical site at which IKKbeta phosphorylates RPS3 in living cells, we transfected the wild-type or S209A mutant Flag-RPS3 alone, or together with IKKbeta into cells.
+# T34 Protein S15 56 63 2267 2274 IKKbeta
+# T35 Protein S15 79 83 2290 2294 RPS3
+# T36 Protein S15 146 155 2357 2366 Flag-RPS3
+# T37 Protein S15 180 187 2391 2398 IKKbeta
+$ T35 Protein S15 79 83 2290 2294 RPS3
+$ T34 Protein S15 56 63 2267 2274 IKKbeta
+$ T36 Protein S15 146 155 2357 2366 Flag-RPS3
+$ T37 Protein S15 180 187 2391 2398 IKKbeta
+@ T71 Entity S15 21 25 2232 2236 S209
+@ T72 Positive_regulation S15 33 41 2244 2252 critical
+@ T73 Phosphorylation S15 64 78 2275 2289 phosphorylates
+@ T74 Gene_expression S15 104 115 2315 2326 transfected
+% E25 Positive_regulation:T72 Theme:E26 Cause:T35 CSite:T71
+% E26 Phosphorylation:T73 Theme:T35 Cause:T34
+% E27 Gene_expression:T74 Theme:T36
+% E28 Gene_expression:T74 Theme:T37
+
+Indeed, we observed that overexpressing IKKbeta enhanced Flag-RPS3 phosphorylation, but phosphorylation was effectively eliminated by alanine substitution indicating that S209 is the predominant target site for IKKbeta phosphorylation (Fig. 4d).
+# T38 Protein S16 40 47 2451 2458 IKKbeta
+# T39 Protein S16 57 66 2468 2477 Flag-RPS3
+# T40 Protein S16 211 218 2622 2629 IKKbeta
+$ T38 Protein S16 40 47 2451 2458 IKKbeta
+$ T39 Protein S16 57 66 2468 2477 Flag-RPS3
+@ T75 Positive_regulation S16 25 39 2436 2450 overexpressing
+@ T76 Positive_regulation S16 48 56 2459 2467 enhanced
+@ T77 Phosphorylation S16 67 82 2478 2493 phosphorylation
+@ T44 Anaphora S16 88 103 2499 2514 phosphorylation
+@ T78 Negative_regulation S16 120 130 2531 2541 eliminated
+@ T79 Regulation S16 134 154 2545 2565 alanine substitution
+@ T80 Entity S16 171 175 2582 2586 S209
+@ T81 Phosphorylation S16 219 234 2630 2645 phosphorylation
+% E29 Positive_regulation:T75 Theme:T38
+% E30 Positive_regulation:T76 Theme:E31 Cause:E29
+% E31 Phosphorylation:T77 Theme:T39
+% E32 Negative_regulation:T78 Theme:E31 Cause:E33
+% E33 Regulation:T79 Theme:T39 Site:T80
+% E34 Phosphorylation:T81 Theme:T39 Site:T80
+
+We next generated a phospho-S209 RPS3 antibody and confirmed that endogenous RPS3 was phosphorylated at S209 in a time-dependent manner upon TNF stimulation (Fig. 4e).
+# T41 Protein S17 20 46 2677 2703 phospho-S209 RPS3 antibody
+# T42 Protein S17 77 81 2734 2738 RPS3
+$ T42 Protein S17 77 81 2734 2738 RPS3
+@ T82 Phosphorylation S17 86 100 2743 2757 phosphorylated
+@ T83 Entity S17 104 108 2761 2765 S209
+@ T84 Regulation S17 119 128 2776 2785 dependent
+@ T85 Positive_regulation S17 136 140 2793 2797 upon
+% E35 Phosphorylation:T82 Theme:T42 Site:T83
+% E36 Regulation:T84 Theme:E35
+% E37 Positive_regulation:T85 Theme:E36
+
+Thus, the RPS3 C-terminal tail potentially contains an important regulatory site.
+# T43 Protein S18 10 14 2835 2839 RPS3
+

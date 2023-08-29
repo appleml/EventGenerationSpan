@@ -1,0 +1,251 @@
+Inflammation in allergic diseases such as asthma, rhinitis, and atopic dermatitis is mediated via expression of the cytokines interleukin (IL)-4, IL-5, and IL-13 from T helper-2 (Th2) cells.
+# T1 Protein S1 126 144 126 144 interleukin (IL)-4
+# T2 Protein S1 146 150 146 150 IL-5
+# T3 Protein S1 156 161 156 161 IL-13
+
+IL-4 and IL-13 regulate the expression of IgE from B lymphocytes, whereas IL-5 plays a key role in eosinophilic inflammation [1].
+# T4 Protein S2 0 4 191 195 IL-4
+# T5 Protein S2 9 14 200 205 IL-13
+# T6 Protein S2 74 78 265 269 IL-5
+
+Th2 cytokines are regulated by the zinc finger transcription factor GATA-3, which is predominantly expressed in Th2 cells [2],[3].
+# T7 Protein S3 68 74 389 395 GATA-3
+$ T7 Protein S3 68 74 389 395 GATA-3
+@ T47 Anaphora S3 76 81 397 402 which
+@ T53 Gene_expression S3 99 108 420 429 expressed
+% E1 Gene_expression:T53 Theme:T7
+
+GATA-3 determines Th2 cell differentiation and selectively activates the promoters of IL-4, IL-5, and IL-13 through chromatin remodelling [4]-[7].
+# T8 Protein S4 0 6 452 458 GATA-3
+# T9 Protein S4 86 90 538 542 IL-4
+# T10 Protein S4 92 96 544 548 IL-5
+# T11 Protein S4 102 107 554 559 IL-13
+$ T10 Protein S4 92 96 544 548 IL-5
+$ T8 Protein S4 0 6 452 458 GATA-3
+$ T9 Protein S4 86 90 538 542 IL-4
+$ T11 Protein S4 102 107 554 559 IL-13
+@ T54 Positive_regulation S4 59 68 511 520 activates
+@ T55 Entity S4 73 82 525 534 promoters
+% E2 Positive_regulation:T54 Theme:T10 Cause:T8 Site:T55
+% E3 Positive_regulation:T54 Theme:T9 Cause:T8 Site:T55
+% E4 Positive_regulation:T54 Theme:T11 Cause:T8 Site:T55
+
+The key role of GATA-3 in allergic airway inflammation has been demonstrated in mice by the reduced release of Th2 cytokines in animals treated with dominant-negative mutants of GATA-3 and by local application of antisense oligonucleotides to GATA-3 [8],[9].
+# T12 Protein S5 16 22 615 621 GATA-3
+# T13 Protein S5 178 184 777 783 GATA-3
+# T14 Protein S5 243 249 842 848 GATA-3
+
+Furthermore, conditional knock-out of the Gata3 gene in mice reduces expression of Th2 cytokines in vitro and in vivo [10], and similar results have been reported in isolated murine CD4+ lymphocytes [11].
+# T15 Protein S6 42 47 900 905 Gata3
+# T16 Protein S6 182 185 1040 1043 CD4
+
+Finally, knockdown of GATA-3 expression using siRNA in human T cells results in loss of anti-CD3/CD28-mediated Th2 cytokine expression [12].
+# T17 Protein S7 22 28 1085 1091 GATA-3
+$ T17 Protein S7 22 28 1085 1091 GATA-3
+@ T56 Negative_regulation S7 9 18 1072 1081 knockdown
+@ T57 Gene_expression S7 29 39 1092 1102 expression
+% E5 Negative_regulation:T56 Theme:E6
+% E6 Gene_expression:T57 Theme:T17
+
+In order for GATA-3 to regulate gene expression, it must translocate from the cytoplasm into the nucleus to access its target genes.
+# T18 Protein S8 13 19 1217 1223 GATA-3
+$ T18 Protein S8 13 19 1217 1223 GATA-3
+@ T48 Anaphora S8 49 51 1253 1255 it
+@ T58 Localization S8 57 68 1261 1272 translocate
+@ T59 Entity S8 97 104 1301 1308 nucleus
+@ T60 Binding S8 108 114 1312 1318 access
+@ T49 Anaphora S8 115 118 1319 1322 its
+@ T61 Binding S8 119 125 1323 1329 target
+% E7 Localization:T58 Theme:T18 ToLoc:T59
+% E8 Binding:T60 Theme:T18
+% E9 Binding:T61 Theme:T18
+
+Enhanced nuclear expression of GATA-3 following T cell receptor activation was first demonstrated in murine T cells [13] and was recently confirmed in human T cells following T cell receptor and co-receptor stimulation [12].
+# T19 Protein S9 31 37 1368 1374 GATA-3
+$ T19 Protein S9 31 37 1368 1374 GATA-3
+@ T62 Entity S9 9 16 1346 1353 nuclear
+@ T63 Localization S9 17 27 1354 1364 expression
+@ T64 Positive_regulation S9 38 47 1375 1384 following
+@ T65 Positive_regulation S9 165 174 1502 1511 following
+% E10 Localization:T63 Theme:T19 ToLoc:T62
+% E11 Positive_regulation:T64 Theme:E10
+% E12 Positive_regulation:T65 Theme:E10
+
+GATA-3 contains a classical nuclear import signal [14] and is transported into the nucleus by the nuclear import protein importin-alpha (also known as karyopherin-alpha) [12].
+# T20 Protein S10 0 6 1562 1568 GATA-3
+$ T20 Protein S10 0 6 1562 1568 GATA-3
+@ T66 Localization S10 62 73 1624 1635 transported
+@ T67 Entity S10 83 90 1645 1652 nucleus
+% E13 Localization:T66 Theme:T20 ToLoc:T67
+
+Deletion of a region encompassing the GATA-3 nuclear localisation sequence (NLS) region in murine and human cells prevents its nuclear localisation [12],[14].
+# T21 Protein S11 38 44 1776 1782 GATA-3
+
+The affinity of the importin-alpha-NLS interaction is regulated by phosphorylation [15], and we have shown that p38 mitogen-activated protein kinase (MAPK) plays a critical role in phosphorylating GATA-3 to enhance its interaction with importin-alpha and subsequent transport into the nucleus [12].
+# T22 Protein S12 197 203 2094 2100 GATA-3
+$ T22 Protein S12 197 203 2094 2100 GATA-3
+@ T68 Regulation S12 173 177 2070 2074 role
+@ T69 Phosphorylation S12 181 196 2078 2093 phosphorylating
+@ T70 Positive_regulation S12 207 214 2104 2111 enhance
+@ T50 Anaphora S12 215 218 2112 2115 its
+@ T71 Binding S12 219 230 2116 2127 interaction
+% E14 Regulation:T68 Theme:E15
+% E15 Phosphorylation:T69 Theme:T22
+% E16 Positive_regulation:T70 Theme:E17 Cause:E15
+% E17 Binding:T71 Theme:T22
+
+Corticosteroids are highly effective in the treatment of allergic inflammation, with marked suppression of Th2 cytokines in airways of patients with asthma [16].
+
+Corticosteroids mediate their anti-inflammatory effects through binding to glucocorticoid receptors (GRs), which then translocate to the nucleus where they interact with glucocorticoid response elements (GREs) in the promoter regions of steroid-sensitive genes.
+# T23 Protein S14 75 99 2433 2457 glucocorticoid receptors
+# T24 Protein S14 101 104 2459 2462 GRs
+$ T23 Protein S14 75 99 2433 2457 glucocorticoid receptors
+@ T72 Binding S14 64 71 2422 2429 binding
+@ T51 Anaphora S14 107 112 2465 2470 which
+@ T73 Localization S14 118 129 2476 2487 translocate
+@ T74 Entity S14 137 144 2495 2502 nucleus
+@ T52 Anaphora S14 151 155 2509 2513 they
+@ T75 Binding S14 156 164 2514 2522 interact
+% E18 Binding:T72 Theme:T23
+% E19 Localization:T73 Theme:T23 ToLoc:T74
+% E20 Binding:T75 Theme:T23
+
+Alternatively, activated GR interacts with coactivator molecules to suppress the expression of inflammatory genes by inhibiting the action of proinflammatory transcription factors such as nuclear factor-kappaB (NF-kappaB) through the recruitment of co-repressor molecules such as histone deacetylase-2 [17],[18].
+# T25 Protein S15 25 27 2645 2647 GR
+# T26 Protein S15 280 301 2900 2921 histone deacetylase-2
+$ T25 Protein S15 25 27 2645 2647 GR
+$ T26 Protein S15 280 301 2900 2921 histone deacetylase-2
+@ T76 Positive_regulation S15 15 24 2635 2644 activated
+@ T77 Binding S15 28 37 2648 2657 interacts
+@ T78 Binding S15 234 245 2854 2865 recruitment
+% E21 Positive_regulation:T76 Theme:T25
+% E22 Binding:T77 Theme:T25
+% E23 Binding:T78 Theme:T25 Theme2:T26
+
+Nuclear localisation and retention of GR is mediated through the nuclear localisation sequences NL1 and NL2 [19], by nuclear retention signals [20], and by control of nuclear export via a chromosomal region maintenance 1 (CRM-1) dependent pathway [21].
+# T27 Protein S16 38 40 2971 2973 GR
+# T28 Protein S16 188 220 3121 3153 chromosomal region maintenance 1
+# T29 Protein S16 222 227 3155 3160 CRM-1
+$ T27 Protein S16 38 40 2971 2973 GR
+$ T28 Protein S16 188 220 3121 3153 chromosomal region maintenance 1
+@ T79 Entity S16 0 7 2933 2940 Nuclear
+@ T80 Localization S16 8 20 2941 2953 localisation
+@ T81 Localization S16 25 34 2958 2967 retention
+@ T82 Positive_regulation S16 44 52 2977 2985 mediated
+@ T83 Regulation S16 156 163 3089 3096 control
+@ T84 Entity S16 167 174 3100 3107 nuclear
+@ T85 Localization S16 175 181 3108 3114 export
+@ T86 Regulation S16 229 238 3162 3171 dependent
+% E24 Localization:T80 Theme:T27 ToLoc:T79
+% E25 Localization:T81 Theme:T27
+% E26 Positive_regulation:T82 Theme:E24 Cause:E27
+% E28 Positive_regulation:T82 Theme:E25 Cause:E27
+% E27 Regulation:T83 Theme:E29
+% E29 Localization:T85 Theme:T27 ToLoc:T84
+% E30 Regulation:T86 Theme:E27 Cause:T28
+
+NL1, which is similar to the SV40 NLS, binds to importin-alpha [22].
+@ T87 Entity S17 0 3 3186 3189 NL1
+@ T88 Binding S17 39 44 3225 3230 binds
+% E31 Binding:T88 Theme:T27 Site:T87
+
+NL1 is activated both by glucocorticoid agonists such as dexamethasone and fluticasone propionate (FP) and by glucocorticoid antagonists such as mifepristone (RU486) [23].
+
+NL1 can be mutated, and the resulting GR still translocates to the nucleus in response to ligands, but via interaction with importin 7, an event that requires an as-yet unknown component [23].
+# T30 Protein S19 38 40 3465 3467 GR
+# T31 Protein S19 124 134 3551 3561 importin 7
+$ T30 Protein S19 38 40 3465 3467 GR
+$ T31 Protein S19 124 134 3551 3561 importin 7
+@ T89 Regulation S19 28 37 3455 3464 resulting
+@ T90 Localization S19 47 59 3474 3486 translocates
+@ T91 Entity S19 67 74 3494 3501 nucleus
+@ T92 Positive_regulation S19 75 89 3502 3516 in response to
+@ T93 Binding S19 107 118 3534 3545 interaction
+@ T94 Positive_regulation S19 150 158 3577 3585 requires
+% E32 Regulation:T89 Theme:E33
+% E33 Localization:T90 Theme:T30 ToLoc:T91
+% E34 Positive_regulation:T92 Theme:E33 Cause:E35
+% E35 Binding:T93 Theme:T30 Theme2:T31
+% E36 Positive_regulation:T94 Theme:E35
+
+NL2 is poorly defined, residing in the ligand-binding domain, and much less is known about its mechanism of GR import [24].
+# T32 Protein S20 108 110 3728 3730 GR
+$ T32 Protein S20 108 110 3728 3730 GR
+@ T95 Localization S20 111 117 3731 3737 import
+% E37 Localization:T95 Theme:T32
+
+A variety of other factors are also important for the regulation of GR activation and nuclear import including chaperones such as Hsp90 and other immunophilins [24]-[26] and FK506-binding proteins that may be linked to dynein and/or peptidylprolyl isomerase [27],[28].
+# T33 Protein S21 68 70 3812 3814 GR
+$ T33 Protein S21 68 70 3812 3814 GR
+@ T96 Regulation S21 36 45 3780 3789 important
+@ T97 Regulation S21 54 64 3798 3808 regulation
+@ T98 Positive_regulation S21 71 81 3815 3825 activation
+% E38 Regulation:T96 Theme:E39
+% E39 Regulation:T97 Theme:E40
+% E40 Positive_regulation:T98 Theme:T33
+
+However, the molecular basis for the inhibition of Th2 cytokines by corticosteroids is not well understood, because the genes encoding IL-4, IL-5, and IL-13 do not have any recognisable GRE sequence [29] and are only partly regulated by NF-kappaB in human cells [30]-[32].
+# T34 Protein S22 135 139 4148 4152 IL-4
+# T35 Protein S22 141 145 4154 4158 IL-5
+# T36 Protein S22 151 156 4164 4169 IL-13
+$ T34 Protein S22 135 139 4148 4152 IL-4
+$ T35 Protein S22 141 145 4154 4158 IL-5
+$ T36 Protein S22 151 156 4164 4169 IL-13
+@ T99 Regulation S22 224 233 4237 4246 regulated
+% E41 Regulation:T99 Theme:T34
+% E42 Regulation:T99 Theme:T35
+% E43 Regulation:T99 Theme:T36
+
+Using overexpression and CAT-reporter genes, Lavender and colleagues [33] have shown that GR reduced GATA-3-mediated IL-5 and -13 promoter activity in human CD4+ T cells.
+# T37 Protein S23 25 28 4311 4314 CAT
+# T38 Protein S23 90 92 4376 4378 GR
+# T39 Protein S23 101 107 4387 4393 GATA-3
+# T40 Protein S23 117 121 4403 4407 IL-5
+# T41 Protein S23 126 129 4412 4415 -13
+# T42 Protein S23 157 160 4443 4446 CD4
+$ T38 Protein S23 90 92 4376 4378 GR
+$ T39 Protein S23 101 107 4387 4393 GATA-3
+$ T40 Protein S23 117 121 4403 4407 IL-5
+$ T41 Protein S23 126 129 4412 4415 -13
+@ T100 Negative_regulation S23 93 100 4379 4386 reduced
+@ T101 Positive_regulation S23 108 116 4394 4402 mediated
+@ T102 Gene_expression S23 139 147 4425 4433 activity
+% E44 Negative_regulation:T100 Theme:E45 Cause:T38
+% E46 Negative_regulation:T100 Theme:E47 Cause:T38
+% E45 Positive_regulation:T101 Theme:E48 Cause:T39
+% E47 Positive_regulation:T101 Theme:E49 Cause:T39
+% E48 Gene_expression:T102 Theme:T40
+% E49 Gene_expression:T102 Theme:T41
+
+The authors postulated that local recruitment of GR may alter the ability of GATA-3 either to bind to its target site, to cause transcriptional up-regulation, or to maintain an environment that is permissive for transcription.
+# T43 Protein S24 49 51 4506 4508 GR
+# T44 Protein S24 77 83 4534 4540 GATA-3
+$ T43 Protein S24 49 51 4506 4508 GR
+$ T44 Protein S24 77 83 4534 4540 GATA-3
+@ T103 Localization S24 34 45 4491 4502 recruitment
+@ T104 Regulation S24 56 61 4513 4518 alter
+@ T105 Binding S24 94 98 4551 4555 bind
+% E50 Localization:T103 Theme:T43
+% E51 Regulation:T104 Theme:E52 Cause:E50
+% E52 Binding:T105 Theme:T44
+
+We therefore investigated the effects of a synthetic corticosteroid, FP, on GATA-3 phosphorylation and nuclear translocation in a T lymphocyte cell line (HuT-78) and in peripheral blood mononuclear cells activated by anti-CD3 and anti-CD28 antibodies in vitro.
+# T45 Protein S25 76 82 4760 4766 GATA-3
+$ T45 Protein S25 76 82 4760 4766 GATA-3
+@ T106 Regulation S25 30 37 4714 4721 effects
+@ T107 Phosphorylation S25 83 98 4767 4782 phosphorylation
+@ T108 Entity S25 103 110 4787 4794 nuclear
+@ T109 Localization S25 111 124 4795 4808 translocation
+% E53 Regulation:T106 Theme:E54
+% E55 Regulation:T106 Theme:E56
+% E54 Phosphorylation:T107 Theme:T45
+% E56 Localization:T109 Theme:T45 ToLoc:T108
+
+We also studied the effects of inhaled fluticasone therapy on GATA-3 subcellular localization in peripheral blood mononuclear cells (PBMCs) from patients with asthma.
+# T46 Protein S26 62 68 5007 5013 GATA-3
+$ T46 Protein S26 62 68 5007 5013 GATA-3
+@ T110 Regulation S26 20 27 4965 4972 effects
+@ T111 Localization S26 81 93 5026 5038 localization
+% E57 Regulation:T110 Theme:E58
+% E58 Localization:T111 Theme:T46
+

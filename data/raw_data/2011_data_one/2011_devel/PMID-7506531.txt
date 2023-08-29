@@ -1,0 +1,64 @@
+Induction of tyrosine phosphorylation and T-cell activation by vanadate peroxide, an inhibitor of protein tyrosine phosphatases.
+
+Rapid tyrosine phosphorylation of key cellular proteins is a crucial event in the transduction of activation signals to T-lymphocytes.
+
+The regulatory role of protein tyrosine phosphatases (PTPases) in this process was explored by studying the effects of a powerful PTPase inhibitor, vanadate peroxide (pervanadate), on the activation cascade of Jurkat human leukaemic T-cells.
+
+Pervanadate induced activation of the tyrosine kinases lck and fyn (4- and 3-fold respectively) and a dramatic increase in tyrosine phosphorylation of cellular proteins, notably phospholipase C gamma 1.
+# T1 Protein S4 55 58 562 565 lck
+# T2 Protein S4 63 66 570 573 fyn
+# T3 Protein S4 178 201 685 708 phospholipase C gamma 1
+$ T1 Protein S4 55 58 562 565 lck
+$ T2 Protein S4 63 66 570 573 fyn
+$ T3 Protein S4 178 201 685 708 phospholipase C gamma 1
+@ T12 Positive_regulation S4 20 30 527 537 activation
+@ T13 Positive_regulation S4 111 119 618 626 increase
+@ T14 Entity S4 123 131 630 638 tyrosine
+@ T15 Phosphorylation S4 132 147 639 654 phosphorylation
+% E1 Positive_regulation:T12 Theme:T1
+% E2 Positive_regulation:T12 Theme:T2
+% E3 Positive_regulation:T13 Theme:E4
+% E4 Phosphorylation:T15 Theme:T3 Site:T14
+
+After this event, we observed a rise in intracellular Ca2+ concentration, corresponding to an influx.
+
+This effect required surface expression of the CD45 PTPase and was not observed in CD45-deficient variants of Jurkat cells.
+# T4 Protein S6 47 51 859 863 CD45
+# T5 Protein S6 83 87 895 899 CD45
+$ T4 Protein S6 47 51 859 863 CD45
+@ T16 Gene_expression S6 29 39 841 851 expression
+% E5 Gene_expression:T16 Theme:T4
+
+In the CD45-negative variant, the effect of pervanadate on tyrosine phosphorylation was globally decreased and some phosphorylated substrates were specifically missing.
+# T6 Protein S7 7 11 943 947 CD45
+
+Pervanadate also stimulated transcription of the c-fos gene and accumulation of its mRNA as well as several other hallmarks of T-lymphocyte activation such as surface expression of the CD69 antigen and the interleukin 2 receptor alpha-chain (CD25).
+# T7 Protein S8 49 54 1154 1159 c-fos
+# T8 Protein S8 185 189 1290 1294 CD69
+# T9 Protein S8 206 240 1311 1345 interleukin 2 receptor alpha-chain
+# T10 Protein S8 242 246 1347 1351 CD25
+$ T7 Protein S8 49 54 1154 1159 c-fos
+$ T10 Protein S8 242 246 1347 1351 CD25
+$ T8 Protein S8 185 189 1290 1294 CD69
+@ T17 Positive_regulation S8 17 27 1122 1132 stimulated
+@ T18 Transcription S8 28 41 1133 1146 transcription
+@ T19 Positive_regulation S8 64 76 1169 1181 accumulation
+@ T20 Gene_expression S8 167 177 1272 1282 expression
+% E6 Positive_regulation:T17 Theme:E12
+% E7 Positive_regulation:T17 Theme:E13
+% E8 Positive_regulation:T17 Theme:E10
+% E9 Positive_regulation:T17 Theme:E11
+% E10 Transcription:T18 Theme:T7
+% E11 Positive_regulation:T19 Theme:T7
+% E12 Gene_expression:T20 Theme:T10
+% E13 Gene_expression:T20 Theme:T8
+
+Pervanadate synergized with signals delivered by T-cell antigen receptor engagement or by a phorbol ester to induce interleukin 2 production.
+# T11 Protein S9 116 129 1470 1483 interleukin 2
+
+Pervanadate activated NF-kappa B, as shown by an increase in DNA-binding activity of this transcription factor.
+
+We thus conclude that PTPases play a crucial role in the negative regulation of signal transduction culminating in T-lymphocyte activation.
+
+Moreover, induction of tyrosine phosphorylation appears sufficient per se to initiate a complete activation programme.
+

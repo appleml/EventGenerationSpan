@@ -1,0 +1,63 @@
+Activation of the Janus kinase 3-STAT5a pathway after CD40 triggering of human monocytes but not of resting B cells.
+# T1 Protein S1 18 32 18 32 Janus kinase 3
+# T2 Protein S1 33 39 33 39 STAT5a
+# T3 Protein S1 54 58 54 58 CD40
+
+CD40/CD40 ligand interactions play a key role in the immune responses of B lymphocytes, monocytes, and dendritic cells.
+# T4 Protein S2 0 4 118 122 CD40
+# T5 Protein S2 5 16 123 134 CD40 ligand
+$ T4 Protein S2 0 4 118 122 CD40
+$ T5 Protein S2 5 16 123 134 CD40 ligand
+@ T22 Binding S2 17 29 135 147 interactions
+% E1 Binding:T22 Theme:T4 Theme2:T5
+
+The signal transduction events triggered by cross-linking of the CD40 receptor have been widely studied in B cell lines, but little is known about signaling following CD40 stimulation of monocytes and resting tonsillar B cells.
+# T6 Protein S3 65 69 303 307 CD40
+# T7 Protein S3 167 171 405 409 CD40
+
+Therefore, we studied the CD40 pathway in highly purified human monocytes and resting B cells.
+# T8 Protein S4 26 30 492 496 CD40
+
+After CD40 triggering, a similar activation of the NF-kappaB (but not of the AP-1) transcription factor complex occurred in both cell preparations.
+# T9 Protein S5 6 10 567 571 CD40
+
+However, the components of the NF-kappaB complexes were different in monocytes and B cells, because p50 is part of the NF-kappaB complex induced by CD40 triggering in both monocytes and B cells, whereas p65 was only induced in B cells.
+# T10 Protein S6 100 103 809 812 p50
+# T11 Protein S6 148 152 857 861 CD40
+# T12 Protein S6 203 206 912 915 p65
+$ T10 Protein S6 100 103 809 812 p50
+$ T12 Protein S6 203 206 912 915 p65
+@ T23 Positive_regulation S6 137 144 846 853 induced
+@ T24 Positive_regulation S6 216 223 925 932 induced
+% E2 Positive_regulation:T23 Theme:T10
+% E3 Positive_regulation:T24 Theme:T12
+
+In contrast, although the Janus kinase 3 tyrosine kinase was associated with CD40 molecules in both monocytes and resting B cells, Janus kinase 3 phosphorylation induction was observed only in CD40-activated monocytes, with subsequent induction of STAT5a DNA binding activity in the nucleus.
+# T13 Protein S7 26 40 971 985 Janus kinase 3
+# T14 Protein S7 77 81 1022 1026 CD40
+# T15 Protein S7 131 145 1076 1090 Janus kinase 3
+# T16 Protein S7 193 197 1138 1142 CD40
+# T17 Protein S7 248 254 1193 1199 STAT5a
+$ T13 Protein S7 26 40 971 985 Janus kinase 3
+$ T14 Protein S7 77 81 1022 1026 CD40
+$ T15 Protein S7 131 145 1076 1090 Janus kinase 3
+$ T17 Protein S7 248 254 1193 1199 STAT5a
+@ T25 Binding S7 61 71 1006 1016 associated
+@ T26 Phosphorylation S7 146 161 1091 1106 phosphorylation
+@ T27 Positive_regulation S7 162 171 1107 1116 induction
+@ T28 Positive_regulation S7 235 244 1180 1189 induction
+@ T29 Binding S7 259 266 1204 1211 binding
+% E4 Binding:T25 Theme:T13 Theme2:T14
+% E5 Phosphorylation:T26 Theme:T15
+% E6 Positive_regulation:T27 Theme:E5
+% E7 Positive_regulation:T28 Theme:E8
+% E8 Binding:T29 Theme:T17
+
+These results suggest that the activation signals in human B cells and monocytes differ following CD40 stimulation.
+# T18 Protein S8 98 102 1335 1339 CD40
+
+This observation is consistent with the detection of normal CD40-induced monocyte activation in patients with CD40 ligand+ hyper IgM syndrome in whom a defect in CD40-induced B cell activation has been reported.
+# T19 Protein S9 60 64 1413 1417 CD40
+# T20 Protein S9 110 114 1463 1467 CD40
+# T21 Protein S9 162 166 1515 1519 CD40
+

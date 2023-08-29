@@ -1,0 +1,38 @@
+Fluticasone propionate impairs GATA-3 interaction with importin-alpha and GATA-3 nuclear localization in vivo and ex vivo.
+# T1 Protein S1 31 37 31 37 GATA-3
+# T2 Protein S1 74 80 74 80 GATA-3
+$ T1 Protein S1 31 37 31 37 GATA-3
+$ T2 Protein S1 74 80 74 80 GATA-3
+@ T5 Negative_regulation S1 23 30 23 30 impairs
+@ T6 Binding S1 38 49 38 49 interaction
+@ T7 Entity S1 81 88 81 88 nuclear
+@ T8 Localization S1 89 101 89 101 localization
+% E1 Negative_regulation:T5 Theme:E2
+% E3 Negative_regulation:T5 Theme:E4
+% E2 Binding:T6 Theme:T1
+% E4 Localization:T8 Theme:T2 ToLoc:T7
+
+(A and B) Co-immunoprecipitation analysis of PBMCs from steroid-naive asthma patients treated with FP in vitro demonstrated impaired interaction between GATA-3 and importin-alpha measured at 60 min.
+# T3 Protein S2 153 159 276 282 GATA-3
+$ T3 Protein S2 153 159 276 282 GATA-3
+@ T9 Negative_regulation S2 124 132 247 255 impaired
+@ T10 Binding S2 133 144 256 267 interaction
+% E5 Negative_regulation:T9 Theme:E6
+% E6 Binding:T10 Theme:T3
+
+Each bar represents the mean+/-SEM of at least three independent experiments; *** p<0.001 compared with control as determined by ANOVA/Newman-Keuls analysis.
+
+(C and D) Co-immunoprecipitation analyses of PBMCs from steroid-naive asthma patients treated with inhaled FP (500 microg via a spacer) in vivo demonstrated decreased association between GATA-3 and importin-alpha.
+# T4 Protein S4 187 193 667 673 GATA-3
+$ T4 Protein S4 187 193 667 673 GATA-3
+@ T11 Negative_regulation S4 157 166 637 646 decreased
+@ T12 Binding S4 167 178 647 658 association
+% E7 Negative_regulation:T11 Theme:E8
+% E8 Binding:T12 Theme:T4
+
+The individual values for each treatment are presented graphically.
+
+(E) Representative Western blot showing that importin-alpha expression was unaffected by inhalation of FP.
+
+Blot is representative of gels from three participants.
+

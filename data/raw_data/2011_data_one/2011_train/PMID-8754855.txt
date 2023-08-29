@@ -1,0 +1,47 @@
+Precise alignment of sites required for mu enhancer activation in B cells.
+
+The lymphocyte-specific immunoglobulin mu heavy-chain gene intronic enhancer is regulated by multiple nuclear factors.
+
+The previously defined minimal enhancer containing the muA, muE3, and muB sites is transactivated by a combination of the ETS-domain proteins PU.1 and Ets-1 in nonlymphoid cells.
+# T1 Protein S3 142 146 337 341 PU.1
+# T2 Protein S3 151 156 346 351 Ets-1
+$ T1 Protein S3 142 146 337 341 PU.1
+$ T2 Protein S3 151 156 346 351 Ets-1
+@ T10 Binding S3 103 114 298 309 combination
+% E1 Binding:T10 Theme:T1 Theme2:T2
+
+The core GGAAs of the muA and muB sites are separated by 30 nucleotides, suggesting that ETS proteins bind to these sites from these same side of the DNA helix.
+
+We tested the necessity for appropriate spatial alignment of these elements by using mutated enhancers with altered spacings.
+
+A 4- or 10-bp insertion between muE3 and muB inactivated the mu enhancer in S194 plasma cells but did not affect in vitro binding of Ets-1, PU.1, or the muE3-binding protein TFE3, alone or in pairwise combinations.
+# T3 Protein S6 133 138 794 799 Ets-1
+# T4 Protein S6 140 144 801 805 PU.1
+# T5 Protein S6 174 178 835 839 TFE3
+$ T5 Protein S6 174 178 835 839 TFE3
+$ T3 Protein S6 133 138 794 799 Ets-1
+$ T4 Protein S6 140 144 801 805 PU.1
+@ T11 Regulation S6 106 112 767 773 affect
+@ T12 Binding S6 122 129 783 790 binding
+% E2 Regulation:T11 Theme:E6
+% E3 Regulation:T11 Theme:E5
+% E4 Regulation:T11 Theme:E7
+% E5 Binding:T12 Theme:T5
+% E6 Binding:T12 Theme:T3
+% E7 Binding:T12 Theme:T4
+
+Circular permutation and phasing analyses demonstrated that PU.1 binding but not TFE3 or Ets-1 bends mu enhancer DNA toward the major groove.
+# T6 Protein S7 60 64 936 940 PU.1
+# T7 Protein S7 81 85 957 961 TFE3
+# T8 Protein S7 89 94 965 970 Ets-1
+$ T8 Protein S7 89 94 965 970 Ets-1
+$ T7 Protein S7 81 85 957 961 TFE3
+$ T6 Protein S7 60 64 936 940 PU.1
+@ T13 Binding S7 65 72 941 948 binding
+% E8 Binding:T13 Theme:T8
+% E9 Binding:T13 Theme:T7
+% E10 Binding:T13 Theme:T6
+
+We propose that the requirement for precise spacing of the muA and muB elements is due in part to a directed DNA bend induced by PU.1.
+# T9 Protein S8 129 133 1147 1151 PU.1
+

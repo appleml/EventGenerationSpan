@@ -1,0 +1,39 @@
+A critical role of the p75 tumor necrosis factor receptor (p75TNF-R) in organ inflammation independent of TNF, lymphotoxin alpha, or the p55TNF-R.
+# T1 Protein S1 23 57 23 57 p75 tumor necrosis factor receptor
+# T2 Protein S1 59 67 59 67 p75TNF-R
+# T3 Protein S1 111 128 111 128 lymphotoxin alpha
+# T4 Protein S1 137 145 137 145 p55TNF-R
+
+Despite overwhelming evidence that enhanced production of the p75 tumor necrosis factor receptor (p75TNF-R) accompanies development of specific human inflammatory pathologies such as multi-organ failure during sepsis, inflammatory liver disease, pancreatitis, respiratory distress syndrome, or AIDS, the function of this receptor remains poorly defined in vivo.
+# T5 Protein S2 62 96 210 244 p75 tumor necrosis factor receptor
+# T6 Protein S2 98 106 246 254 p75TNF-R
+$ T6 Protein S2 98 106 246 254 p75TNF-R
+@ T11 Positive_regulation S2 35 43 183 191 enhanced
+@ T12 Gene_expression S2 44 54 192 202 production
+% E1 Positive_regulation:T11 Theme:E2
+% E2 Gene_expression:T12 Theme:T6
+
+We show here that at levels relevant to human disease, production of the human p75TNF-R in transgenic mice results in a severe inflammatory syndrome involving mainly the pancreas, liver, kidney, and lung, and characterized by constitutively increased NF-kappaB activity in the peripheral blood mononuclear cell compartment.
+# T7 Protein S3 79 87 589 597 p75TNF-R
+$ T7 Protein S3 79 87 589 597 p75TNF-R
+@ T13 Gene_expression S3 55 65 565 575 production
+% E3 Gene_expression:T13 Theme:T7
+
+This process is shown to evolve independently of the presence of TNF, lymphotoxin alpha, or the p55TNF-R, although coexpression of a human TNF transgene accelerated pathology.
+# T8 Protein S4 70 87 904 921 lymphotoxin alpha
+# T9 Protein S4 96 104 930 938 p55TNF-R
+$ T9 Protein S4 96 104 930 938 p55TNF-R
+$ T8 Protein S4 70 87 904 921 lymphotoxin alpha
+@ T14 Regulation S4 25 45 859 879 evolve independently
+% E4 Regulation:T14 Theme:E3 Cause:T9
+% E5 Regulation:T14 Theme:E3
+% E6 Regulation:T14 Theme:E3 Cause:T8
+
+These results establish an independent role for enhanced p75TNF-R production in the pathogenesis of inflammatory disease and implicate the direct involvement of this receptor in a wide range of human inflammatory pathologies.
+# T10 Protein S5 57 65 1067 1075 p75TNF-R
+$ T10 Protein S5 57 65 1067 1075 p75TNF-R
+@ T15 Positive_regulation S5 48 56 1058 1066 enhanced
+@ T16 Gene_expression S5 66 76 1076 1086 production
+% E7 Positive_regulation:T15 Theme:E8
+% E8 Gene_expression:T16 Theme:T10
+

@@ -1,0 +1,149 @@
+CD40 signaling in professional antigen-presenting cells, including B cells, macrophages, and dendritic cells, is critical for the efficient activation of humoral and cell-mediated immune responses [1], [2], [3].
+# T1 Protein S1 0 4 0 4 CD40
+
+CD40 signaling is activated in a T cell-dependent manner, as the ligand for CD40, CD154, is expressed primarily by activated T cells.
+# T2 Protein S2 0 4 212 216 CD40
+# T3 Protein S2 76 80 288 292 CD40
+# T4 Protein S2 82 87 294 299 CD154
+$ T4 Protein S2 82 87 294 299 CD154
+@ T44 Gene_expression S2 92 101 304 313 expressed
+% E1 Gene_expression:T44 Theme:T4
+
+CD40 engagement leads to the activation of various signaling molecules, including stress-activated protein kinases and the transcription factor NF-kappaB, which upregulate the expression of cytokines and other factors that promote immune responses.
+# T5 Protein S3 0 4 346 350 CD40
+$ T5 Protein S3 0 4 346 350 CD40
+@ T45 Binding S3 5 15 351 361 engagement
+% E2 Binding:T45 Theme:T5
+
+The mechanism by which CD40 induces these signaling pathways has not been completely defined.
+# T6 Protein S4 23 27 618 622 CD40
+
+The cytoplasmic domain of CD40 does not appear to have intrinsic enzymatic activity, but is able to mediate signaling through the recruitment of several intracellular proteins.
+# T7 Protein S5 26 30 715 719 CD40
+$ T7 Protein S5 26 30 715 719 CD40
+@ T46 Entity S5 4 22 693 711 cytoplasmic domain
+@ T47 Binding S5 130 141 819 830 recruitment
+% E3 Binding:T47 Theme:T7 Site:T46
+
+Members of the TNF receptor-associated factor (TRAF) family, including TRAF1, TRAF2, TRAF3, and TRAF6, appear to be particularly important for the initiation and regulation of CD40 signaling [4].
+# T8 Protein S6 71 76 937 942 TRAF1
+# T9 Protein S6 78 83 944 949 TRAF2
+# T10 Protein S6 85 90 951 956 TRAF3
+# T11 Protein S6 96 101 962 967 TRAF6
+# T12 Protein S6 176 180 1042 1046 CD40
+
+These proteins function in part as adaptor molecules, binding to the cytoplasmic tail of CD40 and recruiting other proteins to the receptor-associated complex.
+# T13 Protein S7 89 93 1151 1155 CD40
+$ T13 Protein S7 89 93 1151 1155 CD40
+@ T41 Anaphora S7 0 14 1062 1076 These proteins
+@ T48 Binding S7 54 61 1116 1123 binding
+@ T49 Entity S7 69 85 1131 1147 cytoplasmic tail
+% E4 Binding:T48 Theme:T8 Theme2:T13 Site2:T49
+% E5 Binding:T48 Theme:T9 Theme2:T13 Site2:T49
+% E6 Binding:T48 Theme:T10 Theme2:T13 Site2:T49
+% E7 Binding:T48 Theme:T11 Theme2:T13 Site2:T49
+
+Some of the TRAFs also function as E3 ubiquitin ligases, and this enzymatic activity may contribute to signal propagation and regulation.
+
+Among the multiple TRAFs that associate with CD40, TRAF3 can function as a negative regulator of signaling, while TRAF2 and TRAF6 promote the activation of downstream signaling pathways [4].
+# T14 Protein S9 45 49 1405 1409 CD40
+# T15 Protein S9 51 56 1411 1416 TRAF3
+# T16 Protein S9 114 119 1474 1479 TRAF2
+# T17 Protein S9 124 129 1484 1489 TRAF6
+$ T14 Protein S9 45 49 1405 1409 CD40
+$ T15 Protein S9 51 56 1411 1416 TRAF3
+$ T16 Protein S9 114 119 1474 1479 TRAF2
+$ T17 Protein S9 124 129 1484 1489 TRAF6
+@ T42 Anaphora S9 6 24 1366 1384 the multiple TRAFs
+@ T43 Anaphora S9 25 29 1385 1389 that
+@ T50 Binding S9 30 39 1390 1399 associate
+% E8 Binding:T50 Theme:T14 Theme2:T15
+% E9 Binding:T50 Theme:T14 Theme2:T16
+% E10 Binding:T50 Theme:T14 Theme2:T17
+
+We recently demonstrated that HOIL-1L interacting protein (HOIP), a ubiquitin ligase that can catalyze the assembly of linear polyubiquitin chains [5], is recruited to CD40 in a TRAF2-dependent manner following engagement of CD40 by agonistic antibody [6].
+# T18 Protein S10 30 57 1581 1608 HOIL-1L interacting protein
+# T19 Protein S10 59 63 1610 1614 HOIP
+# T20 Protein S10 168 172 1719 1723 CD40
+# T21 Protein S10 178 183 1729 1734 TRAF2
+# T22 Protein S10 225 229 1776 1780 CD40
+$ T18 Protein S10 30 57 1581 1608 HOIL-1L interacting protein
+$ T20 Protein S10 168 172 1719 1723 CD40
+$ T21 Protein S10 178 183 1729 1734 TRAF2
+$ T22 Protein S10 225 229 1776 1780 CD40
+@ T51 Binding S10 155 164 1706 1715 recruited
+@ T52 Regulation S10 184 193 1735 1744 dependent
+@ T53 Positive_regulation S10 201 210 1752 1761 following
+@ T54 Binding S10 211 221 1762 1772 engagement
+% E11 Binding:T51 Theme:T18 Theme2:T20
+% E12 Regulation:T52 Theme:E11 Cause:T21
+% E13 Positive_regulation:T53 Theme:E12 Cause:E14
+% E14 Binding:T54 Theme:T22
+
+These and other findings led us to hypothesize that HOIP functions downstream of TRAF2 in the CD40 signaling pathway and that HOIP is necessary for the activation of NF-kappaB and possibly other signaling molecules.
+# T23 Protein S11 52 56 1860 1864 HOIP
+# T24 Protein S11 81 86 1889 1894 TRAF2
+# T25 Protein S11 94 98 1902 1906 CD40
+# T26 Protein S11 126 130 1934 1938 HOIP
+$ T24 Protein S11 81 86 1889 1894 TRAF2
+$ T23 Protein S11 52 56 1860 1864 HOIP
+@ T55 Positive_regulation S11 57 77 1865 1885 functions downstream
+% E15 Positive_regulation:T55 Theme:T24 Cause:T23
+
+To test this hypothesis, we employed somatic cell gene targeting to ablate expression of HOIP in a mouse B cell line that has proven to be a useful model for B cell CD40 signaling [7], [8], [9].
+# T27 Protein S12 89 93 2113 2117 HOIP
+# T28 Protein S12 165 169 2189 2193 CD40
+$ T27 Protein S12 89 93 2113 2117 HOIP
+@ T56 Negative_regulation S12 68 74 2092 2098 ablate
+@ T57 Gene_expression S12 75 85 2099 2109 expression
+% E16 Negative_regulation:T56 Theme:E17
+% E17 Gene_expression:T57 Theme:T27
+
+We found that the CD40-induced upregulation of CD80 (a costimulatory molecule for T cells) was defective in HOIP-deficient cells.
+# T29 Protein S13 18 22 2237 2241 CD40
+# T30 Protein S13 47 51 2266 2270 CD80
+# T31 Protein S13 108 112 2327 2331 HOIP
+$ T29 Protein S13 18 22 2237 2241 CD40
+$ T30 Protein S13 47 51 2266 2270 CD80
+$ T31 Protein S13 108 112 2327 2331 HOIP
+@ T58 Positive_regulation S13 23 30 2242 2249 induced
+@ T59 Positive_regulation S13 31 43 2250 2262 upregulation
+@ T60 Negative_regulation S13 95 104 2314 2323 defective
+@ T61 Negative_regulation S13 113 122 2332 2341 deficient
+% E18 Positive_regulation:T58 Theme:E19 Cause:T29
+% E19 Positive_regulation:T59 Theme:T30
+% E20 Negative_regulation:T60 Theme:E18
+% E21 Negative_regulation:T61 Theme:T31
+
+Similarly, the CD40 and IL-4 driven production of germline transcripts from the immunoglobulin epsilon heavy chain locus, an event that precedes immunoglobulin gene rearrangement and isotype switching, was defective in the absence of HOIP.
+# T32 Protein S14 15 19 2364 2368 CD40
+# T33 Protein S14 24 28 2373 2377 IL-4
+# T34 Protein S14 234 238 2583 2587 HOIP
+$ T34 Protein S14 234 238 2583 2587 HOIP
+@ T62 Negative_regulation S14 223 230 2572 2579 absence
+% E22 Negative_regulation:T62 Theme:T34
+
+We also found that the CD40-mediated activation of NF-kappaB and the stress-activated protein kinase c-Jun kinase (JNK) was defective in HOIP-deficient cells.
+# T35 Protein S15 23 27 2612 2616 CD40
+# T36 Protein S15 137 141 2726 2730 HOIP
+$ T36 Protein S15 137 141 2726 2730 HOIP
+@ T63 Negative_regulation S15 142 151 2731 2740 deficient
+% E23 Negative_regulation:T63 Theme:T36
+
+Consistent with impaired NF-kappaB activation, association of the IkappaB kinase (IKK) complex with CD40 was undetectable in HOIP-deficient cells.
+# T37 Protein S16 100 104 2848 2852 CD40
+# T38 Protein S16 125 129 2873 2877 HOIP
+$ T37 Protein S16 100 104 2848 2852 CD40
+$ T38 Protein S16 125 129 2873 2877 HOIP
+@ T64 Binding S16 47 58 2795 2806 association
+@ T65 Negative_regulation S16 130 139 2878 2887 deficient
+% E24 Binding:T64 Theme:T37
+% E25 Negative_regulation:T65 Theme:T38
+
+Together, our results indicate that HOIP plays a critical role in the activation of signaling pathways that regulate cellular responses to CD40 engagement.
+# T39 Protein S17 36 40 2931 2935 HOIP
+# T40 Protein S17 139 143 3034 3038 CD40
+$ T40 Protein S17 139 143 3034 3038 CD40
+@ T66 Binding S17 144 154 3039 3049 engagement
+% E26 Binding:T66 Theme:T40
+

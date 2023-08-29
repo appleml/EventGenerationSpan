@@ -1,0 +1,260 @@
+Levels of IL-1beta are increased in the BALF of CF patients but the cellular source of this cytokine and its production in the context of targeted inflammasome activation are still unclear.
+# T1 Protein S1 10 18 10 18 IL-1beta
+$ T1 Protein S1 10 18 10 18 IL-1beta
+@ T24 Positive_regulation S1 23 32 23 32 increased
+@ T23 Anaphora S1 105 108 105 108 its
+@ T25 Gene_expression S1 109 119 109 119 production
+@ T26 Regulation S1 138 146 138 146 targeted
+% E1 Positive_regulation:T24 Theme:T1
+% E2 Gene_expression:T25 Theme:T1
+% E3 Regulation:T26 Theme:E2
+
+We first studied airway epithelial cells due to their role in barrier function, proximity to infection, and ability to produce high levels of pro-inflammatory cytokines.
+
+However, we found that bronchial epithelial cells do not produce significant amounts of IL-1beta and do not show a significant increase in caspase-1 activation in response to PAO1 and LPS+ATP, in comparison to hematopoeitic mononuclear cells.
+# T2 Protein S3 88 96 448 456 IL-1beta
+$ T2 Protein S3 88 96 448 456 IL-1beta
+@ T27 Gene_expression S3 57 64 417 424 produce
+% E4 Gene_expression:T27 Theme:T2
+
+Hematopoeitically-derived cells, such as monocytes and macrophages, appear to be a principal source of IL-1beta.
+# T3 Protein S4 103 111 706 714 IL-1beta
+
+CFTR is expressed in alveolar macrophages [32], [39] as well as in PBMCs at both the mRNA and protein level [40], [41], and its loss is frequently associated with an augmented inflammatory phenotype.
+
+Despite our findings indicating that bronchial epithelial cells when grown in vitro are unlikely to be significantly involved in the direct production of IL-1beta (Fig. 2a-d), others have shown their capacity to respond to alveolar macrophage-derived IL-1beta and to amplify the inflammatory response through the induction of chemokines and recruitment of inflammatory effector cells [42].
+# T4 Protein S6 154 162 1070 1078 IL-1beta
+# T5 Protein S6 251 259 1167 1175 IL-1beta
+$ T4 Protein S6 154 162 1070 1078 IL-1beta
+@ T28 Gene_expression S6 140 150 1056 1066 production
+% E5 Gene_expression:T28 Theme:T4
+
+This interaction may constitute a critical component to effective host defense and diminishing the capacity of host cells to respond to IL-1beta may leave the host susceptible to infections by pathogens such as P. aeruginosa [43].
+# T6 Protein S7 136 144 1442 1450 IL-1beta
+
+Conversely, overproduction of IL-1beta can also play a key role in chronic inflammatory responses and cause damage to the lung parenchyma [44], [45].
+# T7 Protein S8 30 38 1567 1575 IL-1beta
+$ T7 Protein S8 30 38 1567 1575 IL-1beta
+@ T29 Gene_expression S8 12 26 1549 1563 overproduction
+% E6 Gene_expression:T29 Theme:T7
+
+Although we hypothesized that CF cells would secrete increased amounts of IL-1beta, we found that IL-1beta production in CF PBMCs was not increased upon inflammasome stimulation as compared to controls (Fig. 5a-b).
+# T8 Protein S9 74 82 1761 1769 IL-1beta
+# T9 Protein S9 98 106 1785 1793 IL-1beta
+$ T8 Protein S9 74 82 1761 1769 IL-1beta
+$ T9 Protein S9 98 106 1785 1793 IL-1beta
+@ T30 Localization S9 45 52 1732 1739 secrete
+@ T31 Positive_regulation S9 53 62 1740 1749 increased
+@ T32 Gene_expression S9 107 117 1794 1804 production
+@ T33 Positive_regulation S9 138 147 1825 1834 increased
+% E7 Localization:T30 Theme:T8
+% E8 Positive_regulation:T31 Theme:E7
+% E9 Gene_expression:T32 Theme:T9
+% E10 Positive_regulation:T33 Theme:E9
+
+This was in contrast to a previous study from our group, which showed increased IL-1beta production by CF PBMCs in response to LPS [46], although this difference may be accounted for by technical issues in stimulation time and dose.
+# T10 Protein S10 80 88 1982 1990 IL-1beta
+$ T10 Protein S10 80 88 1982 1990 IL-1beta
+@ T34 Positive_regulation S10 70 79 1972 1981 increased
+@ T35 Gene_expression S10 89 99 1991 2001 production
+% E11 Positive_regulation:T34 Theme:E12
+% E12 Gene_expression:T35 Theme:T10
+
+Moreover, IL-1beta production was not increased in CF PBMCs with inflammasome stimulation alone as would be anticipated if there were basal levels of NF-kappaB activation.
+# T11 Protein S11 10 18 2145 2153 IL-1beta
+$ T11 Protein S11 10 18 2145 2153 IL-1beta
+@ T36 Gene_expression S11 19 29 2154 2164 production
+@ T37 Positive_regulation S11 38 47 2173 2182 increased
+% E13 Gene_expression:T36 Theme:T11
+% E14 Positive_regulation:T37 Theme:E13
+
+Cells deficient in CFTR are thought to exhibit an increased basal level of NF-kappaB activity, which leads to increased pro-inflammatory cytokine production including an increased availability of pro-IL-1beta for cleavage and secretion.
+
+This amplification of IL-1beta secretion was shown by priming THP-1 monocytes and PBMCs with heat-killed P. aeruginosa or LPS prior to stimulation with live P. aeruginosa.
+# T12 Protein S13 22 30 2566 2574 IL-1beta
+$ T12 Protein S13 22 30 2566 2574 IL-1beta
+@ T38 Positive_regulation S13 0 18 2544 2562 This amplification
+@ T39 Localization S13 31 40 2575 2584 secretion
+% E15 Positive_regulation:T38 Theme:E16
+% E16 Localization:T39 Theme:T12
+
+This dramatically increased IL-1beta secretion over stimulation with live P. aeruginosa without priming (Fig. 6c).
+# T13 Protein S14 28 36 2744 2752 IL-1beta
+$ T13 Protein S14 28 36 2744 2752 IL-1beta
+@ T40 Positive_regulation S14 18 27 2734 2743 increased
+@ T41 Localization S14 37 46 2753 2762 secretion
+% E17 Positive_regulation:T40 Theme:E18
+% E18 Localization:T41 Theme:T13
+
+Similarly, if CF PBMCs expressed increased basal NF-kappaB activity, there would be an increase in IL-1beta secretion in the absence of LPS priming.
+# T14 Protein S15 99 107 2930 2938 IL-1beta
+$ T14 Protein S15 99 107 2930 2938 IL-1beta
+@ T42 Positive_regulation S15 87 95 2918 2926 increase
+@ T43 Localization S15 108 117 2939 2948 secretion
+@ T44 Regulation S15 125 132 2956 2963 absence
+% E19 Positive_regulation:T42 Theme:E20
+% E20 Localization:T43 Theme:T14
+% E21 Regulation:T44 Theme:E19
+
+However, no increase in IL-1beta was observed under basal or primed conditions.
+# T15 Protein S16 24 32 3004 3012 IL-1beta
+$ T15 Protein S16 24 32 3004 3012 IL-1beta
+@ T45 Positive_regulation S16 12 20 2992 3000 increase
+% E22 Positive_regulation:T45 Theme:T15
+
+Studies investigating the production of IL-1beta have been somewhat inconsistent.
+# T16 Protein S17 40 48 3100 3108 IL-1beta
+$ T16 Protein S17 40 48 3100 3108 IL-1beta
+@ T46 Gene_expression S17 26 36 3086 3096 production
+% E23 Gene_expression:T46 Theme:T16
+
+A study by Reininger et al. [43] provided evidence that human bronchial epithelial cells possessing the deltaF508 CFTR mutation had a slightly reduced capacity to produce IL-1beta and lacked the ability to induce an early NF-kappaB activation in response to P. aeruginosa.
+# T17 Protein S18 171 179 3313 3321 IL-1beta
+$ T17 Protein S18 171 179 3313 3321 IL-1beta
+@ T47 Negative_regulation S18 143 150 3285 3292 reduced
+@ T48 Gene_expression S18 163 170 3305 3312 produce
+% E24 Negative_regulation:T47 Theme:E25
+% E25 Gene_expression:T48 Theme:T17
+
+Conversely, a study by Kotrange et al. [31] found that murine bone marrow-derived macrophages expressing deltaF508-CFTR produced increased amounts of IL-1beta when compared to macrophages expressing normal CFTR in response to Burkholderia cenocepacia K56-2.
+
+The differentiation of monocytes into macrophages may partly account for the differences observed with the study by Kotrange.
+
+Inflammasome-mediated IL-1beta production by monocytes and PBMCs does differ from macrophages [47], [48], [49] and macrophages are found to have higher expression of CFTR over monocytes [50].
+# T18 Protein S21 22 30 3821 3829 IL-1beta
+$ T18 Protein S21 22 30 3821 3829 IL-1beta
+@ T49 Positive_regulation S21 13 21 3812 3820 mediated
+@ T50 Gene_expression S21 31 41 3830 3840 production
+% E26 Positive_regulation:T49 Theme:E27
+% E27 Gene_expression:T50 Theme:T18
+
+However, as monocytes and other PBMCs express CFTR [50], [51] and produce large amounts of IL-1beta, they are adequate models to examine the effects of CFTR function on IL-1beta production.
+# T19 Protein S22 91 99 4082 4090 IL-1beta
+# T20 Protein S22 169 177 4160 4168 IL-1beta
+$ T19 Protein S22 91 99 4082 4090 IL-1beta
+$ T20 Protein S22 169 177 4160 4168 IL-1beta
+@ T51 Gene_expression S22 66 73 4057 4064 produce
+@ T52 Regulation S22 141 148 4132 4139 effects
+@ T53 Gene_expression S22 178 188 4169 4179 production
+% E28 Gene_expression:T51 Theme:T19
+% E29 Regulation:T52 Theme:E30
+% E30 Gene_expression:T53 Theme:T20
+
+Other hematopoeitic cells may also contribute to IL-1beta production.
+# T21 Protein S23 49 57 4230 4238 IL-1beta
+$ T21 Protein S23 49 57 4230 4238 IL-1beta
+@ T54 Positive_regulation S23 35 45 4216 4226 contribute
+@ T55 Gene_expression S23 58 68 4239 4249 production
+% E31 Positive_regulation:T54 Theme:E32
+% E32 Gene_expression:T55 Theme:T21
+
+For example, neutrophil counts can be significantly increased in the lungs of CF patients [52], [53], [54] and may produce mature IL-1beta through caspase-1 independent mechanisms [55].
+# T22 Protein S24 130 138 4381 4389 IL-1beta
+$ T22 Protein S24 130 138 4381 4389 IL-1beta
+@ T56 Gene_expression S24 115 122 4366 4373 produce
+@ T57 Regulation S24 157 168 4408 4419 independent
+% E33 Gene_expression:T56 Theme:T22
+% E34 Regulation:T57 Theme:E33
+
+The role of NF-kappaB activation in inflammasome activation and IL-1beta secretion is not straightforward.
+# T58 Protein S25 64 72 4501 4509 IL-1beta
+$ T58 Protein S25 64 72 4501 4509 IL-1beta
+@ T69 Regulation S25 4 8 4441 4445 role
+@ T70 Localization S25 73 82 4510 4519 secretion
+% E35 Regulation:T69 Theme:E36
+% E36 Localization:T70 Theme:T58
+
+Studies have revealed an essential role for NF-kappaB activation in the production of pro-IL-1beta and inflammasome components such as NLRP3 [22], [23].
+
+In contrast, deletion of IKKbeta, a kinase essential in NF-kappaB activation, increases IL-1beta secretion in murine macrophages [56], [57] and demonstrates a dual role for NF-kappaB in regulation of IL-1beta.
+# T59 Protein S27 88 96 4785 4793 IL-1beta
+# T60 Protein S27 200 208 4897 4905 IL-1beta
+$ T59 Protein S27 88 96 4785 4793 IL-1beta
+$ T60 Protein S27 200 208 4897 4905 IL-1beta
+@ T71 Positive_regulation S27 78 87 4775 4784 increases
+@ T72 Localization S27 97 106 4794 4803 secretion
+@ T73 Regulation S27 159 168 4856 4865 dual role
+@ T74 Regulation S27 186 196 4883 4893 regulation
+% E37 Positive_regulation:T71 Theme:E38
+% E38 Localization:T72 Theme:T59
+% E39 Regulation:T73 Theme:E40
+% E40 Regulation:T74 Theme:T60
+
+To address this uncertainty in our experiments we also quantified IL-8, an important CF cytokine and marker of NF-kappaB activation [58], and found no differences between CF and control subjects.
+
+Similarly, levels of intracellular pro-IL-1beta in THP-1 cells were dependent on NF-kappaB activity and did not increase with CFTRinh172 treatment.
+
+Subsequent treatment of THP-1 cells and PBMCs with the NF-kappaB inhibitor Bay11-7082 significantly inhibited both IL-1beta and IL-8 secretion (Fig. 6d-h).
+# T61 Protein S30 115 123 5366 5374 IL-1beta
+$ T61 Protein S30 115 123 5366 5374 IL-1beta
+@ T75 Negative_regulation S30 100 109 5351 5360 inhibited
+@ T76 Localization S30 133 142 5384 5393 secretion
+% E41 Negative_regulation:T75 Theme:E42
+% E42 Localization:T76 Theme:T61
+
+Therefore, the IL-1beta and IL-8 responses observed were both dependent upon NF-kappaB activation.
+# T62 Protein S31 15 23 5422 5430 IL-1beta
+$ T62 Protein S31 15 23 5422 5430 IL-1beta
+@ T77 Regulation S31 33 42 5440 5449 responses
+@ T78 Regulation S31 62 71 5469 5478 dependent
+% E43 Regulation:T77 Theme:T62
+% E44 Regulation:T78 Theme:E43
+
+Priming with heat-killed P. aeruginosa, like LPS, is unable to induce a strong IL-1beta response as compared to live P. aeruginosa (Fig. 6c), but generated greater NF-kappaB/AP-1 activation (Fig. 6a) and IL-8 secretion (Fig. 6b) than live bacteria despite stimulation at equivalent MOIs.
+# T63 Protein S32 79 87 5585 5593 IL-1beta
+$ T63 Protein S32 79 87 5585 5593 IL-1beta
+@ T79 Positive_regulation S32 63 69 5569 5575 induce
+@ T80 Regulation S32 88 96 5594 5602 response
+% E45 Positive_regulation:T79 Theme:E46
+% E46 Regulation:T80 Theme:T63
+
+This may be indicative of the different degree and quality of the inflammatory response generated by live as opposed to dead bacteria [59].
+
+Potential shortcomings of these experiments include its translatability to lung disease and issues related to the hypermutability of P. aeruginosa during the evolution of chronic infection.
+
+Although the responses measured in peripheral blood cells may not completely reflect the responses occurring in the CF lung, PBMCs have a number of useful advantages: (i) PBMCs are not subject to alterations that may emerge from long-term cell culture, cloning and immortalization, and (ii) PBMCs express a large repertoire of innate immune receptors and secrete a broad array of cytokines and chemokines allowing comprehensive analysis of the modulation of inflammatory responses by CFTR.
+
+Consideration must also be given to the nature of P. aeruginosa infection and genotypic changes in P. aeruginosa as infection progresses.
+
+P. aeruginosa mediates inflammasome activation through its type III secretion system (T3SS) and the NLRC4 inflammasome [19], [20].
+
+However, clones of P. aeruginosa established during chronic infection may accumulate mutations in virulence factors such as exsA [60].
+
+By employing a deletion mutant in exsA, the key regulator in T3SS transcription, we confirmed that the T3SS is important for IL-1beta secretion (Fig. 5a-b), and that depending on the adaptation in type III secretion, the host IL-1beta response may be up or downregulated [19], [60], [61].
+# T64 Protein S39 34 38 7052 7056 exsA
+# T65 Protein S39 125 133 7143 7151 IL-1beta
+# T66 Protein S39 226 234 7244 7252 IL-1beta
+$ T64 Protein S39 34 38 7052 7056 exsA
+$ T66 Protein S39 226 234 7244 7252 IL-1beta
+@ T81 Negative_regulation S39 15 23 7033 7041 deletion
+@ T82 Regulation S39 166 175 7184 7193 depending
+@ T83 Regulation S39 235 243 7253 7261 response
+@ T84 Positive_regulation S39 251 253 7269 7271 up
+@ T85 Negative_regulation S39 257 270 7275 7288 downregulated
+% E47 Negative_regulation:T81 Theme:T64
+% E48 Regulation:T82 Theme:E49
+% E50 Regulation:T82 Theme:E51
+% E52 Regulation:T83 Theme:T66
+% E49 Positive_regulation:T84 Theme:E52
+% E51 Negative_regulation:T85 Theme:E52
+
+In conclusion, our data are consistent with a role for hematopoietic cells, not airway epithelial cells, as the major source of inflammasome-mediated IL-1beta production in the lungs in response to ATP and P. aeruginosa.
+# T67 Protein S40 150 158 7457 7465 IL-1beta
+$ T67 Protein S40 150 158 7457 7465 IL-1beta
+@ T86 Positive_regulation S40 141 149 7448 7456 mediated
+@ T87 Gene_expression S40 159 169 7466 7476 production
+@ T88 Positive_regulation S40 183 197 7490 7504 in response to
+% E53 Positive_regulation:T86 Theme:E54
+% E54 Gene_expression:T87 Theme:T67
+% E55 Positive_regulation:T88 Theme:E53
+
+Furthermore, we find little evidence to support an increased IL-1beta inflammatory response to NF-kappaB/Inflammasome stimulation in CF patients.
+# T68 Protein S41 61 69 7589 7597 IL-1beta
+$ T68 Protein S41 61 69 7589 7597 IL-1beta
+@ T89 Positive_regulation S41 51 60 7579 7588 increased
+@ T90 Regulation S41 83 91 7611 7619 response
+% E56 Positive_regulation:T89 Theme:E57
+% E57 Regulation:T90 Theme:T68
+
+Further studies are warranted to determine if adaptations of P. aeruginosa during the course of chronic lung infection alters inflammasome activation, and whether this can be correlated with disease severity in CF.
+

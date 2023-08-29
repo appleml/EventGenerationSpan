@@ -1,0 +1,27 @@
+Murine and human T-lymphocyte GATA-3 factors mediate transcription through a cis-regulatory element within the human T-cell receptor delta gene enhancer.
+# T1 Protein S1 30 36 30 36 GATA-3
+$ T1 Protein S1 30 36 30 36 GATA-3
+@ T5 Binding S1 67 74 67 74 through
+% E1 Binding:T5 Theme:T1
+
+A family of transcriptional activators has recently been identified in chickens; these transcriptional activators recognize a common consensus motif (WGATAR) through a conserved C4 zinc finger DNA-binding domain.
+
+One of the members of this multigene family, cGATA-3, is most abundantly expressed in the T-lymphocyte cell lineage.
+# T2 Protein S3 45 52 413 420 cGATA-3
+$ T2 Protein S3 45 52 413 420 cGATA-3
+@ T6 Gene_expression S3 73 82 441 450 expressed
+% E2 Gene_expression:T6 Theme:T2
+
+Analysis of human and murine GATA-3 factors shows a striking degree of amino acid sequence identity and similar patterns of tissue specificity of expression in these three organisms.
+# T3 Protein S4 29 35 514 520 GATA-3
+$ T3 Protein S4 29 35 514 520 GATA-3
+@ T7 Gene_expression S4 146 156 631 641 expression
+% E3 Gene_expression:T7 Theme:T3
+
+The murine and human factors are abundantly expressed in a variety of human and murine T-cell lines and can activate transcription through a tissue-specific GATA-binding site identified within the human T-cell receptor delta gene enhancer.
+@ T8 Gene_expression S5 44 53 712 721 expressed
+% E4 Gene_expression:T8 Theme:T3
+
+We infer that the murine and human GATA-3 proteins play a central and highly conserved role in vertebrate T-cell-specific transcriptional regulation.
+# T4 Protein S6 35 41 943 949 GATA-3
+

@@ -1,0 +1,55 @@
+Inhibition of cyclooxygenase-2 expression by 4-trifluoromethyl derivatives of salicylate, triflusal, and its deacetylated metabolite, 2-hydroxy-4-trifluoromethylbenzoic acid.
+# T1 Protein S1 14 30 14 30 cyclooxygenase-2
+$ T1 Protein S1 14 30 14 30 cyclooxygenase-2
+@ T11 Negative_regulation S1 0 10 0 10 Inhibition
+@ T12 Gene_expression S1 31 41 31 41 expression
+% E1 Negative_regulation:T11 Theme:E2
+% E2 Gene_expression:T12 Theme:T1
+
+The therapeutic potential of drugs that block the induction of cyclooxygenase-2 has been emphasized.
+# T2 Protein S2 63 79 239 255 cyclooxygenase-2
+
+When two 4-trifluoromethyl salicylate derivatives [2-acetoxy-4-trifluoromethyl-benzoic acid (triflusal) and its deacetylated metabolite 2-hydroxy-4-trifluoromethylbenzoic acid (HTB)] were compared with aspirin and sodium salicylate as cyclooxygenase-2 (COX-2) inhibitors, we observed that in bacterial lipopolysaccharide-activated human blood, triflusal, aspirin, and HTB, but not sodium salicylate, inhibited COX-2-mediated prostaglandin E2 (PGE2) production (IC50 = 0.16, 0.18, 0.39, and >10 mM, respectively).
+# T3 Protein S3 235 251 512 528 cyclooxygenase-2
+# T4 Protein S3 253 258 530 535 COX-2
+# T5 Protein S3 410 415 687 692 COX-2
+
+However, only triflusal and aspirin inhibited purified COX-2 enzyme.
+# T6 Protein S4 55 60 845 850 COX-2
+$ T6 Protein S4 55 60 845 850 COX-2
+@ T13 Negative_regulation S4 36 45 826 835 inhibited
+% E3 Negative_regulation:T13 Theme:T6
+
+To test this apparent discrepancy, we realized that HTB and triflusal (but neither aspirin nor salicylate) produced a concentration-dependent inhibition of COX-2 protein expression in peripheral human mononuclear cells.
+# T7 Protein S5 156 161 1015 1020 COX-2
+$ T7 Protein S5 156 161 1015 1020 COX-2
+@ T14 Positive_regulation S5 107 115 966 974 produced
+@ T15 Negative_regulation S5 142 152 1001 1011 inhibition
+@ T16 Gene_expression S5 170 180 1029 1039 expression
+% E4 Positive_regulation:T14 Theme:E5
+% E5 Negative_regulation:T15 Theme:E6
+% E6 Gene_expression:T16 Theme:T7
+
+This observation was further confirmed in a rat air pouch model in vivo, in which both aspirin and triflusal inhibited PGE2 production (ID50 = 18.9 and 11.4 mg/kg p.o., respectively) but only triflusal-treated animals showed a decrease in COX-2 expression.
+# T8 Protein S6 239 244 1318 1323 COX-2
+$ T8 Protein S6 239 244 1318 1323 COX-2
+@ T17 Negative_regulation S6 227 235 1306 1314 decrease
+@ T18 Gene_expression S6 245 255 1324 1334 expression
+% E7 Negative_regulation:T17 Theme:E8
+% E8 Gene_expression:T18 Theme:T8
+
+This different behavior may be, at least in part, due to the ability of HTB and triflusal to block the activation of the transcription factor nuclear factor-kappaB to a higher extent than aspirin and sodium salicylate.
+
+Thus, in addition to inhibiting the COX-2 activity at therapeutic concentrations, triflusal is able to block through its metabolite HTB the expression of new enzyme, and hence the resumption of PGE2 synthesis.
+# T9 Protein S8 36 41 1591 1596 COX-2
+@ T19 Negative_regulation S8 103 108 1658 1663 block
+@ T20 Gene_expression S8 140 150 1695 1705 expression
+% E9 Negative_regulation:T19 Theme:E10
+% E10 Gene_expression:T20 Theme:T8
+
+Triflusal and HTB may exert beneficial effects in processes in which de novo COX-2 expression is involved and, in a broader sense, in pathological situations in which genes under nuclear factor-kappaB control are up-regulated.
+# T10 Protein S9 77 82 1842 1847 COX-2
+$ T10 Protein S9 77 82 1842 1847 COX-2
+@ T21 Gene_expression S9 83 93 1848 1858 expression
+% E11 Gene_expression:T21 Theme:T10
+

@@ -1,0 +1,135 @@
+Biphasic control of nuclear factor-kappa B activation by the T cell receptor complex: role of tumor necrosis factor alpha.
+# T1 Protein S1 94 121 94 121 tumor necrosis factor alpha
+
+The regulation of nuclear factor (NF)-kappa B activation by the T cell receptor (TcR)/CD3 complex in primary human T cells has been studied at various times after activation.
+
+Only p50 NF-kappa B protein bound the kappa B element of interleukin-2 receptor (IL-2R) alpha chain promoter on resting T cells.
+# T2 Protein S3 5 8 304 307 p50
+# T3 Protein S3 57 99 356 398 interleukin-2 receptor (IL-2R) alpha chain
+$ T2 Protein S3 5 8 304 307 p50
+@ T26 Binding S3 28 33 327 332 bound
+% E1 Binding:T26 Theme:T2
+
+However, immediately after TcR/CD3 cross-linking (after approximately 1 h; immediate) binding of p50.p65 heterodimers was observed.
+# T4 Protein S4 97 100 525 528 p50
+# T5 Protein S4 101 104 529 532 p65
+$ T4 Protein S4 97 100 525 528 p50
+$ T5 Protein S4 101 104 529 532 p65
+@ T27 Positive_regulation S4 21 26 449 454 after
+@ T28 Binding S4 86 93 514 521 binding
+@ T29 Binding S4 105 117 533 545 heterodimers
+% E2 Positive_regulation:T27 Theme:E5
+% E3 Positive_regulation:T27 Theme:E4
+% E4 Binding:T28 Theme:T4
+% E5 Binding:T28 Theme:T5
+% E6 Binding:T29 Theme:T4 Theme2:T5
+
+p50.c-rel heterodimers were also detected bound to this sequence at early time points (7-16 h; early), and both remained active at later time points (40 h; late) after activation.
+# T6 Protein S5 0 3 560 563 p50
+# T7 Protein S5 4 9 564 569 c-rel
+$ T6 Protein S5 0 3 560 563 p50
+$ T7 Protein S5 4 9 564 569 c-rel
+@ T30 Binding S5 10 22 570 582 heterodimers
+@ T31 Binding S5 42 47 602 607 bound
+% E7 Binding:T30 Theme:T6 Theme2:T7
+% E8 Binding:T31 Theme:T7
+% E9 Binding:T31 Theme:T6
+
+This regulation takes place mainly at the level of nuclear translocation of p65 and c-rel, at immediate and early time points.
+# T8 Protein S6 76 79 816 819 p65
+# T9 Protein S6 84 89 824 829 c-rel
+$ T8 Protein S6 76 79 816 819 p65
+$ T9 Protein S6 84 89 824 829 c-rel
+@ T32 Entity S6 51 58 791 798 nuclear
+@ T33 Localization S6 59 72 799 812 translocation
+% E10 Localization:T33 Theme:T8 ToLoc:T32
+% E11 Localization:T33 Theme:T9 ToLoc:T32
+
+Activation also induced c-rel and p105/p50 mRNA synthesis, but not p65 mRNA whose expression was constitutive.
+# T10 Protein S7 24 29 891 896 c-rel
+# T11 Protein S7 34 38 901 905 p105
+# T12 Protein S7 39 42 906 909 p50
+# T13 Protein S7 67 70 934 937 p65
+$ T10 Protein S7 24 29 891 896 c-rel
+$ T12 Protein S7 39 42 906 909 p50
+$ T13 Protein S7 67 70 934 937 p65
+@ T34 Positive_regulation S7 16 23 883 890 induced
+@ T35 Transcription S7 48 57 915 924 synthesis
+% E12 Positive_regulation:T34 Theme:E15
+% E13 Positive_regulation:T34 Theme:E17
+% E14 Positive_regulation:T34 Theme:E16
+% E15 Transcription:T35 Theme:T10
+% E16 Transcription:T35 Theme:T13
+% E17 Transcription:T35 Theme:T12
+
+Interestingly, all those early and late events, but not the immediate ones, were inhibited by a neutralizing anti-tumor necrosis factor alpha (TNF-alpha) monoclonal antibody.
+# T14 Protein S8 114 141 1092 1119 tumor necrosis factor alpha
+# T15 Protein S8 143 152 1121 1130 TNF-alpha
+@ T36 Negative_regulation S8 81 90 1059 1068 inhibited
+% E18 Negative_regulation:T36 Theme:E10
+% E19 Negative_regulation:T36 Theme:E9
+% E20 Negative_regulation:T36 Theme:E8
+% E21 Negative_regulation:T36 Theme:E11
+% E22 Negative_regulation:T36 Theme:E5
+% E23 Negative_regulation:T36 Theme:E4
+
+Similarly, cycloheximide prevented the p65 and c-rel translocation and consequent formation of active binding heterodimers, at early and late times.
+# T16 Protein S9 39 42 1192 1195 p65
+# T17 Protein S9 47 52 1200 1205 c-rel
+$ T16 Protein S9 39 42 1192 1195 p65
+$ T17 Protein S9 47 52 1200 1205 c-rel
+@ T37 Negative_regulation S9 25 34 1178 1187 prevented
+@ T38 Localization S9 53 66 1206 1219 translocation
+@ T39 Binding S9 110 122 1263 1275 heterodimers
+% E24 Negative_regulation:T37 Theme:E28
+% E25 Negative_regulation:T37 Theme:E27
+% E26 Negative_regulation:T37 Theme:E29
+% E27 Localization:T38 Theme:T16
+% E28 Localization:T38 Theme:T17
+% E29 Binding:T39 Theme:T16 Theme2:T17
+
+Cyclosporin A impaired not only early and late, but also immediate events; however, addition of TNF-alpha prevented all inhibition.
+# T18 Protein S10 96 105 1398 1407 TNF-alpha
+$ T18 Protein S10 96 105 1398 1407 TNF-alpha
+@ T40 Negative_regulation S10 14 22 1316 1324 impaired
+@ T41 Negative_regulation S10 106 115 1408 1417 prevented
+% E30 Negative_regulation:T40 Theme:E11
+% E31 Negative_regulation:T40 Theme:E8
+% E32 Negative_regulation:T40 Theme:E4
+% E33 Negative_regulation:T40 Theme:E5
+% E34 Negative_regulation:T40 Theme:E9
+% E35 Negative_regulation:T40 Theme:E10
+% E36 Negative_regulation:T41 Theme:E34 Cause:T18
+% E37 Negative_regulation:T41 Theme:E32 Cause:T18
+% E38 Negative_regulation:T41 Theme:E30 Cause:T18
+% E39 Negative_regulation:T41 Theme:E31 Cause:T18
+% E40 Negative_regulation:T41 Theme:E35 Cause:T18
+% E41 Negative_regulation:T41 Theme:E33 Cause:T18
+
+These results indicate that the regulation of NF-kappa B activation during T cell activation by TcR/CD3 signals is biphasic: TcR/CD3 triggers its immediate translocation, which is transient if no TNF-alpha is present.
+# T19 Protein S11 196 205 1630 1639 TNF-alpha
+
+TNF-alpha, therefore, emerges as the main factor responsible for a second phase of NF-kappa B regulation, controlling both translocation of p65 and c-rel, and new mRNA synthesis for c-rel and p105/p50.
+# T20 Protein S12 0 9 1652 1661 TNF-alpha
+# T21 Protein S12 140 143 1792 1795 p65
+# T22 Protein S12 148 153 1800 1805 c-rel
+# T23 Protein S12 182 187 1834 1839 c-rel
+# T24 Protein S12 192 196 1844 1848 p105
+# T25 Protein S12 197 200 1849 1852 p50
+$ T20 Protein S12 0 9 1652 1661 TNF-alpha
+$ T21 Protein S12 140 143 1792 1795 p65
+$ T22 Protein S12 148 153 1800 1805 c-rel
+$ T23 Protein S12 182 187 1834 1839 c-rel
+$ T25 Protein S12 197 200 1849 1852 p50
+@ T42 Regulation S12 106 117 1758 1769 controlling
+@ T43 Localization S12 123 136 1775 1788 translocation
+@ T44 Transcription S12 163 177 1815 1829 mRNA synthesis
+% E42 Regulation:T42 Theme:E46 Cause:T20
+% E43 Regulation:T42 Theme:E47 Cause:T20
+% E44 Regulation:T42 Theme:E49 Cause:T20
+% E45 Regulation:T42 Theme:E48 Cause:T20
+% E46 Localization:T43 Theme:T21
+% E47 Localization:T43 Theme:T22
+% E48 Transcription:T44 Theme:T25
+% E49 Transcription:T44 Theme:T23
+

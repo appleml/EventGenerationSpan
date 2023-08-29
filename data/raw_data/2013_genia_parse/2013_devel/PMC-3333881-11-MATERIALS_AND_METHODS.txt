@@ -1,0 +1,45 @@
+Statistical	JJ	B-NP	O	Other	No	No	Other	Other	###	1	Statistical	Statistical	JJ	JJ	_	2	amod	_	_
+analysis	NN	I-NP	O	Other	No	No	Other	Other	###	2	analysis	analysis	NN	NN	_	0	root	_	_
+
+Statistical	JJ	B-NP	O	Other	No	No	Other	Other	###	1	Statistical	Statistical	JJ	JJ	_	2	amod	_	_
+analysis	NN	I-NP	O	Other	No	No	Other	Other	###	2	analysis	analysis	NN	NN	_	4	nsubjpass	_	_
+was	VBD	B-VP	O	Other	No	No	Other	Other	###	3	was	was	VBD	VBD	_	4	auxpass	_	_
+performed	VBN	I-VP	O	Other	No	No	Other	Other	###	4	performed	performed	VBN	VBN	_	0	root	_	_
+by	IN	B-PP	O	Other	No	No	Other	Other	###	5	by	by	IN	IN	_	10	case	_	_
+two-tail	JJ	B-NP	O	Other	No	No	Other	Other	###	6	two-tail	two-tail	JJ	JJ	_	10	amod	_	_
+unpaired	JJ	I-NP	O	Other	No	No	Other	Other	###	7	unpaired	unpaired	JJ	JJ	_	10	amod	_	_
+Student	NN	I-NP	O	Other	No	No	Other	Other	###	8	Student	Student	NN	NN	_	10	nmod:poss	_	_
+'s	POS	B-NP	O	Other	No	No	Other	Other	###	9	's	's	POS	POS	_	10	case	_	_
+t-test	NN	I-NP	O	Other	No	No	Other	Other	###	10	t-test	t-test	NN	NN	_	4	nmod	_	_
+.	.	O	O	Other	No	No	Other	Other	###	11	.	.	.	.	_	4	punct	_	_
+
+Data	NNS	B-NP	O	Other	No	No	Other	Other	###	1	Data	Data	NNS	NNS	_	3	nsubjpass	_	_
+were	VBD	B-VP	O	Other	No	No	Other	Other	###	2	were	were	VBD	VBD	_	3	auxpass	_	_
+reported	VBN	I-VP	O	Other	No	No	Other	Other	###	3	reported	reported	VBN	VBN	_	0	root	_	_
+as	IN	B-PP	O	Other	No	No	Other	Other	###	4	as	as	IN	IN	_	5	case	_	_
+means	NN	B-NP	O	Other	No	No	Other	Other	###	5	means	means	NN	NN	_	3	nmod	_	_
++/-	SYM	I-NP	O	Other	No	No	Other	Other	###	6	+/-	+/-	SYM	SYM	_	5	cc	_	_
+SE	NN	I-NP	O	Other	No	No	Other	Other	###	7	SE	SE	NN	NN	_	5	conj	_	_
+.	.	O	O	Other	No	No	Other	Other	###	8	.	.	.	.	_	3	punct	_	_
+
+Differences	NNS	B-NP	O	Other	No	No	Other	Other	###	1	Differences	Differences	NNS	NNS	_	6	nsubjpass	_	_
+between	IN	B-PP	O	Other	No	No	Other	Other	###	2	between	between	IN	IN	_	4	case	_	_
+the	DT	B-NP	O	Other	No	No	Other	Other	###	3	the	the	DT	DT	_	4	det	_	_
+means	NNS	I-NP	O	Other	No	No	Other	Other	###	4	means	means	NNS	NNS	_	1	nmod	_	_
+were	VBD	B-VP	O	Other	No	No	Other	Other	###	5	were	were	VBD	VBD	_	6	auxpass	_	_
+considered	VBN	I-VP	O	Other	No	No	Other	Other	###	6	considered	considered	VBN	VBN	_	0	root	_	_
+as	IN	B-PP	O	Other	No	No	Other	Other	###	7	as	as	IN	IN	_	9	case	_	_
+statistically	RB	B-ADJP	O	Other	No	No	Other	Other	###	8	statistically	statistically	RB	RB	_	9	advmod	_	_
+significant	JJ	I-ADJP	O	Other	No	No	Other	Other	###	9	significant	significant	JJ	JJ	_	6	xcomp	_	_
+at	IN	B-PP	O	Other	No	No	Other	Other	###	10	at	at	IN	IN	_	14	case	_	_
+the	DT	B-NP	O	Other	No	No	Other	Other	###	11	the	the	DT	DT	_	14	det	_	_
+95	CD	I-NP	O	Other	No	No	Other	Other	###	12	95	95	CD	CD	_	13	compound	_	_
+%	NN	I-NP	O	Other	No	No	Other	Other	###	13	%	%	NN	NN	_	14	amod	_	_
+level	NN	I-NP	O	Other	No	No	Other	Other	###	14	level	level	NN	NN	_	9	nmod	_	_
+(	(	O	O	Other	No	No	Other	Other	###	15	(	(	(	(	_	17	punct	_	_
+P	NN	B-NP	O	Other	No	No	Other	Other	###	16	P	P	NN	NN	_	17	compound	_	_
+<	SYM	O	O	Other	No	No	Other	Other	###	17	<	<	SYM	SYM	_	9	parataxis	_	_
+0.05	CD	B-NP	O	Other	No	No	Other	Other	###	18	0.05	0.05	CD	CD	_	17	nummod	_	_
+)	)	O	O	Other	No	No	Other	Other	###	19	)	)	)	)	_	17	punct	_	_
+.	.	O	O	Other	No	No	Other	Other	###	20	.	.	.	.	_	6	punct	_	_
+

@@ -1,0 +1,25 @@
+Multiple NF-ATc isoforms with individual transcriptional properties are synthesized in T lymphocytes.
+# T1 Protein S1 9 15 9 15 NF-ATc
+
+The transcription factor NF-ATc that controls gene expression in T lymphocytes and embryonic cardiac cells is expressed in three prominent isoforms.
+# T2 Protein S2 25 31 128 134 NF-ATc
+
+This is due to alternative splice/polyadenylation events that lead to the predominant synthesis of two long isoforms in naive T cells and a shorter NF-ATc isoform in effector T cells.
+# T3 Protein S3 148 154 400 406 NF-ATc
+
+Whereas the previously described isoform NF-ATc/A contains a relatively short C terminus, the longer isoforms, B and C, span extra C-terminal peptides of 128 and 246 aa, respectively.
+# T4 Protein S4 41 47 477 483 NF-ATc
+
+We show here that in addition to the strong N-terminal trans-activation domain, TAD-A, which is common to all three NF-ATc isoforms, NF-ATc/C contains a second trans-activation domain, TAD-B, in its C-terminal peptide.
+# T5 Protein S5 116 122 736 742 NF-ATc
+# T6 Protein S5 133 139 753 759 NF-ATc
+
+Various stimuli of T cells that induce the activity of TAD-A also enhance the activity of TAD-B, but, unlike TAD-A, TAD-B remains unphosphorylated by protein from 12-O-tetradecanoyl 12-phorbol 13-acetate-stimulated T cells.
+
+The shorter C-terminal peptide of isoform NF-ATc/B exerts a suppressive transcriptional effect.
+# T7 Protein S7 42 48 1105 1111 NF-ATc
+
+These properties of NF-ATc/B and -C might be of importance for gene regulation in naive T lymphocytes in which NF-ATc/B and -C are predominantly synthesized.
+# T8 Protein S8 20 26 1179 1185 NF-ATc
+# T9 Protein S8 111 117 1270 1276 NF-ATc
+

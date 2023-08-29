@@ -1,0 +1,245 @@
+IkappaBalpha degradation and RPS3 nuclear translocation
+# T1 Protein S1 0 12 0 12 IkappaBalpha
+# T2 Protein S1 29 33 29 33 RPS3
+$ T1 Protein S1 0 12 0 12 IkappaBalpha
+$ T2 Protein S1 29 33 29 33 RPS3
+@ T46 Protein_catabolism S1 13 24 13 24 degradation
+@ T47 Entity S1 34 41 34 41 nuclear
+@ T48 Localization S1 42 55 42 55 translocation
+% E1 Protein_catabolism:T46 Theme:T1
+% E2 Localization:T48 Theme:T2 ToLoc:T47
+
+Importin-alpha regulates the nuclear import of NF-kappaB Rel subunits23, 24.
+# T3 Protein S2 57 60 113 116 Rel
+$ T3 Protein S2 57 60 113 116 Rel
+@ T49 Regulation S2 15 24 71 80 regulates
+@ T50 Entity S2 29 36 85 92 nuclear
+@ T51 Localization S2 37 43 93 99 import
+% E3 Regulation:T49 Theme:E4
+% E4 Localization:T51 Theme:T3 ToLoc:T50
+
+RPS3 harbors a nuclear localization signal (NLS) sequence and its nuclear translocation occurs in parallel to, but independently of, p65 translocation6.
+# T4 Protein S3 0 4 133 137 RPS3
+# T5 Protein S3 133 136 266 269 p65
+$ T4 Protein S3 0 4 133 137 RPS3
+$ T5 Protein S3 133 136 266 269 p65
+@ T45 Anaphora S3 62 65 195 198 its
+@ T52 Entity S3 66 73 199 206 nuclear
+@ T53 Localization S3 74 87 207 220 translocation
+@ T54 Localization S3 137 150 270 283 translocation
+% E5 Localization:T53 Theme:T4 ToLoc:T52
+% E6 Localization:T54 Theme:T5
+
+We envisioned that RPS3 could also utilize the importin-alpha/beta pathway.
+# T6 Protein S4 19 23 305 309 RPS3
+
+Consistent with this notion, RPS3 association with importin-alpha, but not importin-beta, was enhanced in TNF-stimulated cells (Fig. 3a).
+# T7 Protein S5 29 33 391 395 RPS3
+@ T55 Binding S5 34 45 396 407 association
+
+Therefore, we examined whether RPS3 binding to importin-alpha is essential for nuclear translocation during NF-kappaB activation.
+# T8 Protein S6 31 35 531 535 RPS3
+$ T8 Protein S6 31 35 531 535 RPS3
+@ T56 Binding S6 36 43 536 543 binding
+@ T57 Positive_regulation S6 65 74 565 574 essential
+@ T58 Entity S6 79 86 579 586 nuclear
+@ T59 Localization S6 87 100 587 600 translocation
+% E7 Binding:T56 Theme:T8
+% E8 Positive_regulation:T57 Theme:E9 Cause:E7
+% E9 Localization:T59 Theme:T8 ToLoc:T58
+
+Since IkappaBalpha degradation is a prerequisite to unmask the NLS of p65, and both RPS3 and IkappaBalpha bind to p65 in the cytoplasmic inhibitory complex, we tested whether IkappaBalpha degradation is required for the liberation of RPS3.
+# T9 Protein S7 6 18 636 648 IkappaBalpha
+# T10 Protein S7 70 73 700 703 p65
+# T11 Protein S7 84 88 714 718 RPS3
+# T12 Protein S7 93 105 723 735 IkappaBalpha
+# T13 Protein S7 114 117 744 747 p65
+# T14 Protein S7 175 187 805 817 IkappaBalpha
+# T15 Protein S7 234 238 864 868 RPS3
+$ T9 Protein S7 6 18 636 648 IkappaBalpha
+$ T10 Protein S7 70 73 700 703 p65
+$ T11 Protein S7 84 88 714 718 RPS3
+$ T13 Protein S7 114 117 744 747 p65
+$ T12 Protein S7 93 105 723 735 IkappaBalpha
+$ T14 Protein S7 175 187 805 817 IkappaBalpha
+$ T15 Protein S7 234 238 864 868 RPS3
+@ T60 Protein_catabolism S7 19 30 649 660 degradation
+@ T61 Positive_regulation S7 36 48 666 678 prerequisite
+@ T62 Regulation S7 52 58 682 688 unmask
+@ T63 Entity S7 63 66 693 696 NLS
+@ T64 Binding S7 106 110 736 740 bind
+@ T65 Protein_catabolism S7 188 199 818 829 degradation
+@ T66 Positive_regulation S7 203 211 833 841 required
+@ T67 Localization S7 220 230 850 860 liberation
+% E10 Protein_catabolism:T60 Theme:T9
+% E11 Positive_regulation:T61 Theme:E12 Cause:E10
+% E12 Regulation:T62 Theme:T10 Site:T63
+% E13 Binding:T64 Theme:T11 Theme2:T13
+% E14 Binding:T64 Theme:T12 Theme2:T13
+% E15 Protein_catabolism:T65 Theme:T14
+% E16 Positive_regulation:T66 Theme:E17 Cause:E15
+% E17 Localization:T67 Theme:T15
+
+We measured the association of RPS3 with importin-alpha in 293T cells overexpressing wild-type IkappaBalpha or an IkappaBalpha mutant (SSAA) resistant to IKKbeta-induced phosphorylation and degradation.
+# T16 Protein S8 31 35 901 905 RPS3
+# T17 Protein S8 95 107 965 977 IkappaBalpha
+# T18 Protein S8 114 126 984 996 IkappaBalpha
+# T19 Protein S8 154 161 1024 1031 IKKbeta
+$ T16 Protein S8 31 35 901 905 RPS3
+$ T18 Protein S8 114 126 984 996 IkappaBalpha
+$ T19 Protein S8 154 161 1024 1031 IKKbeta
+@ T68 Binding S8 16 27 886 897 association
+@ T69 Negative_regulation S8 135 139 1005 1009 SSAA
+@ T70 Negative_regulation S8 141 150 1011 1020 resistant
+@ T71 Positive_regulation S8 162 169 1032 1039 induced
+@ T72 Phosphorylation S8 170 185 1040 1055 phosphorylation
+@ T73 Protein_catabolism S8 190 201 1060 1071 degradation
+% E18 Binding:T68 Theme:T16
+% E19 Negative_regulation:T69 Theme:T18
+% E20 Negative_regulation:T70 Theme:E21 Cause:E19
+% E22 Negative_regulation:T70 Theme:E23 Cause:E19
+% E21 Positive_regulation:T71 Theme:E24 Cause:T19
+% E23 Positive_regulation:T71 Theme:E25 Cause:T19
+% E24 Phosphorylation:T72 Theme:T18
+% E25 Protein_catabolism:T73 Theme:T18
+
+In cells transfected with wild-type IkappaBalpha, TNF stimulation augmented the interaction of RPS3 and importin-alpha to a similar degree as in non-transfected cells.
+# T20 Protein S9 36 48 1109 1121 IkappaBalpha
+# T21 Protein S9 95 99 1168 1172 RPS3
+$ T21 Protein S9 95 99 1168 1172 RPS3
+@ T74 Positive_regulation S9 66 75 1139 1148 augmented
+@ T75 Binding S9 80 91 1153 1164 interaction
+% E26 Positive_regulation:T74 Theme:E27
+% E27 Binding:T75 Theme:T21
+
+By contrast, we observed that the RPS3-importin-alpha association was abolished by the presence of non-degradable IkappaBalpha (Fig. 3b).
+# T22 Protein S10 34 38 1275 1279 RPS3
+# T23 Protein S10 114 126 1355 1367 IkappaBalpha
+$ T22 Protein S10 34 38 1275 1279 RPS3
+$ T23 Protein S10 114 126 1355 1367 IkappaBalpha
+@ T76 Binding S10 54 65 1295 1306 association
+@ T77 Negative_regulation S10 70 79 1311 1320 abolished
+@ T78 Protein_catabolism S10 103 113 1344 1354 degradable
+% E28 Binding:T76 Theme:T22
+% E29 Negative_regulation:T77 Theme:E28 Cause:E30
+% E30 Protein_catabolism:T78 Theme:T23
+
+To examine whether IkappaBalpha is the only cytoplasmic barrier precluding RPS3 nuclear translocation, we measured both RPS3-importin-alpha association and nuclear RPS3 after reducing IkappaBalpha expression.
+# T24 Protein S11 19 31 1398 1410 IkappaBalpha
+# T25 Protein S11 75 79 1454 1458 RPS3
+# T26 Protein S11 120 124 1499 1503 RPS3
+# T27 Protein S11 164 168 1543 1547 RPS3
+# T28 Protein S11 184 196 1563 1575 IkappaBalpha
+$ T24 Protein S11 19 31 1398 1410 IkappaBalpha
+$ T25 Protein S11 75 79 1454 1458 RPS3
+$ T26 Protein S11 120 124 1499 1503 RPS3
+$ T28 Protein S11 184 196 1563 1575 IkappaBalpha
+@ T79 Negative_regulation S11 64 74 1443 1453 precluding
+@ T80 Entity S11 80 87 1459 1466 nuclear
+@ T81 Localization S11 88 101 1467 1480 translocation
+@ T82 Binding S11 140 151 1519 1530 association
+@ T83 Negative_regulation S11 175 183 1554 1562 reducing
+@ T84 Gene_expression S11 197 207 1576 1586 expression
+% E31 Negative_regulation:T79 Theme:E32 Cause:T24
+% E32 Localization:T81 Theme:T25 ToLoc:T80
+% E33 Binding:T82 Theme:T26
+% E34 Negative_regulation:T83 Theme:E35
+% E35 Gene_expression:T84 Theme:T28
+
+Compared with nonspecific siRNA, siRNA targeting of IkappaBalpha completely depleted IkappaBalpha in Jurkat cells (Fig. 3c, input).
+# T29 Protein S12 33 38 1621 1626 siRNA
+# T30 Protein S12 52 64 1640 1652 IkappaBalpha
+# T31 Protein S12 85 97 1673 1685 IkappaBalpha
+$ T31 Protein S12 85 97 1673 1685 IkappaBalpha
+$ T29 Protein S12 33 38 1621 1626 siRNA
+@ T85 Negative_regulation S12 76 84 1664 1672 depleted
+% E36 Negative_regulation:T85 Theme:T31 Cause:T29
+
+Nevertheless, the RPS3-importin-alpha association was not augmented (Fig. 3c), nor was significant nuclear RPS3 detected (Fig. 3d).
+# T32 Protein S13 18 22 1738 1742 RPS3
+# T33 Protein S13 107 111 1827 1831 RPS3
+$ T32 Protein S13 18 22 1738 1742 RPS3
+$ T33 Protein S13 107 111 1827 1831 RPS3
+@ T86 Binding S13 38 49 1758 1769 association
+@ T87 Positive_regulation S13 58 67 1778 1787 augmented
+@ T88 Entity S13 99 106 1819 1826 nuclear
+@ T89 Localization S13 112 120 1832 1840 detected
+% E37 Binding:T86 Theme:T32
+% E38 Positive_regulation:T87 Theme:E37 Cause:E36
+% E39 Localization:T89 Theme:T33 ToLoc:T88
+
+Moreover, cells treated with sodium pervanadate (Pv) to induce IkappaBalpha degradation through an IKK-independent mechanism25-27 did not show increased association between RPS3 and importin-alpha (Fig. 3e and Supplementary Fig. 3b) or nuclear accumulation of RPS3, despite complete IkappaBalpha degradation (Supplementary Fig. 3c).
+# T34 Protein S14 63 75 1915 1927 IkappaBalpha
+# T35 Protein S14 173 177 2025 2029 RPS3
+# T36 Protein S14 260 264 2112 2116 RPS3
+# T37 Protein S14 283 295 2135 2147 IkappaBalpha
+$ T34 Protein S14 63 75 1915 1927 IkappaBalpha
+$ T35 Protein S14 173 177 2025 2029 RPS3
+$ T36 Protein S14 260 264 2112 2116 RPS3
+$ T37 Protein S14 283 295 2135 2147 IkappaBalpha
+@ T90 Positive_regulation S14 56 62 1908 1914 induce
+@ T91 Protein_catabolism S14 76 87 1928 1939 degradation
+@ T92 Positive_regulation S14 143 152 1995 2004 increased
+@ T93 Binding S14 153 164 2005 2016 association
+@ T94 Entity S14 236 243 2088 2095 nuclear
+@ T95 Localization S14 244 256 2096 2108 accumulation
+@ T96 Protein_catabolism S14 296 307 2148 2159 degradation
+% E40 Positive_regulation:T90 Theme:E41
+% E41 Protein_catabolism:T91 Theme:T34
+% E42 Positive_regulation:T92 Theme:E43 Cause:E40
+% E44 Positive_regulation:T92 Theme:E45 Cause:E40
+% E43 Binding:T93 Theme:T35
+% E45 Localization:T95 Theme:T36 ToLoc:T94
+% E46 Protein_catabolism:T96 Theme:T37
+
+We further examined whether a subsequent NF-kappaB activation signal independently promotes the importin-alpha association and nuclear transport of RPS3 after IkappaBalpha degradation.
+# T38 Protein S15 148 152 2333 2337 RPS3
+# T39 Protein S15 159 171 2344 2356 IkappaBalpha
+$ T38 Protein S15 148 152 2333 2337 RPS3
+$ T39 Protein S15 159 171 2344 2356 IkappaBalpha
+@ T97 Positive_regulation S15 83 91 2268 2276 promotes
+@ T98 Binding S15 111 122 2296 2307 association
+@ T99 Entity S15 127 134 2312 2319 nuclear
+@ T100 Localization S15 135 144 2320 2329 transport
+@ T101 Protein_catabolism S15 172 183 2357 2368 degradation
+% E47 Positive_regulation:T97 Theme:E48
+% E49 Positive_regulation:T97 Theme:E50
+% E48 Binding:T98 Theme:T38
+% E50 Localization:T100 Theme:T38 ToLoc:T99
+% E51 Protein_catabolism:T101 Theme:T39
+
+We found that TNF stimulation following Pv treatment was required for the RPS3-importin-alpha association, comparable to TNF stimulation alone (Fig. 3e).
+# T40 Protein S16 74 78 2444 2448 RPS3
+$ T40 Protein S16 74 78 2444 2448 RPS3
+@ T102 Positive_regulation S16 57 65 2427 2435 required
+@ T103 Binding S16 94 105 2464 2475 association
+% E52 Positive_regulation:T102 Theme:E53
+% E53 Binding:T103 Theme:T40
+
+Thus, IkappaBalpha phosphorylation and degradation itself is required but not sufficient to cause RPS3 association with importin-alpha followed by nuclear translocation.
+# T41 Protein S17 6 18 2530 2542 IkappaBalpha
+# T42 Protein S17 98 102 2622 2626 RPS3
+$ T41 Protein S17 6 18 2530 2542 IkappaBalpha
+$ T42 Protein S17 98 102 2622 2626 RPS3
+@ T104 Phosphorylation S17 19 34 2543 2558 phosphorylation
+@ T105 Protein_catabolism S17 39 50 2563 2574 degradation
+@ T106 Positive_regulation S17 92 97 2616 2621 cause
+@ T107 Binding S17 103 114 2627 2638 association
+@ T108 Positive_regulation S17 135 143 2659 2667 followed
+@ T109 Entity S17 147 154 2671 2678 nuclear
+@ T110 Localization S17 155 168 2679 2692 translocation
+% E54 Phosphorylation:T104 Theme:T41
+% E55 Protein_catabolism:T105 Theme:T41
+% E56 Positive_regulation:T106 Theme:E57 Cause:E54
+% E58 Positive_regulation:T106 Theme:E57 Cause:E55
+% E59 Binding:T107 Theme:T42
+% E57 Positive_regulation:T108 Theme:E60 Cause:E59
+% E60 Localization:T110 Theme:T42 ToLoc:T109
+
+Rather, an additional signal, potentially IKKbeta phosphorylation of RPS3, is required.
+# T43 Protein S18 42 49 2736 2743 IKKbeta
+# T44 Protein S18 69 73 2763 2767 RPS3
+$ T44 Protein S18 69 73 2763 2767 RPS3
+@ T111 Phosphorylation S18 50 65 2744 2759 phosphorylation
+% E61 Phosphorylation:T111 Theme:T44
+

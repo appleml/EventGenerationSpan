@@ -1,0 +1,13 @@
+A mammalian histone deacetylase related to the yeast transcriptional regulator Rpd3p [see comments]
+# T1 Protein S1 79 84 79 84 Rpd3p
+
+Trapoxin is a microbially derived cyclotetrapeptide that inhibits histone deacetylation in vivo and causes mammalian cells to arrest in the cell cycle.
+
+A trapoxin affinity matrix was used to isolate two nuclear proteins that copurified with histone deacetylase activity.
+
+Both proteins were identified by peptide microsequencing, and a complementary DNA encoding the histone deacetylase catalytic subunit (HD1) was cloned from a human Jurkat T cell library.
+# T2 Protein S4 134 137 506 509 HD1
+
+As the predicted protein is very similar to the yeast transcriptional regulator Rpd3p, these results support a role for histone deacetylase as a key regulator of eukaryotic transcription.
+# T3 Protein S5 80 85 638 643 Rpd3p
+

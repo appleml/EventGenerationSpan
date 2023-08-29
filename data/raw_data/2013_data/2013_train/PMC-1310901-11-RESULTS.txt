@@ -1,0 +1,44 @@
+Methylation-sensitive enzymes do not cut specific sites in the IRF-4 promoter in hematopoietic cells
+# T1 Protein S1 63 68 63 68 IRF-4
+
+To further investigate promoter methylation as a regulatory mechanism of IRF-4 gene expression, restriction-PCR-assays were performed (20,24), where only methylated DNA would not be cut enabling subsequent PCR amplification and vice versa.
+# T2 Protein S2 73 78 174 179 IRF-4
+$ T2 Protein S2 73 78 174 179 IRF-4
+@ T9 Gene_expression S2 84 94 185 195 expression
+% E1 Gene_expression:T9 Theme:T2
+
+Genomic DNA from leukemic cells Jurkat, CML-T1, U-937, K-562, EM-2 and BV-173 was digested with the methylation-sensitive enzymes HpaII, Bsh1236I and HaeII-isochizomer Bsp143II.
+
+EcoRI, which has no recognition site within the IRF-4 promoter, and the methylation-resistant enzyme MspI served as controls.
+# T3 Protein S4 48 53 567 572 IRF-4
+
+Two separate amplification reactions were performed, generating two fragments, F1 and F2 (Figure 3A).
+
+After digestion with HpaII and Bsp143II a sufficient PCR amplification of F1 and F2 was detected in DNA from IRF-4-negative Jurkat, CML-T1, U-937, K-562 and EM-2 cells, suggesting a promoter methylation (and restriction protection) at the respective recognition sites (Figure 3B and C).
+# T4 Protein S6 109 114 856 861 IRF-4
+$ T4 Protein S6 109 114 856 861 IRF-4
+@ T10 Gene_expression S6 115 123 862 870 negative
+% E2 Gene_expression:T10 Theme:T4
+
+Notably, in IRF-4-positive SD-1 cells digestion with the methylation-sensitive enzymes completely inhibited amplification of F1 and F2.
+# T5 Protein S7 12 17 1046 1051 IRF-4
+$ T5 Protein S7 12 17 1046 1051 IRF-4
+@ T11 Gene_expression S7 18 26 1052 1060 positive
+% E3 Gene_expression:T11 Theme:T5
+
+In IRF-4-positive BV-173 cells a HpaII, but not a Bsh1236I digestion, significantly reduced the amplifiable DNA message of F2 (Figure 3C), whereas amplification of F1 was not affected (Figure 3B).
+# T6 Protein S8 3 8 1173 1178 IRF-4
+$ T6 Protein S8 3 8 1173 1178 IRF-4
+@ T12 Gene_expression S8 9 17 1179 1187 positive
+% E4 Gene_expression:T12 Theme:T6
+
+This implied that IRF-4 transcription in SD-1 and BV-173 cells is associated with less promoter methylation (in BV-173 especially at HpaII sites) as compared with the tested IRF-4-negative cells.
+# T7 Protein S9 18 23 1385 1390 IRF-4
+# T8 Protein S9 174 179 1541 1546 IRF-4
+$ T7 Protein S9 18 23 1385 1390 IRF-4
+$ T8 Protein S9 174 179 1541 1546 IRF-4
+@ T13 Transcription S9 24 37 1391 1404 transcription
+@ T14 Gene_expression S9 180 188 1547 1555 negative
+% E5 Transcription:T13 Theme:T7
+% E6 Gene_expression:T14 Theme:T8
+

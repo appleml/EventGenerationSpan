@@ -1,0 +1,80 @@
+Retinoic acid-induced modulation of IL-2 mRNA production and IL-2 receptor expression on T cells.
+# T1 Protein S1 36 40 36 40 IL-2
+# T2 Protein S1 61 65 61 65 IL-2
+$ T1 Protein S1 36 40 36 40 IL-2
+@ T14 Regulation S1 22 32 22 32 modulation
+@ T15 Transcription S1 46 56 46 56 production
+% E1 Regulation:T14 Theme:E2
+% E2 Transcription:T15 Theme:T1
+
+BACKGROUND: Retinoic acid (RA) has important immune-modulating effects on both T and B cell function.
+
+Our laboratory has shown that RA can enhance in vitro polyclonal B cell immunoglobulin (Ig) response.
+
+Investigating cytokines known to affect B cell differentiation, we have recently shown that IL-6 production is augmented by RA.
+# T3 Protein S4 92 96 395 399 IL-6
+$ T3 Protein S4 92 96 395 399 IL-6
+@ T16 Gene_expression S4 97 107 400 410 production
+@ T17 Positive_regulation S4 111 120 414 423 augmented
+% E3 Gene_expression:T16 Theme:T3
+% E4 Positive_regulation:T17 Theme:E3
+
+In the present study we have examined the immune modulating effects of RA on IL-2 mRNA, another important cytokine for B cell immunoglobulin production, the expression of IL-2 receptors on T cells, and the RA nuclear receptors.
+# T4 Protein S5 77 81 508 512 IL-2
+# T5 Protein S5 171 175 602 606 IL-2
+$ T4 Protein S5 77 81 508 512 IL-2
+@ T18 Regulation S5 42 67 473 498 immune modulating effects
+@ T19 Transcription S5 82 86 513 517 mRNA
+% E5 Regulation:T18 Theme:E6
+% E6 Transcription:T19 Theme:T4
+
+METHODS: Purified T cells were obtained from adenoidal tissues, and incubated with RA (10(-7) M) or DMSO solvent/media control for 0, 6-8, and 24 h. Total mRNA was extracted from T cells, and using RT-PCR, changes in the production of IL-2 and RA receptors (RAR)-alpha,beta,gamma mRNA were determined.
+# T6 Protein S6 244 268 903 927 RA receptors (RAR)-alpha
+# T7 Protein S6 269 273 928 932 beta
+# T8 Protein S6 274 279 933 938 gamma
+$ T6 Protein S6 244 268 903 927 RA receptors (RAR)-alpha
+$ T7 Protein S6 269 273 928 932 beta
+$ T8 Protein S6 274 279 933 938 gamma
+@ T20 Regulation S6 206 213 865 872 changes
+@ T21 Transcription S6 221 231 880 890 production
+% E7 Regulation:T20 Theme:E10
+% E8 Regulation:T20 Theme:E11
+% E9 Regulation:T20 Theme:E12
+% E10 Transcription:T21 Theme:T6
+% E11 Transcription:T21 Theme:T7
+% E12 Transcription:T21 Theme:T8
+
+The effects of RA on IL-2-alpha receptor expression was determined by flow cytometry on T cells.
+# T9 Protein S7 21 40 982 1001 IL-2-alpha receptor
+$ T9 Protein S7 21 40 982 1001 IL-2-alpha receptor
+@ T22 Regulation S7 4 11 965 972 effects
+@ T23 Gene_expression S7 41 51 1002 1012 expression
+% E13 Regulation:T22 Theme:E14
+% E14 Gene_expression:T23 Theme:T9
+
+CONCLUSION: These studies suggest that RA can augment IL-2 mRNA production by T cells with a possible paracrine effect on IL-2R-alpha expression.
+# T10 Protein S8 54 58 1112 1116 IL-2
+# T11 Protein S8 122 133 1180 1191 IL-2R-alpha
+$ T10 Protein S8 54 58 1112 1116 IL-2
+$ T11 Protein S8 122 133 1180 1191 IL-2R-alpha
+@ T24 Positive_regulation S8 46 53 1104 1111 augment
+@ T25 Transcription S8 64 74 1122 1132 production
+@ T26 Regulation S8 112 118 1170 1176 effect
+@ T27 Gene_expression S8 134 144 1192 1202 expression
+% E15 Positive_regulation:T24 Theme:E16
+% E16 Transcription:T25 Theme:T10
+% E17 Regulation:T26 Theme:E18
+% E18 Gene_expression:T27 Theme:T11
+
+These changes appear to be mediated by RAR-alpha.
+# T12 Protein S9 39 48 1243 1252 RAR-alpha
+$ T12 Protein S9 39 48 1243 1252 RAR-alpha
+@ T28 Positive_regulation S9 27 35 1231 1239 mediated
+% E19 Positive_regulation:T28 Theme:E16 Cause:T12
+
+Thus, IL-2 may be another important cytokine modulated by RA in the immune response.
+# T13 Protein S10 6 10 1260 1264 IL-2
+$ T13 Protein S10 6 10 1260 1264 IL-2
+@ T29 Regulation S10 45 54 1299 1308 modulated
+% E20 Regulation:T29 Theme:T13
+

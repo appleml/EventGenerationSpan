@@ -1,0 +1,95 @@
+Evidence for suppressed activity of the transcription factor NFAT1 at its proximal binding element P0 in the IL-4 promoter associated with enhanced IL-4 gene transcription in T cells of atopic patients.
+# T1 Protein S1 61 66 61 66 NFAT1
+# T2 Protein S1 109 113 109 113 IL-4
+# T3 Protein S1 148 152 148 152 IL-4
+$ T1 Protein S1 61 66 61 66 NFAT1
+$ T2 Protein S1 109 113 109 113 IL-4
+$ T3 Protein S1 148 152 148 152 IL-4
+@ T19 Negative_regulation S1 13 23 13 23 suppressed
+@ T20 Entity S1 74 101 74 101 proximal binding element P0
+@ T21 Binding S1 83 90 83 90 binding
+@ T22 Positive_regulation S1 139 147 139 147 enhanced
+@ T23 Transcription S1 158 171 158 171 transcription
+% E1 Negative_regulation:T19 Theme:T1 Cause:E2
+% E2 Binding:T21 Theme:T1 Theme2:T2 Site2:T20
+% E3 Positive_regulation:T22 Theme:E4
+% E4 Transcription:T23 Theme:T3
+
+Allergen-specific T cells in atopic patients are polarized IL-4-producing Th2 cells, promoting IgE synthesis by B cells.
+# T4 Protein S2 59 63 263 267 IL-4
+# T5 Protein S2 95 98 299 302 IgE
+$ T4 Protein S2 59 63 263 267 IL-4
+$ T5 Protein S2 95 98 299 302 IgE
+@ T24 Gene_expression S2 64 73 268 277 producing
+@ T25 Positive_regulation S2 85 94 289 298 promoting
+@ T26 Gene_expression S2 99 108 303 312 synthesis
+% E5 Gene_expression:T24 Theme:T4
+% E6 Positive_regulation:T25 Theme:E7 Cause:E5
+% E7 Gene_expression:T26 Theme:T5
+
+The molecular basis for increased IL-4 gene expression in atopy is not fully understood.
+# T6 Protein S3 34 38 359 363 IL-4
+$ T6 Protein S3 34 38 359 363 IL-4
+@ T27 Positive_regulation S3 24 33 349 358 increased
+@ T28 Gene_expression S3 44 54 369 379 expression
+% E8 Positive_regulation:T27 Theme:E9
+% E9 Gene_expression:T28 Theme:T6
+
+IL-4 gene regulation in general involves the nuclear factor of activated T cells (NFAT) family of transcription factors, of which NFAT1 and NFAT2 are most prominent in peripheral T cells.
+# T7 Protein S4 0 4 414 418 IL-4
+# T8 Protein S4 130 135 544 549 NFAT1
+# T9 Protein S4 140 145 554 559 NFAT2
+$ T7 Protein S4 0 4 414 418 IL-4
+$ T9 Protein S4 140 145 554 559 NFAT2
+$ T8 Protein S4 130 135 544 549 NFAT1
+@ T29 Regulation S4 10 20 424 434 regulation
+@ T30 Regulation S4 32 40 446 454 involves
+% E10 Regulation:T29 Theme:T7
+% E11 Regulation:T30 Theme:E10 Cause:T9
+% E12 Regulation:T30 Theme:E10 Cause:T8
+
+Recently, a unique inhibitory role of NFAT1 in IL-4 gene control was shown in the mouse.
+# T10 Protein S5 38 43 640 645 NFAT1
+# T11 Protein S5 47 51 649 653 IL-4
+$ T10 Protein S5 38 43 640 645 NFAT1
+$ T11 Protein S5 47 51 649 653 IL-4
+@ T31 Negative_regulation S5 19 34 621 636 inhibitory role
+@ T32 Regulation S5 57 64 659 666 control
+% E13 Negative_regulation:T31 Theme:E14 Cause:T10
+% E14 Regulation:T32 Theme:T11
+
+In a series of electrophoretic mobility shift assays with protein extracts of highly polarized Th2 clones from atopics and Th1 clones from controls we compared DNA-binding activities at the two NFAT-binding elements P0 and P1 of the crucial proximal human IL-4 promoter.
+# T12 Protein S6 256 260 947 951 IL-4
+
+At the most proximal P0 site, NFAT-containing complexes devoid of NFAT2 were readily inducible in the Th1 clones, but hardly or not in the Th2 clones.
+# T13 Protein S7 66 71 1028 1033 NFAT2
+$ T13 Protein S7 66 71 1028 1033 NFAT2
+@ T33 Binding S7 46 55 1008 1017 complexes
+% E15 Binding:T33 Theme:T13
+
+In contrast, both in Th1 and Th2 clones NFAT-containing complexes were strongly inducible at the P1 site, consisting of NFAT2 and a P0-compatible NFAT activity, without apparent differences between Th1 and Th2 clones.
+# T14 Protein S8 120 125 1233 1238 NFAT2
+$ T14 Protein S8 120 125 1233 1238 NFAT2
+@ T34 Binding S8 56 65 1169 1178 complexes
+@ T35 Positive_regulation S8 80 89 1193 1202 inducible
+% E16 Binding:T34 Theme:T14
+% E17 Positive_regulation:T35 Theme:E16
+
+Like in Th2 clones, suppressed NFAT-P0 complex formation was observed also at the polyclonal level in peripheral blood mononuclear cells (PBMC) of three of five severe atopic dermatitis patients with strongly elevated serum IgE levels, but not in control PBMC.
+# T15 Protein S9 224 227 1555 1558 IgE
+$ T15 Protein S9 224 227 1555 1558 IgE
+@ T36 Positive_regulation S9 209 217 1540 1548 elevated
+@ T37 Gene_expression S9 228 234 1559 1565 levels
+% E18 Positive_regulation:T36 Theme:E19
+% E19 Gene_expression:T37 Theme:T15
+
+These findings suggest that high-level IL-4 production in atopic Th2 cells is associated with selective reduction of suppressive NFAT1 activity at the IL-4 P0 element and that some patients with this multifactorial disease may have a putative systemic disorder at this level.
+# T16 Protein S10 39 43 1631 1635 IL-4
+# T17 Protein S10 129 134 1721 1726 NFAT1
+# T18 Protein S10 151 155 1743 1747 IL-4
+$ T16 Protein S10 39 43 1631 1635 IL-4
+@ T38 Positive_regulation S10 28 38 1620 1630 high-level
+@ T39 Gene_expression S10 44 54 1636 1646 production
+% E20 Positive_regulation:T38 Theme:E21
+% E21 Gene_expression:T39 Theme:T16
+

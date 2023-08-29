@@ -1,0 +1,24 @@
+Temporal control of IgH gene expression in developing B cells by the 3' locus control region.
+# T1 Protein S1 20 23 20 23 IgH
+$ T1 Protein S1 20 23 20 23 IgH
+@ T6 Regulation S1 9 16 9 16 control
+@ T7 Gene_expression S1 29 39 29 39 expression
+% E1 Regulation:T6 Theme:E2
+% E2 Gene_expression:T7 Theme:T1
+
+The suggested roles of the downstream 3' regions acting as a Locus Control Region (LCR), have allowed comparisons to be made between the regulation of the IgH locus with other model systems whose gene expression is governed by LCR activity.
+# T2 Protein S2 155 158 250 253 IgH
+$ T2 Protein S2 155 158 250 253 IgH
+@ T8 Regulation S2 137 147 232 242 regulation
+% E3 Regulation:T8 Theme:T2
+
+Here we summarize the importance of the IgH 3'LCR and its putative functional role in IgH gene expression and compare it with the 5'LCR regulatory region of the human beta-globin locus.
+# T3 Protein S3 40 43 376 379 IgH
+# T4 Protein S3 86 89 422 425 IgH
+# T5 Protein S3 167 178 503 514 beta-globin
+$ T4 Protein S3 86 89 422 425 IgH
+@ T9 Regulation S3 67 82 403 418 functional role
+@ T10 Gene_expression S3 95 105 431 441 expression
+% E4 Regulation:T9 Theme:E5
+% E5 Gene_expression:T10 Theme:T4
+

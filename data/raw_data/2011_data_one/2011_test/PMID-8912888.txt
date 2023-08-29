@@ -1,0 +1,27 @@
+Naive (CD45RA+) T lymphocytes are more sensitive to oxidative stress-induced signals than memory (CD45RO+) cells.
+# T1 Protein S1 7 13 7 13 CD45RA
+# T2 Protein S1 98 104 98 104 CD45RO
+
+Formation of reactive oxygen intermediates (ROI) after oxidative stress has been shown to be an activation signal for T lymphocytes, e.g., expression of IL-2 and its receptor are induced.
+# T3 Protein S2 153 157 268 272 IL-2
+
+These ROI-induced effects can, to a large extent, be attributed to the activation of the transcription factor NF-kappaB.
+
+Now we have examined whether naive and memory T lymphocytes differ in their sensitivity to ROI-mediated signals.
+
+When CD45RA+ (naive) and CD45RO+ (memory) T lymphocytes were directly stimulated with H2O2, NF-kappaB nuclear translocation was stronger in naive cells than in memory cells and it could be induced with lower doses.
+# T4 Protein S5 5 11 542 548 CD45RA
+# T5 Protein S5 25 31 562 568 CD45RO
+
+The composition of the induced nuclear NF-kappaB (levels of p50 and RelA proteins) was similar in these cell types.
+# T6 Protein S6 60 63 812 815 p50
+# T7 Protein S6 68 72 820 824 RelA
+
+The magnitude and kinetics of intracellular ROI were similar, suggesting that there were no differences in ROI-forming mechanisms or antioxidative capacities.
+
+The probable regulatory point was the cytoplasmic IkappaB inhibitor: in CD45RA+ cells, H2O2 caused a more profound depression in the levels of IkappaB alpha.
+# T8 Protein S8 72 78 1099 1105 CD45RA
+# T9 Protein S8 143 156 1170 1183 IkappaB alpha
+
+These findings indicate that T cells representing different activation and/or differentiation stages can be differentially responsive to ROI-mediated signals.
+

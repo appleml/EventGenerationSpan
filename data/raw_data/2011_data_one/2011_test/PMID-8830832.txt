@@ -1,0 +1,28 @@
+Cytomegalovirus modulates interleukin-6 gene expression.
+# T1 Protein S1 26 39 26 39 interleukin-6
+
+Complications after lung transplantation include the development of rejection and an increased incidence of infection, particularly with cytomegalovirus (CMV).
+
+Several recent studies have suggested that interleukin (IL)-6 may be used to detect both infection and rejection after lung transplantation.
+# T2 Protein S3 43 61 261 279 interleukin (IL)-6
+
+In addition, IL-6 may play a role in the development of bronchiolitis obliterans after transplantation.
+# T3 Protein S4 13 17 372 376 IL-6
+
+Because CMV is also associated with the development of bronchiolitis obliterans after transplantation, we determined whether CMV induces IL-6 gene expression.
+# T4 Protein S5 137 141 600 604 IL-6
+
+We demonstrated that CMV infection increased both IL-6 protein and mRNA in peripheral blood mononuclear cells.
+# T5 Protein S6 50 54 672 676 IL-6
+
+We also demonstrated that the CMV immediate early 1 gene product increased expression of the IL-6 promoter.
+# T6 Protein S7 34 51 767 784 immediate early 1
+# T7 Protein S7 93 97 826 830 IL-6
+
+This effect of the CMV immediate early 1 gene product was dependent upon the presence of specific transcription factor binding sites in the IL-6 promoter.
+# T8 Protein S8 23 40 864 881 immediate early 1
+# T9 Protein S8 140 144 981 985 IL-6
+
+These studies demonstrate that CMV may be an important cofactor in the development of rejection and infection after transplantation through its effects on IL-6.
+# T10 Protein S9 155 159 1151 1155 IL-6
+

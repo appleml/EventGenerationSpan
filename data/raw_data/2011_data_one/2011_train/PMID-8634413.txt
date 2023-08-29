@@ -1,0 +1,37 @@
+STAT-related transcription factors are constitutively activated in peripheral blood cells from acute leukemia patients.
+
+A signal transduction pathway activated by many cytokines has recently been elaborated.
+
+The JAK kinases and the signal transducers and activators of transcription (STAT) factors have been found to be essential components.
+
+In this report, we describe the presence of constitutively activated STAT factors in peripheral blood cells from patients with acute leukemia.
+
+We used oligonucleotide probes from the beta-casein and IRF-1 gene promoters and the ISRE probe to detect STAT proteins in nuclear extracts from acute leukemia cells in bandshift assays.
+# T1 Protein S5 40 51 526 537 beta-casein
+# T2 Protein S5 56 61 542 547 IRF-1
+
+Specific DNA protein complex formation was observed with the probes from the beta-casein and IRF-1 gene promoters, but not with the ISRE oligonucleotide probe, when cell extracts from acute lymphoblastic leukemia (ALL) and acute myeloid leukemia (AML) were investigated.
+# T3 Protein S6 77 88 750 761 beta-casein
+# T4 Protein S6 93 98 766 771 IRF-1
+$ T4 Protein S6 93 98 766 771 IRF-1
+$ T3 Protein S6 77 88 750 761 beta-casein
+@ T10 Binding S6 21 38 694 711 complex formation
+@ T11 Entity S6 104 113 777 786 promoters
+% E1 Binding:T10 Theme:T4 Site:T11
+% E2 Binding:T10 Theme:T3 Site:T11
+
+We used nonradioactive oligonucleotides as competitors to show the specificity of the complex formation.
+
+Specific antibodies directed against the individual STAT proteins were used in supershift experiments.
+
+STAT5- and STAT1-related factors were detected in ALL and STAT1-, STAT3-, and STAT5-related proteins were present in nuclear cell extracts from AML.
+# T5 Protein S9 0 5 1152 1157 STAT5
+# T6 Protein S9 11 16 1163 1168 STAT1
+# T7 Protein S9 58 63 1210 1215 STAT1
+# T8 Protein S9 66 71 1218 1223 STAT3
+# T9 Protein S9 78 83 1230 1235 STAT5
+
+Since the cells were not treated with cytokines before the nuclear proteins were extracted, we conclude that these factors are constitutively activated in vivo.
+
+It is likely that the constitutive activation of STAT proteins is a part of the events of leukemogenesis.
+

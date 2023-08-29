@@ -1,0 +1,50 @@
+Activation of distinct transcription factors in neutrophils by bacterial LPS, interferon-gamma, and GM-CSF and the necessity to overcome the action of endogenous proteases.
+# T1 Protein S1 78 94 78 94 interferon-gamma
+# T2 Protein S1 100 106 100 106 GM-CSF
+$ T2 Protein S1 100 106 100 106 GM-CSF
+$ T1 Protein S1 78 94 78 94 interferon-gamma
+@ T12 Positive_regulation S1 0 10 0 10 Activation
+% E1 Positive_regulation:T12 Theme:T2
+% E2 Positive_regulation:T12 Theme:T1
+
+Human neutrophils can be induced to actively transcribe a number of early-response genes, in particular those encoding cytokines, chemokines, and the high-affinity surface receptor for IgG, FcgammaRI.
+# T3 Protein S2 190 199 364 373 FcgammaRI
+$ T3 Protein S2 190 199 364 373 FcgammaRI
+@ T13 Positive_regulation S2 25 32 199 206 induced
+@ T14 Transcription S2 45 55 219 229 transcribe
+% E3 Positive_regulation:T13 Theme:E4
+% E4 Transcription:T14 Theme:T3
+
+Although little is known to date about the regulation of gene transcription in neutrophils, several indications point to a role for distinct transcription factors, such as members of the NF-kappaB and STAT families.
+
+In this study, we investigated whether these transcription factors become activated under stimulatory conditions which are known to induce gene transcription in neutrophils.
+
+Unexpectedly, we found that conventional procedures employed to prepare cellular extracts cause the release of proteolytic activities that are normally stored in intracellular granules, resulting in the degradation of various NF-kappaB/Rel and STAT proteins.
+
+To circumvent this problem, we developed an alternative procedure which allowed us to show that in neutrophils, LPS and TNFalpha induce a NF-kappaB DNA-binding activity which essentially consists of p50/RelA dimers, and that IFNgamma promotes the binding of STAT1 homodimers to the IFNgamma response region of the FcgammaRI promoter.
+# T4 Protein S6 120 128 1144 1152 TNFalpha
+# T5 Protein S6 199 202 1223 1226 p50
+# T6 Protein S6 203 207 1227 1231 RelA
+# T7 Protein S6 225 233 1249 1257 IFNgamma
+# T8 Protein S6 258 263 1282 1287 STAT1
+# T9 Protein S6 282 290 1306 1314 IFNgamma
+# T10 Protein S6 314 323 1338 1347 FcgammaRI
+$ T5 Protein S6 199 202 1223 1226 p50
+$ T6 Protein S6 203 207 1227 1231 RelA
+$ T7 Protein S6 225 233 1249 1257 IFNgamma
+$ T8 Protein S6 258 263 1282 1287 STAT1
+@ T15 Binding S6 152 159 1176 1183 binding
+@ T16 Positive_regulation S6 234 242 1258 1266 promotes
+@ T17 Binding S6 247 254 1271 1278 binding
+% E5 Binding:T15 Theme:T5
+% E6 Binding:T15 Theme:T6
+% E7 Positive_regulation:T16 Theme:E8 Cause:T7
+% E8 Binding:T17 Theme:T8
+
+Moreover, we report that neutrophil stimulation with GM-CSF results in the formation of a STAT5-containing DNA-binding activity.
+# T11 Protein S7 53 59 1411 1417 GM-CSF
+
+Collectively, the current findings open new perspectives about mechanisms that are likely to regulate gene transcription in neutrophils.
+
+In addition, the procedure described herein could prove useful in other cell types that express high levels of endogenous proteases.
+

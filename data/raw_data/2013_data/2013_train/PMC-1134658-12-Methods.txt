@@ -1,0 +1,46 @@
+Antibodies used for flow cytometric analysis and immunoblot analysis
+
+Antibodies against the human BMP-receptors Act-RIA, BMP-RIB, BMPR-II, Act-RIIA and Act-RIIb were purchased from R & D Systems (Abingdon, UK).
+# T1 Protein S2 43 50 112 119 Act-RIA
+# T2 Protein S2 52 59 121 128 BMP-RIB
+# T3 Protein S2 61 68 130 137 BMPR-II
+# T4 Protein S2 70 78 139 147 Act-RIIA
+# T5 Protein S2 83 91 152 160 Act-RIIb
+
+Detection of the BMP-6-protein has been tried with the following antibodies: goat polyclonal anti-BMP-6 (Santa Cruz, San Diego, CA, USA), monoclonal mouse anti-BMP-6 and polyclonal goat anti-BMP-6 from R & D Systems (Abingdon, UK), and mouse monoclonal anti-BMP-6 (Chemicon International Inc, Temecula, CA, USA).
+# T6 Protein S3 17 22 228 233 BMP-6
+# T7 Protein S3 98 103 309 314 BMP-6
+# T8 Protein S3 160 165 371 376 BMP-6
+# T9 Protein S3 191 196 402 407 BMP-6
+# T10 Protein S3 258 263 469 474 BMP-6
+
+Characterisation of BMP-signalling pathways was done by use of anti-phospho-Smad1, -5, -and 8 polyclonal antibody (Chemicon, Temecula, CA, USA).
+# T11 Protein S4 76 81 600 605 Smad1
+# T12 Protein S4 83 85 607 609 -5
+# T13 Protein S4 92 93 616 617 8
+
+Expression levels of Id1-3 proteins were detected with polyclonal rabbit antibody and detection was blocked with blocking peptide from Santa Cruz Biotechnology (Santa Cruz, San Diego, CA, USA).
+# T14 Protein S5 21 24 690 693 Id1
+# T15 Protein S5 25 26 694 695 3
+$ T14 Protein S5 21 24 690 693 Id1
+$ T15 Protein S5 25 26 694 695 3
+@ T21 Gene_expression S5 0 17 669 686 Expression levels
+@ T22 Negative_regulation S5 100 107 769 776 blocked
+% E1 Gene_expression:T21 Theme:T14
+% E2 Gene_expression:T21 Theme:T15
+% E3 Negative_regulation:T22 Theme:E1
+% E4 Negative_regulation:T22 Theme:E2
+
+As secondary antibodies served anti-mouse, anti-goat or anti-rabbit IgG- horseradish peroxidase (HRP) from Dakocytomation AS (Copenhagen, Denmark) for immunoblot analysis.
+
+Anti-beta-actin was from Santa-Cruz.
+# T16 Protein S7 5 15 1040 1050 beta-actin
+
+From Becton Dickinson (San Jose, CA), we purchased anti-CD19-PE, anti-CD19-FITC.
+# T17 Protein S8 56 60 1128 1132 CD19
+# T18 Protein S8 70 74 1142 1146 CD19
+
+The antibodies used for cell sorting were anti-CD19 PC5 from Immunotech SA (Marseille, France) and anti-CD27 PE from Becton Dickinson, Biosciences Pharmingen (San Diego, CA, USA).
+# T19 Protein S9 47 51 1200 1204 CD19
+# T20 Protein S9 104 108 1257 1261 CD27
+

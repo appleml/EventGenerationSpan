@@ -1,0 +1,40 @@
+Attenuation of gamma interferon-induced tyrosine phosphorylation in mononuclear phagocytes infected with Leishmania donovani: selective inhibition of signaling through Janus kinases and Stat1.
+# T1 Protein S1 15 31 15 31 gamma interferon
+
+The induction of gene transcription in response to gamma interferon is impaired in mononuclear phagocytes infected with Leishmania donovani, and the mechanisms involved are not fully understood.
+# T2 Protein S2 51 67 245 261 gamma interferon
+
+The changes in gene expression brought about by gamma interferon are thought to involve transient increases in the activities of cellular protein tyrosine kinases, including the Janus kinases Jak1 and Jak2, leading to tyrosine phosphorylation of the transcription factor Stat1.
+# T3 Protein S3 48 64 437 453 gamma interferon
+# T4 Protein S3 192 196 581 585 Jak1
+# T5 Protein S3 201 205 590 594 Jak2
+
+To investigate the mechanisms accounting for the impaired responses to gamma interferon, a model system for examining overall changes in protein tyrosine phosphorylation, activation of Jak1 and Jak2 and phosphorylation of Stat1 was developed in phorbol 12-myristate 13-acetate-differentiated U-937 cells.
+# T6 Protein S4 71 87 738 754 gamma interferon
+# T7 Protein S4 185 189 852 856 Jak1
+# T8 Protein S4 194 198 861 865 Jak2
+
+Analysis of whole-cell lysates by antiphosphotyrosine immunoblotting showed that incubation with gamma interferon brought about specific increases in phosphotyrosine labeling of several proteins.
+# T9 Protein S5 97 113 1069 1085 gamma interferon
+
+Increased labeling of these proteins occurred to similar extents in control cells and in cells that had been infected with L. donovani for 16 h. Jak1, Jak2, and Stat1 were immunoprecipitated from control and interferon-treated cells, and tyrosine phosphorylation of these proteins, detected by antiphosphotyrosine immunoblotting was used to measured their activation.
+# T10 Protein S6 145 149 1313 1317 Jak1
+# T11 Protein S6 151 155 1319 1323 Jak2
+
+Tyrosine phosphorylation of Jak1, Jak2, and Stat1 increased markedly, in a dose-dependent manner, in U-937 cells incubated with gamma interferon.
+# T12 Protein S7 28 32 1564 1568 Jak1
+# T13 Protein S7 34 38 1570 1574 Jak2
+# T14 Protein S7 128 144 1664 1680 gamma interferon
+
+In contrast, in cells infected with L. donovani, tyrosine phosphorylation of Jak1, Jak2, and Stat1 was markedly impaired.
+# T15 Protein S8 77 81 1759 1763 Jak1
+# T16 Protein S8 83 87 1765 1769 Jak2
+
+This effect was dependent upon the duration of exposure to L. donovani and was maximal and complete at 16 h. Results similar to those observed with U-937 cells were also obtained with human peripheral blood monocytes.
+
+These findings indicate that infection of human mononuclear phagocytes with L. donovani leads to impaired gamma interferon-mediated tyrosine phosphorylation and selective effects on the Jak-Stat1 pathway.
+# T17 Protein S10 106 122 2128 2144 gamma interferon
+
+Unresponsiveness to gamma interferon for activation of this pathway may explain impaired transcriptional responses in leishmania-infected cells.
+# T18 Protein S11 20 36 2247 2263 gamma interferon
+

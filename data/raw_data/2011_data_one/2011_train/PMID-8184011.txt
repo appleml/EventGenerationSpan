@@ -1,0 +1,28 @@
+Activation of nuclear factor kappa B in human lymphoblastoid cells by low-dose ionizing radiation.
+
+Nuclear factor kappa B (NF-kappa B) is a pleiotropic transcription factor which is involved in the transcriptional regulation of several specific genes.
+
+Recent reports demonstrated that ionizing radiation in the dose range of 2-50 Gy results in expression of NF-kappa B in human KG-1 myeloid leukemia cells and human B-lymphocyte precursor cells; the precise mechanism involved and the significance are not yet known.
+
+The present report demonstrates that even lower doses of ionizing radiation, 0.25-2.0 Gy, are capable of inducing expression of NF-kappa B in EBV-transformed 244B human lymphoblastoid cells.
+
+These results are in a dose range where the viability of the cells remains very high.
+
+After exposure to 137Cs gamma rays at a dose rate of 1.17 Gy/min, a maximum in expression of NF-kappa B was seen at 8 h after a 0.5-Gy exposure.
+
+Time-course studies revealed a biphasic time-dependent expression after 0.5-, 1- and 2-Gy exposures.
+
+However, for each time examined, the expression of NF-kappa B was maximum after the 0.5-Gy exposure.
+
+The expression of the p50 and p65 NF-kappa B subunits was also shown to be regulated differentially after exposures to 1.0 and 2.0 Gy.
+# T1 Protein S9 22 25 1164 1167 p50
+# T2 Protein S9 30 33 1172 1175 p65
+$ T2 Protein S9 30 33 1172 1175 p65
+$ T1 Protein S9 22 25 1164 1167 p50
+@ T3 Gene_expression S9 4 14 1146 1156 expression
+@ T4 Regulation S9 75 84 1217 1226 regulated
+% E1 Gene_expression:T3 Theme:T2
+% E2 Gene_expression:T3 Theme:T1
+% E3 Regulation:T4 Theme:E1
+% E4 Regulation:T4 Theme:E2
+

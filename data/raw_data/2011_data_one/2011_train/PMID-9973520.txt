@@ -1,0 +1,84 @@
+Cross-linking of CD44 on rheumatoid synovial cells up-regulates VCAM-1.
+# T1 Protein S1 17 21 17 21 CD44
+# T2 Protein S1 64 70 64 70 VCAM-1
+$ T2 Protein S1 64 70 64 70 VCAM-1
+@ T20 Positive_regulation S1 51 63 51 63 up-regulates
+% E1 Positive_regulation:T20 Theme:T2
+
+CD44 is a ubiquitous molecule also known as hyaluronic acid or homing receptor.
+# T3 Protein S2 0 4 73 77 CD44
+
+However, the cellular functions and its role in inflammation, for example, rheumatoid synovitis, are currently unknown.
+
+In this study, we propose a novel function for CD44.
+# T4 Protein S4 47 51 320 324 CD44
+
+Using synovial cells from rheumatoid arthritis (RA) patients, we demonstrated that CD44 cross-linking and binding to hyaluronan augmented VCAM-1 expression and subsequently VCAM-1-mediated cell adhesion.
+# T5 Protein S5 83 87 409 413 CD44
+# T6 Protein S5 138 144 464 470 VCAM-1
+# T7 Protein S5 173 179 499 505 VCAM-1
+$ T5 Protein S5 83 87 409 413 CD44
+$ T7 Protein S5 173 179 499 505 VCAM-1
+@ T21 Binding S5 88 101 414 427 cross-linking
+@ T22 Binding S5 106 113 432 439 binding
+@ T23 Positive_regulation S5 128 137 454 463 augmented
+@ T24 Gene_expression S5 145 155 471 481 expression
+% E2 Binding:T21 Theme:T5
+% E3 Binding:T22 Theme:T5
+% E4 Positive_regulation:T23 Theme:E5 Cause:E3
+% E5 Gene_expression:T24 Theme:T7
+
+Briefly, we found that 1) rheumatoid synovial cells highly expressed CD44; 2) cross-linking of CD44 markedly but transiently augmented VCAM-1 expression and its mRNA transcription much more than did IL-1beta and TNF-alpha; 3) hyaluronan, especially when fragmented, also up-regulated VCAM-1; 4) CD44 activated the transcription factor AP-1; and 5) the integrin-dependent adhesive function of RA synovial cells to T cells was also amplified by CD44 cross-linking.
+# T8 Protein S6 69 73 599 603 CD44
+# T9 Protein S6 95 99 625 629 CD44
+# T10 Protein S6 135 141 665 671 VCAM-1
+# T11 Protein S6 199 207 729 737 IL-1beta
+# T12 Protein S6 212 221 742 751 TNF-alpha
+# T13 Protein S6 284 290 814 820 VCAM-1
+# T14 Protein S6 295 299 825 829 CD44
+# T15 Protein S6 335 339 865 869 AP-1
+# T16 Protein S6 443 447 973 977 CD44
+$ T8 Protein S6 69 73 599 603 CD44
+$ T9 Protein S6 95 99 625 629 CD44
+$ T10 Protein S6 135 141 665 671 VCAM-1
+$ T11 Protein S6 199 207 729 737 IL-1beta
+$ T12 Protein S6 212 221 742 751 TNF-alpha
+$ T13 Protein S6 284 290 814 820 VCAM-1
+$ T15 Protein S6 335 339 865 869 AP-1
+$ T14 Protein S6 295 299 825 829 CD44
+$ T16 Protein S6 443 447 973 977 CD44
+@ T25 Gene_expression S6 59 68 589 598 expressed
+@ T26 Binding S6 78 91 608 621 cross-linking
+@ T27 Positive_regulation S6 125 134 655 664 augmented
+@ T28 Gene_expression S6 142 152 672 682 expression
+@ T29 Transcription S6 166 179 696 709 transcription
+@ T30 Positive_regulation S6 271 283 801 813 up-regulated
+@ T31 Positive_regulation S6 300 309 830 839 activated
+@ T32 Binding S6 448 461 978 991 cross-linking
+% E6 Gene_expression:T25 Theme:T8
+% E7 Binding:T26 Theme:T9
+% E8 Positive_regulation:T27 Theme:E14 Cause:E7
+% E9 Positive_regulation:T27 Theme:E16 Cause:E7
+% E10 Positive_regulation:T27 Theme:E12 Cause:E7
+% E11 Positive_regulation:T27 Theme:E15 Cause:E7
+% E12 Gene_expression:T28 Theme:T10
+% E13 Gene_expression:T28 Theme:T11
+% E14 Transcription:T29 Theme:T10
+% E15 Transcription:T29 Theme:T11
+% E16 Transcription:T29 Theme:T12
+% E17 Positive_regulation:T30 Theme:T13
+% E18 Positive_regulation:T31 Theme:T15 Cause:T14
+% E19 Binding:T32 Theme:T16
+
+These results indicate that the adhesion of RA synovial cells to matrices such as hyaluronic acid through CD44 could up-regulate VCAM-1 expression and VCAM-1-mediated adhesion to T cells, which might in turn cause activation of T cells and synovial cells in RA synovitis.
+# T17 Protein S7 106 110 1099 1103 CD44
+# T18 Protein S7 129 135 1122 1128 VCAM-1
+# T19 Protein S7 151 157 1144 1150 VCAM-1
+$ T18 Protein S7 129 135 1122 1128 VCAM-1
+@ T33 Positive_regulation S7 117 128 1110 1121 up-regulate
+@ T34 Gene_expression S7 136 146 1129 1139 expression
+% E20 Positive_regulation:T33 Theme:E21
+% E21 Gene_expression:T34 Theme:T18
+
+We therefore propose that such cross-talking among distinct adhesion molecules may be involved in the pathogenesis of inflammation, including RA synovitis.
+

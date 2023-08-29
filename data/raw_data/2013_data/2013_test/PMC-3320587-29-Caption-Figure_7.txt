@@ -1,0 +1,64 @@
+The MyD88-mediated signaling cascade is important for MTb induction of NFAT5 expression in human monocytes.
+# T1 Protein S1 4 9 4 9 MyD88
+# T2 Protein S1 71 76 71 76 NFAT5
+
+(A) Engagement of TLR2 significantly enhances NFAT5 mRNA synthesis in monocytes.
+# T3 Protein S2 18 22 126 130 TLR2
+# T4 Protein S2 46 51 154 159 NFAT5
+
+THP-1 cells were incubated with the TLR2-specific ligand Pam3Cys (5 microg/ml), infected with MTb strain CDC1551 (1:1 cells:bacilli), or left untreated.
+# T5 Protein S3 36 40 225 229 TLR2
+
+After 16 hours, NFAT5 mRNA levels were measured.
+# T6 Protein S4 16 21 358 363 NFAT5
+
+NFAT5 mRNA expression was significantly increased when the cells were incubated with Pam3Cys (*, p<0.05) or infected with MTb (**, p<0.01).
+# T7 Protein S5 0 5 391 396 NFAT5
+
+(B) MyD88 is important for MTb induction of NFAT5 gene expression in human monocytes.
+# T8 Protein S6 4 9 535 540 MyD88
+# T9 Protein S6 44 49 575 580 NFAT5
+
+THP-1 cells that constitutively express lentivirally-delivered shRNA targeting MyD88 or control shRNA targeting GFP were constructed as described in Materials and Methods.
+# T10 Protein S7 79 84 696 701 MyD88
+# T11 Protein S7 112 115 729 732 GFP
+
+Cells were infected with MTb strain CDC1551 (1:1 cells:bacilli) or left uninfected for 16 hours at 37degreesC, and RNA was analyzed.
+
+NFAT5 mRNA levels were significantly inhibited in the cells transduced with MyD88-specific shRNA (black bars) compared with the cells transduced with control shRNA (open bars) in both, the absence or presence of MTb infection.
+# T12 Protein S9 0 5 922 927 NFAT5
+# T13 Protein S9 76 81 998 1003 MyD88
+
+TNF and CD86 mRNAs, the expression of which are MyD88-dependent and -independent, respectively, during MTb infection, were measured as controls.
+# T14 Protein S10 0 3 1149 1152 TNF
+# T15 Protein S10 8 12 1157 1161 CD86
+# T16 Protein S10 48 53 1197 1202 MyD88
+
+(C, D) IRAK1 and TRAF6 are required for MTb induction of NFAT5 gene expression in human monocytes.
+# T17 Protein S11 7 12 1301 1306 IRAK1
+# T18 Protein S11 17 22 1311 1316 TRAF6
+# T19 Protein S11 57 62 1351 1356 NFAT5
+
+THP-1 cells that constitutively express lentivirally-delivered IRAK1- or TRAF6-specific shRNA were constructed as described in Materials and Methods.
+# T20 Protein S12 63 68 1456 1461 IRAK1
+# T21 Protein S12 73 78 1466 1471 TRAF6
+
+THP-1 cells expressing control shRNA were used as described in 7B.
+# T22 Protein S13 31 36 1574 1579 shRNA
+
+Cells were infected with MTb strain CDC1551 or left uninfected for 16 hours at 37degreesC, and RNA was analyzed.
+
+NFAT5 expression was significantly inhibited in the MTb-infected cells expressing either IRAK1 (C) or TRAF6 (D) shRNA (black bars) compared to cells expressing control shRNA (open bars).
+# T23 Protein S15 0 5 1723 1728 NFAT5
+# T24 Protein S15 89 94 1812 1817 IRAK1
+# T25 Protein S15 102 107 1825 1830 TRAF6
+# T26 Protein S15 168 173 1891 1896 shRNA
+
+TNF and CD86 mRNAs, both of which require IRAK1 and TRAF6 to be induced by PRR activation, were measured as controls.
+# T27 Protein S16 0 3 1910 1913 TNF
+# T28 Protein S16 8 12 1918 1922 CD86
+# T29 Protein S16 42 47 1952 1957 IRAK1
+# T30 Protein S16 52 57 1962 1967 TRAF6
+
+(*, p<0.05; **, p<0.01).
+

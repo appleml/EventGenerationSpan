@@ -1,0 +1,45 @@
+Effects of interleukin-10 on human peripheral blood mononuclear cell responses to Cryptococcus neoformans, Candida albicans, and lipopolysaccharide.
+# T1 Protein S1 11 25 11 25 interleukin-10
+
+Deactivation of mononuclear phagocytes is critical to limit the inflammatory response but can be detrimental in the face of progressive infection.
+
+We compared the effects of the deactivating cytokine interleukin 10 (IL-10) on human peripheral blood mononuclear cell (PBMC) responses to lipopolysaccharide (LPS), Cryptococcus neoformans, and Candida albicans.
+# T2 Protein S3 53 67 350 364 interleukin 10
+# T3 Protein S3 69 74 366 371 IL-10
+
+IL-10 effected dose-dependent inhibition of tumor necrosis factor alpha (TNF-alpha) release in PBMC stimulated by LPS and C. neoformans, with significant inhibition seen with 0.1 U/ml and greater than 90% inhibition noted with 10 U/ml.
+# T4 Protein S4 0 5 509 514 IL-10
+# T5 Protein S4 44 71 553 580 tumor necrosis factor alpha
+# T6 Protein S4 73 82 582 591 TNF-alpha
+
+In contrast, even at doses as high as 100 U/ml, IL-10 inhibited TNF-alpha release in response to C. albicans by only 50%.
+# T7 Protein S5 48 53 793 798 IL-10
+# T8 Protein S5 64 73 809 818 TNF-alpha
+
+IL-10 profoundly inhibited release of IL-1beta from PBMC stimulated by all three stimuli.
+# T9 Protein S6 0 5 867 872 IL-10
+# T10 Protein S6 38 46 905 913 IL-1beta
+
+TNF-alpha mRNA and release was inhibited even if IL-10 was added up to 8 h after cryptococcal stimulation.
+# T11 Protein S7 0 9 957 966 TNF-alpha
+# T12 Protein S7 49 54 1006 1011 IL-10
+
+In contrast, inhibition of IL-1 beta mRNA was of lesser magnitude and occurred only when IL-10 was added within 2 h of cryptococcal stimulation.
+# T13 Protein S8 27 36 1091 1100 IL-1 beta
+# T14 Protein S8 89 94 1153 1158 IL-10
+
+IL-10 inhibited translocation of NF-kappaB in response to LPS but not the fungal stimuli.
+# T15 Protein S9 0 5 1209 1214 IL-10
+
+All three stimuli induced IL-10 production in PBMC, although over 10-fold less IL-10 was released in response to C. neoformans compared with LPS and C. albicans.
+# T16 Protein S10 26 31 1325 1330 IL-10
+# T17 Protein S10 79 84 1378 1383 IL-10
+
+Thus, while IL-10 has deactivating effects on PBMC responses to all three stimuli, disparate stimulus- and response-specific patterns of deactivation are seen.
+# T18 Protein S11 12 17 1473 1478 IL-10
+
+Inhibition by IL-10 of proinflammatory cytokine release appears to occur at the level of gene transcription for TNF-alpha and both transcriptionally and posttranscriptionally for IL-1beta.
+# T19 Protein S12 14 19 1635 1640 IL-10
+# T20 Protein S12 112 121 1733 1742 TNF-alpha
+# T21 Protein S12 179 187 1800 1808 IL-1beta
+

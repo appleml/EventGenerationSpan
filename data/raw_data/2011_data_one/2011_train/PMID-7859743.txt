@@ -1,0 +1,74 @@
+HIV-1 Tat potentiates TNF-induced NF-kappa B activation and cytotoxicity by altering the cellular redox state.
+# T1 Protein S1 6 9 6 9 Tat
+
+This study demonstrates that human immunodeficiency virus type 1 (HIV-1) Tat protein amplifies the activity of tumor necrosis factor (TNF), a cytokine that stimulates HIV-1 replication through activation of NF-kappa B.
+# T2 Protein S2 73 76 185 188 Tat
+
+In HeLa cells stably transfected with the HIV-1 tat gene (HeLa-tat cells), expression of the Tat protein enhanced both TNF-induced activation of NF-kappa B and TNF-mediated cytotoxicity.
+# T3 Protein S3 93 96 424 427 Tat
+$ T3 Protein S3 93 96 424 427 Tat
+@ T16 Gene_expression S3 75 85 406 416 expression
+% E1 Gene_expression:T16 Theme:T3
+
+A similar potentiation of TNF effects was observed in Jurkat T cells and HeLa cells treated with soluble Tat protein.
+# T4 Protein S4 105 108 623 626 Tat
+
+TNF-mediated activation of NF-kappa B and cytotoxicity involves the intracellular formation of reactive oxygen intermediates.
+
+Therefore, Tat-mediated effects on the cellular redox state were analyzed.
+# T5 Protein S6 11 14 773 776 Tat
+
+In both T cells and HeLa cells HIV-1 Tat suppressed the expression of Mn-dependent superoxide dismutase (Mn-SOD), a mitochondrial enzyme that is part of the cellular defense system against oxidative stress.
+# T6 Protein S7 37 40 874 877 Tat
+# T7 Protein S7 70 103 907 940 Mn-dependent superoxide dismutase
+# T8 Protein S7 105 111 942 948 Mn-SOD
+$ T6 Protein S7 37 40 874 877 Tat
+$ T8 Protein S7 105 111 942 948 Mn-SOD
+@ T17 Negative_regulation S7 41 51 878 888 suppressed
+@ T18 Gene_expression S7 56 66 893 903 expression
+% E2 Negative_regulation:T17 Theme:E3 Cause:T6
+% E3 Gene_expression:T18 Theme:T8
+
+Thus, Mn-SOD RNA protein levels and activity were markedly reduced in the presence of Tat.
+# T9 Protein S8 6 12 1050 1056 Mn-SOD
+# T10 Protein S8 86 89 1130 1133 Tat
+$ T9 Protein S8 6 12 1050 1056 Mn-SOD
+$ T10 Protein S8 86 89 1130 1133 Tat
+@ T19 Transcription S8 13 16 1057 1060 RNA
+@ T20 Gene_expression S8 17 31 1061 1075 protein levels
+@ T21 Negative_regulation S8 59 66 1103 1110 reduced
+% E4 Transcription:T19 Theme:T9
+% E5 Gene_expression:T20 Theme:T9
+% E6 Negative_regulation:T21 Theme:E5 Cause:T10
+% E7 Negative_regulation:T21 Theme:T9 Cause:T10
+% E8 Negative_regulation:T21 Theme:E4 Cause:T10
+
+Decreased Mn-SOD expression was associated with decreased levels of glutathione and a lower ratio of reduced:oxidized glutathione.
+# T11 Protein S9 10 16 1145 1151 Mn-SOD
+$ T11 Protein S9 10 16 1145 1151 Mn-SOD
+@ T22 Negative_regulation S9 0 9 1135 1144 Decreased
+@ T23 Gene_expression S9 17 27 1152 1162 expression
+% E9 Negative_regulation:T22 Theme:E10
+% E10 Gene_expression:T23 Theme:T11
+
+A truncated Tat protein (Tat1-72), known to transactivate the HIV-1 long terminal repeat (LTR), no longer affected Mn-SOD expression, the cellular redox state or TNF-mediated cytotoxicity.
+# T12 Protein S10 12 15 1278 1281 Tat
+# T13 Protein S10 115 121 1381 1387 Mn-SOD
+$ T12 Protein S10 12 15 1278 1281 Tat
+$ T13 Protein S10 115 121 1381 1387 Mn-SOD
+@ T24 Regulation S10 106 114 1372 1380 affected
+@ T25 Gene_expression S10 122 132 1388 1398 expression
+% E11 Regulation:T24 Theme:E12 Cause:T12
+% E12 Gene_expression:T25 Theme:T13
+
+Thus, our experiments demonstrate that the C-terminal region of HIV-1 Tat is required to suppress Mn-SOD expression and to induce pro-oxidative conditions reflected by a drop in reduced glutathione (GSH) and the GSH:oxidized GSH (GSSG) ratio.
+# T14 Protein S11 70 73 1525 1528 Tat
+# T15 Protein S11 98 104 1553 1559 Mn-SOD
+$ T15 Protein S11 98 104 1553 1559 Mn-SOD
+@ T26 Negative_regulation S11 89 97 1544 1552 suppress
+@ T27 Gene_expression S11 105 115 1560 1570 expression
+% E13 Negative_regulation:T26 Theme:E14
+% E14 Gene_expression:T27 Theme:T15
+
+(ABSTRACT TRUNCATED AT 250 WORDS)
+

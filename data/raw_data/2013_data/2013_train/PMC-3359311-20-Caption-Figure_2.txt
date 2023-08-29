@@ -1,0 +1,24 @@
+Airway epithelial cells do not significantly contribute to IL-1beta production in response to inflammasome stimuli.
+# T1 Protein S1 59 67 59 67 IL-1beta
+$ T1 Protein S1 59 67 59 67 IL-1beta
+@ T5 Positive_regulation S1 45 55 45 55 contribute
+@ T6 Gene_expression S1 68 78 68 78 production
+@ T7 Positive_regulation S1 79 93 79 93 in response to
+% E1 Positive_regulation:T5 Theme:E2
+% E3 Gene_expression:T6 Theme:T1
+% E2 Positive_regulation:T7 Theme:E3
+
+Control cell lines ((A) S9, (C) NuLi-1) and their corresponding CF cell lines ((B) IB3-1, and (D) CuFi-1) cells were stimulated with P. aeruginosa (MOI = 10), ATP (5 mM), or IL-1beta (10 ng/ml), for the indicated times (n = 3 individual experiments).
+# T2 Protein S2 174 182 290 298 IL-1beta
+
+Cells were primed with LPS (100 ng/ml) for 4 hours where appropriate.
+
+Cell culture supernatants were assayed for IL-1beta and IL-8 production by ELISA.
+# T3 Protein S4 43 51 480 488 IL-1beta
+$ T3 Protein S4 43 51 480 488 IL-1beta
+@ T8 Gene_expression S4 61 71 498 508 production
+% E4 Gene_expression:T8 Theme:T3
+
+Insert shows IL-8 secretion in response to stimulation with IL-1beta (10 ng/ml).
+# T4 Protein S5 60 68 579 587 IL-1beta
+

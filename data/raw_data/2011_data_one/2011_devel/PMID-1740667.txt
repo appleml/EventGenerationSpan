@@ -1,0 +1,73 @@
+The AP-1 site at -150 bp, but not the NF-kappa B site, is likely to represent the major target of protein kinase C in the interleukin 2 promoter.
+# T1 Protein S1 122 135 122 135 interleukin 2
+
+Stimulation of T cells with antigen results in activation of several kinases, including protein kinase C (PKC), that may mediate the later induction of activation-related genes.
+
+We have examined the potential role of PKC in induction of the interleukin 2 (IL-2) gene in T cells stimulated through the T cell receptor/CD3 complex.
+# T2 Protein S3 63 76 388 401 interleukin 2
+# T3 Protein S3 78 82 403 407 IL-2
+$ T3 Protein S3 78 82 403 407 IL-2
+@ T15 Regulation S3 31 35 356 360 role
+@ T16 Gene_expression S3 46 55 371 380 induction
+% E1 Regulation:T15 Theme:E2
+% E2 Gene_expression:T16 Theme:T3
+
+We have previously shown that prolonged treatment of the untransformed T cell clone Ar-5 with phorbol esters results in downmodulation of the alpha and beta isozymes of PKC, and abrogates induction of IL-2 mRNA and protein.
+# T4 Protein S4 201 205 678 682 IL-2
+$ T4 Protein S4 201 205 678 682 IL-2
+@ T17 Negative_regulation S4 178 187 655 664 abrogates
+@ T18 Transcription S4 188 197 665 674 induction
+% E3 Negative_regulation:T17 Theme:E4
+% E4 Transcription:T18 Theme:T4
+
+Here we show that phorbol ester treatment also abolishes induction of chloramphenicol acetyltransferase activity in Ar-5 cells transfected with a plasmid containing the IL-2 promoter linked to this reporter gene.
+# T5 Protein S5 70 103 771 804 chloramphenicol acetyltransferase
+# T6 Protein S5 169 173 870 874 IL-2
+$ T5 Protein S5 70 103 771 804 chloramphenicol acetyltransferase
+@ T19 Negative_regulation S5 47 56 748 757 abolishes
+@ T20 Positive_regulation S5 57 66 758 767 induction
+% E5 Negative_regulation:T19 Theme:E6
+% E6 Positive_regulation:T20 Theme:T5
+
+The IL-2 promoter contains binding sites for nuclear factors including NFAT-1, Oct, NF-kappa B, and AP-1, which are all potentially sensitive to activation of PKC.
+# T7 Protein S6 4 8 918 922 IL-2
+# T8 Protein S6 71 77 985 991 NFAT-1
+
+We show that induction of a trimer of the NFAT and Oct sites is not sensitive to phorbol ester treatment, and that mutations in the NF-kappa B site have no effect on inducibility of the IL-2 promoter.
+# T9 Protein S7 186 190 1264 1268 IL-2
+$ T9 Protein S7 186 190 1264 1268 IL-2
+@ T21 Regulation S7 156 162 1234 1240 effect
+@ T22 Positive_regulation S7 166 178 1244 1256 inducibility
+@ T23 Entity S7 191 199 1269 1277 promoter
+% E7 Regulation:T21 Theme:E8
+% E8 Positive_regulation:T22 Theme:T9 Site:T23
+
+In contrast, mutations in the AP-1 site located at -150 bp almost completely abrogate induction of the IL-2 promoter, and appearance of an inducible nuclear factor binding to this site is sensitive to PKC depletion.
+# T10 Protein S8 103 107 1382 1386 IL-2
+$ T10 Protein S8 103 107 1382 1386 IL-2
+@ T24 Negative_regulation S8 77 85 1356 1364 abrogate
+@ T25 Positive_regulation S8 86 95 1365 1374 induction
+@ T26 Entity S8 108 116 1387 1395 promoter
+% E9 Negative_regulation:T24 Theme:E10
+% E10 Positive_regulation:T25 Theme:T10 Site:T26
+
+Moreover, cotransfections with c-fos and c-jun expression plasmids markedly enhance induction of the IL-2 promoter in minimally stimulated T cells.
+# T11 Protein S9 31 36 1526 1531 c-fos
+# T12 Protein S9 41 46 1536 1541 c-jun
+# T13 Protein S9 101 105 1596 1600 IL-2
+$ T12 Protein S9 41 46 1536 1541 c-jun
+$ T11 Protein S9 31 36 1526 1531 c-fos
+$ T13 Protein S9 101 105 1596 1600 IL-2
+@ T27 Gene_expression S9 47 57 1542 1552 expression
+@ T28 Positive_regulation S9 76 83 1571 1578 enhance
+@ T29 Positive_regulation S9 84 93 1579 1588 induction
+@ T30 Entity S9 106 114 1601 1609 promoter
+% E11 Gene_expression:T27 Theme:T12
+% E12 Gene_expression:T27 Theme:T11
+% E13 Positive_regulation:T28 Theme:E15 Cause:E11
+% E14 Positive_regulation:T28 Theme:E15 Cause:E12
+% E15 Positive_regulation:T29 Theme:T13 Site:T30
+
+Our results indicate that the AP-1 site at -150 bp represents a major, if not the only, site of PKC responsiveness in the IL-2 promoter.
+# T14 Protein S10 122 126 1765 1769 IL-2
+

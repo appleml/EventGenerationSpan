@@ -1,0 +1,85 @@
+A nuclear factor NF-GM2 that interacts with a regulatory region of the GM-CSF gene essential for its induction in responses to T-cell activation: purification from human T-cell leukemia line Jurkat cells and similarity to NF-kappa B.
+# T1 Protein S1 71 77 71 77 GM-CSF
+$ T1 Protein S1 71 77 71 77 GM-CSF
+@ T17 Positive_regulation S1 83 92 83 92 essential
+@ T18 Gene_expression S1 101 110 101 110 induction
+@ T19 Regulation S1 114 123 114 123 responses
+% E1 Positive_regulation:T17 Theme:E3
+% E2 Gene_expression:T18 Theme:T1
+% E3 Regulation:T19 Theme:E2
+
+Activation of T cells by antigen, lectin, or a combination of phorbol-12-myristate acetate (PMA) and calcium ionophore (A23187) leads to the induction of genes for a set of lymphokines, including granulocyte-macrophage colony-stimulating factor (GM-CSF).
+# T2 Protein S2 196 244 431 479 granulocyte-macrophage colony-stimulating factor
+# T3 Protein S2 246 252 481 487 GM-CSF
+$ T3 Protein S2 246 252 481 487 GM-CSF
+@ T20 Positive_regulation S2 128 133 363 368 leads
+@ T21 Gene_expression S2 141 150 376 385 induction
+% E4 Positive_regulation:T20 Theme:E5
+% E5 Gene_expression:T21 Theme:T3
+
+We demonstrated in earlier studies that the upstream region of the mouse GM-CSF promoter at positions between -95 and -73 is essential for transcriptional activation in response to PMA/A23187.
+# T4 Protein S3 73 79 563 569 GM-CSF
+$ T4 Protein S3 73 79 563 569 GM-CSF
+@ T22 Positive_regulation S3 125 134 615 624 essential
+@ T23 Positive_regulation S3 139 165 629 655 transcriptional activation
+% E6 Positive_regulation:T22 Theme:E7
+% E7 Positive_regulation:T23 Theme:T4
+
+This region contains two DNA-binding motifs, GM2 and GC-box.
+
+The GM2 sequence (GGTAGTTCCC) is recognized by an inducible factor NF-GM2; the other (CCGCCC) by constitutive factors A1, A2, and B. To elucidate the mechanism of GM-CSF gene activation, we have purified the inducible factor NF-GM2 from the nuclear extract of stimulated Jurkat cells on the basis of specific DNA-binding activity.
+# T5 Protein S5 163 169 907 913 GM-CSF
+$ T5 Protein S5 163 169 907 913 GM-CSF
+@ T24 Positive_regulation S5 175 185 919 929 activation
+% E8 Positive_regulation:T24 Theme:T5
+
+The purified NF-GM2 consists of 50 (p50) and 65 kDa (p65) polypeptides and has a binding activity specific for both the GM-CSF and immunoglobulin kappa (GGAAAGTCCC) enhancers.
+# T6 Protein S6 36 39 1111 1114 p50
+# T7 Protein S6 53 56 1128 1131 p65
+# T8 Protein S6 120 126 1195 1201 GM-CSF
+$ T8 Protein S6 120 126 1195 1201 GM-CSF
+@ T25 Binding S6 81 97 1156 1172 binding activity
+@ T26 Entity S6 165 174 1240 1249 enhancers
+% E9 Binding:T25 Theme:T8 Site:T26
+
+Electrophoretically purified p50 alone can form a protein-DNA complex, but in the mixture, p50 associates preferentially with p65 to form the NF-GM2 complex.
+# T9 Protein S7 29 32 1280 1283 p50
+# T10 Protein S7 91 94 1342 1345 p50
+# T11 Protein S7 126 129 1377 1380 p65
+$ T9 Protein S7 29 32 1280 1283 p50
+$ T10 Protein S7 91 94 1342 1345 p50
+$ T11 Protein S7 126 129 1377 1380 p65
+@ T27 Binding S7 62 69 1313 1320 complex
+@ T28 Binding S7 95 105 1346 1356 associates
+% E10 Binding:T27 Theme:T9
+% E11 Binding:T28 Theme:T10 Theme2:T11
+
+In addition, p65 gave per se, with low affinity, a protein-DNA complex that migrated more slowly than native NF-GM2 complex.
+# T12 Protein S8 13 16 1422 1425 p65
+$ T12 Protein S8 13 16 1422 1425 p65
+@ T29 Binding S8 63 70 1472 1479 complex
+% E12 Binding:T29 Theme:T12
+
+Furthermore, an antiserum against KBF1 (identical to 50 kDa NF-kappa B protein) reacted with the p50 of NF-GM2, indicating that the NF-GM2 polypeptide cannot be immunologically differentiated from the 50 kDa subunit of NF-kappa B.
+# T13 Protein S9 34 38 1568 1572 KBF1
+# T14 Protein S9 97 100 1631 1634 p50
+$ T14 Protein S9 97 100 1631 1634 p50
+@ T30 Binding S9 80 87 1614 1621 reacted
+% E13 Binding:T30 Theme:T14
+
+The purified NF-GM2 activated in vitro transcription from the kappa B enhancer, while it failed to stimulate transcription from the GM-CSF promoter harboring the GM2 sequence.
+# T15 Protein S10 132 138 1897 1903 GM-CSF
+$ T15 Protein S10 132 138 1897 1903 GM-CSF
+@ T31 Positive_regulation S10 99 108 1864 1873 stimulate
+@ T32 Transcription S10 109 122 1874 1887 transcription
+% E14 Positive_regulation:T31 Theme:E15
+% E15 Transcription:T32 Theme:T15
+
+This suggests that the activation mechanism of the GM-CSF gene through the GM2/GC-box sequence is different from that of genes carrying the kappa B enhancer alone.
+# T16 Protein S11 51 57 1992 1998 GM-CSF
+$ T16 Protein S11 51 57 1992 1998 GM-CSF
+@ T33 Gene_expression S11 23 33 1964 1974 activation
+@ T34 Positive_regulation S11 63 70 2004 2011 through
+% E16 Gene_expression:T33 Theme:T16
+% E17 Positive_regulation:T34 Theme:E16
+

@@ -1,0 +1,38 @@
+Lipopolysaccharide-induced E-selectin expression requires continuous presence of LPS and is inhibited by bactericidal/permeability-increasing protein.
+# T1 Protein S1 27 37 27 37 E-selectin
+$ T1 Protein S1 27 37 27 37 E-selectin
+@ T7 Positive_regulation S1 19 26 19 26 induced
+@ T8 Gene_expression S1 38 48 38 48 expression
+@ T9 Positive_regulation S1 49 57 49 57 requires
+@ T10 Negative_regulation S1 92 101 92 101 inhibited
+% E1 Positive_regulation:T7 Theme:E2
+% E2 Gene_expression:T8 Theme:T1
+% E3 Positive_regulation:T9 Theme:E1
+% E4 Negative_regulation:T10 Theme:E1
+
+Endothelial cells stimulated by LPS express E-selectin, which plays an important role in mediating neutrophil adhesion during inflammation.
+# T2 Protein S2 44 54 196 206 E-selectin
+$ T2 Protein S2 44 54 196 206 E-selectin
+@ T11 Gene_expression S2 36 43 188 195 express
+% E5 Gene_expression:T11 Theme:T2
+
+E-selectin is induced within 1-2 h, peaks at 4-6 h, and gradually returns to basal level by 24 h. rBPI21, a recombinant N-terminal fragment of human bactericidal/permeability-increasing protein (BPI), inhibited LPS-induced E-selectin expression when added at the same time as, and up to 6 h after, LPS.
+# T3 Protein S3 0 10 292 302 E-selectin
+# T4 Protein S3 149 193 441 485 bactericidal/permeability-increasing protein
+# T5 Protein S3 195 198 487 490 BPI
+# T6 Protein S3 223 233 515 525 E-selectin
+$ T3 Protein S3 0 10 292 302 E-selectin
+$ T6 Protein S3 223 233 515 525 E-selectin
+@ T12 Positive_regulation S3 14 21 306 313 induced
+@ T13 Negative_regulation S3 201 210 493 502 inhibited
+@ T14 Positive_regulation S3 215 222 507 514 induced
+@ T15 Gene_expression S3 234 244 526 536 expression
+% E6 Positive_regulation:T12 Theme:T3
+% E7 Negative_regulation:T13 Theme:E8
+% E8 Positive_regulation:T14 Theme:E9
+% E9 Gene_expression:T15 Theme:T6
+
+Delayed administration of rBPI21 also affected LPS-mediated activation of the nuclear factor, NF-kappa B. Two to 4 h following LPS addition to endothelial cells, when NF-kappa B was already activated, addition of rBPI21 resulted in marked reduction of NF-kappa B detectable at 4 or 6 h.
+
+These results indicate that endothelial activation requires continuous presence of LPS, and rBPI21 acts to reverse LPS-mediated endothelial activation by interrupting the on-going LPS signal.
+

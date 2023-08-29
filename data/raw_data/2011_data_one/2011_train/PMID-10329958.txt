@@ -1,0 +1,61 @@
+Regulation of low shear flow-induced HAEC VCAM-1 expression and monocyte adhesion.
+# T1 Protein S1 42 48 42 48 VCAM-1
+$ T1 Protein S1 42 48 42 48 VCAM-1
+@ T8 Regulation S1 0 10 0 10 Regulation
+@ T9 Positive_regulation S1 29 36 29 36 induced
+@ T10 Gene_expression S1 49 59 49 59 expression
+% E1 Regulation:T8 Theme:E2
+% E2 Positive_regulation:T9 Theme:E3
+% E3 Gene_expression:T10 Theme:T1
+
+We recently reported that prolonged exposure of human aortic endothelial cells (HAEC) to low shear stress flow patterns is associated with a sustained increase in the activated form of the transcriptional regulator nuclear factor-kappaB (NF-kappaB).
+
+Here we investigate the hypothesis that low shear-induced activation of NF-kappaB is responsible for enhanced expression of vascular cell adhesion molecule (VCAM-1) resulting in augmented endothelial cell-monocyte (EC-Mn) adhesion and that this activation is dependent on intracellular oxidant activity.
+# T2 Protein S3 124 155 458 489 vascular cell adhesion molecule
+# T3 Protein S3 157 163 491 497 VCAM-1
+$ T3 Protein S3 157 163 491 497 VCAM-1
+@ T11 Positive_regulation S3 85 109 419 443 responsible for enhanced
+@ T12 Gene_expression S3 110 120 444 454 expression
+% E4 Positive_regulation:T11 Theme:E5
+% E5 Gene_expression:T12 Theme:T3
+
+Before exposure to low shear (2 dyn/cm2) for 6 h, HAEC were preincubated with or without the antioxidants pyrrolidine dithiocarbamate (PDTC) or N-acetyl-L-cysteine (NAC).
+
+PDTC strongly inhibited low shear-induced activation of NF-kappaB, expression of VCAM-1, and EC-Mn adhesion.
+# T4 Protein S5 81 87 890 896 VCAM-1
+$ T4 Protein S5 81 87 890 896 VCAM-1
+@ T13 Negative_regulation S5 14 23 823 832 inhibited
+@ T14 Positive_regulation S5 34 41 843 850 induced
+@ T15 Gene_expression S5 67 77 876 886 expression
+% E6 Negative_regulation:T13 Theme:E7
+% E7 Positive_regulation:T14 Theme:E8
+% E8 Gene_expression:T15 Theme:T4
+
+Paradoxically, NAC exerted a positive effect on low shear-induced VCAM-1 expression and EC-Mn adhesion and only slightly downregulated NF-kappaB activation.
+# T5 Protein S6 66 72 984 990 VCAM-1
+$ T5 Protein S6 66 72 984 990 VCAM-1
+@ T16 Positive_regulation S6 19 44 937 962 exerted a positive effect
+@ T17 Positive_regulation S6 58 65 976 983 induced
+@ T18 Gene_expression S6 73 83 991 1001 expression
+% E9 Positive_regulation:T16 Theme:E10
+% E10 Positive_regulation:T17 Theme:E11
+% E11 Gene_expression:T18 Theme:T5
+
+However, cytokine-induced NF-kappaB activation and VCAM-1 expression are blocked by both PDTC and NAC.
+# T6 Protein S7 51 57 1126 1132 VCAM-1
+$ T6 Protein S7 51 57 1126 1132 VCAM-1
+@ T19 Positive_regulation S7 18 25 1093 1100 induced
+@ T20 Gene_expression S7 58 68 1133 1143 expression
+@ T21 Negative_regulation S7 73 80 1148 1155 blocked
+% E12 Positive_regulation:T19 Theme:E13
+% E13 Gene_expression:T20 Theme:T6
+% E14 Negative_regulation:T21 Theme:E12
+
+These data suggest that NF-kappaB plays a key role in low shear-induced VCAM-1 expression and that pathways mediating low shear- and cytokine-induced EC-Mn adhesion may be differentially regulated.
+# T7 Protein S8 72 78 1250 1256 VCAM-1
+$ T7 Protein S8 72 78 1250 1256 VCAM-1
+@ T22 Positive_regulation S8 64 71 1242 1249 induced
+@ T23 Gene_expression S8 79 89 1257 1267 expression
+% E15 Positive_regulation:T22 Theme:E16
+% E16 Gene_expression:T23 Theme:T7
+

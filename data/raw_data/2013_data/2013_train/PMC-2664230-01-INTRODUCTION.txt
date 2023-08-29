@@ -1,0 +1,70 @@
+The bacterial membrane component lipopolysaccharide (LPS) is capable of initiating phosphorylation and activation of multiple host intracellular protein kinases and transcription factors.
+
+Transcription factor activation, which results in the modulation of gene transcription and protein synthesis, is a critical element in the defense mechanism of the host immune system.1,2
+
+LPS-induced transcription factor activation has been shown to be a key regulator of tumor necrosis factor-alpha (TNF-alpha) production.3 TNF-alpha is a potent pro-inflammatory cytokine involved in a wide spectrum of cellular responses.
+# T1 Protein S3 84 111 459 486 tumor necrosis factor-alpha
+# T2 Protein S3 113 122 488 497 TNF-alpha
+# T3 Protein S3 137 146 512 521 TNF-alpha
+$ T1 Protein S3 84 111 459 486 tumor necrosis factor-alpha
+@ T9 Regulation S3 71 80 446 455 regulator
+@ T10 Gene_expression S3 124 134 499 509 production
+% E1 Regulation:T9 Theme:E2
+% E2 Gene_expression:T10 Theme:T1
+
+Furthermore, TNF-alpha synthesis can be attenuated in immune cells exposed to phosphodiesterase (PDE) inhibition after challenge by a variety of pro-inflammatory stimulants.4 The signaling mechanisms affected by PDE inhibition, which ultimately lead to the downregulation of TNF-alpha production, have not been well characterized in inflammatory cells.
+# T4 Protein S4 13 22 624 633 TNF-alpha
+# T5 Protein S4 275 284 886 895 TNF-alpha
+$ T4 Protein S4 13 22 624 633 TNF-alpha
+$ T5 Protein S4 275 284 886 895 TNF-alpha
+@ T11 Gene_expression S4 23 32 634 643 synthesis
+@ T12 Negative_regulation S4 40 50 651 661 attenuated
+@ T13 Positive_regulation S4 245 249 856 860 lead
+@ T14 Negative_regulation S4 257 271 868 882 downregulation
+@ T15 Gene_expression S4 285 295 896 906 production
+% E3 Gene_expression:T11 Theme:T4
+% E4 Negative_regulation:T12 Theme:E3
+% E5 Positive_regulation:T13 Theme:E6
+% E6 Negative_regulation:T14 Theme:E7
+% E7 Gene_expression:T15 Theme:T5
+
+Classically, it has been demonstrated that PDE inhibition results in the intracellular accumulation of the second messenger cyclic adenosine-3,5-monophosphate (cAMP) and subsequent activation of Protein kinase A (PKA).5 PKA activation then leads to the phosphorylation of the transcription factor cAMP-response element binding protein (CREB), transmission of signals into the nucleus, and the subsequent modulation of gene transcription.6 This apparently simple linear cascade does not fully explain the mechanism by which an elevation in the intracellular cAMP level exerts wide-ranging effects on multiple cellular functions.
+
+There is a growing body of evidence suggesting that cAMP may function through both PKA-dependent and -independent mechanisms.6-8
+
+LPS-induced activation of the transcription factor nuclear factor-kappaB (NF-kappaB) has also been the focus of a great deal of research.
+
+It has been clearly demonstrated that agents that increase intracellular cAMP also inhibit NF-kappaB-dependent pro-inflammatory gene transcription, particularly of the TNF-alpha gene.9
+# T6 Protein S8 168 177 2027 2036 TNF-alpha
+$ T6 Protein S8 168 177 2027 2036 TNF-alpha
+@ T16 Negative_regulation S8 83 90 1942 1949 inhibit
+@ T17 Regulation S8 101 110 1960 1969 dependent
+@ T18 Transcription S8 133 146 1992 2005 transcription
+% E8 Negative_regulation:T16 Theme:E9
+% E9 Regulation:T17 Theme:E10
+% E10 Transcription:T18 Theme:T6
+
+Controversy exists regarding the exact mechanism(s) by which PDE inhibition down-regulates TNF-alpha production.
+# T7 Protein S9 91 100 2135 2144 TNF-alpha
+$ T7 Protein S9 91 100 2135 2144 TNF-alpha
+@ T19 Negative_regulation S9 76 90 2120 2134 down-regulates
+@ T20 Gene_expression S9 101 111 2145 2155 production
+% E11 Negative_regulation:T19 Theme:E12
+% E12 Gene_expression:T20 Theme:T7
+
+Possibilities include, but are not limited to, inhibition of NF-kappaB DNA binding activity, downregulation of NF-kappaB transcriptional activity, increased CREB activation, and competition between NF-kappaB and CREB for common co-activators such as CREB binding protein (CBP).
+
+It is also not known whether these processes rely solely upon the activation of PKA.
+
+Therefore, the objective of the present study is to determine the effects of nonspecific PDE inhibition with 1-[5-oxohexyl]-3,7-dimethylxanthine (Pentoxifylline; PTX) on NF-kappaB and CREB activation in vitro in human mononuclear cells.
+
+With the use of specific inhibitors, we also investigated the role of PKA in LPS-induced TNF-alpha production.
+# T8 Protein S13 89 98 2846 2855 TNF-alpha
+$ T8 Protein S13 89 98 2846 2855 TNF-alpha
+@ T21 Regulation S13 62 66 2819 2823 role
+@ T22 Positive_regulation S13 81 88 2838 2845 induced
+@ T23 Gene_expression S13 99 109 2856 2866 production
+% E13 Regulation:T21 Theme:E14
+% E14 Positive_regulation:T22 Theme:E15
+% E15 Gene_expression:T23 Theme:T8
+

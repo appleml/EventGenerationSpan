@@ -1,0 +1,86 @@
+MDS1/EVI1 enhances TGF-beta1 signaling and strengthens its growth-inhibitory effect but the leukemia-associated fusion protein AML1/MDS1/EVI1, product of the t(3;21), abrogates growth-inhibition in response to TGF-beta1.
+# T1 Protein S1 0 4 0 4 MDS1
+# T2 Protein S1 5 9 5 9 EVI1
+# T3 Protein S1 19 28 19 28 TGF-beta1
+# T4 Protein S1 127 131 127 131 AML1
+# T5 Protein S1 132 136 132 136 MDS1
+# T6 Protein S1 137 141 137 141 EVI1
+# T7 Protein S1 210 219 210 219 TGF-beta1
+
+MDS1/EVI1, located on chromosome 3 band q26, encodes a zinc-finger DNA-binding transcription activator not detected in normal hematopoietic cells but expressed in several normal tissues.
+# T8 Protein S2 0 4 222 226 MDS1
+# T9 Protein S2 5 9 227 231 EVI1
+
+MDS1/EVI1 is inappropriately activated in myeloid leukemias following chromosomal rearrangements involving band 3q26.
+# T10 Protein S3 0 4 409 413 MDS1
+# T11 Protein S3 5 9 414 418 EVI1
+
+The rearrangements lead either to gene truncation, and to expression of the transcription repressor EVI1, as seen in the t(3;3)(q21;q26) and inv(3)(q21q26), or to gene fusion, as seen in the t(3;21)(q26;q22) which results in the fusion protein AML1/MDS1/EVI1.
+# T12 Protein S4 100 104 627 631 EVI1
+# T13 Protein S4 244 248 771 775 AML1
+# T14 Protein S4 249 253 776 780 MDS1
+# T15 Protein S4 254 258 781 785 EVI1
+
+This fusion protein contains the DNA-binding domain of the transcription factor AML1 fused in-frame to the entire MDS1/EVI1 with the exclusion of its first 12 amino acids.
+# T16 Protein S5 80 84 867 871 AML1
+# T17 Protein S5 114 118 901 905 MDS1
+# T18 Protein S5 119 123 906 910 EVI1
+
+In this report, we have analyzed the response of the hematopoietic precursor cell line 32Dcl3, expressing either the normal protein MDS1/EVI1 or the fusion protein AML1/MDS1/EVI1, to factors that control cell differentiation or cell replication.
+# T19 Protein S6 132 136 1091 1095 MDS1
+# T20 Protein S6 137 141 1096 1100 EVI1
+# T21 Protein S6 164 168 1123 1127 AML1
+# T22 Protein S6 169 173 1128 1132 MDS1
+# T23 Protein S6 174 178 1133 1137 EVI1
+
+The 32Dcl3 cells are IL-3-dependent for growth and they differentiate into granulocytes when exposed to G-CSF.
+# T24 Protein S7 21 25 1226 1230 IL-3
+# T25 Protein S7 104 109 1309 1314 G-CSF
+
+They are growth-inhibited by TGF-beta1.
+# T26 Protein S8 29 38 1345 1354 TGF-beta1
+
+We show that whereas the expression of MDS1/EVI1 has no effect on granulocytic differentiation induced by G-CSF, expression of AML1/MDS1/EVI1 blocks differentiation resulting in cell death.
+# T27 Protein S9 39 43 1395 1399 MDS1
+# T28 Protein S9 44 48 1400 1404 EVI1
+# T29 Protein S9 106 111 1462 1467 G-CSF
+# T30 Protein S9 127 131 1483 1487 AML1
+# T31 Protein S9 132 136 1488 1492 MDS1
+# T32 Protein S9 137 141 1493 1497 EVI1
+
+This effect is similar to that previously described by others for 32Dcl3 cells that express transgenic Evil.
+# T33 Protein S10 103 107 1649 1653 Evil
+
+Furthermore, we show that whereas the expression of the fusion protein AML1/MDS1/EVI1 completely abrogates the growth-inhibitory effect of TGF-beta1 and allows 32Dcl3 cells to proliferate, expression of the normal protein MDS1/EVI1 has the opposite effect, and it strengthens the response of cells to the growth-inhibitory effect of TGF-beta1.
+# T34 Protein S11 71 75 1726 1730 AML1
+# T35 Protein S11 76 80 1731 1735 MDS1
+# T36 Protein S11 81 85 1736 1740 EVI1
+# T37 Protein S11 139 148 1794 1803 TGF-beta1
+# T38 Protein S11 222 226 1877 1881 MDS1
+# T39 Protein S11 227 231 1882 1886 EVI1
+# T40 Protein S11 333 342 1988 1997 TGF-beta1
+
+By using the yeast two-hybrid system, we also show that EVI1 (contained in its entirety in MDS1/EVI1 and AML1/MDS1/EVI1) physically interacts with SMAD3, which is an intracellular mediator of TGF-beta1 signaling.
+# T41 Protein S12 56 60 2055 2059 EVI1
+# T42 Protein S12 91 95 2090 2094 MDS1
+# T43 Protein S12 96 100 2095 2099 EVI1
+# T44 Protein S12 105 109 2104 2108 AML1
+# T45 Protein S12 110 114 2109 2113 MDS1
+# T46 Protein S12 115 119 2114 2118 EVI1
+# T47 Protein S12 147 152 2146 2151 SMAD3
+# T48 Protein S12 192 201 2191 2200 TGF-beta1
+
+Finally, we have correlated the response of the cells to G-CSF or TGF-beta1 with the ability of the normal and fusion proteins to activate or repress promoters which they can directly regulate by binding to the promoter site.
+# T49 Protein S13 57 62 2269 2274 G-CSF
+# T50 Protein S13 66 75 2278 2287 TGF-beta1
+
+We propose that mutations of MDS1/EVI1 either by gene truncation resulting in the transcription repressor EVI1 or by gene fusion to AML1 lead to an altered cellular response to growth and differentiation factors that could result in leukemic transformation.
+# T51 Protein S14 29 33 2467 2471 MDS1
+# T52 Protein S14 34 38 2472 2476 EVI1
+# T53 Protein S14 106 110 2544 2548 EVI1
+# T54 Protein S14 132 136 2570 2574 AML1
+
+The different response of myeloid cells ectopically expressing the normal or the fusion protein to G-CSF and TGF-beta1 could depend on the different transactivation properties of these proteins resulting in divergent expression of downstream genes regulated by the two proteins.
+# T55 Protein S15 99 104 2795 2800 G-CSF
+# T56 Protein S15 109 118 2805 2814 TGF-beta1
+

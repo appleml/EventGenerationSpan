@@ -1,0 +1,74 @@
+Alternative splicing of RNA transcripts encoded by the murine p105 NF-kappa B gene generates I kappa B gamma isoforms with different inhibitory activities.
+# T1 Protein S1 62 77 62 77 p105 NF-kappa B
+# T2 Protein S1 93 108 93 108 I kappa B gamma
+$ T2 Protein S1 93 108 93 108 I kappa B gamma
+@ T27 Gene_expression S1 83 92 83 92 generates
+@ T28 Positive_regulation S1 83 92 83 92 generates
+% E1 Gene_expression:T27 Theme:T2
+% E2 Positive_regulation:T28 Theme:E1
+
+The gene encoding the 105-kDa protein (p105) precursor of the p50 subunit of transcription factor NF-kappa B also encodes a p70 I kappa B protein, I kappa B gamma, which is identical to the C-terminal 607 amino acids of p105.
+# T3 Protein S2 39 43 196 200 p105
+# T4 Protein S2 62 65 219 222 p50
+# T5 Protein S2 124 137 281 294 p70 I kappa B
+# T6 Protein S2 147 162 304 319 I kappa B gamma
+
+Here we show that alternative RNA splicing generates I kappa B gamma isoforms with properties different from those of p70.
+# T7 Protein S3 53 68 436 451 I kappa B gamma
+$ T7 Protein S3 53 68 436 451 I kappa B gamma
+@ T29 Gene_expression S3 43 52 426 435 generates
+@ T30 Positive_regulation S3 43 52 426 435 generates
+% E3 Gene_expression:T29 Theme:T7
+% E4 Positive_regulation:T30 Theme:E3
+
+One 63-kDa isoform, termed I kappa B gamma-1, which lacks 59 amino acids C-terminal to ankyrin repeat 7, has a novel 35-amino acid C terminus encoded by an alternative reading frame of the p105 gene.
+# T8 Protein S4 27 44 533 550 I kappa B gamma-1
+# T9 Protein S4 189 193 695 699 p105
+
+A 55-kDa isoform, I kappa B gamma-2, lacks the 190 C-terminal amino acids of p70I kappa B gamma.
+# T10 Protein S5 18 35 724 741 I kappa B gamma-2
+# T11 Protein S5 77 95 783 801 p70I kappa B gamma
+
+In contrast to p70I kappa B gamma, which is a cytoplasmic protein, I kappa B gamma-1 is found in both the cytoplasm and nucleus, whereas I kappa B gamma-2 is predominantly nuclear.
+# T12 Protein S6 15 33 818 836 p70I kappa B gamma
+# T13 Protein S6 67 84 870 887 I kappa B gamma-1
+# T14 Protein S6 137 154 940 957 I kappa B gamma-2
+$ T14 Protein S6 137 154 940 957 I kappa B gamma-2
+$ T13 Protein S6 67 84 870 887 I kappa B gamma-1
+@ T31 Localization S6 88 93 891 896 found
+@ T32 Entity S6 106 115 909 918 cytoplasm
+@ T33 Entity S6 120 127 923 930 nucleus
+@ T34 Entity S6 172 179 975 982 nuclear
+% E5 Localization:T31 Theme:T14 AtLoc:T34
+% E6 Localization:T31 Theme:T13 AtLoc:T32
+% E7 Localization:T31 Theme:T13 AtLoc:T33
+
+The I kappa B gamma isoforms also display differences in specificity and affinity for Rel/NF-kappa B proteins.
+# T15 Protein S7 4 19 988 1003 I kappa B gamma
+
+While p70I kappa B gamma inhibits p50-, p65-, and c-Rel-mediated transactivation and/or DNA binding, both I kappa B gamma-1 and I kappa B gamma-2 are specific for p50 and have different affinities for this subunit.
+# T16 Protein S8 6 24 1101 1119 p70I kappa B gamma
+# T17 Protein S8 34 37 1129 1132 p50
+# T18 Protein S8 40 43 1135 1138 p65
+# T19 Protein S8 50 55 1145 1150 c-Rel
+# T20 Protein S8 106 123 1201 1218 I kappa B gamma-1
+# T21 Protein S8 128 145 1223 1240 I kappa B gamma-2
+# T22 Protein S8 163 166 1258 1261 p50
+$ T20 Protein S8 106 123 1201 1218 I kappa B gamma-1
+$ T22 Protein S8 163 166 1258 1261 p50
+$ T21 Protein S8 128 145 1223 1240 I kappa B gamma-2
+@ T35 Binding S8 150 158 1245 1253 specific
+% E8 Binding:T35 Theme:T20 Theme2:T22
+% E9 Binding:T35 Theme:T21 Theme2:T22
+
+The absence in I kappa B gamma-1 and I kappa B gamma-2 of a protein kinase A site whose phosphorylation modulates p70I kappa B gamma inhibitory activity suggests that alternative RNA splicing may be used to generate I kappa B gamma isoforms that respond differently to intracellular signals.
+# T23 Protein S9 15 32 1325 1342 I kappa B gamma-1
+# T24 Protein S9 37 54 1347 1364 I kappa B gamma-2
+# T25 Protein S9 114 132 1424 1442 p70I kappa B gamma
+# T26 Protein S9 216 231 1526 1541 I kappa B gamma
+$ T26 Protein S9 216 231 1526 1541 I kappa B gamma
+@ T36 Positive_regulation S9 207 215 1517 1525 generate
+@ T37 Regulation S9 246 253 1556 1563 respond
+% E10 Positive_regulation:T36 Theme:T26
+% E11 Regulation:T37 Theme:T26
+

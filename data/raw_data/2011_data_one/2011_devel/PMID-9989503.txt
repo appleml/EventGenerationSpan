@@ -1,0 +1,44 @@
+Functional association of Nmi with Stat5 and Stat1 in IL-2- and IFNgamma-mediated signaling.
+# T1 Protein S1 26 29 26 29 Nmi
+# T2 Protein S1 45 50 45 50 Stat1
+# T3 Protein S1 54 58 54 58 IL-2
+# T4 Protein S1 64 72 64 72 IFNgamma
+
+Using the coiled-coil region of Stat5b as the bait in a yeast two-hybrid screen, we identified the association of Nmi, a protein of unknown function previously reported as an N-Myc interactor.
+# T5 Protein S2 32 38 126 132 Stat5b
+# T6 Protein S2 114 117 208 211 Nmi
+# T7 Protein S2 175 191 269 285 N-Myc interactor
+$ T5 Protein S2 32 38 126 132 Stat5b
+$ T6 Protein S2 114 117 208 211 Nmi
+@ T19 Binding S2 99 110 193 204 association
+% E1 Binding:T19 Theme:T5 Theme2:T6
+
+We further show that Nmi interacts with all STATs except Stat2.
+# T8 Protein S3 21 24 308 311 Nmi
+# T9 Protein S3 57 62 344 349 Stat2
+$ T8 Protein S3 21 24 308 311 Nmi
+$ T9 Protein S3 57 62 344 349 Stat2
+@ T20 Binding S3 25 34 312 321 interacts
+% E2 Binding:T20 Theme:T8 Theme2:T9
+
+We evaluated two cytokine systems, IL-2 and IFNgamma, and demonstrate that Nmi augments STAT-mediated transcription in response to these cytokines.
+# T10 Protein S4 35 39 386 390 IL-2
+# T11 Protein S4 44 52 395 403 IFNgamma
+# T12 Protein S4 75 78 426 429 Nmi
+
+Interestingly, Nmi lacks an intrinsic transcriptional activation domain; instead, Nmi enhances the association of CBP/p300 coactivator proteins with Stat1 and Stat5, and together with CBP/p300 can augment IL-2- and IFNgamma-dependent transcription.
+# T13 Protein S5 15 18 514 517 Nmi
+# T14 Protein S5 82 85 581 584 Nmi
+# T15 Protein S5 149 154 648 653 Stat1
+# T16 Protein S5 205 209 704 708 IL-2
+# T17 Protein S5 215 223 714 722 IFNgamma
+$ T14 Protein S5 82 85 581 584 Nmi
+$ T15 Protein S5 149 154 648 653 Stat1
+@ T21 Positive_regulation S5 86 94 585 593 enhances
+@ T22 Binding S5 99 110 598 609 association
+% E3 Positive_regulation:T21 Theme:E4 Cause:T14
+% E4 Binding:T22 Theme:T15
+
+Therefore, our data not only reveal that Nmi can potentiate STAT-dependent transcription, but also suggest that it can augment coactivator protein recruitment to at least some members of a group of sequence-specific transcription factors.
+# T18 Protein S6 41 44 789 792 Nmi
+

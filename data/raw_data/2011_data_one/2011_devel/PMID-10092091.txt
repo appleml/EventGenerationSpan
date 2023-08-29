@@ -1,0 +1,54 @@
+NF-kappaB regulates Fas/APO-1/CD95- and TCR- mediated apoptosis of T lymphocytes.
+# T1 Protein S1 20 23 20 23 Fas
+# T2 Protein S1 24 29 24 29 APO-1
+# T3 Protein S1 30 34 30 34 CD95
+
+The maintenance of lymphocyte homeostasis by apoptosis is a critical regulatory mechanism in the normal immune system.
+
+The transcription factor NF-kappaB has been shown to play a role in protecting cells against death mediated by TNF We show here that NF-kappaB also has a role in regulating Fas/APO-1/CD95-mediated death, a major pathway of peripheral T cell death.
+# T4 Protein S3 173 176 375 378 Fas
+# T5 Protein S3 177 182 379 384 APO-1
+# T6 Protein S3 183 187 385 389 CD95
+
+Transfection of Jurkat cells with the NF-kappaB subunits p50 and p65 confers resistance against Fas-mediated apoptosis.
+# T7 Protein S4 57 60 507 510 p50
+# T8 Protein S4 65 68 515 518 p65
+# T9 Protein S4 96 99 546 549 Fas
+$ T8 Protein S4 65 68 515 518 p65
+$ T7 Protein S4 57 60 507 510 p50
+@ T17 Gene_expression S4 0 12 450 462 Transfection
+@ T18 Positive_regulation S4 0 12 450 462 Transfection
+% E1 Gene_expression:T17 Theme:T8
+% E4 Gene_expression:T17 Theme:T7
+% E2 Positive_regulation:T18 Theme:E1
+% E3 Positive_regulation:T18 Theme:E4
+
+Reciprocally, inhibition of NF-kappaB activation by a soluble peptide inhibitor or a dominant form of the NF-kappaB inhibitor, IkappaB, makes the cells more susceptible to Fas-mediated apoptosis.
+# T10 Protein S5 172 175 742 745 Fas
+
+Furthermore, inhibition of NF-kappaB activation by a soluble peptide inhibitor rendered a T cell hybridoma more susceptible to TCR-mediated apoptosis.
+
+Correspondingly, transfection of p50 and p65 provided considerable protection from TCR-mediated apoptosis.
+# T11 Protein S7 33 36 950 953 p50
+# T12 Protein S7 41 44 958 961 p65
+$ T12 Protein S7 41 44 958 961 p65
+$ T11 Protein S7 33 36 950 953 p50
+@ T19 Positive_regulation S7 17 29 934 946 transfection
+@ T20 Gene_expression S7 17 29 934 946 transfection
+% E5 Positive_regulation:T19 Theme:E6
+% E7 Positive_regulation:T19 Theme:E8
+% E6 Gene_expression:T20 Theme:T12
+% E8 Gene_expression:T20 Theme:T11
+
+These observations were corroborated by studies on Fas-mediated death in primary T cells.
+# T13 Protein S8 51 54 1075 1078 Fas
+
+Concanavalin A-activated cycling T cell blasts from mice that are transgenic for the dominant IkappaB molecule have increased sensitivity to Fas-mediated apoptosis, associated with a down-regulation of NF-kappaB complexes in the nucleus.
+# T14 Protein S9 141 144 1255 1258 Fas
+
+In addition, blocking TNF, itself a positive regulator of NF-kappaB, with neutralizing antibodies renders the cells more susceptible to anti-Fas-mediated apoptosis.
+# T15 Protein S10 141 144 1493 1496 Fas
+
+In summary, our results provide compelling evidence that NF-kappaB protects against Fas-mediated death and is likely to be an important regulator of T cell homeostasis and tolerance.
+# T16 Protein S11 84 87 1601 1604 Fas
+

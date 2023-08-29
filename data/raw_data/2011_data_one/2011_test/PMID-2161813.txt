@@ -1,0 +1,16 @@
+Heterogeneity of antigen molecules recognized by anti-tax1 monoclonal antibody Lt-4 in cell lines bearing human T cell leukemia virus type I and related retroviruses.
+# T1 Protein S1 54 58 54 58 tax1
+
+Using a monoclonal antibody, Lt-4, directed against human T cell leukemia virus type I (HTLV-I) trans-activator (tax1) antigen, we examined the expression of tax1 and related antigens in a variety of T cell lines bearing HTLV-I and related retroviruses, simian T cell leukemia virus type I (STLV-I) and HTLV-II, by immunofluorescence and immunoblot assays.
+# T2 Protein S2 113 117 281 285 tax1
+# T3 Protein S2 158 162 326 330 tax1
+
+Lt-4 reacted with all HTLV-I-bearing cell lines tested and five out of eight simian cell lines bearing STLV-I, but not with an HTLV-II-bearing cell line.
+
+Lt-4 detected 40 kd tax1 antigen molecules in most HTLV-I-bearing cell lines except one cell line that expressed 39 kd tax1 antigen.
+# T4 Protein S4 20 24 699 703 tax1
+# T5 Protein S4 119 123 798 802 tax1
+
+In the STLV-I-bearing T cell lines, tax1-related antigen molecules detected by Lt-4 were heterogeneous, having molecular weights in the range of 36-41 kd.
+# T6 Protein S5 36 40 848 852 tax1
+

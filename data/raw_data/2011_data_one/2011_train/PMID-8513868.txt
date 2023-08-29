@@ -1,0 +1,97 @@
+Dependence for the proliferative response to erythropoietin on an established erythroid differentiation program in a human hematopoietic cell line, UT-7.
+# T1 Protein S1 45 59 45 59 erythropoietin
+
+Erythroid differentiation involves the activation of a number of erythroid-specific genes, most of which, including the globin genes and the erythropoietin receptor (Epo-R) gene, are, at least in part, regulated by the transcription factor GATA-1.
+# T2 Protein S2 141 164 296 319 erythropoietin receptor
+# T3 Protein S2 166 171 321 326 Epo-R
+# T4 Protein S2 240 246 395 401 GATA-1
+$ T3 Protein S2 166 171 321 326 Epo-R
+$ T4 Protein S2 240 246 395 401 GATA-1
+@ T28 Regulation S2 202 211 357 366 regulated
+% E1 Regulation:T28 Theme:T3 Cause:T4
+
+In order to understand the relationship, if any, between expression of GATA-1, response to Epo and erythroid differentiation, we analyzed the expression of GATA-1, Epo-R and globin genes in an Epo-dependent human cell line, UT-7 Epo.
+# T5 Protein S3 71 77 474 480 GATA-1
+# T6 Protein S3 91 94 494 497 Epo
+# T7 Protein S3 156 162 559 565 GATA-1
+# T8 Protein S3 164 169 567 572 Epo-R
+# T9 Protein S3 193 196 596 599 Epo
+$ T5 Protein S3 71 77 474 480 GATA-1
+$ T8 Protein S3 164 169 567 572 Epo-R
+$ T7 Protein S3 156 162 559 565 GATA-1
+@ T29 Gene_expression S3 57 67 460 470 expression
+@ T30 Gene_expression S3 142 152 545 555 expression
+% E2 Gene_expression:T29 Theme:T5
+% E3 Gene_expression:T30 Theme:T8
+% E4 Gene_expression:T30 Theme:T7
+
+The results were compared to those obtained with the parental granulocyte-macrophage colony-stimulating factor (GM-CSF)-dependent cell line, UT-7, which has a predominantly megakaryoblastic phenotype and is unable to proliferate continuously in the presence of Epo.
+# T10 Protein S4 62 110 699 747 granulocyte-macrophage colony-stimulating factor
+# T11 Protein S4 112 118 749 755 GM-CSF
+# T12 Protein S4 261 264 898 901 Epo
+
+UT-7 Epo and UT-7 expressed similar levels of GATA-1 mRNA and binding activity.
+# T13 Protein S5 46 52 949 955 GATA-1
+$ T13 Protein S5 46 52 949 955 GATA-1
+@ T31 Transcription S5 18 27 921 930 expressed
+@ T32 Binding S5 62 78 965 981 binding activity
+% E5 Transcription:T31 Theme:T13
+% E6 Binding:T32 Theme:T13
+
+The two lines also expressed comparable levels of Epo-R mRNA while the number of Epo-binding sites on UT-7 Epo cells was one-sixth the number of UT-7 cells (2400 +/- 3 vs. 13,800 +/- 300).
+# T14 Protein S6 50 55 1033 1038 Epo-R
+# T15 Protein S6 81 84 1064 1067 Epo
+$ T14 Protein S6 50 55 1033 1038 Epo-R
+@ T33 Transcription S6 19 28 1002 1011 expressed
+% E7 Transcription:T33 Theme:T14
+
+This difference in the number of binding sites could be due to differences in cell surface (UT-7 cells are 20% smaller than the parental UT-7 cells) or in receptor turnover.
+
+By Northern analysis, UT-7 cells expressed detectable levels of beta- and gamma-globin but not alpha-globin.
+# T16 Protein S8 95 107 1441 1453 alpha-globin
+@ T34 Gene_expression S8 33 42 1379 1388 expressed
+% E8 Gene_expression:T34 Theme:T10
+
+In comparison, UT-7 Epo cells expressed alpha-globin and higher levels of gamma-globin (5-fold) and beta-globin (from barely to clearly detectable).
+# T17 Protein S9 40 52 1495 1507 alpha-globin
+# T18 Protein S9 100 111 1555 1566 beta-globin
+$ T17 Protein S9 40 52 1495 1507 alpha-globin
+$ T18 Protein S9 100 111 1555 1566 beta-globin
+@ T35 Gene_expression S9 30 39 1485 1494 expressed
+% E9 Gene_expression:T35 Theme:T17
+% E10 Gene_expression:T35 Theme:T18
+
+Globin chains (alpha, beta and gamma) were clearly detectable by affinity chromatography in UT-7 Epo but not in UT-7 cells.
+# T19 Protein S10 0 20 1604 1624 Globin chains (alpha
+# T20 Protein S10 22 26 1626 1630 beta
+# T21 Protein S10 31 36 1635 1640 gamma
+$ T19 Protein S10 0 20 1604 1624 Globin chains (alpha
+$ T20 Protein S10 22 26 1626 1630 beta
+$ T21 Protein S10 31 36 1635 1640 gamma
+@ T36 Gene_expression S10 51 61 1655 1665 detectable
+% E11 Gene_expression:T36 Theme:T20
+% E12 Gene_expression:T36 Theme:T21
+% E13 Gene_expression:T36 Theme:T19
+
+The frequency of the cells which expressed beta- and gamma- globin genes in the two cell populations was measured by immunofluorescence with beta- and gamma-specific antibodies.
+
+The number of gamma-positive cells and their fluorescence intensity were higher in UT-7 Epo than in UT-7 cells (0 to 17% barely positive cells and 23 to 40% clearly positive cells, respectively), indicating that the increase in globin mRNA observed in UT-7 Epo is due to both an increase of gene expression per cell and an increase in numbers of cells containing gamma-globin.
+
+The levels of GATA-1, Epo-R and globin mRNA expressed were not affected by a 24-hour incubation of either cell line with Epo, GM-CSF or interleukin-3 (IL-3).
+# T22 Protein S13 14 20 2297 2303 GATA-1
+# T23 Protein S13 22 27 2305 2310 Epo-R
+# T24 Protein S13 121 124 2404 2407 Epo
+# T25 Protein S13 126 132 2409 2415 GM-CSF
+# T26 Protein S13 136 149 2419 2432 interleukin-3
+# T27 Protein S13 151 155 2434 2438 IL-3
+$ T23 Protein S13 22 27 2305 2310 Epo-R
+$ T22 Protein S13 14 20 2297 2303 GATA-1
+@ T37 Transcription S13 44 53 2327 2336 expressed
+@ T38 Regulation S13 63 71 2346 2354 affected
+% E14 Transcription:T37 Theme:T23
+% E15 Transcription:T37 Theme:T22
+% E16 Regulation:T38 Theme:E14
+% E17 Regulation:T38 Theme:E15
+
+(ABSTRACT TRUNCATED AT 400 WORDS)
+

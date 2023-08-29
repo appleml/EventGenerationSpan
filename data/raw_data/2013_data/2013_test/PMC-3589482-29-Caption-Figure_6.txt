@@ -1,0 +1,35 @@
+C/EBP-beta is essential for constitutive and LPS-induced SerpinB2 mRNA expression.
+# T1 Protein S1 0 10 0 10 C/EBP-beta
+# T2 Protein S1 57 65 57 65 SerpinB2
+
+(A) Endogenous SerpinB2 mRNA expression is abrogated in Cebpb-/- MEFs compared to Cebpb+/+ MEFs in the absence and presence of LPS.
+# T3 Protein S2 15 23 98 106 SerpinB2
+# T4 Protein S2 56 61 139 144 Cebpb
+# T5 Protein S2 82 87 165 170 Cebpb
+
+qPCR analysis of murine SerpinB2 mRNA expression in untreated Cebpb+/+ and Cebpb-/- MEFs, and after simulation with LPS (100 ng/ml) for the indicated times.
+# T6 Protein S3 24 32 239 247 SerpinB2
+# T7 Protein S3 62 67 277 282 Cebpb
+# T8 Protein S3 75 80 290 295 Cebpb
+
+(B) Endogenous SerpinB2 expression is abrogated in C/EBP-beta-deficient inflammatory macrophages.
+# T9 Protein S4 15 23 387 395 SerpinB2
+# T10 Protein S4 51 61 423 433 C/EBP-beta
+
+Thioglycollate-elicited peritoneal macrophages (TG macs) were infected with human and murine specific lentiviral shRNAs.
+
+Human CEBPB shRNA serves as the non-silencing control since it does not target the murine Cebpb sequence [38].
+# T11 Protein S6 90 95 681 686 Cebpb
+
+Lentiviral transduced macrophages were stimulated with LPS (100 ng/ml) for 4 hrs.
+
+Left: Western blot analysis shows effective knockdown of endogenous C/EBP-beta following infection with murine Cebpb shRNA and not human CEBPB shRNA.
+# T12 Protein S8 68 78 852 862 C/EBP-beta
+
+Right: qPCR analysis of murine SerpinB2 mRNA expression in the lentiviral transduced peritoneal macrophages.
+# T13 Protein S9 31 39 965 973 SerpinB2
+
+The results represent the mean and SEM of two independent experiments performed in duplicate or triplicate.
+
+(*, p<0.05, two-way ANOVA).
+

@@ -1,0 +1,117 @@
+Transcriptional control of the IL-5 gene by human helper T cells: IL-5 synthesis is regulated independently from IL-2 or IL-4 synthesis.
+# T1 Protein S1 31 35 31 35 IL-5
+# T2 Protein S1 66 70 66 70 IL-5
+# T3 Protein S1 113 117 113 117 IL-2
+# T4 Protein S1 121 125 121 125 IL-4
+$ T1 Protein S1 31 35 31 35 IL-5
+$ T2 Protein S1 66 70 66 70 IL-5
+$ T3 Protein S1 113 117 113 117 IL-2
+$ T4 Protein S1 121 125 121 125 IL-4
+@ T25 Regulation S1 0 23 0 23 Transcriptional control
+@ T26 Gene_expression S1 71 80 71 80 synthesis
+@ T27 Regulation S1 84 93 84 93 regulated
+@ T28 Gene_expression S1 126 135 126 135 synthesis
+% E1 Regulation:T25 Theme:T1
+% E2 Gene_expression:T26 Theme:T2
+% E3 Regulation:T27 Theme:E2
+% E4 Gene_expression:T28 Theme:T3
+% E5 Gene_expression:T28 Theme:T4
+
+BACKGROUND: IL-5 is fundamentally involved in eosinophilic inflammation.
+# T5 Protein S2 12 16 150 154 IL-5
+
+Control of IL-5 production may be effective for the management of allergic diseases.
+# T6 Protein S3 11 15 222 226 IL-5
+$ T6 Protein S3 11 15 222 226 IL-5
+@ T29 Regulation S3 0 7 211 218 Control
+@ T30 Gene_expression S3 16 26 227 237 production
+% E6 Regulation:T29 Theme:E7
+% E7 Gene_expression:T30 Theme:T6
+
+OBJECTIVE: We aimed to find the transcriptional mechanisms that regulate the IL-5 gene to selectively control IL-5 synthesis.
+# T7 Protein S4 77 81 373 377 IL-5
+# T8 Protein S4 110 114 406 410 IL-5
+$ T7 Protein S4 77 81 373 377 IL-5
+$ T8 Protein S4 110 114 406 410 IL-5
+@ T31 Transcription S4 32 47 328 343 transcriptional
+@ T32 Regulation S4 64 72 360 368 regulate
+@ T33 Regulation S4 102 109 398 405 control
+@ T34 Gene_expression S4 115 124 411 420 synthesis
+% E8 Transcription:T31 Theme:T7
+% E9 Regulation:T32 Theme:E8
+% E10 Regulation:T33 Theme:E11 Cause:E9
+% E11 Gene_expression:T34 Theme:T8
+
+METHODS: Allergen-specific T-cell clones and T-cell hybridomas were established from the peripheral blood lymphocytes of patients with asthma, and the transcriptional regulation of the IL-5 gene was investigated with transient transfection and electrophoretic mobility shift analysis.
+# T9 Protein S5 185 189 607 611 IL-5
+$ T9 Protein S5 185 189 607 611 IL-5
+@ T35 Transcription S5 151 177 573 599 transcriptional regulation
+% E12 Transcription:T35 Theme:T9
+
+RESULTS: A human IL-5 promoter/enhancer-luciferase gene construct, pIL-5(-511)Luc, was transcribed on activation of IL-5-producing T-cell clones, but not IL-5-nonproducing clones.
+# T10 Protein S6 17 21 724 728 IL-5
+# T11 Protein S6 40 50 747 757 luciferase
+# T12 Protein S6 116 120 823 827 IL-5
+# T13 Protein S6 154 158 861 865 IL-5
+$ T12 Protein S6 116 120 823 827 IL-5
+$ T13 Protein S6 154 158 861 865 IL-5
+@ T36 Gene_expression S6 121 130 828 837 producing
+@ T37 Gene_expression S6 159 171 866 878 nonproducing
+% E13 Gene_expression:T36 Theme:T12
+% E14 Gene_expression:T37 Theme:T13
+
+pIL-5(-511)Luc was transcribed by T-cell hybridomas derived from fusion between IL-5-producing T-cell clones and an IL-5 gene-nonexpressing T-cell line, but not by hybridomas derived from IL-5-nonproducing T-cell clones.
+# T14 Protein S7 80 84 967 971 IL-5
+# T15 Protein S7 116 120 1003 1007 IL-5
+# T16 Protein S7 188 192 1075 1079 IL-5
+$ T14 Protein S7 80 84 967 971 IL-5
+$ T15 Protein S7 116 120 1003 1007 IL-5
+$ T16 Protein S7 188 192 1075 1079 IL-5
+@ T38 Gene_expression S7 85 94 972 981 producing
+@ T39 Gene_expression S7 126 139 1013 1026 nonexpressing
+@ T40 Gene_expression S7 193 205 1080 1092 nonproducing
+% E15 Gene_expression:T38 Theme:T14
+% E16 Gene_expression:T39 Theme:T15
+% E17 Gene_expression:T40 Theme:T16
+
+IL-5 synthesis was not only induced by T-cell receptor stimulation but also by IL-2 receptor stimulation.
+# T17 Protein S8 0 4 1108 1112 IL-5
+# T18 Protein S8 79 83 1187 1191 IL-2
+$ T17 Protein S8 0 4 1108 1112 IL-5
+@ T41 Gene_expression S8 5 14 1113 1122 synthesis
+@ T42 Positive_regulation S8 28 35 1136 1143 induced
+% E18 Gene_expression:T41 Theme:T17
+% E19 Positive_regulation:T42 Theme:E18
+
+Binding of NF-AT, NF-kappaB, and AP-1 was induced by T-cell receptor (TcR) stimulation, although there was no significant upregulation of binding by IL-2 stimulation.
+# T19 Protein S9 149 153 1363 1367 IL-2
+
+CONCLUSION: IL-5 synthesis by human helper T cells is regulated at the transcriptional level.
+# T20 Protein S10 12 16 1393 1397 IL-5
+$ T20 Protein S10 12 16 1393 1397 IL-5
+@ T43 Gene_expression S10 17 26 1398 1407 synthesis
+@ T44 Regulation S10 54 63 1435 1444 regulated
+% E20 Gene_expression:T43 Theme:T20
+% E21 Regulation:T44 Theme:E20
+
+A unique transcriptional mechanism distinct from those regulating the IL-2 or IL-4 genes seems to control the IL-5 gene.
+# T21 Protein S11 70 74 1545 1549 IL-2
+# T22 Protein S11 78 82 1553 1557 IL-4
+# T23 Protein S11 110 114 1585 1589 IL-5
+$ T21 Protein S11 70 74 1545 1549 IL-2
+$ T22 Protein S11 78 82 1553 1557 IL-4
+$ T23 Protein S11 110 114 1585 1589 IL-5
+@ T45 Regulation S11 55 65 1530 1540 regulating
+@ T46 Regulation S11 98 105 1573 1580 control
+% E22 Regulation:T45 Theme:T22
+% E23 Regulation:T45 Theme:T21
+% E24 Regulation:T46 Theme:T23
+
+Selective regulation of IL-5 gene transcription may be useful for treating eosinophlic inflammation.
+# T24 Protein S12 24 28 1620 1624 IL-5
+$ T24 Protein S12 24 28 1620 1624 IL-5
+@ T47 Regulation S12 10 20 1606 1616 regulation
+@ T48 Transcription S12 34 47 1630 1643 transcription
+% E25 Regulation:T47 Theme:E26
+% E26 Transcription:T48 Theme:T24
+

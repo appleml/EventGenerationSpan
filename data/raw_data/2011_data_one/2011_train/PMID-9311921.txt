@@ -1,0 +1,30 @@
+NF-AT activation induced by a CAML-interacting member of the tumor necrosis factor receptor superfamily.
+# T1 Protein S1 30 34 30 34 CAML
+
+Activation of the nuclear factor of activated T cells transcription factor (NF-AT) is a key event underlying lymphocyte action.
+
+The CAML (calcium-modulator and cyclophilin ligand) protein is a coinducer of NF-AT activation when overexpressed in Jurkat T cells.
+# T2 Protein S3 4 8 238 242 CAML
+# T3 Protein S3 10 50 244 284 calcium-modulator and cyclophilin ligand
+$ T2 Protein S3 4 8 238 242 CAML
+@ T11 Gene_expression S3 100 113 334 347 overexpressed
+@ T12 Positive_regulation S3 100 113 334 347 overexpressed
+% E1 Gene_expression:T11 Theme:T2
+% E2 Positive_regulation:T12 Theme:E1
+
+A member of the tumor necrosis factor receptor superfamily was isolated by virtue of its affinity for CAML.
+# T4 Protein S4 102 106 469 473 CAML
+$ T4 Protein S4 102 106 469 473 CAML
+@ T13 Binding S4 89 97 456 464 affinity
+% E3 Binding:T13 Theme:T4
+
+Cross-linking of this lymphocyte-specific protein, designated TACI (transmembrane activator and CAML-interactor), on the surface of transfected Jurkat cells with TACI-specific antibodies led to activation of the transcription factors NF-AT, AP-1, and NFkappaB.
+# T5 Protein S5 62 66 537 541 TACI
+# T6 Protein S5 68 111 543 586 transmembrane activator and CAML-interactor
+# T7 Protein S5 162 166 637 641 TACI
+
+TACI-induced activation of NF-AT was specifically blocked by a dominant-negative CAML mutant, thus implicating CAML as a signaling intermediate.
+# T8 Protein S6 0 4 736 740 TACI
+# T9 Protein S6 81 85 817 821 CAML
+# T10 Protein S6 111 115 847 851 CAML
+

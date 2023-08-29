@@ -1,0 +1,49 @@
+The regulation of the human tumor necrosis factor alpha promoter region in macrophage, T cell, and B cell lines.
+# T1 Protein S1 28 55 28 55 tumor necrosis factor alpha
+$ T1 Protein S1 28 55 28 55 tumor necrosis factor alpha
+@ T5 Regulation S1 4 14 4 14 regulation
+@ T6 Entity S1 56 71 56 71 promoter region
+% E1 Regulation:T5 Theme:T1 Site:T6
+
+The 1311-base pair human tumor necrosis factor (TNF) alpha promoter region was fused to the luciferase (Luc) reporter gene and studied in a transient transfection system in three TNF producing cell lines, the U937 macrophage cell line, the MLA 144 T cell line, and the 729-6 B cell line.
+# T2 Protein S2 25 58 139 172 tumor necrosis factor (TNF) alpha
+@ T7 Entity S2 59 74 173 188 promoter region
+
+This full length promoter construct can be induced by phorbol 13-myristate acetate (PMA) in each of these cell types.
+@ T8 Positive_regulation S3 43 50 445 452 induced
+% E2 Positive_regulation:T8 Theme:T2 Site:T7
+
+Analysis of a series of 5'-truncations showed several peaks of basal and PMA induced activity suggesting the presence of several positive and negative regulatory elements.
+
+A PMA responsive element was localized to a region between -95 and -36 bp relative to the transcription start site.
+
+Within this region, single AP-2- and AP-1- like consensus sequences were noted.
+
+These AP-2 and AP-1 sites were each modified with a double point mutation.
+
+A modest (20-50%) reduction in TNF promoter activity was observed with the AP-2 site mutation.
+# T3 Protein S8 31 34 994 997 TNF
+$ T3 Protein S8 31 34 994 997 TNF
+@ T9 Negative_regulation S8 18 27 981 990 reduction
+@ T10 Entity S8 35 43 998 1006 promoter
+% E3 Negative_regulation:T9 Theme:T3 Site:T10
+
+However, mutation of the AP-1 site markedly diminished both the basal and PMA-activated promoter activity.
+@ T11 Negative_regulation S9 44 54 1102 1112 diminished
+@ T12 Positive_regulation S9 78 87 1136 1145 activated
+% E4 Negative_regulation:T11 Theme:E6
+% E5 Negative_regulation:T11 Theme:T3 Site:T10
+% E6 Positive_regulation:T12 Theme:T3 Site:T10
+
+Also co-transfections of the wild-type promoter construct with an AP-1/c-jun expression vector resulted in augmented basal and PMA-induced promoter activity.
+# T4 Protein S10 71 76 1236 1241 c-jun
+$ T4 Protein S10 71 76 1236 1241 c-jun
+@ T13 Gene_expression S10 5 21 1170 1186 co-transfections
+@ T14 Positive_regulation S10 5 21 1170 1186 co-transfections
+@ T15 Positive_regulation S10 107 116 1272 1281 augmented
+@ T16 Positive_regulation S10 131 138 1296 1303 induced
+% E7 Gene_expression:T13 Theme:T4
+% E8 Positive_regulation:T14 Theme:E7
+% E9 Positive_regulation:T15 Theme:T3 Cause:E8 Site:T10
+% E10 Positive_regulation:T16 Theme:T3 Site:T10
+

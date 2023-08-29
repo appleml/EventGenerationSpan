@@ -1,0 +1,78 @@
+Cooperation of binding sites for STAT6 and NF kappa B/rel in the IL-4-induced up-regulation of the human IgE germline promoter.
+# T1 Protein S1 33 38 33 38 STAT6
+# T2 Protein S1 65 69 65 69 IL-4
+# T3 Protein S1 105 108 105 108 IgE
+$ T1 Protein S1 33 38 33 38 STAT6
+$ T3 Protein S1 105 108 105 108 IgE
+$ T2 Protein S1 65 69 65 69 IL-4
+@ T25 Positive_regulation S1 0 11 0 11 Cooperation
+@ T26 Entity S1 15 28 15 28 binding sites
+@ T27 Positive_regulation S1 78 91 78 91 up-regulation
+@ T28 Entity S1 109 126 109 126 germline promoter
+% E1 Positive_regulation:T25 Theme:E2 Cause:T1 CSite:T26
+% E2 Positive_regulation:T27 Theme:T3 Cause:T2 Site:T28
+
+Ig heavy chain class switching is directed by cytokines inducing transcription from unrearranged CH genes.
+
+Subsequently, such primed cells can undergo switch recombination to express the selected new isotype.
+
+In the case of IgE class switching, IL-4 activates the IgE germline promoter by inducing the interaction of the transcription factor STAT6 (IL-4STAT) with a responsive DNA element in the proximal region of the promoter.
+# T4 Protein S4 36 40 374 378 IL-4
+# T5 Protein S4 133 138 471 476 STAT6
+# T6 Protein S4 140 148 478 486 IL-4STAT
+$ T4 Protein S4 36 40 374 378 IL-4
+$ T5 Protein S4 133 138 471 476 STAT6
+@ T29 Positive_regulation S4 80 88 418 426 inducing
+@ T30 Binding S4 93 104 431 442 interaction
+% E3 Positive_regulation:T29 Theme:E4 Cause:T4
+% E4 Binding:T30 Theme:T5
+
+This study describes the characterization of two additional cis-acting elements that interact with members of the NF kappa B/rel transcription factor family in an IL-4-independent fashion.
+# T7 Protein S5 163 167 721 725 IL-4
+
+Electrophoretic mobility shift assays show that the nucleoprotein complex formed on the upstream site (NF kappa B1) contains the classical p50/p65 heterodimer.
+# T8 Protein S6 103 114 850 861 NF kappa B1
+# T9 Protein S6 139 142 886 889 p50
+# T10 Protein S6 143 146 890 893 p65
+$ T9 Protein S6 139 142 886 889 p50
+$ T10 Protein S6 143 146 890 893 p65
+@ T31 Binding S6 66 80 813 827 complex formed
+% E5 Binding:T31 Theme:T9 Theme2:T10
+
+The complex on the proximal site (NF kappa B2) appears to be composed of p50 and relB.
+# T11 Protein S7 34 45 941 952 NF kappa B2
+# T12 Protein S7 73 76 980 983 p50
+# T13 Protein S7 81 85 988 992 relB
+
+IgE germline promoter reporter gene constructs carrying point mutations in the NF kappa B2 site were largely unresponsive to IL-4 stimulation in transient transfection experiments, while plasmids with similar mutations in the NF kappa B1 site responded to cytokine stimulation better than the wild-type promoter.
+# T14 Protein S8 79 90 1073 1084 NF kappa B2
+# T15 Protein S8 125 129 1119 1123 IL-4
+# T16 Protein S8 226 237 1220 1231 NF kappa B1
+
+The NF kappa B2 effect was dependent on the presence of the STAT6 binding site, demonstrating that the NF kappa B2 motif is necessary but not sufficient for mediating cytokine up-regulation.
+# T17 Protein S9 4 15 1311 1322 NF kappa B2
+# T18 Protein S9 60 65 1367 1372 STAT6
+# T19 Protein S9 103 114 1410 1421 NF kappa B2
+$ T17 Protein S9 4 15 1311 1322 NF kappa B2
+@ T32 Regulation S9 27 36 1334 1343 dependent
+% E6 Regulation:T32 Theme:T17
+
+In addition, the combination of a NF kappa B/rel binding site and the STAT6 response element conferred IL-4 inducibility to a heterologous minimal promoter, while the individual sites had no effect.
+# T20 Protein S10 70 75 1568 1573 STAT6
+# T21 Protein S10 103 107 1601 1605 IL-4
+$ T21 Protein S10 103 107 1601 1605 IL-4
+@ T33 Positive_regulation S10 93 102 1591 1600 conferred
+@ T34 Positive_regulation S10 108 120 1606 1618 inducibility
+@ T35 Positive_regulation S10 191 197 1689 1695 effect
+% E7 Positive_regulation:T33 Theme:E8
+% E8 Positive_regulation:T34 Theme:T21
+% E9 Positive_regulation:T35 Theme:E8
+
+The available data suggest that the NF kappa B2 nucleoprotein complex may cooperate with DNA-bound STAT6 to achieve IL-4-dependent activation of the human IgE germline gene.
+# T22 Protein S11 36 47 1733 1744 NF kappa B2
+# T23 Protein S11 99 104 1796 1801 STAT6
+# T24 Protein S11 116 120 1813 1817 IL-4
+$ T23 Protein S11 99 104 1796 1801 STAT6
+@ T36 Binding S11 93 98 1790 1795 bound
+% E10 Binding:T36 Theme:T23
+

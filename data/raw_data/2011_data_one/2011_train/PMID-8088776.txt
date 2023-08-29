@@ -1,0 +1,36 @@
+Structure and expression of the human GATA3 gene.
+# T1 Protein S1 38 43 38 43 GATA3
+$ T1 Protein S1 38 43 38 43 GATA3
+@ T10 Gene_expression S1 14 24 14 24 expression
+% E1 Gene_expression:T10 Theme:T1
+
+GATA3, a member of the GATA family that is abundantly expressed in the T-lymphocyte lineage, is thought to participate in T-cell receptor gene activation through binding to enhancers.
+# T2 Protein S2 0 5 51 56 GATA3
+$ T2 Protein S2 0 5 51 56 GATA3
+@ T11 Gene_expression S2 54 63 105 114 expressed
+@ T12 Binding S2 162 169 213 220 binding
+% E2 Gene_expression:T11 Theme:T2
+% E3 Binding:T12 Theme:T2
+
+To understand GATA3 gene regulation, we cloned the human gene and the 5' end of the mouse GATA3 gene.
+# T3 Protein S3 14 19 249 254 GATA3
+# T4 Protein S3 90 95 325 330 GATA3
+$ T3 Protein S3 14 19 249 254 GATA3
+@ T13 Regulation S3 25 35 260 270 regulation
+% E4 Regulation:T13 Theme:T3
+
+We show that the human GATA3 gene contains six exons distributed over 17 kb of DNA.
+# T5 Protein S4 23 28 360 365 GATA3
+
+The two human GATA3 zinc fingers are encoded by two separate exons highly conserved with those of GATA1, but no other structural homologies between these two genes can be found.
+# T6 Protein S5 14 19 435 440 GATA3
+# T7 Protein S5 98 103 519 524 GATA1
+
+The human and mouse GATA3 transcription units start at a major initiation site.
+# T8 Protein S6 20 25 619 624 GATA3
+
+The promoter sequence analysis of these two genes revealed that they are embedded within a CpG island and share structural features often found in the promoters of housekeeping genes.
+
+Finally, we show that a DNA fragment containing the human GATA3 transcription unit, 3 kb upstream from the initiation site and 4 kb downstream from the polyadenylation site, displays T-cell specificity.
+# T9 Protein S8 58 63 921 926 GATA3
+

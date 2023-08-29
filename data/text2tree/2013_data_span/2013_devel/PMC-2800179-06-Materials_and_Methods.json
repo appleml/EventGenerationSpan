@@ -1,0 +1,5 @@
+{"text": "Cell Cycle Analysis", "event": "<extra_id_0> <extra_id_1>"}
+{"text": "THP-1 cells in exponential growth phase were exposed to complete medium in the presence or absence of carrageenans for 24 h before being stained with propidium iodide using the DNA-Prep Coulter kit according to the manufacturer 's instruction ( Beckman-Coulter , Villepinte , France ) .", "event": "<extra_id_0> <extra_id_1>"}
+{"text": "Cell DNA content was then analyzed by flow cytometry using an EPICS XL2 ( Beckman-Coulter ) .", "event": "<extra_id_0> <extra_id_1>"}
+{"text": "Raw data for the distribution of DNA content of 30 , 000 cells retrieved from the cytometer were expressed as the percentage of G0 / G1 through G2 / M populations .", "event": "<extra_id_0> <extra_id_1>"}
+{"text": "Multicycle AV software ( Phoenix Flow Systems , San Diego , CA ) was used to generate DNA content frequency histograms and facilitate data analysis .", "event": "<extra_id_0> <extra_id_1>"}

@@ -1,0 +1,26 @@
+Airway epithelial cells do not significantly upregulate caspase-1 activity in response to inflammasome stimulation
+
+To examine if inflammasome activation occurs in these airway cells, caspase-1 activity was quantified by flow cytometry.
+
+There was no significant increase upon stimulation with live PAO1 or LPS+ATP at the times examined (Fig. 3a-b).
+
+Because previous studies have indicated a role for caspase-1 in the activation of NF-kappaB through Toll-like receptor (TLR) signaling [35], we examined whether chemical inhibition of caspase-1 altered NF-kappaB-dependent IL-6 production in response to P. aeruginosa.
+# T1 Protein S4 222 226 570 574 IL-6
+$ T1 Protein S4 222 226 570 574 IL-6
+@ T3 Regulation S4 194 201 542 549 altered
+@ T4 Regulation S4 212 221 560 569 dependent
+@ T5 Gene_expression S4 227 237 575 585 production
+@ T6 Positive_regulation S4 238 252 586 600 in response to
+% E1 Regulation:T3 Theme:E2
+% E3 Regulation:T4 Theme:E4
+% E4 Gene_expression:T5 Theme:T1
+% E2 Positive_regulation:T6 Theme:E3
+
+However, treatment with the caspase-1 inhibitor z-YVAD-fmk (YVAD) did not decrease IL-6 secretion by airway epithelial cells (Fig. 3c).
+# T2 Protein S5 83 87 699 703 IL-6
+$ T2 Protein S5 83 87 699 703 IL-6
+@ T7 Negative_regulation S5 74 82 690 698 decrease
+@ T8 Localization S5 88 97 704 713 secretion
+% E5 Negative_regulation:T7 Theme:E6
+% E6 Localization:T8 Theme:T2
+

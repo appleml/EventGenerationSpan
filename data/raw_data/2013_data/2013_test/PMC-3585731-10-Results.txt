@@ -1,0 +1,49 @@
+Akt Controls TNFalpha Production in Other Cell Types
+# T1 Protein S1 13 21 13 21 TNFalpha
+
+After establishing the role of RIP1 kinase-dependent signaling to Akt in L929 cells, we sought to expand our study to other cell types that are known to undergo necroptotic cell death.
+# T2 Protein S2 31 35 84 88 RIP1
+
+Fas-associated protein with death domain (FADD)-deficient Jurkat T lymphocytes and the macrophage cell lines (J774A.1 and RAW264.7) are other models of necroptosis, which can be induced by stimulation with TNFalpha or zVAD.fmk, respectively [17].
+# T3 Protein S3 0 40 238 278 Fas-associated protein with death domain
+# T4 Protein S3 42 46 280 284 FADD
+# T5 Protein S3 206 214 444 452 TNFalpha
+
+Similar to L929 cells, a RIP1 kinase dependent increase in the phosphorylation of Thr308 on Akt occurred during necroptosis (Fig. 8B,D,F) in these cell types.
+# T6 Protein S4 25 29 510 514 RIP1
+
+Furthermore, TNFalpha mRNA levels were increased in each of these cell types during necroptosis and efficiently inhibited by both RIP1 and Akt inhibitors (Fig. 8A,C,E).
+# T7 Protein S5 13 21 657 665 TNFalpha
+# T8 Protein S5 130 134 774 778 RIP1
+
+However, inhibition of Akt did not protect these cells from death (Fig.
+
+S9A,B,C).
+
+These results indicate that regulation of autocrine TNFalpha synthesis and necroptosis-associated inflammatory signaling may be a more important function of Akt pathway activation by RIP1 kinase in multiple cell types compared to its contribution to cell death.
+# T9 Protein S8 52 60 947 955 TNFalpha
+# T10 Protein S8 183 187 1078 1082 RIP1
+
+We next chose to look at the role of Akt in necroptosis in mouse lung fibroblasts.
+
+Lung fibroblasts selected to survive after deletion of all three Akt isoforms [40] were resistant to cell death induced by the addition of TNFalpha and zVAD.fmk.
+# T11 Protein S10 139 147 1379 1387 TNFalpha
+
+Expression of catalytically active Akt (Myr-Akt) in these cells restored TNFalpha mRNA production in response to TNFalpha and zVAD.fmk (Fig. 8G) without re-establishing cell death (Fig.
+# T12 Protein S11 73 81 1475 1483 TNFalpha
+# T13 Protein S11 113 121 1515 1523 TNFalpha
+
+S9D).
+
+Consistent with our earlier Akt knockdown data, lung fibroblasts expressing endogenous Akt1 or Akt2 were phosphorylated on Thr308 in response to TNFalpha and zVAD.fmk (Fig.
+# T14 Protein S13 87 91 1681 1685 Akt1
+# T15 Protein S13 95 99 1689 1693 Akt2
+# T16 Protein S13 145 153 1739 1747 TNFalpha
+
+S9E) and in both cases robust RIP1-dependent TNFalpha mRNA upregulation occurred under necroptotic conditions (Fig. 8H).
+# T17 Protein S14 30 34 1797 1801 RIP1
+# T18 Protein S14 45 53 1812 1820 TNFalpha
+
+These data further support the notion that Akt activity is critical for autocrine TNFalpha synthesis, even in the absence of necroptotic cell death, indicating an unexpected differentiation between Akt-mediated inflammatory signaling under necroptotic conditions and cell death per se.
+# T19 Protein S15 82 90 1970 1978 TNFalpha
+

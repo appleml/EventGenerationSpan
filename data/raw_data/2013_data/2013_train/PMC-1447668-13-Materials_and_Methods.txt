@@ -1,0 +1,10 @@
+Isolation of primary human CD4+ T cells.
+# T1 Protein S1 27 30 27 30 CD4
+
+CD4+ T cells were isolated from cryopreserved healthy donor PBMCs by negative selection with the CD4+ T Cell Isolation Kit II (Miltenyi Biotech, Bergisch Gladbach, Germany) according to manufacturer's guidelines.
+# T2 Protein S2 0 3 41 44 CD4
+# T3 Protein S2 97 100 138 141 CD4
+
+Purity of negatively selected CD4+ T cells was consistently higher than 96% as determined by flow cytometry.
+# T4 Protein S3 30 33 284 287 CD4
+

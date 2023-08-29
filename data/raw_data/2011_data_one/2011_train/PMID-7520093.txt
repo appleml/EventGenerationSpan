@@ -1,0 +1,100 @@
+Upregulation of bcl-2 by the Epstein-Barr virus latent membrane protein LMP1: a B-cell-specific response that is delayed relative to NF-kappa B activation and to induction of cell surface markers.
+# T1 Protein S1 16 21 16 21 bcl-2
+# T2 Protein S1 72 76 72 76 LMP1
+$ T1 Protein S1 16 21 16 21 bcl-2
+$ T2 Protein S1 72 76 72 76 LMP1
+@ T26 Positive_regulation S1 0 12 0 12 Upregulation
+% E1 Positive_regulation:T26 Theme:T1 Cause:T2
+
+An ability of the Epstein-Barr virus latent membrane protein LMP1 to enhance the survival of infected B cells through upregulation of the bcl-2 oncogene was first suggested by experiments involving gene transfection and the selection of stable LMP1+ clones (S.Henderson, M. Rowe, C.Gregory, F.Wang, E.Kieff, and A.Rickinson, Cell 65:1107-1115, 1991).
+# T3 Protein S2 61 65 259 263 LMP1
+# T4 Protein S2 138 143 336 341 bcl-2
+# T5 Protein S2 244 248 442 446 LMP1
+$ T4 Protein S2 138 143 336 341 bcl-2
+$ T3 Protein S2 61 65 259 263 LMP1
+@ T27 Positive_regulation S2 118 130 316 328 upregulation
+% E2 Positive_regulation:T27 Theme:T4 Cause:T3
+
+However, it was not possible to ascertain whether Bcl-2 upregulation was a specific consequence of LMP1 expression or an artifact of the selection procedure whereby rare Bcl-2+ cells already present in the starting population might best be able to tolerate the potentially toxic effects of LMP1.
+# T6 Protein S3 50 55 599 604 Bcl-2
+# T7 Protein S3 99 103 648 652 LMP1
+# T8 Protein S3 170 175 719 724 Bcl-2
+# T9 Protein S3 290 294 839 843 LMP1
+$ T6 Protein S3 50 55 599 604 Bcl-2
+$ T7 Protein S3 99 103 648 652 LMP1
+@ T28 Positive_regulation S3 56 68 605 617 upregulation
+@ T29 Gene_expression S3 104 114 653 663 expression
+% E3 Positive_regulation:T28 Theme:T6 Cause:E4
+% E4 Gene_expression:T29 Theme:T7
+
+We therefore reexamined this issue by using two different experimental approaches that allowed LMP1- induced effects to be monitored immediately following expression of the viral protein and in the absence of selective pressures; activation of the NF-kappa B transcription factor and upregulation of the cell adhesion molecule ICAM-1 were used as early indices of LMP1 function.
+# T10 Protein S4 95 99 940 944 LMP1
+# T11 Protein S4 327 333 1172 1178 ICAM-1
+# T12 Protein S4 364 368 1209 1213 LMP1
+$ T10 Protein S4 95 99 940 944 LMP1
+$ T11 Protein S4 327 333 1172 1178 ICAM-1
+@ T30 Positive_regulation S4 101 108 946 953 induced
+@ T31 Gene_expression S4 155 165 1000 1010 expression
+@ T32 Positive_regulation S4 284 296 1129 1141 upregulation
+% E5 Positive_regulation:T30 Theme:T9 Cause:T10
+% E6 Gene_expression:T31 Theme:T10
+% E7 Positive_regulation:T32 Theme:T11
+
+In the first approach, stable clones of two B-cell lines carrying an LMP1 gene under the control of an inducible metallothionein promoter were induced to express LMP1 in all cells.
+# T13 Protein S5 69 73 1293 1297 LMP1
+# T14 Protein S5 162 166 1386 1390 LMP1
+$ T14 Protein S5 162 166 1386 1390 LMP1
+@ T33 Positive_regulation S5 143 150 1367 1374 induced
+@ T34 Gene_expression S5 154 161 1378 1385 express
+% E8 Positive_regulation:T33 Theme:E9
+% E9 Gene_expression:T34 Theme:T14
+
+Activation of NK-kappa B and upregulation of ICAM-1 occurred within 24 h and were followed at 48 to 72 h by upregulation of Bcl-2.
+# T15 Protein S6 45 51 1450 1456 ICAM-1
+# T16 Protein S6 124 129 1529 1534 Bcl-2
+$ T15 Protein S6 45 51 1450 1456 ICAM-1
+$ T16 Protein S6 124 129 1529 1534 Bcl-2
+@ T35 Positive_regulation S6 29 41 1434 1446 upregulation
+@ T36 Positive_regulation S6 108 120 1513 1525 upregulation
+% E10 Positive_regulation:T35 Theme:T15
+% E11 Positive_regulation:T36 Theme:T16
+
+In the second approach, we tested the generality of this phenomenon by transiently expressing LMP1 from a strong constitutively active promoter in a range of different cell types.
+# T17 Protein S7 94 98 1630 1634 LMP1
+$ T17 Protein S7 94 98 1630 1634 LMP1
+@ T37 Gene_expression S7 83 93 1619 1629 expressing
+% E12 Gene_expression:T37 Theme:T17
+
+All six B-cell lines tested showed NF-kappa B activation in response to LMP1 expression, and this was followed in five of six lines by expression of ICAM-1 and Bcl-2.
+# T18 Protein S8 72 76 1788 1792 LMP1
+# T19 Protein S8 149 155 1865 1871 ICAM-1
+# T20 Protein S8 160 165 1876 1881 Bcl-2
+$ T18 Protein S8 72 76 1788 1792 LMP1
+$ T20 Protein S8 160 165 1876 1881 Bcl-2
+$ T19 Protein S8 149 155 1865 1871 ICAM-1
+@ T38 Gene_expression S8 77 87 1793 1803 expression
+@ T39 Gene_expression S8 135 145 1851 1861 expression
+% E13 Gene_expression:T38 Theme:T18
+% E14 Gene_expression:T39 Theme:T20
+% E15 Gene_expression:T39 Theme:T19
+
+In the same experiments, all three non-B-cell lines showed NF-kappa B activation and ICAM-1 upregulation but never any effect upon Bcl-2.
+# T21 Protein S9 85 91 1968 1974 ICAM-1
+# T22 Protein S9 131 136 2014 2019 Bcl-2
+$ T21 Protein S9 85 91 1968 1974 ICAM-1
+$ T22 Protein S9 131 136 2014 2019 Bcl-2
+@ T40 Positive_regulation S9 92 104 1975 1987 upregulation
+@ T41 Positive_regulation S9 119 125 2002 2008 effect
+% E16 Positive_regulation:T40 Theme:T21 Cause:E13
+% E17 Positive_regulation:T41 Theme:T22 Cause:E13
+
+We therefore conclude that Bcl-2 upregulation is part of the panoply of cellular changes induced by LMP1 but that the effect is cell type specific.
+# T23 Protein S10 27 32 2048 2053 Bcl-2
+# T24 Protein S10 100 104 2121 2125 LMP1
+$ T23 Protein S10 27 32 2048 2053 Bcl-2
+@ T42 Positive_regulation S10 33 45 2054 2066 upregulation
+% E18 Positive_regulation:T42 Theme:T23
+
+Our data also suggest that whilst NF-kappa B may be an essential component of LMP1 signal transduction, other cell-specific factors may be required to effect some functions of the viral protein.
+# T25 Protein S11 78 82 2247 2251 LMP1
+

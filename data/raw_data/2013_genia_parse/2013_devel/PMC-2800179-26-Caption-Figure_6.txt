@@ -1,0 +1,47 @@
+Degraded	VBN	B-NP	O	Other	No	No	Other	Other	###	1	Degraded	Degraded	VBN	VBN	_	2	amod	_	_
+CGN	NN	I-NP	O	Other	No	No	Other	Other	###	2	CGN	CGN	NN	NN	_	3	nsubj	_	_
+stimulated	VBD	B-VP	O	Other	No	No	Other	B-Positive_regulation	###	3	stimulated	stimulated	VBD	VBD	_	0	root	_	_
+ICAM-1	NN	B-NP	B-protein	B-Protein	No	No	B-Protein	Other	###	4	ICAM-1	ICAM-1	NN	NN	_	3	dobj	_	_
+and	CC	I-NP	O	Other	No	No	Other	Other	###	5	and	and	CC	CC	_	4	cc	_	_
+TNF-alpha	NN	I-NP	B-protein	B-Protein	No	No	B-Protein	Other	###	6	TNF-alpha	TNF-alpha	NN	NN	_	4	conj	_	_
+gene	NN	I-NP	O	Other	No	No	Other	Other	###	7	gene	gene	NN	NN	_	8	compound	_	_
+expression	NN	I-NP	O	Other	No	No	Other	B-Gene_expression	###	8	expression	expression	NN	NN	_	4	dep	_	_
+in	IN	B-PP	O	Other	No	No	Other	Other	###	9	in	in	IN	IN	_	10	case	_	_
+monocytes	NNS	B-NP	B-cell_type	Other	No	No	Other	Other	###	10	monocytes	monocytes	NNS	NNS	_	8	nmod	_	_
+.	.	O	O	Other	No	No	Other	Other	###	11	.	.	.	.	_	3	punct	_	_
+
+Representative	JJ	B-NP	O	Other	No	No	Other	Other	###	1	Representative	Representative	JJ	JJ	_	2	amod	_	_
+samples	NNS	I-NP	O	Other	No	No	Other	Other	###	2	samples	samples	NNS	NNS	_	0	root	_	_
+of	IN	B-PP	O	Other	No	No	Other	Other	###	3	of	of	IN	IN	_	5	case	_	_
+RT-PCR	NN	B-NP	O	Other	No	No	Other	Other	###	4	RT-PCR	RT-PCR	NN	NN	_	5	compound	_	_
+analysis	NN	I-NP	O	Other	No	No	Other	Other	###	5	analysis	analysis	NN	NN	_	2	nmod	_	_
+showing	VBG	B-VP	O	Other	No	No	Other	Other	###	6	showing	showing	VBG	VBG	_	5	acl	_	_
+over	IN	B-PP	O	Other	No	No	Other	Other	###	7	over	over	IN	IN	_	8	case	_	_
+expression	NN	B-NP	O	Other	No	Yes	Other	B-Gene_expression	###	8	expression	expression	NN	NN	_	6	nmod	_	_
+of	IN	B-PP	O	Other	No	No	Other	Other	###	9	of	of	IN	IN	_	10	case	_	_
+ICAM-1	NN	B-NP	B-protein	B-Protein	Yes	No	B-Protein	Other	###	10	ICAM-1	ICAM-1	NN	NN	_	8	nmod	_	_
+and	CC	I-NP	O	Other	No	No	Other	Other	###	11	and	and	CC	CC	_	10	cc	_	_
+TNF-alpha	NN	I-NP	B-protein	B-Protein	Yes	No	B-Protein	Other	###	12	TNF-alpha	TNF-alpha	NN	NN	_	10	conj	_	_
+after	IN	B-PP	O	Other	No	No	Other	Other	###	13	after	after	IN	IN	_	14	case	_	_
+stimulation	NN	B-NP	O	Other	No	No	Other	Other	###	14	stimulation	stimulation	NN	NN	_	6	nmod	_	_
+of	IN	B-PP	O	Other	No	No	Other	Other	###	15	of	of	IN	IN	_	16	case	_	_
+monocytes	NNS	B-NP	B-cell_type	Other	No	No	Other	Other	###	16	monocytes	monocytes	NNS	NNS	_	14	nmod	_	_
+with	IN	B-PP	O	Other	No	No	Other	Other	###	17	with	with	IN	IN	_	19	case	_	_
+1	CD	B-NP	O	Other	No	No	Other	Other	###	18	1	1	CD	CD	_	19	nummod	_	_
+g	NN	I-NP	O	Other	No	No	Other	Other	###	19	g	g	NN	NN	_	21	amod	_	_
+/	/	O	O	Other	No	No	Other	Other	###	20	/	/	/	/	_	21	punct	_	_
+l	NN	I-NP	O	Other	No	No	Other	Other	###	21	l	l	NN	NN	_	14	nmod	_	_
+of	IN	B-PP	O	Other	No	No	Other	Other	###	22	of	of	IN	IN	_	24	case	_	_
+degraded	VBN	B-NP	O	Other	No	No	Other	Other	###	23	degraded	degraded	VBN	VBN	_	24	amod	_	_
+CGN	NN	I-NP	O	Other	No	No	Other	Other	###	24	CGN	CGN	NN	NN	_	21	nmod	_	_
+.	.	O	O	Other	No	No	Other	Other	###	25	.	.	.	.	_	2	punct	_	_
+
+beta-actin	NN	B-NP	B-protein	B-Protein	No	No	B-Protein	Other	###	1	beta-actin	beta-actin	NN	NN	_	2	compound	_	_
+expression	NN	I-NP	O	Other	No	Yes	Other	B-Gene_expression	###	2	expression	expression	NN	NN	_	4	nsubjpass	_	_
+was	VBD	B-VP	O	Other	No	No	Other	Other	###	3	was	was	VBD	VBD	_	4	auxpass	_	_
+used	VBN	I-VP	O	Other	No	No	Other	Other	###	4	used	used	VBN	VBN	_	0	root	_	_
+as	IN	B-PP	O	Other	No	No	Other	Other	###	5	as	as	IN	IN	_	7	case	_	_
+normalization	NN	B-NP	B-DNA	Other	No	No	Other	Other	###	6	normalization	normalization	NN	NN	_	7	compound	_	_
+gene	NN	I-NP	I-DNA	Other	No	No	Other	Other	###	7	gene	gene	NN	NN	_	4	nmod	_	_
+.	.	O	O	Other	No	No	Other	Other	###	8	.	.	.	.	_	4	punct	_	_
+

@@ -1,0 +1,26 @@
+Circadian rhythm of glucocorticoid receptors in human peripheral leukocytes and their reactivity to glucocorticoids.
+# T1 Protein S1 20 44 20 44 glucocorticoid receptors
+
+1) There exists a CR of GR in human leukocytes, PMN, and monocytes with the peak values from 0400 to 0800 hr and the trough values between 2300 and 0000 hr.
+# T2 Protein S2 24 26 142 144 GR
+
+The difference between them was significant statistically.
+
+2) The FI of the chemotactic migration rate of PMN by cortisol also showed diurnal changes which were synchronous with that of GR.
+# T3 Protein S4 127 129 461 463 GR
+
+This indicates that the CR of GR may be of functional significance.
+# T4 Protein S5 30 32 495 497 GR
+
+3) In Cushing's syndrome, the CR of GR was normal in spite of the fact that the CR of plasma cortisol was disturbed.
+# T5 Protein S6 36 38 569 571 GR
+
+This indicates the independency of the CR of GR from that of cortisol.
+# T6 Protein S7 45 47 695 697 GR
+
+4) In apoplexy caused by brain ischemia, the CR of GR was abolished in patients with basal lesions but preserved when the lesions were located in the cerebral cortex.
+# T7 Protein S8 51 53 772 774 GR
+
+These results strongly suggest that the main "circadian pacemaker" of GR is located in the basal brain, most probably in the suprachiasmatic nuclei as has been suggested for rodents.
+# T8 Protein S9 70 72 958 960 GR
+

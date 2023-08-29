@@ -1,0 +1,48 @@
+CD40 is a functional activation antigen and B7-independent T cell costimulatory molecule on normal human lung fibroblasts.
+# T1 Protein S1 0 4 0 4 CD40
+# T2 Protein S1 44 46 44 46 B7
+
+CD40 is an important signaling and activation Ag found on certain bone marrow-derived cells.
+# T3 Protein S2 0 4 124 128 CD40
+$ T3 Protein S2 0 4 124 128 CD40
+@ T17 Gene_expression S2 49 54 173 178 found
+% E1 Gene_expression:T17 Theme:T3
+
+Recently, CD40 also has been shown to be expressed by mesenchymal cells, including human fibroblasts.
+# T4 Protein S3 10 14 227 231 CD40
+$ T4 Protein S3 10 14 227 231 CD40
+@ T18 Gene_expression S3 41 50 258 267 expressed
+% E2 Gene_expression:T18 Theme:T4
+
+Little is known about the role of CD40 in fibroblasts.
+# T5 Protein S4 34 38 353 357 CD40
+
+The current study investigates the hypothesis that CD40 expressed on lung fibroblasts is an activation structure and mechanism for interaction with hemopoietic cells.
+# T6 Protein S5 51 55 425 429 CD40
+$ T6 Protein S5 51 55 425 429 CD40
+@ T19 Gene_expression S5 56 65 430 439 expressed
+% E3 Gene_expression:T19 Theme:T6
+
+Communication between resident tissue fibroblasts and T cells is necessary for normal wound healing, and can be pathologic, resulting in tissue fibrosis.
+
+Signaling through CD40 with soluble CD40 ligand stimulated fibroblast activation, as evidenced by mobilization of nuclear factor-kappaB and by induction of the proinflammatory and chemoattractant cytokines IL-6 and IL-8.
+# T7 Protein S7 18 22 713 717 CD40
+# T8 Protein S7 36 47 731 742 CD40 ligand
+# T9 Protein S7 206 210 901 905 IL-6
+# T10 Protein S7 215 219 910 914 IL-8
+$ T9 Protein S7 206 210 901 905 IL-6
+$ T10 Protein S7 215 219 910 914 IL-8
+@ T20 Positive_regulation S7 143 152 838 847 induction
+% E4 Positive_regulation:T20 Theme:T9
+% E5 Positive_regulation:T20 Theme:T10
+
+IFN-gamma-primed lung fibroblasts costimulate T lymphocyte proliferation utilizing CD40, but not the well-studied costimulatory molecules B7-1 and B7-2.
+# T11 Protein S8 0 9 916 925 IFN-gamma
+# T12 Protein S8 83 87 999 1003 CD40
+# T13 Protein S8 138 142 1054 1058 B7-1
+# T14 Protein S8 147 151 1063 1067 B7-2
+
+Data reported herein support the hypothesis that cognate interactions between tissue fibroblasts and infiltrating T lymphocytes, via the CD40/CD40L pathway, augment inflammation and may promote fibrogenesis by activating both cell types.
+# T15 Protein S9 137 141 1206 1210 CD40
+# T16 Protein S9 142 147 1211 1216 CD40L
+

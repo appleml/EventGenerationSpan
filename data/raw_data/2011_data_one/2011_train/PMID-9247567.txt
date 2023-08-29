@@ -1,0 +1,78 @@
+Cyclosporin A interferes with the inducible degradation of NF-kappa B inhibitors, but not with the processing of p105/NF-kappa B1 in T cells.
+# T1 Protein S1 113 117 113 117 p105
+# T2 Protein S1 118 129 118 129 NF-kappa B1
+
+The transcription factor NF-kappa B controls the induction of numerous cytokine promoters during the activation of T lymphocytes.
+
+Inhibition of T cell activation by the immunosuppressants cyclosporin A (CsA) and FK506 exerts a suppressive effect on the induction of these NF-kappa B-controlled cytokine promoters.
+
+We show for human Jurkat T leukemia cells, as well as human and mouse primary T lymphocytes, that this inhibitory effect is accompanied by an impaired nuclear translocation of the Rel proteins c-Rel, RelA/p65 and NF-kappa B1/p50, whereas the nuclear appearance of RelB remains unaffected.
+# T3 Protein S4 193 198 650 655 c-Rel
+# T4 Protein S4 200 204 657 661 RelA
+# T5 Protein S4 205 208 662 665 p65
+# T6 Protein S4 213 224 670 681 NF-kappa B1
+# T7 Protein S4 225 228 682 685 p50
+# T8 Protein S4 264 268 721 725 RelB
+$ T4 Protein S4 200 204 657 661 RelA
+$ T3 Protein S4 193 198 650 655 c-Rel
+$ T7 Protein S4 225 228 682 685 p50
+$ T8 Protein S4 264 268 721 725 RelB
+@ T23 Negative_regulation S4 142 150 599 607 impaired
+@ T24 Entity S4 151 158 608 615 nuclear
+@ T25 Localization S4 159 172 616 629 translocation
+@ T26 Entity S4 242 249 699 706 nuclear
+@ T27 Localization S4 250 260 707 717 appearance
+@ T28 Negative_regulation S4 277 287 734 744 unaffected
+% E1 Negative_regulation:T23 Theme:E5
+% E2 Negative_regulation:T23 Theme:E4
+% E3 Negative_regulation:T23 Theme:E6
+% E4 Localization:T25 Theme:T4 ToLoc:T24
+% E5 Localization:T25 Theme:T3 ToLoc:T24
+% E6 Localization:T25 Theme:T7 ToLoc:T24
+% E7 Localization:T27 Theme:T8 AtLoc:T26
+% E8 Negative_regulation:T28 Theme:E7
+
+CsA does not interfere with the synthesis of Rel proteins, but prevents the inducible degradation of cytosolic NF-kappa B inhibitors I kappa B alpha and I kappa B beta upon T cell activation.
+# T9 Protein S5 133 148 879 894 I kappa B alpha
+# T10 Protein S5 153 167 899 913 I kappa B beta
+$ T9 Protein S5 133 148 879 894 I kappa B alpha
+$ T10 Protein S5 153 167 899 913 I kappa B beta
+@ T29 Negative_regulation S5 63 71 809 817 prevents
+@ T30 Positive_regulation S5 76 85 822 831 inducible
+@ T31 Protein_catabolism S5 86 97 832 843 degradation
+% E9 Negative_regulation:T29 Theme:E13
+% E10 Negative_regulation:T29 Theme:E14
+% E11 Positive_regulation:T30 Theme:E14
+% E12 Positive_regulation:T30 Theme:E13
+% E13 Protein_catabolism:T31 Theme:T9
+% E14 Protein_catabolism:T31 Theme:T10
+
+CsA neither inhibits the processing of the NF-kappa B1 precursor p105 to p50, nor does it "stabilize" the C-terminal portion of p105, I kappa B gamma, which is degraded during p105 processing to mature p50.
+# T11 Protein S6 43 54 981 992 NF-kappa B1
+# T12 Protein S6 65 69 1003 1007 p105
+# T13 Protein S6 73 76 1011 1014 p50
+# T14 Protein S6 128 132 1066 1070 p105
+# T15 Protein S6 134 149 1072 1087 I kappa B gamma
+# T16 Protein S6 176 180 1114 1118 p105
+# T17 Protein S6 202 205 1140 1143 p50
+$ T15 Protein S6 134 149 1072 1087 I kappa B gamma
+@ T32 Negative_regulation S6 91 100 1028 1039 stabilize
+@ T33 Protein_catabolism S6 160 168 1098 1106 degraded
+% E15 Negative_regulation:T32 Theme:E16
+% E16 Protein_catabolism:T33 Theme:T15
+
+These results indicate that CsA interferes with a specific event in the signal-induced degradation of I kappa B alpha and I kappa B beta, but does not affect the processing of NF-kappa B1/p105 to p50.
+# T18 Protein S7 102 117 1247 1262 I kappa B alpha
+# T19 Protein S7 122 136 1267 1281 I kappa B beta
+# T20 Protein S7 176 187 1321 1332 NF-kappa B1
+# T21 Protein S7 188 192 1333 1337 p105
+# T22 Protein S7 196 199 1341 1344 p50
+$ T18 Protein S7 102 117 1247 1262 I kappa B alpha
+$ T19 Protein S7 122 136 1267 1281 I kappa B beta
+@ T34 Negative_regulation S7 32 42 1177 1187 interferes
+@ T35 Protein_catabolism S7 87 98 1232 1243 degradation
+% E17 Negative_regulation:T34 Theme:E20
+% E18 Negative_regulation:T34 Theme:E19
+% E19 Protein_catabolism:T35 Theme:T18
+% E20 Protein_catabolism:T35 Theme:T19
+

@@ -1,0 +1,36 @@
+Characterization of peripheral blood T-lymphocytes transduced with HTLV-I Tax mutants with different trans-activating phenotypes.
+# T1 Protein S1 74 77 74 77 Tax
+$ T1 Protein S1 74 77 74 77 Tax
+@ T10 Gene_expression S1 51 61 51 61 transduced
+@ T11 Positive_regulation S1 51 61 51 61 transduced
+% E1 Gene_expression:T10 Theme:T1
+% E2 Positive_regulation:T11 Theme:E1
+
+Tax1, a transcriptional trans-activator of the Human T-cell leukemia virus type I (HTLV-I), induces the expression of many cellular genes through interaction with at least three distinct cellular transcription factors; CREB/ATF, NF-kappaB, and SRF.
+# T2 Protein S2 0 4 131 135 Tax1
+# T3 Protein S2 244 247 375 378 SRF
+$ T2 Protein S2 0 4 131 135 Tax1
+$ T3 Protein S2 244 247 375 378 SRF
+@ T12 Binding S2 146 157 277 288 interaction
+% E3 Binding:T12 Theme:T2 Theme2:T3
+% E4 Binding:T12 Theme:T2
+
+This Tax1-induced activation of cellular genes is considered to be a critical event in T-cell transformation by HTLV-I.
+# T4 Protein S3 5 9 385 389 Tax1
+
+To elucidate the role of each Tax1-inducible transcriptional pathway in T-cell transformation, we introduced Tax1 mutants with different trans-activating phenotypes into peripheral blood lymphocytes (PBL) by retroviral vectors.
+# T5 Protein S4 30 34 530 534 Tax1
+# T6 Protein S4 109 113 609 613 Tax1
+$ T6 Protein S4 109 113 609 613 Tax1
+@ T13 Gene_expression S4 98 108 598 608 introduced
+@ T14 Positive_regulation S4 98 108 598 608 introduced
+% E5 Gene_expression:T13 Theme:T6
+% E6 Positive_regulation:T14 Theme:E5
+
+Analysis of these PBLs revealed that activation of the NF-kappaB pathway is sufficient to promote the growth response to IL-2.
+# T7 Protein S5 121 125 849 853 IL-2
+
+However, for the clonal expansion of CD4+ T-cells, which is a characteristic result of HTLV-I infection, activation of the CREB/ATF and SRF pathways is also required.
+# T8 Protein S6 37 40 892 895 CD4
+# T9 Protein S6 136 139 991 994 SRF
+

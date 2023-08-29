@@ -1,0 +1,146 @@
+C/EBPbeta and GATA-1 synergistically regulate activity of the eosinophil granule major basic protein promoter: implication for C/EBPbeta activity in eosinophil gene expression.
+# T1 Protein S1 0 9 0 9 C/EBPbeta
+# T2 Protein S1 14 20 14 20 GATA-1
+# T3 Protein S1 62 100 62 100 eosinophil granule major basic protein
+# T4 Protein S1 127 136 127 136 C/EBPbeta
+$ T3 Protein S1 62 100 62 100 eosinophil granule major basic protein
+$ T2 Protein S1 14 20 14 20 GATA-1
+$ T1 Protein S1 0 9 0 9 C/EBPbeta
+@ T35 Regulation S1 37 45 37 45 regulate
+@ T36 Entity S1 101 109 101 109 promoter
+% E1 Regulation:T35 Theme:T3 Cause:T2 Site:T36
+% E2 Regulation:T35 Theme:T3 Cause:T1 Site:T36
+
+Eosinophil granule major basic protein (MBP) is expressed exclusively in eosinophils and basophils in hematopoietic cells.
+# T5 Protein S2 0 38 178 216 Eosinophil granule major basic protein
+# T6 Protein S2 40 43 218 221 MBP
+$ T6 Protein S2 40 43 218 221 MBP
+@ T37 Gene_expression S2 48 57 226 235 expressed
+% E3 Gene_expression:T37 Theme:T6
+
+In our previous study, we demonstrated a major positive regulatory role for GATA-1 and a negative regulatory role for GATA-2 in MBP gene transcription.
+# T7 Protein S3 76 82 377 383 GATA-1
+# T8 Protein S3 118 124 419 425 GATA-2
+# T9 Protein S3 128 131 429 432 MBP
+$ T7 Protein S3 76 82 377 383 GATA-1
+$ T8 Protein S3 118 124 419 425 GATA-2
+$ T9 Protein S3 128 131 429 432 MBP
+@ T38 Positive_regulation S3 47 71 348 372 positive regulatory role
+@ T39 Negative_regulation S3 89 113 390 414 negative regulatory role
+@ T40 Transcription S3 137 150 438 451 transcription
+% E4 Positive_regulation:T38 Theme:E6 Cause:T7
+% E5 Negative_regulation:T39 Theme:E6 Cause:T8
+% E6 Transcription:T40 Theme:T9
+
+Further analysis of the MBP promoter region identified a C/EBP (CCAAT/enhancer-binding protein) consensus binding site 6 bp upstream of the functional GATA-binding site in the MBP gene.
+# T10 Protein S4 24 27 477 480 MBP
+# T11 Protein S4 176 179 629 632 MBP
+
+In the cell line HT93A, which is capable of differentiating towards both the eosinophil and neutrophil lineages in response to retinoic acid (RA), C/EBPalpha mRNA expression decreased significantly concomitant with eosinophilic and neutrophilic differentiation, whereas C/EBPbeta expression was markedly increased.
+# T12 Protein S5 147 157 786 796 C/EBPalpha
+# T13 Protein S5 270 279 909 918 C/EBPbeta
+$ T12 Protein S5 147 157 786 796 C/EBPalpha
+$ T13 Protein S5 270 279 909 918 C/EBPbeta
+@ T41 Transcription S5 163 173 802 812 expression
+@ T42 Negative_regulation S5 174 183 813 822 decreased
+@ T43 Gene_expression S5 280 290 919 929 expression
+@ T44 Positive_regulation S5 304 313 943 952 increased
+% E7 Transcription:T41 Theme:T12
+% E8 Negative_regulation:T42 Theme:E7
+% E9 Gene_expression:T43 Theme:T13
+% E10 Positive_regulation:T44 Theme:E9
+
+Electrophoretic mobility shift assays (EMSAs) showed that recombinant C/EBPbeta protein could bind to the potential C/EBP-binding site (bp -90 to -82) in the MBP promoter.
+# T14 Protein S6 70 79 1024 1033 C/EBPbeta
+# T15 Protein S6 158 161 1112 1115 MBP
+$ T14 Protein S6 70 79 1024 1033 C/EBPbeta
+$ T15 Protein S6 158 161 1112 1115 MBP
+@ T45 Binding S6 94 98 1048 1052 bind
+@ T46 Entity S6 162 170 1116 1124 promoter
+% E11 Binding:T45 Theme:T14 Theme2:T15 Site2:T46
+
+Furthermore, we have demonstrated that both C/EBPbeta and GATA-1 can bind simultaneously to the C/EBP- and GATA-binding sites in the MBP promoter.
+# T16 Protein S7 44 53 1170 1179 C/EBPbeta
+# T17 Protein S7 58 64 1184 1190 GATA-1
+# T18 Protein S7 133 136 1259 1262 MBP
+$ T17 Protein S7 58 64 1184 1190 GATA-1
+$ T18 Protein S7 133 136 1259 1262 MBP
+$ T16 Protein S7 44 53 1170 1179 C/EBPbeta
+@ T47 Binding S7 69 73 1195 1199 bind
+@ T48 Entity S7 137 145 1263 1271 promoter
+% E12 Binding:T47 Theme:T17 Theme2:T18 Site2:T48
+% E13 Binding:T47 Theme:T16 Theme2:T18 Site2:T48
+
+To determine the functionality of both the C/EBP- and GATA- binding sites, we analyzed whether C/EBPbeta and GATA-1 can stimulate the MBP promoter in the C/EBPbeta and GATA-1 negative Jurkat T-cell line.
+# T19 Protein S8 95 104 1368 1377 C/EBPbeta
+# T20 Protein S8 109 115 1382 1388 GATA-1
+# T21 Protein S8 134 137 1407 1410 MBP
+# T22 Protein S8 154 163 1427 1436 C/EBPbeta
+# T23 Protein S8 168 174 1441 1447 GATA-1
+$ T21 Protein S8 134 137 1407 1410 MBP
+$ T20 Protein S8 109 115 1382 1388 GATA-1
+$ T19 Protein S8 95 104 1368 1377 C/EBPbeta
+$ T22 Protein S8 154 163 1427 1436 C/EBPbeta
+$ T23 Protein S8 168 174 1441 1447 GATA-1
+@ T49 Positive_regulation S8 120 129 1393 1402 stimulate
+@ T50 Entity S8 138 146 1411 1419 promoter
+@ T51 Gene_expression S8 175 183 1448 1456 negative
+% E14 Positive_regulation:T49 Theme:T21 Cause:T20 Site:T50
+% E15 Positive_regulation:T49 Theme:T21 Cause:T19 Site:T50
+% E16 Gene_expression:T51 Theme:T22
+% E17 Gene_expression:T51 Theme:T23
+
+Cotransfection with C/EBPbeta and GATA-1 expression vectors produced a 5-fold increase compared with cotransfection with the C/EBPbeta or GATA-1 expression vectors individually.
+# T24 Protein S9 20 29 1497 1506 C/EBPbeta
+# T25 Protein S9 34 40 1511 1517 GATA-1
+# T26 Protein S9 125 134 1602 1611 C/EBPbeta
+# T27 Protein S9 138 144 1615 1621 GATA-1
+$ T24 Protein S9 20 29 1497 1506 C/EBPbeta
+$ T25 Protein S9 34 40 1511 1517 GATA-1
+$ T26 Protein S9 125 134 1602 1611 C/EBPbeta
+$ T27 Protein S9 138 144 1615 1621 GATA-1
+@ T52 Positive_regulation S9 0 14 1477 1491 Cotransfection
+@ T53 Gene_expression S9 0 14 1477 1491 Cotransfection
+@ T54 Positive_regulation S9 78 86 1555 1563 increase
+@ T55 Positive_regulation S9 101 115 1578 1592 cotransfection
+@ T56 Gene_expression S9 101 115 1578 1592 cotransfection
+% E18 Positive_regulation:T52 Theme:E21
+% E20 Positive_regulation:T52 Theme:E19
+% E19 Gene_expression:T53 Theme:T24
+% E21 Gene_expression:T53 Theme:T25
+% E22 Positive_regulation:T54 Theme:T21 Cause:E18 Site:T50
+% E23 Positive_regulation:T54 Theme:T21 Cause:E20 Site:T50
+% E24 Positive_regulation:T54 Theme:T21 Cause:E26 Site:T50
+% E25 Positive_regulation:T54 Theme:T21 Cause:E29 Site:T50
+% E26 Positive_regulation:T55 Theme:E27
+% E29 Positive_regulation:T55 Theme:E28
+% E27 Gene_expression:T56 Theme:T26
+% E28 Gene_expression:T56 Theme:T27
+
+In addition, GST pull-down experiments demonstrated a physical interaction between human GATA-1 and C/EBPbeta.
+# T28 Protein S10 89 95 1744 1750 GATA-1
+# T29 Protein S10 100 109 1755 1764 C/EBPbeta
+$ T28 Protein S10 89 95 1744 1750 GATA-1
+$ T29 Protein S10 100 109 1755 1764 C/EBPbeta
+@ T57 Binding S10 54 74 1709 1729 physical interaction
+% E30 Binding:T57 Theme:T28 Theme2:T29
+
+Expression of FOG (riend ATA), which binds to GATA-1 and acts as a cofactor for GATA-binding proteins, decreased transactivation activity of GATA-1 for the MBP promoter in a dose-dependent manner.
+# T30 Protein S11 46 52 1812 1818 GATA-1
+# T31 Protein S11 141 147 1907 1913 GATA-1
+# T32 Protein S11 156 159 1922 1925 MBP
+$ T30 Protein S11 46 52 1812 1818 GATA-1
+$ T32 Protein S11 156 159 1922 1925 MBP
+$ T31 Protein S11 141 147 1907 1913 GATA-1
+@ T58 Binding S11 37 42 1803 1808 binds
+@ T59 Negative_regulation S11 103 112 1869 1878 decreased
+@ T60 Positive_regulation S11 113 128 1879 1894 transactivation
+@ T61 Entity S11 160 168 1926 1934 promoter
+% E31 Binding:T58 Theme:T30
+% E32 Negative_regulation:T59 Theme:E33
+% E33 Positive_regulation:T60 Theme:T32 Cause:T31 Site:T61
+
+Our results provide the first evidence that both GATA-1 and C/EBPbeta synergistically transactivate the promoter of an eosinophil-specific granule protein gene and that FOG may act as a negative cofactor for the eosinophil lineage, unlike its positively regulatory function for the erythroid and megakaryocyte lineages.
+# T33 Protein S12 49 55 2012 2018 GATA-1
+# T34 Protein S12 60 69 2023 2032 C/EBPbeta
+

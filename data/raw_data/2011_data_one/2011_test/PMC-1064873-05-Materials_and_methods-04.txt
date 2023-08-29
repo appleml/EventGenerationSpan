@@ -1,0 +1,15 @@
+Flow cytometric analysis for IL-10R1 expression
+# T1 Protein S1 29 36 29 36 IL-10R1
+
+A sample of 5 x 105 cells of PBMC was resuspended in PBS with 1% FCS.
+
+PBMC were incubated with saturating concentrations of anti-IL-10R1 mAb (IgG1; R&D systems, Minneapolis, MN, USA) or with isotype-matched control mAb (Immunotech), followed by incubation with FITC-conjugated goat anti-mouse IgG1 polyclonal antibody (Santa Cruz Biotechnologies, Santa Cruz, CA, USA).
+# T2 Protein S3 59 66 177 184 IL-10R1
+
+Cells were then incubated with phycoerythrin-conjugated anti-CD4 mAb (Becton Dickinson).
+# T3 Protein S4 61 64 478 481 CD4
+
+Cells were washed well with 1% FCS/PBS between incubations.
+
+Analysis was performed on a FACScan flow cytometer (Becton Dickinson).
+

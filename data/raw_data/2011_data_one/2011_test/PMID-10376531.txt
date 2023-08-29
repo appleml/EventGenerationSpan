@@ -1,0 +1,40 @@
+Expression and role of PML gene in normal adult hematopoiesis: functional interaction between PML and Rb proteins in erythropoiesis.
+# T1 Protein S1 23 26 23 26 PML
+# T2 Protein S1 94 97 94 97 PML
+# T3 Protein S1 102 104 102 104 Rb
+
+The expression of the PML gene was investigated in purified early hematopoietic progenitor cells (HPCs) induced to unilineage erythroid or granulocytic differentiation.
+# T4 Protein S2 22 25 156 159 PML
+
+PML mRNA and protein, while barely detectable in quiescent HPCs, are consistently induced by growth factor stimulation through the erythroid or granulocytic lineage.
+# T5 Protein S3 0 3 303 306 PML
+
+Thereafter, PML is downmodulated in late granulocytic maturation, whereas it is sustainably expressed through the erythroid pathway.
+# T6 Protein S4 12 15 481 484 PML
+
+In functional studies, PML expression was inhibited by addition of antisense oligomers targeting PML mRNA (alpha-PML).
+# T7 Protein S5 23 26 625 628 PML
+# T8 Protein S5 97 100 699 702 PML
+
+Interestingly, early treatment (day 0 HPCs) with alpha-PML reduced the number of both erythroid and granulocytic colonies, whereas late treatment (day 5 culture) reduced erythroid, but not granulocytic, clonogenesis.
+
+These findings suggest that PML is required for early hematopoiesis and erythroid, but not granulocytic maturation.
+# T9 Protein S7 28 31 966 969 PML
+
+The pattern of PML expression in normal hematopoiesis mimics that of retinoblastoma pRb 105.
+# T10 Protein S8 15 18 1069 1072 PML
+# T11 Protein S8 84 91 1138 1145 pRb 105
+
+Combined treatment of HPCs with alpha-PML and alpha-Rb oligomers inhibited both PML and Rb protein expression and completely blocked erythroid colony development.
+# T12 Protein S9 80 83 1227 1230 PML
+# T13 Protein S9 88 90 1235 1237 Rb
+
+Furthermore, PML and pRb 105 were co-immunoprecipitated in cellular lysates derived from erythroid precursors indicating that this functional interaction may have a biochemical basis.
+# T14 Protein S10 13 16 1323 1326 PML
+# T15 Protein S10 21 28 1331 1338 pRb 105
+
+These results suggest a key functional role of PML in early hematopoiesis and late erythropoiesis: the latter phenomenon may be related to the molecular and functional interaction of PML with pRb 105.
+# T16 Protein S11 47 50 1541 1544 PML
+# T17 Protein S11 183 186 1677 1680 PML
+# T18 Protein S11 192 199 1686 1693 pRb 105
+

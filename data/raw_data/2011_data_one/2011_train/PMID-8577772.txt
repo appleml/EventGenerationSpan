@@ -1,0 +1,81 @@
+In vivo anergized CD4+ T cells express perturbed AP-1 and NF-kappa B transcription factors.
+# T1 Protein S1 18 21 18 21 CD4
+
+Anergy is a major mechanism to ensure antigen-specific tolerance in T lymphocytes in the adult.
+
+In vivo, anergy has mainly been studied at the cellular level.
+
+In this study, we used the T-cell-activating superantigen staphylococcal enterotoxin A (SEA) to investigate molecular mechanisms of T-lymphocyte anergy in vivo.
+# T2 Protein S4 58 86 310 338 staphylococcal enterotoxin A
+# T3 Protein S4 88 91 340 343 SEA
+
+Injection of SEA to adult mice activates CD4+ T cells expressing certain T-cell receptor (TCR) variable region beta-chain families and induces strong and rapid production of interleukin 2 (IL-2).
+# T4 Protein S5 13 16 426 429 SEA
+# T5 Protein S5 41 44 454 457 CD4
+# T6 Protein S5 174 187 587 600 interleukin 2
+# T7 Protein S5 189 193 602 606 IL-2
+$ T7 Protein S5 189 193 602 606 IL-2
+@ T26 Positive_regulation S5 135 142 548 555 induces
+@ T27 Gene_expression S5 160 170 573 583 production
+% E1 Positive_regulation:T26 Theme:E2
+% E2 Gene_expression:T27 Theme:T7
+
+In contrast, repeated injections of SEA cause CD4+ T-cell deletion and anergy in the remaining CD4+ T cells, characterized by reduced expression of IL-2 at mRNA and protein levels.
+# T8 Protein S6 36 39 645 648 SEA
+# T9 Protein S6 46 49 655 658 CD4
+# T10 Protein S6 95 98 704 707 CD4
+# T11 Protein S6 148 152 757 761 IL-2
+$ T11 Protein S6 148 152 757 761 IL-2
+@ T28 Negative_regulation S6 126 133 735 742 reduced
+@ T29 Transcription S6 156 160 765 769 mRNA
+@ T30 Gene_expression S6 165 172 774 781 protein
+% E3 Negative_regulation:T28 Theme:E5
+% E4 Negative_regulation:T28 Theme:E6
+% E5 Transcription:T29 Theme:T11
+% E6 Gene_expression:T30 Theme:T11
+
+We analyzed expression of AP-1, NF-kappa B, NF-AT, and octamer binding transcription factors, which are known to be involved in the regulation of IL-2 gene promoter activity.
+# T12 Protein S7 146 150 936 940 IL-2
+
+Large amounts of AP-1 and NF-kappa B and significant quantities of NF-AT were induced in SEA-activated CD4+ spleen T cells, whereas Oct-1 and Oct-2 DNA binding activity was similar in both resting and activated T cells.
+# T13 Protein S8 89 92 1054 1057 SEA
+# T14 Protein S8 103 106 1068 1071 CD4
+# T15 Protein S8 132 137 1097 1102 Oct-1
+# T16 Protein S8 142 147 1107 1112 Oct-2
+$ T15 Protein S8 132 137 1097 1102 Oct-1
+$ T16 Protein S8 142 147 1107 1112 Oct-2
+@ T31 Binding S8 152 168 1117 1133 binding activity
+% E7 Binding:T31 Theme:T15
+% E8 Binding:T31 Theme:T16
+
+In contrast, anergic CD4+ T cells contained severely reduced levels of AP-1 and Fos/Jun-containing NF-AT complexes but expressed significant amounts of NF-kappa B and Oct binding proteins after SEA stimulation.
+# T17 Protein S9 21 24 1206 1209 CD4
+# T18 Protein S9 80 83 1265 1268 Fos
+# T19 Protein S9 84 87 1269 1272 Jun
+# T20 Protein S9 194 197 1379 1382 SEA
+$ T19 Protein S9 84 87 1269 1272 Jun
+$ T18 Protein S9 80 83 1265 1268 Fos
+@ T32 Negative_regulation S9 53 60 1238 1245 reduced
+% E9 Negative_regulation:T32 Theme:T19
+% E10 Negative_regulation:T32 Theme:T18
+
+Resolution of the NF-kappa B complex demonstrated predominant expression of p50-p65 heterodimers in activated CD4+ T cells, while anergic cells mainly expressed the transcriptionally inactive p50 homodimer.
+# T21 Protein S10 76 79 1472 1475 p50
+# T22 Protein S10 80 83 1476 1479 p65
+# T23 Protein S10 110 113 1506 1509 CD4
+# T24 Protein S10 192 195 1588 1591 p50
+$ T22 Protein S10 80 83 1476 1479 p65
+$ T21 Protein S10 76 79 1472 1475 p50
+$ T24 Protein S10 192 195 1588 1591 p50
+@ T33 Gene_expression S10 62 72 1458 1468 expression
+@ T34 Gene_expression S10 151 160 1547 1556 expressed
+% E11 Gene_expression:T33 Theme:T22
+% E12 Gene_expression:T33 Theme:T21
+% E13 Gene_expression:T34 Theme:T24
+
+These alterations of transcription factors are likely to be responsible for repression of IL-2 in anergic T cells.
+# T25 Protein S11 90 94 1693 1697 IL-2
+$ T25 Protein S11 90 94 1693 1697 IL-2
+@ T35 Negative_regulation S11 76 86 1679 1689 repression
+% E14 Negative_regulation:T35 Theme:T25 Cause:E13
+

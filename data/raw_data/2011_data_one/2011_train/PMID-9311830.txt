@@ -1,0 +1,67 @@
+The ability of BHRF1 to inhibit apoptosis is dependent on stimulus and cell type.
+# T1 Protein S1 15 20 15 20 BHRF1
+
+The development of resistance to host defense mechanisms such as tumor necrosis factor (TNF)- and Fas-mediated apoptosis of transformed or virus-infected cells may be a critical component in the development of disease.
+# T2 Protein S2 98 101 181 184 Fas
+
+To find genes that protect cells from apoptosis, we used an expression cloning strategy and identified BHRF1, an Epstein-Barr virus (EBV) early-lytic-cycle protein with distant homology to Bcl-2, as an anti-apoptosis protein.
+# T3 Protein S3 103 108 405 410 BHRF1
+# T4 Protein S3 189 194 491 496 Bcl-2
+
+Expression of BHRF1 in MCF-Fas cells conferred nearly complete resistance against both anti-Fas antibody and TNF-mediated apoptosis.
+# T5 Protein S4 14 19 542 547 BHRF1
+# T6 Protein S4 92 95 620 623 Fas
+$ T5 Protein S4 14 19 542 547 BHRF1
+@ T25 Gene_expression S4 0 10 528 538 Expression
+% E1 Gene_expression:T25 Theme:T5
+
+In addition, BHRF1 protected these cells from monocyte-mediated killing but failed to protect them from killing mediated by lymphokine-activated killer cells.
+# T7 Protein S5 13 18 674 679 BHRF1
+
+The ability of BHRF1 to protect MCF-Fas cells from apoptosis induced by various stimuli was identical to that of Bcl-2 and Bcl-xL.
+# T8 Protein S6 15 20 835 840 BHRF1
+# T9 Protein S6 113 118 933 938 Bcl-2
+# T10 Protein S6 123 129 943 949 Bcl-xL
+
+Moreover, the mechanism of action of BHRF1 resembled that of Bcl-2 and Bcl-xL as it inhibited TNF- and anti-Fas-induced activation of two enzymes participating in the apoptosis pathway, cytosolic phospholipase A2 and caspase-3/CPP32, but did not interfere with the activation of NF-kappaB-like transcription factors.
+# T11 Protein S7 37 42 988 993 BHRF1
+# T12 Protein S7 61 66 1012 1017 Bcl-2
+# T13 Protein S7 71 77 1022 1028 Bcl-xL
+# T14 Protein S7 108 111 1059 1062 Fas
+# T15 Protein S7 186 212 1137 1163 cytosolic phospholipase A2
+# T16 Protein S7 217 226 1168 1177 caspase-3
+# T17 Protein S7 227 232 1178 1183 CPP32
+$ T13 Protein S7 71 77 1022 1028 Bcl-xL
+$ T12 Protein S7 61 66 1012 1017 Bcl-2
+$ T11 Protein S7 37 42 988 993 BHRF1
+$ T15 Protein S7 186 212 1137 1163 cytosolic phospholipase A2
+$ T16 Protein S7 217 226 1168 1177 caspase-3
+@ T26 Negative_regulation S7 84 93 1035 1044 inhibited
+@ T27 Positive_regulation S7 120 130 1071 1081 activation
+% E2 Negative_regulation:T26 Theme:E8 Cause:T13
+% E3 Negative_regulation:T26 Theme:E9 Cause:T12
+% E4 Negative_regulation:T26 Theme:E9 Cause:T13
+% E5 Negative_regulation:T26 Theme:E8 Cause:T11
+% E6 Negative_regulation:T26 Theme:E8 Cause:T12
+% E7 Negative_regulation:T26 Theme:E9 Cause:T11
+% E8 Positive_regulation:T27 Theme:T15
+% E9 Positive_regulation:T27 Theme:T16
+
+A putative function of BHRF1 in EBV-infected epithelial cells may be to protect virus-infected cells from TNF- and/or anti-Fas- induced cell death in order to maximize virus production.
+# T18 Protein S8 23 28 1291 1296 BHRF1
+# T19 Protein S8 123 126 1391 1394 Fas
+
+Surprisingly, expression of neither BHRF1 nor Bcl-2 in a B-cell line, BJAB, protected the cells from anti-Fas-mediated apoptosis even though they increased the survival of serum-starved cells.
+# T20 Protein S9 36 41 1490 1495 BHRF1
+# T21 Protein S9 46 51 1500 1505 Bcl-2
+# T22 Protein S9 106 109 1560 1563 Fas
+$ T21 Protein S9 46 51 1500 1505 Bcl-2
+$ T20 Protein S9 36 41 1490 1495 BHRF1
+@ T28 Gene_expression S9 14 24 1468 1478 expression
+% E10 Gene_expression:T28 Theme:T21
+% E11 Gene_expression:T28 Theme:T20
+
+Thus, the protective role of BHRF1 against apoptosis resembles that of Bcl-2 in being cell type specific and dependent on the apoptotic stimulus.
+# T23 Protein S10 29 34 1676 1681 BHRF1
+# T24 Protein S10 71 76 1718 1723 Bcl-2
+

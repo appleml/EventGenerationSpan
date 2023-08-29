@@ -1,0 +1,74 @@
+Regulation of c-jun mRNA expression by hydroxyurea in human K562 cells during erythroid differentiation [published erratum appears in Biochim Biophys Acta 1995 Dec 27;1264(3):409]
+# T1 Protein S1 14 19 14 19 c-jun
+$ T1 Protein S1 14 19 14 19 c-jun
+@ T8 Regulation S1 0 10 0 10 Regulation
+@ T9 Transcription S1 25 35 25 35 expression
+% E1 Regulation:T8 Theme:E2
+% E2 Transcription:T9 Theme:T1
+
+Hydroxyurea (HU) is an antitumor agent which also induces hemoglobinization during erythroid differentiation.
+
+In addition, HU stimulates the synthesis of fetal hemoglobin in sickle cell anemia patients.
+
+To further understand its mechanism of action, we investigated the effects of HU on regulation of c-jun expression prior to the onset of erythroid differentiation of K562 cells.
+# T2 Protein S4 98 103 482 487 c-jun
+$ T2 Protein S4 98 103 482 487 c-jun
+@ T10 Regulation S4 67 74 451 458 effects
+@ T11 Regulation S4 84 94 468 478 regulation
+@ T12 Gene_expression S4 104 114 488 498 expression
+% E3 Regulation:T10 Theme:E4
+% E4 Regulation:T11 Theme:E5
+% E5 Gene_expression:T12 Theme:T2
+
+HU induced a dose-dependent stimulation of c-jun synthesis.
+# T3 Protein S5 43 48 605 610 c-jun
+$ T3 Protein S5 43 48 605 610 c-jun
+@ T13 Positive_regulation S5 3 10 565 572 induced
+@ T14 Positive_regulation S5 28 39 590 601 stimulation
+@ T15 Gene_expression S5 49 58 611 620 synthesis
+% E6 Positive_regulation:T13 Theme:E7
+% E7 Positive_regulation:T14 Theme:E8
+% E8 Gene_expression:T15 Theme:T3
+
+The levels of c-jun mRNA was elevated 4 to 7.5-fold by HU within 2 h.
+# T4 Protein S6 14 19 636 641 c-jun
+$ T4 Protein S6 14 19 636 641 c-jun
+@ T16 Positive_regulation S6 29 37 651 659 elevated
+% E9 Positive_regulation:T16 Theme:T4
+
+This was followed by a gradual decline to the basal level by 24 h. Both nuclear run-on and actinomycin D pulse experiments strongly indicate that HU regulates c-jun mRNA expression by increasing the rate of synthesis as well as stabilizing the c-jun mRNA.
+# T5 Protein S7 159 164 851 856 c-jun
+# T6 Protein S7 244 249 936 941 c-jun
+$ T5 Protein S7 159 164 851 856 c-jun
+$ T6 Protein S7 244 249 936 941 c-jun
+@ T17 Negative_regulation S7 31 38 723 730 decline
+@ T18 Regulation S7 149 158 841 850 regulates
+@ T19 Transcription S7 170 180 862 872 expression
+@ T20 Positive_regulation S7 184 194 876 886 increasing
+@ T21 Transcription S7 207 216 899 908 synthesis
+@ T22 Positive_regulation S7 228 239 920 931 stabilizing
+% E10 Negative_regulation:T17 Theme:E9
+% E11 Regulation:T18 Theme:E12 Cause:E13
+% E12 Transcription:T19 Theme:T5
+% E13 Positive_regulation:T20 Theme:E14
+% E14 Transcription:T21 Theme:T6
+% E15 Positive_regulation:T22 Theme:T6
+
+In addition, the level of jun protein was elevated by 2 to 5-fold within 4 h in HU treated cells.
+
+Furthermore, concentrations of HU below 250 microM slightly increased the 5X AP-1/CAT activity.
+
+These results strongly suggest that HU induces both transcriptional and post-transcription regulation of c-jun during erythroid differentiation.
+# T7 Protein S10 105 110 1247 1252 c-jun
+$ T7 Protein S10 105 110 1247 1252 c-jun
+@ T23 Positive_regulation S10 39 46 1181 1188 induces
+@ T24 Transcription S10 52 67 1194 1209 transcriptional
+@ T25 Gene_expression S10 72 90 1214 1232 post-transcription
+@ T26 Regulation S10 91 101 1233 1243 regulation
+% E16 Positive_regulation:T23 Theme:E21
+% E17 Positive_regulation:T23 Theme:E20
+% E18 Transcription:T24 Theme:T7
+% E19 Gene_expression:T25 Theme:T7
+% E20 Regulation:T26 Theme:E19
+% E21 Regulation:T26 Theme:E18
+

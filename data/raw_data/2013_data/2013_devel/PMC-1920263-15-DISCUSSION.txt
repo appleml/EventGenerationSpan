@@ -1,0 +1,414 @@
+Shortly after the discovery of APOBEC3G, it became clear that this human gene plays an important role in antiretroviral defense (4).
+# T1 Protein S1 31 39 31 39 APOBEC3G
+
+Originally identified as a restriction factor of HIV-1 infection, expression of APOBEC3G was found in human peripheral blood lymphocytes and macrophages, which represent the main target cells for HIV-1 (32).
+# T2 Protein S2 80 88 213 221 APOBEC3G
+$ T2 Protein S2 80 88 213 221 APOBEC3G
+@ T86 Gene_expression S2 66 76 199 209 expression
+% E1 Gene_expression:T86 Theme:T2
+
+In addition, the protein was detected in lung, liver, spleen, testis and ovary, but little is known about its transcriptional regulation (29,32,47).
+@ T80 Anaphora S3 13 24 354 365 the protein
+@ T87 Gene_expression S3 29 37 370 378 detected
+% E2 Gene_expression:T87 Theme:T2
+
+To address this question, we cloned the human APOBEC3G promoter and analyzed its regulation in T cells.
+# T3 Protein S4 46 54 536 544 APOBEC3G
+$ T3 Protein S4 46 54 536 544 APOBEC3G
+@ T88 Entity S4 55 63 545 553 promoter
+@ T81 Anaphora S4 77 80 567 570 its
+@ T89 Regulation S4 81 91 571 581 regulation
+% E3 Regulation:T89 Theme:T3 Site:T88
+
+Applying 5'-RACE, we identified multiple start sites for transcription of the A3G gene.
+# T4 Protein S5 78 81 672 675 A3G
+$ T4 Protein S5 78 81 672 675 A3G
+@ T90 Transcription S5 57 70 651 664 transcription
+% E4 Transcription:T90 Theme:T4
+
+This observation is consistent with the fact that the gene appears to lack canonical CCAAT and TATA boxes (32), a condition often associated with multiple transcriptional start sites (49-51).
+
+However, one single start site was detected in 6 of 19 clones and was designated as +1.
+
+This TSS is located 66 bp upstream of the start of the published mRNA sequence (GenBank(TM) NM021822).
+
+We cloned a 1025 bp promoter, which ranges from position -959/+66 relative to the identified TSS.
+
+Luciferase reporter assays showed that this promoter was transcriptionally active in A3.01 T cells.
+# T5 Protein S10 0 10 1163 1173 Luciferase
+
+Treatment with the phorbol ester TPA did not further enhance transcriptional activity, although upregulation of A3G mRNA levels in T cells by TPA has been described (33).
+# T6 Protein S11 112 115 1375 1378 A3G
+$ T6 Protein S11 112 115 1375 1378 A3G
+@ T91 Positive_regulation S11 53 60 1316 1323 enhance
+@ T92 Transcription S11 61 76 1324 1339 transcriptional
+@ T93 Positive_regulation S11 96 108 1359 1371 upregulation
+% E5 Positive_regulation:T91 Theme:E6
+% E6 Transcription:T92 Theme:T6
+% E7 Positive_regulation:T93 Theme:T6
+
+Rose et al. used actinomycin D to block further transcription and did not find evidence for enhanced mRNA stability.
+@ T94 Negative_regulation S12 34 39 1468 1473 block
+@ T95 Transcription S12 48 61 1482 1495 transcription
+% E8 Negative_regulation:T94 Theme:E9
+% E9 Transcription:T95 Theme:T6
+
+Therefore, the authors suggested that an enhanced transcription rate could be responsible for the increased amount of A3G mRNA after TPA treatment.
+# T7 Protein S13 118 121 1669 1672 A3G
+$ T7 Protein S13 118 121 1669 1672 A3G
+@ T96 Positive_regulation S13 41 49 1592 1600 enhanced
+@ T97 Transcription S13 50 63 1601 1614 transcription
+@ T98 Positive_regulation S13 98 107 1649 1658 increased
+% E10 Positive_regulation:T96 Theme:E11
+% E11 Transcription:T97 Theme:T7
+% E12 Positive_regulation:T98 Theme:T7 Cause:E10
+
+However, the promoter analysis we performed indicates a different mechanism that is independent of transcriptional regulation.
+
+In addition, we observed that the A3G promoter was not inducible by IFN-alpha or IFN-gamma in A3.01 T cells, whereas in the hepatic cell line HepG2, a moderate induction was measured.
+# T8 Protein S15 34 37 1860 1863 A3G
+# T9 Protein S15 68 77 1894 1903 IFN-alpha
+# T10 Protein S15 81 90 1907 1916 IFN-gamma
+$ T8 Protein S15 34 37 1860 1863 A3G
+$ T9 Protein S15 68 77 1894 1903 IFN-alpha
+$ T10 Protein S15 81 90 1907 1916 IFN-gamma
+@ T99 Entity S15 38 46 1864 1872 promoter
+@ T100 Positive_regulation S15 55 64 1881 1890 inducible
+% E13 Positive_regulation:T100 Theme:T8 Cause:T9 Site:T99
+% E14 Positive_regulation:T100 Theme:T8 Cause:T10 Site:T99
+
+It has been described previously that A3G gene expression is upregulated by interferons in hepatocytes and macrophages (46-48, 52).
+# T11 Protein S16 38 41 2048 2051 A3G
+$ T11 Protein S16 38 41 2048 2051 A3G
+@ T101 Gene_expression S16 47 57 2057 2067 expression
+@ T102 Positive_regulation S16 61 72 2071 2082 upregulated
+@ T82 Anaphora S16 76 87 2086 2097 interferons
+% E15 Gene_expression:T101 Theme:T11
+% E16 Positive_regulation:T102 Theme:E15 Cause:T9
+% E17 Positive_regulation:T102 Theme:E15 Cause:T10
+
+In this context, two interferon-responsive elements have been identified at the positions -6/+9 and +1/+15 relative to the TSS (48).
+
+Consistent with this data, we observed an interferon induction in hepatocytes for the fragments ranging between 1025 and 120 bp length.
+@ T83 Anaphora S18 42 52 2317 2327 interferon
+
+The activity of the 60 bp fragment that does not contain these motifs was not affected.
+@ T103 Entity S19 20 34 2431 2445 60 bp fragment
+@ T104 Regulation S19 78 86 2489 2497 affected
+% E18 Regulation:T104 Theme:T8 Cause:T9 Site:T103
+% E19 Regulation:T104 Theme:T8 Cause:T10 Site:T103
+
+Thus, the induction we observed was most likely mediated by the described interferon-responsive elements.
+@ T105 Entity S20 60 104 2559 2603 the described interferon-responsive elements
+
+However, according to our results, these motifs can enhance transcription in hepatic cells, but not in T cells.
+@ T84 Anaphora S21 35 47 2640 2652 these motifs
+@ T106 Positive_regulation S21 52 59 2657 2664 enhance
+@ T107 Transcription S21 60 73 2665 2678 transcription
+% E20 Positive_regulation:T106 Theme:E21 Cause:T8 CSite:T105
+% E21 Transcription:T107 Theme:T8
+
+This is surprising, since IFN-alpha-inducible signaling cascades are present in A3.01 T cells: we showed that the control plasmid harboring interferon-responsive GAS elements was markedly induced by IFN-alpha treatment.
+# T12 Protein S22 26 35 2743 2752 IFN-alpha
+# T13 Protein S22 199 208 2916 2925 IFN-alpha
+
+In contrast, the GAS element was not responsive to IFN-gamma treatment in these cells, suggesting that our T cell line was not able to mediate IFN-gamma-induced signals.
+# T14 Protein S23 51 60 2988 2997 IFN-gamma
+# T15 Protein S23 143 152 3080 3089 IFN-gamma
+
+So far, enhanced A3G promoter activity by interferons is clearly described in hepatocytes and macrophages, whereas the situation in T cells is still unclear.
+# T16 Protein S24 17 20 3124 3127 A3G
+
+A recent study found no influence of IFN-alpha or IFN-gamma on A3G expression in resting primary blood lymphocytes (52).
+# T17 Protein S25 37 46 3302 3311 IFN-alpha
+# T18 Protein S25 50 59 3315 3324 IFN-gamma
+# T19 Protein S25 63 66 3328 3331 A3G
+$ T17 Protein S25 37 46 3302 3311 IFN-alpha
+$ T18 Protein S25 50 59 3315 3324 IFN-gamma
+$ T19 Protein S25 63 66 3328 3331 A3G
+@ T108 Regulation S25 24 33 3289 3298 influence
+@ T109 Gene_expression S25 67 77 3332 3342 expression
+% E22 Regulation:T108 Theme:E23 Cause:T17
+% E24 Regulation:T108 Theme:E23 Cause:T18
+% E23 Gene_expression:T109 Theme:T19
+
+Another publication describes an enhanced expression of A3G after IFN-alpha treatment in resting primary CD4 T cells, but not in activated T cells (53).
+# T20 Protein S26 56 59 3442 3445 A3G
+# T21 Protein S26 66 75 3452 3461 IFN-alpha
+# T22 Protein S26 105 108 3491 3494 CD4
+$ T21 Protein S26 66 75 3452 3461 IFN-alpha
+$ T20 Protein S26 56 59 3442 3445 A3G
+@ T110 Positive_regulation S26 33 41 3419 3427 enhanced
+@ T111 Gene_expression S26 42 52 3428 3438 expression
+% E25 Positive_regulation:T110 Theme:E26 Cause:T21
+% E26 Gene_expression:T111 Theme:T20
+
+This observation is not contradictory to our results since T cell lines are mitotically active and therefore rather in an activated than in a resting state.
+
+In conclusion, the current data suggests that regulation of the A3G promoter activity by interferons is dependent on the cell type and possibly also from the cellular activation status.
+# T23 Protein S28 64 67 3760 3763 A3G
+
+We additionally analyzed the influence of HIV-1 proteins on A3G promoter activity.
+# T24 Protein S29 60 63 3942 3945 A3G
+
+The HIV-1 Vif protein is neutralizing the antiviral function of A3G by a multitude of ways.
+# T25 Protein S30 10 13 3975 3978 Vif
+# T26 Protein S30 64 67 4029 4032 A3G
+
+Targeting the A3G protein for proteasomal degradation is considered to be the main mode of action (37-41), but it becomes more and more clear that other mechanisms are also involved.
+# T27 Protein S31 14 17 4071 4074 A3G
+$ T27 Protein S31 14 17 4071 4074 A3G
+@ T112 Positive_regulation S31 0 9 4057 4066 Targeting
+@ T113 Protein_catabolism S31 30 53 4087 4110 proteasomal degradation
+% E27 Positive_regulation:T112 Theme:E28 Cause:T25
+% E28 Protein_catabolism:T113 Theme:T27
+
+There is evidence that Vif also promotes exclusion of A3G from the virus particles and an influence on the A3G translation process is discussed (8,42,43).
+# T28 Protein S32 23 26 4263 4266 Vif
+# T29 Protein S32 54 57 4294 4297 A3G
+# T30 Protein S32 107 110 4347 4350 A3G
+
+The question whether Vif alters transcription controlled by the A3G promoter has not been analyzed so far.
+# T31 Protein S33 21 24 4416 4419 Vif
+# T32 Protein S33 64 67 4459 4462 A3G
+$ T31 Protein S33 21 24 4416 4419 Vif
+$ T32 Protein S33 64 67 4459 4462 A3G
+@ T114 Regulation S33 25 31 4420 4426 alters
+@ T115 Transcription S33 32 45 4427 4440 transcription
+@ T116 Regulation S33 46 56 4441 4451 controlled
+@ T117 Entity S33 68 76 4463 4471 promoter
+% E29 Regulation:T114 Theme:E30 Cause:T31
+% E31 Transcription:T115 Theme:T32
+% E30 Regulation:T116 Theme:E31 Cause:T32 CSite:T117
+
+Our analysis indicates that transcription from the A3G promoter is unaffected by Vif or other HIV-1 proteins.
+# T33 Protein S34 51 54 4553 4556 A3G
+# T34 Protein S34 81 84 4583 4586 Vif
+$ T33 Protein S34 51 54 4553 4556 A3G
+$ T34 Protein S34 81 84 4583 4586 Vif
+@ T118 Transcription S34 28 41 4530 4543 transcription
+@ T119 Positive_regulation S34 42 46 4544 4548 from
+@ T120 Entity S34 55 63 4557 4565 promoter
+@ T121 Regulation S34 67 77 4569 4579 unaffected
+% E32 Transcription:T118 Theme:T33
+% E33 Positive_regulation:T119 Theme:E32 Cause:T33 CSite:T120
+% E34 Regulation:T121 Theme:E32 Cause:T34
+
+Taken together, in T cell lines, the A3G promoter appears constitutively active.
+# T35 Protein S35 37 40 4649 4652 A3G
+$ T35 Protein S35 37 40 4649 4652 A3G
+@ T122 Entity S35 41 49 4653 4661 promoter
+@ T123 Positive_regulation S35 73 79 4685 4691 active
+% E35 Positive_regulation:T123 Theme:T35 Site:T122
+
+By generating a series of 5' deletions, we showed that the core promoter is located within the region -114/+66 relative to the TSS.
+
+This 180 bp promoter was transcriptionally active in the lymphoid, myeloid and hepatic cell lines we tested, indicating that ubiquitous transcription factors are involved in regulation of A3G gene transcription.
+# T36 Protein S37 188 191 5013 5016 A3G
+$ T36 Protein S37 188 191 5013 5016 A3G
+@ T124 Regulation S37 174 184 4999 5009 regulation
+@ T125 Transcription S37 197 210 5022 5035 transcription
+% E36 Regulation:T124 Theme:E37
+% E37 Transcription:T125 Theme:T36
+
+A GC-box with the sequence TGGGCGGGAC was identified at position -87/-78 of the A3G promoter.
+# T37 Protein S38 80 83 5117 5120 A3G
+
+This GC-box is essential for basal promoter activity, since changing the motif to TGTTCGGGAC by introducing two point mutations strongly reduced A3G promoter activity.
+# T38 Protein S39 82 92 5213 5223 TGTTCGGGAC
+# T39 Protein S39 145 148 5276 5279 A3G
+
+The transcriptional potency of the GC-box was further demonstrated by cloning it upstream of an SV40 promoter.
+
+This resulted in a 4-fold enhanced transcription rate.
+
+The hypothesis that a general transcription factor is involved in regulation of A3G transcription was confirmed by EMSA.
+# T40 Protein S42 80 83 5545 5548 A3G
+$ T40 Protein S42 80 83 5545 5548 A3G
+@ T126 Regulation S42 66 76 5531 5541 regulation
+@ T127 Transcription S42 84 97 5549 5562 transcription
+% E38 Regulation:T126 Theme:E39
+% E39 Transcription:T127 Theme:T40
+
+Supershift analysis showed that the transcription factors Sp1 and Sp3 which are ubiquitously expressed in mammalian cells, bind specifically to the identified motif.
+# T41 Protein S43 58 61 5644 5647 Sp1
+# T42 Protein S43 66 69 5652 5655 Sp3
+$ T41 Protein S43 58 61 5644 5647 Sp1
+$ T42 Protein S43 66 69 5652 5655 Sp3
+@ T128 Gene_expression S43 93 102 5679 5688 expressed
+@ T129 Binding S43 123 127 5709 5713 bind
+% E40 Gene_expression:T128 Theme:T41
+% E41 Gene_expression:T128 Theme:T42
+% E42 Binding:T129 Theme:T41
+% E43 Binding:T129 Theme:T42
+
+In addition, the binding of Sp1 and Sp3 to the endogenous A3G promoter was demonstrated by a chromatin immunoprecipitation assay.
+# T43 Protein S44 28 31 5780 5783 Sp1
+# T44 Protein S44 36 39 5788 5791 Sp3
+# T45 Protein S44 58 61 5810 5813 A3G
+$ T43 Protein S44 28 31 5780 5783 Sp1
+$ T45 Protein S44 58 61 5810 5813 A3G
+$ T44 Protein S44 36 39 5788 5791 Sp3
+@ T130 Binding S44 17 24 5769 5776 binding
+@ T131 Entity S44 62 70 5814 5822 promoter
+% E44 Binding:T130 Theme:T43 Theme2:T45 Site2:T131
+% E45 Binding:T130 Theme:T44 Theme2:T45 Site2:T131
+
+This observation is consistent with the results of the 5'-RACE, since Sp1 is known to play an important role for RNA polymerase II to bind to the transcription initiation site in TATA-boxless promoters and is associated with multiple transcription initiation sites (54-56).
+# T46 Protein S45 70 73 5952 5955 Sp1
+# T47 Protein S45 113 130 5995 6012 RNA polymerase II
+$ T46 Protein S45 70 73 5952 5955 Sp1
+$ T47 Protein S45 113 130 5995 6012 RNA polymerase II
+@ T132 Positive_regulation S45 86 108 5968 5990 play an important role
+@ T133 Binding S45 134 138 6016 6020 bind
+% E46 Positive_regulation:T132 Theme:E47 Cause:T46
+% E47 Binding:T133 Theme:T47
+
+We also tested whether overexpression of Sp1 or Sp3 proteins had an influence on A3G promoter activity.
+# T48 Protein S46 41 44 6197 6200 Sp1
+# T49 Protein S46 48 51 6204 6207 Sp3
+# T50 Protein S46 81 84 6237 6240 A3G
+$ T48 Protein S46 41 44 6197 6200 Sp1
+$ T49 Protein S46 48 51 6204 6207 Sp3
+@ T134 Gene_expression S46 23 37 6179 6193 overexpression
+% E48 Gene_expression:T134 Theme:T48
+% E49 Gene_expression:T134 Theme:T49
+
+Luciferase assays revealed that A3G promoter activities remained unchanged (data not shown), most probably due to the high basal expression level of the endogenous Sp1 and/or Sp3 proteins.
+# T51 Protein S47 0 10 6260 6270 Luciferase
+# T52 Protein S47 32 35 6292 6295 A3G
+# T53 Protein S47 164 167 6424 6427 Sp1
+# T54 Protein S47 175 178 6435 6438 Sp3
+$ T53 Protein S47 164 167 6424 6427 Sp1
+$ T54 Protein S47 175 178 6435 6438 Sp3
+@ T135 Gene_expression S47 129 139 6389 6399 expression
+% E50 Gene_expression:T135 Theme:T53
+% E51 Gene_expression:T135 Theme:T54
+
+The Sp family of transcription factors is involved in transcriptional regulation of many housekeeping, tissue-specific, viral and inducible genes (57).
+
+Whereas Sp1 typically acts as an activator, Sp3 can serve as a repressor or activator (57).
+# T55 Protein S49 8 11 6609 6612 Sp1
+# T56 Protein S49 44 47 6645 6648 Sp3
+
+However, in the context of the A3G promoter, both transcription factors serve as activators, as shown by siRNA-mediated silencing of the single factors.
+# T57 Protein S50 31 34 6724 6727 A3G
+$ T57 Protein S50 31 34 6724 6727 A3G
+@ T136 Entity S50 35 43 6728 6736 promoter
+@ T85 Anaphora S50 45 71 6738 6764 both transcription factors
+@ T137 Positive_regulation S50 72 92 6765 6785 serve as activators,
+@ T138 Negative_regulation S50 120 129 6813 6822 silencing
+% E52 Positive_regulation:T137 Theme:T57 Cause:T55 Site:T136
+% E53 Positive_regulation:T137 Theme:T57 Cause:T56 Site:T136
+% E54 Negative_regulation:T138 Theme:T55
+% E55 Negative_regulation:T138 Theme:T56
+
+Although siRNAs directed against Sp1 or Sp3 significantly reduced transcription controlled by the 180 bp promoter, transcriptional activity was not reduced to the level of the 150 bp fragment.
+# T58 Protein S51 33 36 6879 6882 Sp1
+# T59 Protein S51 40 43 6886 6889 Sp3
+@ T139 Negative_regulation S51 58 65 6904 6911 reduced
+@ T140 Transcription S51 66 79 6912 6925 transcription
+@ T141 Regulation S51 80 90 6926 6936 controlled
+@ T142 Entity S51 98 113 6944 6959 180 bp promoter
+@ T143 Transcription S51 115 130 6961 6976 transcriptional
+@ T144 Negative_regulation S51 148 155 6994 7001 reduced
+% E56 Negative_regulation:T139 Theme:E57
+% E57 Transcription:T140 Theme:T57
+% E58 Regulation:T141 Theme:E57 Cause:T57 CSite:T142
+% E59 Transcription:T143 Theme:T57
+% E60 Negative_regulation:T144 Theme:E59
+
+This can be explained by the remaining low amounts of Sp1/Sp3 proteins which can be seen in the western blot analysis.
+# T60 Protein S52 54 57 7093 7096 Sp1
+# T61 Protein S52 58 61 7097 7100 Sp3
+
+Alternatively, other transcription factors could be involved in A3G regulation.
+# T62 Protein S53 64 67 7222 7225 A3G
+$ T62 Protein S53 64 67 7222 7225 A3G
+@ T145 Regulation S53 68 78 7226 7236 regulation
+% E61 Regulation:T145 Theme:T62
+
+Our results also provide information about the regulation of APOBEC3F (A3F), another member of the human APOBEC3 family.
+# T63 Protein S54 61 69 7299 7307 APOBEC3F
+# T64 Protein S54 71 74 7309 7312 A3F
+$ T63 Protein S54 61 69 7299 7307 APOBEC3F
+@ T146 Regulation S54 47 57 7285 7295 regulation
+% E62 Regulation:T146 Theme:T63
+
+A3F is expressed in many human tissues that also express A3G and both proteins have been shown to form heteromultimers, which are most likely generated through binding to an RNA intermediate (26,29,30).
+# T65 Protein S55 0 3 7359 7362 A3F
+# T66 Protein S55 57 60 7416 7419 A3G
+$ T65 Protein S55 0 3 7359 7362 A3F
+$ T66 Protein S55 57 60 7416 7419 A3G
+@ T147 Gene_expression S55 7 16 7366 7375 expressed
+@ T148 Gene_expression S55 49 56 7408 7415 express
+@ T149 Binding S55 98 118 7457 7477 form heteromultimers
+% E63 Gene_expression:T147 Theme:T65
+% E64 Gene_expression:T148 Theme:T66
+% E65 Binding:T149 Theme:T65 Theme2:T66
+
+A3F only differs in 16 nt from the 560 nt upstream of the TSS of A3G (GenBank(TM) DQ146365 and DQ147772).
+# T67 Protein S56 0 3 7562 7565 A3F
+# T68 Protein S56 65 68 7627 7630 A3G
+
+The 180-bp core promoter region, which we identified for A3G has 100% identity with the A3F sequence.
+# T69 Protein S57 57 60 7725 7728 A3G
+# T70 Protein S57 88 91 7756 7759 A3F
+
+Therefore, Sp1/Sp3 transcription factors are most likely also mediating basal transcription of the A3F gene.
+# T71 Protein S58 11 14 7781 7784 Sp1
+# T72 Protein S58 15 18 7785 7788 Sp3
+# T73 Protein S58 99 102 7869 7872 A3F
+$ T71 Protein S58 11 14 7781 7784 Sp1
+$ T72 Protein S58 15 18 7785 7788 Sp3
+$ T73 Protein S58 99 102 7869 7872 A3F
+@ T150 Positive_regulation S58 62 71 7832 7841 mediating
+@ T151 Transcription S58 78 91 7848 7861 transcription
+% E66 Positive_regulation:T150 Theme:E67 Cause:T71
+% E68 Positive_regulation:T150 Theme:E67 Cause:T72
+% E67 Transcription:T151 Theme:T73
+
+Our study revealed that the human A3G gene is controlled by a promoter with multiple transcriptional start sites.
+# T74 Protein S59 34 37 7913 7916 A3G
+$ T74 Protein S59 34 37 7913 7916 A3G
+@ T152 Regulation S59 46 56 7925 7935 controlled
+@ T153 Entity S59 62 112 7941 7991 promoter with multiple transcriptional start sites
+% E69 Regulation:T152 Theme:T74 Cause:T74 CSite:T153
+
+In A3.01 T cells, the A3G promoter appears constitutively active and is not inducible by TPA, type I or II interferons or by HIV-1 proteins.
+# T75 Protein S60 22 25 8015 8018 A3G
+$ T75 Protein S60 22 25 8015 8018 A3G
+@ T154 Entity S60 26 34 8019 8027 promoter
+@ T155 Positive_regulation S60 58 64 8051 8057 active
+@ T156 Positive_regulation S60 76 85 8069 8078 inducible
+% E70 Positive_regulation:T155 Theme:T75 Site:T154
+% E71 Positive_regulation:T156 Theme:T75 Site:T154
+
+The core promoter is located within a region of 180 bp at position -114/+66 relative to the TSS.
+
+A GC-box is crucial to the function of the core promoter and represents a binding site for Sp1 and Sp3 transcription factors.
+# T76 Protein S62 91 94 8322 8325 Sp1
+# T77 Protein S62 99 102 8330 8333 Sp3
+$ T76 Protein S62 91 94 8322 8325 Sp1
+$ T77 Protein S62 99 102 8330 8333 Sp3
+@ T157 Entity S62 2 8 8233 8239 GC-box
+@ T158 Positive_regulation S62 12 19 8243 8250 crucial
+@ T159 Entity S62 43 56 8274 8287 core promoter
+@ T160 Binding S62 74 81 8305 8312 binding
+% E72 Positive_regulation:T158 Theme:E73 Cause:T75 CSite:T157
+% E74 Positive_regulation:T158 Theme:E75 Cause:T75 CSite:T157
+% E73 Binding:T160 Theme:T75 Theme2:T76 Site:T159
+% E75 Binding:T160 Theme:T75 Theme2:T77 Site:T159
+
+Our results can serve as a basis for future studies aimed at understanding how A3G and A3F expression is controlled in different tissues and how these restriction factors can be used to develop novel therapeutic strategies against HIV-1 infection.
+# T78 Protein S63 79 82 8436 8439 A3G
+# T79 Protein S63 87 90 8444 8447 A3F
+$ T78 Protein S63 79 82 8436 8439 A3G
+$ T79 Protein S63 87 90 8444 8447 A3F
+@ T161 Gene_expression S63 91 101 8448 8458 expression
+@ T162 Regulation S63 105 115 8462 8472 controlled
+% E76 Gene_expression:T161 Theme:T78
+% E77 Gene_expression:T161 Theme:T79
+% E78 Regulation:T162 Theme:E76
+% E79 Regulation:T162 Theme:E77
+

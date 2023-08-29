@@ -1,0 +1,20 @@
+BMP-6 induces cell death in human memory B cells and Ramos cells
+# T1 Protein S1 0 5 0 5 BMP-6
+
+Next, we wanted to establish whether BMP-6 also could affect the viability of normal B cells.
+# T2 Protein S2 37 42 102 107 BMP-6
+
+Cell viability was determined by propidium iodide (PI) staining after culture with or without BMP-6 for 48 hours.
+# T3 Protein S3 94 99 253 258 BMP-6
+
+Interestingly, BMP-6 showed a small, but reproducible mean increase of cell death from 17 to 23% (n = 5; p <= 0,003) in anti-IgM stimulated CD27+ memory B cells.
+# T4 Protein S4 15 20 288 293 BMP-6
+# T5 Protein S4 140 144 413 417 CD27
+
+Furthermore, Ramos cells showed a mean increase in cell death from 20 to 50% (n = 3, p < 0,001, figure 3) after BMP-6 treatment.
+# T6 Protein S5 112 117 547 552 BMP-6
+
+In contrast, cell death of total CD19+ cells (n = 6; p <= 0,32; data not shown) or CD27-IgG- naive B cells was not significantly affected (n = 5; p <= 0,65, figure 2).
+# T7 Protein S6 33 37 597 601 CD19
+# T8 Protein S6 83 87 647 651 CD27
+

@@ -1,0 +1,118 @@
+TAL1 and LIM-only proteins synergistically induce retinaldehyde dehydrogenase 2 expression in T-cell acute lymphoblastic leukemia by acting as cofactors for GATA3.
+# T1 Protein S1 0 4 0 4 TAL1
+# T2 Protein S1 50 79 50 79 retinaldehyde dehydrogenase 2
+# T3 Protein S1 157 162 157 162 GATA3
+$ T2 Protein S1 50 79 50 79 retinaldehyde dehydrogenase 2
+@ T28 Positive_regulation S1 43 49 43 49 induce
+@ T29 Gene_expression S1 80 90 80 90 expression
+% E1 Positive_regulation:T28 Theme:E2
+% E2 Gene_expression:T29 Theme:T2
+
+Previously, we have shown that TAL1 and the LIM-only protein gene (LMO) are regularly coactivated in T-cell acute lymphoblastic leukemia (T-ALL).
+# T4 Protein S2 31 35 196 200 TAL1
+$ T4 Protein S2 31 35 196 200 TAL1
+@ T30 Positive_regulation S2 86 97 251 262 coactivated
+% E3 Positive_regulation:T30 Theme:T4
+
+This observation is likely to relate to the findings that TAL1 and LMO are highly synergistic in T-cell tumorigenesis in double-transgenic mice.
+# T5 Protein S3 58 62 369 373 TAL1
+
+To understand the molecular mechanisms of functional synergy between TAL1 and LMO in tumorigenesis and transcriptional regulation, we tried to identify downstream target genes regulated by TAL1 and LMO by a subtractive PCR method.
+# T6 Protein S4 69 73 525 529 TAL1
+# T7 Protein S4 189 193 645 649 TAL1
+
+One of the isolated genes, that for retinaldehyde dehydrogenase 2 (RALDH2), was regularly expressed in most of the T-ALL cell lines that coexpressed TAL1 and LMO.
+# T8 Protein S5 36 65 723 752 retinaldehyde dehydrogenase 2
+# T9 Protein S5 67 73 754 760 RALDH2
+# T10 Protein S5 149 153 836 840 TAL1
+$ T9 Protein S5 67 73 754 760 RALDH2
+$ T10 Protein S5 149 153 836 840 TAL1
+@ T31 Gene_expression S5 90 99 777 786 expressed
+@ T32 Gene_expression S5 137 148 824 835 coexpressed
+% E4 Gene_expression:T31 Theme:T9
+% E5 Gene_expression:T32 Theme:T10
+
+Exogenously transfected TAL1 and LMO, but not either alone, induced RALDH2 expression in a T-ALL cell line, HPB-ALL, not expressing endogeneous TAL1 or LMO.
+# T11 Protein S6 24 28 874 878 TAL1
+# T12 Protein S6 68 74 918 924 RALDH2
+# T13 Protein S6 144 148 994 998 TAL1
+$ T11 Protein S6 24 28 874 878 TAL1
+$ T12 Protein S6 68 74 918 924 RALDH2
+$ T13 Protein S6 144 148 994 998 TAL1
+@ T33 Positive_regulation S6 12 23 862 873 transfected
+@ T34 Gene_expression S6 12 23 862 873 transfected
+@ T35 Positive_regulation S6 60 67 910 917 induced
+@ T36 Gene_expression S6 75 85 925 935 expression
+@ T37 Gene_expression S6 121 131 971 981 expressing
+% E6 Positive_regulation:T33 Theme:E7
+% E7 Gene_expression:T34 Theme:T11
+% E8 Positive_regulation:T35 Theme:E10 Cause:E6
+% E9 Positive_regulation:T35 Theme:E10
+% E10 Gene_expression:T36 Theme:T12
+% E11 Gene_expression:T37 Theme:T13
+
+The RALDH2 transcripts in T-ALL were, however, mostly initiated within the second intron.
+# T14 Protein S7 4 10 1011 1017 RALDH2
+$ T14 Protein S7 4 10 1011 1017 RALDH2
+@ T38 Transcription S7 54 63 1061 1070 initiated
+% E12 Transcription:T38 Theme:T14
+
+Promoter analysis revealed that a GATA site in a cryptic promoter in the second intron was essential and sufficient for the TAL1- and LMO-dependent transcriptional activation, and GATA3 binds to this site.
+# T15 Protein S8 124 128 1221 1225 TAL1
+# T16 Protein S8 180 185 1277 1282 GATA3
+$ T16 Protein S8 180 185 1277 1282 GATA3
+@ T39 Binding S8 186 191 1283 1288 binds
+% E13 Binding:T39 Theme:T16
+
+In addition, forced expression of GATA3 potentiated the induction of RALDH2 by TAL1 and LMO, and these three factors formed a complex in vivo.
+# T17 Protein S9 34 39 1337 1342 GATA3
+# T18 Protein S9 69 75 1372 1378 RALDH2
+# T19 Protein S9 79 83 1382 1386 TAL1
+$ T17 Protein S9 34 39 1337 1342 GATA3
+$ T18 Protein S9 69 75 1372 1378 RALDH2
+$ T19 Protein S9 79 83 1382 1386 TAL1
+@ T40 Positive_regulation S9 13 19 1316 1322 forced
+@ T41 Gene_expression S9 20 30 1323 1333 expression
+@ T42 Positive_regulation S9 40 51 1343 1354 potentiated
+@ T43 Positive_regulation S9 56 65 1359 1368 induction
+@ T44 Binding S9 117 133 1420 1436 formed a complex
+% E14 Positive_regulation:T40 Theme:E15
+% E15 Gene_expression:T41 Theme:T17
+% E16 Positive_regulation:T42 Theme:E17 Cause:E14
+% E17 Positive_regulation:T43 Theme:T18 Cause:T19
+% E18 Binding:T44 Theme:T17 Theme2:T19
+
+Furthermore, a TAL1 mutant not binding to DNA also activated the transcription of RALDH2 in the presence of LMO and GATA3.
+# T20 Protein S10 15 19 1461 1465 TAL1
+# T21 Protein S10 82 88 1528 1534 RALDH2
+# T22 Protein S10 116 121 1562 1567 GATA3
+$ T20 Protein S10 15 19 1461 1465 TAL1
+$ T21 Protein S10 82 88 1528 1534 RALDH2
+$ T22 Protein S10 116 121 1562 1567 GATA3
+@ T45 Binding S10 31 38 1477 1484 binding
+@ T46 Positive_regulation S10 51 60 1497 1506 activated
+@ T47 Transcription S10 65 78 1511 1524 transcription
+@ T48 Positive_regulation S10 89 107 1535 1553 in the presence of
+% E19 Binding:T45 Theme:T20
+% E20 Positive_regulation:T46 Theme:E21 Cause:T20
+% E21 Transcription:T47 Theme:T21
+% E22 Positive_regulation:T48 Theme:E20 Cause:T22
+
+Collectively, we have identified the RALDH2 gene as a first example of direct transcriptional target genes regulated by TAL1 and LMO in T-ALL.
+# T23 Protein S11 37 43 1606 1612 RALDH2
+# T24 Protein S11 120 124 1689 1693 TAL1
+$ T23 Protein S11 37 43 1606 1612 RALDH2
+$ T24 Protein S11 120 124 1689 1693 TAL1
+@ T49 Regulation S11 107 116 1676 1685 regulated
+% E23 Regulation:T49 Theme:T23 Cause:T24
+
+In this case, TAL1 and LMO act as cofactors for GATA3 to activate the transcription of RALDH2.
+# T25 Protein S12 14 18 1726 1730 TAL1
+# T26 Protein S12 48 53 1760 1765 GATA3
+# T27 Protein S12 87 93 1799 1805 RALDH2
+$ T27 Protein S12 87 93 1799 1805 RALDH2
+@ T50 Positive_regulation S12 57 65 1769 1777 activate
+@ T51 Transcription S12 70 83 1782 1795 transcription
+% E24 Positive_regulation:T50 Theme:E25
+% E25 Transcription:T51 Theme:T27
+

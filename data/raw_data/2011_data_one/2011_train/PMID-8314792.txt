@@ -1,0 +1,43 @@
+Comparative analysis of NFAT (nuclear factor of activated T cells) complex in human T and B lymphocytes.
+
+Nuclear factor of activated T cells (NFAT) is a transcriptional activator that binds to sequences in the interleukin-2 (IL-2) promoter and is thought to be largely responsible for the T cell-specific inducibility of IL-2 expression.
+# T1 Protein S2 105 118 211 224 interleukin-2
+# T2 Protein S2 120 124 226 230 IL-2
+# T3 Protein S2 216 220 322 326 IL-2
+$ T1 Protein S2 105 118 211 224 interleukin-2
+$ T3 Protein S2 216 220 322 326 IL-2
+@ T6 Binding S2 79 84 185 190 binds
+@ T7 Entity S2 126 134 232 240 promoter
+@ T8 Positive_regulation S2 164 175 270 281 responsible
+@ T9 Positive_regulation S2 200 212 306 318 inducibility
+@ T10 Gene_expression S2 221 231 327 337 expression
+% E1 Binding:T6 Theme:T1 Site:T7
+% E2 Positive_regulation:T8 Theme:E3
+% E3 Positive_regulation:T9 Theme:E4
+% E4 Gene_expression:T10 Theme:T3
+
+Electrophoretic mobility shift assays (EMSA) showed that specific NFAT binding activity could also be induced in human B cells.
+@ T11 Binding S3 71 87 410 426 binding activity
+@ T12 Positive_regulation S3 102 109 441 448 induced
+% E5 Binding:T11 Theme:T1 Site:T7
+% E6 Positive_regulation:T12 Theme:E5
+
+The B cell NFAT complex, however, was not functional, since it failed to activate transcription from an NFAT-driven chloramphenicol acetyltransferase (CAT) construct.
+# T4 Protein S4 116 149 583 616 chloramphenicol acetyltransferase
+# T5 Protein S4 151 154 618 621 CAT
+$ T4 Protein S4 116 149 583 616 chloramphenicol acetyltransferase
+@ T13 Positive_regulation S4 73 81 540 548 activate
+@ T14 Transcription S4 82 95 549 562 transcription
+% E7 Positive_regulation:T13 Theme:E8
+% E8 Transcription:T14 Theme:T4
+
+Competition with an AP-1 motif or with anti-Jun and anti-Fos antibodies abolished binding to the NFAT motif in both T and B cells, indicating that Jun and Fos are critical for NFAT complex formation in both cell types.
+
+Purified recombinant Jun and Fos proteins failed to bind directly to the NFAT motif.
+
+However, when combined with unstimulated B or T cell extracts, full-length, but not truncated, Jun/Fos heterodimers were able to form an NFAT complex, indicating the presence of a constitutively expressed nuclear factor(s) in B and T cells necessary for the formation of the NFAT complex in both cell types.
+
+An NFAT oligonucleotide carrying mutations in the 5' purine-rich part of the NFAT sequence failed to form a complex and to compete with the wild type motif for NFAT complex formation in both T and B cells.
+
+We therefore propose a model whereby a core NFAT complex consisting of Jun, Fos, and a constitutive nuclear factor is formed in both T and B cells, but an additional factor and/or post-translational modification of a factor, missing in B cells, might be required for transactivation by NFAT.
+

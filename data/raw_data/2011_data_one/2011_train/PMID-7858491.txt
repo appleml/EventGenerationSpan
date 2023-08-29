@@ -1,0 +1,85 @@
+Expression and genomic configuration of GM-CSF, IL-3, M-CSF receptor (C-FMS), early growth response gene-1 (EGR-1) and M-CSF genes in primary myelodysplastic syndromes.
+# T1 Protein S1 40 46 40 46 GM-CSF
+# T2 Protein S1 48 52 48 52 IL-3
+# T3 Protein S1 54 68 54 68 M-CSF receptor
+# T4 Protein S1 70 75 70 75 C-FMS
+# T5 Protein S1 78 106 78 106 early growth response gene-1
+# T6 Protein S1 108 113 108 113 EGR-1
+# T7 Protein S1 119 124 119 124 M-CSF
+$ T2 Protein S1 48 52 48 52 IL-3
+$ T4 Protein S1 70 75 70 75 C-FMS
+$ T6 Protein S1 108 113 108 113 EGR-1
+$ T1 Protein S1 40 46 40 46 GM-CSF
+$ T7 Protein S1 119 124 119 124 M-CSF
+@ T18 Gene_expression S1 0 10 0 10 Expression
+% E1 Gene_expression:T18 Theme:T2
+% E2 Gene_expression:T18 Theme:T4
+% E3 Gene_expression:T18 Theme:T6
+% E4 Gene_expression:T18 Theme:T1
+% E5 Gene_expression:T18 Theme:T7
+
+Peripheral blood mononuclear cells from seventeen patients with primary myelodysplastic syndromes (MDS) in advanced stage were enriched for blasts and tested for (1) karyotype, (2) genomic configuration and (3) expression of IL-3, GM-CSF, FMS and EGR-1 genes which are all located on the long arm of chromosome 5.
+# T8 Protein S2 225 229 395 399 IL-3
+# T9 Protein S2 231 237 401 407 GM-CSF
+# T10 Protein S2 239 242 409 412 FMS
+# T11 Protein S2 247 252 417 422 EGR-1
+$ T10 Protein S2 239 242 409 412 FMS
+$ T11 Protein S2 247 252 417 422 EGR-1
+$ T9 Protein S2 231 237 401 407 GM-CSF
+$ T8 Protein S2 225 229 395 399 IL-3
+@ T19 Gene_expression S2 211 221 381 391 expression
+% E6 Gene_expression:T19 Theme:T10
+% E7 Gene_expression:T19 Theme:T11
+% E8 Gene_expression:T19 Theme:T9
+% E9 Gene_expression:T19 Theme:T8
+
+The expression of the M-CSF gene, that has been recently reassigned to the short arm of chromosome 1 (lp), was also investigated.
+# T12 Protein S3 22 27 506 511 M-CSF
+$ T12 Protein S3 22 27 506 511 M-CSF
+@ T20 Gene_expression S3 4 14 488 498 expression
+% E10 Gene_expression:T20 Theme:T12
+
+Aims of the study were to (1) assess the potential role of the expression of these genes in the maintenance and expansion of the neoplastic clones and (2) search for constitutional losses or rearrangements of one allele followed by a deletion of the second allele of the same genes in the leukemic cells.
+@ T21 Gene_expression S4 63 73 677 687 expression
+% E11 Gene_expression:T21 Theme:T11
+% E12 Gene_expression:T21 Theme:T12
+% E13 Gene_expression:T21 Theme:T10
+% E14 Gene_expression:T21 Theme:T8
+% E15 Gene_expression:T21 Theme:T9
+
+The latter issue was investigated by comparing, in 8 cases, constitutive DNA from skin fibroblasts with leukemic DNA.
+
+Eleven of the 17 patients had abnormal karyotypes.
+
+The M-CSF gene was expressed in 6 cases and the FMS and the EGR-1 genes were expressed in 2 of the latter cases.
+# T13 Protein S7 4 9 1092 1097 M-CSF
+# T14 Protein S7 48 51 1136 1139 FMS
+# T15 Protein S7 60 65 1148 1153 EGR-1
+$ T13 Protein S7 4 9 1092 1097 M-CSF
+$ T15 Protein S7 60 65 1148 1153 EGR-1
+$ T14 Protein S7 48 51 1136 1139 FMS
+@ T22 Gene_expression S7 19 28 1107 1116 expressed
+@ T23 Gene_expression S7 77 86 1165 1174 expressed
+% E16 Gene_expression:T22 Theme:T13
+% E17 Gene_expression:T23 Theme:T15
+% E18 Gene_expression:T23 Theme:T14
+
+An autocrine mechanism of growth could be hypothesized only for the 2 patients whose cells expressed both the M-CSF and FMS genes.
+# T16 Protein S8 110 115 1311 1316 M-CSF
+# T17 Protein S8 120 123 1321 1324 FMS
+$ T16 Protein S8 110 115 1311 1316 M-CSF
+$ T17 Protein S8 120 123 1321 1324 FMS
+@ T24 Gene_expression S8 91 100 1292 1301 expressed
+% E19 Gene_expression:T24 Theme:T16
+% E20 Gene_expression:T24 Theme:T17
+
+No germline changes or rearrangements were observed in any of the genes studied.
+@ T25 Regulation S9 12 19 1344 1351 changes
+% E21 Regulation:T25 Theme:T9
+% E22 Regulation:T25 Theme:T12
+% E23 Regulation:T25 Theme:T11
+% E24 Regulation:T25 Theme:T10
+% E25 Regulation:T25 Theme:T8
+
+Thus, deregulation of genes encoding for certain hemopoietic growth factors or receptors does not seem to represent a major mechanism of MDS progression.
+

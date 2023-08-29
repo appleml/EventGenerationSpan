@@ -1,0 +1,93 @@
+ETS1 transactivates the human GM-CSF promoter in Jurkat T cells stimulated with PMA and ionomycin.
+# T1 Protein S1 0 4 0 4 ETS1
+# T2 Protein S1 30 36 30 36 GM-CSF
+$ T2 Protein S1 30 36 30 36 GM-CSF
+$ T1 Protein S1 0 4 0 4 ETS1
+@ T18 Positive_regulation S1 5 19 5 19 transactivates
+@ T19 Entity S1 37 45 37 45 promoter
+% E1 Positive_regulation:T18 Theme:T2 Cause:T1 Site:T19
+
+Activation of T helper cells results in coordinate expression of a number of cytokines involved in differentiation, proliferation and activation of the haematopoietic system.
+
+Granulocyte-macrophage colony-stimulating factor (GM-CSF) is one such cytokine whose increased expression results partly from increases in transcription.
+# T3 Protein S3 0 48 275 323 Granulocyte-macrophage colony-stimulating factor
+# T4 Protein S3 50 56 325 331 GM-CSF
+$ T4 Protein S3 50 56 325 331 GM-CSF
+@ T20 Positive_regulation S3 85 94 360 369 increased
+@ T21 Gene_expression S3 95 105 370 380 expression
+@ T22 Positive_regulation S3 126 135 401 410 increases
+@ T23 Transcription S3 139 152 414 427 transcription
+% E2 Positive_regulation:T20 Theme:E3 Cause:E4
+% E3 Gene_expression:T21 Theme:T4
+% E4 Positive_regulation:T22 Theme:E5
+% E5 Transcription:T23 Theme:T4
+
+Cis-acting elements with NF kappa B, AP-1 and ETS-like motifs have been identified in the promoter region of the GM-CSF gene, which are important for transcriptional activity following PMA and ionomycin stimulation.
+# T5 Protein S4 113 119 542 548 GM-CSF
+
+A number of the ETS family of transcription factors are expressed in T cells, including ETS1 and ELF1.
+# T6 Protein S5 88 92 733 737 ETS1
+# T7 Protein S5 97 101 742 746 ELF1
+$ T7 Protein S5 97 101 742 746 ELF1
+$ T6 Protein S5 88 92 733 737 ETS1
+@ T24 Gene_expression S5 56 65 701 710 expressed
+% E6 Gene_expression:T24 Theme:T7
+% E7 Gene_expression:T24 Theme:T6
+
+Here we describe the ability of these factors to interact with a site (GM5), located within the CLE0 element, -47 to -40 upstream of the GM-CSF transcription initiation site.
+# T8 Protein S6 137 143 885 891 GM-CSF
+@ T25 Binding S6 49 57 797 805 interact
+% E8 Binding:T25 Theme:T7
+% E9 Binding:T25 Theme:T6
+
+Exogenous ETS1, but not ELF1, can transactivate GM-CSF, through the GM5 site, in a PMA/ionomycin dependent manner.
+# T9 Protein S7 10 14 933 937 ETS1
+# T10 Protein S7 24 28 947 951 ELF1
+# T11 Protein S7 48 54 971 977 GM-CSF
+$ T11 Protein S7 48 54 971 977 GM-CSF
+$ T10 Protein S7 24 28 947 951 ELF1
+$ T9 Protein S7 10 14 933 937 ETS1
+@ T26 Positive_regulation S7 34 47 957 970 transactivate
+@ T27 Entity S7 68 71 991 994 GM5
+% E10 Positive_regulation:T26 Theme:T11 Cause:T10 Site:T27
+% E11 Positive_regulation:T26 Theme:T11 Cause:T9 Site:T27
+
+Other unidentified ETS-like factors present in Jurkat cells are also capable of binding GM5.
+
+Mutation of the core ETS binding site from -GGAA- to -GGAT- prevents the binding of ETS-like factors with the exception of ETS1.
+# T12 Protein S9 123 127 1254 1258 ETS1
+$ T12 Protein S9 123 127 1254 1258 ETS1
+@ T28 Binding S9 73 80 1204 1211 binding
+@ T29 Negative_regulation S9 110 119 1241 1250 exception
+% E12 Binding:T28 Theme:T12
+% E13 Negative_regulation:T29 Theme:E12
+
+The GM-CSF promoter, modified in this way to be ETS1 specific, is fully responsive to PMA/ionomycin induction, in addition to ETS1 transactivation in the presence of PMA and ionomycin.
+# T13 Protein S10 4 10 1264 1270 GM-CSF
+# T14 Protein S10 48 52 1308 1312 ETS1
+# T15 Protein S10 126 130 1386 1390 ETS1
+$ T13 Protein S10 4 10 1264 1270 GM-CSF
+$ T14 Protein S10 48 52 1308 1312 ETS1
+$ T15 Protein S10 126 130 1386 1390 ETS1
+@ T30 Entity S10 11 19 1271 1279 promoter
+@ T31 Binding S10 53 61 1313 1321 specific
+@ T32 Positive_regulation S10 100 109 1360 1369 induction
+@ T33 Positive_regulation S10 131 146 1391 1406 transactivation
+% E14 Binding:T31 Theme:T13 Theme2:T14 Site:T30
+% E15 Positive_regulation:T32 Theme:T13 Site:T30
+% E16 Positive_regulation:T33 Theme:T15
+
+Together these data suggest that ETS1 may be involved in mediating the increased GM-CSF production associated with T cell activation.
+# T16 Protein S11 33 37 1478 1482 ETS1
+# T17 Protein S11 81 87 1526 1532 GM-CSF
+$ T16 Protein S11 33 37 1478 1482 ETS1
+$ T17 Protein S11 81 87 1526 1532 GM-CSF
+@ T34 Regulation S11 45 53 1490 1498 involved
+@ T35 Positive_regulation S11 57 66 1502 1511 mediating
+@ T36 Positive_regulation S11 71 80 1516 1525 increased
+@ T37 Gene_expression S11 88 98 1533 1543 production
+% E17 Regulation:T34 Theme:E18 Cause:T16
+% E18 Positive_regulation:T35 Theme:E19
+% E19 Positive_regulation:T36 Theme:E20
+% E20 Gene_expression:T37 Theme:T17
+

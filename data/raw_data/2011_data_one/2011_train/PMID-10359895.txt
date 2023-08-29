@@ -1,0 +1,114 @@
+Binding of YY1 and Oct1 to a novel element that downregulates expression of IL-5 in human T cells.
+# T1 Protein S1 11 14 11 14 YY1
+# T2 Protein S1 19 23 19 23 Oct1
+# T3 Protein S1 76 80 76 80 IL-5
+$ T2 Protein S1 19 23 19 23 Oct1
+$ T1 Protein S1 11 14 11 14 YY1
+$ T3 Protein S1 76 80 76 80 IL-5
+@ T21 Binding S1 0 7 0 7 Binding
+@ T22 Negative_regulation S1 48 61 48 61 downregulates
+@ T23 Gene_expression S1 62 72 62 72 expression
+% E1 Binding:T21 Theme:T2
+% E2 Binding:T21 Theme:T1
+% E3 Negative_regulation:T22 Theme:E4
+% E4 Gene_expression:T23 Theme:T3
+
+BACKGROUND: IL-5 controls development of eosinophilia and has been shown to be involved in the pathogenesis of allergic diseases.
+# T4 Protein S2 12 16 112 116 IL-5
+
+In both atopic and nonatopic asthma, elevated IL-5 has been detected in peripheral blood and the airways.
+# T5 Protein S3 46 50 276 280 IL-5
+$ T5 Protein S3 46 50 276 280 IL-5
+@ T24 Positive_regulation S3 37 45 267 275 elevated
+% E5 Positive_regulation:T24 Theme:T5
+
+IL-5 is produced mainly by activated T cells, and its expression is regulated at the transcriptional level.
+# T6 Protein S4 0 4 336 340 IL-5
+$ T6 Protein S4 0 4 336 340 IL-5
+@ T25 Gene_expression S4 8 16 344 352 produced
+@ T26 Regulation S4 68 77 404 413 regulated
+% E6 Gene_expression:T25 Theme:T6
+% E7 Regulation:T26 Theme:E6
+
+OBJECTIVE: This study focuses on the functional analysis of the human IL-5 (hIL-5) promoter and characterization of cis -regulatory elements and transcription factors involved in the suppression of IL-5 transcription in T cells.
+# T7 Protein S5 70 74 514 518 IL-5
+# T8 Protein S5 76 81 520 525 hIL-5
+# T9 Protein S5 198 202 642 646 IL-5
+$ T9 Protein S5 198 202 642 646 IL-5
+@ T27 Regulation S5 167 175 611 619 involved
+@ T28 Negative_regulation S5 183 194 627 638 suppression
+@ T29 Transcription S5 203 216 647 660 transcription
+% E8 Regulation:T27 Theme:E9
+% E9 Negative_regulation:T28 Theme:E10
+% E10 Transcription:T29 Theme:T9
+
+METHODS: Methods used in this study include DNase I footprint assays, electrophoretic mobility shift assays, and functional analysis by mammalian cell transfection involving deletion analysis and site-directed mutagenesis.
+
+RESULTS: We identified 5 protein binding regions (BRs) located within the proximal hIL-5 promoter.
+# T10 Protein S7 83 88 979 984 hIL-5
+
+Functional analysis indicates that the BRs are involved in control of hIL-5 promoter activity.
+# T11 Protein S8 70 75 1065 1070 hIL-5
+$ T11 Protein S8 70 75 1065 1070 hIL-5
+@ T30 Regulation S8 59 66 1054 1061 control
+@ T31 Entity S8 76 84 1071 1079 promoter
+% E11 Regulation:T30 Theme:T11 Site:T31
+
+Two of these regions, BR3 and BR4 located at positions -102 to -73, have not previously been described as regulators of IL-5 expression in T cells.
+# T12 Protein S9 120 124 1210 1214 IL-5
+$ T12 Protein S9 120 124 1210 1214 IL-5
+@ T32 Regulation S9 106 116 1196 1206 regulators
+@ T33 Gene_expression S9 125 135 1215 1225 expression
+% E12 Regulation:T32 Theme:E13
+% E13 Gene_expression:T33 Theme:T12
+
+We show that the BR3 sequence contains a novel negative regulatory element located at positions -90 to -79 of the hIL-5 promoter, which binds Oct1, octamer-like, and YY1 nuclear factors.
+# T13 Protein S10 114 119 1352 1357 hIL-5
+# T14 Protein S10 142 146 1380 1384 Oct1
+# T15 Protein S10 166 169 1404 1407 YY1
+$ T13 Protein S10 114 119 1352 1357 hIL-5
+$ T14 Protein S10 142 146 1380 1384 Oct1
+$ T15 Protein S10 166 169 1404 1407 YY1
+@ T34 Negative_regulation S10 47 66 1285 1304 negative regulatory
+@ T35 Entity S10 120 128 1358 1366 promoter
+@ T36 Binding S10 136 141 1374 1379 binds
+% E14 Negative_regulation:T34 Theme:T13 Site:T35
+% E15 Binding:T36 Theme:T14
+% E16 Binding:T36 Theme:T15
+
+Substitution mutations, which abolished binding of these proteins to the BR3 sequence, significantly increased hIL-5 promoter activity in activated T cells.
+# T16 Protein S11 111 116 1536 1541 hIL-5
+$ T16 Protein S11 111 116 1536 1541 hIL-5
+@ T37 Negative_regulation S11 30 39 1455 1464 abolished
+@ T38 Binding S11 40 47 1465 1472 binding
+@ T39 Positive_regulation S11 101 110 1526 1535 increased
+@ T40 Entity S11 117 125 1542 1550 promoter
+% E17 Negative_regulation:T37 Theme:E20
+% E18 Negative_regulation:T37 Theme:E19
+% E19 Binding:T38 Theme:T14
+% E20 Binding:T38 Theme:T15
+% E21 Positive_regulation:T39 Theme:T16 Site:T40
+
+CONCLUSION: We suggest that Oct1, YY1, and octamer-like factors binding to the -90/-79 sequence within the proximal IL-5 promoter are involved in suppression of IL-5 transcription in T cells.
+# T17 Protein S12 28 32 1610 1614 Oct1
+# T18 Protein S12 34 37 1616 1619 YY1
+# T19 Protein S12 116 120 1698 1702 IL-5
+# T20 Protein S12 161 165 1743 1747 IL-5
+$ T18 Protein S12 34 37 1616 1619 YY1
+$ T19 Protein S12 116 120 1698 1702 IL-5
+$ T17 Protein S12 28 32 1610 1614 Oct1
+$ T20 Protein S12 161 165 1743 1747 IL-5
+@ T41 Binding S12 64 71 1646 1653 binding
+@ T42 Entity S12 121 129 1703 1711 promoter
+@ T43 Regulation S12 134 142 1716 1724 involved
+@ T44 Negative_regulation S12 146 157 1728 1739 suppression
+@ T45 Transcription S12 166 179 1748 1761 transcription
+% E22 Binding:T41 Theme:T18 Theme2:T19 Site2:T42
+% E23 Binding:T41 Theme:T17 Theme2:T19 Site2:T42
+% E24 Binding:T41 Theme:T19 Site:T42
+% E25 Regulation:T43 Theme:E28 Cause:E23
+% E26 Regulation:T43 Theme:E28 Cause:E24
+% E27 Regulation:T43 Theme:E28 Cause:E22
+% E28 Negative_regulation:T44 Theme:E29
+% E29 Transcription:T45 Theme:T20
+

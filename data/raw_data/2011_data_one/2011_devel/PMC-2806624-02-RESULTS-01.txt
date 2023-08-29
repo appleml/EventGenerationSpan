@@ -1,0 +1,336 @@
+The role of RUNX1 and RUNX3 transcription factors in TGF-beta-mediated iT reg cell generation
+# T1 Protein S1 12 17 12 17 RUNX1
+# T2 Protein S1 22 27 22 27 RUNX3
+# T3 Protein S1 53 61 53 61 TGF-beta
+
+To investigate the role of RUNX transcription factors in the development of iT reg cells, we cultured naive CD4+ T cells, isolated from human PBMCs, in conditions that enable the development of iT reg cells.
+# T4 Protein S2 27 31 121 125 RUNX
+# T5 Protein S2 108 111 202 205 CD4
+
+Stimulation with anti-CD2/3/28 mAbs or TGF-beta alone resulted in a minimal up-regulation of RUNX1 and RUNX3 mRNA (Fig. 1 A).
+# T6 Protein S3 22 25 324 327 CD2
+# T7 Protein S3 26 27 328 329 3
+# T8 Protein S3 28 30 330 332 28
+# T9 Protein S3 39 47 341 349 TGF-beta
+# T10 Protein S3 93 98 395 400 RUNX1
+# T11 Protein S3 103 108 405 410 RUNX3
+$ T9 Protein S3 39 47 341 349 TGF-beta
+$ T10 Protein S3 93 98 395 400 RUNX1
+$ T11 Protein S3 103 108 405 410 RUNX3
+@ T91 Positive_regulation S3 76 89 378 391 up-regulation
+@ T92 Transcription S3 109 113 411 415 mRNA
+% E1 Positive_regulation:T91 Theme:E2 Cause:T9
+% E3 Positive_regulation:T91 Theme:E4 Cause:T9
+% E2 Transcription:T92 Theme:T10
+% E4 Transcription:T92 Theme:T11
+
+In contrast, the combination of both TGF-beta and anti-CD2/3/28 mAbs induced RUNX1 and RUNX3 mRNAs, as well as FOXP3 mRNA, within 48 h in naive CD4+ T cells.
+# T12 Protein S4 37 45 465 473 TGF-beta
+# T13 Protein S4 55 58 483 486 CD2
+# T14 Protein S4 59 60 487 488 3
+# T15 Protein S4 61 63 489 491 28
+# T16 Protein S4 77 82 505 510 RUNX1
+# T17 Protein S4 87 92 515 520 RUNX3
+# T18 Protein S4 111 116 539 544 FOXP3
+# T19 Protein S4 144 147 572 575 CD4
+$ T12 Protein S4 37 45 465 473 TGF-beta
+$ T16 Protein S4 77 82 505 510 RUNX1
+$ T17 Protein S4 87 92 515 520 RUNX3
+$ T18 Protein S4 111 116 539 544 FOXP3
+@ T93 Positive_regulation S4 69 76 497 504 induced
+@ T94 Transcription S4 93 98 521 526 mRNAs
+@ T95 Transcription S4 117 121 545 549 mRNA
+% E5 Positive_regulation:T93 Theme:E6 Cause:T12
+% E7 Positive_regulation:T93 Theme:E8 Cause:T12
+% E9 Positive_regulation:T93 Theme:E10 Cause:T12
+% E6 Transcription:T94 Theme:T16
+% E8 Transcription:T94 Theme:T17
+% E10 Transcription:T95 Theme:T18
+
+This result suggested further experiments to investigate whether the up-regulation of RUNX1 and RUNX3 might be a feature of iT reg cells during their development or even a prerequisite for their induction.
+# T20 Protein S5 86 91 672 677 RUNX1
+# T21 Protein S5 96 101 682 687 RUNX3
+$ T20 Protein S5 86 91 672 677 RUNX1
+$ T21 Protein S5 96 101 682 687 RUNX3
+@ T96 Positive_regulation S5 69 82 655 668 up-regulation
+% E11 Positive_regulation:T96 Theme:T20
+% E12 Positive_regulation:T96 Theme:T21
+
+To test this hypothesis, RUNX1 and RUNX3 expression was knocked down in human naive CD4+ T cells by transfection of small interfering RNAs (siRNAs; Fig. 1 B).
+# T22 Protein S6 25 30 818 823 RUNX1
+# T23 Protein S6 35 40 828 833 RUNX3
+# T24 Protein S6 84 87 877 880 CD4
+$ T22 Protein S6 25 30 818 823 RUNX1
+$ T23 Protein S6 35 40 828 833 RUNX3
+@ T97 Gene_expression S6 41 51 834 844 expression
+@ T98 Negative_regulation S6 56 68 849 861 knocked down
+% E13 Gene_expression:T97 Theme:T22
+% E14 Gene_expression:T97 Theme:T23
+% E15 Negative_regulation:T98 Theme:E13
+% E16 Negative_regulation:T98 Theme:E14
+
+Deficiency of RUNX1 or RUNX3 resulted in markedly reduced TGF-beta-mediated induction of FOXP3 mRNA in naive CD4+ T cells compared with control cells transfected with scrambled siRNA.
+# T25 Protein S7 14 19 966 971 RUNX1
+# T26 Protein S7 23 28 975 980 RUNX3
+# T27 Protein S7 58 66 1010 1018 TGF-beta
+# T28 Protein S7 89 94 1041 1046 FOXP3
+# T29 Protein S7 109 112 1061 1064 CD4
+$ T25 Protein S7 14 19 966 971 RUNX1
+$ T26 Protein S7 23 28 975 980 RUNX3
+$ T27 Protein S7 58 66 1010 1018 TGF-beta
+$ T28 Protein S7 89 94 1041 1046 FOXP3
+@ T99 Negative_regulation S7 0 10 952 962 Deficiency
+@ T100 Negative_regulation S7 50 57 1002 1009 reduced
+@ T101 Positive_regulation S7 67 75 1019 1027 mediated
+@ T102 Transcription S7 76 85 1028 1037 induction
+% E17 Negative_regulation:T99 Theme:T25
+% E18 Negative_regulation:T99 Theme:T26
+% E19 Negative_regulation:T100 Theme:E20 Cause:E17
+% E21 Negative_regulation:T100 Theme:E20 Cause:E18
+% E22 Positive_regulation:T101 Theme:E20 Cause:T27
+% E20 Transcription:T102 Theme:T28
+
+The level of FOXP3 mRNA was further reduced when both RUNX1 and RUNX3 were knocked down in naive CD4+ T cells during their differentiation to iT reg cells (Fig. 1 B).
+# T30 Protein S8 13 18 1149 1154 FOXP3
+# T31 Protein S8 54 59 1190 1195 RUNX1
+# T32 Protein S8 64 69 1200 1205 RUNX3
+# T33 Protein S8 97 100 1233 1236 CD4
+$ T30 Protein S8 13 18 1149 1154 FOXP3
+$ T31 Protein S8 54 59 1190 1195 RUNX1
+$ T32 Protein S8 64 69 1200 1205 RUNX3
+@ T103 Transcription S8 19 23 1155 1159 mRNA
+@ T104 Negative_regulation S8 36 43 1172 1179 reduced
+@ T105 Negative_regulation S8 75 87 1211 1223 knocked down
+% E23 Transcription:T103 Theme:T30
+% E24 Negative_regulation:T104 Theme:E23 Cause:E25
+% E26 Negative_regulation:T104 Theme:E23 Cause:E27
+% E25 Negative_regulation:T105 Theme:T31
+% E27 Negative_regulation:T105 Theme:T32
+
+The influence of RUNX1 and RUNX3 on the development of other T cell subsets and their specific transcription factor expression was further investigated.
+# T34 Protein S9 17 22 1321 1326 RUNX1
+# T35 Protein S9 27 32 1331 1336 RUNX3
+
+Naive CD4+ T cells were cultured under Th1, Th2, T reg cell, and Th17 differentiation conditions and the mRNA expression of the predominant transcription factor for each cell type was subsequently analyzed.
+# T36 Protein S10 6 9 1463 1466 CD4
+
+We observed no change in GATA3 expression in Th2 cells, T-bet expression in Th1 cells, or RORC2 mRNA expression in Th17 cells in which RUNX1 and RUNX3 were knocked down compared with control cells.
+# T37 Protein S11 25 30 1689 1694 GATA3
+# T38 Protein S11 56 61 1720 1725 T-bet
+# T39 Protein S11 90 95 1754 1759 RORC2
+# T40 Protein S11 135 140 1799 1804 RUNX1
+# T41 Protein S11 145 150 1809 1814 RUNX3
+$ T37 Protein S11 25 30 1689 1694 GATA3
+$ T38 Protein S11 56 61 1720 1725 T-bet
+$ T39 Protein S11 90 95 1754 1759 RORC2
+$ T40 Protein S11 135 140 1799 1804 RUNX1
+$ T41 Protein S11 145 150 1809 1814 RUNX3
+@ T106 Regulation S11 15 21 1679 1685 change
+@ T107 Transcription S11 31 41 1695 1705 expression
+@ T108 Transcription S11 62 72 1726 1736 expression
+@ T109 Transcription S11 96 111 1760 1775 mRNA expression
+@ T110 Negative_regulation S11 156 168 1820 1832 knocked down
+% E28 Regulation:T106 Theme:E29 Cause:E30
+% E31 Regulation:T106 Theme:E29 Cause:E32
+% E33 Regulation:T106 Theme:E34 Cause:E30
+% E35 Regulation:T106 Theme:E34 Cause:E32
+% E36 Regulation:T106 Theme:E37 Cause:E30
+% E38 Regulation:T106 Theme:E37 Cause:E32
+% E29 Transcription:T107 Theme:T37
+% E34 Transcription:T108 Theme:T38
+% E37 Transcription:T109 Theme:T39
+% E30 Negative_regulation:T110 Theme:T40
+% E32 Negative_regulation:T110 Theme:T41
+
+On the contrary, FOXP3 mRNA was significantly decreased in RUNX1- and RUNX3-deficient T reg cells compared with control cells (Fig. 1 C).
+# T42 Protein S12 17 22 1879 1884 FOXP3
+# T43 Protein S12 59 64 1921 1926 RUNX1
+# T44 Protein S12 70 75 1932 1937 RUNX3
+$ T42 Protein S12 17 22 1879 1884 FOXP3
+$ T43 Protein S12 59 64 1921 1926 RUNX1
+$ T44 Protein S12 70 75 1932 1937 RUNX3
+@ T111 Transcription S12 23 27 1885 1889 mRNA
+@ T112 Negative_regulation S12 46 55 1908 1917 decreased
+@ T113 Negative_regulation S12 76 85 1938 1947 deficient
+% E39 Transcription:T111 Theme:T42
+% E40 Negative_regulation:T112 Theme:E39 Cause:E41
+% E42 Negative_regulation:T112 Theme:E39 Cause:E43
+% E41 Negative_regulation:T113 Theme:T43
+% E43 Negative_regulation:T113 Theme:T44
+
+The effect of RUNX silencing on the expression level of intracellular FOXP3 during naive CD4+ T cell differentiation to iT reg was evaluated by flow cytometry.
+# T45 Protein S13 14 18 2015 2019 RUNX
+# T46 Protein S13 70 75 2071 2076 FOXP3
+# T47 Protein S13 89 92 2090 2093 CD4
+$ T45 Protein S13 14 18 2015 2019 RUNX
+$ T46 Protein S13 70 75 2071 2076 FOXP3
+@ T114 Regulation S13 4 10 2005 2011 effect
+@ T115 Negative_regulation S13 19 28 2020 2029 silencing
+@ T116 Gene_expression S13 36 46 2037 2047 expression
+% E44 Regulation:T114 Theme:E45 Cause:E46
+% E46 Negative_regulation:T115 Theme:T45
+% E45 Gene_expression:T116 Theme:T46
+
+FOXP3 was only slightly reduced after RUNX1 silencing.
+# T48 Protein S14 0 5 2161 2166 FOXP3
+# T49 Protein S14 38 43 2199 2204 RUNX1
+$ T48 Protein S14 0 5 2161 2166 FOXP3
+$ T49 Protein S14 38 43 2199 2204 RUNX1
+@ T117 Negative_regulation S14 24 31 2185 2192 reduced
+@ T118 Negative_regulation S14 44 53 2205 2214 silencing
+% E47 Negative_regulation:T117 Theme:T48 Cause:E48
+% E48 Negative_regulation:T118 Theme:T49
+
+Transfection of siRNA for RUNX3 had a stronger effect.
+# T50 Protein S15 26 31 2242 2247 RUNX3
+$ T50 Protein S15 26 31 2242 2247 RUNX3
+@ T119 Negative_regulation S15 0 21 2216 2237 Transfection of siRNA
+@ T120 Negative_regulation S15 38 53 2254 2269 stronger effect
+% E49 Negative_regulation:T119 Theme:T50
+% E50 Negative_regulation:T120 Theme:T48 Cause:E49
+
+The most striking FOXP3 reduction was observed when RUNX1 and RUNX3 were silenced together (Fig. 1 D).
+# T51 Protein S16 18 23 2289 2294 FOXP3
+# T52 Protein S16 52 57 2323 2328 RUNX1
+# T53 Protein S16 62 67 2333 2338 RUNX3
+$ T51 Protein S16 18 23 2289 2294 FOXP3
+$ T52 Protein S16 52 57 2323 2328 RUNX1
+$ T53 Protein S16 62 67 2333 2338 RUNX3
+@ T121 Negative_regulation S16 24 33 2295 2304 reduction
+@ T122 Negative_regulation S16 73 81 2344 2352 silenced
+% E51 Negative_regulation:T121 Theme:T51 Cause:E52
+% E53 Negative_regulation:T121 Theme:T51 Cause:E54
+% E52 Negative_regulation:T122 Theme:T52
+% E54 Negative_regulation:T122 Theme:T53
+
+Similar results were obtained in total CD4+ T cells (Fig. S1 and Fig. S2).
+# T54 Protein S17 39 42 2413 2416 CD4
+
+The increased impact of combined RUNX1 and RUNX3 knockdown implies that RUNX1 and RUNX3 might have redundant functions in the induction of FOXP3.
+# T55 Protein S18 33 38 2482 2487 RUNX1
+# T56 Protein S18 43 48 2492 2497 RUNX3
+# T57 Protein S18 72 77 2521 2526 RUNX1
+# T58 Protein S18 82 87 2531 2536 RUNX3
+# T59 Protein S18 139 144 2588 2593 FOXP3
+$ T55 Protein S18 33 38 2482 2487 RUNX1
+$ T56 Protein S18 43 48 2492 2497 RUNX3
+$ T57 Protein S18 72 77 2521 2526 RUNX1
+$ T58 Protein S18 82 87 2531 2536 RUNX3
+$ T59 Protein S18 139 144 2588 2593 FOXP3
+@ T123 Negative_regulation S18 49 58 2498 2507 knockdown
+@ T124 Regulation S18 109 118 2558 2567 functions
+@ T125 Positive_regulation S18 126 135 2575 2584 induction
+% E55 Negative_regulation:T123 Theme:T55
+% E56 Negative_regulation:T123 Theme:T56
+% E57 Regulation:T124 Theme:E58 Cause:T57
+% E59 Regulation:T124 Theme:E58 Cause:T58
+% E58 Positive_regulation:T125 Theme:T59
+
+In addition, the levels of IL-4, IL-5, IL-10, IL-13, and IFN-gamma in control siRNA-transfected or RUNX1 and RUNX3 siRNA-transfected CD4+ T cells that were cultured with or without anti-CD2/3/28 mAb and TGF-beta did not show any significant difference (Fig. S3).
+# T60 Protein S19 27 31 2622 2626 IL-4
+# T61 Protein S19 33 37 2628 2632 IL-5
+# T62 Protein S19 39 44 2634 2639 IL-10
+# T63 Protein S19 46 51 2641 2646 IL-13
+# T64 Protein S19 57 66 2652 2661 IFN-gamma
+# T65 Protein S19 99 104 2694 2699 RUNX1
+# T66 Protein S19 109 114 2704 2709 RUNX3
+# T67 Protein S19 133 136 2728 2731 CD4
+# T68 Protein S19 186 189 2781 2784 CD2
+# T69 Protein S19 190 191 2785 2786 3
+# T70 Protein S19 192 194 2787 2789 28
+# T71 Protein S19 203 211 2798 2806 TGF-beta
+$ T60 Protein S19 27 31 2622 2626 IL-4
+$ T61 Protein S19 33 37 2628 2632 IL-5
+$ T62 Protein S19 39 44 2634 2639 IL-10
+$ T63 Protein S19 46 51 2641 2646 IL-13
+$ T64 Protein S19 57 66 2652 2661 IFN-gamma
+$ T65 Protein S19 99 104 2694 2699 RUNX1
+$ T66 Protein S19 109 114 2704 2709 RUNX3
+$ T71 Protein S19 203 211 2798 2806 TGF-beta
+@ T126 Gene_expression S19 17 23 2612 2618 levels
+@ T127 Negative_regulation S19 115 132 2710 2727 siRNA-transfected
+@ T128 Regulation S19 220 251 2815 2846 show any significant difference
+% E60 Gene_expression:T126 Theme:T60
+% E61 Gene_expression:T126 Theme:T61
+% E62 Gene_expression:T126 Theme:T62
+% E63 Gene_expression:T126 Theme:T63
+% E64 Gene_expression:T126 Theme:T64
+% E65 Negative_regulation:T127 Theme:T65
+% E66 Negative_regulation:T127 Theme:T66
+% E67 Regulation:T128 Theme:E60 Cause:E65
+% E68 Regulation:T128 Theme:E60 Cause:E66
+% E69 Regulation:T128 Theme:E60 Cause:T71
+% E70 Regulation:T128 Theme:E61 Cause:E65
+% E71 Regulation:T128 Theme:E61 Cause:E66
+% E72 Regulation:T128 Theme:E61 Cause:T71
+% E73 Regulation:T128 Theme:E62 Cause:E65
+% E74 Regulation:T128 Theme:E62 Cause:E66
+% E75 Regulation:T128 Theme:E62 Cause:T71
+% E76 Regulation:T128 Theme:E63 Cause:E65
+% E77 Regulation:T128 Theme:E63 Cause:E66
+% E78 Regulation:T128 Theme:E63 Cause:T71
+% E79 Regulation:T128 Theme:E64 Cause:E65
+% E80 Regulation:T128 Theme:E64 Cause:E66
+% E81 Regulation:T128 Theme:E64 Cause:T71
+
+To determine whether RUNX1 and RUNX3 are also expressed in human T reg cells in vivo, we isolated peripheral blood CD4+ CD127- CD25high T reg cells and compared them with CD4+ CD127+ CD25- T cells.
+# T72 Protein S20 21 26 2880 2885 RUNX1
+# T73 Protein S20 31 36 2890 2895 RUNX3
+# T74 Protein S20 115 118 2974 2977 CD4
+# T75 Protein S20 120 125 2979 2984 CD127
+# T76 Protein S20 127 131 2986 2990 CD25
+# T77 Protein S20 171 174 3030 3033 CD4
+# T78 Protein S20 176 181 3035 3040 CD127
+# T79 Protein S20 183 187 3042 3046 CD25
+$ T72 Protein S20 21 26 2880 2885 RUNX1
+$ T73 Protein S20 31 36 2890 2895 RUNX3
+@ T129 Gene_expression S20 46 55 2905 2914 expressed
+% E82 Gene_expression:T129 Theme:T72
+% E83 Gene_expression:T129 Theme:T73
+
+Circulating T reg cells expressed significantly higher levels of RUNX3 mRNA compared with CD4+CD25- cells.
+# T80 Protein S21 65 70 3122 3127 RUNX3
+# T81 Protein S21 90 93 3147 3150 CD4
+# T82 Protein S21 94 98 3151 3155 CD25
+$ T80 Protein S21 65 70 3122 3127 RUNX3
+@ T130 Transcription S21 24 33 3081 3090 expressed
+% E84 Transcription:T130 Theme:T80
+
+As expected, IL-10, TGF-beta, and FOXP3 mRNAs are also expressed in circulating T reg cells (Fig. 2 A).
+# T83 Protein S22 13 18 3177 3182 IL-10
+# T84 Protein S22 20 28 3184 3192 TGF-beta
+# T85 Protein S22 34 39 3198 3203 FOXP3
+$ T83 Protein S22 13 18 3177 3182 IL-10
+$ T84 Protein S22 20 28 3184 3192 TGF-beta
+$ T85 Protein S22 34 39 3198 3203 FOXP3
+@ T131 Transcription S22 55 64 3219 3228 expressed
+% E85 Transcription:T131 Theme:T83
+% E86 Transcription:T131 Theme:T84
+% E87 Transcription:T131 Theme:T85
+
+There was no difference in RUNX1 mRNA expression between these two cell subsets.
+# T86 Protein S23 27 32 3295 3300 RUNX1
+$ T86 Protein S23 27 32 3295 3300 RUNX1
+@ T132 Regulation S23 13 23 3281 3291 difference
+@ T133 Transcription S23 33 48 3301 3316 mRNA expression
+% E88 Regulation:T132 Theme:E89
+% E89 Transcription:T133 Theme:T86
+
+We also performed an analysis of human tonsils, which contain high numbers of FOXP3+ T reg cells (Verhagen et al., 2006).
+# T87 Protein S24 78 83 3427 3432 FOXP3
+
+Staining of tonsil sections for FOXP3 and RUNX3 demonstrated in vivo coexpression of these two molecules in a subset of T reg cells, whereas there was low RUNX1 expression in all tonsil cells (Fig. 2 B).
+# T88 Protein S25 32 37 3503 3508 FOXP3
+# T89 Protein S25 42 47 3513 3518 RUNX3
+# T90 Protein S25 155 160 3626 3631 RUNX1
+$ T88 Protein S25 32 37 3503 3508 FOXP3
+$ T89 Protein S25 42 47 3513 3518 RUNX3
+$ T90 Protein S25 155 160 3626 3631 RUNX1
+@ T134 Gene_expression S25 69 81 3540 3552 coexpression
+@ T135 Negative_regulation S25 151 154 3622 3625 low
+@ T136 Gene_expression S25 161 171 3632 3642 expression
+% E90 Gene_expression:T134 Theme:T88
+% E91 Gene_expression:T134 Theme:T89
+% E92 Negative_regulation:T135 Theme:E93
+% E93 Gene_expression:T136 Theme:T90
+

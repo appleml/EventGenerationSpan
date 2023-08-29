@@ -1,0 +1,82 @@
+HOIP mediates CD40-stimulated NF-kappaB and JNK activation
+# T1 Protein S1 0 4 0 4 HOIP
+# T2 Protein S1 14 18 14 18 CD40
+
+The results described above show that HOIP plays an important role in CD40-mediated effector functions of B cells.
+# T3 Protein S2 38 42 97 101 HOIP
+# T4 Protein S2 70 74 129 133 CD40
+
+It follows that HOIP is likely a key mediator of CD40 signaling.
+# T5 Protein S3 16 20 190 194 HOIP
+# T6 Protein S3 49 53 223 227 CD40
+
+To test this hypothesis, we stimulated A20.2J and HOIP-deficient cells with CD154 (CD40 ligand) expressed by HI5 insect cells [7], [8] and measured activation of the NF-kappaB and JNK pathways, two of the major transcriptional regulators activated by CD40 [4].
+# T7 Protein S4 76 81 315 320 CD154
+# T8 Protein S4 83 94 322 333 CD40 ligand
+# T9 Protein S4 251 255 490 494 CD40
+$ T7 Protein S4 76 81 315 320 CD154
+@ T21 Gene_expression S4 96 105 335 344 expressed
+% E1 Gene_expression:T21 Theme:T7
+
+Cell-associated CD154 was used as the stimulus in these experiments as it typically provides more robust, and therefore more readily detected, activation signals than does anti-CD40 antibody.
+# T10 Protein S5 16 21 516 521 CD154
+$ T10 Protein S5 16 21 516 521 CD154
+@ T22 Binding S5 5 15 505 515 associated
+% E2 Binding:T22 Theme:T10
+
+Activation of the canonical NF-kappaB pathway is initiated with the phosphorylation of IkappaB proteins by the IkappaB kinase complex (IKK).
+
+In resting cells, IkappaB proteins are responsible for sequestering NF-kappaB subunits in the cytoplasm.
+# T11 Protein S7 68 86 901 919 NF-kappaB subunits
+$ T11 Protein S7 68 86 901 919 NF-kappaB subunits
+@ T23 Regulation S7 39 50 872 883 responsible
+@ T24 Negative_regulation S7 55 67 888 900 sequestering
+% E3 Regulation:T23 Theme:E4
+% E4 Negative_regulation:T24 Theme:T11
+
+Phosphorylation by the IKK complex targets IkappaB proteins for ubiquitination and degradation, allowing NF-kappaB to enter the nucleus and activate gene expression.
+
+CD40-mediated phosphorylation and degradation of IkappaBalpha in HOIP-deficient cells was dramatically impaired relative to that observed in parental A20.2J cells (Fig. 4).
+# T12 Protein S9 0 4 1104 1108 CD40
+# T13 Protein S9 49 61 1153 1165 IkappaBalpha
+# T14 Protein S9 65 69 1169 1173 HOIP
+$ T12 Protein S9 0 4 1104 1108 CD40
+$ T13 Protein S9 49 61 1153 1165 IkappaBalpha
+$ T14 Protein S9 65 69 1169 1173 HOIP
+@ T25 Positive_regulation S9 5 13 1109 1117 mediated
+@ T26 Phosphorylation S9 14 29 1118 1133 phosphorylation
+@ T27 Protein_catabolism S9 34 45 1138 1149 degradation
+@ T28 Negative_regulation S9 70 79 1174 1183 deficient
+@ T29 Negative_regulation S9 103 111 1207 1215 impaired
+% E5 Positive_regulation:T25 Theme:E6 Cause:T12
+% E7 Positive_regulation:T25 Theme:E8 Cause:T12
+% E6 Phosphorylation:T26 Theme:T13
+% E8 Protein_catabolism:T27 Theme:T13
+% E9 Negative_regulation:T28 Theme:T14
+% E10 Negative_regulation:T29 Theme:E5
+% E11 Negative_regulation:T29 Theme:E7
+
+We also assayed activation of the stress-activated protein kinase JNK in response to CD40 engagement (Fig. 4).
+# T15 Protein S10 85 89 1362 1366 CD40
+$ T15 Protein S10 85 89 1362 1366 CD40
+@ T30 Binding S10 90 100 1367 1377 engagement
+% E12 Binding:T30 Theme:T15
+
+CD40-mediated JNK activation in HOIP-deficient cells was impaired as measured by phosphorylation of Thr183 and Tyr185 in JNK.
+# T16 Protein S11 0 4 1388 1392 CD40
+# T17 Protein S11 32 36 1420 1424 HOIP
+$ T17 Protein S11 32 36 1420 1424 HOIP
+@ T31 Negative_regulation S11 37 46 1425 1434 deficient
+% E13 Negative_regulation:T31 Theme:T17
+
+CD40-induced activation of NF-kappaB and JNK in HOIP-reconstituted cells was normal, demonstrating that the defects observed in gene-deficient cells were due to the absence of HOIP expression.
+# T18 Protein S12 0 4 1514 1518 CD40
+# T19 Protein S12 48 52 1562 1566 HOIP
+# T20 Protein S12 176 180 1690 1694 HOIP
+$ T19 Protein S12 48 52 1562 1566 HOIP
+$ T20 Protein S12 176 180 1690 1694 HOIP
+@ T32 Positive_regulation S12 53 66 1567 1580 reconstituted
+@ T33 Gene_expression S12 181 191 1695 1705 expression
+% E14 Positive_regulation:T32 Theme:T19
+% E15 Gene_expression:T33 Theme:T20
+

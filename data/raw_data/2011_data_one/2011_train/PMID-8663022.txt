@@ -1,0 +1,67 @@
+Octamer binding factors and their coactivator can activate the murine PU.1 (spi-1) promoter.
+# T1 Protein S1 70 74 70 74 PU.1
+# T2 Protein S1 76 81 76 81 spi-1
+$ T1 Protein S1 70 74 70 74 PU.1
+@ T20 Positive_regulation S1 50 58 50 58 activate
+@ T21 Entity S1 83 91 83 91 promoter
+% E1 Positive_regulation:T20 Theme:T1 Site:T21
+
+PU.1 (spi-1), a member of the Ets transcription factor family, is predominantly expressed in myeloid and B cells, activates many B cell and myeloid genes, and is critical for development of both of these lineages.
+# T3 Protein S2 0 4 94 98 PU.1
+# T4 Protein S2 6 11 100 105 spi-1
+$ T4 Protein S2 6 11 100 105 spi-1
+@ T22 Gene_expression S2 80 89 174 183 expressed
+% E2 Gene_expression:T22 Theme:T4
+
+Our previous studies (Chen, H.M., Ray-Gallet, D., Zhang, P., Hetherington, C.J., Gonzalez, D.A., Zhang, D.-E., Moreau-Gachelin, F., and Tenen, D.G.(1995) Oncogene 11, 1549-1560) demonstrate that the PU.1 promoter directs cell type-specific reporter gene expression in myeloid cell lines, and that PU.1 activates its own promoter in an autoregulatory loop.
+# T5 Protein S3 199 203 507 511 PU.1
+# T6 Protein S3 297 301 605 609 PU.1
+$ T5 Protein S3 199 203 507 511 PU.1
+$ T6 Protein S3 297 301 605 609 PU.1
+@ T23 Entity S3 204 212 512 520 promoter
+@ T24 Positive_regulation S3 302 311 610 619 activates
+% E3 Positive_regulation:T24 Theme:T5 Cause:T6 Site:T23
+
+Here we show that the murine PU.1 promoter is also specifically and highly functional in B cell lines as well.
+# T7 Protein S4 29 33 693 697 PU.1
+
+Oct-1 and Oct-2 can bind specifically to a site at base pair -55 in vitro, and this site is specifically protected in B cells in vivo.
+# T8 Protein S5 0 5 775 780 Oct-1
+# T9 Protein S5 10 15 785 790 Oct-2
+$ T8 Protein S5 0 5 775 780 Oct-1
+$ T9 Protein S5 10 15 785 790 Oct-2
+@ T25 Binding S5 20 24 795 799 bind
+% E4 Binding:T25 Theme:T8
+% E5 Binding:T25 Theme:T9
+
+We also demonstrate that two other sites contribute to promoter activity in B cells; an Sp1 binding site adjacent to the octamer site, and the PU.1 autoregulatory site.
+# T10 Protein S6 88 91 998 1001 Sp1
+# T11 Protein S6 143 147 1053 1057 PU.1
+
+Finally, we show that the B cell coactivator OBF-1/Bob1/OCA-B is only expressed in B cells and not in myeloid cells, and that OBF-1/Bob1/OCA-B can transactivate the PU.1 promoter in HeLa and myeloid cells.
+# T12 Protein S7 45 50 1124 1129 OBF-1
+# T13 Protein S7 51 55 1130 1134 Bob1
+# T14 Protein S7 56 61 1135 1140 OCA-B
+# T15 Protein S7 126 131 1205 1210 OBF-1
+# T16 Protein S7 132 136 1211 1215 Bob1
+# T17 Protein S7 137 142 1216 1221 OCA-B
+# T18 Protein S7 165 169 1244 1248 PU.1
+$ T12 Protein S7 45 50 1124 1129 OBF-1
+$ T18 Protein S7 165 169 1244 1248 PU.1
+$ T15 Protein S7 126 131 1205 1210 OBF-1
+@ T26 Gene_expression S7 70 79 1149 1158 expressed
+@ T27 Positive_regulation S7 147 160 1226 1239 transactivate
+@ T28 Entity S7 170 178 1249 1257 promoter
+% E6 Gene_expression:T26 Theme:T12
+% E7 Positive_regulation:T27 Theme:T18 Cause:T15 Site:T28
+
+This B cell restricted coactivator may be responsible for the B cell specific expression of PU.1 mediated by the octamer site.
+# T19 Protein S8 92 96 1377 1381 PU.1
+$ T19 Protein S8 92 96 1377 1381 PU.1
+@ T29 Positive_regulation S8 42 53 1327 1338 responsible
+@ T30 Gene_expression S8 78 88 1363 1373 expression
+@ T31 Positive_regulation S8 97 105 1382 1390 mediated
+% E8 Positive_regulation:T29 Theme:E10 Cause:T15
+% E9 Gene_expression:T30 Theme:T19
+% E10 Positive_regulation:T31 Theme:E9
+

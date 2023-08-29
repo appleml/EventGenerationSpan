@@ -1,0 +1,79 @@
+Th2-biased immunogenicity of stimulated cpdm BMDC
+
+The defective IL12 production (Fig. 3A) and Th2-dominant cytokine profile in cpdm mice [5] suggest that the absence of SHARPIN affects the ability of cpdm BMDC to induce T cell differentiation into effector cells.
+# T1 Protein S2 119 126 169 176 SHARPIN
+$ T1 Protein S2 119 126 169 176 SHARPIN
+@ T16 Negative_regulation S2 108 115 158 165 absence
+% E1 Negative_regulation:T16 Theme:T1
+
+Co-culture of allogeneic naive CD4+ T cells with WT BMDC stimulated with LPS or poly I:C elicited robust IFNgamma production, whereas the concentration of IFNgamma in cpdm BMDC-T cell cultures was significantly lower after LPS stimulation (Fig. 7A), indicating impaired Th1-polarizing abilities of cpdm BMDC.
+# T2 Protein S3 105 113 369 377 IFNgamma
+# T3 Protein S3 155 163 419 427 IFNgamma
+$ T2 Protein S3 105 113 369 377 IFNgamma
+$ T3 Protein S3 155 163 419 427 IFNgamma
+@ T17 Positive_regulation S3 89 97 353 361 elicited
+@ T18 Gene_expression S3 114 124 378 388 production
+@ T19 Gene_expression S3 138 151 402 415 concentration
+@ T20 Positive_regulation S3 211 216 475 480 lower
+% E2 Positive_regulation:T17 Theme:E3
+% E3 Gene_expression:T18 Theme:T2
+% E4 Gene_expression:T19 Theme:T3
+% E5 Positive_regulation:T20 Theme:E4
+
+In addition to TLR3/4 agonists, the TLR2 ligand Pam3CYS was used since it has been shown to induce both Th1 and Th2 responses [28]-[30].
+# T4 Protein S4 15 19 588 592 TLR3
+# T5 Protein S4 20 21 593 594 4
+# T6 Protein S4 36 40 609 613 TLR2
+# T7 Protein S4 48 55 621 628 Pam3CYS
+$ T4 Protein S4 15 19 588 592 TLR3
+$ T5 Protein S4 20 21 593 594 4
+$ T6 Protein S4 36 40 609 613 TLR2
+$ T7 Protein S4 48 55 621 628 Pam3CYS
+@ T21 Positive_regulation S4 22 30 595 603 agonists
+@ T22 Binding S4 41 47 614 620 ligand
+% E6 Positive_regulation:T21 Theme:T4
+% E7 Positive_regulation:T21 Theme:T5
+% E8 Binding:T22 Theme:T6 Theme2:T7
+
+Pam3CYS-matured WT BMDC induced robust IFNgamma production at a significantly higher level than cpdm BMDC (Fig. 7A).
+# T8 Protein S5 0 7 710 717 Pam3CYS
+# T9 Protein S5 39 47 749 757 IFNgamma
+$ T8 Protein S5 0 7 710 717 Pam3CYS
+$ T9 Protein S5 39 47 749 757 IFNgamma
+@ T23 Positive_regulation S5 24 31 734 741 induced
+@ T24 Gene_expression S5 48 58 758 768 production
+% E9 Positive_regulation:T23 Theme:E10 Cause:T8
+% E10 Gene_expression:T24 Theme:T9
+
+The reduced Th1 differentiation following Pam3CYS stimulation is consistent with the recent report of decreased IL12 production in cpdm macrophages following TLR2 stimulation [31].
+# T10 Protein S6 42 49 869 876 Pam3CYS
+# T11 Protein S6 158 162 985 989 TLR2
+
+In contrast, more Th2-specific IL4 cytokine was produced in the cpdm BMDC co-cultures than the WT control (Fig. 7B), suggesting Th2-skewed immunogenicity of cpdm BMDC.
+# T12 Protein S7 31 34 1039 1042 IL4
+$ T12 Protein S7 31 34 1039 1042 IL4
+@ T25 Gene_expression S7 48 56 1056 1064 produced
+% E11 Gene_expression:T25 Theme:T12
+
+The production of Th17-specific cytokine IL17A following LPS stimulation of dendritic cells was similar between stimulated WT and cpdm BMDC cocultures (data not shown).
+# T13 Protein S8 41 46 1217 1222 IL17A
+$ T13 Protein S8 41 46 1217 1222 IL17A
+@ T26 Gene_expression S8 4 14 1180 1190 production
+@ T27 Positive_regulation S8 47 56 1223 1232 following
+% E12 Gene_expression:T26 Theme:T13
+% E13 Positive_regulation:T27 Theme:E12
+
+Despite the distinct Th1- and Th2-stimulating abilities of WT and cpdm BMDC, they were equally effective in IL2 production from BMDC-T cell co-cultures except for poly I:C stimulation where WT BMDC induced more IL2 than cpdm BMDC (Fig. 7C).
+# T14 Protein S9 108 111 1453 1456 IL2
+# T15 Protein S9 211 214 1556 1559 IL2
+$ T14 Protein S9 108 111 1453 1456 IL2
+$ T15 Protein S9 211 214 1556 1559 IL2
+@ T28 Gene_expression S9 112 122 1457 1467 production
+@ T29 Positive_regulation S9 198 205 1543 1550 induced
+@ T30 Positive_regulation S9 206 210 1551 1555 more
+% E14 Gene_expression:T28 Theme:T14
+% E15 Positive_regulation:T29 Theme:T15
+% E16 Positive_regulation:T30 Theme:E15
+
+The Th2-biased stimulating capability of cpdm BMDC when co-cultured with allogeneic naive CD4+ T cells is consistent with the Th2-dominant cytokine phenotype observed in cpdm mice.
+

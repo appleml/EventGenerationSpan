@@ -1,0 +1,20 @@
+Transcriptional regulation of T lymphocyte development and function.
+
+The development and function of T lymphocytes are regulated tightly by signal transduction pathways that include specific cell-surface receptors, intracellular signaling molecules, and nuclear transcription factors.
+
+Since 1988, several families of functionally important T cell transcription factors have been identified.
+
+These include the Ikaros, LKLF, and GATA3 zinc-finger proteins; the Ets, CREB/ATF, and NF-kappa B/Rel/NFAT transcription factors; the Stat proteins; and HMG box transcription factors such as LEF1, TCF1, and Sox4.
+# T1 Protein S4 18 24 410 416 Ikaros
+# T2 Protein S4 26 30 418 422 LKLF
+# T3 Protein S4 36 41 428 433 GATA3
+# T4 Protein S4 73 77 465 469 CREB
+# T5 Protein S4 78 81 470 473 ATF
+# T6 Protein S4 191 195 583 587 LEF1
+# T7 Protein S4 197 201 589 593 TCF1
+# T8 Protein S4 207 211 599 603 Sox4
+
+In this review, we summarize our current understanding of the transcriptional regulation of T cell development and function with particular emphasis on the results of recent gene targeting and transgenic experiments.
+
+In addition to increasing our understanding of the molecular pathways that regulate T cell development and function, these results have suggested novel targets for genetic and pharmacological manipulation of T cell immunity.
+

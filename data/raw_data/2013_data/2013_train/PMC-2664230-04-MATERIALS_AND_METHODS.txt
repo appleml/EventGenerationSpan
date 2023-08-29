@@ -1,0 +1,13 @@
+Effect of PTX on LPS-induced TNF-alpha production by mononuclear cells
+# T1 Protein S1 29 38 29 38 TNF-alpha
+$ T1 Protein S1 29 38 29 38 TNF-alpha
+@ T3 Positive_regulation S1 21 28 21 28 induced
+@ T4 Gene_expression S1 39 49 39 49 production
+% E1 Positive_regulation:T3 Theme:E2
+% E2 Gene_expression:T4 Theme:T1
+
+The concentration of TNF-alpha was quantitatively determined by ELISA in the media of cells exposed to the treatments described above after stimulation for up to a maximum of 18 hours, at 3-hour intervals.
+# T2 Protein S2 21 30 92 101 TNF-alpha
+
+The results are expressed in pg/mL.
+

@@ -1,0 +1,35 @@
+The p53 paradox in the pathogenesis of tumor progression.
+# T1 Protein S1 4 7 4 7 p53
+
+Recent evidence suggests that the p53 molecule appears in two different forms: the mutant p53 that stimulates tumor progression, and wild type p53 that inhibits tumor progression.
+# T2 Protein S2 34 37 93 96 p53
+# T3 Protein S2 90 93 149 152 p53
+# T4 Protein S2 143 146 202 205 p53
+
+In addition, it has been established that tumor necrosis factor-alpha (TNF-alpha) can activate the expression of wild type p53 in concert with the nuclear transcription factor, NF-kappa B. Both TNF-alpha and NF-kappa B are also involved in the stimulation of the pathway that leads to the expression of major histocompatibility complex (MHC) class I molecules and, hence, antigen presentation to the T cells.
+# T5 Protein S3 42 69 281 308 tumor necrosis factor-alpha
+# T6 Protein S3 71 80 310 319 TNF-alpha
+# T7 Protein S3 123 126 362 365 p53
+# T8 Protein S3 194 203 433 442 TNF-alpha
+$ T6 Protein S3 71 80 310 319 TNF-alpha
+$ T7 Protein S3 123 126 362 365 p53
+@ T13 Positive_regulation S3 86 94 325 333 activate
+@ T14 Gene_expression S3 99 109 338 348 expression
+% E1 Positive_regulation:T13 Theme:E2 Cause:T6
+% E2 Gene_expression:T14 Theme:T7
+
+In this paper we shall advance the hypothesis that: (i) TNF-alpha indirectly controls immune surveillance; and (ii) TNF-alpha controls DNA repair and tumor suppression through the regulation of wild type p53.
+# T9 Protein S4 56 65 704 713 TNF-alpha
+# T10 Protein S4 116 125 764 773 TNF-alpha
+# T11 Protein S4 204 207 852 855 p53
+$ T11 Protein S4 204 207 852 855 p53
+$ T10 Protein S4 116 125 764 773 TNF-alpha
+@ T15 Regulation S4 180 190 828 838 regulation
+% E3 Regulation:T15 Theme:T11 Cause:T10
+
+Thus, it is hypothesized that elevated TNF-alpha is primarily responsible for promoting tumor progression.
+# T12 Protein S5 39 48 896 905 TNF-alpha
+$ T12 Protein S5 39 48 896 905 TNF-alpha
+@ T16 Positive_regulation S5 30 38 887 895 elevated
+% E4 Positive_regulation:T16 Theme:T12
+

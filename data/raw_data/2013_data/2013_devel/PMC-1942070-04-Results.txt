@@ -1,0 +1,170 @@
+3.1Loss of HSP27 phosphorylation in DT40 B cells lacking expression of PKD family kinases
+# T1 Protein S1 11 16 11 16 HSP27
+$ T1 Protein S1 11 16 11 16 HSP27
+@ T38 Negative_regulation S1 3 7 3 7 Loss
+@ T39 Phosphorylation S1 17 32 17 32 phosphorylation
+% E1 Negative_regulation:T38 Theme:E2
+% E2 Phosphorylation:T39 Theme:T1
+
+DT40 B cells express two PKD isoforms, PKD1 and PKD3, and as previously described we have recently generated DT40 B cell lines that lack expression of either PKD1 or PKD3 or both enzymes [1].
+# T2 Protein S2 39 43 129 133 PKD1
+# T3 Protein S2 48 52 138 142 PKD3
+# T4 Protein S2 158 162 248 252 PKD1
+# T5 Protein S2 166 170 256 260 PKD3
+$ T2 Protein S2 39 43 129 133 PKD1
+$ T3 Protein S2 48 52 138 142 PKD3
+$ T4 Protein S2 158 162 248 252 PKD1
+$ T5 Protein S2 166 170 256 260 PKD3
+@ T40 Gene_expression S2 13 20 103 110 express
+@ T37 Anaphora S2 21 37 111 127 two PKD isoforms
+@ T41 Negative_regulation S2 132 136 222 226 lack
+@ T42 Gene_expression S2 137 147 227 237 expression
+% E3 Gene_expression:T40 Theme:T2
+% E4 Gene_expression:T40 Theme:T3
+% E5 Negative_regulation:T41 Theme:E6
+% E7 Negative_regulation:T41 Theme:E8
+% E6 Gene_expression:T42 Theme:T4
+% E8 Gene_expression:T42 Theme:T5
+
+In generating the double knockout cell lines we targeted the PKD1 loci in a PKD3-/- cell line that expressed a Flag-PKD3 transgene under the control of a doxycycline-inducible promoter.
+# T6 Protein S3 61 65 343 347 PKD1
+# T7 Protein S3 76 80 358 362 PKD3
+# T8 Protein S3 116 120 398 402 PKD3
+$ T8 Protein S3 116 120 398 402 PKD3
+@ T43 Gene_expression S3 99 108 381 390 expressed
+% E9 Gene_expression:T43 Theme:T8
+
+Hence, in the presence of doxycycline, Flag-PKD3 expression in PKD1/3 double knockout cells is comparable to endogenous PKD3 present in wild-type DT40 cells and removal of doxycycline from the culture media for 5 days results in a completely null PKD phenotype (Fig. 1A).
+# T9 Protein S4 44 48 512 516 PKD3
+# T10 Protein S4 63 67 531 535 PKD1
+# T11 Protein S4 68 69 536 537 3
+# T12 Protein S4 120 124 588 592 PKD3
+$ T9 Protein S4 44 48 512 516 PKD3
+$ T10 Protein S4 63 67 531 535 PKD1
+$ T11 Protein S4 68 69 536 537 3
+@ T44 Gene_expression S4 49 59 517 527 expression
+@ T45 Negative_regulation S4 70 85 538 553 double knockout
+% E10 Gene_expression:T44 Theme:T9
+% E11 Negative_regulation:T45 Theme:T10
+% E12 Negative_regulation:T45 Theme:T11
+
+Previously, we have demonstrated that phosphorylation and nuclear exclusion of class II histone deacetylases (HDACs) during BCR engagement is defective in PKD1/3-/- B cells and can restored upon re-expression of a single PKD isoform [1].
+# T13 Protein S5 155 159 895 899 PKD1
+# T14 Protein S5 160 161 900 901 3
+
+The small heat shock protein HSP27 has recently been proposed as a PKD1 substrate [24] and we accordingly assessed whether PKD-null DT40 cells have defective phosphorylation of HSP27 on serine 82, the proposed PKD1 substrate sequence.
+# T15 Protein S6 29 34 1007 1012 HSP27
+# T16 Protein S6 67 71 1045 1049 PKD1
+# T17 Protein S6 177 182 1155 1160 HSP27
+# T18 Protein S6 210 214 1188 1192 PKD1
+$ T17 Protein S6 177 182 1155 1160 HSP27
+@ T46 Negative_regulation S6 148 157 1126 1135 defective
+@ T47 Phosphorylation S6 158 173 1136 1151 phosphorylation
+@ T48 Entity S6 186 195 1164 1173 serine 82
+% E13 Negative_regulation:T46 Theme:E14
+% E14 Phosphorylation:T47 Theme:T17 Site:T48
+
+We initially investigated the regulation of HSP27 phosphorylation in single knockout DT40 B cells lacking either PKD1 or PKD3.
+# T19 Protein S7 44 49 1257 1262 HSP27
+# T20 Protein S7 113 117 1326 1330 PKD1
+# T21 Protein S7 121 125 1334 1338 PKD3
+$ T19 Protein S7 44 49 1257 1262 HSP27
+$ T20 Protein S7 113 117 1326 1330 PKD1
+$ T21 Protein S7 121 125 1334 1338 PKD3
+@ T49 Regulation S7 30 40 1243 1253 regulation
+@ T50 Phosphorylation S7 50 65 1263 1278 phosphorylation
+@ T51 Negative_regulation S7 98 105 1311 1318 lacking
+% E15 Regulation:T49 Theme:E16
+% E16 Phosphorylation:T50 Theme:T19
+% E17 Negative_regulation:T51 Theme:T20
+% E18 Negative_regulation:T51 Theme:T21
+
+As shown in Fig. 1B, activation of the BCR or treatment with the DAG-mimetic PdBu increased the levels of HSP27 phosphorylation at S82 in wild-type DT40 B cells.
+# T22 Protein S8 106 111 1446 1451 HSP27
+$ T22 Protein S8 106 111 1446 1451 HSP27
+@ T52 Positive_regulation S8 82 91 1422 1431 increased
+@ T53 Phosphorylation S8 112 127 1452 1467 phosphorylation
+@ T54 Entity S8 131 134 1471 1474 S82
+% E19 Positive_regulation:T52 Theme:E20
+% E20 Phosphorylation:T53 Theme:T22 Site:T54
+
+BCR and phorbol ester signals were also able to increase HSP27 phosphorylation in PKD1 or PKD3 single knockout DT40 B cells (Fig. 1B).
+# T23 Protein S9 57 62 1559 1564 HSP27
+# T24 Protein S9 82 86 1584 1588 PKD1
+# T25 Protein S9 90 94 1592 1596 PKD3
+$ T23 Protein S9 57 62 1559 1564 HSP27
+$ T24 Protein S9 82 86 1584 1588 PKD1
+$ T25 Protein S9 90 94 1592 1596 PKD3
+@ T55 Positive_regulation S9 48 56 1550 1558 increase
+@ T56 Phosphorylation S9 63 78 1565 1580 phosphorylation
+@ T57 Negative_regulation S9 102 110 1604 1612 knockout
+% E21 Positive_regulation:T55 Theme:E22
+% E22 Phosphorylation:T56 Theme:T23
+% E23 Negative_regulation:T57 Theme:T24
+% E24 Negative_regulation:T57 Theme:T25
+
+However, BCR- and phorbol ester-induced phosphorylation of HSP27 on S82 was abolished in B cells that lacked both PKD1 and PKD3 (Fig. 1C).
+# T26 Protein S10 59 64 1696 1701 HSP27
+# T27 Protein S10 114 118 1751 1755 PKD1
+# T28 Protein S10 123 127 1760 1764 PKD3
+$ T26 Protein S10 59 64 1696 1701 HSP27
+$ T27 Protein S10 114 118 1751 1755 PKD1
+$ T28 Protein S10 123 127 1760 1764 PKD3
+@ T58 Positive_regulation S10 32 39 1669 1676 induced
+@ T59 Phosphorylation S10 40 55 1677 1692 phosphorylation
+@ T60 Entity S10 68 71 1705 1708 S82
+@ T61 Negative_regulation S10 76 85 1713 1722 abolished
+@ T62 Negative_regulation S10 102 108 1739 1745 lacked
+% E25 Positive_regulation:T58 Theme:E26
+% E26 Phosphorylation:T59 Theme:T26 Site:T60
+% E27 Negative_regulation:T61 Theme:E25 Cause:E28
+% E29 Negative_regulation:T61 Theme:E25 Cause:E30
+% E28 Negative_regulation:T62 Theme:T27
+% E30 Negative_regulation:T62 Theme:T28
+
+Significantly, doxycycline-induced expression of the Flag-PKD3 transgene in the double knockout cells was sufficient to restore normal regulation of HSP27 phosphorylation (Fig. 1C).
+# T29 Protein S11 58 62 1834 1838 PKD3
+# T30 Protein S11 149 154 1925 1930 HSP27
+$ T29 Protein S11 58 62 1834 1838 PKD3
+$ T30 Protein S11 149 154 1925 1930 HSP27
+@ T63 Positive_regulation S11 27 34 1803 1810 induced
+@ T64 Gene_expression S11 35 45 1811 1821 expression
+@ T65 Positive_regulation S11 106 127 1882 1903 sufficient to restore
+@ T66 Regulation S11 135 145 1911 1921 regulation
+@ T67 Phosphorylation S11 155 170 1931 1946 phosphorylation
+% E31 Positive_regulation:T63 Theme:E32
+% E32 Gene_expression:T64 Theme:T29
+% E33 Positive_regulation:T65 Theme:E34 Cause:E31
+% E34 Regulation:T66 Theme:E35
+% E35 Phosphorylation:T67 Theme:T30
+
+In contrast, expression of a kinase-deficient PKD3 mutant protein in the double knockout cells was not able to restore BCR- or phorbol ester-induced HSP27 phosphorylation (Fig. 1D).
+# T31 Protein S12 46 50 2004 2008 PKD3
+# T32 Protein S12 149 154 2107 2112 HSP27
+$ T31 Protein S12 46 50 2004 2008 PKD3
+$ T32 Protein S12 149 154 2107 2112 HSP27
+@ T68 Gene_expression S12 13 23 1971 1981 expression
+@ T69 Negative_regulation S12 36 45 1994 2003 deficient
+@ T70 Positive_regulation S12 111 118 2069 2076 restore
+@ T71 Positive_regulation S12 141 148 2099 2106 induced
+@ T72 Phosphorylation S12 155 170 2113 2128 phosphorylation
+% E36 Gene_expression:T68 Theme:T31
+% E37 Negative_regulation:T69 Theme:T31
+% E38 Positive_regulation:T70 Theme:E39 Cause:E36
+% E39 Positive_regulation:T71 Theme:E40
+% E40 Phosphorylation:T72 Theme:T32
+
+Hence, PKD3 as well as PKD1 can regulate HSP27 phosphorylation and in DT40 B cells they are functionally redundant as HSP27 kinases.
+# T33 Protein S13 7 11 2147 2151 PKD3
+# T34 Protein S13 23 27 2163 2167 PKD1
+# T35 Protein S13 41 46 2181 2186 HSP27
+# T36 Protein S13 118 123 2258 2263 HSP27
+$ T33 Protein S13 7 11 2147 2151 PKD3
+$ T34 Protein S13 23 27 2163 2167 PKD1
+$ T35 Protein S13 41 46 2181 2186 HSP27
+@ T73 Regulation S13 32 40 2172 2180 regulate
+@ T74 Phosphorylation S13 47 62 2187 2202 phosphorylation
+% E41 Regulation:T73 Theme:E42 Cause:T33
+% E43 Regulation:T73 Theme:E42 Cause:T34
+% E42 Phosphorylation:T74 Theme:T35
+

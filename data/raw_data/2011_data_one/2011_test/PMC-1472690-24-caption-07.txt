@@ -1,0 +1,32 @@
+Decreased IL-1beta/IL-1RA ratio following GP + TSST-1 when compared to TSST-1.
+# T1 Protein S1 10 18 10 18 IL-1beta
+# T2 Protein S1 19 25 19 25 IL-1RA
+# T3 Protein S1 47 53 47 53 TSST-1
+# T4 Protein S1 71 77 71 77 TSST-1
+
+Time course (48 h) of the IL-1beta/IL-1RA ratio following incubation of human PBMC with LPS, TSST-1, GP + LPS, GP/LPS calc., GP + TSST-1 or GP/TSST-1 calc.
+# T5 Protein S2 26 34 105 113 IL-1beta
+# T6 Protein S2 35 41 114 120 IL-1RA
+# T7 Protein S2 93 99 172 178 TSST-1
+# T8 Protein S2 130 136 209 215 TSST-1
+# T9 Protein S2 143 149 222 228 TSST-1
+
+LPS and GP + LPS treatments resulted in generating more IL-1beta than IL-1RA up to 24 h.
+# T10 Protein S3 56 64 291 299 IL-1beta
+# T11 Protein S3 70 76 305 311 IL-1RA
+
+When comparing LPS or GP/LPS calc.
+
+vs GP + LPS we did not find significant alterations in the IL-1beta/IL-1RA ratio over 48 h. With respect to TSST-1 or GP/TSST-1 calc.
+# T12 Protein S5 59 67 418 426 IL-1beta
+# T13 Protein S5 68 74 427 433 IL-1RA
+# T14 Protein S5 108 114 467 473 TSST-1
+# T15 Protein S5 121 127 480 486 TSST-1
+
+vs GP + TSST-1 we observed a pronounced anti-inflammatory action of GP, as demonstrated by an about 10-100 fold reduced ratio at 18 h and 24 h, i.e. a higher production of IL-1RA than of IL-1beta (* = p < 0.05).
+# T16 Protein S6 8 14 501 507 TSST-1
+# T17 Protein S6 172 178 665 671 IL-1RA
+# T18 Protein S6 187 195 680 688 IL-1beta
+
+Data are shown as mean +/- SEM (n = 3).
+

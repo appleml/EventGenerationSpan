@@ -1,0 +1,58 @@
+HLA-DR-, CD33+, CD56+, CD16- myeloid/natural killer cell acute leukemia: a previously unrecognized form of acute leukemia potentially misdiagnosed as French-American-British acute myeloid leukemia-M3 [see comments]
+# T1 Protein S1 9 13 9 13 CD33
+# T2 Protein S1 16 20 16 20 CD56
+# T3 Protein S1 23 27 23 27 CD16
+
+We have identified and characterized a previously unrecognized form of acute leukemia that shares features of both myeloid and natural killer (NK) cells.
+
+From a consecutive series of 350 cases of adult de novo acute myeloid leukemia (AML), we identified 20 cases (6%) with a unique immunophenotype: CD33+, CD56+, CD11a+, CD13lo, CD15lo, CD34+/-, HLA-DR-, CD16-.
+# T4 Protein S3 145 149 515 519 CD33
+# T5 Protein S3 152 156 522 526 CD56
+# T6 Protein S3 159 164 529 534 CD11a
+# T7 Protein S3 167 173 537 543 CD13lo
+# T8 Protein S3 175 181 545 551 CD15lo
+# T9 Protein S3 183 187 553 557 CD34
+# T10 Protein S3 201 205 571 575 CD16
+
+Multicolor flow cytometric assays confirmed the coexpression of myeloid (CD33, CD13, CD15) and NK cell-associated (CD56) antigens in each case, whereas reverse transcription polymerase chain reaction (RT-PCR) assays confirmed the identity of CD56 (neural cell adhesion molecule) in leukemic blasts.
+# T11 Protein S4 73 77 651 655 CD33
+# T12 Protein S4 79 83 657 661 CD13
+# T13 Protein S4 85 89 663 667 CD15
+# T14 Protein S4 115 119 693 697 CD56
+# T15 Protein S4 242 246 820 824 CD56
+
+Although two cases expressed CD4, no case expressed CD2, CD3, or CD8 and no case showed clonal rearrangement of genes encoding the T-cell receptor (TCR beta, gamma, delta).
+# T16 Protein S5 29 32 906 909 CD4
+# T17 Protein S5 52 55 929 932 CD2
+# T18 Protein S5 65 68 942 945 CD8
+# T19 Protein S5 148 156 1025 1033 TCR beta
+# T20 Protein S5 158 163 1035 1040 gamma
+# T21 Protein S5 165 170 1042 1047 delta
+
+Leukemic blasts in the majority of cases shared unique morphologic features (deeply invaginated nuclear membranes, scant cytoplasm with fine azurophilic granularity, and finely granular Sudan black B and myeloperoxidase cytochemical reactivity) that were remarkably similar to those of acute promyelocytic leukemia (APL); particularly the microgranular variant (FAB AML-M3v).
+# T22 Protein S6 204 219 1254 1269 myeloperoxidase
+
+However, all 20 cases lacked the t(15;17) and 17 cases tested lacked the promyelocytic/retinoic acid receptor alpha (RAR alpha) fusion transcript in RT-PCR assays; 12 cases had 46,XX or 46,XY karyotypes, whereas 2 cases had abnormalities of chromosome 17q: 1 with del(17)(q25) and the other with t(11;17)(q23;q21) and the promyelocytic leukemia zinc finger/RAR alpha fusion transcript.
+# T23 Protein S7 73 115 1499 1541 promyelocytic/retinoic acid receptor alpha
+# T24 Protein S7 117 126 1543 1552 RAR alpha
+# T25 Protein S7 322 356 1748 1782 promyelocytic leukemia zinc finger
+# T26 Protein S7 357 366 1783 1792 RAR alpha
+
+All cases tested (6/20), including the case with t(11;17), failed to differentiate in vitro in response to all-trans retinoic acid (ATRA), suggesting that these cases may account for some APLs that have not shown a clinical response to ATRA.
+
+Four of 6 cases tested showed functional NK cell-mediated cytotoxicity, suggesting a relationship between these unique CD33+, CD56+, CD16- acute leukemias and normal CD56+, CD16- NK precursor cells.
+# T27 Protein S9 119 123 2173 2177 CD33
+# T28 Protein S9 126 130 2180 2184 CD56
+# T29 Protein S9 133 137 2187 2191 CD16
+# T30 Protein S9 166 170 2220 2224 CD56
+# T31 Protein S9 173 177 2227 2231 CD16
+
+Using a combination of panning and multiparameter flow cytometric sorting, we identified a normal CD56+, CD33+, CD16- counterpart cell at a frequency of 1% to 2% in the peripheral blood of healthy individuals.
+# T32 Protein S10 98 102 2351 2355 CD56
+# T33 Protein S10 105 109 2358 2362 CD33
+# T34 Protein S10 112 116 2365 2369 CD16
+
+Our studies suggest that this form of acute leukemia may arise from transformation of a precursor cell common to both the myeloid and NK cell lineages; thus we propose the designation myeloid/NK acute leukemia.
+
+Recognition of this new leukemic entity will be important in distinguishing these ATRA-nonresponsive cases from ATRA-responsive true APL.
+

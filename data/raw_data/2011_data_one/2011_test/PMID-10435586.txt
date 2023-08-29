@@ -1,0 +1,22 @@
+Block of granulocytic differentiation of 32Dcl3 cells by AML1/ETO(MTG8) but not by highly expressed Bcl-2.
+# T1 Protein S1 100 105 100 105 Bcl-2
+
+The chimeric gene, AML1/ETO (MTG8), generated in t(8;21) acute myeloid leukemia enhances the expression of Bcl-2.
+# T2 Protein S2 107 112 215 220 Bcl-2
+
+To evaluate whether this enhancement is the primary role of AML1/ETO in leukemogenesis, effects of over-expression of Bcl-2 in the murine myeloid precursor cell line, 32Dcl3, were examined.
+# T3 Protein S3 118 123 340 345 Bcl-2
+
+When 32Dcl3 cells expressing exogenous Bcl-2 were induced to differentiate, the onset of morphological differentiation was delayed.
+# T4 Protein S4 39 44 451 456 Bcl-2
+
+However, even the cells expressing very high levels of exogenous Bcl-2 eventually underwent differentiation without a significant decrease in the synthesis of Bcl-2.
+# T5 Protein S5 65 70 609 614 Bcl-2
+# T6 Protein S5 159 164 703 708 Bcl-2
+
+On the contrary, 32Dcl3 cells stably expressing AML1/ETO were completely resistant to differentiation and continued to grow in the presence of G-CSF.
+# T7 Protein S6 143 148 853 858 G-CSF
+
+These results are consistent with the interpretation that stimulation of Bcl-2 expression is not the primary target of AML1/ETO.
+# T8 Protein S7 73 78 933 938 Bcl-2
+

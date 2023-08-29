@@ -1,0 +1,370 @@
+NF-kappaB transcriptional activity is important in regulating intracellular signaling, stress response, proliferation, survival, differentiation and inflammation [8].
+
+To regulate gene transcription, NF-kappaB p50/p65 heterodimers translocate to the nucleus from the cytoplasm, however, their translocation is not sufficient to activate gene transcription.
+# T1 Protein S2 42 45 209 212 p50
+# T2 Protein S2 46 49 213 216 p65
+# T3 Protein S2 119 124 286 291 their
+$ T1 Protein S2 42 45 209 212 p50
+$ T2 Protein S2 46 49 213 216 p65
+$ T3 Protein S2 119 124 286 291 their
+@ T29 Localization S2 63 74 230 241 translocate
+@ T30 Entity S2 82 89 249 256 nucleus
+@ T31 Localization S2 125 138 292 305 translocation
+% E1 Localization:T29 Theme:T1 ToLoc:T30
+% E2 Localization:T29 Theme:T2 ToLoc:T30
+% E3 Localization:T31 Theme:T3
+
+Post-translational modification of NF-kappaB heterodimers such as phosphorylation or acetylation also contributes to its transcriptional activity [41], [42], [43].
+
+Because NF-kappaB constitutively translocates to the nucleus in monocytic lineage [13] and activates gene transcription and survival in murine macrophages [11], we sought to determine how M-CSF affected NF-kappaB transcriptional activity in human MDMs and whether this activation regulated their survival.
+
+The present study demonstrated that M-CSF stimulated PKCalpha kinase upstream of NF-kappaB transcriptional activity in primary human MDMs and RAW 264.7 cells.
+# T4 Protein S5 53 61 879 887 PKCalpha
+$ T4 Protein S5 53 61 879 887 PKCalpha
+@ T32 Positive_regulation S5 42 52 868 878 stimulated
+% E4 Positive_regulation:T32 Theme:T4
+
+We showed inhibition of conventional PKCs by PKC inhibitors, kinase deficient PKCalpha or PKCalpha siRNA blocked M-CSF-induced cell survival and NF-kappaB-regulated gene expression.
+# T5 Protein S6 78 86 1063 1071 PKCalpha
+# T6 Protein S6 90 104 1075 1089 PKCalpha siRNA
+$ T5 Protein S6 78 86 1063 1071 PKCalpha
+@ T33 Negative_regulation S6 61 77 1046 1062 kinase deficient
+% E5 Negative_regulation:T33 Theme:T5
+
+This block correlated with a reduction in M-CSF-induced phosphorylation of NF-kappaB p65 at Ser276.
+# T7 Protein S7 85 88 1252 1255 p65
+$ T7 Protein S7 85 88 1252 1255 p65
+@ T34 Negative_regulation S7 29 38 1196 1205 reduction
+@ T35 Positive_regulation S7 48 55 1215 1222 induced
+@ T36 Phosphorylation S7 56 71 1223 1238 phosphorylation
+@ T37 Entity S7 92 98 1259 1265 Ser276
+% E6 Negative_regulation:T34 Theme:E7
+% E7 Positive_regulation:T35 Theme:E8
+% E8 Phosphorylation:T36 Theme:T7 Site:T37
+
+Consistent with these findings the dominant negative PKCalpha constructs also inhibited NF-kappaB p65 phosphorylation at Ser276 but not at Ser536 resulting in reduced NF-kappaB transcriptional activation and M-CSF-induced MDM survival.
+# T8 Protein S8 35 61 1302 1328 dominant negative PKCalpha
+# T9 Protein S8 98 101 1365 1368 p65
+$ T8 Protein S8 35 61 1302 1328 dominant negative PKCalpha
+$ T9 Protein S8 98 101 1365 1368 p65
+@ T38 Negative_regulation S8 78 87 1345 1354 inhibited
+@ T39 Phosphorylation S8 102 117 1369 1384 phosphorylation
+@ T40 Entity S8 121 127 1388 1394 Ser276
+@ T41 Entity S8 139 145 1406 1412 Ser536
+% E9 Negative_regulation:T38 Theme:E10 Cause:T8
+% E11 Negative_regulation:T38 Theme:E12 Cause:T8
+% E10 Phosphorylation:T39 Theme:T9 Site:T40
+% E12 Phosphorylation:T39 Theme:T9 Site:T41
+
+A simplified proposed cartoon model in Figure 9 demonstrates that M-CSF induced monocytes survival is regulated by activating NF-kappaB p65 phosphorylation at Ser276 via PKC.
+# T10 Protein S9 136 139 1639 1642 p65
+$ T10 Protein S9 136 139 1639 1642 p65
+@ T42 Positive_regulation S9 115 125 1618 1628 activating
+@ T43 Phosphorylation S9 140 155 1643 1658 phosphorylation
+@ T44 Entity S9 159 165 1662 1668 Ser276
+% E13 Positive_regulation:T42 Theme:E14
+% E14 Phosphorylation:T43 Theme:T10 Site:T44
+
+Finally, in a NF-kappaB p65-/- fibroblast cell line, we confirmed that the Ser276 residue of NF-kappaB p65 is important and essential for PKC modulation of NF-kappaB activity.
+# T11 Protein S10 24 27 1702 1705 p65
+# T12 Protein S10 103 106 1781 1784 p65
+$ T11 Protein S10 24 27 1702 1705 p65
+@ T45 Gene_expression S10 27 30 1705 1708 -/-
+% E15 Gene_expression:T45 Theme:T11
+
+More compelling is that we observed a similar regulation between two different cell lineages in our study.
+
+Post-translational modification of NF-kappaB p65 regulates its activating or repressing effects on gene expression.
+# T13 Protein S12 45 48 2006 2009 p65
+$ T13 Protein S12 45 48 2006 2009 p65
+@ T46 Protein_modification S12 0 31 1961 1992 Post-translational modification
+% E16 Protein_modification:T46 Theme:T13
+
+Among the seven reported putative NF-kappaB p65 phosphorylation sites, five increase nuclear translocation, DNA binding and NF-kappaB transcriptional activity [17].
+# T15 Protein S13 44 47 2121 2124 p65
+
+Similar to our finding, Zhong et al. found that in response to LPS, NF-kappaB p65 is phosphorylated at the highly conserved Ser276 residue by the catalytic subunit of PKA [16].
+# T16 Protein S14 78 81 2320 2323 p65
+$ T16 Protein S14 78 81 2320 2323 p65
+@ T47 Positive_regulation S14 48 62 2290 2304 in response to
+@ T48 Phosphorylation S14 85 99 2327 2341 phosphorylated
+@ T49 Entity S14 124 130 2366 2372 Ser276
+% E17 Positive_regulation:T47 Theme:E18
+% E18 Phosphorylation:T48 Theme:T16 Site:T49
+
+In addition to PKA, Ser276 can be phosphorylated by MSK1 in the nucleus upon TNFalpha treatment [18].
+# T17 Protein S15 52 56 2471 2475 MSK1
+# T18 Protein S15 77 85 2496 2504 TNFalpha
+$ T17 Protein S15 52 56 2471 2475 MSK1
+$ T18 Protein S15 77 85 2496 2504 TNFalpha
+@ T50 Entity S15 20 26 2439 2445 Ser276
+@ T51 Phosphorylation S15 34 48 2453 2467 phosphorylated
+@ T52 Positive_regulation S15 72 76 2491 2495 upon
+% E19 Phosphorylation:T51 Theme:T16 Cause:T17 Site:T50
+% E20 Positive_regulation:T52 Theme:E19 Cause:T18
+
+Phosphorylation of NF-kappaB p65 at Ser536 occurs in response to many inflammatory stimuli as well as kinases, IKKalpha, IKKbeta and RSK1 [17], [18], [19], [20], [21].
+# T19 Protein S16 29 32 2550 2553 p65
+# T20 Protein S16 111 119 2632 2640 IKKalpha
+# T21 Protein S16 121 128 2642 2649 IKKbeta
+# T22 Protein S16 133 137 2654 2658 RSK1
+$ T19 Protein S16 29 32 2550 2553 p65
+@ T53 Phosphorylation S16 0 15 2521 2536 Phosphorylation
+@ T54 Entity S16 36 42 2557 2563 Ser536
+@ T55 Positive_regulation S16 50 64 2571 2585 in response to
+% E21 Phosphorylation:T53 Theme:T19 Site:T54
+% E22 Positive_regulation:T55 Theme:E21
+
+Notably, in addition to phosphorylating Ser276 of NF-kappaB, our study revealed that M-CSF also modulated the phosphorylation of the NF-kappaB p65 subunit at Ser536, however, PKC inhibitors or kinase deficient PKCalpha constructs did not affect this phosphorylation event.
+# T23 Protein S17 143 146 2832 2835 p65
+# T24 Protein S17 210 218 2899 2907 PKCalpha
+$ T23 Protein S17 143 146 2832 2835 p65
+$ T24 Protein S17 210 218 2899 2907 PKCalpha
+@ T56 Regulation S17 96 105 2785 2794 modulated
+@ T57 Phosphorylation S17 110 125 2799 2814 phosphorylation
+@ T58 Entity S17 158 164 2847 2853 Ser536
+@ T59 Negative_regulation S17 193 209 2882 2898 kinase deficient
+% E23 Regulation:T56 Theme:E24
+% E24 Phosphorylation:T57 Theme:T23 Site:T58
+% E25 Negative_regulation:T59 Theme:T24
+
+Moreover, mutant constructs containing a point mutation at Ser536 of NF-kappaB p65 did not reduce NF-kappaB activity in cells lacking endogenous NF-kappaB p65, while the NF-kappaB p65 276S/A construct did reduce NF-kappaB activity in these cells.
+# T25 Protein S18 79 82 3041 3044 p65
+# T26 Protein S18 155 158 3117 3120 p65
+# T27 Protein S18 180 183 3142 3145 p65
+$ T25 Protein S18 79 82 3041 3044 p65
+$ T26 Protein S18 155 158 3117 3120 p65
+@ T60 Regulation S18 41 55 3003 3017 point mutation
+@ T61 Entity S18 59 65 3021 3027 Ser536
+@ T62 Negative_regulation S18 126 133 3088 3095 lacking
+% E26 Regulation:T60 Theme:T25 Site:T61
+% E27 Negative_regulation:T62 Theme:T26
+
+Therefore, specific post-translational modification of NF-kappaB p65 is likely to regulate transcriptional activation in response to specific stimuli [15], [43].
+# T28 Protein S19 65 68 3274 3277 p65
+$ T28 Protein S19 65 68 3274 3277 p65
+@ T63 Protein_modification S19 20 51 3229 3260 post-translational modification
+% E28 Protein_modification:T63 Theme:T28
+
+It is notable that M-CSF activated NF-kappaB p65 Ser276 phosphorylation and transcriptional activation in a PKCalpha-dependent manner.
+# T64 Protein S20 45 48 3416 3419 p65
+# T65 Protein S20 108 116 3479 3487 PKCalpha
+$ T64 Protein S20 45 48 3416 3419 p65
+$ T65 Protein S20 108 116 3479 3487 PKCalpha
+@ T89 Positive_regulation S20 25 34 3396 3405 activated
+@ T90 Entity S20 49 55 3420 3426 Ser276
+@ T91 Phosphorylation S20 56 71 3427 3442 phosphorylation
+@ T92 Regulation S20 117 126 3488 3497 dependent
+% E29 Positive_regulation:T89 Theme:E30
+% E30 Phosphorylation:T91 Theme:T64 Site:T90
+% E31 Regulation:T92 Theme:E29 Cause:T65
+
+PKCalpha is a member of the conventional PKC family of protein kinases that are critical for cell growth, differentiation and cell death.
+# T66 Protein S21 0 8 3506 3514 PKCalpha
+
+PKCalpha primarily modulates anti-apoptotic and proliferation signals following cytokine treatment in various cell types [42].
+# T67 Protein S22 0 8 3644 3652 PKCalpha
+
+Expression of PKCalpha attenuates apoptosis in many different cell types, while PKCalpha inhibition generally potentiates apoptosis [42].
+# T68 Protein S23 14 22 3785 3793 PKCalpha
+# T69 Protein S23 80 88 3851 3859 PKCalpha
+$ T68 Protein S23 14 22 3785 3793 PKCalpha
+$ T69 Protein S23 80 88 3851 3859 PKCalpha
+@ T93 Gene_expression S23 0 10 3771 3781 Expression
+@ T94 Negative_regulation S23 89 99 3860 3870 inhibition
+% E32 Gene_expression:T93 Theme:T68
+% E33 Negative_regulation:T94 Theme:T69
+
+In our studies using conventional PKC inhibitors and dominant negative PKCalpha constructs, PKCalpha was critical in M-CSF-induced macrophage survival by inducing Ser276 phosphorylation of NF-kappaB p65 in both primary human MDMs and Raw 264.7 cells.
+# T70 Protein S24 53 79 3962 3988 dominant negative PKCalpha
+# T71 Protein S24 92 100 4001 4009 PKCalpha
+# T72 Protein S24 199 202 4108 4111 p65
+$ T71 Protein S24 92 100 4001 4009 PKCalpha
+$ T72 Protein S24 199 202 4108 4111 p65
+@ T95 Positive_regulation S24 154 162 4063 4071 inducing
+@ T96 Entity S24 163 169 4072 4078 Ser276
+@ T97 Phosphorylation S24 170 185 4079 4094 phosphorylation
+% E34 Positive_regulation:T95 Theme:E35 Cause:T71
+% E35 Phosphorylation:T97 Theme:T72 Site:T96
+
+We also demonstrated PKC inhibition downregulated NF-kappaB-induction of the anti-apoptotic gene BCL-xL.
+# T73 Protein S25 97 103 4257 4263 BCL-xL
+$ T73 Protein S25 97 103 4257 4263 BCL-xL
+@ T98 Negative_regulation S25 36 49 4196 4209 downregulated
+@ T99 Positive_regulation S25 60 69 4220 4229 induction
+% E36 Negative_regulation:T98 Theme:E37
+% E37 Positive_regulation:T99 Theme:T73
+
+Consistent with our finding, others reported NF-kappaB regulated the gene expression of many anti-apoptotic proteins including other BCL-2 family members and inhibitor of apoptosis (IAP) proteins which are regulators of apoptosis and function upstream of caspases [44].
+
+It has been shown that phosphorylation of p65 at Ser276 prevents its degradation by ubiquitin-mediated proteolysis and promotes cell survival in HeLa cells [24].
+# T74 Protein S27 42 45 4577 4580 p65
+# T75 Protein S27 84 93 4619 4628 ubiquitin
+$ T74 Protein S27 42 45 4577 4580 p65
+$ T75 Protein S27 84 93 4619 4628 ubiquitin
+@ T100 Phosphorylation S27 23 38 4558 4573 phosphorylation
+@ T101 Entity S27 49 55 4584 4590 Ser276
+@ T102 Negative_regulation S27 56 64 4591 4599 prevents
+@ T88 Anaphora S27 65 68 4600 4603 its
+@ T103 Protein_catabolism S27 69 80 4604 4615 degradation
+@ T104 Positive_regulation S27 81 83 4616 4618 by
+@ T105 Positive_regulation S27 94 102 4629 4637 mediated
+@ T106 Protein_catabolism S27 103 114 4638 4649 proteolysis
+% E38 Phosphorylation:T100 Theme:T74 Site:T101
+% E39 Negative_regulation:T102 Theme:E40 Cause:E38
+% E41 Protein_catabolism:T103 Theme:T74
+% E40 Positive_regulation:T104 Theme:E41 Cause:E42
+% E42 Positive_regulation:T105 Theme:E43 Cause:T75
+% E43 Protein_catabolism:T106 Theme:T74
+
+In addition to BCL-xL expression as examined in this study, we are evaluating the possibility that PKCalpha-regulated NF-kappaB activity upregulates additional anti-apoptotic genes in an M-CSF-dependent fashion to modulate cell survival.
+# T76 Protein S28 15 21 4712 4718 BCL-xL
+# T77 Protein S28 99 107 4796 4804 PKCalpha
+$ T76 Protein S28 15 21 4712 4718 BCL-xL
+@ T107 Gene_expression S28 22 32 4719 4729 expression
+% E44 Gene_expression:T107 Theme:T76
+
+The use of inhibitors and siRNA in our study has not ruled out that other conventional PKCs might also be important in M-CSF-induced NF-kappaB activation and macrophage survival.
+
+In contrast to the actions of PKCalpha activation of other conventional PKC isoforms, like PKCbetaI/betaII, appear necessary for macrophage apoptosis.
+# T78 Protein S30 30 38 5144 5152 PKCalpha
+# T79 Protein S30 91 99 5205 5213 PKCbetaI
+# T80 Protein S30 100 106 5214 5220 betaII
+
+The PKCbetaI/betaII isoforms are expressed in apoptotic U937 myelomonocytic cells [45].
+# T81 Protein S31 4 12 5269 5277 PKCbetaI
+# T82 Protein S31 13 19 5278 5284 betaII
+$ T81 Protein S31 4 12 5269 5277 PKCbetaI
+$ T82 Protein S31 13 19 5278 5284 betaII
+@ T108 Gene_expression S31 33 42 5298 5307 expressed
+% E45 Gene_expression:T108 Theme:T81
+% E46 Gene_expression:T108 Theme:T82
+
+The human myeloid cell line HL-525 which is devoid of endogenous PKCbetaII is resistant to TNFalpha-induced apoptosis [46].
+# T83 Protein S32 65 74 5418 5427 PKCbetaII
+# T84 Protein S32 91 99 5444 5452 TNFalpha
+$ T83 Protein S32 65 74 5418 5427 PKCbetaII
+@ T109 Gene_expression S32 44 50 5397 5403 devoid
+% E47 Gene_expression:T109 Theme:T83
+
+Re-expression of PKCbetaII in HL-525 cells restores their susceptibility to TNFalpha-induced apoptosis implying that PKCbetaII is pro-apoptotic and may be required to induce macrophage apoptosis.
+# T85 Protein S33 17 26 5494 5503 PKCbetaII
+# T86 Protein S33 76 84 5553 5561 TNFalpha
+# T87 Protein S33 117 126 5594 5603 PKCbetaII
+$ T85 Protein S33 17 26 5494 5503 PKCbetaII
+@ T110 Gene_expression S33 3 13 5480 5490 expression
+% E48 Gene_expression:T110 Theme:T85
+
+Recent studies demonstrated that NF-kappaB transcriptional activity can be regulated by phosphorylation of the NF-kappaB p65 subunit in the absence of IkappaBalpha degradation [47].
+# T111 Protein S34 121 124 5794 5797 p65
+# T112 Protein S34 151 163 5824 5836 IkappaBalpha
+$ T111 Protein S34 121 124 5794 5797 p65
+$ T112 Protein S34 151 163 5824 5836 IkappaBalpha
+@ T129 Phosphorylation S34 88 103 5761 5776 phosphorylation
+@ T130 Negative_regulation S34 140 147 5813 5820 absence
+@ T131 Protein_catabolism S34 164 175 5837 5848 degradation
+% E49 Phosphorylation:T129 Theme:T111
+% E50 Negative_regulation:T130 Theme:E51
+% E51 Protein_catabolism:T131 Theme:T112
+
+By this pathway, phosphorylation of NF-kappaB regulates its interaction with other components of the basal transcriptional machinery without affecting its capability to bind DNA [21].
+
+Since NF-kappaB can bind the promoters of numerous gene targets, post-translational modification of NF-kappaB p65 may affect its interaction with other proteins, refining the expression of gene targets.
+# T113 Protein S36 110 113 6149 6152 p65
+$ T113 Protein S36 110 113 6149 6152 p65
+@ T132 Protein_modification S36 65 96 6104 6135 post-translational modification
+@ T133 Regulation S36 118 124 6157 6163 affect
+@ T128 Anaphora S36 125 128 6164 6167 its
+@ T134 Binding S36 129 140 6168 6179 interaction
+% E52 Protein_modification:T132 Theme:T113
+% E53 Regulation:T133 Theme:E54 Cause:E52
+% E54 Binding:T134 Theme:T113
+
+We did not find that PKC was involved in IkappaBalpha degradation or NF-kappaB p65 nuclear translocation induced by M-CSF, but that M-CSF-induced phosphorylation of NF-kappaB p65 at Ser276 was dramatically reduced by the conventional PKC inhibitor and kinase deficient PKCalpha and by siRNA towards PKCalpha.
+# T114 Protein S37 41 53 6283 6295 IkappaBalpha
+# T115 Protein S37 79 82 6321 6324 p65
+# T116 Protein S37 175 178 6417 6420 p65
+# T117 Protein S37 269 277 6511 6519 PKCalpha
+# T118 Protein S37 285 290 6527 6532 siRNA
+# T119 Protein S37 299 307 6541 6549 PKCalpha
+$ T114 Protein S37 41 53 6283 6295 IkappaBalpha
+$ T115 Protein S37 79 82 6321 6324 p65
+$ T116 Protein S37 175 178 6417 6420 p65
+$ T118 Protein S37 285 290 6527 6532 siRNA
+$ T117 Protein S37 269 277 6511 6519 PKCalpha
+@ T135 Regulation S37 29 37 6271 6279 involved
+@ T136 Protein_catabolism S37 54 65 6296 6307 degradation
+@ T137 Entity S37 83 90 6325 6332 nuclear
+@ T138 Localization S37 91 104 6333 6346 translocation
+@ T139 Positive_regulation S37 105 112 6347 6354 induced
+@ T140 Positive_regulation S37 138 145 6380 6387 induced
+@ T141 Phosphorylation S37 146 161 6388 6403 phosphorylation
+@ T142 Entity S37 182 188 6424 6430 Ser276
+@ T143 Negative_regulation S37 206 213 6448 6455 reduced
+@ T144 Negative_regulation S37 252 268 6494 6510 kinase deficient
+% E55 Regulation:T135 Theme:E56
+% E57 Regulation:T135 Theme:E58
+% E56 Protein_catabolism:T136 Theme:T114
+% E59 Localization:T138 Theme:T115 ToLoc:T137
+% E58 Positive_regulation:T139 Theme:E59
+% E60 Positive_regulation:T140 Theme:E58
+% E61 Phosphorylation:T141 Theme:T116 Site:T142
+% E62 Negative_regulation:T143 Theme:E60 Cause:E63
+% E64 Negative_regulation:T143 Theme:E60 Cause:T118
+% E63 Negative_regulation:T144 Theme:T117
+
+Current studies are underway to delineate the protein complexes formed by activated NF-kappaB and other transcriptional co-activators in response to M-CSF and PKC activation.
+
+Recently studies indicated that the non-canonical pathway was activated during human monocyte-macrophage differentiation [48].
+
+During this process, expression of IKKalpha among other proteins, is elevated leading to increased p52 NF-kappaB (relB) expression through partial proteolytic degradation of the p100 NF-kappaB protein.
+# T120 Protein S40 35 43 6888 6896 IKKalpha
+# T121 Protein S40 99 102 6952 6955 p52
+# T122 Protein S40 114 118 6967 6971 relB
+# T123 Protein S40 178 182 7031 7035 p100
+$ T120 Protein S40 35 43 6888 6896 IKKalpha
+$ T121 Protein S40 99 102 6952 6955 p52
+$ T123 Protein S40 178 182 7031 7035 p100
+@ T145 Gene_expression S40 21 31 6874 6884 expression
+@ T146 Positive_regulation S40 69 77 6922 6930 elevated
+@ T147 Positive_regulation S40 89 98 6942 6951 increased
+@ T148 Gene_expression S40 120 130 6973 6983 expression
+@ T149 Positive_regulation S40 131 138 6984 6991 through
+@ T150 Protein_catabolism S40 159 170 7012 7023 degradation
+% E65 Gene_expression:T145 Theme:T120
+% E66 Positive_regulation:T146 Theme:E65
+% E67 Positive_regulation:T147 Theme:E68 Cause:E65
+% E68 Gene_expression:T148 Theme:T121
+% E69 Positive_regulation:T149 Theme:E67 Cause:E70
+% E70 Protein_catabolism:T150 Theme:T123
+
+Thus, it is possible that M-CSF regulates monocyte survival through both the canonical and non-canonical NF-kappaB pathways, which will be a focus in future research.
+
+We previously showed that M-CSF reduced caspase-3 and -9 activity and prevented monocyte apoptosis [3].
+# T124 Protein S42 40 49 7262 7271 caspase-3
+# T125 Protein S42 54 56 7276 7278 -9
+$ T124 Protein S42 40 49 7262 7271 caspase-3
+$ T125 Protein S42 54 56 7276 7278 -9
+@ T151 Negative_regulation S42 32 39 7254 7261 reduced
+% E71 Negative_regulation:T151 Theme:T124
+% E72 Negative_regulation:T151 Theme:T125
+
+This study reveals that treatment of monocytes with conventional PKC inhibitors, or overexpression of kinase-deficient PKCalpha blocked M-CSF-induced cell survival.
+# T126 Protein S43 119 127 7445 7453 PKCalpha
+$ T126 Protein S43 119 127 7445 7453 PKCalpha
+@ T152 Negative_regulation S43 102 118 7428 7444 kinase-deficient
+% E73 Negative_regulation:T152 Theme:T126
+
+Our data revealed that conventional PKCs are upstream of NF-kappaB activation in response to M-CSF and mediate post-translational activation of NF-kappaB p65 by phosphorylating Ser276 to regulate gene transcription and cell survival.
+# T127 Protein S44 154 157 7645 7648 p65
+$ T127 Protein S44 154 157 7645 7648 p65
+@ T153 Positive_regulation S44 103 110 7594 7601 mediate
+@ T154 Positive_regulation S44 130 140 7621 7631 activation
+@ T155 Phosphorylation S44 161 176 7652 7667 phosphorylating
+@ T156 Entity S44 177 183 7668 7674 Ser276
+% E74 Positive_regulation:T153 Theme:E75
+% E75 Positive_regulation:T154 Theme:T127 Cause:E76
+% E76 Phosphorylation:T155 Theme:T127 Site:T156
+
+Thus, our observation may provide insight in potential therapeutic targets for inflammatory diseases.
+

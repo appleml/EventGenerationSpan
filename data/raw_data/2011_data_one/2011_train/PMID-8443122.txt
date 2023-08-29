@@ -1,0 +1,59 @@
+Expression of PILOT, a putative transcription factor, requires two signals and is cyclosporin A sensitive in T cells.
+# T1 Protein S1 14 19 14 19 PILOT
+$ T1 Protein S1 14 19 14 19 PILOT
+@ T11 Gene_expression S1 0 10 0 10 Expression
+@ T12 Positive_regulation S1 54 62 54 62 requires
+% E1 Gene_expression:T11 Theme:T1
+% E2 Positive_regulation:T12 Theme:E1
+
+Few known genes (IL-2, members of the IL-8 family, interferon-gamma) are induced in T cells only through the combined effect of phorbol myristic acetate (PMA) and a Ca(2+)-ionophore, and expression of only these genes can be fully suppressed by Cyclosporin A (CyA).
+# T2 Protein S2 17 21 136 140 IL-2
+# T3 Protein S2 51 67 170 186 interferon-gamma
+$ T3 Protein S2 51 67 170 186 interferon-gamma
+$ T2 Protein S2 17 21 136 140 IL-2
+@ T13 Positive_regulation S2 73 80 192 199 induced
+@ T14 Gene_expression S2 187 197 306 316 expression
+@ T15 Negative_regulation S2 231 241 350 360 suppressed
+% E3 Positive_regulation:T13 Theme:T3
+% E4 Positive_regulation:T13 Theme:T2
+% E5 Gene_expression:T14 Theme:T3
+% E6 Gene_expression:T14 Theme:T2
+% E7 Negative_regulation:T15 Theme:E6
+% E8 Negative_regulation:T15 Theme:E5
+
+We have identified a putative transcription factor, designated PILOT, with an identical dual signal requirement for expression.
+# T4 Protein S3 63 68 448 453 PILOT
+$ T4 Protein S3 63 68 448 453 PILOT
+@ T16 Positive_regulation S3 100 111 485 496 requirement
+@ T17 Gene_expression S3 116 126 501 511 expression
+% E9 Positive_regulation:T16 Theme:E10
+% E10 Gene_expression:T17 Theme:T4
+
+Induction of the PILOT gene is detectable in human T cells 20 min following activation in the presence of cycloheximide and is fully suppressed by CyA.
+# T5 Protein S4 17 22 530 535 PILOT
+$ T5 Protein S4 17 22 530 535 PILOT
+@ T18 Positive_regulation S4 0 9 513 522 Induction
+@ T19 Negative_regulation S4 133 143 646 656 suppressed
+% E11 Positive_regulation:T18 Theme:T5
+% E12 Negative_regulation:T19 Theme:E11
+
+The PILOT protein has a calculated M(r) of 42.6 kDa and contains three zinc fingers of the C2H2-type at the carboxyl-terminus which are highly homologous to the zinc finger regions of the transcription factors EGR1, EGR2, and pAT 133.
+# T6 Protein S5 4 9 669 674 PILOT
+# T7 Protein S5 210 214 875 879 EGR1
+# T8 Protein S5 216 220 881 885 EGR2
+# T9 Protein S5 226 233 891 898 pAT 133
+
+In contrast to T cells, in fibroblasts PILOT gene expression requires only one signal (PMA) and is not affected by CyA.
+# T10 Protein S6 39 44 939 944 PILOT
+$ T10 Protein S6 39 44 939 944 PILOT
+@ T20 Gene_expression S6 50 60 950 960 expression
+@ T21 Positive_regulation S6 61 69 961 969 requires
+@ T22 Regulation S6 103 111 1003 1011 affected
+% E13 Gene_expression:T20 Theme:T10
+% E14 Positive_regulation:T21 Theme:E13
+% E15 Regulation:T22 Theme:E13
+
+This observation directly demonstrates the existence of a Ca2+ signal-dependent regulatory element obligatory for expression of some genes in T cells but not in fibroblasts.
+
+This differential expression model will be valuable in the dissection of the dual signal pathway in T cells and the effects of CyA upon it.
+

@@ -1,0 +1,44 @@
+Tissue and cell-type specific expression of the tuberous sclerosis gene, TSC2, in human tissues.
+# T1 Protein S1 73 77 73 77 TSC2
+$ T1 Protein S1 73 77 73 77 TSC2
+@ T9 Gene_expression S1 30 40 30 40 expression
+% E1 Gene_expression:T9 Theme:T1
+
+TSC2 is a gene on chromosome 16p13.3 associated with the autosomal dominant neurocutaneous disorder, tuberous sclerosis complex (TSC).
+# T2 Protein S2 0 4 98 102 TSC2
+
+By using a partial nucleotide sequence from the cloned TSC2 and polymerase chain reaction methodology, we constructed a digoxigenin-labeled complementary DNA probe to examine TSC2 gene expression in autopsy- or biopsy-derived human tissues by in situ hybridization.
+# T3 Protein S3 55 59 288 292 TSC2
+# T4 Protein S3 175 179 408 412 TSC2
+$ T4 Protein S3 175 179 408 412 TSC2
+@ T10 Gene_expression S3 185 195 418 428 expression
+% E2 Gene_expression:T10 Theme:T4
+
+TSC2 messenger RNA was widely expressed in various cell types throughout the body, including epithelia, lymphocytes, and cells with endocrine functions, e.g., adrenal cortex and anterior pituitary.
+# T5 Protein S4 0 4 499 503 TSC2
+$ T5 Protein S4 0 4 499 503 TSC2
+@ T11 Transcription S4 30 39 529 538 expressed
+% E3 Transcription:T11 Theme:T5
+
+It was prominently and selectively (within the central nervous system) expressed in pyramidal cells of the cerebral cortex and other motor neurons, e.g., in spinal cord and brainstem nuclei.
+@ T12 Transcription S5 71 80 768 777 expressed
+% E4 Transcription:T12 Theme:T5
+
+Visceral TSC2 expression was comparable in autopsy tissues from patients with and without TSC; TSC2 messenger RNA expression was most prominent in cells with a rapid mitotic rate and turnover, e.g., epithelia and lymphocytes, with central nervous system pyramidal cells and other neurons being an obvious exception, and/or in cells with important secretory/transport functions.
+# T6 Protein S6 9 13 897 901 TSC2
+# T7 Protein S6 95 99 983 987 TSC2
+$ T6 Protein S6 9 13 897 901 TSC2
+$ T7 Protein S6 95 99 983 987 TSC2
+@ T13 Gene_expression S6 14 24 902 912 expression
+@ T14 Transcription S6 114 124 1002 1012 expression
+@ T15 Positive_regulation S6 134 143 1022 1031 prominent
+% E5 Gene_expression:T13 Theme:T6
+% E6 Transcription:T14 Theme:T7
+% E7 Positive_regulation:T15 Theme:E6
+
+This widespread expression of the TSC2 gene supports the view that it encodes a protein vital to cell growth and metabolism or one that functions as a tumor/growth suppressor.
+# T8 Protein S7 34 38 1300 1304 TSC2
+$ T8 Protein S7 34 38 1300 1304 TSC2
+@ T16 Gene_expression S7 16 26 1282 1292 expression
+% E8 Gene_expression:T16 Theme:T8
+

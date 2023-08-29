@@ -1,0 +1,46 @@
+MTb induces NFAT5 gene expression and knockdown of NFAT5 impairs HIV-1 replication during MTb co-infection.
+# T1 Protein S1 12 17 12 17 NFAT5
+# T2 Protein S1 51 56 51 56 NFAT5
+
+(A) MTb but not HIV-1 increases NFAT5 mRNA synthesis in human macrophages.
+# T3 Protein S2 32 37 140 145 NFAT5
+
+MDM were isolated from PBMC obtained from four normal donors.
+
+The cells were incubated for 24 or 48 hours with heat-inactivated or live R5-tropic HIV-1 subtype B, C, or E isolates, live MTb strain CDC1551 (1:1 MDM:bacilli), or left untreated.
+
+Quantitative real-time PCR analysis of NFAT5 mRNA expression levels revealed that the low, constitutively present level of NFAT5 mRNA expressed in untreated cells was not affected by exposure to live or inactivated HIV-1, but was significantly increased at both 24 (*, p<0.05) and 48 (**, p<0.01) hours following infection with MTb.
+# T4 Protein S5 39 44 465 470 NFAT5
+# T5 Protein S5 123 128 549 554 NFAT5
+
+(B) NFAT5-specific siRNA effectively suppresses NFAT5 expression in MDM in both the absence and presence of MTb co-infection.
+# T6 Protein S6 4 9 763 768 NFAT5
+# T7 Protein S6 48 53 807 812 NFAT5
+
+MDM (1x106 cells/well in a 6-well plate) from four normal donors were transfected with siRNA specific for NFAT5 or, as a control, GFP, and were then infected with MTb (1:1 MDM:bacilli) or left uninfected.
+# T8 Protein S7 106 111 991 996 NFAT5
+# T9 Protein S7 130 133 1015 1018 GFP
+
+In the cells transfected with control siRNA, MTb infection significantly increased NFAT5 expression in comparison to uninfected cells (open bars).
+# T10 Protein S8 83 88 1173 1178 NFAT5
+
+When MDM were transfected with NFAT5-specific siRNA, both constitutively expressed (p = 0.048) and MTb-induced (p = 0.021) NFAT5 mRNA were significantly suppressed (grey bars).
+# T11 Protein S9 31 36 1268 1273 NFAT5
+# T12 Protein S9 123 128 1360 1365 NFAT5
+
+(C) HIV-1 subtype B replication is significantly suppressed in the presence of MTb co-infection when NFAT5 expression is abrogated in human MDM.
+# T13 Protein S10 101 106 1515 1520 NFAT5
+
+MDM from four normal donors were transfected with NFAT5-specific and control siRNAs as described in 2B.
+# T14 Protein S11 50 55 1609 1614 NFAT5
+
+Cells were then infected with HIV-1Lai/Bal-env followed by co-infection with MTb CDC1551.
+# T15 Protein S12 43 46 1706 1709 env
+
+Virus replication was measured at days 6, 9, and 12 post-infection.
+
+At day 12, virus replication was significantly reduced in cells transfected with NFAT5-specific siRNA in comparison to cells transfected with control siRNA (*, p<0.05).
+# T16 Protein S14 81 86 1902 1907 NFAT5
+
+We monitored the morphology of cells within the infected cultures and did not observe noticeable macrophage necrosis even at the final timepoint of viral harvest.
+

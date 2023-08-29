@@ -1,0 +1,134 @@
+Interferon-gamma modulates the lipopolysaccharide-induced expression of AP-1 and NF-kappa B at the mRNA and protein level in human monocytes.
+# T1 Protein S1 0 16 0 16 Interferon-gamma
+
+Interferon-gamma (IFN-gamma) modulates the expression of several cytokines by human monocytes at the transcriptional level.
+# T2 Protein S2 0 16 143 159 Interferon-gamma
+# T3 Protein S2 18 27 161 170 IFN-gamma
+
+In view of these findings, we analyzed the effects of IFN-gamma on the expression of different transcription factors in activated human monocytes.
+# T4 Protein S3 54 63 321 330 IFN-gamma
+
+Priming of human monocytes with IFN-gamma resulted in the down regulation of c-fos and c-jun mRNA in response to stimulation with lipopolysaccharide (LPS) compared to the effects of LPS alone.
+# T5 Protein S4 32 41 446 455 IFN-gamma
+# T6 Protein S4 77 82 491 496 c-fos
+# T7 Protein S4 87 92 501 506 c-jun
+$ T6 Protein S4 77 82 491 496 c-fos
+$ T7 Protein S4 87 92 501 506 c-jun
+@ T33 Negative_regulation S4 58 73 472 487 down regulation
+% E1 Negative_regulation:T33 Theme:T6
+% E2 Negative_regulation:T33 Theme:T7
+
+Not only was this effect observed at the mRNA level, but activator protein-1 (AP-1) DNA binding capacity was affected as well, A strong reduction was observed in the LPS-induced DNA-binding activity of AP-1 in the presence of IFN-gamma.
+# T8 Protein S5 226 235 833 842 IFN-gamma
+
+LPS-stimulated monocytes showed an increased expression of p105 mRNA, the precursor of the p50 subunit of the transcription factor nuclear factor-kappa B (NF-kappa B), while no effect was noticed on the expression of p65 mRNA.
+# T9 Protein S6 59 63 903 907 p105
+# T10 Protein S6 91 94 935 938 p50
+# T11 Protein S6 217 220 1061 1064 p65
+$ T9 Protein S6 59 63 903 907 p105
+$ T11 Protein S6 217 220 1061 1064 p65
+@ T34 Positive_regulation S6 35 44 879 888 increased
+@ T35 Transcription S6 45 55 889 899 expression
+@ T36 Regulation S6 177 183 1021 1027 effect
+@ T37 Transcription S6 203 213 1047 1057 expression
+% E3 Positive_regulation:T34 Theme:E4
+% E4 Transcription:T35 Theme:T9
+% E5 Regulation:T36 Theme:E6
+% E6 Transcription:T37 Theme:T11
+
+In contrast, IFN-gamma priming did not affect the expression of p105 transcripts but enhanced the expression of p65 mRNA (two-fold).
+# T12 Protein S7 13 22 1084 1093 IFN-gamma
+# T13 Protein S7 64 68 1135 1139 p105
+# T14 Protein S7 112 115 1183 1186 p65
+$ T13 Protein S7 64 68 1135 1139 p105
+$ T14 Protein S7 112 115 1183 1186 p65
+@ T38 Regulation S7 39 45 1110 1116 affect
+@ T39 Transcription S7 50 60 1121 1131 expression
+@ T40 Positive_regulation S7 85 93 1156 1164 enhanced
+@ T41 Transcription S7 98 108 1169 1179 expression
+% E7 Regulation:T38 Theme:E8
+% E8 Transcription:T39 Theme:T13
+% E9 Positive_regulation:T40 Theme:E10
+% E10 Transcription:T41 Theme:T14
+
+Priming with IFN-gamma followed by LPS stimulation resulted in a further increase in the expression of p65 mRNA.
+# T15 Protein S8 13 22 1217 1226 IFN-gamma
+# T16 Protein S8 103 106 1307 1310 p65
+$ T16 Protein S8 103 106 1307 1310 p65
+@ T42 Positive_regulation S8 73 81 1277 1285 increase
+@ T43 Transcription S8 89 99 1293 1303 expression
+% E11 Positive_regulation:T42 Theme:E12
+% E12 Transcription:T43 Theme:T16
+
+This was due to an increase in the half-life of p65 mRNA (75 vs 150 minutes).
+# T17 Protein S9 48 51 1365 1368 p65
+$ T17 Protein S9 48 51 1365 1368 p65
+@ T44 Positive_regulation S9 9 15 1326 1332 due to
+@ T45 Positive_regulation S9 19 27 1336 1344 increase
+% E13 Positive_regulation:T44 Theme:E11 Cause:E14
+% E14 Positive_regulation:T45 Theme:T17
+
+Electrophoretic mobility shift assays (EMSAs) demonstrated that unstimulated monocytes predominantly expressed p50 NF-kappa B. Stimulation with LPS or IFN-gamma resulted in the expression of p50 and p65 subunits, while the combination of IFN-gamma plus LPS caused a further increase in the expression of NF-kappa B. With Western blotting, it was shown that nuclear extracts from monocytes contained p50 and p65 protein in response to LPS and IFN-gamma stimulation.
+# T18 Protein S10 111 114 1506 1509 p50
+# T19 Protein S10 151 160 1546 1555 IFN-gamma
+# T20 Protein S10 191 194 1586 1589 p50
+# T21 Protein S10 199 202 1594 1597 p65
+# T22 Protein S10 238 247 1633 1642 IFN-gamma
+# T23 Protein S10 399 402 1794 1797 p50
+# T24 Protein S10 407 410 1802 1805 p65
+# T25 Protein S10 442 451 1837 1846 IFN-gamma
+$ T18 Protein S10 111 114 1506 1509 p50
+$ T19 Protein S10 151 160 1546 1555 IFN-gamma
+$ T20 Protein S10 191 194 1586 1589 p50
+$ T21 Protein S10 199 202 1594 1597 p65
+$ T24 Protein S10 407 410 1802 1805 p65
+$ T23 Protein S10 399 402 1794 1797 p50
+$ T25 Protein S10 442 451 1837 1846 IFN-gamma
+@ T46 Gene_expression S10 101 110 1496 1505 expressed
+@ T47 Positive_regulation S10 161 169 1556 1564 resulted
+@ T48 Gene_expression S10 177 187 1572 1582 expression
+@ T49 Gene_expression S10 389 398 1784 1793 contained
+@ T50 Positive_regulation S10 419 433 1814 1828 in response to
+% E15 Gene_expression:T46 Theme:T18
+% E16 Positive_regulation:T47 Theme:E20
+% E17 Positive_regulation:T47 Theme:E20 Cause:T19
+% E18 Positive_regulation:T47 Theme:E21 Cause:T19
+% E20 Gene_expression:T48 Theme:T20
+% E21 Gene_expression:T48 Theme:T21
+% E22 Gene_expression:T49 Theme:T24
+% E23 Gene_expression:T49 Theme:T23
+% E24 Positive_regulation:T50 Theme:E23 Cause:T25
+% E25 Positive_regulation:T50 Theme:E22 Cause:T25
+% E26 Positive_regulation:T50 Theme:E23
+% E27 Positive_regulation:T50 Theme:E22
+
+However, the combined stimulation did not result in enhanced p50 and p65 protein expression.
+# T26 Protein S11 61 64 1921 1924 p50
+# T27 Protein S11 69 72 1929 1932 p65
+$ T27 Protein S11 69 72 1929 1932 p65
+$ T26 Protein S11 61 64 1921 1924 p50
+@ T51 Positive_regulation S11 52 60 1912 1920 enhanced
+@ T52 Gene_expression S11 81 91 1941 1951 expression
+% E28 Positive_regulation:T51 Theme:E31 Cause:T25
+% E29 Positive_regulation:T51 Theme:E30 Cause:T25
+% E30 Gene_expression:T52 Theme:T27
+% E31 Gene_expression:T52 Theme:T26
+
+The effects of IFN-gamma on the transcription factors were specific, since no change was observed in the expression of NF-IL-6 or I kappa B alpha, the inhibitor of NF-kappa B.
+# T28 Protein S12 15 24 1968 1977 IFN-gamma
+# T29 Protein S12 119 126 2072 2079 NF-IL-6
+# T30 Protein S12 130 145 2083 2098 I kappa B alpha
+$ T28 Protein S12 15 24 1968 1977 IFN-gamma
+$ T30 Protein S12 130 145 2083 2098 I kappa B alpha
+$ T29 Protein S12 119 126 2072 2079 NF-IL-6
+@ T53 Regulation S12 78 84 2031 2037 change
+@ T54 Gene_expression S12 105 115 2058 2068 expression
+% E32 Regulation:T53 Theme:E34 Cause:T28
+% E33 Regulation:T53 Theme:E35 Cause:T28
+% E34 Gene_expression:T54 Theme:T30
+% E35 Gene_expression:T54 Theme:T29
+
+We conclude that the effects of IFN-gamma on the expression of the transcription factors AP-1 and NF-kappa B may be important for the modulatory effects of IFN-gamma on the cytokine expression in activated human monocytes.
+# T31 Protein S13 32 41 2161 2170 IFN-gamma
+# T32 Protein S13 156 165 2285 2294 IFN-gamma
+

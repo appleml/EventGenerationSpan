@@ -1,0 +1,74 @@
+Regulation of M-CSF expression by M-CSF: role of protein kinase C and transcription factor NF kappa B.
+# T1 Protein S1 14 19 14 19 M-CSF
+# T2 Protein S1 34 39 34 39 M-CSF
+$ T2 Protein S1 34 39 34 39 M-CSF
+$ T1 Protein S1 14 19 14 19 M-CSF
+@ T21 Regulation S1 0 10 0 10 Regulation
+@ T22 Gene_expression S1 20 30 20 30 expression
+% E1 Regulation:T21 Theme:E2 Cause:T2
+% E2 Gene_expression:T22 Theme:T1
+
+Macrophage-colony-stimulating factor (M-CSF), also referred to as CSF-1, regulates the survival, growth, differentiation and functional activity of monocytes by binding to a single class of high-affinity cell surface receptors, known to be the product of the c-fms protooncogene.
+# T3 Protein S2 0 36 104 140 Macrophage-colony-stimulating factor
+# T4 Protein S2 38 43 142 147 M-CSF
+# T5 Protein S2 66 71 170 175 CSF-1
+# T6 Protein S2 259 264 363 368 c-fms
+$ T4 Protein S2 38 43 142 147 M-CSF
+@ T23 Binding S2 161 168 265 272 binding
+% E3 Binding:T23 Theme:T4
+
+The detection of both M-CSF and c-fms expression by cells of the monocyte lineage has suggested that M-CSF may act by an autocrine mechanism.
+# T7 Protein S3 22 27 406 411 M-CSF
+# T8 Protein S3 32 37 416 421 c-fms
+# T9 Protein S3 101 106 485 490 M-CSF
+$ T7 Protein S3 22 27 406 411 M-CSF
+$ T8 Protein S3 32 37 416 421 c-fms
+$ T9 Protein S3 101 106 485 490 M-CSF
+@ T24 Gene_expression S3 38 48 422 432 expression
+@ T25 Positive_regulation S3 111 114 495 498 act
+% E4 Gene_expression:T24 Theme:T7
+% E5 Gene_expression:T24 Theme:T8
+% E6 Positive_regulation:T25 Theme:T9
+
+Interestingly, it has been shown that M-CSF can induce the expression of its own gene.
+# T10 Protein S4 38 43 564 569 M-CSF
+$ T10 Protein S4 38 43 564 569 M-CSF
+@ T26 Positive_regulation S4 48 54 574 580 induce
+@ T27 Gene_expression S4 59 69 585 595 expression
+% E7 Positive_regulation:T26 Theme:E8 Cause:T10
+% E8 Gene_expression:T27 Theme:T10
+
+Although sensitivity to M-CSF can be modulated by regulation of receptor expression and function, M-CSF responsiveness is largely determined at a postreceptor level.
+# T11 Protein S5 24 29 637 642 M-CSF
+# T12 Protein S5 98 103 711 716 M-CSF
+
+To date, little is known about the intracellular pathway of M-CSF signal transduction.
+# T13 Protein S6 60 65 839 844 M-CSF
+
+We have therefore investigated the changes in protein kinase C (PKC) activity upon exposure of monocytes to M-CSF.
+# T14 Protein S7 108 113 974 979 M-CSF
+
+We show that M-CSF activates and translocates PKC.
+# T15 Protein S8 13 18 994 999 M-CSF
+
+Inhibition of PKC by the isoquinoline derivative H7 abolishes induction of M-CSF by M-CSF.
+# T16 Protein S9 75 80 1107 1112 M-CSF
+# T17 Protein S9 84 89 1116 1121 M-CSF
+$ T16 Protein S9 75 80 1107 1112 M-CSF
+$ T17 Protein S9 84 89 1116 1121 M-CSF
+@ T28 Negative_regulation S9 52 61 1084 1093 abolishes
+@ T29 Positive_regulation S9 62 71 1094 1103 induction
+% E9 Negative_regulation:T28 Theme:E10
+% E10 Positive_regulation:T29 Theme:T16 Cause:T17
+
+Furthermore, activation of PKC was pertussis-toxin-sensitive and was associated with the detection of an NF kappa B protein in nuclear extracts of M-CSF-induced blood monocytes but not in monocytes exposed to medium treatment only.
+# T18 Protein S10 147 152 1270 1275 M-CSF
+
+The results suggest that M-CSF induction of M-CSF involves G proteins, PKC and NF kappa B.
+# T19 Protein S11 25 30 1380 1385 M-CSF
+# T20 Protein S11 44 49 1399 1404 M-CSF
+$ T20 Protein S11 44 49 1399 1404 M-CSF
+$ T19 Protein S11 25 30 1380 1385 M-CSF
+@ T30 Positive_regulation S11 31 40 1386 1395 induction
+% E11 Positive_regulation:T30 Theme:T20 Cause:T19
+

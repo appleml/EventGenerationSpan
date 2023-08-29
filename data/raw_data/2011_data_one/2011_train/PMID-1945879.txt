@@ -1,0 +1,43 @@
+One base pair change abolishes the T cell-restricted activity of a kB-like proto-enhancer element from the interleukin 2 promoter.
+# T1 Protein S1 107 120 107 120 interleukin 2
+
+The inducible, T cell-specific enhancers of murine and human Interleukin 2 (Il-2) genes contain the kB-like sequence GGGATTTCACC as an essential cis-acting enhancer motif.
+# T2 Protein S2 61 74 193 206 Interleukin 2
+# T3 Protein S2 76 80 208 212 Il-2
+
+When cloned in multiple copies this so-called TCEd (distal T cell element) acts as an inducible proto-enhancer element in E14 T lymphoma cells, but not in HeLa cells.
+
+In extracts of induced, Il-2 secreting El4 cells three individual protein factors bind to TCEd DNA.
+# T4 Protein S4 24 28 495 499 Il-2
+$ T4 Protein S4 24 28 495 499 Il-2
+@ T10 Localization S4 29 38 500 509 secreting
+% E1 Localization:T10 Theme:T4
+
+The binding of the most prominent factor, named TCF-1 (T cell factor 1), is correlated with the proto-enhancer activity of TCEd.
+# T5 Protein S5 48 53 619 624 TCF-1
+# T6 Protein S5 55 70 626 641 T cell factor 1
+$ T5 Protein S5 48 53 619 624 TCF-1
+@ T11 Binding S5 4 11 575 582 binding
+% E2 Binding:T11 Theme:T5
+
+TCF-1 consists of two polypeptides of about 50 kD and 105 kD; the former seems to be related to the 50 kD polypeptide of NF-kB.
+# T7 Protein S6 0 5 700 705 TCF-1
+
+Purified NF-kB is also able to bind to the TCEd, but TCF-1 binds stronger than NF-kB to TCEd DNA.
+# T8 Protein S7 53 58 881 886 TCF-1
+$ T8 Protein S7 53 58 881 886 TCF-1
+@ T12 Binding S7 59 64 887 892 binds
+% E3 Binding:T12 Theme:T8
+
+The conversion of the TCEd to a 'perfect' NF-kB binding site leads to a tighter binding of NF-kB to TCEd DNA and, as a functional consequence, to the activity of the 'converted' TCEd motifs in HeLa cells.
+
+Thus, the substitution of the underlined A residue to a C within the GGGATTTCACC motif abolishes its T cell-restricted activity and leads to its functioning in both El4 cells and HeLa cells.
+
+These results indicate that lymphocyte-specific factors binding to the TCEd are involved in the control of T cell specific-transcription of the Il-2 gene.
+# T9 Protein S10 144 148 1466 1470 Il-2
+$ T9 Protein S10 144 148 1466 1470 Il-2
+@ T13 Regulation S10 96 103 1418 1425 control
+@ T14 Transcription S10 123 136 1445 1458 transcription
+% E4 Regulation:T13 Theme:E5
+% E5 Transcription:T14 Theme:T9
+

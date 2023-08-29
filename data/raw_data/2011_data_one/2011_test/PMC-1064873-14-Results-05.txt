@@ -1,0 +1,51 @@
+High expression of SOCS1 mRNA in RA CD4+ T cells
+# T1 Protein S1 19 24 19 24 SOCS1
+# T2 Protein S1 36 39 36 39 CD4
+
+IL-6 induces two potent inhibitors of JAKs (SOCS1 and SOCS3 proteins) that not only act as mediators of negative feedback inhibition, but also play a major role in crosstalk inhibition by opposing other cytokine-signaling pathways [7].
+# T3 Protein S2 0 4 49 53 IL-6
+# T4 Protein S2 44 49 93 98 SOCS1
+# T5 Protein S2 54 59 103 108 SOCS3
+# T6 Protein S2 70 74 119 123 that
+
+SOCS3 has recently been shown to specifically inhibit STAT3 activation induced by IL-6 but not by IL-10, thereby regulating the divergent action of IL-6 and IL-10 [8,9].
+# T7 Protein S3 0 5 285 290 SOCS3
+# T8 Protein S3 54 59 339 344 STAT3
+# T9 Protein S3 82 86 367 371 IL-6
+# T10 Protein S3 98 103 383 388 IL-10
+# T11 Protein S3 148 152 433 437 IL-6
+# T12 Protein S3 157 162 442 447 IL-10
+
+On the contrary, SOCS1 is able to partially inhibit IL-10-mediated STAT3 activation and cellular responses, as well as IFN-gamma-mediated STAT1 activation [32].
+# T13 Protein S4 17 22 472 477 SOCS1
+# T14 Protein S4 52 57 507 512 IL-10
+# T15 Protein S4 67 72 522 527 STAT3
+# T16 Protein S4 119 128 574 583 IFN-gamma
+# T17 Protein S4 138 143 593 598 STAT1
+
+To determine whether SOCSs were involved in the defective IL-10-induced STAT3 activation of RA CD4+ T cells, the levels of SOCS1 and SOCS3 mRNA expression in PB CD4+ T cells from active RA patients and from healthy controls were compared by semiquantitative real-time PCR.
+# T18 Protein S5 58 63 674 679 IL-10
+# T19 Protein S5 72 77 688 693 STAT3
+# T20 Protein S5 95 98 711 714 CD4
+# T21 Protein S5 123 128 739 744 SOCS1
+# T22 Protein S5 133 138 749 754 SOCS3
+# T23 Protein S5 161 164 777 780 CD4
+
+The RA CD4+ T cells contained higher levels of SOCS1 but lower levels of SOCS3 transcripts than did control CD4+ T cells (Fig. 6a).
+# T24 Protein S6 7 10 896 899 CD4
+# T25 Protein S6 47 52 936 941 SOCS1
+# T26 Protein S6 73 78 962 967 SOCS3
+# T27 Protein S6 108 111 997 1000 CD4
+
+Constitutive expression of SOCS1 mRNA in RA CD4+ T cells was comparable with the expression in normal CD4+ T cells stimulated by 10 ng/ml IL-6 (Fig. 6b), supporting its functional significance.
+# T28 Protein S7 27 32 1048 1053 SOCS1
+# T29 Protein S7 44 47 1065 1068 CD4
+# T30 Protein S7 102 105 1123 1126 CD4
+# T31 Protein S7 138 142 1159 1163 IL-6
+
+Defective IL-10-induced STAT3 activation therefore appears to be due at least in part to an abundance of SOCS1 in RA CD4+ T cells.
+# T32 Protein S8 10 15 1225 1230 IL-10
+# T33 Protein S8 24 29 1239 1244 STAT3
+# T34 Protein S8 105 110 1320 1325 SOCS1
+# T35 Protein S8 117 120 1332 1335 CD4
+

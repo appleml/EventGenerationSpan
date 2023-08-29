@@ -1,0 +1,48 @@
+Tumor necrosis factor-alpha-mediated threonine 435 phosphorylation of p65 nuclear factor-kappaB subunit in endothelial cells induces vasogenic edema and neutrophil infiltration in the rat piriform cortex following status epilepticus
+# T1 Protein S1 0 27 0 27 Tumor necrosis factor-alpha
+# T2 Protein S1 70 73 70 73 p65
+
+Background
+
+Status epilepticus (SE) induces severe vasogenic edema in the piriform cortex (PC) accompanied by neuronal and astroglial damages.
+
+To elucidate the mechanism of SE-induced vasogenic edema, we investigated the roles of tumor necrosis factor (TNF)-alpha in blood-brain barrier (BBB) disruption during vasogenic edema and its related events in rat epilepsy models provoked by pilocarpine-induced SE.
+# T3 Protein S4 87 120 462 495 tumor necrosis factor (TNF)-alpha
+
+Methods
+
+SE was induced by pilocarpine in rats that were intracerebroventricularly infused with saline-, and soluble TNF p55 receptor (sTNFp55R) prior to SE induction.
+# T4 Protein S6 108 124 757 773 TNF p55 receptor
+# T5 Protein S6 127 134 776 783 TNFp55R
+
+Thereafter, we performed Fluoro-Jade B staining and immunohistochemical studies for TNF-alpha and NF-kappaB subunits.
+# T6 Protein S7 84 93 892 901 TNF-alpha
+
+Results
+
+Following SE, most activated microglia showed strong TNF-alpha immunoreactivity.
+# T7 Protein S9 53 62 987 996 TNF-alpha
+
+In addition, TNF p75 receptor expression was detected in endothelial cells as well as astrocytes.
+# T8 Protein S10 13 29 1028 1044 TNF p75 receptor
+
+In addition, only p65-Thr435 phosphorylation was increased in endothelial cells accompanied by SMI-71 expression (an endothelial barrier antigen).
+# T9 Protein S11 18 21 1131 1134 p65
+
+Neutralization of TNF-alpha by soluble TNF p55 receptor (sTNFp55R) infusion attenuated SE-induced vasogenic edema and neuronal damages via inhibition of p65-Thr435 phosphorylation in endothelial cells.
+# T10 Protein S12 18 27 1278 1287 TNF-alpha
+# T11 Protein S12 39 55 1299 1315 TNF p55 receptor
+# T12 Protein S12 58 65 1318 1325 TNFp55R
+# T13 Protein S12 153 156 1413 1416 p65
+
+Furthermore, sTNFp55R infusion reduced SE-induced neutrophil infiltration in the PC.
+# T14 Protein S13 14 21 1476 1483 TNFp55R
+
+Conclusion
+
+These findings suggest that impairments of endothelial cell functions via TNF-alpha-mediated p65-Thr 485 NF-kappaB phosphorylation may be involved in SE-induced vasogenic edema.
+# T15 Protein S15 74 83 1632 1641 TNF-alpha
+# T16 Protein S15 93 96 1651 1654 p65
+
+Subsequently, vasogenic edema results in extensive neutrophil infiltration and neuronal-astroglial loss.
+

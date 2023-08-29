@@ -1,0 +1,97 @@
+Degraded CGN Induce IkappaB Degradation and NF-kappaB Activation
+
+The expression of genes encoding for ICAM-1 and TNF-alpha is controlled by the nuclear factor NF-kappaB.
+# T1 Protein S2 37 43 102 108 ICAM-1
+# T2 Protein S2 48 57 113 122 TNF-alpha
+$ T1 Protein S2 37 43 102 108 ICAM-1
+$ T2 Protein S2 48 57 113 122 TNF-alpha
+@ T17 Gene_expression S2 4 14 69 79 expression
+@ T18 Regulation S2 61 71 126 136 controlled
+% E1 Gene_expression:T17 Theme:T1
+% E2 Gene_expression:T17 Theme:T2
+% E3 Regulation:T18 Theme:E1
+% E4 Regulation:T18 Theme:E2
+
+Site-specific phosphorylation of the inhibitor IkappaB leads to its degradation by proteasome and to a consequential activation of the NF-kappaB pathway.
+
+Using a reporter plasmid for NF-kappaB activation, it was confirmed that dCGN induced a strong activation of NF-kappaB, as reflected by an increase in luciferase activity (Fig. 7A).
+# T3 Protein S4 151 161 475 485 luciferase
+$ T3 Protein S4 151 161 475 485 luciferase
+@ T19 Positive_regulation S4 139 147 463 471 increase
+% E5 Positive_regulation:T19 Theme:T3
+
+Both forms of dCGN used induced NF-kappaB activation in a dose dependent manner.
+
+However, the effect was more strongly induced by the 40 kDa dCGN (Fig. 7A).
+
+These results were further confirmed by directly detecting NF-kappaB in the cell nucleus by Western blotting (Fig. 7C) and by FACS (Fig. 7D).
+
+These assays also allowed us to determine what NF-kappaB subunits were activated by dCGN.
+# T4 Protein S8 47 65 852 870 NF-kappaB subunits
+
+Both forms (10 or 40 kDa) of dCGN induced activation of the p50 and p65 subunits of NF-kappaB.
+# T5 Protein S9 60 63 955 958 p50
+# T6 Protein S9 68 71 963 966 p65
+$ T5 Protein S9 60 63 955 958 p50
+$ T6 Protein S9 68 71 963 966 p65
+@ T20 Positive_regulation S9 34 41 929 936 induced
+@ T21 Positive_regulation S9 42 52 937 947 activation
+% E6 Positive_regulation:T20 Theme:E7
+% E8 Positive_regulation:T20 Theme:E9
+% E7 Positive_regulation:T21 Theme:T5
+% E9 Positive_regulation:T21 Theme:T6
+
+This nuclear factor was present in low levels in the cell nucleus and increased considerably after treatment with dCGN.
+
+Western blots suggested the the 40 kDa form of dCGN induced a stronger activation of NF-kappaB (Fig. 7C).
+
+A more sentive assay for nuclear factor activation is flow cytometry of nuclei stained with specific antibodies for the nuclear factor of interest.
+
+In agreement with the previous data, FACS analysis of nuclei from THP-1 cells showed that there was a basal level of nuclear NF-kappaB (Fig. 7D).
+
+Again, both forms (10 or 40 kDa) of dCGN induced an increase of the p50 and p65 subunits of NF-kappaB in the nucleus of these cells.
+# T7 Protein S14 68 71 1578 1581 p50
+# T8 Protein S14 76 79 1586 1589 p65
+$ T7 Protein S14 68 71 1578 1581 p50
+$ T8 Protein S14 76 79 1586 1589 p65
+@ T22 Positive_regulation S14 41 48 1551 1558 induced
+@ T23 Positive_regulation S14 52 60 1562 1570 increase
+% E10 Positive_regulation:T22 Theme:E11
+% E12 Positive_regulation:T22 Theme:E13
+% E11 Positive_regulation:T23 Theme:T7
+% E13 Positive_regulation:T23 Theme:T8
+
+The 40 kDa degraded CGN gave a stronger increase of NF-kappaB (Fig. 7D).
+
+These data strongly suggest that the heterodimer p50/p65 is the NF-kappaB isoform activated by degraded CGN in monocytes.
+
+In addition, degradation of the inhibitor IkappaBalpha was also observed in cells treated with dCGN (Fig. 7B).
+# T9 Protein S17 32 41 1870 1879 inhibitor
+# T10 Protein S17 42 54 1880 1892 IkappaBalpha
+$ T10 Protein S17 42 54 1880 1892 IkappaBalpha
+@ T24 Protein_catabolism S17 13 24 1851 1862 degradation
+% E14 Protein_catabolism:T24 Theme:T10
+
+No significant IkappaBalpha degradation was detected within two hours of dCGN treatment, but IkappaBalpha was markedly degraded by four hours of dCGN treatment (Fig. 7B).
+# T11 Protein S18 15 27 1964 1976 IkappaBalpha
+# T12 Protein S18 93 105 2042 2054 IkappaBalpha
+$ T11 Protein S18 15 27 1964 1976 IkappaBalpha
+$ T12 Protein S18 93 105 2042 2054 IkappaBalpha
+@ T25 Protein_catabolism S18 28 39 1977 1988 degradation
+@ T26 Protein_catabolism S18 119 127 2068 2076 degraded
+% E15 Protein_catabolism:T25 Theme:T11
+% E16 Protein_catabolism:T26 Theme:T12
+
+We focused on IkappaBalpha subunit, since it masks the nuclear localisation sequence of p65, it is the most rapidly degraded subunit and the most studied one.
+# T13 Protein S19 14 26 2134 2146 IkappaBalpha
+# T14 Protein S19 88 91 2208 2211 p65
+$ T14 Protein S19 88 91 2208 2211 p65
+$ T13 Protein S19 14 26 2134 2146 IkappaBalpha
+@ T15 Anaphora S19 42 44 2162 2164 it
+@ T27 Negative_regulation S19 45 50 2165 2170 masks
+@ T28 Entity S19 55 84 2175 2204 nuclear localisation sequence
+@ T16 Anaphora S19 93 95 2213 2215 it
+@ T29 Protein_catabolism S19 116 124 2236 2244 degraded
+% E17 Negative_regulation:T27 Theme:T14 Cause:T13 Site:T28
+% E18 Protein_catabolism:T29 Theme:T13
+

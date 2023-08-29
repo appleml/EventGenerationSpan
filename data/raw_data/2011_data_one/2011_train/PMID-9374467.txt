@@ -1,0 +1,50 @@
+Nuclear accumulation of NFAT4 opposed by the JNK signal transduction pathway.
+# T1 Protein S1 24 29 24 29 NFAT4
+$ T1 Protein S1 24 29 24 29 NFAT4
+@ T6 Entity S1 0 7 0 7 Nuclear
+@ T7 Localization S1 8 20 8 20 accumulation
+@ T8 Negative_regulation S1 30 37 30 37 opposed
+% E1 Localization:T7 Theme:T1 AtLoc:T6
+% E2 Negative_regulation:T8 Theme:E1
+
+The nuclear factor of activated T cells (NFAT) group of transcription factors is retained in the cytoplasm of quiescent cells.
+
+NFAT activation is mediated in part by induced nuclear import.
+
+This process requires calcium-dependent dephosphorylation of NFAT caused by the phosphatase calcineurin.
+
+The c-Jun amino-terminal kinase (JNK) phosphorylates NFAT4 on two sites.
+# T2 Protein S5 53 58 427 432 NFAT4
+$ T2 Protein S5 53 58 427 432 NFAT4
+@ T9 Phosphorylation S5 38 52 412 426 phosphorylates
+% E3 Phosphorylation:T9 Theme:T2
+
+Mutational removal of the JNK phosphorylation sites caused constitutive nuclear localization of NFAT4.
+# T3 Protein S6 96 101 543 548 NFAT4
+$ T3 Protein S6 96 101 543 548 NFAT4
+@ T10 Positive_regulation S6 52 58 499 505 caused
+@ T11 Entity S6 72 79 519 526 nuclear
+@ T12 Localization S6 80 92 527 539 localization
+% E4 Positive_regulation:T10 Theme:E5
+% E5 Localization:T12 Theme:T3 AtLoc:T11
+
+In contrast, JNK activation in calcineurin-stimulated cells caused nuclear exclusion of NFAT4.
+# T4 Protein S7 88 93 638 643 NFAT4
+$ T4 Protein S7 88 93 638 643 NFAT4
+@ T13 Positive_regulation S7 60 66 610 616 caused
+@ T14 Entity S7 67 74 617 624 nuclear
+@ T15 Localization S7 75 84 625 634 exclusion
+% E6 Positive_regulation:T13 Theme:E7
+% E7 Localization:T15 Theme:T4 AtLoc:T14
+
+These findings show that the nuclear accumulation of NFAT4 promoted by calcineurin is opposed by the JNK signal transduction pathway.
+# T5 Protein S8 53 58 698 703 NFAT4
+$ T5 Protein S8 53 58 698 703 NFAT4
+@ T16 Entity S8 29 36 674 681 nuclear
+@ T17 Localization S8 37 49 682 694 accumulation
+@ T18 Positive_regulation S8 59 67 704 712 promoted
+@ T19 Negative_regulation S8 86 93 731 738 opposed
+% E8 Localization:T17 Theme:T5 AtLoc:T16
+% E9 Positive_regulation:T18 Theme:E8
+% E10 Negative_regulation:T19 Theme:E9
+

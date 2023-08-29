@@ -1,0 +1,135 @@
+SLP-76 and Vav function in separate, but overlapping pathways to augment interleukin-2 promoter activity.
+# T1 Protein S1 0 6 0 6 SLP-76
+# T2 Protein S1 11 14 11 14 Vav
+# T3 Protein S1 73 86 73 86 interleukin-2
+$ T3 Protein S1 73 86 73 86 interleukin-2
+$ T1 Protein S1 0 6 0 6 SLP-76
+$ T2 Protein S1 11 14 11 14 Vav
+@ T28 Positive_regulation S1 65 72 65 72 augment
+@ T29 Entity S1 87 95 87 95 promoter
+% E1 Positive_regulation:T28 Theme:T3 Cause:T1 Site:T29
+% E2 Positive_regulation:T28 Theme:T3 Cause:T2 Site:T29
+
+SLP-76 and Vav, two hematopoietic cell specific molecules, are critical for T cell development and activation.
+# T4 Protein S2 0 6 107 113 SLP-76
+# T5 Protein S2 11 14 118 121 Vav
+
+Following T cell antigen receptor stimulation, SLP-76 and Vav both undergo tyrosine phosphorylation and associate with each other via the SH2 domain of Vav and phosphorylated tyrosines of SLP-76.
+# T6 Protein S3 47 53 265 271 SLP-76
+# T7 Protein S3 58 61 276 279 Vav
+# T8 Protein S3 152 155 370 373 Vav
+# T9 Protein S3 188 194 406 412 SLP-76
+$ T7 Protein S3 58 61 276 279 Vav
+$ T6 Protein S3 47 53 265 271 SLP-76
+$ T8 Protein S3 152 155 370 373 Vav
+$ T9 Protein S3 188 194 406 412 SLP-76
+@ T30 Positive_regulation S3 0 9 218 227 Following
+@ T31 Entity S3 75 83 293 301 tyrosine
+@ T32 Phosphorylation S3 84 99 302 317 phosphorylation
+@ T33 Binding S3 104 113 322 331 associate
+@ T34 Entity S3 138 148 356 366 SH2 domain
+@ T35 Phosphorylation S3 160 174 378 392 phosphorylated
+@ T36 Entity S3 175 184 393 402 tyrosines
+% E3 Positive_regulation:T30 Theme:E5
+% E4 Positive_regulation:T30 Theme:E6
+% E5 Phosphorylation:T32 Theme:T7 Site:T31
+% E6 Phosphorylation:T32 Theme:T6 Site:T31
+% E7 Binding:T33 Theme:T8 Theme2:T9 Site:T34
+% E8 Phosphorylation:T35 Theme:T9 Site:T36
+
+Furthermore, SLP-76 and Vav have a synergistic effect on interleukin (IL)-2 promoter activity in T cells.
+# T10 Protein S4 13 19 427 433 SLP-76
+# T11 Protein S4 24 27 438 441 Vav
+# T12 Protein S4 57 75 471 489 interleukin (IL)-2
+$ T12 Protein S4 57 75 471 489 interleukin (IL)-2
+$ T11 Protein S4 24 27 438 441 Vav
+$ T10 Protein S4 13 19 427 433 SLP-76
+@ T37 Positive_regulation S4 47 53 461 467 effect
+@ T38 Entity S4 76 84 490 498 promoter
+% E9 Positive_regulation:T37 Theme:T12 Cause:T11 Site:T38
+% E10 Positive_regulation:T37 Theme:T12 Cause:T10 Site:T38
+
+In this report, we show that two tyrosines, Tyr-113 and Tyr-128, of SLP-76 are required for its binding to Vav, both in vitro and in intact cells.
+# T13 Protein S5 68 74 588 594 SLP-76
+# T14 Protein S5 107 110 627 630 Vav
+$ T13 Protein S5 68 74 588 594 SLP-76
+$ T14 Protein S5 107 110 627 630 Vav
+@ T39 Regulation S5 79 87 599 607 required
+@ T40 Binding S5 96 103 616 623 binding
+% E11 Regulation:T39 Theme:E12
+% E12 Binding:T40 Theme:T13 Theme2:T14
+
+Surprisingly, we find also that the interaction between SLP-76 and Vav is not required for their cooperation in augmenting IL-2 promoter activity, as the two molecules appear to function in different signaling pathways upstream of IL-2 gene expression.
+# T15 Protein S6 56 62 723 729 SLP-76
+# T16 Protein S6 67 70 734 737 Vav
+# T17 Protein S6 123 127 790 794 IL-2
+# T18 Protein S6 231 235 898 902 IL-2
+$ T15 Protein S6 56 62 723 729 SLP-76
+$ T16 Protein S6 67 70 734 737 Vav
+$ T17 Protein S6 123 127 790 794 IL-2
+$ T18 Protein S6 231 235 898 902 IL-2
+@ T41 Binding S6 36 47 703 714 interaction
+@ T42 Positive_regulation S6 78 86 745 753 required
+@ T43 Positive_regulation S6 112 122 779 789 augmenting
+@ T44 Entity S6 128 136 795 803 promoter
+@ T45 Positive_regulation S6 219 227 886 894 upstream
+@ T46 Gene_expression S6 236 251 903 918 gene expression
+% E13 Binding:T41 Theme:T15 Theme2:T16
+% E14 Positive_regulation:T42 Theme:E16 Cause:E13
+% E15 Positive_regulation:T42 Theme:E17 Cause:E13
+% E16 Positive_regulation:T43 Theme:T17 Cause:T16 Site:T44
+% E17 Positive_regulation:T43 Theme:T17 Cause:T15 Site:T44
+% E18 Positive_regulation:T45 Theme:E19
+% E19 Gene_expression:T46 Theme:T18
+
+Overexpression of SLP-76 in the Jurkat T cell line potentiates the activities of both nuclear factor of activated T cells and AP-1 transcription factors.
+# T19 Protein S7 18 24 938 944 SLP-76
+$ T19 Protein S7 18 24 938 944 SLP-76
+@ T47 Positive_regulation S7 0 14 920 934 Overexpression
+@ T48 Gene_expression S7 0 14 920 934 Overexpression
+% E20 Positive_regulation:T47 Theme:E21
+% E21 Gene_expression:T48 Theme:T19
+
+In contrast, overexpression of Vav leads to enhanced nuclear factor of activated T cells activity without affecting AP-1.
+# T20 Protein S8 31 34 1105 1108 Vav
+$ T20 Protein S8 31 34 1105 1108 Vav
+@ T49 Positive_regulation S8 13 27 1087 1101 overexpression
+@ T50 Gene_expression S8 13 27 1087 1101 overexpression
+% E22 Positive_regulation:T49 Theme:E23
+% E23 Gene_expression:T50 Theme:T20
+
+Additionally, overexpression of Vav, but not SLP-76, augments CD28-induced IL-2 promoter activity.
+# T21 Protein S9 32 35 1228 1231 Vav
+# T22 Protein S9 45 51 1241 1247 SLP-76
+# T23 Protein S9 62 66 1258 1262 CD28
+# T24 Protein S9 75 79 1271 1275 IL-2
+$ T22 Protein S9 45 51 1241 1247 SLP-76
+$ T21 Protein S9 32 35 1228 1231 Vav
+$ T24 Protein S9 75 79 1271 1275 IL-2
+$ T23 Protein S9 62 66 1258 1262 CD28
+@ T51 Gene_expression S9 14 28 1210 1224 overexpression
+@ T52 Positive_regulation S9 14 28 1210 1224 overexpression
+@ T53 Positive_regulation S9 53 61 1249 1257 augments
+@ T54 Positive_regulation S9 67 74 1263 1270 induced
+@ T55 Entity S9 80 88 1276 1284 promoter
+% E24 Gene_expression:T51 Theme:T22
+% E26 Gene_expression:T51 Theme:T21
+% E25 Positive_regulation:T52 Theme:E26
+% E27 Positive_regulation:T52 Theme:E24
+% E28 Positive_regulation:T53 Theme:E30 Cause:E27
+% E29 Positive_regulation:T53 Theme:E30 Cause:E25
+% E30 Positive_regulation:T54 Theme:T24 Cause:T23 Site:T55
+
+These findings suggest that the synergy between SLP-76 and Vav in regulating IL-2 gene expression reflects the cooperation between different signaling pathways.
+# T25 Protein S10 48 54 1343 1349 SLP-76
+# T26 Protein S10 59 62 1354 1357 Vav
+# T27 Protein S10 77 81 1372 1376 IL-2
+$ T25 Protein S10 48 54 1343 1349 SLP-76
+$ T26 Protein S10 59 62 1354 1357 Vav
+$ T27 Protein S10 77 81 1372 1376 IL-2
+@ T56 Regulation S10 66 76 1361 1371 regulating
+@ T57 Gene_expression S10 82 97 1377 1392 gene expression
+% E31 Regulation:T56 Theme:E33 Cause:T25
+% E32 Regulation:T56 Theme:E33 Cause:T26
+% E33 Gene_expression:T57 Theme:T27
+

@@ -1,0 +1,46 @@
+Constitutive overexpression of the L-selectin gene in fresh leukemic cells of adult T-cell leukemia that can be transactivated by human T-cell lymphotropic virus type 1 Tax.
+# T1 Protein S1 35 45 35 45 L-selectin
+# T2 Protein S1 169 172 169 172 Tax
+
+L-selectin is an adhesion molecule of the selectin family that mediates the initial step of leukocyte adhesion to vascular endothelium.
+# T3 Protein S2 0 10 175 185 L-selectin
+
+Upon cellular activation, expression of the L-selectin gene is downregulated at both the protein and mRNA levels.
+# T4 Protein S3 44 54 355 365 L-selectin
+
+To understand the mechanism of leukemic cell infiltration into organs, we studied the expression and regulation of L-selectin mRNA in fresh leukemic cells of adult T-cell leukemia (ATL) patients and investigated the response of the L-selectin promoter to human T-cell lymphotropic virus type 1 (HTLV-1) Tax, which is a viral transcriptional transactivator.
+# T5 Protein S4 115 125 540 550 L-selectin
+# T6 Protein S4 232 242 657 667 L-selectin
+# T7 Protein S4 303 306 728 731 Tax
+
+Flow cytometry showed that L-selectin was expressed on fresh ATL cells along with other activation antigens.
+# T8 Protein S5 27 37 809 819 L-selectin
+
+Northern blot analysis showed that ATL cells overexpressed that L-selectin mRNA and that the level was aberrantly upregulated after PMA stimulation.
+# T9 Protein S6 64 74 955 965 L-selectin
+
+Studies using in situ hybridization showed expression of the L-selectin mRNA in the infiltrating leukemic cells in the liver of two ATL patients.
+# T10 Protein S7 61 71 1101 1111 L-selectin
+
+Intravenous injection of a rat T-cell line that overexpresses L-selectin showed increased organ infiltration.
+# T11 Protein S8 62 72 1248 1258 L-selectin
+
+The induction of Tax expression in JPX9 cells resulted in about a twofold increase in the mRNA expression levels compared with the basal level.
+# T12 Protein S9 17 20 1313 1316 Tax
+
+Chloramphenicol acetyltransferase (CAT) assay after transient cotransfection showed about a fivefold transactivation of the L-selectin promoter by Tax.
+# T13 Protein S10 0 33 1440 1473 Chloramphenicol acetyltransferase
+# T14 Protein S10 35 38 1475 1478 CAT
+# T15 Protein S10 124 134 1564 1574 L-selectin
+# T16 Protein S10 147 150 1587 1590 Tax
+
+The serum level of the shed form of L-selectin was significantly increased in ATL patients (mean +/- SD, 4,215.4 +/- 4,111 ng/mL) compared with those of asymptomatic carriers and healthy blood donors (mean +/- SD, 1,148.0 +/- 269.0 ng/mL and 991.9 +/- 224 ng/mL, respectively).
+# T17 Protein S11 36 46 1628 1638 L-selectin
+
+These results indicated that ATL cells constitutively overexpress the L-selectin gene that can be transactivated by HTLV-1 Tax.
+# T18 Protein S12 70 80 1940 1950 L-selectin
+# T19 Protein S12 123 126 1993 1996 Tax
+
+The overexpression of L-selectin, as well as of inflammatory cytokines, by ATL cells may provide a basis for ATL cells to attach the vascular endothelium, leading to transmigration and organ infitration.
+# T20 Protein S13 22 32 2020 2030 L-selectin
+

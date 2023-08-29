@@ -1,0 +1,59 @@
+Downstream activation of a TATA-less promoter by Oct-2, Bob1, and NF-kappaB directs expression of the homing receptor BLR1 to mature B cells.
+# T1 Protein S1 49 54 49 54 Oct-2
+# T2 Protein S1 56 60 56 60 Bob1
+# T3 Protein S1 118 122 118 122 BLR1
+$ T3 Protein S1 118 122 118 122 BLR1
+@ T16 Positive_regulation S1 76 83 76 83 directs
+@ T17 Gene_expression S1 84 94 84 94 expression
+% E1 Positive_regulation:T16 Theme:E2
+% E2 Gene_expression:T17 Theme:T3
+
+The chemokine receptor, BLR1, is a major regulator of the microenvironmental homing of B cells in lymphoid organs.
+# T4 Protein S2 24 28 167 171 BLR1
+
+In vitro studies identify three essential elements of the TATA-less blr1 core promoter that confer cell type- and differentiation-specific expression in the B cells of both humans and mice, a functional promoter region (-36 with respect to the transcription start site), a NF-kappaB motif (+44), and a noncanonical octamer motif (+157).
+# T5 Protein S3 68 72 326 330 blr1
+$ T5 Protein S3 68 72 326 330 blr1
+@ T18 Positive_regulation S3 92 98 350 356 confer
+@ T19 Gene_expression S3 139 149 397 407 expression
+% E3 Positive_regulation:T18 Theme:E4
+% E4 Gene_expression:T19 Theme:T5
+
+The importance of these sites was confirmed by in vivo studies in gene-targeted mice deficient of either Oct-2, Bob1, or both NF-kappaB subunits p50 and p52.
+# T6 Protein S4 105 110 700 705 Oct-2
+# T7 Protein S4 112 116 707 711 Bob1
+# T8 Protein S4 145 148 740 743 p50
+# T9 Protein S4 153 156 748 751 p52
+
+In all of these animals, the expression of BLR1 was reduced or absent.
+# T10 Protein S5 43 47 796 800 BLR1
+$ T10 Protein S5 43 47 796 800 BLR1
+@ T20 Gene_expression S5 29 39 782 792 expression
+@ T21 Negative_regulation S5 52 59 805 812 reduced
+% E5 Gene_expression:T20 Theme:T10
+% E6 Negative_regulation:T21 Theme:E5
+
+In mice deficient only of p52/NF-kappaB, BLR1 expression was unaffected.
+# T11 Protein S6 26 29 850 853 p52
+# T12 Protein S6 41 45 865 869 BLR1
+$ T12 Protein S6 41 45 865 869 BLR1
+@ T22 Gene_expression S6 46 56 870 880 expression
+@ T23 Regulation S6 61 71 885 895 unaffected
+% E7 Gene_expression:T22 Theme:T12
+% E8 Regulation:T23 Theme:E7
+
+Thus our data demonstrate that BLR1 is a target gene for Oct-2, Bob1, and members of the NF-kappaB/Rel family and provides a link to the impaired B cell functions in mice deficient for these factors.
+# T13 Protein S7 31 35 928 932 BLR1
+# T14 Protein S7 57 62 954 959 Oct-2
+# T15 Protein S7 64 68 961 965 Bob1
+$ T13 Protein S7 31 35 928 932 BLR1
+$ T14 Protein S7 57 62 954 959 Oct-2
+$ T15 Protein S7 64 68 961 965 Bob1
+@ T24 Regulation S7 41 47 938 944 target
+@ T25 Gene_expression S7 171 180 1068 1077 deficient
+% E9 Regulation:T24 Theme:T13 Cause:T14
+% E10 Regulation:T24 Theme:T13
+% E11 Regulation:T24 Theme:T13 Cause:T15
+% E12 Gene_expression:T25 Theme:T15
+% E13 Gene_expression:T25 Theme:T14
+

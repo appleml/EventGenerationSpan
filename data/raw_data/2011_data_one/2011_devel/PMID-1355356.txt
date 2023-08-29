@@ -1,0 +1,41 @@
+Functional interaction between the two zinc finger domains of the v-erb A oncoprotein.
+# T1 Protein S1 66 73 66 73 v-erb A
+
+The v-erb A oncogene of avian erythroblastosis virus is a mutated and virally transduced copy of a host cell gene encoding a thyroid hormone receptor.
+# T2 Protein S2 4 11 92 99 v-erb A
+
+The protein expressed by the v-erb A oncogene binds to DNA and acts as a dominant negative inhibitor of both the thyroid hormone receptor and the closely related retinoic acid receptor.
+# T3 Protein S3 29 36 268 275 v-erb A
+# T4 Protein S3 162 184 401 423 retinoic acid receptor
+$ T4 Protein S3 162 184 401 423 retinoic acid receptor
+@ T12 Negative_regulation S3 63 100 302 339 acts as a dominant negative inhibitor
+% E1 Negative_regulation:T12 Theme:T4
+
+The v-erb A protein has sustained two amino acid alterations within its DNA-binding domain relative to that of c-erb A, one of which, at serine 61, is known to be important for v-erb A function in the neoplastic cell.
+# T5 Protein S4 4 11 429 436 v-erb A
+# T6 Protein S4 111 118 536 543 c-erb A
+# T7 Protein S4 177 184 602 609 v-erb A
+$ T7 Protein S4 177 184 602 609 v-erb A
+@ T13 Regulation S4 163 172 588 597 important
+% E2 Regulation:T13 Theme:T7
+
+We report here that the second alteration, at threonine 78, also plays an important, although more indirect, role: alteration of the sequence at threonine 78 such that it resembles that of c-erb A can act as an intragenic suppressor and can partially restore function to a v-erb A protein rendered defective due to a mutation at position 61.
+# T8 Protein S5 189 196 832 839 c-erb A
+# T9 Protein S5 273 280 916 923 v-erb A
+$ T9 Protein S5 273 280 916 923 v-erb A
+@ T14 Regulation S5 109 113 752 756 role
+@ T15 Positive_regulation S5 251 267 894 910 restore function
+@ T16 Negative_regulation S5 289 307 932 950 rendered defective
+% E3 Regulation:T14 Theme:T7
+% E4 Positive_regulation:T15 Theme:T9
+% E5 Negative_regulation:T16 Theme:T9
+
+Threonine 78 lies within the D-box of the v-erb A protein, a region thought to mediate receptor-receptor dimerizations, and is not in physical proximity to the serine at position 61.
+# T10 Protein S6 42 49 1027 1034 v-erb A
+
+It therefore appears that an indirect interaction occurs between these two sites and that this interaction is crucial for v-erb A function.
+# T11 Protein S7 122 129 1290 1297 v-erb A
+$ T11 Protein S7 122 129 1290 1297 v-erb A
+@ T17 Positive_regulation S7 110 117 1278 1285 crucial
+% E6 Positive_regulation:T17 Theme:T11
+

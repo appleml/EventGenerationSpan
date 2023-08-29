@@ -1,0 +1,328 @@
+CD4+ T cells orchestrate the Th1-type cell-mediated immune response in RA [22].
+# T1 Protein S1 0 3 0 3 CD4
+
+Activated CD4+ T cells stimulate macrophages, synovial fibroblasts, B cells, and osteoclasts through the expression of cell surface molecules and Th1 cytokines, thereby contributing to both the chronic inflammation and the joint destruction.
+# T2 Protein S2 10 13 90 93 CD4
+
+CD4+ T cells require two signals to be activated; antigen receptor occupancy and CD28-mediated costimulation.
+# T3 Protein S3 0 3 322 325 CD4
+# T4 Protein S3 81 85 403 407 CD28
+
+In the ST lesion, the CD28 ligands, both CD80 and CD86, together with MHC class II antigens, are substantially expressed by antigen-presenting cells such as macrophages and dendritic cells [18-20].
+# T5 Protein S4 22 26 454 458 CD28
+# T6 Protein S4 41 45 473 477 CD80
+# T7 Protein S4 50 54 482 486 CD86
+
+The significance of CD28 engagement in the T-cell-mediated disease process has recently been proven by the clinical efficacy of its blocker cytotoxic T-cell-associated antigen 4 (CD152)-IgG in RA patients [23].
+# T8 Protein S5 20 24 650 654 CD28
+# T9 Protein S5 140 189 770 819 cytotoxic T-cell-associated antigen 4 (CD152)-IgG
+
+IL-10 plays a predominant role in limiting immune and inflammatory responses by regulating the function of both macrophages and Th1 cells [1].
+# T10 Protein S6 0 5 841 846 IL-10
+
+IL-10 inhibits the tyrosine phosphorylation of the CD28 molecule and the subsequent phosphatidylinositol 3-kinase binding in T cells, and thereby directly acts on T cells [24].
+# T11 Protein S7 0 5 984 989 IL-10
+# T12 Protein S7 51 55 1035 1039 CD28
+
+In the present study, we found that PB CD4+ T cells from patients with active RA, in the presence of IL-10, are able to produce higher levels of IFN-gamma after CD3 and CD28 costimulation than normal CD4+ T cells.
+# T13 Protein S8 39 42 1200 1203 CD4
+# T14 Protein S8 101 106 1262 1267 IL-10
+# T15 Protein S8 145 154 1306 1315 IFN-gamma
+# T16 Protein S8 169 173 1330 1334 CD28
+# T17 Protein S8 200 203 1361 1364 CD4
+
+Despite high-level IL-10R1 expression and constitutive STAT3 activation, IL-10-induced tyrosine phosphorylation of STAT3 is suppressed in RA CD4+ T cells, in contrast to normal CD4+ T cells, where STAT3 phosphorylation is dose-dependently inducible by IL-10.
+# T18 Protein S9 19 26 1394 1401 IL-10R1
+# T19 Protein S9 55 60 1430 1435 STAT3
+# T20 Protein S9 73 78 1448 1453 IL-10
+# T21 Protein S9 115 120 1490 1495 STAT3
+# T22 Protein S9 141 144 1516 1519 CD4
+# T23 Protein S9 177 180 1552 1555 CD4
+# T24 Protein S9 197 202 1572 1577 STAT3
+# T25 Protein S9 252 257 1627 1632 IL-10
+
+Serum IL-6 from RA patients induces STAT3 but not STAT1 phosphorylation in normal CD4+ T cells, and exogenous IL-6 induces the resistance to IL-10 inhibition of IFN-gamma production.
+# T26 Protein S10 6 10 1640 1644 IL-6
+# T27 Protein S10 36 41 1670 1675 STAT3
+# T28 Protein S10 50 55 1684 1689 STAT1
+# T29 Protein S10 82 85 1716 1719 CD4
+# T30 Protein S10 110 114 1744 1748 IL-6
+# T31 Protein S10 141 146 1775 1780 IL-10
+# T32 Protein S10 161 170 1795 1804 IFN-gamma
+
+RA CD4+ T cells contain higher levels of SOCS1 but contain lower levels of SOCS3 transcripts in comparison with normal CD4+ T cells.
+# T33 Protein S11 3 6 1820 1823 CD4
+# T34 Protein S11 41 46 1858 1863 SOCS1
+# T35 Protein S11 75 80 1892 1897 SOCS3
+# T36 Protein S11 119 122 1936 1939 CD4
+
+These findings indicate that CD4+ T cells become resistant to the inhibitory effect of IL-10 before migration into the inflamed ST, and suggest that this resistance may be attributable to impaired IL-10-dependent STAT3 activation, in association with sustained STAT3 phosphorylation and SOCS1 induction.
+# T37 Protein S12 29 32 1979 1982 CD4
+# T38 Protein S12 87 92 2037 2042 IL-10
+# T39 Protein S12 197 202 2147 2152 IL-10
+# T40 Protein S12 213 218 2163 2168 STAT3
+# T41 Protein S12 261 266 2211 2216 STAT3
+# T42 Protein S12 287 292 2237 2242 SOCS1
+
+IL-10-mediated inhibition of CD4+ T-cell cytokine production is principally dependent on its inhibition of macrophage antigen-presenting cell function [1].
+# T43 Protein S13 0 5 2254 2259 IL-10
+# T44 Protein S13 29 32 2283 2286 CD4
+
+However, this indirect inhibitory effect is thought to be restricted at the site of T-cell activation in RA, because macrophages in the ST express high levels of cytokines, CD80 and CD86 molecules, and MHC class II antigens [10,18-20].
+# T45 Protein S14 173 177 2583 2587 CD80
+# T46 Protein S14 182 186 2592 2596 CD86
+
+More recently, IL-10 has been shown to induce the antigen-specific T-cell unresponsiveness by inhibiting CD28 tyrosine phosphorylation [33].
+# T47 Protein S15 15 20 2661 2666 IL-10
+# T48 Protein S15 105 109 2751 2755 CD28
+
+This direct effect also may be limited in active RA patients, because their PB CD4+ T cells showed a defective IL-10 inhibition of CD28-costimulated production of both IFN-gamma and IL-2.
+# T49 Protein S16 79 82 2866 2869 CD4
+# T50 Protein S16 111 116 2898 2903 IL-10
+# T51 Protein S16 131 135 2918 2922 CD28
+# T52 Protein S16 168 177 2955 2964 IFN-gamma
+# T53 Protein S16 182 186 2969 2973 IL-2
+
+Numerous cytokines, both proinflammatory and anti-inflammatory, have been detected in the ST of RA, and the balance between these opposing cytokine activities regulates disease severity [10].
+
+Endogenous IL-10, produced mainly by macrophages and T cells, inhibits proinflammatory cytokine production by ST cells [12].
+# T96 Protein S18 11 16 3178 3183 IL-10
+
+However, this regulatory activity seems to be restricted during chronic inflammation.
+
+The activation of both the extracellular stimulus-regulated kinase and p38 kinase pathways, induced by TNF-alpha and IL-1, inhibits the Jak1-STAT3 signaling pathway shared by IL-10 and IL-6 in adhered macrophages [13].
+# T97 Protein S20 103 112 3481 3490 TNF-alpha
+# T98 Protein S20 117 121 3495 3499 IL-1
+# T99 Protein S20 136 140 3514 3518 Jak1
+# T100 Protein S20 141 146 3519 3524 STAT3
+# T101 Protein S20 175 180 3553 3558 IL-10
+# T102 Protein S20 185 189 3563 3567 IL-6
+
+More importantly, IL-10-mediated STAT3 activation is mostly undetectable in RA synovial macrophages.
+# T103 Protein S21 18 23 3615 3620 IL-10
+# T104 Protein S21 33 38 3630 3635 STAT3
+
+This impaired IL-10 signaling is probably induced by chronic exposure to immune complexes in vivo, because both cell surface IL-10R1 expression and IL-10-induced Jak1 activation are suppressed in IFN-gamma-primed macrophages by a protein kinase C-dependent pathway following ligation of the IgG Fc gamma receptor [14].
+# T105 Protein S22 14 19 3712 3717 IL-10
+# T106 Protein S22 125 132 3823 3830 IL-10R1
+# T107 Protein S22 148 153 3846 3851 IL-10
+# T108 Protein S22 162 166 3860 3864 Jak1
+# T109 Protein S22 196 205 3894 3903 IFN-gamma
+
+Furthermore, dendritic cells from RA synovial fluids are resistant to the immunoregulatory effect of IL-10 due to decreased transport of intracellular IL-10R1 in the presence of proinflammatory cytokine stimuli such as TNF-alpha, IL-1, and granulocyte-macrophage colony-stimulating factor [15].
+# T110 Protein S23 101 106 4118 4123 IL-10
+# T111 Protein S23 151 158 4168 4175 IL-10R1
+# T112 Protein S23 219 228 4236 4245 TNF-alpha
+# T113 Protein S23 230 234 4247 4251 IL-1
+# T114 Protein S23 240 288 4257 4305 granulocyte-macrophage colony-stimulating factor
+
+We have demonstrated that the resistance of RA CD4+ T cells to IL-10 may be associated with defective IL-10-dependent STAT3 activation, but not with IL-10R1 expression.
+# T115 Protein S24 47 50 4359 4362 CD4
+# T116 Protein S24 63 68 4375 4380 IL-10
+# T117 Protein S24 102 107 4414 4419 IL-10
+# T118 Protein S24 118 123 4430 4435 STAT3
+# T119 Protein S24 149 156 4461 4468 IL-10R1
+
+Inhibitory effects of IL-10 on these inflammatory cell types are therefore differentially modulated at the signal transduction level under the inflammatory environment in RA.
+# T120 Protein S25 22 27 4503 4508 IL-10
+
+In association with impaired IL-10-mediated STAT3 activation, STAT3 was found to be tyrosine phosphorylated persistently (up to 6 hours) in freshly isolated PB and ST CD4+ T cells from RA patients.
+# T121 Protein S26 29 34 4685 4690 IL-10
+# T122 Protein S26 44 49 4700 4705 STAT3
+# T123 Protein S26 62 67 4718 4723 STAT3
+# T124 Protein S26 167 170 4823 4826 CD4
+
+STAT3 is activated by a variety of cytokines, notably the IL-6 family of cytokines (e.g. IL-6, IL-11, leukemia inhibitory factor, and oncostatin M) and growth factors, in addition to IL-10 [4].
+# T125 Protein S27 0 5 4854 4859 STAT3
+# T126 Protein S27 89 93 4943 4947 IL-6
+# T127 Protein S27 95 100 4949 4954 IL-11
+# T128 Protein S27 102 128 4956 4982 leukemia inhibitory factor
+# T129 Protein S27 134 146 4988 5000 oncostatin M
+# T130 Protein S27 183 188 5037 5042 IL-10
+
+Of these cytokines, IL-6 plays a predominant role in eliciting a systemic reaction such as the acute phase response in active RA, due mainly to its abundance in the blood circulation [27].
+# T131 Protein S28 20 24 5068 5072 IL-6
+
+Consistent with this notion, IL-6 was the major STAT3-activating factor contained in the serum of active RA patients, and the responsiveness to IL-10 was suppressed in normal CD4+ T cells after 36 hours of incubation with IL-6.
+# T132 Protein S29 29 33 5266 5270 IL-6
+# T133 Protein S29 48 53 5285 5290 STAT3
+# T134 Protein S29 144 149 5381 5386 IL-10
+# T135 Protein S29 175 178 5412 5415 CD4
+# T136 Protein S29 222 226 5459 5463 IL-6
+
+These results suggest that both the sustained STAT3 activation and the resistance to IL-10 inhibition found in RA CD4+ T cells may be induced after chronic exposure in vivo to high concentrations of serum IL-6.
+# T137 Protein S30 46 51 5511 5516 STAT3
+# T138 Protein S30 85 90 5550 5555 IL-10
+# T139 Protein S30 114 117 5579 5582 CD4
+# T140 Protein S30 205 209 5670 5674 IL-6
+
+However, it is also possible that STAT3 activity could be constitutively induced in CD4+ T cells by their own IL-10 secretion, leading to the loss of sensitivity to exogenous IL-10, because RA CD4+ T cells in the ST are capable of producing significant levels of IL-10 [34].
+# T141 Protein S31 34 39 5710 5715 STAT3
+# T142 Protein S31 84 87 5760 5763 CD4
+# T143 Protein S31 110 115 5786 5791 IL-10
+# T144 Protein S31 175 180 5851 5856 IL-10
+# T145 Protein S31 193 196 5869 5872 CD4
+# T146 Protein S31 263 268 5939 5944 IL-10
+
+CD4+ T cells isolated from the ST of RA also showed a defect in the IL-10-induced STAT3 signaling pathway.
+# T147 Protein S32 0 3 5951 5954 CD4
+# T148 Protein S32 68 73 6019 6024 IL-10
+# T149 Protein S32 82 87 6033 6038 STAT3
+
+It is most probable that the resistance of CD4+ T cells to IL-10 can be even augmented after migration into the inflamed ST, because IL-6 is highly concentrated compared with the blood level [27].
+# T150 Protein S33 43 46 6101 6104 CD4
+# T151 Protein S33 59 64 6117 6122 IL-10
+# T152 Protein S33 133 137 6191 6195 IL-6
+
+In addition, the involvement of other essential proinflammatory cytokines in this process was suggested by our preliminary experiments demonstrating that IL-10-mediated IFN-gamma inhibition in CD4+ T cells was reduced by pretreatment with IL-1beta and TNF-alpha, although less effectively than by IL-6 (data not shown).
+# T153 Protein S34 154 159 6409 6414 IL-10
+# T154 Protein S34 169 178 6424 6433 IFN-gamma
+# T155 Protein S34 193 196 6448 6451 CD4
+# T156 Protein S34 239 247 6494 6502 IL-1beta
+# T157 Protein S34 252 261 6507 6516 TNF-alpha
+# T158 Protein S34 297 301 6552 6556 IL-6
+
+Furthermore, IFN-gamma and IL-10 produced by CD4+ T cells themselves could be responsible for impaired IL-10 signaling in the ST, because T-cell infiltrates produce both cytokines [34,35].
+# T159 Protein S35 13 22 6588 6597 IFN-gamma
+# T160 Protein S35 27 32 6602 6607 IL-10
+# T161 Protein S35 45 48 6620 6623 CD4
+# T162 Protein S35 103 108 6678 6683 IL-10
+
+In an autocrine fashion, IL-10 may persistently stimulate STAT3 activation and IFN-gamma can induce SOCS1 protein as a crosstalk inhibitor of IL-10 signaling [32].
+# T163 Protein S36 25 30 6789 6794 IL-10
+# T164 Protein S36 58 63 6822 6827 STAT3
+# T165 Protein S36 79 88 6843 6852 IFN-gamma
+# T166 Protein S36 100 105 6864 6869 SOCS1
+# T167 Protein S36 142 147 6906 6911 IL-10
+
+The T-cell-inhibitory effect of IL-10 may therefore be modulated complicatedly upon exposure to an inflammatory environment in RA joints, where many cytokines are present substantially [10].
+# T168 Protein S37 32 37 6960 6965 IL-10
+
+STAT3 activation has been implicated in the pathogenesis of RA.
+# T210 Protein S38 0 5 7119 7124 STAT3
+
+Active STAT3 is constitutively expressed in synovial fluid mononuclear cells from RA patients [36].
+# T211 Protein S39 7 12 7190 7195 STAT3
+
+IL-6 is the major STAT3-activating factor present in synovial fluid, which has a crucial role in the activation of monocyte functions such as gene expression of the Fc gamma receptor type I and type III and of HLA-DR [31].
+# T212 Protein S40 0 4 7283 7287 IL-6
+# T213 Protein S40 18 23 7301 7306 STAT3
+# T214 Protein S40 165 189 7448 7472 Fc gamma receptor type I
+# T215 Protein S40 194 202 7477 7485 type III
+
+More recently, high levels of activated STAT3, thought to be induced mainly by IL-6, have been detected in the ST, and STAT3 activation has been shown to be involved in synovial fibroblast proliferation and IL-6 production [37].
+# T216 Protein S41 40 45 7546 7551 STAT3
+# T217 Protein S41 79 83 7585 7589 IL-6
+# T218 Protein S41 119 124 7625 7630 STAT3
+# T219 Protein S41 207 211 7713 7717 IL-6
+
+In this regard, STAT3 is critical in the survival and expansion of growth factor-dependent synovial fibroblasts [38].
+# T220 Protein S42 16 21 7751 7756 STAT3
+
+Furthermore, the significance of persistent STAT3 signaling in Th1-cell-dominated autoimmune arthritis has been suggested by studies of the gp130F759/F759 mice, in which the Src homology phosphatase-2 binding site of gp130 (the transmembrane glycoprotein beta subunit of the IL-6 family cytokine receptor), tyrosine 759, was mutated to phenylalanine [39].
+# T221 Protein S43 44 49 7897 7902 STAT3
+# T222 Protein S43 140 145 7993 7998 gp130
+# T223 Protein S43 217 222 8070 8075 gp130
+# T224 Protein S43 228 304 8081 8157 transmembrane glycoprotein beta subunit of the IL-6 family cytokine receptor
+
+In the gp130F759/F759 mice, T cells, particularly the CD4+ T-cell subset, are chronically activated and resistant to activation-induced cell death through gp130-mediated STAT3 activation.
+# T225 Protein S44 7 12 8216 8221 gp130
+# T226 Protein S44 54 57 8263 8266 CD4
+# T227 Protein S44 155 160 8364 8369 gp130
+# T228 Protein S44 170 175 8379 8384 STAT3
+
+The longevity of cytokine signals transduced by the JAK-STAT pathway is regulated by the SOCS family proteins [7].
+
+We found that CD4+ T cells from patients with active RA expressed higher levels of SOCS1, but lower levels of SOCS3, compared with normal CD4+ T cells.
+# T229 Protein S46 14 17 8526 8529 CD4
+# T230 Protein S46 83 88 8595 8600 SOCS1
+# T231 Protein S46 110 115 8622 8627 SOCS3
+# T232 Protein S46 138 141 8650 8653 CD4
+
+SOCS1 prevents activation of JAK by directly binding to JAK, and SOCS3 inhibits the action of JAK by binding to the Src homology phosphatase-2-binding domain of receptors such as gp130 [40].
+# T233 Protein S47 0 5 8664 8669 SOCS1
+# T234 Protein S47 65 70 8729 8734 SOCS3
+# T235 Protein S47 179 184 8843 8848 gp130
+
+SOCS1 and SOCS3 are induced by various cytokines, including IL-6 and IL-10, as mediators of negative feedback and crosstalk inhibition [7].
+# T236 Protein S48 0 5 8855 8860 SOCS1
+# T237 Protein S48 10 15 8865 8870 SOCS3
+# T238 Protein S48 60 64 8915 8919 IL-6
+# T239 Protein S48 69 74 8924 8929 IL-10
+
+Recent studies with mice lacking SOCS3 or SOCS1 revealed that SOCS3 is a negative regulator of IL-6 signaling but not of IL-10 signaling.
+# T240 Protein S49 33 38 9028 9033 SOCS3
+# T241 Protein S49 42 47 9037 9042 SOCS1
+# T242 Protein S49 62 67 9057 9062 SOCS3
+# T243 Protein S49 95 99 9090 9094 IL-6
+# T244 Protein S49 121 126 9116 9121 IL-10
+
+Studies of conditional SOCS3-deficient mice have shown that SOCS3 deficiency, but not SOCS1 deficiency, results in sustained activation of STAT3 in response to IL-6 [8,41].
+# T245 Protein S50 23 28 9156 9161 SOCS3
+# T246 Protein S50 60 65 9193 9198 SOCS3
+# T247 Protein S50 86 91 9219 9224 SOCS1
+# T248 Protein S50 139 144 9272 9277 STAT3
+# T249 Protein S50 160 164 9293 9297 IL-6
+
+The analysis of SOCS3-deficient macrophages has indicated that SOCS3 is a crucial inhibitor of the IL-6-induced transcriptional response [42].
+# T250 Protein S51 16 21 9322 9327 SOCS3
+# T251 Protein S51 63 68 9369 9374 SOCS3
+# T252 Protein S51 99 103 9405 9409 IL-6
+
+However, SOCS3 is dispensable for both the negative feedback inhibition and the immunoregulatory action of IL-10 in macrophages [41].
+# T253 Protein S52 9 14 9458 9463 SOCS3
+# T254 Protein S52 107 112 9556 9561 IL-10
+
+On the contrary, SOCS1 was found to directly inhibit IL-10-mediated signaling [43].
+# T255 Protein S53 17 22 9600 9605 SOCS1
+# T256 Protein S53 53 58 9636 9641 IL-10
+
+Increased SOCS1 expression in RA CD4+ T cells may therefore be associated with both the impaired responsiveness to IL-10 and to IL-10-mediated STAT3 activation, and defective SOCS3 expression may be responsible for persistent STAT3 activation in response to serum IL-6.
+# T257 Protein S54 10 15 9677 9682 SOCS1
+# T258 Protein S54 33 36 9700 9703 CD4
+# T259 Protein S54 115 120 9782 9787 IL-10
+# T260 Protein S54 128 133 9795 9800 IL-10
+# T261 Protein S54 143 148 9810 9815 STAT3
+# T262 Protein S54 175 180 9842 9847 SOCS3
+# T263 Protein S54 226 231 9893 9898 STAT3
+# T264 Protein S54 264 268 9931 9935 IL-6
+
+There is a possibility that SOCS1 induction may be associated with the ability of CD4+ T cells to produce IFN-gamma, because CD4+ T cells from active RA could produce high levels of IFN-gamma in the presence of IL-10, and because IFN-gamma has been known as a potent inducer of SOCS1 [32].
+# T265 Protein S55 28 33 9965 9970 SOCS1
+# T266 Protein S55 82 85 10019 10022 CD4
+# T267 Protein S55 106 115 10043 10052 IFN-gamma
+# T268 Protein S55 125 128 10062 10065 CD4
+# T269 Protein S55 182 191 10119 10128 IFN-gamma
+# T270 Protein S55 211 216 10148 10153 IL-10
+# T271 Protein S55 230 239 10167 10176 IFN-gamma
+# T272 Protein S55 278 283 10215 10220 SOCS1
+
+It is of interest in this regard to indicate that polarized Th1 and Th2 cells express high levels of SOCS1 and SOCS3 mRNA, respectively [44].
+# T273 Protein S56 101 106 10328 10333 SOCS1
+# T274 Protein S56 111 116 10338 10343 SOCS3
+
+IL-12-induced STAT4 activation is inhibited by SOCS3 induction in Th2 cells, whereas IL-4-induced STAT6 signaling is diminished by SOCS1 induction in Th1 cells.
+# T275 Protein S57 0 5 10369 10374 IL-12
+# T276 Protein S57 14 19 10383 10388 STAT4
+# T277 Protein S57 47 52 10416 10421 SOCS3
+# T278 Protein S57 85 89 10454 10458 IL-4
+# T279 Protein S57 98 103 10467 10472 STAT6
+# T280 Protein S57 131 136 10500 10505 SOCS1
+
+SOCS1 and SOCS3 may thus have important roles as Th1-specific and Th2-specific, mutually exclusive, cross-talk repressors of the IL-4-STAT6 and the IL-12-STAT4 signaling pathways, respectively.
+# T281 Protein S58 0 5 10530 10535 SOCS1
+# T282 Protein S58 10 15 10540 10545 SOCS3
+# T283 Protein S58 129 133 10659 10663 IL-4
+# T284 Protein S58 134 139 10664 10669 STAT6
+# T285 Protein S58 148 153 10678 10683 IL-12
+# T286 Protein S58 154 159 10684 10689 STAT4
+
+Consistent with this notion, PB T cells from patients with allergic diseases significantly express high levels of SOCS3 transcripts, and the SOCS3 expression correlates well with serum IgE levels and disease pathology [45].
+# T287 Protein S59 114 119 10838 10843 SOCS3
+# T288 Protein S59 141 146 10865 10870 SOCS3
+
+Higher SOCS1 expression with lower SOCS3 expression in PB CD4+ T cells from RA patients, compared with healthy controls, is therefore probably consistent with their systemic bias towards a Th1 phenotype, as has previously been demonstrated [46-49].
+# T289 Protein S60 7 12 10955 10960 SOCS1
+# T290 Protein S60 35 40 10983 10988 SOCS3
+# T291 Protein S60 58 61 11006 11009 CD4
+

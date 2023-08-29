@@ -1,0 +1,51 @@
+Interferon-gamma potentiates the antiviral activity and the expression of interferon-stimulated genes induced by interferon-alpha in U937 cells.
+# T1 Protein S1 0 16 0 16 Interferon-gamma
+
+Binding of type I interferon (IFN-alpha/beta) to specific receptors results in the rapid transcriptional activation, independent of protein synthesis, of IFN-alpha-stimulated genes (ISGs) in human fibroblasts and HeLa and Daudi cell lines.
+
+The binding of ISGF3 (IFN-stimulated gene factor 3) to the conserved IFN-stimulated response element (ISRE) results in transcriptional activation.
+
+This factor is composed of a DNA-binding protein (ISGF3 gamma), which normally is present in the cytoplasm, and other IFN-alpha-activated proteins which preexist as latent cytoplasmic precursors (ISGF3 alpha).
+# T2 Protein S4 50 61 583 594 ISGF3 gamma
+$ T2 Protein S4 50 61 583 594 ISGF3 gamma
+@ T10 Localization S4 82 89 615 622 present
+@ T11 Entity S4 97 106 630 639 cytoplasm
+% E1 Localization:T10 Theme:T2 AtLoc:T11
+
+We have found that ISG expression in the monocytic U937 cell line differs from most cell lines previously examined.
+
+U937 cells express both type I and type II IFN receptors, but only IFN-alpha is capable of inducing antiviral protection in these cells.
+
+Pretreatment with IFN-gamma potentiates the IFN-alpha-induced protection, but IFN-gamma alone does not have any antiviral activity.
+# T3 Protein S7 18 27 1014 1023 IFN-gamma
+# T4 Protein S7 78 87 1074 1083 IFN-gamma
+
+ISG15 mRNA accumulation in U937 cells is not detectable before 6 h of IFN-alpha treatment, peaks at 24 h, and requires protein synthesis.
+# T5 Protein S8 0 5 1128 1133 ISG15
+$ T5 Protein S8 0 5 1128 1133 ISG15
+@ T12 Positive_regulation S8 11 23 1139 1151 accumulation
+@ T13 Positive_regulation S8 45 55 1173 1183 detectable
+@ T14 Positive_regulation S8 110 118 1238 1246 requires
+% E2 Positive_regulation:T12 Theme:T5
+% E3 Positive_regulation:T13 Theme:E2
+% E4 Positive_regulation:T14 Theme:E3
+
+Although IFN-gamma alone does not induce ISG expression, IFN-gamma pretreatment markedly increases and hastens ISG expression and transcriptional induction.
+# T6 Protein S9 9 18 1275 1284 IFN-gamma
+# T7 Protein S9 57 66 1323 1332 IFN-gamma
+
+Nuclear extracts assayed for the presence of ISRE binding factors by electrophoretic mobility shift assays show that ISGF3 is induced by IFN-alpha within 6 h from undetectable basal levels in untreated U937 cells.
+
+Activation of ISGF3 alpha, the latent component of ISGF3, occurs rapidly.
+
+However, the increase in ISGF3 activity ultimately correlates with the accumulation of ISGF3 gamma induced by IFN-alpha or IFN-gamma.
+# T8 Protein S12 87 98 1798 1809 ISGF3 gamma
+# T9 Protein S12 123 132 1834 1843 IFN-gamma
+$ T8 Protein S12 87 98 1798 1809 ISGF3 gamma
+$ T9 Protein S12 123 132 1834 1843 IFN-gamma
+@ T15 Positive_regulation S12 71 83 1782 1794 accumulation
+% E5 Positive_regulation:T15 Theme:T8
+% E6 Positive_regulation:T15 Theme:T8 Cause:T9
+
+(ABSTRACT TRUNCATED AT 250 WORDS)
+

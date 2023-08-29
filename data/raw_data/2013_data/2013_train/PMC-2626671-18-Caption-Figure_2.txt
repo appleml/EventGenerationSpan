@@ -1,0 +1,92 @@
+Regulation of perforin, granzyme B, and IFN-gamma expression by T-bet and Eomes in differentiating CTLs.
+# T1 Protein S1 14 22 14 22 perforin
+# T2 Protein S1 24 34 24 34 granzyme B
+# T3 Protein S1 40 49 40 49 IFN-gamma
+# T4 Protein S1 64 69 64 69 T-bet
+# T5 Protein S1 74 79 74 79 Eomes
+$ T4 Protein S1 64 69 64 69 T-bet
+$ T5 Protein S1 74 79 74 79 Eomes
+$ T1 Protein S1 14 22 14 22 perforin
+$ T2 Protein S1 24 34 24 34 granzyme B
+$ T3 Protein S1 40 49 40 49 IFN-gamma
+@ T29 Regulation S1 0 10 0 10 Regulation
+@ T30 Gene_expression S1 50 60 50 60 expression
+% E1 Regulation:T29 Theme:E2 Cause:T4
+% E3 Regulation:T29 Theme:E2 Cause:T5
+% E4 Regulation:T29 Theme:E5 Cause:T4
+% E6 Regulation:T29 Theme:E5 Cause:T5
+% E7 Regulation:T29 Theme:E8 Cause:T4
+% E9 Regulation:T29 Theme:E8 Cause:T5
+% E2 Gene_expression:T30 Theme:T1
+% E5 Gene_expression:T30 Theme:T2
+% E8 Gene_expression:T30 Theme:T3
+
+(A) IFN-gamma expression by WT (Tbx21+/+) and T-bet-deficient (Tbx21-/-) T cells.
+# T6 Protein S2 4 13 109 118 IFN-gamma
+# T7 Protein S2 32 37 137 142 Tbx21
+# T8 Protein S2 46 51 151 156 T-bet
+# T9 Protein S2 63 68 168 173 Tbx21
+$ T6 Protein S2 4 13 109 118 IFN-gamma
+$ T8 Protein S2 46 51 151 156 T-bet
+@ T31 Gene_expression S2 14 24 119 129 expression
+@ T32 Negative_regulation S2 52 61 157 166 deficient
+% E10 Gene_expression:T31 Theme:T6
+% E11 Negative_regulation:T32 Theme:T8
+
+Naive CD8+ T cells, or cells activated and cultured for 4 or 6 d, were restimulated with PMA and ionomycin for 6 h, and IFN-gamma expression was assessed by intracellular staining.
+# T10 Protein S3 6 9 193 196 CD8
+# T11 Protein S3 120 129 307 316 IFN-gamma
+$ T11 Protein S3 120 129 307 316 IFN-gamma
+@ T33 Gene_expression S3 130 140 317 327 expression
+% E12 Gene_expression:T33 Theme:T11
+
+Numbers show the percentage of IFN-gamma+ cells.
+# T12 Protein S4 31 40 399 408 IFN-gamma
+
+(B) Northern blot analysis of Prf1 and GzmB mRNA expression in WT or T-bet-deficient CD8+ T cells activated and either left uninfected (uninf) or transduced with retroviruses expressing Eomes-VP16 (Eo-VP16) or an empty IRES-GFP cassette (GFP).
+# T13 Protein S5 30 34 447 451 Prf1
+# T14 Protein S5 39 43 456 460 GzmB
+# T15 Protein S5 69 74 486 491 T-bet
+# T16 Protein S5 85 88 502 505 CD8
+# T17 Protein S5 186 196 603 613 Eomes-VP16
+# T18 Protein S5 198 205 615 622 Eo-VP16
+# T19 Protein S5 224 227 641 644 GFP
+$ T13 Protein S5 30 34 447 451 Prf1
+$ T14 Protein S5 39 43 456 460 GzmB
+$ T15 Protein S5 69 74 486 491 T-bet
+$ T17 Protein S5 186 196 603 613 Eomes-VP16
+@ T34 Transcription S5 44 59 461 476 mRNA expression
+@ T35 Negative_regulation S5 75 84 492 501 deficient
+@ T36 Gene_expression S5 175 185 592 602 expressing
+% E13 Transcription:T34 Theme:T13
+% E14 Transcription:T34 Theme:T14
+% E15 Negative_regulation:T35 Theme:T15
+% E16 Gene_expression:T36 Theme:T17
+
+Total cellular RNA was analyzed on day 6 of culture.
+
+The frequency of transduced cells in the cultures was equivalent for both constructs (~65-70% GFP+ cells; not depicted).
+
+(C) Granzyme B and IFN-gamma expression by Tbx21+/+ and Tbx21-/- T cells analyzed in restimulated cells that had been cultured for 5 d. (D) IFN-gamma production by cells transduced with Eo-VP16 or control (GFP) retroviruses (RV) measured on day 4 after 6 h of restimulation with PMA and ionomycin.
+# T20 Protein S8 4 14 839 849 Granzyme B
+# T21 Protein S8 19 28 854 863 IFN-gamma
+# T22 Protein S8 43 48 878 883 Tbx21
+# T23 Protein S8 56 61 891 896 Tbx21
+# T24 Protein S8 140 149 975 984 IFN-gamma
+# T25 Protein S8 186 193 1021 1028 Eo-VP16
+# T26 Protein S8 206 209 1041 1044 GFP
+$ T20 Protein S8 4 14 839 849 Granzyme B
+$ T21 Protein S8 19 28 854 863 IFN-gamma
+$ T24 Protein S8 140 149 975 984 IFN-gamma
+@ T37 Gene_expression S8 29 39 864 874 expression
+@ T38 Gene_expression S8 150 160 985 995 production
+% E17 Gene_expression:T37 Theme:T20
+% E18 Gene_expression:T37 Theme:T21
+% E19 Gene_expression:T38 Theme:T24
+
+Numbers show the percentage of GFP+ IFN-gamma+ cells.
+# T27 Protein S9 31 34 1164 1167 GFP
+# T28 Protein S9 36 45 1169 1178 IFN-gamma
+
+Results are representative of three (A and C) or two (B and D) independent experiments.
+

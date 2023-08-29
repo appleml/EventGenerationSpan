@@ -1,0 +1,47 @@
+Resistance to IL-10 inhibition of interferon gamma production and expression of suppressor of cytokine signaling 1 in CD4+T cells from patients with rheumatoid arthritis
+# T1 Protein S1 14 19 14 19 IL-10
+# T2 Protein S1 34 50 34 50 interferon gamma
+# T3 Protein S1 80 114 80 114 suppressor of cytokine signaling 1
+# T4 Protein S1 118 121 118 121 CD4
+
+IL-10 has been shown to block the antigen-specific T-cell cytokine response by inhibiting the CD28 signaling pathway.
+# T5 Protein S2 0 5 170 175 IL-10
+# T6 Protein S2 94 98 264 268 CD28
+
+We found that peripheral blood CD4+ T cells from patients with active rheumatoid arthritis (RA) were able to produce greater amounts of interferon gamma after CD3 and CD28 costimulation in the presence of 1 ng/ml IL-10 than were normal control CD4+ T cells, although their surface expression of the type 1 IL-10 receptor was increased.
+# T7 Protein S3 31 34 319 322 CD4
+# T8 Protein S3 136 152 424 440 interferon gamma
+# T9 Protein S3 167 171 455 459 CD28
+# T10 Protein S3 213 218 501 506 IL-10
+# T11 Protein S3 244 247 532 535 CD4
+# T12 Protein S3 299 320 587 608 type 1 IL-10 receptor
+
+The phosphorylation of signal transducer and activator of transcription 3 was sustained in both blood and synovial tissue CD4+ T cells of RA, but it was not augmented by the presence of 1 ng/ml IL-10.
+# T13 Protein S4 23 73 647 697 signal transducer and activator of transcription 3
+# T14 Protein S4 122 125 746 749 CD4
+# T15 Protein S4 194 199 818 823 IL-10
+
+Sera from RA patients induced signal transducer and activator of transcription 3 phosphorylation in normal CD4+ T cells, which was mostly abolished by neutralizing anti-IL-6 antibody.
+# T16 Protein S5 30 80 855 905 signal transducer and activator of transcription 3
+# T17 Protein S5 107 110 932 935 CD4
+# T18 Protein S5 169 173 994 998 IL-6
+
+Preincubation of normal CD4+ T cells with IL-6 reduced IL-10-mediated inhibition of interferon gamma production.
+# T19 Protein S6 24 27 1033 1036 CD4
+# T20 Protein S6 42 46 1051 1055 IL-6
+# T21 Protein S6 55 60 1064 1069 IL-10
+# T22 Protein S6 84 100 1093 1109 interferon gamma
+
+Blood CD4+ T cells from RA patients contained higher levels of suppressor of cytokine signaling 1 but lower levels of suppressor of cytokine signaling 3 mRNA compared with control CD4+ T cells, as determined by real-time PCR.
+# T23 Protein S7 6 9 1128 1131 CD4
+# T24 Protein S7 63 97 1185 1219 suppressor of cytokine signaling 1
+# T25 Protein S7 118 152 1240 1274 suppressor of cytokine signaling 3
+# T26 Protein S7 180 183 1302 1305 CD4
+
+These results indicate that RA CD4+ T cells become resistant to the immunosuppressive effect of IL-10 before migration into synovial tissue, and this impaired IL-10 signaling may be associated with sustained signal transducer and activator of transcription 3 activation and suppressor of cytokine signaling 1 induction.
+# T27 Protein S8 31 34 1379 1382 CD4
+# T28 Protein S8 96 101 1444 1449 IL-10
+# T29 Protein S8 159 164 1507 1512 IL-10
+# T30 Protein S8 208 258 1556 1606 signal transducer and activator of transcription 3
+# T31 Protein S8 274 308 1622 1656 suppressor of cytokine signaling 1
+

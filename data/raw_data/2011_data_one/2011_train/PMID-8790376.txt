@@ -1,0 +1,47 @@
+Activation of Stat 5b in erythroid progenitors correlates with the ability of ErbB to induce sustained cell proliferation.
+# T1 Protein S1 14 21 14 21 Stat 5b
+$ T1 Protein S1 14 21 14 21 Stat 5b
+@ T8 Positive_regulation S1 0 10 0 10 Activation
+% E1 Positive_regulation:T8 Theme:T1
+
+Self renewal of normal erythroid progenitors is induced by the receptor tyrosine kinase c-ErbB, whereas other receptors (c-Kit/Epo-R) regulate erythroid differentiation.
+# T2 Protein S2 121 126 245 250 c-Kit
+# T3 Protein S2 127 132 251 256 Epo-R
+
+To address possible mechanisms that could explain this selective activity of c-ErbB, we analyzed the ability of these receptors to activate the different members of the Stat transcription factor family.
+
+Ligand activation of c-ErbB induced the tyrosine phosphorylation, DNA-binding, and reporter gene transcription of Stat 5b in erythroblasts.
+# T4 Protein S4 114 121 611 618 Stat 5b
+$ T4 Protein S4 114 121 611 618 Stat 5b
+@ T9 Positive_regulation S4 28 35 525 532 induced
+@ T10 Entity S4 40 48 537 545 tyrosine
+@ T11 Phosphorylation S4 49 64 546 561 phosphorylation
+@ T12 Binding S4 70 77 567 574 binding
+% E2 Positive_regulation:T9 Theme:E5
+% E3 Positive_regulation:T9 Theme:E4
+% E4 Phosphorylation:T11 Theme:T4 Site:T10
+% E5 Binding:T12 Theme:T4
+
+In contrast, ligand activation of c-Kit was unable to induce any of these effects in the same cells.
+# T5 Protein S5 34 39 671 676 c-Kit
+$ T5 Protein S5 34 39 671 676 c-Kit
+@ T13 Positive_regulation S5 20 30 657 667 activation
+@ T14 Positive_regulation S5 54 60 691 697 induce
+% E6 Positive_regulation:T13 Theme:T5
+% E7 Positive_regulation:T14 Theme:E5 Cause:E6
+% E8 Positive_regulation:T14 Theme:E4 Cause:E6
+
+Activation of the erythropoietin receptor caused specific DNA-binding of Stat 5b, but failed to induce reporter gene transcription.
+# T6 Protein S6 18 41 756 779 erythropoietin receptor
+# T7 Protein S6 73 80 811 818 Stat 5b
+$ T6 Protein S6 18 41 756 779 erythropoietin receptor
+$ T7 Protein S6 73 80 811 818 Stat 5b
+@ T15 Positive_regulation S6 0 10 738 748 Activation
+@ T16 Positive_regulation S6 42 48 780 786 caused
+@ T17 Binding S6 62 69 800 807 binding
+% E9 Positive_regulation:T15 Theme:T6
+% E10 Positive_regulation:T16 Theme:E11 Cause:E9
+% E11 Binding:T17 Theme:T7
+
+These biochemical findings correlate perfectly with the selective ability of c-ErbB to cause sustained self renewal in erythroid progenitors.
+

@@ -1,0 +1,24 @@
+Biphasic control of NF-kappa B activation induced by the triggering of HLA-DR antigens expressed on B cells.
+
+The regulation of NF-kappa B activation following the triggering of HLA-DR antigens by mAb L243 has been studied at various times in Raji cells.
+
+Electrophoretic mobility shift assays demonstrated a strong increase of NF-kappa B DNA binding after triggering of HLA-DR antigens.
+
+Using TNF-alpha-activity neutralizing antibodies, the authors demonstrated that the upregulation of NF-kappa B was found to depend, at later time point, on an autocrine effect of TNF-alpha secreted following triggering of HLA-DR antigens.
+# T1 Protein S4 6 15 393 402 TNF-alpha
+# T2 Protein S4 179 188 566 575 TNF-alpha
+$ T2 Protein S4 179 188 566 575 TNF-alpha
+@ T6 Localization S4 189 197 576 584 secreted
+@ T7 Positive_regulation S4 198 207 585 594 following
+% E1 Localization:T6 Theme:T2
+% E2 Positive_regulation:T7 Theme:E1
+
+In contrast, it was found to be TNF-alpha independent in the early time point.
+# T3 Protein S5 32 41 658 667 TNF-alpha
+
+Moreover, the upregulation of NF-kappa B binding activity is regulated by the triggering of selected epitopes of HLA-DR antigens.
+
+In fact, mAb L243 but not the staphylococcal superantigens, staphylococcal exotoxin toxic shock syndrome toxin-I or staphylococcal enterotoxin B, regulate the NF-kappa B binding activity.
+# T4 Protein S7 84 112 919 947 toxic shock syndrome toxin-I
+# T5 Protein S7 116 144 951 979 staphylococcal enterotoxin B
+

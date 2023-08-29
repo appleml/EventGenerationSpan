@@ -1,0 +1,66 @@
+Specific disruption of NFAT5 or NF-kappaB binding sites in the LTR of HIV-1 subtype B.
+
+(A) Mutations introduced into a HIV-1Lai/Bal-env infectious molecular clone.
+# T1 Protein S2 45 48 132 135 env
+
+NF-kappaB and NFAT5 binding site mutations were introduced into the LTR of the HIV-1Lai/Bal-env-wild type (WT) infectious molecular clone.
+# T2 Protein S3 92 95 256 259 env
+
+The NF-kappaB binding site mutants (HIV-1Lai/Bal-env-kappaB I-Mut, HIV-1Lai/Bal-env-kappaB II-Mut, HIV-1Lai/Bal-env-kappaB I+II-Mut), and NFAT5 binding site mutant (HIV-1Lai/Bal-env-N5-Mut) are shown along with the HIV-1Lai/Bal-env-WT sequence.
+# T3 Protein S4 49 52 352 355 env
+# T4 Protein S4 80 83 383 386 env
+# T5 Protein S4 112 115 415 418 env
+# T6 Protein S4 178 181 481 484 env
+# T7 Protein S4 228 231 531 534 env
+
+Mutations were introduced into the 3' LTR of the HIV-1Lai/Bal-env-WT proviral sequence.
+# T8 Protein S5 62 65 610 613 env
+
+(B) Specific mutation of the NFAT5 binding site abolishes NFAT5 binding to the viral LTR but does not affect NF-kappaB p50/p65 binding to the overlapping NF-kappaB binding site.
+# T9 Protein S6 58 63 694 699 NFAT5
+# T10 Protein S6 119 122 755 758 p50
+# T11 Protein S6 123 126 759 762 p65
+
+Quantitative DNaseI footprinting analysis is shown using HIV-1 LTR fragments (-262 to +4 nt relative to the transcription start site) from HIV-1Lai/Bal-env-WT and HIV-1Lai/Bal-env-N5-Mut and increasing concentrations of recombinant NF-kappaB (p50/p65) (25 ng, 100 ng, and 500 ng), or NFAT5 (10 ng, 50 ng, and 250 ng).
+# T12 Protein S7 13 19 827 833 DNaseI
+# T13 Protein S7 152 155 966 969 env
+# T14 Protein S7 176 179 990 993 env
+# T15 Protein S7 243 246 1057 1060 p50
+# T16 Protein S7 247 250 1061 1064 p65
+# T17 Protein S7 284 289 1098 1103 NFAT5
+
+The regions that are protected from DNase I cleavage by the binding of NF-kappaB and NFAT5 are indicated with a bars.
+# T18 Protein S8 36 43 1168 1175 DNase I
+# T19 Protein S8 85 90 1217 1222 NFAT5
+
+(C) Specific disruption of the HIV-1 subtype B NF-kappaB binding sites effectively abrogates recombinant p50/p65 binding.
+# T20 Protein S9 105 108 1355 1358 p50
+# T21 Protein S9 109 112 1359 1362 p65
+
+Quantitative DNaseI footprinting analysis is shown of nucleotides -262 to +4 from HIV-1Lai/Bal-env-WT, HIV-1Lai/Bal-env-kappaB I-Mut, HIV-1Lai/Bal-env-kappaB II-Mut, and HIV-1Lai/Bal-env-kappaB I+II-Mut and increasing concentrations of recombinant NF-kappaB (p50/p65) (25 ng, 100 ng, and 500 ng).
+# T22 Protein S10 13 19 1385 1391 DNaseI
+# T23 Protein S10 95 98 1467 1470 env
+# T24 Protein S10 116 119 1488 1491 env
+# T25 Protein S10 147 150 1519 1522 env
+# T26 Protein S10 183 186 1555 1558 env
+# T27 Protein S10 259 262 1631 1634 p50
+# T28 Protein S10 263 266 1635 1638 p65
+
+The regions that are protected from DNase I cleavage by the binding of recombinant NF-kappaB are indicated with a bars.
+# T29 Protein S11 36 43 1705 1712 DNase I
+
+(D) Specific disruption of the HIV-1 subtype B NF-kappaB binding site does not inhibit but enhances NFAT5 binding to this region.
+# T30 Protein S12 100 105 1889 1894 NFAT5
+
+Quantitative DNaseI footprinting analysis is shown of nucleotides -262 to +4 from HIV-1Lai/Bal-env-WT, HIV-1Lai/Bal-env-kappaB I-Mut, HIV-1Lai/Bal-env-kappaB II-Mut, and HIV-1Lai/Bal-env-kappaB I+II-Mut and increasing concentrations of recombinant NFAT5 (10 ng, 50 ng, and 250 ng).
+# T31 Protein S13 13 19 1932 1938 DNaseI
+# T32 Protein S13 95 98 2014 2017 env
+# T33 Protein S13 116 119 2035 2038 env
+# T34 Protein S13 147 150 2066 2069 env
+# T35 Protein S13 183 186 2102 2105 env
+# T36 Protein S13 248 253 2167 2172 NFAT5
+
+The regions that are protected from DNase I cleavage by the binding of recombinant NFAT5 are indicated with a bars.
+# T37 Protein S14 36 43 2237 2244 DNase I
+# T38 Protein S14 83 88 2284 2289 NFAT5
+

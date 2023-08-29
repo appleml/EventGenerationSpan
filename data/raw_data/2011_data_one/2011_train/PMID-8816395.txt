@@ -1,0 +1,63 @@
+Requirements for induction of vitamin D-mediated gene regulation in normal human B lymphocytes.
+
+Mature human lymphocytes are unique targets of 1 alpha,25-dihydroxyvitamin D3 (1 alpha,25(OH)2D3) in that vitamin D receptors (VDR) are not constitutively expressed, and specific cellular activation signals are required for both the up-regulation of VDR and establishment of reactivity to the lipophilic ligand.
+# T1 Protein S2 106 125 203 222 vitamin D receptors
+# T2 Protein S2 127 130 224 227 VDR
+# T3 Protein S2 250 253 347 350 VDR
+$ T2 Protein S2 127 130 224 227 VDR
+$ T3 Protein S2 250 253 347 350 VDR
+@ T11 Gene_expression S2 155 164 252 261 expressed
+@ T12 Positive_regulation S2 211 219 308 316 required
+@ T13 Positive_regulation S2 233 246 330 343 up-regulation
+@ T14 Binding S2 275 285 372 382 reactivity
+% E1 Gene_expression:T11 Theme:T2
+% E2 Positive_regulation:T12 Theme:E5
+% E3 Positive_regulation:T12 Theme:E4
+% E4 Positive_regulation:T13 Theme:T3
+% E5 Binding:T14 Theme:T3
+
+Treatment of B lymphocytes with the cytokine IL-4 (IL-4), in the absence of prior activation, induces a weak up-regulation of VDR expression but fails to generate vitamin D-responsive element (VDRE)-reactive nuclear protein complexes or to initiate the genomic transcription of 25-hydroxyvitamin D3 24-hydroxylase.
+# T4 Protein S3 45 49 454 458 IL-4
+# T5 Protein S3 51 55 460 464 IL-4
+# T6 Protein S3 126 129 535 538 VDR
+# T7 Protein S3 278 313 687 722 25-hydroxyvitamin D3 24-hydroxylase
+$ T6 Protein S3 126 129 535 538 VDR
+$ T7 Protein S3 278 313 687 722 25-hydroxyvitamin D3 24-hydroxylase
+@ T15 Positive_regulation S3 94 101 503 510 induces
+@ T16 Positive_regulation S3 109 122 518 531 up-regulation
+@ T17 Gene_expression S3 130 140 539 549 expression
+@ T18 Positive_regulation S3 240 248 649 657 initiate
+@ T19 Transcription S3 261 274 670 683 transcription
+% E6 Positive_regulation:T15 Theme:E7
+% E7 Positive_regulation:T16 Theme:E8
+% E8 Gene_expression:T17 Theme:T6
+% E9 Positive_regulation:T18 Theme:E10
+% E10 Transcription:T19 Theme:T7
+
+Stimulation of B lymphocytes by either ligation of CD40 Ag or cross-linking the Ig receptor is also insufficient to render B lymphocytes responsive to 1 alpha,25(OH)2D3.
+# T8 Protein S4 51 58 775 782 CD40 Ag
+$ T8 Protein S4 51 58 775 782 CD40 Ag
+@ T20 Binding S4 39 47 763 771 ligation
+% E11 Binding:T20 Theme:T8
+
+However, this apparent lack of response to the secosterol can be overcome by stimulation of B lymphocytes with a combination of these cellular activation signals, which are sufficient to lead to G1 cell cycle progression.
+
+In the presence of 1 alpha,25(OH)2D3, cellular activation associated with stimulation of such a progression appears to be sufficient for the up-regulation of VDR message and protein and necessary for the establishment of VDRE binding complexes and the induction of 24-hydroxylase message.
+# T9 Protein S6 158 161 1274 1277 VDR
+# T10 Protein S6 265 279 1381 1395 24-hydroxylase
+$ T9 Protein S6 158 161 1274 1277 VDR
+$ T10 Protein S6 265 279 1381 1395 24-hydroxylase
+@ T21 Positive_regulation S6 0 18 1116 1134 In the presence of
+@ T22 Positive_regulation S6 122 154 1238 1270 sufficient for the up-regulation
+@ T23 Positive_regulation S6 186 195 1302 1311 necessary
+@ T24 Positive_regulation S6 252 261 1368 1377 induction
+% E12 Positive_regulation:T21 Theme:E15
+% E13 Positive_regulation:T21 Theme:E14
+% E14 Positive_regulation:T22 Theme:T9
+% E15 Positive_regulation:T23 Theme:E16
+% E16 Positive_regulation:T24 Theme:T10
+
+Furthermore, biologic functions are modulated, in that the hormone inhibits proliferation in a subset of the activated B cells.
+
+These observations suggest that reactivity to 1 alpha,25(OH)2D3 is tightly regulated in B lymphocytes, requiring specific signals for its initiation.
+

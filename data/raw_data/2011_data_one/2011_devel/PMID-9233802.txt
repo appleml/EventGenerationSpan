@@ -1,0 +1,43 @@
+c-Myb and Ets proteins synergize to overcome transcriptional repression by ZEB.
+# T1 Protein S1 0 5 0 5 c-Myb
+# T2 Protein S1 75 78 75 78 ZEB
+
+The Zfh family of zinc finger/homeodomain proteins was first identified in Drosophila where it is required for differentiation of tissues such as the central nervous system and muscle.
+
+ZEB, a vertebrate homolog of Zfh-1, binds a subset of E boxes and blocks myogenesis through transcriptional repression of muscle genes.
+# T3 Protein S3 0 3 266 269 ZEB
+$ T3 Protein S3 0 3 266 269 ZEB
+@ T12 Binding S3 36 41 302 307 binds
+% E1 Binding:T12 Theme:T3
+
+We present evidence here that ZEB also has an important role in controlling hematopoietic gene transcription.
+# T4 Protein S4 30 33 432 435 ZEB
+
+Two families of transcription factors that are required for normal hematopoiesis are c-Myb and Ets.
+# T5 Protein S5 85 90 597 602 c-Myb
+
+These factors act synergistically to activate transcription, and this synergy is required for transcription of at least several important hematopoietic genes.
+
+ZEB blocks the activity of c-Myb and Ets individually, but together the factors synergize to resist this repression.
+# T6 Protein S7 0 3 771 774 ZEB
+# T7 Protein S7 27 32 798 803 c-Myb
+$ T7 Protein S7 27 32 798 803 c-Myb
+$ T6 Protein S7 0 3 771 774 ZEB
+@ T13 Negative_regulation S7 4 10 775 781 blocks
+@ T14 Negative_regulation S7 80 99 851 870 synergize to resist
+% E2 Negative_regulation:T13 Theme:T7 Cause:T6
+% E3 Negative_regulation:T14 Theme:E2 Cause:T7
+
+Such repression imposes a requirement for both c-Myb and Ets for transcriptional activity, providing one explanation for why synergy between these factors is important.
+# T8 Protein S8 47 52 935 940 c-Myb
+
+The balance between repression by ZEB and transcriptional activation by c-Myb/Ets provides a flexible regulatory mechanism for controlling gene expression in hematopoietic cells.
+# T9 Protein S9 34 37 1091 1094 ZEB
+# T10 Protein S9 72 77 1129 1134 c-Myb
+
+We demonstrate that one target of this positive/negative regulation in vivo is the alpha4 integrin, which play a key role in normal hematopoiesis and function of mature leukocytes.
+# T11 Protein S10 83 98 1319 1334 alpha4 integrin
+$ T11 Protein S10 83 98 1319 1334 alpha4 integrin
+@ T15 Regulation S10 39 67 1275 1303 positive/negative regulation
+% E4 Regulation:T15 Theme:T11
+

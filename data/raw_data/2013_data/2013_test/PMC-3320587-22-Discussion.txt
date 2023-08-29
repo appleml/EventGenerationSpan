@@ -1,0 +1,117 @@
+The transcription factor NFAT5 is the most evolutionarily divergent member of the Rel family of NFAT proteins [57].
+# T1 Protein S1 25 30 25 30 NFAT5
+
+Unlike the other NFAT proteins (NFATp, NFATc, NFAT3, and NFAT4), NFAT5 binds DNA as an obligate dimer in a fashion resembling NF-kappaB proteins [58], is calcineurin independent, and does not cooperate with the basic region-leucine zipper proteins Fos and Jun in gene activation ([59], [60], reviewed in [61]-[63]).
+# T2 Protein S2 32 37 148 153 NFATp
+# T3 Protein S2 39 44 155 160 NFATc
+# T4 Protein S2 46 51 162 167 NFAT3
+# T5 Protein S2 57 62 173 178 NFAT4
+# T6 Protein S2 65 70 181 186 NFAT5
+# T7 Protein S2 154 165 270 281 calcineurin
+# T8 Protein S2 248 251 364 367 Fos
+# T9 Protein S2 256 259 372 375 Jun
+
+To date, osmotic stress, integrin activation, and T cell-stimulation have been shown to regulate NFAT5 activity [59], [64], [65].
+# T10 Protein S3 97 102 529 534 NFAT5
+
+Based on our demonstration here that the host innate immune response to MTb infection induces MyD88-dependent upregulation of NFAT5 gene expression, we have expanded this list to include MTb as an additional stimulus.
+# T11 Protein S4 94 99 656 661 MyD88
+# T12 Protein S4 126 131 688 693 NFAT5
+
+We have linked this observation to MTb-stimulated HIV-1 gene expression by showing that MTb enhances the replication of HIV-1 subtypes B and C via a direct interaction between NFAT5 and the viral promoter.
+# T13 Protein S5 176 181 956 961 NFAT5
+
+Thus, HIV-1 has co-opted NFAT5, which is induced as part of the innate immune response to TB, for enhanced viral transcription/replication.
+# T14 Protein S6 25 30 1011 1016 NFAT5
+
+NF-kappaB is activated after MTb engagement of PRRs [20], [66].
+
+Multiple studies of HIV-1 activation have shown that initial recruitment of the NF-kappaB p50/p65 heterodimer to the HIV-1 proviral enhancer region is crucial for HIV gene transcription (reviewed in [67], [68]).
+# T15 Protein S8 90 93 1280 1283 p50
+# T16 Protein S8 94 97 1284 1287 p65
+
+Upon interaction with the viral LTR, NF-kappaB rapidly induces hyperacetylation of histones associated with nucleosome 1 (nuc-1) at the HIV-1 transcription start site, resulting in recruitment of the pTEFb complex, which is required for RNA pol II processivity ([69], reviewed in [68], [70]).
+
+In this report we directly examined the relative roles of NFAT5 and NF-kappaB p50/p65 in HIV-1 replication under conditions of activation by MTb co-infection, when NF-kappaB levels in the nucleus are elevated.
+# T17 Protein S10 58 63 1753 1758 NFAT5
+# T18 Protein S10 78 81 1773 1776 p50
+# T19 Protein S10 82 85 1777 1780 p65
+
+We found that specific disruption of the NFAT5 binding site(s) in R5-tropic subtype B or subtype C infectious molecular clones significantly reduced virus replication in PBMC or MDM co-infected with a clinical isolate of MTb.
+
+Thus, NF-kappaB binding to the viral LTR is not sufficient to compensate for the loss of NFAT5 binding to the LTR under conditions of MTb co-infection.
+# T20 Protein S12 89 94 2220 2225 NFAT5
+
+Reciprocally, an intact NFAT5 site could not compensate for disruption of the two NF-kappaB sites.
+
+Thus, both factors are required for MTb-induced HIV-1 replication.
+
+Intriguingly, both in the absence and presence of MTb co-infection, disruption of NF-kappaB site II consistently resulted in greater suppression of virus replication than disruption of NF-kappaB site I. Consistent with these findings, synthetic reporter assays have previously shown that these two sites have distinct roles in driving transcription.
+
+The downstream NF-kappaB site I binding site, which is directly upstream of three highly conserved Sp binding sites, appears to enhance Sp protein recruitment to the LTR [71]-[73].
+
+Because NF-kappaB site I overlaps the NFAT5 binding site, it is possible that loss of NF-kappaB binding to this site is mitigated, at least in part, by increased NFAT5 binding to the mutated site.
+# T34 Protein S17 162 167 3142 3147 NFAT5
+
+This hypothesis is consistent with our quantitative DNase I footprinting analysis that shows that specific disruption of NF-kappaB site I results in enhanced binding of NFAT5 to the LTR.
+# T35 Protein S18 52 59 3229 3236 DNase I
+# T36 Protein S18 169 174 3346 3351 NFAT5
+
+HIV-1 subtype C now makes up greater than 50% of all HIV-1 infections worldwide, and its prevalence is especially high in regions of endemic TB [1], [2], [28], [52], Most HIV-1 subtype C isolates possess three NF-kappaB binding sites in the LTR [30].
+
+Our analysis of MTb whole lysate-stimulated, LTR-driven reporter gene expression from representative B, C, and E LTRs showed that LTRs derived from subtype C isolates were superior in driving reporter gene expression as compared to LTRs derived from subtype B or E isolates.
+
+Other studies have found that, in response to TNF, subtype C LTRs drive reporter gene transcription more strongly than other subtype LTRs [38], [39].
+# T37 Protein S21 46 49 3936 3939 TNF
+
+In the co-infection model utilized in this report, in which clinical isolates of both MTb and HIV-1 subtype C were used to infect freshly prepared human peripheral blood cells, we found that specific disruption of NFAT5 binding to the LTR significantly impaired viral replication during MTb co-infection, indicating that even the presence of three intact NF-kappaB binding sites, which is typical for HIV-1 subtype C isolates [30], cannot compensate for loss of NFAT5 recruitment to the viral LTR in the context of MTb co-infection.
+# T38 Protein S22 214 219 4254 4259 NFAT5
+# T39 Protein S22 462 467 4502 4507 NFAT5
+
+Given that the NF-kappaB and NFAT5 binding motifs overlap, how do NF-kappaB and NFAT5 function at this overlapping or shared site in the LTR to drive viral transcription in response to MTb infection?
+# T40 Protein S23 80 85 4653 4658 NFAT5
+
+Because NFAT5 expression continues to rise for at least 48 hours post-MTb infection (Figure 2A), one possibility is that the host factors NF-kappaB and NFAT5 associate with the LTR at different stages after viral activation.
+# T41 Protein S24 8 13 4781 4786 NFAT5
+# T42 Protein S24 152 157 4925 4930 NFAT5
+
+While NF-kappaB presence in the nucleus declines in the hours post MTb infection [74], [75], NFAT5 levels escalate.
+# T43 Protein S25 93 98 5091 5096 NFAT5
+
+Thus, NFAT5, which is pivotal for HIV-1 transcription in unstimulated cells [31], may, after Mtb infection, perpetuate viral transcriptional initiation begun by NF-kappaB and, with Tat levels also elevated, promote high levels of sustained HIV-1 transcription.
+# T44 Protein S26 6 11 5120 5125 NFAT5
+# T45 Protein S26 181 184 5295 5298 Tat
+
+Indeed, in response to hypertonic stress, NFAT5 binds to the aldose reductase (AR) promoter and induces rapid hyperacetylation of histones H3 and H4 [76].
+# T46 Protein S27 42 47 5417 5422 NFAT5
+# T47 Protein S27 61 77 5436 5452 aldose reductase
+# T48 Protein S27 79 81 5454 5456 AR
+
+Furthermore, hypertonic stress of mouse renal collecting duct epithelial cells results in NFAT5 and NF-kappaB complex formation at NF-kappaB-dependent gene promoters [77].
+# T49 Protein S28 90 95 5620 5625 NFAT5
+
+Thus, there are precedents for imagining that NFAT5 could function at the HIV-1 LTR by inducing histone remodeling in a manner similar to NF-kappaB ([69], reviewed in [68], [70]) or by directly interacting with NF-kappaB in a cooperative manner.
+# T50 Protein S29 46 51 5748 5753 NFAT5
+
+In conclusion, we have demonstrated that NFAT5 is required for the replication of R5-tropic subtype B and subtype C HIV-1 isolates in response to MTb-co-infection of human PBMC and MDM.
+# T51 Protein S30 41 46 5989 5994 NFAT5
+
+Functional NF-kappaB interaction with the viral LTR is also required, but fully intact NF-kappaB binding elements are unable to compensate for the loss of NFAT5 recruitment to the viral promoter.
+# T52 Protein S31 11 20 6145 6154 NF-kappaB
+# T53 Protein S31 155 160 6289 6294 NFAT5
+
+In addition, we have demonstrated that MTb infection or stimulation with the TLR2 ligand PAM3Cys, induces NFAT5 gene expression in human monocytes.
+# T54 Protein S32 77 81 6407 6411 TLR2
+# T55 Protein S32 106 111 6436 6441 NFAT5
+
+Furthermore, we have shown that MTb stimulation of NFAT5 depends on TLR pathway signaling molecules, including MyD88, IRAK1, and TRAF6.
+# T56 Protein S33 51 56 6529 6534 NFAT5
+# T57 Protein S33 111 116 6589 6594 MyD88
+# T58 Protein S33 118 123 6596 6601 IRAK1
+# T59 Protein S33 129 134 6607 6612 TRAF6
+
+Taken together, the findings presented here enhance the general understanding of the innate immune response to MTb infection by showing that NFAT5 is a major mediator of TLR-dependent gene expression; its importance for gene regulation is likely applicable to other MTb- and TLR-regulated genes.
+# T60 Protein S34 141 146 6755 6760 NFAT5
+
+Moreover, these data provide molecular insights into MTb regulation of HIV-1 transcription, thereby elucidating several new targets for therapeutic interventions aimed at controlling TB/HIV-1 co-infection.
+

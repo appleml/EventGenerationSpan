@@ -1,0 +1,85 @@
+Differential autoregulation of glucocorticoid receptor expression in human T- and B-cell lines.
+# T1 Protein S1 31 54 31 54 glucocorticoid receptor
+$ T1 Protein S1 31 54 31 54 glucocorticoid receptor
+@ T13 Regulation S1 13 27 13 27 autoregulation
+@ T14 Gene_expression S1 55 65 55 65 expression
+% E1 Regulation:T13 Theme:E2
+% E2 Gene_expression:T14 Theme:T1
+
+Regulation of glucocorticoid receptor (GR) expression by its cognate ligand was examined in the glucocorticoid-sensitive human leukemic T-cell line 6TG1.1 and in the human B-cell line IM-9.
+# T2 Protein S2 14 37 111 134 glucocorticoid receptor
+# T3 Protein S2 39 41 136 138 GR
+$ T3 Protein S2 39 41 136 138 GR
+@ T15 Regulation S2 0 10 97 107 Regulation
+@ T16 Gene_expression S2 43 53 140 150 expression
+% E3 Regulation:T15 Theme:E4
+% E4 Gene_expression:T16 Theme:T3
+
+In contrast to the decrease in GR mRNA seen in IM-9 cells after treatment with 1 microM dexamethasone for 16-18 h, treatment of 6TG1.1 cells resulted in an 8-fold increase in GR mRNA, as determined by Northern blot and RNase protection analysis, with a corresponding 3- to 4-fold increase in GR protein.
+# T4 Protein S3 31 33 318 320 GR
+# T5 Protein S3 175 177 462 464 GR
+# T6 Protein S3 292 294 579 581 GR
+$ T4 Protein S3 31 33 318 320 GR
+$ T5 Protein S3 175 177 462 464 GR
+$ T6 Protein S3 292 294 579 581 GR
+@ T17 Negative_regulation S3 19 27 306 314 decrease
+@ T18 Positive_regulation S3 163 171 450 458 increase
+@ T19 Positive_regulation S3 280 288 567 575 increase
+% E5 Negative_regulation:T17 Theme:T4
+% E6 Positive_regulation:T18 Theme:T5
+% E7 Positive_regulation:T19 Theme:T6
+
+Half-maximal induction of GR mRNA and protein in 6TG1.1 cells was observed between 10-100 nM dexamethasone, and inclusion of 1 microM RU 38486 completely blocked the effects of 100 nM dexamethasone, demonstrating that positive autoregulation of GR expression in 6TG1.1 cells is a receptor-mediated response.
+# T7 Protein S4 26 28 617 619 GR
+# T8 Protein S4 245 247 836 838 GR
+$ T7 Protein S4 26 28 617 619 GR
+$ T8 Protein S4 245 247 836 838 GR
+@ T20 Transcription S4 13 22 604 613 induction
+@ T21 Negative_regulation S4 154 161 745 752 blocked
+@ T22 Positive_regulation S4 218 241 809 832 positive autoregulation
+@ T23 Gene_expression S4 248 258 839 849 expression
+% E8 Transcription:T20 Theme:T7
+% E9 Negative_regulation:T21 Theme:E8
+% E10 Positive_regulation:T22 Theme:E11 Cause:T8
+% E11 Gene_expression:T23 Theme:T8
+
+Positive autoregulation of GR expression was also observed in glucocorticoid-resistant CEM-C1 cells, which contain functional GR, but whose growth is unaffected by glucocorticoids.
+# T9 Protein S5 27 29 926 928 GR
+# T10 Protein S5 126 128 1025 1027 GR
+$ T9 Protein S5 27 29 926 928 GR
+@ T24 Regulation S5 0 23 899 922 Positive autoregulation
+@ T25 Gene_expression S5 30 40 929 939 expression
+% E12 Regulation:T24 Theme:E13
+% E13 Gene_expression:T25 Theme:T9
+
+Thus, positive autoregulation is neither a consequence nor the sole cause of growth arrest.
+@ T26 Positive_regulation S6 43 54 1123 1134 consequence
+% E14 Positive_regulation:T26 Theme:E12
+
+The degree of negative autoregulation in IM-9 cells and positive autoregulation in 6TG1.1 cells was unaffected by inhibition of protein synthesis with cycloheximide.
+@ T27 Negative_regulation S7 14 37 1186 1209 negative autoregulation
+@ T28 Positive_regulation S7 56 79 1228 1251 positive autoregulation
+@ T29 Regulation S7 100 110 1272 1282 unaffected
+% E15 Negative_regulation:T27 Theme:E13
+% E16 Positive_regulation:T28 Theme:E13
+% E17 Regulation:T29 Theme:E15
+% E18 Regulation:T29 Theme:E16
+
+Measurement of GR mRNA turnover in 6TG1.1 cells treated with actinomycin-D revealed a half-life of 2.5 h, which was unaffected by dexamethasone treatment.
+# T11 Protein S8 15 17 1353 1355 GR
+$ T11 Protein S8 15 17 1353 1355 GR
+@ T30 Regulation S8 116 126 1454 1464 unaffected
+% E19 Regulation:T30 Theme:T11
+
+A similar half-life was determined in IM-9 cells and was also unaffected by steroid treatment.
+@ T31 Regulation S9 62 72 1555 1565 unaffected
+% E20 Regulation:T31 Theme:T11
+
+These results are consistent with the interpretation that glucocorticoid-mediated autoregulation of GR expression is a tissue-specific primary transcriptional response.
+# T12 Protein S10 100 102 1688 1690 GR
+$ T12 Protein S10 100 102 1688 1690 GR
+@ T32 Regulation S10 82 96 1670 1684 autoregulation
+@ T33 Transcription S10 143 158 1731 1746 transcriptional
+% E21 Regulation:T32 Theme:E22
+% E22 Transcription:T33 Theme:T12
+

@@ -1,0 +1,23 @@
+Disruption of a GATA motif in the Duffy gene promoter abolishes erythroid gene expression in Duffy-negative individuals.
+# T1 Protein S1 34 39 34 39 Duffy
+# T2 Protein S1 93 98 93 98 Duffy
+
+The mRNA for the Duffy blood group antigen, the erythrocyte receptor for the Plasmodium vivax malaria parasite, has recently been cloned and shown to encode a widely expressed chemokine receptor.
+# T3 Protein S2 17 22 139 144 Duffy
+
+Here, we show that the Duffy antigen/chemokine receptor gene (DARC) is composed of a single exon and that most Duffy-negative blacks carry a silent FY*B allele with a single T to C substitution at nucleotide -46.
+# T4 Protein S3 23 55 341 373 Duffy antigen/chemokine receptor
+# T5 Protein S3 62 66 380 384 DARC
+# T6 Protein S3 111 116 429 434 Duffy
+# T7 Protein S3 148 152 466 470 FY*B
+
+This mutation impairs the promoter activity in erythroid cells by disrupting a binding site for the GATA1 erythroid transcription factor.
+# T8 Protein S4 100 105 631 636 GATA1
+
+With the recent characterization of the FY*A and FY*B alleles, these findings provide the molecular basis of the Duffy blood group system and an explanation for the erythroid-specific repression of the DARC gene in Duffy-negative individuals.
+# T9 Protein S5 40 44 709 713 FY*A
+# T10 Protein S5 49 53 718 722 FY*B
+# T11 Protein S5 113 118 782 787 Duffy
+# T12 Protein S5 202 206 871 875 DARC
+# T13 Protein S5 215 220 884 889 Duffy
+

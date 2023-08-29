@@ -1,0 +1,32 @@
+A20 negatively regulates IAV-induced gene expression in BMDM
+
+To investigate the role of A20 in the IAV-induced proinflammatory and antiviral innate immune responses, we infected A20 deficient and control BMDM with IAV X-47 (H3N2).
+
+A20 mRNA levels were rapidly induced in wild type BMDM, but not in A20 deficient BMDM, upon viral infection (figure 2A).
+
+Furthermore, A20myel-KO BMDM show enhanced expression of IL-6 and IFNbeta mRNA after IAV infection compared to control cells (figure 2A).
+# T1 Protein S4 57 61 409 413 IL-6
+# T2 Protein S4 66 73 418 425 IFNbeta
+
+In accordance with these data, cell culture supernatant collected from these cells contained higher levels of TNF and IFNbeta (figure 2B).
+# T3 Protein S5 110 113 600 603 TNF
+# T4 Protein S5 118 125 608 615 IFNbeta
+
+Upon host infection with IAV, alveolar macrophages are an important source of cytokines and chemokines, attracting innate immune cells to the lung during the primary phase of infection.
+
+To test whether A20 directly controls IAV-induced gene expression in alveolar macrophages, we isolated these cells from lungs of A20myel-KO and control littermates and infected them in vitro with IAV X-47.
+
+Expression and secretion of the proinflammatory cytokines IL-6 and TNF, the type-I IFN IFNbeta and IFNalpha4 and the chemokines MCP-1 (ccl2) and KC (cxcl1) was significantly higher in IAV infected cells lacking A20 compared to infected wild type cells (figure 2C and figure S1).
+# T5 Protein S8 58 62 1079 1083 IL-6
+# T6 Protein S8 67 70 1088 1091 TNF
+# T7 Protein S8 87 94 1108 1115 IFNbeta
+# T8 Protein S8 99 108 1120 1129 IFNalpha4
+# T9 Protein S8 128 133 1149 1154 MCP-1
+# T10 Protein S8 135 139 1156 1160 ccl2
+# T11 Protein S8 145 147 1166 1168 KC
+# T12 Protein S8 149 154 1170 1175 cxcl1
+
+Taken together these results demonstrate that A20 negatively regulates IAV-induced proinflammatory and antiviral gene expression in alveolar macrophages, consistent with the inhibitory effect of A20 seen on RIG-I-induced NF-kappaB and IRF3 activation.
+# T13 Protein S9 207 212 1507 1512 RIG-I
+# T14 Protein S9 235 239 1535 1539 IRF3
+

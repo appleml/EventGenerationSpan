@@ -1,0 +1,21 @@
+Cell cycle-dependent initiation and lineage-dependent abrogation of GATA-1 expression in pure differentiating hematopoietic progenitors.
+# T1 Protein S1 68 74 68 74 GATA-1
+
+The programmed activation/repression of transcription factors in early hematopoietic differentiation has not yet been explored.
+
+The DNA-binding protein GATA-1 is required for normal erythroid development and regulates erythroid-expressed genes in maturing erythroblasts.
+# T2 Protein S3 24 30 290 296 GATA-1
+
+We analyzed GATA-1 expression in early human adult hematopoiesis by using an in vitro system in which "pure" early hematopoietic progenitors are induced to gradual and synchronized differentiation selectively along the erythroid or granulocyte-macrophage pathway by differential treatment with hematopoietic growth factors.
+# T3 Protein S4 12 18 421 427 GATA-1
+
+The GATA-1 gene, though virtually silent in quiescent progenitors, is activated after entrance into the cell cycle upon stimulation with hematopoietic growth factors.
+# T4 Protein S5 4 10 737 743 GATA-1
+
+Subsequently, increasing expression along the erythroid pathway contrasts with an abrupt downregulation in the granulocyte-macrophage lineage.
+
+These results suggest a microenvironment-directed, two-step model for GATA-1 expression in differentiating hematopoietic progenitors that involves (i) cycle-dependent initiation and (ii) lineage-dependent maintenance or suppression.
+# T5 Protein S7 70 76 1113 1119 GATA-1
+
+Hypothetically, on/off switches of lineage-restricted transactivators may underlie the binary fate decisions of hematopoietic progenitors.
+

@@ -1,0 +1,81 @@
+Initiation binding repressor, a factor that binds to the transcription initiation site of the histone h5 gene, is a glycosylated member of a family of cell growth regulators [corrected] [published erratum appears in Mol Cell Biol 1996 Feb;16(2):735]
+# T1 Protein S1 0 28 0 28 Initiation binding repressor
+# T2 Protein S1 94 104 94 104 histone h5
+$ T1 Protein S1 0 28 0 28 Initiation binding repressor
+$ T2 Protein S1 94 104 94 104 histone h5
+@ T26 Binding S1 44 49 44 49 binds
+@ T27 Entity S1 57 86 57 86 transcription initiation site
+% E1 Binding:T26 Theme:T1 Theme2:T2 Site2:T27
+
+Initiation binding repressor [corrected] (IBR) is a chicken erythrocyte factor (apparent molecular mass, 70 to 73 kDa) that binds to the sequences spanning the transcription initiation site of the histone h5 gene, repressing its transcription.
+# T3 Protein S2 0 28 251 279 Initiation binding repressor
+# T4 Protein S2 42 45 293 296 IBR
+# T5 Protein S2 197 207 448 458 histone h5
+$ T4 Protein S2 42 45 293 296 IBR
+$ T5 Protein S2 197 207 448 458 histone h5
+@ T28 Binding S2 124 129 375 380 binds
+@ T29 Entity S2 160 189 411 440 transcription initiation site
+@ T30 Negative_regulation S2 214 224 465 475 repressing
+@ T31 Transcription S2 229 242 480 493 transcription
+% E2 Binding:T28 Theme:T4 Theme2:T5 Site2:T29
+% E3 Negative_regulation:T30 Theme:E4 Cause:E2
+% E4 Transcription:T31 Theme:T5
+
+A variety of other cells, including transformed erythroid precursors, do not have IBR but a factor referred to as IBF (68 to 70 kDa) that recognizes the same IBR sites.
+# T6 Protein S3 82 85 577 580 IBR
+# T7 Protein S3 114 117 609 612 IBF
+# T8 Protein S3 158 161 653 656 IBR
+$ T6 Protein S3 82 85 577 580 IBR
+$ T7 Protein S3 114 117 609 612 IBF
+@ T32 Gene_expression S3 77 81 572 576 have
+@ T33 Binding S3 138 148 633 643 recognizes
+% E5 Gene_expression:T32 Theme:T6
+% E6 Binding:T33 Theme:T7
+
+We have cloned the IBR cDNA and studied the relationship of IBR and IBF.
+# T9 Protein S4 19 22 683 686 IBR
+# T10 Protein S4 60 63 724 727 IBR
+# T11 Protein S4 68 71 732 735 IBF
+
+IBR is a 503-amino-acid-long acidic protein which is 99.0% identical to the recently reported human NRF-1/alpha-Pal factor and highly related to the invertebrate transcription factors P3A2 and erected wing gene product (EWG).
+# T12 Protein S5 0 3 737 740 IBR
+# T13 Protein S5 100 105 837 842 NRF-1
+# T14 Protein S5 106 122 843 859 alpha-Pal factor
+# T15 Protein S5 184 188 921 925 P3A2
+# T16 Protein S5 193 210 930 947 erected wing gene
+# T17 Protein S5 220 223 957 960 EWG
+
+We present evidence that IBR and IBF are most likely identical proteins, differing in their degree of glycosylation.
+# T18 Protein S6 25 28 988 991 IBR
+# T19 Protein S6 33 36 996 999 IBF
+
+We have analyzed several molecular aspects of IBR/F and shown that the factor associates as stable homodimers and that the dimer is the relevant DNA-binding species.
+# T20 Protein S7 46 49 1126 1129 IBR
+# T21 Protein S7 50 51 1130 1131 F
+$ T21 Protein S7 50 51 1130 1131 F
+$ T20 Protein S7 46 49 1126 1129 IBR
+@ T34 Binding S7 78 109 1158 1189 associates as stable homodimers
+@ T35 Binding S7 149 156 1229 1236 binding
+% E7 Binding:T34 Theme:T21
+% E8 Binding:T34 Theme:T20
+% E9 Binding:T35 Theme:T20
+% E10 Binding:T35 Theme:T21
+
+The evolutionarily conserved N-terminal half of IBR/F harbors the DNA-binding/dimerization domain (outer limits, 127 to 283), one or several casein kinase II sites (37 to 67), and a bipartite nuclear localization signal (89 to 106) which appears to be necessary for nuclear targeting.
+# T22 Protein S8 48 51 1294 1297 IBR
+# T23 Protein S8 52 53 1298 1299 F
+$ T22 Protein S8 48 51 1294 1297 IBR
+$ T23 Protein S8 52 53 1298 1299 F
+@ T36 Positive_regulation S8 252 261 1498 1507 necessary
+@ T37 Entity S8 266 273 1512 1519 nuclear
+@ T38 Localization S8 274 283 1520 1529 targeting
+% E11 Positive_regulation:T36 Theme:E12
+% E12 Localization:T38 Theme:T22 AtLoc:T37
+% E13 Localization:T38 Theme:T23 AtLoc:T37
+
+Binding site selection revealed that the alternating RCGCRYGCGY consensus constitutes high-affinity IBR/F binding sites and that the direct-repeat palindrome TGCGCATGCGCA is the optimal site.
+# T24 Protein S9 100 103 1631 1634 IBR
+# T25 Protein S9 104 105 1635 1636 F
+
+A survey of genes potentially regulated by this family of factors primarily revealed genes involved in growth-related metabolism.
+

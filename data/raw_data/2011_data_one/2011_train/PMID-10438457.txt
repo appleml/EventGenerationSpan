@@ -1,0 +1,50 @@
+Protein kinase C and calcineurin synergize to activate IkappaB kinase and NF-kappaB in T lymphocytes.
+
+The nuclear factor of kappaB (NF-kappaB) is a ubiquitous transcription factor that is key in the regulation of the immune response and inflammation.
+
+T cell receptor (TCR) cross-linking is in part required for activation of NF-kappaB, which is dependent on the phosphorylation and degradation of IkappaBalpha.
+# T1 Protein S3 146 158 398 410 IkappaBalpha
+$ T1 Protein S3 146 158 398 410 IkappaBalpha
+@ T10 Phosphorylation S3 111 126 363 378 phosphorylation
+@ T11 Protein_catabolism S3 131 142 383 394 degradation
+% E1 Phosphorylation:T10 Theme:T1
+% E2 Protein_catabolism:T11 Theme:T1
+
+By using Jurkat and primary human T lymphocytes, we demonstrate that the simultaneous activation of two second messengers of the TCR-initiated signal transduction, protein kinase C (PKC) and calcineurin, results in the synergistic activation of the IkappaBalpha kinase (IKK) complex but not of another putative IkappaBalpha kinase, p90(rsk).
+# T2 Protein S4 311 330 723 742 IkappaBalpha kinase
+# T3 Protein S4 332 340 744 752 p90(rsk)
+$ T3 Protein S4 332 340 744 752 p90(rsk)
+@ T12 Positive_regulation S4 219 241 631 653 synergistic activation
+% E3 Positive_regulation:T12 Theme:T3
+
+We also demonstrate that the IKK complex, but not p90(rsk), is responsible for the in vivo phosphorylation of IkappaBalpha mediated by the co-activation of PKC and calcineurin.
+# T4 Protein S5 50 58 804 812 p90(rsk)
+# T5 Protein S5 110 122 864 876 IkappaBalpha
+$ T4 Protein S5 50 58 804 812 p90(rsk)
+$ T5 Protein S5 110 122 864 876 IkappaBalpha
+@ T13 Regulation S5 63 74 817 828 responsible
+@ T14 Phosphorylation S5 91 106 845 860 phosphorylation
+@ T15 Positive_regulation S5 123 131 877 885 mediated
+% E4 Regulation:T13 Theme:E6 Cause:T4
+% E5 Regulation:T13 Theme:E6
+% E6 Phosphorylation:T14 Theme:T5
+% E7 Positive_regulation:T15 Theme:E6
+
+Each second messenger is necessary, as inhibition of either one reverses the activation of the IKK complex and IkappaBalpha phosphorylation in vivo.
+# T6 Protein S6 111 123 1042 1054 IkappaBalpha
+$ T6 Protein S6 111 123 1042 1054 IkappaBalpha
+@ T16 Negative_regulation S6 64 72 995 1003 reverses
+@ T17 Phosphorylation S6 124 139 1055 1070 phosphorylation
+% E8 Negative_regulation:T16 Theme:E9
+% E9 Phosphorylation:T17 Theme:T6
+
+Overexpression of dominant negative forms of IKKalpha and -beta demonstrates that only IKKbeta is the target for PKC and calcineurin.
+# T7 Protein S7 45 53 1125 1133 IKKalpha
+# T8 Protein S7 58 63 1138 1143 -beta
+# T9 Protein S7 87 94 1167 1174 IKKbeta
+$ T9 Protein S7 87 94 1167 1174 IKKbeta
+@ T18 Regulation S7 102 108 1182 1188 target
+% E10 Regulation:T18 Theme:T9
+
+These results indicate that within the TCR/CD3 signal transduction pathway both PKC and calcineurin are required for the effective activation of the IKK complex and NF-kappaB in T lymphocytes.
+

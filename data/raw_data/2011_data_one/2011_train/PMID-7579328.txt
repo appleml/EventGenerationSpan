@@ -1,0 +1,115 @@
+The myeloid zinc finger gene, MZF-1, regulates the CD34 promoter in vitro.
+# T1 Protein S1 30 35 30 35 MZF-1
+# T2 Protein S1 51 55 51 55 CD34
+$ T2 Protein S1 51 55 51 55 CD34
+$ T1 Protein S1 30 35 30 35 MZF-1
+@ T31 Regulation S1 37 46 37 46 regulates
+@ T32 Entity S1 56 64 56 64 promoter
+% E1 Regulation:T31 Theme:T2 Cause:T1 Site:T32
+
+MZF-1 is a C2H2 zinc finger gene encoding a putative transcriptional regulator of myeloid differentiation.
+# T3 Protein S2 0 5 76 81 MZF-1
+
+The MZF-1 protein contains 13 C2H2 zinc fingers arranged in bipartite DNA binding domains containing zinc fingers through 4 and, in the carboxy-terminus, 5 through 13.
+# T4 Protein S3 4 9 187 192 MZF-1
+
+We previously identified the DNA consensus binding site recognized by the two DNA binding domains.
+
+To assess the transcription regulatory function of MZF-1, the full-length MZF-1 coding region was fused to the DNA binding domain of the yeast transactivator GAL4.
+# T5 Protein S5 51 56 501 506 MZF-1
+# T6 Protein S5 74 79 524 529 MZF-1
+# T7 Protein S5 158 162 608 612 GAL4
+
+The expression vector was cotransfected with the chloramphenicol acetyl transferase (CAT) reporter gene regulated by the thymidine kinase promoter containing GAL4 DNA binding sites into NIH 3T3, 293, K562, and Jurkat cell lines.
+# T8 Protein S6 49 83 663 697 chloramphenicol acetyl transferase
+# T9 Protein S6 85 88 699 702 CAT
+# T10 Protein S6 121 137 735 751 thymidine kinase
+# T11 Protein S6 158 162 772 776 GAL4
+$ T9 Protein S6 85 88 699 702 CAT
+$ T10 Protein S6 121 137 735 751 thymidine kinase
+@ T33 Gene_expression S6 26 39 640 653 cotransfected
+@ T34 Positive_regulation S6 26 39 640 653 cotransfected
+@ T35 Regulation S6 104 113 718 727 regulated
+@ T36 Entity S6 138 146 752 760 promoter
+% E2 Gene_expression:T33 Theme:T6
+% E3 Positive_regulation:T34 Theme:E2
+% E4 Regulation:T35 Theme:T9 Cause:T10 CSite:T36
+
+MZF-1 represses CAT reporter gene expression via GAL4 binding sites in the nonhematopoietic cell lines NIH 3T3 and 293.
+# T12 Protein S7 0 5 843 848 MZF-1
+# T13 Protein S7 16 19 859 862 CAT
+# T14 Protein S7 49 53 892 896 GAL4
+$ T12 Protein S7 0 5 843 848 MZF-1
+$ T13 Protein S7 16 19 859 862 CAT
+$ T14 Protein S7 49 53 892 896 GAL4
+@ T37 Negative_regulation S7 6 15 849 858 represses
+@ T38 Gene_expression S7 34 44 877 887 expression
+@ T39 Positive_regulation S7 45 48 888 891 via
+% E5 Negative_regulation:T37 Theme:E6 Cause:T12
+% E6 Gene_expression:T38 Theme:T13
+% E7 Positive_regulation:T39 Theme:E5 Cause:T14
+
+In contrast, MZF-1 activates CAT reporter gene expression in the hematopoietic cell lines K562 and Jurkat.
+# T15 Protein S8 13 18 976 981 MZF-1
+# T16 Protein S8 29 32 992 995 CAT
+$ T15 Protein S8 13 18 976 981 MZF-1
+$ T16 Protein S8 29 32 992 995 CAT
+@ T40 Positive_regulation S8 19 28 982 991 activates
+@ T41 Gene_expression S8 47 57 1010 1020 expression
+% E8 Positive_regulation:T40 Theme:E9 Cause:T15
+% E9 Gene_expression:T41 Theme:T16
+
+The MZF-1 binding sites are present in the promoters of several genes expressed during myeloid differentiation, including the CD34 promoter.
+# T17 Protein S9 4 9 1074 1079 MZF-1
+# T18 Protein S9 126 130 1196 1200 CD34
+$ T18 Protein S9 126 130 1196 1200 CD34
+@ T42 Gene_expression S9 70 79 1140 1149 expressed
+@ T43 Entity S9 131 139 1201 1209 promoter
+% E10 Gene_expression:T42 Theme:T18
+
+MZF-1 transcriptional regulation of this physiologically relevant promoter was assessed in both hematopoietic and nonhematopoietic cell lines.
+# T19 Protein S10 0 5 1211 1216 MZF-1
+$ T19 Protein S10 0 5 1211 1216 MZF-1
+@ T44 Regulation S10 6 32 1217 1243 transcriptional regulation
+% E11 Regulation:T44 Theme:T18 Cause:T19 Site:T43
+
+Recombinant MZF-1 protein specifically binds to the consensus binding sites in the CD34 promoter in mobility shift assays.
+# T20 Protein S11 12 17 1366 1371 MZF-1
+# T21 Protein S11 83 87 1437 1441 CD34
+$ T20 Protein S11 12 17 1366 1371 MZF-1
+$ T21 Protein S11 83 87 1437 1441 CD34
+@ T45 Binding S11 39 44 1393 1398 binds
+@ T46 Entity S11 52 75 1406 1429 consensus binding sites
+% E12 Binding:T45 Theme:T20 Theme2:T21 Site2:T46
+
+MZF-1 expression vectors were cotransfected with the luciferase reporter plasmids regulated by the CD34 promoter into both nonhematopoietic and hematopoietic cell lines.
+# T22 Protein S12 0 5 1477 1482 MZF-1
+# T23 Protein S12 99 103 1576 1580 CD34
+
+As with the heterologous DNA binding domain, MZF-1 represses reporter gene expression in nonhematopoietic cell lines and activates expression in hematopoietic cell lines.
+# T24 Protein S13 45 50 1692 1697 MZF-1
+
+Activation of CD34 expression in hematopoietic cell lines is dependent on the presence of intact MZF-1 binding sites.
+# T25 Protein S14 14 18 1832 1836 CD34
+# T26 Protein S14 97 102 1915 1920 MZF-1
+$ T25 Protein S14 14 18 1832 1836 CD34
+@ T47 Positive_regulation S14 0 10 1818 1828 Activation
+@ T48 Gene_expression S14 19 29 1837 1847 expression
+@ T49 Positive_regulation S14 61 70 1879 1888 dependent
+% E13 Positive_regulation:T47 Theme:E14
+% E14 Gene_expression:T48 Theme:T25
+% E15 Positive_regulation:T49 Theme:E13
+
+The cell type-specific regulation of the CD34 promoter by MZF-1 suggests the presence of tissue-specific regulators/adapters or differential MZF-1 modifications that determine MZF-1 transcriptional regulatory function.
+# T27 Protein S15 41 45 1977 1981 CD34
+# T28 Protein S15 58 63 1994 1999 MZF-1
+# T29 Protein S15 141 146 2077 2082 MZF-1
+# T30 Protein S15 176 181 2112 2117 MZF-1
+$ T27 Protein S15 41 45 1977 1981 CD34
+$ T28 Protein S15 58 63 1994 1999 MZF-1
+@ T50 Regulation S15 23 33 1959 1969 regulation
+@ T51 Entity S15 46 54 1982 1990 promoter
+@ T52 Regulation S15 166 175 2102 2111 determine
+% E16 Regulation:T50 Theme:T27 Cause:T28 Site:T51
+% E17 Regulation:T52 Theme:E16
+

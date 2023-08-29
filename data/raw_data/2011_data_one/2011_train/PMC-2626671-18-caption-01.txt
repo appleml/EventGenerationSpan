@@ -1,0 +1,64 @@
+Kinetics of gene expression during CD8+ T cell differentiation.
+# T1 Protein S1 35 38 35 38 CD8
+
+(A) Kinetics of Prf1, Gzmb, Tbx21 (T-bet), and Eomes mRNA expression in differentiating P14 CD8+ T cells analyzed by Northern blotting.
+# T2 Protein S2 16 20 80 84 Prf1
+# T3 Protein S2 22 26 86 90 Gzmb
+# T4 Protein S2 28 33 92 97 Tbx21
+# T5 Protein S2 35 40 99 104 T-bet
+# T6 Protein S2 47 52 111 116 Eomes
+# T7 Protein S2 92 95 156 159 CD8
+$ T2 Protein S2 16 20 80 84 Prf1
+$ T3 Protein S2 22 26 86 90 Gzmb
+$ T4 Protein S2 28 33 92 97 Tbx21
+$ T6 Protein S2 47 52 111 116 Eomes
+@ T18 Transcription S2 53 68 117 132 mRNA expression
+% E1 Transcription:T18 Theme:T2
+% E2 Transcription:T18 Theme:T3
+% E3 Transcription:T18 Theme:T4
+% E4 Transcription:T18 Theme:T6
+
+RNA from day 7 Th1 cells was used as a control.
+
+Sizes of mRNA transcripts are indicated.
+
+(B) Quantification of relative mRNA amounts by phosphorimager analysis.
+
+(C) Kinetics of protein expression in differentiating P14 CD8+ T cells analyzed by immunoblotting.
+# T8 Protein S6 58 61 419 422 CD8
+
+Sizes of protein bands are indicated.
+
+(D) Relative protein amounts quantified from the Western blots.
+
+(E) Intracellular staining for granzyme B, IFN-gamma, and TNF.
+# T9 Protein S9 31 41 593 603 granzyme B
+# T10 Protein S9 43 52 605 614 IFN-gamma
+# T11 Protein S9 58 61 620 623 TNF
+$ T9 Protein S9 31 41 593 603 granzyme B
+$ T10 Protein S9 43 52 605 614 IFN-gamma
+$ T11 Protein S9 58 61 620 623 TNF
+@ T19 Gene_expression S9 18 26 580 588 staining
+% E5 Gene_expression:T19 Theme:T9
+% E6 Gene_expression:T19 Theme:T10
+% E7 Gene_expression:T19 Theme:T11
+
+Granzyme B staining was specific relative to an isotype control (not depicted).
+# T12 Protein S10 0 10 625 635 Granzyme B
+$ T12 Protein S10 0 10 625 635 Granzyme B
+@ T20 Gene_expression S10 11 19 636 644 staining
+% E8 Gene_expression:T20 Theme:T12
+
+Cells were restimulated with PMA and ionomycin for 4 h. (F) FACS-based assay to measure cytolytic activity of P14 CD8+ T cells against EL4 targets loaded with 0 (-) or 1 (+) muM Gp33 peptide (effector-to-target ratio = 5:1).
+# T13 Protein S11 114 117 819 822 CD8
+
+Percentage of Annexin V+ (apoptotic) target cells in the CD8-negative EL4 target population (dot plots) was determined (histograms).
+# T14 Protein S12 14 23 944 953 Annexin V
+# T15 Protein S12 57 60 987 990 CD8
+
+Cytolytic activity was blocked by incubation with 2 mM EGTA (not depicted), confirming involvement of the granule exocytosis (perforin-granzyme B) pathway.
+# T16 Protein S13 126 134 1189 1197 perforin
+# T17 Protein S13 135 145 1198 1208 granzyme B
+
+Data are representative of at least five (A-E) or three (F) independent experiments.
+

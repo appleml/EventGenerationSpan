@@ -1,0 +1,50 @@
+1,25-Dihydroxyvitamin D3 receptor RNA: expression in hematopoietic cells.
+# T1 Protein S1 0 33 0 33 1,25-Dihydroxyvitamin D3 receptor
+
+1,25-Dihydroxyvitamin D3 [1,25(OH)2D3] induces differentiation and inhibits proliferation of myeloid leukemic cells from various lines and patients; these effects are probably mediated through the 1,25(OH)2D3 receptor.
+# T2 Protein S2 197 217 272 292 1,25(OH)2D3 receptor
+
+Little is known of expression of 1,25(OH)2D3 receptor RNA in hematopoietic cells.
+# T3 Protein S3 33 53 327 347 1,25(OH)2D3 receptor
+
+We examined the expression and modulation of expression of 1,25(OH)2D3 receptor RNA in various proliferating and nonproliferating hematopoietic cells.
+# T4 Protein S4 59 79 435 455 1,25(OH)2D3 receptor
+
+Constitutive expression of 1,25(OH)2D3 receptor RNA was detected in various kinds of hematopoietic cells, including macrophages and activated T lymphocytes, as well as in cell lines KG-1 (myeloblasts), HL-60 (promyelocytes), ML-3 (myelomonoblasts), U937, THP-1 (monoblasts), K562 (erythroblasts), and S-LB1 (HTLV-1-transfected T lymphocytes).
+# T5 Protein S5 27 47 554 574 1,25(OH)2D3 receptor
+
+Receptor transcripts were 4.6 kilobases (kb), and no variant sizes were observed.
+
+All cell lines examined in this group also expressed 1,25(OH)2D3 receptors.
+# T6 Protein S7 53 74 1005 1026 1,25(OH)2D3 receptors
+
+Most B lymphocyte lines expressed negligible levels of 1,25(OH)2D3 receptor RNA and protein; however; analysis of a lymphoid/myeloid somatic hybrid suggested that suppression of expression of 1,25(OH)2D3 receptor RNA in B lymphocytes may be a dominant characteristic.
+# T7 Protein S8 55 75 1083 1103 1,25(OH)2D3 receptor
+# T8 Protein S8 192 212 1220 1240 1,25(OH)2D3 receptor
+
+HL-60 cells were cultured with 10(-7) mol/L 1,25(OH)2D3 for 24 to 72 hours, and levels of expression of 1,25(OH)2D3 receptor and its RNA were examined.
+# T9 Protein S9 104 124 1400 1420 1,25(OH)2D3 receptor
+
+Levels of RNA coding for the receptor were not modulated by exposure to high levels of ligand.
+
+Levels of occupied 1,25(OH)2D3 receptor protein increased in these HL-60 cells; but the total number of 1,25(OH)2D3 receptors decreased about 50% at 24 hours and returned toward normal at 72 hours.
+# T10 Protein S11 19 39 1562 1582 1,25(OH)2D3 receptor
+# T11 Protein S11 104 125 1647 1668 1,25(OH)2D3 receptors
+
+Steady-state levels of 1,25(OH)2D3 receptor RNA were not affected by terminal differentiation of HL-60 toward either granulocytes or macrophages.
+# T12 Protein S12 23 43 1764 1784 1,25(OH)2D3 receptor
+
+Nondividing macrophages from normal individuals also expressed 1,25(OH)2D3 receptor RNA.
+# T13 Protein S13 63 83 1950 1970 1,25(OH)2D3 receptor
+
+In contrast, nondividing peripheral blood lymphocytes from normal individuals did not express 1,25(OH)2D3 receptor RNA; with stimulation of proliferation of these cells, accumulation of 1,25(OH)2D3 receptor RNA increased markedly.
+# T14 Protein S14 94 114 2070 2090 1,25(OH)2D3 receptor
+# T15 Protein S14 186 206 2162 2182 1,25(OH)2D3 receptor
+
+Half-life (t1/2) of 1,25(OH)2D3 receptor RNA in T lymphocytes was short (1 hour) as determined by measuring decay of the message after addition of actinomycin D. Consistent with this short t1/2, accumulation of 1,25(OH)2D3 receptor RNA increased in cells as their protein synthesis was inhibited.
+# T16 Protein S15 20 40 2227 2247 1,25(OH)2D3 receptor
+# T17 Protein S15 211 231 2418 2438 1,25(OH)2D3 receptor
+
+Further studies are required to understand the physiologic role of 1,25(OH)2D3 receptors in myeloid cells and proliferating T lymphocytes.
+# T18 Protein S16 67 88 2571 2592 1,25(OH)2D3 receptors
+

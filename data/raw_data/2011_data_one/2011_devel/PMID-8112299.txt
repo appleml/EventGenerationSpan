@@ -1,0 +1,50 @@
+Calcineurin acts in synergy with PMA to inactivate I kappa B/MAD3, an inhibitor of NF-kappa B.
+# T1 Protein S1 61 65 61 65 MAD3
+$ T1 Protein S1 61 65 61 65 MAD3
+@ T9 Negative_regulation S1 40 50 40 50 inactivate
+% E1 Negative_regulation:T9 Theme:T1
+
+The interleukin-2 (IL-2) promoter consists of several independent T cell receptor (TcR) responsive elements.
+# T2 Protein S2 4 17 100 113 interleukin-2
+# T3 Protein S2 19 23 115 119 IL-2
+@ T10 Entity S2 25 33 121 129 promoter
+
+The induction of promoters dependent on these elements is inhibitable by the immunosuppressants cyclosporin A (CsA) and tacrolimus (FK-506).
+@ T11 Positive_regulation S3 4 13 209 218 induction
+@ T12 Negative_regulation S3 58 69 263 274 inhibitable
+% E2 Positive_regulation:T11 Theme:T2 Site:T10
+% E3 Negative_regulation:T12 Theme:E2
+
+Calcineurin, a Ca2+/calmodulin-dependent protein phosphatase, is the FK-506- and CsA-sensitive enzyme required for TcR mediated activation of the IL-2 promoter.
+# T4 Protein S4 146 150 492 496 IL-2
+$ T4 Protein S4 146 150 492 496 IL-2
+@ T13 Positive_regulation S4 102 110 448 456 required
+@ T14 Positive_regulation S4 128 138 474 484 activation
+@ T15 Entity S4 151 159 497 505 promoter
+% E4 Positive_regulation:T13 Theme:E5
+% E5 Positive_regulation:T14 Theme:T4 Site:T15
+
+We report that a constitutively active form of calcineurin partially substitutes for the Ca2+ co-stimulus required to activate the IL-2 promoter elements IL-2A (which binds the factors OAP and Oct-1) and IL-2E (which binds NF-AT), and completely substitutes for the Ca2+ co-stimulus required to stimulate an NF-kappa B-dependent element.
+# T5 Protein S5 131 135 638 642 IL-2
+# T6 Protein S5 185 188 692 695 OAP
+# T7 Protein S5 193 198 700 705 Oct-1
+$ T5 Protein S5 131 135 638 642 IL-2
+$ T7 Protein S5 193 198 700 705 Oct-1
+$ T6 Protein S5 185 188 692 695 OAP
+@ T16 Positive_regulation S5 118 126 625 633 activate
+@ T17 Entity S5 154 159 661 666 IL-2A
+@ T18 Binding S5 167 172 674 679 binds
+% E6 Positive_regulation:T16 Theme:T5 Site:T17
+% E7 Binding:T18 Theme:T5 Theme2:T7 Site:T17
+% E8 Binding:T18 Theme:T5 Theme2:T6 Site:T17
+
+Calcineurin stimulates the NF-kappa B element by enhancing inactivation of I kappa B/MAD3, an inhibitor of NF-kappa B, thereby increasing the amount of nuclear NF-kappa B DNA binding activity.
+# T8 Protein S6 85 89 930 934 MAD3
+$ T8 Protein S6 85 89 930 934 MAD3
+@ T19 Positive_regulation S6 49 58 894 903 enhancing
+@ T20 Negative_regulation S6 59 71 904 916 inactivation
+% E9 Positive_regulation:T19 Theme:E10
+% E10 Negative_regulation:T20 Theme:T8
+
+These data provide the first demonstration in vivo that activation of a protein phosphatase can inactivate I kappa B, and suggest one possible explanation for mechanism-based toxicities associated with FK-506 and CsA by demonstrating that these drugs can inhibit the calcineurin-dependent activation of a virtually ubiquitous transcription factor.
+

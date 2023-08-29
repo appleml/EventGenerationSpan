@@ -1,0 +1,44 @@
+Dual effects of LPS antibodies on cellular uptake of LPS and LPS-induced proinflammatory functions.
+
+Human phagocytes recognize bacterial LPS (endotoxin) through membrane CD14 (mCD14), a proinflammatory LPS receptor.
+# T1 Protein S2 70 74 171 175 CD14
+# T2 Protein S2 76 81 177 182 mCD14
+
+This study tested the hypothesis that anti-LPS Abs neutralize endotoxin by blocking cellular uptake through mCD14.
+# T3 Protein S3 108 113 325 330 mCD14
+
+Ab-associated changes in the uptake and cellular distribution of FITC-LPS were assessed by flow cytometry and laser scanning confocal microscopy in human CD14-transfected Chinese hamster ovary fibroblasts (CHO-CD14 cells) and human peripheral blood monocytes.
+# T4 Protein S4 154 158 486 490 CD14
+# T5 Protein S4 210 214 542 546 CD14
+
+LPS core- and O-side chain-specific mAbs inhibited mCD14-mediated LPS uptake by both cell types in the presence of serum.
+# T6 Protein S5 51 56 643 648 mCD14
+
+O-side chain-specific mAb concurrently enhanced complement-dependent LPS uptake by monocytes through complement receptor-1 (CR1) and uptake by CHO-CD14 cells involving another heat-labile serum factor(s) and cell-associated recognition molecule(s).
+# T7 Protein S6 101 122 815 836 complement receptor-1
+# T8 Protein S6 124 127 838 841 CR1
+# T9 Protein S6 147 151 861 865 CD14
+
+Core-specific mAb inhibited mCD14-mediated uptake of homologous and heterologous LPS, while producing less concurrent enhancement of non-mCD14-mediated LPS uptake.
+# T10 Protein S7 28 33 991 996 mCD14
+# T11 Protein S7 137 142 1100 1105 mCD14
+
+The modulation by anti-LPS mAbs of mCD14-mediated LPS uptake was associated with inhibition of LPS-induced nuclear factor-kappaB (NF-kappaB) translocation and TNF-alpha secretion in CHO-CD14 cells and monocytes, respectively, while mAb enhancement of non-mCD14-mediated LPS uptake stimulated these activities.
+# T12 Protein S8 35 40 1162 1167 mCD14
+# T13 Protein S8 159 168 1286 1295 TNF-alpha
+# T14 Protein S8 186 190 1313 1317 CD14
+# T15 Protein S8 255 260 1382 1387 mCD14
+$ T13 Protein S8 159 168 1286 1295 TNF-alpha
+@ T18 Negative_regulation S8 81 91 1208 1218 inhibition
+@ T19 Positive_regulation S8 99 106 1226 1233 induced
+@ T20 Localization S8 169 178 1296 1305 secretion
+@ T21 Positive_regulation S8 281 291 1408 1418 stimulated
+% E1 Negative_regulation:T18 Theme:E3
+% E2 Positive_regulation:T19 Theme:E3
+% E3 Localization:T20 Theme:T13
+% E4 Positive_regulation:T21 Theme:E2
+
+LPS-specific Abs thus mediate anti-inflammatory and proinflammatory functions, respectively, by preventing target cell uptake of LPS through mCD14 and augmenting uptake through CR1 or other cell receptors.
+# T16 Protein S9 141 146 1578 1583 mCD14
+# T17 Protein S9 177 180 1614 1617 CR1
+

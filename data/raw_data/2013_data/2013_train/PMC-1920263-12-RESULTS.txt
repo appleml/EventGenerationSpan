@@ -1,0 +1,48 @@
+A GC-box located at position -87/-78 of the A3G promoter is important for transcriptional activity
+# T1 Protein S1 44 47 44 47 A3G
+
+The reporter studies shown in Figure 3 had demonstrated a drop in luciferase activity after deletion of the 30 nt at the 5' end of the 180 bp core promoter.
+# T2 Protein S2 66 76 165 175 luciferase
+
+We therefore inspected the 30 bp sequence deleted in the 150 bp fragment and identified a GC-box at position -87/-78 (see Figure 1).
+
+The sequence TGGGCGGGAC, which is interrupted in the 150 bp fragment, represents a variant of the (G/T)GGGCGG(G/A)(G/A)(C/T) consensus motif recognized by Sp1 and Sp3 transcription factors.
+# T3 Protein S4 155 158 544 547 Sp1
+# T4 Protein S4 163 166 552 555 Sp3
+$ T3 Protein S4 155 158 544 547 Sp1
+$ T4 Protein S4 163 166 552 555 Sp3
+@ T9 Entity S4 94 140 483 529 the (G/T)GGGCGG(G/A)(G/A)(C/T) consensus motif
+@ T10 Binding S4 141 151 530 540 recognized
+% E1 Binding:T10 Theme:T1 Theme2:T3 Site:T9
+% E2 Binding:T10 Theme:T1 Theme2:T4 Site:T9
+
+To analyze whether this putative Sp1/Sp3-binding site mediates transcriptional activity of the 180 bp core promoter, we introduced two point mutations which changed the sequence from TGGGCGGGAC to TGTTCGGGAC (mutations shown in bold).
+
+This resulted in a 71% reduction of the transcriptional activity compared to the unmodified 180 bp promoter (Figure 5A) and this value was only marginally higher than the luciferase activity of the 150 bp fragment, indicating that the identified motif is essential for basal activity of the A3G core promoter.
+# T5 Protein S6 171 181 985 995 luciferase
+# T6 Protein S6 291 294 1105 1108 A3G
+
+To further examine the transcriptional potency of the 30 nt present in the 180 bp promoter, we cloned the region -114/-85 (containing all nucleotides which are deleted in the 150 bp fragment, designated E1) or the region -92/-63 (containing the putative Sp1/Sp3 motif, designated E2) into the vector pGL3-Promoter (see Figure 1).
+
+This vector contains a luciferase reporter gene under the control of an SV40 promoter without enhancer sequences, and putative transcriptionally active sequences can be cloned upstream of the SV40 promoter.
+# T7 Protein S8 23 33 1477 1487 luciferase
+$ T7 Protein S8 23 33 1477 1487 luciferase
+@ T11 Regulation S8 48 65 1502 1519 under the control
+% E3 Regulation:T11 Theme:T7
+
+Luciferase assays showed that the E1 element increased SV40 promoter activity only by ~2-fold (Figure 5B).
+# T8 Protein S9 0 10 1661 1671 Luciferase
+
+In contrast, the 30 nt of E2 enhanced the transcriptional activity of the SV40 promoter by ~4.3-fold, indicating that the intact GC-box present in the E2 element was responsible for the strongly enhanced transcriptional activity of the SV40 promoter.
+@ T12 Entity S10 17 22 1785 1790 30 nt
+@ T13 Positive_regulation S10 29 37 1797 1805 enhanced
+@ T14 Transcription S10 42 66 1810 1834 transcriptional activity
+@ T15 Positive_regulation S10 166 177 1934 1945 responsible
+@ T16 Positive_regulation S10 195 203 1963 1971 enhanced
+@ T17 Positive_regulation S10 204 228 1972 1996 transcriptional activity
+% E4 Positive_regulation:T13 Theme:E5 Cause:T6 CSite:T12
+% E5 Transcription:T14 Theme:T8
+% E6 Positive_regulation:T15 Theme:E7
+% E7 Positive_regulation:T16 Theme:E8
+% E8 Positive_regulation:T17 Theme:T8
+

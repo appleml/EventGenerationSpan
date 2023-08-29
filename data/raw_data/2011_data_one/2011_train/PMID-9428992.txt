@@ -1,0 +1,80 @@
+Constitutive expression c-fos, c-jun, and NF kappa B mRNA is in nucleated fetal blood cells and up-regulation of c-fos and c-jun with anti-CD3 stimulation.
+# T1 Protein S1 24 29 24 29 c-fos
+# T2 Protein S1 31 36 31 36 c-jun
+# T3 Protein S1 113 118 113 118 c-fos
+# T4 Protein S1 123 128 123 128 c-jun
+$ T2 Protein S1 31 36 31 36 c-jun
+$ T1 Protein S1 24 29 24 29 c-fos
+$ T3 Protein S1 113 118 113 118 c-fos
+$ T4 Protein S1 123 128 123 128 c-jun
+@ T12 Transcription S1 13 23 13 23 expression
+@ T13 Positive_regulation S1 96 109 96 109 up-regulation
+% E1 Transcription:T12 Theme:T2
+% E2 Transcription:T12 Theme:T1
+% E3 Positive_regulation:T13 Theme:T3
+% E4 Positive_regulation:T13 Theme:T4
+
+Fetal and neonatal lymphocytes are relatively resistant to activation and cytokine production when stimulated either via their T-cell antigen receptors or lectins.
+
+The molecular mechanism(s) responsible for this phenomenon have not been clearly elucidated.
+
+We have hypothesized that such defects in fetal/neonatal T-cell activation may be due to lack of expression of the transcriptional regulatory elements required for T-cell activation.
+
+We used reverse transcriptase-polymerase chain reaction to examine both fetal and term neonatal cord bloods for mRNA expression of three transcription factors implicated in T-cell activation: c-jun, c-fos, and NF kappa B (p50 subunit).
+# T5 Protein S5 192 197 789 794 c-jun
+# T6 Protein S5 199 204 796 801 c-fos
+# T7 Protein S5 222 225 819 822 p50
+$ T7 Protein S5 222 225 819 822 p50
+$ T6 Protein S5 199 204 796 801 c-fos
+$ T5 Protein S5 192 197 789 794 c-jun
+@ T14 Transcription S5 112 127 709 724 mRNA expression
+@ T15 Gene_expression S5 112 127 709 724 mRNA expression
+% E5 Transcription:T14 Theme:T7
+% E7 Transcription:T14 Theme:T6
+% E8 Transcription:T14 Theme:T5
+% E6 Gene_expression:T15 Theme:T5
+
+We demonstrate that mRNAs for all three of these regulatory factors are expressed in fetal blood cells by the 27th week of gestation and in term cord bloods.
+@ T16 Transcription S6 72 81 905 914 expressed
+% E9 Transcription:T16 Theme:T6
+% E10 Transcription:T16 Theme:T5
+% E11 Transcription:T16 Theme:T7
+
+Activation of term infant cord blood mononuclear cells with anti-CD3 monoclonal antibodies resulted in up-regulation of both c-jun and c-fos mRNAs within 15 min of stimulation.
+# T8 Protein S7 125 130 1116 1121 c-jun
+# T9 Protein S7 135 140 1126 1131 c-fos
+$ T9 Protein S7 135 140 1126 1131 c-fos
+$ T8 Protein S7 125 130 1116 1121 c-jun
+@ T17 Positive_regulation S7 91 116 1082 1107 resulted in up-regulation
+% E12 Positive_regulation:T17 Theme:T9
+% E13 Positive_regulation:T17 Theme:T8
+
+However, secretion of IL-2 by anti-CD3-stimulated cord blood mononuclear cells was still blunted compared with control cells from adults.
+# T10 Protein S8 22 26 1190 1194 IL-2
+$ T10 Protein S8 22 26 1190 1194 IL-2
+@ T18 Localization S8 9 18 1177 1186 secretion
+@ T19 Positive_regulation S8 89 96 1257 1264 blunted
+% E14 Localization:T18 Theme:T10
+% E15 Positive_regulation:T19 Theme:E14
+
+We conclude that fetal nucleated blood cells constitutively express important genes for cytokine regulation and are able to increase intracellular accumulation of the mRNAs for these factors in response to anti-CD3 stimulation.
+@ T20 Positive_regulation S9 124 132 1430 1438 increase
+@ T21 Positive_regulation S9 147 159 1453 1465 accumulation
+% E16 Positive_regulation:T20 Theme:E18
+% E17 Positive_regulation:T20 Theme:E19
+% E18 Positive_regulation:T21 Theme:T8
+% E19 Positive_regulation:T21 Theme:T9
+
+Thus, qualitative differences in the capacity to regulate these factors could not be shown in fetal blood cells.
+@ T22 Regulation S10 49 57 1583 1591 regulate
+% E20 Regulation:T22 Theme:T9
+% E21 Regulation:T22 Theme:T8
+
+Quantitative experiments comparing binding of these transcription factors to the IL-2 promoter are currently under investigation.
+# T11 Protein S11 81 85 1728 1732 IL-2
+$ T11 Protein S11 81 85 1728 1732 IL-2
+@ T23 Binding S11 35 42 1682 1689 binding
+@ T24 Entity S11 86 94 1733 1741 promoter
+% E22 Binding:T23 Theme:T8 Theme2:T11 Site2:T24
+% E23 Binding:T23 Theme:T9 Theme2:T11 Site2:T24
+

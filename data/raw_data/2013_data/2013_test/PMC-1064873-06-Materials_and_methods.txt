@@ -1,0 +1,13 @@
+Immunoassay for IFN-gamma and IL-2
+# T1 Protein S1 16 25 16 25 IFN-gamma
+# T2 Protein S1 30 34 30 34 IL-2
+
+Concentrations of IFN-gamma and IL-2 in culture supernatants of CD4+ T cells were measured in duplicate by the quantitative sandwich ELISA using cytokine-specific capture with biotinylated detection mAb and recombinant cytokine proteins (all from Becton Dickinson), according to the manufacturer's protocol.
+# T3 Protein S2 18 27 53 62 IFN-gamma
+# T4 Protein S2 32 36 67 71 IL-2
+# T5 Protein S2 64 67 99 102 CD4
+
+The detection limits for IFN-gamma and IL-2 were 15 pg/ml.
+# T6 Protein S3 25 34 368 377 IFN-gamma
+# T7 Protein S3 39 43 382 386 IL-2
+

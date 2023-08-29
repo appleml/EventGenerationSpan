@@ -1,0 +1,65 @@
+E2F-1 and a cyclin-like DNA repair enzyme, uracil-DNA glycosylase, provide evidence for an autoregulatory mechanism for transcription.
+# T1 Protein S1 0 5 0 5 E2F-1
+# T2 Protein S1 43 65 43 65 uracil-DNA glycosylase
+
+The cell cycle-dependent transcription factor, E2F-1, regulates the cyclin-like species of the DNA repair enzyme uracil-DNA glycosylase (UDG) gene in human osteosarcoma (Saos-2) cells.
+# T3 Protein S2 47 52 183 188 E2F-1
+# T4 Protein S2 113 135 249 271 uracil-DNA glycosylase
+# T5 Protein S2 137 140 273 276 UDG
+$ T5 Protein S2 137 140 273 276 UDG
+$ T3 Protein S2 47 52 183 188 E2F-1
+@ T15 Regulation S2 54 63 190 199 regulates
+% E1 Regulation:T15 Theme:T5 Cause:T3
+
+We demonstrate, through the deletion of the human UDG promoter sequences, that expression of E2F-1 activates the UDG promoter through several E2F sites.
+# T6 Protein S3 50 53 371 374 UDG
+# T7 Protein S3 93 98 414 419 E2F-1
+# T8 Protein S3 113 116 434 437 UDG
+$ T7 Protein S3 93 98 414 419 E2F-1
+$ T8 Protein S3 113 116 434 437 UDG
+@ T16 Gene_expression S3 79 89 400 410 expression
+@ T17 Positive_regulation S3 99 108 420 429 activates
+@ T18 Entity S3 117 125 438 446 promoter
+@ T19 Positive_regulation S3 126 133 447 454 through
+% E2 Gene_expression:T16 Theme:T7
+% E3 Positive_regulation:T17 Theme:T8 Cause:E2 Site:T18
+% E4 Positive_regulation:T19 Theme:E3
+
+The major putative downstream site for E2F, located in the first exon, serves as a target for E2F-1/DP1 complex binding in vitro.
+# T9 Protein S4 94 99 568 573 E2F-1
+# T10 Protein S4 100 103 574 577 DP1
+$ T9 Protein S4 94 99 568 573 E2F-1
+$ T10 Protein S4 100 103 574 577 DP1
+@ T20 Binding S4 83 89 557 563 target
+@ T21 Binding S4 104 119 578 593 complex binding
+% E5 Binding:T20 Theme:T9
+% E6 Binding:T20 Theme:T10
+% E7 Binding:T21 Theme:T9 Theme2:T10
+
+We also provide evidence for the functional relationship between the cyclin-like UDG gene product and E2F.
+# T11 Protein S5 81 84 685 688 UDG
+$ T11 Protein S5 81 84 685 688 UDG
+@ T22 Gene_expression S5 90 97 694 701 product
+% E8 Gene_expression:T22 Theme:T11
+
+High levels of UDG expression in a transient transfection assay result in the down-regulation of transcriptional activity through elements specific for E2F-mediated transcription.
+# T12 Protein S6 15 18 726 729 UDG
+$ T12 Protein S6 15 18 726 729 UDG
+@ T23 Positive_regulation S6 0 11 711 722 High levels
+@ T24 Gene_expression S6 19 29 730 740 expression
+% E9 Positive_regulation:T23 Theme:E10
+% E10 Gene_expression:T24 Theme:T12
+
+Overexpression of UDG in Saos 2 cells was observed to delay growth late in G1 phase and transiently arrest these cells from progressing into the S phase.
+# T13 Protein S7 18 21 909 912 UDG
+$ T13 Protein S7 18 21 909 912 UDG
+@ T25 Gene_expression S7 0 14 891 905 Overexpression
+@ T26 Positive_regulation S7 0 14 891 905 Overexpression
+% E11 Gene_expression:T25 Theme:T13
+% E12 Positive_regulation:T26 Theme:E11
+
+This hypothetical model integrates one mechanism of DNA repair with the cell cycle control of gene transcription, likely through E2F.
+
+This implicates E2F as a multifunctional target for proteins and enzymes, possibly, responsive to DNA damage through the negative effect of UDG on E2F-mediated transcriptional activity.
+# T14 Protein S9 140 143 1319 1322 UDG
+

@@ -1,0 +1,66 @@
+beta-(1->3)-D-glucan modulates DNA binding of nuclear factors kappaB, AT and IL-6 leading to an anti-inflammatory shift of the IL-1beta/IL-1 receptor antagonist ratio
+# T1 Protein S1 77 81 77 81 IL-6
+# T2 Protein S1 127 135 127 135 IL-1beta
+# T3 Protein S1 136 160 136 160 IL-1 receptor antagonist
+
+Background
+
+beta-1 to 3-D-glucans represent a pathogen-associated molecular pattern and are able to modify biological responses.
+
+Employing a comprehensive methodological approach, the aim of our in vitro study was to elucidate novel molecular and cellular mechanisms of human peripheral blood immune cells mediated by a fungal beta-1 to 3-D-glucan, i.e. glucan phosphate, in the presence of lipopolysaccharide (LPS) or toxic shock syndrome toxin 1 (TSST-1).
+# T4 Protein S4 290 318 585 613 toxic shock syndrome toxin 1
+# T5 Protein S4 320 326 615 621 TSST-1
+
+Results
+
+Despite an activation of nuclear factor (NF)kappaB, NFinterleukin(IL)-6 and NFAT similar to LPS or TSST-1, we observed no significant production of IL-1beta, IL-6, tumor necrosis factor alpha or interferon gamma induced by glucan phosphate.
+# T6 Protein S6 52 71 684 703 NFinterleukin(IL)-6
+# T7 Protein S6 76 80 708 712 NFAT
+# T8 Protein S6 99 105 731 737 TSST-1
+# T9 Protein S6 148 156 780 788 IL-1beta
+# T10 Protein S6 158 162 790 794 IL-6
+# T11 Protein S6 164 191 796 823 tumor necrosis factor alpha
+# T12 Protein S6 195 211 827 843 interferon gamma
+
+Glucan phosphate-treated leukocytes induced a substantial amount of IL-8 (peak at 18 h: 5000 pg/ml), likely due to binding of NFkappaB to a consensus site in the IL-8 promoter.
+# T13 Protein S7 68 72 941 945 IL-8
+# T14 Protein S7 162 166 1035 1039 IL-8
+
+An increase in IL-1receptor antagonist(RA) production (peak at 24 h: 12000 pg/ml) by glucan phosphate-treated cells positively correlated with IL-8 levels.
+# T15 Protein S8 15 38 1065 1088 IL-1receptor antagonist
+# T16 Protein S8 39 41 1089 1091 RA
+# T17 Protein S8 143 147 1193 1197 IL-8
+
+Glucan phosphate induced significant binding to a known NFIL-6 site and a new NFAT site within the IL-1RA promoter, which was confirmed by inhibition experiments.
+# T18 Protein S9 99 105 1305 1311 IL-1RA
+
+When applied in combination with either LPS or TSST-1 at the same time points, we detected that glucan phosphate elevated the LPS- and the TSST-1-induced DNA binding of NFkappaB, NFIL-6 and NFAT, leading to a synergistic increase of IL-1RA.
+# T19 Protein S10 47 53 1416 1422 TSST-1
+# T20 Protein S10 139 145 1508 1514 TSST-1
+# T21 Protein S10 179 185 1548 1554 NFIL-6
+# T22 Protein S10 190 194 1559 1563 NFAT
+# T23 Protein S10 233 239 1602 1608 IL-1RA
+
+Further, glucan phosphate modulated the TSST-1-induced inflammatory response via reduction of IL-1beta and IL-6.
+# T24 Protein S11 40 46 1650 1656 TSST-1
+# T25 Protein S11 94 102 1704 1712 IL-1beta
+# T26 Protein S11 107 111 1717 1721 IL-6
+
+As a consequence, glucan phosphate shifted the TSST-1-induced IL-1beta/IL-1RA ratio towards an anti-inflammatory phenotype.
+# T27 Protein S12 47 53 1770 1776 TSST-1
+# T28 Protein S12 62 70 1785 1793 IL-1beta
+# T29 Protein S12 71 77 1794 1800 IL-1RA
+
+Subsequently, glucan phosphate decreased the TSST-1-induced, IL-1-dependent production of IL-2.
+# T30 Protein S13 45 51 1892 1898 TSST-1
+# T31 Protein S13 61 65 1908 1912 IL-1
+# T32 Protein S13 90 94 1937 1941 IL-2
+
+Conclusion
+
+Thus, beta-1 to 3-D-glucans may induce beneficial effects in the presence of pro-inflammatory responses, downstream of receptor binding and signaling by switching a pro- to an anti-inflammatory IL-1RA-mediated reaction.
+# T33 Protein S15 194 200 2148 2154 IL-1RA
+
+Our results also offer new insights into the complex regulation of the IL-1RA gene, which can be modulated by a beta-1 to 3-D-glucan.
+# T34 Protein S16 71 77 2245 2251 IL-1RA
+

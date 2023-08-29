@@ -1,0 +1,67 @@
+Induction of Mn SOD in human monocytes without inflammatory cytokine production by a mutant endotoxin.
+# T1 Protein S1 13 19 13 19 Mn SOD
+$ T1 Protein S1 13 19 13 19 Mn SOD
+@ T12 Positive_regulation S1 0 9 0 9 Induction
+% E1 Positive_regulation:T12 Theme:T1
+
+Endotoxin selectively induces monocyte Mn superoxide dismutase (SOD) without affecting levels of Cu,Zn SOD, catalase, or glutathione peroxidase.
+# T2 Protein S2 39 62 143 166 Mn superoxide dismutase
+# T3 Protein S2 97 106 201 210 Cu,Zn SOD
+# T4 Protein S2 108 116 212 220 catalase
+$ T2 Protein S2 39 62 143 166 Mn superoxide dismutase
+$ T3 Protein S2 97 106 201 210 Cu,Zn SOD
+$ T4 Protein S2 108 116 212 220 catalase
+@ T13 Positive_regulation S2 22 29 126 133 induces
+@ T14 Regulation S2 77 86 181 190 affecting
+% E2 Positive_regulation:T13 Theme:T2
+% E3 Regulation:T14 Theme:T3
+% E4 Regulation:T14 Theme:T4
+
+However, little is known about the structure-activity relationship and the mechanism by which endotoxin induces Mn SOD.
+# T5 Protein S3 112 118 361 367 Mn SOD
+$ T5 Protein S3 112 118 361 367 Mn SOD
+@ T15 Positive_regulation S3 104 111 353 360 induces
+% E5 Positive_regulation:T15 Theme:T5
+
+In this study we demonstrated that a mutant Escherichia coli endotoxin lacking myristoyl fatty acid at the 3' R-3-hydroxymyristate position of the lipid A moiety retained its full capacity to coagulate Limulus amoebocyte lysate compared with the wild-type E. coli endotoxin and markedly stimulated the activation of human monocyte nuclear factor-kappaB and the induction of Mn SOD mRNA and enzyme activity.
+# T6 Protein S4 374 380 743 749 Mn SOD
+$ T6 Protein S4 374 380 743 749 Mn SOD
+@ T16 Positive_regulation S4 287 297 656 666 stimulated
+@ T17 Transcription S4 361 370 730 739 induction
+% E6 Positive_regulation:T16 Theme:E7
+% E7 Transcription:T17 Theme:T6
+
+However, in contrast to the wild-type endotoxin, it failed to induce significant production of tumor necrosis factor-alpha and macrophage inflammatory protein-1alpha by monocytes and did not induce the phosphorylation and nuclear translocation of mitogen-activated protein kinase.
+# T7 Protein S5 95 122 871 898 tumor necrosis factor-alpha
+# T8 Protein S5 127 165 903 941 macrophage inflammatory protein-1alpha
+$ T8 Protein S5 127 165 903 941 macrophage inflammatory protein-1alpha
+$ T7 Protein S5 95 122 871 898 tumor necrosis factor-alpha
+@ T18 Positive_regulation S5 62 68 838 844 induce
+@ T19 Gene_expression S5 81 91 857 867 production
+% E8 Positive_regulation:T18 Theme:E11
+% E9 Positive_regulation:T18 Theme:E10
+% E10 Gene_expression:T19 Theme:T8
+% E11 Gene_expression:T19 Theme:T7
+
+These results suggest that 1) lipid A myristoyl fatty acid, although it is important for the induction of inflammatory cytokine production by human monocytes, is not necessary for the induction of Mn SOD, 2) endotoxin-mediated induction of Mn SOD and inflammatory cytokines are regulated, at least in part, through different signal transduction pathways, and 3) failure of the mutant endotoxin to induce tumor necrosis factor-alpha production is, at least in part, due to its inability to activate mitogen-activated protein kinase.
+# T9 Protein S6 197 203 1254 1260 Mn SOD
+# T10 Protein S6 240 246 1297 1303 Mn SOD
+# T11 Protein S6 404 431 1461 1488 tumor necrosis factor-alpha
+$ T9 Protein S6 197 203 1254 1260 Mn SOD
+$ T10 Protein S6 240 246 1297 1303 Mn SOD
+$ T11 Protein S6 404 431 1461 1488 tumor necrosis factor-alpha
+@ T20 Positive_regulation S6 166 175 1223 1232 necessary
+@ T21 Positive_regulation S6 184 193 1241 1250 induction
+@ T22 Positive_regulation S6 227 236 1284 1293 induction
+@ T23 Regulation S6 278 287 1335 1344 regulated
+@ T24 Positive_regulation S6 397 403 1454 1460 induce
+@ T25 Gene_expression S6 432 442 1489 1499 production
+@ T26 Positive_regulation S6 465 468 1522 1525 due
+% E12 Positive_regulation:T20 Theme:E13
+% E13 Positive_regulation:T21 Theme:T9
+% E14 Positive_regulation:T22 Theme:T10
+% E15 Regulation:T23 Theme:E14
+% E16 Positive_regulation:T24 Theme:E17
+% E17 Gene_expression:T25 Theme:T11
+% E18 Positive_regulation:T26 Theme:E16
+

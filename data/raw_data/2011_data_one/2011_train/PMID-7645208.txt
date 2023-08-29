@@ -1,0 +1,46 @@
+Infection and replication of Tat- human immunodeficiency viruses: genetic analyses of LTR and tat mutations in primary and long-term human lymphoid cells.
+# T1 Protein S1 29 32 29 32 Tat
+# T2 Protein S1 94 97 94 97 tat
+
+Tat is an essential regulatory protein for the replication of human immunodeficiency virus (HIV).
+# T3 Protein S2 0 3 156 159 Tat
+
+Mutations in the tat gene have been shown to block HIV replication in human T cells.
+# T4 Protein S3 17 20 271 274 tat
+
+Several studies have established that Tat releases an elongation block to the transcription of HIV long terminal repeat (LTR); however, it is not known whether this mechanism alone is sufficient to explain the block to HIV replication in human T cells when Tat is absent.
+# T5 Protein S4 38 41 377 380 Tat
+# T6 Protein S4 257 260 596 599 Tat
+$ T6 Protein S4 257 260 596 599 Tat
+@ T18 Negative_regulation S4 264 270 603 609 absent
+% E1 Negative_regulation:T18 Theme:T6
+
+It is possible that Tat is also needed for other functions during HIV replication.
+# T7 Protein S5 20 23 631 634 Tat
+
+To test these hypotheses, we studied several tat mutants, including two stop codon mutants and one deletion mutant using replication-competent HIV-1 constructs carrying wild-type or mutant LTRs with modifications in the NF-kappa B and/or Sp1 binding sites.
+# T8 Protein S6 45 48 739 742 tat
+# T9 Protein S6 238 241 932 935 Sp1
+
+In this study, we show that Tat- HIV-1 with wild-type LTRs can replicate in HeLa cells, and the virus produced from HeLa cells can infect primary peripheral blood lymphocytes and macrophages.
+# T10 Protein S7 28 31 979 982 Tat
+
+It was found that the propagation of the Tat mutants containing wild-type LTRs was less efficient than that of the LTR-modified Tat mutants.
+# T11 Protein S8 41 44 1184 1187 Tat
+# T12 Protein S8 128 131 1271 1274 Tat
+
+Large amounts of viral RNA and particles were synthesized in infections established using the tat mutants that contain modified LTRs.
+# T13 Protein S9 94 97 1378 1381 tat
+
+However, this efficient propagation of the LTR-modified tat mutants was restricted to some lymphoid cell lines that have been transformed with other viruses.
+# T14 Protein S10 56 59 1474 1477 tat
+
+Thus, despite its essential role for releasing an elongation block, Tat is not otherwise absolutely required for synthesis of full-length HIV transcripts and assembly of virus particles.
+# T15 Protein S11 68 71 1644 1647 Tat
+
+Direct sequencing of the viral genomes and reinfection kinetics showed no evidence of wild-type reversion even after prolonged infection with the Tat- virus.
+# T16 Protein S12 146 149 1909 1912 Tat
+
+The implications for in vivo HIV-1 replication and potential application of this system to the study of alternative Tat function are discussed.
+# T17 Protein S13 116 119 2037 2040 Tat
+

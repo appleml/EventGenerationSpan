@@ -1,0 +1,138 @@
+Online supplemental material.
+
+Fig.
+
+S1 shows the induction of RUNX1, RUNX3, and FOXP3 mRNA in human CD4+ T cells after anti-CD2/3/28 mAb and TGF-beta stimulation.
+# T1 Protein S3 26 31 61 66 RUNX1
+# T2 Protein S3 33 38 68 73 RUNX3
+# T3 Protein S3 44 49 79 84 FOXP3
+# T4 Protein S3 64 67 99 102 CD4
+# T5 Protein S3 88 91 123 126 CD2
+# T6 Protein S3 92 93 127 128 3
+# T7 Protein S3 94 96 129 131 28
+# T8 Protein S3 105 113 140 148 TGF-beta
+$ T1 Protein S3 26 31 61 66 RUNX1
+$ T2 Protein S3 33 38 68 73 RUNX3
+$ T3 Protein S3 44 49 79 84 FOXP3
+@ T47 Positive_regulation S3 13 22 48 57 induction
+@ T48 Transcription S3 50 54 85 89 mRNA
+% E1 Positive_regulation:T47 Theme:E2
+% E3 Positive_regulation:T47 Theme:E4
+% E5 Positive_regulation:T47 Theme:E6
+% E2 Transcription:T48 Theme:T1
+% E4 Transcription:T48 Theme:T2
+% E6 Transcription:T48 Theme:T3
+
+Fig.
+
+S2 shows decreased RUNX1 and RUNX3 mRNA and protein expression after siRNA-mediated knockdown and decreased FOXP3 expression in human CD4+ T cells after RUNX1 and RUNX3 knockdown.
+# T9 Protein S5 19 24 186 191 RUNX1
+# T10 Protein S5 29 34 196 201 RUNX3
+# T11 Protein S5 108 113 275 280 FOXP3
+# T12 Protein S5 134 137 301 304 CD4
+# T13 Protein S5 153 158 320 325 RUNX1
+# T14 Protein S5 163 168 330 335 RUNX3
+$ T9 Protein S5 19 24 186 191 RUNX1
+$ T10 Protein S5 29 34 196 201 RUNX3
+$ T11 Protein S5 108 113 275 280 FOXP3
+$ T13 Protein S5 153 158 320 325 RUNX1
+$ T14 Protein S5 163 168 330 335 RUNX3
+@ T49 Negative_regulation S5 9 18 176 185 decreased
+@ T50 Transcription S5 35 39 202 206 mRNA
+@ T51 Positive_regulation S5 75 83 242 250 mediated
+@ T52 Negative_regulation S5 84 93 251 260 knockdown
+@ T53 Negative_regulation S5 98 107 265 274 decreased
+@ T54 Gene_expression S5 114 124 281 291 expression
+@ T55 Negative_regulation S5 169 178 336 345 knockdown
+% E7 Negative_regulation:T49 Theme:E8 Cause:E9
+% E10 Negative_regulation:T49 Theme:E8 Cause:E11
+% E12 Negative_regulation:T49 Theme:E8 Cause:E13
+% E14 Negative_regulation:T49 Theme:E15 Cause:E9
+% E16 Negative_regulation:T49 Theme:E15 Cause:E11
+% E17 Negative_regulation:T49 Theme:E15 Cause:E13
+% E8 Transcription:T50 Theme:T9
+% E15 Transcription:T50 Theme:T10
+% E18 Positive_regulation:T51 Theme:E9
+% E9 Negative_regulation:T52 Theme:E19
+% E11 Negative_regulation:T53 Theme:E19 Cause:E20
+% E13 Negative_regulation:T53 Theme:E19 Cause:E21
+% E19 Gene_expression:T54 Theme:T11
+% E20 Negative_regulation:T55 Theme:T13
+% E21 Negative_regulation:T55 Theme:T14
+
+Fig.
+
+S3 shows the quantification of IL-4, IL-5, IL-10, IL-13, and IFN-gamma levels in control siRNA transfected or RUNX1 and RUNX3 siRNA transfected human CD4+ T cells.
+# T15 Protein S7 31 35 383 387 IL-4
+# T16 Protein S7 37 41 389 393 IL-5
+# T17 Protein S7 43 48 395 400 IL-10
+# T18 Protein S7 50 55 402 407 IL-13
+# T19 Protein S7 61 70 413 422 IFN-gamma
+# T20 Protein S7 110 115 462 467 RUNX1
+# T21 Protein S7 120 125 472 477 RUNX3
+# T22 Protein S7 150 153 502 505 CD4
+$ T20 Protein S7 110 115 462 467 RUNX1
+$ T21 Protein S7 120 125 472 477 RUNX3
+@ T56 Negative_regulation S7 126 131 478 483 siRNA
+% E22 Negative_regulation:T56 Theme:T20
+% E23 Negative_regulation:T56 Theme:T21
+
+Fig.
+
+S4 shows the putative RUNX binding sites in the FOXP3 core promoter sequence of human, mouse, and rat.
+# T23 Protein S9 48 53 569 574 FOXP3
+
+Fig.
+
+S5 shows the induction of FOXP3 protein after overexpression of RUNX1 and RUNX3 in human CD4+ T cells.
+# T24 Protein S11 26 31 655 660 FOXP3
+# T25 Protein S11 64 69 693 698 RUNX1
+# T26 Protein S11 74 79 703 708 RUNX3
+# T27 Protein S11 89 92 718 721 CD4
+$ T24 Protein S11 26 31 655 660 FOXP3
+$ T25 Protein S11 64 69 693 698 RUNX1
+$ T26 Protein S11 74 79 703 708 RUNX3
+@ T57 Positive_regulation S11 13 22 642 651 induction
+@ T58 Gene_expression S11 46 60 675 689 overexpression
+% E24 Positive_regulation:T57 Theme:T24 Cause:E25
+% E26 Positive_regulation:T57 Theme:T24 Cause:E27
+% E25 Gene_expression:T58 Theme:T25
+% E27 Gene_expression:T58 Theme:T26
+
+Fig.
+
+S6 shows that endogenous IL-4 and IFN-gamma do not effect Foxp3 expression in naive CD4+ T cells of CbfbF/F CD4-cre and CbfbF/F control mice, which were stimulated with anti-CD3 and anti-CD28 mAbs, IL-2 and TGF-beta in the absence or presence of anti-IL-4 and anti-IFN-gamma neutralizing mAbs.
+# T28 Protein S13 25 29 762 766 IL-4
+# T29 Protein S13 34 43 771 780 IFN-gamma
+# T30 Protein S13 58 63 795 800 Foxp3
+# T31 Protein S13 84 87 821 824 CD4
+# T32 Protein S13 100 104 837 841 Cbfb
+# T33 Protein S13 108 115 845 852 CD4-cre
+# T34 Protein S13 120 124 857 861 Cbfb
+# T35 Protein S13 174 177 911 914 CD3
+# T36 Protein S13 187 191 924 928 CD28
+# T37 Protein S13 198 202 935 939 IL-2
+# T38 Protein S13 207 215 944 952 TGF-beta
+# T39 Protein S13 251 255 988 992 IL-4
+# T40 Protein S13 265 274 1002 1011 IFN-gamma
+$ T28 Protein S13 25 29 762 766 IL-4
+$ T29 Protein S13 34 43 771 780 IFN-gamma
+$ T30 Protein S13 58 63 795 800 Foxp3
+@ T59 Regulation S13 51 57 788 794 effect
+@ T60 Gene_expression S13 64 74 801 811 expression
+% E28 Regulation:T59 Theme:E29 Cause:T28
+% E30 Regulation:T59 Theme:E29 Cause:T29
+% E29 Gene_expression:T60 Theme:T30
+
+Fig.
+
+S7 shows similar cell death (A) and proliferation (B) of Foxp3+ and Foxp3- cells in CbfbF/F CD4-cre and CbfbF/F control mice cultures.
+# T41 Protein S15 57 62 1093 1098 Foxp3
+# T42 Protein S15 68 73 1104 1109 Foxp3
+# T43 Protein S15 84 88 1120 1124 Cbfb
+# T44 Protein S15 92 95 1128 1131 CD4
+# T45 Protein S15 96 99 1132 1135 cre
+# T46 Protein S15 104 108 1140 1144 Cbfb
+
+Online supplemental material is available at http://www.jem.org/cgi/content/full/jem.20090596/DC1.
+

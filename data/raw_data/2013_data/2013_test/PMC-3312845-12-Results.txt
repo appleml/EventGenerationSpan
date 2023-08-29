@@ -1,0 +1,26 @@
+TNF-alpha, and TNF receptor expression
+# T1 Protein S1 0 9 0 9 TNF-alpha
+
+In non-SE induced animals of the saline-infused groups, TNF-alpha immunoreactivity was weakly detected in PC neurons (data not shown).
+# T2 Protein S2 56 65 95 104 TNF-alpha
+
+In 12 hr-post SE animals of the saline-infused group, most of the activated microglia showed strong TNF-alpha immunoreactivity (Figure 1A).
+# T3 Protein S3 100 109 274 283 TNF-alpha
+
+This expression pattern was maintained up to 1 week after SE.
+
+In non-SE-induced animals of the saline-infused groups, TNFp55R and TNFp75R immunoreactivities were also weakly observed in astrocytes (data not shown).
+# T4 Protein S5 56 63 432 439 TNFp55R
+# T5 Protein S5 68 75 444 451 TNFp75R
+
+In 12 hr-post SE animals of the saline-infused group, TNFp55R immunoreactivity was observed in astrocytes (Figure 1B).
+# T6 Protein S6 54 61 583 590 TNFp55R
+
+Unlike TNFp55R, TNFp75R immunoreactivity was detected in endothelial cells as well as astrocytes (Figures 1C-E).
+# T7 Protein S7 7 14 655 662 TNFp55R
+# T8 Protein S7 16 23 664 671 TNFp75R
+
+One day to 1 week after SE, both TNFp55R and TNFp75R immunoreactivities were significantly reduced in astrocytes, not in endothelial cells, due to massive astroglial loss (data not shown) [5,7,8,20].
+# T9 Protein S8 33 40 794 801 TNFp55R
+# T10 Protein S8 45 52 806 813 TNFp75R
+

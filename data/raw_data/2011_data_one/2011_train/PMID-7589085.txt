@@ -1,0 +1,33 @@
+CD30 ligation induces nuclear factor-kappa B activation in human T cell lines.
+# T1 Protein S1 0 4 0 4 CD30
+$ T1 Protein S1 0 4 0 4 CD30
+@ T11 Binding S1 5 13 5 13 ligation
+% E1 Binding:T11 Theme:T1
+
+CD30 is a recently described member of the tumor necrosis factor/nerve growth factor receptor superfamily.
+# T2 Protein S2 0 4 80 84 CD30
+
+In this report, we show that following incubation of L540 cells (Hodgkin's disease-derived, T cell-like, CD30+ cells) with the agonistic anti-CD30 monoclonal antibodies (mAb) M44 and M67, two nuclear factor (NF)-kappa B DNA binding activities were induced in nuclear extracts, as determined in gel retardation assays.
+# T3 Protein S3 105 109 292 296 CD30
+# T4 Protein S3 142 146 329 333 CD30
+
+The effect of the mAb towards NF-kappa B activation was rapid, as it occurred within 20 min, and was sustained for up to 6 h. By comparison, an isotype-matched antibody had no effect on NF-kappa B activation.
+
+Moreover, in human T helper (Th) clones functionally characterized as being of the type 0, type 1 and type 2 (28%, < 1% und 93% CD30+, respectively), the extent of CD30-mediated NF-kappa B activation correlated with the proportion of CD30+ cells.
+# T5 Protein S5 164 168 878 882 CD30
+# T6 Protein S5 234 238 948 952 CD30
+
+In all cell lines investigated, the NF-kappa B complexes induced following CD30 engagement were shown to contain p50 NF-kappa B1, p65 RelA, and possibly other transcription factors.
+# T7 Protein S6 75 79 1036 1040 CD30
+# T8 Protein S6 113 128 1074 1089 p50 NF-kappa B1
+# T9 Protein S6 130 138 1091 1099 p65 RelA
+$ T7 Protein S6 75 79 1036 1040 CD30
+@ T12 Binding S6 80 90 1041 1051 engagement
+% E2 Binding:T12 Theme:T7
+
+Collectively, our results demonstrate that nuclear translocation and activation of NF-kappa B rank among the short-term cellular responses elicited following CD30 ligation.
+# T10 Protein S7 158 162 1301 1305 CD30
+$ T10 Protein S7 158 162 1301 1305 CD30
+@ T13 Binding S7 163 171 1306 1314 ligation
+% E3 Binding:T13 Theme:T10
+

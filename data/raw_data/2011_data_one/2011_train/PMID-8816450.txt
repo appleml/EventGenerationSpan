@@ -1,0 +1,48 @@
+Analysis of the ligand-binding domain of human retinoic acid receptor alpha by site-directed mutagenesis.
+# T1 Protein S1 41 75 41 75 human retinoic acid receptor alpha
+$ T1 Protein S1 41 75 41 75 human retinoic acid receptor alpha
+@ T10 Binding S1 23 30 23 30 binding
+% E1 Binding:T10 Theme:T1
+
+Three subtypes of retinoic acid receptors (RAR), termed RAR alpha, RAR beta, and RAR gamma, have been described.
+# T2 Protein S2 56 65 163 172 RAR alpha
+# T3 Protein S2 67 75 174 182 RAR beta
+# T4 Protein S2 81 90 188 197 RAR gamma
+
+They are composed of different structural domains, including distinct domains for DNA and ligand binding.
+
+RARs specifically bind all-trans-retinoic acid (RA), 9-cis-RA, and retinoid analogs.
+
+In this study, we examined the functional role of cysteine and arginine residues in the ligand-binding domain of hRAR alpha (hRAR alpha-LBD, amino acids 154 to 462).
+# T5 Protein S5 113 123 524 534 hRAR alpha
+# T6 Protein S5 125 135 536 546 hRAR alpha
+
+All conserved cysteine and arginine residues in this domain were mutated by site-directed mutagenesis, and the mutant proteins were characterized by blocking reactions, ligand-binding experiments, transactivation assays, and protease mapping.
+
+Changes of any cysteine residue of the hRAR alpha-LBD had no significant influence on the binding of all-trans RA or 9-cis RA.
+# T7 Protein S7 39 49 859 869 hRAR alpha
+
+Interestingly, residue C-235 is specifically important in antagonist binding.
+
+With respect to arginine residues, only the two single mutations of R-276 and R-394 to alanine showed a dramatic decrease of agonist and antagonist binding whereas the R272A mutation showed only a slight effect.
+
+For all other arginine mutations, no differences in affinity were detectable.
+
+The two mutations R217A and R294A caused an increased binding efficiency for antagonists but no change in agonist binding.
+
+From these results, we can conclude that electrostatic interactions of retinoids with the RAR alpha-LBD play a significant role in ligand binding.
+# T8 Protein S12 90 99 1528 1537 RAR alpha
+$ T8 Protein S12 90 99 1528 1537 RAR alpha
+@ T11 Positive_regulation S12 111 127 1549 1565 significant role
+@ T12 Binding S12 138 145 1576 1583 binding
+% E2 Positive_regulation:T11 Theme:E3
+% E3 Binding:T12 Theme:T8
+
+In addition, antagonists show distinctly different requirements for efficient binding, which may contribute to their interference in the ligand-inducible transactivation function of RAR alpha.
+# T9 Protein S13 182 191 1767 1776 RAR alpha
+$ T9 Protein S13 182 191 1767 1776 RAR alpha
+@ T13 Negative_regulation S13 117 129 1702 1714 interference
+@ T14 Positive_regulation S13 154 169 1739 1754 transactivation
+% E4 Negative_regulation:T13 Theme:E5
+% E5 Positive_regulation:T14 Theme:T9
+

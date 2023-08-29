@@ -1,0 +1,42 @@
+M-CSF-induced PKC activity does not regulate IkappaBalpha degradation but regulates the phosphorylation of NF-kappaB p65 at Ser276.
+# T1 Protein S1 45 57 45 57 IkappaBalpha
+# T2 Protein S1 117 120 117 120 p65
+$ T1 Protein S1 45 57 45 57 IkappaBalpha
+$ T2 Protein S1 117 120 117 120 p65
+@ T5 Regulation S1 36 44 36 44 regulate
+@ T6 Protein_catabolism S1 58 69 58 69 degradation
+@ T7 Regulation S1 74 83 74 83 regulates
+@ T8 Phosphorylation S1 88 103 88 103 phosphorylation
+@ T9 Entity S1 124 130 124 130 Ser276
+% E1 Regulation:T5 Theme:E2
+% E2 Protein_catabolism:T6 Theme:T1
+% E3 Regulation:T7 Theme:E4
+% E4 Phosphorylation:T8 Theme:T2 Site:T9
+
+(A) MDMs were pretreated with cycloheximide (CHX) in the absence or presence of Ro-31-8220 for 30 minutes prior to M-CSF stimulation for the indicated times.
+
+Whole cell lysates were subjected to Western blotting with anti-IkappaBalpha antibody.
+
+Data are representative of three independent experiments.
+
+(B) MDMs were pretreated with either vehicle or Ro-31-8220 for 30 minutes before the addition of M-CSF for 10 minutes.
+
+Whole cell lysates were resolved by SDS-PAGE and phospho-Ser276 or phospho-Ser536 of NF-kappaB p65 was detected using phospho-specific antibodies to either residue of NF-kappaB p65.
+# T3 Protein S6 95 98 649 652 p65
+# T4 Protein S6 177 180 731 734 p65
+$ T3 Protein S6 95 98 649 652 p65
+@ T10 Phosphorylation S6 49 56 603 610 phospho
+@ T11 Entity S6 57 63 611 617 Ser276
+@ T12 Phosphorylation S6 67 74 621 628 phospho
+@ T13 Entity S6 75 81 629 635 Ser536
+% E5 Phosphorylation:T10 Theme:T3 Site:T11
+% E6 Phosphorylation:T12 Theme:T3 Site:T13
+
+(C) Whole cell lysates of RAW 264.7 cells treated with vehicle control or Ro-31-8220 in the absence or presence of M-CSF were subjected to Western blot analysis with phospho-Ser276 or phospho-Ser536 NF-kappaB p65 antibodies.
+
+(D) Cytosolic and nuclear fractions of RAW 264.7 were obtained from the treated cells and immunoblotted for phospho-NF-kappaB.
+
+The purity of the cytosolic and nuclear fractions was confirmed by immunoblotting with GAPDH and Lamin B, respectively.
+
+Shown are representative blots from three independent experiments.
+

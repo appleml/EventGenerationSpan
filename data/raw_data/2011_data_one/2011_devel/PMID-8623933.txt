@@ -1,0 +1,116 @@
+Human T lymphotropic virus-I infection of human T lymphocytes induces expression of the beta-galactoside-binding lectin, galectin-3.
+# T1 Protein S1 121 131 121 131 galectin-3
+$ T1 Protein S1 121 131 121 131 galectin-3
+@ T24 Positive_regulation S1 62 69 62 69 induces
+@ T25 Gene_expression S1 70 80 70 80 expression
+% E1 Positive_regulation:T24 Theme:E2
+% E2 Gene_expression:T25 Theme:T1
+
+Animal lectins play important roles in a variety of biological processes via their recognition of glycoconjugates.
+
+Galectin-3 is a beta-galactoside-binding lectin previously designated as epsilon BP (IgE-binding protein), CBP35, Mac-2, L-29, and L-34, and its expression has been associated with various physiological and pathological processes, including cell growth, tumor transformation, and metastasis.
+# T2 Protein S3 0 10 249 259 Galectin-3
+# T3 Protein S3 73 83 322 332 epsilon BP
+# T4 Protein S3 85 104 334 353 IgE-binding protein
+# T5 Protein S3 107 112 356 361 CBP35
+# T6 Protein S3 114 119 363 368 Mac-2
+# T7 Protein S3 121 125 370 374 L-29
+# T8 Protein S3 131 135 380 384 L-34
+$ T2 Protein S3 0 10 249 259 Galectin-3
+@ T26 Gene_expression S3 145 155 394 404 expression
+% E3 Gene_expression:T26 Theme:T2
+
+Galectin-3 is widely distributed in various tissues and cell types and is expressed in many leukocytes, with the notable exception of B and T lymphocytes.
+# T9 Protein S4 0 10 541 551 Galectin-3
+$ T9 Protein S4 0 10 541 551 Galectin-3
+@ T27 Gene_expression S4 21 32 562 573 distributed
+@ T28 Gene_expression S4 74 83 615 624 expressed
+% E4 Gene_expression:T27 Theme:T9
+% E5 Gene_expression:T28 Theme:T9
+
+We now report that galectin-3 is abundantly expressed in a number of human T lymphotropic virus (HTLV)-I-infected human T cell lines, including F6T, HUT 102, K3T, MT-2, and SLB-I, but is not expressed in non-HTLV-I-infected T cell lines such as Jurkat, CEM, and MOLT-4.
+# T10 Protein S5 19 29 715 725 galectin-3
+$ T10 Protein S5 19 29 715 725 galectin-3
+@ T29 Gene_expression S5 44 53 740 749 expressed
+@ T30 Gene_expression S5 191 200 887 896 expressed
+% E6 Gene_expression:T29 Theme:T10
+% E7 Gene_expression:T30 Theme:T10
+
+In addition, the galectin-3 level was markedly increased in human thymocytes after infection with HTLV-I as compared with uninfected thymocytes.
+# T11 Protein S6 17 27 983 993 galectin-3
+$ T11 Protein S6 17 27 983 993 galectin-3
+@ T31 Positive_regulation S6 47 56 1013 1022 increased
+% E8 Positive_regulation:T31 Theme:T11
+
+The up-regulation of galectin-3 expression appeared to correlate well with HTLV-I gene expression, as undetectable or very low levels of galectin-3 were found in the S1T and ATL-1K cell lines, which are nonproductively infected with HTLV-I.
+# T12 Protein S7 21 31 1132 1142 galectin-3
+# T13 Protein S7 137 147 1248 1258 galectin-3
+$ T12 Protein S7 21 31 1132 1142 galectin-3
+$ T13 Protein S7 137 147 1248 1258 galectin-3
+@ T32 Positive_regulation S7 4 17 1115 1128 up-regulation
+@ T33 Gene_expression S7 32 42 1143 1153 expression
+@ T34 Gene_expression S7 102 114 1213 1225 undetectable
+@ T35 Gene_expression S7 123 133 1234 1244 low levels
+% E9 Positive_regulation:T32 Theme:E10
+% E10 Gene_expression:T33 Theme:T12
+% E11 Gene_expression:T34 Theme:T13
+% E12 Gene_expression:T35 Theme:T13
+
+In co-transfection experiments, the galectin-3 promoter was significantly up-regulated by expression vectors encoding the 40-kd Tax protein, a potent transactivator in HTLV-I.
+# T14 Protein S8 36 46 1388 1398 galectin-3
+# T15 Protein S8 128 131 1480 1483 Tax
+$ T14 Protein S8 36 46 1388 1398 galectin-3
+$ T15 Protein S8 128 131 1480 1483 Tax
+@ T36 Entity S8 47 55 1399 1407 promoter
+@ T37 Positive_regulation S8 74 86 1426 1438 up-regulated
+% E13 Positive_regulation:T37 Theme:T14 Cause:T15 Site:T36
+
+Analysis of various Tax mutants suggested that galectin-3 promoter induction is dependent on activation of the cyclic-AMP-responsive element binding protein/activation transcription factor family of transcription factors and, to a lesser extent, nuclear factor-kappa B/Rel induction.
+# T16 Protein S9 20 23 1548 1551 Tax
+# T17 Protein S9 47 57 1575 1585 galectin-3
+$ T17 Protein S9 47 57 1575 1585 galectin-3
+@ T38 Entity S9 58 66 1586 1594 promoter
+@ T39 Positive_regulation S9 67 76 1595 1604 induction
+@ T40 Positive_regulation S9 80 89 1608 1617 dependent
+% E14 Positive_regulation:T39 Theme:T17 Site:T38
+% E15 Positive_regulation:T40 Theme:E14
+
+Transfection of human promonocytic U-937 cells with an HTLV-I Tax expression vector induced galectin-3 expression in this cell line.
+# T18 Protein S10 62 65 1874 1877 Tax
+# T19 Protein S10 92 102 1904 1914 galectin-3
+$ T18 Protein S10 62 65 1874 1877 Tax
+$ T19 Protein S10 92 102 1904 1914 galectin-3
+@ T41 Positive_regulation S10 0 12 1812 1824 Transfection
+@ T42 Gene_expression S10 0 12 1812 1824 Transfection
+@ T43 Positive_regulation S10 84 91 1896 1903 induced
+@ T44 Gene_expression S10 103 113 1915 1925 expression
+% E16 Positive_regulation:T41 Theme:E17
+% E17 Gene_expression:T42 Theme:T18
+% E18 Positive_regulation:T43 Theme:E19 Cause:E16
+% E19 Gene_expression:T44 Theme:T19
+
+Functionally, galectin-3 was shown to activate interleukin-2 production in Jurkat T cells.
+# T20 Protein S11 14 24 1959 1969 galectin-3
+# T21 Protein S11 47 60 1992 2005 interleukin-2
+$ T20 Protein S11 14 24 1959 1969 galectin-3
+$ T21 Protein S11 47 60 1992 2005 interleukin-2
+@ T45 Positive_regulation S11 38 46 1983 1991 activate
+@ T46 Gene_expression S11 61 71 2006 2016 production
+% E20 Positive_regulation:T45 Theme:E21 Cause:T20
+% E21 Gene_expression:T46 Theme:T21
+
+Together, these findings raise the possibility that HTLV-I Tax production induces the transcription and subsequent synthesis and secretion of galectin-3, which in turn may further activate these T cells and contribute to the altered properties of cell growth found in adult T cell leukemia induced by HTLV-I.
+# T22 Protein S12 59 62 2095 2098 Tax
+# T23 Protein S12 142 152 2178 2188 galectin-3
+$ T22 Protein S12 59 62 2095 2098 Tax
+$ T23 Protein S12 142 152 2178 2188 galectin-3
+@ T47 Gene_expression S12 63 73 2099 2109 production
+@ T48 Positive_regulation S12 74 81 2110 2117 induces
+@ T49 Transcription S12 86 99 2122 2135 transcription
+@ T50 Localization S12 129 138 2165 2174 secretion
+% E22 Gene_expression:T47 Theme:T22
+% E23 Positive_regulation:T48 Theme:E26 Cause:E22
+% E24 Positive_regulation:T48 Theme:E25 Cause:E22
+% E25 Transcription:T49 Theme:T23
+% E26 Localization:T50 Theme:T23
+

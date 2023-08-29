@@ -1,0 +1,62 @@
+Sequential development of structural and functional alterations in T cells from tumor-bearing mice.
+
+The TCR alpha beta or -gamma delta chains bind the peptide ligand, whereas the associated CD3 deltaepsilongamma and TCR zeta subunits couple the TCR to intracellular signal transduction components.
+# T1 Protein S2 90 99 191 200 CD3 delta
+# T2 Protein S2 99 106 200 207 epsilon
+# T3 Protein S2 106 111 207 212 gamma
+# T4 Protein S2 116 124 217 225 TCR zeta
+
+Recently, several groups have described marked alterations in signal transduction elements in T cells from cancer patients or in mice bearing tumor for a few weeks (>26 days).
+
+The sequence in which these alterations develop is unknown.
+
+The aim of this study was to explore the kinetics of the development of alterations in signal transduction molecules (TCR zeta chain, NF kappaB family proteins, and tyrosine kinase p56(lck)) in mice bearing MC38 colon adenocarcinoma.
+# T5 Protein S5 118 132 653 667 TCR zeta chain
+# T6 Protein S5 165 189 700 724 tyrosine kinase p56(lck)
+
+The results demonstrate that alterations in NF kappaB family proteins, specifically the failure of p65 translocation to the nucleus, occur earlier and more frequently than the decrease in zeta-chain.
+# T7 Protein S6 99 102 868 871 p65
+$ T7 Protein S6 99 102 868 871 p65
+@ T12 Negative_regulation S6 88 95 857 864 failure
+@ T13 Localization S6 103 116 872 885 translocation
+@ T14 Entity S6 124 131 893 900 nucleus
+@ T15 Positive_regulation S6 133 138 902 907 occur
+@ T16 Negative_regulation S6 176 184 945 953 decrease
+% E1 Negative_regulation:T12 Theme:E2
+% E2 Localization:T13 Theme:T7 ToLoc:T14
+% E3 Positive_regulation:T15 Theme:E1
+% E4 Negative_regulation:T16 Theme:T5
+
+These defects are paralleled by an impaired ability to produce Th1 cytokines (IL-2 and IFN-gamma).
+# T8 Protein S7 78 82 1047 1051 IL-2
+# T9 Protein S7 87 96 1056 1065 IFN-gamma
+$ T8 Protein S7 78 82 1047 1051 IL-2
+$ T9 Protein S7 87 96 1056 1065 IFN-gamma
+@ T17 Positive_regulation S7 18 28 987 997 paralleled
+@ T18 Negative_regulation S7 35 51 1004 1020 impaired ability
+@ T19 Gene_expression S7 55 62 1024 1031 produce
+% E5 Positive_regulation:T17 Theme:E8 Cause:E1
+% E6 Positive_regulation:T17 Theme:E7 Cause:E1
+% E7 Negative_regulation:T18 Theme:E10
+% E8 Negative_regulation:T18 Theme:E9
+% E9 Gene_expression:T19 Theme:T8
+% E10 Gene_expression:T19 Theme:T9
+
+These initial changes are followed by the eventual loss of TCR zeta chain and p56(lck) and a marked decrease in cytotoxic function.
+# T10 Protein S8 59 73 1127 1141 TCR zeta chain
+# T11 Protein S8 78 86 1146 1154 p56(lck)
+$ T11 Protein S8 78 86 1146 1154 p56(lck)
+$ T10 Protein S8 59 73 1127 1141 TCR zeta chain
+@ T20 Positive_regulation S8 26 34 1094 1102 followed
+@ T21 Negative_regulation S8 51 55 1119 1123 loss
+% E11 Positive_regulation:T20 Theme:E17 Cause:E8
+% E12 Positive_regulation:T20 Theme:E17 Cause:E7
+% E13 Positive_regulation:T20 Theme:E18 Cause:E1
+% E14 Positive_regulation:T20 Theme:E17 Cause:E1
+% E15 Positive_regulation:T20 Theme:E18 Cause:E7
+% E16 Positive_regulation:T20 Theme:E18 Cause:E8
+% E17 Negative_regulation:T21 Theme:T11
+% E18 Negative_regulation:T21 Theme:T10
+
+An increased rate of lysosomal degradation is one of the mechanisms responsible for the loss of zeta-chain.
+

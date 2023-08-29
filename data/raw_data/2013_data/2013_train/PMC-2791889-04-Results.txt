@@ -1,0 +1,84 @@
+High Antigen Doses and STAT4 Are Required for the In Vivo Generation of IL-10-Producing Th1 Cells
+# T1 Protein S1 23 28 23 28 STAT4
+# T2 Protein S1 72 77 72 77 IL-10
+$ T2 Protein S1 72 77 72 77 IL-10
+@ T22 Gene_expression S1 78 87 78 87 Producing
+% E1 Gene_expression:T22 Theme:T2
+
+To address the mechanisms regulating IL-10 production by Th1 cells in vivo, we transferred DO11.10 cells into BALB/c recipient mice and immunized the recipients with very high doses of OVA-protein with or without added lipopolysacharide (LPS).
+# T3 Protein S2 37 42 135 140 IL-10
+# T4 Protein S2 185 188 283 286 OVA
+$ T3 Protein S2 37 42 135 140 IL-10
+@ T23 Regulation S2 26 36 124 134 regulating
+@ T24 Gene_expression S2 43 53 141 151 production
+% E2 Regulation:T23 Theme:E3
+% E3 Gene_expression:T24 Theme:T3
+
+T cells were recovered from the inguinal lymph nodes 3 days after priming and restimulated in vitro with OVA peptide for 48 hr.
+# T5 Protein S3 105 108 447 450 OVA
+
+This in vivo immunization induced IL-10 and IFN-gamma production, and the amount of IL-10 production was enhanced by addition of LPS in the immunization (Figure 3A) and with higher doses of OVA (3 muM versus 1 muM, data not shown).
+# T6 Protein S4 34 39 504 509 IL-10
+# T7 Protein S4 44 53 514 523 IFN-gamma
+# T8 Protein S4 84 89 554 559 IL-10
+# T9 Protein S4 190 193 660 663 OVA
+$ T6 Protein S4 34 39 504 509 IL-10
+$ T7 Protein S4 44 53 514 523 IFN-gamma
+$ T8 Protein S4 84 89 554 559 IL-10
+$ T9 Protein S4 190 193 660 663 OVA
+@ T25 Positive_regulation S4 26 33 496 503 induced
+@ T26 Gene_expression S4 54 64 524 534 production
+@ T27 Gene_expression S4 90 100 560 570 production
+@ T28 Positive_regulation S4 105 113 575 583 enhanced
+% E4 Positive_regulation:T25 Theme:E5
+% E6 Positive_regulation:T25 Theme:E7
+% E5 Gene_expression:T26 Theme:T6
+% E7 Gene_expression:T26 Theme:T7
+% E8 Gene_expression:T27 Theme:T8
+% E9 Positive_regulation:T28 Theme:E8 Cause:T9
+
+To test the role of STAT4 and STAT6 signaling in the in vivo development of IL-10-producing Th1 cells, we transferred STAT4- or STAT6-deficient or WT DO11.10 cells into recipient BALB/c mice and immunized with OVA-protein plus LPS as before.
+# T10 Protein S5 20 25 722 727 STAT4
+# T11 Protein S5 30 35 732 737 STAT6
+# T12 Protein S5 76 81 778 783 IL-10
+# T13 Protein S5 118 123 820 825 STAT4
+# T14 Protein S5 128 133 830 835 STAT6
+# T15 Protein S5 210 213 912 915 OVA
+$ T12 Protein S5 76 81 778 783 IL-10
+$ T13 Protein S5 118 123 820 825 STAT4
+$ T14 Protein S5 128 133 830 835 STAT6
+@ T29 Gene_expression S5 82 91 784 793 producing
+@ T30 Negative_regulation S5 134 143 836 845 deficient
+% E10 Gene_expression:T29 Theme:T12
+% E11 Negative_regulation:T30 Theme:T13
+% E12 Negative_regulation:T30 Theme:T14
+
+In vivo expression of both IL-10 and IFN-gamma was markedly reduced but not completely abrogated in the absence of STAT4 signaling (Figures 3B and 3C), suggesting the existence of compensatory mechanisms that were absent in the in vitro system.
+# T16 Protein S6 27 32 971 976 IL-10
+# T17 Protein S6 37 46 981 990 IFN-gamma
+# T18 Protein S6 115 120 1059 1064 STAT4
+$ T16 Protein S6 27 32 971 976 IL-10
+$ T17 Protein S6 37 46 981 990 IFN-gamma
+@ T31 Gene_expression S6 8 18 952 962 expression
+@ T32 Negative_regulation S6 60 67 1004 1011 reduced
+@ T33 Negative_regulation S6 76 96 1020 1040 completely abrogated
+% E13 Gene_expression:T31 Theme:T16
+% E14 Gene_expression:T31 Theme:T17
+% E15 Negative_regulation:T32 Theme:E13
+% E16 Negative_regulation:T32 Theme:E14
+% E17 Negative_regulation:T33 Theme:E13
+% E18 Negative_regulation:T33 Theme:E14
+
+Signaling through STAT6 had no effect on IL-10 production by Th1 cells as shown by intracellular cytokine staining (ICS) and by immunoassay in STAT6-deficient T cells (Figures 3B and 3C).
+# T19 Protein S7 18 23 1207 1212 STAT6
+# T20 Protein S7 41 46 1230 1235 IL-10
+# T21 Protein S7 143 148 1332 1337 STAT6
+$ T20 Protein S7 41 46 1230 1235 IL-10
+$ T21 Protein S7 143 148 1332 1337 STAT6
+@ T34 Regulation S7 31 37 1220 1226 effect
+@ T35 Gene_expression S7 47 57 1236 1246 production
+@ T36 Negative_regulation S7 149 158 1338 1347 deficient
+% E19 Regulation:T34 Theme:E20
+% E20 Gene_expression:T35 Theme:T20
+% E21 Negative_regulation:T36 Theme:T21
+

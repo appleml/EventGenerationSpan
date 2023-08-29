@@ -1,0 +1,25 @@
+NF-kappaB inhibition by PMA correlated to PKC-dependent Bcl10 degradation.
+# T1 Protein S1 56 61 56 61 Bcl10
+$ T1 Protein S1 56 61 56 61 Bcl10
+@ T4 Regulation S1 46 55 46 55 dependent
+@ T5 Protein_catabolism S1 62 73 62 73 degradation
+% E1 Regulation:T4 Theme:E2
+% E2 Protein_catabolism:T5 Theme:T1
+
+Levels of intracellular protein were assessed following 24 h stimulation with PMA (162 nM) or HK E. coli (5 x 107 CFU/ml).
+
+(A) Phospho-PKC increased in response to PMA and HK E. coli stimulation.
+
+(B) IkappaB decreased following stimulation with HK E. coli indicating NF-kappaB activation.
+
+(C) Bcl10 activation was inhibited following long-term stimulation with PMA, which explains the inhibitory effect of PMA on NF-kappaB activation.
+# T2 Protein S5 4 9 368 373 Bcl10
+$ T2 Protein S5 4 9 368 373 Bcl10
+@ T6 Positive_regulation S5 10 20 374 384 activation
+@ T7 Negative_regulation S5 25 34 389 398 inhibited
+% E3 Positive_regulation:T6 Theme:T2
+% E4 Negative_regulation:T7 Theme:E3
+
+beta-actin was used as a loading control.(n = 3).
+# T3 Protein S6 0 10 510 520 beta-actin
+

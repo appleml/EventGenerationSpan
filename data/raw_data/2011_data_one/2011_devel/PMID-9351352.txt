@@ -1,0 +1,38 @@
+Dysregulation of monocytic nuclear factor-kappa B by oxidized low-density lipoprotein.
+
+Nuclear factor-kappa B (NF-kappa B)/Rel transcription factors may be involved in atherosclerosis, as is suggested by the presence of activated NF-kappa B in human atherosclerotic lesions.
+
+The aim of the present study was to investigate the effects of oxidized LDL (oxLDL) on the NF-kappa B system in human THP-1 monocytic cells as well as adherent monocytes.
+
+Our results demonstrate that short-term incubation of these cells with oxLDL activated p50/p65 containing NF-kappa B dimers and induced the expression of the target gene IL-8.
+
+This activation of NF-kappa B was inhibited by the antioxidant and H2O2 scavenger pyrrolidine dithiocarbamate and the proteasome inhibitor PSI.
+
+The oxLDL-induced NF-kappa B activation was accompanied by an initial depletion of I kappa B-alpha followed by a slight transient increase in the level of this inhibitor protein.
+# T1 Protein S6 83 98 850 865 I kappa B-alpha
+$ T1 Protein S6 83 98 850 865 I kappa B-alpha
+@ T5 Negative_regulation S6 70 79 837 846 depletion
+@ T6 Positive_regulation S6 130 138 897 905 increase
+% E1 Negative_regulation:T5 Theme:T1
+% E2 Positive_regulation:T6 Theme:T1
+
+In contrast, long-term treatment with oxLDL prevented the lipopolysaccharide-induced depletion of I kappa B-alpha, accompanied by an inhibition of both NF-kappa B activation and the expression of tumor necrosis factor-alpha and interleukin-1 beta genes.
+# T2 Protein S7 98 113 1044 1059 I kappa B-alpha
+# T3 Protein S7 196 223 1142 1169 tumor necrosis factor-alpha
+# T4 Protein S7 228 246 1174 1192 interleukin-1 beta
+$ T2 Protein S7 98 113 1044 1059 I kappa B-alpha
+$ T4 Protein S7 228 246 1174 1192 interleukin-1 beta
+$ T3 Protein S7 196 223 1142 1169 tumor necrosis factor-alpha
+@ T7 Negative_regulation S7 44 53 990 999 prevented
+@ T8 Negative_regulation S7 85 94 1031 1040 depletion
+@ T9 Negative_regulation S7 133 143 1079 1089 inhibition
+@ T10 Gene_expression S7 182 192 1128 1138 expression
+% E3 Negative_regulation:T7 Theme:E4
+% E4 Negative_regulation:T8 Theme:T2
+% E5 Negative_regulation:T9 Theme:E7
+% E6 Negative_regulation:T9 Theme:E8
+% E7 Gene_expression:T10 Theme:T4
+% E8 Gene_expression:T10 Theme:T3
+
+These observations provide additional evidence that oxLDL is a potent modulator of gene expression and suggest that (dys)regulation of NF-kappa B/Rel is likely to play an important role in atherogenesis.
+

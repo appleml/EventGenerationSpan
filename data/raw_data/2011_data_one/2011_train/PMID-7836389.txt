@@ -1,0 +1,116 @@
+Two distinct signalling pathways are involved in the control of the biphasic junB transcription induced by interleukin-6 in the B cell hybridoma 7TD1.
+# T1 Protein S1 77 81 77 81 junB
+# T2 Protein S1 107 120 107 120 interleukin-6
+$ T1 Protein S1 77 81 77 81 junB
+$ T2 Protein S1 107 120 107 120 interleukin-6
+@ T23 Regulation S1 53 60 53 60 control
+@ T24 Transcription S1 82 95 82 95 transcription
+@ T25 Positive_regulation S1 96 103 96 103 induced
+% E1 Regulation:T23 Theme:E2
+% E2 Transcription:T24 Theme:T1
+% E3 Positive_regulation:T25 Theme:E2 Cause:T2
+
+We have measured the level of junB mRNA in the B hybridoma cell line 7TD1, under interleukin-6 (IL-6) stimulation.
+# T3 Protein S2 30 34 182 186 junB
+# T4 Protein S2 81 94 233 246 interleukin-6
+# T5 Protein S2 96 100 248 252 IL-6
+$ T3 Protein S2 30 34 182 186 junB
+@ T26 Transcription S2 21 26 173 178 level
+@ T27 Regulation S2 75 80 227 232 under
+% E4 Transcription:T26 Theme:T3
+% E5 Regulation:T27 Theme:E4
+
+IL-6 increases junB mRNA in a biphasic fashion.
+# T6 Protein S3 0 4 267 271 IL-6
+# T7 Protein S3 15 19 282 286 junB
+$ T7 Protein S3 15 19 282 286 junB
+$ T6 Protein S3 0 4 267 271 IL-6
+@ T28 Positive_regulation S3 5 14 272 281 increases
+% E6 Positive_regulation:T28 Theme:T7 Cause:T6
+
+The first early-induced peak was transient and likely corresponds to the well documented typical junB mRNA, stimulated in response to numerous growth factors, including IL-6.
+# T8 Protein S4 97 101 412 416 junB
+# T9 Protein S4 169 173 484 488 IL-6
+$ T8 Protein S4 97 101 412 416 junB
+$ T9 Protein S4 169 173 484 488 IL-6
+@ T29 Positive_regulation S4 108 118 423 433 stimulated
+% E7 Positive_regulation:T29 Theme:T8 Cause:T9
+
+At variance, the second peak which has never been reported previously, lasted several hours.
+
+As a consequence of its effect on junB mRNA, IL-6 stimulated, in a biphasic fashion, the nuclear accumulation of the JunB protein.
+# T10 Protein S6 34 38 617 621 junB
+# T11 Protein S6 45 49 628 632 IL-6
+# T12 Protein S6 117 121 700 704 JunB
+$ T10 Protein S6 34 38 617 621 junB
+$ T11 Protein S6 45 49 628 632 IL-6
+$ T12 Protein S6 117 121 700 704 JunB
+@ T30 Regulation S6 24 30 607 613 effect
+@ T31 Positive_regulation S6 50 60 633 643 stimulated
+@ T32 Entity S6 89 96 672 679 nuclear
+@ T33 Localization S6 97 109 680 692 accumulation
+% E8 Regulation:T30 Theme:T10 Cause:T11
+% E9 Positive_regulation:T31 Theme:E10 Cause:E8
+% E10 Localization:T33 Theme:T12 AtLoc:T32
+
+In this study, we demonstrated that IL-6 regulation occurred exclusively at the transcriptional level and that the bimodal increase of junB mRNA and JunB protein can be accounted for by a biphasic stimulation of junB transcription.
+# T13 Protein S7 36 40 750 754 IL-6
+# T14 Protein S7 135 139 849 853 junB
+# T15 Protein S7 149 153 863 867 JunB
+# T16 Protein S7 212 216 926 930 junB
+$ T14 Protein S7 135 139 849 853 junB
+$ T15 Protein S7 149 153 863 867 JunB
+$ T13 Protein S7 36 40 750 754 IL-6
+$ T16 Protein S7 212 216 926 930 junB
+@ T34 Positive_regulation S7 123 131 837 845 increase
+@ T35 Positive_regulation S7 197 208 911 922 stimulation
+@ T36 Transcription S7 217 230 931 944 transcription
+% E11 Positive_regulation:T34 Theme:T14 Cause:E13
+% E12 Positive_regulation:T34 Theme:T15 Cause:E13
+% E13 Positive_regulation:T35 Theme:E14 Cause:T13
+% E14 Transcription:T36 Theme:T16
+
+Furthermore, our data point to two major differences between the mechanism of control of the early and the late IL-6-induced junB transcription waves.
+# T17 Protein S8 112 116 1058 1062 IL-6
+# T18 Protein S8 125 129 1071 1075 junB
+$ T17 Protein S8 112 116 1058 1062 IL-6
+$ T18 Protein S8 125 129 1071 1075 junB
+@ T37 Regulation S8 78 85 1024 1031 control
+@ T38 Positive_regulation S8 117 124 1063 1070 induced
+@ T39 Transcription S8 130 143 1076 1089 transcription
+% E15 Regulation:T37 Theme:E16
+% E16 Positive_regulation:T38 Theme:E17 Cause:T17
+% E17 Transcription:T39 Theme:T18
+
+First, cycloheximide strongly potentiated the transcription of the second wave, whereas it failed to affect the early-induced burst.
+
+Second, tyrphostin, a tyrosine kinase inhibitor, impaired the expression of the first but not the second junB mRNA peak.
+# T19 Protein S10 105 109 1335 1339 junB
+$ T19 Protein S10 105 109 1335 1339 junB
+@ T40 Negative_regulation S10 49 57 1279 1287 impaired
+@ T41 Transcription S10 62 72 1292 1302 expression
+% E18 Negative_regulation:T40 Theme:E19
+% E19 Transcription:T41 Theme:T19
+
+Conversely, genistein, another tyrosine kinase inhibitor, totally abolished the expression of the second peak of junB mRNA whereas it did not affect the expression of the first peak.
+# T20 Protein S11 113 117 1464 1468 junB
+$ T20 Protein S11 113 117 1464 1468 junB
+@ T42 Negative_regulation S11 66 75 1417 1426 abolished
+@ T43 Transcription S11 80 90 1431 1441 expression
+@ T44 Regulation S11 142 148 1493 1499 affect
+% E20 Negative_regulation:T42 Theme:E21
+% E21 Transcription:T43 Theme:T20
+% E22 Regulation:T44 Theme:E21
+
+Altogether these data indicate that, in 7TD1 cells, IL-6 controls junB transcription in a biphasic fashion by means of two separate transduction pathways.
+# T21 Protein S12 52 56 1586 1590 IL-6
+# T22 Protein S12 66 70 1600 1604 junB
+$ T21 Protein S12 52 56 1586 1590 IL-6
+$ T22 Protein S12 66 70 1600 1604 junB
+@ T45 Regulation S12 57 65 1591 1599 controls
+@ T46 Transcription S12 71 84 1605 1618 transcription
+@ T47 Positive_regulation S12 107 118 1641 1652 by means of
+% E23 Regulation:T45 Theme:E24 Cause:T21
+% E24 Transcription:T46 Theme:T22
+% E25 Positive_regulation:T47 Theme:E23
+

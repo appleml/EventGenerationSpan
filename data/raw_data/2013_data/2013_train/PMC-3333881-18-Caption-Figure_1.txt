@@ -1,0 +1,43 @@
+Tat counteracts the post-activation turn off of NF-kappaB in single round HIV-1-infection.
+# T1 Protein S1 0 3 0 3 Tat
+
+Jurkat cells (5 x 107) were transfected with siRNA Tat or siRNA control (2 nmol), or left untransfected; 24 h later, cells were infected with HXB2-pseudotyped NL4-3.
+# T2 Protein S2 45 54 136 145 siRNA Tat
+
+Luc.R-E- virions (500 ng of p24) and harvested at the indicated time.
+# T3 Protein S3 28 31 284 287 p24
+
+(A) Tat expression was measured in total RNA by real-time PCR, while the luciferase activity was measured in whole cell extracts.
+# T4 Protein S4 4 7 330 333 Tat
+# T5 Protein S4 73 83 399 409 luciferase
+$ T4 Protein S4 4 7 330 333 Tat
+@ T11 Gene_expression S4 8 18 334 344 expression
+% E1 Gene_expression:T11 Theme:T4
+
+(B) Nuclear extracts (10 microg) were analysed for the p65 and p50 binding to the NF-kappaB double-stranded oligonucleotide using the NF-kappaB Transcription Factor ELISA Assay kit (Cayman).
+# T6 Protein S5 55 58 511 514 p65
+# T7 Protein S5 63 66 519 522 p50
+$ T6 Protein S5 55 58 511 514 p65
+$ T7 Protein S5 63 66 519 522 p50
+@ T12 Binding S5 67 74 523 530 binding
+% E2 Binding:T12 Theme:T6
+% E3 Binding:T12 Theme:T7
+
+(C) The expression of p65 and IkappaB-alpha was analysed by 12% SDS-PAGE and western blotting of nuclear or cytosolic extracts (20 microg) using anti-p65 and anti-IkappaB-alpha antibodies.
+# T8 Protein S6 22 25 669 672 p65
+# T9 Protein S6 30 43 677 690 IkappaB-alpha
+$ T8 Protein S6 22 25 669 672 p65
+$ T9 Protein S6 30 43 677 690 IkappaB-alpha
+@ T13 Gene_expression S6 8 18 655 665 expression
+% E4 Gene_expression:T13 Theme:T8
+% E5 Gene_expression:T13 Theme:T9
+
+Histone H1 and Hexokinase II were detected with specific antibodies as markers of nuclear and cytosolic extracts, respectively.
+# T10 Protein S7 15 28 851 864 Hexokinase II
+
+Densitometry values (D) of the bands were expressed as fold increase above the control (mock).
+
+(D) IKK activity was measured in cytosolic extracts (100 microg) by using HTScan IKK Kinase Assay (Cell Signaling Technology).
+
+Values (mean +/- SE, n = 3) are shown.
+

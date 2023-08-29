@@ -1,0 +1,24 @@
+Oxidants, transcription factors, and intestinal inflammation.
+
+It is now well appreciated that chronic gut inflammation is characterized by enhanced production of reactive metabolites of oxygen and nitrogen.
+
+Some of these oxidants are known to modulate the expression of a variety of genes that are involved in the immune and inflammatory responses.
+
+For example, certain oxidants are known to activate the nuclear transcription factor kappa B, which regulates the expression of a variety of different adhesion molecules, cytokines, and enzymes.
+
+Oxidants are also known to activate another transcription factor, activator protein-1.
+
+This transcription factor is composed of products from the fos and jun proto-oncogene family and is believed to be important in regulating cell growth and proliferation.
+# T1 Protein S6 59 62 691 694 fos
+# T2 Protein S6 67 70 699 702 jun
+$ T2 Protein S6 67 70 699 702 jun
+$ T1 Protein S6 59 62 691 694 fos
+@ T4 Gene_expression S6 41 49 673 681 products
+% E1 Gene_expression:T4 Theme:T2
+% E2 Gene_expression:T4 Theme:T1
+
+Finally, oxidants are believed to promote intestinal epithelial cell apoptosis, and the B-cell lymphoma/leukemia-2 gene product is believed to inhibit this phenomenon in an antioxidant-dependent manner.
+# T3 Protein S7 88 114 890 916 B-cell lymphoma/leukemia-2
+
+Taken together, these observations suggest that nontoxic concentrations of reactive metabolites of oxygen and nitrogen play an important role in regulating the expression of genes involved in the inflammatory response and in modulating apoptosis.
+

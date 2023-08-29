@@ -1,0 +1,89 @@
+Signal transduction pathways triggered by the FcepsilonRIIb receptor (CD23) in human monocytes lead to nuclear factor-kappaB activation.
+# T1 Protein S1 46 68 46 68 FcepsilonRIIb receptor
+# T2 Protein S1 70 74 70 74 CD23
+
+BACKGROUND: Alveolar macrophages play a key role in the initiation of the inflammatory reaction of allergic asthma.
+
+Alveolar macrophages and peripheral blood monocytes are activated when IgE/allergen immune complexes bind to the CD23 receptor, which leads to the production of inflammatory cytokines.
+# T3 Protein S3 113 126 367 380 CD23 receptor
+$ T3 Protein S3 113 126 367 380 CD23 receptor
+@ T19 Binding S3 101 105 355 359 bind
+% E1 Binding:T19 Theme:T3
+
+OBJECTIVE: We sought to investigate the molecular mechanisms regulating this early inflammatory response.
+
+We have focused on the study of the signal transduction pathways triggered by CD23 in human monocytes and the promonocytic cell line U937.
+# T4 Protein S5 78 82 623 627 CD23
+
+METHODS: CD23 was cross-linked in human monocytes and U937 cells with IgE immune complexes.
+# T5 Protein S6 9 13 693 697 CD23
+$ T5 Protein S6 9 13 693 697 CD23
+@ T20 Binding S6 18 30 702 714 cross-linked
+% E2 Binding:T20 Theme:T5
+
+Surface expression of CD23 was determined by FACS analysis.
+# T6 Protein S7 22 26 798 802 CD23
+$ T6 Protein S7 22 26 798 802 CD23
+@ T21 Gene_expression S7 8 18 784 794 expression
+% E3 Gene_expression:T21 Theme:T6
+
+Transcription factor activation and gene transcription were studied by gel-shift assays and Northern blot analysis, respectively.
+
+IkappaBalpha phosphorylation and degradation was analyzed by Western blot.
+# T7 Protein S9 0 12 966 978 IkappaBalpha
+$ T7 Protein S9 0 12 966 978 IkappaBalpha
+@ T22 Phosphorylation S9 13 28 979 994 phosphorylation
+@ T23 Protein_catabolism S9 33 44 999 1010 degradation
+% E4 Phosphorylation:T22 Theme:T7
+% E5 Protein_catabolism:T23 Theme:T7
+
+RESULTS: Nuclear factor (NF)-kappaB is the main transcription factor involved in the gene activation that follows CD23 cross-linking in monocytes.
+# T8 Protein S10 114 118 1155 1159 CD23
+$ T8 Protein S10 114 118 1155 1159 CD23
+@ T24 Binding S10 119 132 1160 1173 cross-linking
+% E6 Binding:T24 Theme:T8
+
+CD23-induced NF-kappaB is a heterodimer composed of p65/p50 subunits.
+# T9 Protein S11 0 4 1188 1192 CD23
+# T10 Protein S11 52 55 1240 1243 p65
+# T11 Protein S11 56 59 1244 1247 p50
+$ T10 Protein S11 52 55 1240 1243 p65
+$ T9 Protein S11 0 4 1188 1192 CD23
+$ T11 Protein S11 56 59 1244 1247 p50
+@ T25 Positive_regulation S11 5 12 1193 1200 induced
+% E7 Positive_regulation:T25 Theme:T10 Cause:T9
+% E8 Positive_regulation:T25 Theme:T11 Cause:T9
+
+NF-kappaB nuclear translocation is secondary to the phosphorylation and subsequent degradation of the NF-kappaB inhibitory molecule IkappaBalpha.
+# T12 Protein S12 132 144 1390 1402 IkappaBalpha
+$ T12 Protein S12 132 144 1390 1402 IkappaBalpha
+@ T26 Phosphorylation S12 52 67 1310 1325 phosphorylation
+@ T27 Protein_catabolism S12 83 94 1341 1352 degradation
+% E9 Phosphorylation:T26 Theme:T12
+% E10 Protein_catabolism:T27 Theme:T12
+
+Tyrosine kinase-dependent, and not protein kinase C-dependent, pathways mediate CD23-triggered NF-kappaB activation but do not participate in the direct phosphorylation of IkappaBalpha.
+# T13 Protein S13 80 84 1484 1488 CD23
+# T14 Protein S13 172 184 1576 1588 IkappaBalpha
+$ T14 Protein S13 172 184 1576 1588 IkappaBalpha
+@ T28 Regulation S13 127 138 1531 1542 participate
+@ T29 Phosphorylation S13 153 168 1557 1572 phosphorylation
+% E11 Regulation:T28 Theme:E12
+% E12 Phosphorylation:T29 Theme:T14
+
+IkappaBalpha degradation and NF-kappaB nuclear translocation correlate with transcriptional activation of the inflammatory cytokines TNF-alpha and IL-1beta.
+# T15 Protein S14 0 12 1590 1602 IkappaBalpha
+# T16 Protein S14 133 142 1723 1732 TNF-alpha
+# T17 Protein S14 147 155 1737 1745 IL-1beta
+$ T15 Protein S14 0 12 1590 1602 IkappaBalpha
+$ T16 Protein S14 133 142 1723 1732 TNF-alpha
+$ T17 Protein S14 147 155 1737 1745 IL-1beta
+@ T30 Protein_catabolism S14 13 24 1603 1614 degradation
+@ T31 Positive_regulation S14 76 102 1666 1692 transcriptional activation
+% E13 Protein_catabolism:T30 Theme:T15
+% E14 Positive_regulation:T31 Theme:T16
+% E15 Positive_regulation:T31 Theme:T17
+
+CONCLUSIONS: NF-kappaB is the main transcription factor involved in the signal transduction pathway of CD23 in monocytes.
+# T18 Protein S15 103 107 1850 1854 CD23
+

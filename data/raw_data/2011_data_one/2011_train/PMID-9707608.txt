@@ -1,0 +1,93 @@
+Epstein-Barr virus-transforming protein latent infection membrane protein 1 activates transcription factor NF-kappaB through a pathway that includes the NF-kappaB-inducing kinase and the IkappaB kinases IKKalpha and IKKbeta.
+# T1 Protein S1 40 75 40 75 latent infection membrane protein 1
+# T2 Protein S1 203 211 203 211 IKKalpha
+# T3 Protein S1 216 223 216 223 IKKbeta
+
+The Epstein-Barr virus oncoprotein latent infection membrane protein 1 (LMP1) is a constitutively aggregated pseudo-tumor necrosis factor receptor (TNFR) that activates transcription factor NF-kappaB through two sites in its C-terminal cytoplasmic domain.
+# T4 Protein S2 35 70 261 296 latent infection membrane protein 1
+# T5 Protein S2 72 76 298 302 LMP1
+$ T5 Protein S2 72 76 298 302 LMP1
+@ T30 Binding S2 98 108 324 334 aggregated
+% E1 Binding:T30 Theme:T5
+
+One site is similar to activated TNFRII in associating with TNFR-associated factors TRAF1 and TRAF2, and the second site is similar to TNFRI in associating with the TNFRI death domain interacting protein TRADD.
+# T6 Protein S3 33 39 515 521 TNFRII
+# T7 Protein S3 84 89 566 571 TRAF1
+# T8 Protein S3 94 99 576 581 TRAF2
+# T9 Protein S3 135 140 617 622 TNFRI
+# T10 Protein S3 165 170 647 652 TNFRI
+# T11 Protein S3 204 209 686 691 TRADD
+$ T6 Protein S3 33 39 515 521 TNFRII
+$ T7 Protein S3 84 89 566 571 TRAF1
+$ T8 Protein S3 94 99 576 581 TRAF2
+$ T9 Protein S3 135 140 617 622 TNFRI
+$ T11 Protein S3 204 209 686 691 TRADD
+$ T10 Protein S3 165 170 647 652 TNFRI
+@ T31 Positive_regulation S3 23 32 505 514 activated
+@ T32 Binding S3 43 54 525 536 associating
+@ T33 Binding S3 144 155 626 637 associating
+@ T34 Entity S3 171 183 653 665 death domain
+@ T35 Binding S3 184 195 666 677 interacting
+% E2 Positive_regulation:T31 Theme:T6
+% E3 Binding:T32 Theme:T7
+% E4 Binding:T32 Theme:T8
+% E5 Binding:T33 Theme:T9 Theme2:T11
+% E6 Binding:T33 Theme:T11
+% E7 Binding:T35 Theme:T10 Theme2:T11 Site:T34
+
+TNFRI has been recently shown to activate NF-kappaB through association with TRADD, RIP, and TRAF2; activation of the NF-kappaB-inducing kinase (NIK); activation of the IkappaB alpha kinases (IKKalpha and IKKbeta); and phosphorylation of IkappaB alpha.
+# T12 Protein S4 0 5 693 698 TNFRI
+# T13 Protein S4 77 82 770 775 TRADD
+# T14 Protein S4 84 87 777 780 RIP
+# T15 Protein S4 93 98 786 791 TRAF2
+# T16 Protein S4 118 143 811 836 NF-kappaB-inducing kinase
+# T17 Protein S4 145 148 838 841 NIK
+# T18 Protein S4 192 200 885 893 IKKalpha
+# T19 Protein S4 205 212 898 905 IKKbeta
+# T20 Protein S4 238 251 931 944 IkappaB alpha
+$ T12 Protein S4 0 5 693 698 TNFRI
+$ T15 Protein S4 93 98 786 791 TRAF2
+$ T13 Protein S4 77 82 770 775 TRADD
+$ T14 Protein S4 84 87 777 780 RIP
+$ T17 Protein S4 145 148 838 841 NIK
+$ T19 Protein S4 205 212 898 905 IKKbeta
+$ T18 Protein S4 192 200 885 893 IKKalpha
+$ T20 Protein S4 238 251 931 944 IkappaB alpha
+@ T36 Binding S4 60 71 753 764 association
+@ T37 Positive_regulation S4 100 110 793 803 activation
+@ T38 Positive_regulation S4 151 161 844 854 activation
+@ T39 Phosphorylation S4 219 234 912 927 phosphorylation
+% E8 Binding:T36 Theme:T12 Theme2:T15
+% E9 Binding:T36 Theme:T12 Theme2:T13
+% E10 Binding:T36 Theme:T12 Theme2:T14
+% E11 Positive_regulation:T37 Theme:T17
+% E12 Positive_regulation:T38 Theme:T19
+% E13 Positive_regulation:T38 Theme:T18
+% E14 Phosphorylation:T39 Theme:T20
+
+IkappaB alpha phosphorylation on Ser-32 and Ser-36 is followed by its degradation and NF-kappaB activation.
+# T21 Protein S5 0 13 946 959 IkappaB alpha
+$ T21 Protein S5 0 13 946 959 IkappaB alpha
+@ T40 Phosphorylation S5 14 29 960 975 phosphorylation
+@ T41 Entity S5 33 39 979 985 Ser-32
+@ T42 Entity S5 44 50 990 996 Ser-36
+@ T43 Positive_regulation S5 54 62 1000 1008 followed
+@ T44 Protein_catabolism S5 70 81 1016 1027 degradation
+% E15 Phosphorylation:T40 Theme:T21 Site:T42
+% E16 Phosphorylation:T40 Theme:T21 Site:T41
+% E17 Positive_regulation:T43 Theme:E19 Cause:E15
+% E18 Positive_regulation:T43 Theme:E19 Cause:E16
+% E19 Protein_catabolism:T44 Theme:T21
+
+In this report, we show that NF-kappaB activation by LMP1 or by each of its effector sites is mediated by a pathway that includes NIK, IKKalpha, and IKKbeta.
+# T22 Protein S6 53 57 1107 1111 LMP1
+# T23 Protein S6 130 133 1184 1187 NIK
+# T24 Protein S6 135 143 1189 1197 IKKalpha
+# T25 Protein S6 149 156 1203 1210 IKKbeta
+
+Dominant negative mutants of NIK, IKKalpha, or IKKbeta substantially inhibited NF-kappaB activation by LMP1 or by each of its effector sites.
+# T26 Protein S7 29 32 1241 1244 NIK
+# T27 Protein S7 34 42 1246 1254 IKKalpha
+# T28 Protein S7 47 54 1259 1266 IKKbeta
+# T29 Protein S7 103 107 1315 1319 LMP1
+

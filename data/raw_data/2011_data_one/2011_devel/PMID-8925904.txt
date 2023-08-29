@@ -1,0 +1,38 @@
+Second messenger up-regulation of androgen receptor gene transcription is absent in androgen insensitive human prostatic carcinoma cell lines, PC-3 and DU-145.
+
+A theoretical pathway of transcriptional regulation of the androgen receptor (AR) gene is via a cAMP response element (CRE) present in its promoter region (-508 to -501).
+# T1 Protein S2 59 76 220 237 androgen receptor
+# T2 Protein S2 78 80 239 241 AR
+$ T2 Protein S2 78 80 239 241 AR
+@ T9 Regulation S2 25 51 186 212 transcriptional regulation
+@ T10 Positive_regulation S2 90 93 251 254 via
+% E1 Regulation:T9 Theme:T2
+% E2 Positive_regulation:T10 Theme:E1
+
+After 20 h of stimulation with 8-bromo-cAMP, AR mRNA was upregulated in LNCaP but not in either PC-3 or DU-145 cell lines.
+# T3 Protein S3 45 47 377 379 AR
+$ T3 Protein S3 45 47 377 379 AR
+@ T11 Positive_regulation S3 57 68 389 400 upregulated
+% E3 Positive_regulation:T11 Theme:T3
+
+We have demonstrated that the level of CRE binding protein (CREB) was the same in all cell lines and that the putative AR-CRE forms specific and compatible protein interactions with CREB.
+# T4 Protein S4 39 58 494 513 CRE binding protein
+# T5 Protein S4 60 64 515 519 CREB
+# T6 Protein S4 119 121 574 576 AR
+# T7 Protein S4 182 186 637 641 CREB
+$ T7 Protein S4 182 186 637 641 CREB
+@ T12 Binding S4 164 176 619 631 interactions
+% E4 Binding:T12 Theme:T7
+
+The ability to regulate AR gene transcription via the second messenger pathway is lost in the PC-3 and DU-145 cell lines.
+# T8 Protein S5 24 26 667 669 AR
+$ T8 Protein S5 24 26 667 669 AR
+@ T13 Regulation S5 15 23 658 666 regulate
+@ T14 Transcription S5 32 45 675 688 transcription
+@ T15 Negative_regulation S5 82 86 725 729 lost
+% E5 Regulation:T13 Theme:E6
+% E6 Transcription:T14 Theme:T8
+% E7 Negative_regulation:T15 Theme:E5
+
+This may be an important primary mechanism of androgen insensitivity in prostate cancer.
+

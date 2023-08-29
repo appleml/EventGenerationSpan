@@ -1,0 +1,31 @@
+Modulation of CD28 expression: distinct regulatory pathways during activation and replicative senescence.
+# T1 Protein S1 14 18 14 18 CD28
+
+The costimulatory molecule CD28 has a restricted tissue distribution and is expressed on T cells and some plasmacytoma cells.
+# T2 Protein S2 27 31 134 138 CD28
+
+Although CD28 is constitutively expressed, its expression is transiently down-regulated following T cell activation and declines progressively with in vitro senescence.
+# T3 Protein S3 9 13 242 246 CD28
+
+In vivo, CD8+ T cells and, less frequently, CD4+ T cells may completely lose CD28 surface expression during chronic infections and with aging.
+# T4 Protein S4 77 81 479 483 CD28
+
+This correlates with changes of nuclear protein-binding activities to two motifs, site alpha and beta, within the CD28 minimal promoter.
+# T5 Protein S5 114 118 659 663 CD28
+
+Both alpha- and beta-bound complexes are found only in lymphoid tissues, in CD28+ T cells, and in some transformed B cells.
+# T6 Protein S6 76 80 758 762 CD28
+
+These complexes are coordinately expressed except during replicative senescence, which is characterized by the down-modulation of site beta- but not site alpha-binding activities.
+
+In contrast, T cell activation induces a parallel decline in both site alpha- and beta-binding activities.
+
+CD4+ and CD8+ T cells differ in their beta-binding profiles, which may explain the more pronounced down-regulation of CD28 in senescent CD8+ T cells.
+# T7 Protein S9 0 3 1093 1096 CD4
+# T8 Protein S9 118 122 1211 1215 CD28
+
+In vivo expanded CD4+CD28null and CD8+CD28null T cells uniformly lack alpha- and beta- bound complexes, resembling the pattern seen in chronically activated cells and not of senescent cells.
+# T9 Protein S10 17 20 1260 1263 CD4
+# T10 Protein S10 21 25 1264 1268 CD28
+# T11 Protein S10 38 42 1281 1285 CD28
+

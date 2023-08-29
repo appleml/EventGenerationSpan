@@ -1,0 +1,14 @@
+Expression of TNF-alpha and TNF receptor in the PC 12 hr-post SE.
+# T1 Protein S1 14 23 14 23 TNF-alpha
+
+(A) TNF-alpha immunoreactivity in Ox-42-positive microglia (arrows).
+# T2 Protein S2 4 13 70 79 TNF-alpha
+
+(B) TNFp55R expression in astrocytes (arrows).
+# T3 Protein S3 4 11 139 146 TNFp55R
+
+(C-D) TNFp75R expression in astrocytes as well as endothelial cells (arrows).
+# T4 Protein S4 6 13 188 195 TNFp75R
+
+Bar = 25 (A-D) mum.
+

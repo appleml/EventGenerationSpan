@@ -1,0 +1,31 @@
+Transcriptional regulation of the interleukin-2 gene in normal human peripheral blood T cells.
+# T1 Protein S1 34 47 34 47 interleukin-2
+$ T1 Protein S1 34 47 34 47 interleukin-2
+@ T8 Regulation S1 0 26 0 26 Transcriptional regulation
+@ T9 Transcription S1 0 26 0 26 Transcriptional regulation
+% E1 Regulation:T8 Theme:E2
+% E2 Transcription:T9 Theme:T1
+
+Convergence of costimulatory signals and differences from transformed T cells.
+
+To study transcriptional regulation in normal human T cells, we have optimized conditions for transient transfection.
+
+Interleukin-2 (IL-2) promoter-reporter gene behavior closely parallels the endogenous gene in response to T cell receptor and costimulatory signals.
+# T2 Protein S4 0 13 293 306 Interleukin-2
+# T3 Protein S4 15 19 308 312 IL-2
+
+As assessed with mutagenized promoters, the most important IL-2 cis-regulatory elements in normal T cells are the proximal AP-1 site and the NF- kappaB site.
+# T4 Protein S5 59 63 501 505 IL-2
+
+Both primary activation, with phytohemagglutinin or antibodies to CD3, and costimulation, provided by pairs of CD2 antibodies or B7-positive (B cells) or B7-negative (endothelial) accessory cells, are mediated through the same cis-elements.
+# T5 Protein S6 30 48 630 648 phytohemagglutinin
+
+Interestingly, the nuclear factor of activated T cell sites are much less important in normal T cells than in Jurkat T cells.
+
+We conclude that IL-2 transcriptional regulation differs in tumor cell lines compared with normal T cells and that different costimulatory signals converge on the same cis-elements in the IL-2 promoter.
+# T6 Protein S8 17 21 984 988 IL-2
+# T7 Protein S8 188 192 1155 1159 IL-2
+$ T6 Protein S8 17 21 984 988 IL-2
+@ T10 Regulation S8 22 48 989 1015 transcriptional regulation
+% E3 Regulation:T10 Theme:T6
+

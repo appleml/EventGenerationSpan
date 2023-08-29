@@ -1,0 +1,172 @@
+Regulatory T (T reg) cells expressing the transcription factor forkhead box P3 (FOXP3, human; Foxp3, mouse) play an essential role in controlling immune responses to autoantigens, allergens, tumor antigens, transplantation antigens, and infectious agents (Hori et al., 2003;Akdis, 2006).
+# T1 Protein S1 63 78 63 78 forkhead box P3
+# T2 Protein S1 80 85 80 85 FOXP3
+# T3 Protein S1 94 99 94 99 Foxp3
+$ T1 Protein S1 63 78 63 78 forkhead box P3
+@ T57 Gene_expression S1 27 37 27 37 expressing
+% E1 Gene_expression:T57 Theme:T1
+
+Foxp3 is a member of the forkhead/winged-helix family of transcriptional regulators, and its expression in T reg cells is essential for their development and function (Fontenot et al., 2003;Williams and Rudensky, 2007).
+# T4 Protein S2 0 5 288 293 Foxp3
+$ T4 Protein S2 0 5 288 293 Foxp3
+@ T55 Anaphora S2 89 92 377 380 its
+@ T58 Gene_expression S2 93 103 381 391 expression
+% E2 Gene_expression:T58 Theme:T4
+
+A spontaneous mutation of the X-linkedFoxp3gene inscurfymice causes an autoimmune-like disease, whereas the mutation in humans leads to immunodysregulation, polyendocrinopathy, enteropathy, and X-linked syndrome that is also a severe multiorgan autoimmune disease with hyper-IgE (Ziegler, 2006).
+# T5 Protein S3 38 43 546 551 Foxp3
+
+Although the essential role of Foxp3 in central and peripheral tolerance has been extensively studied, its regulation, cooperation with other transcription factors, and how it functions in inducible T reg (iT reg) cells to suppress various target genes is mostly not yet understood.
+# T6 Protein S4 31 36 834 839 Foxp3
+$ T6 Protein S4 31 36 834 839 Foxp3
+@ T56 Anaphora S4 103 106 906 909 its
+@ T59 Regulation S4 107 117 910 920 regulation
+% E3 Regulation:T59 Theme:T6
+
+It is known that Foxp3 cooperates with the nuclear factor of activated T cells (NFAT) or nuclear factor-kappa B (NF-kappaB) to regulate the transcription of different target genes (Schubert et al., 2001;Bettelli et al., 2005;Wu et al., 2006).
+# T7 Protein S5 17 22 1103 1108 Foxp3
+
+The Th2 cytokine IL-4 inhibits FOXP3 expression during T cell priming.
+# T8 Protein S6 17 21 1346 1350 IL-4
+# T9 Protein S6 31 36 1360 1365 FOXP3
+$ T8 Protein S6 17 21 1346 1350 IL-4
+$ T9 Protein S6 31 36 1360 1365 FOXP3
+@ T60 Negative_regulation S6 22 30 1351 1359 inhibits
+@ T61 Gene_expression S6 37 47 1366 1376 expression
+% E4 Negative_regulation:T60 Theme:E5 Cause:T8
+% E5 Gene_expression:T61 Theme:T9
+
+GATA3 binds to theFOXP3promoter and can repress the FOXP3 trans-activation process directly in Th2 cells (Mantel et al., 2007).
+# T10 Protein S7 0 5 1400 1405 GATA3
+# T11 Protein S7 18 23 1418 1423 FOXP3
+# T12 Protein S7 52 57 1452 1457 FOXP3
+$ T10 Protein S7 0 5 1400 1405 GATA3
+$ T11 Protein S7 18 23 1418 1423 FOXP3
+$ T12 Protein S7 52 57 1452 1457 FOXP3
+@ T62 Binding S7 6 11 1406 1411 binds
+@ T63 Entity S7 23 31 1423 1431 promoter
+@ T64 Negative_regulation S7 40 47 1440 1447 repress
+@ T65 Positive_regulation S7 58 74 1458 1474 trans-activation
+% E6 Binding:T62 Theme:T10 Theme2:T11 Site2:T63
+% E7 Negative_regulation:T64 Theme:E8 Cause:E6
+% E8 Positive_regulation:T65 Theme:T12
+
+It was further demonstrated that both Th1 and Th2 transcription factors T-bet and GATA3 oppose peripheral induction of Foxp3+T reg cells in mice through STAT1-, STAT4-, and STAT6-dependent pathways (Wei et al., 2007).
+# T13 Protein S8 72 77 1600 1605 T-bet
+# T14 Protein S8 82 87 1610 1615 GATA3
+# T15 Protein S8 119 124 1647 1652 Foxp3
+# T16 Protein S8 153 158 1681 1686 STAT1
+# T17 Protein S8 161 166 1689 1694 STAT4
+# T18 Protein S8 173 178 1701 1706 STAT6
+$ T13 Protein S8 72 77 1600 1605 T-bet
+$ T14 Protein S8 82 87 1610 1615 GATA3
+$ T15 Protein S8 119 124 1647 1652 Foxp3
+$ T16 Protein S8 153 158 1681 1686 STAT1
+$ T17 Protein S8 161 166 1689 1694 STAT4
+$ T18 Protein S8 173 178 1701 1706 STAT6
+@ T66 Negative_regulation S8 88 94 1616 1622 oppose
+@ T67 Positive_regulation S8 106 115 1634 1643 induction
+@ T68 Positive_regulation S8 179 188 1707 1716 dependent
+% E9 Negative_regulation:T66 Theme:E10 Cause:T13
+% E11 Negative_regulation:T66 Theme:E10 Cause:T14
+% E10 Positive_regulation:T67 Theme:T15
+% E12 Positive_regulation:T68 Theme:E9 Cause:T16
+% E13 Positive_regulation:T68 Theme:E9 Cause:T17
+% E14 Positive_regulation:T68 Theme:E9 Cause:T18
+% E15 Positive_regulation:T68 Theme:E11 Cause:T16
+% E16 Positive_regulation:T68 Theme:E11 Cause:T17
+% E17 Positive_regulation:T68 Theme:E11 Cause:T18
+
+Although natural T reg (nT reg) cells that differentiate in the thymus are characterized by their stable Foxp3 expression, the generation of iT reg cells specific for allergens, alloantigens, and autoantigens in the periphery has been associated with a transient Foxp3+phenotype (Fontenot et al., 2003;Hori et al., 2003).
+# T19 Protein S9 105 110 1851 1856 Foxp3
+# T20 Protein S9 263 268 2009 2014 Foxp3
+$ T19 Protein S9 105 110 1851 1856 Foxp3
+@ T69 Gene_expression S9 111 121 1857 1867 expression
+% E18 Gene_expression:T69 Theme:T19
+
+The crucial role of TGF-beta in their generation has been demonstrated.The RUNX gene family (Runt-related transcription factor, acute myeloid leukemia [AML], core-binding factor-alpha [CBFalpha], and polyoma enhancer-binding protein-2alpha [PEBP2alpha]) contains three members, RUNX1 (AML1/CBFA2/PEBP2alphaB), RUNX2 (AML3/CBFA1/ PEBP2alphaA), and RUNX3 (AML2/CBFA3/PEBP2alphaC).
+# T21 Protein S10 20 28 2088 2096 TGF-beta
+# T22 Protein S10 75 79 2143 2147 RUNX
+# T23 Protein S10 278 283 2346 2351 RUNX1
+# T24 Protein S10 285 289 2353 2357 AML1
+# T25 Protein S10 290 295 2358 2363 CBFA2
+# T26 Protein S10 296 307 2364 2375 PEBP2alphaB
+# T27 Protein S10 310 315 2378 2383 RUNX2
+# T28 Protein S10 317 321 2385 2389 AML3
+# T29 Protein S10 322 327 2390 2395 CBFA1
+# T30 Protein S10 329 340 2397 2408 PEBP2alphaA
+# T31 Protein S10 347 352 2415 2420 RUNX3
+
+They are essential transcriptional regulators of different developmental pathways.
+
+RUNX2 is mostly important for bone development and osteoblast differentiation (Komori et al., 1997).
+# T32 Protein S12 0 5 2530 2535 RUNX2
+
+RUNX1 plays an important role in hematopoiesis during development, and RUNX3 has important functions in thymogenesis and neurogenesis (Wang et al., 1996;Inoue et al., 2002;Levanon et al., 2002).
+# T33 Protein S13 0 5 2631 2636 RUNX1
+# T34 Protein S13 71 76 2702 2707 RUNX3
+
+RUNX1 and RUNX3 also work together in the establishment of lineage specification of T lymphocytes (Taniuchi et al., 2002;Egawa et al., 2007).
+# T35 Protein S14 0 5 2826 2831 RUNX1
+# T36 Protein S14 10 15 2836 2841 RUNX3
+
+RUNX1is a frequent target for chromosomal translocations associated with leukemias (Look, 1997), andRUNX3methylation and silencing is observed in various human epithelial cancers (Blyth et al., 2005).
+# T37 Protein S15 0 5 2967 2972 RUNX1
+# T38 Protein S15 100 105 3067 3072 RUNX3
+
+RUNX family members share the Runt domain, which is responsible for DNA binding (Ito, 1999).
+# T39 Protein S16 0 4 3167 3171 RUNX
+
+The Runt domain-containing protein constitutes the alpha-chain partner of the heterodimeric CBF complex.
+# T40 Protein S17 92 95 3352 3355 CBF
+
+RUNX proteins heterodimerize with the non-DNA-binding partner, CBFbeta, which increases the affinity for DNA binding and stabilizes the complex by preventing ubiquitin-dependent degradation (Wang et al., 1993).
+# T41 Protein S18 63 70 3428 3435 CBFbeta
+# T42 Protein S18 158 167 3523 3532 ubiquitin
+$ T41 Protein S18 63 70 3428 3435 CBFbeta
+@ T70 Binding S18 14 28 3379 3393 heterodimerize
+% E19 Binding:T70 Theme:T41
+
+The CBF complexes regulate the expression of cellular genes through binding to promoters or enhancer elements.
+# T43 Protein S19 4 7 3580 3583 CBF
+$ T43 Protein S19 4 7 3580 3583 CBF
+@ T71 Binding S19 68 75 3644 3651 binding
+% E20 Binding:T71 Theme:T43
+
+The effects of the RUNX-CBFbeta complex regulation are clearly cell lineage and stage specific.
+# T44 Protein S20 19 23 3706 3710 RUNX
+# T45 Protein S20 24 31 3711 3718 CBFbeta
+
+They include the crucial choices between cell-cycle exit and continued proliferation, as well as between cell differentiation and self-renewal (Blyth et al., 2005).
+
+Because of the involvement of RUNX mutations in different autoimmune diseases and the known interaction with TGF-beta, we investigated the impact of RUNX1 and RUNX3 on the expression of FOXP3 and subsequently on the development and function of iT reg cells.
+# T46 Protein S22 30 34 3977 3981 RUNX
+# T47 Protein S22 109 117 4056 4064 TGF-beta
+# T48 Protein S22 149 154 4096 4101 RUNX1
+# T49 Protein S22 159 164 4106 4111 RUNX3
+# T50 Protein S22 186 191 4133 4138 FOXP3
+$ T46 Protein S22 30 34 3977 3981 RUNX
+$ T47 Protein S22 109 117 4056 4064 TGF-beta
+$ T48 Protein S22 149 154 4096 4101 RUNX1
+$ T49 Protein S22 159 164 4106 4111 RUNX3
+$ T50 Protein S22 186 191 4133 4138 FOXP3
+@ T72 Binding S22 92 103 4039 4050 interaction
+@ T73 Regulation S22 139 145 4086 4092 impact
+@ T74 Gene_expression S22 172 182 4119 4129 expression
+% E21 Binding:T72 Theme:T46 Theme2:T47
+% E22 Regulation:T73 Theme:E23 Cause:T48
+% E24 Regulation:T73 Theme:E23 Cause:T49
+% E23 Gene_expression:T74 Theme:T50
+
+This study demonstrates that RUNX1 and RUNX3 induced by TGF-beta are involved in the development and suppressive function of Foxp3+iT reg cells.
+# T51 Protein S23 29 34 4234 4239 RUNX1
+# T52 Protein S23 39 44 4244 4249 RUNX3
+# T53 Protein S23 56 64 4261 4269 TGF-beta
+# T54 Protein S23 125 130 4330 4335 Foxp3
+$ T51 Protein S23 29 34 4234 4239 RUNX1
+$ T53 Protein S23 56 64 4261 4269 TGF-beta
+$ T52 Protein S23 39 44 4244 4249 RUNX3
+@ T75 Positive_regulation S23 45 52 4250 4257 induced
+% E25 Positive_regulation:T75 Theme:T51 Cause:T53
+% E26 Positive_regulation:T75 Theme:T52 Cause:T53
+

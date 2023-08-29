@@ -1,0 +1,24 @@
+Inhibition of GP-induced NFkappaB, NFAT and NFIL-6 DNA binding to the IL-1RA promoter.
+# T1 Protein S1 35 39 35 39 NFAT
+# T2 Protein S1 44 50 44 50 NFIL-6
+# T3 Protein S1 70 76 70 76 IL-1RA
+
+A, A representative autoradiogram (lane 1: control, lane 2: GP, lane 3: GP + unlabeled mutated NFATP2/3 oligo, lane 4: GP + CAPE, lane 5: GP + CyA, lane 6: GP + CHX, lane 7: GP + unlabeled NFATP2/3 oligo, lane 8: water) as well as a graphical summary for the NFATP2/3 site, depicting a decrease in binding following inhibition when compared to GP is displayed (* = p < 0.05).
+
+Data are shown as mean +/- SEM (n = 4).
+
+B, Inhibition of NFkappaB, NFAT and NFIL-6 resulted in decreased IL-1RA mRNA following CHX, CAPE or CyA compared to GP.
+# T4 Protein S4 27 31 530 534 NFAT
+# T5 Protein S4 36 42 539 545 NFIL-6
+# T6 Protein S4 65 71 568 574 IL-1RA
+
+GAPDH is used as housekeeping control (representative gel, n = 4).
+# T7 Protein S5 0 5 623 628 GAPDH
+
+C, Inhibition of NFkappaB, NFAT and NFIL-6 significantly reduced the production of IL-1RA by human PBMC following treatment with CHX, CAPE or CyA when compared to GP (* = p < 0.05; ** = p < 0.01).
+# T8 Protein S6 27 31 717 721 NFAT
+# T9 Protein S6 36 42 726 732 NFIL-6
+# T10 Protein S6 83 89 773 779 IL-1RA
+
+Data are shown as mean +/- SEM (n = 3).
+

@@ -1,0 +1,44 @@
+Nitric oxide-stimulated guanine nucleotide exchange on p21ras.
+# T1 Protein S1 55 61 55 61 p21ras
+
+The protooncogene p21ras, a monomeric G protein family member, plays a critical role in converting extracellular signals into intracellular biochemical events.
+# T2 Protein S2 18 24 82 88 p21ras
+
+Here, we report that nitric oxide (NO) activates p21ras in human T cells as evidenced by an increase in GTP-bound p21ras.
+# T3 Protein S3 49 55 273 279 p21ras
+# T4 Protein S3 114 120 338 344 p21ras
+$ T3 Protein S3 49 55 273 279 p21ras
+$ T4 Protein S3 114 120 338 344 p21ras
+@ T12 Positive_regulation S3 39 48 263 272 activates
+@ T13 Positive_regulation S3 92 100 316 324 increase
+% E1 Positive_regulation:T12 Theme:T3
+% E2 Positive_regulation:T13 Theme:T4
+
+In vitro studies using pure recombinant p21ras demonstrate that the activation is direct and reversible.
+# T5 Protein S4 40 46 386 392 p21ras
+
+Circular dichroism analysis reveals that NO induces a profound conformational change in p21ras in association with GDP/GTP exchange.
+# T6 Protein S5 88 94 539 545 p21ras
+
+The mechanism of activation is due to S-nitrosylation of a critical cysteine residue which stimulates guanine nucleotide exchange.
+
+Furthermore, we demonstrate that p21ras is essential for NO-induced downstream signaling, such as NF-kappa B activation, and that endogenous NO can activate p21ras in the same cell.
+# T7 Protein S7 33 39 748 754 p21ras
+# T8 Protein S7 157 163 872 878 p21ras
+$ T8 Protein S7 157 163 872 878 p21ras
+@ T14 Positive_regulation S7 148 156 863 871 activate
+% E3 Positive_regulation:T14 Theme:T8
+
+These studies identify p21ras as a target of the same cell.
+# T9 Protein S8 23 29 920 926 p21ras
+
+These studies identify p21ras as a target of NO in T cells and suggest that NO activates p21ras by an action which mimics that of guanine nucleotide exchange factors.
+# T10 Protein S9 23 29 980 986 p21ras
+# T11 Protein S9 89 95 1046 1052 p21ras
+$ T10 Protein S9 23 29 980 986 p21ras
+$ T11 Protein S9 89 95 1046 1052 p21ras
+@ T15 Regulation S9 35 41 992 998 target
+@ T16 Positive_regulation S9 79 88 1036 1045 activates
+% E4 Regulation:T15 Theme:T10
+% E5 Positive_regulation:T16 Theme:T11
+

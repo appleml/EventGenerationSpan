@@ -1,0 +1,63 @@
+The Epstein-Barr virus oncogene product latent membrane protein 1 engages the tumor necrosis factor receptor-associated death domain protein to mediate B lymphocyte growth transformation and activate NF-kappaB.
+# T1 Protein S1 40 65 40 65 latent membrane protein 1
+# T2 Protein S1 78 108 78 108 tumor necrosis factor receptor
+$ T1 Protein S1 40 65 40 65 latent membrane protein 1
+@ T18 Binding S1 66 73 66 73 engages
+% E1 Binding:T18 Theme:T1
+
+The Epstein-Barr virus latent membrane protein 1 (LMP1) is essential for the transformation of B lymphocytes into lymphoblastoid cell lines.
+# T3 Protein S2 23 48 235 260 latent membrane protein 1
+# T4 Protein S2 50 54 262 266 LMP1
+
+Previous data are consistent with a model that LMP1 is a constitutively activated receptor that transduces signals for transformation through its carboxyl-terminal cytoplasmic tail.
+# T5 Protein S3 47 51 400 404 LMP1
+$ T5 Protein S3 47 51 400 404 LMP1
+@ T19 Positive_regulation S3 72 81 425 434 activated
+% E2 Positive_regulation:T19 Theme:T5
+
+One transformation effector site (TES1), located within the membrane proximal 45 residues of the cytoplasmic tail, constitutively engages tumor necrosis factor receptor-associated factors.
+
+Signals from TES1 are sufficient to drive initial proliferation of infected resting B lymphocytes, but most lymphoblastoid cells infected with a virus that does not express the 155 residues beyond TES1 fail to grow as long-term cell lines.
+
+We now find that mutating two tyrosines to an isoleucine at the carboxyl end of the cytoplasmic tail cripples the ability of EBV to cause lymphoblastoid cell outgrowth, thereby marking a second transformation effector site, TES2.
+
+A yeast two-hybrid screen identified TES2 interacting proteins, including the tumor necrosis factor receptor-associated death domain protein (TRADD).
+# T6 Protein S7 78 140 1272 1334 tumor necrosis factor receptor-associated death domain protein
+# T7 Protein S7 142 147 1336 1341 TRADD
+$ T7 Protein S7 142 147 1336 1341 TRADD
+@ T20 Binding S7 42 53 1236 1247 interacting
+% E3 Binding:T20 Theme:T7
+
+TRADD was the only protein that interacted with wild-type TES2 and not with isoleucine-mutated TES2.
+# T8 Protein S8 0 5 1344 1349 TRADD
+$ T8 Protein S8 0 5 1344 1349 TRADD
+@ T21 Binding S8 32 42 1376 1386 interacted
+% E4 Binding:T21 Theme:T8
+
+TRADD associated with wild-type LMP1 but not with isoleucine-mutated LMP1 in mammalian cells, and TRADD constitutively associated with LMP1 in EBV-transformed cells.
+# T9 Protein S9 0 5 1445 1450 TRADD
+# T10 Protein S9 32 36 1477 1481 LMP1
+# T11 Protein S9 69 73 1514 1518 LMP1
+# T12 Protein S9 98 103 1543 1548 TRADD
+# T13 Protein S9 135 139 1580 1584 LMP1
+$ T9 Protein S9 0 5 1445 1450 TRADD
+$ T10 Protein S9 32 36 1477 1481 LMP1
+$ T11 Protein S9 69 73 1514 1518 LMP1
+$ T12 Protein S9 98 103 1543 1548 TRADD
+$ T13 Protein S9 135 139 1580 1584 LMP1
+@ T22 Binding S9 6 16 1451 1461 associated
+@ T23 Binding S9 119 129 1564 1574 associated
+% E5 Binding:T22 Theme:T9 Theme2:T10
+% E6 Binding:T22 Theme:T9 Theme2:T11
+% E7 Binding:T23 Theme:T12 Theme2:T13
+
+In transfection assays, TRADD and TES2 synergistically mediated high-level NF-kappaB activation.
+# T14 Protein S10 24 29 1635 1640 TRADD
+# T15 Protein S10 34 38 1645 1649 TES2
+
+These results indicate that LMP1 appropriates TRADD to enable efficient long-term lymphoblastoid cell outgrowth.
+# T16 Protein S11 28 32 1736 1740 LMP1
+# T17 Protein S11 46 51 1754 1759 TRADD
+
+High-level NF-kappaB activation also appears to be a critical component of long-term outgrowth.
+

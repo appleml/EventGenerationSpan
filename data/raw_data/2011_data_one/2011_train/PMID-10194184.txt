@@ -1,0 +1,71 @@
+Activation of NF-kappaB in Mycobacterium tuberculosis- induced interleukin-2 receptor expression in mononuclear phagocytes.
+
+Soluble interleukin-2 receptor-alpha (IL-2Ralpha) has been reported to be increased in the sera of patients with advanced tuberculosis, and levels decline after therapy in accordance with improvement of radiologic findings.
+# T1 Protein S2 8 36 133 161 interleukin-2 receptor-alpha
+# T2 Protein S2 38 48 163 173 IL-2Ralpha
+$ T2 Protein S2 38 48 163 173 IL-2Ralpha
+@ T16 Positive_regulation S2 74 83 199 208 increased
+@ T17 Negative_regulation S2 147 154 272 279 decline
+% E1 Positive_regulation:T16 Theme:T2
+% E2 Negative_regulation:T17 Theme:E1
+
+We investigated expression of the IL-2Ralpha in bronchoalveolar lavage (BAL) cells in active pulmonary tuberculosis, and evaluated the mechanism Mycobacterium tuberculosis induces in the IL-2Ralpha using the THP-1 mononuclear phagocyte cell line.
+# T3 Protein S3 34 44 383 393 IL-2Ralpha
+# T4 Protein S3 187 197 536 546 IL-2Ralpha
+$ T3 Protein S3 34 44 383 393 IL-2Ralpha
+$ T4 Protein S3 187 197 536 546 IL-2Ralpha
+@ T18 Gene_expression S3 16 26 365 375 expression
+@ T19 Positive_regulation S3 172 179 521 528 induces
+% E3 Gene_expression:T18 Theme:T3
+% E4 Positive_regulation:T19 Theme:T4
+
+We found IL-2Ralpha expression to be increased in BAL cells from involved sites of active pulmonary tuberculosis.
+# T5 Protein S4 9 19 605 615 IL-2Ralpha
+$ T5 Protein S4 9 19 605 615 IL-2Ralpha
+@ T20 Gene_expression S4 20 30 616 626 expression
+@ T21 Positive_regulation S4 37 46 633 642 increased
+% E5 Gene_expression:T20 Theme:T5
+% E6 Positive_regulation:T21 Theme:E5
+
+Expression of the alpha-chain of IL-2Ralpha on peripheral blood monocytes (PBM) was induced by M. tuberculosis by flow cytometry evaluation.
+# T6 Protein S5 33 43 743 753 IL-2Ralpha
+$ T6 Protein S5 33 43 743 753 IL-2Ralpha
+@ T22 Gene_expression S5 0 10 710 720 Expression
+@ T23 Positive_regulation S5 84 91 794 801 induced
+% E7 Gene_expression:T22 Theme:T6
+% E8 Positive_regulation:T23 Theme:E7
+
+Northern analysis demonstrated increased IL-2Ralpha gene expression after stimulation with M. tuberculosis which was further induced by interferon-gamma (IFN-gamma).
+# T7 Protein S6 41 51 892 902 IL-2Ralpha
+# T8 Protein S6 136 152 987 1003 interferon-gamma
+# T9 Protein S6 154 163 1005 1014 IFN-gamma
+$ T7 Protein S6 41 51 892 902 IL-2Ralpha
+$ T9 Protein S6 154 163 1005 1014 IFN-gamma
+@ T24 Positive_regulation S6 31 40 882 891 increased
+@ T25 Gene_expression S6 57 67 908 918 expression
+@ T26 Positive_regulation S6 125 132 976 983 induced
+% E9 Positive_regulation:T24 Theme:E10
+% E10 Gene_expression:T25 Theme:T7
+% E11 Positive_regulation:T26 Theme:E10 Cause:T9
+
+The IL-2Ralpha promoter containing the nuclear factor kappa B (NF-kappaB) site was transcriptionally induced by M. tuberculosis and this NF-kappaB site could confer inducibility to a heterologous herpes thymidine kinase (TK) promoter by M. tuberculosis.
+# T10 Protein S7 4 14 1021 1031 IL-2Ralpha
+$ T10 Protein S7 4 14 1021 1031 IL-2Ralpha
+@ T27 Entity S7 15 23 1032 1040 promoter
+@ T28 Positive_regulation S7 101 108 1118 1125 induced
+% E12 Positive_regulation:T28 Theme:T10 Site:T27
+
+Electrophoretic mobility shift assays (EMSAs) revealed specific binding of nuclear protein to the NF-kappaB site upon induction with M. tuberculosis.
+
+Using antibodies against the p50 and p65 subunits of NF-kappaB in EMSAs, the involvement of both p50 and p65 proteins was further demonstrated.
+# T11 Protein S9 29 32 1450 1453 p50
+# T12 Protein S9 37 40 1458 1461 p65
+# T13 Protein S9 97 100 1518 1521 p50
+# T14 Protein S9 105 108 1526 1529 p65
+
+Functional expression of the IL-2Ralpha on mononuclear phagocytes in M. tuberculosis infection may play an important immunomodulatory role in the host response.
+# T15 Protein S10 29 39 1594 1604 IL-2Ralpha
+$ T15 Protein S10 29 39 1594 1604 IL-2Ralpha
+@ T29 Gene_expression S10 11 21 1576 1586 expression
+% E13 Gene_expression:T29 Theme:T15
+

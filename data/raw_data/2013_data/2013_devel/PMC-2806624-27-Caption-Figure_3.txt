@@ -1,0 +1,62 @@
+Binding of RUNX1 and RUNX3 proteins to the predicted binding sites in the FOXP3 promoter.
+# T1 Protein S1 11 16 11 16 RUNX1
+# T2 Protein S1 21 26 21 26 RUNX3
+# T3 Protein S1 74 79 74 79 FOXP3
+$ T1 Protein S1 11 16 11 16 RUNX1
+$ T3 Protein S1 74 79 74 79 FOXP3
+$ T2 Protein S1 21 26 21 26 RUNX3
+@ T17 Binding S1 0 7 0 7 Binding
+@ T18 Entity S1 53 66 53 66 binding sites
+% E1 Binding:T17 Theme:T1 Theme2:T3 Site2:T18
+% E2 Binding:T17 Theme:T2 Theme2:T3 Site2:T18
+
+(A) Mutated and wild-type oligonucleotides are shown.
+
+The predicted RUNX binding sites are accentuated (boxed and in green letters) and stars mark mutations introduced into the binding site of the control oligonucleotides.
+
+Nuclear extracts from HEK293T cells were incubated with biotinylated oligonucleotides.
+
+The precipitated oligonucleotide-transcription factor complexes were separated by SDS-PAGE and identified by Western blotting with anti-RUNX1 and anti-RUNX3 antibodies.
+# T4 Protein S5 136 141 536 541 RUNX1
+# T5 Protein S5 151 156 551 556 RUNX3
+
+A mixture of all three oligonucleotides with the predicted binding sites or with the inserted mutation into the predicted sites was used.
+
+Data shown are one representative of three independent experiments with similar results.
+
+(B) Promoter enzyme immunoassay using wild-type and mutated oligonucleotides within the FOXP3 promoter.
+# T6 Protein S8 88 93 884 889 FOXP3
+
+Bars show mean +/- SE of three independent experiments.
+
+(C) Chromatin immunoprecipitation assay results show binding of RUNX1 and RUNX3 complexes containing CBFbeta to the human FOXP3 promoter in naive CD4+ T cells that were cultured with IL-2 together with anti-CD2/3/28 and TGF-beta.
+# T7 Protein S10 64 69 1020 1025 RUNX1
+# T8 Protein S10 74 79 1030 1035 RUNX3
+# T9 Protein S10 101 108 1057 1064 CBFbeta
+# T10 Protein S10 122 127 1078 1083 FOXP3
+# T11 Protein S10 146 149 1102 1105 CD4
+# T12 Protein S10 183 187 1139 1143 IL-2
+# T13 Protein S10 207 210 1163 1166 CD2
+# T14 Protein S10 211 212 1167 1168 3
+# T15 Protein S10 213 215 1169 1171 28
+# T16 Protein S10 220 228 1176 1184 TGF-beta
+$ T7 Protein S10 64 69 1020 1025 RUNX1
+$ T10 Protein S10 122 127 1078 1083 FOXP3
+$ T8 Protein S10 74 79 1030 1035 RUNX3
+$ T9 Protein S10 101 108 1057 1064 CBFbeta
+@ T19 Binding S10 53 60 1009 1016 binding
+@ T20 Entity S10 128 136 1084 1092 promoter
+% E3 Binding:T19 Theme:T7 Theme2:T10 Site2:T20
+% E4 Binding:T19 Theme:T8 Theme2:T10 Site2:T20
+% E5 Binding:T19 Theme:T9 Theme2:T10 Site2:T20
+
+There was no change in site occupancy in all immunoprecipitations when IGX1A negative control primers were used.
+
+The results are normalized to input and isotype control antibody.
+
+Bars show mean +/- SE of three independent experiments.
+
+Statistical differences were verified by the paired Student's t test.
+
+*, P < 0.05
+

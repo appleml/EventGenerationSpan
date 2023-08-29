@@ -1,0 +1,56 @@
+Induction of endothelial cell surface adhesion molecules by tumor necrosis factor is blocked by protein tyrosine phosphatase inhibitors: role of the nuclear transcription factor NF-kappa B.
+
+Recent studies from our laboratory have indicated that protein tyrosine phosphatase (PTPase) inhibitors can down-modulate the tumor necrosis factor (TNF)-mediated activation of the nuclear transcription factor NF-kappa B in ML-1a, a monocytic cell line (Singh and Aggarwal, J. Biol. Chem. 1995: 270: 10631).
+
+Since TNF is one of the major inducers of various adhesion molecules in human endothelial cells and their expression is known to require the activation of NF-kappa B, we examined the effect of PTPase inhibitors on the TNF-mediated induction of intracellular adhesion molecule (ICAM)-1, vascular cell adhesion molecule (VCAM)-1 and endothelial leukocyte adhesion molecule (ELAM)-1.
+# T1 Protein S3 244 284 743 783 intracellular adhesion molecule (ICAM)-1
+# T2 Protein S3 286 326 785 825 vascular cell adhesion molecule (VCAM)-1
+# T3 Protein S3 331 379 830 878 endothelial leukocyte adhesion molecule (ELAM)-1
+$ T1 Protein S3 244 284 743 783 intracellular adhesion molecule (ICAM)-1
+$ T3 Protein S3 331 379 830 878 endothelial leukocyte adhesion molecule (ELAM)-1
+$ T2 Protein S3 286 326 785 825 vascular cell adhesion molecule (VCAM)-1
+@ T7 Regulation S3 183 189 682 688 effect
+@ T8 Positive_regulation S3 231 240 730 739 induction
+% E1 Regulation:T7 Theme:E5
+% E2 Regulation:T7 Theme:E6
+% E3 Regulation:T7 Theme:E4
+% E4 Positive_regulation:T8 Theme:T1
+% E5 Positive_regulation:T8 Theme:T3
+% E6 Positive_regulation:T8 Theme:T2
+
+Like ML-1a, human dermal microvessel endothelial cells (MVEC) treated with TNF rapidly activated (within 30 min) NF-kappa B; this effect was completely abolished by co-treatment with phenylarsine oxide (PAO), a specific inhibitor of PTPase.
+
+The induction of ICAM-1, VCAM-1, and ELAM-1 by TNF in MVEC occurred within 6 h and was also completely down-regulated by PAO in a dose-dependent manner.
+# T4 Protein S5 17 23 1138 1144 ICAM-1
+# T5 Protein S5 25 31 1146 1152 VCAM-1
+# T6 Protein S5 37 43 1158 1164 ELAM-1
+$ T6 Protein S5 37 43 1158 1164 ELAM-1
+$ T5 Protein S5 25 31 1146 1152 VCAM-1
+$ T4 Protein S5 17 23 1138 1144 ICAM-1
+@ T9 Positive_regulation S5 4 13 1125 1134 induction
+@ T10 Negative_regulation S5 103 117 1224 1238 down-regulated
+% E7 Positive_regulation:T9 Theme:T6
+% E8 Positive_regulation:T9 Theme:T5
+% E9 Positive_regulation:T9 Theme:T4
+% E10 Negative_regulation:T10 Theme:E7
+% E11 Negative_regulation:T10 Theme:E9
+% E12 Negative_regulation:T10 Theme:E8
+
+PAO was found to be effective even when added 3 h after TNF, suggesting a rapid mode of action of this inhibitor.
+
+Besides PAO, other inhibitors of PTPase, including pervanadate and diamide, also blocked TNF-dependent NF-kappa B activation and induction of all the three adhesion proteins.
+@ T11 Negative_regulation S7 81 88 1469 1476 blocked
+@ T12 Positive_regulation S7 129 138 1517 1526 induction
+% E13 Negative_regulation:T11 Theme:E18
+% E14 Negative_regulation:T11 Theme:E17
+% E15 Negative_regulation:T11 Theme:E16
+% E16 Positive_regulation:T12 Theme:T4
+% E17 Positive_regulation:T12 Theme:T5
+% E18 Positive_regulation:T12 Theme:T6
+
+Consistent with these results, the attachment of monocytes to MVEC was also blocked by the PTPase inhibitors.
+
+Thus, overall, our results demonstrate that a PTPase is involved either directly or indirectly in the pathway leading to the induction of endothelial cell adhesion molecules by TNF.
+
+Because of their role in cell adhesion, PTPase may provide a novel target of drug development for treatment of inflammation, atherogenesis, and tumor metastasis.
+

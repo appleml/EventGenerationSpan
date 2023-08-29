@@ -1,0 +1,27 @@
+Transient Transfection and Luciferase Assays (RAW264.7 Macrophages)
+# T1 Protein S1 27 37 27 37 Luciferase
+
+RAW 264.7 cells (2x107) growing in log phase were transfected with the indicated luciferase reporter plasmid (20 microg) along with the pRL-thymidine kinase (TK) (Promega) internal control reporter plasmid (2 microg) by electroporation using a Bio-Rad Gene Pulser with a Capacitance Extender (0.25 kV, 960 microFd).
+# T2 Protein S2 81 91 149 159 luciferase
+# T3 Protein S2 140 156 208 224 thymidine kinase
+# T4 Protein S2 158 160 226 228 TK
+
+pGL3 control plasmid which encodes the SV40 promoter and enhancer was included as a positive control for transfection efficiency, and as an internal standard for promoter and enhancer activities.
+
+Transfected cells were transferred to 10 ml of pre-warmed media in 6-well tissue culture plates, divided into two identical cell pools and incubated 16 hrs in a 5% CO2 and 95% humidified air atmosphere at 37degreesC either in the presence or absence of 100 ng/ml LPS.
+
+Luciferase activity was measured using a Dual-Luciferase Reporter Assay System kit (Promega).
+# T5 Protein S5 0 10 848 858 Luciferase
+# T6 Protein S5 46 56 894 904 Luciferase
+
+Measurements represent the results of at least three independent experiments.
+
+Promoter activity is expressed as the number of firefly luciferase light units normalized either to pRL-TK renilla luciferase light units or to cellular protein concentration (where co-transfected C/EBP-beta or LPS affected pRL-TK activity).
+# T7 Protein S7 56 66 1076 1086 luciferase
+# T8 Protein S7 104 106 1124 1126 TK
+# T9 Protein S7 115 125 1135 1145 luciferase
+# T10 Protein S7 197 207 1217 1227 C/EBP-beta
+# T11 Protein S7 228 230 1248 1250 TK
+
+Protein concentration was determined using the Bio-Rad protein microassay reagent.
+

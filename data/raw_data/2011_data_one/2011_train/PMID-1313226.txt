@@ -1,0 +1,90 @@
+Leukotriene B4 stimulates c-fos and c-jun gene transcription and AP-1 binding activity in human monocytes.
+# T1 Protein S1 26 31 26 31 c-fos
+# T2 Protein S1 36 41 36 41 c-jun
+$ T1 Protein S1 26 31 26 31 c-fos
+$ T2 Protein S1 36 41 36 41 c-jun
+@ T14 Positive_regulation S1 15 25 15 25 stimulates
+@ T15 Transcription S1 47 60 47 60 transcription
+% E1 Positive_regulation:T14 Theme:E4
+% E2 Positive_regulation:T14 Theme:E3
+% E3 Transcription:T15 Theme:T1
+% E4 Transcription:T15 Theme:T2
+
+We have examined the effect of leukotriene B4 (LTB4), a potent lipid proinflammatory mediator, on the expression of the proto-oncogenes c-jun and c-fos.
+# T3 Protein S2 136 141 244 249 c-jun
+# T4 Protein S2 146 151 254 259 c-fos
+$ T3 Protein S2 136 141 244 249 c-jun
+$ T4 Protein S2 146 151 254 259 c-fos
+@ T16 Regulation S2 21 27 129 135 effect
+@ T17 Gene_expression S2 102 112 210 220 expression
+% E5 Regulation:T16 Theme:E8
+% E6 Regulation:T16 Theme:E7
+% E7 Gene_expression:T17 Theme:T3
+% E8 Gene_expression:T17 Theme:T4
+
+In addition, we looked at the modulation of nuclear factors binding specifically to the AP-1 element after LTB4 stimulation.
+
+LTB4 increased the expression of the c-fos gene in a time- and concentration-dependent manner.
+# T5 Protein S4 37 42 423 428 c-fos
+$ T5 Protein S4 37 42 423 428 c-fos
+@ T18 Positive_regulation S4 5 14 391 400 increased
+@ T19 Gene_expression S4 19 29 405 415 expression
+% E9 Positive_regulation:T18 Theme:E10
+% E10 Gene_expression:T19 Theme:T5
+
+The c-jun mRNA, which is constitutively expressed in human peripheral-blood monocytes at relatively high levels, was also slightly augmented by LTB4, although to a much lower extent than c-fos.
+# T6 Protein S5 4 9 485 490 c-jun
+# T7 Protein S5 187 192 668 673 c-fos
+$ T6 Protein S5 4 9 485 490 c-jun
+@ T20 Transcription S5 40 49 521 530 expressed
+@ T21 Positive_regulation S5 100 111 581 592 high levels
+@ T22 Positive_regulation S5 131 140 612 621 augmented
+% E11 Transcription:T20 Theme:T6
+% E12 Positive_regulation:T21 Theme:E11
+% E13 Positive_regulation:T22 Theme:E11
+
+The kinetics of expression of the two genes were also slightly different, with c-fos mRNA reaching a peak at 15 min after stimulation and c-jun at 30 min.
+# T8 Protein S6 79 84 754 759 c-fos
+# T9 Protein S6 138 143 813 818 c-jun
+$ T9 Protein S6 138 143 813 818 c-jun
+$ T8 Protein S6 79 84 754 759 c-fos
+@ T23 Gene_expression S6 16 26 691 701 expression
+@ T24 Transcription S6 16 26 691 701 expression
+@ T25 Positive_regulation S6 90 105 765 780 reaching a peak
+% E14 Gene_expression:T23 Theme:T9
+% E16 Gene_expression:T23 Theme:T8
+% E15 Transcription:T24 Theme:T8
+% E17 Transcription:T24 Theme:T9
+% E18 Positive_regulation:T25 Theme:E17
+% E19 Positive_regulation:T25 Theme:E15
+
+Both messages rapidly declined thereafter.
+@ T26 Negative_regulation S7 22 30 852 860 declined
+% E20 Negative_regulation:T26 Theme:T8
+% E21 Negative_regulation:T26 Theme:T9
+
+Stability of the c-fos and c-jun mRNA was not affected by LTB4, as assessed after actinomycin D treatment.
+# T10 Protein S8 17 22 890 895 c-fos
+# T11 Protein S8 27 32 900 905 c-jun
+$ T11 Protein S8 27 32 900 905 c-jun
+$ T10 Protein S8 17 22 890 895 c-fos
+@ T27 Regulation S8 46 54 919 927 affected
+% E22 Regulation:T27 Theme:T11
+% E23 Regulation:T27 Theme:T10
+
+Nuclear transcription studies in vitro showed that LTB4 increased the transcription of the c-fos gene 7-fold and the c-jun gene 1.4-fold.
+# T12 Protein S9 91 96 1071 1076 c-fos
+# T13 Protein S9 117 122 1097 1102 c-jun
+$ T13 Protein S9 117 122 1097 1102 c-jun
+$ T12 Protein S9 91 96 1071 1076 c-fos
+@ T28 Positive_regulation S9 56 65 1036 1045 increased
+@ T29 Transcription S9 70 83 1050 1063 transcription
+% E24 Positive_regulation:T28 Theme:E27
+% E25 Positive_regulation:T28 Theme:E26
+% E26 Transcription:T29 Theme:T13
+% E27 Transcription:T29 Theme:T12
+
+Resting monocytes contained nuclear factors binding to the AP-1 element, but stimulation of monocytes with LTB4 induced greater AP-1-binding activity of nuclear proteins.
+
+These results indicate that LTB4 may regulate the production of different cytokines by modulating the yield and/or the function of transcription factors such as AP-1-binding proto-oncogene products.
+

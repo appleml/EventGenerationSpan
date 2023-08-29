@@ -1,0 +1,49 @@
+Human B cells express BMP-6 receptors
+# T1 Protein S1 22 27 22 27 BMP-6
+
+Detailed knowledge regarding expression of different BMP receptors in B cells is currently not available.
+
+To further elucidate the role of BMPs in human B cells, we performed western blot analysis for type I and type II BMP receptors.
+
+This analysis revealed that the type I receptors Act-RIA, BMP-RIB and the type II receptors BMP-RII and Act-RIIb are expressed on resting human B-cells (Figure 4).
+# T2 Protein S4 49 56 322 329 Act-RIA
+# T3 Protein S4 58 65 331 338 BMP-RIB
+# T4 Protein S4 92 99 365 372 BMP-RII
+# T5 Protein S4 104 112 377 385 Act-RIIb
+$ T2 Protein S4 49 56 322 329 Act-RIA
+$ T3 Protein S4 58 65 331 338 BMP-RIB
+$ T4 Protein S4 92 99 365 372 BMP-RII
+$ T5 Protein S4 104 112 377 385 Act-RIIb
+@ T12 Gene_expression S4 117 126 390 399 expressed
+% E1 Gene_expression:T12 Theme:T2
+% E2 Gene_expression:T12 Theme:T3
+% E3 Gene_expression:T12 Theme:T4
+% E4 Gene_expression:T12 Theme:T5
+
+Ramos cells expressed the type I receptors Act-RIA, weakly BMP-RIB and the type II receptor BMP-RII, but more weakly than normal B cells (Figure 4).
+# T6 Protein S5 43 50 480 487 Act-RIA
+# T7 Protein S5 59 66 496 503 BMP-RIB
+# T8 Protein S5 92 99 529 536 BMP-RII
+$ T6 Protein S5 43 50 480 487 Act-RIA
+$ T7 Protein S5 59 66 496 503 BMP-RIB
+$ T8 Protein S5 92 99 529 536 BMP-RII
+@ T13 Gene_expression S5 12 21 449 458 expressed
+% E5 Gene_expression:T13 Theme:T6
+% E6 Gene_expression:T13 Theme:T7
+% E7 Gene_expression:T13 Theme:T8
+
+HL60 cells were used for comparison and weakly expressed Act-RIA and BMP-RII.
+# T9 Protein S6 57 64 643 650 Act-RIA
+# T10 Protein S6 69 76 655 662 BMP-RII
+$ T9 Protein S6 57 64 643 650 Act-RIA
+$ T10 Protein S6 69 76 655 662 BMP-RII
+@ T14 Gene_expression S6 47 56 633 642 expressed
+% E8 Gene_expression:T14 Theme:T9
+% E9 Gene_expression:T14 Theme:T10
+
+Taken together, these data show that normal human B cells and Ramos cells express a set of BMP receptors, previously shown to bind BMP-6 [16].
+# T11 Protein S7 131 136 796 801 BMP-6
+$ T11 Protein S7 131 136 796 801 BMP-6
+@ T15 Binding S7 126 130 791 795 bind
+% E10 Binding:T15 Theme:T11
+

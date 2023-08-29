@@ -1,0 +1,66 @@
+Patterns of Pan expression and role of Pan proteins in endocrine cell type-specific complex formation.
+
+The Pan gene encodes at least two distinct transcripts, Pan-1 and Pan-2 (also known as E47 and E12, respectively), by the mechanism of alternative RNA splicing.
+# T1 Protein S2 4 7 108 111 Pan
+# T2 Protein S2 56 61 160 165 Pan-1
+# T3 Protein S2 66 71 170 175 Pan-2
+# T4 Protein S2 87 90 191 194 E47
+# T5 Protein S2 95 98 199 202 E12
+
+Northern blot analyses performed on rat and mouse tissues have detected ubiquitously expressed Pan transcripts, but the abundance, distribution, and form of Pan proteins have not been clearly defined.
+# T6 Protein S3 95 98 360 363 Pan
+# T7 Protein S3 157 160 422 425 Pan
+$ T6 Protein S3 95 98 360 363 Pan
+@ T24 Transcription S3 85 94 350 359 expressed
+% E1 Transcription:T24 Theme:T6
+
+Studies of cell lines representing endocrine, fibroblast, and lymphoid lineages using polyclonal antisera to detect E2A proteins have suggested that significant E2A protein expression is restricted to B-lymphocytes.
+# T8 Protein S4 116 119 582 585 E2A
+# T9 Protein S4 161 164 627 630 E2A
+$ T9 Protein S4 161 164 627 630 E2A
+@ T25 Gene_expression S4 173 183 639 649 expression
+% E2 Gene_expression:T25 Theme:T9
+
+We have developed a monoclonal antibody, Yae, which is specific for Pan/E2A proteins, and have used the Yae antibody to examine a variety of endocrine and nonendocrine cell lineages for differences in Pan/E2A protein expression, subcellular localization, and heteromeric complex formation.
+# T10 Protein S5 68 71 750 753 Pan
+# T11 Protein S5 72 75 754 757 E2A
+# T12 Protein S5 201 204 883 886 Pan
+# T13 Protein S5 205 208 887 890 E2A
+$ T12 Protein S5 201 204 883 886 Pan
+@ T26 Gene_expression S5 217 227 899 909 expression
+@ T27 Binding S5 259 288 941 970 heteromeric complex formation
+% E3 Gene_expression:T26 Theme:T12
+% E4 Binding:T27 Theme:T12
+
+In contrast to previous results obtained using polyclonal antiseras to detect Pan/E2A proteins, we report comparable levels of Pan proteins in GH/PRL- and insulin-producing, B- and T-lymphocyte cells.
+# T14 Protein S6 78 81 1050 1053 Pan
+# T15 Protein S6 82 85 1054 1057 E2A
+# T16 Protein S6 127 130 1099 1102 Pan
+# T17 Protein S6 143 145 1115 1117 GH
+# T18 Protein S6 155 162 1127 1134 insulin
+$ T16 Protein S6 127 130 1099 1102 Pan
+$ T17 Protein S6 143 145 1115 1117 GH
+$ T18 Protein S6 155 162 1127 1134 insulin
+@ T28 Gene_expression S6 106 123 1078 1095 comparable levels
+@ T29 Gene_expression S6 163 172 1135 1144 producing
+% E5 Gene_expression:T28 Theme:T16
+% E6 Gene_expression:T29 Theme:T17
+% E7 Gene_expression:T29 Theme:T18
+
+IEF-1, a pancreatic beta-cell type-specific complex believed to regulate insulin expression, is demonstrated to consist of at least two distinct species, one of which does not contain Pan molecules.
+# T19 Protein S7 73 80 1246 1253 insulin
+# T20 Protein S7 184 187 1357 1360 Pan
+$ T19 Protein S7 73 80 1246 1253 insulin
+@ T30 Regulation S7 64 72 1237 1245 regulate
+@ T31 Gene_expression S7 81 91 1254 1264 expression
+% E8 Regulation:T30 Theme:E9
+% E9 Gene_expression:T31 Theme:T19
+
+Although it has been postulated that pituitary endocrine cells and pancreatic endocrine beta-cells share identical Pan/E2A complexes, native-Western analyses of pituitary and endocrine beta-cells detect Pan proteins in distinct cell type-specific complexes.
+# T21 Protein S8 115 118 1487 1490 Pan
+# T22 Protein S8 119 122 1491 1494 E2A
+# T23 Protein S8 203 206 1575 1578 Pan
+$ T23 Protein S8 203 206 1575 1578 Pan
+@ T32 Gene_expression S8 196 202 1568 1574 detect
+% E10 Gene_expression:T32 Theme:T23
+

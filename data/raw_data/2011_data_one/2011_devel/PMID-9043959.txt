@@ -1,0 +1,69 @@
+Thymocytes control the CD4 gene differently from mature T lymphocytes.
+# T1 Protein S1 23 26 23 26 CD4
+$ T1 Protein S1 23 26 23 26 CD4
+@ T14 Regulation S1 11 18 11 18 control
+% E1 Regulation:T14 Theme:T1
+
+We analyzed the activity of the enhancer, the promoter and the silencer of the human CD4 gene during T cell development using transgenic mice.
+# T2 Protein S2 85 88 157 160 CD4
+
+Immunofluorescence studies on thymic populations of mice carrying transgenes in various combinations of these regulatory DNA elements revealed that thymocytes control the CD4 gene in a different manner than mature peripheral T lymphocytes.
+# T3 Protein S3 171 174 386 389 CD4
+$ T3 Protein S3 171 174 386 389 CD4
+@ T15 Regulation S3 159 166 374 381 control
+% E2 Regulation:T15 Theme:T3
+
+The 5'-positive regulatory unit, consisting of the promoter and the 5' enhancer, is already active at the CD4-CD8-double-negative (DN) stage of development.
+# T4 Protein S4 106 109 561 564 CD4
+$ T4 Protein S4 106 109 561 564 CD4
+@ T16 Negative_regulation S4 114 129 569 584 double-negative
+% E3 Negative_regulation:T16 Theme:T4
+
+However, its activity becomes lower in the double-positive and a fraction of the CD4+ CD8int/- cell population, indicating that an additional enhancer, located in either the first or the third intron of the CD4 gene, is required for CD4 gene expression in this population.
+# T5 Protein S5 207 210 819 822 CD4
+# T6 Protein S5 233 236 845 848 CD4
+$ T6 Protein S5 233 236 845 848 CD4
+@ T17 Positive_regulation S5 43 58 655 670 double-positive
+@ T18 Positive_regulation S5 220 228 832 840 required
+@ T19 Gene_expression S5 242 252 854 864 expression
+% E4 Positive_regulation:T17 Theme:T4
+% E5 Positive_regulation:T18 Theme:E6
+% E6 Gene_expression:T19 Theme:T6
+
+The other studied regulatory element is the minimal CD4 silencer which inhibits CD4 gene expression in peripheral CD8 T lymphocytes.
+# T7 Protein S6 52 55 937 940 CD4
+# T8 Protein S6 80 83 965 968 CD4
+$ T8 Protein S6 80 83 965 968 CD4
+@ T20 Negative_regulation S6 71 79 956 964 inhibits
+@ T21 Gene_expression S6 89 99 974 984 expression
+% E7 Negative_regulation:T20 Theme:E8
+% E8 Gene_expression:T21 Theme:T8
+
+This silencer is inactive in the most immature DN thymocytes, which probably use a distinct silencer mechanism to down-regulate CD4 gene expression.
+# T9 Protein S7 128 131 1146 1149 CD4
+$ T9 Protein S7 128 131 1146 1149 CD4
+@ T22 Negative_regulation S7 114 127 1132 1145 down-regulate
+@ T23 Gene_expression S7 137 147 1155 1165 expression
+% E9 Negative_regulation:T22 Theme:E10
+% E10 Gene_expression:T23 Theme:T9
+
+Unexpectedly, the CD4 silencer is also active in CD4+ CD8int/- cells of the thymus, implying that an anti-silencer may be required to resume CD4 expression in this cell population.
+# T10 Protein S8 18 21 1185 1188 CD4
+# T11 Protein S8 49 52 1216 1219 CD4
+# T12 Protein S8 141 144 1308 1311 CD4
+$ T12 Protein S8 141 144 1308 1311 CD4
+@ T24 Positive_regulation S8 122 130 1289 1297 required
+@ T25 Negative_regulation S8 134 140 1301 1307 resume
+@ T26 Gene_expression S8 145 155 1312 1322 expression
+% E11 Positive_regulation:T24 Theme:E12
+% E12 Negative_regulation:T25 Theme:E13
+% E13 Gene_expression:T26 Theme:T12
+
+Altogether, the CD4 gene is regulated by several positive and negative regulatory mechanisms which come into play in a developmentally coordinated manner.
+# T13 Protein S9 16 19 1364 1367 CD4
+$ T13 Protein S9 16 19 1364 1367 CD4
+@ T27 Positive_regulation S9 28 37 1376 1385 regulated
+@ T28 Negative_regulation S9 28 37 1376 1385 regulated
+% E14 Positive_regulation:T27 Theme:T13
+% E15 Negative_regulation:T28 Theme:T13
+

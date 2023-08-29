@@ -1,0 +1,25 @@
+Cytokine measurements
+
+Supernatants of cell cultures were harvested 3, 6, 9, 12, 18, 24, 30, 36 and 48 hours after stimulation and stored at -80 degreesC until used and thawed only once.
+
+IFNgamma, TNFalpha, IL-1 and IL-6 were determined using an ELISA from Bender Systems (Vienna, Austria), IL-1RA and IL-8 by an ELISA from R&D Systems (Wiesbaden-Nordenstadt, Germany), and TGFbeta 1 using an ELISA as previously described [57].
+# T1 Protein S3 0 8 186 194 IFNgamma
+# T2 Protein S3 10 18 196 204 TNFalpha
+# T3 Protein S3 20 24 206 210 IL-1
+# T4 Protein S3 29 33 215 219 IL-6
+# T5 Protein S3 104 110 290 296 IL-1RA
+# T6 Protein S3 115 119 301 305 IL-8
+# T7 Protein S3 187 196 373 382 TGFbeta 1
+
+Quantification of IL-2 as an indicator for the bioactivity of IL-1 was done as previously described [46].
+# T8 Protein S4 18 22 446 450 IL-2
+# T9 Protein S4 62 66 490 494 IL-1
+
+Samples were diluted in the same buffer as that used for the standards.
+
+All cytokines were quantified using an ELISA plate reader (Anthos Labotec, Salzburg, Austria or Microplate Reader, BioRad).
+
+Cytokine amounts were all within the range of the standard curve.
+
+Only stimulation of PBMC observed in donors showing no spontaneous cytokine release was included in the statistics.
+

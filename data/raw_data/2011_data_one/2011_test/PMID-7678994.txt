@@ -1,0 +1,44 @@
+Expression of tal-1 and GATA-binding proteins during human hematopoiesis.
+# T1 Protein S1 14 19 14 19 tal-1
+
+Tal-1 rearrangements are associated with nearly 30% of human T acute lymphoblastic leukemia.
+# T2 Protein S2 0 5 75 80 Tal-1
+
+Tal-1 gene encodes a putative transcription factor with a basic helix-loop-helix domain and is known to be predominantly expressed in hematopoietic cells.
+# T3 Protein S3 0 5 168 173 Tal-1
+
+We investigated the pattern of tal-1 expression in purified human hematopoietic cells by in situ hybridization and reverse transcriptase polymerase chain reaction analysis.
+# T4 Protein S4 31 36 354 359 tal-1
+
+Both methods demonstrated that the tal-1 gene is expressed in megakaryocytes and erythroblasts as well as in basophilic granulocytes.
+# T5 Protein S5 35 40 531 536 tal-1
+
+In addition, our results indicate that the tal-1 1A promoter, which contains two consensus GATA-binding sites, is active mainly in these lineages.
+# T6 Protein S6 43 48 673 678 tal-1
+
+Because the GATA-1 gene is known to transactivate several genes specific for the erythroid, megakaryocytic, and mastocytic/basophilic lineages, we studied GATA-1 expression in these purified hematopoietic cells.
+# T7 Protein S7 12 18 789 795 GATA-1
+# T8 Protein S7 155 161 932 938 GATA-1
+
+We found that GATA-1 and tal-1 genes are coexpressed in these three lineages.
+# T9 Protein S8 14 20 1003 1009 GATA-1
+# T10 Protein S8 25 30 1014 1019 tal-1
+
+Remarkably, the expression of both genes is downmodulated during erythroid and megakaryocytic terminal maturation.
+
+In immature hematopoietic cells, tal-1 and GATA-1 genes are coexpressed in committed progenitors cells (CD34+/CD38(2+)), whereas they are not detectable in the most primitive cells (CD34(2+)/CD38-).
+# T11 Protein S10 33 38 1215 1220 tal-1
+# T12 Protein S10 43 49 1225 1231 GATA-1
+# T13 Protein S10 104 108 1286 1290 CD34
+# T14 Protein S10 110 114 1292 1296 CD38
+# T15 Protein S10 182 186 1364 1368 CD34
+# T16 Protein S10 191 195 1373 1377 CD38
+
+In contrast, GATA-2 is strongly expressed in both most primitive and committed progenitors cells, whereas GATA-3 is mostly detected in most primitive ones.
+# T17 Protein S11 13 19 1394 1400 GATA-2
+# T18 Protein S11 106 112 1487 1493 GATA-3
+
+Altogether our results strongly suggest that GATA-1 modulates the transcription of tal-1 during the differentiation of the erythroid, megakaryocytic, and basosophilic lineages.
+# T19 Protein S12 45 51 1582 1588 GATA-1
+# T20 Protein S12 83 88 1620 1625 tal-1
+

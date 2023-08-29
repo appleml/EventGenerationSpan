@@ -1,0 +1,32 @@
+LMP1 Promotes B-1a Lymphomas That Can Escape Allelic Exclusion
+# T1 Protein S1 0 4 0 4 LMP1
+
+(A) Flow cytometry analysis of splenocytes from a WT or LMP1 transgenic lymphoma for the pan-B cell (CD19), B-1a cell (CD5), and Ig heavy chain (IgM and IgD) and light chain (kappa and lambda) markers.
+# T2 Protein S2 56 60 119 123 LMP1
+# T3 Protein S2 101 105 164 168 CD19
+# T4 Protein S2 119 122 182 185 CD5
+
+Shown are the results from WT lymphoma 1 and LMP1 transgenic lymphoma 4.
+# T5 Protein S3 45 49 310 314 LMP1
+
+This analysis was repeated on four other LMP1 transgenic lymphomas (1, 2, 3, and 6) showing a similar B-1a phenotype, of which lymphomas 2 and 4 were also doubly positive for kappa and lambda light chains.
+# T6 Protein S4 41 45 379 383 LMP1
+
+(B) Flow cytometry analysis of WT or LMP1 transgenic splenocytes for B-1a (CD19+CD5+) and B-1b or B2 subsets (CD19+CD5-).
+# T7 Protein S5 37 41 582 586 LMP1
+# T8 Protein S5 75 79 620 624 CD19
+# T9 Protein S5 80 83 625 628 CD5
+# T10 Protein S5 110 114 655 659 CD19
+# T11 Protein S5 115 118 660 663 CD5
+
+Percentages of B-1a and B-1b or B2 subsets are shown in each quadrant.
+
+This analysis was repeated on three other WT and two other LMP1 transgenic mice with similar results.
+# T12 Protein S7 59 63 797 801 LMP1
+
+(C) Immunoblot analysis for kappa and lambda light chains of B cells (CD19+) purified from WT and LMP1 transgenic mice.
+# T13 Protein S8 70 74 911 915 CD19
+# T14 Protein S8 98 102 939 943 LMP1
+
+Actin was used as a loading control.
+

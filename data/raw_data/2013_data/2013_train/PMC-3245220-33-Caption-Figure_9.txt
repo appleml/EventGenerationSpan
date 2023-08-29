@@ -1,0 +1,9 @@
+Proposed model for M-CSF-induced monocyte survival via PKC regulation by activating NF-kappaB p65 phosphorylation at Ser276.
+# T1 Protein S1 94 97 94 97 p65
+$ T1 Protein S1 94 97 94 97 p65
+@ T2 Positive_regulation S1 73 83 73 83 activating
+@ T3 Phosphorylation S1 98 113 98 113 phosphorylation
+@ T4 Entity S1 117 123 117 123 Ser276
+% E1 Positive_regulation:T2 Theme:E2
+% E2 Phosphorylation:T3 Theme:T1 Site:T4
+

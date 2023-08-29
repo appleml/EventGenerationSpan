@@ -1,0 +1,50 @@
+1The protein kinase D (PKD) serine/threonine kinase family has three members: PKD1, PKD2 and PKD3.
+# T1 Protein S1 78 82 78 82 PKD1
+# T2 Protein S1 84 88 84 88 PKD2
+# T3 Protein S1 93 97 93 97 PKD3
+
+Most cell types express at least two PKD isoforms but PKD enzymes are especially highly expressed in haematopoietic cells, where they are activated in response to antigen receptors stimulation [2,3].
+
+A conserved signalling pathway linking antigen receptors to PKDs involves the activation of PLCgamma and the subsequent production of diacylglycerol (DAG) which stimulates classical and/or novel protein kinase Cs (PKC) that phosphorylate two key regulatory serine residues in the activation loop of PKD kinases [3-6].
+
+The N-terminal regulatory region of PKD enzymes contains a DAG binding domain and direct binding of DAG also contributes to PKD1 activation [7] as well as regulating the spatial location of PKD enzymes within cells [8-12].
+# T4 Protein S4 124 128 741 745 PKD1
+$ T4 Protein S4 124 128 741 745 PKD1
+@ T9 Binding S4 89 96 706 713 binding
+@ T10 Positive_regulation S4 109 120 726 737 contributes
+@ T11 Positive_regulation S4 129 139 746 756 activation
+% E1 Binding:T9 Theme:T4
+% E2 Positive_regulation:T10 Theme:E3 Cause:E1
+% E3 Positive_regulation:T11 Theme:T4
+
+PKD enzymes have been proposed to regulate numerous cellular functions, including cell proliferation [13-16], anti-apoptotic signals [17,18] and thymocyte development [19].
+
+Expression of mutant catalytically inactive and constitutively activated PKDs can also modify Golgi function, cell adhesion and cell motility (reviewed in [20]).
+
+In particular, PKDs have been widely linked to the activation of the NFkappaB transcription factor and in regulating cell survival during oxidative stress [17,21-23].
+
+Another recently proposed PKD1 substrate is HSP27 [24], a small heat shock protein involved in regulating cell migration and cell survival [25].
+# T5 Protein S8 26 30 1368 1372 PKD1
+# T6 Protein S8 44 49 1386 1391 HSP27
+
+An essential role for PKD enzymes in regulating class II histone deacetylases (HDACs), enzymes that repress MEF2-dependent gene transcription, has also been demonstrated [1,26-28].
+# T7 Protein S9 108 112 1595 1599 MEF2
+
+To investigate the biological role of PKDs we have generated DT40 B cell lines that lack expression of one or more members of the PKD family [1], allowing us to investigate the function(s) of PKD isoforms following B cell antigen receptor (BCR) stimulation, as well addressing the issue of functional redundancy between the different PKD family members.
+
+Previous studies have shown that PKDs are indispensable for HDAC regulation in B cells [1].
+
+Herein we show that PKDs are also indispensable for HSP27 phosphorylation in B cells.
+# T8 Protein S12 52 57 2166 2171 HSP27
+$ T8 Protein S12 52 57 2166 2171 HSP27
+@ T12 Positive_regulation S12 34 47 2148 2161 indispensable
+@ T13 Phosphorylation S12 58 73 2172 2187 phosphorylation
+% E4 Positive_regulation:T12 Theme:E5
+% E5 Phosphorylation:T13 Theme:T8
+
+However, PKD-null DT40 B cells are viable and proliferate normally.
+
+Moreover, loss of the entire cellular pool of PKD does not critically affect oxidative stress responses in B cells nor do PKD kinases play an essential role in regulating NFkappaB transcriptional activity.
+
+Together, these findings reveal that in B lymphocytes, PKD kinases are not critical regulators of many of the cellular processes previously ascribed to them in other cellular systems.
+

@@ -1,0 +1,197 @@
+In this report, we show that Sox6 is a novel factor in the complicated regulation mechanism of globin genes.
+# T1 Protein S1 29 33 29 33 Sox6
+
+In the Sox6 null mouse, there is a transient effect on the embryonic globin genes, zeta and betaH1, and a persistent upregulation of the epsilony globin gene.
+# T2 Protein S2 7 11 116 120 Sox6
+# T3 Protein S2 83 87 192 196 zeta
+# T4 Protein S2 92 98 201 207 betaH1
+# T5 Protein S2 137 152 246 261 epsilony globin
+
+Sox6 directly regulates and binds to the proximal promoter of epsilony gene and represses the epsilony-globin gene in definitive erythropoiesis.
+# T6 Protein S3 0 4 268 272 Sox6
+# T7 Protein S3 62 75 330 343 epsilony gene
+# T8 Protein S3 94 109 362 377 epsilony-globin
+
+Sox6 belongs to group D of the Sox family of proteins that includes Sox5, 12, 13, and 23 [34].
+# T9 Protein S4 0 4 413 417 Sox6
+# T10 Protein S4 68 72 481 485 Sox5
+# T11 Protein S4 74 76 487 489 12
+# T12 Protein S4 78 80 491 493 13
+# T13 Protein S4 86 88 499 501 23
+
+Group D Sox proteins contain a coiled-coiled domain that mediates homo- and heterodimerization [6,35].
+
+Functionally, dimerization of Sox5 and Sox6 has been shown to greatly increase the binding efficiency of the two Sox proteins to DNA that contains adjacent Sox sites [6].
+# T14 Protein S6 30 34 641 645 Sox5
+# T15 Protein S6 39 43 650 654 Sox6
+
+In addition, Sox6 binds more strongly to an HMG-box dimer motif than to a single HMG-box motif [5].
+# T16 Protein S7 13 17 795 799 Sox6
+
+Therefore, it appears that target genes for group D Sox proteins, such as Sox6, probably harbor pairs of HMG binding sites with a configuration compatible with binding of D-Sox protein dimers.
+# T17 Protein S8 74 78 956 960 Sox6
+
+Indeed, in the present study, the defined Sox6 target sequence of the epsilony promoter contains two Sox/Sox6 consensus sites (Figure 3A).
+# T18 Protein S9 42 46 1117 1121 Sox6
+# T19 Protein S9 70 78 1145 1153 epsilony
+
+Functionally, both sites are essential for Sox6 binding to the epsilony promoter and repression of its activity (Figure 3E and 3F).
+# T20 Protein S10 43 47 1257 1261 Sox6
+# T21 Protein S10 63 71 1277 1285 epsilony
+
+These observations suggest that Sox6 binds to this sequence of the epsilony promoter either as a homodimer or as a heterodimer with other Sox proteins.
+# T22 Protein S11 32 36 1378 1382 Sox6
+# T23 Protein S11 67 75 1413 1421 epsilony
+
+Because Sox proteins recognize a short 6-bp core-binding sequence that allows for considerable degeneracy, the specificity of their actions is thought to rely upon interactions with other transcription factors [36].
+
+In our EMSAs, we had to run the electrophoresis on a 4%-6% gel for at least 4-8 h to detect the Sox6-associated band, suggesting that Sox6 is part of a high molecular weight complex.
+# T24 Protein S13 96 100 1810 1814 Sox6
+# T25 Protein S13 134 138 1848 1852 Sox6
+
+A few other epsilony globin repressors have been reported to bind to DNA sequences near the Sox/Sox6 consensus sites, including the DRED complex [37] and COUP-TF [38].
+# T26 Protein S14 12 27 1909 1924 epsilony globin
+# T27 Protein S14 132 136 2029 2033 DRED
+# T28 Protein S14 154 158 2051 2055 COUP
+# T29 Protein S14 159 161 2056 2058 TF
+
+Sox6 might interact with these factors and form a large repression complex.
+# T30 Protein S15 0 4 2065 2069 Sox6
+
+Identification of other components of the Sox6-containing complex associated with the epsilony promoter will shed light on its mechanism of repression.
+# T31 Protein S16 42 46 2183 2187 Sox6
+# T32 Protein S16 86 94 2227 2235 epsilony
+
+Sox proteins bind and bend linear DNA by partial intercalation in the minor groove, and can also bind to four-way junctions [2-4].
+
+Therefore, one attractive model to explain how Sox6 proteins control gene expression is that they function as architectural factors bound to DNA, influencing local chromatin structure by bending DNA and by assembling multiprotein transcriptional complexes.
+# T33 Protein S18 47 51 2471 2475 Sox6
+
+By changing the local chromatin structure, Sox6 could either interfere with binding of other activators to the promoter or facilitate binding of other repressors.
+# T34 Protein S19 43 47 2724 2728 Sox6
+
+Another example of a repressor that interferes with an activator on the epsilony promoter is DRED.
+# T35 Protein S20 72 80 2916 2924 epsilony
+# T36 Protein S20 93 97 2937 2941 DRED
+
+DRED interferes with EKLF, an activator, in binding to the epsilony promoter [39].
+# T37 Protein S21 0 4 2943 2947 DRED
+# T38 Protein S21 21 25 2964 2968 EKLF
+# T39 Protein S21 59 67 3002 3010 epsilony
+
+Two HMG architectural proteins (distantly related to the Sox family of transcription factors), HMG-I and HMG-Y, were demonstrated to bind to the human adult beta globin silencers (silencers I and II) and cause bending of the DNA, facilitating the binding of other repressors [40].
+# T40 Protein S22 95 100 3121 3126 HMG-I
+# T41 Protein S22 105 110 3131 3136 HMG-Y
+# T42 Protein S22 180 191 3206 3217 silencers I
+# T43 Protein S22 196 198 3222 3224 II
+
+Sox6 expression is temporally and spatially coincident with definitive (but not primitive) erythropoiesis (Figure 6), and Sox6 represses epsilony globin expression both in vivo (Figure 1) and in vitro (Figure 2).
+# T44 Protein S23 0 4 3307 3311 Sox6
+# T45 Protein S23 122 126 3429 3433 Sox6
+# T46 Protein S23 137 152 3444 3459 epsilony globin
+
+Moreover, in situ hybridization clearly shows that the persistent expression of epsilony globin in p100H mutant mice is due to defects in the silencing mechanism of definitive erythropoiesis that takes place in the liver (Figure 5).
+# T47 Protein S24 80 95 3600 3615 epsilony globin
+
+Taken together, these data demonstrate that Sox6 functions in definitive erythropoiesis to silence epsilony globin expression.
+# T48 Protein S25 44 48 3797 3801 Sox6
+# T49 Protein S25 99 114 3852 3867 epsilony globin
+
+The expression level of epsilony globin in homozygous Sox6 null mice at 15.5 dpc and 18.5 dpc is statistically equivalent to the level of betamaj/min expression in the livers of 15.5-dpc and 18.5-dpc homozygous WT mice (Figure 1).
+# T50 Protein S26 24 39 3904 3919 epsilony globin
+# T51 Protein S26 54 58 3934 3938 Sox6
+# T52 Protein S26 138 145 4018 4025 betamaj
+# T53 Protein S26 146 149 4026 4029 min
+
+This demonstrates that ectopic expression of the epsilony globin gene is quite robust in homozygous mutant mice.
+# T54 Protein S27 49 64 4160 4175 epsilony globin
+
+The expression levels of two other embryonic globin genes (zeta and betah1) are also higher in p100H homozygotes, compared with WT.
+# T55 Protein S28 59 63 4283 4287 zeta
+# T56 Protein S28 68 74 4292 4298 betah1
+
+Like epsilony, levels of zeta and betah1 are dramatically higher in mutant mice at 15.5 dpc.
+# T57 Protein S29 5 13 4361 4369 epsilony
+# T58 Protein S29 25 29 4381 4385 zeta
+# T59 Protein S29 34 40 4390 4396 betah1
+
+However, unlike epsilony globin, zeta and betah1 decline in expression by day 18.5 dpc (Figure 1), suggesting that epsilony is regulated differently than zeta and betah1.
+# T60 Protein S30 16 31 4465 4480 epsilony globin
+# T61 Protein S30 33 37 4482 4486 zeta
+# T62 Protein S30 42 48 4491 4497 betah1
+# T63 Protein S30 115 123 4564 4572 epsilony
+# T64 Protein S30 154 158 4603 4607 zeta
+# T65 Protein S30 163 169 4612 4618 betah1
+
+It is possible that Sox6 has a general effect on embryonic globin genes (and erythrocyte maturation) in addition to a specific role in silencing epsilony.
+# T66 Protein S31 20 24 4640 4644 Sox6
+# T67 Protein S31 145 153 4765 4773 epsilony
+
+Although most p100H mutant mice die just after being born, a rare few survive longer.
+
+None have been observed to live longer than 2 wk after birth [14].
+
+We examined a single archived sample of liver RNA from a mutant mouse on postnatal day 13.5 for globin gene expression and detected high levels of epsilony globin in this RNA sample, compared with undetectable epsilony RNA in WT control mice.
+# T68 Protein S34 147 162 5075 5090 epsilony globin
+# T69 Protein S34 210 218 5138 5146 epsilony
+
+At this point in development, the levels of zeta and betah1 RNA were undetectable both in mutant and WT; however, adult beta-like globin RNA levels were moderately elevated in the mutant RNA compared with WT (unpublished data), similar to what we observe at 18.5 dpc (Figure 1).
+# T70 Protein S35 44 48 5215 5219 zeta
+# T71 Protein S35 53 59 5224 5230 betah1
+# T72 Protein S35 120 136 5291 5307 beta-like globin
+
+These findings suggest that Sox6 continues to function postnatally to silence epsilony globin expression and has a unique function in the regulation of epsilony-globin.
+# T73 Protein S36 28 32 5478 5482 Sox6
+# T74 Protein S36 78 93 5528 5543 epsilony globin
+# T75 Protein S36 152 167 5602 5617 epsilony-globin
+
+The mechanism by which Sox6 regulates the other embryonic globin genes remains to be elucidated.
+# T76 Protein S37 23 27 5642 5646 Sox6
+
+Sox6 has other effects in erythropoiesis, including a delay in enucleation/maturation in p100H mutant mice.
+# T77 Protein S38 0 4 5716 5720 Sox6
+
+This may be the result of indirect effects, such as stress-induced proliferation (resulting from cardiac defects) and/or anemia.
+
+Severe anemia can lead to rapid premature release of red cells, prior to their complete maturation.
+
+However, the hematocrit of 18.5-dpc mutant mice is only 20% lower than that of WT (unpublished data), and this mild anemia is probably not sufficient to explain the extent of nucleated red cells.
+
+Alternatively, Sox6 itself may play a role in red cell terminal differentiation, as it has been shown to be an important factor in cardiac [15], neuronal [10], astrocytic [11], and cartilage differentiation programs [32,41-44].
+# T78 Protein S42 15 19 6264 6268 Sox6
+
+The restoration of normal enucleation of red cells in Sox6-deficient mouse by postnatal day 10.5 may result from functional compensation of other Sox proteins (expressed at later developmental stages), since functional redundancy is a recurring theme with Sox proteins [13,45,46].
+# T79 Protein S43 54 58 6531 6535 Sox6
+
+Moreover, erythropoiesis has already shifted from fetal liver to bone marrow by postnatal day 10.5.
+
+The accompanying change in the microenvironment of red cell production may permit normal enucleation.
+
+Identification of Sox6 downstream target genes and its interacting proteins will shed light on the role of Sox6 in red cell terminal differentiation and the enucleation process.
+# T80 Protein S46 18 22 6978 6982 Sox6
+# T81 Protein S46 107 111 7067 7071 Sox6
+
+Recently, in vivo and in vitro analyses suggest that reactivation of human epsilon-globin would be therapeutically beneficial to adults with sickle cell disease [47], providing a rationale for detailed investigations into the molecular basis of epsilon-globin gene silencing.
+# T82 Protein S47 75 89 7213 7227 epsilon-globin
+# T83 Protein S47 245 259 7383 7397 epsilon-globin
+
+The present study identifies a novel repressor, Sox6, which binds to the epsilony proximal promoter, potentially as part of a larger repression complex.
+# T84 Protein S48 48 52 7462 7466 Sox6
+# T85 Protein S48 73 81 7487 7495 epsilony
+
+Because murine Sox6 and its human counterpart are 94% identical at the amino acid level [48], it is possible that human Sox6 may also be important in human epsilon globin silencing.
+# T86 Protein S49 15 19 7582 7586 Sox6
+# T87 Protein S49 120 124 7687 7691 Sox6
+# T88 Protein S49 156 170 7723 7737 epsilon globin
+
+There is significant sequence homology between the human and mouse epsilon promoter regions, and the human promoter contains at least two potential Sox6 binding sites.
+# T89 Protein S50 67 74 7816 7823 epsilon
+
+Indeed, the existence of a silencer of the human epsilon globin gene has been proposed [49,50].
+# T90 Protein S51 49 63 7966 7980 epsilon globin
+
+Thus, elucidation of the Sox6 repression mechanism and identification of other components of the Sox6-containing complex may further our understanding of epsilon globin regulation and potentially reveal additional molecular targets for the treatment of sickle cell anemia and beta thalassemias.
+# T91 Protein S52 25 29 8038 8042 Sox6
+# T92 Protein S52 97 101 8110 8114 Sox6
+# T93 Protein S52 154 168 8167 8181 epsilon globin
+

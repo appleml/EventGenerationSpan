@@ -1,0 +1,12 @@
+Cell lines
+
+The mouse B cell line A20.2J has been previously described [26], [27].
+
+Cells were grown in RPMI 1640, 10% FCS, 10 microM 2-ME, 2 mM L-glutamine, and antibiotics.
+
+HI-5 insect cells (Invitrogen) expressing CD154 have been described [28].
+# T1 Protein S4 42 47 215 220 CD154
+$ T1 Protein S4 42 47 215 220 CD154
+@ T2 Gene_expression S4 31 41 204 214 expressing
+% E1 Gene_expression:T2 Theme:T1
+

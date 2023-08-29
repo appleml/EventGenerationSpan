@@ -1,0 +1,31 @@
+Inhibition of nuclear factor kappaB activation attenuates apoptosis resistance in lymphoid cells.
+
+Death-inducing ligands (DILs) such as tumor necrosis factor alpha (TNFalpha) or the cytotoxic drug doxorubicin have been shown to activate a nuclear factor kappaB (NFkappaB)-dependent program that may rescue cells from apoptosis induction.
+# T1 Protein S2 38 65 137 164 tumor necrosis factor alpha
+# T2 Protein S2 67 75 166 174 TNFalpha
+
+We demonstrate here that TRAIL (TNF-related apoptosis-inducing ligand), a recently identified DIL, also activates NFkappaB in lymphoid cell lines in a kinetic similar to TNFalpha.
+# T3 Protein S3 25 30 364 369 TRAIL
+# T4 Protein S3 32 69 371 408 TNF-related apoptosis-inducing ligand
+# T5 Protein S3 170 178 509 517 TNFalpha
+
+NFkappaB activity is independent from FADD, caspases, and apoptosis induction.
+# T6 Protein S4 38 42 557 561 FADD
+
+To study the influence of NFkappaB activity on apoptosis mediated by TRAIL, CD95, TNFalpha, or doxorubicin, NFkappaB activation was inhibited using the proteasome inhibitor N-acetyl-L-leucinyl-L-leucinyl-L-norleucinal or transient overexpression of mutant IkappaBalpha.
+# T7 Protein S5 69 74 667 672 TRAIL
+# T8 Protein S5 76 80 674 678 CD95
+# T9 Protein S5 82 90 680 688 TNFalpha
+# T10 Protein S5 256 268 854 866 IkappaBalpha
+$ T10 Protein S5 256 268 854 866 IkappaBalpha
+@ T11 Positive_regulation S5 231 245 829 843 overexpression
+@ T12 Gene_expression S5 231 245 829 843 overexpression
+% E1 Positive_regulation:T11 Theme:E2
+% E2 Gene_expression:T12 Theme:T10
+
+Sensitivity for induction of apoptosis was markedly increased by these treatments in apoptosis sensitive cell lines.
+
+Moreover, both in cell lines and in primary leukemia cells that are resistant towards induction of apoptosis by DILs and doxorubicin, antagonization of NFkappaB activity partially restored apoptosis sensitivity.
+
+These data suggest that inhibition of NFkappaB activation may provide a molecular approach to increase apoptosis sensitivity in anticancer treatment.
+

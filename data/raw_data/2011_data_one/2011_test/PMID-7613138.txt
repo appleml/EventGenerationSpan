@@ -1,0 +1,32 @@
+The interleukin-5/receptor interaction activates Lyn and Jak2 tyrosine kinases and propagates signals via the Ras-Raf-1-MAP kinase and the Jak-STAT pathways in eosinophils.
+# T1 Protein S1 4 17 4 17 interleukin-5
+# T2 Protein S1 49 52 49 52 Lyn
+# T3 Protein S1 57 78 57 78 Jak2 tyrosine kinases
+# T4 Protein S1 114 119 114 119 Raf-1
+
+We have shown that the interaction of interleukin (IL)-5 with the receptor activates Lyn tyrosine kinase within 1 min and Jak2 tyrosine kinase within 1-3 min.
+# T5 Protein S2 38 56 212 230 interleukin (IL)-5
+# T6 Protein S2 85 104 259 278 Lyn tyrosine kinase
+# T7 Protein S2 122 142 296 316 Jak2 tyrosine kinase
+
+IL-5 also stimulates GTP binding to p21ras.
+# T8 Protein S3 0 4 333 337 IL-5
+# T9 Protein S3 36 42 369 375 p21ras
+
+The signal is subsequently propagated through the activation of Raf-1, MEK, and MAP kinases as shown by their increased autophosphorylation in vitro and phosphorylation in situ.
+# T10 Protein S4 64 69 441 446 Raf-1
+
+Jak2 kinase has been shown to phosphorylate STAT nuclear proteins.
+# T11 Protein S5 0 11 555 566 Jak2 kinase
+
+The activation of STAT nuclear factors was studied by electrophoretic mobility shift assay using a gamma activation site (GAS) probe.
+
+We found that IL-5 induces two GAS-binding proteins in eosinophils, one of which is STAT1.
+# T12 Protein S7 14 18 770 774 IL-5
+
+We conclude that IL-5 induced signals are propagated through two distinct pathways: (1) Lyn-->Ras-->Raf-1-->MEK-->MAP kinase and (2) Jak2-->STAT1.
+# T13 Protein S8 17 21 864 868 IL-5
+# T14 Protein S8 88 91 935 938 Lyn
+# T15 Protein S8 100 105 947 952 Raf-1
+# T16 Protein S8 133 137 980 984 Jak2
+

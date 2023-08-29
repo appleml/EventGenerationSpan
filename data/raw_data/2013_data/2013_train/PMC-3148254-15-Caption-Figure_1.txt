@@ -1,0 +1,51 @@
+HOIP gene targeting.
+# T1 Protein S1 0 4 0 4 HOIP
+
+(A) Regions of Rnf31 gene sequence (bottom) used in the HOIP gene targeting vector (top) are shown.
+# T2 Protein S2 15 20 36 41 Rnf31
+# T3 Protein S2 56 60 77 81 HOIP
+
+Arrows (F and R) indicate approximate positions of sequences homologous to oligonucleotides used for PCR-mediated detection of homologous recombination.
+
+Homologous recombination of the vector with Rnf31 resulted in a small chromosomal deletion and the in-frame insertion of neomycin phosphotransferase (NeoR) into the amino-terminal HOIP coding sequence.
+# T4 Protein S4 44 49 318 323 Rnf31
+# T5 Protein S4 180 184 454 458 HOIP
+
+A diphtheria toxin (DT) cassette in the vector facilitates the negative selection of cells in which random chromosomal insertion of the vector takes place.
+
+LoxP sequences allow the Cre-mediated deletion of the NeoR coding sequence.
+
+The SV40pA sequence helps to ensure disruption of gene expression after deletion of the NeoR sequence.
+
+(B) Anti-HOIP and anti-FLAG Western blots of cell lysates from A20.2J cells and HOIP-deficient (HOIP-/-) clones.
+# T6 Protein S8 80 84 891 895 HOIP
+# T7 Protein S8 96 100 907 911 HOIP
+$ T6 Protein S8 80 84 891 895 HOIP
+@ T14 Negative_regulation S8 85 94 896 905 deficient
+% E1 Negative_regulation:T14 Theme:T6
+
+A partial decrease in HOIP protein expression is evident in cells following disruption of one copy of Rnf31 (HOIP-/+).
+# T8 Protein S9 22 26 946 950 HOIP
+# T9 Protein S9 102 107 1026 1031 Rnf31
+# T10 Protein S9 109 113 1033 1037 HOIP
+$ T8 Protein S9 22 26 946 950 HOIP
+$ T9 Protein S9 102 107 1026 1031 Rnf31
+@ T15 Negative_regulation S9 10 18 934 942 decrease
+@ T16 Gene_expression S9 35 45 959 969 expression
+@ T17 Positive_regulation S9 66 75 990 999 following
+@ T18 Negative_regulation S9 76 86 1000 1010 disruption
+% E2 Negative_regulation:T15 Theme:E3
+% E3 Gene_expression:T16 Theme:T8
+% E4 Positive_regulation:T17 Theme:E2 Cause:E5
+% E5 Negative_regulation:T18 Theme:T9
+
+HOIP expression in clones reconstituted with an empty retroviral vector (pMIP) or a retroviral vector encoding FLAG-tagged HOIP is also shown.
+# T11 Protein S10 0 4 1043 1047 HOIP
+# T12 Protein S10 123 127 1166 1170 HOIP
+$ T11 Protein S10 0 4 1043 1047 HOIP
+@ T19 Gene_expression S10 5 15 1048 1058 expression
+% E6 Gene_expression:T19 Theme:T11
+
+Approximate molecular weight of HOIP is 120 kD.
+# T13 Protein S11 32 36 1218 1222 HOIP
+

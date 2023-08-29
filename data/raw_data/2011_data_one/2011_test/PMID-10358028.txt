@@ -1,0 +1,30 @@
+20-Epi analogues of 1,25-dihydroxyvitamin D3 are highly potent inducers of DRIP coactivator complex binding to the vitamin D3 receptor.
+# T1 Protein S1 115 134 115 134 vitamin D3 receptor
+
+1,25-Dihydroxyvitamin D3 (1,25(OH)2D3) plays a major role in the stimulation of bone growth, mineralization, and intestinal calcium and phosphate absorption; it also acts as a general inhibitor of cellular proliferation.
+
+Several new, clinically relevant compounds dissociate antiproliferative and calcemic activities of 1,25(OH)2D3, but the molecular basis for this has not been clearly elucidated.
+
+Here, we tested whether the potency of one class of compounds, 20-epi analogues, to induce myeloid cell differentiation, is because of direct molecular effects on vitamin D receptor (VDR).
+# T2 Protein S4 163 181 699 717 vitamin D receptor
+# T3 Protein S4 183 186 719 722 VDR
+
+We report that two 20-epi analogues, MC1627 and MC1288, induced differentiation and transcription of p21(Waf1,Cip1), a key VDR target gene involved in growth inhibition, at a concentration 100-fold lower than that of 1,25(OH)2D3.
+# T4 Protein S5 101 104 826 829 p21
+# T5 Protein S5 105 109 830 834 Waf1
+# T6 Protein S5 110 114 835 839 Cip1
+# T7 Protein S5 123 126 848 851 VDR
+
+We compared this sensitivity to analogue effects on VDR interacting proteins: RXR, GRIP-1, and DRIP205, a subunit of the DRIP coactivator complex.
+# T8 Protein S6 52 55 1007 1010 VDR
+# T9 Protein S6 83 89 1038 1044 GRIP-1
+# T10 Protein S6 95 102 1050 1057 DRIP205
+
+Compared with the interaction of VDR with RXR or GRIP-1, the differentiation dose-response most closely correlated to the ligand-dependent recruitment of the DRIP coactivator complex to VDR and to the ability of the receptor to activate transcription in a cell-free system.
+# T11 Protein S7 33 36 1135 1138 VDR
+# T12 Protein S7 49 55 1151 1157 GRIP-1
+# T13 Protein S7 186 189 1288 1291 VDR
+
+These results provide compelling links between the efficiency of the 20-epi analogue in inducing VDR/DRIP interactions, transactivation in vitro, and its enhanced ability to induce cellular differentiation.
+# T14 Protein S8 97 100 1473 1476 VDR
+

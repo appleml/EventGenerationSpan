@@ -1,0 +1,25 @@
+Two glucocorticoid binding sites on the human glucocorticoid receptor.
+
+Glucocorticoids are known to have a lytic effect in leukemic cells via interactions with the glucocorticoid receptor (GR).
+# T1 Protein S2 93 116 165 188 glucocorticoid receptor
+# T2 Protein S2 118 120 190 192 GR
+
+Cortisol and various synthetic glucocorticoids bind to the GR with one-site kinetics.
+# T3 Protein S3 59 61 254 256 GR
+
+Cortivazol (CVZ) is a unique, high potency synthetic glucocorticoid, which has a phenylpyrazol fused to the A-ring of the steroid nucleus and displays binding consistent with two or more sites in the cytosol from CEM C7 cells (a human acute lymphoblastic T-cell line).
+
+It has previously been shown that the lower affinity class of sites are similar in affinity and site molarity to those recognized by dexamethasone.
+
+The higher affinity sites bind CVZ with 20- to 50-fold greater affinity, consistent with CVZ's enhanced biological effects.
+
+In mutant leukemic cells resistant to the lytic effects of dexamethasone, CVZ both lyses the cells and recognizes a single class of sites similar to the high affinity site in CEM C7 cells.
+
+We have carried out experiments to define the nature of the higher affinity CVZ binding site.
+
+We now show that: 1) CVZ has more than one binding site in a second, independent, B-cell line, IM-9; 2) the antiglucocorticoid RU 38486 is able to block both CVZ's higher and lower affinity sites; 3) all of CVZ's binding sites are on a protein immunologically indistinguishable from the human GR; and 4) freshly isolated clones of CVZ-resistant cells have lost all binding sites for CVZ.
+# T4 Protein S9 293 295 1398 1400 GR
+
+These data indicate that CVZ is recognizing two glucocorticoid binding sites on the human GR or a protein very similar to it.
+# T5 Protein S10 90 92 1583 1585 GR
+

@@ -1,0 +1,97 @@
+GM-CSF and IL-2 share common control mechanisms in response to costimulatory signals in T cells.
+# T1 Protein S1 0 6 0 6 GM-CSF
+# T2 Protein S1 11 15 11 15 IL-2
+$ T1 Protein S1 0 6 0 6 GM-CSF
+$ T2 Protein S1 11 15 11 15 IL-2
+@ T22 Regulation S1 48 62 48 62 in response to
+% E1 Regulation:T22 Theme:T1
+% E2 Regulation:T22 Theme:T2
+
+Antigen complexed with major histocompatibility complex class I or II molecules on the surface of antigen presenting cells interacts with the T cell receptor (TCR) on the surface of T cells and initiates an activation cascade.
+
+So called costimulatory signals, mediated by other cell surface interactions or soluble cytokines produced by antigen presenting cells, are also required for complete T cell activation.
+
+High levels of cytokine gene expression in T cells also required both TCR and costimulatory signals.
+
+The granulocyte-macrophage colony-stimulating factor requires sequences in the promoter as well as a powerful enhancer located 3kb upstream to respond to TCR-like signals.
+# T3 Protein S5 4 52 616 664 granulocyte-macrophage colony-stimulating factor
+$ T3 Protein S5 4 52 616 664 granulocyte-macrophage colony-stimulating factor
+@ T23 Positive_regulation S5 53 61 665 673 requires
+@ T24 Regulation S5 143 150 755 762 respond
+% E3 Positive_regulation:T23 Theme:E4
+% E4 Regulation:T24 Theme:T3
+
+These promoter and enhancer regions are mainly activated by the transcription factor nuclear factor of activated T cells (NFAT).
+
+The activation of NFAT by TCR signals has been well described for interleukin-2 (IL-2) and IL-4 gene transcription in T cells.
+# T4 Protein S7 66 79 979 992 interleukin-2
+# T5 Protein S7 81 85 994 998 IL-2
+# T6 Protein S7 91 95 1004 1008 IL-4
+$ T6 Protein S7 91 95 1004 1008 IL-4
+$ T5 Protein S7 81 85 994 998 IL-2
+@ T25 Transcription S7 96 114 1009 1027 gene transcription
+% E5 Transcription:T25 Theme:T6
+% E6 Transcription:T25 Theme:T5
+
+Costimulatory signals, such as activation of the CD28 cell surface molecule on T cells, lead to activation through a distinct region of the granulocyte-macrophage colony-stimulating factor (GM-CSF) promoter.
+# T7 Protein S8 49 53 1089 1093 CD28
+# T8 Protein S8 140 188 1180 1228 granulocyte-macrophage colony-stimulating factor
+# T9 Protein S8 190 196 1230 1236 GM-CSF
+$ T7 Protein S8 49 53 1089 1093 CD28
+$ T8 Protein S8 140 188 1180 1228 granulocyte-macrophage colony-stimulating factor
+@ T26 Positive_regulation S8 31 41 1071 1081 activation
+@ T27 Positive_regulation S8 96 106 1136 1146 activation
+@ T28 Entity S8 198 206 1238 1246 promoter
+% E7 Positive_regulation:T26 Theme:T7
+% E8 Positive_regulation:T27 Theme:T8 Cause:E7 Site:T28
+
+This region is termed the CK-1 or CD28RE and appears to bind specific members of the NF-kappa B family of transcription factors.
+
+Human T leukemia virus type 1 (HTLV-1) infects T cells and can lead to increase GM-CSF expression.
+# T10 Protein S10 80 86 1457 1463 GM-CSF
+$ T10 Protein S10 80 86 1457 1463 GM-CSF
+@ T29 Positive_regulation S10 71 79 1448 1456 increase
+@ T30 Gene_expression S10 87 97 1464 1474 expression
+% E9 Positive_regulation:T29 Theme:E10
+% E10 Gene_expression:T30 Theme:T10
+
+We have found that the HTLV-1 transactivator protein, tax, acts as a costimulatory signal for GM-CSF and IL-2 gene transcription, in that it can cooperate with TCR signals to mediate high level gene expression.
+# T11 Protein S11 54 57 1530 1533 tax
+# T12 Protein S11 94 100 1570 1576 GM-CSF
+# T13 Protein S11 105 109 1581 1585 IL-2
+$ T11 Protein S11 54 57 1530 1533 tax
+$ T13 Protein S11 105 109 1581 1585 IL-2
+$ T12 Protein S11 94 100 1570 1576 GM-CSF
+@ T31 Positive_regulation S11 59 89 1535 1565 acts as a costimulatory signal
+@ T32 Transcription S11 110 128 1586 1604 gene transcription
+% E11 Positive_regulation:T31 Theme:E13 Cause:T11
+% E12 Positive_regulation:T31 Theme:E14 Cause:T11
+% E13 Transcription:T32 Theme:T13
+% E14 Transcription:T32 Theme:T12
+
+Tax activates the GM-CSF promoter through the CK-1/CD28RE region and also activates nuclear factor-kappa B binding to this region.
+# T14 Protein S12 0 3 1687 1690 Tax
+# T15 Protein S12 18 24 1705 1711 GM-CSF
+$ T15 Protein S12 18 24 1705 1711 GM-CSF
+$ T14 Protein S12 0 3 1687 1690 Tax
+@ T33 Positive_regulation S12 4 13 1691 1700 activates
+@ T34 Entity S12 25 33 1712 1720 promoter
+% E15 Positive_regulation:T33 Theme:T15 Cause:T14 Site:T34
+
+However, other transcription factors or coactivators of NF-kappa B are required for tax activation but these remain to be identified.
+# T16 Protein S13 84 87 1902 1905 tax
+
+The CK-1/CD28RE of GM-CSF shows a high degree of similarity to the IL-2 CD28RE and the IL-3 gene also contains a related region.
+# T17 Protein S14 19 25 1971 1977 GM-CSF
+# T18 Protein S14 67 71 2019 2023 IL-2
+# T19 Protein S14 87 91 2039 2043 IL-3
+
+This observation, together with the fact that both GM-CSF and IL-2 respond to TCR signals via NFAT, implies a high degree of conservation in the regulation of cytokine gene expression in T cells.
+# T20 Protein S15 51 57 2132 2138 GM-CSF
+# T21 Protein S15 62 66 2143 2147 IL-2
+$ T21 Protein S15 62 66 2143 2147 IL-2
+$ T20 Protein S15 51 57 2132 2138 GM-CSF
+@ T35 Regulation S15 67 74 2148 2155 respond
+% E16 Regulation:T35 Theme:T21
+% E17 Regulation:T35 Theme:T20
+

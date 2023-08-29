@@ -1,0 +1,4 @@
+{"trigger": ["Statistical analysis", ""], "relation": []}
+{"trigger": ["Data are expressed as the mean value +/- standard error of the mean or box plots .", ""], "relation": []}
+{"trigger": ["The statistical significance of differences between two groups was determined by the Mann-Whitney U test or the Wilcoxon signed rank test .", ""], "relation": []}
+{"trigger": ["P < 0.05 was considered significant .", ""], "relation": []}

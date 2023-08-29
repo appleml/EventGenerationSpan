@@ -1,0 +1,42 @@
+Apoptosis mediated by HIV protease is preceded by cleavage of Bcl-2.
+# T1 Protein S1 22 34 22 34 HIV protease
+# T2 Protein S1 62 67 62 67 Bcl-2
+$ T2 Protein S1 62 67 62 67 Bcl-2
+@ T12 Protein_catabolism S1 50 58 50 58 cleavage
+% E1 Protein_catabolism:T12 Theme:T2
+
+Expression of the human immunodeficiency virus type 1 (HIV) protease in cultured cells leads to apoptosis, preceded by cleavage of bcl-2, a key negative regulator of cell death.
+# T3 Protein S2 18 68 88 138 human immunodeficiency virus type 1 (HIV) protease
+# T4 Protein S2 131 136 201 206 bcl-2
+$ T3 Protein S2 18 68 88 138 human immunodeficiency virus type 1 (HIV) protease
+$ T4 Protein S2 131 136 201 206 bcl-2
+@ T13 Gene_expression S2 0 10 70 80 Expression
+@ T14 Protein_catabolism S2 119 127 189 197 cleavage
+% E2 Gene_expression:T13 Theme:T3
+% E3 Protein_catabolism:T14 Theme:T4
+
+In contrast, a high level of bcl-2 protects cells in vitro and in vivo from the viral protease and prevents cell death following HIV infection of human lymphocytes, while reducing the yields of viral structural proteins, infectivity, and tumor necrosis factor alpha.
+# T5 Protein S3 29 34 277 282 bcl-2
+# T6 Protein S3 238 265 486 513 tumor necrosis factor alpha
+$ T6 Protein S3 238 265 486 513 tumor necrosis factor alpha
+$ T5 Protein S3 29 34 277 282 bcl-2
+@ T15 Negative_regulation S3 171 179 419 427 reducing
+% E4 Negative_regulation:T15 Theme:T6 Cause:T5
+
+We present a model for HIV replication in which the viral protease depletes the infected cells of bcl-2, leading to oxidative stress-dependent activation of NF kappa B, a cellular factor required for HIV transcription, and ultimately to cell death.
+# T7 Protein S4 98 103 613 618 bcl-2
+$ T7 Protein S4 98 103 613 618 bcl-2
+@ T16 Negative_regulation S4 67 75 582 590 depletes
+% E5 Negative_regulation:T16 Theme:T7
+
+Purified bcl-2 is cleaved by HIV protease between phenylalanine 112 and alanine 113.
+# T8 Protein S5 9 14 773 778 bcl-2
+# T9 Protein S5 29 41 793 805 HIV protease
+$ T8 Protein S5 9 14 773 778 bcl-2
+@ T17 Protein_catabolism S5 18 25 782 789 cleaved
+% E6 Protein_catabolism:T17 Theme:T8
+
+The results suggest a new option for HIV gene therapy; bcl-2 muteins that have noncleavable alterations surrounding the HIV protease cleavage site.
+# T10 Protein S6 55 60 904 909 bcl-2
+# T11 Protein S6 120 132 969 981 HIV protease
+

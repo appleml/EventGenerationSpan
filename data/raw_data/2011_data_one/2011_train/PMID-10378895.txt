@@ -1,0 +1,65 @@
+Downregulation of Wilms' tumor gene (WT1) is not a prerequisite for erythroid or megakaryocytic differentiation of the leukemic cell line K562.
+# T1 Protein S1 37 40 37 40 WT1
+$ T1 Protein S1 37 40 37 40 WT1
+@ T11 Negative_regulation S1 0 14 0 14 Downregulation
+% E1 Negative_regulation:T11 Theme:T1
+
+The Wilms' tumor gene (WT1) encodes a transcription factor of the zinc finger type.
+# T2 Protein S2 23 26 168 171 WT1
+
+A high expression of WT1 has been detected in a range of acute leukemias, and WT1 is downregulated during induced differentiation of some leukemic cell lines.
+# T3 Protein S3 21 24 250 253 WT1
+# T4 Protein S3 78 81 307 310 WT1
+$ T3 Protein S3 21 24 250 253 WT1
+$ T4 Protein S3 78 81 307 310 WT1
+@ T13 Gene_expression S3 7 17 236 246 expression
+@ T14 Negative_regulation S3 85 98 314 327 downregulated
+% E3 Gene_expression:T13 Theme:T3
+% E4 Negative_regulation:T14 Theme:T4
+
+Overexpression of WT1 in some myeloid cell lines confers resistance to differentiation induction.
+# T5 Protein S4 18 21 406 409 WT1
+$ T5 Protein S4 18 21 406 409 WT1
+@ T15 Gene_expression S4 0 14 388 402 Overexpression
+@ T16 Positive_regulation S4 0 14 388 402 Overexpression
+% E5 Gene_expression:T15 Theme:T5
+% E6 Positive_regulation:T16 Theme:E5
+
+These observations suggest that a high WT1 expression in hematopoietic cells is incompatible with differentiation.
+# T6 Protein S5 39 42 525 528 WT1
+$ T6 Protein S5 39 42 525 528 WT1
+@ T17 Positive_regulation S5 34 38 520 524 high
+@ T18 Gene_expression S5 43 53 529 539 expression
+% E7 Positive_regulation:T17 Theme:E8
+% E8 Gene_expression:T18 Theme:T6
+
+In this study, each of the four different isoforms of WT1 was constitutively overexpressed in the leukemic cell line K562.
+# T7 Protein S6 54 57 655 658 WT1
+$ T7 Protein S6 54 57 655 658 WT1
+@ T19 Gene_expression S6 77 90 678 691 overexpressed
+@ T20 Positive_regulation S6 77 90 678 691 overexpressed
+% E9 Gene_expression:T19 Theme:T7
+% E10 Positive_regulation:T20 Theme:E9
+
+K562 cells express endogenous WT1, which is downregulated as a response to induced differentiation along the erythroid and megakaryocytic pathways.
+# T8 Protein S7 30 33 754 757 WT1
+$ T8 Protein S7 30 33 754 757 WT1
+@ T21 Gene_expression S7 11 18 735 742 express
+@ T22 Negative_regulation S7 44 57 768 781 downregulated
+% E11 Gene_expression:T21 Theme:T8
+% E12 Negative_regulation:T22 Theme:E11
+
+We now demonstrate that a forced exogenous expression of the four different isoforms of WT1 in K562 does not affect the differentiation response, as judged by accumulation of hemoglobin in response to hemin or the expression of megakaryocytic cell surface markers in response to 12-O-tetradecanoylphorbol-13-acetate (TPA).
+# T9 Protein S8 88 91 960 963 WT1
+$ T9 Protein S8 88 91 960 963 WT1
+@ T23 Positive_regulation S8 26 32 898 904 forced
+@ T24 Gene_expression S8 43 53 915 925 expression
+% E13 Positive_regulation:T23 Theme:E14
+% E14 Gene_expression:T24 Theme:T9
+
+We conclude that downregulation of WT1 during induced differentiation of K562 cells is not a prerequisite for erythroid or megakaryocytic differentiation of these cells.
+# T10 Protein S9 35 38 1230 1233 WT1
+$ T10 Protein S9 35 38 1230 1233 WT1
+@ T25 Negative_regulation S9 17 31 1212 1226 downregulation
+% E15 Negative_regulation:T25 Theme:T10
+

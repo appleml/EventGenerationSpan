@@ -1,0 +1,90 @@
+Human CD3-CD16+ natural killer cells express the hGATA-3 T cell transcription factor and an unrearranged 2.3-kb TcR delta transcript.
+# T1 Protein S1 6 9 6 9 CD3
+# T2 Protein S1 10 14 10 14 CD16
+# T3 Protein S1 49 56 49 56 hGATA-3
+# T4 Protein S1 112 121 112 121 TcR delta
+$ T4 Protein S1 112 121 112 121 TcR delta
+$ T3 Protein S1 49 56 49 56 hGATA-3
+@ T25 Transcription S1 37 44 37 44 express
+@ T26 Gene_expression S1 37 44 37 44 express
+% E1 Transcription:T25 Theme:T4
+% E2 Gene_expression:T26 Theme:T3
+
+In this study we analyzed the T cell receptor(TcR) delta transcripts expressed by CD3-CD16+ cells and we investigated whether these cells expressed the hGATA-3 T cell transcription factor and the recombination-activating gene (RAG)-1.
+# T5 Protein S2 30 56 165 191 T cell receptor(TcR) delta
+# T6 Protein S2 82 85 217 220 CD3
+# T7 Protein S2 86 90 221 225 CD16
+# T8 Protein S2 152 159 287 294 hGATA-3
+# T9 Protein S2 196 233 331 368 recombination-activating gene (RAG)-1
+$ T5 Protein S2 30 56 165 191 T cell receptor(TcR) delta
+$ T9 Protein S2 196 233 331 368 recombination-activating gene (RAG)-1
+$ T8 Protein S2 152 159 287 294 hGATA-3
+@ T27 Transcription S2 69 78 204 213 expressed
+@ T28 Gene_expression S2 138 147 273 282 expressed
+% E3 Transcription:T27 Theme:T5
+% E4 Gene_expression:T28 Theme:T9
+% E5 Gene_expression:T28 Theme:T8
+
+Multiple TcR delta transcripts deriving from an unrearranged TcR delta gene were detected in both polyclonal and clonal CD3-CD16+ natural killer(NK) cell lines.
+# T10 Protein S3 9 18 379 388 TcR delta
+# T11 Protein S3 61 70 431 440 TcR delta
+# T12 Protein S3 120 123 490 493 CD3
+# T13 Protein S3 124 128 494 498 CD16
+$ T11 Protein S3 61 70 431 440 TcR delta
+@ T29 Transcription S3 31 39 401 409 deriving
+% E6 Transcription:T29 Theme:T11
+
+Two unrearranged TcR delta transcripts had a size similar to that of the functional TcR delta mRNA (2.3 and 1.3 kb) found in TcR gamma/delta+ T lymphocytes.
+# T14 Protein S4 17 26 548 557 TcR delta
+# T15 Protein S4 84 93 615 624 TcR delta
+# T16 Protein S4 125 134 656 665 TcR gamma
+# T17 Protein S4 135 140 666 671 delta
+$ T15 Protein S4 84 93 615 624 TcR delta
+@ T30 Transcription S4 116 121 647 652 found
+% E7 Transcription:T30 Theme:T15
+
+Sequence analysis of nine different 2.3-kb cDNA clones obtained from NK-derived polyA+ RNA confirmed that they corresponded to an unrearranged TcR delta gene.
+# T18 Protein S5 143 152 831 840 TcR delta
+
+These cDNA were 2343 bp long and their transcription initiation site was located 814 bp upstream from the J delta 1 segment.
+
+The sequence located upstream of the J delta 1 segment corresponded to the previously reported germ-line sequence.
+
+The J delta 1 segment was correctly spliced to C delta; in addition the four C delta exons were found to be already assembled.
+
+Two polyadenylation sites were present in the fourth C delta exon.
+
+However, only that located at the 3' end appeared to be utilized in the 2.3-kb cDNA.
+
+The expression of hGATA-3, a T cell-specific factor known to be involved in the regulation of the transcription of TcR delta locus, was analyzed by Northern blot, in cultured NK cell population and clones (but not in freshly derived cell populations).
+# T19 Protein S11 18 25 1384 1391 hGATA-3
+# T20 Protein S11 115 124 1481 1490 TcR delta
+$ T19 Protein S11 18 25 1384 1391 hGATA-3
+$ T20 Protein S11 115 124 1481 1490 TcR delta
+@ T31 Gene_expression S11 4 14 1370 1380 expression
+@ T32 Regulation S11 64 90 1430 1456 involved in the regulation
+@ T33 Transcription S11 98 111 1464 1477 transcription
+% E8 Gene_expression:T31 Theme:T19
+% E9 Regulation:T32 Theme:E10 Cause:T19
+% E10 Transcription:T33 Theme:T20
+
+All NK clones and cell lines studied were found to express hGATA-3-specific mRNA, suggesting that hGATA-3 may be involved in the regulation of the unrearranged TcR delta gene expression in NK cells.
+# T21 Protein S12 59 66 1677 1684 hGATA-3
+# T22 Protein S12 98 105 1716 1723 hGATA-3
+# T23 Protein S12 160 169 1778 1787 TcR delta
+$ T21 Protein S12 59 66 1677 1684 hGATA-3
+$ T22 Protein S12 98 105 1716 1723 hGATA-3
+$ T23 Protein S12 160 169 1778 1787 TcR delta
+@ T34 Transcription S12 51 58 1669 1676 express
+@ T35 Regulation S12 113 139 1731 1757 involved in the regulation
+@ T36 Gene_expression S12 175 185 1793 1803 expression
+% E11 Transcription:T34 Theme:T21
+% E12 Regulation:T35 Theme:E13 Cause:T22
+% E13 Gene_expression:T36 Theme:T23
+
+Finally, no transcription of the RAG-1 gene could be detected in all NK cell lines or clones analyzed.
+# T24 Protein S13 33 38 1850 1855 RAG-1
+$ T24 Protein S13 33 38 1850 1855 RAG-1
+@ T37 Transcription S13 12 25 1829 1842 transcription
+% E14 Transcription:T37 Theme:T24
+

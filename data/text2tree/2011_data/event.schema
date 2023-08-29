@@ -1,0 +1,3 @@
+["Binding", "Phosphorylation", "Transcription", "Regulation", "Localization", "Positive_regulation", "Negative_regulation", "Protein_catabolism", "Gene_expression"]
+["Cause", "Theme"]
+{"Negative_regulation": ["Theme", "Cause"], "Protein_catabolism": ["Theme"], "Positive_regulation": ["Theme", "Cause"], "Gene_expression": ["Theme"], "Binding": ["Theme"], "Regulation": ["Theme", "Cause"], "Localization": ["Theme"], "Phosphorylation": ["Theme"], "Transcription": ["Theme"]}

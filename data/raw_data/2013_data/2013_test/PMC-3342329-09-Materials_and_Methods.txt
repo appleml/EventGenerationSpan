@@ -1,0 +1,22 @@
+Animals
+
+The CCR5 wild type (CCR5+/+) and CCR5 knockout (CCR5-/-) mice were purchased from The Jackson Laboratory (Bar Harbor, Maine 04609 USA).
+# T1 Protein S2 4 8 12 16 CCR5
+# T2 Protein S2 20 24 28 32 CCR5
+# T3 Protein S2 33 37 41 45 CCR5
+# T4 Protein S2 48 52 56 60 CCR5
+
+The mice were housed and bred under specific pathogen free conditions at the Laboratory Animal Research Center of Chungbuk National University, Korea.
+
+The mice (n = 4/cage) were maintained in a room with a constant temperature of 22+/-1degreesC, relative humidity of 55+/-10%, and 12-h light/dark cycle, and fed standard rodent chow (Samyang, Korea) and purified tap water ad libitum.
+
+The CCR5+/+ mice (n = 20) and CCR5-/- mice (n = 20), that were used, had matched ages (10-11 weeks old) and weights (16-19 g).
+# T5 Protein S5 4 8 533 537 CCR5
+# T6 Protein S5 30 34 559 563 CCR5
+
+Control mice (B6129PF2/J) were F2 hybrid mice from the C57BL/6J-AW-J and 129P3/J parental strains.
+
+CCR5 mice (B6, 129P2-Ccr5tm1Kuz/J) have the entire coding region of the CCR5 gene deleted from the parental strains, B6;129P2-Ccr5tm1kuz and B6;129P2-Cmkbr5tm1Kuz.
+# T7 Protein S7 0 4 755 759 CCR5
+# T8 Protein S7 72 76 827 831 CCR5
+

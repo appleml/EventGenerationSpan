@@ -1,0 +1,25 @@
+S-allyl cysteine inhibits activation of nuclear factor kappa B in human T cells.
+
+Reactive oxygen species are involved in signal transduction pathways leading to nuclear factor kappa B (NF-kappa B) activation which has been implicated in the regulation of gene transcription.
+
+We recently reported that a garlic compound, S-allyl cysteine (SAC), protects bovine pulmonary artery endothelial cells from oxidant injury induced by hydrogen peroxide (H2O2).
+
+In this study we determined the effects of SAC on NF-kappa B activation in human T lymphocytes (Jurkat cells) induced by tumor necrosis factor alpha (TNF- alpha) and H2O2.
+# T1 Protein S4 121 148 574 601 tumor necrosis factor alpha
+# T2 Protein S4 150 160 603 613 TNF- alpha
+
+Activated NF-kappa B in nuclear extracts was measured by an electrophoretic mobility shift assay using 32P-labeled probe.
+
+SAC consistently exhibited a dose-dependent inhibition of NF-kappa B activation induced by both TNF-alpha and H2O2.
+# T3 Protein S6 96 105 843 852 TNF-alpha
+
+Supershift with specific antibodies to NF-kappa B subunits confirmed that the inducible retarded bands observed in the EMSA and p65-p50 heterodimer of the NF-kappa B/Rel protein.
+# T4 Protein S7 128 131 991 994 p65
+# T5 Protein S7 132 135 995 998 p50
+$ T4 Protein S7 128 131 991 994 p65
+$ T5 Protein S7 132 135 995 998 p50
+@ T6 Binding S7 136 147 999 1010 heterodimer
+% E1 Binding:T6 Theme:T4 Theme2:T5
+
+Our data suggest that SAC may act via antioxidant mechanisms to block NF-kappa B activation in Jurkat cells.
+

@@ -1,0 +1,16 @@
+Statistical Analysis
+
+The data were analyzed using the GraphPad Prism 4 ver.
+
+4.03 software (GraphPad Software, La Jolla, CA).
+
+Data are presented as mean +/- SD.
+
+Difference between CCR5-/- mice and CCR5+/+ mice were compared using t test.
+# T1 Protein S5 19 23 179 183 CCR5
+# T2 Protein S5 36 40 196 200 CCR5
+
+A value of p<0.05 was considered to be statistically significant.
+
+Survival data were presented by Kaplan-Meier survival estimates and compared and calculated by Log-rank (Mantel-Cox) Test in GraphPad Prism.
+

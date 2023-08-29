@@ -1,0 +1,47 @@
+Regulation of the human interleukin-2 gene by the alpha and beta isoforms of the glucocorticoid receptor.
+# T1 Protein S1 24 37 24 37 interleukin-2
+
+The immunosuppressive effects of glucocorticoids are largely due to transcriptional inhibition of immunologically relevant genes, such as the interleukin-2 (IL-2) gene.
+# T2 Protein S2 142 155 249 262 interleukin-2
+# T3 Protein S2 157 161 264 268 IL-2
+
+These effects are mediated by the intracellular glucocorticoid receptor (GR).
+
+In humans, alternative splicing of the GR precursor mRNA gives rise to two receptor isoforms, termed GRalpha and GRbeta.
+# T4 Protein S4 101 108 455 462 GRalpha
+# T5 Protein S4 113 119 467 473 GRbeta
+
+We previously demonstrated that GRbeta could antagonize GRalpha-mediated transactivation of a glucocorticoid-responsive element (GRE)-driven reporter gene in COS-7 cells.
+# T6 Protein S5 32 38 507 513 GRbeta
+# T7 Protein S5 56 63 531 538 GRalpha
+
+The present study was designed to analyze the roles of the two GR isoforms on glucocorticoid-mediated transrepression of the IL-2 gene.
+# T8 Protein S6 78 92 724 738 glucocorticoid
+# T9 Protein S6 125 129 771 775 IL-2
+
+Using a recently developed transfection technique, we demonstrate that in primary human lymphocytes, stimulation of a 548 bp IL-2 promoter-luciferase reporter construct by phorbol ester and calcium ionophore is reversed by dexamethasone to a similar extent as in Jurkat T lymphoma cells transfected with a GRalpha expression vector.
+# T10 Protein S7 125 129 907 911 IL-2
+# T11 Protein S7 306 313 1088 1095 GRalpha
+
+Transfection of a GRbeta expression vector alone did not result in IL-2 promoter repression in response to glucocorticoids.
+# T12 Protein S8 18 24 1133 1139 GRbeta
+# T13 Protein S8 67 71 1182 1186 IL-2
+
+Furthermore, GRbeta did not antagonize the repressive effects of GRalpha on IL-2 promoter activity.
+# T14 Protein S9 13 19 1252 1258 GRbeta
+# T15 Protein S9 65 72 1304 1311 GRalpha
+# T16 Protein S9 76 80 1315 1319 IL-2
+
+Surprisingly, overexpression of GRbeta in Jurkat cells did not cause significant inhibition of GRalpha-induced transactivation of a GRE-dependent luciferase reporter gene either.
+# T17 Protein S10 32 38 1371 1377 GRbeta
+# T18 Protein S10 95 102 1434 1441 GRalpha
+
+We conclude that the transrepressive effect of glucocorticoids on IL-2 gene transcription is exclusively mediated by GRalpha.
+# T19 Protein S11 66 70 1584 1588 IL-2
+# T20 Protein S11 117 124 1635 1642 GRalpha
+
+GRbeta can neither antagonize GRalpha-mediated transactivation nor transrepression in Jurkat cells, indicating a cell type-specific pattern of GRbeta-mediated antiglucocorticoid activity.
+# T21 Protein S12 0 6 1644 1650 GRbeta
+# T22 Protein S12 30 37 1674 1681 GRalpha
+# T23 Protein S12 143 149 1787 1793 GRbeta
+

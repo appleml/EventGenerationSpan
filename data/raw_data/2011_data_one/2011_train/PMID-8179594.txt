@@ -1,0 +1,69 @@
+Effects of alpha-lipoic acid and dihydrolipoic acid on expression of proto-oncogene c-fos.
+# T1 Protein S1 84 89 84 89 c-fos
+$ T1 Protein S1 84 89 84 89 c-fos
+@ T9 Regulation S1 0 7 0 7 Effects
+@ T10 Gene_expression S1 55 65 55 65 expression
+% E1 Regulation:T9 Theme:E2
+% E2 Gene_expression:T10 Theme:T1
+
+The transcription factor AP-1 is an important human mediator of the cellular response to serum, growth factors, and phorbol esters such as 12-O-tetradecanoyl-phorbol-13 acetate (TPA).
+
+The AP-1 complex consists of distinct protein heterodimers encoded by the proto-oncogene c-fos and c-jun mRNA whose gene expression can be induced by TPA, cyclic AMP and growth factors.
+# T2 Protein S3 89 94 365 370 c-fos
+# T3 Protein S3 99 104 375 380 c-jun
+$ T2 Protein S3 89 94 365 370 c-fos
+$ T3 Protein S3 99 104 375 380 c-jun
+@ T11 Transcription S3 116 131 392 407 gene expression
+@ T12 Positive_regulation S3 139 146 415 422 induced
+% E3 Transcription:T11 Theme:T2
+% E4 Transcription:T11 Theme:T3
+% E5 Positive_regulation:T12 Theme:E4
+% E6 Positive_regulation:T12 Theme:E3
+
+Recent findings suggest an involvement of reactive oxygen species in the pathway of TPA and protein kinase C leading to expression of c-fos and c-jun mRNA.
+# T4 Protein S4 134 139 596 601 c-fos
+# T5 Protein S4 144 149 606 611 c-jun
+$ T4 Protein S4 134 139 596 601 c-fos
+$ T5 Protein S4 144 149 606 611 c-jun
+@ T13 Regulation S4 27 38 489 500 involvement
+@ T14 Positive_regulation S4 109 116 571 578 leading
+@ T15 Transcription S4 120 130 582 592 expression
+% E7 Regulation:T13 Theme:E10
+% E8 Regulation:T13 Theme:E9
+% E9 Positive_regulation:T14 Theme:E12
+% E10 Positive_regulation:T14 Theme:E11
+% E11 Transcription:T15 Theme:T4
+% E12 Transcription:T15 Theme:T5
+
+To investigate the role of reactive oxygen species we studied the effects of alpha-lipoic acid and dihydrolipoic acid (natural thiol antioxidants) on the expression of c-fos mRNA in human Jurkat T cells.
+# T6 Protein S5 168 173 786 791 c-fos
+$ T6 Protein S5 168 173 786 791 c-fos
+@ T16 Regulation S5 19 23 637 641 role
+@ T17 Regulation S5 66 73 684 691 effects
+@ T18 Transcription S5 154 164 772 782 expression
+% E13 Regulation:T16 Theme:E15
+% E14 Regulation:T17 Theme:E15
+% E15 Transcription:T18 Theme:T6
+
+When cells were preincubated with dihydrolipoic acid (0.2 mM) the expression of c-fos mRNA was suppressed at 30 min after stimulation of TPA (0.5 microM) whereas in the case of preincubation of alpha-lipoic acid (0.2 microM), the expression was enhanced at 30 min.
+# T7 Protein S6 80 85 902 907 c-fos
+$ T7 Protein S6 80 85 902 907 c-fos
+@ T19 Positive_regulation S6 0 4 822 826 When
+@ T20 Transcription S6 66 76 888 898 expression
+@ T21 Negative_regulation S6 95 105 917 927 suppressed
+@ T22 Positive_regulation S6 162 176 984 998 in the case of
+@ T23 Positive_regulation S6 245 253 1067 1075 enhanced
+% E16 Positive_regulation:T19 Theme:E18
+% E17 Transcription:T20 Theme:T7
+% E18 Negative_regulation:T21 Theme:E17
+% E19 Positive_regulation:T22 Theme:E20
+% E20 Positive_regulation:T23 Theme:E17
+
+These studies support the idea that superoxide anion radical plays a role in the expression of c-fos mRNA.
+# T8 Protein S7 95 100 1182 1187 c-fos
+$ T8 Protein S7 95 100 1182 1187 c-fos
+@ T24 Regulation S7 61 73 1148 1160 plays a role
+@ T25 Transcription S7 81 91 1168 1178 expression
+% E21 Regulation:T24 Theme:E22
+% E22 Transcription:T25 Theme:T8
+

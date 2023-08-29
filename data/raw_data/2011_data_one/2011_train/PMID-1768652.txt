@@ -1,0 +1,124 @@
+Kappa B-specific DNA binding proteins are differentially inhibited by enhancer mutations and biological oxidation.
+
+Kappa B (kappa B) enhancer binding proteins isolated from the nuclei of activated human T cells produce two distinct nucleoprotein complexes when incubated with the kappa B element from the interleukin-2 receptor-alpha (IL-2R alpha) gene.
+# T1 Protein S2 190 218 306 334 interleukin-2 receptor-alpha
+# T2 Protein S2 220 231 336 347 IL-2R alpha
+
+These two DNA-protein complexes are composed of at least four host proteins (p50, p55, p75, p85), each of which shares structural similarity with the v-rel oncogene product.
+# T3 Protein S3 77 80 432 435 p50
+# T4 Protein S3 82 85 437 440 p55
+# T5 Protein S3 87 90 442 445 p75
+# T6 Protein S3 92 95 447 450 p85
+# T7 Protein S3 150 155 505 510 v-rel
+
+Nuclear expression of these proteins is induced with distinctly biphasic kinetics following phorbol ester activation of T cells (p55/p75 early and p50/p85 late).
+# T8 Protein S4 129 132 658 661 p55
+# T9 Protein S4 133 136 662 665 p75
+# T10 Protein S4 147 150 676 679 p50
+# T11 Protein S4 151 154 680 683 p85
+$ T9 Protein S4 133 136 662 665 p75
+$ T10 Protein S4 147 150 676 679 p50
+$ T8 Protein S4 129 132 658 661 p55
+$ T11 Protein S4 151 154 680 683 p85
+@ T28 Gene_expression S4 8 18 537 547 expression
+@ T29 Positive_regulation S4 40 47 569 576 induced
+% E1 Gene_expression:T28 Theme:T9
+% E2 Gene_expression:T28 Theme:T10
+% E3 Gene_expression:T28 Theme:T8
+% E4 Gene_expression:T28 Theme:T11
+% E5 Positive_regulation:T29 Theme:E2
+% E6 Positive_regulation:T29 Theme:E4
+% E7 Positive_regulation:T29 Theme:E3
+% E8 Positive_regulation:T29 Theme:E1
+
+DNA-protein crosslinking studies have revealed that the more rapidly migrating B2 complex contains both p50 and p55 while the more slowly migrating B1 complex is composed of p50, p55, p75, and p85.
+# T12 Protein S5 104 107 795 798 p50
+# T13 Protein S5 112 115 803 806 p55
+# T14 Protein S5 174 177 865 868 p50
+# T15 Protein S5 179 182 870 873 p55
+# T16 Protein S5 184 187 875 878 p75
+# T17 Protein S5 193 196 884 887 p85
+$ T12 Protein S5 104 107 795 798 p50
+$ T13 Protein S5 112 115 803 806 p55
+$ T15 Protein S5 179 182 870 873 p55
+$ T17 Protein S5 193 196 884 887 p85
+$ T16 Protein S5 184 187 875 878 p75
+$ T14 Protein S5 174 177 865 868 p50
+@ T30 Localization S5 69 78 760 769 migrating
+@ T31 Localization S5 138 147 829 838 migrating
+% E9 Localization:T30 Theme:T12
+% E10 Localization:T30 Theme:T13
+% E11 Localization:T31 Theme:T15
+% E12 Localization:T31 Theme:T17
+% E13 Localization:T31 Theme:T16
+% E14 Localization:T31 Theme:T14
+
+Site-directed mutagenesis of the wild-type IL-2R alpha kappa B enhancer (GGGGAATCTCCC) has revealed that the binding of p50 and p55 (B2 complex) is particularly sensitive to alteration of the 5' triplet of deoxyguanosine residues.
+# T18 Protein S6 43 54 932 943 IL-2R alpha
+# T19 Protein S6 120 123 1009 1012 p50
+# T20 Protein S6 128 131 1017 1020 p55
+$ T19 Protein S6 120 123 1009 1012 p50
+$ T20 Protein S6 128 131 1017 1020 p55
+@ T32 Binding S6 109 116 998 1005 binding
+@ T33 Regulation S6 161 170 1050 1059 sensitive
+% E15 Binding:T32 Theme:T19
+% E16 Binding:T32 Theme:T20
+% E17 Regulation:T33 Theme:E16
+% E18 Regulation:T33 Theme:E15
+
+In contrast, formation of the B1 complex, reflecting the binding of p75 and p85, critically depends upon the more 3' sequences of this enhancer element.
+# T21 Protein S7 68 71 1188 1191 p75
+# T22 Protein S7 76 79 1196 1199 p85
+$ T21 Protein S7 68 71 1188 1191 p75
+$ T22 Protein S7 76 79 1196 1199 p85
+@ T34 Binding S7 57 64 1177 1184 binding
+@ T35 Positive_regulation S7 92 99 1212 1219 depends
+% E19 Binding:T34 Theme:T21
+% E20 Binding:T34 Theme:T22
+% E21 Positive_regulation:T35 Theme:E19
+% E22 Positive_regulation:T35 Theme:E20
+
+DNA binding by all four of these Rel-related factors is blocked by selective chemical modification of lysine and arginine residues, suggesting that both of these basic amino acids are required for binding to the kappa B element.
+@ T36 Binding S8 4 11 1277 1284 binding
+@ T37 Negative_regulation S8 56 63 1329 1336 blocked
+% E23 Binding:T36 Theme:T15
+% E24 Binding:T36 Theme:T14
+% E25 Binding:T36 Theme:T16
+% E26 Binding:T36 Theme:T17
+% E27 Negative_regulation:T37 Theme:E23
+% E28 Negative_regulation:T37 Theme:E25
+% E29 Negative_regulation:T37 Theme:E24
+% E30 Negative_regulation:T37 Theme:E26
+
+Similarly, covalent modification of free sulfhydryl groups with diamide (reversible) or N-ethylmaleimide (irreversible) results in a complete loss of DNA binding activity.
+@ T38 Negative_regulation S9 142 146 1644 1648 loss
+% E31 Negative_regulation:T38 Theme:E24
+% E32 Negative_regulation:T38 Theme:E23
+% E33 Negative_regulation:T38 Theme:E25
+% E34 Negative_regulation:T38 Theme:E26
+
+In contrast, mild oxidation with glucose oxidase selectively inhibits p75 and p85 binding while not blocking p50 and p55 interactions.
+# T23 Protein S10 33 48 1707 1722 glucose oxidase
+# T24 Protein S10 70 73 1744 1747 p75
+# T25 Protein S10 78 81 1752 1755 p85
+# T26 Protein S10 109 112 1783 1786 p50
+# T27 Protein S10 117 120 1791 1794 p55
+$ T25 Protein S10 78 81 1752 1755 p85
+$ T24 Protein S10 70 73 1744 1747 p75
+$ T26 Protein S10 109 112 1783 1786 p50
+$ T27 Protein S10 117 120 1791 1794 p55
+@ T39 Negative_regulation S10 61 69 1735 1743 inhibits
+@ T40 Binding S10 82 89 1756 1763 binding
+@ T41 Negative_regulation S10 100 108 1774 1782 blocking
+@ T42 Binding S10 121 133 1795 1807 interactions
+% E35 Negative_regulation:T39 Theme:E37
+% E36 Negative_regulation:T39 Theme:E38
+% E37 Binding:T40 Theme:T25
+% E38 Binding:T40 Theme:T24
+% E39 Negative_regulation:T41 Theme:E41
+% E40 Negative_regulation:T41 Theme:E42
+% E41 Binding:T42 Theme:T26
+% E42 Binding:T42 Theme:T27
+
+These findings suggest that reduced cysteine thiols play an important role in the DNA binding activity of this family of Rel-related transcription factors.
+

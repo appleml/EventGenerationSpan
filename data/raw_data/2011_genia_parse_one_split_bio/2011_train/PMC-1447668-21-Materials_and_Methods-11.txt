@@ -1,0 +1,24 @@
+Statistical	JJ	B-NP	O	Other	Other	Other	Other	Other	###	1	Statistical	Statistical	JJ	JJ	_	2	amod	_	_
+analyses	NNS	I-NP	O	Other	Other	Other	Other	Other	###	2	analyses	analyses	NNS	NNS	_	0	root	_	_
+.	.	O	O	Other	Other	Other	Other	Other	###	3	.	.	.	.	_	2	punct	_	_
+
+The	DT	B-NP	O	Other	Other	Other	Other	Other	###	1	The	The	DT	DT	_	4	det	_	_
+Mann-Whitney	NNP	I-NP	O	Other	Other	Other	Other	Other	###	2	Mann-Whitney	Mann-Whitney	NNP	NNP	_	4	compound	_	_
+U	NNP	I-NP	O	Other	Other	Other	Other	Other	###	3	U	U	NNP	NNP	_	4	compound	_	_
+test	NN	I-NP	O	Other	Other	Other	Other	Other	###	4	test	test	NN	NN	_	6	nsubjpass	_	_
+was	VBD	B-VP	O	Other	Other	Other	Other	Other	###	5	was	was	VBD	VBD	_	6	auxpass	_	_
+used	VBN	I-VP	O	Other	Other	Other	Other	Other	###	6	used	used	VBN	VBN	_	0	root	_	_
+to	TO	B-VP	O	Other	Other	Other	Other	Other	###	7	to	to	TO	TO	_	8	mark	_	_
+compare	VB	I-VP	O	Other	Other	Other	Other	Other	###	8	compare	compare	VB	VB	_	6	xcomp	_	_
+the	DT	B-NP	O	Other	Other	Other	Other	Other	###	9	the	the	DT	DT	_	10	det	_	_
+data	NNS	I-NP	O	Other	Other	Other	Other	Other	###	10	data	data	NNS	NNS	_	8	dobj	_	_
+between	IN	B-PP	O	Other	Other	Other	Other	Other	###	11	between	between	IN	IN	_	12	case	_	_
+patients	NNS	B-NP	O	Other	Other	Other	Other	Other	###	12	patients	patients	NNS	NNS	_	10	nmod	_	_
+with	IN	B-PP	O	Other	Other	Other	Other	Other	###	13	with	with	IN	IN	_	14	case	_	_
+HAM	NN	B-NP	O	Other	Other	Other	Other	Other	###	14	HAM	HAM	NN	NN	_	12	nmod	_	_
+/	/	O	O	Other	Other	Other	Other	Other	###	15	/	/	/	/	_	14	punct	_	_
+TSP	NN	B-NP	O	Other	Other	Other	Other	Other	###	16	TSP	TSP	NN	NN	_	14	dep	_	_
+and	CC	I-NP	O	Other	Other	Other	Other	Other	###	17	and	and	CC	CC	_	14	cc	_	_
+AC	NN	I-NP	O	Other	Other	Other	Other	Other	###	18	AC	AC	NN	NN	_	16	conj	_	_
+.	.	O	O	Other	Other	Other	Other	Other	###	19	.	.	.	.	_	6	punct	_	_
+

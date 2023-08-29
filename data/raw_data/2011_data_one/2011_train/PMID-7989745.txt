@@ -1,0 +1,94 @@
+Differential regulation of proto-oncogenes c-jun and c-fos in T lymphocytes activated through CD28.
+# T1 Protein S1 43 48 43 48 c-jun
+# T2 Protein S1 53 58 53 58 c-fos
+# T3 Protein S1 94 98 94 98 CD28
+$ T2 Protein S1 53 58 53 58 c-fos
+$ T1 Protein S1 43 48 43 48 c-jun
+@ T19 Regulation S1 13 23 13 23 regulation
+% E1 Regulation:T19 Theme:T2
+% E2 Regulation:T19 Theme:T1
+
+The T cell surface molecule CD28 binds to ligands on accessory cells and APCs, playing an important costimulatory role in the response of T cells to Ags.
+# T4 Protein S2 28 32 129 133 CD28
+$ T4 Protein S2 28 32 129 133 CD28
+@ T20 Binding S2 33 38 134 139 binds
+% E3 Binding:T20 Theme:T4
+
+Our knowledge of the intracellular signaling pathways coupled to this receptor is incomplete.
+
+In addition to activation of phospholipase C gamma 1, ligation of this receptor also seems to activate a calcium-independent, CD28-specific pathway.
+# T5 Protein S4 29 52 378 401 phospholipase C gamma 1
+# T6 Protein S4 126 130 475 479 CD28
+$ T5 Protein S4 29 52 378 401 phospholipase C gamma 1
+$ T6 Protein S4 126 130 475 479 CD28
+@ T21 Positive_regulation S4 15 25 364 374 activation
+@ T22 Binding S4 54 62 403 411 ligation
+% E4 Positive_regulation:T21 Theme:T5 Cause:E5
+% E5 Binding:T22 Theme:T6
+
+In this paper, we report that cross-linking of CD28 (but not CD2, CD5, LFA-1, or CD7) leads to an elevation of c-jun mRNA, with only minimal activation of c-fos expression.
+# T7 Protein S5 47 51 545 549 CD28
+# T8 Protein S5 66 69 564 567 CD5
+# T9 Protein S5 81 84 579 582 CD7
+# T10 Protein S5 111 116 609 614 c-jun
+# T11 Protein S5 155 160 653 658 c-fos
+$ T9 Protein S5 81 84 579 582 CD7
+$ T8 Protein S5 66 69 564 567 CD5
+$ T7 Protein S5 47 51 545 549 CD28
+$ T10 Protein S5 111 116 609 614 c-jun
+$ T11 Protein S5 155 160 653 658 c-fos
+@ T23 Binding S5 30 43 528 541 cross-linking
+@ T24 Positive_regulation S5 86 91 584 589 leads
+@ T25 Positive_regulation S5 98 107 596 605 elevation
+@ T26 Positive_regulation S5 141 151 639 649 activation
+@ T27 Gene_expression S5 161 171 659 669 expression
+% E6 Binding:T23 Theme:T9
+% E7 Binding:T23 Theme:T8
+% E8 Binding:T23 Theme:T7
+% E9 Positive_regulation:T24 Theme:E13 Cause:E7
+% E10 Positive_regulation:T24 Theme:E13 Cause:E8
+% E11 Positive_regulation:T24 Theme:E13
+% E12 Positive_regulation:T24 Theme:E13 Cause:E6
+% E13 Positive_regulation:T25 Theme:T10
+% E14 Positive_regulation:T26 Theme:E15 Cause:E8
+% E15 Gene_expression:T27 Theme:T11
+
+CD28-dependent induction of c-jun expression requires protein tyrosine kinase activity, but does not depend on activation of a phorbol ester-responsive protein kinase C or elevation of cytosolic calcium.
+# T12 Protein S6 0 4 671 675 CD28
+# T13 Protein S6 28 33 699 704 c-jun
+$ T12 Protein S6 0 4 671 675 CD28
+$ T13 Protein S6 28 33 699 704 c-jun
+@ T28 Positive_regulation S6 15 24 686 695 induction
+@ T29 Gene_expression S6 34 44 705 715 expression
+@ T30 Positive_regulation S6 45 53 716 724 requires
+@ T31 Regulation S6 101 107 772 778 depend
+% E16 Positive_regulation:T28 Theme:E17 Cause:T12
+% E17 Gene_expression:T29 Theme:T13
+% E18 Positive_regulation:T30 Theme:E16
+% E19 Regulation:T31 Theme:E16
+
+Furthermore, CD28-dependent elevation of c-jun mRNA does not appear to be mediated at the level of mRNA stability.
+# T14 Protein S7 13 17 888 892 CD28
+# T15 Protein S7 41 46 916 921 c-jun
+$ T15 Protein S7 41 46 916 921 c-jun
+$ T14 Protein S7 13 17 888 892 CD28
+@ T32 Positive_regulation S7 28 37 903 912 elevation
+@ T33 Positive_regulation S7 74 82 949 957 mediated
+@ T34 Regulation S7 104 113 979 988 stability
+% E20 Positive_regulation:T32 Theme:T15 Cause:T14
+% E21 Positive_regulation:T33 Theme:E20 Cause:E22
+% E22 Regulation:T34 Theme:T15
+
+A mechanism is suggested whereby expression of c-jun and junB, in the absence of members of the fos family, can prevent inappropriate activation of T cells caused by ligation of CD28 in the absence of a specific antigenic stimulus.
+# T16 Protein S8 47 52 1037 1042 c-jun
+# T17 Protein S8 57 61 1047 1051 junB
+# T18 Protein S8 178 182 1168 1172 CD28
+$ T17 Protein S8 57 61 1047 1051 junB
+$ T16 Protein S8 47 52 1037 1042 c-jun
+$ T18 Protein S8 178 182 1168 1172 CD28
+@ T35 Gene_expression S8 33 43 1023 1033 expression
+@ T36 Binding S8 166 174 1156 1164 ligation
+% E23 Gene_expression:T35 Theme:T17
+% E24 Gene_expression:T35 Theme:T16
+% E25 Binding:T36 Theme:T18
+

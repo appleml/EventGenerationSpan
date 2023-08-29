@@ -1,0 +1,57 @@
+Effect of adenovirus 2 on cellular gene activation in blood-derived monocytes and macrophages.
+
+We have investigated the effect of adenovirus 2 (Ad2) infection on human monocytes and monocyte-derived macrophages with regard to expression of TNF-alpha and IL-1 beta.
+# T1 Protein S2 145 154 241 250 TNF-alpha
+# T2 Protein S2 159 168 255 264 IL-1 beta
+$ T1 Protein S2 145 154 241 250 TNF-alpha
+$ T2 Protein S2 159 168 255 264 IL-1 beta
+@ T7 Regulation S2 25 31 121 127 effect
+@ T8 Gene_expression S2 131 141 227 237 expression
+% E1 Regulation:T7 Theme:E4
+% E2 Regulation:T7 Theme:E3
+% E3 Gene_expression:T8 Theme:T1
+% E4 Gene_expression:T8 Theme:T2
+
+In monocytes, the virus was bound to the surface without being internalized.
+
+On the other hand, Ad2 was internalized by macrophages.
+
+No virus replication and no transcription of the Ad2 early genes was observed in either of the cells.
+
+Ad2 infection induced transient increase in the mRNA levels for TNF-alpha and IL-1 beta in both monocytes and in macrophages, although the kinetics of the transcription was slightly different.
+# T3 Protein S6 64 73 565 574 TNF-alpha
+# T4 Protein S6 78 87 579 588 IL-1 beta
+$ T4 Protein S6 78 87 579 588 IL-1 beta
+$ T3 Protein S6 64 73 565 574 TNF-alpha
+@ T9 Positive_regulation S6 14 21 515 522 induced
+@ T10 Positive_regulation S6 32 40 533 541 increase
+@ T11 Transcription S6 48 59 549 560 mRNA levels
+% E5 Positive_regulation:T9 Theme:E8
+% E6 Positive_regulation:T9 Theme:E7
+% E7 Positive_regulation:T10 Theme:E9
+% E8 Positive_regulation:T10 Theme:E10
+% E9 Transcription:T11 Theme:T4
+% E10 Transcription:T11 Theme:T3
+
+The production of both cytokines, measured by ELISA tests, was enhanced in monocytes.
+@ T12 Gene_expression S7 4 14 698 708 production
+@ T13 Positive_regulation S7 63 71 757 765 enhanced
+% E11 Gene_expression:T12 Theme:T4
+% E12 Gene_expression:T12 Theme:T3
+% E13 Positive_regulation:T13 Theme:E12
+% E14 Positive_regulation:T13 Theme:E11
+
+In macrophages, a slight enhancement of TNF-alpha production was seen, whereas IL-1 beta was not detected.
+# T5 Protein S8 40 49 820 829 TNF-alpha
+# T6 Protein S8 79 88 859 868 IL-1 beta
+$ T5 Protein S8 40 49 820 829 TNF-alpha
+$ T6 Protein S8 79 88 859 868 IL-1 beta
+@ T14 Positive_regulation S8 25 36 805 816 enhancement
+@ T15 Gene_expression S8 50 60 830 840 production
+@ T16 Gene_expression S8 97 105 877 885 detected
+% E15 Positive_regulation:T14 Theme:E16
+% E16 Gene_expression:T15 Theme:T5
+% E17 Gene_expression:T16 Theme:T6
+
+The data indicate that cellular genes might be activated by Ad2 virus infection in nonpermissive cells where no viral gene products could be detected.
+

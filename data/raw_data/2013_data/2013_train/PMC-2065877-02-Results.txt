@@ -1,0 +1,118 @@
+High Levels of LMP1 Expression Correlates with the Development of Lymphoma
+# T1 Protein S1 15 19 15 19 LMP1
+$ T1 Protein S1 15 19 15 19 LMP1
+@ T22 Positive_regulation S1 0 11 0 11 High Levels
+@ T23 Gene_expression S1 20 30 20 30 Expression
+% E1 Positive_regulation:T22 Theme:E2
+% E2 Gene_expression:T23 Theme:T1
+
+LMP1 expression in IgLMP1 mice was directed to B cells under the control of the Ig heavy chain promoter and enhancer.
+# T2 Protein S2 0 4 75 79 LMP1
+$ T2 Protein S2 0 4 75 79 LMP1
+@ T24 Gene_expression S2 5 15 80 90 expression
+@ T25 Regulation S2 55 72 130 147 under the control
+% E3 Gene_expression:T24 Theme:T2
+% E4 Regulation:T25 Theme:E3
+
+It has previously been shown that in these transgenic mice, LMP1 expression was restricted to B220+ B cells with lymphoma detected in greatly enlarged spleens [23,26].
+# T3 Protein S3 60 64 253 257 LMP1
+$ T3 Protein S3 60 64 253 257 LMP1
+@ T26 Gene_expression S3 65 75 258 268 expression
+@ T27 Positive_regulation S3 80 90 273 283 restricted
+% E5 Gene_expression:T26 Theme:T3
+% E6 Positive_regulation:T27 Theme:E5
+
+To investigate whether LMP1 expression contributes to lymphoma development, B cells were purified from splenocytes by positive selection using anti-CD19 MACS magnetic beads, and equivalent amounts of B cells were analyzed by immunoblotting.
+# T4 Protein S4 23 27 384 388 LMP1
+# T5 Protein S4 148 152 509 513 CD19
+$ T4 Protein S4 23 27 384 388 LMP1
+@ T28 Gene_expression S4 28 38 389 399 expression
+% E7 Gene_expression:T28 Theme:T4
+
+LMP1 was detectable in LMP1 transgenic B cells, but upon development of lymphoma, LMP1 expression was stronger in 5/7 lymphomas analyzed with concomitant appearance of degradation products (Figure 1A).
+# T6 Protein S5 0 4 602 606 LMP1
+# T7 Protein S5 23 27 625 629 LMP1
+# T8 Protein S5 82 86 684 688 LMP1
+$ T6 Protein S5 0 4 602 606 LMP1
+$ T8 Protein S5 82 86 684 688 LMP1
+@ T29 Gene_expression S5 9 19 611 621 detectable
+@ T30 Gene_expression S5 87 97 689 699 expression
+@ T31 Positive_regulation S5 102 110 704 712 stronger
+% E8 Gene_expression:T29 Theme:T6
+% E9 Gene_expression:T30 Theme:T8
+% E10 Positive_regulation:T31 Theme:E9
+
+To determine whether the higher level of LMP1 detected was due to an expansion of malignant lymphocytes, expression of LMP1 in the spleen was further evaluated by immunohistochemical staining.
+# T9 Protein S6 41 45 845 849 LMP1
+# T10 Protein S6 119 123 923 927 LMP1
+$ T9 Protein S6 41 45 845 849 LMP1
+$ T10 Protein S6 119 123 923 927 LMP1
+@ T32 Positive_regulation S6 25 37 829 841 higher level
+@ T33 Gene_expression S6 105 115 909 919 expression
+% E11 Positive_regulation:T32 Theme:T9
+% E12 Gene_expression:T33 Theme:T10
+
+Immunohistochemistry analysis of spleen sections detected LMP1 in the plasma membrane of cells in both the follicular white pulp and circulating lymphocytes in the red pulp (Figure 1B).
+# T11 Protein S7 58 62 1055 1059 LMP1
+$ T11 Protein S7 58 62 1055 1059 LMP1
+@ T34 Gene_expression S7 49 57 1046 1054 detected
+% E13 Gene_expression:T34 Theme:T11
+
+LMP1 expression was heterogeneous with strong LMP1 staining interspersed amongst a background of cells staining weakly for LMP1.
+# T12 Protein S8 0 4 1183 1187 LMP1
+# T13 Protein S8 46 50 1229 1233 LMP1
+# T14 Protein S8 123 127 1306 1310 LMP1
+$ T12 Protein S8 0 4 1183 1187 LMP1
+$ T13 Protein S8 46 50 1229 1233 LMP1
+$ T14 Protein S8 123 127 1306 1310 LMP1
+@ T35 Gene_expression S8 5 15 1188 1198 expression
+@ T36 Positive_regulation S8 39 45 1222 1228 strong
+@ T37 Positive_regulation S8 112 118 1295 1301 weakly
+% E14 Gene_expression:T35 Theme:T12
+% E15 Positive_regulation:T36 Theme:T13
+% E16 Positive_regulation:T37 Theme:T14
+
+Upon development to lymphoma, LMP1 expression was more abundantly detected with multiple foci of intense LMP1 staining.
+# T15 Protein S9 30 34 1342 1346 LMP1
+# T16 Protein S9 105 109 1417 1421 LMP1
+$ T15 Protein S9 30 34 1342 1346 LMP1
+$ T16 Protein S9 105 109 1417 1421 LMP1
+@ T38 Gene_expression S9 35 45 1347 1357 expression
+@ T39 Positive_regulation S9 55 65 1367 1377 abundantly
+@ T40 Positive_regulation S9 97 104 1409 1416 intense
+% E17 Gene_expression:T38 Theme:T15
+% E18 Positive_regulation:T39 Theme:E17
+% E19 Positive_regulation:T40 Theme:T16
+
+This demonstrates that the increased LMP1 detected by immunoblotting upon malignant progression reflects an increase in LMP1 expression and an accumulation of cells expressing high levels of LMP1.
+# T17 Protein S10 37 41 1469 1473 LMP1
+# T18 Protein S10 120 124 1552 1556 LMP1
+# T19 Protein S10 191 195 1623 1627 LMP1
+$ T17 Protein S10 37 41 1469 1473 LMP1
+$ T18 Protein S10 120 124 1552 1556 LMP1
+$ T19 Protein S10 191 195 1623 1627 LMP1
+@ T41 Positive_regulation S10 27 36 1459 1468 increased
+@ T42 Positive_regulation S10 108 116 1540 1548 increase
+@ T43 Gene_expression S10 125 135 1557 1567 expression
+@ T44 Gene_expression S10 165 175 1597 1607 expressing
+@ T45 Positive_regulation S10 176 187 1608 1619 high levels
+% E20 Positive_regulation:T41 Theme:T17
+% E21 Positive_regulation:T42 Theme:E22
+% E22 Gene_expression:T43 Theme:T18
+% E23 Gene_expression:T44 Theme:T19
+% E24 Positive_regulation:T45 Theme:E23
+
+This correlation between high LMP1 expression and the development of lymphoma suggests that progression to lymphoma results from increased levels of LMP1.
+# T20 Protein S11 30 34 1659 1663 LMP1
+# T21 Protein S11 149 153 1778 1782 LMP1
+$ T20 Protein S11 30 34 1659 1663 LMP1
+$ T21 Protein S11 149 153 1778 1782 LMP1
+@ T46 Positive_regulation S11 25 29 1654 1658 high
+@ T47 Gene_expression S11 35 45 1664 1674 expression
+@ T48 Positive_regulation S11 129 138 1758 1767 increased
+@ T49 Gene_expression S11 139 145 1768 1774 levels
+% E25 Positive_regulation:T46 Theme:E26
+% E26 Gene_expression:T47 Theme:T20
+% E27 Positive_regulation:T48 Theme:E28
+% E28 Gene_expression:T49 Theme:T21
+

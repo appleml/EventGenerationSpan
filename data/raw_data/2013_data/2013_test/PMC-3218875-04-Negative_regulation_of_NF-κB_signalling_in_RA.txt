@@ -1,0 +1,33 @@
+Since NF-kappaB activation is so crucial to many cellular processes, a tight regulation of the NF-kappaB signalling pathway and the genes it induces is an absolute requirement to fine-tune the inflammatory response.
+
+Moreover, terminating an NF-kappaB response is essential to prevent persistent NF-kappaB activation that may lead to chronic inflammation and/or tumorigenesis.
+
+To achieve this, cells employ different mechanisms, including the expression of inhibitory proteins that downregulate NF-kappaB signalling [32].
+
+Below we give an overview of a number of proteins that are involved in the dampening or termination of the NF-kappaB response, some of them under the control of NF-kappaB itself and thus acting in a negative feedback loop.
+
+In addition, we discuss the potential role of these NF-kappaB inhibitory factors in the immunopathology of RA.
+
+Several other proteins involved in the negative regulation of NF-kappaB-dependent inflammatory responses, such as MyD88s, IRAK-M, and TOLLIP, have been described (reviewed in [33]).
+# T1 Protein S6 114 120 969 975 MyD88s
+# T2 Protein S6 122 128 977 983 IRAK-M
+# T3 Protein S6 134 140 989 995 TOLLIP
+
+These proteins are not discussed here, since a link with RA pathology has not yet been reported.Although IKK1 is a critical component of the non-canonical NF-kappaB pathway, it should be mentioned that this kinase also plays a prominent role in the negative regulation of both canonical and noncanonical NF-kappaB pathways.
+# T4 Protein S7 105 109 1142 1146 IKK1
+
+Macrophages from IKK1-deficient mice or knockin mice expressing inactive IKK1 show increased production of proinflammatory cytokines as a result of enhanced IKK2 activation and IkappaBalpha degradation [34].
+# T5 Protein S8 17 21 1378 1382 IKK1
+# T6 Protein S8 73 77 1434 1438 IKK1
+# T7 Protein S8 157 161 1518 1522 IKK2
+# T8 Protein S8 177 189 1538 1550 IkappaBalpha
+
+IKK1 has also been shown to inhibit nuclear NF-kappaB and to downregulate proinflammatory signalling by phosphorylating STAT1 [35].
+# T9 Protein S9 0 4 1569 1573 IKK1
+# T10 Protein S9 120 125 1689 1694 STAT1
+
+Interestingly, a recent study has demonstrated that IKK1 phosphorylates NIK in negative feedback regulation of the noncanonical NF-kappaB pathway [36], supporting the idea that IKK1 plays important roles in terminating both canonical and noncanonical NF-kappaB pathways with possible implications for chronic inflammatory diseases like RA.
+# T11 Protein S10 52 56 1753 1757 IKK1
+# T12 Protein S10 72 75 1773 1776 NIK
+# T13 Protein S10 177 181 1878 1882 IKK1
+

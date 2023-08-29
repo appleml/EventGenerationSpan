@@ -1,0 +1,49 @@
+Cell-specific expression of helix-loop-helix transcription factors encoded by the E2A gene.
+# T1 Protein S1 82 85 82 85 E2A
+$ T1 Protein S1 82 85 82 85 E2A
+@ T10 Gene_expression S1 14 24 14 24 expression
+% E1 Gene_expression:T10 Theme:T1
+
+The E2A gene encodes transcription factors of the helix-loop-helix family that are implicated in cell-specific gene expression as part of dimeric complexes that interact with E box enhancer elements.
+# T2 Protein S2 4 7 97 100 E2A
+
+It has previously been shown that transcripts of the E2A gene can be detected in a wide range of cell types.
+# T3 Protein S3 53 56 346 349 E2A
+$ T3 Protein S3 53 56 346 349 E2A
+@ T11 Gene_expression S3 69 77 362 370 detected
+% E2 Gene_expression:T11 Theme:T3
+
+We have now examined expression of the mouse E2A gene at the protein level using polyclonal antisera directed against distinct portions of the E2A protein to probe blots of cellular extracts.
+# T4 Protein S4 45 48 447 450 E2A
+# T5 Protein S4 143 146 545 548 E2A
+$ T4 Protein S4 45 48 447 450 E2A
+@ T12 Gene_expression S4 21 31 423 433 expression
+% E3 Gene_expression:T12 Theme:T4
+
+A 73 kDa protein was identified by this analysis: this protein is highly enriched in cell lines of B lymphoid origin as compared to pancreatic beta-cells and fibroblast cells.
+
+The detection of this protein selectively in extracts of lymphoid cells correlates with the presence of the E box-binding activity LEF1/BCF1 in these cells; this binding activity was previously shown to be efficiently recognized by antiserum directed against E2A gene products.
+# T6 Protein S6 259 262 1029 1032 E2A
+
+Transfection of cells with full length E2A cDNA leads to appearance of protein co-migrating with the 73 kDa protein on SDS gel electrophoresis and co-migrating with LEF1/BCF1 on mobility shift analysis.
+# T7 Protein S7 39 42 1087 1090 E2A
+$ T7 Protein S7 39 42 1087 1090 E2A
+@ T13 Gene_expression S7 0 12 1048 1060 Transfection
+@ T14 Positive_regulation S7 0 12 1048 1060 Transfection
+% E4 Gene_expression:T13 Theme:T7
+% E5 Positive_regulation:T14 Theme:E4
+
+Our results are consistent with the view that the DNA-binding activity LEF1/BCF1 is a homodimer of E2A proteins; the selective appearance of this putative cell-specific transcription factor in B lymphoid cells seems to be attributable, at least in part, to the elevated E2A protein concentrations in these cells.
+# T8 Protein S8 99 102 1350 1353 E2A
+# T9 Protein S8 270 273 1521 1524 E2A
+$ T8 Protein S8 99 102 1350 1353 E2A
+$ T9 Protein S8 270 273 1521 1524 E2A
+@ T15 Binding S8 54 70 1305 1321 binding activity
+@ T16 Gene_expression S8 127 137 1378 1388 appearance
+@ T17 Positive_regulation S8 222 234 1473 1485 attributable
+@ T18 Positive_regulation S8 261 269 1512 1520 elevated
+% E6 Binding:T15 Theme:T8
+% E7 Gene_expression:T16 Theme:T8
+% E8 Positive_regulation:T17 Theme:E9 Cause:E7
+% E9 Positive_regulation:T18 Theme:T9
+

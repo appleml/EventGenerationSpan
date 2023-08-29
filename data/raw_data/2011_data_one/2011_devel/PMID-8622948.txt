@@ -1,0 +1,123 @@
+Rel-deficient T cells exhibit defects in production of interleukin 3 and granulocyte-macrophage colony-stimulating factor.
+# T1 Protein S1 0 3 0 3 Rel
+# T2 Protein S1 55 68 55 68 interleukin 3
+# T3 Protein S1 73 121 73 121 granulocyte-macrophage colony-stimulating factor
+$ T1 Protein S1 0 3 0 3 Rel
+$ T2 Protein S1 55 68 55 68 interleukin 3
+$ T3 Protein S1 73 121 73 121 granulocyte-macrophage colony-stimulating factor
+@ T38 Negative_regulation S1 4 13 4 13 deficient
+@ T39 Negative_regulation S1 30 37 30 37 defects
+@ T40 Gene_expression S1 41 51 41 51 production
+% E1 Negative_regulation:T38 Theme:T1
+% E2 Negative_regulation:T39 Theme:E5
+% E3 Negative_regulation:T39 Theme:E4
+% E4 Gene_expression:T40 Theme:T2
+% E5 Gene_expression:T40 Theme:T3
+
+The c-rel protooncogene encodes a subunit of the NF-kappa B-like family of transcription factors.
+# T4 Protein S2 4 9 128 133 c-rel
+
+Mice lacking Rel are defective in mitogenic activation of B and T lymphocytes and display impaired humoral immunity.
+# T5 Protein S3 13 16 235 238 Rel
+$ T5 Protein S3 13 16 235 238 Rel
+@ T41 Negative_regulation S3 5 12 227 234 lacking
+% E6 Negative_regulation:T41 Theme:T5
+
+In an attempt to identify changes in gene expression that accompany the T-cell stimulation defects associated with the loss of Rel, we have examined the expression of cell surface activation markers and cytokine production in mitogen-stimulated Rel-/- T cells.
+# T6 Protein S4 127 130 466 469 Rel
+# T7 Protein S4 245 248 584 587 Rel
+$ T6 Protein S4 127 130 466 469 Rel
+@ T42 Negative_regulation S4 119 123 458 462 loss
+% E7 Negative_regulation:T42 Theme:T6
+
+The expression of cell surface markers including the interleukin 2 receptor alpha (IL-2R alpha) chain (CD25), CD69 and L-selectin (CD62) is normal in mitogen-activated Rel-/- T cells, but cytokine production is impaired.
+# T8 Protein S5 53 101 653 701 interleukin 2 receptor alpha (IL-2R alpha) chain
+# T9 Protein S5 103 107 703 707 CD25
+# T10 Protein S5 110 114 710 714 CD69
+# T11 Protein S5 119 129 719 729 L-selectin
+# T12 Protein S5 131 135 731 735 CD62
+# T13 Protein S5 168 171 768 771 Rel
+$ T10 Protein S5 110 114 710 714 CD69
+$ T12 Protein S5 131 135 731 735 CD62
+$ T9 Protein S5 103 107 703 707 CD25
+@ T43 Gene_expression S5 4 14 604 614 expression
+% E8 Gene_expression:T43 Theme:T10
+% E9 Gene_expression:T43 Theme:T12
+% E10 Gene_expression:T43 Theme:T9
+
+In Rel-/- splenic T cell cultures stimulated with phorbol 12-myristate 13-acetate and ionomycin, the levels of IL-3, IL-5, granulocyte- macrophage colony-stimulating factor (GM-CSF), tumor necrosis factor alpha (TNF-alpha), and gamma interferon (IFN-gamma) were only 2- to 3-fold lower compared with normal T cells.
+# T14 Protein S6 3 6 824 827 Rel
+# T15 Protein S6 111 115 932 936 IL-3
+# T16 Protein S6 117 121 938 942 IL-5
+# T17 Protein S6 123 172 944 993 granulocyte- macrophage colony-stimulating factor
+# T18 Protein S6 174 180 995 1001 GM-CSF
+# T19 Protein S6 183 210 1004 1031 tumor necrosis factor alpha
+# T20 Protein S6 212 221 1033 1042 TNF-alpha
+# T21 Protein S6 228 244 1049 1065 gamma interferon
+# T22 Protein S6 246 255 1067 1076 IFN-gamma
+$ T18 Protein S6 174 180 995 1001 GM-CSF
+$ T20 Protein S6 212 221 1033 1042 TNF-alpha
+$ T15 Protein S6 111 115 932 936 IL-3
+$ T22 Protein S6 246 255 1067 1076 IFN-gamma
+$ T16 Protein S6 117 121 938 942 IL-5
+@ T44 Negative_regulation S6 280 285 1101 1106 lower
+% E11 Negative_regulation:T44 Theme:T18
+% E12 Negative_regulation:T44 Theme:T20
+% E13 Negative_regulation:T44 Theme:T15
+% E14 Negative_regulation:T44 Theme:T22
+% E15 Negative_regulation:T44 Theme:T16
+
+In contrast, anti-CD3 and anti-CD28 stimulated Rel-/- T cells, which fail to proliferate, make little or no detectable cytokines.
+# T23 Protein S7 31 35 1168 1172 CD28
+# T24 Protein S7 47 50 1184 1187 Rel
+
+Exogenous IL-2, which restitutes the proliferative response of the anti-CD3- and anti-CD28-treated Rel-/- T cells, restores production of IL-5, TNF-alpha, and IFN-gamma, but not IL-3 and GM-CSF expression to approximately normal levels.
+# T25 Protein S8 10 14 1277 1281 IL-2
+# T26 Protein S8 86 90 1353 1357 CD28
+# T27 Protein S8 138 142 1405 1409 IL-5
+# T28 Protein S8 144 153 1411 1420 TNF-alpha
+# T29 Protein S8 159 168 1426 1435 IFN-gamma
+# T30 Protein S8 178 182 1445 1449 IL-3
+# T31 Protein S8 187 193 1454 1460 GM-CSF
+$ T25 Protein S8 10 14 1277 1281 IL-2
+$ T28 Protein S8 144 153 1411 1420 TNF-alpha
+$ T27 Protein S8 138 142 1405 1409 IL-5
+$ T29 Protein S8 159 168 1426 1435 IFN-gamma
+$ T31 Protein S8 187 193 1454 1460 GM-CSF
+$ T30 Protein S8 178 182 1445 1449 IL-3
+@ T45 Positive_regulation S8 115 123 1382 1390 restores
+@ T46 Gene_expression S8 124 134 1391 1401 production
+@ T47 Gene_expression S8 194 204 1461 1471 expression
+% E16 Positive_regulation:T45 Theme:E23 Cause:T25
+% E17 Positive_regulation:T45 Theme:E21 Cause:T25
+% E18 Positive_regulation:T45 Theme:E25 Cause:T25
+% E19 Positive_regulation:T45 Theme:E22 Cause:T25
+% E20 Positive_regulation:T45 Theme:E24 Cause:T25
+% E21 Gene_expression:T46 Theme:T28
+% E22 Gene_expression:T46 Theme:T27
+% E23 Gene_expression:T46 Theme:T29
+% E24 Gene_expression:T47 Theme:T31
+% E25 Gene_expression:T47 Theme:T30
+
+In contrast to mitogen-activated Rel-/- T cells, lipopolysaccharide-stimulated Rel-/- macrophages produce higher than normal levels of GM-CSF.
+# T32 Protein S9 33 36 1537 1540 Rel
+# T33 Protein S9 79 82 1583 1586 Rel
+# T34 Protein S9 135 141 1639 1645 GM-CSF
+$ T34 Protein S9 135 141 1639 1645 GM-CSF
+@ T48 Positive_regulation S9 98 112 1602 1616 produce higher
+% E26 Positive_regulation:T48 Theme:T34
+
+These findings establish that Rel can function as an activator or repressor of gene expression and is required by T lymphocytes for production of IL-3 and GM-CSF.
+# T35 Protein S10 30 33 1677 1680 Rel
+# T36 Protein S10 146 150 1793 1797 IL-3
+# T37 Protein S10 155 161 1802 1808 GM-CSF
+$ T35 Protein S10 30 33 1677 1680 Rel
+$ T37 Protein S10 155 161 1802 1808 GM-CSF
+$ T36 Protein S10 146 150 1793 1797 IL-3
+@ T49 Positive_regulation S10 102 110 1749 1757 required
+@ T50 Gene_expression S10 132 142 1779 1789 production
+% E27 Positive_regulation:T49 Theme:E30 Cause:T35
+% E28 Positive_regulation:T49 Theme:E29 Cause:T35
+% E29 Gene_expression:T50 Theme:T37
+% E30 Gene_expression:T50 Theme:T36
+

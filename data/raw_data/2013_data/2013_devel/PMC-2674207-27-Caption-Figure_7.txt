@@ -1,0 +1,68 @@
+Inhaled fluticasone propionate impairs GATA-3 nuclear localization in PBMCs.
+# T1 Protein S1 39 45 39 45 GATA-3
+$ T1 Protein S1 39 45 39 45 GATA-3
+@ T10 Negative_regulation S1 31 38 31 38 impairs
+@ T11 Entity S1 46 53 46 53 nuclear
+@ T12 Localization S1 54 66 54 66 localization
+% E1 Negative_regulation:T10 Theme:E2
+% E2 Localization:T12 Theme:T1 ToLoc:T11
+
+(A) Representative immunocytochemistry of showing the effect of inhaled FP (500 microg) on GR and GATA-3 nuclear localisation.
+# T2 Protein S2 91 93 168 170 GR
+# T3 Protein S2 98 104 175 181 GATA-3
+$ T2 Protein S2 91 93 168 170 GR
+$ T3 Protein S2 98 104 175 181 GATA-3
+@ T13 Entity S2 105 112 182 189 nuclear
+@ T14 Localization S2 113 125 190 202 localisation
+% E3 Localization:T14 Theme:T2 ToLoc:T13
+% E4 Localization:T14 Theme:T3 ToLoc:T13
+
+(B) Nuclear GATA-3 immunoreactivity in PBMCs from seven steroid-naive asthma patients 2 h following inhaled FP treatment (100 or 500 microg via spacer).
+# T4 Protein S3 12 18 216 222 GATA-3
+
+The median and interquartile ranges for each treatment are presented as a box-and-whiskers plot (n = 7); * p<0.05 Wilcoxon's rank test compared with placebo.
+
+(C) Immunoblotting analyses of PBMCs demonstrated a time-dependent decrease in nuclear expression of GATA-3, and increased cytoplasmic GATA-3 expression after inhalation of FP.
+# T5 Protein S5 101 107 616 622 GATA-3
+# T6 Protein S5 135 141 650 656 GATA-3
+$ T5 Protein S5 101 107 616 622 GATA-3
+$ T6 Protein S5 135 141 650 656 GATA-3
+@ T15 Regulation S5 57 66 572 581 dependent
+@ T16 Negative_regulation S5 67 75 582 590 decrease
+@ T17 Entity S5 79 86 594 601 nuclear
+@ T18 Localization S5 87 97 602 612 expression
+@ T19 Positive_regulation S5 113 122 628 637 increased
+@ T20 Entity S5 123 134 638 649 cytoplasmic
+@ T21 Localization S5 142 152 657 667 expression
+% E5 Regulation:T15 Theme:E6
+% E7 Regulation:T15 Theme:E8
+% E6 Negative_regulation:T16 Theme:E9
+% E9 Localization:T18 Theme:T5 ToLoc:T17
+% E8 Positive_regulation:T19 Theme:E10
+% E10 Localization:T21 Theme:T6 ToLoc:T20
+
+(D) Immunoblotting analyses of PBMCs demonstrated a dose-dependent decrease in nuclear expression of GATA-3, and increased cytoplasmic GATA-3 expression 2 h after inhalation of FP.
+# T7 Protein S6 101 107 793 799 GATA-3
+# T8 Protein S6 135 141 827 833 GATA-3
+$ T7 Protein S6 101 107 793 799 GATA-3
+$ T8 Protein S6 135 141 827 833 GATA-3
+@ T22 Negative_regulation S6 67 75 759 767 decrease
+@ T23 Entity S6 79 86 771 778 nuclear
+@ T24 Localization S6 87 97 779 789 expression
+@ T25 Entity S6 123 134 815 826 cytoplasmic
+@ T26 Localization S6 142 152 834 844 expression
+% E11 Negative_regulation:T22 Theme:E12
+% E12 Localization:T24 Theme:T7 ToLoc:T23
+% E13 Localization:T26 Theme:T8 ToLoc:T25
+
+Histone H1 and MEK-1 immunoblotting confirmed equivalent total protein loading for the nuclear and cytoplasmic fractions respectively.
+# T9 Protein S7 15 20 888 893 MEK-1
+
+Quantification of the densitometry data in (C) and (D) is shown as a box-and-whiskers plot of results from n = 6 participants for which data were available.
+
+*p<0.05 compared to control.
+
+(E) Western blot analyses of PBMCs demonstrated a time-dependent decrease in dual phosphorylation (threonine-180 and tyrosine-182) of p38 MAPK after inhalation of FP (500 microg).
+
+The results shown in (E) are representative of samples from two participants.
+

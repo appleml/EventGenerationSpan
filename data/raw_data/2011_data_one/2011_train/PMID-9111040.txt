@@ -1,0 +1,54 @@
+Oncogenic forms of NOTCH1 lacking either the primary binding site for RBP-Jkappa or nuclear localization sequences retain the ability to associate with RBP-Jkappa and activate transcription.
+# T1 Protein S1 19 25 19 25 NOTCH1
+# T2 Protein S1 70 80 70 80 RBP-Jkappa
+# T3 Protein S1 152 162 152 162 RBP-Jkappa
+$ T1 Protein S1 19 25 19 25 NOTCH1
+$ T3 Protein S1 152 162 152 162 RBP-Jkappa
+@ T15 Binding S1 137 146 137 146 associate
+% E1 Binding:T15 Theme:T1 Theme2:T3
+
+Truncated forms of the NOTCH1 transmembrane receptor engineered to resemble mutant forms of NOTCH1 found in certain cases of human T cell leukemia/lymphoma (T-ALL) efficiently induce T-ALL when expressed in the bone marrow of mice.
+# T4 Protein S2 23 29 215 221 NOTCH1
+# T5 Protein S2 92 98 284 290 NOTCH1
+
+Unlike full-sized NOTCH1, two such truncated forms of the protein either lacking a major portion of the extracellular domain (DeltaE) or consisting only of the intracellular domain (ICN) were found to activate transcription in cultured cells, presumably through RBP-Jkappa response elements within DNA.
+# T6 Protein S3 18 24 442 448 NOTCH1
+# T7 Protein S3 262 272 686 696 RBP-Jkappa
+
+Both truncated forms also bound to the transcription factor RBP-Jkappa in extracts prepared from human and murine T-ALL cell lines.
+# T8 Protein S4 60 70 787 797 RBP-Jkappa
+$ T8 Protein S4 60 70 787 797 RBP-Jkappa
+@ T16 Binding S4 26 31 753 758 bound
+% E2 Binding:T16 Theme:T8
+
+Transcriptional activation required the presence of a weak RBP-Jkappa-binding site within the NOTCH1 ankyrin repeat region of the intracellular domain.
+# T9 Protein S5 59 69 918 928 RBP-Jkappa
+# T10 Protein S5 94 100 953 959 NOTCH1
+
+Unexpectedly, a second, stronger RBP-Jkappa-binding site, which lies within the intracellular domain close to the transmembrane region and significantly augments association with RBP-Jkappa, was not needed for oncogenesis or for transcriptional activation.
+# T11 Protein S6 33 43 1044 1054 RBP-Jkappa
+# T12 Protein S6 179 189 1190 1200 RBP-Jkappa
+$ T12 Protein S6 179 189 1190 1200 RBP-Jkappa
+@ T17 Positive_regulation S6 153 161 1164 1172 augments
+@ T18 Binding S6 162 173 1173 1184 association
+% E3 Positive_regulation:T17 Theme:E4
+% E4 Binding:T18 Theme:T1 Theme2:T12
+
+While ICN appeared primarily in the nucleus, DeltaE localized to cytoplasmic and nuclear membranes, suggesting that intranuclear localization is not essential for oncogenesis or transcriptional activation.
+
+In support of this interpretation, mutation of putative nuclear localization sequences decreased nuclear localization and increased transcriptional activation by membrane-bound DeltaE.
+@ T19 Negative_regulation S8 87 96 1561 1570 decreased
+@ T20 Entity S8 97 104 1571 1578 nuclear
+@ T21 Localization S8 105 117 1579 1591 localization
+% E5 Negative_regulation:T19 Theme:E6
+% E6 Localization:T21 Theme:T1 AtLoc:T20
+
+Transcriptional activation by this mutant form of membrane-bound DeltaE was approximately equivalent to that produced by intranuclear ICN.
+
+These data are most consistent with NOTCH1 oncogenesis and transcriptional activation being independent of association with RBP-Jkappa at promoter sites.
+# T13 Protein S10 36 42 1834 1840 NOTCH1
+# T14 Protein S10 124 134 1922 1932 RBP-Jkappa
+$ T14 Protein S10 124 134 1922 1932 RBP-Jkappa
+@ T22 Binding S10 107 118 1905 1916 association
+% E7 Binding:T22 Theme:T14
+

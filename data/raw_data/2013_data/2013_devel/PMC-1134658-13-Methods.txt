@@ -1,0 +1,11 @@
+Cell sorting
+
+Highly purified CD19+CD27- or CD19+CD27+ cells were obtained by staining CD19+ cells with anti-CD27 PE and CD19 PC5 mAbs for 30 minutes at 4degreesC, followed by washing with PBS and sorting on FACS DiVa from Becton Dickinson.
+# T1 Protein S2 16 20 29 33 CD19
+# T2 Protein S2 21 25 34 38 CD27
+# T3 Protein S2 30 34 43 47 CD19
+# T4 Protein S2 35 39 48 52 CD27
+# T5 Protein S2 73 77 86 90 CD19
+# T6 Protein S2 95 99 108 112 CD27
+# T7 Protein S2 107 111 120 124 CD19
+

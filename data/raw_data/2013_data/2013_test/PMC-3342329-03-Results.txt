@@ -1,0 +1,20 @@
+Decrease of NF-kappaB Activity in Tumor Tissue of CCR5-/- Mice
+# T1 Protein S1 50 54 50 54 CCR5
+
+The activation of NF-kappaB plays a critical role in cancer cell survival, especially melanoma cancer cells and in CCR5 expression.
+# T2 Protein S2 115 119 178 182 CCR5
+
+To evaluate whether the tumor inhibition was related with the inactivation of NF-kappaB in melanoma, the DNA binding activity of NF-kappaB was determined by electromobility shift assay (EMSA) in melanoma tissue.
+
+The constitutively activated DNA binding activity was reduced in the CCR5-/- mice tumor tissue (Figure 2A).
+# T3 Protein S4 69 73 476 480 CCR5
+
+Moreover, the translocation of p50 and p-p65 into the nucleus through the inhibition of phosphorylation of IkappaB was also prevented in the tumor tissues of CCR5-/- mice (Figure 2B).
+# T4 Protein S5 31 34 546 549 p50
+# T5 Protein S5 41 44 556 559 p65
+# T6 Protein S5 158 162 673 677 CCR5
+
+Immunofluorescence analysis also confirmed that the intensity of nuclear staining for p50 had decreased in the tumor tissues of CCR5-/- mice (Figure 2C).
+# T7 Protein S6 86 89 785 788 p50
+# T8 Protein S6 128 132 827 831 CCR5
+

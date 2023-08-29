@@ -1,0 +1,18 @@
+Effect of sTNFp55R infusion on NF-kappaB phosphorylation in astrocytes 12 hr after SE.
+# T1 Protein S1 11 18 11 18 TNFp55R
+
+In 12 hr-post SE animals of the saline-infused group (A, C, E and G), astrocytes show p65-Ser276 (A), p65-Ser311 (C), p65-Ser529 (E), and p65-Ser536 (G) phosphorylation (arrows).
+# T2 Protein S2 86 89 173 176 p65
+# T3 Protein S2 102 105 189 192 p65
+# T4 Protein S2 118 121 205 208 p65
+# T5 Protein S2 138 141 225 228 p65
+
+sTNFp55R infusion (B, D, F and H) effectively reduces p65-Ser276 (B) and p65-Ser311 (D) phosphorylation, while it does not affect p65-Ser529 (F) and p65-Ser536 (H) phosphorylation (arrows).
+# T6 Protein S3 1 8 267 274 TNFp55R
+# T7 Protein S3 54 57 320 323 p65
+# T8 Protein S3 73 76 339 342 p65
+# T9 Protein S3 130 133 396 399 p65
+# T10 Protein S3 149 152 415 418 p65
+
+Bar = 12.5 mum.
+

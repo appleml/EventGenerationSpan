@@ -1,0 +1,58 @@
+Inhibition of protein phosphatases by okadaic acid induces AP1 in human T cells.
+
+To examine the role of protein phosphatases in T cell activation, Jurkat cells were treated with okadaic acid, an inhibitor of type 1 and 2A phosphatases, and nuclear extracts were examined for the presence of AP1 as a measure of early T cell activation.
+
+Okadaic acid was found to be a potent inducer of AP1.
+
+In contrast to phorbol esters such as phorbol myristate acetate (PMA), the induction of AP1 by okadaic acid occurs predominantly by transcriptional activation of the jun and fos family of proto-oncogenes.
+
+Surprisingly, while the addition of phytohemagglutinin further enhanced the induction of AP1, the addition of PMA inhibited it.
+# T1 Protein S5 36 54 632 650 phytohemagglutinin
+
+Okadaic acid treatment was found to dramatically increase mRNA transcripts of the jun family of proto-oncogenes including c-jun, junD, and junB and to a lesser extent the fos family including c-fos and fra-1.
+# T2 Protein S6 122 127 846 851 c-jun
+# T3 Protein S6 129 133 853 857 junD
+# T4 Protein S6 139 143 863 867 junB
+# T5 Protein S6 192 197 916 921 c-fos
+# T6 Protein S6 202 207 926 931 fra-1
+$ T6 Protein S6 202 207 926 931 fra-1
+$ T3 Protein S6 129 133 853 857 junD
+$ T2 Protein S6 122 127 846 851 c-jun
+$ T4 Protein S6 139 143 863 867 junB
+$ T5 Protein S6 192 197 916 921 c-fos
+@ T12 Positive_regulation S6 49 57 773 781 increase
+@ T13 Transcription S6 58 74 782 798 mRNA transcripts
+% E1 Positive_regulation:T12 Theme:E7
+% E2 Positive_regulation:T12 Theme:E8
+% E3 Positive_regulation:T12 Theme:E10
+% E4 Positive_regulation:T12 Theme:E9
+% E5 Positive_regulation:T12 Theme:E6
+% E6 Transcription:T13 Theme:T6
+% E7 Transcription:T13 Theme:T3
+% E8 Transcription:T13 Theme:T2
+% E9 Transcription:T13 Theme:T4
+% E10 Transcription:T13 Theme:T5
+
+By comparison, PMA is a very inefficient inducer of the jun gene family in Jurkat cells.
+
+Similar to its effect on the induction of AP1 by okadaic acid, PMA inhibits the induction of c-jun mRNA by okadaic acid.
+# T7 Protein S8 93 98 1115 1120 c-jun
+$ T7 Protein S8 93 98 1115 1120 c-jun
+@ T14 Negative_regulation S8 67 75 1089 1097 inhibits
+@ T15 Positive_regulation S8 80 89 1102 1111 induction
+% E11 Negative_regulation:T14 Theme:E12
+% E12 Positive_regulation:T15 Theme:T7
+
+Transfection of c-jun promoter constructs confirmed the marked difference between PMA and okadaic acid in inducing c-jun transcription.
+# T8 Protein S9 16 21 1159 1164 c-jun
+# T9 Protein S9 115 120 1258 1263 c-jun
+$ T9 Protein S9 115 120 1258 1263 c-jun
+@ T16 Positive_regulation S9 106 114 1249 1257 inducing
+@ T17 Transcription S9 121 134 1264 1277 transcription
+% E13 Positive_regulation:T16 Theme:E14
+% E14 Transcription:T17 Theme:T9
+
+The induction of AP1 by okadaic acid suggests that protein phosphatases 1 and 2A (PP1 and PP2A) may be involved in T cell activation as important negative regulators of the transcription factor AP1.
+# T10 Protein S10 51 73 1330 1352 protein phosphatases 1
+# T11 Protein S10 78 80 1357 1359 2A
+

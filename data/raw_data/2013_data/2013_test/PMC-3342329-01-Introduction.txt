@@ -1,0 +1,121 @@
+Chemokines are small soluble molecules that are best known for their potent ability to induce cancer cell growth by inflammation.
+
+Many types of cancer cells express chemokines and chemokine receptors [1].
+
+The accumulated evidence indicates that the chemokine (C-C motif) ligand 5 (CCL5) and C-C chemokine receptor (CCR5), which are potent chemotactic factors for inflammatory cells, may be significantly involved in the proliferation and metastasis of several cancers.
+# T1 Protein S3 44 74 249 279 chemokine (C-C motif) ligand 5
+# T2 Protein S3 76 80 281 285 CCL5
+# T3 Protein S3 86 108 291 313 C-C chemokine receptor
+# T4 Protein S3 110 114 315 319 CCR5
+
+Intermediate and strong CCR5 expression is significantly associated with nonmetastatic development of colorectal cancer [2], melanoma [3], hepatoma [4], glioblastoma, Hodgkin lymphoma [5], as well as oral and prostate cancer cells [6].
+# T5 Protein S4 24 28 493 497 CCR5
+
+Local production of the CCL5 is also important in the progression of breast cancer [7], and also correlates with poor prognosis [8].
+# T6 Protein S5 24 28 729 733 CCL5
+
+Meanwhile, CCR5 disruption has been demonstrated to inhibit experimental tumor growth and metastasis of pancreatic cancer [9].
+# T7 Protein S6 11 15 849 853 CCR5
+
+In addition, host absence of CCR5 potentiates the delay of tumor growth [10], and CCR5 inhibitors prevented cancer cell growth, such as prostate cancer [11], breast cancer, hepatoma cells [4], and lung cancer [12].
+# T8 Protein S7 29 33 994 998 CCR5
+# T9 Protein S7 82 86 1047 1051 CCR5
+
+These data suggest that the deficiency of inflammatory chemokine receptor CCR5 may function as a suppressive receptor in cancer progression.
+# T10 Protein S8 74 78 1254 1258 CCR5
+
+However, more studies are required to describe how CCR5 deficiency acts in the inhibition of tumor development.
+# T11 Protein S9 51 55 1372 1376 CCR5
+
+Interleukin-1 receptor antagonist (IL-1Ra), a member of the IL-1 family, is a naturally occurring cytokine that competitively blocks the IL-1 receptor [13].
+# T12 Protein S10 0 33 1433 1466 Interleukin-1 receptor antagonist
+# T13 Protein S10 35 41 1468 1474 IL-1Ra
+# T14 Protein S10 98 106 1531 1539 cytokine
+
+Because IL-1Ra has been shown to inhibit tumor progression by promoting antitumor immune responses and by enhancing the activity of chemotherapy, numerous studies have examined the ability of IL-1Ra to block tumor progression.
+# T15 Protein S11 8 14 1598 1604 IL-1Ra
+# T16 Protein S11 192 198 1782 1788 IL-1Ra
+
+IL-1Ra expression was reduced in prostate [14], breast [15], and skin cancer [16].
+# T17 Protein S12 0 6 1817 1823 IL-1Ra
+
+It was also reported that endogenous IL-1Ra deficient mice developed aggressive tumors following exposure to carcinogens [17].
+# T18 Protein S13 37 43 1937 1943 IL-1Ra
+
+Meanwhile, proliferation of the melanoma cells that were transduced with IL-1Ra gene was reduced and inhibited melanoma development [18].
+# T19 Protein S14 73 79 2100 2106 IL-1Ra
+
+IL-1R blockade also reduced hepatic tumor growth [19].
+
+Moreover, it has also been reported that IL-1Ra reduces fibrosarcoma development [20], B16 melanoma growth and metastasis [21], colon adenocarcinoma growth [22], and skin cancer development [23].
+# T20 Protein S16 41 47 2261 2267 IL-1Ra
+
+IL-1 knockout mice injected with melanoma failed to develop solid tumors [24].
+
+It was also found that IL-1Ra, combined with temozolomide and docetaxel chemotherapy, demonstrated more significant antitumor activity against B16 melanoma cells in vivo [25].
+# T21 Protein S18 23 29 2518 2524 IL-1Ra
+
+These data indicate that IL-1Ra is important as a tumor growth suppressing cytokine.
+# T22 Protein S19 25 31 2696 2702 IL-1Ra
+# T23 Protein S19 75 83 2746 2754 cytokine
+
+NF-kappaB plays a crucial role in the suppression of apoptosis, as well as the induction of cell proliferation and inflammation, and is closely associated with cancer development [26].
+
+Constitutive activation of NF-kappaB has been described in a great number of cancers including colon cancers, prostate cancers and melanoma [27], and was found to up-regulate anti-apoptotic genes and/or down regulate apoptotic gene expression [28].
+
+Although NF-kappaB promotes tumor growth, it is required for the immune system to function normally [29].
+
+Studies on c-Rel-deficient mice demonstrated that c-Rel is essential for IL-2, IL-3, GM-CSF, and IFNgamma expression in T lymphocytes [30].
+# T35 Protein S23 11 16 3307 3312 c-Rel
+# T36 Protein S23 50 55 3346 3351 c-Rel
+# T37 Protein S23 73 77 3369 3373 IL-2
+# T38 Protein S23 79 83 3375 3379 IL-3
+# T39 Protein S23 85 91 3381 3387 GM-CSF
+
+C-Rel-deficient mice also have a tissue-specific deficiency of various cytokines and growth factors in T cells and macrophages affecting both innate and humoral immune responses in the host [31].
+
+Therefore, NF-kappaB can be specially targeted to prevent cancer cell growth by (1) directly affecting apoptotic cancer cell death, (2) stimulating tumor killing lymphocytes infiltration or (3) increasing the production of tumor killing lymphokines.
+
+Activation of NF-kappaB is important in the regulation of CCR-mediated tumor growth and metastasis.
+
+It was reported that inhibition of NF-kappaB by dehydroxymethyl-epoxyquinomicin (DHMEQ) induces cell death of primary effusion lymphoma by inhibition of CCR5 expression [32].
+# T40 Protein S27 153 157 4135 4139 CCR5
+
+Activation of NF-kappaB also increases CCL5-mediated oral cancer motility (5) and lung metastasis [33].
+# T41 Protein S28 39 43 4196 4200 CCL5
+
+Thus, it is possible that inhibition of NF-kappaB could be involved in CCR5 mediated tumor development.
+# T42 Protein S29 71 75 4332 4336 CCR5
+
+NF-kappaB transcription factor binding sites are present in the promoter region of proinflammatory cytokine genes, such as IL-1alpha, IL-6, GM-CSF, and KC [34].
+# T43 Protein S30 123 132 4488 4497 IL-1alpha
+# T44 Protein S30 134 138 4499 4503 IL-6
+# T45 Protein S30 140 146 4505 4511 GM-CSF
+# T46 Protein S30 152 154 4517 4519 KC
+
+On the other hand, the IL-1Ra is a negative regulator of the inflammatory response.
+# T47 Protein S31 23 29 4549 4555 IL-1Ra
+
+Several studies have demonstrated the ability of IL-1Ra to abrogate the proinflammatory effects of IL-1.
+# T48 Protein S32 49 55 4659 4665 IL-1Ra
+
+Smith et al. suggested that the regulation of IL-1Ra gene expression is a complex event involving the interactions of three different transcription factors; NF-kappaB/PU.1/GA-binding protein binding site [35].
+# T49 Protein S33 46 52 4761 4767 IL-1Ra
+# T50 Protein S33 167 171 4882 4886 PU.1
+
+Nuclear translocation of NF-kappaB (p65) was significantly enhanced and prolonged in IL-1Ra-deficient mice, compared to that in wild type mice [36].
+# T51 Protein S34 36 39 4961 4964 p65
+# T52 Protein S34 85 91 5010 5016 IL-1Ra
+
+Intracellular IL-1Ra (icIL-1Ra) was found to inhibit IL-1 by blocking NF-kappaB signal transduction pathways in inflammatory responses [37].
+# T53 Protein S35 0 20 5074 5094 Intracellular IL-1Ra
+# T54 Protein S35 22 30 5096 5104 icIL-1Ra
+
+Because IL-1 has been shown to be an inducer of NF-kappaB activation [38], we hypothesized that the expression of IL-1Ra could play an important role in the autocrine activation of transcription factors NF-kappaB or vice versa.
+# T55 Protein S36 114 120 5329 5335 IL-1Ra
+
+Thus, the aim of this study was to evaluate the roles of NF-kappaB and IL-1Ra in the chemokine receptor CCR5-mediated suppression of tumor development.
+# T56 Protein S37 71 77 5514 5520 IL-1Ra
+# T57 Protein S37 85 103 5528 5546 chemokine receptor
+# T58 Protein S37 104 108 5547 5551 CCR5
+

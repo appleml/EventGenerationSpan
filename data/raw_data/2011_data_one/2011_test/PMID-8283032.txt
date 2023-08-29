@@ -1,0 +1,40 @@
+Increased proliferation, cytotoxicity, and gene expression after stimulation of human peripheral blood T lymphocytes through a surface ganglioside (GD3) [published erratum appears in J Immunol 1994 Jul 15;153(2):910]
+
+Previous studies have suggested that gangliosides have an important role in cell signaling and recognition.
+
+However, their specific function in these processes has not been clearly defined.
+
+A mAb, R24, that reacts specifically with a cell surface ganglioside (GD3) has been demonstrated to stimulate proliferation of T cells derived from human peripheral blood.
+
+In this study, we have investigated the mechanisms by which the R24 mAb affects T cell functions.
+
+We have observed that the R24 mAb stimulates GD3+ T cell proliferation, cytotoxicity, and surface marker expression of IL-2R alpha-chain, IL-2R beta-chain, HLA-DR, CD11a, and CD11c.
+# T1 Protein S6 119 130 797 808 IL-2R alpha
+# T2 Protein S6 138 148 816 826 IL-2R beta
+# T3 Protein S6 164 169 842 847 CD11a
+# T4 Protein S6 175 180 853 858 CD11c
+
+Additionally, IFN-gamma activity but not IL-1, IL-2, or IL-4 activity was present in culture supernatants 72 h after R24 stimulation.
+# T5 Protein S7 14 23 874 883 IFN-gamma
+# T6 Protein S7 47 51 907 911 IL-2
+# T7 Protein S7 56 60 916 920 IL-4
+
+In some donors, increased IL-6 and TNF-alpha activity also was detected after R24 treatment.
+# T8 Protein S8 26 30 1020 1024 IL-6
+# T9 Protein S8 35 44 1029 1038 TNF-alpha
+
+Furthermore, R24 treatment resulted in translocation of c-rel, but little or no NF kappa B p50 or p65, from the cytoplasm to the nucleus and an increase of NF kappa B binding complexes containing c-rel and p50.
+# T10 Protein S9 56 61 1143 1148 c-rel
+# T11 Protein S9 91 94 1178 1181 p50
+# T12 Protein S9 98 101 1185 1188 p65
+# T13 Protein S9 196 201 1283 1288 c-rel
+# T14 Protein S9 206 209 1293 1296 p50
+
+This treatment also caused increased tyrosine phosphorylation of specific protein substrates.
+
+R24-stimulated increases in proliferation, cytotoxicity, and cell surface protein expression could be blocked by cyclosporin and staurosporin, indicating that cyclophilin/calcineurin and protein kinase C may be involved in the R24 signaling pathway.
+
+Additionally, herbimycin A, a tyrosine kinase inhibitor, blocked the R24-stimulated increase in proliferation but not cytotoxicity at concentrations consistent with specificity for tyrosine kinases.
+
+These results suggest that multiple biochemical pathways are involved in the activation of human T cells by R24.
+

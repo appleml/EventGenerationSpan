@@ -1,0 +1,69 @@
+Epstein-Barr virus replicative gene transcription during de novo infection of human thymocytes: simultaneous early expression of BZLF-1 and its repressor RAZ.
+# T1 Protein S1 129 135 129 135 BZLF-1
+# T2 Protein S1 154 157 154 157 RAZ
+$ T2 Protein S1 154 157 154 157 RAZ
+$ T1 Protein S1 129 135 129 135 BZLF-1
+@ T13 Gene_expression S1 115 125 115 125 expression
+% E1 Gene_expression:T13 Theme:T2
+% E2 Gene_expression:T13 Theme:T1
+
+Epstein-Barr virus (EBV) is known to infect B cells and epithelial cells.
+
+We and others have shown that EBV can also infect a subset of thymocytes.
+
+Infection of thymocytes was accompanied by the appearance of linear EBV genome within 8 hr of infection.
+
+Circularization of the EBV genome was not detected.
+
+This is in contrast to the infection in B cells where the genome can circularize within 24 hr of infection.
+
+The appearance of the BamHI ZLF-1 gene product, ZEBRA, by RT-PCR, was observed within 8 hr of infection.
+# T3 Protein S7 22 33 595 606 BamHI ZLF-1
+# T4 Protein S7 48 53 621 626 ZEBRA
+$ T4 Protein S7 48 53 621 626 ZEBRA
+@ T14 Gene_expression S7 4 14 577 587 appearance
+% E3 Gene_expression:T14 Theme:T4
+
+The appearance of a novel fusion transcript (RAZ), which comprised regions of the BZLF-1 locus and the adjacent BRLF-1 locus, was detected by RT-PCR.
+# T5 Protein S8 45 48 723 726 RAZ
+# T6 Protein S8 82 88 760 766 BZLF-1
+# T7 Protein S8 112 118 790 796 BRLF-1
+$ T5 Protein S8 45 48 723 726 RAZ
+@ T15 Gene_expression S8 4 14 682 692 appearance
+% E4 Gene_expression:T15 Theme:T5
+
+ZEBRA protein was also identified in infected thymocytes by immunoprecipitation.
+# T8 Protein S9 0 5 828 833 ZEBRA
+$ T8 Protein S9 0 5 828 833 ZEBRA
+@ T16 Gene_expression S9 23 33 851 861 identified
+% E5 Gene_expression:T16 Theme:T8
+
+In addition, we demonstrated that the EBNA-1 gene in infected thymocytes was transcribed from the Fp promoter, rather than from the Cp/Wp promoter which is used in latently infected B cells.
+# T9 Protein S10 38 44 947 953 EBNA-1
+$ T9 Protein S10 38 44 947 953 EBNA-1
+@ T17 Transcription S10 77 88 986 997 transcribed
+@ T18 Positive_regulation S10 89 93 998 1002 from
+@ T19 Positive_regulation S10 111 122 1020 1031 rather than
+% E6 Transcription:T17 Theme:T9
+% E7 Positive_regulation:T18 Theme:E6
+% E8 Positive_regulation:T19 Theme:E6
+
+Transcripts encoding gp350/220, the major coat protein of EBV, were identified, but we did not find any evidence of transcription from the LMP-2A or EBER-1 loci in infected thymocytes.
+# T10 Protein S11 21 30 1121 1130 gp350/220
+# T11 Protein S11 139 145 1239 1245 LMP-2A
+# T12 Protein S11 149 155 1249 1255 EBER-1
+$ T10 Protein S11 21 30 1121 1130 gp350/220
+$ T11 Protein S11 139 145 1239 1245 LMP-2A
+$ T12 Protein S11 149 155 1249 1255 EBER-1
+@ T20 Transcription S11 0 11 1100 1111 Transcripts
+@ T21 Transcription S11 116 129 1216 1229 transcription
+% E9 Transcription:T20 Theme:T10
+% E10 Transcription:T21 Theme:T11
+% E11 Transcription:T21 Theme:T12
+
+These observations suggest that de novo EBV infection of thymocytes differs from infection of B cells.
+
+The main difference is that with thymocytes, no evidence could be found that the virus ever circularizes.
+
+Rather, EBV remains in a linear configuration from which replicative genes are transcribed.
+

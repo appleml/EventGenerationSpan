@@ -1,0 +1,37 @@
+Sox6 Directly Silences Epsilon Globin Expression in Definitive Erythropoiesis
+# T1 Protein S1 0 4 0 4 Sox6
+# T2 Protein S1 23 37 23 37 Epsilon Globin
+
+Sox6 is a member of the Sox transcription factor family that is defined by the conserved high mobility group (HMG) DNA binding domain, first described in the testis determining gene, Sry.
+# T3 Protein S2 0 4 78 82 Sox6
+# T4 Protein S2 183 186 261 264 Sry
+
+Previous studies have suggested that Sox6 plays a role in the development of the central nervous system, cartilage, and muscle.
+# T5 Protein S3 37 41 303 307 Sox6
+
+In the Sox6-deficient mouse, p100H, epsilony globin is persistently expressed, and increased numbers of nucleated red cells are present in the fetal circulation.
+# T6 Protein S4 7 11 401 405 Sox6
+# T7 Protein S4 36 51 430 445 epsilony globin
+
+Transfection assays in GM979 (erythroleukemic) cells define a 36-base pair region of the epsilony proximal promoter that is critical for Sox6 mediated repression.
+# T8 Protein S5 89 97 645 653 epsilony
+# T9 Protein S5 137 141 693 697 Sox6
+
+Electrophoretic mobility shift assay (EMSA) and chromatin immunoprecipitation (ChIP) assays demonstrate that Sox6 acts as a repressor by directly binding to the epsilony promoter.
+# T10 Protein S6 109 113 828 832 Sox6
+# T11 Protein S6 161 169 880 888 epsilony
+
+The normal expression of Sox6 in wild-type fetal liver and the ectopic expression of epsilony in p100H homozygous fetal liver demonstrate that Sox6 functions in definitive erythropoiesis.
+# T12 Protein S7 25 29 924 928 Sox6
+# T13 Protein S7 85 93 984 992 epsilony
+# T14 Protein S7 143 147 1042 1046 Sox6
+
+The present study shows that Sox6 is required for silencing of epsilony globin in definitive erythropoiesis and suggests a role for Sox6 in erythroid cell maturation.
+# T15 Protein S8 29 33 1116 1120 Sox6
+# T16 Protein S8 63 78 1150 1165 epsilony globin
+# T17 Protein S8 132 136 1219 1223 Sox6
+
+Thus, Sox6 regulation of epsilony globin might provide a novel therapeutical target in the treatment of hemoglobinopathies such as sickle cell anemia and thalassemia.
+# T18 Protein S9 6 10 1260 1264 Sox6
+# T19 Protein S9 25 40 1279 1294 epsilony globin
+

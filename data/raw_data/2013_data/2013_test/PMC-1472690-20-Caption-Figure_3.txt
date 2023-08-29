@@ -1,0 +1,50 @@
+A, IL-1beta was down-regulated (12 h - 24 h) following GP + TSST-1 when compared to TSST-1.
+# T1 Protein S1 3 11 3 11 IL-1beta
+# T2 Protein S1 60 66 60 66 TSST-1
+# T3 Protein S1 84 90 84 90 TSST-1
+
+Time course (48 h) of IL-1beta production (pg/ml) by human PBMC incubated with medium control, 100 mug GP, 250 ng TSST-1, GP + TSST-1, 250 ng LPS and GP + LPS.
+# T4 Protein S2 22 30 114 122 IL-1beta
+# T5 Protein S2 114 120 206 212 TSST-1
+# T6 Protein S2 127 133 219 225 TSST-1
+
+At 18 h and 24 h there was a marked reduction in IL-1beta production following GP + TSST-1 when compared to TSST-1 (* = p < 0.05).
+# T7 Protein S3 49 57 301 309 IL-1beta
+# T8 Protein S3 84 90 336 342 TSST-1
+# T9 Protein S3 108 114 360 366 TSST-1
+
+Graphs depicting the theoretical values for GP/LPS calc.
+
+and GP/TSST-1 calc.
+# T10 Protein S5 7 13 447 453 TSST-1
+
+are also shown.
+
+IL-1beta levels in the supernatnant were obtained by Elisa and are shown as mean +/- SEM (n = 3).
+# T11 Protein S7 0 8 476 484 IL-1beta
+
+B, IL-1RA was exaggerated following GP + TSST-1 (12 h - 48 h) when compared to TSST-1.
+# T12 Protein S8 3 9 577 583 IL-1RA
+# T13 Protein S8 41 47 615 621 TSST-1
+# T14 Protein S8 79 85 653 659 TSST-1
+
+Time course (48 h) of IL-1RA production (pg/ml) by human PBMC incubated with medium control, 100 mug GP, 250 ng TSST-1, GP + TSST-1, 250 ng LPS and GP + LPS.
+# T15 Protein S9 22 28 683 689 IL-1RA
+# T16 Protein S9 112 118 773 779 TSST-1
+# T17 Protein S9 125 131 786 792 TSST-1
+
+Between 18 h and 48 h a simultaneous treatment of PBMC with GP + TSST-1 led to a synergistic effect, i.e. a higher IL-1RA production when compared to an addition of the single values for TSST-1 and GP (* = p < 0.05).
+# T18 Protein S10 65 71 884 890 TSST-1
+# T19 Protein S10 115 121 934 940 IL-1RA
+# T20 Protein S10 187 193 1006 1012 TSST-1
+
+Graphs depicting the theoretical values for GP/LPS calc.
+
+and GP/TSST-1 calc.
+# T21 Protein S12 7 13 1100 1106 TSST-1
+
+are included.
+
+IL-1RA levels in the supernatnant were obtained by Elisa and are shown as mean +/- SEM (n = 3).
+# T22 Protein S14 0 6 1127 1133 IL-1RA
+

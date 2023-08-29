@@ -1,0 +1,41 @@
+Anaphylatoxins C5a and C3a induce nuclear factor kappaB activation in human peripheral blood monocytes.
+# T1 Protein S1 15 18 15 18 C5a
+# T2 Protein S1 23 26 23 26 C3a
+
+The anaphylatoxins C5a and C3a are involved in the regulation of cytokine production.
+# T3 Protein S2 19 22 124 127 C5a
+# T4 Protein S2 27 30 132 135 C3a
+
+In this study the capability of C5a and C3a to induce transcription factor activation was examined.
+# T5 Protein S3 32 35 223 226 C5a
+# T6 Protein S3 40 43 231 234 C3a
+
+C5a and C3a stimulation of human peripheral blood monocytes resulted in nuclear expression of a DNA binding activity with specificity to the kappaB sequence.
+# T7 Protein S4 0 3 291 294 C5a
+# T8 Protein S4 8 11 299 302 C3a
+
+The p50 and p65 proteins, constituents of the prototypic nuclear factor kappaB, were identified as components of the DNA-protein complexes by anti-peptide antibodies in gel supershift assays.
+# T9 Protein S5 4 7 453 456 p50
+# T10 Protein S5 12 15 461 464 p65
+
+C5a induced kappaB binding activity was detected 15 min after agonist stimulation, peaked at 30-40 min, and remained detectable at 2 h. Binding to kappaB sequence was accompanied by an initial decrease and subsequent increase in the cytoplasmic IkappaBalpha levels, as detected by Western blotting using an anti-IkappaBalpha antibody.
+# T11 Protein S6 0 3 641 644 C5a
+# T12 Protein S6 245 257 886 898 IkappaBalpha
+# T13 Protein S6 312 324 953 965 IkappaBalpha
+$ T12 Protein S6 245 257 886 898 IkappaBalpha
+@ T19 Negative_regulation S6 193 201 834 842 decrease
+@ T20 Positive_regulation S6 217 225 858 866 increase
+% E1 Negative_regulation:T19 Theme:T12
+% E2 Positive_regulation:T20 Theme:T12
+
+Pertussis toxin treatment markedly decreased kappaB binding activities induced by both C5a and C3a, whereas cholera toxin displayed no inhibitory effect.
+# T14 Protein S7 87 90 1063 1066 C5a
+# T15 Protein S7 95 98 1071 1074 C3a
+
+Neither of the two toxins affected kappaB binding activity induced by TNFalpha in the same cells.
+# T16 Protein S8 70 78 1200 1208 TNFalpha
+
+These results imply a potential role of the anaphylatoxins C5a and C3a in regulating leukocytes gene expression through G protein-coupled transcription factor activation.
+# T17 Protein S9 59 62 1287 1290 C5a
+# T18 Protein S9 67 70 1295 1298 C3a
+

@@ -1,0 +1,48 @@
+Signal transduction pathways activated in endothelial cells following infection with Chlamydia pneumoniae.
+
+Chlamydia pneumoniae is an important respiratory pathogen.
+
+Recently, its presence has been demonstrated in atherosclerotic lesions.
+
+In this study, we characterized C. pneumoniae-mediated activation of endothelial cells and demonstrated an enhanced expression of endothelial adhesion molecules followed by subsequent rolling, adhesion, and transmigration of leukocytes (monocytes, granulocytes).
+
+These effects were blocked by mAbs against endothelial and/or leukocyte adhesion molecules (beta1 and beta2 integrins).
+# T1 Protein S5 92 97 595 600 beta1
+# T2 Protein S5 102 117 605 620 beta2 integrins
+
+Additionally, activation of different signal transduction pathways in C. pneumoniae-infected endothelial cells was shown: protein tyrosine phosphorylation, up-regulation of phosphorylated p42/p44 mitogen-activated protein kinase, and NF-kappaB activation/translocation occurred within 10-15 min.
+# T3 Protein S6 188 191 811 814 p42
+# T4 Protein S6 192 228 815 851 p44 mitogen-activated protein kinase
+$ T3 Protein S6 188 191 811 814 p42
+$ T4 Protein S6 192 228 815 851 p44 mitogen-activated protein kinase
+@ T8 Positive_regulation S6 156 169 779 792 up-regulation
+@ T9 Positive_regulation S6 269 277 892 900 occurred
+% E1 Positive_regulation:T8 Theme:T3
+% E2 Positive_regulation:T8 Theme:T4
+% E3 Positive_regulation:T9 Theme:E1
+
+Increased mRNA and surface expression of E-selectin, ICAM-1, and VCAM-1 were noted within hours.
+# T5 Protein S7 41 51 960 970 E-selectin
+# T6 Protein S7 53 59 972 978 ICAM-1
+# T7 Protein S7 65 71 984 990 VCAM-1
+$ T6 Protein S7 53 59 972 978 ICAM-1
+$ T7 Protein S7 65 71 984 990 VCAM-1
+$ T5 Protein S7 41 51 960 970 E-selectin
+@ T10 Positive_regulation S7 0 9 919 928 Increased
+@ T11 Transcription S7 27 37 946 956 expression
+@ T12 Gene_expression S7 27 37 946 956 expression
+% E4 Positive_regulation:T10 Theme:E10
+% E5 Positive_regulation:T10 Theme:E12
+% E6 Positive_regulation:T10 Theme:E14
+% E7 Positive_regulation:T10 Theme:E13
+% E8 Positive_regulation:T10 Theme:E15
+% E9 Positive_regulation:T10 Theme:E11
+% E10 Transcription:T11 Theme:T6
+% E12 Transcription:T11 Theme:T7
+% E15 Transcription:T11 Theme:T5
+% E11 Gene_expression:T12 Theme:T6
+% E13 Gene_expression:T12 Theme:T7
+% E14 Gene_expression:T12 Theme:T5
+
+Thus, C. pneumoniae triggers a cascade of events that could lead to endothelial activation, inflammation, and thrombosis, which in turn may result in or may promote atherosclerosis.
+

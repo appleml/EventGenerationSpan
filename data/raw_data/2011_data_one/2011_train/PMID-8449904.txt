@@ -1,0 +1,53 @@
+Transcriptional regulation of the pyruvate kinase erythroid-specific promoter.
+
+Mammal pyruvate kinases are encoded by two genes.
+
+The L gene produces the erythroid (R-PK) or the hepatic (L-PK) isozymes by the alternative use of two promoters.
+# T1 Protein S3 4 5 134 135 L
+# T2 Protein S3 35 39 165 169 R-PK
+# T3 Protein S3 57 61 187 191 L-PK
+$ T3 Protein S3 57 61 187 191 L-PK
+@ T10 Gene_expression S3 11 19 141 149 produces
+@ T11 Positive_regulation S3 72 97 202 227 by the alternative use of
+% E1 Gene_expression:T10 Theme:T3
+% E2 Positive_regulation:T11 Theme:E1
+
+We report the characterization of the cis- and trans-acting elements involved in the tissue-specific activity of the L gene erythroid promoter.
+# T4 Protein S4 117 118 360 361 L
+$ T4 Protein S4 117 118 360 361 L
+@ T12 Positive_regulation S4 101 109 344 352 activity
+@ T13 Entity S4 124 142 367 385 erythroid promoter
+% E3 Positive_regulation:T12 Theme:T4 Site:T13
+
+A R-PK DNA fragment extending from -870 to +54 relative to the cap site confers erythroid specificity to a reporter gene.
+# T5 Protein S5 2 6 389 393 R-PK
+
+Within this region, we define a minimal promoter (-62 to +54) that displays erythroid-specific activity and contains two DNA binding sites.
+
+One, located at -50, binds members of the CCACC/Sp1 family and the other, located at -20, binds the erythroid factor GATA-1.
+# T6 Protein S7 117 123 766 772 GATA-1
+$ T6 Protein S7 117 123 766 772 GATA-1
+@ T14 Binding S7 90 95 739 744 binds
+% E4 Binding:T14 Theme:T6
+
+Although the -20 GATA binding site (AGATAA) is also a potential TFIID binding site, it does not bind TFIID.
+
+Furthermore, the substitution of this GATA binding site by a canonical TFIID binding site suppresses the promoter activity.
+
+Mutations and deletions of both sites indicate that only the association of CCACC/Sp1 and GATA binding sites can drive efficient and tissue-specific expression of this R-PK minimal promoter.
+# T7 Protein S10 168 172 1174 1178 R-PK
+$ T7 Protein S10 168 172 1174 1178 R-PK
+@ T15 Positive_regulation S10 113 118 1119 1124 drive
+@ T16 Gene_expression S10 149 159 1155 1165 expression
+% E5 Positive_regulation:T15 Theme:E6
+% E6 Gene_expression:T16 Theme:T7
+
+Finally, by co-transfection experiments, we study the elements involved in the hGATA-1 transactivation of the R-PK promoter in HeLa cells.
+# T8 Protein S11 79 86 1276 1283 hGATA-1
+# T9 Protein S11 110 114 1307 1311 R-PK
+$ T9 Protein S11 110 114 1307 1311 R-PK
+$ T8 Protein S11 79 86 1276 1283 hGATA-1
+@ T17 Positive_regulation S11 87 102 1284 1299 transactivation
+@ T18 Entity S11 115 123 1312 1320 promoter
+% E7 Positive_regulation:T17 Theme:T9 Cause:T8 Site:T18
+

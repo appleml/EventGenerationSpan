@@ -1,0 +1,108 @@
+The Akt Signaling Pathway Contributes to the Regulation of Necroptosis
+
+We next determined whether the necroptosis-associated increase in Thr308 phosphorylation results in an increase in Akt kinase activity.
+
+Under necroptotic conditions, we observed an increase in the phosphorylation of multiple known Akt substrates (Forkhead box class O (FoxO) proteins, GSK-3 kinases and mouse double minute 2 (MDM2)) as well as downstream molecules (p70 ribosomal protein S6 Kinase (p70S6K), S6) (Fig. 5A).
+# T1 Protein S3 173 188 380 395 double minute 2
+# T2 Protein S3 190 194 397 401 MDM2
+# T3 Protein S3 230 261 437 468 p70 ribosomal protein S6 Kinase
+# T4 Protein S3 263 269 470 476 p70S6K
+# T5 Protein S3 272 274 479 481 S6
+
+In some cases (FoxO1, FoxO4, MDM2), a robust increase was observed.
+# T6 Protein S4 15 20 509 514 FoxO1
+# T7 Protein S4 22 27 516 521 FoxO4
+# T8 Protein S4 29 33 523 527 MDM2
+
+In other cases (FoxO3a, GSK-3alpha/beta, p70S6K and its substrate S6), the changes were less pronounced (Fig. 5A).
+# T9 Protein S5 16 22 578 584 FoxO3a
+# T10 Protein S5 24 34 586 596 GSK-3alpha
+# T11 Protein S5 35 39 597 601 beta
+# T12 Protein S5 41 47 603 609 p70S6K
+# T13 Protein S5 66 68 628 630 S6
+
+The timing of the phosphorylation changes paralleled the increase in Akt phosphorylation (Fig. 5B, S5A, B).
+
+In the case of pFoxO1 we occasionally observed a shift in migration rather than an increase in band intensity (e.g. comparing Fig. 5A and B), suggesting that phosphorylation events in addition to Thr24 take place during necroptosis.
+# T14 Protein S7 15 21 800 806 pFoxO1
+
+Notably, in all cases the necroptosis-associated increases in Akt substrates were abrogated by Nec-1 (Fig. 5A, Fig.
+
+S5A, B).
+
+Overall, these data suggested that a significant part of the "canonical" Akt signaling network is activated at the onset of necroptotic cell death in a RIP1 dependent fashion.
+# T15 Protein S10 152 156 1295 1299 RIP1
+
+Akt kinase is considered to be a pro-survival protein that inhibits apoptosis through the control of multiple effectors including mTORC1, GSK-3 and others [28].
+
+An important question is whether these same molecules reverse their pro-survival roles during necroptosis.
+
+We found that inhibition of mTORC1 by rapamycin, an inhibitor of the mTOR co-factor Raptor [29], protected cells from necroptosis (Fig. 5C).
+# T16 Protein S13 84 90 1671 1677 Raptor
+
+Similarly, the direct mTOR kinase inhibitor Torin1 [30] and the dual PI3K/mTOR inhibitor PI-103 [31] also efficiently inhibited necroptosis (Fig. 5C).
+
+Knockdown of mTOR using siRNA further validated the small-molecule inhibitor data indicating a role for mTOR in necroptosis by protecting cells from both zVAD.fmk and TNFalpha induced death (Fig. 5D).
+# T17 Protein S15 167 175 2046 2054 TNFalpha
+
+mTORC1 regulates translation through activation of p70S6 kinase and, subsequently, ribosomal protein S6 [32].
+# T18 Protein S16 51 63 2131 2143 p70S6 kinase
+# T19 Protein S16 101 103 2181 2183 S6
+
+Notably, a genome-wide siRNA screen [10] suggested an important role for protein translation in necroptosis.
+
+Consistently, we found that the small molecule inhibitor of p70S6K PF-4708671 [33] attenuated necroptosis at the concentrations required to block S6 phosphorylation (Fig.
+# T20 Protein S18 60 66 2359 2365 p70S6K
+# T21 Protein S18 146 148 2445 2447 S6
+
+S5C, D).
+
+Partial siRNA knockdown of S6 protein attenuated necroptosis as well (Fig.
+# T22 Protein S20 27 29 2506 2508 S6
+
+S5E), suggesting that translational control by p70S6K/S6 may play a role in necroptosis.
+# T23 Protein S21 47 53 2601 2607 p70S6K
+# T24 Protein S21 54 56 2608 2610 S6
+
+Overall, while the full repertoire of Akt targets during necroptosis remains to be fully explored, our data provide evidence that the activity of an anti-apoptotic branch of Akt signaling can promote necroptosis.
+
+RIP1 kinase, Akt, mTORC1 and JNK control the upregulation of TNFalpha accompanying necroptosis.
+# T25 Protein S23 0 4 2856 2860 RIP1
+# T26 Protein S23 61 69 2917 2925 TNFalpha
+
+Hitomi et al. [10] have recently reported that the induction of necroptosis by zVAD.fmk in L929 cells is associated with increased synthesis of TNFalpha, which potentiates cell death.
+# T27 Protein S24 144 152 3096 3104 TNFalpha
+
+Therefore, we examined whether Akt and its effectors contribute to TNFalpha synthesis.
+# T28 Protein S25 67 75 3203 3211 TNFalpha
+
+Consistent with a RIP1-dependent increase in TNFalpha protein (Fig.
+# T29 Protein S26 18 22 3241 3245 RIP1
+# T30 Protein S26 45 53 3268 3276 TNFalpha
+
+S6A, B), we found that TNFalpha mRNA levels increased during necroptosis in L929 cells in a RIP1 (Fig.
+# T31 Protein S27 23 31 3314 3322 TNFalpha
+# T32 Protein S27 92 96 3383 3387 RIP1
+
+S6C.
+
+Under serum free conditions, bFGF alone triggered some induction of TNFalpha mRNA, while its combination with zVAD.fmk (but not zVAD.fmk alone) caused a pronounced further increase (Fig. 6A).
+# T33 Protein S29 29 33 3428 3432 bFGF
+# T34 Protein S29 68 76 3467 3475 TNFalpha
+
+Conversely, PDGF caused a modest upregulation of TNFalpha mRNA, which was not further increased in the presence of zVAD.fmk (Fig. 6A), demonstrating that activation of necroptosis is specifically accompanied by a marked increase in autocrine TNFalpha synthesis.
+# T35 Protein S30 49 57 3640 3648 TNFalpha
+# T36 Protein S30 242 250 3833 3841 TNFalpha
+
+Further analysis suggested that both Akt and mTORC1 contribute to the upregulation of TNFalpha mRNA during necroptosis as both small-molecule inhibition and siRNA knockdown of Akt and mTOR reduced TNFalpha mRNA levels in necroptotic cells (Fig. 6B,C,D).
+# T37 Protein S31 86 94 3939 3947 TNFalpha
+# T38 Protein S31 197 205 4050 4058 TNFalpha
+
+Notably, RIP1 and Akt inhibitors had no effect on the levels of TNFalpha mRNA in control cells or in the cells stimulated with bFGF alone (Fig. 6A,B, Fig.
+# T39 Protein S32 9 13 4116 4120 RIP1
+# T40 Protein S32 64 72 4171 4179 TNFalpha
+# T41 Protein S32 127 131 4234 4238 bFGF
+
+S6C), suggesting that these kinases specifically mediate necroptosis-dependent increase in TNFalpha synthesis.
+# T42 Protein S33 91 99 4353 4361 TNFalpha
+

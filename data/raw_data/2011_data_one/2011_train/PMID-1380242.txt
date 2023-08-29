@@ -1,0 +1,57 @@
+SRC-related proto-oncogenes and transcription factors in primary human T cells: modulation by cyclosporin A and FK506.
+
+Activation of T lymphocytes induces transcription of genes encoding for lymphokines.
+
+Interleukin-2 (IL-2) gene expression is controlled transcriptionally by the cooperative activity of specific trans-activating factors that bind to the IL-2 enhancer.
+# T1 Protein S3 0 13 205 218 Interleukin-2
+# T2 Protein S3 15 19 220 224 IL-2
+# T3 Protein S3 151 155 356 360 IL-2
+$ T2 Protein S3 15 19 220 224 IL-2
+$ T3 Protein S3 151 155 356 360 IL-2
+@ T11 Regulation S3 40 50 245 255 controlled
+@ T12 Transcription S3 51 68 256 273 transcriptionally
+@ T13 Binding S3 139 143 344 348 bind
+@ T14 Entity S3 156 164 361 369 enhancer
+% E1 Regulation:T11 Theme:E2
+% E2 Transcription:T12 Theme:T2
+% E3 Binding:T13 Theme:T3 Site:T14
+
+Cyclosporin A (CsA) and FK506 inhibit the production of IL-2 in T lymphocytes at the level of gene transcription.
+# T4 Protein S4 56 60 427 431 IL-2
+$ T4 Protein S4 56 60 427 431 IL-2
+@ T15 Negative_regulation S4 30 37 401 408 inhibit
+@ T16 Transcription S4 94 112 465 483 gene transcription
+% E4 Negative_regulation:T15 Theme:E5
+% E5 Transcription:T16 Theme:T4
+
+A member of the src gene family, the lymphocyte-specific protein tyrosine kinase, p56lck, has been implicated in IL-2 production.
+# T5 Protein S5 82 88 567 573 p56lck
+# T6 Protein S5 113 117 598 602 IL-2
+$ T5 Protein S5 82 88 567 573 p56lck
+$ T6 Protein S5 113 117 598 602 IL-2
+@ T17 Regulation S5 99 109 584 594 implicated
+@ T18 Gene_expression S5 118 128 603 613 production
+% E6 Regulation:T17 Theme:E7 Cause:T5
+% E7 Gene_expression:T18 Theme:T6
+
+CsA was found not to inhibit lck gene expression, nor the activity of the lck gene product.
+# T7 Protein S6 29 32 644 647 lck
+# T8 Protein S6 74 77 689 692 lck
+$ T7 Protein S6 29 32 644 647 lck
+@ T19 Negative_regulation S6 21 28 636 643 inhibit
+@ T20 Gene_expression S6 38 48 653 663 expression
+% E8 Negative_regulation:T19 Theme:T7
+% E9 Negative_regulation:T19 Theme:E10
+% E10 Gene_expression:T20 Theme:T7
+
+However, CsA and FK506 inhibit the appearance of DNA binding activity of factors that bind to the NF-AT and AP-1 sites in the IL-2 enhancer.
+# T9 Protein S7 126 130 833 837 IL-2
+
+Since the induction of NF-AT and AP-1 is induced by the same stimuli that stimulate IL-2 production, these results indicate that the immunosuppressant action of CsA and FK506 is exerted at the level of these trans-activating factors.
+# T10 Protein S8 84 88 932 936 IL-2
+$ T10 Protein S8 84 88 932 936 IL-2
+@ T21 Positive_regulation S8 74 83 922 931 stimulate
+@ T22 Gene_expression S8 89 99 937 947 production
+% E11 Positive_regulation:T21 Theme:E12
+% E12 Gene_expression:T22 Theme:T10
+

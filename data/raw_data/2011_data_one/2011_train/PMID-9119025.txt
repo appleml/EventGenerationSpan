@@ -1,0 +1,28 @@
+Cell-to-cell contact activates the long terminal repeat of human immunodeficiency virus 1 through its kappaB motif.
+
+Cell-to-cell contact between peripheral blood lymphocytes and transfected human colonic carcinoma cell line HT29 activates transcription of the long terminal repeats (LTR) of human immunodeficiency virus.
+
+HIV-1 LTR transcription is controlled by a complex array of virus-encoded and cellular proteins.
+
+Using various constructs expressing a lacZ reporter gene under the control of the intact or three deleted forms of HIV-1 LTR, we obtained evidence that the kappaB regulatory elements located in the U3 region are involved in cell-to-cell activation of HIV-1 LTR.
+
+Cell-to-cell contact activates in vitro binding of the nuclear factor kappaB (NF-kappaB) p50/p65 heterodimer to an HIV-1 kappaB oligonucleotide.
+# T1 Protein S5 89 92 770 773 p50
+# T2 Protein S5 93 96 774 777 p65
+$ T2 Protein S5 93 96 774 777 p65
+$ T1 Protein S5 89 92 770 773 p50
+@ T4 Positive_regulation S5 21 30 702 711 activates
+@ T5 Binding S5 40 47 721 728 binding
+% E1 Positive_regulation:T4 Theme:E4
+% E2 Positive_regulation:T4 Theme:E3
+% E3 Binding:T5 Theme:T2
+% E4 Binding:T5 Theme:T1
+
+Cell-to-cell contact activation of NF-kappaB was only partially inhibited by 100 microM pyrrolidine dithiocarbamate and was not correlated with a significant decrease of cellular inhibitor kappaB alpha.
+# T3 Protein S6 179 201 1005 1027 inhibitor kappaB alpha
+$ T3 Protein S6 179 201 1005 1027 inhibitor kappaB alpha
+@ T6 Negative_regulation S6 158 166 984 992 decrease
+% E5 Negative_regulation:T6 Theme:T3
+
+NF-kappaB nuclear activation was not detectable before 1 h after cell contact and was dependent on protein synthesis.
+

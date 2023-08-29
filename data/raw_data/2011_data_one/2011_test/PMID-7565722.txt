@@ -1,0 +1,31 @@
+A central role for a single c-Myb binding site in a thymic locus control region.
+# T1 Protein S1 28 33 28 33 c-Myb
+
+Locus control regions (LCRs) are powerful assemblies of cis elements that organize the actions of cell-type-specific trans-acting factors.
+
+A 2.3-kb LCR in the human adenosine deaminase (ADA) gene first intron, which controls expression in thymocytes, is composed of a 200-bp enhancer domain and extended flanking sequences that facilitate activation from within chromatin.
+# T2 Protein S3 26 45 247 266 adenosine deaminase
+# T3 Protein S3 47 50 268 271 ADA
+
+Prior analyses have demonstrated that the enhancer contains a 28-bp core region and local adjacent augmentative cis elements.
+
+We now show that the core contains a single critical c-Myb binding site.
+# T4 Protein S5 53 58 634 639 c-Myb
+
+In both transiently cotransfected human cells and stable chromatin-integrated yeast cells, c-Myb strongly transactivated reporter constructs that contained polymerized core sequences.
+# T5 Protein S6 91 96 745 750 c-Myb
+
+c-Myb protein was strongly evident in T lymphoblasts in which the enhancer was active and was localized within discrete nuclear structures.
+# T6 Protein S7 0 5 838 843 c-Myb
+
+Fetal murine thymus exhibited a striking concordance of endogenous c-myb expression with that of mouse ADA and human ADA LCR-directed transgene expression.
+# T7 Protein S8 67 72 1045 1050 c-myb
+# T8 Protein S8 103 106 1081 1084 ADA
+# T9 Protein S8 117 120 1095 1098 ADA
+
+Point mutation of the c-Myb site within the intact 2.3-kb LCR severely attenuated enhancer activity in transfections and LCR activity in transgenic thymocytes.
+# T10 Protein S9 22 27 1156 1161 c-Myb
+
+Within the context of a complex enhancer and LCR, c-Myb can act as an organizer of thymocyte-specific gene expression via a single binding site.
+# T11 Protein S10 50 55 1344 1349 c-Myb
+

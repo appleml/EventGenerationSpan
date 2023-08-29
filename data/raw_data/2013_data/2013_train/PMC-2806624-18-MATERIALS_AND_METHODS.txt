@@ -1,0 +1,24 @@
+Flow cytometry.
+
+For analysis of human FOXP3 expression on the single-cell level, cells were first stained with the monoclonal CD4 mAb (Beckman Coulter), and after fixation and permeabilization, they were incubated with anti-human Foxp3-Alexa Fluor 488 antibody (BioLegend) based on the manufacturer's recommendations and subjected to FACS (EPICS XL-MCL; Beckman Coulter).
+# T1 Protein S2 22 27 38 43 FOXP3
+# T2 Protein S2 110 113 126 129 CD4
+# T3 Protein S2 214 219 230 235 Foxp3
+$ T1 Protein S2 22 27 38 43 FOXP3
+@ T8 Gene_expression S2 28 38 44 54 expression
+% E1 Gene_expression:T8 Theme:T1
+
+A mouse IgG1 antibody (BioLegend) was used as an isotype control.
+
+Data were analyzed with the CXP software (Beckman Coulter).
+
+Cells were cultured with IL-2, and then left unstimulated or stimulated with anti-CD2/-CD3/-CD28 mAb.
+# T4 Protein S5 25 29 523 527 IL-2
+# T5 Protein S5 82 85 580 583 CD2
+# T6 Protein S5 87 90 585 588 CD3
+# T7 Protein S5 92 96 590 594 CD28
+
+Flow cytometry analyses of the mouse cells were performed on an LSRII (BD) and cell sorting was performed on a FACSAria (BD).
+
+All antibodies for these experiments were purchased from eBioscience or BD.
+

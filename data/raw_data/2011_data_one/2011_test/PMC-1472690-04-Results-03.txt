@@ -1,0 +1,44 @@
+Role of NFkappaB, NFIL-6 and NFAT binding in LPS-, TSST-1-, GP-, GP + LPS- and GP + TSST-1-induced IL-1RA expression by human PBMC
+# T1 Protein S1 18 24 18 24 NFIL-6
+# T2 Protein S1 29 33 29 33 NFAT
+# T3 Protein S1 51 57 51 57 TSST-1
+# T4 Protein S1 84 90 84 90 TSST-1
+# T5 Protein S1 99 105 99 105 IL-1RA
+
+Because GP induced band shifts to NFkappaB, NFIL-6 and NFAT sites, but no TNFalpha, IL-6 or IFNgamma, we hypothesized that the activated transcription factors might bind to sites in the IL-1RA promoter.
+# T6 Protein S2 74 82 205 213 TNFalpha
+# T7 Protein S2 84 88 215 219 IL-6
+# T8 Protein S2 92 100 223 231 IFNgamma
+# T9 Protein S2 186 192 317 323 IL-1RA
+
+We investigated previoulsy described and newly discovered transcription factor binding sites of the IL-1RA promoter (Table 1) using the program OMIGA (v.1.1.3, Oxford Molecular, Oxford, UK).
+# T10 Protein S3 100 106 434 440 IL-1RA
+
+The LPS responsive kappaB consensus site of LRE-1 (between -84 and -93) [30] displayed band shifts, but no significant alterations of its binding activity, irrespective of the treatment (data not shown).
+
+A new kappaB3 site (-100 and -130) within the LRE-1 [30] showed increased binding induced by TSST-1 (+30% vs. control), but GP co-treatment up-regulated the LPS (+65% vs. control)- and the TSST-1 (+110% vs. control)-induced binding in a superadditive synergistic fashion, when compared to medium control as well as to LPS, TSST-1 or GP or the theoretical values of GP/LPS calc. or GP/TSST-1 calc. (all p < 0.05; Fig. 4).
+# T11 Protein S5 93 99 822 828 TSST-1
+# T12 Protein S5 189 195 918 924 TSST-1
+# T13 Protein S5 323 329 1052 1058 TSST-1
+# T14 Protein S6 384 390 1113 1119 TSST-1
+
+Binding to a new kappaB consensus site (between -266 and -280) was significantly elevated for GP + TSST-1 (p < 0.05; data not shown).
+# T15 Protein S8 99 105 1249 1255 TSST-1
+
+The LPS-, TSST-1- and GP + LPS-induced binding to the new kappaB2/3 site (-288 and -302) was down-regulated by about 20-35% in comparison with medium control (p < 0.05; data not shown).
+# T16 Protein S9 10 16 1294 1300 TSST-1
+
+The NFIL-6 site (-147 and -170) close to LRE-2 [31,32] showed an up-regulation of binding for all compounds and combinations vs. medium control, ranging from 25-110% (p < 0.05).
+
+Further, GP + TSST-1 induced an increased binding to the NFIL-6 site in comparison with TSST-1 (1.3fold) or GP (1.6fold; p < 0.05), (data not shown).
+# T17 Protein S11 14 20 1662 1668 TSST-1
+# T18 Protein S11 88 94 1736 1742 TSST-1
+
+A new binding site for NFATP2/3 was found more distal of the transcription start site, between -471 and -490, displaying again a substantial increase of binding for all compounds and combinations, when compared to medium control (p < 0.05).
+
+In addition, binding to the NFATP2/3 site following both, GP + LPS (1.4fold of GP) and GP + TSST-1 (1.5fold of GP, 1.25fold of TSST-1) was elevated (p < 0.05; Fig. 5), but only in an additive synergistic manner, i.e. the experimental results were not different from the theoretical values (calc.).
+# T19 Protein S13 92 98 2131 2137 TSST-1
+# T20 Protein S13 127 133 2166 2172 TSST-1
+
+
+

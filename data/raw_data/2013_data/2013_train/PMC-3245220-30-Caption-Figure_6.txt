@@ -1,0 +1,24 @@
+Inhibition of M-CSF-induced PKC reduces NF-kappaB-regulated genes in both MDMs and RAW 264.7 cells.
+
+MDMs (A and C) and RAW 264.7 (B) cells were pretreated with Ro-31-8220 or solvent control DMSO for 30 minutes prior to M-CSF stimulation for the indicated times.
+
+Total RNA was isolated and converted to cDNA.
+
+Real-time RT PCR was performed using primers for IkappaBalpha, BCL-xl or GAPDH.
+# T1 Protein S4 49 61 357 369 IkappaBalpha
+# T2 Protein S4 63 69 371 377 BCL-xl
+
+Data are expressed as relative fold increase of IkappaBalpha or BCL-xl gene expression upon treatment over non-stimulated cells.
+# T3 Protein S5 48 60 436 448 IkappaBalpha
+# T4 Protein S5 64 70 452 458 BCL-xl
+$ T3 Protein S5 48 60 436 448 IkappaBalpha
+$ T4 Protein S5 64 70 452 458 BCL-xl
+@ T5 Positive_regulation S5 36 44 424 432 increase
+@ T6 Gene_expression S5 76 86 464 474 expression
+% E1 Positive_regulation:T5 Theme:E2
+% E3 Positive_regulation:T5 Theme:E4
+% E2 Gene_expression:T6 Theme:T3
+% E4 Gene_expression:T6 Theme:T4
+
+Data represent the mean +/- S.E.M for three independent experiments.
+

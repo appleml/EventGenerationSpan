@@ -1,0 +1,64 @@
+Expression of LAZ3/BCL6 in follicular center (FC) B cells of reactive lymph nodes and FC-derived non-Hodgkin lymphomas.
+# T1 Protein S1 14 18 14 18 LAZ3
+# T2 Protein S1 19 23 19 23 BCL6
+$ T1 Protein S1 14 18 14 18 LAZ3
+@ T17 Gene_expression S1 0 10 0 10 Expression
+% E1 Gene_expression:T17 Theme:T1
+
+Chromosomal translocation resulting in abnormal expression of the LAZ3/BCL6 gene in B cells has been implicated in the tumorigenesis of non-Hodgkin lymphoma (NHL).
+# T3 Protein S2 66 70 187 191 LAZ3
+# T4 Protein S2 71 75 192 196 BCL6
+$ T3 Protein S2 66 70 187 191 LAZ3
+@ T18 Regulation S2 26 47 147 168 resulting in abnormal
+@ T19 Gene_expression S2 48 58 169 179 expression
+% E2 Regulation:T18 Theme:E3
+% E3 Gene_expression:T19 Theme:T3
+
+Therefore we studied the expression pattern of LAZ3/BCL6 by in situ hybridization with synthetic oligonucleotide probes in frozen tissue sections from five reactive lymph nodes and 38 B cell and non-B NHL.
+# T5 Protein S3 47 51 332 336 LAZ3
+# T6 Protein S3 52 56 337 341 BCL6
+$ T5 Protein S3 47 51 332 336 LAZ3
+@ T20 Gene_expression S3 25 35 310 320 expression
+% E4 Gene_expression:T20 Theme:T5
+
+In addition, we investigated the expression of LAZ3/BCL6 by Northern blot analysis on multiple human tissues.
+# T7 Protein S4 47 51 538 542 LAZ3
+# T8 Protein S4 52 56 543 547 BCL6
+$ T7 Protein S4 47 51 538 542 LAZ3
+@ T21 Gene_expression S4 33 43 524 534 expression
+% E5 Gene_expression:T21 Theme:T7
+
+The LAZ3/BCL6 transcript was found in a variety of tissues, including skeletal muscle, peripheral blood leukocytes, and weakly in normal lymph nodes.
+# T9 Protein S5 4 8 605 609 LAZ3
+# T10 Protein S5 9 13 610 614 BCL6
+$ T9 Protein S5 4 8 605 609 LAZ3
+@ T22 Transcription S5 29 34 630 635 found
+% E6 Transcription:T22 Theme:T9
+
+In the tumor samples, expression of LAZ3/BCL6 was observed in 68% of all B cell NHL and none of the non-B lymphomas.
+# T11 Protein S6 36 40 787 791 LAZ3
+# T12 Protein S6 41 45 792 796 BCL6
+$ T11 Protein S6 36 40 787 791 LAZ3
+@ T23 Gene_expression S6 22 32 773 783 expression
+% E7 Gene_expression:T23 Theme:T11
+
+All cases of follicular, mixed small and large cell lymphomas showed LAZ3/BCL6 expression confined to the neoplastic follicles.
+# T13 Protein S7 69 73 937 941 LAZ3
+# T14 Protein S7 74 78 942 946 BCL6
+$ T13 Protein S7 69 73 937 941 LAZ3
+@ T24 Gene_expression S7 79 89 947 957 expression
+@ T25 Positive_regulation S7 90 98 958 966 confined
+% E8 Gene_expression:T24 Theme:T13
+% E9 Positive_regulation:T25 Theme:E8
+
+A follicular expression pattern was also found in all non-malignant reactive lymph nodes.
+@ T26 Gene_expression S8 13 23 1009 1019 expression
+% E10 Gene_expression:T26 Theme:T13
+
+Hence, the expression of LAZ3/BCL6 does not correlate to malignancy, but reflects the origin of B cells from the germinal centers.
+# T15 Protein S9 25 29 1111 1115 LAZ3
+# T16 Protein S9 30 34 1116 1120 BCL6
+$ T15 Protein S9 25 29 1111 1115 LAZ3
+@ T27 Gene_expression S9 11 21 1097 1107 expression
+% E11 Gene_expression:T27 Theme:T15
+

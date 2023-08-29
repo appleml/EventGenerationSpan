@@ -1,0 +1,122 @@
+Calcineurin potentiates activation of the granulocyte-macrophage colony-stimulating factor gene in T cells: involvement of the conserved lymphokine element 0.
+# T1 Protein S1 42 90 42 90 granulocyte-macrophage colony-stimulating factor
+$ T1 Protein S1 42 90 42 90 granulocyte-macrophage colony-stimulating factor
+@ T25 Positive_regulation S1 12 23 12 23 potentiates
+@ T26 Positive_regulation S1 24 34 24 34 activation
+% E1 Positive_regulation:T25 Theme:E2
+% E2 Positive_regulation:T26 Theme:T1
+
+Granulocyte-macrophage colony-stimulating factor (GM-CSF) and interleukin-2 (IL-2) are produced by stimulation with phorbol-12-myristate acetate (PMA) and calcium ionophore (A23187) in human T cell leukemia Jurkat cells.
+# T2 Protein S2 0 48 160 208 Granulocyte-macrophage colony-stimulating factor
+# T3 Protein S2 50 56 210 216 GM-CSF
+# T4 Protein S2 62 75 222 235 interleukin-2
+# T5 Protein S2 77 81 237 241 IL-2
+$ T3 Protein S2 50 56 210 216 GM-CSF
+$ T5 Protein S2 77 81 237 241 IL-2
+@ T27 Gene_expression S2 87 95 247 255 produced
+@ T28 Positive_regulation S2 96 115 256 275 by stimulation with
+% E3 Gene_expression:T27 Theme:T3
+% E4 Gene_expression:T27 Theme:T5
+% E5 Positive_regulation:T28 Theme:E3
+% E6 Positive_regulation:T28 Theme:E4
+
+The expression of GM-CSF and IL-2 is inhibited by immunosuppressive drugs such as cyclosporin A (CsA) and FK506.
+# T6 Protein S3 18 24 399 405 GM-CSF
+# T7 Protein S3 29 33 410 414 IL-2
+$ T7 Protein S3 29 33 410 414 IL-2
+$ T6 Protein S3 18 24 399 405 GM-CSF
+@ T29 Gene_expression S3 4 14 385 395 expression
+@ T30 Negative_regulation S3 37 46 418 427 inhibited
+% E7 Gene_expression:T29 Theme:T7
+% E8 Gene_expression:T29 Theme:T6
+% E9 Negative_regulation:T30 Theme:E8
+% E10 Negative_regulation:T30 Theme:E7
+
+Earlier studies on the IL-2 gene expression showed that overexpression of calcineurin (CN), a Ca2+/calmodulin-dependent protein phosphatase, can stimulate transcription from the IL-2 promoter through the NF-AT-binding site.
+# T8 Protein S4 23 27 517 521 IL-2
+# T9 Protein S4 99 109 593 603 calmodulin
+# T10 Protein S4 178 182 672 676 IL-2
+$ T8 Protein S4 23 27 517 521 IL-2
+$ T10 Protein S4 178 182 672 676 IL-2
+@ T31 Gene_expression S4 33 43 527 537 expression
+@ T32 Positive_regulation S4 145 154 639 648 stimulate
+@ T33 Transcription S4 155 168 649 662 transcription
+% E11 Gene_expression:T31 Theme:T8
+% E12 Positive_regulation:T32 Theme:E13
+% E13 Transcription:T33 Theme:T10
+
+In this study, we obtained evidence that transfection of the cDNAs for CN A (catalytic) and CN B (regulatory) subunits also augments transcription from the GM-CSF promoter and recovers the transcription inhibited by CsA.
+# T11 Protein S5 71 75 789 793 CN A
+# T12 Protein S5 92 96 810 814 CN B
+# T13 Protein S5 156 162 874 880 GM-CSF
+$ T12 Protein S5 92 96 810 814 CN B
+$ T11 Protein S5 71 75 789 793 CN A
+$ T13 Protein S5 156 162 874 880 GM-CSF
+@ T34 Positive_regulation S5 41 53 759 771 transfection
+@ T35 Gene_expression S5 41 53 759 771 transfection
+@ T36 Positive_regulation S5 124 132 842 850 augments
+@ T37 Transcription S5 133 146 851 864 transcription
+@ T38 Negative_regulation S5 176 184 894 902 recovers
+@ T39 Negative_regulation S5 203 212 921 930 inhibited
+% E14 Positive_regulation:T34 Theme:E15
+% E16 Positive_regulation:T34 Theme:E17
+% E15 Gene_expression:T35 Theme:T12
+% E17 Gene_expression:T35 Theme:T11
+% E18 Positive_regulation:T36 Theme:E20 Cause:E16
+% E19 Positive_regulation:T36 Theme:E20 Cause:E14
+% E20 Transcription:T37 Theme:T13
+% E21 Negative_regulation:T38 Theme:E23 Cause:E16
+% E22 Negative_regulation:T38 Theme:E23 Cause:E14
+% E23 Negative_regulation:T39 Theme:E20
+
+The constitutively active type of the CN A subunit, which lacks the auto-inhibitory and calmodulin-binding domains, acts in synergy with PMA to activate transcription from the GM-CSF promoter.
+# T14 Protein S6 38 42 977 981 CN A
+# T15 Protein S6 176 182 1115 1121 GM-CSF
+$ T15 Protein S6 176 182 1115 1121 GM-CSF
+@ T40 Positive_regulation S6 144 152 1083 1091 activate
+@ T41 Transcription S6 153 166 1092 1105 transcription
+% E24 Positive_regulation:T40 Theme:E25
+% E25 Transcription:T41 Theme:T15
+
+We also found that the active CN partially replaces calcium ionophore in synergy with PMA to induce expression of endogenous GM-CSF and IL-2.
+# T16 Protein S7 125 131 1257 1263 GM-CSF
+# T17 Protein S7 136 140 1268 1272 IL-2
+$ T17 Protein S7 136 140 1268 1272 IL-2
+$ T16 Protein S7 125 131 1257 1263 GM-CSF
+@ T42 Positive_regulation S7 90 99 1222 1231 to induce
+@ T43 Gene_expression S7 100 110 1232 1242 expression
+% E26 Positive_regulation:T42 Theme:E28
+% E27 Positive_regulation:T42 Theme:E29
+% E28 Gene_expression:T43 Theme:T17
+% E29 Gene_expression:T43 Theme:T16
+
+By multimerizing the regulatory elements of the GM-CSF promoter, we found that one of the target sites for the CN action is the conserved lymphokine element 0 (CLE0), located at positions between -54 and -40.
+# T18 Protein S8 48 54 1322 1328 GM-CSF
+
+Mobility shift assays showed that the CLE0 sequence has an AP1-binding site and is associated with an NF-AT-like factor, termed NF-CLE0 gamma.
+# T19 Protein S9 128 141 1611 1624 NF-CLE0 gamma
+$ T19 Protein S9 128 141 1611 1624 NF-CLE0 gamma
+@ T44 Binding S9 83 93 1566 1576 associated
+% E30 Binding:T44 Theme:T19
+
+NF-CLE0 gamma binding is induced by PMA/A23187 and is inhibited by treatment with CsA.
+# T20 Protein S10 0 13 1626 1639 NF-CLE0 gamma
+$ T20 Protein S10 0 13 1626 1639 NF-CLE0 gamma
+@ T45 Binding S10 14 21 1640 1647 binding
+@ T46 Positive_regulation S10 25 32 1651 1658 induced
+@ T47 Negative_regulation S10 54 63 1680 1689 inhibited
+% E31 Binding:T45 Theme:T20
+% E32 Positive_regulation:T46 Theme:E31
+% E33 Negative_regulation:T47 Theme:E31
+
+These results suggest that CN is involved in the coordinated induction of the GM-CSF and IL-2 genes and that the CLE0 sequence of the GM-CSF gene is a functional analogue of the NF-AT-binding site in the IL-2 promoter, which mediates signals downstream of T cell activation.
+# T21 Protein S11 78 84 1791 1797 GM-CSF
+# T22 Protein S11 89 93 1802 1806 IL-2
+# T23 Protein S11 134 140 1847 1853 GM-CSF
+# T24 Protein S11 204 208 1917 1921 IL-2
+$ T22 Protein S11 89 93 1802 1806 IL-2
+$ T21 Protein S11 78 84 1791 1797 GM-CSF
+@ T48 Positive_regulation S11 61 70 1774 1783 induction
+% E34 Positive_regulation:T48 Theme:T22
+% E35 Positive_regulation:T48 Theme:T21
+

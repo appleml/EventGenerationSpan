@@ -1,0 +1,52 @@
+Foxp3 Represses Retroviral Transcription by Targeting Both NF-kappaB and CREB Pathways
+# T1 Protein S1 0 5 0 5 Foxp3
+
+Forkhead box (Fox)/winged-helix transcription factors regulate multiple aspects of immune responsiveness and Foxp3 is recognized as an essential functional marker of regulatory T cells.
+# T2 Protein S2 109 114 196 201 Foxp3
+
+Herein we describe downstream signaling pathways targeted by Foxp3 that may negatively impact retroviral pathogenesis.
+# T3 Protein S3 61 66 334 339 Foxp3
+
+Overexpression of Foxp3 in HEK 293T and purified CD4+ T cells resulted in a dose-dependent and time-dependent decrease in basal levels of nuclear factor-kappaB (NF-kappaB) activation.
+# T4 Protein S4 18 23 410 415 Foxp3
+# T5 Protein S4 49 52 441 444 CD4
+$ T4 Protein S4 18 23 410 415 Foxp3
+@ T15 Positive_regulation S4 0 14 392 406 Overexpression
+% E1 Positive_regulation:T15 Theme:T4
+
+Deletion of the carboxyl-terminal forkhead (FKH) domain, critical for nuclear localization and DNA-binding activity, abrogated the ability of Foxp3 to suppress NF-kappaB activity in HEK 293T cells, but not in Jurkat or primary human CD4+ T cells.
+# T6 Protein S5 142 147 718 723 Foxp3
+# T7 Protein S5 233 236 809 812 CD4
+$ T6 Protein S5 142 147 718 723 Foxp3
+@ T16 Negative_regulation S5 0 8 576 584 Deletion
+@ T17 Entity S5 16 55 592 631 carboxyl-terminal forkhead (FKH) domain
+@ T18 Positive_regulation S5 57 65 633 641 critical
+@ T19 Entity S5 70 77 646 653 nuclear
+@ T20 Localization S5 78 90 654 666 localization
+@ T21 Binding S5 99 106 675 682 binding
+% E2 Negative_regulation:T16 Theme:T6 Site:T17
+% E3 Positive_regulation:T18 Theme:E4 Cause:T6 CSite:T17
+% E5 Positive_regulation:T18 Theme:E6 Cause:T6 CSite:T17
+% E4 Localization:T20 Theme:T6 ToLoc:T19
+% E6 Binding:T21 Theme:T6
+
+We further demonstrate that Foxp3 suppressed the transcription of two human retroviral promoters (HIV-1 and human T cell lymphotropic virus type I [HTLV-I]) utilizing NF-kappaB-dependent and NF-kappaB-independent mechanisms.
+# T8 Protein S6 28 33 851 856 Foxp3
+
+Examination of the latter identified the cAMP-responsive element binding protein (CREB) pathway as a target of Foxp3.
+# T9 Protein S7 111 116 1159 1164 Foxp3
+
+Finally, comparison of the percent Foxp3+CD4+CD25+ T cells to the HTLV-I proviral load in HTLV-I-infected asymptomatic carriers and patients with HTLV-I-associated myelopathy/tropical spastic paraparesis suggested that high Foxp3 expression is associated with low proviral load and absence of disease.
+# T10 Protein S8 35 40 1201 1206 Foxp3
+# T11 Protein S8 41 44 1207 1210 CD4
+# T12 Protein S8 45 49 1211 1215 CD25
+# T13 Protein S8 224 229 1390 1395 Foxp3
+$ T13 Protein S8 224 229 1390 1395 Foxp3
+@ T22 Positive_regulation S8 219 223 1385 1389 high
+@ T23 Gene_expression S8 230 240 1396 1406 expression
+% E7 Positive_regulation:T22 Theme:E8
+% E8 Gene_expression:T23 Theme:T13
+
+These results suggest an expanded role for Foxp3 in regulating NF-kappaB- and CREB-dependent cellular and viral gene expression.
+# T14 Protein S9 43 48 1511 1516 Foxp3
+

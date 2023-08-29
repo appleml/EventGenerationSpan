@@ -1,0 +1,19 @@
+In conclusion, our results show that BMP-6 induces activation of intracellular Smad signalling in mature human B-cells with consecutive production of Id1 protein.
+# T1 Protein S1 37 42 37 42 BMP-6
+# T2 Protein S1 150 153 150 153 Id1
+$ T2 Protein S1 150 153 150 153 Id1
+@ T7 Positive_regulation S1 124 135 124 135 consecutive
+@ T8 Gene_expression S1 136 146 136 146 production
+% E1 Positive_regulation:T7 Theme:E2
+% E2 Gene_expression:T8 Theme:T2
+
+Furthermore, we report that BMP-6 has an antiproliferative effect in B cells stimulated with anti-IgM alone or the combined action of anti-IgM and CD40L.
+# T3 Protein S2 28 33 191 196 BMP-6
+# T4 Protein S2 147 152 310 315 CD40L
+
+Additionally, BMP-6 induces cell death in activated memory B cells and Ramos cells.
+# T5 Protein S3 14 19 331 336 BMP-6
+
+Taken together, these results provide a rationale to further examine the role of BMP-6 signalling in normal B cell biology as well as in pathologic conditions like B cell malignancies and autoimmune disorders.
+# T6 Protein S4 81 86 482 487 BMP-6
+

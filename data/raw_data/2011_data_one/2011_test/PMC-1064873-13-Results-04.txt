@@ -1,0 +1,83 @@
+IL-6-mediated STAT3 phosphorylation and inhibition of IL-10 effect in normal CD4+ T cells
+# T1 Protein S1 0 4 0 4 IL-6
+# T2 Protein S1 14 19 14 19 STAT3
+# T3 Protein S1 54 59 54 59 IL-10
+# T4 Protein S1 77 80 77 80 CD4
+
+STAT3 is activated by many cytokines and growth factors such as the IL-6 family of cytokines (IL-6, IL-11, leukemia inhibitory factor, and oncostatin M), platelet-derived growth factor, and epidermal growth factor, in addition to IL-10 [4], but previous studies have demonstrated that IL-6 is the major factor in RA synovial fluid that induces constitutive activation of STAT3 in mononuclear cells [31].
+# T5 Protein S2 0 5 90 95 STAT3
+# T6 Protein S2 22 55 112 145 many cytokines and growth factors
+# T7 Protein S2 68 92 158 182 IL-6 family of cytokines
+# T8 Protein S2 94 98 184 188 IL-6
+# T9 Protein S2 100 105 190 195 IL-11
+# T10 Protein S2 107 133 197 223 leukemia inhibitory factor
+# T11 Protein S2 139 151 229 241 oncostatin M
+# T12 Protein S2 154 184 244 274 platelet-derived growth factor
+# T13 Protein S2 190 213 280 303 epidermal growth factor
+# T14 Protein S2 230 235 320 325 IL-10
+# T15 Protein S2 285 289 375 379 IL-6
+# T16 Protein S2 293 309 383 399 the major factor
+# T17 Protein S2 331 335 421 425 that
+# T18 Protein S2 371 376 461 466 STAT3
+
+Since IL-6 is also abundant in sera of active RA patients, frequently detected at > 1 ng/ml [27], we examined whether persistent exposure of CD4+ T cells to high concentrations of IL-6 in the blood circulation was responsible for their sustained STAT3 activation and resistance to IL-10 inhibition in active RA.
+# T19 Protein S3 6 10 500 504 IL-6
+# T20 Protein S3 141 144 635 638 CD4
+# T21 Protein S3 180 184 674 678 IL-6
+# T22 Protein S3 246 251 740 745 STAT3
+# T23 Protein S3 281 286 775 780 IL-10
+
+Both STAT1 and STAT3 phosphorylation was activated by IL-6 in normal CD4+ T cells (data not shown), in agreement with previous observations [4].
+# T24 Protein S4 5 10 811 816 STAT1
+# T25 Protein S4 15 20 821 826 STAT3
+# T26 Protein S4 54 58 860 864 IL-6
+# T27 Protein S4 69 72 875 878 CD4
+
+Normal CD4+ T cells were thus incubated for 20 min with culture medium containing 30% serum from active RA patients and neutralizing anti-IL-6 antibody or control antibody, and STAT phosphorylation was examined by western blot analysis.
+# T28 Protein S5 7 10 958 961 CD4
+# T29 Protein S5 138 142 1089 1093 IL-6
+
+RA serum was able to induce tyrosine phosphorylation of STAT3 but not STAT1, and this STAT3 activation was mostly abolished by neutralization of IL-6 activity (Fig. 5a).
+# T30 Protein S6 56 61 1244 1249 STAT3
+# T31 Protein S6 70 75 1258 1263 STAT1
+# T32 Protein S6 86 91 1274 1279 STAT3
+# T33 Protein S6 145 149 1333 1337 IL-6
+
+These results indicate that IL-6 is the dominant STAT3-activating factor contained in sera of active RA patients.
+# T34 Protein S7 28 32 1386 1390 IL-6
+# T35 Protein S7 49 54 1407 1412 STAT3
+# T36 Protein S7 66 72 1424 1430 factor
+
+The lack of STAT1 activation by RA serum suggests that much higher concentrations of IL-6 may be required for STAT1 activation as compared with STAT3 activation, or that inhibitors of STAT1 signaling may be present in RA serum.
+# T37 Protein S8 12 17 1484 1489 STAT1
+# T38 Protein S8 85 89 1557 1561 IL-6
+# T39 Protein S8 110 115 1582 1587 STAT1
+# T40 Protein S8 144 149 1616 1621 STAT3
+# T41 Protein S8 184 189 1656 1661 STAT1
+
+We next examined whether IL-6 could suppress the effect of IL-10 to inhibit IFN-gamma production by CD4+ T cells.
+# T42 Protein S9 25 29 1726 1730 IL-6
+# T43 Protein S9 59 64 1760 1765 IL-10
+# T44 Protein S9 76 85 1777 1786 IFN-gamma
+# T45 Protein S9 100 103 1801 1804 CD4
+
+After preincubation with or without 10 ng/ml IL-6 for 36 hours, normal CD4+ T cells were stimulated by CD3 and CD28 costimulation in the presence or absence of 1 ng/ml IL-10 for 36 hours, and the IFN-gamma production was measured by ELISA.
+# T46 Protein S10 45 49 1860 1864 IL-6
+# T47 Protein S10 71 74 1886 1889 CD4
+# T48 Protein S10 111 115 1926 1930 CD28
+# T49 Protein S10 168 173 1983 1988 IL-10
+# T50 Protein S10 196 205 2011 2020 IFN-gamma
+
+IL-6 pretreatment of normal cells reduced IL-10-mediated inhibition of IFN-gamma production (Fig. 5b), indicating that high concentrations of IL-6 could modulate T-cell responsiveness to IL-10.
+# T51 Protein S11 0 4 2055 2059 IL-6
+# T52 Protein S11 42 47 2097 2102 IL-10
+# T53 Protein S11 71 80 2126 2135 IFN-gamma
+# T54 Protein S11 142 146 2197 2201 IL-6
+# T55 Protein S11 187 192 2242 2247 IL-10
+
+Taken together, these findings suggest that persistent exposure to serum IL-6 may have a role in both the induction of STAT3 activation and the resistance to the inhibitory effect of IL-10 in RA CD4+ T cells.
+# T56 Protein S12 73 77 2322 2326 IL-6
+# T57 Protein S12 119 124 2368 2373 STAT3
+# T58 Protein S12 183 188 2432 2437 IL-10
+# T59 Protein S12 195 198 2444 2447 CD4
+

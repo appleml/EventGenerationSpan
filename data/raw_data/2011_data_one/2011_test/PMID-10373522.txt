@@ -1,0 +1,33 @@
+p70(s6k) integrates phosphatidylinositol 3-kinase and rapamycin-regulated signals for E2F regulation in T lymphocytes.
+# T1 Protein S1 0 8 0 8 p70(s6k)
+
+In T lymphocytes, the hematopoietic cytokine interleukin-2 (IL-2) uses phosphatidylinositol 3-kinase (PI 3-kinase)-induced signaling pathways to regulate E2F transcriptional activity, a critical cell cycle checkpoint.
+# T2 Protein S2 45 58 165 178 interleukin-2
+# T3 Protein S2 60 64 180 184 IL-2
+
+PI 3-kinase also regulates the activity of p70(s6k), the 40S ribosomal protein S6 kinase, a response that is abrogated by the macrolide rapamycin.
+# T4 Protein S3 43 51 381 389 p70(s6k)
+
+This immunosuppressive drug is known to prevent T-cell proliferation, but the precise point at which rapamycin regulates T-cell cycle progression has yet to be elucidated.
+
+Moreover, the effects of rapamycin on, and the role of p70(s6k) in, IL-2 and PI 3-kinase activation of E2Fs have not been characterized.
+# T5 Protein S5 55 63 712 720 p70(s6k)
+# T6 Protein S5 68 72 725 729 IL-2
+
+Our present results show that IL-2- and PI 3-kinase-induced pathways for the regulation of E2F transcriptional activity include both rapamycin-resistant and rapamycin-sensitive components.
+# T7 Protein S6 30 34 824 828 IL-2
+
+Expression of a rapamycin-resistant mutant of p70(s6k) in T cells could restore rapamycin-suppressed E2F responses.
+# T8 Protein S7 46 54 1029 1037 p70(s6k)
+
+Thus, the rapamycin-controlled processes involved in E2F regulation appear to be mediated by p70(s6k).
+# T9 Protein S8 93 101 1192 1200 p70(s6k)
+
+However, the rapamycin-resistant p70(s6k) could not rescue rapamycin inhibition of T-cell cycle entry, consistent with the involvement of additional, rapamycin-sensitive pathways in the control of T-cell cycle progression.
+# T10 Protein S9 33 41 1235 1243 p70(s6k)
+
+The present results thus show that p70(s6k) is able to regulate E2F transcriptional activity and provide direct evidence for the first time for a link between IL-2 receptors, PI 3-kinase, and p70(s6k) that regulates a crucial G1 checkpoint in T lymphocytes.
+# T11 Protein S10 35 43 1460 1468 p70(s6k)
+# T12 Protein S10 159 163 1584 1588 IL-2
+# T13 Protein S10 192 200 1617 1625 p70(s6k)
+

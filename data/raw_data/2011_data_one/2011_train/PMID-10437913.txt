@@ -1,0 +1,79 @@
+Retinoblastoma protein expression leads to reduced Oct-1 DNA binding activity and enhances interleukin-8 expression.
+# T1 Protein S1 0 14 0 14 Retinoblastoma
+# T2 Protein S1 51 56 51 56 Oct-1
+# T3 Protein S1 91 104 91 104 interleukin-8
+$ T1 Protein S1 0 14 0 14 Retinoblastoma
+$ T2 Protein S1 51 56 51 56 Oct-1
+$ T3 Protein S1 91 104 91 104 interleukin-8
+@ T19 Gene_expression S1 23 33 23 33 expression
+@ T20 Negative_regulation S1 43 50 43 50 reduced
+@ T21 Binding S1 61 77 61 77 binding activity
+@ T22 Positive_regulation S1 82 90 82 90 enhances
+@ T23 Gene_expression S1 105 115 105 115 expression
+% E1 Gene_expression:T19 Theme:T1
+% E2 Negative_regulation:T20 Theme:E3 Cause:E1
+% E3 Binding:T21 Theme:T2
+% E4 Positive_regulation:T22 Theme:E5 Cause:E1
+% E5 Gene_expression:T23 Theme:T3
+
+Tumor cell lines with a defective retinoblastoma gene are unable to transcribe the HLA class II genes in response to IFN-gamma treatment, and reconstitution of functional Rb rescues IFN-gamma-induced class II gene expression.
+# T4 Protein S2 34 48 152 166 retinoblastoma
+# T5 Protein S2 117 126 235 244 IFN-gamma
+# T6 Protein S2 171 173 289 291 Rb
+# T7 Protein S2 182 191 300 309 IFN-gamma
+$ T4 Protein S2 34 48 152 166 retinoblastoma
+@ T24 Negative_regulation S2 24 33 142 151 defective
+% E6 Negative_regulation:T24 Theme:T4
+
+However, the molecular mechanism of Rb rescue of the class II genes is unknown.
+# T8 Protein S3 36 38 380 382 Rb
+
+We have examined the effect of Rb expression on the activation of the promoter for HLA-DRA, the prototype class II gene.
+# T9 Protein S4 31 33 455 457 Rb
+$ T9 Protein S4 31 33 455 457 Rb
+@ T25 Gene_expression S4 34 44 458 468 expression
+% E7 Gene_expression:T25 Theme:T9
+
+Oct-1, a POU domain transcription factor, was identified as a repressor of HLA-DRA promoter activity in the Rb-defective cells.
+# T10 Protein S5 0 5 545 550 Oct-1
+# T11 Protein S5 108 110 653 655 Rb
+$ T11 Protein S5 108 110 653 655 Rb
+@ T26 Negative_regulation S5 111 120 656 665 defective
+% E8 Negative_regulation:T26 Theme:T11
+
+Rb expression led to phosphorylation of Oct-1, thus relieving its repressive effect.
+# T12 Protein S6 0 2 673 675 Rb
+# T13 Protein S6 40 45 713 718 Oct-1
+$ T12 Protein S6 0 2 673 675 Rb
+$ T13 Protein S6 40 45 713 718 Oct-1
+@ T27 Gene_expression S6 3 13 676 686 expression
+@ T28 Positive_regulation S6 14 17 687 690 led
+@ T29 Phosphorylation S6 21 36 694 709 phosphorylation
+% E9 Gene_expression:T27 Theme:T12
+% E10 Positive_regulation:T28 Theme:E11 Cause:E9
+% E11 Phosphorylation:T29 Theme:T13
+
+Oct-1 has also been shown to repress interleukin 8 promoter activity.
+# T14 Protein S7 0 5 758 763 Oct-1
+# T15 Protein S7 37 50 795 808 interleukin 8
+$ T15 Protein S7 37 50 795 808 interleukin 8
+$ T14 Protein S7 0 5 758 763 Oct-1
+@ T30 Negative_regulation S7 29 36 787 794 repress
+@ T31 Entity S7 51 59 809 817 promoter
+% E12 Negative_regulation:T30 Theme:T15 Cause:T14 Site:T31
+
+Consistent with reduced levels of Oct-1 DNA binding activity in the Rb-transformed cell lines, interleukin 8 expression is higher in these cell lines.
+# T16 Protein S8 34 39 862 867 Oct-1
+# T17 Protein S8 68 70 896 898 Rb
+# T18 Protein S8 95 108 923 936 interleukin 8
+$ T16 Protein S8 34 39 862 867 Oct-1
+$ T18 Protein S8 95 108 923 936 interleukin 8
+@ T32 Negative_regulation S8 16 30 844 858 reduced levels
+@ T33 Binding S8 44 60 872 888 binding activity
+@ T34 Gene_expression S8 109 119 937 947 expression
+@ T35 Positive_regulation S8 123 129 951 957 higher
+% E13 Negative_regulation:T32 Theme:E14
+% E14 Binding:T33 Theme:T16
+% E15 Gene_expression:T34 Theme:T18
+% E16 Positive_regulation:T35 Theme:E15
+

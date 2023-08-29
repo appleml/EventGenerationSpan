@@ -1,0 +1,130 @@
+M-CSF Induces Phosphorylation of NF-kappaB Ser276 in a PKC-dependent Fashion
+
+Since M-CSF did not regulate NF-kappaB activation by influencing IkappaBalpha, we next sought to determine if M-CSF affected NF-kappaB p65 by post-translational mechanisms.
+# T1 Protein S2 65 77 142 154 IkappaBalpha
+# T2 Protein S2 135 138 212 215 p65
+$ T2 Protein S2 135 138 212 215 p65
+@ T14 Regulation S2 116 124 193 201 affected
+@ T15 Protein_modification S2 142 171 219 248 post-translational mechanisms
+% E1 Regulation:T14 Theme:E2
+% E2 Protein_modification:T15 Theme:T2
+
+Thus, we examined the phosphorylation of NF-kappaB p65 with specific phospho-NFkappaB p65 (Ser276 and Ser536) antibodies.
+# T3 Protein S3 51 54 301 304 p65
+$ T3 Protein S3 51 54 301 304 p65
+@ T16 Phosphorylation S3 22 37 272 287 phosphorylation
+% E3 Phosphorylation:T16 Theme:T3
+
+M-CSF induced the phosphorylation of Ser276 but not Ser536 of NF-kappaB p65 in MDMs.
+# T4 Protein S4 72 75 444 447 p65
+$ T4 Protein S4 72 75 444 447 p65
+@ T17 Positive_regulation S4 6 13 378 385 induced
+@ T18 Phosphorylation S4 18 33 390 405 phosphorylation
+@ T19 Entity S4 37 43 409 415 Ser276
+@ T20 Entity S4 52 58 424 430 Ser536
+% E4 Positive_regulation:T17 Theme:E5
+% E6 Positive_regulation:T17 Theme:E7
+% E5 Phosphorylation:T18 Theme:T4 Site:T19
+% E7 Phosphorylation:T18 Theme:T4 Site:T20
+
+Compared to vehicle, the general PKC inhibitor Ro-31-8220 reduced Ser276 phosphorylation, but not Ser536, phosphorylation in M-CSF-stimulated cells (Figure 5B).
+@ T21 Negative_regulation S5 58 65 515 522 reduced
+@ T22 Entity S5 66 72 523 529 Ser276
+@ T23 Phosphorylation S5 73 88 530 545 phosphorylation
+@ T24 Entity S5 98 104 555 561 Ser536
+@ T25 Phosphorylation S5 106 121 563 578 phosphorylation
+% E8 Negative_regulation:T21 Theme:E9
+% E10 Negative_regulation:T21 Theme:E11
+% E9 Phosphorylation:T23 Theme:T4 Site:T22
+% E11 Phosphorylation:T25 Theme:T4 Site:T24
+
+Furthermore, M-CSF-stimulated NF-kappaB p65 phosphorylation at residue Ser276 in RAW 264.7 cells was also PKC dependent (Figure 5C).
+# T5 Protein S6 40 43 658 661 p65
+$ T5 Protein S6 40 43 658 661 p65
+@ T26 Positive_regulation S6 19 29 637 647 stimulated
+@ T27 Phosphorylation S6 44 59 662 677 phosphorylation
+@ T28 Entity S6 71 77 689 695 Ser276
+@ T29 Regulation S6 110 119 728 737 dependent
+% E12 Positive_regulation:T26 Theme:E13
+% E13 Phosphorylation:T27 Theme:T5 Site:T28
+% E14 Regulation:T29 Theme:E12
+
+These studies suggested that PKC(s) regulated Ser276 phosphorylation but not Ser536 in both human MDMs and mouse macrophages after M-CSF stimulation.
+@ T30 Regulation S7 36 45 787 796 regulated
+@ T31 Entity S7 46 52 797 803 Ser276
+@ T32 Phosphorylation S7 53 68 804 819 phosphorylation
+@ T33 Entity S7 77 83 828 834 Ser536
+@ T34 Positive_regulation S7 137 148 888 899 stimulation
+% E15 Regulation:T30 Theme:E16
+% E17 Regulation:T30 Theme:E18
+% E16 Phosphorylation:T32 Theme:T5 Site:T31
+% E18 Phosphorylation:T32 Theme:T5 Site:T33
+% E19 Positive_regulation:T34 Theme:E15
+% E20 Positive_regulation:T34 Theme:E17
+
+We next performed cellular fractionation to identify the cellular location of phosphorylated NF-kappaB p65 in Raw 264.7 cells.
+# T6 Protein S8 103 106 1004 1007 p65
+$ T6 Protein S8 103 106 1004 1007 p65
+@ T35 Localization S8 66 74 967 975 location
+@ T36 Phosphorylation S8 78 92 979 993 phosphorylated
+% E21 Localization:T35 Theme:T6
+% E22 Phosphorylation:T36 Theme:T6
+
+Non-phosphorylated NF-kappaB p65 was located in both cytosolic and nuclear fractions, but phosphorylated Ser276 and Ser536 NF-kappaB p65 was primarily located in nuclear fraction after M-CSF stimulation (Figure 5D).
+# T7 Protein S9 29 32 1057 1060 p65
+# T8 Protein S9 133 136 1161 1164 p65
+$ T7 Protein S9 29 32 1057 1060 p65
+$ T8 Protein S9 133 136 1161 1164 p65
+@ T37 Phosphorylation S9 4 18 1032 1046 phosphorylated
+@ T38 Localization S9 37 44 1065 1072 located
+@ T39 Entity S9 48 84 1076 1112 both cytosolic and nuclear fractions
+@ T40 Phosphorylation S9 90 104 1118 1132 phosphorylated
+@ T41 Entity S9 105 111 1133 1139 Ser276
+@ T42 Entity S9 116 122 1144 1150 Ser536
+@ T43 Localization S9 151 158 1179 1186 located
+@ T44 Entity S9 162 169 1190 1197 nuclear
+% E23 Phosphorylation:T37 Theme:T7
+% E24 Localization:T38 Theme:T7 ToLoc:T39
+% E25 Phosphorylation:T40 Theme:T8 Site:T41
+% E26 Phosphorylation:T40 Theme:T8 Site:T42
+% E27 Localization:T43 Theme:T8 ToLoc:T44
+
+Notably, constitutive phosphorylation of Ser536 NF-kappaB p65 was found in these cells.
+# T9 Protein S10 58 61 1302 1305 p65
+$ T9 Protein S10 58 61 1302 1305 p65
+@ T45 Phosphorylation S10 22 37 1266 1281 phosphorylation
+@ T46 Entity S10 41 47 1285 1291 Ser536
+% E28 Phosphorylation:T45 Theme:T9 Site:T46
+
+Importantly, Ro-31-8220 reduced M-CSF-induced Ser276 phosphorylation of NF-kappaB p65 in both the cytosolic and nuclear fractions, while M-CSF-induced NF-kappaB p65 Ser536 phosphorylation was present in the nucleus regardless of PKC inhibition.
+# T10 Protein S11 82 85 1414 1417 p65
+# T11 Protein S11 161 164 1493 1496 p65
+$ T10 Protein S11 82 85 1414 1417 p65
+$ T11 Protein S11 161 164 1493 1496 p65
+@ T47 Negative_regulation S11 24 31 1356 1363 reduced
+@ T48 Positive_regulation S11 38 45 1370 1377 induced
+@ T49 Entity S11 46 52 1378 1384 Ser276
+@ T50 Phosphorylation S11 53 68 1385 1400 phosphorylation
+@ T51 Positive_regulation S11 143 150 1475 1482 induced
+@ T52 Entity S11 165 171 1497 1503 Ser536
+@ T53 Phosphorylation S11 172 187 1504 1519 phosphorylation
+@ T54 Regulation S11 215 225 1547 1557 regardless
+% E29 Negative_regulation:T47 Theme:E30
+% E30 Positive_regulation:T48 Theme:E31
+% E31 Phosphorylation:T50 Theme:T10 Site:T49
+% E32 Positive_regulation:T51 Theme:E33
+% E33 Phosphorylation:T53 Theme:T11 Site:T52
+% E34 Regulation:T54 Theme:E32
+
+These observations indicate that M-CSF-induced Ser276 and Ser536 are regulated differently by conventional PKC activation in mononuclear phagocytes.
+@ T13 Positive_regulation S12 39 46 1616 1623 induced
+@ T55 Entity S12 47 53 1624 1630 Ser276
+@ T56 Entity S12 58 64 1635 1641 Ser536
+@ T57 Regulation S12 69 78 1646 1655 regulated
+% E35 Positive_regulation:T13 Theme:T11 Site:T55
+% E36 Positive_regulation:T13 Theme:T11 Site:T56
+% E37 Regulation:T57 Theme:E36
+% E38 Regulation:T57 Theme:E35
+
+The purity of the cytosol and nuclear cell fractions was confirmed by immunoblotting with GAPDH and Lamin B, respectively (Figure 5D).
+

@@ -1,0 +1,43 @@
+Luciferase activities of A3G promoter constructs in different cell lines.
+# T1 Protein S1 0 10 0 10 Luciferase
+# T2 Protein S1 25 28 25 28 A3G
+$ T1 Protein S1 0 10 0 10 Luciferase
+$ T2 Protein S1 25 28 25 28 A3G
+@ T12 Positive_regulation S1 11 21 11 21 activities
+@ T13 Entity S1 29 37 29 37 promoter
+% E1 Positive_regulation:T12 Theme:T1 Cause:T2 CSite:T13
+
+(A) A3G promoter 5' deletion constructs of different sizes were cloned into pGL3-Basic luciferase reporter plasmids.
+# T3 Protein S2 4 7 78 81 A3G
+# T4 Protein S2 87 97 161 171 luciferase
+
+Numbering is relative to the major TSS.
+
+A putative Sp1/Sp3 consensus site (gray square) is depicted.
+
+(B) A3.01 T cells were transiently transfected with the A3G promoter deletion constructs.
+# T5 Protein S5 56 59 348 351 A3G
+
+Numbers on the x-axis refer to the length of the A3G promoter fragments in bp.
+# T6 Protein S6 49 52 431 434 A3G
+
+(C) A3G promoter plasmids were transfected into U937, HepG2 and Huh7 cell lines.
+# T7 Protein S7 4 7 465 468 A3G
+
+Numbers in the legends refer to the length of the A3G promoter fragments in bp.
+# T8 Protein S8 50 53 592 595 A3G
+
+After 48 h, cells were harvested for luciferase assay.
+# T9 Protein S9 37 47 659 669 luciferase
+
+Firefly luciferase activities were normalized to coexpressed renilla luciferase activities.
+# T10 Protein S10 8 18 685 695 luciferase
+# T11 Protein S10 69 79 746 756 luciferase
+$ T10 Protein S10 8 18 685 695 luciferase
+$ T11 Protein S10 69 79 746 756 luciferase
+@ T14 Gene_expression S10 49 60 726 737 coexpressed
+% E2 Gene_expression:T14 Theme:T10
+% E3 Gene_expression:T14 Theme:T11
+
+Mean values (+/-SD) of a representative experiment performed in triplicate are shown.
+

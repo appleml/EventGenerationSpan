@@ -1,0 +1,60 @@
+Cylindromatosis protein
+# T1 Protein S1 0 15 0 15 Cylindromatosis
+
+Cylindromatosis (CYLD) protein was originally identified as a tumour suppressor involved in familial cylindromatosis [63].
+# T2 Protein S2 0 15 24 39 Cylindromatosis
+# T3 Protein S2 17 21 41 45 CYLD
+
+CYLD is also involved, however, in diverse physiological processes ranging from immunity and inflammation to cell cycle progression, spermatogenesis, and osteoclastogenesis (reviewed in [64]).
+# T4 Protein S3 0 4 147 151 CYLD
+
+CYLD is a deubiquitinating enzyme that negatively regulates NF-kappaB signalling initiated by TNFR, RANK and T-cell receptor stimulation (reviewed in [64]) (Figure 1), by deubiquitina-ting several NF-kappaB signalling proteins including NEMO, TRAF2, TRAF6, TRAF7, RIP1 and TAK1.
+# T5 Protein S4 0 4 340 344 CYLD
+# T6 Protein S4 10 33 350 373 deubiquitinating enzyme
+# T7 Protein S4 100 104 440 444 RANK
+# T8 Protein S4 237 241 577 581 NEMO
+# T9 Protein S4 243 248 583 588 TRAF2
+# T10 Protein S4 250 255 590 595 TRAF6
+# T11 Protein S4 257 262 597 602 TRAF7
+# T12 Protein S4 264 268 604 608 RIP1
+# T13 Protein S4 273 277 613 617 TAK1
+
+Many of these are also targeted by A20 and it is still not clear why the cell needs A20 as well as CYLD to control NF-kappaB activation.
+# T14 Protein S5 35 38 654 657 A20
+# T15 Protein S5 84 87 703 706 A20
+# T16 Protein S5 99 103 718 722 CYLD
+
+As A20 is only expressed in many cell types upon stimulation, it has been suggested that this protein mainly regulates later phases of NF-kappaB signalling, whereas CYLD would regulate constitutive and early signalling.
+# T17 Protein S6 3 6 759 762 A20
+# T18 Protein S6 165 169 921 925 CYLD
+
+In addition, their relative activity might also be cell-type dependent [64].
+
+Interestingly, CYLD has been shown to negatively regulate RANK signalling and osteoclastogenesis in mice [65].
+# T19 Protein S8 15 19 1068 1072 CYLD
+# T20 Protein S8 58 62 1111 1115 RANK
+
+Mice with a genetic deficiency of CYLD have aberrant osteoclast differentiation and develop severe osteoporosis.
+# T21 Protein S9 34 38 1198 1202 CYLD
+
+Osteoclast precursors of these mice are hyper-responsive to RANKL-induced differentiation and produce more and larger osteoclasts.
+# T22 Protein S10 60 65 1337 1342 RANKL
+
+CYLD expression is markedly upregulated under conditions of RANKL-induced osteoclastogenesis and is recruited to ubiquitinated TRAF6 via the ubiquitin-binding adaptor protein p62 (also known as sequestosome 1) [65], followed by the CYLD-mediated deubiquitination of TRAF6.
+# T23 Protein S11 0 4 1408 1412 CYLD
+# T24 Protein S11 60 65 1468 1473 RANKL
+# T26 Protein S11 127 132 1535 1540 TRAF6
+# T27 Protein S11 141 150 1549 1558 ubiquitin
+# T28 Protein S11 175 178 1583 1586 p62
+# T29 Protein S11 194 208 1602 1616 sequestosome 1
+# T30 Protein S11 232 236 1640 1644 CYLD
+# T31 Protein S11 266 271 1674 1679 TRAF6
+
+In this context, it is worth mentioning that transgenic mice expressing a mutated form of p62 also display abnormal osteoclastogenesis and develop progressive bone loss [66].
+# T32 Protein S12 90 93 1771 1774 p62
+
+These findings suggest that CYLD-mediated inhibi-tion of RANK-induced NF-kappaB signalling plays a key role in the negative regulation of osteoclastogenesis and indicate CYLD as a potential genetic factor involved in the pathology of bone disorders such as RA.
+# T33 Protein S13 28 32 1884 1888 CYLD
+# T34 Protein S13 57 61 1913 1917 RANK
+# T35 Protein S13 170 174 2026 2030 CYLD
+

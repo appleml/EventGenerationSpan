@@ -1,0 +1,137 @@
+Differential effects of protein kinase C inhibitors on fibronectin-induced interleukin-beta gene transcription, protein synthesis and secretion in human monocytic cells.
+# T1 Protein S1 55 66 55 66 fibronectin
+# T2 Protein S1 75 91 75 91 interleukin-beta
+$ T1 Protein S1 55 66 55 66 fibronectin
+$ T2 Protein S1 75 91 75 91 interleukin-beta
+@ T22 Regulation S1 13 20 13 20 effects
+@ T23 Positive_regulation S1 67 74 67 74 induced
+@ T24 Transcription S1 97 110 97 110 transcription
+@ T25 Localization S1 134 143 134 143 secretion
+% E1 Regulation:T22 Theme:E3
+% E2 Regulation:T22 Theme:E4
+% E3 Positive_regulation:T23 Theme:E6 Cause:T1
+% E4 Positive_regulation:T23 Theme:E5 Cause:T1
+% E5 Transcription:T24 Theme:T2
+% E6 Localization:T25 Theme:T2
+
+Human monocytic cells express interleukin-1beta (IL-1beta) when stimulated with the extracellular matrix glycoprotein, fibronectin (FN).
+# T3 Protein S2 30 47 201 218 interleukin-1beta
+# T4 Protein S2 49 57 220 228 IL-1beta
+# T5 Protein S2 119 130 290 301 fibronectin
+# T6 Protein S2 132 134 303 305 FN
+$ T4 Protein S2 49 57 220 228 IL-1beta
+@ T26 Gene_expression S2 22 29 193 200 express
+@ T27 Positive_regulation S2 59 63 230 234 when
+% E7 Gene_expression:T26 Theme:T4
+% E8 Positive_regulation:T27 Theme:E7
+
+Protein kinase C (PKC) activation is considered important for this process; however, the metabolic steps at which PKC acts upon to mediate the FN-induced IL-1beta response remain unclear.
+# T7 Protein S3 143 145 451 453 FN
+# T8 Protein S3 154 162 462 470 IL-1beta
+$ T8 Protein S3 154 162 462 470 IL-1beta
+$ T7 Protein S3 143 145 451 453 FN
+@ T28 Positive_regulation S3 48 57 356 365 important
+@ T29 Positive_regulation S3 118 138 426 446 acts upon to mediate
+@ T30 Positive_regulation S3 146 153 454 461 induced
+% E9 Positive_regulation:T28 Theme:E8
+% E10 Positive_regulation:T29 Theme:E11
+% E11 Positive_regulation:T30 Theme:T8 Cause:T7
+
+We performed an analysis of the mechanisms by which two PKC inhibitors, Calphostin C and Staurosporine, prevent the FN-induced IL-1beta response.
+# T9 Protein S4 116 118 612 614 FN
+# T10 Protein S4 127 135 623 631 IL-1beta
+$ T10 Protein S4 127 135 623 631 IL-1beta
+$ T9 Protein S4 116 118 612 614 FN
+@ T31 Negative_regulation S4 104 111 600 607 prevent
+@ T32 Positive_regulation S4 119 126 615 622 induced
+% E12 Negative_regulation:T31 Theme:E13
+% E13 Positive_regulation:T32 Theme:T10 Cause:T9
+
+Both inhibitors blocked the secretion of IL-1beta protein into the media of peripheral blood mononuclear cells exposed to FN.
+# T11 Protein S5 41 49 683 691 IL-1beta
+# T12 Protein S5 122 124 764 766 FN
+$ T11 Protein S5 41 49 683 691 IL-1beta
+@ T33 Negative_regulation S5 16 23 658 665 blocked
+@ T34 Localization S5 28 37 670 679 secretion
+@ T35 Positive_regulation S5 58 62 700 704 into
+% E14 Negative_regulation:T33 Theme:E16
+% E15 Localization:T34 Theme:T11
+% E16 Positive_regulation:T35 Theme:E15
+
+Immunoprecipitation analysis revealed that under these circumstances, Calphostin C inhibited the production of IL-1beta protein, whereas Staurosporine allowed protein production, but inhibited its secretion.
+# T13 Protein S6 111 119 879 887 IL-1beta
+$ T13 Protein S6 111 119 879 887 IL-1beta
+@ T36 Negative_regulation S6 83 92 851 860 inhibited
+@ T37 Gene_expression S6 97 107 865 875 production
+@ T38 Negative_regulation S6 151 158 919 926 allowed
+@ T39 Gene_expression S6 167 177 935 945 production
+@ T40 Negative_regulation S6 183 192 951 960 inhibited
+@ T41 Localization S6 197 206 965 974 secretion
+% E17 Negative_regulation:T36 Theme:E18
+% E18 Gene_expression:T37 Theme:T13
+% E19 Negative_regulation:T38 Theme:E20
+% E20 Gene_expression:T39 Theme:T13
+% E21 Negative_regulation:T40 Theme:E22
+% E22 Localization:T41 Theme:T13
+
+To determine the mechanisms responsible for these differences, we turned to human U937 promonocytic cells.
+
+U937 cells transfected with the human full-length IL-1beta promoter connected to a luciferase reporter gene were submitted to transcription assays, Northern blotting, and DNA electrophoresis mobility gel shift assays.
+# T14 Protein S8 50 58 1133 1141 IL-1beta
+
+These studies revealed that Calphostin C inhibited the nuclear translocation of the transcription factor activator protein-1 (AP-1) which is considered necessary for FN induction of IL-1beta gene transcription, and prevented the transcription of the IL-1beta gene.
+# T15 Protein S9 166 168 1467 1469 FN
+# T16 Protein S9 182 190 1483 1491 IL-1beta
+# T17 Protein S9 250 258 1551 1559 IL-1beta
+$ T15 Protein S9 166 168 1467 1469 FN
+$ T16 Protein S9 182 190 1483 1491 IL-1beta
+$ T17 Protein S9 250 258 1551 1559 IL-1beta
+@ T42 Positive_regulation S9 152 161 1453 1462 necessary
+@ T43 Positive_regulation S9 169 178 1470 1479 induction
+@ T44 Transcription S9 196 209 1497 1510 transcription
+@ T45 Negative_regulation S9 215 224 1516 1525 prevented
+@ T46 Transcription S9 229 242 1530 1543 transcription
+% E23 Positive_regulation:T42 Theme:E24
+% E24 Positive_regulation:T43 Theme:E25 Cause:T15
+% E25 Transcription:T44 Theme:T16
+% E26 Negative_regulation:T45 Theme:E27
+% E27 Transcription:T46 Theme:T17
+
+In contrast, Staurosporine alone induced AP-1 translocation and stimulation of the gene.
+@ T47 Positive_regulation S10 33 40 1599 1606 induced
+@ T48 Positive_regulation S10 64 75 1630 1641 stimulation
+% E28 Positive_regulation:T47 Theme:E29
+% E29 Positive_regulation:T48 Theme:T17
+
+Overall, our data indicate that Calphostin C prevents the transcription of the IL-1beta gene thereby inhibiting protein synthesis.
+# T18 Protein S11 79 87 1734 1742 IL-1beta
+$ T18 Protein S11 79 87 1734 1742 IL-1beta
+@ T49 Negative_regulation S11 45 53 1700 1708 prevents
+@ T50 Transcription S11 58 71 1713 1726 transcription
+@ T51 Negative_regulation S11 101 111 1756 1766 inhibiting
+@ T52 Gene_expression S11 120 129 1775 1784 synthesis
+% E30 Negative_regulation:T49 Theme:E31
+% E31 Transcription:T50 Theme:T18
+% E32 Negative_regulation:T51 Theme:E33 Cause:E30
+% E33 Gene_expression:T52 Theme:T18
+
+Based on the high specificity of this compound for PKC, we conclude that PKC is necessary for FN-induced IL-1beta protein production.
+# T19 Protein S12 94 96 1880 1882 FN
+# T20 Protein S12 105 113 1891 1899 IL-1beta
+$ T19 Protein S12 94 96 1880 1882 FN
+$ T20 Protein S12 105 113 1891 1899 IL-1beta
+@ T53 Positive_regulation S12 80 89 1866 1875 necessary
+@ T54 Positive_regulation S12 97 104 1883 1890 induced
+@ T55 Gene_expression S12 122 132 1908 1918 production
+% E34 Positive_regulation:T53 Theme:E35
+% E35 Positive_regulation:T54 Theme:E36 Cause:T19
+% E36 Gene_expression:T55 Theme:T20
+
+In contrast, Staurosporine prevented secretion of IL-1beta by unknown mechanisms.
+# T21 Protein S13 50 58 1970 1978 IL-1beta
+$ T21 Protein S13 50 58 1970 1978 IL-1beta
+@ T56 Negative_regulation S13 27 36 1947 1956 prevented
+@ T57 Localization S13 37 46 1957 1966 secretion
+% E37 Negative_regulation:T56 Theme:E38
+% E38 Localization:T57 Theme:T21
+

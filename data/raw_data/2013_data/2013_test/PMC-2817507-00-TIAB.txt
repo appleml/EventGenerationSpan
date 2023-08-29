@@ -1,0 +1,30 @@
+Activation of TLR4-Mediated NFkappaB Signaling in Hemorrhagic Brain in Rats
+# T1 Protein S1 14 18 14 18 TLR4
+
+Inflammation and immunity play a crucial role in the pathogenesis of Intracerebral hemorrhage (ICH).
+
+Toll-like receptor 4- (TLR4-) mediated nuclear factor kappa-B (NFkappaB) signaling plays critical roles in the activation and regulation of inflammatory responses in injured brain.
+# T2 Protein S3 0 20 177 197 Toll-like receptor 4
+# T3 Protein S3 23 27 200 204 TLR4
+
+However, the involvement of TLR4-mediated NFkappaB signaling in the pathogenesis of ICH remains unknown.
+# T4 Protein S4 28 32 386 390 TLR4
+
+The present study was to evaluate the temporal profile of the expression of TLR4 and the activation of TLR4-mediated NFkappaB signaling in brain tissues of Wistar rats after ICH.
+# T5 Protein S5 76 80 539 543 TLR4
+# T6 Protein S5 103 107 566 570 TLR4
+
+TLR4 mRNA and protein, the phosphorylation of inhibitors of kappa B (p-IkappaBalpha), and the activity of NFkappaB were examined in hemorrhagic cerebral tissue by Rt-PCR, Western blots, immunohistochemistry staining, and EMSA.
+# T7 Protein S6 0 4 642 646 TLR4
+# T8 Protein S6 46 67 688 709 inhibitors of kappa B
+# T9 Protein S6 71 83 713 725 IkappaBalpha
+
+Compared with saline control, the TLR4 mRNA and protein significantly increased starting at 6 hours after ICH, peaked on the 3rd day after ICH, and then decreased but still maintained at a higher level on the 7th day after ICH (P < .05).
+# T10 Protein S7 34 38 903 907 TLR4
+
+The level of p-IkappaBalpha and the activity of NFkappaB also increased in the brain after ICH compared with saline control.
+# T11 Protein S8 15 27 1122 1134 IkappaBalpha
+
+The present study firstly suggests that TLR4-mediated NFkappaB signaling participates in the pathogenesis of ICH, which may become a therapeutic target for ICH-induced brain damage.
+# T12 Protein S9 40 44 1272 1276 TLR4
+

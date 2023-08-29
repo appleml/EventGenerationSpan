@@ -1,0 +1,142 @@
+Adherence-dependent increase in human monocyte PDGF(B) mRNA is associated with increases in c-fos, c-jun, and EGR2 mRNA.
+# T1 Protein S1 47 54 47 54 PDGF(B)
+# T2 Protein S1 92 97 92 97 c-fos
+# T3 Protein S1 99 104 99 104 c-jun
+# T4 Protein S1 110 114 110 114 EGR2
+$ T1 Protein S1 47 54 47 54 PDGF(B)
+$ T4 Protein S1 110 114 110 114 EGR2
+$ T2 Protein S1 92 97 92 97 c-fos
+$ T3 Protein S1 99 104 99 104 c-jun
+@ T29 Positive_regulation S1 20 28 20 28 increase
+@ T30 Positive_regulation S1 79 88 79 88 increases
+% E1 Positive_regulation:T29 Theme:T1
+% E2 Positive_regulation:T30 Theme:T4
+% E3 Positive_regulation:T30 Theme:T2
+% E4 Positive_regulation:T30 Theme:T3
+
+Adherence is an important initial step in the transition of a circulating monocyte to a tissue macrophage.
+
+This differentiation is accompanied by an augmented capacity to generate growth factors.
+
+We hypothesized that adherence itself might be an important trigger for a sequence of gene activation culminating in cells with increased mRNA encoding profibrotic growth factors such as platelet-derived growth factor B subunit (PDGF[B]) and transforming growth factor-beta (TGF-beta).
+# T5 Protein S4 187 227 505 545 platelet-derived growth factor B subunit
+# T6 Protein S4 229 236 547 554 PDGF[B]
+# T7 Protein S4 242 273 560 591 transforming growth factor-beta
+# T8 Protein S4 275 283 593 601 TGF-beta
+$ T8 Protein S4 275 283 593 601 TGF-beta
+$ T6 Protein S4 229 236 547 554 PDGF[B]
+@ T31 Positive_regulation S4 102 113 420 431 culminating
+@ T32 Positive_regulation S4 128 137 446 455 increased
+% E5 Positive_regulation:T31 Theme:E7
+% E6 Positive_regulation:T31 Theme:E8
+% E7 Positive_regulation:T32 Theme:T8
+% E8 Positive_regulation:T32 Theme:T6
+
+After in vitro adherence, human monocytes had a biphasic increase in PDGF(B) mRNA with peaks at 6 h and 13 d. No increase in TGF-beta mRNA was observed.
+# T9 Protein S5 69 76 673 680 PDGF(B)
+# T10 Protein S5 125 133 729 737 TGF-beta
+$ T9 Protein S5 69 76 673 680 PDGF(B)
+$ T10 Protein S5 125 133 729 737 TGF-beta
+@ T33 Positive_regulation S5 57 65 661 669 increase
+@ T34 Positive_regulation S5 113 121 717 725 increase
+% E9 Positive_regulation:T33 Theme:T9
+% E10 Positive_regulation:T34 Theme:T10
+
+The 6-h increase in PDGF(B) mRNA was adherence dependent, and in addition, was abrogated when the cytoskeletal integrity was compromised by cytochalasin D.
+# T11 Protein S6 20 27 777 784 PDGF(B)
+$ T11 Protein S6 20 27 777 784 PDGF(B)
+@ T35 Positive_regulation S6 8 16 765 773 increase
+@ T36 Regulation S6 47 56 804 813 dependent
+@ T37 Negative_regulation S6 79 88 836 845 abrogated
+% E11 Positive_regulation:T35 Theme:T11
+% E12 Regulation:T36 Theme:E11
+% E13 Negative_regulation:T37 Theme:E11
+
+The 6-h increase in PDGF(B) mRNA was unaltered by adherence in the presence of the monocyte stimulus lipopolysaccharide.
+# T12 Protein S7 20 27 933 940 PDGF(B)
+$ T12 Protein S7 20 27 933 940 PDGF(B)
+@ T38 Positive_regulation S7 8 16 921 929 increase
+@ T39 Regulation S7 37 46 950 959 unaltered
+@ T40 Positive_regulation S7 60 78 973 991 in the presence of
+% E14 Positive_regulation:T38 Theme:T12
+% E15 Regulation:T39 Theme:E14
+% E16 Positive_regulation:T40 Theme:E15
+
+Adherence to either fibronectin or collagen-coated plastic had little consistent effect on PDGF(B) mRNA accumulation.
+# T13 Protein S8 20 31 1054 1065 fibronectin
+# T14 Protein S8 91 98 1125 1132 PDGF(B)
+$ T14 Protein S8 91 98 1125 1132 PDGF(B)
+@ T41 Regulation S8 81 87 1115 1121 effect
+@ T42 Positive_regulation S8 104 116 1138 1150 accumulation
+% E17 Regulation:T41 Theme:E18
+% E18 Positive_regulation:T42 Theme:T14
+
+The increased PDGF(B) mRNA observed in adherent monocytes was accompanied by increases in mRNAs of the early growth response genes c-fos (maximal at 20 min), c-jun, and EGR2 (maximal at 6-24 h).
+# T15 Protein S9 14 21 1166 1173 PDGF(B)
+# T16 Protein S9 131 136 1283 1288 c-fos
+# T17 Protein S9 158 163 1310 1315 c-jun
+# T18 Protein S9 169 173 1321 1325 EGR2
+$ T15 Protein S9 14 21 1166 1173 PDGF(B)
+$ T17 Protein S9 158 163 1310 1315 c-jun
+$ T18 Protein S9 169 173 1321 1325 EGR2
+$ T16 Protein S9 131 136 1283 1288 c-fos
+@ T43 Positive_regulation S9 4 13 1156 1165 increased
+@ T44 Positive_regulation S9 77 86 1229 1238 increases
+% E19 Positive_regulation:T43 Theme:T15
+% E20 Positive_regulation:T44 Theme:T17
+% E21 Positive_regulation:T44 Theme:T18
+% E22 Positive_regulation:T44 Theme:T16
+
+The increase in c-jun and EGR2, but not c-fos, mRNA was also abrogated by cytochalasin D.
+# T19 Protein S10 16 21 1363 1368 c-jun
+# T20 Protein S10 26 30 1373 1377 EGR2
+# T21 Protein S10 40 45 1387 1392 c-fos
+$ T21 Protein S10 40 45 1387 1392 c-fos
+$ T19 Protein S10 16 21 1363 1368 c-jun
+$ T20 Protein S10 26 30 1373 1377 EGR2
+@ T45 Positive_regulation S10 4 12 1351 1359 increase
+@ T46 Negative_regulation S10 61 70 1408 1417 abrogated
+% E23 Positive_regulation:T45 Theme:T21
+% E24 Positive_regulation:T45 Theme:T19
+% E25 Positive_regulation:T45 Theme:T20
+% E26 Negative_regulation:T46 Theme:E23
+% E27 Negative_regulation:T46 Theme:E25
+% E28 Negative_regulation:T46 Theme:E24
+
+These observations suggest that adherence results in increases of c-fos, c-jun, EGR2, and PDGF(B) mRNA.
+# T22 Protein S11 66 71 1503 1508 c-fos
+# T23 Protein S11 73 78 1510 1515 c-jun
+# T24 Protein S11 80 84 1517 1521 EGR2
+# T25 Protein S11 90 97 1527 1534 PDGF(B)
+$ T22 Protein S11 66 71 1503 1508 c-fos
+$ T24 Protein S11 80 84 1517 1521 EGR2
+$ T23 Protein S11 73 78 1510 1515 c-jun
+$ T25 Protein S11 90 97 1527 1534 PDGF(B)
+@ T47 Positive_regulation S11 42 62 1479 1499 results in increases
+% E29 Positive_regulation:T47 Theme:T22
+% E30 Positive_regulation:T47 Theme:T24
+% E31 Positive_regulation:T47 Theme:T23
+% E32 Positive_regulation:T47 Theme:T25
+
+In addition, the increases in c-jun, EGR2, and PDGF(B) may depend on cytoskeletal rearrangement.
+# T26 Protein S12 30 35 1571 1576 c-jun
+# T27 Protein S12 37 41 1578 1582 EGR2
+# T28 Protein S12 47 54 1588 1595 PDGF(B)
+$ T26 Protein S12 30 35 1571 1576 c-jun
+$ T28 Protein S12 47 54 1588 1595 PDGF(B)
+$ T27 Protein S12 37 41 1578 1582 EGR2
+@ T48 Positive_regulation S12 17 26 1558 1567 increases
+@ T49 Regulation S12 59 65 1600 1606 depend
+% E33 Positive_regulation:T48 Theme:T26
+% E34 Positive_regulation:T48 Theme:T28
+% E35 Positive_regulation:T48 Theme:T27
+% E36 Regulation:T49 Theme:E33
+% E37 Regulation:T49 Theme:E35
+% E38 Regulation:T49 Theme:E34
+
+Modulation of these events at the time of adherence offers a mechanism by which differential priming of the cells may be accomplished.
+@ T50 Regulation S13 0 10 1638 1648 Modulation
+% E39 Regulation:T50 Theme:E35
+% E40 Regulation:T50 Theme:E33
+% E41 Regulation:T50 Theme:E34
+

@@ -1,0 +1,76 @@
+Targeted degradation of c-Fos, but not v-Fos, by a phosphorylation-dependent signal on c-Jun.
+# T1 Protein S1 24 29 24 29 c-Fos
+# T2 Protein S1 39 44 39 44 v-Fos
+# T3 Protein S1 87 92 87 92 c-Jun
+$ T2 Protein S1 39 44 39 44 v-Fos
+$ T1 Protein S1 24 29 24 29 c-Fos
+@ T15 Positive_regulation S1 0 8 0 8 Targeted
+@ T16 Protein_catabolism S1 9 20 9 20 degradation
+% E1 Positive_regulation:T15 Theme:E4
+% E2 Positive_regulation:T15 Theme:E3
+% E3 Protein_catabolism:T16 Theme:T2
+% E4 Protein_catabolism:T16 Theme:T1
+
+The proto-oncogene products c-Fos and c-Jun heterodimerize through their leucine zippers to form the AP-1 transcription factor.
+# T4 Protein S2 28 33 123 128 c-Fos
+# T5 Protein S2 38 43 133 138 c-Jun
+$ T4 Protein S2 28 33 123 128 c-Fos
+$ T5 Protein S2 38 43 133 138 c-Jun
+@ T17 Binding S2 44 58 139 153 heterodimerize
+@ T18 Positive_regulation S2 59 66 154 161 through
+% E5 Binding:T17 Theme:T4 Theme2:T5
+% E6 Positive_regulation:T18 Theme:E5
+
+The transcriptional activity of the heterodimer is regulated by signal-dependent phosphorylation and dephosphorylation events.
+
+The stability of c-Fos was found to also be controlled by intracellular signal transduction.
+# T6 Protein S4 17 22 367 372 c-Fos
+$ T6 Protein S4 17 22 367 372 c-Fos
+@ T19 Protein_catabolism S4 4 13 354 363 stability
+@ T20 Regulation S4 44 54 394 404 controlled
+% E7 Protein_catabolism:T19 Theme:T6
+% E8 Regulation:T20 Theme:E7
+
+In transient expression and in vitro degradation experiments, the stability of c-Fos was decreased when the protein was dimerized with phosphorylated c-Jun.
+# T7 Protein S5 79 84 522 527 c-Fos
+# T8 Protein S5 150 155 593 598 c-Jun
+$ T7 Protein S5 79 84 522 527 c-Fos
+$ T8 Protein S5 150 155 593 598 c-Jun
+@ T21 Negative_regulation S5 89 98 532 541 decreased
+@ T22 Positive_regulation S5 99 103 542 546 when
+@ T23 Binding S5 120 129 563 572 dimerized
+@ T24 Phosphorylation S5 135 149 578 592 phosphorylated
+% E9 Negative_regulation:T21 Theme:T7
+% E10 Positive_regulation:T22 Theme:E9 Cause:E11
+% E11 Binding:T23 Theme:T7 Theme2:T8
+% E12 Phosphorylation:T24 Theme:T8
+
+c-Jun protein isolated from phorbol ester-induced cells did not target c-Fos for degradation, which suggests that c-Fos is transiently stabilized after stimulation of cell growth.
+# T9 Protein S6 0 5 600 605 c-Jun
+# T10 Protein S6 71 76 671 676 c-Fos
+# T11 Protein S6 114 119 714 719 c-Fos
+$ T9 Protein S6 0 5 600 605 c-Jun
+$ T10 Protein S6 71 76 671 676 c-Fos
+$ T11 Protein S6 114 119 714 719 c-Fos
+@ T25 Positive_regulation S6 64 70 664 670 target
+@ T26 Protein_catabolism S6 81 92 681 692 degradation
+@ T27 Protein_catabolism S6 135 145 735 745 stabilized
+@ T28 Positive_regulation S6 146 151 746 751 after
+% E13 Positive_regulation:T25 Theme:E14 Cause:T9
+% E14 Protein_catabolism:T26 Theme:T10
+% E15 Protein_catabolism:T27 Theme:T11
+% E16 Positive_regulation:T28 Theme:E15
+
+v-Fos protein, the retroviral counterpart of c-Fos, was not susceptible to degradation targeted by c-Jun.
+# T12 Protein S7 0 5 780 785 v-Fos
+# T13 Protein S7 45 50 825 830 c-Fos
+# T14 Protein S7 99 104 879 884 c-Jun
+$ T12 Protein S7 0 5 780 785 v-Fos
+$ T14 Protein S7 99 104 879 884 c-Jun
+@ T29 Positive_regulation S7 60 71 840 851 susceptible
+@ T30 Protein_catabolism S7 75 86 855 866 degradation
+@ T31 Binding S7 87 95 867 875 targeted
+% E17 Positive_regulation:T29 Theme:T12
+% E18 Protein_catabolism:T30 Theme:T12
+% E19 Binding:T31 Theme:T12 Theme2:T14
+

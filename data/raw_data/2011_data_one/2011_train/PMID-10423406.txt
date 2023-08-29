@@ -1,0 +1,107 @@
+Stimulation of neutrophil interleukin-8 production by eosinophil granule major basic protein.
+# T1 Protein S1 26 39 26 39 interleukin-8
+# T2 Protein S1 54 92 54 92 eosinophil granule major basic protein
+$ T1 Protein S1 26 39 26 39 interleukin-8
+@ T27 Gene_expression S1 40 50 40 50 production
+% E1 Gene_expression:T27 Theme:T1
+
+We evaluated the ability of eosinophil granule major basic protein (MBP) to stimulate interleukin (IL)-8 production by neutrophils.
+# T3 Protein S2 28 66 123 161 eosinophil granule major basic protein
+# T4 Protein S2 68 71 163 166 MBP
+# T5 Protein S2 86 104 181 199 interleukin (IL)-8
+$ T4 Protein S2 68 71 163 166 MBP
+$ T5 Protein S2 86 104 181 199 interleukin (IL)-8
+@ T28 Positive_regulation S2 76 85 171 180 stimulate
+@ T29 Gene_expression S2 105 115 200 210 production
+% E2 Positive_regulation:T28 Theme:E3 Cause:T4
+% E3 Gene_expression:T29 Theme:T5
+
+MBP over the concentration range of 0.1 to 10 microM stimulated the release of up to approximately 8 ng/ml IL-8.
+# T6 Protein S3 0 3 227 230 MBP
+# T7 Protein S3 107 111 334 338 IL-8
+$ T6 Protein S3 0 3 227 230 MBP
+$ T7 Protein S3 107 111 334 338 IL-8
+@ T30 Positive_regulation S3 53 63 280 290 stimulated
+@ T31 Localization S3 68 75 295 302 release
+% E4 Positive_regulation:T30 Theme:E5 Cause:T6
+% E5 Localization:T31 Theme:T7
+
+Incubation with 2 microM MBP showed that, after a 1 h lag, the level of IL-8 release increased with time for approximately 10 h.
+# T8 Protein S4 25 28 365 368 MBP
+# T9 Protein S4 72 76 412 416 IL-8
+$ T9 Protein S4 72 76 412 416 IL-8
+$ T8 Protein S4 25 28 365 368 MBP
+@ T32 Localization S4 77 84 417 424 release
+@ T33 Positive_regulation S4 85 94 425 434 increased
+% E6 Localization:T32 Theme:T9
+% E7 Positive_regulation:T33 Theme:E6 Cause:T8
+
+At the 2 microM concentration, eosinophil cationic protein, eosinophil-derived neurotoxin, and eosinophil peroxidase did not stimulate significant levels of IL-8 production.
+# T10 Protein S5 31 58 500 527 eosinophil cationic protein
+# T11 Protein S5 95 116 564 585 eosinophil peroxidase
+# T12 Protein S5 157 161 626 630 IL-8
+$ T12 Protein S5 157 161 626 630 IL-8
+@ T34 Gene_expression S5 162 172 631 641 production
+% E8 Gene_expression:T34 Theme:T12
+
+MBP stimulated 2-fold increases in IL-8 messenger RNA (mRNA) after 1 and 3 h of incubation, which were blocked by pretreatment with actinomycin D. However, stimulation with MBP did not produce an increase in the binding activity of nuclear factor (NF)-kappaB or activator protein-1.
+# T13 Protein S6 0 3 643 646 MBP
+# T14 Protein S6 35 39 678 682 IL-8
+# T15 Protein S6 173 176 816 819 MBP
+$ T13 Protein S6 0 3 643 646 MBP
+$ T14 Protein S6 35 39 678 682 IL-8
+@ T35 Positive_regulation S6 4 14 647 657 stimulated
+@ T36 Positive_regulation S6 22 31 665 674 increases
+@ T37 Negative_regulation S6 103 110 746 753 blocked
+% E9 Positive_regulation:T35 Theme:E10 Cause:T13
+% E10 Positive_regulation:T36 Theme:T14
+% E11 Negative_regulation:T37 Theme:E9
+
+No NF-IL-6 binding activity was detected in the same nuclear extracts.
+
+In addition, stimulation with MBP prolonged the stability of IL-8 mRNA.
+# T16 Protein S8 30 33 1027 1030 MBP
+# T17 Protein S8 61 65 1058 1062 IL-8
+$ T17 Protein S8 61 65 1058 1062 IL-8
+@ T38 Positive_regulation S8 34 57 1031 1054 prolonged the stability
+% E12 Positive_regulation:T38 Theme:T17
+
+MBP also induced transient increases in mRNA for macrophage inflammatory protein (MIP)-1alpha and MIP-1beta, but did not stimulate the release of either chemokine.
+# T18 Protein S9 0 3 1069 1072 MBP
+# T19 Protein S9 49 93 1118 1162 macrophage inflammatory protein (MIP)-1alpha
+# T20 Protein S9 98 107 1167 1176 MIP-1beta
+$ T20 Protein S9 98 107 1167 1176 MIP-1beta
+$ T18 Protein S9 0 3 1069 1072 MBP
+$ T19 Protein S9 49 93 1118 1162 macrophage inflammatory protein (MIP)-1alpha
+@ T39 Positive_regulation S9 27 36 1096 1105 increases
+@ T40 Positive_regulation S9 121 130 1190 1199 stimulate
+@ T41 Localization S9 135 142 1204 1211 release
+% E13 Positive_regulation:T39 Theme:T20 Cause:T18
+% E14 Positive_regulation:T39 Theme:T19 Cause:T18
+% E15 Positive_regulation:T40 Theme:E17 Cause:T18
+% E16 Positive_regulation:T40 Theme:E18 Cause:T18
+% E17 Localization:T41 Theme:T19
+% E18 Localization:T41 Theme:T20
+
+These findings indicate that MBP is selective among the eosinophil granule proteins as a stimulus for neutrophil IL-8 release and, further, that stimulation of neutrophil IL-8 release by MBP involves both transcriptional and posttranscriptional regulation.
+# T21 Protein S10 29 32 1262 1265 MBP
+# T22 Protein S10 113 117 1346 1350 IL-8
+# T23 Protein S10 171 175 1404 1408 IL-8
+# T24 Protein S10 187 190 1420 1423 MBP
+$ T22 Protein S10 113 117 1346 1350 IL-8
+$ T23 Protein S10 171 175 1404 1408 IL-8
+@ T42 Localization S10 118 125 1351 1358 release
+@ T43 Localization S10 176 183 1409 1416 release
+% E19 Localization:T42 Theme:T22
+% E20 Localization:T43 Theme:T23
+
+We postulate that MBP-induced release of IL-8 by neutrophils may contribute to the pathophysiology of acute asthma and other inflammatory lung diseases.
+# T25 Protein S11 18 21 1508 1511 MBP
+# T26 Protein S11 41 45 1531 1535 IL-8
+$ T25 Protein S11 18 21 1508 1511 MBP
+$ T26 Protein S11 41 45 1531 1535 IL-8
+@ T44 Positive_regulation S11 22 29 1512 1519 induced
+@ T45 Localization S11 30 37 1520 1527 release
+% E21 Positive_regulation:T44 Theme:E22 Cause:T25
+% E22 Localization:T45 Theme:T26
+

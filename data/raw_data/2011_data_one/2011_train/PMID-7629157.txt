@@ -1,0 +1,113 @@
+Activation of NF-kappa B by phosphatase inhibitors involves the phosphorylation of I kappa B alpha at phosphatase 2A-sensitive sites.
+# T1 Protein S1 83 98 83 98 I kappa B alpha
+$ T1 Protein S1 83 98 83 98 I kappa B alpha
+@ T21 Phosphorylation S1 64 79 64 79 phosphorylation
+% E1 Phosphorylation:T21 Theme:T1
+
+Activation of NF-kappa B by various cellular stimuli involves the phosphorylation and subsequent degradation of its inhibitor, I kappa B alpha, although the underlying mechanism remains unclear.
+# T2 Protein S2 127 142 262 277 I kappa B alpha
+$ T2 Protein S2 127 142 262 277 I kappa B alpha
+@ T22 Phosphorylation S2 66 81 201 216 phosphorylation
+@ T23 Protein_catabolism S2 97 108 232 243 degradation
+% E2 Phosphorylation:T22 Theme:T2
+% E3 Protein_catabolism:T23 Theme:T2
+
+In the present study, the role of serine/threonine phosphatases in the regulation of I kappa B alpha phosphorylation was investigated.
+# T3 Protein S3 85 100 415 430 I kappa B alpha
+$ T3 Protein S3 85 100 415 430 I kappa B alpha
+@ T24 Regulation S3 71 81 401 411 regulation
+@ T25 Phosphorylation S3 101 116 431 446 phosphorylation
+% E4 Regulation:T24 Theme:E5
+% E5 Phosphorylation:T25 Theme:T3
+
+Our studies demonstrate that incubation of human T cells with low concentrations (approximately 1-5 nM) of calyculin A or okadaic acid, potent inhibitors of protein phosphatase type 1 (PP-1) and type 2A (PP-2A), induces the phosphorylation of I kappa B alpha even in the absence of any cellular stimulus.
+# T4 Protein S4 243 258 708 723 I kappa B alpha
+$ T4 Protein S4 243 258 708 723 I kappa B alpha
+@ T26 Positive_regulation S4 212 219 677 684 induces
+@ T27 Phosphorylation S4 224 239 689 704 phosphorylation
+@ T28 Regulation S4 271 278 736 743 absence
+% E6 Positive_regulation:T26 Theme:E7
+% E7 Phosphorylation:T27 Theme:T4
+% E8 Regulation:T28 Theme:E6
+
+This action of the phosphatase inhibitors, which is associated with the activation of the RelA.p50 NF-kappa B heterodimer, is not affected by agents that block the induction of I kappa B alpha phosphorylation by tumor necrosis factor alpha (TNF-alpha).
+# T5 Protein S5 90 94 860 864 RelA
+# T6 Protein S5 95 98 865 868 p50
+# T7 Protein S5 177 192 947 962 I kappa B alpha
+# T8 Protein S5 212 239 982 1009 tumor necrosis factor alpha
+# T9 Protein S5 241 250 1011 1020 TNF-alpha
+$ T5 Protein S5 90 94 860 864 RelA
+$ T6 Protein S5 95 98 865 868 p50
+$ T7 Protein S5 177 192 947 962 I kappa B alpha
+$ T9 Protein S5 241 250 1011 1020 TNF-alpha
+@ T29 Positive_regulation S5 72 82 842 852 activation
+@ T30 Regulation S5 130 138 900 908 affected
+@ T31 Negative_regulation S5 154 159 924 929 block
+@ T32 Positive_regulation S5 164 173 934 943 induction
+@ T33 Phosphorylation S5 193 208 963 978 phosphorylation
+% E9 Positive_regulation:T29 Theme:T6
+% E10 Positive_regulation:T29 Theme:T5
+% E11 Regulation:T30 Theme:E6
+% E12 Negative_regulation:T31 Theme:E13
+% E13 Positive_regulation:T32 Theme:E14 Cause:T9
+% E14 Phosphorylation:T33 Theme:T7
+
+Furthermore, the phosphorylated I kappa B alpha from calyculin A-treated cells, but not that from TNF-alpha-stimulated cells, is sensitive to PP-2A in vitro, suggesting the existence of fundamental differences in the phosphorylation of I kappa B alpha induced by the two different NF-kappa B inducers.
+# T10 Protein S6 32 47 1055 1070 I kappa B alpha
+# T11 Protein S6 98 107 1121 1130 TNF-alpha
+# T12 Protein S6 236 251 1259 1274 I kappa B alpha
+$ T10 Protein S6 32 47 1055 1070 I kappa B alpha
+$ T11 Protein S6 98 107 1121 1130 TNF-alpha
+$ T12 Protein S6 236 251 1259 1274 I kappa B alpha
+@ T34 Phosphorylation S6 17 31 1040 1054 phosphorylated
+@ T35 Phosphorylation S6 217 232 1240 1255 phosphorylation
+@ T36 Positive_regulation S6 252 259 1275 1282 induced
+% E15 Phosphorylation:T34 Theme:T10
+% E16 Phosphorylation:T35 Theme:T12
+% E17 Positive_regulation:T36 Theme:E16
+% E18 Positive_regulation:T36 Theme:E16 Cause:T11
+
+However, induction of I kappa B alpha phosphorylation by both TNF-alpha and the phosphatase inhibitors is associated with the subsequent degradation of I kappa B alpha.
+# T13 Protein S7 22 37 1347 1362 I kappa B alpha
+# T14 Protein S7 62 71 1387 1396 TNF-alpha
+# T15 Protein S7 152 167 1477 1492 I kappa B alpha
+$ T13 Protein S7 22 37 1347 1362 I kappa B alpha
+$ T14 Protein S7 62 71 1387 1396 TNF-alpha
+$ T15 Protein S7 152 167 1477 1492 I kappa B alpha
+@ T37 Positive_regulation S7 9 18 1334 1343 induction
+@ T38 Phosphorylation S7 38 53 1363 1378 phosphorylation
+@ T39 Protein_catabolism S7 137 148 1462 1473 degradation
+% E19 Positive_regulation:T37 Theme:E21
+% E20 Positive_regulation:T37 Theme:E21 Cause:T14
+% E21 Phosphorylation:T38 Theme:T13
+% E22 Protein_catabolism:T39 Theme:T15
+
+We further demonstrate that TNF-alpha- and calyculin A-induced I kappa B alpha degradation exhibits similar but not identical sensitivities to a proteasome inhibitor.
+# T16 Protein S8 28 37 1522 1531 TNF-alpha
+# T17 Protein S8 63 78 1557 1572 I kappa B alpha
+$ T16 Protein S8 28 37 1522 1531 TNF-alpha
+$ T17 Protein S8 63 78 1557 1572 I kappa B alpha
+@ T40 Positive_regulation S8 55 62 1549 1556 induced
+@ T41 Protein_catabolism S8 79 90 1573 1584 degradation
+% E23 Positive_regulation:T40 Theme:E25
+% E24 Positive_regulation:T40 Theme:E25 Cause:T16
+% E25 Protein_catabolism:T41 Theme:T17
+
+Together, these results suggest that phosphorylation of I kappa B alpha, mediated through both the TNF-alpha-inducible and the PP-2A-opposing kinases, may serve to target I kappa B alpha for proteasome-mediated degradation.
+# T18 Protein S9 56 71 1717 1732 I kappa B alpha
+# T19 Protein S9 99 108 1760 1769 TNF-alpha
+# T20 Protein S9 171 186 1832 1847 I kappa B alpha
+$ T18 Protein S9 56 71 1717 1732 I kappa B alpha
+$ T20 Protein S9 171 186 1832 1847 I kappa B alpha
+@ T42 Phosphorylation S9 37 52 1698 1713 phosphorylation
+@ T43 Positive_regulation S9 73 81 1734 1742 mediated
+@ T44 Regulation S9 155 170 1816 1831 serve to target
+@ T45 Positive_regulation S9 202 210 1863 1871 mediated
+@ T46 Protein_catabolism S9 211 222 1872 1883 degradation
+% E26 Phosphorylation:T42 Theme:T18
+% E27 Positive_regulation:T43 Theme:E26
+% E28 Regulation:T44 Theme:E30
+% E29 Regulation:T44 Theme:E30 Cause:E27
+% E30 Positive_regulation:T45 Theme:E31
+% E31 Protein_catabolism:T46 Theme:T20
+

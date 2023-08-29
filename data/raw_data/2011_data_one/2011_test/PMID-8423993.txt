@@ -1,0 +1,25 @@
+Ras oncogene transformation of human B lymphoblasts is associated with lymphocyte activation and with a block of differentiation.
+
+The p21ras small GTP binding proteins participate in signal transduction from cell surface receptors and affect neoplastic transformation and development in many different cell types.
+# T1 Protein S2 4 10 135 141 p21ras
+
+In the present study, we examined the relationship between ras transformation and differentiation of human B lymphocytes.
+
+We show that the constitutive expression of the T24 Ha-ras oncogene in EBV-immortalized B lymphoblasts was associated with the induction of the interleukin 2 receptor alpha subunit, with an impaired immunoglobulin gene expression, altered adhesion properties and increased survival in serum-free medium.
+# T2 Protein S4 144 172 581 609 interleukin 2 receptor alpha
+
+Since induction of the IL-2 receptor alpha subunit is a hallmark of lymphocyte activation, we suggest that p21ras naturally triggers B cell activation.
+# T3 Protein S5 23 42 764 783 IL-2 receptor alpha
+# T4 Protein S5 107 113 848 854 p21ras
+
+The ras-transformed lymphocytes displayed a fully functional IL-2r, as assessed by c-fos induction following treatment with IL-2; nevertheless, they were not growth stimulated by this lymphokine.
+# T5 Protein S6 83 88 976 981 c-fos
+# T6 Protein S6 124 128 1017 1021 IL-2
+
+The decreased expression of immunoglobulin genes indicates that the ras oncogene blocks terminal differentiation to plasma cells, possibly by inhibiting the activity of lymphocyte-specific transcription factors.
+
+Somewhat unexpectedly, the constitutive p21ras activity did not cause an increased DNA binding of transcription factors PEA1 (AP1), PEA3, Oct-2 or NF-kB.
+# T7 Protein S8 40 46 1341 1347 p21ras
+# T8 Protein S8 132 136 1433 1437 PEA3
+# T9 Protein S8 138 143 1439 1444 Oct-2
+

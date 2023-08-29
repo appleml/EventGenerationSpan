@@ -1,0 +1,71 @@
+SHARPIN Is Essential for Cytokine Production, NF-kappaB Signaling, and Induction of Th1 Differentiation by Dendritic Cells
+# T1 Protein S1 0 7 0 7 SHARPIN
+
+Spontaneous mutations of the Sharpin (SHANK-associated RH domain-interacting protein, other aliases: Rbckl1, Sipl1) gene in mice result in systemic inflammation that is characterized by chronic proliferative dermatitis and dysregulated secretion of T helper1 (Th1) and Th2 cytokines.
+# T2 Protein S2 29 36 152 159 Sharpin
+# T3 Protein S2 38 84 161 207 SHANK-associated RH domain-interacting protein
+# T4 Protein S2 101 107 224 230 Rbckl1
+# T5 Protein S2 109 114 232 237 Sipl1
+$ T2 Protein S2 29 36 152 159 Sharpin
+@ T24 Negative_regulation S2 12 21 135 144 mutations
+% E1 Negative_regulation:T24 Theme:T2
+
+The cellular and molecular mechanisms underlying this inflammatory phenotype remain elusive.
+
+Dendritic cells may contribute to the initiation and progression of the phenotype of SHARPIN-deficient mice because of their pivotal role in innate and adaptive immunity.
+# T6 Protein S4 85 92 585 592 SHARPIN
+$ T6 Protein S4 85 92 585 592 SHARPIN
+@ T25 Negative_regulation S4 93 102 593 602 deficient
+% E2 Negative_regulation:T25 Theme:T6
+
+Here we show by flow cytometry that SHARPIN- deficiency did not alter the distribution of different DC subtypes in the spleen.
+# T7 Protein S5 36 43 707 714 SHARPIN
+$ T7 Protein S5 36 43 707 714 SHARPIN
+@ T26 Negative_regulation S5 45 55 716 726 deficiency
+% E3 Negative_regulation:T26 Theme:T7
+
+In response to TOLL-like receptor (TLR) agonists LPS and poly I:C, cultured bone marrow-derived dendritic cells (BMDC) from WT and mutant mice exhibited similar increases in expression of co-stimulatory molecules CD40, CD80, and CD86.
+# T8 Protein S6 213 217 1011 1015 CD40
+# T9 Protein S6 219 223 1017 1021 CD80
+# T10 Protein S6 229 233 1027 1031 CD86
+
+However, stimulated SHARPIN-deficient BMDC had reduced transcription and secretion of pro-inflammatory mediators IL6, IL12P70, GMCSF, and nitric oxide.
+# T11 Protein S7 20 27 1053 1060 SHARPIN
+# T12 Protein S7 113 116 1146 1149 IL6
+# T13 Protein S7 127 132 1160 1165 GMCSF
+$ T11 Protein S7 20 27 1053 1060 SHARPIN
+$ T12 Protein S7 113 116 1146 1149 IL6
+$ T13 Protein S7 127 132 1160 1165 GMCSF
+@ T27 Negative_regulation S7 28 37 1061 1070 deficient
+@ T28 Negative_regulation S7 47 54 1080 1087 reduced
+@ T29 Transcription S7 55 68 1088 1101 transcription
+@ T30 Gene_expression S7 73 82 1106 1115 secretion
+% E4 Negative_regulation:T27 Theme:T11
+% E5 Negative_regulation:T28 Theme:E6 Cause:E4
+% E7 Negative_regulation:T28 Theme:E8 Cause:E4
+% E9 Negative_regulation:T28 Theme:E10 Cause:E4
+% E11 Negative_regulation:T28 Theme:E12 Cause:E4
+% E6 Transcription:T29 Theme:T12
+% E8 Transcription:T29 Theme:T13
+% E10 Gene_expression:T30 Theme:T12
+% E12 Gene_expression:T30 Theme:T13
+
+Mutant BMDC had defective activation of NF-kappaB signaling, whereas the MAPK1/3 (ERK1/2) and MAPK11/12/13/14 (p38 MAP kinase isoforms) and TBK1 signaling pathways were intact.
+# T14 Protein S8 73 78 1258 1263 MAPK1
+# T15 Protein S8 79 80 1264 1265 3
+# T16 Protein S8 82 86 1267 1271 ERK1
+# T17 Protein S8 87 88 1272 1273 2
+# T18 Protein S8 94 100 1279 1285 MAPK11
+# T19 Protein S8 101 103 1286 1288 12
+# T20 Protein S8 104 106 1289 1291 13
+# T21 Protein S8 107 109 1292 1294 14
+# T22 Protein S8 140 144 1325 1329 TBK1
+
+A mixed lymphocyte reaction showed that mutant BMDC only induced a weak Th1 immune response but stimulated increased Th2 cytokine production from allogeneic naive CD4+ T cells.
+
+In conclusion, loss of Sharpin in mice significantly affects the immune function of DC and this may partially account for the systemic inflammation and Th2-biased immune response.
+# T23 Protein S10 23 30 1562 1569 Sharpin
+$ T23 Protein S10 23 30 1562 1569 Sharpin
+@ T31 Negative_regulation S10 15 19 1554 1558 loss
+% E13 Negative_regulation:T31 Theme:T23
+

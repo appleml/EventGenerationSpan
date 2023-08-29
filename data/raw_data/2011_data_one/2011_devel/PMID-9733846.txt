@@ -1,0 +1,67 @@
+Molecular and cellular analysis of human immunodeficiency virus-induced apoptosis in lymphoblastoid T-cell-line-expressing wild-type and mutated CD4 receptors.
+# T1 Protein S1 145 157 145 157 CD4 receptor
+$ T1 Protein S1 145 157 145 157 CD4 receptor
+@ T19 Gene_expression S1 112 122 112 122 expressing
+% E1 Gene_expression:T19 Theme:T1
+
+We have previously shown that the presence of the CD4 cytoplasmic tail is critical for human immunodeficiency virus (HIV)-induced apoptosis (J.Corbeil, M.Tremblay, and D.D.Richman, J.Exp.Med.183:39-48, 1996).
+# T2 Protein S2 50 53 211 214 CD4
+
+We have pursued our investigation of the role of the CD4 transduction pathway in HIV-induced apoptosis.
+# T3 Protein S3 53 56 423 426 CD4
+
+To do this, wild-type and mutant forms of the CD4 cytoplasmic tail were stably expressed in the lymphoblastoid T-cell line A2.01.
+# T4 Protein S4 46 49 520 523 CD4
+$ T4 Protein S4 46 49 520 523 CD4
+@ T20 Gene_expression S4 79 88 553 562 expressed
+% E2 Gene_expression:T20 Theme:T4
+
+Apoptosis was prevented when CD4 truncated at residue 402 was expressed; however, cells expressing mutated receptors that do not associate with p56(lck) (mutated at the dicysteine motif and truncated at residue 418) but which conserved proximal domains of the cytoplasmic tail underwent apoptosis like wild- type CD4.
+# T5 Protein S5 29 32 633 636 CD4
+# T6 Protein S5 144 152 748 756 p56(lck)
+# T7 Protein S5 313 316 917 920 CD4
+$ T5 Protein S5 29 32 633 636 CD4
+$ T7 Protein S5 313 316 917 920 CD4
+$ T6 Protein S5 144 152 748 756 p56(lck)
+@ T21 Gene_expression S5 62 71 666 675 expressed
+@ T22 Gene_expression S5 88 98 692 702 expressing
+@ T23 Binding S5 129 138 733 742 associate
+% E3 Gene_expression:T21 Theme:T5
+% E4 Gene_expression:T22 Theme:T7
+% E5 Binding:T23 Theme:T6
+
+The differences between wild-type and mutated receptors in the induction of apoptosis were not related to levels of p56(lck) or NF- kappaB activation.
+# T8 Protein S6 116 124 1038 1046 p56(lck)
+
+Initial signaling through the CD4 receptor played a major role in the sensitization of HIV-infected T cells to undergo apoptosis.
+# T9 Protein S7 30 42 1103 1115 CD4 receptor
+
+Incubation of HIV-infected cells with monoclonal antibody (MAb) 13B8-2, which binds to CD4 in a region critical for dimerization of the receptor, prevented apoptosis without inhibiting HIV replication.
+# T10 Protein S8 87 90 1290 1293 CD4
+$ T10 Protein S8 87 90 1290 1293 CD4
+@ T24 Binding S8 78 83 1281 1286 binds
+% E6 Binding:T24 Theme:T10
+
+Moreover, the apoptotic process was not related to Fas-Fas ligand interaction; however, an antagonistic anti-Fas MAb (ZB-4) enhanced apoptosis in HIV-infected cells without inducing apoptosis in uninfected cells.
+# T11 Protein S9 51 54 1456 1459 Fas
+# T12 Protein S9 55 65 1460 1470 Fas ligand
+# T13 Protein S9 109 112 1514 1517 Fas
+$ T11 Protein S9 51 54 1456 1459 Fas
+$ T12 Protein S9 55 65 1460 1470 Fas ligand
+@ T25 Binding S9 66 77 1471 1482 interaction
+% E7 Binding:T25 Theme:T11 Theme2:T12
+
+These observations demonstrate that CD4 signaling mediates HIV-induced apoptosis by a mechanism independent of Fas-Fas ligand interaction, does not require p56(lck) signaling, and may involve a critical region for CD4 dimerization.
+# T14 Protein S10 36 39 1654 1657 CD4
+# T15 Protein S10 111 114 1729 1732 Fas
+# T16 Protein S10 115 125 1733 1743 Fas ligand
+# T17 Protein S10 156 164 1774 1782 p56(lck)
+# T18 Protein S10 214 217 1832 1835 CD4
+$ T15 Protein S10 111 114 1729 1732 Fas
+$ T16 Protein S10 115 125 1733 1743 Fas ligand
+$ T18 Protein S10 214 217 1832 1835 CD4
+@ T26 Binding S10 126 137 1744 1755 interaction
+@ T27 Binding S10 218 230 1836 1848 dimerization
+% E8 Binding:T26 Theme:T15 Theme2:T16
+% E9 Binding:T27 Theme:T18
+

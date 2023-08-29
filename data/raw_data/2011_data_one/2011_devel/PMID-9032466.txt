@@ -1,0 +1,56 @@
+Activation of the NF-kappaB transcription factor in a T-lymphocytic cell line by hypochlorous acid.
+
+Reactive oxygen species (ROS) such as hydrogen peroxide serve as second messengers in the induction of the transcription factor NF-kappaB, and hence in the activation and replication of human immunodeficiency virus type 1 (HIV-1) in human cells.
+
+During inflammatory reactions, many oxidative species are produced, one of which is hypochlorous acid (HOCl), which is responsible for the microbicidal effects of activated human polymorphonuclear leukocytes.
+
+Treatment of a T-lymphocytic cell line with micromolar concentrations of HOCl promoted the appearance of transcription factor NF-kappaB (the heterodimer p50/p65) in the nucleus of the cells, even in the absence of de novo protein synthesis.
+# T1 Protein S4 153 156 709 712 p50
+# T2 Protein S4 157 160 713 716 p65
+$ T1 Protein S4 153 156 709 712 p50
+$ T2 Protein S4 157 160 713 716 p65
+@ T10 Positive_regulation S4 78 86 634 642 promoted
+@ T11 Localization S4 91 101 647 657 appearance
+@ T12 Entity S4 169 176 725 732 nucleus
+% E1 Positive_regulation:T10 Theme:E3
+% E2 Positive_regulation:T10 Theme:E4
+% E3 Localization:T11 Theme:T1 AtLoc:T12
+% E4 Localization:T11 Theme:T2 AtLoc:T12
+
+Western blot analysis of the NF-kappaB inhibitory subunits (IkappaB) demonstrated that both IkappaB-alpha proteolysis and p105 processing were induced by the treatment.
+# T3 Protein S5 92 105 889 902 IkappaB-alpha
+# T4 Protein S5 122 126 919 923 p105
+$ T3 Protein S5 92 105 889 902 IkappaB-alpha
+@ T13 Protein_catabolism S5 106 117 903 914 proteolysis
+@ T14 Positive_regulation S5 143 150 940 947 induced
+% E5 Protein_catabolism:T13 Theme:T3
+% E6 Positive_regulation:T14 Theme:E5
+
+NF-kappaB activation was very effective when cells were subjected to hyperthermia before being treated with HOCl.
+
+Various antioxidants, such as pyrrolidine dithiocarbamate, p-bromophenacyl-bromide and nordihydroguaiaretic acid could strongly reduce NF-kappaB translocation, demonstrating the importance of oxidative species in the transduction mechanism.
+
+Moreover, ACH-2 cells treated with HOCl or H2O2 released tumour necrosis factor-alpha (TNF-alpha) in the supernatants.
+# T5 Protein S8 57 85 1378 1406 tumour necrosis factor-alpha
+# T6 Protein S8 87 96 1408 1417 TNF-alpha
+$ T6 Protein S8 87 96 1408 1417 TNF-alpha
+@ T15 Positive_regulation S8 22 34 1343 1355 treated with
+@ T16 Localization S8 48 56 1369 1377 released
+% E7 Positive_regulation:T15 Theme:E8
+% E8 Localization:T16 Theme:T6
+
+The importance of TNF-alpha release in NF-kappaB induction by HOCl or H2O2 was demonstrated by the fact that: (1) the nuclear appearance of NF-kappaB was promoted in untreated cells; and (2) synergism between TNF-alpha and HOCl was detected.
+# T7 Protein S9 18 27 1458 1467 TNF-alpha
+# T8 Protein S9 209 218 1649 1658 TNF-alpha
+$ T7 Protein S9 18 27 1458 1467 TNF-alpha
+@ T17 Localization S9 28 35 1468 1475 release
+% E9 Localization:T17 Theme:T7
+
+Collectively, these results suggest that HOCl should be considered as an oxidative species capable of inducing NF-kappaB in a T-lymphocytic cell line through a transduction mechanism involving ROS, and having a long-distance effect through subsequent TNF-alpha release.
+# T9 Protein S10 251 260 1933 1942 TNF-alpha
+$ T9 Protein S10 251 260 1933 1942 TNF-alpha
+@ T18 Positive_regulation S10 240 250 1922 1932 subsequent
+@ T19 Localization S10 261 268 1943 1950 release
+% E10 Positive_regulation:T18 Theme:E11
+% E11 Localization:T19 Theme:T9
+

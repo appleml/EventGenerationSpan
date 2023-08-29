@@ -1,0 +1,30 @@
+Possible differences in the mechanism(s) of action of different glucocorticoid hormone compounds.
+
+Different glucocorticoid hormones (GCH) show differences in the intensity and in the kinetics of their immunomodulating activity.
+
+The mechanism(s) of action of GCH is under investigation, but is has been noted that they exert immune activity via the genomic pathway.
+
+We have studied the effects of prednisone (PDN), deflazacort (DFC), and dexamethasone (DXM) on the production of cytokines (IL-2, IL-6, TNF-alpha, IL-10) by peripheral T lymphocytes, and the effects on the inhibition of NF-kB DNA binding activity by activated Jurkat cell line.
+# T1 Protein S4 124 128 490 494 IL-2
+# T2 Protein S4 130 134 496 500 IL-6
+# T3 Protein S4 136 145 502 511 TNF-alpha
+# T4 Protein S4 147 152 513 518 IL-10
+$ T1 Protein S4 124 128 490 494 IL-2
+$ T4 Protein S4 147 152 513 518 IL-10
+$ T3 Protein S4 136 145 502 511 TNF-alpha
+$ T2 Protein S4 130 134 496 500 IL-6
+@ T5 Regulation S4 20 27 386 393 effects
+@ T6 Gene_expression S4 99 109 465 475 production
+% E1 Regulation:T5 Theme:E5
+% E2 Regulation:T5 Theme:E8
+% E3 Regulation:T5 Theme:E6
+% E4 Regulation:T5 Theme:E7
+% E5 Gene_expression:T6 Theme:T1
+% E6 Gene_expression:T6 Theme:T4
+% E7 Gene_expression:T6 Theme:T3
+% E8 Gene_expression:T6 Theme:T2
+
+The data obtained show that the three GCH molecules exert an immunosuppression on cytokine production by T lymphocytes and a strong decrease in the nuclear translocation of NF-kB in Jurkat cells; moreover, (a) not all the cytokines investigated were affected, and not with the same intensity, by the three GCH and (b) DXM inhibited the binding activity of NF-kB less than that of DFC and PDN.
+
+These data are in agreement with the concept that different GCH compounds might differ in their binding and affinity properties, tissue-specific metabolism, and interaction with transcription factor.
+

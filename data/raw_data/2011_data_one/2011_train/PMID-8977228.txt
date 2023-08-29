@@ -1,0 +1,89 @@
+The state of maturation of monocytes into macrophages determines the effects of IL-4 and IL-13 on HIV replication.
+# T1 Protein S1 80 84 80 84 IL-4
+# T2 Protein S1 89 94 89 94 IL-13
+
+The molecular mechanisms of the effects of IL-4 and IL-13 on HIV infection in human monocytes as they matured into monocyte-derived macrophages over 7 days were investigated using HIV-1(BaL), and low passage clinical strains.
+# T3 Protein S2 43 47 159 163 IL-4
+# T4 Protein S2 52 57 168 173 IL-13
+
+IL-4 and IL-13 up-regulated the expression of both genomic and spliced HIV mRNA in monocytes cultured on Teflon, as determined by Northern analysis and p24 Ag assay.
+# T5 Protein S3 0 4 342 346 IL-4
+# T6 Protein S3 9 14 351 356 IL-13
+# T7 Protein S3 152 158 494 500 p24 Ag
+
+Using a nuclear run-on assay, IL-4 stimulation was shown to enhance transcription by two- to threefold.
+# T8 Protein S4 30 34 538 542 IL-4
+
+IL-4 stimulated nuclear factor-kappaB nuclear translocation and binding before enhancement of HIV RNA expression.
+# T9 Protein S5 0 4 612 616 IL-4
+
+Conversely, IL-4 and IL-13 markedly and significantly inhibited HIV replication at the transcriptional level in monocyte-derived macrophages, and this occurred whether these cytokines were added before or after HIV infection.
+# T10 Protein S6 12 16 738 742 IL-4
+# T11 Protein S6 21 26 747 752 IL-13
+
+The reversal from stimulation to inhibition occurred after 3 to 5 days of adherence to plastic.
+
+IL-4 had no significant effect on HIV reverse transcription.
+# T12 Protein S8 0 4 1048 1052 IL-4
+
+The effect of both cytokines on the monocyte maturation/differentiation (CD11b, CD13, and CD26) and other macrophage markers (CD14 and CD68) was examined.
+# T13 Protein S9 73 78 1182 1187 CD11b
+# T14 Protein S9 80 84 1189 1193 CD13
+# T15 Protein S9 90 94 1199 1203 CD26
+# T16 Protein S9 126 130 1235 1239 CD14
+# T17 Protein S9 135 139 1244 1248 CD68
+$ T15 Protein S9 90 94 1199 1203 CD26
+$ T17 Protein S9 135 139 1244 1248 CD68
+$ T16 Protein S9 126 130 1235 1239 CD14
+$ T13 Protein S9 73 78 1182 1187 CD11b
+$ T14 Protein S9 80 84 1189 1193 CD13
+@ T26 Regulation S9 4 10 1113 1119 effect
+% E1 Regulation:T26 Theme:T15 Cause:T11
+% E2 Regulation:T26 Theme:T15 Cause:T10
+% E3 Regulation:T26 Theme:T17 Cause:T11
+% E4 Regulation:T26 Theme:T16 Cause:T10
+% E5 Regulation:T26 Theme:T13 Cause:T10
+% E6 Regulation:T26 Theme:T16 Cause:T11
+% E7 Regulation:T26 Theme:T13 Cause:T11
+% E8 Regulation:T26 Theme:T17 Cause:T10
+% E9 Regulation:T26 Theme:T14 Cause:T11
+% E10 Regulation:T26 Theme:T14 Cause:T10
+
+IL-4 enhanced CD11b, but inhibited CD26 expression and delayed CD13 loss.
+# T18 Protein S10 0 4 1264 1268 IL-4
+# T19 Protein S10 14 19 1278 1283 CD11b
+# T20 Protein S10 35 39 1299 1303 CD26
+# T21 Protein S10 63 67 1327 1331 CD13
+$ T18 Protein S10 0 4 1264 1268 IL-4
+$ T19 Protein S10 14 19 1278 1283 CD11b
+$ T20 Protein S10 35 39 1299 1303 CD26
+$ T21 Protein S10 63 67 1327 1331 CD13
+@ T27 Positive_regulation S10 5 13 1269 1277 enhanced
+@ T28 Negative_regulation S10 25 34 1289 1298 inhibited
+@ T29 Gene_expression S10 40 50 1304 1314 expression
+@ T30 Negative_regulation S10 55 62 1319 1326 delayed
+@ T31 Negative_regulation S10 68 72 1332 1336 loss
+% E11 Positive_regulation:T27 Theme:E13 Cause:T18
+% E12 Negative_regulation:T28 Theme:E14 Cause:T19
+% E13 Gene_expression:T29 Theme:T19
+% E14 Gene_expression:T29 Theme:T20
+% E15 Negative_regulation:T30 Theme:E16 Cause:T19
+% E16 Negative_regulation:T31 Theme:T21
+
+IL-13 had similar effects on CD11b and CD13, but no effect on CD26.
+# T22 Protein S11 0 5 1338 1343 IL-13
+# T23 Protein S11 29 34 1367 1372 CD11b
+# T24 Protein S11 39 43 1377 1381 CD13
+# T25 Protein S11 62 66 1400 1404 CD26
+$ T23 Protein S11 29 34 1367 1372 CD11b
+$ T22 Protein S11 0 5 1338 1343 IL-13
+$ T24 Protein S11 39 43 1377 1381 CD13
+$ T25 Protein S11 62 66 1400 1404 CD26
+@ T32 Positive_regulation S11 6 25 1344 1363 had similar effects
+@ T33 Regulation S11 52 58 1390 1396 effect
+% E17 Positive_regulation:T32 Theme:T23 Cause:T22
+% E18 Positive_regulation:T32 Theme:T24 Cause:T22
+% E19 Regulation:T33 Theme:T25 Cause:T22
+
+Hence, these cytokines do not simply enhance monocyte differentiation, but have complex and slightly divergent effects that impact on HIV replication probably through cell signaling pathways and nuclear factor-kappaB translocation.
+

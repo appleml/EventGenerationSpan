@@ -1,0 +1,51 @@
+Defining therapeutic targets by using adenovirus: blocking NF-kappaB inhibits both inflammatory and destructive mechanisms in rheumatoid synovium but spares anti-inflammatory mediators.
+
+The role of the transcription factor NF-kappaB in the pathogenesis of rheumatoid arthritis has long been a subject of controversy.
+
+We used an adenoviral technique of blocking NF-kappaB through overexpression of the inhibitory subunit IkappaBalpha, which has the advantage that it can be used in the diseased tissue itself, with >90% of the synovial macrophages, fibroblasts, and T cells infected.
+# T1 Protein S3 103 115 421 433 IkappaBalpha
+$ T1 Protein S3 103 115 421 433 IkappaBalpha
+@ T8 Positive_regulation S3 62 76 380 394 overexpression
+@ T9 Negative_regulation S3 62 76 380 394 overexpression
+% E1 Positive_regulation:T8 Theme:E2
+% E2 Negative_regulation:T9 Theme:T1
+
+We found that the spontaneous production of tumor necrosis factor alpha and other pro-inflammatory cytokines is NF-kappaB-dependent in rheumatoid synovial tissue, in contrast to the main anti-inflammatory mediators, like IL-10 and -11, and the IL-1 receptor antagonist.
+# T2 Protein S4 44 71 628 655 tumor necrosis factor alpha
+# T3 Protein S4 221 226 805 810 IL-10
+# T4 Protein S4 231 234 815 818 -11
+$ T2 Protein S4 44 71 628 655 tumor necrosis factor alpha
+$ T3 Protein S4 221 226 805 810 IL-10
+$ T4 Protein S4 231 234 815 818 -11
+@ T10 Gene_expression S4 30 40 614 624 production
+@ T11 Regulation S4 122 131 706 715 dependent
+% E3 Gene_expression:T10 Theme:T2
+% E4 Regulation:T11 Theme:T3
+% E5 Regulation:T11 Theme:E3
+% E6 Regulation:T11 Theme:T4
+
+Of even more interest, IkappaBalpha overexpression inhibited the production of matrix metalloproteinases 1 and 3 while not affecting their tissue inhibitor.
+# T5 Protein S5 23 35 877 889 IkappaBalpha
+# T6 Protein S5 79 106 933 960 matrix metalloproteinases 1
+# T7 Protein S5 111 112 965 966 3
+$ T5 Protein S5 23 35 877 889 IkappaBalpha
+$ T7 Protein S5 111 112 965 966 3
+$ T6 Protein S5 79 106 933 960 matrix metalloproteinases 1
+@ T12 Gene_expression S5 36 50 890 904 overexpression
+@ T13 Positive_regulation S5 36 50 890 904 overexpression
+@ T14 Negative_regulation S5 51 60 905 914 inhibited
+@ T15 Gene_expression S5 65 75 919 929 production
+@ T16 Regulation S5 123 132 977 986 affecting
+% E7 Gene_expression:T12 Theme:T5
+% E8 Positive_regulation:T13 Theme:E7
+% E9 Negative_regulation:T14 Theme:E12 Cause:E8
+% E10 Negative_regulation:T14 Theme:E11 Cause:E8
+% E11 Gene_expression:T15 Theme:T7
+% E12 Gene_expression:T15 Theme:T6
+% E13 Regulation:T16 Theme:T6 Cause:E8
+% E14 Regulation:T16 Theme:T7 Cause:E8
+
+Blocking NF-kappaB in the rheumatoid joint thus has a very beneficial profile, reducing both the inflammatory response and the tissue destruction.
+
+The adenoviral technique described here has widespread applicability, allowing rapid testing of the effects of blocking a potential therapeutic target in either cultures of normal cells or in the diseased tissue itself.
+

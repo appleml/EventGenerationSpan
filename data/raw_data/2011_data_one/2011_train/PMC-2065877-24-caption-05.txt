@@ -1,0 +1,37 @@
+Wild-Type and LMP1 Transgenic Lymphoma Cells Survive Independently of IL4/Stat6 Signaling in Culture
+# T1 Protein S1 14 18 14 18 LMP1
+# T2 Protein S1 70 73 70 73 IL4
+# T3 Protein S1 74 79 74 79 Stat6
+
+(A) Rnase protection assay for IL4 mRNA from purified B cells (CD19+) from WT and LMP1 transgenic splenocytes.
+# T4 Protein S2 31 34 132 135 IL4
+# T5 Protein S2 63 67 164 168 CD19
+# T6 Protein S2 82 86 183 187 LMP1
+
+The L32 and GAPDH housekeeping genes were used as a loading control.
+# T7 Protein S3 4 7 216 219 L32
+# T8 Protein S3 12 17 224 229 GAPDH
+
+Arrow indicates the position of the protected probe.
+
+(B and C) Immunoblot analysis of WT and LMP1 transgenic mice for activated pStat6 in (B) purified B cells (CD19+) at the time of harvest or in (C) whole splenocytes cultured with or without IL4.
+# T9 Protein S5 40 44 375 379 LMP1
+# T10 Protein S5 75 81 410 416 pStat6
+# T11 Protein S5 107 111 442 446 CD19
+# T12 Protein S5 190 193 525 528 IL4
+$ T10 Protein S5 75 81 410 416 pStat6
+@ T17 Positive_regulation S5 65 74 400 409 activated
+% E1 Positive_regulation:T17 Theme:T10
+
+(B) Actin was used as a loading control, and the white line indicates that intervening lanes have been spliced out.
+
+(D and E) MTS assay of (D) WT lymphocytes and (E) LMP1 transgenic lymphoma cells cultured with IL4, a neutralizing antibody to IL4, or a rat IgG isotype control at the indicated concentrations.
+# T13 Protein S7 50 54 697 701 LMP1
+# T14 Protein S7 95 98 742 745 IL4
+# T15 Protein S7 127 130 774 777 IL4
+
+Shown are the results from LMP1 transgenic lymphoma 3.
+# T16 Protein S8 27 31 868 872 LMP1
+
+The results are the mean +/- SEM of triplicate samples from a single representative experiment that was repeated twice with similar results.
+

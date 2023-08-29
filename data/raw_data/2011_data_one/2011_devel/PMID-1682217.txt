@@ -1,0 +1,88 @@
+v-erbA overexpression is required to extinguish c-erbA function in erythroid cell differentiation and regulation of the erbA target gene CAII.
+# T1 Protein S1 0 6 0 6 v-erbA
+# T2 Protein S1 48 54 48 54 c-erbA
+# T3 Protein S1 137 141 137 141 CAII
+$ T1 Protein S1 0 6 0 6 v-erbA
+$ T3 Protein S1 137 141 137 141 CAII
+$ T2 Protein S1 48 54 48 54 c-erbA
+@ T24 Gene_expression S1 7 21 7 21 overexpression
+@ T25 Negative_regulation S1 37 47 37 47 extinguish
+@ T26 Regulation S1 102 112 102 112 regulation
+% E1 Gene_expression:T24 Theme:T1
+% E2 Negative_regulation:T25 Theme:E3 Cause:E1
+% E3 Regulation:T26 Theme:T3 Cause:T2
+
+The v-erbA oncoprotein represents a retrovirus-transduced oncogenic version of the thyroid hormone (T3/T4) receptor c-erbA (type alpha).
+# T4 Protein S2 4 10 148 154 v-erbA
+# T5 Protein S2 116 122 260 266 c-erbA
+
+It contributes to virus-induced erythroleukemia by efficiently arresting differentiation of red cell progenitors and by suppressing transcription of erythrocyte-specific genes.
+
+Here, we show that v-erbA and c-erbA bind directly to sequences within the promoter of the erythrocyte-specific carbonic anhydrase II (CAII), a gene whose transcription is efficiently suppressed by v-erbA.
+# T6 Protein S4 19 25 477 483 v-erbA
+# T7 Protein S4 30 36 488 494 c-erbA
+# T8 Protein S4 112 133 570 591 carbonic anhydrase II
+# T9 Protein S4 135 139 593 597 CAII
+# T10 Protein S4 198 204 656 662 v-erbA
+$ T6 Protein S4 19 25 477 483 v-erbA
+$ T9 Protein S4 135 139 593 597 CAII
+$ T7 Protein S4 30 36 488 494 c-erbA
+$ T10 Protein S4 198 204 656 662 v-erbA
+@ T27 Binding S4 37 41 495 499 bind
+@ T28 Transcription S4 155 168 613 626 transcription
+@ T29 Negative_regulation S4 184 194 642 652 suppressed
+% E4 Binding:T27 Theme:T6 Theme2:T9
+% E5 Binding:T27 Theme:T7 Theme2:T9
+% E6 Transcription:T28 Theme:T9
+% E7 Negative_regulation:T29 Theme:E6 Cause:T10
+
+This erbA-binding site confers thyroid hormone responsiveness to a heterologous promoter in transient expression experiments and is a target for efficient down-regulation of CAII transcription by the v-erbA oncoprotein.
+# T11 Protein S5 174 178 838 842 CAII
+# T12 Protein S5 200 206 864 870 v-erbA
+$ T12 Protein S5 200 206 864 870 v-erbA
+$ T11 Protein S5 174 178 838 842 CAII
+@ T30 Regulation S5 134 140 798 804 target
+@ T31 Negative_regulation S5 155 170 819 834 down-regulation
+@ T32 Transcription S5 179 192 843 856 transcription
+% E8 Regulation:T30 Theme:E9 Cause:T12
+% E9 Negative_regulation:T31 Theme:E10
+% E10 Transcription:T32 Theme:T11
+
+In stably transformed erythroblasts coexpressing the v-erbA oncoprotein and the c-erbA/T3 receptor at an approximately equimolar ratio, c-erbA activity is dominant over v-erbA.
+# T13 Protein S6 53 59 937 943 v-erbA
+# T14 Protein S6 80 86 964 970 c-erbA
+# T15 Protein S6 136 142 1020 1026 c-erbA
+# T16 Protein S6 169 175 1053 1059 v-erbA
+$ T13 Protein S6 53 59 937 943 v-erbA
+$ T14 Protein S6 80 86 964 970 c-erbA
+@ T33 Gene_expression S6 36 48 920 932 coexpressing
+% E11 Gene_expression:T33 Theme:T13
+% E12 Gene_expression:T33 Theme:T14
+
+T3 efficiently induced erythroid differentiation in these cells, thus overcoming the v-erbA-mediated differentiation arrest.
+# T17 Protein S7 85 91 1146 1152 v-erbA
+
+Likewise, T3 activated CAII transcription as well as transient expression of a T3-responsive reporter gene containing the CAII-specific erbA-binding site.
+# T18 Protein S8 23 27 1209 1213 CAII
+# T19 Protein S8 122 126 1308 1312 CAII
+$ T18 Protein S8 23 27 1209 1213 CAII
+@ T34 Positive_regulation S8 13 22 1199 1208 activated
+@ T35 Transcription S8 28 41 1214 1227 transcription
+% E13 Positive_regulation:T34 Theme:E14
+% E14 Transcription:T35 Theme:T18
+
+The c-erbA-dependent activation of this CAII reporter construct could only be suppressed by very high amounts of v-erbA.
+# T20 Protein S9 4 10 1345 1351 c-erbA
+# T21 Protein S9 40 44 1381 1385 CAII
+# T22 Protein S9 113 119 1454 1460 v-erbA
+
+Our results suggest that overexpression of v-erbA is required for its function as an oncoprotein.
+# T23 Protein S10 43 49 1505 1511 v-erbA
+$ T23 Protein S10 43 49 1505 1511 v-erbA
+@ T36 Positive_regulation S10 25 39 1487 1501 overexpression
+@ T37 Gene_expression S10 25 39 1487 1501 overexpression
+@ T38 Positive_regulation S10 53 61 1515 1523 required
+% E15 Positive_regulation:T36 Theme:E16
+% E16 Gene_expression:T37 Theme:T23
+% E17 Positive_regulation:T38 Theme:T23 Cause:E15
+

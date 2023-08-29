@@ -1,0 +1,9 @@
+Immunoprecipitation assay and GST-pull down
+# T1 Protein S1 30 33 30 33 GST
+
+Immunoprecipitation, GST-pull down, and production of GST proteins in Escherichia coli strain BL21 were performed as previously reported (50).
+# T2 Protein S2 21 24 65 68 GST
+# T3 Protein S2 54 57 98 101 GST
+
+Details are described in Supplementary Data.
+

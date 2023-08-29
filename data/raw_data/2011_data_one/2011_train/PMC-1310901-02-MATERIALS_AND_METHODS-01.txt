@@ -1,0 +1,10 @@
+Cell lines
+
+K-562, Jurkat and U-937 were obtained from the ATCC (American Type Culture Collection, Rockville, USA) and EM-2, LAMA-84, CML-T1, BV-173, SD-1 and RPMI-8226 from the DSMZ (Deutsche Sammlung von Mikroorganismen und Zellkulturen GmbH, Braunschweig, Germany).
+
+All cell lines, except BV-173, SD-1 and RPMI-8226, were IRF-4-negative.
+# T1 Protein S3 56 61 324 329 IRF-4
+$ T1 Protein S3 56 61 324 329 IRF-4
+@ T2 Gene_expression S3 62 70 330 338 negative
+% E1 Gene_expression:T2 Theme:T1
+

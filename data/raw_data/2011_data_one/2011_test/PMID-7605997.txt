@@ -1,0 +1,38 @@
+Does activation of the TAL1 gene occur in a majority of patients with T-cell acute lymphoblastic leukemia?
+# T1 Protein S1 23 27 23 27 TAL1
+
+A pediatric oncology group study.
+
+Almost 25% of patients with T-cell acute lymphoblastic leukemia (T-ALL) have tumor-specific rearrangements of the TAL1 gene.
+# T2 Protein S3 114 118 256 260 TAL1
+
+Although TAL1 expression has not been observed in normal lymphocytes, TAL1 gene products are readily detected in leukemic cells that harbor a rearranged TAL1 allele.
+# T3 Protein S4 9 13 276 280 TAL1
+# T4 Protein S4 70 74 337 341 TAL1
+# T5 Protein S4 153 157 420 424 TAL1
+
+Hence, it has been proposed that ectopic expression of TAL1 promotes the development of T-ALL.
+# T6 Protein S5 55 59 488 492 TAL1
+
+In this report, we show that TAL1 is expressed in the leukemic cells of most patients with T-ALL, including many that do not display an apparent TAL1 gene alteration.
+# T7 Protein S6 29 33 557 561 TAL1
+# T8 Protein S6 145 149 673 677 TAL1
+
+A polymorphic dinucleotide repeat in the transcribed sequences of TAL1 was used to determine the allele specificity of TAL1 transcription in primary T-ALL cells.
+# T9 Protein S7 66 70 761 765 TAL1
+# T10 Protein S7 119 123 814 818 TAL1
+
+Monoallelic expression of TAL1 was observed in the leukemic cells of all patients (8 of 8) bearing a TAL1 gene rearrangement.
+# T11 Protein S8 26 30 883 887 TAL1
+# T12 Protein S8 101 105 958 962 TAL1
+
+In the leukemic cells of patients without detectable TAL1 rearrangements, TAL1 transcription occurred in either a monoallelic (3 of 7 patients) or a biallelic (4 of 7 patients) fashion.
+# T13 Protein S9 53 57 1036 1040 TAL1
+# T14 Protein S9 74 78 1057 1061 TAL1
+
+Thus, TAL1 activation in these patients may result from subtle alterations in cis-acting regulatory sequences (affecting expression of a single TAL1 allele) or changes in trans-acting factors that control TAL1 transcription (affecting expression of both TAL1 alleles).
+# T15 Protein S10 6 10 1175 1179 TAL1
+# T16 Protein S10 144 148 1313 1317 TAL1
+# T17 Protein S10 205 209 1374 1378 TAL1
+# T18 Protein S10 254 258 1423 1427 TAL1
+

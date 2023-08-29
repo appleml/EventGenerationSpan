@@ -1,0 +1,59 @@
+Transcriptional down-regulation of c-myc expression by protein synthesis-dependent and -independent pathways in a human T lymphoblastic tumor cell line.
+# T1 Protein S1 35 40 35 40 c-myc
+$ T1 Protein S1 35 40 35 40 c-myc
+@ T6 Negative_regulation S1 16 31 16 31 down-regulation
+@ T7 Gene_expression S1 41 51 41 51 expression
+% E1 Negative_regulation:T6 Theme:E2
+% E2 Gene_expression:T7 Theme:T1
+
+We show that in the human T lymphoblastic tumor cell line Molt4 c-myc mRNA and protein expression is down-regulated after exposure to dimethyl sulfoxide, to phorbol myristate acetate, or to the calcium ionophore A23187, which raises the intracellular calcium concentration.
+# T2 Protein S2 64 69 218 223 c-myc
+$ T2 Protein S2 64 69 218 223 c-myc
+@ T8 Transcription S2 87 97 241 251 expression
+@ T9 Gene_expression S2 87 97 241 251 expression
+@ T10 Negative_regulation S2 101 115 255 269 down-regulated
+% E3 Transcription:T8 Theme:T2
+% E4 Gene_expression:T9 Theme:T2
+% E5 Negative_regulation:T10 Theme:E4
+% E6 Negative_regulation:T10 Theme:E3
+
+A block to RNA elongation is largely responsible for decreased c-myc transcription.
+# T3 Protein S3 63 68 491 496 c-myc
+$ T3 Protein S3 63 68 491 496 c-myc
+@ T11 Regulation S3 37 48 465 476 responsible
+@ T12 Negative_regulation S3 53 62 481 490 decreased
+@ T13 Transcription S3 69 82 497 510 transcription
+% E7 Regulation:T11 Theme:E8
+% E8 Negative_regulation:T12 Theme:E9
+% E9 Transcription:T13 Theme:T3
+
+Although negative regulation by dimethyl sulfoxide takes place even when protein synthesis is inhibited by cycloheximide, the phorbol myristate acetate effect is blocked to some extent only by cycloheximide.
+@ T14 Negative_regulation S4 9 28 521 540 negative regulation
+@ T15 Positive_regulation S4 68 72 580 584 when
+@ T16 Negative_regulation S4 152 158 664 670 effect
+@ T17 Negative_regulation S4 162 169 674 681 blocked
+% E10 Negative_regulation:T14 Theme:E3
+% E11 Negative_regulation:T14 Theme:E4
+% E12 Positive_regulation:T15 Theme:E10
+% E13 Positive_regulation:T15 Theme:E11
+% E14 Negative_regulation:T16 Theme:E3
+% E15 Negative_regulation:T16 Theme:E4
+% E16 Negative_regulation:T17 Theme:E14
+% E17 Negative_regulation:T17 Theme:E15
+
+The calcium ionophore-induced c-myc suppression, however, strictly requires de novo protein synthesis.
+# T4 Protein S5 30 35 750 755 c-myc
+$ T4 Protein S5 30 35 750 755 c-myc
+@ T18 Negative_regulation S5 36 47 756 767 suppression
+@ T19 Positive_regulation S5 67 75 787 795 requires
+% E18 Negative_regulation:T18 Theme:T4
+% E19 Positive_regulation:T19 Theme:E18
+
+Therefore, two different negative regulatory pathways are involved in c-myc regulation: one which is independent and one which depends on de novo protein synthesis.
+# T5 Protein S6 70 75 893 898 c-myc
+$ T5 Protein S6 70 75 893 898 c-myc
+@ T20 Regulation S6 76 86 899 909 regulation
+% E20 Regulation:T20 Theme:T5
+
+The latter one appears to be mediated by a rapidly calcium-dependent induced gene product.
+

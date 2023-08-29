@@ -1,0 +1,31 @@
+The murine BCL6 gene is induced in activated lymphocytes as an immediate early gene.
+# T1 Protein S1 11 15 11 15 BCL6
+
+The chromosomal translocation involving 3q27 is often detected in human B-cell lymphomas, especially diffuse lymphomas with a large-cell component.
+
+The BCL6 gene has been isolated from the chromosomal breakpoint in these lymphomas.
+# T2 Protein S3 4 8 238 242 BCL6
+
+Here we cloned the murine BCL6 (mBCL6) cDNA from the muscle cDNA library using the human BCL6 (hBCL6) cDNA as a probe.
+# T3 Protein S4 26 30 344 348 BCL6
+# T4 Protein S4 32 37 350 355 mBCL6
+# T5 Protein S4 89 93 407 411 BCL6
+# T6 Protein S4 95 100 413 418 hBCL6
+
+The predicted amino acid sequence was 95% identical to that of hBCL6.
+# T7 Protein S5 63 68 500 505 hBCL6
+
+It contains six repeats of the Kruppel-like zinc-finger motif that are completely identical to those of hBCL6, indicating that the BCL6 gene is well conserved between humans and mice.
+# T8 Protein S6 104 109 611 616 hBCL6
+# T9 Protein S6 131 135 638 642 BCL6
+
+Expression of the mBCL6 gene was ubiquitously detected in adult mouse tissues including lymphatic organs.
+# T10 Protein S7 18 23 709 714 mBCL6
+
+Furthermore, it was induced in lymphocytes activated with phorbol ester and Ca2+ ionophore within 30 min after stimulation.
+
+This induction was not inhibited by treatment of the cells with a protein synthesis inhibitor, cycloheximide.
+
+These results suggest that BCL6 plays a role in activated lymphocytes as an immediate early gene.
+# T11 Protein S10 27 31 1058 1062 BCL6
+

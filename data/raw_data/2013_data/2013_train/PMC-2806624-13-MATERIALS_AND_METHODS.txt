@@ -1,0 +1,24 @@
+Cloning of the FOXP3 promoter, construction of mutant FOXP3 promoter, and RUNX expression plasmids.
+# T1 Protein S1 15 20 15 20 FOXP3
+# T2 Protein S1 54 59 54 59 FOXP3
+# T3 Protein S1 74 78 74 78 RUNX
+$ T3 Protein S1 74 78 74 78 RUNX
+@ T10 Gene_expression S1 79 89 79 89 expression
+% E1 Gene_expression:T10 Theme:T3
+
+The FOXP3 promoter was cloned into the pGL3 basic vector (Promega Biotech) to generate pGL3 FOXP3 -511/+176 (Mantel et al., 2006).
+# T4 Protein S2 4 9 104 109 FOXP3
+# T5 Protein S2 92 97 192 197 FOXP3
+
+Site-directed mutagenesis for the three putative RUNX binding sites in the FOXP3 promoter region was introduced using the QuickChange kit (Stratagene), according to the manufacturer's instructions and confirmed by sequencing the DNA.
+# T6 Protein S3 75 80 306 311 FOXP3
+
+The following primers and their complementary strands were used: foxp runx-333, forward 5'-CACTTTTGTTTTAAAAACTGTCCTTTCTCATGAGCCCTATTATC-3'; foxp runx-333 reverse 5'-GATAATAGGGCTCATGAGAAAGGACAGTTTTTAAAACAAAAGTG-3'; foxp runx-287 forward 5'-CCTCTCACCTCTGTCCTGAGGGGAAGAAATC-3'; foxp runx-287 reverse 5'-GATTTCTTCCCCTCAGGACAGAGGTGAGAGG-3'; foxp runx-53 forward 5'-GCTTCCACACCGTACAGCGTCCTTTTTCTTCTCGGTATAAAAG-3'; foxp runx-53 reverse 5'-CTTTTATACCGAGAAGAAAAAGGACGCTGTACGGTGTGGAAGC-3'.
+
+The human RUNX1 fragment from the Addgene plasmid 12504 (Biggs et al., 2006) pFlagCMV2-AML1B was sub-cloned in the pEGFPN1 vector (Clontech Laboratories).
+# T7 Protein S5 10 15 955 960 RUNX1
+
+The RUNX3 vector pCMV human RUNX3, which was a gift from K. Ito (Institute of Molecular and Cell Biology, Proteos, Singapore) was subcloned into pEGFPN1 vector (Clontech Laboratories; Yamamura et al., 2006).
+# T8 Protein S6 4 9 1104 1109 RUNX3
+# T9 Protein S6 28 33 1128 1133 RUNX3
+

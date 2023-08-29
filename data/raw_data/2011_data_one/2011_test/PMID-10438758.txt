@@ -1,0 +1,31 @@
+The Legionella pneumophila rpoS gene is required for growth within Acanthamoeba castellanii.
+# T1 Protein S1 27 31 27 31 rpoS
+
+To investigate regulatory networks in Legionella pneumophila, the gene encoding the homolog of the Escherichia coli stress and stationary-phase sigma factor RpoS was identified by complementation of an E. coli rpoS mutation.
+# T2 Protein S2 157 161 251 255 RpoS
+# T3 Protein S2 210 214 304 308 rpoS
+
+An open reading frame that is approximately 60% identical to the E. coli rpoS gene was identified.
+# T4 Protein S3 73 77 392 396 rpoS
+
+Western blot analysis showed that the level of L. pneumophila RpoS increased in stationary phase.
+# T5 Protein S4 62 66 480 484 RpoS
+
+An insertion mutation was constructed in the rpoS gene on the chromosome of L. pneumophila, and the ability of this mutant strain to survive various stress conditions was assayed and compared with results for the wild-type strain.
+# T6 Protein S5 45 49 561 565 rpoS
+
+Both the mutant and wild-type strains were more resistant to stress when in stationary phase than when in the logarithmic phase of growth.
+
+This finding indicates that L. pneumophila RpoS is not required for a stationary-phase-dependent resistance to stress.
+# T7 Protein S7 43 47 929 933 RpoS
+
+Although the mutant strain was able to kill HL-60- and THP-1-derived macrophages, it could not replicate within a protozoan host, Acanthamoeba castellanii.
+
+These data suggest that L. pneumophila possesses a growth phase-dependent resistance to stress that is independent of RpoS control and that RpoS likely regulates genes that enable it to survive in the environment within protozoa.
+# T8 Protein S9 118 122 1279 1283 RpoS
+# T9 Protein S9 140 144 1301 1305 RpoS
+
+Our data indicate that the role of rpoS in L. pneumophila is very different from what has previously been reported for E. coli rpoS.
+# T10 Protein S10 35 39 1426 1430 rpoS
+# T11 Protein S10 127 131 1518 1522 rpoS
+

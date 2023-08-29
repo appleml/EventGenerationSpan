@@ -1,0 +1,68 @@
+Cell growth-regulated expression of mammalian MCM5 and MCM6 genes mediated by the transcription factor E2F.
+# T1 Protein S1 46 50 46 50 MCM5
+# T2 Protein S1 55 59 55 59 MCM6
+$ T1 Protein S1 46 50 46 50 MCM5
+$ T2 Protein S1 55 59 55 59 MCM6
+@ T9 Regulation S1 12 21 12 21 regulated
+@ T10 Gene_expression S1 22 32 22 32 expression
+@ T11 Positive_regulation S1 66 74 66 74 mediated
+% E1 Regulation:T9 Theme:E4
+% E2 Regulation:T9 Theme:E3
+% E3 Gene_expression:T10 Theme:T1
+% E4 Gene_expression:T10 Theme:T2
+% E5 Positive_regulation:T11 Theme:E4
+% E6 Positive_regulation:T11 Theme:E3
+
+Initiation of DNA replication requires the function of MCM gene products, which participate in ensuring that DNA replication occurs only once in the cell cycle.
+
+Expression of all mammalian genes of the MCM family is induced by growth stimulation, unlike yeast, and the mRNA levels peak at G1/S boundary.
+
+In this study, we examined the transcriptional activities of isolated human MCM gene promoters.
+
+Human MCM5 and MCM6 promoters with mutation in the E2F sites failed in promoter regulation following serum stimulation and exogenous E2F expression.
+# T3 Protein S5 6 10 515 519 MCM5
+# T4 Protein S5 15 19 524 528 MCM6
+$ T3 Protein S5 6 10 515 519 MCM5
+$ T4 Protein S5 15 19 524 528 MCM6
+@ T12 Entity S5 20 29 529 538 promoters
+@ T13 Negative_regulation S5 61 67 570 576 failed
+@ T14 Regulation S5 80 90 589 599 regulation
+% E7 Negative_regulation:T13 Theme:E10
+% E8 Negative_regulation:T13 Theme:E9
+% E9 Regulation:T14 Theme:T3 Site:T12
+% E10 Regulation:T14 Theme:T4 Site:T12
+
+In addition, we identified a novel E2F-like sequence in human MCM6 promoter which cooperates with the authentic E2F sites in E2F-dependent regulation.
+# T5 Protein S6 62 66 720 724 MCM6
+$ T5 Protein S6 62 66 720 724 MCM6
+@ T15 Entity S6 35 52 693 710 E2F-like sequence
+@ T16 Regulation S6 82 92 740 750 cooperates
+% E11 Regulation:T16 Theme:E10 Cause:T5 CSite:T15
+% E12 Regulation:T16 Theme:E9 Cause:T5 CSite:T15
+
+Forced expression of E2F1 could induce expression of all members of the endogenous MCM genes in rat embryonal fibroblast REF52 cells.
+# T6 Protein S7 21 25 830 834 E2F1
+$ T6 Protein S7 21 25 830 834 E2F1
+@ T17 Gene_expression S7 7 17 816 826 expression
+% E13 Gene_expression:T17 Theme:T6
+
+Our results demonstrated that the growth-regulated expression of mammalian MCM5 and MCM6 genes, and presumably other MCM members, is primarily regulated by E2F through binding to multiple E2F sites in the promoters.
+# T7 Protein S8 75 79 1018 1022 MCM5
+# T8 Protein S8 84 88 1027 1031 MCM6
+$ T7 Protein S8 75 79 1018 1022 MCM5
+$ T8 Protein S8 84 88 1027 1031 MCM6
+@ T18 Regulation S8 41 50 984 993 regulated
+@ T19 Gene_expression S8 51 61 994 1004 expression
+@ T20 Regulation S8 143 152 1086 1095 regulated
+@ T21 Binding S8 168 175 1111 1118 binding
+% E14 Regulation:T18 Theme:E17
+% E15 Regulation:T18 Theme:E16
+% E16 Gene_expression:T19 Theme:T7
+% E17 Gene_expression:T19 Theme:T8
+% E18 Regulation:T20 Theme:E17 Cause:E23
+% E19 Regulation:T20 Theme:E16 Cause:E22
+% E20 Regulation:T20 Theme:E16 Cause:E23
+% E21 Regulation:T20 Theme:E17 Cause:E22
+% E22 Binding:T21 Theme:T8
+% E23 Binding:T21 Theme:T7
+

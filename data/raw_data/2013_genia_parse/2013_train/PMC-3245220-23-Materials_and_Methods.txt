@@ -1,0 +1,41 @@
+Statistical	JJ	B-NP	O	Other	No	No	Other	Other	###	1	Statistical	Statistical	JJ	JJ	_	2	amod	_	_
+Analysis	NN	I-NP	O	Other	No	No	Other	Other	###	2	Analysis	Analysis	NN	NN	_	0	root	_	_
+
+Statistical	JJ	B-NP	O	Other	No	No	Other	Other	###	1	Statistical	Statistical	JJ	JJ	_	2	amod	_	_
+comparisons	NNS	I-NP	O	Other	No	No	Other	Other	###	2	comparisons	comparisons	NNS	NNS	_	4	nsubjpass	_	_
+were	VBD	B-VP	O	Other	No	No	Other	Other	###	3	were	were	VBD	VBD	_	4	auxpass	_	_
+performed	VBN	I-VP	O	Other	No	No	Other	Other	###	4	performed	performed	VBN	VBN	_	0	root	_	_
+using	VBG	B-VP	O	Other	No	No	Other	Other	###	5	using	using	VBG	VBG	_	4	xcomp	_	_
+analysis	NN	B-NP	O	Other	No	No	Other	Other	###	6	analysis	analysis	NN	NN	_	5	dobj	_	_
+of	IN	B-PP	O	Other	No	No	Other	Other	###	7	of	of	IN	IN	_	9	case	_	_
+variance	NN	B-NP	O	Other	No	No	Other	Other	###	8	variance	variance	NN	NN	_	9	compound	_	_
+testing	NN	I-NP	O	Other	No	No	Other	Other	###	9	testing	testing	NN	NN	_	6	nmod	_	_
+(	(	O	O	Other	No	No	Other	Other	###	10	(	(	(	(	_	12	punct	_	_
+Minitab	NN	B-NP	O	Other	No	No	Other	Other	###	11	Minitab	Minitab	NN	NN	_	12	compound	_	_
+software	NN	I-NP	O	Other	No	No	Other	Other	###	12	software	software	NN	NN	_	9	dep	_	_
+,	,	O	O	Other	No	No	Other	Other	###	13	,	,	,	,	_	12	punct	_	_
+State	NNP	B-NP	O	Other	No	No	Other	Other	###	14	State	State	NNP	NNP	_	15	compound	_	_
+Park	NNP	I-NP	O	Other	No	No	Other	Other	###	15	Park	Park	NNP	NNP	_	12	conj	_	_
+,	,	O	O	Other	No	No	Other	Other	###	16	,	,	,	,	_	12	punct	_	_
+PA	NN	B-NP	O	Other	No	No	Other	Other	###	17	PA	PA	NN	NN	_	12	conj	_	_
+or	CC	I-NP	O	Other	No	No	Other	Other	###	18	or	or	CC	CC	_	12	cc	_	_
+SPSS16	NN	I-NP	O	Other	No	No	Other	Other	###	19	SPSS16	SPSS16	NN	NN	_	20	compound	_	_
+software	NN	I-NP	O	Other	No	No	Other	Other	###	20	software	software	NN	NN	_	12	conj	_	_
+,	,	O	O	Other	No	No	Other	Other	###	21	,	,	,	,	_	12	punct	_	_
+SPSS	NNP	B-NP	O	Other	No	No	Other	Other	###	22	SPSS	SPSS	NNP	NNP	_	23	compound	_	_
+Inc.Chicago	NNP	I-NP	O	Other	No	No	Other	Other	###	23	Inc.Chicago	Inc.Chicago	NNP	NNP	_	12	appos	_	_
+,	,	O	O	Other	No	No	Other	Other	###	24	,	,	,	,	_	12	punct	_	_
+IL	NNP	B-NP	O	Other	No	No	Other	Other	###	25	IL	IL	NNP	NNP	_	12	appos	_	_
+)	)	O	O	Other	No	No	Other	Other	###	26	)	)	)	)	_	12	punct	_	_
+.	.	O	O	Other	No	No	Other	Other	###	27	.	.	.	.	_	4	punct	_	_
+
+Statistical	JJ	B-NP	O	Other	No	No	Other	Other	###	1	Statistical	Statistical	JJ	JJ	_	2	amod	_	_
+significance	NN	I-NP	O	Other	No	No	Other	Other	###	2	significance	significance	NN	NN	_	4	nsubjpass	_	_
+was	VBD	B-VP	O	Other	No	No	Other	Other	###	3	was	was	VBD	VBD	_	4	auxpass	_	_
+defined	VBN	I-VP	O	Other	No	No	Other	Other	###	4	defined	defined	VBN	VBN	_	0	root	_	_
+as	IN	B-PP	O	Other	No	No	Other	Other	###	5	as	as	IN	IN	_	7	case	_	_
+p	NN	B-NP	O	Other	No	No	Other	Other	###	6	p	p	NN	NN	_	7	compound	_	_
+<	SYM	B-VP	O	Other	No	No	Other	Other	###	7	<	<	SYM	SYM	_	4	nmod	_	_
+=0.05	CD	B-NP	O	Other	No	No	Other	Other	###	8	=0.05	=0.05	CD	CD	_	7	nummod	_	_
+.	.	O	O	Other	No	No	Other	Other	###	9	.	.	.	.	_	4	punct	_	_
+

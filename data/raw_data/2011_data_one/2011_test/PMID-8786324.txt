@@ -1,0 +1,57 @@
+Differential regulation of IL-6 gene transcription and expression by IL-4 and IL-10 in human monocytic cell lines.
+# T1 Protein S1 27 31 27 31 IL-6
+# T2 Protein S1 69 73 69 73 IL-4
+# T3 Protein S1 78 83 78 83 IL-10
+
+IL-4 and IL-10 inhibit the cytokine production and mRNA expression by monocytes/macrophages.
+# T4 Protein S2 0 4 116 120 IL-4
+# T5 Protein S2 9 14 125 130 IL-10
+
+To investigate the molecular mechanism of the inhibitory effect on transcriptional or post-transcriptional regulation of IL-6 gene expression by IL-4 and IL-10, we studied IL-6 production, expression level of IL-6 mRNA, IL-6 promoter activity, transcriptional activity of NF-kappaB and NF-IL-6, and IL-6 mRNA stability in human monocytic cell lines, THP-1 and U937, stimulated by PMA and LPS in the absence or the presence of IL-4 or IL-10.
+# T6 Protein S3 121 125 330 334 IL-6
+# T7 Protein S3 145 149 354 358 IL-4
+# T8 Protein S3 154 159 363 368 IL-10
+# T9 Protein S3 172 176 381 385 IL-6
+# T10 Protein S3 209 213 418 422 IL-6
+# T11 Protein S3 220 224 429 433 IL-6
+# T12 Protein S3 286 293 495 502 NF-IL-6
+# T13 Protein S3 299 303 508 512 IL-6
+# T14 Protein S3 426 430 635 639 IL-4
+# T15 Protein S3 434 439 643 648 IL-10
+
+Both IL-4 and IL-10 were seen to inhibit IL-6 production and the expression of IL-6 mRNA in both monocytic cell lines studied.
+# T16 Protein S4 5 9 655 659 IL-4
+# T17 Protein S4 14 19 664 669 IL-10
+# T18 Protein S4 41 45 691 695 IL-6
+# T19 Protein S4 79 83 729 733 IL-6
+
+In chloramphenicol acetyltransferase assays, utilizing the transient transfection of a chloramphenicol acetyltransferase reporter plasmid containing the IL-6 gene promoter, IL-4, but not IL-10, suppressed the transcriptional activity of the IL-6 gene promoter stimulated by PMA and LPS.
+# T20 Protein S5 3 36 780 813 chloramphenicol acetyltransferase
+# T21 Protein S5 87 120 864 897 chloramphenicol acetyltransferase
+# T22 Protein S5 153 157 930 934 IL-6
+# T23 Protein S5 173 177 950 954 IL-4
+# T24 Protein S5 187 192 964 969 IL-10
+# T25 Protein S5 241 245 1018 1022 IL-6
+
+Electrophoretic mobility shift assays showed that IL-4, but not IL-10, inhibited nuclear NF-kappaB activity, and that IL-4 and IL-10 did not affect NF-IL-6 activity.
+# T26 Protein S6 50 54 1114 1118 IL-4
+# T27 Protein S6 64 69 1128 1133 IL-10
+# T28 Protein S6 118 122 1182 1186 IL-4
+# T29 Protein S6 127 132 1191 1196 IL-10
+# T30 Protein S6 148 155 1212 1219 NF-IL-6
+
+On the other hand, IL-10 enhanced the degradation of IL-6 mRNA in a mRNA stability assay.
+# T31 Protein S7 19 24 1249 1254 IL-10
+# T32 Protein S7 53 57 1283 1287 IL-6
+
+These results suggest that IL-4 may inhibit the transcription of the IL-6 gene by affecting NF-kappaB binding activity, while IL-10 may inhibit the IL-6 mRNA levels post-transcriptionally, without suppressing promoter activity.
+# T33 Protein S8 27 31 1347 1351 IL-4
+# T34 Protein S8 69 73 1389 1393 IL-6
+# T35 Protein S8 126 131 1446 1451 IL-10
+# T36 Protein S8 148 152 1468 1472 IL-6
+
+Therefore, we conclude that IL-4 and IL-10 inhibit IL-6 production by different mechanisms in human monocytic cell lines.
+# T37 Protein S9 28 32 1576 1580 IL-4
+# T38 Protein S9 37 42 1585 1590 IL-10
+# T39 Protein S9 51 55 1599 1603 IL-6
+

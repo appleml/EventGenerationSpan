@@ -1,0 +1,42 @@
+Regulation of FOXP3 promoter activity by RUNX1 and RUNX3.
+# T1 Protein S1 14 19 14 19 FOXP3
+# T2 Protein S1 41 46 41 46 RUNX1
+# T3 Protein S1 51 56 51 56 RUNX3
+
+(A) Human primary CD4+ cells were transfected with an empty vector (pGL3 Basic), a vector containing the wild-type or mutated FOXP3 promoter region (FOXP3 -511/+176) fused to the luciferase reporter gene together with a GFP, RUNX1, or RUNX3 expression vector.
+# T4 Protein S2 18 21 76 79 CD4
+# T5 Protein S2 126 131 184 189 FOXP3
+# T6 Protein S2 149 154 207 212 FOXP3
+# T7 Protein S2 179 189 237 247 luciferase
+# T8 Protein S2 220 223 278 281 GFP
+# T9 Protein S2 225 230 283 288 RUNX1
+# T10 Protein S2 235 240 293 298 RUNX3
+$ T8 Protein S2 220 223 278 281 GFP
+$ T9 Protein S2 225 230 283 288 RUNX1
+$ T10 Protein S2 235 240 293 298 RUNX3
+$ T7 Protein S2 179 189 237 247 luciferase
+@ T19 Gene_expression S2 34 45 92 103 transfected
+% E1 Gene_expression:T19 Theme:T8
+% E2 Gene_expression:T19 Theme:T9
+% E3 Gene_expression:T19 Theme:T10
+% E4 Gene_expression:T19 Theme:T7
+
+Bars show the mean luciferase activity +/- SE measured as arbitrary light units of three independent experiments.
+# T11 Protein S3 19 29 337 347 luciferase
+
+(B) Human primary CD4+ cells were transfected with an empty vector (pGL3 Basic), a vector containing the putative FOXP3 promoter region (FOXP3 -511/+176) fused to the luciferase reporter gene, or with a vector containing the putative FOXP3 promoter region (FOXP3 -511/+176) with single RUNX binding sites mutated (53, 287, or 333) or with the combination of two or three RUNX binding sites mutated (53, 287, or 333) fused to the luciferase reporter gene.
+# T12 Protein S4 18 21 450 453 CD4
+# T13 Protein S4 114 119 546 551 FOXP3
+# T14 Protein S4 137 142 569 574 FOXP3
+# T15 Protein S4 167 177 599 609 luciferase
+# T16 Protein S4 234 239 666 671 FOXP3
+# T17 Protein S4 429 439 861 871 luciferase
+$ T15 Protein S4 167 177 599 609 luciferase
+$ T17 Protein S4 429 439 861 871 luciferase
+@ T20 Gene_expression S4 34 45 466 477 transfected
+% E5 Gene_expression:T20 Theme:T15
+% E6 Gene_expression:T20 Theme:T17
+
+Bars show the mean luciferase activity +/- SD measured as arbitrary light units of three independent experiments.
+# T18 Protein S5 19 29 906 916 luciferase
+

@@ -1,0 +1,60 @@
+In vitro suppression of programmed cell death of B cells by tissue inhibitor of metalloproteinases-1.
+# T1 Protein S1 60 100 60 100 tissue inhibitor of metalloproteinases-1
+
+Cellular pathways for induction of programmed cell death (PCD) have been identified, but little is known about specific extracellular matrix processes that may affect apoptosis along those pathways.
+
+In this study, a series of Burkitt's lymphoma (BL) cell lines were assayed for their expression of tissue inhibitor of metalloproteinases (TIMP)-1.
+# T2 Protein S3 99 146 401 448 tissue inhibitor of metalloproteinases (TIMP)-1
+$ T2 Protein S3 99 146 401 448 tissue inhibitor of metalloproteinases (TIMP)-1
+@ T18 Gene_expression S3 85 95 387 397 expression
+% E1 Gene_expression:T18 Theme:T2
+
+Results indicate that TIMP-1-positive BL lines show resistance to cold-shock-induced apoptosis.
+# T3 Protein S4 22 28 472 478 TIMP-1
+
+Furthermore, recombinant TIMP-1, but not TIMP-2 or a synthetic metalloproteinase inhibitor (BB-94), confers resistance to apoptosis induced by both CD95-dependent and -independent (cold shock, serum deprivation, and gamma-radiation) pathways in TIMP-1-negative BL lines.
+# T4 Protein S5 25 31 571 577 TIMP-1
+# T5 Protein S5 41 47 587 593 TIMP-2
+# T6 Protein S5 148 152 694 698 CD95
+# T7 Protein S5 245 251 791 797 TIMP-1
+
+TIMP-1 suppression of PCD is not due to metalloproteinase inhibition, as reduction and alkylation of the TIMP-1 did not abolish this activity.
+# T8 Protein S6 0 6 817 823 TIMP-1
+# T9 Protein S6 105 111 922 928 TIMP-1
+$ T9 Protein S6 105 111 922 928 TIMP-1
+@ T19 Negative_regulation S6 73 82 890 899 reduction
+% E2 Negative_regulation:T19 Theme:T9
+
+Retroviral induction of TIMP-1 not only resulted in cell survival but also in continued DNA synthesis for up to 5 d in the absence of serum, while controls underwent apoptosis.
+# T10 Protein S7 24 30 984 990 TIMP-1
+$ T10 Protein S7 24 30 984 990 TIMP-1
+@ T20 Positive_regulation S7 11 20 971 980 induction
+% E3 Positive_regulation:T20 Theme:T10
+
+This resistance to apoptosis is reversed by anti-TIMP-1 antibodies, demonstrating that secreted TIMP-1 is active in blocking apoptosis.
+# T11 Protein S8 49 55 1186 1192 TIMP-1
+# T12 Protein S8 96 102 1233 1239 TIMP-1
+$ T12 Protein S8 96 102 1233 1239 TIMP-1
+@ T21 Localization S8 87 95 1224 1232 secreted
+% E4 Localization:T21 Theme:T12
+
+Furthermore, TIMP-1 upregulation induced expression of Bcl-XL but not Bcl-2 as well as decreased NF-kappaB activity as compared with controls.
+# T13 Protein S9 13 19 1286 1292 TIMP-1
+# T14 Protein S9 55 61 1328 1334 Bcl-XL
+# T15 Protein S9 70 75 1343 1348 Bcl-2
+$ T13 Protein S9 13 19 1286 1292 TIMP-1
+$ T15 Protein S9 70 75 1343 1348 Bcl-2
+$ T14 Protein S9 55 61 1328 1334 Bcl-XL
+@ T22 Positive_regulation S9 20 32 1293 1305 upregulation
+@ T23 Positive_regulation S9 33 40 1306 1313 induced
+@ T24 Gene_expression S9 41 51 1314 1324 expression
+% E5 Positive_regulation:T22 Theme:T13
+% E6 Positive_regulation:T23 Theme:E9 Cause:E5
+% E7 Positive_regulation:T23 Theme:E8 Cause:E5
+% E8 Gene_expression:T24 Theme:T15
+% E9 Gene_expression:T24 Theme:T14
+
+These results demonstrate that TIMP-1 suppresses apoptosis in B cells and suggests a novel activity for TIMP-1 in tissue homeostasis.
+# T16 Protein S10 31 37 1447 1453 TIMP-1
+# T17 Protein S10 104 110 1520 1526 TIMP-1
+

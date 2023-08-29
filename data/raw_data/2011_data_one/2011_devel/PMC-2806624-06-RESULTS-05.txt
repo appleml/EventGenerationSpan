@@ -1,0 +1,149 @@
+CBFbeta, RUNX1, and RUNX3 are important for the suppressive activity of CD25+ Foxp3+ T reg cells
+# T1 Protein S1 0 7 0 7 CBFbeta
+# T2 Protein S1 9 14 9 14 RUNX1
+# T3 Protein S1 20 25 20 25 RUNX3
+# T4 Protein S1 72 76 72 76 CD25
+# T5 Protein S1 78 83 78 83 Foxp3
+
+Even though Cbfb-deficient CD4+ T cells had impaired induction of Foxp3 after stimulation with anti-CD3/28 mAbs and TGF-beta, sufficient numbers of Foxp3+ cells could be generated to permit analysis of their suppressive activity.
+# T6 Protein S2 12 16 109 113 Cbfb
+# T7 Protein S2 27 30 124 127 CD4
+# T8 Protein S2 66 71 163 168 Foxp3
+# T9 Protein S2 100 103 197 200 CD3
+# T10 Protein S2 104 106 201 203 28
+# T11 Protein S2 116 124 213 221 TGF-beta
+# T12 Protein S2 148 153 245 250 Foxp3
+$ T6 Protein S2 12 16 109 113 Cbfb
+$ T8 Protein S2 66 71 163 168 Foxp3
+@ T73 Negative_regulation S2 17 26 114 123 deficient
+@ T74 Negative_regulation S2 44 52 141 149 impaired
+@ T75 Positive_regulation S2 53 62 150 159 induction
+% E1 Negative_regulation:T73 Theme:T6
+% E2 Negative_regulation:T74 Theme:E3 Cause:E1
+% E3 Positive_regulation:T75 Theme:T8
+
+Purified naive CD4+ T cells from CbfbF/F CD4-cre and control CbfbF/+ CD4-cre mice (Cd45.2) harboring a Foxp3-ires-GFP allele (Bettelli et al., 2006) were stimulated in vitro with anti-CD3/28 mAbs, IL-2, and TGF-beta.
+# T13 Protein S3 15 18 342 345 CD4
+# T14 Protein S3 33 37 360 364 Cbfb
+# T15 Protein S3 41 48 368 375 CD4-cre
+# T16 Protein S3 61 65 388 392 Cbfb
+# T17 Protein S3 69 76 396 403 CD4-cre
+# T18 Protein S3 83 89 410 416 Cd45.2
+# T19 Protein S3 103 108 430 435 Foxp3
+# T20 Protein S3 114 117 441 444 GFP
+# T21 Protein S3 184 187 511 514 CD3
+# T22 Protein S3 188 190 515 517 28
+# T23 Protein S3 197 201 524 528 IL-2
+# T24 Protein S3 207 215 534 542 TGF-beta
+
+After 3 d, Foxp3+-GFP+ cells were sorted by flow cytometry and mixed with CFSE-labeled naive CD45.1+ CD4+ cells at ratios of 1:4, 1:2, and 1:1.
+# T25 Protein S4 11 16 555 560 Foxp3
+# T26 Protein S4 18 21 562 565 GFP
+# T27 Protein S4 93 99 637 643 CD45.1
+# T28 Protein S4 101 104 645 648 CD4
+
+The cells were then incubated with inactivated splenocytes and stimulated with anti-CD3 mAb for four more days.
+# T29 Protein S5 84 87 772 775 CD3
+
+CD45.1+ cells were analyzed for CFSE dilution (Fig. 6 A).
+# T30 Protein S6 0 6 800 806 CD45.1
+
+CbfbF/+ CD4-cre CD4+ T cells activated in the presence of TGF-beta showed a clear suppression of T cell proliferation that became even more apparent when an increased ratio of FOXP3+/CD25- cells was used (Fig. 6 B).
+# T31 Protein S7 0 4 858 862 Cbfb
+# T32 Protein S7 8 15 866 873 CD4-cre
+# T33 Protein S7 16 19 874 877 CD4
+# T34 Protein S7 58 66 916 924 TGF-beta
+# T35 Protein S7 176 181 1034 1039 FOXP3
+# T36 Protein S7 183 187 1041 1045 CD25
+
+The suppression was significantly reduced when cells from CbfbF/F CD4-cre mice were used, demonstrating that TGF-beta-induced Runx complexes are important for the suppressive activity of Foxp3+ T reg cells (Fig. 6 B).
+# T37 Protein S8 58 62 1132 1136 Cbfb
+# T38 Protein S8 66 73 1140 1147 CD4-cre
+# T39 Protein S8 109 117 1183 1191 TGF-beta
+# T40 Protein S8 187 192 1261 1266 Foxp3
+
+As a control, CbfbF/+ CD4-cre CD4+ T cells activated in absence of TGF-beta were mixed with CFSE-labeled naive CD45.1+ CD4+ cells.
+# T41 Protein S9 14 18 1306 1310 Cbfb
+# T42 Protein S9 22 29 1314 1321 CD4-cre
+# T43 Protein S9 30 33 1322 1325 CD4
+# T44 Protein S9 67 75 1359 1367 TGF-beta
+# T45 Protein S9 111 117 1403 1409 CD45.1
+# T46 Protein S9 119 122 1411 1414 CD4
+
+No suppression could be observed in all control groups without TGF-beta at all tested ratios (Fig. 6 C).
+# T47 Protein S10 63 71 1486 1494 TGF-beta
+
+The decreased suppression capacity of CbfbF/F CD4-cre iT reg cells was unlikely to be caused by decreased survival or proliferation.
+# T48 Protein S11 38 42 1566 1570 Cbfb
+# T49 Protein S11 46 53 1574 1581 CD4-cre
+
+Foxp3+ and Foxp3- cells generated from both CbfbF/F CD4-cre and control cells all displayed similar proliferation rates and cell death as measured by CFSE dilution and annexin V staining, respectively (Fig. S7, A and B).
+# T50 Protein S12 0 5 1661 1666 Foxp3
+# T51 Protein S12 11 16 1672 1677 Foxp3
+# T52 Protein S12 44 48 1705 1709 Cbfb
+# T53 Protein S12 52 59 1713 1720 CD4-cre
+# T54 Protein S12 168 177 1829 1838 annexin V
+
+In addition, we tested the requirement of RUNX1 and RUNX3 for the development of the suppressive capacity in human iT reg cells.
+# T55 Protein S13 42 47 1925 1930 RUNX1
+# T56 Protein S13 52 57 1935 1940 RUNX3
+
+We isolated human naive CD4+ T cells and transfected them with a combination of RUNX1 and RUNX3 siRNA, or with a scrambled control siRNA.
+# T57 Protein S14 24 27 2036 2039 CD4
+# T58 Protein S14 80 85 2092 2097 RUNX1
+# T59 Protein S14 90 95 2102 2107 RUNX3
+$ T58 Protein S14 80 85 2092 2097 RUNX1
+$ T59 Protein S14 90 95 2102 2107 RUNX3
+@ T76 Negative_regulation S14 96 101 2108 2113 siRNA
+% E4 Negative_regulation:T76 Theme:T58
+% E5 Negative_regulation:T76 Theme:T59
+
+Cells were cultured under T reg conditions, and then mixed with CFSE-labeled autologous CD4+ T cells and stimulated with anti-CD3 mAb.
+# T60 Protein S15 88 91 2238 2241 CD4
+# T61 Protein S15 126 129 2276 2279 CD3
+
+Cells in which RUNX1 and RUNX3 were knocked down showed markedly lower suppressive activity compared with control iT reg cells at a T reg/CD4+ T responder cell ratio of 1:20, but not when the T reg/CD4+ T responder cell ratio was increased to 1:5 (Fig. 6 D).
+# T62 Protein S16 15 20 2300 2305 RUNX1
+# T63 Protein S16 25 30 2310 2315 RUNX3
+# T64 Protein S16 138 141 2423 2426 CD4
+# T65 Protein S16 198 201 2483 2486 CD4
+$ T62 Protein S16 15 20 2300 2305 RUNX1
+$ T63 Protein S16 25 30 2310 2315 RUNX3
+@ T77 Negative_regulation S16 36 48 2321 2333 knocked down
+% E6 Negative_regulation:T77 Theme:T62
+% E7 Negative_regulation:T77 Theme:T63
+
+These results demonstrate the important role of RUNX1 and RUNX3 not only for the induction of FOXP3, but also for the suppressive capacity of iT reg cells both in humans and in mice.
+# T66 Protein S17 48 53 2592 2597 RUNX1
+# T67 Protein S17 58 63 2602 2607 RUNX3
+# T68 Protein S17 94 99 2638 2643 FOXP3
+$ T66 Protein S17 48 53 2592 2597 RUNX1
+$ T67 Protein S17 58 63 2602 2607 RUNX3
+$ T68 Protein S17 94 99 2638 2643 FOXP3
+@ T78 Positive_regulation S17 30 39 2574 2583 important
+@ T79 Gene_expression S17 81 90 2625 2634 induction
+% E8 Positive_regulation:T78 Theme:E9 Cause:T66
+% E10 Positive_regulation:T78 Theme:E9 Cause:T67
+% E9 Gene_expression:T79 Theme:T68
+
+The data suggest both quantity and quality of T reg cells are hampered.
+
+Reduced intrinsic suppressive capacity of iT reg cells was demonstrated in mice, because Foxp3-GFP+ cells were FACS sorted and same numbers of iT reg cells are included in control experiments.
+# T69 Protein S19 89 98 2888 2897 Foxp3-GFP
+
+In the suppression experiment with human cells, reduced suppressive activity was caused by reduced FOXP3 expression in T cells by siRNA inhibition of RUNX1 and RUNX3.
+# T70 Protein S20 99 104 3091 3096 FOXP3
+# T71 Protein S20 150 155 3142 3147 RUNX1
+# T72 Protein S20 160 165 3152 3157 RUNX3
+$ T70 Protein S20 99 104 3091 3096 FOXP3
+$ T71 Protein S20 150 155 3142 3147 RUNX1
+$ T72 Protein S20 160 165 3152 3157 RUNX3
+@ T80 Negative_regulation S20 91 98 3083 3090 reduced
+@ T81 Gene_expression S20 105 115 3097 3107 expression
+@ T82 Negative_regulation S20 136 146 3128 3138 inhibition
+% E11 Negative_regulation:T80 Theme:E12 Cause:E13
+% E14 Negative_regulation:T80 Theme:E12 Cause:E15
+% E12 Gene_expression:T81 Theme:T70
+% E13 Negative_regulation:T82 Theme:T71
+% E15 Negative_regulation:T82 Theme:T72
+

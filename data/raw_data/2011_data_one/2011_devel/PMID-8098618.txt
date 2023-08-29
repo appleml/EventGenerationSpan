@@ -1,0 +1,106 @@
+Activation of primary human T-lymphocytes through CD2 plus CD28 adhesion molecules induces long-term nuclear expression of NF-kappa B.
+# T1 Protein S1 50 53 50 53 CD2
+# T2 Protein S1 59 63 59 63 CD28
+
+Stimulation of highly purified human T-cells via CD2 and CD28 adhesion molecules induces and maintains proliferation for more than 3 weeks.
+# T3 Protein S2 49 52 185 188 CD2
+# T4 Protein S2 57 61 193 197 CD28
+
+This potent interleukin 2 (IL-2)-dependent activation does not require monocytes or accessory cells.
+# T5 Protein S3 12 25 288 301 interleukin 2
+# T6 Protein S3 27 31 303 307 IL-2
+
+Long-lasting IL-2 receptivity is associated with high-level expression of the inducible IL-2 receptor alpha chain (IL-2R alpha) gene that is regulated at both transcriptional and posttranscriptional levels.
+# T7 Protein S4 13 17 390 394 IL-2
+# T8 Protein S4 88 113 465 490 IL-2 receptor alpha chain
+# T9 Protein S4 115 126 492 503 IL-2R alpha
+$ T9 Protein S4 115 126 492 503 IL-2R alpha
+@ T29 Gene_expression S4 60 70 437 447 expression
+@ T30 Regulation S4 141 150 518 527 regulated
+% E1 Gene_expression:T29 Theme:T9
+% E2 Regulation:T30 Theme:E1
+
+Increase of IL-2R alpha gene transcription involves the enhanced binding of the transcription factor NF-kappa B to its consensus sequence in the 5'-regulatory region of the IL-2R alpha gene.
+# T10 Protein S5 12 23 596 607 IL-2R alpha
+# T11 Protein S5 173 184 757 768 IL-2R alpha
+$ T10 Protein S5 12 23 596 607 IL-2R alpha
+$ T11 Protein S5 173 184 757 768 IL-2R alpha
+@ T31 Positive_regulation S5 0 8 584 592 Increase
+@ T32 Transcription S5 29 42 613 626 transcription
+@ T33 Positive_regulation S5 56 64 640 648 enhanced
+@ T34 Binding S5 65 72 649 656 binding
+% E3 Positive_regulation:T31 Theme:E4
+% E4 Transcription:T32 Theme:T10
+% E5 Positive_regulation:T33 Theme:E6
+% E6 Binding:T34 Theme:T11
+
+To dissect the molecular basis for the unusually persistent transcription of the IL-2R alpha gene, we analyzed nuclear NF-kappa B binding to a radiolabeled IL-2R alpha kappa B-specific oligonucleotide probe during the time course of CD2 + CD28 activation.
+# T12 Protein S6 81 92 856 867 IL-2R alpha
+# T13 Protein S6 156 167 931 942 IL-2R alpha
+# T14 Protein S6 233 236 1008 1011 CD2
+# T15 Protein S6 239 243 1014 1018 CD28
+$ T12 Protein S6 81 92 856 867 IL-2R alpha
+$ T14 Protein S6 233 236 1008 1011 CD2
+$ T15 Protein S6 239 243 1014 1018 CD28
+@ T35 Transcription S6 60 73 835 848 transcription
+@ T36 Positive_regulation S6 244 254 1019 1029 activation
+% E7 Transcription:T35 Theme:T12
+% E8 Positive_regulation:T36 Theme:T14
+% E9 Positive_regulation:T36 Theme:T15
+
+Resting T-cell nuclear extracts contained KBF1/p50 homodimer.
+# T16 Protein S7 42 46 1073 1077 KBF1
+# T17 Protein S7 47 50 1078 1081 p50
+
+After stimulation, two new kappa B-specific complexes were identified as NF-kappa B p50-p65 heterodimer and putative c-Rel homodimer or c-Rel-p65 heterodimer.
+# T18 Protein S8 84 87 1177 1180 p50
+# T19 Protein S8 88 91 1181 1184 p65
+# T20 Protein S8 117 122 1210 1215 c-Rel
+# T21 Protein S8 136 141 1229 1234 c-Rel
+# T22 Protein S8 142 145 1235 1238 p65
+$ T18 Protein S8 84 87 1177 1180 p50
+$ T19 Protein S8 88 91 1181 1184 p65
+$ T20 Protein S8 117 122 1210 1215 c-Rel
+$ T21 Protein S8 136 141 1229 1234 c-Rel
+$ T22 Protein S8 142 145 1235 1238 p65
+@ T37 Positive_regulation S8 59 69 1152 1162 identified
+@ T38 Binding S8 92 103 1185 1196 heterodimer
+@ T39 Binding S8 123 132 1216 1225 homodimer
+@ T40 Binding S8 146 157 1239 1250 heterodimer
+% E10 Positive_regulation:T37 Theme:E13
+% E11 Positive_regulation:T37 Theme:E14
+% E12 Positive_regulation:T37 Theme:E15
+% E13 Binding:T38 Theme:T18 Theme2:T19
+% E14 Binding:T39 Theme:T20
+% E15 Binding:T40 Theme:T21 Theme2:T22
+
+Both inducible complexes persisted for at least 3 weeks.
+
+Their relative levels were very similar for the duration of proliferation.
+
+In parallel, CD2 + CD28 activation triggered a significant intracellular thiol decrease, suggesting that oxygen radicals are involved in the signaling pathway of adhesion molecules.
+# T23 Protein S11 13 16 1397 1400 CD2
+# T24 Protein S11 19 23 1403 1407 CD28
+$ T23 Protein S11 13 16 1397 1400 CD2
+$ T24 Protein S11 19 23 1403 1407 CD28
+@ T41 Positive_regulation S11 24 34 1408 1418 activation
+% E16 Positive_regulation:T41 Theme:T23
+% E17 Positive_regulation:T41 Theme:T24
+
+Finally, micromolar amounts of pyrrolidine dithiocarbamate, an oxygen radical scavenger that efficiently blocked the nuclear appearance of NF-kappa B in T-lymphocytes, also inhibited IL-2 secretion, IL-2R alpha cell surface expression, and T-cell proliferation.
+# T25 Protein S12 183 187 1749 1753 IL-2
+# T26 Protein S12 199 210 1765 1776 IL-2R alpha
+$ T25 Protein S12 183 187 1749 1753 IL-2
+$ T26 Protein S12 199 210 1765 1776 IL-2R alpha
+@ T42 Negative_regulation S12 173 182 1739 1748 inhibited
+@ T43 Localization S12 188 197 1754 1763 secretion
+@ T44 Gene_expression S12 224 234 1790 1800 expression
+% E18 Negative_regulation:T42 Theme:E21
+% E19 Negative_regulation:T42 Theme:E20
+% E20 Localization:T43 Theme:T25
+% E21 Gene_expression:T44 Theme:T26
+
+Together, these results suggest that NF-kappa B plays an important role in long-term activation of human primary T-lymphocytes via CD2 + CD28.
+# T27 Protein S13 131 134 1959 1962 CD2
+# T28 Protein S13 137 141 1965 1969 CD28
+

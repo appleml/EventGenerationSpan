@@ -1,0 +1,139 @@
+Introduction
+
+Effective immune responses are characterized by T cell activation, which directs adaptive and innate immune responses to kill pathogens efficiently.
+
+Dependent on the pathogen, T cells differentiate into different subtypes, such as Th1 or Th2 cells, which are most efficient in defeating microbial or parasitic invaders respectively.
+
+A hallmark of Th1 and Th2 differentiation pathways is the exclusiveness of the individual phenotype leading to either Th1 or Th2, but not to mixed populations.
+
+The exclusiveness of this mechanism is provided by a polarization process, where Th2 differentiation inhibits Th1 commitment and vice versa.
+
+Specifically interleukin 4 (IL-4)-induced STAT6 and GATA3 inhibit differentiation into Th1 cells in the early phase of commitment [1,2].
+# T1 Protein S6 13 26 660 673 interleukin 4
+# T2 Protein S6 28 32 675 679 IL-4
+# T3 Protein S6 42 47 689 694 STAT6
+# T4 Protein S6 52 57 699 704 GATA3
+$ T3 Protein S6 42 47 689 694 STAT6
+$ T1 Protein S6 13 26 660 673 interleukin 4
+$ T4 Protein S6 52 57 699 704 GATA3
+@ T33 Positive_regulation S6 34 41 681 688 induced
+% E1 Positive_regulation:T33 Theme:T3 Cause:T1
+% E2 Positive_regulation:T33 Theme:T4 Cause:T1
+
+GATA3 is sufficient to induce a Th2 phenotype [3] and acts not only through the induction of IL-4, IL-5 and IL-13, the Th2 cytokines, but also through the inhibition of Th1 cell-specific factors [3].
+# T5 Protein S7 0 5 784 789 GATA3
+# T6 Protein S7 93 97 877 881 IL-4
+# T7 Protein S7 99 103 883 887 IL-5
+# T8 Protein S7 108 113 892 897 IL-13
+$ T6 Protein S7 93 97 877 881 IL-4
+$ T5 Protein S7 0 5 784 789 GATA3
+$ T7 Protein S7 99 103 883 887 IL-5
+$ T8 Protein S7 108 113 892 897 IL-13
+@ T34 Positive_regulation S7 80 89 864 873 induction
+% E3 Positive_regulation:T34 Theme:T6 Cause:T5
+% E4 Positive_regulation:T34 Theme:T7 Cause:T5
+% E5 Positive_regulation:T34 Theme:T8 Cause:T5
+
+Recently, it was shown that T-bet directly modulates GATA3 function, suggesting that transcription factors compete in the early differentiation phase of T cells, potentially integrating environmental signals to finally imprint the T cell phenotype [4,5].
+# T9 Protein S8 28 33 1012 1017 T-bet
+# T10 Protein S8 53 58 1037 1042 GATA3
+$ T10 Protein S8 53 58 1037 1042 GATA3
+$ T9 Protein S8 28 33 1012 1017 T-bet
+@ T35 Regulation S8 43 52 1027 1036 modulates
+% E6 Regulation:T35 Theme:T10 Cause:T9
+
+A GATA3-dominated immune response has been shown to be essential in airway hyperresonsiveness [6] and IL-4-dominated responses can break antigen-specific immune tolerance [7].
+# T11 Protein S9 2 7 1241 1246 GATA3
+# T12 Protein S9 102 106 1341 1345 IL-4
+
+Overexpression of a dominant negative form of GATA3 [8] or treatment with antisense-mediated GATA3 blockade [9] decreased the severity of the allergic airway hyper-responsiveness.
+# T13 Protein S10 46 51 1461 1466 GATA3
+# T14 Protein S10 93 98 1508 1513 GATA3
+$ T13 Protein S10 46 51 1461 1466 GATA3
+$ T14 Protein S10 93 98 1508 1513 GATA3
+@ T36 Negative_regulation S10 0 42 1415 1457 Overexpression of a dominant negative form
+@ T37 Negative_regulation S10 99 107 1514 1522 blockade
+% E7 Negative_regulation:T36 Theme:T13
+% E8 Negative_regulation:T37 Theme:T14
+
+The discovery of regulatory T (Treg) cells highlights another phenotype of T cells, which is essential for tolerance against self-antigens.
+
+Naturally occurring, thymus-derived Treg (nTreg) cells are generated in the thymus and are assumed to protect against the activity of autoreactive T cells in the periphery.
+
+These cells express the forkhead transcription factor FOXP3 and constitutively express CD25 on their surface, but they lack expression of Th1 or Th2 cytokines.
+# T15 Protein S13 54 59 1963 1968 FOXP3
+# T16 Protein S13 87 91 1996 2000 CD25
+$ T15 Protein S13 54 59 1963 1968 FOXP3
+$ T16 Protein S13 87 91 1996 2000 CD25
+@ T38 Gene_expression S13 12 19 1921 1928 express
+@ T39 Gene_expression S13 79 86 1988 1995 express
+% E9 Gene_expression:T38 Theme:T15
+% E10 Gene_expression:T39 Theme:T16
+
+Particularly interesting are those Treg cells that are generated in the periphery and thus are potential targets for therapeutic interventions.
+
+These induced Treg (iTreg) cells were reported to express FOXP3 [10].
+# T17 Protein S15 58 63 2271 2276 FOXP3
+$ T17 Protein S15 58 63 2271 2276 FOXP3
+@ T40 Gene_expression S15 50 57 2263 2270 express
+% E11 Gene_expression:T40 Theme:T17
+
+The exact mechanisms of iTreg generation are unclear, but T cell receptor (TCR) triggering has been shown to induce FOXP3 expression and suppressive cells in human [11,12], however the phenotype appears to be of transient nature [13,14].
+# T18 Protein S16 116 121 2399 2404 FOXP3
+$ T18 Protein S16 116 121 2399 2404 FOXP3
+@ T41 Positive_regulation S16 109 115 2392 2398 induce
+@ T42 Gene_expression S16 122 132 2405 2415 expression
+% E12 Positive_regulation:T41 Theme:E13
+% E13 Gene_expression:T42 Theme:T18
+
+TGF-beta has been demonstrated to be important for the persistent induction of these cells in vitro and in vivo, since animals lacking the TGF-betaRII on T cells have fewer peripherally iTreg cells [15] and suffer from a T cell-dependent multiorgan inflammatory disease [16].
+# T19 Protein S17 0 8 2521 2529 TGF-beta
+# T20 Protein S17 139 150 2660 2671 TGF-betaRII
+$ T20 Protein S17 139 150 2660 2671 TGF-betaRII
+@ T43 Negative_regulation S17 127 134 2648 2655 lacking
+% E14 Negative_regulation:T43 Theme:T20
+
+Although the effect of TGF-beta on natural and inducible Treg cell induction has been demonstrated repeatedly [15,17], its molecular mechanisms remain to be identified.
+# T21 Protein S18 23 31 2820 2828 TGF-beta
+
+The current study provides evidence that GATA3 and FOXP3 play a competitive role in iTreg cell commitment as T-bet and GATA3 for Th1 and Th2 differentiation, respectively.
+# T22 Protein S19 41 46 3008 3013 GATA3
+# T23 Protein S19 51 56 3018 3023 FOXP3
+# T24 Protein S19 109 114 3076 3081 T-bet
+# T25 Protein S19 119 124 3086 3091 GATA3
+
+We show that GATA3 inhibits FOXP3 induction and that IL-4 limits FOXP3 expression in a GATA3-mediated way, both in vitro and in vivo.
+# T26 Protein S20 13 18 3152 3157 GATA3
+# T27 Protein S20 28 33 3167 3172 FOXP3
+# T28 Protein S20 53 57 3192 3196 IL-4
+# T29 Protein S20 65 70 3204 3209 FOXP3
+# T30 Protein S20 87 92 3226 3231 GATA3
+$ T26 Protein S20 13 18 3152 3157 GATA3
+$ T27 Protein S20 28 33 3167 3172 FOXP3
+$ T28 Protein S20 53 57 3192 3196 IL-4
+$ T29 Protein S20 65 70 3204 3209 FOXP3
+$ T30 Protein S20 87 92 3226 3231 GATA3
+@ T44 Negative_regulation S20 19 27 3158 3166 inhibits
+@ T45 Positive_regulation S20 34 43 3173 3182 induction
+@ T46 Negative_regulation S20 58 64 3197 3203 limits
+@ T47 Gene_expression S20 71 81 3210 3220 expression
+@ T48 Positive_regulation S20 93 105 3232 3244 mediated way
+% E15 Negative_regulation:T44 Theme:E16 Cause:T26
+% E16 Positive_regulation:T45 Theme:T27
+% E17 Negative_regulation:T46 Theme:E18 Cause:T28
+% E18 Gene_expression:T47 Theme:T29
+% E19 Positive_regulation:T48 Theme:E17 Cause:T30
+
+We also show that GATA3 directly binds to the FOXP3 promoter and thereby prevents the induction of this gene, demonstrating that Th2 differentiation overrules iTreg induction.
+# T31 Protein S21 18 23 3291 3296 GATA3
+# T32 Protein S21 46 51 3319 3324 FOXP3
+$ T31 Protein S21 18 23 3291 3296 GATA3
+$ T32 Protein S21 46 51 3319 3324 FOXP3
+@ T49 Binding S21 33 38 3306 3311 binds
+@ T50 Entity S21 52 60 3325 3333 promoter
+@ T51 Negative_regulation S21 73 81 3346 3354 prevents
+@ T52 Positive_regulation S21 86 95 3359 3368 induction
+% E20 Binding:T49 Theme:T31 Theme2:T32 Site2:T50
+% E21 Negative_regulation:T51 Theme:E22 Cause:E20
+% E22 Positive_regulation:T52 Theme:T32
+

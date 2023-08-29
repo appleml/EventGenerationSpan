@@ -1,0 +1,50 @@
+Effect of PTX on TNF-alpha production in the presence of PKA inhibition
+# T1 Protein S1 17 26 17 26 TNF-alpha
+$ T1 Protein S1 17 26 17 26 TNF-alpha
+@ T6 Regulation S1 0 6 0 6 Effect
+@ T7 Gene_expression S1 27 37 27 37 production
+@ T8 Regulation S1 38 56 38 56 in the presence of
+% E1 Regulation:T6 Theme:E2
+% E2 Gene_expression:T7 Theme:T1
+% E3 Regulation:T8 Theme:E1
+
+The role of PKA in PTX-induced downregulation of TNF-alpha production in LPS-stimulated mononuclear cells was assessed by treating mononuclear cells with H89, a PKA inhibitor, prior to LPS and PTX exposure.
+# T2 Protein S2 49 58 121 130 TNF-alpha
+$ T2 Protein S2 49 58 121 130 TNF-alpha
+@ T9 Regulation S2 4 8 76 80 role
+@ T10 Positive_regulation S2 23 30 95 102 induced
+@ T11 Negative_regulation S2 31 45 103 117 downregulation
+@ T12 Gene_expression S2 59 69 131 141 production
+% E4 Regulation:T9 Theme:E5
+% E5 Positive_regulation:T10 Theme:E6
+% E6 Negative_regulation:T11 Theme:E7
+% E7 Gene_expression:T12 Theme:T2
+
+The addition PTX to LPS-stimulated cells resulted in a reduction in TNF-alpha, similar to that observed in our previous experiments (529 pg/mL +/- 112 vs. 37 pg/mL +/- 10; P < 0.01).
+# T3 Protein S3 68 77 347 356 TNF-alpha
+$ T3 Protein S3 68 77 347 356 TNF-alpha
+@ T13 Positive_regulation S3 41 49 320 328 resulted
+@ T14 Negative_regulation S3 55 64 334 343 reduction
+% E8 Positive_regulation:T13 Theme:E9
+% E9 Negative_regulation:T14 Theme:T3
+
+Pre-incubation of cells with H89 prior to LPS and PTX exposure did not result in any significant modulation of TNF-alpha production when compared to that demonstrated with PTX alone (P = 0.2; Figure 5).
+# T4 Protein S4 111 120 573 582 TNF-alpha
+$ T4 Protein S4 111 120 573 582 TNF-alpha
+@ T15 Regulation S4 71 77 533 539 result
+@ T16 Regulation S4 97 107 559 569 modulation
+@ T17 Gene_expression S4 121 131 583 593 production
+% E10 Regulation:T15 Theme:E11
+% E11 Regulation:T16 Theme:E12
+% E12 Gene_expression:T17 Theme:T4
+
+These results suggest that downregulation of TNF-alpha production by PTX in LPS-stimulated mononuclear cells is, at least in part, PKA-independent.
+# T5 Protein S5 45 54 710 719 TNF-alpha
+$ T5 Protein S5 45 54 710 719 TNF-alpha
+@ T18 Negative_regulation S5 27 41 692 706 downregulation
+@ T19 Gene_expression S5 55 65 720 730 production
+@ T20 Regulation S5 135 146 800 811 independent
+% E13 Negative_regulation:T18 Theme:E14
+% E14 Gene_expression:T19 Theme:T5
+% E15 Regulation:T20 Theme:E13
+

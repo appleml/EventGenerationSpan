@@ -1,0 +1,63 @@
+Expression of the Runt domain-encoding PEBP2 alpha genes in T cells during thymic development.
+
+The PEBP2 alpha A and PEBP2 alpha B genes encode the DNA-binding subunit of a murine transcription factor, PEBP2, which is implicated as a T-cell-specific transcriptional regulator.
+# T1 Protein S2 4 17 100 113 PEBP2 alpha A
+# T2 Protein S2 22 35 118 131 PEBP2 alpha B
+
+These two related genes share the evolutionarily conserved region encoding the Runt domain.
+
+PEBP2 alpha B is the murine counterpart of human AML1, which is located at the breakpoints of the 8;21 and 3;21 chromosome translocations associated with acute myeloid leukemia.
+# T3 Protein S4 0 13 370 383 PEBP2 alpha B
+# T4 Protein S4 49 53 419 423 AML1
+
+Northern (RNA) blots of various adult mouse tissues revealed that the levels of expression of both genes were most prominent in the thymus.
+@ T13 Gene_expression S5 80 90 628 638 expression
+@ T14 Positive_regulation S5 115 124 663 672 prominent
+% E1 Gene_expression:T13 Theme:T2
+% E2 Gene_expression:T13 Theme:T1
+% E3 Positive_regulation:T14 Theme:E2
+% E4 Positive_regulation:T14 Theme:E1
+
+Furthermore, transcripts of PEBP2 alpha A and mouse AML1/PEBP2 alpha B were detected in T lymphocytes in the thymuses from day 16 embryos and newborns, as well as 4-week-old adult mice, by in situ hybridization.
+# T5 Protein S6 28 41 716 729 PEBP2 alpha A
+# T6 Protein S6 52 70 740 758 AML1/PEBP2 alpha B
+$ T6 Protein S6 52 70 740 758 AML1/PEBP2 alpha B
+$ T5 Protein S6 28 41 716 729 PEBP2 alpha A
+@ T15 Transcription S6 76 84 764 772 detected
+% E5 Transcription:T15 Theme:T6
+% E6 Transcription:T15 Theme:T5
+
+The expression of the genes persisted in peripheral lymph nodes of adult mice.
+@ T16 Gene_expression S7 4 14 904 914 expression
+@ T17 Positive_regulation S7 28 37 928 937 persisted
+% E7 Gene_expression:T16 Theme:T6
+% E8 Gene_expression:T16 Theme:T5
+% E9 Positive_regulation:T17 Theme:E7
+% E10 Positive_regulation:T17 Theme:E8
+
+The transcripts were detected in all the CD4- CD8-, CD4+ CD8+, CD4+ CD8-, and CD4- CD8+ cell populations.
+# T7 Protein S8 41 44 1020 1023 CD4
+# T8 Protein S8 52 55 1031 1034 CD4
+# T9 Protein S8 63 66 1042 1045 CD4
+# T10 Protein S8 78 81 1057 1060 CD4
+@ T18 Transcription S8 21 29 1000 1008 detected
+% E11 Transcription:T18 Theme:T6
+% E12 Transcription:T18 Theme:T5
+
+The results indicated that both genes are expressed in T cells throughout their development, supporting the notion that PEBP2 is a T-cell-specific transcription factor.
+@ T19 Gene_expression S9 42 51 1127 1136 expressed
+% E13 Gene_expression:T19 Theme:T5
+% E14 Gene_expression:T19 Theme:T6
+
+Transcripts of mouse AML1/PEBP2 alpha B were also detected in day 12 fetal hematopoietic liver and in the bone marrow cells of newborn mice.
+# T11 Protein S10 21 39 1275 1293 AML1/PEBP2 alpha B
+$ T11 Protein S10 21 39 1275 1293 AML1/PEBP2 alpha B
+@ T20 Transcription S10 50 58 1304 1312 detected
+% E15 Transcription:T20 Theme:T11
+
+The implication of mouse AML1/PEBP2 alpha B expression in hematopoietic cells other than those of T-cell lineage is discussed in relation to myeloid leukemogenesis.
+# T12 Protein S11 25 43 1420 1438 AML1/PEBP2 alpha B
+$ T12 Protein S11 25 43 1420 1438 AML1/PEBP2 alpha B
+@ T21 Gene_expression S11 44 54 1439 1449 expression
+% E16 Gene_expression:T21 Theme:T12
+

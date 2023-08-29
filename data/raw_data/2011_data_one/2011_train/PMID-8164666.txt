@@ -1,0 +1,56 @@
+Positive regulators of the lineage-specific transcription factor GATA-1 in differentiating erythroid cells.
+# T1 Protein S1 65 71 65 71 GATA-1
+$ T1 Protein S1 65 71 65 71 GATA-1
+@ T12 Positive_regulation S1 0 19 0 19 Positive regulators
+% E1 Positive_regulation:T12 Theme:T1
+
+The zinc finger transcription factor GATA-1 is a major regulator of gene expression in erythroid, megakaryocyte, and mast cell lineages.
+# T2 Protein S2 37 43 146 152 GATA-1
+
+GATA-1 binds to WGATAR consensus motifs in the regulatory regions of virtually all erythroid cell-specific genes.
+# T3 Protein S3 0 6 246 252 GATA-1
+$ T3 Protein S3 0 6 246 252 GATA-1
+@ T13 Binding S3 7 12 253 258 binds
+% E2 Binding:T13 Theme:T3
+
+Analyses with cultured cells and cell-free systems have provided strong evidence that GATA-1 is involved in control of globin gene expression during erythroid differentiation.
+# T4 Protein S4 86 92 446 452 GATA-1
+
+Targeted mutagenesis of the GATA-1 gene in embryonic stem cells has demonstrated its requirement in normal erythroid development.
+# T5 Protein S5 28 34 564 570 GATA-1
+
+Efficient rescue of the defect requires an intact GATA element in the distal promoter, suggesting autoregulatory control of GATA-1 transcription.
+# T6 Protein S6 124 130 790 796 GATA-1
+$ T6 Protein S6 124 130 790 796 GATA-1
+@ T14 Regulation S6 98 120 764 786 autoregulatory control
+@ T15 Transcription S6 131 144 797 810 transcription
+% E3 Regulation:T14 Theme:E4
+% E4 Transcription:T15 Theme:T6
+
+To examine whether GATA-1 expression involves additional regulatory factors or is maintained entirely by an autoregulatory loop, we have used a transient heterokaryon system to test the ability of erythroid factors to activate the GATA-1 gene in nonerythroid nuclei.
+# T7 Protein S7 19 25 831 837 GATA-1
+# T8 Protein S7 231 237 1043 1049 GATA-1
+$ T7 Protein S7 19 25 831 837 GATA-1
+$ T8 Protein S7 231 237 1043 1049 GATA-1
+@ T16 Gene_expression S7 26 36 838 848 expression
+@ T17 Positive_regulation S7 82 92 894 904 maintained
+@ T18 Positive_regulation S7 218 226 1030 1038 activate
+% E5 Gene_expression:T16 Theme:T7
+% E6 Positive_regulation:T17 Theme:E5
+% E7 Positive_regulation:T18 Theme:T8
+
+We show here that proerythroblasts and mature erythroid cells contain a diffusible activity (TAG) capable of transcriptional activation of GATA-1 and that this activity decreases during the terminal differentiation of erythroid cells.
+# T9 Protein S8 139 145 1218 1224 GATA-1
+$ T9 Protein S8 139 145 1218 1224 GATA-1
+@ T19 Positive_regulation S8 109 135 1188 1214 transcriptional activation
+@ T20 Negative_regulation S8 169 178 1248 1257 decreases
+% E8 Positive_regulation:T19 Theme:T9
+% E9 Negative_regulation:T20 Theme:E8
+
+Nuclei from GATA-1- mutant embryonic stem cells can still be reprogrammed to express their globin genes in erythroid heterokaryons, indicating that de novo induction of GATA-1 is not required for globin gene activation following cell fusion.
+# T10 Protein S9 12 18 1326 1332 GATA-1
+# T11 Protein S9 169 175 1483 1489 GATA-1
+$ T11 Protein S9 169 175 1483 1489 GATA-1
+@ T21 Positive_regulation S9 156 165 1470 1479 induction
+% E10 Positive_regulation:T21 Theme:T11
+

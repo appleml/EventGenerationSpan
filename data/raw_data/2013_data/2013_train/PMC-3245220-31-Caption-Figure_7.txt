@@ -1,0 +1,65 @@
+PKCalpha regulates phosphorylation of NF-kappaB p65 at Ser276.
+# T1 Protein S1 0 8 0 8 PKCalpha
+# T2 Protein S1 48 51 48 51 p65
+$ T1 Protein S1 0 8 0 8 PKCalpha
+$ T2 Protein S1 48 51 48 51 p65
+@ T12 Regulation S1 9 18 9 18 regulates
+@ T13 Phosphorylation S1 19 34 19 34 phosphorylation
+@ T14 Entity S1 55 61 55 61 Ser276
+% E1 Regulation:T12 Theme:E2 Cause:T1
+% E2 Phosphorylation:T13 Theme:T2 Site:T14
+
+(A) MDM or (B) RAW 264.7 cells were transiently transfected with pNF-kappaB-SEAP along with either WT-PKCalpha or the kinase-deficient (KD)-PKCalpha construct at a 1:5 ratio.
+# T3 Protein S2 102 110 165 173 PKCalpha
+# T4 Protein S2 140 148 203 211 PKCalpha
+$ T3 Protein S2 102 110 165 173 PKCalpha
+$ T4 Protein S2 140 148 203 211 PKCalpha
+@ T15 Gene_expression S2 48 59 111 122 transfected
+@ T16 Negative_regulation S2 118 134 181 197 kinase-deficient
+% E3 Gene_expression:T15 Theme:T3
+% E4 Gene_expression:T15 Theme:T4
+% E5 Negative_regulation:T16 Theme:T4
+
+Cells were serum starved and stimulated with M-CSF and then SEAP secretion in the medium was measured.
+
+Data is from of three independent experiments.
+
+The p-value of cells transfected with KD compared to those transfected with WT was 0.05.
+
+(C) MDMs were removed from the plate using accutase and apoptosis of MDMs was measured by flow cytometry using Annexin V-FITC and propidium iodine (PI).
+# T5 Protein S6 111 120 588 597 Annexin V
+
+(D) Whole cell lysates from the transfected RAW 264.7 cells were subjected to Western blot analysis with phospho-Ser276 or phospho-Ser536 NF-kappaB p65 antibodies.
+
+Blots were immunoblotted with PKCalpha to determine equal protein expression for the PKCalpha constructs.
+# T6 Protein S8 30 38 824 832 PKCalpha
+# T7 Protein S8 85 93 879 887 PKCalpha
+$ T7 Protein S8 85 93 879 887 PKCalpha
+@ T17 Gene_expression S8 66 76 860 870 expression
+% E6 Gene_expression:T17 Theme:T7
+
+beta-actin served as a loading control.
+# T8 Protein S9 0 10 900 910 beta-actin
+
+Shown is a representative blot from three independent experiments.
+
+(E) MDM or (F) RAW 264.7 cells were transiently transfected with a pNF-kappaB-SEAP along with either 100 nM PKCalpha siRNA or control siRNA for 20-24 hours.
+# T9 Protein S11 108 122 1115 1129 PKCalpha siRNA
+$ T9 Protein S11 108 122 1115 1129 PKCalpha siRNA
+@ T18 Gene_expression S11 48 59 1055 1066 transfected
+% E7 Gene_expression:T18 Theme:T9
+
+Cells were serum starved for 2-4 hours and stimulated with 100 ng/ml M-CSF for 6 hours for MDM or RAW 264.7 for 2 hours and then SEAP secretion in the medium was measured.
+
+Shown is data of three independent experiments.
+
+(G) MDMs were removed from the plate using accutase and apoptosis of MDMs was measured by Annexin V-FITC and propidium iodine (PI) staining and analyzed by flow cytometry.
+# T10 Protein S14 90 99 1474 1483 Annexin V
+
+(H) Whole cell lysates from the transfected MDM and RAW 264.7 cells were subjected to Western blot analysis with PKCalpha antibody.
+
+beta-actin served as a loading control.
+# T11 Protein S16 0 10 1688 1698 beta-actin
+
+Shown is a representative blot from at least three independent experiments.
+

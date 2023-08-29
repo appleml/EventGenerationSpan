@@ -1,0 +1,74 @@
+Regulation of the megakaryocytic glycoprotein IX promoter by the oncogenic Ets transcription factor Fli-1.
+# T1 Protein S1 33 48 33 48 glycoprotein IX
+# T2 Protein S1 100 105 100 105 Fli-1
+$ T1 Protein S1 33 48 33 48 glycoprotein IX
+$ T2 Protein S1 100 105 100 105 Fli-1
+@ T21 Regulation S1 0 10 0 10 Regulation
+% E1 Regulation:T21 Theme:T1 Cause:T2
+
+Glycoprotein (GP) IX is a subunit of the von Willebrand receptor, GPIb-V-IX, which mediates adhesion of platelets to the subendothelium of damaged blood vessels.
+# T3 Protein S2 0 20 108 128 Glycoprotein (GP) IX
+
+Previous characterization of the GPIX promoter identified a functional Ets site that, when disrupted, reduced promoter activity.
+# T4 Protein S3 33 37 303 307 GPIX
+$ T4 Protein S3 33 37 303 307 GPIX
+@ T22 Entity S3 38 46 308 316 promoter
+@ T23 Negative_regulation S3 102 109 372 379 reduced
+% E2 Negative_regulation:T23 Theme:T4 Site:T22
+
+However, the Ets protein(s) that regulated GPIX promoter expression was unknown.
+# T5 Protein S4 43 47 442 446 GPIX
+$ T5 Protein S4 43 47 442 446 GPIX
+@ T24 Regulation S4 33 42 432 441 regulated
+@ T25 Gene_expression S4 57 67 456 466 expression
+% E3 Regulation:T24 Theme:E4
+% E4 Gene_expression:T25 Theme:T5
+
+In this study, transient cotransfection of several GPIX promoter/reporter constructs into 293T kidney fibroblasts with a Fli-1 expression vector shows that the oncogenic protein Fli-1 can transactivate the GPIX promoter when an intact GPIX Ets site is present.
+# T6 Protein S5 51 55 531 535 GPIX
+# T7 Protein S5 121 126 601 606 Fli-1
+# T8 Protein S5 178 183 658 663 Fli-1
+# T9 Protein S5 206 210 686 690 GPIX
+# T10 Protein S5 235 239 715 719 GPIX
+$ T9 Protein S5 206 210 686 690 GPIX
+$ T8 Protein S5 178 183 658 663 Fli-1
+@ T26 Positive_regulation S5 188 201 668 681 transactivate
+@ T27 Entity S5 211 219 691 699 promoter
+% E5 Positive_regulation:T26 Theme:T9 Cause:T8 Site:T27
+
+In addition, Fli-1 binding of the GPIX Ets site was identified in antibody supershift experiments in nuclear extracts derived from hematopoietic human erythroleukemia cells.
+# T11 Protein S6 13 18 754 759 Fli-1
+# T12 Protein S6 34 38 775 779 GPIX
+$ T11 Protein S6 13 18 754 759 Fli-1
+@ T28 Binding S6 19 26 760 767 binding
+% E6 Binding:T28 Theme:T11
+
+Comparative studies showed that Fli-1 was also able to transactivate the GPIbalpha and, to a lesser extent, the GPIIb promoter.
+# T13 Protein S7 32 37 947 952 Fli-1
+# T14 Protein S7 73 82 988 997 GPIbalpha
+# T15 Protein S7 112 117 1027 1032 GPIIb
+$ T14 Protein S7 73 82 988 997 GPIbalpha
+$ T13 Protein S7 32 37 947 952 Fli-1
+$ T15 Protein S7 112 117 1027 1032 GPIIb
+@ T29 Positive_regulation S7 55 68 970 983 transactivate
+@ T30 Entity S7 118 126 1033 1041 promoter
+% E7 Positive_regulation:T29 Theme:T14 Cause:T13 Site:T30
+% E8 Positive_regulation:T29 Theme:T15 Cause:T13 Site:T30
+
+Immunoblot analysis identified Fli-1 protein in lysates derived from platelets.
+# T16 Protein S8 31 36 1074 1079 Fli-1
+$ T16 Protein S8 31 36 1074 1079 Fli-1
+@ T31 Gene_expression S8 20 30 1063 1073 identified
+% E9 Gene_expression:T31 Theme:T16
+
+In addition, expression of Fli-1 was identified immunohistochemically in megakaryocytes derived from CD34(+) cells treated with the megakaryocyte differentiation and proliferation factor, thrombopoietin.
+# T17 Protein S9 27 32 1150 1155 Fli-1
+# T18 Protein S9 101 105 1224 1228 CD34
+# T19 Protein S9 188 202 1311 1325 thrombopoietin
+$ T17 Protein S9 27 32 1150 1155 Fli-1
+@ T32 Gene_expression S9 13 23 1136 1146 expression
+% E10 Gene_expression:T32 Theme:T17
+
+These results suggest that Fli-1 is likely to regulate lineage-specific genes during megakaryocytopoiesis.
+# T20 Protein S10 27 32 1354 1359 Fli-1
+

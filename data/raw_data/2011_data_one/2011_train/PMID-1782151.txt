@@ -1,0 +1,66 @@
+Stimulation of interferon beta gene transcription in vitro by purified NF-kappa B and a novel TH protein.
+# T1 Protein S1 15 30 15 30 interferon beta
+$ T1 Protein S1 15 30 15 30 interferon beta
+@ T11 Positive_regulation S1 0 11 0 11 Stimulation
+@ T12 Transcription S1 36 49 36 49 transcription
+% E1 Positive_regulation:T11 Theme:E2
+% E2 Transcription:T12 Theme:T1
+
+The human interferon beta (IFN-beta) regulatory element consists of multiple enhanson domains which are targets for transcription factors involved in inducible expression of the promoter.
+# T2 Protein S2 10 25 117 132 interferon beta
+# T3 Protein S2 27 35 134 142 IFN-beta
+$ T3 Protein S2 27 35 134 142 IFN-beta
+@ T13 Entity S2 77 93 184 200 enhanson domains
+@ T14 Regulation S2 104 111 211 218 targets
+@ T15 Positive_regulation S2 150 159 257 266 inducible
+@ T16 Gene_expression S2 160 170 267 277 expression
+% E3 Regulation:T14 Theme:T3 Site:T13
+% E4 Positive_regulation:T15 Theme:E5
+% E5 Gene_expression:T16 Theme:T3
+
+To further characterize the protein-DNA interactions mediating IFN-beta induction, positive regulatory domain (PRD) II binding proteins were purified from phorbol ester induced Jurkat T-cells and from IFN primed, cycloheximide/polyinosinic-polycytidylic acid treated HeLa S3 cells.
+# T4 Protein S3 63 71 358 366 IFN-beta
+$ T4 Protein S3 63 71 358 366 IFN-beta
+@ T17 Positive_regulation S3 53 62 348 357 mediating
+@ T18 Positive_regulation S3 72 81 367 376 induction
+% E6 Positive_regulation:T17 Theme:E7
+% E7 Positive_regulation:T18 Theme:T4
+
+From HeLa cells, two major proteins of 52 and 45 kilodaltons (kD) copurified with DNA binding activity, whereas from T-cells, four proteins--a major protein of 52 kD and three minor proteins of 82, 67, and 43-47 kD--were purified.
+
+Also, an induction specific DNA binding protein was purified from HeLa cells that interacted with the (AAGTGA)4 tetrahexamer sequence and the PRDI domain.
+
+This protein is immunologically distinct from IRF-1/ISGF2.
+# T5 Protein S6 46 51 1009 1014 IRF-1
+# T6 Protein S6 52 57 1015 1020 ISGF2
+
+Uninduced or Sendai virus induced HeLa extracts were used to examine transcription in vitro using a series of IFN beta promoter deletions.
+# T7 Protein S7 110 118 1132 1140 IFN beta
+
+Deletions upstream of the PRDII element increased transcription in the uninduced extract, indicating predominantly negative regulation of the promoter.
+@ T19 Positive_regulation S8 40 49 1201 1210 increased
+% E8 Positive_regulation:T19 Theme:E2
+
+A 2-4-fold increase in IFN-beta promoter transcription was observed in Sendai virus induced extracts, and deletion of PRDI and PRDII elements decreased this induced level of transcription.
+# T8 Protein S9 23 31 1336 1344 IFN-beta
+$ T8 Protein S9 23 31 1336 1344 IFN-beta
+@ T20 Positive_regulation S9 11 19 1324 1332 increase
+@ T21 Transcription S9 41 54 1354 1367 transcription
+@ T22 Negative_regulation S9 142 151 1455 1464 decreased
+% E9 Positive_regulation:T20 Theme:E10
+% E10 Transcription:T21 Theme:T8
+% E11 Negative_regulation:T22 Theme:E9
+
+When purified PRDII and tetrahexamer binding proteins were added to the induced extract, a 4-fold increase in transcription was observed.
+@ T23 Positive_regulation S10 98 106 1600 1608 increase
+% E12 Positive_regulation:T23 Theme:E10
+
+These experiments demonstrate that it is possible to modulate IFN-beta transcription in vitro but indicate that additional proteins may be required to fully activate IFN-beta transcription.
+# T9 Protein S11 62 70 1702 1710 IFN-beta
+# T10 Protein S11 166 174 1806 1814 IFN-beta
+$ T10 Protein S11 166 174 1806 1814 IFN-beta
+@ T24 Positive_regulation S11 157 165 1797 1805 activate
+@ T25 Transcription S11 175 188 1815 1828 transcription
+% E13 Positive_regulation:T24 Theme:E14
+% E14 Transcription:T25 Theme:T10
+

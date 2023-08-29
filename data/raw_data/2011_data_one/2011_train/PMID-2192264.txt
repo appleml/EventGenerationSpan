@@ -1,0 +1,12 @@
+Involvement of cyclic AMP-dependent protein kinases in the signal transduction pathway for interleukin-1.
+# T1 Protein S1 91 104 91 104 interleukin-1
+
+Expression of a highly specific protein inhibitor for cyclic AMP-dependent protein kinases in interleukin-1 (IL-1)-responsive cells blocked IL-1-induced gene transcription that was driven by the kappa immunoglobulin enhancer or the human immunodeficiency virus long terminal repeat.
+# T2 Protein S2 94 107 201 214 interleukin-1
+# T3 Protein S2 109 113 216 220 IL-1
+# T4 Protein S2 140 144 247 251 IL-1
+# T5 Protein S2 195 215 302 322 kappa immunoglobulin
+
+This inhibitor did not affect protein kinase C-mediated gene transcription, suggesting that cyclic AMP-dependent protein kinases are involved in the signal transduction pathway for IL-1 in a number of responsive cell types.
+# T6 Protein S3 181 185 571 575 IL-1
+

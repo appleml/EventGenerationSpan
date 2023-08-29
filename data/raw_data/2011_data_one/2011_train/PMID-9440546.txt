@@ -1,0 +1,84 @@
+Cellular and molecular mechanisms of IL-5 synthesis in atopic diseases: a study with allergen-specific human helper T cells.
+# T1 Protein S1 37 41 37 41 IL-5
+$ T1 Protein S1 37 41 37 41 IL-5
+@ T13 Gene_expression S1 42 51 42 51 synthesis
+% E1 Gene_expression:T13 Theme:T1
+
+BACKGROUND: Cytokines produced by helper T cells are intimately involved in chronic allergic diseases associated with eosinophilic inflammation.
+
+OBJECTIVE: We investigated the production of IL-5, a potent growth factor and chemotactic factor for eosinophils, by CD4+ T lymphocytes in patients with asthma.
+# T2 Protein S3 45 49 316 320 IL-5
+$ T2 Protein S3 45 49 316 320 IL-5
+@ T14 Gene_expression S3 31 41 302 312 production
+% E2 Gene_expression:T14 Theme:T2
+
+METHODS: Allergen-specific T cell clones and T cell hybridomas were established from the peripheral blood lymphocytes of patients with asthma, and the responses to various stimuli were determined.
+
+RESULTS: After nonspecific stimulation, IL-5 production by CD4+ T cells from both atopic and nonatopic subjects with asthma was significantly enhanced compared with that by cells from healthy controls.
+# T3 Protein S5 40 44 669 673 IL-5
+$ T3 Protein S5 40 44 669 673 IL-5
+@ T15 Gene_expression S5 45 55 674 684 production
+@ T16 Positive_regulation S5 142 150 771 779 enhanced
+% E3 Gene_expression:T15 Theme:T3
+% E4 Positive_regulation:T16 Theme:E3
+
+Peripheral blood mononuclear cells from atopic asthma patients both proliferated and produced IL-5 after incubation with mite allergen, suggesting that mite-specific helper T cells were involved in the eosinophilic inflammation of atopic asthma.
+# T4 Protein S6 94 98 925 929 IL-5
+$ T4 Protein S6 94 98 925 929 IL-5
+@ T17 Gene_expression S6 85 93 916 924 produced
+@ T18 Positive_regulation S6 99 120 930 951 after incubation with
+% E5 Gene_expression:T17 Theme:T4
+% E6 Positive_regulation:T18 Theme:E5
+
+A human IL-5 promoter/enhancer luciferase gene construct transfected into IL-5-producing T cell clones was clearly transcribed after stimulation, indicating that the 515 base pair IL-5 gene segment upstream of the coding region was sufficient to respond to activating signals in human helper T cells.
+# T5 Protein S7 8 12 1085 1089 IL-5
+# T6 Protein S7 74 78 1151 1155 IL-5
+# T7 Protein S7 180 184 1257 1261 IL-5
+$ T6 Protein S7 74 78 1151 1155 IL-5
+$ T5 Protein S7 8 12 1085 1089 IL-5
+$ T7 Protein S7 180 184 1257 1261 IL-5
+@ T19 Gene_expression S7 79 88 1156 1165 producing
+@ T20 Transcription S7 115 126 1192 1203 transcribed
+@ T21 Positive_regulation S7 127 132 1204 1209 after
+@ T22 Entity S7 190 197 1267 1274 segment
+@ T23 Positive_regulation S7 232 253 1309 1330 sufficient to respond
+% E7 Gene_expression:T19 Theme:T6
+% E8 Transcription:T20 Theme:T5
+% E9 Positive_regulation:T21 Theme:E8
+% E10 Positive_regulation:T23 Theme:T7 Site:T22
+
+The same gene segment was not transcribed in IL-5-nonproducing T cell clones, suggesting that human T cell IL-5 synthesis is regulated at the transcriptional level.
+# T8 Protein S8 45 49 1423 1427 IL-5
+# T9 Protein S8 107 111 1485 1489 IL-5
+$ T8 Protein S8 45 49 1423 1427 IL-5
+$ T9 Protein S8 107 111 1485 1489 IL-5
+@ T24 Transcription S8 26 41 1404 1419 not transcribed
+@ T25 Gene_expression S8 50 62 1428 1440 nonproducing
+@ T26 Gene_expression S8 112 121 1490 1499 synthesis
+@ T27 Regulation S8 125 134 1503 1512 regulated
+@ T28 Transcription S8 142 163 1520 1541 transcriptional level
+% E11 Transcription:T24 Theme:T5
+% E12 Gene_expression:T25 Theme:T8
+% E13 Gene_expression:T26 Theme:T9
+% E14 Regulation:T27 Theme:E13 Cause:E15
+% E15 Transcription:T28 Theme:T9
+
+Experiments with T cell hybridomas confirmed these findings and suggested that a unique transcription factor may be essential for human IL-5 gene transcription.
+# T10 Protein S9 136 140 1679 1683 IL-5
+$ T10 Protein S9 136 140 1679 1683 IL-5
+@ T29 Positive_regulation S9 116 125 1659 1668 essential
+@ T30 Transcription S9 146 159 1689 1702 transcription
+% E16 Positive_regulation:T29 Theme:E17
+% E17 Transcription:T30 Theme:T10
+
+CONCLUSION: Enhanced IL-5 production by helper T cells seems to cause the eosinophilic inflammation of both atopic and nonatopic asthma.
+# T11 Protein S10 21 25 1725 1729 IL-5
+$ T11 Protein S10 21 25 1725 1729 IL-5
+@ T31 Positive_regulation S10 12 20 1716 1724 Enhanced
+@ T32 Gene_expression S10 26 36 1730 1740 production
+% E18 Positive_regulation:T31 Theme:E19
+% E19 Gene_expression:T32 Theme:T11
+
+Elucidation of IL-5-specific regulatory mechanisms may facilitate the development of novel treatments for allergic diseases associated with eosinophilic inflammation.
+# T12 Protein S11 15 19 1856 1860 IL-5
+

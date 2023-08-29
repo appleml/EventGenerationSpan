@@ -1,0 +1,38 @@
+TAR-independent transactivation by Tat in cells derived from the CNS: a novel mechanism of HIV-1 gene regulation.
+# T1 Protein S1 35 38 35 38 Tat
+
+The Tat protein of human immunodeficiency virus type 1 (HIV-1) is essential for productive infection and is a potential target for antiviral therapy.
+# T2 Protein S2 4 7 119 122 Tat
+
+Tat, a potent activator of HIV-1 gene expression, serves to greatly increase the rate of transcription directed by the viral promoter.
+# T3 Protein S3 0 3 265 268 Tat
+
+This induction, which seems to be an important component in the progression of acquired immune deficiency syndrome (AIDS), may be due to increased transcriptional initiation, increased transcriptional elongation, or a combination of these processes.
+
+Much attention has been focused on the interaction of Tat with a specific RNA target termed TAR (transactivation responsive) which is present in the leader sequence of all HIV-1 mRNAs.
+# T4 Protein S5 54 57 704 707 Tat
+$ T4 Protein S5 54 57 704 707 Tat
+@ T9 Binding S5 39 50 689 700 interaction
+% E1 Binding:T9 Theme:T4
+
+This interaction is believed to be an important component of the mechanism of transactivation.
+
+In this report we demonstrate that in certain CNS-derived cells Tat is capable of activating HIV-1 through a TAR-independent pathway.
+# T5 Protein S7 64 67 994 997 Tat
+
+A Tat-responsive element is found upstream within the viral promoter that in glial-derived cell lines allows transactivation in the absence of TAR.
+# T6 Protein S8 2 5 1066 1069 Tat
+
+Deletion mapping and hybrid promoter constructs demonstrate that the newly identified Tat-responsive element corresponds to a sequence within the viral long terminal repeat (LTR) previously identified as the HIV-1 enhancer, or NF-kappa B domain.
+# T7 Protein S9 86 89 1298 1301 Tat
+
+DNA band-shift analysis reveals NF-kappa B binding activity in glial cells that differs from that present in T lymphoid cells.
+
+Further, we observe that TAR-deleted mutants of HIV-1 demonstrate normal late gene expression in glial cells as evidenced by syncytia formation and production of viral p24 antigen.
+# T8 Protein S11 168 171 1753 1756 p24
+$ T8 Protein S11 168 171 1753 1756 p24
+@ T10 Gene_expression S11 148 158 1733 1743 production
+% E2 Gene_expression:T10 Theme:T8
+
+(ABSTRACT TRUNCATED AT 250 WORDS)
+

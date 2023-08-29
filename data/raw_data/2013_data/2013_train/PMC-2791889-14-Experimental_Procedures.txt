@@ -1,0 +1,17 @@
+Real-Time Quantitative RT-PCR
+
+Cells were harvested and restimulated in the presence of immobilized anti-CD3 (2 mug/ml) plus anti-CD28 (2 mug/ml) for 3 hr or immediately lysed.
+# T1 Protein S2 74 77 104 107 CD3
+# T2 Protein S2 99 103 129 133 CD28
+
+RNA was extracted and reverse-transcribed and cDNA was analyzed for the expression of cytokines and transcription factors by real-time PCR assay as before (Shoemaker et al., 2006).
+
+Target gene mRNA expression was quantified either with SYBR Green (Applied Biosystems) or with Master Mix (Applied Biosystems) and normalized to ubiquitin or HPRT mRNA levels, respectively.
+# T3 Protein S4 145 154 502 511 ubiquitin
+# T4 Protein S4 158 162 515 519 HPRT
+$ T3 Protein S4 145 154 502 511 ubiquitin
+$ T4 Protein S4 158 162 515 519 HPRT
+@ T5 Transcription S4 163 174 520 531 mRNA levels
+% E1 Transcription:T5 Theme:T3
+% E2 Transcription:T5 Theme:T4
+

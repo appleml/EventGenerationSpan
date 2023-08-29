@@ -1,0 +1,59 @@
+The lymphotoxin promoter is stimulated by HTLV-I tax activation of NF-kappa B in human T-cell lines.
+# T1 Protein S1 49 52 49 52 tax
+
+The HTLV-I transcriptional activator tax was used to gain insight into the mechanism of lymphotoxin (LT; TNF-beta) gene induction.
+# T2 Protein S2 37 40 139 142 tax
+# T3 Protein S2 105 113 207 215 TNF-beta
+$ T3 Protein S2 105 113 207 215 TNF-beta
+@ T17 Gene_expression S2 120 129 222 231 induction
+% E1 Gene_expression:T17 Theme:T3
+
+Tax-expressing cell lines produce LT biologic activity.
+
+An LT promoter (LT-293) CAT construct that contained an NF-kappa B site was active in the LT-producing C81-66-45 cell line, which contains defective HTLV-I but expresses tax.
+# T4 Protein S4 24 27 313 316 CAT
+# T5 Protein S4 170 173 459 462 tax
+$ T5 Protein S4 170 173 459 462 tax
+@ T18 Gene_expression S4 160 169 449 458 expresses
+% E2 Gene_expression:T18 Theme:T5
+
+The observation that a mutated LT-kappa B construct (M1-CAT) was inactive in C81-66-45, confirmed the importance of NF-kappa B in LT gene expression.
+# T6 Protein S5 56 59 520 523 CAT
+$ T6 Protein S5 56 59 520 523 CAT
+@ T19 Positive_regulation S5 65 73 529 537 inactive
+@ T20 Positive_regulation S5 102 112 566 576 importance
+@ T21 Gene_expression S5 138 148 602 612 expression
+% E3 Positive_regulation:T19 Theme:T6
+% E4 Positive_regulation:T20 Theme:E5
+% E5 Gene_expression:T21 Theme:T3
+
+Tax was transfected into HTLV-I-negative human T-cell lines.
+# T7 Protein S6 0 3 614 617 Tax
+
+Jurkat T cells stably expressing tax contained elevated levels of NF-kappa B that directly bound to the LT-kappa B site.
+# T8 Protein S7 33 36 708 711 tax
+$ T8 Protein S7 33 36 708 711 tax
+@ T22 Gene_expression S7 22 32 697 707 expressing
+% E6 Gene_expression:T22 Theme:T8
+
+Tax co-transfected with reporter constructs into Jurkat cells maximally activated HTLV-I-LTR-CAT and kappa B-fos-CAT and also activated LT-293 to a lesser extent.
+# T9 Protein S8 0 3 796 799 Tax
+# T10 Protein S8 93 96 889 892 CAT
+# T11 Protein S8 109 112 905 908 fos
+# T12 Protein S8 113 116 909 912 CAT
+$ T9 Protein S8 0 3 796 799 Tax
+@ T23 Positive_regulation S8 4 18 803 814 co-transfected
+@ T24 Gene_expression S8 4 18 803 814 co-transfected
+% E7 Positive_regulation:T23 Theme:E8
+% E8 Gene_expression:T24 Theme:T9
+
+In JM T cells, tax induced LT-293 activity by two- to four-fold, though there was no induction of M1-CAT.
+# T13 Protein S9 15 18 974 977 tax
+# T14 Protein S9 101 104 1060 1063 CAT
+
+The increase in LT-293 CAT activity mirrored the increase in LT biologic activity seen under these conditions.
+# T15 Protein S10 23 26 1088 1091 CAT
+
+These studies, the first to demonstrate induction of LT promoter activity over basal levels, indicate that HTLV-I tax causes low-level activation of both endogenous LT and the LT promoter, at least in part through activation of NF-kappa B.
+# T16 Protein S11 114 117 1290 1293 tax
+

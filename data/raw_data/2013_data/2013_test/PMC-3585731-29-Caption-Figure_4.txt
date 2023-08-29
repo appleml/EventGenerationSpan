@@ -1,0 +1,27 @@
+Late Thr308 phosphorylation of Akt contributes to necroptosis.
+
+(A) L929 cells were treated with zVAD.fmk and bFGF or PDGF, with or without Nec-1, for the indicated periods of time.
+# T1 Protein S2 46 50 109 113 bFGF
+
+(B,C) L929 cells were stimulated by zVAD.fmk or TNFalpha (B) or bFGF/zVAD.fmk under serum free conditions (C).
+# T2 Protein S3 48 56 229 237 TNFalpha
+# T3 Protein S3 64 68 245 249 bFGF
+
+Akt inh.
+
+VIII was added 15 min before necroptotic stimulation (Pre) or at indicated times after stimulation.
+
+Viability was measured 24 hr after activation of necroptosis.
+
+(D) L929 cells were stimulated with bFGF/zVAD under serum free conditions.
+# T4 Protein S7 36 40 499 503 bFGF
+
+PD173074 was added 15 min before or 1 hr after FGF/zVAD.
+
+Samples for western blot were collected at 15 min and 9 hr time points.
+
+(E) Cells were pretreated with PD173074 or it was added 1 hr after bFGF/zVAD.fmk, followed by viability assessment at 24 hr.
+# T5 Protein S10 67 71 734 738 bFGF
+
+In all graphs, average+/-SD was plotted.
+

@@ -1,0 +1,34 @@
+Effects of overexpression of IL-1 receptor-associated kinase on NFkappaB activation, IL-2 production and stress-activated protein kinases in the murine T cell line EL4.
+# T1 Protein S1 85 89 85 89 IL-2
+$ T1 Protein S1 85 89 85 89 IL-2
+@ T4 Regulation S1 0 7 0 7 Effects
+@ T5 Gene_expression S1 90 100 90 100 production
+% E1 Regulation:T4 Theme:E2
+% E2 Gene_expression:T5 Theme:T1
+
+The association and activation of the IL-1 receptor-associated protein kinase (IRAK) to the IL-1 receptor complex is one of the earliest events detectable in IL-1 signal transduction.
+
+We generated permanent clones of the murine T cell line EL4 6.1 overexpressing human (h)IRAK to evaluate the role of this kinase in IL-1 signaling.
+
+Overexpression of hIRAK enhanced IL-1-stimulated activation of the transcription factor NFkappaB, whereas a truncated form (N-IRAK) specifically inhibited IL-1-dependent NFkappaB activity.
+
+In clones stably overexpressing hIRAK a weak constitutive activation of NFkappaB correlated with a low basal IL-2 production which was enhanced in an IL-1-dependent manner.
+# T2 Protein S5 109 113 800 804 IL-2
+$ T2 Protein S5 109 113 800 804 IL-2
+@ T6 Gene_expression S5 114 124 805 815 production
+@ T7 Positive_regulation S5 135 143 826 834 enhanced
+% E3 Gene_expression:T6 Theme:T2
+% E4 Positive_regulation:T7 Theme:E3
+
+Compared to the parental cell line the dose-response curve of IL-1-induced IL-2 production was shifted in both potency and efficacy.
+# T3 Protein S6 75 79 939 943 IL-2
+$ T3 Protein S6 75 79 939 943 IL-2
+@ T8 Positive_regulation S6 67 74 931 938 induced
+@ T9 Gene_expression S6 80 90 944 954 production
+% E5 Positive_regulation:T8 Theme:E6
+% E6 Gene_expression:T9 Theme:T3
+
+These results demonstrate that IRAK directly triggers NFkappaB-mediated gene expression in EL4 cells.
+
+Qualitatively different effects were observed for the IL-1-induced activation of stress-activated protein (SAP) kinases: permanent overexpression of IRAK did not affect the dose dependence but prolonged the kinetics of IL-1-induced activation of SAP kinases, suggesting that this signaling branch may be regulated by distinct mechanisms.
+

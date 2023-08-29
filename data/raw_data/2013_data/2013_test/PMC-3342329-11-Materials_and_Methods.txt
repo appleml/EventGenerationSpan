@@ -1,0 +1,19 @@
+Western Blotting
+
+Tumor tissues were homogenized with protein extraction solution (PRO-PREPTM, Intron Biotechnology, Seoul, Korea), and lysed by 60 min incubation on ice.
+
+The tissue lysate centrifuged at 15,000 rpm for 15 min at 4degreesC.
+
+Equal amounts of proteins (40 microg) were separated on a SDS/12%-polyacrylamide gel, and then transferred to a polyvinylidene difluoride (PVDF) membrane (GE Water and Process technologies, Trevose, PA, USA).
+
+Blots were blocked for 1 h at room temperature with 5% (w/v) non-fat dried milk in Tris-Buffered Saline Tween-20 [TBST: 10 mM Tris (pH 8.0) and 150 mM NaCl solution containing 0.05% Tween-20].
+
+After a short washing in TBST, the membranes were immunoblotted with the following primary antibodies: mouse monoclonal antibodies directed against p65 and p50 (1:500 dilutions; Santa Cruz Biotechnology, Santa Cruz, CA), rabbit polyclonal antibodies directed against Bax and PARP (1:500 dilutions; Santa Cruz Biotechnology), and against caspase-3, caspase-9, Bcl-2 and c-IAP-1 (1:1000 dilutions; Cell Signaling Technology, Beverly, MA).
+# T1 Protein S6 148 151 789 792 p65
+# T2 Protein S6 156 159 797 800 p50
+# T3 Protein S6 369 376 1010 1017 c-IAP-1
+
+The blots were incubated with the respective horseradish peroxidase-conjugated anti-rabbit or anti-mouse IgG (1:4000 dilutions; Santa Cruz Biotechnology).
+
+Immunoreactive proteins were detected with the ECL detection system.
+

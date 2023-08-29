@@ -1,0 +1,88 @@
+Steel factor affects SCL expression during normal erythroid differentiation.
+# T1 Protein S1 0 12 0 12 Steel factor
+# T2 Protein S1 21 24 21 24 SCL
+$ T1 Protein S1 0 12 0 12 Steel factor
+$ T2 Protein S1 21 24 21 24 SCL
+@ T26 Regulation S1 13 20 13 20 affects
+@ T27 Gene_expression S1 25 35 25 35 expression
+% E1 Regulation:T26 Theme:E2 Cause:T1
+% E2 Gene_expression:T27 Theme:T2
+
+Steel factor is one of the growth factors that controls the proliferation and differentiation of hematopoietic cells and SCL, also known as Tcl-5 or Tal-1, is a transcription factor involved in erythropoiesis.
+# T3 Protein S2 0 12 78 90 Steel factor
+# T4 Protein S2 121 124 199 202 SCL
+# T5 Protein S2 140 145 218 223 Tcl-5
+# T6 Protein S2 149 154 227 232 Tal-1
+
+In this report, we studied the role of SCL in the proliferation of human peripheral blood burst-forming unit-erythroid (BFU-E) and the effects of Steel factor on SCL expression in proliferating erythroid cells.
+# T7 Protein S3 39 42 327 330 SCL
+# T8 Protein S3 146 158 434 446 Steel factor
+# T9 Protein S3 162 165 450 453 SCL
+$ T8 Protein S3 146 158 434 446 Steel factor
+$ T9 Protein S3 162 165 450 453 SCL
+@ T28 Regulation S3 135 142 423 430 effects
+@ T29 Gene_expression S3 166 176 454 464 expression
+% E3 Regulation:T28 Theme:E4 Cause:T8
+% E4 Gene_expression:T29 Theme:T9
+
+BFU-E-derived colonies increase progressively in size, as determined by cell number, from day 7 to day 14 of culture, with the greatest increase in colony size (10-fold expansion) occurring between day 7 and day 10.
+
+SCL protein levels in BFU-E-derived cells were highest in day 7 cells and decreased progressively from day 7 to day 14 of culture, suggesting an association of SCL with erythroid proliferation.
+# T10 Protein S5 0 3 715 718 SCL
+# T11 Protein S5 160 163 875 878 SCL
+$ T10 Protein S5 0 3 715 718 SCL
+@ T30 Negative_regulation S5 74 83 789 798 decreased
+% E5 Negative_regulation:T30 Theme:T10
+
+In contrast, SCL mRNA levels did not decrease significantly between day 7 and day 14 cells, suggesting that posttranscriptional mechanisms are largely responsible for the decrease in SCL protein observed.
+# T12 Protein S6 13 16 922 925 SCL
+# T13 Protein S6 183 186 1092 1095 SCL
+$ T12 Protein S6 13 16 922 925 SCL
+$ T13 Protein S6 183 186 1092 1095 SCL
+@ T31 Negative_regulation S6 37 45 946 954 decrease
+@ T32 Regulation S6 151 162 1060 1071 responsible
+@ T33 Negative_regulation S6 171 179 1080 1088 decrease
+% E6 Negative_regulation:T31 Theme:T12
+% E7 Regulation:T32 Theme:E8
+% E8 Negative_regulation:T33 Theme:T13
+
+The role of SCL in Steel factor-induced erythroid proliferation was then examined.
+# T14 Protein S7 12 15 1126 1129 SCL
+# T15 Protein S7 19 31 1133 1145 Steel factor
+
+In BFU-E-derived colonies cultured with Steel factor, colony size was significantly increased compared to control.
+# T16 Protein S8 40 52 1237 1249 Steel factor
+
+In day 7 and day 10 erythroid precursors cultured with Steel factor, SCL protein was increased significantly compared to control.
+# T17 Protein S9 55 67 1367 1379 Steel factor
+# T18 Protein S9 69 72 1381 1384 SCL
+$ T18 Protein S9 69 72 1381 1384 SCL
+@ T34 Positive_regulation S9 85 94 1397 1406 increased
+% E9 Positive_regulation:T34 Theme:T18
+
+The increase in SCL protein levels in early erythroid precursors stimulated with Steel factor suggests one mechanism through which Steel factor may enhance normal erythroid proliferation.
+# T19 Protein S10 16 19 1458 1461 SCL
+# T20 Protein S10 81 93 1523 1535 Steel factor
+# T21 Protein S10 131 143 1573 1585 Steel factor
+$ T19 Protein S10 16 19 1458 1461 SCL
+@ T35 Positive_regulation S10 4 12 1446 1454 increase
+% E10 Positive_regulation:T35 Theme:T19
+
+SCL mRNA levels assessed by Northern blot in day 7 cells did not increase significantly in response to Steel factor stimulation, suggesting that posttranscriptional mechanisms may also be important in the increase in SCL protein observed in response to Steel.
+# T22 Protein S11 0 3 1630 1633 SCL
+# T23 Protein S11 103 115 1733 1745 Steel factor
+# T24 Protein S11 217 220 1847 1850 SCL
+# T25 Protein S11 253 258 1883 1888 Steel
+$ T22 Protein S11 0 3 1630 1633 SCL
+$ T23 Protein S11 103 115 1733 1745 Steel factor
+$ T24 Protein S11 217 220 1847 1850 SCL
+$ T25 Protein S11 253 258 1883 1888 Steel
+@ T36 Transcription S11 9 15 1639 1645 levels
+@ T37 Positive_regulation S11 65 73 1695 1703 increase
+@ T38 Regulation S11 188 197 1818 1827 important
+@ T39 Positive_regulation S11 205 213 1835 1843 increase
+% E11 Transcription:T36 Theme:T22
+% E12 Positive_regulation:T37 Theme:E11 Cause:T23
+% E13 Regulation:T38 Theme:E14
+% E14 Positive_regulation:T39 Theme:T24 Cause:T25
+

@@ -1,0 +1,23 @@
+A new member of the leucine zipper class of proteins that binds to the HLA DR alpha promoter.
+# T1 Protein S1 71 83 71 83 HLA DR alpha
+
+Several mutants derived from transformed human B cell lines are defective in expressing major histocompatibility complex (MHC) class II genes.
+
+The failure to express a class II gene in at least one such mutant line has been mapped to the MHC class II X box, a conserved transcriptional element in the promoter region.
+
+A complementary DNA encoding a DNA-binding protein (human X box binding protein, hXBP-1) whose target is the human DR alpha X box and the 3' flanking region has now been cloned.
+# T2 Protein S4 52 79 465 492 human X box binding protein
+# T3 Protein S4 81 87 494 500 hXBP-1
+# T4 Protein S4 115 123 528 536 DR alpha
+
+This complementary DNA encoded a protein with structural similarities to the c-jun proto-oncogene product, and its target sequence was closely related to the palindromic target sequence of c-jun.
+# T5 Protein S5 77 82 668 673 c-jun
+# T6 Protein S5 189 194 780 785 c-jun
+
+Mutation of the hXBP-1 DNA target sequence decreased DR alpha promoter activity in vivo.
+# T7 Protein S6 16 22 803 809 hXBP-1
+# T8 Protein S6 53 61 840 848 DR alpha
+
+These studies suggest that the hXBP-1 protein acts as a transcription factor in B cells.
+# T9 Protein S7 31 37 907 913 hXBP-1
+

@@ -1,0 +1,54 @@
+Increased Foxp3 Protein Expression Is Associated with Low HTLV-I Proviral Load
+# T1 Protein S1 10 15 10 15 Foxp3
+$ T1 Protein S1 10 15 10 15 Foxp3
+@ T15 Positive_regulation S1 0 9 0 9 Increased
+@ T16 Gene_expression S1 24 34 24 34 Expression
+% E1 Positive_regulation:T15 Theme:E2
+% E2 Gene_expression:T16 Theme:T1
+
+Since Foxp3 is expressed almost exclusively within CD4+CD25+ T cells, a major viral reservoir for HTLV-I [33], it was important to determine whether there was an association between Foxp3 and HTLV-I replication in infected patients.
+# T2 Protein S2 6 11 85 90 Foxp3
+# T3 Protein S2 51 54 130 133 CD4
+# T4 Protein S2 55 59 134 138 CD25
+# T5 Protein S2 182 187 261 266 Foxp3
+$ T2 Protein S2 6 11 85 90 Foxp3
+@ T17 Gene_expression S2 15 24 94 103 expressed
+% E3 Gene_expression:T17 Theme:T2
+
+We therefore quantitated the Foxp3 protein expression in CD4+CD25+ T cells by flow cytometry and the HTLV-I proviral load (a surrogate marker of viral replication) by real-time PCR from eight patients with HAM/TSP and eight asymptomatic carriers (ACs).
+# T6 Protein S3 29 34 341 346 Foxp3
+# T7 Protein S3 57 60 369 372 CD4
+# T8 Protein S3 61 65 373 377 CD25
+$ T6 Protein S3 29 34 341 346 Foxp3
+@ T18 Gene_expression S3 43 53 355 365 expression
+% E4 Gene_expression:T18 Theme:T6
+
+The data from this analysis is summarized in Table 1.
+
+As expected, patients with HAM/TSP exhibited significantly higher proviral loads (indicated as HTLV-I proviral DNA copies/100 cells) (34.68 +/- 23.19) compared to ACs (4.75 +/- 5.47) (p = 0.0008).
+
+The percentage of Foxp3+ cells within the CD4+CD25+ T cell population was significantly greater in ACs (43.23 +/- 12.95) than in HAM/TSP patients (18.59 +/- 5.77) (p = 0.0033).
+# T9 Protein S6 18 23 834 839 Foxp3
+# T10 Protein S6 42 45 858 861 CD4
+# T11 Protein S6 46 50 862 866 CD25
+
+These data suggest that high levels of Foxp3 protein expression are associated with reduced HTLV-I replication in vivo.
+# T12 Protein S7 39 44 1032 1037 Foxp3
+$ T12 Protein S7 39 44 1032 1037 Foxp3
+@ T19 Positive_regulation S7 24 28 1017 1021 high
+@ T20 Gene_expression S7 53 63 1046 1056 expression
+% E5 Positive_regulation:T19 Theme:E6
+% E6 Gene_expression:T20 Theme:T12
+
+They also support our recent reports that high proviral loads, which have been shown to correlate with high Tax mRNA in HTLV-I-infected patients, are associated with reduced Foxp3 expression [8,34].
+# T13 Protein S8 108 111 1221 1224 Tax
+# T14 Protein S8 174 179 1287 1292 Foxp3
+$ T13 Protein S8 108 111 1221 1224 Tax
+$ T14 Protein S8 174 179 1287 1292 Foxp3
+@ T21 Positive_regulation S8 103 107 1216 1220 high
+@ T22 Negative_regulation S8 166 173 1279 1286 reduced
+@ T23 Gene_expression S8 180 190 1293 1303 expression
+% E7 Positive_regulation:T21 Theme:T13
+% E8 Negative_regulation:T22 Theme:E9
+% E9 Gene_expression:T23 Theme:T14
+

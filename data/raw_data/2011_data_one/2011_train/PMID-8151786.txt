@@ -1,0 +1,26 @@
+Human immunodeficiency virus type 1 Nef protein down-regulates transcription factors NF-kappa B and AP-1 in human T cells in vitro after T-cell receptor stimulation.
+# T1 Protein S1 36 39 36 39 Nef
+
+Human immunodeficiency virus type 1 (HIV-1) negative factor (Nef) has been shown to down-regulate the transcription factors NF-kappa B and AP-1 in vitro.
+# T2 Protein S2 44 59 211 226 negative factor
+# T3 Protein S2 61 64 228 231 Nef
+
+To define the mechanism of action of the Nef protein, the signal transduction pathways which may be affected in T cells by constitutive expression of the nef gene were examined.
+# T4 Protein S3 41 44 362 365 Nef
+# T5 Protein S3 154 157 475 478 nef
+$ T5 Protein S3 154 157 475 478 nef
+@ T9 Gene_expression S3 136 146 457 467 expression
+% E1 Gene_expression:T9 Theme:T5
+
+Stimulation of T cells with tumor necrosis factor, interleukin-1, or lipopolysaccharide resulted in the recruitment of transcriptional factors to a similar level whether or not the cells expressed the nef gene.
+
+On the other hand, stimulation of T cells by mitogens or antibodies to the T-cell receptor (TCR)-CD3 complex resulted in the down-regulation of transcriptional factors NF-kappa B and AP-1 in cells expressing the nef gene compared with cells not expressing the nef gene.
+# T6 Protein S5 212 215 922 925 nef
+$ T6 Protein S5 212 215 922 925 nef
+@ T10 Gene_expression S5 197 207 907 917 expressing
+% E2 Gene_expression:T10 Theme:T6
+
+Because the Nef protein does not affect the surface expression of the CD3-TCR complex, we conclude that the Nef protein down-regulates the transcriptional factors NF-kappa B and AP-1 in T cells in vitro through an effect on the TCR-dependent signal transduction pathway.
+# T7 Protein S6 12 15 992 995 Nef
+# T8 Protein S6 108 111 1088 1091 Nef
+

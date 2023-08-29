@@ -1,0 +1,75 @@
+GATA3-Driven Th2 Responses Inhibit TGF-beta1-Induced FOXP3 Expression and the Formation of Regulatory T Cells
+# T1 Protein S1 0 5 0 5 GATA3
+# T2 Protein S1 35 44 35 44 TGF-beta1
+# T3 Protein S1 53 58 53 58 FOXP3
+$ T2 Protein S1 35 44 35 44 TGF-beta1
+$ T3 Protein S1 53 58 53 58 FOXP3
+@ T18 Negative_regulation S1 27 34 27 34 Inhibit
+@ T19 Positive_regulation S1 45 52 45 52 Induced
+@ T20 Gene_expression S1 59 69 59 69 Expression
+% E1 Negative_regulation:T18 Theme:E2
+% E2 Positive_regulation:T19 Theme:E3 Cause:T2
+% E3 Gene_expression:T20 Theme:T3
+
+Transcription factors act in concert to induce lineage commitment towards Th1, Th2, or T regulatory (Treg) cells, and their counter-regulatory mechanisms were shown to be critical for polarization between Th1 and Th2 phenotypes.
+
+FOXP3 is an essential transcription factor for natural, thymus-derived (nTreg) and inducible Treg (iTreg) commitment; however, the mechanisms regulating its expression are as yet unknown.
+# T4 Protein S3 0 5 339 344 FOXP3
+$ T4 Protein S3 0 5 339 344 FOXP3
+@ T21 Regulation S3 142 152 481 491 regulating
+@ T16 Anaphora S3 153 156 492 495 its
+@ T22 Gene_expression S3 157 167 496 506 expression
+% E4 Regulation:T21 Theme:E5
+% E5 Gene_expression:T22 Theme:T4
+
+We describe a mechanism controlling iTreg polarization, which is overruled by the Th2 differentiation pathway.
+
+We demonstrated that interleukin 4 (IL-4) present at the time of T cell priming inhibits FOXP3.
+# T5 Protein S5 21 34 659 672 interleukin 4
+# T6 Protein S5 36 40 674 678 IL-4
+# T7 Protein S5 89 94 727 732 FOXP3
+$ T7 Protein S5 89 94 727 732 FOXP3
+$ T5 Protein S5 21 34 659 672 interleukin 4
+@ T23 Negative_regulation S5 80 88 718 726 inhibits
+% E6 Negative_regulation:T23 Theme:T7 Cause:T5
+
+This inhibitory mechanism was also confirmed in Th2 cells and in T cells of transgenic mice overexpressing GATA-3 in T cells, which are shown to be deficient in transforming growth factor (TGF)-beta-mediated FOXP3 induction.
+# T8 Protein S6 107 113 841 847 GATA-3
+# T9 Protein S6 161 198 895 932 transforming growth factor (TGF)-beta
+# T10 Protein S6 208 213 942 947 FOXP3
+$ T8 Protein S6 107 113 841 847 GATA-3
+$ T9 Protein S6 161 198 895 932 transforming growth factor (TGF)-beta
+$ T10 Protein S6 208 213 942 947 FOXP3
+@ T24 Gene_expression S6 92 106 826 840 overexpressing
+@ T25 Negative_regulation S6 148 157 882 891 deficient
+@ T26 Positive_regulation S6 199 207 933 941 mediated
+@ T27 Positive_regulation S6 214 223 948 957 induction
+% E7 Gene_expression:T24 Theme:T8
+% E8 Negative_regulation:T25 Theme:E9
+% E9 Positive_regulation:T26 Theme:E10 Cause:T9
+% E10 Positive_regulation:T27 Theme:T10
+
+This inhibition is mediated by direct binding of GATA3 to the FOXP3 promoter, which represses its transactivation process.
+# T11 Protein S7 49 54 1008 1013 GATA3
+# T12 Protein S7 62 67 1021 1026 FOXP3
+$ T11 Protein S7 49 54 1008 1013 GATA3
+$ T12 Protein S7 62 67 1021 1026 FOXP3
+@ T17 Anaphora S7 0 15 959 974 This inhibition
+@ T28 Positive_regulation S7 19 27 978 986 mediated
+@ T29 Binding S7 38 45 997 1004 binding
+@ T30 Entity S7 68 76 1027 1035 promoter
+% E11 Positive_regulation:T28 Theme:E8 Cause:E12
+% E12 Binding:T29 Theme:T11 Theme2:T12 Site2:T30
+
+Therefore, this study provides a new understanding of tolerance development, controlled by a type 2 immune response.
+
+IL-4 treatment in mice reduces iTreg cell frequency, highlighting that therapeutic approaches that target IL-4 or GATA3 might provide new preventive strategies facilitating tolerance induction particularly in Th2-mediated diseases, such as allergy.
+# T13 Protein S9 0 4 1199 1203 IL-4
+# T14 Protein S9 106 110 1305 1309 IL-4
+# T15 Protein S9 114 119 1313 1318 GATA3
+$ T14 Protein S9 106 110 1305 1309 IL-4
+$ T15 Protein S9 114 119 1313 1318 GATA3
+@ T31 Regulation S9 99 105 1298 1304 target
+% E13 Regulation:T31 Theme:T14
+% E14 Regulation:T31 Theme:T15
+

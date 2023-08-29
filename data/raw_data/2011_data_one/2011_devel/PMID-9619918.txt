@@ -1,0 +1,71 @@
+IL-2-induced growth of CD8+ T cell prolymphocytic leukemia cells mediated by NF-kappaB induction and IL-2 receptor alpha expression.
+# T1 Protein S1 0 4 0 4 IL-2
+# T2 Protein S1 101 120 101 120 IL-2 receptor alpha
+$ T2 Protein S1 101 120 101 120 IL-2 receptor alpha
+@ T19 Gene_expression S1 121 131 121 131 expression
+% E1 Gene_expression:T19 Theme:T2
+
+The binding of interleukin-2 (IL-2) to its receptor on normal T cells induces nuclear expression of nuclear factor kappaB (NF-kappaB), activation of the IL-2 receptor (IL-2R) alpha chain gene, and cell proliferation.
+# T3 Protein S2 15 28 149 162 interleukin-2
+# T4 Protein S2 30 34 164 168 IL-2
+# T5 Protein S2 153 186 287 320 IL-2 receptor (IL-2R) alpha chain
+$ T4 Protein S2 30 34 164 168 IL-2
+$ T5 Protein S2 153 186 287 320 IL-2 receptor (IL-2R) alpha chain
+@ T20 Binding S2 4 11 138 145 binding
+@ T21 Positive_regulation S2 70 77 204 211 induces
+@ T22 Positive_regulation S2 135 145 269 279 activation
+% E2 Binding:T20 Theme:T4
+% E3 Positive_regulation:T21 Theme:E4 Cause:E2
+% E4 Positive_regulation:T22 Theme:T5
+
+In the present study, the role of IL-2R signaling in the growth of CD8+ T cell prolymphocytic leukemia (T-PLL) cells has been investigated.
+
+Flow cytometry revealed that primary leukemia cells from a patient with CD8+ T-PLL expressed IL-2Ralpha and beta chains, and the cells showed a proliferative response and an increase in IL-2Ralpha expression on culture with exogeneous IL-2.
+# T6 Protein S4 93 103 584 594 IL-2Ralpha
+# T7 Protein S4 108 112 599 603 beta
+# T8 Protein S4 186 196 677 687 IL-2Ralpha
+# T9 Protein S4 235 239 726 730 IL-2
+$ T7 Protein S4 108 112 599 603 beta
+$ T6 Protein S4 93 103 584 594 IL-2Ralpha
+$ T9 Protein S4 235 239 726 730 IL-2
+$ T8 Protein S4 186 196 677 687 IL-2Ralpha
+@ T23 Gene_expression S4 83 92 574 583 expressed
+@ T24 Positive_regulation S4 174 182 665 673 increase
+@ T25 Gene_expression S4 197 207 688 698 expression
+% E5 Gene_expression:T23 Theme:T7
+% E6 Gene_expression:T23 Theme:T6
+% E7 Positive_regulation:T24 Theme:E8 Cause:T9
+% E8 Gene_expression:T25 Theme:T8
+
+Northern blot analysis failed to detect IL-2 mRNA, suggesting that IL-2 may act in a paracrine manner in vivo.
+# T10 Protein S5 40 44 772 776 IL-2
+# T11 Protein S5 67 71 799 803 IL-2
+$ T10 Protein S5 40 44 772 776 IL-2
+@ T26 Transcription S5 33 39 765 771 detect
+% E9 Transcription:T26 Theme:T10
+
+Electrophoretic mobility-shift assays revealed that recombinant IL-2 increased NF-kappaB binding activity in nuclear extracts of the leukemia cells, and Northern blot analysis showed that IL-2 increased the abundance of mRNAs encoding the NF-kappaB components c-Rel and KBF1 in these cells.
+# T12 Protein S6 64 68 907 911 IL-2
+# T13 Protein S6 188 192 1031 1035 IL-2
+# T14 Protein S6 260 265 1103 1108 c-Rel
+# T15 Protein S6 270 274 1113 1117 KBF1
+$ T13 Protein S6 188 192 1031 1035 IL-2
+$ T14 Protein S6 260 265 1103 1108 c-Rel
+$ T15 Protein S6 270 274 1113 1117 KBF1
+@ T27 Positive_regulation S6 193 202 1036 1045 increased
+@ T28 Transcription S6 207 225 1050 1068 abundance of mRNAs
+% E10 Positive_regulation:T27 Theme:E13 Cause:T13
+% E11 Positive_regulation:T27 Theme:E12 Cause:T13
+% E12 Transcription:T28 Theme:T14
+% E13 Transcription:T28 Theme:T15
+
+IL-2 binding analysis demonstrated that IL-2 markedly increased the number of low affinity IL-2Rs on the leukemia cells, without an effect on the number of high-affinity IL-2Rs.
+# T16 Protein S7 0 4 1134 1138 IL-2
+# T17 Protein S7 40 44 1174 1178 IL-2
+$ T16 Protein S7 0 4 1134 1138 IL-2
+@ T29 Binding S7 5 12 1139 1146 binding
+% E14 Binding:T29 Theme:T16
+
+These results show that IL-2 is capable of inducing the nuclear expression of NF-kappaB in primary CD8+ T-PLL cells, and that this effect is mediated, at least in part, at a pretranslational level.
+# T18 Protein S8 24 28 1336 1340 IL-2
+

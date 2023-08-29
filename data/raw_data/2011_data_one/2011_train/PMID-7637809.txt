@@ -1,0 +1,42 @@
+An IRF-1-dependent pathway of DNA damage-induced apoptosis in mitogen-activated T lymphocytes.
+# T1 Protein S1 3 8 3 8 IRF-1
+
+Lymphocytes are particularly susceptible to DNA damage-induced apoptosis, a response which may serve as a form of 'altruistic suicide' to counter their intrinsic high potential for mutation and clonal expansion.
+
+The tumour suppressor p53 has been shown to regulate this type of apoptosis in thymocytes, but an as yet unknown, p53-independent pathway(s) appears to mediate the same event in mitogen-activated mature T lymphocytes.
+# T2 Protein S3 22 25 330 333 p53
+# T3 Protein S3 114 117 422 425 p53
+
+Here we show DNA damage-induced apoptosis in these T lymphocytes is dependent on the antioncogenic transcription factor interferon regulatory factor (IRF)-1.
+# T4 Protein S4 120 156 646 682 interferon regulatory factor (IRF)-1
+
+Thus two different anti-onco-genic transcription factors, p53 and IRF-1, are required for distinct apoptotic pathways in T lymphocytes.
+# T5 Protein S5 58 61 742 745 p53
+# T6 Protein S5 66 71 750 755 IRF-1
+
+We also show that mitogen induction of the interleukin-1 beta converting enzyme (ICE) gene, a mammalian homologue of the Caenorhabditis elegans cell death gene ced-3, is IRF-1-dependent.
+# T7 Protein S6 43 79 863 899 interleukin-1 beta converting enzyme
+# T8 Protein S6 81 84 901 904 ICE
+# T9 Protein S6 160 165 980 985 ced-3
+# T10 Protein S6 170 175 990 995 IRF-1
+$ T8 Protein S6 81 84 901 904 ICE
+$ T10 Protein S6 170 175 990 995 IRF-1
+@ T13 Positive_regulation S6 26 35 846 855 induction
+@ T14 Regulation S6 176 185 996 1005 dependent
+% E1 Positive_regulation:T13 Theme:T8
+% E2 Regulation:T14 Theme:E1 Cause:T10
+
+Ectopic overexpression of IRF-1 results in the activation of the endogenous gene for ICE and enhances the sensitivity of cells to radiation-induced apoptosis.
+# T11 Protein S7 26 31 1033 1038 IRF-1
+# T12 Protein S7 85 88 1092 1095 ICE
+$ T11 Protein S7 26 31 1033 1038 IRF-1
+$ T12 Protein S7 85 88 1092 1095 ICE
+@ T15 Gene_expression S7 8 22 1015 1029 overexpression
+@ T16 Positive_regulation S7 8 22 1015 1029 overexpression
+@ T17 Positive_regulation S7 32 39 1039 1046 results
+@ T18 Positive_regulation S7 47 57 1054 1064 activation
+% E3 Gene_expression:T15 Theme:T11
+% E4 Positive_regulation:T16 Theme:E3
+% E5 Positive_regulation:T17 Theme:E6 Cause:E4
+% E6 Positive_regulation:T18 Theme:T12
+

@@ -1,0 +1,92 @@
+The expression of c-fos, c-jun, and c-myc genes is regulated by heat shock in human lymphoid cells.
+# T1 Protein S1 18 23 18 23 c-fos
+# T2 Protein S1 25 30 25 30 c-jun
+# T3 Protein S1 36 41 36 41 c-myc
+$ T2 Protein S1 25 30 25 30 c-jun
+$ T3 Protein S1 36 41 36 41 c-myc
+$ T1 Protein S1 18 23 18 23 c-fos
+@ T14 Gene_expression S1 4 14 4 14 expression
+@ T15 Regulation S1 51 60 51 60 regulated
+% E1 Gene_expression:T14 Theme:T2
+% E2 Gene_expression:T14 Theme:T3
+% E3 Gene_expression:T14 Theme:T1
+% E4 Regulation:T15 Theme:E2
+% E5 Regulation:T15 Theme:E3
+% E6 Regulation:T15 Theme:E1
+
+The effect of heat shock on the expression of the nuclear protooncogenes c-fos, c-jun, and c-myc was studied in human lymphoid cells.
+# T4 Protein S2 73 78 174 179 c-fos
+# T5 Protein S2 80 85 181 186 c-jun
+# T6 Protein S2 91 96 192 197 c-myc
+$ T5 Protein S2 80 85 181 186 c-jun
+$ T6 Protein S2 91 96 192 197 c-myc
+$ T4 Protein S2 73 78 174 179 c-fos
+@ T16 Regulation S2 4 10 105 111 effect
+@ T17 Gene_expression S2 32 42 133 143 expression
+% E7 Regulation:T16 Theme:E10
+% E8 Regulation:T16 Theme:E11
+% E9 Regulation:T16 Theme:E12
+% E10 Gene_expression:T17 Theme:T5
+% E11 Gene_expression:T17 Theme:T6
+% E12 Gene_expression:T17 Theme:T4
+
+Heat shock caused an increase in c-fos and c-jun mRNA levels and a decrease in c-myc mRNA levels in pre-B (Hyon) and T (DND-41) cell lines as well as in freshly isolated normal human thymocytes.
+# T7 Protein S3 33 38 268 273 c-fos
+# T8 Protein S3 43 48 278 283 c-jun
+# T9 Protein S3 79 84 314 319 c-myc
+$ T8 Protein S3 43 48 278 283 c-jun
+$ T7 Protein S3 33 38 268 273 c-fos
+$ T9 Protein S3 79 84 314 319 c-myc
+@ T18 Positive_regulation S3 21 29 256 264 increase
+@ T19 Transcription S3 54 60 289 295 levels
+@ T20 Negative_regulation S3 67 75 302 310 decrease
+@ T21 Transcription S3 90 96 325 331 levels
+% E13 Positive_regulation:T18 Theme:E16
+% E14 Positive_regulation:T18 Theme:E15
+% E15 Transcription:T19 Theme:T8
+% E16 Transcription:T19 Theme:T7
+% E17 Negative_regulation:T20 Theme:E18
+% E18 Transcription:T21 Theme:T9
+
+The changes in the mRNA levels of these protooncogenes in Hyon cells were most pronounced at 42 and 43 degrees C; kinetic analysis demonstrated that the changes could be detected within 30 min of heat shock.
+@ T22 Regulation S4 4 11 434 441 changes
+@ T23 Positive_regulation S4 170 178 600 608 detected
+% E19 Regulation:T22 Theme:E18
+% E20 Regulation:T22 Theme:E16
+% E21 Regulation:T22 Theme:E15
+% E22 Positive_regulation:T23 Theme:E21
+% E23 Positive_regulation:T23 Theme:E20
+% E24 Positive_regulation:T23 Theme:E19
+
+Altered transcription of c-fos and c-myc genes was the primary effect of heat shock.
+# T10 Protein S5 25 30 663 668 c-fos
+# T11 Protein S5 35 40 673 678 c-myc
+$ T10 Protein S5 25 30 663 668 c-fos
+$ T11 Protein S5 35 40 673 678 c-myc
+@ T24 Regulation S5 0 7 638 645 Altered
+@ T25 Transcription S5 8 21 646 659 transcription
+% E25 Regulation:T24 Theme:E27
+% E26 Regulation:T24 Theme:E28
+% E27 Transcription:T25 Theme:T10
+% E28 Transcription:T25 Theme:T11
+
+Secondarily, heat shock of Hyon cells stabilized the c-myc mRNA level by increasing its half-life from 24 to 45 min.
+# T12 Protein S6 53 58 776 781 c-myc
+$ T12 Protein S6 53 58 776 781 c-myc
+@ T26 Positive_regulation S6 73 83 796 806 increasing
+% E29 Positive_regulation:T26 Theme:T12
+
+The overall effect of heat shock on c-myc mRNA level, however, was a marked inhibition of its transcription.
+# T13 Protein S7 36 41 876 881 c-myc
+$ T13 Protein S7 36 41 876 881 c-myc
+@ T27 Regulation S7 12 18 852 858 effect
+@ T28 Transcription S7 47 52 887 892 level
+@ T29 Negative_regulation S7 76 86 916 926 inhibition
+@ T30 Transcription S7 94 107 934 947 transcription
+% E30 Regulation:T27 Theme:E31
+% E31 Transcription:T28 Theme:T13
+% E32 Negative_regulation:T29 Theme:E33
+% E33 Transcription:T30 Theme:T13
+
+These results demonstrate that the transcription of nuclear protooncogenes is regulated by heat shock indicating a role for nuclear protooncogenes in the stress response of lymphoid cells.
+

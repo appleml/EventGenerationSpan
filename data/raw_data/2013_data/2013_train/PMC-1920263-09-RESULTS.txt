@@ -1,0 +1,21 @@
+Characterization of the transcriptional start sites of APOBEC3G by 5'-RACE
+# T1 Protein S1 55 63 55 63 APOBEC3G
+
+To identify the transcriptional start sites (TSS) of APOBEC3G (A3G) in A3.01 T cells, we performed 5'-rapid amplification of cDNA ends analysis (RACE) with A3G-specific primers (see Figure 1).
+# T2 Protein S2 53 61 128 136 APOBEC3G
+# T3 Protein S2 63 66 138 141 A3G
+# T4 Protein S2 156 159 231 234 A3G
+
+Agarose gel electrophoresis resolved the nested PCR products into three bands of different electrophoretic mobility with a dominant middle band (Figure 2).
+
+For each band, the DNA was cloned and sequence analysis of six or seven individual transformants was performed.
+
+We observed that the transcriptional start sites of the A3G gene were located between 58 and 361 nt upstream of the ATG start codon (Figure 1).
+# T5 Protein S5 56 59 592 595 A3G
+
+Although TSS were variable and most sites were only detected once among the 19 clones analyzed, one TSS was identified in six individual clones.
+
+This TSS was located 66 nt upstream of the start of the published A3G mRNA sequence (GenBank(TM) accession number NM021822) and we defined this position as the major transcriptional start site of the A3G gene.
+# T6 Protein S7 66 69 891 894 A3G
+# T7 Protein S7 200 203 1025 1028 A3G
+

@@ -1,0 +1,21 @@
+Induction of Apoptotic Cell Death and Inhibition of the Expression of Anti-apoptotic Proteins in CCR5-/- Mice
+# T1 Protein S1 97 101 97 101 CCR5
+
+To see whether inhibition of NF-kappaB activity results in the induction of apoptotic cell death and expression of NF-kappaB target apoptotic cell death regulatory protein, the levels of apoptotic cell death and expression of apoptotic cell death regulatory proteins were assessed.
+
+Apoptotic cell death in the tumor sections were evaluated in the CCR5+/+ and CCR5-/- mice that were inoculated with melanoma cells.
+# T2 Protein S3 65 69 457 461 CCR5
+# T3 Protein S3 77 81 469 473 CCR5
+
+TUNEL staining revealed a higher frequency of apoptotic cell death in the tumor tissues of the CCR5-/- mice than that of the CCR5+/+ mice (Figure 3A).
+# T4 Protein S4 95 99 619 623 CCR5
+# T5 Protein S4 125 129 649 653 CCR5
+
+Immunohistochemical and immunofluorescence showed that high levels of cleaved caspase-3 and Bax were found more frequently in the CCR5-/- mice than in the CCR5+/+ mice (Figure 3B and 3C).
+# T6 Protein S5 130 134 805 809 CCR5
+# T7 Protein S5 155 159 830 834 CCR5
+
+Consistent with the immunohistochemical data, Western blot analysis of tumor proteins showed greater increased levels of cleaved caspase-3, cleaved caspase-9, cleaved PARP and Bax, whereas the levels of Bcl-2 and C-IAP1 were significantly decreased in CCR5-/- mice tissues (Figure 3D).
+# T8 Protein S6 213 219 1076 1082 C-IAP1
+# T9 Protein S6 252 256 1115 1119 CCR5
+

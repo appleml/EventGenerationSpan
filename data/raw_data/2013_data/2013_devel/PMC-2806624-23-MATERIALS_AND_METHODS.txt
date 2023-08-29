@@ -1,0 +1,30 @@
+Quantification of cytokine levels.
+
+IL-4, IL-5, IL-6, IL-10, IL-13, IL-17, and IFN-gamma secretion was assessed using fluorescent bead-based technology.
+# T1 Protein S2 0 4 35 39 IL-4
+# T2 Protein S2 6 10 41 45 IL-5
+# T3 Protein S2 12 16 47 51 IL-6
+# T4 Protein S2 18 23 53 58 IL-10
+# T5 Protein S2 25 30 60 65 IL-13
+# T6 Protein S2 32 37 67 72 IL-17
+# T7 Protein S2 43 52 78 87 IFN-gamma
+$ T1 Protein S2 0 4 35 39 IL-4
+$ T2 Protein S2 6 10 41 45 IL-5
+$ T3 Protein S2 12 16 47 51 IL-6
+$ T4 Protein S2 18 23 53 58 IL-10
+$ T5 Protein S2 25 30 60 65 IL-13
+$ T6 Protein S2 32 37 67 72 IL-17
+$ T7 Protein S2 43 52 78 87 IFN-gamma
+@ T8 Localization S2 53 62 88 97 secretion
+% E1 Localization:T8 Theme:T1
+% E2 Localization:T8 Theme:T2
+% E3 Localization:T8 Theme:T3
+% E4 Localization:T8 Theme:T4
+% E5 Localization:T8 Theme:T5
+% E6 Localization:T8 Theme:T6
+% E7 Localization:T8 Theme:T7
+
+The Bio-Plex-hu Cytokine Panel, 17-Plex Group 1 was used according to the manufacturer's instructions (Bio-Rad Laboratories).
+
+Fluorescent signals were read and analyzed using the Bio-Plex 200 System (Bio-Rad Laboratories).
+

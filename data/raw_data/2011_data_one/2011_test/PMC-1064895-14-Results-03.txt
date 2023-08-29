@@ -1,0 +1,26 @@
+Regulation of IL-17 production in RA PBMC by inflammatory cytokines and chemokines
+# T1 Protein S1 14 19 14 19 IL-17
+
+Because RA PBMC include several cell types in addition to T cells, some inflammatory cytokines released from macrophages and other lymphocytes might have affected the production of IL-17 from T cells.
+# T2 Protein S2 181 186 264 269 IL-17
+
+To evaluate the effects of inflammatory cytokines released by activated PBMC, we tested the effects of several cytokines and chemokines on IL-17 production.
+# T3 Protein S3 139 144 423 428 IL-17
+
+We detected an increase in IL-17 level after stimulation with IL-15 (10 ng/ml), whereas with IL-1beta (10 ng/ml), TNF-alpha (10 ng/ml), IL-18 (10 ng/ml) or TGF-beta (10 ng/ml) the levels in IL-17 were unchanged (Fig. 2a).
+# T4 Protein S4 27 32 468 473 IL-17
+# T5 Protein S4 62 67 503 508 IL-15
+# T6 Protein S4 93 101 534 542 IL-1beta
+# T7 Protein S4 114 123 555 564 TNF-alpha
+# T8 Protein S4 136 141 577 582 IL-18
+# T9 Protein S4 156 164 597 605 TGF-beta
+# T10 Protein S4 190 195 631 636 IL-17
+
+When treated with MCP-1 (10 ng/ml) or IL-6 (10 ng/ml), significant upregulations of IL-17 proteins were observed (62 +/- 42 and 50 +/- 10 versus 31 +/- 11 pg/ml, respectively; P < 0.05), whereas none was observed with IL-8 (10 ng/ml), MIP-1alpha (10 ng/ml) or MIP-1beta (10 ng/ml) (Fig. 2b).
+# T11 Protein S5 18 23 681 686 MCP-1
+# T12 Protein S5 38 42 701 705 IL-6
+# T13 Protein S5 84 89 747 752 IL-17
+# T14 Protein S5 218 222 881 885 IL-8
+# T15 Protein S5 235 245 898 908 MIP-1alpha
+# T16 Protein S5 260 269 923 932 MIP-1beta
+

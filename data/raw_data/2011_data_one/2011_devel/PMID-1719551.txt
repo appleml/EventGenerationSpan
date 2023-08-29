@@ -1,0 +1,34 @@
+cAMP-dependent regulation of proenkephalin by JunD and JunB: positive and negative effects of AP-1 proteins.
+# T1 Protein S1 46 50 46 50 JunD
+# T2 Protein S1 55 59 55 59 JunB
+
+We demonstrate that JunD, a component of the AP-1 transcription factor complex, activates transcription of the human proenkephalin gene in a fashion that is completely dependent upon the cAMP-dependent protein kinase, protein kinase A. Activation of proenkephalin transcription by JunD is dependent upon a previously characterized cAMP-, phorbol ester-, and Ca(2+)-inducible enhancer, and JunD is shown to bind the enhancer as a homodimer.
+# T3 Protein S2 20 24 130 134 JunD
+# T4 Protein S2 281 285 391 395 JunD
+# T5 Protein S2 389 393 499 503 JunD
+$ T5 Protein S2 389 393 499 503 JunD
+@ T12 Binding S2 406 410 516 520 bind
+% E1 Binding:T12 Theme:T5
+
+Another component of the AP-1 transcription complex, JunB, is shown to inhibit activation mediated by JunD.
+# T6 Protein S3 53 57 603 607 JunB
+# T7 Protein S3 102 106 652 656 JunD
+
+As a homodimer JunB is unable to bind the enhancer; however in the presence of c-Fos, high-affinity binding is observed.
+# T8 Protein S4 15 19 673 677 JunB
+# T9 Protein S4 79 84 737 742 c-Fos
+$ T8 Protein S4 15 19 673 677 JunB
+$ T9 Protein S4 79 84 737 742 c-Fos
+@ T13 Binding S4 33 37 691 695 bind
+@ T14 Positive_regulation S4 60 78 718 736 in the presence of
+@ T15 Binding S4 100 107 758 765 binding
+% E2 Binding:T13 Theme:T8
+% E3 Positive_regulation:T14 Theme:E4 Cause:T9
+% E4 Binding:T15 Theme:T8
+
+Furthermore, JunD is shown to activate transcription of genes linked to both cAMP and phorbol ester response elements in a protein kinase A-dependent fashion, further blurring the distinction between these response elements.
+# T10 Protein S5 13 17 792 796 JunD
+
+These results demonstrate that the transcriptional activity of an AP-1-related protein is regulated by the cAMP-dependent second-messenger pathway and suggest that JunD and other AP-1-related proteins may play an important role in the regulation of gene expression by cAMP-dependent intracellular signaling pathways.
+# T11 Protein S6 164 168 1168 1172 JunD
+

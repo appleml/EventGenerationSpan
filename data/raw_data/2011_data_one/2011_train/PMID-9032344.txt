@@ -1,0 +1,64 @@
+Constitutive expression of p50 homodimer in freshly isolated human monocytes decreases with in vitro and in vivo differentiation: a possible mechanism influencing human immunodeficiency virus replication in monocytes and mature macrophages.
+# T1 Protein S1 27 30 27 30 p50
+$ T1 Protein S1 27 30 27 30 p50
+@ T14 Gene_expression S1 13 23 13 23 expression
+@ T15 Negative_regulation S1 77 86 77 86 decreases
+% E1 Gene_expression:T14 Theme:T1
+% E2 Negative_regulation:T15 Theme:E1
+
+Human immunodeficiency virus type 1 (HIV-1) replicates more efficiently in vitro in differentiated macrophages than in freshly isolated monocytes.
+
+We investigated whether this may be partly explained by changes in expression of NF-kappaB with monocyte differentiation.
+
+We demonstrated that constitutive expression of NF-kappaB in primary human monocytes changed significantly with differentiation in vitro to monocyte-derived macrophages (MDMs) and differentiation in vivo to alveolar macrophages (AMs).
+
+Freshly isolated monocytes constitutively expressed high levels of transcriptionally inactive p50 homodimer which decreased with time in culture in favor of the transcriptionally active p50/p65 and p50/RelB heterodimers.
+# T2 Protein S5 94 97 840 843 p50
+# T3 Protein S5 186 189 932 935 p50
+# T4 Protein S5 190 193 936 939 p65
+# T5 Protein S5 198 201 944 947 p50
+# T6 Protein S5 202 206 948 952 RelB
+$ T2 Protein S5 94 97 840 843 p50
+$ T4 Protein S5 190 193 936 939 p65
+$ T5 Protein S5 198 201 944 947 p50
+$ T6 Protein S5 202 206 948 952 RelB
+$ T3 Protein S5 186 189 932 935 p50
+@ T16 Gene_expression S5 42 51 788 797 expressed
+@ T17 Negative_regulation S5 114 123 860 869 decreased
+@ T18 Positive_regulation S5 145 156 891 902 in favor of
+% E3 Gene_expression:T16 Theme:T2
+% E4 Negative_regulation:T17 Theme:E3
+% E5 Positive_regulation:T18 Theme:T4
+% E6 Positive_regulation:T18 Theme:T5
+% E7 Positive_regulation:T18 Theme:T6
+% E8 Positive_regulation:T18 Theme:T3
+
+As in MDMs, AMs constitutively expressed p50/p65 and p50/RelB although at lower levels.
+# T7 Protein S6 41 44 1008 1011 p50
+# T8 Protein S6 45 48 1012 1015 p65
+# T9 Protein S6 53 56 1020 1023 p50
+# T10 Protein S6 57 61 1024 1028 RelB
+$ T7 Protein S6 41 44 1008 1011 p50
+$ T9 Protein S6 53 56 1020 1023 p50
+$ T8 Protein S6 45 48 1012 1015 p65
+$ T10 Protein S6 57 61 1024 1028 RelB
+@ T19 Gene_expression S6 31 40 998 1007 expressed
+% E9 Gene_expression:T19 Theme:T7
+% E10 Gene_expression:T19 Theme:T9
+% E11 Gene_expression:T19 Theme:T8
+% E12 Gene_expression:T19 Theme:T10
+
+HIV infection of fresh monocytes failed to induce p50/p65 as seen in MDMs.
+# T11 Protein S7 50 53 1105 1108 p50
+# T12 Protein S7 54 57 1109 1112 p65
+$ T11 Protein S7 50 53 1105 1108 p50
+$ T12 Protein S7 54 57 1109 1112 p65
+@ T20 Positive_regulation S7 43 49 1098 1104 induce
+% E13 Positive_regulation:T20 Theme:T11
+% E14 Positive_regulation:T20 Theme:T12
+
+The replacement of p50 homodimers with transcriptionally active heterodimers following time in culture may partially explain the progressive increase in susceptibility of monocytes to HIV infection during in vitro culture.
+# T13 Protein S8 19 22 1149 1152 p50
+
+The change in NF-kappaB components with monocyte differentiation in vivo may also explain the different transcriptional activities of these cell populations in HIV-infected individuals.
+

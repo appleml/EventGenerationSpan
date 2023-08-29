@@ -1,0 +1,27 @@
+Anti-CD2 receptor antibodies activate the HIV long terminal repeat in T lymphocytes.
+# T1 Protein S1 5 8 5 8 CD2
+
+The CD2 T lymphocyte glycoprotein surface molecule mediates both cell to cell adhesion and T cell activation, two processes that are involved in the spread of HIV infection.
+# T2 Protein S2 4 7 90 93 CD2
+
+Treatment of chronically HIV-infected PBMC with anti-CD2 mAb has been shown to induce the expression of infectious virus from these cultures.
+# T3 Protein S3 53 56 313 316 CD2
+
+In this study we investigated the mechanisms whereby anti-CD2 antibodies stimulate viral production.
+# T4 Protein S4 58 61 460 463 CD2
+
+We demonstrate that treatment of transiently transfected T lymphocytes with anti-CD2 antibodies results in activation of the HIV long terminal repeat.
+# T5 Protein S5 81 84 584 587 CD2
+
+Furthermore, CAT assays using mutated HIV long terminal repeat-CAT constructs and gel shift assays demonstrate that this activation is dependent on the NF-kappa B enhancer.
+# T6 Protein S6 13 16 667 670 CAT
+# T7 Protein S6 63 66 717 720 CAT
+
+These studies suggest that interaction of CD2 with its natural ligand, LFA-3, may play a role in regulation of HIV expression.
+# T8 Protein S7 42 45 869 872 CD2
+# T9 Protein S7 71 76 898 903 LFA-3
+$ T8 Protein S7 42 45 869 872 CD2
+$ T9 Protein S7 71 76 898 903 LFA-3
+@ T10 Binding S7 27 38 854 865 interaction
+% E1 Binding:T10 Theme:T8 Theme2:T9
+

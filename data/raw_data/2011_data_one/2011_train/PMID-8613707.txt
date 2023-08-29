@@ -1,0 +1,66 @@
+Transcriptional basis for hyporesponsiveness of the human inducible nitric oxide synthase gene to lipopolysaccharide/interferon-gamma.
+# T1 Protein S1 58 89 58 89 inducible nitric oxide synthase
+# T2 Protein S1 117 133 117 133 interferon-gamma
+$ T1 Protein S1 58 89 58 89 inducible nitric oxide synthase
+$ T2 Protein S1 117 133 117 133 interferon-gamma
+@ T13 Regulation S1 26 44 26 44 hyporesponsiveness
+@ T14 Negative_regulation S1 26 44 26 44 hyporesponsiveness
+% E1 Regulation:T13 Theme:T1 Cause:T2
+% E4 Regulation:T13 Theme:T1
+% E2 Negative_regulation:T14 Theme:E4
+% E3 Negative_regulation:T14 Theme:E1
+
+The work reported here resolves, at the level of gene regulation, the controversy as to whether or not human monocytes/macrophages can produce nitric oxide (NO) when stimulated with lipopolysaccharide (LPS), with or without co-stimulation by interferon-gamma (IFN-gamma).
+# T3 Protein S2 242 258 378 394 interferon-gamma
+# T4 Protein S2 260 269 396 405 IFN-gamma
+
+Studies included structural comparison of the promoters for human and mouse inducible NO synthase (iNOS) genes, transfection and assay of human and mouse iNOS promoter regions in response to LPS +/- IFN-gamma, and electrophoretic mobility shift assays of kappa B response elements.
+# T5 Protein S3 76 97 484 505 inducible NO synthase
+# T6 Protein S3 99 103 507 511 iNOS
+# T7 Protein S3 154 158 562 566 iNOS
+# T8 Protein S3 199 208 607 616 IFN-gamma
+$ T7 Protein S3 154 158 562 566 iNOS
+$ T8 Protein S3 199 208 607 616 IFN-gamma
+@ T15 Entity S3 159 175 567 583 promoter regions
+@ T16 Regulation S3 179 187 587 595 response
+% E5 Regulation:T16 Theme:T7 Cause:T8 Site:T15
+% E6 Regulation:T16 Theme:T7 Site:T15
+
+Two explanations for hyporesponsiveness of the human iNOS promoter to LPS +/- IFN-gamma were found: (1) multiple inactivating nucleotide substitutions in the human counterpart of the enhancer element that has been shown to regulate LPS/IFN-gamma induced expression of the mouse iNOS gene; and (2) and absence of one or more nuclear factors in human macrophages (e.g., an LPS-inducible nuclear factor-kappa B/Rel complex), that is (are) required for maximal expression of the gene.
+# T9 Protein S4 53 57 743 747 iNOS
+# T10 Protein S4 78 87 768 777 IFN-gamma
+# T11 Protein S4 236 245 926 935 IFN-gamma
+# T12 Protein S4 278 282 968 972 iNOS
+$ T9 Protein S4 53 57 743 747 iNOS
+$ T10 Protein S4 78 87 768 777 IFN-gamma
+$ T11 Protein S4 236 245 926 935 IFN-gamma
+$ T12 Protein S4 278 282 968 972 iNOS
+@ T17 Positive_regulation S4 4 16 694 706 explanations
+@ T18 Regulation S4 21 39 711 729 hyporesponsiveness
+@ T19 Negative_regulation S4 21 39 711 729 hyporesponsiveness
+@ T20 Entity S4 58 66 748 756 promoter
+@ T21 Negative_regulation S4 223 231 913 921 regulate
+@ T22 Positive_regulation S4 246 253 936 943 induced
+@ T23 Gene_expression S4 254 264 944 954 expression
+@ T24 Positive_regulation S4 436 444 1126 1134 required
+@ T25 Gene_expression S4 457 467 1147 1157 expression
+% E7 Positive_regulation:T17 Theme:E16
+% E8 Positive_regulation:T17 Theme:E16 Cause:E18
+% E9 Positive_regulation:T17 Theme:E14 Cause:E18
+% E10 Positive_regulation:T17 Theme:E16 Cause:E17
+% E11 Positive_regulation:T17 Theme:E14 Cause:E17
+% E12 Positive_regulation:T17 Theme:E14
+% E13 Regulation:T18 Theme:T9 Cause:T10 Site:T20
+% E15 Regulation:T18 Theme:T9 Site:T20
+% E14 Negative_regulation:T19 Theme:E15
+% E16 Negative_regulation:T19 Theme:E13
+% E17 Negative_regulation:T21 Theme:E19
+% E18 Negative_regulation:T21 Theme:E20
+% E19 Positive_regulation:T22 Theme:E21
+% E20 Positive_regulation:T22 Theme:E21 Cause:T11
+% E21 Gene_expression:T23 Theme:T12
+% E22 Positive_regulation:T24 Theme:E23
+% E23 Gene_expression:T25 Theme:T12
+
+The importance of resolution of this controversy is that future research in this area should be directed toward the understanding of alternative mechanisms that can result in the successful production of NO.
+

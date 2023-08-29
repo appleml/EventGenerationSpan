@@ -1,0 +1,73 @@
+Rescue by cytokines of apoptotic cell death induced by IL-2 deprivation of human antigen-specific T cell clones.
+# T1 Protein S1 55 59 55 59 IL-2
+$ T1 Protein S1 55 59 55 59 IL-2
+@ T15 Negative_regulation S1 60 71 60 71 deprivation
+% E1 Negative_regulation:T15 Theme:T1
+
+The control of cell survival and cell death is of central importance in tissues with high cell turnover such as the lymphoid system.
+
+We have examined the effect of cytokines on IL-2 deprivation-induced apoptosis of human antigen-specific T helper clones with different cytokine production profiles.
+# T2 Protein S3 44 48 291 295 IL-2
+$ T2 Protein S3 44 48 291 295 IL-2
+@ T16 Negative_regulation S3 49 60 296 307 deprivation
+% E2 Negative_regulation:T16 Theme:T2
+
+We found that IL-2, interferon-alpha (IFN-alpha), and IFN-beta inhibited IL-2 deprivation apoptosis in Th0, Th1, and Th2 clones.
+# T3 Protein S4 14 18 427 431 IL-2
+# T4 Protein S4 54 62 467 475 IFN-beta
+# T5 Protein S4 73 77 486 490 IL-2
+$ T5 Protein S4 73 77 486 490 IL-2
+@ T17 Negative_regulation S4 78 89 491 502 deprivation
+% E3 Negative_regulation:T17 Theme:T5
+
+We also found that IL-2 protects T cell clones from IL-2 deprivation apoptosis accompanying active proliferation and enhanced expression of P53, Rb and Bcl-xL proteins.
+# T6 Protein S5 19 23 561 565 IL-2
+# T7 Protein S5 52 56 594 598 IL-2
+# T8 Protein S5 140 143 682 685 P53
+# T9 Protein S5 145 147 687 689 Rb
+# T10 Protein S5 152 158 694 700 Bcl-xL
+$ T7 Protein S5 52 56 594 598 IL-2
+$ T6 Protein S5 19 23 561 565 IL-2
+$ T8 Protein S5 140 143 682 685 P53
+$ T10 Protein S5 152 158 694 700 Bcl-xL
+$ T9 Protein S5 145 147 687 689 Rb
+@ T18 Negative_regulation S5 57 68 599 610 deprivation
+@ T19 Positive_regulation S5 117 125 659 667 enhanced
+@ T20 Gene_expression S5 126 136 668 678 expression
+% E4 Negative_regulation:T18 Theme:T7
+% E5 Positive_regulation:T19 Theme:E10 Cause:T6
+% E6 Positive_regulation:T19 Theme:E9 Cause:T6
+% E7 Positive_regulation:T19 Theme:E8 Cause:T6
+% E8 Gene_expression:T20 Theme:T8
+% E9 Gene_expression:T20 Theme:T10
+% E10 Gene_expression:T20 Theme:T9
+
+In contrast, IFN-alpha/beta rescued T cell clones from apoptosis without active proliferation, and expression of apoptosis-associated proteins tested so far was unaffected.
+
+This may be due to the fact that T cells treated with IL-2 contained those located in S + G2/M phases of the cell cycle, whereas the vast majority of T cells treated with IFN-alpha/beta were located in G0/G1 phase.
+# T11 Protein S7 54 58 938 942 IL-2
+
+IFN-alpha/beta specifically induced tyrosine phosphorylation and translocation into nucleus of signal transducers and activators of transcription (STAT) 2 protein in the T cell clones.
+# T12 Protein S8 95 154 1194 1253 signal transducers and activators of transcription (STAT) 2
+$ T12 Protein S8 95 154 1194 1253 signal transducers and activators of transcription (STAT) 2
+@ T21 Positive_regulation S8 28 35 1127 1134 induced
+@ T22 Entity S8 36 44 1135 1143 tyrosine
+@ T23 Phosphorylation S8 45 60 1144 1159 phosphorylation
+@ T24 Localization S8 65 78 1164 1177 translocation
+@ T25 Entity S8 84 91 1183 1190 nucleus
+% E11 Positive_regulation:T21 Theme:E13
+% E12 Positive_regulation:T21 Theme:E14
+% E13 Phosphorylation:T23 Theme:T12 Site:T22
+% E14 Localization:T24 Theme:T12 ToLoc:T25
+
+In addition, over-expression of STAT2 by transfection of the cDNA prevented apoptosis of the T cell clones.
+# T13 Protein S9 32 37 1316 1321 STAT2
+$ T13 Protein S9 32 37 1316 1321 STAT2
+@ T26 Gene_expression S9 13 28 1297 1312 over-expression
+@ T27 Positive_regulation S9 13 28 1297 1312 over-expression
+% E15 Gene_expression:T26 Theme:T13
+% E16 Positive_regulation:T27 Theme:E15
+
+Our present study shows that IFN-alpha and -beta mediate anti-apoptotic effect through other pathways than that of IL-2 in growth factor deprivation apoptosis.
+# T14 Protein S10 115 119 1507 1511 IL-2
+

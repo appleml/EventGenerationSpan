@@ -1,0 +1,14 @@
+The role of BSAP (Pax-5) in B-cell development.
+# T1 Protein S1 12 16 12 16 BSAP
+# T2 Protein S1 18 23 18 23 Pax-5
+
+The hierarchy of transcriptional control in B-cell development has recently been analyzed by targeted gene inactivation in the mouse.
+
+In this manner, the paired box containing gene Pax-5, encoding the B cell specific transcription factor BSAP, has been shown to play a key role in early B lymphopoiesis.
+# T3 Protein S3 47 52 230 235 Pax-5
+# T4 Protein S3 67 103 250 286 B cell specific transcription factor
+# T5 Protein S3 104 108 287 291 BSAP
+
+Other experimental strategies have implicated BSAP in the control of cell proliferation, isotype switching and transcription of the immunoglobulin heavy-chain gene at late stages of B-cell differentiation.
+# T6 Protein S4 46 50 399 403 BSAP
+

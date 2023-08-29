@@ -1,0 +1,41 @@
+Involvement of NF-kappaB in cytokine regulation.
+
+Cytokine/chemokine levels were determined using ELISA following incubation of Jurkat T-cells with NAI (1 h) and stimulation (24 h).
+
+(A) CXCL8 expression was partially inhibited following PMA stimulation (grey bars), whereas the levels were not altered following stimulation with HK E. coli (black bars), this indicates an induction mainly regulated by AP-1.
+# T1 Protein S3 4 9 185 190 CXCL8
+$ T1 Protein S3 4 9 185 190 CXCL8
+@ T5 Gene_expression S3 10 20 191 201 expression
+@ T6 Negative_regulation S3 35 44 216 225 inhibited
+@ T4 Anaphora S3 92 102 273 283 the levels
+@ T7 Regulation S3 112 119 293 300 altered
+@ T8 Positive_regulation S3 190 199 371 380 induction
+@ T9 Regulation S3 207 216 388 397 regulated
+% E1 Gene_expression:T5 Theme:T1
+% E2 Negative_regulation:T6 Theme:E1
+% E3 Regulation:T7 Theme:E1
+% E4 Positive_regulation:T8 Theme:E1
+% E5 Regulation:T9 Theme:E4
+
+(B) TNF expression was not affected by NAI.
+
+(C) IL-6 release was completely inhibited by NAI following PMA exposure, indicating regulation through NF-kappaB since IL-6 expression was significantly increased in response to HK E. coli than PMA.
+# T2 Protein S5 4 8 455 459 IL-6
+# T3 Protein S5 119 123 570 574 IL-6
+$ T2 Protein S5 4 8 455 459 IL-6
+$ T3 Protein S5 119 123 570 574 IL-6
+@ T10 Localization S5 9 16 460 467 release
+@ T11 Negative_regulation S5 32 41 483 492 inhibited
+@ T12 Regulation S5 84 94 535 545 regulation
+@ T13 Gene_expression S5 124 134 575 585 expression
+@ T14 Positive_regulation S5 153 162 604 613 increased
+% E6 Localization:T10 Theme:T2
+% E7 Negative_regulation:T11 Theme:E6
+% E8 Regulation:T12 Theme:E6
+% E9 Gene_expression:T13 Theme:T3
+% E10 Positive_regulation:T14 Theme:E9
+
+Statistical significance from the positive control (PMA/HK E. coli) was determined using Student's t-test.
+
+(n = 3).
+

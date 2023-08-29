@@ -1,0 +1,130 @@
+Interleukin-10 stabilizes inhibitory kappaB-alpha in human monocytes.
+# T1 Protein S1 0 14 0 14 Interleukin-10
+# T2 Protein S1 26 49 26 49 inhibitory kappaB-alpha
+$ T2 Protein S1 26 49 26 49 inhibitory kappaB-alpha
+$ T1 Protein S1 0 14 0 14 Interleukin-10
+@ T28 Positive_regulation S1 15 25 15 25 stabilizes
+% E1 Positive_regulation:T28 Theme:T2 Cause:T1
+
+Interleukin-10 (IL-10) protects animals from lethal endotoxemia.
+# T3 Protein S2 0 14 71 85 Interleukin-10
+# T4 Protein S2 16 21 87 92 IL-10
+
+This beneficial effect is mediated, in part, by inhibition of inflammatory cytokine production, including tumor necrosis factor-alpha (TNF-alpha).
+# T5 Protein S3 106 133 242 269 tumor necrosis factor-alpha
+# T6 Protein S3 135 144 271 280 TNF-alpha
+$ T6 Protein S3 135 144 271 280 TNF-alpha
+@ T29 Negative_regulation S3 48 58 184 194 inhibition
+@ T30 Gene_expression S3 84 94 220 230 production
+% E2 Negative_regulation:T29 Theme:E3
+% E3 Gene_expression:T30 Theme:T6
+
+Evidence suggests that IL-10 may inhibit activation of the transcription factor nuclear factor-kappaB (NF-kappaB) through an unknown mechanism.
+# T7 Protein S4 23 28 306 311 IL-10
+
+NF-kappaB activation in response to inflammatory signals is dependent upon degradation of its associated inhibitory peptide, inhibitory kappaB-alpha (IkappaB-alpha).
+# T8 Protein S5 125 148 552 575 inhibitory kappaB-alpha
+# T9 Protein S5 150 163 577 590 IkappaB-alpha
+$ T9 Protein S5 150 163 577 590 IkappaB-alpha
+@ T31 Protein_catabolism S5 75 86 502 513 degradation
+@ T32 Binding S5 94 104 521 531 associated
+% E4 Protein_catabolism:T31 Theme:T9
+% E5 Binding:T32 Theme:T9
+
+We hypothesized that IL-10 prevents human monocyte NF-kappaB activation and resultant TNF-alpha production by stabilization of IkappaB-alpha.
+# T10 Protein S6 21 26 614 619 IL-10
+# T11 Protein S6 86 95 679 688 TNF-alpha
+# T12 Protein S6 127 140 720 733 IkappaB-alpha
+$ T11 Protein S6 86 95 679 688 TNF-alpha
+$ T12 Protein S6 127 140 720 733 IkappaB-alpha
+$ T10 Protein S6 21 26 614 619 IL-10
+@ T33 Negative_regulation S6 27 35 620 628 prevents
+@ T34 Positive_regulation S6 76 85 669 678 resultant
+@ T35 Gene_expression S6 96 106 689 699 production
+@ T36 Positive_regulation S6 110 123 703 716 stabilization
+% E6 Negative_regulation:T33 Theme:E7 Cause:E9
+% E7 Positive_regulation:T34 Theme:E8
+% E8 Gene_expression:T35 Theme:T11
+% E9 Positive_regulation:T36 Theme:T12 Cause:T10
+
+The purpose of this study was to determine the effect of IL-10 on lipopolysaccharide (LPS)-induced human monocyte TNF-alpha production, NF-kappaB activation, and IkappaB-alpha degradation.
+# T13 Protein S7 57 62 792 797 IL-10
+# T14 Protein S7 114 123 849 858 TNF-alpha
+# T15 Protein S7 162 175 897 910 IkappaB-alpha
+$ T13 Protein S7 57 62 792 797 IL-10
+$ T14 Protein S7 114 123 849 858 TNF-alpha
+$ T15 Protein S7 162 175 897 910 IkappaB-alpha
+@ T37 Regulation S7 47 53 782 788 effect
+@ T38 Positive_regulation S7 91 98 826 833 induced
+@ T39 Gene_expression S7 124 134 859 869 production
+@ T40 Protein_catabolism S7 176 187 911 922 degradation
+% E10 Regulation:T37 Theme:E15 Cause:T13
+% E11 Regulation:T37 Theme:E14 Cause:T13
+% E12 Positive_regulation:T38 Theme:E15
+% E13 Positive_regulation:T38 Theme:E14
+% E14 Gene_expression:T39 Theme:T14
+% E15 Protein_catabolism:T40 Theme:T15
+
+Monocytes were isolated from human donors.
+
+Cells were stimulated with endotoxin (LPS, 100 ng/mL) with and without human IL-10 (10 ng/mL).
+# T16 Protein S9 77 82 1044 1049 IL-10
+
+Following stimulation, TNF-alpha was measured in cell supernatants by ELISA, NF-kappaB activity by electrophoretic mobility shift assay, and IkappaB-alpha levels by Western blot.
+# T17 Protein S10 23 32 1085 1094 TNF-alpha
+# T18 Protein S10 141 154 1203 1216 IkappaB-alpha
+$ T17 Protein S10 23 32 1085 1094 TNF-alpha
+$ T18 Protein S10 141 154 1203 1216 IkappaB-alpha
+@ T41 Regulation S10 37 45 1099 1107 measured
+@ T42 Gene_expression S10 155 161 1217 1223 levels
+% E16 Regulation:T41 Theme:E18
+% E17 Regulation:T41 Theme:T17
+% E18 Gene_expression:T42 Theme:T18
+
+We observed that after LPS stimulation of human monocytes, TNF-alpha increased to 798+/-67 pg/mL (p < .001 versus control).
+# T19 Protein S11 59 68 1300 1309 TNF-alpha
+$ T19 Protein S11 59 68 1300 1309 TNF-alpha
+@ T43 Positive_regulation S11 69 78 1310 1319 increased
+% E19 Positive_regulation:T43 Theme:T19
+
+IL-10 attenuated LPS-stimulated TNF-alpha production (297+/-54; p < .001 versus LPS alone).
+# T20 Protein S12 0 5 1365 1370 IL-10
+# T21 Protein S12 32 41 1397 1406 TNF-alpha
+$ T20 Protein S12 0 5 1365 1370 IL-10
+$ T21 Protein S12 32 41 1397 1406 TNF-alpha
+@ T44 Negative_regulation S12 6 16 1371 1381 attenuated
+@ T45 Positive_regulation S12 21 31 1386 1396 stimulated
+@ T46 Gene_expression S12 42 52 1407 1417 production
+% E20 Negative_regulation:T44 Theme:E21 Cause:T20
+% E21 Positive_regulation:T45 Theme:E22
+% E22 Gene_expression:T46 Theme:T21
+
+After LPS stimulation in human monocytes, IkappaB-alpha protein levels decreased, and NF-kappaB DNA binding increased.
+# T22 Protein S13 42 55 1499 1512 IkappaB-alpha
+$ T22 Protein S13 42 55 1499 1512 IkappaB-alpha
+@ T47 Negative_regulation S13 71 80 1528 1537 decreased
+% E23 Negative_regulation:T47 Theme:T22
+
+IL-10 pretreatment prevented LPS-induced decreases in IkappaB-alpha protein levels and attenuated NF-kappaB DNA binding.
+# T23 Protein S14 0 5 1576 1581 IL-10
+# T24 Protein S14 54 67 1630 1643 IkappaB-alpha
+$ T24 Protein S14 54 67 1630 1643 IkappaB-alpha
+@ T48 Negative_regulation S14 19 28 1595 1604 prevented
+@ T49 Negative_regulation S14 41 50 1617 1626 decreases
+% E24 Negative_regulation:T48 Theme:E25
+% E25 Negative_regulation:T49 Theme:T24
+
+IL-10 appears to prevent activation of NF-kappaB by preserving IkappaB-alpha protein levels, leading to a reduction in TNF-alpha release.
+# T25 Protein S15 0 5 1697 1702 IL-10
+# T26 Protein S15 63 76 1760 1773 IkappaB-alpha
+# T27 Protein S15 119 128 1816 1825 TNF-alpha
+$ T26 Protein S15 63 76 1760 1773 IkappaB-alpha
+$ T25 Protein S15 0 5 1697 1702 IL-10
+$ T27 Protein S15 119 128 1816 1825 TNF-alpha
+@ T50 Positive_regulation S15 52 62 1749 1759 preserving
+@ T51 Negative_regulation S15 106 115 1803 1812 reduction
+@ T52 Localization S15 129 136 1826 1833 release
+% E26 Positive_regulation:T50 Theme:T26 Cause:T25
+% E27 Negative_regulation:T51 Theme:E28
+% E28 Localization:T52 Theme:T27
+

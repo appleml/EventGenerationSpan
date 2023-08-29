@@ -1,0 +1,33 @@
+IL-4 Inhibits TGF-beta-Mediated iTreg Commitment
+# T1 Protein S1 0 4 0 4 IL-4
+# T2 Protein S1 14 22 14 22 TGF-beta
+
+CFSE-labeled CD4+CD45RA+ cells were activated with plate-bound anti-CD3/CD28, TGF-beta, and IL-4, as indicated.
+# T3 Protein S2 13 16 62 65 CD4
+# T4 Protein S2 17 23 66 72 CD45RA
+# T5 Protein S2 68 71 117 120 CD3
+# T6 Protein S2 72 76 121 125 CD28
+# T7 Protein S2 78 86 127 135 TGF-beta
+# T8 Protein S2 92 96 141 145 IL-4
+
+After 5 d, cells were analyzed by flow cytometry (A) and results of six independent experiments are shown in the bar graph below (B).
+
+Statistical significance (one-way Anova, Newman-Keuls) is indicated by asterisks (**p <= 0.01, ***p <= 0.001).
+
+(C) Kinetic analysis of intracellular GATA3 and FOXP3 staining is shown in panel C following exposure of CD4+CD45RA+ T cells to anti-CD3/28, IL-4 and TGF-beta.
+# T9 Protein S5 38 43 444 449 GATA3
+# T10 Protein S5 48 53 454 459 FOXP3
+# T11 Protein S5 105 108 511 514 CD4
+# T12 Protein S5 109 115 515 521 CD45RA
+# T13 Protein S5 133 136 539 542 CD3
+# T14 Protein S5 137 139 543 545 28
+# T15 Protein S5 141 145 547 551 IL-4
+# T16 Protein S5 150 158 556 564 TGF-beta
+$ T9 Protein S5 38 43 444 449 GATA3
+$ T10 Protein S5 48 53 454 459 FOXP3
+@ T17 Gene_expression S5 54 62 460 468 staining
+% E1 Gene_expression:T17 Theme:T9
+% E2 Gene_expression:T17 Theme:T10
+
+Data are representative of three independent experiments.
+

@@ -1,0 +1,138 @@
+Regulation of the tissue factor gene in human monocytic cells.
+# T1 Protein S1 18 31 18 31 tissue factor
+$ T1 Protein S1 18 31 18 31 tissue factor
+@ T31 Regulation S1 0 10 0 10 Regulation
+% E1 Regulation:T31 Theme:T1
+
+Role of AP-1, NF-kappa B/Rel, and Sp1 proteins in uninduced and lipopolysaccharide-induced expression.
+# T2 Protein S2 34 37 97 100 Sp1
+
+Tissue factor (TF) expression by peripheral blood monocytes during sepsis initiates intravascular thrombosis.
+# T3 Protein S3 0 13 167 180 Tissue factor
+# T4 Protein S3 15 17 182 184 TF
+$ T4 Protein S3 15 17 182 184 TF
+@ T32 Gene_expression S3 19 29 186 196 expression
+% E2 Gene_expression:T32 Theme:T4
+
+Bacterial lipopolysaccharide (LPS) rapidly induces TF gene transcription in monocytes.
+# T5 Protein S4 51 53 328 330 TF
+$ T5 Protein S4 51 53 328 330 TF
+@ T33 Positive_regulation S4 43 50 320 327 induces
+@ T34 Transcription S4 59 72 336 349 transcription
+% E3 Positive_regulation:T33 Theme:E4
+% E4 Transcription:T34 Theme:T5
+
+The human TF promoter contains binding sites for the transcription factors AP-1, c-Rel/p65, Egr-1, and Sp1.
+# T6 Protein S5 10 12 374 376 TF
+# T7 Protein S5 81 86 445 450 c-Rel
+# T8 Protein S5 87 90 451 454 p65
+# T9 Protein S5 92 97 456 461 Egr-1
+# T10 Protein S5 103 106 467 470 Sp1
+
+NF-kappa B/Rel proteins have been shown to physically interact with both AP-1 and Sp1 proteins.
+# T11 Protein S6 82 85 554 557 Sp1
+$ T11 Protein S6 82 85 554 557 Sp1
+@ T35 Binding S6 54 62 526 534 interact
+% E5 Binding:T35 Theme:T11
+
+In this study, we investigated the role of these transcription factors in uninduced and LPS-induced TF gene expression in human monocytic THP-1 cells.
+# T12 Protein S7 100 102 668 670 TF
+$ T12 Protein S7 100 102 668 670 TF
+@ T36 Regulation S7 35 39 603 607 role
+@ T37 Positive_regulation S7 92 99 660 667 induced
+@ T38 Gene_expression S7 108 118 676 686 expression
+% E6 Regulation:T36 Theme:E17 Cause:T7
+% E7 Regulation:T36 Theme:E16 Cause:T7
+% E8 Regulation:T36 Theme:E16 Cause:T8
+% E9 Regulation:T36 Theme:E17 Cause:T8
+% E10 Regulation:T36 Theme:E16
+% E11 Regulation:T36 Theme:E17 Cause:T9
+% E12 Regulation:T36 Theme:E16 Cause:T9
+% E13 Regulation:T36 Theme:E17
+% E14 Regulation:T36 Theme:E16 Cause:T10
+% E15 Regulation:T36 Theme:E17 Cause:T10
+% E16 Positive_regulation:T37 Theme:E17
+% E17 Gene_expression:T38 Theme:T12
+
+Deletional analysis indicated that five Sp1 sites mediated basal expression in uninduced cells.
+# T13 Protein S8 40 43 759 762 Sp1
+@ T39 Positive_regulation S8 50 58 769 777 mediated
+@ T40 Gene_expression S8 65 75 784 794 expression
+% E18 Positive_regulation:T39 Theme:E19
+% E19 Gene_expression:T40 Theme:T12
+
+The two AP-1 sites bound c-Fos/c-Jun heterodimers in both unstimulated and LPS-stimulated cells.
+# T14 Protein S9 25 30 840 845 c-Fos
+# T15 Protein S9 31 36 846 851 c-Jun
+$ T14 Protein S9 25 30 840 845 c-Fos
+$ T15 Protein S9 31 36 846 851 c-Jun
+@ T41 Binding S9 19 24 834 839 bound
+% E20 Binding:T41 Theme:T14
+% E21 Binding:T41 Theme:T15
+
+Maximal LPS induction of the TF promoter required the two AP-1 sites and the kappa B site within the LPS response element.
+# T16 Protein S10 29 31 941 943 TF
+$ T16 Protein S10 29 31 941 943 TF
+@ T42 Positive_regulation S10 12 21 924 933 induction
+@ T43 Entity S10 32 40 944 952 promoter
+@ T44 Positive_regulation S10 41 49 953 961 required
+% E22 Positive_regulation:T42 Theme:T16 Site:T43
+% E23 Positive_regulation:T44 Theme:E22
+
+Disruption of the conserved spacing between the proximal AP-1 site and the kappa B site abolished LPS induction.
+@ T45 Negative_regulation S11 88 97 1123 1132 abolished
+@ T46 Positive_regulation S11 102 111 1137 1146 induction
+% E24 Negative_regulation:T45 Theme:E25
+% E25 Positive_regulation:T46 Theme:T16 Site:T43
+
+Replacement of the two AP-1 sites with intrinsically bent DNA partially restored LPS induction, suggesting an additional structural role for the AP-1 sites.
+@ T47 Positive_regulation S12 72 80 1220 1228 restored
+@ T48 Positive_regulation S12 85 94 1233 1242 induction
+% E26 Positive_regulation:T47 Theme:E27
+% E27 Positive_regulation:T48 Theme:T16 Site:T43
+
+Synergistic transactivation of the LPS response element in Drosophila Schneider cells by coexpression of c-Fos, c-Jun, c-Rel, and p65 or c-Jun and p65 required the transactivation domains of c-Jun and p65.
+# T17 Protein S13 105 110 1410 1415 c-Fos
+# T18 Protein S13 112 117 1417 1422 c-Jun
+# T19 Protein S13 119 124 1424 1429 c-Rel
+# T20 Protein S13 130 133 1435 1438 p65
+# T21 Protein S13 137 142 1442 1447 c-Jun
+# T22 Protein S13 147 150 1452 1455 p65
+# T23 Protein S13 191 196 1496 1501 c-Jun
+# T24 Protein S13 201 204 1506 1509 p65
+$ T17 Protein S13 105 110 1410 1415 c-Fos
+$ T20 Protein S13 130 133 1435 1438 p65
+$ T19 Protein S13 119 124 1424 1429 c-Rel
+$ T18 Protein S13 112 117 1417 1422 c-Jun
+$ T21 Protein S13 137 142 1442 1447 c-Jun
+$ T22 Protein S13 147 150 1452 1455 p65
+@ T49 Gene_expression S13 89 101 1394 1406 coexpression
+% E28 Gene_expression:T49 Theme:T17
+% E29 Gene_expression:T49 Theme:T20
+% E30 Gene_expression:T49 Theme:T19
+% E31 Gene_expression:T49 Theme:T18
+% E32 Gene_expression:T49 Theme:T21
+% E33 Gene_expression:T49 Theme:T22
+
+These data indicated that c-Fos/c-Jun, c-Rel/p65, and Sp1 regulate TF gene expression in human monocytic cells.
+# T25 Protein S14 26 31 1537 1542 c-Fos
+# T26 Protein S14 32 37 1543 1548 c-Jun
+# T27 Protein S14 39 44 1550 1555 c-Rel
+# T28 Protein S14 45 48 1556 1559 p65
+# T29 Protein S14 54 57 1565 1568 Sp1
+# T30 Protein S14 67 69 1578 1580 TF
+$ T26 Protein S14 32 37 1543 1548 c-Jun
+$ T28 Protein S14 45 48 1556 1559 p65
+$ T25 Protein S14 26 31 1537 1542 c-Fos
+$ T29 Protein S14 54 57 1565 1568 Sp1
+$ T27 Protein S14 39 44 1550 1555 c-Rel
+$ T30 Protein S14 67 69 1578 1580 TF
+@ T50 Regulation S14 58 66 1569 1577 regulate
+@ T51 Gene_expression S14 75 85 1586 1596 expression
+% E34 Regulation:T50 Theme:E39 Cause:T26
+% E35 Regulation:T50 Theme:E39 Cause:T28
+% E36 Regulation:T50 Theme:E39 Cause:T25
+% E37 Regulation:T50 Theme:E39 Cause:T29
+% E38 Regulation:T50 Theme:E39 Cause:T27
+% E39 Gene_expression:T51 Theme:T30
+

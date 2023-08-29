@@ -1,0 +1,66 @@
+Analysis of BMP-6 messenger RNA (mRNA) expression
+# T1 Protein S1 12 17 12 17 BMP-6
+@ T13 Transcription S1 39 49 39 49 expression
+% E1 Transcription:T13 Theme:T3
+% E2 Transcription:T13 Theme:T4
+% E3 Transcription:T13 Theme:T5
+% E4 Transcription:T13 Theme:T6
+
+Endogenous expression of the BMP-6 gene was examined by reverse transcription-polymerase chain reaction.
+# T2 Protein S2 29 34 79 84 BMP-6
+$ T2 Protein S2 29 34 79 84 BMP-6
+@ T14 Gene_expression S2 11 21 61 71 expression
+% E5 Gene_expression:T14 Theme:T2
+
+Total RNA was isolated using Absolutely RNA(TM) RT-PCR Miniprep Kit (Stratagene Europe, Amsterdam, Netherland) according to the manufacturers instructions.
+
+Quantification of the isolated total RNA was achieved by using spectrophotometric OD260 measurements.
+
+Equal amounts of RNA were then reverse transcribed to cDNA with TaqMan(R) Reverse Transcription Reagents (Applied Biosystems, Foster City, CA, U.S.A).
+
+To measure mRNA expression of BMP6, Id1-Id4 and PGK1 PCR were carried out with TaqMan(R) universal master mix.
+# T3 Protein S6 30 34 594 598 BMP6
+# T4 Protein S6 36 39 600 603 Id1
+# T5 Protein S6 40 43 604 607 Id4
+# T6 Protein S6 48 52 612 616 PGK1
+$ T3 Protein S6 30 34 594 598 BMP6
+$ T4 Protein S6 36 39 600 603 Id1
+$ T5 Protein S6 40 43 604 607 Id4
+$ T6 Protein S6 48 52 612 616 PGK1
+@ T15 Transcription S6 11 26 575 590 mRNA expression
+% E6 Transcription:T15 Theme:T3
+% E7 Transcription:T15 Theme:T4
+% E8 Transcription:T15 Theme:T5
+% E9 Transcription:T15 Theme:T6
+
+Primers and probes were provided by Assay-on-Demand (Applied Biosystems).
+
+PCR reactions were carried out in a final volume of 25 mul (BMP-6) or 20 mul (ID1).
+# T7 Protein S8 60 65 809 814 BMP-6
+
+The cDNA added to each reaction was equivalent to the input of 20 ng of total RNA.
+
+The gene expression was quantified using the standard curve method (BMP6), or the comparative CT method (Id1) as described in ABI7700 User Bulletin 2 (Applied Biosystems).
+# T8 Protein S10 68 72 984 988 BMP6
+# T9 Protein S10 105 108 1021 1024 Id1
+$ T8 Protein S10 68 72 984 988 BMP6
+$ T9 Protein S10 105 108 1021 1024 Id1
+@ T16 Gene_expression S10 9 19 925 935 expression
+% E10 Gene_expression:T16 Theme:T8
+% E11 Gene_expression:T16 Theme:T9
+
+The expression was then normalized to the expression level of PGK1.
+# T10 Protein S11 62 66 1150 1154 PGK1
+$ T10 Protein S11 62 66 1150 1154 PGK1
+@ T17 Gene_expression S11 42 52 1130 1140 expression
+% E12 Gene_expression:T17 Theme:T10
+
+PGK1 was chosen, because it has been shown to have low expression variability among lymphocyte specimens [56].
+# T11 Protein S12 0 4 1156 1160 PGK1
+$ T11 Protein S12 0 4 1156 1160 PGK1
+@ T12 Anaphora S12 25 27 1181 1183 it
+@ T18 Gene_expression S12 46 65 1202 1221 have low expression
+% E13 Gene_expression:T18 Theme:T11
+
+Expression levels in B cells were then related to the expression levels in Ramos cells.
+

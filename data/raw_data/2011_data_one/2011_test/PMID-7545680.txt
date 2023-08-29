@@ -1,0 +1,30 @@
+Direct demonstration of NFATp dephosphorylation and nuclear localization in activated HT-2 cells using a specific NFATp polyclonal antibody.
+# T1 Protein S1 24 29 24 29 NFATp
+# T2 Protein S1 114 119 114 119 NFATp
+
+Nuclear factor of activated T cells (NFAT) regulates transcription of a number of cytokine genes, and NFAT DNA binding activity is stimulated following T cell activation.
+
+Several lines of evidence have suggested that NFAT is a substrate for calcineurin, a serine/threonine phosphatase.
+
+Using a polyclonal antibody to murine NFATp, Western blot analysis of various mouse tissues demonstrated that the 110-130-kDa NFATp protein was highly expressed in thymus and spleen.
+# T3 Protein S4 38 43 466 471 NFATp
+# T4 Protein S4 126 131 554 559 NFATp
+
+Treatment of immunoprecipitated NFATp from untreated HT-2 cells with calcineurin resulted in the dephosphorylation of NFATp, demonstrating that NFATp is an in vitro substrate for calcineurin.
+# T5 Protein S5 32 37 643 648 NFATp
+# T6 Protein S5 118 123 729 734 NFATp
+# T7 Protein S5 144 149 755 760 NFATp
+
+NFATp immunoprecipitated from 32P-labeled HT-2 cells migrated as an approximately 120-kDa protein that was localized to the cytosol of the cells.
+# T8 Protein S6 0 5 803 808 NFATp
+
+Treatment of the cells with ionomycin resulted in a decrease in the molecular weight of NFATp and a loss of 32P, consistent with NFATp dephosphorylation.
+# T9 Protein S7 88 93 1037 1042 NFATp
+# T10 Protein S7 129 134 1078 1083 NFATp
+
+The dephosphorylation of NFATp was accompanied by localization of the protein to the nuclear fraction.
+# T11 Protein S8 25 30 1128 1133 NFATp
+
+Both of these events were blocked by preincubation of the cells with FK506, a calcineurin inhibitor, consistent with the hypothesis that NFATp is a calcineurin substrate in cells.
+# T12 Protein S9 137 142 1343 1348 NFATp
+

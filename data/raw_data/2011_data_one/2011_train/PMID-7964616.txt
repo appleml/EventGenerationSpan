@@ -1,0 +1,121 @@
+DNA-binding studies of the Epstein-Barr virus nuclear antigen 2 (EBNA-2): evidence for complex formation by latent membrane protein gene promoter-binding proteins in EBNA-2-positive cell lines.
+# T1 Protein S1 27 63 27 63 Epstein-Barr virus nuclear antigen 2
+# T2 Protein S1 65 71 65 71 EBNA-2
+# T3 Protein S1 166 172 166 172 EBNA-2
+$ T2 Protein S1 65 71 65 71 EBNA-2
+@ T33 Binding S1 4 11 4 11 binding
+% E1 Binding:T33 Theme:T2
+
+The Epstein-Barr virus (EBV) nuclear antigen 2 (EBNA-2) protein is essential for the immortalization of human primary B cells by EBV.
+# T4 Protein S2 4 46 199 241 Epstein-Barr virus (EBV) nuclear antigen 2
+# T5 Protein S2 48 54 243 249 EBNA-2
+
+EBNA-2 trans-activates cellular and viral genes like CD23, c-fgr, latent membrane protein 1 (LMP1) and terminal protein 1 (TP1).
+# T6 Protein S3 0 6 329 335 EBNA-2
+# T7 Protein S3 53 57 382 386 CD23
+# T8 Protein S3 59 64 388 393 c-fgr
+# T9 Protein S3 66 91 395 420 latent membrane protein 1
+# T10 Protein S3 93 97 422 426 LMP1
+# T11 Protein S3 103 121 432 450 terminal protein 1
+# T12 Protein S3 123 126 452 455 TP1
+$ T8 Protein S3 59 64 388 393 c-fgr
+$ T6 Protein S3 0 6 329 335 EBNA-2
+$ T10 Protein S3 93 97 422 426 LMP1
+$ T7 Protein S3 53 57 382 386 CD23
+$ T12 Protein S3 123 126 452 455 TP1
+@ T34 Positive_regulation S3 7 22 336 351 trans-activates
+% E2 Positive_regulation:T34 Theme:T8 Cause:T6
+% E3 Positive_regulation:T34 Theme:T10 Cause:T6
+% E4 Positive_regulation:T34 Theme:T7 Cause:T6
+% E5 Positive_regulation:T34 Theme:T12 Cause:T6
+
+Trans-activation of the TP1 promoter and of the BamHI C promoter has already been investigated in detail and appears to be mediated via protein-protein interactions and not by direct binding of EBNA-2 type A (of EBV type 1) to the DNA.
+# T13 Protein S4 24 27 482 485 TP1
+# T14 Protein S4 48 55 506 513 BamHI C
+# T15 Protein S4 194 200 652 658 EBNA-2
+$ T13 Protein S4 24 27 482 485 TP1
+$ T14 Protein S4 48 55 506 513 BamHI C
+@ T35 Positive_regulation S4 0 16 458 474 Trans-activation
+@ T36 Entity S4 28 36 486 494 promoter
+@ T37 Entity S4 56 64 514 522 promoter
+@ T38 Positive_regulation S4 123 131 581 589 mediated
+% E6 Positive_regulation:T35 Theme:T13 Site:T36
+% E7 Positive_regulation:T35 Theme:T14 Site:T37
+% E8 Positive_regulation:T38 Theme:E6
+% E9 Positive_regulation:T38 Theme:E7
+
+EBNA-2 is able to trans-activate the expression of the LMP gene in several cell lines.
+# T16 Protein S5 0 6 694 700 EBNA-2
+# T17 Protein S5 55 58 749 752 LMP
+$ T16 Protein S5 0 6 694 700 EBNA-2
+$ T17 Protein S5 55 58 749 752 LMP
+@ T39 Positive_regulation S5 18 32 712 726 trans-activate
+@ T40 Gene_expression S5 37 47 731 741 expression
+% E10 Positive_regulation:T39 Theme:E11 Cause:T16
+% E11 Gene_expression:T40 Theme:T17
+
+Various reports have delineated the cis-acting elements of the LMP promoter through which EBNA-2 mediates trans-activation.
+# T18 Protein S6 63 66 844 847 LMP
+# T19 Protein S6 90 96 871 877 EBNA-2
+$ T18 Protein S6 63 66 844 847 LMP
+$ T19 Protein S6 90 96 871 877 EBNA-2
+@ T41 Entity S6 36 55 817 836 cis-acting elements
+@ T42 Positive_regulation S6 97 105 878 886 mediates
+% E12 Positive_regulation:T42 Theme:T18 Cause:T19 Site:T41
+
+To determine whether EBNA-2 also trans-activates the LMP promoter by protein-protein interactions, we performed a series of gel retardation assays and competition experiments with LMP promoter fragments of different sizes.
+# T20 Protein S7 21 27 926 932 EBNA-2
+# T21 Protein S7 53 56 958 961 LMP
+# T22 Protein S7 180 183 1085 1088 LMP
+$ T21 Protein S7 53 56 958 961 LMP
+$ T20 Protein S7 21 27 926 932 EBNA-2
+@ T43 Positive_regulation S7 33 48 938 953 trans-activates
+@ T44 Entity S7 57 65 962 970 promoter
+@ T45 Binding S7 85 97 990 1002 interactions
+% E13 Positive_regulation:T43 Theme:T21 Cause:E14 Site:T44
+% E14 Binding:T45 Theme:T20
+
+We determined that the protein-binding region on the LMP promoter was within a 42 bp fragment encompassing nucleotides -135 to -176 relative to the LMP transcriptional start site.
+# T23 Protein S8 53 56 1181 1184 LMP
+$ T23 Protein S8 53 56 1181 1184 LMP
+@ T46 Binding S8 31 38 1159 1166 binding
+@ T47 Entity S8 57 65 1185 1193 promoter
+% E15 Binding:T46 Theme:T23 Site:T47
+
+None of the DNA fragments investigated indicated interaction of EBNA-2 with the DNA via protein-protein interactions.
+# T24 Protein S9 64 70 1372 1378 EBNA-2
+$ T24 Protein S9 64 70 1372 1378 EBNA-2
+@ T48 Binding S9 49 60 1357 1368 interaction
+@ T49 Binding S9 104 116 1412 1424 interactions
+% E16 Binding:T48 Theme:T24
+% E17 Binding:T49 Theme:T24
+
+No significant differences between EBNA-2-positive and EBNA-2-negative nuclear extracts could be seen in the gel retardation assay under conditions that clearly showed binding of EBNA-2A to the TP1 promoter.
+# T25 Protein S10 35 41 1461 1467 EBNA-2
+# T26 Protein S10 55 61 1481 1487 EBNA-2
+# T27 Protein S10 179 186 1605 1612 EBNA-2A
+# T28 Protein S10 194 197 1620 1623 TP1
+$ T27 Protein S10 179 186 1605 1612 EBNA-2A
+$ T28 Protein S10 194 197 1620 1623 TP1
+@ T50 Binding S10 168 175 1594 1601 binding
+@ T51 Entity S10 198 206 1624 1632 promoter
+% E18 Binding:T50 Theme:T27 Theme2:T28 Site2:T51
+
+However, analysis of sucrose gradient fractions in the gel retardation assay provided evidence that the LMP promoter-binding proteins form a complex of higher M(r) in EBNA-2-positive cell extracts.
+# T29 Protein S11 104 107 1738 1741 LMP
+# T30 Protein S11 167 173 1801 1807 EBNA-2
+$ T29 Protein S11 104 107 1738 1741 LMP
+@ T52 Entity S11 108 116 1742 1750 promoter
+@ T53 Binding S11 117 124 1751 1758 binding
+% E19 Binding:T53 Theme:T29 Site:T52
+
+These complexes were destroyed by detergent.
+
+We deduce from these results that EBNA-2-positive cells might indeed contain specific complexes bound to the LMP promoter which are, however, too labile to be detected in a standard gel retardation assay.
+# T31 Protein S13 34 40 1911 1917 EBNA-2
+# T32 Protein S13 109 112 1986 1989 LMP
+$ T32 Protein S13 109 112 1986 1989 LMP
+@ T54 Binding S13 96 101 1973 1978 bound
+@ T55 Entity S13 113 121 1990 1998 promoter
+% E20 Binding:T54 Theme:T32 Site:T55
+

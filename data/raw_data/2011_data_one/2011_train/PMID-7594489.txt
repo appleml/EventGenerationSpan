@@ -1,0 +1,144 @@
+Triggering of complement receptors CR1 (CD35) and CR3 (CD11b/CD18) induces nuclear translocation of NF-kappa B (p50/p65) in human monocytes and enhances viral replication in HIV-infected monocytic cells.
+# T1 Protein S1 35 38 35 38 CR1
+# T2 Protein S1 40 44 40 44 CD35
+# T3 Protein S1 55 60 55 60 CD11b
+# T4 Protein S1 61 65 61 65 CD18
+# T5 Protein S1 112 115 112 115 p50
+# T6 Protein S1 116 119 116 119 p65
+$ T2 Protein S1 40 44 40 44 CD35
+$ T3 Protein S1 55 60 55 60 CD11b
+$ T4 Protein S1 61 65 61 65 CD18
+$ T6 Protein S1 116 119 116 119 p65
+$ T5 Protein S1 112 115 112 115 p50
+@ T27 Positive_regulation S1 0 10 0 10 Triggering
+@ T28 Positive_regulation S1 67 74 67 74 induces
+@ T29 Entity S1 75 82 75 82 nuclear
+@ T30 Localization S1 83 96 83 96 translocation
+% E1 Positive_regulation:T27 Theme:T2
+% E2 Positive_regulation:T27 Theme:T3
+% E3 Positive_regulation:T27 Theme:T4
+% E4 Positive_regulation:T28 Theme:E10 Cause:E2
+% E5 Positive_regulation:T28 Theme:E10 Cause:E3
+% E6 Positive_regulation:T28 Theme:E11 Cause:E1
+% E7 Positive_regulation:T28 Theme:E10 Cause:E1
+% E8 Positive_regulation:T28 Theme:E11 Cause:E3
+% E9 Positive_regulation:T28 Theme:E11 Cause:E2
+% E10 Localization:T30 Theme:T6 ToLoc:T29
+% E11 Localization:T30 Theme:T5 ToLoc:T29
+
+Monocyte/macrophages may harbor HIV in a nonproductive fashion for prolonged periods of time.
+
+Viral gene expression may be reactivated by stimulation of the cells with LPS or cytokines such as TNF-alpha in vitro.
+# T7 Protein S3 99 108 398 407 TNF-alpha
+
+The effect of LPS and TNF-alpha is mediated by their ability to induce nuclear translocation of the DNA-binding heterodimer NF-kappa B (p50/p65), which binds to a specific sequence in the HIV-long terminal repeat.
+# T8 Protein S4 22 31 440 449 TNF-alpha
+# T9 Protein S4 136 139 554 557 p50
+# T10 Protein S4 140 143 558 561 p65
+$ T8 Protein S4 22 31 440 449 TNF-alpha
+$ T9 Protein S4 136 139 554 557 p50
+$ T10 Protein S4 140 143 558 561 p65
+@ T31 Positive_regulation S4 64 70 482 488 induce
+@ T32 Entity S4 71 78 489 496 nuclear
+@ T33 Localization S4 79 92 497 510 translocation
+@ T34 Binding S4 152 157 570 575 binds
+% E12 Positive_regulation:T31 Theme:E16
+% E13 Positive_regulation:T31 Theme:E17
+% E14 Positive_regulation:T31 Theme:E17 Cause:T8
+% E15 Positive_regulation:T31 Theme:E16 Cause:T8
+% E16 Localization:T33 Theme:T9 ToLoc:T32
+% E17 Localization:T33 Theme:T10 ToLoc:T32
+% E18 Binding:T34 Theme:T10
+% E19 Binding:T34 Theme:T9
+
+The present study demonstrates that triggering of complement receptors CR1 (CD35) and CR3 (CD11b/CD18) enhances viral replication in HIV-infected human monocytic cells.
+# T11 Protein S5 71 74 703 706 CR1
+# T12 Protein S5 76 80 708 712 CD35
+# T13 Protein S5 91 96 723 728 CD11b
+# T14 Protein S5 97 101 729 733 CD18
+$ T12 Protein S5 76 80 708 712 CD35
+$ T13 Protein S5 91 96 723 728 CD11b
+$ T14 Protein S5 97 101 729 733 CD18
+@ T35 Positive_regulation S5 36 46 668 678 triggering
+% E20 Positive_regulation:T35 Theme:T12
+% E21 Positive_regulation:T35 Theme:T13
+% E22 Positive_regulation:T35 Theme:T14
+
+Monocytic cell lines and normal peripheral blood monocytes were infected with HIV-1 in vitro and cultured in the presence or absence of F(ab')2 fragments of monoclonal anti-CR1 or anti-CR3 Abs or with C3 fragments.
+# T15 Protein S6 173 176 974 977 CR1
+
+Stimulation of CR1 or CR3 induces a two- to fourfold increase in the amount of cell-associated and released p24 Ag in cell cultures that was equivalent to that observed in control cultures triggered with LPS.
+# T16 Protein S7 15 18 1031 1034 CR1
+# T17 Protein S7 108 111 1124 1127 p24
+$ T16 Protein S7 15 18 1031 1034 CR1
+$ T17 Protein S7 108 111 1124 1127 p24
+@ T36 Positive_regulation S7 0 11 1016 1027 Stimulation
+@ T37 Positive_regulation S7 53 61 1069 1077 increase
+% E23 Positive_regulation:T36 Theme:T16
+% E24 Positive_regulation:T37 Theme:T17
+% E25 Positive_regulation:T37 Theme:T17 Cause:E23
+
+We further observed that stimulation of CR1 or CR3 induces the nuclear translocation of NF-kappa B p50/p65 in infected cells.
+# T18 Protein S8 40 43 1265 1268 CR1
+# T19 Protein S8 99 102 1324 1327 p50
+# T20 Protein S8 103 106 1328 1331 p65
+$ T18 Protein S8 40 43 1265 1268 CR1
+$ T20 Protein S8 103 106 1328 1331 p65
+$ T19 Protein S8 99 102 1324 1327 p50
+@ T38 Positive_regulation S8 25 36 1250 1261 stimulation
+@ T39 Positive_regulation S8 51 58 1276 1283 induces
+@ T40 Entity S8 63 70 1288 1295 nuclear
+@ T41 Localization S8 71 84 1296 1309 translocation
+% E26 Positive_regulation:T38 Theme:T18
+% E27 Positive_regulation:T39 Theme:E32
+% E28 Positive_regulation:T39 Theme:E31 Cause:E26
+% E29 Positive_regulation:T39 Theme:E31
+% E30 Positive_regulation:T39 Theme:E32 Cause:E26
+% E31 Localization:T41 Theme:T20 ToLoc:T40
+% E32 Localization:T41 Theme:T19 ToLoc:T40
+
+Translocation of NF-kappa B p50/p65 was also observed following stimulation of CR1 or CR3 of uninfected peripheral blood monocytes from HIV-seronegative donors.
+# T21 Protein S9 28 31 1379 1382 p50
+# T22 Protein S9 32 35 1383 1386 p65
+# T23 Protein S9 79 82 1430 1433 CR1
+$ T21 Protein S9 28 31 1379 1382 p50
+$ T22 Protein S9 32 35 1383 1386 p65
+$ T23 Protein S9 79 82 1430 1433 CR1
+@ T42 Localization S9 0 13 1351 1364 Translocation
+@ T43 Positive_regulation S9 45 53 1396 1404 observed
+@ T44 Positive_regulation S9 64 75 1415 1426 stimulation
+% E33 Localization:T42 Theme:T21
+% E34 Localization:T42 Theme:T22
+% E35 Positive_regulation:T43 Theme:E34 Cause:E39
+% E36 Positive_regulation:T43 Theme:E33 Cause:E39
+% E37 Positive_regulation:T43 Theme:E33
+% E38 Positive_regulation:T43 Theme:E34
+% E39 Positive_regulation:T44 Theme:T23
+
+The amount of protein translocated was similar to that observed when cells were stimulated with rhTNF-alpha.
+@ T45 Localization S10 22 34 1534 1546 translocated
+@ T46 Positive_regulation S10 55 63 1567 1575 observed
+% E40 Localization:T45 Theme:T21
+% E41 Localization:T45 Theme:T22
+% E42 Positive_regulation:T46 Theme:E40
+% E43 Positive_regulation:T46 Theme:E41
+
+TNF-alpha did not mediate the translocation of NF-kappa B p50/p65 induced by triggering of complement receptors.
+# T24 Protein S11 0 9 1621 1630 TNF-alpha
+# T25 Protein S11 58 61 1679 1682 p50
+# T26 Protein S11 62 65 1683 1686 p65
+$ T24 Protein S11 0 9 1621 1630 TNF-alpha
+$ T25 Protein S11 58 61 1679 1682 p50
+$ T26 Protein S11 62 65 1683 1686 p65
+@ T47 Positive_regulation S11 18 25 1639 1646 mediate
+@ T48 Localization S11 30 43 1651 1664 translocation
+@ T49 Positive_regulation S11 66 73 1687 1694 induced
+% E44 Positive_regulation:T47 Theme:E49 Cause:T24
+% E45 Positive_regulation:T47 Theme:E48 Cause:T24
+% E46 Localization:T48 Theme:T25
+% E47 Localization:T48 Theme:T26
+% E48 Positive_regulation:T49 Theme:T25
+% E49 Positive_regulation:T49 Theme:T26
+
+Taken together, these observations suggest that HIV gene expression may be activated in infected monocytes through interaction of the cells with complement-opsonized particles and that enhanced viral replication is associated with C3 receptor-mediated nuclear translocation of the NF-kappa B complex.
+

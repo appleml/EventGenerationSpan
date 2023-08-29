@@ -1,0 +1,77 @@
+BCL-6 expression during B-cell activation.
+# T1 Protein S1 0 5 0 5 BCL-6
+$ T1 Protein S1 0 5 0 5 BCL-6
+@ T17 Gene_expression S1 6 16 6 16 expression
+% E1 Gene_expression:T17 Theme:T1
+
+Translocations involving the BCL-6 gene are common in the diffuse large cell subtype of non-Hodgkin's lymphoma.
+# T2 Protein S2 29 34 73 78 BCL-6
+
+Invariably, the BCL-6 coding region is intact, but its 5' untranslated region is replaced with sequences from the translocation partner.
+# T3 Protein S3 16 21 172 177 BCL-6
+
+The present study shows that BCL-6 expression is regulated in lymphocytes during mitogenic stimulation.
+# T4 Protein S4 29 34 322 327 BCL-6
+$ T4 Protein S4 29 34 322 327 BCL-6
+@ T18 Gene_expression S4 35 45 328 338 expression
+@ T19 Regulation S4 49 58 342 351 regulated
+% E2 Gene_expression:T18 Theme:T4
+% E3 Regulation:T19 Theme:E2
+
+Resting B and T lymphocytes contain high levels of BCL-6 mRNA.
+# T5 Protein S5 51 56 448 453 BCL-6
+
+Stimulation of mouse B cells with anti-IgM or IgD antibodies, bacterial lipopolysaccharide, phorbol 12-myristate 13-acetate plus ionomycin, or CD40 ligand led to a five-fold to 35-fold decrease in BCL-6 mRNA levels.
+# T6 Protein S6 143 154 603 614 CD40 ligand
+# T7 Protein S6 197 202 657 662 BCL-6
+$ T7 Protein S6 197 202 657 662 BCL-6
+@ T20 Negative_regulation S6 185 193 645 653 decrease
+% E4 Negative_regulation:T20 Theme:T7
+
+Similar downregulation of BCL-6 mRNA was seen in human B cells stimulated with Staphylococcus aureus plus interleukin-2 or anti-IgM antibodies and in human T lymphocytes stimulated with phytohemagglutinin.
+# T8 Protein S7 26 31 702 707 BCL-6
+# T9 Protein S7 106 119 782 795 interleukin-2
+# T10 Protein S7 186 204 862 880 phytohemagglutinin
+$ T8 Protein S7 26 31 702 707 BCL-6
+@ T21 Negative_regulation S7 8 22 684 698 downregulation
+% E5 Negative_regulation:T21 Theme:T8
+
+BCL-6 mRNA levels began to decrease 8 to 16 hours after stimulation, before cells entered S phase.
+# T11 Protein S8 0 5 882 887 BCL-6
+$ T11 Protein S8 0 5 882 887 BCL-6
+@ T22 Negative_regulation S8 27 35 909 917 decrease
+% E6 Negative_regulation:T22 Theme:T11
+
+Although polyclonal activation of B cells in vitro invariably decreased BCL-6 MRNA expression, activated B cells from human germinal centers expressed BCL-6 mRNA at levels comparable to the levels in resting B cells.
+# T12 Protein S9 72 77 1053 1058 BCL-6
+# T13 Protein S9 151 156 1132 1137 BCL-6
+$ T12 Protein S9 72 77 1053 1058 BCL-6
+$ T13 Protein S9 151 156 1132 1137 BCL-6
+@ T23 Negative_regulation S9 62 71 1043 1052 decreased
+@ T24 Transcription S9 83 93 1064 1074 expression
+@ T25 Transcription S9 141 150 1122 1131 expressed
+% E7 Negative_regulation:T23 Theme:E8
+% E8 Transcription:T24 Theme:T12
+% E9 Transcription:T25 Theme:T13
+
+Despite these similar mRNA levels, BCL-6 protein expression was threefold to 34-fold higher in germinal center B cells than in resting B cells, suggesting that BCL-6 protein levels are controlled by translational or posttranslational mechanisms.
+# T14 Protein S10 35 40 1233 1238 BCL-6
+# T15 Protein S10 160 165 1358 1363 BCL-6
+$ T14 Protein S10 35 40 1233 1238 BCL-6
+$ T15 Protein S10 160 165 1358 1363 BCL-6
+@ T26 Gene_expression S10 49 59 1247 1257 expression
+@ T27 Regulation S10 185 195 1383 1393 controlled
+% E10 Gene_expression:T26 Theme:T14
+% E11 Regulation:T27 Theme:T15
+
+These observations suggest that the germinal center reaction provides unique activation signals to B cells that allow for continued, high-level BCL-6 expression.
+# T16 Protein S11 144 149 1588 1593 BCL-6
+$ T16 Protein S11 144 149 1588 1593 BCL-6
+@ T28 Positive_regulation S11 112 117 1556 1561 allow
+@ T29 Positive_regulation S11 133 143 1577 1587 high-level
+@ T30 Gene_expression S11 150 160 1594 1604 expression
+% E12 Positive_regulation:T28 Theme:E14
+% E13 Positive_regulation:T28 Theme:E15
+% E14 Positive_regulation:T29 Theme:E15
+% E15 Gene_expression:T30 Theme:T16
+

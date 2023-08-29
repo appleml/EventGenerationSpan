@@ -1,0 +1,63 @@
+Differential expression and phosphorylation of CTCF, a c-myc transcriptional regulator, during differentiation of human myeloid cells.
+# T1 Protein S1 47 51 47 51 CTCF
+# T2 Protein S1 55 60 55 60 c-myc
+$ T1 Protein S1 47 51 47 51 CTCF
+$ T2 Protein S1 55 60 55 60 c-myc
+@ T13 Gene_expression S1 13 23 13 23 expression
+@ T14 Phosphorylation S1 28 43 28 43 phosphorylation
+@ T15 Regulation S1 61 86 61 86 transcriptional regulator
+% E1 Gene_expression:T13 Theme:T1
+% E2 Phosphorylation:T14 Theme:T1
+% E3 Regulation:T15 Theme:T2 Cause:T1
+
+CTCF is a transcriptional repressor of the c-myc gene.
+# T3 Protein S2 0 4 136 140 CTCF
+# T4 Protein S2 43 48 179 184 c-myc
+$ T4 Protein S2 43 48 179 184 c-myc
+$ T3 Protein S2 0 4 136 140 CTCF
+@ T16 Negative_regulation S2 10 35 146 171 transcriptional repressor
+% E4 Negative_regulation:T16 Theme:T4 Cause:T3
+
+Although CTCF has been characterized in some detail, there is very little information about the regulation of CTCF activity.
+# T5 Protein S3 9 13 200 204 CTCF
+# T6 Protein S3 110 114 301 305 CTCF
+$ T6 Protein S3 110 114 301 305 CTCF
+@ T17 Regulation S3 96 106 287 297 regulation
+% E5 Regulation:T17 Theme:T6
+
+Therefore we investigated CTCF expression and phosphorylation during induced differentiation of human myeloid leukemia cells.
+# T7 Protein S4 26 30 342 346 CTCF
+$ T7 Protein S4 26 30 342 346 CTCF
+@ T18 Gene_expression S4 31 41 347 357 expression
+@ T19 Phosphorylation S4 46 61 362 377 phosphorylation
+% E6 Gene_expression:T18 Theme:T7
+% E7 Phosphorylation:T19 Theme:T7
+
+We found that: (i) both CTCF mRNA and protein are down-regulated during terminal differentiation in most cell lines tested; (ii) CTCF down-regulation is retarded and less pronounced than that of c-myc; (iii) CTCF protein is differentially phosphorylated and the phosphorylation profiles depend on the differentiation pathway.
+# T8 Protein S5 24 28 466 470 CTCF
+# T9 Protein S5 129 133 571 575 CTCF
+# T10 Protein S5 195 200 637 642 c-myc
+# T11 Protein S5 208 212 650 654 CTCF
+$ T8 Protein S5 24 28 466 470 CTCF
+$ T9 Protein S5 129 133 571 575 CTCF
+$ T10 Protein S5 195 200 637 642 c-myc
+$ T11 Protein S5 208 212 650 654 CTCF
+@ T20 Negative_regulation S5 50 64 492 506 down-regulated
+@ T21 Negative_regulation S5 134 149 576 591 down-regulation
+@ T22 Phosphorylation S5 239 253 681 695 phosphorylated
+@ T23 Positive_regulation S5 287 293 729 735 depend
+% E8 Negative_regulation:T20 Theme:T8
+% E9 Negative_regulation:T21 Theme:T9
+% E10 Negative_regulation:T21 Theme:T10
+% E11 Phosphorylation:T22 Theme:T11
+% E12 Positive_regulation:T23 Theme:E11
+
+We concluded that CTCF expression and activity is controlled at transcriptional and post-transcriptional levels.
+# T12 Protein S6 18 22 786 790 CTCF
+$ T12 Protein S6 18 22 786 790 CTCF
+@ T24 Gene_expression S6 23 33 791 801 expression
+@ T25 Regulation S6 50 111 818 879 controlled at transcriptional and post-transcriptional levels
+% E13 Gene_expression:T24 Theme:T12
+% E14 Regulation:T25 Theme:E13
+% E15 Regulation:T25 Theme:T12
+

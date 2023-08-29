@@ -1,0 +1,71 @@
+ATF1 and CREB trans-activate a cell cycle regulated histone H4 gene at a distal nuclear matrix associated promoter element.
+# T1 Protein S1 0 4 0 4 ATF1
+# T2 Protein S1 52 62 52 62 histone H4
+$ T1 Protein S1 0 4 0 4 ATF1
+$ T2 Protein S1 52 62 52 62 histone H4
+@ T12 Positive_regulation S1 14 28 14 28 trans-activate
+@ T13 Regulation S1 42 51 42 51 regulated
+% E1 Positive_regulation:T12 Theme:E3
+% E2 Positive_regulation:T12 Theme:E3 Cause:T1
+% E3 Regulation:T13 Theme:T2
+
+Proteins of the ATF/CREB class of transcription factors stimulate gene expression of several cell growth-related genes through protein kinase A-related cAMP response elements.
+
+The promoter activity of cell cycle regulated histone H4 genes is regulated by at least four principal cis-acting elements which mediate G1/S phase control and/or enhancement of transcription during the cell cycle.
+# T3 Protein S3 46 56 347 357 histone H4
+$ T3 Protein S3 46 56 347 357 histone H4
+@ T14 Regulation S3 36 45 337 346 regulated
+@ T15 Regulation S3 66 75 367 376 regulated
+@ T16 Positive_regulation S3 129 136 430 437 mediate
+@ T17 Positive_regulation S3 163 174 464 475 enhancement
+@ T18 Transcription S3 178 191 479 492 transcription
+% E4 Regulation:T14 Theme:T3
+% E5 Regulation:T15 Theme:E4
+% E6 Positive_regulation:T16 Theme:E7
+% E7 Positive_regulation:T17 Theme:E8
+% E8 Transcription:T18 Theme:T3
+
+Using protein-DNA interaction assays we show that the H4 promoter contains two ATF/CREB recognition motifs which interact with CREB, ATF1, and ATF2 but not with ATF4/CREB2.
+# T4 Protein S4 133 137 649 653 ATF1
+# T5 Protein S4 143 147 659 663 ATF2
+# T6 Protein S4 161 165 677 681 ATF4
+# T7 Protein S4 166 171 682 687 CREB2
+$ T5 Protein S4 143 147 659 663 ATF2
+$ T4 Protein S4 133 137 649 653 ATF1
+$ T6 Protein S4 161 165 677 681 ATF4
+@ T19 Binding S4 113 121 629 637 interact
+% E9 Binding:T19 Theme:T5
+% E10 Binding:T19 Theme:T4
+% E11 Binding:T19 Theme:T6
+
+One ATF/CRE motif is located in the distal promoter at the nuclear matrix-associated Site IV, and the second motif is present in the proximal promoter at Site I. Both ATF/CRE motifs overlap binding sequences for the multifunctional YY1 transcription factor, which has previously been shown to be nuclear matrix associated.
+
+Subnuclear fractionation reveals that there are two ATF1 isoforms which appear to differ with respect to DNA binding activity and partition selectively between nuclear matrix and nonmatrix compartments, consistent with the role of the nuclear matrix in regulating gene expression.
+# T8 Protein S6 52 56 1064 1068 ATF1
+$ T8 Protein S6 52 56 1064 1068 ATF1
+@ T20 Binding S6 109 116 1121 1128 binding
+% E12 Binding:T20 Theme:T8
+
+Site-directed mutational studies demonstrate that Site I and Site IV together support ATF1- and CREB-induced trans-activation of the H4 promoter.
+# T9 Protein S7 86 90 1379 1383 ATF1
+# T10 Protein S7 133 135 1426 1428 H4
+$ T10 Protein S7 133 135 1426 1428 H4
+$ T9 Protein S7 86 90 1379 1383 ATF1
+@ T21 Positive_regulation S7 78 85 1371 1378 support
+@ T22 Positive_regulation S7 109 125 1402 1418 trans-activation
+@ T23 Entity S7 136 144 1429 1437 promoter
+% E13 Positive_regulation:T21 Theme:E15
+% E14 Positive_regulation:T21 Theme:E16
+% E15 Positive_regulation:T22 Theme:T10 Cause:T9 Site:T23
+% E16 Positive_regulation:T22 Theme:T10 Site:T23
+
+Thus, our data establish that ATF/CREB factors functionally modulate histone H4 gene transcription at distal and proximal promoter elements.
+# T11 Protein S8 69 79 1508 1518 histone H4
+$ T11 Protein S8 69 79 1508 1518 histone H4
+@ T24 Regulation S8 60 68 1499 1507 modulate
+@ T25 Transcription S8 85 98 1524 1537 transcription
+@ T26 Positive_regulation S8 99 101 1538 1540 at
+% E17 Regulation:T24 Theme:E18
+% E18 Transcription:T25 Theme:T11
+% E19 Positive_regulation:T26 Theme:E17
+

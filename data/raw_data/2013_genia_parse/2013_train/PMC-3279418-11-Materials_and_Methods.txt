@@ -1,0 +1,43 @@
+Generation	NN	B-NP	O	Other	No	No	Other	Other	###	1	Generation	Generation	NN	NN	_	0	root	_	_
+of	IN	B-PP	O	Other	No	No	Other	Other	###	2	of	of	IN	IN	_	3	case	_	_
+BMDC	NN	B-NP	B-cell_type	Other	No	No	Other	Other	###	3	BMDC	BMDC	NN	NN	_	1	nmod	_	_
+
+BMDC	NN	B-NP	B-cell_type	Other	No	No	Other	Other	###	1	BMDC	BMDC	NN	NN	_	3	nsubjpass	_	_
+were	VBD	B-VP	O	Other	No	No	Other	Other	###	2	were	were	VBD	VBD	_	3	auxpass	_	_
+developed	VBN	I-VP	O	Other	No	No	Other	Other	###	3	developed	developed	VBN	VBN	_	0	root	_	_
+as	IN	B-SBAR	O	Other	No	No	Other	Other	###	4	as	as	IN	IN	_	6	mark	_	_
+previously	RB	B-ADVP	O	Other	No	No	Other	Other	###	5	previously	previously	RB	RB	_	6	advmod	_	_
+reported	VBN	B-VP	O	Other	No	No	Other	Other	###	6	reported	reported	VBN	VBN	_	3	dep	_	_
+[	(	O	O	Other	No	No	Other	Other	###	7	[	[	(	(	_	3	xcomp	_	_
+54	CD	B-NP	O	Other	No	No	Other	Other	###	8	54	54	CD	CD	_	9	nummod	_	_
+]	)	O	O	Other	No	No	Other	Other	###	9	]	]	)	)	_	7	xcomp	_	_
+,	,	O	O	Other	No	No	Other	Other	###	10	,	,	,	,	_	3	punct	_	_
+[	(	O	O	Other	No	No	Other	Other	###	11	[	[	(	(	_	3	conj	_	_
+55	CD	B-NP	O	Other	No	No	Other	Other	###	12	55	55	CD	CD	_	13	nummod	_	_
+]	)	O	O	Other	No	No	Other	Other	###	13	]	]	)	)	_	11	xcomp	_	_
+.	.	O	O	Other	No	No	Other	Other	###	14	.	.	.	.	_	3	punct	_	_
+
+Cells	NNS	B-NP	O	Other	No	No	Other	Other	###	1	Cells	Cells	NNS	NNS	_	3	nsubjpass	_	_
+were	VBD	B-VP	O	Other	No	No	Other	Other	###	2	were	were	VBD	VBD	_	3	auxpass	_	_
+collected	VBN	I-VP	O	Other	No	No	Other	Other	###	3	collected	collected	VBN	VBN	_	0	root	_	_
+after	IN	B-PP	O	Other	No	No	Other	Other	###	4	after	after	IN	IN	_	6	case	_	_
+10-12	CD	B-NP	O	Other	No	No	Other	Other	###	5	10-12	10-12	CD	CD	_	6	nummod	_	_
+days	NNS	I-NP	O	Other	No	No	Other	Other	###	6	days	days	NNS	NNS	_	3	nmod	_	_
+of	IN	B-PP	O	Other	No	No	Other	Other	###	7	of	of	IN	IN	_	8	case	_	_
+culture	NN	B-NP	O	Other	No	No	Other	Other	###	8	culture	culture	NN	NN	_	6	nmod	_	_
+.	.	O	O	Other	No	No	Other	Other	###	9	.	.	.	.	_	3	punct	_	_
+
+The	DT	B-NP	O	Other	No	No	Other	Other	###	1	The	The	DT	DT	_	3	det	_	_
+cell	NN	I-NP	O	Other	No	No	Other	Other	###	2	cell	cell	NN	NN	_	3	compound	_	_
+yield	NN	I-NP	O	Other	No	No	Other	Other	###	3	yield	yield	NN	NN	_	6	nsubj	_	_
+was	VBD	B-VP	O	Other	No	No	Other	Other	###	4	was	was	VBD	VBD	_	6	cop	_	_
+2-3x107	CD	B-NP	O	Other	No	No	Other	Other	###	5	2-3x107	2-3x107	CD	CD	_	6	nummod	_	_
+cells	NN	I-NP	O	Other	No	No	Other	Other	###	6	cells	cells	NN	NN	_	0	root	_	_
+/	/	O	O	Other	No	No	Other	Other	###	7	/	/	/	/	_	6	punct	_	_
+mouse	NN	I-NP	O	Other	No	No	Other	Other	###	8	mouse	mouse	NN	NN	_	6	dep	_	_
+with	IN	B-PP	O	Other	No	No	Other	Other	###	9	with	with	IN	IN	_	12	case	_	_
+80-95	CD	B-NP	O	Other	No	No	Other	Other	###	10	80-95	80-95	CD	CD	_	11	compound	_	_
+%	NN	I-NP	O	Other	No	No	Other	Other	###	11	%	%	NN	NN	_	12	amod	_	_
+BMDC	NN	I-NP	O	Other	No	No	Other	Other	###	12	BMDC	BMDC	NN	NN	_	8	nmod	_	_
+.	.	O	O	Other	No	No	Other	Other	###	13	.	.	.	.	_	6	punct	_	_
+

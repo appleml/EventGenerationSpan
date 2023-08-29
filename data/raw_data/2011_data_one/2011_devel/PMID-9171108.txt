@@ -1,0 +1,54 @@
+The class II trans-activator CIITA interacts with the TBP-associated factor TAFII32.
+# T1 Protein S1 4 28 4 28 class II trans-activator
+# T2 Protein S1 29 34 29 34 CIITA
+# T3 Protein S1 54 57 54 57 TBP
+# T4 Protein S1 76 83 76 83 TAFII32
+$ T2 Protein S1 29 34 29 34 CIITA
+$ T4 Protein S1 76 83 76 83 TAFII32
+@ T15 Binding S1 35 44 35 44 interacts
+% E1 Binding:T15 Theme:T2 Theme2:T4
+
+The class II trans- activator (CIITA) is the main transcriptional co-activator for the expression of MHC class II proteins.
+# T5 Protein S2 4 29 90 115 class II trans- activator
+# T6 Protein S2 31 36 117 122 CIITA
+
+Its N-terminal 125 amino acids function as an independent transcriptional activation domain.
+
+Analyses of the primary amino acid sequence of the activation domain predict the presence of three alpha-helices, each with a high proportion of acidic residues.
+
+Using site-directed mutagenesis, we found that two of these predicted alpha-helices are required for full transcriptional activation by CIITA.
+# T7 Protein S5 136 141 601 606 CIITA
+
+Moreover, a CIITA protein in which both functional alpha-helices have been deleted displays a dominant negative phenotype.
+# T8 Protein S6 12 17 620 625 CIITA
+$ T8 Protein S6 12 17 620 625 CIITA
+@ T16 Negative_regulation S6 83 121 691 729 displays a dominant negative phenotype
+% E2 Negative_regulation:T16 Theme:T8
+
+This activation domain of CIITA interacts with the 32 kDa subunit of the general transcription complex TFIID, TAFII32.
+# T9 Protein S7 26 31 757 762 CIITA
+# T10 Protein S7 110 117 841 848 TAFII32
+$ T9 Protein S7 26 31 757 762 CIITA
+$ T10 Protein S7 110 117 841 848 TAFII32
+@ T17 Entity S7 5 22 736 753 activation domain
+@ T18 Binding S7 32 41 763 772 interacts
+% E3 Binding:T18 Theme:T9 Theme2:T10 Site:T17
+
+Decreased transcriptional activation by N-terminal deletions of CIITA is correlated directly with their reduced binding to TAFII32.
+# T11 Protein S8 64 69 914 919 CIITA
+# T12 Protein S8 123 130 973 980 TAFII32
+$ T11 Protein S8 64 69 914 919 CIITA
+$ T12 Protein S8 123 130 973 980 TAFII32
+@ T19 Negative_regulation S8 104 111 954 961 reduced
+@ T20 Binding S8 112 119 962 969 binding
+% E4 Negative_regulation:T19 Theme:E5
+% E5 Binding:T20 Theme:T11 Theme2:T12
+
+We conclude that interactions between TAFII32 and CIITA are responsible for activation of class II genes.
+# T13 Protein S9 38 45 1020 1027 TAFII32
+# T14 Protein S9 50 55 1032 1037 CIITA
+$ T13 Protein S9 38 45 1020 1027 TAFII32
+$ T14 Protein S9 50 55 1032 1037 CIITA
+@ T21 Binding S9 17 29 999 1011 interactions
+% E6 Binding:T21 Theme:T13 Theme2:T14
+

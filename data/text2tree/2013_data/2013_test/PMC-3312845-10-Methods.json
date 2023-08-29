@@ -1,0 +1,12 @@
+{"text": "Quantification of data", "event": "<extra_id_0> <extra_id_1>"}
+{"text": "The fluorescence intensities of SMI-71 / <extra_id_0> p65 <extra_id_2> Protein <extra_id_1> - Thr435 phosphorylation or GFPA / <extra_id_0> p65 <extra_id_2> Protein <extra_id_1> - Thr435 phosphorylation were measured using a computer-assisted image analysis program ( The University of Texas ImageTool program V . 3.0 and AxioVision Rel .", "event": "<extra_id_0> <extra_id_1>"}
+{"text": "4.8 software ) .", "event": "<extra_id_0> <extra_id_1>"}
+{"text": "After regions were outlined , 30 areas / rat ( 300 mum2 / area ) were randomly selected within the PC , and double immunofluorescent merge images were captured from the PC ( 15 sections from each animal ) .", "event": "<extra_id_0> <extra_id_1>"}
+{"text": "Merge images were digitally separated to red or green image , and converted to grayscale images , respectively ( n = 36 per region examined , in non-SE , 12 hr post-SE and 1 day post-SE ) .", "event": "<extra_id_0> <extra_id_1>"}
+{"text": "The range of intensity values was obtained from the selected images .", "event": "<extra_id_0> <extra_id_1>"}
+{"text": "Based on the mean range of intensity values , each image was normalized by adjusting the black and white range of the image .", "event": "<extra_id_0> <extra_id_1>"}
+{"text": "Manipulation of the images was restricted to threshold and brightness adjustments to the whole image .", "event": "<extra_id_0> <extra_id_1>"}
+{"text": "Intensity measurements are represented as the mean number of a 256 gray scale ( NIH Image 1.59 software and AxioVision Rel .", "event": "<extra_id_0> <extra_id_1>"}
+{"text": "4.8 software ) .", "event": "<extra_id_0> <extra_id_1>"}
+{"text": "Values for background staining were obtained from the corpus callosum .", "event": "<extra_id_0> <extra_id_1>"}
+{"text": "Optical density values were then corrected by subtracting the average values of background noise obtained from 15 image inputs .", "event": "<extra_id_0> <extra_id_1>"}

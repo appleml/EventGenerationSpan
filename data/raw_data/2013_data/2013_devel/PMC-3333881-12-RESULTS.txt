@@ -1,0 +1,263 @@
+Tat enhances the NF-kappaB activity by hijacking IkappaB-alpha and inhibiting the post-activation turn off of NF-kappaB
+# T1 Protein S1 0 3 0 3 Tat
+# T2 Protein S1 49 62 49 62 IkappaB-alpha
+$ T1 Protein S1 0 3 0 3 Tat
+$ T2 Protein S1 49 62 49 62 IkappaB-alpha
+@ T69 Binding S1 39 48 39 48 hijacking
+% E2 Binding:T69 Theme:T1 Theme2:T2
+
+We analysed the kinetic of NF-kappaB activation in single round HIV-1 infection by modulating the expression of Tat with RNA interference.
+# T3 Protein S2 112 115 232 235 Tat
+$ T3 Protein S2 112 115 232 235 Tat
+@ T70 Regulation S2 83 93 203 213 modulating
+@ T71 Gene_expression S2 98 108 218 228 expression
+% E3 Regulation:T70 Theme:E4
+% E4 Gene_expression:T71 Theme:T3
+
+Jurkat cells were transfected with siRNA Tat, siRNA control, or left untransfected, and 24 h later cells were infected with HXB2 Env-pseudotyped NL4-3.
+# T4 Protein S3 35 44 294 303 siRNA Tat
+# T5 Protein S3 129 132 388 391 Env
+
+Luc.R-E- virions.
+
+By cytofluorimetric analysis, ~40% of cells was siRNA-transfected and HIV-1-infected at 12-h post-infection (Supplementary Figure S1).
+
+The expression of Tat was detected at 1-h post-infection and progressively increased up to 12 h in untransfected and siRNA control-transfected cells, while it was barely detected in siRNA Tat-transfected cells (Figure 1A).
+# T6 Protein S6 18 21 581 584 Tat
+# T7 Protein S6 182 191 745 754 siRNA Tat
+$ T6 Protein S6 18 21 581 584 Tat
+$ T7 Protein S6 182 191 745 754 siRNA Tat
+@ T72 Gene_expression S6 4 14 567 577 expression
+@ T73 Positive_regulation S6 75 84 638 647 increased
+@ T65 Anaphora S6 156 158 719 721 it
+@ T74 Negative_regulation S6 163 178 726 741 barely detected
+% E5 Gene_expression:T72 Theme:T6
+% E6 Positive_regulation:T73 Theme:E5
+% E7 Negative_regulation:T74 Theme:E5 Cause:T7
+
+The LTR-dependent luciferase expression was also progressively induced at 1- to 12-h post-infection in untransfected and siRNA control-transfected cells, while it was barely observed in siRNA Tat-transfected cells, as expected for the Tat-dependent transactivation of the HIV-1 LTR (Figure 1A).
+# T8 Protein S7 18 28 804 814 luciferase
+# T9 Protein S7 186 195 972 981 siRNA Tat
+# T10 Protein S7 235 238 1021 1024 Tat
+$ T8 Protein S7 18 28 804 814 luciferase
+@ T75 Positive_regulation S7 8 17 794 803 dependent
+@ T76 Gene_expression S7 29 39 815 825 expression
+@ T77 Positive_regulation S7 63 70 849 856 induced
+% E8 Positive_regulation:T75 Theme:E9
+% E9 Gene_expression:T76 Theme:T8
+% E10 Positive_regulation:T77 Theme:E8
+
+The progressive increase in NF-kappaB activity, as measured by p65-p50 binding to an NF-kappaB consensus oligonucleotide (Figure 1B) and nuclear p65 (Figure 1C, nucleus), was observed at 1- to 3-h post-infection in both Tat-positive (no siRNA or siRNA control) and Tat-negative (siRNA Tat) cells; however, at 12-h post-infection, the p65 DNA binding and nuclear p65 persisted elevated in presence of Tat (no siRNA and siRNA control), while they dropped in absence of Tat (siRNA Tat) (Figure 1B and C).
+# T11 Protein S8 63 66 1144 1147 p65
+# T12 Protein S8 67 70 1148 1151 p50
+# T13 Protein S8 145 148 1226 1229 p65
+# T14 Protein S8 220 223 1301 1304 Tat
+# T15 Protein S8 265 268 1346 1349 Tat
+# T16 Protein S8 279 288 1360 1369 siRNA Tat
+# T17 Protein S8 334 337 1415 1418 p65
+# T18 Protein S8 362 365 1443 1446 p65
+# T19 Protein S8 400 403 1481 1484 Tat
+# T20 Protein S8 467 470 1548 1551 Tat
+# T21 Protein S8 472 481 1553 1562 siRNA Tat
+$ T11 Protein S8 63 66 1144 1147 p65
+$ T12 Protein S8 67 70 1148 1151 p50
+$ T17 Protein S8 334 337 1415 1418 p65
+$ T19 Protein S8 400 403 1481 1484 Tat
+$ T18 Protein S8 362 365 1443 1446 p65
+$ T20 Protein S8 467 470 1548 1551 Tat
+@ T78 Binding S8 71 78 1152 1159 binding
+@ T79 Binding S8 342 349 1423 1430 binding
+@ T80 Positive_regulation S8 376 384 1457 1465 elevated
+@ T66 Anaphora S8 440 444 1521 1525 they
+@ T81 Negative_regulation S8 445 452 1526 1533 dropped
+@ T82 Negative_regulation S8 456 463 1537 1544 absence
+% E11 Binding:T78 Theme:T11
+% E12 Binding:T78 Theme:T12
+% E13 Binding:T79 Theme:T17
+% E14 Positive_regulation:T80 Theme:E13 Cause:T19
+% E15 Positive_regulation:T80 Theme:T18 Cause:T19
+% E16 Negative_regulation:T81 Theme:E13 Cause:E17
+% E18 Negative_regulation:T81 Theme:T18 Cause:E17
+% E17 Negative_regulation:T82 Theme:T20
+
+IkappaB-alpha was degraded in the cytosol within 3-h post-infection and de novo synthesized at 6 h with full replenishment at 12-h post-infection in both Tat-positive and Tat-negative cells (Figure 1C, cytosol).
+# T22 Protein S9 0 13 1583 1596 IkappaB-alpha
+# T23 Protein S9 154 157 1737 1740 Tat
+# T24 Protein S9 171 174 1754 1757 Tat
+$ T22 Protein S9 0 13 1583 1596 IkappaB-alpha
+@ T83 Protein_catabolism S9 18 26 1601 1609 degraded
+@ T84 Gene_expression S9 80 91 1663 1674 synthesized
+% E19 Protein_catabolism:T83 Theme:T22
+% E20 Gene_expression:T84 Theme:T22
+
+Consistently, the IKK activity was induced at 1-h post-infection, and decreased at 3-h post-infection independently of the presence of Tat (Figure 1D).
+# T25 Protein S10 135 138 1930 1933 Tat
+
+Similar kinetics of NF-kappaB activity, IKK activation and IkappaB-alpha degradation/re-synthesis were observed in single-round HIV-1 infection of PBMCs using a cocktail of Azidothymidine (AZT) and Lamivudine (3TC) as reverse transcriptase inhibitors (Supplementary Figure S2).
+# T26 Protein S11 59 72 2006 2019 IkappaB-alpha
+$ T26 Protein S11 59 72 2006 2019 IkappaB-alpha
+@ T85 Protein_catabolism S11 73 84 2020 2031 degradation
+@ T86 Gene_expression S11 85 97 2032 2044 re-synthesis
+@ T87 Positive_regulation S11 103 111 2050 2058 observed
+% E21 Protein_catabolism:T85 Theme:T26
+% E22 Gene_expression:T86 Theme:T26
+% E23 Positive_regulation:T87 Theme:E21
+% E24 Positive_regulation:T87 Theme:E22
+
+These results indicated that in single-round HIV-1 infection the NF-kappaB activation initially correlated with the IKK activation and IkappaB-alpha degradation independently of the presence of Tat, and it was kept elevated in presence of Tat following the decay of the IKK activity and new synthesis of IkappaB-alpha.
+# T27 Protein S12 135 148 2360 2373 IkappaB-alpha
+# T28 Protein S12 194 197 2419 2422 Tat
+# T29 Protein S12 239 242 2464 2467 Tat
+# T30 Protein S12 304 317 2529 2542 IkappaB-alpha
+$ T27 Protein S12 135 148 2360 2373 IkappaB-alpha
+$ T30 Protein S12 304 317 2529 2542 IkappaB-alpha
+@ T88 Protein_catabolism S12 149 160 2374 2385 degradation
+@ T89 Gene_expression S12 291 300 2516 2525 synthesis
+% E25 Protein_catabolism:T88 Theme:T27
+% E26 Gene_expression:T89 Theme:T30
+
+Next, we tested the single action of Tat on the kinetic of NF-kappaB activity induced by PMA.
+# T31 Protein S13 37 40 2581 2584 Tat
+
+To this end, HeLa cells were transfected with p3x-FLAG-Tat, or empty vector, stimulated with PMA for 5 min, and extensively washed to avoid the oscillatory kinetic of NF-kappaB activation (17,18).
+# T32 Protein S14 55 58 2693 2696 Tat
+
+In un-stimulated cells, the p65 DNA binding (Figure 2A) and nuclear p65 (Figure 2B, nucleus) were slightly enhanced by Tat, while the IkappaB-alpha content was not significantly affected (Figure 2B, cytosol).
+# T33 Protein S15 28 31 2863 2866 p65
+# T34 Protein S15 68 71 2903 2906 p65
+# T35 Protein S15 119 122 2954 2957 Tat
+# T36 Protein S15 134 147 2969 2982 IkappaB-alpha
+$ T33 Protein S15 28 31 2863 2866 p65
+$ T35 Protein S15 119 122 2954 2957 Tat
+$ T34 Protein S15 68 71 2903 2906 p65
+$ T36 Protein S15 134 147 2969 2982 IkappaB-alpha
+@ T90 Binding S15 36 43 2871 2878 binding
+@ T91 Positive_regulation S15 107 115 2942 2950 enhanced
+@ T92 Regulation S15 178 186 3013 3021 affected
+% E27 Binding:T90 Theme:T33
+% E28 Positive_regulation:T91 Theme:E27 Cause:T35
+% E29 Positive_regulation:T91 Theme:T34 Cause:T35
+% E30 Regulation:T92 Theme:T36 Cause:T35
+
+Transient stimulation with PMA increased the NF-kappaB DNA binding activity and nuclear p65 at 5 min peaking at 60-120 min independently of the presence of Tat (Figure 2A and B); however, while the p65 DNA binding and nuclear p65 persisted elevated at 240-min post-treatment in Tat-positive cells, they dropped in Tat-negative cells (Figure 2A and B).
+# T37 Protein S16 88 91 3132 3135 p65
+# T38 Protein S16 156 159 3200 3203 Tat
+# T39 Protein S16 198 201 3242 3245 p65
+# T40 Protein S16 226 229 3270 3273 p65
+# T41 Protein S16 278 281 3322 3325 Tat
+# T42 Protein S16 314 317 3358 3361 Tat
+$ T37 Protein S16 88 91 3132 3135 p65
+$ T38 Protein S16 156 159 3200 3203 Tat
+$ T39 Protein S16 198 201 3242 3245 p65
+$ T41 Protein S16 278 281 3322 3325 Tat
+$ T40 Protein S16 226 229 3270 3273 p65
+$ T42 Protein S16 314 317 3358 3361 Tat
+@ T93 Positive_regulation S16 31 40 3075 3084 increased
+@ T94 Regulation S16 123 136 3167 3180 independently
+@ T95 Binding S16 206 213 3250 3257 binding
+@ T96 Positive_regulation S16 240 248 3284 3292 elevated
+@ T67 Anaphora S16 298 302 3342 3346 they
+@ T97 Negative_regulation S16 303 310 3347 3354 dropped
+@ T98 Negative_regulation S16 318 326 3362 3370 negative
+% E31 Positive_regulation:T93 Theme:T37
+% E32 Regulation:T94 Theme:E31 Cause:T38
+% E1 Binding:T95 Theme:T39
+% E33 Positive_regulation:T96 Theme:E1 Cause:T41
+% E34 Positive_regulation:T96 Theme:T40 Cause:T41
+% E35 Negative_regulation:T97 Theme:E1 Cause:E36
+% E37 Negative_regulation:T97 Theme:T40 Cause:E36
+% E36 Negative_regulation:T98 Theme:T42
+
+In addition, Tat bound to the NF-kappaB oligonucleotide in un-stimulated cells and its binding increased following PMA stimulation (Figure 2A), suggesting that the viral protein was a component of the NF-kappaB complex bound to DNA.
+# T43 Protein S17 13 16 3409 3412 Tat
+$ T43 Protein S17 13 16 3409 3412 Tat
+@ T99 Binding S17 17 22 3413 3418 bound
+@ T68 Anaphora S17 83 86 3479 3482 its
+@ T100 Binding S17 87 94 3483 3490 binding
+@ T101 Positive_regulation S17 95 104 3491 3500 increased
+% E38 Binding:T99 Theme:T43
+% E39 Binding:T100 Theme:T43
+% E40 Positive_regulation:T101 Theme:E39
+
+Degradation of IkappaB-alpha was progressively induced at 5-30 min, followed by de novo synthesis at 60 min with full replenishment at 240 min in both Tat-positive and negative cells (Figure 2B, cytosol).
+# T44 Protein S18 15 28 3644 3657 IkappaB-alpha
+# T45 Protein S18 151 154 3780 3783 Tat
+$ T44 Protein S18 15 28 3644 3657 IkappaB-alpha
+@ T102 Protein_catabolism S18 0 11 3629 3640 Degradation
+@ T103 Positive_regulation S18 47 54 3676 3683 induced
+@ T104 Positive_regulation S18 68 76 3697 3705 followed
+@ T105 Gene_expression S18 88 97 3717 3726 synthesis
+% E41 Protein_catabolism:T102 Theme:T44
+% E42 Positive_regulation:T103 Theme:E41
+% E43 Positive_regulation:T104 Theme:E44 Cause:E42
+% E44 Gene_expression:T105 Theme:T44
+
+Consistently, the IKK activation started at 5 min, and turned off at 30 min independently of the presence of Tat (Figure 2C).
+# T46 Protein S19 109 112 3943 3946 Tat
+
+These results indicated that Tat enhanced the NF-kappaB activity in un-stimulated and PMA-stimulated cells without affecting the IKK activity and IkappaB-alpha content.
+# T47 Protein S20 29 32 3989 3992 Tat
+# T48 Protein S20 146 159 4106 4119 IkappaB-alpha
+$ T48 Protein S20 146 159 4106 4119 IkappaB-alpha
+$ T47 Protein S20 29 32 3989 3992 Tat
+@ T106 Regulation S20 115 124 4075 4084 affecting
+% E45 Regulation:T106 Theme:T48 Cause:T47
+
+As we previously found that Tat binds to the sixth ankyrin of IkappaB-alpha (50,51), we tested whether Tat counteracted the generation of the IkappaB-alpha/NF-kappaB complex.
+# T49 Protein S21 28 31 4157 4160 Tat
+# T50 Protein S21 62 75 4191 4204 IkappaB-alpha
+# T51 Protein S21 103 106 4232 4235 Tat
+# T52 Protein S21 142 155 4271 4284 IkappaB-alpha
+$ T49 Protein S21 28 31 4157 4160 Tat
+$ T50 Protein S21 62 75 4191 4204 IkappaB-alpha
+$ T51 Protein S21 103 106 4232 4235 Tat
+$ T52 Protein S21 142 155 4271 4284 IkappaB-alpha
+@ T107 Binding S21 32 37 4161 4166 binds
+@ T108 Entity S21 45 58 4174 4187 sixth ankyrin
+@ T109 Negative_regulation S21 107 119 4236 4248 counteracted
+@ T110 Binding S21 124 134 4253 4263 generation
+% E46 Binding:T107 Theme:T49 Theme2:T50 Site2:T108
+% E47 Negative_regulation:T109 Theme:E48 Cause:T51
+% E48 Binding:T110 Theme:T52
+
+To this end, the association of IkappaB-alpha with p65 was analysed in vivo at 0 and 240 min after short-pulse PMA, which corresponded to the time of un-stimulated condition and post-activation de novo synthesis of IkappaB-alpha, respectively.
+# T53 Protein S22 32 45 4336 4349 IkappaB-alpha
+# T54 Protein S22 51 54 4355 4358 p65
+# T55 Protein S22 215 228 4519 4532 IkappaB-alpha
+$ T53 Protein S22 32 45 4336 4349 IkappaB-alpha
+$ T54 Protein S22 51 54 4355 4358 p65
+$ T55 Protein S22 215 228 4519 4532 IkappaB-alpha
+@ T111 Binding S22 17 28 4321 4332 association
+@ T112 Gene_expression S22 202 211 4506 4515 synthesis
+% E49 Binding:T111 Theme:T53 Theme2:T54
+% E50 Gene_expression:T112 Theme:T55
+
+Coimmunoprecipitation of IkappaB-alpha with p65 was detected at 0- and 240-min post-treatment in Tat-negative cells (Figure 2D, lanes 1 and 3), and was halved in Tat-positive cells, where Tat coimmunoprecipitated with IkappaB-alpha (Figure 2D, lanes 2 and 4), indicating that Tat competed the IkappaB-alpha binding to p65.
+# T56 Protein S23 25 38 4573 4586 IkappaB-alpha
+# T57 Protein S23 44 47 4592 4595 p65
+# T58 Protein S23 97 100 4645 4648 Tat
+# T59 Protein S23 162 165 4710 4713 Tat
+# T60 Protein S23 188 191 4736 4739 Tat
+# T61 Protein S23 218 231 4766 4779 IkappaB-alpha
+# T62 Protein S23 276 279 4824 4827 Tat
+# T63 Protein S23 293 306 4841 4854 IkappaB-alpha
+# T64 Protein S23 318 321 4866 4869 p65
+$ T56 Protein S23 25 38 4573 4586 IkappaB-alpha
+$ T57 Protein S23 44 47 4592 4595 p65
+$ T59 Protein S23 162 165 4710 4713 Tat
+$ T60 Protein S23 188 191 4736 4739 Tat
+$ T61 Protein S23 218 231 4766 4779 IkappaB-alpha
+$ T62 Protein S23 276 279 4824 4827 Tat
+$ T63 Protein S23 293 306 4841 4854 IkappaB-alpha
+$ T64 Protein S23 318 321 4866 4869 p65
+@ T113 Binding S23 0 21 4548 4569 Coimmunoprecipitation
+@ T114 Negative_regulation S23 152 158 4700 4706 halved
+@ T115 Binding S23 192 212 4740 4760 coimmunoprecipitated
+@ T116 Negative_regulation S23 280 288 4828 4836 competed
+@ T117 Binding S23 307 314 4855 4862 binding
+% E51 Binding:T113 Theme:T56 Theme2:T57
+% E52 Negative_regulation:T114 Theme:E51 Cause:T59
+% E53 Binding:T115 Theme:T60 Theme2:T61
+% E54 Negative_regulation:T116 Theme:E55 Cause:T62
+% E55 Binding:T117 Theme:T63 Theme2:T64
+

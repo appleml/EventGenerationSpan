@@ -1,0 +1,43 @@
+Inhibition of activation of transcription factor AP-1 by CD28 signalling in human T-cells.
+# T1 Protein S1 57 61 57 61 CD28
+
+Co-stimulation of T-lymphocytes by T-cell receptor (TcR) occupancy and activation of the CD28 surface molecule results in enhanced proliferation and interleukin 2 (IL-2) production.
+# T2 Protein S2 89 93 181 185 CD28
+# T3 Protein S2 149 162 241 254 interleukin 2
+# T4 Protein S2 164 168 256 260 IL-2
+$ T2 Protein S2 89 93 181 185 CD28
+$ T4 Protein S2 164 168 256 260 IL-2
+@ T13 Positive_regulation S2 71 81 163 173 activation
+@ T14 Gene_expression S2 170 180 262 272 production
+% E1 Positive_regulation:T13 Theme:T2
+% E2 Gene_expression:T14 Theme:T4
+
+The increase in IL-2 gene expression triggered by CD28 involves a kappa B-like sequence in the 5'-regulatory region of the IL-2 promoter, called CD28-responsive element.
+# T5 Protein S3 16 20 290 294 IL-2
+# T6 Protein S3 50 54 324 328 CD28
+# T7 Protein S3 123 127 397 401 IL-2
+# T8 Protein S3 145 149 419 423 CD28
+$ T6 Protein S3 50 54 324 328 CD28
+$ T5 Protein S3 16 20 290 294 IL-2
+@ T15 Positive_regulation S3 4 12 278 286 increase
+@ T16 Gene_expression S3 26 36 300 310 expression
+% E3 Positive_regulation:T15 Theme:E4 Cause:T6
+% E4 Gene_expression:T16 Theme:T5
+
+Stimulation of T-cells by agonistic anti-CD28 antibodies in conjunction with phorbol 12-myristate 13-acetate (PMA)- or TcR-derived signals induces the enhanced activation of the transcription factor NF-kappa B.
+# T9 Protein S4 41 45 485 489 CD28
+
+Here we report that CD28 engagement, however, exerts opposite effects on the transcription factor AP-1.
+# T10 Protein S5 20 24 675 679 CD28
+$ T10 Protein S5 20 24 675 679 CD28
+@ T17 Binding S5 25 35 680 690 engagement
+% E5 Binding:T17 Theme:T10
+
+Whereas anti-CD28 together with PMA increased the DNA binding and trans-activation activity of NF-kappa B, PMA-induced activation of AP-1 was significantly suppressed.
+# T11 Protein S6 13 17 772 776 CD28
+
+The inhibitory effect exerted by anti-CD28 was observed at the level of DNA binding as well as in functional reporter-gene assays.
+# T12 Protein S7 38 42 965 969 CD28
+
+These results suggest that the two transcription factors are independently regulated and may perform different functions during T-cell activation.
+

@@ -1,0 +1,37 @@
+Octamer independent activation of transcription from the kappa immunoglobulin germline promoter.
+
+Previous analyses of immunoglobulin V region promoters has led to the discovery of a common octamer motif which is functionally important in the tissue-specific and developmentally regulated transcriptional activation of immunoglobulin genes.
+
+The germline promoters (Ko) located upstream of the J region gene segments of the kappa locus also contain an octamer motif (containing a single base pair mutation and referred to as the variant octamer) which has been shown previously to bind Oct-1 and Oct-2 transcription factors in vitro.
+# T1 Protein S3 244 249 585 590 Oct-1
+# T2 Protein S3 254 259 595 600 Oct-2
+$ T2 Protein S3 254 259 595 600 Oct-2
+$ T1 Protein S3 244 249 585 590 Oct-1
+@ T7 Binding S3 239 243 580 584 bind
+% E1 Binding:T7 Theme:T2
+% E2 Binding:T7 Theme:T1
+
+To further elucidate the role of this variant octamer motif in the regulation of germline transcription from the unrearranged kappa locus, we have quantitated the relative binding affinity of Oct-1 and Oct-2 for the variant octamer motif and determined the functional role of this octamer motif in transcriptional activation.
+# T3 Protein S4 192 197 825 830 Oct-1
+# T4 Protein S4 202 207 835 840 Oct-2
+$ T4 Protein S4 202 207 835 840 Oct-2
+$ T3 Protein S4 192 197 825 830 Oct-1
+@ T8 Binding S4 172 188 805 821 binding affinity
+% E3 Binding:T8 Theme:T4
+% E4 Binding:T8 Theme:T3
+
+We find that, although the variant octamer motif binds Oct-1 and Oct-2 in vitro with 5-fold lower affinity than the consensus octamer motif, mutation of the variant octamer motif to either a consensus octamer or non-octamer motif has no effect on transcriptional activation from the germline promoter.
+# T5 Protein S5 55 60 1014 1019 Oct-1
+# T6 Protein S5 65 70 1024 1029 Oct-2
+$ T5 Protein S5 55 60 1014 1019 Oct-1
+$ T6 Protein S5 65 70 1024 1029 Oct-2
+@ T9 Binding S5 49 54 1008 1013 binds
+% E5 Binding:T9 Theme:T5
+% E6 Binding:T9 Theme:T6
+
+We also find significant differences in activation of germline and V region promoters by kappa enhancers.
+
+Our results suggest that the germline promoters and V region promoters differ in their dependence on octamer for activation and respond differently to enhancer activation.
+
+These findings have important implications in regulation of germline transcription as well as concomitant activation of the V-J recombination of the kappa light chain locus.
+

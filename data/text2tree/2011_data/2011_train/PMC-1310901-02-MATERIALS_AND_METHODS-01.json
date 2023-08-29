@@ -1,0 +1,3 @@
+{"text": "Cell lines", "event": "<extra_id_0> <extra_id_1>"}
+{"text": "K-562 , Jurkat and U-937 were obtained from the ATCC ( American Type Culture Collection , Rockville , USA ) and EM-2 , LAMA-84 , CML-T1 , BV-173 , SD-1 and RPMI-8226 from the DSMZ ( Deutsche Sammlung von Mikroorganismen und Zellkulturen GmbH , Braunschweig , Germany ) .", "event": "<extra_id_0> <extra_id_1>"}
+{"text": "All cell lines , except BV-173 , SD-1 and RPMI-8226 , were <extra_id_0> IRF-4 <extra_id_2> Protein <extra_id_1> - negative .", "event": "<extra_id_0> <extra_id_0> Gene_expression negative <extra_id_0> Theme IRF-4 <extra_id_1> <extra_id_1> <extra_id_1>"}

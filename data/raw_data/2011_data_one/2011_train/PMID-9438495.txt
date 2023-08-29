@@ -1,0 +1,54 @@
+Replication of human immunodeficiency virus-1 in primary human T cells is dependent on the autocrine secretion of tumor necrosis factor through the control of nuclear factor-kappa B activation.
+
+Tumor necrosis factor (TNF)-alpha controls T-cell activation and is a major inducer of human immunodeficiency virus (HIV)-1 replication in chronically infected cells.
+# T1 Protein S2 0 33 195 228 Tumor necrosis factor (TNF)-alpha
+
+Therefore, we have investigated its role in primary cultures of HIV-infected human T lymphocytes by using neutralizing anti-TNF-alpha antibodies or TNF-alpha.
+# T2 Protein S3 124 133 486 495 TNF-alpha
+# T3 Protein S3 148 157 510 519 TNF-alpha
+
+Primary resting T lymphocytes produced TNF-alpha and supported HIV replication after T-cell receptor activation.
+# T4 Protein S4 39 48 560 569 TNF-alpha
+$ T4 Protein S4 39 48 560 569 TNF-alpha
+@ T15 Gene_expression S4 30 38 551 559 produced
+% E1 Gene_expression:T15 Theme:T4
+
+Addition of neutralizing anti-TNF-alpha antibodies drastically reduced p24 antigen release and prevented CD4+ cell depletion associated with infection.
+# T5 Protein S5 30 39 664 673 TNF-alpha
+# T6 Protein S5 71 74 705 708 p24
+# T7 Protein S5 105 108 739 742 CD4
+$ T5 Protein S5 30 39 664 673 TNF-alpha
+$ T6 Protein S5 71 74 705 708 p24
+@ T16 Negative_regulation S5 12 24 646 658 neutralizing
+@ T17 Negative_regulation S5 63 70 697 704 reduced
+@ T18 Localization S5 83 90 717 724 release
+% E2 Negative_regulation:T16 Theme:T5
+% E3 Negative_regulation:T17 Theme:E4
+% E4 Localization:T18 Theme:T6
+
+Anti-TNF-alpha also prevented nuclear factor-kappa B (NF-kappa B) activation, and a good correlation between this inhibition and inhibition of HIV replication was observed.
+# T8 Protein S6 5 14 791 800 TNF-alpha
+
+Moreover, supplementing the cultures with high doses of IL-2 reverted anti-TNF-alpha inhibition of cell proliferation but did not affect the inhibition of HIV p24 antigen release or NF-kappa B activation in the same cultures.
+# T9 Protein S7 56 60 1015 1019 IL-2
+# T10 Protein S7 75 84 1034 1043 TNF-alpha
+# T11 Protein S7 159 162 1118 1121 p24
+$ T9 Protein S7 56 60 1015 1019 IL-2
+$ T11 Protein S7 159 162 1118 1121 p24
+@ T19 Regulation S7 130 136 1089 1095 affect
+@ T20 Negative_regulation S7 141 151 1100 1110 inhibition
+@ T21 Localization S7 171 178 1130 1137 release
+% E5 Regulation:T19 Theme:E6 Cause:T9
+% E6 Negative_regulation:T20 Theme:E7
+% E7 Localization:T21 Theme:T11
+
+Moreover, anti-TNF-alpha inhibited HIV-1 long terminal repeat (LTR)-driven transcription of a reporter gene in primary T cells in response to activation, either in the presence or the absence of HIV-1 Tat.
+# T12 Protein S8 15 24 1200 1209 TNF-alpha
+# T13 Protein S8 201 204 1386 1389 Tat
+
+Our results support an important role for autocrine TNF-alpha secretion in controlling HIV replication in primary T cells because of its ability to maintain NF-kappa B elevated in the nucleus of T cells.
+# T14 Protein S9 52 61 1443 1452 TNF-alpha
+$ T14 Protein S9 52 61 1443 1452 TNF-alpha
+@ T22 Localization S9 62 71 1453 1462 secretion
+% E8 Localization:T22 Theme:T14
+

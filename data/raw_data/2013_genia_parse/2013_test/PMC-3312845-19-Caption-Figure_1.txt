@@ -1,0 +1,67 @@
+Expression	NN	B-NP	O	Other	###	1	Expression	Expression	NN	NN	_	0	root	_	_
+of	IN	B-PP	O	Other	###	2	of	of	IN	IN	_	3	case	_	_
+TNF-alpha	NN	B-NP	B-protein	B-Protein	###	3	TNF-alpha	TNF-alpha	NN	NN	_	1	nmod	_	_
+and	CC	I-NP	O	Other	###	4	and	and	CC	CC	_	3	cc	_	_
+TNF	NN	I-NP	B-protein	Other	###	5	TNF	TNF	NN	NN	_	6	compound	_	_
+receptor	NN	I-NP	I-protein	Other	###	6	receptor	receptor	NN	NN	_	3	conj	_	_
+in	IN	B-PP	O	Other	###	7	in	in	IN	IN	_	12	case	_	_
+the	DT	B-NP	O	Other	###	8	the	the	DT	DT	_	12	det	_	_
+PC	NN	I-NP	O	Other	###	9	PC	PC	NN	NN	_	12	compound	_	_
+12	CD	I-NP	O	Other	###	10	12	12	CD	CD	_	12	nummod	_	_
+hr-post	NN	I-NP	O	Other	###	11	hr-post	hr-post	NN	NN	_	12	compound	_	_
+SE	NN	I-NP	O	Other	###	12	SE	SE	NN	NN	_	1	nmod	_	_
+.	.	O	O	Other	###	13	.	.	.	.	_	1	punct	_	_
+
+(	(	O	O	Other	###	1	(	(	(	(	_	2	punct	_	_
+A	DT	O	O	Other	###	2	A	A	DT	DT	_	5	dep	_	_
+)	)	O	O	Other	###	3	)	)	)	)	_	2	punct	_	_
+TNF-alpha	NN	B-NP	B-protein	B-Protein	###	4	TNF-alpha	TNF-alpha	NN	NN	_	5	compound	_	_
+immunoreactivity	NN	I-NP	O	Other	###	5	immunoreactivity	immunoreactivity	NN	NN	_	0	root	_	_
+in	IN	B-PP	O	Other	###	6	in	in	IN	IN	_	10	case	_	_
+Ox-42	JJ	B-NP	B-cell_type	Other	###	7	Ox-42	Ox-42	JJ	JJ	_	10	amod	_	_
+-	-	O	O	Other	###	8	-	-	-	-	_	10	punct	_	_
+positive	JJ	B-NP	B-cell_type	Other	###	9	positive	positive	JJ	JJ	_	10	amod	_	_
+microglia	NNS	I-NP	I-cell_type	Other	###	10	microglia	microglia	NNS	NNS	_	5	nmod	_	_
+(	(	O	O	Other	###	11	(	(	(	(	_	12	punct	_	_
+arrows	NNS	B-NP	O	Other	###	12	arrows	arrows	NNS	NNS	_	10	appos	_	_
+)	)	O	O	Other	###	13	)	)	)	)	_	12	punct	_	_
+.	.	O	O	Other	###	14	.	.	.	.	_	5	punct	_	_
+
+(	(	O	O	Other	###	1	(	(	(	(	_	2	punct	_	_
+B	NN	B-NP	O	Other	###	2	B	B	NN	NN	_	5	compound	_	_
+)	)	O	O	Other	###	3	)	)	)	)	_	2	punct	_	_
+TNFp55R	NN	B-NP	O	B-Protein	###	4	TNFp55R	TNFp55R	NN	NN	_	5	compound	_	_
+expression	NN	I-NP	O	Other	###	5	expression	expression	NN	NN	_	0	root	_	_
+in	IN	B-PP	O	Other	###	6	in	in	IN	IN	_	7	case	_	_
+astrocytes	NNS	B-NP	B-cell_type	Other	###	7	astrocytes	astrocytes	NNS	NNS	_	5	nmod	_	_
+(	(	O	O	Other	###	8	(	(	(	(	_	9	punct	_	_
+arrows	NNS	B-NP	O	Other	###	9	arrows	arrows	NNS	NNS	_	7	appos	_	_
+)	)	O	O	Other	###	10	)	)	)	)	_	9	punct	_	_
+.	.	O	O	Other	###	11	.	.	.	.	_	5	punct	_	_
+
+(	(	O	O	Other	###	1	(	(	(	(	_	2	punct	_	_
+C-D	NN	B-NP	O	Other	###	2	C-D	C-D	NN	NN	_	5	compound	_	_
+)	)	O	O	Other	###	3	)	)	)	)	_	2	punct	_	_
+TNFp75R	NN	B-NP	O	B-Protein	###	4	TNFp75R	TNFp75R	NN	NN	_	5	compound	_	_
+expression	NN	I-NP	O	Other	###	5	expression	expression	NN	NN	_	0	root	_	_
+in	IN	B-PP	O	Other	###	6	in	in	IN	IN	_	7	case	_	_
+astrocytes	NNS	B-NP	B-cell_type	Other	###	7	astrocytes	astrocytes	NNS	NNS	_	5	nmod	_	_
+as	RB	B-CONJP	O	Other	###	8	as	as	RB	RB	_	7	cc	_	_
+well	RB	I-CONJP	O	Other	###	9	well	well	RB	RB	_	8	mwe	_	_
+as	IN	I-CONJP	O	Other	###	10	as	as	IN	IN	_	8	mwe	_	_
+endothelial	JJ	B-NP	B-cell_type	Other	###	11	endothelial	endothelial	JJ	JJ	_	12	amod	_	_
+cells	NNS	I-NP	I-cell_type	Other	###	12	cells	cells	NNS	NNS	_	7	conj	_	_
+(	(	O	O	Other	###	13	(	(	(	(	_	14	punct	_	_
+arrows	NNS	B-NP	O	Other	###	14	arrows	arrows	NNS	NNS	_	12	appos	_	_
+)	)	O	O	Other	###	15	)	)	)	)	_	14	punct	_	_
+.	.	O	O	Other	###	16	.	.	.	.	_	5	punct	_	_
+
+Bar	NN	B-NP	B-protein	Other	###	1	Bar	Bar	NN	NN	_	7	compound	_	_
+=	SYM	O	O	Other	###	2	=	=	SYM	SYM	_	1	amod	_	_
+25	CD	B-NP	O	Other	###	3	25	25	CD	CD	_	7	nummod	_	_
+(	(	O	O	Other	###	4	(	(	(	(	_	7	punct	_	_
+A-D	NN	B-NP	O	Other	###	5	A-D	A-D	NN	NN	_	7	compound	_	_
+)	)	O	O	Other	###	6	)	)	)	)	_	5	punct	_	_
+mum	NN	B-NP	O	Other	###	7	mum	mum	NN	NN	_	0	root	_	_
+.	.	O	O	Other	###	8	.	.	.	.	_	1	punct	_	_
+

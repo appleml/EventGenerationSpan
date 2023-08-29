@@ -1,0 +1,77 @@
+Tat relieves p65 from the IkappaB-alpha inhibition.
+# T1 Protein S1 0 3 0 3 Tat
+# T2 Protein S1 13 16 13 16 p65
+# T3 Protein S1 26 39 26 39 IkappaB-alpha
+$ T1 Protein S1 0 3 0 3 Tat
+$ T2 Protein S1 13 16 13 16 p65
+$ T3 Protein S1 26 39 26 39 IkappaB-alpha
+@ T32 Negative_regulation S1 4 12 4 12 relieves
+@ T33 Negative_regulation S1 40 50 40 50 inhibition
+% E1 Negative_regulation:T32 Theme:E2 Cause:T1
+% E2 Negative_regulation:T33 Theme:T2 Cause:T3
+
+(A) Schematic representation of wild-type and mutant Tat proteins.
+# T4 Protein S2 53 56 105 108 Tat
+
+(B) HA-IkappaB-alpha (5 microl) was incubated in presence or absence of FLAG-Tat, FLAG-Tat T,N(23,24)A, FLAG-Tat K(50,51)A, FLAG-Tat R(49-57)A or FLAG-Tat C(22,25,27)A (10 microl) using in vitro translated proteins.
+# T5 Protein S3 4 20 123 139 HA-IkappaB-alpha
+# T6 Protein S3 72 80 191 199 FLAG-Tat
+# T7 Protein S3 82 102 201 221 FLAG-Tat T,N(23,24)A
+# T8 Protein S3 104 122 223 241 FLAG-Tat K(50,51)A
+# T9 Protein S3 124 142 243 261 FLAG-Tat R(49-57)A
+# T10 Protein S3 146 167 265 286 FLAG-Tat C(22,25,27)A
+
+Wild-type and mutant Tat proteins were immunoprecipitated with anti-FLAG antibody; immunocomplexes were separated by 12% SDS-PAGE and analysed by western blotting with anti-HA and anti-FLAG antibodies.
+# T11 Protein S4 21 24 356 359 Tat
+
+(C) 35S-methionine-labeled p65 (5 microl) was incubated with in vitro translated HA-IkappaB-alpha (5 microl) in presence or absence of FLAG-Tat or FLAG-Tat R(49-57)A (5, 10 or 20 microl).
+# T12 Protein S5 27 30 564 567 p65
+# T13 Protein S5 81 97 618 634 HA-IkappaB-alpha
+# T14 Protein S5 135 143 672 680 FLAG-Tat
+# T15 Protein S5 147 165 684 702 FLAG-Tat R(49-57)A
+
+HA-IkappaB-alpha was immunoprecipitated with anti-HA antibody; immunocomplexes were separated by 12% SDS-PAGE and analysed by western blotting with anti-HA and anti-FLAG antibodies, or autoradiography (35S-Met-p65).
+# T16 Protein S6 0 16 725 741 HA-IkappaB-alpha
+# T17 Protein S6 210 213 935 938 p65
+
+Densitometry values (D) of the bands were expressed as fold increase above the control (lane 1).
+
+(D) The p65 DNA binding activity was analysed by EMSA using in vitro translated proteins.
+# T18 Protein S8 8 11 1046 1049 p65
+$ T18 Protein S8 8 11 1046 1049 p65
+@ T34 Binding S8 16 23 1054 1061 binding
+% E3 Binding:T34 Theme:T18
+
+32P-labeled-NF-kappaB double-stranded oligonucleotide was incubated with p65 (0.5 microl) in presence or absence of HA-IkappaB-alpha (1 microl), FLAG-Tat or FLAG-Tat R(49-57)A (5 and 10 microl); competition of DNA binding was performed with 10 - up to 100-fold molar excess of unlabeled NF-kappaB double-stranded oligonucleotide.
+# T19 Protein S9 73 76 1201 1204 p65
+# T20 Protein S9 116 132 1244 1260 HA-IkappaB-alpha
+# T21 Protein S9 145 153 1273 1281 FLAG-Tat
+# T22 Protein S9 157 175 1285 1303 FLAG-Tat R(49-57)A
+$ T20 Protein S9 116 132 1244 1260 HA-IkappaB-alpha
+$ T19 Protein S9 73 76 1201 1204 p65
+@ T35 Negative_regulation S9 195 206 1323 1334 competition
+@ T36 Binding S9 214 221 1342 1349 binding
+% E4 Negative_regulation:T35 Theme:E5 Cause:T20
+% E5 Binding:T36 Theme:T19
+
+DNA/protein complexes were run on 6% PAGE-TBE and analysed by autoradiography.
+
+(E) p50-/-p65-/-MEFs (3 x 105 cells) were transfected with pkappaBLuc (0.5 microg) and pSV-beta-Gal (0.1 microg) with or without pRc/CMV-p65 (0.5 microg), pCMV4-HA-IkappaB-alpha (0.5 microg), p3xFLAG-Tat or p3xFLAG-Tat R(49-57)A (0.5, 1 and 2 microg).
+# T23 Protein S11 4 7 1541 1544 p50
+# T24 Protein S11 10 13 1547 1550 p65
+# T25 Protein S11 91 99 1628 1636 beta-Gal
+# T26 Protein S11 137 140 1674 1677 p65
+# T27 Protein S11 161 177 1698 1714 HA-IkappaB-alpha
+# T28 Protein S11 200 203 1737 1740 Tat
+# T29 Protein S11 215 218 1752 1755 Tat
+
+The luciferase activity was measured in cell extracts 48-h post-transfection and normalized to beta-galactosidase activity.
+# T30 Protein S12 4 14 1793 1803 luciferase
+# T31 Protein S12 95 113 1884 1902 beta-galactosidase
+
+Fold activation was calculated relative to transfection of the pkappaBLuc plasmid alone.
+
+Values (mean +/- SE, n = 3) are shown.
+
+As control of protein expression, aliquots of cell extracts (20 microg) were analysed by western blotting with anti-p65, anti-HA, anti-FLAG and anti-gamma-tubulin antibodies.
+

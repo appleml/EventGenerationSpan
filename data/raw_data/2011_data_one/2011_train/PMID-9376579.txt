@@ -1,0 +1,122 @@
+Modulation of mRNA expression of a novel human myeloid-selective CCAAT/enhancer binding protein gene (C/EBP epsilon).
+# T1 Protein S1 65 95 65 95 CCAAT/enhancer binding protein
+# T2 Protein S1 102 115 102 115 C/EBP epsilon
+$ T2 Protein S1 102 115 102 115 C/EBP epsilon
+@ T20 Regulation S1 0 10 0 10 Modulation
+@ T21 Transcription S1 14 29 14 29 mRNA expression
+% E1 Regulation:T20 Theme:E2
+% E2 Transcription:T21 Theme:T2
+
+Human C/EBP epsilon is a newly cloned gene coding for a CCAAT/enhancer binding protein that may be involved in the regulation of myeloid differentiation.
+# T3 Protein S2 6 19 125 138 C/EBP epsilon
+# T4 Protein S2 56 86 175 205 CCAAT/enhancer binding protein
+
+Our studies showed that levels of C/EBP epsilon mRNA were markedly increased in NB4 cells (promyelocytic leukemia line), because they were induced by 9-cis retinoic acid (9-cis RA) to differentiate towards granulocytes.
+# T5 Protein S3 34 47 307 320 C/EBP epsilon
+$ T5 Protein S3 34 47 307 320 C/EBP epsilon
+@ T22 Positive_regulation S3 67 76 340 349 increased
+@ T23 Positive_regulation S3 139 146 412 419 induced
+% E3 Positive_regulation:T22 Theme:T5
+% E4 Positive_regulation:T23 Theme:T5
+
+Accumulation of C/EBP epsilon mRNA occurred as early as 1 hour after exposure of NB4 cells to 9-cis RA (5 x 10(-7) mol/L); and at 48 hours, levels were increased by 5.1-fold.
+# T6 Protein S4 16 29 509 522 C/EBP epsilon
+$ T6 Protein S4 16 29 509 522 C/EBP epsilon
+@ T24 Positive_regulation S4 35 43 528 536 occurred
+@ T25 Positive_regulation S4 152 161 645 654 increased
+% E5 Positive_regulation:T24 Theme:T6
+% E6 Positive_regulation:T25 Theme:T6
+
+Dose-response studies showed that 10(-7) to 10(-6) mol/L 9-cis RA (12 hours) resulted in peak levels of C/EBP epsilon mRNA; but even 10(-10) mol/L 9-cis RA increased levels of these transcripts.
+# T7 Protein S5 104 117 772 785 C/EBP epsilon
+$ T7 Protein S5 104 117 772 785 C/EBP epsilon
+@ T26 Positive_regulation S5 77 100 745 768 resulted in peak levels
+@ T27 Positive_regulation S5 156 172 824 840 increased levels
+% E7 Positive_regulation:T26 Theme:T7
+% E8 Positive_regulation:T27 Theme:T7
+
+NB4 cells pulse-exposed (30 minutes) to all-trans retinoic acid (ATRA), washed, and cultured (3 days) with either dimethylsulfoxide (DMSO) or hexamethylene bisacetamide (HMBA) had a prominent increase in levels of C/EBP epsilon mRNA and an increase in granulocytic differentiation, but exposure to either DMSO or HMBA alone had no effect on base levels of C/EBP epsilon and did not induce differentiation.
+# T8 Protein S6 214 227 1077 1090 C/EBP epsilon
+# T9 Protein S6 356 369 1219 1232 C/EBP epsilon
+$ T8 Protein S6 214 227 1077 1090 C/EBP epsilon
+$ T9 Protein S6 356 369 1219 1232 C/EBP epsilon
+@ T28 Positive_regulation S6 176 200 1039 1063 had a prominent increase
+@ T29 Regulation S6 324 337 1187 1200 had no effect
+% E9 Positive_regulation:T28 Theme:T8
+% E10 Regulation:T29 Theme:T9
+
+Macrophage-differentiation of NB4 reduced levels of C/EBP epsilon mRNA.
+# T10 Protein S7 52 65 1321 1334 C/EBP epsilon
+$ T10 Protein S7 52 65 1321 1334 C/EBP epsilon
+@ T30 Negative_regulation S7 34 41 1303 1310 reduced
+% E11 Negative_regulation:T30 Theme:T10
+
+Nuclear run-off assays and half-life studies showed that accumulation of C/EBP epsilon mRNA by 9-cis RA was due to enhanced transcription.
+# T11 Protein S8 73 86 1414 1427 C/EBP epsilon
+$ T11 Protein S8 73 86 1414 1427 C/EBP epsilon
+@ T31 Positive_regulation S8 57 69 1398 1410 accumulation
+@ T32 Positive_regulation S8 108 114 1449 1455 due to
+@ T33 Positive_regulation S8 115 123 1456 1464 enhanced
+@ T34 Transcription S8 124 137 1465 1478 transcription
+% E12 Positive_regulation:T31 Theme:T11
+% E13 Positive_regulation:T32 Theme:E12 Cause:E14
+% E14 Positive_regulation:T33 Theme:E15
+% E15 Transcription:T34 Theme:T11
+
+Furthermore, this C/EBP epsilon mRNA accumulation did not require synthesis of new protein factors because 9-cis RA induced C/EBP epsilon mRNA accumulation in the absence of new protein synthesis.
+# T12 Protein S9 18 31 1498 1511 C/EBP epsilon
+# T13 Protein S9 124 137 1604 1617 C/EBP epsilon
+$ T12 Protein S9 18 31 1498 1511 C/EBP epsilon
+$ T13 Protein S9 124 137 1604 1617 C/EBP epsilon
+@ T35 Positive_regulation S9 37 49 1517 1529 accumulation
+@ T36 Positive_regulation S9 54 65 1534 1545 not require
+@ T37 Positive_regulation S9 116 123 1596 1603 induced
+@ T38 Positive_regulation S9 143 155 1623 1635 accumulation
+% E16 Positive_regulation:T35 Theme:T12
+% E17 Positive_regulation:T36 Theme:E16
+% E18 Positive_regulation:T37 Theme:E19
+% E19 Positive_regulation:T38 Theme:T13
+
+ATRA also induced expression of C/EBP epsilon protein in NB4 cells, as shown by Western blotting.
+# T14 Protein S10 32 45 1709 1722 C/EBP epsilon
+$ T14 Protein S10 32 45 1709 1722 C/EBP epsilon
+@ T39 Positive_regulation S10 10 17 1687 1694 induced
+@ T40 Gene_expression S10 18 28 1695 1705 expression
+% E20 Positive_regulation:T39 Theme:E21
+% E21 Gene_expression:T40 Theme:T14
+
+In contrast to the increase of C/EBP epsilon in 9-cis RA-mediated granulocytic differentiation, the DMSO-induced differentiation of HL-60 cells down the granulocytic pathway was associated with an initial reduction of C/EBP epsilon mRNA levels.
+# T15 Protein S11 31 44 1806 1819 C/EBP epsilon
+# T16 Protein S11 218 231 1993 2006 C/EBP epsilon
+$ T15 Protein S11 31 44 1806 1819 C/EBP epsilon
+$ T16 Protein S11 218 231 1993 2006 C/EBP epsilon
+@ T41 Positive_regulation S11 19 27 1794 1802 increase
+@ T42 Negative_regulation S11 205 214 1980 1989 reduction
+% E22 Positive_regulation:T41 Theme:T15
+% E23 Negative_regulation:T42 Theme:T16
+
+In summary, we have discovered that expression of C/EBP epsilon mRNA is markedly enhanced as the NB4 promyelocytes are induced by retinoids to differentiate towards granulocytes.
+# T17 Protein S12 50 63 2070 2083 C/EBP epsilon
+$ T17 Protein S12 50 63 2070 2083 C/EBP epsilon
+@ T43 Transcription S12 36 46 2056 2066 expression
+@ T44 Positive_regulation S12 81 89 2101 2109 enhanced
+% E24 Transcription:T43 Theme:T17
+% E25 Positive_regulation:T44 Theme:E24
+
+This induction of C/EBP epsilon mRNA expression is transcriptionally mediated and occurs in the absence of synthesis of additional protein factors.
+# T18 Protein S13 18 31 2217 2230 C/EBP epsilon
+$ T18 Protein S13 18 31 2217 2230 C/EBP epsilon
+@ T45 Positive_regulation S13 5 14 2204 2213 induction
+@ T46 Transcription S13 37 47 2236 2246 expression
+@ T47 Positive_regulation S13 51 77 2250 2276 transcriptionally mediated
+% E26 Positive_regulation:T45 Theme:E27
+% E27 Transcription:T46 Theme:T18
+% E28 Positive_regulation:T47 Theme:E26
+
+We suspect that the C/EBP epsilon promoter/enhancer contains a retinoic acid-response element that is directly stimulated by retinoids.
+# T19 Protein S14 20 33 2367 2380 C/EBP epsilon
+$ T19 Protein S14 20 33 2367 2380 C/EBP epsilon
+@ T48 Entity S14 63 93 2410 2440 retinoic acid-response element
+@ T49 Positive_regulation S14 111 121 2458 2468 stimulated
+% E29 Positive_regulation:T49 Theme:T19 Site:T48
+

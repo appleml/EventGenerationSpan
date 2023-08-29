@@ -1,0 +1,39 @@
+Grf40, A novel Grb2 family member, is involved in T cell signaling through interaction with SLP-76 and LAT.
+# T1 Protein S1 0 5 0 5 Grf40
+# T2 Protein S1 92 98 92 98 SLP-76
+# T3 Protein S1 103 106 103 106 LAT
+
+We molecularly cloned a new Grb2 family member, named Grf40, containing the common SH3-SH2-SH3 motif.
+# T4 Protein S2 54 59 163 168 Grf40
+
+Expression of Grf40 is predominant in hematopoietic cells, particularly T cells.
+# T5 Protein S3 14 19 225 230 Grf40
+
+Grf40 binds to the SH2 domain-containing leukocyte protein of 76 kD (SLP-76) via its SH3 domain more tightly than Grb2.
+# T6 Protein S4 0 5 292 297 Grf40
+# T7 Protein S4 19 67 311 359 SH2 domain-containing leukocyte protein of 76 kD
+# T8 Protein S4 69 75 361 367 SLP-76
+# T9 Protein S4 114 118 406 410 Grb2
+
+Incidentally, Grf40 binds to linker for activation of T cells (LAT) possibly via its SH2 domain.
+# T10 Protein S5 14 19 426 431 Grf40
+# T11 Protein S5 29 61 441 473 linker for activation of T cells
+# T12 Protein S5 63 66 475 478 LAT
+
+Overexpression of wild-type Grf40 in Jurkat cells induced a significant increase of SLP-76-dependent interleukin (IL)-2 promoter and nuclear factor of activated T cell (NF-AT) activation upon T cell receptor (TCR) stimulation, whereas the COOH-terminal SH3-deleted Grf40 mutant lacked any recognizable increase in IL-2 promoter activity.
+# T13 Protein S6 28 33 537 542 Grf40
+# T14 Protein S6 84 90 593 599 SLP-76
+# T15 Protein S6 101 119 610 628 interleukin (IL)-2
+# T16 Protein S6 265 270 774 779 Grf40
+# T17 Protein S6 314 318 823 827 IL-2
+
+Furthermore, the SH2-deleted Grf40 mutant led to a marked inhibition of these regulatory activities, the effect of which is apparently stronger than that of the SH2-deleted Grb2 mutant.
+# T18 Protein S7 29 34 876 881 Grf40
+# T19 Protein S7 173 177 1020 1024 Grb2
+
+Our data suggest that Grf40 is an adaptor molecule involved in TCR-mediated signaling through a more efficient interaction than Grb2 with SLP-76 and LAT.
+# T20 Protein S8 22 27 1055 1060 Grf40
+# T21 Protein S8 128 132 1161 1165 Grb2
+# T22 Protein S8 138 144 1171 1177 SLP-76
+# T23 Protein S8 149 152 1182 1185 LAT
+

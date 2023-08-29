@@ -1,0 +1,38 @@
+At least nine isoforms of p53 have been identified due to alternative mRNA splicing, multiple gene promoters, and alternative initiation sites of translation (Ghosh et al., 2004; Ray et al., 2006; Figure 2).
+# T1 Protein S1 26 29 26 29 p53
+
+In cancers, aberrant expression of p53 isoforms occurs frequently (Bourdon et al., 2005; Bourdon, 2007).
+# T2 Protein S2 35 38 243 246 p53
+
+Full-length p53, delta133p53, and p53beta are localized mainly in the nucleus, and only few of them are in cytoplasm.
+# T3 Protein S3 12 15 325 328 p53
+# T4 Protein S3 17 28 330 341 delta133p53
+# T5 Protein S3 34 41 347 354 p53beta
+
+p53gamma and delta133p53beta are localized in the nucleus and cytoplasm.
+# T6 Protein S4 0 8 431 439 p53gamma
+# T7 Protein S4 13 28 444 459 delta133p53beta
+
+delta133p53gamma is localized in the cytoplasm (Bourdon et al., 2005).
+# T8 Protein S5 0 16 504 520 delta133p53gamma
+
+Co-transfection of p53 and p53beta increases p53-mediated apoptosis, whereas co-expression of p53 with delta133p53 suppresses p53-mediated apoptosis (Bourdon et al., 2005).
+# T9 Protein S6 19 22 594 597 p53
+# T10 Protein S6 27 34 602 609 p53beta
+# T11 Protein S6 45 48 620 623 p53
+# T12 Protein S6 94 97 669 672 p53
+# T13 Protein S6 103 114 678 689 delta133p53
+# T14 Protein S6 126 129 701 704 p53
+
+delta133p53 differentially regulates gene expression in p53-dependent and -independent manners (Aoubala et al., 2011).
+# T15 Protein S7 0 11 748 759 delta133p53
+# T16 Protein S7 56 59 804 807 p53
+
+Co-expression of delta133p53beta or delta133p53gamma with p53 does not affect p53 transcriptional activity on p21 and Bax promoters, as well as apoptosis.
+# T17 Protein S8 17 32 884 899 delta133p53beta
+# T18 Protein S8 36 52 903 919 delta133p53gamma
+# T19 Protein S8 58 61 925 928 p53
+# T20 Protein S8 78 81 945 948 p53
+# T21 Protein S8 110 113 977 980 p21
+# T22 Protein S8 118 121 985 988 Bax
+

@@ -1,0 +1,19 @@
+{"text": "Western Blot Analysis", "event": "<extra_id_0> <extra_id_1>"}
+{"text": "THP-1 cells were stimulated for various lengths of time with 0.1 mg / ml C10 or C40 , or 10 microg / ml LPS .", "event": "<extra_id_0> <extra_id_1>"}
+{"text": "Cells were then pelleted , washed and homogenised in lysis buffer ( 10 mM Hepes , pH 7.9 , 150 mM NaCl , 1 mM EDTA , 0.6 % NP-40 , and 0.5 mM PMSF ) on ice .", "event": "<extra_id_0> <extra_id_1>"}
+{"text": "Homogenates were sonicated , centrifuged at 10 , 000 rpm to remove cellular debris , and supernatant collected .", "event": "<extra_id_0> <extra_id_1>"}
+{"text": "Protein concentration was determined using the DC Protein Assay ( Bio-Rad ) .", "event": "<extra_id_0> <extra_id_1>"}
+{"text": "Proteins in samples ( 15 microg total proteins ) were resolved in a denaturing 12 % polyacrylamide gel and transferred to a nitrocellulose membrane .", "event": "<extra_id_0> <extra_id_1>"}
+{"text": "<extra_id_0> I-kappaBalpha <extra_id_2> Protein <extra_id_1> protein was detected using a rabbit polyclonal antibody ( Santa Cruz Biotechnology , CA ) followed by a horseradish peroxidase - coupled goat polyclonal antibody against rabbit Ig ( Caltag Laboratories ) .", "event": "<extra_id_0> <extra_id_1>"}
+{"text": "Finally , IkappaB bands were revealed using the ECL ( TM ) detection system ( Amersham Pharmacia Biotech , Les Ullis , France ) according to the manufacturers ' instruction .", "event": "<extra_id_0> <extra_id_1>"}
+{"text": "Antibody to alpha-Tubulin ( Santa Cruz ) was use as loading control .", "event": "<extra_id_0> <extra_id_1>"}
+{"text": "For nuclear NF-kappaB , THP-1 cells were stimulated with 1 mg / ml C10 or C40 for 30 minutes at 37degreesC .", "event": "<extra_id_0> <extra_id_1>"}
+{"text": "Cells were then pelleted and nuclei separated as described [ 31 ] .", "event": "<extra_id_0> <extra_id_1>"}
+{"text": "Nuclei were washed and homogenized directly in loading ( Laemli ) buffer and heated for 5 minutes at 100degreesC .", "event": "<extra_id_0> <extra_id_1>"}
+{"text": "Proteins in samples were resolved in a denaturing 8 % polyacrylamide gel and transferred to a polyvinylidine fluoride ( PVDF ) membrane ( Immobilon-P ; Millipore , Bedford , MA ) .", "event": "<extra_id_0> <extra_id_1>"}
+{"text": "Membranes were incubated in blocking buffer ( 1 % BSA , in PBS ) for two hours at room temperature .", "event": "<extra_id_0> <extra_id_1>"}
+{"text": "Membranes were subsequently probed with the corresponding antibody in blocking buffer , overnight .", "event": "<extra_id_0> <extra_id_1>"}
+{"text": "Rabbit polyclonal antibody anti-NF-kappaB p50 subunit ( # sc-114 ) or anti-NF-kappaB p65 subunit ( # sc-109 ) from Santa Cruz Biotechnology were used .", "event": "<extra_id_0> <extra_id_1>"}
+{"text": "Membranes were washed six times in PBS with 0.05 % Tween 20 , 5 minutes each time , and incubated with a 1 / 3000 dilution of HRP-conjugated F ( ab ' ) 2 goat anti-rabbit IgG in 5 % nonfat dry milk and 0.05 % Tween 20 in PBS for 1 hour at room temperature .", "event": "<extra_id_0> <extra_id_1>"}
+{"text": "After washing six more times in PBS with 0.05 % Tween 20 , antibody-reactive proteins were detected using a chemiluminescence substrate ( SuperSignal ; Pierce , Rockford , IL ) according to the manufacturer 's instructions .", "event": "<extra_id_0> <extra_id_1>"}
+{"text": "To confirm that equivalent amounts of protein were loaded in each line , membranes were also Western blotted for ERK as described [ 32 ] .", "event": "<extra_id_0> <extra_id_1>"}

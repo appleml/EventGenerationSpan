@@ -1,0 +1,44 @@
+Expression of c-fos, c-jun and jun B in peripheral blood lymphocytes from young and elderly adults.
+# T1 Protein S1 14 19 14 19 c-fos
+# T2 Protein S1 21 26 21 26 c-jun
+# T3 Protein S1 31 36 31 36 jun B
+
+The expression of c-fos, c-jun and jun B proto-oncogenes was studied in phytohemagglutinin (PHA) activated peripheral blood lymphocytes (PBL) from young and aged humans.
+# T4 Protein S2 18 23 119 124 c-fos
+# T5 Protein S2 25 30 126 131 c-jun
+# T6 Protein S2 35 40 136 141 jun B
+# T7 Protein S2 72 90 173 191 phytohemagglutinin
+# T8 Protein S2 92 95 193 196 PHA
+
+Specific mRNAs for c-fos and c-jun were detectable within 30 min after cell activation and reached maximal levels within 2 h. Both c-fos and jun B mRNAs decreased to pre-activation levels within 6 h, while c-jun mRNA remained elevated.
+# T9 Protein S3 19 24 290 295 c-fos
+# T10 Protein S3 29 34 300 305 c-jun
+# T11 Protein S3 131 136 402 407 c-fos
+# T12 Protein S3 141 146 412 417 jun B
+# T13 Protein S3 206 211 477 482 c-jun
+
+In PHA-activated PBL, no age-related differences were observed in c-fos or jun B mRNA expression.
+# T14 Protein S4 3 6 510 513 PHA
+# T15 Protein S4 66 71 573 578 c-fos
+# T16 Protein S4 75 80 582 587 jun B
+
+However, c-jun mRNA levels decreased significantly (1.73 +/- 0.08 vs. 1.16 +/- 0.09 arbitrary units, P < 0.01, young vs. old) in PBL from elderly individuals activated with PHA.
+# T17 Protein S5 9 14 614 619 c-jun
+# T18 Protein S5 173 176 778 781 PHA
+
+Because previous work has demonstrated that T cells from elderly individuals may display normal proliferative responses when activated via the anti-CD2 pathway, c-jun and jun B mRNA expression was also studied in anti-CD2-activated purified T cells.
+# T19 Protein S6 148 151 931 934 CD2
+# T20 Protein S6 161 166 944 949 c-jun
+# T21 Protein S6 171 176 954 959 jun B
+# T22 Protein S6 218 221 1001 1004 CD2
+
+No age-related differences were found in the expression of either of these two proto-oncogenes by anti-CD2 activated T cells.
+# T23 Protein S7 103 106 1136 1139 CD2
+
+These results suggest that the decreased IL-2 production and proliferative response displayed by PHA-activated PBL from elderly adults may be related to age-related changes in c-jun mRNA expression and in the ratio of c-fos to c-jun mRNA.
+# T24 Protein S8 41 45 1200 1204 IL-2
+# T25 Protein S8 97 100 1256 1259 PHA
+# T26 Protein S8 176 181 1335 1340 c-jun
+# T27 Protein S8 218 223 1377 1382 c-fos
+# T28 Protein S8 227 232 1386 1391 c-jun
+

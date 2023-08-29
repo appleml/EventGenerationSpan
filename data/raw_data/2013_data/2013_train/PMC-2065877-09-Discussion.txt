@@ -1,0 +1,369 @@
+This study defines the oncogenic properties of LMP1 in promoting B cell lymphomagenesis.
+# T1 Protein S1 47 51 47 51 LMP1
+
+LMP1 transgenic mice have a higher incidence of lymphoma [26] and the progression to lymphoma correlates with higher expression levels of LMP1 (Figure 1A and 1B), suggesting that LMP1 is directly involved in tumor development.
+# T2 Protein S2 0 4 89 93 LMP1
+# T3 Protein S2 138 142 227 231 LMP1
+# T4 Protein S2 179 183 268 272 LMP1
+$ T3 Protein S2 138 142 227 231 LMP1
+@ T100 Positive_regulation S2 110 116 199 205 higher
+@ T101 Gene_expression S2 117 127 206 216 expression
+% E1 Positive_regulation:T100 Theme:E2
+% E2 Gene_expression:T101 Theme:T3
+
+Table 1 summarizes the biological and molecular properties that were identified in wild-type and LMP1 transgenic lymphomas.
+# T5 Protein S3 97 101 413 417 LMP1
+
+Although many of the molecular properties studied were similar between wild-type and LMP1 transgenic lymphomas, there were distinguishing biological properties, namely the ability of LMP1 transgenic lymphomas to induce higher levels of survival and proliferation.
+# T6 Protein S4 85 89 525 529 LMP1
+# T7 Protein S4 183 187 623 627 LMP1
+
+Interestingly, although LMP1 transgenic mice develop lymphomas in the same B-1a cell type as spontaneous wild-type lymphomas (Figure 2), some signaling effects induced by LMP1 may explain the enhanced promotion to lymphomagenesis.
+# T8 Protein S5 24 28 728 732 LMP1
+# T9 Protein S5 171 175 875 879 LMP1
+
+Since CD40-deficient mice have decreased numbers of IgMhighIgDlow cells, a phenotype associated with B-1, marginal zone, and memory B cells, the mimicry of CD40 signaling by LMP1 could possibly contribute to the expansion of B-1 cells [20].
+# T10 Protein S6 6 10 941 945 CD40
+# T11 Protein S6 156 160 1091 1095 CD40
+# T12 Protein S6 174 178 1109 1113 LMP1
+$ T10 Protein S6 6 10 941 945 CD40
+@ T102 Negative_regulation S6 11 20 946 955 deficient
+% E3 Negative_regulation:T102 Theme:T10
+
+It is noteworthy that expression of LMP1 in transgenic mice has been shown to inhibit the formation of GCs [23,49], preventing typical B-2 cells from antigen-driven selection and expansion.
+# T13 Protein S7 36 40 1212 1216 LMP1
+$ T13 Protein S7 36 40 1212 1216 LMP1
+@ T103 Gene_expression S7 22 32 1198 1208 expression
+% E4 Gene_expression:T103 Theme:T13
+
+The lack of GC reactions may contribute to the bias of LMP1 transgenic mice towards B-1 cell lymphomas.
+# T14 Protein S8 55 59 1421 1425 LMP1
+
+Interestingly, LMP2 signaling also favors development of B-1 cells, but this occurs in the absence of transformation.
+# T15 Protein S9 15 19 1485 1489 LMP2
+
+These results suggest that the mimicry of B cell receptor signaling by LMP2 promotes B-1 cell differentiation but not transformation [24,50,51].
+# T16 Protein S10 71 75 1659 1663 LMP2
+
+This promotion of B-1 differentiation may account for the ability of LMP2 to exacerbate autoimmunity and bypass anergy induction [52,53].
+# T17 Protein S11 69 73 1802 1806 LMP2
+
+In contrast, the preponderance of tumors of B-1a origin does not reflect effects of LMP1 signaling on B cell differentiation, as splenic B cells from healthy LMP1 transgenic mice contain similar numbers of B-1 and B-2 cells as wild-type mice.
+# T18 Protein S12 84 88 1955 1959 LMP1
+# T19 Protein S12 158 162 2029 2033 LMP1
+
+In support of this lack of effect, the differentiation of B-1 versus B-2 cells is thought to be independent of CD40 signaling [54].
+# T20 Protein S13 111 115 2225 2229 CD40
+
+B-1 cells constitute the predominant lymphocyte population in the peritoneal and pleuropericardial cavities, while B-2 cells are mainly found in the spleen, lymph node, and peripheral blood.
+
+B-1 cells produce the main source of IgM and IgA antibodies in serum, which are involved in T cell-independent responses to common microbial antigens.
+
+Importantly, B-1 cells have the unique capacity to self replenish and are also predisposed to transformation [28,29].
+
+Clonal expansion of B-1 cells can be detected in aging mice above 18 mo of age, and B-1 cells are thought to be the murine progenitor of B cell chronic lymphocytic leukemia [30].
+
+The data presented in this study indicate that although LMP1 is expressed in all B lymphocytes in the transgenic mice, malignancy develops in this specific subset of B cells.
+# T21 Protein S18 56 60 2941 2945 LMP1
+$ T21 Protein S18 56 60 2941 2945 LMP1
+@ T104 Gene_expression S18 64 73 2949 2958 expressed
+% E5 Gene_expression:T104 Theme:T21
+
+The elevated expression of LMP1 in B-1a cells and the activation of specific pathways apparently induce malignant growth.
+# T22 Protein S19 27 31 3087 3091 LMP1
+$ T22 Protein S19 27 31 3087 3091 LMP1
+@ T105 Positive_regulation S19 4 12 3064 3072 elevated
+@ T106 Gene_expression S19 13 23 3073 3083 expression
+% E6 Positive_regulation:T105 Theme:E7
+% E7 Gene_expression:T106 Theme:T22
+
+These same pathways can also become sporadically activated in aged mice and also result in lymphoma development.
+
+This is similar to EBV-associated cancers in vivo, where pathways that are activated by LMP1 are also activated in the less prevalent EBV-negative forms of the cancers [40,55-58].
+# T23 Protein S21 88 92 3383 3387 LMP1
+
+Thus, the contribution of EBV and LMP1 to tumor development is apparently the continuous activation of pathways that can also be sporadically activated and contribute to tumor development.
+# T24 Protein S22 34 38 3509 3513 LMP1
+
+The lymphomas were marked by the upregulation of IL10, constitutive activation of Stat3 signaling, and a requirement for activation of Akt, NFkappaB, and Stat3 pathways (Figures 5 and 7).
+# T25 Protein S23 49 53 3713 3717 IL10
+# T26 Protein S23 82 87 3746 3751 Stat3
+# T27 Protein S23 135 138 3799 3802 Akt
+# T28 Protein S23 154 159 3818 3823 Stat3
+$ T25 Protein S23 49 53 3713 3717 IL10
+@ T107 Positive_regulation S23 33 45 3697 3709 upregulation
+% E8 Positive_regulation:T107 Theme:T25
+
+Induction of IL10 is associated with the transformation of B-1 lymphomas in mice [59,60] and is frequently associated with EBV-positive B cell malignancies acting as a B cell growth factor [35-38].
+# T29 Protein S24 13 17 3865 3869 IL10
+$ T29 Protein S24 13 17 3865 3869 IL10
+@ T108 Positive_regulation S24 0 9 3852 3861 Induction
+% E9 Positive_regulation:T108 Theme:T29
+
+In addition, LMP1 has been shown to stimulate IL10 expression in Burkitt lymphoma cell lines [61,62].
+# T30 Protein S25 13 17 4063 4067 LMP1
+# T31 Protein S25 46 50 4096 4100 IL10
+$ T30 Protein S25 13 17 4063 4067 LMP1
+$ T31 Protein S25 46 50 4096 4100 IL10
+@ T109 Positive_regulation S25 36 45 4086 4095 stimulate
+@ T110 Gene_expression S25 51 61 4101 4111 expression
+% E10 Positive_regulation:T109 Theme:E11 Cause:T30
+% E11 Gene_expression:T110 Theme:T31
+
+This suggests that although Stat3 is constitutively activated in the lymphoma cells, the induction of IL10 may further enhance Stat3 activation or may contribute to other IL10-responsive signaling pathways.
+# T32 Protein S26 28 33 4180 4185 Stat3
+# T33 Protein S26 102 106 4254 4258 IL10
+# T34 Protein S26 127 132 4279 4284 Stat3
+# T35 Protein S26 171 175 4323 4327 IL10
+$ T32 Protein S26 28 33 4180 4185 Stat3
+$ T33 Protein S26 102 106 4254 4258 IL10
+$ T34 Protein S26 127 132 4279 4284 Stat3
+@ T111 Positive_regulation S26 52 61 4204 4213 activated
+@ T112 Positive_regulation S26 89 98 4241 4250 induction
+@ T113 Positive_regulation S26 119 126 4271 4278 enhance
+@ T114 Positive_regulation S26 133 143 4285 4295 activation
+% E12 Positive_regulation:T111 Theme:T32
+% E13 Positive_regulation:T112 Theme:T33
+% E14 Positive_regulation:T113 Theme:E15 Cause:E13
+% E15 Positive_regulation:T114 Theme:T34
+
+LMP1 activates both the canonical and non-canonical pathways of NFkappaB signaling [14,63-65], and inhibition of NFkappaB blocked the survival of LMP1 transgenic lymphocytes and LMP1-positive and -negative lymphoma cells.
+# T36 Protein S27 0 4 4359 4363 LMP1
+# T37 Protein S27 146 150 4505 4509 LMP1
+# T38 Protein S27 178 182 4537 4541 LMP1
+
+NFkappaB and PI3K signaling are crucial for CD40-induced proliferation, and mice deficient for cRel or the p85 regulatory subunit of PI3K are unresponsive to mitogenic stimuli, including CD40 ligation [66-68].
+# T39 Protein S28 44 48 4625 4629 CD40
+# T40 Protein S28 95 99 4676 4680 cRel
+# T41 Protein S28 107 110 4688 4691 p85
+# T42 Protein S28 187 191 4768 4772 CD40
+$ T40 Protein S28 95 99 4676 4680 cRel
+$ T41 Protein S28 107 110 4688 4691 p85
+$ T42 Protein S28 187 191 4768 4772 CD40
+@ T115 Negative_regulation S28 81 90 4662 4671 deficient
+@ T116 Binding S28 192 200 4773 4781 ligation
+% E16 Negative_regulation:T115 Theme:T40
+% E17 Negative_regulation:T115 Theme:T41
+% E18 Binding:T116 Theme:T42
+
+We have previously shown that cRel is specifically activated in both wild-type and LMP1 transgenic lymphomas, suggesting that activation of cRel is associated with B cell transformation [27].
+# T43 Protein S29 30 34 4821 4825 cRel
+# T44 Protein S29 83 87 4874 4878 LMP1
+# T45 Protein S29 140 144 4931 4935 cRel
+$ T43 Protein S29 30 34 4821 4825 cRel
+$ T45 Protein S29 140 144 4931 4935 cRel
+@ T117 Positive_regulation S29 51 60 4842 4851 activated
+@ T118 Positive_regulation S29 126 136 4917 4927 activation
+% E19 Positive_regulation:T117 Theme:T43
+% E20 Positive_regulation:T118 Theme:T45
+
+Our observations suggest that similar to CD40-induced proliferation, LMP1 induces proliferation through PI3K-mediated activation of Akt and activation of NFkappaB components such as cRel.
+# T46 Protein S30 41 45 5024 5028 CD40
+# T47 Protein S30 69 73 5052 5056 LMP1
+# T48 Protein S30 132 135 5115 5118 Akt
+# T49 Protein S30 182 186 5165 5169 cRel
+$ T47 Protein S30 69 73 5052 5056 LMP1
+$ T48 Protein S30 132 135 5115 5118 Akt
+$ T49 Protein S30 182 186 5165 5169 cRel
+@ T119 Positive_regulation S30 74 81 5057 5064 induces
+@ T120 Positive_regulation S30 118 128 5101 5111 activation
+@ T121 Positive_regulation S30 140 150 5123 5133 activation
+@ T97 Anaphora S30 154 173 5137 5156 NFkappaB components
+% E21 Positive_regulation:T119 Theme:E22 Cause:T47
+% E23 Positive_regulation:T119 Theme:E24 Cause:T47
+% E22 Positive_regulation:T120 Theme:T48
+% E24 Positive_regulation:T121 Theme:T49
+
+CD40 also induces downregulation of the cell cycle inhibitor p27 through a PI3K-dependent manner, and the LMP1 lymphoma cells also had decreased levels of p27 with phosphorylation of Rb and increased Cdk2 (Figure 6C) [66].
+# T50 Protein S31 0 4 5171 5175 CD40
+# T51 Protein S31 61 64 5232 5235 p27
+# T52 Protein S31 106 110 5277 5281 LMP1
+# T53 Protein S31 155 158 5326 5329 p27
+# T54 Protein S31 183 185 5354 5356 Rb
+# T55 Protein S31 200 204 5371 5375 Cdk2
+$ T50 Protein S31 0 4 5171 5175 CD40
+$ T51 Protein S31 61 64 5232 5235 p27
+$ T53 Protein S31 155 158 5326 5329 p27
+$ T54 Protein S31 183 185 5354 5356 Rb
+$ T55 Protein S31 200 204 5371 5375 Cdk2
+@ T122 Positive_regulation S31 10 17 5181 5188 induces
+@ T123 Negative_regulation S31 18 32 5189 5203 downregulation
+@ T124 Negative_regulation S31 135 144 5306 5315 decreased
+@ T125 Phosphorylation S31 164 179 5335 5350 phosphorylation
+@ T126 Positive_regulation S31 190 199 5361 5370 increased
+% E25 Positive_regulation:T122 Theme:E26 Cause:T50
+% E26 Negative_regulation:T123 Theme:T51
+% E27 Negative_regulation:T124 Theme:T53
+% E28 Phosphorylation:T125 Theme:T54
+% E29 Positive_regulation:T126 Theme:T55
+
+Although LMP1 has been shown to deregulate the Rb pathway in epithelial cells [69], to our knowledge this is the first demonstration of this property in B lymphocytes.
+# T56 Protein S32 9 13 5403 5407 LMP1
+# T57 Protein S32 47 49 5441 5443 Rb
+
+The requirement for Akt activation was confirmed by the striking inhibition of lymphoma viability by triciribine, an Akt inhibitor.
+# T58 Protein S33 20 23 5582 5585 Akt
+# T59 Protein S33 117 120 5679 5682 Akt
+$ T58 Protein S33 20 23 5582 5585 Akt
+$ T59 Protein S33 117 120 5679 5682 Akt
+@ T127 Positive_regulation S33 4 15 5566 5577 requirement
+@ T128 Positive_regulation S33 24 34 5586 5596 activation
+@ T129 Negative_regulation S33 121 130 5683 5692 inhibitor
+% E30 Positive_regulation:T127 Theme:E31
+% E31 Positive_regulation:T128 Theme:T58
+% E32 Negative_regulation:T129 Theme:T59
+
+However, the activated pAkt did not lead to phosphorylation and inactivation of the downstream target GSK3 (Figure 6A).
+# T60 Protein S34 23 27 5717 5721 pAkt
+# T61 Protein S34 102 106 5796 5800 GSK3
+$ T60 Protein S34 23 27 5717 5721 pAkt
+$ T61 Protein S34 102 106 5796 5800 GSK3
+@ T130 Positive_regulation S34 13 22 5707 5716 activated
+@ T131 Positive_regulation S34 36 40 5730 5734 lead
+@ T132 Phosphorylation S34 44 59 5738 5753 phosphorylation
+@ T133 Negative_regulation S34 64 76 5758 5770 inactivation
+% E33 Positive_regulation:T130 Theme:T60
+% E34 Positive_regulation:T131 Theme:E35 Cause:E33
+% E36 Positive_regulation:T131 Theme:E37 Cause:E33
+% E35 Phosphorylation:T132 Theme:T61
+% E37 Negative_regulation:T133 Theme:T61
+
+This effect has also been described in EBV-positive HD biopsies [40].
+
+In contrast, rapamycin, U0126, and SB202190 did not affect the survival of LMP1 transgenic lymphocytes or the wild-type and LMP1 transgenic lymphoma cells (Figure 7A, 7C, and 7E).
+# T62 Protein S36 75 79 5959 5963 LMP1
+# T63 Protein S36 124 128 6008 6012 LMP1
+
+This lack of effect by rapamycin confirmed the absence of activated p-mTOR levels (Figure 6B).
+# T64 Protein S37 68 74 6132 6138 p-mTOR
+$ T64 Protein S37 68 74 6132 6138 p-mTOR
+@ T134 Negative_regulation S37 47 54 6111 6118 absence
+@ T135 Positive_regulation S37 58 67 6122 6131 activated
+% E38 Negative_regulation:T134 Theme:E39
+% E39 Positive_regulation:T135 Theme:T64
+
+These findings suggest that other Akt targets contribute to malignant progression.
+# T65 Protein S38 34 37 6193 6196 Akt
+
+One key target is likely the inhibition of the Fox01 transcription factors.
+# T66 Protein S39 47 52 6289 6294 Fox01
+$ T66 Protein S39 47 52 6289 6294 Fox01
+@ T136 Regulation S39 8 14 6250 6256 target
+@ T137 Negative_regulation S39 29 39 6271 6281 inhibition
+% E40 Regulation:T136 Theme:E41 Cause:T65
+% E41 Negative_regulation:T137 Theme:T66
+
+Repression of the pro-apoptotic transcription factor FoxO1 in a PI3K-dependent manner can inhibit expression of bcl6, a transcription factor necessary for GC formation [49,70].
+# T67 Protein S40 53 58 6371 6376 FoxO1
+# T68 Protein S40 112 116 6430 6434 bcl6
+$ T67 Protein S40 53 58 6371 6376 FoxO1
+$ T68 Protein S40 112 116 6430 6434 bcl6
+@ T138 Negative_regulation S40 0 10 6318 6328 Repression
+@ T139 Negative_regulation S40 90 97 6408 6415 inhibit
+@ T140 Gene_expression S40 98 108 6416 6426 expression
+% E42 Negative_regulation:T138 Theme:T67
+% E43 Negative_regulation:T139 Theme:E44 Cause:E42
+% E44 Gene_expression:T140 Theme:T68
+
+It has been shown that overstimulation of CD40 signaling with agonistic antibodies inhibits GC formation [71].
+# T69 Protein S41 42 46 6537 6541 CD40
+
+Similarly, due to mimicry of CD40 signaling, transgenic LMP1 mice are also defective in GC formation [23,49].
+# T70 Protein S42 29 33 6635 6639 CD40
+# T71 Protein S42 56 60 6662 6666 LMP1
+
+The constitutive signaling by LMP1 likely blocks GC formation through downregulation of bcl6.
+# T72 Protein S43 30 34 6746 6750 LMP1
+# T73 Protein S43 88 92 6804 6808 bcl6
+$ T73 Protein S43 88 92 6804 6808 bcl6
+@ T141 Negative_regulation S43 70 84 6786 6800 downregulation
+% E45 Negative_regulation:T141 Theme:T73
+
+Interestingly, clinical studies indicate that expression of LMP1 and bcl6 are mutually exclusive in non-HD and classical HD [72,73].
+# T74 Protein S44 60 64 6870 6874 LMP1
+# T75 Protein S44 69 73 6879 6883 bcl6
+$ T74 Protein S44 60 64 6870 6874 LMP1
+$ T75 Protein S44 69 73 6879 6883 bcl6
+@ T142 Gene_expression S44 46 56 6856 6866 expression
+@ T143 Negative_regulation S44 87 96 6897 6906 exclusive
+% E46 Gene_expression:T142 Theme:T74
+% E47 Gene_expression:T142 Theme:T75
+% E48 Negative_regulation:T143 Theme:E46 Cause:E46
+% E49 Negative_regulation:T143 Theme:E46 Cause:E47
+% E50 Negative_regulation:T143 Theme:E47 Cause:E46
+% E51 Negative_regulation:T143 Theme:E47 Cause:E47
+
+Thus, the LMP1 transgenic lymphomas mirror aspects of EBV-induced HD.
+# T76 Protein S45 10 14 6953 6957 LMP1
+
+Although the activation of Akt and the lack of Fox01 in the lymphoma cells suggest that LMP1 affects bcl6 and GC formation through this pathway, regulation of other Forkhead targets involved in cell cycle progression, such as p27 and CyclinD2, likely contribute to malignant transformation.
+# T77 Protein S46 27 30 7040 7043 Akt
+# T78 Protein S46 47 52 7060 7065 Fox01
+# T79 Protein S46 88 92 7101 7105 LMP1
+# T80 Protein S46 101 105 7114 7118 bcl6
+# T81 Protein S46 226 229 7239 7242 p27
+# T82 Protein S46 234 242 7247 7255 CyclinD2
+$ T77 Protein S46 27 30 7040 7043 Akt
+$ T78 Protein S46 47 52 7060 7065 Fox01
+$ T80 Protein S46 101 105 7114 7118 bcl6
+$ T79 Protein S46 88 92 7101 7105 LMP1
+$ T81 Protein S46 226 229 7239 7242 p27
+$ T82 Protein S46 234 242 7247 7255 CyclinD2
+@ T144 Positive_regulation S46 13 23 7026 7036 activation
+@ T145 Negative_regulation S46 39 43 7052 7056 lack
+@ T146 Regulation S46 93 100 7106 7113 affects
+@ T98 Anaphora S46 131 135 7144 7148 this
+@ T147 Regulation S46 136 143 7149 7156 pathway
+@ T148 Regulation S46 145 155 7158 7168 regulation
+@ T99 Anaphora S46 159 181 7172 7194 other Forkhead targets
+% E52 Positive_regulation:T144 Theme:T77
+% E53 Negative_regulation:T145 Theme:T78
+% E54 Regulation:T146 Theme:T80 Cause:E55
+% E55 Regulation:T147 Theme:T78 Cause:T79
+% E56 Regulation:T148 Theme:T81
+% E57 Regulation:T148 Theme:T82
+
+Indeed, loss of FoxO1 expression in lymphoma cells correlated with a loss of p27 (Figure 6B and 6C).
+# T83 Protein S47 16 21 7320 7325 FoxO1
+# T84 Protein S47 77 80 7381 7384 p27
+$ T83 Protein S47 16 21 7320 7325 FoxO1
+$ T84 Protein S47 77 80 7381 7384 p27
+@ T149 Negative_regulation S47 8 12 7312 7316 loss
+@ T150 Gene_expression S47 22 32 7326 7336 expression
+@ T151 Positive_regulation S47 51 61 7355 7365 correlated
+@ T152 Negative_regulation S47 69 73 7373 7377 loss
+% E58 Negative_regulation:T149 Theme:E59
+% E59 Gene_expression:T150 Theme:T83
+% E60 Positive_regulation:T151 Theme:E61 Cause:E58
+% E61 Negative_regulation:T152 Theme:T84
+
+CyclinD2 has also been shown to be upregulated by LMP1 through release of FoxO1-mediated repression [70].
+# T85 Protein S48 0 8 7405 7413 CyclinD2
+# T86 Protein S48 50 54 7455 7459 LMP1
+# T87 Protein S48 74 79 7479 7484 FoxO1
+$ T85 Protein S48 0 8 7405 7413 CyclinD2
+@ T153 Positive_regulation S48 35 46 7440 7451 upregulated
+% E62 Positive_regulation:T153 Theme:T85
+
+In summary, in this transgenic model of lymphomagenesis, LMP1 promotes malignancy in B-1a cells, a population that is predisposed to clonal expansion with age.
+# T88 Protein S49 57 61 7568 7572 LMP1
+
+The malignant lymphocytes were distinguished by constitutively active Stat3 signaling, decreased p27, and activated Akt and NFkappaB pathways, properties that are associated with promoting the growth and survival of B lymphocytes.
+# T89 Protein S50 70 75 7741 7746 Stat3
+# T90 Protein S50 97 100 7768 7771 p27
+# T91 Protein S50 116 119 7787 7790 Akt
+$ T90 Protein S50 97 100 7768 7771 p27
+@ T154 Negative_regulation S50 87 96 7758 7767 decreased
+% E63 Negative_regulation:T154 Theme:T90
+
+Importantly, Akt, NFkappaB, and Stat3 pathways were critically required for the growth and survival of malignant lymphocytes as well as healthy LMP1 transgenic lymphocytes.
+# T92 Protein S51 13 16 7915 7918 Akt
+# T93 Protein S51 32 37 7934 7939 Stat3
+# T94 Protein S51 144 148 8046 8050 LMP1
+
+The growth of EBV-transformed lymphocytes also requires activation of NFkappaB, and these studies provide insight into how LMP1 contributes to EBV-associated transformation.
+# T95 Protein S52 123 127 8198 8202 LMP1
+
+The transgenic lymphomas mirror multiple aspects of EBV-induced tumors and suggest that in vivo these properties of LMP1 are major factors in the development of cancer.
+# T96 Protein S53 116 120 8365 8369 LMP1
+

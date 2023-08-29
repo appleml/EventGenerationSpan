@@ -1,0 +1,22 @@
+MTb-induced HIV-1 replication in PBMC depends on binding of NFAT5 and NF-kappaB to the LTR.
+# T1 Protein S1 60 65 60 65 NFAT5
+
+Specific disruption of the NF-kappaB or NFAT5 binding sites in the HIV-1 subtype B LTR inhibits R5-tropic virus replication in human PBMC after co-infection with MTb.
+
+PBMC from four normal donors were infected with 1000 TCID50 HIV-1Lai/Bal-env-WT or the mutants HIV-1Lai/Bal-env-kappaB I-Mut, HIV-1Lai/Bal-env-kappaB II-Mut, HIV-1Lai/Bal-env-kappaB I+II-Mut, or HIV-1Lai/Bal-env-N5-Mut and either; (A) left untreated, or (B) co-infected with MTb isolate CDC1551 (10:1 cells:bacilli).
+# T2 Protein S3 73 76 332 335 env
+# T3 Protein S3 108 111 367 370 env
+# T4 Protein S3 139 142 398 401 env
+# T5 Protein S3 171 174 430 433 env
+# T6 Protein S3 208 211 467 470 env
+
+Viral p24 levels in culture supernatants were measured at days 4, 7 and 12 post-infection.
+# T7 Protein S4 6 9 582 585 p24
+
+(C) Histograms show viral p24 levels at day 12 in the MTb uninfected (grey bars) and MTb co-infected (black bars) PBMC cultures.
+# T8 Protein S5 26 29 693 696 p24
+
+Replication of the mutant viruses was compared to wild-type virus replication under the same experimental conditions (without and with MTb co-infection, respectively).
+
+*, p<0.05; **, p<0.01, as compared to HIV-1Lai/Bal-Env-WT.
+

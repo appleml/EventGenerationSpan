@@ -1,0 +1,31 @@
+Superantigens activate HIV-1 gene expression in monocytic cells.
+
+Binding of superantigens to MHC class II molecules results in transduction of biochemical signals leading to cellular activation and gene expression.
+
+We demonstrate that the staphylococcal superantigens toxic shock syndrome toxin-1 (TSST-1) and staphylococcal enterotoxin A (SEA) activate HIV-1-LTR-driven transcription of chloramphenicol acetyl transferase in the human monocytic cell line THP-1.
+# T1 Protein S3 53 81 269 297 toxic shock syndrome toxin-1
+# T2 Protein S3 83 89 299 305 TSST-1
+# T3 Protein S3 95 123 311 339 staphylococcal enterotoxin A
+# T4 Protein S3 125 128 341 344 SEA
+# T5 Protein S3 173 207 389 423 chloramphenicol acetyl transferase
+$ T4 Protein S3 125 128 341 344 SEA
+$ T2 Protein S3 83 89 299 305 TSST-1
+$ T5 Protein S3 173 207 389 423 chloramphenicol acetyl transferase
+@ T8 Positive_regulation S3 130 138 346 354 activate
+@ T9 Positive_regulation S3 149 155 365 371 driven
+@ T10 Transcription S3 156 169 372 385 transcription
+% E1 Positive_regulation:T8 Theme:E3 Cause:T4
+% E2 Positive_regulation:T8 Theme:E3 Cause:T2
+% E3 Positive_regulation:T9 Theme:E4
+% E4 Transcription:T10 Theme:T5
+
+Induction of HIV-1-LTR-driven transcription in THP-1 cells by superantigens was associated with the induction of nuclear factor-kappa B DNA-binding activity.
+
+Superantigens also increased viral protein secretion from the granulocyte-macrophage colony-stimulating factor-pretreated chronically infected human monocytic cell line U1.
+# T6 Protein S5 62 110 684 732 granulocyte-macrophage colony-stimulating factor
+
+Induction of HIV-1 gene expression in monocytic cells by superantigens occurred via tumor necrosis factor-alpha-dependent and -independent mechanisms.
+# T7 Protein S6 84 111 879 906 tumor necrosis factor-alpha
+
+Our results suggest that superantigens and other MHC class II ligands may activate HIV-1 gene expression in monocytes/macrophages.
+

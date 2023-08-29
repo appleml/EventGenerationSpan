@@ -1,0 +1,84 @@
+Abundant expression of erythroid transcription factor P45 NF-E2 mRNA in human peripheral granurocytes.
+# T1 Protein S1 23 63 23 63 erythroid transcription factor P45 NF-E2
+$ T1 Protein S1 23 63 23 63 erythroid transcription factor P45 NF-E2
+@ T14 Transcription S1 9 19 9 19 expression
+% E1 Transcription:T14 Theme:T1
+
+Transcription factor NF-E2 is crucial for regulation of erythroid-specific gene expression.
+
+p45 subunit of NF-E2 contains a basic-leucine zipper domain and dimerizes with the small Maf family protein to form functional NF-E2 complex.
+# T2 Protein S3 0 3 196 199 p45
+$ T2 Protein S3 0 3 196 199 p45
+@ T15 Binding S3 64 73 260 269 dimerizes
+% E2 Binding:T15 Theme:T2
+
+While p45 expression was shown to be restricted to erythroid cells, megakaryocytes and mast cells in hematopoietic lineage, we found in this study that p45 mRNA is abundantly transcribed in the granulocyte fraction of human peripheral blood cells.
+# T3 Protein S4 6 9 344 347 p45
+# T4 Protein S4 152 155 490 493 p45
+$ T3 Protein S4 6 9 344 347 p45
+$ T4 Protein S4 152 155 490 493 p45
+@ T16 Gene_expression S4 10 20 348 358 expression
+@ T17 Transcription S4 175 186 513 524 transcribed
+% E3 Gene_expression:T16 Theme:T3
+% E4 Transcription:T17 Theme:T4
+
+As neutrophils occupy approximately 92% of the cells in granulocyte fraction of human peripheral blood cells.
+
+As neutrophils occupy approximately 92% of the cells in this fraction, the cells expressing p45 is most likely to be neutrophils.
+# T5 Protein S6 92 95 788 791 p45
+$ T5 Protein S6 92 95 788 791 p45
+@ T18 Gene_expression S6 81 91 777 787 expressing
+% E5 Gene_expression:T18 Theme:T5
+
+p45 mRNA is also expressed in HL-60 promyelocytes, albeit the expression level is much lower than that of the granulocyte fraction.
+# T6 Protein S7 0 3 826 829 p45
+$ T6 Protein S7 0 3 826 829 p45
+@ T19 Transcription S7 17 26 843 852 expressed
+@ T20 Transcription S7 62 72 888 898 expression
+% E6 Transcription:T19 Theme:T6
+% E7 Transcription:T20 Theme:T6
+
+HL-60 cells were found to express mafK mRNA, indicating the presence of genuine NF-E2 complex in the cells.
+# T7 Protein S8 34 38 992 996 mafK
+$ T7 Protein S8 34 38 992 996 mafK
+@ T21 Transcription S8 26 33 984 991 express
+% E8 Transcription:T21 Theme:T7
+
+Although p45 mRNA is transcribed from two different promoters, aNF-E2 promoter and fNF-E2 promoter, in erythroid and megakaryocytic lineage cells, p45 mRNA is transcribed only from aNF-E2 promoter.
+# T8 Protein S9 9 12 1075 1078 p45
+# T9 Protein S9 147 150 1213 1216 p45
+$ T8 Protein S9 9 12 1075 1078 p45
+$ T9 Protein S9 147 150 1213 1216 p45
+@ T22 Transcription S9 21 32 1087 1098 transcribed
+@ T23 Positive_regulation S9 33 37 1099 1103 from
+@ T24 Transcription S9 159 170 1225 1236 transcribed
+@ T25 Positive_regulation S9 176 180 1242 1246 from
+% E9 Transcription:T22 Theme:T8
+% E10 Positive_regulation:T23 Theme:E9
+% E11 Transcription:T24 Theme:T9
+% E12 Positive_regulation:T25 Theme:E11
+
+The expression of p45 megakaryocytic lineage cells, p45 mRNA is transcribed only from aNF-E2 promoter.
+# T10 Protein S10 18 21 1282 1285 p45
+# T11 Protein S10 52 55 1316 1319 p45
+$ T10 Protein S10 18 21 1282 1285 p45
+$ T11 Protein S10 52 55 1316 1319 p45
+@ T26 Gene_expression S10 4 14 1268 1278 expression
+@ T27 Transcription S10 64 75 1328 1339 transcribed
+@ T28 Positive_regulation S10 81 85 1345 1349 from
+% E13 Gene_expression:T26 Theme:T10
+% E14 Transcription:T27 Theme:T11
+% E15 Positive_regulation:T28 Theme:E14
+
+The expression of p45 mRNA in the neutrophils declined rapidly after transfer of the cells to in vitro culture and G-CSF could not sustain the expression from the down-regulation, suggesting the E2 may also participate in the regulation of neutrophil-specific gene expression.
+# T12 Protein S11 18 21 1385 1388 p45
+# T13 Protein S11 115 120 1482 1487 G-CSF
+$ T12 Protein S11 18 21 1385 1388 p45
+$ T13 Protein S11 115 120 1482 1487 G-CSF
+@ T29 Transcription S11 4 14 1371 1381 expression
+@ T30 Negative_regulation S11 46 54 1413 1421 declined
+@ T31 Negative_regulation S11 131 138 1498 1505 sustain
+% E16 Transcription:T29 Theme:T12
+% E17 Negative_regulation:T30 Theme:E16
+% E18 Negative_regulation:T31 Theme:E17 Cause:T13
+

@@ -1,0 +1,107 @@
+Regulation of jun and fos gene expression in human monocytes by the macrophage colony-stimulating factor.
+# T1 Protein S1 14 17 14 17 jun
+# T2 Protein S1 22 25 22 25 fos
+$ T1 Protein S1 14 17 14 17 jun
+$ T2 Protein S1 22 25 22 25 fos
+@ T17 Regulation S1 0 10 0 10 Regulation
+@ T18 Gene_expression S1 26 41 26 41 gene expression
+% E1 Regulation:T17 Theme:E4
+% E2 Regulation:T17 Theme:E3
+% E3 Gene_expression:T18 Theme:T1
+% E4 Gene_expression:T18 Theme:T2
+
+The macrophage colony-stimulating factor (M-CSF) is required for the growth and differentiation of mononuclear phagocytes.
+
+However, the signaling events responsible for these effects remain unclear.
+
+The present studies have examined the effects of M-CSF on potential signaling pathways involving expression of the jun and fos early response genes.
+# T3 Protein S4 115 118 421 424 jun
+# T4 Protein S4 123 126 429 432 fos
+$ T3 Protein S4 115 118 421 424 jun
+$ T4 Protein S4 123 126 429 432 fos
+@ T19 Regulation S4 38 45 344 351 effects
+@ T20 Regulation S4 87 96 393 402 involving
+@ T21 Gene_expression S4 97 107 403 413 expression
+% E5 Regulation:T19 Theme:E8
+% E6 Regulation:T19 Theme:E7
+% E7 Regulation:T20 Theme:E9
+% E8 Regulation:T20 Theme:E10
+% E9 Gene_expression:T21 Theme:T3
+% E10 Gene_expression:T21 Theme:T4
+
+Low levels of c-jun transcripts were detectable in resting human peripheral blood monocytes.
+# T5 Protein S5 14 19 469 474 c-jun
+$ T5 Protein S5 14 19 469 474 c-jun
+@ T22 Transcription S5 20 31 475 486 transcripts
+@ T23 Positive_regulation S5 37 47 492 502 detectable
+% E11 Transcription:T22 Theme:T5
+% E12 Positive_regulation:T23 Theme:E11
+
+Treatment of these cells with 10(3) units/ml human recombinant M-CSF was associated with rapid and transient increases in c-jun mRNA levels.
+# T6 Protein S6 122 127 670 675 c-jun
+$ T6 Protein S6 122 127 670 675 c-jun
+@ T24 Positive_regulation S6 109 118 657 666 increases
+@ T25 Transcription S6 133 139 681 687 levels
+% E13 Positive_regulation:T24 Theme:E14
+% E14 Transcription:T25 Theme:T6
+
+Nuclear run-on assays and mRNA stability studies demonstrated that M-CSF regulates c-jun expression by both an increase in transcription rate and a prolongation in the half-life of c-jun transcripts.
+# T7 Protein S7 83 88 772 777 c-jun
+# T8 Protein S7 181 186 870 875 c-jun
+$ T7 Protein S7 83 88 772 777 c-jun
+$ T8 Protein S7 181 186 870 875 c-jun
+@ T26 Regulation S7 73 82 762 771 regulates
+@ T27 Gene_expression S7 89 99 778 788 expression
+@ T28 Positive_regulation S7 111 119 800 808 increase
+@ T29 Transcription S7 123 136 812 825 transcription
+@ T30 Positive_regulation S7 148 177 837 866 prolongation in the half-life
+% E15 Regulation:T26 Theme:E16
+% E16 Gene_expression:T27 Theme:T7
+% E17 Positive_regulation:T28 Theme:E18
+% E18 Transcription:T29 Theme:T8
+% E19 Positive_regulation:T30 Theme:T8
+
+M-CSF treatment was also associated with a rapid induction of the jun-B gene, although expression of this gene was prolonged compared to that of c-jun.
+# T9 Protein S8 66 71 955 960 jun-B
+# T10 Protein S8 145 150 1034 1039 c-jun
+$ T9 Protein S8 66 71 955 960 jun-B
+$ T10 Protein S8 145 150 1034 1039 c-jun
+@ T31 Positive_regulation S8 49 58 938 947 induction
+@ T32 Gene_expression S8 87 97 976 986 expression
+@ T33 Positive_regulation S8 115 124 1004 1013 prolonged
+% E20 Positive_regulation:T31 Theme:T9
+% E21 Gene_expression:T32 Theme:T9
+% E22 Gene_expression:T32 Theme:T10
+% E23 Positive_regulation:T33 Theme:E21
+
+We further demonstrate that M-CSF increases c-fos mRNA levels in human monocytes through control at both the transcriptional and posttranscriptional levels.
+# T11 Protein S9 44 49 1085 1090 c-fos
+$ T11 Protein S9 44 49 1085 1090 c-fos
+@ T34 Positive_regulation S9 34 43 1075 1084 increases
+% E24 Positive_regulation:T34 Theme:T11
+
+Maximal induction of the c-fos gene was followed by that for the fos-B gene.
+# T12 Protein S10 25 30 1223 1228 c-fos
+# T13 Protein S10 65 70 1263 1268 fos-B
+$ T13 Protein S10 65 70 1263 1268 fos-B
+$ T12 Protein S10 25 30 1223 1228 c-fos
+@ T35 Positive_regulation S10 8 17 1206 1215 induction
+% E25 Positive_regulation:T35 Theme:T13
+% E26 Positive_regulation:T35 Theme:T12
+
+Moreover, M-CSF-induced expression of the fos-related gene, fra-1, was delayed compared to that for both c-fos and fos-B.
+# T14 Protein S11 60 65 1335 1340 fra-1
+# T15 Protein S11 105 110 1380 1385 c-fos
+# T16 Protein S11 115 120 1390 1395 fos-B
+$ T16 Protein S11 115 120 1390 1395 fos-B
+$ T15 Protein S11 105 110 1380 1385 c-fos
+$ T14 Protein S11 60 65 1335 1340 fra-1
+@ T36 Positive_regulation S11 16 23 1291 1298 induced
+@ T37 Gene_expression S11 24 34 1299 1309 expression
+% E27 Positive_regulation:T36 Theme:E30
+% E28 Gene_expression:T37 Theme:T16
+% E29 Gene_expression:T37 Theme:T15
+% E30 Gene_expression:T37 Theme:T14
+
+Taken together, the results indicate that M-CSF treatment is associated with differential activation of multiple members of the jun/fos family and that expression of these genes could contribute to nuclear signaling mechanisms that regulate a specific program of monocyte differentiation.
+

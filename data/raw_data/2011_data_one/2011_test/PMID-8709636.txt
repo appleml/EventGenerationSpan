@@ -1,0 +1,77 @@
+Effects of IL-10 and IL-4 on LPS-induced transcription factors (AP-1, NF-IL6 and NF-kappa B) which are involved in IL-6 regulation.
+# T1 Protein S1 11 16 11 16 IL-10
+# T2 Protein S1 21 25 21 25 IL-4
+# T3 Protein S1 70 76 70 76 NF-IL6
+# T4 Protein S1 115 119 115 119 IL-6
+
+Interleukin-10 (IL-10), like IL-4, is known to inhibit cytokine expression in activated human monocytes.
+# T5 Protein S2 0 14 133 147 Interleukin-10
+# T6 Protein S2 16 21 149 154 IL-10
+# T7 Protein S2 29 33 162 166 IL-4
+
+We showed that both IL-10 and IL-4 inhibit LPS-induced IL-6 mRNA and protein expression by inhibiting the transcription rate of the IL-6 gene.
+# T8 Protein S3 20 25 258 263 IL-10
+# T9 Protein S3 30 34 268 272 IL-4
+# T10 Protein S3 55 59 293 297 IL-6
+# T11 Protein S3 132 136 370 374 IL-6
+
+The strong inhibition of the IL-6 transcription rate prompted us to study the effect of IL-10 and IL-4 on the expression of transcription factors.
+# T12 Protein S4 29 33 410 414 IL-6
+# T13 Protein S4 88 93 469 474 IL-10
+# T14 Protein S4 98 102 479 483 IL-4
+
+We questioned whether or not IL-10 and IL-4 affected the expression of transcription factors that are known to be involved in the control of the IL-6 transcription rate, namely activator protein-1 (AP-1), nuclear factor IL-6 (NF-IL6), and nuclear factor kappa B (NF-kappaB).
+# T15 Protein S5 29 34 557 562 IL-10
+# T16 Protein S5 39 43 567 571 IL-4
+# T17 Protein S5 145 149 673 677 IL-6
+# T18 Protein S5 205 224 733 752 nuclear factor IL-6
+# T19 Protein S5 226 232 754 760 NF-IL6
+
+In electrophoretic mobility shift assays (EMSAs) we showed that IL-10 and IL-4 inhibited LPS-induced AP-1 binding activity.
+# T20 Protein S6 64 69 867 872 IL-10
+# T21 Protein S6 74 78 877 881 IL-4
+
+The inhibiting effect of IL-4 was slightly more pronounced than that of IL-10.
+# T22 Protein S7 25 29 952 956 IL-4
+# T23 Protein S7 72 77 999 1004 IL-10
+
+Downregulation of LPS-induced AP-1 was accompanied, and thus possibly explained, by a reduced expression at mRNA level of the two major components of the AP-1 complex, namely c-fos and c-jun as determined by Northern experiments.
+# T24 Protein S8 175 180 1181 1186 c-fos
+# T25 Protein S8 185 190 1191 1196 c-jun
+
+Binding activity of NF-IL6 was also strongly inhibited by IL-4 whereas IL-10 showed no effect.
+# T26 Protein S9 20 26 1256 1262 NF-IL6
+# T27 Protein S9 58 62 1294 1298 IL-4
+# T28 Protein S9 71 76 1307 1312 IL-10
+
+NF-IL6 mRNA levels were not affected by IL-10 or IL-4, suggesting that IL-4 affects binding activity of preexisting NF-IL6.
+# T29 Protein S10 0 6 1331 1337 NF-IL6
+# T30 Protein S10 40 45 1371 1376 IL-10
+# T31 Protein S10 49 53 1380 1384 IL-4
+# T32 Protein S10 71 75 1402 1406 IL-4
+# T33 Protein S10 116 122 1447 1453 NF-IL6
+
+Neither IL-10 nor IL-4 inhibited LPS-induced NF-kappa B binding activity.
+# T34 Protein S11 8 13 1463 1468 IL-10
+# T35 Protein S11 18 22 1473 1477 IL-4
+
+In agreement with this finding, Northern experiments where p65 and p105 mRNA levels were determined, demonstrated that expression of these components of the NF-kappa B transcription factor were not affected by IL-10 or IL-4.
+# T36 Protein S12 59 62 1588 1591 p65
+# T37 Protein S12 67 71 1596 1600 p105
+# T38 Protein S12 210 215 1739 1744 IL-10
+# T39 Protein S12 219 223 1748 1752 IL-4
+
+Furthermore, neither IL-10 nor IL-4 showed any effect on I-kappa B mRNA expression as determined by Northern experiments.
+# T40 Protein S13 21 26 1775 1780 IL-10
+# T41 Protein S13 31 35 1785 1789 IL-4
+
+Thus, IL-10 and IL-4 similarly affect IL-6 expression.
+# T42 Protein S14 6 11 1882 1887 IL-10
+# T43 Protein S14 16 20 1892 1896 IL-4
+# T44 Protein S14 38 42 1914 1918 IL-6
+
+However, for IL-4 this was accompanied with a reduction of AP-1 and NF-IL6 binding activity whereas IL-10 only inhibited AP-1 binding activity.
+# T45 Protein S15 13 17 1944 1948 IL-4
+# T46 Protein S15 68 74 1999 2005 NF-IL6
+# T47 Protein S15 100 105 2031 2036 IL-10
+

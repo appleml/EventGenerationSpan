@@ -1,0 +1,46 @@
+2.9	CD	B-NP	O	Other	###	1	2.9	2.9	CD	CD	_	0	root	_	_
+.	.	O	O	Other	###	2	.	.	.	.	_	1	punct	_	_
+
+Statistical	JJ	B-NP	O	Other	###	1	Statistical	Statistical	JJ	JJ	_	2	amod	_	_
+Analysis	NN	I-NP	O	Other	###	2	Analysis	Analysis	NN	NN	_	0	root	_	_
+
+Data	NNS	B-NP	O	Other	###	1	Data	Data	NNS	NNS	_	3	nsubjpass	_	_
+were	VBD	B-VP	O	Other	###	2	were	were	VBD	VBD	_	3	auxpass	_	_
+expressed	VBN	I-VP	O	Other	###	3	expressed	expressed	VBN	VBN	_	0	root	_	_
+as	IN	B-PP	O	Other	###	4	as	as	IN	IN	_	5	case	_	_
+mean	NN	B-NP	O	Other	###	5	mean	mean	NN	NN	_	3	nmod	_	_
++/-	SYM	I-NP	O	Other	###	6	+/-	+/-	SYM	SYM	_	5	cc	_	_
+SD	NN	I-NP	O	Other	###	7	SD	SD	NN	NN	_	5	conj	_	_
+and	CC	O	O	Other	###	8	and	and	CC	CC	_	3	cc	_	_
+evaluated	VBN	B-VP	O	Other	###	9	evaluated	evaluated	VBN	VBN	_	3	conj	_	_
+by	IN	B-PP	O	Other	###	10	by	by	IN	IN	_	11	case	_	_
+ANOVA	NN	B-NP	B-protein	Other	###	11	ANOVA	ANOVA	NN	NN	_	9	nmod	_	_
+and	CC	I-NP	O	Other	###	12	and	and	CC	CC	_	11	cc	_	_
+LSD	NN	I-NP	O	Other	###	13	LSD	LSD	NN	NN	_	16	compound	_	_
+multiple	JJ	I-NP	O	Other	###	14	multiple	multiple	JJ	JJ	_	16	amod	_	_
+comparison	NN	I-NP	O	Other	###	15	comparison	comparison	NN	NN	_	16	compound	_	_
+test	NN	I-NP	O	Other	###	16	test	test	NN	NN	_	11	conj	_	_
+.	.	O	O	Other	###	17	.	.	.	.	_	3	punct	_	_
+
+P	NN	B-NP	O	Other	###	1	P	P	NN	NN	_	2	compound	_	_
+values	NNS	I-NP	O	Other	###	2	values	values	NNS	NNS	_	6	nsubjpass	_	_
+<	SYM	B-NP	O	Other	###	3	<	<	SYM	SYM	_	2	dep	_	_
+0.05	CD	B-NP	O	Other	###	4	0.05	0.05	CD	CD	_	3	nummod	_	_
+were	VBD	B-VP	O	Other	###	5	were	were	VBD	VBD	_	6	auxpass	_	_
+considered	VBN	I-VP	O	Other	###	6	considered	considered	VBN	VBN	_	0	root	_	_
+to	TO	I-VP	O	Other	###	7	to	to	TO	TO	_	9	mark	_	_
+be	VB	I-VP	O	Other	###	8	be	be	VB	VB	_	9	cop	_	_
+significant	JJ	B-ADJP	O	Other	###	9	significant	significant	JJ	JJ	_	6	xcomp	_	_
+.	.	O	O	Other	###	10	.	.	.	.	_	6	punct	_	_
+
+All	DT	B-NP	O	Other	###	1	All	All	DT	DT	_	2	det	_	_
+analyses	NNS	I-NP	O	Other	###	2	analyses	analyses	NNS	NNS	_	4	nsubjpass	_	_
+were	VBD	B-VP	O	Other	###	3	were	were	VBD	VBD	_	4	auxpass	_	_
+performed	VBN	I-VP	O	Other	###	4	performed	performed	VBN	VBN	_	0	root	_	_
+by	IN	B-PP	O	Other	###	5	by	by	IN	IN	_	6	mark	_	_
+using	VBG	B-VP	O	Other	###	6	using	using	VBG	VBG	_	4	advcl	_	_
+SPSS	NN	B-NP	O	Other	###	7	SPSS	SPSS	NN	NN	_	9	compound	_	_
+18.0	CD	I-NP	O	Other	###	8	18.0	18.0	CD	CD	_	9	nummod	_	_
+software	NN	I-NP	O	Other	###	9	software	software	NN	NN	_	6	dobj	_	_
+.	.	O	O	Other	###	10	.	.	.	.	_	4	punct	_	_
+

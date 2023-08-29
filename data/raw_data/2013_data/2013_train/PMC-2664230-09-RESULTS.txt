@@ -1,0 +1,26 @@
+The effects of PTX on LPS-induced TNF-alpha production
+# T1 Protein S1 34 43 34 43 TNF-alpha
+$ T1 Protein S1 34 43 34 43 TNF-alpha
+@ T4 Regulation S1 4 11 4 11 effects
+@ T5 Positive_regulation S1 26 33 26 33 induced
+@ T6 Gene_expression S1 44 54 44 54 production
+% E1 Regulation:T4 Theme:E2
+% E2 Positive_regulation:T5 Theme:E3
+% E3 Gene_expression:T6 Theme:T1
+
+To determine the duration of PDE inhibition on TNF-alpha production after LPS stimulation, time course studies were conducted.
+# T2 Protein S2 47 56 102 111 TNF-alpha
+$ T2 Protein S2 47 56 102 111 TNF-alpha
+@ T7 Gene_expression S2 57 67 112 122 production
+@ T8 Positive_regulation S2 78 89 133 144 stimulation
+% E4 Gene_expression:T7 Theme:T2
+% E5 Positive_regulation:T8 Theme:E4
+
+In accordance with prior work, PTX had a rapid and sustained effect on TNF-alpha production in vitro (Figure 1).
+# T3 Protein S3 71 80 253 262 TNF-alpha
+$ T3 Protein S3 71 80 253 262 TNF-alpha
+@ T9 Regulation S3 61 67 243 249 effect
+@ T10 Gene_expression S3 81 91 263 273 production
+% E6 Regulation:T9 Theme:E7
+% E7 Gene_expression:T10 Theme:T3
+

@@ -1,0 +1,21 @@
+Administration of cytokines and antibodies in vivo.
+
+Age- and gender-matched normal B6 mice received every other day intraperitoneal (ip) injections of PBS, 1.5 mug rmIL-4, 50 mug anti-IL-4 mAb (11B11 or MAB404), or a mixture of 1.5 mug rmIL-4 plus 50 mug anti-IL-4 mAb (11B11 or MAB404) for 7 d. Thereafter, spleen and lymph node cells were analyzed by flow cytometry for CD3, CD4, and CD25 expression.
+# T1 Protein S2 132 136 184 188 IL-4
+# T2 Protein S2 186 190 238 242 IL-4
+# T3 Protein S2 208 212 260 264 IL-4
+# T4 Protein S2 320 323 372 375 CD3
+# T5 Protein S2 325 328 377 380 CD4
+# T6 Protein S2 334 338 386 390 CD25
+$ T4 Protein S2 320 323 372 375 CD3
+$ T5 Protein S2 325 328 377 380 CD4
+$ T6 Protein S2 334 338 386 390 CD25
+@ T9 Gene_expression S2 339 349 391 401 expression
+% E1 Gene_expression:T9 Theme:T4
+% E2 Gene_expression:T9 Theme:T5
+% E3 Gene_expression:T9 Theme:T6
+
+The anti-mouse IL-4 mAb MAB404 was obtained from R&D Systems, the second anti-mouse IL-4 mAb 11B11 was purchased from eBioscience.
+# T7 Protein S3 15 19 418 422 IL-4
+# T8 Protein S3 84 88 487 491 IL-4
+

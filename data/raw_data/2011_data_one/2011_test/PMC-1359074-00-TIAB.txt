@@ -1,0 +1,62 @@
+Sox6 Directly Silences Epsilon Globin Expression in Definitive Erythropoiesis
+# T1 Protein S1 0 4 0 4 Sox6
+# T2 Protein S1 23 37 23 37 Epsilon Globin
+
+Sox6 is a member of the Sox transcription factor family that is defined by the conserved high mobility group (HMG) DNA binding domain, first described in the testis determining gene, Sry.
+# T3 Protein S2 0 4 79 83 Sox6
+# T4 Protein S2 183 186 262 265 Sry
+
+Previous studies have suggested that Sox6 plays a role in the development of the central nervous system, cartilage, and muscle.
+# T5 Protein S3 37 41 304 308 Sox6
+
+In the Sox6-deficient mouse, p100H, epsilony globin is persistently expressed, and increased numbers of nucleated red cells are present in the fetal circulation.
+# T6 Protein S4 7 11 402 406 Sox6
+# T7 Protein S4 36 51 431 446 epsilony globin
+
+Transfection assays in GM979 (erythroleukemic) cells define a 36-base pair region of the epsilony proximal promoter that is critical for Sox6 mediated repression.
+# T8 Protein S5 89 97 646 654 epsilony
+# T9 Protein S5 137 141 694 698 Sox6
+
+Electrophoretic mobility shift assay (EMSA) and chromatin immunoprecipitation (ChIP) assays demonstrate that Sox6 acts as a repressor by directly binding to the epsilony promoter.
+# T10 Protein S6 109 113 829 833 Sox6
+# T11 Protein S6 161 169 881 889 epsilony
+
+The normal expression of Sox6 in wild-type fetal liver and the ectopic expression of epsilony in p100H homozygous fetal liver demonstrate that Sox6 functions in definitive erythropoiesis.
+# T12 Protein S7 25 29 925 929 Sox6
+# T13 Protein S7 85 93 985 993 epsilony
+# T14 Protein S7 143 147 1043 1047 Sox6
+
+The present study shows that Sox6 is required for silencing of epsilony globin in definitive erythropoiesis and suggests a role for Sox6 in erythroid cell maturation.
+# T15 Protein S8 29 33 1117 1121 Sox6
+# T16 Protein S8 63 78 1151 1166 epsilony globin
+# T17 Protein S8 132 136 1220 1224 Sox6
+
+Thus, Sox6 regulation of epsilony globin might provide a novel therapeutical target in the treatment of hemoglobinopathies such as sickle cell anemia and thalassemia.
+# T18 Protein S9 6 10 1261 1265 Sox6
+# T19 Protein S9 25 40 1280 1295 epsilony globin
+
+Synopsis
+
+Beta-globin gene switching-the transition from embryonic to fetal to adult synthesis of specific globin chains-results in hemoglobins with different affinity for oxygen.
+# T20 Protein S11 0 11 1432 1443 Beta-globin
+# T21 Protein S11 122 133 1554 1565 hemoglobins
+
+This system is a longstanding paradigm for developmental biology and is directly relevant to human disease, since small amounts of normal embryonic or fetal beta-globins can "balance" the detrimental effect of abnormal or missing adult globins in diseases such as sickle cell anemia and beta-thalassemia.
+# T22 Protein S12 157 169 1759 1771 beta-globins
+
+In the current study, the transcription factor Sox6 was identified as a novel and crucial silencing factor of epsilon (embryonic) globin through a somewhat serendipitous pathway.
+# T23 Protein S13 47 51 1955 1959 Sox6
+# T24 Protein S13 110 136 2018 2044 epsilon (embryonic) globin
+
+The authors had previously identified a chromosomal inversion, p100H, by virtue of its effect on the pink-eyed dilution gene and found that the same inversion also disrupts the Sox6 gene.
+# T25 Protein S14 101 119 2188 2206 pink-eyed dilution
+# T26 Protein S14 177 181 2264 2268 Sox6
+
+Using p100H mutant mice as a tool for identifying downstream targets of Sox6, the authors discovered that epsilon-globin levels were dramatically elevated, paving the way for a series of molecular genetic experiments demonstrating that Sox6 directly binds to and normally inhibits transcription from the epsilon-globin gene promoter.
+# T27 Protein S15 72 76 2347 2351 Sox6
+# T28 Protein S15 106 120 2381 2395 epsilon-globin
+# T29 Protein S15 236 240 2511 2515 Sox6
+# T30 Protein S15 304 318 2579 2593 epsilon-globin
+
+This work provides fundamental new insights into regulation of globin gene transcription during development, and provides new clues for manipulating globin gene transcription as an approach to treat human blood diseases.
+

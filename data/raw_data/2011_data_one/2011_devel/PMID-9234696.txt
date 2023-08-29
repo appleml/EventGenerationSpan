@@ -1,0 +1,102 @@
+GABP factors bind to a distal interleukin 2 (IL-2) enhancer and contribute to c-Raf-mediated increase in IL-2 induction.
+# T1 Protein S1 30 43 30 43 interleukin 2
+# T2 Protein S1 45 49 45 49 IL-2
+# T3 Protein S1 78 83 78 83 c-Raf
+# T4 Protein S1 105 109 105 109 IL-2
+$ T1 Protein S1 30 43 30 43 interleukin 2
+$ T3 Protein S1 78 83 78 83 c-Raf
+$ T4 Protein S1 105 109 105 109 IL-2
+@ T20 Binding S1 13 17 13 17 bind
+@ T21 Entity S1 51 59 51 59 enhancer
+@ T22 Regulation S1 64 74 64 74 contribute
+@ T23 Positive_regulation S1 93 101 93 101 increase
+@ T24 Positive_regulation S1 110 119 110 119 induction
+% E1 Binding:T20 Theme:T1 Site:T21
+% E2 Regulation:T22 Theme:E3
+% E3 Positive_regulation:T23 Theme:E4 Cause:T3
+% E4 Positive_regulation:T24 Theme:T4
+
+Triggering of the T-cell receptor-CD3 complex activates two major signal cascades in T lymphocytes, (i) Ca2+-dependent signal cascades and (ii) protein kinase cascades.
+
+Both signal cascades contribute to the induction of the interleukin 2 (IL-2) gene during T-cell activation.
+# T5 Protein S3 56 69 347 360 interleukin 2
+# T6 Protein S3 71 75 361 366 IL-2
+$ T6 Protein S3 71 75 361 366 IL-2
+@ T25 Regulation S3 21 31 312 322 contribute
+@ T26 Positive_regulation S3 39 48 330 339 induction
+% E5 Regulation:T25 Theme:E6
+% E6 Positive_regulation:T26 Theme:T6
+
+Prominent protein kinase cascades are those that activate mitogen-activated protein (MAP) kinases.
+
+We show here that c-Raf, which is at the helm of the classic MAP-Erk cascade, contributes to IL-2 induction through a distal enhancer element spanning the nucleotides from positions -502 to -413 in front of the transcriptional start site of the IL-2 gene.
+# T7 Protein S5 18 23 516 521 c-Raf
+# T8 Protein S5 93 97 591 595 IL-2
+# T9 Protein S5 245 249 743 747 IL-2
+$ T8 Protein S5 93 97 591 595 IL-2
+@ T27 Positive_regulation S5 98 107 596 605 induction
+% E7 Positive_regulation:T27 Theme:T8
+
+Induction of this distal IL-2 enhancer differs from induction of the proximal IL-2 promoter-enhancer, since it is induced by phorbol esters alone and independent from Ca2+ signals.
+# T10 Protein S6 25 29 779 783 IL-2
+# T11 Protein S6 78 82 832 836 IL-2
+$ T11 Protein S6 78 82 832 836 IL-2
+@ T28 Positive_regulation S6 52 61 806 815 induction
+@ T29 Entity S6 83 100 837 854 promoter-enhancer
+@ T30 Positive_regulation S6 114 121 868 875 induced
+@ T31 Positive_regulation S6 150 161 904 915 independent
+% E8 Positive_regulation:T28 Theme:T11 Site:T29
+% E9 Positive_regulation:T30 Theme:T11 Site:T29
+% E10 Positive_regulation:T31 Theme:T11 Site:T29
+
+In DNA-protein binding studies, we detected the binding of transcription factors GABP alpha and -beta to a dyad symmetry element (DSE) of the distal enhancer, which is formed by palindromic binding sites of Ets-like factors.
+# T12 Protein S7 81 91 1016 1026 GABP alpha
+# T13 Protein S7 96 101 1031 1036 -beta
+$ T13 Protein S7 96 101 1031 1036 -beta
+$ T12 Protein S7 81 91 1016 1026 GABP alpha
+@ T32 Binding S7 48 55 983 990 binding
+% E11 Binding:T32 Theme:T13
+% E12 Binding:T32 Theme:T12
+
+Introduction of point mutations suppressing GABP binding to the DSE interfered with the induction of the distal enhancer and the entire IL-2 promoter-enhancer, while overexpression of both GABP factors enhanced the IL-2 promoter-enhancer induction.
+# T14 Protein S8 136 140 1296 1300 IL-2
+# T15 Protein S8 215 219 1375 1379 IL-2
+$ T14 Protein S8 136 140 1296 1300 IL-2
+$ T15 Protein S8 215 219 1375 1379 IL-2
+@ T33 Negative_regulation S8 68 78 1228 1238 interfered
+@ T34 Positive_regulation S8 88 97 1248 1257 induction
+@ T35 Entity S8 141 158 1301 1318 promoter-enhancer
+@ T36 Positive_regulation S8 166 180 1326 1340 overexpression
+@ T37 Gene_expression S8 166 180 1326 1340 overexpression
+@ T38 Positive_regulation S8 202 210 1362 1370 enhanced
+@ T39 Entity S8 220 237 1380 1397 promoter-enhancer
+@ T40 Positive_regulation S8 238 247 1398 1407 induction
+% E13 Negative_regulation:T33 Theme:E14
+% E14 Positive_regulation:T34 Theme:T14 Site:T35
+% E15 Positive_regulation:T36 Theme:E16
+% E18 Positive_regulation:T36 Theme:E17
+% E16 Gene_expression:T37 Theme:T13
+% E17 Gene_expression:T37 Theme:T12
+% E19 Positive_regulation:T38 Theme:E20 Cause:E18
+% E20 Positive_regulation:T40 Theme:T15 Site:T39
+
+Overexpression of BXB, a constitutive active version of c-Raf, and of further members of the Ras-Raf-Erk signal cascade exerted an increase of GABP-mediated promoter-enhancer induction.
+# T16 Protein S9 18 21 1427 1430 BXB
+# T17 Protein S9 56 61 1465 1470 c-Raf
+$ T16 Protein S9 18 21 1427 1430 BXB
+@ T41 Gene_expression S9 0 14 1409 1423 Overexpression
+@ T42 Positive_regulation S9 0 14 1409 1423 Overexpression
+% E21 Gene_expression:T41 Theme:T16
+% E22 Positive_regulation:T42 Theme:E21
+
+In conjunction with previously published data on c-Raf-induced phosphorylation of GABP factors (E.Flory, A. Hoffmeyer, U.Smola, U.R.Rapp, and J.T.Bruder, J.Virol.70:2260- 2268, 1996), these results indicate a contribution of GABP factors to the Raf-mediated enhancement of IL-2 induction during T-cell activation.
+# T18 Protein S10 49 54 1644 1649 c-Raf
+# T19 Protein S10 273 277 1868 1872 IL-2
+$ T19 Protein S10 273 277 1868 1872 IL-2
+@ T43 Regulation S10 209 221 1804 1816 contribution
+@ T44 Positive_regulation S10 258 269 1853 1864 enhancement
+@ T45 Positive_regulation S10 278 287 1873 1882 induction
+% E23 Regulation:T43 Theme:E24
+% E24 Positive_regulation:T44 Theme:E25
+% E25 Positive_regulation:T45 Theme:T19
+

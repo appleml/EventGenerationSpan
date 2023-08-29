@@ -1,0 +1,39 @@
+Estrogen and progesterone induction of survival of monoblastoid cells undergoing TNF-alpha-induced apoptosis.
+# T1 Protein S1 81 90 81 90 TNF-alpha
+
+Induction of apoptosis of mononucleated cells is a physiological process for regulating the intensity of the immune response.
+
+The female steroid hormones estrogen (E2) and progesterone (Prog) are known to modulate the reactivity of the immune system; recently it has been demonstrated that they can regulate induction of apoptosis of endothelial cells and osteoblasts.
+
+TNF-alpha-mediated induction of apoptosis has been well characterized in myeloid cells.
+# T2 Protein S4 0 9 480 489 TNF-alpha
+
+We investigated whether E2 and Prog could interfere with TNF-alpha-induced apoptosis of the monoblastoid U937 cell line.
+# T3 Protein S5 57 66 625 634 TNF-alpha
+
+Treatment with E2 or Prog increased survival and prevented apoptosis induced by TNF-alpha in both undifferentiated and macrophage-like PMA-differentiated U937 cells, as assessed by trypan blue exclusion cell counting, thymidine incorporation, AnnexinV labeling, followed by flow cytometry and DNA fragmentation studies.
+# T4 Protein S6 80 89 769 778 TNF-alpha
+
+This effect can be associated with the activation of specific hormone receptors, since we observed the expression of the estrogen receptor alpha (ER-alpha), ER-beta, and progesterone receptor (PR) mRNAs; the ER-alpha protein expression was confirmed by immunocytochemical analysis.
+# T5 Protein S7 146 154 1155 1163 ER-alpha
+# T6 Protein S7 157 164 1166 1173 ER-beta
+# T7 Protein S7 170 191 1179 1200 progesterone receptor
+# T8 Protein S7 193 195 1202 1204 PR
+# T9 Protein S7 208 216 1217 1225 ER-alpha
+
+In addition, hormone-mediated survival against apoptosis was concentration dependent, reaching the half-maximal effect at 10 nM and blocked by the ER antagonist ICI 182,780 in undifferentiated cells, further supporting a receptor-mediated mechanism of cell survival.
+
+Other steroid receptor drugs such as Raloxifene, RU486, or the ICI 182,780 in PMA-differentiated cells displayed agonist activity by preventing TNF-alpha-induced apoptosis as efficiently as the hormones alone, providing further evidence to the notion that steroid receptor drugs may manifest agonist or antagonist activities depending on the cellular context in which they are studied.
+# T10 Protein S9 144 153 1702 1711 TNF-alpha
+
+Treatment with E2 was also associated with a time-dependent decrease in the mRNA level of the proapoptotic Nip-2 protein, supporting the hypothesis that hormone responsiveness of U937 cells is mediated by target gene transcription.
+
+Together, these results demonstrate that ER and PR can be activated by endogenous or exogenous ligands to induce a genetic response that impairs TNF-alpha-induced apoptosis in U937 cells.
+# T11 Protein S11 48 50 2224 2226 PR
+# T12 Protein S11 145 154 2321 2330 TNF-alpha
+
+The data presented here suggest that the female steroid receptors play a role in regulation of the immune response by preventing apoptosis of monoblastoid cells; this effect might have important consequences in the clinical use of steroid receptor drugs.
+
+--Vegeto, E., Pollio, G., Pellicciari, C., Maggi, A. Estrogen and progesterone induction of survival of monoblastoid cells undergoing TNF-alpha-inuced apoptosis.
+# T13 Protein S13 134 143 2753 2762 TNF-alpha
+

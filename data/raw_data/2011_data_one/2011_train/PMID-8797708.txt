@@ -1,0 +1,73 @@
+Interaction of HTLV-I Tax with the human proteasome: implications for NF-kappa B induction.
+# T1 Protein S1 22 25 22 25 Tax
+$ T1 Protein S1 22 25 22 25 Tax
+@ T19 Binding S1 0 11 0 11 Interaction
+% E1 Binding:T19 Theme:T1
+
+The human T-cell leukemia virus type I (HTLV-I) has been etiologically associated with the development of the adult T-cell leukemia (ATL) as well as degenerative neurologic syndrome termed tropical spastic paraparesis (TSP).
+
+HTLV-I encodes a potent transactivator protein termed Tax that appears to play an important role in the process of T-cell immortalization.
+# T2 Protein S3 54 57 372 375 Tax
+
+Even though the mechanisms by which Tax induces transformation are still unknown, it seems likely that the ability of Tax to alter the expression of many cellular genes plays an important part in this process.
+# T3 Protein S4 36 39 493 496 Tax
+# T4 Protein S4 118 121 575 578 Tax
+
+Tax does not bind directly to DNA but rather deregulates the activity of cellular transcription factors.
+# T5 Protein S5 0 3 667 670 Tax
+$ T5 Protein S5 0 3 667 670 Tax
+@ T20 Binding S5 13 17 680 684 bind
+% E2 Binding:T20 Theme:T5
+
+One family of host transcription factors whose activity is altered by Tax includes NF-kappa B/Rel.
+# T6 Protein S6 70 73 842 845 Tax
+
+These transcription factors are post-transcriptionally regulated by their assembly with a second family of inhibitory proteins termed I kappa B that serve to sequester the NF-kappa B/Rel complexes in the cytoplasm.
+
+Upon cellular activation, I kappa B alpha is phosphorylated, polyubiquitinated, and degraded in the proteasome.
+# T7 Protein S8 26 41 1112 1127 I kappa B alpha
+$ T7 Protein S8 26 41 1112 1127 I kappa B alpha
+@ T21 Positive_regulation S8 0 4 1086 1090 Upon
+@ T22 Phosphorylation S8 45 59 1131 1145 phosphorylated
+@ T23 Protein_catabolism S8 84 92 1170 1178 degraded
+% E3 Positive_regulation:T21 Theme:E6
+% E4 Positive_regulation:T21 Theme:E5
+% E5 Phosphorylation:T22 Theme:T7
+% E6 Protein_catabolism:T23 Theme:T7
+
+This proteolytic event liberates NF-kappa B, permitting its rapid translocation into the nucleus where it binds to its cognate enhancer elements.
+
+Similarly, the p105 precursor of the NF-kappa B p50 subunit is also post-translationally processed in the proteasome.
+# T8 Protein S10 15 19 1359 1363 p105
+# T9 Protein S10 48 51 1392 1395 p50
+
+The mechanisms by which Tax activates NF-kappa B remain unclear, and findings presented in the literature are often controversial.
+# T10 Protein S11 24 27 1486 1489 Tax
+
+We identified a physical interaction between Tax and the HsN3 subunit of the human proteasome.
+# T11 Protein S12 45 48 1638 1641 Tax
+# T12 Protein S12 57 61 1650 1654 HsN3
+$ T11 Protein S12 45 48 1638 1641 Tax
+$ T12 Protein S12 57 61 1650 1654 HsN3
+@ T24 Binding S12 16 36 1609 1629 physical interaction
+% E7 Binding:T24 Theme:T11 Theme2:T12
+
+This raises the intriguing possibility that physical association of the HsN3 proteasome subunit with HTLV-I Tax coupled with the independent interaction of Tax with either p100 or p65-I kappa B alpha targets these cytoplasmic NF-kappa B/Rel complexes to the proteasome for processing.
+# T13 Protein S13 72 76 1760 1764 HsN3
+# T14 Protein S13 108 111 1796 1799 Tax
+# T15 Protein S13 156 159 1844 1847 Tax
+# T16 Protein S13 172 176 1860 1864 p100
+# T17 Protein S13 180 183 1868 1871 p65
+# T18 Protein S13 184 199 1872 1887 I kappa B alpha
+$ T13 Protein S13 72 76 1760 1764 HsN3
+$ T14 Protein S13 108 111 1796 1799 Tax
+$ T15 Protein S13 156 159 1844 1847 Tax
+$ T16 Protein S13 172 176 1860 1864 p100
+$ T17 Protein S13 180 183 1868 1871 p65
+$ T18 Protein S13 184 199 1872 1887 I kappa B alpha
+@ T25 Binding S13 44 64 1732 1752 physical association
+@ T26 Binding S13 141 152 1829 1840 interaction
+% E8 Binding:T25 Theme:T13 Theme2:T14
+% E9 Binding:T26 Theme:T15 Theme2:T16 Theme3:T18
+% E10 Binding:T26 Theme:T15 Theme2:T17 Theme3:T18
+

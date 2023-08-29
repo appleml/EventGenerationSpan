@@ -1,0 +1,103 @@
+Activation and expression of the nuclear factors of activated T cells, NFATp and NFATc, in human natural killer cells: regulation upon CD16 ligand binding.
+# T1 Protein S1 71 76 71 76 NFATp
+# T2 Protein S1 81 86 81 86 NFATc
+$ T2 Protein S1 81 86 81 86 NFATc
+$ T1 Protein S1 71 76 71 76 NFATp
+@ T18 Positive_regulation S1 0 10 0 10 Activation
+@ T19 Gene_expression S1 15 25 15 25 expression
+@ T20 Regulation S1 119 129 119 129 regulation
+% E1 Positive_regulation:T18 Theme:T2
+% E2 Positive_regulation:T18 Theme:T1
+% E3 Gene_expression:T19 Theme:T1
+% E4 Gene_expression:T19 Theme:T2
+% E5 Regulation:T20 Theme:E1
+% E6 Regulation:T20 Theme:E4
+% E7 Regulation:T20 Theme:E3
+% E8 Regulation:T20 Theme:E2
+
+The putative factors that couple the signal transduction from surface receptors to the activation of cytokine synthesis in natural killer (NK) cells have not been elucidated.
+
+We report here that the nuclear factor of activated T cells (NFATp), a cyclosporin A (CsA)-sensitive factor that regulates the transcription of several cytokines, mediates CD16-induced activation of cytokine genes in human NK cells.
+# T3 Protein S3 61 66 393 398 NFATp
+$ T3 Protein S3 61 66 393 398 NFATp
+@ T21 Regulation S3 91 100 423 432 sensitive
+% E9 Regulation:T21 Theme:T3
+
+CD16 (Fc gamma RIIIA)-induced expression of cytokine mRNA in NK cells occurs via a CsA-sensitive and Ca(2+)-dependent mechanism.
+# T4 Protein S4 6 20 571 585 Fc gamma RIIIA
+
+Stimulation of NK cells with CD16 ligands induces NFAT-like DNA binding activity in the nuclear extracts from these cells, as detected in electrophoretic mobility shift assays.
+
+This occurs with fast kinetics after stimulation, via a CsA-sensitive and Ca(2+)-dependent mechanism that does not require de novo protein synthesis.
+
+NK cell NFAT is present in the cytosol of nonstimulated cells, migrates to the nucleus upon stimulation, and can associate with AP-1.
+
+Two distinct molecules, NFATp and NFATc, have been reported to mediate NFAT activity.
+# T5 Protein S8 24 29 1179 1184 NFATp
+# T6 Protein S8 34 39 1189 1194 NFATc
+
+The results of supershift assays using NFATp- and NFATc- specific antibodies indicate that NK cell activation early after CD16 ligand binding involves primarily, if not exclusively, NFATp, and Western blot analysis shows that this has the same electrophoretic mobility (approximately 120 kD) as that of T lymphocytes.
+# T7 Protein S9 39 44 1280 1285 NFATp
+# T8 Protein S9 50 55 1291 1296 NFATc
+# T9 Protein S9 182 187 1423 1428 NFATp
+
+NK cells do not express NFATc constitutively, but NFATc mRNA accumulation is induced in these cells within 2 h of stimulation with CD16 ligands.
+# T10 Protein S10 24 29 1583 1588 NFATc
+# T11 Protein S10 50 55 1609 1614 NFATc
+$ T10 Protein S10 24 29 1583 1588 NFATc
+$ T11 Protein S10 50 55 1609 1614 NFATc
+@ T22 Gene_expression S10 16 23 1575 1582 express
+@ T23 Positive_regulation S10 61 73 1620 1632 accumulation
+@ T24 Positive_regulation S10 77 84 1636 1643 induced
+% E10 Gene_expression:T22 Theme:T10
+% E11 Positive_regulation:T23 Theme:T11
+% E12 Positive_regulation:T24 Theme:E11
+
+However, supershift assays using the available mAb recognizing the T cell NFATc revealed no detectable NFATc protein in nuclear and cytoplasmic extracts from CD16- or phorbol ester-stimulated cells at any time tested, up to 4 h.
+# T12 Protein S11 74 79 1778 1783 NFATc
+# T13 Protein S11 103 108 1807 1812 NFATc
+$ T13 Protein S11 103 108 1807 1812 NFATc
+@ T25 Gene_expression S11 92 102 1796 1806 detectable
+% E13 Gene_expression:T25 Theme:T13
+
+These results provide the first direct evidence that both CsA-sensitive transcription factors, NFATp and NFATc, are expressed in human NK cells, and that their activation and/or expression can be regulated in primary cells by a single stimulus, that, in the case of CD16 in NK cells, results in early activation of NFATp and subsequently induced expression of NFATc mRNA.
+# T14 Protein S12 95 100 2028 2033 NFATp
+# T15 Protein S12 105 110 2038 2043 NFATc
+# T16 Protein S12 315 320 2248 2253 NFATp
+# T17 Protein S12 360 365 2293 2298 NFATc
+$ T14 Protein S12 95 100 2028 2033 NFATp
+$ T15 Protein S12 105 110 2038 2043 NFATc
+$ T16 Protein S12 315 320 2248 2253 NFATp
+$ T17 Protein S12 360 365 2293 2298 NFATc
+@ T26 Regulation S12 62 71 1995 2004 sensitive
+@ T27 Gene_expression S12 116 125 2049 2058 expressed
+@ T28 Positive_regulation S12 160 170 2093 2103 activation
+@ T29 Gene_expression S12 178 188 2111 2121 expression
+@ T30 Regulation S12 196 205 2129 2138 regulated
+@ T31 Positive_regulation S12 284 291 2217 2224 results
+@ T32 Positive_regulation S12 301 311 2234 2244 activation
+@ T33 Positive_regulation S12 338 345 2271 2278 induced
+@ T34 Transcription S12 346 356 2279 2289 expression
+% E14 Regulation:T26 Theme:T14
+% E15 Regulation:T26 Theme:T15
+% E16 Gene_expression:T27 Theme:T14
+% E17 Gene_expression:T27 Theme:T15
+% E18 Positive_regulation:T28 Theme:T15
+% E19 Positive_regulation:T28 Theme:T14
+% E20 Gene_expression:T29 Theme:T14
+% E21 Gene_expression:T29 Theme:T15
+% E22 Regulation:T30 Theme:E18
+% E23 Regulation:T30 Theme:E19
+% E24 Regulation:T30 Theme:E21
+% E25 Regulation:T30 Theme:E20
+% E26 Positive_regulation:T31 Theme:E30 Cause:E22
+% E27 Positive_regulation:T31 Theme:E30 Cause:E23
+% E28 Positive_regulation:T31 Theme:E30 Cause:E25
+% E29 Positive_regulation:T31 Theme:E30 Cause:E24
+% E30 Positive_regulation:T32 Theme:T16
+% E31 Positive_regulation:T33 Theme:E35 Cause:E27
+% E32 Positive_regulation:T33 Theme:E35 Cause:E29
+% E33 Positive_regulation:T33 Theme:E35 Cause:E26
+% E34 Positive_regulation:T33 Theme:E35 Cause:E28
+% E35 Transcription:T34 Theme:T17
+

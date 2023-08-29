@@ -1,0 +1,28 @@
+C/EBP-beta is a LPS-induced Nuclear Factor that Binds to the C/EBP Element of the SerpinB2 Proximal Promoter
+# T1 Protein S1 0 10 0 10 C/EBP-beta
+# T2 Protein S1 82 90 82 90 SerpinB2
+
+The C/EBP family of basic leucine zipper transcription factors are known for their roles in cellular differentiation and inflammation [59].
+
+Consisting of six members, the C/EBP transcription factors can homo-/heterodimerize and display similar DNA binding specificities [60].
+
+Four family members, C/EBP-alpha, C/EBP-beta, C/EBP-delta and C/EBP-epsilon, are present in myeloid cells and play different roles in differentiating myeloid cells depending on the extracellular environment [61].
+# T3 Protein S4 21 32 406 417 C/EBP-alpha
+# T4 Protein S4 34 44 419 429 C/EBP-beta
+# T5 Protein S4 46 57 431 442 C/EBP-delta
+# T6 Protein S4 62 75 447 460 C/EBP-epsilon
+
+To determine which C/EBP proteins were involved in the formation of the different nucleo-protein complexes, and particularly of the LPS-inducible complex, EMSA was performed after incubating the nucleo-protein complexes with antibodies specific for C/EBP-alpha, C/EBP-beta, C/EBP-delta and C/EBP-epsilon.
+# T7 Protein S5 249 260 847 858 C/EBP-alpha
+# T8 Protein S5 262 272 860 870 C/EBP-beta
+# T9 Protein S5 274 285 872 883 C/EBP-delta
+# T10 Protein S5 290 303 888 901 C/EBP-epsilon
+
+Each antibody detects the carboxy-terminal DNA-binding region of the respective protein, so that pre-incubation of antibody with nuclear extract is expected to abolish DNA binding by EMSA [62].
+
+Only antibodies against C/EBP-beta abolished the formation of the LPS-inducible complex (Fig. 5C).
+# T11 Protein S7 24 34 1121 1131 C/EBP-beta
+
+Taken together these data show that the LPS-induced complex with the C/EBP element (-203/-192) contains C/EBP-beta.
+# T12 Protein S8 104 114 1300 1310 C/EBP-beta
+

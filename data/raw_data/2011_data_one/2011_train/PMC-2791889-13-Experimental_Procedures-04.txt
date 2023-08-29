@@ -1,0 +1,26 @@
+In Vivo Studies
+
+BALB/c mice were injected intravenously (i.v.) with a red blood cell-depleted single-cell spleen suspension (2.5 x 107 cells) (Castro etal., 2000) from DO11.10 WT or STAT-deficient mice.
+# T1 Protein S2 166 170 182 186 STAT
+$ T1 Protein S2 166 170 182 186 STAT
+@ T8 Negative_regulation S2 171 180 187 196 deficient
+% E1 Negative_regulation:T8 Theme:T1
+
+After 48 hr, they were injected subcutaneously with PBS or with OVA protein (5 mg) plus LPS (5 mug).
+# T2 Protein S3 64 67 267 270 OVA
+
+The inguinal lymph nodes were removed 48 hr later.
+
+A single-cell suspension (1 x 106 cells) was restimulated for 24 or 48 hr with 1 muM or 3 muM of OVA and with BrefeldinA for the last 6 hr.
+# T3 Protein S5 97 100 452 455 OVA
+
+Half of the supernatant was removed before the addition of BrefeldinA for use in an ELISA assay.
+
+The cells were fixed and stained as before.
+
+Those positive for KJ1-26-Bio and for CD4-PerCP were gated, and IFN-gamma and IL-10 staining was examined for this population and analyzed as before.
+# T4 Protein S8 19 25 655 661 KJ1-26
+# T5 Protein S8 38 41 674 677 CD4
+# T6 Protein S8 64 73 700 709 IFN-gamma
+# T7 Protein S8 78 83 714 719 IL-10
+

@@ -1,0 +1,29 @@
+IL-10 induces the tyrosine phosphorylation of tyk2 and Jak1 and the differential assembly of STAT1 alpha and STAT3 complexes in human T cells and monocytes.
+# T1 Protein S1 0 5 0 5 IL-10
+# T2 Protein S1 46 50 46 50 tyk2
+# T3 Protein S1 55 59 55 59 Jak1
+# T4 Protein S1 93 104 93 104 STAT1 alpha
+# T5 Protein S1 109 114 109 114 STAT3
+
+IL-10 affects monocytes and T cells by driving the progression of immune responsiveness such that Th2 lymphocyte-mediated effects predominate.
+# T6 Protein S2 0 5 158 163 IL-10
+
+In this report, we show that in monocytes and T cells IL-10 stimulates tyrosine phosphorylation of the signal transducers and activators of transcription, STAT1 alpha and STAT3, in a differential manner such that the relative formation of homo- and heterodimers varies between the two cell types.
+# T7 Protein S3 54 59 355 360 IL-10
+# T8 Protein S3 155 166 456 467 STAT1 alpha
+# T9 Protein S3 171 176 472 477 STAT3
+
+Moreover, monocytes express a novel IL-10-stimulated STAT protein with an M(r) of 70 kDa that is recognized by the anti-STAT3 Ab but is not observed in T cells.
+# T10 Protein S4 36 41 634 639 IL-10
+# T11 Protein S4 120 125 718 723 STAT3
+
+IL-10 treatment of both T cells and monocytes results in the ligand-induced tyrosine phosphorylation of tyk2 and Jak1, but not Jak2 or Jak3.
+# T12 Protein S5 0 5 759 764 IL-10
+# T13 Protein S5 104 108 863 867 tyk2
+# T14 Protein S5 113 117 872 876 Jak1
+# T15 Protein S5 127 131 886 890 Jak2
+# T16 Protein S5 135 139 894 898 Jak3
+
+Selective modulation of immune responsiveness by IL-10 in cells such as monocytes and T cells may result in part from the differential activation of STAT protein pairs.
+# T17 Protein S6 49 54 949 954 IL-10
+

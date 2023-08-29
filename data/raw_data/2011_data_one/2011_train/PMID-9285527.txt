@@ -1,0 +1,34 @@
+The carboxyl-terminal cytoplasmic domain of CD36 is required for oxidized low-density lipoprotein modulation of NF-kappaB activity by tumor necrosis factor-alpha.
+# T1 Protein S1 44 48 44 48 CD36
+# T2 Protein S1 134 161 134 161 tumor necrosis factor-alpha
+
+The binding of oxidized low-density lipoprotein (Ox LDL) by monocyte-macrophages causes pleiotropic effects, including changes in gene expression, and is thought to represent an early event in atherogenesis.
+
+The integral membrane glycoprotein CD36 appears to play a physiological role in binding and uptake of Ox LDL by monocyte-macrophages, although the molecular events associated with CD36-Ox LDL interaction are unknown.
+# T3 Protein S3 35 39 407 411 CD36
+# T4 Protein S3 180 184 552 556 CD36
+$ T4 Protein S3 180 184 552 556 CD36
+@ T13 Binding S3 192 203 564 575 interaction
+% E1 Binding:T13 Theme:T4
+
+To approach this issue, we used CD36 transfected Chinese hampster ovary (CHO) cells, exposed them to Ox LDL, and determined changes in the activity of the transcription factor NF-kappaB.
+# T5 Protein S4 32 36 621 625 CD36
+
+We report here that Ox LDL enhanced DNA binding activity of nuclear extracts to an NF-kappaB sequence following activation of CD36-producing CHO cells with the proinflammatory cytokine tumor necrosis factor-alpha (TNF-alpha).
+# T6 Protein S5 126 130 902 906 CD36
+# T7 Protein S5 185 212 961 988 tumor necrosis factor-alpha
+# T8 Protein S5 214 223 990 999 TNF-alpha
+$ T6 Protein S5 126 130 902 906 CD36
+@ T14 Gene_expression S5 131 140 907 916 producing
+% E2 Gene_expression:T14 Theme:T6
+
+This enhanced DNA binding activity was inhibited by coincubation of CD36 transfected cells with the human CD36-specific antibody OKM5.
+# T9 Protein S6 68 72 1070 1074 CD36
+# T10 Protein S6 106 110 1108 1112 CD36
+
+We also determined that activation of NF-kappaB DNA binding activity required an intact carboxyl-terminal cytoplasmic segment on CD36.
+# T11 Protein S7 129 133 1266 1270 CD36
+
+Our results support the idea that human CD36 mediates signal transduction events in response to Ox LDL.
+# T12 Protein S8 40 44 1312 1316 CD36
+

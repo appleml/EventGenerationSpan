@@ -1,0 +1,37 @@
+Expression of v-src in T cells correlates with nuclear expression of NF-kappa B.
+# T1 Protein S1 14 19 14 19 v-src
+$ T1 Protein S1 14 19 14 19 v-src
+@ T8 Gene_expression S1 0 10 0 10 Expression
+% E1 Gene_expression:T8 Theme:T1
+
+NF-kappa B is a rapidly inducible transcriptional activator that responds to a variety of signals and influences the expression of many genes involved in the immune response.
+
+Protein tyrosine kinases transmit signals from cytokine and immune receptors.
+
+Very little information exists linking these two important classes of signaling molecules.
+
+We now demonstrate that v-src expression correlates with nuclear expression of a kappa B binding complex similar to that induced by phorbol ester and ionomycin, as detected by electrophoretic mobility shift assay using a variety of kappa B sites.
+# T2 Protein S5 24 29 450 455 v-src
+$ T2 Protein S5 24 29 450 455 v-src
+@ T9 Gene_expression S5 30 40 456 466 expression
+% E2 Gene_expression:T9 Theme:T2
+
+This complex was blocked by the tyrosine kinase inhibitor, herbimycin A.
+
+The v-src-induced complex comprised the p50 and p65 components of NF-kappa B, as determined by supershift and immunoblot analysis.
+# T3 Protein S7 4 9 750 755 v-src
+# T4 Protein S7 40 43 786 789 p50
+# T5 Protein S7 48 51 794 797 p65
+$ T4 Protein S7 40 43 786 789 p50
+$ T5 Protein S7 48 51 794 797 p65
+$ T3 Protein S7 4 9 750 755 v-src
+@ T11 Positive_regulation S7 10 17 756 763 induced
+
+As a functional correlate of this finding, transient co-transfection of HIV-1 LTR reporter constructs in a different T cell line demonstrated that v-src activated this promoter in a kappa B-dependent manner.
+# T6 Protein S8 147 152 1024 1029 v-src
+
+We found that transactivation of the HIV-1 LTR by v-src was more sensitive to mutations of the proximal, rather than the distal, kappa B element.
+# T7 Protein S9 50 55 1135 1140 v-src
+
+The implications for T cell receptor signaling and HIV-1 gene expression are considered.
+

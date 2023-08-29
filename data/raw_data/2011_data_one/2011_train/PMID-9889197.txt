@@ -1,0 +1,30 @@
+Intranuclear targeted delivery of functional NF-kappaB by 70 kDa heat shock protein.
+
+The 70 kDa heat shock protein (Hsp70) is a highly conserved, ubiquitous protein involved in chaperoning proteins to various cellular organelles.
+
+Here we show that when added exogenously to cells, Hsp70 is readily imported into both cytoplasmic and nuclear compartments in a cell-type-specific fashion.
+
+We exploited this ability of Hsp70 to deliver NF-kappaB, a key transcriptional regulator of inflammatory responses.
+
+We demonstrate that a fusion protein composed of a C-terminal Hsp70 peptide and the p50 subunit of NF-kappaB was directed into the nucleus of cells, could bind DNA specifically, and activated Igkappa expression and TNFalpha production.
+# T1 Protein S5 84 87 588 591 p50
+# T2 Protein S5 192 199 696 703 Igkappa
+# T3 Protein S5 215 223 719 727 TNFalpha
+$ T1 Protein S5 84 87 588 591 p50
+$ T2 Protein S5 192 199 696 703 Igkappa
+$ T3 Protein S5 215 223 719 727 TNFalpha
+@ T4 Localization S5 113 121 617 625 directed
+@ T5 Entity S5 131 138 635 642 nucleus
+@ T6 Binding S5 155 159 659 663 bind
+@ T7 Positive_regulation S5 182 191 686 695 activated
+@ T8 Gene_expression S5 200 210 704 714 expression
+@ T9 Gene_expression S5 224 234 728 738 production
+% E1 Localization:T4 Theme:T1 ToLoc:T5
+% E2 Binding:T6 Theme:T1
+% E3 Positive_regulation:T7 Theme:E5 Cause:E2
+% E4 Positive_regulation:T7 Theme:E6 Cause:E2
+% E5 Gene_expression:T8 Theme:T2
+% E6 Gene_expression:T9 Theme:T3
+
+We therefore propose that Hsp70 can be used as a vehicle for intracytoplasmic and intranuclear delivery of proteins or DNA to modulate gene expression and thereby control immune responses.
+

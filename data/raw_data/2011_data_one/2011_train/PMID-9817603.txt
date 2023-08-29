@@ -1,0 +1,191 @@
+Transcriptional regulation of the beta-casein gene by cytokines: cross-talk between STAT5 and other signaling molecules.
+# T1 Protein S1 34 45 34 45 beta-casein
+# T2 Protein S1 84 89 84 89 STAT5
+$ T1 Protein S1 34 45 34 45 beta-casein
+@ T48 Regulation S1 0 26 0 26 Transcriptional regulation
+% E1 Regulation:T48 Theme:T1
+
+The beta-casein promoter has been widely used to monitor the activation of STAT (signal transducer and activator of transcription)5 since STAT5 was originally found as a mediator of PRL-inducible beta-casein expression.
+# T3 Protein S2 4 15 126 137 beta-casein
+# T4 Protein S2 75 131 197 253 STAT (signal transducer and activator of transcription)5
+# T5 Protein S2 138 143 260 265 STAT5
+# T6 Protein S2 182 185 304 307 PRL
+# T7 Protein S2 196 207 318 329 beta-casein
+$ T3 Protein S2 4 15 126 137 beta-casein
+$ T4 Protein S2 75 131 197 253 STAT (signal transducer and activator of transcription)5
+$ T5 Protein S2 138 143 260 265 STAT5
+$ T6 Protein S2 182 185 304 307 PRL
+$ T7 Protein S2 196 207 318 329 beta-casein
+@ T49 Entity S2 16 24 138 146 promoter
+@ T50 Positive_regulation S2 61 71 183 193 activation
+@ T51 Positive_regulation S2 170 178 292 300 mediator
+@ T52 Positive_regulation S2 186 195 308 317 inducible
+@ T53 Gene_expression S2 208 218 330 340 expression
+% E2 Positive_regulation:T50 Theme:T3 Cause:T4 Site:T49
+% E3 Positive_regulation:T51 Theme:E4 Cause:T5
+% E4 Positive_regulation:T52 Theme:E5 Cause:T6
+% E5 Gene_expression:T53 Theme:T7
+
+However, not only is expression of the beta-casein gene regulated by STAT5 but it is also affected by other molecules such as glucocorticoid and Ras.
+# T8 Protein S3 39 50 381 392 beta-casein
+# T9 Protein S3 69 74 411 416 STAT5
+$ T8 Protein S3 39 50 381 392 beta-casein
+$ T9 Protein S3 69 74 411 416 STAT5
+@ T54 Gene_expression S3 21 31 363 373 expression
+@ T55 Regulation S3 56 65 398 407 regulated
+@ T56 Regulation S3 90 98 432 440 affected
+% E6 Gene_expression:T54 Theme:T8
+% E7 Regulation:T55 Theme:E6 Cause:T9
+% E8 Regulation:T56 Theme:E6
+
+In this report, we describe the transcriptional regulation of the beta-casein gene by cytokines in T cells.
+# T10 Protein S4 66 77 558 569 beta-casein
+$ T10 Protein S4 66 77 558 569 beta-casein
+@ T57 Regulation S4 32 58 524 550 transcriptional regulation
+% E9 Regulation:T57 Theme:T10
+
+We have found that the beta-casein gene is expressed in a cytotoxic T cell line, CTLL-2, in response to interleukin-2 (IL-2), which activates STAT5.
+# T11 Protein S5 23 34 623 634 beta-casein
+# T12 Protein S5 104 117 704 717 interleukin-2
+# T13 Protein S5 119 123 719 723 IL-2
+# T14 Protein S5 142 147 742 747 STAT5
+$ T11 Protein S5 23 34 623 634 beta-casein
+$ T13 Protein S5 119 123 719 723 IL-2
+$ T14 Protein S5 142 147 742 747 STAT5
+@ T58 Gene_expression S5 43 52 643 652 expressed
+@ T59 Positive_regulation S5 89 100 689 700 in response
+@ T60 Positive_regulation S5 132 141 732 741 activates
+% E10 Gene_expression:T58 Theme:T11
+% E11 Positive_regulation:T59 Theme:E10 Cause:T13
+% E12 Positive_regulation:T60 Theme:T14 Cause:T13
+
+While IL-4 does not activate STAT5, it induces expression of STAT5-regulated genes in CTLL-2, i.e. beta-casein, a cytokine-inducible SH2-containing protein (CIS), and oncostatin M (OSM), suggesting that STAT6 activated by IL-4 substitutes for the function of STAT5 in T cells.
+# T15 Protein S6 6 10 755 759 IL-4
+# T16 Protein S6 29 34 778 783 STAT5
+# T17 Protein S6 61 66 810 815 STAT5
+# T18 Protein S6 99 110 848 859 beta-casein
+# T19 Protein S6 114 155 863 904 cytokine-inducible SH2-containing protein
+# T20 Protein S6 157 160 906 909 CIS
+# T21 Protein S6 167 179 916 928 oncostatin M
+# T22 Protein S6 181 184 930 933 OSM
+# T23 Protein S6 203 208 952 957 STAT6
+# T24 Protein S6 222 226 971 975 IL-4
+# T25 Protein S6 259 264 1008 1013 STAT5
+$ T16 Protein S6 29 34 778 783 STAT5
+$ T15 Protein S6 6 10 755 759 IL-4
+$ T22 Protein S6 181 184 930 933 OSM
+$ T18 Protein S6 99 110 848 859 beta-casein
+$ T20 Protein S6 157 160 906 909 CIS
+$ T17 Protein S6 61 66 810 815 STAT5
+$ T23 Protein S6 203 208 952 957 STAT6
+$ T24 Protein S6 222 226 971 975 IL-4
+@ T61 Positive_regulation S6 20 28 769 777 activate
+@ T62 Positive_regulation S6 39 46 788 795 induces
+@ T63 Gene_expression S6 47 57 796 806 expression
+@ T64 Regulation S6 67 76 816 825 regulated
+@ T65 Positive_regulation S6 209 218 958 967 activated
+% E13 Positive_regulation:T61 Theme:T16 Cause:T15
+% E14 Positive_regulation:T62 Theme:E19 Cause:T15
+% E15 Positive_regulation:T62 Theme:E18 Cause:T15
+% E16 Positive_regulation:T62 Theme:E17 Cause:T15
+% E17 Gene_expression:T63 Theme:T22
+% E18 Gene_expression:T63 Theme:T18
+% E19 Gene_expression:T63 Theme:T20
+% E20 Regulation:T64 Theme:T18 Cause:T17
+% E21 Regulation:T64 Theme:T22 Cause:T17
+% E22 Regulation:T64 Theme:T20 Cause:T17
+% E23 Positive_regulation:T65 Theme:T23 Cause:T24
+
+IL-2-induced beta-casein expression was enhanced by dexamethasone, and this synergistic effect of Dexamethasone requires the sequence between -155 and -193 in the beta-casein promoter.
+# T26 Protein S7 0 4 1026 1030 IL-2
+# T27 Protein S7 13 24 1039 1050 beta-casein
+# T28 Protein S7 163 174 1189 1200 beta-casein
+$ T26 Protein S7 0 4 1026 1030 IL-2
+$ T27 Protein S7 13 24 1039 1050 beta-casein
+@ T66 Positive_regulation S7 5 12 1031 1038 induced
+@ T67 Gene_expression S7 25 35 1051 1061 expression
+@ T68 Positive_regulation S7 40 48 1066 1074 enhanced
+@ T69 Entity S7 125 155 1151 1181 sequence between -155 and -193
+% E24 Positive_regulation:T66 Theme:E25 Cause:T26
+% E25 Gene_expression:T67 Theme:T27
+% E26 Positive_regulation:T68 Theme:E24
+
+Coincidentally, a deletion of this region enhanced the IL-2-induced expression of beta-casein.
+# T29 Protein S8 55 59 1266 1270 IL-2
+# T30 Protein S8 82 93 1293 1304 beta-casein
+$ T29 Protein S8 55 59 1266 1270 IL-2
+$ T30 Protein S8 82 93 1293 1304 beta-casein
+@ T70 Negative_regulation S8 18 26 1229 1237 deletion
+@ T71 Positive_regulation S8 42 50 1253 1261 enhanced
+@ T72 Positive_regulation S8 60 67 1271 1278 induced
+@ T73 Gene_expression S8 68 78 1279 1289 expression
+% E27 Negative_regulation:T70 Theme:T28 Site:T69
+% E28 Positive_regulation:T71 Theme:E29 Cause:E27
+% E29 Positive_regulation:T72 Theme:E30 Cause:T29
+% E30 Gene_expression:T73 Theme:T30
+
+Expression of an active form of Ras, Ras(G12V), suppressed the IL-2-induced beta-casein and OSM gene expression, and the negative effect of Ras is mediated by the region between -105 and -193 in the beta-casein promoter.
+# T31 Protein S9 37 46 1343 1352 Ras(G12V)
+# T32 Protein S9 63 67 1369 1373 IL-2
+# T33 Protein S9 76 87 1382 1393 beta-casein
+# T34 Protein S9 92 95 1398 1401 OSM
+# T35 Protein S9 199 210 1505 1516 beta-casein
+$ T31 Protein S9 37 46 1343 1352 Ras(G12V)
+$ T32 Protein S9 63 67 1369 1373 IL-2
+$ T33 Protein S9 76 87 1382 1393 beta-casein
+$ T34 Protein S9 92 95 1398 1401 OSM
+$ T35 Protein S9 199 210 1505 1516 beta-casein
+@ T74 Gene_expression S9 0 10 1306 1316 Expression
+@ T75 Negative_regulation S9 48 58 1354 1364 suppressed
+@ T76 Positive_regulation S9 68 75 1374 1381 induced
+@ T77 Gene_expression S9 101 111 1407 1417 expression
+@ T78 Positive_regulation S9 147 155 1453 1461 mediated
+@ T79 Entity S9 163 191 1469 1497 region between -105 and -193
+% E31 Gene_expression:T74 Theme:T31
+% E32 Negative_regulation:T75 Theme:E35 Cause:E31
+% E33 Negative_regulation:T75 Theme:E34 Cause:E31
+% E34 Positive_regulation:T76 Theme:E36 Cause:T32
+% E35 Positive_regulation:T76 Theme:E37 Cause:T32
+% E36 Gene_expression:T77 Theme:T33
+% E37 Gene_expression:T77 Theme:T34
+% E38 Positive_regulation:T78 Theme:E33 Cause:T35 CSite:T79
+% E39 Positive_regulation:T78 Theme:E32 Cause:T35 CSite:T79
+
+In apparent contradiction, expression of a dominant negative form of Ras, RasN17, also inhibited IL-2-induced activation of the promoter containing the minimal beta-casein STAT5 element as well as the promoters of CIS and OSM.
+# T36 Protein S10 74 80 1601 1607 RasN17
+# T37 Protein S10 97 101 1624 1628 IL-2
+# T38 Protein S10 160 171 1687 1698 beta-casein
+# T39 Protein S10 172 177 1699 1704 STAT5
+# T40 Protein S10 214 217 1741 1744 CIS
+# T41 Protein S10 222 225 1749 1752 OSM
+$ T36 Protein S10 74 80 1601 1607 RasN17
+$ T40 Protein S10 214 217 1741 1744 CIS
+$ T37 Protein S10 97 101 1624 1628 IL-2
+$ T41 Protein S10 222 225 1749 1752 OSM
+@ T80 Negative_regulation S10 87 96 1614 1623 inhibited
+@ T81 Positive_regulation S10 110 120 1637 1647 activation
+% E40 Negative_regulation:T80 Theme:E42 Cause:T36
+% E41 Negative_regulation:T80 Theme:E43 Cause:T36
+% E42 Positive_regulation:T81 Theme:T40 Cause:T37
+% E43 Positive_regulation:T81 Theme:T41 Cause:T37
+
+In addition, Ras(G12V) complemented signaling by an erythropoietin receptor mutant defective in Ras activation and augmented the activation of the beta-casein promoter by the mutant erythropoietin receptor signaling, suggesting a possible role of Ras in Stat5-mediated gene expression.
+# T42 Protein S11 13 22 1767 1776 Ras(G12V)
+# T43 Protein S11 52 75 1806 1829 erythropoietin receptor
+# T44 Protein S11 147 158 1901 1912 beta-casein
+# T45 Protein S11 182 205 1936 1959 erythropoietin receptor
+# T46 Protein S11 254 259 2008 2013 Stat5
+$ T42 Protein S11 13 22 1767 1776 Ras(G12V)
+$ T44 Protein S11 147 158 1901 1912 beta-casein
+$ T45 Protein S11 182 205 1936 1959 erythropoietin receptor
+@ T82 Positive_regulation S11 115 124 1869 1878 augmented
+@ T83 Positive_regulation S11 129 139 1883 1893 activation
+@ T84 Entity S11 159 167 1913 1921 promoter
+@ T85 Regulation S11 206 215 1960 1969 signaling
+% E44 Positive_regulation:T82 Theme:E45 Cause:T42
+% E45 Positive_regulation:T83 Theme:T44 Cause:E46 Site:T84
+% E46 Regulation:T85 Theme:T45
+
+These results collectively reveal a complex interaction of STAT5 with other signaling pathways and illustrate that regulation of gene expression requires integration of opposing signals.
+# T47 Protein S12 59 64 2099 2104 STAT5
+

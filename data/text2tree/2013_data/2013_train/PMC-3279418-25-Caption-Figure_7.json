@@ -1,0 +1,8 @@
+{"text": "Stimulated cpdm BMDC induced Th2-biased cytokine production from naive CD4+ T cells .", "event": "<extra_id_0> <extra_id_1>"}
+{"text": "WT and cpdm BMDC ( 5x104 cells in 0.1 mL complete medium ; MHC haplotype : H-2b ) were incubated with medium , 100 ng / mL LPS , 25 microg / mL poly I : C or 5 microg / mL Pam3CYS .", "event": "<extra_id_0> <extra_id_1>"}
+{"text": "After 24 hours , cells were washed with PBS and incubated with freshly isolated allogeneic naive CD4+ T cells ( 2.5x105 cells in 0.1 mL complete medium ; MHC haplotype : H-2d ) .", "event": "<extra_id_0> <extra_id_1>"}
+{"text": "After 5 days , supernatants were collected and the secretion of <extra_id_0> IFNgamma <extra_id_2> Protein <extra_id_1> , <extra_id_0> IL4 <extra_id_2> Protein <extra_id_1> , and <extra_id_0> IL2 <extra_id_2> Protein <extra_id_1> were measured by ELISA .", "event": "<extra_id_0> <extra_id_0> Gene_expression secretion <extra_id_0> Theme IFNgamma <extra_id_1> <extra_id_1> <extra_id_0> Gene_expression secretion <extra_id_0> Theme IL2 <extra_id_1> <extra_id_1> <extra_id_0> Gene_expression secretion <extra_id_0> Theme IL4 <extra_id_1> <extra_id_1> <extra_id_1>"}
+{"text": "Negative controls are 1 ) stimulated BMDC without co-culture with allogeneic CD4+ T cells ; 2 ) allogeneic CD4+ T cells without co-culture with stimulated BMDC .", "event": "<extra_id_0> <extra_id_1>"}
+{"text": "Samples from both negative controls had no detectable production of the aforementioned cytokines ( not shown ) .", "event": "<extra_id_0> <extra_id_0> Gene_expression production <extra_id_1> <extra_id_1>"}
+{"text": "Results are analyzed based on 2-4 mice per group .", "event": "<extra_id_0> <extra_id_1>"}
+{"text": "* P < 0.05 .", "event": "<extra_id_0> <extra_id_1>"}

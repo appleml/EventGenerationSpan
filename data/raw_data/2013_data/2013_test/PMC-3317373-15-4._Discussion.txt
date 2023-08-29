@@ -1,0 +1,96 @@
+The present study demonstrated that scratch injury induced the upregulation of NF-kappaB DNA binding activity and overexpression of TNF-alpha, IL-1beta, IL-6, and MMP9 in cultured astrocytes.
+# T1 Protein S1 143 151 143 151 IL-1beta
+# T2 Protein S1 153 157 153 157 IL-6
+# T3 Protein S1 163 167 163 167 MMP9
+
+Also we revealed that scratch injury induced higher activity of NF-kappaB and enhanced expression of proinflammatory cytokines in Nrf2 knockout cultured astrocytes than those in wildtype astrocytes for the first time.
+
+It has been demonstrated that NF-kappaB is activated in brain and spinal cord after traumatic injury [2, 9].
+
+As a transcript factor, NF-kappaB binds with DNA once it was activated and induces transcription of MMP9 and a battery of proinflammatory cytokines, including TNF-alpha, IL-1beta, and IL-6, in brain tissues after TBI [3, 10, 11].
+# T4 Protein S4 100 104 619 623 MMP9
+# T5 Protein S4 170 178 689 697 IL-1beta
+# T6 Protein S4 184 188 703 707 IL-6
+
+Our results also revealed that scratch injury induced elevation of NF-kappaB DNA binding activity, overexpression of MMP9, and proinflammatory mediators mentioned above in cultured astrocytes.
+# T7 Protein S5 117 121 866 870 MMP9
+
+It has been demonstrated that there is an autoregulatory loop among these proinflammatory mediators.
+
+For example, TNF-alpha and IL-1beta are potent stimulators for MMP9 in astrocytes [12, 13], and IL-6 induces overexpression of MMP9 in human colon carcinoma cells [14], and TNF-alpha and IL-1beta also can induce activation of NF-kappaB [15, 16].
+# T8 Protein S7 27 35 1070 1078 IL-1beta
+# T9 Protein S7 63 67 1106 1110 MMP9
+# T10 Protein S7 96 100 1139 1143 IL-6
+# T11 Protein S7 127 131 1170 1174 MMP9
+# T12 Protein S7 187 195 1230 1238 IL-1beta
+
+This autoregulatory loop extremely aggravates the damaging effect of inflammation and induces secondary injury to brain.
+
+It is a good choice for targeting on an upstream factor to prevent such autoregulatory loop after TBI.
+
+Nrf2-ARE pathway has been proved to be the key regulator in reducing oxidative stress, inflammatory damage, and accumulation of toxic metabolites, which are all involved in TBI.
+
+Our previous study has proved the augmentation of Nrf2 in brain tissue after TBI [17].
+
+Enhanced level of Nrf2 activates transcription of a group of antioxidant genes, such as heme oxygenase-1 (HO-1) and NAD (P)H: quinone oxidoreductase-1 (NQO1), which would subsequently reduce the damage in brain [18].
+# T13 Protein S12 88 104 1866 1882 heme oxygenase-1
+# T14 Protein S12 106 110 1884 1888 HO-1
+
+Postinjury administration of SFN, an inducer of Nrf2, significantly improves spatial memory of rat and decreases the immunoreactivity for 4-Hydroxynonenal (4-HNE), a marker of lipid peroxidation, in the cortex and the CA3 subfield of hippocampus after TBI [19].
+
+On the other hand, Nrf2-deficient mice appear more susceptible to TBI.
+
+Depletion of Nrf2 induces higher expression of proinflammatory mediators in brain after TBI [20].
+
+Here, our results revealed that overexpression of TNF-alpha, IL-1beta, IL-6, and MMP9 after scratch injury was more aggravated in cultured Nrf2 knockout astrocytes than in wildtype astrocyetes for the first time, and overexpression of these proinflammatory mediators led to more astrocytes deaths.
+# T15 Protein S16 61 69 2487 2495 IL-1beta
+# T16 Protein S16 71 75 2497 2501 IL-6
+# T17 Protein S16 81 85 2507 2511 MMP9
+
+Data obtained from animal studies suggest the possibility that antioxidant effect of Nrf2 may be achieved by suppression of proinflammatory pathways which are mediated by NF-kappaB signaling.
+
+Administration of SFN is found to be able to inhibit IKK/IkappaB phosphorylation and p65 NF-kappaB subunit nuclear translocation, consequently alleviating NF-kappaB signaling [21].
+# T30 Protein S18 85 88 3001 3004 p65
+
+And NF-kappaB activation induced by lipopolysaccharide (LPS) could be attenuated by diverse Nrf2 activators, such as SFN and curcumin (CUR) [22].
+
+Furthermore, our previous studies indicate that depletion of Nrf2 induces augmentation of NF-kappaB activity and inflammatory response in lung, brain, and intestine after TBI [4, 5, 23].
+
+Results from this study further confirmed such relationship existed in cultured astrocytes after scratch injury.
+
+Enhanced activation of NF-kappaB is also discovered in lung, macrophages, and mouse embryonic fibroblasts of Nrf2-deficient mice after experimental sepsis [24].
+
+Interestingly, it is reported that NF-kappaB can inhibit Nrf2 at transcriptional level.
+
+NF-kappaB p65 subunit repressed the Nrf2-ARE pathway at transcriptional level by competitive interaction with the CH1-KIX domain of CBP or local histone hypoacetylation [25].
+# T31 Protein S24 10 13 3802 3805 p65
+
+All these findings indicate the potential complicate crosstalk between NF-kappaB and Nrf2, which may be regulated by the upstream mitogen-activated protein kinase (MAPKs) pathway [26].
+
+It has been confirmed that Nrf2 is mainly detected in nucleus of astrocytes after TBI [18].
+
+In view of the fact that Nrf2 is a transcription factor which should take function mainly in nucleus, it can be reasoned that astrocytes may be one kind of respondent cells in activation of Nrf2-ARE pathway after TBI.
+
+Previous study identified the expression of TNF-alpha, IL-1beta, and IL-6 in cultured astrocytes after treatment with LPS or oxyhemoglobin [27, 28].
+# T32 Protein S28 55 63 4517 4525 IL-1beta
+# T33 Protein S28 69 73 4531 4535 IL-6
+
+Another study revealed that after middle cerebral artery occlusion, MMP9-positive astrocytes were observed in brain tissues by immunohistochemistry [29].
+# T34 Protein S29 68 72 4679 4683 MMP9
+
+Those results indicate the role of astrocytes in inflammatory process after brain injury.
+
+But till now, there is no study focused on the relationship among astrocytes, Nrf2, and proinflammatory mediators after TBI.
+
+Our results demonstrated the upregulated expression of TNF-alpha, IL-1beta, IL-6, and MMP9 in Nrf2 knockout astrocytes after scratch injury for the first time.
+# T35 Protein S32 66 74 5046 5054 IL-1beta
+# T36 Protein S32 76 80 5056 5060 IL-6
+# T37 Protein S32 86 90 5066 5070 MMP9
+
+In conclusion, depletion of Nrf2 induced the activation of NF-kappaB and the expression of TNF-alpha, IL-1beta, IL-6, and MMP9 resulting in more cell deaths in astrocytes after scratch injury.
+# T38 Protein S33 102 110 5242 5250 IL-1beta
+# T39 Protein S33 112 116 5252 5256 IL-6
+# T40 Protein S33 122 126 5262 5266 MMP9
+
+These results suggest that Nrf2 may be an important target for anti-inflammatory therapy after TBI.
+

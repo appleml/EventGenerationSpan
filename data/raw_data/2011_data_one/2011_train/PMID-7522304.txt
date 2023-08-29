@@ -1,0 +1,26 @@
+Calcium signalling in T cells stimulated by a cyclophilin B-binding protein.
+# T1 Protein S1 46 59 46 59 cyclophilin B
+
+The immunosuppressant drug cyclosporin A blocks a calcium-dependent signal from the T-cell receptor (TCR) that normally leads to T-cell activation.
+
+When bound to cyclophilin, cyclosporin A binds and inactivates the key signalling intermediate calcineurin.
+
+To identify potential cellular homologues of cyclosporin A that might regulate calcium signalling, we have cloned human genes encoding cyclophilin B-binding-proteins using the yeast two-hybrid system.
+# T2 Protein S4 135 148 469 482 cyclophilin B
+
+One gene product, when overexpressed in Jurkat T cells, specifically induced transcription from the interleukin-2 enhancer, by activating the T-cell-specific transcription factors NF-AT and NF-IL2A.
+# T3 Protein S5 100 113 635 648 interleukin-2
+$ T3 Protein S5 100 113 635 648 interleukin-2
+@ T8 Positive_regulation S5 69 76 604 611 induced
+@ T9 Transcription S5 77 90 612 625 transcription
+% E1 Positive_regulation:T8 Theme:E2
+% E2 Transcription:T9 Theme:T3
+
+This protein, termed calcium-signal modulating cyclophilin ligand (CAML), acts downstream of the TCR and upstream of calcineurin by causing an influx of calcium.
+# T4 Protein S6 21 65 755 799 calcium-signal modulating cyclophilin ligand
+# T5 Protein S6 67 71 801 805 CAML
+
+CAML appears to be a new participant in the calcium-signal transduction pathway, implicating cyclophilin B in calcium signalling, even in the absence of cyclosporin.
+# T6 Protein S7 0 4 896 900 CAML
+# T7 Protein S7 93 106 989 1002 cyclophilin B
+

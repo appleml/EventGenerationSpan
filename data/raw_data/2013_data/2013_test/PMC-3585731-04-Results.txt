@@ -1,0 +1,31 @@
+TNFalpha Induces Delayed Akt Thr308 Phosphorylation and Necroptosis Independent of Growth Factor Stimulation
+# T1 Protein S1 0 8 0 8 TNFalpha
+
+Consistent with TNFalpha inducing necroptosis independently of growth factors (Fig. 1A), FGFR inhibitors did not attenuate TNFalpha-induced changes in Akt or JNK phosphorylation, while efficiently preventing these changes in response to zVAD.fmk (Fig.
+# T2 Protein S2 16 24 125 133 TNFalpha
+# T3 Protein S2 123 131 232 240 TNFalpha
+
+S4A).
+
+Furthermore, addition of TNFalpha led to comparable late activation of Akt p308 signal under both normal and serum free conditions (Fig.
+# T4 Protein S4 25 33 392 400 TNFalpha
+
+S4B, C), indicating that TNFalpha signaling to Akt Thr308 is growth factor-independent.
+# T5 Protein S5 25 33 529 537 TNFalpha
+
+In contrast, activation of JNK by TNFalpha followed different kinetics from zVAD.fmk-induced changes.
+# T6 Protein S6 34 42 626 634 TNFalpha
+
+TNFalpha treatment caused an early and robust increase in the phosphorylation of JNK and c-Jun.
+# T7 Protein S7 0 8 694 702 TNFalpha
+# T8 Protein S7 89 94 783 788 c-Jun
+
+Nec-1 did not affect this early increase, however, it reduced levels of pJNK/Jun at the late, 9 hr time point (Fig.
+
+S4B, C).
+
+This again separated early RIP1-independent changes, which likely reflect the ability of additional upstream kinases, such as Ask1 to activate JNK [27], from the late RIP1 kinase-dependent necroptotic signaling.
+# T9 Protein S10 27 31 942 946 RIP1
+# T10 Protein S10 126 130 1041 1045 Ask1
+# T11 Protein S10 167 171 1082 1086 RIP1
+

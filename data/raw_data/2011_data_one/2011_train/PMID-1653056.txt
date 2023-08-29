@@ -1,0 +1,30 @@
+NF-kappa B activation by tumor necrosis factor alpha in the Jurkat T cell line is independent of protein kinase A, protein kinase C, and Ca(2+)-regulated kinases.
+# T1 Protein S1 25 52 25 52 tumor necrosis factor alpha
+
+NF-kappa B is a DNA-binding regulatory factor able to control transcription of a number of genes, including human immunodeficiency virus (HIV) genes.
+
+In T cells, NF-kappa B is activated upon cellular treatment by phorbol esters and the cytokine tumor necrosis factor alpha (TNF alpha).
+# T2 Protein S3 95 122 409 436 tumor necrosis factor alpha
+# T3 Protein S3 124 133 438 447 TNF alpha
+
+In the present work, we investigated the molecular events leading to NF-kappa B activation by TNF alpha in a human T cell line (Jurkat) and its subclone JCT6, which presents a deficiency in the PKA transduction pathway.
+# T4 Protein S4 94 103 544 553 TNF alpha
+
+We found that in both cell lines, both phorbol ester and TNF alpha were able to activate NF-kappa B. Phorbol activation was positively modulated by Ca2+ influx while TNF alpha activation was not.
+# T5 Protein S5 57 66 727 736 TNF alpha
+# T6 Protein S5 166 175 836 845 TNF alpha
+
+Furthermore, while PMA activation was inhibited by the PKC inhibitor staurosporin, the TNF alpha effect was unchanged.
+# T7 Protein S6 87 96 953 962 TNF alpha
+
+TNF alpha did not activate cAMP production and its signal was not modulated by cAMP activators.
+# T8 Protein S7 0 9 985 994 TNF alpha
+
+Moreover, cAMP activators did not activate NF-kappa B in Jurkat cells.
+
+Thus, TNF alpha-induced NF-kappa B activation was found to be mediated by none of the major signal-mediating kinases such as protein kinase C (PKC), protein kinase A, or Ca(2+)-regulated kinases.
+# T9 Protein S9 6 15 1158 1167 TNF alpha
+
+Furthermore, we found that cytoplasmic acidification facilitated NF-kappa B activation by both TNF alpha and PKC, by a mechanism that increases NF-kappa B/I kappa B dissociation without affecting the NF-kappa B translocation step.
+# T10 Protein S10 95 104 1443 1452 TNF alpha
+

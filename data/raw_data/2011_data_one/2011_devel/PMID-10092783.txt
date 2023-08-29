@@ -1,0 +1,39 @@
+IL-2-mediated cell cycle progression and inhibition of apoptosis does not require NF-kappa B or activating protein-1 activation in primary human T cells.
+# T1 Protein S1 0 4 0 4 IL-2
+
+The IL-2 growth hormone is the major growth factor of activated T lymphocytes during a developing immune response.
+# T2 Protein S2 4 8 159 163 IL-2
+
+IL-2 is required not only for cell cycle progression but also to protect Ag-activated T cells from programmed cell death.
+# T3 Protein S3 0 4 270 274 IL-2
+
+In several cell types, activation of NF-kappa B and/or activating protein-1 (AP-1) has been demonstrated to be extremely important in blocking apoptosis.
+
+To determine whether either or both of these transcription factors are involved in cell survival or cell cycle progression in response to IL-2, primary human T cells responsive to the growth factor were analyzed for NF-kappa B and AP-1 activation.
+# T4 Protein S5 138 142 684 688 IL-2
+
+The current study clearly demonstrates that IL-2 does not induce I kappa B alpha degradation or NF-kappa B activation in primary human T cells that respond to IL-2 by entering the cell cycle and avoiding apoptosis.
+# T5 Protein S6 44 48 838 842 IL-2
+# T6 Protein S6 65 80 859 874 I kappa B alpha
+# T7 Protein S6 159 163 953 957 IL-2
+$ T5 Protein S6 44 48 838 842 IL-2
+$ T6 Protein S6 65 80 859 874 I kappa B alpha
+@ T11 Positive_regulation S6 58 64 852 858 induce
+@ T12 Protein_catabolism S6 81 92 875 886 degradation
+% E1 Positive_regulation:T11 Theme:E2 Cause:T5
+% E2 Protein_catabolism:T12 Theme:T6
+
+Similarly, IL-2 neither activates JNK nor increases AP-1 binding activity to a consensus o-tetradecanoylphorbol 13-acetate (TPA) response element.
+# T8 Protein S7 11 15 1020 1024 IL-2
+
+On the other hand, the growth factor does induce the activation of STAT3 and STAT5 in these cells, as has been previously demonstrated.
+# T9 Protein S8 67 72 1223 1228 STAT3
+$ T9 Protein S8 67 72 1223 1228 STAT3
+@ T13 Positive_regulation S8 42 48 1198 1204 induce
+@ T14 Positive_regulation S8 53 63 1209 1219 activation
+% E3 Positive_regulation:T13 Theme:E4 Cause:T8
+% E4 Positive_regulation:T14 Theme:T9
+
+These data show that neither NF-kappa B nor AP-1 activation is required for IL-2-mediated survival or cell cycle progression in activated primary human T cells.
+# T10 Protein S9 76 80 1368 1372 IL-2
+

@@ -1,0 +1,32 @@
+Signals transduced through the CD4 molecule on T lymphocytes activate NF-kappa B.
+# T1 Protein S1 31 34 31 34 CD4
+
+We have demonstrated that native envelope glycoproteins of HIV-1, gp160 can induce activation of the transcription factor, NF-kappa B.
+# T2 Protein S2 66 71 149 154 gp160
+
+The stimulatory effects of gp160 are mediated through the CD4 molecule, since pretreatment with soluble CD4 abrogates its activity.
+# T3 Protein S3 27 32 245 250 gp160
+# T4 Protein S3 58 61 276 279 CD4
+# T5 Protein S3 104 107 322 325 CD4
+
+The gp160-induced NF-kappa B complex consists of p65, p50 and c-rel proteins.
+# T6 Protein S4 4 9 354 359 gp160
+# T7 Protein S4 49 52 399 402 p65
+# T8 Protein S4 54 57 404 407 p50
+# T9 Protein S4 62 67 412 417 c-rel
+$ T6 Protein S4 4 9 354 359 gp160
+$ T7 Protein S4 49 52 399 402 p65
+$ T8 Protein S4 54 57 404 407 p50
+$ T9 Protein S4 62 67 412 417 c-rel
+@ T13 Positive_regulation S4 10 17 360 367 induced
+@ T14 Binding S4 29 36 379 386 complex
+% E1 Positive_regulation:T13 Theme:E2 Cause:T6
+% E2 Binding:T14 Theme:T7 Theme2:T8 Theme3:T9
+
+The stimulatory effect of gp160 on NF-kappa B activation is protein synthesis independent, is dependent upon protein tyrosine phosphorylation, and abrogated by inhibitors of protein kinase C.
+# T10 Protein S5 26 31 454 459 gp160
+
+The gp160-mediated activation of NF-kappa B in CD4 positive T cells may be involved in biological effects, e.g., enhanced HIV replication, hypergammaglobulinemia, increased cytokine secretion, hypercellularity in bone marrow and apoptosis.
+# T11 Protein S6 4 9 624 629 gp160
+# T12 Protein S6 47 50 667 670 CD4
+

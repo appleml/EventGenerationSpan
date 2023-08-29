@@ -1,0 +1,64 @@
+NleH1 inhibits RPS3 S209 phosphorylation in vivo
+# T1 Protein S1 0 5 0 5 NleH1
+# T2 Protein S1 15 19 15 19 RPS3
+$ T1 Protein S1 0 5 0 5 NleH1
+$ T2 Protein S1 15 19 15 19 RPS3
+@ T13 Negative_regulation S1 6 14 6 14 inhibits
+@ T14 Entity S1 20 24 20 24 S209
+@ T15 Phosphorylation S1 25 40 25 40 phosphorylation
+% E1 Negative_regulation:T13 Theme:E2 Cause:T1
+% E2 Phosphorylation:T15 Theme:T2 Site:T14
+
+We previously utilized a gnotobiotic piglet infection model to determine that piglets infected with deltanleH1 mutant died more rapidly than those infected with wild-type E. coli O157:H7.
+# T3 Protein S2 100 110 149 159 deltanleH1
+
+Piglets infected with deltanleH1 displayed clinical disease consistent with a robust inflammatory response, but with reduced bacterial colonization and little diarrhea9.
+# T4 Protein S3 22 32 259 269 deltanleH1
+
+While seemingly paradoxical, based on our cell culture data (Fig. 6d), we hypothesized that NleH1 blocked RPS3 S209 phosphorylation in vivo, thereby preventing RPS3 nuclear translocation in infected piglets.
+# T5 Protein S4 92 97 499 504 NleH1
+# T6 Protein S4 106 110 513 517 RPS3
+# T7 Protein S4 160 164 567 571 RPS3
+$ T5 Protein S4 92 97 499 504 NleH1
+$ T6 Protein S4 106 110 513 517 RPS3
+$ T7 Protein S4 160 164 567 571 RPS3
+@ T16 Negative_regulation S4 98 105 505 512 blocked
+@ T17 Entity S4 111 115 518 522 S209
+@ T18 Phosphorylation S4 116 131 523 538 phosphorylation
+@ T19 Negative_regulation S4 149 159 556 566 preventing
+@ T20 Entity S4 165 172 572 579 nuclear
+@ T21 Localization S4 173 186 580 593 translocation
+% E3 Negative_regulation:T16 Theme:E4 Cause:T5
+% E4 Phosphorylation:T18 Theme:T6 Site:T17
+% E5 Negative_regulation:T19 Theme:E6 Cause:E3
+% E6 Localization:T21 Theme:T7 ToLoc:T20
+
+We isolated piglet colons at necropsy, and subjected them to immunohistochemistry using our phospho-RPS3 antibody.
+
+Consistent with in vitro data, piglets infected with wild-type E. coli O157:H7 exhibited diffuse and low intensity phospho-RPS3 staining, whereas in piglets infected with deltanleH1 mutant, phospho-RPS3 expression was florid and intense (Fig. 6f).
+# T8 Protein S6 123 127 853 857 RPS3
+# T9 Protein S6 171 181 901 911 deltanleH1
+# T10 Protein S6 198 202 928 932 RPS3
+$ T8 Protein S6 123 127 853 857 RPS3
+$ T10 Protein S6 198 202 928 932 RPS3
+$ T9 Protein S6 171 181 901 911 deltanleH1
+@ T22 Negative_regulation S6 101 104 831 834 low
+@ T23 Phosphorylation S6 115 122 845 852 phospho
+@ T24 Phosphorylation S6 190 197 920 927 phospho
+@ T25 Positive_regulation S6 229 236 959 966 intense
+% E7 Negative_regulation:T22 Theme:E8
+% E8 Phosphorylation:T23 Theme:T8
+% E9 Phosphorylation:T24 Theme:T10
+% E10 Positive_regulation:T25 Theme:E9 Cause:T9
+
+These data demonstrate that NleH1 inhibits RPS3 S209 phosphorylation both in vitro and in vivo, which might benefit the bacterium in colonization and transmission.
+# T11 Protein S7 28 33 1006 1011 NleH1
+# T12 Protein S7 43 47 1021 1025 RPS3
+$ T11 Protein S7 28 33 1006 1011 NleH1
+$ T12 Protein S7 43 47 1021 1025 RPS3
+@ T26 Negative_regulation S7 34 42 1012 1020 inhibits
+@ T27 Entity S7 48 52 1026 1030 S209
+@ T28 Phosphorylation S7 53 68 1031 1046 phosphorylation
+% E11 Negative_regulation:T26 Theme:E12 Cause:T11
+% E12 Phosphorylation:T28 Theme:T12 Site:T27
+

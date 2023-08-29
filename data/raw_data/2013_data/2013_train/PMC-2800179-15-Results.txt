@@ -1,0 +1,121 @@
+Degraded CGN Induced-TNF-alpha Production by Monocytes In Vitro
+# T1 Protein S1 21 30 21 30 TNF-alpha
+$ T1 Protein S1 21 30 21 30 TNF-alpha
+@ T18 Positive_regulation S1 13 20 13 20 Induced
+@ T19 Gene_expression S1 31 41 31 41 Production
+% E1 Positive_regulation:T18 Theme:E2
+% E2 Gene_expression:T19 Theme:T1
+
+In order to study the capacity of dCGN to stimulate TNF-alpha production, peripheral blood monocytes were cultivated in the presence of dCGN (0.1 to 1 mg/ml).
+# T2 Protein S2 52 61 116 125 TNF-alpha
+$ T2 Protein S2 52 61 116 125 TNF-alpha
+@ T20 Positive_regulation S2 42 51 106 115 stimulate
+@ T21 Gene_expression S2 62 72 126 136 production
+% E3 Positive_regulation:T20 Theme:E4
+% E4 Gene_expression:T21 Theme:T2
+
+Very low levels of TNF-alpha were induced in PBM after stimulation with native CGN (Fig. 2A).
+# T3 Protein S3 19 28 242 251 TNF-alpha
+$ T3 Protein S3 19 28 242 251 TNF-alpha
+@ T22 Positive_regulation S3 34 41 257 264 induced
+@ T23 Positive_regulation S3 55 66 278 289 stimulation
+% E5 Positive_regulation:T22 Theme:T3
+% E6 Positive_regulation:T23 Theme:E5
+
+Addition of 0.1 mg/ml 10 kDa dCGN resulted in approximately a 60-fold increase in TNF-alpha production by PBM.
+# T4 Protein S4 82 91 399 408 TNF-alpha
+$ T4 Protein S4 82 91 399 408 TNF-alpha
+@ T24 Positive_regulation S4 34 42 351 359 resulted
+@ T25 Positive_regulation S4 70 78 387 395 increase
+@ T26 Gene_expression S4 92 102 409 419 production
+% E7 Positive_regulation:T24 Theme:E8
+% E8 Positive_regulation:T25 Theme:E9
+% E9 Gene_expression:T26 Theme:T4
+
+This was a dose-dependent effect that reached a 180-fold increase when cells were exposed to 1 mg/ml of 10 kDa dCGN (Fig. 2A).
+@ T27 Regulation S5 16 25 444 453 dependent
+@ T16 Anaphora S5 26 32 454 460 effect
+% E10 Regulation:T27 Theme:E7
+
+A 250-fold increase in TNF-alpha production was detected at 1 mg/ml 40 kDa dCGN (Fig. 2A).
+# T5 Protein S6 23 32 578 587 TNF-alpha
+$ T5 Protein S6 23 32 578 587 TNF-alpha
+@ T28 Positive_regulation S6 11 19 566 574 increase
+@ T29 Gene_expression S6 33 43 588 598 production
+% E11 Positive_regulation:T28 Theme:E12
+% E12 Gene_expression:T29 Theme:T5
+
+TNF-alpha production increased in time reaching a maximum level at 8 hours of culture (Figure 2B).
+# T6 Protein S7 0 9 646 655 TNF-alpha
+$ T6 Protein S7 0 9 646 655 TNF-alpha
+@ T30 Gene_expression S7 10 20 656 666 production
+@ T31 Positive_regulation S7 21 30 667 676 increased
+% E13 Gene_expression:T30 Theme:T6
+% E14 Positive_regulation:T31 Theme:E13
+
+After 24 h, the amount of secreted TNF-alpha was still one third of the total TNF-alpha.
+# T7 Protein S8 35 44 780 789 TNF-alpha
+# T8 Protein S8 78 87 823 832 TNF-alpha
+$ T7 Protein S8 35 44 780 789 TNF-alpha
+@ T32 Localization S8 26 34 771 779 secreted
+% E15 Localization:T32 Theme:T7
+
+Lipopolysaccharide (LPS), a known activator of immune cells also induced TNF-alpha production with similar kinetics as dCGN (Fig. 2B).
+# T9 Protein S9 73 82 907 916 TNF-alpha
+$ T9 Protein S9 73 82 907 916 TNF-alpha
+@ T33 Positive_regulation S9 65 72 899 906 induced
+@ T34 Gene_expression S9 83 93 917 927 production
+% E16 Positive_regulation:T33 Theme:E17
+% E17 Gene_expression:T34 Theme:T9
+
+However, the amount of TNF-alpha produced by LPS was 4-fold less than the one produced by dCGN and it was not detected after 8 hours of culture (Fig. 2B).
+# T10 Protein S10 23 32 992 1001 TNF-alpha
+$ T10 Protein S10 23 32 992 1001 TNF-alpha
+@ T35 Gene_expression S10 33 41 1002 1010 produced
+@ T36 Positive_regulation S10 42 44 1011 1013 by
+@ T17 Anaphora S10 70 77 1039 1046 the one
+@ T37 Gene_expression S10 78 86 1047 1055 produced
+@ T38 Positive_regulation S10 87 89 1056 1058 by
+% E18 Gene_expression:T35 Theme:T10
+% E19 Positive_regulation:T36 Theme:E18
+% E20 Gene_expression:T37 Theme:T10
+% E21 Positive_regulation:T38 Theme:E20
+
+Similarly, monocytic THP-1 cells cultivated in the presence of variable concentration of dCGN showed an increase in TNF-alpha production (Fig. 2C).
+# T11 Protein S11 116 125 1240 1249 TNF-alpha
+$ T11 Protein S11 116 125 1240 1249 TNF-alpha
+@ T39 Positive_regulation S11 104 112 1228 1236 increase
+@ T40 Gene_expression S11 126 136 1250 1260 production
+% E22 Positive_regulation:T39 Theme:E23
+% E23 Gene_expression:T40 Theme:T11
+
+This increase in TNF-alpha production was significantly smaller (about 10-fold) than the one presented by PBM (Fig. 2A).
+# T12 Protein S12 17 26 1289 1298 TNF-alpha
+$ T12 Protein S12 17 26 1289 1298 TNF-alpha
+@ T41 Positive_regulation S12 0 13 1272 1285 This increase
+@ T42 Gene_expression S12 27 37 1299 1309 production
+% E24 Positive_regulation:T41 Theme:E25
+% E25 Gene_expression:T42 Theme:T12
+
+No TNF-alpha was released from THP-1 cells exposed to native CGN (not shown).
+# T13 Protein S13 3 12 1396 1405 TNF-alpha
+$ T13 Protein S13 3 12 1396 1405 TNF-alpha
+@ T43 Localization S13 17 25 1410 1418 released
+% E26 Localization:T43 Theme:T13
+
+TNF-alpha production by THP-1 cells was not dose dependent to the amount of dCGN used.
+# T14 Protein S14 0 9 1471 1480 TNF-alpha
+$ T14 Protein S14 0 9 1471 1480 TNF-alpha
+@ T44 Gene_expression S14 10 20 1481 1491 production
+@ T45 Regulation S14 49 58 1520 1529 dependent
+% E27 Gene_expression:T44 Theme:T14
+% E28 Regulation:T45 Theme:E27
+
+Also there was no difference between the two forms (10 and 40 kDa) of dCGN (Fig. 2C).
+
+Interestingly, TNF-alpha release from THP-1 cells stimulated with dCGN reached a maximum level at 32 h, while stimulation with LPS reached a maximum level at 56 h (Fig. 2D).
+# T15 Protein S16 15 24 1659 1668 TNF-alpha
+$ T15 Protein S16 15 24 1659 1668 TNF-alpha
+@ T46 Localization S16 25 32 1669 1676 release
+% E29 Localization:T46 Theme:T15
+

@@ -1,0 +1,31 @@
+Interleukin-2 induces tyrosine phosphorylation and nuclear translocation of stat3 in human T lymphocytes.
+# T1 Protein S1 0 13 0 13 Interleukin-2
+# T2 Protein S1 76 81 76 81 stat3
+
+An early biochemical event associated with T cell activation through the interleukin-2 receptor (IL-2R) is tyrosine phosphorylation of several intracellular substrates.
+
+The exact mechanism by which IL-2 regulates transcription of different genes is presently unknown.
+# T3 Protein S3 29 33 305 309 IL-2
+
+Here, we report that stimulation through the IL-2R induced tyrosine phosphorylation and subsequent nuclear translocation of stat3, a newly identified member of the signal transducers and activators of transcription (STAT) family of proteins.
+# T4 Protein S4 124 129 499 504 stat3
+
+In contrast, stat1 proteins were not tyrosine phosphorylated after IL-2 ligation, whereas tyrosine-phosphorylated stat1 proteins (91 and 84 kDa proteins) were translocated to the nucleus following interferon-gamma treatment of HeLa cells.
+# T5 Protein S5 67 71 684 688 IL-2
+# T6 Protein S5 197 213 814 830 interferon-gamma
+
+Apart from stat3, another cytoplasmic protein was tyrosine phosphorylated and subsequently translocated to the nucleus in response to IL-2.
+# T7 Protein S6 11 16 867 872 stat3
+# T8 Protein S6 134 138 990 994 IL-2
+
+This protein had an apparent molecular mass of 84 kDa and was not recognized by stat3 or stat1 mAb or antisera.
+# T9 Protein S7 80 85 1076 1081 stat3
+
+Since IL-2 induced nuclear translocation of the 84 kDa protein and stat3 followed identical kinetics, p84 is a candidate for a new, yet undefined, member of the STAT family.
+# T10 Protein S8 6 10 1114 1118 IL-2
+# T11 Protein S8 67 72 1175 1180 stat3
+
+Taken together, we report that IL-2 induces tyrosine phosphorylation and subsequent nuclear translocation of stat3 and an as yet undefined 84-kDa protein in antigen-specific human T cell lines.
+# T12 Protein S9 31 35 1313 1317 IL-2
+# T13 Protein S9 109 114 1391 1396 stat3
+

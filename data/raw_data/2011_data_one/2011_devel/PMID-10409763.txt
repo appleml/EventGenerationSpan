@@ -1,0 +1,67 @@
+The Epstein-Barr virus oncoprotein latent membrane protein 1 engages the tumor necrosis factor receptor-associated proteins TRADD and receptor-interacting protein (RIP) but does not induce apoptosis or require RIP for NF-kappaB activation.
+# T1 Protein S1 35 60 35 60 latent membrane protein 1
+# T2 Protein S1 124 129 124 129 TRADD
+$ T1 Protein S1 35 60 35 60 latent membrane protein 1
+$ T2 Protein S1 124 129 124 129 TRADD
+@ T26 Binding S1 61 68 61 68 engages
+% E1 Binding:T26 Theme:T1 Theme2:T2
+% E2 Binding:T26 Theme:T1
+
+A site in the Epstein-Barr virus (EBV) transforming protein LMP1 that constitutively associates with the tumor necrosis factor receptor 1 (TNFR1)-associated death domain protein TRADD to mediate NF-kappaB and c-Jun N-terminal kinase activation is critical for long-term lymphoblastoid cell proliferation.
+# T3 Protein S2 60 64 301 305 LMP1
+# T4 Protein S2 105 177 346 418 tumor necrosis factor receptor 1 (TNFR1)-associated death domain protein
+# T5 Protein S2 178 183 419 424 TRADD
+$ T3 Protein S2 60 64 301 305 LMP1
+$ T5 Protein S2 178 183 419 424 TRADD
+@ T27 Binding S2 85 95 326 336 associates
+% E3 Binding:T27 Theme:T3 Theme2:T5
+
+We now find that LMP1 signaling through TRADD differs from TNFR1 signaling through TRADD.
+# T6 Protein S3 17 21 563 567 LMP1
+# T7 Protein S3 40 45 586 591 TRADD
+# T8 Protein S3 59 64 605 610 TNFR1
+# T9 Protein S3 83 88 629 634 TRADD
+
+LMP1 needs only 11 amino acids to activate NF-kappaB or synergize with TRADD in NF-kappaB activation, while TNFR1 requires approximately 70 residues.
+# T10 Protein S4 0 4 636 640 LMP1
+# T11 Protein S4 71 76 707 712 TRADD
+# T12 Protein S4 108 113 744 749 TNFR1
+
+Further, LMP1 does not require TRADD residues 294 to 312 for NF-kappaB activation, while TNFR1 requires TRADD residues 296 to 302.
+# T13 Protein S5 9 13 795 799 LMP1
+# T14 Protein S5 31 36 817 822 TRADD
+# T15 Protein S5 89 94 875 880 TNFR1
+# T16 Protein S5 104 109 890 895 TRADD
+
+LMP1 is partially blocked for NF-kappaB activation by a TRADD mutant consisting of residues 122 to 293.
+# T17 Protein S6 0 4 917 921 LMP1
+# T18 Protein S6 56 61 973 978 TRADD
+
+Unlike TNFR1, LMP1 can interact directly with receptor-interacting protein (RIP) and stably associates with RIP in EBV-transformed lymphoblastoid cell lines.
+# T19 Protein S7 7 12 1028 1033 TNFR1
+# T20 Protein S7 14 18 1035 1039 LMP1
+$ T20 Protein S7 14 18 1035 1039 LMP1
+$ T19 Protein S7 7 12 1028 1033 TNFR1
+@ T28 Binding S7 23 31 1044 1052 interact
+@ T29 Binding S7 92 102 1113 1123 associates
+% E4 Binding:T28 Theme:T20
+% E5 Binding:T28 Theme:T19 Theme2:T25
+% E6 Binding:T29 Theme:T19
+% E7 Binding:T29 Theme:T20
+
+Surprisingly, LMP1 does not require RIP for NF-kappaB activation.
+# T21 Protein S8 14 18 1193 1197 LMP1
+
+Despite constitutive association with TRADD or RIP, LMP1 does not induce apoptosis in EBV-negative Burkitt lymphoma or human embryonic kidney 293 cells.
+# T22 Protein S9 38 43 1283 1288 TRADD
+# T23 Protein S9 52 56 1297 1301 LMP1
+$ T22 Protein S9 38 43 1283 1288 TRADD
+$ T23 Protein S9 52 56 1297 1301 LMP1
+@ T30 Binding S9 21 32 1266 1277 association
+% E8 Binding:T30 Theme:T22 Theme2:T23
+% E9 Binding:T30 Theme:T23
+
+These results add a different perspective to the molecular interactions through which LMP1, TRADD, and RIP participate in B-lymphocyte activation and growth.
+# T24 Protein S10 86 90 1484 1488 LMP1
+# T25 Protein S10 92 97 1490 1495 TRADD
+

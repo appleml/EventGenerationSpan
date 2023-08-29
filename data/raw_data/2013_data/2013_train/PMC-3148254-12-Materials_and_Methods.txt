@@ -1,0 +1,34 @@
+GLepsilon transcript assay
+# T1 Protein S1 0 9 0 9 GLepsilon
+
+The CD40-simulated activation of GLepsilon transcription was evaluated as previously reported [33].
+# T2 Protein S2 4 8 31 35 CD40
+# T3 Protein S2 33 42 60 69 GLepsilon
+$ T2 Protein S2 4 8 31 35 CD40
+$ T3 Protein S2 33 42 60 69 GLepsilon
+@ T9 Positive_regulation S2 9 18 36 45 simulated
+@ T10 Positive_regulation S2 19 29 46 56 activation
+@ T11 Transcription S2 43 56 70 83 transcription
+% E1 Positive_regulation:T9 Theme:E2 Cause:T2
+% E2 Positive_regulation:T10 Theme:E3
+% E3 Transcription:T11 Theme:T3
+
+Briefly, 1x106 cells were stimulated overnight with anti-CD40 antibody (10 microg/ml) or an isotype control antibody, with or without 500 U/ml mouse IL-4 (BD Biosciences).
+# T4 Protein S3 149 153 276 280 IL-4
+
+RNA was isolated using Trizol (Invitrogen), and reverse-transcribed (Superscript III kit, Invitrogen).
+
+Quantitative PCR for GLepsilon and Hprt1 was performed using SYBR GREEN master mix (Applied Biosystems), and an Applied Biosystems 7900HT Fast Real-Time PCR instrument.
+# T5 Protein S5 21 30 423 432 GLepsilon
+# T6 Protein S5 35 40 437 442 Hprt1
+
+Expression of GLepsilon in each sample was normalized to the expression of Hprt1.
+# T7 Protein S6 14 23 585 594 GLepsilon
+# T8 Protein S6 75 80 646 651 Hprt1
+$ T7 Protein S6 14 23 585 594 GLepsilon
+$ T8 Protein S6 75 80 646 651 Hprt1
+@ T12 Gene_expression S6 0 10 571 581 Expression
+@ T13 Gene_expression S6 61 71 632 642 expression
+% E4 Gene_expression:T12 Theme:T7
+% E5 Gene_expression:T13 Theme:T8
+

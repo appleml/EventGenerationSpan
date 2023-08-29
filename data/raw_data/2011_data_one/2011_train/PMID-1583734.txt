@@ -1,0 +1,43 @@
+Specific NF-kappa B subunits act in concert with Tat to stimulate human immunodeficiency virus type 1 transcription.
+# T1 Protein S1 49 52 49 52 Tat
+
+NF-kappa B is a protein complex which functions in concert with the tat-I gene product to stimulate human immunodeficiency virus (HIV) transcription.
+# T2 Protein S2 68 73 186 191 tat-I
+
+To determine whether specific members of the NF-kappa B family contribute to this effect, we have examined the abilities of different NF-kappa B subunits to act with Tat-I to stimulate transcription of HIV in Jurkat T-leukemia cells.
+# T3 Protein S3 166 171 434 439 Tat-I
+
+We have found that the p49(100) DNA binding subunit, together with p65, can act in concert with Tat-I to stimulate the expression of HIV-CAT plasmid.
+# T4 Protein S4 23 31 525 533 p49(100)
+# T5 Protein S4 67 70 569 572 p65
+# T6 Protein S4 96 101 598 603 Tat-I
+# T7 Protein S4 137 140 639 642 CAT
+$ T4 Protein S4 23 31 525 533 p49(100)
+$ T7 Protein S4 137 140 639 642 CAT
+@ T15 Binding S4 36 51 538 553 binding subunit
+@ T16 Positive_regulation S4 105 114 607 616 stimulate
+@ T17 Gene_expression S4 119 129 621 631 expression
+% E1 Binding:T15 Theme:T4
+% E2 Positive_regulation:T16 Theme:E3
+% E3 Gene_expression:T17 Theme:T7
+
+Little effect was observed with 50-kDa forms of p105 NF-kappa B or rel, in combination with p65 or full-length c-rel, which do not stimulate the HIV enhancer in these cells.
+# T8 Protein S5 48 52 700 704 p105
+# T9 Protein S5 67 70 719 722 rel
+# T10 Protein S5 92 95 744 747 p65
+# T11 Protein S5 111 116 763 768 c-rel
+$ T10 Protein S5 92 95 744 747 p65
+$ T8 Protein S5 48 52 700 704 p105
+$ T11 Protein S5 111 116 763 768 c-rel
+$ T9 Protein S5 67 70 719 722 rel
+@ T18 Positive_regulation S5 7 13 659 665 effect
+% E4 Positive_regulation:T18 Theme:E3 Cause:T10
+% E5 Positive_regulation:T18 Theme:E3 Cause:T8
+% E6 Positive_regulation:T18 Theme:E3 Cause:T11
+% E7 Positive_regulation:T18 Theme:E3 Cause:T9
+
+These findings suggest that the combination of p49(100) and p65 NF-kappa B can act in concert with the tat-I gene product to stimulate the synthesis of HIV RNA.
+# T12 Protein S6 47 55 873 881 p49(100)
+# T13 Protein S6 60 63 886 889 p65
+# T14 Protein S6 103 108 929 934 tat-I
+

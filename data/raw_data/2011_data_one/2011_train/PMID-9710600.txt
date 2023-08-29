@@ -1,0 +1,110 @@
+Human T-cell leukemia virus type 1 Tax induction of NF-kappaB involves activation of the IkappaB kinase alpha (IKKalpha) and IKKbeta cellular kinases.
+# T1 Protein S1 35 38 35 38 Tax
+# T2 Protein S1 89 109 89 109 IkappaB kinase alpha
+# T3 Protein S1 111 119 111 119 IKKalpha
+# T4 Protein S1 125 132 125 132 IKKbeta
+$ T3 Protein S1 111 119 111 119 IKKalpha
+$ T4 Protein S1 125 132 125 132 IKKbeta
+@ T33 Positive_regulation S1 71 81 71 81 activation
+% E1 Positive_regulation:T33 Theme:T3
+% E2 Positive_regulation:T33 Theme:T4
+
+Tax corresponds to a 40-kDa transforming protein from the pathogenic retrovirus human T-cell leukemia virus type 1 (HTLV-1) that activates nuclear expression of the NF-kappaB/Rel family of transcription factors by an unknown mechanism.
+# T5 Protein S2 0 3 152 155 Tax
+
+Tax expression promotes N-terminal phosphorylation and degradation of IkappaB alpha, a principal cytoplasmic inhibitor of NF-kappaB.
+# T6 Protein S3 0 3 388 391 Tax
+# T7 Protein S3 70 83 458 471 IkappaB alpha
+$ T6 Protein S3 0 3 388 391 Tax
+$ T7 Protein S3 70 83 458 471 IkappaB alpha
+@ T34 Gene_expression S3 4 14 392 402 expression
+@ T35 Positive_regulation S3 15 23 403 411 promotes
+@ T36 Entity S3 24 34 412 422 N-terminal
+@ T37 Phosphorylation S3 35 50 423 438 phosphorylation
+@ T38 Protein_catabolism S3 55 66 443 454 degradation
+% E3 Gene_expression:T34 Theme:T6
+% E4 Positive_regulation:T35 Theme:E6 Cause:E3
+% E5 Positive_regulation:T35 Theme:E7 Cause:E3
+% E6 Phosphorylation:T37 Theme:T7 Site:T36
+% E7 Protein_catabolism:T38 Theme:T7
+
+Our studies now demonstrate that HTLV-1 Tax activates the recently identified cellular kinases IkappaB kinase alpha (IKKalpha) and IKKbeta, which normally phosphorylate IkappaB alpha on both of its N-terminal regulatory serines in response to tumor necrosis factor alpha (TNF-alpha) and interleukin-1 (IL-1) stimulation.
+# T8 Protein S4 40 43 561 564 Tax
+# T9 Protein S4 95 115 616 636 IkappaB kinase alpha
+# T10 Protein S4 117 125 638 646 IKKalpha
+# T11 Protein S4 131 138 652 659 IKKbeta
+# T12 Protein S4 169 182 690 703 IkappaB alpha
+# T13 Protein S4 243 270 764 791 tumor necrosis factor alpha
+# T14 Protein S4 272 281 793 802 TNF-alpha
+$ T11 Protein S4 131 138 652 659 IKKbeta
+$ T8 Protein S4 40 43 561 564 Tax
+$ T10 Protein S4 117 125 638 646 IKKalpha
+$ T12 Protein S4 169 182 690 703 IkappaB alpha
+@ T39 Positive_regulation S4 44 53 565 574 activates
+@ T40 Positive_regulation S4 155 168 676 689 phosphorylate
+@ T41 Phosphorylation S4 155 168 676 689 phosphorylate
+@ T42 Entity S4 198 227 719 748 N-terminal regulatory serines
+@ T43 Positive_regulation S4 231 239 752 760 response
+% E8 Positive_regulation:T39 Theme:T11 Cause:T8
+% E9 Positive_regulation:T39 Theme:T10 Cause:T8
+% E10 Positive_regulation:T40 Theme:E11 Cause:T10
+% E11 Phosphorylation:T41 Theme:T12 Site:T42
+% E12 Positive_regulation:T43 Theme:E11
+
+In contrast, a mutant of Tax termed M22, which does not induce NF-kappaB, fails to activate either IKKalpha or IKKbeta.
+# T15 Protein S5 25 28 867 870 Tax
+# T16 Protein S5 99 107 941 949 IKKalpha
+# T17 Protein S5 111 118 953 960 IKKbeta
+$ T17 Protein S5 111 118 953 960 IKKbeta
+$ T15 Protein S5 25 28 867 870 Tax
+$ T16 Protein S5 99 107 941 949 IKKalpha
+@ T44 Positive_regulation S5 83 91 925 933 activate
+% E13 Positive_regulation:T44 Theme:T17 Cause:T15
+% E14 Positive_regulation:T44 Theme:T16 Cause:T15
+
+Furthermore, endogenous IKK enzymatic activity was significantly elevated in HTLV-1-infected and Tax-expressing T-cell lines.
+# T18 Protein S6 97 100 1059 1062 Tax
+$ T18 Protein S6 97 100 1059 1062 Tax
+@ T45 Gene_expression S6 101 111 1063 1073 expressing
+% E15 Gene_expression:T45 Theme:T18
+
+Transfection of kinase-deficient mutants of IKKalpha and IKKbeta into either human Jurkat T or 293 cells also inhibits NF-kappaB-dependent reporter gene expression induced by Tax.
+# T19 Protein S7 44 52 1132 1140 IKKalpha
+# T20 Protein S7 57 64 1145 1152 IKKbeta
+# T21 Protein S7 175 178 1263 1266 Tax
+$ T20 Protein S7 57 64 1145 1152 IKKbeta
+$ T19 Protein S7 44 52 1132 1140 IKKalpha
+@ T46 Positive_regulation S7 0 12 1088 1100 Transfection
+@ T47 Gene_expression S7 0 12 1088 1100 Transfection
+% E16 Positive_regulation:T46 Theme:E17
+% E19 Positive_regulation:T46 Theme:E18
+% E17 Gene_expression:T47 Theme:T20
+% E18 Gene_expression:T47 Theme:T19
+
+Similarly, a kinase-deficient mutant of NIK (NF-kappaB-inducing kinase), which represents an upstream kinase in the TNF-alpha and IL-1 signaling pathways leading to IKKalpha and IKKbeta activation, blocks Tax induction of NF-kappaB.
+# T22 Protein S8 40 43 1308 1311 NIK
+# T23 Protein S8 45 70 1313 1338 NF-kappaB-inducing kinase
+# T24 Protein S8 116 125 1384 1393 TNF-alpha
+# T25 Protein S8 165 173 1433 1441 IKKalpha
+# T26 Protein S8 178 185 1446 1453 IKKbeta
+# T27 Protein S8 205 208 1473 1476 Tax
+$ T25 Protein S8 165 173 1433 1441 IKKalpha
+$ T26 Protein S8 178 185 1446 1453 IKKbeta
+@ T48 Positive_regulation S8 154 161 1422 1429 leading
+@ T49 Positive_regulation S8 186 196 1454 1464 activation
+% E20 Positive_regulation:T48 Theme:E22
+% E21 Positive_regulation:T48 Theme:E23
+% E22 Positive_regulation:T49 Theme:T25
+% E23 Positive_regulation:T49 Theme:T26
+
+However, plasma membrane-proximal elements in these proinflammatory cytokine pathways are apparently not involved since dominant negative mutants of the TRAF2 and TRAF6 adaptors, which effectively block signaling through the cytoplasmic tails of the TNF-alpha and IL-1 receptors, respectively, do not inhibit Tax induction of NF-kappaB.
+# T28 Protein S9 153 158 1654 1659 TRAF2
+# T29 Protein S9 163 168 1664 1669 TRAF6
+# T30 Protein S9 309 312 1810 1813 Tax
+
+Together, these studies demonstrate that HTLV-1 Tax exploits a distal part of the proinflammatory cytokine signaling cascade leading to induction of NF-kappaB.
+# T31 Protein S10 48 51 1886 1889 Tax
+
+The pathological alteration of this cytokine pathway leading to NF-kappaB activation by Tax may play a central role in HTLV-1-mediated transformation of human T cells, clinically manifested as the adult T-cell leukemia.
+# T32 Protein S11 88 91 2086 2089 Tax
+

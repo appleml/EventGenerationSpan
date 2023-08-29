@@ -1,0 +1,53 @@
+p53 mutants are considered as unfavorable factors for the effectiveness in radiotherapy and TMZ treatment in glioma cells (Gjerset et al., 1995; Hirose et al., 2001; Squatrito et al., 2010; Blough et al., 2011).
+# T1 Protein S1 0 3 0 3 p53
+
+Loss of functional p53 confers sensitivity to TMZ in glioma cells, whereas wild type p53 increases the TMZ resistance (Blough et al., 2011).
+# T2 Protein S2 19 22 231 234 p53
+# T3 Protein S2 85 88 297 300 p53
+
+p53 mutants reduce TMZ sensitivity in gliomas (Blough et al., 2011).
+# T4 Protein S3 0 3 353 356 p53
+
+Altered WWOX expression is shown in GBMs, in which downregulation of WWOX is associated with loss of heterozygosity and promoter methylation (Kosla et al., 2011).
+# T5 Protein S4 8 12 430 434 WWOX
+# T6 Protein S4 69 73 491 495 WWOX
+
+Recently, we demonstrated that overexpressed WWOX induces apoptosis of glioblastoma U373-MG cells harboring mutant p53 by causing hypoploidy and DNA fragmentation (Chiang et al., 2012).
+# T7 Protein S5 45 49 630 634 WWOX
+# T8 Protein S5 115 118 700 703 p53
+
+However, ectopic WWOX has no effect with U87-MG expressing wild type p53.
+# T9 Protein S6 17 21 788 792 WWOX
+# T10 Protein S6 69 72 840 843 p53
+
+Unlike TMZ, WWOX induces apoptosis of U373-MG cells via a mitochondria-independent and caspase-3-independent pathway (Chiang et al., 2012).
+# T11 Protein S7 12 16 857 861 WWOX
+# T12 Protein S7 87 96 932 941 caspase-3
+
+While the underlying mechanisms are unknown, it is reasonable to assume that the survival of human glioblastoma cells depends upon interactions between the gain-of-function of p53 mutants and WWOX.
+# T13 Protein S8 176 179 1161 1164 p53
+# T14 Protein S8 192 196 1177 1181 WWOX
+
+Activated WWOX binds wild type p53 with Ser46 phosphorylation (Chang et al., 2005b).
+# T15 Protein S9 10 14 1193 1197 WWOX
+# T16 Protein S9 31 34 1214 1217 p53
+
+UV irradiation enhances the binding interactions.
+
+Despite the presence of Ser46 in delta40p53, binding of this protein with WWOX remains to be determined.
+# T17 Protein S11 33 43 1351 1361 delta40p53
+# T18 Protein S11 74 78 1392 1396 WWOX
+
+We postulate that in GBM cells, both wild type p53 and ectopic WWOX proteins appear to have a functional antagonism, thereby nullifying each other's function in inducing apoptosis (Figure 2).
+# T19 Protein S12 47 50 1470 1473 p53
+# T20 Protein S12 63 67 1486 1490 WWOX
+
+Mutant p53 proteins cannot bind ectopic WWOX in GBM cells, and WWOX is able to induce apoptosis.
+# T21 Protein S13 7 10 1622 1625 p53
+# T22 Protein S13 40 44 1655 1659 WWOX
+# T23 Protein S13 63 67 1678 1682 WWOX
+
+Whether WWOX causes apoptosis in GBM expressing p53 isoforms is unknown and remains to be established.
+# T24 Protein S14 8 12 1720 1724 WWOX
+# T25 Protein S14 48 51 1760 1763 p53
+

@@ -1,0 +1,107 @@
+Interleukin-10 Production by Th1 Cells Requires Interleukin-12-Induced STAT4 Transcription Factor and ERK MAP Kinase Activation by High Antigen Dose
+# T1 Protein S1 0 14 0 14 Interleukin-10
+# T2 Protein S1 48 62 48 62 Interleukin-12
+# T3 Protein S1 71 76 71 76 STAT4
+# T4 Protein S1 102 105 102 105 ERK
+$ T1 Protein S1 0 14 0 14 Interleukin-10
+$ T3 Protein S1 71 76 71 76 STAT4
+$ T2 Protein S1 48 62 48 62 Interleukin-12
+$ T4 Protein S1 102 105 102 105 ERK
+@ T25 Gene_expression S1 15 25 15 25 Production
+@ T26 Positive_regulation S1 39 47 39 47 Requires
+@ T27 Positive_regulation S1 63 70 63 70 Induced
+@ T28 Positive_regulation S1 117 127 117 127 Activation
+% E1 Gene_expression:T25 Theme:T1
+% E2 Positive_regulation:T26 Theme:E1 Cause:E3
+% E4 Positive_regulation:T26 Theme:E1 Cause:E5
+% E3 Positive_regulation:T27 Theme:T3 Cause:T2
+% E5 Positive_regulation:T28 Theme:T4
+
+Summary
+
+CD4+ Tcells producing interleukin-10 (IL-10) and interferon-gamma (IFN-gamma) are reported in chronic infections.
+# T5 Protein S3 0 3 158 161 CD4
+# T6 Protein S3 22 36 180 194 interleukin-10
+# T7 Protein S3 38 43 196 201 IL-10
+# T8 Protein S3 49 65 207 223 interferon-gamma
+# T9 Protein S3 67 76 225 234 IFN-gamma
+$ T6 Protein S3 22 36 180 194 interleukin-10
+$ T8 Protein S3 49 65 207 223 interferon-gamma
+@ T29 Gene_expression S3 12 21 170 179 producing
+% E6 Gene_expression:T29 Theme:T6
+% E7 Gene_expression:T29 Theme:T8
+
+However, the signals that direct the development of IL-10-producing T helper 1 (Th1) cells are undefined.
+# T10 Protein S4 52 57 324 329 IL-10
+$ T10 Protein S4 52 57 324 329 IL-10
+@ T30 Gene_expression S4 58 67 330 339 producing
+% E8 Gene_expression:T30 Theme:T10
+
+We showed that development of IL-10-producing Th1 cells required high Tcell receptor (TCR) ligation, sustained ERK1 and ERK2 MAP kinases phosphorylation, and IL-12-induced STAT4 transcription factor activation.
+# T11 Protein S5 30 35 408 413 IL-10
+# T12 Protein S5 111 115 489 493 ERK1
+# T13 Protein S5 120 124 498 502 ERK2
+# T14 Protein S5 158 163 536 541 IL-12
+# T15 Protein S5 172 177 550 555 STAT4
+$ T11 Protein S5 30 35 408 413 IL-10
+$ T12 Protein S5 111 115 489 493 ERK1
+$ T13 Protein S5 120 124 498 502 ERK2
+$ T14 Protein S5 158 163 536 541 IL-12
+$ T15 Protein S5 172 177 550 555 STAT4
+@ T31 Gene_expression S5 36 45 414 423 producing
+@ T32 Phosphorylation S5 137 152 515 530 phosphorylation
+@ T33 Positive_regulation S5 164 171 542 549 induced
+@ T34 Positive_regulation S5 199 209 577 587 activation
+% E9 Gene_expression:T31 Theme:T11
+% E10 Phosphorylation:T32 Theme:T12
+% E11 Phosphorylation:T32 Theme:T13
+% E12 Positive_regulation:T33 Theme:E13 Cause:T14
+% E13 Positive_regulation:T34 Theme:T15
+
+Repeated TCR triggering led to enhanced IL-10 production by Th1 cells, and continued IL-12 action and high-dose TCR signaling were required for the development and maintenance of IL-10-producing Th1 cells.
+# T16 Protein S6 40 45 629 634 IL-10
+# T17 Protein S6 85 90 674 679 IL-12
+# T18 Protein S6 179 184 768 773 IL-10
+$ T16 Protein S6 40 45 629 634 IL-10
+$ T18 Protein S6 179 184 768 773 IL-10
+@ T35 Positive_regulation S6 31 39 620 628 enhanced
+@ T36 Gene_expression S6 46 56 635 645 production
+@ T37 Positive_regulation S6 131 139 720 728 required
+@ T38 Gene_expression S6 185 194 774 783 producing
+% E14 Positive_regulation:T35 Theme:E15
+% E15 Gene_expression:T36 Theme:T16
+% E16 Positive_regulation:T37 Theme:E17
+% E17 Gene_expression:T38 Theme:T18
+
+Although Th1, Th2, and Th17 cells require the activation of distinct STATs for their differentiation, activation of ERK1 and ERK2 wasa common requirement for production of IL-10 by all Th cell subsets.
+# T19 Protein S7 116 120 911 915 ERK1
+# T20 Protein S7 125 129 920 924 ERK2
+# T21 Protein S7 172 177 967 972 IL-10
+$ T19 Protein S7 116 120 911 915 ERK1
+$ T20 Protein S7 125 129 920 924 ERK2
+$ T21 Protein S7 172 177 967 972 IL-10
+@ T39 Positive_regulation S7 102 112 897 907 activation
+@ T40 Positive_regulation S7 142 153 937 948 requirement
+@ T41 Gene_expression S7 158 168 953 963 production
+% E18 Positive_regulation:T39 Theme:T19
+% E19 Positive_regulation:T39 Theme:T20
+% E20 Positive_regulation:T40 Theme:E21 Cause:E18
+% E22 Positive_regulation:T40 Theme:E21 Cause:E19
+% E21 Gene_expression:T41 Theme:T21
+
+IL-10 expression also correlated with c-maf expression.
+# T22 Protein S8 0 5 997 1002 IL-10
+# T23 Protein S8 38 43 1035 1040 c-maf
+$ T22 Protein S8 0 5 997 1002 IL-10
+$ T23 Protein S8 38 43 1035 1040 c-maf
+@ T42 Gene_expression S8 6 16 1003 1013 expression
+@ T43 Gene_expression S8 44 54 1041 1051 expression
+% E23 Gene_expression:T42 Theme:T22
+% E24 Gene_expression:T43 Theme:T23
+
+Despite having distinct functions in protection against pathogens, all Th cells share the important task of controlling overexuberant immune responses by means of IL-10 production.
+# T24 Protein S9 163 168 1216 1221 IL-10
+$ T24 Protein S9 163 168 1216 1221 IL-10
+@ T44 Gene_expression S9 169 179 1222 1232 production
+% E25 Gene_expression:T44 Theme:T24
+

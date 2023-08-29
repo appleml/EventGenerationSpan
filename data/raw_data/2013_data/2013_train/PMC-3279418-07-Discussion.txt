@@ -1,0 +1,216 @@
+The present report showed that null mutations of the mouse Sharpin gene did not affect the steady-state distribution of splenic DC subsets nor the development and phenotype of BMDC.
+# T1 Protein S1 59 66 59 66 Sharpin
+$ T1 Protein S1 59 66 59 66 Sharpin
+@ T13 Negative_regulation S1 31 45 31 45 null mutations
+% E1 Negative_regulation:T13 Theme:T1
+
+However, loss of SHARPIN significantly diminished the capacity of BMDC to secrete inflammatory cytokines and nitric oxide.
+# T2 Protein S2 17 24 199 206 SHARPIN
+$ T2 Protein S2 17 24 199 206 SHARPIN
+@ T14 Negative_regulation S2 9 13 191 195 loss
+% E2 Negative_regulation:T14 Theme:T2
+
+The attenuated cytokine production was not due to the presence of anti-inflammatory inhibitors, and can be largely explained by selective inactivation of NF-kappaB signaling.
+
+Stimulated cpdm BMDC exhibited Th2-biased T cell-polarizing capabilities, consistent with the Th2 cytokine-dominant phenotype in cpdm mice.
+
+Together, these results indicate an indispensible role of SHARPIN in regulating DC immunological functions, disruption of which may contribute to the development of immune diseases.
+# T3 Protein S5 58 65 678 685 SHARPIN
+$ T3 Protein S5 58 65 678 685 SHARPIN
+@ T15 Negative_regulation S5 108 118 728 738 disruption
+@ T12 Anaphora S5 122 127 742 747 which
+% E3 Negative_regulation:T15 Theme:T3
+
+Since WT and cpdm mice are both specific pathogen-free, the nature of the trigger of the severe inflammation in cpdm mice is not obvious.
+
+One such initiating factor could be endogenous apoptotic and/or necrotic cells that can release danger-associated molecular patterns (DAMPs) to launch and amplify an inflammatory response [32].
+
+Such 'sterile' inflammation could be initiated and take place in all organs and tissues affected in cpdm mice, thus causing multi-organ inflammatory disorders.
+
+This hypothesis is supported by several recent studies.
+
+Fibroblasts of cpdm mice are highly sensitive to TNFalpha-induced cell death and the cpdm phenotype can be partially rescued by deletion of TNF [7], [8], suggesting that deficiency of SHARPIN compromises the anti-apoptotic mechanisms in cpdm mice resulting in cell death-induced inflammatory disease.
+# T4 Protein S10 49 57 1399 1407 TNFalpha
+# T5 Protein S10 140 143 1490 1493 TNF
+# T6 Protein S10 184 191 1534 1541 SHARPIN
+$ T5 Protein S10 140 143 1490 1493 TNF
+$ T6 Protein S10 184 191 1534 1541 SHARPIN
+@ T16 Negative_regulation S10 128 136 1478 1486 deletion
+@ T17 Negative_regulation S10 170 180 1520 1530 deficiency
+% E4 Negative_regulation:T16 Theme:T5
+% E5 Negative_regulation:T17 Theme:T6
+
+Apoptosis of keratinocytes is a prominent feature of the skin lesions in cpdm mice [33] and this is mediated by caspase-dependent mitochondrial pathways [34].
+
+These induced and/or intrinsic apoptotic cells can release various types of DAMPs that exert their pro-inflammatory properties by activating DC through pattern recognition receptors [32], [35], such as HMGB1 recognized by TLR2/4 [36], [37].
+# T7 Protein S12 202 207 2012 2017 HMGB1
+# T8 Protein S12 222 226 2032 2036 TLR2
+# T9 Protein S12 227 228 2037 2038 4
+$ T7 Protein S12 202 207 2012 2017 HMGB1
+$ T8 Protein S12 222 226 2032 2036 TLR2
+@ T18 Binding S12 208 218 2018 2028 recognized
+% E6 Binding:T18 Theme:T7 Theme2:T8
+
+Consistent with the impaired Th1 immune response in cpdm mice [5], stimulated BMDC weakly polarized Th1 differentiation, but strongly supported the development of Th2 effector cells.
+
+Combined with the dramatic effect of IL12 treatment on the phenotype of these mice [5], this suggests that the Th2-biased systemic inflammation in cpdm mice is caused by reduced IL12P70 production from DC.
+
+The importance of IL12P70 in regulating Th1 and Th2 immune responses in mice was clearly demonstrated in IL12P35- and IL12P40-deficient mice [38], [39] and through clinical studies in human patients [40]-[42].
+# T10 Protein S15 105 112 2545 2552 IL12P35
+# T11 Protein S15 118 125 2558 2565 IL12P40
+$ T10 Protein S15 105 112 2545 2552 IL12P35
+$ T11 Protein S15 118 125 2558 2565 IL12P40
+@ T19 Negative_regulation S15 126 135 2566 2575 deficient
+% E7 Negative_regulation:T19 Theme:T10
+% E8 Negative_regulation:T19 Theme:T11
+
+NF-kappaB, TBK/IRF3, and MAPK signaling are important pathways activated by LPS or poly I:C and disruption of either pathway may lead to decreased cytokine expression.
+# T20 Protein S16 15 19 2665 2669 IRF3
+
+NF-kappaB activation was selectively inhibited in LPS and poly I:C stimulated cpdm BMDC compared to wild type, while activation of TBK1/IRF3, ERK1/2, or p38 was not, indicating that disrupted NF-kappaB signaling in cpdm DC is responsible for the defective cytokine expression.
+# T21 Protein S17 131 135 2949 2953 TBK1
+# T22 Protein S17 136 140 2954 2958 IRF3
+# T23 Protein S17 142 146 2960 2964 ERK1
+# T24 Protein S17 147 148 2965 2966 2
+$ T21 Protein S17 131 135 2949 2953 TBK1
+$ T22 Protein S17 136 140 2954 2958 IRF3
+$ T23 Protein S17 142 146 2960 2964 ERK1
+$ T24 Protein S17 147 148 2965 2966 2
+@ T59 Positive_regulation S17 117 127 2935 2945 activation
+@ T60 Negative_regulation S17 157 164 2975 2982 was not
+% E9 Positive_regulation:T59 Theme:T21
+% E10 Positive_regulation:T59 Theme:T22
+% E11 Positive_regulation:T59 Theme:T23
+% E12 Positive_regulation:T59 Theme:T24
+% E13 Negative_regulation:T60 Theme:E9
+% E14 Negative_regulation:T60 Theme:E10
+% E15 Negative_regulation:T60 Theme:E11
+% E16 Negative_regulation:T60 Theme:E12
+
+These results seem to contradict a recent study that found increased levels of NF-kappaB activation and IL1 transcription in cpdm mice [43].
+
+This difference can probably be attributed to the different cells and tissues used in these studies, and may point to cell- and tissue- type specific functions of SHARPIN.
+# T25 Protein S19 163 170 3399 3406 SHARPIN
+
+This is consistent with recent reports of tissue-specific effects of NF-kappaB signaling [44].
+
+Ubiquitous activation of NF-kappaB by removing inhibitors such as A20 and ITCH through genetic manipulation results in widespread inflammation, consistent with the role of NF-kappaB in the production of pro-inflammatory mediators [45], [46].
+# T26 Protein S21 66 69 3569 3572 A20
+# T27 Protein S21 74 78 3577 3581 ITCH
+
+However, selective inhibition of NF-kappaB activation in parenchymal cells of the skin, liver, and intestine results in chronic inflammation driven by NF-kappaB competent leukocytes [47]-[50].
+
+This indicates that a balance between the pro-inflammatory role of NF-kappaB in leukocytes and the anti-inflammatory role in parenchymal cells is critical in the maintenance of tissue homeostasis.
+
+Experiments with mice with cell- and tissue-specific deletion of Sharpin, currently under way, will help to elucidate the role of SHARPIN in inflammation.
+# T28 Protein S24 65 72 4200 4207 Sharpin
+# T29 Protein S24 130 137 4265 4272 SHARPIN
+$ T28 Protein S24 65 72 4200 4207 Sharpin
+@ T61 Negative_regulation S24 53 61 4188 4196 deletion
+% E17 Negative_regulation:T61 Theme:T28
+
+Despite defective NF-kappaB activation in the absence of Sharpin expression, there was no significant change in splenic DC populations or expression of co-stimulatory molecules on BMDC.
+# T30 Protein S25 57 64 4347 4354 Sharpin
+$ T30 Protein S25 57 64 4347 4354 Sharpin
+@ T62 Negative_regulation S25 46 53 4336 4343 absence
+@ T63 Gene_expression S25 65 75 4355 4365 expression
+% E18 Negative_regulation:T62 Theme:E19
+% E19 Gene_expression:T63 Theme:T30
+
+Different NF-kappaB subunits involved in the canonical and non-canonical branches of the NF-kappaB signaling pathway have distinct functions to control specific aspects of DC development and function [51], [52].
+
+The non-canonical pathway (p100 processing to produce p52) appears to be intact in SHARPIN-deficient cells [7], [9] suggesting that the NF-kappaB heterodimer p52/RELB is sufficient to maintain the normal regulation of DC homeostasis and maturation.
+# T31 Protein S27 27 31 4715 4719 p100
+# T32 Protein S27 54 57 4742 4745 p52
+# T33 Protein S27 83 90 4771 4778 SHARPIN
+# T34 Protein S27 158 161 4846 4849 p52
+# T35 Protein S27 162 166 4850 4854 RELB
+$ T33 Protein S27 83 90 4771 4778 SHARPIN
+@ T64 Negative_regulation S27 91 100 4779 4788 deficient
+% E20 Negative_regulation:T64 Theme:T33
+
+The molecular basis by which the Sharpin mutation causes reduced NF-kappaB activation in BMDC remains to be determined.
+# T36 Protein S28 33 40 4970 4977 Sharpin
+$ T36 Protein S28 33 40 4970 4977 Sharpin
+@ T65 Negative_regulation S28 41 49 4978 4986 mutation
+% E21 Negative_regulation:T65 Theme:T36
+
+LPS and poly I:C used here are well-defined ligands that specifically engage TLR4 and TLR3, respectively.
+# T37 Protein S29 77 81 5134 5138 TLR4
+# T38 Protein S29 86 90 5143 5147 TLR3
+$ T37 Protein S29 77 81 5134 5138 TLR4
+$ T38 Protein S29 86 90 5143 5147 TLR3
+@ T66 Binding S29 70 76 5127 5133 engage
+% E22 Binding:T66 Theme:T37
+% E23 Binding:T66 Theme:T38
+
+The expression profile of surface TLR4 complexes is similar between WT and cpdm BMDC suggesting that defective NF-kappaB activation is not a result of differential TLR expression on target cells.
+
+LPS engages TLR4 to activate MYD88-dependent and TRIF-dependent pathways, whereas TLR3 stimulated by poly I:C only triggers TRIF-dependent signaling [53].
+# T39 Protein S31 12 16 5371 5375 TLR4
+# T40 Protein S31 29 34 5388 5393 MYD88
+# T41 Protein S31 49 53 5408 5412 TRIF
+# T42 Protein S31 82 86 5441 5445 TLR3
+# T43 Protein S31 124 128 5483 5487 TRIF
+$ T39 Protein S31 12 16 5371 5375 TLR4
+$ T42 Protein S31 82 86 5441 5445 TLR3
+@ T67 Binding S31 4 11 5363 5370 engages
+@ T68 Positive_regulation S31 87 97 5446 5456 stimulated
+% E24 Binding:T67 Theme:T39
+% E25 Positive_regulation:T68 Theme:T42
+
+The defective NF-kappaB activation by both stimuli suggests that the Sharpin mutation interferes with the protein adaptors or kinases shared by both signaling pathways, such as RIP1 and TRAF6 [18].
+# T44 Protein S32 69 76 5583 5590 Sharpin
+# T45 Protein S32 177 181 5691 5695 RIP1
+# T46 Protein S32 186 191 5700 5705 TRAF6
+$ T44 Protein S32 69 76 5583 5590 Sharpin
+@ T69 Negative_regulation S32 77 85 5591 5599 mutation
+% E26 Negative_regulation:T69 Theme:T44
+
+Recent studies demonstrated that SHARPIN interacts with HOIP to form LUBAC that exerts its linear-ubiquitin-chain-ligase activity on NF-kappaB signaling players RIP1 and NEMO [7], an essential step for intact TNFalpha-stimulated NF-kappaB activation.
+# T47 Protein S33 33 40 5745 5752 SHARPIN
+# T48 Protein S33 56 60 5768 5772 HOIP
+# T49 Protein S33 161 165 5873 5877 RIP1
+# T50 Protein S33 170 174 5882 5886 NEMO
+# T51 Protein S33 209 217 5921 5929 TNFalpha
+$ T47 Protein S33 33 40 5745 5752 SHARPIN
+$ T48 Protein S33 56 60 5768 5772 HOIP
+$ T49 Protein S33 161 165 5873 5877 RIP1
+$ T50 Protein S33 170 174 5882 5886 NEMO
+@ T70 Binding S33 41 50 5753 5762 interacts
+@ T71 Positive_regulation S33 80 86 5792 5798 exerts
+@ T57 Anaphora S33 87 90 5799 5802 its
+@ T72 Ubiquitination S33 91 129 5803 5841 linear-ubiquitin-chain-ligase activity
+% E27 Binding:T70 Theme:T47 Theme2:T48
+% E28 Positive_regulation:T71 Theme:E29
+% E30 Positive_regulation:T71 Theme:E31
+% E29 Ubiquitination:T72 Theme:T49 Cause:T47
+% E31 Ubiquitination:T72 Theme:T50 Cause:T47
+
+The Sharpin null mutation disrupts the ubiquitylation process and abrogates the TNFalpha-induced NF-kappaB signaling pathway.
+# T52 Protein S34 4 11 5967 5974 Sharpin
+# T53 Protein S34 80 88 6043 6051 TNFalpha
+$ T52 Protein S34 4 11 5967 5974 Sharpin
+@ T73 Negative_regulation S34 12 25 5975 5988 null mutation
+@ T74 Negative_regulation S34 26 34 5989 5997 disrupts
+@ T58 Anaphora S34 35 61 5998 6024 the ubiquitylation process
+% E32 Negative_regulation:T73 Theme:T52
+% E33 Negative_regulation:T74 Theme:E29 Cause:E32
+% E34 Negative_regulation:T74 Theme:E31 Cause:E32
+
+Since TNFR and TLR partially share their downstream signaling cascades, a similar ubiquitin-mediated regulation may hold true for SHARPIN in LPS- and poly I:C-induced NF-kappaB activation.
+# T54 Protein S35 130 137 6219 6226 SHARPIN
+
+In summary, the present study identified an indispensible role of SHARPIN in the production of pro-inflammatory mediators and TLR-induced NF-kappaB signaling.
+# T55 Protein S36 66 73 6344 6351 SHARPIN
+
+The impaired Th1-stimulating ability of Sharpin-deficient DC may account for the Th2-dominant inflammatory phenotype of cpdm mice.
+# T56 Protein S37 40 47 6477 6484 Sharpin
+$ T56 Protein S37 40 47 6477 6484 Sharpin
+@ T75 Negative_regulation S37 48 57 6485 6494 deficient
+% E35 Negative_regulation:T75 Theme:T56
+
+The balance between Th1 and Th2 differentiation is critical for immune homeostasis.
+
+A better understanding of how such balance is maintained will help design cytokine treatment for human diseases with Th2-biased cytokine secretion similar to the mouse cpdm, such as allergies and hypereosinophilic syndromes.
+

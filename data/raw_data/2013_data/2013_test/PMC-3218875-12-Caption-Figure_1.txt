@@ -1,0 +1,78 @@
+Canonical NF-kappaB signalling and negative regulators.
+
+Ligand engagement of specific membrane receptors such as TNFR1, CD40, RANK, and TLR4 trigger the recruitment of specific adaptor proteins (TNF receptor 1-associated death domain protein (TRADD), MyD88, MAL, TIR domain-containing adaptor-inducing IFNbeta (TRIF)), kinases (RIP1, IRAK1, IRAK4), and ubiquitin ligases (TRAF2, TRAF6, cIAP1, cIAP2) to the receptor.
+# T1 Protein S2 57 62 113 118 TNFR1
+# T2 Protein S2 64 68 120 124 CD40
+# T3 Protein S2 70 74 126 130 RANK
+# T4 Protein S2 80 84 136 140 TLR4
+# T5 Protein S2 139 185 195 241 TNF receptor 1-associated death domain protein
+# T6 Protein S2 187 192 243 248 TRADD
+# T7 Protein S2 195 200 251 256 MyD88
+# T8 Protein S2 202 205 258 261 MAL
+# T9 Protein S2 207 253 263 309 TIR domain-containing adaptor-inducing IFNbeta
+# T10 Protein S2 255 259 311 315 TRIF
+# T11 Protein S2 272 276 328 332 RIP1
+# T12 Protein S2 278 283 334 339 IRAK1
+# T13 Protein S2 285 290 341 346 IRAK4
+# T14 Protein S2 316 321 372 377 TRAF2
+# T15 Protein S2 323 328 379 384 TRAF6
+# T16 Protein S2 330 335 386 391 cIAP1
+# T17 Protein S2 337 342 393 398 cIAP2
+
+K63-linked polyubiquitination of TRAFs, RIP1 and IRAK1, is recognised by NEMO and TAB proteins, resulting in the recruitment and activation of respectively IKK2 and TAK1.
+# T18 Protein S3 40 44 457 461 RIP1
+# T19 Protein S3 49 54 466 471 IRAK1
+# T20 Protein S3 73 77 490 494 NEMO
+# T21 Protein S3 156 160 573 577 IKK2
+# T22 Protein S3 165 169 582 586 TAK1
+
+TAK1 then phosphorylates and activates IKK2, which in turn phosphorylates IkappaBalpha, triggering its K48-linked ubiquitination and proteasomal degradation.
+# T23 Protein S4 0 4 588 592 TAK1
+# T24 Protein S4 39 43 627 631 IKK2
+# T25 Protein S4 74 86 662 674 IkappaBalpha
+
+This allows NF-kappaB (here shown as a heterodimer of p65 and p50) to translocate to the nucleus and promote target gene expression.
+# T26 Protein S5 54 57 800 803 p65
+# T27 Protein S5 62 65 808 811 p50
+
+TRAF1, which has no ubiquitin ligase activity, can negatively regulate NF-kappaB activation, most probably by competing with other TRAFs.
+# T28 Protein S6 0 5 879 884 TRAF1
+
+A20 and CYLD are deubiquitinating enzymes that control NF-kappaB activation by targeting specific signalling proteins including RIP1 and TRAF6, to which they are recruited using specific ubiquitin-binding adaptor proteins such as ABIN-1 and p62.
+# T29 Protein S7 0 3 1017 1020 A20
+# T30 Protein S7 8 12 1025 1029 CYLD
+# T31 Protein S7 128 132 1145 1149 RIP1
+# T32 Protein S7 137 142 1154 1159 TRAF6
+# T33 Protein S7 230 236 1247 1253 ABIN-1
+# T34 Protein S7 241 244 1258 1261 p62
+
+miR-146 is thought to negatively regulate TLR signalling by inhibiting expression of IRAK1 and TRAF6.
+# T35 Protein S8 85 90 1348 1353 IRAK1
+# T36 Protein S8 95 100 1358 1363 TRAF6
+
+Finally, TLR signalling can also be inhibited by the transmembrane protein SIGIRR, which has been proposed to compete with TLR4 for binding to IRAK1 and TRAF6.
+# T37 Protein S9 75 81 1440 1446 SIGIRR
+# T38 Protein S9 123 127 1488 1492 TLR4
+# T39 Protein S9 143 148 1508 1513 IRAK1
+# T40 Protein S9 153 158 1518 1523 TRAF6
+
+The expression of many of these negative regulatory molecules is NF-kappaB dependent, implicating them in the negative feedback regulation of NF-kappaB activation.
+
+ABIN, A20-binding inhibitor of NF-kappaB; cIAP, cellular inhibitor of apoptosis; CYLD, cylindromatosis; IKK, IkappaB kinase; IkappaB, inhibitor of NF-kappaB; IRAK, IL-1R-associated kinase; MyD88, myeloid differentiation primary response gene 88; NEMO, NF-kappaB essential modulator; NF, nuclear factor; RANK, receptor activator of NF-kappaB; RIP1, receptor interacting protein 1; SIGIRR, single-immunoglobulinIL-1 receptor-related; TIR, Toll-like receptor/IL-1R; TRAF, TNF receptor-associated factor; TLR, Toll-like receptor; TNF, tumour necrosis factor.
+# T41 Protein S11 0 4 1689 1693 ABIN
+# T42 Protein S11 6 40 1695 1729 A20-binding inhibitor of NF-kappaB
+# T43 Protein S11 81 85 1770 1774 CYLD
+# T44 Protein S11 87 102 1776 1791 cylindromatosis
+# T45 Protein S11 189 194 1878 1883 MyD88
+# T46 Protein S11 196 244 1885 1933 myeloid differentiation primary response gene 88
+# T47 Protein S11 246 250 1935 1939 NEMO
+# T48 Protein S11 252 281 1941 1970 NF-kappaB essential modulator
+# T49 Protein S11 303 307 1992 1996 RANK
+# T50 Protein S11 309 340 1998 2029 receptor activator of NF-kappaB
+# T51 Protein S11 342 346 2031 2035 RIP1
+# T52 Protein S11 348 378 2037 2067 receptor interacting protein 1
+# T53 Protein S11 380 386 2069 2075 SIGIRR
+# T54 Protein S11 388 430 2077 2119 single-immunoglobulinIL-1 receptor-related
+# T55 Protein S11 526 529 2215 2218 TNF
+# T56 Protein S11 531 553 2220 2242 tumour necrosis factor
+

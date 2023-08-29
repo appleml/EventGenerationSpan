@@ -1,0 +1,145 @@
+Perforin and granzyme B expression are not appreciably regulated by T-bet
+# T1 Protein S1 0 8 0 8 Perforin
+# T2 Protein S1 13 23 13 23 granzyme B
+# T3 Protein S1 68 73 68 73 T-bet
+$ T1 Protein S1 0 8 0 8 Perforin
+$ T2 Protein S1 13 23 13 23 granzyme B
+$ T3 Protein S1 68 73 68 73 T-bet
+@ T42 Gene_expression S1 24 34 24 34 expression
+@ T43 Regulation S1 55 64 55 64 regulated
+% E1 Gene_expression:T42 Theme:T1
+% E2 Gene_expression:T42 Theme:T2
+% E3 Regulation:T43 Theme:E1 Cause:T3
+% E4 Regulation:T43 Theme:E2 Cause:T3
+
+To test the model outlined in the previous paragraph directly, we compared the expression of IFN-gamma, perforin, and granzyme B in CD8+ T cells from WT and Tbx21 (T-bet)-deficient mice.
+# T4 Protein S2 93 102 167 176 IFN-gamma
+# T5 Protein S2 104 112 178 186 perforin
+# T6 Protein S2 118 128 192 202 granzyme B
+# T7 Protein S2 132 135 206 209 CD8
+# T8 Protein S2 157 162 231 236 Tbx21
+# T9 Protein S2 164 169 238 243 T-bet
+$ T4 Protein S2 93 102 167 176 IFN-gamma
+$ T5 Protein S2 104 112 178 186 perforin
+$ T6 Protein S2 118 128 192 202 granzyme B
+$ T8 Protein S2 157 162 231 236 Tbx21
+@ T44 Gene_expression S2 79 89 153 163 expression
+@ T45 Negative_regulation S2 171 180 245 254 deficient
+% E5 Gene_expression:T44 Theme:T4
+% E6 Gene_expression:T44 Theme:T5
+% E7 Gene_expression:T44 Theme:T6
+% E8 Negative_regulation:T45 Theme:T8
+
+As expected (17, 21), naive Tbx21-/- CD8+ T cells produced IFN-gamma poorly upon activation (Fig. 2 A).
+# T10 Protein S3 28 33 289 294 Tbx21
+# T11 Protein S3 37 40 298 301 CD8
+# T12 Protein S3 59 68 320 329 IFN-gamma
+$ T12 Protein S3 59 68 320 329 IFN-gamma
+@ T46 Gene_expression S3 50 58 311 319 produced
+% E9 Gene_expression:T46 Theme:T12
+
+Notably, this deleterious effect of T-bet deficiency was only observed in differentiating CD8+ T cells until day 4 of culture but was almost completely mitigated by day 6 (Fig. 2 A).
+# T13 Protein S4 36 41 401 406 T-bet
+# T14 Protein S4 90 93 455 458 CD8
+$ T13 Protein S4 36 41 401 406 T-bet
+@ T47 Negative_regulation S4 42 52 407 417 deficiency
+% E10 Negative_regulation:T47 Theme:T13
+
+This most likely reflected compensation by Eomes, which was strongly induced between days 4 and 6 (Fig. 1).
+# T15 Protein S5 43 48 591 596 Eomes
+$ T15 Protein S5 43 48 591 596 Eomes
+@ T48 Positive_regulation S5 69 76 617 624 induced
+% E11 Positive_regulation:T48 Theme:T15
+
+In contrast, T-bet-deficient T cells cultured for 6 d showed no defect in perforin mRNA expression (Fig. 2 B, compare lanes 1 and 4).
+# T16 Protein S6 13 18 669 674 T-bet
+# T17 Protein S6 74 82 730 738 perforin
+$ T16 Protein S6 13 18 669 674 T-bet
+$ T17 Protein S6 74 82 730 738 perforin
+@ T49 Negative_regulation S6 19 28 675 684 deficient
+@ T50 Negative_regulation S6 64 70 720 726 defect
+@ T51 Transcription S6 83 98 739 754 mRNA expression
+% E12 Negative_regulation:T49 Theme:T16
+% E13 Negative_regulation:T50 Theme:E14 Cause:E12
+% E14 Transcription:T51 Theme:T17
+
+We consistently observed a modest reduction in GzmB mRNA in T-bet-deficient T cells (Fig. 2 B, compare lanes 1 and 4), which did not translate into a decrease in expression of granzyme B protein (Fig. 2 C).
+# T18 Protein S7 47 51 837 841 GzmB
+# T19 Protein S7 60 65 850 855 T-bet
+# T20 Protein S7 176 186 966 976 granzyme B
+$ T18 Protein S7 47 51 837 841 GzmB
+$ T19 Protein S7 60 65 850 855 T-bet
+$ T20 Protein S7 176 186 966 976 granzyme B
+@ T52 Negative_regulation S7 34 43 824 833 reduction
+@ T53 Negative_regulation S7 66 75 856 865 deficient
+@ T54 Negative_regulation S7 150 158 940 948 decrease
+@ T55 Gene_expression S7 162 172 952 962 expression
+% E15 Negative_regulation:T52 Theme:T18 Cause:E16
+% E16 Negative_regulation:T53 Theme:T19
+% E17 Negative_regulation:T54 Theme:E18
+% E18 Gene_expression:T55 Theme:T20
+
+To examine the role of Eomes, we transduced naive CD8+ T cells from WT and Tbx21-/- mice with retroviruses containing internal ribosome entry site (IRES)-GFP that were either empty or encoded a strongly transactivating version of Eomes (Eo-VP16) (8), and expanded them for 6 d under our culture conditions.
+# T21 Protein S8 23 28 1021 1026 Eomes
+# T22 Protein S8 50 53 1048 1051 CD8
+# T23 Protein S8 75 80 1073 1078 Tbx21
+# T24 Protein S8 154 157 1152 1155 GFP
+# T25 Protein S8 230 235 1228 1233 Eomes
+# T26 Protein S8 237 244 1235 1242 Eo-VP16
+
+Eo-VP16, but not the empty GFP retrovirus, increased perforin expression in both WT and T-bet-deficient CD8+ T cells (Fig. 2 B, lanes 2, 3, 5, and 6).
+# T27 Protein S9 0 7 1305 1312 Eo-VP16
+# T28 Protein S9 27 30 1332 1335 GFP
+# T29 Protein S9 53 61 1358 1366 perforin
+# T30 Protein S9 88 93 1393 1398 T-bet
+# T31 Protein S9 104 107 1409 1412 CD8
+$ T27 Protein S9 0 7 1305 1312 Eo-VP16
+$ T29 Protein S9 53 61 1358 1366 perforin
+$ T30 Protein S9 88 93 1393 1398 T-bet
+@ T56 Positive_regulation S9 43 52 1348 1357 increased
+@ T57 Gene_expression S9 62 72 1367 1377 expression
+@ T58 Negative_regulation S9 94 103 1399 1408 deficient
+% E19 Positive_regulation:T56 Theme:E20 Cause:T27
+% E20 Gene_expression:T57 Theme:T29
+% E21 Negative_regulation:T58 Theme:T30
+
+As expected, Eo-VP16 also rescued the early defect in IFN-gamma production observed in T-bet-deficient CD8+ T cells (Fig. 2 D).
+# T32 Protein S10 13 20 1469 1476 Eo-VP16
+# T33 Protein S10 54 63 1510 1519 IFN-gamma
+# T34 Protein S10 87 92 1543 1548 T-bet
+# T35 Protein S10 103 106 1559 1562 CD8
+$ T32 Protein S10 13 20 1469 1476 Eo-VP16
+$ T33 Protein S10 54 63 1510 1519 IFN-gamma
+$ T34 Protein S10 87 92 1543 1548 T-bet
+@ T59 Negative_regulation S10 26 33 1482 1489 rescued
+@ T60 Negative_regulation S10 44 50 1500 1506 defect
+@ T61 Gene_expression S10 64 74 1520 1530 production
+@ T62 Negative_regulation S10 93 102 1549 1558 deficient
+% E22 Negative_regulation:T59 Theme:E23 Cause:T32
+% E23 Negative_regulation:T60 Theme:E24 Cause:E25
+% E24 Gene_expression:T61 Theme:T33
+% E25 Negative_regulation:T62 Theme:T34
+
+However, Eo-VP16 did not induce GzmB mRNA expression in either WT or T-bet-deficient cells; thus, the partial T-bet dependence of GzmB mRNA expression cannot be compensated for by Eo-VP16.
+# T36 Protein S11 9 16 1593 1600 Eo-VP16
+# T37 Protein S11 32 36 1616 1620 GzmB
+# T38 Protein S11 69 74 1653 1658 T-bet
+# T39 Protein S11 110 115 1694 1699 T-bet
+# T40 Protein S11 130 134 1714 1718 GzmB
+# T41 Protein S11 180 187 1764 1771 Eo-VP16
+$ T36 Protein S11 9 16 1593 1600 Eo-VP16
+$ T37 Protein S11 32 36 1616 1620 GzmB
+$ T38 Protein S11 69 74 1653 1658 T-bet
+$ T39 Protein S11 110 115 1694 1699 T-bet
+$ T40 Protein S11 130 134 1714 1718 GzmB
+@ T63 Positive_regulation S11 25 31 1609 1615 induce
+@ T64 Transcription S11 37 52 1621 1636 mRNA expression
+@ T65 Negative_regulation S11 75 84 1659 1668 deficient
+@ T66 Positive_regulation S11 116 126 1700 1710 dependence
+@ T67 Transcription S11 135 150 1719 1734 mRNA expression
+% E26 Positive_regulation:T63 Theme:E27 Cause:T36
+% E27 Transcription:T64 Theme:T37
+% E28 Negative_regulation:T65 Theme:T38
+% E29 Positive_regulation:T66 Theme:E30 Cause:T39
+% E30 Transcription:T67 Theme:T40
+

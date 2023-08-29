@@ -1,0 +1,77 @@
+Regulation of I kappa B alpha and p105 in monocytes and macrophages persistently infected with human immunodeficiency virus.
+# T1 Protein S1 14 29 14 29 I kappa B alpha
+# T2 Protein S1 34 38 34 38 p105
+$ T1 Protein S1 14 29 14 29 I kappa B alpha
+$ T2 Protein S1 34 38 34 38 p105
+@ T14 Regulation S1 0 10 0 10 Regulation
+% E1 Regulation:T14 Theme:T1
+% E2 Regulation:T14 Theme:T2
+
+The mechanisms regulating human immunodeficiency virus (HIV) persistence in human monocytes/macrophages are partially understood.
+
+Persistent HIV infection of U937 monocytic cells results in NF-kappa B activation.
+
+Whether virus-induced NF-kappa B activation is a mechanism that favors continuous viral replication in macrophages remains unknown.
+
+To further delineate the molecular mechanisms involved in the activation of NF-kappa B in HIV-infected monocytes and macrophages, we have focused on the regulation of the I kappa B molecules.
+
+First, we show that persistent HIV infection results in the activation of NF-kappa B not only in monocytic cells but also in macrophages.
+
+In HIV-infected cells, I kappa B alpha protein levels are decreased secondary to enhanced protein degradation.
+# T3 Protein S7 23 38 824 839 I kappa B alpha
+$ T3 Protein S7 23 38 824 839 I kappa B alpha
+@ T15 Negative_regulation S7 58 67 859 868 decreased
+% E3 Negative_regulation:T15 Theme:T3
+
+This parallels the increased I kappa B alpha synthesis secondary to increased I kappa B alpha gene transcription, i.e., increased RNA and transcriptional activity of its promoter-enhancer.
+# T4 Protein S8 29 44 941 956 I kappa B alpha
+# T5 Protein S8 78 93 990 1005 I kappa B alpha
+$ T5 Protein S8 78 93 990 1005 I kappa B alpha
+@ T16 Positive_regulation S8 68 77 980 989 increased
+@ T17 Transcription S8 99 112 1011 1024 transcription
+@ T18 Positive_regulation S8 120 129 1032 1041 increased
+@ T19 Transcription S8 138 162 1050 1074 transcriptional activity
+% E4 Positive_regulation:T16 Theme:E5
+% E5 Transcription:T17 Theme:T5
+% E6 Positive_regulation:T18 Theme:T5
+% E7 Positive_regulation:T18 Theme:E8
+% E8 Transcription:T19 Theme:T5
+
+Another protein with I kappa B function, p105, is also modified in HIV-infected cells: p105 and p50 steady-state protein levels are increased as a result of increased synthesis and proteolytic processing of p105.
+# T6 Protein S9 41 45 1142 1146 p105
+# T7 Protein S9 87 91 1188 1192 p105
+# T8 Protein S9 96 99 1197 1200 p50
+# T9 Protein S9 207 211 1308 1312 p105
+$ T6 Protein S9 41 45 1142 1146 p105
+$ T7 Protein S9 87 91 1188 1192 p105
+$ T8 Protein S9 96 99 1197 1200 p50
+@ T20 Regulation S9 55 63 1156 1164 modified
+@ T21 Positive_regulation S9 132 141 1233 1242 increased
+% E9 Regulation:T20 Theme:T6
+% E10 Positive_regulation:T21 Theme:T7
+% E11 Positive_regulation:T21 Theme:T8
+
+Transcriptional activity of p105 is also increased in infected cells and is also mediated by NF-kappa B through a specific kappa B motif.
+# T10 Protein S10 28 32 1342 1346 p105
+$ T10 Protein S10 28 32 1342 1346 p105
+@ T22 Transcription S10 0 24 1314 1338 Transcriptional activity
+@ T23 Positive_regulation S10 41 50 1355 1364 increased
+@ T24 Positive_regulation S10 81 89 1395 1403 mediated
+% E12 Transcription:T22 Theme:T10
+% E13 Positive_regulation:T23 Theme:E12
+% E14 Positive_regulation:T24 Theme:E12
+
+These results demonstrate the existence of a triple autoregulatory loop in monocytes and macrophages involving HIV, p105 and p50, and MAD3, with the end result of persistent NF-kappa B activation and viral persistence.
+# T11 Protein S11 116 120 1568 1572 p105
+# T12 Protein S11 125 128 1577 1580 p50
+# T13 Protein S11 134 138 1586 1590 MAD3
+$ T13 Protein S11 134 138 1586 1590 MAD3
+$ T11 Protein S11 116 120 1568 1572 p105
+$ T12 Protein S11 125 128 1577 1580 p50
+@ T25 Regulation S11 45 71 1497 1523 triple autoregulatory loop
+% E15 Regulation:T25 Theme:T13
+% E16 Regulation:T25 Theme:T11
+% E17 Regulation:T25 Theme:T12
+
+Furthermore, persistent HIV infection of monocytes and macrophages provides a useful model with which to study concomitant modifications of different I kappa B molecules.
+

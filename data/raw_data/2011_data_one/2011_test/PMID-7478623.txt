@@ -1,0 +1,32 @@
+Bik, a novel death-inducing protein shares a distinct sequence motif with Bcl-2 family proteins and interacts with viral and cellular survival-promoting proteins.
+# T1 Protein S1 0 3 0 3 Bik
+
+The survival-promoting activity of the Bcl-2 family of proteins appears to be modulated by interactions between various cellular proteins.
+
+We have identified a novel cellular protein, Bik, that interacts with the cellular survival-promoting proteins, Bcl-2 and Bcl-xL, as well as the viral survival-promoting proteins, Epstein Barr virus-BHRF1 and adenovirus E1B-19 kDa.
+# T2 Protein S3 45 48 348 351 Bik
+# T3 Protein S3 112 117 415 420 Bcl-2
+# T4 Protein S3 122 128 425 431 Bcl-xL
+# T5 Protein S3 199 204 502 507 BHRF1
+# T6 Protein S3 220 230 523 533 E1B-19 kDa
+
+In transient transfection assays, Bik promotes cell death in a manner similar to the death-promoting members of the Bcl-2 family, Bax and Bak.
+# T7 Protein S4 34 37 569 572 Bik
+# T8 Protein S4 130 133 665 668 Bax
+# T9 Protein S4 138 141 673 676 Bak
+
+This death-promoting activity of Bik can be suppressed by coexpression of Bcl-2, Bcl-XL, EBV-BHRF1 and E1B-19 kDa proteins suggesting that Bik may be a common target for both cellular and viral anti-apoptotic proteins.
+# T10 Protein S5 33 36 711 714 Bik
+# T11 Protein S5 74 79 752 757 Bcl-2
+# T12 Protein S5 81 87 759 765 Bcl-XL
+# T13 Protein S5 89 98 767 776 EBV-BHRF1
+# T14 Protein S5 139 142 817 820 Bik
+
+While Bik does not show overt homology to the BH1 and BH2 conserved domains characteristic of the Bcl-2 family, it does share a 9 amino acid domain (BH3) with Bax and Bak which may be a critical determinant for the death-promoting activity of these proteins.
+# T15 Protein S6 6 9 903 906 Bik
+# T16 Protein S6 46 49 943 946 BH1
+# T17 Protein S6 54 57 951 954 BH2
+# T18 Protein S6 149 152 1046 1049 BH3
+# T19 Protein S6 159 162 1056 1059 Bax
+# T20 Protein S6 167 170 1064 1067 Bak
+

@@ -1,0 +1,70 @@
+A novel interferon regulatory factor family transcription factor, ICSAT/Pip/LSIRF, that negatively regulates the activity of interferon-regulated genes.
+# T1 Protein S1 66 71 66 71 ICSAT
+# T2 Protein S1 72 75 72 75 Pip
+# T3 Protein S1 76 81 76 81 LSIRF
+
+We have isolated a novel cDNA clone encoding interferon (IFN) consensus sequence-binding protein in adult T-cell leukemia cell line or activated T cells (ICSAT); this protein is the human homolog of the recently cloned Pip/LSIRF.
+# T4 Protein S2 45 152 199 306 interferon (IFN) consensus sequence-binding protein in adult T-cell leukemia cell line or activated T cells
+# T5 Protein S2 154 159 308 313 ICSAT
+# T6 Protein S2 219 222 373 376 Pip
+# T7 Protein S2 223 228 377 382 LSIRF
+
+ICSAT is structurally most closely related to the previously cloned ICSBP, a member of the IFN regulatory factor (IRF) family of proteins that binds to interferon consensus sequences (ICSs) found in many promoters of the IFN-regulated genes.
+# T8 Protein S3 0 5 384 389 ICSAT
+# T9 Protein S3 68 73 452 457 ICSBP
+$ T9 Protein S3 68 73 452 457 ICSBP
+@ T23 Binding S3 143 148 527 532 binds
+% E1 Binding:T23 Theme:T9
+
+Among T-cell lines investigated, ICSAT was abundantly expressed in human T-cell leukemia virus type 1 (HTLV-1)-infected T cells.
+# T10 Protein S4 33 38 659 664 ICSAT
+$ T10 Protein S4 33 38 659 664 ICSAT
+@ T24 Gene_expression S4 54 63 680 689 expressed
+% E2 Gene_expression:T24 Theme:T10
+
+When the HTLV-1 tax gene was expressed or phorbol myristake acetate-A23187 stimulation was used, ICSAT expression was induced in Jurkat cells which otherwise do not express ICSAT.
+# T11 Protein S5 16 19 771 774 tax
+# T12 Protein S5 97 102 852 857 ICSAT
+# T13 Protein S5 173 178 928 933 ICSAT
+$ T11 Protein S5 16 19 771 774 tax
+$ T12 Protein S5 97 102 852 857 ICSAT
+$ T13 Protein S5 173 178 928 933 ICSAT
+@ T25 Gene_expression S5 29 38 784 793 expressed
+@ T26 Gene_expression S5 103 113 858 868 expression
+@ T27 Positive_regulation S5 118 125 873 880 induced
+@ T28 Gene_expression S5 165 172 920 927 express
+% E3 Gene_expression:T25 Theme:T11
+% E4 Gene_expression:T26 Theme:T12
+% E5 Positive_regulation:T27 Theme:E4 Cause:E3
+% E6 Positive_regulation:T27 Theme:E4
+% E7 Gene_expression:T28 Theme:T13
+
+When the binding of ICSAT to four different ICSs was tested, the relative differences in binding affinities for those ICSs were determined.
+# T14 Protein S6 20 25 955 960 ICSAT
+$ T14 Protein S6 20 25 955 960 ICSAT
+@ T29 Binding S6 9 16 944 951 binding
+% E8 Binding:T29 Theme:T14
+
+To study the functional role of ICSAT, we performed cotransfection experiments with the human embryonal carcinoma cell line N-Tera2.
+# T15 Protein S7 32 37 1107 1112 ICSAT
+
+ICSAT was demonstrated to possess repressive function over the gene activation induced by IFN stimulation or by IRF-1 cotransfection.
+# T16 Protein S8 0 5 1208 1213 ICSAT
+# T17 Protein S8 112 117 1320 1325 IRF-1
+$ T17 Protein S8 112 117 1320 1325 IRF-1
+@ T30 Gene_expression S8 118 132 1326 1340 cotransfection
+@ T31 Positive_regulation S8 118 132 1326 1340 cotransfection
+% E9 Gene_expression:T30 Theme:T17
+% E10 Positive_regulation:T31 Theme:E9
+
+Such repressive function is similar to that seen in IRF-2 or ICSBP.
+# T18 Protein S9 52 57 1394 1399 IRF-2
+# T19 Protein S9 61 66 1403 1408 ICSBP
+
+However, we have found that ICSAT has a different repressive effect from that of IRF-2 or ICSBP in some IFN-responsive reporter constructs.
+# T20 Protein S10 28 33 1438 1443 ICSAT
+# T21 Protein S10 81 86 1491 1496 IRF-2
+# T22 Protein S10 90 95 1500 1505 ICSBP
+
+These results suggest that a novel mechanism of gene regulation by "differential repression" is used by multiple members of repressor proteins with different repressive effects on the IFN-responsive genes.
+

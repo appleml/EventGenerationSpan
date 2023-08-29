@@ -1,0 +1,75 @@
+Expression of IkappaBalpha in the nucleus of human peripheral blood T lymphocytes.
+# T1 Protein S1 14 26 14 26 IkappaBalpha
+$ T1 Protein S1 14 26 14 26 IkappaBalpha
+@ T13 Gene_expression S1 0 10 0 10 Expression
+% E1 Gene_expression:T13 Theme:T1
+
+According to current models the inhibitory capacity of I(kappa)B(alpha) would be mediated through the retention of Rel/NF-kappaB proteins in the cytosol.
+# T2 Protein S2 55 71 139 155 I(kappa)B(alpha)
+$ T2 Protein S2 55 71 139 155 I(kappa)B(alpha)
+@ T14 Negative_regulation S2 32 51 116 135 inhibitory capacity
+@ T15 Positive_regulation S2 81 89 165 173 mediated
+% E2 Negative_regulation:T14 Theme:T2
+% E3 Positive_regulation:T15 Theme:E2
+
+However, I(kappa)B(alpha) has also been detected in the nucleus of cell lines and when overexpressed by transient transfection.
+# T3 Protein S3 9 25 247 263 I(kappa)B(alpha)
+$ T3 Protein S3 9 25 247 263 I(kappa)B(alpha)
+@ T16 Positive_regulation S3 40 48 278 286 detected
+@ T17 Gene_expression S3 40 48 278 286 detected
+@ T18 Positive_regulation S3 87 100 325 338 overexpressed
+% E4 Positive_regulation:T16 Theme:E5 Cause:E6
+% E5 Gene_expression:T17 Theme:T3
+% E6 Positive_regulation:T18 Theme:T3
+
+To gain better insight into the potential role of nuclear I(kappa)B(alpha) in a physiological context we have analysed its presence in the nucleus of human peripheral blood T lymphocytes (PBL).
+# T4 Protein S4 58 74 424 440 I(kappa)B(alpha)
+
+We demonstrate the nuclear localization of I(kappa)B(alpha) in PBL by different techniques: Western blot, indirect immunofluorescence and electron microscopy.
+# T5 Protein S5 43 59 603 619 I(kappa)B(alpha)
+$ T5 Protein S5 43 59 603 619 I(kappa)B(alpha)
+@ T19 Entity S5 19 26 579 586 nuclear
+@ T20 Localization S5 27 39 587 599 localization
+% E7 Localization:T20 Theme:T5 ToLoc:T19
+
+Low levels of nuclear I(kappa)B(alpha) were detected in resting cells whereas a superinduction was obtained after PMA activation.
+# T6 Protein S6 22 38 741 757 I(kappa)B(alpha)
+$ T6 Protein S6 22 38 741 757 I(kappa)B(alpha)
+@ T21 Positive_regulation S6 44 52 763 771 detected
+@ T23 Positive_regulation S6 80 94 799 813 superinduction
+% E8 Positive_regulation:T21 Theme:T6
+% E10 Positive_regulation:T23 Theme:T6
+
+The nuclear pool of I(kappa)B(alpha) showed a higher stability than cytosolic I(kappa)B(alpha) and was partially independent of the resynthesis of the protein.
+# T7 Protein S7 20 36 869 885 I(kappa)B(alpha)
+# T8 Protein S7 78 94 927 943 I(kappa)B(alpha)
+$ T7 Protein S7 20 36 869 885 I(kappa)B(alpha)
+@ T24 Positive_regulation S7 46 62 895 911 higher stability
+@ T25 Gene_expression S7 132 143 981 992 resynthesis
+% E11 Positive_regulation:T24 Theme:T7
+% E12 Gene_expression:T25 Theme:T7
+
+Unexpectedly, the presence of nuclear I(kappa)B(alpha) did not inhibit NF-kappaB binding to DNA and this phenomenon was not due to the presence of IkappaBbeta at the nuclear level.
+# T9 Protein S8 38 54 1047 1063 I(kappa)B(alpha)
+# T10 Protein S8 147 158 1156 1167 IkappaBbeta
+$ T9 Protein S8 38 54 1047 1063 I(kappa)B(alpha)
+$ T10 Protein S8 147 158 1156 1167 IkappaBbeta
+@ T26 Localization S8 18 26 1027 1035 presence
+@ T27 Entity S8 30 37 1039 1046 nuclear
+@ T28 Regulation S8 135 143 1144 1152 presence
+@ T29 Localization S8 135 143 1144 1152 presence
+@ T30 Entity S8 166 173 1175 1182 nuclear
+% E13 Localization:T26 Theme:T9 AtLoc:T27
+% E14 Regulation:T28 Theme:E13 Cause:E15
+% E15 Localization:T29 Theme:T10 AtLoc:T30
+
+Immunoprecipitation experiments failed to demonstrate an association between nuclear I(kappa)B(alpha) and NF-kappaB proteins.
+# T11 Protein S9 85 101 1275 1291 I(kappa)B(alpha)
+
+Our results demonstrate that in resting and PMA-activated human PBL, I(kappa)B(alpha) is present in the nucleus in an apparently inactive form unable to disrupt NF-kappaB binding from DNA.
+# T12 Protein S10 69 85 1385 1401 I(kappa)B(alpha)
+$ T12 Protein S10 69 85 1385 1401 I(kappa)B(alpha)
+@ T31 Localization S10 89 96 1405 1412 present
+@ T32 Entity S10 104 111 1420 1427 nucleus
+% E16 Localization:T31 Theme:T12 AtLoc:T32
+

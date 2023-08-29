@@ -1,0 +1,221 @@
+NleH1 inhibits RPS3 phosphorylation in vitro
+# T1 Protein S1 0 5 0 5 NleH1
+# T2 Protein S1 15 19 15 19 RPS3
+$ T1 Protein S1 0 5 0 5 NleH1
+$ T2 Protein S1 15 19 15 19 RPS3
+@ T52 Negative_regulation S1 6 14 6 14 inhibits
+@ T53 Phosphorylation S1 20 35 20 35 phosphorylation
+% E1 Negative_regulation:T52 Theme:E2 Cause:T1
+% E2 Phosphorylation:T53 Theme:T2
+
+EHEC pathogens are important causative agents of both foodborne disease and pediatric renal failure31.
+
+EHEC utilize T3SS to inject effector proteins directly into intestinal epithelial cells32, a subset of which inhibit NF-kappaB-dependent innate responses9, 33-38.
+
+The E. coli O157:H7 EDL933 effector protein NleH1 binds to and attenuates RPS3 nuclear translocation, thus impairing RPS3-dependent NF-kappaB signaling9.
+# T3 Protein S4 44 49 355 360 NleH1
+# T4 Protein S4 74 78 385 389 RPS3
+# T5 Protein S4 117 121 428 432 RPS3
+$ T3 Protein S4 44 49 355 360 NleH1
+$ T4 Protein S4 74 78 385 389 RPS3
+@ T54 Binding S4 50 55 361 366 binds
+@ T55 Negative_regulation S4 63 73 374 384 attenuates
+@ T56 Entity S4 79 86 390 397 nuclear
+@ T57 Localization S4 87 100 398 411 translocation
+% E3 Binding:T54 Theme:T3 Theme2:T4
+% E4 Negative_regulation:T55 Theme:E5 Cause:E3
+% E5 Localization:T57 Theme:T4 ToLoc:T56
+
+We therefore hypothesized that NleH1 may function by inhibiting RPS3 S209 phosphorylation.
+# T6 Protein S5 31 36 496 501 NleH1
+# T7 Protein S5 64 68 529 533 RPS3
+$ T6 Protein S5 31 36 496 501 NleH1
+$ T7 Protein S5 64 68 529 533 RPS3
+@ T58 Negative_regulation S5 53 63 518 528 inhibiting
+@ T59 Entity S5 69 73 534 538 S209
+@ T60 Phosphorylation S5 74 89 539 554 phosphorylation
+% E6 Negative_regulation:T58 Theme:E7 Cause:T6
+% E7 Phosphorylation:T60 Theme:T7 Site:T59
+
+As expected, transfecting increasing amounts of NleH1-HA plasmid blocked TNFalpha-induced NF-kappaB activation in a dose-dependent manner (Fig. 6a-b)9.
+# T8 Protein S6 48 56 604 612 NleH1-HA
+# T9 Protein S6 73 81 629 637 TNFalpha
+$ T8 Protein S6 48 56 604 612 NleH1-HA
+@ T61 Positive_regulation S6 26 36 582 592 increasing
+% E8 Positive_regulation:T61 Theme:T8
+
+Remarkably, NleH1 reduced both TNF-induced, as well as basal RPS3 phosphorylation to roughly 20% of vehicle control (Fig. 6c).
+# T10 Protein S7 12 17 720 725 NleH1
+# T11 Protein S7 31 34 739 742 TNF
+# T12 Protein S7 61 65 769 773 RPS3
+$ T10 Protein S7 12 17 720 725 NleH1
+$ T11 Protein S7 31 34 739 742 TNF
+$ T12 Protein S7 61 65 769 773 RPS3
+@ T62 Negative_regulation S7 18 25 726 733 reduced
+@ T63 Positive_regulation S7 35 42 743 750 induced
+@ T64 Phosphorylation S7 66 81 774 789 phosphorylation
+% E9 Negative_regulation:T62 Theme:E10 Cause:T10
+% E11 Negative_regulation:T62 Theme:E12 Cause:T10
+% E10 Positive_regulation:T63 Theme:E12 Cause:T11
+% E12 Phosphorylation:T64 Theme:T12
+
+Expressing NleH1 does not interfere with either TNF-induced IKK activation or IkappaBalpha degradation, consistent with the lack of NleH1 impact on p65 nuclear translocation9 (Fig. 6c).
+# T13 Protein S8 11 16 846 851 NleH1
+# T14 Protein S8 48 51 883 886 TNF
+# T15 Protein S8 78 90 913 925 IkappaBalpha
+# T16 Protein S8 132 137 967 972 NleH1
+# T17 Protein S8 148 151 983 986 p65
+$ T13 Protein S8 11 16 846 851 NleH1
+$ T14 Protein S8 48 51 883 886 TNF
+$ T15 Protein S8 78 90 913 925 IkappaBalpha
+$ T16 Protein S8 132 137 967 972 NleH1
+$ T17 Protein S8 148 151 983 986 p65
+@ T65 Gene_expression S8 0 10 835 845 Expressing
+@ T66 Negative_regulation S8 26 35 861 870 interfere
+@ T67 Positive_regulation S8 64 74 899 909 activation
+@ T68 Protein_catabolism S8 91 102 926 937 degradation
+@ T69 Negative_regulation S8 124 128 959 963 lack
+@ T70 Regulation S8 138 144 973 979 impact
+@ T71 Entity S8 152 159 987 994 nuclear
+@ T72 Localization S8 160 173 995 1008 translocation
+% E13 Gene_expression:T65 Theme:T13
+% E14 Negative_regulation:T66 Theme:E15 Cause:E13
+% E16 Negative_regulation:T66 Theme:E17 Cause:E13
+% E15 Positive_regulation:T67 Theme:E13 Cause:T14
+% E17 Protein_catabolism:T68 Theme:T15
+% E18 Negative_regulation:T69 Theme:T16
+% E19 Regulation:T70 Theme:E20 Cause:E18
+% E20 Localization:T72 Theme:T17 ToLoc:T71
+
+To determine if NleH1 inhibits RPS3 phosphorylation, we infected HeLa cells with E. coli O157:H7 strains possessing or lacking either nleH1 (deltanleH1) or with a strain lacking a functional T3SS unable to inject NleH1 into mammalian cells (deltaescN).
+# T18 Protein S9 16 21 1037 1042 NleH1
+# T19 Protein S9 31 35 1052 1056 RPS3
+# T20 Protein S9 134 139 1155 1160 nleH1
+# T21 Protein S9 141 151 1162 1172 deltanleH1
+# T22 Protein S9 213 218 1234 1239 NleH1
+# T23 Protein S9 241 250 1262 1271 deltaescN
+$ T18 Protein S9 16 21 1037 1042 NleH1
+$ T19 Protein S9 31 35 1052 1056 RPS3
+$ T20 Protein S9 134 139 1155 1160 nleH1
+@ T73 Negative_regulation S9 22 30 1043 1051 inhibits
+@ T74 Phosphorylation S9 36 51 1057 1072 phosphorylation
+@ T75 Negative_regulation S9 119 126 1140 1147 lacking
+% E21 Negative_regulation:T73 Theme:E22 Cause:T18
+% E22 Phosphorylation:T74 Theme:T19
+% E23 Negative_regulation:T75 Theme:T20
+
+In uninfected cells, TNF-treatment stimulated a ~7-fold increase in RPS3 S209 phosphorylation, peaking at 30 minutes (Fig. 6d).
+# T24 Protein S10 21 24 1295 1298 TNF
+# T25 Protein S10 68 72 1342 1346 RPS3
+$ T24 Protein S10 21 24 1295 1298 TNF
+$ T25 Protein S10 68 72 1342 1346 RPS3
+@ T76 Positive_regulation S10 56 64 1330 1338 increase
+@ T77 Entity S10 73 77 1347 1351 S209
+@ T78 Phosphorylation S10 78 93 1352 1367 phosphorylation
+% E24 Positive_regulation:T76 Theme:E25 Cause:T24
+% E25 Phosphorylation:T78 Theme:T25 Site:T77
+
+By contrast, RPS3 S209 phosphorylation was substantially impaired in cells infected with wild-type E. coli O157:H7 (Fig. 6d).
+# T26 Protein S11 13 17 1415 1419 RPS3
+$ T26 Protein S11 13 17 1415 1419 RPS3
+@ T79 Entity S11 18 22 1420 1424 S209
+@ T80 Phosphorylation S11 23 38 1425 1440 phosphorylation
+@ T81 Negative_regulation S11 57 65 1459 1467 impaired
+% E26 Phosphorylation:T80 Theme:T26 Site:T79
+% E27 Negative_regulation:T81 Theme:E26
+
+However, TNF-induced RPS3 S209 phosphorylation was unimpaired in cells infected with either deltanleH1 or deltaescN (Fig. 6d).
+# T27 Protein S12 9 12 1537 1540 TNF
+# T28 Protein S12 21 25 1549 1553 RPS3
+# T29 Protein S12 92 102 1620 1630 deltanleH1
+# T30 Protein S12 106 115 1634 1643 deltaescN
+$ T27 Protein S12 9 12 1537 1540 TNF
+$ T28 Protein S12 21 25 1549 1553 RPS3
+$ T29 Protein S12 92 102 1620 1630 deltanleH1
+$ T30 Protein S12 106 115 1634 1643 deltaescN
+@ T82 Positive_regulation S12 13 20 1541 1548 induced
+@ T83 Entity S12 26 30 1554 1558 S209
+@ T84 Phosphorylation S12 31 46 1559 1574 phosphorylation
+@ T85 Negative_regulation S12 51 61 1579 1589 unimpaired
+% E28 Positive_regulation:T82 Theme:E29 Cause:T27
+% E29 Phosphorylation:T84 Theme:T28 Site:T83
+% E30 Negative_regulation:T85 Theme:E28 Cause:T29
+% E31 Negative_regulation:T85 Theme:E28 Cause:T30
+
+We showed previously that wild-type, but not deltanleH1 or deltaescN E. coli O157:H7 significantly attenuated TNF-induced RPS3 nuclear translocation9.
+# T31 Protein S13 45 55 1700 1710 deltanleH1
+# T32 Protein S13 59 68 1714 1723 deltaescN
+# T33 Protein S13 110 113 1765 1768 TNF
+# T34 Protein S13 122 126 1777 1781 RPS3
+$ T31 Protein S13 45 55 1700 1710 deltanleH1
+$ T32 Protein S13 59 68 1714 1723 deltaescN
+$ T33 Protein S13 110 113 1765 1768 TNF
+$ T34 Protein S13 122 126 1777 1781 RPS3
+@ T86 Negative_regulation S13 99 109 1754 1764 attenuated
+@ T87 Positive_regulation S13 114 121 1769 1776 induced
+@ T88 Entity S13 127 134 1782 1789 nuclear
+@ T89 Localization S13 135 148 1790 1803 translocation
+% E32 Negative_regulation:T86 Theme:E33 Cause:T31
+% E34 Negative_regulation:T86 Theme:E33 Cause:T32
+% E33 Positive_regulation:T87 Theme:E35 Cause:T33
+% E35 Localization:T89 Theme:T34 ToLoc:T88
+
+The parallel between RPS3 phosphorylation and its nuclear translocation during E. coli infection provides evidence in the context of an NF-kappaB-dependent disease process that RPS3 S209 phosphorylation is important for nuclear translocation.
+# T35 Protein S14 21 25 1827 1831 RPS3
+# T36 Protein S14 177 181 1983 1987 RPS3
+$ T35 Protein S14 21 25 1827 1831 RPS3
+$ T36 Protein S14 177 181 1983 1987 RPS3
+@ T90 Phosphorylation S14 26 41 1832 1847 phosphorylation
+@ T51 Anaphora S14 46 49 1852 1855 its
+@ T91 Entity S14 50 57 1856 1863 nuclear
+@ T92 Localization S14 58 71 1864 1877 translocation
+@ T93 Entity S14 182 186 1988 1992 S209
+@ T94 Phosphorylation S14 187 202 1993 2008 phosphorylation
+@ T95 Regulation S14 206 215 2012 2021 important
+@ T96 Entity S14 220 227 2026 2033 nuclear
+@ T97 Localization S14 228 241 2034 2047 translocation
+% E36 Phosphorylation:T90 Theme:T35
+% E37 Localization:T92 Theme:T35 ToLoc:T91
+% E38 Phosphorylation:T94 Theme:T36 Site:T93
+% E39 Regulation:T95 Theme:E40 Cause:E38
+% E40 Localization:T97 Theme:T36 ToLoc:T96
+
+Our discovery that NleH1 inhibits RPS3 S209 phosphorylation suggested that it should also blocks RPS3-dependent NF-kappaB target gene transcription (e.g. IL8, NFKBIA, and TNFAIP3).
+# T37 Protein S15 19 24 2068 2073 NleH1
+# T38 Protein S15 34 38 2083 2087 RPS3
+# T39 Protein S15 97 101 2146 2150 RPS3
+# T40 Protein S15 154 157 2203 2206 IL8
+# T41 Protein S15 159 165 2208 2214 NFKBIA
+# T42 Protein S15 171 178 2220 2227 TNFAIP3
+$ T37 Protein S15 19 24 2068 2073 NleH1
+$ T38 Protein S15 34 38 2083 2087 RPS3
+@ T98 Negative_regulation S15 25 33 2074 2082 inhibits
+@ T99 Entity S15 39 43 2088 2092 S209
+@ T100 Phosphorylation S15 44 59 2093 2108 phosphorylation
+% E41 Negative_regulation:T98 Theme:E42 Cause:T37
+% E42 Phosphorylation:T100 Theme:T38 Site:T99
+
+Indeed, these genes were only modestly upregulated in cells infected with wild-type E. coli O157:H7, but significantly induced in cells infected with either deltanleH1 or deltaescN strains (Fig. 6e).
+# T43 Protein S16 157 167 2387 2397 deltanleH1
+# T44 Protein S16 171 180 2401 2410 deltaescN
+
+In contrast, deleting nleH1 had no impact on the expression of RPS3-independent genes, including CD25 and TNFSF13B (Supplementary Fig. 12).
+# T45 Protein S17 22 27 2452 2457 nleH1
+# T46 Protein S17 97 101 2527 2531 CD25
+# T47 Protein S17 106 114 2536 2544 TNFSF13B
+$ T45 Protein S17 22 27 2452 2457 nleH1
+@ T101 Negative_regulation S17 13 21 2443 2451 deleting
+% E43 Negative_regulation:T101 Theme:T45
+
+Together these results demonstrate that NleH1 specifically inhibits the protective immune response by directly blocking RPS3 S209 phosphorylation and thereby impairing critical RPS3-dependent NF-kappaB target genes.
+# T48 Protein S18 40 45 2610 2615 NleH1
+# T49 Protein S18 120 124 2690 2694 RPS3
+# T50 Protein S18 177 181 2747 2751 RPS3
+$ T48 Protein S18 40 45 2610 2615 NleH1
+$ T49 Protein S18 120 124 2690 2694 RPS3
+@ T102 Negative_regulation S18 111 119 2681 2689 blocking
+@ T103 Entity S18 125 129 2695 2699 S209
+@ T104 Phosphorylation S18 130 145 2700 2715 phosphorylation
+% E44 Negative_regulation:T102 Theme:E45 Cause:T48
+% E45 Phosphorylation:T104 Theme:T49 Site:T103
+

@@ -1,0 +1,34 @@
+Platelet-activating factor induces phospholipid turnover, calcium flux, arachidonic acid liberation, eicosanoid generation, and oncogene expression in a human B cell line.
+
+Platelet-activating factor is a potent mediator of the inflammatory response.
+
+Studies of the actions of platelet-activating factor have centered mainly around neutrophils, monocytes, and platelets.
+
+In this report we begin to uncover the influence of platelet-activating factor on B lymphocytes.
+
+Employing the EBV-transformed human B cell line SKW6.4, we demonstrate that platelet-activating factor significantly alters membrane phospholipid metabolism indicated by the incorporation of 32P into phosphatidylcholine, phosphatidylinositol, and phosphatidic acid but not significantly into phosphatidylethanolamine at concentrations ranging from 10(-9) to 10(-6) M.
+
+The inactive precursor, lyso-platelet-activating factor, at a concentration as high as 10(-7) M had no effect on any of the membrane phospholipids.
+
+We also show that platelet-activating factor from 10(-12) to 10(-6) M induced rapid and significant elevation in intracellular calcium levels, whereas lyso-platelet-activating factor was again ineffective.
+
+We further demonstrate the impact of platelet-activating factor binding to B cells by measuring platelet-activating factor induced arachidonic acid release and 5-hydroxyeicosatetraenoic acid production.
+
+Moreover, platelet-activating factor was capable of inducing transcription of the nuclear proto-oncogenes c-fos and c-jun.
+# T1 Protein S9 106 111 1499 1504 c-fos
+# T2 Protein S9 116 121 1509 1514 c-jun
+$ T1 Protein S9 106 111 1499 1504 c-fos
+$ T2 Protein S9 116 121 1509 1514 c-jun
+@ T5 Positive_regulation S9 52 60 1445 1453 inducing
+@ T6 Transcription S9 61 74 1454 1467 transcription
+% E1 Positive_regulation:T5 Theme:E3
+% E2 Positive_regulation:T5 Theme:E4
+% E3 Transcription:T6 Theme:T1
+% E4 Transcription:T6 Theme:T2
+
+Finally we explored the possible role of 5-hydroxyeicosatetraenoic acid as a regulator of arachidonic acid liberation demonstrating that endogenous 5-lipoxygenase activity modulates platelet-activating factor induced arachidonic acid release perhaps acting at the level of phospholipase A2.
+# T3 Protein S10 148 162 1664 1678 5-lipoxygenase
+# T4 Protein S10 273 289 1789 1805 phospholipase A2
+
+In summary, platelet-activating factor is shown here to have a direct and profound effect on a pure B cell line.
+

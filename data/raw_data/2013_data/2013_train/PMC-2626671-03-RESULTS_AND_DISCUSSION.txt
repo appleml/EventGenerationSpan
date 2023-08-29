@@ -1,0 +1,101 @@
+Distinct expression kinetics of perforin and granzyme B during CTL development in culture
+# T1 Protein S1 32 40 32 40 perforin
+# T2 Protein S1 45 55 45 55 granzyme B
+$ T1 Protein S1 32 40 32 40 perforin
+$ T2 Protein S1 45 55 45 55 granzyme B
+@ T21 Gene_expression S1 9 19 9 19 expression
+% E1 Gene_expression:T21 Theme:T1
+% E2 Gene_expression:T21 Theme:T2
+
+Our experiments revealed clear differences in the kinetics of perforin, granzyme B, and cytokine expression during CD8+ T cell activation (Fig. 1).
+# T3 Protein S2 62 70 152 160 perforin
+# T4 Protein S2 72 82 162 172 granzyme B
+# T5 Protein S2 115 118 205 208 CD8
+$ T3 Protein S2 62 70 152 160 perforin
+$ T4 Protein S2 72 82 162 172 granzyme B
+@ T22 Gene_expression S2 97 107 187 197 expression
+% E3 Gene_expression:T22 Theme:T3
+% E4 Gene_expression:T22 Theme:T4
+
+Naive T cells showed detectable expression of perforin mRNA as well as perforin protein (Fig. 1, A-D).
+# T6 Protein S3 46 54 284 292 perforin
+# T7 Protein S3 71 79 309 317 perforin
+$ T6 Protein S3 46 54 284 292 perforin
+$ T7 Protein S3 71 79 309 317 perforin
+@ T23 Gene_expression S3 32 42 270 280 expression
+% E5 Gene_expression:T23 Theme:T6
+% E6 Gene_expression:T23 Theme:T7
+
+Relative to its expression in naive T cells, perforin (Prf1) mRNA expression did not increase appreciably at day 2 but showed a reproducible decrease at day 4, followed by robust reexpression between days 4 and 8 (Fig. 1, A-D).
+# T8 Protein S4 45 53 386 394 perforin
+# T9 Protein S4 55 59 396 400 Prf1
+$ T8 Protein S4 45 53 386 394 perforin
+@ T19 Anaphora S4 12 15 353 356 its
+@ T24 Gene_expression S4 16 26 357 367 expression
+@ T25 Transcription S4 61 76 402 417 mRNA expression
+@ T26 Positive_regulation S4 85 93 426 434 increase
+@ T27 Negative_regulation S4 141 149 482 490 decrease
+@ T28 Positive_regulation S4 179 191 520 532 reexpression
+% E7 Gene_expression:T24 Theme:T8
+% E8 Transcription:T25 Theme:T8
+% E9 Positive_regulation:T26 Theme:E8
+% E10 Negative_regulation:T27 Theme:E8
+% E11 Positive_regulation:T28 Theme:E8
+
+In contrast, granzyme B (Gzmb) mRNA was low or undetectable in naive T cells but was strongly up-regulated by day 2 after stimulation and increased progressively until day 6 (Fig. 1, A and B); similarly, granzyme B protein was expressed by day 4 and remained high until day 6 (Fig. 1 E).
+# T10 Protein S5 13 23 582 592 granzyme B
+# T11 Protein S5 25 29 594 598 Gzmb
+# T12 Protein S5 204 214 773 783 granzyme B
+$ T10 Protein S5 13 23 582 592 granzyme B
+$ T12 Protein S5 204 214 773 783 granzyme B
+@ T29 Transcription S5 40 59 609 628 low or undetectable
+@ T30 Positive_regulation S5 94 106 663 675 up-regulated
+@ T31 Positive_regulation S5 138 147 707 716 increased
+@ T32 Positive_regulation S5 250 263 819 832 remained high
+% E12 Transcription:T29 Theme:T10
+% E13 Positive_regulation:T30 Theme:T10
+% E14 Positive_regulation:T31 Theme:T10
+% E15 Positive_regulation:T32 Theme:T12
+
+As expected, a small fraction of naive T cells expressed the cytokines IFN-gamma and TNF in response to stimulation, and this capacity increased significantly in differentiated cells (Fig. 1 E; see also Fig. 2 A).
+# T13 Protein S6 71 80 928 937 IFN-gamma
+# T14 Protein S6 85 88 942 945 TNF
+$ T13 Protein S6 71 80 928 937 IFN-gamma
+$ T14 Protein S6 85 88 942 945 TNF
+@ T33 Gene_expression S6 47 56 904 913 expressed
+@ T20 Anaphora S6 121 134 978 991 this capacity
+@ T34 Positive_regulation S6 135 144 992 1001 increased
+% E16 Gene_expression:T33 Theme:T13
+% E17 Gene_expression:T33 Theme:T14
+% E18 Positive_regulation:T34 Theme:E16
+% E19 Positive_regulation:T34 Theme:E17
+
+We evaluated antigen-dependent cytolytic function in a short-term assay in which target cell death was measured within 2 h (Fig. 1 F).
+
+By limiting the duration of TCR stimulation, this strategy minimizes cytolysis secondary to new gene expression during the period of the assay.
+
+Naive T cells did not display significant cytolytic function in this short-term assay (unpublished data), most likely because they express immature (unprocessed) forms of perforin and lack the capacity to degranulate (18, 19).
+# T15 Protein S9 171 179 1521 1529 perforin
+$ T15 Protein S9 171 179 1521 1529 perforin
+@ T35 Gene_expression S9 131 138 1481 1488 express
+% E20 Gene_expression:T35 Theme:T15
+
+Even after activation for 2 or 4 d, the cells showed poor cytolytic activity (Fig. 1 F), in striking contrast to their capacity for efficient cytokine production (Fig. 1 E).
+
+Only cells cultured until day 6 displayed robust cytotoxicity, as judged by their ability to induce apoptosis in a large number of target cells (Fig. 1 F).
+
+These results show that after a strong priming stimulus through TCRs and co-stimulatory receptors in vitro, granzyme B expression and the ability to produce effector cytokines are programmed early, whereas perforin expression and cytolytic function are induced later, during the phase of clonal expansion in IL-2.
+# T16 Protein S12 108 118 2015 2025 granzyme B
+# T17 Protein S12 206 214 2113 2121 perforin
+# T18 Protein S12 308 312 2215 2219 IL-2
+$ T16 Protein S12 108 118 2015 2025 granzyme B
+$ T17 Protein S12 206 214 2113 2121 perforin
+@ T36 Gene_expression S12 119 129 2026 2036 expression
+@ T37 Gene_expression S12 215 225 2122 2132 expression
+@ T38 Positive_regulation S12 253 260 2160 2167 induced
+% E21 Gene_expression:T36 Theme:T16
+% E22 Gene_expression:T37 Theme:T17
+% E23 Positive_regulation:T38 Theme:E22
+
+Therefore, the two major effector functions of CTL, cytokine production and cytolytic activity, are not intrinsically coregulated.
+

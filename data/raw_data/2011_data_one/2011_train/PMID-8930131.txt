@@ -1,0 +1,28 @@
+The Oct-2 transcription factor.
+# T1 Protein S1 4 9 4 9 Oct-2
+
+The Oct-2 transcription factor is a member of the POU (Pit-Oct-Unc) family of transcription factors and is expressed only in B lymphocytes and in neuronal cells but not in other cell types.
+# T2 Protein S2 4 9 37 42 Oct-2
+$ T2 Protein S2 4 9 37 42 Oct-2
+@ T5 Gene_expression S2 107 116 140 149 expressed
+% E1 Gene_expression:T5 Theme:T2
+
+The primary RNA transcript of the gene is subject to alternative splicing to yield different variants which can either activate or repress gene expression.
+@ T6 Transcription S3 12 26 235 249 RNA transcript
+@ T7 Regulation S3 42 49 265 272 subject
+% E2 Transcription:T6 Theme:T2
+% E3 Regulation:T7 Theme:E2
+
+The forms produced in B lymphocytes have a predominantly activating effect on gene expression whereas those produced in neuronal cells have a predominantly inhibitory effect and can repress the expression of both the herpes simplex virus immediate-early genes and the cellular tyrosine hydroxylase gene.
+# T3 Protein S4 277 297 656 676 tyrosine hydroxylase
+$ T3 Protein S4 277 297 656 676 tyrosine hydroxylase
+@ T8 Negative_regulation S4 156 173 535 552 inhibitory effect
+@ T9 Negative_regulation S4 182 189 561 568 repress
+@ T10 Gene_expression S4 194 204 573 583 expression
+% E4 Negative_regulation:T8 Theme:E6
+% E5 Negative_regulation:T9 Theme:E6
+% E6 Gene_expression:T10 Theme:T3
+
+Thus Oct-2 plays an important role in the regulation of cellular gene expression in both B cells and neuronal cells as well as in the control of viral latency.
+# T4 Protein S5 5 10 688 693 Oct-2
+

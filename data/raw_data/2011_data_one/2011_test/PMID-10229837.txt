@@ -1,0 +1,35 @@
+USF/c-Myc enhances, while Yin-Yang 1 suppresses, the promoter activity of CXCR4, a coreceptor for HIV-1 entry.
+# T1 Protein S1 4 9 4 9 c-Myc
+# T2 Protein S1 26 36 26 36 Yin-Yang 1
+# T3 Protein S1 74 79 74 79 CXCR4
+
+Transcription factors USF1 and USF2 up-regulate gene expression (i.e., HIV-1 long terminal repeats) via interaction with an E box on their target promoters, which is also a binding site for c-Myc.
+# T4 Protein S2 22 26 134 138 USF1
+# T5 Protein S2 31 35 143 147 USF2
+# T6 Protein S2 190 195 302 307 c-Myc
+
+The c-Myc oncoprotein is important in control of cellular proliferation and differentiation, while Yin-Yang 1 (YY1) has been shown to control the expression of a number of cellular and viral genes.
+# T7 Protein S3 4 9 313 318 c-Myc
+# T8 Protein S3 99 109 408 418 Yin-Yang 1
+# T9 Protein S3 111 114 420 423 YY1
+
+These two proteins physically interact with each other and mutually inhibit their respective biological functions.
+
+In this study, we show that USF/c-Myc up-regulates, while YY1 down-regulates the promoter activity of CXCR4, a coreceptor for T cell-tropic HIV-1 entry.
+# T10 Protein S5 32 37 654 659 c-Myc
+# T11 Protein S5 58 61 680 683 YY1
+# T12 Protein S5 102 107 724 729 CXCR4
+
+We have identified an E box around -260 and a YY1 binding site around -300 relative to the transcription start site.
+# T13 Protein S6 46 49 821 824 YY1
+
+Mutation of the E box abolished USF/c-Myc- mediated up-regulation of CXCR4 promoter activity, and mutation of the YY1 binding site was associated with unresponsiveness to YY1-mediated inhibition.
+# T14 Protein S7 36 41 928 933 c-Myc
+# T15 Protein S7 69 74 961 966 CXCR4
+# T16 Protein S7 114 117 1006 1009 YY1
+# T17 Protein S7 171 174 1063 1066 YY1
+
+These data suggest that USF/c-Myc and YY1 may play an important role in the HIV-1-replicative cycle, by modulating both the viral fusion/entry process and viral expression.
+# T18 Protein S8 28 33 1116 1121 c-Myc
+# T19 Protein S8 38 41 1126 1129 YY1
+

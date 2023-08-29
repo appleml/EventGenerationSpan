@@ -1,0 +1,35 @@
+Glucocorticoid-induced apoptosis of human leukemic cells is caused by the repressive function of the glucocorticoid receptor.
+# T1 Protein S1 101 124 101 124 glucocorticoid receptor
+
+Induction of apoptosis in lymphocytes, which may account for the therapeutic effects of glucocorticoids in various diseases including leukemia, depends on the glucocorticoid receptor.
+# T2 Protein S2 159 182 286 309 glucocorticoid receptor
+
+However, the events leading from the activated receptor to cell lysis are not understood.
+@ T7 Positive_regulation S3 37 46 348 357 activated
+% E1 Positive_regulation:T7 Theme:T2
+
+A prevailing hypothesis postulates induction of so-called 'lysis genes' by the activated receptor.
+@ T8 Positive_regulation S4 79 88 480 489 activated
+% E2 Positive_regulation:T8 Theme:T2
+
+In this study, we show that an activation-deficient glucocorticoid receptor mutant is as effective as the wild-type receptor in repression of AP-1 activity, inhibition of interleukin-2 production, inhibition of c-myc expression and induction of apoptosis.
+# T3 Protein S5 52 75 552 575 glucocorticoid receptor
+# T4 Protein S5 171 184 671 684 interleukin-2
+# T5 Protein S5 211 216 711 716 c-myc
+$ T3 Protein S5 52 75 552 575 glucocorticoid receptor
+$ T4 Protein S5 171 184 671 684 interleukin-2
+$ T5 Protein S5 211 216 711 716 c-myc
+@ T9 Negative_regulation S5 157 167 657 667 inhibition
+@ T10 Gene_expression S5 185 195 685 695 production
+@ T11 Negative_regulation S5 197 207 697 707 inhibition
+@ T12 Gene_expression S5 217 227 717 727 expression
+% E3 Negative_regulation:T9 Theme:E4 Cause:T3
+% E4 Gene_expression:T10 Theme:T4
+% E5 Negative_regulation:T11 Theme:E6 Cause:T3
+% E6 Gene_expression:T12 Theme:T5
+
+Furthermore, we show that retinoic acid can also induce apoptosis in these cells through the retinoic acid receptor, whose repressive functions but not target site specificity, are similar to those of the glucocorticoid receptor.
+# T6 Protein S6 205 228 961 984 glucocorticoid receptor
+
+Therefore, the primary effect of the receptor in glucocorticoid-mediated apoptosis correlates with transcriptional repression rather than activation and could be mediated by interference with other transcription factors required for cell survival.
+

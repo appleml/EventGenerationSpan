@@ -1,0 +1,29 @@
+Infection with Theileria annulata induces expression of matrix metalloproteinase 9 and transcription factor AP-1 in bovine leucocytes.
+# T1 Protein S1 56 82 56 82 matrix metalloproteinase 9
+
+Theileria annulata infects bovine leucocytes and results in their reversible transformation such that they become immortalised and metastatic.
+
+The present study describes parasite-induced changes in host cell gene expression which have a direct bearing on this transformation process.
+
+T. annulata-infected leucocytes produce a number of novel metalloproteinase activities.
+
+One of these, previously called B1, is a 97-kDa protein which is secreted in large amounts and has been purified from protein-free, conditioned medium.
+
+An antiserum to this enzyme was used to isolate a cDNA clone.
+
+The predicted protein sequence of B1 is 81% identical to human matrix metalloproteinase 9 (MMP9), demonstrating that it is the bovine homologue of this enzyme.
+# T2 Protein S7 63 89 786 812 matrix metalloproteinase 9
+# T3 Protein S7 91 95 814 818 MMP9
+
+RNAase protection assays demonstrated that the MMP9 activity, unique to infected cells, is due to increased MMP9 mRNA levels.
+# T4 Protein S8 47 51 930 934 MMP9
+# T5 Protein S8 108 112 991 995 MMP9
+
+We also assayed the levels of transcription factor AP-1 and demonstrated that it was constitutively present in increased amounts in Theileria-infected cells.
+
+In addition we assayed the level of mRNA encoding c-Fos, a common component of AP-1 and observed that it was indeed up-regulated in infected cells.
+# T6 Protein S10 50 55 1217 1222 c-Fos
+
+Since AP-1 is implicated in the control of the cell cycle, and MMP9 can confer metastatic properties, these results are of considerable significance with respect to the transformed phenotype induced by Theileria infection.
+# T7 Protein S11 63 67 1378 1382 MMP9
+

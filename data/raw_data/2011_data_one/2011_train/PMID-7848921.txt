@@ -1,0 +1,50 @@
+Overexpression of protein kinase C-zeta stimulates leukemic cell differentiation.
+# T1 Protein S1 18 39 18 39 protein kinase C-zeta
+$ T1 Protein S1 18 39 18 39 protein kinase C-zeta
+@ T11 Positive_regulation S1 0 14 0 14 Overexpression
+@ T12 Gene_expression S1 0 14 0 14 Overexpression
+% E1 Positive_regulation:T11 Theme:E2
+% E2 Gene_expression:T12 Theme:T1
+
+A function for protein kinase C-zeta (PKC-zeta), a member of the phorbol ester nonresponsive atypical protein kinase C subfamily, in modulating differentiation was examined in the leukemic U937 cell.
+# T2 Protein S2 15 36 98 119 protein kinase C-zeta
+# T3 Protein S2 38 46 121 129 PKC-zeta
+$ T3 Protein S2 38 46 121 129 PKC-zeta
+@ T13 Regulation S2 79 92 162 175 nonresponsive
+% E3 Regulation:T13 Theme:T3
+
+Transfected U937 cells stably overexpressing PKC-zeta displayed a longer doubling time, lower saturation density at confluency, and an increase in adherence to plastic as compared to control cells.
+# T4 Protein S3 45 53 328 336 PKC-zeta
+$ T4 Protein S3 45 53 328 336 PKC-zeta
+@ T14 Gene_expression S3 30 44 313 327 overexpressing
+@ T15 Positive_regulation S3 30 44 313 327 overexpressing
+% E4 Gene_expression:T14 Theme:T4
+% E5 Positive_regulation:T15 Theme:E4
+
+PKC-zeta cells expressed a more differentiated phenotype as assessed by changes in morphology, surface antigen expression, and lysosomal enzyme activities and were distinct from parental U937 cells stimulated to differentiate by exposure to phorbol esters.
+# T5 Protein S4 0 8 481 489 PKC-zeta
+
+In contrast to parental U937 cells, PKC-zeta cells constitutively expressed mRNA transcripts for c-jun and a low mobility AP-1 binding activity.
+# T6 Protein S5 36 44 774 782 PKC-zeta
+# T7 Protein S5 97 102 835 840 c-jun
+$ T7 Protein S5 97 102 835 840 c-jun
+@ T16 Transcription S5 66 75 804 813 expressed
+% E6 Transcription:T16 Theme:T7
+
+Thus, PKC-zeta overexpression stimulates a type of phenotypic differentiation that differs significantly from maturation occurring upon activation of other PKC subfamilies induced by phorbol ester treatment.
+# T8 Protein S6 6 14 889 897 PKC-zeta
+$ T8 Protein S6 6 14 889 897 PKC-zeta
+@ T17 Gene_expression S6 15 29 898 912 overexpression
+@ T18 Positive_regulation S6 15 29 898 912 overexpression
+% E7 Gene_expression:T17 Theme:T8
+% E8 Positive_regulation:T18 Theme:E7
+
+Increased expression of the c-jun protooncogene and an increase in AP-1 binding activity in PKC-zeta cells provides a potential mechanism for explaining the altered differentiation status of this cell.
+# T9 Protein S7 28 33 1119 1124 c-jun
+# T10 Protein S7 92 100 1183 1191 PKC-zeta
+$ T9 Protein S7 28 33 1119 1124 c-jun
+@ T19 Positive_regulation S7 0 9 1091 1100 Increased
+@ T20 Gene_expression S7 10 20 1101 1111 expression
+% E9 Positive_regulation:T19 Theme:E10
+% E10 Gene_expression:T20 Theme:T9
+

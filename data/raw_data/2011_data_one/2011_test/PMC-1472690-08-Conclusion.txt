@@ -1,0 +1,14 @@
+Conclusion
+
+In summary, our data demonstrated that in vitro glucan phosphate induced a transcription factor binding and a subsequent cytokine profile different from LPS and also from TSST-1 and, moreover, switched a pro-inflammatory TSST-1-induced response to an IL-1RA-mediated anti-inflammatory reaction.
+# T1 Protein S2 171 177 182 188 TSST-1
+# T2 Protein S2 221 227 232 238 TSST-1
+# T3 Protein S2 251 257 262 268 IL-1RA
+
+Our results also generated new insights into a very complex interplay of transcription factor binding to various known and newly identified sites in the IL-1RA promoter (Fig. 8), which can be regulated differentially by a fungal carbohydrate.
+# T4 Protein S3 153 159 459 465 IL-1RA
+
+Together with the in vivo studies [22,37], our findings might support the concept of protective effects mediated by glucan phosphate in pro-inflammatory conditions, especially with a dysregulated IL-1beta/IL-1RA ratio [52,53].
+# T5 Protein S4 196 204 745 753 IL-1beta
+# T6 Protein S4 205 211 754 760 IL-1RA
+

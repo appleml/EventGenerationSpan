@@ -1,0 +1,31 @@
+Identification and purification of human Stat proteins activated in response to interleukin-2.
+# T1 Protein S1 80 93 80 93 interleukin-2
+
+A key cytokine induced during the immune response is IL-2.
+# T2 Protein S2 53 57 149 153 IL-2
+
+Following T cell activation, the genes encoding IL-2 and the various chains of its receptor are transcriptionally induced.
+# T3 Protein S3 48 52 203 207 IL-2
+
+In turn, secreted IL-2 serves to stimulate the proliferation and differentiation of T lymphocytes.
+# T4 Protein S4 18 22 296 300 IL-2
+
+Several recent studies have implicated Jak kinases in the signaling pathway induced by IL-2.
+# T5 Protein S5 87 91 464 468 IL-2
+
+Following this lead, we set out to identify transcription factors induced in response to IL-2.
+# T6 Protein S6 89 93 559 563 IL-2
+
+Human peripheral blood lymphocytes were observed to contain several IL-2-inducible DNA binding activities.
+# T7 Protein S7 68 72 633 637 IL-2
+
+Similar activities were also observed in a transformed human lymphocyte line, termed YT.
+
+We have purified these activities and found that the principal IL-2-inducible component bears significant relatedness to a prolactin-induced transcription factor first identified in sheep mammary gland tissue.
+# T8 Protein S9 63 67 824 828 IL-2
+# T9 Protein S9 123 132 884 893 prolactin
+
+We hypothesize that activation of this protein, designated hStat5, helps govern the biological effects of IL-2 during the immune response.
+# T10 Protein S10 59 65 1030 1036 hStat5
+# T11 Protein S10 106 110 1077 1081 IL-2
+

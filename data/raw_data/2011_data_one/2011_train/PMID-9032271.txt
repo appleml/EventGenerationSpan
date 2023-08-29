@@ -1,0 +1,86 @@
+Characterization of a mutant cell line that does not activate NF-kappaB in response to multiple stimuli.
+
+Numerous genes required during the immune or inflammation response as well as the adhesion process are regulated by nuclear factor kappaB (NF-kappaB).
+
+Associated with its inhibitor, I kappaB, NF-kappaB resides as an inactive form in the cytoplasm.
+
+Upon stimulation by various agents, I kappaB is proteolyzed and NF-kappaB translocates to the nucleus, where it activates its target genes.
+
+The transduction pathways that lead to I kappaB inactivation remain poorly understood.
+
+In this study, we have characterized a cellular mutant, the 70/Z3-derived 1.3E2 murine pre-B cell line, that does not activate NF-kappaB in response to several stimuli.
+
+We demonstrate that upon stimulation by lipopolysaccharide, Taxol, phorbol myristate acetate, interleukin-1, or double-stranded RNA, I kappaB alpha is not degraded, as a result of an absence of induced phosphorylation on serines 32 and 36.
+# T1 Protein S7 133 147 883 897 I kappaB alpha
+$ T1 Protein S7 133 147 883 897 I kappaB alpha
+@ T13 Protein_catabolism S7 155 163 905 913 degraded
+@ T14 Positive_regulation S7 170 176 920 926 result
+@ T15 Negative_regulation S7 183 190 933 940 absence
+@ T16 Phosphorylation S7 202 217 952 967 phosphorylation
+@ T17 Entity S7 221 238 971 988 serines 32 and 36
+% E1 Protein_catabolism:T13 Theme:T1
+% E2 Positive_regulation:T14 Theme:E1 Cause:E3
+% E3 Negative_regulation:T15 Theme:E4
+% E4 Phosphorylation:T16 Theme:T1 Site:T17
+
+Neither a mutation in I kappaB alpha nor a mutation in p50 or relA, the two major subunits of NF-kappaB in this cell line, accounts for this phosphorylation defect.
+# T2 Protein S8 22 36 1012 1026 I kappaB alpha
+# T3 Protein S8 55 58 1045 1048 p50
+# T4 Protein S8 62 66 1052 1056 relA
+@ T18 Positive_regulation S8 123 135 1113 1125 accounts for
+% E5 Positive_regulation:T18 Theme:E3
+
+As well as culminating in the inducible phosphorylation of I kappaB alpha on serines 32 and 36, all the stimuli that are inactive on 1.3E2 cells exhibit a sensitivity to the antioxidant pyrrolidine dithiocarbamate (PDTC).
+# T5 Protein S9 59 73 1214 1228 I kappaB alpha
+$ T5 Protein S9 59 73 1214 1228 I kappaB alpha
+@ T19 Positive_regulation S9 11 22 1166 1177 culminating
+@ T20 Phosphorylation S9 40 55 1195 1210 phosphorylation
+% E6 Positive_regulation:T19 Theme:E7
+% E7 Phosphorylation:T20 Theme:T5
+
+In contrast, stimuli such as hyperosmotic shock or phosphatase inhibitors, which use PDTC-insensitive pathways, induce I kappaB alpha degradation in 1.3E2.
+# T6 Protein S10 119 133 1496 1510 I kappaB alpha
+$ T6 Protein S10 119 133 1496 1510 I kappaB alpha
+@ T21 Positive_regulation S10 112 118 1489 1495 induce
+@ T22 Protein_catabolism S10 134 145 1511 1522 degradation
+% E8 Positive_regulation:T21 Theme:E9
+% E9 Protein_catabolism:T22 Theme:T6
+
+Analysis of the redox status of 1.3E2 does not reveal any difference from wild-type 70Z/3.
+
+We also report that the human T-cell leukemia virus type 1 (HTLV-1)-derived Tax trans-activator induces NF-kappaB activity in 1.3E2, suggesting that this viral protein does not operate via the defective pathway.
+# T7 Protein S12 76 79 1700 1703 Tax
+$ T7 Protein S12 76 79 1700 1703 Tax
+@ T23 Regulation S12 177 184 1801 1808 operate
+% E10 Regulation:T23 Theme:E4 Cause:T7
+
+Finally, we show that two other I kappaB molecules, I kappaB beta and the recently identified I kappaB epsilon, are not degraded in the 1.3E2 cell line following stimulation.
+# T8 Protein S13 52 65 1888 1901 I kappaB beta
+# T9 Protein S13 94 110 1930 1946 I kappaB epsilon
+$ T8 Protein S13 52 65 1888 1901 I kappaB beta
+$ T9 Protein S13 94 110 1930 1946 I kappaB epsilon
+@ T24 Protein_catabolism S13 120 128 1956 1964 degraded
+@ T25 Positive_regulation S13 152 161 1988 1997 following
+% E11 Protein_catabolism:T24 Theme:T8
+% E12 Protein_catabolism:T24 Theme:T9
+% E13 Positive_regulation:T25 Theme:E12
+% E14 Positive_regulation:T25 Theme:E11
+
+Our results demonstrate that 1.3E2 is a cellular transduction mutant exhibiting a defect in a step that is required by several different stimuli to activate NF-kappaB.
+
+In addition, this analysis suggests a common step in the signaling pathways that trigger I kappaB alpha, I kappaB beta, and I kappaB epsilon degradation.
+# T10 Protein S15 89 103 2268 2282 I kappaB alpha
+# T11 Protein S15 105 118 2284 2297 I kappaB beta
+# T12 Protein S15 124 140 2303 2319 I kappaB epsilon
+$ T12 Protein S15 124 140 2303 2319 I kappaB epsilon
+$ T10 Protein S15 89 103 2268 2282 I kappaB alpha
+$ T11 Protein S15 105 118 2284 2297 I kappaB beta
+@ T26 Positive_regulation S15 81 88 2260 2267 trigger
+@ T27 Protein_catabolism S15 141 152 2320 2331 degradation
+% E15 Positive_regulation:T26 Theme:E19
+% E16 Positive_regulation:T26 Theme:E18
+% E17 Positive_regulation:T26 Theme:E20
+% E18 Protein_catabolism:T27 Theme:T12
+% E19 Protein_catabolism:T27 Theme:T10
+% E20 Protein_catabolism:T27 Theme:T11
+

@@ -1,0 +1,47 @@
+Potent and stable attenuation of live-HIV-1 by gain of a proteolysis-resistant inhibitor of NF-kappaB (IkappaB-alphaS32/36A) and the implications for vaccine development.
+# T1 Protein S1 103 116 103 116 IkappaB-alpha
+$ T1 Protein S1 103 116 103 116 IkappaB-alpha
+@ T8 Protein_catabolism S1 57 68 57 68 proteolysis
+% E1 Protein_catabolism:T8 Theme:T1
+
+Live-attenuated human immunodeficiency viruses (HIVs) are candidates for Acquired Immunodeficiency Syndrome (AIDS) vaccine.
+
+Based on the simian immunodeficiency virus (SIV) model for AIDS, loss-of-function (e.g. deletion of accessory genes such as nef) has been forwarded as a primary approach for creating enfeebled, but replication-competent, HIV-1/SIV.
+# T2 Protein S3 124 127 420 423 nef
+
+Regrettably, recent evidence suggests that loss-of-function alone is not always sufficient to prevent the emergence of virulent mutants.
+
+New strategies that attenuate via mechanisms distinct from loss-of-function are needed for enhancing the safety phenotype of viral genome.
+
+Here, we propose gain-of-function to be used simultaneously with loss-of-function as a novel approach for attenuating HIV-1.
+
+We have constructed an HIV-1 genome carrying the cDNA of a proteolysis-resistant nuclear factor-kappaB inhibitor (IkappaB-alphaS32/36A) in the nef region.
+# T3 Protein S7 114 127 1043 1056 IkappaB-alpha
+# T4 Protein S7 143 146 1072 1075 nef
+$ T3 Protein S7 114 127 1043 1056 IkappaB-alpha
+@ T9 Protein_catabolism S7 59 70 988 999 proteolysis
+@ T10 Negative_regulation S7 71 80 1000 1009 resistant
+% E2 Protein_catabolism:T9 Theme:T3
+% E3 Negative_regulation:T10 Theme:E2
+
+HIV-1 expressing IkappaB-alphaS32/36A down-regulates viral expression and is highly attenuated in both Jurkat and peripheral blood mononuclear cells.
+# T5 Protein S8 17 30 1101 1114 IkappaB-alpha
+$ T5 Protein S8 17 30 1101 1114 IkappaB-alpha
+@ T11 Gene_expression S8 6 16 1090 1100 expressing
+@ T12 Negative_regulation S8 84 94 1168 1178 attenuated
+% E4 Gene_expression:T11 Theme:T5
+% E5 Negative_regulation:T12 Theme:E4
+
+We provide formal proof that the phenotypic and attenuating characteristics of IkappaB-alphaS32/36A permit its stable maintenance in a live, replicating HIV-1 despite 180 days of forced ex vivo passaging in tissue culture.
+# T6 Protein S9 79 92 1313 1326 IkappaB-alpha
+$ T6 Protein S9 79 92 1313 1326 IkappaB-alpha
+@ T13 Positive_regulation S9 118 129 1352 1363 maintenance
+% E6 Positive_regulation:T13 Theme:T6
+
+As compared with other open-reading frames embedded into HIV/SIV genome, this degree of stability is unprecedented.
+
+Thus, IkappaB-alphaS32/36A offers proof-of-principle that artifactually gained functions, when used to attenuate the replication of live HIV-1, can be stable.
+# T7 Protein S11 6 19 1579 1592 IkappaB-alpha
+
+These findings illustrate gain-of-function as a feasible strategy for developing safer live-attenuated HIVs to be tested as candidates for AIDS vaccine.
+

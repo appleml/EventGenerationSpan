@@ -1,0 +1,70 @@
+Interaction of sickle erythrocytes with endothelial cells in the presence of endothelial cell conditioned medium induces oxidant stress leading to transendothelial migration of monocytes.
+
+The abnormal adherence of sickle red blood cells (SS RBC) to endothelial cells has been thought to contribute to vascular occlusion, a major cause of morbidity in sickle cell disease (SCD).
+
+We determined whether the interaction of SS RBC with cultured endothelial cells induced cellular oxidant stress that would culminate in expression of cell adhesion molecules (CAMs) involved in the adhesion and diapedesis of monocytes and the adherence of SS reticulocytes.
+
+We showed that the interaction of SS RBC at 2% concentration in the presence of multimers of von Willebrand factor (vWf), derived from endothelial cell-derived conditioned medium (E-CM) with cultured human umbilical vein endothelial cells (HUVEC), resulted in a fivefold increased formation of thiobarbituric acid-reactive substances (TBARS) and activation of the transcription factor NF-kB, both indicators of cellular oxidant stress.
+# T1 Protein S4 93 114 745 766 von Willebrand factor
+# T2 Protein S4 116 119 768 771 vWf
+$ T2 Protein S4 116 119 768 771 vWf
+@ T12 Binding S4 80 89 732 741 multimers
+% E1 Binding:T12 Theme:T2
+
+Normal RBC show none of these phenomena.
+
+The oxidant stress-induced signaling resulted in an increased surface expression of a subset of CAMs, ICAM-1, E-selectin, and VCAM-1 in HUVEC.
+# T3 Protein S6 102 108 1231 1237 ICAM-1
+# T4 Protein S6 110 120 1239 1249 E-selectin
+# T5 Protein S6 126 132 1255 1261 VCAM-1
+$ T4 Protein S6 110 120 1239 1249 E-selectin
+$ T3 Protein S6 102 108 1231 1237 ICAM-1
+$ T5 Protein S6 126 132 1255 1261 VCAM-1
+@ T13 Positive_regulation S6 37 61 1166 1190 resulted in an increased
+@ T14 Entity S6 62 69 1191 1198 surface
+@ T15 Localization S6 70 80 1199 1209 expression
+% E2 Positive_regulation:T13 Theme:E7
+% E3 Positive_regulation:T13 Theme:E6
+% E4 Positive_regulation:T13 Theme:E5
+% E5 Localization:T15 Theme:T4 AtLoc:T14
+% E6 Localization:T15 Theme:T3 AtLoc:T14
+% E7 Localization:T15 Theme:T5 AtLoc:T14
+
+The addition of oxygen radical scavenger enzymes (catalase, superoxide dismutase) and antioxidant (probucol) inhibited these events.
+# T6 Protein S7 50 58 1322 1330 catalase
+# T7 Protein S7 60 80 1332 1352 superoxide dismutase
+$ T7 Protein S7 60 80 1332 1352 superoxide dismutase
+$ T6 Protein S7 50 58 1322 1330 catalase
+@ T16 Negative_regulation S7 109 118 1381 1390 inhibited
+% E8 Negative_regulation:T16 Theme:E3 Cause:T7
+% E9 Negative_regulation:T16 Theme:E2
+% E10 Negative_regulation:T16 Theme:E2 Cause:T7
+% E11 Negative_regulation:T16 Theme:E4 Cause:T7
+% E12 Negative_regulation:T16 Theme:E3 Cause:T6
+% E13 Negative_regulation:T16 Theme:E3
+% E14 Negative_regulation:T16 Theme:E4
+% E15 Negative_regulation:T16 Theme:E2 Cause:T6
+% E16 Negative_regulation:T16 Theme:E4 Cause:T6
+
+Additionally, preincubation of HUVEC with a synthetic peptide Arg-Gly-Asp (RGD) that prevents vWf-mediated adhesion of SS RBC reduced the surface expression of VCAM-1 and NF-kB activation.
+# T8 Protein S8 94 97 1499 1502 vWf
+# T9 Protein S8 160 166 1565 1571 VCAM-1
+$ T9 Protein S8 160 166 1565 1571 VCAM-1
+@ T17 Negative_regulation S8 126 133 1531 1538 reduced
+@ T18 Gene_expression S8 146 156 1551 1561 expression
+% E17 Negative_regulation:T17 Theme:E18
+% E18 Gene_expression:T18 Theme:T9
+
+Furthermore, SS RBC-induced oxidant stress resulted in a twofold increase in the transendothelial migration of both monocyte-like HL-60 cells and human peripheral blood monocytes, and approximately a sixfold increase in platelet-endothelial cell adhesion molecule-1 (PECAM-1) phosphorylation, each of which was blocked by protein kinase C inhibitor and antioxidants.
+# T10 Protein S9 220 265 1814 1859 platelet-endothelial cell adhesion molecule-1
+# T11 Protein S9 267 274 1861 1868 PECAM-1
+$ T11 Protein S9 267 274 1861 1868 PECAM-1
+@ T19 Positive_regulation S9 208 216 1802 1810 increase
+@ T20 Phosphorylation S9 276 291 1870 1885 phosphorylation
+@ T21 Negative_regulation S9 311 318 1905 1912 blocked
+% E19 Positive_regulation:T19 Theme:E20
+% E20 Phosphorylation:T20 Theme:T11
+% E21 Negative_regulation:T21 Theme:E19
+
+These results suggest that the adherence/contact of SS RBC to endothelial cells in large vessel can generate enhanced oxidant stress leading to increased adhesion and diapedesis of monocytes, as well as heightened adherence of SS reticulocytes, indicating that injury/activation of endothelium can contribute to vaso-occlusion in SCD.
+

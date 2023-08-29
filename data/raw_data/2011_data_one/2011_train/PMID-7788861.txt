@@ -1,0 +1,92 @@
+Expression of Ah receptor (TCDD receptor) during human monocytic differentiation.
+# T1 Protein S1 14 25 14 25 Ah receptor
+# T2 Protein S1 27 40 27 40 TCDD receptor
+$ T1 Protein S1 14 25 14 25 Ah receptor
+@ T18 Gene_expression S1 0 10 0 10 Expression
+% E1 Gene_expression:T18 Theme:T1
+
+We have previously found a high expression of human Ah receptor (TCDD receptor) mRNA in peripheral blood cells of individuals.
+# T3 Protein S2 52 63 135 146 Ah receptor
+# T4 Protein S2 65 78 148 161 TCDD receptor
+$ T4 Protein S2 65 78 148 161 TCDD receptor
+@ T19 Transcription S2 32 42 115 125 expression
+% E2 Transcription:T19 Theme:T4
+
+In this paper, the expression of this gene in blood cells was first investigated in fractions of nucleated cells, revealing predominant expression of the Ah receptor gene in the monocyte fraction.
+# T5 Protein S3 154 165 364 375 Ah receptor
+$ T5 Protein S3 154 165 364 375 Ah receptor
+@ T20 Gene_expression S3 19 29 229 239 expression
+@ T21 Gene_expression S3 136 146 346 356 expression
+% E3 Gene_expression:T20 Theme:T4
+% E4 Gene_expression:T21 Theme:T5
+
+Then the expression levels of AhR mRNA in various hematopoietic cell lines were examined together with those of Arnt and P450IA1.
+# T6 Protein S4 30 33 437 440 AhR
+# T7 Protein S4 121 128 528 535 P450IA1
+$ T7 Protein S4 121 128 528 535 P450IA1
+$ T6 Protein S4 30 33 437 440 AhR
+@ T22 Gene_expression S4 9 19 416 426 expression
+@ T23 Transcription S4 9 19 416 426 expression
+% E5 Gene_expression:T22 Theme:T7
+% E6 Transcription:T23 Theme:T6
+
+AhR was expressed at high levels in monocytoid U937, THP1, and HEL/S cells, and at moderate levels in promyelocytic HL60 cells and erythroblastic HEL cells.
+# T8 Protein S5 0 3 537 540 AhR
+$ T8 Protein S5 0 3 537 540 AhR
+@ T24 Gene_expression S5 8 17 545 554 expressed
+% E7 Gene_expression:T24 Theme:T8
+
+However, it was not detected in lymphoid cells MOLT4 (T cell) and BALL1 (B cell), nor in K562 erythroblasts.
+@ T25 Gene_expression S6 20 28 714 722 detected
+% E8 Gene_expression:T25 Theme:T8
+
+Furthermore, a specific induction of AhR during monocytic differentiation was investigated in HL60 and HEL cells.
+# T9 Protein S7 37 40 840 843 AhR
+$ T9 Protein S7 37 40 840 843 AhR
+@ T26 Positive_regulation S7 24 33 827 836 induction
+% E9 Positive_regulation:T26 Theme:T9
+
+HL60 cells were induced to differentiate toward monocytes-macrophages by incubation with phorbol ester, showing a 5- to 2-fold increase of AhR mRNA.
+# T10 Protein S8 139 142 1056 1059 AhR
+$ T10 Protein S8 139 142 1056 1059 AhR
+@ T27 Positive_regulation S8 127 135 1044 1052 increase
+% E10 Positive_regulation:T27 Theme:T10
+
+The incubation with transforming growth factor beta 1 and 1 alpha,25-dihydroxyvitamin D3 resulted in a 5- to 7-fold increase of AhR mRNA.
+# T11 Protein S9 20 53 1086 1119 transforming growth factor beta 1
+# T12 Protein S9 128 131 1194 1197 AhR
+$ T12 Protein S9 128 131 1194 1197 AhR
+@ T28 Positive_regulation S9 116 124 1182 1190 increase
+% E11 Positive_regulation:T28 Theme:T12
+
+The HEL cells also exhibited a similar elevation of AhR mRNA level, when they had differentiated toward monocyte-macrophage cells by these combined inducers, but little change in the mRNA level was observed when the cells were induced to differentiate into other cell types.
+# T13 Protein S10 52 55 1256 1259 AhR
+$ T13 Protein S10 52 55 1256 1259 AhR
+@ T29 Positive_regulation S10 39 48 1243 1252 elevation
+@ T30 Regulation S10 169 175 1373 1379 change
+% E12 Positive_regulation:T29 Theme:T13
+% E13 Regulation:T30 Theme:T13
+
+Treatment of the differentiated HL60 cells with 3-methylcholanthrene, a ligand of AhR, induced the expression of the P450IA1 gene.
+# T14 Protein S11 82 85 1561 1564 AhR
+# T15 Protein S11 117 124 1596 1603 P450IA1
+$ T14 Protein S11 82 85 1561 1564 AhR
+$ T15 Protein S11 117 124 1596 1603 P450IA1
+@ T31 Binding S11 72 78 1551 1557 ligand
+@ T32 Positive_regulation S11 87 94 1566 1573 induced
+@ T33 Gene_expression S11 99 109 1578 1588 expression
+% E14 Binding:T31 Theme:T14
+% E15 Positive_regulation:T32 Theme:E16
+% E16 Gene_expression:T33 Theme:T15
+
+These results indicated that expression of AhR mRNA was significantly induced during monocytic differentiation and that the differentiated cells were responsive to xenobiotics.
+# T16 Protein S12 43 46 1653 1656 AhR
+$ T16 Protein S12 43 46 1653 1656 AhR
+@ T34 Transcription S12 29 39 1639 1649 expression
+@ T35 Positive_regulation S12 70 77 1680 1687 induced
+% E17 Transcription:T34 Theme:T16
+% E18 Positive_regulation:T35 Theme:E17
+
+Our results suggest that AhR may play an important role in the function of monocytes and also in the eventual activation of environmental carcinogens.
+# T17 Protein S13 25 28 1812 1815 AhR
+

@@ -1,0 +1,37 @@
+Transcriptional activity and constitutive nuclear localization of the ETS protein Elf-1.
+# T1 Protein S1 82 87 82 87 Elf-1
+$ T1 Protein S1 82 87 82 87 Elf-1
+@ T9 Entity S1 42 49 42 49 nuclear
+@ T10 Localization S1 50 62 50 62 localization
+% E1 Localization:T10 Theme:T1 AtLoc:T9
+
+Elf-1 is a lymphoid-specific transcription factor that belongs to the ETS protein family.
+# T2 Protein S2 0 5 90 95 Elf-1
+
+It can bind to DNA target sequences within a variety of cytokine genes.
+@ T11 Binding S3 7 11 187 191 bind
+% E2 Binding:T11 Theme:T2
+
+We demonstrate that Elf-1 is constitutively localized in the nucleus which is dependent on the presence of amino acids 86-265.
+# T3 Protein S4 20 25 272 277 Elf-1
+$ T3 Protein S4 20 25 272 277 Elf-1
+@ T12 Localization S4 44 53 296 305 localized
+@ T13 Entity S4 61 68 313 320 nucleus
+@ T14 Positive_regulation S4 78 87 330 339 dependent
+% E3 Localization:T12 Theme:T3 AtLoc:T13
+% E4 Positive_regulation:T14 Theme:E3
+
+Analysis of Gal4-Elf-1 fusion proteins revealed that the N-terminal 86 amino acids of Elf-1 contain a transcriptional activation domain, the activity of which is attenuated by an internal repression domain.
+# T4 Protein S5 12 16 391 395 Gal4
+# T5 Protein S5 17 22 396 401 Elf-1
+# T6 Protein S5 86 91 465 470 Elf-1
+
+Furthermore, Elf-1 interacts specifically with the E74 target sequence and can stimulate transcription driven by the E74 site independent of mitogenic signaling.
+# T7 Protein S6 13 18 599 604 Elf-1
+$ T7 Protein S6 13 18 599 604 Elf-1
+@ T15 Binding S6 19 28 605 614 interacts
+% E5 Binding:T15 Theme:T7
+
+Thus, Elf-1 is able to stimulate gene transcription which may be required for the development and activity of lymphocytes.
+# T8 Protein S7 6 11 754 759 Elf-1
+

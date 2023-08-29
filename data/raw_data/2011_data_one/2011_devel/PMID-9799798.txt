@@ -1,0 +1,82 @@
+Transcriptional regulation of lysosomal acid lipase in differentiating monocytes is mediated by transcription factors Sp1 and AP-2.
+# T1 Protein S1 30 51 30 51 lysosomal acid lipase
+# T2 Protein S1 118 121 118 121 Sp1
+$ T1 Protein S1 30 51 30 51 lysosomal acid lipase
+$ T2 Protein S1 118 121 118 121 Sp1
+@ T14 Regulation S1 0 26 0 26 Transcriptional regulation
+@ T15 Regulation S1 84 92 84 92 mediated
+% E1 Regulation:T14 Theme:T1
+% E2 Regulation:T15 Theme:E1 Cause:T2
+
+Human lysosomal acid lipase (LAL) is a hydrolase required for the cleavage of cholesteryl esters and triglycerides derived from plasma lipoproteins.
+# T3 Protein S2 6 27 139 160 lysosomal acid lipase
+# T4 Protein S2 29 32 162 165 LAL
+
+It is shown here that during monocyte to macrophage differentiation, the expression of LAL-mRNA is induced.
+# T5 Protein S3 87 90 369 372 LAL
+$ T5 Protein S3 87 90 369 372 LAL
+@ T16 Transcription S3 73 83 355 365 expression
+@ T17 Positive_regulation S3 99 106 381 388 induced
+% E3 Transcription:T16 Theme:T5
+% E4 Positive_regulation:T17 Theme:E3
+
+This induction is dependent on protein kinase C activity and protein synthesis.
+@ T18 Positive_regulation S4 18 27 408 417 dependent
+% E5 Positive_regulation:T18 Theme:E4
+
+The cell type-specific increase in LAL expression is further investigated in the THP-1 cell line with respect to transcriptional regulation.
+# T6 Protein S5 35 38 505 508 LAL
+$ T6 Protein S5 35 38 505 508 LAL
+@ T19 Positive_regulation S5 23 31 493 501 increase
+@ T20 Gene_expression S5 39 49 509 519 expression
+@ T21 Regulation S5 113 139 583 609 transcriptional regulation
+% E6 Positive_regulation:T19 Theme:E7
+% E7 Gene_expression:T20 Theme:T6
+% E8 Regulation:T21 Theme:T6
+
+The human monocytic leukemia cell line THP-1 differentiates into macrophage-like cells when treated with phorbol esters.
+
+In order to determine the cis-acting elements necessary for both basal and phorbol 12-myristate-13 acetate (PMA)-enhanced promoter activity, we performed deletion analysis and reporter gene assays.
+
+A PMA responsive element has been identified between -182 bp and -107 bp upstream of the major transcription start site.
+
+Gel mobility shift assays demonstrated that binding of Sp1 and AP-2 to the LAL promoter is increased by PMA in THP-1 cells.
+# T7 Protein S9 55 58 1106 1109 Sp1
+# T8 Protein S9 75 78 1126 1129 LAL
+$ T7 Protein S9 55 58 1106 1109 Sp1
+$ T8 Protein S9 75 78 1126 1129 LAL
+@ T22 Binding S9 44 51 1095 1102 binding
+@ T23 Entity S9 79 87 1130 1138 promoter
+@ T24 Positive_regulation S9 91 100 1142 1151 increased
+% E9 Binding:T22 Theme:T7 Theme2:T8 Site2:T23
+% E10 Binding:T22 Theme:T8 Site:T23
+% E11 Positive_regulation:T24 Theme:E10
+% E12 Positive_regulation:T24 Theme:E9
+
+Co-transfections with expression plasmids for Sp1 and AP-2 further emphasized the important role of these transcription factors in both basal and PMA-enhanced LAL expression.
+# T9 Protein S10 46 49 1221 1224 Sp1
+# T10 Protein S10 159 162 1334 1337 LAL
+$ T9 Protein S10 46 49 1221 1224 Sp1
+$ T10 Protein S10 159 162 1334 1337 LAL
+@ T25 Regulation S10 82 96 1257 1271 important role
+@ T26 Positive_regulation S10 150 158 1325 1333 enhanced
+@ T27 Gene_expression S10 163 173 1338 1348 expression
+% E13 Regulation:T25 Theme:E16 Cause:T9
+% E14 Regulation:T25 Theme:E15 Cause:T9
+% E15 Positive_regulation:T26 Theme:E16
+% E16 Gene_expression:T27 Theme:T10
+
+Our data suggest that differentiation dependent increase of lysosomal acid lipase (LAL) expression in THP-1 cells is mediated by a concerted action of Sp1 and AP-2.
+# T11 Protein S11 60 81 1410 1431 lysosomal acid lipase
+# T12 Protein S11 83 86 1433 1436 LAL
+# T13 Protein S11 151 154 1501 1504 Sp1
+$ T12 Protein S11 83 86 1433 1436 LAL
+@ T28 Regulation S11 38 47 1388 1397 dependent
+@ T29 Positive_regulation S11 48 56 1398 1406 increase
+@ T30 Gene_expression S11 88 98 1438 1448 expression
+@ T31 Regulation S11 117 125 1467 1475 mediated
+% E17 Regulation:T28 Theme:E18
+% E18 Positive_regulation:T29 Theme:E19
+% E19 Gene_expression:T30 Theme:T12
+% E20 Regulation:T31 Theme:E17
+

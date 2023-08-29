@@ -1,0 +1,66 @@
+Regulation of granulocyte-macrophage colony-stimulating factor and E-selectin expression in endothelial cells by cyclosporin A and the T-cell transcription factor NFAT.
+# T1 Protein S1 14 62 14 62 granulocyte-macrophage colony-stimulating factor
+# T2 Protein S1 67 77 67 77 E-selectin
+$ T2 Protein S1 67 77 67 77 E-selectin
+$ T1 Protein S1 14 62 14 62 granulocyte-macrophage colony-stimulating factor
+@ T14 Regulation S1 0 10 0 10 Regulation
+@ T15 Gene_expression S1 78 88 78 88 expression
+% E1 Regulation:T14 Theme:E4
+% E2 Regulation:T14 Theme:E3
+% E3 Gene_expression:T15 Theme:T2
+% E4 Gene_expression:T15 Theme:T1
+
+Nuclear factor of activated T cells (NFAT) was originally described as a T-cell-specific transcription factor athat supported the activation of cytokine gene expression and mediated the immunoregulatory effects of cyclosporin A (CsA).
+
+As we observed that activated endothelial cells also expressed NFAT, we tested the antiinflammatory properties of CsA in endothelial cells.
+
+Significantly, CsA completely suppressed the induction of NFAT in endothelial cells and inhibited the activity of granulocyte-macrophage colony-stimulating factor (GM-CSF) gene regulatory elements that use NFAT by 60%.
+# T3 Protein S4 114 162 659 707 granulocyte-macrophage colony-stimulating factor
+# T4 Protein S4 164 170 709 715 GM-CSF
+
+CsA similarly mediated a reduction of up to 65% in GM-CSF mRNA and protein expression in activated endothelial cells.
+# T5 Protein S5 51 57 815 821 GM-CSF
+$ T5 Protein S5 51 57 815 821 GM-CSF
+@ T16 Negative_regulation S5 14 34 778 798 mediated a reduction
+@ T17 Transcription S5 75 85 839 849 expression
+@ T18 Gene_expression S5 75 85 839 849 expression
+% E5 Negative_regulation:T16 Theme:E8
+% E6 Negative_regulation:T16 Theme:E7
+% E7 Transcription:T17 Theme:T5
+% E8 Gene_expression:T18 Theme:T5
+
+CsA also suppressed E-selectin, but not vascular cell adhesion molecule-1 (VCAM-1) expression in endothelial cells, even though the E-selectin promoter is activated by NF-kappa B rather than NFAT.
+# T6 Protein S6 20 30 902 912 E-selectin
+# T7 Protein S6 40 73 922 955 vascular cell adhesion molecule-1
+# T8 Protein S6 75 81 957 963 VCAM-1
+# T9 Protein S6 132 142 1014 1024 E-selectin
+$ T6 Protein S6 20 30 902 912 E-selectin
+$ T8 Protein S6 75 81 957 963 VCAM-1
+$ T9 Protein S6 132 142 1014 1024 E-selectin
+@ T19 Negative_regulation S6 9 19 891 901 suppressed
+@ T20 Gene_expression S6 83 93 965 975 expression
+@ T21 Entity S6 143 151 1025 1033 promoter
+@ T22 Positive_regulation S6 155 164 1037 1046 activated
+% E9 Negative_regulation:T19 Theme:E12
+% E10 Negative_regulation:T19 Theme:E11
+% E11 Gene_expression:T20 Theme:T6
+% E12 Gene_expression:T20 Theme:T8
+% E13 Positive_regulation:T22 Theme:T9 Site:T21
+
+Hence, induction of cell surface expression of this leukocyte adhesion molecule by tumor necrosis factor (TNF)-alpha was reduced by 40% in the presence of CsA, and this was reflected by a 29% decrease in neutrophil adhesion.
+# T10 Protein S7 83 116 1162 1195 tumor necrosis factor (TNF)-alpha
+$ T10 Protein S7 83 116 1162 1195 tumor necrosis factor (TNF)-alpha
+@ T23 Positive_regulation S7 7 16 1086 1095 induction
+@ T24 Gene_expression S7 33 43 1112 1122 expression
+@ T25 Negative_regulation S7 121 128 1200 1207 reduced
+% E14 Positive_regulation:T23 Theme:E15 Cause:T10
+% E15 Gene_expression:T24 Theme:T9
+% E16 Negative_regulation:T25 Theme:E14
+
+The effects of CsA on endothelial cells were also detected at the chromatin structure level, as DNasel hypersensitive sites within both the GM-CSF enhancer and the E-selectin promoter were suppressed by CsA.
+# T11 Protein S8 96 102 1400 1406 DNasel
+# T12 Protein S8 140 146 1444 1450 GM-CSF
+# T13 Protein S8 164 174 1468 1478 E-selectin
+
+This represents the first report of NFAT in endothelial cells and suggests mechanisms by which CsA could function as an antiinflammatory agent.
+

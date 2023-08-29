@@ -1,0 +1,62 @@
+Relief of cyclin A gene transcriptional inhibition during activation of human primary T lymphocytes via CD2 and CD28 adhesion molecules.
+# T1 Protein S1 10 18 10 18 cyclin A
+# T2 Protein S1 104 107 104 107 CD2
+# T3 Protein S1 112 116 112 116 CD28
+$ T1 Protein S1 10 18 10 18 cyclin A
+@ T20 Negative_regulation S1 0 6 0 6 Relief
+@ T21 Negative_regulation S1 24 50 24 50 transcriptional inhibition
+% E1 Negative_regulation:T20 Theme:E2
+% E2 Negative_regulation:T21 Theme:T1
+
+Cyclin A transcription is cell cycle regulated and induced by cell proliferative signals.
+# T4 Protein S2 0 8 138 146 Cyclin A
+$ T4 Protein S2 0 8 138 146 Cyclin A
+@ T22 Transcription S2 9 22 147 160 transcription
+@ T23 Regulation S2 37 46 175 184 regulated
+@ T24 Positive_regulation S2 51 58 189 196 induced
+% E3 Transcription:T22 Theme:T4
+% E4 Regulation:T23 Theme:E3
+% E5 Positive_regulation:T24 Theme:E3
+
+To understand the mechanisms underlined in this regulation in normal human cells, we have analysed in vivo protein-DNA interactions at the Cyclin A locus in primary T lymphocytes.
+# T5 Protein S3 139 147 367 375 Cyclin A
+$ T5 Protein S3 139 147 367 375 Cyclin A
+@ T25 Binding S3 119 131 347 359 interactions
+% E6 Binding:T25 Theme:T5
+
+Stimulation of purified T lymphocytes by a combination of monoclonal antibodies directed at CD2 and CD28 adhesion molecules gives rise to a long lasting proliferation in the absence of accessory cells.
+# T6 Protein S4 92 95 500 503 CD2
+# T7 Protein S4 100 104 508 512 CD28
+
+Cyclin A was observed after 4 days of costimulation with anti CD2 + CD28 whereas stimulation by anti CD2 or anti CD28 alone was not effective.
+# T8 Protein S5 0 8 610 618 Cyclin A
+# T9 Protein S5 62 65 672 675 CD2
+# T10 Protein S5 68 72 678 682 CD28
+# T11 Protein S5 101 104 711 714 CD2
+# T12 Protein S5 113 117 723 727 CD28
+$ T8 Protein S5 0 8 610 618 Cyclin A
+@ T26 Transcription S5 13 21 623 631 observed
+@ T27 Positive_regulation S5 132 141 742 751 effective
+% E7 Transcription:T26 Theme:T8
+% E8 Positive_regulation:T27 Theme:E3
+
+In vivo genomic DMS footprinting revealed upstream of the major transcription initiation sites, the presence of at least three protein binding sites, two of which were constitutively occupied.
+
+They bind in vitro respectively ATF-1 and NF-Y proteins.
+# T13 Protein S7 32 37 978 983 ATF-1
+$ T13 Protein S7 32 37 978 983 ATF-1
+@ T28 Binding S7 5 9 951 955 bind
+% E9 Binding:T28 Theme:T13
+
+The third site was occupied in quiescent cells or in cells stimulated by anti CD2 or anti CD28 alone.
+# T14 Protein S8 78 81 1081 1084 CD2
+# T15 Protein S8 90 94 1093 1097 CD28
+
+The mitogenic combination of anti CD2 + anti CD28 released the footprint as cells were committed to proliferation.
+# T16 Protein S9 34 37 1139 1142 CD2
+# T17 Protein S9 45 49 1150 1154 CD28
+
+Consistent with theses results, nuclear extracts prepared from quiescent cells formed a specific complex with this element, whereas extracts prepared from cells treated with anti CD2 + anti CD28 failed to do so after cells entered a proliferative state.
+# T18 Protein S10 179 182 1399 1402 CD2
+# T19 Protein S10 190 194 1410 1414 CD28
+

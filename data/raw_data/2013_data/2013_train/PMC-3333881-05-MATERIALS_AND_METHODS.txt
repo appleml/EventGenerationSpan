@@ -1,0 +1,18 @@
+Pseudotyped virions and single round infection
+
+293T cells (1 x 107) were transfected with pNL4-3.
+
+Luc.R-E- or pNL4-3.
+
+FLAG-Tat.
+# T1 Protein S4 5 8 121 124 Tat
+
+R-E- (10 microg) together with pHXB2 Env (10 microg), and 48-h post-transfection cell supernatant was collected.
+# T2 Protein S5 37 40 162 165 Env
+
+Enzyme-linked immunosorbent assay (ELISA) using anti-p24 antibody measured virion concentration.
+
+PBMCs, Jurkat or U937 cells (5 x 107) were infected with HXB2 Env-pseudotyped virions (500 ng of p24) by spinoculation, as previously described (50).
+# T3 Protein S7 62 65 397 400 Env
+# T4 Protein S7 97 100 432 435 p24
+

@@ -1,0 +1,14 @@
+{"text": "Quantitation of globin mRNA .", "event": "<extra_id_0> <extra_id_1>"}
+{"text": "RNA was first reverse transcribed to cDNA .", "event": "<extra_id_0> <extra_id_1>"}
+{"text": "Primers for cDNA PCR amplification of globin genes were obtained from Primerbank [ 51 ] .", "event": "<extra_id_0> <extra_id_1>"}
+{"text": "All primers were searched against the NCBI database to confirm specificity .", "event": "<extra_id_0> <extra_id_1>"}
+{"text": "For <extra_id_0> epsilony globin <extra_id_2> Protein <extra_id_1> : MHB1666 , 5'TGGCCTGTGGAGTAAGGTCAA3 ' ; and MHB1667 , 5'GAAGCAGAGGACAAGTTCCCA3 ' .", "event": "<extra_id_0> <extra_id_1>"}
+{"text": "For <extra_id_0> zeta globin <extra_id_2> Protein <extra_id_1> : MHB1668 , 5'CTACCCCCAGACGAAGACCTA3 ' ; and MHB1669 , 5'CTTAACCGCATCCCCTACGG3 ' .", "event": "<extra_id_0> <extra_id_1>"}
+{"text": "For <extra_id_0> betaH1 globin <extra_id_2> Protein <extra_id_1> : MHB1672 , 5'TGGACAACCTCAAGGAGACC3 ' ; and MHB1673 , 5'ACCTCTGGGGTGAATTCCTT3 ' .", "event": "<extra_id_0> <extra_id_1>"}
+{"text": "For <extra_id_0> betamaj <extra_id_2> Protein <extra_id_1> / <extra_id_0> min globin <extra_id_2> Protein <extra_id_1> : MHB1674 : 5'ATGGCCTGAATCACTTGGAC3 ' ; and MHB1675 , 5'ACGATCATATTGCCCAGGAG3 ' .", "event": "<extra_id_0> <extra_id_1>"}
+{"text": "Using the SYBR green supermix kit with ROX ( Bio-Rad , Hercules , California , United States ) , PCR amplification was run on an ABI7000 ( Applied Biosystems , Foster City , California , United States ) at the University of Arizona core facility .", "event": "<extra_id_0> <extra_id_1>"}
+{"text": "All PCR was performed in a 25-mul reaction with 12.5 mul SYBR green supermix .", "event": "<extra_id_0> <extra_id_1>"}
+{"text": "<extra_id_0> GAPDH <extra_id_2> Protein <extra_id_1> mRNA levels were used as control for input RNA .", "event": "<extra_id_0> <extra_id_1>"}
+{"text": "Standard curve analyses were performed to test the efficiency of the amplifications .", "event": "<extra_id_0> <extra_id_1>"}
+{"text": "Triplicates were done for each PCR reaction .", "event": "<extra_id_0> <extra_id_1>"}
+{"text": "Relative quantitative values were calculated in the ABI Prism 7000 SDS Software ( Applied Biosystems ) and normalized to <extra_id_0> GAPDH <extra_id_2> Protein <extra_id_1> in Microsoft Excel ( Redmond , Washington , United States ) .", "event": "<extra_id_0> <extra_id_1>"}

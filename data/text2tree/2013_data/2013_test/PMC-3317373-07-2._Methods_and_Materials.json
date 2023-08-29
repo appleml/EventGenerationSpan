@@ -1,0 +1,10 @@
+{"text": "2.6 .", "event": "<extra_id_0> <extra_id_1>"}
+{"text": "Western Blot", "event": "<extra_id_0> <extra_id_1>"}
+{"text": "To obtain total protein lysates , cells were homogenized in RIPA buffer ( 1 % NP40 , 0.5 % sodium deoxycholate , 0.1 % SDS , 1 mM EDTA , 1 mM EGTA , 1 mM Na3VO4 , 20 mM NaF , 0.5 mM DTT , 1 mM PMSF , and protease inhibitor cocktail in PBS pH 7.4 ) and centrifuged at 12 , 000 g for 15 min at 4degreesC .", "event": "<extra_id_0> <extra_id_1>"}
+{"text": "Protein concentrations were estimated by Coomassie Plus Protein Assay Reagent ( Pierce , IL , USA ) .", "event": "<extra_id_0> <extra_id_1>"}
+{"text": "Fifty micrograms of the resulting cytosolic protein extracts were heat-denatured in Laemmli sample loading buffer , separated by 10 % sodium dodecyl sulfate polyacrylamide gel electrophoresis , and electroblotted onto a nitrocellulose membrane .", "event": "<extra_id_0> <extra_id_1>"}
+{"text": "For immunoblotting , membranes were blocked with 5 % nonfat dry milk in saline buffer overnight at 4degreesC , and the following antibodies were used : anti-beta-actin ( sc-130657 , Santa Cruz Biotechnology , CA , USA , 43 kDa ) and anti-matrix metallopeptidase 9 ( <extra_id_0> MMP9 <extra_id_2> Protein <extra_id_1> ) ( sc-6841 , Santa Cruz Biotechnology , CA , USA , 92 kDa ) .", "event": "<extra_id_0> <extra_id_1>"}
+{"text": "Each primary antibody was diluted appropriately in blocking buffer and then added to the blots for 1 h at room temperature .", "event": "<extra_id_0> <extra_id_1>"}
+{"text": "The blots were washed three times in the washing buffer and covered with the horseradish peroxidase - linked secondary antibody at a 1 : 2000 dilution for 1 h . Blots were incubated with enhanced chemiluminescence ( ECL ) detection system ( Amersham Biosciences , Bucks , UK ) and exposed to radiographic film ( Fuji Hyperfilm , Tokyo , Japan ) .", "event": "<extra_id_0> <extra_id_1>"}
+{"text": "ImageJ was used to analyze the intensity of the blots .", "event": "<extra_id_0> <extra_id_1>"}
+{"text": "The level of beta-actin was used as internal standard .", "event": "<extra_id_0> <extra_id_1>"}

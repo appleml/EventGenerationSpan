@@ -1,0 +1,77 @@
+Key role for Runx3 in effector CTL differentiation.
+# T1 Protein S1 13 18 13 18 Runx3
+
+(A) Western analysis of Runx3, Eomes, T-bet, and perforin expression in Runx3+/+ versus Runx3-/- CD8+ SP T cells differentiated for 6 d. beta-Actin was used as a loading control.
+# T2 Protein S2 24 29 76 81 Runx3
+# T3 Protein S2 31 36 83 88 Eomes
+# T4 Protein S2 38 43 90 95 T-bet
+# T5 Protein S2 49 57 101 109 perforin
+# T6 Protein S2 72 77 124 129 Runx3
+# T7 Protein S2 88 93 140 145 Runx3
+# T8 Protein S2 97 100 149 152 CD8
+# T9 Protein S2 137 147 189 199 beta-Actin
+$ T2 Protein S2 24 29 76 81 Runx3
+$ T3 Protein S2 31 36 83 88 Eomes
+$ T4 Protein S2 38 43 90 95 T-bet
+$ T5 Protein S2 49 57 101 109 perforin
+@ T31 Gene_expression S2 58 68 110 120 expression
+% E1 Gene_expression:T31 Theme:T2
+% E2 Gene_expression:T31 Theme:T3
+% E3 Gene_expression:T31 Theme:T4
+% E4 Gene_expression:T31 Theme:T5
+
+(B) Northern blot analysis of Prf1 mRNA expression in Runx3+/+ versus Runx3-/- CD8+ T cells differentiated for 6 d. beta-Actin was used as a loading control.
+# T10 Protein S3 30 34 261 265 Prf1
+# T11 Protein S3 54 59 285 290 Runx3
+# T12 Protein S3 70 75 301 306 Runx3
+# T13 Protein S3 79 82 310 313 CD8
+# T14 Protein S3 116 126 347 357 beta-Actin
+$ T10 Protein S3 30 34 261 265 Prf1
+@ T32 Transcription S3 35 50 266 281 mRNA expression
+% E5 Transcription:T32 Theme:T10
+
+(C) Expression of granzyme B, IFN-gamma, TNF, and IL-2 by resting or restimulated (6 h) Runx3+/+ versus Runx3-/- CD8+ SP T cells differentiated for 6 d.
+# T15 Protein S4 18 28 407 417 granzyme B
+# T16 Protein S4 30 39 419 428 IFN-gamma
+# T17 Protein S4 41 44 430 433 TNF
+# T18 Protein S4 50 54 439 443 IL-2
+# T19 Protein S4 88 93 477 482 Runx3
+# T20 Protein S4 104 109 493 498 Runx3
+# T21 Protein S4 113 116 502 505 CD8
+$ T15 Protein S4 18 28 407 417 granzyme B
+$ T16 Protein S4 30 39 419 428 IFN-gamma
+$ T17 Protein S4 41 44 430 433 TNF
+$ T18 Protein S4 50 54 439 443 IL-2
+@ T33 Gene_expression S4 4 14 393 403 Expression
+% E6 Gene_expression:T33 Theme:T15
+% E7 Gene_expression:T33 Theme:T16
+% E8 Gene_expression:T33 Theme:T17
+% E9 Gene_expression:T33 Theme:T18
+
+The vertical gray line indicates the granzyme B MFI for WT GFP+ cells.
+# T22 Protein S5 37 47 579 589 granzyme B
+# T23 Protein S5 59 62 601 604 GFP
+
+Results in A-C are representative of two independent experiments.
+
+(D) ChIP analysis of binding of endogenous Runx3 and Eomes to the Prf1 locus.
+# T24 Protein S7 43 48 722 727 Runx3
+# T25 Protein S7 53 58 732 737 Eomes
+# T26 Protein S7 66 70 745 749 Prf1
+$ T24 Protein S7 43 48 722 727 Runx3
+$ T26 Protein S7 66 70 745 749 Prf1
+$ T25 Protein S7 53 58 732 737 Eomes
+@ T34 Binding S7 21 28 700 707 binding
+% E10 Binding:T34 Theme:T24 Theme2:T26
+% E11 Binding:T34 Theme:T25 Theme2:T26
+
+Enrichment of the indicated genomic regions was evaluated by real-time PCR of DNA from immunoprecipitated and input chromatin.
+
+The data are the means of duplicate measurements from two chromatin preparations from two independent CD8+ T cell differentiations.
+# T27 Protein S9 102 105 986 989 CD8
+
+The efficiency of recovery of input for the -1-kb region of Prf1 was 0.97% for the Runx3 ChIP and 0.5% for the Eomes ChIP.
+# T28 Protein S10 60 64 1076 1080 Prf1
+# T29 Protein S10 83 88 1099 1104 Runx3
+# T30 Protein S10 111 116 1127 1132 Eomes
+

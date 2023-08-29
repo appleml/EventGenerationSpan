@@ -1,0 +1,57 @@
+A20-binding inhibitors of NF-kappaB
+# T1 Protein S1 0 3 0 3 A20
+
+ABIN-1, ABIN-2 and ABIN-3 (also known as TNIP-1, TNIP-2, and TNIP-3) were identified as ubiquitously expressed A20 interacting proteins and were shown to inhibit NF-kappaB activation by TNF and several other inflammatory stimuli upon overexpression.
+# T2 Protein S2 0 6 36 42 ABIN-1
+# T3 Protein S2 8 14 44 50 ABIN-2
+# T4 Protein S2 19 25 55 61 ABIN-3
+# T5 Protein S2 41 47 77 83 TNIP-1
+# T6 Protein S2 49 55 85 91 TNIP-2
+# T7 Protein S2 61 67 97 103 TNIP-3
+# T8 Protein S2 111 114 147 150 A20
+# T9 Protein S2 186 189 222 225 TNF
+
+Because ABINs contain a specific ubiquitin-binding motif, they have been proposed to target A20 to polyubiquitinated substrates [43,44].
+# T10 Protein S3 92 95 378 381 A20
+
+Similar to A20, ABIN-1 and ABIN-3 expression is NF-kappaB dependent, implicating a potential role for the A20/ABIN complex in the negative feedback regulation of NF-kappaB activation (reviewed in [54]).
+# T11 Protein S4 11 14 434 437 A20
+# T12 Protein S4 16 22 439 445 ABIN-1
+# T13 Protein S4 27 33 450 456 ABIN-3
+# T14 Protein S4 106 109 529 532 A20
+
+Unexpectedly, both ABIN-1-deficient and ABIN-2-deficient mice exhibit only slightly increased or normal NF-kappaB responses, respectively, possibly reflecting redundant NF-kappaB inhibitory activities of multiple ABINs [55,56].
+# T15 Protein S5 19 25 645 651 ABIN-1
+# T16 Protein S5 40 46 666 672 ABIN-2
+
+Functional ABIN-3 is expressed in humans, but mice only express a truncated and inactive form lacking the crucial ubiquitin-binding domain [57].
+# T17 Protein S6 11 17 865 871 ABIN-3
+# T18 Protein S6 66 93 920 947 truncated and inactive form
+
+As for A20, ABIN-1 also strongly inhibits TNF-induced apoptosis [58], and ABIN-1 deficient mice die embryonically due to TNF-dependent foetal liver apoptosis [56].
+# T19 Protein S7 7 10 1006 1009 A20
+# T20 Protein S7 12 18 1011 1017 ABIN-1
+# T21 Protein S7 42 45 1041 1044 TNF
+# T22 Protein S7 74 80 1073 1079 ABIN-1
+# T23 Protein S7 121 124 1120 1123 TNF
+
+Using oligonucleotide microarray analysis, ABIN-1 was identified among TNF-induced genes in human synoviocytes, and high levels of ABIN-1 mRNA were detected in RA tissue biopsies, indicating a potential role for ABIN-1, together with A20, in the negative feedback regulation of NF-kappaB signalling and the pathogenesis of RA [59].
+# T24 Protein S8 43 49 1206 1212 ABIN-1
+# T25 Protein S8 71 74 1234 1237 TNF
+# T26 Protein S8 131 137 1294 1300 ABIN-1
+# T27 Protein S8 212 218 1375 1381 ABIN-1
+# T28 Protein S8 234 237 1397 1400 A20
+
+In a recent study, inhibition of TLR responses by immunoreceptor tyrosine-based activation motif (ITAM)-coupled receptors was shown to depend on the expression of the NF-kappaB inhibitory proteins ABIN-3 and A20.
+# T29 Protein S9 197 203 1692 1698 ABIN-3
+# T30 Protein S9 208 211 1703 1706 A20
+
+Moreover, this protective effect of the ITAM was strongly suppressed in inflammatory arthritis synovial macrophages [60].
+
+Interestingly, ABIN-1 polymorphisms have been associated with psoriasis and systemic lupus erythematosus in humans [61,62].
+# T31 Protein S11 15 21 1845 1851 ABIN-1
+
+A high degree of overlap between systemic lupus erythematosus and RA susceptibility loci might be expected as the two diseases show some clinical overlap in joint involvement, autoantibody production, systemic features and response to treatments such as B-cell depletion (rituximab).
+
+It will therefore be interesting to investigate whether SNPs that have been reported to be associated with systemic lupus erythematosus are also associated with RA.
+

@@ -1,0 +1,56 @@
+Inhibition of transcription factor Stat1 activity in mononuclear cell cultures and T cells by the cyclic AMP signaling pathway.
+# T1 Protein S1 35 40 35 40 Stat1
+$ T1 Protein S1 35 40 35 40 Stat1
+@ T11 Negative_regulation S1 0 10 0 10 Inhibition
+% E1 Negative_regulation:T11 Theme:T1
+
+Activation of T cells results in a cascade of gene activation and subsequent proliferation and differentiation into effector phenotypes.
+
+The regulation of transcription factors belonging to the signal transducer and activator of transcription (STAT) family was analyzed in PHA-activated mononuclear cells and in purified T cells activated by cross-linking cell surface CD3.
+# T2 Protein S3 136 139 402 405 PHA
+
+Cell activation resulted in a delayed induction of STAT DNA-binding activity, which was sustained for several days, was composed predominantly of Stat1 and Stat3, and was blocked by cycloheximide and actinomycin D. Increased Stat1 and Stat3 mRNA and protein levels were detected, respectively 4 and 24 h after activation.
+# T3 Protein S4 146 151 649 654 Stat1
+# T4 Protein S4 156 161 659 664 Stat3
+
+Stimulation of the cAMP signal transduction pathway, which skews cytokine production toward a Th2 pattern, resulted in the preferential suppression of Stat1 activity.
+# T5 Protein S5 151 156 976 981 Stat1
+$ T5 Protein S5 151 156 976 981 Stat1
+@ T12 Regulation S5 107 115 932 940 resulted
+@ T13 Positive_regulation S5 107 115 932 940 resulted
+@ T14 Negative_regulation S5 136 147 961 972 suppression
+% E2 Regulation:T12 Theme:E4
+% E3 Positive_regulation:T13 Theme:E4
+% E4 Negative_regulation:T14 Theme:T5
+
+cAMP inhibited the induction of expression of IL-2 receptor components, but did not inhibit IL-4 receptor alpha-chain and CD69 expression or the induction of activator protein 1 transcription factors.
+# T6 Protein S6 46 50 1038 1042 IL-2
+# T7 Protein S6 92 117 1084 1109 IL-4 receptor alpha-chain
+# T8 Protein S6 122 126 1114 1118 CD69
+$ T7 Protein S6 92 117 1084 1109 IL-4 receptor alpha-chain
+$ T8 Protein S6 122 126 1114 1118 CD69
+@ T15 Negative_regulation S6 84 91 1076 1083 inhibit
+@ T16 Gene_expression S6 127 137 1119 1129 expression
+% E5 Negative_regulation:T15 Theme:E7
+% E6 Negative_regulation:T15 Theme:E8
+% E7 Gene_expression:T16 Theme:T7
+% E8 Gene_expression:T16 Theme:T8
+
+cAMP signaling inhibited Stat1 at several different levels, including suppression of DNA binding and down-regulation of Stat1 protein and mRNA levels.
+# T9 Protein S7 25 30 1218 1223 Stat1
+# T10 Protein S7 120 125 1313 1318 Stat1
+$ T9 Protein S7 25 30 1218 1223 Stat1
+$ T10 Protein S7 120 125 1313 1318 Stat1
+@ T17 Negative_regulation S7 15 24 1208 1217 inhibited
+@ T18 Negative_regulation S7 70 81 1263 1274 suppression
+@ T19 Binding S7 89 96 1282 1289 binding
+@ T20 Negative_regulation S7 101 116 1294 1309 down-regulation
+@ T21 Transcription S7 143 149 1336 1342 levels
+% E9 Negative_regulation:T17 Theme:T9
+% E10 Negative_regulation:T18 Theme:E11
+% E11 Binding:T19 Theme:T9
+% E12 Negative_regulation:T20 Theme:E13
+% E13 Transcription:T21 Theme:T10
+
+Our results demonstrate the regulation of STAT activity by a signaling pathway that regulates the T cell functional phenotype and is distinct from the cytokine-activated Janus kinase-STAT signaling pathway.
+

@@ -1,0 +1,54 @@
+Distinct signaling properties identify functionally different CD4 epitopes.
+# T1 Protein S1 62 65 62 65 CD4
+
+The CD4 coreceptor interacts with non-polymorphic regions of major histocompatibility complex class II molecules on antigen-presenting cells and contributes to T cell activation.
+# T2 Protein S2 4 7 81 84 CD4
+$ T2 Protein S2 4 7 81 84 CD4
+@ T12 Binding S2 19 28 96 105 interacts
+% E1 Binding:T12 Theme:T2
+
+We have investigated the effect of CD4 triggering on T cell activating signals in a lymphoma model using monoclonal antibodies (mAb) which recognize different CD4 epitopes.
+# T3 Protein S3 35 38 291 294 CD4
+# T4 Protein S3 159 162 415 418 CD4
+$ T3 Protein S3 35 38 291 294 CD4
+$ T4 Protein S3 159 162 415 418 CD4
+@ T13 Positive_regulation S3 39 49 295 305 triggering
+@ T14 Binding S3 139 148 395 404 recognize
+@ T15 Entity S3 163 171 419 427 epitopes
+% E2 Positive_regulation:T13 Theme:T3
+% E3 Binding:T14 Theme:T4 Site:T15
+
+We demonstrate that CD4 triggering delivers signals capable of activating the NF-AT transcription factor which is required for interleukin-2 gene expression.
+# T5 Protein S4 20 23 449 452 CD4
+# T6 Protein S4 127 140 556 569 interleukin-2
+$ T5 Protein S4 20 23 449 452 CD4
+$ T6 Protein S4 127 140 556 569 interleukin-2
+@ T16 Positive_regulation S4 24 34 453 463 triggering
+@ T17 Positive_regulation S4 114 122 543 551 required
+@ T18 Gene_expression S4 146 156 575 585 expression
+% E4 Positive_regulation:T16 Theme:T5
+% E5 Positive_regulation:T17 Theme:E6
+% E6 Gene_expression:T18 Theme:T6
+
+Whereas different anti-CD4 mAb or HIV-1 gp120 could all trigger activation of the protein tyrosine kinases p56lck and p59fyn and phosphorylation of the Shc adaptor protein, which mediates signals to Ras, they differed significantly in their ability to activate NF-AT.
+# T7 Protein S5 23 26 610 613 CD4
+# T8 Protein S5 40 45 627 632 gp120
+# T9 Protein S5 107 113 694 700 p56lck
+# T10 Protein S5 118 124 705 711 p59fyn
+$ T8 Protein S5 40 45 627 632 gp120
+$ T10 Protein S5 118 124 705 711 p59fyn
+$ T9 Protein S5 107 113 694 700 p56lck
+@ T19 Positive_regulation S5 56 63 643 650 trigger
+@ T20 Positive_regulation S5 64 74 651 661 activation
+% E7 Positive_regulation:T19 Theme:E11
+% E8 Positive_regulation:T19 Theme:E12
+% E9 Positive_regulation:T19 Theme:E12 Cause:T8
+% E10 Positive_regulation:T19 Theme:E11 Cause:T8
+% E11 Positive_regulation:T20 Theme:T10
+% E12 Positive_regulation:T20 Theme:T9
+
+Lack of full activation of NF-AT could be correlated to a dramatically reduced capacity to induce calcium flux and could be complemented with a calcium ionophore.
+
+The results identify functionally distinct epitopes on the CD4 coreceptor involved in activation of the Ras/protein kinase C and calcium pathways.
+# T11 Protein S7 59 62 1077 1080 CD4
+

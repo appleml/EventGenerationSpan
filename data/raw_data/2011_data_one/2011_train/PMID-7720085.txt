@@ -1,0 +1,46 @@
+Induction of transcription factors in human T lymphocytes by aspirin-like drugs.
+
+Aspirin-like drugs (ALD) induce calcium mobilization, an essential component of T cell activation, but do not induce the biosynthesis of IL-2.
+# T1 Protein S2 137 141 219 223 IL-2
+$ T1 Protein S2 137 141 219 223 IL-2
+@ T5 Positive_regulation S2 110 116 192 198 induce
+@ T6 Gene_expression S2 121 133 203 215 biosynthesis
+% E1 Positive_regulation:T5 Theme:E2
+% E2 Gene_expression:T6 Theme:T1
+
+To understand the extent to which ALD may mimic mitogenic stimulation, we studied cytoplasmic and nuclear signaling steps in ALD-treated T cells.
+
+We found that ALD induce a transient activation of protein kinase (PKC) but have no effect (in comparison to anti-CD3 antibodies) on protein tyrosine phosphorylation nor on PCL gamma 1 tyrosine phosphorylation.
+# T2 Protein S4 173 184 544 555 PCL gamma 1
+$ T2 Protein S4 173 184 544 555 PCL gamma 1
+@ T7 Regulation S4 84 90 455 461 effect
+@ T8 Entity S4 185 193 556 564 tyrosine
+@ T9 Phosphorylation S4 194 209 565 580 phosphorylation
+% E3 Regulation:T7 Theme:E4
+% E4 Phosphorylation:T9 Theme:T2 Site:T8
+
+ALD-induced calcium mobilization and PKC activation are independent of tyrosine protein kinase activity as shown by the lack of effect of herbimycin, a tyrosine-protein kinase-specific inhibitor.
+
+Although we detected no IL-2 mRNA in ALD-treated cells, the nuclei of these cells contain proteins capable of binding to three regulatory sequences in the IL-2 promoter region: NFAT, NF kappa B, and AP-1.
+# T3 Protein S6 24 28 802 806 IL-2
+# T4 Protein S6 155 159 933 937 IL-2
+$ T3 Protein S6 24 28 802 806 IL-2
+$ T4 Protein S6 155 159 933 937 IL-2
+@ T10 Transcription S6 12 20 790 798 detected
+@ T11 Binding S6 110 117 888 895 binding
+@ T12 Entity S6 160 175 938 953 promoter region
+% E5 Transcription:T10 Theme:T3
+% E6 Binding:T11 Theme:T4 Site:T12
+
+These binding activities are expressed only in activated T cells.
+@ T13 Positive_regulation S7 29 38 1012 1021 expressed
+% E7 Positive_regulation:T13 Theme:E6
+
+The expression of AP-1 depended on calcium mobilization and PKC activation.
+
+These data suggest that ALD cause transient but significant changes in T cell transmembrane signaling, although some events induced by stimulation with anti-CD3 antibodies are not induced by ALD.
+
+The signal is transmitted to the nucleus and induces DNA-binding activity by several transcription factors.
+
+However, the ALD stimulus is not capable of causing complete T cell activation.
+

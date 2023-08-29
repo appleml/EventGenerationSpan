@@ -1,0 +1,69 @@
+Defective translocation of protein kinase C in multidrug-resistant HL-60 cells confers a reversible loss of phorbol ester-induced monocytic differentiation.
+
+Previous studies have demonstrated that human HL-60 myeloid leukemia cells differentiate in response to phorbol esters.
+
+This event is associated with induction of the c-jun early response gene and appearance of a monocytic phenotype.
+# T1 Protein S3 47 52 325 330 c-jun
+$ T1 Protein S3 47 52 325 330 c-jun
+@ T11 Positive_regulation S3 30 39 308 317 induction
+% E1 Positive_regulation:T11 Theme:T1
+
+The present studies have examined the effects of vincristine-selected, multidrug resistance on 12-O-tetradecanoylphorbol-13-acetate (TPA)-induced HL-60 cell differentiation.
+
+The results demonstrate that multidrug-resistant HL-60 cells, designated HL-60/vinc, fail to respond to TPA with an increase in c-jun transcripts or other phenotypic characteristics of monocytic differentiation.
+# T2 Protein S5 128 133 694 699 c-jun
+$ T2 Protein S5 128 133 694 699 c-jun
+@ T12 Positive_regulation S5 116 124 682 690 increase
+% E2 Positive_regulation:T12 Theme:T2
+
+By contrast, treatment of HL-60/vinc cells with okadaic acid, an inhibitor of serine/threonine protein phosphatases, induces c-jun transcription, growth arrest, and expression of the c-fms gene.
+# T3 Protein S6 125 130 903 908 c-jun
+# T4 Protein S6 183 188 961 966 c-fms
+$ T3 Protein S6 125 130 903 908 c-jun
+$ T4 Protein S6 183 188 961 966 c-fms
+@ T13 Positive_regulation S6 117 124 895 902 induces
+@ T14 Transcription S6 131 144 909 922 transcription
+@ T15 Gene_expression S6 165 175 943 953 expression
+% E3 Positive_regulation:T13 Theme:E6
+% E4 Positive_regulation:T13 Theme:E5
+% E5 Transcription:T14 Theme:T3
+% E6 Gene_expression:T15 Theme:T4
+
+Studies were also performed with an HL-60/vinc revertant (HL-60/vinc/R) line that has regained partial sensitivity to vincristine.
+
+The finding that HL-60/vinc/R cells respond to TPA with induction of a monocytic phenotype, but not c-jun expression, suggests that c-jun induction is not obligatory for monocytic differentiation.
+# T5 Protein S8 100 105 1204 1209 c-jun
+# T6 Protein S8 132 137 1236 1241 c-jun
+$ T5 Protein S8 100 105 1204 1209 c-jun
+$ T6 Protein S8 132 137 1236 1241 c-jun
+@ T16 Positive_regulation S8 56 65 1160 1169 induction
+@ T17 Gene_expression S8 106 116 1210 1220 expression
+@ T18 Positive_regulation S8 138 147 1242 1251 induction
+% E7 Positive_regulation:T16 Theme:E8
+% E8 Gene_expression:T17 Theme:T5
+% E9 Positive_regulation:T18 Theme:T6
+
+Other studies further demonstrate that the jun-B and fra-1 genes are induced by TPA in both HL-60/vinc and HL-60/vinc/R cells, whereas c-fos expression is attenuated in the HL-60/vinc line.
+# T7 Protein S9 43 48 1344 1349 jun-B
+# T8 Protein S9 53 58 1354 1359 fra-1
+# T9 Protein S9 135 140 1436 1441 c-fos
+$ T8 Protein S9 53 58 1354 1359 fra-1
+$ T7 Protein S9 43 48 1344 1349 jun-B
+$ T9 Protein S9 135 140 1436 1441 c-fos
+@ T19 Positive_regulation S9 69 76 1370 1377 induced
+@ T20 Gene_expression S9 141 151 1442 1452 expression
+@ T21 Negative_regulation S9 155 165 1456 1466 attenuated
+% E10 Positive_regulation:T19 Theme:T8
+% E11 Positive_regulation:T19 Theme:T7
+% E12 Gene_expression:T20 Theme:T9
+% E13 Negative_regulation:T21 Theme:E12
+
+Since TPA activates protein kinase C (PKC), we examined translocation of PKC from the cytosol to the membrane fraction.
+
+Although HL-60 and HL-60/vinc/R cells demonstrated translocation of PKC activity, this subcellular redistribution was undetectable in HL-60/vinc cells.
+
+Activity of the mitogen-activated protein kinase family with associated phosphorylation of c-Jun Y-peptide was markedly diminished in TPA-treated HL-60/vinc cells, but not in response to okadaic acid.
+# T10 Protein S12 91 96 1854 1859 c-Jun
+
+Taken together, these findings suggest that vincristine resistance confers insensitivity to TPA-induced differentiation and can include defects in PKC-mediated signaling events and induction of jun/fos early response gene expression.
+

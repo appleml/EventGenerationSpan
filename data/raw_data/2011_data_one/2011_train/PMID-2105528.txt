@@ -1,0 +1,24 @@
+Two distinct transcription factors that bind the immunoglobulin enhancer microE5/kappa 2 motif.
+
+Activity of the immunoglobulin heavy and kappa light chain gene enhancers depends on a complex interplay of ubiquitous and developmentally regulated proteins.
+
+Two complementary DNAs were isolated that encode proteins, denoted ITF-1 and ITF-2, that are expressed in a variety of cell types and bind the microE5/kappa 2 motif found in both heavy and kappa light chain enhancers.
+# T1 Protein S3 67 72 323 328 ITF-1
+# T2 Protein S3 77 82 333 338 ITF-2
+$ T2 Protein S3 77 82 333 338 ITF-2
+$ T1 Protein S3 67 72 323 328 ITF-1
+@ T5 Gene_expression S3 93 102 349 358 expressed
+@ T6 Binding S3 134 138 390 394 bind
+% E1 Gene_expression:T5 Theme:T2
+% E2 Gene_expression:T5 Theme:T1
+% E3 Binding:T6 Theme:T1
+% E4 Binding:T6 Theme:T2
+
+The complementary DNAs are the products of distinct genes, yet both ITF-1 and ITF-2 are structurally and functionally similar.
+# T3 Protein S4 68 73 542 547 ITF-1
+# T4 Protein S4 78 83 552 557 ITF-2
+
+The two proteins interact with one another through their putative helix-loop-helix motifs and each possesses a distinct domain that dictates transcription activation.
+@ T7 Binding S5 17 25 618 626 interact
+% E5 Binding:T7 Theme:T3 Theme2:T4
+

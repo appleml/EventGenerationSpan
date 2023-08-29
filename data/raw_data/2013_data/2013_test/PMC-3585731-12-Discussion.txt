@@ -1,0 +1,141 @@
+Altogether, our results suggest that Akt kinase is specifically engaged in the signaling downstream from RIP1 kinase, which exerts its activity through promoting a selective increase in Akt phosphorylation on Thr308.
+# T1 Protein S1 105 109 105 109 RIP1
+
+This provides a link connecting RIP1 kinase to downstream signaling and execution events during necroptosis in L929 cells, including JNK activation, autocrine TNFalpha synthesis and eventual cell death.
+# T2 Protein S2 32 36 249 253 RIP1
+# T3 Protein S2 159 167 376 384 TNFalpha
+
+According to our model, phosphorylation of Akt requires two distinct signals.
+
+The first input, which is induced by growth factors, leads to the plasma membrane localization of Akt.
+
+Expression of constitutively active membrane-targeted Myr-Akt overcomes this requirement.
+# T4 Protein S5 54 61 655 662 Myr-Akt
+
+At the same time, expression of Myr-Akt is not sufficient for the induction of necroptosis or efficient activation of JNK and TNFalpha synthesis.
+# T5 Protein S6 32 39 723 730 Myr-Akt
+# T6 Protein S6 126 134 817 825 TNFalpha
+
+A second, RIP1 kinase-dependent input is required for Thr308 phosphorylation of Akt, which in turn is required for necroptotic signaling.
+# T7 Protein S7 10 14 847 851 RIP1
+
+Necroptotic phosphorylation of Thr308 of Akt is sufficient to increase its activity towards a number of known substrates in L929 cells and our data reveal that the Akt effector pathway downstream of mTORC1 contributes to necroptosis, thereby identifying a new mediator of this form of cell death.
+
+Our results raise some important mechanistic questions relevant to the specific regulation of Akt during necroptosis.
+
+First, what is the mechanism of the RIP1-dependent increase in Akt Thr308 phosphorylation?
+# T8 Protein S10 36 40 1426 1430 RIP1
+
+One possibility is that RIP1 kinase inhibits a phosphatase that targets Thr308.
+# T9 Protein S11 24 28 1505 1509 RIP1
+
+To our knowledge, PP2A is the only enzyme established to specifically dephosphorylate this residue [45].
+
+However, we did not observe any effect of the PP2A inhibitor, okadaic acid, on Thr308 phosphorylation or activation of necroptosis in L929 cells.
+
+Another possibility is that the increase in Thr308 results from RIP1 kinase targeting PDK1, Akt or scaffolding factors that bring these two kinases together.
+# T10 Protein S14 64 68 1876 1880 RIP1
+# T11 Protein S14 86 90 1898 1902 PDK1
+
+Interestingly, we observed phosphorylation of Akt by recombinant RIP1 kinase in vitro on Thr146, 195/197, and 435 and Ser381 residues.
+# T12 Protein S15 65 69 2035 2039 RIP1
+
+Furthermore, mutating these residues to Ala in Myr-Akt leads to the loss of its ability to promote necroptosis.
+# T13 Protein S16 47 54 2152 2159 Myr-Akt
+
+However, we were not able to confirm phosphorylation of these residues on endogenous Akt in L929 cells using either mass spectrometry or western blotting with a phospho-specific antibody raised against Thr435 peptide, suggesting that direct phosphorylation of Akt by RIP1 likely represents an in vitro artifact and does not reflect endogenous regulation.
+# T14 Protein S17 267 271 2484 2488 RIP1
+
+Second, what are the key substrates of Akt that promote necrotic death and TNFalpha synthesis?
+# T15 Protein S18 75 83 2647 2655 TNFalpha
+
+On the one hand, our data suggest new roles for Akt effector pathways mediated by mTORC1 in necroptotic control.
+
+On the other hand, we have observed only modest changes in mTORC1 activity under necroptotic conditions, suggesting that additional Akt substrates are likely to be involved.
+
+This warrants a re-evaluation of the roles of additional Akt substrates in necroptotic death, since no such connections have been established.
+
+Similarly, the mechanisms connecting mTORC1 to JNK remain to be elucidated.
+
+While there are some recent examples of mTORC1-dependent regulation of JNK, e.g. following ER stress [46], the exact mechanisms during necroptosis remain to be established.
+
+Given the activation of JNK by TNFalpha and the importance of mTORC1-dependent translational control in necroptosis, one possibility is that mTORC1 contributes to the translation of TNFalpha and forms a positive feed forward loop with JNK.
+# T16 Protein S24 31 39 3377 3385 TNFalpha
+# T17 Protein S24 182 190 3528 3536 TNFalpha
+
+Akt's role as a key inhibitor of apoptosis is well documented, however, evidence of its contribution as a mediator of cell death under various circumstances has begun to emerge as well [45], [47].
+
+Our data demonstrates a new mode of necrosis-specific regulation of Akt by RIP1 kinase.
+# T32 Protein S26 75 79 3858 3862 RIP1
+
+Importantly, while it is possible that necroptosis-specific targets of Akt exist, this regulation clearly involves a number of well established Akt targets including mTORC1, and potentially, GSK-3, FoxO1/4, and MDM2.
+# T33 Protein S27 198 203 4069 4074 FoxO1
+# T34 Protein S27 204 205 4075 4076 4
+# T35 Protein S27 211 215 4082 4086 MDM2
+
+Therefore, it may no longer be safe to assume that activation of Akt universally reflects pro-survival signaling nor that its inhibition will lead to more cell death.
+
+It is tempting to speculate that rather than serving a universally pro-survival role, the Akt pathway may function to promote cell fates alternative to apoptosis, ranging from survival to non-apoptotic cell death.
+
+The final decision between survival and death may depend on additional, Akt-independent inputs, such as the status of RIP1 kinase, expression of particular oncogenic factors [45] or excessive metabolic stress [47].
+# T36 Protein S30 118 122 4587 4591 RIP1
+
+Another mechanism that should be considered in conjunction with the regulation of cell death by Akt is autophagy.
+
+Akt activation leads to the inhibition of autophagy through activation of mTOR [48].
+
+The role of autophagy in cell death in general is very complex and it can both promote and inhibit necroptosis in various situations.
+
+Several studies suggested that activation of autophagy promotes necroptosis induced by zVAD.fmk in L929 cells [11], [14].
+
+Others, including ourselves in unpublished data, have found that inihibition of autophagy promotes necroptosis by TNFalpha [49].
+# T37 Protein S35 114 122 5253 5261 TNFalpha
+
+This suggests that the inhibition of autophagy by Akt or mTOR in our system may contribute to necroptosis induced by TNFalpha, however, it is more difficult to reconcile with the positive role of these proteins in zVAD-induced death.
+# T38 Protein S36 117 125 5385 5393 TNFalpha
+
+Clearly, further identification of the factors differentiating between pro-death and pro-survival autophagy in mammalian cells is required to better understand its role in the regulation necroptosis by Akt pathway.
+
+Importantly, our data revealed that RIP1 kinase signaling to Akt is a general feature of necroptotic signaling that is observed in multiple cell types.
+# T40 Protein S38 36 40 5753 5757 RIP1
+
+At the same time, the significance of this connection varies in a cell type specific fashion.
+
+Importantly, in mouse lung fibroblasts, FADD-deficient Jurkat cells, and macrophages, Akt signaling contributed more prominently to an increase in TNFalpha synthesis, rather than cell death per se, unlike its role in L929 cells.
+# T41 Protein S40 40 44 6003 6007 FADD
+# T42 Protein S40 147 155 6110 6118 TNFalpha
+
+A recent study [15] has demonstrated that, in addition to its role in necroptosis, RIP1 plays an important role in mediating the production of TNFalpha.
+# T43 Protein S41 83 87 6275 6279 RIP1
+# T44 Protein S41 143 151 6335 6343 TNFalpha
+
+These data emphasize the emerging complexity of necroptotic signaling mechanisms and highlight the major contribution of Akt to increased inflammatory signaling, specifically accompanying this form of regulated necrosis [5], [6], [10].
+
+Robust inflammation is one of the most important consequences of necrotic cell death as well as its regulated subtype, necroptosis, both in vitro and in vivo [1], [5], [6], [50], [51].
+
+Our results highlight an important notion that inflammation not only passively accompanies necroptosis in a variety of cellular systems by the virtue of rapid loss of plasma membrane integrity characteristic for necrotic cell death, but also that it is an intrinsic and regulated component of necroptosis due to the specific activation of TNFalpha synthesis by RIP1/Akt kinases.
+# T45 Protein S44 339 347 7105 7113 TNFalpha
+# T46 Protein S44 361 365 7127 7131 RIP1
+
+Therefore, this pathway may represent a new molecular target for the inhibition of pathologic inflammatory signaling.
+
+Initial in vivo data appears to support this notion.
+
+Two recent papers showed that the loss of control over RIP1/RIP3 kinase activities by FADD and caspase-8 in epithelial cells unleashes a feed forward cycle of necroptosis and TNFalpha production, resulting in the development of intestinal inflammation in mice and, possibly, in patients with Crohn's disease [4], [5].
+# T47 Protein S47 55 59 7371 7375 RIP1
+# T48 Protein S47 60 64 7376 7380 RIP3
+# T49 Protein S47 86 90 7402 7406 FADD
+# T50 Protein S47 95 104 7411 7420 caspase-8
+# T51 Protein S47 175 183 7491 7499 TNFalpha
+
+This increased production of TNFalpha during necroptosis may also be important for acute necrotizing diseases, such as necrotizing pancreatitis and acute bacterial infections, where hyper-acute inflammation accompanying necrotic cell death is the primary cause of multiple organ failure and patient death.
+# T52 Protein S48 29 37 7663 7671 TNFalpha
+
+Along these lines, another recent paper by Duprez et al. has shown that RIP1 and RIP3 mediate the cellular damage introduced by TNF-induced SIRS [6].
+# T53 Protein S49 72 76 8012 8016 RIP1
+# T54 Protein S49 81 85 8021 8025 RIP3
+
+The role of RIP1 kinase in acute and chronic inflammatory diseases warrants further investigation, as efficient and specific RIP1 kinase inhibitors may offer therapeutic benefit for treating these conditions.
+# T55 Protein S50 12 16 8102 8106 RIP1
+# T56 Protein S50 125 129 8215 8219 RIP1
+

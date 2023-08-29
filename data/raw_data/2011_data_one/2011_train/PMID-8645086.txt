@@ -1,0 +1,27 @@
+Heat shock induces HIV-1 replication in chronically infected promyelocyte cell line OM10.1.
+
+A long period of clinical latency before development of symptoms is characteristic of human immunodeficiency virus type 1 (HIV-1) infection.
+
+OM10.1, a promyelocyte cell line latently infected with HIV-1, has been developed as a model for studying the mechanism of viral latency and the activation of virus expression.
+
+We found that this latently infected cell line with heat shock at 42 degrees C for 2 h resulted in a high level of HIV-1 production without addition of any cytokines.
+
+The mechanism of activation was analyzed by using anti-TNF-alpha antibody and various inhibitors.
+# T1 Protein S5 55 64 633 642 TNF-alpha
+
+Although the TNF-alpha level in culture supernatants was below the sensitivity of an ELISA assay system, addition of anti-TNF-alpha antibody in culture medium could partially suppress the heat shock induced HIV-1 production.
+# T2 Protein S6 13 22 689 698 TNF-alpha
+# T3 Protein S6 122 131 798 807 TNF-alpha
+
+Staurosporine (PKC inhibitor), pentoxifylline (NF-kappa B inhibitor), and Ro5-3335 (HIV-1 Tat inhibitor) also inhibited significantly the heat shock induced virus activation.
+# T4 Protein S7 90 93 991 994 Tat
+$ T4 Protein S7 90 93 991 994 Tat
+@ T5 Negative_regulation S7 94 103 995 1004 inhibitor
+% E1 Negative_regulation:T5 Theme:T4
+
+In particular, staurosporine achieved approximately 90% inhibition of the HIV-1 antigen expression in heat shock-treated OM10.1 at a non-toxic concentration.
+
+Although the mechanism of HIV-1 activation with heat shock has not been fully elucidated yet, it is presumed PKC plays an important role in HIV-1 activation.
+
+Thus, the present observations will provide a further insight into the pathogenesis of HIV-1 infections.
+

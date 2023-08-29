@@ -1,0 +1,65 @@
+Jeg-3 human choriocarcinoma-induced immunosuppression: downregulation of interleukin-2, interleukin-2 receptor alpha-chain, and its Jak/Stat signaling pathway.
+# T1 Protein S1 73 86 73 86 interleukin-2
+# T2 Protein S1 88 122 88 122 interleukin-2 receptor alpha-chain
+
+PROBLEM: The mechanisms of the immunosuppressive and immunosuppression-inducing capacities of Jeg-3 human choriocarcinoma cell line supernatants (HCSs) are not yet completely understood.
+
+The influence on interleukin (IL)-2, IL-4 and interferon (IFN)-gamma production; IL-2 receptor (IL-2R) alpha-, beta-, and gamma-chain; and the signaling pathway molecules Janus kinase (Jak)1, Jak3, signal transducers and activators of transcription (Stat)1, Stat3, and Stat5 should be investigated.
+# T3 Protein S3 17 35 365 383 interleukin (IL)-2
+# T4 Protein S3 37 41 385 389 IL-4
+# T5 Protein S3 46 68 394 416 interferon (IFN)-gamma
+# T6 Protein S3 171 190 519 538 Janus kinase (Jak)1
+# T7 Protein S3 192 196 540 544 Jak3
+# T8 Protein S3 198 256 546 604 signal transducers and activators of transcription (Stat)1
+# T9 Protein S3 258 263 606 611 Stat3
+# T10 Protein S3 269 274 617 622 Stat5
+
+METHOD OF STUDY: For assessment of IL production, whole peripheral venous blood from healthy donors was stimulated with phorbol-myristate-acetate and ionomycine.
+
+Secretion of ILs was blocked with monensine.
+
+Intracellular ILs were analyzed by flow cytometry.
+
+For IL-2R and signaling pathway molecule analysis, peripheral blood lymphocytes were stimulated with phytohemagglutinin (PHA).
+# T11 Protein S7 101 119 1006 1024 phytohemagglutinin
+# T12 Protein S7 121 124 1026 1029 PHA
+
+IL-2R chains were measured by flow cytometry, and Jaks/Stats by sodium dodecyl sulfate polyacrylamide gel electrophoresis (SDS-PAGE) and Western blot.
+
+RESULTS: Phorbol-myristate-acetate and ionomycine strongly increase the percent-age of IL-2+ cells; an additional 50% HCSs significantly suppresses the percentage to, or below the level of unstimulated cells.
+# T13 Protein S9 87 91 1270 1274 IL-2
+
+IFN-gamma production is strongly decreased by HCSs in some cases, but not in others.
+# T14 Protein S10 0 9 1392 1401 IFN-gamma
+
+PHA stimulates IL-2R alpha-, beta-, and gamma-chain expression and their signaling pathway molecules Jak1, Jak3, Stat1, Stat3, and Stat5.
+# T15 Protein S11 0 3 1477 1480 PHA
+# T16 Protein S11 15 27 1492 1504 IL-2R alpha-
+# T17 Protein S11 29 34 1506 1511 beta-
+# T18 Protein S11 40 51 1517 1528 gamma-chain
+# T19 Protein S11 101 105 1578 1582 Jak1
+# T20 Protein S11 107 111 1584 1588 Jak3
+# T21 Protein S11 113 118 1590 1595 Stat1
+# T22 Protein S11 120 125 1597 1602 Stat3
+# T23 Protein S11 131 136 1608 1613 Stat5
+
+50% HCS downregulates the alpha-chain and slightly upregulates the beta-chain.
+
+Jak1, Jak3, Stat1, Stat3, and Stat5 expression is suppressed approximately to, or below the level of unstimulated cells.
+# T24 Protein S13 0 4 1694 1698 Jak1
+# T25 Protein S13 6 10 1700 1704 Jak3
+# T26 Protein S13 12 17 1706 1711 Stat1
+# T27 Protein S13 19 24 1713 1718 Stat3
+# T28 Protein S13 30 35 1724 1729 Stat5
+
+CONCLUSIONS: HCS forcefully blocks the production of IL-2; the IL-2R alpha-chain; and Jak1, Jak3, Stat1, Stat3, and Stat5 expression.
+# T29 Protein S14 53 57 1868 1872 IL-2
+# T30 Protein S14 63 80 1878 1895 IL-2R alpha-chain
+# T31 Protein S14 86 90 1901 1905 Jak1
+# T32 Protein S14 92 96 1907 1911 Jak3
+# T33 Protein S14 98 103 1913 1918 Stat1
+# T34 Protein S14 105 110 1920 1925 Stat3
+# T35 Protein S14 116 121 1931 1936 Stat5
+
+The observed phenomena might be caused by downregulation of an IL-2R regulation gene, and might play a key role in the expansion of choriocarcinoma, and possibly in the survival of the fetal allograft.
+

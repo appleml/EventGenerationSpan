@@ -1,0 +1,89 @@
+Activation of NF-kappa B in vivo is regulated by multiple phosphorylations.
+
+The activation of nuclear factor kappa B (NF-kappa B) in intact cells is mechanistically not well understood.
+
+Therefore we investigated the modifications imposed on NF-kappa B/I kappa B components following stimulation and show that the final step of NF-kappa B induction in vivo involves phosphorylation of several members of the NF-kappa B/I kappa B protein families.
+
+In HeLa cells as well as in B cells, TNF-alpha rapidly induced nuclear translocation primarily of p50-p65, but not of c-rel.
+# T1 Protein S4 37 46 484 493 TNF-alpha
+# T2 Protein S4 98 101 545 548 p50
+# T3 Protein S4 102 105 549 552 p65
+# T4 Protein S4 118 123 565 570 c-rel
+$ T1 Protein S4 37 46 484 493 TNF-alpha
+$ T2 Protein S4 98 101 545 548 p50
+$ T4 Protein S4 118 123 565 570 c-rel
+$ T3 Protein S4 102 105 549 552 p65
+@ T18 Positive_regulation S4 55 62 502 509 induced
+@ T19 Entity S4 63 70 510 517 nuclear
+@ T20 Localization S4 71 84 518 531 translocation
+% E1 Positive_regulation:T18 Theme:E4 Cause:T1
+% E2 Positive_regulation:T18 Theme:E6 Cause:T1
+% E3 Positive_regulation:T18 Theme:E5 Cause:T1
+% E4 Localization:T20 Theme:T2 ToLoc:T19
+% E5 Localization:T20 Theme:T4 ToLoc:T19
+% E6 Localization:T20 Theme:T3 ToLoc:T19
+
+Both NF-kappa B precursors and I kappa B alpha became strongly phosphorylated with the same kinetics.
+# T5 Protein S5 31 46 603 618 I kappa B alpha
+$ T5 Protein S5 31 46 603 618 I kappa B alpha
+@ T21 Phosphorylation S5 63 77 635 649 phosphorylated
+% E7 Phosphorylation:T21 Theme:T5
+
+In addition to the inducible phosphorylation after stimulation, B lymphocytes containing constitutive nuclear NF-kappa B revealed constitutively phosphorylated p65 and I kappa B alpha.
+# T6 Protein S6 160 163 834 837 p65
+# T7 Protein S6 168 183 842 857 I kappa B alpha
+$ T7 Protein S6 168 183 842 857 I kappa B alpha
+$ T6 Protein S6 160 163 834 837 p65
+@ T22 Phosphorylation S6 145 159 819 833 phosphorylated
+% E8 Phosphorylation:T22 Theme:T7
+% E9 Phosphorylation:T22 Theme:T6
+
+Phosphorylation was accompanied by induced processing of the precursors p100 and p105 and by degradation of I kappa B alpha.
+# T8 Protein S7 72 76 931 935 p100
+# T9 Protein S7 81 85 940 944 p105
+# T10 Protein S7 108 123 967 982 I kappa B alpha
+$ T10 Protein S7 108 123 967 982 I kappa B alpha
+@ T23 Protein_catabolism S7 93 104 952 963 degradation
+% E10 Protein_catabolism:T23 Theme:T10
+
+As an in vitro model we show that phosphorylation of p105 impedes its ability to interact with NF-kappa B, as has been shown before for I kappa B alpha.
+# T11 Protein S8 53 57 1037 1041 p105
+# T12 Protein S8 136 151 1120 1135 I kappa B alpha
+$ T12 Protein S8 136 151 1120 1135 I kappa B alpha
+$ T11 Protein S8 53 57 1037 1041 p105
+@ T24 Phosphorylation S8 34 49 1018 1033 phosphorylation
+@ T25 Negative_regulation S8 58 65 1042 1049 impedes
+@ T26 Binding S8 81 89 1065 1073 interact
+% E11 Phosphorylation:T24 Theme:T12
+% E12 Phosphorylation:T24 Theme:T11
+% E13 Negative_regulation:T25 Theme:E16 Cause:E12
+% E14 Negative_regulation:T25 Theme:E15 Cause:E11
+% E15 Binding:T26 Theme:T12
+% E16 Binding:T26 Theme:T11
+
+Surprisingly, even p65, but not c-rel, was phosphorylated after induction in vivo, suggesting that TNF-alpha selectively activates only specific NF-kappa B heteromers and that modifications regulate not only I kappa B molecules but also NF-kappa B molecules.
+# T13 Protein S9 19 22 1156 1159 p65
+# T14 Protein S9 32 37 1169 1174 c-rel
+# T15 Protein S9 99 108 1236 1245 TNF-alpha
+$ T13 Protein S9 19 22 1156 1159 p65
+$ T14 Protein S9 32 37 1169 1174 c-rel
+@ T27 Phosphorylation S9 43 57 1180 1194 phosphorylated
+@ T28 Positive_regulation S9 64 73 1201 1210 induction
+% E17 Phosphorylation:T27 Theme:T13
+% E18 Phosphorylation:T27 Theme:T14
+% E19 Positive_regulation:T28 Theme:T14
+% E20 Positive_regulation:T28 Theme:T13
+
+In fact, cellular NF-kappa B activity was phosphorylation-dependent and the DNA binding activity of p65-containing NF-kappa B was enhanced by phosphorylation in vitro.
+# T16 Protein S10 100 103 1496 1499 p65
+$ T16 Protein S10 100 103 1496 1499 p65
+@ T29 Binding S10 80 96 1476 1492 binding activity
+@ T30 Positive_regulation S10 130 138 1526 1534 enhanced
+% E21 Binding:T29 Theme:T16
+% E22 Positive_regulation:T30 Theme:E21
+
+Furthermore, we found that the induction by hydrogen peroxide of NF-kappa B translocation to the nucleus, which is assumed to be triggered by reactive oxygen intermediates, also coincided with incorporation of phosphate into the same subunits that were modified after stimulation by TNF-alpha.
+# T17 Protein S11 283 292 1847 1856 TNF-alpha
+
+Thus, phosphorylation appears to be a general mechanism for activation of NF-kappa B in vivo.
+

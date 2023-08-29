@@ -1,0 +1,13 @@
+Quantitative DNase I footprinting
+# T1 Protein S1 13 20 13 20 DNase I
+
+Recombinant NFAT5 (amino acids 175-471) with an N-terminal 6x His tag was expressed in E. coli BL21(DE3) cells (Stratagene; www.stratagene.com) and purified under native conditions using Ni-NTA agarose (Qiagen).
+# T2 Protein S2 12 17 46 51 NFAT5
+
+Recombinant p50 and p65 were purchased (Active Motif, www.activemotif.com).
+# T3 Protein S3 12 15 258 261 p50
+# T4 Protein S3 20 23 266 269 p65
+
+Quantitative DNase I footprinting was performed as previously described [31].
+# T5 Protein S4 13 20 335 342 DNase I
+

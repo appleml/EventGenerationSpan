@@ -1,0 +1,94 @@
+Regulation of NF-kappa B activity by I kappa B alpha and I kappa B beta stability.
+# T1 Protein S1 37 52 37 52 I kappa B alpha
+# T2 Protein S1 57 71 57 71 I kappa B beta
+$ T2 Protein S1 57 71 57 71 I kappa B beta
+$ T1 Protein S1 37 52 37 52 I kappa B alpha
+@ T17 Protein_catabolism S1 72 81 72 81 stability
+% E1 Protein_catabolism:T17 Theme:T2
+% E2 Protein_catabolism:T17 Theme:T1
+
+Transcription factor NF-kappa B must be released from cytoplasmic inhibitory molecules (I kappa Bs) in order to move to the nucleus and to activate its target genes.
+
+Little is known about the mechanisms regulating the maintenance of constitutive nuclear NF-kappa B in some cell-types and of sustained nuclear NF-kappa B activity after stimulation.
+
+Increased turnover has been implicated in the regulation of constitutive NF-kappa B activity in mature B cells.
+
+We therefore compared the turnover of I kappa B alpha and I kappa B beta in mature B cells and HeLa cells.
+# T3 Protein S5 38 53 582 597 I kappa B alpha
+# T4 Protein S5 58 72 602 616 I kappa B beta
+
+Both proteins display a high turnover in B cells although I kappa B beta is considerably more stable than I kappa B alpha.
+# T5 Protein S6 58 72 709 723 I kappa B beta
+# T6 Protein S6 106 121 757 772 I kappa B alpha
+
+The half-life of both inhibitors is increased in HeLa cells.
+@ T18 Positive_regulation S7 36 45 810 819 increased
+% E3 Positive_regulation:T18 Theme:T5
+% E4 Positive_regulation:T18 Theme:T6
+
+In contrast, all other NF-kappa B/I kappa B molecules tested are relatively stable in both cell-types.
+
+The elevated turnover of endogenous I kappa B alpha in Namalwa cells is inhibited by a proteasome inhibitor and thus seems to be driven by the same degradation machinery as the slower turnover in non-B cells.
+# T7 Protein S9 36 51 974 989 I kappa B alpha
+
+Furthermore, we investigated the processes involved in persistent activation of NF-kappa B. TNF-alpha signaling leads to a rapid depletion of cellular I kappa B beta pools.
+# T8 Protein S10 92 101 1239 1248 TNF-alpha
+# T9 Protein S10 151 165 1298 1312 I kappa B beta
+$ T9 Protein S10 151 165 1298 1312 I kappa B beta
+@ T19 Positive_regulation S10 112 117 1259 1264 leads
+@ T20 Negative_regulation S10 129 138 1276 1285 depletion
+% E5 Positive_regulation:T19 Theme:E6
+% E6 Negative_regulation:T20 Theme:T9
+
+I kappa B alpha is efficiently resynthesized whereas I kappa B beta levels stay low for a prolonged time.
+# T10 Protein S11 0 15 1320 1335 I kappa B alpha
+# T11 Protein S11 53 67 1373 1387 I kappa B beta
+$ T10 Protein S11 0 15 1320 1335 I kappa B alpha
+$ T11 Protein S11 53 67 1373 1387 I kappa B beta
+@ T21 Gene_expression S11 31 44 1351 1364 resynthesized
+@ T22 Gene_expression S11 68 83 1388 1403 levels stay low
+% E7 Gene_expression:T21 Theme:T10
+% E8 Gene_expression:T22 Theme:T11
+
+NF-kappa B binding activity can be detected for several hours after stimulation.
+
+We found that removal of the TNF-alpha containing medium causes a rapid decrease in nuclear NF-kappa B.
+# T12 Protein S13 29 38 1536 1545 TNF-alpha
+$ T12 Protein S13 29 38 1536 1545 TNF-alpha
+@ T23 Negative_regulation S13 14 21 1521 1528 removal
+% E9 Negative_regulation:T23 Theme:T12
+
+A phosphoform of newly synthesized I kappa B alpha is visible when degradation by the proteasome is inhibited and new I kappa B alpha displays the same properties regarding phosphorylation and degradation in response to a second inducer.
+# T13 Protein S14 35 50 1646 1661 I kappa B alpha
+# T14 Protein S14 118 133 1729 1744 I kappa B alpha
+$ T13 Protein S14 35 50 1646 1661 I kappa B alpha
+$ T14 Protein S14 118 133 1729 1744 I kappa B alpha
+@ T24 Phosphorylation S14 2 13 1613 1624 phosphoform
+@ T25 Gene_expression S14 23 34 1634 1645 synthesized
+@ T26 Positive_regulation S14 62 66 1673 1677 when
+@ T27 Protein_catabolism S14 67 78 1678 1689 degradation
+@ T28 Positive_regulation S14 79 81 1690 1692 by
+@ T29 Negative_regulation S14 100 109 1711 1720 inhibited
+@ T30 Phosphorylation S14 173 188 1784 1799 phosphorylation
+@ T31 Protein_catabolism S14 193 204 1804 1815 degradation
+@ T32 Positive_regulation S14 205 219 1816 1830 in response to
+% E10 Phosphorylation:T24 Theme:T13
+% E11 Gene_expression:T25 Theme:T13
+% E12 Positive_regulation:T26 Theme:E10 Cause:E15
+% E13 Protein_catabolism:T27 Theme:T13
+% E14 Positive_regulation:T28 Theme:E13
+% E15 Negative_regulation:T29 Theme:E13
+% E16 Phosphorylation:T30 Theme:T14
+% E17 Protein_catabolism:T31 Theme:T14
+% E18 Positive_regulation:T32 Theme:E17
+% E19 Positive_regulation:T32 Theme:E16
+
+There is no significant difference in the turnover of pre- and post-inductive I kappa B alpha.
+# T15 Protein S15 78 93 1927 1942 I kappa B alpha
+
+These observations suggest that resynthesis of I kappa B alpha and removal of the stimulus are obligatory steps for the inactivation of nuclear NF kappa B.
+# T16 Protein S16 47 62 1991 2006 I kappa B alpha
+$ T16 Protein S16 47 62 1991 2006 I kappa B alpha
+@ T33 Gene_expression S16 32 43 1976 1987 resynthesis
+% E20 Gene_expression:T33 Theme:T16
+

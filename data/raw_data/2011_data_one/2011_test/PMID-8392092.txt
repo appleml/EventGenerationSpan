@@ -1,0 +1,28 @@
+Minimally modified low density lipoprotein-induced inflammatory responses in endothelial cells are mediated by cyclic adenosine monophosphate.
+
+We have previously shown that minimally oxidized LDL (MM-LDL) activated endothelial cells to increase their interaction with monocytes but not neutrophils, inducing monocyte but not neutrophil binding and synthesis of monocyte chemotactic protein-1 and monocyte colony-stimulating factor (M-CSF).
+# T1 Protein S2 218 248 362 392 monocyte chemotactic protein-1
+# T2 Protein S2 253 287 397 431 monocyte colony-stimulating factor
+# T3 Protein S2 289 294 433 438 M-CSF
+
+In the present studies we have examined the signaling pathways by which this monocyte-specific response is induced.
+
+Both induction of monocyte binding and mRNA levels for M-CSF by MM-LDL were not inhibited in protein kinase C-depleted endothelial cells.
+# T4 Protein S4 55 60 612 617 M-CSF
+
+A number of our studies indicate that cAMP is the second messenger for the effects of MM-LDL cited above.
+
+Incubation of endothelial cells with MM-LDL caused a 173% increase in intracellular cAMP levels.
+
+Agents which increased cAMP levels, including cholera toxin, pertussis toxin, dibutyryl cAMP, and isoproterenol mimicked the actions of MM-LDL.
+
+Agents which elevated cAMP were also shown to activate NF kappa B, suggesting a role for this transcription factor in activation of monocyte-endothelial interactions.
+
+Although endothelial leukocyte adhesion molecule (ELAM) mRNA synthesis can be regulated by NF kappa B, ELAM was not expressed and ELAM mRNA was only slightly elevated in response to MM-LDL.
+# T5 Protein S9 9 48 1218 1257 endothelial leukocyte adhesion molecule
+# T6 Protein S9 50 54 1259 1263 ELAM
+# T7 Protein S9 103 107 1312 1316 ELAM
+# T8 Protein S9 130 134 1339 1343 ELAM
+
+We present evidence that induction of neutrophil binding by LPS is actually suppressed by agents that elevated cAMP levels.
+

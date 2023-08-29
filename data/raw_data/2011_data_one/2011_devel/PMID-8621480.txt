@@ -1,0 +1,22 @@
+A hydrophobic domain of Ca2+-modulating cyclophilin ligand modulates calcium influx signaling in T lymphocytes.
+# T1 Protein S1 24 58 24 58 Ca2+-modulating cyclophilin ligand
+
+Ca2+-modulating cyclophilin ligand (CAML) was originally described as a cyclophilin B-binding protein whose overexpression in T cells causes a rise in intracellular calcium, thus activating transcription factors responsible for the early immune response.
+# T2 Protein S2 0 34 113 147 Ca2+-modulating cyclophilin ligand
+# T3 Protein S2 36 40 149 153 CAML
+# T4 Protein S2 72 85 185 198 cyclophilin B
+$ T3 Protein S2 36 40 149 153 CAML
+@ T8 Positive_regulation S2 108 122 221 235 overexpression
+@ T9 Gene_expression S2 108 122 221 235 overexpression
+% E1 Positive_regulation:T8 Theme:E2
+% E2 Gene_expression:T9 Theme:T3
+
+As reported here, structure-function analysis of the CAML gene in Jurkat T cells indicates that two of CAML's putative membrane-spanning domains are necessary and sufficient for the modulation of intracellular calcium.
+# T5 Protein S3 53 57 421 425 CAML
+# T6 Protein S3 103 107 471 475 CAML
+
+We propose that the hydrophobic C-terminal tail of CAML forms its effector domain, thus implicating the N-terminal hydrophilic domain in a regulatory role.
+# T7 Protein S4 51 55 638 642 CAML
+
+These findings define a novel protein motif that functions in intracellular calcium signaling.
+

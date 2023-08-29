@@ -1,0 +1,73 @@
+Nuclear factor-IL6 activates the human IL-4 promoter in T cells.
+# T1 Protein S1 0 18 0 18 Nuclear factor-IL6
+# T2 Protein S1 39 43 39 43 IL-4
+$ T2 Protein S1 39 43 39 43 IL-4
+$ T1 Protein S1 0 18 0 18 Nuclear factor-IL6
+@ T16 Positive_regulation S1 19 28 19 28 activates
+@ T17 Entity S1 44 52 44 52 promoter
+% E1 Positive_regulation:T16 Theme:T2 Cause:T1 Site:T17
+
+Positive regulatory element I (PRE-I) is a strong enhancer element essential for expression of the human IL-4 gene.
+# T3 Protein S2 105 109 171 175 IL-4
+$ T3 Protein S2 105 109 171 175 IL-4
+@ T18 Positive_regulation S2 67 76 133 142 essential
+@ T19 Gene_expression S2 81 91 147 157 expression
+% E2 Positive_regulation:T18 Theme:E3
+% E3 Gene_expression:T19 Theme:T3
+
+To identify transcription factors binding to PRE-I, we screened a cDNA expression library from Jurkat T cells and isolated a cDNA encoding nuclear factor (NF)-IL6 (also known as C/EBP beta).
+# T4 Protein S3 154 162 336 344 (NF)-IL6
+# T5 Protein S3 178 188 360 370 C/EBP beta
+
+NF-IL6 mRNA was found in human Jurkat T cells and in the mouse Th2 clone D10, but not in Th1 clone 29.
+# T6 Protein S4 0 6 373 379 NF-IL6
+$ T6 Protein S4 0 6 373 379 NF-IL6
+@ T20 Transcription S4 16 21 389 394 found
+% E4 Transcription:T20 Theme:T6
+
+rNF-IL6 expressed in bacteria was shown to specifically bind to PRE-I.
+# T7 Protein S5 0 7 476 483 rNF-IL6
+$ T7 Protein S5 0 7 476 483 rNF-IL6
+@ T21 Gene_expression S5 8 17 484 493 expressed
+@ T22 Binding S5 56 60 532 536 bind
+% E5 Gene_expression:T21 Theme:T7
+% E6 Binding:T22 Theme:T7
+
+PRE-I forms multiple DNA-protein complexes with nuclear extracts from Jurkat cells.
+
+Some of these complexes were demonstrated to contain NF-IL6 by using anti-C/EBP beta Abs.
+# T8 Protein S7 53 59 684 690 NF-IL6
+# T9 Protein S7 74 84 705 715 C/EBP beta
+$ T8 Protein S7 53 59 684 690 NF-IL6
+@ T23 Binding S7 14 23 645 654 complexes
+% E7 Binding:T23 Theme:T8
+
+Overexpression of NF-IL6 enhanced expression of the chloramphenicol acetyl transferase reporter gene linked to the PRE-I-thymidine kinase or the human IL-4 promoter more than 10-fold in Jurkat cells.
+# T10 Protein S8 18 24 739 745 NF-IL6
+# T11 Protein S8 52 86 773 807 chloramphenicol acetyl transferase
+# T12 Protein S8 151 155 872 876 IL-4
+$ T10 Protein S8 18 24 739 745 NF-IL6
+$ T11 Protein S8 52 86 773 807 chloramphenicol acetyl transferase
+@ T24 Gene_expression S8 0 14 721 735 Overexpression
+@ T25 Positive_regulation S8 0 14 721 735 Overexpression
+@ T26 Positive_regulation S8 25 33 746 754 enhanced
+@ T27 Gene_expression S8 34 44 755 765 expression
+% E8 Gene_expression:T24 Theme:T10
+% E9 Positive_regulation:T25 Theme:E8
+% E10 Positive_regulation:T26 Theme:E11 Cause:E9
+% E11 Gene_expression:T27 Theme:T11
+
+Promoter deletion studies revealed two additional NF-IL6 binding sites located at positions -44 to -36 (C/EBP proximal) and -87 to -79 (C/EBP medial), respectively.
+# T13 Protein S9 50 56 971 977 NF-IL6
+
+Our results demonstrate that NF-IL6 is involved in transcriptional activation of the human IL-4 promoter in T cells.
+# T14 Protein S10 29 35 1115 1121 NF-IL6
+# T15 Protein S10 91 95 1177 1181 IL-4
+$ T14 Protein S10 29 35 1115 1121 NF-IL6
+$ T15 Protein S10 91 95 1177 1181 IL-4
+@ T28 Regulation S10 39 47 1125 1133 involved
+@ T29 Positive_regulation S10 51 77 1137 1163 transcriptional activation
+@ T30 Entity S10 96 104 1182 1190 promoter
+% E12 Regulation:T28 Theme:E13 Cause:T14
+% E13 Positive_regulation:T29 Theme:T15 Site:T30
+

@@ -1,0 +1,45 @@
+Cleavage of transcription factor SP1 by caspases during anti-IgM-induced B-cell apoptosis.
+# T1 Protein S1 33 36 33 36 SP1
+
+Apoptosis is instrumental in the processes generating the diversity of the B-cell repertoire.
+
+Autoreactive B-cells are eliminated by anti-IgM crosslinking after encountering self-antigens, but precise mechanisms leading to B-cell apoptosis are still not well understood.
+
+We report here the cleavage of the transcription factor SP1 in the human Burkitt lymphoma cell line BL60 during anti-IgM-induced apoptosis.
+# T2 Protein S4 56 59 419 422 SP1
+
+Western blot analysis revealed two cleavage products of approximately 68 kDa and 45 kDa after induction of apoptosis.
+
+Cleavage could be completely inhibited by zDEVD-fmk, an inhibitor specific for caspase 3-like proteases.
+
+In-vitro cleavage of recombinant SP1 by recombinant caspase 3 (CPP32) or caspase 7 (Mch 3) results in similar cleavage products as those observed in vivo.
+# T3 Protein S7 33 36 759 762 SP1
+# T4 Protein S7 52 61 778 787 caspase 3
+# T5 Protein S7 63 68 789 794 CPP32
+# T6 Protein S7 73 82 799 808 caspase 7
+# T7 Protein S7 84 89 810 815 Mch 3
+
+Recombinant caspase 6 (Mch 2) primarily generates a 68-kDa cleavage product, as observed after calcium ionophore (CaI) induced B-cell apoptosis.
+# T8 Protein S8 12 21 893 902 caspase 6
+# T9 Protein S8 23 28 904 909 Mch 2
+
+In contrast, caspase 1 (ICE) did not cleave SP1 in vitro.
+# T10 Protein S9 13 22 1039 1048 caspase 1
+# T11 Protein S9 24 27 1050 1053 ICE
+# T12 Protein S9 44 47 1070 1073 SP1
+
+The time course of SP1 cleavage during anti-IgM-induced apoptosis is paralleled by an increase of caspase activity measured by DEVD-p-nitroanilide (DEVD-pNA) cleavage.
+# T13 Protein S10 19 22 1103 1106 SP1
+
+DNA band-shift assays revealed a decrease in the intensity of the full length SP1/DNA complex and an increase in the intensity of a smaller complex due to the binding of one SP1 cleavage product.
+# T14 Protein S11 78 81 1330 1333 SP1
+# T15 Protein S11 174 177 1426 1429 SP1
+
+By Edman sequencing we could identify a caspase 3 cleavage site after Asp584 (D584AQPQAGR), generating a 22-kDa C-terminal SP1 protein fragment which still contains the DNA binding site.
+# T16 Protein S12 40 49 1488 1497 caspase 3
+# T17 Protein S12 123 126 1571 1574 SP1
+
+Our results show the cleavage of the human transcription factor SP1 in vivo and in vitro, underlining the central role of caspase 3-like proteases during the process of anti-IgM-induced apoptosis.
+# T18 Protein S13 64 67 1699 1702 SP1
+# T19 Protein S13 122 131 1757 1766 caspase 3
+

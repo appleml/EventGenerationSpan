@@ -1,0 +1,63 @@
+Transcriptional and posttranscriptional regulation of erythroid gene expression in anthracycline-induced differentiation of human erythroleukemic cells.
+
+Aclacinomycin (ACLA) and doxorubicin (DOX) were used at subtoxic concentrations to induce erythroid differentiation in the human leukemic cell line K562.
+
+Cell hemoglobinization was accompanied by the increased expression of genes encoding gamma-globin and porphobilinogen deaminase (PBGD), an enzyme of heme synthesis.
+# T1 Protein S3 102 127 410 435 porphobilinogen deaminase
+# T2 Protein S3 129 133 437 441 PBGD
+$ T2 Protein S3 129 133 437 441 PBGD
+@ T9 Positive_regulation S3 46 55 354 363 increased
+@ T10 Gene_expression S3 56 66 364 374 expression
+% E1 Positive_regulation:T9 Theme:E2
+% E2 Gene_expression:T10 Theme:T2
+
+By using run-on assays, ACLA was shown to induce an enhancement of the transcription of erythroid genes, including gamma-globin, PBGD, erythropoietin receptor, and GATA-1 transcription factor.
+# T3 Protein S4 129 133 602 606 PBGD
+# T4 Protein S4 135 158 608 631 erythropoietin receptor
+# T5 Protein S4 164 170 637 643 GATA-1
+$ T3 Protein S4 129 133 602 606 PBGD
+$ T4 Protein S4 135 158 608 631 erythropoietin receptor
+$ T5 Protein S4 164 170 637 643 GATA-1
+@ T11 Positive_regulation S4 42 63 515 536 induce an enhancement
+@ T12 Transcription S4 71 84 544 557 transcription
+% E3 Positive_regulation:T11 Theme:E8
+% E4 Positive_regulation:T11 Theme:E7
+% E5 Positive_regulation:T11 Theme:E6
+% E6 Transcription:T12 Theme:T3
+% E7 Transcription:T12 Theme:T4
+% E8 Transcription:T12 Theme:T5
+
+In contrast, in DOX-treated cells, the transcription rate of these genes was unchanged in comparison with control cells.
+@ T13 Transcription S5 39 57 705 723 transcription rate
+@ T14 Regulation S5 77 86 743 752 unchanged
+% E9 Transcription:T13 Theme:T5
+% E10 Transcription:T13 Theme:T4
+% E11 Transcription:T13 Theme:T3
+% E12 Regulation:T14 Theme:E11
+% E13 Regulation:T14 Theme:E9
+% E14 Regulation:T14 Theme:E10
+
+In addition, inhibition of mRNA synthesis with actinomycin D indicated that DOX induced an increased stability of PBGD and GATA-1 mRNAs, whereas ACLA did not affect the half-lives of these mRNAs.
+# T6 Protein S6 114 118 901 905 PBGD
+# T7 Protein S6 123 129 910 916 GATA-1
+$ T6 Protein S6 114 118 901 905 PBGD
+$ T7 Protein S6 123 129 910 916 GATA-1
+@ T15 Positive_regulation S6 91 110 878 897 increased stability
+@ T16 Regulation S6 158 179 945 966 affect the half-lives
+% E15 Positive_regulation:T15 Theme:T6
+% E16 Positive_regulation:T15 Theme:T7
+% E17 Regulation:T16 Theme:T6
+% E18 Regulation:T16 Theme:T7
+
+Because the increase in erythroid mRNA steady-state level in anthracycline-treated cells was inhibited by cycloheximide, this suggests that transcriptional activation in ACLA-treated cells and mRNA stabilization in DOX-treated cells were dependent on de novo protein synthesis.
+
+Finally, GATA-1 protein level was shown to be increased in ACLA-treated but not in DOX-treated cells.
+# T8 Protein S8 9 15 1270 1276 GATA-1
+$ T8 Protein S8 9 15 1270 1276 GATA-1
+@ T17 Positive_regulation S8 46 55 1307 1316 increased
+% E19 Positive_regulation:T17 Theme:T8
+
+These two anthracyclines, although closely related in their structures, appeared to act as differentiation inducers by distinct mechanisms.
+
+Indeed, erythroid gene expression was demonstrated to be regulated transcriptionally by ACLA and mainly posttranscriptionally by DOX.
+

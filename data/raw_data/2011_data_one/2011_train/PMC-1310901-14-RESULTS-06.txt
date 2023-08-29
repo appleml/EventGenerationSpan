@@ -1,0 +1,75 @@
+mRNA expression of DNA methyltransferases and methyl-CpG-binding proteins may not be associated with IRF-4 promoter methylation
+# T1 Protein S1 101 106 101 106 IRF-4
+
+Since abundance of DNMT and MBP contribute to promoter regulation via methylation (25,26,28), we studied their mRNA expression to investigate a possible mechanism for the observed methylation differences in the IRF-4 promoter.
+# T2 Protein S2 211 216 339 344 IRF-4
+$ T2 Protein S2 211 216 339 344 IRF-4
+@ T13 Entity S2 46 54 174 182 promoter
+@ T14 Regulation S2 55 65 183 193 regulation
+% E1 Regulation:T14 Theme:T2 Site:T13
+
+To this end, we did not detect a significant difference in DNMT (DNMT1, DNMT3A and DNMT3B) or MBP (MBD1, MBD2, MBD4 and MeCP) mRNA expression between IRF-4-positive and -negative cells (Figure 5D).
+# T3 Protein S3 65 70 420 425 DNMT1
+# T4 Protein S3 72 78 427 433 DNMT3A
+# T5 Protein S3 83 89 438 444 DNMT3B
+# T6 Protein S3 99 103 454 458 MBD1
+# T7 Protein S3 105 109 460 464 MBD2
+# T8 Protein S3 111 115 466 470 MBD4
+# T9 Protein S3 120 124 475 479 MeCP
+# T10 Protein S3 150 155 505 510 IRF-4
+$ T3 Protein S3 65 70 420 425 DNMT1
+$ T4 Protein S3 72 78 427 433 DNMT3A
+$ T5 Protein S3 83 89 438 444 DNMT3B
+$ T6 Protein S3 99 103 454 458 MBD1
+$ T7 Protein S3 105 109 460 464 MBD2
+$ T8 Protein S3 111 115 466 470 MBD4
+$ T9 Protein S3 120 124 475 479 MeCP
+$ T10 Protein S3 150 155 505 510 IRF-4
+@ T15 Transcription S3 126 141 481 496 mRNA expression
+@ T16 Gene_expression S3 156 164 511 519 positive
+@ T17 Gene_expression S3 170 178 525 533 negative
+% E2 Transcription:T15 Theme:T3
+% E3 Transcription:T15 Theme:T4
+% E4 Transcription:T15 Theme:T5
+% E5 Transcription:T15 Theme:T6
+% E6 Transcription:T15 Theme:T7
+% E7 Transcription:T15 Theme:T8
+% E8 Transcription:T15 Theme:T9
+% E9 Gene_expression:T16 Theme:T10
+% E10 Gene_expression:T17 Theme:T10
+
+In fact, all analyzed cells had moderate to high mRNA levels of these tested DNMT/MBPs and differences in expression were not correlated with IRF-4 status.
+# T11 Protein S4 142 147 695 700 IRF-4
+@ T18 Transcription S4 49 60 602 613 mRNA levels
+@ T19 Transcription S4 106 116 659 669 expression
+% E11 Transcription:T18 Theme:T3
+% E12 Transcription:T18 Theme:T4
+% E13 Transcription:T18 Theme:T5
+% E14 Transcription:T18 Theme:T6
+% E15 Transcription:T18 Theme:T7
+% E16 Transcription:T18 Theme:T8
+% E17 Transcription:T18 Theme:T9
+% E18 Transcription:T19 Theme:T3
+% E19 Transcription:T19 Theme:T4
+% E20 Transcription:T19 Theme:T5
+% E21 Transcription:T19 Theme:T6
+% E22 Transcription:T19 Theme:T7
+% E23 Transcription:T19 Theme:T8
+% E24 Transcription:T19 Theme:T9
+
+These results indicate a distinct cause of the methylation differences in IRF-4-positive and -negative cells rather than changes in the DNMT and MBP mRNA transcription.
+# T12 Protein S5 74 79 783 788 IRF-4
+$ T12 Protein S5 74 79 783 788 IRF-4
+@ T20 Gene_expression S5 80 88 789 797 positive
+@ T21 Gene_expression S5 94 102 803 811 negative
+@ T22 Transcription S5 154 167 863 876 transcription
+% E25 Gene_expression:T20 Theme:T12
+% E26 Gene_expression:T21 Theme:T12
+% E27 Transcription:T22 Theme:T3
+% E28 Transcription:T22 Theme:T4
+% E29 Transcription:T22 Theme:T5
+% E30 Transcription:T22 Theme:T6
+% E31 Transcription:T22 Theme:T7
+% E32 Transcription:T22 Theme:T8
+% E33 Transcription:T22 Theme:T9
+

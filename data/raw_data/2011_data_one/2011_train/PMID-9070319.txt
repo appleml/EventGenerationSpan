@@ -1,0 +1,29 @@
+Possible role of nuclear factor-kappa B activity in germline C epsilon transcription in a human Burkitt lymphoma B cell line.
+
+Nuclear factor-kappa B (NF-kappa B) plays a broad role in gene regulation, but it is not evident whether NF-kappa B acts as a messenger system for germline C epsilon transcription.
+
+We report here that the signaling cascade triggered by interleukin-4 (IL-4) or anti-CD40 monoclonal antibody (mAb) participates in NF-kappa B activation responsible for germline C epsilon transcription in a human Burkitt lymphoma B cell line, DND39.
+# T1 Protein S3 55 68 363 376 interleukin-4
+# T2 Protein S3 70 74 378 382 IL-4
+# T3 Protein S3 84 88 392 396 CD40
+
+Both IL-4 and anti-CD40 mAb induced activation of phosphatidylinositol 3-kinase (PI3-kinase), translocation of a zeta isoform of protein kinase C, and nuclear expression of NF-kappa B. All such events were abrogated by treatment with LY294002, a specific inhibitor of PI3-kinase.
+# T4 Protein S4 5 9 563 567 IL-4
+# T5 Protein S4 19 23 577 581 CD40
+
+In addition, N-acetyl-L-cysteine (NAC), a potent antioxidant, decreased NF-kappa B activation caused by IL-4, anti-CD40 mAb, or their combination.
+# T6 Protein S5 104 108 942 946 IL-4
+# T7 Protein S5 115 119 953 957 CD40
+
+NAC was also effective in diminishing germline C epsilon transcription, and its potency was higher in cultures costimulated with IL-4 and anti-CD40 mAb than in those stimulated with IL-4 alone.
+# T8 Protein S6 129 133 1114 1118 IL-4
+# T9 Protein S6 143 147 1128 1132 CD40
+# T10 Protein S6 182 186 1167 1171 IL-4
+
+These results indicate that IL-4 and ligation of CD40 induce NF-kappa B expression via at least a mechanism dependent on the PI3-kinase pathway and suggest that NF-kappa B sensitive to NAC may play a role in regulating germline C epsilon transcription.
+# T11 Protein S7 28 32 1207 1211 IL-4
+# T12 Protein S7 49 53 1228 1232 CD40
+$ T12 Protein S7 49 53 1228 1232 CD40
+@ T13 Binding S7 37 45 1216 1224 ligation
+% E1 Binding:T13 Theme:T12
+

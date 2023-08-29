@@ -1,0 +1,124 @@
+The major findings in the present study are that TNF-alpha signaling showed cellular specific responses of NF-kappaB phosphorylation in the PC following SE, which may be related to vasogenic edema formation followed by neutrophil infiltration.
+# T1 Protein S1 49 58 49 58 TNF-alpha
+
+BBB disruption has been reported in experimental and human epilepsy [12,13,15,16,28].
+
+Leakage of serum-derived components into the extracellular space is associated with hyperexcitability and seizure onset [12,13,15,16,28].
+
+Furthermore, dysfunction of the BBB leads to epileptogenesis and contributes to progression of epilepsy [12,13,15,16,28].
+
+In the present study, TNF-alpha immunoreactivity was obviously observed in microglia in the PC following SE.
+# T2 Protein S5 22 31 612 621 TNF-alpha
+
+TNF receptor expressions were also up-regulated in astrocytes (TNFp55R and TNFp75R) and endothelial cells (TNFp75R).
+# T3 Protein S6 63 70 762 769 TNFp55R
+# T4 Protein S6 75 82 774 781 TNFp75R
+# T5 Protein S6 107 114 806 813 TNFp75R
+
+Furthermore, blockade of TNF-alpha signaling by sTNFp55 infusion effectively (but not completely) reduced volumes of SE-induced vasogenic edema and neuronal damage in the PC.
+# T6 Protein S7 25 34 841 850 TNF-alpha
+# T7 Protein S7 49 55 865 871 TNFp55
+
+These findings indicate that TNF-alpha may participate in astroglial and endothelial responses to SE, which are relevant to SE-induced vasogenic edema formation [5-8].
+# T8 Protein S8 29 38 1020 1029 TNF-alpha
+
+Indeed, TNF-alpha signaling increases BBB permeability in various experimental disease models [29].
+# T9 Protein S9 8 17 1167 1176 TNF-alpha
+
+In the present study, sTNFp55 infusion could not completely prevent SE-induced vasogenic edema and neuronal damage in the PC.
+# T10 Protein S10 23 29 1282 1288 TNFp55
+
+Therefore, our findings suggest that TNF-alpha signaling may not be a unique upstream event in vasogenic edema development.
+# T11 Protein S11 37 46 1422 1431 TNF-alpha
+
+p65 phosphorylation of NF-kappaB enhances its transactivation potential, and p65 phosphorylation occurs in either the cytoplasm or the nucleus [30].
+# T12 Protein S12 0 3 1509 1512 p65
+# T13 Protein S12 77 80 1586 1589 p65
+
+In the present study, p65-Thr435 immunoreactivity was detected in endothelial cells, and its immunoreactivity showed an inverse correlation to the degree of SMI-71 expression.
+# T14 Protein S13 22 25 1680 1683 p65
+
+SMI-71, an endothelial barrier antigen, is a protein expressed by endothelial cells of rat BBB [31].
+
+Under pathological conditions, SMI-71 expression is lost in endothelial cells [5,7,8,30,32].
+
+Acute phases of the above pathological conditions are accompanied by opening of the BBB and development of vasogenic edema [33].
+
+Indeed, neutralization of SMI-71 in vivo leads to widening of intercellular junctions between endothelial cells and swelling of perivascular astrocytic processes [34], although SMI-71 is not localized at endothelial cell junctions [35-38].
+
+In the present study, SMI-71 immunoreactivity was significantly reduced in blood vessels 1 day after SE when vasogenic edema and neuronal damage were observed.
+
+Furthermore, sTNFp55R infusion effectively prevented SE-induced SMI-71 down-regulation.
+# T15 Protein S19 14 21 2571 2578 TNFp55R
+
+With respect to the phosphorylation of p65-Thr435 by TNF-alpha [39], our findings indicate that TNF-alpha-mediated p65-Thr435 phosphorylation in endothelial cells may play an important role in vasogenic edema induction via SMI-71 degradation or its posttranslational dysfunction influencing BBB permeability.
+# T16 Protein S20 39 42 2684 2687 p65
+# T17 Protein S20 53 62 2698 2707 TNF-alpha
+# T18 Protein S20 96 105 2741 2750 TNF-alpha
+# T19 Protein S20 115 118 2760 2763 p65
+
+In our previous studies [5,8], dystrophin (an actin-binding protein [40]) immunoreactivity was detected in blood vessels and in astrocytic perivascular end-feet, and was down-regulated 12 hrs after SE prior to the appearance of vasogenic edema and down-regulation of SMI-71 immunoreactivity.
+# T27 Protein S21 31 41 2985 2995 dystrophin
+# T28 Protein S21 46 67 3000 3021 actin-binding protein
+
+With respect to this previous report, changes in SMI immunoreactivity would be causes/results of interaction between endothelial cells and perivascular astrocytes.
+
+In the present study, p65-Ser276, p65-Ser311, p65-Ser529, and p65-Ser536 phosphorylation was observed in astrocytes following SE.
+# T29 Protein S23 22 25 3432 3435 p65
+# T30 Protein S23 34 37 3444 3447 p65
+# T31 Protein S23 46 49 3456 3459 p65
+# T32 Protein S23 62 65 3472 3475 p65
+
+Furthermore, sTNFp55R infusion effectively inhibited p65-Ser276 and p65-Ser311phosphorylation in astrocytes following SE.
+# T33 Protein S24 14 21 3554 3561 TNFp55R
+# T34 Protein S24 53 56 3593 3596 p65
+# T35 Protein S24 68 71 3608 3611 p65
+
+Therefore, it is likely that enhanced p65-Ser276 and p65-Ser311 phosphorylation may be involved in TNF-alpha-mediated BBB disruption.
+# T36 Protein S25 38 41 3700 3703 p65
+# T37 Protein S25 53 56 3715 3718 p65
+# T38 Protein S25 99 102 3761 3764 TNF
+
+However, sTNFp55R infusion could not prevent p65-Ser529 and p65-Ser536 phosphorylations from SE insults.
+# T39 Protein S26 10 17 3806 3813 TNFp55R
+# T40 Protein S26 45 48 3841 3844 p65
+# T41 Protein S26 60 63 3856 3859 p65
+
+Since p65-Ser529 and p65-Ser536 are phosphorylated by TNF-alpha and IL-1beta [41], it is likely that IL-1beta-mediated p65-Ser529/Ser536 phosphorylation may also play a role in SE-induced vasogenic edema.
+# T42 Protein S27 6 9 3907 3910 p65
+# T43 Protein S27 21 24 3922 3925 p65
+# T44 Protein S27 54 63 3955 3964 TNF-alpha
+# T45 Protein S27 68 76 3969 3977 IL-1beta
+# T46 Protein S27 101 109 4002 4010 IL-1beta
+# T47 Protein S27 119 122 4020 4023 p65
+
+Therefore, our findings indicate that both TNF-alpha and IL-1beta may be synergists to play either a direct (by endothelial cells) or indirect (by astrocytes) role in the maintenance of BBB permeability.
+# T48 Protein S28 43 52 4149 4158 TNF-alpha
+# T49 Protein S28 57 65 4163 4171 IL-1beta
+
+Neutrophil infiltration into brain parenchyma is transiently observed during the acute phase of SE (4 - 36 hr after SE) and disappears thereafter [20].
+
+SE rapidly increases synthesis and release of chemokines in various areas of the rodent brain [42].
+
+Among them, MIP-2 is required for efficient neutrophil or lymphocyte recruitment to brain parenchyma [43].
+# T50 Protein S31 12 17 4574 4579 MIP-2
+
+In our previous study [20], neutrophil infiltration in the frontoparietal cortex was regulated by P2X7 receptor-mediated MIP-2 expression.
+# T51 Protein S32 98 111 4767 4780 P2X7 receptor
+# T52 Protein S32 121 126 4790 4795 MIP-2
+
+In the PC, however, neither a P2X7 receptor agonist/antagonist nor IL-1Ra (an IL-1beta antagonist) infusion could not affect leukocyte infiltration.
+# T53 Protein S33 67 73 4875 4881 IL-1Ra
+# T54 Protein S33 78 97 4886 4905 IL-1beta antagonist
+
+In the present study, sTNFp55R infusion effectively inhibited neutrophil infiltration in the PC by reducing vasogenic edema formation in a MIP-2-independent manner.
+# T55 Protein S34 23 30 4980 4987 TNFp55R
+# T56 Protein S34 139 144 5096 5101 MIP-2
+
+With respect to the present and our previous reports, it is therefore likely that vasogenic edema induced by TNF-alpha can induce neutrophil infiltration and press injury to evoke neuronal-astroglial loss in the PC, unlike other brain regions.
+# T57 Protein S35 109 118 5231 5240 TNF-alpha
+
+In conclusion, our findings reveal that impairments of endothelial cell function via TNF-alpha mediated p65-Thr 435 NF-kappaB phosphorylation may be involved in SE-induced vasogenic edema, which is relevant to neutrophil infiltration and neuronal-astroglial loss.
+# T58 Protein S36 85 94 5451 5460 TNF-alpha
+# T59 Protein S36 104 107 5470 5473 p65
+

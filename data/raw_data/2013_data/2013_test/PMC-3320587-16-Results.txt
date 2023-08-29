@@ -1,0 +1,19 @@
+MTb increases NFAT5 mRNA levels in human MDM
+# T1 Protein S1 14 19 14 19 NFAT5
+
+Given that macrophages, which are the primary target of MTb infection, are also a major reservoir of HIV-1 as infection progresses [40], we next investigated whether MTb is able to directly enhance NFAT5 mRNA expression in primary human MDM.
+# T2 Protein S2 198 203 243 248 NFAT5
+
+We prepared MDM from five normal donors, stimulated the cells with the MTb lysate or left them unstimulated, and measured NFAT5 gene expression levels by quantitative real-time PCR at 24 and 48 hours.
+# T3 Protein S3 122 127 409 414 NFAT5
+
+We also investigated whether HIV-1 infection is capable of inducing NFAT5 mRNA synthesis by infecting MDM with live or heat-inactivated R5-tropic representatives of subtype B (HIV-1Bal), C (HIV-198IN22), or E (HIV-192TH64).
+# T4 Protein S4 68 73 556 561 NFAT5
+
+As shown in Figure 2A, stimulation with MTb lysate significantly increased NFAT5 mRNA levels at 24 (p<0.05) and 48 (p<0.01) hours, whereas infection with viable or heat-inactivated HIV-1 isolates did not increase NFAT5 mRNA levels (Figure 2A).
+# T5 Protein S5 75 80 787 792 NFAT5
+# T6 Protein S5 213 218 925 930 NFAT5
+
+Thus, MTb specifically enhances NFAT5 mRNA expression in human MDM, and this response continues to increase for at least 48 hours post-stimulation (Figure 2A).
+# T7 Protein S6 32 37 988 993 NFAT5
+

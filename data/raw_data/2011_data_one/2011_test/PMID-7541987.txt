@@ -1,0 +1,29 @@
+The Ah receptor recognizes DNA binding sites for the B cell transcription factor, BSAP: a possible mechanism for dioxin-mediated alteration of CD19 gene expression in human B lymphocytes.
+# T1 Protein S1 4 15 4 15 Ah receptor
+# T2 Protein S1 53 80 53 80 B cell transcription factor
+# T3 Protein S1 82 86 82 86 BSAP
+# T4 Protein S1 143 147 143 147 CD19
+
+2,3,7,8-tetrachlorodibenzo-p-dioxin (TCDD) inhibits murine and human B lymphocyte immunoglobulin production through an unknown mechanism.
+
+This study investigated the effect of TCDD on expression of the CD19 gene in a human B lymphocyte cell line.
+# T5 Protein S3 64 68 391 395 CD19
+
+Northern blot analysis showed that TCDD treatment decreased steady state levels of CD19 mRNA by 67% in the IM-9 cell line.
+# T6 Protein S4 83 87 519 523 CD19
+
+Using a gel mobility shift assay, we identified a DNA-binding complex in IM-9 nuclear extracts that by several criteria appears to be the Ah receptor.
+# T7 Protein S5 138 149 697 708 Ah receptor
+
+In addition, the Ah receptor complex recognized a DNA binding site for B cell lineage-specific activator protein (BSAP) in the promoter region of the human CD19 gene which is similar to the consensus Ah receptor DNA binding site.
+# T8 Protein S6 17 28 727 738 Ah receptor
+# T9 Protein S6 71 112 781 822 B cell lineage-specific activator protein
+# T10 Protein S6 114 118 824 828 BSAP
+# T11 Protein S6 156 160 866 870 CD19
+# T12 Protein S6 200 211 910 921 Ah receptor
+
+These results suggest that the AhR could interfere with BSAP-stimulated CD19 gene transcription by competition for a common DNA binding site.
+# T13 Protein S7 31 34 971 974 AhR
+# T14 Protein S7 56 60 996 1000 BSAP
+# T15 Protein S7 72 76 1012 1016 CD19
+

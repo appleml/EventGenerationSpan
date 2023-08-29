@@ -1,0 +1,328 @@
+Inflammation of the intestinal tract is usually associated with infiltration and activation of intestinal macrophages [17].
+
+These macrophages are able to initiate immune responses and can be induced to differentiate into cells that either exacerbate or inhibit the inflammation.
+
+Accumulation of different types of leukocytes, including monocytes/macrophages, neutrophils, and lymphocytes in the intestinal mucosa during inflammation, is normally followed by secretion of pro-inflammatory cytokines [33].
+
+Several stimuli can induce these leukocytes to produce and secrete cytokines during inflammation.
+
+One of the most potent and known stimuli for leukocyte activation is LPS from Gram-negative bacteria [34].
+
+In addition, other factors are also able to stimulate cytokine secretion from various leukocytes [35], [36].
+
+One such factor is CGN, a high molecular weight sulphated polysaccharide (>200 kDa) derived from red algae (Rhodophyceae) [1], [2].
+
+Native CGN is widely used as a food additive (E 407) to improve texture.
+
+It is also used in cosmetics and pharmaceuticals.
+
+Although native form CGN (200-800 kDa) has been declared harmless to humans [8], its degraded forms (<50 kDa), also known as poligeenan, are widely used to induce colitis in rodents [3]-[5].
+
+These degraded CGN may also have a possible carcinogenic effect [4], [6]-[8]; however this is still controversial.
+
+Although acid treatment at high temperature (80degreesC) is required for CGN hydrolysis in vitro to lower molecular weight dCGN, it is probable that some dCGN are produced by acid hydrolysis during gastric digestion [9], [10] or interaction with intestinal bacteria [11], [12].
+
+Thus, understanding the mechanisms of dCGN-induced bowel inflammation is of great importance.
+
+In this report, we have analyzed the role of human monocytes (PBM and THP-1) in dCGN-induced inflammation.
+
+Preliminary in vivo studies in rats treated with dCGN revealed significant shortening of the large intestine associated with an inflammatory state, i.e. strong infiltration of macrophages to the intestinal mucosa similar to DSS-induced inflammation [20].
+
+Using two fractions of dCGN (10 and 40 kDa), we observed a strong correlation between the severity of the inflammation and the dCGN molecular size, thus confirming the size related inflammation in vivo.
+
+This macrophage accumulation was not due to cell proliferation because dCGN inhibited THP-1 monocytes proliferation in vitro.
+
+These results are similar to those obtained with human colonic epithelial cells (NCM460 cell line) exposed to native CGN for 1-8 days [37].
+
+Thus, it seems that dCGN promote macrophage infiltration by recruiting new cells to the inflamed intestinal mucosa and not by inducing cell proliferation.
+
+In addition, very few polymorphonuclear cells were detected in the mucosa at the time point analyzed as demonstrated by a very low level of MPO in the intestinal tissue.
+
+These results suggest that monocytes might produce cytokines associated with activation into macrophages in response to dCGN.
+
+Thus, we analyzed the production of TNF by both PBM and THP-1 cells in response to dCGN.
+# T1 Protein S22 36 39 3069 3072 TNF
+$ T1 Protein S22 36 39 3069 3072 TNF
+@ T20 Gene_expression S22 22 32 3055 3065 production
+@ T21 Positive_regulation S22 68 82 3101 3115 in response to
+% E1 Gene_expression:T20 Theme:T1
+% E2 Positive_regulation:T21 Theme:E1
+
+Degraded CGN induced a robust production of TNF by monocytes.
+# T2 Protein S23 44 47 3166 3169 TNF
+$ T2 Protein S23 44 47 3166 3169 TNF
+@ T22 Positive_regulation S23 13 20 3135 3142 induced
+@ T23 Gene_expression S23 30 40 3152 3162 production
+% E3 Positive_regulation:T22 Theme:E4
+% E4 Gene_expression:T23 Theme:T2
+
+The 40 kDa form of dCGN was more potent for monocyte stimulation than the 10 kDa or the native ones.
+
+Surprisingly, monocyte activation by dCGN to produce TNF was much stronger than the activation induced by LPS, an inflammatory factor considered to be among the most potent stimuli for leukocyte activation.
+# T3 Protein S25 53 56 3338 3341 TNF
+$ T3 Protein S25 53 56 3338 3341 TNF
+@ T24 Gene_expression S25 45 52 3330 3337 produce
+% E5 Gene_expression:T24 Theme:T3
+
+These results underline the fact that partially degraded forms of CGN have important cellular effects.
+
+The amount of TNF secreted by PBM induced with LPS was much larger than the one secreted by THP-1 monocytes.
+# T4 Protein S27 14 17 3609 3612 TNF
+$ T4 Protein S27 14 17 3609 3612 TNF
+@ T25 Localization S27 18 26 3613 3621 secreted
+@ T26 Positive_regulation S27 34 41 3629 3636 induced
+@ T17 Anaphora S27 76 79 3671 3674 one
+@ T27 Localization S27 80 88 3675 3683 secreted
+% E6 Localization:T25 Theme:T4
+% E7 Positive_regulation:T26 Theme:E6
+% E8 Localization:T27 Theme:T4
+
+Since monocyte activation by LPS is associated with the presence of the CD14 and TLR4 receptors [38]-[40], the different response observed could be due to the different expression of these receptors in PBM and THP-1 cells.
+# T5 Protein S28 72 76 3776 3780 CD14
+# T6 Protein S28 81 95 3785 3799 TLR4 receptors
+$ T5 Protein S28 72 76 3776 3780 CD14
+$ T6 Protein S28 81 95 3785 3799 TLR4 receptors
+@ T28 Localization S28 56 64 3760 3768 presence
+@ T29 Gene_expression S28 169 179 3873 3883 expression
+@ T18 Anaphora S28 183 198 3887 3902 these receptors
+% E9 Localization:T28 Theme:T5
+% E10 Localization:T28 Theme:T6
+% E11 Gene_expression:T29 Theme:T5
+% E12 Gene_expression:T29 Theme:T6
+
+CD14 is not expressed by THP-1 monocytes, but it is expressed by PBM.
+# T7 Protein S29 0 4 3927 3931 CD14
+$ T7 Protein S29 0 4 3927 3931 CD14
+@ T30 Gene_expression S29 12 21 3939 3948 expressed
+@ T19 Anaphora S29 46 48 3973 3975 it
+@ T31 Gene_expression S29 52 61 3979 3988 expressed
+% E13 Gene_expression:T30 Theme:T7
+% E14 Gene_expression:T31 Theme:T7
+
+This fact could explain why THP-1 cells produced a much smaller response to LPS than PBM and also the difference of kinetics in the LPS induced TNF secretion.
+# T8 Protein S30 144 147 4141 4144 TNF
+$ T8 Protein S30 144 147 4141 4144 TNF
+@ T32 Positive_regulation S30 136 143 4133 4140 induced
+@ T33 Localization S30 148 157 4145 4154 secretion
+% E15 Positive_regulation:T32 Theme:E16
+% E16 Localization:T33 Theme:T8
+
+The peak of TNF response was observed after 8 h stimulation followed by a rapid decrease to baseline at 10 h, whereas on THP-1 cells the peak was not reached until after 56 h. Moreover, the amount of TNF secreted by monocytes induced with dCGN was much larger than the one induced by LPS.
+# T9 Protein S31 12 15 4168 4171 TNF
+# T10 Protein S31 200 203 4356 4359 TNF
+$ T9 Protein S31 12 15 4168 4171 TNF
+$ T10 Protein S31 200 203 4356 4359 TNF
+@ T34 Regulation S31 16 24 4172 4180 response
+@ T35 Negative_regulation S31 80 88 4236 4244 decrease
+@ T36 Localization S31 204 212 4360 4368 secreted
+@ T37 Positive_regulation S31 226 233 4382 4389 induced
+% E17 Regulation:T34 Theme:T9
+% E18 Negative_regulation:T35 Theme:E17
+% E19 Localization:T36 Theme:T10
+% E20 Positive_regulation:T37 Theme:E19
+
+On the other hand, LPS and dCGN displayed a very different TNF secretion curve in THP-1 cells.
+# T11 Protein S32 59 62 4504 4507 TNF
+$ T11 Protein S32 59 62 4504 4507 TNF
+@ T38 Localization S32 63 72 4508 4517 secretion
+% E21 Localization:T38 Theme:T11
+
+These differences suggest that dCGN and LPS could use different activation mechanisms.
+
+It is noteworthy that neutralizing antibody to CD14 only partially (<40%) inhibited dCGN-induced TNF secretion (not shown).
+# T12 Protein S34 97 100 4724 4727 TNF
+$ T12 Protein S34 97 100 4724 4727 TNF
+@ T39 Negative_regulation S34 74 83 4701 4710 inhibited
+@ T40 Positive_regulation S34 89 96 4716 4723 induced
+@ T41 Localization S34 101 110 4728 4737 secretion
+% E22 Negative_regulation:T39 Theme:E23
+% E23 Positive_regulation:T40 Theme:E24
+% E24 Localization:T41 Theme:T12
+
+TLR4 has been recently identified as a surface membrane receptor for CGN in human colonic epithelial cells [41].
+# T13 Protein S35 0 4 4751 4755 TLR4
+# T14 Protein S35 56 64 4807 4815 receptor
+
+Thus, it is possible that TLR4 is activated by dCGN to induce cytokine secretion by monocytes.
+# T15 Protein S36 26 30 4890 4894 TLR4
+$ T15 Protein S36 26 30 4890 4894 TLR4
+@ T42 Positive_regulation S36 34 43 4898 4907 activated
+% E25 Positive_regulation:T42 Theme:T15
+
+We can only speculate that TLR4 may have a higher affinity-binding site for dCGN than for LPS, however, this hypothesis remains to be tested.
+# T16 Protein S37 27 31 4986 4990 TLR4
+
+Another indicator that dCGN stimulate monocytes leading to a more active phenotype is the fact that surface expression of the adhesion molecule ICAM-1 was enhanced in both PBM and THP-1 cells.
+# T43 Protein S38 126 143 5227 5244 adhesion molecule
+# T44 Protein S38 144 150 5245 5251 ICAM-1
+$ T44 Protein S38 144 150 5245 5251 ICAM-1
+@ T58 Gene_expression S38 108 118 5209 5219 expression
+@ T59 Positive_regulation S38 155 163 5256 5264 enhanced
+% E26 Gene_expression:T58 Theme:T44
+% E27 Positive_regulation:T59 Theme:E26
+
+The over expression of ICAM-1 caused the activated monocytes to form cell aggregates that were more abundant among cells treated with the 40 kDa dCGN.
+# T45 Protein S39 23 29 5317 5323 ICAM-1
+$ T45 Protein S39 23 29 5317 5323 ICAM-1
+@ T60 Gene_expression S39 9 19 5303 5313 expression
+% E28 Gene_expression:T60 Theme:T45
+
+This correlates with the higher expression of ICAM-1 induced by the 40 kDa dCGN, suggesting that the partially degraded CGN is more biologically active.
+# T46 Protein S40 46 52 5491 5497 ICAM-1
+$ T46 Protein S40 46 52 5491 5497 ICAM-1
+@ T61 Gene_expression S40 32 42 5477 5487 expression
+@ T62 Positive_regulation S40 53 60 5498 5505 induced
+% E29 Gene_expression:T61 Theme:T46
+% E30 Positive_regulation:T62 Theme:E29
+
+In addition, the cell aggregates are reminiscent of monocyte aggregates, which form multinucleated giant cells (MGC) in patients with Crohn's disease [42].
+
+These giant cells were not observed in healthy individuals or in patients with ulcerative colitis [42].
+
+Moreover, increased expression levels of ICAM-1 and LFA-3 (CD58) were also detected in monocytes from patients with Crohn's disease [43], [44].
+# T47 Protein S43 41 47 5899 5905 ICAM-1
+# T48 Protein S43 52 57 5910 5915 LFA-3
+# T49 Protein S43 59 63 5917 5921 CD58
+$ T47 Protein S43 41 47 5899 5905 ICAM-1
+$ T48 Protein S43 52 57 5910 5915 LFA-3
+@ T63 Positive_regulation S43 10 19 5868 5877 increased
+@ T64 Gene_expression S43 20 30 5878 5888 expression
+% E31 Positive_regulation:T63 Theme:E32
+% E33 Positive_regulation:T63 Theme:E34
+% E32 Gene_expression:T64 Theme:T47
+% E34 Gene_expression:T64 Theme:T48
+
+Thus, degraded CGN clearly can activate monocytes to express an increased number of ICAM-1 adhesion molecules, therefore being capable of creating the conditions characteristic of Crohn's disease symptomatology, i.e. PBM accumulation and MGC formation [45], [46].
+# T50 Protein S44 84 90 6086 6092 ICAM-1
+# T51 Protein S44 91 109 6093 6111 adhesion molecules
+$ T50 Protein S44 84 90 6086 6092 ICAM-1
+@ T65 Gene_expression S44 53 60 6055 6062 express
+@ T66 Positive_regulation S44 64 73 6066 6075 increased
+% E35 Gene_expression:T65 Theme:T50
+% E36 Positive_regulation:T66 Theme:E35
+
+The NF-kappaB pathway regulates genes responsible for ICAM-1 and TNF-alpha expression.
+# T52 Protein S45 54 60 6320 6326 ICAM-1
+# T53 Protein S45 65 74 6331 6340 TNF-alpha
+$ T52 Protein S45 54 60 6320 6326 ICAM-1
+$ T53 Protein S45 65 74 6331 6340 TNF-alpha
+@ T67 Regulation S45 22 31 6288 6297 regulates
+@ T68 Regulation S45 38 49 6304 6315 responsible
+@ T69 Gene_expression S45 75 85 6341 6351 expression
+% E37 Regulation:T67 Theme:E38
+% E39 Regulation:T67 Theme:E40
+% E38 Regulation:T68 Theme:E41
+% E40 Regulation:T68 Theme:E42
+% E41 Gene_expression:T69 Theme:T52
+% E42 Gene_expression:T69 Theme:T53
+
+NF-kappaB activation is associated with the degradation of the inhibitor protein IkappaB [47].
+
+Indeed, dCGN induced NF-kappaB activation as shown by degradation of IkappaBalpha, translocation of p65 and p50 sub-units to the nucleus and by activation of an NF-kappaB-responsive luciferase reporter plasmid.
+# T54 Protein S47 69 81 6517 6529 IkappaBalpha
+# T55 Protein S47 100 103 6548 6551 p65
+# T56 Protein S47 108 111 6556 6559 p50
+# T57 Protein S47 182 192 6630 6640 luciferase
+$ T54 Protein S47 69 81 6517 6529 IkappaBalpha
+$ T55 Protein S47 100 103 6548 6551 p65
+$ T56 Protein S47 108 111 6556 6559 p50
+$ T57 Protein S47 182 192 6630 6640 luciferase
+@ T70 Protein_catabolism S47 54 65 6502 6513 degradation
+@ T71 Localization S47 83 96 6531 6544 translocation
+@ T72 Entity S47 129 136 6577 6584 nucleus
+@ T73 Positive_regulation S47 144 154 6592 6602 activation
+@ T74 Regulation S47 171 181 6619 6629 responsive
+% E43 Protein_catabolism:T70 Theme:T54
+% E44 Localization:T71 Theme:T55 ToLoc:T72
+% E45 Localization:T71 Theme:T56 ToLoc:T72
+% E46 Positive_regulation:T73 Theme:E47
+% E47 Regulation:T74 Theme:T57
+
+Again, a stronger activation of NF-kappaB was induced by the 40 kDa dCGN compared to 10 kDa dCGN, suggesting that the partially degraded CGN is more biologically active.
+
+Our data are in agreement with a previous study showing that native CGN also induced activation of NF-kappaB in human colonic epithelial cells [48].
+
+NF-kappaB pathway is often associated to promote cell survival and cancer cell growth, however it has been sometimes reported to behave as a tumor suppressor, arresting cell proliferation [49].
+
+Such relationship between NF-kB activation and cell cycle regulation has been reported in normal human epidermal cells [50].
+
+Indeed, it has been shown that NF-kappaB activation suppressed cdk4 expression, which is necessary for the transition to S phase.
+# T75 Protein S52 63 67 7360 7364 cdk4
+$ T75 Protein S52 63 67 7360 7364 cdk4
+@ T87 Negative_regulation S52 52 62 7349 7359 suppressed
+@ T88 Gene_expression S52 68 78 7365 7375 expression
+% E48 Negative_regulation:T87 Theme:E49
+% E49 Gene_expression:T88 Theme:T75
+
+Finally, NF-kappaB activation was reported to induce growth arrest in normal human keratinocytes by a mechanims involving the cdk inhibitor p21 [51].
+# T76 Protein S53 140 143 7567 7570 p21
+
+The effects of dCGN on p21 and cdk4 expression remain to be studied.
+# T77 Protein S54 23 26 7600 7603 p21
+# T78 Protein S54 31 35 7608 7612 cdk4
+$ T77 Protein S54 23 26 7600 7603 p21
+$ T78 Protein S54 31 35 7608 7612 cdk4
+@ T89 Regulation S54 4 11 7581 7588 effects
+@ T90 Gene_expression S54 36 46 7613 7623 expression
+% E50 Regulation:T89 Theme:E51
+% E52 Regulation:T89 Theme:E53
+% E51 Gene_expression:T90 Theme:T77
+% E53 Gene_expression:T90 Theme:T78
+
+In these studies, we have demonstrated a direct action of dCGN on monocytes.
+
+Monocytes exposed to dCGN acquired an inflammatory phenotype that included higher expression of the adhesion molecule ICAM-1 and TNF-alpha production, via the NF-kappaB pathway.
+# T79 Protein S56 118 124 7841 7847 ICAM-1
+# T80 Protein S56 129 138 7852 7861 TNF-alpha
+$ T79 Protein S56 118 124 7841 7847 ICAM-1
+$ T80 Protein S56 129 138 7852 7861 TNF-alpha
+@ T91 Positive_regulation S56 75 81 7798 7804 higher
+@ T92 Gene_expression S56 82 92 7805 7815 expression
+@ T85 Anaphora S56 96 117 7819 7840 the adhesion molecule
+@ T93 Gene_expression S56 139 149 7862 7872 production
+% E54 Positive_regulation:T91 Theme:E55
+% E56 Positive_regulation:T91 Theme:E57
+% E55 Gene_expression:T92 Theme:T79
+% E57 Gene_expression:T93 Theme:T80
+
+This higher expression of ICAM-1 resulted in formation of cell aggregates similar to those observed in patients with Crohn's disease.
+# T81 Protein S57 26 32 7927 7933 ICAM-1
+$ T81 Protein S57 26 32 7927 7933 ICAM-1
+@ T94 Positive_regulation S57 5 11 7906 7912 higher
+@ T95 Gene_expression S57 12 22 7913 7923 expression
+% E58 Positive_regulation:T94 Theme:E59
+% E59 Gene_expression:T95 Theme:T81
+
+We presume that the differential effects of 10 and 40 kDa dCGN to induce these effects on monocytes are tightly linked to their capacity to induce inflammation in vivo.
+@ T96 Positive_regulation S58 66 72 8101 8107 induce
+@ T86 Anaphora S58 73 86 8108 8121 these effects
+% E60 Positive_regulation:T96 Theme:E58
+
+However, in vivo, macrophages do not come in direct contact with the intestinal lumen and are separated by the epithelial barrier.
+
+The way by which dCGN may leave the intestinal lumen and cross the epithelial barrier to reach the macrophages is an intriguing open question.
+
+One possible explanation resides in the potential of dCGN to "induce" cellular and paracellular injurious effects at the intestinal epithelial cell monolayer [48].
+
+In conclusion, dCGN inhibited THP-1 cell proliferation in vitro, accumulating the cells in the G1 phase of the cell cycle, increased ICAM-1 expression, stimulated ICAM-1-dependent monocyte aggregation in vitro, and stimulated TNF-alpha expression and secretion.
+# T82 Protein S62 133 139 8775 8781 ICAM-1
+# T83 Protein S62 163 169 8805 8811 ICAM-1
+# T84 Protein S62 226 235 8868 8877 TNF-alpha
+$ T82 Protein S62 133 139 8775 8781 ICAM-1
+$ T84 Protein S62 226 235 8868 8877 TNF-alpha
+@ T97 Positive_regulation S62 123 132 8765 8774 increased
+@ T98 Gene_expression S62 140 150 8782 8792 expression
+@ T99 Positive_regulation S62 215 225 8857 8867 stimulated
+@ T100 Gene_expression S62 236 246 8878 8888 expression
+@ T101 Localization S62 251 260 8893 8902 secretion
+% E61 Positive_regulation:T97 Theme:E62
+% E62 Gene_expression:T98 Theme:T82
+% E63 Positive_regulation:T99 Theme:E64
+% E65 Positive_regulation:T99 Theme:E66
+% E64 Gene_expression:T100 Theme:T84
+% E66 Localization:T101 Theme:T84
+
+These responses were more pronounced following 40 kDa dCGN, and were all linked to NF-kappaB activation.
+
+These results suggest that, although CGN is widely used as a food additive, its degraded forms have an important effect on monocytes characteristic of an inflammatory phenotype.
+

@@ -1,0 +1,40 @@
+Renal cell carcinoma-derived gangliosides suppress nuclear factor-kappaB activation in T cells.
+
+Activation of the transcription factor nuclear factor-kappaB (NFkappaB) is impaired in T cells from patients with renal cell carcinomas (RCCs).
+
+In circulating T cells from a subset of patients with RCCs, the suppression of NFkappaB binding activity is downstream from the stimulus-induced degradation of the cytoplasmic factor IkappaBalpha.
+# T1 Protein S3 183 195 424 436 IkappaBalpha
+$ T1 Protein S3 183 195 424 436 IkappaBalpha
+@ T5 Positive_regulation S3 137 144 378 385 induced
+@ T6 Protein_catabolism S3 145 156 386 397 degradation
+% E1 Positive_regulation:T5 Theme:E2
+% E2 Protein_catabolism:T6 Theme:T1
+
+Tumor-derived soluble products from cultured RCC explants inhibit NFkappaB activity in T cells from healthy volunteers, despite a normal level of stimulus-induced IkappaBalpha degradation in these cells.
+# T2 Protein S4 163 175 601 613 IkappaBalpha
+$ T2 Protein S4 163 175 601 613 IkappaBalpha
+@ T7 Negative_regulation S4 130 142 568 580 normal level
+@ T8 Positive_regulation S4 155 162 593 600 induced
+@ T9 Protein_catabolism S4 176 187 614 625 degradation
+% E3 Negative_regulation:T7 Theme:E5
+% E4 Positive_regulation:T8 Theme:E5
+% E5 Protein_catabolism:T9 Theme:T2
+
+The inhibitory agent has several features characteristic of a ganglioside, including sensitivity to neuraminidase but not protease treatment; hydrophobicity; and molecular weight less than 3 kDa.
+
+Indeed, we detected gangliosides in supernatants from RCC explants and not from adjacent normal kidney tissue.
+
+Gangliosides prepared from RCC supernatants, as well as the purified bovine gangliosides G(m1) and G(d1a), suppressed NFkappaB binding activity in T cells and reduced expression of the cytokines IL-2 and IFN-gamma.
+# T3 Protein S7 195 199 1144 1148 IL-2
+# T4 Protein S7 204 213 1153 1162 IFN-gamma
+$ T4 Protein S7 204 213 1153 1162 IFN-gamma
+$ T3 Protein S7 195 199 1144 1148 IL-2
+@ T10 Negative_regulation S7 159 166 1108 1115 reduced
+@ T11 Gene_expression S7 167 177 1116 1126 expression
+% E6 Negative_regulation:T10 Theme:E8
+% E7 Negative_regulation:T10 Theme:E9
+% E8 Gene_expression:T11 Theme:T4
+% E9 Gene_expression:T11 Theme:T3
+
+Taken together, our findings suggest that tumor-derived gangliosides may blunt antitumor immune responses in patients with RCCs.
+

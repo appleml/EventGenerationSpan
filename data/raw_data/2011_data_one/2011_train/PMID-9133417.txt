@@ -1,0 +1,81 @@
+Jak3 is associated with CD40 and is critical for CD40 induction of gene expression in B cells.
+# T1 Protein S1 0 4 0 4 Jak3
+# T2 Protein S1 24 28 24 28 CD40
+# T3 Protein S1 49 53 49 53 CD40
+$ T1 Protein S1 0 4 0 4 Jak3
+$ T2 Protein S1 24 28 24 28 CD40
+@ T20 Binding S1 8 18 8 18 associated
+% E1 Binding:T20 Theme:T1 Theme2:T2
+
+CD40 is a receptor that is critical for the survival, growth, differentiation, and isotype switching of B lymphocytes.
+# T4 Protein S2 0 4 96 100 CD40
+
+Although CD40 lacks intrinsic tyrosine kinase activity, its ligation induces protein tyrosine phosphorylation, which is necessary for several CD40-mediated events.
+# T5 Protein S3 9 13 224 228 CD40
+# T6 Protein S3 142 146 357 361 CD40
+$ T5 Protein S3 9 13 224 228 CD40
+@ T21 Binding S3 60 68 275 283 ligation
+% E2 Binding:T21 Theme:T5
+
+We show that engagement of CD40 induces tyrosine phosphorylation and activation of Jak3 as well as of STAT3.
+# T7 Protein S4 27 31 406 410 CD40
+# T8 Protein S4 83 87 462 466 Jak3
+# T9 Protein S4 102 107 481 486 STAT3
+$ T7 Protein S4 27 31 406 410 CD40
+$ T8 Protein S4 83 87 462 466 Jak3
+$ T9 Protein S4 102 107 481 486 STAT3
+@ T22 Positive_regulation S4 32 39 411 418 induces
+@ T23 Entity S4 40 48 419 427 tyrosine
+@ T24 Phosphorylation S4 49 64 428 443 phosphorylation
+@ T25 Positive_regulation S4 69 79 448 458 activation
+% E3 Positive_regulation:T22 Theme:E7 Cause:T7
+% E4 Positive_regulation:T22 Theme:E10 Cause:T7
+% E5 Positive_regulation:T22 Theme:E8 Cause:T7
+% E6 Positive_regulation:T22 Theme:E9 Cause:T7
+% E7 Phosphorylation:T24 Theme:T8 Site:T23
+% E8 Phosphorylation:T24 Theme:T9 Site:T23
+% E9 Positive_regulation:T25 Theme:T8 Cause:E7
+% E10 Positive_regulation:T25 Theme:T9 Cause:E8
+
+Jak3 is constitutively associated with CD40, and this interaction requires a proline-rich sequence in the membrane-proximal region of CD40.
+# T10 Protein S5 0 4 488 492 Jak3
+# T11 Protein S5 39 43 527 531 CD40
+# T12 Protein S5 134 138 622 626 CD40
+$ T10 Protein S5 0 4 488 492 Jak3
+$ T11 Protein S5 39 43 527 531 CD40
+$ T12 Protein S5 134 138 622 626 CD40
+@ T26 Binding S5 23 33 511 521 associated
+@ T27 Positive_regulation S5 66 74 554 562 requires
+@ T28 Entity S5 77 98 565 586 proline-rich sequence
+% E11 Binding:T26 Theme:T10 Theme2:T11
+% E12 Positive_regulation:T27 Theme:E11 Cause:T12 CSite:T28
+
+Deletion of this sequence abolishes the capacity of CD40 to induce expression of CD23, ICAM-1, and lymphotoxin-alpha genes in B cells.
+# T13 Protein S6 52 56 680 684 CD40
+# T14 Protein S6 81 85 709 713 CD23
+# T15 Protein S6 87 93 715 721 ICAM-1
+# T16 Protein S6 99 116 727 744 lymphotoxin-alpha
+$ T13 Protein S6 52 56 680 684 CD40
+$ T16 Protein S6 99 116 727 744 lymphotoxin-alpha
+$ T15 Protein S6 87 93 715 721 ICAM-1
+$ T14 Protein S6 81 85 709 713 CD23
+@ T29 Negative_regulation S6 26 35 654 663 abolishes
+@ T30 Positive_regulation S6 60 66 688 694 induce
+@ T31 Gene_expression S6 67 77 695 705 expression
+% E13 Negative_regulation:T29 Theme:E16
+% E14 Negative_regulation:T29 Theme:E17
+% E15 Negative_regulation:T29 Theme:E18
+% E16 Positive_regulation:T30 Theme:E20 Cause:T13
+% E17 Positive_regulation:T30 Theme:E19 Cause:T13
+% E18 Positive_regulation:T30 Theme:E21 Cause:T13
+% E19 Gene_expression:T31 Theme:T16
+% E20 Gene_expression:T31 Theme:T15
+% E21 Gene_expression:T31 Theme:T14
+
+These results indicate that signaling through Jak3 is activated by CD40 and plays an important role in CD40-mediated functions.
+# T17 Protein S7 46 50 809 813 Jak3
+# T18 Protein S7 67 71 830 834 CD40
+# T19 Protein S7 103 107 866 870 CD40
+@ T32 Regulation S7 95 99 858 862 role
+% E22 Regulation:T32 Theme:E20
+

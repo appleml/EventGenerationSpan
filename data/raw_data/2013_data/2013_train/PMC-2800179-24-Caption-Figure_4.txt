@@ -1,0 +1,33 @@
+Degraded CGN stimulated ICAM-1 expression in monocytes.
+# T1 Protein S1 24 30 24 30 ICAM-1
+$ T1 Protein S1 24 30 24 30 ICAM-1
+@ T7 Positive_regulation S1 13 23 13 23 stimulated
+@ T8 Gene_expression S1 31 41 31 41 expression
+% E1 Positive_regulation:T7 Theme:E2
+% E2 Gene_expression:T8 Theme:T1
+
+Peripheral blood monocytes (PBM) or THP-1 cells were incubated in the presence or absence of carrageenan for 24 h before being stained for various cell surface antigens.
+
+Antigen expression was then analyzed by flow cytometry.
+
+A: Histograms of ICAM-1 expression in cells treated with medium only (control), 10 kDa dCGN (C10), or 40 kDa dCGN (C40).
+# T2 Protein S4 17 23 299 305 ICAM-1
+$ T2 Protein S4 17 23 299 305 ICAM-1
+@ T9 Gene_expression S4 24 34 306 316 expression
+% E3 Gene_expression:T9 Theme:T2
+
+B: Fluorescence intensity for expression of the antigens HLA-ABC, HLA-DR, CD14, ICAM-1, and CD58 in cells treated with medium only (control), 10 kDa dCGN (C10), or 40 kDa dCGN (C40).
+# T3 Protein S5 74 78 477 481 CD14
+# T4 Protein S5 80 86 483 489 ICAM-1
+# T5 Protein S5 92 96 495 499 CD58
+$ T3 Protein S5 74 78 477 481 CD14
+$ T4 Protein S5 80 86 483 489 ICAM-1
+$ T5 Protein S5 92 96 495 499 CD58
+@ T10 Gene_expression S5 30 40 433 443 expression
+@ T6 Anaphora S5 44 56 447 459 the antigens
+% E4 Gene_expression:T10 Theme:T3
+% E5 Gene_expression:T10 Theme:T4
+% E6 Gene_expression:T10 Theme:T5
+
+Data are mean +/- SEM.
+

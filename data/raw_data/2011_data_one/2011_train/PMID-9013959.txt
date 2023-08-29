@@ -1,0 +1,59 @@
+Differential interaction of nuclear factors with the PRE-I enhancer element of the human IL-4 promoter in different T cell subsets.
+# T1 Protein S1 89 93 89 93 IL-4
+
+The immunomodulatory cytokine IL-4 affects cells of most hemopoietic lineages.
+# T2 Protein S2 30 34 163 167 IL-4
+
+IL-4 is secreted by activated Th2 but not Th1 cells and plays a major role in the immune response by modulating the differentiation of naive Th cells toward the Th2 phenotype.
+# T3 Protein S3 0 4 212 216 IL-4
+$ T3 Protein S3 0 4 212 216 IL-4
+@ T17 Localization S3 8 16 220 228 secreted
+% E1 Localization:T17 Theme:T3
+
+We have previously identified an enhancer element, PRE-I, that is essential for the function of the human IL-4 promoter.
+# T4 Protein S4 106 110 494 498 IL-4
+
+To investigate the mechanisms responsible for tissue-specific expression of the IL-4 gene, we analyzed nuclear factors binding to the PRE-I site and compared the binding activities of these factors to the IL-4 promoter of Th1 and Th2 cells.
+# T5 Protein S5 80 84 589 593 IL-4
+# T6 Protein S5 205 209 714 718 IL-4
+$ T5 Protein S5 80 84 589 593 IL-4
+$ T6 Protein S5 205 209 714 718 IL-4
+@ T18 Regulation S5 30 41 539 550 responsible
+@ T19 Gene_expression S5 62 72 571 581 expression
+@ T20 Binding S5 162 169 671 678 binding
+% E2 Regulation:T18 Theme:E3
+% E3 Gene_expression:T19 Theme:T5
+% E4 Binding:T20 Theme:T6
+
+We show that PRE-I interacts with PMA- and PMA/ionomycin-inducible, cyclosporin A-sensitive nuclear factors.
+
+Using anti-C/EBPbeta (NF-IL6), anti-C/EBPdelta (NF-IL6beta), anti-NF-ATc, anti-NF-ATp, anti-Fos, and anti-Jun Abs we demonstrate that the previously identified PRE-I binding factor POS-1 is composed of different transcription factors in different Th cell subsets.
+# T7 Protein S7 11 20 870 879 C/EBPbeta
+# T8 Protein S7 22 28 881 887 NF-IL6
+# T9 Protein S7 36 46 895 905 C/EBPdelta
+# T10 Protein S7 48 58 907 917 NF-IL6beta
+# T11 Protein S7 66 72 925 931 NF-ATc
+# T12 Protein S7 79 85 938 944 NF-ATp
+
+In the IL-4-producing Th0-like human Jurkat and mouse EL-4 cells, POS-1 (designated POS-1a) contains NF-IL6beta and Jun.
+# T13 Protein S8 7 11 1130 1134 IL-4
+# T14 Protein S8 101 111 1224 1234 NF-IL6beta
+$ T13 Protein S8 7 11 1130 1134 IL-4
+@ T21 Gene_expression S8 12 21 1135 1144 producing
+% E5 Gene_expression:T21 Theme:T13
+
+In the mouse Th2 D10 cells and in the human Th2 clones, POS-1 (designated POS-1b) contains NF-IL6beta, Jun, and NF-ATc/p.
+# T15 Protein S9 91 101 1335 1345 NF-IL6beta
+
+In contrast, POS-1 was not found in nuclear extracts of human Th1 clones.
+
+These findings suggest that PRE-I may play a role in the differential regulation of IL-4 gene expression levels.
+# T16 Protein S11 84 88 1524 1528 IL-4
+$ T16 Protein S11 84 88 1524 1528 IL-4
+@ T22 Regulation S11 45 49 1485 1489 role
+@ T23 Regulation S11 70 80 1510 1520 regulation
+@ T24 Gene_expression S11 94 104 1534 1544 expression
+% E6 Regulation:T22 Theme:E7
+% E7 Regulation:T23 Theme:E8
+% E8 Gene_expression:T24 Theme:T16
+

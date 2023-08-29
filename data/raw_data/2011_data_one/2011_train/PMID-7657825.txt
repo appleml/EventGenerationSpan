@@ -1,0 +1,53 @@
+Constitutive activation of different Jak tyrosine kinases in human T cell leukemia virus type 1 (HTLV-1) tax protein or virus-transformed cells.
+# T1 Protein S1 105 108 105 108 tax
+
+HTLV-1 infection causes an adult T cell leukemia in humans.
+
+The viral encoded protein tax, is thought to play an important role in oncogenesis.
+# T2 Protein S3 26 29 232 235 tax
+
+Our previous data obtained from a tax transgenic mouse model revealed that tax transforms mouse fibroblasts but not thymocytes, despite comparable levels of tax expression in both tissues.
+# T3 Protein S4 34 37 324 327 tax
+# T4 Protein S4 75 78 365 368 tax
+# T5 Protein S4 157 160 447 450 tax
+$ T5 Protein S4 157 160 447 450 tax
+@ T14 Gene_expression S4 161 171 451 461 expression
+% E1 Gene_expression:T14 Theme:T5
+
+Constitutive tyrosine phosphorylation of a 130-kD protein(s) was observed in the tax transformed fibroblast B line and in HTLV-1 transformed human lymphoid lines, but not in thymocytes from Thy-tax transgenic mice.
+# T6 Protein S5 81 84 560 563 tax
+
+Phosphotyrosine immunoprecipitation followed by Western blot analysis with a set of Jak kinase specific antibodies, identified p130 as Jak2 in the tax transformed mouse fibroblastic cell line and Jak3 in HTLV-1 transformed human T cell lines.
+# T7 Protein S6 135 139 829 833 Jak2
+# T8 Protein S6 147 150 841 844 tax
+# T9 Protein S6 196 200 890 894 Jak3
+
+Phosphorylation of Jak2 in tax transformed cells resulted from high expression of IL-6.
+# T10 Protein S7 19 23 956 960 Jak2
+# T11 Protein S7 27 30 964 967 tax
+# T12 Protein S7 82 86 1019 1023 IL-6
+$ T10 Protein S7 19 23 956 960 Jak2
+$ T12 Protein S7 82 86 1019 1023 IL-6
+@ T15 Phosphorylation S7 0 15 937 952 Phosphorylation
+@ T16 Positive_regulation S7 49 57 986 994 resulted
+@ T17 Positive_regulation S7 63 67 1000 1004 high
+@ T18 Gene_expression S7 68 78 1005 1015 expression
+% E2 Phosphorylation:T15 Theme:T10
+% E3 Positive_regulation:T16 Theme:E2 Cause:E4
+% E4 Positive_regulation:T17 Theme:E5
+% E5 Gene_expression:T18 Theme:T12
+
+Tyrosine phosphorylation of this protein could also be induced in Balb/c3T3 cells using a supernatant from the B line, which was associated with induction of cell proliferation.
+@ T19 Entity S8 0 8 1025 1033 Tyrosine
+@ T20 Phosphorylation S8 9 24 1034 1049 phosphorylation
+@ T21 Positive_regulation S8 55 62 1080 1087 induced
+% E6 Phosphorylation:T20 Theme:T10 Site:T19
+% E7 Positive_regulation:T21 Theme:E6
+
+Both phosphorylation and proliferation were inhibited by IL-6 neutralizing antibodies.
+# T13 Protein S9 57 61 1260 1264 IL-6
+@ T22 Negative_regulation S9 44 53 1247 1256 inhibited
+% E8 Negative_regulation:T22 Theme:E6
+
+Constitutive phosphorylation of Jak kinases may facilitate tumor growth in both HTLV-1 infected human T cells and the transgenic mouse model.
+

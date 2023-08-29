@@ -1,0 +1,128 @@
+Transcription factors RUNX1 and RUNX3 in the induction and suppressive function of Foxp3+ inducible regulatory T cells
+# T1 Protein S1 22 27 22 27 RUNX1
+# T2 Protein S1 32 37 32 37 RUNX3
+# T3 Protein S1 83 88 83 88 Foxp3
+
+Forkhead box P3 (FOXP3)+CD4+CD25+ inducible regulatory T (iT reg) cells play an important role in immune tolerance and homeostasis.
+# T4 Protein S2 0 15 120 135 Forkhead box P3
+# T5 Protein S2 17 22 137 142 FOXP3
+# T6 Protein S2 24 27 144 147 CD4
+# T7 Protein S2 28 32 148 152 CD25
+
+In this study, we show that the transforming growth factor-beta (TGF-beta) induces the expression of the Runt-related transcription factors RUNX1 and RUNX3 in CD4+ T cells.
+# T8 Protein S3 32 63 284 315 transforming growth factor-beta
+# T9 Protein S3 65 73 317 325 TGF-beta
+# T10 Protein S3 140 145 392 397 RUNX1
+# T11 Protein S3 150 155 402 407 RUNX3
+# T12 Protein S3 159 162 411 414 CD4
+$ T9 Protein S3 65 73 317 325 TGF-beta
+$ T10 Protein S3 140 145 392 397 RUNX1
+$ T11 Protein S3 150 155 402 407 RUNX3
+@ T46 Positive_regulation S3 75 82 327 334 induces
+@ T47 Gene_expression S3 87 97 339 349 expression
+% E1 Positive_regulation:T46 Theme:E2 Cause:T9
+% E3 Positive_regulation:T46 Theme:E4 Cause:T9
+% E2 Gene_expression:T47 Theme:T10
+% E4 Gene_expression:T47 Theme:T11
+
+This induction seems to be a prerequisite for the binding of RUNX1 and RUNX3 to three putative RUNX binding sites in the FOXP3 promoter.
+# T13 Protein S4 61 66 486 491 RUNX1
+# T14 Protein S4 71 76 496 501 RUNX3
+# T15 Protein S4 121 126 546 551 FOXP3
+$ T13 Protein S4 61 66 486 491 RUNX1
+$ T15 Protein S4 121 126 546 551 FOXP3
+$ T14 Protein S4 71 76 496 501 RUNX3
+@ T48 Positive_regulation S4 29 41 454 466 prerequisite
+@ T49 Binding S4 50 57 475 482 binding
+@ T50 Entity S4 95 113 520 538 RUNX binding sites
+% E5 Positive_regulation:T48 Theme:E6
+% E7 Positive_regulation:T48 Theme:E8
+% E6 Binding:T49 Theme:T13 Theme2:T15 Site2:T50
+% E8 Binding:T49 Theme:T14 Theme2:T15 Site2:T50
+
+Inactivation of the gene encoding RUNX cofactor core-binding factor-beta (CBFbeta) in mice and small interfering RNA (siRNA)-mediated suppression of RUNX1 and RUNX3 in human T cells resulted in reduced expression of Foxp3.
+# T16 Protein S5 34 38 596 600 RUNX
+# T17 Protein S5 48 72 610 634 core-binding factor-beta
+# T18 Protein S5 74 81 636 643 CBFbeta
+# T19 Protein S5 149 154 711 716 RUNX1
+# T20 Protein S5 159 164 721 726 RUNX3
+# T21 Protein S5 216 221 778 783 Foxp3
+$ T17 Protein S5 48 72 610 634 core-binding factor-beta
+$ T20 Protein S5 159 164 721 726 RUNX3
+$ T21 Protein S5 216 221 778 783 Foxp3
+@ T51 Negative_regulation S5 0 12 562 574 Inactivation
+@ T52 Positive_regulation S5 125 133 687 695 mediated
+@ T53 Negative_regulation S5 134 145 696 707 suppression
+@ T54 Negative_regulation S5 194 201 756 763 reduced
+@ T55 Gene_expression S5 202 212 764 774 expression
+% E9 Negative_regulation:T51 Theme:T17
+% E10 Positive_regulation:T52 Theme:E11
+% E12 Positive_regulation:T52 Theme:E13
+% E11 Negative_regulation:T53 Theme:T17
+% E13 Negative_regulation:T53 Theme:T20
+% E14 Negative_regulation:T54 Theme:E15 Cause:E9
+% E16 Negative_regulation:T54 Theme:E15 Cause:E11
+% E17 Negative_regulation:T54 Theme:E15 Cause:E13
+% E15 Gene_expression:T55 Theme:T21
+
+The in vivo conversion of naive CD4+ T cells into Foxp3+ iT reg cells was significantly decreased in adoptively transferred CbfbF/F CD4-cre naive T cells into Rag2-/- mice.
+# T22 Protein S6 32 35 817 820 CD4
+# T23 Protein S6 50 55 835 840 Foxp3
+# T24 Protein S6 124 128 909 913 Cbfb
+# T25 Protein S6 132 135 917 920 CD4
+# T26 Protein S6 136 139 921 924 cre
+# T27 Protein S6 159 163 944 948 Rag2
+
+Both RUNX1 and RUNX3 siRNA silenced human T reg cells and CbfbF/F CD4-cre mouse T reg cells showed diminished suppressive function in vitro.
+# T28 Protein S7 5 10 963 968 RUNX1
+# T29 Protein S7 15 20 973 978 RUNX3
+# T30 Protein S7 58 62 1016 1020 Cbfb
+# T31 Protein S7 66 69 1024 1027 CD4
+# T32 Protein S7 70 73 1028 1031 cre
+$ T28 Protein S7 5 10 963 968 RUNX1
+$ T29 Protein S7 15 20 973 978 RUNX3
+@ T56 Negative_regulation S7 21 26 979 984 siRNA
+% E18 Negative_regulation:T56 Theme:T28
+% E19 Negative_regulation:T56 Theme:T29
+
+Circulating human CD4+ CD25high CD127- T reg cells significantly expressed higher levels of RUNX3, FOXP3, and TGF-beta mRNA compared with CD4+CD25- cells.
+# T33 Protein S8 18 21 1117 1120 CD4
+# T34 Protein S8 23 27 1122 1126 CD25
+# T35 Protein S8 32 37 1131 1136 CD127
+# T36 Protein S8 92 97 1191 1196 RUNX3
+# T37 Protein S8 99 104 1198 1203 FOXP3
+# T38 Protein S8 110 118 1209 1217 TGF-beta
+# T39 Protein S8 138 141 1237 1240 CD4
+# T40 Protein S8 142 146 1241 1245 CD25
+$ T36 Protein S8 92 97 1191 1196 RUNX3
+$ T37 Protein S8 99 104 1198 1203 FOXP3
+$ T38 Protein S8 110 118 1209 1217 TGF-beta
+@ T57 Transcription S8 65 74 1164 1173 expressed
+% E20 Transcription:T57 Theme:T36
+% E21 Transcription:T57 Theme:T37
+% E22 Transcription:T57 Theme:T38
+
+Furthermore, FOXP3 and RUNX3 were colocalized in human tonsil T reg cells.
+# T41 Protein S9 13 18 1267 1272 FOXP3
+# T42 Protein S9 23 28 1277 1282 RUNX3
+$ T41 Protein S9 13 18 1267 1272 FOXP3
+$ T42 Protein S9 23 28 1277 1282 RUNX3
+@ T58 Localization S9 34 45 1288 1299 colocalized
+@ T59 Entity S9 62 73 1316 1327 T reg cells
+% E23 Localization:T58 Theme:T41 ToLoc:T59
+% E24 Localization:T58 Theme:T42 ToLoc:T59
+
+These data demonstrate Runx transcription factors as a molecular link in TGF-beta-induced Foxp3 expression in iT reg cell differentiation and function.
+# T43 Protein S10 23 27 1352 1356 Runx
+# T44 Protein S10 73 81 1402 1410 TGF-beta
+# T45 Protein S10 90 95 1419 1424 Foxp3
+$ T43 Protein S10 23 27 1352 1356 Runx
+$ T44 Protein S10 73 81 1402 1410 TGF-beta
+$ T45 Protein S10 90 95 1419 1424 Foxp3
+@ T60 Regulation S10 65 69 1394 1398 link
+@ T61 Positive_regulation S10 82 89 1411 1418 induced
+@ T62 Gene_expression S10 96 106 1425 1435 expression
+% E25 Regulation:T60 Theme:E26 Cause:T43
+% E26 Positive_regulation:T61 Theme:E27 Cause:T44
+% E27 Gene_expression:T62 Theme:T45
+

@@ -1,0 +1,71 @@
+Human immunodeficiency virus type 1 Tat upregulates interleukin-2 secretion in activated T cells.
+# T1 Protein S1 36 39 36 39 Tat
+# T2 Protein S1 52 65 52 65 interleukin-2
+$ T1 Protein S1 36 39 36 39 Tat
+$ T2 Protein S1 52 65 52 65 interleukin-2
+@ T23 Positive_regulation S1 40 51 40 51 upregulates
+@ T24 Localization S1 66 75 66 75 secretion
+% E1 Positive_regulation:T23 Theme:E2 Cause:T1
+% E2 Localization:T24 Theme:T2
+
+Dysregulation of cytokines secreted by T cells may play an important role in the pathogenesis of AIDS.
+
+To investigate the effects of human immunodeficiency virus type 1 (HIV-1) Tat on interleukin-2 (IL-2) expression, we used IL-2 promoter-chloramphenicol acetyltransferase constructs and IL-2-secreting Jurkat T cells as a model system.
+# T3 Protein S3 74 77 276 279 Tat
+# T4 Protein S3 81 94 283 296 interleukin-2
+# T5 Protein S3 96 100 298 302 IL-2
+# T6 Protein S3 122 126 324 328 IL-2
+# T7 Protein S3 136 169 338 371 chloramphenicol acetyltransferase
+# T8 Protein S3 185 189 387 391 IL-2
+$ T3 Protein S3 74 77 276 279 Tat
+$ T5 Protein S3 96 100 298 302 IL-2
+$ T8 Protein S3 185 189 387 391 IL-2
+@ T25 Regulation S3 19 26 221 228 effects
+@ T26 Gene_expression S3 102 112 304 314 expression
+@ T27 Localization S3 190 199 392 401 secreting
+% E3 Regulation:T25 Theme:E4 Cause:T3
+% E4 Gene_expression:T26 Theme:T5
+% E5 Localization:T27 Theme:T8
+
+Transient expression of HIV-1 Tat induced a five- to eightfold increase in IL-2 promoter activity in Jurkat T cells stimulated with phytohemagglutinin and phorbol myristate acetate.
+# T9 Protein S4 30 33 466 469 Tat
+# T10 Protein S4 75 79 511 515 IL-2
+# T11 Protein S4 132 150 568 586 phytohemagglutinin
+$ T9 Protein S4 30 33 466 469 Tat
+@ T28 Gene_expression S4 10 20 446 456 expression
+% E6 Gene_expression:T28 Theme:T9
+
+IL-2 secretion was increased more than twofold in both Jurkat T cells and primary T cells stimulated by extracellular HIV-1 Tat protein.
+# T12 Protein S5 0 4 618 622 IL-2
+# T13 Protein S5 124 127 742 745 Tat
+$ T12 Protein S5 0 4 618 622 IL-2
+@ T29 Localization S5 5 14 623 632 secretion
+@ T30 Positive_regulation S5 19 28 637 646 increased
+% E7 Localization:T29 Theme:T12
+% E8 Positive_regulation:T30 Theme:E7
+
+Analysis of mRNA suggested that Tat exerts its effect on IL-2 primarily at the transcriptional level.
+# T14 Protein S6 32 35 787 790 Tat
+# T15 Protein S6 57 61 812 816 IL-2
+$ T14 Protein S6 32 35 787 790 Tat
+$ T15 Protein S6 57 61 812 816 IL-2
+@ T31 Regulation S6 47 53 802 808 effect
+@ T32 Transcription S6 79 94 834 849 transcriptional
+% E9 Regulation:T31 Theme:E10 Cause:T14
+% E10 Transcription:T32 Theme:T15
+
+The NF-kappa B site at positions -206 to -195 of the IL-2 promoter was required but not sufficient for the Tat effect.
+# T16 Protein S7 53 57 910 914 IL-2
+# T17 Protein S7 107 110 964 967 Tat
+
+The Tat-mediated increase in IL-2 promoter activity could selectively be blocked by antisense tat or-unlike the analogous effect of human T-cell lymphotropic virus type 1 Tax-by cyclosporin A.
+# T18 Protein S8 4 7 980 983 Tat
+# T19 Protein S8 29 33 1005 1009 IL-2
+# T20 Protein S8 94 97 1070 1073 tat
+# T21 Protein S8 171 174 1147 1150 Tax
+
+The observed increase in IL-2 levels might facilitate virus spread from or to T cells.
+# T22 Protein S9 25 29 1194 1198 IL-2
+
+Furthermore, it might contribute to the hypergammaglobulinemia or, together with other cytokines found to be dysregulated, the T-helper cell dysfunctions observed in AIDS patients.
+

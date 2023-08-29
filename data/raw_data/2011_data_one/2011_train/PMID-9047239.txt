@@ -1,0 +1,39 @@
+A T cell-specific enhancer in the interleukin-3 locus is activated cooperatively by Oct and NFAT elements within a DNase I-hypersensitive site.
+# T1 Protein S1 34 47 34 47 interleukin-3
+$ T1 Protein S1 34 47 34 47 interleukin-3
+@ T7 Positive_regulation S1 57 80 57 80 activated cooperatively
+% E1 Positive_regulation:T7 Theme:T1
+
+Interleukin-3 (IL-3) is a cytokine that is expressed primarily in activated T cells.
+# T2 Protein S2 0 13 145 158 Interleukin-3
+# T3 Protein S2 15 19 160 164 IL-3
+$ T3 Protein S2 15 19 160 164 IL-3
+@ T8 Gene_expression S2 43 52 188 197 expressed
+% E2 Gene_expression:T8 Theme:T3
+
+Here we identified an inducible T cell-specific enhancer 14 kb upstream of the IL-3 gene that responded to activation of T cell receptor signaling pathways.
+# T4 Protein S3 79 83 309 313 IL-3
+$ T4 Protein S3 79 83 309 313 IL-3
+@ T9 Positive_regulation S3 22 31 252 261 inducible
+% E3 Positive_regulation:T9 Theme:T4
+
+The IL-3 enhancer spanned an inducible cyclosporin A-sensitive DNase I-hypersensitive site found only in T cells.
+# T5 Protein S4 4 8 391 395 IL-3
+@ T10 Entity S4 9 17 396 404 enhancer
+
+Four NFAT-like elements exist within the enhancer.
+
+The two most active NFAT-like elements were located at the center of the DNase I-hypersensitive site.
+
+One of these NFAT-like elements encompassed overlapping Oct- and NFATp/c-binding sites, which functioned in a highly synergistic manner.
+
+We suggest that the T cell-specific expression of the IL-3 gene is partly controlled through the enhancer by cooperation between Oct and NFAT family proteins.
+# T6 Protein S8 54 58 845 849 IL-3
+$ T6 Protein S8 54 58 845 849 IL-3
+@ T11 Gene_expression S8 36 46 827 837 expression
+@ T12 Regulation S8 74 84 865 875 controlled
+@ T13 Regulation S8 85 92 876 883 through
+% E4 Gene_expression:T11 Theme:T6
+% E5 Regulation:T12 Theme:E4
+% E6 Regulation:T13 Theme:E5 Cause:T5 CSite:T10
+

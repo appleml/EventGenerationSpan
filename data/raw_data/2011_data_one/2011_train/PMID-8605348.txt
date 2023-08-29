@@ -1,0 +1,108 @@
+Coexpression of the interleukin-13 and interleukin-4 genes correlates with their physical linkage in the cytokine gene cluster on human chromosome 5q23-31.
+# T1 Protein S1 20 34 20 34 interleukin-13
+# T2 Protein S1 39 52 39 52 interleukin-4
+$ T2 Protein S1 39 52 39 52 interleukin-4
+$ T1 Protein S1 20 34 20 34 interleukin-13
+@ T24 Gene_expression S1 0 12 0 12 Coexpression
+@ T25 Binding S1 90 97 90 97 linkage
+% E1 Gene_expression:T24 Theme:T2
+% E2 Gene_expression:T24 Theme:T1
+% E3 Binding:T25 Theme:T1 Theme2:T2
+
+Interleukin-13 (IL-13) and IL-4 are cytokines produced by T cells that are encoded by the q23-31 region of human chromosome 5.
+# T3 Protein S2 0 14 157 171 Interleukin-13
+# T4 Protein S2 16 21 173 178 IL-13
+# T5 Protein S2 27 31 184 188 IL-4
+$ T5 Protein S2 27 31 184 188 IL-4
+$ T4 Protein S2 16 21 173 178 IL-13
+@ T26 Gene_expression S2 46 54 203 211 produced
+% E4 Gene_expression:T26 Theme:T5
+% E5 Gene_expression:T26 Theme:T4
+
+To investigate the regulation of IL-13 gene expression by T cells, we isolated and sequenced the human IL-13 gene, analyzed its 5'-flanking region for potential transcriptional activation elements, and examined its expression in nontransformed T-lineage cell populations.
+# T6 Protein S3 33 38 317 322 IL-13
+# T7 Protein S3 103 108 387 392 IL-13
+$ T6 Protein S3 33 38 317 322 IL-13
+$ T7 Protein S3 103 108 387 392 IL-13
+@ T27 Regulation S3 19 29 303 313 regulation
+@ T28 Gene_expression S3 44 54 328 338 expression
+@ T29 Gene_expression S3 215 225 499 509 expression
+% E6 Regulation:T27 Theme:E7
+% E7 Gene_expression:T28 Theme:T6
+% E8 Gene_expression:T29 Theme:T7
+
+The human IL-13 gene was located 12.5-kb upstream of the IL-4 gene and 2-kb downstream of a CpG island.
+# T8 Protein S4 10 15 566 571 IL-13
+# T9 Protein S4 57 61 613 617 IL-4
+
+The IL-13 gene 5' flank region included a segment with sequence homology to P elements of the IL-4 promoter involved in transcriptional activation in T cells.
+# T10 Protein S5 4 9 664 669 IL-13
+# T11 Protein S5 94 98 754 758 IL-4
+$ T11 Protein S5 94 98 754 758 IL-4
+@ T30 Entity S5 76 86 736 746 P elements
+@ T31 Regulation S5 108 116 768 776 involved
+@ T32 Positive_regulation S5 120 146 780 806 transcriptional activation
+% E9 Regulation:T31 Theme:E10 Cause:T11 CSite:T30
+% E10 Positive_regulation:T32 Theme:T11
+
+Mutation of the IL-13 P element site significantly reduced IL-13 promoter activity in response to T-cell activation.
+# T12 Protein S6 16 21 835 840 IL-13
+# T13 Protein S6 59 64 878 883 IL-13
+$ T13 Protein S6 59 64 878 883 IL-13
+@ T33 Negative_regulation S6 51 58 870 877 reduced
+@ T34 Entity S6 65 73 884 892 promoter
+@ T35 Regulation S6 83 97 902 916 in response to
+% E11 Negative_regulation:T33 Theme:E12
+% E12 Regulation:T35 Theme:T13 Site:T34
+
+Oligonucleotides containing the IL-13 or IL-4 P element sites specifically bound the transcriptional activator protein, nuclear factor-activated T cells, preformed (NF-ATp), when incubated with nuclear protein extracts from activated T cells.
+# T14 Protein S7 32 37 968 973 IL-13
+# T15 Protein S7 41 45 977 981 IL-4
+# T16 Protein S7 165 171 1101 1107 NF-ATp
+$ T14 Protein S7 32 37 968 973 IL-13
+$ T16 Protein S7 165 171 1101 1107 NF-ATp
+$ T15 Protein S7 41 45 977 981 IL-4
+@ T36 Entity S7 46 61 982 997 P element sites
+@ T37 Binding S7 75 80 1011 1016 bound
+% E13 Binding:T37 Theme:T14 Theme2:T16 Site:T36
+% E14 Binding:T37 Theme:T15 Theme2:T16 Site:T36
+
+Similar to IL-4, IL-13 mRNA expression was highest in T-cell populations enriched for cells that had previously been primed in vivo or in vitro, indicating that priming increases the expression of the IL-13 and IL-4 genes in a coordinate manner.
+# T17 Protein S8 11 15 1190 1194 IL-4
+# T18 Protein S8 17 22 1196 1201 IL-13
+# T19 Protein S8 201 206 1380 1385 IL-13
+# T20 Protein S8 211 215 1390 1394 IL-4
+$ T17 Protein S8 11 15 1190 1194 IL-4
+$ T18 Protein S8 17 22 1196 1201 IL-13
+$ T19 Protein S8 201 206 1380 1385 IL-13
+$ T20 Protein S8 211 215 1390 1394 IL-4
+@ T38 Transcription S8 28 38 1207 1217 expression
+@ T39 Positive_regulation S8 169 178 1348 1357 increases
+@ T40 Gene_expression S8 183 193 1362 1372 expression
+% E15 Transcription:T38 Theme:T17
+% E16 Transcription:T38 Theme:T18
+% E17 Positive_regulation:T39 Theme:E19
+% E18 Positive_regulation:T39 Theme:E20
+% E19 Gene_expression:T40 Theme:T19
+% E20 Gene_expression:T40 Theme:T20
+
+Because the primed T cells contain higher levels of nuclear NF-ATp, capable of binding to P elements of the IL-4 and IL-13 promoters, than do freshly-isolated T cells, the NF-AT-binding P elements are attractive candidates to mediate the coordinate expression of these two cytokine genes.
+# T21 Protein S9 60 66 1485 1491 NF-ATp
+# T22 Protein S9 108 112 1533 1537 IL-4
+# T23 Protein S9 117 122 1542 1547 IL-13
+$ T21 Protein S9 60 66 1485 1491 NF-ATp
+$ T22 Protein S9 108 112 1533 1537 IL-4
+$ T23 Protein S9 117 122 1542 1547 IL-13
+@ T41 Positive_regulation S9 35 48 1460 1473 higher levels
+@ T42 Binding S9 79 86 1504 1511 binding
+@ T43 Entity S9 90 100 1515 1525 P elements
+@ T44 Positive_regulation S9 226 233 1651 1658 mediate
+@ T45 Gene_expression S9 249 259 1674 1684 expression
+% E21 Positive_regulation:T41 Theme:T21
+% E22 Binding:T42 Theme:T21 Theme2:T22 Site2:T43
+% E23 Binding:T42 Theme:T21 Theme2:T23 Site2:T43
+% E24 Positive_regulation:T44 Theme:E26
+% E25 Positive_regulation:T44 Theme:E27
+% E26 Gene_expression:T45 Theme:T23
+% E27 Gene_expression:T45 Theme:T22
+

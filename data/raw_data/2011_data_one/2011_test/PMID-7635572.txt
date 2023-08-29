@@ -1,0 +1,53 @@
+RB and a novel E2F-1 binding protein in MHC class II deficient B-cell lines and normal IFN-gamma induction of the class IL transactivator CIITA in class II non-inducible RB-defective tumor lines.
+# T1 Protein S1 0 2 0 2 RB
+# T2 Protein S1 15 20 15 20 E2F-1
+# T3 Protein S1 87 96 87 96 IFN-gamma
+# T4 Protein S1 138 143 138 143 CIITA
+# T5 Protein S1 170 172 170 172 RB
+
+The major histocompatibility (MHC) class II genes encode cell surface proteins that bind antigenic peptide for presentation to T-cells.
+
+The class II proteins are expressed constitutively on B-cells and EBV-transformed B-cells, and are inducible by IFN-gamma on a wide variety of cell types.
+# T6 Protein S3 112 121 445 454 IFN-gamma
+
+Retinoblastoma protein (RB) is a tumor suppressor and functions as a transcriptional repressor by binding and inactivating the transactivator E2F-I.
+# T7 Protein S4 0 22 488 510 Retinoblastoma protein
+# T8 Protein S4 24 26 512 514 RB
+# T9 Protein S4 142 147 630 635 E2F-I
+
+RB-defective tumor lines are non-inducible for MHC class II by IFN-gamma, or very weakly inducible, but transfection of 2 different lines with RB expression vectors re-establishes or substantially enhances class II inducibility.
+# T10 Protein S5 0 2 637 639 RB
+# T11 Protein S5 63 72 700 709 IFN-gamma
+# T12 Protein S5 143 145 780 782 RB
+
+Therefore, we examined the RB status of a series of B-cell mutants that are defective in class II expression, generated either in vitro or derived from Bare Lymphocyte Syndrome (BLS) patients.
+# T13 Protein S6 27 29 893 895 RB
+
+Nuclear matrix-bound RB was detectable in all cases, indicating that loss of RB is not responsible for decreased class II expression in these lines.
+# T14 Protein S7 21 23 1080 1082 RB
+# T15 Protein S7 77 79 1136 1138 RB
+
+A second E2F-I binding protein, most likely DP-I, was also apparently normal in both class II-positive and -negative B-cell lines.
+# T16 Protein S8 9 14 1217 1222 E2F-I
+# T17 Protein S8 44 48 1252 1256 DP-I
+
+We also examined the IFN-gamma induction of CIITA in RB-defective lines.
+# T18 Protein S9 21 30 1360 1369 IFN-gamma
+# T19 Protein S9 44 49 1383 1388 CIITA
+# T20 Protein S9 53 55 1392 1394 RB
+
+CIITA is a class II gene transactivator known to be defective in one form of BLS and to be required for the induction of MHC class II by IFN-gamma.
+# T21 Protein S10 0 5 1412 1417 CIITA
+# T22 Protein S10 137 146 1549 1558 IFN-gamma
+
+CIITA mRNA is normally inducible by IFN-gamma in class II non-inducible, RB-defective lines, and in one line, re-expression of RB has no effect on CIITA mRNA induction levels.
+# T23 Protein S11 0 5 1560 1565 CIITA
+# T24 Protein S11 36 45 1596 1605 IFN-gamma
+# T25 Protein S11 73 75 1633 1635 RB
+# T26 Protein S11 127 129 1687 1689 RB
+# T27 Protein S11 147 152 1707 1712 CIITA
+
+Thus, the block in MHC class II inducibility in RB-defective cells is not due to a block in CIITA inducibility.
+# T28 Protein S12 48 50 1784 1786 RB
+# T29 Protein S12 92 97 1828 1833 CIITA
+

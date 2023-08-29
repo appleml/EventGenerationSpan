@@ -1,0 +1,19 @@
+[Effect of the regimen of kidney-tonifying and qi-invigorating on aging changes of glucocorticoid receptor]
+# T1 Protein S1 83 106 83 106 glucocorticoid receptor
+
+The plasma cortisol concentration and the sites of glucocorticoid receptor (GCR) in the peripheral lymphocytes were measured in 32 healthy aged persons and 13 young adults.
+# T2 Protein S2 51 74 160 183 glucocorticoid receptor
+# T3 Protein S2 76 79 185 188 GCR
+
+In animal experiment, GCR of spleen lymphocytic cell was also measured in 18 aged rats and 9 young rats.
+# T4 Protein S3 22 25 304 307 GCR
+
+The results showed that GCR was significantly lower in the aged persons or rats than that in the young while the plasma cortisol level didn't change with aging.
+# T5 Protein S4 24 27 411 414 GCR
+
+So we think that GCR is more sensitive than the plasma cortisol level to reflect the aging change of the adrenal cortex function.
+# T6 Protein S5 17 20 565 568 GCR
+
+After the treatment with the regimen of Kidney-tonifying and Qi-invigorating, the GCR of the aged persons and rats was enhanced, and in this way, the function of the aged adrenal cortex was improved.
+# T7 Protein S6 82 85 760 763 GCR
+

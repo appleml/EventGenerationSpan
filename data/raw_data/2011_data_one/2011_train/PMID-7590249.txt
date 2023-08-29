@@ -1,0 +1,38 @@
+Constitutive NF-kappa B activation, enhanced granulopoiesis, and neonatal lethality in I kappa B alpha-deficient mice.
+# T1 Protein S1 87 102 87 102 I kappa B alpha
+$ T1 Protein S1 87 102 87 102 I kappa B alpha
+@ T12 Gene_expression S1 103 112 103 112 deficient
+% E1 Gene_expression:T12 Theme:T1
+
+Transcription factors belonging to the NF-kappa B family are controlled by inhibitory I kappa B proteins, mainly I kappa B alpha and I kappa B beta.
+# T2 Protein S2 113 128 233 248 I kappa B alpha
+# T3 Protein S2 133 147 253 267 I kappa B beta
+
+Apparently normal at birth, I kappa B alpha-/- mice exhibit severe runting, skin defects, and extensive granulopoiesis postnatally, typically dying by 8 days.
+# T4 Protein S3 28 43 297 312 I kappa B alpha
+
+Hematopoietic tissues from these mice display elevated levels of both nuclear NF-kappa B and mRNAs of some, but not all, genes thought to be regulated by NF-kappa B. NF-kappa B elevation results in these phenotypic abnormalities because mice lacking both I kappa B alpha and the p50 subunit of NF-kappa B show a dramatically delayed onset of abnormalities.
+# T5 Protein S4 255 270 683 698 I kappa B alpha
+# T6 Protein S4 279 282 707 710 p50
+$ T5 Protein S4 255 270 683 698 I kappa B alpha
+$ T6 Protein S4 279 282 707 710 p50
+@ T13 Negative_regulation S4 242 249 670 677 lacking
+% E2 Negative_regulation:T13 Theme:T5
+% E3 Negative_regulation:T13 Theme:T6
+
+In contrast to hematopoietic cells, I kappa B alpha-/- embryonic fibroblasts show minimal constitutive NF-kappa B, as well as normal signal-dependent NF-kappa B activation that is concomitant with I kappa B beta degradation.
+# T7 Protein S5 36 51 821 836 I kappa B alpha
+# T8 Protein S5 197 211 982 996 I kappa B beta
+$ T8 Protein S5 197 211 982 996 I kappa B beta
+@ T14 Protein_catabolism S5 212 223 997 1008 degradation
+% E4 Protein_catabolism:T14 Theme:T8
+
+Our results indicate that I kappa b beta, but not I kappa B alpha, is required for the signal-dependent activation of NF-kappa B in fibroblasts.
+# T9 Protein S6 26 40 1036 1050 I kappa b beta
+# T10 Protein S6 50 65 1060 1075 I kappa B alpha
+
+However, I kappa B alpha is required for the postinduction repression of NF-kappa B in fibroblasts.
+# T11 Protein S7 9 24 1164 1179 I kappa B alpha
+
+These results define distinct roles for the two forms of I kappa B and demonstrate the necessity for stringent control of NF-kappa B.
+

@@ -1,0 +1,32 @@
+Cells, transfection, treatments and luciferase assay
+# T1 Protein S1 36 46 36 46 luciferase
+
+HeLa, p50-/-p65-/- mouse embryonic fibroblasts (MEFs) (52) and 293T cells were cultured in Dulbecco's modified Eagle's medium; Jurkat, U937 cells and human peripheral blood mononuclear cells (PBMCs) were cultured in RPMI 1640.
+# T2 Protein S2 6 9 59 62 p50
+# T3 Protein S2 12 15 65 68 p65
+
+PBMCs were isolated as previously described (53).
+
+Media were supplemented with 10% heat-inactivated fetal calf serum and 2 mM l-glutamine (Lonza Cologne AG, Germany).
+
+HeLa, p50-/-p65-/- MEFs and 293T were transfected with DNA by using FuGENE HD (Roche Diagnostic GmbH, Mannheim, Germany), according to the manufacturer's protocol; total DNA amounts were equalized by transfection of pRc/CMV empty vector (Invitrogen, Carlsbad, CA, USA).
+# T4 Protein S5 6 9 453 456 p50
+# T5 Protein S5 12 15 459 462 p65
+
+For pulse-stimulation, HeLa cells were treated with phorbol 12-myristate 13-acetate (PMA; Sigma-Aldrich, St Louis, MO, USA) (20 ng/ml) for 5 min, or tumor necrosis factor-alpha (TNF-alpha; Sigma-Aldrich) (20 ng/ml) for 30 min, washed twice in complete culture medium and then returned to culture.
+# T6 Protein S6 149 176 866 893 tumor necrosis factor-alpha
+# T7 Protein S6 178 187 895 904 TNF-alpha
+
+For luciferase assays, pSV-beta-Gal was co-transfected with pkappaBluc to monitor the transfection efficiency.
+# T8 Protein S7 4 14 1018 1028 luciferase
+# T9 Protein S7 27 35 1041 1049 beta-Gal
+
+Forty-eight-hour post-transfection, cells were lysed in lysis buffer of Dual Light Luciferase System (Tropix, Bedford, MA, USA) and the luciferase and beta-galactosidase activities were evaluated by using Dual Light Luciferase System (Tropix) in a bioluminometer (Turner Biosystem, Sunnyvale, CA, USA).
+# T10 Protein S8 83 93 1208 1218 Luciferase
+# T11 Protein S8 136 146 1261 1271 luciferase
+# T12 Protein S8 151 169 1276 1294 beta-galactosidase
+
+The ratio of firefly luciferase activity to beta-galactosidase activity was expressed as relative light units.
+# T13 Protein S9 21 31 1449 1459 luciferase
+# T14 Protein S9 44 62 1472 1490 beta-galactosidase
+

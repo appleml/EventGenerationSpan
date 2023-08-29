@@ -1,0 +1,26 @@
+Identification of an ionomycin/cyclosporin A-responsive element within the human T cell receptor gamma enhancer.
+# T1 Protein S1 81 102 81 102 T cell receptor gamma
+
+Activation through the Ca2+/calcineurin pathway is essential to the transcription of many cytokine genes.
+
+The conserved cis-acting sequence, GGAAAA, and transcription factors binding to this sequence are involved in the response to increased intracellular Ca2+ concentrations.
+
+Here we report the identification and importance of the same sequence in a non-cytokine gene, the human T cell receptor gamma (TCRG) enhancer.
+# T2 Protein S4 104 125 495 516 T cell receptor gamma
+# T3 Protein S4 127 131 518 522 TCRG
+
+Results from site-directed mutations and electrophoretic mobility shift assays strongly suggest that this sequence mediates the ionomycin-induced activation of the TCRG enhancer.
+# T4 Protein S5 164 168 698 702 TCRG
+$ T4 Protein S5 164 168 698 702 TCRG
+@ T6 Positive_regulation S5 115 123 649 657 mediates
+@ T7 Positive_regulation S5 146 156 680 690 activation
+@ T8 Entity S5 169 177 703 711 enhancer
+% E1 Positive_regulation:T6 Theme:E2
+% E2 Positive_regulation:T7 Theme:T4 Site:T8
+
+Our studies provide an explanation for a previous observation that TCRG mRNA levels, but not mRNA levels for T cell receptor alpha and -beta, are increased by ionomycin treatment.
+# T5 Protein S6 67 71 780 784 TCRG
+$ T5 Protein S6 67 71 780 784 TCRG
+@ T9 Positive_regulation S6 146 155 859 868 increased
+% E3 Positive_regulation:T9 Theme:T5
+

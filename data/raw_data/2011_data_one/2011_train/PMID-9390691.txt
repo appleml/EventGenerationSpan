@@ -1,0 +1,51 @@
+Phosphatidylinositol 3-kinase couples the interleukin-2 receptor to the cell cycle regulator E2F.
+# T1 Protein S1 42 55 42 55 interleukin-2
+
+Cell cycle progression initiated by interleukin-2 (IL-2) in T cells is critical for lymphoproliferation and an immune response.
+# T2 Protein S2 36 49 135 148 interleukin-2
+# T3 Protein S2 51 55 150 154 IL-2
+
+Phosphatidyl inositol 3-kinase (PI3K) is activated by IL-2.
+# T4 Protein S3 54 58 281 285 IL-2
+
+However, nuclear targets for PI3K are not known.
+
+Here we identify the cell cycle regulator E2F as an IL-2 target in T lymphocytes and PI3K as the critical signaling pathway.
+# T5 Protein S5 52 56 388 392 IL-2
+
+We eliminate both Stat5 and Raf/MEK pathways from E2F regulation.
+# T6 Protein S6 18 23 479 484 Stat5
+
+Protein kinase B (PKB) is activated by IL-2 via PI3K.
+# T7 Protein S7 0 16 527 543 Protein kinase B
+# T8 Protein S7 18 21 545 548 PKB
+# T9 Protein S7 39 43 566 570 IL-2
+$ T8 Protein S7 18 21 545 548 PKB
+$ T9 Protein S7 39 43 566 570 IL-2
+@ T15 Positive_regulation S7 26 35 553 562 activated
+@ T16 Entity S7 48 52 575 579 PI3K
+% E1 Positive_regulation:T15 Theme:T8 Cause:T9 CSite:T16
+
+The expression of an active PKB is sufficient to induce E2F activity.
+# T10 Protein S8 28 31 609 612 PKB
+$ T10 Protein S8 28 31 609 612 PKB
+@ T17 Gene_expression S8 4 14 585 595 expression
+% E2 Gene_expression:T17 Theme:T10
+
+Inhibition of PI3K inhibits phosphorylation of Rb, induction of cyclin D3, and degradation of p27kip1.
+# T11 Protein S9 47 49 698 700 Rb
+# T12 Protein S9 94 101 745 752 p27kip1
+$ T11 Protein S9 47 49 698 700 Rb
+$ T12 Protein S9 94 101 745 752 p27kip1
+@ T18 Negative_regulation S9 19 27 670 678 inhibits
+@ T19 Phosphorylation S9 28 43 679 694 phosphorylation
+@ T20 Protein_catabolism S9 79 90 730 741 degradation
+% E3 Negative_regulation:T18 Theme:E5
+% E4 Negative_regulation:T18 Theme:E6
+% E5 Phosphorylation:T19 Theme:T11
+% E6 Protein_catabolism:T20 Theme:T12
+
+These results establish a crucial PI3K/PKB-mediated link between the IL-2 teceptor and the cell cycle machinery.
+# T13 Protein S10 39 42 793 796 PKB
+# T14 Protein S10 69 73 823 827 IL-2
+

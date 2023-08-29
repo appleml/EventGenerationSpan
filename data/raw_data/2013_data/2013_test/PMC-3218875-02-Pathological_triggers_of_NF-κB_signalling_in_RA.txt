@@ -1,0 +1,66 @@
+Since NF-kappaB is central to the process of inflammation in RA, much research deals with the identification of the molecular triggers that activate NF-kappaB in RA.
+
+It is well accepted that proinflammatory cytokines such as TNF and IL-1 play an important role, and administration of TNF antagonists is an effective treatment for severe RA (reviewed in [9]).
+# T1 Protein S2 59 62 225 228 TNF
+# T2 Protein S2 118 121 284 287 TNF
+
+TNF and IL-1 are both very potent activators of NF-kappaB and it can be expected that NF-kappaB activation by these cytokines mediates most of their pro-inflammatory activities in RA (reviewed in [3]).
+# T3 Protein S3 0 3 359 362 TNF
+
+NF-kappaB activation by receptor activator of NF-kappaB (RANK), a TNF receptor family member, is important for osteoclastogenesis, and defects in proper RANK-NF-kappaB signalling are likely to be involved in RA pathology and other diseases associated with bone loss [7].
+# T4 Protein S4 24 55 585 616 receptor activator of NF-kappaB
+# T5 Protein S4 57 61 618 622 RANK
+# T6 Protein S4 153 157 714 718 RANK
+
+CD40 is another TNF receptor family member that is functionally expressed on a variety of cell types, including smooth muscle fibroblasts from normal and RA patients and RA synovial cells, B cells, macrophages, and dendritic cells, and can be upregulated by proinflammatory cytokines including TNF [10].
+# T7 Protein S5 0 4 832 836 CD40
+# T8 Protein S5 16 42 848 874 TNF receptor family member
+# T9 Protein S5 294 297 1126 1129 TNF
+
+Binding of the CD40 ligand (CD154), which is transiently expressed on the surface of activated CD4+ T cells, triggers NF-kappaB activation resulting in fibroblast proliferation and secretion of proinflammatory cytokines and chemokines, which contributes to joint destruction.
+# T10 Protein S6 15 26 1151 1162 CD40 ligand
+# T11 Protein S6 28 33 1164 1169 CD154
+# T12 Protein S6 95 98 1231 1234 CD4
+
+However, studies with antagonistic anti-CD40 or anti-CD154 antibodies led to the conclusion that CD40 signals may be important at the initial stages of arthritis induction, but are not required once disease is established and pathogenic antibodies are already present [11,12].
+# T13 Protein S7 97 101 1509 1513 CD40
+
+Enhanced expression of the TNF receptor family member B-cell activating factor (BAFF), allowing the survival of autoantibody- producing B lymphocytes, is also characteristic for RA, and antagonists of BAFF have been developed to counter RA [13].
+# T14 Protein S8 54 78 1743 1767 B-cell activating factor
+# T15 Protein S8 80 84 1769 1773 BAFF
+# T16 Protein S8 201 205 1890 1894 BAFF
+
+Finally, lymphotoxin beta receptor signalling has been implicated in tertiary lymphoid organ formation at sites of chronic inflammation including RA [13].
+# T17 Protein S9 9 34 1944 1969 lymphotoxin beta receptor
+
+Toll-like receptors (TLRs) have been implicated in a variety of autoimmune diseases and are potential candidates for inducing NF-kappaB-dependent inflammation in RA.
+
+In addition to microbial ligands, an increasing number of endogenous ligands - a group of proteins derived from host tissues and cells - have been reported as candidate activators of TLRs inducing so-called sterile inflammation (reviewed in [14,15]).
+
+TLRs are expressed in RA synovial tissues and various endogenous ligands are present within the inflamed joints of RA patients.
+
+Moreover, animal models using TLR knockout mice or strategies to block TLR signalling clearly identify TLR-dependent inflammation as being important in the pathogenesis of the disease.
+
+High mobility group box chromosomal protein 1 (HMGB1), a highly conserved chromatin component that can be actively secreted by macrophages or passively released by necrotic cells, is one of the most putative endogenous TLR4 ligands involved in RA pathology.
+# T18 Protein S14 0 45 2820 2865 High mobility group box chromosomal protein 1
+# T19 Protein S14 47 52 2867 2872 HMGB1
+# T20 Protein S14 74 93 2894 2913 chromatin component
+# T21 Protein S14 219 231 3039 3051 TLR4 ligands
+
+HMGB1 is increased in RA synovial tissue and HMGB1 neutralising antibodies or the antagonistic BoxA domain of HMGB1 protect against collagen-induced arthritis in mice [16].
+# T22 Protein S15 0 5 3078 3083 HMGB1
+# T23 Protein S15 45 50 3123 3128 HMGB1
+# T24 Protein S15 110 115 3188 3193 HMGB1
+
+Myeloid-related protein 8 and myeloid-related protein 14, damage-associated molecular pattern molecules belonging to the S100 family of calcium-binding proteins, are also abundantly present in RA synovial fluid, and have been suggested to be involved in TLR4-induced chronic inflammation in RA [17,18].
+# T25 Protein S16 0 25 3251 3276 Myeloid-related protein 8
+# T26 Protein S16 30 56 3281 3307 myeloid-related protein 14
+# T27 Protein S16 254 258 3505 3509 TLR4
+
+Other endogenous TLR ligands that may be involved in RA pathology are extracellular matrix components such as fibrinogen, fibronectin, biglycan, tenascin C, and hyal-uronic acid fragments (reviewed in [14,15]).
+# T28 Protein S17 122 133 3676 3687 fibronectin
+# T29 Protein S17 135 143 3689 3697 biglycan
+# T30 Protein S17 145 155 3699 3709 tenascin C
+
+Together, these studies suggest that several TLR ligands in the inflamed joint tissue may contribute to NF-kappaB activation and inflammatory gene expression in RA.
+

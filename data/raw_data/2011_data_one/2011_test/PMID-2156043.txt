@@ -1,0 +1,10 @@
+Constitutive expression of HIV-1 tat protein in human Jurkat T cells using a BK virus vector.
+# T1 Protein S1 33 36 33 36 tat
+
+The production and characterization of Jurkat cell lines that constitutively express functional human immune deficiency virus type 1 (HIV-1) tat protein, using a BK virus plasmid expression vector and HIV-1 tat cDNA, is described.
+# T2 Protein S2 141 144 236 239 tat
+# T3 Protein S2 207 210 302 305 tat
+
+An increased growth rate of these Jurkat-tat cell lines as compared with control cell lines was observed.
+# T4 Protein S3 41 44 367 370 tat
+

@@ -1,0 +1,49 @@
+Transfections and reporter gene assays.
+
+T cells were rested in serum-free AIM-V medium overnight.
+
+3.5 microg of the FOXP3 promoter luciferase reporter vector or a combination together with the RUNX1, RUNX3 pEGFPN1 vector, and 0.5 microg phRL-TK were added to 3 x 106 CD4+ T cells resuspended in 100 microl of Nucleofector solution (Lonza) and electroporated using the program U-15.
+# T1 Protein S3 18 23 116 121 FOXP3
+# T2 Protein S3 33 43 131 141 luciferase
+# T3 Protein S3 95 100 193 198 RUNX1
+# T4 Protein S3 102 107 200 205 RUNX3
+# T5 Protein S3 169 172 267 270 CD4
+
+After a 24-h culture in serum-free conditions and stimuli as indicated in the figures, luciferase activity was measured by the dual luciferase assay system (Promega) according to the manufacturer's instructions.
+# T6 Protein S4 87 97 469 479 luciferase
+# T7 Protein S4 132 142 514 524 luciferase
+
+PMA/ionomycin was used to stimulate the cells, because the transfection was only transient and the luciferase assay required a strong and fast stimulation of the cells.
+# T8 Protein S5 99 109 693 703 luciferase
+
+To evaluate the effect of overexpression of RUNX1 or RUNX3 on FOXP3 protein levels, CD4+ T cells were preactivated with 2 microg/ml phytohemagglutinin (Sigma-Aldrich) in serum-free AIM-V medium in the presence of 1 nmol/liter IL-2 (Roche) for 12 h, and then transfected with the vector pEGFPN1 containing the RUNX1 or RUNX3 fragment using the Nucleofector system (Amaxa Biosystems) and the program T-23.
+# T9 Protein S6 44 49 807 812 RUNX1
+# T10 Protein S6 53 58 816 821 RUNX3
+# T11 Protein S6 62 67 825 830 FOXP3
+# T12 Protein S6 84 87 847 850 CD4
+# T13 Protein S6 132 150 895 913 phytohemagglutinin
+# T14 Protein S6 226 230 989 993 IL-2
+# T15 Protein S6 309 314 1072 1077 RUNX1
+# T16 Protein S6 318 323 1081 1086 RUNX3
+$ T11 Protein S6 62 67 825 830 FOXP3
+$ T9 Protein S6 44 49 807 812 RUNX1
+$ T10 Protein S6 53 58 816 821 RUNX3
+$ T15 Protein S6 309 314 1072 1077 RUNX1
+$ T16 Protein S6 318 323 1081 1086 RUNX3
+@ T19 Regulation S6 16 22 779 785 effect
+@ T20 Gene_expression S6 26 40 789 803 overexpression
+@ T21 Gene_expression S6 258 269 1021 1032 transfected
+% E1 Regulation:T19 Theme:T11 Cause:E2
+% E3 Regulation:T19 Theme:T11 Cause:E4
+% E2 Gene_expression:T20 Theme:T9
+% E4 Gene_expression:T20 Theme:T10
+% E5 Gene_expression:T21 Theme:T15
+% E6 Gene_expression:T21 Theme:T16
+
+FOXP3 expression was evaluated by flow cytometry after 48 h of culture in AIM-V medium containing 1 nmol/liter IL-2.
+# T17 Protein S7 0 5 1167 1172 FOXP3
+# T18 Protein S7 111 115 1278 1282 IL-2
+$ T17 Protein S7 0 5 1167 1172 FOXP3
+@ T22 Gene_expression S7 6 16 1173 1183 expression
+% E7 Gene_expression:T22 Theme:T17
+

@@ -1,0 +1,26 @@
+Involvement of PKC and JNK in cytokine expression.
+
+Jurkat T-cells were incubated with PKC- and JNK inhibitors for 1 h followed by stimulation with PMA (162 nM) for 24 h. (A) CXCL8 expression was inhibited in a dose-dependent manner by both inhibitors.
+# T1 Protein S2 123 128 174 179 CXCL8
+$ T1 Protein S2 123 128 174 179 CXCL8
+@ T3 Gene_expression S2 129 139 180 190 expression
+@ T4 Negative_regulation S2 144 153 195 204 inhibited
+@ T5 Regulation S2 164 173 215 224 dependent
+% E1 Gene_expression:T3 Theme:T1
+% E2 Negative_regulation:T4 Theme:E1
+% E3 Regulation:T5 Theme:E2
+
+(B) JNK-I revealed a stronger inhibitory effect on IL-6 expression than the PKC-I.
+# T2 Protein S3 51 55 303 307 IL-6
+$ T2 Protein S3 51 55 303 307 IL-6
+@ T6 Negative_regulation S3 30 47 282 299 inhibitory effect
+@ T7 Gene_expression S3 56 66 308 318 expression
+% E4 Negative_regulation:T6 Theme:E5
+% E5 Gene_expression:T7 Theme:T2
+
+(C) TNF expression was not affected by either inhibitor.
+
+Statistical significance from the positive control (PMA) was determined using Student's t-test.
+
+(n = 3).
+

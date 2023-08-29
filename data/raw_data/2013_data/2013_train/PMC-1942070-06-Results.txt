@@ -1,0 +1,131 @@
+3.3Antigen receptor regulated signalling pathways in PKD-null DT40 B cells
+
+To further explore the contribution of PKD kinases to DT40 B cell biology we investigated whether specific BCR-regulated signalling events were defective in the PKD-null B cells.
+
+Initial experiments revealed that surface expression of the BCR was reduced in PKD1/3-/- (and in PKD1/3-/-:Flag-PKD3+ve) cells compared to wild-type DT40 B cells (Fig. 3A and data not shown).
+# T1 Protein S3 79 83 333 337 PKD1
+# T2 Protein S3 84 85 338 339 3
+# T3 Protein S3 97 101 351 355 PKD1
+# T4 Protein S3 102 103 356 357 3
+# T5 Protein S3 112 116 366 370 PKD3
+
+Nevertheless, BCR-crosslinking of PKD1/3-/- cells was sufficient to induce the activation of a number of signalling cascades, similar to that observed in wild-type cells (Fig. 3B).
+# T6 Protein S4 34 38 480 484 PKD1
+# T7 Protein S4 39 40 485 486 3
+
+Hence, BCR-induced activation of the Akt, mTOR/p70 S6 kinase (as shown by S6 ribosomal protein phosphorylation) and MAPK signalling pathways was clearly detectable in PKD1/3-null B cells (Fig. 3B).
+# T8 Protein S5 37 40 664 667 Akt
+# T9 Protein S5 42 46 669 673 mTOR
+# T10 Protein S5 74 94 701 721 S6 ribosomal protein
+# T11 Protein S5 167 171 794 798 PKD1
+# T12 Protein S5 172 173 799 800 3
+$ T8 Protein S5 37 40 664 667 Akt
+$ T9 Protein S5 42 46 669 673 mTOR
+$ T10 Protein S5 74 94 701 721 S6 ribosomal protein
+$ T11 Protein S5 167 171 794 798 PKD1
+$ T12 Protein S5 172 173 799 800 3
+@ T45 Positive_regulation S5 11 18 638 645 induced
+@ T46 Positive_regulation S5 19 29 646 656 activation
+@ T47 Phosphorylation S5 95 110 722 737 phosphorylation
+@ T48 Negative_regulation S5 153 163 780 790 detectable
+@ T49 Negative_regulation S5 174 178 801 805 null
+% E1 Positive_regulation:T45 Theme:E2
+% E3 Positive_regulation:T45 Theme:E4
+% E5 Positive_regulation:T45 Theme:E6
+% E2 Positive_regulation:T46 Theme:T8
+% E4 Positive_regulation:T46 Theme:T9
+% E6 Positive_regulation:T46 Theme:E7
+% E7 Phosphorylation:T47 Theme:T10
+% E8 Negative_regulation:T48 Theme:E1 Cause:E9
+% E10 Negative_regulation:T48 Theme:E1 Cause:E11
+% E12 Negative_regulation:T48 Theme:E3 Cause:E9
+% E13 Negative_regulation:T48 Theme:E3 Cause:E11
+% E14 Negative_regulation:T48 Theme:E5 Cause:E9
+% E15 Negative_regulation:T48 Theme:E5 Cause:E11
+% E9 Negative_regulation:T49 Theme:T11
+% E11 Negative_regulation:T49 Theme:T12
+
+Furthermore, enhanced tyrosine phosphorylation of multiple cellular proteins as well as an increase in intracellular calcium levels was also observed following BCR stimulation of PKD1/3-null B cells (data not shown).
+# T13 Protein S6 179 183 1004 1008 PKD1
+# T14 Protein S6 184 185 1009 1010 3
+
+We did observe that the strength of BCR (but not phorbol ester)-induced regulation of the Erk1-RSK1 signalling pathway was reduced in PKD1/3-/- B cells compared to wild-type B cells (Fig. 3B).
+# T15 Protein S7 90 94 1132 1136 Erk1
+# T16 Protein S7 95 99 1137 1141 RSK1
+# T17 Protein S7 134 138 1176 1180 PKD1
+# T18 Protein S7 139 140 1181 1182 3
+
+One interpretation of this data is that PKD enzymes may modulate Erk activation.
+
+Indeed, PKD enzymes have previously been linked to the growth factor-regulated Erk signalling in fibroblast and endothelial cell lines [33-35].
+
+However, BCR-induced Erk phosphorylation was also reduced in PKD1/3-/--Flag-PKD3+ B cells (data not shown) suggesting that reduced BCR levels on the surface of PKD1/3-/- (and PKD1/3-/--Flag-PKD3+) B cells may itself impact on the strength of activation of this specific intracellular signalling pathway.
+# T19 Protein S10 61 65 1521 1525 PKD1
+# T20 Protein S10 66 67 1526 1527 3
+# T21 Protein S10 76 80 1536 1540 PKD3
+# T22 Protein S10 160 164 1620 1624 PKD1
+# T23 Protein S10 165 166 1625 1626 3
+# T24 Protein S10 175 179 1635 1639 PKD1
+# T25 Protein S10 180 181 1640 1641 3
+# T26 Protein S10 190 194 1650 1654 PKD3
+
+To search for other potential PKD targets that may show defective regulation in PKD1/3-/- DT40 B cells, we used a PKD substrate phospho-antibody that recognises consensus phosphorylation sequences targeted by PKD enzymes (LxRxxpS/T) [36].
+# T27 Protein S11 80 84 1844 1848 PKD1
+# T28 Protein S11 85 86 1849 1850 3
+
+As shown in Fig. 3C, phorbol ester- and BCR-induced phosphorylation of cellular substrates detected by this phospho-antibody was similar in wild-type and PKD1/3-/- cells and is therefore independent of PKD enzymes.
+# T29 Protein S12 154 158 2157 2161 PKD1
+# T30 Protein S12 159 160 2162 2163 3
+
+However, pretreatment of both wild-type and PKD1/3-/- DT40 B cells with GF109203X, a bisindoylmaleimide derivative that inhibits PKCs prevented the induction of proteins that contain phosphorylated LxRxxS/T motifs.
+# T31 Protein S13 44 48 2262 2266 PKD1
+# T32 Protein S13 49 50 2267 2268 3
+
+Thus loss of PKD1/3 enzymes does not globally disrupt the phosphorylation of cellular proteins that contain LxRxxpS/T motifs.
+# T33 Protein S14 13 17 2446 2450 PKD1
+# T34 Protein S14 18 19 2451 2452 3
+$ T33 Protein S14 13 17 2446 2450 PKD1
+$ T34 Protein S14 18 19 2451 2452 3
+@ T50 Negative_regulation S14 5 9 2438 2442 loss
+% E16 Negative_regulation:T50 Theme:T33
+% E17 Negative_regulation:T50 Theme:T34
+
+This result is perhaps not surprising as LxRxxS/T motifs also act as good substrates for other serine/threonine kinases such as MAPKAPK2.
+# T35 Protein S15 128 136 2687 2695 MAPKAPK2
+
+However these experiments do provide further evidence that phosphospecific antisera are not sufficiently selective to be designated kinase specific substrate antisera.
+
+BCR-induced signalling pathways culminate in the activation of gene transcription events that control B cell survival, proliferation and function.
+
+In this context, it has been proposed that PKD family members control of gene transcription through activation of the NFkappaB transcription factor.
+
+Thus, PKD-mediated activation of NFkappaB occurs downstream of a variety of different signals, including mROS/oxidative stress, lysophosphatidic acid and the Bcr-Abl oncogene [17,21,23,30,37].
+# T36 Protein S19 158 174 3319 3335 Bcr-Abl oncogene
+
+Furthermore, expression of an activated PKD1 mutant enhances HPK1-mediated NFkappaB activation [38].
+# T37 Protein S20 40 44 3394 3398 PKD1
+# T38 Protein S20 61 65 3415 3419 HPK1
+$ T37 Protein S20 40 44 3394 3398 PKD1
+@ T51 Positive_regulation S20 13 39 3367 3393 expression of an activated
+% E18 Positive_regulation:T51 Theme:T37
+
+In B cells, NFkappaB is known to be regulated via DAG and PKCbeta [39,40] but whether PKDs are key intermediaries for NFkappaB regulation has not been explored.
+# T39 Protein S21 58 65 3513 3520 PKCbeta
+
+The data (Fig. 4A) show that NFkappaB transcriptional activity was strongly induced in both wild-type and PKD1/3-/- DT40 B cells in response to either phorbol ester or BCR stimulation.
+# T40 Protein S22 106 110 3722 3726 PKD1
+# T41 Protein S22 111 112 3727 3728 3
+
+In contrast, BCR and phorbol ester-induced NFkappaB transcriptional activity was abolished in PKCbeta-/- DT40 B cells (Fig. 4A), although strong activation of PKD kinases (as assessed by autophosphorylation of PKD1 at S916) was observed in the PKCbeta-/- cells (Fig. 4B).
+# T42 Protein S23 94 101 3895 3902 PKCbeta
+# T43 Protein S23 210 214 4011 4015 PKD1
+# T44 Protein S23 244 251 4045 4052 PKCbeta
+$ T43 Protein S23 210 214 4011 4015 PKD1
+@ T52 Phosphorylation S23 187 206 3988 4007 autophosphorylation
+@ T53 Entity S23 218 222 4019 4023 S916
+@ T54 Positive_regulation S23 228 236 4029 4037 observed
+% E19 Phosphorylation:T52 Theme:T43 Site:T53
+% E20 Positive_regulation:T54 Theme:E19
+
+Thus, PKD kinases are neither essential nor sufficient to mediate BCR-induced NFkappaB activation in DT40 B cells and hence do not participate in DAG/PKC mediated control of NFkappaB.
+

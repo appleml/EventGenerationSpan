@@ -1,0 +1,63 @@
+Nuclear Rel-A and c-Rel protein complexes are differentially distributed within human thymocytes.
+# T1 Protein S1 8 13 8 13 Rel-A
+# T2 Protein S1 18 23 18 23 c-Rel
+$ T2 Protein S1 18 23 18 23 c-Rel
+$ T1 Protein S1 8 13 8 13 Rel-A
+@ T18 Entity S1 0 7 0 7 Nuclear
+@ T19 Localization S1 61 72 61 72 distributed
+% E1 Localization:T19 Theme:T2 AtLoc:T18
+% E2 Localization:T19 Theme:T1 AtLoc:T18
+
+Nuclear factor-kappa B (NF-kappa B)/Rel proteins are inducible transcriptional regulators of numerous cellular genes.
+
+They are particularly abundant in lymphoid tissues and are thought to be critical for the transcription of genes involved in immune and inflammatory responses.
+
+We have reported previously that a nuclear NF-kappa B activity was present in freshly extracted human thymocytes in the absence of in vitro treatment of these cells.
+
+In the present report, we identified NF-kappa B proteins extracted from human thymocyte nuclei as being p50/p65 and p50/c-Rel complexes.
+# T3 Protein S5 104 107 647 650 p50
+# T4 Protein S5 108 111 651 654 p65
+# T5 Protein S5 116 119 659 662 p50
+# T6 Protein S5 120 125 663 668 c-Rel
+
+Immunochemical and immunofluorescent staining of thymus sections using specific Abs allowed visualization of nuclear NF-kappa B proteins in both thymocytes and nonthymocyte cells.
+
+This detection suggested a preferential activation of p50/c-Rel in medullary thymocytes, whereas p50/p65 was present in both cortical and medullary regions of human thymus lobules.
+# T7 Protein S7 54 57 914 917 p50
+# T8 Protein S7 58 63 918 923 c-Rel
+# T9 Protein S7 97 100 957 960 p50
+# T10 Protein S7 101 104 961 964 p65
+$ T8 Protein S7 58 63 918 923 c-Rel
+$ T7 Protein S7 54 57 914 917 p50
+$ T10 Protein S7 101 104 961 964 p65
+$ T9 Protein S7 97 100 957 960 p50
+@ T20 Positive_regulation S7 40 50 900 910 activation
+@ T21 Gene_expression S7 109 116 969 976 present
+% E3 Positive_regulation:T20 Theme:T8
+% E4 Positive_regulation:T20 Theme:T7
+% E5 Gene_expression:T21 Theme:T10
+% E6 Gene_expression:T21 Theme:T9
+
+However, the intensity of p65 labeling was much higher in several thymocytes from the medulla.
+# T11 Protein S8 26 29 1067 1070 p65
+$ T11 Protein S8 26 29 1067 1070 p65
+@ T22 Gene_expression S8 48 54 1089 1095 higher
+% E7 Gene_expression:T22 Theme:T11
+
+p65, p50, and c-Rel activities were found in both CD4- and CD8-positive thymocytes.
+# T12 Protein S9 0 3 1136 1139 p65
+# T13 Protein S9 5 8 1141 1144 p50
+# T14 Protein S9 14 19 1150 1155 c-Rel
+# T15 Protein S9 50 53 1186 1189 CD4
+$ T12 Protein S9 0 3 1136 1139 p65
+$ T14 Protein S9 14 19 1150 1155 c-Rel
+$ T13 Protein S9 5 8 1141 1144 p50
+@ T23 Gene_expression S9 36 41 1172 1177 found
+% E8 Gene_expression:T23 Theme:T12
+% E9 Gene_expression:T23 Theme:T14
+% E10 Gene_expression:T23 Theme:T13
+
+These observations suggest that p65 and c-Rel complexes play distinct roles in gene expression and that both forms of NF-kappa B play critical roles during late stages of the intrathymic maturation of T cells.
+# T16 Protein S10 32 35 1252 1255 p65
+# T17 Protein S10 40 45 1260 1265 c-Rel
+

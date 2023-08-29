@@ -1,0 +1,54 @@
+Activation of pp90rsk and early growth response-1 gene expression by pokeweed mitogen in human B cells.
+# T1 Protein S1 26 49 26 49 early growth response-1
+$ T1 Protein S1 26 49 26 49 early growth response-1
+@ T13 Positive_regulation S1 0 10 0 10 Activation
+@ T14 Gene_expression S1 55 65 55 65 expression
+% E1 Positive_regulation:T13 Theme:E2
+% E2 Gene_expression:T14 Theme:T1
+
+The present studies have examined the effects of pokeweed mitogen (PWM) on the induction of early growth response-1 gene (EGR-1) in normal human B cells.
+# T2 Protein S2 92 115 197 220 early growth response-1
+# T3 Protein S2 122 127 227 232 EGR-1
+$ T3 Protein S2 122 127 227 232 EGR-1
+@ T15 Regulation S2 38 45 143 150 effects
+@ T16 Positive_regulation S2 79 88 184 193 induction
+% E3 Regulation:T15 Theme:E4
+% E4 Positive_regulation:T16 Theme:T3
+
+PWM regulates EGR-1 gene expression by both transcriptional and post-transcriptional mechanisms.
+# T4 Protein S3 14 19 273 278 EGR-1
+$ T4 Protein S3 14 19 273 278 EGR-1
+@ T17 Regulation S3 4 13 263 272 regulates
+@ T18 Gene_expression S3 25 35 284 294 expression
+% E5 Regulation:T17 Theme:E6
+% E6 Gene_expression:T18 Theme:T4
+
+Transient transfection assays with EGR-1 promoter fragments linked to the chloramphenicol acetyltransferase (CAT) gene demonstrated that PWM induced EGR-1 transcription is conferred by the CArG motif (C C[AT]6GG) in the EGR-1 promoter.
+# T5 Protein S4 35 40 391 396 EGR-1
+# T6 Protein S4 74 107 430 463 chloramphenicol acetyltransferase
+# T7 Protein S4 109 112 465 468 CAT
+# T8 Protein S4 149 154 505 510 EGR-1
+# T9 Protein S4 220 225 576 581 EGR-1
+$ T8 Protein S4 149 154 505 510 EGR-1
+$ T9 Protein S4 220 225 576 581 EGR-1
+@ T19 Positive_regulation S4 141 148 497 504 induced
+@ T20 Transcription S4 155 168 511 524 transcription
+@ T21 Positive_regulation S4 172 181 528 537 conferred
+@ T22 Entity S4 189 199 545 555 CArG motif
+% E7 Positive_regulation:T19 Theme:E8
+% E8 Transcription:T20 Theme:T8
+% E9 Positive_regulation:T21 Theme:E7 Cause:T9 CSite:T22
+
+The results further demonstrated the activation of S6 kinase (pp90rsk), evidenced by phosphorylation of S6 and serum response factor (SRF) peptides, in PWM treated B cells.
+# T10 Protein S5 111 132 703 724 serum response factor
+# T11 Protein S5 134 137 726 729 SRF
+$ T11 Protein S5 134 137 726 729 SRF
+@ T23 Phosphorylation S5 85 100 677 692 phosphorylation
+% E10 Phosphorylation:T23 Theme:T11
+
+Taken together, these findings suggest that PWM is able to initiate an intracytoplasmic signalling cascade and EGR-1 induction in normal human B cells.
+# T12 Protein S6 111 116 876 881 EGR-1
+$ T12 Protein S6 111 116 876 881 EGR-1
+@ T24 Positive_regulation S6 117 126 882 891 induction
+% E11 Positive_regulation:T24 Theme:T12
+

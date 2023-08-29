@@ -1,0 +1,96 @@
+Overexpression of HSF2-beta inhibits hemin-induced heat shock gene expression and erythroid differentiation in K562 cells.
+# T1 Protein S1 18 27 18 27 HSF2-beta
+$ T1 Protein S1 18 27 18 27 HSF2-beta
+@ T21 Positive_regulation S1 0 14 0 14 Overexpression
+@ T22 Gene_expression S1 0 14 0 14 Overexpression
+% E1 Positive_regulation:T21 Theme:E2
+% E2 Gene_expression:T22 Theme:T1
+
+Acquisition of heat shock factor 2 (HSF2) DNA binding activity is accompanied by induced transcription of heat shock genes in hemin-treated K562 cells undergoing erythroid differentiation.
+# T2 Protein S2 15 34 139 158 heat shock factor 2
+# T3 Protein S2 36 40 160 164 HSF2
+$ T3 Protein S2 36 40 160 164 HSF2
+@ T23 Binding S2 46 53 170 177 binding
+@ T24 Regulation S2 66 77 190 201 accompanied
+% E3 Binding:T23 Theme:T3
+% E4 Regulation:T24 Theme:E3
+
+Previous studies revealed that HSF2 consists of two alternatively spliced isoforms, HSF2-alpha and HSF2-beta, whose relative abundance is developmentally regulated and varies between different tissues.
+# T4 Protein S3 31 35 344 348 HSF2
+# T5 Protein S3 84 94 397 407 HSF2-alpha
+# T6 Protein S3 99 108 412 421 HSF2-beta
+$ T6 Protein S3 99 108 412 421 HSF2-beta
+$ T5 Protein S3 84 94 397 407 HSF2-alpha
+@ T25 Regulation S3 154 163 467 476 regulated
+@ T26 Regulation S3 168 174 481 487 varies
+% E5 Regulation:T25 Theme:T6
+% E6 Regulation:T25 Theme:T5
+% E7 Regulation:T26 Theme:T5
+% E8 Regulation:T26 Theme:T6
+
+To investigate whether the molar ratio of HSF2-alpha and HSF2-beta isoforms is crucial for the activation of HSF2 and whether the HSF2 isoforms play functionally distinct roles during the hemin-mediated erythroid differentiation, we generated cell clones expressing different levels of HSF2-alpha and HSF2-beta.
+# T7 Protein S4 42 52 557 567 HSF2-alpha
+# T8 Protein S4 57 66 572 581 HSF2-beta
+# T9 Protein S4 109 113 624 628 HSF2
+# T10 Protein S4 130 134 645 649 HSF2
+# T11 Protein S4 286 296 801 811 HSF2-alpha
+# T12 Protein S4 301 310 816 825 HSF2-beta
+$ T7 Protein S4 42 52 557 567 HSF2-alpha
+$ T8 Protein S4 57 66 572 581 HSF2-beta
+$ T9 Protein S4 109 113 624 628 HSF2
+$ T11 Protein S4 286 296 801 811 HSF2-alpha
+$ T12 Protein S4 301 310 816 825 HSF2-beta
+@ T27 Regulation S4 79 86 594 601 crucial
+@ T28 Positive_regulation S4 95 105 610 620 activation
+@ T29 Gene_expression S4 255 265 770 780 expressing
+% E9 Regulation:T27 Theme:E11 Cause:T7
+% E10 Regulation:T27 Theme:E11 Cause:T8
+% E11 Positive_regulation:T28 Theme:T9
+% E12 Gene_expression:T29 Theme:T11
+% E13 Gene_expression:T29 Theme:T12
+
+We show that in parental K562 cells, the HSF2-alpha isoform is predominantly expressed and HSF2 can be activated upon hemin treatment.
+# T13 Protein S5 41 51 868 878 HSF2-alpha
+# T14 Protein S5 91 95 918 922 HSF2
+$ T13 Protein S5 41 51 868 878 HSF2-alpha
+$ T14 Protein S5 91 95 918 922 HSF2
+@ T30 Gene_expression S5 77 86 904 913 expressed
+@ T31 Positive_regulation S5 103 112 930 939 activated
+% E14 Gene_expression:T30 Theme:T13
+% E15 Positive_regulation:T31 Theme:T14
+
+In contrast, when HSF2-beta is expressed at levels exceeding those of endogenous HSF2-alpha, the hemin-induced DNA binding activity and transcription of heat shock genes are repressed, whereas overexpression of HSF2-alpha results in an enhanced hemin response.
+# T15 Protein S6 18 27 980 989 HSF2-beta
+# T16 Protein S6 81 91 1043 1053 HSF2-alpha
+# T17 Protein S6 211 221 1173 1183 HSF2-alpha
+$ T16 Protein S6 81 91 1043 1053 HSF2-alpha
+$ T15 Protein S6 18 27 980 989 HSF2-beta
+$ T17 Protein S6 211 221 1173 1183 HSF2-alpha
+@ T32 Gene_expression S6 31 40 993 1002 expressed
+@ T33 Positive_regulation S6 44 50 1006 1012 levels
+@ T34 Positive_regulation S6 193 207 1155 1169 overexpression
+@ T35 Gene_expression S6 193 207 1155 1169 overexpression
+% E16 Gene_expression:T32 Theme:T16
+% E17 Gene_expression:T32 Theme:T15
+% E18 Positive_regulation:T33 Theme:E17
+% E19 Positive_regulation:T34 Theme:E20
+% E20 Gene_expression:T35 Theme:T17
+
+Furthermore, the hemin-induced accumulation of globin, known as a marker of erythroid differentiation, is decreased in cells overexpressing HSF2-beta.
+# T18 Protein S7 140 149 1363 1372 HSF2-beta
+$ T18 Protein S7 140 149 1363 1372 HSF2-beta
+@ T36 Negative_regulation S7 106 115 1329 1338 decreased
+@ T37 Gene_expression S7 125 139 1348 1362 overexpressing
+@ T38 Positive_regulation S7 125 139 1348 1362 overexpressing
+% E21 Negative_regulation:T36 Theme:E23
+% E22 Gene_expression:T37 Theme:T18
+% E23 Positive_regulation:T38 Theme:E22
+
+We suggest that HSF2-beta acts as a negative regulator of HSF2 activity during hemin-mediated erythroid differentiation of K562 cells.
+# T19 Protein S8 16 25 1390 1399 HSF2-beta
+# T20 Protein S8 58 62 1432 1436 HSF2
+$ T20 Protein S8 58 62 1432 1436 HSF2
+$ T19 Protein S8 16 25 1390 1399 HSF2-beta
+@ T39 Negative_regulation S8 36 54 1410 1428 negative regulator
+% E24 Negative_regulation:T39 Theme:T20 Cause:T19
+

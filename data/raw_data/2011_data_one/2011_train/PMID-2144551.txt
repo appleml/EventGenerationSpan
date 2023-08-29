@@ -1,0 +1,69 @@
+Induction of immediate early response genes by macrophage colony-stimulating factor in normal human monocytes.
+
+A group of coordinately induced protooncogenes, cytoskeletal, and extracellular matrix genes have been termed immediate early response genes, and their induction has been associated with growth factor-stimulated cell proliferation.
+
+We have investigated the induction of these genes by macrophage-CSF (M-CSF) in human monocytes that do not proliferate in response to M-CSF but require the factor for optimal cell differentiation.
+# T1 Protein S3 53 67 397 411 macrophage-CSF
+# T2 Protein S3 69 74 413 418 M-CSF
+# T3 Protein S3 134 139 478 483 M-CSF
+
+Normal human monocytes were isolated, carefully washed, and incubated for 36 to 48 h in fetal bovine serum-containing medium.
+
+At the end of this incubation the resting cells were stimulated with M-CSF, and RNA was isolated for analysis by Northern blotting.
+# T4 Protein S5 69 74 736 741 M-CSF
+
+RNA from control resting cells contained low to undetectable levels of c-jun, fibronectin receptor, and actin mRNA.
+# T5 Protein S6 71 76 870 875 c-jun
+$ T5 Protein S6 71 76 870 875 c-jun
+@ T16 Transcription S6 61 67 860 866 levels
+% E1 Transcription:T16 Theme:T5
+
+Within 15 to 30 min of addition of M-CSF, however, there was a dramatic coordinate induction of these genes.
+# T6 Protein S7 35 40 950 955 M-CSF
+@ T17 Positive_regulation S7 83 92 998 1007 induction
+% E2 Positive_regulation:T17 Theme:T5
+
+The c-jun gene expression was very transient and was not detectable by 60 min after M-CSF addition.
+# T7 Protein S8 4 9 1028 1033 c-jun
+# T8 Protein S8 84 89 1108 1113 M-CSF
+$ T7 Protein S8 4 9 1028 1033 c-jun
+$ T8 Protein S8 84 89 1108 1113 M-CSF
+@ T18 Gene_expression S8 15 25 1039 1049 expression
+@ T19 Positive_regulation S8 78 83 1102 1107 after
+% E3 Gene_expression:T18 Theme:T7
+% E4 Positive_regulation:T19 Theme:E3 Cause:T8
+
+In contrast, the expression of actin and fibronectin receptor mRNA was more sustained, and the expression of these genes remained elevated at 24 to 48 h after M-CSF addition.
+# T9 Protein S9 159 164 1283 1288 M-CSF
+
+We also observed the induction of the myelomonocytic specific tyrosine kinase hck gene simultaneously with the other immediate early response genes.
+# T10 Protein S10 78 81 1377 1380 hck
+$ T10 Protein S10 78 81 1377 1380 hck
+@ T20 Positive_regulation S10 21 30 1320 1329 induction
+% E5 Positive_regulation:T20 Theme:T10
+
+The protein synthesis inhibitor cycloheximide did not block the induction of any of these genes, and in fact, super-induced the expression of c-jun and hck.
+# T11 Protein S11 142 147 1590 1595 c-jun
+# T12 Protein S11 152 155 1600 1603 hck
+$ T12 Protein S11 152 155 1600 1603 hck
+$ T11 Protein S11 142 147 1590 1595 c-jun
+@ T21 Positive_regulation S11 110 123 1558 1571 super-induced
+@ T22 Gene_expression S11 128 138 1576 1586 expression
+% E6 Positive_regulation:T21 Theme:E8
+% E7 Gene_expression:T22 Theme:T12
+% E8 Gene_expression:T22 Theme:T11
+
+Nuclear run on transcription of the c-jun, hck, and actin genes.
+# T13 Protein S12 36 41 1641 1646 c-jun
+# T14 Protein S12 43 46 1648 1651 hck
+$ T13 Protein S12 36 41 1641 1646 c-jun
+$ T14 Protein S12 43 46 1648 1651 hck
+@ T23 Transcription S12 15 28 1620 1633 transcription
+% E9 Transcription:T23 Theme:T13
+% E10 Transcription:T23 Theme:T14
+
+Therefore, in normal human monocytes M-CSF induces immediate early response genes without inducing cell proliferation.
+# T15 Protein S13 37 42 1707 1712 M-CSF
+
+These genes may then play a role in altering the physiologic status of the cells in response to CSF.
+

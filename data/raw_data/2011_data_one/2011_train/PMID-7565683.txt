@@ -1,0 +1,75 @@
+N- and C-terminal sequences control degradation of MAD3/I kappa B alpha in response to inducers of NF-kappa B activity.
+# T1 Protein S1 51 55 51 55 MAD3
+# T2 Protein S1 56 71 56 71 I kappa B alpha
+$ T1 Protein S1 51 55 51 55 MAD3
+@ T11 Regulation S1 28 35 28 35 control
+@ T12 Protein_catabolism S1 36 47 36 47 degradation
+@ T13 Positive_regulation S1 72 86 72 86 in response to
+% E1 Regulation:T11 Theme:E2
+% E2 Protein_catabolism:T12 Theme:T1
+% E3 Positive_regulation:T13 Theme:E2
+
+The proteolytic degradation of the inhibitory protein MAD3/I kappa B alpha in response to extracellular stimulation is a prerequisite step in the activation of the transcription factor NF-kappa B. Analysis of the expression of human I kappa B alpha protein in stable transfectants of mouse 70Z/3 cells shows that, as for the endogenous murine protein, exogenous I kappa B alpha is degraded in response to inducers of NF-kappa B activity, such as phorbol myristate acetate or lipopolysaccharide.
+# T3 Protein S2 54 58 175 179 MAD3
+# T4 Protein S2 59 74 180 195 I kappa B alpha
+# T5 Protein S2 233 248 354 369 I kappa B alpha
+# T6 Protein S2 362 377 483 498 I kappa B alpha
+$ T3 Protein S2 54 58 175 179 MAD3
+$ T5 Protein S2 233 248 354 369 I kappa B alpha
+$ T6 Protein S2 362 377 483 498 I kappa B alpha
+@ T14 Protein_catabolism S2 4 27 125 148 proteolytic degradation
+@ T15 Positive_regulation S2 75 89 196 210 in response to
+@ T16 Gene_expression S2 213 223 334 344 expression
+@ T17 Protein_catabolism S2 381 389 502 510 degraded
+@ T18 Positive_regulation S2 390 404 511 525 in response to
+% E4 Protein_catabolism:T14 Theme:T3
+% E5 Positive_regulation:T15 Theme:E4
+% E6 Gene_expression:T16 Theme:T5
+% E7 Protein_catabolism:T17 Theme:T6
+% E8 Positive_regulation:T18 Theme:E7
+
+In addition, pretreatment of the cells with the proteasome inhibitor N-Ac-Leu-Leu-norleucinal inhibits this ligand-induced degradation and, in agreement with previous studies, stabilizes a hyperphosphorylated form of the human I kappa B alpha protein.
+# T7 Protein S3 227 242 843 858 I kappa B alpha
+$ T7 Protein S3 227 242 843 858 I kappa B alpha
+@ T19 Positive_regulation S3 176 186 792 802 stabilizes
+@ T20 Phosphorylation S3 189 208 805 824 hyperphosphorylated
+% E9 Positive_regulation:T19 Theme:T7
+% E10 Phosphorylation:T20 Theme:T7
+
+By expressing mutant forms of the human protein in this cell line, we have been able to delineate the sequences responsible for both the ligand-induced phosphorylation and the degradation of I kappa B alpha.
+# T8 Protein S4 191 206 1059 1074 I kappa B alpha
+$ T8 Protein S4 191 206 1059 1074 I kappa B alpha
+@ T21 Positive_regulation S4 144 151 1012 1019 induced
+@ T22 Phosphorylation S4 152 167 1020 1035 phosphorylation
+@ T23 Protein_catabolism S4 176 187 1044 1055 degradation
+% E11 Positive_regulation:T21 Theme:E13
+% E12 Positive_regulation:T21 Theme:E14
+% E13 Phosphorylation:T22 Theme:T8
+% E14 Protein_catabolism:T23 Theme:T8
+
+Our results show that deletion of the C terminus of the I kappa B alpha molecule up to amino acid 279 abolishes constitutive but not ligand-inducible phosphorylation and inhibits ligand-inducible degradation.
+# T9 Protein S5 56 71 1132 1147 I kappa B alpha
+
+Further analysis reveals that the inducible phosphorylation of I kappa B alpha maps to two serines in the N terminus of the protein (residues 32 and 36) and that the mutation of either residue is sufficient to abolish ligand-induced degradation, whereas both residues must be mutated to abolish inducible phosphorylation of the protein.
+# T10 Protein S6 63 78 1348 1363 I kappa B alpha
+$ T10 Protein S6 63 78 1348 1363 I kappa B alpha
+@ T24 Positive_regulation S6 34 43 1319 1328 inducible
+@ T25 Phosphorylation S6 44 59 1329 1344 phosphorylation
+@ T26 Negative_regulation S6 210 217 1495 1502 abolish
+@ T27 Positive_regulation S6 225 232 1510 1517 induced
+@ T28 Protein_catabolism S6 233 244 1518 1529 degradation
+@ T29 Negative_regulation S6 287 294 1572 1579 abolish
+@ T30 Positive_regulation S6 295 304 1580 1589 inducible
+@ T31 Phosphorylation S6 305 320 1590 1605 phosphorylation
+% E15 Positive_regulation:T24 Theme:E16
+% E16 Phosphorylation:T25 Theme:T10
+% E17 Negative_regulation:T26 Theme:E19
+% E18 Positive_regulation:T27 Theme:E19
+% E19 Protein_catabolism:T28 Theme:T10
+% E20 Negative_regulation:T29 Theme:E23
+% E21 Negative_regulation:T29 Theme:E22
+% E22 Positive_regulation:T30 Theme:E23
+% E23 Phosphorylation:T31 Theme:T10
+
+(ABSTRACT TRUNCATED AT 250 WORDS)
+

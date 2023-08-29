@@ -1,0 +1,74 @@
+Homodimerization of the human interleukin 4 receptor alpha chain induces Cepsilon germline transcripts in B cells in the absence of the interleukin 2 receptor gamma chain.
+# T1 Protein S1 30 64 30 64 interleukin 4 receptor alpha chain
+# T2 Protein S1 136 170 136 170 interleukin 2 receptor gamma chain
+$ T1 Protein S1 30 64 30 64 interleukin 4 receptor alpha chain
+@ T25 Binding S1 0 16 0 16 Homodimerization
+% E1 Binding:T25 Theme:T1
+
+The cytokines interleukin (IL)-4 and IL-13 play a critical role in inducing Cepsilon germline transcripts and IgE isotype switching in human B cells.
+# T3 Protein S2 14 32 187 205 interleukin (IL)-4
+# T4 Protein S2 37 42 210 215 IL-13
+
+The IL-4 receptor (IL-4R) in B cells is composed of two chains, the IL-4-binding IL-4Ralpha chain, which is shared with the IL-13R, and the IL-2Rgamma (gammac) chain, which is shared with IL-7R, IL-9R, and IL-15R.
+# T5 Protein S3 68 72 391 395 IL-4
+# T6 Protein S3 81 97 404 420 IL-4Ralpha chain
+# T7 Protein S3 140 165 463 488 IL-2Rgamma (gammac) chain
+# T8 Protein S3 188 193 511 516 IL-7R
+# T9 Protein S3 195 200 518 523 IL-9R
+$ T5 Protein S3 68 72 391 395 IL-4
+$ T6 Protein S3 81 97 404 420 IL-4Ralpha chain
+@ T26 Binding S3 73 80 396 403 binding
+% E2 Binding:T26 Theme:T5 Theme2:T6
+
+IL-4 induces Cepsilon germline transcripts and IgE isotype switching in B cells from patients with gammac chain deficiency.
+# T10 Protein S4 0 4 537 541 IL-4
+# T11 Protein S4 99 111 636 648 gammac chain
+$ T11 Protein S4 99 111 636 648 gammac chain
+@ T27 Negative_regulation S4 112 122 649 659 deficiency
+% E3 Negative_regulation:T27 Theme:T11
+
+Induction of Cepsilon germline transcripts by IL-4 in B cells that lack the gammac chain may involve signaling via the IL-13R.
+# T12 Protein S5 46 50 707 711 IL-4
+# T13 Protein S5 76 88 737 749 gammac chain
+$ T13 Protein S5 76 88 737 749 gammac chain
+@ T28 Gene_expression S5 67 71 728 732 lack
+% E4 Gene_expression:T28 Theme:T13
+
+Alternatively, the IL-4Ralpha chain may transduce intracellular signals that lead to Cepsilon gene transcription independently of its association with other chains.
+# T14 Protein S6 19 35 807 823 IL-4Ralpha chain
+
+We show that ligand-induced homodimerization of chimeric surface receptors consisting of the extracellular and transmembrane domains of the erythropoietin receptor and of the intracellular domain of IL-4Ralpha induces Janus kinase 1 (Jak1) activation, STAT6 activation, and Cepsilon germline transcripts in human B cell line BJAB.
+# T15 Protein S7 140 154 1093 1107 erythropoietin
+# T16 Protein S7 199 209 1152 1162 IL-4Ralpha
+# T17 Protein S7 218 232 1171 1185 Janus kinase 1
+# T18 Protein S7 234 238 1187 1191 Jak1
+# T19 Protein S7 252 257 1205 1210 STAT6
+$ T18 Protein S7 234 238 1187 1191 Jak1
+@ T29 Positive_regulation S7 210 217 1163 1170 induces
+@ T30 Positive_regulation S7 240 250 1193 1203 activation
+% E5 Positive_regulation:T29 Theme:E6
+% E6 Positive_regulation:T30 Theme:T18
+
+Disruption of the Jak1-binding proline-rich Box1 region of IL-4Ralpha abolished signaling by this chimeric receptor.
+# T20 Protein S8 18 22 1302 1306 Jak1
+# T21 Protein S8 59 69 1343 1353 IL-4Ralpha
+
+Furthermore, B cells transfected with a chimeric CD8alpha/IL-4Ralpha receptor, which is expressed on the cell surface as a homodimer, constitutively expressed Cepsilon germline transcripts.
+# T22 Protein S9 40 77 1441 1478 chimeric CD8alpha/IL-4Ralpha receptor
+$ T22 Protein S9 40 77 1441 1478 chimeric CD8alpha/IL-4Ralpha receptor
+@ T31 Positive_regulation S9 21 32 1422 1433 transfected
+@ T32 Gene_expression S9 21 32 1422 1433 transfected
+@ T33 Gene_expression S9 88 97 1489 1498 expressed
+@ T34 Binding S9 118 132 1519 1533 as a homodimer
+% E7 Positive_regulation:T31 Theme:E8
+% E8 Gene_expression:T32 Theme:T22
+% E9 Gene_expression:T33 Theme:T22
+% E10 Binding:T34 Theme:T22
+
+These results suggest that homodimerization of the IL-4Ralpha chain is sufficient to transduce Jak1-dependent intracellular signals that lead to IgE isotype switching.
+# T23 Protein S10 51 67 1642 1658 IL-4Ralpha chain
+# T24 Protein S10 95 99 1686 1690 Jak1
+$ T23 Protein S10 51 67 1642 1658 IL-4Ralpha chain
+@ T35 Binding S10 27 43 1618 1634 homodimerization
+% E11 Binding:T35 Theme:T23
+

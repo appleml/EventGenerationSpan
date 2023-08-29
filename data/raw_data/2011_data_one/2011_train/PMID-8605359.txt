@@ -1,0 +1,86 @@
+Transactivation of the interleukin-1alpha promoter by human T-cell leukemia virus type I and type II Tax proteins.
+# T1 Protein S1 23 41 23 41 interleukin-1alpha
+# T2 Protein S1 101 104 101 104 Tax
+$ T1 Protein S1 23 41 23 41 interleukin-1alpha
+$ T2 Protein S1 101 104 101 104 Tax
+@ T26 Positive_regulation S1 0 15 0 15 Transactivation
+@ T27 Entity S1 42 50 42 50 promoter
+% E1 Positive_regulation:T26 Theme:T1 Cause:T2 Site:T27
+
+Human T-cell leukemia virus type I (HTLV-I)-infected T-cell lines constitutively produce high levels of interleukin-1alpha (IL-1alpha).
+# T3 Protein S2 104 122 220 238 interleukin-1alpha
+# T4 Protein S2 124 133 240 249 IL-1alpha
+$ T4 Protein S2 124 133 240 249 IL-1alpha
+@ T28 Gene_expression S2 81 88 197 204 produce
+@ T29 Positive_regulation S2 89 100 205 216 high levels
+% E2 Gene_expression:T28 Theme:T4
+% E3 Positive_regulation:T29 Theme:E2
+
+To analyze the mechanisms that lead to the expression of IL-1alpha in HTLV-I-infected cell lines, we studied regulatory regions of the human IL-1alpha promoter involved in activation of the IL-1alpha gene.
+# T5 Protein S3 57 66 309 318 IL-1alpha
+# T6 Protein S3 141 150 393 402 IL-1alpha
+# T7 Protein S3 190 199 442 451 IL-1alpha
+$ T5 Protein S3 57 66 309 318 IL-1alpha
+$ T7 Protein S3 190 199 442 451 IL-1alpha
+@ T30 Gene_expression S3 43 53 295 305 expression
+@ T31 Positive_regulation S3 172 182 424 434 activation
+% E4 Gene_expression:T30 Theme:T5
+% E5 Positive_regulation:T31 Theme:T7
+
+IL-1alpha promoter constructs drive transcription of the chloramphenicol acetyltransferase (CAT) reporter gene in HTLV-I-positive MT-2 cells, which constitutively produce IL-1alpha.
+# T8 Protein S4 0 9 458 467 IL-1alpha
+# T9 Protein S4 57 90 515 548 chloramphenicol acetyltransferase
+# T10 Protein S4 92 95 550 553 CAT
+# T11 Protein S4 171 180 629 638 IL-1alpha
+$ T11 Protein S4 171 180 629 638 IL-1alpha
+@ T32 Gene_expression S4 163 170 621 628 produce
+% E6 Gene_expression:T32 Theme:T11
+
+In a cotransfection assay, the Tax protein of both HTLV-I and HTLV-II specifically activated transcription from the IL-1alpha promoter in an uninfected Jurkat cell line.
+# T12 Protein S5 31 34 671 674 Tax
+# T13 Protein S5 116 125 756 765 IL-1alpha
+
+A mutant Tax protein deficient in transactivation of genes by the nuclear factor (NF)-kappaB pathway was unable to induce transcriptional activity of IL-1alpha promoter-CAT constructs, but was rescued by exogenous provision of p65/p50 NF-kappaB.
+# T14 Protein S6 9 12 819 822 Tax
+# T15 Protein S6 150 159 960 969 IL-1alpha
+# T16 Protein S6 169 172 979 982 CAT
+# T17 Protein S6 227 230 1037 1040 p65
+# T18 Protein S6 231 234 1041 1044 p50
+
+We found that two IL-1alpha kappaB-like sites (positions -1,065 to -1,056 and +646 to +655) specifically formed a complex with NF-kappaB-containing nuclear extract from MT-2 cells and that NF-kappaB bound with higher affinity to the 3' NF-kappaB binding site than to the 5' NF-kappaB site.
+# T19 Protein S7 18 27 1074 1083 IL-1alpha
+
+Moreover, deletion of either 5' or 3' NF-kappaB sites reduced IL-1alpha promoter activity in MT-2 cells and transactivation of the IL-1alpha promoter by exogenous NF-kappaB and Tax in Jurkat cells.
+# T20 Protein S8 62 71 1408 1417 IL-1alpha
+# T21 Protein S8 131 140 1477 1486 IL-1alpha
+# T22 Protein S8 177 180 1523 1526 Tax
+$ T21 Protein S8 131 140 1477 1486 IL-1alpha
+$ T22 Protein S8 177 180 1523 1526 Tax
+@ T33 Negative_regulation S8 54 61 1400 1407 reduced
+@ T34 Positive_regulation S8 108 123 1454 1469 transactivation
+@ T35 Entity S8 141 149 1487 1495 promoter
+% E7 Negative_regulation:T33 Theme:E9
+% E8 Negative_regulation:T33 Theme:E10
+% E9 Positive_regulation:T34 Theme:T21 Site:T35
+% E10 Positive_regulation:T34 Theme:T21 Cause:T22 Site:T35
+
+These data suggest a general role for Tax induction of IL-1alpha gene transcription by the NF-kappaB pathway.
+# T23 Protein S9 38 41 1582 1585 Tax
+# T24 Protein S9 55 64 1599 1608 IL-1alpha
+$ T23 Protein S9 38 41 1582 1585 Tax
+$ T24 Protein S9 55 64 1599 1608 IL-1alpha
+@ T36 Regulation S9 21 33 1565 1577 general role
+@ T37 Positive_regulation S9 42 51 1586 1595 induction
+@ T38 Transcription S9 70 83 1614 1627 transcription
+@ T39 Positive_regulation S9 84 86 1628 1630 by
+% E11 Regulation:T36 Theme:E14 Cause:E12
+% E12 Positive_regulation:T37 Theme:T23
+% E13 Transcription:T38 Theme:T24
+% E14 Positive_regulation:T39 Theme:E13
+
+Expression of IL-1alpha by HTLV-I productively infected cells may be important in the hypercalcemia, osteolytic bone lesions, neutrophilia, elevation of C-reactive protein, and fever frequently seen in patients with HTLV-I-induced adult T-cell leukemia/lymphoma.
+# T25 Protein S10 14 23 1668 1677 IL-1alpha
+$ T25 Protein S10 14 23 1668 1677 IL-1alpha
+@ T40 Gene_expression S10 0 10 1654 1664 Expression
+% E15 Gene_expression:T40 Theme:T25
+

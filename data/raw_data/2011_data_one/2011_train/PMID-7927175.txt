@@ -1,0 +1,45 @@
+An overexpression of retinoic acid receptor alpha blocks myeloid cell differentiation at the promyelocyte stage
+# T1 Protein S1 21 49 21 49 retinoic acid receptor alpha
+$ T1 Protein S1 21 49 21 49 retinoic acid receptor alpha
+@ T10 Positive_regulation S1 3 17 3 17 overexpression
+@ T11 Gene_expression S1 3 17 3 17 overexpression
+% E1 Positive_regulation:T10 Theme:E2
+% E2 Gene_expression:T11 Theme:T1
+
+Retinoic acid (RA), a vitamin A derivative, exerts a wide range of biological effects related to cell proliferation and differentiation.
+
+The pleiotropic effects of RA are thought to be mediated through specific nuclear RA receptors (RARs).
+
+RARs are members of the steroid/thyroid hormone receptor superfamily and exhibit a molecular structure that possess discrete DNA-binding and RA (ligand)-binding domains.
+
+In hematopoietic system, RA and RARs, predominantly RAR alpha may play key roles for the proliferation and differentiation of hematopoietic progenitors.
+# T2 Protein S5 52 61 577 586 RAR alpha
+
+However, it is currently unknown how RA and RARs are involved in regulating normal hematopoietic differentiation.
+
+To make clear the roles of RA and RAR alpha in the normal hematopoiesis, I have introduced the construct of human RAR alpha (hRAR alpha) into murine bone marrow cells with retroviral vector, and selected infected cells with drug resistant marker (Neo(r)) cultured on the stroma cell line (PA6-neo), and analyzed the behavior of infected cells.
+# T3 Protein S7 34 43 826 835 RAR alpha
+# T4 Protein S7 114 123 906 915 RAR alpha
+# T5 Protein S7 125 135 917 927 hRAR alpha
+
+All of procedure were done in vitro.
+
+Most cells infected with hRAR alpha exhibited promyelocytic morphology and were thought to be blocked at the promyelocytic stage in their myeloid differentiation.
+# T6 Protein S9 25 35 1198 1208 hRAR alpha
+
+Furthermore, these immature cells differentiated terminally into mature granulocytes by adding with RA (10(-6) M).
+
+RAR alpha infected cells were also able to differentiate into mature macrophages in the both of long term culture and IL3 colony.
+# T7 Protein S11 0 9 1451 1460 RAR alpha
+
+These observations suggest that an overexpression of RAR alpha alone is effective to suppress myeloid cell differentiation and RAR alpha plays a crucial role in the terminal differentiation of myeloid precursors.
+# T8 Protein S12 53 62 1634 1643 RAR alpha
+# T9 Protein S12 127 136 1708 1717 RAR alpha
+$ T8 Protein S12 53 62 1634 1643 RAR alpha
+@ T12 Gene_expression S12 35 49 1616 1630 overexpression
+@ T13 Positive_regulation S12 35 49 1616 1630 overexpression
+% E3 Gene_expression:T12 Theme:T8
+% E4 Positive_regulation:T13 Theme:E3
+
+The system described here may serve as a model for studying the the essential genes for differentiation of normal bone marrow cells.
+

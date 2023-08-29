@@ -1,0 +1,80 @@
+Thrombin and thrombin receptor agonist peptide induce early events of T cell activation and synergize with TCR cross-linking for CD69 expression and interleukin 2 production.
+# T1 Protein S1 0 8 0 8 Thrombin
+# T2 Protein S1 129 133 129 133 CD69
+# T3 Protein S1 149 162 149 162 interleukin 2
+$ T1 Protein S1 0 8 0 8 Thrombin
+$ T2 Protein S1 129 133 129 133 CD69
+$ T3 Protein S1 149 162 149 162 interleukin 2
+@ T24 Positive_regulation S1 92 101 92 101 synergize
+@ T25 Gene_expression S1 134 144 134 144 expression
+@ T26 Gene_expression S1 163 173 163 173 production
+% E1 Positive_regulation:T24 Theme:E5
+% E2 Positive_regulation:T24 Theme:E6 Cause:T1
+% E3 Positive_regulation:T24 Theme:E5 Cause:T1
+% E4 Positive_regulation:T24 Theme:E6
+% E5 Gene_expression:T25 Theme:T2
+% E6 Gene_expression:T26 Theme:T3
+
+Thrombin stimulation of the T leukemic cell line Jurkat induced a transient increase in [Ca2+]i. Proteolytic activity of the enzyme was required for this effect since diisopropyl fluorophosphate-thrombin failed to increase [Ca2+]i. Furthermore, hirudin and anti-thrombin III inhibited the thrombin-induced [Ca2+]i rise in Jurkat T cells.
+# T4 Protein S2 0 8 176 184 Thrombin
+# T5 Protein S2 195 203 371 379 thrombin
+# T6 Protein S2 262 274 438 450 thrombin III
+# T7 Protein S2 289 297 465 473 thrombin
+
+A synthetic thrombin receptor agonist peptide (TRP) of 7 residues (SFLLRNP) was found to be as effective as thrombin for [Ca2+]i mobilization, and both agonists induced Ca2+ release exclusively from internal stores.
+# T8 Protein S3 108 116 622 630 thrombin
+
+Thrombin stimulated tyrosine phosphorylation of several proteins of molecular mass 40, 42, 70, 120, and 130 kDa.
+# T9 Protein S4 0 8 730 738 Thrombin
+
+There was a good correlation between thrombin-induced tyrosine phosphorylation of the latter three proteins and Ca2+ mobilization.
+# T10 Protein S5 37 45 880 888 thrombin
+
+Thrombin and TRP also caused translocation of protein kinase C from the cytosol to the plasma membrane.
+# T11 Protein S6 0 8 974 982 Thrombin
+
+As a likely consequence of these events, thrombin activated the nuclear factor NF-kB.
+# T12 Protein S7 41 49 1119 1127 thrombin
+
+Several cell lines of hematopoietic origin including the leukemic T cell line HPB.ALL and the erythroleukemic cell line K562 were responsive to thrombin, whereas others such as THP1, a myelomonocytic cell line, and BL2, a Burkitt lymphoma were refractory to thrombin or TRP stimulation.
+# T13 Protein S8 144 152 1308 1316 thrombin
+# T14 Protein S8 258 266 1422 1430 thrombin
+
+The magnitude of the thrombin response in the different cell types paralleled the expression of the thrombin receptor mRNA.
+# T15 Protein S9 21 29 1472 1480 thrombin
+# T16 Protein S9 100 117 1551 1568 thrombin receptor
+$ T16 Protein S9 100 117 1551 1568 thrombin receptor
+@ T27 Transcription S9 82 92 1533 1543 expression
+% E7 Transcription:T27 Theme:T16
+
+We found that activation of Jurkat T cells by a combination of phytohemagglutinin and phorbol 12-myristate 13-acetate led to a dramatic inhibition of thrombin receptor mRNA expression and to a concomitant loss of the thrombin response.
+# T17 Protein S10 63 81 1638 1656 phytohemagglutinin
+# T18 Protein S10 150 167 1725 1742 thrombin receptor
+# T19 Protein S10 217 225 1792 1800 thrombin
+$ T18 Protein S10 150 167 1725 1742 thrombin receptor
+@ T28 Negative_regulation S10 136 146 1711 1721 inhibition
+@ T29 Transcription S10 173 183 1748 1758 expression
+% E8 Negative_regulation:T28 Theme:E9
+% E9 Transcription:T29 Theme:T18
+
+Finally, we demonstrate that thrombin and TRP enhanced CD69 expression and interleukin 2 production induced by T cell receptor cross-linking in both Jurkat T cells and peripheral blood lymphocytes.
+# T20 Protein S11 29 37 1840 1848 thrombin
+# T21 Protein S11 55 59 1866 1870 CD69
+# T22 Protein S11 75 88 1886 1899 interleukin 2
+$ T20 Protein S11 29 37 1840 1848 thrombin
+$ T21 Protein S11 55 59 1866 1870 CD69
+$ T22 Protein S11 75 88 1886 1899 interleukin 2
+@ T30 Positive_regulation S11 46 54 1857 1865 enhanced
+@ T31 Gene_expression S11 60 70 1871 1881 expression
+@ T32 Gene_expression S11 89 99 1900 1910 production
+@ T33 Positive_regulation S11 100 107 1911 1918 induced
+% E10 Positive_regulation:T30 Theme:E15 Cause:T20
+% E11 Positive_regulation:T30 Theme:E14
+% E12 Gene_expression:T31 Theme:T21
+% E13 Gene_expression:T32 Theme:T22
+% E14 Positive_regulation:T33 Theme:E13
+% E15 Positive_regulation:T33 Theme:E12
+
+These findings highlight the role of thrombin as a potential regulator of T lymphocyte activation.
+# T23 Protein S12 37 45 2046 2054 thrombin
+

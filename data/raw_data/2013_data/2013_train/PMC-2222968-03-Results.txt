@@ -1,0 +1,102 @@
+FOXP3 and GATA3 Kinetics in Differentiating Cells
+# T1 Protein S1 0 5 0 5 FOXP3
+# T2 Protein S1 10 15 10 15 GATA3
+
+The limited capacity of differentiated effector cells to induce FOXP3 expression suggests that iTreg induction has to occur before effector T cell differentiation occurs.
+# T3 Protein S2 64 69 114 119 FOXP3
+$ T3 Protein S2 64 69 114 119 FOXP3
+@ T26 Positive_regulation S2 57 63 107 113 induce
+@ T27 Gene_expression S2 70 80 120 130 expression
+% E1 Positive_regulation:T26 Theme:E2
+% E2 Gene_expression:T27 Theme:T3
+
+Therefore, we analyzed the expression of FOXP3 and GATA3 during the differentiation of naive CD4 T cells into Th0 (neutral, anti-IL-4, anti-IFN-gamma, and anti IL-12), Th2, and iTreg phenotypes.
+# T4 Protein S3 41 46 262 267 FOXP3
+# T5 Protein S3 51 56 272 277 GATA3
+# T6 Protein S3 93 96 314 317 CD4
+# T7 Protein S3 129 133 350 354 IL-4
+# T8 Protein S3 140 149 361 370 IFN-gamma
+# T9 Protein S3 160 165 381 386 IL-12
+$ T4 Protein S3 41 46 262 267 FOXP3
+$ T5 Protein S3 51 56 272 277 GATA3
+@ T28 Gene_expression S3 27 37 248 258 expression
+% E3 Gene_expression:T28 Theme:T4
+% E4 Gene_expression:T28 Theme:T5
+
+After initiation of the differentiation process, FOXP3 and GATA3 showed a similar expression kinetic within the first 3 d, which are considered to be critical in T cell commitment [18].
+# T10 Protein S4 49 54 465 470 FOXP3
+# T11 Protein S4 59 64 475 480 GATA3
+$ T10 Protein S4 49 54 465 470 FOXP3
+$ T11 Protein S4 59 64 475 480 GATA3
+@ T29 Gene_expression S4 82 92 498 508 expression
+% E5 Gene_expression:T29 Theme:T10
+% E6 Gene_expression:T29 Theme:T11
+
+Under Th2 differentiation conditions, FOXP3 mRNA expression increased only marginally (Figure 4A, left panel).
+# T12 Protein S5 38 43 640 645 FOXP3
+$ T12 Protein S5 38 43 640 645 FOXP3
+@ T30 Transcription S5 44 59 646 661 mRNA expression
+@ T31 Positive_regulation S5 60 69 662 671 increased
+% E7 Transcription:T30 Theme:T12
+% E8 Positive_regulation:T31 Theme:E7
+
+Thus, although GATA3 and FOXP3 showed similar kinetics, their expression polarizes at the end of the differentiation process when cells were cultured towards Th2 or iTreg cells, respectively (Figure 4A and 4B).
+# T13 Protein S6 15 20 728 733 GATA3
+# T14 Protein S6 25 30 738 743 FOXP3
+$ T13 Protein S6 15 20 728 733 GATA3
+$ T14 Protein S6 25 30 738 743 FOXP3
+@ T25 Anaphora S6 56 61 769 774 their
+@ T32 Gene_expression S6 62 72 775 785 expression
+% E9 Gene_expression:T32 Theme:T13
+% E10 Gene_expression:T32 Theme:T14
+
+Interestingly, the Th0 cells were expressing more FOXP3 than the Th2 cells, but expressed low levels of GATA3; however, the protein expression slightly differed from mRNA expression, suggesting also posttranslational regulation and degradation as potential additional mechanisms in the differentiation process.
+# T15 Protein S7 50 55 974 979 FOXP3
+# T16 Protein S7 104 109 1028 1033 GATA3
+$ T15 Protein S7 50 55 974 979 FOXP3
+$ T16 Protein S7 104 109 1028 1033 GATA3
+@ T33 Gene_expression S7 34 44 958 968 expressing
+@ T34 Positive_regulation S7 45 49 969 973 more
+@ T35 Gene_expression S7 80 89 1004 1013 expressed
+@ T36 Positive_regulation S7 90 93 1014 1017 low
+% E11 Gene_expression:T33 Theme:T15
+% E12 Positive_regulation:T34 Theme:E11
+% E13 Gene_expression:T35 Theme:T16
+% E14 Positive_regulation:T36 Theme:E13
+
+The phenotype of iTreg cells included an anergic phenotype upon anti-CD3 re-stimulation (Figure S1A), CD103, CTLA-4, GITR, and PD-1 surface expression (Figure S1B).
+# T17 Protein S8 69 72 1304 1307 CD3
+# T18 Protein S8 102 107 1337 1342 CD103
+# T19 Protein S8 109 115 1344 1350 CTLA-4
+# T20 Protein S8 117 121 1352 1356 GITR
+# T21 Protein S8 127 131 1362 1366 PD-1
+$ T18 Protein S8 102 107 1337 1342 CD103
+$ T19 Protein S8 109 115 1344 1350 CTLA-4
+$ T20 Protein S8 117 121 1352 1356 GITR
+$ T21 Protein S8 127 131 1362 1366 PD-1
+@ T37 Gene_expression S8 140 150 1375 1385 expression
+% E15 Gene_expression:T37 Theme:T18
+% E16 Gene_expression:T37 Theme:T19
+% E17 Gene_expression:T37 Theme:T20
+% E18 Gene_expression:T37 Theme:T21
+
+On the single-cell level, it can be seen that cells progress through a transition phase, where GATA3 and FOXP3 expression coexist to some degree in the same cells, which is resolved in iTreg cells after 7 d (Figure 4B).
+# T22 Protein S9 95 100 1495 1500 GATA3
+# T23 Protein S9 105 110 1505 1510 FOXP3
+$ T22 Protein S9 95 100 1495 1500 GATA3
+$ T23 Protein S9 105 110 1505 1510 FOXP3
+@ T38 Gene_expression S9 111 121 1511 1521 expression
+@ T39 Negative_regulation S9 173 181 1573 1581 resolved
+% E19 Gene_expression:T38 Theme:T22
+% E20 Gene_expression:T38 Theme:T23
+% E21 Negative_regulation:T39 Theme:E19
+% E22 Negative_regulation:T39 Theme:E20
+
+Taken together, these data demonstrated that Th2 cells have lost their capacity to express FOXP3 and showed that Th2 and iTreg cells arise from two different differentiation pathways.
+# T24 Protein S10 91 96 1711 1716 FOXP3
+$ T24 Protein S10 91 96 1711 1716 FOXP3
+@ T40 Negative_regulation S10 60 64 1680 1684 lost
+@ T41 Gene_expression S10 83 90 1703 1710 express
+% E23 Negative_regulation:T40 Theme:E24
+% E24 Gene_expression:T41 Theme:T24
+

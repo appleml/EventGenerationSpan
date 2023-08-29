@@ -1,0 +1,87 @@
+Phenotyping splenic DC and BMDC from WT and cpdm mice
+
+DC are heterogeneous and can be categorized into multiple subtypes based on surface markers [13].
+
+To determine if the Sharpin mutation affects DC development in lymphoid tissues, mouse spleens were examined for the distribution of conventional DC (cDC; CD11c+CD8alpha+ and CD11c+CD8alpha-) [13] and plasmacytoid DC (pDC; CD11c-PDCA-1+) [14].
+# T1 Protein S3 20 27 172 179 Sharpin
+# T2 Protein S3 155 160 307 312 CD11c
+# T3 Protein S3 161 169 313 321 CD8alpha
+# T4 Protein S3 175 180 327 332 CD11c
+# T5 Protein S3 181 189 333 341 CD8alpha
+# T6 Protein S3 223 228 375 380 CD11c
+# T7 Protein S3 229 235 381 387 PDCA-1
+$ T1 Protein S3 20 27 172 179 Sharpin
+@ T21 Negative_regulation S3 28 36 180 188 mutation
+% E1 Negative_regulation:T21 Theme:T1
+
+The percentages for splenic cDC and pDC were both reduced in cpdm mice when compared with WT controls (Fig. 2A).
+
+However, when gated on CD11c+ cDC, the percentages of CD8alpha+ and CD8alpha- cells were not affected by SHARPIN deficiency (Fig. 2A).
+# T8 Protein S5 105 112 614 621 SHARPIN
+$ T8 Protein S5 105 112 614 621 SHARPIN
+@ T22 Negative_regulation S5 113 123 622 632 deficiency
+% E2 Negative_regulation:T22 Theme:T8
+
+Since the spleen of cpdm mice is markedly enlarged and contains three times as many cells (Fig. 1C), the different percentages of splenic cDC and pDC between WT and mutant mice reflect the increased number of total spleen cells rather than a reduction in cDC and pDC numbers.
+
+These data indicate that the Sharpin mutation does not affect the distribution of the examined DC subsets in the spleen.
+# T9 Protein S7 29 36 949 956 Sharpin
+$ T9 Protein S7 29 36 949 956 Sharpin
+@ T23 Negative_regulation S7 37 45 957 965 mutation
+% E3 Negative_regulation:T23 Theme:T9
+
+BMDC from in vitro cultures functionally resemble non-lymphoid tissue DC and monocyte-derived inflammatory DC [15], [16].
+
+The yields of BMDC from WT and cpdm mice were similar.
+
+BMDC were CD11c+ and MHC II+ with low expression of co-stimulatory molecules CD40, CD80, and CD86.
+# T10 Protein S10 10 15 1228 1233 CD11c
+# T11 Protein S10 77 81 1295 1299 CD40
+# T12 Protein S10 83 87 1301 1305 CD80
+# T13 Protein S10 93 97 1311 1315 CD86
+
+The TLR3 ligand poly I:C and the TLR4 ligand LPS each activate overlapping but different signaling pathways and were used to induce DC maturation [17], [18].
+# T14 Protein S11 4 8 1321 1325 TLR3
+# T15 Protein S11 33 37 1350 1354 TLR4
+$ T14 Protein S11 4 8 1321 1325 TLR3
+$ T15 Protein S11 33 37 1350 1354 TLR4
+@ T24 Binding S11 9 15 1326 1332 ligand
+@ T25 Binding S11 38 44 1355 1361 ligand
+% E4 Binding:T24 Theme:T14
+% E5 Binding:T25 Theme:T15
+
+Incubation with the TLR agonists for 24 hours resulted in increased expression of CD40, CD80, and CD86 on BMDC; however, there was no difference in the expression levels of these markers between WT and cpdm BMDC (Fig. 2B).
+# T16 Protein S12 82 86 1557 1561 CD40
+# T17 Protein S12 88 92 1563 1567 CD80
+# T18 Protein S12 98 102 1573 1577 CD86
+$ T16 Protein S12 82 86 1557 1561 CD40
+$ T17 Protein S12 88 92 1563 1567 CD80
+$ T18 Protein S12 98 102 1573 1577 CD86
+@ T26 Positive_regulation S12 46 54 1521 1529 resulted
+@ T27 Positive_regulation S12 58 67 1533 1542 increased
+@ T28 Gene_expression S12 68 78 1543 1553 expression
+@ T29 Regulation S12 134 144 1609 1619 difference
+@ T30 Gene_expression S12 152 162 1627 1637 expression
+@ T20 Anaphora S12 173 186 1648 1661 these markers
+% E6 Positive_regulation:T26 Theme:E7
+% E8 Positive_regulation:T26 Theme:E9
+% E10 Positive_regulation:T26 Theme:E11
+% E7 Positive_regulation:T27 Theme:E12
+% E9 Positive_regulation:T27 Theme:E13
+% E11 Positive_regulation:T27 Theme:E14
+% E12 Gene_expression:T28 Theme:T16
+% E13 Gene_expression:T28 Theme:T17
+% E14 Gene_expression:T28 Theme:T18
+% E15 Regulation:T29 Theme:E16
+% E17 Regulation:T29 Theme:E18
+% E19 Regulation:T29 Theme:E20
+% E16 Gene_expression:T30 Theme:T16
+% E18 Gene_expression:T30 Theme:T17
+% E20 Gene_expression:T30 Theme:T18
+
+Thus, SHARPIN deficiency did not influence the expression of co-stimulatory molecules by BMDC.
+# T19 Protein S13 6 13 1704 1711 SHARPIN
+$ T19 Protein S13 6 13 1704 1711 SHARPIN
+@ T31 Negative_regulation S13 14 24 1712 1722 deficiency
+% E21 Negative_regulation:T31 Theme:T19
+

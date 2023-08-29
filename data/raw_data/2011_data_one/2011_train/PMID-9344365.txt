@@ -1,0 +1,43 @@
+Suppression of nuclear factor kappa B and CD18-mediated leukocyte adhesion to the corneal endothelium by dexamethasone.
+# T1 Protein S1 42 46 42 46 CD18
+
+PURPOSE: To demonstrate that leukocyte adhesion to cultured corneal endothelial cells is mediated by the CD18 antigen, and to determine whether dexamethasone directly suppresses adhesion by inhibiting activation of nuclear factor kappa B (NFkappaB).
+# T2 Protein S2 105 109 226 230 CD18
+
+METHODS: Cultured bovine corneal endothelium was stimulated for 6 hours by 40 micron/ml tumor necrosis factor alpha (TNFalpha).
+# T3 Protein S3 88 115 459 486 tumor necrosis factor alpha
+# T4 Protein S3 117 125 488 496 TNFalpha
+
+Dexamethasone was added 1 hour before TNFalpha stimulation in the dexamethasone group.
+# T5 Protein S4 38 46 537 545 TNFalpha
+
+After stimulation, neutrophils separated from a healthy human volunteer were added with or without anti-CD18 antibody.
+# T6 Protein S5 104 108 690 694 CD18
+
+The culture plate was settled for 15 minutes at 37 degrees C, and then neutrophils were activated by N-formyl-methionyl-leucyl-phenylalanine for 5 minutes.
+
+Nonadherent neutrophils were removed by sealing and inverting the culture well.
+
+The intracellular localization of NFkappaB after TNFalpha simulation was determined by confocal immunocytochemistry using an anti-p65 antibody.
+# T7 Protein S8 49 57 990 998 TNFalpha
+# T8 Protein S8 130 133 1071 1074 p65
+
+RESULTS: Neutrophil adhesion to cultured corneal endothelial cells increased significantly on exposure to TNFalpha (451.4+/-45.4 cells/mm2, n = 16) compared to control (156.7+/-27.3 cells/mm2, n = 16, P < 0.01).
+# T9 Protein S9 106 114 1191 1199 TNFalpha
+
+This increased adhesion was suppressed by the addition of anti-CD18 antibody (157.6+/-25.1 cells/mm2, n = 8, P < 0.01) and by pretreatment with 10(-7) M dexamethasone (207.9+/-31.5 cells/mm2, n = 10, P < 0.01).
+# T10 Protein S10 63 67 1360 1364 CD18
+
+Immunocytochemistry 60 minutes after stimulation revealed that NFkappaB was located in the cytoplasm in unstimulated cells; however, the addition of TNFalpha caused NFkappaB to translocate into the nucleus.
+# T11 Protein S11 149 157 1657 1665 TNFalpha
+
+Pretreatment with dexamethasone tapered NFkappaB translocation into the nucleus.
+
+CONCLUSIONS: Leukocyte adhesion to the corneal endothelium was shown to be mediated by CD18 expressed on activated leukocytes.
+# T12 Protein S13 87 91 1883 1887 CD18
+$ T12 Protein S13 87 91 1883 1887 CD18
+@ T13 Gene_expression S13 92 101 1888 1897 expressed
+% E1 Gene_expression:T13 Theme:T12
+
+Pretreatment of the endothelium with dexamethasone inhibited leukocyte adhesion; this may be due in part to the suppression of NFkappaB entry into the nucleus.
+

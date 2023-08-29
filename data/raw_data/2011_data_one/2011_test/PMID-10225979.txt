@@ -1,0 +1,32 @@
+Constitutive activation of an epithelial signal transducer and activator of transcription (STAT) pathway in asthma.
+
+Cytokine effects on immunity and inflammation often depend on the transcription factors termed signal transducers and activators of transcription (STATs), so STAT signaling pathways are candidates for influencing inflammatory disease.
+
+We reasoned that selective IFN responsiveness of the first STAT family member (Stat1) and Stat1-dependent immune-response genes such as intercellular adhesion molecule-1 (ICAM-1), IFN regulatory factor-1 (IRF-1), and Stat1 itself in airway epithelial cells provides a basis for detecting cytokine signaling abnormalities in inflammatory airway disease.
+# T1 Protein S3 79 84 431 436 Stat1
+# T2 Protein S3 90 95 442 447 Stat1
+# T3 Protein S3 136 169 488 521 intercellular adhesion molecule-1
+# T4 Protein S3 171 177 523 529 ICAM-1
+# T5 Protein S3 180 203 532 555 IFN regulatory factor-1
+# T6 Protein S3 205 210 557 562 IRF-1
+# T7 Protein S3 217 222 569 574 Stat1
+
+On the basis of nuclear localization and phosphorylation, we found that epithelial Stat1 (but not other control transcription factors) was invariably activated in asthmatic compared with normal control or chronic bronchitis subjects.
+# T8 Protein S4 83 88 788 793 Stat1
+
+Furthermore, epithelial levels of activated Stat1 correlated with levels of expression for epithelial ICAM-1, IRF-1, and Stat1, and in turn, ICAM-1 levels correlated with T-cell accumulation in tissue.
+# T9 Protein S5 44 49 983 988 Stat1
+# T10 Protein S5 102 108 1041 1047 ICAM-1
+# T11 Protein S5 110 115 1049 1054 IRF-1
+# T12 Protein S5 121 126 1060 1065 Stat1
+# T13 Protein S5 141 147 1080 1086 ICAM-1
+
+However, only low levels of IFN-gamma or IFN-gamma-producing cells were detected in airway tissue in all subjects.
+# T14 Protein S6 28 37 1169 1178 IFN-gamma
+# T15 Protein S6 41 50 1182 1191 IFN-gamma
+
+The results therefore provide initial evidence linking abnormal behavior of STAT pathways for cytokine signaling to the development of an inflammatory disease.
+
+In that context, the results also change the current scheme for asthma pathogenesis to one that must include a localized gain in transcriptional signal ordinarily used for a T helper 1-type cytokine (IFN-gamma) in combination with allergy-driven overproduction of T helper 2-type cytokines.
+# T16 Protein S8 200 209 1616 1625 IFN-gamma
+

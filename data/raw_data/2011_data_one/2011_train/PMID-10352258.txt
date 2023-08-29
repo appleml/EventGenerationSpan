@@ -1,0 +1,54 @@
+In vivo inhibition of NF-kappa B in T-lineage cells leads to a dramatic decrease in cell proliferation and cytokine production and to increased cell apoptosis in response to mitogenic stimuli, but not to abnormal thymopoiesis.
+
+To understand the role of NF-kappa B complexes in T cell development and activation, we have generated transgenic mice in which RelA and c-Rel complexes were selectively inhibited in the T-lineage cells by specific expression of a trans-dominant form of I kappa B alpha.
+# T1 Protein S2 128 132 356 360 RelA
+# T2 Protein S2 137 142 365 370 c-Rel
+# T3 Protein S2 254 269 482 497 I kappa B alpha
+$ T1 Protein S2 128 132 356 360 RelA
+$ T2 Protein S2 137 142 365 370 c-Rel
+$ T3 Protein S2 254 269 482 497 I kappa B alpha
+@ T10 Negative_regulation S2 170 179 398 407 inhibited
+@ T11 Gene_expression S2 215 225 443 453 expression
+% E1 Negative_regulation:T10 Theme:T1 Cause:E3
+% E2 Negative_regulation:T10 Theme:T2 Cause:E3
+% E3 Gene_expression:T11 Theme:T3
+
+Transgene expression did not affect the thymic development, but led to lowered numbers of splenic T cells and to a dramatic decrease in the ex vivo proliferative response of splenic T lymphocytes.
+@ T12 Gene_expression S3 10 20 509 519 expression
+% E4 Gene_expression:T12 Theme:T3
+
+Analysis of IL-2 and IL-2R alpha expression demonstrated that the perturbation of the proliferation response was not attributable to an abnormal expression of these genes.
+# T4 Protein S4 12 16 708 712 IL-2
+# T5 Protein S4 21 32 717 728 IL-2R alpha
+$ T5 Protein S4 21 32 717 728 IL-2R alpha
+$ T4 Protein S4 12 16 708 712 IL-2
+@ T13 Gene_expression S4 33 43 729 739 expression
+@ T14 Negative_regulation S4 136 144 832 840 abnormal
+@ T15 Gene_expression S4 145 155 841 851 expression
+% E5 Gene_expression:T13 Theme:T5
+% E6 Gene_expression:T13 Theme:T4
+% E7 Negative_regulation:T14 Theme:E9
+% E8 Negative_regulation:T14 Theme:E10
+% E9 Gene_expression:T15 Theme:T4
+% E10 Gene_expression:T15 Theme:T5
+
+In contrast, expression of IL-4, IL-10, and IFN-gamma was strongly inhibited in the transgenic T cells.
+# T6 Protein S5 27 31 895 899 IL-4
+# T7 Protein S5 33 38 901 906 IL-10
+# T8 Protein S5 44 53 912 921 IFN-gamma
+$ T7 Protein S5 33 38 901 906 IL-10
+$ T6 Protein S5 27 31 895 899 IL-4
+$ T8 Protein S5 44 53 912 921 IFN-gamma
+@ T16 Gene_expression S5 13 23 881 891 expression
+@ T17 Negative_regulation S5 67 76 935 944 inhibited
+% E11 Gene_expression:T16 Theme:T7
+% E12 Gene_expression:T16 Theme:T6
+% E13 Gene_expression:T16 Theme:T8
+% E14 Negative_regulation:T17 Theme:E12
+% E15 Negative_regulation:T17 Theme:E11
+
+The proliferative deficiency of the transgenic T cells was associated with an increased apoptosis.
+
+These results point out the involvement of NF-kappa B/Rel family proteins in growth signaling pathways by either regulating proteins involved in the IL-2 signaling or by functionally interfering with the cell cycle progression.
+# T9 Protein S7 149 153 1220 1224 IL-2
+

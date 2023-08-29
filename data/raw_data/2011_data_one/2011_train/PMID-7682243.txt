@@ -1,0 +1,124 @@
+Functional antagonism between vitamin D3 and retinoic acid in the regulation of CD14 and CD23 expression during monocytic differentiation of U-937 cells.
+# T1 Protein S1 80 84 80 84 CD14
+# T2 Protein S1 89 93 89 93 CD23
+$ T1 Protein S1 80 84 80 84 CD14
+$ T2 Protein S1 89 93 89 93 CD23
+@ T16 Regulation S1 66 76 66 76 regulation
+@ T17 Gene_expression S1 94 104 94 104 expression
+% E1 Regulation:T16 Theme:E3
+% E2 Regulation:T16 Theme:E4
+% E3 Gene_expression:T17 Theme:T1
+% E4 Gene_expression:T17 Theme:T2
+
+1,25 alpha-Dihydroxicholecalciferol (VitD3) and retinoic acid (RA) are important regulators of the proliferation and differentiation of several cell types.
+
+This paper describes how the expression of the monocyte-macrophage Ag, CD14, and the low affinity Fc receptor for IgE, CD23, were inversely regulated during VitD3- and RA-induced monocytic differentiation of human U-937 monoblasts.
+# T3 Protein S3 71 75 382 386 CD14
+# T4 Protein S3 119 123 430 434 CD23
+$ T3 Protein S3 71 75 382 386 CD14
+$ T4 Protein S3 119 123 430 434 CD23
+@ T18 Gene_expression S3 29 39 340 350 expression
+@ T19 Regulation S3 140 149 451 460 regulated
+% E5 Gene_expression:T18 Theme:T3
+% E6 Gene_expression:T18 Theme:T4
+% E7 Regulation:T19 Theme:E5
+% E8 Regulation:T19 Theme:E6
+
+PMA induced the expression of both CD14 and CD23 mRNA and protein.
+# T5 Protein S4 35 39 578 582 CD14
+# T6 Protein S4 44 48 587 591 CD23
+$ T5 Protein S4 35 39 578 582 CD14
+$ T6 Protein S4 44 48 587 591 CD23
+@ T20 Positive_regulation S4 4 11 547 554 induced
+@ T21 Gene_expression S4 16 26 559 569 expression
+@ T22 Transcription S4 16 26 559 569 expression
+% E9 Positive_regulation:T20 Theme:E15
+% E10 Positive_regulation:T20 Theme:E14
+% E11 Positive_regulation:T20 Theme:E13
+% E12 Positive_regulation:T20 Theme:E16
+% E13 Gene_expression:T21 Theme:T5
+% E16 Gene_expression:T21 Theme:T6
+% E14 Transcription:T22 Theme:T6
+% E15 Transcription:T22 Theme:T5
+
+Exposure to VitD3 rapidly induced the de novo expression of CD14 mRNA and protein.
+# T7 Protein S5 60 64 670 674 CD14
+$ T7 Protein S5 60 64 670 674 CD14
+@ T23 Positive_regulation S5 26 33 636 643 induced
+@ T24 Gene_expression S5 46 56 656 666 expression
+@ T25 Transcription S5 46 56 656 666 expression
+% E17 Positive_regulation:T23 Theme:E20
+% E18 Positive_regulation:T23 Theme:E19
+% E19 Gene_expression:T24 Theme:T7
+% E20 Transcription:T25 Theme:T7
+
+The addition of cycloheximide completely blocked the VitD3 induction of CD14 mRNA expression, indicating that the induction was dependent on ongoing protein synthesis.
+# T8 Protein S6 72 76 765 769 CD14
+$ T8 Protein S6 72 76 765 769 CD14
+@ T26 Negative_regulation S6 41 48 734 741 blocked
+@ T27 Positive_regulation S6 59 68 752 761 induction
+@ T28 Transcription S6 82 92 775 785 expression
+@ T29 Regulation S6 128 137 821 830 dependent
+% E21 Negative_regulation:T26 Theme:E22
+% E22 Positive_regulation:T27 Theme:E23
+% E23 Transcription:T28 Theme:T8
+% E24 Regulation:T29 Theme:E22
+
+While inducing CD14 expression, VitD3 concomitantly suppressed the basal, PMA-, and RA-inducible CD23 expression in a dose-dependent manner.
+# T9 Protein S7 15 19 876 880 CD14
+# T10 Protein S7 97 101 958 962 CD23
+$ T9 Protein S7 15 19 876 880 CD14
+$ T10 Protein S7 97 101 958 962 CD23
+@ T30 Positive_regulation S7 6 14 867 875 inducing
+@ T31 Gene_expression S7 20 30 881 891 expression
+@ T32 Negative_regulation S7 52 62 913 923 suppressed
+@ T33 Positive_regulation S7 87 96 948 957 inducible
+@ T34 Gene_expression S7 102 112 963 973 expression
+% E25 Positive_regulation:T30 Theme:E26
+% E26 Gene_expression:T31 Theme:T9
+% E27 Negative_regulation:T32 Theme:E30
+% E28 Negative_regulation:T32 Theme:E29
+% E29 Positive_regulation:T33 Theme:E30
+% E30 Gene_expression:T34 Theme:T10
+
+In contrast, U-937 cells induced by RA strongly increased their expression of CD23 mRNA and protein, whereas they completely lacked detectable CD14 cell surface or mRNA expression.
+# T11 Protein S8 78 82 1080 1084 CD23
+# T12 Protein S8 143 147 1145 1149 CD14
+$ T11 Protein S8 78 82 1080 1084 CD23
+$ T12 Protein S8 143 147 1145 1149 CD14
+@ T35 Positive_regulation S8 48 57 1050 1059 increased
+@ T36 Transcription S8 64 74 1066 1076 expression
+@ T37 Gene_expression S8 64 74 1066 1076 expression
+@ T38 Gene_expression S8 169 179 1171 1181 expression
+@ T39 Transcription S8 169 179 1171 1181 expression
+% E31 Positive_regulation:T35 Theme:E34
+% E32 Positive_regulation:T35 Theme:E33
+% E33 Transcription:T36 Theme:T11
+% E34 Gene_expression:T37 Theme:T11
+% E35 Gene_expression:T38 Theme:T12
+% E36 Transcription:T39 Theme:T12
+
+Furthermore, the VitD3- and the PMA-induced CD14 expression was inhibited as a temporal consequence of the RA-induced differentiation.
+# T13 Protein S9 44 48 1227 1231 CD14
+$ T13 Protein S9 44 48 1227 1231 CD14
+@ T40 Positive_regulation S9 36 43 1219 1226 induced
+@ T41 Gene_expression S9 49 59 1232 1242 expression
+@ T42 Negative_regulation S9 64 73 1247 1256 inhibited
+@ T43 Positive_regulation S9 74 102 1257 1285 as a temporal consequence of
+% E37 Positive_regulation:T40 Theme:E38
+% E38 Gene_expression:T41 Theme:T13
+% E39 Negative_regulation:T42 Theme:E37
+% E40 Positive_regulation:T43 Theme:E39
+
+The results suggest that there exists a functional antagonism between VitD3 and RA that may have important implications for the regulation of certain immune and inflammatory responses through their inverse effects on CD14 and CD23 gene expression.
+# T14 Protein S10 217 221 1535 1539 CD14
+# T15 Protein S10 226 230 1544 1548 CD23
+$ T15 Protein S10 226 230 1544 1548 CD23
+$ T14 Protein S10 217 221 1535 1539 CD14
+@ T44 Regulation S10 206 213 1524 1531 effects
+@ T45 Gene_expression S10 231 246 1549 1564 gene expression
+% E41 Regulation:T44 Theme:E44
+% E42 Regulation:T44 Theme:E43
+% E43 Gene_expression:T45 Theme:T15
+% E44 Gene_expression:T45 Theme:T14
+

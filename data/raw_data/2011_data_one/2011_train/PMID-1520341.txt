@@ -1,0 +1,53 @@
+Okadaic acid is a potent inducer of AP-1, NF-kappa B, and tumor necrosis factor-alpha in human B lymphocytes.
+# T1 Protein S1 58 85 58 85 tumor necrosis factor-alpha
+$ T1 Protein S1 58 85 58 85 tumor necrosis factor-alpha
+@ T11 Positive_regulation S1 25 32 25 32 inducer
+% E1 Positive_regulation:T11 Theme:T1
+
+Treatment of human B lymphocytes with an optimal concentration of okadaic acid, an inhibitor of phosphatases 1 and 2A, resulted in the induction of the transcription factor, AP-1 and a marked increase in NF-kappa B levels.
+# T2 Protein S2 96 110 207 221 phosphatases 1
+# T3 Protein S2 115 117 226 228 2A
+$ T2 Protein S2 96 110 207 221 phosphatases 1
+$ T3 Protein S2 115 117 226 228 2A
+@ T12 Negative_regulation S2 83 92 194 203 inhibitor
+% E2 Negative_regulation:T12 Theme:T2
+% E3 Negative_regulation:T12 Theme:T3
+
+In contrast, no effect on the levels of the octamer binding proteins, Oct-1 or Oct-2, were found.
+# T4 Protein S3 70 75 404 409 Oct-1
+# T5 Protein S3 79 84 413 418 Oct-2
+$ T4 Protein S3 70 75 404 409 Oct-1
+$ T5 Protein S3 79 84 413 418 Oct-2
+@ T13 Positive_regulation S3 16 22 350 356 effect
+% E4 Positive_regulation:T13 Theme:T4
+% E5 Positive_regulation:T13 Theme:T5
+
+Since both AP-1 and NF-kappa B have been reported to be important in the induction of the tumor necrosis factor-alpha (TNF-alpha) gene we examined the effects of okadaic acid on TNF-alpha mRNA levels.
+# T6 Protein S4 90 117 522 549 tumor necrosis factor-alpha
+# T7 Protein S4 119 128 551 560 TNF-alpha
+# T8 Protein S4 178 187 610 619 TNF-alpha
+$ T7 Protein S4 119 128 551 560 TNF-alpha
+$ T8 Protein S4 178 187 610 619 TNF-alpha
+@ T14 Regulation S4 56 65 488 497 important
+@ T15 Positive_regulation S4 56 65 488 497 important
+@ T16 Gene_expression S4 73 82 505 514 induction
+@ T17 Regulation S4 151 158 583 590 effects
+% E6 Regulation:T14 Theme:E8
+% E7 Positive_regulation:T15 Theme:E8
+% E8 Gene_expression:T16 Theme:T7
+% E9 Regulation:T17 Theme:T8
+
+Treatment with okadaic acid resulted in a striking increase in TNF-alpha mRNA transcripts within 1 h of stimulation and large amounts of TNF-alpha were released into the culture media.
+# T9 Protein S5 63 72 696 705 TNF-alpha
+# T10 Protein S5 137 146 770 779 TNF-alpha
+$ T9 Protein S5 63 72 696 705 TNF-alpha
+$ T10 Protein S5 137 146 770 779 TNF-alpha
+@ T18 Positive_regulation S5 51 59 684 692 increase
+@ T19 Positive_regulation S5 120 133 753 766 large amounts
+@ T20 Localization S5 152 160 785 793 released
+% E10 Positive_regulation:T18 Theme:T9
+% E11 Positive_regulation:T19 Theme:E12 Cause:E10
+% E12 Localization:T20 Theme:T10
+
+Although okadaic acid provides a potent inductive signal for AP-1 and NF-kappa B it did not induce either B cell proliferation or immunoglobulin secretion.
+

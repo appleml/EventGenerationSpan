@@ -1,0 +1,61 @@
+A lymphoid cell-specific nuclear factor containing c-Rel-like proteins preferentially interacts with interleukin-6 kappa B-related motifs whose activities are repressed in lymphoid cells.
+# T1 Protein S1 51 56 51 56 c-Rel
+# T2 Protein S1 101 114 101 114 interleukin-6
+
+The proto-oncoprotein c-Rel is a member of the nuclear factor kappa B transcription factor family, which includes the p50 and p65 subunits of nuclear factor kappa B.
+# T3 Protein S2 22 27 211 216 c-Rel
+
+We show here that c-Rel binds to kappa B sites as homodimers as well as heterodimers with p50.
+# T4 Protein S3 18 23 373 378 c-Rel
+# T5 Protein S3 90 93 445 448 p50
+$ T4 Protein S3 18 23 373 378 c-Rel
+$ T5 Protein S3 90 93 445 448 p50
+@ T20 Binding S3 24 29 379 384 binds
+@ T21 Binding S3 50 60 405 415 homodimers
+@ T22 Binding S3 72 84 427 439 heterodimers
+% E1 Binding:T20 Theme:T4
+% E2 Binding:T21 Theme:T4
+% E3 Binding:T22 Theme:T4 Theme2:T5
+
+These homodimers and heterodimers show distinct DNA-binding specificities and affinities for various kappa B motifs.
+@ T23 Binding S4 52 73 502 523 binding specificities
+@ T24 Binding S4 78 88 528 538 affinities
+% E4 Binding:T23 Theme:T4
+% E5 Binding:T24 Theme:T4
+
+In particular, the c-Rel homodimer has a high affinity for interleukin-6 (IL-6) and beta interferon kappa B sites.
+# T6 Protein S5 19 24 586 591 c-Rel
+# T7 Protein S5 59 72 626 639 interleukin-6
+# T8 Protein S5 74 78 641 645 IL-6
+# T9 Protein S5 84 99 651 666 beta interferon
+$ T6 Protein S5 19 24 586 591 c-Rel
+$ T9 Protein S5 84 99 651 666 beta interferon
+$ T8 Protein S5 74 78 641 645 IL-6
+@ T25 Binding S5 41 54 608 621 high affinity
+@ T26 Entity S5 100 113 667 680 kappa B sites
+% E6 Binding:T25 Theme:T6 Theme2:T9 Site2:T26
+% E7 Binding:T25 Theme:T6 Theme2:T8 Site2:T26
+
+In spite of its association with p50 in vitro, however, we found a lymphoid cell-specific nuclear factor in vivo that contains c-Rel but not p50 epitopes; this factor, termed IL-6 kappa B binding factor II, appears to contain the c-Rel homodimer and preferentially recognizes several IL-6 kappa B-related kappa B motifs.
+# T10 Protein S6 33 36 715 718 p50
+# T11 Protein S6 127 132 809 814 c-Rel
+# T12 Protein S6 141 144 823 826 p50
+# T13 Protein S6 175 179 857 861 IL-6
+# T14 Protein S6 230 235 912 917 c-Rel
+# T15 Protein S6 284 288 966 970 IL-6
+$ T10 Protein S6 33 36 715 718 p50
+$ T13 Protein S6 175 179 857 861 IL-6
+@ T27 Binding S6 16 27 698 709 association
+@ T28 Binding S6 265 275 947 957 recognizes
+% E8 Binding:T27 Theme:T10 Theme2:T13
+% E9 Binding:T27 Theme:T10
+% E10 Binding:T28 Theme:T13
+
+Although it has been previously shown that the IL-6 kappa B motif functions as a potent IL-1/tumor necrosis factor-responsive element in nonlymphoid cells, its activity was found to be repressed in lymphoid cells such as a Jurkat T-cell line.
+# T16 Protein S7 47 51 1050 1054 IL-6
+# T17 Protein S7 93 114 1096 1117 tumor necrosis factor
+
+We also present evidence that IL-6 kappa B binding factor II functions as a repressor specific for IL-6 kappa B-related kappa B motifs in lymphoid cells.
+# T18 Protein S8 30 34 1276 1280 IL-6
+# T19 Protein S8 99 103 1345 1349 IL-6
+

@@ -1,0 +1,52 @@
+Inhibitor (IK) of IFN-gamma induced HLA class II antigens expression also inhibits HLA class II constitutive expression in the human Raji B cell line.
+# T1 Protein S1 11 13 11 13 IK
+# T2 Protein S1 18 27 18 27 IFN-gamma
+
+The expression of major histocompatibility complex (MHC) class II antigens is constitutive in professional antigen presenting cells (APCs) but can also be induced by interferon-gamma (IFN-gamma) on the majority of the non professional APCs (e.g. fibroblasts).
+# T3 Protein S2 166 182 318 334 interferon-gamma
+# T4 Protein S2 184 193 336 345 IFN-gamma
+
+We have recently characterised a new factor called IK which is an efficient inhibitor of IFN-gamma induction of MHC class II antigens expression.
+# T5 Protein S3 51 53 463 465 IK
+# T6 Protein S3 89 98 501 510 IFN-gamma
+
+Here, we demonstrate a novel role for IK in MHC class II expression since over-expression of this protein by stable transfection into human B cells led to a total disappearance of constitutive MHC class II mRNA expression.
+# T7 Protein S4 38 40 596 598 IK
+$ T7 Protein S4 38 40 596 598 IK
+@ T17 Gene_expression S4 74 89 632 647 over-expression
+@ T18 Positive_regulation S4 74 89 632 647 over-expression
+% E1 Gene_expression:T17 Theme:T7
+% E2 Positive_regulation:T18 Theme:E1
+
+The class II transactivator (CIITA) is necessary for both constitutive and IFN-gamma induced MHC class II expressions.
+# T8 Protein S5 4 27 785 808 class II transactivator
+# T9 Protein S5 29 34 810 815 CIITA
+# T10 Protein S5 75 84 856 865 IFN-gamma
+
+Examination of CIITA mRNA in IK stably transfected clones revealed a marked reduction of CIITA mRNA transcription.
+# T11 Protein S6 15 20 915 920 CIITA
+# T12 Protein S6 29 31 929 931 IK
+# T13 Protein S6 89 94 989 994 CIITA
+$ T11 Protein S6 15 20 915 920 CIITA
+$ T12 Protein S6 29 31 929 931 IK
+$ T13 Protein S6 89 94 989 994 CIITA
+@ T19 Transcription S6 21 25 921 925 mRNA
+@ T20 Positive_regulation S6 39 50 939 950 transfected
+@ T21 Gene_expression S6 39 50 939 950 transfected
+@ T22 Negative_regulation S6 76 85 976 985 reduction
+@ T23 Transcription S6 100 113 1000 1013 transcription
+% E3 Transcription:T19 Theme:T11
+% E4 Positive_regulation:T20 Theme:E5
+% E5 Gene_expression:T21 Theme:T12
+% E6 Negative_regulation:T22 Theme:E7 Cause:E4
+% E7 Transcription:T23 Theme:T13
+
+Taken together these results demonstrate that the IK protein plays a key role in the constitutive expression of MHC class II antigens and that inhibition induced by IK is upstream of CIITA in this regulatory pathway.
+# T14 Protein S7 50 52 1065 1067 IK
+# T15 Protein S7 165 167 1180 1182 IK
+# T16 Protein S7 183 188 1198 1203 CIITA
+$ T16 Protein S7 183 188 1198 1203 CIITA
+$ T15 Protein S7 165 167 1180 1182 IK
+@ T24 Negative_regulation S7 143 153 1158 1168 inhibition
+% E8 Negative_regulation:T24 Theme:T16 Cause:T15
+

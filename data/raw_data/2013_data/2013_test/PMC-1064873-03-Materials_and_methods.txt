@@ -1,0 +1,19 @@
+Isolation of CD4+ T cells
+# T1 Protein S1 13 16 13 16 CD4
+
+Peripheral blood mononuclear cells (PBMC) were prepared from heparinized blood samples by centrifugation over Ficoll-Hypaque density gradients (Pharmacia, Uppsala, Sweden).
+
+CD4+ T cells were purified from PBMC by positive selection using anti-CD4 mAb-coated magnetic beads (Miltenyi Biotec, Gladbach, Germany), according to the manufacturer's instructions.
+# T2 Protein S3 0 3 199 202 CD4
+# T3 Protein S3 70 73 269 272 CD4
+
+CD4+ T cells were isolated from ST samples, as previously described [27].
+# T4 Protein S4 0 3 383 386 CD4
+
+Briefly, fresh ST samples were fragmented and digested with collagenase and DNase for 1 hour at 37degreesC.
+
+After removing tissue debris, ST cell suspensions in culture medium (RPMI 1640 medium; Life Technologies, Gaithersburg, MD, USA) supplemented with 25 mM HEPES (2 mM L-glutamine, 2% nonessential amino acids, 100 IU/ml penicillin, and 100 mg/ml streptomycin; Life Technologies) with 10% heat-inactivated FCS (Life Technologies) were incubated at 37degreesC in six-well plates (Coster, Cambridge, MA, USA) for 45 min.
+
+Non-adherent cells were harvested and CD4+ T cells were purified by positive selection as already described.
+# T5 Protein S7 38 41 1018 1021 CD4
+

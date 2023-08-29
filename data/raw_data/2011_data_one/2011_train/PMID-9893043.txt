@@ -1,0 +1,85 @@
+CD2 signalling induces phosphorylation of CREB in primary lymphocytes.
+# T1 Protein S1 42 46 42 46 CREB
+$ T1 Protein S1 42 46 42 46 CREB
+@ T20 Positive_regulation S1 15 22 15 22 induces
+@ T21 Phosphorylation S1 23 38 23 38 phosphorylation
+% E1 Positive_regulation:T20 Theme:E2
+% E2 Phosphorylation:T21 Theme:T1
+
+Promoter sequences responsive to cyclic AMP (cAMP) are found in a number of cellular genes, and bind transcription factors of the cAMP response element binding protein (CREB)/activating transcription factor-1 (ATF-1) family.
+# T2 Protein S2 130 167 202 239 cAMP response element binding protein
+# T3 Protein S2 169 173 241 245 CREB
+# T4 Protein S2 175 208 247 280 activating transcription factor-1
+# T5 Protein S2 210 215 282 287 ATF-1
+
+We have used a human T-lymphotropic virus type 1 (HTLV-1) model of cAMP response element (CRE) transcription to investigate the influence of lymphocyte activation on transcription from homologous regions in the viral promoter.
+
+We previously demonstrated increased HTLV-1 transcription following CD2 but not CD3 receptor cross-linking.
+# T6 Protein S4 68 71 592 595 CD2
+$ T6 Protein S4 68 71 592 595 CD2
+@ T22 Binding S4 93 106 617 630 cross-linking
+% E3 Binding:T22 Theme:T6
+
+We hypothesized that this increased viral transcription was mediated, in part, through the phosphorylation of CREB.
+# T7 Protein S5 110 114 742 746 CREB
+$ T7 Protein S5 110 114 742 746 CREB
+@ T23 Phosphorylation S5 91 106 723 738 phosphorylation
+% E4 Phosphorylation:T23 Theme:T7
+
+Therefore, we investigated CD2 and CD3 receptor-mediated signalling in primary human peripheral blood mononuclear cells (PBMC).
+# T8 Protein S6 27 30 775 778 CD2
+
+CD2, but not CD3, cross-linking increased cAMP detected by competitive enzyme-linked immunosorbent assay (ELISA) approximately fourfold.
+# T9 Protein S7 0 3 876 879 CD2
+$ T9 Protein S7 0 3 876 879 CD2
+@ T24 Binding S7 18 31 894 907 cross-linking
+% E5 Binding:T24 Theme:T9
+
+CD2 cross-linking concurrently increased phosphorylation of CREB detected by immunoblot assay eightfold.
+# T10 Protein S8 0 3 1013 1016 CD2
+# T11 Protein S8 60 64 1073 1077 CREB
+$ T10 Protein S8 0 3 1013 1016 CD2
+$ T11 Protein S8 60 64 1073 1077 CREB
+@ T25 Binding S8 4 17 1017 1030 cross-linking
+@ T26 Positive_regulation S8 31 40 1044 1053 increased
+@ T27 Phosphorylation S8 41 56 1054 1069 phosphorylation
+% E6 Binding:T25 Theme:T10
+% E7 Positive_regulation:T26 Theme:E8
+% E8 Phosphorylation:T27 Theme:T11
+
+Consistent with post-translational regulation, no change in total level of CREB protein was observed.
+# T12 Protein S9 75 79 1193 1197 CREB
+
+Phosphorylation of CREB occurred through a herbimycin A and Rp-cAMP- sensitive pathway, suggesting phosphorylation required antecedent activation of both protein tyrosine kinases (PTK) and protein kinase A (PKA).
+# T13 Protein S10 19 23 1239 1243 CREB
+$ T13 Protein S10 19 23 1239 1243 CREB
+@ T28 Phosphorylation S10 0 15 1220 1235 Phosphorylation
+@ T29 Positive_regulation S10 33 40 1253 1260 through
+@ T30 Positive_regulation S10 115 123 1335 1343 required
+% E9 Phosphorylation:T28 Theme:T13
+% E10 Positive_regulation:T29 Theme:E9
+% E11 Positive_regulation:T30 Theme:E9
+
+Both CD2 and CD3 cross-linking increased binding of nuclear proteins to a radiolabelled CRE oligonucleotide probe in electrophoretic mobility shift assays suggesting that lymphocyte activation enhances binding independently of phosphorylation of CREB at serine 133.
+# T14 Protein S11 5 8 1438 1441 CD2
+# T15 Protein S11 246 250 1679 1683 CREB
+$ T14 Protein S11 5 8 1438 1441 CD2
+$ T15 Protein S11 246 250 1679 1683 CREB
+@ T31 Binding S11 17 30 1450 1463 cross-linking
+@ T32 Phosphorylation S11 227 242 1660 1675 phosphorylation
+@ T33 Entity S11 254 264 1687 1697 serine 133
+% E12 Binding:T31 Theme:T14
+% E13 Phosphorylation:T32 Theme:T15 Site:T33
+
+These data indicate specific modulation of the CREB/ATF-1 family of transcription factors by the CD2 signalling pathway and suggest CD2 receptor modulation of CRE-mediated transcription following ligand engagement (e.g. cell-to-cell contact).
+# T16 Protein S12 47 51 1746 1750 CREB
+# T17 Protein S12 52 57 1751 1756 ATF-1
+# T18 Protein S12 97 100 1796 1799 CD2
+# T19 Protein S12 132 144 1831 1843 CD2 receptor
+$ T17 Protein S12 52 57 1751 1756 ATF-1
+$ T18 Protein S12 97 100 1796 1799 CD2
+$ T16 Protein S12 47 51 1746 1750 CREB
+@ T34 Regulation S12 29 39 1728 1738 modulation
+% E14 Regulation:T34 Theme:T17 Cause:T18
+% E15 Regulation:T34 Theme:T16 Cause:T18
+

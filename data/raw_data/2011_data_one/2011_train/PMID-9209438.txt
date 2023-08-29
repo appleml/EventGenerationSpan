@@ -1,0 +1,106 @@
+Of the GATA-binding proteins, only GATA-4 selectively regulates the human IL-5 gene promoter in IL-5 producing cells which express multiple GATA-binding proteins.
+# T1 Protein S1 35 41 35 41 GATA-4
+# T2 Protein S1 74 78 74 78 IL-5
+# T3 Protein S1 96 100 96 100 IL-5
+$ T2 Protein S1 74 78 74 78 IL-5
+$ T1 Protein S1 35 41 35 41 GATA-4
+$ T3 Protein S1 96 100 96 100 IL-5
+@ T23 Regulation S1 54 63 54 63 regulates
+@ T24 Entity S1 84 92 84 92 promoter
+@ T25 Gene_expression S1 101 110 101 110 producing
+% E1 Regulation:T23 Theme:T2 Cause:T1 Site:T24
+% E2 Gene_expression:T25 Theme:T3
+
+Interleukin-5 (IL-5) is produced by T lymphocytes and known to support B cell growth and eosinophilic differentiation of the progenitor cells.
+# T4 Protein S2 0 13 164 177 Interleukin-5
+# T5 Protein S2 15 19 179 183 IL-5
+$ T5 Protein S2 15 19 179 183 IL-5
+@ T26 Gene_expression S2 24 32 188 196 produced
+% E3 Gene_expression:T26 Theme:T5
+
+Using ATL-16T cells which express IL-5 mRNA, we have identified a region, within the human IL-5 gene promoter, that regulates IL-5 gene transcription.
+# T6 Protein S3 34 38 341 345 IL-5
+# T7 Protein S3 91 95 398 402 IL-5
+# T8 Protein S3 126 130 433 437 IL-5
+$ T6 Protein S3 34 38 341 345 IL-5
+$ T7 Protein S3 91 95 398 402 IL-5
+$ T8 Protein S3 126 130 433 437 IL-5
+@ T27 Transcription S3 26 33 333 340 express
+@ T28 Entity S3 66 72 373 379 region
+@ T29 Regulation S3 116 125 423 432 regulates
+@ T30 Transcription S3 136 149 443 456 transcription
+% E4 Transcription:T27 Theme:T6
+% E5 Regulation:T29 Theme:E6 Cause:T7 CSite:T28
+% E6 Transcription:T30 Theme:T8
+
+This cis-acting sequence contains the core binding motif, (A/T)GATA(A/G), for GATA-binding family proteins and thus suggests the involvement of these family members.
+
+In this report, we describe the cloning of human GATA-4 (hGATA-4) and show that hGATA-4 selectively interacts with the -70 GATA site within the IL-5 proximal promoter region.
+# T9 Protein S5 43 55 667 679 human GATA-4
+# T10 Protein S5 57 64 681 688 hGATA-4
+# T11 Protein S5 80 87 704 711 hGATA-4
+# T12 Protein S5 144 148 768 772 IL-5
+$ T11 Protein S5 80 87 704 711 hGATA-4
+$ T12 Protein S5 144 148 768 772 IL-5
+@ T31 Binding S5 100 109 724 733 interacts
+@ T32 Entity S5 119 132 743 756 -70 GATA site
+% E7 Binding:T31 Theme:T11 Theme2:T12 Site2:T32
+
+By promoter deletion and mutation analyses, we established this region as a positive regulatory element.
+
+Cotransfection experiments revealed that both hGATA-4 and PMA/A23187 stimulation are necessary for the IL-5 promoter activation.
+# T13 Protein S7 46 53 950 957 hGATA-4
+# T14 Protein S7 103 107 1007 1011 IL-5
+$ T13 Protein S7 46 53 950 957 hGATA-4
+$ T14 Protein S7 103 107 1007 1011 IL-5
+@ T33 Positive_regulation S7 85 94 989 998 necessary
+@ T34 Entity S7 108 116 1012 1020 promoter
+@ T35 Positive_regulation S7 117 127 1021 1031 activation
+% E8 Positive_regulation:T33 Theme:E9 Cause:T13
+% E9 Positive_regulation:T35 Theme:T14 Site:T34
+
+The requirement of another regulatory element called CLE0, which lies downstream of the -70 GATA site, was also demonstrated.
+@ T36 Positive_regulation S8 4 15 1037 1048 requirement
+% E10 Positive_regulation:T36 Theme:E9
+
+ATL-16T cells express mRNA of three GATA-binding proteins, hGATA-2, hGATA-3 and hGATA-4, and each of them has a potential to bind to the consensus (A/T)GATA(G/ A) motif.
+# T15 Protein S9 59 66 1218 1225 hGATA-2
+# T16 Protein S9 68 75 1227 1234 hGATA-3
+# T17 Protein S9 80 87 1239 1246 hGATA-4
+$ T17 Protein S9 80 87 1239 1246 hGATA-4
+$ T15 Protein S9 59 66 1218 1225 hGATA-2
+$ T16 Protein S9 68 75 1227 1234 hGATA-3
+@ T37 Gene_expression S9 14 21 1173 1180 express
+@ T38 Binding S9 125 129 1284 1288 bind
+% E11 Gene_expression:T37 Theme:T17
+% E12 Gene_expression:T37 Theme:T15
+% E13 Gene_expression:T37 Theme:T16
+% E14 Binding:T38 Theme:T15
+% E15 Binding:T38 Theme:T17
+% E16 Binding:T38 Theme:T16
+
+However, using ATL-16T nuclear extract, we demonstrated that GATA-4 is the only GATA-binding protein that forms specific DNA-protein complex with the -70 GATA site.
+# T18 Protein S10 61 67 1390 1396 GATA-4
+$ T18 Protein S10 61 67 1390 1396 GATA-4
+@ T39 Binding S10 106 140 1435 1469 forms specific DNA-protein complex
+% E17 Binding:T39 Theme:T18
+
+The electrophoretic mobility shift assay with extracts of COS cells expressing GATA-binding proteins showed that GATA-4 has the highest binding affinity to the -70 GATA site among the three GATA-binding proteins.
+# T19 Protein S11 113 119 1607 1613 GATA-4
+$ T19 Protein S11 113 119 1607 1613 GATA-4
+@ T40 Binding S11 120 152 1614 1646 has the highest binding affinity
+% E18 Binding:T40 Theme:T19
+
+When the transactivation ability was compared among the three, GATA-4 showed the highest activity.
+# T20 Protein S12 63 69 1770 1776 GATA-4
+
+These results demonstrate the selective role of GATA-4 in the transcriptional regulation of the IL-5 gene in a circumstance where multiple members of the GATA-binding proteins are expressed.
+# T21 Protein S13 48 54 1854 1860 GATA-4
+# T22 Protein S13 96 100 1902 1906 IL-5
+$ T21 Protein S13 48 54 1854 1860 GATA-4
+$ T22 Protein S13 96 100 1902 1906 IL-5
+@ T41 Regulation S13 40 44 1846 1850 role
+@ T42 Regulation S13 62 88 1868 1894 transcriptional regulation
+% E19 Regulation:T41 Theme:E20 Cause:T21
+% E20 Regulation:T42 Theme:T22
+

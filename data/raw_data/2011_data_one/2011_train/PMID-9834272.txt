@@ -1,0 +1,27 @@
+Epithelial cell-initiated inflammation plays a crucial role in early tissue damage in amebic infection of human intestine.
+
+BACKGROUND & AIMS: Entamoeba histolytica infection of the intestine can induce severe gut inflammation.
+
+The aims of this study were to assess the role of the host inflammatory response in the tissue damage observed with amebiasis and the role of the intestinal epithelial cell in initiating that response.
+
+METHODS: E. histolytica infection was established in human intestinal xenografts in severe combined immunodeficient (SCID-HU-INT) mice.
+
+Human intestinal epithelial cell inflammatory responses to amebic infection were inhibited by the intraluminal administration of an antisense oligonucleotide to the human p65 subunit of nuclear factor kappaB, and the role of neutrophils in tissue damage observed with amebiasis was studied by depleting neutrophils from SCID-HU-INT mice.
+# T1 Protein S5 171 174 737 740 p65
+
+RESULTS: Administration of the antisense oligonucleotide blocked the production of human interleukin 1beta and interleukin 8 by intestinal epithelial cells and inhibited neutrophil influx into the E. histolytica-infected intestinal xenografts.
+# T2 Protein S6 89 106 993 1010 interleukin 1beta
+# T3 Protein S6 111 124 1015 1028 interleukin 8
+$ T3 Protein S6 111 124 1015 1028 interleukin 8
+$ T2 Protein S6 89 106 993 1010 interleukin 1beta
+@ T4 Negative_regulation S6 57 64 961 968 blocked
+@ T5 Gene_expression S6 69 79 973 983 production
+% E1 Negative_regulation:T4 Theme:E4
+% E2 Negative_regulation:T4 Theme:E3
+% E3 Gene_expression:T5 Theme:T3
+% E4 Gene_expression:T5 Theme:T2
+
+Inhibition of the gut inflammatory response by the antisense oligonucleotide or the depletion of neutrophils from SCID-HU- INT mice blocked the increase in intestinal permeability observed with amebic infection.
+
+CONCLUSIONS: Intestinal epithelial cells initiate an inflammatory response with resulting neutrophil-mediated tissue damage in response to E. histolytica infection; this inflammatory cascade can be blocked by inhibiting the transcription of genes regulated by nuclear factor kappaB.
+

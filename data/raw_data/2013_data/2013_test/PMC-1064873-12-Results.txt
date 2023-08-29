@@ -1,0 +1,57 @@
+Defective IL-10-mediated STAT3 phosphorylation in RA CD4+ T cells
+# T1 Protein S1 10 15 10 15 IL-10
+# T2 Protein S1 25 30 25 30 STAT3
+# T3 Protein S1 53 56 53 56 CD4
+
+The interaction of IL-10R with IL-10 induces tyrosine phosphorylation and activation of the latent transcription factors STAT1 and STAT3 [3].
+# T4 Protein S2 19 25 85 91 IL-10R
+# T5 Protein S2 31 36 97 102 IL-10
+# T6 Protein S2 121 126 187 192 STAT1
+# T7 Protein S2 131 136 197 202 STAT3
+
+Macrophage-specific STAT3-deficient mice demonstrated that STAT3 plays a dominant role in IL-10-mediated anti-inflammatory responses [5], which has recently been confirmed in human macrophages by studies of dominant-negative STAT3 overexpression [30].
+# T8 Protein S3 20 25 228 233 STAT3
+# T9 Protein S3 59 64 267 272 STAT3
+# T10 Protein S3 90 95 298 303 IL-10
+# T11 Protein S3 225 230 433 438 STAT3
+
+The induction of STAT1 and STAT3 phosphorylation by IL-10 in PB CD4+ T cells from active RA patients and from healthy controls was examined using western blotting.
+# T12 Protein S4 17 22 477 482 STAT1
+# T13 Protein S4 27 32 487 492 STAT3
+# T14 Protein S4 52 57 512 517 IL-10
+# T15 Protein S4 64 67 524 527 CD4
+
+STAT3 phosphorylation was dose-dependently induced after IL-10 activation for 20 min in normal CD4+ T cells (Fig. 4a,4b).
+# T16 Protein S5 0 5 624 629 STAT3
+# T17 Protein S5 57 62 681 686 IL-10
+# T18 Protein S5 95 98 719 722 CD4
+
+In contrast, STAT3 was phosphorylated in freshly isolated PB CD4+ cells from RA patients and this STAT3 phosphorylation was detectable for up to 6 hours.
+# T19 Protein S6 13 18 759 764 STAT3
+# T20 Protein S6 61 64 807 810 CD4
+# T21 Protein S6 98 103 844 849 STAT3
+
+STAT3 phosphorylation was augmented only when activated by as much as 10 ng/ml IL-10.
+# T22 Protein S7 0 5 900 905 STAT3
+# T23 Protein S7 79 84 979 984 IL-10
+
+Both sustained STAT3 phosphorylation and defective IL-10-induced STAT3 phosphorylation were found in RA ST CD4+ T cells (Fig. 4c).
+# T24 Protein S8 15 20 1001 1006 STAT3
+# T25 Protein S8 51 56 1037 1042 IL-10
+# T26 Protein S8 65 70 1051 1056 STAT3
+# T27 Protein S8 107 110 1093 1096 CD4
+
+On the other hand, IL-10-induced STAT1 phosphorylation was not detected in either RA CD4+ T cells or normal CD4+ T cells (Fig. 4a).
+# T28 Protein S9 19 24 1136 1141 IL-10
+# T29 Protein S9 33 38 1150 1155 STAT1
+# T30 Protein S9 85 88 1202 1205 CD4
+# T31 Protein S9 108 111 1225 1228 CD4
+
+These results indicate that STAT3 is the major IL-10-activated STAT in CD4+ T cells, and IL-10-induced STAT3 activation may be diminished in active RA, in association with sustained STAT3 phosphorylation.
+# T32 Protein S10 28 33 1277 1282 STAT3
+# T33 Protein S10 47 52 1296 1301 IL-10
+# T34 Protein S10 71 74 1320 1323 CD4
+# T35 Protein S10 89 94 1338 1343 IL-10
+# T36 Protein S10 103 108 1352 1357 STAT3
+# T37 Protein S10 182 187 1431 1436 STAT3
+

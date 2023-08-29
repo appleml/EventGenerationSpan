@@ -1,0 +1,44 @@
+Isolation of a candidate repressor/activator, NF-E1 (YY-1, delta), that binds to the immunoglobulin kappa 3' enhancer and the immunoglobulin heavy-chain mu E1 site.
+# T1 Protein S1 46 51 46 51 NF-E1
+# T2 Protein S1 53 57 53 57 YY-1
+# T3 Protein S1 59 64 59 64 delta
+$ T1 Protein S1 46 51 46 51 NF-E1
+@ T9 Binding S1 72 77 72 77 binds
+% E1 Binding:T9 Theme:T1
+
+We have determined that the developmental control of immunoglobulin kappa 3' enhancer (kappa E3') activity is the result of the combined influence of positive- and negative-acting elements.
+
+We show that a central core in the kappa E3' enhancer is active at the pre-B-cell stage but is repressed by flanking negative-acting elements.
+
+The negative-acting sequences repress enhancer activity in a position- and orientation-independent manner at the pre-B-cell stage.
+
+We have isolated a human cDNA clone encoding a zinc finger protein (NF-E1) that binds to the negative-acting segment of the kappa E3' enhancer.
+# T4 Protein S5 68 73 698 703 NF-E1
+$ T4 Protein S5 68 73 698 703 NF-E1
+@ T10 Binding S5 80 85 710 715 binds
+% E2 Binding:T10 Theme:T4
+
+This protein also binds to the immunoglobulin heavy-chain enhancer mu E1 site.
+@ T11 Binding S6 18 23 792 797 binds
+% E3 Binding:T11 Theme:T4
+
+NF-E1 is encoded by the same gene as the YY-1 protein, which binds to the adeno-associated virus P5 promoter.
+# T5 Protein S7 0 5 853 858 NF-E1
+# T6 Protein S7 41 45 894 898 YY-1
+$ T6 Protein S7 41 45 894 898 YY-1
+@ T12 Binding S7 61 66 914 919 binds
+% E4 Binding:T12 Theme:T6
+
+NF-E1 is also the human homologue of the mouse delta protein, which binds to ribosomal protein gene promoters.
+# T7 Protein S8 0 5 963 968 NF-E1
+# T8 Protein S8 47 52 1010 1015 delta
+$ T8 Protein S8 47 52 1010 1015 delta
+@ T13 Binding S8 68 73 1031 1036 binds
+% E5 Binding:T13 Theme:T8
+
+The predicted amino acid sequence of this protein contains features characteristic of transcriptional activators as well as transcriptional repressors.
+
+Cotransfection studies with this cDNA indicate that it can repress basal promoter activity.
+
+The apparent dual function of this protein is discussed.
+

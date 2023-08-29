@@ -1,0 +1,47 @@
+Cloning of murine TCF-1, a T cell-specific transcription factor interacting with functional motifs in the CD3-epsilon and T cell receptor alpha enhancers.
+# T1 Protein S1 18 23 18 23 TCF-1
+
+CD3-epsilon gene expression is confined to the T cell lineage.
+# T2 Protein S2 0 11 156 167 CD3-epsilon
+
+We have recently identified and cloned a human transcription factor, TCF-1, that binds to a functional element in the T lymphocyte-specific enhancer of CD3-epsilon.
+# T3 Protein S3 69 74 288 293 TCF-1
+# T4 Protein S3 152 163 371 382 CD3-epsilon
+
+In a panel of human cell lines, TCF-1 expression was restricted to T lineage cells.
+# T5 Protein S4 32 37 416 421 TCF-1
+
+TCF-1 belonged to a novel family of genes that contain the so-called high mobility group 1 (HMG) box.
+# T6 Protein S5 0 5 468 473 TCF-1
+
+Here we report the cloning of murine TCF-1.
+# T7 Protein S6 37 42 607 612 TCF-1
+
+Two splice alternatives were identified that were not previously observed in human TCF-1.
+# T8 Protein S7 83 88 697 702 TCF-1
+
+Murine and human TCF-1 displayed a 95.5% overall amino acid homology.
+# T9 Protein S8 17 22 721 726 TCF-1
+
+Recombinant murine and human TCF-1 recognized the same sequence motif in the CD3-epsilon enhancer as judged by gel retardation and methylation interference assays.
+# T10 Protein S9 29 34 803 808 TCF-1
+
+With the murine cDNA clones several aspects of TCF-1 were analyzed.
+# T11 Protein S10 47 52 985 990 TCF-1
+
+First, deletion analysis revealed that a region of TCF-1 containing the HMG box was sufficient for sequence-specific binding.
+# T12 Protein S11 51 56 1057 1062 TCF-1
+
+Second, by high stringency Northern blotting and in situ hybridization, TCF-1 expression was shown to be confined to the thymus and to the T cell areas of the spleen.
+# T13 Protein S12 72 77 1204 1209 TCF-1
+
+Third, TCF-1 bound specifically to a functional T cell-specific element in the T cell receptor alpha (TCR-alpha) enhancer.
+# T14 Protein S13 7 12 1306 1311 TCF-1
+# T15 Protein S13 79 100 1378 1399 T cell receptor alpha
+# T16 Protein S13 102 111 1401 1410 TCR-alpha
+
+The T lineage-specific expression and the affinity for functional motifs in the TCR-alpha and CD3-epsilon enhancers imply an important role for TCF-1 in the establishment of the mature T cell phenotype.
+# T17 Protein S14 80 89 1502 1511 TCR-alpha
+# T18 Protein S14 94 105 1516 1527 CD3-epsilon
+# T19 Protein S14 144 149 1566 1571 TCF-1
+

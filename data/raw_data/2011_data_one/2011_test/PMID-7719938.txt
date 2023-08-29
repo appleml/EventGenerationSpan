@@ -1,0 +1,30 @@
+The role of shared receptor motifs and common Stat proteins in the generation of cytokine pleiotropy and redundancy by IL-2, IL-4, IL-7, IL-13, and IL-15.
+# T1 Protein S1 119 123 119 123 IL-2
+# T2 Protein S1 125 129 125 129 IL-4
+# T3 Protein S1 131 135 131 135 IL-7
+# T4 Protein S1 137 142 137 142 IL-13
+# T5 Protein S1 148 153 148 153 IL-15
+
+To understand the molecular bases for cytokine redundancy and pleiotropy, we have compared the Stat proteins activated in peripheral blood lymphocytes (PBLs) by cytokines with shared and distinct actions.
+
+Interleukin-2 (IL-2) rapidly activated Stat5 in fresh PBL, and Stat3 and Stat5 in preactivated PBL.
+# T6 Protein S3 0 13 361 374 Interleukin-2
+# T7 Protein S3 15 19 376 380 IL-2
+# T8 Protein S3 39 44 400 405 Stat5
+# T9 Protein S3 63 68 424 429 Stat3
+# T10 Protein S3 73 78 434 439 Stat5
+
+IL-7 and IL-15 induced the same complexes as IL-2, a feature explained by the existence of similar tyrosine-phosphorylated motifs in the cytoplasmic domains of IL-2R beta and IL-7R that can serve as docking sites for Stat proteins.
+# T11 Protein S4 0 4 461 465 IL-7
+# T12 Protein S4 9 14 470 475 IL-15
+# T13 Protein S4 45 49 506 510 IL-2
+# T14 Protein S4 160 170 621 631 IL-2R beta
+# T15 Protein S4 175 180 636 641 IL-7R
+
+IL-13 Induced the same complexes as IL-4, a finding explained by our studies implicating IL-4R as a shared component of the receptors.
+# T16 Protein S5 0 5 693 698 IL-13
+# T17 Protein S5 36 40 729 733 IL-4
+# T18 Protein S5 89 94 782 787 IL-4R
+
+These studies demonstrate that a single cytokine can activate different combinations of Stat proteins under different physiological conditions, and also indicate two mechanisms by which distinct cytokines can activate the same Stat protein.
+

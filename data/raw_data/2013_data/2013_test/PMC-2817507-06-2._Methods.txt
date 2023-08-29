@@ -1,0 +1,16 @@
+2.5.
+
+Western Blots
+
+Cellular proteins were prepared from ICH cerebral hemispheres, electrophoresed with SDS-polyacrylamide gel and transferred onto Hybond ECL membranes (Amersham Pharmacia, Piscataway, NJ).
+
+The ECL membranes were incubated with the appropriate primary antibody (WuHan, BA1717) followed by incubation with peroxidase-conjugated secondary antibodies (Golden Bridge, PV-6001).
+
+The signals were detected with the ECL system (Amersham Pharmacia).
+
+The same membranes were probed with anti-GAPDH (glyceraldehyde-3-phosphate dehydrogenase, Biodesign, Saco, Maine) after being washed with stripping buffer.
+# T1 Protein S6 41 46 499 504 GAPDH
+# T2 Protein S6 48 88 506 546 glyceraldehyde-3-phosphate dehydrogenase
+
+The signals were quantified by scanning densitometry and computer-assisted image analysis.
+

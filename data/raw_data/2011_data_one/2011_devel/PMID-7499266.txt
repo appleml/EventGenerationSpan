@@ -1,0 +1,71 @@
+Identification of an I kappa B alpha-associated protein kinase in a human monocytic cell line and determination of its phosphorylation sites on I kappa B alpha.
+# T1 Protein S1 21 36 21 36 I kappa B alpha
+# T2 Protein S1 144 159 144 159 I kappa B alpha
+
+Nuclear factor kappa B (NF-kappa B) is stored in the cytoplasm as an inactive form through interaction with I kappa B. Stimulation of cells leads to a rapid phosphorylation of I kappa B alpha, which is presumed to be important for the subsequent degradation.
+# T3 Protein S2 176 191 338 353 I kappa B alpha
+$ T3 Protein S2 176 191 338 353 I kappa B alpha
+@ T13 Positive_regulation S2 140 145 302 307 leads
+@ T14 Phosphorylation S2 157 172 319 334 phosphorylation
+@ T15 Positive_regulation S2 214 226 376 388 be important
+@ T16 Protein_catabolism S2 246 257 408 419 degradation
+% E1 Positive_regulation:T13 Theme:E2
+% E2 Phosphorylation:T14 Theme:T3
+% E3 Positive_regulation:T15 Theme:E4 Cause:E2
+% E4 Protein_catabolism:T16 Theme:T3
+
+We have recently reported the establishment of a lipopolysaccharide (LPS)-dependent cell-free activation system of NF-kappa B in association with the induction of I kappa B alpha phosphorylation.
+# T4 Protein S3 163 178 584 599 I kappa B alpha
+$ T4 Protein S3 163 178 584 599 I kappa B alpha
+@ T17 Positive_regulation S3 150 159 571 580 induction
+@ T18 Phosphorylation S3 179 194 600 615 phosphorylation
+% E5 Positive_regulation:T17 Theme:E6
+% E6 Phosphorylation:T18 Theme:T4
+
+In this study, we have identified a kinase in cell extracts from the LPS-stimulated human monocytic cell line, THP-1, that specifically binds and phosphorylates I kappa B alpha.
+# T5 Protein S4 161 176 778 793 I kappa B alpha
+$ T5 Protein S4 161 176 778 793 I kappa B alpha
+@ T19 Binding S4 136 141 753 758 binds
+@ T20 Phosphorylation S4 146 160 763 777 phosphorylates
+% E7 Binding:T19 Theme:T5
+% E8 Phosphorylation:T20 Theme:T5
+
+LPS stimulation transiently enhanced the I kappa B alpha-bound kinase activity in THP-1 cells.
+# T6 Protein S5 41 56 836 851 I kappa B alpha
+$ T6 Protein S5 41 56 836 851 I kappa B alpha
+@ T21 Positive_regulation S5 28 36 823 831 enhanced
+@ T22 Binding S5 57 62 852 857 bound
+% E9 Positive_regulation:T21 Theme:E10
+% E10 Binding:T22 Theme:T6
+
+Mutational analyses of I kappa B alpha and competition experiments with the synthetic peptides identified major phosphorylation sites by the bound kinase as Ser and Thr residues in the C-terminal acidic domain of I kappa B alpha.
+# T7 Protein S6 23 38 913 928 I kappa B alpha
+# T8 Protein S6 213 228 1103 1118 I kappa B alpha
+$ T8 Protein S6 213 228 1103 1118 I kappa B alpha
+@ T23 Phosphorylation S6 112 133 1002 1023 phosphorylation sites
+@ T24 Positive_regulation S6 134 136 1024 1026 by
+% E11 Phosphorylation:T23 Theme:T8
+% E12 Positive_regulation:T24 Theme:E11
+
+Moreover, we show that the peptide, corresponding to the C-terminal acidic domain of I kappa B alpha, blocked the LPS-induced NF-kappa B activation as well as inducible phosphorylation of endogenous I kappa B alpha in a cell-free system using THP-1 cells.
+# T9 Protein S7 85 100 1205 1220 I kappa B alpha
+# T10 Protein S7 199 214 1319 1334 I kappa B alpha
+$ T10 Protein S7 199 214 1319 1334 I kappa B alpha
+@ T25 Negative_regulation S7 102 109 1222 1229 blocked
+@ T26 Phosphorylation S7 169 184 1289 1304 phosphorylation
+% E13 Negative_regulation:T25 Theme:E14
+% E14 Phosphorylation:T26 Theme:T10
+
+These results suggested that the bound kinase is involved in the signaling pathway of LPS by inducing the phosphorylation of the C-terminal region of I kappa B alpha and subsequent dissociation of the NF-kappa B.I kappa B alpha complex.
+# T11 Protein S8 150 165 1526 1541 I kappa B alpha
+# T12 Protein S8 212 227 1588 1603 I kappa B alpha
+$ T11 Protein S8 150 165 1526 1541 I kappa B alpha
+$ T12 Protein S8 212 227 1588 1603 I kappa B alpha
+@ T27 Positive_regulation S8 93 101 1469 1477 inducing
+@ T28 Phosphorylation S8 106 121 1482 1497 phosphorylation
+@ T29 Entity S8 129 146 1505 1522 C-terminal region
+@ T30 Binding S8 228 235 1604 1611 complex
+% E15 Positive_regulation:T27 Theme:E16
+% E16 Phosphorylation:T28 Theme:T11 Site:T29
+% E17 Binding:T30 Theme:T12
+

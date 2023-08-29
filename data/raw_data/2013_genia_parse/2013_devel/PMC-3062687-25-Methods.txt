@@ -1,0 +1,49 @@
+Immunohistochemistry	NN	B-NP	O	Other	No	No	Other	Other	###	1	Immunohistochemistry	Immunohistochemistry	NN	NN	_	0	root	_	_
+
+Gnotobiotic	JJ	B-NP	O	Other	No	No	Other	Other	###	1	Gnotobiotic	Gnotobiotic	JJ	JJ	_	2	amod	_	_
+piglets	NNS	I-NP	O	Other	No	No	Other	Other	###	2	piglets	piglets	NNS	NNS	_	4	nsubjpass	_	_
+were	VBD	B-VP	O	Other	No	No	Other	Other	###	3	were	were	VBD	VBD	_	4	auxpass	_	_
+infected	VBN	I-VP	O	Other	No	No	Other	Other	###	4	infected	infected	VBN	VBN	_	0	root	_	_
+with	IN	B-PP	O	Other	No	No	Other	Other	###	5	with	with	IN	IN	_	9	case	_	_
+E	FW	B-NP	O	Other	No	No	Other	Other	###	6	E	E	FW	FW	_	9	compound	_	_
+.	.	O	O	Other	No	No	Other	Other	###	7	.	.	.	.	_	9	punct	_	_
+coli	FW	I-NP	O	Other	No	No	Other	Other	###	8	coli	coli	FW	FW	_	9	compound	_	_
+O157	NN	I-NP	O	Other	No	No	Other	Other	###	9	O157	O157	NN	NN	_	4	nmod	_	_
+:	:	O	O	Other	No	No	Other	Other	###	10	:	:	:	:	_	4	punct	_	_
+H7	NN	B-NP	O	Other	No	No	Other	Other	###	11	H7	H7	NN	NN	_	12	compound	_	_
+strains	NNS	I-NP	O	Other	No	No	Other	Other	###	12	strains	strains	NNS	NNS	_	4	dep	_	_
+as	IN	B-PP	O	Other	No	No	Other	Other	###	13	as	as	IN	IN	_	15	case	_	_
+described	VBN	B-NP	O	Other	No	No	Other	Other	###	14	described	described	VBN	VBN	_	12	amod	_	_
+previously9	NN	I-NP	O	Other	No	No	Other	Other	###	15	previously9	previously9	NN	NN	_	14	dobj	_	_
+.	.	O	O	Other	No	No	Other	Other	###	16	.	.	.	.	_	4	punct	_	_
+
+Spiral	JJ	B-NP	O	Other	No	No	Other	Other	###	1	Spiral	Spiral	JJ	JJ	_	3	amod	_	_
+colon	NN	I-NP	O	Other	No	No	Other	Other	###	2	colon	colon	NN	NN	_	3	compound	_	_
+specimens	NNS	I-NP	O	Other	No	No	Other	Other	###	3	specimens	specimens	NNS	NNS	_	5	nsubjpass	_	_
+were	VBD	B-VP	O	Other	No	No	Other	Other	###	4	were	were	VBD	VBD	_	5	auxpass	_	_
+collected	VBN	I-VP	O	Other	No	No	Other	Other	###	5	collected	collected	VBN	VBN	_	0	root	_	_
+at	IN	B-PP	O	Other	No	No	Other	Other	###	6	at	at	IN	IN	_	7	case	_	_
+necropsy	NN	B-NP	O	Other	No	No	Other	Other	###	7	necropsy	necropsy	NN	NN	_	5	nmod	_	_
+and	CC	O	O	Other	No	No	Other	Other	###	8	and	and	CC	CC	_	5	cc	_	_
+embedded	VBN	B-VP	O	Other	No	No	Other	Other	###	9	embedded	embedded	VBN	VBN	_	5	conj	_	_
+in	IN	B-PP	O	Other	No	No	Other	Other	###	10	in	in	IN	IN	_	11	case	_	_
+paraffin	NN	B-NP	O	Other	No	No	Other	Other	###	11	paraffin	paraffin	NN	NN	_	9	nmod	_	_
+.	.	O	O	Other	No	No	Other	Other	###	12	.	.	.	.	_	5	punct	_	_
+
+Paraffin	NN	B-NP	O	Other	No	No	Other	Other	###	1	Paraffin	Paraffin	NN	NN	_	2	compound	_	_
+sectioning	NN	I-NP	O	Other	No	No	Other	Other	###	2	sectioning	sectioning	NN	NN	_	12	nsubjpass	_	_
+and	CC	O	O	Other	No	No	Other	Other	###	3	and	and	CC	CC	_	2	cc	_	_
+immunohistochemical	JJ	B-NP	O	Other	No	No	Other	Other	###	4	immunohistochemical	immunohistochemical	JJ	JJ	_	5	amod	_	_
+staining	NN	I-NP	O	Other	No	No	Other	Other	###	5	staining	staining	NN	NN	_	2	conj	_	_
+using	VBG	B-VP	O	Other	No	No	Other	Other	###	6	using	using	VBG	VBG	_	2	acl	_	_
+phospho	NN	B-NP	B-protein	Other	No	No	Other	Other	###	7	phospho	phospho	NN	NN	_	10	compound	_	_
+-	-	O	O	Other	No	No	Other	Other	###	8	-	-	-	-	_	10	punct	_	_
+RPS3	NN	B-NP	B-protein	Other	No	No	Other	Other	###	9	RPS3	RPS3	NN	NN	_	10	compound	_	_
+antibody	NN	I-NP	I-protein	Other	No	No	Other	Other	###	10	antibody	antibody	NN	NN	_	6	dobj	_	_
+were	VBD	B-VP	O	Other	No	No	Other	Other	###	11	were	were	VBD	VBD	_	12	auxpass	_	_
+performed	VBN	I-VP	O	Other	No	No	Other	Other	###	12	performed	performed	VBN	VBN	_	0	root	_	_
+by	IN	B-PP	O	Other	No	No	Other	Other	###	13	by	by	IN	IN	_	15	case	_	_
+Histoserv	NNP	B-NP	O	Other	No	No	Other	Other	###	14	Histoserv	Histoserv	NNP	NNP	_	15	compound	_	_
+Inc	NNP	I-NP	O	Other	No	No	Other	Other	###	15	Inc	Inc	NNP	NNP	_	12	nmod	_	_
+.	.	O	O	Other	No	No	Other	Other	###	16	.	.	.	.	_	12	punct	_	_
+

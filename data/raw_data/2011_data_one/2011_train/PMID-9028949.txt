@@ -1,0 +1,50 @@
+Characterization of the human platelet/endothelial cell adhesion molecule-1 promoter: identification of a GATA-2 binding element required for optimal transcriptional activity.
+# T1 Protein S1 30 75 30 75 platelet/endothelial cell adhesion molecule-1
+# T2 Protein S1 106 112 106 112 GATA-2
+
+Platelet/endothelial cell adhesion molecule-1 (PECAM-1) is a 130-kD member of the Ig gene superfamily that is expressed on platelets, endothelial cells, and certain leukocyte subsets.
+# T3 Protein S2 0 45 177 222 Platelet/endothelial cell adhesion molecule-1
+# T4 Protein S2 47 54 224 231 PECAM-1
+$ T4 Protein S2 47 54 224 231 PECAM-1
+@ T15 Gene_expression S2 110 119 287 296 expressed
+% E1 Gene_expression:T15 Theme:T4
+
+To examine the factors controlling vascular-specific expression of PECAM-1, we cloned the 5'-flanking region of the PECAM-1 gene and analyzed its transcriptional activity.
+# T5 Protein S3 67 74 428 435 PECAM-1
+# T6 Protein S3 116 123 477 484 PECAM-1
+$ T5 Protein S3 67 74 428 435 PECAM-1
+@ T16 Regulation S3 23 34 384 395 controlling
+@ T17 Gene_expression S3 53 63 414 424 expression
+% E2 Regulation:T16 Theme:E3
+% E3 Gene_expression:T17 Theme:T5
+
+5'-Rapid amplification of cDNA ends (5'-RACE) analysis showed that transcription initiation occurred at several closely spaced nearby sites originating approximately 204 bp upstream from the translation start site.
+
+Analysis of the sequence immediately upstream from the transcription initiation site (TIS) showed no canonical TATA or CAAT elements, however an initiator element commonly found in TATA-less promoters encompassed the TIS.
+
+5'-serially truncated PECAM-1 promoter segments cloned in front of a luciferase reporter drove transcription in both a lineage- and orientation-specific manner.
+# T7 Protein S6 22 29 992 999 PECAM-1
+
+Putative cis-acting control elements present within a 300-bp core promoter included two ets sites, an Sp1 site, tandem E-box domains, two GATA-associated sites (CACCC), an AP-2 binding site, and a GATA element at -24.
+# T8 Protein S7 88 91 1219 1222 ets
+# T9 Protein S7 102 105 1233 1236 Sp1
+# T10 Protein S7 172 176 1303 1307 AP-2
+
+Mutational analysis showed that optimal transcriptional activity required the GATA sequence at position -24, and gel-shift assays further showed that the GATA-2 transcription factor, but not GATA-1, bound to this region of the PECAM-1 promoter.
+# T11 Protein S8 154 160 1503 1509 GATA-2
+# T12 Protein S8 191 197 1540 1546 GATA-1
+# T13 Protein S8 227 234 1576 1583 PECAM-1
+$ T12 Protein S8 191 197 1540 1546 GATA-1
+$ T11 Protein S8 154 160 1503 1509 GATA-2
+@ T18 Binding S8 199 204 1548 1553 bound
+% E4 Binding:T18 Theme:T12
+% E5 Binding:T18 Theme:T11
+
+Understanding the cis- and transacting factors that regulate the tissue-specific expression of PECAM-1 should increase our understanding of the mechanisms by which vascular-specific gene expression is achieved.
+# T14 Protein S9 95 102 1689 1696 PECAM-1
+$ T14 Protein S9 95 102 1689 1696 PECAM-1
+@ T19 Regulation S9 52 60 1646 1654 regulate
+@ T20 Gene_expression S9 81 91 1675 1685 expression
+% E6 Regulation:T19 Theme:E7
+% E7 Gene_expression:T20 Theme:T14
+

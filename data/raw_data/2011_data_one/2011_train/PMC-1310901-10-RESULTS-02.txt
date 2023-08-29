@@ -1,0 +1,77 @@
+Increase of IRF-4 expression in hematopoietic cells after demethylating treatment
+# T1 Protein S1 12 17 12 17 IRF-4
+$ T1 Protein S1 12 17 12 17 IRF-4
+@ T13 Positive_regulation S1 0 8 0 8 Increase
+@ T14 Gene_expression S1 18 28 18 28 expression
+% E1 Positive_regulation:T13 Theme:E2
+% E2 Gene_expression:T14 Theme:T1
+
+We next analyzed whether promoter methylation could be responsible for down-regulation of IRF-4 expression.
+# T2 Protein S2 90 95 172 177 IRF-4
+$ T2 Protein S2 90 95 172 177 IRF-4
+@ T15 Gene_expression S2 96 106 178 188 expression
+% E3 Gene_expression:T15 Theme:T2
+
+A region including exon1 in the IRF-4 promoter exhibited a large number of CpG-rich sequences (Figure 3A).
+# T3 Protein S3 32 37 222 227 IRF-4
+
+Several chemical substances such as 5-aza-2-deoxycytidine (AzadC) or 5-azacytidine (AzaC) inhibit de novo and maintenance methylation, and thus can be used to discern promoter methylation (32,33).
+
+We used AzadC to generate unmethylated DNA.
+
+A 72 h AzadC-treatment resulted in a concentration-dependent activation of IRF-4 transcription in Jurkat and CML-T1 T-cells as well as in U-937, K-562 and EM-2 cell lines (Figure 2A).
+# T4 Protein S6 75 80 613 618 IRF-4
+$ T4 Protein S6 75 80 613 618 IRF-4
+@ T16 Positive_regulation S6 61 71 599 609 activation
+@ T17 Transcription S6 81 94 619 632 transcription
+% E4 Positive_regulation:T16 Theme:E5
+% E5 Transcription:T17 Theme:T4
+
+IRF-4 transcription was induced in a time-dependent manner and was observed as early as 24 h after treatment with AzadC and increased over time until 72 h (Figure 2B).
+# T5 Protein S7 0 5 722 727 IRF-4
+$ T5 Protein S7 0 5 722 727 IRF-4
+@ T18 Transcription S7 6 19 728 741 transcription
+@ T19 Positive_regulation S7 24 31 746 753 induced
+@ T20 Positive_regulation S7 124 133 846 855 increased
+% E6 Transcription:T18 Theme:T5
+% E7 Positive_regulation:T19 Theme:E6
+% E8 Positive_regulation:T20 Theme:E6
+
+Time and strength of the appearance of IRF-4 transcripts varied among cell lines, i.e. CML-T1 responded strongest to AzadC-treatment (data not shown).
+# T6 Protein S8 39 44 929 934 IRF-4
+$ T6 Protein S8 39 44 929 934 IRF-4
+@ T21 Transcription S8 45 56 935 946 transcripts
+% E9 Transcription:T21 Theme:T6
+
+In line with this, AzadC-treatment of CML-T1 and LAMA-84 cells also translated in an induction of IRF-4 protein expression (Figure 2C).
+# T7 Protein S9 98 103 1139 1144 IRF-4
+
+Accordingly, treatment of the IRF-4-positive cell line BV-173, SD-1 and RPMI-8226 with AzadC had no effect on IRF-4 expression (Figure 2D).
+# T8 Protein S10 30 35 1207 1212 IRF-4
+# T9 Protein S10 110 115 1287 1292 IRF-4
+$ T8 Protein S10 30 35 1207 1212 IRF-4
+$ T9 Protein S10 110 115 1287 1292 IRF-4
+@ T22 Gene_expression S10 36 44 1213 1221 positive
+@ T23 Regulation S10 100 106 1277 1283 effect
+@ T24 Gene_expression S10 116 126 1293 1303 expression
+% E10 Gene_expression:T22 Theme:T8
+% E11 Regulation:T23 Theme:E12
+% E12 Gene_expression:T24 Theme:T9
+
+There was no difference in the effects of AzaC versus AzadC, as both increased the IRF-4 mRNA level in CML-T1 cells as well (data not shown).
+# T10 Protein S11 83 88 1400 1405 IRF-4
+$ T10 Protein S11 83 88 1400 1405 IRF-4
+@ T25 Positive_regulation S11 69 78 1386 1395 increased
+@ T26 Transcription S11 89 99 1406 1416 mRNA level
+% E13 Positive_regulation:T25 Theme:E14
+% E14 Transcription:T26 Theme:T10
+
+This implied that promoter methylation may control IRF-4 expression, but an alternative explanation may be activation of positive transcriptional regulators of IRF-4 by AzadC (or AzaC).
+# T11 Protein S12 51 56 1510 1515 IRF-4
+# T12 Protein S12 160 165 1619 1624 IRF-4
+$ T11 Protein S12 51 56 1510 1515 IRF-4
+@ T27 Regulation S12 43 50 1502 1509 control
+@ T28 Gene_expression S12 57 67 1516 1526 expression
+% E15 Regulation:T27 Theme:E16
+% E16 Gene_expression:T28 Theme:T11
+

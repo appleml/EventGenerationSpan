@@ -1,0 +1,72 @@
+Signalling via CD28 of human naive neonatal T lymphocytes.
+# T1 Protein S1 15 19 15 19 CD28
+
+Accessory molecules play a crucial role in the development of the T cell response to antigenic challenge.
+
+We have examined the role of CD28 in modulating the ' naive' neonatal T cell response to anti-CD2-mediated activation.
+# T2 Protein S3 29 33 195 199 CD28
+
+To compare the role of CD28, neonatal and adult T cells were stimulated with a pair of mitogenic anti-CD2 antibodies in the presence or absence of anti-CD28 MoAb.
+# T3 Protein S4 23 27 307 311 CD28
+# T4 Protein S4 152 156 436 440 CD28
+
+With anti-CD2 alone, neonatal T cells proliferated slightly but produced no detectable IL-2, whereas adult T cells proliferated vigorously, with significant IL-2 production.
+# T5 Protein S5 87 91 534 538 IL-2
+# T6 Protein S5 157 161 604 608 IL-2
+$ T5 Protein S5 87 91 534 538 IL-2
+$ T6 Protein S5 157 161 604 608 IL-2
+@ T17 Positive_regulation S5 0 4 447 451 With
+@ T18 Gene_expression S5 64 72 511 519 produced
+@ T19 Gene_expression S5 162 172 609 619 production
+% E1 Positive_regulation:T17 Theme:E4
+% E2 Positive_regulation:T17 Theme:E3
+% E3 Gene_expression:T18 Theme:T5
+% E4 Gene_expression:T19 Theme:T6
+
+Costimulation with anti-CD28 MoAb greatly enhanced the proliferative response of neonatal T cells to levels equivalent to those of adult T cells, whereas adult T cells showed only slight increases.
+# T7 Protein S6 24 28 645 649 CD28
+
+Although IL-2 secretion was increased in the presence of anti-CD28 MoAb, neonatal T cell IL-2 production remained lower than in adults.
+# T8 Protein S7 9 13 828 832 IL-2
+# T9 Protein S7 62 66 881 885 CD28
+# T10 Protein S7 89 93 908 912 IL-2
+$ T8 Protein S7 9 13 828 832 IL-2
+$ T10 Protein S7 89 93 908 912 IL-2
+@ T20 Localization S7 14 23 833 842 secretion
+@ T21 Positive_regulation S7 28 37 847 856 increased
+@ T22 Gene_expression S7 94 104 913 923 production
+% E5 Localization:T20 Theme:T8
+% E6 Positive_regulation:T21 Theme:E5
+% E7 Gene_expression:T22 Theme:T10
+
+In contrast, enhancement of IL-2 mRNA expression in neonates was similar to adult levels.
+# T11 Protein S8 28 32 983 987 IL-2
+$ T11 Protein S8 28 32 983 987 IL-2
+@ T23 Positive_regulation S8 13 24 968 979 enhancement
+@ T24 Transcription S8 38 48 993 1003 expression
+% E8 Positive_regulation:T23 Theme:E9
+% E9 Transcription:T24 Theme:T11
+
+Anti-CD28 MoAb costimulation increased NF kappa B levels in neonates, albeit to levels lower than that of adults.
+# T12 Protein S9 5 9 1050 1054 CD28
+
+The cellular mechanism governing the diminished proliferative response of neonatal T lymphocytes to anti-CD2 may therefore be due to decreased NF kappa B induction, reduced IL-2 mRNA expression and deficient IL-2 production.
+# T13 Protein S10 173 177 1332 1336 IL-2
+# T14 Protein S10 208 212 1367 1371 IL-2
+$ T13 Protein S10 173 177 1332 1336 IL-2
+$ T14 Protein S10 208 212 1367 1371 IL-2
+@ T25 Negative_regulation S10 165 172 1324 1331 reduced
+@ T26 Transcription S10 183 193 1342 1352 expression
+@ T27 Negative_regulation S10 198 207 1357 1366 deficient
+@ T28 Gene_expression S10 213 223 1372 1382 production
+% E10 Negative_regulation:T25 Theme:E11
+% E11 Transcription:T26 Theme:T13
+% E12 Negative_regulation:T27 Theme:E13
+% E13 Gene_expression:T28 Theme:T14
+
+Although anti-CD28 MoAb costimulation enhances all of the above signals, NF kappa B and IL-2 levels remain lower than in adults, suggesting the need for further activation requirements in the neonate.
+# T15 Protein S11 14 18 1398 1402 CD28
+# T16 Protein S11 88 92 1472 1476 IL-2
+@ T29 Positive_regulation S11 38 46 1422 1430 enhances
+% E14 Positive_regulation:T29 Theme:T14
+

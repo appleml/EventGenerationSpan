@@ -1,0 +1,33 @@
+Single-immunoglobulin IL-1 receptor-related protein
+# T1 Protein S1 0 43 0 43 Single-immunoglobulin IL-1 receptor-related
+
+Single-immunoglobulin IL-1 receptor-related (SIGIRR) protein, also known as TIR-8, is a member of the TLR/IL-1R family that has been extensively characterised as an inhibitor of IL-1R and TLR signalling, probably through direct interaction with these receptors, MyD88, IRAK1 or TRAF6 [67] (Figure 1).
+# T2 Protein S2 0 43 52 95 Single-immunoglobulin IL-1 receptor-related
+# T3 Protein S2 45 51 97 103 SIGIRR
+# T4 Protein S2 76 81 128 133 TIR-8
+# T5 Protein S2 178 183 230 235 IL-1R
+# T6 Protein S2 262 267 314 319 MyD88
+# T7 Protein S2 269 274 321 326 IRAK1
+# T8 Protein S2 278 283 330 335 TRAF6
+
+Given the important role of IL-1R and TLR signalling in the chronic inflammation observed in RA [68], a regulatory role for SIGIRR in RA is not unlikely.
+# T9 Protein S3 28 33 381 386 IL-1R
+# T10 Protein S3 124 130 477 483 SIGIRR
+
+SIGIRR has a very restricted expression pattern, being expressed in epithelial cells, monocytes and immature dendritic cells, but not in mature macro-phages [69,70].
+# T11 Protein S4 0 6 507 513 SIGIRR
+
+Recently, SIGIRR overexpression was shown to inhibit the spontaneous release of inflammatory cytokines by human RA synovial cells.
+# T12 Protein S5 10 16 683 689 SIGIRR
+
+This inhibitory function of SIGIRR was further confirmed in vivo, since SIGIRR-deficient mice developed a more severe disease in zymosan-induced arthritis, as well as collagen-induced arthritis mouse models [70].
+# T13 Protein S6 28 34 832 838 SIGIRR
+# T14 Protein S6 72 78 876 882 SIGIRR
+
+It will be interesting to compare the expression of SIGIRR in RA patients with its expression in control patients, or to investigate whether the function of SIGIRR is compromised in RA patients.
+# T15 Protein S7 52 58 1069 1075 SIGIRR
+# T16 Protein S7 157 163 1174 1180 SIGIRR
+
+Because of its restricted expression pattern, SIGIRR may also be an interesting therapeutic target in RA.
+# T17 Protein S8 46 52 1258 1264 SIGIRR
+

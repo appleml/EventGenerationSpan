@@ -1,0 +1,45 @@
+A novel genetic system to isolate a dominant negative effector on DNA-binding activity of Oct-2.
+# T1 Protein S1 90 95 90 95 Oct-2
+$ T1 Protein S1 90 95 90 95 Oct-2
+@ T9 Binding S1 70 77 70 77 binding
+% E1 Binding:T9 Theme:T1
+
+Recent studies have revealed that interactions between transcription factors play an important role in regulation of gene expression in eukaryotic cells.
+
+To isolate cDNA clones that dominantly inhibit the DNA-binding activity of Oct-2, chosen as a representative factor, we have developed a novel screening system.
+# T2 Protein S3 75 80 327 332 Oct-2
+$ T2 Protein S3 75 80 327 332 Oct-2
+@ T10 Negative_regulation S3 39 46 291 298 inhibit
+@ T11 Binding S3 55 62 307 314 binding
+% E2 Negative_regulation:T10 Theme:E3
+% E3 Binding:T11 Theme:T2
+
+This employs an Escherichia coli tester strain carrying a modified lac operon as a reporter gene, with the lac operator sequence replaced by an octamer sequence.
+
+Oct-2 expressed in this tester strain represses the expression of the reporter gene and changes the phenotype of the cell from Lac+to Lac-.
+# T3 Protein S5 0 5 575 580 Oct-2
+$ T3 Protein S5 0 5 575 580 Oct-2
+@ T12 Gene_expression S5 6 15 581 590 expressed
+% E4 Gene_expression:T12 Theme:T3
+
+Introduction of a cDNA expression library prepared from a human T-cell line into the Oct-2-harboring tester strain allowed selection of three Lac+clones out of 1 x 10(5) transformants.
+# T4 Protein S6 85 90 800 805 Oct-2
+
+One of them, hT86, encoding a putative zinc finger protein was found to derepress beta-galactosidase activity in the Oct-2-harboring tester strain at the transcriptional level.
+# T5 Protein S7 82 100 982 1000 beta-galactosidase
+# T6 Protein S7 117 122 1017 1022 Oct-2
+$ T5 Protein S7 82 100 982 1000 beta-galactosidase
+@ T13 Positive_regulation S7 72 81 972 981 derepress
+% E5 Positive_regulation:T13 Theme:T5
+
+In gel mobility shift assays, hT86 attenuated the intensity of the retarded band composed of the octamer probe and Oct-2, suggesting a dominant negative effect on the DNA-binding activity of Oct-2.
+# T7 Protein S8 115 120 1192 1197 Oct-2
+# T8 Protein S8 191 196 1268 1273 Oct-2
+$ T8 Protein S8 191 196 1268 1273 Oct-2
+@ T14 Negative_regulation S8 144 159 1221 1236 negative effect
+@ T15 Binding S8 171 178 1248 1255 binding
+% E6 Negative_regulation:T14 Theme:E7
+% E7 Binding:T15 Theme:T8
+
+The strategy described here provides a new approach for studying protein-protein interactions that govern the complex regulation of gene expression.
+

@@ -1,0 +1,8 @@
+TNFalpha ELISA
+# T1 Protein S1 0 8 0 8 TNFalpha
+
+Mouse TNFalpha Quantikine ELISA assays (R&D Systems) were performed according to manufacturer's descriptions.
+# T2 Protein S2 6 14 21 29 TNFalpha
+
+Cell lysates were prepared from 3x106 cells plated and treated in a 10 cm2 dish.
+

@@ -1,0 +1,171 @@
+NF-kappaB proteins are sequestered in the cytoplasm as latent complexes by inhibitory proteins referred to as inhibitor of NF-kappaB (IkappaB) proteins, which prevent NF-kappaB nuclear translocation and DNA binding [19].
+
+Whereas the majority of IkappaBs (IkappaBalpha, IkappaBbeta, IkappaBepsilon, p105 (also known as NF-kappaB1), p100 (also known as NF-kappaB2)) serve as inhibitors of NF-kappaB, IkappaBxi and Bcl-3 instead potentiate NF-kappaB transactivation in the nucleus.
+# T1 Protein S2 34 46 255 267 IkappaBalpha
+# T2 Protein S2 48 59 269 280 IkappaBbeta
+# T3 Protein S2 61 75 282 296 IkappaBepsilon
+# T4 Protein S2 77 81 298 302 p105
+# T5 Protein S2 97 107 318 328 NF-kappaB1
+# T6 Protein S2 110 114 331 335 p100
+# T7 Protein S2 130 140 351 361 NF-kappaB2
+# T8 Protein S2 177 186 398 407 IkappaBxi
+# T9 Protein S2 191 196 412 417 Bcl-3
+
+p100 and p105 are precursors of the p52 and p50 NF-kappaB subunits, respectively.
+# T10 Protein S3 0 4 479 483 p100
+# T11 Protein S3 9 13 488 492 p105
+# T12 Protein S3 36 39 515 518 p52
+# T13 Protein S3 44 47 523 526 p50
+
+There are two unique NF-kappaB signalling pathways, termed canonical (or classical) and noncanonical (or alternative) NF-kappaB pathways.
+
+The canonical NF-kappaB pathway plays a major role in innate and adaptive immunity, and is triggered by many stimuli including proinflammatory cytokines (for example, TNF, IL-1), antigens, RANKL, and TLR ligands.
+# T14 Protein S5 167 170 866 869 TNF
+# T15 Protein S5 189 194 888 893 RANKL
+
+NF-kappaB signalling initiated by different receptors requires the formation of proximal protein-protein interactions that are often receptor specific, but ultimately converge in the activation of the IkappaB kinase (IKK) complex, which mediates phosphorylation of the inhibitory IkappaB protein leading to its K48-polyubiquitination and degradation by the proteasome [20].
+
+The IKK complex is comprised of the two catalytic subunits IKK1 and IKK2 (also known as IKKalpha and IKKbeta) and the regulatory subunit NF-kappaB essential modulator (NEMO - also known as IKKgamma) (Figure 1).
+# T16 Protein S7 59 63 1345 1349 IKK1
+# T17 Protein S7 68 72 1354 1358 IKK2
+# T18 Protein S7 88 96 1374 1382 IKKalpha
+# T19 Protein S7 101 108 1387 1394 IKKbeta
+# T20 Protein S7 137 166 1423 1452 NF-kappaB essential modulator
+# T21 Protein S7 168 172 1454 1458 NEMO
+# T22 Protein S7 189 197 1475 1483 IKKgamma
+
+Gene targeting experiments showed that IKK2 and NEMO, but not IKK1, are required for canonical NF-kappaB activation [21].
+# T23 Protein S8 39 43 1536 1540 IKK2
+# T24 Protein S8 48 52 1545 1549 NEMO
+# T25 Protein S8 62 66 1559 1563 IKK1
+
+One of the best studied NF-kappaB signalling pathways is the TNF pathway.
+# T26 Protein S9 61 64 1680 1683 TNF
+
+TNF stimulation results in the recruitment of TNF receptor-1-associated death domain (TRADD) protein and of receptor interacting protein 1 (RIP1), which function as adaptor proteins for the E3 ubiquitin ligases TNF receptor-associated factor (TRAF) 2 and TRAF5, which in turn bind the E3 ubiquitin ligases cellular inhibitor of apoptosis (cIAP) 1 and cIAP2 (Figure 1).
+# T27 Protein S10 0 3 1693 1696 TNF
+# T28 Protein S10 46 84 1739 1777 TNF receptor-1-associated death domain
+# T29 Protein S10 86 91 1779 1784 TRADD
+# T30 Protein S10 108 138 1801 1831 receptor interacting protein 1
+# T31 Protein S10 140 144 1833 1837 RIP1
+# T32 Protein S10 211 250 1904 1943 TNF receptor-associated factor (TRAF) 2
+# T33 Protein S10 255 260 1948 1953 TRAF5
+# T34 Protein S10 306 346 1999 2039 cellular inhibitor of apoptosis (cIAP) 1
+# T35 Protein S10 351 356 2044 2049 cIAP2
+
+On TNF stimulation, TNF-receptor bound RIP1 is rapidly modified by K63-linked polyubiquitin chains.
+# T36 Protein S11 3 6 2065 2068 TNF
+# T37 Protein S11 39 43 2101 2105 RIP1
+
+TRAF2/5 and cIAP1/2 are good candidates for RIP1 ubiquitination, but the specific role of each is still unclear.
+# T38 Protein S12 0 5 2162 2167 TRAF2
+# T39 Protein S12 6 7 2168 2169 5
+# T40 Protein S12 12 17 2174 2179 cIAP1
+# T41 Protein S12 18 19 2180 2181 2
+# T42 Protein S12 44 48 2206 2210 RIP1
+
+The polyubiquitin chains on RIP1 are believed to create a scaffold to recruit the IKK and TAK1 complex via the ubiquitin-binding proteins NEMO and TAB1/2, respectively.
+# T43 Protein S13 28 32 2303 2307 RIP1
+# T44 Protein S13 90 94 2365 2369 TAK1
+# T45 Protein S13 138 142 2413 2417 NEMO
+# T46 Protein S13 147 151 2422 2426 TAB1
+# T47 Protein S13 152 153 2427 2428 2
+
+The recent identification of a distinct E2/E3 enzyme complex that modifies NEMO with linear polyubiquitin chains and is essential for TNF-activated NF-kappaB signalling adds further complexity [22].
+# T48 Protein S14 75 79 2519 2523 NEMO
+# T49 Protein S14 134 137 2578 2581 TNF
+
+The exact role of protein-anchored polyubiquitin chains remains unclear, as it was recently suggested that unanchored polyubiquitin chains can directly activate the TAK1 complex [23].
+# T50 Protein S15 165 169 2808 2812 TAK1
+
+Similar signalling principles apply to other receptors.
+
+For example, TLR4 stimulation by lipopolysaccharide induces the recruitment of Toll/IL-1 receptor adaptor protein (also referred to as Mal) and TRIF-related adaptor molecule (TRAM), which most probably serve as bridging factors to recruit myeloid differentiation primary response gene 88 (MyD88) and TIR domain-containing adaptor-inducing IFNbeta (TRIF), respectively.
+# T67 Protein S17 13 17 2896 2900 TLR4
+# T68 Protein S17 79 113 2962 2996 Toll/IL-1 receptor adaptor protein
+# T69 Protein S17 135 137 3018 3020 Ma
+# T70 Protein S17 144 173 3027 3056 TRIF-related adaptor molecule
+# T71 Protein S17 175 179 3058 3062 TRAM
+# T72 Protein S17 239 287 3122 3170 myeloid differentiation primary response gene 88
+# T73 Protein S17 289 294 3172 3177 MyD88
+# T74 Protein S17 300 346 3183 3229 TIR domain-containing adaptor-inducing IFNbeta
+# T75 Protein S17 348 352 3231 3235 TRIF
+
+MyD88 in turn recruits members of the IL-1R-associated kinase (IRAK) family and TRAF6, leading to oligomerisation and selfubiquitination of TRAF6 [24].
+# T76 Protein S18 0 5 3252 3257 MyD88
+# T77 Protein S18 80 85 3332 3337 TRAF6
+# T78 Protein S18 140 145 3392 3397 TRAF6
+
+TRIF also recruits TRAF6 [25] and RIP1 [26] via a direct interaction.
+# T79 Protein S19 0 4 3404 3408 TRIF
+# T80 Protein S19 19 24 3423 3428 TRAF6
+# T81 Protein S19 34 38 3438 3442 RIP1
+
+Both pathways then activate TAK1 and IKK in a ubiquitination-dependent manner similar to the TNF pathway (Figure 1).
+# T82 Protein S20 28 32 3502 3506 TAK1
+# T83 Protein S20 93 96 3567 3570 TNF
+
+The noncanonical NF-kappaB pathway can be activated by the lymphotoxin beta receptor, BAFF receptor, CD40, and RANK (Figure 2).
+# T84 Protein S21 59 84 3650 3675 lymphotoxin beta receptor
+# T85 Protein S21 86 99 3677 3690 BAFF receptor
+# T86 Protein S21 101 105 3692 3696 CD40
+# T87 Protein S21 111 115 3702 3706 RANK
+
+In this pathway, p100 is processed by the proteasome to p52, which together with the RelB NF-kappaB subunit regulates a distinct set of target genes that control B-cell development, secondary lymphoid organ development, and osteoclastogenesis [27] The noncanonical NF-kappaB pathway is strictly dependent on IKK1, which is activated upon phosphorylation by NF-kappaB inducing kinase (NIK).
+# T88 Protein S22 17 21 3736 3740 p100
+# T89 Protein S22 56 59 3775 3778 p52
+# T90 Protein S22 85 89 3804 3808 RelB
+# T91 Protein S22 308 312 4027 4031 IKK1
+# T92 Protein S22 357 382 4076 4101 NF-kappaB inducing kinase
+# T93 Protein S22 384 387 4103 4106 NIK
+
+NIK is predominantly regulated at the post-translational level and is present at extremely low levels in most cell types.
+# T94 Protein S23 0 3 4109 4112 NIK
+
+In unstimulated cells, NIK occurs in a cytoplasmic complex with TRAF2, TRAF3, and cIAP1/2, which K48-polyubiquitinates NIK, leading to its continuous degradation by the proteasome.
+# T95 Protein S24 23 26 4254 4257 NIK
+# T96 Protein S24 64 69 4295 4300 TRAF2
+# T97 Protein S24 71 76 4302 4307 TRAF3
+# T98 Protein S24 82 87 4313 4318 cIAP1
+# T99 Protein S24 88 89 4319 4320 2
+# T100 Protein S24 119 122 4350 4353 NIK
+
+Receptor ligation has been shown not only to remove TRAF3 from this complex by recruiting it to the receptor, but also to attract TRAF2 and cIAP1/2, which are essential for subsequent TRAF3 degradation.
+# T101 Protein S25 52 57 4464 4469 TRAF3
+# T102 Protein S25 130 135 4542 4547 TRAF2
+# T103 Protein S25 140 145 4552 4557 cIAP1
+# T104 Protein S25 146 147 4558 4559 2
+# T105 Protein S25 184 189 4596 4601 TRAF3
+
+All this contributes to releasing NIK from its constitutive degradation, resulting in NIK accumulation and IKK1 phosphorylation [28,29] (Figure 2).
+# T106 Protein S26 34 37 4649 4652 NIK
+# T107 Protein S26 86 89 4701 4704 NIK
+# T108 Protein S26 107 111 4722 4726 IKK1
+
+It should be mentioned that CD40, lymphotoxin beta receptor and RANK mediate the activation of both canonical and noncanonical NF-kappaB signalling pathways.
+# T109 Protein S27 28 32 4791 4795 CD40
+# T110 Protein S27 34 59 4797 4822 lymphotoxin beta receptor
+# T111 Protein S27 64 68 4827 4831 RANK
+
+Upon binding of their ligand, CD40 and RANK interact with several TRAF members, including TRAF1, TRAF2, TRAF3, TRAF5, and TRAF6, and this leads to the proteolysis of both TRAF2 and TRAF3, which represents an important step in the activation of the noncanonical pathway as described above.
+# T112 Protein S28 30 34 4951 4955 CD40
+# T113 Protein S28 39 43 4960 4964 RANK
+# T114 Protein S28 90 95 5011 5016 TRAF1
+# T115 Protein S28 97 102 5018 5023 TRAF2
+# T116 Protein S28 104 109 5025 5030 TRAF3
+# T117 Protein S28 111 116 5032 5037 TRAF5
+# T118 Protein S28 122 127 5043 5048 TRAF6
+# T119 Protein S28 171 176 5092 5097 TRAF2
+# T120 Protein S28 181 186 5102 5107 TRAF3
+
+Specific TRAF molecules are associated with overlapping and distinct CD40-mediated functions.
+# T121 Protein S29 69 73 5279 5283 CD40
+
+For example, in B cells TRAF6 is required for CD40-mediated JNK activation and IL-6 production, while TRAF2 is required for activation of NF-kappaB, and TRAF3 serves as a negative regulator of CD40 signalling [30,31].
+# T122 Protein S30 24 29 5328 5333 TRAF6
+# T123 Protein S30 46 50 5350 5354 CD40
+# T124 Protein S30 79 83 5383 5387 IL-6
+# T125 Protein S30 102 107 5406 5411 TRAF2
+# T126 Protein S30 153 158 5457 5462 TRAF3
+# T127 Protein S30 193 197 5497 5501 CD40
+

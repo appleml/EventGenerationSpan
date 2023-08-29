@@ -1,0 +1,90 @@
+The immediate-early gene product Egr-1 regulates the human interleukin-2 receptor beta-chain promoter through noncanonical Egr and Sp1 binding sites.
+# T1 Protein S1 33 38 33 38 Egr-1
+# T2 Protein S1 59 92 59 92 interleukin-2 receptor beta-chain
+$ T2 Protein S1 59 92 59 92 interleukin-2 receptor beta-chain
+@ T24 Regulation S1 102 109 102 109 through
+% E1 Regulation:T24 Theme:T2
+
+The interleukin-2 IL-2 receptor beta-chain (IL-2Rbeta) is an essential component of the receptors for IL-2 and IL-15.
+# T3 Protein S2 4 42 155 193 interleukin-2 IL-2 receptor beta-chain
+# T4 Protein S2 44 53 195 204 IL-2Rbeta
+# T5 Protein S2 102 106 253 257 IL-2
+# T6 Protein S2 111 116 262 267 IL-15
+
+Although IL-2Rbeta is constitutively expressed by lymphocytes, its expression can be further induced by a number of stimuli, including phorbol 12-myristate 13-acetate (PMA).
+# T7 Protein S3 9 18 278 287 IL-2Rbeta
+$ T7 Protein S3 9 18 278 287 IL-2Rbeta
+@ T25 Gene_expression S3 37 46 306 315 expressed
+@ T26 Positive_regulation S3 93 100 362 369 induced
+% E2 Gene_expression:T25 Theme:T7
+% E3 Positive_regulation:T26 Theme:E2
+
+We have now characterized factors that bind to an enhancer region located between nucleotides -170 and -139 of the human IL-2Rbeta promoter.
+# T8 Protein S4 121 130 564 573 IL-2Rbeta
+$ T8 Protein S4 121 130 564 573 IL-2Rbeta
+@ T27 Binding S4 39 43 482 486 bind
+@ T28 Entity S4 131 139 574 582 promoter
+% E4 Binding:T27 Theme:T8 Site:T28
+
+Both Sp1 and Sp3 bound to the 5' portion of this region, whereas a PMA-inducible factor (PIF) mainly bound to its 3' portion and bound to the Sp binding motifs as well.
+# T9 Protein S5 5 8 589 592 Sp1
+# T10 Protein S5 13 16 597 600 Sp3
+$ T10 Protein S5 13 16 597 600 Sp3
+$ T9 Protein S5 5 8 589 592 Sp1
+@ T29 Binding S5 17 22 601 606 bound
+% E5 Binding:T29 Theme:T10
+% E6 Binding:T29 Theme:T9
+
+In Jurkat T cells, induction of PIF DNA binding activity was rapidly induced, required de novo protein synthesis, and was sustained at a high level for at least 23 h. Interestingly, PIF was constitutively activated in human T-cell leukemia virus type 1-transformed MT-2 cells.
+
+In this paper, we demonstrate that PIF is Egr-1 based on its recognition by anti-Egr-1 antisera in gel mobility shift assays, even though the IL-2Rbeta DNA binding motif differed substantially from the canonical Egr-1 binding site.
+# T11 Protein S7 42 47 1072 1077 Egr-1
+# T12 Protein S7 81 86 1111 1116 Egr-1
+# T13 Protein S7 142 151 1172 1181 IL-2Rbeta
+# T14 Protein S7 212 217 1242 1247 Egr-1
+$ T11 Protein S7 42 47 1072 1077 Egr-1
+@ T30 Binding S7 61 72 1091 1102 recognition
+% E7 Binding:T30 Theme:T11
+
+In addition, Egr-1 bound to the Sp binding site.
+# T15 Protein S8 13 18 1275 1280 Egr-1
+$ T15 Protein S8 13 18 1275 1280 Egr-1
+@ T31 Binding S8 19 24 1281 1286 bound
+% E8 Binding:T31 Theme:T15
+
+In Jurkat cells, both sites were required for maximal IL-2Rbeta promoter activity, and in HeLaS3 cells, transfection of Egr-1 could drive activity of a reporter construct containing both sites.
+# T16 Protein S9 54 63 1365 1374 IL-2Rbeta
+# T17 Protein S9 120 125 1431 1436 Egr-1
+$ T16 Protein S9 54 63 1365 1374 IL-2Rbeta
+$ T17 Protein S9 120 125 1431 1436 Egr-1
+@ T32 Positive_regulation S9 33 41 1344 1352 required
+@ T33 Entity S9 64 72 1375 1383 promoter
+@ T34 Gene_expression S9 104 116 1415 1427 transfection
+@ T35 Positive_regulation S9 104 116 1415 1427 transfection
+% E9 Positive_regulation:T32 Theme:T16 Site:T33
+% E10 Gene_expression:T34 Theme:T17
+% E11 Positive_regulation:T35 Theme:E10
+
+Moreover, Sp1 and Egr-1 could form a complex with kinetics that correlated with the production of Egr-1 in Jurkat cells upon PMA stimulation.
+# T18 Protein S10 10 13 1515 1518 Sp1
+# T19 Protein S10 18 23 1523 1528 Egr-1
+# T20 Protein S10 98 103 1603 1608 Egr-1
+$ T18 Protein S10 10 13 1515 1518 Sp1
+$ T19 Protein S10 18 23 1523 1528 Egr-1
+$ T20 Protein S10 98 103 1603 1608 Egr-1
+@ T36 Binding S10 30 44 1535 1549 form a complex
+@ T37 Gene_expression S10 84 94 1589 1599 production
+% E12 Binding:T36 Theme:T18 Theme2:T19
+% E13 Gene_expression:T37 Theme:T20
+
+Thus, Sp1 and Egr-1 physically and functionally cooperate to mediate maximal IL-2Rbeta promoter activity.
+# T21 Protein S11 6 9 1653 1656 Sp1
+# T22 Protein S11 14 19 1661 1666 Egr-1
+# T23 Protein S11 77 86 1724 1733 IL-2Rbeta
+$ T23 Protein S11 77 86 1724 1733 IL-2Rbeta
+$ T21 Protein S11 6 9 1653 1656 Sp1
+$ T22 Protein S11 14 19 1661 1666 Egr-1
+@ T38 Positive_regulation S11 61 68 1708 1715 mediate
+% E14 Positive_regulation:T38 Theme:T23 Cause:T21
+% E15 Positive_regulation:T38 Theme:T23 Cause:T22
+

@@ -1,0 +1,54 @@
+Pancreatic islet expression studies and polymorphic DNA markers in the genes encoding hepatocyte nuclear factor-3alpha, -3beta, -3gamma, -4gamma, and -6.
+# T1 Protein S1 86 118 86 118 hepatocyte nuclear factor-3alpha
+# T2 Protein S1 120 126 120 126 -3beta
+# T3 Protein S1 128 135 128 135 -3gamma
+# T4 Protein S1 137 144 137 144 -4gamma
+# T5 Protein S1 150 152 150 152 -6
+$ T2 Protein S1 120 126 120 126 -3beta
+$ T3 Protein S1 128 135 128 135 -3gamma
+$ T4 Protein S1 137 144 137 144 -4gamma
+$ T1 Protein S1 86 118 86 118 hepatocyte nuclear factor-3alpha
+$ T5 Protein S1 150 152 150 152 -6
+@ T19 Gene_expression S1 17 35 17 35 expression studies
+% E1 Gene_expression:T19 Theme:T2
+% E2 Gene_expression:T19 Theme:T3
+% E3 Gene_expression:T19 Theme:T4
+% E4 Gene_expression:T19 Theme:T1
+% E5 Gene_expression:T19 Theme:T5
+
+The genes encoding the functionally related hepatocyte nuclear factors HNF-1alpha and HNF-4alpha play a critical role in normal pancreatic beta-cell function.
+# T6 Protein S2 71 81 226 236 HNF-1alpha
+# T7 Protein S2 86 96 241 251 HNF-4alpha
+
+Mutations in these liver-enriched transcription factors result in two forms of early-onset type 2 diabetes (maturity-onset diabetes of the young [MODY]), MODY3 and MODY1, which are characterized by impaired glucose-stimulated insulin secretion, early disease onset, and autosomal dominant inheritance.
+
+The transcriptional hierarchy of HNFs suggests that other proteins of the regulatory cascade might be responsible for other forms of MODY and/or late-onset type 2 diabetes.
+
+In this study, we show that HNF-3alpha, -3beta, -3gamma, -4gamma, and -6 are expressed in pancreatic beta-cells.
+# T8 Protein S5 28 38 817 827 HNF-3alpha
+# T9 Protein S5 40 46 829 835 -3beta
+# T10 Protein S5 48 55 837 844 -3gamma
+# T11 Protein S5 57 64 846 853 -4gamma
+# T12 Protein S5 70 72 859 861 -6
+$ T12 Protein S5 70 72 859 861 -6
+$ T9 Protein S5 40 46 829 835 -3beta
+$ T8 Protein S5 28 38 817 827 HNF-3alpha
+$ T10 Protein S5 48 55 837 844 -3gamma
+$ T11 Protein S5 57 64 846 853 -4gamma
+@ T20 Gene_expression S5 77 86 866 875 expressed
+% E6 Gene_expression:T20 Theme:T12
+% E7 Gene_expression:T20 Theme:T9
+% E8 Gene_expression:T20 Theme:T8
+% E9 Gene_expression:T20 Theme:T10
+% E10 Gene_expression:T20 Theme:T11
+
+We report the identification and characterization of simple tandem repeat DNA polymorphisms in the genes encoding HNF-3alpha, -3beta, -3gamma, -4gamma, and -6 and the mapping of HNF-6 to chromosome bands 15q21.1-21.2 by fluorescence in situ hybridization.
+# T13 Protein S6 114 124 1016 1026 HNF-3alpha
+# T14 Protein S6 126 132 1028 1034 -3beta
+# T15 Protein S6 134 141 1036 1043 -3gamma
+# T16 Protein S6 143 150 1045 1052 -4gamma
+# T17 Protein S6 156 158 1058 1060 -6
+# T18 Protein S6 178 183 1080 1085 HNF-6
+
+These markers will be useful to study the role of genetic variation in these genes in the pathogenesis of type 2 diabetes.
+

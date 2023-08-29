@@ -1,0 +1,59 @@
+Surfactant suppresses NF-kappa B activation in human monocytic cells.
+
+In addition to biophysical properties, pulmonary surfactant has immunomodulatory activity.
+
+We previously demonstrated that both synthetic (Exosurf) and modified natural surfactant (Survanta) downregulated endotoxin-stimulated inflammatory cytokine mRNA levels and protein products (tumor necrosis factor-alpha [TNF], interleukin-1-beta [IL-1], interleukin-6 [IL-6]) in human alveolar macrophages.
+# T1 Protein S3 191 218 353 380 tumor necrosis factor-alpha
+# T2 Protein S3 220 223 382 385 TNF
+# T3 Protein S3 226 244 388 406 interleukin-1-beta
+# T4 Protein S3 246 250 408 412 IL-1
+# T5 Protein S3 253 266 415 428 interleukin-6
+# T6 Protein S3 268 272 430 434 IL-6
+$ T3 Protein S3 226 244 388 406 interleukin-1-beta
+$ T6 Protein S3 268 272 430 434 IL-6
+$ T1 Protein S3 191 218 353 380 tumor necrosis factor-alpha
+@ T13 Negative_regulation S3 100 113 262 275 downregulated
+@ T14 Positive_regulation S3 124 134 286 296 stimulated
+% E1 Negative_regulation:T13 Theme:E5
+% E2 Negative_regulation:T13 Theme:E6
+% E3 Negative_regulation:T13 Theme:E4
+% E4 Positive_regulation:T14 Theme:T3
+% E5 Positive_regulation:T14 Theme:T6
+% E6 Positive_regulation:T14 Theme:T1
+
+In this study, we report that both Exosurf and Survanta suppress TNF mRNA and secretion (85 +/- 4% mean percent inhibition +/- SEM by Exosurf; 71 +/- 6% by Survanta) by endotoxin-stimulated THP-1, a human monocytic cell line.
+# T7 Protein S4 65 68 533 536 TNF
+$ T7 Protein S4 65 68 533 536 TNF
+@ T15 Negative_regulation S4 56 64 524 532 suppress
+@ T16 Localization S4 78 87 546 555 secretion
+% E7 Negative_regulation:T15 Theme:E9
+% E8 Negative_regulation:T15 Theme:T7
+% E9 Localization:T16 Theme:T7
+
+Because surfactant downregulated inflammatory cytokine production similarly in both normal human alveolar macrophages and the THP-1 cell line, we used this cell line to investigate whether surfactant affected transcriptional mechanisms.
+
+Specifically, we examined nuclear factor-kappa B (NF-kappa B) activation because it is crucial in transcriptional regulation of many inflammatory cytokine genes including TNF, IL-1, and IL-6.
+# T8 Protein S6 171 174 1102 1105 TNF
+# T9 Protein S6 176 180 1107 1111 IL-1
+# T10 Protein S6 186 190 1117 1121 IL-6
+$ T8 Protein S6 171 174 1102 1105 TNF
+$ T10 Protein S6 186 190 1117 1121 IL-6
+$ T9 Protein S6 176 180 1107 1111 IL-1
+@ T17 Regulation S6 98 124 1029 1055 transcriptional regulation
+% E10 Regulation:T17 Theme:T8
+% E11 Regulation:T17 Theme:T10
+% E12 Regulation:T17 Theme:T9
+
+Electrophoretic mobility shift assays showed that both surfactants decreased activation of NF-kappa B.
+
+The presence of both p65 and p50 NF-kappa B components in LPS-activated THP-1 cells was confirmed by specific antibody induction of supershifts in mobility assays.
+# T11 Protein S8 21 24 1247 1250 p65
+# T12 Protein S8 29 32 1255 1258 p50
+$ T12 Protein S8 29 32 1255 1258 p50
+$ T11 Protein S8 21 24 1247 1250 p65
+@ T18 Gene_expression S8 4 12 1230 1238 presence
+% E13 Gene_expression:T18 Theme:T12
+% E14 Gene_expression:T18 Theme:T11
+
+These results are the first to suggest that surfactant's suppressive effects on inflammatory cytokine production may involve transcriptional regulation through inhibition of NF-kappa B activation.
+

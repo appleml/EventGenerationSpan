@@ -1,0 +1,77 @@
+Dimerization of NF-KB2 with RelA(p65) regulates DNA binding, transcriptional activation, and inhibition by an I kappa B-alpha (MAD-3).
+# T1 Protein S1 16 22 16 22 NF-KB2
+# T2 Protein S1 28 32 28 32 RelA
+# T3 Protein S1 33 36 33 36 p65
+# T4 Protein S1 110 125 110 125 I kappa B-alpha
+# T5 Protein S1 127 132 127 132 MAD-3
+
+Inducible expression of human immunodeficiency virus (HIV) is regulated by a cellular transcription factor, nuclear factor kappa B (NF-kappa B).
+
+NF-kappa B is composed of distinct subunits; five independent genes, NFKB1(p105), NFKB2(p100), RelA(p65), c-rel and relB, that encode related proteins that bind to kappa B DNA elements have been isolated.
+# T6 Protein S3 69 74 350 355 NFKB1
+# T7 Protein S3 75 79 356 360 p105
+# T8 Protein S3 82 87 363 368 NFKB2
+# T9 Protein S3 88 92 369 373 p100
+# T10 Protein S3 95 99 376 380 RelA
+# T11 Protein S3 100 103 381 384 p65
+# T12 Protein S3 106 111 387 392 c-rel
+# T13 Protein S3 116 120 397 401 relB
+
+We have previously found that NFKB2(p49/p52) acts in concert with RelA(p65) to stimulate the HIV enhancer in Jurkat T-leukemia cells.
+# T14 Protein S4 30 35 516 521 NFKB2
+# T15 Protein S4 36 39 522 525 p49
+# T16 Protein S4 40 43 526 529 p52
+# T17 Protein S4 66 70 552 556 RelA
+# T18 Protein S4 71 74 557 560 p65
+
+Here we examine the biochemical basis for the transcriptional regulation of HIV by NFKB2.
+# T19 Protein S5 83 88 703 708 NFKB2
+
+Using Scatchard analysis, we have determined the dissociation constants of homodimeric p49 and heterodimeric p49/p65 for binding to the HIV kappa B site.
+# T20 Protein S6 87 90 797 800 p49
+# T21 Protein S6 109 112 819 822 p49
+# T22 Protein S6 113 116 823 826 p65
+
+p49 has a approximately 18-fold-lower affinity for the HIV kappa B site (KD = 69.1 pM) than does the approximately 50-kDa protein NFKB1(p50) derived from p105 (KD = 3.9 pM).
+# T23 Protein S7 0 3 864 867 p49
+# T24 Protein S7 130 135 994 999 NFKB1
+# T25 Protein S7 136 139 1000 1003 p50
+# T26 Protein S7 154 158 1018 1022 p105
+
+In contrast, the affinity of heterodimeric NFKB2(p49)/RelA(p65) for this site is approximately 6-fold higher (KD = 11.8 pM) than that of p49 alone.
+# T27 Protein S8 43 48 1081 1086 NFKB2
+# T28 Protein S8 49 52 1087 1090 p49
+# T29 Protein S8 54 58 1092 1096 RelA
+# T30 Protein S8 59 62 1097 1100 p65
+# T31 Protein S8 137 140 1175 1178 p49
+
+Consistent with these findings, in vitro transcription was stimulated 18-fold by the addition of preformed, heterodimeric NFKB2(p49)/RelA(p65) protein.
+# T32 Protein S9 122 127 1308 1313 NFKB2
+# T33 Protein S9 128 131 1314 1317 p49
+# T34 Protein S9 133 137 1319 1323 RelA
+# T35 Protein S9 138 141 1324 1327 p65
+
+Transcriptional activation of the HIV enhancer was also subject to regulation by recently cloned I kappa B-alpha(MAD-3).
+# T36 Protein S10 97 112 1435 1450 I kappa B-alpha
+# T37 Protein S10 113 118 1451 1456 MAD-3
+
+Recombinant I kappa B-alpha(MAD-3) inhibited the DNA binding activity of p65, p49/p65, and p50/p65 but stimulated the binding of NFKB2(p49) or NFKB1(p50).
+# T38 Protein S11 12 27 1471 1486 I kappa B-alpha
+# T39 Protein S11 28 33 1487 1492 MAD-3
+# T40 Protein S11 73 76 1532 1535 p65
+# T41 Protein S11 78 81 1537 1540 p49
+# T42 Protein S11 82 85 1541 1544 p65
+# T43 Protein S11 91 94 1550 1553 p50
+# T44 Protein S11 95 98 1554 1557 p65
+# T45 Protein S11 129 134 1588 1593 NFKB2
+# T46 Protein S11 135 138 1594 1597 p49
+# T47 Protein S11 143 148 1602 1607 NFKB1
+# T48 Protein S11 149 152 1608 1611 p50
+
+Functional activation of an HIV reporter plasmid by p49/p65 in transiently transfected Jurkat T-leukemia cells was also inhibited by coexpression of MAD-3.
+# T49 Protein S12 52 55 1666 1669 p49
+# T50 Protein S12 56 59 1670 1673 p65
+# T51 Protein S12 149 154 1763 1768 MAD-3
+
+(ABSTRACT TRUNCATED AT 250 WORDS)
+

@@ -1,0 +1,122 @@
+IL-4 down-regulates IL-2-, IL-3-, and GM-CSF-induced cytokine gene expression in peripheral blood monocytes.
+# T1 Protein S1 0 4 0 4 IL-4
+# T2 Protein S1 20 24 20 24 IL-2
+# T3 Protein S1 27 31 27 31 IL-3
+# T4 Protein S1 38 44 38 44 GM-CSF
+
+IL-4, a product of the T-helper 0 (Th0) and 2 (Th2) subset, was originally described as a B-cell stimulatory factor and has subsequently been found to suppress IL-1 alpha, IL-1 beta, IL-6, IL-8, and TNF-alpha gene expression in monocytes stimulated with LPS, and to upregulate IL-1 receptor antagonist (IL1-RA) gene expression.
+# T5 Protein S2 0 4 110 114 IL-4
+# T6 Protein S2 160 170 270 280 IL-1 alpha
+# T7 Protein S2 172 181 282 291 IL-1 beta
+# T8 Protein S2 183 187 293 297 IL-6
+# T9 Protein S2 189 193 299 303 IL-8
+# T10 Protein S2 199 208 309 318 TNF-alpha
+# T11 Protein S2 277 301 387 411 IL-1 receptor antagonist
+# T12 Protein S2 303 309 413 419 IL1-RA
+$ T5 Protein S2 0 4 110 114 IL-4
+$ T10 Protein S2 199 208 309 318 TNF-alpha
+$ T6 Protein S2 160 170 270 280 IL-1 alpha
+$ T8 Protein S2 183 187 293 297 IL-6
+$ T9 Protein S2 189 193 299 303 IL-8
+$ T7 Protein S2 172 181 282 291 IL-1 beta
+$ T12 Protein S2 303 309 413 419 IL1-RA
+@ T38 Gene_expression S2 8 15 118 125 product
+@ T39 Negative_regulation S2 151 159 261 269 suppress
+@ T40 Gene_expression S2 214 224 324 334 expression
+@ T41 Positive_regulation S2 238 248 348 358 stimulated
+@ T42 Positive_regulation S2 266 276 376 386 upregulate
+@ T43 Gene_expression S2 316 326 426 436 expression
+% E1 Gene_expression:T38 Theme:T5
+% E2 Negative_regulation:T39 Theme:E15 Cause:T5
+% E3 Negative_regulation:T39 Theme:E16 Cause:T5
+% E4 Negative_regulation:T39 Theme:E14 Cause:T5
+% E5 Negative_regulation:T39 Theme:E13 Cause:T5
+% E6 Negative_regulation:T39 Theme:E12 Cause:T5
+% E7 Gene_expression:T40 Theme:T10
+% E8 Gene_expression:T40 Theme:T6
+% E9 Gene_expression:T40 Theme:T8
+% E10 Gene_expression:T40 Theme:T9
+% E11 Gene_expression:T40 Theme:T7
+% E12 Positive_regulation:T41 Theme:E11
+% E13 Positive_regulation:T41 Theme:E7
+% E14 Positive_regulation:T41 Theme:E8
+% E15 Positive_regulation:T41 Theme:E10
+% E16 Positive_regulation:T41 Theme:E9
+% E17 Positive_regulation:T42 Theme:E18 Cause:T5
+% E18 Gene_expression:T43 Theme:T12
+
+In this study we investigated the effect of IL-4 on the expression of cytokine genes in monocytes evoked by other T-helper cell cytokines: IL-2, IL-3, and GM-CSF.
+# T13 Protein S3 44 48 482 486 IL-4
+# T14 Protein S3 139 143 577 581 IL-2
+# T15 Protein S3 145 149 583 587 IL-3
+# T16 Protein S3 155 161 593 599 GM-CSF
+
+IL-4 down-regulated mRNA accumulation of the proinflammatory cytokines IL-1 beta, IL-8, and TNF-alpha in monocytes stimulated with IL-2, IL-3, and GM-CSF.
+# T17 Protein S4 0 4 601 605 IL-4
+# T18 Protein S4 71 80 672 681 IL-1 beta
+# T19 Protein S4 82 86 683 687 IL-8
+# T20 Protein S4 92 101 693 702 TNF-alpha
+# T21 Protein S4 131 135 732 736 IL-2
+# T22 Protein S4 137 141 738 742 IL-3
+# T23 Protein S4 147 153 748 754 GM-CSF
+$ T17 Protein S4 0 4 601 605 IL-4
+$ T19 Protein S4 82 86 683 687 IL-8
+$ T18 Protein S4 71 80 672 681 IL-1 beta
+$ T20 Protein S4 92 101 693 702 TNF-alpha
+@ T44 Negative_regulation S4 5 19 606 620 down-regulated
+@ T45 Positive_regulation S4 20 37 621 638 mRNA accumulation
+% E19 Negative_regulation:T44 Theme:E22 Cause:T17
+% E20 Negative_regulation:T44 Theme:E23 Cause:T17
+% E21 Negative_regulation:T44 Theme:E24 Cause:T17
+% E22 Positive_regulation:T45 Theme:T19
+% E23 Positive_regulation:T45 Theme:T18
+% E24 Positive_regulation:T45 Theme:T20
+
+IL-4 also suppressed the IL-2-induced IL-6 mRNA expression.
+# T24 Protein S5 0 4 756 760 IL-4
+# T25 Protein S5 25 29 781 785 IL-2
+# T26 Protein S5 38 42 794 798 IL-6
+$ T24 Protein S5 0 4 756 760 IL-4
+$ T25 Protein S5 25 29 781 785 IL-2
+$ T26 Protein S5 38 42 794 798 IL-6
+@ T46 Negative_regulation S5 10 20 766 776 suppressed
+@ T47 Positive_regulation S5 30 37 786 793 induced
+@ T48 Transcription S5 48 58 804 814 expression
+% E25 Negative_regulation:T46 Theme:E26 Cause:T24
+% E26 Positive_regulation:T47 Theme:E27 Cause:T25
+% E27 Transcription:T48 Theme:T26
+
+Temporal analysis of the IL-4 down-regulatory effect on the IL-2-, IL-3-, or GM-CSF-induced proinflammatory cytokine gene expression in monocytes provided evidence that IL-4 acts predominantly on the post-transcriptional level.
+# T27 Protein S6 25 29 841 845 IL-4
+# T28 Protein S6 60 64 876 880 IL-2
+# T29 Protein S6 67 71 883 887 IL-3
+# T30 Protein S6 77 83 893 899 GM-CSF
+# T31 Protein S6 169 173 985 989 IL-4
+
+This was supported by the observation that the down-regulatory capacity of IL-4 appeared to be dependent on de novo protein synthesis.
+# T32 Protein S7 75 79 1119 1123 IL-4
+
+IL-4 did not exert significant influence on the induction of expression of IL-1-RA or various CSFs by IL-2, IL-3, and GM-CSF.
+# T33 Protein S8 0 4 1179 1183 IL-4
+# T34 Protein S8 75 82 1254 1261 IL-1-RA
+# T35 Protein S8 102 106 1281 1285 IL-2
+# T36 Protein S8 108 112 1287 1291 IL-3
+# T37 Protein S8 118 124 1297 1303 GM-CSF
+$ T33 Protein S8 0 4 1179 1183 IL-4
+$ T36 Protein S8 108 112 1287 1291 IL-3
+$ T37 Protein S8 118 124 1297 1303 GM-CSF
+$ T35 Protein S8 102 106 1281 1285 IL-2
+$ T34 Protein S8 75 82 1254 1261 IL-1-RA
+@ T49 Regulation S8 31 40 1210 1219 influence
+@ T50 Positive_regulation S8 48 57 1227 1236 induction
+@ T51 Gene_expression S8 61 71 1240 1250 expression
+% E28 Regulation:T49 Theme:E31 Cause:T33
+% E29 Regulation:T49 Theme:E32 Cause:T33
+% E30 Regulation:T49 Theme:E33 Cause:T33
+% E31 Positive_regulation:T50 Theme:E34 Cause:T36
+% E32 Positive_regulation:T50 Theme:E34 Cause:T37
+% E33 Positive_regulation:T50 Theme:E34 Cause:T35
+% E34 Gene_expression:T51 Theme:T34
+
+(ABSTRACT TRUNCATED AT 250 WORDS)
+

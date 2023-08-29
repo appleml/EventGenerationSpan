@@ -1,0 +1,12 @@
+Epstein-Barr virus binding to CD21 activates the initial viral promoter via NF-kappaB induction.
+# T1 Protein S1 30 34 30 34 CD21
+
+Epstein-Barr virus (EBV), an oncogenic human herpesvirus, binds to and infects normal human B lymphocytes via CD21, the CR2 complement receptor.
+# T2 Protein S2 110 114 208 212 CD21
+# T3 Protein S2 120 123 218 221 CR2
+
+Studies of the mechanisms that enable EBV to infect nonactivated, noncycling B cells provide compelling evidence for a sequence of events in which EBV binding to CD21 on purified resting human B cells rapidly activates the NF-kappaB transcription factor, which, in turn, binds to and mediates transcriptional activation of Wp, the initial viral latent gene promoter.
+# T4 Protein S3 162 166 405 409 CD21
+
+Thus, EBV binding to its cellular receptor on resting B cells triggers an NF-kappaB-dependent intracellular signaling pathway which is required for infection.
+

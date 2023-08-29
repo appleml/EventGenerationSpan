@@ -1,0 +1,46 @@
+Soluble factors secreted by activated T-lymphocytes modulate the transcription of the immunosuppressive cytokine TGF-beta 2 in glial cells.
+# T1 Protein S1 113 123 113 123 TGF-beta 2
+$ T1 Protein S1 113 123 113 123 TGF-beta 2
+@ T9 Regulation S1 52 60 52 60 modulate
+@ T10 Transcription S1 65 78 65 78 transcription
+% E1 Regulation:T9 Theme:E2
+% E2 Transcription:T10 Theme:T1
+
+Coordination of the immune response to injury or disease in the brain is postulated to involve bi-directional discourse between the immune system and the central nervous system.
+
+This cross communication involves soluble mediators, including various growth factors, cytokines, and neuropeptides.
+
+In this report, we demonstrate that the supernatant from activated T-lymphocytes is able to induce the transcription of a potent cytokine, TGF-beta 2 in glial cells.
+# T2 Protein S4 139 149 575 585 TGF-beta 2
+$ T2 Protein S4 139 149 575 585 TGF-beta 2
+@ T11 Positive_regulation S4 92 98 528 534 induce
+@ T12 Transcription S4 103 116 539 552 transcription
+% E3 Positive_regulation:T11 Theme:E4
+% E4 Transcription:T12 Theme:T2
+
+The activating stimulus invokes signaling mechanisms distinct from known kinase or protease pathways.
+
+Activation of TGF-beta 2 transcription correlates with the loss of binding activity for an 80 kDA glial labile repressor protein, GLRP, to a responsive region within the TFG-beta 2 promoter.
+# T3 Protein S6 14 24 718 728 TGF-beta 2
+# T4 Protein S6 130 134 834 838 GLRP
+# T5 Protein S6 170 180 874 884 TFG-beta 2
+$ T3 Protein S6 14 24 718 728 TGF-beta 2
+$ T4 Protein S6 130 134 834 838 GLRP
+$ T5 Protein S6 170 180 874 884 TFG-beta 2
+@ T13 Positive_regulation S6 0 10 704 714 Activation
+@ T14 Transcription S6 25 38 729 742 transcription
+@ T15 Negative_regulation S6 59 63 763 767 loss
+@ T16 Binding S6 67 83 771 787 binding activity
+@ T17 Entity S6 181 189 885 893 promoter
+% E5 Positive_regulation:T13 Theme:E6
+% E6 Transcription:T14 Theme:T3
+% E7 Negative_regulation:T15 Theme:E8
+% E8 Binding:T16 Theme:T4 Theme2:T5 Site2:T17
+
+Although GLRP shares some characteristics with the inducible transcription factor AP-1, it appears to be distinct from known AP-1 family members.
+# T6 Protein S7 9 13 904 908 GLRP
+
+These data along with previous observations demonstrating the potent immunosuppressive activity of TGF-beta 2, support a model for a feedback mechanism between the activated T-lymphocytes and astrocytes via TGF-beta 2 to regulate the immune response.
+# T7 Protein S8 99 109 1140 1150 TGF-beta 2
+# T8 Protein S8 207 217 1248 1258 TGF-beta 2
+

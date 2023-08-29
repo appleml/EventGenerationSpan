@@ -1,0 +1,9 @@
+{"text": "RT-PCR Analysis", "event": "<extra_id_0> <extra_id_1>"}
+{"text": "Total RNA from monocytes was isolated using TRIzol Reagent ( TM ) ( Invitrogen ) .", "event": "<extra_id_0> <extra_id_1>"}
+{"text": "cDNA was generated on 1 microg of total RNA in a reaction volume of 20 microl , using M-MLV reverse transcriptase ( Invitrogen ) .", "event": "<extra_id_0> <extra_id_1>"}
+{"text": "PCR was done in the linear range of amplification ( determined for each primer pair-cDNA combination ) .", "event": "<extra_id_0> <extra_id_1>"}
+{"text": "Standard PCR reactions were performed with 1 microl of the cDNA solution , 50 microM of each primer solution , 10 mM of each dNTP , 25 mM MgCl2 , 10X Goldstar DNA polymerase reaction buffer , and 0.5 units of Goldstar DNA polymerase ( Eurogentec , Seraing , Belgium ) .", "event": "<extra_id_0> <extra_id_1>"}
+{"text": "First PCR cycle consisted of 1 min at 92degreesC , 1 min at 58degreesC and 1 min at 72degreesC ; then each PCR cycle consisted of 40 sec at 92degreesC , 40 sec at 58degreesC and 50 sec at 72degreesC .", "event": "<extra_id_0> <extra_id_1>"}
+{"text": "cDNA for <extra_id_0> beta-actin <extra_id_2> Protein <extra_id_1> was amplified for 28 cycles using the oligos : sense 5'-GGCATCGTGATGGACTCCG-3 ' and antisense 5'GCTGGAAGGTGGACAGCGA-3 ' .", "event": "<extra_id_0> <extra_id_1>"}
+{"text": "cDNA for <extra_id_0> TNF-alpha <extra_id_2> Protein <extra_id_1> was amplified for 35 cycles using the oligos : sense 5'-AAGCCTGTAGCCCATGTTGT-3 ' and antisense 5'-CAGATAGATGGGCTCATACC-3 ' .", "event": "<extra_id_0> <extra_id_1>"}
+{"text": "cDNA for <extra_id_0> ICAM-1 <extra_id_2> Protein <extra_id_1> was amplified for 35 cycles using the oligos sense 5'-GTAGCAGCCGCAGTCATAATGG-3 ' and antisense 5'-A TGCTGTTGTATCTGACTGAGG-3 ' .", "event": "<extra_id_0> <extra_id_1>"}

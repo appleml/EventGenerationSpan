@@ -1,0 +1,51 @@
+Decreased proteasome-mediated degradation in T cells from the elderly: A role in immune senescence.
+
+Induction of NFkappaB is a highly regulated process requiring phosphorylation, ubiquitination, and proteasome-mediated degradation of the cytosolic inhibitor IkappaBalpha.
+# T1 Protein S2 158 170 259 271 IkappaBalpha
+$ T1 Protein S2 158 170 259 271 IkappaBalpha
+@ T8 Positive_regulation S2 110 118 211 219 mediated
+@ T9 Protein_catabolism S2 119 130 220 231 degradation
+% E1 Positive_regulation:T8 Theme:E2
+% E2 Protein_catabolism:T9 Theme:T1
+
+Analyses of the regulation of IkappaBalpha in TNF-alpha-treated T lymphocytes from young and elderly donors revealed severely compromised degradation of IkappaBalpha in T cells from the elderly.
+# T2 Protein S3 30 42 303 315 IkappaBalpha
+# T3 Protein S3 46 55 319 328 TNF-alpha
+# T4 Protein S3 153 165 426 438 IkappaBalpha
+$ T2 Protein S3 30 42 303 315 IkappaBalpha
+$ T4 Protein S3 153 165 426 438 IkappaBalpha
+@ T10 Regulation S3 16 26 289 299 regulation
+@ T11 Protein_catabolism S3 138 149 411 422 degradation
+% E3 Regulation:T10 Theme:T2
+% E4 Protein_catabolism:T11 Theme:T4
+
+Examination of activation-induced phosphorylation and ubiquitination of IkappaBalpha did not demonstrate any significant age-related alterations.
+# T5 Protein S4 72 84 540 552 IkappaBalpha
+$ T5 Protein S4 72 84 540 552 IkappaBalpha
+@ T12 Positive_regulation S4 26 33 494 501 induced
+@ T13 Phosphorylation S4 34 49 502 517 phosphorylation
+@ T14 Regulation S4 133 144 601 612 alterations
+% E5 Positive_regulation:T12 Theme:E6
+% E6 Phosphorylation:T13 Theme:T5
+% E7 Regulation:T14 Theme:E5
+
+However, examination of proteasome activity in these T cells using fluorogenic peptide assays revealed a significant age-related decline in chymotryptic activity.
+
+These results suggest that a decline in proteasome activity results in a failure to fully degrade IkappaBalpha in the elderly.
+# T6 Protein S6 98 110 875 887 IkappaBalpha
+$ T6 Protein S6 98 110 875 887 IkappaBalpha
+@ T15 Positive_regulation S6 60 67 837 844 results
+@ T16 Protein_catabolism S6 90 97 867 874 degrade
+% E8 Positive_regulation:T15 Theme:E9
+% E9 Protein_catabolism:T16 Theme:T6
+
+This failure to degrade IkappaBalpha may underlie both the observed decrease in NFkappaB induction and the IL-2 receptor expression in TNF-treated T cells during aging.
+# T7 Protein S7 24 36 928 940 IkappaBalpha
+$ T7 Protein S7 24 36 928 940 IkappaBalpha
+@ T17 Protein_catabolism S7 16 23 920 927 degrade
+% E10 Protein_catabolism:T17 Theme:T7
+
+Thus, decreased proteasome-mediated degradation may be central to immune dysfunction that accompanies aging.
+
+Copyright 1999 Academic Press.
+

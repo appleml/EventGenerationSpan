@@ -1,0 +1,68 @@
+IL-7 reconstitutes multiple aspects of v-Abl-mediated signaling.
+# T1 Protein S1 0 4 0 4 IL-7
+# T2 Protein S1 39 44 39 44 v-Abl
+$ T1 Protein S1 0 4 0 4 IL-7
+$ T2 Protein S1 39 44 39 44 v-Abl
+@ T28 Positive_regulation S1 5 18 5 18 reconstitutes
+@ T29 Positive_regulation S1 54 63 54 63 signaling
+% E1 Positive_regulation:T28 Theme:E2 Cause:T1
+% E2 Positive_regulation:T29 Theme:T2
+
+The mechanism by which early lymphoid cells are selectively transformed by v-Abl is currently unknown.
+# T3 Protein S2 75 80 141 146 v-Abl
+
+Previous studies have shown constitutive activation of IL-4 and IL-7 signaling pathways, as measured by activation of Janus protein kinase (JAK)1, JAK3, STAT5, and STAT6, in pre-B cells transformed by v-Abl.
+# T4 Protein S3 55 59 224 228 IL-4
+# T5 Protein S3 64 68 233 237 IL-7
+# T6 Protein S3 118 145 287 314 Janus protein kinase (JAK)1
+# T7 Protein S3 147 151 316 320 JAK3
+# T8 Protein S3 164 169 333 338 STAT6
+# T9 Protein S3 201 206 370 375 v-Abl
+$ T8 Protein S3 164 169 333 338 STAT6
+$ T7 Protein S3 147 151 316 320 JAK3
+$ T6 Protein S3 118 145 287 314 Janus protein kinase (JAK)1
+@ T30 Positive_regulation S3 104 114 273 283 activation
+% E3 Positive_regulation:T30 Theme:T8
+% E4 Positive_regulation:T30 Theme:T7
+% E5 Positive_regulation:T30 Theme:T6
+
+To determine whether activation of these cytokine signaling pathways by v-Abl is important in the cellular events induced by the Abelson murine leukemia virus, the effects of IL-4 and IL-7 on pre-B cells transformed with a temperature-sensitive v-Abl mutant were examined.
+# T10 Protein S4 72 77 449 454 v-Abl
+# T11 Protein S4 175 179 552 556 IL-4
+# T12 Protein S4 184 188 561 565 IL-7
+# T13 Protein S4 245 250 622 627 v-Abl
+
+Whereas IL-4 had little or no effect, IL-7 delayed both the apoptosis and cell cycle arrest that occur upon v-Abl kinase inactivation.
+# T14 Protein S5 8 12 658 662 IL-4
+# T15 Protein S5 38 42 688 692 IL-7
+
+IL-7 also delayed the decreases in the levels of c-Myc, Bcl-2, and Bcl-xL that occur upon loss of v-Abl kinase activity.
+# T16 Protein S6 0 4 785 789 IL-7
+# T17 Protein S6 49 54 834 839 c-Myc
+# T18 Protein S6 56 61 841 846 Bcl-2
+# T19 Protein S6 67 73 852 858 Bcl-xL
+$ T16 Protein S6 0 4 785 789 IL-7
+$ T19 Protein S6 67 73 852 858 Bcl-xL
+$ T17 Protein S6 49 54 834 839 c-Myc
+$ T18 Protein S6 56 61 841 846 Bcl-2
+@ T31 Negative_regulation S6 10 17 795 802 delayed
+@ T32 Negative_regulation S6 22 31 807 816 decreases
+% E6 Negative_regulation:T31 Theme:E11 Cause:T16
+% E7 Negative_regulation:T31 Theme:E9 Cause:T16
+% E8 Negative_regulation:T31 Theme:E10 Cause:T16
+% E9 Negative_regulation:T32 Theme:T19
+% E10 Negative_regulation:T32 Theme:T17
+% E11 Negative_regulation:T32 Theme:T18
+
+IL-7 did not maintain v-Abl-mediated differentiation arrest of the pre-B cells, as activation of NF-kappaB and RAG gene transcription was unaffected by IL-7.
+# T20 Protein S7 0 4 906 910 IL-7
+# T21 Protein S7 22 27 928 933 v-Abl
+# T22 Protein S7 152 156 1058 1062 IL-7
+
+These results identify a potential role for IL-7 signaling pathways in transformation by v-Abl while demonstrating that a combination of IL-4 and IL-7 signaling cannot substitute for an active v-Abl kinase in transformed pre-B cells.
+# T23 Protein S8 44 48 1108 1112 IL-7
+# T24 Protein S8 89 94 1153 1158 v-Abl
+# T25 Protein S8 137 141 1201 1205 IL-4
+# T26 Protein S8 146 150 1210 1214 IL-7
+# T27 Protein S8 193 198 1257 1262 v-Abl
+

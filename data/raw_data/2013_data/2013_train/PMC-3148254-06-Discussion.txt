@@ -1,0 +1,279 @@
+Our results indicate that the protein HOIP is critical for CD40-induced signals that regulate B cell function.
+# T1 Protein S1 38 42 38 42 HOIP
+# T2 Protein S1 59 63 59 63 CD40
+
+Our data show that HOIP-dependent cellular responses include CD40-mediated upregulation of CD80 expression and synthesis of germline RNA transcripts from the immunoglobulin heavy chain locus, two events that are important for T-cell-dependent antibody-mediated immune responses.
+# T3 Protein S2 19 23 130 134 HOIP
+# T4 Protein S2 61 65 172 176 CD40
+# T5 Protein S2 91 95 202 206 CD80
+$ T3 Protein S2 19 23 130 134 HOIP
+$ T4 Protein S2 61 65 172 176 CD40
+$ T5 Protein S2 91 95 202 206 CD80
+@ T88 Regulation S2 24 33 135 144 dependent
+@ T89 Positive_regulation S2 66 74 177 185 mediated
+@ T90 Positive_regulation S2 75 87 186 198 upregulation
+@ T91 Gene_expression S2 96 106 207 217 expression
+% E3 Regulation:T88 Theme:E4 Cause:T3
+% E4 Positive_regulation:T89 Theme:E5 Cause:T4
+% E5 Positive_regulation:T90 Theme:E6
+% E6 Gene_expression:T91 Theme:T5
+
+At the molecular level, our data indicate that HOIP functions downstream of TRAF2 in the CD40 signaling pathway and that HOIP has a key role in promoting the recruitment of the IKK complex to CD40.
+# T6 Protein S3 47 51 437 441 HOIP
+# T7 Protein S3 76 81 466 471 TRAF2
+# T8 Protein S3 89 93 479 483 CD40
+# T9 Protein S3 121 125 511 515 HOIP
+# T10 Protein S3 192 196 582 586 CD40
+$ T6 Protein S3 47 51 437 441 HOIP
+$ T7 Protein S3 76 81 466 471 TRAF2
+$ T9 Protein S3 121 125 511 515 HOIP
+$ T10 Protein S3 192 196 582 586 CD40
+@ T92 Regulation S3 62 72 452 462 downstream
+@ T93 Regulation S3 136 140 526 530 role
+@ T94 Positive_regulation S3 144 153 534 543 promoting
+@ T95 Binding S3 158 169 548 559 recruitment
+% E7 Regulation:T92 Theme:T6 Cause:T7
+% E8 Regulation:T93 Theme:E9 Cause:T9
+% E9 Positive_regulation:T94 Theme:E10
+% E10 Binding:T95 Theme:T10
+
+Consistent with this, CD40-induced activation of NF-kappaB is dependent on the presence of HOIP.
+# T11 Protein S4 22 26 610 614 CD40
+
+In addition, our data show that HOIP facilitates the activation of JNK in response to CD40 engagement.
+# T12 Protein S5 32 36 717 721 HOIP
+# T13 Protein S5 86 90 771 775 CD40
+$ T13 Protein S5 86 90 771 775 CD40
+@ T96 Binding S5 91 101 776 786 engagement
+% E11 Binding:T96 Theme:T13
+
+Together, our findings provide support for the conclusion that HOIP is a key component of the CD40 signaling pathway.
+# T14 Protein S6 63 67 851 855 HOIP
+# T15 Protein S6 94 98 882 886 CD40
+
+Given the importance of CD40 signaling in both cellular and humoral immune responses, our results indicate that HOIP has a critical role in the regulation of the immune system.
+# T16 Protein S7 24 28 930 934 CD40
+# T17 Protein S7 112 116 1018 1022 HOIP
+
+The functional properties of HOIP have only been partially characterized.
+# T18 Protein S8 29 33 1112 1116 HOIP
+
+Initial studies showed that HOIP and the related protein HOIL-1 are components of a large (~600 kDa) protein complex capable of synthesizing linear polyubiquitin chains [5].
+# T19 Protein S9 28 32 1185 1189 HOIP
+# T20 Protein S9 57 63 1214 1220 HOIL-1
+
+Subsequent studies showed that a HOIP-containing complex can interact with IKKgamma and facilitate activation of NF-kappaB via the canonical pathway [16].
+# T21 Protein S10 75 83 1406 1414 IKKgamma
+$ T21 Protein S10 75 83 1406 1414 IKKgamma
+@ T97 Binding S10 61 69 1392 1400 interact
+% E12 Binding:T97 Theme:T21
+
+These data, considered together with ours, suggest that a HOIP-containing complex mediates recruitment of IKKgamma to the CD40 signaling complex.
+# T22 Protein S11 106 114 1592 1600 IKKgamma
+$ T22 Protein S11 106 114 1592 1600 IKKgamma
+@ T98 Positive_regulation S11 82 90 1568 1576 mediates
+@ T99 Binding S11 91 102 1577 1588 recruitment
+% E13 Positive_regulation:T98 Theme:E14
+% E14 Binding:T99 Theme:T22
+
+In addition, CD40-associated HOIP could play a role in activating IKKgamma after its recruitment to the signaling complex [16].
+# T23 Protein S12 13 17 1645 1649 CD40
+# T24 Protein S12 29 33 1661 1665 HOIP
+# T25 Protein S12 66 74 1698 1706 IKKgamma
+$ T23 Protein S12 13 17 1645 1649 CD40
+$ T24 Protein S12 29 33 1661 1665 HOIP
+$ T25 Protein S12 66 74 1698 1706 IKKgamma
+@ T100 Binding S12 18 28 1650 1660 associated
+@ T101 Regulation S12 47 51 1679 1683 role
+@ T102 Positive_regulation S12 55 65 1687 1697 activating
+@ T83 Anaphora S12 81 84 1713 1716 its
+@ T103 Binding S12 85 96 1717 1728 recruitment
+% E15 Binding:T100 Theme:T23 Theme2:T24
+% E16 Regulation:T101 Theme:E17 Cause:T24
+% E17 Positive_regulation:T102 Theme:T25
+% E18 Binding:T103 Theme:T24
+
+The higher molecular weight forms of IKKgamma we observed in CD40 immunoprecipitates would be consistent with the presence of post-transcriptional modifications including phosphorylation and ubiquitination, which have been suggested to reduce or enhance IKKgamma activity, respectively [16], [17].
+# T26 Protein S13 37 45 1797 1805 IKKgamma
+# T27 Protein S13 61 65 1821 1825 CD40
+# T28 Protein S13 254 262 2014 2022 IKKgamma
+$ T26 Protein S13 37 45 1797 1805 IKKgamma
+$ T28 Protein S13 254 262 2014 2022 IKKgamma
+@ T84 Anaphora S13 126 160 1886 1920 post-transcriptional modifications
+@ T104 Phosphorylation S13 171 186 1931 1946 phosphorylation
+@ T105 Ubiquitination S13 191 205 1951 1965 ubiquitination
+@ T85 Anaphora S13 207 212 1967 1972 which
+@ T106 Negative_regulation S13 236 242 1996 2002 reduce
+@ T107 Positive_regulation S13 246 253 2006 2013 enhance
+% E1 Phosphorylation:T104 Theme:T26
+% E2 Ubiquitination:T105 Theme:T26
+% E19 Negative_regulation:T106 Theme:T28 Cause:E1
+% E20 Negative_regulation:T106 Theme:T28 Cause:E2
+% E21 Positive_regulation:T107 Theme:T28 Cause:E1
+% E22 Positive_regulation:T107 Theme:T28 Cause:E2
+
+The mechanisms by which HOIP mediates recruitment of the IKK complex to CD40 and by which HOIP is recruited to CD40 remain unclear.
+# T29 Protein S14 24 28 2082 2086 HOIP
+# T30 Protein S14 72 76 2130 2134 CD40
+# T31 Protein S14 90 94 2148 2152 HOIP
+# T32 Protein S14 111 115 2169 2173 CD40
+$ T29 Protein S14 24 28 2082 2086 HOIP
+$ T30 Protein S14 72 76 2130 2134 CD40
+$ T31 Protein S14 90 94 2148 2152 HOIP
+$ T32 Protein S14 111 115 2169 2173 CD40
+@ T108 Positive_regulation S14 29 37 2087 2095 mediates
+@ T109 Binding S14 38 49 2096 2107 recruitment
+@ T110 Binding S14 98 107 2156 2165 recruited
+% E23 Positive_regulation:T108 Theme:E24 Cause:T29
+% E24 Binding:T109 Theme:T30
+% E25 Binding:T110 Theme:T31 Theme2:T32
+
+A previous study indicates that HOIP may mediate direct contacts with the IKK complex [16], suggesting that it functions as an adaptor for the recruitment of the IKK complex to CD40.
+# T33 Protein S15 32 36 2222 2226 HOIP
+# T34 Protein S15 177 181 2367 2371 CD40
+$ T33 Protein S15 32 36 2222 2226 HOIP
+$ T34 Protein S15 177 181 2367 2371 CD40
+@ T86 Anaphora S15 108 110 2298 2300 it
+@ T111 Positive_regulation S15 111 134 2301 2324 functions as an adaptor
+@ T112 Binding S15 143 154 2333 2344 recruitment
+% E26 Positive_regulation:T111 Theme:E27 Cause:T33
+% E27 Binding:T112 Theme:T34
+
+However, the ubiquitin ligase activity of HOIP suggests that it is more than a simple adapter molecule.
+# T35 Protein S16 42 46 2415 2419 HOIP
+
+As IKKgamma appears capable of binding linear polyubiquitin [18], [19], it is possible that HOIP directs formation of linear polyubiquitin chains on a CD40-associated factor, and it is these chains that serve to recruit IKKgamma to the CD40 signaling complex.
+# T36 Protein S17 3 11 2480 2488 IKKgamma
+# T37 Protein S17 92 96 2569 2573 HOIP
+# T38 Protein S17 220 228 2697 2705 IKKgamma
+$ T36 Protein S17 3 11 2480 2488 IKKgamma
+$ T38 Protein S17 220 228 2697 2705 IKKgamma
+@ T113 Binding S17 31 38 2508 2515 binding
+@ T114 Positive_regulation S17 203 208 2680 2685 serve
+@ T115 Binding S17 212 219 2689 2696 recruit
+% E28 Binding:T113 Theme:T36
+% E29 Positive_regulation:T114 Theme:E30
+% E30 Binding:T115 Theme:T38
+
+The molecular interactions necessary for recruitment of HOIP itself to the CD40 signaling complex also remain to be fully characterized.
+# T39 Protein S18 56 60 2793 2797 HOIP
+$ T39 Protein S18 56 60 2793 2797 HOIP
+@ T116 Positive_regulation S18 27 36 2764 2773 necessary
+@ T117 Binding S18 41 52 2778 2789 recruitment
+% E31 Positive_regulation:T116 Theme:E32
+% E32 Binding:T117 Theme:T39
+
+We previously showed that the recruitment of HOIP to the signaling complex is TRAF2-dependent [8].
+# T40 Protein S19 45 49 2919 2923 HOIP
+# T41 Protein S19 78 83 2952 2957 TRAF2
+$ T40 Protein S19 45 49 2919 2923 HOIP
+$ T41 Protein S19 78 83 2952 2957 TRAF2
+@ T118 Binding S19 30 41 2904 2915 recruitment
+@ T119 Regulation S19 84 93 2958 2967 dependent
+% E33 Binding:T118 Theme:T40
+% E34 Regulation:T119 Theme:E33 Cause:T41
+
+Potentially, TRAF2 and HOIP directly interact, but it is possible that the ubiquitin ligase activity of TRAF2 [20] (or TRAF2-associated proteins, such as the cIAPs [21]) generates K63-linked polyubiquitin chains to which HOIP can bind and thus associate with the CD40 signaling complex [22].
+# T42 Protein S20 13 18 2986 2991 TRAF2
+# T43 Protein S20 23 27 2996 3000 HOIP
+# T44 Protein S20 104 109 3077 3082 TRAF2
+# T45 Protein S20 221 225 3194 3198 HOIP
+$ T42 Protein S20 13 18 2986 2991 TRAF2
+$ T43 Protein S20 23 27 2996 3000 HOIP
+$ T45 Protein S20 221 225 3194 3198 HOIP
+@ T120 Binding S20 37 45 3010 3018 interact
+@ T121 Binding S20 230 234 3203 3207 bind
+@ T122 Binding S20 244 253 3217 3226 associate
+% E35 Binding:T120 Theme:T42 Theme2:T43
+% E36 Binding:T121 Theme:T45
+% E37 Binding:T122 Theme:T45
+
+While our previous work indicated a potentially important link between TRAF2 and HOIP in CD40 signaling, the signals and functions tested here are dependent upon TRAF6 as well as TRAF2.
+# T46 Protein S21 71 76 3336 3341 TRAF2
+# T47 Protein S21 81 85 3346 3350 HOIP
+# T48 Protein S21 89 93 3354 3358 CD40
+# T49 Protein S21 162 167 3427 3432 TRAF6
+# T50 Protein S21 179 184 3444 3449 TRAF2
+
+In previous experiments with TRAF-deficient A20.2J cells, we found that the activation of NF-kappaB by CD40 could be mediated by either TRAF2 or TRAF6, while activation of JNK by CD40 was largely dependent on TRAF6 alone [8].
+# T51 Protein S22 103 107 3554 3558 CD40
+# T52 Protein S22 136 141 3587 3592 TRAF2
+# T53 Protein S22 145 150 3596 3601 TRAF6
+# T54 Protein S22 179 183 3630 3634 CD40
+# T55 Protein S22 209 214 3660 3665 TRAF6
+
+HOIP deficiency compromises the CD40-mediated activation of both NF-kappaB and JNK, indicating that signals mediated by both TRAF2 and TRAF6 likely pass through HOIP.
+# T56 Protein S23 0 4 3677 3681 HOIP
+# T57 Protein S23 32 36 3709 3713 CD40
+# T58 Protein S23 125 130 3802 3807 TRAF2
+# T59 Protein S23 135 140 3812 3817 TRAF6
+# T60 Protein S23 161 165 3838 3842 HOIP
+$ T56 Protein S23 0 4 3677 3681 HOIP
+@ T123 Negative_regulation S23 5 15 3682 3692 deficiency
+% E38 Negative_regulation:T123 Theme:T56
+
+Our previous work also demonstrated that the CD40-mediated activation of NF-kappaB and JNK, while TRAF6-dependent, was not compromised by the disruption of the binding site for TRAF6 in the cytoplasmic domain of CD40 or deletion of the receptor binding domain (the TRAF-C domain) in TRAF6 [8].
+# T61 Protein S24 45 49 3889 3893 CD40
+# T62 Protein S24 98 103 3942 3947 TRAF6
+# T63 Protein S24 177 182 4021 4026 TRAF6
+# T64 Protein S24 212 216 4056 4060 CD40
+# T65 Protein S24 283 288 4127 4132 TRAF6
+$ T64 Protein S24 212 216 4056 4060 CD40
+$ T65 Protein S24 283 288 4127 4132 TRAF6
+@ T124 Negative_regulation S24 142 152 3986 3996 disruption
+@ T125 Entity S24 160 172 4004 4016 binding site
+@ T126 Negative_regulation S24 220 228 4064 4072 deletion
+@ T127 Entity S24 236 259 4080 4103 receptor binding domain
+% E39 Negative_regulation:T124 Theme:T64 Site:T125
+% E40 Negative_regulation:T126 Theme:T65 Site:T127
+
+These observations indicate that TRAF6 need not directly bind CD40 in order to mediate certain signals, suggesting the assembly of a signaling complex not directly associated with the receptor.
+# T66 Protein S25 33 38 4171 4176 TRAF6
+# T67 Protein S25 62 66 4200 4204 CD40
+$ T66 Protein S25 33 38 4171 4176 TRAF6
+$ T67 Protein S25 62 66 4200 4204 CD40
+@ T128 Binding S25 57 61 4195 4199 bind
+% E41 Binding:T128 Theme:T66 Theme2:T67
+
+If such a complex exists, our results indicate that the absence of HOIP compromises its function as well.
+# T68 Protein S26 67 71 4399 4403 HOIP
+$ T68 Protein S26 67 71 4399 4403 HOIP
+@ T129 Negative_regulation S26 56 63 4388 4395 absence
+% E42 Negative_regulation:T129 Theme:T68
+
+Although the experiments presented here focus on CD40, our results and those of other groups [16], [22] support the possibility that HOIP is important in many signaling pathways in which TRAF2 or TRAF6 are involved, including those associated with various members of the TNF receptor superfamily and the Toll-like receptors.
+# T69 Protein S27 49 53 4487 4491 CD40
+# T70 Protein S27 133 137 4571 4575 HOIP
+# T71 Protein S27 187 192 4625 4630 TRAF2
+# T72 Protein S27 196 201 4634 4639 TRAF6
+
+The potential importance of HOIP in immune function and TNFR family signaling is further supported by the recent discovery that HOIP interacts with a protein known as SHARPIN (SHANK-associated RH domain interacting protein in postsynaptic density), which appears capable of working together with HOIP and HOIL to mediate the assembly of linear polyubiquitin [14], [23], [24].
+# T73 Protein S28 28 32 4791 4795 HOIP
+# T74 Protein S28 128 132 4891 4895 HOIP
+# T75 Protein S28 167 174 4930 4937 SHARPIN
+# T76 Protein S28 176 246 4939 5009 SHANK-associated RH domain interacting protein in postsynaptic density
+# T77 Protein S28 296 300 5059 5063 HOIP
+# T78 Protein S28 305 309 5068 5072 HOIL
+$ T74 Protein S28 128 132 4891 4895 HOIP
+$ T75 Protein S28 167 174 4930 4937 SHARPIN
+@ T130 Binding S28 133 142 4896 4905 interacts
+@ T87 Anaphora S28 148 157 4911 4920 a protein
+% E43 Binding:T130 Theme:T74 Theme2:T75
+
+Interestingly, mice with a spontaneous mutation in the gene encoding SHARPIN (chronic proliferative dermatitis (cpdm) mice) exhibit chronic inflammation of the skin and internal organs, defective development of secondary lymphoid tissue, and defects in the production of switched immunoglobulin isotypes [17], [25].
+# T79 Protein S29 69 76 5208 5215 SHARPIN
+
+The apparently intimate functional link between SHARPIN and HOIP strongly suggests that at least part of the cpdm phenotype stems from defects in the regulation or function of HOIP.
+# T80 Protein S30 48 55 5503 5510 SHARPIN
+# T81 Protein S30 60 64 5515 5519 HOIP
+# T82 Protein S30 176 180 5631 5635 HOIP
+$ T80 Protein S30 48 55 5503 5510 SHARPIN
+$ T81 Protein S30 60 64 5515 5519 HOIP
+$ T82 Protein S30 176 180 5631 5635 HOIP
+@ T131 Binding S30 35 39 5490 5494 link
+@ T132 Negative_regulation S30 135 142 5590 5597 defects
+@ T133 Regulation S30 150 160 5605 5615 regulation
+% E44 Binding:T131 Theme:T80 Theme2:T81
+% E45 Negative_regulation:T132 Theme:E46
+% E46 Regulation:T133 Theme:T82
+

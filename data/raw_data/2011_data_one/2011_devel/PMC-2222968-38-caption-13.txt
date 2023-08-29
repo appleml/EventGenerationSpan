@@ -1,0 +1,59 @@
+Effect of IL-4 on Already Existing Natural or Inducible Treg Cells
+# T1 Protein S1 10 14 10 14 IL-4
+
+(A) CD4+CD25high nTreg cells were FACS-sorted and activated with plate-bound anti-CD3/CD28 plus IL-2 during 3 d and in the presence or absence of IL-4 (100 ng/ml) and harvested for real-time PCR analysis.
+# T2 Protein S2 4 7 71 74 CD4
+# T3 Protein S2 8 12 75 79 CD25
+# T4 Protein S2 82 85 149 152 CD3
+# T5 Protein S2 86 90 153 157 CD28
+# T6 Protein S2 96 100 163 167 IL-2
+# T7 Protein S2 146 150 213 217 IL-4
+
+The results shown represent the mean +/- SD of three independent experiments.
+
+(B) iTreg cells were induced in vitro.
+
+FOXP3 espression was assessed by real-time PCR analysis in resting cells, in cells re-stimulated with plate-bound anti-CD3/CD28, with or without TGF-beta, plus IL-2 during 3 d and in the presence (black bar) or absence (white bar) of IL-4 (100 ng/ml).
+# T8 Protein S5 0 5 390 395 FOXP3
+# T9 Protein S5 119 122 509 512 CD3
+# T10 Protein S5 123 127 513 517 CD28
+# T11 Protein S5 145 153 535 543 TGF-beta
+# T12 Protein S5 160 164 550 554 IL-2
+# T13 Protein S5 234 238 624 628 IL-4
+$ T8 Protein S5 0 5 390 395 FOXP3
+@ T30 Gene_expression S5 6 16 396 406 espression
+% E1 Gene_expression:T30 Theme:T8
+
+(C) Activation dramatically increases CD4+CD25+ Treg cells suppressive capacity of CD4+CD25+ nTreg cells.
+# T14 Protein S6 38 41 681 684 CD4
+# T15 Protein S6 42 46 685 689 CD25
+# T16 Protein S6 83 86 726 729 CD4
+# T17 Protein S6 87 91 730 734 CD25
+
+CD4+CD25+ nTreg cells were preactivated during 2 d in the presence or absence of an increasing IL-4 concentration.
+# T18 Protein S7 0 3 749 752 CD4
+# T19 Protein S7 4 8 753 757 CD25
+# T20 Protein S7 95 99 844 848 IL-4
+$ T20 Protein S7 95 99 844 848 IL-4
+@ T31 Positive_regulation S7 84 94 833 843 increasing
+% E2 Positive_regulation:T31 Theme:T20
+
+After vigorous washing, their suppressive capacity on responder CD4+CD25- was tested.
+# T21 Protein S8 64 67 928 931 CD4
+# T22 Protein S8 68 72 932 936 CD25
+
+IL-4 pretreatment did not affect the suppressive capacity of FACS-sorted CD4+CD25high cells.
+# T23 Protein S9 0 4 950 954 IL-4
+# T24 Protein S9 73 76 1023 1026 CD4
+# T25 Protein S9 77 81 1027 1031 CD25
+
+1 x 104 CD4+CD25+ nTreg cells were added to 5 x 104 CD4+CD25- and 5 x 104 irradiated PBMCs.
+# T26 Protein S10 8 11 1051 1054 CD4
+# T27 Protein S10 12 16 1055 1059 CD25
+# T28 Protein S10 52 55 1095 1098 CD4
+# T29 Protein S10 56 60 1099 1103 CD25
+
+The results are representative of three independent experiments.
+
+(269 KB AI).
+

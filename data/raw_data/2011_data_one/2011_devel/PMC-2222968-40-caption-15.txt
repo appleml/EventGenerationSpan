@@ -1,0 +1,10 @@
+Schematic Structure of the FOXP3 Gene and Location of the GATA3 Sites
+# T1 Protein S1 27 32 27 32 FOXP3
+# T2 Protein S1 58 63 58 63 GATA3
+
+The scheme shows the location of the 11 exons spaced by a large intron (6000 bp) from the 5'untranslated region (UTR).
+
+Human, murine, and rat sequences are aligned and transcription start site (TSS) is indicated with an arrow.
+
+(529 KB AI).
+

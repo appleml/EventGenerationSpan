@@ -1,0 +1,46 @@
+Cytokine-modulating activity of tepoxalin, a new potential antirheumatic.
+
+Tepoxalin is a new dual cyclooxygenase/5-lipoxygenase anti-inflammatory compound currently under clinical investigation.
+
+It has been shown to possess anti-inflammatory activity in a variety of animal models and more recently to inhibit IL-2 induced signal transduction.
+# T1 Protein S3 115 119 311 315 IL-2
+
+The current study was conducted to evaluate the cytokine modulating activity of tepoxalin and the role of iron in these effects.
+
+In human peripheral blood mononuclear cells (PBMC) stimulated with OKT3/PMA, tepoxalin inhibited lymphocyte proliferation with an IC50 of 6 microM.
+
+Additionally, it inhibited the production of LTB4 (IC50 = 0.5 microM) and the cytokines IL-2, IL-6 and TNF alpha (IC50 = 10-12 microM).
+# T2 Protein S6 45 49 667 671 LTB4
+# T3 Protein S6 88 92 710 714 IL-2
+# T4 Protein S6 94 98 716 720 IL-6
+# T5 Protein S6 103 112 725 734 TNF alpha
+$ T4 Protein S6 94 98 716 720 IL-6
+$ T5 Protein S6 103 112 725 734 TNF alpha
+$ T2 Protein S6 45 49 667 671 LTB4
+$ T3 Protein S6 88 92 710 714 IL-2
+@ T9 Negative_regulation S6 17 26 639 648 inhibited
+@ T10 Gene_expression S6 31 41 653 663 production
+% E1 Negative_regulation:T9 Theme:E7
+% E2 Negative_regulation:T9 Theme:E6
+% E3 Negative_regulation:T9 Theme:E5
+% E4 Negative_regulation:T9 Theme:E8
+% E5 Gene_expression:T10 Theme:T4
+% E6 Gene_expression:T10 Theme:T5
+% E7 Gene_expression:T10 Theme:T2
+% E8 Gene_expression:T10 Theme:T3
+
+Cytotoxicity was not demonstrated at these concentrations.
+
+Add-back experiments with either cytokines (IL-2 or IL-6), LTB4 or conditioned media failed to restore the proliferative response in the presence of tepoxalin.
+# T6 Protein S8 44 48 861 865 IL-2
+# T7 Protein S8 52 56 869 873 IL-6
+# T8 Protein S8 59 63 876 880 LTB4
+
+However, the concurrent addition of iron (in the form of ferrous or ferric chloride and other iron salts) reversed the inhibition of proliferation caused by tepoxalin.
+
+Tepoxalin also inhibits the activation of NF kappa B, a transcription factor which acts on several cytokine genes.
+
+Tepoxalin's effect on NF kappa B is also reversed by the addition of iron salts.
+
+These data suggest that the action of tepoxalin to inhibit proliferation in PBMC may be at least in part due to its ability to reduce the amount of available iron resulting in decreased activation of NF kappa B and subsequent inhibition of cytokine production.
+

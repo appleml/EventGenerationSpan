@@ -1,0 +1,83 @@
+Basic Fibroblast Growth Factor Promotes Necroptosis in L929 Cells
+# T1 Protein S1 0 30 0 30 Basic Fibroblast Growth Factor
+
+It has been established that mouse fibrosarcoma L929 cells undergo necroptotic cell death following stimulation with TNFalpha [10], [17].
+# T2 Protein S2 117 125 183 191 TNFalpha
+
+In addition, inhibition of caspase-8 activity alone, either through siRNA knockdown or by using the pan-caspase inhibitor, zVAD.fmk, is sufficient to trigger necroptosis in these cells [10], [14].
+# T3 Protein S3 27 36 231 240 caspase-8
+
+Interestingly, while necroptosis was initially identified as a back-up form of cell death triggered by pro-apoptotic stimuli in the presence of apoptosis inhibitors [17], recent analysis of physiological cell death during mouse development has suggested that the loss of apoptotic regulators, such as caspase-8 and FADD [18], [19], [20], leads to robust induction of necroptosis and death of E10.5 embryos even though apoptosis is not normally induced in wild type embryos.
+# T4 Protein S4 301 310 702 711 caspase-8
+# T5 Protein S4 315 319 716 720 FADD
+
+These data are reminiscent of the observations in L929 cells where the loss of caspase activity in healthy cells is sufficient to trigger necroptosis and prompted us to explore the extrinsic or intrinsic cellular factors that promote necroptosis once caspase-8 activity, which cleaves and inactivates RIP1 kinase and the RIP1 deubiquitinase CYLD [21], [22], is removed in L929 cells.
+# T6 Protein S5 251 260 1126 1135 caspase-8
+# T7 Protein S5 301 305 1176 1180 RIP1
+# T8 Protein S5 321 340 1196 1215 RIP1 deubiquitinase
+# T9 Protein S5 341 345 1216 1220 CYLD
+
+Consistent with a previous report [16], we found that serum starvation of L929 cells prevented necroptosis in response to zVAD.fmk (Fig. 1A).
+
+The addition of growth factors, such as bFGF, restored zVAD.fmk induced death under serum free conditions (Fig. 1B).
+# T10 Protein S7 40 44 1441 1445 bFGF
+
+Interestingly, this does not reflect a generic requirement for growth factor signaling, as only some growth factors (bFGF and IGF-1, but not EGF and PDGF) promoted death (Fig. 1B).
+# T11 Protein S8 117 121 1635 1639 bFGF
+# T12 Protein S8 126 131 1644 1649 IGF-1
+# T13 Protein S8 141 144 1659 1662 EGF
+
+Furthermore, growth factor-dependent necroptosis required the inhibition of caspase activity, as bFGF alone did not induce cell death (Fig. 1C).
+# T14 Protein S9 97 101 1796 1800 bFGF
+
+In contrast, TNFalpha triggered necroptosis equally efficiently in the absence of serum (Fig. 1A), suggesting that either growth factors and zVAD.fmk or TNFalpha are required for necroptotic death in L929 cells.
+# T15 Protein S10 13 21 1857 1865 TNFalpha
+# T16 Protein S10 153 161 1997 2005 TNFalpha
+
+Previously we described the development of 7-Cl-O-Nec-1 (Nec-1) as a potent and selective inhibitor of RIP1 kinase and necroptosis (Fig.
+# T17 Protein S11 103 107 2159 2163 RIP1
+
+S1A) [23], [24].
+
+Recently, its selectivity has been further validated against a panel of more than 400 human kinases [15].
+
+This inhibitor efficiently blocked growth factor/zVAD.
+
+fmk-induced necroptosis under serum free conditions in L929 cells and both zVAD.fmk and TNFalpha-induced necroptosis under full serum conditions (Fig. 1B, S1B).
+# T18 Protein S15 88 96 2458 2466 TNFalpha
+
+To further validate the role of RIP1, we used an inactive analog, 7-Cl-O-Nec-1i (Nec-1i) (Fig.
+# T19 Protein S16 32 36 2563 2567 RIP1
+
+S1A), which contains an extra N-methyl group that leads to almost complete loss of RIP1 kinase inhibitory activity in vitro [23].
+# T20 Protein S17 83 87 2709 2713 RIP1
+
+Nec-1i was unable to protect L929 cell death under serum condtions treated with zVAD.fmk or TNFalpha (Fig.
+# T21 Protein S18 92 100 2848 2856 TNFalpha
+
+S1B) or serum free conditions treated with bFGF/zVAD.fmk (Fig.
+# T22 Protein S19 43 47 2906 2910 bFGF
+
+S1C).
+
+This confirms that RIP1 kinase is responsible for necroptosis in L929 cells under both serum and serum free conditions.
+# T23 Protein S21 19 23 2951 2955 RIP1
+
+We next examined whether bFGF contributes to zVAD.fmk-induced necroptosis under normal serum conditions (10% FBS).
+# T24 Protein S22 25 29 3077 3081 bFGF
+
+We used two bFGF receptor tyrosine kinase inhibitors (PD173074 and PD166866), and determined that inhibition of bFGF signaling strongly inhibited zVAD.fmk-induced necroptosis under normal serum conditions (Fig. 1D).
+# T25 Protein S23 12 41 3179 3208 bFGF receptor tyrosine kinase
+# T26 Protein S23 112 116 3279 3283 bFGF
+
+In contrast, neither bFGF receptor inhibitor was able to attenuate TNFalpha-induced necroptosis (Fig. 1D), consistent with growth factors being dispensable for this pathway (Fig. 1A).
+# T27 Protein S24 21 34 3404 3417 bFGF receptor
+# T28 Protein S24 67 75 3450 3458 TNFalpha
+
+Overall, these data suggest that the induction of necroptosis by zVAD.fmk is promoted by bFGF under both serum and serum free conditions.
+# T29 Protein S25 89 93 3656 3660 bFGF
+
+The induction of necroptosis, however, is not a simple consequence of growth factor signaling since not all growth factors allowed death to occur.
+
+Instead, specific signaling events mediated by particular growth factors appear to contribute to necroptotic death.
+

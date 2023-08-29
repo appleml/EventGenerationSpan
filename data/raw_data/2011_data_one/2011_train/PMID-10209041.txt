@@ -1,0 +1,87 @@
+GrpL, a Grb2-related adaptor protein, interacts with SLP-76 to regulate nuclear factor of activated T cell activation.
+# T1 Protein S1 0 4 0 4 GrpL
+# T2 Protein S1 8 12 8 12 Grb2
+# T3 Protein S1 53 59 53 59 SLP-76
+$ T1 Protein S1 0 4 0 4 GrpL
+$ T3 Protein S1 53 59 53 59 SLP-76
+@ T30 Binding S1 38 47 38 47 interacts
+% E1 Binding:T30 Theme:T1 Theme2:T3
+
+Propagation of signals from the T cell antigen receptor (TCR) involves a number of adaptor molecules.
+
+SH2 domain-containing protein 76 (SLP-76) interacts with the guanine nucleotide exchange factor Vav to activate the nuclear factor of activated cells (NF-AT), and its expression is required for normal T cell development.
+# T4 Protein S3 0 32 222 254 SH2 domain-containing protein 76
+# T5 Protein S3 34 40 256 262 SLP-76
+# T6 Protein S3 96 99 318 321 Vav
+$ T5 Protein S3 34 40 256 262 SLP-76
+$ T6 Protein S3 96 99 318 321 Vav
+@ T31 Binding S3 42 51 264 273 interacts
+@ T32 Gene_expression S3 167 177 389 399 expression
+% E2 Binding:T31 Theme:T5 Theme2:T6
+% E3 Gene_expression:T32 Theme:T5
+
+We report the cloning and characterization of a novel Grb2-like adaptor molecule designated as Grb2-related protein of the lymphoid system (GrpL).
+# T7 Protein S4 54 58 497 501 Grb2
+# T8 Protein S4 95 138 538 581 Grb2-related protein of the lymphoid system
+# T9 Protein S4 140 144 583 587 GrpL
+
+Expression of GrpL is restricted to hematopoietic tissues, and it is distinguished from Grb2 by having a proline-rich region.
+# T10 Protein S5 14 18 604 608 GrpL
+# T11 Protein S5 88 92 678 682 Grb2
+$ T10 Protein S5 14 18 604 608 GrpL
+@ T33 Gene_expression S5 0 10 590 600 Expression
+% E4 Gene_expression:T33 Theme:T10
+
+GrpL can be coimmunoprecipitated with SLP-76 but not with Sos1 or Sos2 from Jurkat cell lysates.
+# T12 Protein S6 0 4 716 720 GrpL
+# T13 Protein S6 38 44 754 760 SLP-76
+# T14 Protein S6 58 62 774 778 Sos1
+# T15 Protein S6 66 70 782 786 Sos2
+$ T12 Protein S6 0 4 716 720 GrpL
+$ T14 Protein S6 58 62 774 778 Sos1
+$ T15 Protein S6 66 70 782 786 Sos2
+$ T13 Protein S6 38 44 754 760 SLP-76
+@ T34 Binding S6 12 32 728 748 coimmunoprecipitated
+% E5 Binding:T34 Theme:T12 Theme2:T14
+% E6 Binding:T34 Theme:T12 Theme2:T15
+% E7 Binding:T34 Theme:T12 Theme2:T13
+
+In contrast, Grb2 can be coimmunoprecipitated with Sos1 and Sos2 but not with SLP-76.
+# T16 Protein S7 13 17 826 830 Grb2
+# T17 Protein S7 51 55 864 868 Sos1
+# T18 Protein S7 60 64 873 877 Sos2
+# T19 Protein S7 78 84 891 897 SLP-76
+$ T16 Protein S7 13 17 826 830 Grb2
+$ T17 Protein S7 51 55 864 868 Sos1
+$ T19 Protein S7 78 84 891 897 SLP-76
+$ T18 Protein S7 60 64 873 877 Sos2
+@ T35 Binding S7 25 45 838 858 coimmunoprecipitated
+% E8 Binding:T35 Theme:T16 Theme2:T17
+% E9 Binding:T35 Theme:T16 Theme2:T19
+% E10 Binding:T35 Theme:T16 Theme2:T18
+
+Moreover, tyrosine-phosphorylated LAT/pp36/38 in detergent lysates prepared from anti-CD3 stimulated T cells associated with Grb2 but not GrpL.
+# T20 Protein S8 34 37 933 936 LAT
+# T21 Protein S8 38 45 937 944 pp36/38
+# T22 Protein S8 125 129 1024 1028 Grb2
+# T23 Protein S8 138 142 1037 1041 GrpL
+$ T20 Protein S8 34 37 933 936 LAT
+$ T22 Protein S8 125 129 1024 1028 Grb2
+$ T23 Protein S8 138 142 1037 1041 GrpL
+@ T36 Entity S8 10 18 909 917 tyrosine
+@ T37 Phosphorylation S8 19 33 918 932 phosphorylated
+@ T38 Binding S8 109 119 1008 1018 associated
+% E11 Phosphorylation:T37 Theme:T20 Site:T36
+% E12 Binding:T38 Theme:T20 Theme2:T22
+% E13 Binding:T38 Theme:T20 Theme2:T23
+
+These data reveal the presence of distinct complexes involving GrpL and Grb2 in T cells.
+# T24 Protein S9 63 67 1106 1110 GrpL
+# T25 Protein S9 72 76 1115 1119 Grb2
+
+A functional role of the GrpL-SLP-76 complex is suggested by the ability of GrpL to act alone or in concert with SLP-76 to augment NF-AT activation in Jurkat T cells.
+# T26 Protein S10 25 29 1157 1161 GrpL
+# T27 Protein S10 30 36 1162 1168 SLP-76
+# T28 Protein S10 76 80 1208 1212 GrpL
+# T29 Protein S10 113 119 1245 1251 SLP-76
+

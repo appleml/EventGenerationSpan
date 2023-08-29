@@ -1,0 +1,24 @@
+Protein kinase inhibitor H-7 blocks accumulation of unspliced mRNA of human T-cell leukemia virus type I (HTLV-I).
+
+Rex, the post-transcriptional regulator of human T-cell leukemia virus type I (HTLV-I), is known to induce accumulation of the unspliced viral gag-pol mRNA.
+# T1 Protein S2 0 3 116 119 Rex
+# T2 Protein S2 143 146 259 262 gag
+# T3 Protein S2 147 150 263 266 pol
+
+Rex is a phosphoprotein found in the cell nucleolus, whose function may be regulated by its localization and phosphorylation.
+# T4 Protein S3 0 3 273 276 Rex
+
+We have examined the role of phosphorylation on Rex function by using a protein kinase inhibitor, H-7 [1-(5-isoquinolinyl-sulfonyl)-2-methylpiperazine].
+# T5 Protein S4 48 51 447 450 Rex
+
+Treatment of an HTLV-I infected human T-cell line with H-7 blocked specifically accumulation of the unspliced gag-pol mRNA, resulting in the decreased Gag protein synthesis that corresponds with the decreased in vivo phosphorylation of Rex.
+# T6 Protein S5 110 113 662 665 gag
+# T7 Protein S5 114 117 666 669 pol
+# T8 Protein S5 151 154 703 706 Gag
+# T9 Protein S5 236 239 788 791 Rex
+
+In contrast, other viral and cellular products have not been influenced by the level of H-7 used.
+
+Therefore, the phosphorylation of Rex is required for the viral RNA partition of HTLV-I.
+# T10 Protein S7 34 37 925 928 Rex
+

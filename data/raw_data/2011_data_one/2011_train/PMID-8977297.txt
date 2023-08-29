@@ -1,0 +1,42 @@
+A novel SP-1 site in the human interleukin-1 beta promoter confers preferential transcriptional activity in keratinocytes.
+# T1 Protein S1 8 12 8 12 SP-1
+# T2 Protein S1 31 49 31 49 interleukin-1 beta
+
+To investigate the mechanisms of transcriptional activation of interleukin-1beta (IL-1beta) in non-monocytic cells, we constructed a series of reporter plasmids with the bacterial chloramphenicol acetyltransferase gene linked to various parts of the human IL-1beta promoter and performed transient transfection experiments.
+# T3 Protein S2 63 80 187 204 interleukin-1beta
+# T4 Protein S2 82 90 206 214 IL-1beta
+# T5 Protein S2 256 264 380 388 IL-1beta
+$ T4 Protein S2 82 90 206 214 IL-1beta
+@ T13 Positive_regulation S2 33 59 157 183 transcriptional activation
+% E1 Positive_regulation:T13 Theme:T4
+
+We identified a promoter segment that activates transcription most efficiently in keratinocytes.
+
+Electrophoretic mobility shift assays (EMSA) with a 43-mer oligonucleotide derived from the functionally identified cis-acting element revealed specific complexes.
+
+By competition analysis with transcription factor consensus sequence oligonucleotides and by immunosupershift, transcription factor SP-1 or a closely related protein was shown to bind to this regulatory element.
+# T6 Protein S5 132 136 841 845 SP-1
+$ T6 Protein S5 132 136 841 845 SP-1
+@ T14 Binding S5 179 183 888 892 bind
+% E2 Binding:T14 Theme:T6
+
+The closest match to the known SP-1 consensus sequence within the respective region is a TCCCCTCCCCT motif.
+# T7 Protein S6 31 35 952 956 SP-1
+
+Mutation of this motif almost completely, and specifically, abolished the binding of two low-mobility complexes and led to a 95% decrease of constitutive transcriptional activation of a reporter construct IL-1beta (-170/+108).
+# T8 Protein S7 205 213 1234 1242 IL-1beta
+
+Likewise, activation of this reporter construct by tumor necrosis factor-alpha depended on the SP-1 site.
+# T9 Protein S8 51 78 1307 1334 tumor necrosis factor-alpha
+# T10 Protein S8 95 99 1351 1355 SP-1
+
+These observations suggest that a so-far-unrecognized SP-1 site in the human IL-1beta promoter may participate in the transcriptional regulation of this gene in keratinocytes.
+# T11 Protein S9 54 58 1416 1420 SP-1
+# T12 Protein S9 77 85 1439 1447 IL-1beta
+$ T12 Protein S9 77 85 1439 1447 IL-1beta
+@ T15 Entity S9 86 94 1448 1456 promoter
+@ T16 Positive_regulation S9 99 110 1461 1472 participate
+@ T17 Regulation S9 118 144 1480 1506 transcriptional regulation
+% E3 Positive_regulation:T16 Theme:E4
+% E4 Regulation:T17 Theme:T12 Site:T15
+

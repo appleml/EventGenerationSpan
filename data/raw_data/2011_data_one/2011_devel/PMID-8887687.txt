@@ -1,0 +1,53 @@
+Calcium-dependent immediate-early gene induction in lymphocytes is negatively regulated by p21Ha-ras.
+# T1 Protein S1 91 100 91 100 p21Ha-ras
+
+The induction of immediate-early (IE) response genes, such as egr-1, c-fos, and c-jun, occurs rapidly after the activation of T lymphocytes.
+# T2 Protein S2 62 67 165 170 egr-1
+# T3 Protein S2 69 74 172 177 c-fos
+# T4 Protein S2 80 85 183 188 c-jun
+$ T2 Protein S2 62 67 165 170 egr-1
+$ T4 Protein S2 80 85 183 188 c-jun
+$ T3 Protein S2 69 74 172 177 c-fos
+@ T12 Positive_regulation S2 4 13 107 116 induction
+@ T13 Positive_regulation S2 87 93 190 196 occurs
+% E1 Positive_regulation:T12 Theme:T2
+% E2 Positive_regulation:T12 Theme:T4
+% E3 Positive_regulation:T12 Theme:T3
+% E4 Positive_regulation:T13 Theme:E1
+% E5 Positive_regulation:T13 Theme:E2
+% E6 Positive_regulation:T13 Theme:E3
+
+The process of activation involves calcium mobilization, activation of protein kinase C (PKC), and phosphorylation of tyrosine kinases.
+
+p21(ras), a guanine nucleotide binding factor, mediates T-cell signal transduction through PKC-dependent and PKC-independent pathways.
+# T5 Protein S4 0 8 380 388 p21(ras)
+
+The involvement of p21(ras) in the regulation of calcium-dependent signals has been suggested through analysis of its role in the activation of NF-AT.
+# T6 Protein S5 19 27 534 542 p21(ras)
+
+We have investigated the inductions of the IE genes in response to calcium signals in Jurkat cells (in the presence of activated p21(ras)) and their correlated consequences.
+# T7 Protein S6 129 137 795 803 p21(ras)
+$ T7 Protein S6 129 137 795 803 p21(ras)
+@ T14 Positive_regulation S6 119 128 785 794 activated
+% E7 Positive_regulation:T14 Theme:T7
+
+The expression of activated p21(ras) negatively regulated the induction of IE genes by calcium ionophore.
+# T8 Protein S7 28 36 868 876 p21(ras)
+$ T8 Protein S7 28 36 868 876 p21(ras)
+@ T15 Positive_regulation S7 4 27 844 867 expression of activated
+% E8 Positive_regulation:T15 Theme:T8
+
+This inhibition of calcium-activated IE gene induction was reversed by treatment with cyclosporin A, suggesting the involvement of calcineurin in this regulation.
+
+A later result of inhibition of this activation pathway by p21(ras) was down-regulation of the activity of the transcription factor AP-1 and subsequent coordinate reductions in IL-2 gene expression and protein production.
+# T9 Protein S9 59 67 1168 1175 p21(ras)
+# T10 Protein S9 177 181 1286 1290 IL-2
+$ T10 Protein S9 177 181 1286 1290 IL-2
+@ T16 Negative_regulation S9 163 173 1272 1282 reductions
+@ T17 Transcription S9 182 197 1291 1306 gene expression
+% E9 Negative_regulation:T16 Theme:E10
+% E10 Transcription:T17 Theme:T10
+
+These results suggest that p21(ras) is an essential mediator in generating not only positive but also negative modulatory mechanisms controlling the competence of T cells in response to inductive stimulations.
+# T11 Protein S10 27 35 1358 1366 p21(ras)
+

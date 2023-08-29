@@ -1,0 +1,50 @@
+Tissue-specific expression of the platelet GPIIb gene.
+# T1 Protein S1 43 48 43 48 GPIIb
+$ T1 Protein S1 43 48 43 48 GPIIb
+@ T9 Gene_expression S1 16 26 16 26 expression
+% E1 Gene_expression:T9 Theme:T1
+
+One of the major objectives in the study of thrombogenesis is to determine the mechanisms by which a hematopoietic progenitor is activated and committed to the megakaryocytic lineage.
+
+Recent development of primary cultures of human megakaryocytes and the molecular cloning of genes that are specific to this lineage offer the possibility of getting some insights into the genetic mechanisms that control megakaryocytopoiesis.
+
+One gene of interest is the glycoprotein IIb (GPIIb) gene; GPIIb, the alpha subunit of the platelet cytoadhesin GPIIb-IIIa, is produced in megakaryocytes at an early stage of the differentiation, whereas the other subunit of this complex, GPIIIa, is expressed in other cells.
+# T2 Protein S4 28 44 510 526 glycoprotein IIb
+# T3 Protein S4 46 51 528 533 GPIIb
+# T4 Protein S4 59 64 541 546 GPIIb
+# T5 Protein S4 239 245 721 727 GPIIIa
+$ T4 Protein S4 59 64 541 546 GPIIb
+$ T5 Protein S4 239 245 721 727 GPIIIa
+@ T10 Gene_expression S4 127 135 609 617 produced
+@ T11 Gene_expression S4 250 259 732 741 expressed
+% E2 Gene_expression:T10 Theme:T4
+% E3 Gene_expression:T11 Theme:T5
+
+For these reasons, the 5'-flanking region of the GPIIb gene was used to identify the regions that interact with DNA-binding nuclear factors.
+# T6 Protein S5 49 54 807 812 GPIIb
+$ T6 Protein S5 49 54 807 812 GPIIb
+@ T12 Entity S5 23 41 781 799 5'-flanking region
+@ T13 Binding S5 98 106 856 864 interact
+% E4 Binding:T13 Theme:T6 Site:T12
+
+A fragment extending from -643 to +33 is capable of controlling the tissue-specific expression of the CAT gene in transfection experiments.
+# T7 Protein S6 102 105 1001 1004 CAT
+$ T7 Protein S6 102 105 1001 1004 CAT
+@ T14 Regulation S6 41 63 940 962 capable of controlling
+@ T15 Gene_expression S6 84 94 983 993 expression
+% E5 Regulation:T14 Theme:E6
+% E6 Gene_expression:T15 Theme:T7
+
+Within this region, we have identified several sequences that are implicated in DNA protein interactions as shown in DNAse I footprints and gel mobility shift assays.
+
+One region, centered at -54, is similar to a nuclear factor E1-binding site, and a region located at position -233 contains a CCAAT motif.
+# T8 Protein S8 45 62 1251 1268 nuclear factor E1
+
+Two domains centered at positions -345 and -540, respectively, bind proteins that are present in megakaryocytic cells and nonrelated cells as well.
+
+Finally, two other domains, located at positions -460 and -510, interact with proteins that are only present in megakaryocytic cells.
+
+In addition, deletion of the region containing these two domains results in a significant decrease of the promoter activity.
+
+It is very likely that these domains bind megakaryocyte-specific nuclear proteins acting as positive transcription factors.
+

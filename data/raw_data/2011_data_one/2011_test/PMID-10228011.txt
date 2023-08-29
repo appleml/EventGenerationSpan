@@ -1,0 +1,26 @@
+HLA class I-mediated induction of cell proliferation involves cyclin E-mediated inactivation of Rb function and induction of E2F activity.
+# T1 Protein S1 96 98 96 98 Rb
+
+Chronic rejection of transplanted organs is manifested as atherosclerosis of the blood vessels of the allograft.
+
+HLA class I Ags have been implicated to play a major role in this process, since signaling via HLA class I molecules can induce the proliferation of aortic endothelial as well as smooth muscle cells.
+
+In this study, we show that HLA class I-mediated induction of cell proliferation correlates with inactivation of the Rb protein in the T cell line Jurkat as well as human aortic endothelial cells.
+# T2 Protein S4 117 119 570 572 Rb
+
+HLA class I-mediated inactivation of Rb can be inhibited specifically by neutralizing Abs to basic fibroblast growth factor (bFGF), suggesting a role for FGF receptors in the signaling process.
+# T3 Protein S5 37 39 687 689 Rb
+
+Signaling through HLA class I molecules induced cyclin E-associated kinase activity within 4 h in quiescent endothelial cells, and appeared to mediate the inactivation of Rb.
+# T4 Protein S6 171 173 1015 1017 Rb
+
+A cdk2 inhibitor, Olomoucine, as well as a dominant-negative cdk2 construct prevented HLA class I-mediated inactivation of Rb; in contrast, dominant-negative cdk4 and cdk6 constructs had no effect.
+# T5 Protein S7 2 6 1021 1025 cdk2
+# T6 Protein S7 61 65 1080 1084 cdk2
+# T7 Protein S7 123 125 1142 1144 Rb
+# T8 Protein S7 158 162 1177 1181 cdk4
+# T9 Protein S7 167 171 1186 1190 cdk6
+
+Furthermore, there was no increase in cyclin D-associated kinase activity upon HLA class I ligation, suggesting that cyclin E-dependent kinase activity mediates Rb inactivation, leading to E2F activation and cell proliferation.
+# T10 Protein S8 161 163 1378 1380 Rb
+

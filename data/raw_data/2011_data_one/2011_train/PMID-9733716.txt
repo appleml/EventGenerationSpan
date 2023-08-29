@@ -1,0 +1,62 @@
+Phosphatidylinositides bind to plasma membrane CD14 and can prevent monocyte activation by bacterial lipopolysaccharide.
+# T1 Protein S1 47 51 47 51 CD14
+$ T1 Protein S1 47 51 47 51 CD14
+@ T14 Binding S1 23 27 23 27 bind
+% E1 Binding:T14 Theme:T1
+
+Although bacterial lipopolysaccharides (LPS) and several other microbial agonists can bind to mCD14 (membrane CD14), a cell-surface receptor found principally on monocytes and neutrophils, host-derived mCD14 ligands are poorly defined.
+# T2 Protein S2 94 99 216 221 mCD14
+# T3 Protein S2 110 114 232 236 CD14
+# T4 Protein S2 202 207 324 329 mCD14
+$ T2 Protein S2 94 99 216 221 mCD14
+@ T15 Binding S2 86 90 208 212 bind
+% E2 Binding:T15 Theme:T2
+
+We report here that phosphatidylinositol (PtdIns), phosphatidylinositol-4-phosphate, and other phosphatidylinositides can bind to mCD14.
+# T5 Protein S3 130 135 488 493 mCD14
+$ T5 Protein S3 130 135 488 493 mCD14
+@ T16 Binding S3 122 126 480 484 bind
+% E3 Binding:T16 Theme:T5
+
+Phosphatidylserine (PS), another anionic glycerophospholipid, binds to mCD14 with lower apparent affinity than does PtdIns.
+# T6 Protein S4 71 76 566 571 mCD14
+$ T6 Protein S4 71 76 566 571 mCD14
+@ T17 Binding S4 62 67 557 562 binds
+% E4 Binding:T17 Theme:T6
+
+LPS-binding protein, a lipid transfer protein found in serum, facilitates both PS- and PtdIns-mCD14 binding.
+# T7 Protein S5 94 99 713 718 mCD14
+$ T7 Protein S5 94 99 713 718 mCD14
+@ T18 Positive_regulation S5 62 73 681 692 facilitates
+@ T19 Binding S5 100 107 719 726 binding
+% E5 Positive_regulation:T18 Theme:E6
+% E6 Binding:T19 Theme:T7
+
+PtdIns binding to mCD14 can be blocked by anti-CD14 monoclonal antibodies that inhibit LPS-mCD14 binding, and PtdIns can inhibit both LPS-mCD14 binding and LPS-induced responses in monocytes.
+# T8 Protein S6 18 23 746 751 mCD14
+# T9 Protein S6 47 51 775 779 CD14
+# T10 Protein S6 91 96 819 824 mCD14
+# T11 Protein S6 138 143 866 871 mCD14
+$ T8 Protein S6 18 23 746 751 mCD14
+$ T10 Protein S6 91 96 819 824 mCD14
+$ T11 Protein S6 138 143 866 871 mCD14
+@ T20 Binding S6 7 14 735 742 binding
+@ T21 Negative_regulation S6 31 38 759 766 blocked
+@ T22 Negative_regulation S6 79 86 807 814 inhibit
+@ T23 Binding S6 97 104 825 832 binding
+@ T24 Negative_regulation S6 121 128 849 856 inhibit
+@ T25 Binding S6 144 151 872 879 binding
+% E7 Binding:T20 Theme:T8
+% E8 Negative_regulation:T21 Theme:E7 Cause:E9
+% E9 Negative_regulation:T22 Theme:E10
+% E10 Binding:T23 Theme:T10
+% E11 Negative_regulation:T24 Theme:E12
+% E12 Binding:T25 Theme:T11
+
+Serum-equilibrated PtdIns also binds to mCD14-expressing cells, raising the possibility that endogenous PtdIns may modulate cellular responses to LPS and other mCD14 ligands in vivo.
+# T12 Protein S7 40 45 960 965 mCD14
+# T13 Protein S7 160 165 1080 1085 mCD14
+$ T12 Protein S7 40 45 960 965 mCD14
+@ T26 Gene_expression S7 46 56 966 976 expressing
+% E13 Gene_expression:T26 Theme:T12
+

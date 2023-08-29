@@ -1,0 +1,110 @@
+Induction of Bcl-x(L) expression by human T-cell leukemia virus type 1 Tax through NF-kappaB in apoptosis-resistant T-cell transfectants with Tax.
+# T1 Protein S1 13 21 13 21 Bcl-x(L)
+# T2 Protein S1 71 74 71 74 Tax
+# T3 Protein S1 142 145 142 145 Tax
+$ T1 Protein S1 13 21 13 21 Bcl-x(L)
+$ T2 Protein S1 71 74 71 74 Tax
+$ T3 Protein S1 142 145 142 145 Tax
+@ T29 Positive_regulation S1 0 9 0 9 Induction
+@ T30 Gene_expression S1 22 32 22 32 expression
+@ T31 Positive_regulation S1 33 35 33 35 by
+@ T32 Gene_expression S1 123 136 123 136 transfectants
+% E1 Positive_regulation:T29 Theme:E2
+% E2 Gene_expression:T30 Theme:T1
+% E3 Positive_regulation:T31 Theme:E1 Cause:T2
+% E4 Gene_expression:T32 Theme:T3
+
+Human T-cell leukemia virus type 1 (HTLV-1) Tax is thought to play a pivotal role in immortalization of T cells.
+# T4 Protein S2 44 47 192 195 Tax
+
+We have recently shown that the expression of Tax protected the mouse T-cell line CTLL-2 against apoptosis induced by interleukin-2 (IL-2) deprivation and converted its growth from being IL-2 dependent to being IL-2 independent.
+# T5 Protein S3 46 49 307 310 Tax
+# T6 Protein S3 118 131 379 392 interleukin-2
+# T7 Protein S3 133 137 394 398 IL-2
+# T8 Protein S3 187 191 448 452 IL-2
+# T9 Protein S3 211 215 472 476 IL-2
+$ T5 Protein S3 46 49 307 310 Tax
+$ T7 Protein S3 133 137 394 398 IL-2
+@ T33 Gene_expression S3 32 42 293 303 expression
+@ T34 Negative_regulation S3 139 150 400 411 deprivation
+% E5 Gene_expression:T33 Theme:T5
+% E6 Negative_regulation:T34 Theme:T7
+
+In this study, we demonstrate that constitutive expression of bcl-xl but not bcl-2, bcl-xs, bak, bad, or bax was associated with apoptosis resistance after IL-2 deprivation in CTLL-2 cells that expressed Tax.
+# T10 Protein S4 62 68 552 558 bcl-xl
+# T11 Protein S4 77 82 567 572 bcl-2
+# T12 Protein S4 84 90 574 580 bcl-xs
+# T13 Protein S4 92 95 582 585 bak
+# T14 Protein S4 97 100 587 590 bad
+# T15 Protein S4 105 108 595 598 bax
+# T16 Protein S4 156 160 646 650 IL-2
+# T17 Protein S4 204 207 694 697 Tax
+$ T12 Protein S4 84 90 574 580 bcl-xs
+$ T13 Protein S4 92 95 582 585 bak
+$ T14 Protein S4 97 100 587 590 bad
+$ T11 Protein S4 77 82 567 572 bcl-2
+$ T15 Protein S4 105 108 595 598 bax
+$ T10 Protein S4 62 68 552 558 bcl-xl
+$ T16 Protein S4 156 160 646 650 IL-2
+$ T17 Protein S4 204 207 694 697 Tax
+@ T35 Gene_expression S4 48 58 538 548 expression
+@ T36 Negative_regulation S4 161 172 651 662 deprivation
+@ T37 Gene_expression S4 194 203 684 693 expressed
+% E7 Gene_expression:T35 Theme:T12
+% E8 Gene_expression:T35 Theme:T13
+% E9 Gene_expression:T35 Theme:T14
+% E10 Gene_expression:T35 Theme:T11
+% E11 Gene_expression:T35 Theme:T15
+% E12 Gene_expression:T35 Theme:T10
+% E13 Negative_regulation:T36 Theme:T16
+% E14 Gene_expression:T37 Theme:T17
+
+Transient-transfection assays showed that bcl-x promoter was transactivated by wild-type Tax.
+# T18 Protein S5 42 47 741 746 bcl-x
+# T19 Protein S5 89 92 788 791 Tax
+$ T18 Protein S5 42 47 741 746 bcl-x
+$ T19 Protein S5 89 92 788 791 Tax
+@ T38 Entity S5 48 56 747 755 promoter
+@ T39 Positive_regulation S5 61 75 760 774 transactivated
+% E15 Positive_regulation:T39 Theme:T18 Cause:T19 Site:T38
+
+Similar effects were observed in mutant Tax retaining transactivating ability through NF-kappaB.
+# T20 Protein S6 40 43 833 836 Tax
+@ T40 Positive_regulation S6 8 15 801 808 effects
+% E16 Positive_regulation:T40 Theme:T18 Site:T38
+
+Deletion or substitution of a putative NF-kappaB binding site identified in the bcl-x promoter significantly decreased Tax-induced transactivation.
+# T21 Protein S7 80 85 970 975 bcl-x
+# T22 Protein S7 119 122 1009 1012 Tax
+
+This NF-kappaB-like element was able to form a complex with NF-kappaB family proteins in vitro.
+
+Furthermore, Tax-induced transactivation of the bcl-x promoter was also diminished by the mutant IkappaBalpha, which specifically inhibits NF-kappaB activity.
+# T23 Protein S9 13 16 1147 1150 Tax
+# T24 Protein S9 48 53 1182 1187 bcl-x
+# T25 Protein S9 97 109 1231 1243 IkappaBalpha
+$ T24 Protein S9 48 53 1182 1187 bcl-x
+$ T23 Protein S9 13 16 1147 1150 Tax
+$ T25 Protein S9 97 109 1231 1243 IkappaBalpha
+@ T41 Positive_regulation S9 25 40 1159 1174 transactivation
+@ T42 Entity S9 54 62 1188 1196 promoter
+@ T43 Negative_regulation S9 72 82 1206 1216 diminished
+% E17 Positive_regulation:T41 Theme:T24 Cause:T23 Site:T42
+% E18 Negative_regulation:T43 Theme:E17 Cause:T25
+
+Our findings suggest that constitutive expression of Bcl-x(L) induced by Tax through the NF-kappaB pathway contributes to the inhibition of apoptosis in CTLL-2 cells after IL-2 deprivation.
+# T26 Protein S10 53 61 1346 1354 Bcl-x(L)
+# T27 Protein S10 73 76 1366 1369 Tax
+# T28 Protein S10 172 176 1465 1469 IL-2
+$ T26 Protein S10 53 61 1346 1354 Bcl-x(L)
+$ T27 Protein S10 73 76 1366 1369 Tax
+$ T28 Protein S10 172 176 1465 1469 IL-2
+@ T44 Gene_expression S10 39 49 1332 1342 expression
+@ T45 Positive_regulation S10 62 69 1355 1362 induced
+@ T46 Positive_regulation S10 70 72 1363 1365 by
+@ T47 Negative_regulation S10 177 188 1470 1481 deprivation
+% E19 Gene_expression:T44 Theme:T26
+% E20 Positive_regulation:T45 Theme:E19
+% E21 Positive_regulation:T46 Theme:E20 Cause:T27
+% E22 Negative_regulation:T47 Theme:T28
+

@@ -1,0 +1,82 @@
+A regulatory element in the human interleukin 2 gene promoter is a binding site for the zinc finger proteins Sp1 and EGR-1.
+# T1 Protein S1 34 47 34 47 interleukin 2
+# T2 Protein S1 109 112 109 112 Sp1
+# T3 Protein S1 117 122 117 122 EGR-1
+$ T1 Protein S1 34 47 34 47 interleukin 2
+$ T3 Protein S1 117 122 117 122 EGR-1
+$ T2 Protein S1 109 112 109 112 Sp1
+@ T17 Entity S1 2 20 2 20 regulatory element
+@ T18 Binding S1 67 74 67 74 binding
+% E1 Binding:T18 Theme:T1 Theme2:T3 Site:T17
+% E2 Binding:T18 Theme:T1 Theme2:T2 Site:T17
+
+Activation of the interleukin 2 (IL-2) gene after antigen recognition is a critical event for T cell proliferation and effector function.
+# T4 Protein S2 18 31 143 156 interleukin 2
+# T5 Protein S2 33 37 158 162 IL-2
+$ T5 Protein S2 33 37 158 162 IL-2
+@ T19 Positive_regulation S2 0 10 125 135 Activation
+% E3 Positive_regulation:T19 Theme:T5
+
+Prior studies have identified several transcription factors that contribute to the activity of the IL-2 promoter in stimulated T lymphocytes.
+# T6 Protein S3 99 103 362 366 IL-2
+$ T6 Protein S3 99 103 362 366 IL-2
+@ T20 Positive_regulation S3 65 75 328 338 contribute
+@ T21 Entity S3 104 112 367 375 promoter
+% E4 Positive_regulation:T20 Theme:T6 Site:T21
+
+Here we describe a novel regulatory element within the IL-2 promoter located immediately upstream of the nuclear factor of activated T cell (NFAT) domain.
+# T7 Protein S4 55 59 460 464 IL-2
+
+This region (termed the zinc finger protein binding region (ZIP)) serves as binding site for two differently regulated zinc finger proteins: the constitutively expressed transcription factor Sp1 and the inducible early growth response protein EGR-1.
+# T8 Protein S5 191 194 751 754 Sp1
+# T9 Protein S5 243 248 803 808 EGR-1
+$ T9 Protein S5 243 248 803 808 EGR-1
+$ T8 Protein S5 191 194 751 754 Sp1
+@ T22 Binding S5 76 83 636 643 binding
+@ T23 Gene_expression S5 160 169 720 729 expressed
+@ T24 Positive_regulation S5 203 212 763 772 inducible
+% E5 Binding:T22 Theme:T9
+% E6 Binding:T22 Theme:T8
+% E7 Gene_expression:T23 Theme:T8
+% E8 Positive_regulation:T24 Theme:T9
+
+In unstimulated cells which do not secrete IL-2, only Sp1 binds to this region, while in stimulated IL-2 secreting cells the inducible EGR-1 protein recognizes this element.
+# T10 Protein S6 43 47 853 857 IL-2
+# T11 Protein S6 54 57 864 867 Sp1
+# T12 Protein S6 100 104 910 914 IL-2
+# T13 Protein S6 135 140 945 950 EGR-1
+$ T10 Protein S6 43 47 853 857 IL-2
+$ T11 Protein S6 54 57 864 867 Sp1
+$ T12 Protein S6 100 104 910 914 IL-2
+$ T13 Protein S6 135 140 945 950 EGR-1
+@ T25 Localization S6 35 42 845 852 secrete
+@ T26 Binding S6 58 63 868 873 binds
+@ T27 Positive_regulation S6 89 99 899 909 stimulated
+@ T28 Localization S6 105 114 915 924 secreting
+@ T29 Positive_regulation S6 125 134 935 944 inducible
+% E9 Localization:T25 Theme:T10
+% E10 Binding:T26 Theme:T11
+% E11 Positive_regulation:T27 Theme:E12
+% E12 Localization:T28 Theme:T12
+% E13 Positive_regulation:T29 Theme:T13
+
+In Jurkat T cells, the ZIP site serves as an activator for IL-2 gene expression, and a combination of ZIP and NFAT binding sites is required for maximal IL-2 promoter activity.
+# T14 Protein S7 59 63 1043 1047 IL-2
+# T15 Protein S7 153 157 1137 1141 IL-2
+$ T14 Protein S7 59 63 1043 1047 IL-2
+$ T15 Protein S7 153 157 1137 1141 IL-2
+@ T30 Positive_regulation S7 45 54 1029 1038 activator
+@ T31 Gene_expression S7 69 79 1053 1063 expression
+@ T32 Positive_regulation S7 132 140 1116 1124 required
+@ T33 Entity S7 158 166 1142 1150 promoter
+% E14 Positive_regulation:T30 Theme:E15
+% E15 Gene_expression:T31 Theme:T14
+% E16 Positive_regulation:T32 Theme:T15 Site:T33
+
+These results suggest a critical role of the ZIP site for IL-2 promoter activity.
+# T16 Protein S8 58 62 1219 1223 IL-2
+$ T16 Protein S8 58 62 1219 1223 IL-2
+@ T34 Regulation S8 33 37 1194 1198 role
+@ T35 Entity S8 63 71 1224 1232 promoter
+% E17 Regulation:T34 Theme:T16 Site:T35
+

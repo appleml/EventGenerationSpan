@@ -1,0 +1,68 @@
+Differential induction of interferon (IFN)-inducible protein 10 following differentiation of a monocyte, macrophage cell lineage is related to the changes of nuclear proteins bound to IFN stimulus response element and kappaB sites.
+# T1 Protein S1 26 63 26 63 interferon (IFN)-inducible protein 10
+$ T1 Protein S1 26 63 26 63 interferon (IFN)-inducible protein 10
+@ T13 Positive_regulation S1 13 22 13 22 induction
+@ T14 Positive_regulation S1 64 73 64 73 following
+% E1 Positive_regulation:T13 Theme:T1
+% E2 Positive_regulation:T14 Theme:E1
+
+We examined chemokine gene expression following the differentiation of a monocyte, macrophage cell lineage.
+
+The human monoblastic cell line, U937 was differentiated to macrophages by the treatment with either phorbol 12-myristate 13-acetate (PMA), retinoic acid (RA), or vitamin D3 (VitD3).
+
+The gene expression of interferon (IFN)-inducible protein 10 (IP-10) (a CXC chemokine) was markedly augmented by the IFNgamma treatment in PMA- or RA-differentiated U937 cells, but only marginally in undifferentiated or VitD3-treated cells.
+# T2 Protein S4 23 60 547 584 interferon (IFN)-inducible protein 10
+# T3 Protein S4 62 67 586 591 IP-10
+# T4 Protein S4 117 125 641 649 IFNgamma
+$ T3 Protein S4 62 67 586 591 IP-10
+$ T4 Protein S4 117 125 641 649 IFNgamma
+@ T15 Gene_expression S4 4 19 528 543 gene expression
+@ T16 Positive_regulation S4 100 109 624 633 augmented
+% E3 Gene_expression:T15 Theme:T3
+% E4 Positive_regulation:T16 Theme:E3 Cause:T4
+
+In contrast, another inducible gene expression of monocyte chemotactic protein-1 (a CC chemokine) and the activation of the transcriptional factor (FcRFgamma) bound to the gamma response region were similarly or less abundantly induced by IFNgamma treatment in PMA- or RA-differentiated U937 cells, indicating that increased IP-10 mRNA induction was not due to the augmented ability of the cells to respond to the presence of IFNgamma.
+# T5 Protein S5 50 80 815 845 monocyte chemotactic protein-1
+# T6 Protein S5 239 247 1004 1012 IFNgamma
+# T7 Protein S5 325 330 1090 1095 IP-10
+# T8 Protein S5 426 434 1191 1199 IFNgamma
+$ T5 Protein S5 50 80 815 845 monocyte chemotactic protein-1
+$ T6 Protein S5 239 247 1004 1012 IFNgamma
+$ T7 Protein S5 325 330 1090 1095 IP-10
+@ T17 Gene_expression S5 36 46 801 811 expression
+@ T18 Positive_regulation S5 228 235 993 1000 induced
+@ T19 Positive_regulation S5 315 324 1080 1089 increased
+@ T20 Positive_regulation S5 336 345 1101 1110 induction
+@ T21 Positive_regulation S5 354 357 1119 1122 due
+% E5 Gene_expression:T17 Theme:T5
+% E6 Positive_regulation:T18 Theme:E5 Cause:T6
+% E7 Positive_regulation:T19 Theme:E8
+% E8 Positive_regulation:T20 Theme:T7
+% E9 Positive_regulation:T21 Theme:E7
+
+Increased expression of IFNgamma-induced IP-10 mRNA following the differentiation of U937 cells was mediated largely by augmented transcriptional activity of the gene and was related to differentiation-dependent changes of the proteins bound to IFN stimulus response element (ISRE) and kB sites, suggesting that these nuclear proteins may determine the IP-10 mRNA inducibility by IFNgamma.
+# T9 Protein S6 24 32 1225 1233 IFNgamma
+# T10 Protein S6 41 46 1242 1247 IP-10
+# T11 Protein S6 353 358 1554 1559 IP-10
+# T12 Protein S6 380 388 1581 1589 IFNgamma
+$ T10 Protein S6 41 46 1242 1247 IP-10
+$ T9 Protein S6 24 32 1225 1233 IFNgamma
+$ T12 Protein S6 380 388 1581 1589 IFNgamma
+$ T11 Protein S6 353 358 1554 1559 IP-10
+@ T22 Positive_regulation S6 0 9 1201 1210 Increased
+@ T23 Transcription S6 10 20 1211 1221 expression
+@ T24 Positive_regulation S6 33 40 1234 1241 induced
+@ T25 Positive_regulation S6 100 108 1301 1309 mediated
+@ T26 Positive_regulation S6 120 129 1321 1330 augmented
+@ T27 Positive_regulation S6 130 154 1331 1355 transcriptional activity
+@ T28 Regulation S6 339 348 1540 1549 determine
+@ T29 Positive_regulation S6 364 376 1565 1577 inducibility
+% E10 Positive_regulation:T22 Theme:E12
+% E11 Transcription:T23 Theme:T10
+% E12 Positive_regulation:T24 Theme:E11 Cause:T9
+% E13 Positive_regulation:T25 Theme:E10 Cause:E14
+% E14 Positive_regulation:T26 Theme:E15
+% E15 Positive_regulation:T27 Theme:T10
+% E16 Regulation:T28 Theme:E17
+% E17 Positive_regulation:T29 Theme:T12 Cause:T11
+

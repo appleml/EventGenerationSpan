@@ -1,0 +1,103 @@
+Peripheral T lymphocytes from women with breast cancer exhibit abnormal protein expression of several signaling molecules.
+
+We examined signaling molecules of peripheral blood T lymphocytes obtained from women with breast cancer.
+
+In 6 of 14 patients, T lymphocytes displayed an impaired ability to translocate NFeB p65 (Rel-A) following activation by anti-CD3 and IL-2.
+# T1 Protein S3 85 88 315 318 p65
+# T2 Protein S3 90 95 320 325 Rel-A
+# T3 Protein S3 134 138 364 368 IL-2
+$ T2 Protein S3 90 95 320 325 Rel-A
+@ T21 Negative_regulation S3 48 56 278 286 impaired
+@ T22 Localization S3 68 79 298 309 translocate
+@ T23 Positive_regulation S3 97 106 327 336 following
+% E1 Negative_regulation:T21 Theme:E3
+% E2 Negative_regulation:T21 Theme:E4
+% E3 Localization:T22 Theme:T2
+% E4 Positive_regulation:T23 Theme:E3
+
+This observation was made despite normal cytoplasmic levels of the Rel-A protein.
+# T4 Protein S4 67 72 437 442 Rel-A
+$ T4 Protein S4 67 72 437 442 Rel-A
+@ T24 Gene_expression S4 53 59 423 429 levels
+% E5 Gene_expression:T24 Theme:T4
+
+We also detected abnormally low levels of the signaling molecules T-cell receptor (TCR)-zeta, ZAP-70 and p56lck in 4 of 14 breast cancer patients, i.e., defects in T-cell signaling molecules.
+# T5 Protein S5 66 92 518 544 T-cell receptor (TCR)-zeta
+# T6 Protein S5 94 100 546 552 ZAP-70
+# T7 Protein S5 105 111 557 563 p56lck
+$ T7 Protein S5 105 111 557 563 p56lck
+$ T6 Protein S5 94 100 546 552 ZAP-70
+$ T5 Protein S5 66 92 518 544 T-cell receptor (TCR)-zeta
+@ T25 Negative_regulation S5 17 38 469 490 abnormally low levels
+% E6 Negative_regulation:T25 Theme:T7
+% E7 Negative_regulation:T25 Theme:T6
+% E8 Negative_regulation:T25 Theme:T5
+
+T lymphocytes from 6 of the 14 patients also exhibited an increased expression of the dual specificity phosphatase, map kinase phosphatase-1 (MKP-1).
+# T8 Protein S6 116 140 760 784 map kinase phosphatase-1
+# T9 Protein S6 142 147 786 791 MKP-1
+$ T9 Protein S6 142 147 786 791 MKP-1
+@ T26 Positive_regulation S6 58 67 702 711 increased
+@ T27 Gene_expression S6 68 78 712 722 expression
+% E9 Positive_regulation:T26 Theme:E10
+% E10 Gene_expression:T27 Theme:T9
+
+MKP-1 inactivates MAP kinase and therefore may interfere with the activation of c-jun and c-fos.
+# T10 Protein S7 0 5 794 799 MKP-1
+# T11 Protein S7 80 85 874 879 c-jun
+# T12 Protein S7 90 95 884 889 c-fos
+$ T12 Protein S7 90 95 884 889 c-fos
+$ T11 Protein S7 80 85 874 879 c-jun
+@ T28 Negative_regulation S7 47 56 841 850 interfere
+@ T29 Positive_regulation S7 66 76 860 870 activation
+% E11 Negative_regulation:T28 Theme:E13
+% E12 Negative_regulation:T28 Theme:E14
+% E13 Positive_regulation:T29 Theme:T12
+% E14 Positive_regulation:T29 Theme:T11
+
+Abnormalities of I or more signaling molecules were found in 9 of 14 patients; however, only 3 patients had T cells that exhibited all 5 defects.
+
+Our data have implications for the detection of potentially dysfunctional T cells in patients with cancer.
+
+For example, the analysis of only 1 signaling molecule may allow patients with significant defects in T-cell signaling to go unnoticed.
+
+Finally, despite impaired Rel-A translocation, T cells were capable of transcribing IL-2.
+# T13 Protein S11 26 31 1306 1311 Rel-A
+# T14 Protein S11 84 88 1364 1368 IL-2
+$ T13 Protein S11 26 31 1306 1311 Rel-A
+$ T14 Protein S11 84 88 1364 1368 IL-2
+@ T30 Negative_regulation S11 9 16 1289 1296 despite
+@ T31 Negative_regulation S11 17 25 1297 1305 impaired
+@ T32 Localization S11 32 45 1312 1325 translocation
+@ T33 Transcription S11 71 83 1351 1363 transcribing
+% E15 Negative_regulation:T30 Theme:E18 Cause:E16
+% E16 Negative_regulation:T31 Theme:E17
+% E17 Localization:T32 Theme:T13
+% E18 Transcription:T33 Theme:T14
+
+Impairments in the translocation of Rel-B and c-Rel further suggest that the NFKB family members Rel-A, Rel-B and c-Rel are not required for the transcription of IL-2 in the peripheral T lymphocytes of patients with breast cancer.
+# T15 Protein S12 36 41 1406 1411 Rel-B
+# T16 Protein S12 46 51 1416 1421 c-Rel
+# T17 Protein S12 97 102 1467 1472 Rel-A
+# T18 Protein S12 104 109 1474 1479 Rel-B
+# T19 Protein S12 114 119 1484 1489 c-Rel
+# T20 Protein S12 162 166 1532 1536 IL-2
+$ T16 Protein S12 46 51 1416 1421 c-Rel
+$ T15 Protein S12 36 41 1406 1411 Rel-B
+$ T17 Protein S12 97 102 1467 1472 Rel-A
+$ T18 Protein S12 104 109 1474 1479 Rel-B
+$ T19 Protein S12 114 119 1484 1489 c-Rel
+$ T20 Protein S12 162 166 1532 1536 IL-2
+@ T34 Negative_regulation S12 0 11 1370 1381 Impairments
+@ T35 Localization S12 19 32 1389 1402 translocation
+@ T36 Regulation S12 128 136 1498 1506 required
+@ T37 Transcription S12 145 158 1515 1528 transcription
+% E19 Negative_regulation:T34 Theme:E22
+% E20 Negative_regulation:T34 Theme:E21
+% E21 Localization:T35 Theme:T16
+% E22 Localization:T35 Theme:T15
+% E23 Regulation:T36 Theme:E26 Cause:T17
+% E24 Regulation:T36 Theme:E26 Cause:T18
+% E25 Regulation:T36 Theme:E26 Cause:T19
+% E26 Transcription:T37 Theme:T20
+

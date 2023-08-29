@@ -1,0 +1,61 @@
+The human myelomonocytic cell line U-937 as a model for studying alterations in steroid-induced monokine gene expression: marked enhancement of lipopolysaccharide-stimulated interleukin-1 beta messenger RNA levels by 1,25-dihydroxyvitamin D3.
+# T1 Protein S1 174 192 174 192 interleukin-1 beta
+$ T1 Protein S1 174 192 174 192 interleukin-1 beta
+@ T10 Positive_regulation S1 129 140 129 140 enhancement
+@ T11 Positive_regulation S1 163 173 163 173 stimulated
+@ T12 Transcription S1 207 213 207 213 levels
+% E1 Positive_regulation:T10 Theme:E2
+% E2 Positive_regulation:T11 Theme:E3
+% E3 Transcription:T12 Theme:T1
+
+The active metabolite of vitamin D, 1,25-dihydroxyvitamin D3 [1,25-(OH)2D3], is a potent regulator of human monocyte/macrophage function in vitro.
+
+To establish a model for 1,25-(OH)2D3 regulation of human monocyte monokine synthesis, three human cell lines (U-937, THP-1, and HL-60) were examined for: 1) the presence of functional 1,25-(OH)2D3 receptors; 2) the accumulation of interleukin-1 beta (IL-1 beta) mRNA and IL-1 beta protein in response to lipopolysaccharide (LPS); and 3) the regulation of this response by 1,25-(OH)2D3.
+# T2 Protein S3 232 250 623 641 interleukin-1 beta
+# T3 Protein S3 252 261 643 652 IL-1 beta
+# T4 Protein S3 272 281 663 672 IL-1 beta
+$ T3 Protein S3 252 261 643 652 IL-1 beta
+$ T4 Protein S3 272 281 663 672 IL-1 beta
+@ T13 Positive_regulation S3 216 228 607 619 accumulation
+@ T14 Regulation S3 342 352 733 743 regulation
+% E4 Positive_regulation:T13 Theme:T3
+% E5 Positive_regulation:T13 Theme:T4
+% E6 Regulation:T14 Theme:E5
+% E7 Regulation:T14 Theme:E4
+
+All three cell lines expressed vitamin D receptor and had increased levels of IL-1 beta mRNA in response to LPS.
+# T5 Protein S4 31 49 809 827 vitamin D receptor
+# T6 Protein S4 78 87 856 865 IL-1 beta
+$ T5 Protein S4 31 49 809 827 vitamin D receptor
+$ T6 Protein S4 78 87 856 865 IL-1 beta
+@ T15 Gene_expression S4 21 30 799 808 expressed
+@ T16 Positive_regulation S4 58 67 836 845 increased
+% E8 Gene_expression:T15 Theme:T5
+% E9 Positive_regulation:T16 Theme:T6
+
+Preincubation of cells with 1,25-(OH)2D3 augmented IL-1 beta mRNA levels only in U-937 and HL-60 cells.
+# T7 Protein S5 51 60 942 951 IL-1 beta
+$ T7 Protein S5 51 60 942 951 IL-1 beta
+@ T17 Positive_regulation S5 41 50 932 941 augmented
+% E10 Positive_regulation:T17 Theme:T7
+
+From these data, and taking into consideration their state of differentiation and relative ease of culture, U-937 was chosen over HL-60 and THP-1 as the cell line we further characterized.
+
+In U-937 cells, optimum time and dose of pretreatment with 1,25-(OH)2D3 were determined to be 12-24 h at a receptor saturating concentration of 1,25-(OH)2D3 (10 nM).
+
+Preincubation of cells with 1,25-(OH)2D3 had no effect on the time course of IL-1 beta mRNA appearance in response to LPS.
+# T8 Protein S8 77 86 1427 1436 IL-1 beta
+$ T8 Protein S8 77 86 1427 1436 IL-1 beta
+@ T18 Regulation S8 48 54 1398 1404 effect
+@ T19 Transcription S8 92 102 1442 1452 appearance
+@ T20 Positive_regulation S8 103 117 1453 1467 in response to
+% E11 Regulation:T18 Theme:E13
+% E12 Transcription:T19 Theme:T8
+% E13 Positive_regulation:T20 Theme:E12
+
+However, exposure of U-937 cells to 1,25-(OH)2D3 increased by 200% the level of IL-1 beta mRNA detected and decreased by three orders of magnitude the concentration of LPS required to achieve steady state mRNA levels equivalent to those observed in U-937 cells not preincubated with the hormone.2+o
+# T9 Protein S9 80 89 1553 1562 IL-1 beta
+$ T9 Protein S9 80 89 1553 1562 IL-1 beta
+@ T21 Positive_regulation S9 49 58 1522 1531 increased
+% E14 Positive_regulation:T21 Theme:T9
+

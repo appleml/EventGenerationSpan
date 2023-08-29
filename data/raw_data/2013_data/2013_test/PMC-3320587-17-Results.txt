@@ -1,0 +1,52 @@
+RNAi directed against NFAT5 inhibits replication of subtype B HIV-1
+# T1 Protein S1 22 27 22 27 NFAT5
+
+To extend the results we obtained in the reporter assays to a physiological TB/HIV co-infection model, we next tested the effect of siRNA-mediated ablation of NFAT5 mRNA levels in MDM co-infected with a subtype B HIV-1Lai infectious molecular clone and a clinical isolate of MTb.
+# T2 Protein S2 159 164 227 232 NFAT5
+
+To perform this experiment, we first constructed an HIV-1Lai clone bearing the CCR5-tropic envelope region of HIV-1Bal (HIV-1Lai/Bal-env) so that it would efficiently infect primary MDM.
+# T3 Protein S3 79 83 427 431 CCR5
+# T4 Protein S3 133 136 481 484 env
+
+We used this approach to ensure that our analysis of the roles of NF-kappaB and NFAT5 in MTb-induced HIV-1 replication could be interpreted in the proper context of previous research findings that examined LTR regulation in the context of full-length viral replication [41]-[46].
+# T5 Protein S4 80 85 615 620 NFAT5
+
+The HIV-1Lai/Bal-Env infectious clone is isogenic for the entire sequence of the parental HIV-1Lai infectious clone except for the substitution of the HIV-1Bal envelope co-receptor binding region in place of the HIV-1Lai envelope co-receptor binding region.
+# T6 Protein S5 17 20 832 835 Env
+# T7 Protein S5 160 168 975 983 envelope
+# T8 Protein S5 221 229 1036 1044 envelope
+
+We note that we confirmed that HIV-1Lai/Bal-Env grew in PBMC at a similar rate to wild-type HIV-1Bal, indicating proper co-receptor engagement and internalization of this infectious clone (data not shown).
+# T9 Protein S6 44 47 1117 1120 Env
+
+Next, we knocked down NFAT5 mRNA levels in MDM using an siRNA that suppresses both NFAT5 mRNA and NFAT5 protein levels [31].
+# T10 Protein S7 22 27 1301 1306 NFAT5
+# T11 Protein S7 83 88 1362 1367 NFAT5
+# T12 Protein S7 98 103 1377 1382 NFAT5
+
+As shown in Figure 2, transfection of the siRNA specific for NFAT5 reduces NFAT5 mRNA levels in both MTb-uninfected (p = 0.048) and MTb-infected (p = 0.021) MDM as compared to transfection of control GFP siRNA into MTb-uninfected or -infected MDM (Figure 2B).
+# T13 Protein S8 61 66 1465 1470 NFAT5
+# T14 Protein S8 75 80 1479 1484 NFAT5
+# T15 Protein S8 200 203 1604 1607 GFP
+
+We note that although siRNA normally is effective for 48-72 hours in cell lines that divide rapidly, in human MDM, which are non-dividing cells, siRNA to host factors remains detectable and functional up to at least 15 days post-transfection [47].
+
+MDM in which NFAT5 expression had been inhibited with NFAT5 siRNA or that were transfected with control GFP siRNA were then infected with 1000 TCID50 of HIV-1Lai/Bal-env.
+# T16 Protein S10 13 18 1925 1930 NFAT5
+# T17 Protein S10 54 59 1966 1971 NFAT5
+# T18 Protein S10 104 107 2016 2019 GFP
+# T19 Protein S10 166 169 2078 2081 env
+
+After overnight virus infection, the cells were then co-infected with the MTb clinical strain CDC1551.
+
+Free virus levels were then measured in culture supernatants from MDM transfected with NFAT5-specific siRNA or GFP control siRNA at days 6, 9 and 12 post-HIV-1 infection to measure the impact of NFAT5 inhibition on MTb-induced HIV replication.
+# T20 Protein S12 87 92 2273 2278 NFAT5
+# T21 Protein S12 111 114 2297 2300 GFP
+# T22 Protein S12 195 200 2381 2386 NFAT5
+
+As shown in Figure 2C, HIV-1 replication was suppressed at days 6 and 9 post-infection in the NFAT5 siRNA-treated cells as compared to cells treated with control siRNA, and it was significantly inhibited by day 12 post-infection (p<0.05) (Figure 2C).
+# T23 Protein S13 94 99 2524 2529 NFAT5
+
+Thus, knock down of NFAT5 expression significantly impairs HIV-1 subtype B replication in MDM co-infected with MTb.
+# T24 Protein S14 20 25 2701 2706 NFAT5
+

@@ -1,0 +1,22 @@
+Analysis of Akt, NFkappaB, and Stat3 Pathways in Contribution to the Growth and Survival of Lymphoma Cells
+# T1 Protein S1 12 15 12 15 Akt
+# T2 Protein S1 31 36 31 36 Stat3
+
+(A-D) Immunoblot analysis of wild-type and LMP1 transgenic lymphomas for Akt, NFkappaB, and Stat3 signaling after treatment with (A) an Akt inhibitor, triciribine, (B) an NFkappaB inhibitor, BAY11-7085, and the Stat3 inhibitors (C) cucurbitacin I and (D) AG490, at the indicated concentrations.
+# T3 Protein S2 43 47 150 154 LMP1
+# T4 Protein S2 73 76 180 183 Akt
+# T5 Protein S2 92 97 199 204 Stat3
+# T6 Protein S2 136 139 243 246 Akt
+# T7 Protein S2 211 216 318 323 Stat3
+$ T6 Protein S2 136 139 243 246 Akt
+$ T7 Protein S2 211 216 318 323 Stat3
+@ T9 Negative_regulation S2 140 149 247 256 inhibitor
+@ T10 Negative_regulation S2 217 227 324 334 inhibitors
+% E1 Negative_regulation:T9 Theme:T6
+% E2 Negative_regulation:T10 Theme:T7
+
+Arrows indicate the positions of alpha and beta isoforms of Stat3.
+# T8 Protein S3 60 65 462 467 Stat3
+
+Actin was used as a loading control.
+

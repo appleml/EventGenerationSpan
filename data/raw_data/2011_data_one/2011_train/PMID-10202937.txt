@@ -1,0 +1,49 @@
+Fludarabine-induced immunosuppression is associated with inhibition of STAT1 signaling.
+# T1 Protein S1 71 76 71 76 STAT1
+
+Fludarabine is a nucleoside analog used in the treatment of hematologic malignancies that can induce severe and prolonged immunosuppression.
+
+Although it can be incorporated into the DNA of dividing cells, fludarabine is also a potent inhibitor of cells with a low growth fraction, thus it must have other mechanisms of action.
+
+STAT1, which is activated in response to many lymphocyte-activating cytokines including the interferons, is essential for cell-mediated immunity, as the absence of this protein is associated with prominent defects in the ability to control viral infections.
+# T2 Protein S4 0 5 416 421 STAT1
+$ T2 Protein S4 0 5 416 421 STAT1
+@ T9 Positive_regulation S4 16 25 432 441 activated
+@ T10 Negative_regulation S4 153 160 569 576 absence
+% E1 Positive_regulation:T9 Theme:T2
+% E2 Negative_regulation:T10 Theme:T2
+
+Here we show that fludarabine, but not the immunosuppressant cyclosporine A, inhibits the cytokine-induced activation of STAT1 and STAT1-dependent gene transcription in normal resting or activated lymphocytes.
+# T3 Protein S5 121 126 795 800 STAT1
+# T4 Protein S5 131 136 805 810 STAT1
+$ T3 Protein S5 121 126 795 800 STAT1
+@ T11 Negative_regulation S5 77 85 751 759 inhibits
+@ T12 Positive_regulation S5 107 117 781 791 activation
+% E3 Negative_regulation:T11 Theme:E4
+% E4 Positive_regulation:T12 Theme:T3
+
+Fludarabine caused a specific depletion of STAT1 protein (and mRNA) but not of other STATs.
+# T5 Protein S6 43 48 927 932 STAT1
+$ T5 Protein S6 43 48 927 932 STAT1
+@ T13 Positive_regulation S6 12 18 896 902 caused
+@ T14 Negative_regulation S6 30 39 914 923 depletion
+% E5 Positive_regulation:T13 Theme:E6
+% E6 Negative_regulation:T14 Theme:T5
+
+This loss of STAT1 was also seen in cells from patients treated with fludarabine in vivo.
+# T6 Protein S7 13 18 989 994 STAT1
+$ T6 Protein S7 13 18 989 994 STAT1
+@ T15 Negative_regulation S7 5 9 981 985 loss
+% E7 Negative_regulation:T15 Theme:T6
+
+Brief exposure to fludarabine led to a sustained loss of STAT1, analogous to the prolonged period of immunosuppression induced by exposure to the drug in vivo.
+# T7 Protein S8 57 62 1123 1128 STAT1
+$ T7 Protein S8 57 62 1123 1128 STAT1
+@ T16 Positive_regulation S8 30 33 1096 1099 led
+@ T17 Negative_regulation S8 49 53 1115 1119 loss
+% E8 Positive_regulation:T16 Theme:E9
+% E9 Negative_regulation:T17 Theme:T7
+
+Thus, STAT1 may be a useful target in the development of new immunosuppressive and antineoplastic agents.
+# T8 Protein S9 6 11 1232 1237 STAT1
+

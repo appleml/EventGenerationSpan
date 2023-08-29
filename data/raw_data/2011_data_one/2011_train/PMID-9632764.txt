@@ -1,0 +1,72 @@
+Coactivation by OCA-B: definition of critical regions and synergism with general cofactors.
+# T1 Protein S1 16 21 16 21 OCA-B
+
+Molecular dissection of the B-cell-specific transcription coactivator OCA-B has revealed distinct regions important, respectively, for recruitment to immunoglobulin promoters through interaction with octamer-bound Oct-1 and for subsequent coactivator function.
+# T2 Protein S2 70 75 163 168 OCA-B
+# T3 Protein S2 214 219 307 312 Oct-1
+$ T2 Protein S2 70 75 163 168 OCA-B
+$ T3 Protein S2 214 219 307 312 Oct-1
+@ T20 Binding S2 135 146 228 239 recruitment
+@ T21 Positive_regulation S2 175 182 268 275 through
+@ T22 Binding S2 183 194 276 287 interaction
+% E1 Binding:T20 Theme:T2
+% E2 Positive_regulation:T21 Theme:E1 Cause:E3
+% E3 Binding:T22 Theme:T2 Theme2:T3
+
+Further analysis of general coactivator requirements showed that selective removal of PC4 from the essential USA fraction severely impairs Oct-1 and OCA-B function in a cell-free system reconstituted with partially purified factors.
+# T4 Protein S3 86 89 440 443 PC4
+# T5 Protein S3 139 144 493 498 Oct-1
+# T6 Protein S3 149 154 503 508 OCA-B
+$ T4 Protein S3 86 89 440 443 PC4
+$ T5 Protein S3 139 144 493 498 Oct-1
+$ T6 Protein S3 149 154 503 508 OCA-B
+@ T23 Negative_regulation S3 75 82 429 436 removal
+@ T24 Negative_regulation S3 131 138 485 492 impairs
+% E4 Negative_regulation:T23 Theme:T4
+% E5 Negative_regulation:T24 Theme:T5 Cause:E4
+% E6 Negative_regulation:T24 Theme:T6 Cause:E4
+
+Full activity can be restored by the combined action of recombinant PC4 and the PC4-depleted USA fraction, thus suggesting a joint requirement for PC4 and another, USA-derived component(s) for optimal function of Oct-1/OCA-B in the reconstituted system.
+# T7 Protein S4 68 71 655 658 PC4
+# T8 Protein S4 80 83 667 670 PC4
+# T9 Protein S4 147 150 734 737 PC4
+# T10 Protein S4 213 218 800 805 Oct-1
+# T11 Protein S4 219 224 806 811 OCA-B
+$ T7 Protein S4 68 71 655 658 PC4
+$ T8 Protein S4 80 83 667 670 PC4
+$ T10 Protein S4 213 218 800 805 Oct-1
+$ T9 Protein S4 147 150 734 737 PC4
+$ T11 Protein S4 219 224 806 811 OCA-B
+@ T25 Positive_regulation S4 21 29 608 616 restored
+@ T26 Negative_regulation S4 84 92 671 679 depleted
+@ T27 Positive_regulation S4 125 142 712 729 joint requirement
+% E7 Positive_regulation:T25 Theme:T6 Cause:T7
+% E8 Positive_regulation:T25 Theme:T5 Cause:T7
+% E9 Positive_regulation:T25 Theme:T5 Cause:E10
+% E10 Negative_regulation:T26 Theme:T8
+% E11 Positive_regulation:T27 Theme:T10 Cause:T9
+% E12 Positive_regulation:T27 Theme:T11 Cause:T9
+
+Indeed, USA-derived PC2 was found to act synergistically with PC4 in reproducing the function of intact USA in the assay system.
+
+Consistent with the requirement for PC4 in the reconstituted system, OCA-B was found to interact directly with PC4.
+# T12 Protein S6 36 39 1006 1009 PC4
+# T13 Protein S6 69 74 1039 1044 OCA-B
+# T14 Protein S6 111 114 1081 1084 PC4
+$ T13 Protein S6 69 74 1039 1044 OCA-B
+$ T14 Protein S6 111 114 1081 1084 PC4
+@ T28 Binding S6 88 96 1058 1066 interact
+% E13 Binding:T28 Theme:T13 Theme2:T14
+
+Surprisingly, however, removal of PC4 from the unfractionated nuclear extract has no detrimental effect on OCA-B/Oct-1-dependent transcription.
+# T15 Protein S7 34 37 1120 1123 PC4
+# T16 Protein S7 107 112 1193 1198 OCA-B
+# T17 Protein S7 113 118 1199 1204 Oct-1
+$ T15 Protein S7 34 37 1120 1123 PC4
+@ T29 Negative_regulation S7 23 30 1109 1116 removal
+% E14 Negative_regulation:T29 Theme:T15
+
+These results lead to a general model for the synergistic function of activation domains in Oct-1 and OCA-B (mediated by the combined action of the multiple USA components) and, further, suggest a functional redundancy in general coactivators.
+# T18 Protein S8 92 97 1322 1327 Oct-1
+# T19 Protein S8 102 107 1332 1337 OCA-B
+

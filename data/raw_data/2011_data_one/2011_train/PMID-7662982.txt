@@ -1,0 +1,47 @@
+TCL1 oncogene activation in preleukemic T cells from a case of ataxia-telangiectasia.
+# T1 Protein S1 0 4 0 4 TCL1
+$ T1 Protein S1 0 4 0 4 TCL1
+@ T9 Positive_regulation S1 14 24 14 24 activation
+% E1 Positive_regulation:T9 Theme:T1
+
+The TCL1 oncogene on human chromosome 14q32.1 is involved in chromosome translocations [t(14;14)(q11;q32.1) and t(7;14)(q35;q32.1)] and inversions [inv14(q11;q32.1)] with TCR alpha/beta loci in T-cell leukemias, such as T-prolymphocytic (T-PLL).
+# T2 Protein S2 4 8 91 95 TCL1
+
+It is also involved in T- acute and- chronic leukemias arising in cases of ataxia-telangiectasia (AT), an immunodeficiency syndrome.
+
+Similar chromosomal rearrangements occur also in the clonally expanded T cells in AT patients before the appearance of the overt leukemia.
+
+We have analyzed the expression of TCL1 mRNA and protein in peripheral blood lymphocytes (PBLs) from four AT cases and from healthy controls.
+# T3 Protein S5 35 39 640 644 TCL1
+$ T3 Protein S5 35 39 640 644 TCL1
+@ T10 Gene_expression S5 21 31 626 636 expression
+@ T11 Transcription S5 21 31 626 636 expression
+% E2 Gene_expression:T10 Theme:T3
+% E3 Transcription:T11 Theme:T3
+
+We found that the TCL1 gene was overexpressed in the PBLs of an AT patient with a large clonal T-cell population exhibiting the t(14;14) translocation but not in the lymphocytes of the other cases.
+# T4 Protein S6 18 22 765 769 TCL1
+$ T4 Protein S6 18 22 765 769 TCL1
+@ T12 Positive_regulation S6 32 45 779 792 overexpressed
+@ T13 Gene_expression S6 32 45 779 792 overexpressed
+% E4 Positive_regulation:T12 Theme:E5
+% E5 Gene_expression:T13 Theme:T4
+
+Fluorescence in situ hybridization of the TCL1 genomic locus to lymphocyte metaphases from the AT patient with the T-cell clonal expansion showed that the breakpoint of the t(14;14) translocation lies within the TCL1 locus and is accompanied by an inverted duplication of the distal part of chromosome 14.
+# T5 Protein S7 42 46 987 991 TCL1
+# T6 Protein S7 212 216 1157 1161 TCL1
+
+These data indicate that TCL1 is activated in preleukemic clonal cells as a consequence of chromosome translocation involving sequences from the TCR locus at 14q11.
+# T7 Protein S8 25 29 1276 1280 TCL1
+$ T7 Protein S8 25 29 1276 1280 TCL1
+@ T14 Positive_regulation S8 33 42 1284 1293 activated
+@ T15 Positive_regulation S8 71 90 1322 1341 as a consequence of
+% E6 Positive_regulation:T14 Theme:T7
+% E7 Positive_regulation:T15 Theme:E6
+
+Deregulation of TCL1 is the first event in the initiation of malignancy in these types of leukemias and represents a potential tool for clinical evaluation.
+# T8 Protein S9 16 20 1432 1436 TCL1
+$ T8 Protein S9 16 20 1432 1436 TCL1
+@ T16 Negative_regulation S9 0 12 1416 1428 Deregulation
+% E8 Negative_regulation:T16 Theme:T8
+

@@ -1,0 +1,321 @@
+DISCUSSION
+
+Many genetic lesions are known to influence gene expression of tumor suppressor genes.
+
+Whereas mutations and deletions or insertions have permanent effects, reversible mechanisms are gene methylation, or expression and activation of transcription factors, respectively.
+
+We studied a putative cause for absent IRF-4 expression in leukemia cells and first focused on genetic aberrations of the promoter.
+# T1 Protein S4 39 44 320 325 IRF-4
+$ T1 Protein S4 39 44 320 325 IRF-4
+@ T63 Negative_regulation S4 32 38 313 319 absent
+@ T64 Gene_expression S4 45 55 326 336 expression
+% E1 Negative_regulation:T63 Theme:E2
+% E2 Gene_expression:T64 Theme:T1
+
+We observed no genetic alterations in the IRF-4 promoter, which can account for the lack of IRF-4 expression: The detected base pair changes at position -1081 (T-->C substitution), at position -1068 (A-->C substitution) and at position -116 (A-->C substitution) are unlikely responsible for absent IRF-4-expression since the first two mutations were found both in IRF-4-positive and -negative cells whereas the latter change was not detected consistently in all IRF-4-negative or -positive cells and may thus be a polymorphism.
+# T2 Protein S5 42 47 455 460 IRF-4
+# T3 Protein S5 92 97 505 510 IRF-4
+# T4 Protein S5 298 303 711 716 IRF-4
+# T5 Protein S5 364 369 777 782 IRF-4
+# T6 Protein S5 462 467 875 880 IRF-4
+$ T3 Protein S5 92 97 505 510 IRF-4
+$ T4 Protein S5 298 303 711 716 IRF-4
+$ T5 Protein S5 364 369 777 782 IRF-4
+$ T6 Protein S5 462 467 875 880 IRF-4
+@ T65 Negative_regulation S5 84 88 497 501 lack
+@ T66 Gene_expression S5 98 108 511 521 expression
+@ T67 Positive_regulation S5 275 286 688 699 responsible
+@ T68 Negative_regulation S5 291 297 704 710 absent
+@ T69 Gene_expression S5 304 314 717 727 expression
+@ T70 Gene_expression S5 370 378 783 791 positive
+@ T71 Gene_expression S5 384 392 797 805 negative
+@ T72 Gene_expression S5 468 476 881 889 negative
+@ T73 Gene_expression S5 481 489 894 902 positive
+% E3 Negative_regulation:T65 Theme:E4
+% E4 Gene_expression:T66 Theme:T3
+% E5 Positive_regulation:T67 Theme:E6
+% E6 Negative_regulation:T68 Theme:E7
+% E7 Gene_expression:T69 Theme:T4
+% E8 Gene_expression:T70 Theme:T5
+% E9 Gene_expression:T71 Theme:T5
+% E10 Gene_expression:T72 Theme:T6
+% E11 Gene_expression:T73 Theme:T6
+
+All three substitutions did not change any known putative transcription factor binding sites (30,31) and also do not affect any restriction sites or primer binding sites of the used assays.
+@ T74 Regulation S6 32 38 973 979 change
+@ T75 Entity S6 58 92 999 1033 transcription factor binding sites
+@ T76 Regulation S6 117 123 1058 1064 affect
+@ T77 Entity S6 128 145 1069 1086 restriction sites
+@ T78 Entity S6 149 169 1090 1110 primer binding sites
+% E12 Regulation:T74 Theme:T4 Site:T75
+% E13 Regulation:T76 Theme:T4 Site:T77
+% E14 Regulation:T76 Theme:T4 Site:T78
+
+However, permanent genetic variations in the IRF-4 coding sequence, such as deletions or mutations resulting in stop-codons have not been excluded by sequence analysis.
+# T7 Protein S7 45 50 1176 1181 IRF-4
+
+Since IRF-4 expression in cell lines and CML can be induced by demethylation and successful IFN-alpha therapy (3), respectively, the existence of such genetic aberrations seems unlikely.
+# T8 Protein S8 6 11 1306 1311 IRF-4
+# T9 Protein S8 92 101 1392 1401 IFN-alpha
+$ T8 Protein S8 6 11 1306 1311 IRF-4
+$ T9 Protein S8 92 101 1392 1401 IFN-alpha
+@ T79 Gene_expression S8 12 22 1312 1322 expression
+@ T80 Positive_regulation S8 52 59 1352 1359 induced
+% E15 Gene_expression:T79 Theme:T8
+% E16 Positive_regulation:T80 Theme:E15 Cause:T9
+
+We then investigated whether the previously described down-regulation of IRF-4 expression in human myeloid leukemias was due to a differential hypermethylation of the promoter, since the presented re-expression due to AzadC-treatment might also be a result of activation of positive transcriptional regulators of IRF-4.
+# T10 Protein S9 73 78 1561 1566 IRF-4
+# T11 Protein S9 313 318 1801 1806 IRF-4
+$ T10 Protein S9 73 78 1561 1566 IRF-4
+@ T81 Negative_regulation S9 54 69 1542 1557 down-regulation
+@ T82 Gene_expression S9 79 89 1567 1577 expression
+@ T83 Positive_regulation S9 121 124 1609 1612 due
+@ T84 Gene_expression S9 197 210 1685 1698 re-expression
+@ T85 Positive_regulation S9 250 256 1738 1744 result
+% E17 Negative_regulation:T81 Theme:E18
+% E18 Gene_expression:T82 Theme:T10
+% E19 Positive_regulation:T83 Theme:E17
+% E20 Gene_expression:T84 Theme:T10
+% E21 Positive_regulation:T85 Theme:E20
+
+Methylation of CpG sites is a common mechanism of silencing genes in leukemia and has also been shown for another IRF, IRF-7 (35) and for PU.1 (36), an interacting partner of IRF-4.
+# T12 Protein S10 119 124 1927 1932 IRF-7
+# T13 Protein S10 138 142 1946 1950 PU.1
+# T14 Protein S10 175 180 1983 1988 IRF-4
+$ T13 Protein S10 138 142 1946 1950 PU.1
+$ T14 Protein S10 175 180 1983 1988 IRF-4
+@ T86 Binding S10 152 163 1960 1971 interacting
+% E22 Binding:T86 Theme:T13 Theme2:T14
+
+To elucidate the relevance of this mechanism for the regulation of IRF-4 expression, various leukemic cells were treated with demethylating agents and promoters were sequenced after bisulfite treatment.
+# T15 Protein S11 67 72 2057 2062 IRF-4
+$ T15 Protein S11 67 72 2057 2062 IRF-4
+@ T87 Regulation S11 53 63 2043 2053 regulation
+@ T88 Gene_expression S11 73 83 2063 2073 expression
+% E23 Regulation:T87 Theme:E24
+% E24 Gene_expression:T88 Theme:T15
+
+We found that IRF-4 expression could indeed be connected to the methylation status of distinct CpG motifs in the IRF-4 promoter.
+# T16 Protein S12 14 19 2207 2212 IRF-4
+# T17 Protein S12 113 118 2306 2311 IRF-4
+$ T16 Protein S12 14 19 2207 2212 IRF-4
+@ T89 Gene_expression S12 20 30 2213 2223 expression
+% E25 Gene_expression:T89 Theme:T16
+
+In Figure 4A, those CpG sites are shown (bottom line), whose hypermethylation may account for the absence of IRF-4 expression in the respective cells.
+# T18 Protein S13 109 114 2431 2436 IRF-4
+$ T18 Protein S13 109 114 2431 2436 IRF-4
+@ T90 Positive_regulation S13 82 89 2404 2411 account
+@ T91 Negative_regulation S13 98 105 2420 2427 absence
+@ T92 Gene_expression S13 115 125 2437 2447 expression
+% E26 Positive_regulation:T90 Theme:E27
+% E27 Negative_regulation:T91 Theme:E28
+% E28 Gene_expression:T92 Theme:T18
+
+One of them (#54) is adjacent to an identified regulatory element (NFkappaB-site), indicating a possible involvement of this site.
+
+At two further CpG sites (#48, 45) the methylation status in IRF-4-positive was lower than that of IRF-4-negative cells.
+# T19 Protein S15 61 66 2665 2670 IRF-4
+# T20 Protein S15 99 104 2703 2708 IRF-4
+$ T19 Protein S15 61 66 2665 2670 IRF-4
+@ T93 Gene_expression S15 67 75 2671 2679 positive
+% E29 Gene_expression:T93 Theme:T19
+
+These CpG sites are located in an NFkappaB and an SP1 element (31) and thus may also play a role in regulation of IRF-4 expression.
+# T21 Protein S16 114 119 2839 2844 IRF-4
+$ T21 Protein S16 114 119 2839 2844 IRF-4
+@ T94 Regulation S16 92 96 2817 2821 role
+@ T95 Regulation S16 100 110 2825 2835 regulation
+@ T96 Gene_expression S16 120 130 2845 2855 expression
+% E30 Regulation:T94 Theme:E31
+% E31 Regulation:T95 Theme:E32
+% E32 Gene_expression:T96 Theme:T21
+
+It has been shown that NFkappaB elements play an important role in IRF-4 induction as IRF-4 expression depends on binding of the transactivator c-Rel to these elements in the IRF-4 promoter (31,37).
+# T22 Protein S17 67 72 2924 2929 IRF-4
+# T23 Protein S17 86 91 2943 2948 IRF-4
+# T24 Protein S17 144 149 3001 3006 c-Rel
+# T25 Protein S17 175 180 3032 3037 IRF-4
+$ T25 Protein S17 175 180 3032 3037 IRF-4
+$ T22 Protein S17 67 72 2924 2929 IRF-4
+$ T23 Protein S17 86 91 2943 2948 IRF-4
+$ T24 Protein S17 144 149 3001 3006 c-Rel
+@ T97 Entity S17 23 40 2880 2897 NFkappaB elements
+@ T98 Regulation S17 49 63 2906 2920 important role
+@ T99 Positive_regulation S17 73 82 2930 2939 induction
+@ T100 Gene_expression S17 92 102 2949 2959 expression
+@ T101 Positive_regulation S17 103 110 2960 2967 depends
+@ T102 Binding S17 114 121 2971 2978 binding
+% E33 Regulation:T98 Theme:E34 Cause:T25 CSite:T97
+% E34 Positive_regulation:T99 Theme:T22
+% E35 Gene_expression:T100 Theme:T23
+% E36 Positive_regulation:T101 Theme:E35 Cause:E37
+% E37 Binding:T102 Theme:T24 Theme2:T25 Site2:T97
+
+Furthermore, methylation of the central CpG in the NFkappaB element inhibits binding of the NFkappaB protein complexes (38), promoting the significance of the observed methylation differences in IRF-4-positive and -negative cells.
+# T26 Protein S18 195 200 3251 3256 IRF-4
+$ T26 Protein S18 195 200 3251 3256 IRF-4
+@ T103 Entity S18 40 43 3096 3099 CpG
+@ T104 Entity S18 51 67 3107 3123 NFkappaB element
+@ T105 Negative_regulation S18 68 76 3124 3132 inhibits
+@ T106 Binding S18 77 84 3133 3140 binding
+@ T107 Gene_expression S18 201 209 3257 3265 positive
+@ T108 Gene_expression S18 215 223 3271 3279 negative
+% E38 Negative_regulation:T105 Theme:E39 Cause:T25 CSite:T103
+% E39 Binding:T106 Theme:T25 Site:T104
+% E40 Gene_expression:T107 Theme:T26
+% E41 Gene_expression:T108 Theme:T26
+
+Via in vitro methylation and reporter gene assays we could clearly appoint the silencing of the IRF-4 promoter to a methylation effect, which may thus be the mechanism of IRF-4 deregulation in vivo.
+# T27 Protein S19 96 101 3384 3389 IRF-4
+# T28 Protein S19 171 176 3459 3464 IRF-4
+$ T27 Protein S19 96 101 3384 3389 IRF-4
+$ T28 Protein S19 171 176 3459 3464 IRF-4
+@ T109 Negative_regulation S19 79 88 3367 3376 silencing
+@ T110 Entity S19 102 110 3390 3398 promoter
+@ T111 Regulation S19 177 189 3465 3477 deregulation
+% E42 Negative_regulation:T109 Theme:T27 Site:T110
+% E43 Regulation:T111 Theme:T28
+
+One possible cause for the aberrant methylation in tumorigenesis is an increased level of DNMTs during the pathogenetic process.
+
+In colon, lung and hematologic malignancies, overexpression of DNMT1, a maintenance DNMT, has been detected (39-41).
+# T29 Protein S21 63 68 3679 3684 DNMT1
+$ T29 Protein S21 63 68 3679 3684 DNMT1
+@ T112 Positive_regulation S21 45 59 3661 3675 overexpression
+% E44 Positive_regulation:T112 Theme:T29
+
+Furthermore, it has been shown that CML cells in the acute phase exhibited elevated levels of the three known DNMTs, while CML cells in chronic phase expressed normal levels of DNMTs if compared with normal bone marrow cells (25).
+
+Interestingly, a positive correlation between DNMT1 expression levels and hypermethylation of p15INK4b has been detected in AML (25).
+# T30 Protein S23 46 51 4010 4015 DNMT1
+# T31 Protein S23 94 102 4058 4066 p15INK4b
+$ T30 Protein S23 46 51 4010 4015 DNMT1
+@ T113 Gene_expression S23 52 62 4016 4026 expression
+% E45 Gene_expression:T113 Theme:T30
+
+In this work, we did not detect significant mRNA expression differences of selected DNMT or MBP, making it an unlikely cause for the observed methylation and thus IRF-4 expression differences in leukemia cells.
+# T32 Protein S24 163 168 4261 4266 IRF-4
+$ T32 Protein S24 163 168 4261 4266 IRF-4
+@ T114 Gene_expression S24 169 179 4267 4277 expression
+% E46 Gene_expression:T114 Theme:T32
+
+The finding that IRF-4 expression is silenced by promoter hypermethylation might represent a mechanism that accounts for the previously observed loss of IRF-4 expression in CML.
+# T33 Protein S25 17 22 4327 4332 IRF-4
+# T34 Protein S25 153 158 4463 4468 IRF-4
+$ T33 Protein S25 17 22 4327 4332 IRF-4
+$ T34 Protein S25 153 158 4463 4468 IRF-4
+@ T115 Gene_expression S25 23 33 4333 4343 expression
+@ T116 Negative_regulation S25 145 149 4455 4459 loss
+@ T117 Gene_expression S25 159 169 4469 4479 expression
+% E47 Gene_expression:T115 Theme:T33
+% E48 Negative_regulation:T116 Theme:E49
+% E49 Gene_expression:T117 Theme:T34
+
+Indeed, several clinical trials with leukemia patients and patients with myelodysplastic syndromes demonstrated the potential clinical benefit of a treatment with demethylating agents (42-45).
+
+The expression of another IRF, IFN consensus sequence binding protein (ICSBP/IRF-8), is impaired in myeloid leukemias especially CML (27,46,47).
+# T35 Protein S27 31 69 4713 4751 IFN consensus sequence binding protein
+# T36 Protein S27 71 76 4753 4758 ICSBP
+# T37 Protein S27 77 82 4759 4764 IRF-8
+$ T35 Protein S27 31 69 4713 4751 IFN consensus sequence binding protein
+@ T118 Gene_expression S27 4 14 4686 4696 expression
+@ T119 Negative_regulation S27 88 96 4770 4778 impaired
+% E50 Gene_expression:T118 Theme:T35
+% E51 Negative_regulation:T119 Theme:E50
+
+But in contrast to IRF-4, the loss of this IRF could not be reverted in ICSBP-negative cell lines (EM-2, CML-T1, K-562 and LAMA-84) by treatment with AzadC (Figure 6) and AzadC has no effect on ICSBP levels in ICSBP-positive U-937 cells (Figure 6).
+# T38 Protein S28 19 24 4846 4851 IRF-4
+# T39 Protein S28 72 77 4899 4904 ICSBP
+# T40 Protein S28 194 199 5021 5026 ICSBP
+# T41 Protein S28 210 215 5037 5042 ICSBP
+$ T39 Protein S28 72 77 4899 4904 ICSBP
+$ T40 Protein S28 194 199 5021 5026 ICSBP
+$ T41 Protein S28 210 215 5037 5042 ICSBP
+@ T120 Negative_regulation S28 30 34 4857 4861 loss
+@ T121 Negative_regulation S28 60 68 4887 4895 reverted
+@ T122 Gene_expression S28 78 86 4905 4913 negative
+@ T123 Regulation S28 184 190 5011 5017 effect
+@ T124 Gene_expression S28 200 206 5027 5033 levels
+@ T125 Gene_expression S28 216 224 5043 5051 positive
+% E52 Negative_regulation:T120 Theme:T35
+% E53 Negative_regulation:T121 Theme:E52
+% E54 Gene_expression:T122 Theme:T39
+% E55 Regulation:T123 Theme:E56
+% E56 Gene_expression:T124 Theme:T40
+% E57 Gene_expression:T125 Theme:T41
+
+These data suggest a distinct regulatory mechanism for these two IRFs.
+
+IRF-4, similar to many other classical tumor suppressor genes p15INK4b, p16INK4a or p53, may thus be a subject of alterations in the promoter methylation status leading to expression changes, which might contribute to the initiation and/or progression of cancer.
+# T42 Protein S30 0 5 5148 5153 IRF-4
+# T43 Protein S30 62 70 5210 5218 p15INK4b
+# T44 Protein S30 72 80 5220 5228 p16INK4a
+# T45 Protein S30 84 87 5232 5235 p53
+$ T42 Protein S30 0 5 5148 5153 IRF-4
+@ T126 Gene_expression S30 172 182 5320 5330 expression
+@ T127 Regulation S30 183 190 5331 5338 changes
+% E58 Gene_expression:T126 Theme:T42
+% E59 Regulation:T127 Theme:E58
+
+Still, the obvious functional diversity of IRF-4 remains remarkable and cannot be fully explained by the IRF-4 promoter methylation status.
+# T46 Protein S31 43 48 5454 5459 IRF-4
+# T47 Protein S31 105 110 5516 5521 IRF-4
+
+For example, IRF-4 is primarily known for its oncogenic features.
+# T48 Protein S32 13 18 5564 5569 IRF-4
+
+In multiple myeloma (MM) a translocation on chromosome 14q was reported to lead to a fusion gene of immunoglobulin heavy-chain (IgH) and IRF-4 resulting in a subsequent overexpression of IRF-4 (48,49).
+# T49 Protein S33 100 126 5717 5743 immunoglobulin heavy-chain
+# T50 Protein S33 128 131 5745 5748 IgH
+# T51 Protein S33 137 142 5754 5759 IRF-4
+# T52 Protein S33 187 192 5804 5809 IRF-4
+$ T52 Protein S33 187 192 5804 5809 IRF-4
+@ T128 Positive_regulation S33 143 152 5760 5769 resulting
+@ T129 Positive_regulation S33 169 183 5786 5800 overexpression
+% E60 Positive_regulation:T128 Theme:E61
+% E61 Positive_regulation:T129 Theme:T52
+
+In addition, abundant IRF-4 expression was found to be a marker for various subsets of lymphomas, such as diffuse large B-cell lymphomas, primary effusion lymphoma, and marginal zone lymphoma, and adult T-cell leukemia (11,31,50-52).
+# T53 Protein S34 22 27 5841 5846 IRF-4
+$ T53 Protein S34 22 27 5841 5846 IRF-4
+@ T130 Gene_expression S34 28 38 5847 5857 expression
+% E62 Gene_expression:T130 Theme:T53
+
+This draws a more complex picture of the role of IRF-4.
+# T54 Protein S35 49 54 6102 6107 IRF-4
+
+Down-regulation of IRF-4 may promote leukemogenesis in myeloid cell context (3), which was recently confirmed in IRF-4-/- ICSBP-/- double knock-out mice (53), while IRF-4 up-regulation may induce a growth advantage in lymphomas or MM (48).
+# T55 Protein S36 19 24 6128 6133 IRF-4
+# T56 Protein S36 113 118 6222 6227 IRF-4
+# T57 Protein S36 122 127 6231 6236 ICSBP
+# T58 Protein S36 165 170 6274 6279 IRF-4
+$ T55 Protein S36 19 24 6128 6133 IRF-4
+$ T56 Protein S36 113 118 6222 6227 IRF-4
+$ T57 Protein S36 122 127 6231 6236 ICSBP
+$ T58 Protein S36 165 170 6274 6279 IRF-4
+@ T131 Negative_regulation S36 0 15 6109 6124 Down-regulation
+@ T132 Gene_expression S36 138 147 6247 6256 knock-out
+@ T133 Positive_regulation S36 171 184 6280 6293 up-regulation
+% E63 Negative_regulation:T131 Theme:T55
+% E64 Gene_expression:T132 Theme:T56
+% E65 Gene_expression:T132 Theme:T57
+% E66 Positive_regulation:T133 Theme:T58
+
+Taken together, our data suggest that IRF-4 promoter methylation regulates IRF-4 expression, and that aberrant expression of IRF-4 in certain types of leukemia may be a consequence of IRF-4 promoter hypermethylation.
+# T59 Protein S37 38 43 6388 6393 IRF-4
+# T60 Protein S37 75 80 6425 6430 IRF-4
+# T61 Protein S37 125 130 6475 6480 IRF-4
+# T62 Protein S37 184 189 6534 6539 IRF-4
+$ T60 Protein S37 75 80 6425 6430 IRF-4
+$ T61 Protein S37 125 130 6475 6480 IRF-4
+@ T134 Regulation S37 65 74 6415 6424 regulates
+@ T135 Gene_expression S37 81 91 6431 6441 expression
+@ T136 Gene_expression S37 111 121 6461 6471 expression
+@ T137 Positive_regulation S37 169 180 6519 6530 consequence
+% E67 Regulation:T134 Theme:E68
+% E68 Gene_expression:T135 Theme:T60
+% E69 Gene_expression:T136 Theme:T61
+% E70 Positive_regulation:T137 Theme:E69
+

@@ -1,0 +1,58 @@
+Human interferon regulatory factor 2 gene.
+# T1 Protein S1 6 36 6 36 interferon regulatory factor 2
+
+Intron-exon organization and functional analysis of 5'-flanking region.
+
+Interferon regulatory factor 2 (IRF-2) is a transcriptional regulatory protein that terminates interferon beta expression initiated by interferon regulatory factor 1.
+# T2 Protein S3 0 30 116 146 Interferon regulatory factor 2
+# T3 Protein S3 32 37 148 153 IRF-2
+# T4 Protein S3 95 110 211 226 interferon beta
+# T5 Protein S3 135 165 251 281 interferon regulatory factor 1
+$ T3 Protein S3 32 37 148 153 IRF-2
+$ T4 Protein S3 95 110 211 226 interferon beta
+$ T5 Protein S3 135 165 251 281 interferon regulatory factor 1
+@ T18 Negative_regulation S3 84 94 200 210 terminates
+@ T19 Gene_expression S3 111 121 227 237 expression
+@ T20 Positive_regulation S3 122 131 238 247 initiated
+% E1 Negative_regulation:T18 Theme:E2 Cause:T3
+% E2 Gene_expression:T19 Theme:T4
+% E3 Positive_regulation:T20 Theme:E2 Cause:T5
+
+In this study, we isolated the genomic DNA for human IRF-2 gene, determined the intron-exon structure of the human IRF-2 gene, mapped the major transcription initiation site, identified a number of potential regulatory elements in the 5'-flanking region, and localized the IRF-2 gene on human chromosome 4.
+# T6 Protein S4 53 58 336 341 IRF-2
+# T7 Protein S4 115 120 398 403 IRF-2
+# T8 Protein S4 273 278 556 561 IRF-2
+
+The IRF-2 promoter region contains a CpG island, with several GC boxes, a putative NF-kappa B-binding site, and a CAAT box, but no TATA box.
+# T9 Protein S5 4 9 594 599 IRF-2
+@ T21 Entity S5 10 25 600 615 promoter region
+
+When the promoter region was linked with a heterologous reporter gene, we found that the promoter region is inducible by both interferons (interferon-alpha and -gamma) and interferon regulatory factor 1.
+# T10 Protein S6 139 155 870 886 interferon-alpha
+# T11 Protein S6 160 166 891 897 -gamma
+# T12 Protein S6 172 202 903 933 interferon regulatory factor 1
+$ T11 Protein S6 160 166 891 897 -gamma
+$ T10 Protein S6 139 155 870 886 interferon-alpha
+$ T12 Protein S6 172 202 903 933 interferon regulatory factor 1
+@ T22 Positive_regulation S6 108 117 839 848 inducible
+% E4 Positive_regulation:T22 Theme:T9 Cause:T11 Site:T21
+% E5 Positive_regulation:T22 Theme:T9 Cause:T10 Site:T21
+% E6 Positive_regulation:T22 Theme:T9 Cause:T12 Site:T21
+
+The region which induced these inductions was identified as being confined to 40 nucleotides 5' to the major transcriptional initiation site by testing a series of clones with truncated promoter of IRF-2.
+# T13 Protein S7 198 203 1133 1138 IRF-2
+
+This region contains elements which are shared with the transcriptional enhancers of other genes including interferon regulatory factor 1, interferon beta, and interferon-inducible genes.
+# T14 Protein S8 107 137 1247 1277 interferon regulatory factor 1
+# T15 Protein S8 139 154 1279 1294 interferon beta
+
+These data suggest that interferon regulatory factor 1 not only triggers the activation of the interferon signal transduction pathway, but also may play a role in limiting the duration of this response by activating the transcription of IRF-2.
+# T16 Protein S9 24 54 1352 1382 interferon regulatory factor 1
+# T17 Protein S9 237 242 1565 1570 IRF-2
+$ T16 Protein S9 24 54 1352 1382 interferon regulatory factor 1
+$ T17 Protein S9 237 242 1565 1570 IRF-2
+@ T23 Positive_regulation S9 205 215 1533 1543 activating
+@ T24 Transcription S9 220 233 1548 1561 transcription
+% E7 Positive_regulation:T23 Theme:E8 Cause:T16
+% E8 Transcription:T24 Theme:T17
+

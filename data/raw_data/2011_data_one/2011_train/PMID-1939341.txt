@@ -1,0 +1,127 @@
+Inhibition of phorbol ester-induced monocytic differentiation by dexamethasone is associated with down-regulation of c-fos and c-jun (AP-1).
+# T1 Protein S1 117 122 117 122 c-fos
+# T2 Protein S1 127 132 127 132 c-jun
+$ T2 Protein S1 127 132 127 132 c-jun
+$ T1 Protein S1 117 122 117 122 c-fos
+@ T23 Negative_regulation S1 98 113 98 113 down-regulation
+% E1 Negative_regulation:T23 Theme:T2
+% E2 Negative_regulation:T23 Theme:T1
+
+Previous studies have shown that treatment of human myeloid leukemia cells with 12-O-tetradecanoylphorbol-13-acetate (TPA) is associated with induction of monocytic differentiation and expression of the c-jun and c-fos early response genes.
+# T3 Protein S2 203 208 345 350 c-jun
+# T4 Protein S2 213 218 355 360 c-fos
+
+The present work demonstrates that the glucocorticoid dexamethasone inhibits TPA-induced increases in c-jun and c-fos mRNA levels in U-937 leukemia cells.
+# T5 Protein S3 102 107 485 490 c-jun
+# T6 Protein S3 112 117 495 500 c-fos
+$ T5 Protein S3 102 107 485 490 c-jun
+$ T6 Protein S3 112 117 495 500 c-fos
+@ T24 Negative_regulation S3 68 76 451 459 inhibits
+@ T25 Positive_regulation S3 89 98 472 481 increases
+% E3 Negative_regulation:T24 Theme:E6
+% E4 Negative_regulation:T24 Theme:E5
+% E5 Positive_regulation:T25 Theme:T5
+% E6 Positive_regulation:T25 Theme:T6
+
+These findings were associated with a block in appearance of the monocytic phenotype, including inhibition of TPA-induced increases in lamin A, lamin C, and vimentin transcripts.
+# T7 Protein S4 135 142 673 680 lamin A
+# T8 Protein S4 144 151 682 689 lamin C
+# T9 Protein S4 157 165 695 703 vimentin
+$ T7 Protein S4 135 142 673 680 lamin A
+$ T9 Protein S4 157 165 695 703 vimentin
+$ T8 Protein S4 144 151 682 689 lamin C
+@ T26 Negative_regulation S4 96 106 634 644 inhibition
+@ T27 Positive_regulation S4 122 131 660 669 increases
+% E7 Negative_regulation:T26 Theme:E10
+% E8 Negative_regulation:T26 Theme:E12
+% E9 Negative_regulation:T26 Theme:E11
+% E10 Positive_regulation:T27 Theme:T7
+% E11 Positive_regulation:T27 Theme:T9
+% E12 Positive_regulation:T27 Theme:T8
+
+Other studies have demonstrated that TPA-induced monocytic differentiation and expression of the c-jun and c-fos genes in myeloid leukemia cells are regulated by protein kinase C (PKC).
+# T10 Protein S5 97 102 814 819 c-jun
+# T11 Protein S5 107 112 824 829 c-fos
+$ T11 Protein S5 107 112 824 829 c-fos
+$ T10 Protein S5 97 102 814 819 c-jun
+@ T28 Gene_expression S5 79 89 796 806 expression
+@ T29 Regulation S5 149 158 866 875 regulated
+% E13 Gene_expression:T28 Theme:T11
+% E14 Gene_expression:T28 Theme:T10
+% E15 Regulation:T29 Theme:E14
+% E16 Regulation:T29 Theme:E13
+
+The finding that dexamethasone has no effect on TPA-induced activation of PKC suggests that this glucocorticoid inhibits signals downstream or parallel to this enzyme.
+# T12 Protein S6 74 77 977 980 PKC
+$ T12 Protein S6 74 77 977 980 PKC
+@ T30 Regulation S6 38 44 941 947 effect
+@ T31 Positive_regulation S6 60 70 963 973 activation
+% E17 Regulation:T30 Theme:E18
+% E18 Positive_regulation:T31 Theme:T12
+
+Nuclear run-on assays demonstrate that: (1) induction of c-jun and c-fos expression by TPA is regulated by transcriptional mechanisms, (2) TPA-induced expression of c-jun and c-fos does not require protein synthesis, and (3) TPA-induced expression of both genes is inhibited at the transcriptional level by dexamethasone.
+# T13 Protein S7 57 62 1128 1133 c-jun
+# T14 Protein S7 67 72 1138 1143 c-fos
+# T15 Protein S7 165 170 1236 1241 c-jun
+# T16 Protein S7 175 180 1246 1251 c-fos
+$ T14 Protein S7 67 72 1138 1143 c-fos
+$ T13 Protein S7 57 62 1128 1133 c-jun
+$ T15 Protein S7 165 170 1236 1241 c-jun
+$ T16 Protein S7 175 180 1246 1251 c-fos
+@ T32 Positive_regulation S7 44 53 1115 1124 induction
+@ T33 Gene_expression S7 73 83 1144 1154 expression
+@ T34 Regulation S7 94 103 1165 1174 regulated
+@ T35 Positive_regulation S7 143 150 1214 1221 induced
+@ T36 Gene_expression S7 151 161 1222 1232 expression
+@ T37 Positive_regulation S7 190 197 1261 1268 require
+@ T38 Positive_regulation S7 229 236 1300 1307 induced
+@ T39 Negative_regulation S7 265 274 1336 1345 inhibited
+@ T40 Transcription S7 275 303 1346 1374 at the transcriptional level
+% E19 Positive_regulation:T32 Theme:E22
+% E20 Positive_regulation:T32 Theme:E21
+% E21 Gene_expression:T33 Theme:T14
+% E22 Gene_expression:T33 Theme:T13
+% E23 Regulation:T34 Theme:E20
+% E24 Regulation:T34 Theme:E19
+% E25 Positive_regulation:T35 Theme:E27
+% E26 Positive_regulation:T35 Theme:E28
+% E27 Gene_expression:T36 Theme:T15
+% E28 Gene_expression:T36 Theme:T16
+% E29 Positive_regulation:T37 Theme:E25
+% E30 Positive_regulation:T37 Theme:E26
+% E31 Positive_regulation:T38 Theme:E36
+% E32 Positive_regulation:T38 Theme:E35
+% E33 Negative_regulation:T39 Theme:E32
+% E34 Negative_regulation:T39 Theme:E31
+% E35 Transcription:T40 Theme:T14
+% E36 Transcription:T40 Theme:T13
+
+To further define the effects of dexamethasone at the molecular level, we prepared a series of deleted c-jun promoter fragments linked to the chloramphenicol acetyltransferase (CAT) gene.
+# T17 Protein S8 103 108 1496 1501 c-jun
+# T18 Protein S8 142 175 1535 1568 chloramphenicol acetyltransferase
+# T19 Protein S8 177 180 1570 1573 CAT
+
+Increases in CAT activity during transient expression of these constructs in TPA-treated U-937 cells could be assigned to the region (-97 to -20) of the promoter that contains the AP-1 binding site.
+# T20 Protein S9 13 16 1594 1597 CAT
+$ T20 Protein S9 13 16 1594 1597 CAT
+@ T41 Positive_regulation S9 0 9 1581 1590 Increases
+% E37 Positive_regulation:T41 Theme:T20
+
+This induction of CAT activity was sensitive to dexamethasone.
+# T21 Protein S10 18 21 1798 1801 CAT
+$ T21 Protein S10 18 21 1798 1801 CAT
+@ T42 Positive_regulation S10 5 14 1785 1794 induction
+@ T43 Regulation S10 35 44 1815 1824 sensitive
+% E38 Positive_regulation:T42 Theme:T21
+% E39 Regulation:T43 Theme:E38
+
+These findings suggest that dexamethasone down-regulates TPA-induced transcription of the c-jun gene during monocytic differentiation by inhibiting activation of the AP-1 site.
+# T22 Protein S11 90 95 1933 1938 c-jun
+$ T22 Protein S11 90 95 1933 1938 c-jun
+@ T44 Negative_regulation S11 42 56 1885 1899 down-regulates
+@ T45 Positive_regulation S11 61 68 1904 1911 induced
+@ T46 Transcription S11 69 82 1912 1925 transcription
+% E40 Negative_regulation:T44 Theme:E42
+% E41 Positive_regulation:T45 Theme:E42
+% E42 Transcription:T46 Theme:T22
+

@@ -1,0 +1,45 @@
+Silencing of Sp1 and Sp3 reduces A3G promoter activity.
+# T1 Protein S1 13 16 13 16 Sp1
+# T2 Protein S1 21 24 21 24 Sp3
+# T3 Protein S1 33 36 33 36 A3G
+$ T1 Protein S1 13 16 13 16 Sp1
+$ T2 Protein S1 21 24 21 24 Sp3
+@ T20 Negative_regulation S1 0 9 0 9 Silencing
+% E1 Negative_regulation:T20 Theme:T1
+% E2 Negative_regulation:T20 Theme:T2
+
+(A) HeLa cells were transfected with 150 and 300 ng of unspecific, Sp1-specific or Sp3-specific siRNA.
+# T4 Protein S2 67 70 123 126 Sp1
+# T5 Protein S2 83 86 139 142 Sp3
+
+After 48 h, cells were harvested and Sp1 and Sp3 proteins were detected by western blot analysis.
+# T6 Protein S3 37 40 196 199 Sp1
+# T7 Protein S3 45 48 204 207 Sp3
+
+As loading control, protein levels of tubulin are shown.
+# T8 Protein S4 38 45 295 302 tubulin
+
+(B) HeLa cells were cotransfected with reporter plasmid pGL3-Basic containing 180 or 150 bp of the A3G promoter and siRNA.
+# T9 Protein S5 99 102 413 416 A3G
+
+Hundred nanogram of unspecific siRNA (control), Sp1-specific siRNA (Sp1), Sp3-specific siRNA (Sp3) or a mixture of 50 ng Sp1-specific plus 50 ng Sp3-specific siRNA (Sp1+Sp3) were used.
+# T10 Protein S6 48 51 485 488 Sp1
+# T11 Protein S6 68 71 505 508 Sp1
+# T12 Protein S6 74 77 511 514 Sp3
+# T13 Protein S6 94 97 531 534 Sp3
+# T14 Protein S6 121 124 558 561 Sp1
+# T15 Protein S6 145 148 582 585 Sp3
+# T16 Protein S6 165 168 602 605 Sp1
+# T17 Protein S6 169 172 606 609 Sp3
+
+Firefly luciferase activities after 48 h were normalized to coexpressed renilla luciferase activities.
+# T18 Protein S7 8 18 630 640 luciferase
+# T19 Protein S7 80 90 702 712 luciferase
+$ T18 Protein S7 8 18 630 640 luciferase
+$ T19 Protein S7 80 90 702 712 luciferase
+@ T21 Gene_expression S7 60 71 682 693 coexpressed
+% E3 Gene_expression:T21 Theme:T18
+% E4 Gene_expression:T21 Theme:T19
+
+Mean values (+/-SD) of a representative experiment performed in triplicate are shown.
+

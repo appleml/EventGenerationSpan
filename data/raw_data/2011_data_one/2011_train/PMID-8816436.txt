@@ -1,0 +1,108 @@
+Cell-type-specific regulation of the human tumor necrosis factor alpha gene in B cells and T cells by NFATp and ATF-2/JUN.
+# T1 Protein S1 43 70 43 70 tumor necrosis factor alpha
+# T2 Protein S1 102 107 102 107 NFATp
+# T3 Protein S1 112 117 112 117 ATF-2
+$ T1 Protein S1 43 70 43 70 tumor necrosis factor alpha
+$ T3 Protein S1 112 117 112 117 ATF-2
+$ T2 Protein S1 102 107 102 107 NFATp
+@ T24 Regulation S1 19 29 19 29 regulation
+% E1 Regulation:T24 Theme:T1 Cause:T3
+% E2 Regulation:T24 Theme:T1 Cause:T2
+
+The human tumor necrosis factor alpha (TNF-alpha) gene is one of the earliest genes transcribed after the stimulation of a B cell through its antigen receptor or via the CD-40 pathway.
+# T4 Protein S2 10 37 134 161 tumor necrosis factor alpha
+# T5 Protein S2 39 48 163 172 TNF-alpha
+# T6 Protein S2 170 175 294 299 CD-40
+$ T5 Protein S2 39 48 163 172 TNF-alpha
+$ T6 Protein S2 170 175 294 299 CD-40
+@ T25 Transcription S2 84 95 208 219 transcribed
+@ T26 Regulation S2 130 137 254 261 through
+@ T27 Regulation S2 162 165 286 289 via
+% E3 Transcription:T25 Theme:T5
+% E4 Regulation:T26 Theme:E3
+% E5 Regulation:T27 Theme:E3 Cause:T6
+
+In both cases, induction of TNF-alpha gene transcription can be blocked by the immunosuppressants cyclosporin A and FK506, which suggested a role for the NFAT family of proteins in the regulation of the gene in B cells.
+# T7 Protein S3 28 37 337 346 TNF-alpha
+$ T7 Protein S3 28 37 337 346 TNF-alpha
+@ T28 Positive_regulation S3 15 24 324 333 induction
+@ T29 Transcription S3 43 56 352 365 transcription
+@ T30 Negative_regulation S3 64 71 373 380 blocked
+@ T31 Regulation S3 141 145 450 454 role
+@ T32 Regulation S3 185 195 494 504 regulation
+% E6 Positive_regulation:T28 Theme:E7
+% E7 Transcription:T29 Theme:T7
+% E8 Negative_regulation:T30 Theme:E6
+% E9 Regulation:T31 Theme:E10
+% E10 Regulation:T32 Theme:T7
+
+Furthermore, in T cells, two molecules of NFATp bind to the TNF-alpha promoter element kappa 3 in association with ATF-2 and Jun proteins bound to an immediately adjacent cyclic AMP response element (CRE) site.
+# T8 Protein S4 42 47 571 576 NFATp
+# T9 Protein S4 60 69 589 598 TNF-alpha
+# T10 Protein S4 115 120 644 649 ATF-2
+$ T8 Protein S4 42 47 571 576 NFATp
+$ T10 Protein S4 115 120 644 649 ATF-2
+@ T33 Binding S4 48 52 577 581 bind
+@ T34 Binding S4 138 143 667 672 bound
+% E11 Binding:T33 Theme:T8
+% E12 Binding:T34 Theme:T10
+
+Here, using the murine B-cell lymphoma cell line A20, we show that the TNF-alpha gene is regulated in a cell-type-specific manner.
+# T11 Protein S5 71 80 811 820 TNF-alpha
+$ T11 Protein S5 71 80 811 820 TNF-alpha
+@ T35 Regulation S5 89 98 829 838 regulated
+% E13 Regulation:T35 Theme:T11
+
+In A20 B cells, the TNF-alpha gene is not regulated by NFATp bound to the kappa 3 element.
+# T12 Protein S6 20 29 891 900 TNF-alpha
+# T13 Protein S6 55 60 926 931 NFATp
+$ T12 Protein S6 20 29 891 900 TNF-alpha
+$ T13 Protein S6 55 60 926 931 NFATp
+@ T36 Regulation S6 42 51 913 922 regulated
+@ T37 Binding S6 61 66 932 937 bound
+% E14 Regulation:T36 Theme:T12 Cause:T13
+% E15 Binding:T37 Theme:T13
+
+Instead, ATF-2 and Jun proteins bind to the composite kappa 3/CRE site and NFATp binds to a newly identified second NFAT site centered at -76 nucleotides relative to the TNF-alpha transcription start site.
+# T14 Protein S7 9 14 971 976 ATF-2
+# T15 Protein S7 75 80 1037 1042 NFATp
+# T16 Protein S7 170 179 1132 1141 TNF-alpha
+$ T14 Protein S7 9 14 971 976 ATF-2
+$ T15 Protein S7 75 80 1037 1042 NFATp
+@ T38 Binding S7 32 36 994 998 bind
+@ T39 Binding S7 81 86 1043 1048 binds
+% E16 Binding:T38 Theme:T14
+% E17 Binding:T39 Theme:T15
+
+This new site plays a critical role in the calcium-mediated, cyclosporin A-sensitive induction of TNF-alpha in both A20 B cells and Ar-5 cells.
+# T17 Protein S8 98 107 1266 1275 TNF-alpha
+$ T17 Protein S8 98 107 1266 1275 TNF-alpha
+@ T40 Regulation S8 31 35 1199 1203 role
+@ T41 Positive_regulation S8 85 94 1253 1262 induction
+% E18 Regulation:T40 Theme:E19
+% E19 Positive_regulation:T41 Theme:T17
+
+Consistent with these results, quantitative DNase footprinting of the TNF-alpha promoter using increasing amounts of recombinant NFATp demonstrated that the -76 site binds to NFATp with a higher affinity than the kappa 3 site.
+# T18 Protein S9 70 79 1382 1391 TNF-alpha
+# T19 Protein S9 129 134 1441 1446 NFATp
+# T20 Protein S9 175 180 1487 1492 NFATp
+$ T20 Protein S9 175 180 1487 1492 NFATp
+@ T42 Binding S9 166 171 1478 1483 binds
+% E20 Binding:T42 Theme:T20
+
+Two other previously unrecognized NFATp-binding sites in the proximal TNF-alpha promoter were also identified by this analysis.
+# T21 Protein S10 34 39 1573 1578 NFATp
+# T22 Protein S10 70 79 1609 1618 TNF-alpha
+$ T21 Protein S10 34 39 1573 1578 NFATp
+$ T22 Protein S10 70 79 1609 1618 TNF-alpha
+@ T43 Binding S10 40 47 1579 1586 binding
+% E21 Binding:T43 Theme:T21 Theme2:T22
+
+Thus, through the differential use of the same promoter element, the composite kappa 3/CRE site, the TNF-alpha gene is regulated in a cell-type-specific manner in response to the same extracellular signal.
+# T23 Protein S11 101 110 1768 1777 TNF-alpha
+$ T23 Protein S11 101 110 1768 1777 TNF-alpha
+@ T44 Regulation S11 6 13 1673 1680 through
+@ T45 Regulation S11 119 128 1786 1795 regulated
+% E22 Regulation:T44 Theme:E23
+% E23 Regulation:T45 Theme:T23
+

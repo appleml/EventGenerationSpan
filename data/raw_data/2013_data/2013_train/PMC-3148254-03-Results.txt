@@ -1,0 +1,152 @@
+HOIP is required for CD40-mediated CD80 upregulation and activation of germline epsilon transcription
+# T1 Protein S1 0 4 0 4 HOIP
+# T2 Protein S1 21 25 21 25 CD40
+# T3 Protein S1 35 39 35 39 CD80
+# T4 Protein S1 71 87 71 87 germline epsilon
+$ T1 Protein S1 0 4 0 4 HOIP
+$ T3 Protein S1 35 39 35 39 CD80
+$ T4 Protein S1 71 87 71 87 germline epsilon
+@ T39 Positive_regulation S1 8 16 8 16 required
+@ T40 Positive_regulation S1 26 34 26 34 mediated
+@ T41 Positive_regulation S1 40 52 40 52 upregulation
+@ T42 Positive_regulation S1 57 67 57 67 activation
+@ T43 Transcription S1 88 101 88 101 transcription
+% E1 Positive_regulation:T39 Theme:E2 Cause:T1
+% E3 Positive_regulation:T39 Theme:E4 Cause:T1
+% E2 Positive_regulation:T40 Theme:E5
+% E4 Positive_regulation:T40 Theme:E6
+% E5 Positive_regulation:T41 Theme:T3
+% E6 Positive_regulation:T42 Theme:E7
+% E7 Transcription:T43 Theme:T4
+
+Engagement of CD40 on B cells upregulates expression of CD80 [10], a cell surface protein that promotes activation of T cells interacting with B cells and other APC.
+# T5 Protein S2 14 18 116 120 CD40
+# T6 Protein S2 56 60 158 162 CD80
+$ T5 Protein S2 14 18 116 120 CD40
+$ T6 Protein S2 56 60 158 162 CD80
+@ T44 Binding S2 0 10 102 112 Engagement
+@ T45 Positive_regulation S2 30 41 132 143 upregulates
+@ T46 Gene_expression S2 42 52 144 154 expression
+% E8 Binding:T44 Theme:T5
+% E9 Positive_regulation:T45 Theme:E10 Cause:E8
+% E10 Gene_expression:T46 Theme:T6
+
+To begin evaluating potential contributions of HOIP to CD40 signaling, we assayed the upregulation of CD80 induced by engagement of CD40 on parental A20.2J, HOIP-deficient, and HOIP-reconstituted cells (Fig. 2).
+# T7 Protein S3 47 51 315 319 HOIP
+# T8 Protein S3 55 59 323 327 CD40
+# T9 Protein S3 102 106 370 374 CD80
+# T10 Protein S3 132 136 400 404 CD40
+# T11 Protein S3 157 161 425 429 HOIP
+# T12 Protein S3 177 181 445 449 HOIP
+$ T9 Protein S3 102 106 370 374 CD80
+$ T10 Protein S3 132 136 400 404 CD40
+$ T12 Protein S3 177 181 445 449 HOIP
+@ T47 Positive_regulation S3 86 98 354 366 upregulation
+@ T48 Positive_regulation S3 107 114 375 382 induced
+@ T49 Binding S3 118 128 386 396 engagement
+@ T50 Positive_regulation S3 182 195 450 463 reconstituted
+% E11 Positive_regulation:T47 Theme:T9
+% E12 Positive_regulation:T48 Theme:E11 Cause:E13
+% E13 Binding:T49 Theme:T10
+% E14 Positive_regulation:T50 Theme:T12
+
+Compared to the parental cell line, the CD40-stimulated upregulation of CD80 was dramatically reduced in all HOIP-deficient cells tested.
+# T13 Protein S4 40 44 520 524 CD40
+# T14 Protein S4 72 76 552 556 CD80
+# T15 Protein S4 109 113 589 593 HOIP
+$ T13 Protein S4 40 44 520 524 CD40
+$ T14 Protein S4 72 76 552 556 CD80
+$ T15 Protein S4 109 113 589 593 HOIP
+@ T51 Positive_regulation S4 45 55 525 535 stimulated
+@ T52 Positive_regulation S4 56 68 536 548 upregulation
+@ T53 Negative_regulation S4 94 101 574 581 reduced
+@ T54 Negative_regulation S4 114 123 594 603 deficient
+% E15 Positive_regulation:T51 Theme:E16 Cause:T13
+% E16 Positive_regulation:T52 Theme:T14
+% E17 Negative_regulation:T53 Theme:E16 Cause:E18
+% E18 Negative_regulation:T54 Theme:T15
+
+In contrast, upregulation of CD80 was restored in HOIP-reconstituted cells, confirming that the defect in CD80 upregulation in the HOIP-deficient cells was due to the disruption of Rnf31.
+# T16 Protein S5 29 33 647 651 CD80
+# T17 Protein S5 50 54 668 672 HOIP
+# T18 Protein S5 106 110 724 728 CD80
+# T19 Protein S5 131 135 749 753 HOIP
+# T20 Protein S5 181 186 799 804 Rnf31
+$ T16 Protein S5 29 33 647 651 CD80
+$ T17 Protein S5 50 54 668 672 HOIP
+$ T18 Protein S5 106 110 724 728 CD80
+$ T19 Protein S5 131 135 749 753 HOIP
+$ T20 Protein S5 181 186 799 804 Rnf31
+@ T55 Positive_regulation S5 13 25 631 643 upregulation
+@ T56 Positive_regulation S5 55 68 673 686 reconstituted
+@ T57 Negative_regulation S5 96 102 714 720 defect
+@ T58 Positive_regulation S5 111 123 729 741 upregulation
+@ T59 Negative_regulation S5 136 145 754 763 deficient
+@ T60 Positive_regulation S5 156 159 774 777 due
+@ T61 Negative_regulation S5 167 177 785 795 disruption
+% E19 Positive_regulation:T55 Theme:T16
+% E20 Positive_regulation:T56 Theme:T17
+% E21 Negative_regulation:T57 Theme:E22 Cause:E23
+% E22 Positive_regulation:T58 Theme:T18
+% E23 Negative_regulation:T59 Theme:T19
+% E24 Positive_regulation:T60 Theme:E21 Cause:E25
+% E25 Negative_regulation:T61 Theme:T20
+
+CD40 signals in B cells can also contribute to the activation of DNA recombination in the immunoglobulin heavy chain locus [11], [12].
+# T21 Protein S6 0 4 806 810 CD40
+
+This process, known as immunoglobulin class switching (or isotype switching), allows B cells, initially expressing IgM, to switch to IgA, IgG, or IgE depending on the class of antibody most appropriate for a particular immune response.
+
+Switching to IgE can be induced by the combination of IL-4 and CD40 signals.
+# T22 Protein S8 54 58 1231 1235 IL-4
+# T23 Protein S8 63 67 1240 1244 CD40
+
+The gene rearrangement necessary for IgE production is preceded by the production of non-coding RNA transcripts from germline sequences in the IgE heavy chain locus [13].
+
+To determine whether HOIP is required in the initiation of the class switching process, the relevant B cell lines were stimulated through CD40 in the presence of IL-4 and tested for production of germline epsilon (GLepsilon) transcripts (Fig. 3).
+# T24 Protein S10 21 25 1446 1450 HOIP
+# T25 Protein S10 138 142 1563 1567 CD40
+# T26 Protein S10 162 166 1587 1591 IL-4
+# T27 Protein S10 196 212 1621 1637 germline epsilon
+# T28 Protein S10 214 223 1639 1648 GLepsilon
+$ T27 Protein S10 196 212 1621 1637 germline epsilon
+@ T62 Transcription S10 182 192 1607 1617 production
+% E26 Transcription:T62 Theme:T27
+
+Anti-CD40 antibody stimulation alone or together with IL-4 induced GLepsilon transcription in parental A20.2J cells as expected.
+# T29 Protein S11 54 58 1726 1730 IL-4
+# T30 Protein S11 67 76 1739 1748 GLepsilon
+$ T30 Protein S11 67 76 1739 1748 GLepsilon
+@ T63 Positive_regulation S11 59 66 1731 1738 induced
+@ T64 Transcription S11 77 90 1749 1762 transcription
+% E27 Positive_regulation:T63 Theme:E28
+% E28 Transcription:T64 Theme:T30
+
+In contrast, only low levels of GLepsilon expression were detected in HOIP-deficient cells stimulated with either anti-CD40 antibody alone or anti-CD40 and IL-4.
+# T31 Protein S12 32 41 1833 1842 GLepsilon
+# T32 Protein S12 70 74 1871 1875 HOIP
+# T33 Protein S12 156 160 1957 1961 IL-4
+$ T31 Protein S12 32 41 1833 1842 GLepsilon
+$ T32 Protein S12 70 74 1871 1875 HOIP
+@ T65 Gene_expression S12 42 52 1843 1853 expression
+@ T66 Negative_regulation S12 75 84 1876 1885 deficient
+% E29 Gene_expression:T65 Theme:T31
+% E30 Negative_regulation:T66 Theme:T32
+
+Normal levels of GLepsilon expression were induced in HOIP-reconstituted cells stimulated with anti-CD40 antibody alone or together with IL-4.
+# T34 Protein S13 17 26 1980 1989 GLepsilon
+# T35 Protein S13 54 58 2017 2021 HOIP
+# T36 Protein S13 137 141 2100 2104 IL-4
+$ T34 Protein S13 17 26 1980 1989 GLepsilon
+$ T35 Protein S13 54 58 2017 2021 HOIP
+@ T67 Gene_expression S13 27 37 1990 2000 expression
+@ T68 Positive_regulation S13 43 50 2006 2013 induced
+@ T69 Positive_regulation S13 59 72 2022 2035 reconstituted
+% E31 Gene_expression:T67 Theme:T34
+% E32 Positive_regulation:T68 Theme:E31
+% E33 Positive_regulation:T69 Theme:T35
+
+Collectively, these data demonstrate that HOIP has a critical role in cellular responses to CD40 signaling.
+# T37 Protein S14 42 46 2148 2152 HOIP
+# T38 Protein S14 92 96 2198 2202 CD40
+

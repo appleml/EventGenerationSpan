@@ -1,0 +1,26 @@
+An essential role for NF-kappaB in human CD34(+) bone marrow cell survival.
+# T1 Protein S1 41 45 41 45 CD34
+
+The transcription factor, NF-kappaB, is important for T-cell activation, B-cell maturation, and human immunodeficiency virus transcription and plays a role in alternatively mediating and protecting against apoptosis in a variety of cell types.
+
+However, a role for NF-kappaB in human CD34(+) bone marrow cells has not been described.
+# T2 Protein S3 39 43 360 364 CD34
+
+We provide evidence here that virtually all human CD34(+) bone marrow cells express NF-kappaB that can be activated by exposure to phorbol 12-myristate 13-acetate and a variety of cytokines, eg, tumor necrosis factor alpha, interleukin-3, and granulocyte-macrophage colony-stimulating factor.
+# T3 Protein S4 50 54 460 464 CD34
+# T4 Protein S4 195 222 605 632 tumor necrosis factor alpha
+# T5 Protein S4 224 237 634 647 interleukin-3
+# T6 Protein S4 243 291 653 701 granulocyte-macrophage colony-stimulating factor
+$ T4 Protein S4 195 222 605 632 tumor necrosis factor alpha
+$ T5 Protein S4 224 237 634 647 interleukin-3
+$ T6 Protein S4 243 291 653 701 granulocyte-macrophage colony-stimulating factor
+@ T8 Gene_expression S4 76 83 486 493 express
+% E1 Gene_expression:T8 Theme:T4
+% E2 Gene_expression:T8 Theme:T5
+% E3 Gene_expression:T8 Theme:T6
+
+In addition, we demonstrate that NF-kappaB may be required for human CD34(+) bone marrow cell clonogenic function and survival.
+# T7 Protein S5 69 73 772 776 CD34
+
+These results offer insight into a new role for NF-kappaB in maintaining survival and function in hematopoietic stem and progenitor cells and suggest that proposed strategies involving inhibition of NF-kappaB activation as an adjunct to cancer chemotherapy should be approached with caution.
+

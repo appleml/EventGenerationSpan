@@ -1,0 +1,45 @@
+A novel mitogen-inducible gene product related to p50/p105-NF-kappa B participates in transactivation through a kappa B site.
+# T1 Protein S1 50 53 50 53 p50
+# T2 Protein S1 54 58 54 58 p105
+
+A Rel-related, mitogen-inducible, kappa B-binding protein has been cloned as an immediate-early activation gene of human peripheral blood T cells.
+
+The cDNA has an open reading frame of 900 amino acids capable of encoding a 97-kDa protein.
+
+This protein is most similar to the 105-kDa precursor polypeptide of p50-NF-kappa B. Like the 105-kDa precursor, it contains an amino-terminal Rel-related domain of about 300 amino acids and a carboxy-terminal domain containing six full cell cycle or ankyrin repeats.
+# T3 Protein S4 69 72 435 438 p50
+
+In vitro-translated proteins, truncated downstream of the Rel domain and excluding the repeats, bind kappa B sites.
+
+We refer to the kappa B-binding, truncated protein as p50B by analogy with p50-NF-kappa B and to the full-length protein as p97.
+# T4 Protein S6 54 58 804 808 p50B
+# T5 Protein S6 75 78 825 828 p50
+# T6 Protein S6 124 127 874 877 p97
+$ T4 Protein S6 54 58 804 808 p50B
+@ T14 Binding S6 24 31 774 781 binding
+% E1 Binding:T14 Theme:T4
+
+p50B is able to form heteromeric kappa B-binding complexes with RelB, as well as with p65 and p50, the two subunits of NF-kappa B. Transient-transfection experiments in embryonal carcinoma cells demonstrate a functional cooperation between p50B and RelB or p65 in transactivation of a reporter plasmid dependent on a kappa B site.
+# T7 Protein S7 0 4 879 883 p50B
+# T8 Protein S7 64 68 943 947 RelB
+# T9 Protein S7 86 89 965 968 p65
+# T10 Protein S7 94 97 973 976 p50
+# T11 Protein S7 240 244 1119 1123 p50B
+# T12 Protein S7 249 253 1128 1132 RelB
+# T13 Protein S7 257 260 1136 1139 p65
+$ T10 Protein S7 94 97 973 976 p50
+$ T9 Protein S7 86 89 965 968 p65
+$ T7 Protein S7 0 4 879 883 p50B
+$ T8 Protein S7 64 68 943 947 RelB
+@ T15 Binding S7 41 48 920 927 binding
+@ T16 Binding S7 49 58 928 937 complexes
+% E2 Binding:T15 Theme:T10
+% E3 Binding:T15 Theme:T9
+% E4 Binding:T15 Theme:T7
+% E5 Binding:T15 Theme:T8
+% E6 Binding:T16 Theme:T7 Theme2:T10
+% E7 Binding:T16 Theme:T7 Theme2:T8
+% E8 Binding:T16 Theme:T7 Theme2:T9
+
+The data imply the existence of a complex family of NF-kappa B-like transcription factors.
+

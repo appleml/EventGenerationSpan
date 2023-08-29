@@ -1,0 +1,53 @@
+DNA	NN	B-NP	O	Other	###	1	DNA	DNA	NN	NN	_	0	root	_	_
+
+Cloning	NN	B-NP	O	Other	###	1	Cloning	Cloning	NN	NN	_	12	nsubjpass	_	_
+of	IN	B-PP	O	Other	###	2	of	of	IN	IN	_	3	case	_	_
+Myr-Akt1	NN	B-NP	B-protein	B-Protein	###	3	Myr-Akt1	Myr-Akt1	NN	NN	_	1	nmod	_	_
+,	,	O	O	Other	###	4	,	,	,	,	_	3	punct	_	_
+containing	VBG	B-VP	O	Other	###	5	containing	containing	VBG	VBG	_	3	acl	_	_
+c-terminal	JJ	B-NP	B-protein	Other	###	6	c-terminal	c-terminal	JJ	JJ	_	8	amod	_	_
+FLAG	NN	I-NP	I-protein	Other	###	7	FLAG	FLAG	NN	NN	_	8	compound	_	_
+tag	NN	I-NP	I-protein	Other	###	8	tag	tag	NN	NN	_	5	dobj	_	_
+,	,	O	O	Other	###	9	,	,	,	,	_	3	punct	_	_
+has	VBZ	B-VP	O	Other	###	10	has	has	VBZ	VBZ	_	12	aux	_	_
+been	VBN	I-VP	O	Other	###	11	been	been	VBN	VBN	_	12	auxpass	_	_
+described	VBN	I-VP	O	Other	###	12	described	described	VBN	VBN	_	0	root	_	_
+[	(	O	O	Other	###	13	[	[	(	(	_	12	xcomp	_	_
+52	CD	B-NP	O	Other	###	14	52	52	CD	CD	_	15	nummod	_	_
+]	)	O	O	Other	###	15	]	]	)	)	_	12	xcomp	_	_
+.	.	O	O	Other	###	16	.	.	.	.	_	12	punct	_	_
+
+Myr-Akt1-FLAG	NN	B-NP	B-protein	B-Protein	###	1	Myr-Akt1-FLAG	Myr-Akt1-FLAG	NN	NN	_	3	nsubjpass	_	_
+was	VBD	B-VP	O	Other	###	2	was	was	VBD	VBD	_	3	auxpass	_	_
+amplified	VBN	I-VP	O	Other	###	3	amplified	amplified	VBN	VBN	_	0	root	_	_
+by	IN	B-PP	O	Other	###	4	by	by	IN	IN	_	5	case	_	_
+PCR	NN	B-NP	O	Other	###	5	PCR	PCR	NN	NN	_	3	nmod	_	_
+and	CC	O	O	Other	###	6	and	and	CC	CC	_	3	cc	_	_
+subcloned	VBN	B-VP	O	Other	###	7	subcloned	subcloned	VBN	VBN	_	3	conj	_	_
+into	IN	B-PP	O	Other	###	8	into	into	IN	IN	_	13	case	_	_
+the	DT	B-NP	O	Other	###	9	the	the	DT	DT	_	13	det	_	_
+BglII	NN	I-NP	B-DNA	Other	###	10	BglII	BglII	NN	NN	_	13	compound	_	_
+and	CC	I-NP	I-DNA	Other	###	11	and	and	CC	CC	_	10	cc	_	_
+EcoRI	NN	I-NP	I-DNA	Other	###	12	EcoRI	EcoRI	NN	NN	_	10	conj	_	_
+sites	NNS	I-NP	I-DNA	Other	###	13	sites	sites	NNS	NNS	_	7	nmod	_	_
+of	IN	B-PP	O	Other	###	14	of	of	IN	IN	_	17	case	_	_
+pMSCV-puro	NN	B-NP	O	Other	###	15	pMSCV-puro	pMSCV-puro	NN	NN	_	17	compound	_	_
+retroviral	JJ	I-NP	O	Other	###	16	retroviral	retroviral	JJ	JJ	_	17	amod	_	_
+vector	NN	I-NP	O	Other	###	17	vector	vector	NN	NN	_	13	nmod	_	_
+(	(	O	O	Other	###	18	(	(	(	(	_	19	punct	_	_
+Invitrogen	NN	B-NP	O	Other	###	19	Invitrogen	Invitrogen	NN	NN	_	17	appos	_	_
+)	)	O	O	Other	###	20	)	)	)	)	_	19	punct	_	_
+.	.	O	O	Other	###	21	.	.	.	.	_	3	punct	_	_
+
+Mutant	JJ	B-NP	O	Other	###	1	Mutant	Mutant	JJ	JJ	_	2	amod	_	_
+versions	NNS	I-NP	O	Other	###	2	versions	versions	NNS	NNS	_	6	nsubjpass	_	_
+of	IN	B-PP	O	Other	###	3	of	of	IN	IN	_	4	case	_	_
+Myr-Akt1	NN	B-NP	B-protein	B-Protein	###	4	Myr-Akt1	Myr-Akt1	NN	NN	_	2	nmod	_	_
+were	VBD	B-VP	O	Other	###	5	were	were	VBD	VBD	_	6	auxpass	_	_
+generated	VBN	I-VP	O	Other	###	6	generated	generated	VBN	VBN	_	0	root	_	_
+using	VBG	B-VP	O	Other	###	7	using	using	VBG	VBG	_	6	xcomp	_	_
+the	DT	B-NP	O	Other	###	8	the	the	DT	DT	_	10	det	_	_
+same	JJ	I-NP	O	Other	###	9	same	same	JJ	JJ	_	10	amod	_	_
+strategy	NN	I-NP	O	Other	###	10	strategy	strategy	NN	NN	_	7	dobj	_	_
+.	.	O	O	Other	###	11	.	.	.	.	_	6	punct	_	_
+

@@ -1,0 +1,121 @@
+Autoregulation of the NF-kappa B transactivator RelA (p65) by multiple cytoplasmic inhibitors containing ankyrin motifs.
+# T1 Protein S1 48 52 48 52 RelA
+# T2 Protein S1 54 57 54 57 p65
+$ T1 Protein S1 48 52 48 52 RelA
+@ T36 Regulation S1 0 14 0 14 Autoregulation
+% E1 Regulation:T36 Theme:T1
+
+RelA (p65) functions as the critical transactivating component of the heterodimeric p50-p65 NF-kappa B complex and contains a high-affinity binding site for its cytoplasmic inhibitor, I kappa B alpha.
+# T3 Protein S2 0 4 122 126 RelA
+# T4 Protein S2 6 9 128 131 p65
+# T5 Protein S2 84 87 206 209 p50
+# T6 Protein S2 88 91 210 213 p65
+# T7 Protein S2 184 199 306 321 I kappa B alpha
+
+After cellular activation, I kappa B alpha is rapidly degraded in concert with the induced nuclear translocation of NF-kappa B.
+# T8 Protein S3 27 42 350 365 I kappa B alpha
+$ T8 Protein S3 27 42 350 365 I kappa B alpha
+@ T37 Positive_regulation S3 0 5 323 328 After
+@ T38 Protein_catabolism S3 54 62 377 385 degraded
+% E2 Positive_regulation:T37 Theme:E3
+% E3 Protein_catabolism:T38 Theme:T8
+
+The present study demonstrates that tumor necrosis factor alpha-induced degradation of I kappa B alpha in human T cells is preceded by its rapid phosphorylation in vivo.
+# T9 Protein S4 36 63 487 514 tumor necrosis factor alpha
+# T10 Protein S4 87 102 538 553 I kappa B alpha
+$ T9 Protein S4 36 63 487 514 tumor necrosis factor alpha
+$ T10 Protein S4 87 102 538 553 I kappa B alpha
+@ T39 Positive_regulation S4 64 71 515 522 induced
+@ T40 Protein_catabolism S4 72 83 523 534 degradation
+@ T41 Phosphorylation S4 145 160 596 611 phosphorylation
+% E4 Positive_regulation:T39 Theme:E5 Cause:T9
+% E5 Protein_catabolism:T40 Theme:T10
+% E6 Phosphorylation:T41 Theme:T10
+
+However, these effects on I kappa B alpha result in nuclear mobilization of only a fraction of the entire cytoplasmic pool of RelA.
+# T11 Protein S5 26 41 647 662 I kappa B alpha
+# T12 Protein S5 126 130 747 751 RelA
+$ T12 Protein S5 126 130 747 751 RelA
+@ T42 Positive_regulation S5 42 51 663 672 result in
+@ T43 Entity S5 52 59 673 680 nuclear
+@ T44 Localization S5 60 72 681 693 mobilization
+% E7 Positive_regulation:T42 Theme:E8 Cause:E4
+% E8 Localization:T44 Theme:T12 ToLoc:T43
+
+Subsequent studies have revealed that (i) cytoplasmic RelA is stably associated not only with I kappa B alpha but also with other ankyrin motif-rich proteins including the products of the NF-kappa B2 (p100) and NF-kappa B1 (p105) genes;
+# T13 Protein S6 54 58 807 811 RelA
+# T14 Protein S6 94 109 847 862 I kappa B alpha
+# T15 Protein S6 188 199 941 952 NF-kappa B2
+# T16 Protein S6 201 205 954 958 p100
+# T17 Protein S6 211 222 964 975 NF-kappa B1
+# T18 Protein S6 224 228 977 981 p105
+$ T13 Protein S6 54 58 807 811 RelA
+$ T14 Protein S6 94 109 847 862 I kappa B alpha
+$ T15 Protein S6 188 199 941 952 NF-kappa B2
+$ T17 Protein S6 211 222 964 975 NF-kappa B1
+@ T45 Binding S6 69 79 822 832 associated
+% E9 Binding:T45 Theme:T13 Theme2:T17
+% E10 Binding:T45 Theme:T13 Theme2:T14
+% E11 Binding:T45 Theme:T13 Theme2:T15
+
+(ii) in contrast to RelA-I kappa B alpha, RelA-p100 cytoplasmic complexes are not dissociated following tumor necrosis factor alpha activation;
+# T19 Protein S7 20 24 1010 1014 RelA
+# T20 Protein S7 25 40 1015 1030 I kappa B alpha
+# T21 Protein S7 42 46 1032 1036 RelA
+# T22 Protein S7 47 51 1037 1041 p100
+# T23 Protein S7 104 131 1094 1121 tumor necrosis factor alpha
+
+(iii) p100 functions as a potent inhibitor of RelA-mediated transcription in vivo;
+# T24 Protein S8 6 10 1140 1144 p100
+# T25 Protein S8 46 50 1180 1184 RelA
+
+(iv) the interaction of RelA and p100 involves the conserved Rel homology domain of both proteins but not the nuclear localization signal of RelA, which is required for I kappa B alpha binding;
+# T26 Protein S9 24 28 1241 1245 RelA
+# T27 Protein S9 33 37 1250 1254 p100
+# T28 Protein S9 141 145 1358 1362 RelA
+# T29 Protein S9 169 184 1386 1401 I kappa B alpha
+$ T26 Protein S9 24 28 1241 1245 RelA
+$ T27 Protein S9 33 37 1250 1254 p100
+$ T28 Protein S9 141 145 1358 1362 RelA
+$ T29 Protein S9 169 184 1386 1401 I kappa B alpha
+@ T46 Binding S9 9 20 1226 1237 interaction
+@ T47 Entity S9 110 137 1327 1354 nuclear localization signal
+@ T48 Positive_regulation S9 156 164 1373 1381 required
+@ T49 Binding S9 185 192 1402 1409 binding
+% E12 Binding:T46 Theme:T26 Theme2:T27
+% E13 Positive_regulation:T48 Theme:E14 Cause:T28 CSite:T47
+% E14 Binding:T49 Theme:T28 Theme2:T29
+
+(v) p100 inhibition of RelA function requires the C-terminal ankyrin motif domain, which mediates cytoplasmic retention of RelA;
+# T30 Protein S10 4 8 1415 1419 p100
+# T31 Protein S10 23 27 1434 1438 RelA
+# T32 Protein S10 123 127 1534 1538 RelA
+$ T30 Protein S10 4 8 1415 1419 p100
+$ T31 Protein S10 23 27 1434 1438 RelA
+$ T32 Protein S10 123 127 1534 1538 RelA
+@ T50 Negative_regulation S10 9 19 1420 1430 inhibition
+@ T51 Positive_regulation S10 37 45 1448 1456 requires
+@ T52 Positive_regulation S10 89 97 1500 1508 mediates
+@ T53 Entity S10 98 109 1509 1520 cytoplasmic
+@ T54 Localization S10 110 119 1521 1530 retention
+% E15 Negative_regulation:T50 Theme:T31 Cause:T30
+% E16 Positive_regulation:T51 Theme:E15
+% E17 Positive_regulation:T52 Theme:E18
+% E18 Localization:T54 Theme:T32 AtLoc:T53
+
+and (vi) as observed with I kappa B alpha, nuclear RelA stimulates p100 mRNA and protein expression.
+# T33 Protein S11 26 41 1566 1581 I kappa B alpha
+# T34 Protein S11 51 55 1591 1595 RelA
+# T35 Protein S11 67 71 1607 1611 p100
+$ T34 Protein S11 51 55 1591 1595 RelA
+$ T35 Protein S11 67 71 1607 1611 p100
+@ T55 Positive_regulation S11 56 66 1596 1606 stimulates
+@ T56 Transcription S11 89 99 1629 1639 expression
+@ T57 Gene_expression S11 89 99 1629 1639 expression
+% E19 Positive_regulation:T55 Theme:E21 Cause:T34
+% E20 Positive_regulation:T55 Theme:E22 Cause:T34
+% E21 Transcription:T56 Theme:T35
+% E22 Gene_expression:T57 Theme:T35
+
+These findings thus reveal the presence of a second inducible autoregulated inhibitory pathway that helps ensure the rapid but transient action of nuclear NF-kappa B.
+

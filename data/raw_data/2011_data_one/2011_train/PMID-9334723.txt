@@ -1,0 +1,54 @@
+HIV-1 Vpr suppresses immune activation and apoptosis through regulation of nuclear factor kappa B [see comments]
+# T1 Protein S1 6 9 6 9 Vpr
+
+The HIV-1 accessory gene product Vpr can influence viral pathogenesis by affecting viral replication as well as host cell transcription and proliferation.
+# T2 Protein S2 33 36 147 150 Vpr
+
+We have investigated the effects of Vpr on host cell activation and confirm that it influences cellular proliferation.
+# T3 Protein S3 36 39 305 308 Vpr
+
+However, we have also found that Vpr modulates T-cell receptor (TCR)-triggered apoptosis in a manner similar to that of glucocorticoids.
+# T4 Protein S4 33 36 421 424 Vpr
+
+In the absence of TCR-mediated activation, Vpr induces apoptosis whereas in its presence, Vpr interrupts the expected induction of apoptosis.
+# T5 Protein S5 43 46 568 571 Vpr
+# T6 Protein S5 90 93 615 618 Vpr
+
+This regulation of apoptosis is linked to Vpr suppression of NF-kappa B activity via the induction of I kappa B, an inhibitor of NF-kappa B. Further, Vpr suppresses expression of IL-2, IL-10, IL-12, TNF alpha and IL-4, all of which are NF-kappa B-dependent.
+# T7 Protein S6 42 45 709 712 Vpr
+# T8 Protein S6 150 153 817 820 Vpr
+# T9 Protein S6 179 183 846 850 IL-2
+# T10 Protein S6 185 190 852 857 IL-10
+# T11 Protein S6 199 208 866 875 TNF alpha
+# T12 Protein S6 213 217 880 884 IL-4
+$ T8 Protein S6 150 153 817 820 Vpr
+$ T10 Protein S6 185 190 852 857 IL-10
+$ T11 Protein S6 199 208 866 875 TNF alpha
+$ T12 Protein S6 213 217 880 884 IL-4
+$ T9 Protein S6 179 183 846 850 IL-2
+@ T16 Negative_regulation S6 154 164 821 831 suppresses
+@ T17 Gene_expression S6 165 175 832 842 expression
+@ T18 Regulation S6 247 256 914 923 dependent
+% E1 Negative_regulation:T16 Theme:E5 Cause:T8
+% E2 Negative_regulation:T16 Theme:E8 Cause:T8
+% E3 Negative_regulation:T16 Theme:E6 Cause:T8
+% E4 Negative_regulation:T16 Theme:E7 Cause:T8
+% E5 Gene_expression:T17 Theme:T10
+% E6 Gene_expression:T17 Theme:T11
+% E7 Gene_expression:T17 Theme:T12
+% E8 Gene_expression:T17 Theme:T9
+% E9 Regulation:T18 Theme:E7
+% E10 Regulation:T18 Theme:E6
+% E11 Regulation:T18 Theme:E8
+% E12 Regulation:T18 Theme:E5
+
+The effects of Vpr could be reversed by RU486.
+# T13 Protein S7 15 18 940 943 Vpr
+$ T13 Protein S7 15 18 940 943 Vpr
+@ T19 Negative_regulation S7 28 36 953 961 reversed
+% E13 Negative_regulation:T19 Theme:T13
+
+Our finding that Vpr can regulate NF-kappa B supports the hypothesis that some aspects of viral pathogenesis are the consequence of cell dysregulation by Vpr.
+# T14 Protein S8 17 20 989 992 Vpr
+# T15 Protein S8 154 157 1126 1129 Vpr
+

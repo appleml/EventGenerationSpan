@@ -1,0 +1,64 @@
+T-cell expression of the human GATA-3 gene is regulated by a non-lineage-specific silencer.
+# T1 Protein S1 31 37 31 37 GATA-3
+$ T1 Protein S1 31 37 31 37 GATA-3
+@ T15 Gene_expression S1 7 17 7 17 expression
+@ T16 Regulation S1 46 55 46 55 regulated
+% E1 Gene_expression:T15 Theme:T1
+% E2 Regulation:T16 Theme:E1
+
+The GATA-3 transcription factor is required for development of the T-cell lineage and Th2 cytokine gene expression in CD4 T-cells.
+# T2 Protein S2 4 10 97 103 GATA-3
+# T3 Protein S2 118 121 211 214 CD4
+
+We have mapped the DNase-I-hypersensitive (HS) regions of the human GATA-3 gene in T-cells and non-T-cells and studied their transcriptional activities.
+# T4 Protein S3 68 74 292 298 GATA-3
+$ T4 Protein S3 68 74 292 298 GATA-3
+@ T17 Transcription S3 125 140 349 364 transcriptional
+% E3 Transcription:T17 Theme:T4
+
+HS I-III, located 5' from the transcriptional initiation site, were found in hematopoietic and non-hematopoietic cells, whereas HS IV-VII, located 3' from the transcriptional start site, were exclusively observed in T-cells.
+
+Among these hypersensitive sites, two transcriptional control elements were found, one in the first intron of the GATA-3 gene and the other between 8.3 and 5.9 kilobases 5' from the GATA-3 transcriptional initiation site.
+# T5 Protein S5 114 120 716 722 GATA-3
+# T6 Protein S5 182 188 784 790 GATA-3
+
+The first intron acted as a strong transcriptional activator in a position-dependent manner and with no cell-type specificity.
+
+The upstream regulatory element could confer T-cell specificity to the GATA-3 promoter activity, and analysis of this region revealed a 707-base pair silencer that drastically inhibited GATA-3 promoter activity in non-T-cells.
+# T7 Protein S7 71 77 1022 1028 GATA-3
+# T8 Protein S7 186 192 1137 1143 GATA-3
+$ T7 Protein S7 71 77 1022 1028 GATA-3
+$ T8 Protein S7 186 192 1137 1143 GATA-3
+@ T18 Positive_regulation S7 38 44 989 995 confer
+@ T19 Entity S7 78 86 1029 1037 promoter
+@ T20 Negative_regulation S7 176 185 1127 1136 inhibited
+@ T21 Entity S7 193 201 1144 1152 promoter
+% E4 Positive_regulation:T18 Theme:T7 Site:T19
+% E5 Negative_regulation:T20 Theme:T8 Site:T21
+
+Two CAGGTG E-boxes, located at the 5'- and 3'-ends of the silencer, were necessary for this silencer activity.
+@ T22 Positive_regulation S8 73 82 1251 1260 necessary
+% E6 Positive_regulation:T22 Theme:E5
+
+The 3'-CAGGTG E-box could bind USF proteins, the ubiquitous repressor ZEB, or the basic helix-loop-helix proteins E2A and HEB, and we showed that a competition between ZEB and E2A/HEB proteins is involved in the silencer activity.
+# T9 Protein S9 70 73 1359 1362 ZEB
+# T10 Protein S9 114 117 1403 1406 E2A
+# T11 Protein S9 122 125 1411 1414 HEB
+# T12 Protein S9 168 171 1457 1460 ZEB
+# T13 Protein S9 176 179 1465 1468 E2A
+# T14 Protein S9 180 183 1469 1472 HEB
+$ T10 Protein S9 114 117 1403 1406 E2A
+$ T11 Protein S9 122 125 1411 1414 HEB
+$ T9 Protein S9 70 73 1359 1362 ZEB
+$ T12 Protein S9 168 171 1457 1460 ZEB
+@ T23 Binding S9 26 30 1315 1319 bind
+@ T24 Negative_regulation S9 148 159 1437 1448 competition
+@ T25 Regulation S9 196 204 1485 1493 involved
+% E7 Binding:T23 Theme:T10
+% E8 Binding:T23 Theme:T11
+% E9 Binding:T23 Theme:T9
+% E10 Negative_regulation:T24 Theme:E8 Cause:T12
+% E11 Negative_regulation:T24 Theme:E7 Cause:T12
+% E12 Regulation:T25 Theme:E5 Cause:E10
+% E13 Regulation:T25 Theme:E5 Cause:E11
+

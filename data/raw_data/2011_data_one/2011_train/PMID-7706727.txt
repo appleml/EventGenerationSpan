@@ -1,0 +1,36 @@
+cDNA cloning of a NGFI-B/nur77-related transcription factor from an apoptotic human T cell line.
+# T1 Protein S1 18 24 18 24 NGFI-B
+# T2 Protein S1 25 30 25 30 nur77
+
+A human T lymphoid cell line, PEER, dies by apoptosis in the presence of PMA and calcium ionophore.
+
+A new gene, TINUR, was cloned from apoptotic PEER cells.
+# T3 Protein S3 12 17 210 215 TINUR
+
+The expression of the TINUR gene is induced within 1 h after the cross-linking of the T cell Ag receptor complex.
+# T4 Protein S4 22 27 277 282 TINUR
+$ T4 Protein S4 22 27 277 282 TINUR
+@ T13 Gene_expression S4 4 14 259 269 expression
+@ T14 Positive_regulation S4 36 43 291 298 induced
+% E1 Gene_expression:T13 Theme:T4
+% E2 Positive_regulation:T14 Theme:E1
+
+TINUR belongs to the NGFI-B/nur77 family of the steroid receptor superfamily and is an orphan receptor.
+# T5 Protein S5 0 5 369 374 TINUR
+# T6 Protein S5 21 27 390 396 NGFI-B
+# T7 Protein S5 28 33 397 402 nur77
+
+TINUR binds to the same DNA sequence as NGFI-B/nur77.
+# T8 Protein S6 0 5 473 478 TINUR
+# T9 Protein S6 40 46 513 519 NGFI-B
+# T10 Protein S6 47 52 520 525 nur77
+$ T9 Protein S6 40 46 513 519 NGFI-B
+$ T8 Protein S6 0 5 473 478 TINUR
+@ T15 Binding S6 6 11 479 484 binds
+% E3 Binding:T15 Theme:T9
+% E4 Binding:T15 Theme:T8
+
+We also propose that the NGFI-B/nur77 family can be classified into two subtypes.
+# T11 Protein S7 25 31 552 558 NGFI-B
+# T12 Protein S7 32 37 559 564 nur77
+

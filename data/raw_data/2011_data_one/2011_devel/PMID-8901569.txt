@@ -1,0 +1,107 @@
+Silencing of human fetal globin expression is impaired in the absence of the adult beta-globin gene activator protein EKLF.
+# T1 Protein S1 19 31 19 31 fetal globin
+# T2 Protein S1 118 122 118 122 EKLF
+$ T1 Protein S1 19 31 19 31 fetal globin
+$ T2 Protein S1 118 122 118 122 EKLF
+@ T22 Negative_regulation S1 0 9 0 9 Silencing
+@ T23 Gene_expression S1 32 42 32 42 expression
+@ T24 Negative_regulation S1 46 54 46 54 impaired
+@ T25 Negative_regulation S1 62 69 62 69 absence
+% E1 Negative_regulation:T22 Theme:E2
+% E2 Gene_expression:T23 Theme:T1
+% E3 Negative_regulation:T24 Theme:E1 Cause:E4
+% E4 Negative_regulation:T25 Theme:T2
+
+Globin genes are subject to tissue-specific and developmental stage-specific regulation.
+
+A switch from human fetal (gamma)-to adult (beta)-globin expression occurs within erythroid precursor cells of the adult lineage.
+# T3 Protein S3 14 33 228 247 human fetal (gamma)
+# T4 Protein S3 37 56 251 270 adult (beta)-globin
+$ T4 Protein S3 37 56 251 270 adult (beta)-globin
+$ T3 Protein S3 14 33 228 247 human fetal (gamma)
+@ T26 Negative_regulation S3 2 8 216 222 switch
+@ T27 Positive_regulation S3 2 8 216 222 switch
+@ T28 Gene_expression S3 57 67 271 281 expression
+% E5 Negative_regulation:T26 Theme:E8
+% E6 Positive_regulation:T27 Theme:E7
+% E7 Gene_expression:T28 Theme:T4
+% E8 Gene_expression:T28 Theme:T3
+
+Previously we and others showed by targeted gene disruption that the zinc finger gene, erythroid Kruppel-like factor (EKLF), is required for expression of the beta-globin gene in mice, presumably through interaction with a high-affinity binding site in the proximal promoter.
+# T5 Protein S4 87 116 431 460 erythroid Kruppel-like factor
+# T6 Protein S4 118 122 462 466 EKLF
+# T7 Protein S4 159 170 503 514 beta-globin
+$ T6 Protein S4 118 122 462 466 EKLF
+$ T7 Protein S4 159 170 503 514 beta-globin
+@ T29 Positive_regulation S4 128 136 472 480 required
+@ T30 Gene_expression S4 141 151 485 495 expression
+@ T31 Positive_regulation S4 196 203 540 547 through
+@ T32 Binding S4 204 215 548 559 interaction
+% E9 Positive_regulation:T29 Theme:E10 Cause:T6
+% E10 Gene_expression:T30 Theme:T7
+% E11 Positive_regulation:T31 Theme:E9 Cause:E12
+% E12 Binding:T32 Theme:T6
+
+To examine the role of EKLF in the developmental regulation of the human gamma-globin gene we interbred EKLF heterozygotes (+/-) with mice harboring a human beta-globin yeast artificial chromosome transgene.
+# T8 Protein S5 23 27 643 647 EKLF
+# T9 Protein S5 73 85 693 705 gamma-globin
+# T10 Protein S5 104 108 724 728 EKLF
+# T11 Protein S5 157 168 777 788 beta-globin
+$ T8 Protein S5 23 27 643 647 EKLF
+$ T9 Protein S5 73 85 693 705 gamma-globin
+@ T33 Positive_regulation S5 15 19 635 639 role
+@ T34 Regulation S5 49 59 669 679 regulation
+% E13 Positive_regulation:T33 Theme:E14 Cause:T8
+% E14 Regulation:T34 Theme:T9
+
+We find that in the absence of EKLF, while human beta-globin expression is dramatically reduced, gamma-globin transcripts are elevated approximately 5-fold.
+# T12 Protein S6 31 35 859 863 EKLF
+# T13 Protein S6 49 60 877 888 beta-globin
+# T14 Protein S6 97 109 925 937 gamma-globin
+$ T13 Protein S6 49 60 877 888 beta-globin
+$ T14 Protein S6 97 109 925 937 gamma-globin
+@ T35 Gene_expression S6 61 71 889 899 expression
+@ T36 Negative_regulation S6 88 95 916 923 reduced
+@ T37 Positive_regulation S6 126 134 954 962 elevated
+% E15 Gene_expression:T35 Theme:T13
+% E16 Negative_regulation:T36 Theme:E15
+% E17 Positive_regulation:T37 Theme:T14
+
+Impaired silencing of gamma-globin expression identifies EKLF as the first transcription factor participating quantitatively in the gamma-globin to beta-globin switch.
+# T15 Protein S7 22 34 1007 1019 gamma-globin
+# T16 Protein S7 57 61 1042 1046 EKLF
+# T17 Protein S7 132 144 1117 1129 gamma-globin
+# T18 Protein S7 148 159 1133 1144 beta-globin
+$ T15 Protein S7 22 34 1007 1019 gamma-globin
+$ T16 Protein S7 57 61 1042 1046 EKLF
+$ T17 Protein S7 132 144 1117 1129 gamma-globin
+$ T18 Protein S7 148 159 1133 1144 beta-globin
+@ T38 Negative_regulation S7 0 8 985 993 Impaired
+@ T39 Negative_regulation S7 9 18 994 1003 silencing
+@ T40 Gene_expression S7 35 45 1020 1030 expression
+@ T41 Positive_regulation S7 96 109 1081 1094 participating
+@ T42 Negative_regulation S7 160 166 1145 1151 switch
+@ T43 Positive_regulation S7 160 166 1145 1151 switch
+% E18 Negative_regulation:T38 Theme:E19
+% E19 Negative_regulation:T39 Theme:E20
+% E20 Gene_expression:T40 Theme:T15
+% E21 Positive_regulation:T41 Theme:E23 Cause:T16
+% E22 Positive_regulation:T41 Theme:E24 Cause:T16
+% E23 Negative_regulation:T42 Theme:T17
+% E24 Positive_regulation:T43 Theme:T18
+
+Our findings are compatible with a competitive model of switching in which EKLF mediates an adult stage-specific interaction between the beta-globin gene promoter and the locus control region that excludes the gamma-globin gene.
+# T19 Protein S8 75 79 1228 1232 EKLF
+# T20 Protein S8 137 148 1290 1301 beta-globin
+# T21 Protein S8 210 222 1363 1375 gamma-globin
+$ T19 Protein S8 75 79 1228 1232 EKLF
+$ T20 Protein S8 137 148 1290 1301 beta-globin
+$ T21 Protein S8 210 222 1363 1375 gamma-globin
+@ T44 Positive_regulation S8 80 88 1233 1241 mediates
+@ T45 Binding S8 113 124 1266 1277 interaction
+@ T46 Entity S8 154 162 1307 1315 promoter
+@ T47 Negative_regulation S8 197 205 1350 1358 excludes
+% E25 Positive_regulation:T44 Theme:E26 Cause:T19
+% E26 Binding:T45 Theme:T20 Site:T46
+% E27 Negative_regulation:T47 Theme:T21 Cause:E25
+

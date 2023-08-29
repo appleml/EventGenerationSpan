@@ -1,0 +1,18 @@
+Conclusions
+
+We have detected a more pronounced production of IL-17 from RA PBMC in response to IL-15 and MCP-1 as well as stimulation by anti-CD3/anti-CD28.
+# T1 Protein S2 49 54 61 66 IL-17
+# T2 Protein S2 83 88 95 100 IL-15
+# T3 Protein S2 93 98 105 110 MCP-1
+# T4 Protein S2 139 143 151 155 CD28
+
+We have also shown that upregulation of IL-17 by activated T cells in patients with RA could be the result of activation via the PI3K/Akt pathway with resultant NF-kappaB activation.
+# T5 Protein S3 40 45 197 202 IL-17
+# T6 Protein S3 134 137 291 294 Akt
+
+Our data provide insights into cellular mechanisms of the regulation of IL-17 production in RA, and highlight the role of T cells, which has hitherto been neglected in RA pathogenesis.
+# T7 Protein S4 72 77 412 417 IL-17
+
+Together with recent data on the successful introduction of anti-IL-17 in RA, our results have added information for the future molecular targeting of new therapeutic applications in RA.
+# T8 Protein S5 65 70 590 595 IL-17
+

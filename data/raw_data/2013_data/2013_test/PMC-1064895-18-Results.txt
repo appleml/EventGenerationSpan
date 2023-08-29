@@ -1,0 +1,38 @@
+Activation of the NF-kappaB and activator protein-1 (AP-1) pathway in the IL-17 promoter region
+# T1 Protein S1 32 51 32 51 activator protein-1
+# T2 Protein S1 53 57 53 57 AP-1
+# T3 Protein S1 74 79 74 79 IL-17
+
+To investigate further the intracellular signaling pathway activated by anti-CD3 plus anti-CD28, concanavalin A, PHA and IL-15, and responsible for inducing IL-17 expression, we performed an electrophoretic mobility-shift assay (EMSA) of NF-kappaB recognition sites in the promoters of IL-17.
+# T4 Protein S2 91 95 187 191 CD28
+# T5 Protein S2 113 116 209 212 PHA
+# T6 Protein S2 121 126 217 222 IL-15
+# T7 Protein S2 157 162 253 258 IL-17
+# T8 Protein S2 286 291 382 387 IL-17
+
+As shown in Fig. 7a, nuclear extracts from RA PBMC stimulated with anti-CD3 plus anti-CD28 (lane 2) demonstrated increased binding of NF-kappaB to IL-17 promoters in comparison with that of controls (lane 1).
+# T9 Protein S3 86 90 475 479 CD28
+# T10 Protein S3 147 152 536 541 IL-17
+
+A supershift assay demonstrated shifted bands in p65 and p50 (lanes 3 and 4) not in c-Rel (lane 5).
+# T11 Protein S4 49 52 647 650 p65
+# T12 Protein S4 57 60 655 658 p50
+# T13 Protein S4 84 89 682 687 c-Rel
+
+In normal PBMC the same pattern was observed, but the degree of NF-kappaB activation by anti-CD3 plus anti-CD28 was less intense than that in RA PBMC (Fig. 7b).
+# T14 Protein S5 107 111 805 809 CD28
+
+To confirm the link between PI3K activity and NF-kappaB, we performed EMSA to determine the NF-kappaB binding activity after treatment with both LY294002 and PDTC.
+
+Both agents block NF-kappaB DNA-binding activity in the IL-17 promoter (Fig. 7c).
+# T15 Protein S7 56 61 1079 1084 IL-17
+
+Western blotting for IkappaB-alpha showed inhibition of degradation of IkappaB-alpha by LY294002 and PDTC at the same time (Fig. 7c).
+# T16 Protein S8 21 34 1126 1139 IkappaB-alpha
+# T17 Protein S8 71 84 1176 1189 IkappaB-alpha
+
+In contrast, the AP-1 pathway was not activated by stimulation with anti-CD3 plus anti-CD28 (data not shown), demonstrating that NF-kappaB is the main intracellular signaling pathway in IL-17 production by activated PBMC from patients with RA.
+# T18 Protein S9 17 21 1256 1260 AP-1
+# T19 Protein S9 87 91 1326 1330 CD28
+# T20 Protein S9 186 191 1425 1430 IL-17
+

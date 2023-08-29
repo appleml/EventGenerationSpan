@@ -1,0 +1,45 @@
+A, GP led to DNA binding of NFAT, NFkappaB and NFIL-6.
+# T1 Protein S1 28 32 28 32 NFAT
+# T2 Protein S1 47 53 47 53 NFIL-6
+
+Human PBMC were incubated with medium control or GP (1 and 100 mug) for 1 h at 37degreesC.
+
+Nuclear extracts were incubated with a 32P-labeled NFAT, NFkappaB, NFIL-6 or NFkappaB-IL-8 oligonucleotide probe corresponding to the IFNgamma, TNFalpha, IL-6 and IL-8 gene promoters (Table 1).
+# T3 Protein S3 51 55 197 201 NFAT
+# T4 Protein S3 67 73 213 219 NFIL-6
+# T5 Protein S3 86 90 232 236 IL-8
+# T6 Protein S3 134 142 280 288 IFNgamma
+# T7 Protein S3 144 152 290 298 TNFalpha
+# T8 Protein S3 154 158 300 304 IL-6
+# T9 Protein S3 163 167 309 313 IL-8
+
+Arrows with the black head indicate migrational location of the NFAT-DNA, NFkappaB-DNA, NFIL-6-DNA or NFkappaB-IL-8-DNA complex compared to free probe (no shift).
+# T10 Protein S4 64 68 404 408 NFAT
+# T11 Protein S4 88 94 428 434 NFIL-6
+# T12 Protein S4 111 115 451 455 IL-8
+
+Arrow with the open head indicates a supershift of NFkappaB-IL-8-DNA-anti-p65 and -p50, respectively.
+# T13 Protein S5 60 64 563 567 IL-8
+# T14 Protein S5 74 77 577 580 p65
+# T15 Protein S5 83 86 586 589 p50
+
+An autoradiogram from a representative experiment is shown (n = 7).
+
+B, Decreased DNA binding of NFkappaB following GP + TSST-1, compared to TSST-1, GP, or TSST-1/GP.
+# T16 Protein S7 52 58 725 731 TSST-1
+# T17 Protein S7 72 78 745 751 TSST-1
+# T18 Protein S7 87 93 760 766 TSST-1
+
+Human PBMC were incubated with medium control, LPS, TSST-1, GP (100 mug), GP + TSST-1 and GP + LPS for 1 h at 37degreesC.
+# T19 Protein S8 52 58 823 829 TSST-1
+# T20 Protein S8 79 85 850 856 TSST-1
+
+An autoradiogram from a representative experiment is shown.
+
+Schematic representation of NFkappaB-DNA binding activity following GP (1 and 100 mug) or TSST-1 treatment (250 ng) as well as simultaneous administration of both compounds and the theoretical value (GP/TSST-1 calc.)
+# T21 Protein S10 90 96 1043 1049 TSST-1
+
+.
+
+Medium control levels were set equal to 1+/- SEM and significances (* = p < 0.05) are shown with respect to medium control (n = 4).
+

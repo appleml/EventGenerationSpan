@@ -1,0 +1,39 @@
+NF-kappaB activation potentiates the degree of IL-1beta production and secretion upon inflammasome activation.
+# T1 Protein S1 47 55 47 55 IL-1beta
+$ T1 Protein S1 47 55 47 55 IL-1beta
+@ T5 Positive_regulation S1 21 32 21 32 potentiates
+@ T6 Gene_expression S1 56 66 56 66 production
+@ T7 Localization S1 71 80 71 80 secretion
+@ T8 Positive_regulation S1 81 85 81 85 upon
+% E1 Positive_regulation:T5 Theme:E2
+% E3 Positive_regulation:T5 Theme:E4
+% E2 Gene_expression:T6 Theme:T1
+% E4 Localization:T7 Theme:T1
+% E5 Positive_regulation:T8 Theme:E1
+% E6 Positive_regulation:T8 Theme:E3
+
+THP-1 reporter cells were primed overnight with heat-killed P. aeruginosa and stimulated the next day with live P. aeruginosa or additional heat-killed P. aeruginosa for the times indicated.
+
+Cell culture supernatants were assayed for (A) NF-kappaB/AP-1 activity, (B) IL-8, and (C) IL-1beta secretion (n = 3-6 experiments).
+# T2 Protein S3 90 98 392 400 IL-1beta
+$ T2 Protein S3 90 98 392 400 IL-1beta
+@ T9 Localization S3 99 108 401 410 secretion
+% E7 Localization:T9 Theme:T2
+
+Using the same stimulation method, THP-1 reporter cells were treated with Bay11-7082 (20 microM) for 1 hour prior to priming with heat-killed PAO1 or live PAO1.
+
+Supernatants were assayed at 24 hours for (D) NF-kappaB/AP-1 activity, (E) IL-8, and (F) IL-1beta secretion (n = 3-5).
+# T3 Protein S5 89 97 684 692 IL-1beta
+$ T3 Protein S5 89 97 684 692 IL-1beta
+@ T10 Localization S5 98 107 693 702 secretion
+% E8 Localization:T10 Theme:T3
+
+PBMCs from CF patients (n = 11-15) and controls (n = 10-13) were treated with z-YVAD-fmk (20 microM) or Bay11-7082 (10 microM) and stimulated with live PAO1 (MOI = 1), ATP (5 mM), or Poly(dA:dT) (1 microg/ml) according to the schedule in Figure 1.
+
+(G) IL-1beta and (H) IL-8 levels were measured at 24 hours.
+# T4 Protein S7 4 12 966 974 IL-1beta
+
+Statistical analysis was performed using two way ANOVA with Bonferroni correction for multiple comparisons.
+
+*, **, and *** signify P<0.05, 0.01, and 0.001.
+

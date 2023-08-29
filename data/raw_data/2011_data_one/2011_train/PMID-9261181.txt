@@ -1,0 +1,92 @@
+Transcription factor GATA-3 is differentially expressed in murine Th1 and Th2 cells and controls Th2-specific expression of the interleukin-5 gene.
+# T1 Protein S1 21 27 21 27 GATA-3
+# T2 Protein S1 128 141 128 141 interleukin-5
+$ T1 Protein S1 21 27 21 27 GATA-3
+$ T2 Protein S1 128 141 128 141 interleukin-5
+@ T21 Gene_expression S1 46 55 46 55 expressed
+@ T22 Regulation S1 88 96 88 96 controls
+@ T23 Gene_expression S1 110 120 110 120 expression
+% E1 Gene_expression:T21 Theme:T1
+% E2 Regulation:T22 Theme:E3 Cause:T1
+% E3 Gene_expression:T23 Theme:T2
+
+Interleukin-5 (IL-5), which is produced by CD4(+) T helper 2 (Th2) cells, but not by Th1 cells, plays a key role in the development of eosinophilia in asthma.
+# T3 Protein S2 0 13 149 162 Interleukin-5
+# T4 Protein S2 15 19 164 168 IL-5
+# T5 Protein S2 43 46 192 195 CD4
+$ T4 Protein S2 15 19 164 168 IL-5
+@ T24 Gene_expression S2 31 39 180 188 produced
+% E4 Gene_expression:T24 Theme:T4
+
+Despite increasing evidence that the outcome of many diseases is determined by the ratio of the two subsets of CD4(+) T helper cells, Th1 and Th2, the molecular basis for Th1- and Th2- specific gene expression remains to be elucidated.
+# T6 Protein S3 111 114 419 422 CD4
+
+We previously established a critical role for the transcription factor GATA-3 in IL-5 promoter activation in EL-4 cells, which express both Th1- and Th2-type cytokines.
+# T7 Protein S4 71 77 615 621 GATA-3
+# T8 Protein S4 81 85 625 629 IL-5
+$ T7 Protein S4 71 77 615 621 GATA-3
+$ T8 Protein S4 81 85 625 629 IL-5
+@ T25 Positive_regulation S4 28 41 572 585 critical role
+@ T26 Entity S4 86 94 630 638 promoter
+@ T27 Positive_regulation S4 95 105 639 649 activation
+% E5 Positive_regulation:T25 Theme:E6 Cause:T7
+% E6 Positive_regulation:T27 Theme:T8 Site:T26
+
+Our studies reported here demonstrate that GATA-3 is critical for expression of the IL-5 gene in bona fide Th2 cells.
+# T9 Protein S5 43 49 756 762 GATA-3
+# T10 Protein S5 84 88 797 801 IL-5
+$ T9 Protein S5 43 49 756 762 GATA-3
+$ T10 Protein S5 84 88 797 801 IL-5
+@ T28 Positive_regulation S5 53 61 766 774 critical
+@ T29 Gene_expression S5 66 76 779 789 expression
+% E7 Positive_regulation:T28 Theme:E8 Cause:T9
+% E8 Gene_expression:T29 Theme:T10
+
+Whereas mutations in the GATA-3 site abolished antigen- or cAMP- stimulated IL-5 promoter activation in Th2 cells, ectopic expression of GATA-3 in Th1 cells or in a non-lymphoid, non-IL-5-producing cell line activated the IL-5 promoter.
+# T11 Protein S6 25 31 856 862 GATA-3
+# T12 Protein S6 76 80 907 911 IL-5
+# T13 Protein S6 137 143 968 974 GATA-3
+# T14 Protein S6 183 187 1014 1018 IL-5
+# T15 Protein S6 222 226 1053 1057 IL-5
+$ T12 Protein S6 76 80 907 911 IL-5
+$ T13 Protein S6 137 143 968 974 GATA-3
+$ T14 Protein S6 183 187 1014 1018 IL-5
+$ T15 Protein S6 222 226 1053 1057 IL-5
+@ T30 Negative_regulation S6 37 46 868 877 abolished
+@ T31 Entity S6 81 89 912 920 promoter
+@ T32 Positive_regulation S6 90 100 921 931 activation
+@ T33 Gene_expression S6 123 133 954 964 expression
+@ T34 Gene_expression S6 188 197 1019 1028 producing
+@ T35 Positive_regulation S6 208 217 1039 1048 activated
+@ T36 Entity S6 227 235 1058 1066 promoter
+% E9 Negative_regulation:T30 Theme:E10
+% E10 Positive_regulation:T32 Theme:T12 Site:T31
+% E11 Gene_expression:T33 Theme:T13
+% E12 Gene_expression:T34 Theme:T14
+% E13 Positive_regulation:T35 Theme:T15 Site:T36
+% E14 Positive_regulation:T35 Theme:T15 Cause:E11 Site:T36
+
+During the differentiation of naive CD4(+) T cells isolated from T cell receptor transgenic mice, GATA-3 gene expression was up-regulated in developing Th2 cells, but was down-regulated in Th1 cells, and antigen- or cAMP-activated Th2 cells (but not Th1 cells) expressed the GATA-3 protein.
+# T16 Protein S7 36 39 1104 1107 CD4
+# T17 Protein S7 98 104 1166 1172 GATA-3
+# T18 Protein S7 275 281 1343 1349 GATA-3
+$ T17 Protein S7 98 104 1166 1172 GATA-3
+$ T18 Protein S7 275 281 1343 1349 GATA-3
+@ T37 Gene_expression S7 110 120 1178 1188 expression
+@ T38 Positive_regulation S7 125 137 1193 1205 up-regulated
+@ T39 Negative_regulation S7 171 185 1239 1253 down-regulated
+@ T40 Gene_expression S7 261 270 1329 1338 expressed
+% E15 Gene_expression:T37 Theme:T17
+% E16 Positive_regulation:T38 Theme:E15
+% E17 Negative_regulation:T39 Theme:E15
+% E18 Gene_expression:T40 Theme:T18
+
+Thus, GATA-3 may play an important role in the balance between Th1 and Th2 subsets in immune responses.
+# T19 Protein S8 6 12 1365 1371 GATA-3
+
+Inhibition of GATA-3 activity has therapeutic potential in the treatment of asthma and other hypereosinophilic diseases.
+# T20 Protein S9 14 20 1477 1483 GATA-3
+$ T20 Protein S9 14 20 1477 1483 GATA-3
+@ T41 Negative_regulation S9 0 10 1463 1473 Inhibition
+% E19 Negative_regulation:T41 Theme:T20
+

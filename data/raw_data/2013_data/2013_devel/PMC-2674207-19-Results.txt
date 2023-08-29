@@ -1,0 +1,161 @@
+The Inhibitory Effect of Corticosteroids on GATA-3 Nuclear Localization in Primary T Lymphocytes Ex Vivo and In Vivo
+# T1 Protein S1 44 50 44 50 GATA-3
+$ T1 Protein S1 44 50 44 50 GATA-3
+@ T20 Negative_regulation S1 4 14 4 14 Inhibitory
+@ T21 Entity S1 51 58 51 58 Nuclear
+@ T22 Localization S1 59 71 59 71 Localization
+% E1 Negative_regulation:T20 Theme:E2
+% E2 Localization:T22 Theme:T1 ToLoc:T21
+
+Treatment with FP ex vivo demonstrated a concentration-dependent decrease in the direct interaction between phospho-GATA-3 and importin-alpha in PBMCs from patients with asthma (Figure 6A and 6B), which was significantly inhibited at 10-12 M FP (p<0.001, ANOVA and Newman-Keuls test) and completely attenuated by 10-8 M FP (p<0.001, ANOVA and Newman-Keuls test).
+# T2 Protein S2 116 122 233 239 GATA-3
+$ T2 Protein S2 116 122 233 239 GATA-3
+@ T23 Regulation S2 55 64 172 181 dependent
+@ T24 Negative_regulation S2 65 73 182 190 decrease
+@ T25 Binding S2 88 99 205 216 interaction
+@ T26 Phosphorylation S2 108 115 225 232 phospho
+@ T27 Negative_regulation S2 221 230 338 347 inhibited
+@ T28 Negative_regulation S2 299 309 416 426 attenuated
+% E3 Regulation:T23 Theme:E4
+% E4 Negative_regulation:T24 Theme:E5
+% E5 Binding:T25 Theme:T2
+% E6 Phosphorylation:T26 Theme:T2
+% E7 Negative_regulation:T27 Theme:E5
+% E8 Negative_regulation:T28 Theme:E5
+
+Our previous T cell line studies indicated that 10-12 M FP suppresses IL-4 and -5 gene expression and attenuated the interaction of GATA-3 with importin-alpha (see Figures 1D and 2).
+# T3 Protein S3 70 74 550 554 IL-4
+# T4 Protein S3 79 81 559 561 -5
+# T5 Protein S3 132 138 612 618 GATA-3
+$ T3 Protein S3 70 74 550 554 IL-4
+$ T4 Protein S3 79 81 559 561 -5
+$ T5 Protein S3 132 138 612 618 GATA-3
+@ T29 Negative_regulation S3 59 69 539 549 suppresses
+@ T30 Gene_expression S3 87 97 567 577 expression
+@ T31 Negative_regulation S3 102 112 582 592 attenuated
+@ T32 Binding S3 117 128 597 608 interaction
+% E9 Negative_regulation:T29 Theme:E10
+% E11 Negative_regulation:T29 Theme:E12
+% E10 Gene_expression:T30 Theme:T3
+% E12 Gene_expression:T30 Theme:T4
+% E13 Negative_regulation:T31 Theme:E14
+% E14 Binding:T32 Theme:T5
+
+This concentration is close to peak plasma levels obtained from asthmatic patients treated with inhaled FP (500 microg) [27].
+
+Inhaled FP (500 microg) treatment of seven steroid-naive asthma patients significantly reduced GATA-3-importin-alpha interaction in vivo in a time-dependent manner.
+# T6 Protein S5 95 101 884 890 GATA-3
+$ T6 Protein S5 95 101 884 890 GATA-3
+@ T33 Negative_regulation S5 87 94 876 883 reduced
+@ T34 Binding S5 117 128 906 917 interaction
+@ T35 Regulation S5 147 156 936 945 dependent
+% E15 Negative_regulation:T33 Theme:E16
+% E16 Binding:T34 Theme:T6
+% E17 Regulation:T35 Theme:E15
+
+This produced a >90% decrease in GATA-3-importin-alpha association at 2 h (median [95% CI], 13,494 [6,828-17,829] versus 879 [597-1,165]; p<0.05 Friedman's analysis).
+# T7 Protein S6 33 39 987 993 GATA-3
+$ T7 Protein S6 33 39 987 993 GATA-3
+@ T36 Regulation S6 5 13 959 967 produced
+@ T37 Negative_regulation S6 21 29 975 983 decrease
+@ T38 Binding S6 55 66 1009 1020 association
+% E18 Regulation:T36 Theme:E19
+% E19 Negative_regulation:T37 Theme:E20
+% E20 Binding:T38 Theme:T7
+
+However, this did not reach significance using Wilcoxon's post-test analysis (W = 6.00) probably due to low numbers of participants.
+
+Similar results were observed when GATA-3-importin-alpha association was measured (Figure 6C and 6D).
+# T8 Protein S8 35 41 1289 1295 GATA-3
+$ T8 Protein S8 35 41 1289 1295 GATA-3
+@ T39 Binding S8 57 68 1311 1322 association
+% E21 Binding:T39 Theme:T8
+
+The lower dose of FP (100 microg) was not effective.
+
+The attenuated interaction of GATA-3 did not result from the defective recycling of importin-alpha, as a significant decrease in the abundance of importin-alpha in the cytoplasmic pool was not detected (Figure 6E).
+# T9 Protein S10 30 36 1439 1445 GATA-3
+$ T9 Protein S10 30 36 1439 1445 GATA-3
+@ T40 Negative_regulation S10 4 14 1413 1423 attenuated
+@ T41 Binding S10 15 26 1424 1435 interaction
+% E22 Negative_regulation:T40 Theme:E23
+% E23 Binding:T41 Theme:T9
+
+We further examined whether inhaled FP could affect cellular localization of GATA-3 in peripheral blood T cells.
+# T10 Protein S11 77 83 1701 1707 GATA-3
+$ T10 Protein S11 77 83 1701 1707 GATA-3
+@ T42 Regulation S11 45 51 1669 1675 affect
+@ T43 Localization S11 61 73 1685 1697 localization
+% E24 Regulation:T42 Theme:E25
+% E25 Localization:T43 Theme:T10
+
+Treatment with inhaled FP (500 microg) for 2 h significantly increased GR nuclear translocation (Figure 7A) and concomitantly decreased the number of nuclear GATA-3 immunoreactive peripheral blood T cells (37%+/-4.2% versus 58.2%+/-4.95%, p = 0.016, W = 28.0, Wilcoxon's rank test) compared with placebo as measured by immunocytochemistry (Figure 7A and 7B).
+# T11 Protein S12 71 73 1808 1810 GR
+# T12 Protein S12 158 164 1895 1901 GATA-3
+$ T11 Protein S12 71 73 1808 1810 GR
+@ T44 Positive_regulation S12 61 70 1798 1807 increased
+@ T45 Entity S12 74 81 1811 1818 nuclear
+@ T46 Localization S12 82 95 1819 1832 translocation
+% E26 Positive_regulation:T44 Theme:E27
+% E27 Localization:T46 Theme:T11 ToLoc:T45
+
+This was confirmed by Western blotting, which also indicated that this effect was both time- and dose-dependent (Figure 7C and 7D).
+
+Thus, inhaled FP (500 microg) induced significant loss in nuclear GATA-3 at 2 h (median [95% CI], 0.40 [0.27-0.53] versus 0.14 [0.11-0.19], p<0.05, W = 21.00, Wilcoxon's rank test) (Figure 7C) and cytoplasmic GATA-3 levels were enhanced by inhaled FP in a dose-dependent manner (median [95% CI], 0.0032 [0.0026-0.0039] versus 0.658 [0.592-0.720], p<0.05, W = -21.00, Wilcoxon's rank test) (Figure 7D).
+# T13 Protein S14 66 72 2294 2300 GATA-3
+# T14 Protein S14 209 215 2437 2443 GATA-3
+$ T13 Protein S14 66 72 2294 2300 GATA-3
+$ T14 Protein S14 209 215 2437 2443 GATA-3
+@ T47 Positive_regulation S14 30 37 2258 2265 induced
+@ T48 Localization S14 50 54 2278 2282 loss
+@ T49 Entity S14 58 65 2286 2293 nuclear
+@ T50 Entity S14 197 208 2425 2436 cytoplasmic
+@ T51 Localization S14 216 222 2444 2450 levels
+@ T52 Positive_regulation S14 228 236 2456 2464 enhanced
+@ T53 Regulation S14 261 270 2489 2498 dependent
+% E28 Positive_regulation:T47 Theme:E29
+% E29 Localization:T48 Theme:T13 ToLoc:T49
+% E30 Localization:T51 Theme:T14 ToLoc:T50
+% E31 Positive_regulation:T52 Theme:E30
+% E32 Regulation:T53 Theme:E31
+
+In addition, FP (500 microg) inhibited p38 MAPK phosphorylation in primary T cells in vivo at 2 h in samples from two patients (Figure 7E).
+
+Taken together, our data suggest that inhaled FP reduces nuclear localization of GATA-3 in vivo by acutely inhibiting phospho-GATA-3-importin association.
+# T15 Protein S16 81 87 2851 2857 GATA-3
+# T16 Protein S16 126 132 2896 2902 GATA-3
+$ T15 Protein S16 81 87 2851 2857 GATA-3
+$ T16 Protein S16 126 132 2896 2902 GATA-3
+@ T54 Negative_regulation S16 49 56 2819 2826 reduces
+@ T55 Entity S16 57 64 2827 2834 nuclear
+@ T56 Localization S16 65 77 2835 2847 localization
+@ T57 Negative_regulation S16 107 117 2877 2887 inhibiting
+@ T58 Binding S16 142 153 2912 2923 association
+% E33 Negative_regulation:T54 Theme:E34 Cause:E35
+% E34 Localization:T56 Theme:T15 ToLoc:T55
+% E35 Negative_regulation:T57 Theme:E36
+% E36 Binding:T58 Theme:T16
+
+This effect may be direct, through competition for importin-alpha or associated molecules, or secondary to an effect on p38 MAPK-mediated GATA-3 phosphorylation via rapid induction of MKP-1.
+# T17 Protein S17 138 144 3063 3069 GATA-3
+# T18 Protein S17 184 189 3109 3114 MKP-1
+$ T17 Protein S17 138 144 3063 3069 GATA-3
+$ T18 Protein S17 184 189 3109 3114 MKP-1
+@ T59 Positive_regulation S17 129 137 3054 3062 mediated
+@ T60 Phosphorylation S17 145 160 3070 3085 phosphorylation
+@ T61 Gene_expression S17 171 180 3096 3105 induction
+% E37 Positive_regulation:T59 Theme:E38
+% E38 Phosphorylation:T60 Theme:T17
+% E39 Gene_expression:T61 Theme:T18
+
+The combination of these two interacting effects can result in complete suppression of GATA-3 nuclear import and thus Th2 cytokine gene expression.
+# T19 Protein S18 87 93 3203 3209 GATA-3
+$ T19 Protein S18 87 93 3203 3209 GATA-3
+@ T62 Regulation S18 41 48 3157 3164 effects
+@ T63 Negative_regulation S18 72 83 3188 3199 suppression
+@ T64 Entity S18 94 101 3210 3217 nuclear
+@ T65 Localization S18 102 108 3218 3224 import
+% E40 Regulation:T62 Theme:E41
+% E41 Negative_regulation:T63 Theme:E42
+% E42 Localization:T65 Theme:T19 ToLoc:T64
+

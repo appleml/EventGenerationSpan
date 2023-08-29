@@ -1,0 +1,5 @@
+{"trigger": ["Intracellular cytokine staining .", "Intracellular cytokine staining ."], "relation": []}
+{"trigger": ["T cells were stimulated with 2 x 10-7 M PMA and 1 mug / ml of ionomycin ( Sigma Chemicals ) for 4 h .", "T cells were stimulated with 2 x 10-7 M PMA and 1 mug / ml of ionomycin ( Sigma Chemicals ) for 4 h ."], "relation": []}
+{"trigger": ["The following mAb was used : anti - <extra_id_0> IL-4 <extra_id_2> Protein <extra_id_1> - PE ( 8D4-8 , BD ) .", "The following mAb was used : anti - IL-4 - PE ( 8D4-8 , BD ) ."], "relation": []}
+{"trigger": ["Matched isotype controls were used at the same protein concentration as the respective antibodies .", "Matched isotype controls were used at the same protein concentration as the respective antibodies ."], "relation": []}
+{"trigger": ["Four-color FACS was performed using an EPICS XL-MCL ( Beckman Coulter ) using the software Expo32 version for data acquisition and evaluation .", "Four-color FACS was performed using an EPICS XL-MCL ( Beckman Coulter ) using the software Expo32 version for data acquisition and evaluation ."], "relation": []}

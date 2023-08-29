@@ -1,0 +1,32 @@
+Effect of sTNFp55R infusion on p65-Thr435 phosphorylation in endothelial cells following SE.
+# T1 Protein S1 11 18 11 18 TNFp55R
+# T2 Protein S1 31 34 31 34 p65
+
+(A-B) Inhibition of p65-Thr435 phosphorylation by sTNFp55R infusion 12 hr after SE.
+# T3 Protein S2 20 23 113 116 p65
+# T4 Protein S2 51 58 144 151 TNFp55R
+
+p65-Thr435 phosphorylation is rarely observed in astrocytes (arrows).
+# T5 Protein S3 0 3 177 180 p65
+
+(C) Endothelial p65-Thr435 phosphorylation in non-SE animals.
+# T6 Protein S4 16 19 263 266 p65
+
+(D-E) Endothelial p65-Thr435 phosphorylation in saline-infused animals 1 day after SE.
+# T7 Protein S5 18 21 327 330 p65
+
+p65-Thr435 phosphorylation is enhanced, while SMI-71 expression is reduced in GLUT-1-positive endothelial cells (arrows).
+# T8 Protein S6 0 3 396 399 p65
+# T9 Protein S6 78 84 474 480 GLUT-1
+
+(F-G) Endothelial p65-Thr435 phosphorylation in sTNFp55R-infused animal 1 day after SE.
+# T10 Protein S7 18 21 536 539 p65
+# T11 Protein S7 49 56 567 574 TNFp55R
+
+sTNFp55R infusion effectively reduces p65-Thr435 and preserves SMI-71 expression in GLUT-1-positive endothelial cells (arrows).
+# T12 Protein S8 1 8 607 614 TNFp55R
+# T13 Protein S8 38 41 644 647 p65
+# T14 Protein S8 84 90 690 696 GLUT-1
+
+Bars = 12.5 (A-D) and 25 (E-G) mum.
+

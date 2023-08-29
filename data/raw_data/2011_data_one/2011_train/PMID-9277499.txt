@@ -1,0 +1,86 @@
+Distinct mechanisms for N-acetylcysteine inhibition of cytokine-induced E-selectin and VCAM-1 expression.
+# T1 Protein S1 72 82 72 82 E-selectin
+# T2 Protein S1 87 93 87 93 VCAM-1
+$ T2 Protein S1 87 93 87 93 VCAM-1
+$ T1 Protein S1 72 82 72 82 E-selectin
+@ T20 Negative_regulation S1 41 51 41 51 inhibition
+@ T21 Positive_regulation S1 64 71 64 71 induced
+@ T22 Gene_expression S1 94 104 94 104 expression
+% E1 Negative_regulation:T20 Theme:E3
+% E2 Negative_regulation:T20 Theme:E4
+% E3 Positive_regulation:T21 Theme:E5
+% E4 Positive_regulation:T21 Theme:E6
+% E5 Gene_expression:T22 Theme:T2
+% E6 Gene_expression:T22 Theme:T1
+
+We have examined the effects of N-acetyl-L-cysteine (NAC), a well-characterized, thiol-containing antioxidant, on agonist-induced monocytic cell adhesion to endothelial cells (EC).
+
+NAC inhibited interleukin-1 (IL-1 beta)-induced, but not basal, adhesion with 50% inhibition at approximately 20 mM.
+# T3 Protein S3 29 38 317 326 IL-1 beta
+
+Monocytic cell adhesion to EC in response to tumor necrosis factor-alpha (TNF-alpha), lipopolysaccharide (LPS), alpha-thrombin, or phorbol 12-myristate 13-acetate (PMA) was similarly inhibited by NAC.
+# T4 Protein S4 45 72 450 477 tumor necrosis factor-alpha
+# T5 Protein S4 74 83 479 488 TNF-alpha
+# T6 Protein S4 112 126 517 531 alpha-thrombin
+
+Unlike published studies with pyrrolidinedithiocarbamate, which specifically inhibited vascular cell adhesion molecule 1 (VCAM-1), NAC inhibited IL-1 beta-induced mRNA and cell surface expression of both E-selectin and VCAM-1.
+# T7 Protein S5 87 120 693 726 vascular cell adhesion molecule 1
+# T8 Protein S5 122 128 728 734 VCAM-1
+# T9 Protein S5 145 154 751 760 IL-1 beta
+# T10 Protein S5 204 214 810 820 E-selectin
+# T11 Protein S5 219 225 825 831 VCAM-1
+$ T8 Protein S5 122 128 728 734 VCAM-1
+$ T9 Protein S5 145 154 751 760 IL-1 beta
+$ T11 Protein S5 219 225 825 831 VCAM-1
+$ T10 Protein S5 204 214 810 820 E-selectin
+@ T23 Negative_regulation S5 77 86 683 692 inhibited
+@ T24 Negative_regulation S5 135 144 741 750 inhibited
+@ T25 Positive_regulation S5 155 162 761 768 induced
+@ T26 Transcription S5 163 167 769 773 mRNA
+@ T27 Gene_expression S5 185 195 791 801 expression
+% E7 Negative_regulation:T23 Theme:T8
+% E8 Negative_regulation:T24 Theme:E9
+% E9 Positive_regulation:T25 Theme:E11 Cause:T9
+% E10 Transcription:T26 Theme:T11
+% E11 Transcription:T26 Theme:T10
+% E12 Gene_expression:T27 Theme:T10
+% E13 Gene_expression:T27 Theme:T11
+
+NAC had no effect on the half-life of E-selectin or VCAM-1 mRNA.
+# T12 Protein S6 38 48 871 881 E-selectin
+# T13 Protein S6 52 58 885 891 VCAM-1
+$ T12 Protein S6 38 48 871 881 E-selectin
+$ T13 Protein S6 52 58 885 891 VCAM-1
+@ T28 Regulation S6 11 34 844 867 effect on the half-life
+% E14 Regulation:T28 Theme:T12
+% E15 Regulation:T28 Theme:T13
+
+Although NAC reduced nuclear factor-kappa B (NF-kappa B) activation in EC as measured by gel-shift assays using an oligonucleotide probe corresponding to the consensus NF-kappa B binding sites of the VCAM-1 gene (VCAM-NF-kappa B), the antioxidant had no appreciable effect when an oligomer corresponding to the consensus NF-kappa B binding site of the E-selectin gene (E-selectin-NF-kappa B) was used.
+# T14 Protein S7 200 206 1098 1104 VCAM-1
+# T15 Protein S7 352 362 1250 1260 E-selectin
+# T16 Protein S7 369 379 1267 1277 E-selectin
+
+Because NF-kappa B has been reported to be redox sensitive, we studied the effects of NAC on the EC redox environment.
+
+NAC caused an expected dramatic increase in the reduced glutathione (GSH) levels in EC.
+
+In vitro studies demonstrated that whereas the binding affinity of NF-kappa B to the VCAM-NF-kappa B oligomer peaked at a GSH-to-oxidized glutathione (GSSG) ratio of approximately 200 and decreased at higher ratios, the binding to the E-selectin-NF-kappa B oligomer appeared relatively unaffected even at ratios > 400, i.e., those achieved in EC treated with 40 mM NAC.
+# T17 Protein S10 235 245 1742 1752 E-selectin
+
+These results suggest that NF-kappa B binding to its consensus sequences in the VCAM-1 and E-selectin gene exhibits marked differences in redox sensitivity, allowing for differential gene expression regulated by the same transcription factor.
+# T18 Protein S11 80 86 1957 1963 VCAM-1
+# T19 Protein S11 91 101 1968 1978 E-selectin
+$ T18 Protein S11 80 86 1957 1963 VCAM-1
+$ T19 Protein S11 91 101 1968 1978 E-selectin
+@ T29 Binding S11 38 45 1915 1922 binding
+@ T30 Gene_expression S11 188 198 2065 2075 expression
+@ T31 Regulation S11 199 208 2076 2085 regulated
+% E16 Binding:T29 Theme:T18
+% E17 Binding:T29 Theme:T19
+% E18 Gene_expression:T30 Theme:T19
+% E19 Gene_expression:T30 Theme:T18
+% E20 Regulation:T31 Theme:E19
+% E21 Regulation:T31 Theme:E18
+
+Our data also demonstrate that NAC increases the GSH-to-GSSG ratio within the EC suggesting one possible mechanism through which this antioxidant inhibits agonist-induced monocyte adhesion to EC.
+

@@ -1,0 +1,63 @@
+Interleukin 4 activates a signal transducer and activator of transcription (Stat) protein which interacts with an interferon-gamma activation site-like sequence upstream of the I epsilon exon in a human B cell line.
+# T1 Protein S1 0 13 0 13 Interleukin 4
+# T2 Protein S1 114 130 114 130 interferon-gamma
+
+Evidence for the involvement of Janus kinase 3 and interleukin-4 Stat.
+# T3 Protein S2 32 46 248 262 Janus kinase 3
+# T4 Protein S2 51 64 267 280 interleukin-4
+
+Germ line C transcripts can be induced by IL-4 in the human B cell line, BL-2.
+# T5 Protein S3 42 46 330 334 IL-4
+
+Utilizing a IFN-gamma activation site-like DNA sequence element located upstream of the I epsilon exon, we demonstrated by gel mobility shift assays that IL-4 induced a binding activity in the cytosol and nucleus of BL-2 cells.
+# T6 Protein S4 12 21 379 388 IFN-gamma
+# T7 Protein S4 154 158 521 525 IL-4
+
+This factor was designated IL-4 NAF (IL-4-induced nuclear-activating factors) and was identified as a tyrosine phosphoprotein, which translocates from the cytosol to the nucleus upon IL-4 treatment.
+# T8 Protein S5 27 31 622 626 IL-4
+# T9 Protein S5 37 41 632 636 IL-4
+# T10 Protein S5 183 187 778 782 IL-4
+
+Because these are the characteristics of a signal transducer and activator of transcription (Stat) protein, we determined whether antibodies to Stat proteins will interfere with gel mobility shift and found that antibodies to IL-4 Stat, also known as Stat6, but not antibodies to other Stat proteins, interfere with the formation of the IL-4 NAF complex.
+# T11 Protein S6 226 235 1020 1029 IL-4 Stat
+# T12 Protein S6 251 256 1045 1050 Stat6
+# T13 Protein S6 337 341 1131 1135 IL-4
+
+Congruous with the involvement of a Stat protein, IL-4 induced robust Janus kinase 3 (JAK3) activity in BL-2 cells.
+# T14 Protein S7 50 54 1199 1203 IL-4
+# T15 Protein S7 70 84 1219 1233 Janus kinase 3
+# T16 Protein S7 86 90 1235 1239 JAK3
+$ T16 Protein S7 86 90 1235 1239 JAK3
+$ T14 Protein S7 50 54 1199 1203 IL-4
+@ T25 Positive_regulation S7 55 62 1204 1211 induced
+% E1 Positive_regulation:T25 Theme:T16 Cause:T14
+
+Cotransfection of JAK3 with IL-4 Stat into COS-7 cells produced an intracellular activity which bound the same IFN-gamma activation site-like sequence and comigrated with IL-4 NAF in electrophoretic mobility shift assay.
+# T17 Protein S8 18 22 1283 1287 JAK3
+# T18 Protein S8 28 32 1293 1297 IL-4
+# T19 Protein S8 111 120 1376 1385 IFN-gamma
+# T20 Protein S8 171 175 1436 1440 IL-4
+$ T18 Protein S8 28 32 1293 1297 IL-4
+$ T17 Protein S8 18 22 1283 1287 JAK3
+$ T20 Protein S8 171 175 1436 1440 IL-4
+@ T26 Positive_regulation S8 0 14 1265 1279 Cotransfection
+@ T27 Gene_expression S8 0 14 1265 1279 Cotransfection
+@ T28 Binding S8 155 165 1420 1430 comigrated
+% E2 Positive_regulation:T26 Theme:E5
+% E3 Positive_regulation:T26 Theme:E4
+% E4 Gene_expression:T27 Theme:T18
+% E5 Gene_expression:T27 Theme:T17
+% E6 Binding:T28 Theme:T20
+
+These results show that IL-4 NAF is IL-4 Stat, which is activated by JAK3 in response to IL-4 receptor engagement.
+# T21 Protein S9 24 28 1510 1514 IL-4
+# T22 Protein S9 36 40 1522 1526 IL-4
+# T23 Protein S9 69 73 1555 1559 JAK3
+# T24 Protein S9 89 93 1575 1579 IL-4
+$ T21 Protein S9 24 28 1510 1514 IL-4
+$ T23 Protein S9 69 73 1555 1559 JAK3
+@ T29 Positive_regulation S9 56 65 1542 1551 activated
+@ T30 Positive_regulation S9 74 88 1560 1574 in response to
+% E7 Positive_regulation:T29 Theme:T21 Cause:T23
+% E8 Positive_regulation:T30 Theme:E7
+

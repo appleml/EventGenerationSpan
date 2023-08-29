@@ -1,0 +1,94 @@
+Isolation of CD8+ T cells from Runx3-/- mice.
+# T1 Protein S1 31 36 31 36 Runx3
+
+Runx3-deficient T cells fail to silence CD4 expression normally (Fig.
+# T2 Protein S2 0 5 46 51 Runx3
+# T3 Protein S2 40 43 86 89 CD4
+$ T2 Protein S2 0 5 46 51 Runx3
+$ T3 Protein S2 40 43 86 89 CD4
+@ T36 Negative_regulation S2 6 15 52 61 deficient
+@ T37 Negative_regulation S2 32 39 78 85 silence
+@ T38 Gene_expression S2 44 54 90 100 expression
+% E1 Negative_regulation:T36 Theme:T2
+% E2 Negative_regulation:T37 Theme:E3 Cause:E1
+% E3 Gene_expression:T38 Theme:T3
+
+S1) (12, 13).
+
+We therefore further fractionated the positively selected CD8+ T cells from Runx3 KO mice into CD8+CD4- SP or CD8+CD4+ DP cells by separation using anti-CD4 magnetic beads.
+# T4 Protein S4 58 61 188 191 CD8
+# T5 Protein S4 76 81 206 211 Runx3
+# T6 Protein S4 95 98 225 228 CD8
+# T7 Protein S4 99 102 229 232 CD4
+# T8 Protein S4 110 113 240 243 CD8
+# T9 Protein S4 114 117 244 247 CD4
+# T10 Protein S4 153 156 283 286 CD4
+
+This yielded a Runx3 KO SP "enriched" population that contained 75% CD8+CD4- cells and a KO DP enriched population that contained 85% CD8+CD4+ cells (Fig.
+# T11 Protein S5 15 20 318 323 Runx3
+# T12 Protein S5 68 71 371 374 CD8
+# T13 Protein S5 72 75 375 378 CD4
+# T14 Protein S5 134 137 437 440 CD8
+# T15 Protein S5 138 141 441 444 CD4
+
+S1).
+
+The cells were stimulated with anti-CD3+ anti-CD28 for 2 d before removing them from the TCR stimulus and culturing them in media containing 100 U/ml IL-2.
+# T16 Protein S7 36 39 499 502 CD3
+# T17 Protein S7 46 50 509 513 CD28
+# T18 Protein S7 150 154 613 617 IL-2
+
+As previously reported, TCR-induced proliferation of Runx3-/- CD8+ T cells was severely impaired, irrespective of CD4 expression (Fig.
+# T19 Protein S8 53 58 672 677 Runx3
+# T20 Protein S8 62 65 681 684 CD8
+# T21 Protein S8 114 117 733 736 CD4
+$ T21 Protein S8 114 117 733 736 CD4
+@ T39 Gene_expression S8 118 128 737 747 expression
+% E4 Gene_expression:T39 Theme:T21
+
+S1) (12, 13).
+
+However, the Runx3-/- cells showed cell-surface expression patterns indicative of activated cells, including up-regulation of CD25 and CD69 (Fig.
+# T22 Protein S10 13 18 781 786 Runx3
+# T23 Protein S10 126 130 894 898 CD25
+# T24 Protein S10 135 139 903 907 CD69
+$ T23 Protein S10 126 130 894 898 CD25
+$ T24 Protein S10 135 139 903 907 CD69
+@ T40 Positive_regulation S10 109 122 877 890 up-regulation
+% E5 Positive_regulation:T40 Theme:T23
+% E6 Positive_regulation:T40 Theme:T24
+
+S1).
+
+As expected from their ability to up-regulate CD25, Runx3-/- CD8+ T cells responded to IL-2 supplementation after day 2 and efficiently expanded until day 6 of the culture period, albeit at slower rates compared with WT cells (Fig.
+# T25 Protein S12 46 50 965 969 CD25
+# T26 Protein S12 52 57 971 976 Runx3
+# T27 Protein S12 61 64 980 983 CD8
+# T28 Protein S12 87 91 1006 1010 IL-2
+$ T25 Protein S12 46 50 965 969 CD25
+@ T41 Positive_regulation S12 34 45 953 964 up-regulate
+% E7 Positive_regulation:T41 Theme:T25
+
+S1).
+
+Although a fraction of the KO DP cells silenced CD4 expression after activation, the ratio of SP/DP cells in each enriched population remained constant thereafter, and we did not observe any major differences between these two populations throughout the culture period, indicating that in terms of effector CTL differentiation and under our culture conditions, Runx3-/- CD8+ T cells that also coexpress CD4 are indistinguishable from those that do not.
+# T29 Protein S14 48 51 1204 1207 CD4
+# T30 Protein S14 361 366 1517 1522 Runx3
+# T31 Protein S14 370 373 1526 1529 CD8
+# T32 Protein S14 403 406 1559 1562 CD4
+$ T29 Protein S14 48 51 1204 1207 CD4
+$ T32 Protein S14 403 406 1559 1562 CD4
+@ T42 Negative_regulation S14 39 47 1195 1203 silenced
+@ T43 Gene_expression S14 52 62 1208 1218 expression
+@ T44 Gene_expression S14 393 402 1549 1558 coexpress
+% E8 Negative_regulation:T42 Theme:E9
+% E9 Gene_expression:T43 Theme:T29
+% E10 Gene_expression:T44 Theme:T32
+
+The data presented in Fig.
+
+S2 are from Runx3 KO SP cells, whereas those shown in Figs. 3 and 4 are from total Runx3 KO CD8 cells.
+# T33 Protein S16 12 17 1648 1653 Runx3
+# T34 Protein S16 83 88 1719 1724 Runx3
+# T35 Protein S16 92 95 1728 1731 CD8
+

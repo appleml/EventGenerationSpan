@@ -1,0 +1,95 @@
+IL-10 Production by Th2 and Th17 Cells Also Requires ERK1 and ERK2 Activation
+# T1 Protein S1 0 5 0 5 IL-10
+# T2 Protein S1 53 57 53 57 ERK1
+# T3 Protein S1 62 66 62 66 ERK2
+$ T1 Protein S1 0 5 0 5 IL-10
+$ T2 Protein S1 53 57 53 57 ERK1
+$ T3 Protein S1 62 66 62 66 ERK2
+@ T21 Gene_expression S1 6 16 6 16 Production
+@ T22 Positive_regulation S1 44 52 44 52 Requires
+@ T23 Positive_regulation S1 67 77 67 77 Activation
+% E1 Gene_expression:T21 Theme:T1
+% E2 Positive_regulation:T22 Theme:E1 Cause:E3
+% E4 Positive_regulation:T22 Theme:E1 Cause:E5
+% E3 Positive_regulation:T23 Theme:T2
+% E5 Positive_regulation:T23 Theme:T3
+
+To address whether IL-10 production by Th2 and Th17 cells was also dependent on ERK1 and ERK2 activation, we differentiated these cells with anti-CD3 and anti-CD28 in the absence of APCs (Shoemaker etal., 2006; Veldhoen etal., 2009; Veldhoen etal., 2006), in the presence or absence of the MEK inhibitor (PD184352).
+# T4 Protein S2 19 24 97 102 IL-10
+# T5 Protein S2 80 84 158 162 ERK1
+# T6 Protein S2 89 93 167 171 ERK2
+# T7 Protein S2 146 149 224 227 CD3
+# T8 Protein S2 159 163 237 241 CD28
+# T9 Protein S2 290 293 368 371 MEK
+$ T4 Protein S2 19 24 97 102 IL-10
+$ T5 Protein S2 80 84 158 162 ERK1
+$ T6 Protein S2 89 93 167 171 ERK2
+$ T9 Protein S2 290 293 368 371 MEK
+@ T24 Gene_expression S2 25 35 103 113 production
+@ T25 Positive_regulation S2 67 76 145 154 dependent
+@ T26 Positive_regulation S2 94 104 172 182 activation
+@ T27 Negative_regulation S2 294 303 372 381 inhibitor
+% E6 Gene_expression:T24 Theme:T4
+% E7 Positive_regulation:T25 Theme:E6 Cause:E8
+% E9 Positive_regulation:T25 Theme:E6 Cause:E10
+% E8 Positive_regulation:T26 Theme:T5
+% E10 Positive_regulation:T26 Theme:T6
+% E11 Negative_regulation:T27 Theme:T9
+
+We showed that ERK1 and ERK2 activation is a common pathway required for induction of IL-10 in different Th cell subsets because IL-10 production by both Th2 and Th17 cells was markedly inhibited in the presence of the MEK inhibitor (PD184352) (Figure5D and FigureS5B).
+# T10 Protein S3 15 19 409 413 ERK1
+# T11 Protein S3 24 28 418 422 ERK2
+# T12 Protein S3 86 91 480 485 IL-10
+# T13 Protein S3 129 134 523 528 IL-10
+# T14 Protein S3 219 222 613 616 MEK
+$ T10 Protein S3 15 19 409 413 ERK1
+$ T11 Protein S3 24 28 418 422 ERK2
+$ T12 Protein S3 86 91 480 485 IL-10
+$ T13 Protein S3 129 134 523 528 IL-10
+$ T14 Protein S3 219 222 613 616 MEK
+@ T28 Positive_regulation S3 29 39 423 433 activation
+@ T29 Positive_regulation S3 60 68 454 462 required
+@ T30 Gene_expression S3 73 82 467 476 induction
+@ T31 Gene_expression S3 135 145 529 539 production
+@ T32 Negative_regulation S3 186 195 580 589 inhibited
+@ T33 Negative_regulation S3 223 232 617 626 inhibitor
+% E12 Positive_regulation:T28 Theme:T10
+% E13 Positive_regulation:T28 Theme:T11
+% E14 Positive_regulation:T29 Theme:E15 Cause:E12
+% E16 Positive_regulation:T29 Theme:E15 Cause:E13
+% E15 Gene_expression:T30 Theme:T12
+% E17 Gene_expression:T31 Theme:T13
+% E18 Negative_regulation:T32 Theme:E17 Cause:E19
+% E19 Negative_regulation:T33 Theme:T14
+
+In contrast, inhibitors of p38 MAPK or of GSK-3beta activation did not affect the expression of IL-10 by these subsets (FigureS5B).
+# T15 Protein S4 27 35 691 699 p38 MAPK
+# T16 Protein S4 42 51 706 715 GSK-3beta
+# T17 Protein S4 96 101 760 765 IL-10
+$ T15 Protein S4 27 35 691 699 p38 MAPK
+$ T16 Protein S4 42 51 706 715 GSK-3beta
+$ T17 Protein S4 96 101 760 765 IL-10
+@ T34 Negative_regulation S4 13 23 677 687 inhibitors
+@ T35 Positive_regulation S4 52 62 716 726 activation
+@ T36 Regulation S4 71 77 735 741 affect
+@ T37 Gene_expression S4 82 92 746 756 expression
+% E20 Negative_regulation:T34 Theme:E21
+% E22 Negative_regulation:T34 Theme:E23
+% E21 Positive_regulation:T35 Theme:T15
+% E23 Positive_regulation:T35 Theme:T16
+% E24 Regulation:T36 Theme:E25 Cause:E20
+% E26 Regulation:T36 Theme:E25 Cause:E22
+% E25 Gene_expression:T37 Theme:T17
+
+Activation of the ERK1 and ERK2 signaling pathway is therefore a common requirement for the induction of IL-10 production by Th1, Th2, and Th17 cells.
+# T18 Protein S5 18 22 814 818 ERK1
+# T19 Protein S5 27 31 823 827 ERK2
+# T20 Protein S5 105 110 901 906 IL-10
+$ T20 Protein S5 105 110 901 906 IL-10
+@ T38 Positive_regulation S5 72 83 868 879 requirement
+@ T39 Positive_regulation S5 92 101 888 897 induction
+@ T40 Gene_expression S5 111 121 907 917 production
+% E27 Positive_regulation:T38 Theme:E28
+% E28 Positive_regulation:T39 Theme:E29
+% E29 Gene_expression:T40 Theme:T20
+

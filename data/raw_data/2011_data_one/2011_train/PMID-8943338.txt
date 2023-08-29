@@ -1,0 +1,91 @@
+Elf-1 and Stat5 bind to a critical element in a new enhancer of the human interleukin-2 receptor alpha gene [published erratum appears in Mol Cell Biol 1997 Apr;17(4):2351]
+# T1 Protein S1 0 5 0 5 Elf-1
+# T2 Protein S1 10 15 10 15 Stat5
+# T3 Protein S1 74 102 74 102 interleukin-2 receptor alpha
+$ T2 Protein S1 10 15 10 15 Stat5
+$ T3 Protein S1 74 102 74 102 interleukin-2 receptor alpha
+$ T1 Protein S1 0 5 0 5 Elf-1
+@ T25 Binding S1 16 20 16 20 bind
+% E1 Binding:T25 Theme:T2 Theme2:T3
+% E2 Binding:T25 Theme:T1 Theme2:T3
+
+The interleukin 2 receptor alpha-chain (IL-2R alpha) gene is a key regulator of lymphocyte proliferation.
+# T4 Protein S2 4 38 178 212 interleukin 2 receptor alpha-chain
+# T5 Protein S2 40 51 214 225 IL-2R alpha
+
+IL-2R alpha is rapidly and potently induced in T cells in response to mitogenic stimuli.
+# T6 Protein S3 0 11 280 291 IL-2R alpha
+$ T6 Protein S3 0 11 280 291 IL-2R alpha
+@ T26 Positive_regulation S3 36 43 316 323 induced
+% E3 Positive_regulation:T26 Theme:T6
+
+Interleukin 2 (IL-2) stimulates IL-2R alpha transcription, thereby amplifying expression of its own high-affinity receptor.
+# T7 Protein S4 0 13 369 382 Interleukin 2
+# T8 Protein S4 15 19 384 388 IL-2
+# T9 Protein S4 32 43 401 412 IL-2R alpha
+
+IL-2R alpha transcription is at least in part controlled by two positive regulatory regions, PRRI and PRRII.
+# T10 Protein S5 0 11 493 504 IL-2R alpha
+$ T10 Protein S5 0 11 493 504 IL-2R alpha
+@ T27 Transcription S5 12 25 505 518 transcription
+@ T28 Regulation S5 46 56 539 549 controlled
+% E4 Transcription:T27 Theme:T10
+% E5 Regulation:T28 Theme:E4
+
+PRRI is an inducible proximal enhancer, located between nucleotides -276 and -244, which contains NF-kappaB and SRE/CArG motifs.
+
+PRRII is a T-cell-specific enhancer, located between nucleotides -137 and -64, which binds the T-cell-specific Ets protein Elf-1 and HMG-I(Y) proteins.
+# T11 Protein S7 123 128 854 859 Elf-1
+# T12 Protein S7 133 141 864 872 HMG-I(Y)
+$ T12 Protein S7 133 141 864 872 HMG-I(Y)
+$ T11 Protein S7 123 128 854 859 Elf-1
+@ T29 Binding S7 85 90 816 821 binds
+% E6 Binding:T29 Theme:T12
+% E7 Binding:T29 Theme:T11
+
+However, none of these proximal regions account for the induction of IL-2R alpha transcription by IL-2.
+# T13 Protein S8 69 80 952 963 IL-2R alpha
+# T14 Protein S8 98 102 981 985 IL-2
+$ T14 Protein S8 98 102 981 985 IL-2
+$ T13 Protein S8 69 80 952 963 IL-2R alpha
+@ T30 Positive_regulation S8 56 65 939 948 induction
+@ T31 Transcription S8 81 94 964 977 transcription
+% E8 Positive_regulation:T30 Theme:E9 Cause:T14
+% E9 Transcription:T31 Theme:T13
+
+To find new regulatory regions of the IL-2R alpha gene, 8.5 kb of the 5' end noncoding sequence of the IL-2R alpha gene have been sequenced.
+# T15 Protein S9 38 49 1025 1036 IL-2R alpha
+# T16 Protein S9 103 114 1090 1101 IL-2R alpha
+
+We identified an 86-nucleotide fragment that is 90% identical to the recently characterized murine IL-2-responsive element (mIL-2rE).
+# T17 Protein S10 99 103 1227 1231 IL-2
+
+This putative human IL-2rE, designated PRRIII, confers IL-2 responsiveness on a heterologous promoter.
+# T18 Protein S11 55 59 1317 1321 IL-2
+
+PRRIII contains a Stat protein binding site that overlaps with an EBS motif (GASd/EBSd).
+
+These are essential for IL-2 inducibility of PRRIII/CAT reporter constructs.
+# T19 Protein S13 24 28 1478 1482 IL-2
+# T20 Protein S13 52 55 1506 1509 CAT
+
+IL-2 induced the binding of Stat5a and b proteins to the human GASd element.
+# T21 Protein S14 0 4 1531 1535 IL-2
+
+To confirm the physiological relevance of these findings, we carried out in vivo footprinting experiments which showed that stimulation of IL-2R alpha expression correlated with occupancy of the GASd element.
+# T22 Protein S15 139 150 1747 1758 IL-2R alpha
+$ T22 Protein S15 139 150 1747 1758 IL-2R alpha
+@ T32 Positive_regulation S15 124 135 1732 1743 stimulation
+@ T33 Gene_expression S15 151 161 1759 1769 expression
+% E10 Positive_regulation:T32 Theme:E11
+% E11 Gene_expression:T33 Theme:T22
+
+Our data demonstrate a major role of the GASd/EBSd element in IL-2R alpha regulation and suggest that the T-cell-specific Elf-1 factor can serve as a transcriptional repressor.
+# T23 Protein S16 62 73 1879 1890 IL-2R alpha
+# T24 Protein S16 122 127 1939 1944 Elf-1
+$ T23 Protein S16 62 73 1879 1890 IL-2R alpha
+@ T34 Regulation S16 29 33 1846 1850 role
+@ T35 Regulation S16 74 84 1891 1901 regulation
+% E12 Regulation:T34 Theme:E13
+% E13 Regulation:T35 Theme:T23
+

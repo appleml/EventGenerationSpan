@@ -1,0 +1,687 @@
+Mice.
+
+CbfbF/F CD4-cre and Foxp3GFP mice have previously been described (Bettelli et al., 2006; Naoe et al., 2007).
+# T1 Protein S2 0 4 6 10 Cbfb
+# T2 Protein S2 8 11 14 17 CD4
+# T3 Protein S2 12 15 18 21 cre
+# T4 Protein S2 20 25 26 31 Foxp3
+# T5 Protein S2 25 28 31 34 GFP
+
+Cd45.1 and Rag2-/- mice were purchased from Jackson ImmunoResearch Laboratories and Taconic, respectively.
+# T6 Protein S3 0 6 115 121 Cd45.1
+# T7 Protein S3 11 15 126 130 Rag2
+
+For the in vivo Foxp3 conversion assay, naive CD4+ T cells from Cbfb CD4-cre or control mice (harboring a Foxp3-IRES-GFP allele) were adoptively transferred into Rag-deficient mice.
+# T8 Protein S4 16 21 238 243 Foxp3
+# T9 Protein S4 46 49 268 271 CD4
+# T10 Protein S4 64 68 286 290 Cbfb
+# T11 Protein S4 69 72 291 294 CD4
+# T12 Protein S4 73 76 295 298 cre
+# T13 Protein S4 106 111 328 333 Foxp3
+# T14 Protein S4 117 120 339 342 GFP
+# T15 Protein S4 162 165 384 387 Rag
+$ T15 Protein S4 162 165 384 387 Rag
+@ T253 Negative_regulation S4 166 175 388 397 deficient
+% E1 Negative_regulation:T253 Theme:T15
+
+5 x 106 cells were used per transfer.
+
+6 wk later, TCRbeta+CD4+ gated cells from the spleen, mesenteric lymph node (MLN), and lamina propria of the small intestine were analyzed for Foxp3-GFP expression.
+# T16 Protein S6 12 19 454 461 TCRbeta
+# T17 Protein S6 20 23 462 465 CD4
+# T18 Protein S6 143 152 585 594 Foxp3-GFP
+$ T18 Protein S6 143 152 585 594 Foxp3-GFP
+@ T254 Gene_expression S6 153 163 595 605 expression
+% E2 Gene_expression:T254 Theme:T18
+
+All analyses and experiments were performed on animals at 6-8 wk of age.
+
+Animals were housed under specific pathogen-free conditions at the animal facility of the Skirball Institute, and experiments were performed in accordance with approved protocols for the New York University Institutional Animal Care and Usage Committee.
+
+Isolation of PBMCs, CD4+ T cells, and culture conditions.
+# T19 Protein S9 20 23 955 958 CD4
+
+Human PBMCs were isolated by Ficoll (Biochrom) density gradient centrifugation and CD4+ T cells were then isolated using the Dynal CD4+ Isolation kit (Invitrogen) according to the manufacturer's instructions.
+# T20 Protein S10 83 86 1076 1079 CD4
+# T21 Protein S10 131 134 1124 1127 CD4
+# T22 Protein S10 146 149 1139 1142 kit
+
+The purity of CD4+ T cells was initially tested by flow cytometry and was >/=95%.
+# T23 Protein S11 14 17 1216 1219 CD4
+
+Cells were stimulated with the following combination of mAbs to T cell surface molecules (Meiler et al., 2008): anti-CD2 (clone 4B2 and 6G4; 0.5 microg/ml), anti-CD3 (clone OKT3; 0.5 microg/ml), and anti-CD28 mAb (clone B7G5; 0.5 microg/ml; all from Sanquin) and cultured in serum-free AIM -V medium (Life Technologies) with the addition of 1 nmol/liter IL-2 (Roche).
+# T24 Protein S12 117 120 1401 1404 CD2
+# T25 Protein S12 162 165 1446 1449 CD3
+# T26 Protein S12 204 208 1488 1492 CD28
+# T27 Protein S12 354 358 1638 1642 IL-2
+
+TGF-beta (R&D Systems) was used at 5 ng/ml, if not stated otherwise.
+# T28 Protein S13 0 8 1652 1660 TGF-beta
+
+A combination of PMA (25 ng/ml) and ionomycin (1 mg/ml; Sigma-Aldrich) was used.
+
+Human CD4+ CD127- CD25high and CD4+ CD127+ CD25neg cells were purified by flow cytometry using anti-CD127, anti-CD25-PC5 (Beckman Coulter), and anti-CD4-FITC antibodies (Dako).
+# T29 Protein S15 6 9 1809 1812 CD4
+# T30 Protein S15 11 16 1814 1819 CD127
+# T31 Protein S15 18 22 1821 1825 CD25
+# T32 Protein S15 31 34 1834 1837 CD4
+# T33 Protein S15 36 41 1839 1844 CD127
+# T34 Protein S15 43 47 1846 1850 CD25
+# T35 Protein S15 100 105 1903 1908 CD127
+# T36 Protein S15 112 116 1915 1919 CD25
+# T37 Protein S15 149 152 1952 1955 CD4
+
+Mouse naive (CD62Lhi44lo25-) CD4+ T cells were purified by flow cytometry and activated in vitro with 5 microg/ml plate-bound anti-CD3 and 1 microg/ml soluble anti-CD28 antibodies (eBioscience) in RPMI supplemented with 10% FCS, 5 mM beta-mercaptoethanol, and antibiotics.
+# T38 Protein S16 13 18 1994 1999 CD62L
+# T39 Protein S16 20 22 2001 2003 44
+# T40 Protein S16 24 26 2005 2007 25
+# T41 Protein S16 29 32 2010 2013 CD4
+# T42 Protein S16 131 134 2112 2115 CD3
+# T43 Protein S16 164 168 2145 2149 CD28
+
+Neutralizing anti-IFN-gamma and anti-IL-4 mAbs (BD) were used at 1 microg/ml concentrations when indicated.
+# T44 Protein S17 18 27 2272 2281 IFN-gamma
+# T45 Protein S17 37 41 2291 2295 IL-4
+
+In vitro T cell differentiation.
+
+CD4+ CD45RA+ magnetically sorted (CD45RO depletion with AutoMACS; Miltenyi Biotec) cells were stimulated with immobilized plate-bound anti-CD3 (1 microg/ml; OKT3; IgG1) and anti-CD28 (2 microg/ml).
+# T46 Protein S19 0 3 2396 2399 CD4
+# T47 Protein S19 5 11 2401 2407 CD45RA
+# T48 Protein S19 34 40 2430 2436 CD45RO
+# T49 Protein S19 139 142 2535 2538 CD3
+# T50 Protein S19 178 182 2574 2578 CD28
+$ T48 Protein S19 34 40 2430 2436 CD45RO
+@ T255 Negative_regulation S19 41 50 2437 2446 depletion
+% E3 Negative_regulation:T255 Theme:T48
+
+For Th1 differentiation conditions, cells were stimulated with the following: 40 ng/ml IL-2, 5 microg/ml anti-IL-4, and 25 ng/ml IL-12 (R&D Systems).
+# T51 Protein S20 87 91 2681 2685 IL-2
+# T52 Protein S20 110 114 2704 2708 IL-4
+# T53 Protein S20 129 134 2723 2728 IL-12
+
+For Th2 conditions, cells were stimulated with the following: 40 ng/ml IL-2, 25 ng/ml IL-4, and 5 microg/ml anti-IL-12 (R&D Systems).
+# T54 Protein S21 71 75 2815 2819 IL-2
+# T55 Protein S21 86 90 2830 2834 IL-4
+# T56 Protein S21 113 118 2857 2862 IL-12
+
+For T reg cell conditions, cells were stimulated with the following: 40 ng/ml IL-2, 5 ng/ml TGF-beta, 5 microg/ml anti-IL-12, 5 microg/ml anti-IL-4.
+# T57 Protein S22 78 82 2956 2960 IL-2
+# T58 Protein S22 92 100 2970 2978 TGF-beta
+# T59 Protein S22 119 124 2997 3002 IL-12
+# T60 Protein S22 143 147 3021 3025 IL-4
+
+For Th17 conditions, cells were stimulated with the following: 40 ng/ml IL-2, 20 ng/ml IL-6, 5 ng/ml TGF-beta, 20 ng/ml IL-23 (Alexis Biochemicals Corp.), 10 ng/ml IL-1beta, 5 microg/ml anti-IL-4, and 5 microg/ml anti-IL-12 were used.
+# T61 Protein S23 72 76 3099 3103 IL-2
+# T62 Protein S23 87 91 3114 3118 IL-6
+# T63 Protein S23 101 109 3128 3136 TGF-beta
+# T64 Protein S23 120 125 3147 3152 IL-23
+# T65 Protein S23 164 172 3191 3199 IL-1beta
+# T66 Protein S23 191 195 3218 3222 IL-4
+# T67 Protein S23 218 223 3245 3250 IL-12
+
+Proliferating cells were expanded in medium containing IL-2.
+# T68 Protein S24 55 59 3317 3321 IL-2
+
+The cytokine profile of these cells demonstrated that IFN-gamma is the predominant cytokine in Th1 cells, IL-4 and IL-13 in Th2 cells, and IL-17 in Th17 cells (Akdis et al., 2000; Burgler et al., 2009).
+# T69 Protein S25 54 63 3377 3386 IFN-gamma
+# T70 Protein S25 106 110 3429 3433 IL-4
+# T71 Protein S25 115 120 3438 3443 IL-13
+# T72 Protein S25 139 144 3462 3467 IL-17
+
+Immunohistochemistry.
+
+Human tonsils were obtained from tonsillectomy samples of hypertrophic and obstructive tonsils without a current infection.
+
+Ethical permission was obtained from Cantonal Ethics Commission, and informed consent was obtained from patients.
+
+Paraformaldehyde-fixed tonsil cryosections were stained with unconjugated rabbit IgG polyclonal antibody to human RUNX1 (Santa Cruz Biotechnology, Inc.) or unconjugated mouse IgG1 mAb to human RUNX3 (Abcam).
+# T73 Protein S29 114 119 3901 3906 RUNX1
+# T74 Protein S29 193 198 3980 3985 RUNX3
+
+After a washing step, the sections were stained with the corresponding secondary antibodies.
+
+RUNX1-binding antibodies were detected by using Alexa Fluor 633-conjugated goat anti-rabbit IgG and RUNX3-binding antibodies were detected by using Alexa Fluor 532-conjugated goat anti-mouse IgG1.
+# T75 Protein S31 0 5 4088 4093 RUNX1
+# T76 Protein S31 100 105 4188 4193 RUNX3
+$ T75 Protein S31 0 5 4088 4093 RUNX1
+$ T76 Protein S31 100 105 4188 4193 RUNX3
+@ T256 Binding S31 6 13 4094 4101 binding
+@ T257 Binding S31 106 113 4194 4201 binding
+% E4 Binding:T256 Theme:T75
+% E5 Binding:T257 Theme:T76
+
+Afterward, the sections were washed and in the case of RUNX3 staining a blocking step with an unconjugated mouse IgG1 mAb was used.
+# T77 Protein S32 55 60 4340 4345 RUNX3
+
+Finally, the sections were stained with Alexa Fluor 488-conjugated mouse IgG1 mAb to human FOXP3 (eBioscience) or the corresponding isotype control.
+# T78 Protein S33 91 96 4508 4513 FOXP3
+
+Tissue sections were stained with DAPI for the demonstration of nuclei and mounted with Prolong antifade (Invitrogen).
+
+Images were acquired and analyzed using the confocal microscope DMI 4000B and the TCS SPE system (both from Leica).
+
+In vitro suppression assays.
+
+Mouse Foxp3+ CD4+ CD8- T cells were FACS purified based on GFP expressed from a Foxp3-IRES-GFP knock-in allele (Foxp3GFP).
+# T79 Protein S37 6 11 4837 4842 Foxp3
+# T80 Protein S37 13 16 4844 4847 CD4
+# T81 Protein S37 18 21 4849 4852 CD8
+# T82 Protein S37 59 62 4890 4893 GFP
+# T83 Protein S37 80 85 4911 4916 Foxp3
+# T84 Protein S37 91 94 4922 4925 GFP
+# T85 Protein S37 112 117 4943 4948 Foxp3
+# T86 Protein S37 117 120 4948 4951 GFP
+$ T82 Protein S37 59 62 4890 4893 GFP
+@ T258 Gene_expression S37 63 72 4894 4903 expressed
+% E6 Gene_expression:T258 Theme:T82
+
+Naive (CD62Lhi44lo25-) CD4+ T cells (effectors) were FACS-purified from Cd45.1 mice, then loaded with 5 microM CFSE (Invitrogen).
+# T87 Protein S38 7 12 4961 4966 CD62L
+# T88 Protein S38 14 16 4968 4970 44
+# T89 Protein S38 18 20 4972 4974 25
+# T90 Protein S38 23 26 4977 4980 CD4
+# T91 Protein S38 72 78 5026 5032 Cd45.1
+
+Total splenocytes from C57BL/6 mice inactivated with 50 microg/ml mitomycin C (Sigma-Aldrich) for 45 min were used as APCs.
+
+A total of 4 x 105 CD4+ cells (CFSE-loaded CD25- plus Foxp3-GFP+) was mixed with 105 APCs + 1 microg/ml anti-CD3 mAb per well of a 96 well round bottom plate.
+# T92 Protein S40 19 22 5227 5230 CD4
+# T93 Protein S40 43 47 5251 5255 CD25
+# T94 Protein S40 54 63 5262 5271 Foxp3-GFP
+# T95 Protein S40 109 112 5317 5320 CD3
+
+Proliferation of the effector cells was analyzed by CFSE dilution.
+
+Apoptosis of the cells was investigated by annexin V staining and flow cytometry.
+# T96 Protein S42 43 52 5477 5486 annexin V
+
+Positive and negative control gates were made according to T cells cultured only in the presence of IL-2 without anti-CD3/28 stimulation.
+# T97 Protein S43 100 104 5616 5620 IL-2
+# T98 Protein S43 118 121 5634 5637 CD3
+# T99 Protein S43 122 124 5638 5640 28
+
+Human naive CD4+ T cells were isolated by negative selection by MACS from PBMCs and either transfected with a scrambled siRNA or with a combination of RUNX1 and RUNX3 siRNA.
+# T100 Protein S44 12 15 5667 5670 CD4
+# T101 Protein S44 151 156 5806 5811 RUNX1
+# T102 Protein S44 161 166 5816 5821 RUNX3
+$ T101 Protein S44 151 156 5806 5811 RUNX1
+$ T102 Protein S44 161 166 5816 5821 RUNX3
+@ T259 Negative_regulation S44 167 172 5822 5827 siRNA
+% E7 Negative_regulation:T259 Theme:T101
+% E8 Negative_regulation:T259 Theme:T102
+
+Cells were then cultured under iT reg cell differentiating conditions and mixed with 2 x 105 autologous irradiated PBMCs that were used as APCs and autologous CFSE-labeled CD4+ T cells.
+# T103 Protein S45 172 175 6001 6004 CD4
+
+T reg cell to responder cell ratio was 1:20, 1:10, and 1:5.
+
+To check the proliferation of the CD4+ T cells without suppression, no T reg cells were added in a control group.
+# T104 Protein S47 34 37 6109 6112 CD4
+
+Cells were stimulated with 2.5 microg/ml anti-CD3 mAb, cultured in a 96-well plate and the proliferation of the effector cells was determined by analyzing the CFSE dilution by flow cytometry after 5 d of culture.
+# T105 Protein S48 46 49 6235 6238 CD3
+
+Gating on the CD4+CFSE+ T cells enabled the exclusion of APCs and T reg cells.
+# T106 Protein S49 14 17 6416 6419 CD4
+
+Cloning of the FOXP3 promoter, construction of mutant FOXP3 promoter, and RUNX expression plasmids.
+# T107 Protein S50 15 20 6497 6502 FOXP3
+# T108 Protein S50 54 59 6536 6541 FOXP3
+# T109 Protein S50 74 78 6556 6560 RUNX
+$ T109 Protein S50 74 78 6556 6560 RUNX
+@ T260 Gene_expression S50 79 89 6561 6571 expression
+% E9 Gene_expression:T260 Theme:T109
+
+The FOXP3 promoter was cloned into the pGL3 basic vector (Promega Biotech) to generate pGL3 FOXP3 -511/+176 (Mantel et al., 2006).
+# T110 Protein S51 4 9 6586 6591 FOXP3
+# T111 Protein S51 92 97 6674 6679 FOXP3
+
+Site-directed mutagenesis for the three putative RUNX binding sites in the FOXP3 promoter region was introduced using the QuickChange kit (Stratagene), according to the manufacturer's instructions and confirmed by sequencing the DNA.
+# T112 Protein S52 75 80 6788 6793 FOXP3
+
+The following primers and their complementary strands were used: foxp runx-333, forward 5'-CACTTTTGTTTTAAAAACTGTCCTTTCTCATGAGCCCTATTATC-3'; foxp runx-333 reverse 5'-GATAATAGGGCTCATGAGAAAGGACAGTTTTTAAAACAAAAGTG-3'; foxp runx-287 forward 5'-CCTCTCACCTCTGTCCTGAGGGGAAGAAATC-3'; foxp runx-287 reverse 5'-GATTTCTTCCCCTCAGGACAGAGGTGAGAGG-3'; foxp runx-53 forward 5'-GCTTCCACACCGTACAGCGTCCTTTTTCTTCTCGGTATAAAAG-3'; foxp runx-53 reverse 5'-CTTTTATACCGAGAAGAAAAAGGACGCTGTACGGTGTGGAAGC-3'.
+
+The human RUNX1 fragment from the Addgene plasmid 12504 (Biggs et al., 2006) pFlagCMV2-AML1B was sub-cloned in the pEGFPN1 vector (Clontech Laboratories).
+# T113 Protein S54 10 15 7438 7443 RUNX1
+
+The RUNX3 vector pCMV human RUNX3, which was a gift from K. Ito (Institute of Molecular and Cell Biology, Proteos, Singapore) was subcloned into pEGFPN1 vector (Clontech Laboratories; Yamamura et al., 2006).
+# T114 Protein S55 4 9 7587 7592 RUNX3
+# T115 Protein S55 28 33 7611 7616 RUNX3
+
+Transfections and reporter gene assays.
+
+T cells were rested in serum-free AIM-V medium overnight.
+
+3.5 microg of the FOXP3 promoter luciferase reporter vector or a combination together with the RUNX1, RUNX3 pEGFPN1 vector, and 0.5 microg phRL-TK were added to 3 x 106 CD4+ T cells resuspended in 100 microl of Nucleofector solution (Lonza) and electroporated using the program U-15.
+# T116 Protein S58 18 23 7908 7913 FOXP3
+# T117 Protein S58 33 43 7923 7933 luciferase
+# T118 Protein S58 95 100 7985 7990 RUNX1
+# T119 Protein S58 102 107 7992 7997 RUNX3
+# T120 Protein S58 169 172 8059 8062 CD4
+
+After a 24-h culture in serum-free conditions and stimuli as indicated in the figures, luciferase activity was measured by the dual luciferase assay system (Promega) according to the manufacturer's instructions.
+# T121 Protein S59 87 97 8261 8271 luciferase
+# T122 Protein S59 132 142 8306 8316 luciferase
+
+PMA/ionomycin was used to stimulate the cells, because the transfection was only transient and the luciferase assay required a strong and fast stimulation of the cells.
+# T123 Protein S60 99 109 8485 8495 luciferase
+
+To evaluate the effect of overexpression of RUNX1 or RUNX3 on FOXP3 protein levels, CD4+ T cells were preactivated with 2 microg/ml phytohemagglutinin (Sigma-Aldrich) in serum-free AIM-V medium in the presence of 1 nmol/liter IL-2 (Roche) for 12 h, and then transfected with the vector pEGFPN1 containing the RUNX1 or RUNX3 fragment using the Nucleofector system (Amaxa Biosystems) and the program T-23.
+# T124 Protein S61 44 49 8599 8604 RUNX1
+# T125 Protein S61 53 58 8608 8613 RUNX3
+# T126 Protein S61 62 67 8617 8622 FOXP3
+# T127 Protein S61 84 87 8639 8642 CD4
+# T128 Protein S61 132 150 8687 8705 phytohemagglutinin
+# T129 Protein S61 226 230 8781 8785 IL-2
+# T130 Protein S61 309 314 8864 8869 RUNX1
+# T131 Protein S61 318 323 8873 8878 RUNX3
+$ T126 Protein S61 62 67 8617 8622 FOXP3
+$ T124 Protein S61 44 49 8599 8604 RUNX1
+$ T125 Protein S61 53 58 8608 8613 RUNX3
+$ T130 Protein S61 309 314 8864 8869 RUNX1
+$ T131 Protein S61 318 323 8873 8878 RUNX3
+@ T261 Regulation S61 16 22 8571 8577 effect
+@ T262 Gene_expression S61 26 40 8581 8595 overexpression
+@ T263 Gene_expression S61 258 269 8813 8824 transfected
+% E10 Regulation:T261 Theme:T126 Cause:E11
+% E12 Regulation:T261 Theme:T126 Cause:E13
+% E11 Gene_expression:T262 Theme:T124
+% E13 Gene_expression:T262 Theme:T125
+% E14 Gene_expression:T263 Theme:T130
+% E15 Gene_expression:T263 Theme:T131
+
+FOXP3 expression was evaluated by flow cytometry after 48 h of culture in AIM-V medium containing 1 nmol/liter IL-2.
+# T132 Protein S62 0 5 8959 8964 FOXP3
+# T133 Protein S62 111 115 9070 9074 IL-2
+$ T132 Protein S62 0 5 8959 8964 FOXP3
+@ T264 Gene_expression S62 6 16 8965 8975 expression
+% E16 Gene_expression:T264 Theme:T132
+
+RNA interference.
+
+CD4+ or naive CD4+ T cells were resuspended in 100 microl of Nucleofector solution (Lonza) and electroporated with 2 microM siRNA using the Nucleofector technology program U-14 (Lonza).
+# T134 Protein S64 0 3 9095 9098 CD4
+# T135 Protein S64 14 17 9109 9112 CD4
+
+Five different Silencer or Silencer Select Pre-designed siRNAs for RUNX1 (Applied Biosystems) and three Silencer Pre-designed siRNAs for RUNX3 (Applied Biosystems) were tested, and the best was selected for all further experiments.
+# T136 Protein S65 67 72 9348 9353 RUNX1
+# T137 Protein S65 137 142 9418 9423 RUNX3
+$ T136 Protein S65 67 72 9348 9353 RUNX1
+$ T137 Protein S65 137 142 9418 9423 RUNX3
+@ T265 Negative_regulation S65 56 62 9337 9343 siRNAs
+@ T266 Negative_regulation S65 126 132 9407 9413 siRNAs
+% E17 Negative_regulation:T265 Theme:T136
+% E18 Negative_regulation:T266 Theme:T137
+
+The Silencer Negative Control #1 siRNA (Applied Biosystems) was used for normalization.
+
+Cells were then left unstimulated or were stimulated after 12 h with anti-CD2, anti-CD3, and anti-CD28.
+# T138 Protein S67 74 77 9675 9678 CD2
+# T139 Protein S67 84 87 9685 9688 CD3
+# T140 Protein S67 98 102 9699 9703 CD28
+
+Cells were cultured in serum-free AIM-V medium with the addition of 1 nmol/l IL-2 (Roche).
+# T141 Protein S68 34 39 9739 9744 AIM-V
+# T142 Protein S68 77 81 9782 9786 IL-2
+
+Cells were harvested for mRNA detection of the target genes after 24 h and for protein detection after 48 h.
+
+RNA isolation and cDNA synthesis.
+
+RNA was isolated using the RNeasy Mini kit (QIAGEN) according to the manufacturer's protocol.
+
+Reverse transcription of human samples was performed with reverse-transcription reagents (Fermentas) with random hexamers according to the manufacturer's protocol.
+
+Real-time PCR.
+
+PCR primers and probes were designed based on the sequences reported in GenBank with the Primer Express software version 1.2 (Applied Biosystems) as follows: FOXP3 forward primer, 5'-GAAACAGCACATTCCCAGAGTTC-3'; FOXP3 reverse primer, 5'-ATGGCCCAGCGGATGAG-3'; EF-1a forward primer, 5'-CTGAACCATCCAGGCCAAAT-3'; and EF-1a reverse primer, 5'-GCCGTGTGGCAATCCAAT-3', as previously described (Mantel et al., 2007).
+# T143 Protein S74 158 163 10372 10377 FOXP3
+# T144 Protein S74 211 216 10425 10430 FOXP3
+# T145 Protein S74 258 263 10472 10477 EF-1a
+# T146 Protein S74 312 317 10526 10531 EF-1a
+
+GATA3 forward primer, 5'-GCGGGCTCTATCACAAAATGA-3'; and GATA3 reverse primer 5'-GCTCTCCTGGCTGCAGACAGC-3' (Mantel et al., 2007).
+# T147 Protein S75 0 5 10621 10626 GATA3
+# T148 Protein S75 55 60 10676 10681 GATA3
+
+T-bet forward primer, 5'-GATGCGCCAGGAAGTTTCAT-3'; T-bet reverse primer, 5'-GCACAATCATCTGGGTCACATT-3'; RORC2 forward primer, 5'-CAGTCATGAGAACACAAATTGAAGTG-3'; and RORC2 reverse primer 5'-CAGGTGATAACCCCGTAGTGGAT-3'.
+# T149 Protein S76 0 5 10748 10753 T-bet
+# T150 Protein S76 50 55 10798 10803 T-bet
+# T151 Protein S76 102 107 10850 10855 RORC2
+# T152 Protein S76 162 167 10910 10915 RORC2
+
+The prepared cDNAs were amplified using SYBR green PCR master mix (Fermentas) according to the recommendations of the manufacturer in an ABI PRISM 7000 Sequence Detection System (Applied Biosystems).
+
+RUNX1 and RUNX3 mRNA was detected by using TaqMan Gene Expression Assays from Applied Biosystems and used according to the manufacturer's instruction using TaqMan master mix using a 7000 real-time PCR system (Applied Biosystems).
+# T153 Protein S78 0 5 11163 11168 RUNX1
+# T154 Protein S78 10 15 11173 11178 RUNX3
+$ T153 Protein S78 0 5 11163 11168 RUNX1
+$ T154 Protein S78 10 15 11173 11178 RUNX3
+@ T267 Transcription S78 16 20 11179 11183 mRNA
+% E19 Transcription:T267 Theme:T153
+% E20 Transcription:T267 Theme:T154
+
+PCR amplification of the housekeeping gene encoding elongation factor (EF)-1alpha or by using the 18S rRNA Gene Expression Assay (Applied Biosystems) was performed to allow normalization between samples.
+# T155 Protein S79 52 81 11445 11474 elongation factor (EF)-1alpha
+# T156 Protein S79 98 106 11491 11499 18S rRNA
+
+Relative quantification and calculation of the range of confidence was performed using the comparative DeltaDeltaCT method (Applied Biosystems).
+
+The percentage of FOXP3 mRNA in siRNA-mediated RUNX knockdown cells was calculated in relation to cells, which were transfected with scrambled control siRNA.
+# T157 Protein S81 18 23 11760 11765 FOXP3
+# T158 Protein S81 47 51 11789 11793 RUNX
+$ T157 Protein S81 18 23 11760 11765 FOXP3
+$ T158 Protein S81 47 51 11789 11793 RUNX
+@ T268 Transcription S81 24 28 11766 11770 mRNA
+@ T269 Positive_regulation S81 38 46 11780 11788 mediated
+@ T270 Negative_regulation S81 52 61 11794 11803 knockdown
+% E21 Transcription:T268 Theme:T157
+% E22 Positive_regulation:T269 Theme:E23
+% E23 Negative_regulation:T270 Theme:T158
+
+Arbitrary units show the 2-(Deltact) values multiplied by 10,000 incorporating the ct values of the gene of interest and the housekeeping gene.
+
+Flow cytometry.
+
+For analysis of human FOXP3 expression on the single-cell level, cells were first stained with the monoclonal CD4 mAb (Beckman Coulter), and after fixation and permeabilization, they were incubated with anti-human Foxp3-Alexa Fluor 488 antibody (BioLegend) based on the manufacturer's recommendations and subjected to FACS (EPICS XL-MCL; Beckman Coulter).
+# T159 Protein S84 22 27 12083 12088 FOXP3
+# T160 Protein S84 110 113 12171 12174 CD4
+# T161 Protein S84 214 219 12275 12280 Foxp3
+$ T159 Protein S84 22 27 12083 12088 FOXP3
+@ T271 Gene_expression S84 28 38 12089 12099 expression
+% E24 Gene_expression:T271 Theme:T159
+
+A mouse IgG1 antibody (BioLegend) was used as an isotype control.
+
+Data were analyzed with the CXP software (Beckman Coulter).
+
+Cells were cultured with IL-2, and then left unstimulated or stimulated with anti-CD2/-CD3/-CD28 mAb.
+# T162 Protein S87 25 29 12568 12572 IL-2
+# T163 Protein S87 82 85 12625 12628 CD2
+# T164 Protein S87 87 90 12630 12633 CD3
+# T165 Protein S87 92 96 12635 12639 CD28
+
+Flow cytometry analyses of the mouse cells were performed on an LSRII (BD) and cell sorting was performed on a FACSAria (BD).
+
+All antibodies for these experiments were purchased from eBioscience or BD.
+
+Western blotting.
+
+For human RUNX1 and RUNX3 analysis on the protein level, 106 cells were lysed and loaded next to a protein-mass ladder (Invitrogen) on a NuPAGE 4-12% Bis-Tris gel (Invitrogen).
+# T166 Protein S91 10 15 12877 12882 RUNX1
+# T167 Protein S91 20 25 12887 12892 RUNX3
+$ T166 Protein S91 10 15 12877 12882 RUNX1
+$ T167 Protein S91 20 25 12887 12892 RUNX3
+@ T272 Gene_expression S91 42 55 12909 12922 protein level
+% E25 Gene_expression:T272 Theme:T166
+% E26 Gene_expression:T272 Theme:T167
+
+The proteins were electroblotted onto a PVDF membrane (GE Healthcare).
+
+Unspecific binding was blocked with 3% milk in TBS Tween, and the membranes were subsequently incubated with a 1:1,000 dilution of rabbit anti-RUNX1 (ab11903; Abcam) or 1:200 dilution of rabbit anti-RUNX3 (H-50; Santa Cruz Biotechnology, Inc.) in blocking buffer containing 3% milk in TBS Tween overnight at 4degreesC.
+# T168 Protein S93 143 148 13258 13263 RUNX1
+# T169 Protein S93 199 204 13314 13319 RUNX3
+
+The blots were developed using an anti-rabbit IgG HRP-labeled mAb (Cell Signaling Technology) and visualized with a LAS-1000 gel documentation system (Fujifilm).
+
+To confirm sample loading and transfer membranes were incubated in stripping buffer and reblocked for 1 h and reprobed using anti-GAPDH (6C5; Ambion) and developed using an anti-mouse IgG HRP-labeled mAb (Cell Signaling Technology).
+# T170 Protein S95 130 135 13726 13731 GAPDH
+
+Pull-down assay.
+
+HEK293T cells were transfected with RUNX1 or RUNX3 using the Lipofectamine 2000 reagent (Invitrogen) according to the manufacturer's instruction.
+# T171 Protein S97 36 41 13883 13888 RUNX1
+# T172 Protein S97 45 50 13892 13897 RUNX3
+$ T171 Protein S97 36 41 13883 13888 RUNX1
+$ T172 Protein S97 45 50 13892 13897 RUNX3
+@ T273 Gene_expression S97 19 30 13866 13877 transfected
+% E27 Gene_expression:T273 Theme:T171
+% E28 Gene_expression:T273 Theme:T172
+
+Cells were lysed by sonication in HKMG buffer (10 mM Hepes, pH 7.9, 100 mM KCl, 5 mM MgCl2, 10% glycerol, 1 mM DTT, 0.5% Nonidet P-40) containing a protease inhibitor cocktail (Roche Diagnostics).
+
+The cell lysate was precleared using streptavidin-agarose beads (GE Healthcare), incubated with biotinylated double-stranded oligonucleotides containing the wild-type or mutated RUNX binding sites, and polydeoxyinosinicdeoxycytidylic acid (Sigma-Aldrich).
+
+A combination of all three oligonucleotides containing the mutated or the wild-type binding sites was used in the assay.
+
+DNA-bound proteins were collected with streptavidin-agarose beads, washed with HKMG buffer, and finally resuspended in NuPAGE loading buffer (Invitrogen Life Technologies), heated to 70degreesC for 10 min, and separated on a NuPAGE 4-12% Bis-Tris gel (Invitrogen Life Technologies).
+
+The proteins were electroblotted onto a PVDF membrane (GE Healthcare) and detected using RUNX1 or RUNX3 antibodies described in the previous section.
+# T173 Protein S102 89 94 14939 14944 RUNX1
+# T174 Protein S102 98 103 14948 14953 RUNX3
+
+Promoter enzyme immuno assay.
+
+As performed in the pull-down assay, HEK293T cells were transfected with RUNX1 or RUNX3 and subsequently lysed.
+# T175 Protein S104 37 50 15068 15081 HEK293T cells
+# T176 Protein S104 73 78 15104 15109 RUNX1
+# T177 Protein S104 82 87 15113 15118 RUNX3
+$ T176 Protein S104 73 78 15104 15109 RUNX1
+$ T177 Protein S104 82 87 15113 15118 RUNX3
+@ T274 Gene_expression S104 56 67 15087 15098 transfected
+% E29 Gene_expression:T274 Theme:T176
+% E30 Gene_expression:T274 Theme:T177
+
+Insoluble material was removed by centrifugation.
+
+384-well plates, precoated with streptavidin (Thermo Fisher Scientific) were washed 3 times with washing buffer (PBS and 0.05% Tween 20).
+
+Biotinylated FOXP3 promoter/oligonucleotides probes containing the RUNX binding sites were added (1 pmol per well; 50 fmol/microl) and incubated for 1 h at room temperature.
+# T178 Protein S107 13 18 15344 15349 FOXP3
+
+Either a combination of all three oligonucleotides containing the mutated or the wild-type binding sites was used or single oligonucleotides were used in the assay.
+
+After 3 washing steps with washing buffer, the nuclear extract was added (concentration > 0.2 microg/microl) and incubated overnight at 4degreesC.
+
+The lysates were incubated with 10 microg of poly-deoxyinosinic-deoxycytidylic acid (Sigma-Aldrich).
+
+The plate was washed with HKMG buffer and incubated with a 1:1000 dilution of rabbit anti-RUNX1 (ab11903, Abcam) or 1:200 dilution of rabbit anti-RUNX3 (H-50, Santa Cruz Biotechnology, Inc.) at 4degreesC for 2 h.
+# T179 Protein S111 90 95 16008 16013 RUNX1
+# T180 Protein S111 146 151 16064 16069 RUNX3
+
+After three washing steps with HKMG buffer, a secondary antibody (anti-rabbit IgG-HRP, 1:3,000 in HKMG buffer, Cell Signaling Technology) was added, and the plate was incubated for 1 h at 4degreesC.
+
+The wells were washed 4 times with HKMG buffer before adding the substrate reagent (R&D Systems).
+
+The colorimetric reaction was stopped by adding 2 M H2SO4.
+
+Absorbance at 450 nm was measured using a microplate reader (Berthold Technologies).
+
+ChIP.
+
+Human naive CD4+ T cells were cultured either with IL-2 only or with IL-2, anti-CD2/3/28, and TGF-beta for 72 h, and protein-DNA complexes were fixed by cross-linking with formaldehyde in a final concentration of 1.42% for 15 min.
+# T181 Protein S117 12 15 16591 16594 CD4
+# T182 Protein S117 51 55 16630 16634 IL-2
+# T183 Protein S117 69 73 16648 16652 IL-2
+# T184 Protein S117 80 83 16659 16662 CD2
+# T185 Protein S117 84 85 16663 16664 3
+# T186 Protein S117 86 88 16665 16667 28
+# T187 Protein S117 94 102 16673 16681 TGF-beta
+
+Formaldehyde was quenched with 125 mM glycine for 5 min, and cells were subsequently harvested.
+
+The ChIP assay was performed as described in the fast chromatin immunoprecipitation method (Nelson et al., 2006).
+
+Cells were lysed with immunoprecipitation buffer (150 mM NaCl, 50 mM Tris-HCl, pH 7.5, 5 mM EDTA, NP-40 [0.5% vol/vol]) containing phosphatase (Roche) and protease inhibitors cocktails (Roche), the nuclear pellet was washed, the chromatin was sheared by sonication and incubated with antibodies for RUNX1 (H-65 X; Santa Cruz Biotechnology, Inc.), RUNX3 (H-50 X; Santa Cruz Biotechnology, Inc.), CBFbeta (PEBP2beta; FL-182 X; Santa Cruz Biotechnology, Inc.), and as controls normal rabbit IgG (Santa Cruz Biotechnology, Inc.), anti-human RNA polymerase II antibody, and mouse control IgG (both from SA Biosciences).
+# T188 Protein S120 299 304 17319 17324 RUNX1
+# T189 Protein S120 347 352 17367 17372 RUNX3
+# T190 Protein S120 395 402 17415 17422 CBFbeta
+# T191 Protein S120 537 554 17557 17574 RNA polymerase II
+
+The cleared chromatin was incubated with protein A agarose beads and, after several washing steps, DNA was isolated with 10% (wt/vol) Chelex 100 resin.
+# T192 Protein S121 41 50 17676 17685 protein A
+
+Samples were treated with proteinase K at 55degreesC for 30 min.
+# T193 Protein S122 26 38 17813 17825 proteinase K
+
+The proteinase K was then inactivated by boiling the samples for 10 min.
+# T194 Protein S123 4 16 17856 17868 proteinase K
+
+The purified DNA was used in a real-time PCR reaction.
+
+Specific primers for the FOXP3 promoter, spanning the region from -87 to -3, FOXP3 promoter forward primer 5'-AGAGGTCTGCGGCTTCCA-3', FOXP3 promoter reverse primer 5'-GGAAACTGTCACGTATCAAAAACAA-3', or control GAPDH primer (SA Biosciences) for the RNA polymerase II were used.
+# T195 Protein S125 25 30 18005 18010 FOXP3
+# T196 Protein S125 77 82 18057 18062 FOXP3
+# T197 Protein S125 133 138 18113 18118 FOXP3
+# T198 Protein S125 207 212 18187 18192 GAPDH
+# T199 Protein S125 245 262 18225 18242 RNA polymerase II
+
+A negative control PCR for each immunoprecipitation using IGX1A negative control primer targeting ORF-free intergenic DNA (SA Biosciences) was used.
+
+The fold enrichment in site occupancy was calculated incorporating IgG control values and input DNA values using the ChampionChIP qPCR data analysis file (SA Biosciences).
+
+Quantification of cytokine levels.
+
+IL-4, IL-5, IL-6, IL-10, IL-13, IL-17, and IFN-gamma secretion was assessed using fluorescent bead-based technology.
+# T200 Protein S129 0 4 18611 18615 IL-4
+# T201 Protein S129 6 10 18617 18621 IL-5
+# T202 Protein S129 12 16 18623 18627 IL-6
+# T203 Protein S129 18 23 18629 18634 IL-10
+# T204 Protein S129 25 30 18636 18641 IL-13
+# T205 Protein S129 32 37 18643 18648 IL-17
+# T206 Protein S129 43 52 18654 18663 IFN-gamma
+$ T200 Protein S129 0 4 18611 18615 IL-4
+$ T201 Protein S129 6 10 18617 18621 IL-5
+$ T202 Protein S129 12 16 18623 18627 IL-6
+$ T203 Protein S129 18 23 18629 18634 IL-10
+$ T204 Protein S129 25 30 18636 18641 IL-13
+$ T205 Protein S129 32 37 18643 18648 IL-17
+$ T206 Protein S129 43 52 18654 18663 IFN-gamma
+@ T275 Localization S129 53 62 18664 18673 secretion
+% E31 Localization:T275 Theme:T200
+% E32 Localization:T275 Theme:T201
+% E33 Localization:T275 Theme:T202
+% E34 Localization:T275 Theme:T203
+% E35 Localization:T275 Theme:T204
+% E36 Localization:T275 Theme:T205
+% E37 Localization:T275 Theme:T206
+
+The Bio-Plex-hu Cytokine Panel, 17-Plex Group 1 was used according to the manufacturer's instructions (Bio-Rad Laboratories).
+
+Fluorescent signals were read and analyzed using the Bio-Plex 200 System (Bio-Rad Laboratories).
+
+Online supplemental material.
+
+Fig.S1 shows the induction of RUNX1, RUNX3, and FOXP3 mRNA in human CD4+ T cells after anti-CD2/3/28 mAb and TGF-beta stimulation.
+# T207 Protein S133 30 35 19013 19018 RUNX1
+# T208 Protein S133 37 42 19020 19025 RUNX3
+# T209 Protein S133 48 53 19031 19036 FOXP3
+# T210 Protein S133 68 71 19051 19054 CD4
+# T211 Protein S133 92 95 19075 19078 CD2
+# T212 Protein S133 96 97 19079 19080 3
+# T213 Protein S133 98 100 19081 19083 28
+# T214 Protein S133 109 117 19092 19100 TGF-beta
+$ T207 Protein S133 30 35 19013 19018 RUNX1
+$ T208 Protein S133 37 42 19020 19025 RUNX3
+$ T209 Protein S133 48 53 19031 19036 FOXP3
+@ T276 Positive_regulation S133 17 26 19000 19009 induction
+@ T277 Transcription S133 54 58 19037 19041 mRNA
+% E38 Positive_regulation:T276 Theme:E39
+% E40 Positive_regulation:T276 Theme:E41
+% E42 Positive_regulation:T276 Theme:E43
+% E39 Transcription:T277 Theme:T207
+% E41 Transcription:T277 Theme:T208
+% E43 Transcription:T277 Theme:T209
+
+Fig.S2 shows decreased RUNX1 and RUNX3 mRNA and protein expression after siRNA-mediated knockdown and decreased FOXP3 expression in human CD4+ T cells after RUNX1 and RUNX3 knockdown.
+# T215 Protein S134 23 28 19138 19143 RUNX1
+# T216 Protein S134 33 38 19148 19153 RUNX3
+# T217 Protein S134 112 117 19227 19232 FOXP3
+# T218 Protein S134 138 141 19253 19256 CD4
+# T219 Protein S134 157 162 19272 19277 RUNX1
+# T220 Protein S134 167 172 19282 19287 RUNX3
+$ T215 Protein S134 23 28 19138 19143 RUNX1
+$ T216 Protein S134 33 38 19148 19153 RUNX3
+$ T217 Protein S134 112 117 19227 19232 FOXP3
+$ T219 Protein S134 157 162 19272 19277 RUNX1
+$ T220 Protein S134 167 172 19282 19287 RUNX3
+@ T278 Negative_regulation S134 13 22 19128 19137 decreased
+@ T279 Transcription S134 39 43 19154 19158 mRNA
+@ T280 Positive_regulation S134 79 87 19194 19202 mediated
+@ T281 Negative_regulation S134 88 97 19203 19212 knockdown
+@ T282 Negative_regulation S134 102 111 19217 19226 decreased
+@ T283 Gene_expression S134 118 128 19233 19243 expression
+@ T284 Negative_regulation S134 173 182 19288 19297 knockdown
+% E44 Negative_regulation:T278 Theme:E45 Cause:E46
+% E47 Negative_regulation:T278 Theme:E45 Cause:E48
+% E49 Negative_regulation:T278 Theme:E45 Cause:E50
+% E51 Negative_regulation:T278 Theme:E52 Cause:E46
+% E53 Negative_regulation:T278 Theme:E52 Cause:E48
+% E54 Negative_regulation:T278 Theme:E52 Cause:E50
+% E45 Transcription:T279 Theme:T215
+% E52 Transcription:T279 Theme:T216
+% E55 Positive_regulation:T280 Theme:E46
+% E46 Negative_regulation:T281 Theme:E56
+% E48 Negative_regulation:T282 Theme:E56 Cause:E57
+% E50 Negative_regulation:T282 Theme:E56 Cause:E58
+% E56 Gene_expression:T283 Theme:T217
+% E57 Negative_regulation:T284 Theme:T219
+% E58 Negative_regulation:T284 Theme:T220
+
+Fig.S3 shows the quantification of IL-4, IL-5, IL-10, IL-13, and IFN-gamma levels in control siRNA transfected or RUNX1 and RUNX3 siRNA transfected human CD4+ T cells.
+# T221 Protein S135 35 39 19335 19339 IL-4
+# T222 Protein S135 41 45 19341 19345 IL-5
+# T223 Protein S135 47 52 19347 19352 IL-10
+# T224 Protein S135 54 59 19354 19359 IL-13
+# T225 Protein S135 65 74 19365 19374 IFN-gamma
+# T226 Protein S135 114 119 19414 19419 RUNX1
+# T227 Protein S135 124 129 19424 19429 RUNX3
+# T228 Protein S135 154 157 19454 19457 CD4
+$ T226 Protein S135 114 119 19414 19419 RUNX1
+$ T227 Protein S135 124 129 19424 19429 RUNX3
+@ T285 Negative_regulation S135 130 135 19430 19435 siRNA
+% E59 Negative_regulation:T285 Theme:T226
+% E60 Negative_regulation:T285 Theme:T227
+
+Fig.S4 shows the putative RUNX binding sites in the FOXP3 core promoter sequence of human, mouse, and rat.
+# T229 Protein S136 52 57 19521 19526 FOXP3
+
+Fig.S5 shows the induction of FOXP3 protein after overexpression of RUNX1 and RUNX3 in human CD4+ T cells.
+# T230 Protein S137 30 35 19607 19612 FOXP3
+# T231 Protein S137 68 73 19645 19650 RUNX1
+# T232 Protein S137 78 83 19655 19660 RUNX3
+# T233 Protein S137 93 96 19670 19673 CD4
+$ T230 Protein S137 30 35 19607 19612 FOXP3
+$ T231 Protein S137 68 73 19645 19650 RUNX1
+$ T232 Protein S137 78 83 19655 19660 RUNX3
+@ T286 Positive_regulation S137 17 26 19594 19603 induction
+@ T287 Gene_expression S137 50 64 19627 19641 overexpression
+% E61 Positive_regulation:T286 Theme:T230 Cause:E62
+% E63 Positive_regulation:T286 Theme:T230 Cause:E64
+% E62 Gene_expression:T287 Theme:T231
+% E64 Gene_expression:T287 Theme:T232
+
+Fig.S6 shows that endogenous IL-4 and IFN-gamma do not effect Foxp3 expression in naive CD4+ T cells of CbfbF/F CD4-cre and CbfbF/F control mice, which were stimulated with anti-CD3 and anti-CD28 mAbs, IL-2 and TGF-beta in the absence or presence of anti-IL-4 and anti-IFN-gamma neutralizing mAbs.
+# T234 Protein S138 29 33 19714 19718 IL-4
+# T235 Protein S138 38 47 19723 19732 IFN-gamma
+# T236 Protein S138 62 67 19747 19752 Foxp3
+# T237 Protein S138 88 91 19773 19776 CD4
+# T238 Protein S138 104 108 19789 19793 Cbfb
+# T239 Protein S138 112 119 19797 19804 CD4-cre
+# T240 Protein S138 124 128 19809 19813 Cbfb
+# T241 Protein S138 178 181 19863 19866 CD3
+# T242 Protein S138 191 195 19876 19880 CD28
+# T243 Protein S138 202 206 19887 19891 IL-2
+# T244 Protein S138 211 219 19896 19904 TGF-beta
+# T245 Protein S138 255 259 19940 19944 IL-4
+# T246 Protein S138 269 278 19954 19963 IFN-gamma
+$ T234 Protein S138 29 33 19714 19718 IL-4
+$ T235 Protein S138 38 47 19723 19732 IFN-gamma
+$ T236 Protein S138 62 67 19747 19752 Foxp3
+@ T288 Regulation S138 55 61 19740 19746 effect
+@ T289 Gene_expression S138 68 78 19753 19763 expression
+% E65 Regulation:T288 Theme:E66 Cause:T234
+% E67 Regulation:T288 Theme:E66 Cause:T235
+% E66 Gene_expression:T289 Theme:T236
+
+Fig.S7 shows similar cell death (A) and proliferation (B) of Foxp3+ and Foxp3- cells in CbfbF/F CD4-cre and CbfbF/F control mice cultures.
+# T247 Protein S139 61 66 20045 20050 Foxp3
+# T248 Protein S139 72 77 20056 20061 Foxp3
+# T249 Protein S139 88 92 20072 20076 Cbfb
+# T250 Protein S139 96 99 20080 20083 CD4
+# T251 Protein S139 100 103 20084 20087 cre
+# T252 Protein S139 108 112 20092 20096 Cbfb
+
+Online supplemental material is available at http://www.jem.org/cgi/content/full/jem.20090596/DC1.
+

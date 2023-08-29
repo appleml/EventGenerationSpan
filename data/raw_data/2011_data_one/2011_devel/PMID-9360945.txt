@@ -1,0 +1,72 @@
+Transcription factor NF-kappaB regulates inducible Oct-2 gene expression in precursor B lymphocytes.
+# T1 Protein S1 51 56 51 56 Oct-2
+$ T1 Protein S1 51 56 51 56 Oct-2
+@ T12 Regulation S1 31 40 31 40 regulates
+@ T13 Positive_regulation S1 41 50 41 50 inducible
+@ T14 Gene_expression S1 57 72 57 72 gene expression
+% E1 Regulation:T12 Theme:E3
+% E2 Positive_regulation:T13 Theme:E3
+% E3 Gene_expression:T14 Theme:T1
+
+The POU transcription factors Oct-1 and Oct-2 regulate the activity of octamer-dependent promoters, including those that direct transcription from rearranged immunoglobulin genes.
+# T2 Protein S2 30 35 132 137 Oct-1
+# T3 Protein S2 40 45 142 147 Oct-2
+
+Unlike Oct-1, which is constitutively expressed in many cell types, Oct-2 expression is restricted primarily to B lymphocytes and can be induced in precursor B cells by stimulation with bacterial lipopolysaccharide (LPS).
+# T4 Protein S3 7 12 289 294 Oct-1
+# T5 Protein S3 68 73 350 355 Oct-2
+$ T4 Protein S3 7 12 289 294 Oct-1
+$ T5 Protein S3 68 73 350 355 Oct-2
+@ T15 Gene_expression S3 38 47 320 329 expressed
+@ T16 Gene_expression S3 74 84 356 366 expression
+@ T17 Positive_regulation S3 88 98 370 380 restricted
+@ T18 Positive_regulation S3 137 144 419 426 induced
+% E4 Gene_expression:T15 Theme:T4
+% E5 Gene_expression:T16 Theme:T5
+% E6 Positive_regulation:T17 Theme:E4
+% E7 Positive_regulation:T17 Theme:E5
+% E8 Positive_regulation:T18 Theme:E5
+
+However, the precise factors that mediate this induction mechanism remain unknown.
+@ T19 Positive_regulation S4 34 41 538 545 mediate
+% E9 Positive_regulation:T19 Theme:E8
+
+In the present study, we monitored Oct-2 expression in cells arrested for the activation of NF-kappaB, an LPS-responsive member of the Rel transcription factor family.
+# T6 Protein S5 35 40 622 627 Oct-2
+$ T6 Protein S5 35 40 622 627 Oct-2
+@ T20 Gene_expression S5 41 51 628 638 expression
+% E10 Gene_expression:T20 Theme:T6
+
+Despite stimulation with LPS, disruption of the NF-kappaB signaling pathway in precursor B cells led to the loss of inducible Oct-2 DNA binding activity in vitro and the suppression of Oct-2-directed transcription in vivo.
+# T7 Protein S6 126 131 881 886 Oct-2
+# T8 Protein S6 185 190 940 945 Oct-2
+$ T7 Protein S6 126 131 881 886 Oct-2
+@ T21 Negative_regulation S6 0 7 755 762 Despite
+@ T22 Negative_regulation S6 108 112 863 867 loss
+@ T23 Positive_regulation S6 116 125 871 880 inducible
+@ T24 Binding S6 136 143 891 898 binding
+% E11 Negative_regulation:T21 Theme:E12
+% E12 Negative_regulation:T22 Theme:E14
+% E13 Positive_regulation:T23 Theme:E14
+% E14 Binding:T24 Theme:T7
+
+This biochemical defect correlated with a specific block to Oct-2 gene expression at the level of transcription, whereas the expression of Oct-1 was unaffected.
+# T9 Protein S7 60 65 1038 1043 Oct-2
+# T10 Protein S7 139 144 1117 1122 Oct-1
+$ T9 Protein S7 60 65 1038 1043 Oct-2
+$ T10 Protein S7 139 144 1117 1122 Oct-1
+@ T25 Negative_regulation S7 51 56 1029 1034 block
+@ T26 Transcription S7 71 111 1049 1089 expression at the level of transcription
+@ T27 Gene_expression S7 125 135 1103 1113 expression
+@ T28 Negative_regulation S7 149 159 1127 1137 unaffected
+% E15 Negative_regulation:T25 Theme:E16
+% E16 Transcription:T26 Theme:T9
+% E17 Gene_expression:T27 Theme:T10
+% E18 Negative_regulation:T28 Theme:E17
+
+The finding that Oct-2 is under NF-kappaB control highlights an important cross-talk mechanism involving two distinct transcription factor families that regulate B lymphocyte function.
+# T11 Protein S8 17 22 1156 1161 Oct-2
+$ T11 Protein S8 17 22 1156 1161 Oct-2
+@ T29 Regulation S8 42 49 1181 1188 control
+% E19 Regulation:T29 Theme:T11
+

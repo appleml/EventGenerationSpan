@@ -1,0 +1,27 @@
+Two distinct forms of active transcription factor CREB (cAMP response element binding protein).
+# T1 Protein S1 50 54 50 54 CREB
+# T2 Protein S1 56 93 56 93 cAMP response element binding protein
+
+Mammalian cells express two distinct forms of transcription factor CREB (cAMP response element binding protein) that are apparently the products of alternative splicing of the CREB gene transcript.
+# T3 Protein S2 67 71 164 168 CREB
+# T4 Protein S2 73 110 170 207 cAMP response element binding protein
+# T5 Protein S2 176 180 273 277 CREB
+
+The two proteins differ by a 14-amino acid serine-rich insertion present in one of the CREB isoforms.
+# T6 Protein S3 87 91 382 386 CREB
+
+We show that both CREB isoforms are expressed in many cell types and mammalian species.
+# T7 Protein S4 18 22 415 419 CREB
+
+Both encode proteins that bind specifically to a cAMP response element in vitro.
+
+As expected for proteins of this class, the CREB proteins bind DNA as dimers.
+# T8 Protein S6 44 48 610 614 CREB
+
+Both proteins impart cAMP-regulated transcriptional activity to a heterologous DNA-binding domain, showing that cAMP directly modulates the transcriptional stimulatory activity of CREB.
+# T9 Protein S7 180 184 824 828 CREB
+
+The presence of multiple CREB isoforms with identical DNA-binding specificities but differences in the presumed regulatory domain raises the possibility that CREB proteins may be able to integrate distinct regulatory signals at the level of gene transcription.
+# T10 Protein S8 25 29 855 859 CREB
+# T11 Protein S8 158 162 988 992 CREB
+

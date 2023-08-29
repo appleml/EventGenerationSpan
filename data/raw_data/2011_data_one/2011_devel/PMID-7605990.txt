@@ -1,0 +1,95 @@
+Positive and negative regulation of granulocyte-macrophage colony-stimulating factor promoter activity by AML1-related transcription factor, PEBP2.
+# T1 Protein S1 36 84 36 84 granulocyte-macrophage colony-stimulating factor
+$ T1 Protein S1 36 84 36 84 granulocyte-macrophage colony-stimulating factor
+@ T26 Positive_regulation S1 22 32 22 32 regulation
+@ T27 Entity S1 85 93 85 93 promoter
+% E2 Positive_regulation:T26 Theme:T1 Site:T27
+
+The granulocyte-macrophage colony-stimulating factor (GM-CSF) gene promoter contains a consensus sequence for the polyomavirus enhancer binding-protein 2 (PEBP2) transcription factor, which consists of alpha and beta subunits.
+# T2 Protein S2 4 52 153 201 granulocyte-macrophage colony-stimulating factor
+# T3 Protein S2 54 60 203 209 GM-CSF
+
+There are at least two genes, alpha A and alpha B, encoding the alpha subunit.
+
+alpha B is the mouse homologue of human AML1 gene detected at the breakpoints of t(8;21) and t(3;21) myeloid leukemias.
+# T4 Protein S4 40 44 495 499 AML1
+
+We examined alpha A1 (an alpha A-gene product) and alpha B1 and alpha B2 (two alpha B-encoded isomers) for their effects on the GM-CSF promoter.
+# T5 Protein S5 12 20 587 595 alpha A1
+# T6 Protein S5 51 59 626 634 alpha B1
+# T7 Protein S5 64 72 639 647 alpha B2
+# T8 Protein S5 128 134 703 709 GM-CSF
+$ T8 Protein S5 128 134 703 709 GM-CSF
+$ T6 Protein S5 51 59 626 634 alpha B1
+$ T5 Protein S5 12 20 587 595 alpha A1
+$ T7 Protein S5 64 72 639 647 alpha B2
+@ T28 Regulation S5 113 120 688 695 effects
+@ T29 Entity S5 135 143 710 718 promoter
+% E3 Regulation:T28 Theme:T8 Cause:T6 Site:T29
+% E4 Regulation:T28 Theme:T8 Cause:T5 Site:T29
+% E5 Regulation:T28 Theme:T8 Cause:T7 Site:T29
+
+PEBP2 alpha A1, alpha B1, and alpha B2 proteins bound the PEBP2 site within the mouse GM-CSF promoter.
+# T9 Protein S6 0 14 720 734 PEBP2 alpha A1
+# T10 Protein S6 16 24 736 744 alpha B1
+# T11 Protein S6 30 38 750 758 alpha B2
+# T12 Protein S6 86 92 806 812 GM-CSF
+$ T11 Protein S6 30 38 750 758 alpha B2
+$ T12 Protein S6 86 92 806 812 GM-CSF
+$ T10 Protein S6 16 24 736 744 alpha B1
+$ T9 Protein S6 0 14 720 734 PEBP2 alpha A1
+@ T30 Binding S6 48 53 768 773 bound
+@ T31 Entity S6 58 68 778 788 PEBP2 site
+% E6 Binding:T30 Theme:T11 Theme2:T12 Site2:T31
+% E7 Binding:T30 Theme:T10 Theme2:T12 Site2:T31
+% E8 Binding:T30 Theme:T9 Theme2:T12 Site2:T31
+
+PEBP2 alpha A1 and alpha B1 enhanced the expression of the GM-CSF promoter-driven reporter plasmid in unstimulated and 12-O-tetradecanoylphorbol 13-acetate/phytohemagglutinin-stimulated human Jurkat T cells.
+# T13 Protein S7 0 14 823 837 PEBP2 alpha A1
+# T14 Protein S7 19 27 842 850 alpha B1
+# T15 Protein S7 59 65 882 888 GM-CSF
+# T16 Protein S7 156 174 979 997 phytohemagglutinin
+@ T32 Entity S7 66 74 889 897 promoter
+
+In contrast, the promoter activity was suppressed by alpha B2.
+# T17 Protein S8 53 61 1084 1092 alpha B2
+$ T17 Protein S8 53 61 1084 1092 alpha B2
+@ T33 Negative_regulation S8 39 49 1070 1080 suppressed
+% E9 Negative_regulation:T33 Theme:T15 Cause:T17 Site:T32
+
+Coexpression of alpha B1 and alpha B2 showed that the promoter activity could be determined by the alpha B1/alpha B2 ratio.
+# T18 Protein S9 16 24 1110 1118 alpha B1
+# T19 Protein S9 29 37 1123 1131 alpha B2
+# T20 Protein S9 99 107 1193 1201 alpha B1
+# T21 Protein S9 108 116 1202 1210 alpha B2
+$ T19 Protein S9 29 37 1123 1131 alpha B2
+$ T18 Protein S9 16 24 1110 1118 alpha B1
+$ T21 Protein S9 108 116 1202 1210 alpha B2
+$ T20 Protein S9 99 107 1193 1201 alpha B1
+@ T34 Gene_expression S9 0 12 1094 1106 Coexpression
+@ T35 Regulation S9 81 91 1175 1185 determined
+% E10 Gene_expression:T34 Theme:T19
+% E11 Gene_expression:T34 Theme:T18
+% E12 Regulation:T35 Theme:T15 Cause:T21 Site:T32
+% E13 Regulation:T35 Theme:T15 Cause:T20 Site:T32
+
+Jurkat cell extract contained PEBP2 site-binding protein(s) that cross-reacted with antimouse alpha A1 antibodies.
+# T22 Protein S10 94 102 1312 1320 alpha A1
+
+Northern blot analysis indicated the expression of human PEBP2 alpha A, alpha B (AML1), and beta genes in Jurkat cells.
+# T23 Protein S11 80 86 1413 1419 (AML1)
+$ T23 Protein S11 80 86 1413 1419 (AML1)
+@ T36 Gene_expression S11 37 47 1370 1380 expression
+% E14 Gene_expression:T36 Theme:T23
+
+Although further studies are required to determine the precise role of PEBP2 in the GM-CSF promoter activity, the present findings suggested the importance of the relative ratio of different PEBP2 isoforms in regulating the levels of the promoter activity.
+# T24 Protein S12 84 90 1537 1543 GM-CSF
+$ T24 Protein S12 84 90 1537 1543 GM-CSF
+@ T37 Regulation S12 63 67 1516 1520 role
+@ T38 Entity S12 91 99 1544 1552 promoter
+@ T39 Regulation S12 145 155 1598 1608 importance
+@ T40 Regulation S12 209 219 1662 1672 regulating
+% E15 Regulation:T37 Theme:T24 Site:T38
+% E16 Regulation:T39 Theme:E17
+% E17 Regulation:T40 Theme:T24 Site:T38
+

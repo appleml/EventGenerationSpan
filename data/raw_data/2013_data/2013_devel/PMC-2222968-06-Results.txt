@@ -1,0 +1,176 @@
+GATA3 Is a Negative Regulator of FOXP3 Expression
+# T1 Protein S1 0 5 0 5 GATA3
+# T2 Protein S1 33 38 33 38 FOXP3
+$ T1 Protein S1 0 5 0 5 GATA3
+$ T2 Protein S1 33 38 33 38 FOXP3
+@ T56 Negative_regulation S1 11 29 11 29 Negative Regulator
+@ T57 Gene_expression S1 39 49 39 49 Expression
+% E1 Negative_regulation:T56 Theme:E2 Cause:T1
+% E2 Gene_expression:T57 Theme:T2
+
+FOXP3 expression decreased once GATA3 expression is high; therefore, we hypothesized a potential role for GATA3 in repressing FOXP3.
+# T3 Protein S2 0 5 50 55 FOXP3
+# T4 Protein S2 32 37 82 87 GATA3
+# T5 Protein S2 106 111 156 161 GATA3
+# T6 Protein S2 126 131 176 181 FOXP3
+$ T3 Protein S2 0 5 50 55 FOXP3
+$ T4 Protein S2 32 37 82 87 GATA3
+$ T5 Protein S2 106 111 156 161 GATA3
+$ T6 Protein S2 126 131 176 181 FOXP3
+@ T58 Gene_expression S2 6 16 56 66 expression
+@ T59 Negative_regulation S2 17 26 67 76 decreased
+@ T60 Gene_expression S2 38 48 88 98 expression
+@ T61 Positive_regulation S2 52 56 102 106 high
+@ T62 Regulation S2 97 101 147 151 role
+@ T63 Negative_regulation S2 115 125 165 175 repressing
+% E3 Gene_expression:T58 Theme:T3
+% E4 Negative_regulation:T59 Theme:E3 Cause:E5
+% E5 Gene_expression:T60 Theme:T4
+% E6 Positive_regulation:T61 Theme:E5
+% E7 Regulation:T62 Theme:E8 Cause:T5
+% E8 Negative_regulation:T63 Theme:T6
+
+Besides GATA3's well-known positive effect on gene regulation, GATA3's repressive capabilities were previously shown to restrict Th1 commitment by inhibiting STAT4 expression [2,21], and therefore GATA3 prevents differentiation into Th1 cells.
+# T7 Protein S3 8 13 191 196 GATA3
+# T8 Protein S3 63 68 246 251 GATA3
+# T9 Protein S3 158 163 341 346 STAT4
+# T10 Protein S3 197 202 380 385 GATA3
+$ T8 Protein S3 63 68 246 251 GATA3
+$ T9 Protein S3 158 163 341 346 STAT4
+@ T64 Negative_regulation S3 147 157 330 340 inhibiting
+@ T65 Gene_expression S3 164 174 347 357 expression
+% E9 Negative_regulation:T64 Theme:E10 Cause:T8
+% E10 Gene_expression:T65 Theme:T9
+
+To investigate whether GATA3 can directly inhibit FOXP3 induction, we transduced GATA3 or a truncated GATA3 lacking the DNA-binding domain in human primary CD4+CD45RA+ T cells using a TAT-fused, recombinantly expressed GATA3.
+# T11 Protein S4 23 28 450 455 GATA3
+# T12 Protein S4 50 55 477 482 FOXP3
+# T13 Protein S4 81 86 508 513 GATA3
+# T14 Protein S4 102 107 529 534 GATA3
+# T15 Protein S4 156 159 583 586 CD4
+# T16 Protein S4 160 166 587 593 CD45RA
+# T17 Protein S4 184 224 611 651 TAT-fused, recombinantly expressed GATA3
+$ T11 Protein S4 23 28 450 455 GATA3
+$ T12 Protein S4 50 55 477 482 FOXP3
+$ T14 Protein S4 102 107 529 534 GATA3
+@ T66 Negative_regulation S4 42 49 469 476 inhibit
+@ T67 Positive_regulation S4 56 65 483 492 induction
+@ T68 Negative_regulation S4 108 115 535 542 lacking
+@ T69 Entity S4 120 138 547 565 DNA-binding domain
+% E11 Negative_regulation:T66 Theme:E12 Cause:T11
+% E12 Positive_regulation:T67 Theme:T12
+% E13 Negative_regulation:T68 Theme:T14 Site:T69
+
+After transduction, the cells were activated with soluble anti-CD3/CD28 in the presence or absence of TGF-beta.
+# T18 Protein S5 63 66 716 719 CD3
+# T19 Protein S5 67 71 720 724 CD28
+# T20 Protein S5 102 110 755 763 TGF-beta
+
+TAT-GATA3 was successfully transduced in a homogeneous and dose-dependent manner into human CD4+ T cells (Figure 7A, upper panel).
+# T21 Protein S6 0 9 765 774 TAT-GATA3
+# T22 Protein S6 92 95 857 860 CD4
+
+TAT-GATA3 reduced FOXP3 expression in a dose-dependent manner, whereas a DNA-binding domain truncated version (TAT-deltaDBD-GATA3) did not affect FOXP3 expression as compared with expression in untransduced cells (Figure 7A).
+# T23 Protein S7 0 9 896 905 TAT-GATA3
+# T24 Protein S7 18 23 914 919 FOXP3
+# T25 Protein S7 124 129 1020 1025 GATA3
+# T26 Protein S7 146 151 1042 1047 FOXP3
+$ T23 Protein S7 0 9 896 905 TAT-GATA3
+$ T24 Protein S7 18 23 914 919 FOXP3
+$ T25 Protein S7 124 129 1020 1025 GATA3
+$ T26 Protein S7 146 151 1042 1047 FOXP3
+@ T70 Negative_regulation S7 10 17 906 913 reduced
+@ T71 Gene_expression S7 24 34 920 930 expression
+@ T72 Entity S7 73 91 969 987 DNA-binding domain
+@ T73 Negative_regulation S7 92 101 988 997 truncated
+@ T74 Regulation S7 139 145 1035 1041 affect
+@ T75 Gene_expression S7 152 162 1048 1058 expression
+% E14 Negative_regulation:T70 Theme:E15 Cause:T23
+% E15 Gene_expression:T71 Theme:T24
+% E16 Negative_regulation:T73 Theme:T25 Site:T72
+% E17 Regulation:T74 Theme:E18 Cause:E16
+% E18 Gene_expression:T75 Theme:T26
+
+In addition, we analyzed the inhibitory effect of GATA3 on FOXP3 in transgenic DO11.10 mice, constitutively overexpressing GATA3 under the control of the CD2 locus control region (DO11.10xCD2-GATA3).
+# T27 Protein S8 50 55 1172 1177 GATA3
+# T28 Protein S8 59 64 1181 1186 FOXP3
+# T29 Protein S8 123 128 1245 1250 GATA3
+# T30 Protein S8 154 157 1276 1279 CD2
+# T31 Protein S8 188 191 1310 1313 CD2
+# T32 Protein S8 192 197 1314 1319 GATA3
+$ T28 Protein S8 59 64 1181 1186 FOXP3
+$ T27 Protein S8 50 55 1172 1177 GATA3
+$ T29 Protein S8 123 128 1245 1250 GATA3
+@ T76 Negative_regulation S8 29 46 1151 1168 inhibitory effect
+@ T77 Positive_regulation S8 108 122 1230 1244 overexpressing
+% E19 Negative_regulation:T76 Theme:T28 Cause:T27
+% E20 Positive_regulation:T77 Theme:T29
+
+The thymic selection into the CD4 lineage is largely intact in DO11.10xCD2-GATA3 (RW Hendriks, unpublished data).
+# T33 Protein S9 30 33 1352 1355 CD4
+# T34 Protein S9 71 74 1393 1396 CD2
+# T35 Protein S9 75 80 1397 1402 GATA3
+
+These mice develop lymphomas at an older age, but signs of autoimmune disease were not described [22].
+
+To investigate the effect of GATA3 on iTreg, CD4+CD62L+CD25- cells were isolated, activated with OVA in the presence or absence of TGF-beta, and Foxp3 expression was analyzed after 4 d.
+# T36 Protein S11 29 34 1568 1573 GATA3
+# T37 Protein S11 45 48 1584 1587 CD4
+# T38 Protein S11 49 54 1588 1593 CD62L
+# T39 Protein S11 55 59 1594 1598 CD25
+# T40 Protein S11 131 139 1670 1678 TGF-beta
+# T41 Protein S11 145 150 1684 1689 Foxp3
+$ T36 Protein S11 29 34 1568 1573 GATA3
+$ T41 Protein S11 145 150 1684 1689 Foxp3
+@ T78 Regulation S11 19 25 1558 1564 effect
+@ T79 Gene_expression S11 151 161 1690 1700 expression
+% E21 Regulation:T78 Theme:E22 Cause:T36
+% E22 Gene_expression:T79 Theme:T41
+
+The naive CD4+CD25- cells were Foxp3- (unpublished data).
+# T42 Protein S12 10 13 1735 1738 CD4
+# T43 Protein S12 14 18 1739 1743 CD25
+# T44 Protein S12 31 36 1756 1761 Foxp3
+
+As described for the human cells, TGF-beta dramatically up-regulated Foxp3 in the DO11.10 littermate control mice.
+# T45 Protein S13 34 42 1817 1825 TGF-beta
+# T46 Protein S13 69 74 1852 1857 Foxp3
+$ T46 Protein S13 69 74 1852 1857 Foxp3
+$ T45 Protein S13 34 42 1817 1825 TGF-beta
+@ T80 Positive_regulation S13 56 68 1839 1851 up-regulated
+% E23 Positive_regulation:T80 Theme:T46 Cause:T45
+
+In contrast, cells from the CD2-GATA3xDO11.10 mice showed dramatically reduced Foxp3 expression when activated with TGF-beta and OVA (Figure 7B).
+# T47 Protein S14 28 31 1926 1929 CD2
+# T48 Protein S14 32 37 1930 1935 GATA3
+# T49 Protein S14 79 84 1977 1982 Foxp3
+# T50 Protein S14 116 124 2014 2022 TGF-beta
+$ T48 Protein S14 32 37 1930 1935 GATA3
+$ T49 Protein S14 79 84 1977 1982 Foxp3
+$ T50 Protein S14 116 124 2014 2022 TGF-beta
+@ T81 Negative_regulation S14 71 78 1969 1976 reduced
+@ T82 Gene_expression S14 85 95 1983 1993 expression
+@ T83 Positive_regulation S14 101 110 1999 2008 activated
+% E24 Negative_regulation:T81 Theme:E25 Cause:T48
+% E25 Gene_expression:T82 Theme:T49
+% E26 Positive_regulation:T83 Theme:E25 Cause:T50
+
+All mice produced similar amounts of TGF-beta; in addition, Smad7 was equally expressed [23] in T cells of both mice strains (Figure 7C), indicating intact TGF-beta signaling.
+# T51 Protein S15 37 45 2081 2089 TGF-beta
+# T52 Protein S15 60 65 2104 2109 Smad7
+# T53 Protein S15 156 164 2200 2208 TGF-beta
+$ T51 Protein S15 37 45 2081 2089 TGF-beta
+$ T52 Protein S15 60 65 2104 2109 Smad7
+@ T84 Gene_expression S15 9 17 2053 2061 produced
+@ T85 Gene_expression S15 78 87 2122 2131 expressed
+% E27 Gene_expression:T84 Theme:T51
+% E28 Gene_expression:T85 Theme:T52
+
+Taken together, these results demonstrated a repressive role of IL-4-induced GATA3 transcription factor in the generation of iTreg cells.
+# T54 Protein S16 64 68 2284 2288 IL-4
+# T55 Protein S16 77 82 2297 2302 GATA3
+$ T55 Protein S16 77 82 2297 2302 GATA3
+$ T54 Protein S16 64 68 2284 2288 IL-4
+@ T86 Positive_regulation S16 69 76 2289 2296 induced
+% E29 Positive_regulation:T86 Theme:T55 Cause:T54
+

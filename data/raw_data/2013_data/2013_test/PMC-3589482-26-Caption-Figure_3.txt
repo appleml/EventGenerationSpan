@@ -1,0 +1,21 @@
+Potential cis-acting regulatory elements in the LPS responsive region of the murine SerpinB2 promoter
+# T1 Protein S1 84 92 84 92 SerpinB2
+
+-563/-1.
+
+Mouse and human nucleotide sequences were aligned using Clustal W software.
+
+Cis-acting elements conserved between the human and murine SerpinB2 promoters are boxed and labeled.
+# T2 Protein S4 59 67 246 254 SerpinB2
+
+AP-1 =  activator protein 1; C/EBP =  CCAAT enhancer binding protein; CRE = cAMP response element; Oct1 =  octamer transcription factor 1/POU2F1; PU.1 =  purine box binding protein 1.
+# T3 Protein S5 99 103 387 391 Oct1
+# T4 Protein S5 107 137 395 425 octamer transcription factor 1
+# T5 Protein S5 138 144 426 432 POU2F1
+# T6 Protein S5 146 150 434 438 PU.1
+# T7 Protein S5 154 182 442 470 purine box binding protein 1
+
+The putative transcription initiation site (tis) is indicated and exon 1 is presented in uppercase.
+
+The location of the 5' ends of the -539, -189 and -87 reporter constructs are also shown.
+

@@ -1,0 +1,86 @@
+CholecystokininB receptor from human Jurkat lymphoblastic T cells is involved in activator protein-1-responsive gene activation.
+# T1 Protein S1 0 25 0 25 CholecystokininB receptor
+
+The aim of this study was to analyze the role of cholecystokinin (CCK(B)) receptor in human lymphoblastic Jurkat T cells.
+# T2 Protein S2 65 82 195 212 (CCK(B)) receptor
+
+We investigated the trophic effect resulting from activation of such a receptor by using the reporter gene strategy.
+@ T16 Positive_regulation S3 50 60 302 312 activation
+% E1 Positive_regulation:T16 Theme:T2
+
+For this purpose, we transiently transfected Jurkat T cells with the reporter plasmid p[(TRE)3-tk-Luc] and found that CCK-8 was able to dose-dependently induce luciferase expression related to activator protein-1 (AP-1) activation with a maximal response identical to that obtained with compounds known to activate AP-1 complex (quantitatively, the same level of induction was obtained with 1 nM 12-O-tetradecanoylphorbol-13-acetate, 100 microM diacylglycerol, or 4 nM epidermal growth factor).
+# T3 Protein S4 160 170 529 539 luciferase
+$ T3 Protein S4 160 170 529 539 luciferase
+@ T17 Positive_regulation S4 153 159 522 528 induce
+@ T18 Gene_expression S4 171 181 540 550 expression
+@ T19 Positive_regulation S4 363 385 732 754 induction was obtained
+% E2 Positive_regulation:T17 Theme:E3
+% E3 Gene_expression:T18 Theme:T3
+% E4 Positive_regulation:T19 Theme:E3
+
+The involvement of the CCK(B) receptor in such a stimulation was demonstrated by the inhibiting effect of the selective CCK(B) receptor antagonist PD-135,158.
+# T4 Protein S5 23 38 887 902 CCK(B) receptor
+# T5 Protein S5 120 135 984 999 CCK(B) receptor
+$ T4 Protein S5 23 38 887 902 CCK(B) receptor
+$ T5 Protein S5 120 135 984 999 CCK(B) receptor
+@ T20 Regulation S5 4 15 868 879 involvement
+@ T21 Negative_regulation S5 85 102 949 966 inhibiting effect
+@ T22 Negative_regulation S5 136 146 1000 1010 antagonist
+% E5 Regulation:T20 Theme:E2 Cause:T4
+% E6 Negative_regulation:T21 Theme:E2
+% E7 Negative_regulation:T22 Theme:T5
+
+This effect was confirmed in COS-7 cells transfected with the cDNA of CCK(B) receptor cloned from Jurkat T cells.
+# T6 Protein S6 70 85 1093 1108 CCK(B) receptor
+
+To better understand the AP-1-dependent luciferase expression in Jurkat T cells, we tested two specific inhibitors of serine/threonine phosphatases-1 and -2A: okadaic acid and calyculin A.
+# T7 Protein S7 40 50 1177 1187 luciferase
+# T8 Protein S7 118 149 1255 1286 serine/threonine phosphatases-1
+# T9 Protein S7 154 157 1291 1294 -2A
+$ T7 Protein S7 40 50 1177 1187 luciferase
+$ T8 Protein S7 118 149 1255 1286 serine/threonine phosphatases-1
+$ T9 Protein S7 154 157 1291 1294 -2A
+@ T23 Positive_regulation S7 30 39 1167 1176 dependent
+@ T24 Gene_expression S7 51 61 1188 1198 expression
+@ T25 Negative_regulation S7 104 114 1241 1251 inhibitors
+% E8 Positive_regulation:T23 Theme:E9
+% E9 Gene_expression:T24 Theme:T7
+% E10 Negative_regulation:T25 Theme:T8
+% E11 Negative_regulation:T25 Theme:T9
+
+These compounds strongly increased the phorbol-12-myristate-13-acetate response, whereas we have not observed a contribution of phosphatase inhibitors on a CCK-8-induced luciferase activity.
+# T10 Protein S8 170 180 1496 1506 luciferase
+$ T10 Protein S8 170 180 1496 1506 luciferase
+@ T26 Positive_regulation S8 162 169 1488 1495 induced
+% E12 Positive_regulation:T26 Theme:T10
+
+To confirm that CCK(B) receptors are involved in AP-1 response, we investigated the CCK-8 effect on interleukin-2 expression, a natural endogenous gene regulated by several factors, including AP-1.
+# T11 Protein S9 16 32 1533 1549 CCK(B) receptors
+# T12 Protein S9 100 113 1617 1630 interleukin-2
+$ T12 Protein S9 100 113 1617 1630 interleukin-2
+@ T27 Regulation S9 90 96 1607 1613 effect
+@ T28 Gene_expression S9 114 124 1631 1641 expression
+@ T29 Regulation S9 152 161 1669 1678 regulated
+% E13 Regulation:T27 Theme:E14
+% E14 Gene_expression:T28 Theme:T12
+% E15 Regulation:T29 Theme:T12
+
+In Jurkat T cells activated by phorbol-12-myristate-13-acetate and phytohemagglutinin, CCK-8 induced IL-2 expression.
+# T13 Protein S10 67 85 1782 1800 phytohemagglutinin
+# T14 Protein S10 101 105 1816 1820 IL-2
+$ T14 Protein S10 101 105 1816 1820 IL-2
+@ T30 Positive_regulation S10 93 100 1808 1815 induced
+@ T31 Gene_expression S10 106 116 1821 1831 expression
+% E16 Positive_regulation:T30 Theme:E17
+% E17 Gene_expression:T31 Theme:T14
+
+This induction was abolished by PD-135,158.
+@ T32 Negative_regulation S11 19 28 1852 1861 abolished
+% E18 Negative_regulation:T32 Theme:E16
+
+Our results indicate that CCK-8 exerts a trophic effect in Jurkat T cells through stimulation of CCK(B) receptors by modulation of expression of AP-1-regulated genes.
+# T15 Protein S12 97 113 1974 1990 CCK(B) receptors
+$ T15 Protein S12 97 113 1974 1990 CCK(B) receptors
+@ T33 Positive_regulation S12 82 93 1959 1970 stimulation
+% E19 Positive_regulation:T33 Theme:T15
+

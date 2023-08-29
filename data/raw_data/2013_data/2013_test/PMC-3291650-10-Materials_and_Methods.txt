@@ -1,0 +1,18 @@
+In vivo intracellular GrB and IFNgamma staining of activated CD8+ T cells
+# T1 Protein S1 22 25 22 25 GrB
+# T2 Protein S1 61 64 61 64 CD8
+
+Granzyme B (GrB) and IFNgamma expressing CD8+ T cells were determined by treating the mice intranasally with 50 microg Brefeldin A (Sigma) as previously described [86].
+# T3 Protein S2 0 10 74 84 Granzyme B
+# T4 Protein S2 12 15 86 89 GrB
+# T5 Protein S2 41 44 115 118 CD8
+
+6 h later, BAL and lungs were isolated and single cell suspensions were prepared from the lung in the presence of 3 microg/ml Brefeldin A. Cells were stained, fixed and permeabilized (Cytofix/Cytoperm, BD Biosciences) according to the manufacturer's instructions.
+
+Activated CD8+ T cells were analyzed by flow cytometry based on CD62lo CD3+ and CD8+ expression.
+# T6 Protein S4 10 13 517 520 CD8
+# T7 Protein S4 71 74 578 581 CD3
+# T8 Protein S4 80 83 587 590 CD8
+
+Live/Dead fixable aqua dead cell stain kit (Molecular Probes) was used to discriminate live from dead cells.
+

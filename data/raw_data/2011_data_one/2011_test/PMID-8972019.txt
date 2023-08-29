@@ -1,0 +1,19 @@
+Acetylsalicylic acid and sodium salicylate inhibit LPS-induced NF-kappa B/c-Rel nuclear translocation, and synthesis of tissue factor (TF) and tumor necrosis factor alfa (TNF-alpha) in human monocytes.
+# T1 Protein S1 74 79 74 79 c-Rel
+# T2 Protein S1 120 133 120 133 tissue factor
+# T3 Protein S1 135 137 135 137 TF
+# T4 Protein S1 143 169 143 169 tumor necrosis factor alfa
+# T5 Protein S1 171 180 171 180 TNF-alpha
+
+We have investigated the effects of acetylsalicylic acid and sodium salicylate on the LPS-induced synthesis of the pro-coagulant protein tissue factor (TF) and the pro-inflammatory protein tumor necrosis factor-alpha (TNF-alpha), as well as the prostaglandin PGE2 in human monocytes.
+# T6 Protein S2 189 216 392 419 tumor necrosis factor-alpha
+# T7 Protein S2 218 227 421 430 TNF-alpha
+
+Both drugs dose-dependently inhibited LPS-induced TF and TNF-alpha synthesis at the mRNA and the protein level, and reduced PGE2 production.
+# T8 Protein S3 57 66 544 553 TNF-alpha
+
+As evidenced by electro mobility shift assay (EMSA) and the use of a NF-kappa B prototypic probe, these drugs probably exert their inhibitory effects by interference with the nuclear translocation of NF-kappa B/c-Rel proteins.
+# T9 Protein S4 211 216 839 844 c-Rel
+
+These data may expand the understanding of the anti-thrombotic and anti-inflammatory effects of these drugs when activation of monocytes occurs.
+

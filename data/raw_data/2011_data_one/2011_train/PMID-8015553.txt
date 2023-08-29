@@ -1,0 +1,113 @@
+Nonpituitary human prolactin gene transcription is independent of Pit-1 and differentially controlled in lymphocytes and in endometrial stroma.
+# T1 Protein S1 19 28 19 28 prolactin
+# T2 Protein S1 66 71 66 71 Pit-1
+$ T1 Protein S1 19 28 19 28 prolactin
+$ T2 Protein S1 66 71 66 71 Pit-1
+@ T29 Transcription S1 34 47 34 47 transcription
+@ T30 Regulation S1 51 62 51 62 independent
+@ T31 Regulation S1 91 101 91 101 controlled
+% E1 Transcription:T29 Theme:T1
+% E2 Regulation:T30 Theme:E1 Cause:T2
+% E3 Regulation:T31 Theme:E1
+
+Expression of the human PRL (hPRL) gene in extrapituitary sites such as the uterus (decidualized endometrial stroma and myometrium) and cells of the hematopoietic lineage is directed by an alternative promoter which is located approximately 6 kilobases (kb) upstream of the pituitary-specific start site.
+# T3 Protein S2 24 27 169 172 PRL
+# T4 Protein S2 29 33 174 178 hPRL
+$ T4 Protein S2 29 33 174 178 hPRL
+@ T32 Gene_expression S2 0 10 145 155 Expression
+@ T33 Positive_regulation S2 174 182 319 327 directed
+% E4 Gene_expression:T32 Theme:T4
+% E5 Positive_regulation:T33 Theme:E4
+
+In order to delineate the tissue-specific mechanisms governing the control of nonpituitary PRL gene expression, we have cloned and sequenced 3 kb 5'-flanking DNA of the upstream decidual/lymphoid (dPRL) promoter.
+# T5 Protein S3 91 94 541 544 PRL
+# T6 Protein S3 197 201 647 651 dPRL
+$ T5 Protein S3 91 94 541 544 PRL
+@ T34 Regulation S3 67 74 517 524 control
+@ T35 Gene_expression S3 100 110 550 560 expression
+% E6 Regulation:T34 Theme:E7
+% E7 Gene_expression:T35 Theme:T5
+
+Based on sequence homology we identified two binding motifs for Pit-1 and seven half-sites for glucocorticoid receptor/progesterone receptor (PR) binding.
+# T7 Protein S4 64 69 727 732 Pit-1
+# T8 Protein S4 95 118 758 781 glucocorticoid receptor
+# T9 Protein S4 119 140 782 803 progesterone receptor
+# T10 Protein S4 142 144 805 807 PR
+
+We focused our studies on the role of Pit-1 and of PR as potential transcriptional regulators, since the POU domain protein Pit-1 is essential in the control of pituitary PRL expression, and progesterone induces decidual transformation of the endometrial stroma, a differentiation process during which the decidual PRL gene is activated.
+# T11 Protein S5 38 43 856 861 Pit-1
+# T12 Protein S5 51 53 869 871 PR
+# T13 Protein S5 124 129 942 947 Pit-1
+# T14 Protein S5 171 174 989 992 PRL
+# T15 Protein S5 315 318 1133 1136 PRL
+$ T13 Protein S5 124 129 942 947 Pit-1
+$ T14 Protein S5 171 174 989 992 PRL
+$ T15 Protein S5 315 318 1133 1136 PRL
+@ T36 Regulation S5 133 157 951 975 essential in the control
+@ T37 Gene_expression S5 175 185 993 1003 expression
+@ T38 Positive_regulation S5 327 336 1145 1154 activated
+% E8 Regulation:T36 Theme:E9 Cause:T13
+% E9 Gene_expression:T37 Theme:T14
+% E10 Positive_regulation:T38 Theme:T15
+
+We demonstrate in a variety of cell types, including lymphocytes and endometrial stroma, that Pit-1 is not involved in the regulation of dPRL promoter/reporter gene constructs carrying 3 kb 5'-flanking DNA.
+# T16 Protein S6 94 99 1250 1255 Pit-1
+# T17 Protein S6 137 141 1293 1297 dPRL
+
+Our experiments also show that activated PR does not confer direct transcriptional control on the dPRL promoter.
+# T18 Protein S7 41 43 1404 1406 PR
+# T19 Protein S7 98 102 1461 1465 dPRL
+$ T18 Protein S7 41 43 1404 1406 PR
+$ T19 Protein S7 98 102 1461 1465 dPRL
+@ T39 Positive_regulation S7 31 40 1394 1403 activated
+@ T40 Regulation S7 53 90 1416 1453 confer direct transcriptional control
+@ T41 Entity S7 103 111 1466 1474 promoter
+% E11 Positive_regulation:T39 Theme:T18
+% E12 Regulation:T40 Theme:T19 Cause:E11 Site:T41
+
+When we compared the activity of the transfected dPRL promoter in PRL-secreting and nonsecreting lymphoid cells, we found that the 3 kb 5'-flanking region of the dPRL promoter did not contain elements restricting expression to only those lymphocytes that produce PRL but allowed expression of fusion reporter genes irrespective of the status of the endogenous PRL gene.
+# T20 Protein S8 49 53 1525 1529 dPRL
+# T21 Protein S8 66 69 1542 1545 PRL
+# T22 Protein S8 263 266 1739 1742 PRL
+# T23 Protein S8 360 363 1836 1839 PRL
+$ T21 Protein S8 66 69 1542 1545 PRL
+$ T22 Protein S8 263 266 1739 1742 PRL
+@ T42 Gene_expression S8 70 79 1546 1555 secreting
+@ T43 Gene_expression S8 84 96 1560 1572 nonsecreting
+@ T44 Positive_regulation S8 201 212 1677 1688 restricting
+@ T45 Gene_expression S8 213 223 1689 1699 expression
+@ T46 Gene_expression S8 255 262 1731 1738 produce
+% E13 Gene_expression:T42 Theme:T21
+% E14 Gene_expression:T43 Theme:T21
+% E15 Positive_regulation:T44 Theme:E16
+% E16 Gene_expression:T45 Theme:T22
+% E17 Gene_expression:T46 Theme:T22
+
+This was in sharp contrast to endometrial cells where 3 kb 5'-flanking DNA conferred strong transcriptional activation on the dPRL promoter in decidualized endometrial stromal cells actively secreting PRL, but did not allow transcription in undifferentiated non-PRL-secreting endometrial stromal cells.
+# T24 Protein S9 126 130 1972 1976 dPRL
+# T25 Protein S9 201 204 2047 2050 PRL
+# T26 Protein S9 262 265 2108 2111 PRL
+$ T24 Protein S9 126 130 1972 1976 dPRL
+$ T25 Protein S9 201 204 2047 2050 PRL
+$ T26 Protein S9 262 265 2108 2111 PRL
+@ T47 Positive_regulation S9 75 118 1921 1964 conferred strong transcriptional activation
+@ T48 Entity S9 131 139 1977 1985 promoter
+@ T49 Gene_expression S9 191 200 2037 2046 secreting
+@ T50 Positive_regulation S9 218 223 2064 2069 allow
+@ T51 Transcription S9 224 237 2070 2083 transcription
+@ T52 Gene_expression S9 266 275 2112 2121 secreting
+% E18 Positive_regulation:T47 Theme:T24 Site:T48
+% E19 Gene_expression:T49 Theme:T25
+% E20 Positive_regulation:T50 Theme:E21
+% E21 Transcription:T51 Theme:T26
+% E22 Gene_expression:T52 Theme:T26
+
+Activation of the dPRL promoter construct in these undifferentiated cells could however be induced by the addition of cAMP, in the absence of progesterone, suggesting that a signal transduced through the cAMP signaling pathway is a primary inducer of decidual PRL gene expression.
+# T27 Protein S10 18 22 2167 2171 dPRL
+# T28 Protein S10 260 263 2409 2412 PRL
+$ T28 Protein S10 260 263 2409 2412 PRL
+@ T53 Positive_regulation S10 240 247 2389 2396 inducer
+@ T54 Gene_expression S10 269 279 2418 2428 expression
+% E23 Positive_regulation:T53 Theme:E24
+% E24 Gene_expression:T54 Theme:T28
+

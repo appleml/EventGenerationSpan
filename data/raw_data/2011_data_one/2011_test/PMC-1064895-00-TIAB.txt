@@ -1,0 +1,67 @@
+Increased interleukin-17 production via a phosphoinositide 3-kinase/Akt and nuclear factor kappaB-dependent pathway in patients with rheumatoid arthritis
+# T1 Protein S1 10 24 10 24 interleukin-17
+# T2 Protein S1 68 71 68 71 Akt
+
+Inflammatory mediators have been recognized as being important in the pathogenesis of rheumatoid arthritis (RA).
+
+Interleukin (IL)-17 is an important regulator of immune and inflammatory responses, including the induction of proinflammatory cytokines and osteoclastic bone resorption.
+# T3 Protein S3 0 19 268 287 Interleukin (IL)-17
+
+Evidence for the expression and proinflammatory activity of IL-17 has been demonstrated in RA synovium and in animal models of RA.
+# T4 Protein S4 60 65 499 504 IL-17
+
+Although some cytokines (IL-15 and IL-23) have been reported to regulate IL-17 production, the intracellular signaling pathways that regulate IL-17 production remain unknown.
+# T5 Protein S5 9 23 579 593 some cytokines
+# T6 Protein S5 25 30 595 600 IL-15
+# T7 Protein S5 35 40 605 610 IL-23
+# T8 Protein S5 73 78 643 648 IL-17
+# T9 Protein S5 142 147 712 717 IL-17
+
+In the present study, we investigated the role of the phosphoinositide 3-kinase (PI3K)/Akt pathway in the regulation of IL-17 production in RA.
+# T10 Protein S6 87 90 832 835 Akt
+# T11 Protein S6 120 125 865 870 IL-17
+
+Peripheral blood mononuclear cells (PBMC) from patients with RA (n = 24) were separated, then stimulated with various agents including anti-CD3, anti-CD28, phytohemagglutinin (PHA) and several inflammatory cytokines and chemokines.
+# T12 Protein S7 150 154 1039 1043 CD28
+# T13 Protein S7 156 174 1045 1063 phytohemagglutinin
+# T14 Protein S7 176 179 1065 1068 PHA
+
+IL-17 levels were determined by sandwich enzyme-linked immunosorbent assay and reverse transcription-polymerase chain reaction.
+# T15 Protein S8 0 5 1121 1126 IL-17
+
+The production of IL-17 was significantly increased in cells treated with anti-CD3 antibody with or without anti-CD28 and PHA (P < 0.05).
+# T16 Protein S9 18 23 1267 1272 IL-17
+# T17 Protein S9 113 117 1362 1366 CD28
+# T18 Protein S9 122 125 1371 1374 PHA
+
+Among tested cytokines and chemokines, IL-15, monocyte chemoattractant protein-1 and IL-6 upregulated IL-17 production (P < 0.05), whereas tumor necrosis factor-alpha, IL-1beta, IL-18 or transforming growth factor-beta did not.
+# T19 Protein S10 39 44 1426 1431 IL-15
+# T20 Protein S10 46 80 1433 1467 monocyte chemoattractant protein-1
+# T21 Protein S10 85 89 1472 1476 IL-6
+# T22 Protein S10 102 107 1489 1494 IL-17
+# T23 Protein S10 139 166 1526 1553 tumor necrosis factor-alpha
+# T24 Protein S10 168 176 1555 1563 IL-1beta
+# T25 Protein S10 178 183 1565 1570 IL-18
+# T26 Protein S10 187 218 1574 1605 transforming growth factor-beta
+
+IL-17 was also detected in the PBMC of patients with osteoarthritis, but their expression levels were much lower than those of RA PBMC.
+# T27 Protein S11 0 5 1615 1620 IL-17
+# T28 Protein S11 73 78 1688 1693 their
+
+Anti-CD3 antibody activated the PI3K/Akt pathway; activation of this pathway resulted in a pronounced augmentation of nuclear factor kappaB (NF-kappaB) DNA-binding activity.
+# T29 Protein S12 37 40 1788 1791 Akt
+
+IL-17 production by activated RA PBMC is completely or partly blocked in the presence of the NF-kappaB inhibitor pyrrolidine dithiocarbamate and the PI3K/Akt inhibitor wortmannin and LY294002, respectively.
+# T30 Protein S13 0 5 1925 1930 IL-17
+# T31 Protein S13 154 157 2079 2082 Akt
+
+However, inhibition of activator protein-1 and extracellular signal-regulated kinase 1/2 did not affect IL-17 production.
+# T32 Protein S14 23 42 2155 2174 activator protein-1
+# T33 Protein S14 47 86 2179 2218 extracellular signal-regulated kinase 1
+# T34 Protein S14 87 88 2219 2220 2
+# T35 Protein S14 104 109 2236 2241 IL-17
+
+These results suggest that signal transduction pathways dependent on PI3K/Akt and NF-kappaB are involved in the overproduction of the key inflammatory cytokine IL-17 in RA.
+# T36 Protein S15 74 77 2328 2331 Akt
+# T37 Protein S15 160 165 2414 2419 IL-17
+

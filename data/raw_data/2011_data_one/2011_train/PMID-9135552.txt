@@ -1,0 +1,63 @@
+The tumour associated cell surface antigen A6H is costimulatory for human CD4+ but not CD8+ T cells.
+# T1 Protein S1 74 77 74 77 CD4
+
+The A6H monoclonal antibody (mAb) recognizes a 120,000-140,000 MW antigen that is expressed at similar densities on 85-90% of human CD4+ and CD8+ T cells and on renal cell carcinomas.
+# T2 Protein S2 132 135 234 237 CD4
+
+The binding of the A6H mAb induced a costimulatory signal in anti-CD3 activated T cells.
+
+In the present report, we show that A6H costimulated cell proliferation and cytokine production in purified CD4+ T cells.
+# T3 Protein S4 108 111 483 486 CD4
+
+Unexpectedly, the CD8+ T-cell subpopulation failed to respond.
+
+CD4+ T cells costimulated with the A6H mAb upregulated CD80, CD86, CD71, interleukin-2 (IL-2)R alpha, IL-2R beta and IL-2R gamma, while no corresponding up-regulation of these cell surface molecules was seen in CD8+ T cells.
+# T4 Protein S6 0 3 560 563 CD4
+# T5 Protein S6 55 59 615 619 CD80
+# T6 Protein S6 61 65 621 625 CD86
+# T7 Protein S6 67 71 627 631 CD71
+# T8 Protein S6 73 100 633 660 interleukin-2 (IL-2)R alpha
+# T9 Protein S6 102 112 662 672 IL-2R beta
+# T10 Protein S6 117 128 677 688 IL-2R gamma
+$ T7 Protein S6 67 71 627 631 CD71
+$ T5 Protein S6 55 59 615 619 CD80
+$ T10 Protein S6 117 128 677 688 IL-2R gamma
+$ T6 Protein S6 61 65 621 625 CD86
+$ T9 Protein S6 102 112 662 672 IL-2R beta
+$ T8 Protein S6 73 100 633 660 interleukin-2 (IL-2)R alpha
+@ T15 Positive_regulation S6 43 54 603 614 upregulated
+@ T16 Positive_regulation S6 153 166 713 726 up-regulation
+% E1 Positive_regulation:T15 Theme:T7
+% E2 Positive_regulation:T15 Theme:T5
+% E3 Positive_regulation:T15 Theme:T10
+% E4 Positive_regulation:T15 Theme:T6
+% E5 Positive_regulation:T15 Theme:T9
+% E6 Positive_regulation:T15 Theme:T8
+% E7 Positive_regulation:T16 Theme:T5
+% E8 Positive_regulation:T16 Theme:T9
+% E9 Positive_regulation:T16 Theme:T8
+% E10 Positive_regulation:T16 Theme:T6
+% E11 Positive_regulation:T16 Theme:T10
+% E12 Positive_regulation:T16 Theme:T7
+
+In order to investigate the nature of the A6H mAb costimulus at the transcriptional level we have examined induction of the transcription factors OCT-1, AP-1 and NF-kappa B which are known to be transcriptional regulators of several cytokine and cytokine receptor genes, including the IL-2 and IL-2R genes.
+# T11 Protein S7 146 151 931 936 OCT-1
+# T12 Protein S7 285 289 1070 1074 IL-2
+$ T11 Protein S7 146 151 931 936 OCT-1
+$ T12 Protein S7 285 289 1070 1074 IL-2
+@ T17 Positive_regulation S7 107 116 892 901 induction
+@ T18 Regulation S7 195 221 980 1006 transcriptional regulators
+% E13 Positive_regulation:T17 Theme:T11
+% E14 Regulation:T18 Theme:T12
+% E15 Regulation:T18 Theme:T12 Cause:T11
+
+Co-ligation of the A6H antigen and the CD3 complex induced expression of the transcription factor AP-1 in CD4+ T cells, whereas no increase in NF-kappa B and octamer-binding (Oct) proteins was seen compared to T cells stimulated with anti-CD3 alone.
+# T13 Protein S8 106 109 1198 1201 CD4
+
+Furthermore, no induction of AP-1 was seen in A6H costimulated CD8+ T cells.
+
+These results suggests that both proximal steps in CD8+ T-cell activation as well as the later phases are unresponsive to A6H ligation.
+
+Molecular differences of the A6H molecule or distinct regulation of the A6H transduced AP-1 activation pathway may exist in CD4+ and CD8+ T cell subpopulations.
+# T14 Protein S11 124 127 1679 1682 CD4
+

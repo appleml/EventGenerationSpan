@@ -1,0 +1,86 @@
+LPS tolerance in monocytes/macrophages: three 3' cytosins are required in the DNA binding motif for detection of upregulated NF-kappa B p50 homodimers.
+# T1 Protein S1 136 139 136 139 p50
+$ T1 Protein S1 136 139 136 139 p50
+@ T16 Positive_regulation S1 113 124 113 124 upregulated
+% E1 Positive_regulation:T16 Theme:T1
+
+When monocytes are stimulated with LPS (lipopolysaccharide) repeatedly then the initially high expression of the TNF (tumor necrosis factor) gene is only very low, i.e. the cells are tolerant to LPS.
+# T2 Protein S2 113 116 266 269 TNF
+# T3 Protein S2 118 139 271 292 tumor necrosis factor
+$ T2 Protein S2 113 116 266 269 TNF
+@ T17 Gene_expression S2 95 105 248 258 expression
+@ T18 Negative_regulation S2 159 162 312 315 low
+% E2 Gene_expression:T17 Theme:T2
+% E3 Negative_regulation:T18 Theme:E2
+
+Tolerant cells still express the CD14 receptor and they can still be activated to mobilize NF-kappa B into nucleus.
+# T4 Protein S3 33 46 386 399 CD14 receptor
+$ T4 Protein S3 33 46 386 399 CD14 receptor
+@ T19 Gene_expression S3 21 28 374 381 express
+% E4 Gene_expression:T19 Theme:T4
+
+Analysis of the binding proteins employing the -605 motif of the human TNF promoter (GGGGCTGTCCC) revealed that in tolerant cells of the human monocytic cell line Mono Mac 6 there is a predominance of p50p50 of NF-kappa B.
+# T5 Protein S4 201 204 670 673 p50
+# T6 Protein S4 204 207 673 676 p50
+$ T5 Protein S4 201 204 670 673 p50
+$ T6 Protein S4 204 207 673 676 p50
+@ T20 Binding S4 16 23 485 492 binding
+% E5 Binding:T20 Theme:T5
+% E6 Binding:T20 Theme:T6
+
+We now show that a mutant motif that exchanges the terminal 3' C for a G fails to bind the p50 homodimer that is upregulated in LPS toler ant human Mono Mac 6 cells.
+# T7 Protein S5 91 94 783 786 p50
+$ T7 Protein S5 91 94 783 786 p50
+@ T21 Binding S5 82 86 774 778 bind
+@ T22 Positive_regulation S5 113 124 805 816 upregulated
+% E7 Binding:T21 Theme:T7
+% E8 Positive_regulation:T22 Theme:T7
+
+The same is true for nuclear extracts taken from the murine P388D1 macrophage cell line when tested with the -516 motif of the murine TNF promoter (GGGGGCTTTCCC).
+@ T23 Binding S6 9 16 867 874 is true
+% E9 Binding:T23 Theme:T7
+
+Here the wild type motif gives efficient binding of p50p50 that again is upregulated in tolerant cells whereas a mutant with a 3' G shows hardly any binding of p50p50.
+# T8 Protein S7 52 55 1073 1076 p50
+# T9 Protein S7 55 58 1076 1079 p50
+# T10 Protein S7 160 163 1181 1184 p50
+# T11 Protein S7 163 166 1184 1187 p50
+$ T8 Protein S7 52 55 1073 1076 p50
+$ T9 Protein S7 55 58 1076 1079 p50
+$ T10 Protein S7 160 163 1181 1184 p50
+$ T11 Protein S7 163 166 1184 1187 p50
+@ T24 Binding S7 41 48 1062 1069 binding
+@ T25 Positive_regulation S7 73 84 1094 1105 upregulated
+@ T26 Binding S7 149 156 1170 1177 binding
+% E10 Binding:T24 Theme:T8
+% E11 Binding:T24 Theme:T9
+% E12 Positive_regulation:T25 Theme:T9
+% E13 Positive_regulation:T25 Theme:T8
+% E14 Binding:T26 Theme:T10
+% E15 Binding:T26 Theme:T11
+
+Conversely, the murine kappa light chain enhancer motif (GGGGACTTTCCG) does not efficiently bind the nuclear p50p50 from tolerant murine P388 macrophages.
+# T12 Protein S8 23 40 1212 1229 kappa light chain
+# T13 Protein S8 109 112 1298 1301 p50
+# T14 Protein S8 112 115 1301 1304 p50
+$ T12 Protein S8 23 40 1212 1229 kappa light chain
+$ T13 Protein S8 109 112 1298 1301 p50
+$ T14 Protein S8 112 115 1301 1304 p50
+@ T27 Entity S8 57 69 1246 1258 GGGGACTTTCCG
+@ T28 Binding S8 92 96 1281 1285 bind
+% E16 Binding:T28 Theme:T12 Theme2:T13 Site:T27
+% E17 Binding:T28 Theme:T12 Theme2:T14 Site:T27
+
+Binding is, however, readily detected when the 3' G is replaced by a C.
+@ T29 Negative_regulation S9 29 37 1373 1381 detected
+% E18 Negative_regulation:T29 Theme:E16
+% E19 Negative_regulation:T29 Theme:E17
+
+These data show that the detection of upregulated p50 homodimers in LPS tolerant cells is dependent on subtle differences in the sequence of the DNA binding motif.
+# T15 Protein S10 50 53 1466 1469 p50
+$ T15 Protein S10 50 53 1466 1469 p50
+@ T30 Positive_regulation S10 38 49 1454 1465 upregulated
+@ T31 Regulation S10 90 99 1506 1515 dependent
+% E20 Positive_regulation:T30 Theme:T15
+% E21 Regulation:T31 Theme:E20
+

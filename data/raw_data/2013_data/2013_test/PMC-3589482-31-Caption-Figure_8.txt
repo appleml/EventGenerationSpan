@@ -1,0 +1,50 @@
+C/EBP-beta is necessary for SerpinB2 proximal promoter activity.
+# T1 Protein S1 0 10 0 10 C/EBP-beta
+# T2 Protein S1 28 36 28 36 SerpinB2
+
+(A) The SerpinB2 proximal promoter is significantly activated in LPS-stimulated Cebpb+/+ MEFs and not in Cebpb-/- MEFs.
+# T3 Protein S2 8 16 73 81 SerpinB2
+# T4 Protein S2 80 85 145 150 Cebpb
+# T5 Protein S2 105 110 170 175 Cebpb
+
+Murine SerpinB2 gene promoter activity measured in Cebpb+/+ and Cebpb-/- MEFs expressing the pGLmP-539 SerpinB2 promoter-luciferase reporter in the presence or absence of LPS (100 ng/mL).
+# T6 Protein S3 7 15 192 200 SerpinB2
+# T7 Protein S3 51 56 236 241 Cebpb
+# T8 Protein S3 64 69 249 254 Cebpb
+# T9 Protein S3 103 140 288 325 SerpinB2 promoter-luciferase reporter
+
+Cells were co-transfected with the pGLmP-539 SerpinB2 promoter-luciferase reporter and beta-galactosidase reporter plasmids, and luciferase units normalized to beta-galactosidase activity.
+# T10 Protein S4 45 82 418 455 SerpinB2 promoter-luciferase reporter
+# T11 Protein S4 87 114 460 487 beta-galactosidase reporter
+# T12 Protein S4 129 139 502 512 luciferase
+# T13 Protein S4 160 178 533 551 beta-galactosidase
+
+(B) C/EBP-beta gene schematic depicting gene structure and phospho-acceptor sites.
+# T14 Protein S5 4 14 566 576 C/EBP-beta
+
+(C) Phosphorylation of C/EBP-beta at Serine 64 negatively regulates LPS-stimulated SerpinB2 promoter activity.
+# T15 Protein S6 23 33 668 678 C/EBP-beta
+# T16 Protein S6 83 91 728 736 SerpinB2
+
+Cebpb-/- MEFs were co-transfected with expression plasmids encoding wild-type C/EBP-beta or the indicated C/EBP-beta phospho-acceptor mutants, along with the pGLmP-539 SerpinB2 promoter-luciferase reporter and beta-galactosidase reporter plasmids, and stimulated with LPS for 4 hrs.
+# T17 Protein S7 0 5 756 761 Cebpb
+# T18 Protein S7 78 88 834 844 C/EBP-beta
+# T19 Protein S7 106 141 862 897 C/EBP-beta phospho-acceptor mutants
+# T20 Protein S7 168 205 924 961 SerpinB2 promoter-luciferase reporter
+# T21 Protein S7 210 237 966 993 beta-galactosidase reporter
+
+Luciferase activity was quantified and normalized to beta-galactosidase activity.
+# T22 Protein S8 0 10 1039 1049 Luciferase
+# T23 Protein S8 53 71 1092 1110 beta-galactosidase
+
+The western blot (below the graphs) confirms the expression of the respective C/EBP-beta phospho-acceptor mutants.
+# T24 Protein S9 78 113 1199 1234 C/EBP-beta phospho-acceptor mutants
+
+The C/EBP-betaT217A -transfected MEFs express both the 38 kDa and 35 kDa isoforms of C/EBP-beta.
+# T25 Protein S10 4 19 1240 1255 C/EBP-betaT217A
+# T26 Protein S10 85 95 1321 1331 C/EBP-beta
+
+The results represent the mean and SEM of at least three independent experiments performed in triplicate.
+
+(*, p<0.05, one-way ANOVA).
+

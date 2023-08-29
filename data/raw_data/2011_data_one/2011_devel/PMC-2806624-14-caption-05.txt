@@ -1,0 +1,59 @@
+Diminished capacity of Cbfb-deficient CD4-cre mice T cells in the generation of Foxp3+ CD4+ T cells.
+# T1 Protein S1 23 27 23 27 Cbfb
+# T2 Protein S1 38 45 38 45 CD4-cre
+# T3 Protein S1 80 85 80 85 Foxp3
+# T4 Protein S1 87 90 87 90 CD4
+$ T1 Protein S1 23 27 23 27 Cbfb
+@ T30 Negative_regulation S1 28 37 28 37 deficient
+% E1 Negative_regulation:T30 Theme:T1
+
+(A) FACS-purified naive CD4+ CD8- T cells from CbfbF/F CD4-cre and control CbfbF/+ CD4-cre mice were activated in vitro with anti-CD3/28 mAb, 50 U/ml IL-2, +/- 10 nM retinoic acid (RA), and increasing concentrations of TGF-beta.
+# T5 Protein S2 24 27 125 128 CD4
+# T6 Protein S2 29 32 130 133 CD8
+# T7 Protein S2 47 51 148 152 Cbfb
+# T8 Protein S2 55 62 156 163 CD4-cre
+# T9 Protein S2 75 79 176 180 Cbfb
+# T10 Protein S2 83 90 184 191 CD4-cre
+# T11 Protein S2 130 133 231 234 CD3
+# T12 Protein S2 134 136 235 237 28
+# T13 Protein S2 150 154 251 255 IL-2
+# T14 Protein S2 219 227 320 328 TGF-beta
+
+After 3 d in culture, the cells were restimulated with PMA + ionomycin, and then analyzed for intracellular Foxp3 and IFN-gamma expression.
+# T15 Protein S3 108 113 438 443 Foxp3
+# T16 Protein S3 118 127 448 457 IFN-gamma
+$ T15 Protein S3 108 113 438 443 Foxp3
+$ T16 Protein S3 118 127 448 457 IFN-gamma
+@ T31 Gene_expression S3 128 138 458 468 expression
+% E2 Gene_expression:T31 Theme:T15
+% E3 Gene_expression:T31 Theme:T16
+
+One of five experiments is shown.
+
+(B) Naive CD4+ T cells from Cbfb CD4-cre or control mice (harboring a Foxp3-IRES-GFP allele) were adoptively transferred into Rag-deficient mice (5 x 106 cells per transfer).
+# T17 Protein S5 10 13 514 517 CD4
+# T18 Protein S5 28 32 532 536 Cbfb
+# T19 Protein S5 33 40 537 544 CD4-cre
+# T20 Protein S5 70 75 574 579 Foxp3
+# T21 Protein S5 81 84 585 588 GFP
+# T22 Protein S5 126 129 630 633 Rag
+$ T22 Protein S5 126 129 630 633 Rag
+@ T32 Negative_regulation S5 130 139 634 643 deficient
+% E4 Negative_regulation:T32 Theme:T22
+
+6 wk later, TCRbeta+CD4+ cells from the spleen, mesenteric lymph node (MLN), and lamina propria of the small intestine (LP) were analyzed for Foxp3-GFP expression.
+# T23 Protein S6 12 19 691 698 TCRbeta
+# T24 Protein S6 20 23 699 702 CD4
+# T25 Protein S6 142 151 821 830 Foxp3-GFP
+$ T25 Protein S6 142 151 821 830 Foxp3-GFP
+@ T33 Gene_expression S6 152 162 831 841 expression
+% E5 Gene_expression:T33 Theme:T25
+
+Results from one of four CbfbF/F CD4-cre and control CbfbF/+ CD4-cre mice with same findings are shown.
+# T26 Protein S7 25 29 868 872 Cbfb
+# T27 Protein S7 33 40 876 883 CD4-cre
+# T28 Protein S7 53 57 896 900 Cbfb
+# T29 Protein S7 61 68 904 911 CD4-cre
+
+The data from four sets of mice is shown in C. Statistical analysis was performed with Mann-Whitney U test. *, P < 0.05 between groups.
+

@@ -1,0 +1,87 @@
+Regulation of interleukin-1beta transcription by Epstein-Barr virus involves a number of latent proteins via their interaction with RBP.
+# T1 Protein S1 14 31 14 31 interleukin-1beta
+$ T1 Protein S1 14 31 14 31 interleukin-1beta
+@ T18 Regulation S1 0 10 0 10 Regulation
+@ T19 Transcription S1 32 45 32 45 transcription
+@ T20 Regulation S1 68 76 68 76 involves
+% E1 Regulation:T18 Theme:E2
+% E2 Transcription:T19 Theme:T1
+% E3 Regulation:T20 Theme:E1
+
+Epstein-Barr virus (EBV) infects B cells, resulting in the outgrowth of immortalised lymphoblastoid cell lines (LCLs).
+
+Here, we demonstrate through the use of intracellular staining that interleukin-1beta (IL-1beta) is expressed in LCLs and investigate the influence of the individual latent proteins on the expression of IL-1beta.
+# T2 Protein S3 68 85 325 342 interleukin-1beta
+# T3 Protein S3 87 95 344 352 IL-1beta
+# T4 Protein S3 203 211 460 468 IL-1beta
+$ T3 Protein S3 87 95 344 352 IL-1beta
+$ T4 Protein S3 203 211 460 468 IL-1beta
+@ T21 Gene_expression S3 100 109 357 366 expressed
+@ T22 Regulation S3 138 147 395 404 influence
+@ T23 Gene_expression S3 189 199 446 456 expression
+% E4 Gene_expression:T21 Theme:T3
+% E5 Regulation:T22 Theme:E6
+% E6 Gene_expression:T23 Theme:T4
+
+Using RT-PCR, IL-1beta was shown to be up-regulated in EBV-transformed LCLs as well as in group III Burkitt's lymphoma (BL) cell lines, compared with group I BL cell lines.
+# T5 Protein S4 14 22 484 492 IL-1beta
+$ T5 Protein S4 14 22 484 492 IL-1beta
+@ T24 Positive_regulation S4 39 51 509 521 up-regulated
+% E7 Positive_regulation:T24 Theme:T5
+
+The up-regulation of IL-1beta message could be mediated by the latent membrane protein-1, EBV nuclear proteins 2, 3, 4, and 6 genes.
+# T6 Protein S5 21 29 664 672 IL-1beta
+# T7 Protein S5 63 88 706 731 latent membrane protein-1
+# T8 Protein S5 90 112 733 755 EBV nuclear proteins 2
+# T9 Protein S5 114 115 757 758 3
+# T10 Protein S5 117 118 760 761 4
+# T11 Protein S5 124 131 767 774 6 genes
+$ T6 Protein S5 21 29 664 672 IL-1beta
+$ T8 Protein S5 90 112 733 755 EBV nuclear proteins 2
+$ T9 Protein S5 114 115 757 758 3
+$ T11 Protein S5 124 131 767 774 6 genes
+$ T10 Protein S5 117 118 760 761 4
+$ T7 Protein S5 63 88 706 731 latent membrane protein-1
+@ T25 Positive_regulation S5 4 17 647 660 up-regulation
+@ T26 Positive_regulation S5 47 55 690 698 mediated
+% E8 Positive_regulation:T25 Theme:T6
+% E9 Positive_regulation:T26 Theme:E8 Cause:T8
+% E10 Positive_regulation:T26 Theme:E8 Cause:T9
+% E11 Positive_regulation:T26 Theme:E8 Cause:T11
+% E12 Positive_regulation:T26 Theme:E8 Cause:T10
+% E13 Positive_regulation:T26 Theme:E8 Cause:T7
+
+Electrophoretic mobility shift assays (EMSAs) demonstrated that the -300 region of the IL-1beta promoter, which contains a nuclear factor-kappaB (NF-kappaB) binding site, contained a functional RBP binding site.
+# T12 Protein S6 87 95 863 871 IL-1beta
+
+Binding of RBP to this site could be inhibited by addition of EBV nuclear proteins 3 and 6, suggesting that these proteins displace RBP from its recognition sequence, removing transcriptional repression and allowing gene transcription to occur.
+# T13 Protein S7 62 84 1050 1072 EBV nuclear proteins 3
+# T14 Protein S7 89 90 1077 1078 6
+
+In group I BL cells, containing low levels of NF-kappaB, only RBP binding was observed in EMSAs, whereas NF-kappaB binding could be demonstrated in EBV-transformed B cell lines containing high levels of activated NF-kappaB.
+
+In addition, the expression of latent membrane protein-1 led to activation of NF-kappaB that was capable of binding the IL-1beta promoter.
+# T15 Protein S9 31 56 1488 1513 latent membrane protein-1
+# T16 Protein S9 120 128 1577 1585 IL-1beta
+$ T15 Protein S9 31 56 1488 1513 latent membrane protein-1
+$ T16 Protein S9 120 128 1577 1585 IL-1beta
+@ T27 Gene_expression S9 17 27 1474 1484 expression
+@ T28 Positive_regulation S9 57 60 1514 1517 led
+@ T29 Positive_regulation S9 64 74 1521 1531 activation
+@ T30 Binding S9 108 115 1565 1572 binding
+@ T31 Entity S9 129 137 1586 1594 promoter
+% E14 Gene_expression:T27 Theme:T15
+% E15 Positive_regulation:T28 Theme:E16 Cause:E14
+% E16 Positive_regulation:T29 Theme:E17
+% E17 Binding:T30 Theme:T16 Site:T31
+
+The study demonstrates that EBV can up-regulate IL-1beta expression, possibly by using RBP, NF-kappaB, or both.
+# T17 Protein S10 48 56 1644 1652 IL-1beta
+$ T17 Protein S10 48 56 1644 1652 IL-1beta
+@ T32 Positive_regulation S10 36 47 1632 1643 up-regulate
+@ T33 Gene_expression S10 57 67 1653 1663 expression
+% E18 Positive_regulation:T32 Theme:E19
+% E19 Gene_expression:T33 Theme:T17
+
+Copyright 1998 Academic Press.
+

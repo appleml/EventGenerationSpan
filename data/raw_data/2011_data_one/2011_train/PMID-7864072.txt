@@ -1,0 +1,32 @@
+Effects of glucocorticoids on transcription factor activation in human peripheral blood mononuclear cells.
+
+Glucocorticoids have an inhibitory effect on inflammatory and immune responses, and this may be through the modulation of transcription factor binding to DNA.
+
+The interaction of the transcription factors, activator protein-1 (AP-1), nuclear factor kappa B (NF kappa B), and cAMP-responsive element binding protein (CREB) with DNA and glucocorticoid receptors (GR) was analyzed in human peripheral blood mononuclear cells by gel mobility shift assays.
+# T1 Protein S3 175 199 442 466 glucocorticoid receptors
+# T2 Protein S3 201 203 468 470 GR
+$ T2 Protein S3 201 203 468 470 GR
+@ T7 Binding S3 4 15 271 282 interaction
+% E1 Binding:T7 Theme:T2
+
+TNF-alpha, IL-1 beta and phorbol myristate acetate (PMA) treatment increased AP-1 and NF kappa B DNA binding by up to 200% but decreased CREB binding (38%) over a 60-min time course.
+# T3 Protein S4 0 9 559 568 TNF-alpha
+# T4 Protein S4 11 20 570 579 IL-1 beta
+
+Dexamethasone produced a rapid and sustained increase in glucocorticoid response element binding and a concomitant 40-50% decrease in AP-1, NF kappa B, and CREB DNA binding that was blocked by combined dexamethasone and cytokine or PMA treatment.
+
+These latter effects were due to increases in the nuclear localization of GR, not to reduced amounts of the other transcription factors.
+# T5 Protein S6 74 76 1063 1065 GR
+$ T5 Protein S6 74 76 1063 1065 GR
+@ T8 Entity S6 50 57 1039 1046 nuclear
+@ T9 Localization S6 58 70 1047 1059 localization
+% E2 Localization:T9 Theme:T5 AtLoc:T8
+
+This suggests that in these cells GR within the nucleus interacts with cytokine-stimulated transcription factors by the process of cross coupling.
+# T6 Protein S7 34 36 1160 1162 GR
+$ T6 Protein S7 34 36 1160 1162 GR
+@ T10 Binding S7 56 65 1182 1191 interacts
+% E3 Binding:T10 Theme:T6
+
+This may be an important molecular site of steroid action.
+

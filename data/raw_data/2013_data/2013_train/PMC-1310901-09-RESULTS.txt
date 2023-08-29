@@ -1,0 +1,73 @@
+Absence of IRF-4 expression in leukemia cells is not due to promoter alterations
+# T1 Protein S1 11 16 11 16 IRF-4
+$ T1 Protein S1 11 16 11 16 IRF-4
+@ T14 Negative_regulation S1 0 7 0 7 Absence
+@ T15 Gene_expression S1 17 27 17 27 expression
+@ T16 Positive_regulation S1 53 56 53 56 due
+% E1 Negative_regulation:T14 Theme:E2
+% E2 Gene_expression:T15 Theme:T1
+% E3 Positive_regulation:T16 Theme:E1
+
+We have previously demonstrated a lack of IRF-4 expression in leukemia patients and specifically in CML T-cells (3).
+# T2 Protein S2 42 47 123 128 IRF-4
+$ T2 Protein S2 42 47 123 128 IRF-4
+@ T17 Negative_regulation S2 34 38 115 119 lack
+@ T18 Gene_expression S2 48 58 129 139 expression
+% E4 Negative_regulation:T17 Theme:E5
+% E5 Gene_expression:T18 Theme:T2
+
+Here, we demonstrate the absence of IRF-4 expression in various hematopoietic cell lines, such as Jurkat, a T-cell leukemia, CML-T1, a bcr-abl-positive T-cell line, K-562, a bcr-abl-positve erythroleukemia, U-937, a monocytic leukemia, EM-2 and LAMA-84, bcr-abl-positve myeloid leukemia, but not in SD-1, a bcr-abl-positive acute lymphoblastic leukemia (pre B-ALL), RPMI-8226, a multiple myeloma and BV-173, a bcr-abl-positive B-cell line (Figures 1A and 5D).
+# T3 Protein S3 36 41 234 239 IRF-4
+# T4 Protein S3 135 142 333 340 bcr-abl
+# T5 Protein S3 174 181 372 379 bcr-abl
+# T6 Protein S3 254 261 452 459 bcr-abl
+# T7 Protein S3 307 314 505 512 bcr-abl
+# T8 Protein S3 410 417 608 615 bcr-abl
+$ T3 Protein S3 36 41 234 239 IRF-4
+$ T4 Protein S3 135 142 333 340 bcr-abl
+$ T5 Protein S3 174 181 372 379 bcr-abl
+$ T6 Protein S3 254 261 452 459 bcr-abl
+$ T7 Protein S3 307 314 505 512 bcr-abl
+$ T8 Protein S3 410 417 608 615 bcr-abl
+@ T19 Gene_expression S3 42 52 240 250 expression
+@ T20 Gene_expression S3 143 151 341 349 positive
+@ T21 Gene_expression S3 182 189 380 387 positve
+@ T22 Gene_expression S3 262 269 460 467 positve
+@ T23 Gene_expression S3 315 323 513 521 positive
+@ T24 Gene_expression S3 418 426 616 624 positive
+% E6 Gene_expression:T19 Theme:T3
+% E7 Gene_expression:T20 Theme:T4
+% E8 Gene_expression:T21 Theme:T5
+% E9 Gene_expression:T22 Theme:T6
+% E10 Gene_expression:T23 Theme:T7
+% E11 Gene_expression:T24 Theme:T8
+
+After sequencing of the IRF-4 promoter, it could be excluded that absence of IRF-4 expression in any of the above cell lines was due to genetic aberrations.
+# T9 Protein S4 24 29 682 687 IRF-4
+# T10 Protein S4 77 82 735 740 IRF-4
+$ T10 Protein S4 77 82 735 740 IRF-4
+@ T25 Negative_regulation S4 66 73 724 731 absence
+@ T26 Gene_expression S4 83 93 741 751 expression
+% E12 Negative_regulation:T25 Theme:E13
+% E13 Gene_expression:T26 Theme:T10
+
+However, 2 bp changes (nucleotide -1081, T to C and -1068, A to C) could be detected in both the IRF-4-positive BV-173 and the IRF-4-negative LAMA-84, EM-2 and K-562 (Figure 1B).
+# T11 Protein S5 97 102 912 917 IRF-4
+# T12 Protein S5 127 132 942 947 IRF-4
+$ T11 Protein S5 97 102 912 917 IRF-4
+$ T12 Protein S5 127 132 942 947 IRF-4
+@ T27 Gene_expression S5 103 111 918 926 positive
+@ T28 Gene_expression S5 133 141 948 956 negative
+% E14 Gene_expression:T27 Theme:T11
+% E15 Gene_expression:T28 Theme:T12
+
+At position -116 an A to C substitution was found in EM-2, K-562 and CML-T1, whereas Jurkat, BV-173 and SD-1 exhibited a mixed A/C sequence and U-937, LAMA-84 and RPMI-8226 no substitution at all (Figure 1B).
+
+Consequently, these alterations are unlikely to affect IRF-4 expression.
+# T13 Protein S7 55 60 1258 1263 IRF-4
+$ T13 Protein S7 55 60 1258 1263 IRF-4
+@ T29 Regulation S7 48 54 1251 1257 affect
+@ T30 Gene_expression S7 61 71 1264 1274 expression
+% E16 Regulation:T29 Theme:E17
+% E17 Gene_expression:T30 Theme:T13
+

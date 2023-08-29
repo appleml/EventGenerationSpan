@@ -1,0 +1,36 @@
+Functional Myc-Max heterodimer is required for activation-induced apoptosis in T cell hybridomas.
+# T1 Protein S1 11 14 11 14 Myc
+# T2 Protein S1 15 18 15 18 Max
+
+T cell hybridomas respond to activation signals by undergoing apoptotic cell death, and this is likely to represent comparable events related to tolerance induction in immature and mature T cells in vivo.
+
+Previous studies using antisense oligonucleotides implicated the c-Myc protein in the phenomenon of activation-induced apoptosis.
+# T3 Protein S3 65 70 369 374 c-Myc
+
+This role for c-Myc in apoptosis is now confirmed in studies using a dominant negative form of its heterodimeric binding partner, Max, which we show here inhibits activation-induced apoptosis.
+# T4 Protein S4 14 19 448 453 c-Myc
+# T5 Protein S4 130 133 564 567 Max
+$ T4 Protein S4 14 19 448 453 c-Myc
+$ T5 Protein S4 130 133 564 567 Max
+@ T10 Binding S4 113 128 547 562 binding partner
+% E1 Binding:T10 Theme:T4 Theme2:T5
+
+Further, coexpression of a reciprocally mutant Myc protein capable of forming functional heterodimers with the mutant Max can compensate for the dominant negative activity and restore activation-induced apoptosis.
+# T6 Protein S5 47 50 674 677 Myc
+# T7 Protein S5 118 121 745 748 Max
+$ T7 Protein S5 118 121 745 748 Max
+$ T6 Protein S5 47 50 674 677 Myc
+@ T11 Gene_expression S5 9 21 636 648 coexpression
+@ T12 Binding S5 59 101 686 728 capable of forming functional heterodimers
+% E2 Gene_expression:T11 Theme:T7
+% E3 Gene_expression:T11 Theme:T6
+% E4 Binding:T12 Theme:T6 Theme2:T7
+
+These results imply that Myc promotes activation-induced apoptosis by obligatory heterodimerization with Max, and therefore, by regulating gene transcription.
+# T8 Protein S6 25 28 866 869 Myc
+# T9 Protein S6 105 108 946 949 Max
+$ T8 Protein S6 25 28 866 869 Myc
+$ T9 Protein S6 105 108 946 949 Max
+@ T13 Binding S6 81 99 922 940 heterodimerization
+% E5 Binding:T13 Theme:T8 Theme2:T9
+

@@ -1,0 +1,73 @@
+Posttranscriptional regulation of macrophage tissue factor expression by antioxidants.
+# T1 Protein S1 45 58 45 58 tissue factor
+$ T1 Protein S1 45 58 45 58 tissue factor
+@ T10 Regulation S1 0 30 0 30 Posttranscriptional regulation
+@ T11 Gene_expression S1 59 69 59 69 expression
+% E1 Regulation:T10 Theme:E2
+% E2 Gene_expression:T11 Theme:T1
+
+Tissue factor (TF) expression by cells of monocyte/macrophage lineage represents an important mechanism underlying the initiation of fibrin deposition at sites of extravascular inflammation.
+# T2 Protein S2 0 13 88 101 Tissue factor
+# T3 Protein S2 15 17 103 105 TF
+$ T3 Protein S2 15 17 103 105 TF
+@ T12 Gene_expression S2 19 29 107 117 expression
+% E3 Gene_expression:T12 Theme:T3
+
+Recent evidence suggests a role for oxidant stress in the signalling pathway of various cell types by virtue of its ability to induce DNA binding of various transcription factors, including nuclear factor kappa B and AP-1.
+
+The effect of antioxidant treatment on lipopolysaccharide (LPS)-induced TF expression was examined in murine peritoneal macrophages and human monocytes.
+# T4 Protein S4 72 74 574 576 TF
+$ T4 Protein S4 72 74 574 576 TF
+@ T13 Regulation S4 4 10 506 512 effect
+@ T14 Positive_regulation S4 64 71 566 573 induced
+@ T15 Gene_expression S4 75 85 577 587 expression
+% E4 Regulation:T13 Theme:E5
+% E5 Positive_regulation:T14 Theme:E6
+% E6 Gene_expression:T15 Theme:T4
+
+Both pyrrolidine dithiocarbamate, an oxidant scavenger, and N-acetyl-cysteine, a precursor of the endogenous antioxidant glutathione, inhibited stimulation of macrophage procoagulant activity by LPS.
+
+Northern blot analysis showed that neither of these agents reduced LPS-stimulated TF mRNA accumulation, thereby suggesting a posttranscriptional mechanism for the effect.
+# T5 Protein S6 82 84 937 939 TF
+$ T5 Protein S6 82 84 937 939 TF
+@ T16 Negative_regulation S6 59 66 914 921 reduced
+@ T17 Positive_regulation S6 71 81 926 936 stimulated
+@ T18 Positive_regulation S6 90 102 945 957 accumulation
+% E7 Negative_regulation:T16 Theme:E8
+% E8 Positive_regulation:T17 Theme:E9
+% E9 Positive_regulation:T18 Theme:T5
+
+Immunofluorescence studies of human monocytes using polyclonal anti-TF antibody showed that N-acetyl-cysteine treatment prevented the characteristic plasmalemmal localization of TF antigen that occurs in response to LPS.
+# T6 Protein S7 68 70 1094 1096 TF
+# T7 Protein S7 178 180 1204 1206 TF
+$ T7 Protein S7 178 180 1204 1206 TF
+@ T19 Negative_regulation S7 120 129 1146 1155 prevented
+@ T20 Entity S7 149 161 1175 1187 plasmalemmal
+@ T21 Localization S7 162 174 1188 1200 localization
+@ T22 Positive_regulation S7 194 200 1220 1226 occurs
+% E10 Negative_regulation:T19 Theme:E12
+% E11 Localization:T21 Theme:T7 ToLoc:T20
+% E12 Positive_regulation:T22 Theme:E11
+
+Western blot analysis showed that N-acetyl-cysteine reduced the accumulation of the 47-kD mature glycoprotein in LPS-treated cells, a finding consistent with the results of the immunofluorescence studies.
+
+Furthermore, these conditions did not result in an accumulation of the less mature forms of TF.
+# T8 Protein S9 92 94 1544 1546 TF
+$ T8 Protein S9 92 94 1544 1546 TF
+@ T23 Positive_regulation S9 38 44 1490 1496 result
+@ T24 Positive_regulation S9 51 63 1503 1515 accumulation
+% E13 Positive_regulation:T23 Theme:E14
+% E14 Positive_regulation:T24 Theme:T8
+
+When considered together, these data suggest that antioxidants exert their effects by impairing translation and/or by causing degradation of newly translated protein.
+
+The effect of antioxidants on tumor necrosis factor appeared to be species specific, with no effect on LPS-induced tumor necrosis factor in murine cells, but with inhibition in human monocytes.
+
+The posttranscriptional effect of antioxidants on TF expression data suggests a novel mechanism whereby these agents might modulate monocyte/macrophage activation.
+# T9 Protein S12 50 52 1959 1961 TF
+$ T9 Protein S12 50 52 1959 1961 TF
+@ T25 Regulation S12 4 30 1913 1939 posttranscriptional effect
+@ T26 Gene_expression S12 53 63 1962 1972 expression
+% E15 Regulation:T25 Theme:E16
+% E16 Gene_expression:T26 Theme:T9
+

@@ -1,0 +1,46 @@
+Erythropoietin-dependent induction of hemoglobin synthesis in a cytokine-dependent cell line M-TAT.
+# T1 Protein S1 0 14 0 14 Erythropoietin
+
+M-TAT is a cytokine-dependent cell line with the potential to differentiate along the erythroid and megakaryocytic lineages.
+
+We cultured M-TAT cells long term (> 1 year) in the continuous presence of erythropoietin (EPO), granulocyte-macrophage colony-stimulating factor (GM-CSF), or stem cell factor (SCF).
+# T2 Protein S3 75 89 301 315 erythropoietin
+# T3 Protein S3 91 94 317 320 EPO
+# T4 Protein S3 97 145 323 371 granulocyte-macrophage colony-stimulating factor
+# T5 Protein S3 147 153 373 379 GM-CSF
+# T6 Protein S3 159 175 385 401 stem cell factor
+# T7 Protein S3 177 180 403 406 SCF
+
+These long term cultures are referred to as M-TAT/EPO, M-TAT/GM-CSF, and M-TAT/SCF cells, respectively.
+
+Hemoglobin concentration and gamma-globin and erythroid delta-aminolevulinate synthase mRNA levels were significantly higher in M-TAT/EPO cells than in M-TAT/GM-CSF cells.
+# T8 Protein S5 46 86 559 599 erythroid delta-aminolevulinate synthase
+# T9 Protein S5 134 137 647 650 EPO
+# T10 Protein S5 158 164 671 677 GM-CSF
+$ T8 Protein S5 46 86 559 599 erythroid delta-aminolevulinate synthase
+@ T24 Transcription S5 92 98 605 611 levels
+% E2 Transcription:T24 Theme:T8
+
+When the supplemented cytokine was switched from GM-CSF to EPO, hemoglobin synthesis in M-TAT/GM-CSF cells increased rapidly (within 5 h), and the level of GATA-1 mRNA increased.
+# T11 Protein S6 49 55 734 740 GM-CSF
+# T12 Protein S6 59 62 744 747 EPO
+# T13 Protein S6 94 100 779 785 GM-CSF
+# T14 Protein S6 156 162 841 847 GATA-1
+$ T14 Protein S6 156 162 841 847 GATA-1
+@ T25 Positive_regulation S6 168 177 853 862 increased
+% E3 Positive_regulation:T25 Theme:T14
+
+In contrast, the addition of GM-CSF to the M-TAT/EPO cell culture decreased the amount of hemoglobin, even in the presence of EPO, indicating that the EPO signal for erythroid differentiation is suppressed by GM-CSF.
+# T15 Protein S7 29 35 893 899 GM-CSF
+# T16 Protein S7 49 52 913 916 EPO
+# T17 Protein S7 126 129 990 993 EPO
+# T18 Protein S7 151 154 1015 1018 EPO
+# T19 Protein S7 209 215 1073 1079 GM-CSF
+
+Thus, erythroid development of M-TAT cells is promoted by EPO and suppressed by GM-CSF.
+# T20 Protein S8 58 61 1139 1142 EPO
+# T21 Protein S8 80 86 1161 1167 GM-CSF
+
+These results support the hypothesis that EPO actively influences the programming of gene expression required for erythroid progenitor cell differentiation.
+# T22 Protein S9 42 45 1211 1214 EPO
+

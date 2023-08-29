@@ -1,0 +1,51 @@
+Alcohol-induced regulation of nuclear regulatory factor-kappa beta in human monocytes.
+
+Acute ethanol exposure has the capacity to modulate immune functions, particularly, to down regulate monocyte production of inflammatory cytokines.
+
+However, the intracellular mechanisms for these effects of ethanol are yet to be understood.
+
+Considering that nuclear regulatory factor-kappa beta (NF-kappa B)/Rel is a common regulatory element of the promoter region of the inflammatory cytokine genes, herein, we tested the hypothesis that acute ethanol affects NF-kappa B activation in human monocytes.
+
+Adherence-isolated monocytes showed constitutive DNA binding activity of NF-kappa B.
+
+A clinically relevant dose (25 mM) of acute ethanol treatment in vitro increased NF-kappa B binding activity in monocytes with a preferential induction of the inhibitory, p50/p50, NF-kappa B/Rel homodimer, and resulted in no induction of the p65/p50 heterodimer.
+# T1 Protein S6 171 174 848 851 p50
+# T2 Protein S6 175 178 852 855 p50
+# T3 Protein S6 242 245 919 922 p65
+# T4 Protein S6 246 249 923 926 p50
+$ T1 Protein S6 171 174 848 851 p50
+@ T12 Positive_regulation S6 142 151 819 828 induction
+% E1 Positive_regulation:T12 Theme:T1
+
+In contrast, lipopolysaccharide stimulation primarily induced the p65/p50 heterodimer that has been shown to result in gene activation.
+# T5 Protein S7 66 69 1006 1009 p65
+# T6 Protein S7 70 73 1010 1013 p50
+$ T6 Protein S7 70 73 1010 1013 p50
+$ T5 Protein S7 66 69 1006 1009 p65
+@ T13 Positive_regulation S7 54 61 994 1001 induced
+% E2 Positive_regulation:T13 Theme:T6
+% E3 Positive_regulation:T13 Theme:T5
+
+Thus, such unique activation of the inhibitory p50/p50 homodimer by acute ethanol treatment may result in inhibition rather than activation of NF-kappa B-regulated inflammatory cytokine genes.
+# T7 Protein S8 47 50 1123 1126 p50
+# T8 Protein S8 51 54 1127 1130 p50
+$ T7 Protein S8 47 50 1123 1126 p50
+@ T14 Positive_regulation S8 18 28 1094 1104 activation
+% E4 Positive_regulation:T14 Theme:T7
+
+Consequently, these results suggest that physiologically relevant concentrations of ethanol may affect production of inflammatory cytokines, such as tumor necrosis factor-alpha, interleukin-1 beta, and interleukin-6 by disrupting NF-kappa B signaling in monocytes.
+# T9 Protein S9 149 176 1418 1445 tumor necrosis factor-alpha
+# T10 Protein S9 178 196 1447 1465 interleukin-1 beta
+# T11 Protein S9 202 215 1471 1484 interleukin-6
+$ T11 Protein S9 202 215 1471 1484 interleukin-6
+$ T10 Protein S9 178 196 1447 1465 interleukin-1 beta
+$ T9 Protein S9 149 176 1418 1445 tumor necrosis factor-alpha
+@ T15 Regulation S9 96 102 1365 1371 affect
+@ T16 Gene_expression S9 103 113 1372 1382 production
+% E5 Regulation:T15 Theme:E9
+% E6 Regulation:T15 Theme:E10
+% E7 Regulation:T15 Theme:E8
+% E8 Gene_expression:T16 Theme:T11
+% E9 Gene_expression:T16 Theme:T10
+% E10 Gene_expression:T16 Theme:T9
+

@@ -1,0 +1,47 @@
+Statistical	JJ	B-NP	O	Other	No	No	Other	Other	###	1	Statistical	Statistical	JJ	JJ	_	2	amod	_	_
+analysis	NN	I-NP	O	Other	No	No	Other	Other	###	2	analysis	analysis	NN	NN	_	0	root	_	_
+
+The	DT	B-NP	O	Other	No	No	Other	Other	###	1	The	The	DT	DT	_	3	det	_	_
+statistical	JJ	I-NP	O	Other	No	No	Other	Other	###	2	statistical	statistical	JJ	JJ	_	3	amod	_	_
+significance	NN	I-NP	O	Other	No	No	Other	Other	###	3	significance	significance	NN	NN	_	9	nsubjpass	_	_
+of	IN	B-PP	O	Other	No	No	Other	Other	###	4	of	of	IN	IN	_	5	case	_	_
+differences	NNS	B-NP	O	Other	No	No	Other	Other	###	5	differences	differences	NNS	NNS	_	3	nmod	_	_
+between	IN	B-PP	O	Other	No	No	Other	Other	###	6	between	between	IN	IN	_	7	case	_	_
+groups	NNS	B-NP	O	Other	No	No	Other	Other	###	7	groups	groups	NNS	NNS	_	5	nmod	_	_
+was	VBD	B-VP	O	Other	No	No	Other	Other	###	8	was	was	VBD	VBD	_	9	auxpass	_	_
+determined	VBN	I-VP	O	Other	No	No	Other	Other	###	9	determined	determined	VBN	VBN	_	0	root	_	_
+using	VBG	I-VP	O	Other	No	No	Other	Other	###	10	using	using	VBG	VBG	_	9	xcomp	_	_
+the	DT	B-NP	O	Other	No	No	Other	Other	###	11	the	the	DT	DT	_	16	det	_	_
+paired	JJ	I-NP	O	Other	No	No	Other	Other	###	12	paired	paired	JJ	JJ	_	16	amod	_	_
+two-tailed	JJ	I-NP	O	Other	No	No	Other	Other	###	13	two-tailed	two-tailed	JJ	JJ	_	16	amod	_	_
+Wilcoxon	NNP	I-NP	O	Other	No	No	Other	Other	###	14	Wilcoxon	Wilcoxon	NNP	NNP	_	16	compound	_	_
+nonparametric	JJ	I-NP	O	Other	No	No	Other	Other	###	15	nonparametric	nonparametric	JJ	JJ	_	16	amod	_	_
+test	NN	I-NP	O	Other	No	No	Other	Other	###	16	test	test	NN	NN	_	10	dobj	_	_
+,	,	O	O	Other	No	No	Other	Other	###	17	,	,	,	,	_	10	punct	_	_
+by	IN	B-PP	O	Other	No	No	Other	Other	###	18	by	by	IN	IN	_	19	mark	_	_
+applying	VBG	B-VP	O	Other	No	No	Other	Other	###	19	applying	applying	VBG	VBG	_	10	advcl	_	_
+SPSS10.1	NN	B-NP	O	Other	No	No	Other	Other	###	20	SPSS10.1	SPSS10.1	NN	NN	_	21	compound	_	_
+software	NN	I-NP	O	Other	No	No	Other	Other	###	21	software	software	NN	NN	_	19	dobj	_	_
+(	(	O	O	Other	No	No	Other	Other	###	22	(	(	(	(	_	24	punct	_	_
+SPSS	NNP	B-NP	O	Other	No	No	Other	Other	###	23	SPSS	SPSS	NNP	NNP	_	24	compound	_	_
+Inc	NNP	I-NP	O	Other	No	No	Other	Other	###	24	Inc	Inc	NNP	NNP	_	21	dep	_	_
+.	.	O	O	Other	No	No	Other	Other	###	25	.	.	.	.	_	24	punct	_	_
+,	,	O	O	Other	No	No	Other	Other	###	26	,	,	,	,	_	24	punct	_	_
+Chicago	NNP	B-NP	O	Other	No	No	Other	Other	###	27	Chicago	Chicago	NNP	NNP	_	24	appos	_	_
+,	,	O	O	Other	No	No	Other	Other	###	28	,	,	,	,	_	24	punct	_	_
+IL	NNP	B-NP	O	Other	No	No	Other	Other	###	29	IL	IL	NNP	NNP	_	24	appos	_	_
+,	,	O	O	Other	No	No	Other	Other	###	30	,	,	,	,	_	24	punct	_	_
+USA	NNP	B-NP	O	Other	No	No	Other	Other	###	31	USA	USA	NNP	NNP	_	24	appos	_	_
+)	)	O	O	Other	No	No	Other	Other	###	32	)	)	)	)	_	24	punct	_	_
+.	.	O	O	Other	No	No	Other	Other	###	33	.	.	.	.	_	9	punct	_	_
+
+P	NN	B-NP	O	Other	No	No	Other	Other	###	1	P	P	NN	NN	_	2	compound	_	_
+values	NNS	I-NP	O	Other	No	No	Other	Other	###	2	values	values	NNS	NNS	_	7	nsubjpass	_	_
+less	JJR	B-NP	O	Other	No	No	Other	Other	###	3	less	less	JJR	JJR	_	2	amod	_	_
+than	IN	I-NP	O	Other	No	No	Other	Other	###	4	than	than	IN	IN	_	5	case	_	_
+0.05	CD	I-NP	O	Other	No	No	Other	Other	###	5	0.05	0.05	CD	CD	_	3	nmod	_	_
+were	VBD	B-VP	O	Other	No	No	Other	Other	###	6	were	were	VBD	VBD	_	7	auxpass	_	_
+considered	VBN	I-VP	O	Other	No	No	Other	Other	###	7	considered	considered	VBN	VBN	_	0	root	_	_
+significant	JJ	B-ADJP	O	Other	No	No	Other	Other	###	8	significant	significant	JJ	JJ	_	7	xcomp	_	_
+.	.	O	O	Other	No	No	Other	Other	###	9	.	.	.	.	_	7	punct	_	_
+

@@ -1,0 +1,53 @@
+Immunosuppressant PG490 (triptolide) inhibits T-cell interleukin-2 expression at the level of purine-box/nuclear factor of activated T-cells and NF-kappaB transcriptional activation.
+# T1 Protein S1 53 66 53 66 interleukin-2
+$ T1 Protein S1 53 66 53 66 interleukin-2
+@ T9 Negative_regulation S1 37 45 37 45 inhibits
+@ T10 Gene_expression S1 67 77 67 77 expression
+% E1 Negative_regulation:T9 Theme:E2
+% E2 Gene_expression:T10 Theme:T1
+
+PG490 (triptolide) is a diterpene triepoxide with potent immunosuppressive and antiinflammatory properties.
+
+PG490 inhibits interleukin(IL)-2 expression by normal human peripheral blood lymphocytes stimulated with phorbol 12-myristate 13-acetate (PMA) and antibody to CD3 (IC50 of 10 ng/ml), and with PMA and ionomycin (Iono, IC50 of 40 ng/ml).
+# T2 Protein S3 15 32 307 324 interleukin(IL)-2
+$ T2 Protein S3 15 32 307 324 interleukin(IL)-2
+@ T11 Negative_regulation S3 6 14 298 306 inhibits
+@ T12 Gene_expression S3 33 43 325 335 expression
+% E3 Negative_regulation:T11 Theme:E4
+% E4 Gene_expression:T12 Theme:T2
+
+In Jurkat T-cells, PG490 inhibits PMA/Iono-stimulated IL-2 transcription.
+# T3 Protein S4 54 58 582 586 IL-2
+$ T3 Protein S4 54 58 582 586 IL-2
+@ T13 Negative_regulation S4 19 24 547 552 PG490
+@ T14 Positive_regulation S4 43 53 571 581 stimulated
+@ T15 Transcription S4 59 72 587 600 transcription
+% E5 Negative_regulation:T13 Theme:E6
+% E6 Positive_regulation:T14 Theme:E7
+% E7 Transcription:T15 Theme:T3
+
+PG490 inhibits the induction of DNA binding activity at the purine-box/antigen receptor response element (ARRE)/nuclear factor of activated T-cells (NF-AT) target sequence but not at the NF-kappaB site.
+
+PG490 can completely inhibit transcriptional activation at the purine-box/ARRE/NF-AT and NF-kappaB target DNA sequences triggered by all stimuli examined (PMA, PMA/Iono, tumor necrosis factor-alpha).
+# T4 Protein S6 170 197 975 1002 tumor necrosis factor-alpha
+
+PG490 also inhibits PMA-stimulated activation of a chimeric transcription factor in which the C-terminal TA1 transactivation domain of NF-kappaB p65 is fused to the DNA binding domain of GAL4.
+# T5 Protein S7 145 148 1150 1153 p65
+# T6 Protein S7 187 191 1192 1196 GAL4
+
+In 16HBE human bronchial epithelial cells, IL-8 expression is regulated predominantly by NF-kappaB, and PG490 but not cyclosporin A can completely inhibit expression of IL-8.
+# T7 Protein S8 43 47 1241 1245 IL-8
+# T8 Protein S8 169 173 1367 1371 IL-8
+$ T7 Protein S8 43 47 1241 1245 IL-8
+$ T8 Protein S8 169 173 1367 1371 IL-8
+@ T16 Gene_expression S8 48 58 1246 1256 expression
+@ T17 Regulation S8 62 71 1260 1269 regulated
+@ T18 Negative_regulation S8 147 154 1345 1352 inhibit
+@ T19 Gene_expression S8 155 165 1353 1363 expression
+% E8 Gene_expression:T16 Theme:T7
+% E9 Regulation:T17 Theme:E8
+% E10 Negative_regulation:T18 Theme:E11
+% E11 Gene_expression:T19 Theme:T8
+
+The mechanism of PG490 inhibition of cytokine gene expression differs from cyclosporin A and involves nuclear inhibition of transcriptional activation of NF-kappaB and the purine-box regulator operating at the ARRE/NF-AT site at a step after specific DNA binding.
+

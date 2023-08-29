@@ -1,0 +1,81 @@
+Regulation of nuclear factor-kappa B and its inhibitor I kappa B-alpha/MAD-3 in monocytes by Mycobacterium tuberculosis and during human tuberculosis.
+# T1 Protein S1 55 70 55 70 I kappa B-alpha
+# T2 Protein S1 71 76 71 76 MAD-3
+$ T1 Protein S1 55 70 55 70 I kappa B-alpha
+@ T13 Regulation S1 0 10 0 10 Regulation
+% E1 Regulation:T13 Theme:T1
+
+Blood monocytes from patients with active tuberculosis are activated in vivo, as evidenced by an increase in the stimulated release of proinflammatory cytokines, such as TNF-alpha, and the spontaneous expression of IL-2R.
+# T3 Protein S2 170 179 322 331 TNF-alpha
+# T4 Protein S2 215 220 367 372 IL-2R
+$ T3 Protein S2 170 179 322 331 TNF-alpha
+$ T4 Protein S2 215 220 367 372 IL-2R
+@ T14 Positive_regulation S2 97 105 249 257 increase
+@ T15 Positive_regulation S2 113 123 265 275 stimulated
+@ T16 Localization S2 124 131 276 283 release
+@ T17 Gene_expression S2 189 211 341 363 spontaneous expression
+% E2 Positive_regulation:T14 Theme:E5
+% E3 Positive_regulation:T14 Theme:E6
+% E4 Positive_regulation:T15 Theme:E5
+% E5 Localization:T16 Theme:T3
+% E6 Gene_expression:T17 Theme:T4
+
+Further, monocytes from patients demonstrate an augmented susceptibility to a productive infection with HIV-1 in vitro.
+
+Mycobacterium tuberculosis and its components are strong signals to activate monocytes to production of cytokines.
+
+In this study we examined the basis of activation of monocytes during active tuberculosis and by M. tuberculosis.
+
+We found a constitutive degradation of I kappa B-alpha, the major cytoplasmic inhibitor of nuclear factor kappa B (NF-kappa B), in freshly isolated PBMC and monocytes from patients with tuberculosis.
+# T5 Protein S6 39 54 762 777 I kappa B-alpha
+$ T5 Protein S6 39 54 762 777 I kappa B-alpha
+@ T18 Protein_catabolism S6 24 35 747 758 degradation
+% E7 Protein_catabolism:T18 Theme:T5
+
+In contrast, I kappa B-alpha levels in PBMC and monocytes from healthy subjects or from patients with nontuberculous pulmonary conditions were intact.
+# T6 Protein S7 13 28 936 951 I kappa B-alpha
+$ T6 Protein S7 13 28 936 951 I kappa B-alpha
+@ T19 Protein_catabolism S7 143 149 1066 1072 intact
+% E8 Protein_catabolism:T19 Theme:T6
+
+Further, by electrophoretic mobility shift assay, NF-kappa B was activated in monocytes from tuberculous patients.
+
+The expression of I kappa B-alpha gene, which is responsive to activation by NF-kappa B, was up-regulated in PBMC and monocytes from patients, but not in mononuclear cells from healthy subjects or those with nontuberculous lung diseases.
+# T7 Protein S9 18 33 1207 1222 I kappa B-alpha
+$ T7 Protein S9 18 33 1207 1222 I kappa B-alpha
+@ T20 Gene_expression S9 4 14 1193 1203 expression
+@ T21 Positive_regulation S9 63 73 1252 1262 activation
+@ T22 Positive_regulation S9 93 105 1282 1294 up-regulated
+% E9 Gene_expression:T20 Theme:T7
+% E10 Positive_regulation:T21 Theme:E9
+% E11 Positive_regulation:T22 Theme:E9
+
+By contrast, the expression of other adherence-associated early genes, such as IL-8 and IL-1 beta, was not up-regulated in PBMC of tuberculous patients.
+# T8 Protein S10 79 83 1506 1510 IL-8
+# T9 Protein S10 88 97 1515 1524 IL-1 beta
+$ T9 Protein S10 88 97 1515 1524 IL-1 beta
+$ T8 Protein S10 79 83 1506 1510 IL-8
+@ T23 Gene_expression S10 17 27 1444 1454 expression
+@ T24 Positive_regulation S10 107 119 1534 1546 up-regulated
+% E12 Gene_expression:T23 Theme:T9
+% E13 Gene_expression:T23 Theme:T8
+% E14 Positive_regulation:T24 Theme:E13
+% E15 Positive_regulation:T24 Theme:E12
+
+Further, M. tuberculosis and its tuberculin, purified protein derivative, induced the degradation of I kappa B-alpha and the expression of I kappa B-alpha mRNA, and purified protein derivative induced the activation of NF-kappa B in monocytes.
+# T10 Protein S11 33 43 1613 1623 tuberculin
+# T11 Protein S11 101 116 1681 1696 I kappa B-alpha
+# T12 Protein S11 139 154 1719 1734 I kappa B-alpha
+$ T10 Protein S11 33 43 1613 1623 tuberculin
+$ T11 Protein S11 101 116 1681 1696 I kappa B-alpha
+$ T12 Protein S11 139 154 1719 1734 I kappa B-alpha
+@ T25 Positive_regulation S11 74 81 1654 1661 induced
+@ T26 Protein_catabolism S11 86 97 1666 1677 degradation
+@ T27 Transcription S11 125 135 1705 1715 expression
+% E16 Positive_regulation:T25 Theme:E20 Cause:T10
+% E17 Positive_regulation:T25 Theme:E21 Cause:T10
+% E18 Positive_regulation:T25 Theme:E21
+% E19 Positive_regulation:T25 Theme:E20
+% E20 Protein_catabolism:T26 Theme:T11
+% E21 Transcription:T27 Theme:T12
+

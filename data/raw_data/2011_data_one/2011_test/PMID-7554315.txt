@@ -1,0 +1,43 @@
+Temperature-induced down-regulation of the glucocorticoid receptor in peripheral blood mononuclear leucocyte in patients with sepsis or septic shock.
+# T1 Protein S1 43 66 43 66 glucocorticoid receptor
+
+OBJECTIVE: Activation of the hypothalamic-pituitary-adrenal axis is of vital importance during critical illness.
+
+We have studied the adaptive mechanisms which occur at the level of the glucocorticoid receptor in glucocorticoid target tissues in patients with sepsis or septic shock.
+# T2 Protein S3 72 95 336 359 glucocorticoid receptor
+
+DESIGN: The effects of hypercortisolaemia, hyperthermia and cellular composition on number of glucocorticoid receptors per cell and their affinity were evaluated, both in vitro and in vivo, in peripheral blood mononuclear leucocytes of control subjects and in patients with sepsis or septic shock.
+# T3 Protein S4 94 118 528 552 glucocorticoid receptors
+
+SUBJECTS: Fifteen patients (age 25-79) with sepsis or septic shock who were admitted to an intensive care unit were studied.
+
+The control group consisted of 24 healthy laboratory employees.
+
+MEASUREMENTS: The binding capacity and affinity of the glucocorticoid receptors were measured and compared to clinical data and the plasma cortisol concentrations.
+# T4 Protein S7 55 79 976 1000 glucocorticoid receptors
+
+RESULTS: Hypercortisolaemia, in vitro, resulted in a decreased affinity and a decreased binding capacity of the glucocorticoid receptor.
+# T5 Protein S8 112 135 1197 1220 glucocorticoid receptor
+
+In vitro, hyperthermia as well as variations in the cellular composition did not influence the glucocorticoid receptor.
+# T6 Protein S9 95 118 1317 1340 glucocorticoid receptor
+
+In vivo, there was no change in the number of receptors per cell in patients with sepsis or septic shock as compared to healthy controls.
+
+However, a decreased affinity of the glucocorticoid receptor was observed.
+# T7 Protein S11 37 60 1517 1540 glucocorticoid receptor
+
+There was a weak but significant negative correlation between body temperature and the number of glucocorticoid receptors in the patient group.
+# T8 Protein S12 97 121 1652 1676 glucocorticoid receptors
+
+There was no relation between circulating cortisol concentrations and glucocorticoid receptor affinity and number.
+# T9 Protein S13 70 93 1769 1792 glucocorticoid receptor
+
+CONCLUSIONS: There is no obvious regulation of the number of glucocorticoid receptors by plasma cortisol concentrations in vivo.
+# T10 Protein S14 61 85 1875 1899 glucocorticoid receptors
+
+The decreased affinity of the glucocorticoid receptor together with the negative correlation between hyperthermia and the number of glucocorticoid receptors in patients with sepsis or septic shock suggest that hypothalamic-pituitary-adrenal axis activation during critical illness is accompanied by peripheral adaptation in glucocorticoid receptor number and affinity.
+# T11 Protein S15 30 53 1973 1996 glucocorticoid receptor
+# T12 Protein S15 132 156 2075 2099 glucocorticoid receptors
+# T13 Protein S15 324 347 2267 2290 glucocorticoid receptor
+

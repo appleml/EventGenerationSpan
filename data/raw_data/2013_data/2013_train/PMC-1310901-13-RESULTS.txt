@@ -1,0 +1,39 @@
+In vitro methylation of an IRF-4 promoter-reporter construct decreases its activity
+# T1 Protein S1 27 32 27 32 IRF-4
+
+To provide evidence for a direct effect of methylational status on IRF-4 promoter activity we performed reporter gene assays with IRF-4 promoter constructs before and after their in vitro methylation.
+# T2 Protein S2 67 72 151 156 IRF-4
+# T3 Protein S2 130 135 214 219 IRF-4
+
+A complete methylation of these constructs was checked via restriction assays with methylation-sensitive endonucleases (Figure 5A).
+
+Intriguingly, methylation of the IRF-4 promoter significantly decreased promoter activity in IRF-4-positive SD-1 cells by 85.0% (Figure 5B).
+# T4 Protein S4 33 38 450 455 IRF-4
+# T5 Protein S4 93 98 510 515 IRF-4
+$ T4 Protein S4 33 38 450 455 IRF-4
+$ T5 Protein S4 93 98 510 515 IRF-4
+@ T10 Negative_regulation S4 62 71 479 488 decreased
+@ T11 Entity S4 72 80 489 497 promoter
+@ T12 Gene_expression S4 99 107 516 524 positive
+% E1 Negative_regulation:T10 Theme:T4 Site:T11
+% E2 Gene_expression:T12 Theme:T5
+
+The silencing effect of CpG methylation was not restricted to IRF-4-positive cells, since in vitro methylation led to a 92.9% abrogation of promoter activity in IRF-4-negative Jurkat cells (Figure 5C).
+# T6 Protein S5 62 67 620 625 IRF-4
+# T7 Protein S5 161 166 719 724 IRF-4
+$ T6 Protein S5 62 67 620 625 IRF-4
+$ T7 Protein S5 161 166 719 724 IRF-4
+@ T13 Gene_expression S5 68 76 626 634 positive
+@ T14 Negative_regulation S5 126 136 684 694 abrogation
+@ T15 Entity S5 140 148 698 706 promoter
+@ T16 Gene_expression S5 167 175 725 733 negative
+% E3 Gene_expression:T13 Theme:T6
+% E4 Negative_regulation:T14 Theme:T7 Site:T15
+% E5 Gene_expression:T16 Theme:T7
+
+In contrast, control methylation of a reporter construct with a different promoter (FasL) as well as an empty vector had no effect on the reporter activity (data not shown).
+# T8 Protein S6 84 88 844 848 FasL
+
+These data proved a direct association between methylation and activity of the IRF-4 promoter.
+# T9 Protein S7 79 84 1013 1018 IRF-4
+

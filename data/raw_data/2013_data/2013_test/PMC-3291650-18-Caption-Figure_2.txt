@@ -1,0 +1,28 @@
+A20 negatively regulates IAV-induced gene expression in BMDM and alveolar macrophages.
+
+(A-B) BMDM isolated from A20myel-WT and A20myel-KO animals were infected with IAV (moi 1).
+
+At different hours post infection (hours p.i.) cells were lysed and IL-6, IFNbeta and A20 mRNA expression was analyzed by qPCR (A).
+# T1 Protein S3 68 72 246 250 IL-6
+# T2 Protein S3 74 81 252 259 IFNbeta
+
+18 hours post infection cell culture supernatant was analyzed for TNF and IFNbeta protein levels by ELISA and multiplexing technologies (B).
+# T3 Protein S4 66 69 376 379 TNF
+# T4 Protein S4 74 81 384 391 IFNbeta
+
+(C-D) Alveolar macrophages were mock treated or infected with IAV (moi 1) for 18 hours.
+
+IL-6 and IFNbeta mRNA expression was determined by qPCR (C).
+# T5 Protein S6 0 4 539 543 IL-6
+# T6 Protein S6 9 16 548 555 IFNbeta
+
+Cell culture supernatant was analyzed for IL-6 and IFNbeta protein levels by ELISA and multiplexing technologies (D).
+# T7 Protein S7 42 46 642 646 IL-6
+# T8 Protein S7 51 58 651 658 IFNbeta
+
+Error bars represent mean values (+/- SEM) of 2-3 samples.
+
+Results are representative for 2 independent experiments.
+
+***p<0,001.
+

@@ -1,0 +1,49 @@
+Functional roles of the transcription factor Oct-2A and the high mobility group protein I/Y in HLA-DRA gene expression.
+# T1 Protein S1 45 51 45 51 Oct-2A
+# T2 Protein S1 88 91 88 91 I/Y
+
+The class II major histocompatibility complex gene HLA-DRA is expressed in B cells, activated T lymphocytes, and in antigen-presenting cells.
+
+In addition, HLA-DRA gene expression is inducible in a variety of cell types by interferon-gamma (IFN-gamma).
+# T3 Protein S3 80 96 343 359 interferon-gamma
+# T4 Protein S3 98 107 361 370 IFN-gamma
+
+Here we show that the lymphoid-specific transcription factor Oct-2A plays a critical role in HLA-DRA gene expression in class II-positive B cell lines, and that the high mobility group protein (HMG) I/Y binds to multiple sites within the DRA promoter, including the Oct-2A binding site.
+# T5 Protein S4 61 67 434 440 Oct-2A
+# T6 Protein S4 199 202 572 575 I/Y
+# T7 Protein S4 266 272 639 645 Oct-2A
+$ T6 Protein S4 199 202 572 575 I/Y
+@ T20 Binding S4 203 208 576 581 binds
+% E1 Binding:T20 Theme:T6
+
+Coexpression of HMG I/Y and Oct-2 in cell lines lacking Oct-2 results in high levels of HLA-DRA gene expression, and in vitro DNA-binding studies reveal that HMG I/Y stimulates Oct-2A binding to the HLA-DRA promoter.
+# T8 Protein S5 20 23 680 683 I/Y
+# T9 Protein S5 28 33 688 693 Oct-2
+# T10 Protein S5 56 61 716 721 Oct-2
+# T11 Protein S5 162 165 822 825 I/Y
+# T12 Protein S5 177 183 837 843 Oct-2A
+$ T8 Protein S5 20 23 680 683 I/Y
+$ T9 Protein S5 28 33 688 693 Oct-2
+$ T11 Protein S5 162 165 822 825 I/Y
+$ T12 Protein S5 177 183 837 843 Oct-2A
+@ T21 Gene_expression S5 0 12 660 672 Coexpression
+@ T22 Positive_regulation S5 166 176 826 836 stimulates
+@ T23 Binding S5 184 191 844 851 binding
+% E2 Gene_expression:T21 Theme:T8
+% E3 Gene_expression:T21 Theme:T9
+% E4 Positive_regulation:T22 Theme:E5 Cause:T11
+% E5 Binding:T23 Theme:T12
+
+Thus, Oct-2A and HMG I/Y may synergize to activate HLA-DRA expression in B cells.
+# T13 Protein S6 6 12 883 889 Oct-2A
+# T14 Protein S6 21 24 898 901 I/Y
+
+By contrast, Oct-2A is not involved in the IFN-gamma induction of the HLA-DRA gene in HeLa cells, but antisense HMG I/Y dramatically decreases the level of induction.
+# T15 Protein S7 13 19 972 978 Oct-2A
+# T16 Protein S7 43 52 1002 1011 IFN-gamma
+# T17 Protein S7 116 119 1075 1078 I/Y
+
+We conclude that distinct sets of transcription factors are involved in the two modes of HLA-DRA expression, and that HMG I/Y may be important for B cell-specific expression, and is essential for IFN-gamma induction.
+# T18 Protein S8 122 125 1248 1251 I/Y
+# T19 Protein S8 196 205 1322 1331 IFN-gamma
+

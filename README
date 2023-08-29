@@ -1,0 +1,13 @@
+数据处理：
+(1) data_json.py
+功能： 将数据处理成json形式，进一步转化事件的形式
+输入： data/2011_data_one/2011_train (2011_devel, 2011_test)
+      data/2011_genia_parse_one_split_bio/2011_train (2011_devel, 2011_test)
+输出： data/2011_json_data/train.json (devel.json, test.json)
+(2) convert_text_to_tree.py
+功能： 处理成程序需要的形式 {"text": "", "event", ""}
+输入： data/2011_json_data/train.json (devel.json, test.json)
+输出： data/2011_tree_subtype/train.json (devel.json, test.json)
+      data/2011_tree_subtype_span/train.json (devel.json, test.json)
+(3) check_data.py
+检查处理后的数据有没有丢失之类的

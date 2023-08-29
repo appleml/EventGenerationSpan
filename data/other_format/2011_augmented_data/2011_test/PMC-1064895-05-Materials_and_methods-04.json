@@ -1,0 +1,11 @@
+{"trigger": ["<extra_id_0> CD4 <extra_id_2> Protein <extra_id_1> + T-cell isolation by MACS", ""], "relation": []}
+{"trigger": ["Anti - <extra_id_0> CD4 <extra_id_2> Protein <extra_id_1> microbeads were used essentially as recommended by the manufacturer ( Miltenyi ) [ 19 ] .", ""], "relation": []}
+{"trigger": ["PBMC were resuspended in 80 mul of FBS staining buffer .", ""], "relation": []}
+{"trigger": ["Anti - <extra_id_0> CD4 <extra_id_2> Protein <extra_id_1> microbeads ( 20 mul ) were added and incubated for 15 min at 6-12degreesC .", ""], "relation": []}
+{"trigger": ["Saturating amounts of fluorochrome-conjugated antibodies were added for a further 10 min .", ""], "relation": []}
+{"trigger": ["Cells were diluted in 2.5 ml of FBS staining buffer , pelleted , resuspended in 500 mul and magnetically separated , usually on an AutoMACS magnet fitted with a MACS MS column .", ""], "relation": []}
+{"trigger": ["Flow - through and two 1 ml washes were collected as the negative fraction .", ""], "relation": []}
+{"trigger": ["Enriched cells were collected in two 0.5 ml aliquots from the column after removal from the magnet .", ""], "relation": []}
+{"trigger": ["Alternatively , cells stained with anti - <extra_id_0> CD4 <extra_id_2> Protein <extra_id_1> - phycoerythrin were washed , magnetically labeled with anti-phycoerythrin microbeads ( 20 mul added to 80 mul of cell suspension ; 15 min , 6-12degreesC ) , and magnetically separated as described above .", ""], "relation": []}
+{"trigger": ["The purity of cells was assessed by flow cytometric analysis of stained cells on a FACS Vantage sorter .", ""], "relation": []}
+{"trigger": ["Most ( more than 97 % ) of the isolated cells had the <extra_id_0> CD4 <extra_id_2> Protein <extra_id_1> T cell marker .", ""], "relation": []}

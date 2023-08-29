@@ -1,0 +1,64 @@
+GATA3 Represses the Human FOXP3 Promoter
+# T1 Protein S1 0 5 0 5 GATA3
+# T2 Protein S1 26 31 26 31 FOXP3
+$ T2 Protein S1 26 31 26 31 FOXP3
+$ T1 Protein S1 0 5 0 5 GATA3
+@ T19 Negative_regulation S1 6 15 6 15 Represses
+@ T20 Entity S1 32 40 32 40 Promoter
+% E1 Negative_regulation:T19 Theme:T2 Cause:T1 Site:T20
+
+(A) Jurkat, Th2 cells, and human primary CD4 cells were transfected with an empty vector (pGL3 basic) or a vector containing the putative FOXP3 promoter region fused to the luciferase reporter gene.
+# T3 Protein S2 41 44 82 85 CD4
+# T4 Protein S2 138 143 179 184 FOXP3
+# T5 Protein S2 173 183 214 224 luciferase
+
+Bars show the mean +/- SD of arbitrary light units normalized for renilla luciferase of four independent experiments; samples were measured in triplicates.
+# T6 Protein S3 74 84 314 324 luciferase
+
+(B) Naive CD4 T cells were transfected with the FOXP3 promoter reporter construct together with a GATA3 expression vector or an empty vector.
+# T7 Protein S4 10 13 406 409 CD4
+# T8 Protein S4 48 53 444 449 FOXP3
+# T9 Protein S4 98 103 494 499 GATA3
+$ T9 Protein S4 98 103 494 499 GATA3
+@ T21 Gene_expression S4 104 114 500 510 expression
+% E2 Gene_expression:T21 Theme:T9
+
+Bars show the mean +/- SD of three independent experiments.
+
+(C) Naive (left panel) or memory (right panel) CD4 T cells were transfected with wild-type or a GATA3 mutated 511-FOXP3 promoter reporter construct and activated with PMA and ionomycin.
+# T10 Protein S6 47 50 645 648 CD4
+# T11 Protein S6 96 101 694 699 GATA3
+# T12 Protein S6 114 119 712 717 FOXP3
+
+Bars show the mean +/- SD of arbitrary light units normalized for renilla luciferase of eight independent experiments; samples were measured in triplicates.
+# T13 Protein S7 74 84 858 868 luciferase
+
+(D) Nuclear extracts were prepared from HEK cells transfected with GATA3 or an empty vector, (E) Th1, Th2, or iTreg cells and binding factors precipitated using biotinylated oligonucleotides.
+# T14 Protein S8 67 72 1008 1013 GATA3
+
+The oligonucleotides-transcription factor complexes were separated on a SDS-PAGE gel.
+
+The amounts of GATA3 protein in the precipitates were assessed by immunoblotting with anti-GATA3 mAb.
+# T15 Protein S10 15 20 1234 1239 GATA3
+# T16 Protein S10 91 96 1310 1315 GATA3
+$ T15 Protein S10 15 20 1234 1239 GATA3
+@ T22 Gene_expression S10 4 11 1223 1230 amounts
+% E3 Gene_expression:T22 Theme:T15
+
+Total nuclear extracts were also run as controls.
+
+Data are representative of three different experiments.
+
+(F) iTreg or Th2 cells were analyzed by ChIP for GATA3 binding to the FOXP3 promoter.
+# T17 Protein S13 49 54 1476 1481 GATA3
+# T18 Protein S13 70 75 1497 1502 FOXP3
+$ T17 Protein S13 49 54 1476 1481 GATA3
+$ T18 Protein S13 70 75 1497 1502 FOXP3
+@ T23 Binding S13 55 62 1482 1489 binding
+@ T24 Entity S13 76 84 1503 1511 promoter
+% E4 Binding:T23 Theme:T17 Theme2:T18 Site2:T24
+
+The "input" represents PCR amplification of the total sample, which was not subjected to any precipitation.
+
+Results are representative of three independent experiments.
+

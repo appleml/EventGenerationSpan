@@ -1,0 +1,100 @@
+Differential effects of lipopolysaccharide and tumor necrosis factor on monocytic IkappaB kinase signalsome activation and IkappaB proteolysis.
+
+The inflammatory mediators lipopolysaccharide (LPS) and tumor necrosis factor (TNF) are potent activators of NF-kappaB.
+
+This study compared the effect of these stimuli on endogenous IkappaB kinase (IKK) signalsome activation and IkappaB phosphorylation/proteolysis in human monocytic cells and investigated the role of the signalsome proteins IKK-alpha, IKK-beta, NF-kappaB-inducing kinase (NIK), IKK-gamma (NF-kappaB essential modulator), and IKK complex-associated protein.
+# T1 Protein S3 223 232 488 497 IKK-alpha
+# T2 Protein S3 234 242 499 507 IKK-beta
+# T3 Protein S3 244 269 509 534 NF-kappaB-inducing kinase
+# T4 Protein S3 271 274 536 539 NIK
+# T5 Protein S3 277 286 542 551 IKK-gamma
+# T6 Protein S3 324 354 589 619 IKK complex-associated protein
+
+Kinase assays showed that TNF elicited a rapid but short-lived induction of IKK activity with a 3-fold greater effect on IKK-alpha than on IKK-beta, peaking at 5 min.
+# T7 Protein S4 121 130 742 751 IKK-alpha
+# T8 Protein S4 139 147 760 768 IKK-beta
+$ T8 Protein S4 139 147 760 768 IKK-beta
+$ T7 Protein S4 121 130 742 751 IKK-alpha
+@ T25 Regulation S4 111 117 732 738 effect
+% E1 Regulation:T25 Theme:T8
+% E2 Regulation:T25 Theme:T7
+
+In contrast, LPS predominantly stimulated IKK-beta activity, which slowly increased, peaking at 30 min.
+# T9 Protein S5 42 50 830 838 IKK-beta
+$ T9 Protein S5 42 50 830 838 IKK-beta
+@ T26 Positive_regulation S5 31 41 819 829 stimulated
+@ T27 Positive_regulation S5 74 83 862 871 increased
+% E3 Positive_regulation:T26 Theme:T9
+% E4 Positive_regulation:T27 Theme:E3
+
+A second peak was observed at a later time point following LPS stimulation, which consisted of both IKK-alpha and -beta activity.
+# T10 Protein S6 100 109 992 1001 IKK-alpha
+# T11 Protein S6 114 119 1006 1011 -beta
+$ T10 Protein S6 100 109 992 1001 IKK-alpha
+$ T11 Protein S6 114 119 1006 1011 -beta
+@ T28 Positive_regulation S6 63 74 955 966 stimulation
+% E5 Positive_regulation:T28 Theme:T10
+% E6 Positive_regulation:T28 Theme:T11
+
+The endogenous levels of the signalsome components were unaffected by stimulation.
+
+Furthermore, our studies showed association of the IKK-alpha/beta heterodimer with NIK, IkappaB-alpha and -epsilon in unstimulated cells.
+# T12 Protein S8 83 86 1188 1191 NIK
+# T13 Protein S8 88 101 1193 1206 IkappaB-alpha
+# T14 Protein S8 106 114 1211 1219 -epsilon
+$ T13 Protein S8 88 101 1193 1206 IkappaB-alpha
+$ T12 Protein S8 83 86 1188 1191 NIK
+$ T14 Protein S8 106 114 1211 1219 -epsilon
+@ T29 Binding S8 32 43 1137 1148 association
+% E7 Binding:T29 Theme:T13
+% E8 Binding:T29 Theme:T12
+% E9 Binding:T29 Theme:T14
+
+Exposure to LPS or TNF led to differential patterns of IkappaB-alpha and IkappaB-epsilon disappearance from and reassembly with the signalsome, whereas IKK-alpha, IKK-beta, and NIK remained complex-associated.
+# T15 Protein S9 55 68 1298 1311 IkappaB-alpha
+# T16 Protein S9 73 88 1316 1331 IkappaB-epsilon
+# T17 Protein S9 152 161 1395 1404 IKK-alpha
+# T18 Protein S9 163 171 1406 1414 IKK-beta
+# T19 Protein S9 177 180 1420 1423 NIK
+$ T15 Protein S9 55 68 1298 1311 IkappaB-alpha
+$ T16 Protein S9 73 88 1316 1331 IkappaB-epsilon
+$ T18 Protein S9 163 171 1406 1414 IKK-beta
+$ T17 Protein S9 152 161 1395 1404 IKK-alpha
+$ T19 Protein S9 177 180 1420 1423 NIK
+@ T30 Positive_regulation S9 23 26 1266 1269 led
+@ T31 Binding S9 89 102 1332 1345 disappearance
+@ T32 Binding S9 112 122 1355 1365 reassembly
+@ T33 Regulation S9 181 189 1424 1432 remained
+@ T34 Binding S9 198 208 1441 1451 associated
+% E10 Positive_regulation:T30 Theme:E15
+% E11 Positive_regulation:T30 Theme:E14
+% E12 Positive_regulation:T30 Theme:E16
+% E13 Positive_regulation:T30 Theme:E17
+% E14 Binding:T31 Theme:T15
+% E15 Binding:T31 Theme:T16
+% E16 Binding:T32 Theme:T16
+% E17 Binding:T32 Theme:T15
+% E18 Regulation:T33 Theme:E22
+% E19 Regulation:T33 Theme:E21
+% E20 Regulation:T33 Theme:E23
+% E21 Binding:T34 Theme:T18
+% E22 Binding:T34 Theme:T17
+% E23 Binding:T34 Theme:T19
+
+NIK cannot phosphorylate IkappaB-alpha directly, but it appears to be a functionally important subunit, because mutated NIK inhibited stimulus-induced kappaB-dependent transcription more effectively than mutated IKK-alpha or -beta.
+# T20 Protein S10 0 3 1453 1456 NIK
+# T21 Protein S10 25 38 1478 1491 IkappaB-alpha
+# T22 Protein S10 120 123 1573 1576 NIK
+# T23 Protein S10 212 221 1665 1674 IKK-alpha
+# T24 Protein S10 225 230 1678 1683 -beta
+$ T21 Protein S10 25 38 1478 1491 IkappaB-alpha
+$ T20 Protein S10 0 3 1453 1456 NIK
+@ T35 Phosphorylation S10 11 24 1464 1477 phosphorylate
+@ T36 Positive_regulation S10 11 24 1464 1477 phosphorylate
+% E24 Phosphorylation:T35 Theme:T21
+% E25 Positive_regulation:T36 Theme:E24 Cause:T20
+
+Overexpression of IKK complex-associated protein inhibited stimulus-mediated transcription, whereas NF-kappaB essential modulator enhanced it.
+
+The understanding of LPS- and TNF-induced signaling may allow the development of specific strategies to treat sepsis-associated disease.
+

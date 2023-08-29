@@ -1,0 +1,47 @@
+The NF-kappa B inhibitor, tepoxalin, suppresses surface expression of the cell adhesion molecules CD62E, CD11b/CD18 and CD106.
+# T1 Protein S1 98 103 98 103 CD62E
+# T2 Protein S1 105 110 105 110 CD11b
+# T3 Protein S1 111 115 111 115 CD18
+# T4 Protein S1 120 125 120 125 CD106
+
+Tepoxalin, a dual enzyme inhibitor of cyclooxygenase and 5-lipoxygenase has been shown to inhibit T-cell activation.
+
+Its immunosuppressive property is distinct from cyclosporin because only tepoxalin, but not cyclosporin, suppresses NF-kappa B activation.
+
+Here we report that tepoxalin selectively inhibits intercellular adhesion molecule-1 (ICAM-1, CD54)/MAC-1 (CD11b/CD18) dependent adhesion of polymorphonuclear cells to IL-1 activated human umbilical vein endothelial cells.
+# T5 Protein S4 51 84 435 468 intercellular adhesion molecule-1
+# T6 Protein S4 86 92 470 476 ICAM-1
+# T7 Protein S4 94 98 478 482 CD54
+# T8 Protein S4 107 112 491 496 CD11b
+# T9 Protein S4 113 117 497 501 CD18
+# T10 Protein S4 168 172 552 556 IL-1
+
+The mechanism of inhibition is related to the surface expression of several cell adhesion molecules.
+
+Flow cytometry analyses on cultured cells that were treated with tepoxalin or antisense oligonucleotides to the P65/p50 subunit of NF-kappa B, and then stimulated with PMA, revealed a reduced expression of CD11b/CD18 on monocytic HL60 cells, and endothelial adhesion molecule-1 (CD62E) and vascular adhesion molecule-1 (CD106) on human umbilical vein endothelial cells.
+# T11 Protein S6 112 115 820 823 P65
+# T12 Protein S6 116 119 824 827 p50
+# T13 Protein S6 206 211 914 919 CD11b
+# T14 Protein S6 212 216 920 924 CD18
+# T15 Protein S6 246 277 954 985 endothelial adhesion molecule-1
+# T16 Protein S6 279 284 987 992 CD62E
+# T17 Protein S6 290 318 998 1026 vascular adhesion molecule-1
+# T18 Protein S6 320 325 1028 1033 CD106
+
+Expression of other adhesion molecules such as lymphocyte function associated-antigen-1 (CD11a/CD18) and CD54 were unaffected.
+# T19 Protein S7 89 94 1167 1172 CD11a
+# T20 Protein S7 95 99 1173 1177 CD18
+# T21 Protein S7 105 109 1183 1187 CD54
+
+Tepoxalin also inhibited the secretion of a NF-kappa B regulated chemokine, IL-8, a known inducer of CD11b/CD18 expression.
+# T22 Protein S8 76 80 1281 1285 IL-8
+# T23 Protein S8 101 106 1306 1311 CD11b
+# T24 Protein S8 107 111 1312 1316 CD18
+
+Thus the suppression of CD11b/CD18 expression by tepoxalin may involve IL-8.
+# T25 Protein S9 24 29 1353 1358 CD11b
+# T26 Protein S9 30 34 1359 1363 CD18
+# T27 Protein S9 71 75 1400 1404 IL-8
+
+Our results suggest that by inhibiting NF-kappa B activation, surface expression of several adhesion molecules can be modulated and that tepoxalin may be useful in treating selected adhesion mediated events such as leukocyte migration or atherosclerotic plaque formation.
+

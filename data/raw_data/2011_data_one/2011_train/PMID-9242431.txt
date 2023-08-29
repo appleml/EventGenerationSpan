@@ -1,0 +1,58 @@
+Bcl-2 protein inhibits bufalin-induced apoptosis through inhibition of mitogen-activated protein kinase activation in human leukemia U937 cells.
+# T1 Protein S1 0 5 0 5 Bcl-2
+
+In a previous study, we demonstrated that bufalin, which is an active principle of Chinese medicine, chan'su, caused apoptosis in human leukemia U937 cells by anomalous activation of mitogen-activated protein kinase (MAPK) via the signaling pathway of Ras, Raf-1, and MAPK kinase-1.
+# T2 Protein S2 257 262 403 408 Raf-1
+# T3 Protein S2 268 281 414 427 MAPK kinase-1
+
+Here, we report the effect of overexpression of bcl-2 in U937 cells on the signaling pathway of apoptosis that is induced by bufalin.
+# T4 Protein S3 48 53 477 482 bcl-2
+$ T4 Protein S3 48 53 477 482 bcl-2
+@ T13 Gene_expression S3 30 44 459 473 overexpression
+@ T14 Positive_regulation S3 30 44 459 473 overexpression
+% E1 Gene_expression:T13 Theme:T4
+% E2 Positive_regulation:T14 Theme:E1
+
+The results indicated that the apoptosis induced by bufalin in U937 cells was significantly inhibited by overexpression of the Bcl-2 protein.
+# T5 Protein S4 127 132 690 695 Bcl-2
+$ T5 Protein S4 127 132 690 695 Bcl-2
+@ T15 Gene_expression S4 105 119 668 682 overexpression
+@ T16 Positive_regulation S4 105 119 668 682 overexpression
+% E3 Gene_expression:T15 Theme:T5
+% E4 Positive_regulation:T16 Theme:E3
+
+No significant difference was detected in the activation of MAPK kinase-1 that is induced by bufalin in wild-type or Bcl-2-overexpressed U937 cells; however, the activation of MAPK by bufalin was significantly attenuated in the cells overexpressing Bcl-2.
+# T6 Protein S5 60 73 765 778 MAPK kinase-1
+# T7 Protein S5 117 122 822 827 Bcl-2
+# T8 Protein S5 249 254 954 959 Bcl-2
+$ T6 Protein S5 60 73 765 778 MAPK kinase-1
+$ T7 Protein S5 117 122 822 827 Bcl-2
+$ T8 Protein S5 249 254 954 959 Bcl-2
+@ T17 Positive_regulation S5 46 56 751 761 activation
+@ T18 Positive_regulation S5 123 136 828 841 overexpressed
+@ T19 Gene_expression S5 123 136 828 841 overexpressed
+@ T20 Positive_regulation S5 234 248 939 953 overexpressing
+@ T21 Gene_expression S5 234 248 939 953 overexpressing
+% E5 Positive_regulation:T17 Theme:T6
+% E6 Positive_regulation:T18 Theme:E7
+% E7 Gene_expression:T19 Theme:T7
+% E8 Positive_regulation:T20 Theme:E9
+% E9 Gene_expression:T21 Theme:T8
+
+Bufalin treatment activated activator protein-1 transcriptional activity; however, this activation was decreased to 40% in bcl-2-overexpressed U937 cells.
+# T9 Protein S6 123 128 1084 1089 bcl-2
+$ T9 Protein S6 123 128 1084 1089 bcl-2
+@ T22 Positive_regulation S6 129 142 1090 1103 overexpressed
+@ T23 Gene_expression S6 129 142 1090 1103 overexpressed
+% E10 Positive_regulation:T22 Theme:E11
+% E11 Gene_expression:T23 Theme:T9
+
+These results indicate that Bcl-2 acts downstream of MAPK kinase-1 but upstream of MAPK and suggest that, in the signaling pathway of the apoptotic process induced by bufalin, the transcriptional activity of activator protein-1 may be down-regulated through the inhibition of MAPK activity by Bcl-2.
+# T10 Protein S7 28 33 1144 1149 Bcl-2
+# T11 Protein S7 53 66 1169 1182 MAPK kinase-1
+# T12 Protein S7 293 298 1409 1414 Bcl-2
+$ T10 Protein S7 28 33 1144 1149 Bcl-2
+$ T11 Protein S7 53 66 1169 1182 MAPK kinase-1
+@ T24 Regulation S7 34 38 1150 1154 acts
+% E12 Regulation:T24 Theme:T10 Cause:T11
+

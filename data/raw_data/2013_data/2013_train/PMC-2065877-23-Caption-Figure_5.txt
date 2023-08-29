@@ -1,0 +1,63 @@
+LMP1 Upregulates IL10 Expression and Constitutively Activates Stat3
+# T1 Protein S1 0 4 0 4 LMP1
+# T2 Protein S1 17 21 17 21 IL10
+# T3 Protein S1 62 67 62 67 Stat3
+$ T1 Protein S1 0 4 0 4 LMP1
+$ T2 Protein S1 17 21 17 21 IL10
+$ T3 Protein S1 62 67 62 67 Stat3
+@ T20 Positive_regulation S1 5 16 5 16 Upregulates
+@ T21 Gene_expression S1 22 32 22 32 Expression
+@ T22 Positive_regulation S1 52 61 52 61 Activates
+% E1 Positive_regulation:T20 Theme:E2 Cause:T1
+% E2 Gene_expression:T21 Theme:T2
+% E3 Positive_regulation:T22 Theme:T3 Cause:T1
+
+(A) Relative expression of IL10, IL15, and IFNgamma mRNA in WT and LMP1 transgenic B cells (CD19+), as detected with an Rnase protection assay.
+# T4 Protein S2 27 31 95 99 IL10
+# T5 Protein S2 33 37 101 105 IL15
+# T6 Protein S2 43 51 111 119 IFNgamma
+# T7 Protein S2 67 71 135 139 LMP1
+# T8 Protein S2 92 96 160 164 CD19
+$ T4 Protein S2 27 31 95 99 IL10
+$ T5 Protein S2 33 37 101 105 IL15
+$ T6 Protein S2 43 51 111 119 IFNgamma
+@ T23 Transcription S2 13 23 81 91 expression
+% E4 Transcription:T23 Theme:T4
+% E5 Transcription:T23 Theme:T5
+% E6 Transcription:T23 Theme:T6
+
+Mouse lymphoma cell lines 967 and K46mu were used as controls.
+
+Expression levels were quantified with a phosphorimager and values were normalized to the ribosomal housekeeping gene L32.
+# T9 Protein S4 118 121 393 396 L32
+
+The cytokine:L32 ratio was set to 1 in the mouse B cell lymphoma line 967.
+# T10 Protein S5 13 16 411 414 L32
+
+(B and C) Immunoblot analysis of activated pStat3 in purified B cells (CD19+) from WT and LMP1 transgenic mice (B) at the time of harvest, and (C) 4 h after culture with or without IL10, a neutralizing antibody to IL10, or a rat IgG1 isotype control.
+# T11 Protein S6 43 49 516 522 pStat3
+# T12 Protein S6 71 75 544 548 CD19
+# T13 Protein S6 90 94 563 567 LMP1
+# T14 Protein S6 181 185 654 658 IL10
+# T15 Protein S6 214 218 687 691 IL10
+$ T11 Protein S6 43 49 516 522 pStat3
+@ T24 Positive_regulation S6 33 42 506 515 activated
+% E7 Positive_regulation:T24 Theme:T11
+
+(C) Shown are the results for WT lymphoma 1 and LMP1 transgenic lymphoma 1.
+# T16 Protein S7 48 52 772 776 LMP1
+
+Arrows indicate the positions of the alpha and beta isoforms of Stat3.
+# T17 Protein S8 64 69 864 869 Stat3
+
+Actin was used as a loading control.
+
+(D) Immunohistochemistry detection of activated nuclear pStat3 in the spleens of WT and LMP1 transgenic mice.
+# T18 Protein S10 56 62 964 970 pStat3
+# T19 Protein S10 88 92 996 1000 LMP1
+$ T18 Protein S10 56 62 964 970 pStat3
+@ T25 Positive_regulation S10 38 47 946 955 activated
+% E8 Positive_regulation:T25 Theme:T18
+
+Scale bar, 20 mum.
+

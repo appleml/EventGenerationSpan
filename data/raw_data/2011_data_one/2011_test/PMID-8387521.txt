@@ -1,0 +1,20 @@
+A chimeric type II/type I interleukin-1 receptor can mediate interleukin-1 induction of gene expression in T cells.
+
+The type I interleukin-1 receptor (IL-1R) is capable of transducing a signal resulting in promoter activation in T cells.
+# T1 Protein S2 4 33 121 150 type I interleukin-1 receptor
+
+This signal transduction is dependent on the cytoplasmic domain, which consists of 213 amino acids.
+
+In contrast to the type I receptor, the type II IL-1R has a small cytoplasmic tail, and it is not clear whether this receptor is a signal-transducing or a regulatory molecule.
+# T2 Protein S4 40 53 379 392 type II IL-1R
+
+Here we report that the type II IL-1R does not mediate gene activation in Jurkat cells.
+# T3 Protein S5 24 37 539 552 type II IL-1R
+
+However, a hybrid receptor composed of the extracellular and transmembrane regions of the human type II interleukin-1 fused to the cytoplasmic domain of the human type I IL-1R was capable of transducing a signal across the membrane resulting in a pattern of gene activation identical to that mediated by the type I IL-1R.
+# T4 Protein S6 96 117 699 720 type II interleukin-1
+# T5 Protein S6 163 175 766 778 type I IL-1R
+
+Our results indicated that the extracellular domain of the type II IL-1R was capable of functionally interacting with interleukin-1 and transmitting the resulting signal to a heterologous cytoplasmic domain.
+# T6 Protein S7 59 72 984 997 type II IL-1R
+

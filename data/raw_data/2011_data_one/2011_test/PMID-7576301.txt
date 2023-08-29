@@ -1,0 +1,27 @@
+Expression of the nucleoside diphosphate kinase in human skin cancers: an immunohistochemical study.
+# T1 Protein S1 18 47 18 47 nucleoside diphosphate kinase
+
+Expression of nucleoside diphosphate(NDP) kinase, which is homologous to the nm23 gene product in a variety of species, has been found to be inversely associated with metastatic potential.
+# T2 Protein S2 14 48 116 150 nucleoside diphosphate(NDP) kinase
+# T3 Protein S2 77 81 179 183 nm23
+
+However, the relationship remains controversial according to the tumor cell types and experimental system, with conflicting results from different research groups.
+
+In order to determine whether NDP kinase expression serves as a marker for metastatic potential in human skin cancer, we assessed the levels of NDP kinase expression in 9 keratoacanthomas (KAs), 26 squamous cell carcinomas (SCCs), and 25 basal cell carcinomas (BCCs) using immunohistochemistry.
+# T4 Protein S4 30 40 485 495 NDP kinase
+# T5 Protein S4 144 154 599 609 NDP kinase
+
+The expression of NDP kinase was intense in KA and SCC compared with BCC.
+# T6 Protein S5 18 28 768 778 NDP kinase
+
+However, the difference of NDP kinase expression between KA and SCC was not statistically significant.
+# T7 Protein S6 27 37 851 861 NDP kinase
+
+And there was no statistically significant difference in NDP kinase expression between SCC with metastasis and SCC without metastasis.
+# T8 Protein S7 57 67 984 994 NDP kinase
+
+Our results contradict the hypothesis concerning the possible role of nm23 gene as a metastatic suppressor gene in human skin cancer.
+# T9 Protein S8 70 74 1132 1136 nm23
+
+The mechanism of overexpression in various tumor cell types and its biological significance in cutaneous carcinogenesis remain to be determined.
+

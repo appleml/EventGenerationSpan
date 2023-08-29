@@ -1,0 +1,108 @@
+Inhibition of NF-AT-dependent transcription by NF-kappa B: implications for differential gene expression in T helper cell subsets.
+
+Activation of individual CD4+ T cells results in differential lymphokine expression: interleukin 2 (IL-2) is preferentially produced by T helper type 1 (TH1) cells, which are involved in cell-mediated immune responses, whereas IL-4 is synthesized by TH2 cells, which are essential for humoral immunity.
+# T1 Protein S2 25 28 157 160 CD4
+# T2 Protein S2 85 98 217 230 interleukin 2
+# T3 Protein S2 100 104 232 236 IL-2
+# T4 Protein S2 227 231 359 363 IL-4
+$ T3 Protein S2 100 104 232 236 IL-2
+$ T4 Protein S2 227 231 359 363 IL-4
+@ T20 Gene_expression S2 124 132 256 264 produced
+@ T21 Gene_expression S2 235 246 367 378 synthesized
+% E1 Gene_expression:T20 Theme:T3
+% E2 Gene_expression:T21 Theme:T4
+
+The Ca(2+)-dependent factor NF-ATp plays a key role in the inducible transcription of both these lymphokine genes.
+# T5 Protein S3 28 34 463 469 NF-ATp
+$ T5 Protein S3 28 34 463 469 NF-ATp
+@ T22 Positive_regulation S3 11 20 446 455 dependent
+@ T23 Positive_regulation S3 43 51 478 486 key role
+@ T24 Positive_regulation S3 59 68 494 503 inducible
+@ T25 Transcription S3 69 82 504 517 transcription
+% E3 Positive_regulation:T22 Theme:T5
+% E4 Positive_regulation:T23 Theme:E6 Cause:T5
+% E5 Positive_regulation:T23 Theme:E7 Cause:T5
+% E6 Positive_regulation:T24 Theme:E8
+% E7 Positive_regulation:T24 Theme:E9
+% E8 Transcription:T25 Theme:T4
+% E9 Transcription:T25 Theme:T3
+
+However, while IL2 expression requires the contribution of Ca(2+)- and protein kinase C-dependent signals, we report that activation of human IL4 transcription through the Ca(2+)-dependent pathway is diminished by protein kinase C stimulation in Jurkat T cells.
+# T6 Protein S4 15 18 565 568 IL2
+# T7 Protein S4 142 145 692 695 IL4
+$ T6 Protein S4 15 18 565 568 IL2
+$ T7 Protein S4 142 145 692 695 IL4
+@ T26 Gene_expression S4 19 29 569 579 expression
+@ T27 Positive_regulation S4 30 38 580 588 requires
+@ T28 Positive_regulation S4 122 132 672 682 activation
+@ T29 Transcription S4 146 159 696 709 transcription
+@ T30 Negative_regulation S4 200 210 750 760 diminished
+% E10 Gene_expression:T26 Theme:T6
+% E11 Positive_regulation:T27 Theme:E10
+% E12 Positive_regulation:T28 Theme:E13
+% E13 Transcription:T29 Theme:T7
+% E14 Negative_regulation:T30 Theme:E12
+
+This phenomenon is due to mutually exclusive binding of NF-ATp and NF-kappa B to the P sequence, an element located 69 bp upstream of the IL4 transcription initiation site.
+# T8 Protein S5 56 62 868 874 NF-ATp
+# T9 Protein S5 138 141 950 953 IL4
+$ T8 Protein S5 56 62 868 874 NF-ATp
+@ T31 Positive_regulation S5 19 25 831 837 due to
+@ T32 Binding S5 45 52 857 864 binding
+% E15 Positive_regulation:T31 Theme:E14
+% E16 Positive_regulation:T31 Theme:E14 Cause:E17
+% E17 Binding:T32 Theme:T8
+
+Human IL4 promoter-mediated transcription is downregulated in Jurkat cells stimulated with the NF-kappa B-activating cytokine tumor necrosis factor alpha and suppressed in RelA-overexpressing cells.
+# T10 Protein S6 6 9 991 994 IL4
+# T11 Protein S6 126 153 1111 1138 tumor necrosis factor alpha
+# T12 Protein S6 172 176 1157 1161 RelA
+$ T12 Protein S6 172 176 1157 1161 RelA
+@ T33 Gene_expression S6 177 191 1162 1176 overexpressing
+@ T34 Positive_regulation S6 177 191 1162 1176 overexpressing
+% E18 Gene_expression:T33 Theme:T12
+% E19 Positive_regulation:T34 Theme:E18
+
+In contrast, protein kinase C stimulation or RelA overexpression does not affect the activity of a human IL4 promoter containing a mouse P sequence, which is a higher-affinity site for NF-ATp and a lower-affinity site for RelA.
+# T13 Protein S7 45 49 1229 1233 RelA
+# T14 Protein S7 105 108 1289 1292 IL4
+# T15 Protein S7 185 191 1369 1375 NF-ATp
+# T16 Protein S7 222 226 1406 1410 RelA
+$ T13 Protein S7 45 49 1229 1233 RelA
+$ T14 Protein S7 105 108 1289 1292 IL4
+$ T15 Protein S7 185 191 1369 1375 NF-ATp
+$ T16 Protein S7 222 226 1406 1410 RelA
+@ T35 Positive_regulation S7 50 64 1234 1248 overexpression
+@ T36 Gene_expression S7 50 64 1234 1248 overexpression
+@ T37 Regulation S7 74 80 1258 1264 affect
+@ T38 Entity S7 109 117 1293 1301 promoter
+@ T39 Binding S7 160 180 1344 1364 higher-affinity site
+@ T40 Binding S7 198 217 1382 1401 lower-affinity site
+% E20 Positive_regulation:T35 Theme:E21
+% E21 Gene_expression:T36 Theme:T13
+% E22 Regulation:T37 Theme:T14 Site:T38
+% E23 Regulation:T37 Theme:T14 Cause:E20 Site:T38
+% E24 Binding:T39 Theme:T15
+% E25 Binding:T40 Theme:T16
+
+Thus, competition between two general transcriptional activators, RelA and NF-ATp, mediates the inhibitory effect of protein kinase C stimulation on IL4 expression and may contribute to differential gene expression in TH cells.
+# T17 Protein S8 66 70 1478 1482 RelA
+# T18 Protein S8 75 81 1487 1493 NF-ATp
+# T19 Protein S8 149 152 1561 1564 IL4
+$ T18 Protein S8 75 81 1487 1493 NF-ATp
+$ T17 Protein S8 66 70 1478 1482 RelA
+$ T19 Protein S8 149 152 1561 1564 IL4
+@ T41 Binding S8 6 17 1418 1429 competition
+@ T42 Negative_regulation S8 6 17 1418 1429 competition
+@ T43 Positive_regulation S8 83 91 1495 1503 mediates
+@ T44 Negative_regulation S8 96 106 1508 1518 inhibitory
+@ T45 Gene_expression S8 153 163 1565 1575 expression
+% E26 Binding:T41 Theme:T18
+% E28 Binding:T41 Theme:T17
+% E27 Negative_regulation:T42 Theme:E26 Cause:T17
+% E29 Negative_regulation:T42 Theme:E28 Cause:T18
+% E30 Positive_regulation:T43 Theme:E32 Cause:E29
+% E31 Positive_regulation:T43 Theme:E32 Cause:E27
+% E32 Negative_regulation:T44 Theme:E33
+% E33 Gene_expression:T45 Theme:T19
+

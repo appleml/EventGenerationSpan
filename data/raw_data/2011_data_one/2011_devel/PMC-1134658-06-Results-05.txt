@@ -1,0 +1,120 @@
+BMP-6 induces upregulation of Id1
+# T1 Protein S1 0 5 0 5 BMP-6
+# T2 Protein S1 30 33 30 33 Id1
+$ T1 Protein S1 0 5 0 5 BMP-6
+$ T2 Protein S1 30 33 30 33 Id1
+@ T29 Positive_regulation S1 6 13 6 13 induces
+@ T30 Positive_regulation S1 14 26 14 26 upregulation
+% E1 Positive_regulation:T29 Theme:E2 Cause:T1
+% E2 Positive_regulation:T30 Theme:T2
+
+Next, we wanted to explore whether the BMP-6 induced phosphorylation of Smad 1/5/8 also could induce transcriptional changes of target genes.
+# T3 Protein S2 39 44 73 78 BMP-6
+# T4 Protein S2 72 78 106 112 Smad 1
+# T5 Protein S2 79 80 113 114 5
+# T6 Protein S2 81 82 115 116 8
+$ T3 Protein S2 39 44 73 78 BMP-6
+$ T4 Protein S2 72 78 106 112 Smad 1
+$ T5 Protein S2 79 80 113 114 5
+$ T6 Protein S2 81 82 115 116 8
+@ T31 Positive_regulation S2 45 52 79 86 induced
+@ T32 Phosphorylation S2 53 68 87 102 phosphorylation
+% E3 Positive_regulation:T31 Theme:E4 Cause:T3
+% E5 Positive_regulation:T31 Theme:E6 Cause:T3
+% E7 Positive_regulation:T31 Theme:E8 Cause:T3
+% E4 Phosphorylation:T32 Theme:T4
+% E6 Phosphorylation:T32 Theme:T5
+% E8 Phosphorylation:T32 Theme:T6
+
+In this regard, the inhibitors of DNA binding proteins (Ids) are considered to be some of the major target genes for Smad-signalling [17].
+
+Thus, B cells were pre-incubated over night in X-VIVO 15, and then cultured in medium alone or in the presence of BMP-6 for various time points before preparation of total RNA.
+# T7 Protein S4 114 119 429 434 BMP-6
+
+The amount of Id1-Id4 mRNA was quantified by real-time RT-PCR.
+# T8 Protein S5 14 17 506 509 Id1
+# T9 Protein S5 18 21 510 513 Id4
+
+Interestingly, we observed a specific four-fold upregulation of Id1 mRNA in BMP-6-treated B cells (Figure 7).
+# T10 Protein S6 64 67 619 622 Id1
+# T11 Protein S6 76 81 631 636 BMP-6
+$ T10 Protein S6 64 67 619 622 Id1
+$ T11 Protein S6 76 81 631 636 BMP-6
+@ T33 Positive_regulation S6 48 60 603 615 upregulation
+% E9 Positive_regulation:T33 Theme:T10 Cause:T11
+
+The up-regulation of Id1 mRNA was characteristic of an early inducible gene, with maximal upregulation two hours after the addition of BMP-6 and returned to baseline after 24 hours.
+# T12 Protein S7 21 24 686 689 Id1
+# T13 Protein S7 135 140 800 805 BMP-6
+$ T12 Protein S7 21 24 686 689 Id1
+$ T13 Protein S7 135 140 800 805 BMP-6
+@ T34 Positive_regulation S7 4 17 669 682 up-regulation
+@ T35 Positive_regulation S7 90 102 755 767 upregulation
+% E10 Positive_regulation:T34 Theme:T12 Cause:T13
+% E11 Positive_regulation:T35 Theme:T12 Cause:T13
+
+In contrast, no significant changes were observed for Id2 and Id3 mRNA, whereas Id4-transcripts were not detectable (Figure 7, data not shown).
+# T14 Protein S8 54 57 901 904 Id2
+# T15 Protein S8 62 65 909 912 Id3
+# T16 Protein S8 80 83 927 930 Id4
+$ T14 Protein S8 54 57 901 904 Id2
+$ T15 Protein S8 62 65 909 912 Id3
+$ T16 Protein S8 80 83 927 930 Id4
+@ T36 Regulation S8 28 35 875 882 changes
+@ T37 Positive_regulation S8 105 115 952 962 detectable
+% E12 Regulation:T36 Theme:T14 Cause:T13
+% E13 Regulation:T36 Theme:T15 Cause:T13
+% E14 Positive_regulation:T37 Theme:T16 Cause:T13
+
+Western blot analysis revealed that the BMP-6-induced upregulation of Id1 mRNA also was correlated with upregulation of Id1 protein as well.
+# T17 Protein S9 40 45 1032 1037 BMP-6
+# T18 Protein S9 70 73 1062 1065 Id1
+# T19 Protein S9 120 123 1112 1115 Id1
+$ T17 Protein S9 40 45 1032 1037 BMP-6
+$ T18 Protein S9 70 73 1062 1065 Id1
+$ T19 Protein S9 120 123 1112 1115 Id1
+@ T38 Positive_regulation S9 46 53 1038 1045 induced
+@ T39 Positive_regulation S9 54 66 1046 1058 upregulation
+@ T40 Positive_regulation S9 88 98 1080 1090 correlated
+@ T41 Positive_regulation S9 104 116 1096 1108 upregulation
+% E15 Positive_regulation:T38 Theme:E16 Cause:T17
+% E16 Positive_regulation:T39 Theme:T18
+% E17 Positive_regulation:T40 Theme:E18 Cause:E16
+% E18 Positive_regulation:T41 Theme:T19
+
+The increase in Id1 protein level was detectable after one hour and increased until 24 hours after BMP-6 addition, showing a 16-fold upregulation compared with t0 (p </= 0.020, n = 4) (Figure 8 and 9).
+# T20 Protein S10 16 19 1149 1152 Id1
+# T21 Protein S10 99 104 1232 1237 BMP-6
+$ T20 Protein S10 16 19 1149 1152 Id1
+$ T21 Protein S10 99 104 1232 1237 BMP-6
+@ T42 Positive_regulation S10 4 12 1137 1145 increase
+@ T43 Positive_regulation S10 68 77 1201 1210 increased
+@ T44 Positive_regulation S10 133 145 1266 1278 upregulation
+% E19 Positive_regulation:T42 Theme:T20 Cause:T21
+% E20 Positive_regulation:T43 Theme:T20 Cause:T21
+% E21 Positive_regulation:T44 Theme:T20 Cause:T21
+
+In line with the mRNA data, no consistent change in the amounts of Id2 and Id3 protein could be observed (Figure 8 and 9).
+# T22 Protein S11 67 70 1402 1405 Id2
+# T23 Protein S11 75 78 1410 1413 Id3
+$ T22 Protein S11 67 70 1402 1405 Id2
+$ T23 Protein S11 75 78 1410 1413 Id3
+@ T45 Regulation S11 42 48 1377 1383 change
+@ T46 Gene_expression S11 56 63 1391 1398 amounts
+% E22 Regulation:T45 Theme:E23 Cause:T21
+% E24 Regulation:T45 Theme:E25 Cause:T21
+% E23 Gene_expression:T46 Theme:T22
+% E25 Gene_expression:T46 Theme:T23
+
+We were able to block the Id1 specific band with a blocking peptide (data not shown).
+# T24 Protein S12 26 29 1484 1487 Id1
+$ T24 Protein S12 26 29 1484 1487 Id1
+@ T47 Negative_regulation S12 16 21 1474 1479 block
+% E26 Negative_regulation:T47 Theme:T24
+
+Taken together, these data suggest that Id1 could be a possible target gene for mediating the effects of BMP-6 in human B cells, whereas Id2 and Id3 not seem to be involved.
+# T25 Protein S13 40 43 1584 1587 Id1
+# T26 Protein S13 105 110 1649 1654 BMP-6
+# T27 Protein S13 137 140 1681 1684 Id2
+# T28 Protein S13 145 148 1689 1692 Id3
+

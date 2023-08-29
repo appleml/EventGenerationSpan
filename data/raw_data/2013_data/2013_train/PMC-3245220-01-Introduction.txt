@@ -1,0 +1,277 @@
+Monocytes are produced in the bone marrow and circulate in blood for 24-48 hours [1].
+
+In the absence of serum, monocytes die via apoptosis [1], [2].
+
+Macrophage colony-stimulating factor (M-CSF) stimulates mononuclear phagocyte survival and differentiation [3].
+
+Importantly, M-CSF-mediated cell survival and activation is associated with a variety of human diseases, including atherosclerosis, transplant vascular sclerosis and breast cancer metastasis [4], [5], [6].
+
+We previously identified that NF-kappaB activation is important in M-CSF-induced monocyte survival [7].
+
+In addition to its role in mononuclear phagocyte survival, the transcription factor NF-kappaB regulates numerous genes that play important roles in cellular signaling, stress response, cell growth, survival, differentiation and inflammation [8].
+
+There are five members in the NF-kappaB family: RelA/p65, p50, p52, c-Rel and RelB.
+# T1 Protein S7 48 52 865 869 RelA
+# T2 Protein S7 53 56 870 873 p65
+# T3 Protein S7 58 61 875 878 p50
+# T4 Protein S7 63 66 880 883 p52
+# T5 Protein S7 68 73 885 890 c-Rel
+# T6 Protein S7 78 82 895 899 RelB
+
+The most common activating complex is the p50/p65 heterodimer, driven by the activation domain in the NF-kappaB p65 subunit.
+# T7 Protein S8 42 45 943 946 p50
+# T8 Protein S8 46 49 947 950 p65
+# T9 Protein S8 112 115 1013 1016 p65
+
+NF-kappaB p65 regulates important developmental processes [9], [10].
+# T10 Protein S9 10 13 1036 1039 p65
+
+Mice lacking NF-kappaB p65 die in utero and have extensive liver damage via enhanced apoptosis [9].
+# T11 Protein S10 23 26 1118 1121 p65
+$ T11 Protein S10 23 26 1118 1121 p65
+@ T38 Negative_regulation S10 5 12 1100 1107 lacking
+% E1 Negative_regulation:T38 Theme:T11
+
+Embryonic macrophages from NF-kappaB p65 null mice are susceptible to TNFalpha-induced apoptosis which is rescued by overexpressing the NF-kappaB p65 subunit [10].
+# T12 Protein S11 37 40 1232 1235 p65
+# T13 Protein S11 70 78 1265 1273 TNFalpha
+# T14 Protein S11 146 149 1341 1344 p65
+$ T12 Protein S11 37 40 1232 1235 p65
+$ T14 Protein S11 146 149 1341 1344 p65
+@ T39 Negative_regulation S11 41 45 1236 1240 null
+@ T40 Gene_expression S11 117 131 1312 1326 overexpressing
+% E2 Negative_regulation:T39 Theme:T12
+% E3 Gene_expression:T40 Theme:T14
+
+Moreover, inhibiting NF-kappaB induces cell death in many cell types and cytokine-independent survival is mediated by constitutively active NF-kappaB in murine macrophages [11].
+
+In monocytes and macrophages, NF-kappaB is an important transcriptional factor for expression of cytokines and cell surface receptors [12].
+
+However, unlike resting T-cells, NF-kappaB is constitutively present in the nuclei of primary monocytes and monocytic cell lines in the absence of exogenous stimuli as demonstrated by mobility shift analysis [13].
+
+Similarly, constitutively active NF-kappaB was observed in human alveolar macrophages [14].
+
+In the classic/canonical pathway, the NF-kappaB p50/p65 complex is sequestered in the cytosol by IkappaBalpha [15].
+# T15 Protein S16 48 51 2031 2034 p50
+# T16 Protein S16 52 55 2035 2038 p65
+# T17 Protein S16 97 109 2080 2092 IkappaBalpha
+
+Upon stimulation by cytokines or UV radiation, IkappaBalpha is phosphorylated, ubiquitinated, and degraded, releasing NF-kappaB p50/p65 to translocate to the nucleus and transactivate target genes.
+# T18 Protein S17 47 59 2146 2158 IkappaBalpha
+# T19 Protein S17 128 131 2227 2230 p50
+# T20 Protein S17 132 135 2231 2234 p65
+$ T18 Protein S17 47 59 2146 2158 IkappaBalpha
+@ T41 Positive_regulation S17 0 4 2099 2103 Upon
+@ T42 Phosphorylation S17 63 77 2162 2176 phosphorylated
+@ T43 Protein_catabolism S17 98 106 2197 2205 degraded
+% E4 Positive_regulation:T41 Theme:E5
+% E6 Positive_regulation:T41 Theme:E7
+% E5 Phosphorylation:T42 Theme:T18
+% E7 Protein_catabolism:T43 Theme:T18
+
+After its release from IkappaBalpha, NF-kappaB p65 can undergo post-translational modification to activate gene transcription.
+# T21 Protein S18 23 35 2320 2332 IkappaBalpha
+# T22 Protein S18 47 50 2344 2347 p65
+$ T22 Protein S18 47 50 2344 2347 p65
+@ T36 Anaphora S18 6 9 2303 2306 its
+@ T44 Localization S18 10 17 2307 2314 release
+@ T45 Protein_modification S18 63 94 2360 2391 post-translational modification
+% E8 Localization:T44 Theme:T22
+% E9 Protein_modification:T45 Theme:T22
+
+The role of NF-kappaB p65 phosphorylation on NF-kappaB transcriptional activity varies by stimulus, time of stimulation and cell type [16].
+# T23 Protein S19 22 25 2446 2449 p65
+$ T23 Protein S19 22 25 2446 2449 p65
+@ T46 Phosphorylation S19 26 41 2450 2465 phosphorylation
+% E10 Phosphorylation:T46 Theme:T23
+
+Previous research shows that phosphorylation of NF-kappaB p65 at Ser276, Ser529 or Ser536 plays an important role in regulating transcriptional activity of NF-kappaB [17].
+# T24 Protein S20 58 61 2622 2625 p65
+$ T24 Protein S20 58 61 2622 2625 p65
+@ T47 Phosphorylation S20 29 44 2593 2608 phosphorylation
+@ T48 Entity S20 65 71 2629 2635 Ser276
+@ T49 Entity S20 73 79 2637 2643 Ser529
+@ T50 Entity S20 83 89 2647 2653 Ser536
+% E11 Phosphorylation:T47 Theme:T24 Site:T48
+% E12 Phosphorylation:T47 Theme:T24 Site:T49
+% E13 Phosphorylation:T47 Theme:T24 Site:T50
+
+In TNFalpha-treated murine fibroblasts, Ser276 of NF-kappaB p65 is phosphorylated by MSK1 to enhance NF-kappaB transcriptional activity [18].
+# T25 Protein S21 60 63 2796 2799 p65
+# T26 Protein S21 85 89 2821 2825 MSK1
+$ T25 Protein S21 60 63 2796 2799 p65
+$ T26 Protein S21 85 89 2821 2825 MSK1
+@ T51 Entity S21 40 46 2776 2782 Ser276
+@ T52 Phosphorylation S21 67 81 2803 2817 phosphorylated
+% E14 Phosphorylation:T52 Theme:T25 Cause:T26 Site:T51
+
+In macrophages treated with endotoxin, NF-kappaB transcription activity is associated with phosphorylation on Ser276 and Ser536 that is regulated through protein kinase A (PKA) and IKKbeta respectively[16], [19].
+# T27 Protein S22 181 188 3059 3066 IKKbeta
+$ T27 Protein S22 181 188 3059 3066 IKKbeta
+@ T53 Phosphorylation S22 91 106 2969 2984 phosphorylation
+@ T54 Entity S22 110 116 2988 2994 Ser276
+@ T55 Entity S22 121 127 2999 3005 Ser536
+@ T37 Anaphora S22 128 132 3006 3010 that
+@ T56 Regulation S22 136 145 3014 3023 regulated
+% E15 Phosphorylation:T53 Theme:T25 Site:T54
+% E16 Phosphorylation:T53 Theme:T25 Site:T55
+% E17 Regulation:T56 Theme:E15 Cause:T27
+% E18 Regulation:T56 Theme:E16 Cause:T27
+
+In human T cells, NF-kappaB p65 is constitutively phosphorylated on Ser536 to facilitate NF-kappaB p65 nuclear translocation following cellular stimulation [20].
+# T28 Protein S23 28 31 3119 3122 p65
+# T29 Protein S23 99 102 3190 3193 p65
+$ T28 Protein S23 28 31 3119 3122 p65
+$ T29 Protein S23 99 102 3190 3193 p65
+@ T57 Phosphorylation S23 50 64 3141 3155 phosphorylated
+@ T58 Entity S23 68 74 3159 3165 Ser536
+@ T59 Entity S23 103 110 3194 3201 nuclear
+@ T60 Localization S23 111 124 3202 3215 translocation
+% E19 Phosphorylation:T57 Theme:T28 Site:T58
+% E20 Localization:T60 Theme:T29 ToLoc:T59
+
+Accumulating evidence reveals that NF-kappaB p65 phosphorylation at Ser276 is crucial for its transcriptional activity.
+# T30 Protein S24 45 48 3298 3301 p65
+$ T30 Protein S24 45 48 3298 3301 p65
+@ T61 Phosphorylation S24 49 64 3302 3317 phosphorylation
+@ T62 Entity S24 68 74 3321 3327 Ser276
+% E21 Phosphorylation:T61 Theme:T30 Site:T62
+
+Upon nuclear translocation, phosphorylation of Ser276 on NF-kappaB p65 by PKA recruits the transcription co-activator, p300 to potentiate NF-kappaB-regulated gene transcription [21].
+# T31 Protein S25 67 70 3440 3443 p65
+# T32 Protein S25 119 123 3492 3496 p300
+$ T31 Protein S25 67 70 3440 3443 p65
+@ T63 Phosphorylation S25 28 43 3401 3416 phosphorylation
+@ T64 Entity S25 47 53 3420 3426 Ser276
+@ T65 Positive_regulation S25 71 73 3444 3446 by
+% E22 Phosphorylation:T63 Theme:T31 Site:T64
+% E23 Positive_regulation:T65 Theme:E22
+
+However, other studies show that PKA inhibits NF-kappaB-regulated gene expression by stabilizing IkappaBalpha [22], [23].
+# T33 Protein S26 97 109 3653 3665 IkappaBalpha
+$ T33 Protein S26 97 109 3653 3665 IkappaBalpha
+@ T66 Positive_regulation S26 85 96 3641 3652 stabilizing
+% E24 Positive_regulation:T66 Theme:T33
+
+Interestingly, the serine/threonine kinase Pim-1 directly phosphorylates NF-kappaB p65 at Ser276 by stabilizing to prevent ubiquitin-proteasome degradation [24].
+# T34 Protein S27 43 48 3721 3726 Pim-1
+# T35 Protein S27 83 86 3761 3764 p65
+$ T35 Protein S27 83 86 3761 3764 p65
+$ T34 Protein S27 43 48 3721 3726 Pim-1
+@ T67 Phosphorylation S27 58 72 3736 3750 phosphorylates
+@ T68 Entity S27 90 96 3768 3774 Ser276
+% E25 Phosphorylation:T67 Theme:T35 Cause:T34 Site:T68
+
+Several other phosphorylation sites are also described to enhance NF-kappaB gene transactivation [25].
+
+Here, we investigate the role of protein kinase C (PKC) in M-CSF-stimulated NF-kappaB activation.
+
+PKC proteins are multifunctional kinases that differ in structure, function and co-factor requirement [26].
+
+PKCs are involved in diverse cell responses, including cell growth, survival, differentiation and development [27].
+
+The 12 closely related enzymes of the PKC family are divided into three classes: conventional (cPKCs: alpha betaI betaII and gamma require Ca2+ and diacylglycerol (DAG); novel (nPKCs: delta, epsilon, eta, theta and mu) require DAG; and atypical (aPKCs: xi, iota and lambda) require neither Ca2+ nor DAG.
+# T69 Protein S32 102 107 4367 4372 alpha
+# T70 Protein S32 108 113 4373 4378 betaI
+# T71 Protein S32 114 120 4379 4385 betaII
+# T72 Protein S32 125 130 4390 4395 gamma
+# T73 Protein S32 184 189 4449 4454 delta
+# T74 Protein S32 191 198 4456 4463 epsilon
+# T75 Protein S32 200 203 4465 4468 eta
+# T76 Protein S32 205 210 4470 4475 theta
+# T77 Protein S32 215 217 4480 4482 mu
+# T78 Protein S32 253 255 4518 4520 xi
+# T79 Protein S32 257 261 4522 4526 iota
+# T80 Protein S32 266 272 4531 4537 lambda
+
+Monocytes and macrophages predominantly express conventional PKC isoforms (PKCalpha PKCbetaI and PKCbetaII) and novel PKCs (PKCdelta and PKCepsilon).
+# T81 Protein S33 75 83 4644 4652 PKCalpha
+# T82 Protein S33 84 92 4653 4661 PKCbetaI
+# T83 Protein S33 97 106 4666 4675 PKCbetaII
+# T84 Protein S33 124 132 4693 4701 PKCdelta
+# T85 Protein S33 137 147 4706 4716 PKCepsilon
+
+Conventional PKCs regulate differentiation of the human promyelocytic leukemia cell line HL60 to macrophages [28].
+
+PKCalpha induces IL-1alpha, iNOS and TNFalpha mRNA production after lipopolysaccharide (LPS) exposure [29].
+# T86 Protein S35 0 8 4834 4842 PKCalpha
+# T87 Protein S35 17 26 4851 4860 IL-1alpha
+# T88 Protein S35 28 32 4862 4866 iNOS
+# T89 Protein S35 37 45 4871 4879 TNFalpha
+$ T86 Protein S35 0 8 4834 4842 PKCalpha
+$ T87 Protein S35 17 26 4851 4860 IL-1alpha
+$ T88 Protein S35 28 32 4862 4866 iNOS
+$ T89 Protein S35 37 45 4871 4879 TNFalpha
+@ T102 Positive_regulation S35 9 16 4843 4850 induces
+@ T103 Transcription S35 51 61 4885 4895 production
+% E26 Positive_regulation:T102 Theme:E27 Cause:T86
+% E28 Positive_regulation:T102 Theme:E29 Cause:T86
+% E30 Positive_regulation:T102 Theme:E31 Cause:T86
+% E27 Transcription:T103 Theme:T87
+% E29 Transcription:T103 Theme:T88
+% E31 Transcription:T103 Theme:T89
+
+In addition, accumulating evidence suggests that conventional PKCs like PKCalpha have anti-apoptotic functions.
+# T90 Protein S36 72 80 5014 5022 PKCalpha
+
+For example, PKCalpha is overexpressed in a variety of tumor cells including gliomas, liver, and lung [30], [31].
+# T91 Protein S37 13 21 5067 5075 PKCalpha
+$ T91 Protein S37 13 21 5067 5075 PKCalpha
+@ T104 Positive_regulation S37 25 38 5079 5092 overexpressed
+% E32 Positive_regulation:T104 Theme:T91
+
+In epithelial cells, inhibition of PKCalpha induces PKCdelta-dependent apoptosis [31].
+# T92 Protein S38 35 43 5203 5211 PKCalpha
+# T93 Protein S38 52 60 5220 5228 PKCdelta
+$ T92 Protein S38 35 43 5203 5211 PKCalpha
+@ T105 Negative_regulation S38 21 31 5189 5199 inhibition
+% E33 Negative_regulation:T105 Theme:T92
+
+Interestingly, in human monocytes and premonocytic THP-1 leukemia cells, novel PKCs like PKCdelta have the opposite effect on cell survival, Voss et al showed that PKCdelta directly phosphorylates caspase-3 and promotes etoposide-induced apoptosis [32].
+# T94 Protein S39 89 97 5344 5352 PKCdelta
+# T95 Protein S39 164 172 5419 5427 PKCdelta
+# T96 Protein S39 197 206 5452 5461 caspase-3
+$ T96 Protein S39 197 206 5452 5461 caspase-3
+$ T95 Protein S39 164 172 5419 5427 PKCdelta
+@ T106 Phosphorylation S39 182 196 5437 5451 phosphorylates
+% E34 Phosphorylation:T106 Theme:T96 Cause:T95
+
+Moreover, knockout mouse studies suggest that another novel PKC, PKCepsilon is critically involved in early LPS-mediated signaling in activated macrophages [33].
+# T97 Protein S40 65 75 5574 5584 PKCepsilon
+
+Previously, we reported that M-CSF promotes monocyte survival through the activation of the PI3-K/AKT pathway [3].
+
+In addition to AKT activation, M-CSF stimulates PKC in human monocytes and increases NF-kappaB DNA binding [34].
+
+However, whether PKC and/or NF-kappaB activation is critical in M-CSF-stimulated mononuclear phagocyte survival and/or differentiation is unclear.
+
+In other cells, PKC plays an important role in NF-kappaB activation and cell survival [35], however the specific mechanisms of this activation and the biological effects on cellular phenotype are not known.
+
+Therefore, we focused at understanding the role of PKC in the regulation of NF-kappaB activation and M-CSF-induced monocyte survival.
+
+Here we demonstrates that M-CSF upregulated the NF-kappaB transcription and cell survival in human and mouse macrophages.
+
+This activity was reduced by the conventional, but not novel, PKC inhibitors, dominant negative PKCalpha constructs or PKCalpha siRNA.
+# T98 Protein S47 78 104 6587 6613 dominant negative PKCalpha
+# T99 Protein S47 119 133 6628 6642 PKCalpha siRNA
+
+Conventional PKC regulated NF-kappaB-regulated gene expression and phosphorylation of Ser276 of NF-kappaB p65 occurred in an M-CSF-dependent fashion correlating with its maximal transcriptional activity.
+# T100 Protein S48 106 109 6750 6753 p65
+$ T100 Protein S48 106 109 6750 6753 p65
+@ T107 Regulation S48 17 26 6661 6670 regulated
+@ T108 Phosphorylation S48 67 82 6711 6726 phosphorylation
+@ T109 Entity S48 86 92 6730 6736 Ser276
+@ T110 Regulation S48 131 140 6775 6784 dependent
+% E35 Regulation:T107 Theme:E36
+% E36 Phosphorylation:T108 Theme:T100 Site:T109
+% E37 Regulation:T110 Theme:E35
+
+Furthermore, PKCalpha-regulated phosphorylation of Ser276 of NF-kappaB p65 plays an important role in regulating its activity in mononuclear phagocytes and murine embryonic fibroblasts.
+# T101 Protein S49 71 74 6919 6922 p65
+$ T101 Protein S49 71 74 6919 6922 p65
+@ T111 Regulation S49 22 31 6870 6879 regulated
+@ T112 Phosphorylation S49 32 47 6880 6895 phosphorylation
+@ T113 Entity S49 51 57 6899 6905 Ser276
+% E38 Regulation:T111 Theme:E39
+% E39 Phosphorylation:T112 Theme:T101 Site:T113
+

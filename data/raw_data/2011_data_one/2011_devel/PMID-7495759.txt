@@ -1,0 +1,29 @@
+CIITA activates the expression of MHC class II genes in mouse T cells.
+# T1 Protein S1 0 5 0 5 CIITA
+
+It has long been a puzzle that MHC class II molecules are expressed in human T cells after activation but not in mouse T cells; this expression is believed to play a role in the cell mediated immune response.
+
+Recently the MHC class II transactivator (CIITA) has been reported to be a major regulatory factor for both the constitutive and IFN inducible expression of MHC class II genes.
+# T2 Protein S3 13 40 294 321 MHC class II transactivator
+# T3 Protein S3 42 47 323 328 CIITA
+
+Here we show that human T cells expressing MHC class II have CIITA transcripts while MHC class II-negative human T cells and mouse T cells do not.
+# T4 Protein S4 61 66 519 524 CIITA
+$ T4 Protein S4 61 66 519 524 CIITA
+@ T7 Transcription S4 56 60 514 518 have
+% E1 Transcription:T7 Theme:T4
+
+The expression of MHC class II genes in mouse T cells can be reconstituted upon transfection with the human CIITA cDNA.
+# T5 Protein S5 108 113 713 718 CIITA
+$ T5 Protein S5 108 113 713 718 CIITA
+@ T8 Gene_expression S5 80 92 685 697 transfection
+@ T9 Positive_regulation S5 80 92 685 697 transfection
+% E2 Gene_expression:T8 Theme:T5
+% E3 Positive_regulation:T9 Theme:E2
+
+These data indicate that the expression of CIITA explains the expression or lack of expression of MHC class II in human and mouse T cells respectively.
+# T6 Protein S6 43 48 768 773 CIITA
+$ T6 Protein S6 43 48 768 773 CIITA
+@ T10 Gene_expression S6 29 39 754 764 expression
+% E4 Gene_expression:T10 Theme:T6
+

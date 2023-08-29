@@ -1,0 +1,27 @@
+Mutual regulation of the transcriptional activator NF-kappa B and its inhibitor, I kappa B-alpha.
+# T1 Protein S1 81 96 81 96 I kappa B-alpha
+
+The NK-kappa B transcription factor complex is sequestered in the cytoplasm by the inhibitory protein I kappa B-alpha (MAD-3).
+# T2 Protein S2 102 117 201 216 I kappa B-alpha
+# T3 Protein S2 119 124 218 223 MAD-3
+
+Various cellular stimuli relieve this inhibition by mechanisms largely unknown, leading to NF-kappa B nuclear localization and transactivation of its target genes.
+
+It is demonstrated here with human T lymphocytes and monocytes that different stimuli, including tumor necrosis factor alpha and phorbol 12-myristate 13-acetate, cause rapid degradation of I kappa B-alpha, with concomitant activation of NF-kappa B, followed by a dramatic increase in I kappa B-alpha mRNA and protein synthesis.
+# T4 Protein S4 97 124 487 514 tumor necrosis factor alpha
+# T5 Protein S4 189 204 579 594 I kappa B-alpha
+# T6 Protein S4 284 299 674 689 I kappa B-alpha
+
+Transfection studies reveal that the I kappa B-alpha mRNA and the encoded protein are potently induced by NF-kappa B and by homodimers of p65 and of c-Rel.
+# T7 Protein S5 37 52 755 770 I kappa B-alpha
+# T8 Protein S5 138 141 856 859 p65
+# T9 Protein S5 149 154 867 872 c-Rel
+
+We propose a model in which NF-kappa B and I kappa B-alpha mutually regulate each other in a cycle: saturating amounts of the inhibitory I kappa B-alpha protein are destroyed upon stimulation, allowing rapid activation of NF-kappa B. Subsequently, I kappa B-alpha mRNA and protein levels are quickly induced by the activated NF-kappa B.
+# T10 Protein S6 43 58 917 932 I kappa B-alpha
+# T11 Protein S6 137 152 1011 1026 I kappa B-alpha
+# T12 Protein S6 248 263 1122 1137 I kappa B-alpha
+
+This resurgence of I kappa B-alpha protein acts to restore an equilibrium in which NF-kappa B is again inhibited.
+# T13 Protein S7 19 34 1230 1245 I kappa B-alpha
+

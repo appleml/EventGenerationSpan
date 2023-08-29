@@ -1,0 +1,61 @@
+Tumor necrosis factor alpha decreases, and interleukin-10 increases, the sensitivity of human monocytes to dexamethasone: potential regulation of the glucocorticoid receptor.
+# T1 Protein S1 0 27 0 27 Tumor necrosis factor alpha
+# T2 Protein S1 43 57 43 57 interleukin-10
+# T3 Protein S1 150 173 150 173 glucocorticoid receptor
+
+Resistance to glucocorticoid therapy has been observed in patients with autoimmune/inflammatory diseases and may be related to the inflammatory process itself.
+
+The aim of this study was to examine the ability of tumor necrosis factor alpha (TNFalpha, a proinflammatory cytokine) and interleukin (IL)-10 (an anti-inflammatory cytokine) to differentially regulate the sensitivity of human monocytes/macrophages to glucocorticoids.
+# T4 Protein S3 52 79 388 415 tumor necrosis factor alpha
+# T5 Protein S3 81 89 417 425 TNFalpha
+# T6 Protein S3 123 142 459 478 interleukin (IL)-10
+
+To accomplish this, we first analyzed the pattern of TNFalpha and IL-10 inhibition by dexamethasone in LPS-stimulated whole-blood cell cultures.
+# T7 Protein S4 53 61 658 666 TNFalpha
+# T8 Protein S4 66 71 671 676 IL-10
+
+Second, we studied the modulation of the sensitivity of these cells to dexamethasone by preincubation with TNFalpha or IL-10 and measurement of LPS-stimulated IL-6 secretion.
+# T9 Protein S5 107 115 857 865 TNFalpha
+# T10 Protein S5 119 124 869 874 IL-10
+# T11 Protein S5 159 163 909 913 IL-6
+
+In addition, we evaluated the effect of dexamethasone on phorbolmyristate-acetate-stimulated IL-1 receptor antagonist secretion by the human monocytic cell line U937.
+# T12 Protein S6 93 117 1018 1042 IL-1 receptor antagonist
+
+Finally, we investigated whether the modulation of corticosensitivity in TNFalpha- and IL-10-pretreated U937 cells was related to a change of the glucocorticoid receptor concentration and affinity.
+# T13 Protein S7 73 81 1165 1173 TNFalpha
+# T14 Protein S7 87 92 1179 1184 IL-10
+# T15 Protein S7 146 169 1238 1261 glucocorticoid receptor
+
+Dexamethasone had different effects on LPS-induced TNFalpha and IL-10 secretion; whereas it suppressed TNFalpha in a dose-dependent fashion, its effect on IL-10 secretion was biphasic, producing stimulation at lower, and inhibition at higher doses.
+# T16 Protein S8 51 59 1341 1349 TNFalpha
+# T17 Protein S8 64 69 1354 1359 IL-10
+# T18 Protein S8 103 111 1393 1401 TNFalpha
+# T19 Protein S8 155 160 1445 1450 IL-10
+
+The concentration of LPS employed influenced the effect of dexamethasone on IL-10 secretion (P < 0.001).
+# T20 Protein S9 76 81 1615 1620 IL-10
+
+Pretreatment with TNFalpha diminished, and with IL-10 improved, the ability of dexamethasone to suppress IL-6 secretion in whole-blood cell cultures (P < 0.01 for both) and to enhance IL-1 receptor antagonist secretion by U937 cells (P < 0.05 for both).
+# T21 Protein S10 18 26 1662 1670 TNFalpha
+# T22 Protein S10 48 53 1692 1697 IL-10
+# T23 Protein S10 105 109 1749 1753 IL-6
+# T24 Protein S10 184 208 1828 1852 IL-1 receptor antagonist
+
+TNFalpha decreased (P < 0.001), while IL-10 increased (P < 0.001), the concentration of dexamethasone binding sites in these cells, with no discernible effect on their binding affinity.
+# T25 Protein S11 0 8 1898 1906 TNFalpha
+# T26 Protein S11 38 43 1936 1941 IL-10
+
+We conclude that glucocorticoids differentially modulate TNFalpha and IL-10 secretion by human monocytes in a LPS dose-dependent fashion and that the sensitivity of these cells to glucocorticoids is altered by TNFalpha or IL-10 pretreatment; TNFalpha blocks their effects, whereas IL-10 acts synergistically with glucocorticoids.
+# T27 Protein S12 57 65 2141 2149 TNFalpha
+# T28 Protein S12 70 75 2154 2159 IL-10
+# T29 Protein S12 210 218 2294 2302 TNFalpha
+# T30 Protein S12 222 227 2306 2311 IL-10
+# T31 Protein S12 242 250 2326 2334 TNFalpha
+# T32 Protein S12 281 286 2365 2370 IL-10
+
+This is accompanied by opposite glucocorticoid receptor changes, respectively opposing and favoring glucocorticoid actions.
+# T33 Protein S13 32 55 2446 2469 glucocorticoid receptor
+
+This study suggests that the pattern of pro-/antiinflammatory cytokine secretion may alter the response of patients to glucocorticoid therapy.
+

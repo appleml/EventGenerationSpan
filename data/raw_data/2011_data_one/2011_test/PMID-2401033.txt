@@ -1,0 +1,19 @@
+[Glucocorticoid receptors on human peripheral mononuclear and polymorphonuclear leucocytes: changes in patients with yang-deficiency]
+# T1 Protein S1 1 25 1 25 Glucocorticoid receptors
+
+It was found that, in former works, the glucocorticoid receptors (GCR) on peripheral mixed leucocytes in patients with Yang-deficiency were decreased.
+# T2 Protein S2 40 64 175 199 glucocorticoid receptors
+# T3 Protein S2 66 69 201 204 GCR
+
+In this work, the mixed leucocytes were further separated into mononuclear (MNL) and polymorphonuclear (PML) leucocytes, and GCR were determined in each part of leucocytes.
+# T4 Protein S3 125 128 411 414 GCR
+
+GCR on MNL and PML in 6 Yang deficient patients were 3473 +/- 413 and 4433 +/- 651 sites/cell respectively, statistically significant from the normal control group (4462 +/- 962 and 5622 +/- 782 sites/cell respectively, P less than 0.05).
+# T5 Protein S4 0 3 459 462 GCR
+
+GCR on MNL, PML and mixed leucocytes in 5 patients were determined simultaneously, and all lowered from the control group.
+# T6 Protein S5 0 3 698 701 GCR
+
+The results were 3369 +/- 370, 4986 +/- 419 and 4524 +/- 852 sites/cell respectively, with the lowest GCR on MNL and highest on PML.
+# T7 Protein S6 102 105 923 926 GCR
+

@@ -1,0 +1,64 @@
+Phosphorylation of C/EBP-beta at Serine 64 negatively Regulates LPS-stimulated SerpinB2 Promoter Activity
+# T1 Protein S1 19 29 19 29 C/EBP-beta
+# T2 Protein S1 79 87 79 87 SerpinB2
+
+Phosphorylation of C/EBP-beta is well recognized to modulate its transactivation potential [63].
+# T3 Protein S2 19 29 125 135 C/EBP-beta
+
+To investigate C/EBP-beta phosphorylation sites that may be important for LPS-stimulated SerpinB2 proximal promoter activity (Fig. 8B), we co-expressed several C/EBP-beta phospho-acceptor mutants in which the critical threonine or serine residue was mutated to an alanine, along with the pGLmP-539 murine SerpinB2 luciferase reporter in Cebpb-/- MEFs.
+# T4 Protein S3 15 25 218 228 C/EBP-beta
+# T5 Protein S3 89 97 292 300 SerpinB2
+# T6 Protein S3 160 195 363 398 C/EBP-beta phospho-acceptor mutants
+# T7 Protein S3 305 333 508 536 SerpinB2 luciferase reporter
+# T8 Protein S3 337 342 540 545 Cebpb
+
+Re-expression of wild-type C/EBP-beta in Cebpb-/- MEFs significantly stimulated SerpinB2 luciferase reporter gene expression in the presence of LPS by ~3 fold (Fig. 8C, left), confirming the importance of C/EBP-beta to LPS-induced SerpinB2 gene transcription.
+# T9 Protein S4 27 37 582 592 C/EBP-beta
+# T10 Protein S4 41 46 596 601 Cebpb
+# T11 Protein S4 80 108 635 663 SerpinB2 luciferase reporter
+# T12 Protein S4 205 215 760 770 C/EBP-beta
+# T13 Protein S4 231 239 786 794 SerpinB2
+
+Expression of the C/EBP-beta phospho-acceptor mutant, C/EBPbetaT217A, in Cebpb-/- MEFs did not significantly increase SerpinB2 promoter activity above that of wild-type C/EBP-beta (Fig. 8C, right); confirming that phosphorylation of C/EBP-beta at T217 is not a major factor in the regulation of SerpinB2 promoter activity in response to LPS.
+# T14 Protein S5 18 52 833 867 C/EBP-beta phospho-acceptor mutant
+# T15 Protein S5 54 68 869 883 C/EBPbetaT217A
+# T16 Protein S5 73 78 888 893 Cebpb
+# T17 Protein S5 118 126 933 941 SerpinB2
+# T18 Protein S5 169 179 984 994 C/EBP-beta
+# T19 Protein S5 233 243 1048 1058 C/EBP-beta
+# T20 Protein S5 295 303 1110 1118 SerpinB2
+
+C/EBP-beta contains additional phosphorylation sites, C/EBP-betaT188 and C/EBP-betaS64 (Fig. 8B), which may be involved in modulating C/EBP-beta-dependent SerpinB2 gene transcription.
+# T21 Protein S6 0 10 1157 1167 C/EBP-beta
+# T22 Protein S6 134 144 1291 1301 C/EBP-beta
+# T23 Protein S6 155 163 1312 1320 SerpinB2
+
+C/EBP-betaT188 is implicated in regulating DAPK1, an IFNgamma-inducible gene involved in the regulation of cell cycle and apoptosis [38], processes with which SerpinB2 has also been associated [17].
+# T24 Protein S7 43 48 1384 1389 DAPK1
+# T25 Protein S7 53 61 1394 1402 IFNgamma
+# T26 Protein S7 72 76 1413 1417 gene
+# T27 Protein S7 159 167 1500 1508 SerpinB2
+
+C/EBP-betaS64 is important for LPS-induced transcription of the cytokines IL-6 and MCP-1 [64].
+# T28 Protein S8 74 78 1614 1618 IL-6
+# T29 Protein S8 83 88 1623 1628 MCP-1
+
+Similarly, SerpinB2 is induced by LPS and regulated in a manner similar to cytokines [29].
+# T30 Protein S9 11 19 1646 1654 SerpinB2
+
+Given the similarities in the functional significance of these phospho-specific isoforms of C/EBP-beta and SerpinB2, we investigated whether these phospho-acceptor sites may play a role in SerpinB2 gene expression.
+# T31 Protein S10 92 102 1818 1828 C/EBP-beta
+# T32 Protein S10 107 115 1833 1841 SerpinB2
+# T33 Protein S10 189 197 1915 1923 SerpinB2
+
+C/EBP-betaT188A-transfected MEFs exhibited SerpinB2 promoter activity similar to that of wild-type C/EBP-beta-transfected MEFs, whereas the expression of C/EBP-betaS64A potentiated SerpinB2 promoter activity in response to LPS (Fig. 8C, right).
+# T34 Protein S11 0 15 1941 1956 C/EBP-betaT188A
+# T35 Protein S11 43 51 1984 1992 SerpinB2
+# T36 Protein S11 99 109 2040 2050 C/EBP-beta
+# T37 Protein S11 154 168 2095 2109 C/EBP-betaS64A
+# T38 Protein S11 181 189 2122 2130 SerpinB2
+
+These data suggest that phosphorylation of C/EBP-beta at S64 acts to negatively regulate SerpinB2 proximal promoter activity.
+# T39 Protein S12 43 53 2229 2239 C/EBP-beta
+# T40 Protein S12 89 97 2275 2283 SerpinB2
+

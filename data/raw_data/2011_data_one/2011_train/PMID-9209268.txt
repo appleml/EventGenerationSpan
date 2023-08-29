@@ -1,0 +1,47 @@
+Activation of nuclear factor-kappa B by beta-amyloid peptides and interferon-gamma in murine microglia.
+# T1 Protein S1 66 82 66 82 interferon-gamma
+
+An increasing body of evidence suggests that amyloid-beta (A beta) peptides and microglia are crucially involved in the pathogenesis of Alzheimer's disease.
+
+In an effort to further elucidate the biological effects of A beta towards microglia, we investigated the ability of A beta peptides to activate nuclear factor (NF)-kappa B in the N9 murine microglial cell line.
+
+Co-stimulation of microglia with suboptimal concentrations of A beta(25-35) and 100 U/ml IFN gamma resulted in the detection of a specific NF-kappa B DNA-binding activity in nuclear extracts, as determined in gel mobility shift assays.
+# T2 Protein S4 89 98 563 572 IFN gamma
+
+This response required at least 120 min to be evident and supershift experiments revealed that the NF-kappa B complex contains both RelA and p50.
+# T3 Protein S5 132 136 842 846 RelA
+# T4 Protein S5 141 144 851 854 p50
+
+Accordingly, immunoblot experiments showed that amongst NF-kappa B/Rel proteins, RelA and p50 are mobilized to the nucleus following microglial cell stimulation with A beta(25-35) plus IFN gamma.
+# T5 Protein S6 81 85 937 941 RelA
+# T6 Protein S6 90 93 946 949 p50
+# T7 Protein S6 185 194 1041 1050 IFN gamma
+$ T6 Protein S6 90 93 946 949 p50
+$ T5 Protein S6 81 85 937 941 RelA
+@ T11 Localization S6 98 107 954 963 mobilized
+@ T12 Entity S6 115 122 971 978 nucleus
+@ T13 Positive_regulation S6 123 132 979 988 following
+% E1 Localization:T11 Theme:T6 ToLoc:T12
+% E2 Localization:T11 Theme:T5 ToLoc:T12
+% E3 Positive_regulation:T13 Theme:E2
+% E4 Positive_regulation:T13 Theme:E1
+
+Higher concentrations of A beta(25-35) were effective by themselves in inducing NF-kappa B activation, both in the N9 microglial cell line and in rat primary microglia, as well as in human monocytes.
+
+For purposes of comparison, microglia were also stimulated with bacterial LPS, a known NF-kappa B inducer.
+
+As expected, LPS strongly induced the formation of two NF-kappa B DNA-binding activities, one of which was identified as RelA/p50.
+# T8 Protein S9 121 125 1480 1484 RelA
+# T9 Protein S9 126 129 1485 1488 p50
+$ T9 Protein S9 126 129 1485 1488 p50
+$ T8 Protein S9 121 125 1480 1484 RelA
+@ T14 Positive_regulation S9 26 47 1385 1406 induced the formation
+@ T15 Binding S9 70 77 1429 1436 binding
+% E5 Positive_regulation:T14 Theme:E8
+% E6 Positive_regulation:T14 Theme:E7
+% E7 Binding:T15 Theme:T9
+% E8 Binding:T15 Theme:T8
+
+The LPS response was also more rapid, as it was already evident by 40 min and remained sustained for up to 3 h. Collectively, these findings indicate that NF-kappa B activation might constitute one of the mechanisms underlying the inducible expression of kappa B-dependent genes in microglia stimulated by A beta peptides and IFN gamma, or by LPS.
+# T10 Protein S10 326 335 1816 1825 IFN gamma
+

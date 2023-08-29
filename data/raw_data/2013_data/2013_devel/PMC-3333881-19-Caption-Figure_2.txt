@@ -1,0 +1,43 @@
+Tat enhances the NF-kappaB activity following PMA stimulation by associating with IkappaB-alpha and counteracting the NF-kappaB repression.
+# T1 Protein S1 0 3 0 3 Tat
+# T2 Protein S1 82 95 82 95 IkappaB-alpha
+$ T1 Protein S1 0 3 0 3 Tat
+$ T2 Protein S1 82 95 82 95 IkappaB-alpha
+@ T9 Binding S1 65 76 65 76 associating
+% E1 Binding:T9 Theme:T1 Theme2:T2
+
+HeLa cells (5 x 106) were transfected with p3xFLAG-Tat or p3xFLAG empty vector (5 microg), and 48 h later were stimulated with PMA (5 min, 20 ng/ml) or left unstimulated, washed twice with DMEM and harvested at the indicated times.
+# T3 Protein S2 51 54 191 194 Tat
+
+Nuclear and cytosolic extracts were prepared for further analysis.
+
+(A) Nuclear extracts were analysed for the p65, p50 and FLAG-Tat binding to the NF-kappaB double-stranded oligonucleotide using the NF-kappaB Transcription Factor ELISA assay kit (Cayman).
+# T4 Protein S4 43 46 482 485 p65
+# T5 Protein S4 48 51 487 490 p50
+# T6 Protein S4 56 64 495 503 FLAG-Tat
+$ T4 Protein S4 43 46 482 485 p65
+$ T5 Protein S4 48 51 487 490 p50
+$ T6 Protein S4 56 64 495 503 FLAG-Tat
+@ T10 Binding S4 65 72 504 511 binding
+% E2 Binding:T10 Theme:T4
+% E3 Binding:T10 Theme:T5
+% E4 Binding:T10 Theme:T6
+
+(B) Nuclear and cytosolic extracts (20 microg) were separated by 12% SDS-PAGE and analysed by western blotting using the anti-p65, anti-FLAG, anti-Histone H1, anti-IkappaB-alpha and anti-Hexokinase-II antibodies.
+
+Densitometry values (D) of the bands were expressed as fold increase above the control (lane 1).
+
+(C) IKK activity was measured in cytosolic extracts (100 microg) by using HTScan IKK kinase assay (Cell Signaling Technology).
+
+(D) HeLa cells (5 x 106) were transfected with or without p3xFLAG-Tat (5 microg); 48 h later, cells were stimulated with PMA (5 min, 20 ng/ml) or left unstimulated, washed twice with DMEM, and harvested after 240 min.
+# T7 Protein S8 66 69 1131 1134 Tat
+
+Whole cell extracts (1 mg) were immunoprecipitated with protein G-Sepharose-coupled anti-IkappaB-alpha antibody.
+# T8 Protein S9 56 65 1339 1348 protein G
+
+Immunocomplexes were separated by 12% SDS-PAGE and analysed by western blotting with anti-p65, anti-FLAG and anti-IkappaB-alpha antibodies.
+
+Densitometry values (D) of the bands were expressed as fold increase above the control (lane 1).
+
+Values (mean +/- SE, n = 3) are shown.
+

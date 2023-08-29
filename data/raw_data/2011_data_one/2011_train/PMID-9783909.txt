@@ -1,0 +1,78 @@
+Differential RNA display identifies novel genes associated with decreased vitamin D receptor expression.
+# T1 Protein S1 74 92 74 92 vitamin D receptor
+$ T1 Protein S1 74 92 74 92 vitamin D receptor
+@ T16 Negative_regulation S1 64 73 64 73 decreased
+@ T17 Gene_expression S1 93 103 93 103 expression
+% E1 Negative_regulation:T16 Theme:E2
+% E2 Gene_expression:T17 Theme:T1
+
+To characterize further the function of the intracellular vitamin D receptor (VDR), we have developed stable transfectant variants of a vitamin D-responsive cell line (U937) which express either decreased or increased numbers of VDR.
+# T2 Protein S2 58 76 164 182 vitamin D receptor
+# T3 Protein S2 78 81 184 187 VDR
+# T4 Protein S2 229 232 335 338 VDR
+$ T4 Protein S2 229 232 335 338 VDR
+@ T18 Gene_expression S2 180 187 286 293 express
+@ T19 Positive_regulation S2 208 225 314 331 increased numbers
+% E3 Gene_expression:T18 Theme:T4
+% E4 Positive_regulation:T19 Theme:E3
+
+In this study we have analyzed changes in gene expression associated with this variable VDR expression.
+# T5 Protein S3 88 91 428 431 VDR
+$ T5 Protein S3 88 91 428 431 VDR
+@ T21 Gene_expression S3 92 102 432 442 expression
+% E6 Gene_expression:T21 Theme:T5
+
+Initial experiments indicated that a 50% decrease in VDR levels was associated with a 2-fold increase in cell proliferation and a similar rise in c-myc mRNA expression.
+# T6 Protein S4 53 56 497 500 VDR
+# T7 Protein S4 146 151 590 595 c-myc
+$ T6 Protein S4 53 56 497 500 VDR
+$ T7 Protein S4 146 151 590 595 c-myc
+@ T22 Negative_regulation S4 41 49 485 493 decrease
+@ T23 Positive_regulation S4 138 142 582 586 rise
+@ T24 Transcription S4 157 167 601 611 expression
+% E7 Negative_regulation:T22 Theme:T6
+% E8 Positive_regulation:T23 Theme:E9
+% E9 Transcription:T24 Theme:T7
+
+Further studies were carried out using differential RNA display (DD).
+
+Sequence analysis of DD products revealed two cDNAs with identity to known gene products: the catalytic sub-unit of DNA-protein kinase (DNA-PK(CS)), and the peroxisomal enzyme 17beta-hydroxysteroid dehydrogenase type IV (17beta-HSD IV).
+# T8 Protein S6 136 146 819 829 DNA-PK(CS)
+# T9 Protein S6 176 219 859 902 17beta-hydroxysteroid dehydrogenase type IV
+# T10 Protein S6 221 234 904 917 17beta-HSD IV
+
+Northern analysis confirmed that expression of both mRNAs was reduced in cells with decreased numbers of VDR.
+# T11 Protein S7 105 108 1025 1028 VDR
+$ T11 Protein S7 105 108 1025 1028 VDR
+@ T25 Transcription S7 33 43 953 963 expression
+@ T26 Negative_regulation S7 62 69 982 989 reduced
+@ T27 Negative_regulation S7 84 101 1004 1021 decreased numbers
+% E10 Transcription:T25 Theme:T8
+% E11 Transcription:T25 Theme:T10
+% E12 Negative_regulation:T26 Theme:E11 Cause:E14
+% E13 Negative_regulation:T26 Theme:E10 Cause:E14
+% E14 Negative_regulation:T27 Theme:T11
+
+Down-regulation of 17beta-HSD IV mRNA expression was associated with enhanced estradiol inactivation by U937 cells, suggesting a link between estrogenic pathways and cell proliferation.
+# T12 Protein S8 19 32 1049 1062 17beta-HSD IV
+$ T12 Protein S8 19 32 1049 1062 17beta-HSD IV
+@ T28 Negative_regulation S8 0 15 1030 1045 Down-regulation
+@ T29 Transcription S8 38 48 1068 1078 expression
+% E15 Negative_regulation:T28 Theme:E16
+% E16 Transcription:T29 Theme:T12
+
+Further Northern analyses indicated that there was no significant change in 17beta-HSD IV or DNA-PK(CS) mRNA levels following treatment with 1,25(OH)2D3, although expression of both genes varied with changes in cell proliferation.
+# T13 Protein S9 76 89 1292 1305 17beta-HSD IV
+# T14 Protein S9 93 103 1309 1319 DNA-PK(CS)
+$ T14 Protein S9 93 103 1309 1319 DNA-PK(CS)
+$ T13 Protein S9 76 89 1292 1305 17beta-HSD IV
+@ T30 Regulation S9 66 72 1282 1288 change
+@ T31 Gene_expression S9 163 173 1379 1389 expression
+% E17 Regulation:T30 Theme:T14
+% E18 Regulation:T30 Theme:T13
+% E19 Gene_expression:T31 Theme:T13
+% E20 Gene_expression:T31 Theme:T14
+
+These data suggest that, in addition to its established role as a hormone-dependent trans-activator, VDR may influence gene expression by ligand-independent mechanisms.
+# T15 Protein S10 101 104 1548 1551 VDR
+

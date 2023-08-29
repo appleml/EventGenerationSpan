@@ -1,0 +1,57 @@
+Tat associates with p65 increasing its DNA-affinity binding.
+# T1 Protein S1 0 3 0 3 Tat
+# T2 Protein S1 20 23 20 23 p65
+$ T1 Protein S1 0 3 0 3 Tat
+$ T2 Protein S1 20 23 20 23 p65
+@ T28 Binding S1 4 14 4 14 associates
+@ T29 Positive_regulation S1 24 34 24 34 increasing
+@ T27 Anaphora S1 35 38 35 38 its
+@ T30 Binding S1 52 59 52 59 binding
+% E1 Binding:T28 Theme:T1 Theme2:T2
+% E2 Positive_regulation:T29 Theme:E3 Cause:E1
+% E3 Binding:T30 Theme:T2
+
+(A) HeLa cells were transfected with pRc/CMV-3xHA-p65 (5 microg) in presence or absence of p3xFLAG-Tat, p3xFLAG-Tat T,N(23,24)A, p3xFLAG-Tat K(50,51)A, p3xFLAG-Tat R(49-57)A, or p3xFLAG-Tat C(22,25,27)A (5 microg).
+# T3 Protein S2 45 53 106 114 3xHA-p65
+# T4 Protein S2 99 102 160 163 Tat
+# T5 Protein S2 112 127 173 188 Tat T,N(23,24)A
+# T6 Protein S2 137 150 198 211 Tat K(50,51)A
+# T7 Protein S2 160 173 221 234 Tat R(49-57)A
+# T8 Protein S2 186 202 247 263 Tat C(22,25,27)A
+
+FLAG-Tat proteins were immunoprecipitated with anti-FLAG antibody; immunocomplexes were separated by 12% SDS-PAGE and analysed by western blotting with anti-FLAG or anti-HA antibodies.
+# T9 Protein S3 0 8 276 284 FLAG-Tat
+
+(B) In vitro translated p65 (5 microl) was incubated with GST-Tat, GST-Tat T,N(23,24)A, GST-Tat K(50,51)A, GST-Tat R(49-57)A, GST-Tat C(22,25,27)A, or GST (5 microg) conjugated with Glutathione-Sepharose.
+# T10 Protein S4 24 27 485 488 p65
+# T11 Protein S4 58 65 519 526 GST-Tat
+# T12 Protein S4 67 86 528 547 GST-Tat T,N(23,24)A
+# T13 Protein S4 88 105 549 566 GST-Tat K(50,51)A
+# T14 Protein S4 107 124 568 585 GST-Tat R(49-57)A
+# T15 Protein S4 126 146 587 607 GST-Tat C(22,25,27)A
+# T16 Protein S4 151 154 612 615 GST
+
+Protein complexes were recovered by GST-pull down, separated by 12% SDS-PAGE, and analysed by western blotting with anti-p65 or anti-GST antibodies.
+# T17 Protein S5 36 39 702 705 GST
+
+(C) Schematic representation of wild-type and mutant p65 proteins.
+# T18 Protein S6 53 56 868 871 p65
+
+(D) HeLa cells were transfected with p3xFLAG-Tat (5 microg) in the presence or absence of pRc/CMV-3xHA-p65, pRc/CMV-3xHA-p65deltaC (1-318), or pRc/CMV-3xHA-p65deltaN (122-551) (5 microg).
+# T19 Protein S7 45 48 927 930 Tat
+# T20 Protein S7 98 106 980 988 3xHA-p65
+# T21 Protein S7 116 130 998 1012 3xHA-p65deltaC
+# T22 Protein S7 151 165 1033 1047 3xHA-p65deltaN
+
+Wild-type and mutant HA-p65 proteins were immunoprecipitated with anti-HA antibody; immunocomplexes were separated by 12% SDS-PAGE and analysed by western blotting with anti-FLAG or anti-HA antibodies.
+# T23 Protein S8 21 27 1091 1097 HA-p65
+
+(E) Recombinant p65 protein (100 ng; Active Motif Carlsbad, CA, USA) was 20 min incubated with 32P-labeled NF-kappaB double-stranded oligonucleotide in presence or absence of in vitro translated FLAG-Tat or FLAG-Tat C(22,25,27)A (5 microl); competitions were performed with 1.25- up to 40-fold molar excess of unlabeled oligonucleotide.
+# T24 Protein S9 16 19 1288 1291 p65
+# T25 Protein S9 195 203 1467 1475 FLAG-Tat
+# T26 Protein S9 207 228 1479 1500 FLAG-Tat C(22,25,27)A
+
+DNA/protein complexes were separated by 6% PAGE in 0.5 x TBE buffer and analysed by autoradiography.
+
+(F) Densitometry of band-shifts shown in E.
+

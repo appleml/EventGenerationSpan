@@ -1,0 +1,46 @@
+Mice, Cytokines, Antibodies, and Other Reagents
+
+BALB/c DO11.10 mice transgenic for OVA-specific TCR WT or crossed back with Rag1-, IL-4-, IFN-gamma-, STAT4-, and STAT6-deficient mice were used as a source of antigen-specific T cells (Murphy et al., 1990; Ouyang et al., 1998; Shoemaker et al., 2006) and were bred and maintained under SPF conditions at the NIMR, London, Home Office, UK, Animals (Scientific Procedures) Act 1986 or at the Washington University School of Medicine.
+# T1 Protein S2 35 38 83 86 OVA
+# T2 Protein S2 76 80 124 128 Rag1
+# T3 Protein S2 83 87 131 135 IL-4
+# T4 Protein S2 90 99 138 147 IFN-gamma
+# T5 Protein S2 102 107 150 155 STAT4
+# T6 Protein S2 114 119 162 167 STAT6
+$ T2 Protein S2 76 80 124 128 Rag1
+$ T3 Protein S2 83 87 131 135 IL-4
+$ T4 Protein S2 90 99 138 147 IFN-gamma
+$ T5 Protein S2 102 107 150 155 STAT4
+$ T6 Protein S2 114 119 162 167 STAT6
+@ T13 Negative_regulation S2 120 129 168 177 deficient
+% E1 Negative_regulation:T13 Theme:T2
+% E2 Negative_regulation:T13 Theme:T3
+% E3 Negative_regulation:T13 Theme:T4
+% E4 Negative_regulation:T13 Theme:T5
+% E5 Negative_regulation:T13 Theme:T6
+
+Female mice were used at 8-12 weeks old, and animal protocols were approved according to the Animals (Scientific Procedures) Act 1986, Home Office, UK.
+
+Reagents, including antibodies for T cell and DC preparation, purification and culture, media, cytokines, and cytokine mAbs have been described (Hosken et al., 1995; Shoemaker et al., 2006; Veldhoen et al., 2009; Veldhoen et al., 2006).
+
+LPS (S. minnesota) was from Alexis, chicken ovalbumin protein (OVA protein) was from from Sigma-Aldrich, and ovalbumin peptide323-339 (OVA) (endotoxin-free) was from Biosynthesis.
+# T7 Protein S5 44 53 914 923 ovalbumin
+# T8 Protein S5 63 66 933 936 OVA
+# T9 Protein S5 109 118 979 988 ovalbumin
+
+U0126 was from BioMol International.
+
+PD184352 (MEK inhibitors), SB203580 (p38 inhibitor), and CT99021 (GSK3beta inhibitor) were kind gifts from P. Cohen and N. Shpiro, University of Dundee, UK.
+# T10 Protein S7 10 13 1097 1100 MEK
+# T11 Protein S7 37 40 1124 1127 p38
+# T12 Protein S7 66 74 1153 1161 GSK3beta
+$ T10 Protein S7 10 13 1097 1100 MEK
+$ T11 Protein S7 37 40 1124 1127 p38
+$ T12 Protein S7 66 74 1153 1161 GSK3beta
+@ T14 Negative_regulation S7 14 24 1101 1111 inhibitors
+@ T15 Negative_regulation S7 41 50 1128 1137 inhibitor
+@ T16 Negative_regulation S7 75 84 1162 1171 inhibitor
+% E6 Negative_regulation:T14 Theme:T10
+% E7 Negative_regulation:T15 Theme:T11
+% E8 Negative_regulation:T16 Theme:T12
+

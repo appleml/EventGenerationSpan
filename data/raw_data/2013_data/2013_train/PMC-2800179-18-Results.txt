@@ -1,0 +1,50 @@
+Degraded CGN Induce an Increase in ICAM-1 and TNF-alpha mRNA Expression
+# T1 Protein S1 35 41 35 41 ICAM-1
+# T2 Protein S1 46 55 46 55 TNF-alpha
+$ T1 Protein S1 35 41 35 41 ICAM-1
+$ T2 Protein S1 46 55 46 55 TNF-alpha
+@ T9 Positive_regulation S1 13 19 13 19 Induce
+@ T10 Positive_regulation S1 23 31 23 31 Increase
+@ T11 Transcription S1 56 71 56 71 mRNA Expression
+% E1 Positive_regulation:T9 Theme:E2
+% E3 Positive_regulation:T9 Theme:E4
+% E2 Positive_regulation:T10 Theme:E5
+% E4 Positive_regulation:T10 Theme:E6
+% E5 Transcription:T11 Theme:T1
+% E6 Transcription:T11 Theme:T2
+
+The increase in surface ICAM-1 expression and TNF-alpha production by monocytes correlated with an upregulation of mRNA for these molecules.
+# T3 Protein S2 24 30 96 102 ICAM-1
+# T4 Protein S2 46 55 118 127 TNF-alpha
+$ T3 Protein S2 24 30 96 102 ICAM-1
+$ T4 Protein S2 46 55 118 127 TNF-alpha
+@ T12 Positive_regulation S2 4 12 76 84 increase
+@ T13 Gene_expression S2 31 41 103 113 expression
+@ T14 Gene_expression S2 56 66 128 138 production
+@ T15 Positive_regulation S2 99 111 171 183 upregulation
+@ T8 Anaphora S2 124 139 196 211 these molecules
+% E7 Positive_regulation:T12 Theme:E8
+% E9 Positive_regulation:T12 Theme:E10
+% E8 Gene_expression:T13 Theme:T3
+% E10 Gene_expression:T14 Theme:T4
+% E11 Positive_regulation:T15 Theme:T3
+% E12 Positive_regulation:T15 Theme:T4
+
+Both 10 kDa and 40 kDa dCGN induced a robust increase in mRNA for both ICAM-1 and TNF-alpha (Fig. 6).
+# T5 Protein S3 71 77 284 290 ICAM-1
+# T6 Protein S3 82 91 295 304 TNF-alpha
+$ T5 Protein S3 71 77 284 290 ICAM-1
+$ T6 Protein S3 82 91 295 304 TNF-alpha
+@ T16 Positive_regulation S3 28 35 241 248 induced
+@ T17 Positive_regulation S3 45 53 258 266 increase
+% E13 Positive_regulation:T16 Theme:E14
+% E15 Positive_regulation:T16 Theme:E16
+% E14 Positive_regulation:T17 Theme:T5
+% E16 Positive_regulation:T17 Theme:T6
+
+beta-actin mRNA levels were not affected by dCGN treatment.
+# T7 Protein S4 0 10 315 325 beta-actin
+$ T7 Protein S4 0 10 315 325 beta-actin
+@ T18 Regulation S4 32 40 347 355 affected
+% E17 Regulation:T18 Theme:T7
+

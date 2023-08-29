@@ -1,0 +1,33 @@
+Suppression of TNFalpha-mediated NFkappaB activity by myricetin and other flavonoids through downregulating the activity of IKK in ECV304 cells.
+# T1 Protein S1 15 23 15 23 TNFalpha
+
+Flavonoids are a group of naturally-occurring phenolic compounds in the plant kingdom, and many flavonoids are found with vascular protective properties.
+
+Nevertheless how the protective response is exerted by flavonoids is not well characterized.
+
+In view of the nuclear factor-kappaB (NFkappaB) may play a central role in the initiation of atherosclerosis, prevention of the activation of NFkappaB represents an important role in protecting vascular injury.
+
+In this study, the effects of flavonoids on NFkappaB/inhibitor-kappaB (IkappaB) system in ECV304 cells activated with tumor necrosis factor-alpha (TNFalpha) were examined.
+# T2 Protein S5 118 145 722 749 tumor necrosis factor-alpha
+# T3 Protein S5 147 155 751 759 TNFalpha
+
+We investigated the inhibitory action of six flavonoids on IkappaB kinase (IKK) activity, an enzyme recently found to phosphorylate critical serine residues of IkappaB for degradation.
+
+Of six flavonoids tested, myricetin was found to strongly inhibit IKK kinase activity, and prevent the degradation of IkappaBalpha and IkappaBbeta in activated endothelial cells.
+# T4 Protein S7 118 130 1079 1091 IkappaBalpha
+# T5 Protein S7 135 146 1096 1107 IkappaBbeta
+$ T5 Protein S7 135 146 1096 1107 IkappaBbeta
+$ T4 Protein S7 118 130 1079 1091 IkappaBalpha
+@ T6 Negative_regulation S7 91 98 1052 1059 prevent
+@ T7 Protein_catabolism S7 103 114 1064 1075 degradation
+% E1 Negative_regulation:T6 Theme:E3
+% E2 Negative_regulation:T6 Theme:E4
+% E3 Protein_catabolism:T7 Theme:T5
+% E4 Protein_catabolism:T7 Theme:T4
+
+Furthermore, myricetin was also found to inhibit NFkappaB activity correlated with suppression of monocyte adhesion to ECV304 cells.
+
+Therefore we conclude that flavonoids may be of therapeutic value for vascular disease through down regulation of NFkappaB/IkappaB system.
+
+Copyright 1999 Wiley-Liss, Inc.
+

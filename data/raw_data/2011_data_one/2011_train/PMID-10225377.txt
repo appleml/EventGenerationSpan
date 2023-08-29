@@ -1,0 +1,40 @@
+Activation of nuclear factor-kappaB by lipopolysaccharide in mononuclear leukocytes is prevented by inhibitors of cytosolic phospholipase A2.
+
+In monocytes, lipopolysaccharide induces synthesis and activity of the 85-kDa cytosolic phospholipase A2.
+
+This enzyme releases arachidonic acid and lyso-phospholipids from membranes which are metabolized to eicosanoids and platelet-activating-factor.
+
+These lipid mediators increase activity of transcription factors and expression of cytokine genes indicating a function for cytosolic phospholipase A2 in signal transduction and inflammation.
+
+We have shown previously that trifluoromethylketone inhibitors of cytosolic phospholipase A2 suppressed interleukin-1beta protein and steady-state mRNA levels in human lipopolysaccharide-stimulated peripheral blood mononuclear leukocytes.
+# T1 Protein S5 104 121 690 707 interleukin-1beta
+$ T1 Protein S5 104 121 690 707 interleukin-1beta
+@ T5 Negative_regulation S5 93 103 679 689 suppressed
+% E1 Negative_regulation:T5 Theme:T1
+
+In this study, the subcellular mechanisms were analyzed by which trifluoromethylketones interfere with gene expression.
+
+We found that they reduced the initial interleukin-1beta mRNA transcription rate through prevention of degradation of inhibitor-kappaB alpha.
+# T2 Protein S7 39 56 984 1001 interleukin-1beta
+# T3 Protein S7 118 140 1063 1085 inhibitor-kappaB alpha
+$ T2 Protein S7 39 56 984 1001 interleukin-1beta
+$ T3 Protein S7 118 140 1063 1085 inhibitor-kappaB alpha
+@ T6 Negative_regulation S7 19 26 964 971 reduced
+@ T7 Transcription S7 62 75 1007 1020 transcription
+@ T8 Protein_catabolism S7 103 114 1048 1059 degradation
+% E2 Negative_regulation:T6 Theme:E3
+% E3 Transcription:T7 Theme:T2
+% E4 Protein_catabolism:T8 Theme:T3
+
+Consequently, cytosolic activation, nuclear translocation and DNA-binding of nuclear factor-kappaB were decreased.
+
+Trifluoromethylketones ameliorate chronic inflammation in vivo.
+
+Thus, this therapeutic potency may reside in retention of inactive nuclear factor-kappaB in the cytosol thereby abrogating interleukin-1beta gene transcription.
+# T4 Protein S10 123 140 1389 1406 interleukin-1beta
+$ T4 Protein S10 123 140 1389 1406 interleukin-1beta
+@ T9 Negative_regulation S10 112 122 1378 1388 abrogating
+@ T10 Transcription S10 146 159 1412 1425 transcription
+% E5 Negative_regulation:T9 Theme:E6
+% E6 Transcription:T10 Theme:T4
+

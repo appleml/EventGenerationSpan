@@ -1,0 +1,51 @@
+Involvement of mitogen-activated protein kinase pathways in interleukin-8 production by human monocytes and polymorphonuclear cells stimulated with lipopolysaccharide or Mycoplasma fermentans membrane lipoproteins.
+# T1 Protein S1 60 73 60 73 interleukin-8
+$ T1 Protein S1 60 73 60 73 interleukin-8
+@ T9 Regulation S1 0 11 0 11 Involvement
+@ T10 Gene_expression S1 74 84 74 84 production
+% E1 Regulation:T9 Theme:E2
+% E2 Gene_expression:T10 Theme:T1
+
+Interleukin-8 (IL-8) is a chemokine that belongs to the alpha-chemokine or CXC subfamily and is produced by a wide variety of human cells, including monocytes and polymorphonuclear cells (PMN).
+# T2 Protein S2 0 13 216 229 Interleukin-8
+# T3 Protein S2 15 19 231 235 IL-8
+$ T3 Protein S2 15 19 231 235 IL-8
+@ T11 Gene_expression S2 96 104 312 320 produced
+% E3 Gene_expression:T11 Theme:T3
+
+IL-8 is secreted in response to inflammatory stimuli, notably bacterial products such as lipopolysaccharide (LPS), but little is known about the mechanisms by which these agents mediate IL-8 induction.
+# T4 Protein S3 0 4 410 414 IL-8
+# T5 Protein S3 186 190 596 600 IL-8
+$ T4 Protein S3 0 4 410 414 IL-8
+$ T5 Protein S3 186 190 596 600 IL-8
+@ T12 Localization S3 8 16 418 426 secreted
+@ T13 Positive_regulation S3 17 31 427 441 in response to
+@ T14 Positive_regulation S3 191 200 601 610 induction
+% E4 Localization:T12 Theme:T4
+% E5 Positive_regulation:T13 Theme:E4
+% E6 Positive_regulation:T14 Theme:T5
+
+In this report, we show that Mycoplasma fermentans lipid-associated membrane proteins (LAMPf) induce the production of high levels of IL-8 by THP-1 (human monocyte) cells and PMN at the same extent as LPS.
+# T6 Protein S4 134 138 746 750 IL-8
+$ T6 Protein S4 134 138 746 750 IL-8
+@ T15 Positive_regulation S4 94 100 706 712 induce
+@ T16 Gene_expression S4 105 115 717 727 production
+@ T17 Positive_regulation S4 119 130 731 742 high levels
+% E7 Positive_regulation:T15 Theme:E8
+% E8 Gene_expression:T16 Theme:T6
+% E9 Positive_regulation:T17 Theme:E8
+
+It was previously demonstrated that stimulation of monocytic cells with either LPS or LAMPf led to a series of common downstream signaling events, including the activation of protein tyrosine kinase and of mitogen-activated protein kinase cascades.
+
+By using PD-98059 and SB203580, two potent and selective inhibitors of MEK1 (a kinase upstream of ERK1/2) and p38, respectively, we have demonstrated that both ERK1/2 and p38 cascades play a key role in the production of IL-8 by monocytes and PMN stimulated with bacterial fractions.
+# T7 Protein S6 71 75 1138 1142 MEK1
+# T8 Protein S6 221 225 1288 1292 IL-8
+$ T7 Protein S6 71 75 1138 1142 MEK1
+$ T8 Protein S6 221 225 1288 1292 IL-8
+@ T18 Negative_regulation S6 57 67 1124 1134 inhibitors
+@ T19 Positive_regulation S6 195 199 1262 1266 role
+@ T20 Gene_expression S6 207 217 1274 1284 production
+% E10 Negative_regulation:T18 Theme:T7
+% E11 Positive_regulation:T19 Theme:E12
+% E12 Gene_expression:T20 Theme:T8
+

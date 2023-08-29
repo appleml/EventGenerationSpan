@@ -1,0 +1,36 @@
+HTLV-1 Tax induces expression of various immediate early serum responsive genes.
+# T1 Protein S1 7 10 7 10 Tax
+
+Human T-cell leukemia virus type 1 (HTLV-1) is an etiological agent of adult T-cell leukemia (ATL).
+
+We showed here by mobility-shift assay that T-cell lines transformed with the virus contained high levels of AP-1 activities.
+
+Consistent with this result, these cell lines expressed increased levels of mRNAs encoding the AP-1 proteins, c-Fos, Fra-1, c-Jun, JunB, and JunD.
+# T2 Protein S4 110 115 418 423 c-Fos
+# T3 Protein S4 117 122 425 430 Fra-1
+# T4 Protein S4 124 129 432 437 c-Jun
+# T5 Protein S4 131 135 439 443 JunB
+# T6 Protein S4 141 145 449 453 JunD
+
+Previously, transcription of the c-fos gene has been reported to be transactivated by the viral transcription factor, Tax1.
+# T7 Protein S5 33 38 488 493 c-fos
+# T8 Protein S5 118 122 573 577 Tax1
+
+By using the human T-cell line (JPX-9), in which expression of the Tax1 is inducible, we showed that expression of mRNAs for Fra-1, c-Jun, and JunD was also transactivated by Tax1.
+# T9 Protein S6 67 71 646 650 Tax1
+# T10 Protein S6 125 130 704 709 Fra-1
+# T11 Protein S6 132 137 711 716 c-Jun
+# T12 Protein S6 143 147 722 726 JunD
+# T13 Protein S6 175 179 754 758 Tax1
+
+Moreover, Tax1 activated expression of two other transcription factors having zinc finger motifs, Egr-1 and Egr-2, in the same cells.
+# T14 Protein S7 10 14 770 774 Tax1
+# T15 Protein S7 98 103 858 863 Egr-1
+# T16 Protein S7 108 113 868 873 Egr-2
+
+The Tax1-inducible transcription factors identified here are encoded by the members of immediate early genes under the control of growth signals.
+# T17 Protein S8 4 8 898 902 Tax1
+
+Thus, Tax1 was suggested to replace growth signals, at least in part, by this mechanism.
+# T18 Protein S9 6 10 1046 1050 Tax1
+

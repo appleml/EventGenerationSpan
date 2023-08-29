@@ -1,0 +1,192 @@
+Discussion
+
+Animal models of sepsis and myocardial injury suggest that a beta-1-->3-D-glucan like GP mediates its protective mechanisms, in part, via a rapid shift from NFkappaB- to PI3K-signaling [22,37].
+
+Our study provides novel evidence that downstream of recognition and signaling pro-inflammatory transcription factor binding and cytokine expression of human leukocytes is switched to an anti-inflammatory phenotype by GP.
+
+We confirmed and extended previous results [13-16] indicating that, in the absence of other stimuli, beta-1-->3-D-glucans induced binding of NFkappaB-, NFIL-6- and NFAT-mers to cytokine promoters.
+# T1 Protein S4 152 158 580 586 NFIL-6
+# T2 Protein S4 164 168 592 596 NFAT
+
+Because of the multiple band shifts observed for NFAT binding (Fig. 1A), one could speculate that there is activation of several different NFAT isoforms, probably derived from alternative splicing [38].
+# T3 Protein S5 49 53 674 678 NFAT
+# T4 Protein S5 139 143 764 768 NFAT
+
+Interestingly, the GP-induced transcription factor binding transformed only into a very limited cytokine response, namely IL-8 and IL-1RA (Fig. 3B).
+# T5 Protein S6 96 104 924 932 cytokine
+# T6 Protein S6 122 126 950 954 IL-8
+# T7 Protein S6 131 137 959 965 IL-1RA
+
+Hence, our data are in aggreement with the few reports describing a beta-1-->3-D-glucan-mediated IL-8 [6,16,19] and IL-1RA production [17].
+# T8 Protein S7 97 101 1074 1078 IL-8
+# T9 Protein S7 116 122 1093 1099 IL-1RA
+
+In addition, our EMSA/supershift and immunoblotting results demonstrated a GP-mediated predominant binding of NFkappaB p65 and to a lesser extent of p50 to a kappaB consensus site of the IL-8 promoter (Figs. 1A, 2).
+# T10 Protein S8 119 122 1236 1239 p65
+# T11 Protein S8 149 152 1266 1269 p50
+# T12 Protein S8 187 191 1304 1308 IL-8
+
+Results by Schulte and colleagues [28] pointed to an induction of IL-8 transcription depending on activation via an NFkappaB p65/65 homodimer, rather than via p65/50 heterodimers, which might be the case for the GP-mediated IL-8 transcription.
+# T13 Protein S9 66 70 1399 1403 IL-8
+# T14 Protein S9 125 128 1458 1461 p65
+# T15 Protein S9 129 131 1462 1464 65
+# T16 Protein S9 159 162 1492 1495 p65
+# T17 Protein S9 163 165 1496 1498 50
+# T18 Protein S9 224 228 1557 1561 IL-8
+
+A GP-mediated IL-8 transcription based upon a cooperation between transactivated NFkappaB p65 and NFIL-6 [13,39] or NFATc2 dimer binding to the IL-8kappaB site [38] seems also possible.
+# T19 Protein S10 14 18 1591 1595 IL-8
+# T20 Protein S10 90 93 1667 1670 p65
+# T21 Protein S10 98 104 1675 1681 NFIL-6
+# T22 Protein S10 116 122 1693 1699 NFATc2
+# T23 Protein S10 144 148 1721 1725 IL-8
+
+The IL-8kappaB consensus site exhibits a preferentially p65 binding half site and thus differs from the kappaB half site described for TNFalpha and IL-1beta [27,40], supporting the idea of regulating NFkappaB binding through combinatorial associations of the subunits and the specific sequence of the decameric kappaB motif [41,42].
+# T24 Protein S11 4 8 1767 1771 IL-8
+# T25 Protein S11 56 59 1819 1822 p65
+# T26 Protein S11 135 143 1898 1906 TNFalpha
+# T27 Protein S11 148 156 1911 1919 IL-1beta
+
+Unlike LPS or TSST-1, we found that GP did not induce IL-1beta, but it strongly induced IL-1RA, suggesting an immediate anti-inflammatory potential of GP.
+# T28 Protein S12 14 20 2110 2116 TSST-1
+# T29 Protein S12 54 62 2150 2158 IL-1beta
+# T30 Protein S12 88 94 2184 2190 IL-1RA
+
+Analysing the IL-1RA promoter [34], we discovered four new binding sites (Fig. 8): an NFkappaB3 site (between -100 and -130), an NFkappaB consensus site (-266 and -280), another NFkappaB2/3 site (-288 and -302) and a more distal NFATP2/3 site (-471 and -490).
+# T31 Protein S13 14 20 2265 2271 IL-1RA
+
+Our data indicated that GP leads to production of IL-1RA primarily via induction of NFATP2/3 and NFIL-6 DNA binding, which might be due to differences in the binding motif or the composition of the activated transcription factors (NFAT) between the IFNgamma, IL-6 and IL-1RA promoter.
+# T32 Protein S14 84 90 2595 2601 NFATP2
+# T33 Protein S14 91 92 2602 2603 3
+# T34 Protein S14 97 103 2608 2614 NFIL-6
+# T35 Protein S14 231 235 2742 2746 NFAT
+# T36 Protein S14 249 257 2760 2768 IFNgamma
+# T37 Protein S14 259 263 2770 2774 IL-6
+# T38 Protein S14 268 274 2779 2785 IL-1RA
+
+The differential decrease of NFkappaB, NFAT and NFIL-6 binding to sites in the IL-1RA promoter as well as of IL-1RA mRNA and protein induced by selective inhibitors prior to GP treatment might suggest that these steps are linked to each other and necessary for induction of IL-1RA (Fig. 7).
+# T39 Protein S15 39 43 2835 2839 NFAT
+# T40 Protein S15 48 54 2844 2850 NFIL-6
+# T41 Protein S15 79 85 2875 2881 IL-1RA
+# T42 Protein S15 109 115 2905 2911 IL-1RA
+# T43 Protein S15 274 280 3070 3076 IL-1RA
+
+Regarding cellular sources, both, monocytes as well as neutrophils have been reported to produce IL-1RA [32].
+# T44 Protein S16 97 103 3184 3190 IL-1RA
+
+Flow cytometric experiments seemed to confirm that monocytes and neutrophils were able to produce IL-8 just as IL-1RA in response to GP (data not shown).
+# T45 Protein S17 98 102 3295 3299 IL-8
+# T46 Protein S17 111 117 3308 3314 IL-1RA
+
+This GP-induced cytokine profile was substantially more restricted than that of LPS or TSST-1, which is likely due to differences in recognition and signaling between LPS, TSST-1 and GP.
+# T47 Protein S18 87 93 3438 3444 TSST-1
+# T48 Protein S18 172 178 3523 3529 TSST-1
+
+Recognition of LPS is mainly mediated through Toll-like receptor 4 and subsequent signaling via the NFkappaB pathway, leading to expression of pro-inflammatory mediators like TNFalpha [43].
+# T49 Protein S19 46 66 3584 3604 Toll-like receptor 4
+# T50 Protein S19 175 183 3713 3721 TNFalpha
+
+A bacterial superantigen like TSST-1 acts through binding to MHC-II molecules and subsequently the T cell receptor, leading to release of mainly IFNgamma and TNFalpha, the latter via both, PI3K and p38 mitogen-activated kinase signaling [44,45].
+# T51 Protein S20 30 36 3758 3764 TSST-1
+# T52 Protein S20 145 153 3873 3881 IFNgamma
+# T53 Protein S20 158 166 3886 3894 TNFalpha
+# T54 Protein S20 198 226 3926 3954 p38 mitogen-activated kinase
+
+Altogether, the induction of the neutrophil-attracting IL-8 and the anti-inflammatory IL-1RA by fungal carbohydrates (GP) may well fit to a benign PAMP response, mounting defensive mechanisms against a possible microbial attack.
+# T55 Protein S21 55 59 4029 4033 IL-8
+# T56 Protein S21 86 92 4060 4066 IL-1RA
+
+Potentially even more relevant than the specific cytokine panel induced by GP, we found that, in the presence of other stimuli (LPS or TSST-1), GP ameliorated their pro-inflammatory immune reactions, similar to the effects in murine models of sepsis and inflammation [21-24].
+# T57 Protein S22 135 141 4339 4345 TSST-1
+
+Mainly, GP altered the TSST-1-induced IL-1beta/IL-1RA ratio from a pro- to an anti-inflammatory profile via down-regulation of IL-1beta and IL-6, at the same time there was a synergistic up-regulation of IL-1RA.
+# T58 Protein S23 23 29 4503 4509 TSST-1
+# T59 Protein S23 38 46 4518 4526 IL-1beta
+# T60 Protein S23 47 53 4527 4533 IL-1RA
+# T61 Protein S23 127 135 4607 4615 IL-1beta
+# T62 Protein S23 140 144 4620 4624 IL-6
+# T63 Protein S23 204 210 4684 4690 IL-1RA
+
+In part, this change may be caused by GP-mediated modulations of the TSST-1 induced binding of NFkappaB, NFIL-6 and NFAT to known and up to now unknown sites within the IL-8 and IL-1RA promoter instead of the TNFalpha, IL-1beta, IL-6 or IFNgamma promoter.
+# T64 Protein S24 69 75 4761 4767 TSST-1
+# T65 Protein S24 105 111 4797 4803 NFIL-6
+# T66 Protein S24 116 120 4808 4812 NFAT
+# T67 Protein S24 169 173 4861 4865 IL-8
+# T68 Protein S24 178 184 4870 4876 IL-1RA
+# T69 Protein S24 209 217 4901 4909 TNFalpha
+# T70 Protein S24 219 227 4911 4919 IL-1beta
+# T71 Protein S24 229 233 4921 4925 IL-6
+# T72 Protein S24 237 245 4929 4937 IFNgamma
+
+Accordingly, we found that the TSST-1-induced binding of NFkappaB to sites from the TNFalpha promoter negatively correlated with the GP-mediated enhancement of the TSST-1-induced IL-1RA production (r = -0.88; p < 0.01; data not shown in detail).
+# T73 Protein S25 31 37 4979 4985 TSST-1
+# T74 Protein S25 84 92 5032 5040 TNFalpha
+# T75 Protein S25 164 170 5112 5118 TSST-1
+# T76 Protein S25 179 185 5127 5133 IL-1RA
+
+Of the four examined NFkappaB sites from the IL-1RA promoter, mostly the TSST-1- and LPS-induced binding to the NFkappaB3 and the TSST-1-induced binding to the new NFkappaB consensus site seemed to be increased by GP.
+# T77 Protein S26 45 51 5239 5245 IL-1RA
+# T78 Protein S26 73 79 5267 5273 TSST-1
+# T79 Protein S26 130 136 5324 5330 TSST-1
+
+So, while we observed a GP-mediated down-regulation of the LPS- and the TSST-1-induced NFkappaB binding to sites of the TNFalpha promoter, there was an up-regulation to NFkappaB3 and NFkappaB consensus sites of the IL-1RA promoter.
+# T80 Protein S27 72 78 5484 5490 TSST-1
+# T81 Protein S27 120 128 5532 5540 TNFalpha
+# T82 Protein S27 215 221 5627 5633 IL-1RA
+
+These seemingly contradictory data could be explained by differences in either NFkappaB subunits or conserved nucleotides (#1, 2, 3, 10) within the decameric NFkappaB binding motif between the TNFalpha and the IL-1RA promoter (for NFkappaB3 the IL-1RA motif contains a T on position 10 instead of the conserved C in the TNFalpha motif, see Table 1), probably leading to differences in binding [41,42].
+# T83 Protein S28 193 201 5837 5845 TNFalpha
+# T84 Protein S28 210 216 5854 5860 IL-1RA
+
+Despite the location of the new NFkappaB consensus site (-266 and -280) in the inhibitory element (-250 and -294) of the IL-1RA promoter [30], we observed no inhibition.
+# T85 Protein S29 121 127 6167 6173 IL-1RA
+
+On the other side, we found an inhibitory NFkappaB2/3 site (-288 and -302) towards the end of the inhibitory element, demonstrating down-regulations of the LPS- and TSST-1-induced binding, which could not be altered by GP.
+# T86 Protein S30 165 171 6381 6387 TSST-1
+
+In our opinion, this site may therefore represent at least a part of the previoulsy described inhibitory element [30].
+
+The GP-modulated increase in TSST-1-induced binding to the new NFkappaB3 and NFkappaB consensus site, the NFIL-6 site [32] as well as to the novel NFATP2/3 site may explain the synergistic up-regulation of the TSST-1-induced IL-1RA production.
+# T87 Protein S32 29 35 6587 6593 TSST-1
+# T88 Protein S32 210 216 6768 6774 TSST-1
+# T89 Protein S32 225 231 6783 6789 IL-1RA
+
+We think that this GP-modulated activation of transcription was reflected by the decrease of the IL-1beta/IL-1RA ratio following GP + TSST-1 (Fig. 6).
+# T90 Protein S33 97 105 6899 6907 IL-1beta
+# T91 Protein S33 106 112 6908 6914 IL-1RA
+# T92 Protein S33 134 140 6936 6942 TSST-1
+
+In this context, it has been postulated that in vitro a 100fold excess of IL-1RA over IL-1beta might control the biological effects of IL-1 [46,47].
+# T93 Protein S34 74 80 7027 7033 IL-1RA
+# T94 Protein S34 86 94 7039 7047 IL-1beta
+# T95 Protein S34 135 139 7088 7092 IL-1
+
+Since, in fact, the IL-1beta/IL-1RA ratio following GP + TSST-1 is partially less than 0.01, it is not unreasonable to assume that IL-1beta bioactivity is inactivated in our system.
+# T96 Protein S35 20 28 7122 7130 IL-1beta
+# T97 Protein S35 29 35 7131 7137 IL-1RA
+# T98 Protein S35 57 63 7159 7165 TSST-1
+# T99 Protein S35 131 139 7233 7241 IL-1beta
+
+Indeed, GP reduced the TSST-1-induced, IL-1-dependent IL-2 production of murine EL-4 cells (data not shown in detail).
+# T100 Protein S36 23 29 7307 7313 TSST-1
+# T101 Protein S36 39 43 7323 7327 IL-1
+# T102 Protein S36 54 58 7338 7342 IL-2
+
+The weaker modulating effects of GP on the LPS-induced immune response observed in this study, may be attributed to delicately balanced differences in signaling pathways between LPS and TSST-1 [43-45].
+# T103 Protein S37 186 192 7590 7596 TSST-1
+
+TSST-1 has been shown to use the PI3K pathway for signaling [44] and this effect may be sustained by GP treatment [22,37].
+# T104 Protein S38 0 6 7606 7612 TSST-1
+
+It has been demonstrated that in septic/LPS-adapted leukocytes the PI3K pathway selectively controls sIL-1RA but not IL-1beta production [48].
+# T105 Protein S39 102 108 7831 7837 IL-1RA
+# T106 Protein S39 117 125 7846 7854 IL-1beta
+
+Signaling via PI3K has been reported to be involved in the activation of NFAT in T cells [49].
+# T107 Protein S40 73 77 7945 7949 NFAT
+
+Activation of NFkappaB can also take place via PI3K [50], which may offer an explanation for a difference in signaling between GP (PI3K) and LPS (mitogen-activated kinase signaling).
+
+This idea may be supported by another study showing that despite the use of similar PRR, LPS and peptidoglycan activated the IL-1RA gene through different mechanisms/DNA-binding proteins and acted synergistically in combination, suggestive of signals which are not equivalent in all parts [51].
+# T108 Protein S42 125 131 8275 8281 IL-1RA
+

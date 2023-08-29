@@ -1,0 +1,46 @@
+GATA3 Acts as a Negative Regulator of FOXP3 Expression
+# T1 Protein S1 0 5 0 5 GATA3
+# T2 Protein S1 38 43 38 43 FOXP3
+
+(A) Human naive CD4+CDRA+ T cells were transduced with 0, 20, 100, and 500 nM of TAT-GATA3 protein, and intracellular presence of GATA3 was analyzed using FACS following anti-CD3/CD28 activation of the cells.
+# T3 Protein S2 16 19 71 74 CD4
+# T4 Protein S2 20 24 75 79 CDRA
+# T5 Protein S2 81 90 136 145 TAT-GATA3
+# T6 Protein S2 130 135 185 190 GATA3
+# T7 Protein S2 175 178 230 233 CD3
+# T8 Protein S2 179 183 234 238 CD28
+$ T6 Protein S2 130 135 185 190 GATA3
+@ T20 Gene_expression S2 118 126 173 181 presence
+% E1 Gene_expression:T20 Theme:T6
+
+GFP-positive cells were gated and analyzed for intracellular FOXP3 expression following a 2-d incubation period (lower panel).
+# T9 Protein S3 0 3 264 267 GFP
+# T10 Protein S3 61 66 325 330 FOXP3
+$ T10 Protein S3 61 66 325 330 FOXP3
+@ T21 Gene_expression S3 67 77 331 341 expression
+% E2 Gene_expression:T21 Theme:T10
+
+Data are representative of four independent experiments.
+
+(B) CD4+CD25- T cells were isolated from D011.10 and D011.10xCD2-GATA3 mice and treated with OVA and TGF-beta for 96 h. Surface CD4 and intracellular FOXP3 were measured by FACS.
+# T11 Protein S5 4 7 453 456 CD4
+# T12 Protein S5 8 12 457 461 CD25
+# T13 Protein S5 61 64 510 513 CD2
+# T14 Protein S5 65 70 514 519 GATA3
+# T15 Protein S5 101 109 550 558 TGF-beta
+# T16 Protein S5 128 131 577 580 CD4
+# T17 Protein S5 150 155 599 604 FOXP3
+
+These data are representative of three independent experiments.
+
+(C) The cells treated as in (B) were harvested and mRNA was quantified by real-time PCR for SMAD7 and TGF-beta expression.
+# T18 Protein S7 92 97 785 790 SMAD7
+# T19 Protein S7 102 110 795 803 TGF-beta
+$ T18 Protein S7 92 97 785 790 SMAD7
+$ T19 Protein S7 102 110 795 803 TGF-beta
+@ T22 Gene_expression S7 111 121 804 814 expression
+% E3 Gene_expression:T22 Theme:T18
+% E4 Gene_expression:T22 Theme:T19
+
+Bars show the mean +/- SD of three independent experiments.
+

@@ -1,0 +1,33 @@
+Reactive oxygen intermediate-release of fibre-exposed monocytes increases inflammatory cytokine-mRNA level, protein tyrosine kinase and NF-kappaB activity in co-cultured bronchial epithelial cells (BEAS-2B).
+
+Some pulmonary diseases like bronchitis or asthma bronchiale are mediated by inflammatory mechanisms in bronchial epithelial cells.
+
+Alveolar macrophages are located directly in the surrounding of these cells, so that we suppose an interaction between epithelial cells and macrophages regarding to the release of inflammatory mediators.
+
+For measuring the contribution of macrophages to the release of inflammatory mediators by bronchial epithelial cells, we established an in vitro model of co-cultured blood monocytes (BM) and BEAS-2B cells in a transwell system (Costar).
+
+BM were exposed to Chrysotile B and soot particle FR 101 in a concentration of 100 microg/10(6) cells.
+
+After up to 90 min exposure time ELISA, EMSA (electromobility shift assay) and RT-PCR were used to measure protein tyrosine kinase activity, protein activity of NF-kappaB and cytokine (IL-1beta, IL-6, TNF-alpha) specific mRNA levels in BEAS-2B cells.
+# T1 Protein S6 185 193 1070 1078 IL-1beta
+# T2 Protein S6 195 199 1080 1084 IL-6
+# T3 Protein S6 201 210 1086 1095 TNF-alpha
+
+We observed an increase in protein tyrosine kinase activity (up to 1.8 +/- 0.5-fold) and NF-kappaB protein activity in BEAS-2B cells after particle or fibre exposure of co-cultured BM.
+
+Consecutive IL-1beta-, IL-6- and TNF-alpha-mRNA were elevated (up to 1.9 +/- 0.58-fold).
+# T4 Protein S8 12 20 1333 1341 IL-1beta
+# T5 Protein S8 23 27 1344 1348 IL-6
+# T6 Protein S8 33 42 1354 1363 TNF-alpha
+$ T5 Protein S8 23 27 1344 1348 IL-6
+$ T6 Protein S8 33 42 1354 1363 TNF-alpha
+$ T4 Protein S8 12 20 1333 1341 IL-1beta
+@ T7 Positive_regulation S8 53 61 1374 1382 elevated
+% E1 Positive_regulation:T7 Theme:T5
+% E2 Positive_regulation:T7 Theme:T6
+% E3 Positive_regulation:T7 Theme:T4
+
+Protein tyrosine kinase activity, NF-kappaB activity, and the synthesis of cytokine-specific mRNA were inhibited by antioxidants.
+
+These data suggest a ROI-dependent NF-kappaB mediated transcription of inflammatory cytokines in bronchial epithelial cells.
+

@@ -1,0 +1,25 @@
+Transcription factor DNA-binding analysis (TF-ELISA).
+
+CREB-1 and ATF-2 DNA-binding activity was analyzed with the TransFactor Profiling (Inflammation 1) Kit (BD Biosciences) according to the manufacturer's protocol.
+# T1 Protein S2 0 6 54 60 CREB-1
+# T2 Protein S2 11 16 65 70 ATF-2
+$ T1 Protein S2 0 6 54 60 CREB-1
+$ T2 Protein S2 11 16 65 70 ATF-2
+@ T4 Binding S2 21 28 75 82 binding
+% E1 Binding:T4 Theme:T1
+% E2 Binding:T4 Theme:T2
+
+Nuclear extracts were prepared from HEK 293T cells transfected with a control vector (EGFP) or Foxp3 expression vector (1,000 ng) in the presence or absence of forskolin (10 muM for 4 h) using the TransFactor Extraction Kit (BD Biosciences).
+# T3 Protein S3 95 100 311 316 Foxp3
+$ T3 Protein S3 95 100 311 316 Foxp3
+@ T5 Gene_expression S3 101 111 317 327 expression
+% E3 Gene_expression:T5 Theme:T3
+
+Protein concentration was determined using a Biophotometer (Eppendorf, Hamburg, Germany).
+
+Nuclear extracts (20 mug) were incubated in preblocked wells containing plate-bound double-stranded oligonucleotides corresponding to an ATF/CREB consensus sequence (emTGACATCAem).
+
+Wells were washed, incubated with the appropriate primary antibody, washed, incubated with secondary antibody (HRP-labeled), washed again, and finally developed with TMB substrate.
+
+Colorimetric reactions were read using a VersaMax microplate reader (Molecular Devices) at an absorbance of 655 nm.
+

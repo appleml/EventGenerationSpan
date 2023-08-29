@@ -1,0 +1,17 @@
+E1A gene expression induces susceptibility to killing by NK cells following immortalization but not adenovirus infection of human cells.
+# T1 Protein S1 0 3 0 3 E1A
+
+Adenovirus (Ad) infection and E1A transfection were used to model changes in susceptibility to NK cell killing caused by transient vs stable E1A expression in human cells.
+# T2 Protein S2 30 33 168 171 E1A
+# T3 Protein S2 141 144 279 282 E1A
+
+Only stably transfected target cells exhibited cytolytic susceptibility, despite expression of equivalent levels of E1A proteins in Ad-infected targets.
+# T4 Protein S3 116 119 426 429 E1A
+
+The inability of E1A gene products to induce cytolytic susceptibility during infection was not explained by an inhibitory effect of viral infection on otherwise susceptible target cells or by viral gene effects on class I MHC antigen expression on target cells.
+# T5 Protein S4 17 20 480 483 E1A
+
+This differential effect of E1A expression on the cytolytic phenotypes of infected and stably transfected human cells suggests that human NK cells provide an effective immunologic barrier against the in vivo survival and neoplastic progression of E1A-immortalized cells that may emerge from the reservoir of persistently infected cells in the human host.
+# T6 Protein S5 28 31 753 756 E1A
+# T7 Protein S5 247 250 972 975 E1A
+

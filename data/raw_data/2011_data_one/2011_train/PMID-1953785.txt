@@ -1,0 +1,65 @@
+Regulation of interleukin-1 beta production by glucocorticoids in human monocytes: the mechanism of action depends on the activation signal.
+# T1 Protein S1 14 32 14 32 interleukin-1 beta
+$ T1 Protein S1 14 32 14 32 interleukin-1 beta
+@ T6 Regulation S1 0 10 0 10 Regulation
+@ T7 Gene_expression S1 33 43 33 43 production
+@ T8 Regulation S1 107 114 107 114 depends
+% E1 Regulation:T6 Theme:E2
+% E2 Gene_expression:T7 Theme:T1
+% E3 Regulation:T8 Theme:E1
+
+Glucocorticoids are known to downregulate interleukin-1 beta production in monocytic cells by two different mechanims: direct inhibition of the gene transcription and destabilization of the preformed interleukin-1 beta mRNA.
+# T2 Protein S2 42 60 184 202 interleukin-1 beta
+# T3 Protein S2 200 218 342 360 interleukin-1 beta
+$ T2 Protein S2 42 60 184 202 interleukin-1 beta
+$ T3 Protein S2 200 218 342 360 interleukin-1 beta
+@ T9 Negative_regulation S2 29 41 171 183 downregulate
+@ T10 Gene_expression S2 61 71 203 213 production
+@ T11 Negative_regulation S2 167 182 309 324 destabilization
+@ T12 Transcription S2 190 199 332 341 preformed
+% E4 Negative_regulation:T9 Theme:E6
+% E5 Negative_regulation:T9 Theme:E6 Cause:E7
+% E6 Gene_expression:T10 Theme:T2
+% E7 Negative_regulation:T11 Theme:T3
+% E8 Transcription:T12 Theme:T3
+
+Now we have examined the effect of the nature of the monocyte activating signal on these two inhibitory mechanims.
+@ T13 Regulation S3 25 31 392 398 effect
+% E9 Regulation:T13 Theme:E7
+
+When human monocytes were preincubated with dexamethasone for 1 hour and then stimulated either with bacterial lipopolysaccharide or phorbol myristate, it was found that dexamethasone inhibited the lipopolysaccharide-induced interleukin-1 beta protein production, but the phorbol myristate-induced production was increased 3-10 fold.
+# T4 Protein S4 225 243 707 725 interleukin-1 beta
+$ T4 Protein S4 225 243 707 725 interleukin-1 beta
+@ T14 Negative_regulation S4 184 193 666 675 inhibited
+@ T15 Positive_regulation S4 217 224 699 706 induced
+@ T16 Gene_expression S4 252 262 734 744 production
+@ T17 Positive_regulation S4 290 297 772 779 induced
+@ T18 Positive_regulation S4 313 322 795 804 increased
+% E10 Negative_regulation:T14 Theme:E11
+% E11 Positive_regulation:T15 Theme:E12
+% E12 Gene_expression:T16 Theme:T4
+% E13 Positive_regulation:T17 Theme:E12
+% E14 Positive_regulation:T18 Theme:E13
+
+This difference was also seen at the mRNA level.
+
+When dexamethasone was added to the cultures 3 hours after the stimulators, it clearly decreased the interleukin-1 beta mRNA levels regardless of the stimulator used (although the effect was clearly weaker on the PMA-induced mRNA).
+# T5 Protein S6 101 119 966 984 interleukin-1 beta
+$ T5 Protein S6 101 119 966 984 interleukin-1 beta
+@ T19 Negative_regulation S6 87 96 952 961 decreased
+@ T20 Transcription S6 125 131 990 996 levels
+@ T21 Regulation S6 132 145 997 1010 regardless of
+@ T22 Positive_regulation S6 217 224 1082 1089 induced
+% E15 Negative_regulation:T19 Theme:E16
+% E16 Transcription:T20 Theme:T5
+% E17 Regulation:T21 Theme:E15
+% E18 Positive_regulation:T22 Theme:T5
+
+Thus these data suggest that the phorbol myristate-induced signal (prolonged protein kinase C activation?)
+@ T23 Positive_regulation S7 51 58 1148 1155 induced
+% E19 Positive_regulation:T23 Theme:T5
+
+cannot be inhibited by prior incubation with dexamethasone and it also protects the induced mRNA for the degradative action of dexamethasone.
+@ T24 Negative_regulation S8 10 19 1214 1223 inhibited
+% E20 Negative_regulation:T24 Theme:E19
+

@@ -1,0 +1,89 @@
+Activated platelets induce monocyte chemotactic protein-1 secretion and surface expression of intercellular adhesion molecule-1 on endothelial cells [see comments]
+# T1 Protein S1 27 57 27 57 monocyte chemotactic protein-1
+# T2 Protein S1 94 127 94 127 intercellular adhesion molecule-1
+$ T1 Protein S1 27 57 27 57 monocyte chemotactic protein-1
+$ T2 Protein S1 94 127 94 127 intercellular adhesion molecule-1
+@ T17 Positive_regulation S1 20 26 20 26 induce
+@ T18 Localization S1 58 67 58 67 secretion
+@ T19 Gene_expression S1 80 90 80 90 expression
+% E1 Positive_regulation:T17 Theme:E3
+% E2 Positive_regulation:T17 Theme:E4
+% E3 Localization:T18 Theme:T1
+% E4 Gene_expression:T19 Theme:T2
+
+BACKGROUND: Platelet/endothelium interaction plays an important role in the pathophysiology of inflammation and atherosclerosis.
+
+The role of platelets for monocyte chemotactic protein-1 (MCP-1) secretion and surface expression of intercellular adhesion molecule-1 (ICAM-1) on endothelial cells has been assessed.
+# T3 Protein S3 26 56 320 350 monocyte chemotactic protein-1
+# T4 Protein S3 58 63 352 357 MCP-1
+# T5 Protein S3 101 134 395 428 intercellular adhesion molecule-1
+# T6 Protein S3 136 142 430 436 ICAM-1
+$ T4 Protein S3 58 63 352 357 MCP-1
+$ T6 Protein S3 136 142 430 436 ICAM-1
+@ T20 Regulation S3 4 8 298 302 role
+@ T21 Localization S3 65 74 359 368 secretion
+@ T22 Gene_expression S3 87 97 381 391 expression
+% E5 Regulation:T20 Theme:E7
+% E6 Regulation:T20 Theme:E8
+% E7 Localization:T21 Theme:T4
+% E8 Gene_expression:T22 Theme:T6
+
+METHODS AND RESULTS: Monolayers of human umbilical vein endothelial cells were incubated with nonstimulated or ADP-activated platelets for 6 hours, and secretion of MCP-1 and surface expression of ICAM-1 were determined by ELISA and flow cytometry, respectively.
+# T7 Protein S4 165 170 643 648 MCP-1
+# T8 Protein S4 197 203 675 681 ICAM-1
+$ T7 Protein S4 165 170 643 648 MCP-1
+$ T8 Protein S4 197 203 675 681 ICAM-1
+@ T23 Localization S4 152 161 630 639 secretion
+@ T24 Entity S4 175 182 653 660 surface
+@ T25 Localization S4 183 193 661 671 expression
+% E9 Localization:T23 Theme:T7
+% E10 Localization:T25 Theme:T8 AtLoc:T24
+
+In the presence of ADP-activated platelets, both MCP-1 secretion and ICAM-1 surface expression were significantly increased compared with nonstimulated platelets (P<0.02).
+# T9 Protein S5 49 54 790 795 MCP-1
+# T10 Protein S5 69 75 810 816 ICAM-1
+$ T9 Protein S5 49 54 790 795 MCP-1
+$ T10 Protein S5 69 75 810 816 ICAM-1
+@ T26 Localization S5 55 64 796 805 secretion
+@ T27 Entity S5 76 83 817 824 surface
+@ T28 Localization S5 84 94 825 835 expression
+@ T29 Positive_regulation S5 114 123 855 864 increased
+% E11 Localization:T26 Theme:T9
+% E12 Localization:T28 Theme:T10 AtLoc:T27
+% E13 Positive_regulation:T29 Theme:E12
+% E14 Positive_regulation:T29 Theme:E11
+
+Activation of the transcription factor nuclear factor-kappaB (NF-kappaB) determined by electrophoretic mobility shift assay and kappaB-dependent transcriptional activity was enhanced in the presence of activated platelets.
+
+In addition, ADP-activated platelets induced MCP-1 and ICAM-1 promoter-dependent transcription.
+# T11 Protein S7 45 50 1181 1186 MCP-1
+# T12 Protein S7 55 61 1191 1197 ICAM-1
+
+Liposomal transfection of a double-stranded kappaB phosphorothioate oligonucleotide, but not of the mutated form, inhibited MCP-1 secretion and surface expression of ICAM-1 on activated endothelium (P<0.05).
+# T13 Protein S8 124 129 1356 1361 MCP-1
+# T14 Protein S8 166 172 1398 1404 ICAM-1
+$ T13 Protein S8 124 129 1356 1361 MCP-1
+$ T14 Protein S8 166 172 1398 1404 ICAM-1
+@ T30 Negative_regulation S8 114 123 1346 1355 inhibited
+@ T31 Localization S8 130 139 1362 1371 secretion
+@ T32 Entity S8 144 151 1376 1383 surface
+@ T33 Localization S8 152 162 1384 1394 expression
+% E15 Negative_regulation:T30 Theme:E18
+% E16 Negative_regulation:T30 Theme:E17
+% E17 Localization:T31 Theme:T13
+% E18 Localization:T33 Theme:T14 AtLoc:T32
+
+CONCLUSIONS: The present study indicates that activated platelets modulate chemotactic (MCP-1) and adhesive (ICAM-1) properties of endothelial cells via an NF-kappaB-dependent mechanism.
+# T15 Protein S9 88 93 1528 1533 MCP-1
+# T16 Protein S9 109 115 1549 1555 ICAM-1
+$ T15 Protein S9 88 93 1528 1533 MCP-1
+$ T16 Protein S9 109 115 1549 1555 ICAM-1
+@ T34 Positive_regulation S9 66 74 1506 1514 modulate
+@ T35 Regulation S9 166 175 1606 1615 dependent
+% E19 Positive_regulation:T34 Theme:T15
+% E20 Positive_regulation:T34 Theme:T16
+% E21 Regulation:T35 Theme:E20
+% E22 Regulation:T35 Theme:E19
+
+Platelet-induced activation of the NF-kappaB system might contribute to early inflammatory events in atherogenesis.
+

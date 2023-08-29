@@ -1,0 +1,25 @@
+Mechanisms of transactivation by nuclear factor of activated T cells-1.
+# T1 Protein S1 33 70 33 70 nuclear factor of activated T cells-1
+
+Nuclear factor of activated T cells-family proteins (NFAT1/NFATp, NFATc, NFAT3, and NFAT4/NFATx/NFATc3) play a key role in the transcription of cytokine genes and other genes during the immune response.
+# T2 Protein S2 53 58 126 131 NFAT1
+# T3 Protein S2 59 64 132 137 NFATp
+# T4 Protein S2 66 71 139 144 NFATc
+# T5 Protein S2 73 78 146 151 NFAT3
+# T6 Protein S2 84 89 157 162 NFAT4
+# T7 Protein S2 90 95 163 168 NFATx
+# T8 Protein S2 96 102 169 175 NFATc3
+
+We have defined the mechanisms of transactivation by NFAT1.
+# T9 Protein S3 53 58 329 334 NFAT1
+
+NFAT1 possesses two transactivation domains whose sequences are not conserved in the other NFAT-family proteins, and a conserved DNA-binding domain that mediates the recruitment of cooperating nuclear transcription factors even when it is expressed in the absence of other regions of the protein.
+# T10 Protein S4 0 5 336 341 NFAT1
+$ T10 Protein S4 0 5 336 341 NFAT1
+@ T11 Gene_expression S4 239 248 575 584 expressed
+% E1 Gene_expression:T11 Theme:T10
+
+The activity of the NH2-terminal transactivation domain is modulated by an adjacent regulatory region that contains several conserved sequence motifs represented only in the NFAT family.
+
+Our results emphasize the multiple levels at which NFAT-dependent transactivation is regulated, and predict significant differences in the architecture of cooperative transcription complexes containing different NFAT-family proteins.
+

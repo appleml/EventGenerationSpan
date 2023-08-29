@@ -1,0 +1,87 @@
+Structure and function analysis of the human myeloid cell nuclear differentiation antigen promoter: evidence for the role of Sp1 and not of c-Myb or PU.1 in myelomonocytic lineage-specific expression.
+# T1 Protein S1 45 89 45 89 myeloid cell nuclear differentiation antigen
+# T2 Protein S1 125 128 125 128 Sp1
+# T3 Protein S1 140 145 140 145 c-Myb
+# T4 Protein S1 149 153 149 153 PU.1
+$ T2 Protein S1 125 128 125 128 Sp1
+$ T4 Protein S1 149 153 149 153 PU.1
+$ T3 Protein S1 140 145 140 145 c-Myb
+$ T1 Protein S1 45 89 45 89 myeloid cell nuclear differentiation antigen
+@ T20 Regulation S1 117 121 117 121 role
+@ T21 Gene_expression S1 189 199 189 199 expression
+% E1 Regulation:T20 Theme:E4 Cause:T2
+% E2 Regulation:T20 Theme:E4 Cause:T4
+% E3 Regulation:T20 Theme:E4 Cause:T3
+% E4 Gene_expression:T21 Theme:T1
+
+The human myeloid nuclear differentiation antigen (MNDA) is expressed specifically in maturing cells of the myelomonocytic lineage and in monocytes and granulocytes.
+# T5 Protein S2 10 49 212 251 myeloid nuclear differentiation antigen
+# T6 Protein S2 51 55 253 257 MNDA
+$ T6 Protein S2 51 55 253 257 MNDA
+@ T22 Gene_expression S2 60 69 262 271 expressed
+% E5 Gene_expression:T22 Theme:T6
+
+Epitope enhancement was used to confirm the strict lineage- and stage-specific expression of MNDA in bone marrow as well as in other paraffin-embedded fixed tissues.
+# T7 Protein S3 93 97 461 465 MNDA
+$ T7 Protein S3 93 97 461 465 MNDA
+@ T23 Gene_expression S3 79 89 447 457 expression
+% E6 Gene_expression:T23 Theme:T7
+
+A 1-kb region of the gene that includes 5' flanking sequence was reported earlier to contain functional promoter activity and was specifically demethylated in expressing cells in contrast to null cells.
+@ T24 Positive_regulation S4 85 121 619 655 contain functional promoter activity
+% E7 Positive_regulation:T24 Theme:T7
+
+Further analysis has revealed that this 1-kb fragment promotes higher reporter gene activity in MNDA-expressing cells than non-expressing cells, indicating cell-specific differences in transactivation.
+# T8 Protein S5 96 100 833 837 MNDA
+$ T8 Protein S5 96 100 833 837 MNDA
+@ T25 Gene_expression S5 101 111 838 848 expressing
+@ T26 Gene_expression S5 123 137 860 874 non-expressing
+% E8 Gene_expression:T25 Theme:T8
+% E9 Gene_expression:T26 Theme:T8
+
+This sequence contains consensus elements consistent with myeloid-specific gene expression, including a PU.1 consensus site near the major transcription start site and a cluster of c-Myb sites located several hundred bases upstream of this region.
+# T9 Protein S6 104 108 1043 1047 PU.1
+# T10 Protein S6 181 186 1120 1125 c-Myb
+@ T27 Gene_expression S6 80 90 1019 1029 expression
+% E10 Gene_expression:T27 Theme:T8
+
+However, analysis of deletion mutants localized nearly all of the promoter activity to a short region (-73 to -16) that did not include the cluster of c-Myb sites.
+# T11 Protein S7 151 156 1338 1343 c-Myb
+@ T28 Positive_regulation S7 66 83 1253 1270 promoter activity
+% E11 Positive_regulation:T28 Theme:T8
+
+A 4-bp mutation of the core Sp1 consensus element (GC box) (-20) reduced overall promoter activity of the 1-kb fragment.
+# T12 Protein S8 28 31 1379 1382 Sp1
+@ T29 Negative_regulation S8 65 72 1416 1423 reduced
+@ T30 Positive_regulation S8 81 98 1432 1449 promoter activity
+% E12 Negative_regulation:T29 Theme:E13
+% E13 Positive_regulation:T30 Theme:T8
+
+Mutation of the PU.1 site did not significantly affect promoter activity.
+# T13 Protein S9 16 20 1488 1492 PU.1
+@ T31 Regulation S9 48 54 1520 1526 affect
+% E14 Regulation:T31 Theme:E13
+
+Only a small region (-35 to +22) including the Sp1 element and transcription start site, but not the PU.1 site was footprinted.
+# T14 Protein S10 47 50 1593 1596 Sp1
+# T15 Protein S10 101 105 1647 1651 PU.1
+
+The 4-bp mutation of the core Sp1 consensus element abolished footprinting at the site and an antibody super-shift reaction showed that Sp1 is one of the factors binding the consensus site.
+# T16 Protein S11 30 33 1704 1707 Sp1
+# T17 Protein S11 136 139 1810 1813 Sp1
+$ T17 Protein S11 136 139 1810 1813 Sp1
+@ T32 Binding S11 162 169 1836 1843 binding
+% E15 Binding:T32 Theme:T17
+
+The Sp1 site also co-localizes with a DNase I hypersensitive site.
+# T18 Protein S12 4 7 1868 1871 Sp1
+
+The results indicate that DNA methylation, chromatin structure, and transactivation at an Sp1 site contribute to the highly restricted expression of this myelomonocytic lineage specific gene.
+# T19 Protein S13 90 93 2021 2024 Sp1
+@ T33 Regulation S13 99 109 2030 2040 contribute
+@ T34 Positive_regulation S13 99 109 2030 2040 contribute
+@ T35 Gene_expression S13 135 145 2066 2076 expression
+% E16 Regulation:T33 Theme:E18
+% E17 Positive_regulation:T34 Theme:E18
+% E18 Gene_expression:T35 Theme:T8
+

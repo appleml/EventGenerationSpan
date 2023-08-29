@@ -1,0 +1,42 @@
+HIV type 1 protease activation of NF-kappa B within T lymphoid cells.
+# T1 Protein S1 0 19 0 19 HIV type 1 protease
+
+NF-kappa B is a nuclear protein of the rel oncogene family capable of enhancing transcription of several cellular genes, including IL-2 and the IL-2 receptor, and viral genes transcribed from the HIV-1 LTR.
+# T2 Protein S2 131 135 202 206 IL-2
+$ T2 Protein S2 131 135 202 206 IL-2
+@ T9 Positive_regulation S2 70 79 141 150 enhancing
+@ T10 Transcription S2 80 93 151 164 transcription
+% E1 Positive_regulation:T9 Theme:E2
+% E2 Transcription:T10 Theme:T2
+
+It has been reported that HIV-1 protease may cleave the NF-kappa B precursor to its active form in vitro.
+# T3 Protein S3 26 40 304 318 HIV-1 protease
+
+In this study the effects of HIV protease on NF-kappa B precursor activation were examined in Jurkat T cells by introducing a protease expression vector into the cells.
+# T4 Protein S4 29 41 413 425 HIV protease
+$ T4 Protein S4 29 41 413 425 HIV protease
+@ T11 Positive_regulation S4 112 123 496 507 introducing
+@ T12 Gene_expression S4 135 145 519 529 expression
+% E3 Positive_regulation:T11 Theme:E4
+% E4 Gene_expression:T12 Theme:T4
+
+Increased NF-kappa B activity was observed and this increased activity was blocked by a specific inhibitor of the viral protease.
+@ T13 Negative_regulation S5 97 106 650 659 inhibitor
+% E5 Negative_regulation:T13 Theme:T4
+
+Viral transcription, as measured using LTR-CAT assays, was only slightly enhanced in the HIV-protease expressing cells, while secretion of IL-2 and expression of the IL-2 receptor were not affected.
+# T5 Protein S6 43 46 726 729 CAT
+# T6 Protein S6 89 101 772 784 HIV-protease
+# T7 Protein S6 139 143 822 826 IL-2
+$ T6 Protein S6 89 101 772 784 HIV-protease
+$ T7 Protein S6 139 143 822 826 IL-2
+@ T14 Gene_expression S6 102 112 785 795 expressing
+@ T15 Localization S6 126 135 809 818 secretion
+@ T16 Regulation S6 189 197 872 880 affected
+% E6 Gene_expression:T14 Theme:T6
+% E7 Localization:T15 Theme:T7
+% E8 Regulation:T16 Theme:E7
+
+The limited activation of NF-kappa B by HIV protease appears unlikely to have a significant effect on virus expression or T cell function.
+# T8 Protein S7 40 52 922 934 HIV protease
+

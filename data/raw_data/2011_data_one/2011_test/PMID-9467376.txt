@@ -1,0 +1,28 @@
+Inhibition of nuclear factor kappa B subunit p65 mRNA accumulation in lipopolysaccharide-stimulated human monocytic cells treated with sodium salicylate.
+# T1 Protein S1 45 48 45 48 p65
+
+Lipopolysaccharide is one of the most potent trigger substances for monocytes and macrophages causing secretion of inflammatory mediators such as tumor necrosis factor and interleukin-1.
+# T2 Protein S2 172 185 327 340 interleukin-1
+
+The nature of the nuclear factors involved in regulation of these cytokine genes is still unknown.
+
+Nuclear factor kappa B (NF-kappa B; heterodimer of p50 and p65) proteins have been suggested to play an important role in gene transcription of inflammatory mediators when monocytes are stimulated with lipopolysaccharide.
+# T3 Protein S4 51 54 492 495 p50
+# T4 Protein S4 59 62 500 503 p65
+
+Nonsteroidal anti-inflammatory drugs such as salicylates have been used to treat symptoms of inflammation, and a new mechanism of drug action was suggested recently.
+
+Salicylates have been shown to inhibit lipopolysaccharide-induced gene transcription via inhibition of NF-kappa B activation by preventing the degradation of NF-kappa B inhibitor "I kappa B", blocking the translocation of NF-kappa B into the nuclear compartment.
+# T5 Protein S6 180 189 1009 1018 I kappa B
+
+However, the nature of the subunit involved in this mechanism has not been defined.
+
+To examine the mechanisms by which salicylates affect cytokine gene transcription, the amount of active and inactive NF-kappa B and NF-kappa B mRNA, in Porphyromonas gingivalis lipopolysaccharide-stimulated human monocytic cells was assessed.
+
+High doses of sodium salicylate suppressed NF-kappa B p65 mRNA accumulation, resulting in suppression of total NF-kappa B, p50 on tissue oligonucleotide had no effects on lipopolysaccharide-induced NF-kappa B activation.
+# T6 Protein S9 54 57 1473 1476 p65
+# T7 Protein S9 123 126 1542 1545 p50
+
+The data demonstrate that the p65 subunit of NF-kappa B is inhibited by salicylate treatment and highlight the role of salicylate in the control of gene expression of inflammatory mediators.
+# T8 Protein S10 30 33 1670 1673 p65
+

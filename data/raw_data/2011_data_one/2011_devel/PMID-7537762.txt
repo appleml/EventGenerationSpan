@@ -1,0 +1,65 @@
+Monocyte tethering by P-selectin regulates monocyte chemotactic protein-1 and tumor necrosis factor-alpha secretion.
+# T1 Protein S1 22 32 22 32 P-selectin
+# T2 Protein S1 43 73 43 73 monocyte chemotactic protein-1
+# T3 Protein S1 78 105 78 105 tumor necrosis factor-alpha
+$ T3 Protein S1 78 105 78 105 tumor necrosis factor-alpha
+$ T2 Protein S1 43 73 43 73 monocyte chemotactic protein-1
+@ T16 Regulation S1 33 42 33 42 regulates
+@ T17 Localization S1 106 115 106 115 secretion
+% E1 Regulation:T16 Theme:E4
+% E2 Regulation:T16 Theme:E3
+% E3 Localization:T17 Theme:T3
+% E4 Localization:T17 Theme:T2
+
+Signal integration and NF-kappa B translocation [see comments]
+
+Adhesion molecules that tether circulating leukocytes to endothelial cells may also transduce or modulate outside-in signals for cellular activation, providing an initial regulatory point in the inflammatory response.
+
+Adhesion of human monocytes to P-selectin, the most rapidly expressed endothelial tethering factor, increased the secretion of monocyte chemotactic protein-1 (MCP-1) and tumor necrosis factor-alpha (TNF-alpha) by the leukocytes when they were stimulated with platelet-activating factor.
+# T4 Protein S4 31 41 430 440 P-selectin
+# T5 Protein S4 127 157 526 556 monocyte chemotactic protein-1
+# T6 Protein S4 159 164 558 563 MCP-1
+# T7 Protein S4 170 197 569 596 tumor necrosis factor-alpha
+# T8 Protein S4 199 208 598 607 TNF-alpha
+$ T4 Protein S4 31 41 430 440 P-selectin
+$ T8 Protein S4 199 208 598 607 TNF-alpha
+$ T6 Protein S4 159 164 558 563 MCP-1
+@ T18 Gene_expression S4 60 69 459 468 expressed
+@ T19 Positive_regulation S4 100 109 499 508 increased
+@ T20 Localization S4 114 123 513 522 secretion
+@ T21 Positive_regulation S4 228 232 627 631 when
+% E5 Gene_expression:T18 Theme:T4
+% E6 Positive_regulation:T19 Theme:E9
+% E7 Positive_regulation:T19 Theme:E8
+% E8 Localization:T20 Theme:T8
+% E9 Localization:T20 Theme:T6
+% E10 Positive_regulation:T21 Theme:E8
+% E11 Positive_regulation:T21 Theme:E9
+
+Increased cytokine secretion was specifically inhibited by G1, an anti-P-selectin mAb that prevents P-selectin from binding to its ligand (P-selectin glycoprotein ligand-1) on myeloid cells.
+# T9 Protein S5 71 81 757 767 P-selectin
+# T10 Protein S5 100 110 786 796 P-selectin
+# T11 Protein S5 139 171 825 857 P-selectin glycoprotein ligand-1
+$ T10 Protein S5 100 110 786 796 P-selectin
+$ T11 Protein S5 139 171 825 857 P-selectin glycoprotein ligand-1
+@ T22 Negative_regulation S5 91 99 777 785 prevents
+@ T23 Binding S5 116 123 802 809 binding
+% E12 Negative_regulation:T22 Theme:E13
+% E13 Binding:T23 Theme:T10 Theme2:T11
+
+Moreover, tethering by P-selectin specifically enhanced nuclear translocation of nuclear factor-kappa B (NF-kappa B), a transcription factor required for expression of MCP-1, TNF-alpha, and other immediate-early genes.
+# T12 Protein S6 23 33 900 910 P-selectin
+# T13 Protein S6 168 173 1045 1050 MCP-1
+# T14 Protein S6 175 184 1052 1061 TNF-alpha
+$ T13 Protein S6 168 173 1045 1050 MCP-1
+$ T14 Protein S6 175 184 1052 1061 TNF-alpha
+@ T24 Positive_regulation S6 141 149 1018 1026 required
+@ T25 Gene_expression S6 154 164 1031 1041 expression
+% E14 Positive_regulation:T24 Theme:E16
+% E15 Positive_regulation:T24 Theme:E17
+% E16 Gene_expression:T25 Theme:T13
+% E17 Gene_expression:T25 Theme:T14
+
+These results demonstrate that P-selectin, through its ligands on monocytes, may locally regulate cytokine secretion in inflamed tissues.
+# T15 Protein S7 31 41 1127 1137 P-selectin
+

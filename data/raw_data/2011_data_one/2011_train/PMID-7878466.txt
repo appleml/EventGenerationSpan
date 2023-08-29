@@ -1,0 +1,47 @@
+Control of I kappa B-alpha proteolysis by site-specific, signal-induced phosphorylation.
+# T1 Protein S1 11 26 11 26 I kappa B-alpha
+$ T1 Protein S1 11 26 11 26 I kappa B-alpha
+@ T6 Regulation S1 0 7 0 7 Control
+@ T7 Protein_catabolism S1 27 38 27 38 proteolysis
+@ T8 Phosphorylation S1 72 87 72 87 phosphorylation
+% E1 Regulation:T6 Theme:E2 Cause:E3
+% E2 Protein_catabolism:T7 Theme:T1
+% E3 Phosphorylation:T8 Theme:T1
+
+I kappa B-alpha inhibits transcription factor NF-kappa B by retaining it in the cytoplasm.
+# T2 Protein S2 0 15 90 105 I kappa B-alpha
+
+Various stimuli, typically those associated with stress or pathogens, rapidly inactivate I kappa B-alpha.
+# T3 Protein S3 89 104 270 285 I kappa B-alpha
+$ T3 Protein S3 89 104 270 285 I kappa B-alpha
+@ T9 Negative_regulation S3 78 88 259 269 inactivate
+% E4 Negative_regulation:T9 Theme:T3
+
+This liberates NF-kappa B to translocate to the nucleus and initiate transcription of genes important for the defense of the organism.
+
+Activation of NF-kappa B correlates with phosphorylation of I kappa B-alpha and requires the proteolysis of this inhibitor.
+# T4 Protein S5 60 75 482 497 I kappa B-alpha
+$ T4 Protein S5 60 75 482 497 I kappa B-alpha
+@ T10 Phosphorylation S5 41 56 463 478 phosphorylation
+@ T11 Regulation S5 80 88 502 510 requires
+@ T12 Protein_catabolism S5 93 104 515 526 proteolysis
+% E5 Phosphorylation:T10 Theme:T4
+% E6 Regulation:T11 Theme:E7
+% E7 Protein_catabolism:T12 Theme:T4
+
+When either serine-32 or serine-36 of I kappa B-alpha was mutated, the protein did not undergo signal-induced phosphorylation or degradation, and NF-kappa B could not be activated.
+# T5 Protein S6 38 53 584 599 I kappa B-alpha
+$ T5 Protein S6 38 53 584 599 I kappa B-alpha
+@ T13 Entity S6 12 21 558 567 serine-32
+@ T14 Entity S6 25 34 571 580 serine-36
+@ T15 Phosphorylation S6 110 125 656 671 phosphorylation
+@ T16 Protein_catabolism S6 129 140 675 686 degradation
+% E8 Phosphorylation:T15 Theme:T5 Site:T14
+% E9 Phosphorylation:T15 Theme:T5 Site:T13
+% E10 Protein_catabolism:T16 Theme:T5
+
+These results suggest that phosphorylation at one or both of these residues is critical for activation of NF-kappa B.
+@ T17 Phosphorylation S7 27 42 754 769 phosphorylation
+% E11 Phosphorylation:T17 Theme:T5 Site:T14
+% E12 Phosphorylation:T17 Theme:T5 Site:T13
+

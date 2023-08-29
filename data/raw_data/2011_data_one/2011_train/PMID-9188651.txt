@@ -1,0 +1,37 @@
+Human cytomegalovirus induces interleukin-8 production by a human monocytic cell line, THP-1, through acting concurrently on AP-1- and NF-kappaB-binding sites of the interleukin-8 gene.
+# T1 Protein S1 30 43 30 43 interleukin-8
+# T2 Protein S1 166 179 166 179 interleukin-8
+$ T1 Protein S1 30 43 30 43 interleukin-8
+@ T8 Positive_regulation S1 22 29 22 29 induces
+@ T9 Gene_expression S1 44 54 44 54 production
+% E1 Positive_regulation:T8 Theme:E2
+% E2 Gene_expression:T9 Theme:T1
+
+Cytomegalovirus (CMV) infection induced interleukin-8 (IL-8) gene transcription in a human monocytic cell line, THP-1 cells, leading to IL-8 secretion.
+# T3 Protein S2 40 53 227 240 interleukin-8
+# T4 Protein S2 55 59 242 246 IL-8
+# T5 Protein S2 136 140 323 327 IL-8
+$ T4 Protein S2 55 59 242 246 IL-8
+$ T5 Protein S2 136 140 323 327 IL-8
+@ T10 Positive_regulation S2 32 39 219 226 induced
+@ T11 Transcription S2 66 79 253 266 transcription
+@ T12 Positive_regulation S2 125 132 312 319 leading
+@ T13 Localization S2 141 150 328 337 secretion
+% E3 Positive_regulation:T10 Theme:E4
+% E4 Transcription:T11 Theme:T4
+% E5 Positive_regulation:T12 Theme:E6 Cause:E3
+% E6 Localization:T13 Theme:T5
+
+The functional analysis of the IL-8 gene revealed that both AP-1- and NF-kappaB factor-binding elements were involved in conferring the responsiveness to CMV.
+# T6 Protein S3 31 35 370 374 IL-8
+
+Moreover, electrophoretic mobility shift assays demonstrated that CMV induced the formation of NF-kappaB and AP-1 complexes.
+
+These results suggest that CMV activates these transcriptional factors, resulting in IL-8 gene expression.
+# T7 Protein S5 85 89 708 712 IL-8
+$ T7 Protein S5 85 89 708 712 IL-8
+@ T14 Positive_regulation S5 72 81 695 704 resulting
+@ T15 Gene_expression S5 95 105 718 728 expression
+% E7 Positive_regulation:T14 Theme:E8
+% E8 Gene_expression:T15 Theme:T7
+

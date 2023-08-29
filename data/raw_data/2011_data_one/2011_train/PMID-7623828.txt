@@ -1,0 +1,70 @@
+A functional T-cell receptor signaling pathway is required for p95vav activity.
+# T1 Protein S1 63 69 63 69 p95vav
+$ T1 Protein S1 63 69 63 69 p95vav
+@ T17 Positive_regulation S1 50 58 50 58 required
+% E1 Positive_regulation:T17 Theme:T1
+
+Stimulation of the T-cell antigen receptor (TCR) induces activation of multiple tyrosine kinases, resulting in phosphorylation of numerous intracellular substrates.
+
+One substrate is p95vav, which is expressed exclusively in hematopoietic and trophoblast cells.
+# T2 Protein S3 17 23 263 269 p95vav
+$ T2 Protein S3 17 23 263 269 p95vav
+@ T18 Gene_expression S3 34 43 280 289 expressed
+% E2 Gene_expression:T18 Theme:T2
+
+It contains a number of structural motifs, including Src homology 2, Src homology 3, and pleckstrin homology domains and a putative guanine nucleotide exchange domain.
+
+The role of p95vav in TCR-mediated signaling processes is unclear.
+# T3 Protein S5 12 18 522 528 p95vav
+
+Here, we show that overexpression of p95vav alone in Jurkat T cells leads to activation of the nuclear factors, including NFAT, involved in interleukin-2 expression.
+# T4 Protein S6 37 43 614 620 p95vav
+# T5 Protein S6 140 153 717 730 interleukin-2
+$ T4 Protein S6 37 43 614 620 p95vav
+$ T5 Protein S6 140 153 717 730 interleukin-2
+@ T19 Positive_regulation S6 19 33 596 610 overexpression
+@ T20 Gene_expression S6 19 33 596 610 overexpression
+@ T21 Regulation S6 128 136 705 713 involved
+@ T22 Gene_expression S6 154 164 731 741 expression
+% E3 Positive_regulation:T19 Theme:E4
+% E4 Gene_expression:T20 Theme:T4
+% E5 Regulation:T21 Theme:E6
+% E6 Gene_expression:T22 Theme:T5
+
+Furthermore, p95vav synergizes with TCR stimulation in inducing NFAT- and interleukin-2-dependent transcription.
+# T6 Protein S7 13 19 756 762 p95vav
+# T7 Protein S7 74 87 817 830 interleukin-2
+
+In contrast, NFAT activation by a G-protein-coupled receptor is not modulated by p95vav overexpression, suggesting that the effect is specific to the TCR signaling pathways.
+# T8 Protein S8 81 87 937 943 p95vav
+$ T8 Protein S8 81 87 937 943 p95vav
+@ T23 Positive_regulation S8 88 102 944 958 overexpression
+@ T24 Gene_expression S8 88 102 944 958 overexpression
+% E7 Positive_regulation:T23 Theme:E8
+% E8 Gene_expression:T24 Theme:T8
+
+Although removal of the first 67 amino acids of p95vav activates its transforming potential in NIH 3T3 cells, this region appears to be required for its function in T cells.
+# T9 Protein S9 48 54 1078 1084 p95vav
+
+We further demonstrate that the p95vav-induced NFAT activation is not mimicked by Ras activation, though its function is dependent upon Ras and Raf.
+# T10 Protein S10 32 38 1236 1242 p95vav
+
+Furthermore, the activating function of p95vav is blocked by FK506, suggesting that its activity also depends on calcineurin.
+# T11 Protein S11 40 46 1393 1399 p95vav
+# T12 Protein S11 113 124 1466 1477 calcineurin
+
+To further dissect p95vav involvement in TCR signaling, we analyzed various Jurkat mutants deficient in TCR signaling function or TCR expression and showed that an intact TCR signaling pathway is required for p95vav to function.
+# T13 Protein S12 19 25 1498 1504 p95vav
+# T14 Protein S12 209 215 1688 1694 p95vav
+
+However, overexpression of p95vav does not appear to influence TCR-induced protein tyrosine phosphorylation or increases in cytoplasmic free calcium.
+# T15 Protein S13 27 33 1735 1741 p95vav
+$ T15 Protein S13 27 33 1735 1741 p95vav
+@ T25 Positive_regulation S13 9 23 1717 1731 overexpression
+@ T26 Gene_expression S13 9 23 1717 1731 overexpression
+% E9 Positive_regulation:T25 Theme:T15
+% E10 Gene_expression:T26 Theme:T15
+
+Taken together, our data suggest that p95vav plays an important role at an yet unidentified proximal position in the TCR signaling cascade.
+# T16 Protein S14 38 44 1896 1902 p95vav
+

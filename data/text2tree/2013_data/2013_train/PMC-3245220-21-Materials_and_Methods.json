@@ -1,0 +1,8 @@
+{"text": "Analysis of <extra_id_0> PKCalpha <extra_id_2> Protein <extra_id_1> Kinase Activity", "event": "<extra_id_0> <extra_id_1>"}
+{"text": "Human MDMs were starved for 2 hours before stimulation with M-CSF ( 0-60 minutes ) , then washed with cold PBS and removed from the plates .", "event": "<extra_id_0> <extra_id_1>"}
+{"text": "The cells were resuspended in lysis buffer ( 20 mM Tris , 5 mM MgCl2 , 1 mM EGTA , 20 mM beta-glycerol phosphate , 1 mM PMSF 2 microg / ml aprotinin and 2 microg / ml leupeptin , pH 7.5 ) , sonicated and centrifuged to obtain whole cell lysates , which were then immunoprecipitated with anti-PKCalpha antibody and protein G-agarose ( Invitrogen ) .", "event": "<extra_id_0> <extra_id_1>"}
+{"text": "Immune complexes were washed twice , and <extra_id_0> PKCalpha <extra_id_2> Protein <extra_id_1> activity was analyzed by non-radioactive Peptag assay kit ( Promega ) .", "event": "<extra_id_0> <extra_id_1>"}
+{"text": "Briefly , kinase buffer , activator , peptide protection solution and Peptag peptide were incubated with the immune complexes at 30degreesC for 30 minutes .", "event": "<extra_id_0> <extra_id_1>"}
+{"text": "Reactions were stopped by boiling for 10 minutes and samples were separated on 0.8 % agarose gel .", "event": "<extra_id_0> <extra_id_1>"}
+{"text": "Phosphorylated peptide migrated toward the anode ( + ) , while non - phosphorylated peptide migrated toward the cathode ( - ) .", "event": "<extra_id_0> <extra_id_1>"}
+{"text": "Fluorescein-tagged peptides were visualized by UV light .", "event": "<extra_id_0> <extra_id_1>"}

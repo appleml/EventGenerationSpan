@@ -1,0 +1,36 @@
+A direct interaction between the adaptor protein Cbl-b and the kinase zap-70 induces a positive signal in T cells.
+# T1 Protein S1 49 54 49 54 Cbl-b
+# T2 Protein S1 70 76 70 76 zap-70
+
+Engagement of the T-cell receptor (TCR)-CD3 complex induces a rapid increase in the activities of Src-family and Syk/Zap-70-family kinases [1] [2].
+# T3 Protein S2 113 116 229 232 Syk
+# T4 Protein S2 117 123 233 239 Zap-70
+
+These activated kinases then induce the tyrosine phosphorylation of multiple intracellular proteins, eventually leading to T-cell activation.
+
+One of the prominent substrates for these kinases is the adaptor protein Cbl [3] and recent studies suggest that Cbl negatively regulates upstream kinases such as Syk and Zap-70 [4] [5].
+# T5 Protein S4 163 166 569 572 Syk
+# T6 Protein S4 171 177 577 583 Zap-70
+
+Cbl-b, a homologue of Cbl, is widely expressed in many tissues and cells including hematopoietic cells [6] [7].
+# T7 Protein S5 0 5 593 598 Cbl-b
+
+Cbl-b undergoes rapid tyrosine phosphorylation upon stimulation of the TCR and cytokine receptors [8] [9].
+# T8 Protein S6 0 5 705 710 Cbl-b
+
+The role of Cbl-b is unclear, however.
+# T9 Protein S7 12 17 824 829 Cbl-b
+
+Here, we show that overexpression of Cbl-b in T cells induced the constitutive activation of the transcription factor nuclear factor of activated T cells (NFAT).
+# T10 Protein S8 37 42 888 893 Cbl-b
+
+A loss-of-function mutation in Cbl-b disrupted the interaction between Cbl-b and Zap-70 and nearly completely abrogated the Cbl-b-mediated activation of NFAT.
+# T11 Protein S9 31 36 1044 1049 Cbl-b
+# T12 Protein S9 71 76 1084 1089 Cbl-b
+# T13 Protein S9 81 87 1094 1100 Zap-70
+# T14 Protein S9 124 129 1137 1142 Cbl-b
+
+Unlike the proposed role of Cbl as a negative regulator, our results suggest that the Cbl homologue Cbl-b has a positive role in T-cell signaling, most likely via a direct interaction with the upstream kinase Zap-70.
+# T15 Protein S10 100 105 1272 1277 Cbl-b
+# T16 Protein S10 209 215 1381 1387 Zap-70
+

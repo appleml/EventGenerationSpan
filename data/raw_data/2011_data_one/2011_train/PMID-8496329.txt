@@ -1,0 +1,55 @@
+Expression levels of the thyrotropin receptor gene in autoimmune thyroid disease: coregulation with parameters of thyroid function and inverse relation to major histocompatibility complex classes I and II.
+# T1 Protein S1 25 45 25 45 thyrotropin receptor
+$ T1 Protein S1 25 45 25 45 thyrotropin receptor
+@ T16 Gene_expression S1 0 10 0 10 Expression
+@ T17 Regulation S1 82 94 82 94 coregulation
+% E1 Gene_expression:T16 Theme:T1
+% E2 Regulation:T17 Theme:E1
+
+Using a human TSH receptor (TSH-R) cDNA probe, we investigated TSH-R transcript levels in 13 human thyroid fragments by Northern blot analysis; 7 Graves' disease, 2 Hashimoto's disease, 3 endemic goiter, and 1 healthy thyroid gland were studied.
+# T2 Protein S2 14 26 221 233 TSH receptor
+# T3 Protein S2 28 33 235 240 TSH-R
+# T4 Protein S2 63 68 270 275 TSH-R
+$ T4 Protein S2 63 68 270 275 TSH-R
+@ T18 Transcription S2 69 86 276 293 transcript levels
+% E3 Transcription:T18 Theme:T4
+
+TSH-R expression levels were variable, but displayed a close correlation to the expression of thyroid peroxidase (r = 0.703; P < 0.05), thyroglobulin (r = 0.817; P < 0.01), and the nuclear oncogene c-fos (r = 0.935; P < 0.001), but not c-myc.
+# T5 Protein S3 0 5 453 458 TSH-R
+# T6 Protein S3 94 112 547 565 thyroid peroxidase
+# T7 Protein S3 136 149 589 602 thyroglobulin
+# T8 Protein S3 198 203 651 656 c-fos
+# T9 Protein S3 236 241 689 694 c-myc
+$ T5 Protein S3 0 5 453 458 TSH-R
+$ T7 Protein S3 136 149 589 602 thyroglobulin
+$ T8 Protein S3 198 203 651 656 c-fos
+$ T6 Protein S3 94 112 547 565 thyroid peroxidase
+$ T9 Protein S3 236 241 689 694 c-myc
+@ T19 Gene_expression S3 6 16 459 469 expression
+@ T20 Gene_expression S3 80 90 533 543 expression
+% E4 Gene_expression:T19 Theme:T5
+% E5 Gene_expression:T20 Theme:T7
+% E6 Gene_expression:T20 Theme:T8
+% E7 Gene_expression:T20 Theme:T6
+% E8 Gene_expression:T20 Theme:T9
+
+Overall, TSH-R transcript levels were low or absent in those thyroids in which expression of the major histocompatibility complex class I or II (MHC I or II) was high, thus establishing an inverse relation (MHC I, r = -0.791; P < 0.01; MHC II, r = -0.784; P < 0.01).
+# T10 Protein S4 9 14 705 710 TSH-R
+$ T10 Protein S4 9 14 705 710 TSH-R
+@ T21 Transcription S4 15 32 711 728 transcript levels
+% E9 Transcription:T21 Theme:T10
+
+In situ hybridization showed that apart from lymphocytes, thyroid cells themselves were the source of MHC II transcripts.
+
+gamma-Interferon expression was only detectable in 1 Hashimoto's goiter.
+# T11 Protein S6 0 16 1085 1101 gamma-Interferon
+$ T11 Protein S6 0 16 1085 1101 gamma-Interferon
+@ T22 Gene_expression S6 17 27 1102 1112 expression
+% E10 Gene_expression:T22 Theme:T11
+
+Our findings suggest that next to lymphocyte infiltration, active regulatory events in the thyrocyte are responsible for the inverse relation between functional parameters (TSH-R, thyroid peroxidase, thyroglobulin, and c-fos) and immunological markers (MHC I and II).
+# T12 Protein S7 173 178 1331 1336 TSH-R
+# T13 Protein S7 180 198 1338 1356 thyroid peroxidase
+# T14 Protein S7 200 213 1358 1371 thyroglobulin
+# T15 Protein S7 219 224 1377 1382 c-fos
+

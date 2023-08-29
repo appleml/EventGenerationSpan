@@ -1,0 +1,52 @@
+Statistical	JJ	B-NP	O	Other	###	1	Statistical	Statistical	JJ	JJ	_	2	amod	_	_
+analysis	NN	I-NP	O	Other	###	2	analysis	analysis	NN	NN	_	0	root	_	_
+
+Data	NNS	B-NP	O	Other	###	1	Data	Data	NNS	NNS	_	3	nsubjpass	_	_
+are	VBP	B-VP	O	Other	###	2	are	are	VBP	VBP	_	3	auxpass	_	_
+expressed	VBN	I-VP	O	Other	###	3	expressed	expressed	VBN	VBN	_	0	root	_	_
+as	IN	B-PP	O	Other	###	4	as	as	IN	IN	_	7	case	_	_
+the	DT	B-NP	O	Other	###	5	the	the	DT	DT	_	7	det	_	_
+mean	JJ	I-NP	O	Other	###	6	mean	mean	JJ	JJ	_	7	amod	_	_
+value	NN	I-NP	O	Other	###	7	value	value	NN	NN	_	3	nmod	_	_
++/-	CC	O	O	Other	###	8	+/-	+/-	CC	CC	_	7	cc	_	_
+standard	JJ	B-NP	O	Other	###	9	standard	standard	JJ	JJ	_	10	amod	_	_
+error	NN	I-NP	O	Other	###	10	error	error	NN	NN	_	7	conj	_	_
+of	IN	B-PP	O	Other	###	11	of	of	IN	IN	_	16	case	_	_
+the	DT	B-NP	O	Other	###	12	the	the	DT	DT	_	16	det	_	_
+mean	NN	I-NP	O	Other	###	13	mean	mean	NN	NN	_	16	compound	_	_
+or	CC	I-NP	O	Other	###	14	or	or	CC	CC	_	13	cc	_	_
+box	NN	I-NP	O	Other	###	15	box	box	NN	NN	_	13	conj	_	_
+plots	NNS	I-NP	O	Other	###	16	plots	plots	NNS	NNS	_	7	nmod	_	_
+.	.	O	O	Other	###	17	.	.	.	.	_	3	punct	_	_
+
+The	DT	B-NP	O	Other	###	1	The	The	DT	DT	_	3	det	_	_
+statistical	JJ	I-NP	O	Other	###	2	statistical	statistical	JJ	JJ	_	3	amod	_	_
+significance	NN	I-NP	O	Other	###	3	significance	significance	NN	NN	_	10	nsubjpass	_	_
+of	IN	B-PP	O	Other	###	4	of	of	IN	IN	_	5	case	_	_
+differences	NNS	B-NP	O	Other	###	5	differences	differences	NNS	NNS	_	3	nmod	_	_
+between	IN	B-PP	O	Other	###	6	between	between	IN	IN	_	8	case	_	_
+two	CD	B-NP	O	Other	###	7	two	two	CD	CD	_	8	nummod	_	_
+groups	NNS	I-NP	O	Other	###	8	groups	groups	NNS	NNS	_	5	nmod	_	_
+was	VBD	B-VP	O	Other	###	9	was	was	VBD	VBD	_	10	auxpass	_	_
+determined	VBN	I-VP	O	Other	###	10	determined	determined	VBN	VBN	_	0	root	_	_
+by	IN	B-PP	O	Other	###	11	by	by	IN	IN	_	15	case	_	_
+the	DT	B-NP	O	Other	###	12	the	the	DT	DT	_	15	det	_	_
+Mann-Whitney	NNP	I-NP	O	Other	###	13	Mann-Whitney	Mann-Whitney	NNP	NNP	_	15	compound	_	_
+U	NNP	I-NP	O	Other	###	14	U	U	NNP	NNP	_	15	compound	_	_
+test	NN	I-NP	O	Other	###	15	test	test	NN	NN	_	10	nmod	_	_
+or	CC	O	O	Other	###	16	or	or	CC	CC	_	10	cc	_	_
+the	DT	B-NP	O	Other	###	17	the	the	DT	DT	_	18	det	_	_
+Wilcoxon	NNP	I-NP	O	Other	###	18	Wilcoxon	Wilcoxon	NNP	NNP	_	19	nsubj	_	_
+signed	VBD	B-VP	O	Other	###	19	signed	signed	VBD	VBD	_	10	conj	_	_
+rank	NN	B-NP	O	Other	###	20	rank	rank	NN	NN	_	21	compound	_	_
+test	NN	I-NP	O	Other	###	21	test	test	NN	NN	_	19	dobj	_	_
+.	.	O	O	Other	###	22	.	.	.	.	_	10	punct	_	_
+
+P	NN	B-NP	O	Other	###	1	P	P	NN	NN	_	2	compound	_	_
+<	SYM	O	O	Other	###	2	<	<	SYM	SYM	_	5	nsubjpass	_	_
+0.05	CD	B-NP	O	Other	###	3	0.05	0.05	CD	CD	_	2	nummod	_	_
+was	VBD	B-VP	O	Other	###	4	was	was	VBD	VBD	_	5	auxpass	_	_
+considered	VBN	I-VP	O	Other	###	5	considered	considered	VBN	VBN	_	0	root	_	_
+significant	JJ	B-ADJP	O	Other	###	6	significant	significant	JJ	JJ	_	5	xcomp	_	_
+.	.	O	O	Other	###	7	.	.	.	.	_	5	punct	_	_
+

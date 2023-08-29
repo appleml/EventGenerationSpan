@@ -1,0 +1,45 @@
+Sp1 and Sp3 bind to the GC-box present in the A3G promoter.
+# T1 Protein S1 0 3 0 3 Sp1
+# T2 Protein S1 8 11 8 11 Sp3
+# T3 Protein S1 46 49 46 49 A3G
+$ T1 Protein S1 0 3 0 3 Sp1
+$ T3 Protein S1 46 49 46 49 A3G
+$ T2 Protein S1 8 11 8 11 Sp3
+@ T21 Binding S1 12 16 12 16 bind
+@ T22 Entity S1 24 30 24 30 GC-box
+% E1 Binding:T21 Theme:T1 Theme2:T3 Site2:T22
+% E2 Binding:T21 Theme:T2 Theme2:T3 Site2:T22
+
+(A) Nuclear extracts of A3.01 T cells were incubated with a 32P-labeled commercial Sp1 oligonucleotide probe (Sp1cons) or labeled probes homologous to the unmodified or mutated E2 region (see Figure 1) of the A3G promoter (APO-Sp1/3 and APO-Sp1/3mut).
+# T4 Protein S2 83 86 143 146 Sp1
+# T5 Protein S2 209 212 269 272 A3G
+# T6 Protein S2 227 230 287 290 Sp1
+# T7 Protein S2 231 232 291 292 3
+# T8 Protein S2 241 244 301 304 Sp1
+# T9 Protein S2 245 246 305 306 3
+
+Protein-DNA complexes were separated by polyacrylamide electrophoresis and detected by autoradiography.
+
+EMSA was performed with a 1- or 30-fold molar excess of unlabeled APO-Sp1/3 probe (competitor, lanes 6 and 7) or APO-Sp1/3mut probe (competitor mut., lanes 12 and 13).
+# T10 Protein S4 70 73 486 489 Sp1
+# T11 Protein S4 74 75 490 491 3
+# T12 Protein S4 117 120 533 536 Sp1
+# T13 Protein S4 121 122 537 538 3
+
+(B) Sp1- and Sp3-specific antibodies were added to the EMSA reactions resulting in a supershift (ss) of the respective antibody-protein-oligo complexes (lanes 3, 4, 7, 8, 11, 12).
+# T14 Protein S5 4 7 588 591 Sp1
+# T15 Protein S5 13 16 597 600 Sp3
+
+(C) ChIP assay was performed with DNA from A3.01 T cells.
+
+Immunoprecipitation was performed with antibodies against Sp1, Sp3 or actin.
+# T16 Protein S7 58 61 880 883 Sp1
+# T17 Protein S7 63 66 885 888 Sp3
+# T18 Protein S7 70 75 892 897 actin
+
+PCR primer pairs specific for the A3G promoter (upper panel) or the A3G gene (lower panel) were used.
+# T19 Protein S8 34 37 933 936 A3G
+# T20 Protein S8 68 71 967 970 A3G
+
+As positive controls, the sheared and cross-linked DNA before the immunoprecipitation step (input) or a plasmid carrying the target sequence (plasmid) was used as template.
+

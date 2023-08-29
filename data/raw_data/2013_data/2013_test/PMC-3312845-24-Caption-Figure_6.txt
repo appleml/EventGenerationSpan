@@ -1,0 +1,30 @@
+Effect of sTNFp55R infusion on neutrophil infiltration and MIP-2 expression following SE.
+# T1 Protein S1 11 18 11 18 TNFp55R
+# T2 Protein S1 59 64 59 64 MIP-2
+
+(A) Neutrophil infiltration in vasogenic edema lesion 1 day after SE.
+
+(B) MIP-2 expression in the PC 1 day after SE.
+# T3 Protein S3 4 9 164 169 MIP-2
+
+(C) Astroglial expression of MIP-2 (arrows).
+# T4 Protein S4 29 34 236 241 MIP-2
+
+Bars = 12.5 (A and C) and 150 (B) mum.
+
+(D) Quantitative analysis of neutrophil infiltration 1 day after SE (mean +/- S.E.M).
+
+Significant differences from saline-infused animals, *p < 0.05.
+
+(E) Linear regression analysis between the number of infiltrated neutrophils/area in the vasogenic edema region and the area of vasogenic edema in the PC.
+
+(F) Quantitative analysis of the number of MIP-2 positive cells per the unit area of vasogenic edema 1 day after SE (mean +/- S.E.M).
+# T5 Protein S9 43 48 639 644 MIP-2
+
+There is no difference in the number of MIP-2-positive cells per unit area of vasogenic edema between sTNFp55R-infused animals and saline-infused animals.
+# T6 Protein S10 40 45 770 775 MIP-2
+# T7 Protein S10 103 110 833 840 TNFp55R
+
+(G) Linear regression analysis between the number of MIP-2 positive cells per unit area in vasogenic edema region and the area of vasogenic edema in the PC.
+# T8 Protein S11 53 58 938 943 MIP-2
+

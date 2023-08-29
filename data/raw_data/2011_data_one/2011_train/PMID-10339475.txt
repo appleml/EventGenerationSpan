@@ -1,0 +1,131 @@
+Monocyte arrest and transmigration on inflamed endothelium in shear flow is inhibited by adenovirus-mediated gene transfer of IkappaB-alpha.
+# T1 Protein S1 126 139 126 139 IkappaB-alpha
+$ T1 Protein S1 126 139 126 139 IkappaB-alpha
+@ T25 Gene_expression S1 109 122 109 122 gene transfer
+@ T26 Positive_regulation S1 109 122 109 122 gene transfer
+% E1 Gene_expression:T25 Theme:T1
+% E2 Positive_regulation:T26 Theme:E1
+
+Mobilization of nuclear factor-kappaB (NF-kappaB) activates transcription of genes encoding endothelial adhesion molecules and chemokines that contribute to monocyte infiltration critical in atherogenesis.
+
+Inhibition of NF-kappaB has been achieved by pharmacological and genetic approaches; however, monocyte interactions with activated endothelium in shear flow following gene transfer of the NF-kappaB inhibitor IkappaB-alpha have not been studied.
+# T2 Protein S3 208 221 556 569 IkappaB-alpha
+$ T2 Protein S3 208 221 556 569 IkappaB-alpha
+@ T27 Positive_regulation S3 157 166 505 514 following
+@ T28 Gene_expression S3 167 180 515 528 gene transfer
+@ T29 Positive_regulation S3 167 180 515 528 gene transfer
+% E3 Positive_regulation:T27 Theme:E4
+% E4 Gene_expression:T28 Theme:T2
+% E5 Positive_regulation:T29 Theme:E4
+
+We found that overexpression of IkappaB-alpha in endothelial cells using a recombinant adenovirus prevented tumor necrosis factor-alpha (TNF-alpha)-induced degradation of IkappaB-alpha and suppressed the upregulation of vascular cell adhesion molecule-1 (VCAM-1), intercellular adhesion molecule-1 (ICAM-1), and E-selectin mRNA and surface protein expression and the upregulation of transcripts for the chemokines monocyte chemoattractant protein 1 (MCP-1) and growth-related activity-alpha (GRO-alpha) by TNF-alpha.
+# T3 Protein S4 32 45 625 638 IkappaB-alpha
+# T4 Protein S4 108 135 701 728 tumor necrosis factor-alpha
+# T5 Protein S4 137 146 730 739 TNF-alpha
+# T6 Protein S4 171 184 764 777 IkappaB-alpha
+# T7 Protein S4 220 253 813 846 vascular cell adhesion molecule-1
+# T8 Protein S4 255 261 848 854 VCAM-1
+# T9 Protein S4 264 297 857 890 intercellular adhesion molecule-1
+# T10 Protein S4 299 305 892 898 ICAM-1
+# T11 Protein S4 312 322 905 915 E-selectin
+# T12 Protein S4 414 448 1007 1041 monocyte chemoattractant protein 1
+# T13 Protein S4 450 455 1043 1048 MCP-1
+# T14 Protein S4 461 490 1054 1083 growth-related activity-alpha
+# T15 Protein S4 492 501 1085 1094 GRO-alpha
+# T16 Protein S4 506 515 1099 1108 TNF-alpha
+$ T3 Protein S4 32 45 625 638 IkappaB-alpha
+$ T5 Protein S4 137 146 730 739 TNF-alpha
+$ T6 Protein S4 171 184 764 777 IkappaB-alpha
+$ T8 Protein S4 255 261 848 854 VCAM-1
+$ T10 Protein S4 299 305 892 898 ICAM-1
+$ T11 Protein S4 312 322 905 915 E-selectin
+$ T16 Protein S4 506 515 1099 1108 TNF-alpha
+$ T15 Protein S4 492 501 1085 1094 GRO-alpha
+$ T13 Protein S4 450 455 1043 1048 MCP-1
+@ T30 Gene_expression S4 14 28 607 621 overexpression
+@ T31 Positive_regulation S4 14 28 607 621 overexpression
+@ T32 Negative_regulation S4 98 107 691 700 prevented
+@ T33 Positive_regulation S4 148 155 741 748 induced
+@ T34 Protein_catabolism S4 156 167 749 760 degradation
+@ T35 Negative_regulation S4 189 199 782 792 suppressed
+@ T36 Positive_regulation S4 204 216 797 809 upregulation
+@ T37 Transcription S4 348 358 941 951 expression
+@ T38 Gene_expression S4 348 358 941 951 expression
+@ T39 Positive_regulation S4 367 379 960 972 upregulation
+@ T40 Transcription S4 383 394 976 987 transcripts
+% E6 Gene_expression:T30 Theme:T3
+% E7 Positive_regulation:T31 Theme:E6
+% E8 Negative_regulation:T32 Theme:E10 Cause:E7
+% E9 Positive_regulation:T33 Theme:E10 Cause:T5
+% E10 Protein_catabolism:T34 Theme:T6
+% E11 Negative_regulation:T35 Theme:E20 Cause:E6
+% E12 Negative_regulation:T35 Theme:E22 Cause:E6
+% E13 Negative_regulation:T35 Theme:E24 Cause:E6
+% E14 Negative_regulation:T35 Theme:E19 Cause:E6
+% E15 Negative_regulation:T35 Theme:E32 Cause:E6
+% E16 Negative_regulation:T35 Theme:E31 Cause:E6
+% E17 Negative_regulation:T35 Theme:E23 Cause:E6
+% E18 Negative_regulation:T35 Theme:E21 Cause:E6
+% E19 Positive_regulation:T36 Theme:E25
+% E20 Positive_regulation:T36 Theme:E30
+% E21 Positive_regulation:T36 Theme:E29
+% E22 Positive_regulation:T36 Theme:E27
+% E23 Positive_regulation:T36 Theme:E28
+% E24 Positive_regulation:T36 Theme:E26
+% E25 Transcription:T37 Theme:T8
+% E28 Transcription:T37 Theme:T10
+% E29 Transcription:T37 Theme:T11
+% E26 Gene_expression:T38 Theme:T11
+% E27 Gene_expression:T38 Theme:T8
+% E30 Gene_expression:T38 Theme:T10
+% E31 Positive_regulation:T39 Theme:E34 Cause:T16
+% E32 Positive_regulation:T39 Theme:E33 Cause:T16
+% E33 Transcription:T40 Theme:T15
+% E34 Transcription:T40 Theme:T13
+
+This was associated with a reduction in endothelial MCP-1 secretion and GRO-alpha immobilization.
+# T17 Protein S5 52 57 1162 1167 MCP-1
+# T18 Protein S5 72 81 1182 1191 GRO-alpha
+$ T17 Protein S5 52 57 1162 1167 MCP-1
+$ T18 Protein S5 72 81 1182 1191 GRO-alpha
+@ T41 Negative_regulation S5 27 36 1137 1146 reduction
+@ T42 Localization S5 58 67 1168 1177 secretion
+@ T43 Localization S5 82 96 1192 1206 immobilization
+% E35 Negative_regulation:T41 Theme:E36
+% E36 Localization:T42 Theme:T17
+% E37 Localization:T43 Theme:T18
+
+Adhesion assays under physiological shear flow conditions showed that firm arrest, spreading, and transmigration of monocytes on TNF-alpha-activated endothelium was markedly inhibited by IkappaB-alpha overexpression.
+# T19 Protein S6 129 138 1337 1346 TNF-alpha
+# T20 Protein S6 187 200 1395 1408 IkappaB-alpha
+$ T20 Protein S6 187 200 1395 1408 IkappaB-alpha
+@ T44 Gene_expression S6 201 215 1409 1423 overexpression
+@ T45 Positive_regulation S6 201 215 1409 1423 overexpression
+% E38 Gene_expression:T44 Theme:T20
+% E39 Positive_regulation:T45 Theme:E38
+
+Inhibition with monoclonal antibodies and peptide antagonists inferred that this was due to reduced expression of Ig integrin ligand as well as of chemokines specifically involved in these events.
+
+In contrast, rolling of monocytes was increased by IkappaB-alpha transfer and was partly mediated by P-selectin; however, it appeared to be unaffected by the inhibition of E-selectin induction.
+# T21 Protein S8 51 64 1673 1686 IkappaB-alpha
+# T22 Protein S8 101 111 1723 1733 P-selectin
+# T23 Protein S8 172 182 1794 1804 E-selectin
+$ T21 Protein S8 51 64 1673 1686 IkappaB-alpha
+$ T23 Protein S8 172 182 1794 1804 E-selectin
+@ T46 Positive_regulation S8 65 73 1687 1695 transfer
+@ T47 Gene_expression S8 65 73 1687 1695 transfer
+@ T48 Negative_regulation S8 158 168 1780 1790 inhibition
+@ T49 Positive_regulation S8 183 192 1805 1814 induction
+% E40 Positive_regulation:T46 Theme:E41
+% E41 Gene_expression:T47 Theme:T21
+% E42 Negative_regulation:T48 Theme:E43
+% E43 Positive_regulation:T49 Theme:T23
+
+Thus, our data provide novel evidence that selective modulation of NF-kappaB by adenoviral transfer of IkappaB-alpha impairs the expression of multiple endothelial gene products required for subsequent monocyte arrest and emigration in shear flow and thus for monocyte infiltration in atherosclerotic plaques.
+# T24 Protein S9 103 116 1919 1932 IkappaB-alpha
+$ T24 Protein S9 103 116 1919 1932 IkappaB-alpha
+@ T50 Gene_expression S9 91 99 1907 1915 transfer
+@ T51 Positive_regulation S9 91 99 1907 1915 transfer
+% E44 Gene_expression:T50 Theme:T24
+% E45 Positive_regulation:T51 Theme:E44
+

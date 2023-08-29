@@ -1,0 +1,43 @@
+A newly established megakaryoblastic/erythroid cell line that differentiates to red cells in the presence of erythropoietin and produces platelet-like particles.
+# T1 Protein S1 109 123 109 123 erythropoietin
+
+In August, 1992, we established a leukemic cell line (NS-Meg) from a patient in megakaryoblastic transformation of Philadelphia chromosome-positive chronic myeloid leukemia.
+
+The NS-Meg cells were positive for alpha-naphthyl acetate esterase and periodic acid-Schiff (PAS) staining and for surface CD4, CD7, CD13, CD34, CD41a, and glycophorin A antigens.
+# T2 Protein S3 123 126 460 463 CD4
+# T3 Protein S3 128 131 465 468 CD7
+# T4 Protein S3 133 137 470 474 CD13
+# T5 Protein S3 139 143 476 480 CD34
+# T6 Protein S3 145 150 482 487 CD41a
+# T7 Protein S3 156 169 493 506 glycophorin A
+
+Ultrastructurally, the cells had alpha-granules, demarcation membranes, and platelet peroxidase activity.
+
+The NS-Meg cells spontaneously produced platelet-like particles which contained alpha-granules, mitochondria and dense bodies, strongly suggesting platelet production.
+
+Erythropoietin (Epo), granulocyte/macrophage colony stimulating factor(GM-CSF), and interleukin 3 (IL-3) promoted the growth of NS-Meg cells.
+# T8 Protein S6 0 14 791 805 Erythropoietin
+# T9 Protein S6 16 19 807 810 Epo
+# T10 Protein S6 22 70 813 861 granulocyte/macrophage colony stimulating factor
+# T11 Protein S6 71 77 862 868 GM-CSF
+# T12 Protein S6 84 97 875 888 interleukin 3
+# T13 Protein S6 99 103 890 894 IL-3
+
+Phorbol-12-myristate-13-acetate increased the expression of both CD41a and CD61 antigens.
+# T14 Protein S7 65 70 998 1003 CD41a
+# T15 Protein S7 75 79 1008 1012 CD61
+
+Ten-day exposure to Epo induced mature erythroblasts and red cells.
+# T16 Protein S8 20 23 1043 1046 Epo
+
+These benzidine-positive cells were positive for hemoglobin F staining.
+
+Untreated NS-Meg cells expressed mRNA for the Epo receptor (EpoR), for GATA-1, and for alpha 1, alpha 2 and gamma globin genes.
+# T17 Protein S10 46 58 1209 1221 Epo receptor
+# T18 Protein S10 60 64 1223 1227 EpoR
+# T19 Protein S10 71 77 1234 1240 GATA-1
+
+These results indicate that NS-Meg cells undergo terminal differentiation of both megakaryocytic and erythroid lineages.
+
+This cell line should be a very useful tool for the investigation of both megakaryocytic and erythroid maturation.
+

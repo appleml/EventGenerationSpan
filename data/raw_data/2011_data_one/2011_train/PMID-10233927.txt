@@ -1,0 +1,45 @@
+Control of cell cycle entry and apoptosis in B lymphocytes infected by Epstein-Barr virus.
+
+Infection of human B cells with Epstein-Barr virus (EBV) results in activation of the cell cycle and cell growth.
+
+To interpret the mechanisms by which EBV activates the cell, we have assayed many proteins involved in control of the G0 and G1 phases of the cell cycle and regulation of apoptosis.
+
+In EBV infection most of the changes, including the early induction of cyclin D2, are dependent on expression of EBV genes, but an alteration in the E2F-4 profile was partly independent of viral gene expression, presumably occurring in response to signal transduction activated when the virus binds to its receptor, CD21.
+# T1 Protein S4 71 80 459 468 cyclin D2
+# T2 Protein S4 149 154 537 542 E2F-4
+# T3 Protein S4 316 320 704 708 CD21
+$ T1 Protein S4 71 80 459 468 cyclin D2
+$ T2 Protein S4 149 154 537 542 E2F-4
+$ T3 Protein S4 316 320 704 708 CD21
+@ T9 Positive_regulation S4 58 67 446 455 induction
+@ T10 Positive_regulation S4 86 95 474 483 dependent
+@ T11 Regulation S4 131 141 519 529 alteration
+@ T12 Regulation S4 174 185 562 573 independent
+@ T13 Positive_regulation S4 223 232 611 620 occurring
+@ T14 Binding S4 293 298 681 686 binds
+% E1 Positive_regulation:T9 Theme:T1
+% E2 Positive_regulation:T10 Theme:E1
+% E3 Regulation:T11 Theme:T2
+% E4 Regulation:T12 Theme:E3
+% E5 Positive_regulation:T13 Theme:E3
+% E6 Binding:T14 Theme:T3
+
+By comparing the expression of genes controlling apoptosis, including those encoding several members of the BCL-2 family of proteins, the known relative resistance of EBV-immortalized B-cell lines to apoptosis induced by low serum was found to correlate with expression of both BCL-2 and A20.
+# T4 Protein S5 278 283 988 993 BCL-2
+# T5 Protein S5 288 291 998 1001 A20
+$ T4 Protein S5 278 283 988 993 BCL-2
+$ T5 Protein S5 288 291 998 1001 A20
+@ T15 Gene_expression S5 259 269 969 979 expression
+% E7 Gene_expression:T15 Theme:T4
+% E8 Gene_expression:T15 Theme:T5
+
+A20 can be regulated by the NF-kappaB transcription factor, which is known to be activated by the EBV LMP-1 protein.
+# T6 Protein S6 0 3 1003 1006 A20
+# T7 Protein S6 102 107 1105 1110 LMP-1
+$ T6 Protein S6 0 3 1003 1006 A20
+@ T16 Regulation S6 11 20 1014 1023 regulated
+% E9 Regulation:T16 Theme:T6
+
+Quantitative assays demonstrated a direct temporal relationship between LMP-1 protein levels and active NF-kappaB during the time course of infection.
+# T8 Protein S7 72 77 1192 1197 LMP-1
+

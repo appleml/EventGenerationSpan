@@ -1,0 +1,37 @@
+CIITA-induced occupation of MHC class II promoters is independent of the cooperative stabilization of the promoter-bound multi-protein complexes.
+# T1 Protein S1 0 5 0 5 CIITA
+
+Precise regulation of MHC class II expression plays a crucial role in the control of the immune response.
+
+The transactivator CIITA behaves as a master controller of constitutive and inducible MHC class II gene activation, but its exact mechanism of action is not known.
+# T2 Protein S3 19 24 272 277 CIITA
+
+Activation of MHC class II promoters requires binding of at least three distinct multi-protein complexes (RFX, X2BP and NF-Y).
+
+It is known that the stability of this binding results from cooperative interactions between these proteins.
+
+We show here that expression of CIITA in MHC class II- cells triggers occupation of the promoters by these complexes.
+# T3 Protein S6 32 37 685 690 CIITA
+$ T3 Protein S6 32 37 685 690 CIITA
+@ T10 Gene_expression S6 18 28 671 681 expression
+% E1 Gene_expression:T10 Theme:T3
+
+This observation raised the possibility that the effect of CIITA on promoter occupation is mediated by an effect on the cooperative stabilization of the DNA-bound multi-protein complexes.
+# T4 Protein S7 59 64 830 835 CIITA
+
+We show, however, that the presence of CIITA does not affect the stability of the higher-order protein complex formed on DNA by RFX, X2BP and NF-Y.
+# T5 Protein S8 39 44 998 1003 CIITA
+
+This suggests other mechanisms for CIITA-induced promoter occupancy, such as an effect on chromatin structure leading to increased accessibility of MHC class II promoters.
+# T6 Protein S9 35 40 1142 1147 CIITA
+
+This ability of CIITA to facilitate promoter occupation is undissociable from its transactivation potential.
+# T7 Protein S10 16 21 1295 1300 CIITA
+
+Finally, we conclude that this effect of CIITA is cell-type specific, since expression of CIITA is not required for normal occupation of MHC class II promoters in B lymphocytes.
+# T8 Protein S11 41 46 1429 1434 CIITA
+# T9 Protein S11 90 95 1478 1483 CIITA
+$ T9 Protein S11 90 95 1478 1483 CIITA
+@ T11 Gene_expression S11 76 86 1464 1474 expression
+% E2 Gene_expression:T11 Theme:T9
+

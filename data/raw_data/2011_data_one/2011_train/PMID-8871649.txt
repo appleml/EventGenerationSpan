@@ -1,0 +1,80 @@
+A critical role of Sp1- and Ets-related transcription factors in maintaining CTL-specific expression of the mouse perforin gene.
+# T1 Protein S1 19 22 19 22 Sp1
+# T2 Protein S1 114 122 114 122 perforin
+$ T2 Protein S1 114 122 114 122 perforin
+@ T15 Regulation S1 11 15 11 15 role
+@ T16 Gene_expression S1 90 100 90 100 expression
+% E1 Regulation:T15 Theme:E2
+% E2 Gene_expression:T16 Theme:T2
+
+This study was designed to determine the potential cis-elements involved in transcriptional regulation of the mouse perforin gene.
+# T3 Protein S2 116 124 246 254 perforin
+$ T3 Protein S2 116 124 246 254 perforin
+@ T17 Regulation S2 64 72 194 202 involved
+@ T18 Regulation S2 76 102 206 232 transcriptional regulation
+% E3 Regulation:T17 Theme:E4
+% E4 Regulation:T18 Theme:T3
+
+DNase I hypersensitive site (DHS) mapping revealed that the perforin locus contained six DHS within 7.0 kb of the 5' upstream sequence (-7.0 kb) and two DHS in intron 2.
+# T4 Protein S3 60 68 321 329 perforin
+
+The six 5' upstream and one intronic DHS were detected in only perforin-expressing lymphocytes.
+# T5 Protein S4 63 71 494 502 perforin
+$ T5 Protein S4 63 71 494 502 perforin
+@ T19 Gene_expression S4 72 82 503 513 expressing
+% E5 Gene_expression:T19 Theme:T5
+
+Chloramphenicol acetyltransferase (CAT) activities directed by 5' upstream promoter were detected preferentially in perforin-expressing cell lines.
+# T6 Protein S5 0 33 527 560 Chloramphenicol acetyltransferase
+# T7 Protein S5 35 38 562 565 CAT
+$ T7 Protein S5 35 38 562 565 CAT
+@ T20 Regulation S5 51 59 578 586 directed
+% E6 Regulation:T20 Theme:T7
+
+A construct termed PFP5a containing -795 bp exhibited the highest CAT activity, and PFP9a20 containing only -73 bp also produced significantly high CAT activity in CTLL-R8 cells.
+# T8 Protein S6 66 69 741 744 CAT
+# T9 Protein S6 148 151 823 826 CAT
+$ T8 Protein S6 66 69 741 744 CAT
+$ T9 Protein S6 148 151 823 826 CAT
+@ T21 Positive_regulation S6 44 53 719 728 exhibited
+@ T22 Positive_regulation S6 120 128 795 803 produced
+% E7 Positive_regulation:T21 Theme:T8
+% E8 Positive_regulation:T22 Theme:T9
+
+The proximal region in PFP9a20 contained two potential Sp1 binding sites (GC box and GT box) and one Ets binding site (EBS).
+# T10 Protein S7 55 58 909 912 Sp1
+
+Electrophoretic mobility shift assay showed that each of the cis-elements bound specific protein factors.
+@ T23 Binding S8 74 79 1053 1058 bound
+% E9 Binding:T23 Theme:T10
+
+When single-point mutation was introduced to each GC box, EBS, and GT box in PFP9a20, at least 3-fold less CAT activity was observed in CTLL-R8 cells.
+# T11 Protein S9 107 110 1192 1195 CAT
+$ T11 Protein S9 107 110 1192 1195 CAT
+@ T24 Negative_regulation S9 102 106 1187 1191 less
+% E10 Negative_regulation:T24 Theme:T11
+
+To confirm the importance of the three cis-acting elements in the perforin gene expression, point mutation was introduced again to each proximal GC box, EBS, and GT box of PFP5a.
+# T12 Protein S10 66 74 1302 1310 perforin
+$ T12 Protein S10 66 74 1302 1310 perforin
+@ T25 Regulation S10 15 25 1251 1261 importance
+@ T26 Gene_expression S10 80 90 1316 1326 expression
+% E11 Regulation:T25 Theme:E12
+% E12 Gene_expression:T26 Theme:T12
+
+The point mutations resulted in a 2.5- to 3-fold reduction of CAT activity.
+# T13 Protein S11 62 65 1477 1480 CAT
+$ T13 Protein S11 62 65 1477 1480 CAT
+@ T27 Regulation S11 20 28 1435 1443 resulted
+@ T28 Negative_regulation S11 49 58 1464 1473 reduction
+% E13 Regulation:T27 Theme:E14
+% E14 Negative_regulation:T28 Theme:T13
+
+The results suggest that a combination of the three proximal cis-acting elements may constitute a minimal region responsible for CTL-specific expression of perforin.
+# T14 Protein S12 156 164 1647 1655 perforin
+$ T14 Protein S12 156 164 1647 1655 perforin
+@ T29 Regulation S12 113 124 1604 1615 responsible
+@ T30 Gene_expression S12 142 152 1633 1643 expression
+% E15 Regulation:T29 Theme:E16
+% E16 Gene_expression:T30 Theme:T14
+

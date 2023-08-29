@@ -1,0 +1,27 @@
+GATA-3-GFP Construct
+# T1 Protein S1 0 6 0 6 GATA-3
+# T2 Protein S1 7 10 7 10 GFP
+
+The GATA-3 clone (BC003070) complete cDNA was obtained from Invitrogen Life Technologies as a 5'- EcoRI/3'-XhoI insert of GATA-3 in the pOTB7 vector.
+# T3 Protein S2 4 10 25 31 GATA-3
+# T4 Protein S2 122 128 143 149 GATA-3
+
+GATA-3 was excised from pOTB7 using XhoI digestion and pEGFP-C2 (Clontech, Saint-Germain-en-Laye, France) was digested with BamHI.
+# T5 Protein S3 0 6 171 177 GATA-3
+# T6 Protein S3 36 40 207 211 XhoI
+# T7 Protein S3 124 129 295 300 BamHI
+
+DNA was recovered by phenol extraction and ethanol precipitation, and both the GATA-3 fragment and the pEGFP-C2 vector blunt-ended by incubation with Klenow (Bioline Bio-27029) for 30 min at 37degreesC.
+# T8 Protein S4 79 85 381 387 GATA-3
+
+Klenow was inactivated by incubation for 10 min at 75degreesC.
+
+DNA was recovered by phenol extraction and ethanol precipitation, and both the blunt-ended GATA-3 fragment and the GFP vector were subsequently digested with EcoRI before the 5'-EcoRI/3'-blunt end GATA-3 fragment was inserted into the 5'-EcoRI/3'-blunt ended GFP vector.
+# T9 Protein S6 91 97 659 665 GATA-3
+# T10 Protein S6 115 118 683 686 GFP
+# T11 Protein S6 158 163 726 731 EcoRI
+# T12 Protein S6 197 203 765 771 GATA-3
+# T13 Protein S6 259 262 827 830 GFP
+
+Positive clones were confirmed by digestion and size analysis by 1% agarose gel electrophoresis and by sequencing.
+

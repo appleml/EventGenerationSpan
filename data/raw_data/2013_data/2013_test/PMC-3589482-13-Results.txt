@@ -1,0 +1,15 @@
+The SerpinB2 Gene is Highly Responsive to LPS
+# T1 Protein S1 4 12 4 12 SerpinB2
+
+When RAW264.7 macrophages were exposed to LPS, SerpinB2 mRNA was detectable as early as 30 min following LPS challenge, reaching maximal levels at 24 hrs (Fig. 1A).
+# T2 Protein S2 47 55 93 101 SerpinB2
+
+A similar strong induction of LPS-inducible SerpinB2 mRNA expression has been reported previously in murine peritoneal macrophages and human peripheral blood mononuclear cells [4]; [32].
+# T3 Protein S3 44 52 255 263 SerpinB2
+
+LPS-induced SerpinB2 expression involves both an increase in gene transcription and stabilization of the mRNA [5]; [29]; [42]-[44].
+# T4 Protein S4 12 20 410 418 SerpinB2
+
+SerpinB2 protein expression was also induced as has been reported in other cell types [31], and detectable after 8 hrs of LPS treatment (Fig. 1).
+# T5 Protein S5 0 8 530 538 SerpinB2
+

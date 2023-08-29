@@ -1,0 +1,60 @@
+Regulation of Id3 cell cycle function by Cdk-2-dependent phosphorylation.
+# T1 Protein S1 14 17 14 17 Id3
+# T2 Protein S1 41 46 41 46 Cdk-2
+$ T1 Protein S1 14 17 14 17 Id3
+$ T2 Protein S1 41 46 41 46 Cdk-2
+@ T19 Regulation S1 0 10 0 10 Regulation
+@ T20 Positive_regulation S1 47 56 47 56 dependent
+@ T21 Phosphorylation S1 57 72 57 72 phosphorylation
+% E1 Regulation:T19 Theme:T1 Cause:E3
+% E2 Positive_regulation:T20 Theme:E3 Cause:T2
+% E3 Phosphorylation:T21 Theme:T1
+
+The functions of basic helix-loop-helix (bHLH) transcription factors in activating differentiation-linked gene expression and in inducing G1 cell cycle arrest are negatively regulated by members of the Id family of HLH proteins.
+
+These bHLH antagonists are induced during a mitogenic signalling response, and they function by sequestering their bHLH targets in inactive heterodimers that are unable to bind to specific gene regulatory (E box) sequences.
+
+Recently, cyclin E-Cdk2- and cyclin A-Cdk2-dependent phosphorylation of a single conserved serine residue (Ser5) in Id2 has been shown to occur during late G1-to-S phase transition of the cell cycle, and this neutralizes the function of Id2 in abrogating E-box-dependent bHLH homo- or heterodimer complex formation in vitro (E.Hara, M.Hall, and G.Peters, EMBO J.16:332-342, 1997).
+# T3 Protein S4 10 18 538 546 cyclin E
+# T4 Protein S4 19 23 547 551 Cdk2
+# T5 Protein S4 29 37 557 565 cyclin A
+# T6 Protein S4 38 42 566 570 Cdk2
+# T7 Protein S4 116 119 644 647 Id2
+# T8 Protein S4 237 240 765 768 Id2
+$ T4 Protein S4 19 23 547 551 Cdk2
+$ T3 Protein S4 10 18 538 546 cyclin E
+$ T6 Protein S4 38 42 566 570 Cdk2
+$ T5 Protein S4 29 37 557 565 cyclin A
+$ T7 Protein S4 116 119 644 647 Id2
+@ T22 Positive_regulation S4 43 52 571 580 dependent
+@ T23 Phosphorylation S4 53 68 581 596 phosphorylation
+@ T24 Entity S4 107 111 635 639 Ser5
+% E4 Positive_regulation:T22 Theme:E8 Cause:T4
+% E5 Positive_regulation:T22 Theme:E8 Cause:T3
+% E6 Positive_regulation:T22 Theme:E8 Cause:T6
+% E7 Positive_regulation:T22 Theme:E8 Cause:T5
+% E8 Phosphorylation:T23 Theme:T7 Site:T24
+
+We now show that an analogous cell-cycle-regulated phosphorylation of Id3 alters the specificity of Id3 for abrogating both E-box-dependent bHLH homo- or heterodimer complex formation in vitro and E-box-dependent reporter gene function in vivo.
+# T9 Protein S5 70 73 979 982 Id3
+# T10 Protein S5 100 103 1009 1012 Id3
+$ T9 Protein S5 70 73 979 982 Id3
+@ T25 Regulation S5 41 50 950 959 regulated
+@ T26 Phosphorylation S5 51 66 960 975 phosphorylation
+% E9 Regulation:T25 Theme:E10
+% E10 Phosphorylation:T26 Theme:T9
+
+Furthermore, compared with wild-type Id3, an Id3 Asp5 mutant (mimicking phosphorylation) is unable to promote cell cycle S phase entry in transfected fibroblasts, whereas an Id3 Ala5 mutant (ablating phosphorylation) displays an activity significantly greater than that of wild-type Id3 protein.
+# T11 Protein S6 37 40 1191 1194 Id3
+# T12 Protein S6 45 48 1199 1202 Id3
+# T13 Protein S6 174 177 1328 1331 Id3
+# T14 Protein S6 283 286 1437 1440 Id3
+
+Cdk2-dependent phosphorylation therefore provides a switch during late G1-to-S phase that both nullifies an early G1 cell cycle regulatory function of Id3 and modulates its target bHLH specificity.
+# T15 Protein S7 0 4 1450 1454 Cdk2
+# T16 Protein S7 151 154 1601 1604 Id3
+
+These data also demonstrate that the ability of Id3 to promote cell cycle S phase entry is not simply a function of its ability to modulate bHLH heterodimer-dependent gene expression and establish a biologically important mechanism through which Cdk2 and Id-bHLH functions are integrated in the coordination of cell proliferation and differentiation.
+# T17 Protein S8 48 51 1696 1699 Id3
+# T18 Protein S8 246 250 1894 1898 Cdk2
+

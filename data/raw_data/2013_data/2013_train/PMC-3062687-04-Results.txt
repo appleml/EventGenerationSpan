@@ -1,0 +1,193 @@
+IKKbeta is required for RPS3 nuclear translocation
+# T1 Protein S1 0 7 0 7 IKKbeta
+# T2 Protein S1 24 28 24 28 RPS3
+$ T1 Protein S1 0 7 0 7 IKKbeta
+$ T2 Protein S1 24 28 24 28 RPS3
+@ T31 Positive_regulation S1 11 19 11 19 required
+@ T32 Entity S1 29 36 29 36 nuclear
+@ T33 Localization S1 37 50 37 50 translocation
+% E1 Positive_regulation:T31 Theme:E2 Cause:T1
+% E2 Localization:T33 Theme:T2 ToLoc:T32
+
+To examine whether the RPS3-IKKbeta interaction is required for RPS3 nuclear translocation, we knocked down IKKalpha or IKKbeta expression with siRNAs (Supplementary Fig. 1) and then observed stimulation-induced RPS3 nuclear migration by confocal microscopy.
+# T3 Protein S2 23 27 74 78 RPS3
+# T4 Protein S2 28 35 79 86 IKKbeta
+# T5 Protein S2 64 68 115 119 RPS3
+# T6 Protein S2 108 116 159 167 IKKalpha
+# T7 Protein S2 120 127 171 178 IKKbeta
+# T8 Protein S2 212 216 263 267 RPS3
+$ T3 Protein S2 23 27 74 78 RPS3
+$ T4 Protein S2 28 35 79 86 IKKbeta
+$ T5 Protein S2 64 68 115 119 RPS3
+$ T6 Protein S2 108 116 159 167 IKKalpha
+$ T7 Protein S2 120 127 171 178 IKKbeta
+$ T8 Protein S2 212 216 263 267 RPS3
+@ T34 Binding S2 36 47 87 98 interaction
+@ T35 Positive_regulation S2 51 59 102 110 required
+@ T36 Entity S2 69 76 120 127 nuclear
+@ T37 Localization S2 77 90 128 141 translocation
+@ T38 Negative_regulation S2 95 107 146 158 knocked down
+@ T39 Gene_expression S2 128 138 179 189 expression
+@ T40 Positive_regulation S2 204 211 255 262 induced
+@ T41 Entity S2 217 224 268 275 nuclear
+@ T42 Localization S2 225 234 276 285 migration
+% E3 Binding:T34 Theme:T3 Theme2:T4
+% E4 Positive_regulation:T35 Theme:E5 Cause:E3
+% E5 Localization:T37 Theme:T5 ToLoc:T36
+% E6 Negative_regulation:T38 Theme:E7
+% E8 Negative_regulation:T38 Theme:E9
+% E7 Gene_expression:T39 Theme:T6
+% E9 Gene_expression:T39 Theme:T7
+% E10 Positive_regulation:T40 Theme:E11
+% E11 Localization:T42 Theme:T8 ToLoc:T41
+
+Both TNF and PMA+I triggered RPS3 nuclear translocation in Jurkat cells transfected with a scrambled nonspecific (NS) siRNA (Fig. 2a)6.
+# T9 Protein S3 29 33 339 343 RPS3
+$ T9 Protein S3 29 33 339 343 RPS3
+@ T43 Positive_regulation S3 19 28 329 338 triggered
+@ T44 Entity S3 34 41 344 351 nuclear
+@ T45 Localization S3 42 55 352 365 translocation
+% E12 Positive_regulation:T43 Theme:E13
+% E13 Localization:T45 Theme:T9 ToLoc:T44
+
+RPS3 nuclear translocation was only slightly, if at all, impaired by IKKalpha-silencing.
+# T10 Protein S4 0 4 446 450 RPS3
+# T11 Protein S4 69 77 515 523 IKKalpha
+$ T10 Protein S4 0 4 446 450 RPS3
+$ T11 Protein S4 69 77 515 523 IKKalpha
+@ T46 Entity S4 5 12 451 458 nuclear
+@ T47 Localization S4 13 26 459 472 translocation
+@ T48 Negative_regulation S4 57 65 503 511 impaired
+@ T49 Negative_regulation S4 78 87 524 533 silencing
+% E14 Localization:T47 Theme:T10 ToLoc:T46
+% E15 Negative_regulation:T48 Theme:E14 Cause:E16
+% E16 Negative_regulation:T49 Theme:T11
+
+Conversely, knockdown of IKKbeta attenuated 60-70% of RPS3 nuclear accumulation following stimulation (Fig. 2a).
+# T12 Protein S5 25 32 560 567 IKKbeta
+# T13 Protein S5 54 58 589 593 RPS3
+$ T12 Protein S5 25 32 560 567 IKKbeta
+$ T13 Protein S5 54 58 589 593 RPS3
+@ T50 Negative_regulation S5 12 21 547 556 knockdown
+@ T51 Negative_regulation S5 33 43 568 578 attenuated
+@ T52 Entity S5 59 66 594 601 nuclear
+@ T53 Localization S5 67 79 602 614 accumulation
+@ T54 Positive_regulation S5 80 89 615 624 following
+% E17 Negative_regulation:T50 Theme:T12
+% E18 Negative_regulation:T51 Theme:E19 Cause:E17
+% E20 Localization:T53 Theme:T13 ToLoc:T52
+% E19 Positive_regulation:T54 Theme:E20
+
+Immunoblotting of nuclear fractions confirmed that full expression of IKKbeta, but not IKKalpha, was necessary for activation-induced RPS3 nuclear translocation (Fig. 2b).
+# T14 Protein S6 70 77 718 725 IKKbeta
+# T15 Protein S6 87 95 735 743 IKKalpha
+# T16 Protein S6 134 138 782 786 RPS3
+$ T14 Protein S6 70 77 718 725 IKKbeta
+$ T15 Protein S6 87 95 735 743 IKKalpha
+$ T16 Protein S6 134 138 782 786 RPS3
+@ T55 Gene_expression S6 56 66 704 714 expression
+@ T56 Positive_regulation S6 101 110 749 758 necessary
+@ T57 Positive_regulation S6 126 133 774 781 induced
+@ T58 Entity S6 139 146 787 794 nuclear
+@ T59 Localization S6 147 160 795 808 translocation
+% E21 Gene_expression:T55 Theme:T14
+% E22 Gene_expression:T55 Theme:T15
+% E23 Positive_regulation:T56 Theme:E24 Cause:E21
+% E25 Positive_regulation:T56 Theme:E24 Cause:E22
+% E24 Positive_regulation:T57 Theme:E26
+% E26 Localization:T59 Theme:T16 ToLoc:T58
+
+Control immunoblots revealed that p65 nuclear translocation was blocked under the same conditions (Fig. 2b).
+# T17 Protein S7 34 37 854 857 p65
+$ T17 Protein S7 34 37 854 857 p65
+@ T60 Entity S7 38 45 858 865 nuclear
+@ T61 Localization S7 46 59 866 879 translocation
+@ T62 Negative_regulation S7 64 71 884 891 blocked
+% E27 Localization:T61 Theme:T17 ToLoc:T60
+% E28 Negative_regulation:T62 Theme:E27
+
+We next examined the nuclear translocation of RPS3 in cells ectopically expressing either kinase-dead (SSAA) or constitutively-active (SSEE) mutant IKKbeta proteins.
+# T18 Protein S8 46 50 975 979 RPS3
+# T19 Protein S8 148 155 1077 1084 IKKbeta
+$ T18 Protein S8 46 50 975 979 RPS3
+$ T19 Protein S8 148 155 1077 1084 IKKbeta
+@ T63 Entity S8 21 28 950 957 nuclear
+@ T64 Localization S8 29 42 958 971 translocation
+@ T65 Gene_expression S8 72 82 1001 1011 expressing
+@ T66 Negative_regulation S8 90 101 1019 1030 kinase-dead
+@ T67 Positive_regulation S8 112 133 1041 1062 constitutively-active
+% E29 Localization:T64 Theme:T18 ToLoc:T63
+% E30 Gene_expression:T65 Theme:T19
+% E31 Negative_regulation:T66 Theme:T19
+% E32 Positive_regulation:T67 Theme:T19
+
+As expected, the SSEE, but not SSAA, mutant of IKKbeta induced NF-kappaB-dependent luciferase reporter activity (Fig. 2c, left).
+# T20 Protein S9 47 54 1142 1149 IKKbeta
+# T21 Protein S9 83 93 1178 1188 luciferase
+$ T20 Protein S9 47 54 1142 1149 IKKbeta
+$ T21 Protein S9 83 93 1178 1188 luciferase
+@ T68 Positive_regulation S9 17 21 1112 1116 SSEE
+@ T69 Negative_regulation S9 31 35 1126 1130 SSAA
+@ T70 Positive_regulation S9 55 62 1150 1157 induced
+@ T71 Regulation S9 73 82 1168 1177 dependent
+% E33 Positive_regulation:T68 Theme:T20
+% E34 Negative_regulation:T69 Theme:T20
+% E35 Positive_regulation:T70 Theme:E36 Cause:E33
+% E37 Positive_regulation:T70 Theme:E36 Cause:E34
+% E36 Regulation:T71 Theme:T21
+
+Whereas RPS3 remained cytosolic in IKKbeta (SSAA)-expressing cells (Fig. 2c, right), a substantial proportion of RPS3 translocated to the nucleus in cells expressing IKKbeta (SSEE) (Fig. 2c, right).
+# T22 Protein S10 8 12 1232 1236 RPS3
+# T23 Protein S10 35 42 1259 1266 IKKbeta
+# T24 Protein S10 113 117 1337 1341 RPS3
+# T25 Protein S10 166 173 1390 1397 IKKbeta
+$ T22 Protein S10 8 12 1232 1236 RPS3
+$ T23 Protein S10 35 42 1259 1266 IKKbeta
+$ T24 Protein S10 113 117 1337 1341 RPS3
+$ T25 Protein S10 166 173 1390 1397 IKKbeta
+@ T72 Localization S10 13 21 1237 1245 remained
+@ T73 Entity S10 22 31 1246 1255 cytosolic
+@ T74 Positive_regulation S10 32 34 1256 1258 in
+@ T75 Negative_regulation S10 44 48 1268 1272 SSAA
+@ T76 Localization S10 118 130 1342 1354 translocated
+@ T77 Entity S10 138 145 1362 1369 nucleus
+@ T78 Positive_regulation S10 146 148 1370 1372 in
+@ T79 Positive_regulation S10 175 179 1399 1403 SSEE
+% E38 Localization:T72 Theme:T22 ToLoc:T73
+% E39 Positive_regulation:T74 Theme:E38 Cause:E40
+% E40 Negative_regulation:T75 Theme:T23
+% E41 Localization:T76 Theme:T24 ToLoc:T77
+% E42 Positive_regulation:T78 Theme:E41 Cause:E43
+% E43 Positive_regulation:T79 Theme:T25
+
+The percentage of cells containing detectable nuclear RPS3 increased 5-fold in IKKbeta (SSEE)-expressing cells, but not in IKKbeta (SSAA)-expressing ones (Fig. 2d and Supplementary Fig. 2).
+# T26 Protein S11 54 58 1477 1481 RPS3
+# T27 Protein S11 79 86 1502 1509 IKKbeta
+# T28 Protein S11 123 130 1546 1553 IKKbeta
+$ T26 Protein S11 54 58 1477 1481 RPS3
+$ T27 Protein S11 79 86 1502 1509 IKKbeta
+$ T28 Protein S11 123 130 1546 1553 IKKbeta
+@ T80 Localization S11 35 45 1458 1468 detectable
+@ T81 Entity S11 46 53 1469 1476 nuclear
+@ T82 Positive_regulation S11 59 68 1482 1491 increased
+@ T83 Positive_regulation S11 88 92 1511 1515 SSEE
+@ T84 Negative_regulation S11 132 136 1555 1559 SSAA
+% E44 Localization:T80 Theme:T26 ToLoc:T81
+% E45 Positive_regulation:T82 Theme:E44 Cause:E46
+% E47 Positive_regulation:T82 Theme:E44 Cause:E48
+% E46 Positive_regulation:T83 Theme:T27
+% E48 Negative_regulation:T84 Theme:T28
+
+Thus, IKKbeta activity is necessary and sufficient for RPS3 nuclear translocation in response to NF-kappaB activating stimuli.
+# T29 Protein S12 6 13 1619 1626 IKKbeta
+# T30 Protein S12 55 59 1668 1672 RPS3
+$ T29 Protein S12 6 13 1619 1626 IKKbeta
+$ T30 Protein S12 55 59 1668 1672 RPS3
+@ T85 Positive_regulation S12 26 35 1639 1648 necessary
+@ T86 Entity S12 60 67 1673 1680 nuclear
+@ T87 Localization S12 68 81 1681 1694 translocation
+@ T88 Positive_regulation S12 82 96 1695 1709 in response to
+% E49 Positive_regulation:T85 Theme:E50 Cause:T29
+% E51 Localization:T87 Theme:T30 ToLoc:T86
+% E50 Positive_regulation:T88 Theme:E51
+

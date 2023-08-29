@@ -1,0 +1,65 @@
+A CD28-associated signaling pathway leading to cytokine gene transcription and T cell proliferation without TCR engagement.
+# T1 Protein S1 2 6 2 6 CD28
+
+Stimulation of resting human T cells with the CD28-specific mAb BW 828 induces proliferation and cytokine synthesis without further requirement for TCR coengagement.
+# T2 Protein S2 46 50 171 175 CD28
+
+This observation prompted us to postulate that signal 2 (costimulatory signal) alone without signal 1 (TCR signal) can activate T cells.
+
+To test whether this putative function of CD28 is mediated via a particular signaling pathway, we compared early signaling events initiated in resting T cells by the stimulatory mAb BW 828 with signals triggered by the nonstimulating CD28 mAb 9.3.
+# T3 Protein S4 42 46 470 474 CD28
+# T4 Protein S4 234 238 662 666 CD28
+$ T3 Protein S4 42 46 470 474 CD28
+@ T18 Positive_regulation S4 50 58 478 486 mediated
+% E1 Positive_regulation:T18 Theme:T3
+
+Stimulation of T cells with BW 828 induced an increase in intracellular Ca2+, but did not lead to detectable activation of the protein kinases p56(lck) and c-Raf-1.
+# T5 Protein S5 143 151 819 827 p56(lck)
+# T6 Protein S5 156 163 832 839 c-Raf-1
+$ T5 Protein S5 143 151 819 827 p56(lck)
+$ T6 Protein S5 156 163 832 839 c-Raf-1
+@ T19 Positive_regulation S5 86 119 762 795 not lead to detectable activation
+% E2 Positive_regulation:T19 Theme:T5
+% E3 Positive_regulation:T19 Theme:T6
+
+This pathway resulted in the induction of the transcription factors NF-kappa B, NF-AT, and proteins binding to the CD28 response element of the IL-2 promoter.
+# T7 Protein S6 115 119 956 960 CD28
+# T8 Protein S6 144 148 985 989 IL-2
+
+On the other hand, stimulation of T cells with mAb 9.3 increased the level of intracellular Ca2+ and triggered the activation of p56(lck) and c-Raf-1, but was unable to induce the binding of transcription factors to the IL-2 promoter.
+# T9 Protein S7 129 137 1129 1137 p56(lck)
+# T10 Protein S7 142 149 1142 1149 c-Raf-1
+# T11 Protein S7 220 224 1220 1224 IL-2
+$ T9 Protein S7 129 137 1129 1137 p56(lck)
+$ T10 Protein S7 142 149 1142 1149 c-Raf-1
+$ T11 Protein S7 220 224 1220 1224 IL-2
+@ T20 Positive_regulation S7 101 125 1101 1125 triggered the activation
+@ T21 Positive_regulation S7 159 175 1159 1175 unable to induce
+@ T22 Binding S7 180 187 1180 1187 binding
+@ T23 Entity S7 225 233 1225 1233 promoter
+% E4 Positive_regulation:T20 Theme:T9
+% E5 Positive_regulation:T20 Theme:T10
+% E6 Positive_regulation:T21 Theme:E7
+% E7 Binding:T22 Theme:T11 Site:T23
+
+In contrast to the differential signaling of BW 828 and 9.3 in resting T cells, the two mAbs exhibited a similar pattern of early signaling events in activated T cells and Jurkat cells (p56(lck) activation, association of phosphatidylinositol 3-kinase with CD28), indicating that the signaling capacity of CD28 changes with activation.
+# T12 Protein S8 45 51 1280 1286 BW 828
+# T13 Protein S8 56 59 1291 1294 9.3
+# T14 Protein S8 186 194 1421 1429 p56(lck)
+# T15 Protein S8 257 261 1492 1496 CD28
+# T16 Protein S8 306 310 1541 1545 CD28
+$ T12 Protein S8 45 51 1280 1286 BW 828
+$ T13 Protein S8 56 59 1291 1294 9.3
+$ T14 Protein S8 186 194 1421 1429 p56(lck)
+@ T24 Positive_regulation S8 93 102 1328 1337 exhibited
+@ T25 Positive_regulation S8 195 205 1430 1440 activation
+% E8 Positive_regulation:T24 Theme:E10 Cause:T12
+% E9 Positive_regulation:T24 Theme:E10 Cause:T13
+% E10 Positive_regulation:T25 Theme:T14
+
+These data support the view that stimulation through CD28 can induce some effector functions in T cells and suggest that this capacity is associated with a particular pattern of early signaling events.
+# T17 Protein S9 53 57 1624 1628 CD28
+$ T17 Protein S9 53 57 1624 1628 CD28
+@ T26 Positive_regulation S9 33 44 1604 1615 stimulation
+% E11 Positive_regulation:T26 Theme:T17
+

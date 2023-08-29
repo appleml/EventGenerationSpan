@@ -1,0 +1,30 @@
+Differential recruitment of C/EBP-beta and C/EBP-betaT217 to the murine SerpinB2 promoter in vivo.
+# T1 Protein S1 28 38 28 38 C/EBP-beta
+# T2 Protein S1 72 80 72 80 SerpinB2
+
+Transcription factor occupancy on the SerpinB2 proximal promoter in vivo was determined by chromatin immunoprecipitation (ChIP) assay.
+# T3 Protein S2 38 46 137 145 SerpinB2
+
+RAW264.7 macrophages were treated in the presence or absence of LPS for the indicated times and chromatin immunoprecipitation performed using antibodies against C/EBP-beta or p-C/EBP-beta (T217).
+# T4 Protein S3 161 171 395 405 C/EBP-beta
+# T5 Protein S3 175 194 409 428 p-C/EBP-beta (T217)
+
+Soluble chromatin (600-700 ng) was immunoprecipitated with antibodies against C/EBP-beta, p-C/EBP-beta (T217), RNA Polymerase II (RNAPII), or a rabbit IgG (rIgG) control.
+# T6 Protein S4 78 88 508 518 C/EBP-beta
+# T7 Protein S4 90 109 520 539 p-C/EBP-beta (T217)
+
+(A) Typical PCR pattern obtained in ChIP assays using murine SerpinB2 proximal promoter-specific primers, 338/-315 and -5/+19, as diagrammed in top.
+# T8 Protein S5 61 69 662 670 SerpinB2
+
+Recruitment of RNAPII to the SerpinB2 promoter suggests active transcription following LPS stimulation.
+# T9 Protein S6 29 37 779 787 SerpinB2
+
+Minimal background was detected using the rabbit IgG control, indicative of the specificity of the ChIP reaction.
+
+(B) qPCR analysis of chromatin immunoprecipitated with antibodies against C/EBP-beta, p-C/EBP-beta (T217), and the rIgG control.
+# T10 Protein S8 74 84 1042 1052 C/EBP-beta
+# T11 Protein S8 86 105 1054 1073 p-C/EBP-beta (T217)
+
+The data are represented relative to rIgG signal using the 2-deltadeltaCt method.
+# T12 Protein S9 37 41 1134 1138 rIgG
+

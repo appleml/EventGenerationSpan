@@ -1,0 +1,29 @@
+Nuclear NF-ATp is a hallmark of unstimulated B cells from B-CLL patients.
+# T1 Protein S1 8 14 8 14 NF-ATp
+
+B lymphocytes from the peripheral blood of patients with chronic lymphocytic leukaemia (CLL) were analysed for the nuclear presence and DNA binding of a panel of transcription factors which are involved in the gene control of lymphoid cells.
+
+The following transcription factors were studied: the Octamer factors Oct-1 and Oct-2, members of the AP-1 factor family, NF-AT factors, in particular NF-ATp, and members of the Rel/NF-kB family.
+# T2 Protein S3 70 75 387 392 Oct-1
+# T3 Protein S3 80 85 397 402 Oct-2
+# T4 Protein S3 151 157 468 474 NF-ATp
+
+We show that the constitutive nuclear translocation of NF-ATp, a member of the growing family of NF-AT factors, is a hallmark of nonstimulated B cells from CLL patients that distinguishes B-CLL cells from 'normal' B lymphocytes.
+# T5 Protein S4 55 61 568 574 NF-ATp
+
+Constitutive nuclear appearance was also observed for NF-kB2/p52.
+# T6 Protein S5 61 64 803 806 p52
+
+Constitutive binding of further factor proteins to DNA, such as JunD, c-Fos and FosB, was detected in several patients whereas the localisation and DNA binding of other factors such as c-Jun, RelA/p65 and c-Rel was unaltered.
+# T7 Protein S6 64 68 872 876 JunD
+# T8 Protein S6 70 75 878 883 c-Fos
+# T9 Protein S6 80 84 888 892 FosB
+# T10 Protein S6 185 190 993 998 c-Jun
+# T11 Protein S6 192 196 1000 1004 RelA
+# T12 Protein S6 197 200 1005 1008 p65
+# T13 Protein S6 205 210 1013 1018 c-Rel
+
+It is remarkable that in B-CLL cells the nuclear appearance and DNA binding of specific transcription factors is dramatically affected whereas other members of the same factor family remained unaltered in these leukemic cells.
+
+It remains to be shown which molecular events lead to the specific 'pre-activation', i.e. constitutive nuclear translocation and DNA binding, of these members of NF-AT, NF-kB and AP-1 factor families.
+

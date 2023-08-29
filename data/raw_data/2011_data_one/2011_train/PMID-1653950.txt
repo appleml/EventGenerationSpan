@@ -1,0 +1,57 @@
+USF-related transcription factor, HIV-TF1, stimulates transcription of human immunodeficiency virus-1.
+# T1 Protein S1 0 3 0 3 USF
+# T2 Protein S1 34 41 34 41 HIV-TF1
+
+The transcription factor HIV-TF1, which binds to a region about 60 bp upstream from the enhancer of the human immunodeficiency virus-1 (HIV-1), was purified from human B cells.
+# T3 Protein S2 25 32 129 136 HIV-TF1
+$ T3 Protein S2 25 32 129 136 HIV-TF1
+@ T16 Binding S2 40 45 144 149 binds
+% E1 Binding:T16 Theme:T3
+
+HIV-TF1 had a molecular weight of 39,000.
+# T4 Protein S3 0 7 281 288 HIV-TF1
+
+Binding of HIV-TF1 to the HIV long terminal repeat (LTR) activated transcription from the HIV promoter in vitro.
+# T5 Protein S4 11 18 334 341 HIV-TF1
+$ T5 Protein S4 11 18 334 341 HIV-TF1
+@ T17 Binding S4 0 7 323 330 Binding
+% E2 Binding:T17 Theme:T5
+
+The HIV-TF1-binding site in HIV LTR was similar to the site recognized by upstream stimulatory factor (USF) in the adenovirus major late promoter.
+# T6 Protein S5 4 11 440 447 HIV-TF1
+# T7 Protein S5 74 101 510 537 upstream stimulatory factor
+# T8 Protein S5 103 106 539 542 USF
+$ T8 Protein S5 103 106 539 542 USF
+@ T18 Binding S5 60 70 496 506 recognized
+% E3 Binding:T18 Theme:T8
+
+DNA-binding properties of HIV-TF1 suggested that HIV-TF1 might be identical or related to USF.
+# T9 Protein S6 26 33 609 616 HIV-TF1
+# T10 Protein S6 49 56 632 639 HIV-TF1
+# T11 Protein S6 90 93 673 676 USF
+$ T9 Protein S6 26 33 609 616 HIV-TF1
+@ T19 Binding S6 4 11 587 594 binding
+% E4 Binding:T19 Theme:T9
+
+Interestingly, treatment of purified HIV-TF1 by phosphatase greatly reduced its DNA-binding activity, suggesting that phosphorylation of HIV-TF1 was essential for DNA binding.
+# T12 Protein S7 37 44 715 722 HIV-TF1
+# T13 Protein S7 137 144 815 822 HIV-TF1
+$ T12 Protein S7 37 44 715 722 HIV-TF1
+$ T13 Protein S7 137 144 815 822 HIV-TF1
+@ T20 Negative_regulation S7 68 75 746 753 reduced
+@ T21 Binding S7 84 91 762 769 binding
+@ T22 Phosphorylation S7 118 133 796 811 phosphorylation
+@ T23 Positive_regulation S7 149 158 827 836 essential
+@ T24 Binding S7 167 174 845 852 binding
+% E5 Negative_regulation:T20 Theme:E6
+% E6 Binding:T21 Theme:T12
+% E7 Phosphorylation:T22 Theme:T13
+% E8 Positive_regulation:T23 Theme:E9 Cause:E7
+% E9 Binding:T24 Theme:T13
+
+The disruption of HIV-TF1-binding site induced a 60% decrease in the level of transcription from the HIV promoter in vivo.
+# T14 Protein S8 18 25 872 879 HIV-TF1
+
+These results suggest that HIV-TF1 is involved in transcriptional regulation of HIV-1.
+# T15 Protein S9 27 34 1004 1011 HIV-TF1
+

@@ -1,0 +1,79 @@
+1,25-Dihydroxyvitamin D3 induces differentiation of a retinoic acid-resistant acute promyelocytic leukemia cell line (UF-1) associated with expression of p21(WAF1/CIP1) and p27(KIP1).
+# T1 Protein S1 154 157 154 157 p21
+# T2 Protein S1 158 162 158 162 WAF1
+# T3 Protein S1 163 167 163 167 CIP1
+# T4 Protein S1 173 176 173 176 p27
+# T5 Protein S1 177 181 177 181 KIP1
+
+Retinoic acid (RA) resistance is a serious problem for patients with acute promyelocytic leukemia (APL) who are receiving all-trans RA.
+
+However, the mechanisms and strategies to overcome RA resistance by APL cells are still unclear.
+
+The biologic effects of RA are mediated by two distinct families of transcriptional factors: RA receptors (RARs) and retinoid X receptors (RXRs).
+
+RXRs heterodimerize with 1, 25-dihydroxyvitamin D3 [1,25(OH)2D3] receptor (VDR), enabling their efficient transcriptional activation.
+# T6 Protein S5 25 73 589 637 1, 25-dihydroxyvitamin D3 [1,25(OH)2D3] receptor
+# T7 Protein S5 75 78 639 642 VDR
+
+The cyclin-dependent kinase (cdk) inhibitor p21(WAF1/CIP1) has a vitamin D3-responsive element (VDRE) in its promoter, and 1,25(OH)2D3 enhances the expression of p21(WAF1/CIP1) and induces differentiation of selected myeloid leukemic cell lines.
+# T8 Protein S6 44 47 742 745 p21
+# T9 Protein S6 48 52 746 750 WAF1
+# T10 Protein S6 53 57 751 755 CIP1
+# T11 Protein S6 162 165 860 863 p21
+# T12 Protein S6 166 170 864 868 WAF1
+# T13 Protein S6 171 175 869 873 CIP1
+
+We have recently established a novel APL cell line (UF-1) with features of RA resistance.
+
+1,25(OH)2D3 can induce growth inhibition and G1 arrest of UF-1 cells, resulting in differentiation of these cells toward granulocytes.
+
+This 1, 25(OH)2D3-induced G1 arrest is enhanced by all-trans RA.
+
+Also, 1, 25(OH)2D3 (10(-10) to 10(-7) mol/L) in combination with RA markedly inhibits cellular proliferation in a dose- and time-dependent manner.
+
+Associated with these findings, the levels of p21(WAF1/CIP1) and p27(KIP1) mRNA and protein increased in these cells.
+# T14 Protein S11 46 49 1427 1430 p21
+# T15 Protein S11 50 54 1431 1435 WAF1
+# T16 Protein S11 55 59 1436 1440 CIP1
+# T17 Protein S11 65 68 1446 1449 p27
+# T18 Protein S11 69 73 1450 1454 KIP1
+
+Northern blot analysis showed that p21(WAF1/CIP1) and p27(KIP1) mRNA and protein increased in these cells.
+# T19 Protein S12 35 38 1534 1537 p21
+# T20 Protein S12 39 43 1538 1542 WAF1
+# T21 Protein S12 44 48 1543 1547 CIP1
+# T22 Protein S12 54 57 1553 1556 p27
+# T23 Protein S12 58 62 1557 1561 KIP1
+
+Northern blot analysis showed that p21(WAF1/CIP1) and p27(KIP1) transcripts were induced after 6 hours' exposure to 1,25(OH)2D3 and then decreased to basal levels over 48 hours.
+# T24 Protein S13 35 38 1641 1644 p21
+# T25 Protein S13 39 43 1645 1649 WAF1
+# T26 Protein S13 44 48 1650 1654 CIP1
+# T27 Protein S13 54 57 1660 1663 p27
+# T28 Protein S13 58 62 1664 1668 KIP1
+
+Western blot experiments showed that p21(WAF1/CIP1) protein levels increased and became detectable after 12 hours of 1,25(OH)2D3 treatment and induction of p27(KIP1) protein was much more gradual and sustained in UF-1 cells.
+# T29 Protein S14 37 40 1821 1824 p21
+# T30 Protein S14 41 45 1825 1829 WAF1
+# T31 Protein S14 46 50 1830 1834 CIP1
+# T32 Protein S14 156 159 1940 1943 p27
+# T33 Protein S14 160 164 1944 1948 KIP1
+
+Interestingly, the combination of 1, 25(OH)2D3 and RA markedly enhanced the levels of p27(KIP1) transcript and protein as compared with levels induced by 1, 25(OH)2D3 alone.
+# T34 Protein S15 86 89 2095 2098 p27
+# T35 Protein S15 90 94 2099 2103 KIP1
+
+In addition, exogenous p27(KIP1) expression can enhance the level of CD11b antigen in myeloid leukemic cells.
+# T36 Protein S16 23 26 2206 2209 p27
+# T37 Protein S16 27 31 2210 2214 KIP1
+# T38 Protein S16 69 74 2252 2257 CD11b
+
+In contrast, RA alone can induce G1 arrest of UF-1 cells; however, it did not result in an increase of p21(WAF1/CIP1) and p27(KIP1) transcript and protein expression in RA-resistant cells.
+# T39 Protein S17 103 106 2396 2399 p21
+# T40 Protein S17 107 111 2400 2404 WAF1
+# T41 Protein S17 112 116 2405 2409 CIP1
+# T42 Protein S17 122 125 2415 2418 p27
+# T43 Protein S17 126 130 2419 2423 KIP1
+
+Taken together, we conclude that 1,25(OH)2D3 induces increased expression of cdk inhibitors, which mediates a G1 arrest, and this may be associated with differentiation of RA-resistant UF-1 cells toward mature granulocytes.
+

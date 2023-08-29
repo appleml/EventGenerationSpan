@@ -1,0 +1,53 @@
+Tissue-specific regulation of the ecto-5'-nucleotidase promoter.
+# T1 Protein S1 34 54 34 54 ecto-5'-nucleotidase
+$ T1 Protein S1 34 54 34 54 ecto-5'-nucleotidase
+@ T18 Regulation S1 16 26 16 26 regulation
+@ T19 Entity S1 55 63 55 63 promoter
+% E1 Regulation:T18 Theme:T1 Site:T19
+
+Role of the camp response element site in mediating repression by the upstream regulatory region.
+@ T20 Regulation S2 0 4 65 69 Role
+@ T21 Positive_regulation S2 42 51 107 116 mediating
+@ T22 Negative_regulation S2 52 62 117 127 repression
+% E2 Regulation:T20 Theme:E3
+% E3 Positive_regulation:T21 Theme:E4
+% E4 Negative_regulation:T22 Theme:T1 Site:T19
+
+We have isolated the 5' region of the ecto-5'-nucleotidase (low K(m) 5'-NT) gene and established that a 969-base pair (bp) fragment confers cell-specific expression of a CAT reporter gene that correlates with the expression of endogenous ecto-5'-NT mRNA and enzymatic activity.
+# T2 Protein S3 38 58 202 222 ecto-5'-nucleotidase
+# T3 Protein S3 69 74 233 238 5'-NT
+# T4 Protein S3 170 173 334 337 CAT
+# T5 Protein S3 238 248 402 412 ecto-5'-NT
+$ T5 Protein S3 238 248 402 412 ecto-5'-NT
+@ T23 Transcription S3 213 223 377 387 expression
+% E5 Transcription:T23 Theme:T5
+
+A 768-bp upstream negative regulatory region has been identified that conferred lymphocyte-specific negative regulation in a heterologous system with a 244-bp deoxycytidine kinase core promoter.
+
+DNase I footprinting identified several protected areas including Sp1, Sp1/AP-2, and cAMP response element (CRE) binding sites within the 201-bp core promoter region and Sp1, NRE-2a, TCF-1/LEF-1, and Sp1/NF-AT binding sites in the upstream regulatory region.
+# T6 Protein S5 0 7 637 644 DNase I
+# T7 Protein S5 66 69 703 706 Sp1
+# T8 Protein S5 71 74 708 711 Sp1
+# T9 Protein S5 170 173 807 810 Sp1
+# T10 Protein S5 175 181 812 818 NRE-2a
+# T11 Protein S5 183 188 820 825 TCF-1
+# T12 Protein S5 189 194 826 831 LEF-1
+# T13 Protein S5 200 203 837 840 Sp1
+
+Whereas the CRE site was essential in mediating the negative activity of the upstream regulatory region in Jurkat but not in HeLa cells, mutation of the Sp1/AP-2 site decreased promoter activity in both cell lines.
+# T14 Protein S6 153 156 1049 1052 Sp1
+
+Electrophoretic mobility shift assay analysis of proteins binding to the CRE site identified both ATF-1 and ATF-2 in Jurkat cells.
+# T15 Protein S7 98 103 1209 1214 ATF-1
+# T16 Protein S7 108 113 1219 1224 ATF-2
+$ T15 Protein S7 98 103 1209 1214 ATF-1
+$ T16 Protein S7 108 113 1219 1224 ATF-2
+@ T24 Binding S7 58 65 1169 1176 binding
+% E6 Binding:T24 Theme:T15
+% E7 Binding:T24 Theme:T16
+
+Finally, phorbol 12-myristate 13-acetate increased the activity of both the core and the 969-bp promoter fragments, and this increase was abrogated by mutations at the CRE site.
+
+In summary, we have identified a tissue-specific regulatory region 5' of the ecto-5'-NT core promoter that requires the presence of a functional CRE site within the basal promoter for its suppressive activity.
+# T17 Protein S9 77 87 1497 1507 ecto-5'-NT
+

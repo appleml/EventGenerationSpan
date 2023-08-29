@@ -1,0 +1,67 @@
+Calcium/calmodulin-dependent protein kinase II downregulates both calcineurin and protein kinase C-mediated pathways for cytokine gene transcription in human T cells.
+
+Engagement of the T cell receptor for antigen activates phospholipase C resulting in an increase in intracellular free calcium concentration ([Ca2+]i) and activation of protein kinase C (PKC).
+
+Increased [Ca2+]i activates Ca2+/calmodulin-dependent kinases including the multifunctional Ca2+/calmodulin-dependent protein kinase II (CaM-K II), as well as calcineurin, a type 2B protein phosphatase.
+# T1 Protein S3 33 43 394 404 calmodulin
+
+Recent studies have identified calcineurin as a key enzyme for interleukin (IL)-2 and IL-4 promoter activation.
+# T2 Protein S4 63 81 627 645 interleukin (IL)-2
+# T3 Protein S4 86 90 650 654 IL-4
+$ T3 Protein S4 86 90 650 654 IL-4
+$ T2 Protein S4 63 81 627 645 interleukin (IL)-2
+@ T11 Positive_regulation S4 48 58 612 622 key enzyme
+@ T12 Entity S4 91 99 655 663 promoter
+@ T13 Positive_regulation S4 100 110 664 674 activation
+% E1 Positive_regulation:T11 Theme:E3
+% E2 Positive_regulation:T11 Theme:E4
+% E3 Positive_regulation:T13 Theme:T3 Site:T12
+% E4 Positive_regulation:T13 Theme:T2 Site:T12
+
+However, the role of CaM-K II remains unknown.
+
+We have used mutants of these kinases and phosphatases (gamma B*CaM-K and delta CaM-AI, respectively) to explore their relative role in cytokine gene transcription and their interactions with PKC-dependent signaling systems.
+
+gamma B*CaM-K and delta CaM-AI, known to exhibit constitutive Ca(2+)-independent activity, were cotransfected (alone or in combination) in Jurkat T cells with a plasmid containing the intact IL-2 promoter driving the expression of the chloramphenicol acetyltransferase reporter gene.
+# T4 Protein S7 191 195 1139 1143 IL-2
+# T5 Protein S7 235 268 1183 1216 chloramphenicol acetyltransferase
+
+Cotransfection of gamma B*CaM-K with the IL-2 promoter construct downregulated its transcription in response to stimulation with ionomycin and phorbol myristate acetate (PMA).
+# T6 Protein S8 41 45 1273 1277 IL-2
+
+The inhibitory effect of CaM-K II on IL-2 promoter was associated with decreased transcription of its AP-1 and NF-AT transactivating pathways.
+# T7 Protein S9 37 41 1445 1449 IL-2
+$ T7 Protein S9 37 41 1445 1449 IL-2
+@ T14 Negative_regulation S9 4 21 1412 1429 inhibitory effect
+@ T15 Entity S9 42 50 1450 1458 promoter
+@ T16 Negative_regulation S9 71 80 1479 1488 decreased
+@ T17 Transcription S9 81 94 1489 1502 transcription
+@ T18 Positive_regulation S9 117 141 1525 1549 transactivating pathways
+% E5 Negative_regulation:T14 Theme:T7 Site:T15
+% E6 Negative_regulation:T16 Theme:E8
+% E7 Transcription:T17 Theme:T7
+% E8 Positive_regulation:T18 Theme:E7
+
+Under the same conditions, delta CaM-AI superinduced IL-2 promoter activity (approximately twofold increase).
+# T8 Protein S10 53 57 1604 1608 IL-2
+$ T8 Protein S10 53 57 1604 1608 IL-2
+@ T19 Positive_regulation S10 40 52 1591 1603 superinduced
+@ T20 Entity S10 58 66 1609 1617 promoter
+% E9 Positive_regulation:T19 Theme:T8 Site:T20
+
+When both mutants were used in combination, gamma B*CaM-K inhibited the induction of the IL-2 promoter by delta CaM-AI.
+# T9 Protein S11 89 93 1750 1754 IL-2
+$ T9 Protein S11 89 93 1750 1754 IL-2
+@ T21 Negative_regulation S11 58 67 1719 1728 inhibited
+@ T22 Positive_regulation S11 72 81 1733 1742 induction
+@ T23 Entity S11 94 102 1755 1763 promoter
+% E10 Negative_regulation:T21 Theme:E11
+% E11 Positive_regulation:T22 Theme:T9 Site:T23
+
+Similar results were obtained when a construct containing the IL-4 promoter also was used.
+# T10 Protein S12 62 66 1843 1847 IL-4
+
+gamma B*CaM-K also downregulated the activation of AP-1 in response to transfection with a constitutively active mutant of PKC or stimulation with PMA.
+
+These results suggest that CaM-K II may exert negative influences on cytokine gene transcription in human T cells, and provide preliminary evidence for negative cross-talk with the calcineurin- and PKC- dependent signaling systems.
+

@@ -1,0 +1,26 @@
+Expression of the chemokine receptor BLR2/EBI1 is specifically transactivated by Epstein-Barr virus nuclear antigen 2.
+# T1 Protein S1 37 41 37 41 BLR2
+# T2 Protein S1 42 46 42 46 EBI1
+# T3 Protein S1 81 117 81 117 Epstein-Barr virus nuclear antigen 2
+
+In our attempt to identify chemokine receptors that are related to Burkitt's lymphoma receptor 1 (BLR1) and are expressed in activated lymphocytes we used RT-PCR resulting in the isolation of a cDNA encoding a seven transmembrane receptor termed BLR2.
+# T4 Protein S2 67 96 187 216 Burkitt's lymphoma receptor 1
+# T5 Protein S2 98 102 218 222 BLR1
+# T6 Protein S2 246 250 366 370 BLR2
+
+The protein shows significant sequence similarities to the family of G-protein coupled chemokine receptors and turned out to be identical to the recently described receptor EBI1.
+# T7 Protein S3 173 177 545 549 EBI1
+
+Northern blot analysis revealed that BLR2 mRNA could be highly stimulated in mitogen- and anti-CD3-treated peripheral blood lymphocytes.
+# T8 Protein S4 37 41 588 592 BLR2
+
+BLR2-specific mRNA could be detected in all Epstein-Barr virus positive B cell lines.
+# T9 Protein S5 0 4 688 692 BLR2
+
+We show that transcription of the BLR2 gene could be specifically induced in Epstein-Barr virus negative BL 41 cells via estrogen-mediated activation of Epstein-Barr virus nuclear antigen 2, a key regulator of viral and cellular genes in immortalized B cells.
+# T10 Protein S6 34 38 808 812 BLR2
+# T11 Protein S6 153 189 927 963 Epstein-Barr virus nuclear antigen 2
+
+Our data suggest an involvement of BLR2 in the regulation of migration in activated lymphocytes and in viral pathogenesis.
+# T12 Protein S7 35 39 1069 1073 BLR2
+

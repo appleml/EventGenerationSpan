@@ -1,0 +1,20 @@
+Phosphorylation of the transcription factor NFATp inhibits its DNA binding activity in cyclosporin A-treated human B and T cells.
+# T1 Protein S1 44 49 44 49 NFATp
+
+Cyclosporin A (CsA) exerts its immunosuppressive effect by inhibiting the activity of nuclear factor of activated T cells (NFAT), thus preventing transcriptional induction of several cytokine genes.
+
+This effect is thought to be largely mediated through inactivation of the phosphatase calcineurin, which in turn inhibits translocation of an NFAT component to the nucleus.
+
+Here we report that CsA treatment of Raji B and Jurkat T cell lines yields a phosphorylated form of NFATp that is inhibited in DNA-binding and in its ability to form an NFAT complex with Fos and Jun.
+# T2 Protein S4 100 105 603 608 NFATp
+
+Immunoblot analyses and metabolic labeling with [32P]orthophosphate show that CsA alters NFATp migration on SDS-polyacrylamide gel electrophoresis by increasing its phosphorylation level without affecting subcellular distribution.
+# T3 Protein S5 89 94 792 797 NFATp
+
+Dephosphorylation by in vitro treatment with calcineurin or alkaline phosphatase restores NFATp DNA binding activity and its ability to reconstitute an NFAT complex with Fos and Jun proteins.
+# T4 Protein S6 60 80 994 1014 alkaline phosphatase
+# T5 Protein S6 90 95 1024 1029 NFATp
+
+These data point to a new mechanism for CsA-sensitive regulation of NFATp in which dephosphorylation is critical for DNA binding.
+# T6 Protein S7 68 73 1194 1199 NFATp
+

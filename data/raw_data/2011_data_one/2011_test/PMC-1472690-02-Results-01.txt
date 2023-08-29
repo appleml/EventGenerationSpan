@@ -1,0 +1,45 @@
+Binding activities of NFkappaB, NFIL-6 and NFAT from human PBMC to the TNFalpha, IL-6 and IFNgamma promoters following an in vitro stimulation (1 h) with LPS, TSST-1, GP, GP + LPS and GP + TSST-1
+# T1 Protein S1 32 38 32 38 NFIL-6
+# T2 Protein S1 43 47 43 47 NFAT
+# T3 Protein S1 71 79 71 79 TNFalpha
+# T4 Protein S1 81 85 81 85 IL-6
+# T5 Protein S1 90 98 90 98 IFNgamma
+# T6 Protein S1 159 165 159 165 TSST-1
+# T7 Protein S1 189 195 189 195 TSST-1
+
+GP induced band shifts, indicating binding of NFkappaB as well as of NFIL-6 to the corresponding DNA oligonucleotides (kappa consensus, kappa1, kappa2, kappa3 sites from the TNFalpha promoter; kappa consensus from the IL-8 promoter; NFIL-6consensus from the IL-6 promoter; Table 1; Fig. 1A).
+# T8 Protein S2 69 75 265 271 NFIL-6
+# T9 Protein S2 174 182 370 378 TNFalpha
+# T10 Protein S2 218 222 414 418 IL-8
+# T11 Protein S2 258 262 454 458 IL-6
+
+The extent of the band shifts induced by GP was not statistically different when compared to LPS or TSST-1 (Fig. 1B).
+# T12 Protein S3 100 106 588 594 TSST-1
+
+A supershift, conducted for an NFkappaB consensus site from the IL-8 promoter, demonstrated a GP-induced predominant binding of NFkappaB p65 and to a lesser degree of p50 (Fig. 1A).
+# T13 Protein S4 64 68 670 674 IL-8
+# T14 Protein S4 137 140 743 746 p65
+# T15 Protein S4 167 170 773 776 p50
+
+Accordingly, an immunoblot of nuclear extracts from GP-treated PBMC showed a strong binding of NFkappaB p65 and a weaker reaction of p50, whereas p52 was negative (Fig. 2).
+# T16 Protein S5 104 107 892 895 p65
+# T17 Protein S5 133 136 921 924 p50
+# T18 Protein S5 146 149 934 937 p52
+
+Simultaneous co-treatment of PBMC with GP did not change the LPS-induced NFkappaB binding to oligos from the TNFalpha promoter significantly (Fig. 1B), but substantially decreased the TSST-1-induced NFkappaB binding when compared to TSST-1 or GP (100 mug) and thus differed completely from the theoretical value of GP/TSST-1 calc. (n = 4; p < 0.05 vs. GP/TSST-1 calc. and p = 0.07 vs. TSST-1; Fig. 1B).
+# T19 Protein S6 109 117 1070 1078 TNFalpha
+# T20 Protein S6 184 190 1145 1151 TSST-1
+# T21 Protein S6 233 239 1194 1200 TSST-1
+# T22 Protein S6 318 324 1279 1285 TSST-1
+# T23 Protein S7 355 361 1316 1322 TSST-1
+# T24 Protein S8 385 391 1346 1352 TSST-1
+
+GP was also able to induce band shifts indicative of binding of particular variants of NFAT to an oligo from the IFNgamma promoter (Fig. 1A).
+# T25 Protein S9 87 91 1451 1455 NFAT
+# T26 Protein S9 113 121 1477 1485 IFNgamma
+
+An immunoblot for two NFAT subunits demonstrated a GP-induced binding of NFATc2 and to a lesser degree of NFATc1 (Fig. 2).
+# T27 Protein S10 22 26 1528 1532 NFAT
+# T28 Protein S10 73 79 1579 1585 NFATc2
+# T29 Protein S10 106 112 1612 1618 NFATc1
+

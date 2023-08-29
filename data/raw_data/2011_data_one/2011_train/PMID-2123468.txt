@@ -1,0 +1,52 @@
+Single cell assay of a transcription factor reveals a threshold in transcription activated by signals emanating from the T-cell antigen receptor.
+
+Stimulation of T lymphocytes through their antigen receptor leads to the appearance of several transcription factors, including NF-AT and NF-kappa B, which are involved in regulating genes required for immunologic activation.
+
+To investigate the activity of a single transcription factor in individual viable cells, we have applied an assay that uses the fluorescence-activated cell sorter to quantitate beta-galactosidase (beta-gal).
+# T1 Protein S3 177 195 550 568 beta-galactosidase
+# T2 Protein S3 197 205 570 578 beta-gal
+
+We have analyzed the distribution of NF-AT transcriptional activity among T cells undergoing activation by using a construct in which three tandem copies of the NF-AT-binding site directs transcription of the lacZ gene.
+# T3 Protein S4 209 213 790 794 lacZ
+$ T3 Protein S4 209 213 790 794 lacZ
+@ T8 Regulation S4 180 187 761 768 directs
+@ T9 Transcription S4 188 201 769 782 transcription
+% E1 Regulation:T8 Theme:E2
+% E2 Transcription:T9 Theme:T3
+
+Unexpectedly, stimulation of cloned stably transfected Jurkat T cells leads to a bimodal pattern of beta-gal expression in which some cells express no beta-gal and others express high levels.
+# T4 Protein S5 100 108 901 909 beta-gal
+# T5 Protein S5 151 159 952 960 beta-gal
+$ T4 Protein S5 100 108 901 909 beta-gal
+$ T5 Protein S5 151 159 952 960 beta-gal
+@ T10 Positive_regulation S5 70 75 871 876 leads
+@ T11 Gene_expression S5 109 119 910 920 expression
+@ T12 Gene_expression S5 140 147 941 948 express
+@ T13 Gene_expression S5 171 178 972 979 express
+@ T14 Positive_regulation S5 179 190 980 991 high levels
+% E3 Positive_regulation:T10 Theme:E7
+% E4 Positive_regulation:T10 Theme:E6
+% E5 Gene_expression:T11 Theme:T4
+% E6 Gene_expression:T12 Theme:T5
+% E7 Gene_expression:T13 Theme:T5
+% E8 Positive_regulation:T14 Theme:E7
+
+This expression pattern cannot be accounted for by cell-cycle position or heritable variation.
+@ T15 Regulation S6 34 43 1027 1036 accounted
+% E9 Regulation:T15 Theme:E5
+
+Further results, in which beta-gal activity is correlated with NF-AT-binding activity, indicate that the concentration of NF-AT must exceed a critical threshold before transcription initiates.
+# T6 Protein S7 26 34 1114 1122 beta-gal
+
+This threshold likely reflects the NF-AT concentration-dependent assembly of transcription complexes at the promoter.
+
+Similar constructs controlled by NF-kappa B or the entire interleukin-2 enhancer show bimodal expression patterns during induction, suggesting that thresholds set by the concentration of transcription factors may be a common property of inducible genes.
+# T7 Protein S9 58 71 1457 1470 interleukin-2
+$ T7 Protein S9 58 71 1457 1470 interleukin-2
+@ T16 Regulation S9 81 85 1480 1484 show
+@ T17 Gene_expression S9 94 104 1493 1503 expression
+@ T18 Positive_regulation S9 121 130 1520 1529 induction
+% E10 Regulation:T16 Theme:E11
+% E11 Gene_expression:T17 Theme:T7
+% E12 Positive_regulation:T18 Theme:E11
+

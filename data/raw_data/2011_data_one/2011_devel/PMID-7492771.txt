@@ -1,0 +1,99 @@
+Salicylates inhibit lipopolysaccharide-induced transcriptional activation of the tissue factor gene in human monocytic cells.
+
+Binding of plasma Factor VII/VIIa to the tissue factor (TF) receptor initiates the coagulation protease cascades.
+# T1 Protein S2 18 33 145 160 Factor VII/VIIa
+# T2 Protein S2 41 68 168 195 tissue factor (TF) receptor
+$ T1 Protein S2 18 33 145 160 Factor VII/VIIa
+$ T2 Protein S2 41 68 168 195 tissue factor (TF) receptor
+@ T17 Binding S2 0 7 127 134 Binding
+% E1 Binding:T17 Theme:T1 Theme2:T2
+
+TF expression by circulating monocytes is associated with thrombotic and inflammatory complications in a variety of diseases.
+# T3 Protein S3 0 2 241 243 TF
+$ T3 Protein S3 0 2 241 243 TF
+@ T18 Gene_expression S3 3 13 244 254 expression
+% E2 Gene_expression:T18 Theme:T3
+
+Transcriptional activation of the human TF gene in monocytic cells exposed to bacterial lipopolysaccharide (LPS) is mediated by binding of c-Rel/p65 heterodimers to a kappa B site in the TF promoter.
+# T4 Protein S4 40 42 407 409 TF
+# T5 Protein S4 139 144 506 511 c-Rel
+# T6 Protein S4 145 148 512 515 p65
+# T7 Protein S4 187 189 554 556 TF
+$ T4 Protein S4 40 42 407 409 TF
+$ T5 Protein S4 139 144 506 511 c-Rel
+$ T7 Protein S4 187 189 554 556 TF
+$ T6 Protein S4 145 148 512 515 p65
+@ T19 Positive_regulation S4 0 26 367 393 Transcriptional activation
+@ T20 Positive_regulation S4 116 124 483 491 mediated
+@ T21 Binding S4 128 135 495 502 binding
+@ T22 Entity S4 190 198 557 565 promoter
+% E3 Positive_regulation:T19 Theme:T4
+% E4 Positive_regulation:T20 Theme:E3 Cause:E6
+% E5 Positive_regulation:T20 Theme:E3 Cause:E7
+% E6 Binding:T21 Theme:T5 Theme2:T7 Site2:T22
+% E7 Binding:T21 Theme:T6 Theme2:T7 Site2:T22
+
+Here, we report that a family of anti-inflammatory agents, known as the salicylates, inhibited LPS induction of TF activity and TF gene transcription in human monocytes and monocytic THP-1 cells at clinically relevant doses.
+# T8 Protein S5 112 114 679 681 TF
+# T9 Protein S5 128 130 695 697 TF
+$ T9 Protein S5 128 130 695 697 TF
+@ T23 Negative_regulation S5 85 94 652 661 inhibited
+@ T24 Positive_regulation S5 99 108 666 675 induction
+@ T25 Transcription S5 136 149 703 716 transcription
+% E8 Negative_regulation:T23 Theme:E9
+% E9 Positive_regulation:T24 Theme:E10
+% E10 Transcription:T25 Theme:T9
+
+Furthermore, sodium salicylate blocked the LPS-induced proteolytic degradation of I kappa B alpha, which prevented the nuclear translocation of c-Rel/p65 heterodimers.
+# T10 Protein S6 82 97 874 889 I kappa B alpha
+# T11 Protein S6 144 149 936 941 c-Rel
+# T12 Protein S6 150 153 942 945 p65
+$ T10 Protein S6 82 97 874 889 I kappa B alpha
+$ T11 Protein S6 144 149 936 941 c-Rel
+$ T12 Protein S6 150 153 942 945 p65
+@ T26 Negative_regulation S6 31 38 823 830 blocked
+@ T27 Positive_regulation S6 47 54 839 846 induced
+@ T28 Protein_catabolism S6 55 78 847 870 proteolytic degradation
+@ T29 Negative_regulation S6 105 114 897 906 prevented
+@ T30 Entity S6 119 126 911 918 nuclear
+@ T31 Localization S6 127 140 919 932 translocation
+% E11 Negative_regulation:T26 Theme:E12
+% E12 Positive_regulation:T27 Theme:E13
+% E13 Protein_catabolism:T28 Theme:T10
+% E14 Negative_regulation:T29 Theme:E17 Cause:E11
+% E15 Negative_regulation:T29 Theme:E16 Cause:E11
+% E16 Localization:T31 Theme:T11 ToLoc:T30
+% E17 Localization:T31 Theme:T12 ToLoc:T30
+
+In contrast, two other nonsteroidal anti-inflammatory drugs, ibuprofen and indomethacin, did not inhibit LPS induction of the TF gene.
+# T13 Protein S7 126 128 1086 1088 TF
+$ T13 Protein S7 126 128 1086 1088 TF
+@ T32 Negative_regulation S7 97 104 1057 1064 inhibit
+@ T33 Positive_regulation S7 109 118 1069 1078 induction
+% E18 Negative_regulation:T32 Theme:E19
+% E19 Positive_regulation:T33 Theme:T13
+
+These results indicated that salicylates inhibited LPS induction of TF gene transcription in monocytic cells by preventing nuclear translocation of c-Rel/p65 heterodimers.
+# T14 Protein S8 68 70 1163 1165 TF
+# T15 Protein S8 148 153 1243 1248 c-Rel
+# T16 Protein S8 154 157 1249 1252 p65
+$ T14 Protein S8 68 70 1163 1165 TF
+$ T16 Protein S8 154 157 1249 1252 p65
+$ T15 Protein S8 148 153 1243 1248 c-Rel
+@ T34 Negative_regulation S8 41 50 1136 1145 inhibited
+@ T35 Positive_regulation S8 55 64 1150 1159 induction
+@ T36 Transcription S8 76 89 1171 1184 transcription
+@ T37 Negative_regulation S8 112 122 1207 1217 preventing
+@ T38 Entity S8 123 130 1218 1225 nuclear
+@ T39 Localization S8 131 144 1226 1239 translocation
+% E20 Negative_regulation:T34 Theme:E22 Cause:E24
+% E21 Negative_regulation:T34 Theme:E22 Cause:E25
+% E22 Positive_regulation:T35 Theme:E23
+% E23 Transcription:T36 Theme:T14
+% E24 Negative_regulation:T37 Theme:E27
+% E25 Negative_regulation:T37 Theme:E26
+% E26 Localization:T39 Theme:T16 ToLoc:T38
+% E27 Localization:T39 Theme:T15 ToLoc:T38
+
+The clinical benefits of salicylates in the treatment of several diseases, including atherosclerosis and rheumatoid arthritis, may be related to their ability to reduce monocyte gene expression.
+

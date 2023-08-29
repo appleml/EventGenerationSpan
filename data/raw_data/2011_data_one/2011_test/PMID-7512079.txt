@@ -1,0 +1,31 @@
+Comparison of retinoic acid and phorbol myristate acetate as inducers of monocytic differentiation.
+
+Several human myeloid leukemia cell lines growing in vitro can be induced to differentiate to more mature monocyte/macrophage-like cells by treatment with protein kinase C-activating phorbol esters, such as PMA.
+
+In addition to PMA, cells of the THP-1 myeloid leukemia cell line acquire macrophage-like characteristics after treatment with all-trans retinoic acid (RA).
+
+To analyze the signal transduction mechanisms induced by RA, we first compared the effects of PMA and RA on the expression of genes which are known to be regulated during monocytic differentiation.
+
+Both RA and PMA effectively down-regulated c-myc expression, while c-myb expression decreased only after PMA treatment.
+# T1 Protein S5 43 48 711 716 c-myc
+# T2 Protein S5 67 72 735 740 c-myb
+
+Expression of the beta 2-integrin genes, CD11a and CD11b, was clearly increased after both of these treatments.
+# T3 Protein S6 41 46 829 834 CD11a
+# T4 Protein S6 51 56 839 844 CD11b
+
+Their effects on the src-family tyrosine kinase genes were different: hck expression was similarly induced by these agents but lyn expression was stronger and more rapid after RA treatment.
+# T5 Protein S7 70 73 970 973 hck
+# T6 Protein S7 127 130 1027 1030 lyn
+
+RA also enhanced lyn mRNA production rapidly in HL-60, indicating that the activation of lyn gene expression is common in monocytic and granulocytic maturation of myeloid leukemia cells.
+# T7 Protein S8 17 20 1107 1110 lyn
+# T8 Protein S8 89 92 1179 1182 lyn
+
+To examine whether the AP-1 enhancer activity is involved in RA-induced monocytic differentiation, THP-1 cells were transiently transfected with a chloramphenicol acetyl transferase (CAT)-reporter gene containing 5 copies of the AP-1 binding sites.
+# T9 Protein S9 147 181 1424 1458 chloramphenicol acetyl transferase
+# T10 Protein S9 183 186 1460 1463 CAT
+
+In contrast to PMA, RA did not induce any CAT activity in these cells, thus suggesting that the RA-induced changes in the expression of those genes described above were not dependent on the AP-1 enhancer activity.
+# T11 Protein S10 42 45 1568 1571 CAT
+

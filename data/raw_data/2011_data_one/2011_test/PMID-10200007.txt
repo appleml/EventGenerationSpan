@@ -1,0 +1,38 @@
+In vivo modulation of glucocorticoid receptor mRNA by inhaled fluticasone propionate in bronchial mucosa and blood lymphocytes in subjects with mild asthma.
+# T1 Protein S1 22 45 22 45 glucocorticoid receptor
+
+BACKGROUND: In vivo regulation of the glucocorticoid receptor (GR) by glucocorticoids provides a means of modulating sensitivity of targeted cells.
+# T2 Protein S2 38 61 196 219 glucocorticoid receptor
+# T3 Protein S2 63 65 221 223 GR
+
+OBJECTIVE: We sought to determine the in vivo modulation of GR mRNA expression by fluticasone propionate (FP) in subjects with mild asthma.
+# T4 Protein S3 60 62 366 368 GR
+
+METHODS: Ten atopic asthmatic subjects were treated with FP 250 microg twice daily for 4 weeks.
+
+Before and after treatment, the patients underwent fiberoptic bronchoscopy with endobronchial biopsy and sampling of venous blood for measurements of GR mRNA levels.
+# T5 Protein S5 150 152 692 694 GR
+
+A solution hybridization assay was used for quantitative analysis of GR mRNA.
+# T6 Protein S6 69 71 777 779 GR
+
+In addition, a 24-hour urinary cortisol excretion and an adrenocorticotropic hormone test before and after treatment with FP were performed.
+# T7 Protein S7 57 84 843 870 adrenocorticotropic hormone
+
+RESULTS: A high interindividual variation in GR mRNA expression was seen.
+# T8 Protein S8 45 47 972 974 GR
+
+However, we detected a significant reduction of the GR mRNA levels in the endobronchial biopsy specimens after FP treatment (36.6 +/- 23.1 and 25.0 +/- 10.9 amol GR mRNA/microg RNA, respectively; P <.01).
+# T9 Protein S9 52 54 1053 1055 GR
+# T10 Protein S9 162 164 1163 1165 GR
+
+In the peripheral blood lymphocytes an even more striking downregulation of the GR by its cognate ligand was documented (30.3 +/- 26.5 and 8.8 +/- 5 amol GR mRNA/microg RNA, respectively; P <.001), possibly reflecting differences in glucocorticoid sensitivity between tissues.
+# T11 Protein S10 80 82 1286 1288 GR
+# T12 Protein S10 154 156 1360 1362 GR
+
+A small but significant reduction of the 24-hour urinary cortisol excretion was observed (233 +/- 109 and 157 +/- 66 nmol/L, respectively; P <.01), whereas the feedback regulation of glucocorticoid synthesis by means of the hypothalamic-pituitary-adrenal axis as assessed by the adrenocorticotropic hormone test remained normal after treatment with FP.
+# T13 Protein S11 279 306 1762 1789 adrenocorticotropic hormone
+
+CONCLUSION: The results in this study confirm the potency of the inhaled corticosteroid FP and provide evidence for a considerable tissue-specific interindividual variation in the expression of the GR.
+# T14 Protein S12 198 200 2034 2036 GR
+

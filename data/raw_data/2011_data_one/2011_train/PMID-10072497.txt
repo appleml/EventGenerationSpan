@@ -1,0 +1,41 @@
+N-acetyl-L-cysteine inhibits primary human T cell responses at the dendritic cell level: association with NF-kappaB inhibition.
+
+N-acetyl-L-cysteine (NAC) is an antioxidant molecule endowed with immunomodulatory properties.
+
+To investigate the effect of NAC on the induction phase of T cell responses, we analyzed its action on human dendritic cells (DC) derived from adherent PBMC cultured with IL-4 and granulocyte-macrophage CSF.
+# T1 Protein S3 171 175 395 399 IL-4
+# T2 Protein S3 180 206 404 430 granulocyte-macrophage CSF
+
+We first found that NAC inhibited the constitutive as well as the LPS-induced activity of the transcription factor NF-kappaB.
+
+In parallel, NAC was shown to down-regulate the production of cytokines by DC as well as their surface expression of HLA-DR, CD86 (B7-2), and CD40 molecules both at the basal state and upon LPS activation.
+# T3 Protein S5 125 129 683 687 CD86
+# T4 Protein S5 131 135 689 693 B7-2
+# T5 Protein S5 142 146 700 704 CD40
+$ T3 Protein S5 125 129 683 687 CD86
+$ T5 Protein S5 142 146 700 704 CD40
+@ T8 Negative_regulation S5 30 43 588 601 down-regulate
+@ T9 Gene_expression S5 103 113 661 671 expression
+@ T10 Positive_regulation S5 194 204 752 762 activation
+% E1 Negative_regulation:T8 Theme:E5
+% E2 Negative_regulation:T8 Theme:E6
+% E3 Negative_regulation:T8 Theme:E7
+% E4 Negative_regulation:T8 Theme:E8
+% E5 Gene_expression:T9 Theme:T3
+% E6 Gene_expression:T9 Theme:T5
+% E7 Positive_regulation:T10 Theme:E5
+% E8 Positive_regulation:T10 Theme:E6
+
+NAC also inhibited DC responses induced by CD40 engagement.
+# T6 Protein S6 43 47 807 811 CD40
+$ T6 Protein S6 43 47 807 811 CD40
+@ T11 Binding S6 48 58 812 822 engagement
+% E9 Binding:T11 Theme:T6
+
+The inhibitory effects of NAC were not due to nonspecific toxicity as neither the viability of DC nor their mannose receptor-mediated endocytosis were modified by NAC.
+# T7 Protein S7 108 124 932 948 mannose receptor
+
+Finally, we found that the addition of NAC to MLR between naive T cells and allogeneic DC resulted in a profound inhibition of alloreactive responses, which could be attributed to a defect of DC as APC-independent T cell responses were not inhibited by NAC.
+
+Altogether, our results suggest that NAC might impair the generation of primary immune responses in humans through its inhibitory action on DC.
+

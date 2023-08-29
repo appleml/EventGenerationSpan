@@ -1,0 +1,54 @@
+Noncanonical NF-kappaB signalling.
+
+CD40 and RANK can activate the noncanonical NF-kappaB pathway that is dependent on NF-kappaB inducing kinase (NIK) expression levels.
+# T1 Protein S2 0 4 35 39 CD40
+# T2 Protein S2 9 13 44 48 RANK
+# T3 Protein S2 83 108 118 143 NF-kappaB inducing kinase
+# T4 Protein S2 110 113 145 148 NIK
+
+In unstimulated cells NIK forms a cytosolic complex with the ubiquitin ligases TRAF2, TRAF3 and cIAP1/2, which facilitates the K48-linked polyubiquitination and proteasomal degradation of NIK, keeping NIK levels low.
+# T5 Protein S3 22 25 191 194 NIK
+# T6 Protein S3 79 84 248 253 TRAF2
+# T7 Protein S3 86 91 255 260 TRAF3
+# T8 Protein S3 96 101 265 270 cIAP1
+# T9 Protein S3 102 103 271 272 2
+# T10 Protein S3 188 191 357 360 NIK
+# T11 Protein S3 201 204 370 373 NIK
+
+Upon ligand binding, TRAF3 is recruited to the receptor, where TRAF2 directs nondegradative K63-linked polyubiquitination of cIAP1/2, resulting in their activation.
+# T12 Protein S4 21 26 407 412 TRAF3
+# T13 Protein S4 63 68 449 454 TRAF2
+# T14 Protein S4 125 130 511 516 cIAP1
+# T15 Protein S4 131 132 517 518 2
+
+Subsequently cIAP1/2 directs its K48-linked polyubiquitination to TRAF3, rather than NIK.
+# T16 Protein S5 13 18 564 569 cIAP1
+# T17 Protein S5 19 20 570 571 2
+# T18 Protein S5 66 71 617 622 TRAF3
+# T19 Protein S5 85 88 636 639 NIK
+
+As a result, TRAF3 is degraded and NIK is stabilised, resulting in increased NIK levels in the cell.
+# T20 Protein S6 13 18 654 659 TRAF3
+# T21 Protein S6 35 38 676 679 NIK
+# T22 Protein S6 77 80 718 721 NIK
+
+NIK then phosphorylates and activates IKK1, which mediates NF-kappaB p100 phosphorylation.
+# T23 Protein S7 0 3 742 745 NIK
+# T24 Protein S7 38 42 780 784 IKK1
+# T25 Protein S7 69 73 811 815 p100
+
+This is followed by K48-linked polyubiquitination and partial proteasomal degradation of p100 to p52, which forms a heterodimer with RelB to activate transcription.
+# T26 Protein S8 89 93 922 926 p100
+# T27 Protein S8 97 100 930 933 p52
+# T28 Protein S8 133 137 966 970 RelB
+
+Next to TRAF3, TRAF1 has also been identified as a negative regulator of this pathway, most probably by competing with other TNF receptor-associated factors.
+# T29 Protein S9 8 13 1006 1011 TRAF3
+# T30 Protein S9 15 20 1013 1018 TRAF1
+
+cIAP, cellular inhibitor of apoptosis; IKK, IkappaB kinase; NF, nuclear factor; RANK, receptor activator of NF-kappaB; TRAF, TNF receptor-associated factor; TNF, tumour necrosis factor.
+# T31 Protein S10 80 84 1236 1240 RANK
+# T32 Protein S10 86 117 1242 1273 receptor activator of NF-kappaB
+# T33 Protein S10 157 160 1313 1316 TNF
+# T34 Protein S10 162 184 1318 1340 tumour necrosis factor
+

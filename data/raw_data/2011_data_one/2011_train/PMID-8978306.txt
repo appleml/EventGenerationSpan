@@ -1,0 +1,73 @@
+Engagement of the Lewis X antigen (CD15) results in monocyte activation.
+
+We previously reported that monocyte adhesion to tumor necrosis factor-alpha (TNF-alpha)-treated endothelial cells increased expression of tissue factor and CD36 on monocytes.
+# T1 Protein S2 49 76 123 150 tumor necrosis factor-alpha
+# T2 Protein S2 78 87 152 161 TNF-alpha
+# T3 Protein S2 139 152 213 226 tissue factor
+# T4 Protein S2 157 161 231 235 CD36
+$ T4 Protein S2 157 161 231 235 CD36
+$ T3 Protein S2 139 152 213 226 tissue factor
+@ T16 Positive_regulation S2 115 124 189 198 increased
+@ T17 Gene_expression S2 125 135 199 209 expression
+% E1 Positive_regulation:T16 Theme:E3
+% E2 Positive_regulation:T16 Theme:E4
+% E3 Gene_expression:T17 Theme:T4
+% E4 Gene_expression:T17 Theme:T3
+
+Using immunological cross-linking to mimic receptor engagement by natural ligands, we now show that CD15 (Lewis X), a monocyte counter-receptor for endothelial selectins may participate in this response.
+# T5 Protein S3 148 169 398 419 endothelial selectins
+
+We used cytokine production as a readout for monocyte activation and found that CD15 cross-linking induced TNF-alpha release from peripheral blood monocytes and cells from the monocytic cell line MM6.
+# T6 Protein S4 107 116 561 570 TNF-alpha
+$ T6 Protein S4 107 116 561 570 TNF-alpha
+@ T18 Positive_regulation S4 99 106 553 560 induced
+@ T19 Localization S4 117 124 571 578 release
+% E5 Positive_regulation:T18 Theme:E6
+% E6 Localization:T19 Theme:T6
+
+Quantitative reverse transcriptase-polymerase chain reaction (RT-PCR) showed an increase in steady-state TNF-alpha mRNA after 3 to 4 hours of cross-linking.
+# T7 Protein S5 105 114 760 769 TNF-alpha
+$ T7 Protein S5 105 114 760 769 TNF-alpha
+@ T20 Positive_regulation S5 80 88 735 743 increase
+@ T21 Transcription S5 115 119 770 774 mRNA
+% E7 Positive_regulation:T20 Theme:E8
+% E8 Transcription:T21 Theme:T7
+
+CD15 cross-linking also concomitantly increased interleukin-1 beta (IL-1 beta) mRNA, while no apparent change was observed in the levels of beta-actin mRNA, indicating specificity.
+# T8 Protein S6 48 66 860 878 interleukin-1 beta
+# T9 Protein S6 68 77 880 889 IL-1 beta
+# T10 Protein S6 140 150 952 962 beta-actin
+$ T9 Protein S6 68 77 880 889 IL-1 beta
+$ T10 Protein S6 140 150 952 962 beta-actin
+@ T22 Positive_regulation S6 38 47 850 859 increased
+@ T23 Transcription S6 79 83 891 895 mRNA
+@ T24 Regulation S6 103 109 915 921 change
+@ T25 Transcription S6 151 155 963 967 mRNA
+% E9 Positive_regulation:T22 Theme:E10
+% E10 Transcription:T23 Theme:T9
+% E11 Regulation:T24 Theme:E12
+% E12 Transcription:T25 Theme:T10
+
+To examine transcriptional regulation of cytokine genes by CD15 engagement, a CAT plasmid reporter construct containing IL-1 beta promoter/enhancer sequences was introduced into MM6.
+# T11 Protein S7 78 81 1071 1074 CAT
+# T12 Protein S7 120 129 1113 1122 IL-1 beta
+
+Subsequent cross-linking of CD15 increased CAT activity.
+# T13 Protein S8 43 46 1219 1222 CAT
+$ T13 Protein S8 43 46 1219 1222 CAT
+@ T26 Positive_regulation S8 33 42 1209 1218 increased
+% E13 Positive_regulation:T26 Theme:T13
+
+CD15 engagement by monoclonal antibody also attenuated IL-1 beta transcript degradation, demonstrating that signaling via CD15 also had posttranscriptional effects.
+# T14 Protein S9 55 64 1288 1297 IL-1 beta
+
+Nuclear extracts of anti-CD15 cross-linked cells demonstrated enhanced levels of the transcriptional factor activator protein-1, minimally changed nuclear factor-kappa B, and did not affect SV40 promoter specific protein-1.
+# T15 Protein S10 190 222 1588 1620 SV40 promoter specific protein-1
+$ T15 Protein S10 190 222 1588 1620 SV40 promoter specific protein-1
+@ T27 Regulation S10 183 189 1581 1587 affect
+% E14 Regulation:T27 Theme:T15
+
+We conclude that engagement of CD15 on monocytes results in monocyte activation.
+
+In addition to its well-recognized adhesive role, CD15 may function as an important signaling molecule capable of initiating proinflammatory events in monocytes that come into contact with activated endothelium.
+

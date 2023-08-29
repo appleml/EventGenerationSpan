@@ -1,0 +1,84 @@
+p21ras initiates Rac-1 but not phosphatidyl inositol 3 kinase/PKB, mediated signaling pathways in T lymphocytes.
+# T1 Protein S1 0 6 0 6 p21ras
+# T2 Protein S1 17 22 17 22 Rac-1
+# T3 Protein S1 62 65 62 65 PKB
+
+p21ras is activated by the T cell antigen receptor (TCR) and then co-ordinates important signaling pathways for T lymphocyte activation.
+# T4 Protein S2 0 6 114 120 p21ras
+$ T4 Protein S2 0 6 114 120 p21ras
+@ T25 Positive_regulation S2 10 19 124 133 activated
+% E1 Positive_regulation:T25 Theme:T4
+
+Effector pathways for this guanine nucleotide binding protein in T cells are mediated by the serine/threonine kinase Raf-1 and the Ras-related GTPase Rac-1.
+# T5 Protein S3 117 122 368 373 Raf-1
+# T6 Protein S3 150 155 401 406 Rac-1
+$ T6 Protein S3 150 155 401 406 Rac-1
+$ T5 Protein S3 117 122 368 373 Raf-1
+@ T26 Regulation S3 0 17 251 268 Effector pathways
+@ T27 Positive_regulation S3 77 85 328 336 mediated
+% E2 Regulation:T26 Theme:T4
+% E3 Positive_regulation:T27 Theme:E2 Cause:T6
+% E4 Positive_regulation:T27 Theme:E2 Cause:T5
+
+In fibroblasts, an important effector for the Ras oncogene is Phosphatidylinositol 3-kinase (PtdIns 3-kinase).
+
+Activation of this lipid kinase is able to induce critical Rac-1 signaling pathways and can couple p21ras to cell survival mechanisms via the serine/threonine kinase Akt/PKB.
+# T7 Protein S5 59 64 578 583 Rac-1
+# T8 Protein S5 99 105 618 624 p21ras
+# T9 Protein S5 166 169 685 688 Akt
+# T10 Protein S5 170 173 689 692 PKB
+$ T9 Protein S5 166 169 685 688 Akt
+@ T28 Positive_regulation S5 92 98 611 617 couple
+% E5 Positive_regulation:T28 Theme:T9
+
+The role of PtdIns 3-kinase in Ras signaling in T cells has not been explored.
+
+In the present study, we examined the ability of PtdIns 3-kinase to initiate the Rac-1 signaling pathways important for T cell activation.
+# T11 Protein S7 81 86 854 859 Rac-1
+
+We also examined the possibility that Akt/PKB is regulated by Ras signaling pathways in T lymphocytes.
+# T12 Protein S8 38 41 950 953 Akt
+# T13 Protein S8 42 45 954 957 PKB
+$ T12 Protein S8 38 41 950 953 Akt
+@ T29 Regulation S8 49 58 961 970 regulated
+% E6 Regulation:T29 Theme:T12
+
+The results show that Ras can initiate a Rac-1 mediated pathway that regulates the transcriptional function of AP-1 complexes.
+# T14 Protein S9 41 46 1056 1061 Rac-1
+
+PtdIns 3-kinase signals cannot mimic p21ras and induce the Rac mediated responses of AP-1 transcriptional activation.
+# T15 Protein S10 37 43 1179 1185 p21ras
+
+Moreover, neither TCR or Ras activation of AP-1 is dependent on PtdIns 3-kinase.
+
+PKB is activated in response to triggering of the T cell antigen receptor; PtdIns 3-kinase activity is both required and sufficient for this TCR response.
+# T16 Protein S12 0 3 1341 1344 PKB
+$ T16 Protein S12 0 3 1341 1344 PKB
+@ T30 Positive_regulation S12 7 16 1348 1357 activated
+@ T31 Positive_regulation S12 108 131 1449 1472 required and sufficient
+% E7 Positive_regulation:T30 Theme:T16
+% E8 Positive_regulation:T31 Theme:E7
+
+In contrast, p21ras signals are unable to induce Akt/PKB activity in T cell nor is Ras function required for Akt/PKB activation in response to the TCR.
+# T17 Protein S13 13 19 1509 1515 p21ras
+# T18 Protein S13 49 52 1545 1548 Akt
+# T19 Protein S13 53 56 1549 1552 PKB
+# T20 Protein S13 109 112 1605 1608 Akt
+# T21 Protein S13 113 116 1609 1612 PKB
+$ T18 Protein S13 49 52 1545 1548 Akt
+$ T17 Protein S13 13 19 1509 1515 p21ras
+$ T20 Protein S13 109 112 1605 1608 Akt
+@ T32 Positive_regulation S13 42 48 1538 1544 induce
+@ T33 Positive_regulation S13 96 104 1592 1600 required
+@ T34 Positive_regulation S13 117 127 1613 1623 activation
+% E9 Positive_regulation:T32 Theme:T18 Cause:T17
+% E10 Positive_regulation:T33 Theme:E11 Cause:T17
+% E11 Positive_regulation:T34 Theme:T20
+
+The present data thus highlight that PtdIns 3-kinase and Akt/PKB are not universal Ras effector molecules.
+# T22 Protein S14 57 60 1705 1708 Akt
+# T23 Protein S14 61 64 1709 1712 PKB
+
+Ras can initiate Rac-1 regulated signaling pathways in the context of T cell antigen receptor function independently of PtdIns 3-kinase activity.
+# T24 Protein S15 17 22 1772 1777 Rac-1
+

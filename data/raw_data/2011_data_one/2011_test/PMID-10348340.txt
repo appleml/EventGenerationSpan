@@ -1,0 +1,44 @@
+Human T-cell leukemia virus type 1 Tax protein induces the expression of STAT1 and STAT5 genes in T-cells.
+# T1 Protein S1 35 38 35 38 Tax
+# T2 Protein S1 73 78 73 78 STAT1
+# T3 Protein S1 83 88 83 88 STAT5
+
+Human T-cell leukemia virus type 1 (HTLV-1) Tax transforms normal T-cells in the presence of interleukin (IL)-2 in vitro.
+# T4 Protein S2 44 47 152 155 Tax
+# T5 Protein S2 93 111 201 219 interleukin (IL)-2
+
+STAT is a family of transcription factors that play a pivotal role in cytokine-induced functions of a various type of cells.
+
+We investigated the involvement of STATs in the transformation of T-cells by HTLV-1.
+
+HTLV-1-transformed T-cell lines expressed higher amounts of STAT1, STAT3 and STAT5 RNA and proteins than virus-negative T cells.
+# T6 Protein S5 60 65 500 505 STAT1
+# T7 Protein S5 67 72 507 512 STAT3
+# T8 Protein S5 77 82 517 522 STAT5
+
+The expression of STAT1 and STAT5 in a human T-cell line was induced by Tax.
+# T9 Protein S6 18 23 587 592 STAT1
+# T10 Protein S6 28 33 597 602 STAT5
+# T11 Protein S6 72 75 641 644 Tax
+
+IL-2 induced the DNA binding activity of STAT3 and STAT5 of a HTLV-1-transformed cell line and then stimulated its proliferation.
+# T12 Protein S7 0 4 646 650 IL-2
+# T13 Protein S7 41 46 687 692 STAT3
+# T14 Protein S7 51 56 697 702 STAT5
+
+In contrast, IL-2 did neither in a cell line lacking STAT3 and STAT5.
+# T15 Protein S8 13 17 789 793 IL-2
+# T16 Protein S8 53 58 829 834 STAT3
+# T17 Protein S8 63 68 839 844 STAT5
+
+The expression of STAT1, STAT3 and STAT5 mRNAs were also induced by a T-cell mitogen in normal human peripheral blood mononuclear cells.
+# T18 Protein S9 18 23 864 869 STAT1
+# T19 Protein S9 25 30 871 876 STAT3
+# T20 Protein S9 35 40 881 886 STAT5
+
+Our results suggest that the induction of STAT1 and STAT5 by Tax enhances cytokine-induced functions of virus-infected T-cells, hence the induction may play a role in IL-2-dependent transformation steps of T-cells by HTLV-1.
+# T21 Protein S10 42 47 1025 1030 STAT1
+# T22 Protein S10 52 57 1035 1040 STAT5
+# T23 Protein S10 61 64 1044 1047 Tax
+# T24 Protein S10 167 171 1150 1154 IL-2
+

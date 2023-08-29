@@ -1,0 +1,74 @@
+Transcription mediated by NFAT is highly inducible in effector CD4+ T helper 2 (Th2) cells but not in Th1 cells.
+# T1 Protein S1 63 66 63 66 CD4
+
+Transcriptional factors of the NFAT family play an important role in regulating the expression of several cytokine genes during the immune response, such as the genes for interleukin 2 (IL-2) and IL-4, among others.
+# T2 Protein S2 171 184 285 298 interleukin 2
+# T3 Protein S2 186 190 300 304 IL-2
+# T4 Protein S2 196 200 310 314 IL-4
+$ T3 Protein S2 186 190 300 304 IL-2
+$ T4 Protein S2 196 200 310 314 IL-4
+@ T13 Regulation S2 61 65 175 179 role
+@ T14 Regulation S2 69 79 183 193 regulating
+@ T15 Gene_expression S2 84 94 198 208 expression
+% E1 Regulation:T13 Theme:E4
+% E2 Regulation:T13 Theme:E3
+% E3 Regulation:T14 Theme:E6
+% E4 Regulation:T14 Theme:E5
+% E5 Gene_expression:T15 Theme:T3
+% E6 Gene_expression:T15 Theme:T4
+
+Upon antigen stimulation, precursor CD4+ T helper (pTh) cells proliferate and differentiate into two populations of effector cells (eTh1 and eTh2), each one expressing a specific pattern of cytokines that distinguishes them from their precursors.
+# T5 Protein S3 36 39 366 369 CD4
+
+eTh2 cells are the major source of IL-4, while gamma interferon is produced by eTh1 cells.
+# T6 Protein S4 35 39 612 616 IL-4
+# T7 Protein S4 47 63 624 640 gamma interferon
+$ T6 Protein S4 35 39 612 616 IL-4
+$ T7 Protein S4 47 63 624 640 gamma interferon
+@ T16 Gene_expression S4 25 31 602 608 source
+@ T17 Gene_expression S4 67 75 644 652 produced
+% E7 Gene_expression:T16 Theme:T6
+% E8 Gene_expression:T17 Theme:T7
+
+Here we have used reporter transgenic mice to show that DNA binding and transcriptional activities of NFAT are transiently induced during the differentiation of pTh cells into either eTh1 or eTh2 cells to mediate the expression of IL-2 as a common growth factor in both pathways.
+# T8 Protein S5 231 235 899 903 IL-2
+$ T8 Protein S5 231 235 899 903 IL-2
+@ T18 Positive_regulation S5 205 212 873 880 mediate
+@ T19 Gene_expression S5 217 227 885 895 expression
+% E9 Positive_regulation:T18 Theme:E10
+% E10 Gene_expression:T19 Theme:T8
+
+However, although NFAT DNA binding is similarly induced in both eTh1 and eTh2 cells upon antigen stimulation, only the NFAT complexes present in eTh2 cells are able to mediate high-level transcription, and relatively little NFAT transcriptional activity was induced in eTh1 cells.
+
+In contrast to activated pTh cells, neither eTh1 nor eTh2 cells produced significant IL-2 upon stimulation, but the high levels of NFAT transcriptional activities directly correlate with the IL-4 production induced in response to antigen stimulation in eTh2 cells.
+# T9 Protein S7 85 89 1314 1318 IL-2
+# T10 Protein S7 191 195 1420 1424 IL-4
+$ T9 Protein S7 85 89 1314 1318 IL-2
+$ T10 Protein S7 191 195 1420 1424 IL-4
+@ T20 Gene_expression S7 64 72 1293 1301 produced
+@ T21 Gene_expression S7 196 206 1425 1435 production
+@ T22 Positive_regulation S7 207 214 1436 1443 induced
+% E11 Gene_expression:T20 Theme:T9
+% E12 Gene_expression:T21 Theme:T10
+% E13 Positive_regulation:T22 Theme:E12
+
+These data suggest that activated NFAT is involved in the effector function of eTh2 cells and that the failure of eTh1 cells to produce IL-4 in response to an antigen is due, at least partially, to a failure to induce high-level transcription of the IL-4 gene by NFAT.
+# T11 Protein S8 136 140 1630 1634 IL-4
+# T12 Protein S8 250 254 1744 1748 IL-4
+$ T11 Protein S8 136 140 1630 1634 IL-4
+$ T12 Protein S8 250 254 1744 1748 IL-4
+@ T23 Negative_regulation S8 103 110 1597 1604 failure
+@ T24 Gene_expression S8 128 135 1622 1629 produce
+@ T25 Regulation S8 141 155 1635 1649 in response to
+@ T26 Negative_regulation S8 200 207 1694 1701 failure
+@ T27 Positive_regulation S8 211 217 1705 1711 induce
+@ T28 Transcription S8 229 242 1723 1736 transcription
+% E14 Negative_regulation:T23 Theme:E16
+% E15 Gene_expression:T24 Theme:T11
+% E16 Regulation:T25 Theme:E15
+% E17 Negative_regulation:T26 Theme:E18 Cause:E14
+% E18 Positive_regulation:T27 Theme:E19
+% E19 Transcription:T28 Theme:T12
+
+Regulation of NFAT could be therefore a critical element in the polarization to eTh1 or eTh2.
+

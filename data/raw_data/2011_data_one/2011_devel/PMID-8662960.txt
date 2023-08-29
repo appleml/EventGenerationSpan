@@ -1,0 +1,88 @@
+Globin gene switching.
+
+In vivo protein-DNA interactions of the human beta-globin locus in erythroid cells expressing the fetal or the adult globin gene program.
+# T1 Protein S2 46 57 69 80 beta-globin
+$ T1 Protein S2 46 57 69 80 beta-globin
+@ T20 Binding S2 20 32 43 55 interactions
+% E1 Binding:T20 Theme:T1
+
+To characterize the protein-DNA interactions important for the developmental control of the human beta-globin locus, we analyzed by in vivo dimethyl sulfate footprinting erythroid cells expressing either the fetal or the adult globin developmental program.
+# T2 Protein S3 98 109 260 271 beta-globin
+# T3 Protein S3 208 213 370 375 fetal
+# T4 Protein S3 221 233 383 395 adult globin
+$ T2 Protein S3 98 109 260 271 beta-globin
+$ T4 Protein S3 221 233 383 395 adult globin
+$ T3 Protein S3 208 213 370 375 fetal
+@ T21 Positive_regulation S3 45 54 207 216 important
+@ T22 Regulation S3 77 84 239 246 control
+@ T23 Positive_regulation S3 186 196 348 358 expressing
+% E2 Positive_regulation:T21 Theme:E3
+% E3 Regulation:T22 Theme:T2
+% E4 Positive_regulation:T23 Theme:T4
+% E5 Positive_regulation:T23 Theme:T3
+
+In the locus control region (LCR) of the beta-globin locus, in vivo footprints on NF-E2 (or AP-1) and GATA-1 motifs remained the same regardless of whether the fetal or the adult globin genes are expressed.
+# T5 Protein S4 41 52 460 471 beta-globin
+# T6 Protein S4 102 108 521 527 GATA-1
+# T7 Protein S4 160 165 579 584 fetal
+# T8 Protein S4 173 191 592 610 adult globin genes
+$ T8 Protein S4 173 191 592 610 adult globin genes
+$ T7 Protein S4 160 165 579 584 fetal
+@ T24 Gene_expression S4 196 205 615 624 expressed
+% E6 Gene_expression:T24 Theme:T8
+% E7 Gene_expression:T24 Theme:T7
+
+In contrast, in vivo footprints on GT (CACCC) motifs differed between the cells expressing the fetal or the adult globin program.
+# T9 Protein S5 95 100 721 726 fetal
+# T10 Protein S5 108 120 734 746 adult globin
+$ T10 Protein S5 108 120 734 746 adult globin
+$ T9 Protein S5 95 100 721 726 fetal
+@ T25 Gene_expression S5 80 90 706 716 expressing
+% E8 Gene_expression:T25 Theme:T10
+% E9 Gene_expression:T25 Theme:T9
+
+In promoter regions, the actively transcribed genes demonstrated extensive and consistent footprints over the canonical elements, such as CACCC and CCAAT motifs.
+
+The adult globin expressing cells displayed more extensive footprints than the fetal globin expressing cells in the 3' regulatory sequences of both the Agamma- and the beta-globin genes, suggesting a role of these 3' elements in beta-globin gene expression.
+# T11 Protein S7 152 159 1070 1077 Agamma-
+# T12 Protein S7 168 179 1086 1097 beta-globin
+# T13 Protein S7 229 240 1147 1158 beta-globin
+$ T11 Protein S7 152 159 1070 1077 Agamma-
+$ T12 Protein S7 168 179 1086 1097 beta-globin
+$ T13 Protein S7 229 240 1147 1158 beta-globin
+@ T26 Positive_regulation S7 44 58 962 976 more extensive
+@ T27 Binding S7 59 69 977 987 footprints
+@ T28 Entity S7 116 139 1034 1057 3' regulatory sequences
+@ T29 Regulation S7 200 204 1118 1122 role
+@ T30 Gene_expression S7 246 256 1164 1174 expression
+% E10 Positive_regulation:T26 Theme:E13
+% E11 Positive_regulation:T26 Theme:E12
+% E12 Binding:T27 Theme:T11 Site:T28
+% E13 Binding:T27 Theme:T12 Site:T28
+% E14 Regulation:T29 Theme:E15
+% E15 Gene_expression:T30 Theme:T13
+
+Our results suggest that the bulk of protein-DNA interactions that underlies the developmental control of globin genes takes place in the gamma- and beta-globin gene promoters, and that GT motifs of the beta-globin locus LCR may play a role in the developmental regulation of human beta-globin gene expression, perhaps by increasing the probability of interaction of the LCR holocomplex with the fetal or the adult globin gene.
+# T14 Protein S8 138 144 1314 1320 gamma-
+# T15 Protein S8 149 160 1325 1336 beta-globin
+# T16 Protein S8 203 214 1379 1390 beta-globin
+# T17 Protein S8 282 293 1458 1469 beta-globin
+# T18 Protein S8 396 401 1572 1577 fetal
+# T19 Protein S8 409 421 1585 1597 adult globin
+$ T17 Protein S8 282 293 1458 1469 beta-globin
+$ T19 Protein S8 409 421 1585 1597 adult globin
+$ T18 Protein S8 396 401 1572 1577 fetal
+@ T31 Positive_regulation S8 229 240 1405 1416 play a role
+@ T32 Regulation S8 262 272 1438 1448 regulation
+@ T33 Gene_expression S8 299 309 1475 1485 expression
+@ T34 Positive_regulation S8 322 332 1498 1508 increasing
+@ T35 Binding S8 352 363 1528 1539 interaction
+% E16 Positive_regulation:T31 Theme:E18 Cause:E20
+% E17 Positive_regulation:T31 Theme:E18 Cause:E21
+% E18 Regulation:T32 Theme:E19
+% E19 Gene_expression:T33 Theme:T17
+% E20 Positive_regulation:T34 Theme:E22
+% E21 Positive_regulation:T34 Theme:E23
+% E22 Binding:T35 Theme:T19
+% E23 Binding:T35 Theme:T18
+

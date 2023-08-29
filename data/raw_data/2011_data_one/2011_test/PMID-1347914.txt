@@ -1,0 +1,33 @@
+Modulation of normal erythroid differentiation by the endogenous thyroid hormone and retinoic acid receptors: a possible target for v-erbA oncogene action.
+# T1 Protein S1 132 138 132 138 v-erbA
+
+The v-erbA oncogene, a mutated version of the thyroid hormone receptor alpha (c-erbA/TR-alpha), inhibits erythroid differentiation and constitutively represses transcription of certain erythrocyte genes, suggesting a normal function of the proto-oncogene c-erbA in erythropoiesis.
+# T2 Protein S2 4 10 161 167 v-erbA
+# T3 Protein S2 46 76 203 233 thyroid hormone receptor alpha
+# T4 Protein S2 78 84 235 241 c-erbA
+# T5 Protein S2 85 93 242 250 TR-alpha
+# T6 Protein S2 255 261 412 418 c-erbA
+
+Here we demonstrate that the endogenous thyroid hormone receptor alpha (c-erbA/TR-alpha) and the closely related retinoic acid receptor alpha (RAR-alpha) play a role in the regulation of normal erythroid differentiation.
+# T7 Protein S3 40 70 478 508 thyroid hormone receptor alpha
+# T8 Protein S3 72 78 510 516 c-erbA
+# T9 Protein S3 79 87 517 525 TR-alpha
+# T10 Protein S3 113 141 551 579 retinoic acid receptor alpha
+# T11 Protein S3 143 152 581 590 RAR-alpha
+
+Retinoic acid (RA) distinctly modulated the erythroid differentiation program of normal erythroid progenitors and erythroblasts reversibly transformed by a conditional tyrosine kinase oncogene.
+
+When added pulsewise to immature cells, differentiation was accelerated while more mature cells underwent premature cell death.
+
+Thyroid hormone (T3) alone caused similar but weaker effects.
+
+Interestingly, T3 strongly enhanced the action of RA, suggesting cooperative action of the two receptors in modulating erythroid differentiation.
+
+Expression of the human RAR-alpha in receptor-negative erythroblasts conferred RA-induced regulation of differentiation to the otherwise unresponsive cells, thus showing that the RAR-alpha is essential for the RA effect.
+# T12 Protein S8 24 33 1213 1222 RAR-alpha
+# T13 Protein S8 179 188 1368 1377 RAR-alpha
+
+Likewise, enhanced expression of exogenous c-erbA/TR-alpha in erythroblasts rendered them susceptible to modulation of differentiation by T3, suggesting a similar function of both receptors.
+# T14 Protein S9 43 49 1453 1459 c-erbA
+# T15 Protein S9 50 58 1460 1468 TR-alpha
+

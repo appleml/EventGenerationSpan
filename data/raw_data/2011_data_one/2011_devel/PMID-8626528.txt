@@ -1,0 +1,53 @@
+Nuclear appearance of a factor that binds the CD28 response element within the interleukin-2 enhancer correlates with interleukin-2 production.
+# T1 Protein S1 46 50 46 50 CD28
+# T2 Protein S1 79 92 79 92 interleukin-2
+# T3 Protein S1 118 131 118 131 interleukin-2
+$ T3 Protein S1 118 131 118 131 interleukin-2
+@ T13 Gene_expression S1 132 142 132 142 production
+% E1 Gene_expression:T13 Theme:T3
+
+Activation of T lymphocytes requires the combined signaling of the T cell receptor and costimulatory molecules such as CD28.
+# T4 Protein S2 119 123 264 268 CD28
+
+The ability of T cells to produce interleukin-2 (IL-2) is a critical control point in T lymphocyte activation.
+# T5 Protein S3 34 47 304 317 interleukin-2
+# T6 Protein S3 49 53 319 323 IL-2
+$ T6 Protein S3 49 53 319 323 IL-2
+@ T14 Gene_expression S3 26 33 296 303 produce
+% E2 Gene_expression:T14 Theme:T6
+
+The IL-2 enhancer contains a functional motif named CD28 response element (CD28RE) that serves a role as a target for mitogenic T cell activation signals.
+# T7 Protein S4 4 8 385 389 IL-2
+# T8 Protein S4 52 56 433 437 CD28
+
+The CD28RE sequence reveals similarity to the consensus kappaB binding motif.
+
+Here we demonstrate that CD28RE binds an inducible protein with a molecular mass of approximately 35 kDa called nuclear factor of mitogenic-activated T cells (NF-MATp35) that is clearly different from the known NF- kappaB/Rel family members.
+
+Induction of NF-MATp35 was shown to depend on de novo protein synthesis and was restricted to T cells that received a mitogenic combination of T cell stimuli, not necessarily including CD28 signaling.
+# T9 Protein S7 185 189 1041 1045 CD28
+
+Nonmitogenic T cell stimulation did not result in appearance of NF-MATp35.
+
+These results indicate that mitogenic combinations of T cell activation signals are integrated at the level of NF-MATp35 induction.
+
+Similar to its effect on IL-2 production, cyclosporin A inhibited the induction of NF-MATp35.
+# T10 Protein S10 25 29 1289 1293 IL-2
+$ T10 Protein S10 25 29 1289 1293 IL-2
+@ T15 Gene_expression S10 30 40 1294 1304 production
+@ T16 Negative_regulation S10 56 65 1320 1329 inhibited
+% E3 Gene_expression:T15 Theme:T10
+% E4 Negative_regulation:T16 Theme:E3
+
+Taken together, these data demonstrate that the nuclear appearance of NF-MATp35 shows excellent correlation with IL-2 production, which is a unique characteristic among nuclear factors implicated in the control of IL-2 gene expression.
+# T11 Protein S11 113 117 1471 1475 IL-2
+# T12 Protein S11 214 218 1572 1576 IL-2
+$ T11 Protein S11 113 117 1471 1475 IL-2
+$ T12 Protein S11 214 218 1572 1576 IL-2
+@ T17 Gene_expression S11 118 128 1476 1486 production
+@ T18 Regulation S11 203 210 1561 1568 control
+@ T19 Gene_expression S11 224 234 1582 1592 expression
+% E5 Gene_expression:T17 Theme:T11
+% E6 Regulation:T18 Theme:E7
+% E7 Gene_expression:T19 Theme:T12
+

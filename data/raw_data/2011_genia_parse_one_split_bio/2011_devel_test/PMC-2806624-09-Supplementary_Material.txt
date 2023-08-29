@@ -1,0 +1,8 @@
+Supplementary	NNP	B-NP	O	Other	Other	###	1	Supplementary	Supplementary	NNP	NNP	_	2	compound	_	_
+Material	NNP	I-NP	O	Other	Other	###	2	Material	Material	NNP	NNP	_	0	root	_	_
+
+[	(	O	O	Other	Other	###	1	[	[	(	(	_	0	root	_	_
+Supplemental	JJ	B-NP	O	Other	Other	###	2	Supplemental	Supplemental	JJ	JJ	_	3	amod	_	_
+Material	NNP	I-NP	O	Other	Other	###	3	Material	Material	NNP	NNP	_	1	dobj	_	_
+]	)	O	O	Other	Other	###	4	]	]	)	)	_	1	punct	_	_
+

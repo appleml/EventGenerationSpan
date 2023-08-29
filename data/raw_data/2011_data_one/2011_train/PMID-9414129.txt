@@ -1,0 +1,41 @@
+c-Rel and p65 subunits bind to an upstream NF-kappaB site in human granulocyte macrophage-colony stimulating factor promoter involved in phorbol ester response in 5637 cells.
+# T1 Protein S1 0 5 0 5 c-Rel
+# T2 Protein S1 10 13 10 13 p65
+# T3 Protein S1 67 115 67 115 granulocyte macrophage-colony stimulating factor
+$ T2 Protein S1 10 13 10 13 p65
+$ T1 Protein S1 0 5 0 5 c-Rel
+@ T11 Binding S1 23 27 23 27 bind
+% E1 Binding:T11 Theme:T2
+% E2 Binding:T11 Theme:T1
+
+To further clarify the complex transcriptional regulation of the human GM-CSF gene, which was extensively investigated in activated T cells, we have studied the role of an upstream NF-kappaB like site in the 5637 non-lymphoid cell line, which derives from a bladder carcinoma and constitutively produces GM-CSF.
+# T4 Protein S2 71 77 247 253 GM-CSF
+# T5 Protein S2 304 310 480 486 GM-CSF
+$ T4 Protein S2 71 77 247 253 GM-CSF
+$ T5 Protein S2 304 310 480 486 GM-CSF
+@ T12 Regulation S2 31 57 207 233 transcriptional regulation
+@ T13 Gene_expression S2 295 303 471 479 produces
+% E3 Regulation:T12 Theme:T4
+% E4 Gene_expression:T13 Theme:T5
+
+This sequence, named the A element, has an active role on GM-CSF transcription and is responsive to the tumor promoter PMA in transient transfection experiments.
+# T6 Protein S3 58 64 546 552 GM-CSF
+$ T6 Protein S3 58 64 546 552 GM-CSF
+@ T14 Regulation S3 50 54 538 542 role
+@ T15 Transcription S3 65 78 553 566 transcription
+% E5 Regulation:T14 Theme:E6
+% E6 Transcription:T15 Theme:T6
+
+We describe here a heterodimeric binding complex of NF-kappaB subunits (c-Rel and p65) which is identical to the one obtained using the HIV-LTR-kappaB site as recognition sequence and different from the one (c-Rel and p50) observed with nuclear extracts from Mo T-lymphoid HTLV-II infected cells.
+# T7 Protein S4 72 77 722 727 c-Rel
+# T8 Protein S4 82 85 732 735 p65
+# T9 Protein S4 208 213 858 863 c-Rel
+# T10 Protein S4 218 221 868 871 p50
+$ T9 Protein S4 208 213 858 863 c-Rel
+$ T10 Protein S4 218 221 868 871 p50
+$ T7 Protein S4 72 77 722 727 c-Rel
+$ T8 Protein S4 82 85 732 735 p65
+@ T17 Binding S4 41 48 691 698 complex
+% E9 Binding:T17 Theme:T8
+% E10 Binding:T17 Theme:T7
+

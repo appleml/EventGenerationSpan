@@ -1,0 +1,39 @@
+Effects of CD45 on NF-kappa B. Implications for replication of HIV-1.
+# T1 Protein S1 11 15 11 15 CD45
+
+Increased levels of replication of the HIV type 1 are observed after the activation of infected T cells through the TCR.
+
+However, anti-CD45 antibodies inhibit these effects in cells from infected individuals.
+# T2 Protein S3 14 18 206 210 CD45
+
+In this study, we examined interrelationships between CD45 and HIV-1 further.
+# T3 Protein S4 54 58 334 338 CD45
+
+We measured effects on the HIV-1 LTR in T cell lines that were stimulated with antibodies against CD45 and in those that lacked the expression of CD45 on their surfaces.
+# T4 Protein S5 98 102 456 460 CD45
+# T5 Protein S5 146 150 504 508 CD45
+$ T5 Protein S5 146 150 504 508 CD45
+@ T11 Gene_expression S5 132 142 490 500 expression
+% E1 Gene_expression:T11 Theme:T5
+
+First, anti-CD45 antibodies did not affect basal but decreased activated levels of expression from the HIV-1 LTR.
+# T6 Protein S6 12 16 540 544 CD45
+
+Second, T cells, which lack CD45 and cannot signal via the TCR, supported higher levels of viral replication and gene expression.
+# T7 Protein S7 28 32 670 674 CD45
+$ T7 Protein S7 28 32 670 674 CD45
+@ T12 Negative_regulation S7 23 27 665 669 lack
+% E2 Negative_regulation:T12 Theme:T7
+
+This was due to the presence of active NF-kappa B complexes in the nucleus of CD45- T cells.
+# T8 Protein S8 78 82 850 854 CD45
+
+Additionally, infected T cells displayed lower levels of CD45 on their surfaces.
+# T9 Protein S9 57 61 922 926 CD45
+$ T9 Protein S9 57 61 922 926 CD45
+@ T13 Negative_regulation S9 31 53 896 918 displayed lower levels
+% E3 Negative_regulation:T13 Theme:T9
+
+Thus, CD45 plays an active role in the physiology of T cells and in the replication of HIV-1.
+# T10 Protein S10 6 10 952 956 CD45
+

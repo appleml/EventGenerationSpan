@@ -1,0 +1,57 @@
+Cortivazol mediated induction of glucocorticoid receptor messenger ribonucleic acid in wild-type and dexamethasone-resistant human leukemic (CEM) cells.
+# T1 Protein S1 33 56 33 56 glucocorticoid receptor
+$ T1 Protein S1 33 56 33 56 glucocorticoid receptor
+@ T12 Positive_regulation S1 20 29 20 29 induction
+% E1 Positive_regulation:T12 Theme:T1
+
+Cortivazol is a phenylpyrazolo glucocorticoid of high potency and unusual structure.
+
+In both wild-type and highly dexamethasone(dex)-resistant clones of the human leukemic cell line CEM, exposure to cortivazol leads to cell death.
+
+It has been shown recently that in wild-type CEM cells but not in a dex-resistant, glucocorticoid receptor(GR)-defective clone ICR-27 TK-3, dex induces GR mRNA.
+# T2 Protein S4 83 106 468 491 glucocorticoid receptor
+# T3 Protein S4 107 109 492 494 GR
+# T4 Protein S4 152 154 537 539 GR
+$ T4 Protein S4 152 154 537 539 GR
+@ T13 Positive_regulation S4 144 151 529 536 induces
+% E2 Positive_regulation:T13 Theme:T4
+
+To test the hypothesis that cortivazol acts in dex-resistant cells by making use of the residual GR found there, wild-type and dex-resistant clones were treated with various concentrations of cortivazol and induction of GR mRNA was studied.
+# T5 Protein S5 97 99 643 645 GR
+# T6 Protein S5 220 222 766 768 GR
+$ T6 Protein S5 220 222 766 768 GR
+@ T14 Positive_regulation S5 207 216 753 762 induction
+% E3 Positive_regulation:T14 Theme:T6
+
+Cortivazol significantly induced GR mRNA in the normal CEM-C7 as well as in two classes of dex-resistant clones, although the dex-resistant clones needed at least 10 times more cortivazol than the normal cells for significant GR mRNA induction.
+# T7 Protein S6 33 35 820 822 GR
+# T8 Protein S6 226 228 1013 1015 GR
+$ T7 Protein S6 33 35 820 822 GR
+$ T8 Protein S6 226 228 1013 1015 GR
+@ T15 Positive_regulation S6 25 32 812 819 induced
+@ T16 Positive_regulation S6 234 243 1021 1030 induction
+% E4 Positive_regulation:T15 Theme:T7
+% E5 Positive_regulation:T16 Theme:T8
+
+Increased levels of GR mRNA were noticed as early as 3 h after treatment.
+# T9 Protein S7 20 22 1052 1054 GR
+$ T9 Protein S7 20 22 1052 1054 GR
+@ T17 Positive_regulation S7 0 9 1032 1041 Increased
+@ T18 Transcription S7 10 16 1042 1048 levels
+% E6 Positive_regulation:T17 Theme:E7
+% E7 Transcription:T18 Theme:T9
+
+A general correlation between induction of GR mRNA and lysis of the normal and dex-resistant cells was found.
+# T10 Protein S8 43 45 1149 1151 GR
+$ T10 Protein S8 43 45 1149 1151 GR
+@ T19 Positive_regulation S8 30 39 1136 1145 induction
+% E8 Positive_regulation:T19 Theme:T10
+
+Positive induction of GR mRNA might be one of the earliest crucial steps in the lysis of normal and dex-resistant CEM cells, or might serve as a marker for the process.
+# T11 Protein S9 22 24 1238 1240 GR
+$ T11 Protein S9 22 24 1238 1240 GR
+@ T20 Positive_regulation S9 0 18 1216 1234 Positive induction
+% E9 Positive_regulation:T20 Theme:T11
+
+However, the lysis pathway in the dex-resistant cells is defective in that dex-resistant clones needed significantly more cortivazol than the normal cells for lysis of the cells.
+

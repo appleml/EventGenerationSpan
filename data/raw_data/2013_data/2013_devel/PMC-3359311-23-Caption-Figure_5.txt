@@ -1,0 +1,23 @@
+PBMCs from CF patients do not produce increased amounts of IL-1beta.
+# T1 Protein S1 59 67 59 67 IL-1beta
+$ T1 Protein S1 59 67 59 67 IL-1beta
+@ T5 Gene_expression S1 30 37 30 37 produce
+@ T6 Positive_regulation S1 38 47 38 47 increased
+% E1 Gene_expression:T5 Theme:T1
+% E2 Positive_regulation:T6 Theme:E1
+
+PBMCs from CF patients (n = 17-20) and healthy controls (n = 15-19) were primed with LPS (10 ng/ml) overnight and stimulated with P. aeruginosa PAO1 (MOI = 1), P. aeruginosa PAO1 lacking exsA (MOI = 1), ATP (5 mM), or Poly(dA:dT) (1 microg/ml) for 24 hours.
+# T2 Protein S2 187 191 256 260 exsA
+$ T2 Protein S2 187 191 256 260 exsA
+@ T7 Negative_regulation S2 179 186 248 255 lacking
+% E3 Negative_regulation:T7 Theme:T2
+
+P. aeruginosa lacking exsA was used as a type III secretion control in comparison with wild-type P. aeruginosa.
+# T3 Protein S3 22 26 349 353 exsA
+$ T3 Protein S3 22 26 349 353 exsA
+@ T8 Negative_regulation S3 14 21 341 348 lacking
+% E4 Negative_regulation:T8 Theme:T3
+
+Supernatants were assayed for (A) IL-1beta and (B) IL-8.
+# T4 Protein S4 34 42 473 481 IL-1beta
+

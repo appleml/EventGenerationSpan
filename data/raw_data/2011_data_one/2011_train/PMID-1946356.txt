@@ -1,0 +1,50 @@
+Negative regulation of human immunodeficiency virus type 1 expression in monocytes: role of the 65-kDa plus 50-kDa NF-kappa B dimer.
+# T1 Protein S1 96 102 96 102 65-kDa
+# T2 Protein S1 108 114 108 114 50-kDa
+
+Although monocytic cells can provide a reservoir for viral production in vivo, their regulation of human immunodeficiency virus type 1 (HIV-1) transcription can be either latent, restricted, or productive.
+
+These differences in gene expression have not been molecularly defined.
+
+In THP-1 cells with restricted HIV expression, there is an absence of DNA-protein binding complex formation with the HIV-1 promoter-enhancer associated with markedly less viral RNA production.
+
+This absence of binding was localized to the NF-kappa B region of the HIV-1 enhancer; the 65-kDa plus 50-kDa NF-kappa B heterodimer was preferentially lost.
+# T3 Protein S5 90 96 695 701 65-kDa
+# T4 Protein S5 102 108 707 713 50-kDa
+$ T3 Protein S5 90 96 695 701 65-kDa
+$ T4 Protein S5 102 108 707 713 50-kDa
+@ T7 Binding S5 120 131 725 736 heterodimer
+@ T8 Negative_regulation S5 151 155 756 760 lost
+% E1 Binding:T7 Theme:T3 Theme2:T4
+% E2 Negative_regulation:T8 Theme:E1
+
+Adding purified NF-kappa B protein to nuclear extracts from cells with restricted expression overcomes this lack of binding.
+@ T9 Negative_regulation S6 93 102 855 864 overcomes
+% E3 Negative_regulation:T9 Theme:E2
+
+In addition, treatment of these nuclear extracts with sodium deoxycholate restored their ability to form the heterodimer, suggesting the presence of an inhibitor of NF-kappa B activity.
+@ T10 Positive_regulation S7 74 82 961 969 restored
+% E4 Positive_regulation:T10 Theme:E1
+
+Furthermore, treatment of nuclear extracts from these cells that had restricted expression with lipopolysaccharide increased viral production and NF-kappa B activity.
+
+Antiserum specific for NF-kappa B binding proteins, but not c-rel-specific antiserum, disrupted heterodimer complex formation.
+@ T11 Negative_regulation S9 86 95 1326 1335 disrupted
+% E5 Negative_regulation:T11 Theme:E1
+
+Thus, both NF-kappa B-binding complexes are needed for optimal viral transcription.
+
+Binding of the 65-kDa plus 50-kDa heterodimer to the HIV-1 enhancer can be negatively regulated in monocytes, providing one mechanism restricting HIV-1 gene expression.
+# T5 Protein S11 15 21 1466 1472 65-kDa
+# T6 Protein S11 27 33 1478 1484 50-kDa
+$ T6 Protein S11 27 33 1478 1484 50-kDa
+$ T5 Protein S11 15 21 1466 1472 65-kDa
+@ T12 Binding S11 0 7 1451 1458 Binding
+@ T13 Binding S11 34 45 1485 1496 heterodimer
+@ T14 Negative_regulation S11 75 95 1526 1546 negatively regulated
+% E6 Binding:T12 Theme:T6
+% E7 Binding:T12 Theme:T5
+% E8 Binding:T13 Theme:T5 Theme2:T6
+% E9 Negative_regulation:T14 Theme:E6
+% E10 Negative_regulation:T14 Theme:E7
+

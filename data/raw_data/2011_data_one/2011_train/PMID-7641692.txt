@@ -1,0 +1,52 @@
+IL-2 gene expression and NF-kappa B activation through CD28 requires reactive oxygen production by 5-lipoxygenase.
+# T1 Protein S1 0 4 0 4 IL-2
+# T2 Protein S1 55 59 55 59 CD28
+$ T1 Protein S1 0 4 0 4 IL-2
+$ T2 Protein S1 55 59 55 59 CD28
+@ T13 Gene_expression S1 10 20 10 20 expression
+@ T14 Positive_regulation S1 36 46 36 46 activation
+@ T15 Positive_regulation S1 60 68 60 68 requires
+% E1 Gene_expression:T13 Theme:T1
+% E2 Positive_regulation:T14 Theme:E1 Cause:T2
+% E3 Positive_regulation:T15 Theme:E2
+
+Activation of the CD28 surface receptor provides a major costimulatory signal for T cell activation resulting in enhanced production of interleukin-2 (IL-2) and cell proliferation.
+# T3 Protein S2 18 22 134 138 CD28
+# T4 Protein S2 136 149 252 265 interleukin-2
+# T5 Protein S2 151 155 267 271 IL-2
+$ T5 Protein S2 151 155 267 271 IL-2
+@ T16 Positive_regulation S2 113 121 229 237 enhanced
+@ T17 Gene_expression S2 122 132 238 248 production
+% E4 Positive_regulation:T16 Theme:E5
+% E5 Gene_expression:T17 Theme:T5
+
+In primary T lymphocytes we show that CD28 ligation leads to the rapid intracellular formation of reactive oxygen intermediates (ROIs) which are required for CD28-mediated activation of the NF-kappa B/CD28-responsive complex and IL-2 expression.
+# T6 Protein S3 38 42 335 339 CD28
+# T7 Protein S3 158 162 455 459 CD28
+# T8 Protein S3 201 205 498 502 CD28
+# T9 Protein S3 229 233 526 530 IL-2
+$ T8 Protein S3 201 205 498 502 CD28
+$ T7 Protein S3 158 162 455 459 CD28
+$ T9 Protein S3 229 233 526 530 IL-2
+@ T18 Positive_regulation S3 145 153 442 450 required
+@ T19 Positive_regulation S3 172 182 469 479 activation
+@ T20 Gene_expression S3 234 244 531 541 expression
+% E6 Positive_regulation:T18 Theme:E8
+% E7 Positive_regulation:T18 Theme:E9
+% E8 Positive_regulation:T19 Theme:T8 Cause:T7
+% E9 Gene_expression:T20 Theme:T9
+
+Delineation of the CD28 signaling cascade was found to involve protein tyrosine kinase activity, followed by the activation of phospholipase A2 and 5-lipoxygenase.
+# T10 Protein S4 19 23 562 566 CD28
+
+Our data suggest that lipoxygenase metabolites activate ROI formation which then induce IL-2 expression via NF-kappa B activation.
+# T11 Protein S5 88 92 795 799 IL-2
+$ T11 Protein S5 88 92 795 799 IL-2
+@ T21 Positive_regulation S5 81 87 788 794 induce
+@ T22 Gene_expression S5 93 103 800 810 expression
+% E10 Positive_regulation:T21 Theme:E11
+% E11 Gene_expression:T22 Theme:T11
+
+These findings should be useful for therapeutic strategies and the development of immunosuppressants targeting the CD28 costimulatory pathway.
+# T12 Protein S6 115 119 953 957 CD28
+

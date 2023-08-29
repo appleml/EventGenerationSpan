@@ -1,0 +1,37 @@
+C/EBP-beta Binds the Murine SerpinB2 Proximal Promoter in vivo in an LPS-inducible Manner
+# T1 Protein S1 0 10 0 10 C/EBP-beta
+# T2 Protein S1 28 36 28 36 SerpinB2
+
+We investigated the temporal dynamics of C/EBP-beta recruitment to the murine SerpinB2 promoter in response to LPS in vivo by chromatin immunoprecipitation (ChIP).
+# T3 Protein S2 41 51 131 141 C/EBP-beta
+# T4 Protein S2 78 86 168 176 SerpinB2
+
+RAW 264.7 cells were stimulated with LPS for up to 8 hrs, soluble chromatin was immunoprecipitated with antibodies against DNA binding proteins, and the enriched DNA amplified by both semi-quantitative and qPCR using SerpinB2 proximal promoter specific primers (illustrated in fig. 4A).
+# T5 Protein S3 217 225 471 479 SerpinB2
+
+The results showed that C/EBP-beta is constitutively present at the SerpinB2 promoter as demonstrated by its association with the promoter in unstimulated macrophages and increased temporally in response to LPS reaching as much as 10-fold over unstimulated cells after 8 hrs (Fig. 7).
+# T6 Protein S4 24 34 565 575 C/EBP-beta
+# T7 Protein S4 68 76 609 617 SerpinB2
+
+Since changes in C/EBP-beta phosphorylation states can affect C/EBP-beta's ability to transactivate target genes [38]; [63]; [64], we investigated recruitment to the SerpinB2 proximal promoter of the T217 phosphorylated C/EBP-beta isoform (p-C/EBP-betaT217), which has been associated with cell survival [65].
+# T8 Protein S5 17 27 843 853 C/EBP-beta
+# T9 Protein S5 62 72 888 898 C/EBP-beta
+# T10 Protein S5 166 174 992 1000 SerpinB2
+# T11 Protein S5 220 230 1046 1056 C/EBP-beta
+# T12 Protein S5 240 256 1066 1082 p-C/EBP-betaT217
+
+p-C/EBP-betaT217 was constitutively bound to the SerpinB2 proximal promoter and also present after 1 hr of LPS stimulation (Fig. 7).
+# T13 Protein S6 0 16 1136 1152 p-C/EBP-betaT217
+# T14 Protein S6 49 57 1185 1193 SerpinB2
+
+In contrast to total C/EBP-beta, the binding affinity of p-C/EBP-betaT217 for the SerpinB2 proximal promoter diminished with LPS stimulation at later timepoints (4 and 8 hrs)(Fig. 7).
+# T15 Protein S7 21 31 1290 1300 C/EBP-beta
+# T16 Protein S7 57 73 1326 1342 p-C/EBP-betaT217
+# T17 Protein S7 82 90 1351 1359 SerpinB2
+
+These data show an inverse relationship between C/EBP-beta and p-C/EBP-betaT217 recruitment, and indicate that T217-phosphorylated C/EBP-beta may not be responsible for increased transcription from the SerpinB2 promoter in response to LPS.
+# T18 Protein S8 48 58 1501 1511 C/EBP-beta
+# T19 Protein S8 63 79 1516 1532 p-C/EBP-betaT217
+# T20 Protein S8 131 141 1584 1594 C/EBP-beta
+# T21 Protein S8 202 210 1655 1663 SerpinB2
+

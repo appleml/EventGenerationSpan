@@ -1,0 +1,98 @@
+Inflammasome-Mediated IL-1beta Production in Humans with Cystic Fibrosis
+# T1 Protein S1 22 30 22 30 IL-1beta
+$ T1 Protein S1 22 30 22 30 IL-1beta
+@ T15 Positive_regulation S1 13 21 13 21 Mediated
+@ T16 Gene_expression S1 31 41 31 41 Production
+% E1 Positive_regulation:T15 Theme:E2
+% E2 Gene_expression:T16 Theme:T1
+
+Background
+
+Inflammation and infection are major determinants of disease severity and consequently, the quality of life and outcome for patients with cystic fibrosis (CF).
+
+Interleukin-1 beta (IL-1beta) is a key inflammatory mediator.
+# T2 Protein S4 0 18 244 262 Interleukin-1 beta
+# T3 Protein S4 20 28 264 272 IL-1beta
+
+Secretion of biologically active IL-1beta involves inflammasome-mediated processing.
+# T4 Protein S5 33 41 339 347 IL-1beta
+$ T4 Protein S5 33 41 339 347 IL-1beta
+@ T17 Localization S5 0 9 306 315 Secretion
+@ T18 Regulation S5 42 50 348 356 involves
+% E3 Localization:T17 Theme:T4
+% E4 Regulation:T18 Theme:E3
+
+Little is known about the contribution of IL-1beta and the inflammasomes in CF inflammatory disease.
+# T5 Protein S6 42 50 433 441 IL-1beta
+
+This study examines inflammasome-mediated IL-1beta production in CF bronchial epithelial cell lines and human patients with CF.
+# T6 Protein S7 42 50 534 542 IL-1beta
+$ T6 Protein S7 42 50 534 542 IL-1beta
+@ T19 Positive_regulation S7 33 41 525 533 mediated
+@ T20 Gene_expression S7 51 61 543 553 production
+% E5 Positive_regulation:T19 Theme:E6
+% E6 Gene_expression:T20 Theme:T6
+
+Results
+
+Bronchial epithelial cell lines were found to produce negligible amounts of basal or stimulated IL-1beta compared to hematopoeitic cells and they did not significantly upregulate caspase-1 activity upon inflammasome stimulation.
+# T7 Protein S9 96 104 724 732 IL-1beta
+$ T7 Protein S9 96 104 724 732 IL-1beta
+@ T21 Gene_expression S9 46 53 674 681 produce
+@ T22 Positive_regulation S9 85 95 713 723 stimulated
+% E7 Gene_expression:T21 Theme:T7
+% E8 Positive_regulation:T22 Theme:E7
+
+In contrast, peripheral blood mononuclear cells (PBMCs) from both CF and healthy control subjects produced large amounts of IL-1beta and strongly upregulated caspase-1 activity upon inflammasome stimulation.
+# T8 Protein S10 124 132 981 989 IL-1beta
+$ T8 Protein S10 124 132 981 989 IL-1beta
+@ T23 Gene_expression S10 98 106 955 963 produced
+@ T24 Positive_regulation S10 177 181 1034 1038 upon
+% E9 Gene_expression:T23 Theme:T8
+% E10 Positive_regulation:T24 Theme:E9
+
+PBMCs from CF patients and controls displayed similar levels of caspase-1 activation and IL-1beta production when stimulated with inflammasome activators.
+# T9 Protein S11 89 97 1154 1162 IL-1beta
+$ T9 Protein S11 89 97 1154 1162 IL-1beta
+@ T25 Gene_expression S11 98 108 1163 1173 production
+@ T26 Positive_regulation S11 114 124 1179 1189 stimulated
+% E11 Gene_expression:T25 Theme:T9
+% E12 Positive_regulation:T26 Theme:E11
+
+This IL-1beta production was dependent on NF-kappaB activity and could be enhanced by priming with LPS.
+# T10 Protein S12 5 13 1225 1233 IL-1beta
+
+Finally, chemical inhibition of CFTR activity in control PBMCs and THP-1 cells did not significantly alter IL-1beta or IL-8 production in response to P. aeruginosa.
+# T11 Protein S13 107 115 1431 1439 IL-1beta
+$ T11 Protein S13 107 115 1431 1439 IL-1beta
+@ T27 Regulation S13 101 106 1425 1430 alter
+@ T28 Gene_expression S13 124 134 1448 1458 production
+@ T29 Positive_regulation S13 135 149 1459 1473 in response to
+% E13 Regulation:T27 Theme:E14
+% E15 Gene_expression:T28 Theme:T11
+% E14 Positive_regulation:T29 Theme:E15
+
+Conclusion
+
+Hematopoeitic cells appear to be the predominant source of inflammasome-induced pro-inflammatory IL-1beta in CF. PBMCs derived from CF subjects display preserved inflammasome activation and IL-1beta secretion in response to the major CF pathogen Pseudomonas aeruginosa.
+# T12 Protein S15 97 105 1597 1605 IL-1beta
+# T13 Protein S15 190 198 1690 1698 IL-1beta
+$ T12 Protein S15 97 105 1597 1605 IL-1beta
+$ T13 Protein S15 190 198 1690 1698 IL-1beta
+@ T30 Positive_regulation S15 72 79 1572 1579 induced
+@ T31 Positive_regulation S15 152 161 1652 1661 preserved
+@ T32 Localization S15 199 208 1699 1708 secretion
+% E16 Positive_regulation:T30 Theme:T12
+% E17 Positive_regulation:T31 Theme:E18
+% E18 Localization:T32 Theme:T13
+
+However, our data do not support the hypothesis that increased IL-1beta production in CF subjects is due to an intrinsic increase in NF-kappaB activity through loss of CFTR function.
+# T14 Protein S16 63 71 1833 1841 IL-1beta
+$ T14 Protein S16 63 71 1833 1841 IL-1beta
+@ T33 Positive_regulation S16 53 62 1823 1832 increased
+@ T34 Gene_expression S16 72 82 1842 1852 production
+@ T35 Positive_regulation S16 101 104 1871 1874 due
+% E19 Positive_regulation:T33 Theme:E20
+% E20 Gene_expression:T34 Theme:T14
+% E21 Positive_regulation:T35 Theme:E19
+

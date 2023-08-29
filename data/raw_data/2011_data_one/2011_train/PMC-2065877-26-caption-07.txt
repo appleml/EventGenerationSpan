@@ -1,0 +1,42 @@
+LMP1 Activates Akt Signaling and Deregulates the Rb Cell Cycle Pathway
+# T1 Protein S1 0 4 0 4 LMP1
+# T2 Protein S1 15 18 15 18 Akt
+# T3 Protein S1 49 51 49 51 Rb
+
+(A and B) Immunoblot analysis of purified B cells (CD19+) from the spleens of WT and LMP1 transgenic mice for Akt signaling, probing for (A) activated pAkt and downstream targets, including inactivated pGSK3alpha/beta, and (B) activated p-mTOR, and total levels of FoxO1.
+# T4 Protein S2 51 55 122 126 CD19
+# T5 Protein S2 85 89 156 160 LMP1
+# T6 Protein S2 110 113 181 184 Akt
+# T7 Protein S2 151 155 222 226 pAkt
+# T8 Protein S2 202 212 273 283 pGSK3alpha
+# T9 Protein S2 213 217 284 288 beta
+# T10 Protein S2 237 243 308 314 p-mTOR
+# T11 Protein S2 265 270 336 341 FoxO1
+$ T8 Protein S2 202 212 273 283 pGSK3alpha
+$ T9 Protein S2 213 217 284 288 beta
+$ T10 Protein S2 237 243 308 314 p-mTOR
+@ T17 Regulation S2 171 178 242 249 targets
+@ T18 Positive_regulation S2 190 201 261 272 inactivated
+@ T19 Positive_regulation S2 227 236 298 307 activated
+% E1 Regulation:T17 Theme:T8
+% E2 Regulation:T17 Theme:T9
+% E3 Positive_regulation:T18 Theme:T8
+% E4 Positive_regulation:T18 Theme:T9
+% E5 Positive_regulation:T19 Theme:T10
+
+Arrows indicate the positions of alpha and beta isoforms of GSK3.
+# T12 Protein S3 60 64 403 407 GSK3
+
+The white line indicates that intervening lanes have been spliced out.
+
+(C) Immunoblot analysis for cell cycle proteins regulating the Rb pathway, probing for activated pRb, and total levels of Cdk2 and the Cdk inhibitor p27.
+# T13 Protein S5 63 65 544 546 Rb
+# T14 Protein S5 97 100 578 581 pRb
+# T15 Protein S5 122 126 603 607 Cdk2
+# T16 Protein S5 149 152 630 633 p27
+$ T14 Protein S5 97 100 578 581 pRb
+@ T20 Positive_regulation S5 87 96 568 577 activated
+% E6 Positive_regulation:T20 Theme:T14
+
+Actin was used as a loading control.
+

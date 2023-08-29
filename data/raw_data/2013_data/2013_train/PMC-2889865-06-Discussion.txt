@@ -1,0 +1,376 @@
+NF-kappaB and AP-1 are critical regulators of inflammatory responses, proliferation and differentiation of T-cells [28-30], however, the signal transduction and subsequent cytokine/chemokine expression is not fully understood.
+
+The aim of the present study was to investigate IL-6 and CXCL8 regulation by NF-kappaB and AP-1 in Jurkat T-cells.
+# T1 Protein S2 48 52 275 279 IL-6
+# T2 Protein S2 57 62 284 289 CXCL8
+$ T1 Protein S2 48 52 275 279 IL-6
+$ T2 Protein S2 57 62 284 289 CXCL8
+@ T30 Regulation S2 63 73 290 300 regulation
+% E1 Regulation:T30 Theme:T1
+% E2 Regulation:T30 Theme:T2
+
+Our results demonstrated that PMA induced AP-1 activation, indicating a specific activation of the MAPK pathway.
+
+Furthermore, we demonstrated that PMA dependent AP-1 activation in T-cells was delayed (>2 h) and increased following long-term treatment.
+
+MAPK is one of the main signalling pathways in T-cells that regulate cell- and transcriptional activation [31,32].
+
+Several studies [20,33,34] have indicated the importance of AP-1 in T-cell activation and the induction of inflammatory responses [35], including pro-inflammatory cytokine release.
+
+In contrast to AP-1, NF-kappaB activity rapidly increased (1 min) during PMA exposure followed by a down-regulation to the lowest levels at 6 h.
+
+This is in line with Park and colleagues [36] who demonstrated a rapid increase in NF-kappaB activity following short-term stimulation with PMA, but prolonged challenge resulted in a persistent inhibition of NF-kappaB.
+
+They showed that the inhibition of NF-kappaB was due to PKC-dependent degradation of IkappaB kinase beta and gamma in response to PMA.
+# T3 Protein S9 85 104 1339 1358 IkappaB kinase beta
+# T4 Protein S9 109 114 1363 1368 gamma
+$ T3 Protein S9 85 104 1339 1358 IkappaB kinase beta
+$ T4 Protein S9 109 114 1363 1368 gamma
+@ T31 Regulation S9 60 69 1314 1323 dependent
+@ T32 Protein_catabolism S9 70 81 1324 1335 degradation
+@ T33 Positive_regulation S9 115 129 1369 1383 in response to
+% E3 Regulation:T31 Theme:E4
+% E5 Regulation:T31 Theme:E6
+% E4 Protein_catabolism:T32 Theme:T3
+% E6 Protein_catabolism:T32 Theme:T4
+% E7 Positive_regulation:T33 Theme:E3
+% E8 Positive_regulation:T33 Theme:E5
+
+Interestingly, the HK E. coli exposure induced NF-kappaB activation without affecting AP-1 activity.
+
+Wang and colleagues [37] reported an elevated inflammatory response by obtaining expression of IL-6 following the exposure of T-cells to peptidoglycan.
+# T5 Protein S11 95 99 1585 1589 IL-6
+$ T5 Protein S11 95 99 1585 1589 IL-6
+@ T34 Gene_expression S11 81 91 1571 1581 expression
+@ T35 Positive_regulation S11 100 109 1590 1599 following
+% E9 Gene_expression:T34 Theme:T5
+% E10 Positive_regulation:T35 Theme:E9
+
+Reduction in NF-kappaB by calcium ionophore following HK E. coli stimulation may be due to the Ca2+ binding protein calmodulin (CaM), which has been shown to negatively regulate c-Rel when activated [38].
+# T6 Protein S12 178 183 1820 1825 c-Rel
+$ T6 Protein S12 178 183 1820 1825 c-Rel
+@ T36 Negative_regulation S12 158 177 1800 1819 negatively regulate
+% E11 Negative_regulation:T36 Theme:T6
+
+The regulation of NF-kappaB and AP-1 observed in the present study was in agreement with earlier studies.
+
+T-cells produce a broad range of pro- and anti-inflammatory cytokines, including IL-2, IL-6, CXCL8, TNF and IL-10, in response to infections or other stress factors [39].
+# T7 Protein S14 81 85 2034 2038 IL-2
+# T8 Protein S14 87 91 2040 2044 IL-6
+# T9 Protein S14 93 98 2046 2051 CXCL8
+# T10 Protein S14 108 113 2061 2066 IL-10
+
+The assessment of Jurkat T-cell inflammatory responses (Table 1) revealed an enhanced IL-2 expression upon exposure to PMA or HK E. coli due to PKC activation [40].
+# T11 Protein S15 86 90 2210 2214 IL-2
+$ T11 Protein S15 86 90 2210 2214 IL-2
+@ T37 Positive_regulation S15 77 85 2201 2209 enhanced
+@ T38 Gene_expression S15 91 101 2215 2225 expression
+@ T39 Positive_regulation S15 137 140 2261 2264 due
+% E12 Positive_regulation:T37 Theme:E13
+% E13 Gene_expression:T38 Theme:T11
+% E14 Positive_regulation:T39 Theme:E12
+
+In addition to the transcription factor NF-kappaB, AP-1 binding sites have been identified in the IL-6 promoter region, indicating multiple regulation [22].
+# T12 Protein S16 98 102 2387 2391 IL-6
+$ T12 Protein S16 98 102 2387 2391 IL-6
+@ T40 Regulation S16 140 150 2429 2439 regulation
+% E15 Regulation:T40 Theme:T12
+
+AP-1 and NF-kappaB have also been demonstrated to regulate CXCL8 expression during induction of inflammatory responses in T-cells [12].
+# T13 Protein S17 59 64 2505 2510 CXCL8
+$ T13 Protein S17 59 64 2505 2510 CXCL8
+@ T41 Gene_expression S17 65 75 2511 2521 expression
+% E16 Gene_expression:T41 Theme:T13
+
+Furthermore, IL-6 and CXCL8 gene-expression is associated with an early immune response in Jurkat T-cells [41].
+# T14 Protein S18 13 17 2595 2599 IL-6
+# T15 Protein S18 22 27 2604 2609 CXCL8
+$ T14 Protein S18 13 17 2595 2599 IL-6
+$ T15 Protein S18 22 27 2604 2609 CXCL8
+@ T42 Gene_expression S18 33 43 2615 2625 expression
+% E17 Gene_expression:T42 Theme:T14
+% E18 Gene_expression:T42 Theme:T15
+
+In the present study, both PMA and HK E. coli resulted in comparable increases in IL-6 while PMA was more potent at activating CXCL8 release.
+# T16 Protein S19 82 86 2776 2780 IL-6
+# T17 Protein S19 127 132 2821 2826 CXCL8
+$ T16 Protein S19 82 86 2776 2780 IL-6
+$ T17 Protein S19 127 132 2821 2826 CXCL8
+@ T43 Positive_regulation S19 69 78 2763 2772 increases
+@ T44 Positive_regulation S19 116 126 2810 2820 activating
+@ T45 Localization S19 133 140 2827 2834 release
+% E19 Positive_regulation:T43 Theme:T16
+% E20 Positive_regulation:T44 Theme:E21
+% E21 Localization:T45 Theme:T17
+
+PMA and HK E. coli treatment also induced TNF expression.
+
+TNF is one of the first cytokines induced by T-cells [42] and its expression is regulated by calcineurin, NFAT and ATF-2/Jun [20].
+# T18 Protein S21 115 120 3009 3014 ATF-2
+
+However, PMA-stimulated Jurkat T-cells showed no difference in IL-10 expression indicating an induced inflammatory response.
+# T19 Protein S22 63 68 3088 3093 IL-10
+$ T19 Protein S22 63 68 3088 3093 IL-10
+@ T46 Regulation S22 39 59 3064 3084 showed no difference
+@ T47 Gene_expression S22 69 79 3094 3104 expression
+% E22 Regulation:T46 Theme:E23
+% E23 Gene_expression:T47 Theme:T19
+
+HK E. coli treatment resulted in a significant reduction of IL-10 expression.
+# T20 Protein S23 60 65 3210 3215 IL-10
+$ T20 Protein S23 60 65 3210 3215 IL-10
+@ T48 Negative_regulation S23 47 56 3197 3206 reduction
+@ T49 Gene_expression S23 66 76 3216 3226 expression
+% E24 Negative_regulation:T48 Theme:E25
+% E25 Gene_expression:T49 Theme:T20
+
+The anti-inflammatory cytokine IL-10 is known to inhibit T-cell activation, proliferation and the expression of pro-inflammatory cytokines, such as IL-2, IL-5 and INF-gamma [39,43] and regulate inflammatory responses by inducing T-cell anergy [44].
+# T21 Protein S24 31 36 3259 3264 IL-10
+# T22 Protein S24 148 152 3376 3380 IL-2
+# T23 Protein S24 154 158 3382 3386 IL-5
+# T24 Protein S24 163 172 3391 3400 INF-gamma
+
+The time course analysis of cytokine expression showed a correlation between AP-1 and the chemokine CXCL8 where CXCL8 expression was significantly elevated already at 2-6 h after PMA exposure.
+# T25 Protein S25 100 105 3577 3582 CXCL8
+
+The CXCL8 expression did not correlate with the early NF-kappaB activation (1 min) or with the down-regulation of NF-kappaB at 2 h post exposure.
+
+Both IL-6 and TNF expression were up regulated between 6-24 h.
+# T26 Protein S27 5 9 3821 3825 IL-6
+$ T26 Protein S27 5 9 3821 3825 IL-6
+@ T50 Gene_expression S27 18 28 3834 3844 expression
+@ T51 Positive_regulation S27 34 46 3850 3862 up regulated
+% E26 Gene_expression:T50 Theme:T26
+% E27 Positive_regulation:T51 Theme:E26
+
+During this period, NF-kappaB increased from its minimum level at 6 h. PKC has been shown to be associated with the activation of AP-1, but not with NF-kappaB activation of the IL-2 promoter [45].
+# T27 Protein S28 177 181 4056 4060 IL-2
+$ T27 Protein S28 177 181 4056 4060 IL-2
+@ T52 Positive_regulation S28 159 169 4038 4048 activation
+@ T53 Entity S28 182 190 4061 4069 promoter
+% E28 Positive_regulation:T52 Theme:T27 Site:T53
+
+Mutation of the NF-kappaB site did not affect IL-2 expression, whereas mutation of the AP-1 site or PKC depletion almost revoked IL-2 release.
+# T28 Protein S29 46 50 4122 4126 IL-2
+# T29 Protein S29 129 133 4205 4209 IL-2
+$ T28 Protein S29 46 50 4122 4126 IL-2
+$ T29 Protein S29 129 133 4205 4209 IL-2
+@ T54 Regulation S29 0 8 4076 4084 Mutation
+@ T55 Entity S29 16 30 4092 4106 NF-kappaB site
+@ T56 Regulation S29 39 45 4115 4121 affect
+@ T57 Gene_expression S29 51 61 4127 4137 expression
+@ T58 Regulation S29 71 79 4147 4155 mutation
+@ T59 Entity S29 87 96 4163 4172 AP-1 site
+@ T60 Negative_regulation S29 121 128 4197 4204 revoked
+@ T61 Localization S29 134 141 4210 4217 release
+% E29 Regulation:T54 Theme:T28 Site:T55
+% E30 Regulation:T56 Theme:E31 Cause:E29
+% E31 Gene_expression:T57 Theme:T28
+% E32 Regulation:T58 Theme:T29 Site:T59
+% E33 Negative_regulation:T60 Theme:E34 Cause:E32
+% E34 Localization:T61 Theme:T29
+
+These observations indicate that the MAPK pathway and the transcription factor AP-1 play an important role in the induction of inflammatory responses in Jurkat T-cells [12,20,22].
+
+The obtained results signify that CXCL8 was primarily regulated through the MAPK pathway.
+
+The NF-kappaB activation inhibitor (NAI) showed specificity against NF-kappaB and resulted in a complete IL-6 inhibition following induction with PMA and significant IL-6 reduction after HK E. coli treatment.
+# T62 Protein S32 105 109 4594 4598 IL-6
+# T63 Protein S32 166 170 4655 4659 IL-6
+$ T62 Protein S32 105 109 4594 4598 IL-6
+$ T63 Protein S32 166 170 4655 4659 IL-6
+@ T95 Positive_regulation S32 82 90 4571 4579 resulted
+@ T96 Negative_regulation S32 110 120 4599 4609 inhibition
+@ T97 Positive_regulation S32 131 140 4620 4629 induction
+@ T98 Negative_regulation S32 171 180 4660 4669 reduction
+% E35 Positive_regulation:T95 Theme:E36
+% E37 Positive_regulation:T95 Theme:E38
+% E36 Negative_regulation:T96 Theme:T62
+% E39 Positive_regulation:T97 Theme:T62
+% E38 Negative_regulation:T98 Theme:T63
+
+CXCL8 was highly up regulated by PMA and the addition of NAI resulted in a minor reduction in CXCL8 expression.
+# T64 Protein S33 94 99 4792 4797 CXCL8
+$ T64 Protein S33 94 99 4792 4797 CXCL8
+@ T99 Negative_regulation S33 81 90 4779 4788 reduction
+@ T100 Gene_expression S33 100 110 4798 4808 expression
+% E40 Negative_regulation:T99 Theme:E41
+% E41 Gene_expression:T100 Theme:T64
+
+Furthermore, CXCL8 expression was not affected by NAI following HK E. coli treatment, indicating a lack of correlation between CXCL8 and NF-kappaB.
+# T65 Protein S34 13 18 4823 4828 CXCL8
+# T66 Protein S34 127 132 4937 4942 CXCL8
+$ T65 Protein S34 13 18 4823 4828 CXCL8
+@ T101 Gene_expression S34 19 29 4829 4839 expression
+@ T102 Regulation S34 38 46 4848 4856 affected
+@ T103 Positive_regulation S34 54 63 4864 4873 following
+% E42 Gene_expression:T101 Theme:T65
+% E43 Regulation:T102 Theme:E42
+% E44 Positive_regulation:T103 Theme:E42
+
+Further analysis of CXCL8 expression revealed a down-regulation by PKC- and JNK- inhibitors, suggesting an involvement of AP-1 via PKC and JNK, respectively.
+# T67 Protein S35 20 25 4978 4983 CXCL8
+$ T67 Protein S35 20 25 4978 4983 CXCL8
+@ T104 Gene_expression S35 26 36 4984 4994 expression
+@ T105 Negative_regulation S35 48 63 5006 5021 down-regulation
+@ T106 Regulation S35 107 118 5065 5076 involvement
+@ T107 Positive_regulation S35 127 130 5085 5088 via
+% E45 Gene_expression:T104 Theme:T67
+% E46 Negative_regulation:T105 Theme:E45
+% E47 Regulation:T106 Theme:E45
+% E48 Positive_regulation:T107 Theme:E47
+
+Analysis of gene expression further confirmed that il-6 and cxcl8 were upregulated by PMA.
+# T68 Protein S36 51 55 5167 5171 il-6
+# T69 Protein S36 60 65 5176 5181 cxcl8
+$ T68 Protein S36 51 55 5167 5171 il-6
+$ T69 Protein S36 60 65 5176 5181 cxcl8
+@ T108 Positive_regulation S36 71 82 5187 5198 upregulated
+% E49 Positive_regulation:T108 Theme:T68
+% E50 Positive_regulation:T108 Theme:T69
+
+Expression of il-6 dropped below basal levels following inhibition of NF-kappaB and JNK whereas cxcl8 remained elevated above basal levels (16.5-fold and 7.1-fold respectively) following the same treatment.
+# T70 Protein S37 14 18 5221 5225 il-6
+# T71 Protein S37 96 101 5303 5308 cxcl8
+$ T70 Protein S37 14 18 5221 5225 il-6
+$ T71 Protein S37 96 101 5303 5308 cxcl8
+@ T109 Gene_expression S37 0 10 5207 5217 Expression
+@ T110 Negative_regulation S37 19 26 5226 5233 dropped
+@ T111 Negative_regulation S37 102 119 5309 5326 remained elevated
+% E51 Gene_expression:T109 Theme:T70
+% E52 Negative_regulation:T110 Theme:E51
+% E53 Negative_regulation:T111 Theme:T71
+
+Furthermore, inhibition of PKC did not result in a significant decrease of il-6 or cxcl8, which is in accordance with protein data (figure 6).
+# T72 Protein S38 75 79 5489 5493 il-6
+# T73 Protein S38 83 88 5497 5502 cxcl8
+$ T72 Protein S38 75 79 5489 5493 il-6
+$ T73 Protein S38 83 88 5497 5502 cxcl8
+@ T112 Negative_regulation S38 63 71 5477 5485 decrease
+% E54 Negative_regulation:T112 Theme:T72
+% E55 Negative_regulation:T112 Theme:T73
+
+These results suggest that NF-kappaB is involved in IL-6 regulation and release while it is not required for the expression of CXCL8 in Jurkat T cells.
+# T74 Protein S39 52 56 5609 5613 IL-6
+# T75 Protein S39 127 132 5684 5689 CXCL8
+$ T74 Protein S39 52 56 5609 5613 IL-6
+$ T75 Protein S39 127 132 5684 5689 CXCL8
+@ T113 Regulation S39 40 48 5597 5605 involved
+@ T114 Regulation S39 57 67 5614 5624 regulation
+@ T115 Localization S39 72 79 5629 5636 release
+@ T116 Regulation S39 96 104 5653 5661 required
+@ T117 Gene_expression S39 113 123 5670 5680 expression
+% E56 Regulation:T113 Theme:E57
+% E58 Regulation:T113 Theme:E59
+% E57 Regulation:T114 Theme:T74
+% E59 Localization:T115 Theme:T74
+% E60 Regulation:T116 Theme:E61
+% E61 Gene_expression:T117 Theme:T75
+
+The transcription factor NF-kappaB is responsible for a rapid immune response which is followed by an increase in transcription of IkappaB thus inhibiting NF-kappaB [46].
+
+Activation of NF-kappaB in Jurkat T-cells is dependent on Bcl10 activation, which in turn is regulated by PKC.
+# T76 Protein S41 58 63 5938 5943 Bcl10
+$ T76 Protein S41 58 63 5938 5943 Bcl10
+@ T118 Positive_regulation S41 64 74 5944 5954 activation
+@ T119 Regulation S41 93 102 5973 5982 regulated
+% E62 Positive_regulation:T118 Theme:T76
+% E63 Regulation:T119 Theme:E62
+
+Recent studies have established the importance of a protein complex consisting of CARMA1, Bcl10 and MALT1 (CBM), in the induction of NF-kappaB.
+# T77 Protein S42 82 88 6073 6079 CARMA1
+# T78 Protein S42 90 95 6081 6086 Bcl10
+# T79 Protein S42 100 105 6091 6096 MALT1
+
+Investigating Bcl10, Scharschmidt and colleagues [47] demonstrated that it is a critical regulator of NF-kappaB activity.
+# T80 Protein S43 14 19 6149 6154 Bcl10
+
+Down-regulation of Bcl10 from signals transduced via the TCR/CD28 and PKC resulted in a concomitant down-regulation of NF-kappaB.
+# T81 Protein S44 19 24 6276 6281 Bcl10
+# T82 Protein S44 61 65 6318 6322 CD28
+$ T81 Protein S44 19 24 6276 6281 Bcl10
+$ T82 Protein S44 61 65 6318 6322 CD28
+@ T120 Negative_regulation S44 0 15 6257 6272 Down-regulation
+% E64 Negative_regulation:T120 Theme:T81 Cause:T82
+
+They suggested that Bcl10 is initially activated by TCR/PKC but that continued activation (>1 h) promotes its degradation.
+# T83 Protein S45 20 25 6407 6412 Bcl10
+$ T83 Protein S45 20 25 6407 6412 Bcl10
+@ T121 Positive_regulation S45 39 48 6426 6435 activated
+@ T92 Anaphora S45 64 89 6451 6476 that continued activation
+@ T122 Positive_regulation S45 97 105 6484 6492 promotes
+@ T93 Anaphora S45 106 109 6493 6496 its
+@ T123 Protein_catabolism S45 110 121 6497 6508 degradation
+% E65 Positive_regulation:T121 Theme:T83
+% E66 Positive_regulation:T122 Theme:E67 Cause:E65
+% E67 Protein_catabolism:T123 Theme:T83
+
+Narayan and colleagues [27] suggested that deletion in any of the three CBM complex proteins impairs antigen-receptor dependent activation of NF-kappaB.
+@ T124 Negative_regulation S46 43 51 6553 6561 deletion
+@ T94 Anaphora S46 62 92 6572 6602 the three CBM complex proteins
+% E68 Negative_regulation:T124 Theme:T77
+% E69 Negative_regulation:T124 Theme:T78
+% E70 Negative_regulation:T124 Theme:T79
+
+They showed that NF-kappaB activation via Akt requires CARMA1 and acts in cooperation with PKC following short-term exposure (30 min) of Jurkat T-cells with PMA.
+# T84 Protein S47 55 61 6718 6724 CARMA1
+
+Akt phosphorylates and thus activates Bcl10.
+# T85 Protein S48 38 43 6863 6868 Bcl10
+$ T85 Protein S48 38 43 6863 6868 Bcl10
+@ T125 Phosphorylation S48 4 18 6829 6843 phosphorylates
+@ T126 Positive_regulation S48 28 37 6853 6862 activates
+% E71 Phosphorylation:T125 Theme:T85
+% E72 Positive_regulation:T126 Theme:T85
+
+These studies indicate that PKC is crucial for NF-kappaB activation following short-term treatment through signals via membrane bound receptors such as the TCR and the co-stimulatory receptor CD28.
+# T86 Protein S49 192 196 7062 7066 CD28
+
+Thus, the CBM complex proteins play a key role in this signalling process.
+
+PMA diffuses into the cytosol and directly activates PKC since it is an analogue to diacylglycerol [48].
+
+Several studies have demonstrated that inhibition of PKC blocks NF-kappaB and AP-1 activity, suggesting a direct regulation of these transcription factors by PKC [49,50].
+
+PKC is activated at an early stage following T-cell stimulation and is therefore an important regulator of downstream inflammatory signalling pathways leading to cytokine expression [50].
+
+We have shown that phosphorylated-PKC is up regulated in response to PMA and HK E. coli, indicating an association between PKC and the transcription factors AP-1 and NF-kappaB.
+
+Bcl10 levels were down-regulated following extended treatment of Jurkat T-cells with PMA.
+# T87 Protein S55 0 5 7784 7789 Bcl10
+$ T87 Protein S55 0 5 7784 7789 Bcl10
+@ T127 Negative_regulation S55 18 32 7802 7816 down-regulated
+% E73 Negative_regulation:T127 Theme:T87
+
+In the control groups, a loss of Bcl10 occurred after 6 h, followed by an increase after 24 h, which is in accordance with the observed NF-kappaB activity (figure 7).
+# T88 Protein S56 33 38 7907 7912 Bcl10
+$ T88 Protein S56 33 38 7907 7912 Bcl10
+@ T128 Negative_regulation S56 25 29 7899 7903 loss
+@ T129 Positive_regulation S56 74 82 7948 7956 increase
+% E74 Negative_regulation:T128 Theme:T88
+% E75 Positive_regulation:T129 Theme:T88
+
+These results are supported by an earlier study [47], demonstrating that prolonged PKC activation by PMA leads to an inhibition of Bcl10 and NF-kappaB.
+# T89 Protein S57 131 136 8172 8177 Bcl10
+$ T89 Protein S57 131 136 8172 8177 Bcl10
+@ T130 Positive_regulation S57 105 110 8146 8151 leads
+@ T131 Negative_regulation S57 117 127 8158 8168 inhibition
+% E76 Positive_regulation:T130 Theme:E77
+% E77 Negative_regulation:T131 Theme:T89
+
+It has been shown that NF-kappaB is an important transcription factor complex involved in almost every aspect of cell regulation including apoptosis, differentiation, proliferation and initiation of immune responses [51-53].
+
+NF-kappaB is constitutively active in many human malignancies, which makes it an attractive therapeutic target [54].
+
+Elevated CXCL8 levels during chronic inflammation result in an enhanced recruitment of immune cells to the site of infection, which may lead to the development of autoimmune diseases following secretion of pro-inflammatory cytokines.
+# T90 Protein S60 9 14 8544 8549 CXCL8
+$ T90 Protein S60 9 14 8544 8549 CXCL8
+@ T132 Positive_regulation S60 0 8 8535 8543 Elevated
+% E78 Positive_regulation:T132 Theme:T90
+
+In HIV infected persons, serum CXCL8 levels are elevated and this could recruit more T-cells potentially leading to a more rapid progression of the disease since there will be more T-cells available to infect.
+# T91 Protein S61 31 36 8800 8805 CXCL8
+$ T91 Protein S61 31 36 8800 8805 CXCL8
+@ T133 Positive_regulation S61 48 56 8817 8825 elevated
+% E79 Positive_regulation:T133 Theme:T91
+

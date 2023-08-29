@@ -1,0 +1,135 @@
+Role of Egr-2 in up-regulation of Fas ligand in normal T cells and aberrant double-negative lpr and gld T cells.
+# T1 Protein S1 8 13 8 13 Egr-2
+# T2 Protein S1 34 44 34 44 Fas ligand
+$ T1 Protein S1 8 13 8 13 Egr-2
+$ T2 Protein S1 34 44 34 44 Fas ligand
+@ T42 Regulation S1 0 4 0 4 Role
+@ T43 Positive_regulation S1 17 30 17 30 up-regulation
+% E1 Regulation:T42 Theme:E2 Cause:T1
+% E2 Positive_regulation:T43 Theme:T2
+
+We previously identified a Fas ligand regulatory element (FLRE) in the Fas ligand (fasL) promoter that binds Egr family proteins and demonstrated that Egr-3 (PILOT) but not Egr-1 (NGFI-A, Krox-24, Tis-8, and Zif-268) induces transcription of fasL.
+# T3 Protein S2 27 37 141 151 Fas ligand
+# T4 Protein S2 71 81 185 195 Fas ligand
+# T5 Protein S2 83 87 197 201 fasL
+# T6 Protein S2 151 156 265 270 Egr-3
+# T7 Protein S2 158 163 272 277 PILOT
+# T8 Protein S2 173 178 287 292 Egr-1
+# T9 Protein S2 180 186 294 300 NGFI-A
+# T10 Protein S2 188 195 302 309 Krox-24
+# T11 Protein S2 197 202 311 316 Tis-8
+# T12 Protein S2 208 215 322 329 Zif-268
+# T13 Protein S2 242 246 356 360 fasL
+$ T4 Protein S2 71 81 185 195 Fas ligand
+$ T8 Protein S2 173 178 287 292 Egr-1
+$ T7 Protein S2 158 163 272 277 PILOT
+$ T13 Protein S2 242 246 356 360 fasL
+@ T44 Entity S2 89 97 203 211 promoter
+@ T45 Binding S2 103 108 217 222 binds
+@ T46 Positive_regulation S2 217 224 331 338 induces
+@ T47 Transcription S2 225 238 339 352 transcription
+% E3 Binding:T45 Theme:T4 Site:T44
+% E4 Positive_regulation:T46 Theme:E6 Cause:T8
+% E5 Positive_regulation:T46 Theme:E6 Cause:T7
+% E6 Transcription:T47 Theme:T13
+
+The aberrant CD4(-)CD8(-) T cells from lpr/lpr and gld/gld mice, which have mutations in the genes encoding Fas and FasL, respectively, have an activated phenotype and constitutively express high levels of fasL mRNA, prompting us to ask what role if any the FLRE and Egr family proteins have in this aberrant expression of fasL.
+# T14 Protein S3 13 16 375 378 CD4
+# T15 Protein S3 108 111 470 473 Fas
+# T16 Protein S3 116 120 478 482 FasL
+# T17 Protein S3 206 210 568 572 fasL
+# T18 Protein S3 323 327 685 689 fasL
+$ T17 Protein S3 206 210 568 572 fasL
+@ T48 Transcription S3 183 190 545 552 express
+@ T49 Positive_regulation S3 191 202 553 564 high levels
+@ T50 Regulation S3 242 246 604 608 role
+% E7 Transcription:T48 Theme:T17
+% E8 Positive_regulation:T49 Theme:E7
+% E9 Regulation:T50 Theme:E8
+
+Unstimulated MRL-lpr/lpr and C3H-gld/gld CD4(-)CD8(-) T cells constitutively contained high levels of two proteins that bound to the FLRE.
+# T19 Protein S4 41 44 732 735 CD4
+
+Supershift analysis revealed these proteins to be Egr-1 and Egr-2 (Krox-20); Egr-3 was not detected.
+# T20 Protein S5 50 55 880 885 Egr-1
+# T21 Protein S5 60 65 890 895 Egr-2
+# T22 Protein S5 67 74 897 904 Krox-20
+# T23 Protein S5 77 82 907 912 Egr-3
+$ T23 Protein S5 77 82 907 912 Egr-3
+@ T51 Gene_expression S5 91 99 921 929 detected
+% E10 Gene_expression:T51 Theme:T23
+
+Activation of normal lymph node cells resulted in increased expression of Egr-1, -2, and -3.
+# T24 Protein S6 74 79 1005 1010 Egr-1
+# T25 Protein S6 81 83 1012 1014 -2
+# T26 Protein S6 89 91 1020 1022 -3
+$ T25 Protein S6 81 83 1012 1014 -2
+$ T24 Protein S6 74 79 1005 1010 Egr-1
+$ T26 Protein S6 89 91 1020 1022 -3
+@ T52 Positive_regulation S6 38 59 969 990 resulted in increased
+@ T53 Gene_expression S6 60 70 991 1001 expression
+% E11 Positive_regulation:T52 Theme:E16
+% E12 Positive_regulation:T52 Theme:E14
+% E13 Positive_regulation:T52 Theme:E15
+% E14 Gene_expression:T53 Theme:T25
+% E15 Gene_expression:T53 Theme:T24
+% E16 Gene_expression:T53 Theme:T26
+
+As with egr-3, expression of egr-2 was blocked by cyclosporin A. Although overexpressed Egr-1 was ineffective, overexpressed Egr-2 was as potent as Egr-3 in inducing fasL promoter-dependent reporter constructs in T cell hybridomas and HeLa cells, and both up-regulated endogenous fasL mRNA in HeLa cells.
+# T27 Protein S7 8 13 1032 1037 egr-3
+# T28 Protein S7 29 34 1053 1058 egr-2
+# T29 Protein S7 88 93 1112 1117 Egr-1
+# T30 Protein S7 125 130 1149 1154 Egr-2
+# T31 Protein S7 148 153 1172 1177 Egr-3
+# T32 Protein S7 166 170 1190 1194 fasL
+# T33 Protein S7 280 284 1304 1308 fasL
+$ T27 Protein S7 8 13 1032 1037 egr-3
+$ T28 Protein S7 29 34 1053 1058 egr-2
+$ T29 Protein S7 88 93 1112 1117 Egr-1
+$ T30 Protein S7 125 130 1149 1154 Egr-2
+$ T33 Protein S7 280 284 1304 1308 fasL
+$ T31 Protein S7 148 153 1172 1177 Egr-3
+@ T54 Gene_expression S7 15 25 1039 1049 expression
+@ T55 Negative_regulation S7 39 46 1063 1070 blocked
+@ T56 Gene_expression S7 74 87 1098 1111 overexpressed
+@ T57 Positive_regulation S7 74 87 1098 1111 overexpressed
+@ T58 Gene_expression S7 111 124 1135 1148 overexpressed
+@ T59 Positive_regulation S7 111 124 1135 1148 overexpressed
+@ T60 Positive_regulation S7 256 268 1280 1292 up-regulated
+% E17 Gene_expression:T54 Theme:T27
+% E18 Gene_expression:T54 Theme:T28
+% E19 Negative_regulation:T55 Theme:E18
+% E20 Negative_regulation:T55 Theme:E17
+% E21 Gene_expression:T56 Theme:T29
+% E22 Positive_regulation:T57 Theme:E21
+% E23 Gene_expression:T58 Theme:T30
+% E24 Positive_regulation:T59 Theme:E23
+% E25 Positive_regulation:T60 Theme:T33 Cause:T30
+% E26 Positive_regulation:T60 Theme:T33 Cause:T31
+
+FasL-dependent reporter constructs in MRL-lpr/lpr and C3H-gld/gld CD4(-)CD8(-) T cells were constitutively active, and this activity was largely prevented by mutation of the critical Egr family binding element.
+# T34 Protein S8 0 4 1329 1333 FasL
+# T35 Protein S8 66 69 1395 1398 CD4
+
+Thus, Egr-2, in addition to Egr-3, regulates FasL expression in activated normal T cells, and Egr-2 is likely to play a direct role in aberrant fasL up-regulation in lpr/lpr and gld/gld CD4(-)CD8(-) T cells.
+# T36 Protein S9 6 11 1546 1551 Egr-2
+# T37 Protein S9 28 33 1568 1573 Egr-3
+# T38 Protein S9 45 49 1585 1589 FasL
+# T39 Protein S9 94 99 1634 1639 Egr-2
+# T40 Protein S9 144 148 1684 1688 fasL
+# T41 Protein S9 186 189 1726 1729 CD4
+$ T36 Protein S9 6 11 1546 1551 Egr-2
+$ T37 Protein S9 28 33 1568 1573 Egr-3
+$ T38 Protein S9 45 49 1585 1589 FasL
+$ T39 Protein S9 94 99 1634 1639 Egr-2
+$ T40 Protein S9 144 148 1684 1688 fasL
+@ T61 Regulation S9 35 44 1575 1584 regulates
+@ T62 Gene_expression S9 50 60 1590 1600 expression
+@ T63 Regulation S9 127 131 1667 1671 role
+@ T64 Positive_regulation S9 149 162 1689 1702 up-regulation
+% E27 Regulation:T61 Theme:E29 Cause:T36
+% E28 Regulation:T61 Theme:E29 Cause:T37
+% E29 Gene_expression:T62 Theme:T38
+% E30 Regulation:T63 Theme:T39
+% E31 Positive_regulation:T64 Theme:T40
+

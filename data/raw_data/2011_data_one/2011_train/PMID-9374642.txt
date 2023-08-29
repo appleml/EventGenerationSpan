@@ -1,0 +1,65 @@
+Hypoxia enhances induction of endothelial ICAM-1: role for metabolic acidosis and proteasomes.
+# T1 Protein S1 42 48 42 48 ICAM-1
+$ T1 Protein S1 42 48 42 48 ICAM-1
+@ T12 Positive_regulation S1 8 16 8 16 enhances
+@ T13 Positive_regulation S1 17 26 17 26 induction
+% E1 Positive_regulation:T12 Theme:E2
+% E2 Positive_regulation:T13 Theme:T1
+
+Intercellular adhesion molecule 1 (ICAM-1) is an important molecule in promotion of polymorphonuclear neutrophil transendothelial migration during inflammation.
+# T2 Protein S2 0 33 96 129 Intercellular adhesion molecule 1
+# T3 Protein S2 35 41 131 137 ICAM-1
+
+Coincident with many inflammatory diseases is tissue hypoxia.
+
+Thus we hypothesized that combinations of hypoxia and inflammatory stimuli may differentially regulate expression of endothelial ICAM-1.
+# T4 Protein S4 129 135 448 454 ICAM-1
+$ T4 Protein S4 129 135 448 454 ICAM-1
+@ T14 Regulation S4 94 102 413 421 regulate
+@ T15 Gene_expression S4 103 113 422 432 expression
+% E3 Regulation:T14 Theme:E4
+% E4 Gene_expression:T15 Theme:T4
+
+Human endothelial cells were exposed to hypoxia in the presence or absence of added lipopolysaccharide (LPS) and examined for expression of functional ICAM-1.
+# T5 Protein S5 151 157 607 613 ICAM-1
+$ T5 Protein S5 151 157 607 613 ICAM-1
+@ T16 Gene_expression S5 126 136 582 592 expression
+% E5 Gene_expression:T16 Theme:T5
+
+Although hypoxia alone did not induce ICAM-1, the combination of LPS and hypoxia enhanced (3 +/- 0.4-fold over normoxia) ICAM-1 expression.
+# T6 Protein S6 38 44 653 659 ICAM-1
+# T7 Protein S6 121 127 736 742 ICAM-1
+$ T6 Protein S6 38 44 653 659 ICAM-1
+$ T7 Protein S6 121 127 736 742 ICAM-1
+@ T17 Positive_regulation S6 31 37 646 652 induce
+@ T18 Positive_regulation S6 81 89 696 704 enhanced
+@ T19 Gene_expression S6 128 138 743 753 expression
+% E6 Positive_regulation:T17 Theme:T6
+% E7 Positive_regulation:T18 Theme:E8
+% E8 Gene_expression:T19 Theme:T7
+
+Combinations of hypoxia and LPS significantly increased lymphocyte binding, and such increases were inhibited by addition of anti-ICAM-1 antibodies or antisense oligonucleotides.
+# T8 Protein S7 130 136 885 891 ICAM-1
+
+Hypoxic endothelia showed a > 10-fold increase in sensitivity to inhibitors of proteasome activation, and combinations of hypoxia and LPS enhanced proteasome-dependent cytoplasmic-to-nuclear localization of the nuclear transcription factor-kappa B p65 (Rel A) subunit.
+# T9 Protein S8 248 251 1182 1185 p65
+# T10 Protein S8 253 258 1187 1192 Rel A
+$ T10 Protein S8 253 258 1187 1192 Rel A
+@ T20 Positive_regulation S8 138 146 1072 1080 enhanced
+@ T21 Regulation S8 158 167 1092 1101 dependent
+@ T22 Entity S8 183 190 1117 1124 nuclear
+@ T23 Localization S8 191 203 1125 1137 localization
+% E9 Positive_regulation:T20 Theme:E11
+% E10 Regulation:T21 Theme:E11
+% E11 Localization:T23 Theme:T10 ToLoc:T22
+
+Such proteasome activation correlated with hypoxia-evoked decreases in both extracellular and intracellular pH. We conclude from these studies that endothelial hypoxia provides a novel, proteasome-dependent stimulus for ICAM-1 induction.
+# T11 Protein S9 220 226 1423 1429 ICAM-1
+$ T11 Protein S9 220 226 1423 1429 ICAM-1
+@ T24 Regulation S9 197 206 1400 1409 dependent
+@ T25 Positive_regulation S9 207 215 1410 1418 stimulus
+@ T26 Positive_regulation S9 227 236 1430 1439 induction
+% E12 Regulation:T24 Theme:E13
+% E13 Positive_regulation:T25 Theme:E14
+% E14 Positive_regulation:T26 Theme:T11
+

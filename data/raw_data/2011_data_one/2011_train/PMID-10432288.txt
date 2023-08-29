@@ -1,0 +1,108 @@
+Bcl-2-mediated drug resistance: inhibition of apoptosis by blocking nuclear factor of activated T lymphocytes (NFAT)-induced Fas ligand transcription.
+# T1 Protein S1 0 5 0 5 Bcl-2
+# T2 Protein S1 125 135 125 135 Fas ligand
+$ T1 Protein S1 0 5 0 5 Bcl-2
+$ T2 Protein S1 125 135 125 135 Fas ligand
+@ T24 Negative_regulation S1 59 67 59 67 blocking
+@ T25 Positive_regulation S1 117 124 117 124 induced
+@ T26 Transcription S1 136 149 136 149 transcription
+% E1 Negative_regulation:T24 Theme:E2 Cause:T1
+% E2 Positive_regulation:T25 Theme:E3
+% E3 Transcription:T26 Theme:T2
+
+Bcl-2 inhibits apoptosis induced by a variety of stimuli, including chemotherapy drugs and glucocorticoids.
+# T3 Protein S2 0 5 152 157 Bcl-2
+
+It is generally accepted that Bcl-2 exerts its antiapoptotic effects mainly by dimerizing with proapoptotic members of the Bcl-2 family such as Bax and Bad.
+# T4 Protein S3 30 35 290 295 Bcl-2
+# T5 Protein S3 144 147 404 407 Bax
+# T6 Protein S3 152 155 412 415 Bad
+$ T4 Protein S3 30 35 290 295 Bcl-2
+$ T5 Protein S3 144 147 404 407 Bax
+$ T6 Protein S3 152 155 412 415 Bad
+@ T27 Binding S3 79 89 339 349 dimerizing
+% E4 Binding:T27 Theme:T4 Theme2:T5
+% E5 Binding:T27 Theme:T4 Theme2:T6
+
+However, the mechanism of the antiapoptotic effects is unclear.
+
+Paclitaxel and other drugs that disturb microtubule dynamics kill cells in a Fas/Fas ligand (FasL)-dependent manner; antibody to FasL inhibits paclitaxel-induced apoptosis.
+# T7 Protein S5 77 80 558 561 Fas
+# T8 Protein S5 81 91 562 572 Fas ligand
+# T9 Protein S5 93 97 574 578 FasL
+# T10 Protein S5 129 133 610 614 FasL
+
+We have found that Bcl-2 overexpression leads to the prevention of chemotherapy (paclitaxel)-induced expression of FasL and blocks paclitaxel-induced apoptosis.
+# T11 Protein S6 19 24 673 678 Bcl-2
+# T12 Protein S6 115 119 769 773 FasL
+$ T11 Protein S6 19 24 673 678 Bcl-2
+$ T12 Protein S6 115 119 769 773 FasL
+@ T28 Positive_regulation S6 25 39 679 693 overexpression
+@ T29 Gene_expression S6 25 39 679 693 overexpression
+@ T30 Negative_regulation S6 40 63 694 717 leads to the prevention
+@ T31 Positive_regulation S6 93 100 747 754 induced
+@ T32 Gene_expression S6 101 111 755 765 expression
+% E6 Positive_regulation:T28 Theme:E7
+% E7 Gene_expression:T29 Theme:T11
+% E8 Negative_regulation:T30 Theme:E9 Cause:E6
+% E9 Positive_regulation:T31 Theme:E10
+% E10 Gene_expression:T32 Theme:T12
+
+The mechanism of this effect is that Bcl-2 prevents the nuclear translocation of NFAT (nuclear factor of activated T lymphocytes, a transcription factor activated by microtubule damage) by binding and sequestering calcineurin, a calcium-dependent phosphatase that must dephosphorylate NFAT to move to the nucleus.
+# T13 Protein S7 37 42 852 857 Bcl-2
+$ T13 Protein S7 37 42 852 857 Bcl-2
+@ T33 Binding S7 189 196 1004 1011 binding
+% E11 Binding:T33 Theme:T13
+
+Without NFAT nuclear translocation, the FasL gene is not transcribed.
+# T14 Protein S8 40 44 1169 1173 FasL
+$ T14 Protein S8 40 44 1169 1173 FasL
+@ T34 Positive_regulation S8 0 7 1129 1136 Without
+@ T35 Transcription S8 57 68 1186 1197 transcribed
+% E12 Positive_regulation:T34 Theme:E13
+% E13 Transcription:T35 Theme:T14
+
+Thus, it appears that paclitaxel and other drugs that disturb microtubule function kill cells at least in part through the induction of FasL.
+# T15 Protein S9 136 140 1335 1339 FasL
+$ T15 Protein S9 136 140 1335 1339 FasL
+@ T36 Positive_regulation S9 123 132 1322 1331 induction
+% E14 Positive_regulation:T36 Theme:T15
+
+Furthermore, Bcl-2 antagonizes drug-induced apoptosis by inhibiting calcineurin activation, blocking NFAT nuclear translocation, and preventing FasL expression.
+# T16 Protein S10 13 18 1354 1359 Bcl-2
+# T17 Protein S10 144 148 1485 1489 FasL
+$ T17 Protein S10 144 148 1485 1489 FasL
+@ T37 Negative_regulation S10 133 143 1474 1484 preventing
+@ T38 Gene_expression S10 149 159 1490 1500 expression
+% E15 Negative_regulation:T37 Theme:E16
+% E16 Gene_expression:T38 Theme:T17
+
+The effects of Bcl-2 can be overcome, at least partially, through phosphorylation of Bcl-2.
+# T18 Protein S11 15 20 1517 1522 Bcl-2
+# T19 Protein S11 85 90 1587 1592 Bcl-2
+$ T19 Protein S11 85 90 1587 1592 Bcl-2
+@ T39 Phosphorylation S11 66 81 1568 1583 phosphorylation
+% E17 Phosphorylation:T39 Theme:T19
+
+Phosphorylated Bcl-2 cannot bind calcineurin, and NFAT activation, FasL expression, and apoptosis can occur after Bcl-2 phosphorylation.
+# T20 Protein S12 15 20 1609 1614 Bcl-2
+# T21 Protein S12 33 44 1627 1638 calcineurin
+# T22 Protein S12 67 71 1661 1665 FasL
+# T23 Protein S12 114 119 1708 1713 Bcl-2
+$ T20 Protein S12 15 20 1609 1614 Bcl-2
+$ T21 Protein S12 33 44 1627 1638 calcineurin
+$ T22 Protein S12 67 71 1661 1665 FasL
+$ T23 Protein S12 114 119 1708 1713 Bcl-2
+@ T40 Phosphorylation S12 0 14 1594 1608 Phosphorylated
+@ T41 Negative_regulation S12 21 27 1615 1621 cannot
+@ T42 Binding S12 28 32 1622 1626 bind
+@ T43 Gene_expression S12 72 82 1666 1676 expression
+@ T44 Positive_regulation S12 108 113 1702 1707 after
+@ T45 Phosphorylation S12 120 135 1714 1729 phosphorylation
+% E18 Phosphorylation:T40 Theme:T20
+% E19 Negative_regulation:T41 Theme:E20 Cause:E18
+% E20 Binding:T42 Theme:T20 Theme2:T21
+% E21 Gene_expression:T43 Theme:T22
+% E22 Positive_regulation:T44 Theme:E21 Cause:E23
+% E23 Phosphorylation:T45 Theme:T23
+

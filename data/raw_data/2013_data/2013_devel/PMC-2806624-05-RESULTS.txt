@@ -1,0 +1,189 @@
+Role of CBFbeta in the induction of Foxp3
+# T1 Protein S1 8 15 8 15 CBFbeta
+# T2 Protein S1 36 41 36 41 Foxp3
+$ T1 Protein S1 8 15 8 15 CBFbeta
+$ T2 Protein S1 36 41 36 41 Foxp3
+@ T66 Positive_regulation S1 0 4 0 4 Role
+@ T67 Gene_expression S1 23 32 23 32 induction
+% E1 Positive_regulation:T66 Theme:E2 Cause:T1
+% E2 Gene_expression:T67 Theme:T2
+
+CBFbeta, a common cofactor of all RUNX proteins, stabilizes and increases the binding of the runt domain to target DNA sequences.
+# T3 Protein S2 0 7 42 49 CBFbeta
+# T4 Protein S2 34 38 76 80 RUNX
+
+To target all Runx proteins that might be involved in the induction of Foxp3, we used mice in which loxP-flanked Cbfb alleles were inactivated in T cells through expression of a CD4-cre transgene.
+# T5 Protein S3 14 18 186 190 Runx
+# T6 Protein S3 71 76 243 248 Foxp3
+# T7 Protein S3 113 117 285 289 Cbfb
+# T8 Protein S3 178 185 350 357 CD4-cre
+$ T5 Protein S3 14 18 186 190 Runx
+$ T6 Protein S3 71 76 243 248 Foxp3
+$ T7 Protein S3 113 117 285 289 Cbfb
+$ T8 Protein S3 178 185 350 357 CD4-cre
+@ T68 Regulation S3 42 50 214 222 involved
+@ T69 Positive_regulation S3 58 67 230 239 induction
+@ T70 Negative_regulation S3 131 142 303 314 inactivated
+@ T71 Gene_expression S3 162 172 334 344 expression
+% E3 Regulation:T68 Theme:E4 Cause:T5
+% E4 Positive_regulation:T69 Theme:T6
+% E5 Negative_regulation:T70 Theme:T7
+% E6 Gene_expression:T71 Theme:T8
+
+Retinoic acid and TGF-beta synergize in the induction of Foxp3 in naive T cells (Kang et al., 2007).
+# T9 Protein S4 18 26 387 395 TGF-beta
+# T10 Protein S4 57 62 426 431 Foxp3
+$ T9 Protein S4 18 26 387 395 TGF-beta
+$ T10 Protein S4 57 62 426 431 Foxp3
+@ T72 Positive_regulation S4 27 36 396 405 synergize
+@ T73 Gene_expression S4 44 53 413 422 induction
+% E7 Positive_regulation:T72 Theme:E8 Cause:T9
+% E8 Gene_expression:T73 Theme:T10
+
+To investigate whether Runx-mediated induction of Foxp3 is dependent on the expression of CBFbeta, naive CD4+ CD8- T cells from CbfbF/F CD4-cre and control CbfbF/+ CD4-cre mice were stimulated with anti-CD3/28 mAbs, retinoic acid, and increasing concentrations of TGF-beta.
+# T11 Protein S5 23 27 493 497 Runx
+# T12 Protein S5 50 55 520 525 Foxp3
+# T13 Protein S5 90 97 560 567 CBFbeta
+# T14 Protein S5 105 108 575 578 CD4
+# T15 Protein S5 110 113 580 583 CD8
+# T16 Protein S5 128 132 598 602 Cbfb
+# T17 Protein S5 136 143 606 613 CD4-cre
+# T18 Protein S5 156 160 626 630 Cbfb
+# T19 Protein S5 164 171 634 641 CD4-cre
+# T20 Protein S5 203 206 673 676 CD3
+# T21 Protein S5 207 209 677 679 28
+# T22 Protein S5 264 272 734 742 TGF-beta
+$ T11 Protein S5 23 27 493 497 Runx
+$ T12 Protein S5 50 55 520 525 Foxp3
+$ T13 Protein S5 90 97 560 567 CBFbeta
+@ T74 Positive_regulation S5 28 36 498 506 mediated
+@ T75 Gene_expression S5 37 46 507 516 induction
+@ T76 Positive_regulation S5 59 68 529 538 dependent
+@ T77 Gene_expression S5 76 86 546 556 expression
+% E9 Positive_regulation:T74 Theme:E10 Cause:T11
+% E10 Gene_expression:T75 Theme:T12
+% E11 Positive_regulation:T76 Theme:E10 Cause:E12
+% E12 Gene_expression:T77 Theme:T13
+
+After 3 d in culture, the cells were restimulated with PMA and ionomycin and analyzed for intracellular Foxp3 and IFN-gamma expression.
+# T23 Protein S6 104 109 848 853 Foxp3
+# T24 Protein S6 114 123 858 867 IFN-gamma
+$ T23 Protein S6 104 109 848 853 Foxp3
+$ T24 Protein S6 114 123 858 867 IFN-gamma
+@ T78 Gene_expression S6 124 134 868 878 expression
+% E13 Gene_expression:T78 Theme:T23
+% E14 Gene_expression:T78 Theme:T24
+
+TGF-beta induced Foxp3 in CbfbF/+ CD4-cre cells in a dose dependent manner, and this was significantly reduced in CbfbF/F CD4-cre cells.
+# T25 Protein S7 0 8 880 888 TGF-beta
+# T26 Protein S7 17 22 897 902 Foxp3
+# T27 Protein S7 26 30 906 910 Cbfb
+# T28 Protein S7 34 41 914 921 CD4-cre
+# T29 Protein S7 114 118 994 998 Cbfb
+# T30 Protein S7 122 129 1002 1009 CD4-cre
+$ T26 Protein S7 17 22 897 902 Foxp3
+$ T25 Protein S7 0 8 880 888 TGF-beta
+@ T79 Positive_regulation S7 9 16 889 896 induced
+@ T65 Anaphora S7 80 84 960 964 this
+@ T80 Negative_regulation S7 103 110 983 990 reduced
+% E15 Positive_regulation:T79 Theme:T26 Cause:T25
+% E16 Negative_regulation:T80 Theme:E15
+
+Retinoic acid enhanced Foxp3 expression even in 20 pg/ml of TGF-beta and more than 95% of the CD4+ T cells from CbfbF/+ CD4-cre mice became Foxp3+ in 100 and 500 pg/ml TGF-beta doses.
+# T31 Protein S8 23 28 1040 1045 Foxp3
+# T32 Protein S8 60 68 1077 1085 TGF-beta
+# T33 Protein S8 94 97 1111 1114 CD4
+# T34 Protein S8 112 116 1129 1133 Cbfb
+# T35 Protein S8 120 127 1137 1144 CD4-cre
+# T36 Protein S8 140 145 1157 1162 Foxp3
+# T37 Protein S8 168 176 1185 1193 TGF-beta
+$ T32 Protein S8 60 68 1077 1085 TGF-beta
+$ T31 Protein S8 23 28 1040 1045 Foxp3
+@ T81 Positive_regulation S8 14 22 1031 1039 enhanced
+@ T82 Gene_expression S8 29 39 1046 1056 expression
+% E17 Positive_regulation:T81 Theme:E18 Cause:T32
+% E18 Gene_expression:T82 Theme:T31
+
+The induction of Foxp3 was again significantly lower in CbfbF/F CD4-cre CD4+ T cells even in the presence of retinoic acid, demonstrating that deficiency in Runx binding to DNA affects the TGF-beta induction of Foxp3 in T reg cells (Fig. 5 A).
+# T38 Protein S9 17 22 1218 1223 Foxp3
+# T39 Protein S9 56 60 1257 1261 Cbfb
+# T40 Protein S9 64 71 1265 1272 CD4-cre
+# T41 Protein S9 72 75 1273 1276 CD4
+# T42 Protein S9 157 161 1358 1362 Runx
+# T43 Protein S9 189 197 1390 1398 TGF-beta
+# T44 Protein S9 211 216 1412 1417 Foxp3
+$ T38 Protein S9 17 22 1218 1223 Foxp3
+$ T42 Protein S9 157 161 1358 1362 Runx
+$ T44 Protein S9 211 216 1412 1417 Foxp3
+$ T43 Protein S9 189 197 1390 1398 TGF-beta
+@ T83 Gene_expression S9 4 13 1205 1214 induction
+@ T84 Negative_regulation S9 47 52 1248 1253 lower
+@ T85 Binding S9 162 169 1363 1370 binding
+@ T86 Regulation S9 177 184 1378 1385 affects
+@ T87 Positive_regulation S9 198 207 1399 1408 induction
+% E19 Gene_expression:T83 Theme:T38
+% E20 Negative_regulation:T84 Theme:E19
+% E21 Binding:T85 Theme:T42
+% E22 Regulation:T86 Theme:E23 Cause:E21
+% E23 Positive_regulation:T87 Theme:T44 Cause:T43
+
+There was no difference in the induction of Foxp3 when endogenous IL-4 and IFN-gamma were neutralized (Fig.
+# T45 Protein S10 44 49 1489 1494 Foxp3
+# T46 Protein S10 66 70 1511 1515 IL-4
+# T47 Protein S10 75 84 1520 1529 IFN-gamma
+$ T45 Protein S10 44 49 1489 1494 Foxp3
+$ T46 Protein S10 66 70 1511 1515 IL-4
+$ T47 Protein S10 75 84 1520 1529 IFN-gamma
+@ T88 Regulation S10 13 23 1458 1468 difference
+@ T89 Gene_expression S10 31 40 1476 1485 induction
+@ T90 Negative_regulation S10 90 101 1535 1546 neutralized
+% E24 Regulation:T88 Theme:E25 Cause:E26
+% E27 Regulation:T88 Theme:E25 Cause:E28
+% E25 Gene_expression:T89 Theme:T45
+% E26 Negative_regulation:T90 Theme:T46
+% E28 Negative_regulation:T90 Theme:T47
+
+S6).
+
+The importance of RUNX transcription factors for the in vivo conversion of naive CD4+ T cells into iT reg cells was examined.
+# T48 Protein S12 18 22 1576 1580 RUNX
+# T49 Protein S12 81 84 1639 1642 CD4
+
+Control CbfbF/F or CbfbF/F CD4-cre naive T cells, harboring a Foxp3-IRES-GFP allele were adoptively transferred into Rag2-/- mice.
+# T50 Protein S13 8 12 1692 1696 Cbfb
+# T51 Protein S13 19 23 1703 1707 Cbfb
+# T52 Protein S13 27 34 1711 1718 CD4-cre
+# T53 Protein S13 62 67 1746 1751 Foxp3
+# T54 Protein S13 73 76 1757 1760 GFP
+# T55 Protein S13 117 121 1801 1805 Rag2
+
+6 wk later, CD4+ T cells in spleen, mesenteric lymph node, and lamina propria of the small intestine were analyzed for Foxp3-GFP expression (Fig. 5 B).
+# T56 Protein S14 12 15 1827 1830 CD4
+# T57 Protein S14 119 128 1934 1943 Foxp3-GFP
+$ T57 Protein S14 119 128 1934 1943 Foxp3-GFP
+@ T91 Gene_expression S14 129 139 1944 1954 expression
+% E29 Gene_expression:T91 Theme:T57
+
+There was a consistently lower percentage of CD4+ T cells that had developed Foxp3 expression in the mesenteric lymph node and lamina propria of mice transferred with CbfbF/F CD4-cre cells compared with control cells (Fig. 5, B and C).
+# T58 Protein S15 45 48 2012 2015 CD4
+# T59 Protein S15 77 82 2044 2049 Foxp3
+# T60 Protein S15 167 171 2134 2138 Cbfb
+# T61 Protein S15 175 182 2142 2149 CD4-cre
+$ T59 Protein S15 77 82 2044 2049 Foxp3
+@ T92 Gene_expression S15 83 93 2050 2060 expression
+% E30 Gene_expression:T92 Theme:T59
+
+These data affirm the significance of RUNX proteins for the in vivo generation of CD4+ Foxp3+ T cells.
+# T62 Protein S16 38 42 2241 2245 RUNX
+# T63 Protein S16 82 85 2285 2288 CD4
+# T64 Protein S16 87 92 2290 2295 Foxp3
+$ T62 Protein S16 38 42 2241 2245 RUNX
+$ T63 Protein S16 82 85 2285 2288 CD4
+$ T64 Protein S16 87 92 2290 2295 Foxp3
+@ T93 Positive_regulation S16 22 34 2225 2237 significance
+@ T94 Gene_expression S16 68 78 2271 2281 generation
+% E31 Positive_regulation:T93 Theme:E32 Cause:T62
+% E33 Positive_regulation:T93 Theme:E34 Cause:T62
+% E32 Gene_expression:T94 Theme:T63
+% E34 Gene_expression:T94 Theme:T64
+

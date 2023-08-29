@@ -1,0 +1,121 @@
+Transcriptional repression of the interleukin-2 gene by vitamin D3: direct inhibition of NFATp/AP-1 complex formation by a nuclear hormone receptor.
+# T1 Protein S1 34 47 34 47 interleukin-2
+# T2 Protein S1 89 94 89 94 NFATp
+$ T1 Protein S1 34 47 34 47 interleukin-2
+$ T2 Protein S1 89 94 89 94 NFATp
+@ T25 Negative_regulation S1 0 26 0 26 Transcriptional repression
+@ T26 Negative_regulation S1 75 85 75 85 inhibition
+@ T27 Binding S1 100 117 100 117 complex formation
+% E1 Negative_regulation:T25 Theme:T1
+% E2 Negative_regulation:T26 Theme:E3
+% E3 Binding:T27 Theme:T2
+
+T-lymphocyte proliferation is suppressed by 1,25-dihydroxyvitamin D3 [1,25(OH)2D3], the active metabolite of vitamin D3, and is associated with a decrease in interleukin 2 (IL-2), gamma interferon, and granulocyte-macrophage colony-stimulating factor mRNA levels.
+# T3 Protein S2 158 171 308 321 interleukin 2
+# T4 Protein S2 173 177 323 327 IL-2
+$ T4 Protein S2 173 177 323 327 IL-2
+@ T28 Negative_regulation S2 146 154 296 304 decrease
+% E4 Negative_regulation:T28 Theme:T4
+
+We report here that 1,25(OH)2D3-mediated repression in Jurkat cells is cycloheximide resistant, suggesting that it is a direct transcriptional repressive effect on IL-2 expression by the vitamin D3 receptor (VDR).
+# T5 Protein S3 164 168 578 582 IL-2
+# T6 Protein S3 187 206 601 620 vitamin D3 receptor
+# T7 Protein S3 208 211 622 625 VDR
+$ T7 Protein S3 208 211 622 625 VDR
+$ T5 Protein S3 164 168 578 582 IL-2
+@ T29 Negative_regulation S3 143 160 557 574 repressive effect
+@ T30 Transcription S3 169 179 583 593 expression
+% E5 Negative_regulation:T29 Theme:E6 Cause:T7
+% E6 Transcription:T30 Theme:T5
+
+We therefore examined vitamin D3-mediated repression of activated IL-2 expression by cotransfecting Jurkat cells with IL-2 promoter/reporter constructs and a VDR overexpression vector and by DNA binding.
+# T8 Protein S4 66 70 694 698 IL-2
+# T9 Protein S4 118 122 746 750 IL-2
+# T10 Protein S4 158 161 786 789 VDR
+$ T8 Protein S4 66 70 694 698 IL-2
+$ T10 Protein S4 158 161 786 789 VDR
+$ T9 Protein S4 118 122 746 750 IL-2
+@ T31 Negative_regulation S4 42 52 670 680 repression
+@ T32 Positive_regulation S4 56 65 684 693 activated
+@ T33 Gene_expression S4 71 81 699 709 expression
+@ T34 Gene_expression S4 85 99 713 727 cotransfecting
+% E7 Negative_regulation:T31 Theme:E10 Cause:E12
+% E8 Negative_regulation:T31 Theme:E10 Cause:E11
+% E9 Positive_regulation:T32 Theme:T8
+% E10 Gene_expression:T33 Theme:T8
+% E11 Gene_expression:T34 Theme:T10
+% E12 Gene_expression:T34 Theme:T9
+
+We delineated an element conferring both DNA binding by the receptor in vitro and 1,25(OH)2D3-mediated repression in vivo to a short 40-bp region encompassing an important positive regulatory element, NF-AT-1, which is bound by a T-cell-specific transcription factor, NFATp, as well as by AP-1.
+# T11 Protein S5 201 208 1033 1040 NF-AT-1
+# T12 Protein S5 268 273 1100 1105 NFATp
+$ T11 Protein S5 201 208 1033 1040 NF-AT-1
+$ T12 Protein S5 268 273 1100 1105 NFATp
+@ T35 Regulation S5 25 35 857 867 conferring
+@ T36 Binding S5 45 52 877 884 binding
+@ T37 Binding S5 219 224 1051 1056 bound
+% E13 Regulation:T35 Theme:E14
+% E14 Binding:T36 Theme:T10
+% E15 Binding:T37 Theme:T11 Theme2:T12
+% E16 Binding:T37 Theme:T11
+
+VDR DNA-binding mutants were unable to either bind to this element in vitro or repress in vivo; the VDR DNA-binding domain alone, however, bound the element but also could not repress IL-2 expression.
+# T13 Protein S6 0 3 1127 1130 VDR
+# T14 Protein S6 100 103 1227 1230 VDR
+# T15 Protein S6 184 188 1311 1315 IL-2
+$ T13 Protein S6 0 3 1127 1130 VDR
+$ T15 Protein S6 184 188 1311 1315 IL-2
+@ T38 Binding S6 8 23 1135 1150 binding mutants
+@ T39 Negative_regulation S6 79 86 1206 1213 repress
+@ T40 Negative_regulation S6 176 183 1303 1310 repress
+@ T41 Gene_expression S6 189 199 1316 1326 expression
+% E17 Binding:T38 Theme:T13
+% E18 Negative_regulation:T39 Theme:E20 Cause:E17
+% E19 Negative_regulation:T40 Theme:E20
+% E20 Gene_expression:T41 Theme:T15
+
+These results indicate that DNA binding by VDR is necessary but not sufficient to mediate IL-2 repression.
+# T16 Protein S7 43 46 1371 1374 VDR
+# T17 Protein S7 90 94 1418 1422 IL-2
+$ T16 Protein S7 43 46 1371 1374 VDR
+$ T17 Protein S7 90 94 1418 1422 IL-2
+@ T42 Binding S7 32 39 1360 1367 binding
+@ T43 Positive_regulation S7 50 89 1378 1417 necessary but not sufficient to mediate
+@ T44 Negative_regulation S7 95 105 1423 1433 repression
+% E21 Binding:T42 Theme:T16
+% E22 Positive_regulation:T43 Theme:E23 Cause:E21
+% E23 Negative_regulation:T44 Theme:T17
+
+By combining partially purified proteins in vitro, we observed the loss of the bound NFATp/AP-1-DNA complex upon inclusion of VDR or VDR-retinoid X receptor.
+# T18 Protein S8 85 90 1520 1525 NFATp
+# T19 Protein S8 126 129 1561 1564 VDR
+# T20 Protein S8 133 136 1568 1571 VDR
+$ T20 Protein S8 133 136 1568 1571 VDR
+$ T19 Protein S8 126 129 1561 1564 VDR
+$ T18 Protein S8 85 90 1520 1525 NFATp
+@ T45 Negative_regulation S8 67 71 1502 1506 loss
+@ T46 Binding S8 79 84 1514 1519 bound
+% E24 Negative_regulation:T45 Theme:E26 Cause:T20
+% E25 Negative_regulation:T45 Theme:E26 Cause:T19
+% E26 Binding:T46 Theme:T18
+
+Order of addition and off-rate experiments indicate that the VDR-retinoid X receptor heterodimer blocks NFATp/AP-1 complex formation and then stably associates with the NF-AT-1 element.
+# T21 Protein S9 61 64 1654 1657 VDR
+# T22 Protein S9 104 109 1697 1702 NFATp
+# T23 Protein S9 169 176 1762 1769 NF-AT-1
+$ T21 Protein S9 61 64 1654 1657 VDR
+$ T22 Protein S9 104 109 1697 1702 NFATp
+$ T23 Protein S9 169 176 1762 1769 NF-AT-1
+@ T47 Negative_regulation S9 97 103 1690 1696 blocks
+@ T48 Binding S9 115 132 1708 1725 complex formation
+@ T49 Binding S9 149 159 1742 1752 associates
+% E27 Negative_regulation:T47 Theme:E28 Cause:T21
+% E28 Binding:T48 Theme:T22
+% E29 Binding:T49 Theme:T21 Theme2:T23
+
+This direct inhibition by a nuclear hormone receptor of transcriptional activators of the IL-2 gene may provide a mechanistic explanation of how vitamin derivatives can act as potent immunosuppressive agents.
+# T24 Protein S10 90 94 1869 1873 IL-2
+$ T24 Protein S10 90 94 1869 1873 IL-2
+@ T50 Positive_regulation S10 56 82 1835 1861 transcriptional activators
+% E30 Positive_regulation:T50 Theme:T24
+

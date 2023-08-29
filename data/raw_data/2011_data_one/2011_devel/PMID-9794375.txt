@@ -1,0 +1,157 @@
+Uncoupling activation-dependent HS1 phosphorylation from nuclear factor of activated T cells transcriptional activation in Jurkat T cells: differential signaling through CD3 and the costimulatory receptors CD2 and CD28.
+# T1 Protein S1 32 35 32 35 HS1
+# T2 Protein S1 206 209 206 209 CD2
+# T3 Protein S1 214 218 214 218 CD28
+$ T1 Protein S1 32 35 32 35 HS1
+@ T34 Positive_regulation S1 22 31 22 31 dependent
+@ T35 Phosphorylation S1 36 51 36 51 phosphorylation
+% E1 Positive_regulation:T34 Theme:E2
+% E2 Phosphorylation:T35 Theme:T1
+
+CD3, CD2, and CD28 are functionally distinct receptors on T lymphocytes.
+# T4 Protein S2 5 8 226 229 CD2
+# T5 Protein S2 14 18 235 239 CD28
+
+Engagement of any of these receptors induces the rapid tyrosine phosphorylation of a shared group of intracellular signaling proteins, including Vav, Cbl, p85 phosphoinositide 3-kinase, and the Src family kinases Lck and Fyn.
+# T6 Protein S3 145 148 439 442 Vav
+# T7 Protein S3 150 153 444 447 Cbl
+# T8 Protein S3 194 197 488 491 Src
+# T9 Protein S3 213 216 507 510 Lck
+# T10 Protein S3 221 224 515 518 Fyn
+$ T10 Protein S3 221 224 515 518 Fyn
+$ T6 Protein S3 145 148 439 442 Vav
+$ T7 Protein S3 150 153 444 447 Cbl
+$ T9 Protein S3 213 216 507 510 Lck
+@ T36 Binding S3 0 10 294 304 Engagement
+@ T37 Positive_regulation S3 37 44 331 338 induces
+@ T38 Entity S3 55 63 349 357 tyrosine
+@ T39 Phosphorylation S3 64 79 358 373 phosphorylation
+% E3 Binding:T36 Theme:T4
+% E4 Binding:T36 Theme:T5
+% E5 Positive_regulation:T37 Theme:E15 Cause:E3
+% E6 Positive_regulation:T37 Theme:E14 Cause:E3
+% E7 Positive_regulation:T37 Theme:E13 Cause:E4
+% E8 Positive_regulation:T37 Theme:E16 Cause:E3
+% E9 Positive_regulation:T37 Theme:E16 Cause:E4
+% E10 Positive_regulation:T37 Theme:E15 Cause:E4
+% E11 Positive_regulation:T37 Theme:E13 Cause:E3
+% E12 Positive_regulation:T37 Theme:E14 Cause:E4
+% E13 Phosphorylation:T39 Theme:T10 Site:T38
+% E14 Phosphorylation:T39 Theme:T6 Site:T38
+% E15 Phosphorylation:T39 Theme:T7 Site:T38
+% E16 Phosphorylation:T39 Theme:T9 Site:T38
+
+Ligation of CD3 also induces the tyrosine phosphorylation of HS1, a 75-kDa hematopoietic cell-specific intracellular signaling protein of unknown function.
+# T11 Protein S4 61 64 581 584 HS1
+$ T11 Protein S4 61 64 581 584 HS1
+@ T40 Positive_regulation S4 21 28 541 548 induces
+@ T41 Entity S4 33 41 553 561 tyrosine
+@ T42 Phosphorylation S4 42 57 562 577 phosphorylation
+% E17 Positive_regulation:T40 Theme:E18
+% E18 Phosphorylation:T42 Theme:T11 Site:T41
+
+We have examined changes in HS1 phosphorylation after differential stimulation of CD3, CD2, and CD28 to elucidate its role in T cells and to further delineate the signaling pathways recruited by these receptors.
+# T12 Protein S5 28 31 704 707 HS1
+# T13 Protein S5 87 90 763 766 CD2
+# T14 Protein S5 96 100 772 776 CD28
+$ T12 Protein S5 28 31 704 707 HS1
+$ T14 Protein S5 96 100 772 776 CD28
+$ T13 Protein S5 87 90 763 766 CD2
+@ T43 Regulation S5 17 24 693 700 changes
+@ T44 Phosphorylation S5 32 47 708 723 phosphorylation
+@ T45 Positive_regulation S5 67 78 743 754 stimulation
+% E19 Regulation:T43 Theme:E21 Cause:E22
+% E20 Regulation:T43 Theme:E21 Cause:E23
+% E21 Phosphorylation:T44 Theme:T12
+% E22 Positive_regulation:T45 Theme:T14
+% E23 Positive_regulation:T45 Theme:T13
+
+Unlike ligation of CD3, stimulation with anti-CD28 mAb or CHO cells expressing the CD28 ligands CD80 or CD86 did not lead to tyrosine phosphorylation of HS1 in Jurkat T cells.
+# T15 Protein S6 46 50 934 938 CD28
+# T16 Protein S6 83 87 971 975 CD28
+# T17 Protein S6 96 100 984 988 CD80
+# T18 Protein S6 104 108 992 996 CD86
+# T19 Protein S6 153 156 1041 1044 HS1
+$ T18 Protein S6 104 108 992 996 CD86
+$ T17 Protein S6 96 100 984 988 CD80
+$ T16 Protein S6 83 87 971 975 CD28
+$ T19 Protein S6 153 156 1041 1044 HS1
+@ T46 Gene_expression S6 68 78 956 966 expressing
+@ T47 Binding S6 88 95 976 983 ligands
+@ T48 Positive_regulation S6 117 121 1005 1009 lead
+@ T49 Entity S6 125 133 1013 1021 tyrosine
+@ T50 Phosphorylation S6 134 149 1022 1037 phosphorylation
+% E24 Gene_expression:T46 Theme:T18
+% E25 Gene_expression:T46 Theme:T17
+% E26 Binding:T47 Theme:T16 Theme2:T17
+% E27 Binding:T47 Theme:T16 Theme2:T18
+% E28 Positive_regulation:T48 Theme:E29
+% E29 Phosphorylation:T50 Theme:T19 Site:T49
+
+Additionally, no tyrosine phosphorylation of HS1 was induced by mitogenic pairs of anti-CD2 mAbs capable of activating the transcription factor NFAT (nuclear factor of activated T cells).
+# T20 Protein S7 45 48 1109 1112 HS1
+# T21 Protein S7 88 91 1152 1155 CD2
+$ T20 Protein S7 45 48 1109 1112 HS1
+@ T51 Entity S7 17 25 1081 1089 tyrosine
+@ T52 Phosphorylation S7 26 41 1090 1105 phosphorylation
+@ T53 Positive_regulation S7 53 60 1117 1124 induced
+% E30 Phosphorylation:T52 Theme:T20 Site:T51
+% E31 Positive_regulation:T53 Theme:E30
+
+Costimulation through CD28 and/or CD2 did not modulate the CD3-dependent phosphorylation of HS1.
+# T22 Protein S8 22 26 1274 1278 CD28
+# T23 Protein S8 34 37 1286 1289 CD2
+# T24 Protein S8 92 95 1344 1347 HS1
+$ T24 Protein S8 92 95 1344 1347 HS1
+@ T54 Regulation S8 46 54 1298 1306 modulate
+@ T55 Positive_regulation S8 63 72 1315 1324 dependent
+@ T56 Phosphorylation S8 73 88 1325 1340 phosphorylation
+% E32 Regulation:T54 Theme:E33
+% E33 Positive_regulation:T55 Theme:E34
+% E34 Phosphorylation:T56 Theme:T24
+
+In vivo studies indicated that CD3-induced HSI phosphorylation was dependent upon both the Src family tyrosine kinase Lck and the tyrosine phosphatase CD45, did not require MEK1 kinase activity, and was regulated by protein kinase C activation.
+# T25 Protein S9 43 46 1392 1395 HSI
+# T26 Protein S9 91 94 1440 1443 Src
+# T27 Protein S9 118 121 1467 1470 Lck
+# T28 Protein S9 151 155 1500 1504 CD45
+# T29 Protein S9 173 177 1522 1526 MEK1
+$ T25 Protein S9 43 46 1392 1395 HSI
+$ T27 Protein S9 118 121 1467 1470 Lck
+$ T28 Protein S9 151 155 1500 1504 CD45
+$ T29 Protein S9 173 177 1522 1526 MEK1
+@ T57 Positive_regulation S9 35 42 1384 1391 induced
+@ T58 Phosphorylation S9 47 62 1396 1411 phosphorylation
+@ T59 Positive_regulation S9 67 76 1416 1425 dependent
+@ T60 Positive_regulation S9 165 172 1514 1521 require
+@ T61 Regulation S9 203 212 1552 1561 regulated
+% E35 Positive_regulation:T57 Theme:E36
+% E36 Phosphorylation:T58 Theme:T25
+% E37 Positive_regulation:T59 Theme:E35 Cause:T27
+% E38 Positive_regulation:T59 Theme:E35 Cause:T28
+% E39 Positive_regulation:T60 Theme:E35 Cause:T29
+% E40 Regulation:T61 Theme:E35
+
+Thus, although CD3, CD28, and CD2 activate many of the same signaling molecules, they differed in their capacity to induce the tyrosine phosphorylation of HSI.
+# T30 Protein S10 20 24 1614 1618 CD28
+# T31 Protein S10 30 33 1624 1627 CD2
+# T32 Protein S10 155 158 1749 1752 HSI
+$ T30 Protein S10 20 24 1614 1618 CD28
+$ T31 Protein S10 30 33 1624 1627 CD2
+$ T32 Protein S10 155 158 1749 1752 HSI
+@ T62 Positive_regulation S10 116 122 1710 1716 induce
+@ T63 Entity S10 127 135 1721 1729 tyrosine
+@ T64 Phosphorylation S10 136 151 1730 1745 phosphorylation
+% E41 Positive_regulation:T62 Theme:E43 Cause:T30
+% E42 Positive_regulation:T62 Theme:E43 Cause:T31
+% E43 Phosphorylation:T64 Theme:T32 Site:T63
+
+Furthermore, activation-dependent tyrosine phosphorylation of HS1 was not required for NFAT transcriptional activation.
+# T33 Protein S11 62 65 1816 1819 HS1
+$ T33 Protein S11 62 65 1816 1819 HS1
+@ T65 Positive_regulation S11 24 33 1778 1787 dependent
+@ T66 Entity S11 34 42 1788 1796 tyrosine
+@ T67 Phosphorylation S11 43 58 1797 1812 phosphorylation
+% E44 Positive_regulation:T65 Theme:E45
+% E45 Phosphorylation:T67 Theme:T33 Site:T66
+

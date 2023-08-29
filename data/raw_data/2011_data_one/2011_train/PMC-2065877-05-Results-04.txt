@@ -1,0 +1,72 @@
+Wild-Type and LMP1 Transgenic Lymphoma Cells Do Not Require IL4 and Stat6 Signaling
+# T1 Protein S1 14 18 14 18 LMP1
+# T2 Protein S1 60 63 60 63 IL4
+# T3 Protein S1 68 73 68 73 Stat6
+
+To investigate whether IL4 independence was due to endogenous IL4 expression, IL4 transcription was assessed by an Rnase protection assay (RPA).
+# T4 Protein S2 23 26 107 110 IL4
+# T5 Protein S2 62 65 146 149 IL4
+# T6 Protein S2 78 81 162 165 IL4
+$ T5 Protein S2 62 65 146 149 IL4
+$ T6 Protein S2 78 81 162 165 IL4
+@ T28 Gene_expression S2 66 76 150 160 expression
+@ T29 Transcription S2 82 95 166 179 transcription
+% E1 Gene_expression:T28 Theme:T5
+% E2 Transcription:T29 Theme:T6
+
+IL4 transcription was detectable with control RNA and faintly in the mouse lymphoma cell line K46mu (Figure 4A).
+# T7 Protein S3 0 3 229 232 IL4
+$ T7 Protein S3 0 3 229 232 IL4
+@ T30 Transcription S3 4 17 233 246 transcription
+% E3 Transcription:T30 Theme:T7
+
+However, IL4 transcription was not detectable in CD19+ MACS-purified B cells from wild-type lymphocytes (unpublished data), LMP1 transgenic lymphocytes, or lymphoma cells, although the GAPDH and L32 controls were effectively protected (Figure 4A).
+# T8 Protein S4 9 12 351 354 IL4
+# T9 Protein S4 49 53 391 395 CD19
+# T10 Protein S4 124 128 466 470 LMP1
+# T11 Protein S4 185 190 527 532 GAPDH
+# T12 Protein S4 195 198 537 540 L32
+$ T8 Protein S4 9 12 351 354 IL4
+@ T31 Transcription S4 13 26 355 368 transcription
+% E4 Transcription:T31 Theme:T8
+
+Activated Stat6 (pStat6), a target of the IL4 receptor pathway, was detected in the wild-type and LMP1 transgenic lymphocytes (Figure 4B).
+# T13 Protein S5 10 15 600 605 Stat6
+# T14 Protein S5 17 23 607 613 pStat6
+# T15 Protein S5 42 54 632 644 IL4 receptor
+# T16 Protein S5 98 102 688 692 LMP1
+$ T13 Protein S5 10 15 600 605 Stat6
+@ T32 Positive_regulation S5 0 9 590 599 Activated
+@ T33 Regulation S5 28 34 618 624 target
+% E5 Positive_regulation:T32 Theme:T13
+% E6 Regulation:T33 Theme:T13
+
+In contrast, pStat6 was barely detected in either the wild-type or LMP1 transgenic lymphoma cells.
+# T17 Protein S6 67 71 796 800 LMP1
+
+However, the pathway was not disabled, as treatment of the lymphoma cells with IL4 induced Stat6 phosphorylation (Figure 4C).
+# T18 Protein S7 79 82 907 910 IL4
+# T19 Protein S7 91 96 919 924 Stat6
+$ T18 Protein S7 79 82 907 910 IL4
+$ T19 Protein S7 91 96 919 924 Stat6
+@ T34 Positive_regulation S7 83 90 911 918 induced
+@ T35 Phosphorylation S7 97 112 925 940 phosphorylation
+% E7 Positive_regulation:T34 Theme:E8 Cause:T18
+% E8 Phosphorylation:T35 Theme:T19
+
+Although wild-type lymphocytes cannot be maintained in culture with IL4 supplementation alone (Figure 3A), slight enhancement in MTS activity could be detected if the cells were analyzed at an earlier time point, at 1 d (Figure 4D) versus 3 d (Figure 3A) post-harvest.
+# T20 Protein S8 68 71 1023 1026 IL4
+
+The enhancement of MTS activity induced by IL4 in wild-type lymphocytes could be neutralized by the addition of IL4 antibody (Figure 4D).
+# T21 Protein S9 43 46 1267 1270 IL4
+# T22 Protein S9 112 115 1336 1339 IL4
+
+However, neutralizing antibodies to IL4 did not affect the MTS activity of LMP1 transgenic lymphoma cells (Figure 4E).
+# T23 Protein S10 36 39 1398 1401 IL4
+# T24 Protein S10 75 79 1437 1441 LMP1
+
+In summary, the wild-type and LMP1 transgenic lymphoma cells grew independently of IL4 treatment and did not require Stat6 signaling.
+# T25 Protein S11 30 34 1511 1515 LMP1
+# T26 Protein S11 83 86 1564 1567 IL4
+# T27 Protein S11 117 122 1598 1603 Stat6
+

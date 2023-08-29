@@ -1,0 +1,164 @@
+RUNX1 and RUNX3 are involved in the induction of Foxp3 in iT reg cells.
+# T1 Protein S1 0 5 0 5 RUNX1
+# T2 Protein S1 10 15 10 15 RUNX3
+# T3 Protein S1 49 54 49 54 Foxp3
+$ T1 Protein S1 0 5 0 5 RUNX1
+$ T2 Protein S1 10 15 10 15 RUNX3
+$ T3 Protein S1 49 54 49 54 Foxp3
+@ T55 Regulation S1 20 28 20 28 involved
+@ T56 Gene_expression S1 36 45 36 45 induction
+% E1 Regulation:T55 Theme:E2 Cause:T1
+% E3 Regulation:T55 Theme:E2 Cause:T2
+% E2 Gene_expression:T56 Theme:T3
+
+(A) RUNX1, RUNX3, and FOXP3 mRNA induction in human naive CD4+ T cells after alone or combined anti-CD2/3/28 mAb and TGF-beta stimulation in the presence of IL-2.
+# T4 Protein S2 4 9 76 81 RUNX1
+# T5 Protein S2 11 16 83 88 RUNX3
+# T6 Protein S2 22 27 94 99 FOXP3
+# T7 Protein S2 58 61 130 133 CD4
+# T8 Protein S2 100 103 172 175 CD2
+# T9 Protein S2 104 105 176 177 3
+# T10 Protein S2 106 108 178 180 28
+# T11 Protein S2 117 125 189 197 TGF-beta
+# T12 Protein S2 157 161 229 233 IL-2
+$ T4 Protein S2 4 9 76 81 RUNX1
+$ T5 Protein S2 11 16 83 88 RUNX3
+$ T6 Protein S2 22 27 94 99 FOXP3
+$ T12 Protein S2 157 161 229 233 IL-2
+@ T57 Transcription S2 28 32 100 104 mRNA
+@ T58 Positive_regulation S2 33 42 105 114 induction
+% E4 Transcription:T57 Theme:T4
+% E5 Transcription:T57 Theme:T5
+% E6 Transcription:T57 Theme:T6
+% E7 Positive_regulation:T58 Theme:E4 Cause:T12
+% E8 Positive_regulation:T58 Theme:E5 Cause:T12
+% E9 Positive_regulation:T58 Theme:E6 Cause:T12
+
+Real-time PCR of human naive CD4+ T cells after 48 h of culture.
+# T13 Protein S3 29 32 264 267 CD4
+
+Bars show the mean +/- SE of three independent experiments.
+
+(B) FOXP3 mRNA induction by anti-CD2/3/28 mAb and TGF-beta in human naive CD4+ T cells is reduced after siRNA-mediated RUNX1/3 knockdown.
+# T14 Protein S5 4 9 364 369 FOXP3
+# T15 Protein S5 33 36 393 396 CD2
+# T16 Protein S5 37 38 397 398 3
+# T17 Protein S5 39 41 399 401 28
+# T18 Protein S5 50 58 410 418 TGF-beta
+# T19 Protein S5 74 77 434 437 CD4
+# T20 Protein S5 119 124 479 484 RUNX1
+# T21 Protein S5 125 126 485 486 3
+$ T14 Protein S5 4 9 364 369 FOXP3
+$ T18 Protein S5 50 58 410 418 TGF-beta
+$ T20 Protein S5 119 124 479 484 RUNX1
+$ T21 Protein S5 125 126 485 486 3
+@ T59 Transcription S5 10 14 370 374 mRNA
+@ T60 Positive_regulation S5 15 24 375 384 induction
+@ T61 Negative_regulation S5 90 97 450 457 reduced
+@ T62 Positive_regulation S5 110 118 470 478 mediated
+@ T63 Negative_regulation S5 127 136 487 496 knockdown
+% E10 Transcription:T59 Theme:T14
+% E11 Positive_regulation:T60 Theme:E10 Cause:T18
+% E12 Negative_regulation:T61 Theme:E11 Cause:E13
+% E14 Negative_regulation:T61 Theme:E11 Cause:E15
+% E16 Positive_regulation:T62 Theme:E13
+% E17 Positive_regulation:T62 Theme:E15
+% E13 Negative_regulation:T63 Theme:T20
+% E15 Negative_regulation:T63 Theme:T21
+
+Real-time PCR of RNA from human naive CD4+ T cells, transfected with RUNX1 and/or RUNX3 siRNA or with a control siRNA and cultured with anti-CD2/3/28, TGF-beta and IL-2.
+# T22 Protein S6 38 41 536 539 CD4
+# T23 Protein S6 69 74 567 572 RUNX1
+# T24 Protein S6 82 87 580 585 RUNX3
+# T25 Protein S6 141 144 639 642 CD2
+# T26 Protein S6 145 146 643 644 3
+# T27 Protein S6 147 149 645 647 28
+# T28 Protein S6 151 159 649 657 TGF-beta
+# T29 Protein S6 164 168 662 666 IL-2
+$ T23 Protein S6 69 74 567 572 RUNX1
+$ T24 Protein S6 82 87 580 585 RUNX3
+@ T64 Negative_regulation S6 88 93 586 591 siRNA
+% E18 Negative_regulation:T64 Theme:T23
+% E19 Negative_regulation:T64 Theme:T24
+
+Bars show the mean +/- SD of three independent experiments.
+
+(C) FOXP3 mRNA is down-regulated in iT reg cells after siRNA-mediated knockdown of RUNX1 and RUNX3.
+# T30 Protein S8 4 9 732 737 FOXP3
+# T31 Protein S8 83 88 811 816 RUNX1
+# T32 Protein S8 93 98 821 826 RUNX3
+$ T30 Protein S8 4 9 732 737 FOXP3
+$ T31 Protein S8 83 88 811 816 RUNX1
+$ T32 Protein S8 93 98 821 826 RUNX3
+@ T65 Transcription S8 10 14 738 742 mRNA
+@ T66 Negative_regulation S8 18 32 746 760 down-regulated
+@ T67 Positive_regulation S8 61 69 789 797 mediated
+@ T68 Negative_regulation S8 70 79 798 807 knockdown
+% E20 Transcription:T65 Theme:T30
+% E21 Negative_regulation:T66 Theme:E20 Cause:E22
+% E23 Negative_regulation:T66 Theme:E20 Cause:E24
+% E25 Positive_regulation:T67 Theme:E22
+% E26 Positive_regulation:T67 Theme:E24
+% E22 Negative_regulation:T68 Theme:T31
+% E24 Negative_regulation:T68 Theme:T32
+
+Real-time PCR for FOXP3, T-bet, GATA3, and RORC2 from human naive CD4+ T cells, transfected with RUNX1 and RUNX3 siRNA or with scrambled siRNA (control) and cultured under iT reg, Th1, Th2, or Th17-driving conditions for 12 d. Bars show the mean +/- SD of three independent experiments.
+# T33 Protein S9 18 23 846 851 FOXP3
+# T34 Protein S9 25 30 853 858 T-bet
+# T35 Protein S9 32 37 860 865 GATA3
+# T36 Protein S9 43 48 871 876 RORC2
+# T37 Protein S9 66 69 894 897 CD4
+# T38 Protein S9 97 102 925 930 RUNX1
+# T39 Protein S9 107 112 935 940 RUNX3
+# T40 Protein S9 172 178 1000 1006 iT reg
+# T41 Protein S9 193 197 1021 1025 Th17
+$ T38 Protein S9 97 102 925 930 RUNX1
+$ T39 Protein S9 107 112 935 940 RUNX3
+@ T69 Negative_regulation S9 113 118 941 946 siRNA
+% E27 Negative_regulation:T69 Theme:T38
+% E28 Negative_regulation:T69 Theme:T39
+
+(D) FOXP3 protein induction in iT reg cells is reduced after siRNA-mediated RUNX1/3 knockdown.
+# T42 Protein S10 4 9 1119 1124 FOXP3
+# T43 Protein S10 76 81 1191 1196 RUNX1
+# T44 Protein S10 82 83 1197 1198 3
+$ T42 Protein S10 4 9 1119 1124 FOXP3
+$ T43 Protein S10 76 81 1191 1196 RUNX1
+$ T44 Protein S10 82 83 1197 1198 3
+@ T70 Gene_expression S10 18 27 1133 1142 induction
+@ T71 Negative_regulation S10 47 54 1162 1169 reduced
+@ T72 Positive_regulation S10 67 75 1182 1190 mediated
+@ T73 Negative_regulation S10 84 93 1199 1208 knockdown
+% E29 Gene_expression:T70 Theme:T42
+% E30 Negative_regulation:T71 Theme:E29 Cause:E31
+% E32 Negative_regulation:T71 Theme:E29 Cause:E33
+% E34 Positive_regulation:T72 Theme:E31
+% E35 Positive_regulation:T72 Theme:E33
+% E31 Negative_regulation:T73 Theme:T43
+% E33 Negative_regulation:T73 Theme:T44
+
+Human naive CD4+ T cells were transfected with RUNX1 and/or RUNX3 siRNA or with a control siRNA and stimulated with anti-CD2/3/28 and TGF-beta in the presence of IL-2.
+# T45 Protein S11 12 15 1222 1225 CD4
+# T46 Protein S11 47 52 1257 1262 RUNX1
+# T47 Protein S11 60 65 1270 1275 RUNX3
+# T48 Protein S11 121 124 1331 1334 CD2
+# T49 Protein S11 125 126 1335 1336 3
+# T50 Protein S11 127 129 1337 1339 28
+# T51 Protein S11 134 142 1344 1352 TGF-beta
+# T52 Protein S11 162 166 1372 1376 IL-2
+$ T46 Protein S11 47 52 1257 1262 RUNX1
+$ T47 Protein S11 60 65 1270 1275 RUNX3
+@ T74 Negative_regulation S11 66 71 1276 1281 siRNA
+% E36 Negative_regulation:T74 Theme:T46
+% E37 Negative_regulation:T74 Theme:T47
+
+CD4 and intracellular FOXP3 analysis by flow cytometry after 72 h.
+# T53 Protein S12 0 3 1378 1381 CD4
+# T54 Protein S12 22 27 1400 1405 FOXP3
+
+One of three independent experiments is shown.
+
+Statistical differences were verified by the paired Student's t test.
+
+*, P < 0.05; **, P < 0.01.
+

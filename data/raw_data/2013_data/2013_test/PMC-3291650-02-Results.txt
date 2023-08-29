@@ -1,0 +1,105 @@
+A20 inhibits RIG-I-induced NF-kappaB and IRF3 activation
+# T1 Protein S1 13 18 13 18 RIG-I
+# T2 Protein S1 41 45 41 45 IRF3
+
+RIG-I signaling induces the activation of NF-kappaB, IRF3 and IRF7 transcription factors, which promote the expression of proinflammatory cytokines and type I IFNs that restrict further viral propagation.
+# T3 Protein S2 0 5 57 62 RIG-I
+# T4 Protein S2 53 57 110 114 IRF3
+# T5 Protein S2 62 66 119 123 IRF7
+
+Previous studies have shown that ectopically expressed A20 negatively regulates NF-kappaB and IRF3 activation upon RIG-I stimulation [50]-[52].
+# T6 Protein S3 94 98 356 360 IRF3
+# T7 Protein S3 115 120 377 382 RIG-I
+
+Similarly, we show that A20 overexpression in HEK293T cells prevents NF-kappaB- and IRF3-dependent luciferase reporter gene activation induced by transfection of a truncated constitutive active form of RIG-I [53], corresponding to only the two N-terminal CARD domains of RIG-I [RIG-I (2CARD)] (figure 1A, left and middle graph).
+# T8 Protein S4 84 88 490 494 IRF3
+# T9 Protein S4 99 109 505 515 luciferase
+# T10 Protein S4 164 198 570 604 truncated constitutive active form
+# T11 Protein S4 202 207 608 613 RIG-I
+# T12 Protein S4 271 276 677 682 RIG-I
+
+We next investigated whether A20 also inhibits IRF7 activation.
+# T13 Protein S5 47 51 782 786 IRF7
+
+Unlike IRF3, IRF7 is not or weakly expressed under naive conditions and IRF7 protein levels are rapidly upregulated upon virus-induced IRF3 activation [54], [55].
+# T14 Protein S6 7 11 806 810 IRF3
+# T15 Protein S6 13 17 812 816 IRF7
+# T16 Protein S6 72 76 871 875 IRF7
+# T17 Protein S6 135 139 934 938 IRF3
+
+To determine the effect of A20 on IRF7 activation, we therefore transfected minor amounts of an IRF7 expression plasmid together with plasmids encoding RIG-I (2CARD), A20 and an IRF7-specific IFNalpha4 luciferase reporter construct.
+# T18 Protein S7 34 38 996 1000 IRF7
+# T19 Protein S7 96 100 1058 1062 IRF7
+# T20 Protein S7 178 182 1140 1144 IRF7
+# T21 Protein S7 202 212 1164 1174 luciferase
+
+RIG-I (2CARD) expression in the absence of IRF7 co-expression showed negligible IFNalpha4 promoter activation (grey bar, figure 1A, right graph), whereas significant reporter gene expression was observed in the presence of IRF7.
+# T22 Protein S8 43 47 1238 1242 IRF7
+# T23 Protein S8 223 227 1418 1422 IRF7
+
+Similar to its inhibitory effect on NF-kappaB and IRF3 activation, A20 also prevented RIG-I-induced IRF7 activation (figure 1A, right graph).
+# T24 Protein S9 50 54 1474 1478 IRF3
+# T25 Protein S9 86 91 1510 1515 RIG-I
+# T26 Protein S9 100 104 1524 1528 IRF7
+
+These results demonstrate the potential of A20 to inhibit RIG-I-induced NF-kappaB and IRF3/7 activation.
+# T27 Protein S10 58 63 1624 1629 RIG-I
+# T28 Protein S10 86 90 1652 1656 IRF3
+# T29 Protein S10 91 92 1657 1658 7
+
+To study the effect of endogenously expressed A20 on RIG-I-induced signaling in a more immunological relevant context, we performed further experiments in A20 deficient primary macrophages.
+# T30 Protein S11 53 58 1724 1729 RIG-I
+
+Since A20 full knockout mice die prematurely as a result of severe multi-organ inflammation [37], we generated mice carrying a conditional A20 allele in which exon IV and exon V were flanked by two loxP sites [56].
+
+Crossing these mice with transgenic mice expressing Cre recombinase under control of the lysozyme M promoter leads to specific deletion in myeloid cells and allowed us to generate myeloid cell specific A20 knockout mice [48].
+
+To stimulate the RIG-I receptor, we transfected A20myel-KO BMDM and wild type control cells with minimal amounts of low molecular weight (LMW) poly(I:C), which is known to preferentially bind and activate RIG-I rather than MDA5 [57].
+# T31 Protein S14 17 22 2319 2324 RIG-I
+# T32 Protein S14 205 210 2507 2512 RIG-I
+# T33 Protein S14 223 227 2525 2529 MDA5
+
+Of note, this concentration of poly(I:C) was unable to induce significant TLR3 dependent NF-kappaB and IRF3 activation or cytokine production (data not shown).
+# T34 Protein S15 74 78 2610 2614 TLR3
+# T35 Protein S15 103 107 2639 2643 IRF3
+
+As expected, poly(I:C) transfection induced the rapid expression of A20 in wild type, but not in A20myel-KO BMDM (figure 1B, upper panel).
+
+At early time points, slightly slower migrating forms of A20 were observed, indicating that A20 undergoes a yet unknown modification upon poly(I:C) transfection.
+
+Compared to wild type BMBM, A20 deficient cells showed enhanced NF-kappaB activation as indicated by increased phosphorylation and sustained degradation of IkappaBalpha (figure 1B).
+# T36 Protein S18 156 168 3153 3165 IkappaBalpha
+
+Furthermore, nuclear translocation of the p65 NF-kappaB subunit was enhanced in poly(I:C) transfected A20myel-KO BMDM, reaching a maximum at earlier time points compared to wild type cells (figure 1C).
+# T37 Protein S19 42 45 3221 3224 p65
+
+IRF3 is known to be activated upon phosphorylation of a series of carboxyl terminal serine residues by the IKK-like kinases TBK1 and IKKepsilon [58], leading to its dimerization and subsequent translocation to the nucleus [59].
+# T38 Protein S20 0 4 3381 3385 IRF3
+# T39 Protein S20 124 128 3505 3509 TBK1
+# T40 Protein S20 133 143 3514 3524 IKKepsilon
+
+Using immunoblotting with an antibody directed against phosphorylated Ser396, maximum IRF3 phosphorylation was detected at earlier time points in A20myel-KO BMDM compared to wild type BMDM (figure 1B).
+# T41 Protein S21 86 90 3695 3699 IRF3
+
+Similar to p65, IRF3 nuclear translocation reached its maximum at an earlier time point in A20 deficient BMDM compared to wild type cells (figure 1C).
+# T42 Protein S22 11 14 3822 3825 p65
+# T43 Protein S22 16 20 3827 3831 IRF3
+
+NF-kappaB controls the expression of IL-6 and TNF, and NF-kappaB and IRF3 control the expression of IFNbeta.
+# T44 Protein S23 37 41 3999 4003 IL-6
+# T45 Protein S23 46 49 4008 4011 TNF
+# T46 Protein S23 69 73 4031 4035 IRF3
+# T47 Protein S23 100 107 4062 4069 IFNbeta
+
+In line with the enhanced activation of NF-kappaB and IRF3 as described above, A20myel-KO BMDM secreted increased amounts of IL-6, TNF and IFNbeta (figure 1D).
+# T48 Protein S24 54 58 4125 4129 IRF3
+# T49 Protein S24 125 129 4196 4200 IL-6
+# T50 Protein S24 131 134 4202 4205 TNF
+# T51 Protein S24 139 146 4210 4217 IFNbeta
+
+Similar results were obtained using peritoneal macrophages (data not shown).
+
+Together, these results demonstrate that A20 plays an important role in the negative regulation of RIG-I-induced NF-kappaB and IRF3 activation in primary macrophages.
+# T52 Protein S26 99 104 4407 4412 RIG-I
+# T53 Protein S26 127 131 4435 4439 IRF3
+

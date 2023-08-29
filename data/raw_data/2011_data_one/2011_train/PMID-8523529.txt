@@ -1,0 +1,41 @@
+Protein kinase C-zeta mediates NF-kappa B activation in human immunodeficiency virus-infected monocytes.
+# T1 Protein S1 0 21 0 21 Protein kinase C-zeta
+
+The molecular mechanisms regulating human immunodeficiency virus (HIV) persistence in a major cell reservoir such as the macrophage remain unknown.
+
+NF-kappa B is a transcription factor involved in the regulation of the HIV long terminal repeat and is selectively activated following HIV infection of human macrophages.
+
+Although little information as to what signal transduction pathways mediate NF-kappa B activation in monocytes-macrophages is available, our previous work indicated that classical protein kinase C (PKC) isoenzymes were not involved in the HIV-mediated NF-kappa B activation.
+
+In this study, we have focused on atypical PKC isoenzymes.
+
+PKC-zeta belongs to this family and is known to be an important step in NF-kappa B activation in other cell systems.
+# T2 Protein S6 0 8 759 767 PKC-zeta
+
+Immunoblotting experiments with U937 cells demonstrate that PKC-zeta is present in these cells, and its expression can be downmodulated by antisense oligonucleotides (AO).
+# T3 Protein S7 60 68 936 944 PKC-zeta
+$ T3 Protein S7 60 68 936 944 PKC-zeta
+@ T10 Gene_expression S7 72 79 948 955 present
+@ T11 Negative_regulation S7 122 135 998 1011 downmodulated
+% E1 Gene_expression:T10 Theme:T3
+% E2 Negative_regulation:T11 Theme:E1
+
+The HIV-mediated NF-kappa B activation is selectively reduced by AO to PKC-zeta.
+# T4 Protein S8 71 79 1119 1127 PKC-zeta
+
+In addition, cotransfection of a negative dominant molecule of PKC-zeta (PKC-zeta mut) with NF-kappa B-dependent reporter genes selectively inhibits the HIV- but not phorbol myristate acetate- or lipopolysaccharide-mediated activation of NF-kappa B.
+# T5 Protein S9 63 71 1192 1200 PKC-zeta
+# T6 Protein S9 73 81 1202 1210 PKC-zeta
+$ T5 Protein S9 63 71 1192 1200 PKC-zeta
+@ T12 Gene_expression S9 13 27 1142 1156 cotransfection
+% E3 Gene_expression:T12 Theme:T5
+
+That PKC-zeta is specific in regulating NF-kappa B is concluded from the inability of PKC-zeta(mut) to interfere with the basal or phorbol myristate acetate-inducible CREB- or AP1-dependent transcriptional activity.
+# T7 Protein S10 5 13 1384 1392 PKC-zeta
+# T8 Protein S10 86 94 1465 1473 PKC-zeta
+# T9 Protein S10 167 171 1546 1550 CREB
+
+Lastly, we demonstrate a selective inhibition of p24 production by HIV-infected human macrophages when treated with AO to PKC-zeta.
+
+Altogether, these results suggest that atypical PKC isoenzymes, including PKC-zeta, participate in the signal transduction pathways by which HIV infection results in the activation of NF-kappa B in human monocytic cells and macrophages.
+

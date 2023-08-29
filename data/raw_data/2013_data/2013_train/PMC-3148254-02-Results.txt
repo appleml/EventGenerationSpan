@@ -1,0 +1,124 @@
+Generation of HOIP-deficient B cells via targeted disruption of Rnf31, the gene encoding HOIP
+# T1 Protein S1 14 18 14 18 HOIP
+# T2 Protein S1 64 69 64 69 Rnf31
+# T3 Protein S1 89 93 89 93 HOIP
+$ T1 Protein S1 14 18 14 18 HOIP
+$ T2 Protein S1 64 69 64 69 Rnf31
+@ T33 Negative_regulation S1 19 28 19 28 deficient
+@ T34 Negative_regulation S1 50 60 50 60 disruption
+% E1 Negative_regulation:T33 Theme:T1
+% E2 Negative_regulation:T34 Theme:T2
+
+In our previous study, we demonstrated that HOIP is recruited to the CD40 signaling complex in two mouse B cell lines [6].
+# T4 Protein S2 44 48 138 142 HOIP
+$ T4 Protein S2 44 48 138 142 HOIP
+@ T35 Binding S2 52 61 146 155 recruited
+% E3 Binding:T35 Theme:T4
+
+Similar results were obtained with mouse splenocytes, indicating that the interaction of CD40 with HOIP is not limited to transformed B cell lines (unpublished observations).
+# T5 Protein S3 89 93 306 310 CD40
+# T6 Protein S3 99 103 316 320 HOIP
+$ T5 Protein S3 89 93 306 310 CD40
+$ T6 Protein S3 99 103 316 320 HOIP
+@ T36 Binding S3 74 85 291 302 interaction
+% E4 Binding:T36 Theme:T5 Theme2:T6
+
+We also found that the recruitment of HOIP to CD40 was TRAF2-dependent and that overexpression of a truncated HOIP mutant partially inhibited CD40-mediated NF-kappaB activation.
+# T7 Protein S4 38 42 430 434 HOIP
+# T8 Protein S4 46 50 438 442 CD40
+# T9 Protein S4 55 60 447 452 TRAF2
+# T10 Protein S4 110 114 502 506 HOIP
+# T11 Protein S4 142 146 534 538 CD40
+$ T7 Protein S4 38 42 430 434 HOIP
+$ T8 Protein S4 46 50 438 442 CD40
+$ T9 Protein S4 55 60 447 452 TRAF2
+@ T37 Binding S4 23 34 415 426 recruitment
+@ T38 Regulation S4 61 70 453 462 dependent
+% E5 Binding:T37 Theme:T7 Theme2:T8
+% E6 Regulation:T38 Theme:E5 Cause:T9
+
+These results support the hypothesis that HOIP plays a role in CD40 signal transduction.
+# T12 Protein S5 42 46 612 616 HOIP
+# T13 Protein S5 63 67 633 637 CD40
+
+To further define the role and evaluate the importance of HOIP in CD40 signaling, we used somatic cell gene targeting to disrupt the gene encoding HOIP in the mouse B cell line A20.2J.
+# T14 Protein S6 58 62 717 721 HOIP
+# T15 Protein S6 66 70 725 729 CD40
+# T16 Protein S6 147 151 806 810 HOIP
+$ T16 Protein S6 147 151 806 810 HOIP
+@ T39 Negative_regulation S6 121 128 780 787 disrupt
+% E7 Negative_regulation:T39 Theme:T16
+
+This cell line has been particularly useful in the characterization of CD40 signaling mechanisms due to the relative ease with which its genome can be modified by homologous recombination [7], [8], [9].
+# T17 Protein S7 71 75 915 919 CD40
+
+We used a targeting vector capable of undergoing homologous recombination with Rnf31 (the gene encoding HOIP) to disrupt the coding sequence of the gene in exon 5 (Fig. 1A).
+# T18 Protein S8 79 84 1126 1131 Rnf31
+# T19 Protein S8 104 108 1151 1155 HOIP
+
+Following introduction of the vector, the neomycin-resistant clones that arose were screened by PCR amplification of genomic DNA to identify cells containing a disrupted Rnf31 allele.
+# T20 Protein S9 170 175 1391 1396 Rnf31
+$ T20 Protein S9 170 175 1391 1396 Rnf31
+@ T40 Negative_regulation S9 160 169 1381 1390 disrupted
+% E8 Negative_regulation:T40 Theme:T20
+
+To remove the selectable marker gene cassette from the disrupted Rnf31 allele, recombinant cell lines were transiently transfected with a plasmid that encodes Cre recombinase.
+# T21 Protein S10 65 70 1470 1475 Rnf31
+# T22 Protein S10 159 174 1564 1579 Cre recombinase
+$ T21 Protein S10 65 70 1470 1475 Rnf31
+@ T41 Negative_regulation S10 55 64 1460 1469 disrupted
+% E9 Negative_regulation:T41 Theme:T21
+
+This step allowed us to perform a second round of targeting and drug selection, generating cells in which both copies of Rnf31 were disrupted.
+# T23 Protein S11 121 126 1702 1707 Rnf31
+$ T23 Protein S11 121 126 1702 1707 Rnf31
+@ T42 Negative_regulation S11 132 141 1713 1722 disrupted
+% E10 Negative_regulation:T42 Theme:T23
+
+Two independent clonal cell lines were chosen for further analysis.
+
+HOIP protein expression was undetectable in both cell lines, as determined by Western blot analysis of cell lysates (Fig. 1B), demonstrating that the targeting process was successful.
+# T24 Protein S13 0 4 1792 1796 HOIP
+$ T24 Protein S13 0 4 1792 1796 HOIP
+@ T43 Gene_expression S13 13 23 1805 1815 expression
+% E11 Gene_expression:T43 Theme:T24
+
+In the text that follows, the two gene-targeted cell lines are referred to as HOIP-deficient cells.
+# T25 Protein S14 78 82 2054 2058 HOIP
+$ T25 Protein S14 78 82 2054 2058 HOIP
+@ T44 Negative_regulation S14 83 92 2059 2068 deficient
+% E12 Negative_regulation:T44 Theme:T25
+
+To enable us to confirm that any signaling or functional defects observed in HOIP-deficient cells were due to disruption of the Rnf31 gene, both HOIP-deficient cell lines were transduced with a retrovirus encoding FLAG-tagged wild-type HOIP, thus restoring HOIP protein expression (Fig. 1B).
+# T26 Protein S15 77 81 2153 2157 HOIP
+# T27 Protein S15 128 133 2204 2209 Rnf31
+# T28 Protein S15 145 149 2221 2225 HOIP
+# T29 Protein S15 236 240 2312 2316 HOIP
+# T30 Protein S15 257 261 2333 2337 HOIP
+$ T26 Protein S15 77 81 2153 2157 HOIP
+$ T27 Protein S15 128 133 2204 2209 Rnf31
+$ T28 Protein S15 145 149 2221 2225 HOIP
+$ T30 Protein S15 257 261 2333 2337 HOIP
+@ T45 Negative_regulation S15 82 91 2158 2167 deficient
+@ T46 Negative_regulation S15 110 120 2186 2196 disruption
+@ T47 Negative_regulation S15 150 159 2226 2235 deficient
+@ T48 Positive_regulation S15 247 256 2323 2332 restoring
+@ T49 Gene_expression S15 270 280 2346 2356 expression
+% E13 Negative_regulation:T45 Theme:T26
+% E14 Negative_regulation:T46 Theme:T27
+% E15 Negative_regulation:T47 Theme:T28
+% E16 Positive_regulation:T48 Theme:E17
+% E17 Gene_expression:T49 Theme:T30
+
+These cells are referred to as HOIP-reconstituted cells.
+# T31 Protein S16 31 35 2399 2403 HOIP
+$ T31 Protein S16 31 35 2399 2403 HOIP
+@ T50 Positive_regulation S16 36 49 2404 2417 reconstituted
+% E18 Positive_regulation:T50 Theme:T31
+
+In the experiments that follow, responses by these cells were compared to those of A20.2J cells and HOIP-deficient cells transduced with a retroviral vector (pMIP) lacking a cDNA insert (empty vector).
+# T32 Protein S17 100 104 2525 2529 HOIP
+$ T32 Protein S17 100 104 2525 2529 HOIP
+@ T51 Negative_regulation S17 105 114 2530 2539 deficient
+% E19 Negative_regulation:T51 Theme:T32
+

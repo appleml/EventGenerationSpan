@@ -1,0 +1,34 @@
+Age-related decreases in IL-2 production by human T cells are associated with impaired activation of nuclear transcriptional factors AP-1 and NF-AT.
+# T1 Protein S1 25 29 25 29 IL-2
+
+Although transcriptional factors AP-1 and nuclear factor of activated T cells (NF-AT) are important for the normal induction of IL-2, it is unknown if the age-related decline in IL-2 production by activated human T cells may be associated with aberrancies in transcriptional regulatory proteins.
+# T2 Protein S2 128 132 278 282 IL-2
+# T3 Protein S2 178 182 328 332 IL-2
+
+In the current studies, IL-2 production by T cells from elderly (mean 78 years) and young (mean 37 years) humans was measured in cultures stimulated with PHA, PHA plus PMA, crosslinked anti-CD3 mAB OKT3 plus PMA, or PMA plus ionomycin.
+# T4 Protein S3 24 28 470 474 IL-2
+# T5 Protein S3 154 157 600 603 PHA
+# T6 Protein S3 159 162 605 608 PHA
+
+Substantial decreases of IL-2 production were observed for cell cultures from 7 of 12 elderly individuals in response to the different stimuli, whereas the levels of IL-2 produced by stimulated T cells from other elderly individuals were equivalent to those observed for stimulated T cells of young subjects.
+# T7 Protein S4 25 29 707 711 IL-2
+# T8 Protein S4 166 170 848 852 IL-2
+
+Analyses of nuclear extracts by electrophoretic DNA mobility shift assays showed that decreased IL-2 production by stimulated T cells of elderly individuals was closely associated with impairments in the activation of both AP-1 and NF-AT.
+# T9 Protein S5 96 100 1087 1091 IL-2
+
+By contrast, T cells from elderly subjects with normal levels of IL-2 production exhibited normal activation of AP-1 and NF-AT.
+# T10 Protein S6 65 69 1295 1299 IL-2
+
+In addition, the results of competition experiments analyzing the normal components of NF-AT showed that the age-related reductions in stimulus-dependent NF-AT complexes corresponded to the slow migrating complexes that were composed of c-Fos/c-Jun AP-1.
+# T11 Protein S7 237 242 1595 1600 c-Fos
+# T12 Protein S7 243 248 1601 1606 c-Jun
+
+The resting and stimulated levels of NF kappa B were reduced in T cells from certain elderly individuals; however, alterations of NF kappa B did not correlate with changes in IL-2 expression.
+# T13 Protein S8 175 179 1788 1792 IL-2
+
+Thus, these results show that age-related impairments in the activation of AP-1 and NF-AT are closely associated with decreased expression of IL-2 and further suggest that aberrancies in the signaling pathways important for the induction of transcriptionally active c-Fos/c-Jun AP-1 may contribute to the impaired activation of NF-AT.
+# T14 Protein S9 142 146 1947 1951 IL-2
+# T15 Protein S9 266 271 2071 2076 c-Fos
+# T16 Protein S9 272 277 2077 2082 c-Jun
+

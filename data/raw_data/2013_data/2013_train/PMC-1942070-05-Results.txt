@@ -1,0 +1,55 @@
+3.2Cellular proliferation and survival in DT40 B cells lacking expression of PKD family kinases
+
+PKD enzymes have previously been linked to the regulation of cell proliferation and survival (reviewed in [20]).
+
+To investigate the effect that loss of PKD kinases had on B cell survival and/or proliferation we cultured wild-type and PKD-null cells in the presence (PKD1/3-/-: Flag-PKD3+ve) or absence (PKD1/3-/-) of doxycycline and monitored exponential growth.
+# T1 Protein S3 153 157 362 366 PKD1
+# T2 Protein S3 158 159 367 368 3
+# T3 Protein S3 169 173 378 382 PKD3
+# T4 Protein S3 190 194 399 403 PKD1
+# T5 Protein S3 195 196 404 405 3
+
+As shown in Fig. 2A, PKD1/3-/- cells proliferated exponentially and re-expression of Flag-PKD3 in these cells had no impact on the rate of proliferation.
+# T6 Protein S4 21 25 480 484 PKD1
+# T7 Protein S4 26 27 485 486 3
+# T8 Protein S4 90 94 549 553 PKD3
+$ T8 Protein S4 90 94 549 553 PKD3
+@ T20 Gene_expression S4 68 81 527 540 re-expression
+% E1 Gene_expression:T20 Theme:T8
+
+Furthermore, the viability of PKD1/3-/- B cells during routine culturing was not significantly different from that of wild-type B cells (data not shown).
+# T9 Protein S5 30 34 643 647 PKD1
+# T10 Protein S5 35 36 648 649 3
+
+It was noted that the population doubling time of PKD1/3-/- cells was slightly slower than that of wild type DT40 cells (12.7 +/- 2.8 h versus 10.2 +/- 0.4 h) but the failure of PKD3 re-expression to modify the proliferation rate of PKD1/3-/- cells suggests that these small differences were most likely the result of clonal variation and were not caused specifically by loss of PKD enzymes.
+# T11 Protein S6 50 54 817 821 PKD1
+# T12 Protein S6 55 56 822 823 3
+# T13 Protein S6 178 182 945 949 PKD3
+# T14 Protein S6 233 237 1000 1004 PKD1
+# T15 Protein S6 238 239 1005 1006 3
+$ T13 Protein S6 178 182 945 949 PKD3
+@ T21 Gene_expression S6 183 196 950 963 re-expression
+% E2 Gene_expression:T21 Theme:T13
+
+Thus, PKD family enzymes are not essential for regulating basal survival and proliferation of DT40 B cells.
+
+PKD enzymes, specifically PKD1 and PKD2, have previously been linked to a protective role against oxidative stress-induced injury in 3T3 fibroblast, HeLa and epithelial cell lines [17,30-32].
+# T16 Protein S8 26 30 1293 1297 PKD1
+# T17 Protein S8 35 39 1302 1306 PKD2
+
+We therefore addressed the role of PKD family kinases in regulating B cell survival in response to oxidative stress and other stress stimuli.
+
+As shown in Fig. 2B, loss of PKD1/3 expression had no significant impact on the survival of DT40 B cells in response to mitochondrial stress stimuli (H2O2 or serum deprivation); DNA damaging agents (etoposide or doxorubicin); ER pathway stress due to calcium overload (thapsigargin) or following prolonged treatment with phorbol esters or Trichostatin A, an inhibitor of class I/II HDACs.
+# T18 Protein S10 29 33 1630 1634 PKD1
+# T19 Protein S10 34 35 1635 1636 3
+$ T18 Protein S10 29 33 1630 1634 PKD1
+$ T19 Protein S10 34 35 1635 1636 3
+@ T22 Negative_regulation S10 21 25 1622 1626 loss
+@ T23 Gene_expression S10 36 46 1637 1647 expression
+% E3 Negative_regulation:T22 Theme:E4
+% E5 Negative_regulation:T22 Theme:E6
+% E4 Gene_expression:T23 Theme:T18
+% E6 Gene_expression:T23 Theme:T19
+
+Thus, PKD kinases do not play an essential role in regulating B cell survival in response to a range of different stress stimuli.
+

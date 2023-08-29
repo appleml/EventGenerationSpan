@@ -1,0 +1,69 @@
+Induction of inflammatory responses
+
+The ability of PMA and HK E. coli to induce an inflammatory response in Jurkat T-cells was evaluated using a multiplex cytokine assay following 24 h stimulation.
+
+The cytokine profile revealed an enhanced induction of the pro-inflammatory cytokines IL-2, IL-6, TNF and the chemokine CXCL8.
+# T1 Protein S3 86 90 284 288 IL-2
+# T2 Protein S3 92 96 290 294 IL-6
+# T3 Protein S3 120 125 318 323 CXCL8
+$ T3 Protein S3 120 125 318 323 CXCL8
+@ T13 Positive_regulation S3 33 41 231 239 enhanced
+@ T14 Positive_regulation S3 42 51 240 249 induction
+% E1 Positive_regulation:T13 Theme:E2
+% E2 Positive_regulation:T14 Theme:T3
+
+The levels of the anti-inflammatory cytokine IL-10 were unaffected by PMA but were significantly decreased by HK E. coli (Table 1).
+# T4 Protein S4 45 50 370 375 IL-10
+$ T4 Protein S4 45 50 370 375 IL-10
+@ T15 Regulation S4 56 66 381 391 unaffected
+@ T16 Negative_regulation S4 97 106 422 431 decreased
+% E3 Regulation:T15 Theme:T4
+% E4 Negative_regulation:T16 Theme:T4
+
+These results confirmed that PMA and HK E. coli induced an inflammatory response in the Jurkat T-cells.
+
+It is interesting to note that PMA was 120-fold more effective at inducing CXCL8 than HK E. coli.
+# T5 Protein S6 75 80 636 641 CXCL8
+$ T5 Protein S6 75 80 636 641 CXCL8
+@ T17 Positive_regulation S6 53 62 614 623 effective
+@ T18 Positive_regulation S6 66 74 627 635 inducing
+% E5 Positive_regulation:T17 Theme:E6
+% E6 Positive_regulation:T18 Theme:T5
+
+PMA-dependent induction of AP-1 and down-regulation of NF-kappaB suggests an involvement of AP-1 in CXCL8 regulation.
+# T6 Protein S7 100 105 759 764 CXCL8
+$ T6 Protein S7 100 105 759 764 CXCL8
+@ T19 Regulation S7 77 88 736 747 involvement
+@ T20 Regulation S7 106 116 765 775 regulation
+% E7 Regulation:T19 Theme:E8
+% E8 Regulation:T20 Theme:T6
+
+Determination of the time course of cytokine induction in response to PMA showed that CXCL8 was already released between 2-6 h, while TNF and IL-6 were released between 6-24 h (figure 3).
+# T7 Protein S8 86 91 863 868 CXCL8
+# T8 Protein S8 142 146 919 923 IL-6
+$ T7 Protein S8 86 91 863 868 CXCL8
+$ T8 Protein S8 142 146 919 923 IL-6
+@ T21 Localization S8 104 112 881 889 released
+@ T22 Localization S8 152 160 929 937 released
+% E9 Localization:T21 Theme:T7
+% E10 Localization:T22 Theme:T8
+
+These results indicated that the cytokines were differentially regulated and that the release was not associated with the early transient induction of NF-kappaB.
+@ T12 Anaphora S9 29 42 994 1007 the cytokines
+@ T23 Regulation S9 63 72 1028 1037 regulated
+% E11 Regulation:T23 Theme:T7
+% E12 Regulation:T23 Theme:T8
+
+The temporal induction of AP-1 correlated to the CXCL8 levels and preceded the TNF and IL-6 release.
+# T9 Protein S10 49 54 1176 1181 CXCL8
+# T10 Protein S10 87 91 1214 1218 IL-6
+$ T10 Protein S10 87 91 1214 1218 IL-6
+@ T24 Localization S10 92 99 1219 1226 release
+% E13 Localization:T24 Theme:T10
+
+This suggests an association between CXCL8 release and AP-1 signalling.
+# T11 Protein S11 37 42 1265 1270 CXCL8
+$ T11 Protein S11 37 42 1265 1270 CXCL8
+@ T25 Localization S11 43 50 1271 1278 release
+% E14 Localization:T25 Theme:T11
+

@@ -1,0 +1,42 @@
+Comparative analysis identifies conserved tumor necrosis factor receptor-associated factor 3 binding sites in the human and simian Epstein-Barr virus oncogene LMP1.
+# T1 Protein S1 42 92 42 92 tumor necrosis factor receptor-associated factor 3
+# T2 Protein S1 159 163 159 163 LMP1
+
+Nonhuman primates are naturally infected with a B-lymphotropic herpesvirus closely related to Epstein-Barr virus (EBV).
+
+These simian EBV share considerable genetic, biologic, and epidemiologic features with human EBV, including virus-induced tumorigenesis.
+
+However, latent, transformation-associated viral genes demonstrate marked sequence divergence among species despite the conserved functions.
+
+We have cloned the latent membrane protein 1 (LMP1) homologs from the simian EBV naturally infecting baboons (cercopithicine herpesvirus 12, herpesvirus papio) and rhesus monkeys (cercopithicine herpesvirus 15) for a comparative study with the human EBV oncogene.
+# T3 Protein S5 19 44 583 608 latent membrane protein 1
+# T4 Protein S5 46 50 610 614 LMP1
+
+The transmembrane domains are well conserved, but there is striking sequence divergence of the carboxy-terminal cytoplasmic domain essential for B-cell immortalization and interaction with the tumor necrosis factor receptor signaling pathway.
+
+Nevertheless, the simian EBV LMP1s retain most functions in common with EBV LMP1, including the ability to induce NF-(kappa)B activity in human cells, to bind the tumor necrosis factor-associated factor 3 (TRAF3) in vitro, and to induce expression of tumor necrosis factor-responsive genes, such as ICAM1, in human B lymphocytes.
+# T5 Protein S7 29 33 1100 1104 LMP1
+# T6 Protein S7 76 80 1147 1151 LMP1
+# T7 Protein S7 163 204 1234 1275 tumor necrosis factor-associated factor 3
+# T8 Protein S7 206 211 1277 1282 TRAF3
+# T9 Protein S7 299 304 1370 1375 ICAM1
+
+Multiple TRAF3 binding sites containing a PXQXT/S core sequence can be identified in the simian EBV LMP1s by an in vitro binding assay.
+# T10 Protein S8 9 14 1410 1415 TRAF3
+# T11 Protein S8 100 104 1501 1505 LMP1
+
+A PXQXT/S-containing sequence is also present in the cytoplasmic domain of the Hodgkin's disease marker, CD30, and binds TRAF3 in vitro.
+# T12 Protein S9 105 109 1642 1646 CD30
+# T13 Protein S9 121 126 1658 1663 TRAF3
+
+The last 13 amino acids containing a PXQXT/S sequence are highly conserved in human and simian EBV LMP1 but do not bind TRAF3, suggesting a distinct role for this conserved region of LMP1.
+# T14 Protein S10 99 103 1773 1777 LMP1
+# T15 Protein S10 120 125 1794 1799 TRAF3
+# T16 Protein S10 183 187 1857 1861 LMP1
+
+The conserved TRAF3 binding sites in LMP1 and the CD30 Hodgkin's disease marker provides further evidence that a TRAF3-mediated signal transduction pathway may be important in malignant transformation.
+# T17 Protein S11 14 19 1877 1882 TRAF3
+# T18 Protein S11 37 41 1900 1904 LMP1
+# T19 Protein S11 50 54 1913 1917 CD30
+# T20 Protein S11 113 118 1976 1981 TRAF3
+

@@ -1,0 +1,19 @@
+Disruption of the human SCL locus by "illegitimate" V-(D)-J recombinase activity.
+# T1 Protein S1 24 27 24 27 SCL
+
+A fusion complementary DNA in the T cell line HSB-2 elucidates a provocative mechanism for the disruption of the putative hematopoietic transcription factor SCL.
+# T2 Protein S2 157 160 240 243 SCL
+
+The fusion cDNA results from an interstitial deletion between a previously unknown locus, SIL (SCL interrupting locus), and the 5' untranslated region of SCL.
+# T3 Protein S3 95 98 340 343 SCL
+# T4 Protein S3 154 157 399 402 SCL
+
+Similar to 1;14 translocations, this deletion disrupts the SCL 5' regulatory region.
+# T5 Protein S4 59 62 463 466 SCL
+
+This event is probably mediated by V-(D)-J recombinase activity, although neither locus is an immunoglobulin or a T cell receptor.
+
+Two other T cell lines, CEM and RPMI 8402, have essentially identical deletions.
+
+Thus, in lymphocytes, growth-affecting genes other than immune receptors risk rearrangements.
+

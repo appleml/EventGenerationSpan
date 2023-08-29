@@ -1,0 +1,77 @@
+Induction of IL-8 expression in T cells uses the CD28 costimulatory pathway.
+# T1 Protein S1 13 17 13 17 IL-8
+# T2 Protein S1 49 53 49 53 CD28
+$ T1 Protein S1 13 17 13 17 IL-8
+@ T17 Positive_regulation S1 0 9 0 9 Induction
+@ T18 Gene_expression S1 18 28 18 28 expression
+@ T19 Positive_regulation S1 40 44 40 44 uses
+% E1 Positive_regulation:T17 Theme:E2
+% E2 Gene_expression:T18 Theme:T1
+% E3 Positive_regulation:T19 Theme:E1
+
+IL-8, a potent chemotactic factor for neutrophil granulocytes and lymphocytes, is a proinflammatory cytokine secreted by a variety of cell types, including T cells.
+# T3 Protein S2 0 4 78 82 IL-8
+$ T3 Protein S2 0 4 78 82 IL-8
+@ T20 Localization S2 109 117 187 195 secreted
+% E4 Localization:T20 Theme:T3
+
+Stimulation of the CD28 cell surface molecule delivers costimulatory signals essential for lymphokine production in activated T cells via a conserved sequence element found in the promoter of several lymphokine genes.
+# T4 Protein S3 19 23 262 266 CD28
+$ T4 Protein S3 19 23 262 266 CD28
+@ T21 Positive_regulation S3 0 11 243 254 Stimulation
+% E5 Positive_regulation:T21 Theme:T4
+
+Anti-CD28-stimulated T cells produced significant amounts of IL-8; additionally, costimulation with anti-CD3 and anti-CD28 Abs resulted in a synergistic induction of IL-8 secretion.
+# T5 Protein S4 5 9 466 470 CD28
+# T6 Protein S4 61 65 522 526 IL-8
+# T7 Protein S4 118 122 579 583 CD28
+# T8 Protein S4 166 170 627 631 IL-8
+$ T6 Protein S4 61 65 522 526 IL-8
+$ T8 Protein S4 166 170 627 631 IL-8
+@ T22 Gene_expression S4 29 37 490 498 produced
+@ T23 Positive_regulation S4 127 135 588 596 resulted
+@ T24 Positive_regulation S4 141 162 602 623 synergistic induction
+@ T25 Localization S4 171 180 632 641 secretion
+% E6 Gene_expression:T22 Theme:T6
+% E7 Positive_regulation:T23 Theme:E8
+% E8 Positive_regulation:T24 Theme:E9
+% E9 Localization:T25 Theme:T8
+
+Sequence homology, single nucleotide mutations, and anti-CD28 Ab stimulation studies established that the NF-kappa B-like sequence in the promoter of the IL-8 gene functioned as a CD28 response element.
+# T9 Protein S5 57 61 700 704 CD28
+# T10 Protein S5 154 158 797 801 IL-8
+# T11 Protein S5 180 184 823 827 CD28
+$ T10 Protein S5 154 158 797 801 IL-8
+$ T11 Protein S5 180 184 823 827 CD28
+@ T26 Entity S5 106 130 749 773 NF-kappa B-like sequence
+@ T27 Regulation S5 185 193 828 836 response
+% E10 Regulation:T27 Theme:T10 Cause:T11 Site:T26
+
+Furthermore, cyclosporin A, but not rapamycin, blocked the synergistic induction of IL-8 expression achieved with anti-CD3 and anti-CD28 costimulation.
+# T12 Protein S6 84 88 930 934 IL-8
+# T13 Protein S6 132 136 978 982 CD28
+$ T12 Protein S6 84 88 930 934 IL-8
+@ T28 Negative_regulation S6 47 54 893 900 blocked
+@ T29 Positive_regulation S6 59 80 905 926 synergistic induction
+@ T30 Gene_expression S6 89 99 935 945 expression
+% E11 Negative_regulation:T28 Theme:E12
+% E12 Positive_regulation:T29 Theme:E13
+% E13 Gene_expression:T30 Theme:T12
+
+The involvement of a CD28 response element in the induction of IL-8 expression in activated T cells may provide new insights into the pathogenesis and persistence of immune disorders characterized by increased levels of IL-8, such as psoriasis and rheumatoid arthritis.
+# T14 Protein S7 21 25 1019 1023 CD28
+# T15 Protein S7 63 67 1061 1065 IL-8
+# T16 Protein S7 220 224 1218 1222 IL-8
+$ T15 Protein S7 63 67 1061 1065 IL-8
+$ T16 Protein S7 220 224 1218 1222 IL-8
+@ T31 Positive_regulation S7 4 15 1002 1013 involvement
+@ T32 Positive_regulation S7 50 59 1048 1057 induction
+@ T33 Gene_expression S7 68 78 1066 1076 expression
+@ T34 Positive_regulation S7 200 209 1198 1207 increased
+@ T35 Gene_expression S7 210 216 1208 1214 levels
+% E14 Positive_regulation:T31 Theme:E15
+% E15 Positive_regulation:T32 Theme:E16
+% E16 Gene_expression:T33 Theme:T15
+% E17 Positive_regulation:T34 Theme:E18
+% E18 Gene_expression:T35 Theme:T16
+

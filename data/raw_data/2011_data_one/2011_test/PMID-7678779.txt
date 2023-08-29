@@ -1,0 +1,20 @@
+The zinc finger transcription factor Egr-1 is essential for and restricts differentiation along the macrophage lineage.
+# T1 Protein S1 37 42 37 42 Egr-1
+
+We have isolated cDNA clones of myeloid differentiation primary response (MyD) genes, activated in the absence of de novo protein synthesis following induction for differentiation along either the macrophage or granulocyte lineage in human myeloblastic leukemia HL-60 cells.
+
+One cDNA clone of a primary response gene, expressed upon macrophage differentiation, encoded for Egr-1, a zinc finger transcription factor.
+# T2 Protein S3 98 103 494 499 Egr-1
+
+The Egr-1 gene was observed to be transcriptionally silent in HL-60 cells, but active in U-937 and M1 cells, the latter two being predetermined for macrophage differentiation.
+# T3 Protein S4 4 9 541 546 Egr-1
+
+Egr-1 antisense oligomers in the culture media blocked macrophage differentiation in both myeloid leukemia cell lines and normal myeloblasts.
+# T4 Protein S5 0 5 713 718 Egr-1
+
+HL-60 cells constitutively expressing an Egr-1 transgene (HL-60Egr-1) could be induced for macrophage, but not granulocyte, differentiation.
+# T5 Protein S6 41 46 896 901 Egr-1
+
+These observations indicate that expression of Egr-1 is essential for and restricts differentiation of myeloblasts along the macrophage lineage.
+# T6 Protein S7 47 52 1043 1048 Egr-1
+

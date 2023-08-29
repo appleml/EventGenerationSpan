@@ -1,0 +1,20 @@
+In vitro translation
+
+HA-IkappaB-alpha, p65 and Tat were expressed under the T7 promoter and in vitro translated using the TnT quick coupled transcription/translation system (Promega), as previously reported (50).
+# T1 Protein S2 0 16 21 37 HA-IkappaB-alpha
+# T2 Protein S2 18 21 39 42 p65
+# T3 Protein S2 26 29 47 50 Tat
+$ T1 Protein S2 0 16 21 37 HA-IkappaB-alpha
+$ T2 Protein S2 18 21 39 42 p65
+$ T3 Protein S2 26 29 47 50 Tat
+@ T4 Gene_expression S2 35 44 56 65 expressed
+@ T5 Positive_regulation S2 45 50 66 71 under
+% E1 Gene_expression:T4 Theme:T1
+% E2 Gene_expression:T4 Theme:T2
+% E3 Gene_expression:T4 Theme:T3
+% E4 Positive_regulation:T5 Theme:E1
+% E5 Positive_regulation:T5 Theme:E2
+% E6 Positive_regulation:T5 Theme:E3
+
+Details are described in Supplementary Data.
+

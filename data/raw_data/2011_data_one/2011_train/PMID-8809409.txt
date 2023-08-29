@@ -1,0 +1,54 @@
+Regulation of GM-CSF gene transcription by core-binding factor.
+# T1 Protein S1 14 20 14 20 GM-CSF
+$ T1 Protein S1 14 20 14 20 GM-CSF
+@ T13 Regulation S1 0 10 0 10 Regulation
+@ T14 Transcription S1 26 39 26 39 transcription
+% E1 Regulation:T13 Theme:E2
+% E2 Transcription:T14 Theme:T1
+
+GM-CSF gene activation in T cells is known to involve the transcription factors nuclear factor-kappa B, AP-1, NFAT, and Sp1.
+# T2 Protein S2 0 6 65 71 GM-CSF
+# T3 Protein S2 120 123 185 188 Sp1
+$ T2 Protein S2 0 6 65 71 GM-CSF
+@ T15 Positive_regulation S2 12 22 77 87 activation
+% E3 Positive_regulation:T15 Theme:T2
+
+Here we demonstrate that the human GM-CSF promoter and enhancer also encompass binding sites for core-binding factor (CBF).
+# T4 Protein S3 35 41 225 231 GM-CSF
+$ T4 Protein S3 35 41 225 231 GM-CSF
+@ T16 Entity S3 42 50 232 240 promoter
+@ T17 Entity S3 55 63 245 253 enhancer
+@ T18 Binding S3 79 86 269 276 binding
+% E4 Binding:T18 Theme:T4 Site:T16
+% E5 Binding:T18 Theme:T4 Site:T17
+
+Significantly, the CBF sites are in each case contained within the minimum essential core regions required for inducible activation of transcription.
+
+Furthermore, these core regions of the enhancer and promoter each encompass closely linked binding sites for CBF, AP-1, and NFATp.
+# T5 Protein S5 124 129 588 593 NFATp
+$ T5 Protein S5 124 129 588 593 NFATp
+@ T19 Binding S5 91 98 555 562 binding
+% E6 Binding:T19 Theme:T5
+
+The GM-CSF promoter CBF site TGTGGTCA is located 51 bp upstream of the transcription start site and also overlaps a YY-1 binding site.
+# T6 Protein S6 4 10 599 605 GM-CSF
+# T7 Protein S6 116 120 711 715 YY-1
+
+A 2-bp mutation within the CBF site resulted in a 2-3-fold decrease in the activities of both a 69-bp proximal promoter fragment and a 627-bp full-length promoter fragment.
+
+Stepwise deletions into the proximal promoter also revealed that the CBF site, but not the YY-1 site, was required for efficient induction of transcriptional activation.
+# T8 Protein S8 91 95 994 998 YY-1
+
+The AML1 and CBF beta genes that encode CBF each have the ability to influence cell growth and differentiation and have been implicated as proto-oncogenes in acute myeloid leukemia.
+# T9 Protein S9 4 8 1077 1081 AML1
+# T10 Protein S9 13 21 1086 1094 CBF beta
+
+This study adds GM-CSF to a growing list of cytokines and receptors that are regulated by CBF and which control the growth, differentiation, and activation of hemopoietic cells.
+# T11 Protein S10 16 22 1271 1277 GM-CSF
+
+The GM-CSF locus may represent one of several target genes that are dysregulated in acute myeloid leukemia.
+# T12 Protein S11 4 10 1437 1443 GM-CSF
+$ T12 Protein S11 4 10 1437 1443 GM-CSF
+@ T20 Regulation S11 68 80 1501 1513 dysregulated
+% E7 Regulation:T20 Theme:T12
+

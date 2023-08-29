@@ -1,0 +1,94 @@
+Tissue factor expression of human monocytes is suppressed by lysophosphatidylcholine.
+# T1 Protein S1 0 13 0 13 Tissue factor
+$ T1 Protein S1 0 13 0 13 Tissue factor
+@ T12 Gene_expression S1 14 24 14 24 expression
+@ T13 Negative_regulation S1 47 57 47 57 suppressed
+% E1 Gene_expression:T12 Theme:T1
+% E2 Negative_regulation:T13 Theme:E1
+
+The expression of tissue factor (TF), the principal initiator of coagulation, is increased during inflammation and atherosclerosis.
+# T2 Protein S2 18 31 105 118 tissue factor
+# T3 Protein S2 33 35 120 122 TF
+$ T3 Protein S2 33 35 120 122 TF
+@ T14 Gene_expression S2 4 14 91 101 expression
+@ T15 Positive_regulation S2 81 90 168 177 increased
+% E3 Gene_expression:T14 Theme:T3
+% E4 Positive_regulation:T15 Theme:E3
+
+Both conditions are promoted by lysophosphatidylcholine (lysoPC).
+@ T16 Positive_regulation S3 20 28 239 247 promoted
+% E5 Positive_regulation:T16 Theme:E4
+
+We observed in the present study that lysoPC (1 to 10 micromol/L) dose-dependently reduced TF activity in human monocytes, as elicited by lipopolysaccharide (LPS).
+# T4 Protein S4 91 93 376 378 TF
+$ T4 Protein S4 91 93 376 378 TF
+@ T17 Negative_regulation S4 83 90 368 375 reduced
+@ T18 Positive_regulation S4 126 134 411 419 elicited
+% E6 Negative_regulation:T17 Theme:E7
+% E7 Positive_regulation:T18 Theme:T4
+
+Lysophosphatidylethanolamine (lysoPE) and other lysophospholipids did not affect LPS-induced TF activity of human monocytes.
+# T5 Protein S5 93 95 542 544 TF
+$ T5 Protein S5 93 95 542 544 TF
+@ T19 Regulation S5 74 80 523 529 affect
+@ T20 Positive_regulation S5 85 92 534 541 induced
+% E8 Regulation:T19 Theme:E9
+% E9 Positive_regulation:T20 Theme:T5
+
+TF antigen expression as elicited by LPS was also lowered by lysoPC.
+# T6 Protein S6 0 2 574 576 TF
+$ T6 Protein S6 0 2 574 576 TF
+@ T21 Gene_expression S6 11 21 585 595 expression
+@ T22 Positive_regulation S6 25 33 599 607 elicited
+@ T23 Negative_regulation S6 50 57 624 631 lowered
+% E10 Gene_expression:T21 Theme:T6
+% E11 Positive_regulation:T22 Theme:E10
+% E12 Negative_regulation:T23 Theme:E11
+
+Phospholipid analyses indicated a selective increase in the lysoPC content of the monocytes after preincubation with the lysophospholipid.
+
+LysoPC inhibited the TF activity of Mono Mac-6 cells to a similar extent as in the monocytes.
+# T7 Protein S8 21 23 803 805 TF
+$ T7 Protein S8 21 23 803 805 TF
+@ T24 Negative_regulation S8 7 16 789 798 inhibited
+% E13 Negative_regulation:T24 Theme:T7
+
+LPS binding to plasma membrane receptors and internalization of LPS into monocytes were not affected by lysoPC.
+
+In contrast, LPS-mediated nuclear binding of nuclear factor-kappaB/Rel to a TF-specific kappaB site was inhibited by lysoPC.
+# T8 Protein S10 76 78 1064 1066 TF
+
+Induction of TF mRNA expression by LPS tended to be partially reduced by the lysophospholipid.
+# T9 Protein S11 13 15 1126 1128 TF
+$ T9 Protein S11 13 15 1126 1128 TF
+@ T25 Positive_regulation S11 0 9 1113 1122 Induction
+@ T26 Transcription S11 21 31 1134 1144 expression
+@ T27 Negative_regulation S11 62 69 1175 1182 reduced
+% E14 Positive_regulation:T25 Theme:E15
+% E15 Transcription:T26 Theme:T9
+% E16 Negative_regulation:T27 Theme:E14
+
+Preincubation with lysoPC increased monocytic cAMP levels.
+
+Inhibition of adenylyl cyclase by pretreatment with 2'-deoxy-3'-adenosine monophosphate partially reversed the inhibition of TF activity promoted by lysoPC.
+# T10 Protein S13 125 127 1392 1394 TF
+$ T10 Protein S13 125 127 1392 1394 TF
+@ T28 Negative_regulation S13 98 106 1365 1373 reversed
+@ T29 Negative_regulation S13 111 121 1378 1388 inhibition
+% E17 Negative_regulation:T28 Theme:E18
+% E18 Negative_regulation:T29 Theme:T10
+
+In conclusion, lysoPC markedly decreases LPS-mediated TF expression of human monocytes, the effect probably being mediated by both transcriptional and posttranscriptional mechanisms.
+# T11 Protein S14 54 56 1478 1480 TF
+$ T11 Protein S14 54 56 1478 1480 TF
+@ T30 Negative_regulation S14 31 40 1455 1464 decreases
+@ T31 Positive_regulation S14 45 53 1469 1477 mediated
+@ T32 Gene_expression S14 57 67 1481 1491 expression
+@ T33 Positive_regulation S14 114 122 1538 1546 mediated
+% E19 Negative_regulation:T30 Theme:E20
+% E20 Positive_regulation:T31 Theme:E21
+% E21 Gene_expression:T32 Theme:T11
+% E22 Positive_regulation:T33 Theme:E19
+
+LysoPC may thus attenuate activation of coagulation during inflammation and atherosclerosis.
+

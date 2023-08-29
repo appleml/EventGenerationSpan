@@ -1,0 +1,94 @@
+Extracellular-regulated kinase 1/2, Jun N-terminal kinase, and c-Jun are involved in NF-kappa B-dependent IL-6 expression in human monocytes.
+# T1 Protein S1 0 32 0 32 Extracellular-regulated kinase 1
+# T2 Protein S1 33 34 33 34 2
+# T3 Protein S1 36 57 36 57 Jun N-terminal kinase
+# T4 Protein S1 63 68 63 68 c-Jun
+# T5 Protein S1 106 110 106 110 IL-6
+$ T5 Protein S1 106 110 106 110 IL-6
+@ T26 Positive_regulation S1 96 105 96 105 dependent
+@ T27 Gene_expression S1 111 121 111 121 expression
+% E1 Positive_regulation:T26 Theme:E2
+% E2 Gene_expression:T27 Theme:T5
+
+In the present study we investigated the possible involvement of the mitogen-activated protein kinase family members extracellular-regulated kinase 1/2 (ERK1/2) and c-Jun N-terminal kinase (JNK) in mediating IL-6 gene expression in human monocytes, in particular their role in enhancing NF-kappa B activity.
+# T6 Protein S2 117 149 260 292 extracellular-regulated kinase 1
+# T7 Protein S2 150 151 293 294 2
+# T8 Protein S2 153 157 296 300 ERK1
+# T9 Protein S2 158 159 301 302 2
+# T10 Protein S2 165 188 308 331 c-Jun N-terminal kinase
+# T11 Protein S2 190 193 333 336 JNK
+# T12 Protein S2 208 212 351 355 IL-6
+$ T12 Protein S2 208 212 351 355 IL-6
+@ T28 Positive_regulation S2 198 207 341 350 mediating
+@ T29 Gene_expression S2 218 228 361 371 expression
+% E3 Positive_regulation:T28 Theme:E4
+% E4 Gene_expression:T29 Theme:T12
+
+Freshly isolated monocytes treated with the protein phosphatase inhibitor okadaic acid secreted high levels of IL-6 protein, which coincided with enhanced binding activity of NF-kappa B as well as with phosphorylation and activation of the ERK1/2 and JNK proteins.
+# T13 Protein S3 111 115 562 566 IL-6
+# T14 Protein S3 251 254 702 705 JNK
+$ T13 Protein S3 111 115 562 566 IL-6
+$ T14 Protein S3 251 254 702 705 JNK
+@ T30 Gene_expression S3 87 95 538 546 secreted
+@ T31 Positive_regulation S3 96 107 547 558 high levels
+@ T32 Phosphorylation S3 202 217 653 668 phosphorylation
+@ T33 Positive_regulation S3 222 232 673 683 activation
+% E5 Gene_expression:T30 Theme:T13
+% E6 Positive_regulation:T31 Theme:E5
+% E7 Phosphorylation:T32 Theme:T14
+% E8 Positive_regulation:T33 Theme:T14
+
+The ERK pathway-specific inhibitor PD98059 inhibited IL-6 secretion from monocytes.
+# T15 Protein S4 53 57 769 773 IL-6
+$ T15 Protein S4 53 57 769 773 IL-6
+@ T34 Negative_regulation S4 43 52 759 768 inhibited
+@ T35 Localization S4 58 67 774 783 secretion
+% E9 Negative_regulation:T34 Theme:E10
+% E10 Localization:T35 Theme:T15
+
+Transient overexpression of inactive mutants of either Raf-1 or JNK1 showed that both pathways were involved in kappa B-dependent IL-6 promoter activity.
+# T16 Protein S5 55 60 855 860 Raf-1
+# T17 Protein S5 64 68 864 868 JNK1
+# T18 Protein S5 130 134 930 934 IL-6
+$ T18 Protein S5 130 134 930 934 IL-6
+@ T36 Regulation S5 120 129 920 929 dependent
+@ T37 Entity S5 135 143 935 943 promoter
+% E11 Regulation:T36 Theme:T18 Site:T37
+
+By using PD98059, we demonstrated that the Raf1/MEK1/ERK1/2 pathway did not affect the DNA binding of NF-kappa B but, rather, acted at the level of transcriptional activity of NF-kappa B. Interestingly, it was shown that NF-kappa B-mediated gene transcription, both in the context of the IL-6 promoter as well as on its own, was dependent on both serine kinase activity and interaction with c-Jun protein.
+# T19 Protein S6 43 47 997 1001 Raf1
+# T20 Protein S6 48 52 1002 1006 MEK1
+# T21 Protein S6 288 292 1242 1246 IL-6
+# T22 Protein S6 391 396 1345 1350 c-Jun
+$ T21 Protein S6 288 292 1242 1246 IL-6
+$ T22 Protein S6 391 396 1345 1350 c-Jun
+@ T38 Transcription S6 246 259 1200 1213 transcription
+@ T39 Positive_regulation S6 329 338 1283 1292 dependent
+@ T40 Binding S6 374 385 1328 1339 interaction
+% E12 Transcription:T38 Theme:T21
+% E13 Positive_regulation:T39 Theme:E12 Cause:E15
+% E14 Positive_regulation:T39 Theme:E12
+% E15 Binding:T40 Theme:T22
+
+We conclude that okadaic acid-induced IL-6 gene expression is at least partly mediated through the ERK1/2 and JNK pathway-dependent activation of NF-kappa B transcriptional capacity.
+# T23 Protein S7 38 42 1398 1402 IL-6
+$ T23 Protein S7 38 42 1398 1402 IL-6
+@ T41 Positive_regulation S7 30 37 1390 1397 induced
+@ T42 Gene_expression S7 48 58 1408 1418 expression
+@ T43 Positive_regulation S7 78 86 1438 1446 mediated
+% E16 Positive_regulation:T41 Theme:E17
+% E17 Gene_expression:T42 Theme:T23
+% E18 Positive_regulation:T43 Theme:E16
+
+Our results suggest that the JNK pathway may regulate NF-kappa B-mediated gene transcription through its phosphorylation and activation of c-Jun.
+# T24 Protein S8 29 32 1572 1575 JNK
+# T25 Protein S8 139 144 1682 1687 c-Jun
+$ T25 Protein S8 139 144 1682 1687 c-Jun
+$ T24 Protein S8 29 32 1572 1575 JNK
+@ T44 Phosphorylation S8 105 120 1648 1663 phosphorylation
+@ T45 Positive_regulation S8 105 120 1648 1663 phosphorylation
+@ T46 Positive_regulation S8 125 135 1668 1678 activation
+% E19 Phosphorylation:T44 Theme:T25
+% E20 Positive_regulation:T45 Theme:E19 Cause:T24
+% E21 Positive_regulation:T46 Theme:T25 Cause:T24
+

@@ -1,0 +1,77 @@
+Effects of prostaglandin E2 on Th0-type human T cell clones: modulation of functions of nuclear proteins involved in cytokine production.
+
+The effects of prostaglandin E2 (PGE2) on cytokine production and proliferation of the CD4+ human helper T cell clone SP-B21 were investigated.
+# T1 Protein S2 87 90 226 229 CD4
+
+In cells stimulated with anti-CD3 mAb, PGE2 inhibited cell proliferation and the production of all the cytokines examined.
+
+Addition of rIL-2 fully restored the proliferative response and partially restored the production of IL-4 and IL-5, but not that of other cytokines.
+# T2 Protein S4 101 105 507 511 IL-4
+# T3 Protein S4 110 114 516 520 IL-5
+$ T2 Protein S4 101 105 507 511 IL-4
+$ T3 Protein S4 110 114 516 520 IL-5
+@ T14 Positive_regulation S4 74 82 480 488 restored
+@ T15 Gene_expression S4 87 97 493 503 production
+% E1 Positive_regulation:T14 Theme:E3
+% E2 Positive_regulation:T14 Theme:E4
+% E3 Gene_expression:T15 Theme:T2
+% E4 Gene_expression:T15 Theme:T3
+
+In contrast, in cells stimulated with phorbol myristate acetate (PMA)/A23187, PGE2 enhanced the production of IL-4 and IL-5, and only partially inhibited the production of other cytokines.
+# T4 Protein S5 110 114 665 669 IL-4
+# T5 Protein S5 119 123 674 678 IL-5
+$ T4 Protein S5 110 114 665 669 IL-4
+$ T5 Protein S5 119 123 674 678 IL-5
+@ T16 Positive_regulation S5 83 91 638 646 enhanced
+@ T17 Gene_expression S5 96 106 651 661 production
+% E5 Positive_regulation:T16 Theme:E7
+% E6 Positive_regulation:T16 Theme:E8
+% E7 Gene_expression:T17 Theme:T4
+% E8 Gene_expression:T17 Theme:T5
+
+Therefore, the effects of PGE2 vary depending on the mode of T cell activation, and the IL-4 and IL-5 are regulated differently from other cytokines.
+# T6 Protein S6 88 92 832 836 IL-4
+# T7 Protein S6 97 101 841 845 IL-5
+$ T6 Protein S6 88 92 832 836 IL-4
+$ T7 Protein S6 97 101 841 845 IL-5
+@ T18 Regulation S6 106 115 850 859 regulated
+% E9 Regulation:T18 Theme:T6
+% E10 Regulation:T18 Theme:T7
+
+In a mobility shift assay, only the NF-kappa B (p50/p50) homodimer was observed in a complex formed with the kappa B sequence in unstimulated SP-B21 cells.
+# T8 Protein S7 48 51 942 945 p50
+# T9 Protein S7 52 55 946 949 p50
+$ T8 Protein S7 48 51 942 945 p50
+@ T19 Binding S7 85 99 979 993 complex formed
+% E11 Binding:T19 Theme:T8
+
+When cells were stimulated with anti-CD3 mAb or PMA/A23187, a complex formation of NF-kappa B (p50/p65) heterodimer with the kappa B sequence was induced.
+# T10 Protein S8 95 98 1145 1148 p50
+# T11 Protein S8 99 102 1149 1152 p65
+$ T11 Protein S8 99 102 1149 1152 p65
+$ T10 Protein S8 95 98 1145 1148 p50
+@ T20 Binding S8 62 79 1112 1129 complex formation
+@ T21 Positive_regulation S8 146 153 1196 1203 induced
+% E12 Binding:T20 Theme:T11
+% E13 Binding:T20 Theme:T10
+% E14 Positive_regulation:T21 Theme:E12
+% E15 Positive_regulation:T21 Theme:E13
+
+Interestingly, PGE2 or di-butyryl (Bt2)cAMP abolished the binding of NF-kappa B (p50/p65) heterodimer to the kappa B sequence in cells stimulated with anti-CD3 mAb but not with PMA/A23187.
+# T12 Protein S9 81 84 1286 1289 p50
+# T13 Protein S9 85 88 1290 1293 p65
+$ T12 Protein S9 81 84 1286 1289 p50
+$ T13 Protein S9 85 88 1290 1293 p65
+@ T22 Negative_regulation S9 44 53 1249 1258 abolished
+@ T23 Binding S9 58 65 1263 1270 binding
+% E16 Negative_regulation:T22 Theme:E19
+% E17 Negative_regulation:T22 Theme:E18
+% E18 Binding:T23 Theme:T12
+% E19 Binding:T23 Theme:T13
+
+Our results suggest that the target of PGE2 action is a component in the signal transduction pathway leading to the activation of protein kinase C. However, the inhibition of the T cell activation signals by PGE2 is selective.
+
+PGE2 enhanced the complex formation with NF-AT, AP-1 and CLE0 sequences when the cells were activated by either anti-CD3 mAb or PMA/A23187 stimulation.
+
+It seems therefore that PGE2, by elevating cAMP levels, interferes with the activation pathway for NF-kappa B but not for NF-AT, AP-1 or CLE0 binding protein.
+

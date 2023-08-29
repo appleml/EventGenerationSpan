@@ -1,0 +1,38 @@
+Statistics	NNS	B-NP	O	Other	No	No	Other	Other	###	1	Statistics	Statistics	NNS	NNS	_	0	root	_	_
+
+All	DT	B-NP	O	Other	No	No	Other	Other	###	1	All	All	DT	DT	_	2	det	_	_
+graphs	NNS	I-NP	O	Other	No	No	Other	Other	###	2	graphs	graphs	NNS	NNS	_	3	nsubj	_	_
+display	VBP	B-VP	O	Other	No	No	Other	Other	###	3	display	display	VBP	VBP	_	0	root	_	_
+the	DT	B-NP	O	Other	No	No	Other	Other	###	4	the	the	DT	DT	_	5	det	_	_
+mean	NN	I-NP	O	Other	No	No	Other	Other	###	5	mean	mean	NN	NN	_	3	dobj	_	_
++/-	CC	I-NP	O	Other	No	No	Other	Other	###	6	+/-	+/-	CC	CC	_	5	cc	_	_
+SEM	NN	I-NP	O	Other	No	No	Other	Other	###	7	SEM	SEM	NN	NN	_	5	conj	_	_
+and	CC	O	O	Other	No	No	Other	Other	###	8	and	and	CC	CC	_	3	cc	_	_
+were	VBD	B-VP	O	Other	No	No	Other	Other	###	9	were	were	VBD	VBD	_	10	auxpass	_	_
+generated	VBN	I-VP	O	Other	No	No	Other	Other	###	10	generated	generated	VBN	VBN	_	3	conj	_	_
+with	IN	B-PP	O	Other	No	No	Other	Other	###	11	with	with	IN	IN	_	12	case	_	_
+Prism	NN	B-NP	B-protein	Other	No	No	Other	Other	###	12	Prism	Prism	NN	NN	_	10	nmod	_	_
+5	CD	I-NP	I-protein	Other	No	No	Other	Other	###	13	5	5	CD	CD	_	12	nummod	_	_
+(	(	O	O	Other	No	No	Other	Other	###	14	(	(	(	(	_	15	punct	_	_
+Graphpad	NN	B-NP	O	Other	No	No	Other	Other	###	15	Graphpad	Graphpad	NN	NN	_	12	appos	_	_
+)	)	O	O	Other	No	No	Other	Other	###	16	)	)	)	)	_	15	punct	_	_
+.	.	O	O	Other	No	No	Other	Other	###	17	.	.	.	.	_	3	punct	_	_
+
+Statistical	JJ	B-NP	O	Other	No	No	Other	Other	###	1	Statistical	Statistical	JJ	JJ	_	2	amod	_	_
+significance	NN	I-NP	O	Other	No	No	Other	Other	###	2	significance	significance	NN	NN	_	4	nsubjpass	_	_
+was	VBD	B-VP	O	Other	No	No	Other	Other	###	3	was	was	VBD	VBD	_	4	auxpass	_	_
+determined	VBN	I-VP	O	Other	No	No	Other	Other	###	4	determined	determined	VBN	VBN	_	0	root	_	_
+by	IN	B-PP	O	Other	No	No	Other	Other	###	5	by	by	IN	IN	_	6	mark	_	_
+performing	VBG	B-VP	O	Other	No	No	Other	Other	###	6	performing	performing	VBG	VBG	_	4	advcl	_	_
+one	CD	B-NP	O	Other	No	No	Other	Other	###	7	one	one	CD	CD	_	6	dobj	_	_
+or	CC	I-NP	O	Other	No	No	Other	Other	###	8	or	or	CC	CC	_	7	cc	_	_
+two-way	JJ	I-NP	O	Other	No	No	Other	Other	###	9	two-way	two-way	JJ	JJ	_	7	conj	_	_
+ANOVA	NN	I-NP	O	Other	No	No	Other	Other	###	10	ANOVA	ANOVA	NN	NN	_	6	dobj	_	_
+and	CC	O	O	Other	No	No	Other	Other	###	11	and	and	CC	CC	_	10	cc	_	_
+the	DT	B-NP	O	Other	No	No	Other	Other	###	12	the	the	DT	DT	_	14	det	_	_
+Bonferroni	NNP	I-NP	O	Other	No	No	Other	Other	###	13	Bonferroni	Bonferroni	NNP	NNP	_	14	compound	_	_
+post-test	JJS	I-NP	O	Other	No	No	Other	Other	###	14	post-test	post-test	JJS	JJS	_	10	conj	_	_
+where	WRB	B-ADVP	O	Other	No	No	Other	Other	###	15	where	where	WRB	WRB	_	16	advmod	_	_
+applicable	JJ	B-ADJP	O	Other	No	No	Other	Other	###	16	applicable	applicable	JJ	JJ	_	14	acl:relcl	_	_
+.	.	O	O	Other	No	No	Other	Other	###	17	.	.	.	.	_	4	punct	_	_
+

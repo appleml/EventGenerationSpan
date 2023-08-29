@@ -1,0 +1,82 @@
+Membrane-associated lymphotoxin on natural killer cells activates endothelial cells via an NF-kappaB-dependent pathway.
+
+BACKGROUND: Inhibition of complement in small animal models of xenotransplantation has demonstrated graft infiltration with natural killer (NK) cells and monocytes associated with endothelial cell (EC) activation.
+
+We have previously demonstrated that human NK cells activate porcine EC in vitro, which results in adhesion molecule expression and cytokine secretion.
+
+In this study, we used the NK cell line NK92 to define the molecular and cellular basis of NK cell-mediated EC activation.
+
+METHODS: EC were transfected with either reporter constructs containing the luciferase gene driven either by E-selectin or interleukin (IL)-8 promoters or a synthetic NF-kappaB-dependent promoter.
+# T1 Protein S5 109 119 719 729 E-selectin
+# T2 Protein S5 123 141 733 751 interleukin (IL)-8
+
+In addition, a dominant-negative mutant tumor necrosis factor receptor I (TNFRI) expression vector was co-transfected in inhibition studies.
+# T3 Protein S6 40 72 847 879 tumor necrosis factor receptor I
+# T4 Protein S6 74 79 881 886 TNFRI
+$ T3 Protein S6 40 72 847 879 tumor necrosis factor receptor I
+@ T18 Gene_expression S6 103 117 910 924 co-transfected
+@ T19 Positive_regulation S6 103 117 910 924 co-transfected
+% E1 Gene_expression:T18 Theme:T3
+% E2 Positive_regulation:T19 Theme:E1
+
+Forty-eight hours after transfection, EC were stimulated with NK cells or NK cell membrane extracts for 7 hr and activation was measured by a luciferase assay.
+
+RESULTS: Co-culture of NK cells with transfected EC enhanced E-selectin, IL-8, and NF-kappaB-dependent promoter activity.
+# T5 Protein S8 61 71 1169 1179 E-selectin
+# T6 Protein S8 73 77 1181 1185 IL-8
+
+NK cell membrane extracts retained the capacity to activate EC and induced nuclear translocation of NF-kappaB (p50 and p65).
+# T7 Protein S9 111 114 1341 1344 p50
+# T8 Protein S9 119 122 1349 1352 p65
+$ T8 Protein S9 119 122 1349 1352 p65
+$ T7 Protein S9 111 114 1341 1344 p50
+@ T20 Positive_regulation S9 67 74 1297 1304 induced
+@ T21 Entity S9 75 82 1305 1312 nuclear
+@ T22 Localization S9 83 96 1313 1326 translocation
+% E3 Positive_regulation:T20 Theme:E6
+% E4 Positive_regulation:T20 Theme:E5
+% E5 Localization:T22 Theme:T8 ToLoc:T21
+% E6 Localization:T22 Theme:T7 ToLoc:T21
+
+Western blotting of NK cell and membrane extracts detected the presence of Lymphotoxin-alpha (LTalpha) but not tumor necrosis factor-alpha.
+# T9 Protein S10 75 92 1430 1447 Lymphotoxin-alpha
+# T10 Protein S10 94 101 1449 1456 LTalpha
+# T11 Protein S10 111 138 1466 1493 tumor necrosis factor-alpha
+$ T11 Protein S10 111 138 1466 1493 tumor necrosis factor-alpha
+$ T10 Protein S10 94 101 1449 1456 LTalpha
+@ T23 Gene_expression S10 63 71 1418 1426 presence
+% E7 Gene_expression:T23 Theme:T11
+% E8 Gene_expression:T23 Theme:T10
+
+Furthermore, LTalpha was secreted in NK:EC co-cultures.
+# T12 Protein S11 13 20 1508 1515 LTalpha
+$ T12 Protein S11 13 20 1508 1515 LTalpha
+@ T24 Localization S11 25 33 1520 1528 secreted
+% E9 Localization:T24 Theme:T12
+
+Co-transfection with dominant-negative mutant TNFRI inhibited EC activation by NK cell membrane extracts and by NK cells by 80% and 47%, respectively.
+# T13 Protein S12 46 51 1597 1602 TNFRI
+$ T13 Protein S12 46 51 1597 1602 TNFRI
+@ T25 Positive_regulation S12 0 15 1551 1566 Co-transfection
+@ T26 Gene_expression S12 0 15 1551 1566 Co-transfection
+% E10 Positive_regulation:T25 Theme:E11
+% E11 Gene_expression:T26 Theme:T13
+
+The same pattern of inhibition was observed using anti-human LT sera.
+
+CONCLUSIONS: Human NK cell membrane-bound LT signals across species via TNFRI, leading to NF-kappaB nuclear translocation and transcription of E-selectin and IL-8, which results in EC activation.
+# T14 Protein S14 72 77 1844 1849 TNFRI
+# T15 Protein S14 143 153 1915 1925 E-selectin
+# T16 Protein S14 158 162 1930 1934 IL-8
+$ T15 Protein S14 143 153 1915 1925 E-selectin
+$ T16 Protein S14 158 162 1930 1934 IL-8
+@ T27 Positive_regulation S14 79 86 1851 1858 leading
+@ T28 Transcription S14 126 139 1898 1911 transcription
+% E12 Positive_regulation:T27 Theme:E15
+% E13 Positive_regulation:T27 Theme:E14
+% E14 Transcription:T28 Theme:T15
+% E15 Transcription:T28 Theme:T16
+
+The discrepancy in the degree of inhibition by membrane extracts and NK cells with mutant TNFRI suggests that additional pathways are utilized by NK cells to activate EC.
+# T17 Protein S15 90 95 2058 2063 TNFRI
+

@@ -1,0 +1,62 @@
+NF-kappaB-mediated up-regulation of Bcl-x and Bfl-1/A1 is required for CD40 survival signaling in B lymphocytes.
+# T1 Protein S1 36 41 36 41 Bcl-x
+# T2 Protein S1 46 54 46 54 Bfl-1/A1
+# T3 Protein S1 71 75 71 75 CD40
+$ T2 Protein S1 46 54 46 54 Bfl-1/A1
+$ T1 Protein S1 36 41 36 41 Bcl-x
+@ T19 Positive_regulation S1 19 32 19 32 up-regulation
+% E1 Positive_regulation:T19 Theme:T2
+% E2 Positive_regulation:T19 Theme:T1
+
+Activation of CD40 is essential for thymus-dependent humoral immune responses and rescuing B cells from apoptosis.
+# T4 Protein S2 14 18 128 132 CD40
+$ T4 Protein S2 14 18 128 132 CD40
+@ T20 Positive_regulation S2 0 10 114 124 Activation
+% E3 Positive_regulation:T20 Theme:T4
+
+Many of the effects of CD40 are believed to be achieved through altered gene expression.
+# T5 Protein S3 23 27 252 256 CD40
+
+In addition to Bcl-x, a known CD40-regulated antiapoptotic molecule, we identified a related antiapoptotic molecule, A1/Bfl-1, as a CD40-inducible gene.
+# T6 Protein S4 15 20 333 338 Bcl-x
+# T7 Protein S4 30 34 348 352 CD40
+# T8 Protein S4 117 125 435 443 A1/Bfl-1
+# T9 Protein S4 132 136 450 454 CD40
+$ T6 Protein S4 15 20 333 338 Bcl-x
+$ T7 Protein S4 30 34 348 352 CD40
+$ T8 Protein S4 117 125 435 443 A1/Bfl-1
+$ T9 Protein S4 132 136 450 454 CD40
+@ T21 Regulation S4 35 44 353 362 regulated
+@ T22 Positive_regulation S4 137 146 455 464 inducible
+% E4 Regulation:T21 Theme:T6 Cause:T7
+% E5 Positive_regulation:T22 Theme:T8 Cause:T9
+
+Inhibition of the NF-kappaB pathway by overexpression of a dominant-active inhibitor of NF-kappaB abolished CD40-induced up-regulation of both the Bfl-1 and Bcl-x genes and also eliminated the ability of CD40 to rescue Fas-induced cell death.
+# T10 Protein S5 108 112 579 583 CD40
+# T11 Protein S5 147 152 618 623 Bfl-1
+# T12 Protein S5 157 162 628 633 Bcl-x
+# T13 Protein S5 204 208 675 679 CD40
+# T14 Protein S5 219 222 690 693 Fas
+$ T11 Protein S5 147 152 618 623 Bfl-1
+$ T10 Protein S5 108 112 579 583 CD40
+$ T12 Protein S5 157 162 628 633 Bcl-x
+@ T23 Negative_regulation S5 98 107 569 578 abolished
+@ T24 Positive_regulation S5 121 134 592 605 up-regulation
+% E6 Negative_regulation:T23 Theme:E9
+% E7 Negative_regulation:T23 Theme:E8
+% E8 Positive_regulation:T24 Theme:T11 Cause:T10
+% E9 Positive_regulation:T24 Theme:T12 Cause:T10
+
+Within the upstream promoter region of Bcl-x, a potential NF-kappaB-binding sequence was found to support NF-kappaB-dependent transcriptional activation.
+# T15 Protein S6 39 44 753 758 Bcl-x
+
+Furthermore, expression of physiological levels of Bcl-x protected B cells from Fas-mediated apoptosis in the absence of NF-kappaB signaling.
+# T16 Protein S7 51 56 919 924 Bcl-x
+# T17 Protein S7 80 83 948 951 Fas
+$ T16 Protein S7 51 56 919 924 Bcl-x
+@ T25 Gene_expression S7 13 23 881 891 expression
+% E10 Gene_expression:T25 Theme:T16
+
+Thus, our results suggest that CD40-mediated cell survival proceeds through NF-kappaB-dependent up-regulation of Bcl-2 family members.
+# T18 Protein S8 31 35 1041 1045 CD40
+

@@ -1,0 +1,48 @@
+Reactive oxygen intermediate-dependent NF-kappaB activation by interleukin-1beta requires 5-lipoxygenase or NADPH oxidase activity.
+# T1 Protein S1 63 80 63 80 interleukin-1beta
+# T2 Protein S1 90 104 90 104 5-lipoxygenase
+
+We previously reported that the role of reactive oxygen intermediates (ROIs) in NF-kappaB activation by proinflammatory cytokines was cell specific.
+
+However, the sources for ROIs in various cell types are yet to be determined and might include 5-lipoxygenase (5-LOX) and NADPH oxidase.
+# T3 Protein S3 95 109 377 391 5-lipoxygenase
+# T4 Protein S3 111 116 393 398 5-LOX
+
+5-LOX and 5-LOX activating protein (FLAP) are coexpressed in lymphoid cells but not in monocytic or epithelial cells.
+# T5 Protein S4 0 5 419 424 5-LOX
+# T6 Protein S4 10 15 429 434 5-LOX
+# T7 Protein S4 36 40 455 459 FLAP
+$ T5 Protein S4 0 5 419 424 5-LOX
+$ T7 Protein S4 36 40 455 459 FLAP
+@ T24 Gene_expression S4 46 57 465 476 coexpressed
+% E1 Gene_expression:T24 Theme:T5
+% E2 Gene_expression:T24 Theme:T7
+
+Stimulation of lymphoid cells with interleukin-1beta (IL-1beta) led to ROI production and NF-kappaB activation, which could both be blocked by antioxidants or FLAP inhibitors, confirming that 5-LOX was the source of ROIs and was required for NF-kappaB activation in these cells.
+# T8 Protein S5 35 52 572 589 interleukin-1beta
+# T9 Protein S5 54 62 591 599 IL-1beta
+# T10 Protein S5 159 163 696 700 FLAP
+# T11 Protein S5 192 197 729 734 5-LOX
+
+IL-1beta stimulation of epithelial cells did not generate any ROIs and NF-kappaB induction was not influenced by 5-LOX inhibitors.
+# T12 Protein S6 0 8 816 824 IL-1beta
+# T13 Protein S6 113 118 929 934 5-LOX
+
+However, reintroduction of a functional 5-LOX system in these cells allowed ROI production and 5-LOX-dependent NF-kappaB activation.
+# T14 Protein S7 40 45 987 992 5-LOX
+# T15 Protein S7 95 100 1042 1047 5-LOX
+
+In monocytic cells, IL-1beta treatment led to a production of ROIs which is independent of the 5-LOX enzyme but requires the NADPH oxidase activity.
+# T16 Protein S8 20 28 1100 1108 IL-1beta
+# T17 Protein S8 95 100 1175 1180 5-LOX
+
+This pathway involves the Rac1 and Cdc42 GTPases, two enzymes which are not required for NF-kappaB activation by IL-1beta in epithelial cells.
+# T18 Protein S9 26 30 1255 1259 Rac1
+# T19 Protein S9 35 40 1264 1269 Cdc42
+# T20 Protein S9 113 121 1342 1350 IL-1beta
+
+In conclusion, three different cell-specific pathways lead to NF-kappaB activation by IL-1beta: a pathway dependent on ROI production by 5-LOX in lymphoid cells, an ROI- and 5-LOX-independent pathway in epithelial cells, and a pathway requiring ROI production by NADPH oxidase in monocytic cells.
+# T21 Protein S10 86 94 1458 1466 IL-1beta
+# T22 Protein S10 137 142 1509 1514 5-LOX
+# T23 Protein S10 174 179 1546 1551 5-LOX
+

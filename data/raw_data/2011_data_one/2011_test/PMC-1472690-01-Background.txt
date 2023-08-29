@@ -1,0 +1,72 @@
+Background
+
+beta-1-->3-D-glucans occur as a principal component of microbial cell walls or can be secreted from both, non-pathogenic and pathogenic fungi such as S. cerevisae and C. albicans [1].
+
+These beta-1-->3-D-linked glucose polymers are characterized as a fungal pathogen-associated molecular pattern (PAMP) [2].
+
+The primary cellular recognition of beta-1-->3-D-glucans is mediated by several beta-1-->3-D-glucan receptors on phagocytes [3,4] and other cells [5,6].
+
+Human as well as murine Dectin-1 has been demonstrated to be the major pattern recognition receptor (PRR) for intact yeast and beta-1-->3-D-glucan-containing particles (i.e. zymosan) on monocytes/macrophages as well as neutrophils and on primary cells [7-11].
+# T1 Protein S5 24 32 495 503 Dectin-1
+
+In the murine system, binding of zymosan to Dectin-1 resulted in production of TNFalpha through Toll-like receptor 2 and the adaptor protein MyD88 [12].
+# T2 Protein S6 44 52 775 783 Dectin-1
+# T3 Protein S6 79 87 810 818 TNFalpha
+# T4 Protein S6 96 116 827 847 Toll-like receptor 2
+# T5 Protein S6 141 146 872 877 MyD88
+
+Another water-soluble beta-1-->3-D-glucan (PGG-glucan) has been described to activate NFkappaB and NFIL-6 in murine cell lines [13,14].
+# T6 Protein S7 99 105 983 989 NFIL-6
+
+Similarly, it has been shown that beta-1-->3-D-glucans activate NFkappaB in a human monocyte-like cell line [15] and in human polymorphonuclear neutrophils (PMN), in the latter case without secretion of pro-inflammatory cytokines (IL-1, IL-6, TNFalpha) [16].
+# T7 Protein S8 231 235 1251 1255 IL-1
+# T8 Protein S8 237 241 1257 1261 IL-6
+# T9 Protein S8 243 251 1263 1271 TNFalpha
+
+One study proposed that the production of the anti-inflammatory IL-1RA, but not IL-1 by human monocytes may be a potentially protective mechanism induced by beta-1-->3-D-glucan [17].
+# T10 Protein S9 64 70 1343 1349 IL-1RA
+# T11 Protein S9 80 84 1359 1363 IL-1
+
+Three other investigations have reported that human leukocytes and human vascular endothelial cells produce IL-8 in response to zymosan [18] or a water-soluble beta-1-->3-D-glucan [6,19].
+# T12 Protein S10 108 112 1570 1574 IL-8
+
+In addition, beta-1-->3-D-glucans seem to be able to modify the response to pro-inflammatory stimuli or even sepsis.
+
+In a murine polymicrobial sepsis model, beta-1-->3-D-glucan [20] treatment resulted in decreased septic morbidity and mortality mediated via inhibition of NFkappaB and stimulation of the phosphoinositide-3-kinase (PI3K) pathway [21,22].
+
+These and other animal studies [23,24] as well as a clinical trial [25] support a protective role of beta-1-->3-D-glucan in certain pro-inflammatory conditions.
+
+The mechanisms underlying these beneficial effects of beta-1-->3-D-glucan are only partially resolved, especially in humans.
+
+Thus, the aim of this study was to elucidate molecular and cellular mechanisms of beta-1-->3-D-glucans on human leukocytes in pro-inflammatory conditions with special emphasis on the cytokine profile and its transcriptional regulation.
+
+For this purpose, peripheral blood mononuclear cells (PBMC) were exposed to a well-defined beta-1-->3-D-glucan, i.e. glucan phosphate (GP) [20,26], alone or simultaneously with LPS from gram-negative bacteria or the superantigen TSST-1 from gram-positive bacteria over 48 h. Because of the potential effect of beta-1-->3-D-glucan on cytokine production [12,16-19], TNFalpha, IL-1beta, IL-6, IL-8 and IL-1RA were measured as well as IFNgamma, IL-2, IL-4, IL-10, IL-12 and TGFbeta1.
+# T13 Protein S16 229 235 2756 2762 TSST-1
+# T14 Protein S16 365 373 2892 2900 TNFalpha
+# T15 Protein S16 375 383 2902 2910 IL-1beta
+# T16 Protein S16 385 389 2912 2916 IL-6
+# T17 Protein S16 391 395 2918 2922 IL-8
+# T18 Protein S16 400 406 2927 2933 IL-1RA
+# T19 Protein S16 432 440 2959 2967 IFNgamma
+# T20 Protein S16 442 446 2969 2973 IL-2
+# T21 Protein S16 448 452 2975 2979 IL-4
+# T22 Protein S16 454 459 2981 2986 IL-10
+# T23 Protein S16 461 466 2988 2993 IL-12
+# T24 Protein S16 471 479 2998 3006 TGFbeta1
+
+Correspondingly, four NFkappaB sites from the TNFalpha promoter (kappa consensus, kappa1, kappa2, kappa3) [27], a kappa consensus site from the IL-8 promoter [28], an NFAT site from the IFNgamma promoter (ATP2) [29] and a consensus NFIL-6 site from the IL-6 promoter [13] were examined.
+# T25 Protein S17 46 54 3054 3062 TNFalpha
+# T26 Protein S17 144 148 3152 3156 IL-8
+# T27 Protein S17 186 194 3194 3202 IFNgamma
+# T28 Protein S17 253 257 3261 3265 IL-6
+
+Because of the anti-inflammatory role of IL-1RA, we focused on binding of transcription factors to the IL-1RA promoter.
+# T29 Protein S18 41 47 3336 3342 IL-1RA
+# T30 Protein S18 103 109 3398 3404 IL-1RA
+
+An inhibitory element and three positive-acting LPS-response elements (LRE-1, LRE-2 and LRE-3) in the IL-1RA promoter, including NFkappaB, PU.1 and NFIL-6 sites, have been characterized previously [30-33].
+# T31 Protein S19 102 108 3517 3523 IL-1RA
+
+Using computational analysis for homology search [34], we looked for new binding motifs in the IL-1RA promoter.
+# T32 Protein S20 95 101 3716 3722 IL-1RA
+

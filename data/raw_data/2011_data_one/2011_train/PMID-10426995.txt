@@ -1,0 +1,37 @@
+Host defense mechanisms triggered by microbial lipoproteins through toll-like receptors.
+
+The generation of cell-mediated immunity against many infectious pathogens involves the production of interleukin-12 (IL-12), a key signal of the innate immune system.
+# T1 Protein S2 102 116 192 206 interleukin-12
+# T2 Protein S2 118 123 208 213 IL-12
+$ T2 Protein S2 118 123 208 213 IL-12
+@ T6 Gene_expression S2 88 98 178 188 production
+% E1 Gene_expression:T6 Theme:T2
+
+Yet, for many pathogens, the molecules that induce IL-12 production by macrophages and the mechanisms by which they do so remain undefined.
+# T3 Protein S3 51 56 309 314 IL-12
+$ T3 Protein S3 51 56 309 314 IL-12
+@ T7 Positive_regulation S3 44 50 302 308 induce
+@ T8 Gene_expression S3 57 67 315 325 production
+% E2 Positive_regulation:T7 Theme:E3
+% E3 Gene_expression:T8 Theme:T3
+
+Here it is shown that microbial lipoproteins are potent stimulators of IL-12 production by human macrophages, and that induction is mediated by Toll-like receptors (TLRs).
+# T4 Protein S4 71 76 469 474 IL-12
+$ T4 Protein S4 71 76 469 474 IL-12
+@ T9 Gene_expression S4 77 87 475 485 production
+% E4 Gene_expression:T9 Theme:T4
+
+Several lipoproteins stimulated TLR-dependent transcription of inducible nitric oxide synthase and the production of nitric oxide, a powerful microbicidal pathway.
+# T5 Protein S5 73 94 643 664 nitric oxide synthase
+$ T5 Protein S5 73 94 643 664 nitric oxide synthase
+@ T10 Positive_regulation S5 21 31 591 601 stimulated
+@ T11 Regulation S5 36 45 606 615 dependent
+@ T12 Transcription S5 46 59 616 629 transcription
+@ T13 Positive_regulation S5 63 72 633 642 inducible
+% E5 Positive_regulation:T10 Theme:E7
+% E6 Regulation:T11 Theme:E7
+% E7 Transcription:T12 Theme:T5
+% E8 Positive_regulation:T13 Theme:T5
+
+Activation of TLRs by microbial lipoproteins may initiate innate defense mechanisms against infectious pathogens.
+

@@ -1,0 +1,17 @@
+M-CSF-Induces PKCalpha Kinase Activity
+# T1 Protein S1 14 22 14 22 PKCalpha
+
+Since our data suggested that conventional PKCs were involved in activating NF-kappaB in response to M-CSF in primary human macrophages, we next investigated whether the conventional PKC, PKCalpha was a downstream target of M-CSF in human MDMs.
+# T2 Protein S2 188 196 227 235 PKCalpha
+$ T2 Protein S2 188 196 227 235 PKCalpha
+@ T3 Regulation S2 203 220 242 259 downstream target
+% E1 Regulation:T3 Theme:T2
+
+PKCalpha was immunoprecipitated from human MDMs at the indicated time points (Figure 4), and then a PKC kinase assay was performed using a fluorescein-tagged peptide as a substrate.
+
+As shown in Figure 4 (upper panel), the peptide substrate was maximally phosphorylated within 10 minutes of stimulation (1.8-fold over resting cells, lower panel), and then returned to basal levels by 15 minutes.
+
+This effect was not seen in M-CSF-stimulated monocytes when isogenic antibodies (IgG) were used for immunoprecipitation.
+
+Western blots of identical samples using an antibody recognizing PKCalpha demonstrated that equal amounts of PKCalpha were assayed (Figure 4, middle panel).
+

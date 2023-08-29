@@ -1,0 +1,24 @@
+In vitro T cell differentiation.
+
+CD4+ CD45RA+ magnetically-sorted (CD45RO depletion, MACS, according to the protocol of the manufacturer) cells were stimulated with immobilized plate-bound anti-CD3 (1 mug/ml, Okt3, IgG1) and anti-CD28 (2 mug/ml) in Th1 conditions: 25 ng/ml IL-12, 5 mug/ml anti-IL-4 (R&D systems); in Th2 conditions: 25 ng/ml IL-4, 5 mug/ml anti-IFN-gamma, 5 mug/ml anti-IL-12 (R&D systems); or in Treg conditions: 10 ng/ml TGF-beta, 5 mug/ml anti-IFN-gamma, 5 mug/ml anti-IL-12, 5 mug/ml anti-IL-4.
+# T1 Protein S2 0 3 33 36 CD4
+# T2 Protein S2 5 11 38 44 CD45RA
+# T3 Protein S2 34 40 67 73 CD45RO
+# T4 Protein S2 161 164 194 197 CD3
+# T5 Protein S2 197 201 230 234 CD28
+# T6 Protein S2 241 246 274 279 IL-12
+# T7 Protein S2 262 266 295 299 IL-4
+# T8 Protein S2 310 314 343 347 IL-4
+# T9 Protein S2 330 339 363 372 IFN-gamma
+# T10 Protein S2 355 360 388 393 IL-12
+# T11 Protein S2 408 416 441 449 TGF-beta
+# T12 Protein S2 432 441 465 474 IFN-gamma
+# T13 Protein S2 457 462 490 495 IL-12
+# T14 Protein S2 478 482 511 515 IL-4
+$ T3 Protein S2 34 40 67 73 CD45RO
+@ T16 Negative_regulation S2 41 50 74 83 depletion
+% E1 Negative_regulation:T16 Theme:T3
+
+Proliferating cells were expanded in medium containing IL-2 (30 ng/ml).
+# T15 Protein S3 55 59 572 576 IL-2
+

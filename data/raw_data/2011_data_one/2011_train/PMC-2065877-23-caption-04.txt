@@ -1,0 +1,6 @@
+Summary of Analysis Performed on Wild-Type and LMP1 Transgenic Lymphomas
+# T1 Protein S1 47 51 47 51 LMP1
+$ T1 Protein S1 47 51 47 51 LMP1
+@ T2 Gene_expression S1 52 62 52 62 Transgenic
+% E1 Gene_expression:T2 Theme:T1
+

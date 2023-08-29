@@ -1,0 +1,61 @@
+Transfection Studies Using GM979 Cells Indicate That Sox6 Directly Represses the epsilony Gene Promoter at the Transcriptional Level
+# T1 Protein S1 53 57 53 57 Sox6
+# T2 Protein S1 81 89 81 89 epsilony
+
+Real-time PCR assays (Figure 1) measure steady-state levels of epsilony mRNA, not transcriptional activity of the epsilony promoter.
+# T3 Protein S2 63 71 196 204 epsilony
+# T4 Protein S2 114 122 247 255 epsilony
+
+To investigate whether Sox6 directly acts on the epsilony gene promoter at the transcriptional level, we used an in vitro transient transfection assay and GM979 cells, a murine erythroleukemic cell line that expresses both epsilony and adult beta globins [30].
+# T5 Protein S3 23 27 289 293 Sox6
+# T6 Protein S3 49 57 315 323 epsilony
+# T7 Protein S3 223 231 489 497 epsilony
+# T8 Protein S3 242 254 508 520 beta globins
+
+We generated an epsilony promoter reporter construct (E-Luc) by fusing a micro-LCR (muLCR) element (2.5 kb) [31] to the epsilony proximal promoter (2.2 kb), followed by the luciferase reporter gene, as shown in Figure 2A (detailed in Materials and Methods).
+# T9 Protein S4 16 24 543 551 epsilony
+# T10 Protein S4 120 128 647 655 epsilony
+# T11 Protein S4 173 183 700 710 luciferase
+
+Overexpression of Sox6 in GM979 cells by transient transfection leads to a dosage-dependent repression of E-Luc reporter activity (Figure 2B).
+# T12 Protein S5 18 22 803 807 Sox6
+
+In contrast, overexpression of a truncated Sox6 protein that lacks its HMG domain [32] (similar to the p100H mouse allele) fails to repress E-Luc activity (Figure 2B).
+# T13 Protein S6 43 47 971 975 Sox6
+
+These data indicate that Sox6 acts to repress the epsilony promoter at the transcriptional level.
+# T14 Protein S7 25 29 1121 1125 Sox6
+# T15 Protein S7 50 58 1146 1154 epsilony
+
+Sox6 has been shown to act as a repressor and to interact with a widely expressed co-repressor, CtBP2, on the fgf-3 promoter [5].
+# T16 Protein S8 0 4 1195 1199 Sox6
+# T17 Protein S8 96 101 1291 1296 CtBP2
+# T18 Protein S8 110 115 1305 1310 fgf-3
+
+CtBP2 is expressed in GM979 cells (unpublished data).
+# T19 Protein S9 0 5 1325 1330 CtBP2
+
+To investigate whether the interaction with CtBP2 is required for Sox6 repression of the epsilony promoter, we introduced a point mutation (L386H) in the Sox6 protein that has been previously reported to be sufficient to abolish Sox6-CtBP2 interaction [5].
+# T20 Protein S10 44 49 1423 1428 CtBP2
+# T21 Protein S10 66 70 1445 1449 Sox6
+# T22 Protein S10 89 97 1468 1476 epsilony
+# T23 Protein S10 154 158 1533 1537 Sox6
+# T24 Protein S10 229 233 1608 1612 Sox6
+# T25 Protein S10 234 239 1613 1618 CtBP2
+
+This amino acid change is not in the HMG DNA binding domain.
+
+However, this mutant version of Sox6 retains the ability to repress the epsilony promoter in the transfection assay (Figure 2B), indicating that Sox6 represses the epsilony promoter in a CtBP2-independent manner.
+# T26 Protein S12 32 36 1729 1733 Sox6
+# T27 Protein S12 72 80 1769 1777 epsilony
+# T28 Protein S12 145 149 1842 1846 Sox6
+# T29 Protein S12 164 172 1861 1869 epsilony
+# T30 Protein S12 187 192 1884 1889 CtBP2
+
+Deletion analysis of the epsilony promoter, as shown in Figure 2C, defined a region (-63 to -37) within the epsilony proximal promoter that is critical for Sox6 repression.
+# T31 Protein S13 25 33 1935 1943 epsilony
+# T32 Protein S13 108 116 2018 2026 epsilony
+# T33 Protein S13 156 160 2066 2070 Sox6
+
+Analysis of this short region reveals two Sox/Sox6 consensus binding sites [5] (Figure 3A).
+

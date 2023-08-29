@@ -1,0 +1,49 @@
+Staphylococcal enterotoxins modulate interleukin 2 receptor expression and ligand-induced tyrosine phosphorylation of the Janus protein-tyrosine kinase 3 (Jak3) and signal transducers and activators of transcription (Stat proteins).
+# T1 Protein S1 122 153 122 153 Janus protein-tyrosine kinase 3
+# T2 Protein S1 155 159 155 159 Jak3
+
+Staphylococcal enterotoxins (SE) stimulate T cells expressing the appropriate variable region beta chain of (V beta) T-cell receptors and have been implicated in the pathogenesis of several autoimmune diseases.
+
+Depending on costimulatory signals, SE induce either proliferation or anergy in T cells.
+
+In addition, SE can induce an interleukin-2 (IL-2) nonresponsive state and apoptosis.
+# T3 Protein S4 30 43 564 577 interleukin-2
+# T4 Protein S4 45 49 579 583 IL-2
+
+Here, we show that SE induce dynamic changes in the expression of and signal transduction through the IL-2 receptor (IL-2R) beta and gamma chains (IL-2R beta and IL-2R gamma) in human antigen-specific CD4+ T-cell lines.
+# T5 Protein S5 102 128 722 748 IL-2 receptor (IL-2R) beta
+# T6 Protein S5 133 145 753 765 gamma chains
+# T7 Protein S5 147 157 767 777 IL-2R beta
+# T8 Protein S5 162 173 782 793 IL-2R gamma
+# T9 Protein S5 201 204 821 824 CD4
+
+Thus, after 4 hr of exposure to SEA and SEB, the expression of IL-2R beta was down-regulated, IL-2R gamma was slightly up-regulated, while IL-2R alpha remained largely unaffected.
+# T10 Protein S6 32 35 872 875 SEA
+# T11 Protein S6 40 43 880 883 SEB
+# T12 Protein S6 63 73 903 913 IL-2R beta
+# T13 Protein S6 94 105 934 945 IL-2R gamma
+# T14 Protein S6 139 150 979 990 IL-2R alpha
+
+The changes in the composition of IL-2Rs were accompanied by inhibition of IL-2-induced tyrosine phosphorylation of the Janus protein-tyrosine kinase 3 (Jak3) and signal transducers and activators of transcription called Stat3 and Stat5.
+# T15 Protein S7 75 79 1095 1099 IL-2
+# T16 Protein S7 120 151 1140 1171 Janus protein-tyrosine kinase 3
+# T17 Protein S7 153 157 1173 1177 Jak3
+# T18 Protein S7 221 226 1241 1246 Stat3
+# T19 Protein S7 231 236 1251 1256 Stat5
+
+In parallel experiments, IL-2-driven proliferation was inhibited significantly.
+# T20 Protein S8 25 29 1283 1287 IL-2
+
+After 16 hr of exposure to SE, the expression of IL-2R beta remained low, while that of IL2R alpha and IL2R gamma was further up-regulated, and ligand-induced tyrosine phosphorylation of Jak3 and Stat proteins was partly normalized.
+# T21 Protein S9 49 59 1387 1397 IL-2R beta
+# T22 Protein S9 88 98 1426 1436 IL2R alpha
+# T23 Protein S9 103 113 1441 1451 IL2R gamma
+# T24 Protein S9 187 191 1525 1529 Jak3
+
+Yet, IL-2-driven proliferation remained profoundly inhibited, suggesting that signaling events other than Jak3/Stat activation had also been changed following SE stimulation.
+# T25 Protein S10 5 9 1576 1580 IL-2
+# T26 Protein S10 106 110 1677 1681 Jak3
+
+In conclusion, our data suggest that SE can modulate IL-2R expression and signal transduction involving the Jak/Stat pathway in CD4+ T-cell lines.
+# T27 Protein S11 128 131 1874 1877 CD4
+

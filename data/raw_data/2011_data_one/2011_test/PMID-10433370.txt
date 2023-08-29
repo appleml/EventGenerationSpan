@@ -1,0 +1,41 @@
+Selective DNA-binding activity of interleukin-10-stimulated STAT molecules in human monocytes.
+# T1 Protein S1 34 48 34 48 interleukin-10
+
+It has been demonstrated that interferon-gamma (IFN-gamma) and interleukin-10 (IL-10) have various reverse effects on macrophages; however, the molecular mechanism of this difference has not been fully understood.
+# T2 Protein S2 30 46 126 142 interferon-gamma
+# T3 Protein S2 48 57 144 153 IFN-gamma
+# T4 Protein S2 63 77 159 173 interleukin-10
+# T5 Protein S2 79 84 175 180 IL-10
+
+In this study, we analyzed the binding activity of IL-10- and IFN-gamma-activated STAT molecules to two kinds of GAS-motif sequences.
+# T6 Protein S3 51 56 361 366 IL-10
+# T7 Protein S3 62 71 372 381 IFN-gamma
+
+IL-10-activated STAT1 could bind to the GAS-motif sequence in the promoter region of the Fcgamma receptor, but not to that in the promoter region of the COX-2 gene, whereas IFN-gamma-activated STAT1 and STAT5 could bind to both sequences.
+# T8 Protein S4 0 5 444 449 IL-10
+# T9 Protein S4 16 21 460 465 STAT1
+# T10 Protein S4 153 158 597 602 COX-2
+# T11 Protein S4 173 182 617 626 IFN-gamma
+# T12 Protein S4 193 198 637 642 STAT1
+# T13 Protein S4 203 208 647 652 STAT5
+
+IL-10 inhibited IFN-gamma-induced STAT activation without newly synthesized protein.
+# T14 Protein S5 0 5 683 688 IL-10
+# T15 Protein S5 16 25 699 708 IFN-gamma
+
+We further demonstrated that aspirin, but not dexamethasone, suppressed IFN-gamma-induced STAT activation.
+# T16 Protein S6 72 81 840 849 IFN-gamma
+
+Taken together, these results suggest that IL-10-activated STAT1 has a specificity in binding to the GAS-motif sequences, whereas IFN-gamma-activated STAT1 and STAT5 have a broader spectrum in binding to the GAS-motif sequences.
+# T17 Protein S7 43 48 918 923 IL-10
+# T18 Protein S7 59 64 934 939 STAT1
+# T19 Protein S7 130 139 1005 1014 IFN-gamma
+# T20 Protein S7 150 155 1025 1030 STAT1
+# T21 Protein S7 160 165 1035 1040 STAT5
+
+This may explain the difference between IL-10 and IFN-gamma in biological activity, and the inhibitory effect of IL-10 on IFN-gamma activities.
+# T22 Protein S8 40 45 1144 1149 IL-10
+# T23 Protein S8 50 59 1154 1163 IFN-gamma
+# T24 Protein S8 113 118 1217 1222 IL-10
+# T25 Protein S8 122 131 1226 1235 IFN-gamma
+

@@ -1,0 +1,49 @@
+Identification and characterization of a leukocyte-specific component of the nuclear body.
+
+The nuclear body (NB) is a cellular organelle that is involved in the pathogenesis of acute promyelocytic leukemia and viral infection.
+
+The NB is also a target of antibodies in the serum of patients with the autoimmune disease primary biliary cirrhosis.
+
+In this study, serum from a patient with primary biliary cirrhosis was used to identify a cDNA encoding a novel component of the NB, a 140-kDa protein designated Sp140.
+# T1 Protein S4 162 167 508 513 Sp140
+
+The predicted amino acid sequence of the amino-terminal portion of Sp140 was similar to Sp100, a previously identified NB protein.
+# T2 Protein S5 67 72 582 587 Sp140
+# T3 Protein S5 88 93 603 608 Sp100
+
+The carboxyl portion of Sp140 contained a zinc-finger domain and a bromodomain, motifs that are present in proteins regulating gene transcription.
+# T4 Protein S6 24 29 670 675 Sp140
+
+High levels of Sp140 mRNA were detected in human spleen and peripheral blood leukocytes, but not other human tissues.
+# T5 Protein S7 15 20 808 813 Sp140
+$ T5 Protein S7 15 20 808 813 Sp140
+@ T10 Positive_regulation S7 0 11 793 804 High levels
+@ T11 Transcription S7 31 39 824 832 detected
+% E1 Positive_regulation:T10 Theme:E2
+% E2 Transcription:T11 Theme:T5
+
+The level of SP140 mRNA in myeloid precursor cell lines HL60 and NB4 markedly increased in response to chemically induced cellular differentiation.
+# T6 Protein S8 13 18 924 929 SP140
+$ T6 Protein S8 13 18 924 929 SP140
+@ T12 Transcription S8 4 9 915 920 level
+@ T13 Positive_regulation S8 78 87 989 998 increased
+% E3 Transcription:T12 Theme:T6
+% E4 Positive_regulation:T13 Theme:E3
+
+Immunohistochemical techniques were used to demonstrate that SP140 localized to the NB in differentiated HL60 and NB4 cells.
+# T7 Protein S9 61 66 1120 1125 SP140
+$ T7 Protein S9 61 66 1120 1125 SP140
+@ T14 Localization S9 67 76 1126 1135 localized
+@ T15 Entity S9 84 86 1143 1145 NB
+% E5 Localization:T14 Theme:T7 ToLoc:T15
+
+The location of Sp140 in the NB, and expression of this gene in cells involved in host defense, suggest that Sp140 may be involved in the pathogenesis of acute promyelocytic leukemia and viral infection.
+# T8 Protein S10 16 21 1200 1205 Sp140
+# T9 Protein S10 109 114 1293 1298 Sp140
+$ T8 Protein S10 16 21 1200 1205 Sp140
+@ T16 Localization S10 4 12 1188 1196 location
+@ T17 Entity S10 29 31 1213 1215 NB
+@ T18 Gene_expression S10 37 47 1221 1231 expression
+% E6 Localization:T16 Theme:T8 AtLoc:T17
+% E7 Gene_expression:T18 Theme:T8
+

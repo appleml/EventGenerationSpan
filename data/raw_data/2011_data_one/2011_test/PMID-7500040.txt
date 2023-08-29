@@ -1,0 +1,32 @@
+Anti-immunoglobulin M activates nuclear calcium/calmodulin-dependent protein kinase II in human B lymphocytes.
+# T1 Protein S1 40 86 40 86 calcium/calmodulin-dependent protein kinase II
+
+We and others have previously shown that the nuclear protein, Ets-1, is phosphorylated in a calcium-dependent manner after ligation of immunoglobulin (Ig) M on B lymphocytes.
+# T2 Protein S2 62 67 174 179 Ets-1
+
+As this phosphorylation was independent of protein kinase C activity, we tested whether a calcium/calmodulin-dependent protein kinase (CaM kinase) might phosphorylate the Ets-1 protein after elevation of intracellular free calcium concentrations.
+# T3 Protein S3 171 176 458 463 Ets-1
+
+The dephosphorylated form of Ets-1 has been shown to bind to chromatin, suggesting that the operative kinase should be detectable in the nucleus.
+# T4 Protein S4 29 34 563 568 Ets-1
+
+We prepared nuclear extracts from two human B cell lines in which increased intracellular free calcium levels correlated with increased phosphorylation of the Ets-1 protein.
+# T5 Protein S5 159 164 839 844 Ets-1
+
+Activity of the CaM kinases was determined using a synthetic peptide substrate both in the absence and presence of an inhibitor specific for the CaM kinase family, KN-62.
+
+Stimulation of cells with anti-IgM led to increased activity of a nuclear kinase that could phosphorylate the peptide, and this activity was reduced by 10 microM KN-62.
+
+Kinase activity was reduced in lysates preadsorbed using an antibody specific for CaM kinase II.
+# T6 Protein S8 82 95 1276 1289 CaM kinase II
+
+Two-dimensional phosphopeptide maps of the Ets-1 protein from cells incubated with ionomycin or anti-IgM contained two unique phosphopeptides that were absent in untreated cells.
+# T7 Protein S9 43 48 1334 1339 Ets-1
+
+Incubation of isolated Ets-1 protein with purified CaM kinase II produced phosphorylation of peptides that migrated identically to those found in cells incubated with either anti-IgM or ionomycin.
+# T8 Protein S10 23 28 1493 1498 Ets-1
+# T9 Protein S10 51 64 1521 1534 CaM kinase II
+
+These data suggest a model of signal transduction by the antigen receptor on B lymphocytes in which increased intracellular free calcium can rapidly activate nuclear CaM kinase II, potentially resulting in phosphorylation and regulation of DNA-binding proteins.
+# T10 Protein S11 166 179 1833 1846 CaM kinase II
+

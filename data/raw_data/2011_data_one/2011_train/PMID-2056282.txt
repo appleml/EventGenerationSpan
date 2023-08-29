@@ -1,0 +1,65 @@
+Human tumor necrosis factor alpha gene regulation in phorbol ester stimulated T and B cell lines.
+# T1 Protein S1 6 33 6 33 tumor necrosis factor alpha
+$ T1 Protein S1 6 33 6 33 tumor necrosis factor alpha
+@ T9 Regulation S1 39 49 39 49 regulation
+% E1 Regulation:T9 Theme:T1
+
+The minimal region of the human tumor necrosis factor alpha (TNF-alpha) gene promoter necessary for its transcriptional induction by phorbol esters (PMA) in human T and B lymphocyte cell lines has been localized between -52 and +89 nucleotides (nt) relative to the gene's transcriptional start site.
+# T2 Protein S2 32 59 131 158 tumor necrosis factor alpha
+# T3 Protein S2 61 70 160 169 TNF-alpha
+$ T3 Protein S2 61 70 160 169 TNF-alpha
+@ T10 Entity S2 77 85 176 184 promoter
+@ T11 Positive_regulation S2 86 95 185 194 necessary
+@ T12 Positive_regulation S2 104 129 203 228 transcriptional induction
+% E2 Positive_regulation:T11 Theme:E3 Cause:T3 CSite:T10
+% E3 Positive_regulation:T12 Theme:T3
+
+Comparison of these sequences to those required to mediate virus or lipopolysaccharide (LPS) induction of the gene reveal significant differences, and thus, the sequence requirements for PMA induction are distinct from those that mediate induction by virus or LPS.
+@ T13 Positive_regulation S3 51 58 450 457 mediate
+@ T14 Positive_regulation S3 93 102 492 501 induction
+@ T15 Positive_regulation S3 170 182 569 581 requirements
+@ T16 Positive_regulation S3 230 237 629 636 mediate
+@ T17 Positive_regulation S3 238 247 637 646 induction
+% E4 Positive_regulation:T13 Theme:E5
+% E5 Positive_regulation:T14 Theme:T3
+% E6 Positive_regulation:T15 Theme:E3
+% E7 Positive_regulation:T16 Theme:E8
+% E8 Positive_regulation:T17 Theme:T3
+
+Although three sites in the TNF-alpha promoter (kappa 1, kappa 2, and kappa 3) specifically bind the transcription factor NF-kappa B in lymphoid nuclear extracts, TNF-alpha mRNA induction by PMA does not correlate with NF-kappa B binding activities displayed by different T and B cell lines.
+# T4 Protein S4 28 37 692 701 TNF-alpha
+# T5 Protein S4 163 172 827 836 TNF-alpha
+$ T4 Protein S4 28 37 692 701 TNF-alpha
+$ T5 Protein S4 163 172 827 836 TNF-alpha
+@ T18 Entity S4 48 55 712 719 kappa 1
+@ T19 Entity S4 57 64 721 728 kappa 2
+@ T20 Entity S4 70 77 734 741 kappa 3
+@ T21 Binding S4 92 96 756 760 bind
+@ T22 Positive_regulation S4 178 187 842 851 induction
+% E9 Binding:T21 Theme:T4 Site:T20
+% E10 Binding:T21 Theme:T4 Site:T18
+% E11 Binding:T21 Theme:T4 Site:T19
+% E12 Positive_regulation:T22 Theme:T5
+
+Moreover, kappa 1-kappa 3 can each be deleted from the TNF-alpha promoter with little effect on the gene's inducibility by PMA.
+# T6 Protein S5 55 64 1011 1020 TNF-alpha
+$ T6 Protein S5 55 64 1011 1020 TNF-alpha
+@ T23 Positive_regulation S5 107 119 1063 1075 inducibility
+% E13 Positive_regulation:T23 Theme:T6
+
+Therefore, TNF-alpha mRNA induction by PMA, like its induction by virus and LPS, is not primarily mediated by NF-kappa B, but rather is mediated through other sequences and protein factors.
+# T7 Protein S6 11 20 1095 1104 TNF-alpha
+$ T7 Protein S6 11 20 1095 1104 TNF-alpha
+@ T24 Positive_regulation S6 26 35 1110 1119 induction
+@ T25 Positive_regulation S6 53 62 1137 1146 induction
+@ T26 Positive_regulation S6 98 106 1182 1190 mediated
+% E14 Positive_regulation:T24 Theme:T7
+% E15 Positive_regulation:T25 Theme:T7
+% E16 Positive_regulation:T26 Theme:E15
+% E17 Positive_regulation:T26 Theme:E14
+
+Surprisingly, multimers of kappa 1-kappa 3 can confer PMA inducibility on a heterologous promoter in a B (Raji), but not a T (HUT78) cell line.
+
+However they are not functional on a truncated TNF-alpha promoter, indicating that promoter context and cell type specificity influence the PMA inducible function of these NF-kappa B binding sites.
+# T8 Protein S8 47 56 1465 1474 TNF-alpha
+

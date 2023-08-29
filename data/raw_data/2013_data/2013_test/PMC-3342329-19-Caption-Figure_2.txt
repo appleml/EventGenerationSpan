@@ -1,0 +1,23 @@
+Decrease of NF-kappaB activity in tumor tissue of CCR5-/- mice.
+# T1 Protein S1 50 54 50 54 CCR5
+
+A, The DNA binding activity of NF-kappaB was determined in the nuclear extracts of the CCR5-/- mice and CCR5+/+ mice tumor tissues by EMSA described in material and methods.
+# T2 Protein S2 87 91 151 155 CCR5
+# T3 Protein S2 104 108 168 172 CCR5
+
+B, Expression of p50 and p65 phosphorylation in nuclear extracts (NE), and IkappaB and IkappaB phosphorylation in the cytosol (CE) determined by Western blotting.
+# T4 Protein S3 17 20 255 258 p50
+# T5 Protein S3 25 28 263 266 p65
+
+C, Immunolfluorescence analysis of p50 confirmed that the intensities of nuclear staining for p50 were decreased in the tumor tissues of CCR5-/- mice.
+# T6 Protein S4 35 38 436 439 p50
+# T7 Protein S4 94 97 495 498 p50
+# T8 Protein S4 137 141 538 542 CCR5
+
+Data are means +/- S.D. of four experimental animals.
+
+* indicates significant difference from CCR5+/+ mice (p<0.05).
+# T9 Protein S6 40 44 646 650 CCR5
+
+Scale bar indicates 50 microm.
+

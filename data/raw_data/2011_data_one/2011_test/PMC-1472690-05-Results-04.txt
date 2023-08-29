@@ -1,0 +1,35 @@
+GP modulated the TSST-1-induced IL-1beta/IL-1RA ratio towards an anti-inflammatory phenotype
+# T1 Protein S1 17 23 17 23 TSST-1
+# T2 Protein S1 32 40 32 40 IL-1beta
+# T3 Protein S1 41 47 41 47 IL-1RA
+
+In a simplified approach, IL-1beta and IL-1RA might represent two sides of a coin, i.e. pro- or anti-inflammatory action.
+# T4 Protein S2 26 34 119 127 IL-1beta
+# T5 Protein S2 39 45 132 138 IL-1RA
+
+Therefore, we applied the IL-1beta/IL-1RA ratio as an indicator of the degree of inflammation.
+# T6 Protein S3 26 34 241 249 IL-1beta
+# T7 Protein S3 35 41 250 256 IL-1RA
+
+Both, LPS and GP + LPS treatments resulted in generating more IL-1beta than IL-1RA at early time points, i.e. up to 24 h. Comparing LPS vs. GP + LPS, we did not find substantial alterations over a time course of 48 h in the IL-1beta/IL-1RA ratio, only a - non-significant - 2.5fold higher ratio at 6 h. With respect to TSST-1 or the theoretical value of GP/TSST-1 calc.
+# T8 Protein S4 62 70 372 380 IL-1beta
+# T9 Protein S4 76 82 386 392 IL-1RA
+# T10 Protein S4 224 232 534 542 IL-1beta
+# T11 Protein S4 233 239 543 549 IL-1RA
+# T12 Protein S4 319 325 629 635 TSST-1
+# T13 Protein S4 357 363 667 673 TSST-1
+
+vs. GP + TSST-1, we observed a pronounced anti-inflammatory action of GP, as demonstrated by an about 10-100 fold reduced ratio at 18 h and 24 h of incubation, i.e. a higher production of IL-1RA than of IL-1beta (n = 3; both p < 0.05; Fig. 6).
+# T14 Protein S5 9 15 689 695 TSST-1
+# T15 Protein S5 188 194 868 874 IL-1RA
+# T16 Protein S5 203 211 883 891 IL-1beta
+
+A biological relevance of this result was suggested by a decrease of the IL-1 dependent release of IL-2 from murine EL-4 cells following GP + TSST-1 when compared to TSST-1 or GP/TSST-1 calc.
+# T17 Protein S6 73 77 997 1001 IL-1
+# T18 Protein S6 99 103 1023 1027 IL-2
+# T19 Protein S6 142 148 1066 1072 TSST-1
+# T20 Protein S6 166 172 1090 1096 TSST-1
+# T21 Protein S6 179 185 1103 1109 TSST-1
+
+(data not shown in detail, n = 4; p < 0.07).
+

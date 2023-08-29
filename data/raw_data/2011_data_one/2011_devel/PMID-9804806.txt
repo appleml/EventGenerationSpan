@@ -1,0 +1,75 @@
+Role of IKK1 and IKK2 in lipopolysaccharide signaling in human monocytic cells.
+# T1 Protein S1 8 12 8 12 IKK1
+# T2 Protein S1 17 21 17 21 IKK2
+
+Mononuclear phagocytes play a major role in immune and inflammatory responses.
+
+Bacterial lipopolysaccharide (LPS) induces monocytes to express a variety of genes by activating the NF-kappaB/Rel transcription factor family.
+
+Recently, we have reported that the tumor necrosis factor and interleukin 1 signaling pathways activate two kinases, IKK1 and IKK2.
+# T3 Protein S4 117 121 421 425 IKK1
+# T4 Protein S4 126 130 430 434 IKK2
+$ T4 Protein S4 126 130 430 434 IKK2
+$ T3 Protein S4 117 121 421 425 IKK1
+@ T13 Positive_regulation S4 95 103 399 407 activate
+% E1 Positive_regulation:T13 Theme:T4
+% E2 Positive_regulation:T13 Theme:T3
+
+Phosphorylation of the IkappaB cytoplasmic inhibitors, IkappaBalpha, IkappaBbeta, and IkappaBepsilon, by these kinases triggers proteolytic degradation and the release of NF-kappaB/Rel proteins into the nucleus.
+# T5 Protein S5 55 67 491 503 IkappaBalpha
+# T6 Protein S5 69 80 505 516 IkappaBbeta
+# T7 Protein S5 86 100 522 536 IkappaBepsilon
+$ T5 Protein S5 55 67 491 503 IkappaBalpha
+$ T7 Protein S5 86 100 522 536 IkappaBepsilon
+$ T6 Protein S5 69 80 505 516 IkappaBbeta
+@ T14 Phosphorylation S5 0 15 436 451 Phosphorylation
+@ T15 Positive_regulation S5 102 104 538 540 by
+@ T16 Positive_regulation S5 119 127 555 563 triggers
+@ T17 Protein_catabolism S5 128 151 564 587 proteolytic degradation
+% E3 Phosphorylation:T14 Theme:T5
+% E4 Phosphorylation:T14 Theme:T7
+% E5 Phosphorylation:T14 Theme:T6
+% E6 Positive_regulation:T15 Theme:E3 Cause:T3
+% E7 Positive_regulation:T15 Theme:E4 Cause:T3
+% E8 Positive_regulation:T15 Theme:E4 Cause:T4
+% E9 Positive_regulation:T15 Theme:E5 Cause:T3
+% E10 Positive_regulation:T15 Theme:E5 Cause:T4
+% E11 Positive_regulation:T15 Theme:E3 Cause:T4
+% E12 Positive_regulation:T16 Theme:E20 Cause:E9
+% E13 Positive_regulation:T16 Theme:E20 Cause:E10
+% E14 Positive_regulation:T16 Theme:E18 Cause:E8
+% E15 Positive_regulation:T16 Theme:E19 Cause:E6
+% E16 Positive_regulation:T16 Theme:E19 Cause:E11
+% E17 Positive_regulation:T16 Theme:E18 Cause:E7
+% E18 Protein_catabolism:T17 Theme:T7
+% E19 Protein_catabolism:T17 Theme:T5
+% E20 Protein_catabolism:T17 Theme:T6
+
+At present, the role of the IKKs in LPS signaling has not been investigated.
+
+Here, we report that LPS induces IKK activity in human monocytes and THP-1 monocytic cells.
+
+The kinetics of activation of kinase activity in monocytic cells are relatively slow with maximal activity observed at 60 min, which coincides with the degradation of IkappaBs and the nuclear translocation of NF-kappaB.
+
+In transfection experiments, overexpression of wild type IKK1, a dominant negative mutant IKK1 (K44M), or wild type IKK2 did not affect LPS-induced kappaB-dependent transcription in monocytic cells.
+# T8 Protein S9 57 61 1094 1098 IKK1
+# T9 Protein S9 90 94 1127 1131 IKK1
+# T10 Protein S9 116 120 1153 1157 IKK2
+$ T9 Protein S9 90 94 1127 1131 IKK1
+$ T8 Protein S9 57 61 1094 1098 IKK1
+@ T18 Positive_regulation S9 29 43 1066 1080 overexpression
+@ T19 Gene_expression S9 29 43 1066 1080 overexpression
+% E21 Positive_regulation:T18 Theme:E22
+% E24 Positive_regulation:T18 Theme:E23
+% E22 Gene_expression:T19 Theme:T9
+% E23 Gene_expression:T19 Theme:T8
+
+In contrast, a dominant negative mutant of IKK2 inhibited LPS induction of kappaB-dependent transcription in a dose-dependent manner.
+# T11 Protein S10 43 47 1279 1283 IKK2
+
+These results indicate that LPS induction of kappaB-dependent gene expression in human monocytic cells requires activation of IKK2.
+# T12 Protein S11 126 130 1496 1500 IKK2
+$ T12 Protein S11 126 130 1496 1500 IKK2
+@ T20 Positive_regulation S11 112 122 1482 1492 activation
+% E25 Positive_regulation:T20 Theme:T12
+

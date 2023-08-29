@@ -1,0 +1,108 @@
+The recently discovered APOBEC3 family of cytidine deaminases is considered to play an important role in antiviral intrinsic immunity (1,2).
+
+In primates, the seven paralogs APOBEC3A, B, C, DE, F, G, H (A3A-H) have been described (3), and they appear to fulfill individual functions.
+# T1 Protein S2 32 40 173 181 APOBEC3A
+# T2 Protein S2 42 43 183 184 B
+# T3 Protein S2 45 46 186 187 C
+# T4 Protein S2 48 50 189 191 DE
+# T5 Protein S2 52 53 193 194 F
+# T6 Protein S2 55 56 196 197 G
+# T7 Protein S2 58 59 199 200 H
+
+Human APOBEC3G (A3G), the most prominent member of the APOBEC3 family has been identified as the cellular restriction factor that is responsible for inhibition of virion infectivity factor (Vif)-deleted human immunodeficiency virus-1 (HIV-1) replication in non-permissive cells (4).
+# T8 Protein S3 6 14 289 297 APOBEC3G
+# T9 Protein S3 16 19 299 302 A3G
+# T10 Protein S3 163 188 446 471 virion infectivity factor
+# T11 Protein S3 190 193 473 476 Vif
+$ T10 Protein S3 163 188 446 471 virion infectivity factor
+@ T38 Negative_regulation S3 195 202 478 485 deleted
+% E1 Negative_regulation:T38 Theme:T10
+
+A3G is packaged into HIV-1deltavif particles and causes C-to-U deaminations on the single-stranded viral DNA during reverse transcription (5-8).
+# T12 Protein S4 0 3 566 569 A3G
+# T13 Protein S4 31 34 597 600 vif
+
+This leads to degradation of the uracile-containing DNA by cellular repair mechanisms or to hypermutation of the viral genome (5,6).
+
+As a result, only a marginal fraction of the A3G-containing HIV-1 particles is able to complete the replication cycle.
+# T14 Protein S6 45 48 889 892 A3G
+
+In addition to the inhibition of HIV-1, A3G restricts replication of other lentiviruses, gammaretroviruses, deltaretroviruses, spumaviruses, long-terminal-repeat (LTR)-retrotransposons, orthohepadnaviruses and avihepadnaviruses (9-21).
+# T15 Protein S7 40 43 1003 1006 A3G
+
+Interestingly, deamination seems not to be the only A3G-mediated antiviral mechanism; in the case of hepatitis B virus (HBV) and human T cell leukemia virus type 1 (HTLV-1), A3G was shown to restrict virus replication by deamination-independent mechanisms (12, 13, 19, 22-25).
+# T16 Protein S8 52 55 1251 1254 A3G
+# T17 Protein S8 174 177 1373 1376 A3G
+
+Another member of the APOBEC3 family, APOBEC3F (A3F), appears to have similar activities like A3G (26,27).
+# T18 Protein S9 38 46 1514 1522 APOBEC3F
+# T19 Protein S9 48 51 1524 1527 A3F
+# T20 Protein S9 94 97 1570 1573 A3G
+
+A3F is also packaged into HIV-1deltavif particles and induces similar C-to-U deaminations, although the proteins differ in their target sequences specificity (26,28).
+# T21 Protein S10 0 3 1583 1586 A3F
+# T22 Protein S10 36 39 1619 1622 vif
+
+Furthermore, A3F proteins were detected in many tissues that express A3G and are able to form heteromultimers with A3G (26,29,30).
+# T23 Protein S11 13 16 1763 1766 A3F
+# T24 Protein S11 69 72 1819 1822 A3G
+# T25 Protein S11 115 118 1865 1868 A3G
+$ T23 Protein S11 13 16 1763 1766 A3F
+$ T24 Protein S11 69 72 1819 1822 A3G
+$ T25 Protein S11 115 118 1865 1868 A3G
+@ T39 Gene_expression S11 61 68 1811 1818 express
+@ T40 Binding S11 89 109 1839 1859 form heteromultimers
+% E2 Gene_expression:T39 Theme:T23
+% E3 Gene_expression:T39 Theme:T24
+% E4 Binding:T40 Theme:T23 Theme2:T25
+
+Both proteins localize to mRNA processing (P) bodies, cytoplasmic compartments involved in the degradation and storage of non-translating mRNAs (30,31).
+@ T35 Anaphora S12 0 13 1881 1894 Both proteins
+@ T41 Localization S12 14 22 1895 1903 localize
+@ T42 Entity S12 26 52 1907 1933 mRNA processing (P) bodies
+% E5 Localization:T41 Theme:T23 ToLoc:T42
+% E6 Localization:T41 Theme:T24 ToLoc:T42
+
+A3G has been shown to be expressed in T cells, a relevant cell target for HIV-1 in vivo, but little is known about its regulation (4,29,32).
+# T26 Protein S13 0 3 2034 2037 A3G
+$ T26 Protein S13 0 3 2034 2037 A3G
+@ T43 Gene_expression S13 25 34 2059 2068 expressed
+@ T36 Anaphora S13 115 118 2149 2152 its
+@ T44 Regulation S13 119 129 2153 2163 regulation
+% E7 Gene_expression:T43 Theme:T26
+% E8 Regulation:T44 Theme:T26
+
+There is a report describing that mitogenic stimulation of T cells upregulates A3G mRNA levels, but this was not analyzed on the transcriptional level (33).
+# T27 Protein S14 79 82 2254 2257 A3G
+$ T27 Protein S14 79 82 2254 2257 A3G
+@ T45 Positive_regulation S14 67 78 2242 2253 upregulates
+@ T46 Gene_expression S14 83 94 2258 2269 mRNA levels
+% E9 Positive_regulation:T45 Theme:E10
+% E10 Gene_expression:T46 Theme:T27
+
+Since the A3G promoter has not been systematically analyzed so far, our aim was to clone the A3G promoter and characterize its regulation in T cells.
+# T28 Protein S15 10 13 2342 2345 A3G
+# T29 Protein S15 93 96 2425 2428 A3G
+$ T29 Protein S15 93 96 2425 2428 A3G
+@ T47 Entity S15 97 105 2429 2437 promoter
+@ T37 Anaphora S15 123 126 2455 2458 its
+@ T48 Regulation S15 127 137 2459 2469 regulation
+% E11 Regulation:T48 Theme:T29 Site:T47
+
+In our study, we observed that A3G uses multiple transcriptional start sites (TSS).
+# T30 Protein S16 31 34 2513 2516 A3G
+
+By generating a series of 5' deletions of the A3G promoter, we identified a 180 bp region that mediated basal transcription.
+# T31 Protein S17 46 49 2612 2615 A3G
+
+In T cells, transcriptional activity of this core promoter was not inducible by mitogenic stimulation or interferon treatment, but was dependent on a GC-box which was recognized by Sp (specificity protein) 1 and Sp3 transcription factors.
+# T32 Protein S18 105 115 2796 2806 interferon
+# T33 Protein S18 181 207 2872 2898 Sp (specificity protein) 1
+# T34 Protein S18 212 215 2903 2906 Sp3
+$ T33 Protein S18 181 207 2872 2898 Sp (specificity protein) 1
+$ T34 Protein S18 212 215 2903 2906 Sp3
+@ T49 Entity S18 150 156 2841 2847 GC-box
+@ T50 Binding S18 167 177 2858 2868 recognized
+% E12 Binding:T50 Theme:T31 Theme2:T33 Site:T49
+% E13 Binding:T50 Theme:T31 Theme2:T34 Site:T49
+

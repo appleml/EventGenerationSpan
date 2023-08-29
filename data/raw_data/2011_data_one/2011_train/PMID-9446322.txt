@@ -1,0 +1,30 @@
+[Molecular-biologic aspects of interaction between nervous and immune systems]
+
+The problem of the neuro-immuno interactions on the level of the protein trans-factors, stimulating interleukin-2 (IL-2) gene expression was discussed.
+# T1 Protein S2 100 113 180 193 interleukin-2
+# T2 Protein S2 115 119 195 199 IL-2
+$ T2 Protein S2 115 119 195 199 IL-2
+@ T6 Regulation S2 88 99 168 179 stimulating
+@ T7 Gene_expression S2 121 136 201 216 gene expression
+% E1 Regulation:T6 Theme:E2
+% E2 Gene_expression:T7 Theme:T2
+
+The physico-chemical and functional parameters of the low molecular nuclear proteins (SP and BP- 14, 18, 19 kDs) isolated from splenic and brain cells of immunized rats were studied.
+
+The binding of these proteins to the regulatory region of IL-2 gene in vitro and stimulation of the IL-2mRNA synthesis in splenic T-lymphocytes culture in normal conditions were shown.
+# T3 Protein S4 58 62 473 477 IL-2
+# T4 Protein S4 100 104 515 519 IL-2
+$ T4 Protein S4 100 104 515 519 IL-2
+@ T8 Positive_regulation S4 81 92 496 507 stimulation
+@ T9 Transcription S4 109 118 524 533 synthesis
+% E3 Positive_regulation:T8 Theme:E4
+% E4 Transcription:T9 Theme:T4
+
+The protective effect of SP and BP on the IL-2mRNA synthesis in stressful conditions and by the T-cells treatment with the CsA was demonstrated.
+# T5 Protein S5 42 46 642 646 IL-2
+$ T5 Protein S5 42 46 642 646 IL-2
+@ T10 Negative_regulation S5 4 21 604 621 protective effect
+@ T11 Transcription S5 51 60 651 660 synthesis
+% E5 Negative_regulation:T10 Theme:E6
+% E6 Transcription:T11 Theme:T5
+

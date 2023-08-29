@@ -1,0 +1,21 @@
+RNA interference
+
+Jurkat or U937 cells were transfected by electroporation using a Bio-Rad apparatus (Bio-Rad Laboratories, Hercules, CA, USA).
+
+Briefly, aliquots (5 x 106 cells) were suspended in 0.3 ml of RPMI 1640 supplemented with 20% fetal calf serum and subjected to a double electrical pulse (0.22 V, 960 microF) in the presence of annealed siRNA (200 pmol); electroporated cells were washed and cultured in complete medium.
+
+RNA interference was performed with: siRNA Tat sense, CUGCUUGUACCAAUUGCUAUU and siRNA Tat antisense, UAGCAAUUGGUACAAGCAGUU; siRNA control sense, CUGCUUGUCACA AUUGCUAUU and siRNA control antisense, UAGCAAUUGUGACAAGCAGUU.
+# T1 Protein S4 37 52 467 482 siRNA Tat sense
+# T2 Protein S4 80 99 510 529 siRNA Tat antisense
+
+RNA interference of p65 and IkappaB-alpha was performed with SMART pool siRNA p65 and IkappaB-alpha (Dharmacon, Chicago, IL, USA).
+# T3 Protein S5 20 23 670 673 p65
+# T4 Protein S5 28 41 678 691 IkappaB-alpha
+# T5 Protein S5 72 81 722 731 siRNA p65
+# T6 Protein S5 86 99 736 749 IkappaB-alpha
+$ T3 Protein S5 20 23 670 673 p65
+$ T4 Protein S5 28 41 678 691 IkappaB-alpha
+@ T7 Negative_regulation S5 4 16 654 666 interference
+% E1 Negative_regulation:T7 Theme:T3
+% E2 Negative_regulation:T7 Theme:T4
+

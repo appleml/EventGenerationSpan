@@ -1,0 +1,22 @@
+Akt signaling contributes to autocrine TNFalpha production in multiple cell types.
+# T1 Protein S1 39 47 39 47 TNFalpha
+
+FADD deficient Jurkat cells were treated with TNFalpha followed by measurement of (A) human TNFalpha mRNA levels by qRT-PCR and normalized using human 18S RNA or (B) western blot at 9 hr.
+# T2 Protein S2 0 4 83 87 FADD
+# T3 Protein S2 46 54 129 137 TNFalpha
+# T4 Protein S2 92 100 175 183 TNFalpha
+# T5 Protein S2 151 154 234 237 18S
+
+RAW 264.7 or J774A.1 cells were treated with zVAD.fmk (100 uM or 50 uM respectively) followed by (C,E) measurement of TNFalpha mRNA levels by qRT-PCR or (D,F) western blot at 9 hr.
+# T6 Protein S3 118 126 389 397 TNFalpha
+
+(G) Akt null mouse lung fibroblasts expressing Myr-Akt or K179M were treated with zVAD.fmk and TNFalpha followed by measurement of TNFalpha mRNA levels by qRT-PCR at 9 hr.
+# T7 Protein S4 95 103 547 555 TNFalpha
+# T8 Protein S4 131 139 583 591 TNFalpha
+
+(H) Mouse lung fibroblasts expressing only endogenous Akt1 or Akt2 were treated with zVAD.fmk and TNFalpha followed by measurement of TNFalpha mRNA levels by qRT-PCR at 9 hr.
+# T9 Protein S5 54 58 678 682 Akt1
+# T10 Protein S5 62 66 686 690 Akt2
+# T11 Protein S5 98 106 722 730 TNFalpha
+# T12 Protein S5 134 142 758 766 TNFalpha
+

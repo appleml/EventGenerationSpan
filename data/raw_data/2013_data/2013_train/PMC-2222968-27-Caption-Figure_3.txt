@@ -1,0 +1,58 @@
+Th2- or IL-4-Producing Cells Lack FOXP3
+# T1 Protein S1 8 12 8 12 IL-4
+# T2 Protein S1 34 39 34 39 FOXP3
+$ T1 Protein S1 8 12 8 12 IL-4
+$ T2 Protein S1 34 39 34 39 FOXP3
+@ T19 Gene_expression S1 13 22 13 22 Producing
+@ T20 Negative_regulation S1 29 33 29 33 Lack
+% E1 Gene_expression:T19 Theme:T1
+% E2 Negative_regulation:T20 Theme:T2
+
+(A) FACS analysis of intracellular FOXP3 and IL-4 expression following PMA/Ionomycin stimulation.
+# T3 Protein S2 35 40 75 80 FOXP3
+# T4 Protein S2 45 49 85 89 IL-4
+$ T3 Protein S2 35 40 75 80 FOXP3
+$ T4 Protein S2 45 49 85 89 IL-4
+@ T21 Gene_expression S2 50 60 90 100 expression
+% E3 Gene_expression:T21 Theme:T3
+% E4 Gene_expression:T21 Theme:T4
+
+CD4+ T cells were gated on the basis of CD45RO and CD25 surface expression (upper panel), and gated cells are shown below for the CD45RO+CD25- (A, left panel), the CD45RO+CD25+ (right panel), and the CD45RO-CD25- subsets (central panel).
+# T5 Protein S3 0 3 138 141 CD4
+# T6 Protein S3 40 46 178 184 CD45RO
+# T7 Protein S3 51 55 189 193 CD25
+# T8 Protein S3 130 136 268 274 CD45RO
+# T9 Protein S3 137 141 275 279 CD25
+# T10 Protein S3 164 170 302 308 CD45RO
+# T11 Protein S3 171 175 309 313 CD25
+# T12 Protein S3 200 206 338 344 CD45RO
+# T13 Protein S3 207 211 345 349 CD25
+$ T6 Protein S3 40 46 178 184 CD45RO
+$ T7 Protein S3 51 55 189 193 CD25
+@ T22 Gene_expression S3 64 74 202 212 expression
+% E5 Gene_expression:T22 Theme:T6
+% E6 Gene_expression:T22 Theme:T7
+
+A statistical analysis of eight independent donors after subtraction of the isotype control are shown in (B).
+
+The dotted gray line indicates the IC background level.
+
+The error bars show the error of the mean.
+
+(C) Similarly, a Th2 clone (BR8), CRTH2+ Th2 cells, IL-4-secreting cells, and memory T cells (CD45RO) were stained for FOXP3 and IL-4.
+# T14 Protein S7 34 39 619 624 CRTH2
+# T15 Protein S7 52 56 637 641 IL-4
+# T16 Protein S7 94 100 679 685 CD45RO
+# T17 Protein S7 119 124 704 709 FOXP3
+# T18 Protein S7 129 133 714 718 IL-4
+$ T15 Protein S7 52 56 637 641 IL-4
+$ T17 Protein S7 119 124 704 709 FOXP3
+$ T18 Protein S7 129 133 714 718 IL-4
+@ T23 Gene_expression S7 57 66 642 651 secreting
+@ T24 Gene_expression S7 107 114 692 699 stained
+% E7 Gene_expression:T23 Theme:T15
+% E8 Gene_expression:T24 Theme:T17
+% E9 Gene_expression:T24 Theme:T18
+
+Data are representative of three independent experiments.
+

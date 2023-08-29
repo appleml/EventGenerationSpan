@@ -1,0 +1,96 @@
+Nuclear localization and formation of beta-catenin-lymphoid enhancer factor 1 complexes are not sufficient for activation of gene expression.
+# T1 Protein S1 38 50 38 50 beta-catenin
+# T2 Protein S1 51 77 51 77 lymphoid enhancer factor 1
+$ T2 Protein S1 51 77 51 77 lymphoid enhancer factor 1
+$ T1 Protein S1 38 50 38 50 beta-catenin
+@ T19 Entity S1 0 7 0 7 Nuclear
+@ T20 Localization S1 8 20 8 20 localization
+@ T21 Binding S1 78 87 78 87 complexes
+% E1 Localization:T20 Theme:T2 AtLoc:T19
+% E2 Localization:T20 Theme:T1 AtLoc:T19
+% E3 Binding:T21 Theme:T1 Theme2:T2
+
+In response to activation of the Wnt signaling pathway, beta-catenin accumulates in the nucleus, where it cooperates with LEF/TCF (for lymphoid enhancer factor and T-cell factor) transcription factors to activate gene expression.
+# T3 Protein S2 56 68 199 211 beta-catenin
+$ T3 Protein S2 56 68 199 211 beta-catenin
+@ T22 Positive_regulation S2 0 14 143 157 In response to
+@ T23 Localization S2 69 80 212 223 accumulates
+@ T24 Entity S2 88 95 231 238 nucleus
+% E4 Positive_regulation:T22 Theme:E5
+% E5 Localization:T23 Theme:T3 AtLoc:T24
+
+The mechanisms by which beta-catenin undergoes this shift in location and participates in activation of gene transcription are unknown.
+# T4 Protein S3 24 36 397 409 beta-catenin
+@ T25 Positive_regulation S3 37 46 410 419 undergoes
+% E6 Positive_regulation:T25 Theme:E4
+
+We demonstrate here that beta-catenin can be imported into the nucleus independently of LEF/TCF binding, and it may also be exported from nuclei.
+# T5 Protein S4 25 37 534 546 beta-catenin
+$ T5 Protein S4 25 37 534 546 beta-catenin
+@ T26 Localization S4 45 53 554 562 imported
+@ T27 Entity S4 63 70 572 579 nucleus
+@ T28 Binding S4 96 103 605 612 binding
+@ T29 Localization S4 124 132 633 641 exported
+% E7 Localization:T26 Theme:T5 ToLoc:T27
+% E8 Binding:T28 Theme:T5
+% E9 Localization:T29 Theme:T5
+
+We have introduced a small deletion within beta-catenin (Delta19) that disrupts binding to LEF-1, E-cadherin, and APC but not axin.
+# T6 Protein S5 43 55 698 710 beta-catenin
+# T7 Protein S5 91 96 746 751 LEF-1
+# T8 Protein S5 98 108 753 763 E-cadherin
+# T9 Protein S5 114 117 769 772 APC
+# T10 Protein S5 126 130 781 785 axin
+$ T6 Protein S5 43 55 698 710 beta-catenin
+$ T10 Protein S5 126 130 781 785 axin
+$ T7 Protein S5 91 96 746 751 LEF-1
+$ T8 Protein S5 98 108 753 763 E-cadherin
+$ T9 Protein S5 114 117 769 772 APC
+@ T30 Negative_regulation S5 71 79 726 734 disrupts
+@ T31 Binding S5 80 87 735 742 binding
+% E10 Negative_regulation:T30 Theme:E15
+% E11 Negative_regulation:T30 Theme:E17
+% E12 Negative_regulation:T30 Theme:E16
+% E13 Negative_regulation:T30 Theme:E14
+% E14 Binding:T31 Theme:T6 Theme2:T10
+% E15 Binding:T31 Theme:T6 Theme2:T7
+% E16 Binding:T31 Theme:T6 Theme2:T8
+% E17 Binding:T31 Theme:T6 Theme2:T9
+
+This Delta19 beta-catenin mutant localizes to the nucleus because it may not be efficiently sequestered in the cytoplasm.
+# T11 Protein S6 13 25 800 812 beta-catenin
+
+The nuclear localization of Delta19 definitively demonstrates that the mechanisms by which beta-catenin localizes in the nucleus are completely independent of LEF/TCF factors.
+# T12 Protein S7 91 103 1000 1012 beta-catenin
+$ T12 Protein S7 91 103 1000 1012 beta-catenin
+@ T32 Localization S7 104 113 1013 1022 localizes
+@ T33 Entity S7 121 128 1030 1037 nucleus
+% E18 Localization:T32 Theme:T12 AtLoc:T33
+
+beta-Catenin and LEF-1 complexes can activate reporter gene expression in a transformed T-lymphocyte cell line (Jurkat) but not in normal T lymphocytes, even though both factors are nuclear.
+# T13 Protein S8 0 12 1085 1097 beta-Catenin
+# T14 Protein S8 17 22 1102 1107 LEF-1
+$ T13 Protein S8 0 12 1085 1097 beta-Catenin
+$ T14 Protein S8 17 22 1102 1107 LEF-1
+@ T34 Localization S8 178 181 1263 1266 are
+@ T35 Entity S8 182 189 1267 1274 nuclear
+% E19 Localization:T34 Theme:T13 AtLoc:T35
+% E20 Localization:T34 Theme:T14 AtLoc:T35
+
+Thus, localization of both factors to the nucleus is not sufficient for activation of gene expression.
+@ T36 Localization S9 6 18 1282 1294 localization
+@ T37 Entity S9 42 49 1318 1325 nucleus
+% E21 Localization:T36 Theme:T13 ToLoc:T37
+% E22 Localization:T36 Theme:T14 ToLoc:T37
+
+Excess beta-catenin can squelch reporter gene activation by LEF-1-beta-catenin complexes but not activation by the transcription factor VP16.
+# T15 Protein S10 7 19 1386 1398 beta-catenin
+# T16 Protein S10 60 65 1439 1444 LEF-1
+# T17 Protein S10 66 78 1445 1457 beta-catenin
+# T18 Protein S10 136 140 1515 1519 VP16
+$ T15 Protein S10 7 19 1386 1398 beta-catenin
+@ T38 Positive_regulation S10 0 6 1379 1385 Excess
+% E23 Positive_regulation:T38 Theme:T15
+
+Taken together, these data suggest that a third component is necessary for gene activation and that this third component may vary with cell type.
+

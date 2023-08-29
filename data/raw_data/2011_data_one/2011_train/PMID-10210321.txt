@@ -1,0 +1,92 @@
+Unexpected and coordinated expression of Spi-1, Fli-1, and megakaryocytic genes in four Epo-dependent cell lines established from transgenic mice displaying erythroid-specific expression of a thermosensitive SV40 T antigen.
+# T1 Protein S1 41 46 41 46 Spi-1
+# T2 Protein S1 48 53 48 53 Fli-1
+# T3 Protein S1 88 91 88 91 Epo
+$ T2 Protein S1 48 53 48 53 Fli-1
+$ T1 Protein S1 41 46 41 46 Spi-1
+@ T21 Gene_expression S1 27 37 27 37 expression
+% E1 Gene_expression:T21 Theme:T2
+% E2 Gene_expression:T21 Theme:T1
+
+Most erythroleukemic cell lines established in vitro coexpress erythrocytic and megakaryocytic markers that often are associated with expression of Spi-1 and/or Fli-1 transcription factors known as transactivators of megakaryocyte-specific promoters.
+# T4 Protein S2 148 153 373 378 Spi-1
+# T5 Protein S2 161 166 386 391 Fli-1
+$ T4 Protein S2 148 153 373 378 Spi-1
+$ T5 Protein S2 161 166 386 391 Fli-1
+@ T22 Gene_expression S2 134 144 359 369 expression
+% E3 Gene_expression:T22 Theme:T4
+% E4 Gene_expression:T22 Theme:T5
+
+In the present study, we examined the possibility of establishing new cell lines keeping strictly erythroid-specific properties in vitro through the targeted and conditional immortalization of erythrocytic progenitors.
+
+For that purpose, we established several lines of transgenic mice displaying erythroid-specific expression of a thermosensitive SV40 T antigen.
+
+As expected, these transgenic mice developed splenomegaly due to the massive amplification of Ter 119 positive erythroid nucleated cells expressing T antigen.
+
+Despite this drastic effect in vivo, the in vitro immortalization of erythropoietin-dependent erythroid progenitors unexpectedly occurred at low frequency, and all four cell lines established expressed both erythrocytic (globins) and megakaryocytic markers (glycoprotein IIb, platelet factor 4) as well as Spi-1 and Fli-1 transcripts at permissive temperature.
+# T6 Protein S6 69 83 1067 1081 erythropoietin
+# T7 Protein S6 258 274 1256 1272 glycoprotein IIb
+# T8 Protein S6 276 293 1274 1291 platelet factor 4
+# T9 Protein S6 306 311 1304 1309 Spi-1
+# T10 Protein S6 316 321 1314 1319 Fli-1
+$ T7 Protein S6 258 274 1256 1272 glycoprotein IIb
+$ T8 Protein S6 276 293 1274 1291 platelet factor 4
+$ T9 Protein S6 306 311 1304 1309 Spi-1
+$ T10 Protein S6 316 321 1314 1319 Fli-1
+@ T23 Gene_expression S6 192 201 1190 1199 expressed
+@ T24 Transcription S6 192 201 1190 1199 expressed
+% E5 Gene_expression:T23 Theme:T7
+% E8 Gene_expression:T23 Theme:T8
+% E6 Transcription:T24 Theme:T9
+% E7 Transcription:T24 Theme:T10
+
+Switching the cells to the nonpermissive temperature led to a marked increase in globin gene expression and concomitant decrease in expression of Spi-1, Fli-1, and megakaryocytic genes in an erythropoietin-dependent manner.
+# T11 Protein S7 146 151 1505 1510 Spi-1
+# T12 Protein S7 153 158 1512 1517 Fli-1
+# T13 Protein S7 191 205 1550 1564 erythropoietin
+$ T11 Protein S7 146 151 1505 1510 Spi-1
+$ T12 Protein S7 153 158 1512 1517 Fli-1
+$ T13 Protein S7 191 205 1550 1564 erythropoietin
+@ T25 Negative_regulation S7 120 128 1479 1487 decrease
+@ T26 Gene_expression S7 132 142 1491 1501 expression
+@ T27 Positive_regulation S7 206 215 1565 1574 dependent
+% E9 Negative_regulation:T25 Theme:E12
+% E10 Negative_regulation:T25 Theme:E11
+% E11 Gene_expression:T26 Theme:T11
+% E12 Gene_expression:T26 Theme:T12
+% E13 Positive_regulation:T27 Theme:E9 Cause:T13
+% E14 Positive_regulation:T27 Theme:E10 Cause:T13
+
+Interestingly, enhanced expression of Spi-1 and Fli-1 genes already was detected in the Ter 119 positive cell population of transgenic mice spleen in vivo.
+# T14 Protein S8 38 43 1621 1626 Spi-1
+# T15 Protein S8 48 53 1631 1636 Fli-1
+$ T15 Protein S8 48 53 1631 1636 Fli-1
+$ T14 Protein S8 38 43 1621 1626 Spi-1
+@ T28 Gene_expression S8 24 34 1607 1617 expression
+% E15 Gene_expression:T28 Theme:T15
+% E16 Gene_expression:T28 Theme:T14
+
+However, like normal Ter 119 erythroid cells, these Ter 119 positive cells from transgenic mice still expressed high levels of beta-globin and very low or undetectable glycoprotein IIb and platelet factor 4 megakaryocytic transcripts.
+# T16 Protein S9 127 138 1866 1877 beta-globin
+# T17 Protein S9 168 184 1907 1923 glycoprotein IIb
+# T18 Protein S9 189 206 1928 1945 platelet factor 4
+$ T18 Protein S9 189 206 1928 1945 platelet factor 4
+$ T17 Protein S9 168 184 1907 1923 glycoprotein IIb
+$ T16 Protein S9 127 138 1866 1877 beta-globin
+@ T29 Transcription S9 102 111 1841 1850 expressed
+% E17 Transcription:T29 Theme:T18
+% E18 Transcription:T29 Theme:T17
+% E19 Transcription:T29 Theme:T16
+
+Taken together, these data indicate that the unexpected expression of megakaryocytic genes is a specific property of immortalized cells that cannot be explained only by enhanced expression of Spi-1 and/or Fli-1 genes.
+# T19 Protein S10 192 197 2166 2171 Spi-1
+# T20 Protein S10 205 210 2179 2184 Fli-1
+$ T19 Protein S10 192 197 2166 2171 Spi-1
+$ T20 Protein S10 205 210 2179 2184 Fli-1
+@ T30 Positive_regulation S10 169 177 2143 2151 enhanced
+@ T31 Gene_expression S10 178 188 2152 2162 expression
+% E20 Positive_regulation:T30 Theme:E22
+% E21 Positive_regulation:T30 Theme:E23
+% E22 Gene_expression:T31 Theme:T19
+% E23 Gene_expression:T31 Theme:T20
+

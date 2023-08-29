@@ -1,0 +1,34 @@
+Tumor Suppressor WWOX and p53 Alterations and Drug Resistance in Glioblastomas
+# T1 Protein S1 17 21 17 21 WWOX
+# T2 Protein S1 26 29 26 29 p53
+
+Tumor suppressor p53 are frequently mutated in glioblastomas (GBMs) and appears to contribute, in part, to resistance to temozolomide (TMZ) and therapeutic drugs.
+# T3 Protein S2 17 20 96 99 p53
+
+WW domain-containing oxidoreductase WWOX (FOR or WOX1) is a proapoptotic protein and is considered as a tumor suppressor.
+# T4 Protein S3 0 35 242 277 WW domain-containing oxidoreductase
+# T5 Protein S3 36 40 278 282 WWOX
+# T6 Protein S3 42 45 284 287 FOR
+# T7 Protein S3 49 53 291 295 WOX1
+
+Loss of WWOX gene expression is frequently seen in malignant cancer cells due to promoter hypermethylation, genetic alterations, and translational blockade.
+# T8 Protein S4 8 12 372 376 WWOX
+
+Intriguingly, ectopic expression of wild type WWOX preferentially induces apoptosis in human glioblastoma cells harboring mutant p53.
+# T9 Protein S5 46 50 567 571 WWOX
+# T10 Protein S5 129 132 650 653 p53
+
+WWOX is known to physically bind and stabilize wild type p53.
+# T11 Protein S6 0 4 655 659 WWOX
+# T12 Protein S6 57 60 712 715 p53
+
+Here, we provide an overview for the updated knowledge in p53 and WWOX, and postulate potential scenarios that wild type and mutant p53, or isoforms, modulate the apoptotic function of WWOX.
+# T13 Protein S7 58 61 775 778 p53
+# T14 Protein S7 66 70 783 787 WWOX
+# T15 Protein S7 132 135 849 852 p53
+# T16 Protein S7 185 189 902 906 WWOX
+
+We propose that triggering WWOX activation by therapeutic drugs under p53 functional deficiency is needed to overcome TMZ resistance and induce GBM cell death.
+# T17 Protein S8 27 31 935 939 WWOX
+# T18 Protein S8 70 73 978 981 p53
+

@@ -1,0 +1,83 @@
+Fluticasone propionate reduces GATA-3 association with importin-alpha and GATA-3 nuclear import.
+# T1 Protein S1 31 37 31 37 GATA-3
+# T2 Protein S1 74 80 74 80 GATA-3
+$ T1 Protein S1 31 37 31 37 GATA-3
+$ T2 Protein S1 74 80 74 80 GATA-3
+@ T8 Negative_regulation S1 23 30 23 30 reduces
+@ T9 Binding S1 38 49 38 49 association
+@ T10 Entity S1 81 88 81 88 nuclear
+@ T11 Localization S1 89 95 89 95 import
+% E1 Negative_regulation:T8 Theme:E2
+% E3 Negative_regulation:T8 Theme:E4
+% E2 Binding:T9 Theme:T1
+% E4 Localization:T11 Theme:T2 ToLoc:T10
+
+(A) Western blot analysis demonstrates a time- (at 10-8 M FP) and concentration- (at 60 min after stimulation) dependent induction of FP-activated GR interaction with importin-alpha (Imp-alpha).
+# T3 Protein S2 147 149 244 246 GR
+$ T3 Protein S2 147 149 244 246 GR
+@ T12 Regulation S2 111 120 208 217 dependent
+@ T13 Positive_regulation S2 121 130 218 227 induction
+@ T14 Positive_regulation S2 137 146 234 243 activated
+@ T15 Binding S2 150 161 247 258 interaction
+% E5 Regulation:T12 Theme:E6
+% E6 Positive_regulation:T13 Theme:E7
+% E8 Positive_regulation:T14 Theme:T3
+% E7 Binding:T15 Theme:T3
+
+A positive control for GR association with importin is shown.
+# T4 Protein S3 23 25 315 317 GR
+$ T4 Protein S3 23 25 315 317 GR
+@ T16 Binding S3 26 37 318 329 association
+% E9 Binding:T16 Theme:T4
+
+Quantification of the densitometry data is shown below.
+
+Each bar represents mean+/-SEM of at least three independent experiments.
+
+*** p<0.001 compared to control, ### p<0.001.
+
+(B) Western blot analysis demonstrated a time- (at 10-8 M FP) and concentration- (at 60 min after stimulation) dependent induction of FP-activated GR nuclear translocation measured by IP.
+# T5 Protein S7 147 149 677 679 GR
+$ T5 Protein S7 147 149 677 679 GR
+@ T17 Regulation S7 111 120 641 650 dependent
+@ T18 Positive_regulation S7 121 130 651 660 induction
+@ T19 Positive_regulation S7 137 146 667 676 activated
+@ T20 Entity S7 150 157 680 687 nuclear
+@ T21 Localization S7 158 171 688 701 translocation
+% E10 Regulation:T17 Theme:E11
+% E11 Positive_regulation:T18 Theme:E12
+% E13 Positive_regulation:T19 Theme:T5
+% E12 Localization:T21 Theme:T5 ToLoc:T20
+
+Quantification of the densitometry data is shown below.
+
+Each bar represents mean+/-SEM of at least three independent experiments.
+
+***p<0.001 compared to control.
+
+(C) Western blot analysis of HuT-78 cells treated with FP and anti-CD3/CD28 co-stimulation demonstrated a concentration-dependent decrease in GATA-3-importin-alpha association at 20 min.
+# T6 Protein S11 142 148 1022 1028 GATA-3
+$ T6 Protein S11 142 148 1022 1028 GATA-3
+@ T22 Regulation S11 120 129 1000 1009 dependent
+@ T23 Negative_regulation S11 130 138 1010 1018 decrease
+@ T24 Binding S11 164 175 1044 1055 association
+% E14 Regulation:T22 Theme:E15
+% E15 Negative_regulation:T23 Theme:E16
+% E16 Binding:T24 Theme:T6
+
+Quantification of the densitometry data is shown below.
+
+Each bar represents mean+/-SEM of at least three independent experiments.
+
+###p<0.001 compared to control, ***p<0.001 compared to alphaCD3/CD28-stimulated cells.
+
+(D) GFP-tagged GATA-3 was overexpressed and cells stimulated (b, c) or not (a) for 30 min with anti-CD3/CD28.
+# T7 Protein S15 15 21 1299 1305 GATA-3
+$ T7 Protein S15 15 21 1299 1305 GATA-3
+@ T25 Gene_expression S15 26 39 1310 1323 overexpressed
+% E17 Gene_expression:T25 Theme:T7
+
+The effect of 30 min pretreatment of cells with FP (10-8 M, c) is also shown.
+
+All data were analysed by ANOVA followed by Newman-Keuls post-test.
+

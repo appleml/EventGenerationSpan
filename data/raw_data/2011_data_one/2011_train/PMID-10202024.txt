@@ -1,0 +1,69 @@
+Human cytomegalovirus binding to human monocytes induces immunoregulatory gene expression.
+
+To continue our investigation of the cellular events that occur following human CMV (HCMV) infection, we focused on the regulation of cellular activation following viral binding to human monocytes.
+
+First, we showed that viral binding induced a number of immunoregulatory genes (IL-1beta, A20, NF-kappaB-p105/p50, and IkappaBalpha) in unactivated monocytes and that neutralizing Abs to the major HCMV glycoproteins, gB (UL55) and gH (UL75), inhibited the induction of these genes.
+# T1 Protein S3 80 88 370 378 IL-1beta
+# T2 Protein S3 90 93 380 383 A20
+# T3 Protein S3 105 109 395 399 p105
+# T4 Protein S3 110 113 400 403 p50
+# T5 Protein S3 119 131 409 421 IkappaBalpha
+$ T3 Protein S3 105 109 395 399 p105
+$ T4 Protein S3 110 113 400 403 p50
+$ T5 Protein S3 119 131 409 421 IkappaBalpha
+$ T1 Protein S3 80 88 370 378 IL-1beta
+$ T2 Protein S3 90 93 380 383 A20
+@ T9 Positive_regulation S3 36 43 326 333 induced
+@ T10 Negative_regulation S3 242 251 532 541 inhibited
+@ T11 Positive_regulation S3 256 265 546 555 induction
+% E1 Positive_regulation:T9 Theme:T3
+% E2 Positive_regulation:T9 Theme:T4
+% E3 Positive_regulation:T9 Theme:T5
+% E4 Positive_regulation:T9 Theme:T1
+% E5 Positive_regulation:T9 Theme:T2
+% E6 Negative_regulation:T10 Theme:E15
+% E7 Negative_regulation:T10 Theme:E14
+% E8 Negative_regulation:T10 Theme:E11
+% E9 Negative_regulation:T10 Theme:E13
+% E10 Negative_regulation:T10 Theme:E12
+% E11 Positive_regulation:T11 Theme:T1
+% E12 Positive_regulation:T11 Theme:T5
+% E13 Positive_regulation:T11 Theme:T3
+% E14 Positive_regulation:T11 Theme:T4
+% E15 Positive_regulation:T11 Theme:T2
+
+Next, we demonstrated that these viral ligands directly up-regulated monocyte gene expression upon their binding to their appropriate cellular receptors.
+
+We then investigated if HCMV binding also resulted in the translation and secretion of cytokines.
+
+Our results showed that HCMV binding to monocytes resulted in the production and release of IL-1beta protein.
+# T6 Protein S6 92 100 916 924 IL-1beta
+$ T6 Protein S6 92 100 916 924 IL-1beta
+@ T12 Positive_regulation S6 50 58 874 882 resulted
+@ T13 Gene_expression S6 66 76 890 900 production
+@ T14 Localization S6 81 88 905 912 release
+% E16 Positive_regulation:T12 Theme:E18
+% E17 Positive_regulation:T12 Theme:E19
+% E18 Gene_expression:T13 Theme:T6
+% E19 Localization:T14 Theme:T6
+
+Because these induced gene products have NF-kappaB sites in their promoter regions, we next examined whether there was an up-regulation of nuclear NF-kappaB levels.
+
+These experiments showed that, in fact, NF-kappaB was translocated to the nucleus following viral binding or purified viral ligand binding.
+
+Changes in IkappaBalpha levels correlated with the changes in NF-kappaB translocation.
+# T7 Protein S9 11 23 1250 1262 IkappaBalpha
+$ T7 Protein S9 11 23 1250 1262 IkappaBalpha
+@ T15 Regulation S9 0 7 1239 1246 Changes
+% E20 Regulation:T15 Theme:T7
+
+Lastly, we demonstrated that p38 kinase activity played a central role in IL-1beta production and that it was rapidly up-regulated following infection.
+# T8 Protein S10 74 82 1400 1408 IL-1beta
+$ T8 Protein S10 74 82 1400 1408 IL-1beta
+@ T16 Positive_regulation S10 66 70 1392 1396 role
+@ T17 Gene_expression S10 83 93 1409 1419 production
+% E21 Positive_regulation:T16 Theme:E22
+% E22 Gene_expression:T17 Theme:T8
+
+These results support our hypothesis that HCMV initiates a signal transduction pathway that leads to monocyte activation and pinpoints a potential mechanism whereby HCMV infection of monocytes can result in profound pathogenesis, especially in chronic inflammatory-type conditions.
+

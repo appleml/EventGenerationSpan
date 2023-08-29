@@ -1,0 +1,40 @@
+CD40-mediated CD80 upregulation is defective in HOIP-deficient cells.
+# T1 Protein S1 0 4 0 4 CD40
+# T2 Protein S1 14 18 14 18 CD80
+# T3 Protein S1 48 52 48 52 HOIP
+$ T1 Protein S1 0 4 0 4 CD40
+$ T2 Protein S1 14 18 14 18 CD80
+$ T3 Protein S1 48 52 48 52 HOIP
+@ T9 Positive_regulation S1 5 13 5 13 mediated
+@ T10 Positive_regulation S1 19 31 19 31 upregulation
+@ T11 Negative_regulation S1 35 44 35 44 defective
+@ T12 Negative_regulation S1 53 62 53 62 deficient
+% E1 Positive_regulation:T9 Theme:E2 Cause:T1
+% E2 Positive_regulation:T10 Theme:T2
+% E3 Negative_regulation:T11 Theme:E1
+% E4 Negative_regulation:T12 Theme:T3
+
+Cells were incubated for 72 hrs with an isotype control antibody (left) or anti-CD40 antibody (right) and then stained for expression of CD80 (filled profiles indicate staining with anti-CD80 antibody; open profiles are staining with an isotype control antibody).
+# T4 Protein S2 137 141 207 211 CD80
+$ T4 Protein S2 137 141 207 211 CD80
+@ T13 Gene_expression S2 123 133 193 203 expression
+% E5 Gene_expression:T13 Theme:T4
+
+Transduction of both HOIP-deficient (HOIP-/-) clones with a retrovirus encoding FLAG-HOIP reversed defective CD80 upregulation, while transduction with an empty vector (pMIP) did not.
+# T5 Protein S3 21 25 355 359 HOIP
+# T6 Protein S3 37 41 371 375 HOIP
+# T7 Protein S3 85 89 419 423 HOIP
+# T8 Protein S3 109 113 443 447 CD80
+$ T5 Protein S3 21 25 355 359 HOIP
+$ T8 Protein S3 109 113 443 447 CD80
+@ T14 Negative_regulation S3 26 35 360 369 deficient
+@ T15 Negative_regulation S3 90 98 424 432 reversed
+@ T16 Negative_regulation S3 99 108 433 442 defective
+@ T17 Positive_regulation S3 114 126 448 460 upregulation
+% E6 Negative_regulation:T14 Theme:T5
+% E7 Negative_regulation:T15 Theme:E8
+% E8 Negative_regulation:T16 Theme:E9
+% E9 Positive_regulation:T17 Theme:T8
+
+Similar results were obtained in a second experiment.
+

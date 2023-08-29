@@ -1,0 +1,25 @@
+Evidence for lowered induction of nuclear factor kappa B in activated human T lymphocytes during aging.
+
+Transcription factor NF kappa B (nuclear factor kappa B) is induced in T lymphocytes from young individuals following activation with a variety of stimuli including anti-CD3, phorbol myristate acetate (PMA), and tumor necrosis factor-alpha (TNF-alpha).
+# T1 Protein S2 212 239 317 344 tumor necrosis factor-alpha
+# T2 Protein S2 241 250 346 355 TNF-alpha
+
+In contrast, activated T lymphocytes from older individuals show a significant reduction in the induction of NF kappa B in response to the same stimuli.
+
+The age-related decline in induction of NF kappa B could not be attributed to alteration in the composition of subunits, p50 and p65 were found to be the predominant subunits of induced NF kappa B in T cells from young as well as elderly donors.
+# T3 Protein S4 121 124 632 635 p50
+# T4 Protein S4 129 132 640 643 p65
+$ T4 Protein S4 129 132 640 643 p65
+$ T3 Protein S4 121 124 632 635 p50
+@ T5 Positive_regulation S4 147 174 658 685 be the predominant subunits
+@ T6 Gene_expression S4 147 174 658 685 be the predominant subunits
+@ T7 Positive_regulation S4 178 185 689 696 induced
+% E1 Positive_regulation:T5 Theme:T4
+% E2 Gene_expression:T6 Theme:T3
+% E3 Positive_regulation:T7 Theme:T4
+% E4 Positive_regulation:T7 Theme:T3
+
+Furthermore, similar levels of NF kappa B were found in the cytosols of unactivated T cells from both young and elderly donors suggesting that precursor levels of NF kappa B remain unaltered during aging.
+
+These results suggest that an age-associated decline in the induction of NF kappa B in activated T cells from elderly individuals may be attributable to altered regulation of the inhibitor, I kappa B, and may play an important role in immune dysregulation accompanying aging.
+

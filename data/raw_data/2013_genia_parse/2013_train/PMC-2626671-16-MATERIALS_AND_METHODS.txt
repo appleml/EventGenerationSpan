@@ -1,0 +1,85 @@
+Online	NN	B-NP	O	Other	No	No	Other	Other	###	1	Online	Online	NN	NN	_	3	compound	_	_
+supplemental	JJ	I-NP	O	Other	No	No	Other	Other	###	2	supplemental	supplemental	JJ	JJ	_	3	amod	_	_
+material	NN	I-NP	O	Other	No	No	Other	Other	###	3	material	material	NN	NN	_	0	root	_	_
+.	.	O	O	Other	No	No	Other	Other	###	4	.	.	.	.	_	3	punct	_	_
+
+Fig	NNP	B-NP	O	Other	No	No	Other	Other	###	1	Fig	Fig	NNP	NNP	_	0	root	_	_
+.	.	O	O	Other	No	No	Other	Other	###	2	.	.	.	.	_	1	punct	_	_
+
+S1	NN	B-NP	B-protein	Other	No	No	Other	Other	###	1	S1	S1	NN	NN	_	2	nsubj	_	_
+shows	VBZ	B-VP	O	Other	No	No	Other	Other	###	2	shows	shows	VBZ	VBZ	_	0	root	_	_
+the	DT	B-NP	O	Other	No	No	Other	Other	###	3	the	the	DT	DT	_	4	det	_	_
+characterization	NN	I-NP	O	Other	No	No	Other	Other	###	4	characterization	characterization	NN	NN	_	2	dobj	_	_
+of	IN	B-PP	O	Other	No	No	Other	Other	###	5	of	of	IN	IN	_	10	case	_	_
+peripheral	JJ	B-NP	B-cell_type	Other	No	No	Other	Other	###	6	peripheral	peripheral	JJ	JJ	_	10	amod	_	_
+CD8	NN	B-NP	B-protein	B-Protein	No	No	Other	Other	###	7	CD8	CD8	NN	NN	_	10	compound	_	_
++	+	O	O	Other	No	No	Other	Other	###	8	+	+	+	+	_	7	cc	_	_
+T	NN	I-NP	I-cell_type	Other	No	No	Other	Other	###	9	T	T	NN	NN	_	7	conj	_	_
+cells	NNS	I-NP	I-cell_type	Other	No	No	Other	Other	###	10	cells	cells	NNS	NNS	_	4	nmod	_	_
+from	IN	B-PP	O	Other	No	No	Other	Other	###	11	from	from	IN	IN	_	16	case	_	_
+Runx3	NN	B-NP	B-protein	B-Protein	No	No	Other	Other	###	12	Runx3	Runx3	NN	NN	_	16	compound	_	_
+-	-	O	O	Other	No	No	Other	Other	###	13	-	-	-	-	_	16	punct	_	_
+/	/	O	O	Other	No	No	Other	Other	###	14	/	/	/	/	_	16	punct	_	_
+-	-	O	O	Other	No	No	Other	Other	###	15	-	-	-	-	_	16	punct	_	_
+mice	NNS	I-NP	O	Other	No	No	Other	Other	###	16	mice	mice	NNS	NNS	_	10	nmod	_	_
+.	.	O	O	Other	No	No	Other	Other	###	17	.	.	.	.	_	2	punct	_	_
+
+Fig	NNP	B-NP	O	Other	No	No	Other	Other	###	1	Fig	Fig	NNP	NNP	_	0	root	_	_
+.	.	O	O	Other	No	No	Other	Other	###	2	.	.	.	.	_	1	punct	_	_
+
+S2	NN	B-NP	B-protein	Other	No	No	Other	Other	###	1	S2	S2	NN	NN	_	2	nsubj	_	_
+shows	VBZ	B-VP	O	Other	No	No	Other	Other	###	2	shows	shows	VBZ	VBZ	_	0	root	_	_
+effector	NN	B-NP	B-protein	Other	No	No	Other	Other	###	3	effector	effector	NN	NN	_	5	compound	_	_
+protein	NN	I-NP	I-protein	Other	No	No	Other	Other	###	4	protein	protein	NN	NN	_	5	compound	_	_
+expression	NN	I-NP	O	Other	No	No	Other	Other	###	5	expression	expression	NN	NN	_	2	dobj	_	_
+by	IN	B-PP	O	Other	No	No	Other	Other	###	6	by	by	IN	IN	_	8	case	_	_
+Runx3	NN	B-NP	B-protein	B-Protein	Yes	No	Other	Other	###	7	Runx3	Runx3	NN	NN	_	8	compound	_	_
+WT	NN	I-NP	O	Other	No	No	Other	Other	###	8	WT	WT	NN	NN	_	5	nmod	_	_
+and	CC	O	O	Other	No	No	Other	Other	###	9	and	and	CC	CC	_	8	cc	_	_
+KO	NN	B-NP	B-cell_line	Other	No	No	Other	Other	###	10	KO	KO	NN	NN	_	11	compound	_	_
+cells	NNS	I-NP	I-cell_line	Other	No	No	Other	Other	###	11	cells	cells	NNS	NNS	_	8	conj	_	_
+at	IN	B-PP	O	Other	No	No	Other	Other	###	12	at	at	IN	IN	_	13	case	_	_
+day	NN	B-NP	O	Other	No	No	Other	Other	###	13	day	day	NN	NN	_	2	nmod	_	_
+4	CD	I-NP	O	Other	No	No	Other	Other	###	14	4	4	CD	CD	_	13	nummod	_	_
+of	IN	B-PP	O	Other	No	No	Other	Other	###	15	of	of	IN	IN	_	18	case	_	_
+in	FW	B-NP	O	Other	No	No	Other	Other	###	16	in	in	FW	FW	_	18	amod	_	_
+vitro	FW	I-NP	O	Other	No	No	Other	Other	###	17	vitro	vitro	FW	FW	_	16	dep	_	_
+culture	NN	I-NP	O	Other	No	No	Other	Other	###	18	culture	culture	NN	NN	_	13	nmod	_	_
+.	.	O	O	Other	No	No	Other	Other	###	19	.	.	.	.	_	2	punct	_	_
+
+Primer	NN	B-NP	B-DNA	Other	No	No	Other	Other	###	1	Primer	Primer	NN	NN	_	2	compound	_	_
+sequences	NNS	I-NP	I-DNA	Other	No	No	Other	Other	###	2	sequences	sequences	NNS	NNS	_	8	nsubjpass	_	_
+used	VBN	B-VP	O	Other	No	No	Other	Other	###	3	used	used	VBN	VBN	_	2	acl	_	_
+for	IN	B-PP	O	Other	No	No	Other	Other	###	4	for	for	IN	IN	_	6	case	_	_
+ChIP	NN	B-NP	O	Other	No	No	Other	Other	###	5	ChIP	ChIP	NN	NN	_	6	compound	_	_
+experiments	NNS	I-NP	O	Other	No	No	Other	Other	###	6	experiments	experiments	NNS	NNS	_	3	nmod	_	_
+are	VBP	B-VP	O	Other	No	No	Other	Other	###	7	are	are	VBP	VBP	_	8	auxpass	_	_
+shown	VBN	I-VP	O	Other	No	No	Other	Other	###	8	shown	shown	VBN	VBN	_	0	root	_	_
+in	IN	B-PP	O	Other	No	No	Other	Other	###	9	in	in	IN	IN	_	11	case	_	_
+Table	JJ	B-NP	O	Other	No	No	Other	Other	###	10	Table	Table	JJ	JJ	_	11	amod	_	_
+S1	NN	I-NP	O	Other	No	No	Other	Other	###	11	S1	S1	NN	NN	_	8	nmod	_	_
+.	.	O	O	Other	No	No	Other	Other	###	12	.	.	.	.	_	8	punct	_	_
+
+Online	NN	B-NP	O	Other	No	No	Other	Other	###	1	Online	Online	NN	NN	_	3	compound	_	_
+supplemental	JJ	I-NP	O	Other	No	No	Other	Other	###	2	supplemental	supplemental	JJ	JJ	_	3	amod	_	_
+material	NN	I-NP	O	Other	No	No	Other	Other	###	3	material	material	NN	NN	_	5	nsubj	_	_
+is	VBZ	B-VP	O	Other	No	No	Other	Other	###	4	is	is	VBZ	VBZ	_	5	cop	_	_
+available	JJ	B-ADJP	O	Other	No	No	Other	Other	###	5	available	available	JJ	JJ	_	0	root	_	_
+at	IN	B-PP	O	Other	No	No	Other	Other	###	6	at	at	IN	IN	_	7	case	_	_
+http	NN	B-NP	O	Other	No	No	Other	Other	###	7	http	http	NN	NN	_	5	nmod	_	_
+:	:	O	O	Other	No	No	Other	Other	###	8	:	:	:	:	_	5	punct	_	_
+/	/	O	O	Other	No	No	Other	Other	###	9	/	/	/	/	_	11	punct	_	_
+/	/	O	O	Other	No	No	Other	Other	###	10	/	/	/	/	_	11	punct	_	_
+www.jem.org	NN	B-NP	B-protein	Other	No	No	Other	Other	###	11	www.jem.org	www.jem.org	NN	NN	_	5	dep	_	_
+/	/	O	O	Other	No	No	Other	Other	###	12	/	/	/	/	_	11	punct	_	_
+cgi	NN	B-NP	B-protein	Other	No	No	Other	Other	###	13	cgi	cgi	NN	NN	_	11	dep	_	_
+/	/	O	O	Other	No	No	Other	Other	###	14	/	/	/	/	_	11	punct	_	_
+content	NN	B-NP	B-protein	Other	No	No	Other	Other	###	15	content	content	NN	NN	_	11	dep	_	_
+/	/	O	O	Other	No	No	Other	Other	###	16	/	/	/	/	_	15	punct	_	_
+full	NN	B-NP	B-protein	Other	No	No	Other	Other	###	17	full	full	NN	NN	_	15	amod	_	_
+/	/	O	O	Other	No	No	Other	Other	###	18	/	/	/	/	_	15	punct	_	_
+jem.20081242	NN	B-NP	B-protein	Other	No	No	Other	Other	###	19	jem.20081242	jem.20081242	NN	NN	_	15	nummod	_	_
+/	/	O	O	Other	No	No	Other	Other	###	20	/	/	/	/	_	21	punct	_	_
+DC1	NN	B-NP	B-protein	Other	No	No	Other	Other	###	21	DC1	DC1	NN	NN	_	15	dep	_	_
+.	.	O	O	Other	No	No	Other	Other	###	22	.	.	.	.	_	5	punct	_	_
+

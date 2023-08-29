@@ -1,0 +1,90 @@
+Involvement of the N-terminal region of the human mineralocorticoid receptor hormone-binding domain in agonist and antagonist binding as revealed by a new monoclonal antibody.
+# T1 Protein S1 50 76 50 76 mineralocorticoid receptor
+$ T1 Protein S1 50 76 50 76 mineralocorticoid receptor
+@ T15 Binding S1 126 133 126 133 binding
+% E1 Binding:T15 Theme:T1
+
+To gain a better understanding of the mechanism of binding to the human mineralocorticoid receptor (hMR), we developed a new monoclonal antibody (mAb) raised against the hormone-binding domain (HBD).
+# T2 Protein S2 72 98 249 275 mineralocorticoid receptor
+# T3 Protein S2 101 103 278 280 MR
+$ T3 Protein S2 101 103 278 280 MR
+@ T16 Binding S2 51 58 228 235 binding
+% E2 Binding:T16 Theme:T3
+
+For this purpose, mice were immunized with a fusion protein including the sequence Thr729-Lys984 of hMR.
+# T4 Protein S3 101 103 478 480 MR
+
+After ELISA screening, mAb 18C7 was selected for its specificity towards the HBD.
+
+This antibody recognized both the denatured and native MR forms, as well as the hetero-oligomeric MR form and the transformed MR state.
+# T5 Protein S5 55 57 619 621 MR
+# T6 Protein S5 98 100 662 664 MR
+# T7 Protein S5 126 128 690 692 MR
+$ T6 Protein S5 98 100 662 664 MR
+$ T5 Protein S5 55 57 619 621 MR
+@ T17 Binding S5 14 24 578 588 recognized
+% E3 Binding:T17 Theme:T6
+% E4 Binding:T17 Theme:T5
+
+By using several HBD subfragments, the mAb 18C7 epitope was located in the N-terminal region of the HBD from Thr729 to Leu765.
+
+We then studied the effect of the antibody on aldosterone and progesterone binding to the hMR.
+# T8 Protein S7 91 93 918 920 MR
+$ T8 Protein S7 91 93 918 920 MR
+@ T18 Regulation S7 20 26 847 853 effect
+@ T19 Binding S7 75 82 902 909 binding
+% E5 Regulation:T18 Theme:E6
+% E6 Binding:T19 Theme:T8
+
+When 18C7 was incubated with liganded MR, it was able to partly displace (20%) the hormone from its binding site.
+# T9 Protein S8 38 40 960 962 MR
+$ T9 Protein S8 38 40 960 962 MR
+@ T20 Binding S8 29 37 951 959 liganded
+% E7 Binding:T20 Theme:T9
+
+When 18C7 was incubated with MR before aldosterone or progesterone, the antibody inhibited 75-80% of the binding.
+# T10 Protein S9 29 31 1065 1067 MR
+$ T10 Protein S9 29 31 1065 1067 MR
+@ T21 Negative_regulation S9 81 90 1117 1126 inhibited
+@ T22 Binding S9 105 112 1141 1148 binding
+% E8 Negative_regulation:T21 Theme:E9
+% E9 Binding:T22 Theme:T10
+
+The effect of 18C7 on the binding was similar with both hormones.
+@ T23 Regulation S10 4 10 1154 1160 effect
+@ T24 Binding S10 26 33 1176 1183 binding
+% E10 Regulation:T23 Theme:E11
+% E11 Binding:T24 Theme:T10
+
+A sucrose gradient analysis indicated the simultaneous presence of two kinds of receptor complexes: the steroid-MR complex and the antibody-MR complex.
+# T11 Protein S11 112 114 1328 1330 MR
+# T12 Protein S11 140 142 1356 1358 MR
+$ T11 Protein S11 112 114 1328 1330 MR
+$ T12 Protein S11 140 142 1356 1358 MR
+@ T25 Binding S11 115 122 1331 1338 complex
+@ T26 Binding S11 143 150 1359 1366 complex
+% E12 Binding:T25 Theme:T11
+% E13 Binding:T26 Theme:T12
+
+After its associated proteins, especially the heat-shock protein hsp90, had been cross-linked with the hMR by dimethylpimelimidate, 18C7 was still able to react with the receptor.
+# T13 Protein S12 65 70 1433 1438 hsp90
+# T14 Protein S12 103 106 1471 1474 hMR
+$ T13 Protein S12 65 70 1433 1438 hsp90
+$ T14 Protein S12 103 106 1471 1474 hMR
+@ T27 Binding S12 81 93 1449 1461 cross-linked
+@ T28 Negative_regulation S12 141 154 1509 1522 still able to
+@ T29 Regulation S12 155 160 1523 1528 react
+% E14 Binding:T27 Theme:T13 Theme2:T14
+% E15 Negative_regulation:T28 Theme:E16 Cause:E14
+% E16 Regulation:T29 Theme:T14
+
+Our results indicated that the epitope recognized by 18C7 was directly implicated in hormone binding.
+@ T30 Binding S13 93 100 1641 1648 binding
+% E17 Binding:T30 Theme:T10
+
+The lack of steroid binding of HBD mutants with the Thr729-Leu765 sequence deleted [Jalaguier, Mesnier, Leger and Auzou (1996) J.Steroid Biochem.Mol.Biol.57, 43-50] supports this hypothesis.
+
+Because of the similar behaviours of aldosterone and progesterone, we conclude that the N-terminal Thr729-Leu765 region of the HBD is similarly involved in the binding of both hormones.
+@ T31 Binding S15 160 167 2001 2008 binding
+% E18 Binding:T31 Theme:T10
+

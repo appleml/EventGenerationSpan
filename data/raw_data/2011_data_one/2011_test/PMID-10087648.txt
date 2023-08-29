@@ -1,0 +1,35 @@
+T helper differentiation proceeds through Stat1-dependent, Stat4-dependent and Stat4-independent phases.
+# T1 Protein S1 42 47 42 47 Stat1
+# T2 Protein S1 59 64 59 64 Stat4
+# T3 Protein S1 79 84 79 84 Stat4
+
+Much of our focus in understanding Th1/Th2 development has been on the signals delivered by IL-12 and IL-4 as final determinants of terminal T cell differentiation.
+# T4 Protein S2 102 106 208 212 IL-4
+
+Because extinction of IL-12 signaling in early Th2 development could potentially be important in imprinting a more permanent Th2 phenotype on a population of T cells, we have also examined various parameters regulating the IL-12 signaling pathway.
+
+Whereas IL-4 appears to repress functional IL-12 signaling through inhibition of IL-12R beta 2 expression, IFN-gamma in the mouse, and IFN-alpha in the human appear to induce IL-12R beta 2 expression and promote IL-12 responsiveness.
+# T5 Protein S4 8 12 527 531 IL-4
+# T6 Protein S4 81 94 600 613 IL-12R beta 2
+# T7 Protein S4 107 116 626 635 IFN-gamma
+# T8 Protein S4 175 188 694 707 IL-12R beta 2
+
+We propose that Th1 development can be considered in two stages, capacitance and development.
+
+Capacitance would simply involve expression of IL-12R beta 1 and beta 2 subunits, regulated by TCR, IL-4 and IFNs.
+# T9 Protein S6 47 60 894 907 IL-12R beta 1
+# T10 Protein S6 65 71 912 918 beta 2
+# T11 Protein S6 100 104 947 951 IL-4
+
+The second stage, development, we propose is the true IL-12 induced developmental stage, involving expression of Stat4 inducible proteins.
+# T12 Protein S7 113 118 1075 1080 Stat4
+
+In the human, this may also occur via IFN-alpha, which is able to activate Stat4.
+# T13 Protein S8 75 80 1176 1181 Stat4
+
+It is perhaps possible that all of Stat4 actions on Th1 development may be exert directly by Stat4 at the IFN-gamma gene, however we suggest that, more likely, Stat4 may act to induce Th1 development through the induction of other non-cytokine genes, whose stable expression maintains the transcriptional state of a Th1 cell.
+# T14 Protein S9 35 40 1218 1223 Stat4
+# T15 Protein S9 93 98 1276 1281 Stat4
+# T16 Protein S9 106 115 1289 1298 IFN-gamma
+# T17 Protein S9 160 165 1343 1348 Stat4
+

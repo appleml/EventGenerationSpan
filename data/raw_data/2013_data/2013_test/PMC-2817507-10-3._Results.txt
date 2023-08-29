@@ -1,0 +1,20 @@
+3.2.
+
+Expression of TLR4 Protein Increased in Brain Tissue after ICH
+# T1 Protein S2 14 18 19 23 TLR4
+
+To investigate the increased TLR4 at the protein level, the expression of TLR4 protein was measured in brain tissue by the method of Western Blots using specific antibodies for TLR4.
+# T2 Protein S3 29 33 97 101 TLR4
+# T3 Protein S3 74 78 142 146 TLR4
+# T4 Protein S3 177 181 245 249 TLR4
+
+Our results showed that a low level of TLR4 protein was detectable in the saline control group.
+# T5 Protein S4 39 43 290 294 TLR4
+
+The expression of TLR4 significantly increased starting from 6 hours after ICH (P < .05), peaked on the 3rd day after ICH, and then decreased but still maintained at a high level on the 7th day after ICH (P < .05, Figure 2).
+# T6 Protein S5 18 22 365 369 TLR4
+
+This observation of TLR4 protein was consistent with the temporal profile of the TLR4 mRNA after ICH.
+# T7 Protein S6 20 24 592 596 TLR4
+# T8 Protein S6 81 85 653 657 TLR4
+

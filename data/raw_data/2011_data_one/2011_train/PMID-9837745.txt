@@ -1,0 +1,53 @@
+Interleukin-12 expression in B cells by transformation with Epstein-Barr virus.
+
+Although interleukin (IL)-12 was originally purified from an Epstein-Barr (EBV)-transformed B cell line and the high correlation of EBV infection and IL-12 expression has been suggested, no study has reported whether EBV infection is directly linked to IL-12 expression.
+
+To address this issue, we have investigated IL-12 expression in B cells during in vitro transformation with EBV.
+
+Human peripheral B cells became capable of constitutively producing p40 by in vitro transformation with EBV, coincident with the expression of latent membrane protein 1 (LMP1) of EBV.
+# T1 Protein S4 68 71 533 536 p40
+# T2 Protein S4 143 168 608 633 latent membrane protein 1
+# T3 Protein S4 170 174 635 639 LMP1
+$ T1 Protein S4 68 71 533 536 p40
+$ T3 Protein S4 170 174 635 639 LMP1
+@ T10 Positive_regulation S4 25 39 490 504 became capable
+@ T11 Gene_expression S4 58 67 523 532 producing
+@ T12 Gene_expression S4 129 139 594 604 expression
+% E1 Positive_regulation:T10 Theme:E2
+% E2 Gene_expression:T11 Theme:T1
+% E3 Gene_expression:T12 Theme:T3
+
+These B cells expressed p40 and p35 mRNA, and phorbol myristate acetate (PMA) stimulation strongly enhanced p40 and p70 production.
+# T4 Protein S5 24 27 673 676 p40
+# T5 Protein S5 32 35 681 684 p35
+# T6 Protein S5 108 111 757 760 p40
+$ T4 Protein S5 24 27 673 676 p40
+$ T5 Protein S5 32 35 681 684 p35
+$ T6 Protein S5 108 111 757 760 p40
+@ T13 Transcription S5 14 23 663 672 expressed
+@ T14 Positive_regulation S5 99 107 748 756 enhanced
+@ T15 Gene_expression S5 120 130 769 779 production
+% E4 Transcription:T13 Theme:T4
+% E5 Transcription:T13 Theme:T5
+% E6 Positive_regulation:T14 Theme:E7
+% E7 Gene_expression:T15 Theme:T6
+
+Furthermore, transfection with LMP1 expression vector into a human B lymphoma cell line, Daudi, led to p40 production with nuclear factor (NF)-kappaB activation.
+# T7 Protein S6 31 35 812 816 LMP1
+# T8 Protein S6 103 106 884 887 p40
+$ T8 Protein S6 103 106 884 887 p40
+@ T16 Positive_regulation S6 96 99 877 880 led
+@ T17 Gene_expression S6 107 117 888 898 production
+% E8 Positive_regulation:T16 Theme:E9
+% E9 Gene_expression:T17 Theme:T8
+
+These results suggest that transformation of primary B cells with EBV induces IL-12 expression potentially through LMP1 expression.
+# T9 Protein S7 115 119 1058 1062 LMP1
+$ T9 Protein S7 115 119 1058 1062 LMP1
+@ T18 Positive_regulation S7 70 77 1013 1020 induces
+@ T19 Gene_expression S7 120 130 1063 1073 expression
+% E10 Positive_regulation:T18 Theme:E11
+% E11 Gene_expression:T19 Theme:T9
+
+Copyright 1998 Academic Press.
+

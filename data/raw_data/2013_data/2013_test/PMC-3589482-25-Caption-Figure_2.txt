@@ -1,0 +1,32 @@
+Deletion reporter gene analysis of LPS and PMA-responsive regions in the murine SerpinB2 promoter.
+# T1 Protein S1 80 88 80 88 SerpinB2
+
+(A) Schematic representation of the murine SerpinB2 promoter and 5' deletion luciferase reporter constructs.
+# T2 Protein S2 43 96 142 195 SerpinB2 promoter and 5' deletion luciferase reporter
+
+The murine 5' flanking region from -4480 to +92 was inserted upstream of the luciferase reporter gene and 5' deletions were generated using restriction enzyme sites or with specific oligonucleotide PCR primers.
+# T3 Protein S3 77 87 285 295 luciferase
+
+Construct names indicate the most 5' nucleotide of murine SerpinB2 5' flanking sequence.
+# T4 Protein S4 58 66 477 485 SerpinB2
+
+(B) RAW 264.7 macrophages were transiently transfected with the indicated murine SerpinB2 promoter-luciferase reporter constructs and control plasmids.
+# T5 Protein S5 81 118 589 626 SerpinB2 promoter-luciferase reporter
+
+Cells were either left untreated or treated with 100 ng/ml LPS or 40 ng/ml PMA for 16 hrs.
+
+Shown is the relative luciferase reporter gene activity following treatment.
+# T6 Protein S7 22 32 773 783 luciferase
+
+The results represent the mean and SEM of four independent experiments.
+
+(C) DNA sequence conservation between the human and murine SerpinB2 5' flanking regions.
+# T7 Protein S9 59 67 959 967 SerpinB2
+
+Schematic representation of the human and murine SerpinB2 5' flanking regions with regions of nucleotide sequence identity indicated by the same colored boxes.
+# T8 Protein S10 49 57 1038 1046 SerpinB2
+
+Homologous regions are interrupted by repetitive sequence elements in both 5' flanking regions.
+
+Alu = Alu repeat, ID4 =  ID4 short interspersed nuclear repeat (SINE), L1 =  L1 long interspersed nuclear element (LINE), L2 =  L2 LINE, MIR = MIR SINE, MLT1L = MLT1L long terminal repeat (LTR), (TATG)n = TATG tetranucleotide repeat, tis = transcription initiation site.
+

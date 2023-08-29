@@ -1,0 +1,32 @@
+The transcriptionally active factors mediating the effect of the HTLV-I Tax transactivator on the IL-2R alpha kappa B enhancer include the product of the c-rel proto-oncogene.
+# T1 Protein S1 72 75 72 75 Tax
+# T2 Protein S1 98 109 98 109 IL-2R alpha
+# T3 Protein S1 154 159 154 159 c-rel
+
+The transactivator HTLV-I Tax activates the promoter of the gene coding for the interleukin 2 alpha-chain receptor (IL-2R alpha) via a kappa B site that can bind several protein species of the rel family.
+# T4 Protein S2 26 29 203 206 Tax
+# T5 Protein S2 80 114 257 291 interleukin 2 alpha-chain receptor
+# T6 Protein S2 116 127 293 304 IL-2R alpha
+
+Tax1 strongly activates the enhancer activity of this motif, in both epithelial HeLa and lymphoid Jurkat cells.
+# T7 Protein S3 0 4 382 386 Tax1
+
+This activation was not observed in undifferentiated embryocarcinoma F9 cells.
+
+Overexpression of the p50, p65 and Rel proteins in these cells showed that significant activation of the IL-2R alpha kappa B site was observed only with Rel and Rel plus p65.
+# T8 Protein S5 22 25 595 598 p50
+# T9 Protein S5 27 30 600 603 p65
+# T10 Protein S5 105 116 678 689 IL-2R alpha
+# T11 Protein S5 170 173 743 746 p65
+
+Moreover, whereas both Tax and phorbol 12-myristate 13-acetate (PMA) are able to efficiently induce the binding of NF-kappa B to the IL-2R alpha kappa B site, PMA is functionally inactive.
+# T12 Protein S6 23 26 771 774 Tax
+# T13 Protein S6 133 144 881 892 IL-2R alpha
+
+Using the DNA affinity precipitation assay, we observed that Tax1 is able to efficiently induce the binding of Rel, whereas PMA is not.
+# T14 Protein S7 61 65 998 1002 Tax1
+
+This established a clear difference between both stimuli, indicating that Rel is the functionally active factor.
+
+We conclude from these results that the functional activity of members of the rel family is regulated by their interaction with DNA and that Rel can be a potent transcriptional activator on specific kappa B sites.
+

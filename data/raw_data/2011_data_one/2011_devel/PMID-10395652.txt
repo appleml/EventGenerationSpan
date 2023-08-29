@@ -1,0 +1,61 @@
+Signaling events induced by lipopolysaccharide-activated toll-like receptor 2.
+# T1 Protein S1 57 77 57 77 toll-like receptor 2
+$ T1 Protein S1 57 77 57 77 toll-like receptor 2
+@ T18 Positive_regulation S1 47 56 47 56 activated
+% E1 Positive_regulation:T18 Theme:T1
+
+Human Toll-like receptor 2 (TLR2) is a signaling receptor that responds to LPS and activates NF-kappaB.
+# T2 Protein S2 6 26 86 106 Toll-like receptor 2
+# T3 Protein S2 28 32 108 112 TLR2
+$ T3 Protein S2 28 32 108 112 TLR2
+@ T19 Regulation S2 63 71 143 151 responds
+% E2 Regulation:T19 Theme:T3
+
+Here, we investigate further the events triggered by TLR2 in response to LPS.
+# T4 Protein S3 53 57 237 241 TLR2
+
+We show that TLR2 associates with the high-affinity LPS binding protein membrane CD14 to serve as an LPS receptor complex, and that LPS treatment enhances the oligomerization of TLR2.
+# T5 Protein S4 13 17 275 279 TLR2
+# T6 Protein S4 81 85 343 347 CD14
+# T7 Protein S4 178 182 440 444 TLR2
+$ T5 Protein S4 13 17 275 279 TLR2
+$ T6 Protein S4 81 85 343 347 CD14
+@ T20 Binding S4 18 28 280 290 associates
+% E3 Binding:T20 Theme:T5 Theme2:T6
+
+Concomitant with receptor oligomerization, the IL-1R-associated kinase (IRAK) is recruited to the TLR2 complex.
+# T8 Protein S5 98 102 544 548 TLR2
+
+Intracellular deletion variants of TLR2 lacking C-terminal 13 or 141 aa fail to recruit IRAK, which is consistent with the inability of these mutants to transmit LPS cellular signaling.
+# T9 Protein S6 35 39 593 597 TLR2
+$ T9 Protein S6 35 39 593 597 TLR2
+@ T21 Binding S6 80 87 638 645 recruit
+% E4 Binding:T21 Theme:T9
+
+Moreover, both deletion mutants could still form complexes with wild-type TLR2 and act in a dominant-negative (DN) fashion to block TLR2-mediated signal transduction.
+# T10 Protein S7 74 78 818 822 TLR2
+# T11 Protein S7 132 136 876 880 TLR2
+$ T10 Protein S7 74 78 818 822 TLR2
+@ T22 Binding S7 44 58 788 802 form complexes
+% E5 Binding:T22 Theme:T9 Theme2:T10
+
+DN constructs of myeloid differentiation protein, IRAK, TNF receptor-associated factor 6, and NF-kappaB-inducing kinase, when coexpressed with TLR2, abrogate TLR2-mediated NF-kappaB activation.
+# T12 Protein S8 56 88 967 999 TNF receptor-associated factor 6
+# T13 Protein S8 94 119 1005 1030 NF-kappaB-inducing kinase
+# T14 Protein S8 143 147 1054 1058 TLR2
+# T15 Protein S8 158 162 1069 1073 TLR2
+$ T14 Protein S8 143 147 1054 1058 TLR2
+$ T13 Protein S8 94 119 1005 1030 NF-kappaB-inducing kinase
+$ T12 Protein S8 56 88 967 999 TNF receptor-associated factor 6
+@ T23 Gene_expression S8 126 137 1037 1048 coexpressed
+% E6 Gene_expression:T23 Theme:T14
+% E7 Gene_expression:T23 Theme:T13
+% E8 Gene_expression:T23 Theme:T12
+
+These results reveal a conserved signaling pathway for TLR2 and IL-1Rs and suggest a molecular mechanism for the inhibition of TLR2 by DN variants.
+# T16 Protein S9 55 59 1160 1164 TLR2
+# T17 Protein S9 127 131 1232 1236 TLR2
+$ T17 Protein S9 127 131 1232 1236 TLR2
+@ T24 Negative_regulation S9 113 123 1218 1228 inhibition
+% E9 Negative_regulation:T24 Theme:T17
+

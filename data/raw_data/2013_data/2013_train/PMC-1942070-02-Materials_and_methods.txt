@@ -1,0 +1,21 @@
+2.1Cell culture, transient transfections and cell stimulation
+
+The generation, culture and activation of PKD1-/-, PKD3-/- and PKD1/3-/- knockout DT40 B cell lines have been described previously [1].
+# T1 Protein S2 42 46 104 108 PKD1
+# T2 Protein S2 51 55 113 117 PKD3
+# T3 Protein S2 63 67 125 129 PKD1
+# T4 Protein S2 68 69 130 131 3
+$ T1 Protein S2 42 46 104 108 PKD1
+$ T2 Protein S2 51 55 113 117 PKD3
+$ T3 Protein S2 63 67 125 129 PKD1
+$ T4 Protein S2 68 69 130 131 3
+@ T5 Negative_regulation S2 73 81 135 143 knockout
+% E1 Negative_regulation:T5 Theme:T1
+% E2 Negative_regulation:T5 Theme:T2
+% E3 Negative_regulation:T5 Theme:T3
+% E4 Negative_regulation:T5 Theme:T4
+
+Cells were lysed and protein extracts were analysed in Western blotting experiments as previously described [1].
+
+Chloramphenicol acetyl transferase assays have been described previously [29].
+

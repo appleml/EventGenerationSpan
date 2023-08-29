@@ -1,0 +1,549 @@
+Discussion
+
+Recent studies have demonstrated an important role for BMP superfamily members in hematopoietic stem cells, early thymocytes [6,7] and B-cell malignancies [8,11,12], but a role for BMPs in normal human B cells has previously not been reported.
+
+The present study demonstrated a significant antiproliferative effect of BMP-6 in peripheral blood CD19+ B cells.
+# T1 Protein S3 73 78 328 333 BMP-6
+# T2 Protein S3 99 103 354 358 CD19
+
+Additionally, BMP-6 induced cell death in CD27+ memory B cells as well as in a Burkitt lymphoma cell line (Ramos).
+# T3 Protein S4 14 19 383 388 BMP-6
+# T4 Protein S4 42 46 411 415 CD27
+
+Importantly, BMP-6 induced a rapid and marked increase in Smad-1/5/8 phosphorylation.
+# T5 Protein S5 13 18 497 502 BMP-6
+# T6 Protein S5 58 64 542 548 Smad-1
+# T7 Protein S5 65 66 549 550 5
+# T8 Protein S5 67 68 551 552 8
+$ T5 Protein S5 13 18 497 502 BMP-6
+$ T6 Protein S5 58 64 542 548 Smad-1
+$ T7 Protein S5 65 66 549 550 5
+$ T8 Protein S5 67 68 551 552 8
+@ T123 Positive_regulation S5 19 26 503 510 induced
+@ T124 Positive_regulation S5 46 54 530 538 increase
+@ T125 Phosphorylation S5 69 84 553 568 phosphorylation
+% E1 Positive_regulation:T123 Theme:E2 Cause:T5
+% E3 Positive_regulation:T123 Theme:E4 Cause:T5
+% E5 Positive_regulation:T123 Theme:E6 Cause:T5
+% E2 Positive_regulation:T124 Theme:E7
+% E4 Positive_regulation:T124 Theme:E8
+% E6 Positive_regulation:T124 Theme:E9
+% E7 Phosphorylation:T125 Theme:T6
+% E8 Phosphorylation:T125 Theme:T7
+% E9 Phosphorylation:T125 Theme:T8
+
+Furthermore, the BMP-6 induced Smad phosphorylation was followed by a selective upregulation of Id1 mRNA and subsequent Id1 protein.
+# T9 Protein S6 17 22 587 592 BMP-6
+# T10 Protein S6 31 35 601 605 Smad
+# T11 Protein S6 96 99 666 669 Id1
+# T12 Protein S6 120 123 690 693 Id1
+$ T9 Protein S6 17 22 587 592 BMP-6
+$ T10 Protein S6 31 35 601 605 Smad
+$ T11 Protein S6 96 99 666 669 Id1
+$ T12 Protein S6 120 123 690 693 Id1
+@ T126 Positive_regulation S6 23 30 593 600 induced
+@ T127 Phosphorylation S6 36 51 606 621 phosphorylation
+@ T128 Positive_regulation S6 56 64 626 634 followed
+@ T129 Positive_regulation S6 80 92 650 662 upregulation
+% E10 Positive_regulation:T126 Theme:E11 Cause:T9
+% E11 Phosphorylation:T127 Theme:T10
+% E12 Positive_regulation:T128 Theme:E13 Cause:E11
+% E14 Positive_regulation:T128 Theme:E15 Cause:E11
+% E13 Positive_regulation:T129 Theme:T11
+% E15 Positive_regulation:T129 Theme:T12
+
+In the present study, the demonstrated antiproliferative effect of BMP-6 in anti-IgM treated B cells was significant and dose-dependent.
+# T13 Protein S7 67 72 771 776 BMP-6
+
+Importantly, the anti-proliferative effect of BMP-6 could be completely neutralized by the use of a natural inhibitor, Noggin.
+# T14 Protein S8 46 51 887 892 BMP-6
+# T15 Protein S8 119 125 960 966 Noggin
+
+This is in line with others, showing that Noggin can function as a BMP-6 antagonist [21,22].
+# T16 Protein S9 42 48 1010 1016 Noggin
+# T17 Protein S9 67 72 1035 1040 BMP-6
+$ T17 Protein S9 67 72 1035 1040 BMP-6
+$ T16 Protein S9 42 48 1010 1016 Noggin
+@ T130 Negative_regulation S9 73 83 1041 1051 antagonist
+% E16 Negative_regulation:T130 Theme:T17 Cause:T16
+
+In addition, the combination of soluble BMP-RIB-Fc and BMP-RII-Fc fusion proteins also neutralized the anti-proliferative effect of BMP-6 in human B cells.
+# T18 Protein S10 40 47 1101 1108 BMP-RIB
+# T19 Protein S10 55 62 1116 1123 BMP-RII
+# T20 Protein S10 132 137 1193 1198 BMP-6
+
+Interestingly, as for other TGF family members, bifunctional effects have also been demonstrated for BMPs.
+
+Whereas several of the BMPs have been shown to promote proliferation in various cell types including condrocytes [23], liver [24] and granulosa cells [25], antiproliferative effects and induction of apoptosis has been reported for B and T lineage cells.
+
+Similar effects as demonstrated for BMP-6 on human B cells in the present study, were demonstrated for BMP-2, 4, 6 and -7 in human myeloma cells [9-11].
+# T21 Protein S13 36 41 1614 1619 BMP-6
+# T22 Protein S13 103 108 1681 1686 BMP-2
+# T23 Protein S13 110 111 1688 1689 4
+# T24 Protein S13 113 114 1691 1692 6
+# T25 Protein S13 119 121 1697 1699 -7
+
+Other members of the BMP-family have also been reported to induce apoptosis, including in mouse B lineage cells [26].
+
+Additionally, BMP-4 inhibits thymocyte proliferation [6].
+# T26 Protein S15 14 19 1863 1868 BMP-4
+
+Taken together, these data suggest that the role of BMPs in the regulation of proliferation and apoptosis is highly cell type dependent.
+
+To examine how BMP-6 exerts its functional effects in B cells, we analysed BMP receptor expression by western blot analysis.
+# T27 Protein S17 15 20 2060 2065 BMP-6
+
+Human peripheral B cells were found to express the BMP type I receptors Act-RIA and BMP-RIB, and the type II-receptors BMP-RII and Act-RIIb, which signal after binding of several BMPs, including BMP-6 [16,13].
+# T28 Protein S18 72 79 2242 2249 Act-RIA
+# T29 Protein S18 84 91 2254 2261 BMP-RIB
+# T30 Protein S18 119 126 2289 2296 BMP-RII
+# T31 Protein S18 131 139 2301 2309 Act-RIIb
+# T32 Protein S18 195 200 2365 2370 BMP-6
+$ T28 Protein S18 72 79 2242 2249 Act-RIA
+$ T29 Protein S18 84 91 2254 2261 BMP-RIB
+$ T30 Protein S18 119 126 2289 2296 BMP-RII
+$ T31 Protein S18 131 139 2301 2309 Act-RIIb
+$ T32 Protein S18 195 200 2365 2370 BMP-6
+@ T131 Gene_expression S18 39 46 2209 2216 express
+@ T132 Binding S18 160 167 2330 2337 binding
+% E17 Gene_expression:T131 Theme:T28
+% E18 Gene_expression:T131 Theme:T29
+% E19 Gene_expression:T131 Theme:T30
+% E20 Gene_expression:T131 Theme:T31
+% E21 Binding:T132 Theme:T28 Theme2:T32
+% E22 Binding:T132 Theme:T29 Theme2:T32
+% E23 Binding:T132 Theme:T30 Theme2:T32
+% E24 Binding:T132 Theme:T31 Theme2:T32
+
+To further explore BMP-6 induced signalling, activation of several pathways is possible.
+# T33 Protein S19 19 24 2399 2404 BMP-6
+
+The major signalling pathway known to date, is activation of R-Smads [13,27].
+
+In that respect, BMPs have been shown to exert antiproliferative effects in B lineage cells via phosphorylation of R-Smad [11,28].
+
+Furthermore, BMP-2 has been shown to induce activation of STAT3 in myeloma cells [9].
+# T34 Protein S22 13 18 2691 2696 BMP-2
+# T35 Protein S22 58 63 2736 2741 STAT3
+$ T34 Protein S22 13 18 2691 2696 BMP-2
+$ T35 Protein S22 58 63 2736 2741 STAT3
+@ T133 Positive_regulation S22 37 43 2715 2721 induce
+@ T134 Positive_regulation S22 44 54 2722 2732 activation
+% E25 Positive_regulation:T133 Theme:E26 Cause:T34
+% E26 Positive_regulation:T134 Theme:T35
+
+However, phosphorylation of R-Smad was not investigated in that study.
+
+BMP-2 has also been shown to induce phosphorylation of p38 [29].
+# T36 Protein S24 0 5 2835 2840 BMP-2
+
+Thus, phosphorylation of p38, STAT3 and Smad1/5/8 represent important BMP-signalling pathways that mediated the effects of BMPs and even cross-talk between these pathways has been reported [29,30].
+# T37 Protein S25 30 35 2930 2935 STAT3
+# T38 Protein S25 40 45 2940 2945 Smad1
+# T39 Protein S25 46 47 2946 2947 5
+# T40 Protein S25 48 49 2948 2949 8
+$ T37 Protein S25 30 35 2930 2935 STAT3
+$ T38 Protein S25 40 45 2940 2945 Smad1
+$ T39 Protein S25 46 47 2946 2947 5
+$ T40 Protein S25 48 49 2948 2949 8
+@ T135 Phosphorylation S25 6 21 2906 2921 phosphorylation
+% E27 Phosphorylation:T135 Theme:T37
+% E28 Phosphorylation:T135 Theme:T38
+% E29 Phosphorylation:T135 Theme:T39
+% E30 Phosphorylation:T135 Theme:T40
+
+In the present study, we were not able to detect BMP-6-induced changes in the phosphorylation status of STAT3 or p38 in human peripheral B cells.
+# T41 Protein S26 49 54 3147 3152 BMP-6
+# T42 Protein S26 104 109 3202 3207 STAT3
+$ T41 Protein S26 49 54 3147 3152 BMP-6
+$ T42 Protein S26 104 109 3202 3207 STAT3
+@ T136 Positive_regulation S26 55 62 3153 3160 induced
+@ T137 Regulation S26 63 70 3161 3168 changes
+@ T138 Phosphorylation S26 78 93 3176 3191 phosphorylation
+% E31 Positive_regulation:T136 Theme:E32 Cause:T41
+% E32 Regulation:T137 Theme:E33
+% E33 Phosphorylation:T138 Theme:T42
+
+Instead, a rapid and marked phosphorylation of Smad1/5/8 was revealed.
+# T43 Protein S27 47 52 3291 3296 Smad1
+# T44 Protein S27 53 54 3297 3298 5
+# T45 Protein S27 55 56 3299 3300 8
+$ T43 Protein S27 47 52 3291 3296 Smad1
+$ T44 Protein S27 53 54 3297 3298 5
+$ T45 Protein S27 55 56 3299 3300 8
+@ T139 Phosphorylation S27 28 43 3272 3287 phosphorylation
+% E34 Phosphorylation:T139 Theme:T43
+% E35 Phosphorylation:T139 Theme:T44
+% E36 Phosphorylation:T139 Theme:T45
+
+In a parallel study, we have found that other BMPs also induced phosphorylation of Smad1/5/8 in peripheral B cells (data not shown).
+# T46 Protein S28 83 88 3398 3403 Smad1
+# T47 Protein S28 89 90 3404 3405 5
+# T48 Protein S28 91 92 3406 3407 8
+$ T46 Protein S28 83 88 3398 3403 Smad1
+$ T47 Protein S28 89 90 3404 3405 5
+$ T48 Protein S28 91 92 3406 3407 8
+@ T140 Positive_regulation S28 56 63 3371 3378 induced
+@ T141 Phosphorylation S28 64 79 3379 3394 phosphorylation
+% E37 Positive_regulation:T140 Theme:E38
+% E39 Positive_regulation:T140 Theme:E40
+% E41 Positive_regulation:T140 Theme:E42
+% E38 Phosphorylation:T141 Theme:T46
+% E40 Phosphorylation:T141 Theme:T47
+% E42 Phosphorylation:T141 Theme:T48
+
+We are currently pursuing microarray studies to identify the signalling pathways and target genes that are differently regulated by the various BMPs in human B cells.
+
+Upregulation of Id1 via Smad1/5/8 phosphorylation is a known mechanism for BMP-6 signalling in other cell systems [31,32] and regulation of Id-proteins is thought to be an important mechanism for Smad-signalling [17].
+# T49 Protein S30 16 19 3632 3635 Id1
+# T50 Protein S30 24 29 3640 3645 Smad1
+# T51 Protein S30 30 31 3646 3647 5
+# T52 Protein S30 32 33 3648 3649 8
+# T53 Protein S30 75 80 3691 3696 BMP-6
+$ T49 Protein S30 16 19 3632 3635 Id1
+$ T50 Protein S30 24 29 3640 3645 Smad1
+$ T51 Protein S30 30 31 3646 3647 5
+$ T52 Protein S30 32 33 3648 3649 8
+$ T53 Protein S30 75 80 3691 3696 BMP-6
+@ T142 Positive_regulation S30 0 12 3616 3628 Upregulation
+@ T143 Phosphorylation S30 34 49 3650 3665 phosphorylation
+@ T144 Regulation S30 61 70 3677 3686 mechanism
+% E43 Positive_regulation:T142 Theme:T49 Cause:E44
+% E45 Positive_regulation:T142 Theme:T49 Cause:E46
+% E47 Positive_regulation:T142 Theme:T49 Cause:E48
+% E44 Phosphorylation:T143 Theme:T50
+% E46 Phosphorylation:T143 Theme:T51
+% E48 Phosphorylation:T143 Theme:T52
+% E49 Regulation:T144 Theme:E43 Cause:T53
+% E50 Regulation:T144 Theme:E45 Cause:T53
+% E51 Regulation:T144 Theme:E47 Cause:T53
+
+In the present study, real-time RT-PCR experiments revealed a specific four-fold upregulation for Id1 in BMP-6-treated B cells, while the amount of Id2-Id4 remained unchanged.
+# T54 Protein S31 98 101 3932 3935 Id1
+# T55 Protein S31 105 110 3939 3944 BMP-6
+# T56 Protein S31 148 151 3982 3985 Id2
+# T57 Protein S31 152 155 3986 3989 Id4
+$ T54 Protein S31 98 101 3932 3935 Id1
+$ T55 Protein S31 105 110 3939 3944 BMP-6
+$ T56 Protein S31 148 151 3982 3985 Id2
+$ T57 Protein S31 152 155 3986 3989 Id4
+@ T145 Positive_regulation S31 81 93 3915 3927 upregulation
+@ T146 Gene_expression S31 138 144 3972 3978 amount
+@ T147 Positive_regulation S31 156 174 3990 4008 remained unchanged
+% E52 Positive_regulation:T145 Theme:T54 Cause:T55
+% E53 Gene_expression:T146 Theme:T56
+% E54 Gene_expression:T146 Theme:T57
+% E55 Positive_regulation:T147 Theme:E53 Cause:T55
+% E56 Positive_regulation:T147 Theme:E54 Cause:T55
+
+In agreement with this, western blot analysis demonstrated an upregulation of Id1 protein, while the amount of Id2 and Id3 protein levels remained unchanged.
+# T58 Protein S32 78 81 4088 4091 Id1
+# T59 Protein S32 111 114 4121 4124 Id2
+# T60 Protein S32 119 122 4129 4132 Id3
+$ T58 Protein S32 78 81 4088 4091 Id1
+$ T59 Protein S32 111 114 4121 4124 Id2
+$ T60 Protein S32 119 122 4129 4132 Id3
+@ T148 Positive_regulation S32 62 74 4072 4084 upregulation
+@ T149 Gene_expression S32 101 107 4111 4117 amount
+@ T150 Positive_regulation S32 138 156 4148 4166 remained unchanged
+% E57 Positive_regulation:T148 Theme:T58
+% E58 Gene_expression:T149 Theme:T59
+% E59 Gene_expression:T149 Theme:T60
+% E60 Positive_regulation:T150 Theme:E58
+% E61 Positive_regulation:T150 Theme:E59
+
+Previously, Id1 has been considered not to be expressed in later developmental stages than pro-B cells [33,34], and its constitutive expression has been reported to impair mouse B cell development [35].
+# T61 Protein S33 12 15 4180 4183 Id1
+$ T61 Protein S33 12 15 4180 4183 Id1
+@ T151 Gene_expression S33 46 55 4214 4223 expressed
+@ T152 Gene_expression S33 133 143 4301 4311 expression
+% E62 Gene_expression:T151 Theme:T61
+% E63 Gene_expression:T152 Theme:T61
+
+Therefore, our demonstration of the time-dependent upregulation of Id1 mRNA and protein in mature normal human B cells is of particular interest.
+# T62 Protein S34 67 70 4438 4441 Id1
+$ T62 Protein S34 67 70 4438 4441 Id1
+@ T153 Positive_regulation S34 51 63 4422 4434 upregulation
+% E64 Positive_regulation:T153 Theme:T62
+
+In that respect, it is noteworthy that TGF-beta signalling in early and mature B cells induces both Id2 and Id3 expression [36,37], but not Id1 (data not shown).
+# T63 Protein S35 39 47 4556 4564 TGF-beta
+# T64 Protein S35 100 103 4617 4620 Id2
+# T65 Protein S35 108 111 4625 4628 Id3
+# T66 Protein S35 140 143 4657 4660 Id1
+$ T66 Protein S35 140 143 4657 4660 Id1
+$ T64 Protein S35 100 103 4617 4620 Id2
+$ T65 Protein S35 108 111 4625 4628 Id3
+@ T154 Positive_regulation S35 87 94 4604 4611 induces
+@ T155 Gene_expression S35 112 122 4629 4639 expression
+% E65 Positive_regulation:T154 Theme:E66
+% E67 Positive_regulation:T154 Theme:E68
+% E69 Positive_regulation:T154 Theme:T66
+% E66 Gene_expression:T155 Theme:T64
+% E68 Gene_expression:T155 Theme:T65
+
+Interestingly, these results show that various members of the TGF-beta family regulate Id proteins differently.
+# T67 Protein S36 62 70 4741 4749 TGF-beta
+
+Id2 and Id3 are considered to be the Id proteins mainly expressed in mature B cells [38].
+# T68 Protein S37 0 3 4791 4794 Id2
+# T69 Protein S37 8 11 4799 4802 Id3
+$ T68 Protein S37 0 3 4791 4794 Id2
+$ T69 Protein S37 8 11 4799 4802 Id3
+@ T156 Gene_expression S37 56 65 4847 4856 expressed
+% E70 Gene_expression:T156 Theme:T68
+% E71 Gene_expression:T156 Theme:T69
+
+The present study also found Id2 and Id3 protein in B cells to be more highly expressed than Id1 in resting B cells.
+# T70 Protein S38 29 32 4910 4913 Id2
+# T71 Protein S38 37 40 4918 4921 Id3
+# T72 Protein S38 93 96 4974 4977 Id1
+$ T72 Protein S38 93 96 4974 4977 Id1
+$ T70 Protein S38 29 32 4910 4913 Id2
+$ T71 Protein S38 37 40 4918 4921 Id3
+@ T157 Gene_expression S38 78 87 4959 4968 expressed
+% E72 Gene_expression:T157 Theme:T72
+% E73 Gene_expression:T157 Theme:T70
+% E74 Gene_expression:T157 Theme:T71
+
+However, BMP-6 did not induce significant changes in the protein expression of Id2 and Id3.
+# T73 Protein S39 9 14 5007 5012 BMP-6
+# T74 Protein S39 79 82 5077 5080 Id2
+# T75 Protein S39 87 90 5085 5088 Id3
+$ T73 Protein S39 9 14 5007 5012 BMP-6
+$ T74 Protein S39 79 82 5077 5080 Id2
+$ T75 Protein S39 87 90 5085 5088 Id3
+@ T158 Positive_regulation S39 23 29 5021 5027 induce
+@ T159 Regulation S39 42 49 5040 5047 changes
+@ T160 Gene_expression S39 65 75 5063 5073 expression
+% E75 Positive_regulation:T158 Theme:E76 Cause:T73
+% E77 Positive_regulation:T158 Theme:E78 Cause:T73
+% E76 Regulation:T159 Theme:E79
+% E78 Regulation:T159 Theme:E80
+% E79 Gene_expression:T160 Theme:T74
+% E80 Gene_expression:T160 Theme:T75
+
+It is believed that Id proteins block differentiation and promote proliferation in various cell types [39,33].
+
+Id proteins act as dominant-negative inhibitors of E-proteins and Pax5 function by forming dimers with these proteins, making them unable to bind DNA.
+# T76 Protein S41 66 70 5267 5271 Pax5
+$ T76 Protein S41 66 70 5267 5271 Pax5
+@ T161 Negative_regulation S41 37 47 5238 5248 inhibitors
+@ T162 Binding S41 83 97 5284 5298 forming dimers
+@ T163 Positive_regulation S41 119 125 5320 5326 making
+@ T164 Binding S41 141 145 5342 5346 bind
+% E81 Negative_regulation:T161 Theme:T76 Cause:E82
+% E82 Binding:T162 Theme:T76
+% E83 Positive_regulation:T163 Theme:E84 Cause:E82
+% E84 Binding:T164 Theme:T76
+
+It has been proposed that the balance among E-proteins, Pax5 and Id proteins might have an important role in activated B cells [38].
+# T77 Protein S42 56 60 5408 5412 Pax5
+
+In that respect, E-proteins have been implicated in both the promotion and inhibition of cell survival and growth at different points in lymphocyte development [40].
+
+The antiproliferative and death inducing effect of BMP-6 in B cells with concomitant upregulation of Id1 protein is therefore in line with the view that Id proteins are required for the induction of growth arrest and apoptosis in B-lymphocyte progenitors by TGF-beta [40].
+# T78 Protein S44 51 56 5702 5707 BMP-6
+# T79 Protein S44 101 104 5752 5755 Id1
+# T80 Protein S44 258 266 5909 5917 TGF-beta
+$ T79 Protein S44 101 104 5752 5755 Id1
+$ T78 Protein S44 51 56 5702 5707 BMP-6
+@ T165 Positive_regulation S44 85 97 5736 5748 upregulation
+% E85 Positive_regulation:T165 Theme:T79 Cause:T78
+
+Furthermore, Id proteins are known as important parts of signalling pathways involved in development, cell cycle and tumorigenesis [32].
+
+It is well established that various members of the Id family are overexpressed in a range of human tumours and generally, Id1 appears to be the family member most widely overexpressed in a variety of human malignancies [41], including multiple myeloma [42,32].
+# T81 Protein S46 122 125 6184 6187 Id1
+$ T81 Protein S46 122 125 6184 6187 Id1
+@ T166 Positive_regulation S46 170 183 6232 6245 overexpressed
+% E86 Positive_regulation:T166 Theme:T81
+
+Additionally, our findings that BMP-6 activates intracellular signalling pathways in human B cells might be of potential pathophysiological significance in lymphoma and inflammation.
+# T82 Protein S47 32 37 6355 6360 BMP-6
+
+High BMP-6 mRNA expression in DLBCL has been shown to correlate to unfavourable outcome [12].
+# T83 Protein S48 5 10 6511 6516 BMP-6
+$ T83 Protein S48 5 10 6511 6516 BMP-6
+@ T167 Positive_regulation S48 0 4 6506 6510 High
+@ T168 Transcription S48 11 26 6517 6532 mRNA expression
+% E87 Positive_regulation:T167 Theme:E88
+% E88 Transcription:T168 Theme:T83
+
+In this respect, it is of interest that targeted expression of Id1 to B-lymphocytes resulted in aberrant B cell development, massive apoptosis, and subsequent development of B cell lymphomas [35].
+# T84 Protein S49 63 66 6663 6666 Id1
+$ T84 Protein S49 63 66 6663 6666 Id1
+@ T169 Gene_expression S49 49 59 6649 6659 expression
+% E89 Gene_expression:T169 Theme:T84
+
+Moreover, BMP-6 has been suggested to play a role in rheumatoid arthritis (RA) [43,44] and elevated levels of Id1 and Id3 have been found in the synovia of RA-patients [45].
+# T85 Protein S50 10 15 6807 6812 BMP-6
+# T86 Protein S50 110 113 6907 6910 Id1
+# T87 Protein S50 118 121 6915 6918 Id3
+$ T86 Protein S50 110 113 6907 6910 Id1
+$ T87 Protein S50 118 121 6915 6918 Id3
+@ T170 Positive_regulation S50 91 99 6888 6896 elevated
+@ T171 Gene_expression S50 100 106 6897 6903 levels
+% E90 Positive_regulation:T170 Theme:E91
+% E92 Positive_regulation:T170 Theme:E93
+% E91 Gene_expression:T171 Theme:T86
+% E93 Gene_expression:T171 Theme:T87
+
+Altogether, these results point to an important role for Id proteins in the regulation of normal B cell homeostasis and in diseases, where B cells are involved.
+
+It will therefore be important to further elucidate the role of Id-1 in human B cells by selective over expression or inhibition of Id-1 gene expression.
+# T88 Protein S52 64 68 7196 7200 Id-1
+# T89 Protein S52 132 136 7264 7268 Id-1
+$ T89 Protein S52 132 136 7264 7268 Id-1
+@ T172 Positive_regulation S52 99 103 7231 7235 over
+@ T173 Gene_expression S52 104 114 7236 7246 expression
+@ T174 Negative_regulation S52 118 128 7250 7260 inhibition
+@ T175 Gene_expression S52 142 152 7274 7284 expression
+% E94 Positive_regulation:T172 Theme:E95
+% E95 Gene_expression:T173 Theme:T89
+% E96 Negative_regulation:T174 Theme:E97
+% E97 Gene_expression:T175 Theme:T89
+
+Given the role of BMP-6 in mature human B cells demonstrated here, identification of BMP-6 producing cells in vivo with possibility of interaction with naive and memory B cells might contribute to the understanding of mature B cell biology.
+# T90 Protein S53 18 23 7305 7310 BMP-6
+# T91 Protein S53 85 90 7372 7377 BMP-6
+$ T91 Protein S53 85 90 7372 7377 BMP-6
+@ T176 Gene_expression S53 91 100 7378 7387 producing
+% E98 Gene_expression:T176 Theme:T91
+
+High BMP-6 mRNA expression in DLBCL has been detected by gene expression profiling [12].
+# T92 Protein S54 5 10 7533 7538 BMP-6
+$ T92 Protein S54 5 10 7533 7538 BMP-6
+@ T177 Positive_regulation S54 0 4 7528 7532 High
+@ T178 Transcription S54 11 26 7539 7554 mRNA expression
+% E99 Positive_regulation:T177 Theme:E100
+% E100 Transcription:T178 Theme:T92
+
+Furthermore, production of BMP-6 transcripts in normal activated B cells was detected in the same study.
+# T93 Protein S55 27 32 7644 7649 BMP-6
+$ T93 Protein S55 27 32 7644 7649 BMP-6
+@ T179 Transcription S55 13 23 7630 7640 production
+% E101 Transcription:T179 Theme:T93
+
+Of note, an autocrine BMP-6 loop has been reported by others in chondrocytes and in the ovarium [46,19,18].
+# T94 Protein S56 22 27 7744 7749 BMP-6
+$ T94 Protein S56 22 27 7744 7749 BMP-6
+@ T180 Regulation S56 12 21 7734 7743 autocrine
+% E102 Regulation:T180 Theme:T94
+
+Therefore, we wanted to explore the possibility for an autocrine BMP-6 loop in human B cells.
+# T95 Protein S57 65 70 7895 7900 BMP-6
+$ T95 Protein S57 65 70 7895 7900 BMP-6
+@ T181 Regulation S57 55 64 7885 7894 autocrine
+% E103 Regulation:T181 Theme:T95
+
+We analysed the expression BMP-6 mRNA in peripheral blood B cells by real-time PCR, and report here the upregulation of endogenous BMP-6 transcripts after stimulation with FCS, human AB-serum and, most importantly, anti-IgM.
+# T96 Protein S58 27 32 7951 7956 BMP-6
+# T97 Protein S58 131 136 8055 8060 BMP-6
+$ T96 Protein S58 27 32 7951 7956 BMP-6
+$ T97 Protein S58 131 136 8055 8060 BMP-6
+@ T182 Transcription S58 16 26 7940 7950 expression
+@ T183 Positive_regulation S58 104 116 8028 8040 upregulation
+% E104 Transcription:T182 Theme:T96
+% E105 Positive_regulation:T183 Theme:T97
+
+However, our attempts to study BMP-6 protein levels were unsuccessful due to problems with unspecific binding of the anti-BMP-6 antibodies tested, and lack of specific staining in control cells known to express BMP-6 mRNA.
+# T98 Protein S59 31 36 8180 8185 BMP-6
+# T99 Protein S59 211 216 8360 8365 BMP-6
+$ T99 Protein S59 211 216 8360 8365 BMP-6
+@ T184 Transcription S59 203 210 8352 8359 express
+% E106 Transcription:T184 Theme:T99
+
+In contrast, the recombinant protein was readily detected.
+
+In that respect, few investigators have detected BMP-6 protein in humans, especially in non-pathogenic tissue.
+# T100 Protein S61 49 54 8480 8485 BMP-6
+$ T100 Protein S61 49 54 8480 8485 BMP-6
+@ T185 Gene_expression S61 40 48 8471 8479 detected
+% E107 Gene_expression:T185 Theme:T100
+
+The possibility of BMP-6 production in human B-cells is in line with a recent work that reported the production of BMP-6 in mouse B cells, infiltrating the bone marrow of mice with inflammatory arthritis [43].
+# T101 Protein S62 19 24 8561 8566 BMP-6
+# T102 Protein S62 115 120 8657 8662 BMP-6
+$ T101 Protein S62 19 24 8561 8566 BMP-6
+$ T102 Protein S62 115 120 8657 8662 BMP-6
+@ T186 Gene_expression S62 25 35 8567 8577 production
+@ T187 Gene_expression S62 101 111 8643 8653 production
+% E108 Gene_expression:T186 Theme:T101
+% E109 Gene_expression:T187 Theme:T102
+
+In this study, a role for BMPs in the inflammatoric process of arthritis was suggested.
+
+The upregulation of the BMP-6-transcripts after IgM-crosslinking is of pathophysiologic interest [12].
+# T103 Protein S64 24 29 8864 8869 BMP-6
+$ T103 Protein S64 24 29 8864 8869 BMP-6
+@ T188 Positive_regulation S64 4 16 8844 8856 upregulation
+% E110 Positive_regulation:T188 Theme:T103
+
+A loss of TGF-beta-responsiveness has been suggested to be a critical contribution to malignant transformation [47,48] and similar oncogenic mechanisms have been postulated for BMPs.
+# T104 Protein S65 10 18 8953 8961 TGF-beta
+
+Lines of evidence suggest [49] that at early stages of carcinogenesis, BMP-6 is not a tumour promoter, but suppresses benign and malignant tumour outgrowth.
+# T105 Protein S66 71 76 9197 9202 BMP-6
+
+These findings are in good agreement with previous findings for other TGF-beta family members, including TGF-beta1 and BMP-4 [50], indicating that cellular context of the BMP target cell might define the various observed effects.
+# T106 Protein S67 70 78 9353 9361 TGF-beta
+# T107 Protein S67 105 114 9388 9397 TGF-beta1
+# T108 Protein S67 119 124 9402 9407 BMP-4
+
+In contrast to the upregulation of BMP-6 transcript in B cells, we were not able to detect BMP-6 transcripts in human peripheral blood CD4+ or CD8+ T cells (resting or stimulated with anti-CD3 and anti-CD28; data not shown), consistent with the findings in T cell lines [20] and T cells in mice [43].
+# T109 Protein S68 35 40 9548 9553 BMP-6
+# T110 Protein S68 91 96 9604 9609 BMP-6
+# T111 Protein S68 135 138 9648 9651 CD4
+# T112 Protein S68 143 146 9656 9659 CD8
+# T113 Protein S68 189 192 9702 9705 CD3
+# T114 Protein S68 202 206 9715 9719 CD28
+$ T109 Protein S68 35 40 9548 9553 BMP-6
+$ T110 Protein S68 91 96 9604 9609 BMP-6
+@ T189 Positive_regulation S68 19 31 9532 9544 upregulation
+@ T190 Transcription S68 84 90 9597 9603 detect
+% E111 Positive_regulation:T189 Theme:T109
+% E112 Transcription:T190 Theme:T110
+
+Other potential BMP-6 sources for mature B cells in vivo might be other cells of the immune system or tissue with contact to the hematopoietic system.
+# T115 Protein S69 16 21 9830 9835 BMP-6
+
+One well recognized source for BMP-6 production is the human bone and bone marrow stroma [51,8].
+# T116 Protein S70 31 36 9996 10001 BMP-6
+$ T116 Protein S70 31 36 9996 10001 BMP-6
+@ T191 Gene_expression S70 37 47 10002 10012 production
+% E113 Gene_expression:T191 Theme:T116
+
+Furthermore, it is noteworthy that human umbilical vein endothelial cells (HUVEC) highly express BMP-6 mRNA [52], and vascular endothelium has been reported to produce BMP-6 [53].
+# T117 Protein S71 97 102 10159 10164 BMP-6
+# T118 Protein S71 168 173 10230 10235 BMP-6
+$ T117 Protein S71 97 102 10159 10164 BMP-6
+$ T118 Protein S71 168 173 10230 10235 BMP-6
+@ T192 Positive_regulation S71 82 88 10144 10150 highly
+@ T193 Transcription S71 89 96 10151 10158 express
+@ T194 Gene_expression S71 160 167 10222 10229 produce
+% E114 Positive_regulation:T192 Theme:E115
+% E115 Transcription:T193 Theme:T117
+% E116 Gene_expression:T194 Theme:T118
+
+These studies might imply a role for BMP-6 in transendothelial migration of B cells.
+# T119 Protein S72 37 42 10279 10284 BMP-6
+
+BMP-6 mRNA has been demonstrated in murine macrophage cell lines, but not in humans [54].
+# T120 Protein S73 0 5 10327 10332 BMP-6
+$ T120 Protein S73 0 5 10327 10332 BMP-6
+@ T195 Transcription S73 20 32 10347 10359 demonstrated
+% E117 Transcription:T195 Theme:T120
+
+In accordance with these findings, other human cell lines of neutrophil and monocytic origin have been described to be negative for the BMP-6 transcript [20].
+# T121 Protein S74 136 141 10553 10558 BMP-6
+$ T121 Protein S74 136 141 10553 10558 BMP-6
+@ T196 Transcription S74 119 127 10536 10544 negative
+% E118 Transcription:T196 Theme:T121
+
+To our knowledge, there is currently no report about BMP-6 production of human dendritic cells.
+# T122 Protein S75 53 58 10629 10634 BMP-6
+$ T122 Protein S75 53 58 10629 10634 BMP-6
+@ T197 Gene_expression S75 59 69 10635 10645 production
+% E119 Gene_expression:T197 Theme:T122
+

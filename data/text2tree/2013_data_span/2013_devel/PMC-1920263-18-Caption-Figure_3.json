@@ -1,0 +1,11 @@
+{"text": "<extra_id_0> Luciferase <extra_id_2> Protein <extra_id_1> activities of <extra_id_0> A3G <extra_id_2> Protein <extra_id_1> promoter constructs in different cell lines .", "event": "<extra_id_0> <extra_id_0> Positive_regulation activities <extra_id_1> <extra_id_0> Theme Luciferase <extra_id_1> <extra_id_0> Cause A3G <extra_id_1> <extra_id_1>"}
+{"text": "( A ) <extra_id_0> A3G <extra_id_2> Protein <extra_id_1> promoter 5 ' deletion constructs of different sizes were cloned into pGL3-Basic <extra_id_0> luciferase <extra_id_2> Protein <extra_id_1> reporter plasmids .", "event": "<extra_id_0> <extra_id_1>"}
+{"text": "Numbering is relative to the major TSS .", "event": "<extra_id_0> <extra_id_1>"}
+{"text": "A putative Sp1 / Sp3 consensus site ( gray square ) is depicted .", "event": "<extra_id_0> <extra_id_1>"}
+{"text": "( B ) A3.01 T cells were transiently transfected with the <extra_id_0> A3G <extra_id_2> Protein <extra_id_1> promoter deletion constructs .", "event": "<extra_id_0> <extra_id_1>"}
+{"text": "Numbers on the x-axis refer to the length of the <extra_id_0> A3G <extra_id_2> Protein <extra_id_1> promoter fragments in bp .", "event": "<extra_id_0> <extra_id_1>"}
+{"text": "( C ) <extra_id_0> A3G <extra_id_2> Protein <extra_id_1> promoter plasmids were transfected into U937 , HepG2 and Huh7 cell lines .", "event": "<extra_id_0> <extra_id_1>"}
+{"text": "Numbers in the legends refer to the length of the <extra_id_0> A3G <extra_id_2> Protein <extra_id_1> promoter fragments in bp .", "event": "<extra_id_0> <extra_id_1>"}
+{"text": "After 48 h , cells were harvested for <extra_id_0> luciferase <extra_id_2> Protein <extra_id_1> assay .", "event": "<extra_id_0> <extra_id_1>"}
+{"text": "Firefly <extra_id_0> luciferase <extra_id_2> Protein <extra_id_1> activities were normalized to coexpressed renilla <extra_id_0> luciferase <extra_id_2> Protein <extra_id_1> activities .", "event": "<extra_id_0> <extra_id_0> Gene_expression coexpressed <extra_id_1> <extra_id_0> Theme luciferase <extra_id_1> <extra_id_0> Gene_expression coexpressed <extra_id_1> <extra_id_0> Theme luciferase <extra_id_1> <extra_id_1>"}
+{"text": "Mean values ( + / - SD ) of a representative experiment performed in triplicate are shown .", "event": "<extra_id_0> <extra_id_1>"}

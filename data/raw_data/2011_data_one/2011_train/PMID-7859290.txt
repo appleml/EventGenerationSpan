@@ -1,0 +1,57 @@
+OBF-1, a novel B cell-specific coactivator that stimulates immunoglobulin promoter activity through association with octamer-binding proteins.
+# T1 Protein S1 0 5 0 5 OBF-1
+$ T1 Protein S1 0 5 0 5 OBF-1
+@ T16 Binding S1 100 111 100 111 association
+% E1 Binding:T16 Theme:T1
+
+Recent biochemical and genetic studies indicate that in addition to the octamer-binding proteins Oct-1 and Oct-2, other B cell components are required for lymphoid-restricted, octamer site-mediated immunoglobulin gene promoter activity.
+# T2 Protein S2 97 102 241 246 Oct-1
+# T3 Protein S2 107 112 251 256 Oct-2
+
+Using a genetic screen in yeast, we have isolated B cell-derived cDNAs encoding Oct-binding factor 1 (OBF-1), a novel protein that specifically associates with Oct-1 and Oct-2.
+# T4 Protein S3 80 100 461 481 Oct-binding factor 1
+# T5 Protein S3 102 107 483 488 OBF-1
+# T6 Protein S3 160 165 541 546 Oct-1
+# T7 Protein S3 170 175 551 556 Oct-2
+$ T5 Protein S3 102 107 483 488 OBF-1
+$ T7 Protein S3 170 175 551 556 Oct-2
+$ T6 Protein S3 160 165 541 546 Oct-1
+@ T17 Binding S3 144 154 525 535 associates
+% E2 Binding:T17 Theme:T5 Theme2:T7
+% E3 Binding:T17 Theme:T5 Theme2:T6
+
+Biochemical studies demonstrate that OBF-1 has no intrinsic DNA-binding activity and recognizes the POU domains of Oct-1 and Oct-2, but not those of Oct-4 and Oct-6.
+# T8 Protein S4 37 42 595 600 OBF-1
+# T9 Protein S4 115 120 673 678 Oct-1
+# T10 Protein S4 125 130 683 688 Oct-2
+# T11 Protein S4 149 154 707 712 Oct-4
+# T12 Protein S4 159 164 717 722 Oct-6
+$ T8 Protein S4 37 42 595 600 OBF-1
+$ T9 Protein S4 115 120 673 678 Oct-1
+$ T10 Protein S4 125 130 683 688 Oct-2
+$ T12 Protein S4 159 164 717 722 Oct-6
+$ T11 Protein S4 149 154 707 712 Oct-4
+@ T18 Binding S4 64 71 622 629 binding
+@ T19 Binding S4 85 95 643 653 recognizes
+@ T20 Entity S4 100 111 658 669 POU domains
+% E4 Binding:T18 Theme:T8
+% E5 Binding:T19 Theme:T8 Theme2:T9 Site2:T20
+% E6 Binding:T19 Theme:T8 Theme2:T10 Site2:T20
+% E7 Binding:T19 Theme:T8 Theme2:T12 Site2:T20
+% E8 Binding:T19 Theme:T8 Theme2:T11 Site2:T20
+
+The OBF-1 mRNA is expressed in a highly cell-specific manner, being most abundant in B cells and essentially absent in most of the other cells or tissues tested.
+# T13 Protein S5 4 9 728 733 OBF-1
+$ T13 Protein S5 4 9 728 733 OBF-1
+@ T21 Transcription S5 18 27 742 751 expressed
+% E9 Transcription:T21 Theme:T13
+
+Furthermore, expression of OBF-1 in HeLa cells selectively stimulates the activity of a natural immunoglobulin promoter in an octamer site-dependent manner.
+# T14 Protein S6 27 32 913 918 OBF-1
+$ T14 Protein S6 27 32 913 918 OBF-1
+@ T22 Gene_expression S6 13 23 899 909 expression
+% E10 Gene_expression:T22 Theme:T14
+
+Thus, OBF-1 has all the properties expected for a B cell-specific transcriptional coactivator protein.
+# T15 Protein S7 6 11 1049 1054 OBF-1
+

@@ -1,0 +1,105 @@
+IKK recruitment to the CD40 signaling complex is defective in HOIP-deficient cells.
+# T1 Protein S1 62 66 62 66 HOIP
+$ T1 Protein S1 62 66 62 66 HOIP
+@ T35 Negative_regulation S1 67 76 67 76 deficient
+% E1 Negative_regulation:T35 Theme:T1
+
+(A) SMAC peptide treatment reduces recruitment of cIAP1 to CD40 and may modify HOIP recruitment.
+# T2 Protein S2 50 55 134 139 cIAP1
+# T3 Protein S2 59 63 143 147 CD40
+# T4 Protein S2 79 83 163 167 HOIP
+$ T2 Protein S2 50 55 134 139 cIAP1
+$ T3 Protein S2 59 63 143 147 CD40
+$ T4 Protein S2 79 83 163 167 HOIP
+@ T36 Negative_regulation S2 27 34 111 118 reduces
+@ T37 Binding S2 35 46 119 130 recruitment
+@ T38 Regulation S2 72 78 156 162 modify
+@ T39 Binding S2 84 95 168 179 recruitment
+% E2 Negative_regulation:T36 Theme:E3
+% E3 Binding:T37 Theme:T2 Theme2:T3
+% E4 Regulation:T38 Theme:E5
+% E5 Binding:T39 Theme:T4
+
+A20.2J cells were incubated for six hours with membrane-permeable SMAC-N7 peptide or 1.5% DMSO (solvent used for the peptide).
+
+Following the incubation, cell lysates were prepared, fractionated by SDS-PAGE, and evaluated by Western blot (lanes 1 and 2).
+
+Cells incubated with DMSO or SMAC-N7 were also stimulated with magnetic beads coated with anti-CD40 or an isotype control antibody.
+
+Immunoprecipitated (IP) material bound to the beads was loaded in lanes 3-5.
+
+Samples of the cell lysates after immunoprecipitation appear in lanes 6-8.
+
+Western blots were probed with antibodies specific for cIAP1, TRAF2, TRAF3, and HOIP (approximate molecular weights indicated on left).
+# T5 Protein S8 55 60 774 779 cIAP1
+# T6 Protein S8 62 67 781 786 TRAF2
+# T7 Protein S8 69 74 788 793 TRAF3
+# T8 Protein S8 80 84 799 803 HOIP
+
+Similar results were obtained in two additional experiments.
+
+(B) CD40 was isolated by immunoprecipitation (as in (A)) from A20.2J cells and HOIP-deficient cells transduced with an empty retroviral vector (pMIP) or a retroviral vector encoding HOIP.
+# T9 Protein S10 4 8 920 924 CD40
+# T10 Protein S10 79 83 995 999 HOIP
+# T11 Protein S10 182 186 1098 1102 HOIP
+$ T10 Protein S10 79 83 995 999 HOIP
+@ T40 Negative_regulation S10 84 93 1000 1009 deficient
+% E6 Negative_regulation:T40 Theme:T10
+
+Material immunoprecipitated with an isotype control antibody (isotype) or anti-CD40 antibody was examined by Western blotting for CD40, TRAF2, TRAF3, cIAP1, HOIP, IKKalpha/beta, and IKKgamma (right panels).
+# T12 Protein S11 130 134 1234 1238 CD40
+# T13 Protein S11 136 141 1240 1245 TRAF2
+# T14 Protein S11 143 148 1247 1252 TRAF3
+# T15 Protein S11 150 155 1254 1259 cIAP1
+# T16 Protein S11 157 161 1261 1265 HOIP
+# T17 Protein S11 163 171 1267 1275 IKKalpha
+# T18 Protein S11 172 176 1276 1280 beta
+# T19 Protein S11 182 190 1286 1294 IKKgamma
+
+HOIP expression was required for coprecipitation of IKK proteins with CD40.
+# T20 Protein S12 0 4 1311 1315 HOIP
+# T21 Protein S12 70 74 1381 1385 CD40
+$ T20 Protein S12 0 4 1311 1315 HOIP
+@ T41 Gene_expression S12 5 15 1316 1326 expression
+% E7 Gene_expression:T41 Theme:T20
+
+Cell lysates from unstimulated cells are shown in the left panels.
+
+Similar results were obtained in a second experiment and in two experiments with a second HOIP-deficient clone.
+# T22 Protein S14 90 94 1544 1548 HOIP
+$ T22 Protein S14 90 94 1544 1548 HOIP
+@ T42 Negative_regulation S14 95 104 1549 1558 deficient
+% E8 Negative_regulation:T42 Theme:T22
+
+(C) To further evaluate HOIP-dependent recruitment of IKKgamma to CD40, A20.2J cells or HOIP-deficient (HOIP-/-) A20.2J cells were transduced with an empty retroviral vector or a retroviral construct encoding BP epitope-tagged IKKgamma (noted in the figure as pMIP and IKKgamma, respectively).
+# T23 Protein S15 24 28 1590 1594 HOIP
+# T24 Protein S15 54 62 1620 1628 IKKgamma
+# T25 Protein S15 66 70 1632 1636 CD40
+# T26 Protein S15 88 92 1654 1658 HOIP
+# T27 Protein S15 104 108 1670 1674 HOIP
+# T28 Protein S15 227 235 1793 1801 IKKgamma
+# T29 Protein S15 260 264 1826 1830 pMIP
+# T30 Protein S15 269 277 1835 1843 IKKgamma
+$ T23 Protein S15 24 28 1590 1594 HOIP
+$ T24 Protein S15 54 62 1620 1628 IKKgamma
+$ T25 Protein S15 66 70 1632 1636 CD40
+$ T26 Protein S15 88 92 1654 1658 HOIP
+@ T43 Regulation S15 29 38 1595 1604 dependent
+@ T44 Binding S15 39 50 1605 1616 recruitment
+@ T45 Negative_regulation S15 93 102 1659 1668 deficient
+% E9 Regulation:T43 Theme:E10 Cause:T23
+% E10 Binding:T44 Theme:T24 Theme2:T25
+% E11 Negative_regulation:T45 Theme:T26
+
+Lysates (lanes 1-3) and immunoprecipitation (IP) samples (lanes 4-11) from the cell lines were fractionated by SDS-PAGE and evaluated by Western blotting with antibodies to the BP tag (IKKgamma, upper panel) and TRAF2.
+# T31 Protein S16 185 193 2045 2053 IKKgamma
+# T32 Protein S16 212 217 2072 2077 TRAF2
+
+The anti-CD40 IP sample in lane 11 was treated with lambda phosphatase; the sample in lane 10 was mock-treated.
+
+Protein samples (minus those treated with phosphatase) were also fractionated on a separate gel (lower acrylamide concentration) for the evaluation of TRAF3 and HOIP (bottom two panels).
+# T33 Protein S18 151 156 2342 2347 TRAF3
+# T34 Protein S18 161 165 2352 2356 HOIP
+
+Similar results were obtained in two additional experiments.
+

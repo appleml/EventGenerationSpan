@@ -1,0 +1,18 @@
+The effect of Toremifene on the expression of some genes in human mononuclear cells.
+
+Toremifene exerts multiple and varied effects on the gene expression of human peripheral mononuclear cells.
+
+After short-term, in vitro exposure to therapeutical levels, distinct changes in P-glycoprotein, steroid receptors, p53 and Bcl-2 expression take place.
+# T1 Protein S3 116 119 310 313 p53
+# T2 Protein S3 124 129 318 323 Bcl-2
+$ T2 Protein S3 124 129 318 323 Bcl-2
+$ T1 Protein S3 116 119 310 313 p53
+@ T3 Regulation S3 70 77 264 271 changes
+@ T4 Gene_expression S3 130 140 324 334 expression
+% E1 Regulation:T3 Theme:E4
+% E2 Regulation:T3 Theme:E3
+% E3 Gene_expression:T4 Theme:T2
+% E4 Gene_expression:T4 Theme:T1
+
+In view of the increasing use of antiestrogens in cancer therapy and prevention, there is obvious merit in long-term in vivo studies to be conducted.
+

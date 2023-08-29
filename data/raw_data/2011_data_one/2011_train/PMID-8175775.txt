@@ -1,0 +1,65 @@
+Functional block for 1 alpha,25-dihydroxyvitamin D3-mediated gene regulation in human B lymphocytes.
+
+Elements necessary for the steroid hormone 1 alpha,25-dihydroxyvitamin D3 (1 alpha,25-(OH)2D3) to induce a biological response include the presence of specific intracellular receptors (vitamin D3 receptors (VDR)) and modulation of gene expression via hormone-activated receptor binding to regulatory regions of target genes.
+# T1 Protein S2 185 205 287 307 vitamin D3 receptors
+# T2 Protein S2 207 210 309 312 VDR
+$ T2 Protein S2 207 210 309 312 VDR
+@ T13 Positive_regulation S2 259 268 361 370 activated
+% E1 Positive_regulation:T13 Theme:T2
+
+These parameters were examined in normal and Epstein-Barr virus-immortalized human B cells and compared with 1 alpha,25-(OH)2D3-responsive cells of the T and monocytic lineages.
+
+Although resting tonsillar B cells did not express VDR mRNA, activation of these cells with interleukin-4 induced VDR in the absence of exogenously supplemented 1 alpha,25-(OH)2D3.
+# T3 Protein S4 51 54 656 659 VDR
+# T4 Protein S4 92 105 697 710 interleukin-4
+# T5 Protein S4 114 117 719 722 VDR
+$ T3 Protein S4 51 54 656 659 VDR
+$ T5 Protein S4 114 117 719 722 VDR
+@ T14 Transcription S4 43 50 648 655 express
+@ T15 Positive_regulation S4 106 113 711 718 induced
+% E2 Transcription:T14 Theme:T3
+% E3 Positive_regulation:T15 Theme:T5
+
+As indicators of hormone-mediated gene regulation we analyzed modulation of CD23, a common B cell/monocyte surface antigen, and 24-hydroxylase.
+# T6 Protein S5 76 80 862 866 CD23
+# T7 Protein S5 128 142 914 928 24-hydroxylase
+$ T6 Protein S5 76 80 862 866 CD23
+$ T7 Protein S5 128 142 914 928 24-hydroxylase
+@ T16 Regulation S5 62 72 848 858 modulation
+% E4 Regulation:T16 Theme:T6
+% E5 Regulation:T16 Theme:T7
+
+1 alpha,25-(OH)2D3 inhibited CD23 expression in U937 cells, yet failed to modulate CD23 expression in B cells.
+# T8 Protein S6 29 33 959 963 CD23
+# T9 Protein S6 83 87 1013 1017 CD23
+$ T8 Protein S6 29 33 959 963 CD23
+$ T9 Protein S6 83 87 1013 1017 CD23
+@ T17 Negative_regulation S6 19 28 949 958 inhibited
+@ T18 Gene_expression S6 34 44 964 974 expression
+@ T19 Regulation S6 74 82 1004 1012 modulate
+@ T20 Gene_expression S6 88 98 1018 1028 expression
+% E6 Negative_regulation:T17 Theme:E7
+% E7 Gene_expression:T18 Theme:T8
+% E8 Regulation:T19 Theme:E9
+% E9 Gene_expression:T20 Theme:T9
+
+Furthermore, 1 alpha,25-(OH)2D3 induced 24-hydroxylase mRNA expression and metabolic activity in both U937 cells and lectin-activated T cells, yet failed to induce 24-hydroxylase mRNA or its metabolic activity in B cells.
+# T10 Protein S7 40 54 1081 1095 24-hydroxylase
+# T11 Protein S7 164 178 1205 1219 24-hydroxylase
+$ T10 Protein S7 40 54 1081 1095 24-hydroxylase
+$ T11 Protein S7 164 178 1205 1219 24-hydroxylase
+@ T21 Positive_regulation S7 32 39 1073 1080 induced
+@ T22 Transcription S7 60 70 1101 1111 expression
+@ T23 Positive_regulation S7 157 163 1198 1204 induce
+% E10 Positive_regulation:T21 Theme:E11
+% E11 Transcription:T22 Theme:T10
+% E12 Positive_regulation:T23 Theme:T11
+
+These findings suggest that although human B lymphocytes can express VDR mRNA and protein, they exhibit a functional block for vitamin D-dependent gene regulation.
+# T12 Protein S8 69 72 1332 1335 VDR
+$ T12 Protein S8 69 72 1332 1335 VDR
+@ T24 Transcription S8 61 68 1324 1331 express
+@ T25 Gene_expression S8 61 68 1324 1331 express
+% E13 Transcription:T24 Theme:T12
+% E14 Gene_expression:T25 Theme:T12
+

@@ -1,0 +1,98 @@
+LPS-Induced NF-kappaB activation and TNF-alpha release in human monocytes are protein tyrosine kinase dependent and protein kinase C independent.
+# T1 Protein S1 37 46 37 46 TNF-alpha
+$ T1 Protein S1 37 46 37 46 TNF-alpha
+@ T15 Positive_regulation S1 4 11 4 11 Induced
+@ T16 Localization S1 47 54 47 54 release
+% E1 Positive_regulation:T15 Theme:E2
+% E2 Localization:T16 Theme:T1
+
+BACKGROUND: Tumor necrosis factor alpha (TNF-alpha) is an important mediator of septic shock.
+# T2 Protein S2 12 39 159 186 Tumor necrosis factor alpha
+# T3 Protein S2 41 50 188 197 TNF-alpha
+
+Endotoxin (LPS) signal transduction in human monocytes leads to activation of nuclear factor-kappa B (NF-kappaB) and TNF-alpha release.
+# T4 Protein S3 117 126 358 367 TNF-alpha
+$ T4 Protein S3 117 126 358 367 TNF-alpha
+@ T17 Positive_regulation S3 55 60 296 301 leads
+@ T18 Localization S3 127 134 368 375 release
+% E3 Positive_regulation:T17 Theme:E4
+% E4 Localization:T18 Theme:T4
+
+Previous studies have implicated activation of both protein kinase C (PKC) and protein tyrosine kinases (PTK) in LPS-induced NF-kappaB activation and TNF-alpha production.
+# T5 Protein S4 150 159 527 536 TNF-alpha
+$ T5 Protein S4 150 159 527 536 TNF-alpha
+@ T19 Positive_regulation S4 117 124 494 501 induced
+@ T20 Gene_expression S4 160 170 537 547 production
+% E5 Positive_regulation:T19 Theme:E6
+% E6 Gene_expression:T20 Theme:T5
+
+We hypothesized that inhibition of either PKC or PTK would decrease LPS-induced NF-kappaB DNA binding and TNF-alpha release in human monocytes.
+# T6 Protein S5 106 115 655 664 TNF-alpha
+
+MATERIALS AND METHODS: Human monocytes were stimulated with PMA (50 ng/ml) alone or LPS (100 ng/ml) with and without a nonspecific serine/threonine protein kinase inhibitor staurosporine (Stauro), a specific pan-PKC inhibitor bisindolylmaleimide (Bis), or an inhibitor of PTK genistein (Gen).
+
+TNF-alpha release in culture supernatants was measured by an ELISA.
+# T7 Protein S7 0 9 986 995 TNF-alpha
+
+NF-kappaB DNA binding was evaluated by electrophoretic mobility shift assay.
+
+RESULTS: LPS increased NF-kappaB DNA binding and TNF-alpha release in human monocytes.
+# T8 Protein S9 49 58 1180 1189 TNF-alpha
+$ T8 Protein S9 49 58 1180 1189 TNF-alpha
+@ T21 Positive_regulation S9 13 22 1144 1153 increased
+@ T22 Localization S9 59 66 1190 1197 release
+% E7 Positive_regulation:T21 Theme:E8
+% E8 Localization:T22 Theme:T8
+
+Nonspecific protein kinase inhibition inhibited NF-kappaB activation and TNF-alpha release, while specific PKC inhibition with Bis had no effect on LPS-induced NF-kappaB DNA binding or TNF-alpha release.
+# T9 Protein S10 73 82 1291 1300 TNF-alpha
+# T10 Protein S10 185 194 1403 1412 TNF-alpha
+$ T9 Protein S10 73 82 1291 1300 TNF-alpha
+$ T10 Protein S10 185 194 1403 1412 TNF-alpha
+@ T23 Negative_regulation S10 38 47 1256 1265 inhibited
+@ T24 Localization S10 83 90 1301 1308 release
+@ T25 Regulation S10 138 144 1356 1362 effect
+@ T26 Positive_regulation S10 152 159 1370 1377 induced
+@ T27 Localization S10 195 202 1413 1420 release
+% E9 Negative_regulation:T23 Theme:E10
+% E10 Localization:T24 Theme:T9
+% E11 Regulation:T25 Theme:E12
+% E12 Positive_regulation:T26 Theme:E13
+% E13 Localization:T27 Theme:T10
+
+PTK inhibition with Gen attenuated both LPS-induced NF-kappaB DNA binding and TNF-alpha production in human monocytes.
+# T11 Protein S11 78 87 1500 1509 TNF-alpha
+$ T11 Protein S11 78 87 1500 1509 TNF-alpha
+@ T28 Negative_regulation S11 24 34 1446 1456 attenuated
+@ T29 Positive_regulation S11 44 51 1466 1473 induced
+@ T30 Gene_expression S11 88 98 1510 1520 production
+% E14 Negative_regulation:T28 Theme:E15
+% E15 Positive_regulation:T29 Theme:E16
+% E16 Gene_expression:T30 Theme:T11
+
+Direct activation of PKC with PMA induced both NF-kappaB activation and TNF-alpha production by human monocytes.
+# T12 Protein S12 72 81 1613 1622 TNF-alpha
+$ T12 Protein S12 72 81 1613 1622 TNF-alpha
+@ T31 Positive_regulation S12 34 41 1575 1582 induced
+@ T32 Gene_expression S12 82 92 1623 1633 production
+% E17 Positive_regulation:T31 Theme:E18
+% E18 Gene_expression:T32 Theme:T12
+
+CONCLUSIONS: These results suggest that LPS-induced NF-kappaB activation and TNF-alpha release in human monocytes are independent of PKC activity.
+# T13 Protein S13 77 86 1731 1740 TNF-alpha
+$ T13 Protein S13 77 86 1731 1740 TNF-alpha
+@ T33 Positive_regulation S13 44 51 1698 1705 induced
+@ T34 Localization S13 87 94 1741 1748 release
+% E19 Positive_regulation:T33 Theme:E20
+% E20 Localization:T34 Theme:T13
+
+Furthermore, our results provide evidence that PTK plays a role in LPS-induced NF-kappaB activation and TNF-alpha release in human monocytes and thus could be a potential therapeutic target in inflammatory states.
+# T14 Protein S14 104 113 1905 1914 TNF-alpha
+$ T14 Protein S14 104 113 1905 1914 TNF-alpha
+@ T35 Positive_regulation S14 71 78 1872 1879 induced
+@ T36 Localization S14 114 121 1915 1922 release
+% E21 Positive_regulation:T35 Theme:E22
+% E22 Localization:T36 Theme:T14
+
+Copyright 1999 Academic Press.
+

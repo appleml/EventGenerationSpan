@@ -1,0 +1,83 @@
+Interleukin (IL)-10 inhibits nuclear factor kappa B (NF kappa B) activation in human monocytes.
+# T1 Protein S1 0 19 0 19 Interleukin (IL)-10
+
+IL-10 and IL-4 suppress cytokine synthesis by different mechanisms.
+# T2 Protein S2 0 5 96 101 IL-10
+# T3 Protein S2 10 14 106 110 IL-4
+
+Our previous studies in human monocytes have demonstrated that interleukin (IL)-10 inhibits lipopolysaccharide (LPS)-stimulated production of inflammatory cytokines, IL-1 beta, IL-6, IL-8, and tumor necrosis factor (TNF)-alpha by blocking gene transcription.
+# T4 Protein S3 63 82 228 247 interleukin (IL)-10
+# T5 Protein S3 166 175 331 340 IL-1 beta
+# T6 Protein S3 177 181 342 346 IL-6
+# T7 Protein S3 183 187 348 352 IL-8
+# T8 Protein S3 193 226 358 391 tumor necrosis factor (TNF)-alpha
+$ T6 Protein S3 177 181 342 346 IL-6
+$ T7 Protein S3 183 187 348 352 IL-8
+$ T5 Protein S3 166 175 331 340 IL-1 beta
+$ T8 Protein S3 193 226 358 391 tumor necrosis factor (TNF)-alpha
+@ T27 Negative_regulation S3 83 91 248 256 inhibits
+@ T28 Positive_regulation S3 117 127 282 292 stimulated
+@ T29 Gene_expression S3 128 138 293 303 production
+% E1 Negative_regulation:T27 Theme:E5
+% E2 Negative_regulation:T27 Theme:E8
+% E3 Negative_regulation:T27 Theme:E6
+% E4 Negative_regulation:T27 Theme:E7
+% E5 Positive_regulation:T28 Theme:E12
+% E6 Positive_regulation:T28 Theme:E9
+% E7 Positive_regulation:T28 Theme:E10
+% E8 Positive_regulation:T28 Theme:E11
+% E9 Gene_expression:T29 Theme:T6
+% E10 Gene_expression:T29 Theme:T7
+% E11 Gene_expression:T29 Theme:T5
+% E12 Gene_expression:T29 Theme:T8
+
+Using electrophoretic mobility shift assays (EMSA), we now show that, in monocytes stimulated with LPS or TNF alpha, IL-10 inhibits nuclear stimulation of nuclear factor kappa B (NF kappa B), a transcription factor involved in the expression of inflammatory cytokine genes.
+# T9 Protein S4 106 115 530 539 TNF alpha
+# T10 Protein S4 117 122 541 546 IL-10
+
+Several other transcription factors including NF-IL-6, AP-1, AP-2, GR, CREB, Oct-1, and Sp-1 are not affected by IL-10.
+# T11 Protein S5 46 53 744 751 NF-IL-6
+# T12 Protein S5 55 59 753 757 AP-1
+# T13 Protein S5 61 65 759 763 AP-2
+# T14 Protein S5 67 69 765 767 GR
+# T15 Protein S5 71 75 769 773 CREB
+# T16 Protein S5 77 82 775 780 Oct-1
+# T17 Protein S5 88 92 786 790 Sp-1
+# T18 Protein S5 113 118 811 816 IL-10
+$ T13 Protein S5 61 65 759 763 AP-2
+$ T18 Protein S5 113 118 811 816 IL-10
+$ T12 Protein S5 55 59 753 757 AP-1
+$ T15 Protein S5 71 75 769 773 CREB
+$ T16 Protein S5 77 82 775 780 Oct-1
+$ T14 Protein S5 67 69 765 767 GR
+$ T11 Protein S5 46 53 744 751 NF-IL-6
+$ T17 Protein S5 88 92 786 790 Sp-1
+@ T30 Regulation S5 101 109 799 807 affected
+% E13 Regulation:T30 Theme:T13 Cause:T18
+% E14 Regulation:T30 Theme:T12 Cause:T18
+% E15 Regulation:T30 Theme:T15 Cause:T18
+% E16 Regulation:T30 Theme:T16 Cause:T18
+% E17 Regulation:T30 Theme:T14 Cause:T18
+% E18 Regulation:T30 Theme:T11 Cause:T18
+% E19 Regulation:T30 Theme:T17 Cause:T18
+
+This selective inhibition by IL-10 of NF kappa B activation occurs rapidly and in a dose-dependent manner and correlates well with IL-10's cytokine synthesis inhibitory activity in terms of both kinetics and dose responsiveness.
+# T19 Protein S6 29 34 847 852 IL-10
+# T20 Protein S6 131 136 949 954 IL-10
+
+Furthermore, compounds such as tosylphenylalanyl chloromethyl ketone and pyrrolidinedithiocarbamate that are known to selectively inhibit NF kappa B activation block cytokine gene transcription in LPS-stimulated monocytes.
+
+Taken together, these results suggest that inhibition of NF kappa B activation may be an important mechanism for IL-10 suppression of cytokine gene transcription in human monocytes.
+# T21 Protein S8 113 118 1383 1388 IL-10
+
+IL-4, another cytokine that inhibits cytokine mRNA accumulation in monocytes, shows little inhibitory effect on LPS-induced NF kappa B activation.
+# T22 Protein S9 0 4 1452 1456 IL-4
+
+Further examination reveals that, unlike IL-10, IL-4 enhances mRNA degradation and does not suppress cytokine gene transcription.
+# T23 Protein S10 41 46 1640 1645 IL-10
+# T24 Protein S10 48 52 1647 1651 IL-4
+
+These data indicate that IL-10 and IL-4 inhibit cytokine production by different mechanisms.
+# T25 Protein S11 25 30 1754 1759 IL-10
+# T26 Protein S11 35 39 1764 1768 IL-4
+

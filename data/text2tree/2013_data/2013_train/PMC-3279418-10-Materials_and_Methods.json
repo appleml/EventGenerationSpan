@@ -1,0 +1,10 @@
+{"text": "Constructs and transfection", "event": "<extra_id_0> <extra_id_1>"}
+{"text": "The complementary DNA ( cDNA ) of the mouse <extra_id_0> Sharpin <extra_id_2> Protein <extra_id_1> gene was cloned and amplified from RAW264.7 RNA extracts .", "event": "<extra_id_0> <extra_id_1>"}
+{"text": "The primer sequences were forward , 5'-CC ATG GCG ATG TCG CCG CCC GCC GGC GGT ; reverse , 5' - AAG CTT CTA GGT GGA AGC TGC AGC AAG A .", "event": "<extra_id_0> <extra_id_1>"}
+{"text": "The <extra_id_0> Sharpin <extra_id_2> Protein <extra_id_1> cDNA was cloned into expression vector pFLAG-CMV-2 .", "event": "<extra_id_0> <extra_id_1>"}
+{"text": "Murine fibroblasts and macrophages were were used to express recombinant <extra_id_0> SHARPIN <extra_id_2> Protein <extra_id_1> protein .", "event": "<extra_id_0> <extra_id_0> Gene_expression express <extra_id_0> Theme SHARPIN <extra_id_1> <extra_id_1> <extra_id_1>"}
+{"text": "Cells ( 2x104 ) were seeded in 96-well treated plates the day before transfection .", "event": "<extra_id_0> <extra_id_1>"}
+{"text": "After overnight incubation , 200 ng pFLAG - <extra_id_0> SHARPIN <extra_id_2> Protein <extra_id_1> plasmids were transfected with 0.5 ul Lipofectamine 2000 .", "event": "<extra_id_0> <extra_id_1>"}
+{"text": "24 hours later , cells were incubated with fresh culture medium .", "event": "<extra_id_0> <extra_id_1>"}
+{"text": "After another 24 hours , cells were lysed to confirm the FLAG - <extra_id_0> SHARPIN <extra_id_2> Protein <extra_id_1> expression by immunoblots with anti-FLAG .", "event": "<extra_id_0> <extra_id_0> Gene_expression expression <extra_id_0> Theme SHARPIN <extra_id_1> <extra_id_1> <extra_id_1>"}
+{"text": "Cells with no transfection and transfected with empty vector pFLAG-CMV-2 were used as negative control in all transfection experiments .", "event": "<extra_id_0> <extra_id_1>"}

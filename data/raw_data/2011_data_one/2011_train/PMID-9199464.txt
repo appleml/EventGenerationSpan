@@ -1,0 +1,117 @@
+Anti-Ehrlichia chaffeensis antibody complexed with E. chaffeensis induces potent proinflammatory cytokine mRNA expression in human monocytes through sustained reduction of IkappaB-alpha and activation of NF-kappaB.
+# T1 Protein S1 172 185 172 185 IkappaB-alpha
+$ T1 Protein S1 172 185 172 185 IkappaB-alpha
+@ T21 Negative_regulation S1 159 168 159 168 reduction
+% E1 Negative_regulation:T21 Theme:T1
+
+Ehrlichia chaffeensis is an obligatory intracellular bacterium that infects monocytes and macrophages and is the etiologic agent of human ehrlichiosis in the United States.
+
+Our previous studies showed that the exposure of human monocytes to E. chaffeensis induces the expression of interleukin-1beta (IL-1beta), IL-8, and IL-10 genes in vitro but not the expression of tumor necrosis factor alpha (TNF-alpha) and IL-6 mRNAs.
+# T2 Protein S3 109 126 498 515 interleukin-1beta
+# T3 Protein S3 128 136 517 525 IL-1beta
+# T4 Protein S3 139 143 528 532 IL-8
+# T5 Protein S3 149 154 538 543 IL-10
+# T6 Protein S3 196 223 585 612 tumor necrosis factor alpha
+# T7 Protein S3 225 234 614 623 TNF-alpha
+# T8 Protein S3 240 244 629 633 IL-6
+$ T3 Protein S3 128 136 517 525 IL-1beta
+$ T4 Protein S3 139 143 528 532 IL-8
+$ T5 Protein S3 149 154 538 543 IL-10
+$ T8 Protein S3 240 244 629 633 IL-6
+$ T7 Protein S3 225 234 614 623 TNF-alpha
+@ T22 Positive_regulation S3 83 90 472 479 induces
+@ T23 Gene_expression S3 95 105 484 494 expression
+@ T24 Transcription S3 182 192 571 581 expression
+% E2 Positive_regulation:T22 Theme:E9
+% E3 Positive_regulation:T22 Theme:E10
+% E4 Positive_regulation:T22 Theme:E7
+% E5 Positive_regulation:T22 Theme:E8
+% E6 Positive_regulation:T22 Theme:E11
+% E7 Gene_expression:T23 Theme:T3
+% E8 Gene_expression:T23 Theme:T4
+% E9 Gene_expression:T23 Theme:T5
+% E10 Transcription:T24 Theme:T8
+% E11 Transcription:T24 Theme:T7
+
+In this study, the effect of anti-E.
+
+chaffeensis antibody complexed with E. chaffeensis on the expression of major proinflammatory cytokines in human monocytes was examined.
+
+Human monocytic cell line THP-1 was treated with E. chaffeensis which had been preincubated with human anti-E.
+
+chaffeensis serum for 2 h, and the levels of cytokine mRNAs were evaluated by competitive reverse transcription-PCR.
+
+Anti-E.
+
+chaffeensis antibody complexed with E. chaffeensis significantly enhanced mRNA expression of IL-1beta in THP-1 cells.
+# T9 Protein S9 93 101 1144 1152 IL-1beta
+$ T9 Protein S9 93 101 1144 1152 IL-1beta
+@ T25 Positive_regulation S9 65 73 1116 1124 enhanced
+@ T26 Transcription S9 74 89 1125 1140 mRNA expression
+% E12 Positive_regulation:T25 Theme:E13
+% E13 Transcription:T26 Theme:T9
+
+The expression of TNF-alpha and IL-6 mRNAs was also induced.
+# T10 Protein S10 18 27 1187 1196 TNF-alpha
+# T11 Protein S10 32 36 1201 1205 IL-6
+$ T10 Protein S10 18 27 1187 1196 TNF-alpha
+$ T11 Protein S10 32 36 1201 1205 IL-6
+@ T27 Transcription S10 4 14 1173 1183 expression
+@ T28 Positive_regulation S10 52 59 1221 1228 induced
+% E14 Transcription:T27 Theme:T10
+% E15 Transcription:T27 Theme:T11
+% E16 Positive_regulation:T28 Theme:E14
+
+The levels of secreted IL-1beta, TNF-alpha, and IL-6 during 24 h of stimulation were comparable to those induced by Escherichia coli lipopolysaccharide at 1 microg/ml.
+# T12 Protein S11 23 31 1253 1261 IL-1beta
+# T13 Protein S11 33 42 1263 1272 TNF-alpha
+# T14 Protein S11 48 52 1278 1282 IL-6
+
+Fab fragment of anti-E.
+
+chaffeensis immunoglobulin G complexed with E. chaffeensis did not induce any of these three cytokines, indicating that ehrlichial binding is required for IL-1beta mRNA expression and that binding of the immune complex to the Fc gamma receptor is required for TNF-alpha and IL-6 mRNA expression and enhanced IL-1beta mRNA expression.
+# T15 Protein S13 155 163 1577 1585 IL-1beta
+# T16 Protein S13 226 243 1648 1665 Fc gamma receptor
+# T17 Protein S13 260 269 1682 1691 TNF-alpha
+# T18 Protein S13 274 278 1696 1700 IL-6
+# T19 Protein S13 308 316 1730 1738 IL-1beta
+$ T15 Protein S13 155 163 1577 1585 IL-1beta
+$ T16 Protein S13 226 243 1648 1665 Fc gamma receptor
+$ T17 Protein S13 260 269 1682 1691 TNF-alpha
+$ T18 Protein S13 274 278 1696 1700 IL-6
+$ T19 Protein S13 308 316 1730 1738 IL-1beta
+@ T29 Positive_regulation S13 67 73 1489 1495 induce
+@ T30 Positive_regulation S13 142 150 1564 1572 required
+@ T31 Transcription S13 169 179 1591 1601 expression
+@ T32 Binding S13 189 196 1611 1618 binding
+@ T33 Positive_regulation S13 247 255 1669 1677 required
+@ T34 Transcription S13 284 294 1706 1716 expression
+@ T35 Positive_regulation S13 299 307 1721 1729 enhanced
+@ T36 Transcription S13 322 332 1744 1754 expression
+% E17 Positive_regulation:T29 Theme:T12
+% E18 Positive_regulation:T29 Theme:T14
+% E19 Positive_regulation:T29 Theme:T13
+% E20 Positive_regulation:T30 Theme:E21
+% E21 Transcription:T31 Theme:T15
+% E22 Binding:T32 Theme:T16
+% E23 Positive_regulation:T33 Theme:E26 Cause:E22
+% E24 Positive_regulation:T33 Theme:E25 Cause:E22
+% E25 Transcription:T34 Theme:T17
+% E26 Transcription:T34 Theme:T18
+% E27 Positive_regulation:T35 Theme:E28 Cause:E22
+% E28 Transcription:T36 Theme:T19
+
+Furthermore, prolonged degradation of IkappaB-alpha and activation of NF-kappaB were demonstrated in THP-1 cells exposed to anti-E.
+# T20 Protein S14 38 51 1794 1807 IkappaB-alpha
+$ T20 Protein S14 38 51 1794 1807 IkappaB-alpha
+@ T37 Protein_catabolism S14 23 34 1779 1790 degradation
+@ T38 Positive_regulation S14 85 97 1841 1853 demonstrated
+% E29 Protein_catabolism:T37 Theme:T20
+% E30 Positive_regulation:T38 Theme:E29
+
+chaffeensis serum and E. chaffeensis.
+
+This result implies that development of anti-E.
+
+chaffeensis antibody in patients can result in the production of major proinflammatory cytokines, which may play an important role in the pathophysiology of ehrlichiosis and immune responses to it.
+

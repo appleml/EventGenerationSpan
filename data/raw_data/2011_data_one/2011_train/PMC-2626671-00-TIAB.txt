@@ -1,0 +1,56 @@
+Runx3 and T-box proteins cooperate to establish the transcriptional program of effector CTLs
+# T1 Protein S1 0 5 0 5 Runx3
+
+Activation of naive CD8+ T cells with antigen induces their differentiation into effector cytolytic T lymphocytes (CTLs).
+# T2 Protein S2 20 23 114 117 CD8
+
+CTLs lyse infected or aberrant target cells by exocytosis of lytic granules containing the pore-forming protein perforin and a family of proteases termed granzymes.
+# T3 Protein S3 112 120 328 336 perforin
+
+We show that effector CTL differentiation occurs in two sequential phases in vitro, characterized by early induction of T-bet and late induction of Eomesodermin (Eomes), T-box transcription factors that regulate the early and late phases of interferon (IFN) gamma expression, respectively.
+# T4 Protein S4 120 125 501 506 T-bet
+# T5 Protein S4 148 160 529 541 Eomesodermin
+# T6 Protein S4 162 167 543 548 Eomes
+# T7 Protein S4 241 263 622 644 interferon (IFN) gamma
+$ T4 Protein S4 120 125 501 506 T-bet
+$ T5 Protein S4 148 160 529 541 Eomesodermin
+$ T7 Protein S4 241 263 622 644 interferon (IFN) gamma
+@ T15 Positive_regulation S4 107 116 488 497 induction
+@ T16 Positive_regulation S4 135 144 516 525 induction
+@ T17 Regulation S4 203 211 584 592 regulate
+@ T18 Gene_expression S4 264 274 645 655 expression
+% E1 Positive_regulation:T15 Theme:T4
+% E2 Positive_regulation:T16 Theme:T5
+% E3 Regulation:T17 Theme:E4 Cause:T4
+% E5 Regulation:T17 Theme:E4 Cause:T5
+% E4 Gene_expression:T18 Theme:T7
+
+In addition, we demonstrate a critical role for the transcription factor Runx3 in CTL differentiation.
+# T8 Protein S5 73 78 744 749 Runx3
+
+Runx3 regulates Eomes expression as well as expression of three cardinal markers of the effector CTL program: IFN-gamma, perforin, and granzyme B.
+# T9 Protein S6 0 5 774 779 Runx3
+# T10 Protein S6 16 21 790 795 Eomes
+# T11 Protein S6 110 119 884 893 IFN-gamma
+# T12 Protein S6 121 129 895 903 perforin
+# T13 Protein S6 135 145 909 919 granzyme B
+$ T9 Protein S6 0 5 774 779 Runx3
+$ T10 Protein S6 16 21 790 795 Eomes
+$ T11 Protein S6 110 119 884 893 IFN-gamma
+$ T12 Protein S6 121 129 895 903 perforin
+$ T13 Protein S6 135 145 909 919 granzyme B
+@ T19 Regulation S6 6 15 780 789 regulates
+@ T20 Gene_expression S6 22 32 796 806 expression
+@ T21 Gene_expression S6 44 54 818 828 expression
+% E6 Regulation:T19 Theme:E7 Cause:T9
+% E8 Regulation:T19 Theme:E9 Cause:T9
+% E10 Regulation:T19 Theme:E11 Cause:T9
+% E12 Regulation:T19 Theme:E13 Cause:T9
+% E7 Gene_expression:T20 Theme:T10
+% E9 Gene_expression:T21 Theme:T11
+% E11 Gene_expression:T21 Theme:T12
+% E13 Gene_expression:T21 Theme:T13
+
+Our data point to the existence of an elaborate transcriptional network in which Runx3 initially induces and then cooperates with T-box transcription factors to regulate gene transcription in differentiating CTLs.
+# T14 Protein S7 81 86 1002 1007 Runx3
+

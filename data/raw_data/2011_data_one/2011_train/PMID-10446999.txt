@@ -1,0 +1,47 @@
+Induction of a functional vitamin D receptor in all-trans-retinoic acid-induced monocytic differentiation of M2-type leukemic blast cells.
+# T1 Protein S1 26 44 26 44 vitamin D receptor
+$ T1 Protein S1 26 44 26 44 vitamin D receptor
+@ T7 Positive_regulation S1 0 9 0 9 Induction
+% E1 Positive_regulation:T7 Theme:T1
+
+Different types of acute myeloid leukemia blast cells were induced to differentiate in vitro with all-trans-retinoic acid (ATRA) and vitamin D3 (VD).
+
+M0/M1 leukemic cells are not sensitive to differentiating agents, whereas M3 leukemic cells are induced to undergo granulocytic differentiation after ATRA treatment but are not sensitive to VD.
+
+M2 leukemic blast cells behave differently because they undergo monocytic differentiation with both the differentiation inducers.
+
+To gain some insight into the maturation of M2-type leukemic cells, we studied the molecular mechanisms underlying monocytic differentiation induced by ATRA and VD in spontaneous M2 blast cells as well as in Kasumi-1 cells (an acute myeloid leukemia M2-type cell line).
+
+Our results indicate that ATRA as well as VD efficiently increases the nuclear abundance of VD receptor (VDR) and promotes monocytic differentiation.
+# T2 Protein S6 92 103 976 987 VD receptor
+# T3 Protein S6 105 108 989 992 VDR
+$ T3 Protein S6 105 108 989 992 VDR
+@ T8 Positive_regulation S6 57 66 941 950 increases
+@ T9 Entity S6 71 78 955 962 nuclear
+@ T10 Localization S6 79 88 963 972 abundance
+% E2 Positive_regulation:T8 Theme:E3
+% E3 Localization:T10 Theme:T3 AtLoc:T9
+
+VDR is functionally active in ATRA-treated Kasumi-1 cells because it efficiently heterodimerizes with retinoid X receptor, binds to a DR3-type vitamin D-responsive element, and activates the transcription of a vitamin D-responsive element-regulated reporter gene.
+# T4 Protein S7 0 3 1034 1037 VDR
+# T5 Protein S7 102 121 1136 1155 retinoid X receptor
+$ T4 Protein S7 0 3 1034 1037 VDR
+$ T5 Protein S7 102 121 1136 1155 retinoid X receptor
+@ T11 Positive_regulation S7 20 26 1054 1060 active
+@ T12 Binding S7 81 96 1115 1130 heterodimerizes
+@ T13 Binding S7 123 128 1157 1162 binds
+% E4 Positive_regulation:T11 Theme:T4
+% E5 Binding:T12 Theme:T4 Theme2:T5
+% E6 Binding:T13 Theme:T4
+
+Consistent with these findings, VD-responsive genes are induced by ATRA treatment of Kasumi-1 cells, suggesting that the genetic program underlying monocytic differentiation is activated.
+
+The molecular mechanism by which ATRA increases the nuclear abundance of a functional VDR is still unknown, but our data clearly indicate that the M2 leukemic cell context is only permissive of monocytic differentiation.
+# T6 Protein S9 86 89 1572 1575 VDR
+$ T6 Protein S9 86 89 1572 1575 VDR
+@ T14 Positive_regulation S9 38 47 1524 1533 increases
+@ T15 Entity S9 52 59 1538 1545 nuclear
+@ T16 Localization S9 60 69 1546 1555 abundance
+% E7 Positive_regulation:T14 Theme:E8
+% E8 Localization:T16 Theme:T6 AtLoc:T15
+

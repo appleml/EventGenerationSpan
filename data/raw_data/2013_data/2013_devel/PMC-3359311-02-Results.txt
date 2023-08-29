@@ -1,0 +1,39 @@
+Airway epithelial cells do not produce significant amounts of IL-1beta in response to inflammasome stimulation
+# T1 Protein S1 62 70 62 70 IL-1beta
+$ T1 Protein S1 62 70 62 70 IL-1beta
+@ T6 Gene_expression S1 31 38 31 38 produce
+@ T7 Positive_regulation S1 71 85 71 85 in response to
+% E1 Gene_expression:T6 Theme:T1
+% E2 Positive_regulation:T7 Theme:E1
+
+The inflammasomes and their respective activators examined in this study are listed in Table 1.
+
+Cells were stimulated in accordance with the schedule in Figure 1.
+
+In CF, airway epithelial cells have been shown to possess a hyper-inflammatory phenotype and produce an exaggerated pro-inflammatory cytokine response [4], [5].
+
+To determine if airway epithelial cells contribute to the increased IL-1beta production in patients with CF, CF and control bronchial epithelial cell lines were stimulated with the inflammasome inducers P. aeruginosa strain PAO1 (PAO1) and LPS followed by ATP.
+# T2 Protein S5 68 76 503 511 IL-1beta
+$ T2 Protein S5 68 76 503 511 IL-1beta
+@ T8 Positive_regulation S5 40 50 475 485 contribute
+@ T9 Positive_regulation S5 58 67 493 502 increased
+@ T10 Gene_expression S5 77 87 512 522 production
+% E3 Positive_regulation:T8 Theme:E4
+% E4 Positive_regulation:T9 Theme:E5
+% E5 Gene_expression:T10 Theme:T2
+
+IL-1beta levels in cell culture supernatants were not greatly increased in either the CF or control cell lines (Fig. 2a-d), although a small increase in IL-1beta production was detected in NuLi-1 and CuFi-1 cells, but not in S9 and IB3-1 cells, by 24 hours.
+# T3 Protein S6 0 8 696 704 IL-1beta
+# T4 Protein S6 153 161 849 857 IL-1beta
+$ T3 Protein S6 0 8 696 704 IL-1beta
+$ T4 Protein S6 153 161 849 857 IL-1beta
+@ T11 Positive_regulation S6 62 71 758 767 increased
+@ T12 Positive_regulation S6 141 149 837 845 increase
+@ T13 Gene_expression S6 162 172 858 868 production
+% E6 Positive_regulation:T11 Theme:T3
+% E7 Positive_regulation:T12 Theme:E8
+% E8 Gene_expression:T13 Theme:T4
+
+In contrast, these airway cells were highly responsive to other inflammatory stimuli, such as recombinant IL-1beta, producing large quantities of IL-8 (Fig. 2a-d inserts).
+# T5 Protein S7 106 114 1060 1068 IL-1beta
+

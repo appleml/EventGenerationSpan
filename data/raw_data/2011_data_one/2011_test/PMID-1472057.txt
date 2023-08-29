@@ -1,0 +1,9 @@
+Mutations in the Pit-1 gene in children with combined pituitary hormone deficiency.
+# T1 Protein S1 17 22 17 22 Pit-1
+
+Pit-1 is a pituitary-specific transcription factor that binds to and transactivates promoters of growth hormone and prolactin genes.
+# T2 Protein S2 0 5 85 90 Pit-1
+
+In three unrelated Japanese children with combined pituitary hormone deficiency, we identified three point mutations in the Pit-1 gene, Pro24Leu, Arg143Gln, and Arg271Trp, located on the major transactivation region, POU-specific domain, and POU-homeodomain, respectively.
+# T3 Protein S3 124 129 342 347 Pit-1
+

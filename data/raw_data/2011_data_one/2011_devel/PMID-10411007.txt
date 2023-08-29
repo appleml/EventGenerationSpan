@@ -1,0 +1,51 @@
+ETS transcription factors regulate an enhancer activity in the third intron of TNF-alpha.
+# T1 Protein S1 79 88 79 88 TNF-alpha
+$ T1 Protein S1 79 88 79 88 TNF-alpha
+@ T10 Regulation S1 26 34 26 34 regulate
+% E1 Regulation:T10 Theme:T1
+
+We describe an enhancer site in the third intron of tumor necrosis factor alpha (TNF-alpha).
+# T2 Protein S2 58 79 149 170 necrosis factor alpha
+# T3 Protein S2 81 90 172 181 TNF-alpha
+
+A reporter construct containing the 5'-flanking region of the mouse TNF-alpha gene displayed weak activity when transfected into RAW264.7 macrophage-like cells.
+# T4 Protein S3 68 77 252 261 TNF-alpha
+$ T4 Protein S3 68 77 252 261 TNF-alpha
+@ T11 Gene_expression S3 98 106 282 290 activity
+@ T12 Positive_regulation S3 107 111 291 295 when
+% E2 Gene_expression:T11 Theme:T4
+% E3 Positive_regulation:T12 Theme:E2
+
+The addition of the third intron of TNF-alpha to this construct resulted in an enhancement of CAT protein.
+# T5 Protein S4 36 45 381 390 TNF-alpha
+# T6 Protein S4 94 97 439 442 CAT
+$ T6 Protein S4 94 97 439 442 CAT
+@ T13 Positive_regulation S4 64 90 409 435 resulted in an enhancement
+% E4 Positive_regulation:T13 Theme:T6
+
+This enhancement was eliminated if a conserved 20-bp sequence was removed from the intron or if a dominant-negative ets-binding factor was co-transfected with the reporter gene.
+@ T14 Negative_regulation S5 21 31 473 483 eliminated
+% E5 Negative_regulation:T14 Theme:E4
+
+Mutations of this site that destroyed potential ets transcription factor binding sites had reduced transcriptional activity.
+
+The major transcription factor that bound to the oligonucleotide was confirmed to be GABP by supershift and competition analysis.
+# T7 Protein S7 85 89 840 844 GABP
+$ T7 Protein S7 85 89 840 844 GABP
+@ T15 Binding S7 36 41 791 796 bound
+% E6 Binding:T15 Theme:T7
+
+In RAW264.7 cells, the binding was constitutive, however, in bone marrow-derived macrophages binding activity was shown to be interferon-gamma inducible.
+# T8 Protein S8 126 142 1011 1027 interferon-gamma
+$ T8 Protein S8 126 142 1011 1027 interferon-gamma
+@ T16 Positive_regulation S8 143 152 1028 1037 inducible
+% E7 Positive_regulation:T16 Theme:E6 Cause:T8
+
+This may imply a role for ets transcription factors in the production of TNF-alpha.
+# T9 Protein S9 73 82 1112 1121 TNF-alpha
+$ T9 Protein S9 73 82 1112 1121 TNF-alpha
+@ T17 Regulation S9 17 21 1056 1060 role
+@ T18 Gene_expression S9 59 69 1098 1108 production
+% E8 Regulation:T17 Theme:E9
+% E9 Gene_expression:T18 Theme:T9
+

@@ -1,0 +1,40 @@
+Mutation of Jak3 in a patient with SCID: essential role of Jak3 in lymphoid development.
+# T1 Protein S1 12 16 12 16 Jak3
+# T2 Protein S1 59 63 59 63 Jak3
+
+Males with X-linked severe combined immunodeficiency (XSCID) have defects in the common cytokine receptor gamma chain (gamma c) gene that encodes a shared, essential component of the receptors of interleukin-2 (IL-2), IL-4, IL-7, IL-9, and IL-15.
+# T3 Protein S2 88 117 178 207 cytokine receptor gamma chain
+# T4 Protein S2 119 126 209 216 gamma c
+# T5 Protein S2 196 209 286 299 interleukin-2
+# T6 Protein S2 211 215 301 305 IL-2
+# T7 Protein S2 218 222 308 312 IL-4
+# T8 Protein S2 224 228 314 318 IL-7
+# T9 Protein S2 230 234 320 324 IL-9
+# T10 Protein S2 240 245 330 335 IL-15
+
+The Janus family tyrosine kinase Jak3 is the only signaling molecule known to be associated with gamma c, so it was hypothesized that defects in Jak3 might cause an XSCID-like phenotype.
+# T11 Protein S3 33 37 370 374 Jak3
+# T12 Protein S3 97 104 434 441 gamma c
+# T13 Protein S3 145 149 482 486 Jak3
+
+A girl with immunological features indistinguishable from those of XSCID was therefore selected for analysis.
+
+An Epstein-Barr virus (EBV)-transformed cell line derived from her lymphocytes had normal gamma c expression but lacked Jak3 protein and had greatly diminished Jak3 messenger RNA.
+# T14 Protein S5 90 97 724 731 gamma c
+# T15 Protein S5 120 124 754 758 Jak3
+# T16 Protein S5 160 164 794 798 Jak3
+
+Sequencing revealed a different mutation on each allele: a single nucleotide insertion resulting in a frame shift and premature termination in the Jak3 JH4 domain and a nonsense mutation in the Jak3 JH2 domain.
+# T17 Protein S6 147 151 961 965 Jak3
+# T18 Protein S6 194 198 1008 1012 Jak3
+
+The lack of Jak3 expression correlated with impaired B cell signaling, as demonstrated by the inability of IL-4 to activate Stat6 in the EBV-transformed cell line from the patient.
+# T19 Protein S7 12 16 1037 1041 Jak3
+# T20 Protein S7 107 111 1132 1136 IL-4
+# T21 Protein S7 124 129 1149 1154 Stat6
+
+These observations indicate that the functions of gamma c are dependent on Jak3 and that Jak3 is essential for lymphoid development and signaling.
+# T22 Protein S8 50 57 1256 1263 gamma c
+# T23 Protein S8 75 79 1281 1285 Jak3
+# T24 Protein S8 89 93 1295 1299 Jak3
+

@@ -1,0 +1,51 @@
+CD40-induced activation of NF-kappaB and JNK is defective in HOIP-deficient cells.
+# T1 Protein S1 0 4 0 4 CD40
+# T2 Protein S1 61 65 61 65 HOIP
+$ T2 Protein S1 61 65 61 65 HOIP
+@ T16 Negative_regulation S1 66 75 66 75 deficient
+% E1 Negative_regulation:T16 Theme:T2
+
+CD40-mediated signaling was defective in HOIP-deficient cells (HOIP-/- + pMIP), but intact in parental cells transduced with an empty retroviral vector (A20.2J + pMIP) and in HOIP-deficient cells transduced with a retroviral vector encoding HOIP (HOIP-/- + HOIP).
+# T3 Protein S2 0 4 83 87 CD40
+# T4 Protein S2 41 45 124 128 HOIP
+# T5 Protein S2 175 179 258 262 HOIP
+# T6 Protein S2 241 245 324 328 HOIP
+# T7 Protein S2 247 251 330 334 HOIP
+# T8 Protein S2 257 261 340 344 HOIP
+$ T4 Protein S2 41 45 124 128 HOIP
+$ T5 Protein S2 175 179 258 262 HOIP
+@ T17 Negative_regulation S2 46 55 129 138 deficient
+@ T18 Negative_regulation S2 180 189 263 272 deficient
+% E2 Negative_regulation:T17 Theme:T4
+% E3 Negative_regulation:T18 Theme:T5
+
+Cells were activated with CD154-expressing insect cells for the times indicated.
+# T9 Protein S3 26 31 373 378 CD154
+$ T9 Protein S3 26 31 373 378 CD154
+@ T19 Gene_expression S3 32 42 379 389 expressing
+% E4 Gene_expression:T19 Theme:T9
+
+As a negative control, cells were stimulated with insect cells lacking CD154 (5 minute time point only).
+# T10 Protein S4 71 76 499 504 CD154
+$ T10 Protein S4 71 76 499 504 CD154
+@ T20 Negative_regulation S4 63 70 491 498 lacking
+% E5 Negative_regulation:T20 Theme:T10
+
+Western blots of whole-cell lysates were probed with the indicated antibodies.
+
+Phospho-IkappaBalpha (pIkappaBalpha) and phospho-JNK (pJNK) blots were stripped and reprobed for total IkappaBalpha and total JNK, respectively (anti-JNK antibodies recognize p46 and p54 isoforms).
+# T11 Protein S6 0 20 612 632 Phospho-IkappaBalpha
+# T12 Protein S6 22 35 634 647 pIkappaBalpha
+# T13 Protein S6 103 115 715 727 IkappaBalpha
+
+IkappaBalpha blots were also reprobed for actin to demonstrate equal lane loading.
+# T14 Protein S7 0 12 810 822 IkappaBalpha
+
+Molecular weights are indicated at right.
+
+Similar results were obtained in a second experiment and in two additional experiments with a second HOIP-deficient clone.
+# T15 Protein S9 101 105 1036 1040 HOIP
+$ T15 Protein S9 101 105 1036 1040 HOIP
+@ T21 Negative_regulation S9 106 115 1041 1050 deficient
+% E6 Negative_regulation:T21 Theme:T15
+

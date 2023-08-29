@@ -1,0 +1,121 @@
+MEK1 and the extracellular signal-regulated kinases are required for the stimulation of IL-2 gene transcription in T cells.
+# T1 Protein S1 0 4 0 4 MEK1
+# T2 Protein S1 88 92 88 92 IL-2
+$ T1 Protein S1 0 4 0 4 MEK1
+$ T2 Protein S1 88 92 88 92 IL-2
+@ T29 Positive_regulation S1 56 64 56 64 required
+@ T30 Positive_regulation S1 73 84 73 84 stimulation
+@ T31 Transcription S1 98 111 98 111 transcription
+% E1 Positive_regulation:T29 Theme:E3 Cause:T1
+% E2 Positive_regulation:T29 Theme:E3
+% E3 Positive_regulation:T30 Theme:E4
+% E4 Transcription:T31 Theme:T2
+
+TCR engagement stimulates the activation of the protein kinase Raf-1.
+# T3 Protein S2 63 68 188 193 Raf-1
+$ T3 Protein S2 63 68 188 193 Raf-1
+@ T32 Positive_regulation S2 15 40 140 165 stimulates the activation
+% E5 Positive_regulation:T32 Theme:T3
+
+Active Raf-1 phosphorylates and activates the mitogen-activated protein (MAP) kinase/extracellular signal-regulated kinase kinase 1 (MEK1), which in turn phosphorylates and activates the MAP kinases/extracellular signal regulated kinases, ERK1 and ERK2.
+# T4 Protein S3 7 12 202 207 Raf-1
+# T5 Protein S3 46 131 241 326 mitogen-activated protein (MAP) kinase/extracellular signal-regulated kinase kinase 1
+# T6 Protein S3 133 137 328 332 MEK1
+# T7 Protein S3 239 243 434 438 ERK1
+# T8 Protein S3 248 252 443 447 ERK2
+$ T6 Protein S3 133 137 328 332 MEK1
+$ T4 Protein S3 7 12 202 207 Raf-1
+$ T7 Protein S3 239 243 434 438 ERK1
+$ T8 Protein S3 248 252 443 447 ERK2
+@ T33 Phosphorylation S3 13 27 208 222 phosphorylates
+@ T34 Positive_regulation S3 13 27 208 222 phosphorylates
+@ T35 Positive_regulation S3 32 41 227 236 activates
+@ T36 Phosphorylation S3 154 168 349 363 phosphorylates
+@ T37 Positive_regulation S3 154 168 349 363 phosphorylates
+@ T38 Positive_regulation S3 173 182 368 377 activates
+% E6 Phosphorylation:T33 Theme:T6
+% E7 Positive_regulation:T34 Theme:E6 Cause:T4
+% E8 Positive_regulation:T35 Theme:T6 Cause:T4
+% E9 Phosphorylation:T36 Theme:T7
+% E12 Phosphorylation:T36 Theme:T8
+% E10 Positive_regulation:T37 Theme:E9 Cause:T6
+% E11 Positive_regulation:T37 Theme:E12 Cause:T6
+% E13 Positive_regulation:T38 Theme:T7 Cause:T6
+% E14 Positive_regulation:T38 Theme:T8 Cause:T6
+
+Raf-1 activity promotes IL-2 production in activated T lymphocytes.
+# T9 Protein S4 0 5 449 454 Raf-1
+# T10 Protein S4 24 28 473 477 IL-2
+$ T9 Protein S4 0 5 449 454 Raf-1
+$ T10 Protein S4 24 28 473 477 IL-2
+@ T39 Positive_regulation S4 15 23 464 472 promotes
+@ T40 Gene_expression S4 29 39 478 488 production
+% E15 Positive_regulation:T39 Theme:E16 Cause:T9
+% E16 Gene_expression:T40 Theme:T10
+
+Therefore, we sought to determine whether MEK1 and ERK activities also stimulate IL-2 gene transcription.
+# T11 Protein S5 42 46 559 563 MEK1
+# T12 Protein S5 81 85 598 602 IL-2
+$ T11 Protein S5 42 46 559 563 MEK1
+$ T12 Protein S5 81 85 598 602 IL-2
+@ T41 Positive_regulation S5 71 80 588 597 stimulate
+@ T42 Transcription S5 91 104 608 621 transcription
+% E17 Positive_regulation:T41 Theme:E19
+% E18 Positive_regulation:T41 Theme:E19 Cause:T11
+% E19 Transcription:T42 Theme:T12
+
+Expression of constitutively active Raf-1 or MEK1 in Jurkat T cells enhanced the stimulation of IL-2 promoter-driven transcription stimulated by a calcium ionophore and PMA, and together with a calcium ionophore the expression of each protein was sufficient to stimulate NF-AT activity.
+# T13 Protein S6 36 41 659 664 Raf-1
+# T14 Protein S6 45 49 668 672 MEK1
+# T15 Protein S6 96 100 719 723 IL-2
+$ T13 Protein S6 36 41 659 664 Raf-1
+$ T14 Protein S6 45 49 668 672 MEK1
+@ T43 Positive_regulation S6 0 10 623 633 Expression
+@ T44 Gene_expression S6 216 226 839 849 expression
+% E20 Positive_regulation:T43 Theme:T13
+% E21 Positive_regulation:T43 Theme:T14
+% E22 Gene_expression:T44 Theme:T14
+% E23 Gene_expression:T44 Theme:T13
+
+Expression of MEK1-interfering mutants inhibited the stimulation of IL-2 promoter-driven transcription and blocked the ability of constitutively active Ras and Raf-1 to costimulate NF-AT activity with a calcium ionophore.
+# T16 Protein S7 14 18 924 928 MEK1
+# T17 Protein S7 68 72 978 982 IL-2
+# T18 Protein S7 160 165 1070 1075 Raf-1
+
+Expression of the MAP kinase-specific phosphatase, MKP-1, which blocks ERK activation, inhibited IL-2 promoter and NF-AT-driven transcription stimulated by a calcium ionophore and PMA, and in addition, MKP-1 neutralized the transcriptional enhancement caused by active Raf-1 and MEK1 expression.
+# T19 Protein S8 51 56 1183 1188 MKP-1
+# T20 Protein S8 97 101 1229 1233 IL-2
+# T21 Protein S8 202 207 1334 1339 MKP-1
+# T22 Protein S8 269 274 1401 1406 Raf-1
+# T23 Protein S8 279 283 1411 1415 MEK1
+$ T19 Protein S8 51 56 1183 1188 MKP-1
+$ T23 Protein S8 279 283 1411 1415 MEK1
+$ T22 Protein S8 269 274 1401 1406 Raf-1
+@ T45 Gene_expression S8 0 10 1132 1142 Expression
+@ T46 Positive_regulation S8 284 294 1416 1426 expression
+% E24 Gene_expression:T45 Theme:T19
+% E25 Positive_regulation:T46 Theme:T23
+% E26 Positive_regulation:T46 Theme:T22
+
+We conclude that the MAP kinase signal transduction pathway consisting of Raf-1, MEK1, and ERK1 and ERK2 functions in the stimulation IL-2 gene transcription in activated T lymphocytes.
+# T24 Protein S9 74 79 1502 1507 Raf-1
+# T25 Protein S9 81 85 1509 1513 MEK1
+# T26 Protein S9 91 95 1519 1523 ERK1
+# T27 Protein S9 100 104 1528 1532 ERK2
+# T28 Protein S9 134 138 1562 1566 IL-2
+$ T26 Protein S9 91 95 1519 1523 ERK1
+$ T27 Protein S9 100 104 1528 1532 ERK2
+$ T24 Protein S9 74 79 1502 1507 Raf-1
+$ T25 Protein S9 81 85 1509 1513 MEK1
+$ T28 Protein S9 134 138 1562 1566 IL-2
+@ T47 Regulation S9 105 114 1533 1542 functions
+@ T48 Positive_regulation S9 122 133 1550 1561 stimulation
+@ T49 Transcription S9 144 157 1572 1585 transcription
+% E27 Regulation:T47 Theme:E32 Cause:T26
+% E28 Regulation:T47 Theme:E32 Cause:T27
+% E29 Regulation:T47 Theme:E32
+% E30 Regulation:T47 Theme:E32 Cause:T24
+% E31 Regulation:T47 Theme:E32 Cause:T25
+% E32 Positive_regulation:T48 Theme:E33
+% E33 Transcription:T49 Theme:T28
+

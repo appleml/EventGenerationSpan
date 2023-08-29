@@ -1,0 +1,90 @@
+Insights into the Regulation of TNF-alpha Production in Human Mononuclear Cells: The Effects of Non-Specific Phosphodiesterase Inhibition
+# T1 Protein S1 32 41 32 41 TNF-alpha
+$ T1 Protein S1 32 41 32 41 TNF-alpha
+@ T12 Regulation S1 18 28 18 28 Regulation
+@ T13 Gene_expression S1 42 52 42 52 Production
+% E1 Regulation:T12 Theme:E2
+% E2 Gene_expression:T13 Theme:T1
+
+OBJECTIVE
+
+The objective of this study was to determine the effect of nonspecific phosphodiesterase inhibition on transcription factor activation and tumor necrosis factor-alpha (TNF-alpha) production in lipopolysaccharide (LPS)-stimulated human mononuclear cells.
+# T2 Protein S3 139 166 287 314 tumor necrosis factor-alpha
+# T3 Protein S3 168 177 316 325 TNF-alpha
+$ T2 Protein S3 139 166 287 314 tumor necrosis factor-alpha
+@ T14 Regulation S3 49 55 197 203 effect
+@ T15 Gene_expression S3 179 189 327 337 production
+% E3 Regulation:T14 Theme:E4
+% E4 Gene_expression:T15 Theme:T2
+
+INTRODUCTION
+
+The production of TNF-alpha following LPS stimulation is one of the key steps in bacterial sepsis and inflammation.
+# T4 Protein S5 18 27 433 442 TNF-alpha
+$ T4 Protein S5 18 27 433 442 TNF-alpha
+@ T16 Gene_expression S5 4 14 419 429 production
+@ T17 Positive_regulation S5 28 37 443 452 following
+% E5 Gene_expression:T16 Theme:T4
+% E6 Positive_regulation:T17 Theme:E5
+
+The mechanism by which phosphodiesterase inhibition alters TNF-alpha production in the presence of LPS remains unclear.
+# T5 Protein S6 59 68 590 599 TNF-alpha
+$ T5 Protein S6 59 68 590 599 TNF-alpha
+@ T18 Regulation S6 52 58 583 589 alters
+@ T19 Gene_expression S6 69 79 600 610 production
+@ T20 Positive_regulation S6 80 98 611 629 in the presence of
+% E7 Regulation:T18 Theme:E8
+% E8 Gene_expression:T19 Theme:T5
+% E9 Positive_regulation:T20 Theme:E7
+
+METHODS
+
+Human mononuclear cells were stimulated with LPS (1 mug/mL), in the presence and absence of Pentoxifylline (PTX; 20 mM), a nonspecific phosphodiesterase inhibitor.
+
+Western blotting of phosphorylated cytoplasmic I-kappaBalpha, nuclear factor-kappaB p65 (NF-kappaB), and nuclear cAMP-response element binding protein (CREB) was performed.
+# T6 Protein S9 47 60 870 883 I-kappaBalpha
+# T7 Protein S9 84 87 907 910 p65
+$ T6 Protein S9 47 60 870 883 I-kappaBalpha
+@ T21 Phosphorylation S9 20 34 843 857 phosphorylated
+% E10 Phosphorylation:T21 Theme:T6
+
+DNA binding of NF-kappaB and CREB was verified by electrophoretic mobility shift assay.
+
+TNF-alpha levels were determined in the supernatant of stimulated cells in the presence and absence Protein kinase A inhibition by an enzyme-linked immunosorbent assay (ELISA).
+# T8 Protein S11 0 9 1084 1093 TNF-alpha
+
+RESULTS
+
+PTX was demonstrated to significantly reduce cytoplasmic I-kappaBalpha phosphorylation, nuclear p65 phosphorylation, and the DNA binding activity of NF-kappaB.
+# T9 Protein S13 57 70 1326 1339 I-kappaBalpha
+# T10 Protein S13 96 99 1365 1368 p65
+$ T9 Protein S13 57 70 1326 1339 I-kappaBalpha
+$ T10 Protein S13 96 99 1365 1368 p65
+@ T22 Negative_regulation S13 38 44 1307 1313 reduce
+@ T23 Phosphorylation S13 71 86 1340 1355 phosphorylation
+@ T24 Phosphorylation S13 100 115 1369 1384 phosphorylation
+% E11 Negative_regulation:T22 Theme:E12
+% E13 Negative_regulation:T22 Theme:E14
+% E12 Phosphorylation:T23 Theme:T9
+% E14 Phosphorylation:T24 Theme:T10
+
+In contrast, PTX markedly enhanced the phosphorylation and DNA binding activity of CREB.
+
+Cells concomitantly treated with PTX and LPS secreted similar levels of TNF-alpha in the presence and absence Protein kinase A inhibition.
+# T11 Protein S15 72 81 1590 1599 TNF-alpha
+$ T11 Protein S15 72 81 1590 1599 TNF-alpha
+@ T25 Localization S15 45 53 1563 1571 secreted
+@ T26 Regulation S15 89 97 1607 1615 presence
+@ T27 Regulation S15 102 109 1620 1627 absence
+% E15 Localization:T25 Theme:T11
+% E16 Regulation:T26 Theme:E15
+% E17 Regulation:T27 Theme:E15
+
+DISCUSSION
+
+The increased level of cAMP that results from phosphodiesterase inhibition affects cytoplasmic and nuclear events, resulting in the attenuation of NF-kappaB and the activation of CREB transcriptional DNA binding through pathways that are partially Protein kinase A-independent.
+
+CONCLUSION
+
+PTX-mediated phosphodiesterase inhibition occurs partially through a Protein kinase A-independent pathway and may serve as a useful tool in the attenuation of LPS-induced inflammation.
+

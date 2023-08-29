@@ -1,0 +1,57 @@
+Plasmids.
+
+Expression vectors encoding human Foxp3 (pCMV-Foxp3-IRES-EGFP) and human Foxp3 lacking the forkhead (FKH) domain (pCMV-DeltaFKH-IRES-EGFP) were generous gifts from S. Ziegler (Benaroya Research Institute).
+# T1 Protein S2 34 39 44 49 Foxp3
+# T2 Protein S2 46 51 56 61 Foxp3
+# T3 Protein S2 73 78 83 88 Foxp3
+$ T1 Protein S2 34 39 44 49 Foxp3
+$ T3 Protein S2 73 78 83 88 Foxp3
+@ T17 Gene_expression S2 0 10 10 20 Expression
+@ T18 Negative_regulation S2 79 86 89 96 lacking
+@ T19 Entity S2 91 112 101 122 forkhead (FKH) domain
+% E1 Gene_expression:T17 Theme:T1
+% E2 Gene_expression:T17 Theme:T3
+% E3 Negative_regulation:T18 Theme:T3 Site:T19
+
+pEGFP-C2 was provided by I. Lipinski (NIDDK/NIH).
+
+pcDNA3 was provided by K. T. Jeang (NIAID/NIH).
+
+pCMV4-Tax was a generous gift from W. Greene (University of California San Francisco).
+# T4 Protein S5 6 9 320 323 Tax
+
+pGL4-luc2 and pGL4-TKhRluc2 were purchased from Promega (Madison, Wisconsin, United States).
+
+pUC18 was purchased from Stratagene (La Jolla, California, United States).
+
+HIV-1 wt LTR and HIV-1 Delta-kappaB LTR luciferase reporter vectors were constructed by cloning the XhoI/HindIII LTR fragments from pHIV-CAT and pDelta-kappaB-HIV-CAT (AIDS Research and Reference Reagent Program, NIAID/NIH) into the multiple cloning site of pGL4-luc2.
+# T5 Protein S8 40 50 609 619 luciferase
+# T6 Protein S8 137 140 706 709 CAT
+# T7 Protein S8 163 166 732 735 CAT
+
+NF-kappaB, HTLV-I LTR, and CREB luciferase reporter and pCMV-p300-HA expression vectors were generously provided by B. Wigdahl (Drexel University College of Medicine).
+# T8 Protein S9 32 42 870 880 luciferase
+# T9 Protein S9 61 65 899 903 p300
+$ T8 Protein S9 32 42 870 880 luciferase
+$ T9 Protein S9 61 65 899 903 p300
+@ T20 Gene_expression S9 69 79 907 917 expression
+% E4 Gene_expression:T20 Theme:T8
+% E5 Gene_expression:T20 Theme:T9
+
+HTLV-I pACH infectious molecular clone has been described previously [30].
+
+pFR-luc, pFA-CMV, pFA2-CREB-1, and pFA2-c-Jun were purchased from Stratagene.
+# T10 Protein S11 23 29 1104 1110 CREB-1
+# T11 Protein S11 40 45 1121 1126 c-Jun
+
+pFA-Tax (encoding a fusion protein consisting of the Gal4 DNA-binding domain fused in-frame to HTLV-I Tax) was constructed by PCR amplification of HTLV-I Tax using pCMV4-Tax as a template and BamHI/BglII-tagged primers.
+# T12 Protein S12 4 7 1163 1166 Tax
+# T13 Protein S12 53 57 1212 1216 Gal4
+# T14 Protein S12 102 105 1261 1264 Tax
+# T15 Protein S12 154 157 1313 1316 Tax
+# T16 Protein S12 170 173 1329 1332 Tax
+
+The amplified insert was digested and ligated into the BamHI/BglII sites of pFA-CMV.
+
+Plasmid contents were confirmed by DNA sequencing.
+

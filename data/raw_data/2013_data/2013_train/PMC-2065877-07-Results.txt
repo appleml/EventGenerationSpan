@@ -1,0 +1,220 @@
+LMP1 Activates Akt Signaling and Deregulates the Rb Cell Cycle Pathway
+# T1 Protein S1 0 4 0 4 LMP1
+# T2 Protein S1 15 18 15 18 Akt
+# T3 Protein S1 49 51 49 51 Rb
+
+LMP1 transformation of rodent fibroblasts requires activation of PI3K and Akt [5].
+# T4 Protein S2 0 4 71 75 LMP1
+# T5 Protein S2 74 77 145 148 Akt
+$ T5 Protein S2 74 77 145 148 Akt
+@ T70 Positive_regulation S2 42 50 113 121 requires
+@ T71 Positive_regulation S2 51 61 122 132 activation
+% E1 Positive_regulation:T70 Theme:E2
+% E2 Positive_regulation:T71 Theme:T5
+
+Additionally, activated pAkt is frequently detected in NPC and the neoplastic Reed-Sternberg cells of classical HD [39,40].
+# T6 Protein S3 24 28 178 182 pAkt
+$ T6 Protein S3 24 28 178 182 pAkt
+@ T72 Positive_regulation S3 14 23 168 177 activated
+% E3 Positive_regulation:T72 Theme:T6
+
+To determine if Akt signaling is activated in LMP1 transgenic mice, pAkt and several of its targets were assessed by immunoblotting of splenic CD19+ MACS-purified B cells.
+# T7 Protein S4 16 19 294 297 Akt
+# T8 Protein S4 46 50 324 328 LMP1
+# T9 Protein S4 68 72 346 350 pAkt
+# T10 Protein S4 143 147 421 425 CD19
+
+LMP1 transgenic B cells had increased levels of pAkt compared to wild-type lymphocytes; however, progression to lymphoma in both LMP1-positive and -negative lymphoma cells did not further increase pAkt levels.
+# T11 Protein S5 0 4 450 454 LMP1
+# T12 Protein S5 48 52 498 502 pAkt
+# T13 Protein S5 129 133 579 583 LMP1
+# T14 Protein S5 197 201 647 651 pAkt
+$ T12 Protein S5 48 52 498 502 pAkt
+$ T14 Protein S5 197 201 647 651 pAkt
+@ T73 Positive_regulation S5 28 37 478 487 increased
+@ T74 Positive_regulation S5 188 196 638 646 increase
+% E4 Positive_regulation:T73 Theme:T12
+% E5 Positive_regulation:T74 Theme:T14
+
+The Akt target glycogen synthase kinase 3 (GSK3) is inactivated by phosphorylation; however, increased phosphorylated GSK3 was not detected in the transgenic lymphocytes and was almost absent in the lymphoma samples (Figure 6A).
+# T15 Protein S6 4 7 664 667 Akt
+# T16 Protein S6 15 41 675 701 glycogen synthase kinase 3
+# T17 Protein S6 43 47 703 707 GSK3
+# T18 Protein S6 118 122 778 782 GSK3
+$ T15 Protein S6 4 7 664 667 Akt
+$ T16 Protein S6 15 41 675 701 glycogen synthase kinase 3
+$ T18 Protein S6 118 122 778 782 GSK3
+@ T75 Binding S6 8 14 668 674 target
+@ T76 Negative_regulation S6 52 63 712 723 inactivated
+@ T77 Positive_regulation S6 93 102 753 762 increased
+@ T78 Phosphorylation S6 103 117 763 777 phosphorylated
+% E6 Binding:T75 Theme:T15 Theme2:T16
+% E7 Negative_regulation:T76 Theme:E6
+% E8 Positive_regulation:T77 Theme:E9
+% E9 Phosphorylation:T78 Theme:T18
+
+This finding indicates that GSK3 is not a target of activated Akt in the LMP1 transgenic lymphocytes and lymphoma cells.
+# T19 Protein S7 28 32 917 921 GSK3
+# T20 Protein S7 62 65 951 954 Akt
+# T21 Protein S7 73 77 962 966 LMP1
+$ T19 Protein S7 28 32 917 921 GSK3
+$ T20 Protein S7 62 65 951 954 Akt
+@ T79 Binding S7 42 48 931 937 target
+@ T80 Positive_regulation S7 52 61 941 950 activated
+% E10 Binding:T79 Theme:T19 Theme2:T20
+% E11 Positive_regulation:T80 Theme:T20
+
+Similarly, activation of Akt without phosphorylation of GSK3 has been previously shown in EBV-positive HD [40].
+# T22 Protein S8 25 28 1035 1038 Akt
+# T23 Protein S8 56 60 1066 1070 GSK3
+$ T22 Protein S8 25 28 1035 1038 Akt
+$ T23 Protein S8 56 60 1066 1070 GSK3
+@ T81 Positive_regulation S8 11 21 1021 1031 activation
+@ T82 Phosphorylation S8 37 52 1047 1062 phosphorylation
+% E12 Positive_regulation:T81 Theme:T22
+% E13 Phosphorylation:T82 Theme:T23
+
+In contrast, the wild-type lymphocytes lacked activated Akt but did have detectable phosphorylated GSK3.
+# T24 Protein S9 56 59 1178 1181 Akt
+# T25 Protein S9 99 103 1221 1225 GSK3
+$ T24 Protein S9 56 59 1178 1181 Akt
+$ T25 Protein S9 99 103 1221 1225 GSK3
+@ T83 Positive_regulation S9 46 55 1168 1177 activated
+@ T84 Phosphorylation S9 84 98 1206 1220 phosphorylated
+% E14 Positive_regulation:T83 Theme:T24
+% E15 Phosphorylation:T84 Theme:T25
+
+This further suggests that additional pathways are involved in the regulation of GSK3.
+# T26 Protein S10 81 85 1308 1312 GSK3
+$ T26 Protein S10 81 85 1308 1312 GSK3
+@ T85 Regulation S10 67 77 1294 1304 regulation
+% E16 Regulation:T85 Theme:T26
+
+To identify other potential Akt targets, immunoblot analysis for p-mTOR was performed.
+# T27 Protein S11 28 31 1342 1345 Akt
+# T28 Protein S11 65 71 1379 1385 p-mTOR
+$ T27 Protein S11 28 31 1342 1345 Akt
+@ T86 Binding S11 32 39 1346 1353 targets
+% E17 Binding:T86 Theme:T27
+
+Activated p-mTOR was not increased in LMP1 transgenic lymphocytes or lymphoma cells, indicating that this pathway is not affected by LMP1-induced Akt activation and does not contribute to lymphoma development (Figure 6B).
+# T29 Protein S12 10 16 1411 1417 p-mTOR
+# T30 Protein S12 38 42 1439 1443 LMP1
+# T31 Protein S12 133 137 1534 1538 LMP1
+# T32 Protein S12 146 149 1547 1550 Akt
+$ T29 Protein S12 10 16 1411 1417 p-mTOR
+$ T31 Protein S12 133 137 1534 1538 LMP1
+$ T32 Protein S12 146 149 1547 1550 Akt
+@ T87 Positive_regulation S12 0 9 1401 1410 Activated
+@ T88 Positive_regulation S12 25 34 1426 1435 increased
+@ T69 Anaphora S12 101 113 1502 1514 this pathway
+@ T89 Regulation S12 121 129 1522 1530 affected
+@ T90 Positive_regulation S12 138 145 1539 1546 induced
+@ T91 Positive_regulation S12 150 160 1551 1561 activation
+% E18 Positive_regulation:T87 Theme:T29
+% E19 Positive_regulation:T88 Theme:E18
+% E20 Regulation:T89 Theme:E18 Cause:E21
+% E21 Positive_regulation:T90 Theme:E22 Cause:T31
+% E22 Positive_regulation:T91 Theme:T32
+
+Akt is also known to phosphorylate and induce the degradation of the pro-apoptotic Forkhead family of transcription factors, leading to cell cycle progression and survival in some human tumors [41,42].
+# T33 Protein S13 0 3 1623 1626 Akt
+
+Immunoblot analysis of splenic B cells did not consistently detect p-FoxO1 levels, a signal that targets FoxO1 for degradation.
+# T34 Protein S14 69 74 1894 1899 FoxO1
+# T35 Protein S14 105 110 1930 1935 FoxO1
+$ T35 Protein S14 105 110 1930 1935 FoxO1
+@ T92 Regulation S14 97 104 1922 1929 targets
+% E23 Regulation:T92 Theme:T35
+
+Hence, degradation of FoxO1 was assessed by detection of total FoxO1 levels.
+# T36 Protein S15 22 27 1975 1980 FoxO1
+# T37 Protein S15 63 68 2016 2021 FoxO1
+
+Immunoblot analysis indicated that total FoxO1 levels were greatly decreased in wild-type and LMP1 transgenic lymphomas (Figure 6B), suggesting that inhibition of the Forkhead signaling pathway is an important target of Akt in lymphoma development.
+# T38 Protein S16 41 46 2071 2076 FoxO1
+# T39 Protein S16 94 98 2124 2128 LMP1
+# T40 Protein S16 220 223 2250 2253 Akt
+$ T38 Protein S16 41 46 2071 2076 FoxO1
+@ T93 Negative_regulation S16 67 76 2097 2106 decreased
+% E24 Negative_regulation:T93 Theme:T38
+
+However, considering that Akt activation did not induce FoxO1 degradation in LMP1 transgenic B cells, Akt may not be the sole regulator of FoxO1, and it may be that progression to lymphoma requires modulation of multiple pathways.
+# T41 Protein S17 26 29 2305 2308 Akt
+# T42 Protein S17 56 61 2335 2340 FoxO1
+# T43 Protein S17 77 81 2356 2360 LMP1
+# T44 Protein S17 102 105 2381 2384 Akt
+# T45 Protein S17 139 144 2418 2423 FoxO1
+$ T41 Protein S17 26 29 2305 2308 Akt
+$ T42 Protein S17 56 61 2335 2340 FoxO1
+$ T45 Protein S17 139 144 2418 2423 FoxO1
+$ T44 Protein S17 102 105 2381 2384 Akt
+@ T94 Positive_regulation S17 30 40 2309 2319 activation
+@ T95 Positive_regulation S17 49 55 2328 2334 induce
+@ T96 Negative_regulation S17 62 73 2341 2352 degradation
+@ T97 Regulation S17 126 135 2405 2414 regulator
+% E25 Positive_regulation:T94 Theme:T41
+% E26 Positive_regulation:T95 Theme:E27 Cause:E25
+% E27 Negative_regulation:T96 Theme:T42
+% E28 Regulation:T97 Theme:T45 Cause:T44
+
+The Forkhead family of transcription factors is known to induce the expression of the Cdk inhibitor p27 [43,44].
+# T46 Protein S18 100 103 2610 2613 p27
+$ T46 Protein S18 100 103 2610 2613 p27
+@ T98 Gene_expression S18 68 78 2578 2588 expression
+% E29 Gene_expression:T98 Theme:T46
+
+LMP1-transformed rodent fibroblasts have decreased expression of p27, upregulation of Cdk2, and subsequent phosphorylation and inactivation of the tumor suppressor gene Rb [45].
+# T47 Protein S19 0 4 2623 2627 LMP1
+# T48 Protein S19 65 68 2688 2691 p27
+# T49 Protein S19 86 90 2709 2713 Cdk2
+# T50 Protein S19 169 171 2792 2794 Rb
+
+To investigate whether LMP1 affected cell cycle regulation through the Rb pathway in B cells, immunoblot analyses for pRb, Cdk2, and p27 were performed on splenic CD19+ MACS-purified B cells.
+# T51 Protein S20 23 27 2824 2828 LMP1
+# T52 Protein S20 71 73 2872 2874 Rb
+# T53 Protein S20 118 121 2919 2922 pRb
+# T54 Protein S20 123 127 2924 2928 Cdk2
+# T55 Protein S20 133 136 2934 2937 p27
+# T56 Protein S20 163 167 2964 2968 CD19
+
+LMP1 transgenic B cells had enhanced levels of pRb with concomitant stabilization of total Rb levels and Cdk2 compared to wild-type B lymphocytes (Figure 6C).
+# T57 Protein S21 0 4 2993 2997 LMP1
+# T58 Protein S21 47 50 3040 3043 pRb
+# T59 Protein S21 91 93 3084 3086 Rb
+# T60 Protein S21 105 109 3098 3102 Cdk2
+$ T58 Protein S21 47 50 3040 3043 pRb
+$ T60 Protein S21 105 109 3098 3102 Cdk2
+@ T99 Positive_regulation S21 28 36 3021 3029 enhanced
+% E30 Positive_regulation:T99 Theme:T58
+% E31 Positive_regulation:T99 Theme:T60
+
+Progression to lymphoma in both wild-type and LMP1 transgenic lymphoma cells led to increased levels of Rb, correspondingly high levels of Cdk2, and decreased levels of p27 (Figure 6C).
+# T61 Protein S22 46 50 3198 3202 LMP1
+# T62 Protein S22 104 106 3256 3258 Rb
+# T63 Protein S22 139 143 3291 3295 Cdk2
+# T64 Protein S22 169 172 3321 3324 p27
+$ T62 Protein S22 104 106 3256 3258 Rb
+$ T63 Protein S22 139 143 3291 3295 Cdk2
+$ T64 Protein S22 169 172 3321 3324 p27
+@ T100 Positive_regulation S22 77 80 3229 3232 led
+@ T101 Positive_regulation S22 84 93 3236 3245 increased
+@ T102 Positive_regulation S22 124 135 3276 3287 high levels
+@ T103 Negative_regulation S22 149 158 3301 3310 decreased
+% E32 Positive_regulation:T100 Theme:E33
+% E33 Positive_regulation:T101 Theme:T62
+% E34 Positive_regulation:T102 Theme:T63
+% E35 Negative_regulation:T103 Theme:T64
+
+These data indicate that the Rb pathway is deregulated in LMP1 transgenic lymphocytes and that lymphoma cells are distinguished by loss of FoxO1 and decreased p27.
+# T65 Protein S23 29 31 3367 3369 Rb
+# T66 Protein S23 58 62 3396 3400 LMP1
+# T67 Protein S23 139 144 3477 3482 FoxO1
+# T68 Protein S23 159 162 3497 3500 p27
+$ T67 Protein S23 139 144 3477 3482 FoxO1
+$ T68 Protein S23 159 162 3497 3500 p27
+@ T104 Negative_regulation S23 131 135 3469 3473 loss
+@ T105 Negative_regulation S23 149 158 3487 3496 decreased
+% E36 Negative_regulation:T104 Theme:T67
+% E37 Negative_regulation:T105 Theme:T68
+

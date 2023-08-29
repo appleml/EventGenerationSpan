@@ -1,0 +1,12 @@
+Cloning of the FOXP3 promoter and construction of mutant constructs.
+# T1 Protein S1 15 20 15 20 FOXP3
+
+The FOXP3 promoter was cloned into the pGL3 basic vector (Promega Biotech) to generate the pGL3 FOXP3 -511/+176 [24].
+# T2 Protein S2 4 9 73 78 FOXP3
+# T3 Protein S2 96 101 165 170 FOXP3
+
+Site-directed mutagenesis in the FOXP3 promoter region were introduced using the QuickChange kit (Stratagene), according to the manufacturer's instructions.
+# T4 Protein S3 33 38 220 225 FOXP3
+
+The following primer and its complementary strand were used: GTT TCT CAT GAG CCC TAT TAA GTC ATT CTT ACC TCT CAC CTC TGT GGT GA.
+

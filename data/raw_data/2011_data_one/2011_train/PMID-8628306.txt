@@ -1,0 +1,57 @@
+Identification of an inducible regulator of c-myb expression during T-cell activation.
+# T1 Protein S1 44 49 44 49 c-myb
+$ T1 Protein S1 44 49 44 49 c-myb
+@ T9 Regulation S1 31 40 31 40 regulator
+@ T10 Gene_expression S1 50 60 50 60 expression
+% E1 Regulation:T9 Theme:E2
+% E2 Gene_expression:T10 Theme:T1
+
+Resting T cells express very low levels of c-Myb protein.
+# T2 Protein S2 43 48 131 136 c-Myb
+$ T2 Protein S2 43 48 131 136 c-Myb
+@ T11 Gene_expression S2 16 23 104 111 express
+% E3 Gene_expression:T11 Theme:T2
+
+During T-cell activation, c-myb expression is induced and much of the increase in expression occurs at the transcriptional level.
+# T3 Protein S3 26 31 172 177 c-myb
+$ T3 Protein S3 26 31 172 177 c-myb
+@ T12 Gene_expression S3 32 42 178 188 expression
+@ T13 Positive_regulation S3 46 53 192 199 induced
+% E4 Gene_expression:T12 Theme:T3
+% E5 Positive_regulation:T13 Theme:E4
+
+We identified a region of the c-myb 5' flanking sequence that increased c-myb expression during T-cell activation.
+# T4 Protein S4 30 35 306 311 c-myb
+# T5 Protein S4 72 77 348 353 c-myb
+$ T5 Protein S4 72 77 348 353 c-myb
+@ T14 Positive_regulation S4 62 71 338 347 increased
+@ T15 Gene_expression S4 78 88 354 364 expression
+% E6 Positive_regulation:T14 Theme:E7
+% E7 Gene_expression:T15 Theme:T5
+
+In vivo footprinting by ligation-mediated PCR was performed to correlate in vivo protein binding with functional activity.
+
+A protein footprint was visible over this region of the c-myb 5' flanking sequence in activated T cells but not in unactivated T cells.
+# T6 Protein S6 56 61 570 575 c-myb
+
+An electrophoretic mobility shift assay (EMSA) with nuclear extract from activated T cells and an oligonucleotide of this binding site demonstrated a new protein-DNA complex, referred to as CMAT for c-myb in activated T cells; this complex was not present in unactivated T cells.
+# T7 Protein S7 199 204 849 854 c-myb
+
+Because the binding site showed some sequence similarity with the nuclear factor of activated T cells (NFAT) binding site, we compared the kinetics of induction of the two binding complexes and the molecular masses of the two proteins.
+
+Studies of the kinetics of induction showed that the NFAT EMSA binding complex appeared earlier than the CMAT complex.
+
+The NFAT protein migrated more slowly in a sodium dodecyl sulfate-polyacrylamide gel than the CMAT protein did.
+
+In addition, an antibody against NFAT did not cross-react with the CMAT protein.
+
+The appearance of the CMAT binding complex was inhibited by both cyclosporin A and rapamycin.
+
+The CMAT protein appears to be a novel inducible protein involved in the regulation of c-myb expression during T-cell activation.
+# T8 Protein S13 87 92 1659 1664 c-myb
+$ T8 Protein S13 87 92 1659 1664 c-myb
+@ T16 Regulation S13 73 83 1645 1655 regulation
+@ T17 Gene_expression S13 93 103 1665 1675 expression
+% E8 Regulation:T16 Theme:E9
+% E9 Gene_expression:T17 Theme:T8
+

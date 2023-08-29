@@ -1,0 +1,55 @@
+Interleukin-3 expression by activated T cells involves an inducible, T-cell-specific factor and an octamer binding protein.
+# T1 Protein S1 0 13 0 13 Interleukin-3
+$ T1 Protein S1 0 13 0 13 Interleukin-3
+@ T10 Gene_expression S1 14 24 14 24 expression
+% E1 Gene_expression:T10 Theme:T1
+
+Interleukin-3 (IL-3) is exclusively expressed by activated T and natural killer cells, a function that is tightly controlled both in a lineage-specific and in a stimulation-dependent manner.
+# T2 Protein S2 0 13 125 138 Interleukin-3
+# T3 Protein S2 15 19 140 144 IL-3
+$ T3 Protein S2 15 19 140 144 IL-3
+@ T11 Gene_expression S2 36 45 161 170 expressed
+@ T12 Regulation S2 114 124 239 249 controlled
+% E2 Gene_expression:T11 Theme:T3
+% E3 Regulation:T12 Theme:T3
+
+We have investigated the protein binding characteristics and functional importance of the ACT-1-activating region of the IL-3 promoter.
+# T4 Protein S3 121 125 437 441 IL-3
+@ T13 Entity S3 90 113 406 429 ACT-1-activating region
+
+This region binds an inducible, T-cell-specific factor over its 5' end, a site that is necessary for the expression of IL-3 in the absence of other upstream elements.
+# T5 Protein S4 119 123 571 575 IL-3
+$ T5 Protein S4 119 123 571 575 IL-3
+@ T14 Binding S4 12 17 464 469 binds
+@ T15 Positive_regulation S4 87 96 539 548 necessary
+@ T16 Gene_expression S4 105 115 557 567 expression
+% E4 Binding:T14 Theme:T4 Site:T13
+% E5 Positive_regulation:T15 Theme:E6
+% E6 Gene_expression:T16 Theme:T5
+
+Over its 3' end, it binds a factor that is ubiquitously and constitutively expressed.
+@ T17 Binding S5 20 25 639 644 binds
+% E7 Binding:T17 Theme:T4 Site:T13
+
+This factor is Oct-1 or an immunologically related octamer-binding protein, and it plays a role in coordinating the activity of several regulatory elements.
+# T6 Protein S6 15 20 720 725 Oct-1
+
+These characteristics make the ACT-1 site analogous to the activating ARRE-1 site in the IL-2 promoter.
+# T7 Protein S7 89 93 951 955 IL-2
+$ T7 Protein S7 89 93 951 955 IL-2
+@ T18 Positive_regulation S7 59 69 921 931 activating
+@ T19 Entity S7 70 81 932 943 ARRE-1 site
+% E8 Positive_regulation:T18 Theme:T7 Site:T19
+
+Furthermore, and despite a lack of sequence homology, the promoters of IL-3 and IL-2 share an organizational pattern of regulatory elements that is likely to be important for the T-cell-specific expression of these genes.
+# T8 Protein S8 71 75 1037 1041 IL-3
+# T9 Protein S8 80 84 1046 1050 IL-2
+$ T8 Protein S8 71 75 1037 1041 IL-3
+$ T9 Protein S8 80 84 1046 1050 IL-2
+@ T20 Positive_regulation S8 161 170 1127 1136 important
+@ T21 Gene_expression S8 195 205 1161 1171 expression
+% E9 Positive_regulation:T20 Theme:E12
+% E10 Positive_regulation:T20 Theme:E11
+% E11 Gene_expression:T21 Theme:T8
+% E12 Gene_expression:T21 Theme:T9
+

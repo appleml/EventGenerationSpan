@@ -1,0 +1,40 @@
+Extracellular signal-regulated protein kinase (ERK)-dependent and ERK-independent pathways target STAT3 on serine-727 in human neutrophils stimulated by chemotactic factors and cytokines.
+# T1 Protein S1 0 45 0 45 Extracellular signal-regulated protein kinase
+# T2 Protein S1 47 50 47 50 ERK
+# T3 Protein S1 66 69 66 69 ERK
+# T4 Protein S1 98 103 98 103 STAT3
+
+STAT3 (signal transducer and activator of transcription 3) is a latent transcription factor that is activated by tyrosine phosphorylation (Tyr-705) in cells stimulated with cytokines or growth factors.
+# T5 Protein S2 0 5 189 194 STAT3
+# T6 Protein S2 7 57 196 246 signal transducer and activator of transcription 3
+
+Recent studies suggest that one or more cytoplasmic serine kinases also phosphorylate STAT3 and are necessary for maximal gene activation.
+# T7 Protein S3 86 91 477 482 STAT3
+
+Here we demonstrate, with a site-specific antibody, that STAT3 is phosphorylated on Ser-727 in human neutrophils stimulated with chemotactic factors (N-formyl-methionyl-leucyl-phenylalanine and complement C5a), cytokines [granulocyte/macrophage colony-stimulating factor (GM-CSF) and granulocyte colony-stimulating factor (G-CSF)], or a protein kinase C activator (PMA).
+# T8 Protein S4 57 62 587 592 STAT3
+# T9 Protein S4 222 270 752 800 granulocyte/macrophage colony-stimulating factor
+# T10 Protein S4 272 278 802 808 GM-CSF
+# T11 Protein S4 284 321 814 851 granulocyte colony-stimulating factor
+# T12 Protein S4 323 328 853 858 G-CSF
+
+(2-Amino-3'-methoxyphenyl)oxanaphthalen-4-one (PD 98059), an inhibitor of extracellular signal-regulated protein kinase (ERK) activation, blocked the serine phosphorylation of STAT3 induced by chemotactic factors or PMA.
+# T13 Protein S5 74 119 975 1020 extracellular signal-regulated protein kinase
+# T14 Protein S5 121 124 1022 1025 ERK
+# T15 Protein S5 176 181 1077 1082 STAT3
+
+The drug was less effective on cytokines: it virtually abolished the response to GM-CSF that occurred 5 min after stimulation but only partly decreased those at 15-30 min and did not appreciably alter responses to G-CSF regardless of incubation time.
+# T16 Protein S6 81 87 1203 1209 GM-CSF
+# T17 Protein S6 214 219 1336 1341 G-CSF
+
+1-(5-Isoquinolinylsulphonyl)-2-methylpiperazine dihydrochloride (H7), an inhibitor of a putative STAT3 serine kinase, and 4-(4-fluorophenyl)-2-(4-methylsulphinylphenyl)-5-(4-pyridyl) 1H-imidazole (SB 203580), an inhibitor of p38 mitogen-activated protein (MAP) kinase, did not dampen any of these serine phosphorylation responses.
+# T18 Protein S7 97 102 1470 1475 STAT3
+
+We propose that neutrophils use both ERK-dependent and ERK-independent pathways to phosphorylate Ser-727 on STAT3.
+# T19 Protein S8 37 40 1741 1744 ERK
+# T20 Protein S8 55 58 1759 1762 ERK
+# T21 Protein S8 108 113 1812 1817 STAT3
+
+The former pathway is recruited by all ERK-activating stimuli, whereas the latter pathway uses an undefined serine kinase and is recruited selectively by cytokines.
+# T22 Protein S9 39 42 1858 1861 ERK
+

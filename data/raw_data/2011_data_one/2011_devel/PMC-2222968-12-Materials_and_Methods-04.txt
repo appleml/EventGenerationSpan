@@ -1,0 +1,17 @@
+Inducible murine Treg culture.
+
+Naive CD4+ T cells (CD4+, CD62L+, and CD25-) were isolated from pooled lymph nodes and spleens by FACS (FACS Aria, BD Biosciences).
+# T1 Protein S2 6 9 37 40 CD4
+# T2 Protein S2 20 23 51 54 CD4
+# T3 Protein S2 26 31 57 62 CD62L
+# T4 Protein S2 38 42 69 73 CD25
+
+5 x 105 T cells were co-cultured with 2.5 x 104 bone marrow-derived dendritic cells [62] and 0.01 mug/ml OVA323-339 peptide (Ansynth) in the presence or absence of 20-ng/mul rhTGF-ss1 (Peprotech) in 48-well plates.
+# T5 Protein S3 176 183 339 346 TGF-ss1
+
+After 4 d, cells were harvested and analyzed for intracellular FOXP3 expression by FACS or gene expression by quantitative RT-PCR.
+# T6 Protein S4 63 68 441 446 FOXP3
+$ T6 Protein S4 63 68 441 446 FOXP3
+@ T7 Gene_expression S4 69 79 447 457 expression
+% E1 Gene_expression:T7 Theme:T6
+

@@ -1,0 +1,53 @@
+NF-X2 that binds to the DRA X2-box is activator protein 1.
+
+Expression cloning of c-Jun.
+# T1 Protein S2 22 27 81 86 c-Jun
+
+Human class II MHC Ag are a family of cell surface glycoproteins.
+
+Their constitutive expression is limited to B lymphocytes and thymic epithelial cells.
+
+In many other cells their expression can be induced by IFN-gamma.
+# T2 Protein S5 55 64 297 306 IFN-gamma
+
+Conserved upstream promoter sequences regulate this tissue-specific expression of class II genes.
+
+In the DRA promoter, one of these cis-acting regulatory motifs is the X2-box to which nuclear factor X2 (NF-X2) binds.
+
+Here, we present the isolation and characterization of the full-length cDNA clone encoding NF-X2.
+
+This cDNA clone was isolated by expression cDNA cloning, and encodes the human c-Jun protein, which together with c-Fos forms the heterodimeric activator protein-1 transcription complex.
+# T3 Protein S9 79 84 702 707 c-Jun
+# T4 Protein S9 114 119 737 742 c-Fos
+$ T3 Protein S9 79 84 702 707 c-Jun
+$ T4 Protein S9 114 119 737 742 c-Fos
+@ T10 Binding S9 178 185 801 808 complex
+% E1 Binding:T10 Theme:T3 Theme2:T4
+
+Whereas c-Fos/c-Jun heterodimers do not exist in B cells, they form and bind to the X2-box in class II nonexpressing cells.
+# T5 Protein S10 8 13 818 823 c-Fos
+# T6 Protein S10 14 19 824 829 c-Jun
+$ T6 Protein S10 14 19 824 829 c-Jun
+$ T5 Protein S10 8 13 818 823 c-Fos
+@ T11 Gene_expression S10 40 45 850 855 exist
+@ T12 Binding S10 63 67 873 877 form
+@ T13 Binding S10 72 76 882 886 bind
+% E2 Gene_expression:T11 Theme:T6
+% E3 Gene_expression:T11 Theme:T5
+% E4 Binding:T12 Theme:T5 Theme2:T6
+% E5 Binding:T13 Theme:T5
+% E6 Binding:T13 Theme:T6
+
+Thus, c-Fos/c-Jun heterodimers might contribute to the repression of DRA gene expression.
+# T7 Protein S11 6 11 940 945 c-Fos
+# T8 Protein S11 12 17 946 951 c-Jun
+# T9 Protein S11 69 72 1003 1006 DRA
+$ T8 Protein S11 12 17 946 951 c-Jun
+$ T7 Protein S11 6 11 940 945 c-Fos
+$ T9 Protein S11 69 72 1003 1006 DRA
+@ T14 Negative_regulation S11 55 65 989 999 repression
+@ T15 Gene_expression S11 78 88 1012 1022 expression
+% E7 Negative_regulation:T14 Theme:E9 Cause:T8
+% E8 Negative_regulation:T14 Theme:E9 Cause:T7
+% E9 Gene_expression:T15 Theme:T9
+

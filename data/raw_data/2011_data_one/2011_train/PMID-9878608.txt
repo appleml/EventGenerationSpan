@@ -1,0 +1,25 @@
+Reactivation of Kaposi's sarcoma-associated herpesvirus infection from latency by expression of the ORF 50 transactivator, a homolog of the EBV R protein.
+# T1 Protein S1 100 121 100 121 ORF 50 transactivator
+# T2 Protein S1 140 145 140 145 EBV R
+$ T1 Protein S1 100 121 100 121 ORF 50 transactivator
+@ T4 Gene_expression S1 82 92 82 92 expression
+% E1 Gene_expression:T4 Theme:T1
+
+Kaposi's sarcoma (KS)-associated herpesvirus (KSHV), or human herpesvirus 8, is a lymphotropic virus strongly linked to several AIDS-related neoplasms.
+
+The primary reservoir of infection consists of latently infected B lymphocytes and possibly other mononuclear cells.
+
+Viral reactivation from latency and spread from this lymphoid reservoir is presumably required for development of nonlymphoid tumors like KS.
+
+Here we show that deregulated expression of a single viral gene, ORF 50, which encodes a transactivator able to selectively upregulate delayed-early viral genes, suffices to disrupt latency and induce the lytic gene cascade in latently infected B cells.
+# T3 Protein S5 65 71 632 638 ORF 50
+$ T3 Protein S5 65 71 632 638 ORF 50
+@ T5 Regulation S5 18 29 585 596 deregulated
+@ T6 Gene_expression S5 30 40 597 607 expression
+% E2 Regulation:T5 Theme:E3
+% E3 Gene_expression:T6 Theme:T3
+
+The identification of this gene opens the way to studies of the physiologic mechanisms controlling reactvation of KSHV from latency.
+
+Copyright 1998 Academic Press.
+

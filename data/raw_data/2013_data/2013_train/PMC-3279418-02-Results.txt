@@ -1,0 +1,48 @@
+Characterization of Sharpin
+# T1 Protein S1 20 27 20 27 Sharpin
+
+Orthologs of SHARPIN protein are found in various species, including human, mouse and rat.
+# T2 Protein S2 13 20 41 48 SHARPIN
+
+Motif prediction programming, using COILS [11] and MotifScan [12], suggests that SHARPIN contains a coiled-coil (CC) domain, a ubiquitin-like (UBL) domain, and a zinc-finger Ran-binding protein 2 (ZFRBP) domain.
+# T3 Protein S3 81 88 200 207 SHARPIN
+
+These functional motifs constitute similar domain profiles that are present in the SHARPIN protein of all three origins (Fig. 1A), suggesting that SHARPIN exerts highly conserved functions across species.
+# T4 Protein S4 83 90 414 421 SHARPIN
+# T5 Protein S4 147 154 478 485 SHARPIN
+
+Spontaneous mutations in the mouse Sharpin gene results in a complex inflammatory phenotype characterized by severe dermatitis (Fig. 1B), systemic inflammation and an enlarged spleen (Fig. 1C) caused by extramedullary hematopoiesis [3].
+# T6 Protein S5 35 42 571 578 Sharpin
+$ T6 Protein S5 35 42 571 578 Sharpin
+@ T13 Negative_regulation S5 12 21 548 557 mutations
+% E1 Negative_regulation:T13 Theme:T6
+
+The endogenous expression of Sharpin mRNA in BMDC was determined by quantitative real time-PCR (qRT-PCR) following culture in medium only or after stimulation with LPS.
+# T7 Protein S6 29 36 802 809 Sharpin
+$ T7 Protein S6 29 36 802 809 Sharpin
+@ T14 Transcription S6 15 25 788 798 expression
+% E2 Transcription:T14 Theme:T7
+
+Sharpin mRNA was present in BMDC generated from WT mice (Fig. 1D) and its level was modestly decreased by LPS stimulation.
+# T8 Protein S7 0 7 942 949 Sharpin
+$ T8 Protein S7 0 7 942 949 Sharpin
+@ T15 Transcription S7 17 24 959 966 present
+@ T12 Anaphora S7 70 79 1012 1021 its level
+@ T16 Negative_regulation S7 93 102 1035 1044 decreased
+% E3 Transcription:T15 Theme:T8
+% E4 Negative_regulation:T16 Theme:E3
+
+There was a significant reduction of Sharpin mRNA (6-7-fold) in BMDC generated from cpdm mice.
+# T9 Protein S8 37 44 1102 1109 Sharpin
+$ T9 Protein S8 37 44 1102 1109 Sharpin
+@ T17 Negative_regulation S8 24 33 1089 1098 reduction
+% E5 Negative_regulation:T17 Theme:T9
+
+Transfection of Flag-tagged Sharpin in fibroblasts (NIH3T3) and macrophages (RAW264.7) indicated cytoplasmic localization of the SHARPIN protein (Fig. 1E).
+# T10 Protein S9 28 35 1188 1195 Sharpin
+# T11 Protein S9 129 136 1289 1296 SHARPIN
+$ T11 Protein S9 129 136 1289 1296 SHARPIN
+@ T18 Entity S9 97 108 1257 1268 cytoplasmic
+@ T19 Localization S9 109 121 1269 1281 localization
+% E6 Localization:T19 Theme:T11 ToLoc:T18
+

@@ -1,0 +1,25 @@
+Binding of c-Rel to STAT5 target sequences in HTLV-I-transformed T cells.
+# T1 Protein S1 11 16 11 16 c-Rel
+
+The type I human T-cell leukemia virus (HTLV-I) induces abnormal growth and subsequent transformation of T cells, which is associated with the development of an acute T-cell malignancy termed adult T-cell leukemia.
+
+A characteristic of HTLV-I-transformed T cells is the constitutive nuclear expression of NF-kappaB/Rel family of transcription factors, which appears to be essential for the growth of these transformed cells.
+
+Although NF-kappaB/Rel factors are known to induce the expression of T-cell growth factor interleukin (IL)-2, it is unclear how they participate in the IL-2-independent growth of HTLV-I-transformed cells.
+# T2 Protein S4 90 108 589 607 interleukin (IL)-2
+# T3 Protein S4 152 156 651 655 IL-2
+
+In this study, we show that certain NF-kappaB/Rel members, predominantly c-Rel, interact with enhancer sequences for STAT5, a key transcription factor mediating IL-2-induced T-cell proliferation.
+# T4 Protein S5 73 78 777 782 c-Rel
+# T5 Protein S5 161 165 865 869 IL-2
+
+Reporter gene assays reveal that the binding of c-Rel to the STAT5 site present in the Fc gammaR1 gene leads to potent transactivation of this enhancer.
+# T6 Protein S6 48 53 948 953 c-Rel
+# T7 Protein S6 87 97 987 997 Fc gammaR1
+
+Binding of c-Rel to the Fc gammaR1 STAT site also occurs in human peripheral blood T cells immortalized with HTLV-I in vitro and is correlated with enhanced levels of proliferation of these cells.
+# T8 Protein S7 11 16 1064 1069 c-Rel
+# T9 Protein S7 24 34 1077 1087 Fc gammaR1
+
+These results raise the possibility that NF-kappaB/Rel may participate in the growth control of HTLV-I-transformed T cells by regulating genes driven by both kappaB and certain STAT enhancers.
+

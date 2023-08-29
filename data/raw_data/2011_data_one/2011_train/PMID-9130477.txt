@@ -1,0 +1,23 @@
+Regulation of human epsilon germline transcription: role of B-cell-specific activator protein.
+# T1 Protein S1 60 93 60 93 B-cell-specific activator protein
+
+Germline transcripts initiate from promoters upstream of the immunoglobulin switch region, and are necessary to target the appropriate switch region for recombination and switching.
+
+Different cytokines activate transcription at the appropriate germline promoter.
+
+Because binding sites for B-cell-specific activator protein (BSAP) are located upstream of several switch regions in the immunoglobulin heavy chain gene cluster, BSAP might play a role in the regulation of germline transcription and isotype switching.
+# T2 Protein S4 26 59 385 418 B-cell-specific activator protein
+# T3 Protein S4 61 65 420 424 BSAP
+# T4 Protein S4 162 166 521 525 BSAP
+
+We investigated whether BSAP plays a role in the transcriptional regulation of the epsilon germline promoter in human B cells.
+# T5 Protein S5 24 28 635 639 BSAP
+
+Our results showed that BSAP plays a role in both IL-4-dependent induction and CD40-mediated upregulation of human epsilon germline transcription.
+# T6 Protein S6 24 28 762 766 BSAP
+# T7 Protein S6 50 54 788 792 IL-4
+# T8 Protein S6 79 83 817 821 CD40
+
+BSAP is unique among the transcription factors that regulate epsilon germline expression, because it is B cell specific, and is at the merging point of two signalling pathways that are critical for IgE switching.
+# T9 Protein S7 0 4 885 889 BSAP
+

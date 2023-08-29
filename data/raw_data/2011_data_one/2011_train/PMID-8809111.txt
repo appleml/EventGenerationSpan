@@ -1,0 +1,47 @@
+Characterization of the human myeloid cell nuclear differentiation antigen gene promoter.
+
+MNDA (myeloid cell nuclear differentiation antigen) is an interferon alpha regulated nuclear protein expressed only in cells of the human myelomonocytic lineage.
+# T1 Protein S2 0 4 91 95 MNDA
+# T2 Protein S2 6 50 97 141 myeloid cell nuclear differentiation antigen
+$ T1 Protein S2 0 4 91 95 MNDA
+@ T8 Regulation S2 75 84 166 175 regulated
+@ T9 Gene_expression S2 101 110 192 201 expressed
+% E1 Regulation:T8 Theme:T1
+% E2 Gene_expression:T9 Theme:T1
+
+To identify mechanisms responsible for this lineage-specific and interferon-regulated expression, the 5' flanking sequence of the gene has been characterized.
+@ T10 Positive_regulation S3 23 34 276 287 responsible
+@ T11 Regulation S3 76 85 329 338 regulated
+@ T12 Gene_expression S3 86 96 339 349 expression
+% E3 Positive_regulation:T10 Theme:E4
+% E4 Regulation:T11 Theme:E5
+% E5 Gene_expression:T12 Theme:T1
+
+Two interferon-stimulated response elements (ISRE) flank a multiple transcription start site region identifying MNDA as a TATA-less interferon-regulated gene.
+# T3 Protein S4 112 116 524 528 MNDA
+$ T3 Protein S4 112 116 524 528 MNDA
+@ T13 Regulation S4 143 152 555 564 regulated
+% E6 Regulation:T13 Theme:T3
+
+Other DNA elements present include a cluster of Myb sites, several Ets, an Ets related PU.1 site and an Sp1 site located within 600 bp of the transcription start sites.
+# T4 Protein S5 87 91 658 662 PU.1
+# T5 Protein S5 104 107 675 678 Sp1
+
+In addition, DNA methylation was revealed as one of the possible factors in establishing MNDA expression.
+# T6 Protein S6 89 93 829 833 MNDA
+$ T6 Protein S6 89 93 829 833 MNDA
+@ T14 Positive_regulation S6 76 88 816 828 establishing
+@ T15 Gene_expression S6 94 104 834 844 expression
+% E7 Positive_regulation:T14 Theme:E8
+% E8 Gene_expression:T15 Theme:T6
+
+The 5' flanking sequence has promoter activity which is elevated by interferon alpha.
+
+The findings indicate that MNDA expression is regulated by mechanisms similar to other myelomonocytic cell specific genes and genes up-regulated by interferon alpha.
+# T7 Protein S8 27 31 959 963 MNDA
+$ T7 Protein S8 27 31 959 963 MNDA
+@ T16 Gene_expression S8 32 42 964 974 expression
+@ T17 Regulation S8 46 55 978 987 regulated
+% E9 Gene_expression:T16 Theme:T7
+% E10 Regulation:T17 Theme:E9
+

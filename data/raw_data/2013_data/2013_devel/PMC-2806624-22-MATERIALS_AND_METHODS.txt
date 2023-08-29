@@ -1,0 +1,43 @@
+ChIP.
+
+Human naive CD4+ T cells were cultured either with IL-2 only or with IL-2, anti-CD2/3/28, and TGF-beta for 72 h, and protein-DNA complexes were fixed by cross-linking with formaldehyde in a final concentration of 1.42% for 15 min.
+# T1 Protein S2 12 15 18 21 CD4
+# T2 Protein S2 51 55 57 61 IL-2
+# T3 Protein S2 69 73 75 79 IL-2
+# T4 Protein S2 80 83 86 89 CD2
+# T5 Protein S2 84 85 90 91 3
+# T6 Protein S2 86 88 92 94 28
+# T7 Protein S2 94 102 100 108 TGF-beta
+
+Formaldehyde was quenched with 125 mM glycine for 5 min, and cells were subsequently harvested.
+
+The ChIP assay was performed as described in the fast chromatin immunoprecipitation method (Nelson et al., 2006).
+
+Cells were lysed with immunoprecipitation buffer (150 mM NaCl, 50 mM Tris-HCl, pH 7.5, 5 mM EDTA, NP-40 [0.5% vol/vol]) containing phosphatase (Roche) and protease inhibitors cocktails (Roche), the nuclear pellet was washed, the chromatin was sheared by sonication and incubated with antibodies for RUNX1 (H-65 X; Santa Cruz Biotechnology, Inc.), RUNX3 (H-50 X; Santa Cruz Biotechnology, Inc.), CBFbeta (PEBP2beta; FL-182 X; Santa Cruz Biotechnology, Inc.), and as controls normal rabbit IgG (Santa Cruz Biotechnology, Inc.), anti-human RNA polymerase II antibody, and mouse control IgG (both from SA Biosciences).
+# T8 Protein S5 299 304 746 751 RUNX1
+# T9 Protein S5 347 352 794 799 RUNX3
+# T10 Protein S5 395 402 842 849 CBFbeta
+# T11 Protein S5 537 554 984 1001 RNA polymerase II
+
+The cleared chromatin was incubated with protein A agarose beads and, after several washing steps, DNA was isolated with 10% (wt/vol) Chelex 100 resin.
+# T12 Protein S6 41 50 1103 1112 protein A
+
+Samples were treated with proteinase K at 55degreesC for 30 min.
+# T13 Protein S7 26 38 1240 1252 proteinase K
+
+The proteinase K was then inactivated by boiling the samples for 10 min.
+# T14 Protein S8 4 16 1283 1295 proteinase K
+
+The purified DNA was used in a real-time PCR reaction.
+
+Specific primers for the FOXP3 promoter, spanning the region from -87 to -3, FOXP3 promoter forward primer 5'-AGAGGTCTGCGGCTTCCA-3', FOXP3 promoter reverse primer 5'-GGAAACTGTCACGTATCAAAAACAA-3', or control GAPDH primer (SA Biosciences) for the RNA polymerase II were used.
+# T15 Protein S10 25 30 1432 1437 FOXP3
+# T16 Protein S10 77 82 1484 1489 FOXP3
+# T17 Protein S10 133 138 1540 1545 FOXP3
+# T18 Protein S10 207 212 1614 1619 GAPDH
+# T19 Protein S10 245 262 1652 1669 RNA polymerase II
+
+A negative control PCR for each immunoprecipitation using IGX1A negative control primer targeting ORF-free intergenic DNA (SA Biosciences) was used.
+
+The fold enrichment in site occupancy was calculated incorporating IgG control values and input DNA values using the ChampionChIP qPCR data analysis file (SA Biosciences).
+

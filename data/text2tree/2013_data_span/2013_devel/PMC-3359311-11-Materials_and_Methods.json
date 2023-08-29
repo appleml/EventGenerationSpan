@@ -1,0 +1,16 @@
+{"text": "Cell Culture", "event": "<extra_id_0> <extra_id_1>"}
+{"text": "CF ( IB3-1 and CuFi-1 ) and control ( S9 and NuLi-1 ) cells were obtained from the American Type Culture Collection .", "event": "<extra_id_0> <extra_id_1>"}
+{"text": "IB3-1 cells were derived from a patient expressing the deltaF508 and W1282X mutations and CuFi-1 were derived from a deltaF508 homozygous patient .", "event": "<extra_id_0> <extra_id_1>"}
+{"text": "S9 cells are IB3-1 cells that have been transfected with CFTR using an adeno - associated viral vector and NuLi-1 cells were derived from a patient possessing a wild-type CFTR genotype .", "event": "<extra_id_0> <extra_id_1>"}
+{"text": "THP1-XBlue cells stably express a secreted embryonic alkaline phosphatase ( SEAP ) reporter inducible by NF-kappaB and AP-1 ( Invivogen ) .", "event": "<extra_id_0> <extra_id_1>"}
+{"text": "Cells were cultured as recommended by their respective suppliers using standard protocols .", "event": "<extra_id_0> <extra_id_1>"}
+{"text": "S9 and IB3-1 cells were cultured in basal LHC-8 ( Invitrogen ) supplemented with 10 % ( v / v ) fetal bovine serum ( FBS ) , 2 mM L-glutamine , and 1 mM sodium pyruvate .", "event": "<extra_id_0> <extra_id_1>"}
+{"text": "NuLi-1 / CuFi-1 cells were cultured in BEBM serum-free medium ( Lonza ) with supplement bullet kit ( EGF , hydrocortisone , bovine pituitary extract , <extra_id_0> transferrin <extra_id_2> Protein <extra_id_1> , bovine <extra_id_0> insulin <extra_id_2> Protein <extra_id_1> , triiodothyronine , epinephrine , retinoic acid ) , 2 mM L-glutamine , and 1 mM sodium pyruvate .", "event": "<extra_id_0> <extra_id_1>"}
+{"text": "PBMCs from CF patients and controls were cultured in RPMI-1640 ( Hyclone ) supplemented with 10 % FBS , 2 mM L-glutamine , and 1 mM sodium pyruvate ( complete RPMI ) .", "event": "<extra_id_0> <extra_id_1>"}
+{"text": "THP1-XBlue cells were cultured in complete RPMI with the addition of zeocin ( 100 microg / ml ) to select for cells expressing the SEAP NF-kappaB / AP-1 reporter .", "event": "<extra_id_0> <extra_id_1>"}
+{"text": "Prior to stimulation , bronchial epithelial cell lines were plated in coated [ 62 ] 96-well plates ( BD Biosciences ) at 3x104 cells / well unless indicated , and allowed to adhere overnight .", "event": "<extra_id_0> <extra_id_1>"}
+{"text": "Plates for S9 and IB3-1 stimulations were coated in a mixture of bovine <extra_id_0> serum albumin <extra_id_2> Protein <extra_id_1> ( 100 microg / ml ) , fibronectin ( 10 microg / ml ) , and bovine collage type I ( 30 microg / ml ) ( BD Biosciences ) .", "event": "<extra_id_0> <extra_id_1>"}
+{"text": "Plates for NuLi-1 and CuFi-1 were coated with collagen type IV ( 60 microg / ml ) ( Sigma Aldrich ) .", "event": "<extra_id_0> <extra_id_1>"}
+{"text": "PBMCs were plated in 96-well plates at a density of 1.5x105 cells / well in 200 microl ( 7.5x105 cells / mL ) .", "event": "<extra_id_0> <extra_id_1>"}
+{"text": "THP-1 reporter cells were differentiated into a macrophage-like phenotype using 50 ng / ml of phorbol 12-myristate 13-acetate ( PMA ) ( Sigma Aldrich ) for 24 hours at a density of 1x105 cells / well in 200 microl ( 5x105 cells / ml ) .", "event": "<extra_id_0> <extra_id_1>"}
+{"text": "Cells were washed with PBS and allowed to rest a further 42 hours prior to stimulation .", "event": "<extra_id_0> <extra_id_1>"}

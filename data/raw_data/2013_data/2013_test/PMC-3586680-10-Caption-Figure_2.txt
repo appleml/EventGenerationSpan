@@ -1,0 +1,40 @@
+p53 and WWOX in GBM cell apoptosis.
+# T1 Protein S1 0 3 0 3 p53
+# T2 Protein S1 8 12 8 12 WWOX
+
+(A) Full-length p53 possesses two N-terminal transactivation acidic domains, a proline-rich domain, a central DNA-binding region, and a C-terminal domain, containing a nuclear localization signal, an oligomerization domain, and a basic region.
+# T3 Protein S2 16 19 52 55 p53
+
+N-terminal deletion mutants of p53 are also shown.
+# T4 Protein S3 31 34 311 314 p53
+
+(B) Three likely scenarios are proposed for WWOX and p53 to regulate GBM cell death.
+# T5 Protein S4 44 48 375 379 WWOX
+# T6 Protein S4 53 56 384 387 p53
+
+First, ectopic WWOX fails to induce apoptosis of GBM cells expressing endogenous wild type p53.
+# T7 Protein S5 15 19 431 435 WWOX
+# T8 Protein S5 91 94 507 510 p53
+
+It appears that ectopic WWOX binds and functionally antagonizes p53, and both proteins nullify each other's function in inducing apoptosis.
+# T9 Protein S6 24 28 536 540 WWOX
+# T10 Protein S6 64 67 576 579 p53
+
+Second, no physical interactions between mutant p53 proteins and WWOX are expected in GBM cells.
+# T11 Protein S7 48 51 700 703 p53
+# T12 Protein S7 65 69 717 721 WWOX
+
+Thus, ectopic WWOX induce apoptosis in mutant p53-expressing cells.
+# T13 Protein S8 14 18 763 767 WWOX
+# T14 Protein S8 46 49 795 798 p53
+
+Finally, whether WWOX binds p53 isoforms is unknown.
+# T15 Protein S9 17 21 834 838 WWOX
+# T16 Protein S9 28 31 845 848 p53
+
+Also, whether ectopic WWOX induction of apoptosis in GBM cells expressing p53 isoforms remains to be established.
+# T17 Protein S10 22 26 892 896 WWOX
+# T18 Protein S10 74 77 944 947 p53
+
+TAD, transactivation domain; PrD, proline domain; NLS, nuclear localization signal; OD, oligomerization domain; BR, basic region.
+

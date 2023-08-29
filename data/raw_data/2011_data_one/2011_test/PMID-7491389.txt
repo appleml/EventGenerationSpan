@@ -1,0 +1,26 @@
+Lymphocyte glucocorticoid receptor: predictor of sertraline response in adolescent major depressive disorder (MDD).
+# T1 Protein S1 11 34 11 34 glucocorticoid receptor
+
+Major depressive disorder (MDD) in adolescents demonstrates resistance to tricyclic antidepressants and absence of hypercortisolemia.
+
+The efficacy of serotonin reuptake inhibitors (SRIs) is uncertain, and response predictors are unavailable.
+
+Abnormal fast feedback and negative feedback of the hypothalamic-pituitary-adrenal axis implicates a dampened limbic-hippocampal glucocorticoid type II receptor (GCII).
+# T2 Protein S4 129 160 488 519 glucocorticoid type II receptor
+# T3 Protein S4 162 166 521 525 GCII
+
+We hypothesized that lymphocyte GCII is altered in adolescent MDD and could serve as a marker for response to SRIs.
+# T4 Protein S5 32 36 560 564 GCII
+
+In an open-label study, adolescents (n = 20) meeting DSM-III-R criteria for MDD showed baseline lymphocyte GCII sites per cell (sites/cell) values of 793 +/- 106 versus 2,563 +/- 499 (+/- SEM) for matched controls (n = 18) (t = 3.5; df = 36; p < .001).
+# T5 Protein S6 107 111 751 755 GCII
+
+GCII was bimodally distributed, with SRI responders differing from nonresponders (t = 3.9; df = 14; p < .001).
+# T6 Protein S7 0 4 897 901 GCII
+
+GCII accurately classified 90 percent of sertraline responders and 80 percent of nonresponders.
+# T7 Protein S8 0 4 1008 1012 GCII
+
+Only SRI responders showed GCII sites/cell upregulated after 6 weeks of treatment (t = 2.1, df = 10; p < .05).
+# T8 Protein S9 27 31 1131 1135 GCII
+

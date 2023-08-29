@@ -1,0 +1,109 @@
+Antioxidants inhibit monocyte adhesion by suppressing nuclear factor-kappa B mobilization and induction of vascular cell adhesion molecule-1 in endothelial cells stimulated to generate radicals.
+# T1 Protein S1 107 140 107 140 vascular cell adhesion molecule-1
+$ T1 Protein S1 107 140 107 140 vascular cell adhesion molecule-1
+@ T26 Negative_regulation S1 42 53 42 53 suppressing
+@ T27 Positive_regulation S1 94 103 94 103 induction
+% E1 Negative_regulation:T26 Theme:E2
+% E2 Positive_regulation:T27 Theme:T1
+
+Cell adhesion to endothelial cells stimulated by tumor necrosis factor-alpha (TNF) is due to induction of surface receptors, such as vascular cell adhesion molecule-1 (VCAM-1).
+# T2 Protein S2 49 76 245 272 tumor necrosis factor-alpha
+# T3 Protein S2 78 81 274 277 TNF
+# T4 Protein S2 133 166 329 362 vascular cell adhesion molecule-1
+# T5 Protein S2 168 174 364 370 VCAM-1
+$ T5 Protein S2 168 174 364 370 VCAM-1
+@ T28 Positive_regulation S2 93 102 289 298 induction
+% E3 Positive_regulation:T28 Theme:T5
+
+The antioxidant pyrrolidine dithiocarbamate (PDTC) specifically inhibits activation of nuclear factor-kappa B (NF-kappa B).
+
+Since kappa B motifs are present in VCAM-1 and intercellular adhesion molecule-1 (ICAM-1) promoters, we used PDTC to study the regulatory mechanisms of VCAM-1 and ICAM-1 induction and subsequent monocyte adhesion in TNF-treated human umbilical vein endothelial cells (HUVECs).
+# T6 Protein S4 36 42 533 539 VCAM-1
+# T7 Protein S4 48 80 545 577 ntercellular adhesion molecule-1
+# T8 Protein S4 82 88 579 585 ICAM-1
+# T9 Protein S4 152 158 649 655 VCAM-1
+# T10 Protein S4 163 169 660 666 ICAM-1
+# T11 Protein S4 216 219 713 716 TNF
+$ T10 Protein S4 163 169 660 666 ICAM-1
+$ T11 Protein S4 216 219 713 716 TNF
+$ T9 Protein S4 152 158 649 655 VCAM-1
+@ T29 Regulation S4 127 137 624 634 regulatory
+@ T30 Positive_regulation S4 170 179 667 676 induction
+% E4 Regulation:T29 Theme:E7
+% E5 Regulation:T29 Theme:E6
+% E6 Positive_regulation:T30 Theme:T10 Cause:T11
+% E7 Positive_regulation:T30 Theme:T9 Cause:T11
+
+PDTC or N-acetylcysteine dose dependently reduced TNF-induced VCAM-1 but not ICAM-1 surface protein (also in human umbilical arterial endothelial cells) and mRNA expression (by 70% at 100 mumol/L PDTC) in HUVECs as assessed by flow cytometry and polymerase chain reaction.
+# T12 Protein S5 50 53 824 827 TNF
+# T13 Protein S5 62 68 836 842 VCAM-1
+# T14 Protein S5 77 83 851 857 ICAM-1
+$ T12 Protein S5 50 53 824 827 TNF
+$ T13 Protein S5 62 68 836 842 VCAM-1
+$ T14 Protein S5 77 83 851 857 ICAM-1
+@ T31 Negative_regulation S5 42 49 816 823 reduced
+@ T32 Positive_regulation S5 54 61 828 835 induced
+@ T33 Transcription S5 162 172 936 946 expression
+@ T34 Gene_expression S5 162 172 936 946 expression
+% E8 Negative_regulation:T31 Theme:E15
+% E9 Negative_regulation:T31 Theme:E13
+% E10 Negative_regulation:T31 Theme:E14
+% E11 Negative_regulation:T31 Theme:E12
+% E12 Positive_regulation:T32 Theme:E19 Cause:T12
+% E13 Positive_regulation:T32 Theme:E16 Cause:T12
+% E14 Positive_regulation:T32 Theme:E17 Cause:T12
+% E15 Positive_regulation:T32 Theme:E18 Cause:T12
+% E16 Transcription:T33 Theme:T13
+% E18 Transcription:T33 Theme:T14
+% E17 Gene_expression:T34 Theme:T13
+% E19 Gene_expression:T34 Theme:T14
+
+Gel-shift analysis in HUVECs demonstrated that PDTC prevented NF-kappa B mobilization by TNF, suggesting that only VCAM-1 induction was controlled by NF-kappa B.
+# T15 Protein S6 89 92 1136 1139 TNF
+# T16 Protein S6 115 121 1162 1168 VCAM-1
+$ T16 Protein S6 115 121 1162 1168 VCAM-1
+@ T35 Positive_regulation S6 122 131 1169 1178 induction
+@ T36 Regulation S6 136 146 1183 1193 controlled
+% E20 Positive_regulation:T35 Theme:T16
+% E21 Regulation:T36 Theme:E20
+
+Since HUVECs released superoxide anions in response to TNF, and H2O2 induces VCAM-1, PDTC may act as a radical scavenger.
+# T17 Protein S7 55 58 1264 1267 TNF
+# T18 Protein S7 77 83 1286 1292 VCAM-1
+$ T18 Protein S7 77 83 1286 1292 VCAM-1
+@ T37 Positive_regulation S7 69 76 1278 1285 induces
+% E22 Positive_regulation:T37 Theme:T18
+
+Although ICAM-1 induction was unaffected, inhibitors of NADPH oxidase (apocynin) or cytochrome P-450 (SKF525a) suppressed VCAM-1 induction by TNF, revealing that several radical-generating systems are involved in its regulation.
+# T19 Protein S8 9 15 1340 1346 ICAM-1
+# T20 Protein S8 122 128 1453 1459 VCAM-1
+# T21 Protein S8 142 145 1473 1476 TNF
+$ T19 Protein S8 9 15 1340 1346 ICAM-1
+$ T20 Protein S8 122 128 1453 1459 VCAM-1
+$ T21 Protein S8 142 145 1473 1476 TNF
+@ T38 Positive_regulation S8 16 25 1347 1356 induction
+@ T39 Negative_regulation S8 30 40 1361 1371 unaffected
+@ T40 Negative_regulation S8 111 121 1442 1452 suppressed
+@ T41 Positive_regulation S8 129 138 1460 1469 induction
+@ T42 Regulation S8 217 227 1548 1558 regulation
+% E23 Positive_regulation:T38 Theme:T19 Cause:T12
+% E24 Negative_regulation:T39 Theme:E23
+% E25 Negative_regulation:T40 Theme:E26
+% E26 Positive_regulation:T41 Theme:T20 Cause:T21
+% E27 Regulation:T42 Theme:E26
+
+PDTC, apocynin, or SKF525a decreased adhesion of monocytic U937 cells to TNF-treated HUVECs (by 75% at 100 mumol/L PDTC).
+# T22 Protein S9 73 76 1633 1636 TNF
+
+Inhibition by anti-VCAM-1 monoclonal antibody 1G11 indicated that U937 adhesion was VCAM-1 dependent and suppression by antioxidants was due to reduced VCAM-1 induction.
+# T23 Protein S10 19 25 1701 1707 VCAM-1
+# T24 Protein S10 84 90 1766 1772 VCAM-1
+# T25 Protein S10 152 158 1834 1840 VCAM-1
+$ T25 Protein S10 152 158 1834 1840 VCAM-1
+@ T43 Negative_regulation S10 144 151 1826 1833 reduced
+@ T44 Positive_regulation S10 159 168 1841 1850 induction
+% E28 Negative_regulation:T43 Theme:E29
+% E29 Positive_regulation:T44 Theme:T25 Cause:T12
+
+(ABSTRACT TRUNCATED AT 250 WORDS)
+

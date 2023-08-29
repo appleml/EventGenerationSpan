@@ -1,0 +1,60 @@
+The human prointerleukin 1 beta gene requires DNA sequences both proximal and distal to the transcription start site for tissue-specific induction.
+# T1 Protein S1 4 31 4 31 human prointerleukin 1 beta
+$ T1 Protein S1 4 31 4 31 human prointerleukin 1 beta
+@ T11 Positive_regulation S1 37 45 37 45 requires
+@ T12 Positive_regulation S1 137 146 137 146 induction
+% E1 Positive_regulation:T11 Theme:E2
+% E2 Positive_regulation:T12 Theme:T1
+
+In these studies, we have identified DNA sequences and specific protein interactions necessary for transcriptional regulation of the human prointerleukin 1 beta (proIL-1 beta) gene.
+# T2 Protein S2 133 160 282 309 human prointerleukin 1 beta
+# T3 Protein S2 162 174 311 323 proIL-1 beta
+$ T3 Protein S2 162 174 311 323 proIL-1 beta
+@ T13 Positive_regulation S2 85 94 234 243 necessary
+@ T14 Regulation S2 99 125 248 274 transcriptional regulation
+% E3 Positive_regulation:T13 Theme:E4
+% E4 Regulation:T14 Theme:T3
+
+A cell-type-independent lipopolysaccharide (LPS)-responsive enhancer element located between -3757 and -2729 bp upstream from the transcription start site (cap site) consisted of at least six discrete subregions which were essential to the maximal induction by LPS in transfected monocytes.
+
+The enhancer also appeared to mediate phorbol myristate acetate induction in monocytes and IL-1 responsiveness in fibroblasts.
+
+Deletion and base substitution mutations along with DNA binding studies demonstrated that the enhancer contained a minimum of three functional protein binding sequences, two of which appeared to be important for gene induction.
+@ T15 Positive_regulation S5 198 207 947 956 important
+@ T16 Gene_expression S5 217 226 966 975 induction
+% E5 Positive_regulation:T15 Theme:E6
+% E6 Gene_expression:T16 Theme:T3
+
+One of the essential proteins which bound to the enhancer was similar or identical to members of the C/EBP family of transcription factors required for both IL-1- and LPS-specific induction of the IL-6 gene (i.e., the NF-IL6 proteins).
+# T4 Protein S6 197 201 1174 1178 IL-6
+# T5 Protein S6 218 224 1195 1201 NF-IL6
+$ T5 Protein S6 218 224 1195 1201 NF-IL6
+$ T4 Protein S6 197 201 1174 1178 IL-6
+@ T17 Positive_regulation S6 139 147 1116 1124 required
+@ T18 Positive_regulation S6 180 189 1157 1166 induction
+% E7 Positive_regulation:T17 Theme:E9 Cause:T5
+% E8 Positive_regulation:T17 Theme:E9
+% E9 Positive_regulation:T18 Theme:T4
+
+When ligated to the proIL-1 beta cap site-proximal region (located between -131 to +12), both the proIL-1 beta and the simian virus 40 enhancer elements functioned more efficiently in monocytes than in HeLa cells, which are not normally competent for IL-1 beta expression.
+# T6 Protein S7 20 32 1233 1245 proIL-1 beta
+# T7 Protein S7 251 260 1464 1473 IL-1 beta
+$ T7 Protein S7 251 260 1464 1473 IL-1 beta
+@ T19 Gene_expression S7 261 271 1474 1484 expression
+% E10 Gene_expression:T19 Theme:T7
+
+When ligated to the murine c-fos promoter, however, the proIL-1 beta enhancer was inducible in phorbol myristate acetate-stimulated HeLa cells, suggesting the existence of a proIL-1 beta promoter-proximal requirement for tissue specificity.
+# T8 Protein S8 27 32 1513 1518 c-fos
+# T9 Protein S8 56 68 1542 1554 proIL-1 beta
+# T10 Protein S8 174 186 1660 1672 proIL-1 beta
+$ T9 Protein S8 56 68 1542 1554 proIL-1 beta
+$ T10 Protein S8 174 186 1660 1672 proIL-1 beta
+@ T20 Positive_regulation S8 0 4 1486 1490 When
+@ T21 Entity S8 69 77 1555 1563 enhancer
+@ T22 Positive_regulation S8 82 91 1568 1577 inducible
+@ T23 Entity S8 187 195 1673 1681 promoter
+@ T24 Positive_regulation S8 205 216 1691 1702 requirement
+% E11 Positive_regulation:T20 Theme:E12
+% E12 Positive_regulation:T22 Theme:T9 Site:T21
+% E13 Positive_regulation:T24 Theme:T10 Cause:T9 Site:T23 CSite:T21
+

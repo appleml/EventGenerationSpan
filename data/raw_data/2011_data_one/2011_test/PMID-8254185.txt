@@ -1,0 +1,46 @@
+Visualization of the endogenous NF-kappa B p50 subunit in the nucleus of follicular dendritic cells in germinal centers.
+# T1 Protein S1 43 46 43 46 p50
+
+NF-kappa B, a 50 kDa/65 kDa (p50/p65) heterodimer, is a ubiquitous transcription factor involved in the positive regulation of various immune genes.
+# T2 Protein S2 29 32 151 154 p50
+# T3 Protein S2 33 36 155 158 p65
+
+The aim of this study was to determine whether NF-kappa B is related to a particular cell type and/or differentiation step during immunopoiesis.
+
+Using in situ hybridization on sections from non HIV hyperplastic lymph nodes, we found that the gene of the 105 kDa precursor of p50 was overexpressed in the light zone of germinal centers, with a network aspect, which suggested the involvement of follicular dendritic cells (FDC).
+# T4 Protein S4 130 133 546 549 p50
+
+By immunohistochemistry, p50 protein was detected in the cytoplasm and nucleus of FDC, confirming the involvement of FDC.
+# T5 Protein S5 25 28 724 727 p50
+
+Furthermore, p50 protein was detected in the cytoplasm of all lymphocytes.
+# T6 Protein S6 13 16 834 837 p50
+
+Thus, we focused our study on isolated FDC clusters from normal tonsils.
+
+As showed on tissue sections, we detected the p50 in both cytoplasm and nucleus of FDC.
+# T7 Protein S8 46 49 1015 1018 p50
+
+Nuclei of lymphocytes from FDC clusters were negative.
+
+We next studied p65 and c-Rel protein expression in FDC clusters.
+# T8 Protein S10 16 19 1128 1131 p65
+# T9 Protein S10 24 29 1136 1141 c-Rel
+
+p65 was detected in the cytoplasm of FDC, whereas nuclei were negative.
+# T10 Protein S11 0 3 1178 1181 p65
+
+Furthermore, p65 was detected in the nuclei of some lymphocytes.
+# T11 Protein S12 13 16 1263 1266 p65
+
+c-Rel protein was detected only in the cytoplasm of lymphocytes and not in the nucleus and cytoplasm of FDC.
+# T12 Protein S13 0 5 1315 1320 c-Rel
+
+Our results indicated that, in the context of T cell-dependent B cell immunopoiesis occurring in FDC clusters, p50 is mainly related to FDC with a massive overexpression in the nuclei, whereas p65 is expressed in a scattered manner in the nuclei of lymphocytes and c-Rel protein exclusively in the cytoplasm of lymphocytes from FDC clusters.
+# T13 Protein S14 111 114 1535 1538 p50
+# T14 Protein S14 193 196 1617 1620 p65
+# T15 Protein S14 265 270 1689 1694 c-Rel
+
+These results suggested that the two subunits of NF-kappa B and the c-Rel protein have different roles in different cell types during B cell immunopoiesis.
+# T16 Protein S15 68 73 1834 1839 c-Rel
+

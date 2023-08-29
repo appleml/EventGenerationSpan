@@ -1,0 +1,46 @@
+SHP2-interacting transmembrane adaptor protein (SIT), a novel disulfide-linked dimer regulating human T cell activation.
+# T1 Protein S1 0 46 0 46 SHP2-interacting transmembrane adaptor protein
+# T2 Protein S1 48 51 48 51 SIT
+
+T lymphocytes express several low molecular weight transmembrane adaptor proteins that recruit src homology (SH)2 domain-containing intracellular molecules to the cell membrane via tyrosine-based signaling motifs.
+
+We describe here a novel molecule of this group termed SIT (SHP2 interacting transmembrane adaptor protein).
+# T3 Protein S3 55 58 391 394 SIT
+# T4 Protein S3 60 106 396 442 SHP2 interacting transmembrane adaptor protein
+
+SIT is a disulfide-linked homodimeric glycoprotein that is expressed in lymphocytes.
+# T5 Protein S4 0 3 445 448 SIT
+$ T5 Protein S4 0 3 445 448 SIT
+@ T16 Gene_expression S4 59 68 504 513 expressed
+% E1 Gene_expression:T16 Theme:T5
+
+After tyrosine phosphorylation by src and possibly syk protein tyrosine kinases SIT recruits the SH2 domain-containing tyrosine phosphatase SHP2 via an immunoreceptor tyrosine-based inhibition motif.
+# T6 Protein S5 34 37 564 567 src
+# T7 Protein S5 51 54 581 584 syk
+# T8 Protein S5 80 83 610 613 SIT
+# T9 Protein S5 140 144 670 674 SHP2
+$ T8 Protein S5 80 83 610 613 SIT
+$ T6 Protein S5 34 37 564 567 src
+$ T7 Protein S5 51 54 581 584 syk
+@ T17 Entity S5 6 14 536 544 tyrosine
+@ T18 Phosphorylation S5 15 30 545 560 phosphorylation
+@ T19 Positive_regulation S5 31 33 561 563 by
+% E2 Phosphorylation:T18 Theme:T8 Site:T17
+% E3 Positive_regulation:T19 Theme:E2 Cause:T6
+% E4 Positive_regulation:T19 Theme:E2 Cause:T7
+
+Overexpression of SIT in Jurkat cells downmodulates T cell receptor- and phytohemagglutinin-mediated activation of the nuclear factor of activated T cells (NF-AT) by interfering with signaling processes that are probably located upstream of activation of phospholipase C. However, binding of SHP2 to SIT is not required for inhibition of NF-AT induction, suggesting that SIT not only regulates NF-AT activity but also controls NF-AT unrelated pathways of T cell activation involving SHP2.
+# T10 Protein S6 18 21 748 751 SIT
+# T11 Protein S6 73 91 803 821 phytohemagglutinin
+# T12 Protein S6 292 296 1022 1026 SHP2
+# T13 Protein S6 300 303 1030 1033 SIT
+# T14 Protein S6 371 374 1101 1104 SIT
+# T15 Protein S6 483 487 1213 1217 SHP2
+$ T10 Protein S6 18 21 748 751 SIT
+$ T12 Protein S6 292 296 1022 1026 SHP2
+$ T13 Protein S6 300 303 1030 1033 SIT
+@ T20 Gene_expression S6 0 14 730 744 Overexpression
+@ T21 Binding S6 281 288 1011 1018 binding
+% E5 Gene_expression:T20 Theme:T10
+% E6 Binding:T21 Theme:T12 Theme2:T13
+

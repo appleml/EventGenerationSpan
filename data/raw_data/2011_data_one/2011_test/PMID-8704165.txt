@@ -1,0 +1,32 @@
+Retinoic acid activates interferon regulatory factor-1 gene expression in myeloid cells.
+# T1 Protein S1 24 54 24 54 interferon regulatory factor-1
+
+All-trans-retinoic acid (ATRA) is the drug of choice in the treatment of acute promyelocytic leukemia (APL).
+
+ATRA induces both in vitro and in vivo differentiation of APL cells into mature granulocytes.
+
+However, the molecular mechanisms involved in ATRA-dependent growth inhibition and cellular differentiation are not presently understood.
+
+The NB4 cell line, which is derived from the bone marrow of a patient with APL during relapse, can be used as a model system to study the growth and differentiation of APL cells.
+
+Because interferon (IFN) regulatory factors (IRF-1 and IRF-2) and other IFN-inducible gene products regulate cell growth, we analyzed the effects of ATRA on the expression of these genes.
+# T2 Protein S6 45 50 655 660 IRF-1
+# T3 Protein S6 55 60 665 670 IRF-2
+
+We show that ATRA directly activates IRF-1 gene expression, followed by activation of IRF-2 and 2'-5' oligoadenylate synthetase (OAS) gene expression with slower kinetics.
+# T4 Protein S7 37 42 835 840 IRF-1
+# T5 Protein S7 86 91 884 889 IRF-2
+
+In addition to NB4 cells, ATRA also activated IRF-1 gene expression in HL-60, U937, and THP-1 cells, which all respond to ATRA by growth inhibition.
+# T6 Protein S8 46 51 1016 1021 IRF-1
+
+A more than additive increase in IRF-1 gene expression was seen with ATRA and IFN-gamma in NB4 cells.
+# T7 Protein S9 33 38 1152 1157 IRF-1
+# T8 Protein S9 78 87 1197 1206 IFN-gamma
+
+ATRA did not activate nuclear factor kappa B or signal transducer and activator of transcription (STAT) activation pathways, suggesting that an alternate mechanism is involved in IRF-1 gene activation.
+# T9 Protein S10 179 184 1400 1405 IRF-1
+
+The ATRA-induced expression of IRF-1, an activator of transcription and repressor of transformation, may be one of the molecular mechanisms of ATRA-induced growth inhibition, and the basis for the synergistic actions of ATRA and IFNs in myeloid leukemia cells.
+# T10 Protein S11 31 36 1454 1459 IRF-1
+

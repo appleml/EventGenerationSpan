@@ -1,0 +1,103 @@
+Transcriptional activation of the vascular cell adhesion molecule-1 gene in T lymphocytes expressing human T-cell leukemia virus type 1 Tax protein.
+# T1 Protein S1 34 67 34 67 vascular cell adhesion molecule-1
+# T2 Protein S1 136 139 136 139 Tax
+$ T1 Protein S1 34 67 34 67 vascular cell adhesion molecule-1
+$ T2 Protein S1 136 139 136 139 Tax
+@ T22 Positive_regulation S1 0 26 0 26 Transcriptional activation
+@ T23 Gene_expression S1 90 100 90 100 expressing
+% E1 Positive_regulation:T22 Theme:T1
+% E2 Gene_expression:T23 Theme:T2
+
+Recruitment and extravasation of T cells through the blood-brain barrier are favored by adhesion molecule-mediated interactions of circulating T cells with endothelial cells.
+
+Since a common pathological finding in human T-cell leukemia virus type 1 (HTLV-1)-associated diseases is the infiltration of HTLV-1-infected T lymphocytes into various organs, we have looked for the profile of adhesion molecules expressed by HTLV-1-transformed T cells.
+
+Flow cytometry analysis indicated that these cells were expressing high levels of vascular cell adhesion molecule 1 (VCAM-1 [CD106]), a 110-kDa member of the immunoglobulin gene superfamily, first identified on endothelial cells stimulated with inflammatory cytokines.
+# T3 Protein S4 82 115 678 711 vascular cell adhesion molecule 1
+# T4 Protein S4 117 123 713 719 VCAM-1
+# T5 Protein S4 125 130 721 726 CD106
+$ T4 Protein S4 117 123 713 719 VCAM-1
+@ T24 Gene_expression S4 56 66 652 662 expressing
+@ T25 Positive_regulation S4 67 78 663 674 high levels
+@ T26 Gene_expression S4 197 207 793 803 identified
+% E3 Gene_expression:T24 Theme:T4
+% E4 Positive_regulation:T25 Theme:E3
+% E5 Gene_expression:T26 Theme:T4
+
+This adhesion molecule was also expressed by T cells obtained from one patient with HTLV-1-associated myelopathy/tropical spastic paraparesis but not by activated T cells isolated from one normal blood donor.
+@ T27 Gene_expression S5 32 41 897 906 expressed
+% E6 Gene_expression:T27 Theme:T4
+
+The role of the viral trans-activator Tax protein in the induction of VCAM-1 was first indicated by the detection of this adhesion molecule on Jurkat T-cell clones stably expressing the tax gene.
+# T6 Protein S6 38 41 1112 1115 Tax
+# T7 Protein S6 70 76 1144 1150 VCAM-1
+# T8 Protein S6 186 189 1260 1263 tax
+$ T6 Protein S6 38 41 1112 1115 Tax
+$ T7 Protein S6 70 76 1144 1150 VCAM-1
+$ T8 Protein S6 186 189 1260 1263 tax
+@ T28 Regulation S6 4 8 1078 1082 role
+@ T29 Positive_regulation S6 57 66 1131 1140 induction
+@ T30 Gene_expression S6 104 113 1178 1187 detection
+@ T31 Gene_expression S6 171 181 1245 1255 expressing
+% E7 Regulation:T28 Theme:E8 Cause:T6
+% E8 Positive_regulation:T29 Theme:T7
+% E9 Gene_expression:T30 Theme:T7
+% E10 Gene_expression:T31 Theme:T8
+
+The effect of Tax on VCAM-1 gene transcription was next confirmed in JPX-9 cells, a subclone of Jurkat cells, carrying the tax sequences under the control of an inducible promoter.
+# T9 Protein S7 14 17 1284 1287 Tax
+# T10 Protein S7 21 27 1291 1297 VCAM-1
+# T11 Protein S7 123 126 1393 1396 tax
+$ T9 Protein S7 14 17 1284 1287 Tax
+$ T10 Protein S7 21 27 1291 1297 VCAM-1
+@ T32 Regulation S7 4 10 1274 1280 effect
+@ T33 Transcription S7 33 46 1303 1316 transcription
+% E11 Regulation:T32 Theme:E12 Cause:T9
+% E12 Transcription:T33 Theme:T10
+
+Furthermore, deletion and mutation analyses of the VCAM-1 promoter performed with chloramphenicol acetyltransferase constructs revealed that Tax was trans activating the VCAM-1 promoter via two NF-kappaB sites present at bp -72 and -57 in the VCAM-1 gene promoter, with both of them being required for the Tax-induced expression of this adhesion molecule.
+# T12 Protein S8 51 57 1502 1508 VCAM-1
+# T13 Protein S8 82 115 1533 1566 chloramphenicol acetyltransferase
+# T14 Protein S8 141 144 1592 1595 Tax
+# T15 Protein S8 170 176 1621 1627 VCAM-1
+# T16 Protein S8 243 249 1694 1700 VCAM-1
+# T17 Protein S8 306 309 1757 1760 Tax
+$ T15 Protein S8 170 176 1621 1627 VCAM-1
+$ T14 Protein S8 141 144 1592 1595 Tax
+$ T16 Protein S8 243 249 1694 1700 VCAM-1
+$ T17 Protein S8 306 309 1757 1760 Tax
+@ T34 Positive_regulation S8 149 165 1600 1616 trans activating
+@ T35 Entity S8 177 185 1628 1636 promoter
+@ T36 Binding S8 186 189 1637 1640 via
+@ T37 Entity S8 194 209 1645 1660 NF-kappaB sites
+@ T38 Positive_regulation S8 289 297 1740 1748 required
+@ T39 Positive_regulation S8 310 317 1761 1768 induced
+@ T40 Gene_expression S8 318 328 1769 1779 expression
+% E13 Positive_regulation:T34 Theme:T15 Cause:E14 Site:T35
+% E14 Binding:T36 Theme:T14 Theme2:T16 Site2:T37
+% E15 Positive_regulation:T38 Theme:E16 Cause:T16 CSite:T37
+% E16 Positive_regulation:T39 Theme:E17 Cause:T17
+% E17 Gene_expression:T40 Theme:T16
+
+Finally, gel mobility shift assays demonstrated the nuclear translocation of proteins specifically bound to these two NF-kappaB motifs, confirming that VCAM-1 was induced on Tax-expressing cells in a kappaB-dependent manner.
+# T18 Protein S9 152 158 1959 1965 VCAM-1
+# T19 Protein S9 174 177 1981 1984 Tax
+$ T18 Protein S9 152 158 1959 1965 VCAM-1
+$ T19 Protein S9 174 177 1981 1984 Tax
+@ T41 Positive_regulation S9 163 170 1970 1977 induced
+@ T42 Gene_expression S9 178 188 1985 1995 expressing
+@ T43 Regulation S9 207 216 2014 2023 dependent
+% E18 Positive_regulation:T41 Theme:T18
+% E19 Gene_expression:T42 Theme:T19
+% E20 Regulation:T43 Theme:E18
+
+Collectively, these results therefore suggest that the exclusive Tax-induced expression of VCAM-1 on T cells may represent a pivotal event in the progression of HTLV-1-associated diseases.
+# T20 Protein S10 65 68 2097 2100 Tax
+# T21 Protein S10 91 97 2123 2129 VCAM-1
+$ T20 Protein S10 65 68 2097 2100 Tax
+$ T21 Protein S10 91 97 2123 2129 VCAM-1
+@ T44 Positive_regulation S10 69 76 2101 2108 induced
+@ T45 Gene_expression S10 77 87 2109 2119 expression
+% E21 Positive_regulation:T44 Theme:E22 Cause:T20
+% E22 Gene_expression:T45 Theme:T21
+

@@ -1,0 +1,15 @@
+GP modulated LPS- and TSST-1-induced binding to a new NFkappaB3 site in the IL-1RA promoter.
+# T1 Protein S1 22 28 22 28 TSST-1
+# T2 Protein S1 76 82 76 82 IL-1RA
+
+Binding was enhanced for GP + LPS and GP + TSST-1, when compared to LPS, TSST-1, GP, GP/LPS calc.
+# T3 Protein S2 43 49 136 142 TSST-1
+# T4 Protein S2 73 79 166 172 TSST-1
+
+or GP/TSST-1 calc., respectively (* = p < 0.05; ** = p < 0.01).
+# T5 Protein S3 6 12 197 203 TSST-1
+
+Medium control levels were set equal to 1 +/- SEM (n = 6).
+
+DNA binding was assessed by EMSA (see methods).
+

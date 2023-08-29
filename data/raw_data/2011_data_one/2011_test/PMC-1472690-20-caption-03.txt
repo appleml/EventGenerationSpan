@@ -1,0 +1,21 @@
+NFkappaB p65/p50 and NFATc2/c1 were involved in GP-induced DNA binding.
+# T1 Protein S1 9 12 9 12 p65
+# T2 Protein S1 13 16 13 16 p50
+# T3 Protein S1 21 27 21 27 NFATc2
+# T4 Protein S1 28 30 28 30 c1
+
+In order to determine whether the DNA binding proteins activated by GP were related to NFkappaB and NFAT, an immuno(dot) blot was performed.
+# T5 Protein S2 100 104 172 176 NFAT
+
+A representative dot blot showing staining of negative and positive controls (recombinant proteins NFkappaB p52, c-rel; nuclear extracts of PMA-treated Jurkat cells positive for NFkappaB p50, p65 and for NFATc1, c2) in the upper panel and staining of nuclear extracts of GP-treated PBMC (positive for NFkappaB p65, p50 and NFAT c2, c1) in the lower panel is shown (n = 3).
+# T6 Protein S3 108 111 321 324 p52
+# T7 Protein S3 113 118 326 331 c-rel
+# T8 Protein S3 187 190 400 403 p50
+# T9 Protein S3 192 195 405 408 p65
+# T10 Protein S3 204 210 417 423 NFATc1
+# T11 Protein S3 212 214 425 427 c2
+# T12 Protein S3 310 313 523 526 p65
+# T13 Protein S3 315 318 528 531 p50
+# T14 Protein S3 323 330 536 543 NFAT c2
+# T15 Protein S3 332 334 545 547 c1
+

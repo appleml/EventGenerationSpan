@@ -1,0 +1,73 @@
+Differential monocyte adhesion and adhesion molecule expression in venous and arterial endothelial cells.
+
+We compared U-937 cell adhesion and adhesion molecule expression in human umbilical venous (HUVECs) and arterial (HUAECs) endothelial cells exposed to tumor necrosis factor (TNF), interleukin-1, and lipopolysaccharide (LPS).
+
+TNF and LPS stimulated vascular cell adhesion molecule (VCAM)-1 surface expression and adhesion of U-937 monocyte-like cells to HUVECs but not to HUAECs.
+# T1 Protein S3 23 63 355 395 vascular cell adhesion molecule (VCAM)-1
+$ T1 Protein S3 23 63 355 395 vascular cell adhesion molecule (VCAM)-1
+@ T11 Positive_regulation S3 12 22 344 354 stimulated
+@ T12 Gene_expression S3 72 82 404 414 expression
+% E1 Positive_regulation:T11 Theme:E2
+% E2 Gene_expression:T12 Theme:T1
+
+Antibody studies demonstrated that in HUVECs at least 75% of the adhesion response is VCAM-1 mediated.
+# T2 Protein S4 86 92 572 578 VCAM-1
+
+Interleukin-1 stimulated U-937 cell adhesion to and VCAM-1 surface expression in both HUVECs and HUAECs.
+# T3 Protein S5 52 58 641 647 VCAM-1
+$ T3 Protein S5 52 58 641 647 VCAM-1
+@ T13 Positive_regulation S5 14 24 603 613 stimulated
+@ T14 Gene_expression S5 67 77 656 666 expression
+% E3 Positive_regulation:T13 Theme:E4
+% E4 Gene_expression:T14 Theme:T3
+
+Pyrrolidinedithiocarbamate and the proteasome inhibitor MG-132 blocked TNF- and LPS-stimulated U-937 cell adhesion to HUVECs.
+
+These agents also significantly decreased TNF- and LPS-stimulated increases in HUVEC surface VCAM-1.
+# T4 Protein S7 93 99 913 919 VCAM-1
+$ T4 Protein S7 93 99 913 919 VCAM-1
+@ T15 Negative_regulation S7 32 41 852 861 decreased
+@ T16 Positive_regulation S7 66 75 886 895 increases
+% E5 Negative_regulation:T15 Theme:E6
+% E6 Positive_regulation:T16 Theme:T4
+
+TNF increased VCAM-1 protein and mRNA in HUVECs that was blocked by pyrrolidinedithiocarbamate.
+# T5 Protein S8 14 20 935 941 VCAM-1
+$ T5 Protein S8 14 20 935 941 VCAM-1
+@ T17 Positive_regulation S8 4 13 925 934 increased
+@ T18 Negative_regulation S8 57 64 978 985 blocked
+% E7 Positive_regulation:T17 Theme:T5
+% E8 Negative_regulation:T18 Theme:E7
+
+However, neither TNF or LPS stimulated VCAM-1 expression in HUAECs.
+# T6 Protein S9 39 45 1056 1062 VCAM-1
+$ T6 Protein S9 39 45 1056 1062 VCAM-1
+@ T19 Positive_regulation S9 28 38 1045 1055 stimulated
+@ T20 Gene_expression S9 46 56 1063 1073 expression
+% E9 Positive_regulation:T19 Theme:E10
+% E10 Gene_expression:T20 Theme:T6
+
+TNF stimulated expression of both intercellular adhesion molecule-1 and E-selectin in HUVECs, but in HUAECs, only intercellular adhesion molecule-1 was increased.
+# T7 Protein S10 34 67 1119 1152 intercellular adhesion molecule-1
+# T8 Protein S10 72 82 1157 1167 E-selectin
+# T9 Protein S10 114 147 1199 1232 intercellular adhesion molecule-1
+$ T7 Protein S10 34 67 1119 1152 intercellular adhesion molecule-1
+$ T8 Protein S10 72 82 1157 1167 E-selectin
+$ T9 Protein S10 114 147 1199 1232 intercellular adhesion molecule-1
+@ T21 Positive_regulation S10 4 14 1089 1099 stimulated
+@ T22 Gene_expression S10 15 25 1100 1110 expression
+@ T23 Positive_regulation S10 152 161 1237 1246 increased
+% E11 Positive_regulation:T21 Theme:E13
+% E12 Positive_regulation:T21 Theme:E14
+% E13 Gene_expression:T22 Theme:T7
+% E14 Gene_expression:T22 Theme:T8
+% E15 Positive_regulation:T23 Theme:T9
+
+Electrophoretic mobility shift assays demonstrated no difference in the pattern of TNF-stimulated nuclear factor-kappaB activation between HUVECs and HUAECs.
+
+These studies demonstrate a novel and striking insensitivity of arterial endothelium to the effects of TNF and LPS and indicate a dissociation between the ability of HUAECs to upregulate nuclear factor-kappaB and VCAM-1.
+# T10 Protein S12 213 219 1619 1625 VCAM-1
+$ T10 Protein S12 213 219 1619 1625 VCAM-1
+@ T24 Positive_regulation S12 176 186 1582 1592 upregulate
+% E16 Positive_regulation:T24 Theme:T10
+

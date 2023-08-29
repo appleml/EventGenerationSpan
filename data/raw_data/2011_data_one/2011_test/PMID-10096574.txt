@@ -1,0 +1,24 @@
+Glucocorticoid-induced cell death requires autoinduction of glucocorticoid receptor expression in human leukemic T cells.
+# T1 Protein S1 60 83 60 83 glucocorticoid receptor
+
+In contrast to the negative autoregulation of glucocorticoid receptor (GR) expression seen in most cells and tissues, GR expression is positively autoregulated in human leukemic T cells and in other cells sensitive to glucocorticoid-induced cell death.
+# T2 Protein S2 46 69 169 192 glucocorticoid receptor
+# T3 Protein S2 71 73 194 196 GR
+# T4 Protein S2 118 120 241 243 GR
+
+To determine whether positive autoregulation is a necessary component of glucocorticoid-induced cell death, a wild-type GR gene under the control of a tetracycline-regulated promoter was stably transfected into glucocorticoid-resistant cells lacking endogenous functional receptor.
+# T5 Protein S3 120 122 496 498 GR
+
+Transfectants grown in the presence of tetracycline contained about 15,000 receptors/cell, a value approximately equal to basal level GR expression in glucocorticoid-sensitive 6TG1.1 cells before steroid treatment.
+# T6 Protein S4 134 136 792 794 GR
+
+Under these conditions, dexamethasone had a minimal effect on cell growth, elicited little internucleosomal DNA fragmentation, and induced no cell cycle perturbation.
+
+In the absence of tetracycline, GR mRNA and protein expression increased 2-3-fold, and cells expressed 48,000 receptors, a level nearly equivalent to that present in 6TG1.1 cells after 18 h of autoinduction.
+# T7 Protein S6 32 34 1072 1074 GR
+
+Under these conditions, dexamethasone markedly inhibited cell growth, caused G1 arrest, and induced significant internucleosomal DNA fragmentation.
+
+These studies therefore suggest that basal level GR expression is inadequate to mediate glucocorticoid-induced apoptosis in glucocorticoid-sensitive T cells and that positive autoregulation is a necessary component of this process.
+# T8 Protein S8 49 51 1445 1447 GR
+

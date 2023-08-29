@@ -1,0 +1,31 @@
+Interleukin-6 production in hemorrhagic shock is accompanied by neutrophil recruitment and lung injury.
+# T1 Protein S1 0 13 0 13 Interleukin-6
+
+Hemorrhagic shock (HS) initiates an inflammatory cascade that includes the production of cytokines and recruitment of neutrophils (PMN) and may progress to organ failure, inducing acute respiratory distress syndrome (ARDS).
+
+To examine the hypothesis that interleukin-6 (IL-6) contributes to PMN infiltration and lung damage in HS, we examined the lungs of rats subjected to unresuscitated and resuscitated HS for the production of IL-6 and activation of Stat3.
+# T2 Protein S3 31 44 360 373 interleukin-6
+# T3 Protein S3 46 50 375 379 IL-6
+# T4 Protein S3 207 211 536 540 IL-6
+# T5 Protein S3 230 235 559 564 Stat3
+
+Using semiquantitative RT-PCR, we found a striking increase in IL-6 mRNA levels only in resuscitated HS, with peak levels observed 1 h after initiation of resuscitation.
+# T6 Protein S4 63 67 629 633 IL-6
+
+Increased IL-6 protein expression was localized to bronchial and alveolar cells.
+# T7 Protein S5 10 14 746 750 IL-6
+
+Electrophoretic mobility shift assay of protein extracts from shock lungs exhibited an increase in Stat3 activation with kinetics similar to IL-6 mRNA.
+# T8 Protein S6 99 104 916 921 Stat3
+# T9 Protein S6 141 145 958 962 IL-6
+
+In situ DNA binding assay determined Stat3 activation predominantly within alveoli.
+# T10 Protein S7 37 42 1006 1011 Stat3
+
+Intratracheal instillation of IL-6 alone into normal rats resulted in PMN infiltration into lung interstitium and alveoli, marked elevation of bronchoalveolar lavage cellularity, and increased wet-to-dry ratio.
+# T11 Protein S8 30 34 1083 1087 IL-6
+
+These findings indicate that IL-6 production and Stat3 activation occur early in HS and may contribute to PMN-mediated lung injury, including ARDS after HS.
+# T12 Protein S9 29 33 1293 1297 IL-6
+# T13 Protein S9 49 54 1313 1318 Stat3
+

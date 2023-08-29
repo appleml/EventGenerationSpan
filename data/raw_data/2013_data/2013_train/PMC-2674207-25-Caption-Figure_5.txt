@@ -1,0 +1,51 @@
+Fluticasone propionate does not affect GATA-3 nuclear export.
+# T1 Protein S1 39 45 39 45 GATA-3
+$ T1 Protein S1 39 45 39 45 GATA-3
+@ T6 Regulation S1 32 38 32 38 affect
+@ T7 Localization S1 54 60 54 60 export
+% E1 Regulation:T6 Theme:E2
+% E2 Localization:T7 Theme:T1
+
+(A) Western blot analysis showing that the nuclear export inhibitor leptomycin B (2 nM) does not affect the ability of FP (10-8 M) to prevent anti-CD3/CD28-stimulated GATA-3 nuclear localization measured at 60 min.
+# T2 Protein S2 167 173 229 235 GATA-3
+$ T2 Protein S2 167 173 229 235 GATA-3
+@ T8 Regulation S2 97 103 159 165 affect
+@ T9 Negative_regulation S2 134 141 196 203 prevent
+@ T10 Positive_regulation S2 156 166 218 228 stimulated
+@ T11 Entity S2 174 181 236 243 nuclear
+@ T12 Localization S2 182 194 244 256 localization
+% E3 Regulation:T8 Theme:E4
+% E4 Negative_regulation:T9 Theme:E5
+% E6 Positive_regulation:T10 Theme:E5
+% E5 Localization:T12 Theme:T2 ToLoc:T11
+
+***p<0.001 compared to unstimulated cells, ###p<0.001 compared to anti-CD3/CD28-stimulated cells.
+
+(B) Western blot analysis showing that FP (10-8 M) does not affect whole-cell GATA-3 degradation over 17 h. (C) GFP-tagged GATA-3 is overexpressed and cells stimulated (b-j) or not (a) with anti-CD3/CD28.
+# T3 Protein S4 78 84 453 459 GATA-3
+# T4 Protein S4 123 129 498 504 GATA-3
+$ T3 Protein S4 78 84 453 459 GATA-3
+@ T13 Regulation S4 60 66 435 441 affect
+@ T14 Protein_catabolism S4 85 96 460 471 degradation
+% E7 Regulation:T13 Theme:E8
+% E8 Protein_catabolism:T14 Theme:T3
+
+The effect of treating cells with FP (10-8 M, f-j) after 30 min stimulation with anti-CD3/CD28 is also shown.
+
+(D) FP (10-8 M) does not prevent anti-CD3/CD28-stimulated p65 nuclear translocation at 60 min after stimulation.
+# T5 Protein S6 58 61 748 751 p65
+$ T5 Protein S6 58 61 748 751 p65
+@ T15 Negative_regulation S6 25 32 715 722 prevent
+@ T16 Positive_regulation S6 47 57 737 747 stimulated
+@ T17 Entity S6 62 69 752 759 nuclear
+@ T18 Localization S6 70 83 760 773 translocation
+% E9 Negative_regulation:T15 Theme:E10
+% E11 Positive_regulation:T16 Theme:E10
+% E10 Localization:T18 Theme:T5 ToLoc:T17
+
+**p<0.01 compared to unstimulated cells.
+
+All results are representative of at least four independent experiments and are shown as mean+/-SEM.
+
+Results were analysed by ANOVA followed by Newman-Keuls test.
+

@@ -1,0 +1,83 @@
+Phosphorylation of TRAF2 inhibits binding to the CD40 cytoplasmic domain.
+# T1 Protein S1 19 24 19 24 TRAF2
+# T2 Protein S1 49 53 49 53 CD40
+$ T1 Protein S1 19 24 19 24 TRAF2
+$ T2 Protein S1 49 53 49 53 CD40
+@ T15 Phosphorylation S1 0 15 0 15 Phosphorylation
+@ T16 Negative_regulation S1 25 33 25 33 inhibits
+@ T17 Binding S1 34 41 34 41 binding
+@ T18 Entity S1 54 72 54 72 cytoplasmic domain
+% E1 Phosphorylation:T15 Theme:T1
+% E2 Negative_regulation:T16 Theme:E3 Cause:E1
+% E3 Binding:T17 Theme:T1 Theme2:T2 Site2:T18
+
+TRAF2 is a signal transducing adaptor molecule which binds to the CD40 cytoplasmic domain.
+# T3 Protein S2 0 5 75 80 TRAF2
+# T4 Protein S2 66 70 141 145 CD40
+$ T3 Protein S2 0 5 75 80 TRAF2
+$ T4 Protein S2 66 70 141 145 CD40
+@ T19 Binding S2 53 58 128 133 binds
+@ T20 Entity S2 71 89 146 164 cytoplasmic domain
+% E4 Binding:T19 Theme:T3 Theme2:T4 Site2:T20
+
+We have found that it is phosphorylated, predominantly on serine residues, when transiently overexpressed in 293 cells.
+@ T21 Phosphorylation S3 25 39 191 205 phosphorylated
+@ T22 Entity S3 58 73 224 239 serine residues
+@ T23 Positive_regulation S3 75 79 241 245 when
+@ T24 Positive_regulation S3 92 105 258 271 overexpressed
+@ T25 Gene_expression S3 92 105 258 271 overexpressed
+% E5 Phosphorylation:T21 Theme:T3 Site:T22
+% E6 Positive_regulation:T23 Theme:E5 Cause:E7
+% E7 Positive_regulation:T24 Theme:E8
+% E8 Gene_expression:T25 Theme:T3
+
+The phosphorylation appears to be related to the signaling events that are activated by TRAF2 under these circumstances, since two nonfunctional mutants were found to be phosphorylated significantly less than the wild-type protein.
+# T5 Protein S4 88 93 374 379 TRAF2
+
+Furthermore, the phosphorylation status of TRAF2 had significant effects on the ability of the protein to bind to CD40, as evidenced by our observations that the CD40 cytoplasmic domain interacted preferentially with underphosphorylated TRAF2 and that phosphatase treatment significantly enhanced the binding of TRAF2 to CD40.
+# T6 Protein S5 43 48 561 566 TRAF2
+# T7 Protein S5 114 118 632 636 CD40
+# T8 Protein S5 162 166 680 684 CD40
+# T9 Protein S5 237 242 755 760 TRAF2
+# T10 Protein S5 312 317 830 835 TRAF2
+# T11 Protein S5 321 325 839 843 CD40
+$ T6 Protein S5 43 48 561 566 TRAF2
+$ T7 Protein S5 114 118 632 636 CD40
+$ T8 Protein S5 162 166 680 684 CD40
+$ T9 Protein S5 237 242 755 760 TRAF2
+$ T10 Protein S5 312 317 830 835 TRAF2
+$ T11 Protein S5 321 325 839 843 CD40
+@ T26 Phosphorylation S5 17 32 535 550 phosphorylation
+@ T27 Regulation S5 65 72 583 590 effects
+@ T28 Binding S5 106 110 624 628 bind
+@ T29 Entity S5 167 185 685 703 cytoplasmic domain
+@ T30 Binding S5 186 196 704 714 interacted
+@ T31 Phosphorylation S5 217 236 735 754 underphosphorylated
+@ T32 Negative_regulation S5 217 236 735 754 underphosphorylated
+@ T33 Positive_regulation S5 288 296 806 814 enhanced
+@ T34 Binding S5 301 308 819 826 binding
+% E9 Phosphorylation:T26 Theme:T6
+% E10 Regulation:T27 Theme:E11 Cause:E9
+% E11 Binding:T28 Theme:T6 Theme2:T7
+% E12 Binding:T30 Theme:T8 Theme2:T9 Site:T29
+% E13 Phosphorylation:T31 Theme:T9
+% E14 Negative_regulation:T32 Theme:E13
+% E15 Positive_regulation:T33 Theme:E16
+% E16 Binding:T34 Theme:T10 Theme2:T11
+
+We conclude from these studies that the phosphorylation of TRAF2 is likely to play an important role in regulating signaling by virtue of its ability to influence the CD40-TRAF2 interaction.
+# T12 Protein S6 59 64 904 909 TRAF2
+# T13 Protein S6 167 171 1012 1016 CD40
+# T14 Protein S6 172 177 1017 1022 TRAF2
+$ T12 Protein S6 59 64 904 909 TRAF2
+$ T13 Protein S6 167 171 1012 1016 CD40
+$ T14 Protein S6 172 177 1017 1022 TRAF2
+@ T35 Phosphorylation S6 40 55 885 900 phosphorylation
+@ T36 Regulation S6 153 162 998 1007 influence
+@ T37 Binding S6 178 189 1023 1034 interaction
+% E17 Phosphorylation:T35 Theme:T12
+% E18 Regulation:T36 Theme:E19 Cause:E17
+% E19 Binding:T37 Theme:T13 Theme2:T14
+
+Copyright 1999 Academic Press.
+

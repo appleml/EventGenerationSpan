@@ -1,0 +1,58 @@
+Blockade of T-cell activation by dithiocarbamates involves novel mechanisms of inhibition of nuclear factor of activated T cells.
+
+Dithiocarbamates (DTCs) have recently been reported as powerful inhibitors of NF-kappaB activation in a number of cell types.
+
+Given the role of this transcription factor in the regulation of gene expression in the inflammatory response, NF-kappaB inhibitors have been suggested as potential therapeutic drugs for inflammatory diseases.
+
+We show here that DTCs inhibited both interleukin 2 (IL-2) synthesis and membrane expression of antigens which are induced during T-cell activation.
+# T1 Protein S4 38 51 505 518 interleukin 2
+# T2 Protein S4 53 57 520 524 IL-2
+$ T2 Protein S4 53 57 520 524 IL-2
+@ T11 Negative_regulation S4 23 32 490 499 inhibited
+@ T12 Gene_expression S4 59 68 526 535 synthesis
+% E1 Negative_regulation:T11 Theme:E2
+% E2 Gene_expression:T12 Theme:T2
+
+This inhibition, which occurred with a parallel activation of c-Jun transactivating functions and expression, was reflected by transfection experiments at the IL-2 promoter level, and involved not only the inhibition of NF-kappaB-driven reporter activation but also that of nuclear factor of activated T cells (NFAT).
+# T3 Protein S5 62 67 678 683 c-Jun
+# T4 Protein S5 159 163 775 779 IL-2
+$ T3 Protein S5 62 67 678 683 c-Jun
+@ T13 Positive_regulation S5 48 58 664 674 activation
+@ T14 Gene_expression S5 98 108 714 724 expression
+% E3 Positive_regulation:T13 Theme:E4
+% E4 Gene_expression:T14 Theme:T3
+
+Accordingly, electrophoretic mobility shift assays (EMSAs) indicated that pyrrolidine DTC (PDTC) prevented NF-kappaB, and NFAT DNA-binding activity in T cells stimulated with either phorbol myristate acetate plus ionophore or antibodies against the CD3-T-cell receptor complex and simultaneously activated the binding of AP-1.
+
+Furthermore, PDTC differentially targeted both NFATp and NFATc family members, inhibiting the transactivation functions of NFATp and mRNA induction of NFATc.
+# T5 Protein S7 47 52 1308 1313 NFATp
+# T6 Protein S7 123 128 1384 1389 NFATp
+$ T5 Protein S7 47 52 1308 1313 NFATp
+@ T15 Regulation S7 33 41 1294 1302 targeted
+% E5 Regulation:T15 Theme:T5
+
+Strikingly, Western blotting and immunocytochemical experiments indicated that PDTC promoted a transient and rapid shuttling of NFATp and NFATc, leading to their accelerated export from the nucleus of activated T cells.
+# T7 Protein S8 128 133 1547 1552 NFATp
+$ T7 Protein S8 128 133 1547 1552 NFATp
+@ T16 Positive_regulation S8 84 92 1503 1511 promoted
+@ T17 Localization S8 115 124 1534 1543 shuttling
+@ T18 Positive_regulation S8 145 173 1564 1592 leading to their accelerated
+@ T19 Localization S8 174 180 1593 1599 export
+% E6 Positive_regulation:T16 Theme:E7
+% E7 Localization:T17 Theme:T7
+% E8 Positive_regulation:T18 Theme:E9 Cause:E6
+% E9 Localization:T19 Theme:T7
+
+We propose that the activation of an NFAT kinase by PDTC could be responsible for the rapid shuttling of the NFAT, therefore transiently converting the sustained transactivation of this transcription factor that occurs during lymphocyte activation, and show that c-Jun NH2-terminal kinase (JNK) can act by directly phosphorylating NFATp.
+# T8 Protein S9 263 288 1902 1927 c-Jun NH2-terminal kinase
+# T9 Protein S9 290 293 1929 1932 JNK
+# T10 Protein S9 331 336 1970 1975 NFATp
+$ T10 Protein S9 331 336 1970 1975 NFATp
+$ T9 Protein S9 290 293 1929 1932 JNK
+@ T20 Phosphorylation S9 315 330 1954 1969 phosphorylating
+@ T21 Positive_regulation S9 315 330 1954 1969 phosphorylating
+% E10 Phosphorylation:T20 Theme:T10
+% E11 Positive_regulation:T21 Theme:E10 Cause:T9
+
+In addition, the combined inhibitory effects on NFAT and NF-KB support a potential use of DTCs as immunosuppressants.
+

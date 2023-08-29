@@ -1,0 +1,66 @@
+Glycation-dependent, reactive oxygen species-mediated suppression of the insulin gene promoter activity in HIT cells.
+# T1 Protein S1 73 80 73 80 insulin
+
+Prolonged poor glycemic control in non-insulin-dependent diabetes mellitus patients often leads to a decline in insulin secretion from pancreatic beta cells, accompanied by a decrease in the insulin content of the cells.
+# T2 Protein S2 39 46 158 165 insulin
+# T3 Protein S2 112 119 231 238 insulin
+$ T3 Protein S2 112 119 231 238 insulin
+@ T15 Negative_regulation S2 101 108 220 227 decline
+@ T16 Localization S2 120 129 239 248 secretion
+% E1 Negative_regulation:T15 Theme:E2
+% E2 Localization:T16 Theme:T3
+
+As a step toward elucidating the pathophysiological background of the so-called glucose toxicity to pancreatic beta cells, we induced glycation in HIT-T15 cells using a sugar with strong deoxidizing activity, D-ribose, and examined the effects on insulin gene transcription.
+# T4 Protein S3 247 254 587 594 insulin
+$ T4 Protein S3 247 254 587 594 insulin
+@ T17 Regulation S3 236 243 576 583 effects
+@ T18 Transcription S3 260 273 600 613 transcription
+% E3 Regulation:T17 Theme:E4
+% E4 Transcription:T18 Theme:T4
+
+The results of reporter gene analyses revealed that the insulin gene promoter is more sensitive to glycation than the control beta-actin gene promoter; approximately 50 and 80% of the insulin gene promoter activity was lost when the cells were kept for 3 d in the presence of 40 and 60 mM D-ribose, respectively.
+# T5 Protein S4 56 63 671 678 insulin
+# T6 Protein S4 126 136 741 751 beta-actin
+# T7 Protein S4 184 191 799 806 insulin
+$ T7 Protein S4 184 191 799 806 insulin
+@ T19 Entity S4 197 205 812 820 promoter
+@ T20 Negative_regulation S4 219 223 834 838 lost
+% E5 Negative_regulation:T20 Theme:T7 Site:T19
+
+In agreement with this, decrease in the insulin mRNA and insulin content was observed in the glycation-induced cells.
+# T8 Protein S5 40 47 968 975 insulin
+# T9 Protein S5 57 64 985 992 insulin
+$ T9 Protein S5 57 64 985 992 insulin
+$ T8 Protein S5 40 47 968 975 insulin
+@ T21 Negative_regulation S5 24 32 952 960 decrease
+% E6 Negative_regulation:T21 Theme:T9
+% E7 Negative_regulation:T21 Theme:T8
+
+Also, gel mobility shift analyses using specific antiserum revealed decrease in the DNA-binding activity of an insulin gene transcription factor, PDX-1/IPF1/STF-1.
+# T10 Protein S6 111 144 1157 1190 insulin gene transcription factor
+# T11 Protein S6 146 151 1192 1197 PDX-1
+# T12 Protein S6 152 156 1198 1202 IPF1
+# T13 Protein S6 157 162 1203 1208 STF-1
+$ T11 Protein S6 146 151 1192 1197 PDX-1
+@ T22 Negative_regulation S6 68 76 1114 1122 decrease
+@ T23 Binding S6 88 104 1134 1150 binding activity
+% E8 Negative_regulation:T22 Theme:E9
+% E9 Binding:T23 Theme:T7 Theme2:T11 Site:T19
+
+These effects of D-ribose seemed almost irreversible but could be prevented by addition of 1 mM aminoguanidine or 10 mM N-acetylcysteine, thus suggesting that glycation and reactive oxygen species, generated through the glycation reaction, serve as mediators of the phenomena.
+@ T24 Negative_regulation S7 66 75 1276 1285 prevented
+@ T25 Positive_regulation S7 240 258 1450 1468 serve as mediators
+% E10 Negative_regulation:T24 Theme:E7
+% E11 Negative_regulation:T24 Theme:E5
+% E12 Negative_regulation:T24 Theme:E8
+% E13 Negative_regulation:T24 Theme:E6
+% E14 Positive_regulation:T25 Theme:E9
+
+These observations suggest that protein glycation in pancreatic beta cells, which occurs in vivo under chronic hyperglycemia, suppresses insulin gene transcription and thus can explain part of the beta cell glucose toxicity.
+# T14 Protein S8 137 144 1624 1631 insulin
+$ T14 Protein S8 137 144 1624 1631 insulin
+@ T26 Negative_regulation S8 126 136 1613 1623 suppresses
+@ T27 Transcription S8 150 163 1637 1650 transcription
+% E15 Negative_regulation:T26 Theme:E16
+% E16 Transcription:T27 Theme:T14
+

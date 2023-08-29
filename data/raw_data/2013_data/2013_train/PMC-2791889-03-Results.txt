@@ -1,0 +1,270 @@
+IL-10 Production by Th1 Cells Is Dependent on STAT4 but Not on STAT6, IFN-gamma, or IL-4 Signaling
+# T1 Protein S1 0 5 0 5 IL-10
+# T2 Protein S1 46 51 46 51 STAT4
+# T3 Protein S1 63 68 63 68 STAT6
+# T4 Protein S1 70 79 70 79 IFN-gamma
+# T5 Protein S1 84 88 84 88 IL-4
+$ T1 Protein S1 0 5 0 5 IL-10
+@ T70 Gene_expression S1 6 16 6 16 Production
+@ T71 Positive_regulation S1 33 42 33 42 Dependent
+% E1 Gene_expression:T70 Theme:T1
+% E2 Positive_regulation:T71 Theme:E1
+
+To further elucidate the mechanisms required for the development of Th1 cells producing IL-10, we investigated the role of STAT4, one of the signaling pathways activated by IL-12 (Murphy et al., 2000).
+# T6 Protein S2 88 93 187 192 IL-10
+# T7 Protein S2 123 128 222 227 STAT4
+# T8 Protein S2 173 178 272 277 IL-12
+$ T6 Protein S2 88 93 187 192 IL-10
+$ T7 Protein S2 123 128 222 227 STAT4
+$ T8 Protein S2 173 178 272 277 IL-12
+@ T72 Gene_expression S2 78 87 177 186 producing
+@ T73 Regulation S2 115 119 214 218 role
+@ T74 Positive_regulation S2 160 169 259 268 activated
+% E3 Gene_expression:T72 Theme:T6
+% E4 Regulation:T73 Theme:E3 Cause:T7
+% E5 Positive_regulation:T74 Theme:T7 Cause:T8
+
+Naive CD4+ D011.10 T cells deficient in STAT4 (Ouyang et al., 1998) were cultured in the presence of IL-12 and OVA.
+# T9 Protein S3 6 9 307 310 CD4
+# T10 Protein S3 40 45 341 346 STAT4
+# T11 Protein S3 101 106 402 407 IL-12
+# T12 Protein S3 111 114 412 415 OVA
+$ T10 Protein S3 40 45 341 346 STAT4
+@ T75 Negative_regulation S3 27 36 328 337 deficient
+% E6 Negative_regulation:T75 Theme:T10
+
+Again, IL-10-producing Th1 cells were differentiated at the high antigen dose in the presence of IL-12 in DO11.10 T cells (Figure 2A).
+# T13 Protein S4 7 12 424 429 IL-10
+# T14 Protein S4 97 102 514 519 IL-12
+$ T13 Protein S4 7 12 424 429 IL-10
+@ T76 Gene_expression S4 13 22 430 439 producing
+% E7 Gene_expression:T76 Theme:T13
+
+In contrast, in the absence of STAT4, the percentage of cells expressing IFN-gamma was dramatically diminished as expected and resulted in an increase in the percentage of cells expressing IL-4, but not IL-10 (Figure 2A), suggesting that STAT4 contributes to IL-10 expression by Th1 cells.
+# T15 Protein S5 31 36 583 588 STAT4
+# T16 Protein S5 73 82 625 634 IFN-gamma
+# T17 Protein S5 189 193 741 745 IL-4
+# T18 Protein S5 203 208 755 760 IL-10
+# T19 Protein S5 238 243 790 795 STAT4
+# T20 Protein S5 259 264 811 816 IL-10
+$ T15 Protein S5 31 36 583 588 STAT4
+$ T16 Protein S5 73 82 625 634 IFN-gamma
+$ T17 Protein S5 189 193 741 745 IL-4
+$ T18 Protein S5 203 208 755 760 IL-10
+$ T19 Protein S5 238 243 790 795 STAT4
+$ T20 Protein S5 259 264 811 816 IL-10
+@ T77 Negative_regulation S5 20 27 572 579 absence
+@ T78 Gene_expression S5 62 72 614 624 expressing
+@ T79 Negative_regulation S5 100 110 652 662 diminished
+@ T80 Positive_regulation S5 142 150 694 702 increase
+@ T81 Gene_expression S5 178 188 730 740 expressing
+@ T82 Positive_regulation S5 244 255 796 807 contributes
+@ T83 Gene_expression S5 265 275 817 827 expression
+% E8 Negative_regulation:T77 Theme:T15
+% E9 Gene_expression:T78 Theme:T16
+% E10 Negative_regulation:T79 Theme:E9 Cause:E8
+% E11 Positive_regulation:T80 Theme:E12 Cause:E8
+% E13 Positive_regulation:T80 Theme:E14 Cause:E8
+% E12 Gene_expression:T81 Theme:T17
+% E14 Gene_expression:T81 Theme:T18
+% E15 Positive_regulation:T82 Theme:E16 Cause:T19
+% E16 Gene_expression:T83 Theme:T20
+
+Because IL-10 expression is associated with an IL-4-induced Th2 cell phenotype, we investigated whether the differentiation of the IL-10-producing Th1 cells depended on signaling through the IL-4 receptor via STAT6 activation (Glimcher and Murphy, 2000; Murphy et al., 2000).
+# T21 Protein S6 8 13 850 855 IL-10
+# T22 Protein S6 47 51 889 893 IL-4
+# T23 Protein S6 131 136 973 978 IL-10
+# T24 Protein S6 191 195 1033 1037 IL-4
+# T25 Protein S6 209 214 1051 1056 STAT6
+$ T21 Protein S6 8 13 850 855 IL-10
+$ T23 Protein S6 131 136 973 978 IL-10
+$ T25 Protein S6 209 214 1051 1056 STAT6
+@ T84 Gene_expression S6 14 24 856 866 expression
+@ T85 Gene_expression S6 137 146 979 988 producing
+@ T86 Positive_regulation S6 215 225 1057 1067 activation
+% E17 Gene_expression:T84 Theme:T21
+% E18 Gene_expression:T85 Theme:T23
+% E19 Positive_regulation:T86 Theme:T25
+
+The absence of STAT6 did not impair the differentiation of IL-10-producing Th1 cells in the presence of IL-12 and OVA (Figure 2A).
+# T26 Protein S7 15 20 1133 1138 STAT6
+# T27 Protein S7 59 64 1177 1182 IL-10
+# T28 Protein S7 104 109 1222 1227 IL-12
+# T29 Protein S7 114 117 1232 1235 OVA
+$ T26 Protein S7 15 20 1133 1138 STAT6
+$ T27 Protein S7 59 64 1177 1182 IL-10
+$ T28 Protein S7 104 109 1222 1227 IL-12
+$ T29 Protein S7 114 117 1232 1235 OVA
+@ T87 Negative_regulation S7 4 11 1122 1129 absence
+@ T88 Gene_expression S7 65 74 1183 1192 producing
+@ T89 Positive_regulation S7 85 103 1203 1221 in the presence of
+% E20 Negative_regulation:T87 Theme:T26
+% E21 Gene_expression:T88 Theme:T27
+% E22 Positive_regulation:T89 Theme:E21 Cause:T28
+% E23 Positive_regulation:T89 Theme:E21 Cause:T29
+
+In fact, a higher percentage of STAT6-deficient cells compared with WT cells produced both IL-10 and IFN-gamma (Figure 2A), which may be the result of the loss of Th2 cell control over a Th1 cell response.
+# T30 Protein S8 32 37 1281 1286 STAT6
+# T31 Protein S8 91 96 1340 1345 IL-10
+# T32 Protein S8 101 110 1350 1359 IFN-gamma
+$ T30 Protein S8 32 37 1281 1286 STAT6
+$ T31 Protein S8 91 96 1340 1345 IL-10
+$ T32 Protein S8 101 110 1350 1359 IFN-gamma
+@ T90 Negative_regulation S8 38 47 1287 1296 deficient
+@ T91 Gene_expression S8 77 85 1326 1334 produced
+% E24 Negative_regulation:T90 Theme:T30
+% E25 Gene_expression:T91 Theme:T31
+% E26 Gene_expression:T91 Theme:T32
+
+As expected, lack of STAT6 abrogated both IL-4 and IL-10 production by T cells developed with IL-4 or with low antigen dose (Figures 2B and 2C).
+# T33 Protein S9 21 26 1476 1481 STAT6
+# T34 Protein S9 42 46 1497 1501 IL-4
+# T35 Protein S9 51 56 1506 1511 IL-10
+# T36 Protein S9 94 98 1549 1553 IL-4
+$ T33 Protein S9 21 26 1476 1481 STAT6
+$ T34 Protein S9 42 46 1497 1501 IL-4
+$ T35 Protein S9 51 56 1506 1511 IL-10
+@ T92 Negative_regulation S9 13 17 1468 1472 lack
+@ T93 Negative_regulation S9 27 36 1482 1491 abrogated
+@ T94 Gene_expression S9 57 67 1512 1522 production
+% E27 Negative_regulation:T92 Theme:T33
+% E28 Negative_regulation:T93 Theme:E29 Cause:E27
+% E30 Negative_regulation:T93 Theme:E31 Cause:E27
+% E29 Gene_expression:T94 Theme:T34
+% E31 Gene_expression:T94 Theme:T35
+
+However, in the absence of STAT4 signaling, IL-10 and IL-4 production by Th2 cells was if anything increased (Figures 2B and 2C).
+# T37 Protein S10 27 32 1627 1632 STAT4
+# T38 Protein S10 44 49 1644 1649 IL-10
+# T39 Protein S10 54 58 1654 1658 IL-4
+$ T38 Protein S10 44 49 1644 1649 IL-10
+$ T39 Protein S10 54 58 1654 1658 IL-4
+@ T95 Gene_expression S10 59 69 1659 1669 production
+@ T96 Positive_regulation S10 99 108 1699 1708 increased
+% E32 Gene_expression:T95 Theme:T38
+% E33 Gene_expression:T95 Theme:T39
+% E34 Positive_regulation:T96 Theme:E32
+% E35 Positive_regulation:T96 Theme:E33
+
+Thus, in contrast to what was observed under Th1 conditions, IL-10 expression by Th2 cells depended on STAT6, but not on STAT4, signaling (Figures 2B and 2C).
+# T40 Protein S11 61 66 1791 1796 IL-10
+# T41 Protein S11 103 108 1833 1838 STAT6
+# T42 Protein S11 121 126 1851 1856 STAT4
+$ T40 Protein S11 61 66 1791 1796 IL-10
+@ T97 Gene_expression S11 67 77 1797 1807 expression
+@ T98 Positive_regulation S11 91 99 1821 1829 depended
+% E36 Gene_expression:T97 Theme:T40
+% E37 Positive_regulation:T98 Theme:E36
+
+To investigate whether the inability of STAT4-deficient T cells to produce IL-10 might be due to the absence of IFN-gamma, as suggested before (Shaw et al., 2006), we differentiated DO11.10 or DO11.10 IFN-gamma-deficient naive CD4+ T cells in the presence of IL-12 and increasing doses of OVA.
+# T43 Protein S12 40 45 1929 1934 STAT4
+# T44 Protein S12 75 80 1964 1969 IL-10
+# T45 Protein S12 112 121 2001 2010 IFN-gamma
+# T46 Protein S12 201 210 2090 2099 IFN-gamma
+# T47 Protein S12 227 230 2116 2119 CD4
+# T48 Protein S12 259 264 2148 2153 IL-12
+# T49 Protein S12 289 292 2178 2181 OVA
+$ T43 Protein S12 40 45 1929 1934 STAT4
+$ T44 Protein S12 75 80 1964 1969 IL-10
+$ T45 Protein S12 112 121 2001 2010 IFN-gamma
+$ T46 Protein S12 201 210 2090 2099 IFN-gamma
+@ T99 Negative_regulation S12 27 36 1916 1925 inability
+@ T100 Negative_regulation S12 46 55 1935 1944 deficient
+@ T101 Gene_expression S12 67 74 1956 1963 produce
+@ T102 Positive_regulation S12 90 93 1979 1982 due
+@ T103 Negative_regulation S12 101 108 1990 1997 absence
+@ T104 Negative_regulation S12 211 220 2100 2109 deficient
+% E38 Negative_regulation:T99 Theme:E39 Cause:E40
+% E40 Negative_regulation:T100 Theme:T43
+% E39 Gene_expression:T101 Theme:T44
+% E41 Positive_regulation:T102 Theme:E38 Cause:E42
+% E42 Negative_regulation:T103 Theme:T45
+% E43 Negative_regulation:T104 Theme:T46
+
+The secretion of IL-10 as induced by high antigen dose, and IL-12 was not affected by an absence of IFN-gamma (Figure 2D), showing that the expression of IL-10 by Th1 cells is independent of IFN-gamma.
+# T50 Protein S13 17 22 2200 2205 IL-10
+# T51 Protein S13 60 65 2243 2248 IL-12
+# T52 Protein S13 100 109 2283 2292 IFN-gamma
+# T53 Protein S13 154 159 2337 2342 IL-10
+# T54 Protein S13 191 200 2374 2383 IFN-gamma
+$ T50 Protein S13 17 22 2200 2205 IL-10
+$ T51 Protein S13 60 65 2243 2248 IL-12
+$ T52 Protein S13 100 109 2283 2292 IFN-gamma
+$ T53 Protein S13 154 159 2337 2342 IL-10
+$ T54 Protein S13 191 200 2374 2383 IFN-gamma
+@ T105 Localization S13 4 13 2187 2196 secretion
+@ T106 Positive_regulation S13 26 33 2209 2216 induced
+@ T107 Regulation S13 74 82 2257 2265 affected
+@ T108 Negative_regulation S13 89 96 2272 2279 absence
+@ T109 Gene_expression S13 140 150 2323 2333 expression
+@ T110 Regulation S13 176 187 2359 2370 independent
+% E44 Localization:T105 Theme:T50
+% E45 Positive_regulation:T106 Theme:E44
+% E46 Regulation:T107 Theme:T51 Cause:E47
+% E47 Negative_regulation:T108 Theme:T52
+% E48 Gene_expression:T109 Theme:T53
+% E49 Regulation:T110 Theme:E48 Cause:T54
+
+In the absence of IFN-gamma, we observed an increase in the secreted IL-4 as expected (data not shown).
+# T55 Protein S14 18 27 2403 2412 IFN-gamma
+# T56 Protein S14 69 73 2454 2458 IL-4
+$ T55 Protein S14 18 27 2403 2412 IFN-gamma
+$ T56 Protein S14 69 73 2454 2458 IL-4
+@ T111 Negative_regulation S14 7 14 2392 2399 absence
+@ T112 Positive_regulation S14 44 52 2429 2437 increase
+@ T113 Localization S14 60 68 2445 2453 secreted
+% E50 Negative_regulation:T111 Theme:T55
+% E51 Positive_regulation:T112 Theme:E52 Cause:E50
+% E52 Localization:T113 Theme:T56
+
+We also tested for any potential role of IL-4 in the development of Th1 cells producing IL-10 by culturing DO11.10 or DO11.10 IL-4-deficient naive CD4+ T cells with IL-12 and increasing doses of antigen.
+# T57 Protein S15 41 45 2530 2534 IL-4
+# T58 Protein S15 88 93 2577 2582 IL-10
+# T59 Protein S15 126 130 2615 2619 IL-4
+# T60 Protein S15 147 150 2636 2639 CD4
+# T61 Protein S15 165 170 2654 2659 IL-12
+$ T57 Protein S15 41 45 2530 2534 IL-4
+$ T58 Protein S15 88 93 2577 2582 IL-10
+$ T59 Protein S15 126 130 2615 2619 IL-4
+@ T114 Regulation S15 33 37 2522 2526 role
+@ T115 Gene_expression S15 78 87 2567 2576 producing
+@ T116 Negative_regulation S15 131 140 2620 2629 deficient
+% E53 Regulation:T114 Theme:E54 Cause:T57
+% E54 Gene_expression:T115 Theme:T58
+% E55 Negative_regulation:T116 Theme:T59
+
+As observed in the absence of STAT6 (Figure 2A), IL-4 deficiency had no effect on the development of Th1 cells producing IL-10 (Figure 2E), but compromised the development of Th2 cells producing IL-10 (Figure 2F).
+# T62 Protein S16 30 35 2723 2728 STAT6
+# T63 Protein S16 49 53 2742 2746 IL-4
+# T64 Protein S16 121 126 2814 2819 IL-10
+# T65 Protein S16 195 200 2888 2893 IL-10
+$ T62 Protein S16 30 35 2723 2728 STAT6
+$ T63 Protein S16 49 53 2742 2746 IL-4
+$ T64 Protein S16 121 126 2814 2819 IL-10
+$ T65 Protein S16 195 200 2888 2893 IL-10
+@ T117 Negative_regulation S16 19 26 2712 2719 absence
+@ T118 Negative_regulation S16 54 64 2747 2757 deficiency
+@ T119 Gene_expression S16 111 120 2804 2813 producing
+@ T120 Gene_expression S16 185 194 2878 2887 producing
+% E56 Negative_regulation:T117 Theme:T62
+% E57 Negative_regulation:T118 Theme:T63
+% E58 Gene_expression:T119 Theme:T64
+% E59 Gene_expression:T120 Theme:T65
+
+Thus, our data suggested that IL-10 production by Th1 or Th2 cells was dependent on the specific signaling pathways required for their differentiation, given that STAT4 is required for the induction of IL-10 production by Th1 cells and STAT6 for Th2 cells.
+# T66 Protein S17 30 35 2937 2942 IL-10
+# T67 Protein S17 163 168 3070 3075 STAT4
+# T68 Protein S17 202 207 3109 3114 IL-10
+# T69 Protein S17 236 241 3143 3148 STAT6
+$ T66 Protein S17 30 35 2937 2942 IL-10
+$ T67 Protein S17 163 168 3070 3075 STAT4
+$ T69 Protein S17 236 241 3143 3148 STAT6
+$ T68 Protein S17 202 207 3109 3114 IL-10
+@ T121 Gene_expression S17 36 46 2943 2953 production
+@ T122 Positive_regulation S17 189 198 3096 3105 induction
+@ T123 Gene_expression S17 208 218 3115 3125 production
+% E60 Gene_expression:T121 Theme:T66
+% E61 Positive_regulation:T122 Theme:E62 Cause:T67
+% E63 Positive_regulation:T122 Theme:E62 Cause:T69
+% E62 Gene_expression:T123 Theme:T68
+

@@ -1,0 +1,90 @@
+NF-kappa B/Rel family members regulating the ICAM-1 promoter in monocytic THP-1 cells.
+# T1 Protein S1 45 51 45 51 ICAM-1
+$ T1 Protein S1 45 51 45 51 ICAM-1
+@ T29 Regulation S1 30 40 30 40 regulating
+@ T30 Entity S1 52 60 52 60 promoter
+% E1 Regulation:T29 Theme:T1 Site:T30
+
+A kappa B-site was identified in the promoter of the intercellular adhesion molecule-1 (ICAM-1) gene, which is involved in regulation of ICAM-1 expression by tumor necrosis factor alpha (TNF-alpha) and glucocorticoids.
+# T2 Protein S2 53 86 141 174 intercellular adhesion molecule-1
+# T3 Protein S2 88 94 176 182 ICAM-1
+# T4 Protein S2 137 143 225 231 ICAM-1
+# T5 Protein S2 158 185 246 273 tumor necrosis factor alpha
+# T6 Protein S2 187 196 275 284 TNF-alpha
+$ T2 Protein S2 53 86 141 174 intercellular adhesion molecule-1
+$ T6 Protein S2 187 196 275 284 TNF-alpha
+$ T4 Protein S2 137 143 225 231 ICAM-1
+@ T31 Entity S2 2 14 90 102 kappa B-site
+@ T32 Regulation S2 111 119 199 207 involved
+@ T33 Regulation S2 123 133 211 221 regulation
+@ T34 Gene_expression S2 144 154 232 242 expression
+% E2 Regulation:T32 Theme:E4 Cause:T2 CSite:T31
+% E3 Regulation:T32 Theme:E5 Cause:T2 CSite:T31
+% E4 Regulation:T33 Theme:E6 Cause:T6
+% E5 Regulation:T33 Theme:E6
+% E6 Gene_expression:T34 Theme:T4
+
+We now report on the transcription factors which bind and transactivate this enhancer sequence.
+
+In vitro, the ICAM-1 kappa B site appeared to bind RelA and c-Rel homodimers as well as heterodimers with NF-kappa B1, but weakly NF-kappa B1 homodimers.
+# T7 Protein S4 14 20 417 423 ICAM-1
+# T8 Protein S4 51 55 454 458 RelA
+# T9 Protein S4 60 65 463 468 c-Rel
+# T10 Protein S4 106 117 509 520 NF-kappa B1
+# T11 Protein S4 130 141 533 544 NF-kappa B1
+$ T10 Protein S4 106 117 509 520 NF-kappa B1
+$ T11 Protein S4 130 141 533 544 NF-kappa B1
+$ T8 Protein S4 51 55 454 458 RelA
+$ T9 Protein S4 60 65 463 468 c-Rel
+@ T35 Binding S4 46 50 449 453 bind
+% E7 Binding:T35 Theme:T10
+% E8 Binding:T35 Theme:T11
+% E9 Binding:T35 Theme:T8
+% E10 Binding:T35 Theme:T9
+
+In addition, both RelA and c-Rel, but not NF-kappa B1, were shown to transactivate an ICAM-1 kappa B-reporter construct.
+# T12 Protein S5 18 22 575 579 RelA
+# T13 Protein S5 27 32 584 589 c-Rel
+# T14 Protein S5 42 53 599 610 NF-kappa B1
+# T15 Protein S5 86 92 643 649 ICAM-1
+
+In monocytic THP-1 cells TNF-alpha induced two nuclear complexes which in vitro bound to the ICAM-1 kappa B site.
+# T16 Protein S6 25 34 703 712 TNF-alpha
+# T17 Protein S6 93 99 771 777 ICAM-1
+
+Using antibodies in an electrophoretic mobility supershift assay, one of these complexes was shown to contain NF-kappa B1 and RelA, and to bind with higher affinity to the consensus kappa B site in the HIV long terminal repeat.
+# T18 Protein S7 110 121 902 913 NF-kappa B1
+# T19 Protein S7 126 130 918 922 RelA
+
+The second complex contained RelA, and exhibited higher affinity towards the ICAM-1 kappa B than to the HIV kappa B site.
+# T20 Protein S8 29 33 1049 1053 RelA
+# T21 Protein S8 77 83 1097 1103 ICAM-1
+
+The glucocorticoid receptor was shown to repress activity of both the RelA homodimer and the NF-kappa B1/RelA heterodimer.
+# T22 Protein S9 4 27 1146 1169 glucocorticoid receptor
+# T23 Protein S9 70 74 1212 1216 RelA
+# T24 Protein S9 93 104 1235 1246 NF-kappa B1
+# T25 Protein S9 105 109 1247 1251 RelA
+$ T25 Protein S9 105 109 1247 1251 RelA
+$ T22 Protein S9 4 27 1146 1169 glucocorticoid receptor
+$ T24 Protein S9 93 104 1235 1246 NF-kappa B1
+$ T23 Protein S9 70 74 1212 1216 RelA
+@ T36 Negative_regulation S9 41 48 1183 1190 repress
+% E11 Negative_regulation:T36 Theme:T25 Cause:T22
+% E12 Negative_regulation:T36 Theme:T24 Cause:T22
+% E13 Negative_regulation:T36 Theme:T23 Cause:T22
+
+We argue that in vivo RelA homodimers are likely to play a dominant role in TNF-alpha-induced ICAM-1 transcription in monocytic cells.
+# T26 Protein S10 22 26 1287 1291 RelA
+# T27 Protein S10 76 85 1341 1350 TNF-alpha
+# T28 Protein S10 94 100 1359 1365 ICAM-1
+$ T26 Protein S10 22 26 1287 1291 RelA
+$ T27 Protein S10 76 85 1341 1350 TNF-alpha
+$ T28 Protein S10 94 100 1359 1365 ICAM-1
+@ T37 Regulation S10 68 72 1333 1337 role
+@ T38 Positive_regulation S10 86 93 1351 1358 induced
+@ T39 Transcription S10 101 114 1366 1379 transcription
+% E14 Regulation:T37 Theme:E15 Cause:T26
+% E15 Positive_regulation:T38 Theme:E16 Cause:T27
+% E16 Transcription:T39 Theme:T28
+

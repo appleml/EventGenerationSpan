@@ -1,0 +1,86 @@
+Suppressive effects of anti-inflammatory agents on human endothelial cell activation and induction of heat shock proteins.
+
+BACKGROUND: Studies from our laboratory have shown that the earliest stages of atherosclerosis may be mediated by an autoimmune reaction against heat shock protein 60 (Hsp60).
+# T1 Protein S2 145 166 269 290 heat shock protein 60
+# T2 Protein S2 168 173 292 297 Hsp60
+
+The interactions of Hsp60-specific T cells with arterial endothelial cells (EC) require expression of both Hsp60 and certain adhesion molecules shown to be induced simultaneously in EC by mechanical and other types of stress.
+# T3 Protein S3 20 25 320 325 Hsp60
+# T4 Protein S3 107 112 407 412 Hsp60
+$ T4 Protein S3 107 112 407 412 Hsp60
+@ T18 Gene_expression S3 88 98 388 398 expression
+% E1 Gene_expression:T18 Theme:T4
+
+Recently, it was shown that suppression of T cell-mediated immune responses by cyclosporin A (CyA) enhanced atherosclerotic lesion formation in mice.
+
+In contrast, aspirin was found to lower the risk of myocardial infarction in men.
+
+These conflicting observations may be due to different effects of anti-inflammatory agents on adhesion molecule and Hsp expression in EC, respectively.
+
+MATERIAL AND METHODS: In the present study, we analyzed the effects of CyA, aspirin, and indomethacin on T cell proliferation using a proliferation assay.
+
+To explore the expression of adhesion molecules, monocyte chemoattractant protein-1 (MCP-1), and Hsp60 in human umbilical vein endothelial cells (HUVECs), Northern blot analyses were used.
+# T5 Protein S8 49 83 1114 1148 monocyte chemoattractant protein-1
+# T6 Protein S8 85 90 1150 1155 MCP-1
+# T7 Protein S8 97 102 1162 1167 Hsp60
+$ T7 Protein S8 97 102 1162 1167 Hsp60
+$ T6 Protein S8 85 90 1150 1155 MCP-1
+@ T19 Gene_expression S8 15 25 1080 1090 expression
+% E2 Gene_expression:T19 Theme:T7
+% E3 Gene_expression:T19 Theme:T6
+
+To examine the activation status of the transcription factors nuclear factor kappaB (NF-kappaB) and heat shock factor-1 (HSF-1), electrophoretic mobility shift assays were performed.
+# T8 Protein S9 100 119 1354 1373 heat shock factor-1
+# T9 Protein S9 121 126 1375 1380 HSF-1
+$ T9 Protein S9 121 126 1375 1380 HSF-1
+@ T20 Positive_regulation S9 15 25 1269 1279 activation
+% E4 Positive_regulation:T20 Theme:T9
+
+RESULTS: With the exception of indomethacin, the used immunosuppressive and anti-inflammatory agents significantly inhibited T cell proliferation in response to influenza virus antigen in a dose-dependent manner.
+
+Interestingly, CyA and indomethacin did not suppress tumor necrosis factor-alpha (TNF-alpha)-induced adhesion molecule expression on HUVECs, whereas aspirin had an inhibitory effect.
+# T10 Protein S11 53 80 1703 1730 tumor necrosis factor-alpha
+# T11 Protein S11 82 91 1732 1741 TNF-alpha
+
+These observations correlated with the modulation of NF-kappaB activity in EC.
+
+All agents tested induced expression of Hsp60 6 hr after application.
+# T12 Protein S13 40 45 1952 1957 Hsp60
+$ T12 Protein S13 40 45 1952 1957 Hsp60
+@ T21 Positive_regulation S13 18 25 1930 1937 induced
+@ T22 Gene_expression S13 26 36 1938 1948 expression
+% E5 Positive_regulation:T21 Theme:E6
+% E6 Gene_expression:T22 Theme:T12
+
+In addition, aspirin and indomethacin, but not CyA, induced Hsp70 expression in HUVECs that correlated with induction of HSF-1 activity.
+# T13 Protein S14 60 65 2042 2047 Hsp70
+# T14 Protein S14 121 126 2103 2108 HSF-1
+$ T13 Protein S14 60 65 2042 2047 Hsp70
+$ T14 Protein S14 121 126 2103 2108 HSF-1
+@ T23 Positive_regulation S14 52 59 2034 2041 induced
+@ T24 Gene_expression S14 66 76 2048 2058 expression
+@ T25 Positive_regulation S14 108 117 2090 2099 induction
+% E7 Positive_regulation:T23 Theme:E8
+% E8 Gene_expression:T24 Theme:T13
+% E9 Positive_regulation:T25 Theme:T14
+
+CONCLUSION: Our results show that the tested agents (except indomethacin) are inhibitors of the T cell-mediated immune response, as expected, that aspirin is an effective suppressor of adhesion molecule expression, and that all three agents can induce Hsp60 in HUVECs.
+# T15 Protein S15 252 257 2371 2376 Hsp60
+$ T15 Protein S15 252 257 2371 2376 Hsp60
+@ T26 Positive_regulation S15 245 251 2364 2370 induce
+% E10 Positive_regulation:T26 Theme:T15
+
+These data provide the molecular basis for the notion that (1) part of the anti-atherogenic effect of aspirin may be due to the prevention of the adhesion of sensitized T cells to stressed EC; (2) that part of the atherosclerosis-promoting effect of CyA may be due to its potential as an inducer of Hsp60 expression and its inability to down-regulate adhesion molecule expression on EC; and (3) that down-regulation of MCP-1 expression by aspirin may result in decreased recruitment of monocytes into the arterial intima beneath stressed EC.
+# T16 Protein S16 299 304 2687 2692 Hsp60
+# T17 Protein S16 419 424 2807 2812 MCP-1
+$ T16 Protein S16 299 304 2687 2692 Hsp60
+$ T17 Protein S16 419 424 2807 2812 MCP-1
+@ T27 Positive_regulation S16 288 295 2676 2683 inducer
+@ T28 Gene_expression S16 305 315 2693 2703 expression
+@ T29 Negative_regulation S16 400 415 2788 2803 down-regulation
+@ T30 Gene_expression S16 425 435 2813 2823 expression
+% E11 Positive_regulation:T27 Theme:E12
+% E12 Gene_expression:T28 Theme:T16
+% E13 Negative_regulation:T29 Theme:E14
+% E14 Gene_expression:T30 Theme:T17
+

@@ -1,0 +1,30 @@
+Disruption of CFTR activity does not increase IL-1beta production in PBMCs or macrophages.
+# T1 Protein S1 46 54 46 54 IL-1beta
+$ T1 Protein S1 46 54 46 54 IL-1beta
+@ T5 Positive_regulation S1 37 45 37 45 increase
+@ T6 Gene_expression S1 55 65 55 65 production
+% E1 Positive_regulation:T5 Theme:E2
+% E2 Gene_expression:T6 Theme:T1
+
+PBMCs from CF patients (n = 15) and controls (n = 13) were treated with CFTRinh172 (10 microM) for 18 hours prior to stimulation with live PAO1 (MOI = 1).
+
+(A) IL-1beta and (B) IL-8 production was measured at 24 hours.
+# T2 Protein S3 4 12 250 258 IL-1beta
+$ T2 Protein S3 4 12 250 258 IL-1beta
+@ T7 Gene_expression S3 26 36 272 282 production
+% E3 Gene_expression:T7 Theme:T2
+
+(C) Monocytes from controls (n = 3) were differentiated into macrophages.
+
+Macrophages were treated with CFTRinh172, stimulated as per monocytes, and measured for IL-1beta production at 24 hours.
+# T3 Protein S5 88 96 471 479 IL-1beta
+$ T3 Protein S5 88 96 471 479 IL-1beta
+@ T8 Gene_expression S5 97 107 480 490 production
+% E4 Gene_expression:T8 Theme:T3
+
+THP-1 reporter cells were treated with CFTRinh172 24 hours prior to stimulation with PAO1 and measured for (D) IL-1beta secretion, (E) IL-8, and (F) NF-kappaB/AP-1 activity at 24 hours (n = 4).
+# T4 Protein S6 111 119 615 623 IL-1beta
+$ T4 Protein S6 111 119 615 623 IL-1beta
+@ T9 Localization S6 120 129 624 633 secretion
+% E5 Localization:T9 Theme:T4
+

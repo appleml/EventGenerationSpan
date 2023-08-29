@@ -1,0 +1,28 @@
+Statistical	JJ	B-NP	O	Other	No	No	Other	Other	###	1	Statistical	Statistical	JJ	JJ	_	2	amod	_	_
+analysis	NN	I-NP	O	Other	No	No	Other	Other	###	2	analysis	analysis	NN	NN	_	0	root	_	_
+
+Statistical	JJ	B-NP	O	Other	No	No	Other	Other	###	1	Statistical	Statistical	JJ	JJ	_	3	amod	_	_
+significant	JJ	I-NP	O	Other	No	No	Other	Other	###	2	significant	significant	JJ	JJ	_	3	amod	_	_
+differences	NNS	I-NP	O	Other	No	No	Other	Other	###	3	differences	differences	NNS	NNS	_	5	nsubjpass	_	_
+were	VBD	B-VP	O	Other	No	No	Other	Other	###	4	were	were	VBD	VBD	_	5	auxpass	_	_
+determined	VBN	I-VP	O	Other	No	No	Other	Other	###	5	determined	determined	VBN	VBN	_	0	root	_	_
+using	VBG	B-VP	O	Other	No	No	Other	Other	###	6	using	using	VBG	VBG	_	5	xcomp	_	_
+two-tailed	JJ	B-NP	O	Other	No	No	Other	Other	###	7	two-tailed	two-tailed	JJ	JJ	_	10	amod	_	_
+Student	NN	I-NP	O	Other	No	No	Other	Other	###	8	Student	Student	NN	NN	_	10	nmod:poss	_	_
+'s	POS	B-NP	O	Other	No	No	Other	Other	###	9	's	's	POS	POS	_	8	case	_	_
+t-test	NN	I-NP	O	Other	No	No	Other	Other	###	10	t-test	t-test	NN	NN	_	6	dobj	_	_
+(	(	O	O	Other	No	No	Other	Other	###	11	(	(	(	(	_	13	punct	_	_
+*p	NN	B-NP	O	Other	No	No	Other	Other	###	12	*p	*p	NN	NN	_	13	compound	_	_
+<	SYM	O	O	Other	No	No	Other	Other	###	13	<	<	SYM	SYM	_	10	dep	_	_
+0.05	CD	B-NP	O	Other	No	No	Other	Other	###	14	0.05	0.05	CD	CD	_	13	nummod	_	_
+;	:	O	O	Other	No	No	Other	Other	###	15	;	;	:	:	_	13	punct	_	_
+**p	NN	B-NP	O	Other	No	No	Other	Other	###	16	**p	**p	NN	NN	_	13	dep	_	_
+<	SYM	B-ADJP	O	Other	No	No	Other	Other	###	17	<	<	SYM	SYM	_	16	amod	_	_
+0.01	CD	B-NP	O	Other	No	No	Other	Other	###	18	0.01	0.01	CD	CD	_	17	nummod	_	_
+;	:	O	O	Other	No	No	Other	Other	###	19	;	;	:	:	_	12	punct	_	_
+***p	NN	B-NP	O	Other	No	No	Other	Other	###	20	***p	***p	NN	NN	_	17	dep	_	_
+<	SYM	B-NP	O	Other	No	No	Other	Other	###	21	<	<	SYM	SYM	_	20	amod	_	_
+0.001	CD	I-NP	O	Other	No	No	Other	Other	###	22	0.001	0.001	CD	CD	_	21	nummod	_	_
+)	)	O	O	Other	No	No	Other	Other	###	23	)	)	)	)	_	13	punct	_	_
+.	.	O	O	Other	No	No	Other	Other	###	24	.	.	.	.	_	5	punct	_	_
+

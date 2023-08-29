@@ -1,0 +1,107 @@
+Interleukin 10 induced c-fos expression in human B cells by activation of divergent protein kinases.
+# T1 Protein S1 0 14 0 14 Interleukin 10
+# T2 Protein S1 23 28 23 28 c-fos
+$ T2 Protein S1 23 28 23 28 c-fos
+@ T25 Positive_regulation S1 15 22 15 22 induced
+@ T26 Gene_expression S1 29 39 29 39 expression
+% E1 Positive_regulation:T25 Theme:E2
+% E2 Gene_expression:T26 Theme:T2
+
+IL-10 is a potent mediator of human B cell growth and plasma cell formation.
+# T3 Protein S2 0 5 102 107 IL-10
+
+However, signal transduction of IL-10 in B cells is poorly understood.
+# T4 Protein S3 32 37 211 216 IL-10
+
+In this study the effect of IL-10 on the expression of the protooncogene c-fos was investigated, because Fos plays a potential role in the regulation of B cell proliferation and differentiation.
+# T5 Protein S4 28 33 278 283 IL-10
+# T6 Protein S4 73 78 323 328 c-fos
+$ T5 Protein S4 28 33 278 283 IL-10
+$ T6 Protein S4 73 78 323 328 c-fos
+@ T27 Regulation S4 18 24 268 274 effect
+@ T28 Gene_expression S4 41 51 291 301 expression
+% E3 Regulation:T27 Theme:E4 Cause:T5
+% E4 Gene_expression:T28 Theme:T6
+
+B cells were purified from buffy coat preparations of healthy blood donors by positive selection using an anti CD20 monoclonal antibody and a MiniMACS separation unit.
+# T7 Protein S5 111 115 556 560 CD20
+
+B cells were prestimulated with SAC for 48 hrs.
+
+Then, cells were incubated with medium or IL-10 (100 ng/ml) for 10 to 120 min.
+# T8 Protein S7 42 47 703 708 IL-10
+
+RNA was extracted by phenol/chloroform and c-fos expression was analyzed by PCR assisted mRNA assay.
+# T9 Protein S8 43 48 783 788 c-fos
+$ T9 Protein S8 43 48 783 788 c-fos
+@ T29 Gene_expression S8 49 59 789 799 expression
+% E5 Gene_expression:T29 Theme:T9
+
+A significant 2-4 fold increase of c-fos expression was observed within 30 min of stimulation with IL-10 (p < 0.01).
+# T10 Protein S9 35 40 876 881 c-fos
+# T11 Protein S9 99 104 940 945 IL-10
+$ T10 Protein S9 35 40 876 881 c-fos
+@ T30 Positive_regulation S9 23 31 864 872 increase
+@ T31 Gene_expression S9 41 51 882 892 expression
+% E6 Positive_regulation:T30 Theme:E7
+% E7 Gene_expression:T31 Theme:T10
+
+After 2 hrs c-fos expression declined to basal levels.
+# T12 Protein S10 12 17 970 975 c-fos
+$ T12 Protein S10 12 17 970 975 c-fos
+@ T32 Gene_expression S10 18 28 976 986 expression
+@ T33 Negative_regulation S10 29 37 987 995 declined
+% E8 Gene_expression:T32 Theme:T12
+% E9 Negative_regulation:T33 Theme:E8
+
+The effect of IL-10 was dose-dependent with a maximum stimulation using 100 ng/ml of IL-10.
+# T13 Protein S11 14 19 1027 1032 IL-10
+# T14 Protein S11 85 90 1098 1103 IL-10
+
+The IL-10 effect on c-fos expression was not blocked by polymyxin B. Using the tyrosine kinase inhibitor genistein (10 microM) a complete inhibition of IL-10 induced c-fos expression was observed.
+# T15 Protein S12 4 9 1109 1114 IL-10
+# T16 Protein S12 20 25 1125 1130 c-fos
+# T17 Protein S12 152 157 1257 1262 IL-10
+# T18 Protein S12 166 171 1271 1276 c-fos
+$ T15 Protein S12 4 9 1109 1114 IL-10
+$ T16 Protein S12 20 25 1125 1130 c-fos
+$ T17 Protein S12 152 157 1257 1262 IL-10
+$ T18 Protein S12 166 171 1271 1276 c-fos
+@ T34 Regulation S12 10 16 1115 1121 effect
+@ T35 Gene_expression S12 26 36 1131 1141 expression
+@ T36 Negative_regulation S12 45 52 1150 1157 blocked
+@ T37 Negative_regulation S12 138 148 1243 1253 inhibition
+@ T38 Positive_regulation S12 158 165 1263 1270 induced
+@ T39 Gene_expression S12 172 182 1277 1287 expression
+% E10 Regulation:T34 Theme:E11 Cause:T15
+% E11 Gene_expression:T35 Theme:T16
+% E12 Negative_regulation:T36 Theme:E10
+% E13 Negative_regulation:T37 Theme:E14
+% E14 Positive_regulation:T38 Theme:E15 Cause:T17
+% E15 Gene_expression:T39 Theme:T18
+
+In addition, H-7 (10 microM), a specific inhibitor of serine/threonine kinases, significantly blocked IL-10 mediated c-fos expression (p < 0.05).
+# T19 Protein S13 102 107 1404 1409 IL-10
+# T20 Protein S13 117 122 1419 1424 c-fos
+$ T19 Protein S13 102 107 1404 1409 IL-10
+$ T20 Protein S13 117 122 1419 1424 c-fos
+@ T40 Negative_regulation S13 94 101 1396 1403 blocked
+@ T41 Positive_regulation S13 108 116 1410 1418 mediated
+@ T42 Gene_expression S13 123 133 1425 1435 expression
+% E16 Negative_regulation:T40 Theme:E17
+% E17 Positive_regulation:T41 Theme:E18 Cause:T19
+% E18 Gene_expression:T42 Theme:T20
+
+In conclusion, these data show that IL-10 induces c-fos expression in human B-cells by activation of tyrosine and serine/threonine kinases.
+# T21 Protein S14 36 41 1484 1489 IL-10
+# T22 Protein S14 50 55 1498 1503 c-fos
+$ T22 Protein S14 50 55 1498 1503 c-fos
+@ T43 Positive_regulation S14 42 49 1490 1497 induces
+@ T44 Gene_expression S14 56 66 1504 1514 expression
+% E19 Positive_regulation:T43 Theme:E20
+% E20 Gene_expression:T44 Theme:T22
+
+Since this is the first report on IL-10 induced signal transduction, these data may help to identify the intracellular mechanisms by which IL-10 stimulates human B-cells.
+# T23 Protein S15 34 39 1622 1627 IL-10
+# T24 Protein S15 139 144 1727 1732 IL-10
+

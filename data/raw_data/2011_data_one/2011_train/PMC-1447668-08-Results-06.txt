@@ -1,0 +1,156 @@
+CREB Is a Target for Transcriptional Repression by Foxp3
+# T1 Protein S1 51 56 51 56 Foxp3
+
+Although Foxp3 could down-regulate Tax-dependent transactivation of the HTLV-I LTR (Figure 4B) and inhibit Tax expression from an infectious molecular clone (Figure 5), Foxp3 failed to modulate Tax function in the absence of the viral promoter (Figure 4D).
+# T2 Protein S2 9 14 66 71 Foxp3
+# T3 Protein S2 35 38 92 95 Tax
+# T4 Protein S2 107 110 164 167 Tax
+# T5 Protein S2 169 174 226 231 Foxp3
+# T6 Protein S2 194 197 251 254 Tax
+$ T2 Protein S2 9 14 66 71 Foxp3
+$ T4 Protein S2 107 110 164 167 Tax
+$ T6 Protein S2 194 197 251 254 Tax
+$ T5 Protein S2 169 174 226 231 Foxp3
+@ T56 Negative_regulation S2 99 106 156 163 inhibit
+@ T57 Gene_expression S2 111 121 168 178 expression
+@ T58 Regulation S2 185 193 242 250 modulate
+% E1 Negative_regulation:T56 Theme:E2 Cause:T2
+% E2 Gene_expression:T57 Theme:T4
+% E3 Regulation:T58 Theme:T6 Cause:T5
+
+These results led us to hypothesize that Foxp3 acts on HTLV-I gene expression by interacting with proteins important for driving HTLV-I LTR activity in vivo.
+# T7 Protein S3 41 46 355 360 Foxp3
+$ T7 Protein S3 41 46 355 360 Foxp3
+@ T59 Binding S3 81 92 395 406 interacting
+% E4 Binding:T59 Theme:T7
+
+Previous studies have demonstrated that the Tax-responsive elements within the HTLV-I LTR play a crucial role in driving Tax-mediated transactivation of the HTLV-I LTR [18].
+# T8 Protein S4 121 124 593 596 Tax
+
+The Tax-responsive elements have been shown to resemble CREB binding sites, bind CREB in vitro and in vivo, and facilitate HTLV-I LTR activation both in the presence and in the absence of Tax [35,36].
+# T9 Protein S5 188 191 834 837 Tax
+
+Ching and colleagues [18] demonstrated that addition of a dominant-negative CREB expression vector resulted in nearly complete inhibition of Tax-mediated activation of the HTLV-I LTR, while blocking NF-kappaB activation by addition of a dominant-negative IKKbeta expression vector had no effect on Tax transactivation of the HTLV-I LTR.
+# T10 Protein S6 141 144 988 991 Tax
+# T11 Protein S6 255 262 1102 1109 IKKbeta
+# T12 Protein S6 298 301 1145 1148 Tax
+$ T11 Protein S6 255 262 1102 1109 IKKbeta
+@ T60 Gene_expression S6 263 273 1110 1120 expression
+% E5 Gene_expression:T60 Theme:T11
+
+Therefore, we hypothesized that Foxp3 may inhibit Tax transactivation of the HTLV-I LTR via disruption of the CREB signaling pathway.
+# T13 Protein S7 32 37 1216 1221 Foxp3
+# T14 Protein S7 50 53 1234 1237 Tax
+
+To test this possibility, HEK 293T cells were transfected with an HTLV-I LTR or synthetic CREB reporter vector along with a control expression vector (EGFP) or expression vectors encoding Foxp3 or DeltaFKH.
+# T15 Protein S8 188 193 1506 1511 Foxp3
+# T16 Protein S8 197 205 1515 1523 DeltaFKH
+
+As shown in Figure 6A, Foxp3 down-regulated basal activation of the HTLV-I LTR and transcription of a synthetic CREB reporter vector, suggesting that Foxp3 down-regulates HTLV-I LTR activation by targeting the CREB pathway.
+# T17 Protein S9 23 28 1548 1553 Foxp3
+# T18 Protein S9 150 155 1675 1680 Foxp3
+
+Deletion of the FKH domain of Foxp3 dampened the suppressive effect of Foxp3, but did not completely abrogate suppression, as is seen with NF-kappaB-responsive promoters in HEK 293T cells.
+# T19 Protein S10 30 35 1779 1784 Foxp3
+# T20 Protein S10 71 76 1820 1825 Foxp3
+$ T19 Protein S10 30 35 1779 1784 Foxp3
+@ T61 Negative_regulation S10 0 8 1749 1757 Deletion
+@ T62 Entity S10 16 26 1765 1775 FKH domain
+% E6 Negative_regulation:T61 Theme:T19 Site:T62
+
+Like NF-kappaB activation, CREB transcriptional activation was also suppressed by expression of Foxp3, and to a similar extent DeltaFKH, in healthy donor CD4+ T cells (Figure 6B).
+# T21 Protein S11 96 101 2034 2039 Foxp3
+# T22 Protein S11 127 135 2065 2073 DeltaFKH
+# T23 Protein S11 154 157 2092 2095 CD4
+$ T21 Protein S11 96 101 2034 2039 Foxp3
+$ T22 Protein S11 127 135 2065 2073 DeltaFKH
+@ T63 Gene_expression S11 82 92 2020 2030 expression
+% E7 Gene_expression:T63 Theme:T21
+% E8 Gene_expression:T63 Theme:T22
+
+Similarly, Foxp3 and DeltaFKH also repressed basal HTLV-I LTR activation in primary human CD4+ T cells (Figure 6C).
+# T24 Protein S12 11 16 2129 2134 Foxp3
+# T25 Protein S12 21 29 2139 2147 DeltaFKH
+# T26 Protein S12 90 93 2208 2211 CD4
+
+To our knowledge, this is the first evidence implicating CREB as a molecular target of Foxp3.
+# T27 Protein S13 87 92 2321 2326 Foxp3
+
+As observed with NF-kappaB activation, DeltaFKH was a more potent inhibitor of CREB activation in CD4+ T cells than in HEK 293T cells, further indicating that a cell type-specific mechanism of action may govern the function of this Foxp3 mutant.
+# T28 Protein S14 39 47 2367 2375 DeltaFKH
+# T29 Protein S14 79 83 2407 2411 CREB
+# T30 Protein S14 98 101 2426 2429 CD4
+$ T28 Protein S14 39 47 2367 2375 DeltaFKH
+$ T29 Protein S14 79 83 2407 2411 CREB
+@ T64 Negative_regulation S14 66 75 2394 2403 inhibitor
+@ T65 Positive_regulation S14 84 94 2412 2422 activation
+% E9 Negative_regulation:T64 Theme:E10 Cause:T28
+% E10 Positive_regulation:T65 Theme:T29
+
+To determine whether Foxp3 functioned by directly signaling through CREB, we utilized expression vectors encoding CREB-1 or c-Jun (a member of the activator protein 1 family of transcription factors) fused in-frame to the Gal4-BD (Gal4-BD-CREB-1 and Gal4-BD-c-Jun).
+# T31 Protein S15 21 26 2596 2601 Foxp3
+# T32 Protein S15 114 120 2689 2695 CREB-1
+# T33 Protein S15 124 129 2699 2704 c-Jun
+# T34 Protein S15 147 166 2722 2741 activator protein 1
+# T35 Protein S15 222 226 2797 2801 Gal4
+# T36 Protein S15 231 245 2806 2820 Gal4-BD-CREB-1
+# T37 Protein S15 250 263 2825 2838 Gal4-BD-c-Jun
+$ T36 Protein S15 231 245 2806 2820 Gal4-BD-CREB-1
+$ T37 Protein S15 250 263 2825 2838 Gal4-BD-c-Jun
+@ T66 Gene_expression S15 86 96 2661 2671 expression
+% E11 Gene_expression:T66 Theme:T36
+% E12 Gene_expression:T66 Theme:T37
+
+As shown in Figure 6D, activation of a Gal4-responsive reporter vector by Gal4-BD-CREB-1 was down-regulated by Foxp3 compared to control vector (EGFP), indicating that Foxp3 functions by directly or indirectly interacting with CREB-1.
+# T38 Protein S16 39 43 2880 2884 Gal4
+# T39 Protein S16 74 88 2915 2929 Gal4-BD-CREB-1
+# T40 Protein S16 111 116 2952 2957 Foxp3
+# T41 Protein S16 168 173 3009 3014 Foxp3
+# T42 Protein S16 227 233 3068 3074 CREB-1
+$ T41 Protein S16 168 173 3009 3014 Foxp3
+$ T42 Protein S16 227 233 3068 3074 CREB-1
+@ T67 Binding S16 210 221 3051 3062 interacting
+% E13 Binding:T67 Theme:T41 Theme2:T42
+
+However, Foxp3 failed to markedly affect transcriptional activation of Gal4-BD-c-Jun (c-Jun has also been demonstrated to bind to the HTLV-I LTR) and Gal4-BD-Tax (see Figure 5).
+# T43 Protein S17 9 14 3085 3090 Foxp3
+# T44 Protein S17 71 84 3147 3160 Gal4-BD-c-Jun
+# T45 Protein S17 86 91 3162 3167 c-Jun
+# T46 Protein S17 150 161 3226 3237 Gal4-BD-Tax
+$ T45 Protein S17 86 91 3162 3167 c-Jun
+@ T68 Binding S17 122 126 3198 3202 bind
+% E14 Binding:T68 Theme:T45
+
+Importantly, the mechanism of Foxp3-mediated inhibition of CREB-dependent transcription was not due to a block in CREB-1 protein expression, as determined by Western blot analysis (Figure 6E).
+# T47 Protein S18 30 35 3284 3289 Foxp3
+# T48 Protein S18 114 120 3368 3374 CREB-1
+$ T48 Protein S18 114 120 3368 3374 CREB-1
+@ T69 Negative_regulation S18 105 110 3359 3364 block
+@ T70 Gene_expression S18 129 139 3383 3393 expression
+% E15 Negative_regulation:T69 Theme:E16
+% E16 Gene_expression:T70 Theme:T48
+
+Although these results demonstrate that Foxp3 functions as a co-repressor of CREB activation (in addition to NF-kappaB and NF-AT), we were unable to detect a direct physical interaction between CREB-1 and Foxp3 by coimmunoprecipitation or mammalian two-hybrid analysis (unpublished data).
+# T49 Protein S19 40 45 3487 3492 Foxp3
+# T50 Protein S19 194 200 3641 3647 CREB-1
+# T51 Protein S19 205 210 3652 3657 Foxp3
+$ T50 Protein S19 194 200 3641 3647 CREB-1
+$ T51 Protein S19 205 210 3652 3657 Foxp3
+@ T71 Binding S19 174 185 3621 3632 interaction
+% E17 Binding:T71 Theme:T50 Theme2:T51
+
+Therefore, our data suggest that Foxp3 may interfere with CREB signaling at an upstream event, such as phosphorylation of CREB or recruitment/function of coactivator proteins CREB-binding protein (CBP)/p300.
+# T52 Protein S20 33 38 3769 3774 Foxp3
+# T53 Protein S20 175 195 3911 3931 CREB-binding protein
+# T54 Protein S20 197 200 3933 3936 CBP
+# T55 Protein S20 202 206 3938 3942 p300
+$ T52 Protein S20 33 38 3769 3774 Foxp3
+$ T53 Protein S20 175 195 3911 3931 CREB-binding protein
+$ T55 Protein S20 202 206 3938 3942 p300
+@ T72 Negative_regulation S20 43 52 3779 3788 interfere
+@ T73 Binding S20 130 141 3866 3877 recruitment
+% E18 Negative_regulation:T72 Theme:E19 Cause:T52
+% E20 Negative_regulation:T72 Theme:E21 Cause:T52
+% E19 Binding:T73 Theme:T53
+% E21 Binding:T73 Theme:T55
+

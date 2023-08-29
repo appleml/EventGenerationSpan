@@ -1,0 +1,25 @@
+Ethics	NNS	B-NP	O	Other	No	No	Other	Other	###	1	Ethics	Ethics	NNS	NNS	_	0	root	_	_
+Statement	NN	I-NP	O	Other	No	No	Other	Other	###	2	Statement	Statement	NN	NN	_	1	punct	_	_
+
+All	DT	B-NP	O	Other	No	No	Other	Other	###	1	All	All	DT	DT	_	3	det	_	_
+mouse	NN	I-NP	O	Other	No	No	Other	Other	###	2	mouse	mouse	NN	NN	_	3	compound	_	_
+work	NN	I-NP	O	Other	No	No	Other	Other	###	3	work	work	NN	NN	_	5	nsubjpass	_	_
+was	VBD	B-VP	O	Other	No	No	Other	Other	###	4	was	was	VBD	VBD	_	5	auxpass	_	_
+carried	VBN	I-VP	O	Other	No	No	Other	Other	###	5	carried	carried	VBN	VBN	_	0	root	_	_
+out	RP	B-PRT	O	Other	No	No	Other	Other	###	6	out	out	RP	RP	_	5	compound:prt	_	_
+in	IN	B-PP	O	Other	No	No	Other	Other	###	7	in	in	IN	IN	_	9	case	_	_
+strict	JJ	B-NP	O	Other	No	No	Other	Other	###	8	strict	strict	JJ	JJ	_	9	amod	_	_
+accordance	NN	I-NP	O	Other	No	No	Other	Other	###	9	accordance	accordance	NN	NN	_	5	nmod	_	_
+with	IN	B-PP	O	Other	No	No	Other	Other	###	10	with	with	IN	IN	_	11	case	_	_
+protocols	NNS	B-NP	O	Other	No	No	Other	Other	###	11	protocols	protocols	NNS	NNS	_	9	nmod	_	_
+approved	VBN	B-VP	O	Other	No	No	Other	Other	###	12	approved	approved	VBN	VBN	_	11	acl	_	_
+by	IN	B-PP	O	Other	No	No	Other	Other	###	13	by	by	IN	IN	_	17	case	_	_
+the	DT	B-NP	O	Other	No	No	Other	Other	###	14	the	the	DT	DT	_	17	det	_	_
+Institutional	NNP	I-NP	O	Other	No	No	Other	Other	###	15	Institutional	Institutional	NNP	NNP	_	17	compound	_	_
+Animal	NNP	I-NP	O	Other	No	No	Other	Other	###	16	Animal	Animal	NNP	NNP	_	17	compound	_	_
+Care	NNP	I-NP	O	Other	No	No	Other	Other	###	17	Care	Care	NNP	NNP	_	12	nmod	_	_
+and	CC	O	O	Other	No	No	Other	Other	###	18	and	and	CC	CC	_	17	cc	_	_
+Use	NNP	B-NP	O	Other	No	No	Other	Other	###	19	Use	Use	NNP	NNP	_	17	conj	_	_
+Committees	NNP	I-NP	O	Other	No	No	Other	Other	###	20	Committees	Committees	NNP	NNP	_	19	dobj	_	_
+.	.	O	O	Other	No	No	Other	Other	###	21	.	.	.	.	_	5	punct	_	_
+

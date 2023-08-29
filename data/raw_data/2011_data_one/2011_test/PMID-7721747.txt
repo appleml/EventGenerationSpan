@@ -1,0 +1,32 @@
+Functional roles of in vivo footprinted DNA motifs within an alpha-globin enhancer.
+# T1 Protein S1 61 73 61 73 alpha-globin
+
+Erythroid lineage and developmental stage specificities.
+
+Transcriptional regulation of the human alpha-like globin genes, embryonic zeta 2 and adult alpha, during erythroid development is mediated by a distal enhancer, HS-40.
+# T2 Protein S3 162 167 304 309 HS-40
+
+Previous protein-DNA binding studies have shown that HS-40 consists of multiple nuclear factor binding motifs that are occupied in vivo in an erythroid lineage- and developmental stage-specific manner.
+# T3 Protein S4 53 58 364 369 HS-40
+
+We have systematically analyzed the functional roles of these factor binding motifs of HS-40 by site-directed mutagenesis and transient expression assay in erythroid cell cultures.
+# T4 Protein S5 87 92 600 605 HS-40
+
+Three of these HS-40 enhancer motifs, 5'NF-E2/AP1, GT II, and GATA-1(c), positively regulate the zeta 2-globin promoter activity in embryonic/fetal erythroid K562 cells and the adult alpha-globin promoter activity in adult erythroid MEL cells.
+# T5 Protein S6 15 20 709 714 HS-40
+# T6 Protein S6 62 68 756 762 GATA-1
+# T7 Protein S6 97 110 791 804 zeta 2-globin
+# T8 Protein S6 177 195 871 889 adult alpha-globin
+
+On the other hand, the 3'NF-E2/AP1 motif is able to exert both positive and negative regulatory effects on the zeta 2-globin promoter activity in K562 cells, and this dual function appears to be modulated through differential binding of the ubiquitous AP1 factors and the erythroid-enriched NF-E2 factor.
+# T9 Protein S7 111 124 1049 1062 zeta 2-globin
+
+Mutation in the GATA-1(d) motif, which exhibits an adult erythroid-specific genomic footprint, decreases the HS-40 enhancer function in dimethyl sulfoxide-induced MEL cells but not in K562 cells.
+# T10 Protein S8 16 22 1259 1265 GATA-1
+# T11 Protein S8 109 114 1352 1357 HS-40
+
+These studies have defined the regulatory roles of the different HS-40 motifs.
+# T12 Protein S9 65 70 1504 1509 HS-40
+
+The remarkable correlation between genomic footprinting data and the mutagenesis results also suggests that the erythroid lineage- and developmental stage-specific regulation of human alpha-like globin promoters is indeed modulated by stable binding of specific nuclear factors in vivo.
+

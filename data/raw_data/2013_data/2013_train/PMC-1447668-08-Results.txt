@@ -1,0 +1,147 @@
+Foxp3 Antagonizes CREB Transcriptional Activation by Disrupting Coactivator Recruitment
+# T1 Protein S1 0 5 0 5 Foxp3
+
+Stimulation of CREB-dependent transcription by reagents that activate adenylate cyclase and increase cAMP levels (e.g., forskolin) increase the transactivation potential of CREB through phosphorylation of serine 133 by protein kinase A, which permits binding and recruitment of coactivators CBP/p300 to the promoter [37,38].
+# T2 Protein S2 291 294 379 382 CBP
+# T3 Protein S2 295 299 383 387 p300
+$ T2 Protein S2 291 294 379 382 CBP
+$ T3 Protein S2 295 299 383 387 p300
+@ T37 Positive_regulation S2 243 250 331 338 permits
+@ T38 Binding S2 251 258 339 346 binding
+% E1 Positive_regulation:T37 Theme:E2
+% E3 Positive_regulation:T37 Theme:E4
+% E2 Binding:T38 Theme:T2
+% E4 Binding:T38 Theme:T3
+
+Phosphorylation of serine 133 does not, however, affect the DNA-binding activity of CREB in most cases [39-41].
+
+Addition of forskolin to HEK 293T cells stimulated activation of a CREB reporter vector about 65 fold (Figure 7A).
+
+Overexpression of Foxp3 was capable of down-regulating forskolin-induced CREB transcriptional activation.
+# T4 Protein S5 18 23 658 663 Foxp3
+$ T4 Protein S5 18 23 658 663 Foxp3
+@ T39 Positive_regulation S5 0 14 640 654 Overexpression
+% E5 Positive_regulation:T39 Theme:T4
+
+The functional interaction between Foxp3 and CREB did not affect the DNA-binding activity of CREB-1, but did show a modest decrease in activating transcription factor 2 (ATF-2) DNA-binding activity in the presence of forskolin as determined by transcription factor ELISA (Figure 7B).
+# T5 Protein S6 35 40 781 786 Foxp3
+# T6 Protein S6 93 99 839 845 CREB-1
+# T7 Protein S6 135 168 881 914 activating transcription factor 2
+# T8 Protein S6 170 175 916 921 ATF-2
+$ T5 Protein S6 35 40 781 786 Foxp3
+$ T6 Protein S6 93 99 839 845 CREB-1
+$ T7 Protein S6 135 168 881 914 activating transcription factor 2
+@ T40 Binding S6 15 26 761 772 interaction
+@ T41 Regulation S6 58 64 804 810 affect
+@ T42 Binding S6 73 80 819 826 binding
+@ T43 Negative_regulation S6 123 131 869 877 decrease
+@ T44 Binding S6 181 188 927 934 binding
+% E6 Binding:T40 Theme:T5
+% E7 Regulation:T41 Theme:E8 Cause:E6
+% E8 Binding:T42 Theme:T6
+% E9 Negative_regulation:T43 Theme:E10 Cause:T5
+% E10 Binding:T44 Theme:T7
+
+While Foxp3 has been shown to bind to and repress activation of both NF-kappaB and NF-AT, exactly how Foxp3 functions to bring about this affect has not been elucidated.
+# T9 Protein S7 6 11 1036 1041 Foxp3
+# T10 Protein S7 102 107 1132 1137 Foxp3
+$ T9 Protein S7 6 11 1036 1041 Foxp3
+@ T45 Binding S7 30 34 1060 1064 bind
+% E11 Binding:T45 Theme:T9
+
+To determine how Foxp3 blocks CREB-dependent transcription, we examined whether Foxp3 was capable of (1) disrupting the recruitment of coactivator proteins and/or (2) preventing phosphorylation of CREB at serine 133 (which is a prerequisite for coactivator recruitment).
+# T11 Protein S8 17 22 1217 1222 Foxp3
+# T12 Protein S8 80 85 1280 1285 Foxp3
+
+Since both of these events are required for CREB-dependent gene expression, we hypothesized that Foxp3 may affect CREB activation at both steps.
+# T13 Protein S9 97 102 1568 1573 Foxp3
+
+To determine whether Foxp3 can disrupt the function/recruitment of the coactivator protein p300, we introduced a Gal4 reporter vector and a Gal4-BD-CREB-1 expression vector into HEK 293T cells in the absence or presence of Foxp3, p300, and/or control expression vectors (Figure 7C).
+# T14 Protein S10 21 26 1637 1642 Foxp3
+# T15 Protein S10 91 95 1707 1711 p300
+# T16 Protein S10 113 117 1729 1733 Gal4
+# T17 Protein S10 140 154 1756 1770 Gal4-BD-CREB-1
+# T18 Protein S10 223 228 1839 1844 Foxp3
+# T19 Protein S10 230 234 1846 1850 p300
+$ T17 Protein S10 140 154 1756 1770 Gal4-BD-CREB-1
+$ T18 Protein S10 223 228 1839 1844 Foxp3
+$ T19 Protein S10 230 234 1846 1850 p300
+@ T46 Gene_expression S10 155 165 1771 1781 expression
+@ T47 Gene_expression S10 251 261 1867 1877 expression
+% E12 Gene_expression:T46 Theme:T17
+% E13 Gene_expression:T47 Theme:T18
+% E14 Gene_expression:T47 Theme:T19
+
+As expected, p300 overexpression stimulated transcription of the Gal4-BD-CREB-1 fusion protein.
+# T20 Protein S11 13 17 1912 1916 p300
+# T21 Protein S11 65 79 1964 1978 Gal4-BD-CREB-1
+$ T20 Protein S11 13 17 1912 1916 p300
+$ T21 Protein S11 65 79 1964 1978 Gal4-BD-CREB-1
+@ T48 Positive_regulation S11 18 32 1917 1931 overexpression
+@ T49 Positive_regulation S11 33 43 1932 1942 stimulated
+@ T50 Transcription S11 44 57 1943 1956 transcription
+% E15 Positive_regulation:T48 Theme:T20
+% E16 Positive_regulation:T49 Theme:E17 Cause:E15
+% E17 Transcription:T50 Theme:T21
+
+Foxp3, again, repressed basal levels of Gal4-BD-CREB-1 activation by more than 2-fold, while effectively neutralizing Gal4-BD-CREB-1 activation in the presence of p300.
+# T22 Protein S12 0 5 1995 2000 Foxp3
+# T23 Protein S12 40 54 2035 2049 Gal4-BD-CREB-1
+# T24 Protein S12 118 132 2113 2127 Gal4-BD-CREB-1
+# T25 Protein S12 163 167 2158 2162 p300
+$ T22 Protein S12 0 5 1995 2000 Foxp3
+$ T23 Protein S12 40 54 2035 2049 Gal4-BD-CREB-1
+$ T24 Protein S12 118 132 2113 2127 Gal4-BD-CREB-1
+@ T51 Negative_regulation S12 14 23 2009 2018 repressed
+@ T52 Positive_regulation S12 55 65 2050 2060 activation
+@ T53 Negative_regulation S12 105 117 2100 2112 neutralizing
+@ T54 Positive_regulation S12 133 143 2128 2138 activation
+% E18 Negative_regulation:T51 Theme:E19 Cause:T22
+% E19 Positive_regulation:T52 Theme:T23
+% E20 Negative_regulation:T53 Theme:E21 Cause:T22
+% E21 Positive_regulation:T54 Theme:T24
+
+We next analyzed the effect of Foxp3 on phosphorylation of CREB at serine 133 in forskolin-treated HEK 293T cells by Western blot analysis.
+# T26 Protein S13 31 36 2195 2200 Foxp3
+
+Overexpression of Foxp3 failed to reduce the detectable levels of CREB phosphorylation using a phosphospecific antibody for CREB-1 (unpublished data).
+# T27 Protein S14 18 23 2322 2327 Foxp3
+# T28 Protein S14 124 130 2428 2434 CREB-1
+$ T27 Protein S14 18 23 2322 2327 Foxp3
+@ T55 Positive_regulation S14 0 14 2304 2318 Overexpression
+% E22 Positive_regulation:T55 Theme:T27
+
+However, when we attempted to determine whether Foxp3 could physically interact with the coactivator protein p300, we found that p300 immunoprecipitated Foxp3 when both proteins were overexpressed in HEK 293T cells (Figure 7D).
+# T29 Protein S15 48 53 2503 2508 Foxp3
+# T30 Protein S15 109 113 2564 2568 p300
+# T31 Protein S15 129 133 2584 2588 p300
+# T32 Protein S15 153 158 2608 2613 Foxp3
+$ T29 Protein S15 48 53 2503 2508 Foxp3
+$ T30 Protein S15 109 113 2564 2568 p300
+$ T31 Protein S15 129 133 2584 2588 p300
+$ T32 Protein S15 153 158 2608 2613 Foxp3
+@ T56 Binding S15 71 79 2526 2534 interact
+@ T57 Binding S15 134 152 2589 2607 immunoprecipitated
+@ T58 Positive_regulation S15 159 163 2614 2618 when
+@ T35 Anaphora S15 164 177 2619 2632 both proteins
+@ T59 Gene_expression S15 183 196 2638 2651 overexpressed
+% E23 Binding:T56 Theme:T29 Theme2:T30
+% E24 Binding:T57 Theme:T31 Theme2:T32
+% E25 Positive_regulation:T58 Theme:E24 Cause:E26
+% E27 Positive_regulation:T58 Theme:E24 Cause:E28
+% E26 Gene_expression:T59 Theme:T31
+% E28 Gene_expression:T59 Theme:T32
+
+Collectively, these results suggest that Foxp3 antagonizes CREB-dependent gene expression by directly interacting with coactivator p300 and interfering with its function and/or recruitment to CREB-responsive promoter sequences.
+# T33 Protein S16 41 46 2724 2729 Foxp3
+# T34 Protein S16 131 135 2814 2818 p300
+$ T33 Protein S16 41 46 2724 2729 Foxp3
+$ T34 Protein S16 131 135 2814 2818 p300
+@ T60 Binding S16 102 113 2785 2796 interacting
+@ T61 Negative_regulation S16 140 151 2823 2834 interfering
+@ T36 Anaphora S16 157 160 2840 2843 its
+@ T62 Binding S16 177 188 2860 2871 recruitment
+% E29 Binding:T60 Theme:T33 Theme2:T34
+% E30 Negative_regulation:T61 Theme:E31 Cause:E29
+% E31 Binding:T62 Theme:T34
+

@@ -1,0 +1,70 @@
+Thymocyte-thymic epithelial cell interaction leads to high-level replication of human immunodeficiency virus exclusively in mature CD4(+) CD8(-) CD3(+) thymocytes: a critical role for tumor necrosis factor and interleukin-7.
+# T1 Protein S1 131 134 131 134 CD4
+# T2 Protein S1 184 205 184 205 tumor necrosis factor
+# T3 Protein S1 210 223 210 223 interleukin-7
+
+This work aims at identifying the thymocyte subpopulation able to support human immunodeficiency virus (HIV) replication under the biological stimuli of the thymic microenvironment.
+
+In this report we demonstrate that interaction with thymic epithelial cells (TEC) induces a high-level replication of the T-tropic primary isolate HIV-1(B-LAIp) exclusively in the mature CD4(+) CD8(-) CD3(+) thymocytes.
+# T4 Protein S3 187 190 595 598 CD4
+
+Tumor necrosis factor (TNF) and interleukin-7 (IL-7), secreted during this interaction, are critical cytokines for HIV long terminal repeat transactivation through NF-kappaB-dependent activation.
+# T5 Protein S4 0 21 628 649 Tumor necrosis factor
+# T6 Protein S4 23 26 651 654 TNF
+# T7 Protein S4 32 45 660 673 interleukin-7
+# T8 Protein S4 47 51 675 679 IL-7
+$ T6 Protein S4 23 26 651 654 TNF
+$ T8 Protein S4 47 51 675 679 IL-7
+@ T25 Localization S4 54 62 682 690 secreted
+% E1 Localization:T25 Theme:T6
+% E2 Localization:T25 Theme:T8
+
+TNF is the major inducer of NF-kappaB and particularly of the p50-p65 complex, whereas IL-7 acts as a cofactor by sustaining the expression of the p75 TNF receptor.
+# T9 Protein S5 0 3 824 827 TNF
+# T10 Protein S5 62 65 886 889 p50
+# T11 Protein S5 66 69 890 893 p65
+# T12 Protein S5 87 91 911 915 IL-7
+# T13 Protein S5 147 163 971 987 p75 TNF receptor
+$ T11 Protein S5 66 69 890 893 p65
+$ T9 Protein S5 0 3 824 827 TNF
+$ T10 Protein S5 62 65 886 889 p50
+$ T12 Protein S5 87 91 911 915 IL-7
+$ T13 Protein S5 147 163 971 987 p75 TNF receptor
+@ T26 Positive_regulation S5 17 24 841 848 inducer
+@ T27 Positive_regulation S5 92 124 916 948 acts as a cofactor by sustaining
+@ T28 Gene_expression S5 129 139 953 963 expression
+% E3 Positive_regulation:T26 Theme:T11 Cause:T9
+% E4 Positive_regulation:T26 Theme:T10 Cause:T9
+% E5 Positive_regulation:T27 Theme:E6 Cause:T12
+% E6 Gene_expression:T28 Theme:T13
+
+The requirement for TNF is further confirmed by the observation that the inability of the intermediate CD4(+) CD8(-) CD3(-) thymocytes to replicate the virus is associated with a defect in TNF production during their interaction with TEC and correlates with the absence of nuclear NF-kappaB activity in these freshly isolated thymocytes.
+# T14 Protein S6 20 23 1009 1012 TNF
+# T15 Protein S6 103 106 1092 1095 CD4
+# T16 Protein S6 189 192 1178 1181 TNF
+$ T16 Protein S6 189 192 1178 1181 TNF
+@ T29 Gene_expression S6 193 203 1182 1192 production
+% E7 Gene_expression:T29 Theme:T16
+
+Addition of exogenous TNF to the intermediate thymocyte cultures induces NF-kappaB activity and is sufficient to promote HIV replication in the cocultures with TEC.
+# T17 Protein S7 22 25 1349 1352 TNF
+
+The other major subpopulation expressing the CD4 receptor, namely, the double-positive (DP) CD4(+) CD8(+) CD3(+/-) thymocytes, despite the entry of the virus, do not produce a significant level of virus, presumably because they are unresponsive to TNF and IL-7.
+# T18 Protein S8 45 48 1537 1540 CD4
+# T19 Protein S8 92 95 1584 1587 CD4
+# T20 Protein S8 248 251 1740 1743 TNF
+# T21 Protein S8 256 260 1748 1752 IL-7
+$ T18 Protein S8 45 48 1537 1540 CD4
+@ T30 Gene_expression S8 30 40 1522 1532 expressing
+% E8 Gene_expression:T30 Theme:T18
+
+Together, these data suggest that in vivo, despite an efficient entry of the virus in all the CD4(+) subpopulations, a high viral load may be generated exclusively within the mature CD4(+) CD8(-) CD3(+) subset of thymocytes.
+# T22 Protein S9 94 97 1848 1851 CD4
+# T23 Protein S9 182 185 1936 1939 CD4
+
+However, under conditions of inflammatory response after infection, TNF might also be present in the intermediate thymocyte compartment, leading to efficient HIV replication in these cells.
+# T24 Protein S10 68 71 2047 2050 TNF
+$ T24 Protein S10 68 71 2047 2050 TNF
+@ T31 Gene_expression S10 86 93 2065 2072 present
+% E9 Gene_expression:T31 Theme:T24
+

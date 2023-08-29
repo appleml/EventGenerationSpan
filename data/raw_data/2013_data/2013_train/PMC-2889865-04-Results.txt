@@ -1,0 +1,125 @@
+Cooperative induction of cytokines by AP-1 and NF-kappaB
+
+To further characterize the involvement of NF-kappaB in cytokine regulation, we treated cells with an NF-kappaB activation inhibitor (NAI).
+
+The results showed that NAI selectively down-regulated NF-kappaB activation (figures 4a and 4b) and did not alter AP-1 activity (figures 4c and 4d).
+
+Exposure of Jurkat T-cells to NAI resulted in a modest reduction of CXCL8 following PMA exposure, while it did not alter the CXCL8 release following HK E. coli exposure (figure 5a).
+# T1 Protein S4 68 73 414 419 CXCL8
+# T2 Protein S4 125 130 471 476 CXCL8
+$ T1 Protein S4 68 73 414 419 CXCL8
+$ T2 Protein S4 125 130 471 476 CXCL8
+@ T18 Negative_regulation S4 55 64 401 410 reduction
+@ T19 Positive_regulation S4 74 83 420 429 following
+@ T20 Regulation S4 115 120 461 466 alter
+@ T21 Localization S4 131 138 477 484 release
+@ T22 Positive_regulation S4 139 148 485 494 following
+% E1 Negative_regulation:T18 Theme:E2
+% E2 Positive_regulation:T19 Theme:T1
+% E3 Regulation:T20 Theme:E4
+% E5 Localization:T21 Theme:T2
+% E4 Positive_regulation:T22 Theme:E5
+
+NAI did not affect TNF expression (figure 5b) indicating that NF-kappaB is not the main regulator of CXCL8 or TNF following either PMA or HK E. coli exposure in Jurkat T-cells.
+# T3 Protein S5 101 106 629 634 CXCL8
+$ T3 Protein S5 101 106 629 634 CXCL8
+@ T23 Regulation S5 88 97 616 625 regulator
+@ T24 Positive_regulation S5 114 123 642 651 following
+% E6 Regulation:T23 Theme:E7
+% E7 Positive_regulation:T24 Theme:T3
+
+In contrast, NAI resulted in a complete inhibition of IL-6 following PMA exposure and a 45% inhibition following HK E. coli exposure (figure 5c), suggesting an involvement of NF-kappaB in IL-6 regulation.
+# T4 Protein S6 54 58 759 763 IL-6
+# T5 Protein S6 188 192 893 897 IL-6
+$ T4 Protein S6 54 58 759 763 IL-6
+$ T5 Protein S6 188 192 893 897 IL-6
+@ T25 Negative_regulation S6 40 50 745 755 inhibition
+@ T26 Positive_regulation S6 59 68 764 773 following
+@ T27 Negative_regulation S6 92 102 797 807 inhibition
+@ T28 Positive_regulation S6 103 112 808 817 following
+@ T29 Regulation S6 160 171 865 876 involvement
+@ T30 Regulation S6 193 203 898 908 regulation
+% E8 Negative_regulation:T25 Theme:T4
+% E9 Positive_regulation:T26 Theme:T4
+% E10 Negative_regulation:T27 Theme:T4
+% E11 Positive_regulation:T28 Theme:T4
+% E12 Regulation:T29 Theme:E13
+% E13 Regulation:T30 Theme:T5
+
+Ca2+ was observed to increase AP-1 activity (figure 1c) and reduce NF-kappaB activity (figure 2e); therefore, we exposed T-cells to a PKC inhibitor together with PMA to determine its effect on cytokine expression.
+
+Inhibition of PKC reduced CXCL8 release from 7 ng/ml to 3 ng/ml while it had a modest effect on IL-6 and TNF (figure 6a-c).
+# T6 Protein S8 26 31 1150 1155 CXCL8
+# T7 Protein S8 96 100 1220 1224 IL-6
+$ T6 Protein S8 26 31 1150 1155 CXCL8
+$ T7 Protein S8 96 100 1220 1224 IL-6
+@ T31 Negative_regulation S8 18 25 1142 1149 reduced
+@ T32 Localization S8 32 39 1156 1163 release
+@ T33 Regulation S8 86 92 1210 1216 effect
+% E14 Negative_regulation:T31 Theme:E15
+% E15 Localization:T32 Theme:T6
+% E16 Regulation:T33 Theme:T7
+
+This prompted us to test the effect of JNK inhibition on PMA-induced cytokine expression.
+
+JNK is involved in the regulation of a multitude of different transcription factors, including the phosphorylation and activation of c-Jun, c-Fos and p53, leading to cellular apoptosis [26].
+# T8 Protein S10 133 138 1471 1476 c-Jun
+# T9 Protein S10 140 145 1478 1483 c-Fos
+# T10 Protein S10 150 153 1488 1491 p53
+$ T8 Protein S10 133 138 1471 1476 c-Jun
+$ T9 Protein S10 140 145 1478 1483 c-Fos
+$ T10 Protein S10 150 153 1488 1491 p53
+@ T34 Phosphorylation S10 99 114 1437 1452 phosphorylation
+@ T35 Positive_regulation S10 119 129 1457 1467 activation
+% E17 Phosphorylation:T34 Theme:T8
+% E18 Phosphorylation:T34 Theme:T9
+% E19 Phosphorylation:T34 Theme:T10
+% E20 Positive_regulation:T35 Theme:T8
+% E21 Positive_regulation:T35 Theme:T9
+% E22 Positive_regulation:T35 Theme:T10
+
+Inhibition of the JNK pathways resulted in a down-regulation of both CXCL8 and IL-6, while no clear effect was observed on TNF expression (figure 6a-c).
+# T11 Protein S11 69 74 1598 1603 CXCL8
+# T12 Protein S11 79 83 1608 1612 IL-6
+$ T11 Protein S11 69 74 1598 1603 CXCL8
+$ T12 Protein S11 79 83 1608 1612 IL-6
+@ T36 Positive_regulation S11 31 39 1560 1568 resulted
+@ T37 Negative_regulation S11 45 60 1574 1589 down-regulation
+% E23 Positive_regulation:T36 Theme:E24
+% E25 Positive_regulation:T36 Theme:E26
+% E24 Negative_regulation:T37 Theme:T11
+% E26 Negative_regulation:T37 Theme:T12
+
+Analysis of mRNA levels using RT-qPCR (table 2) showed that PMA induced both il-6 and cxcl8 mRNA (5.1-fold and 111.8 fold respectively).
+# T13 Protein S12 77 81 1759 1763 il-6
+# T14 Protein S12 86 91 1768 1773 cxcl8
+$ T13 Protein S12 77 81 1759 1763 il-6
+$ T14 Protein S12 86 91 1768 1773 cxcl8
+@ T38 Positive_regulation S12 64 71 1746 1753 induced
+@ T39 Transcription S12 92 96 1774 1778 mRNA
+% E27 Positive_regulation:T38 Theme:E28
+% E29 Positive_regulation:T38 Theme:E30
+% E28 Transcription:T39 Theme:T13
+% E30 Transcription:T39 Theme:T14
+
+Addition of the NF-kappaB inhibitor NAI and the JNK inhibitor reduced the il-6 expression below basal levels.
+# T15 Protein S13 74 78 1893 1897 il-6
+$ T15 Protein S13 74 78 1893 1897 il-6
+@ T40 Negative_regulation S13 62 69 1881 1888 reduced
+@ T41 Transcription S13 79 89 1898 1908 expression
+% E31 Negative_regulation:T40 Theme:E32
+% E32 Transcription:T41 Theme:T15
+
+In contrast, while the cxcl8 levels were suppressed by the same treatments the levels remained elevated above basal level.
+# T16 Protein S14 23 28 1952 1957 cxcl8
+$ T16 Protein S14 23 28 1952 1957 cxcl8
+@ T42 Transcription S14 29 35 1958 1964 levels
+@ T43 Negative_regulation S14 41 51 1970 1980 suppressed
+@ T17 Anaphora S14 75 85 2004 2014 the levels
+@ T44 Regulation S14 86 94 2015 2023 remained
+@ T45 Positive_regulation S14 95 103 2024 2032 elevated
+% E33 Transcription:T42 Theme:T16
+% E34 Negative_regulation:T43 Theme:E33
+% E35 Regulation:T44 Theme:E36
+% E36 Positive_regulation:T45 Theme:E33
+

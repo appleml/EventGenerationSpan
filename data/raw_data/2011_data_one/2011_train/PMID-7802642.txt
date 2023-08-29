@@ -1,0 +1,43 @@
+Platelet-activating factor (PAF) positively auto-regulates the expression of human PAF receptor transcript 1 (leukocyte-type) through NF-kappa B.
+# T1 Protein S1 83 95 83 95 PAF receptor
+$ T1 Protein S1 83 95 83 95 PAF receptor
+@ T13 Positive_regulation S1 63 73 63 73 expression
+% E1 Positive_regulation:T13 Theme:T1
+
+The human platelet-activating factor receptor (PAFR) gene is transcribed by two distinct promoters (promoter 1 and promoter 2) to generate two transcripts (designated as PAFR transcript 1 and PAFR transcript 2), though their open reading frames are identical.
+# T2 Protein S2 10 45 157 192 platelet-activating factor receptor
+# T3 Protein S2 47 51 194 198 PAFR
+# T4 Protein S2 170 174 317 321 PAFR
+# T5 Protein S2 192 196 339 343 PAFR
+$ T3 Protein S2 47 51 194 198 PAFR
+@ T14 Transcription S2 61 72 208 219 transcribed
+@ T15 Positive_regulation S2 73 75 220 222 by
+% E2 Transcription:T14 Theme:T3
+% E3 Positive_regulation:T15 Theme:E2
+
+By primer extension analysis to discriminate two transcripts, we found that the levels of PAFR transcript 1 (leukocyte-type), but not PAFR transcript 2 (tissue-type), are upregulated by PAF as well as by 12-O-tetradecanoylphorbol-13-acetate (TPA) in the human stomach cancer cell line (JR-St cells) which expresses both functional PAFR transcript 1 and PAFR transcript 2 endogenously.
+# T6 Protein S3 90 94 497 501 PAFR
+# T7 Protein S3 134 138 541 545 PAFR
+# T8 Protein S3 331 335 738 742 PAFR
+# T9 Protein S3 353 357 760 764 PAFR
+$ T7 Protein S3 134 138 541 545 PAFR
+$ T8 Protein S3 331 335 738 742 PAFR
+$ T9 Protein S3 353 357 760 764 PAFR
+@ T16 Positive_regulation S3 171 182 578 589 upregulated
+@ T17 Gene_expression S3 305 314 712 721 expresses
+% E4 Positive_regulation:T16 Theme:T7
+% E5 Gene_expression:T17 Theme:T8
+% E6 Gene_expression:T17 Theme:T9
+
+Functional analysis of the promoter 1 with a transient expression assay using chloramphenicol acetyltransferase (CAT) gene as a reporter showed that both PAF and TPA activated the promoter 1 but not the deleted promoter lacking the three consensus binding sites for NF-kappa B located from -571 bp to -459 bp.
+# T10 Protein S4 78 111 870 903 chloramphenicol acetyltransferase
+# T11 Protein S4 113 116 905 908 CAT
+
+These findings suggest a molecular mechanism of positive regulation of PAFR gene expression by PAF through NF-kappa B, possibly by a phosphorylation reaction involving protein kinase C by PAF.
+# T12 Protein S5 71 75 1173 1177 PAFR
+$ T12 Protein S5 71 75 1173 1177 PAFR
+@ T18 Positive_regulation S5 48 67 1150 1169 positive regulation
+@ T19 Gene_expression S5 81 91 1183 1193 expression
+% E7 Positive_regulation:T18 Theme:E8
+% E8 Gene_expression:T19 Theme:T12
+
